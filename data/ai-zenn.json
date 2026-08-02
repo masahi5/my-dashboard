@@ -6,30 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "8fe61cbabfe4",
-      "title": "Claude Codeで9部署のAIエージェント組織を構築した — CLAUDE.mdとディレクトリ設計の全体像",
-      "url": "https://zenn.dev/shinyu/articles/58e967fb3b9133",
-      "publishedAt": "2026-08-02T17:18:13.000Z",
-      "publisher": "Shinyu",
-      "summary": "はじめに 「人間1名 + AIエージェント9部署」で会社を運営する仕組みを作りました。 使っているのはClaude Code（Anthropic社のCLI型AIエージェント）とGitリポジトリだけです。特別なフレームワークやプラットフォー…"
-    },
-    {
-      "id": "f0cecf7f8eeb",
-      "title": "CLAUDE.md 200行で指示が消える説——4リポジトリで確かめた",
-      "url": "https://zenn.dev/joemike/articles/claude-md-size-experiment-2026",
-      "publishedAt": "2026-08-02T17:15:22.000Z",
-      "publisher": "ミケ",
-      "summary": "「CLAUDE.md が200行を超えると Claude Code が指示を無視し始める」——そういう話を note.com で読んだ。ソースは単一記事で、数値の根拠は書かれていなかった。 信じるか無視するか迷ったが、どちらも腑に落ちない…"
-    },
-    {
-      "id": "980f276dd04a",
-      "title": "AIと広告営業マンさんと、五キロの塩。 無料AIを観察して見えてきたこと",
-      "url": "https://zenn.dev/pomodoro_naomi/articles/c0e556a3182eb6",
-      "publishedAt": "2026-08-02T16:35:37.000Z",
-      "publisher": "🍅Pomodoroナオミ🍅",
-      "summary": "はじめに 今日は真面目なAI考察を書こうと思っていた。……そのはずだった。 しかし、私のPC縁側は、無料版ChatGPTによって無限に提示される広告AI営業マンさんの聖地と化していた。さらにGrokの誘導型提案営業にも遭遇し、AI利用体験…"
-    },
-    {
       "id": "b094c8e7a393",
       "title": "常駐型AIエージェントの「なぜその判断をしたか」を追えるようにする観測性設計",
       "url": "https://zenn.dev/hach/articles/chat-agent-decision-trace-observability-design",
@@ -100,9 +76,33 @@
       "publishedAt": "2026-08-02T11:46:11.000Z",
       "publisher": "d-study lab",
       "summary": "AIエージェントを寝ている間に走らせるようになって、いちばん時間を使ったのはプロンプトの工夫ではなく、境界線を引くことだった。 何を任せて、何を任せないか。どこで止めさせるか。止まったことをどう知るか。この3つが決まっていないと、朝起きた…"
+    },
+    {
+      "id": "c29d1d3e9dae",
+      "title": "Qwen 35Bの品質を7つの質問で採点したら、GPT-4に勝てるのは3領域だけだった",
+      "url": "https://zenn.dev/kenimo49/articles/qwen-35b-7q-quality-vs-gpt4-3-domains",
+      "publishedAt": "2026-08-02T11:16:45.000Z",
+      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
+      "summary": "ローカル LLM は所詮遊びだと思って、3ヶ月ほど RTX 4070 のフォルダを放置していました。家庭用 GPU で 35B クラスを動かせても、どうせ品質は API の GPT-4 に完敗するのだろう。そう決めつけて、ベンチ計測もサボ…"
+    },
+    {
+      "id": "d308a4fb1db3",
+      "title": "GarminデータをAIへ安全に渡すExternal-safe Packの設計",
+      "url": "https://zenn.dev/tsubotti63/articles/garmin-external-safe-pack-for-ai",
+      "publishedAt": "2026-08-02T10:45:18.000Z",
+      "publisher": "tsubotti63",
+      "summary": "Garmin Account Data Exportを繰り返し取得し、Snapshot Accumulationで 観測履歴を蓄積できるようになりました。 次に考えるべきなのは、蓄積したデータをAIへどう渡すかです。 Garmin Exp…"
+    },
+    {
+      "id": "18cd5a8e8e78",
+      "title": "「AIは×10、コンパイラは×1000」Linus TorvaldsがAIを語った回を要点解説",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr21-linus-summary",
+      "publishedAt": "2026-08-02T10:37:07.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について ! 本記事は Linus Torvalds が Open Source Summit North America 2026 のキーノート（聞き手: Dirk Hohndel）で語った内容の紹介と論評を目的としています。発…"
     }
   ],
-  "fetchedAt": "2026-08-02T20:35:22.127Z",
+  "fetchedAt": "2026-08-02T21:36:42.452Z",
   "stale": false,
   "error": null
 }
