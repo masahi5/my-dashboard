@@ -91,19 +91,55 @@ export function pickDate(item: RawItem): string {
     : new Date().toISOString();
 }
 
+const NAMED_ENTITIES: Record<string, string> = {
+  nbsp: " ",
+  quot: '"',
+  apos: "'",
+  lt: "<",
+  gt: ">",
+  amp: "&",
+};
+
+/**
+ * 実体参照を1パスで復号する。
+ *
+ * 逐次 replace を並べる実装だと `&amp;` を戻した結果が次の replace の入力になり、
+ * 二重デコードで壊れる。正規表現1回で置換することでそれを避ける。
+ * 数値文字参照（&#x307F; / &#12415;）にも対応する — はてなブックマークの
+ * タイトルは日本語がこの形式で入ってくる。
+ */
+function decodeEntitiesOnce(input: string): string {
+  return input.replace(/&(#[xX][0-9a-fA-F]+|#\d+|[a-zA-Z]+);/g, (match, entity: string) => {
+    if (entity.startsWith("#")) {
+      const isHex = entity[1] === "x" || entity[1] === "X";
+      const code = Number.parseInt(isHex ? entity.slice(2) : entity.slice(1), isHex ? 16 : 10);
+      if (!Number.isFinite(code) || code < 0 || code > 0x10ffff) return match;
+      try {
+        return String.fromCodePoint(code);
+      } catch {
+        return match;
+      }
+    }
+    return NAMED_ENTITIES[entity] ?? match;
+  });
+}
+
+export function decodeEntities(input: string): string {
+  const once = decodeEntitiesOnce(input);
+  // 一部フィード（はてブ等）は実体参照が二重エスケープされている（&amp;#x307F;）。
+  // 数値参照が残っているときだけもう1パスかける。
+  return /&#(?:[xX][0-9a-fA-F]+|\d+);/.test(once) ? decodeEntitiesOnce(once) : once;
+}
+
 /** description に HTML が入るソースが多いので、素のテキストへ落とす。 */
 export function stripHtml(html: string): string {
-  return html
-    .replace(/<script[\s\S]*?<\/script>/gi, "")
-    .replace(/<style[\s\S]*?<\/style>/gi, "")
-    .replace(/<[^>]*>/g, " ")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&quot;/g, '"')
-    .replace(/&#0?39;/g, "'")
-    .replace(/&apos;/g, "'")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&amp;/g, "&") // &amp; は最後（先に戻すと二重デコードになる）
+  return decodeEntities(
+    // タグを落としてから復号する。順序を逆にすると &lt;script&gt; が本物のタグに戻る。
+    html
+      .replace(/<script[\s\S]*?<\/script>/gi, "")
+      .replace(/<style[\s\S]*?<\/style>/gi, "")
+      .replace(/<[^>]*>/g, " "),
+  )
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -112,9 +148,23 @@ export function truncate(value: string, max: number): string {
   return value.length <= max ? value : `${value.slice(0, max - 1)}…`;
 }
 
-/** URL から安定IDを作る。取得のたびに変わらないので重複排除に使える。 */
-export function makeId(url: string): string {
-  return createHash("sha1").update(url).digest("hex").slice(0, 12);
+/**
+ * 安定IDを作る。取得のたびに変わらないので重複排除と React の key に使える。
+ * 通常は URL を渡すが、Google トレンドのように全項目が同じ URL を返すソースでは
+ * タイトル等の一意な文字列を渡す。
+ */
+export function makeId(seed: string): string {
+  return createHash("sha1").update(seed).digest("hex").slice(0, 12);
+}
+
+/** 同じ記事が複数回現れるフィードがあるので、ID で畳む。 */
+export function dedupeById<T extends { id: string }>(items: T[]): T[] {
+  const seen = new Set<string>();
+  return items.filter((item) => {
+    if (seen.has(item.id)) return false;
+    seen.add(item.id);
+    return true;
+  });
 }
 
 const USER_AGENT =

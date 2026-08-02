@@ -2,7 +2,8 @@
 
 # My Dashboard
 
-AI・コールセンター/情シス・ゲーム・世間の話題を1画面に集約する個人ダッシュボード。
+個人的に欲しい情報を集約したダッシュボード（AI / コールセンター・情シス / ゲーム / 話題の4カテゴリ・12ソース）。
+公開先: https://masahi5.github.io/my-dashboard/
 
 **運用費ゼロ**が設計上の最重要制約：常時起動サーバーを持たず、GitHub Actions でデータを取得し、
 静的書き出しした Next.js を GitHub Pages から配信する。APIキーが必要な情報源は採用しない。
@@ -10,7 +11,7 @@ AI・コールセンター/情シス・ゲーム・世間の話題を1画面に�
 ## Architecture / Data flow
 
 ```
-GitHub Actions (cron 毎時)
+GitHub Actions (cron 15分ごと)
   ├─▶ npm run fetch  (scripts/fetch-feeds.ts) ──▶ data/*.json を commit
   └─▶ npm run build  (output: "export")       ──▶ out/ ──▶ GitHub Pages
 ```
@@ -28,12 +29,19 @@ GitHub Actions (cron 毎時)
 - `lib/sources/types.ts` — `Source` 型。1情報源 = key / label / category / fetch()
 - `lib/sources/rss.ts` — **RSS 1.0(RDF) / RSS 2.0 / Atom を1関数で吸収する汎用パーサ**。
   `removeNSPrefix: true` が肝（`dc:date`→`date`、`hatena:bookmarkcount`→`bookmarkcount`）
+  実体参照の復号もここ（数値文字参照・二重エスケープ対応。はてブのタイトルが該当）
+- `lib/sources/generic-rss.ts` — 素直な RSS/Atom 用の汎用ソース（Zenn / ITmedia / 4Gamer）
 - `lib/sources/google-news.ts` — 検索クエリをRSS化するソース生成関数。専門領域はこれで賄う
+- `lib/sources/hatena.ts` — はてブ人気エントリ。`hatena:bookmarkcount` を score に。ブクマ数降順
+- `lib/sources/hacker-news.ts` — Algolia API（公式Firebase版はN+1になるので不採用）
+- `lib/sources/hugging-face.ts` — Daily Papers。レスポンス形状が2通りあるため両対応
+- `lib/sources/google-trends.ts` — 急上昇ワード。**全項目のlinkが同一なのでIDは検索語から生成する**
 - `lib/sources/index.ts` — 収集対象の一覧。**ここに1件足すとウィジェットが1つ増える**
 - `scripts/fetch-feeds.ts` — パイプライン本体。取得 → zod検証 → `data/<key>.json` 書き出し
 
 ### 表示（`app/` + `components/`）
-- `lib/feeds.ts` — `readFeed(key)`。**Server Component 専用**（fs を使う）。スキーマ不正なら null
+- `lib/feeds.ts` — `readAllFeeds()` / `groupByCategory()`。**Server Component 専用**（fs を使う）。
+  ページはキーを列挙せずこれを使うので、ソース追加だけでウィジェットが増える
 - `lib/format.ts` — 日時整形。**必ず `timeZone: "Asia/Tokyo"` を指定する**（後述）
 - `components/widgets/feed-card.tsx` — フィード1本のウィジェット。空/stale の状態も明示する
 - `components/relative-time.tsx` — 相対時刻。Client Component（後述）
@@ -69,15 +77,21 @@ npm run lint
 1. `lib/sources/` に `Source` を返す関数を書く（RSSなら `rss.ts` のヘルパを使う）
 2. `lib/sources/index.ts` の `sources` 配列に追加
 3. `npm run fetch` で `data/<key>.json` が生えるのを確認
-4. `app/page.tsx` に `readFeed("<key>")` と `<FeedCard>` を足す
 
-### 追加予定のソース（調査済み・全てキー不要で動作確認済み）
-| カテゴリ | ソース | エンドポイント |
+`app/page.tsx` の編集は不要。`readAllFeeds()` が `data/` を走査してカテゴリ別に並べる。
+
+### 現在のソース（12件・すべてAPIキー不要）
+| カテゴリ | key | 取得元 |
 |---|---|---|
-| AI | Hugging Face Daily Papers | `huggingface.co/api/daily_papers?limit=20`（JSON, upvotes付き） |
-| AI | Zenn AIトピック | `zenn.dev/topics/ai/feed`（RSS 2.0） |
-| 情シス | ITmedia エンタープライズ | `rss.itmedia.co.jp/rss/2.0/enterprise.xml`（RSS 2.0） |
-| ゲーム | 4Gamer | `www.4gamer.net/rss/index.xml`（RSS 1.0） |
-| ゲーム | はてブ アニメとゲーム | `b.hatena.ne.jp/hotentry/game.rss`（RSS 1.0, ブクマ数付き） |
-| 話題 | Google トレンド日本 | `trends.google.co.jp/trending/rss?geo=JP`（RSS, 検索数付き） |
-| 話題 | Hacker News | `hn.algolia.com/api/v1/search?tags=front_page`（JSON, points付き） |
+| ai | `ai-papers` | Hugging Face Daily Papers（JSON, upvotes） |
+| ai | `ai-zenn` | Zenn AIトピック（RSS 2.0） |
+| ai | `ai-news` | Google ニュース検索（生成AI・LLM） |
+| callcenter | `callcenter-news` | Google ニュース検索（コールセンター・CTI） |
+| callcenter | `enterprise-it` | ITmedia エンタープライズ（RSS 2.0） |
+| callcenter | `it-hatena` | はてブ テクノロジー（RSS 1.0, ブクマ数） |
+| game | `game-4gamer` | 4Gamer（RSS 1.0） |
+| game | `game-news` | Google ニュース検索（ゲーム） |
+| game | `game-hatena` | はてブ アニメとゲーム（RSS 1.0, ブクマ数） |
+| trend | `trend-google` | Google トレンド日本（RSS, 検索数） |
+| trend | `trend-hatena` | はてブ 総合（RSS 1.0, ブクマ数） |
+| trend | `trend-hackernews` | Hacker News / Algolia（JSON, points） |

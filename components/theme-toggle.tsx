@@ -2,19 +2,16 @@
 
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
+import { useIsHydrated } from "@/lib/hooks";
 
 export function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const hydrated = useIsHydrated();
 
-  // テーマは localStorage / OS設定で決まるため、サーバー側では確定できない。
-  // マウント前にアイコンを描くとハイドレーション不整合になるので、
-  // それまでは同じ大きさのプレースホルダを出してレイアウトのズレも防ぐ。
-  useEffect(() => setMounted(true), []);
-
-  if (!mounted) {
+  // テーマは localStorage / OS設定で決まるためサーバー側では確定できない。
+  // ハイドレーション前は同じ大きさのプレースホルダを出し、レイアウトのズレも防ぐ。
+  if (!hydrated) {
     return <div className="size-9" aria-hidden />;
   }
 

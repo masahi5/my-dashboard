@@ -1,0 +1,108 @@
+{
+  "key": "ai-zenn",
+  "label": "Zenn / AI",
+  "description": "日本語の AI 実践記事（Zenn の AI トピック）",
+  "homepage": "https://zenn.dev/topics/ai",
+  "category": "ai",
+  "items": [
+    {
+      "id": "80ed1dfe863b",
+      "title": "AIの「実測しました」を3回信じて、3回とも間違っていた — 出力を確認する型",
+      "url": "https://zenn.dev/dstudylab/articles/trust-but-verify-ai-output",
+      "publishedAt": "2026-08-02T11:46:12.000Z",
+      "publisher": "d-study lab",
+      "summary": "AIに仕事を任せる量が増えると、あるところで詰まる。成果物の量ではなく、成果物を確認する時間が足りなくなる。 そして厄介なのは、AIが間違えるとき、たいてい自信を持って間違えることだ。「実測しました」「確認済みです」「テストは全部通りまし…"
+    },
+    {
+      "id": "af53a71c3be6",
+      "title": "AIに夜通し働かせるとき、事故らせないために引いた境界線",
+      "url": "https://zenn.dev/dstudylab/articles/overnight-agent-boundaries",
+      "publishedAt": "2026-08-02T11:46:11.000Z",
+      "publisher": "d-study lab",
+      "summary": "AIエージェントを寝ている間に走らせるようになって、いちばん時間を使ったのはプロンプトの工夫ではなく、境界線を引くことだった。 何を任せて、何を任せないか。どこで止めさせるか。止まったことをどう知るか。この3つが決まっていないと、朝起きた…"
+    },
+    {
+      "id": "c29d1d3e9dae",
+      "title": "Qwen 35Bの品質を7つの質問で採点したら、GPT-4に勝てるのは3領域だけだった",
+      "url": "https://zenn.dev/kenimo49/articles/qwen-35b-7q-quality-vs-gpt4-3-domains",
+      "publishedAt": "2026-08-02T11:16:45.000Z",
+      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
+      "summary": "ローカル LLM は所詮遊びだと思って、3ヶ月ほど RTX 4070 のフォルダを放置していました。家庭用 GPU で 35B クラスを動かせても、どうせ品質は API の GPT-4 に完敗するのだろう。そう決めつけて、ベンチ計測もサボ…"
+    },
+    {
+      "id": "d308a4fb1db3",
+      "title": "GarminデータをAIへ安全に渡すExternal-safe Packの設計",
+      "url": "https://zenn.dev/tsubotti63/articles/garmin-external-safe-pack-for-ai",
+      "publishedAt": "2026-08-02T10:45:18.000Z",
+      "publisher": "tsubotti63",
+      "summary": "Garmin Account Data Exportを繰り返し取得し、Snapshot Accumulationで 観測履歴を蓄積できるようになりました。 次に考えるべきなのは、蓄積したデータをAIへどう渡すかです。 Garmin Exp…"
+    },
+    {
+      "id": "18cd5a8e8e78",
+      "title": "「AIは×10、コンパイラは×1000」Linus TorvaldsがAIを語った回を要点解説",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr21-linus-summary",
+      "publishedAt": "2026-08-02T10:37:07.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について ! 本記事は Linus Torvalds が Open Source Summit North America 2026 のキーノート（聞き手: Dirk Hohndel）で語った内容の紹介と論評を目的としています。発…"
+    },
+    {
+      "id": "3c944804d5cb",
+      "title": "なぜMCPは「セッション」を捨てたのか ─ 2026-07-28 改訂とステートレスコアの設計思想",
+      "url": "https://zenn.dev/yun_bow/articles/8a162af74f2a55",
+      "publishedAt": "2026-08-02T10:11:41.000Z",
+      "publisher": "ゆんぼう",
+      "summary": "! 本記事は書籍のダイジェスト記事だ 内容は、Zenn に公開予定の本「MCPサーバーを作るガイドライン解説 ― Node.js + TypeScript で学ぶ AI エージェント時代のツール設計指針【2026-07-28 仕様改訂対応…"
+    },
+    {
+      "id": "0b08eedba5ad",
+      "title": "MCPサーバーを作るガイドライン解説 ― Node.js + TypeScript で学ぶ AI エージェント時代のツール設計指針",
+      "url": "https://zenn.dev/yun_bow/books/f0b23ef3093ddf",
+      "publishedAt": "2026-08-02T10:09:34.000Z",
+      "publisher": "ゆんぼう",
+      "summary": "MCP SDK のチュートリアル通りに `tools/call` を実装すれば、MCP サーバーは「動き」ます。しかし「動く」ことと「AI が迷わず使いこなせる」ことは別物です。説明文が曖昧で AI がツール選択に迷う、レスポンスが JS…"
+    },
+    {
+      "id": "1d9a89bdc39d",
+      "title": "Claude Codeで自動化タスクを並行運用して分かった落とし穴と対策",
+      "url": "https://zenn.dev/jidoka_lab/articles/claude-code-automation-pitfalls",
+      "publishedAt": "2026-08-02T10:04:45.000Z",
+      "publisher": "自動化ラボ / jidoka-lab",
+      "summary": "「動いているはず」が一番危ない 個人開発や副業で自動化スクリプトを1本だけ回している間は、そこまで大きな事故は起きません。何かおかしければすぐ気づけますし、確認する対象も1つだけだからです。ところが、定期実行のスクリプトやスケジュール運用…"
+    },
+    {
+      "id": "ce79f654968d",
+      "title": "Googleが発表した新Web標準ドラフト――WebMCP。実際どうなの？ IO Extendedで実装・登壇して分かったこと",
+      "url": "https://zenn.dev/tanahiro2010/articles/b62637d8e55d2b",
+      "publishedAt": "2026-08-02T09:43:02.000Z",
+      "publisher": "tanahiro2010",
+      "summary": "こんにちは。 普段は tanahiro2010 という名前で活動しています。GDG Greater Kwansaiに所属しています。 Google I/O Extended Osaka 2026のハンズオン「WebMCP を作って AI …"
+    },
+    {
+      "id": "354ed9a87ae0",
+      "title": "AIセキュリティに関する論文メモ⓷〜AgentDojo編〜",
+      "url": "https://zenn.dev/naoyabone/articles/b61b8804099e52",
+      "publishedAt": "2026-08-02T09:42:17.000Z",
+      "publisher": "ぼさぼさ",
+      "summary": "AgentDojo を読む arXiv: 2406.13352 (NeurIPS 2024 Datasets & Benchmarks) この論文が答えている問い 信頼できないデータ（メールやウェブ等）をツール経由で扱うLLMエージェント…"
+    },
+    {
+      "id": "cd3f6be7c0f2",
+      "title": "決定論的生成を土台に、非決定論的生成でビジネスロジックを書く",
+      "url": "https://zenn.dev/ayaextech_fill/articles/deterministic-codegen-with-llm-logic",
+      "publishedAt": "2026-08-02T09:28:55.000Z",
+      "publisher": "泡沫京水",
+      "summary": "はじめに ! この記事は、大部分がAIによる生成で記述されています。 記事の投稿にあたり、筆者がGitHubリポジトリ上でPRレビュワーとして チェックを行っていますが、AIらしい書き回しが残っている場合があるため、 わかりづらいところが…"
+    },
+    {
+      "id": "585678511763",
+      "title": "海外のSpecと日本の仕様は何が違うのか",
+      "url": "https://zenn.dev/yoshipon_tech/articles/34517dc09804dd",
+      "publishedAt": "2026-08-02T09:17:49.000Z",
+      "publisher": "よしぽん",
+      "summary": "この記事の要点 Kiroの requirements.md は要件定義ではなく、日本語で言う仕様に近い 誤読するのは英単語の見た目に引きずられるから。ファイル名ではなく、それがSpecという箱のどこに置かれているかで判断する SDDの本質…"
+    }
+  ],
+  "fetchedAt": "2026-08-02T16:02:44.749Z",
+  "stale": false,
+  "error": null
+}

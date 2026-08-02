@@ -13,6 +13,9 @@ export const CATEGORY_LABELS: Record<Category, string> = {
   trend: "話題",
 };
 
+/** ダッシュボード上のセクション表示順 */
+export const CATEGORY_ORDER: readonly Category[] = ["ai", "callcenter", "game", "trend"];
+
 /**
  * 全ソース共通に正規化した記事1件。
  *

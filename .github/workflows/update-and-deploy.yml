@@ -2,8 +2,9 @@ name: フィード更新 & デプロイ
 
 on:
   schedule:
-    # UTC で毎時0分（JST では毎時0分）。Actions の cron は数分ずれることがある。
-    - cron: "0 * * * *"
+    # 15分ごと。GitHub Actions の cron は最短5分間隔まで指定できるが、
+    # 実行時刻は保証されず混雑時は数分〜十数分遅れることがある（ベストエフォート）。
+    - cron: "*/15 * * * *"
   push:
     branches: [main]
   workflow_dispatch: # 手動実行用
@@ -43,6 +44,8 @@ jobs:
           git add data
           # 変更が無いときに commit すると失敗するので差分を見てから
           git diff --staged --quiet || git commit -m "chore(data): フィード更新 [skip ci]"
+          # 実行が詰まった場合に備えて、push 前に最新を取り込む
+          git pull --rebase --autostash origin main
           git push
 
       - name: ビルド（静的書き出し）

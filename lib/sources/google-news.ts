@@ -1,6 +1,15 @@
 import type { Category, FeedItem } from "../schemas";
 import type { Source } from "./types";
-import { fetchText, makeId, parseFeedItems, pickDate, pickLink, stripHtml, text } from "./rss";
+import {
+  dedupeById,
+  fetchText,
+  makeId,
+  parseFeedItems,
+  pickDate,
+  pickLink,
+  stripHtml,
+  text,
+} from "./rss";
 
 type GoogleNewsOptions = {
   key: string;
@@ -61,13 +70,4 @@ export function googleNews(options: GoogleNewsOptions): Source {
       );
     },
   };
-}
-
-function dedupeById(items: FeedItem[]): FeedItem[] {
-  const seen = new Set<string>();
-  return items.filter((item) => {
-    if (seen.has(item.id)) return false;
-    seen.add(item.id);
-    return true;
-  });
 }

@@ -1,15 +1,26 @@
 # My Dashboard
 
-AI・コールセンター/情シス・ゲーム・世間の話題を1画面に集約する個人ダッシュボード。
+個人的に欲しい情報を集約したダッシュボード。
 
-**運用費ゼロ**。常時起動サーバーを持たず、GitHub Actions が定期的にフィードを取得し、
+**運用費ゼロ**。常時起動サーバーを持たず、GitHub Actions が15分ごとにフィードを取得し、
 静的書き出しした Next.js を GitHub Pages から配信する。APIキーが必要な情報源は使わない。
 
+**公開先: https://masahi5.github.io/my-dashboard/**
+
 ```
-GitHub Actions (cron 毎時)
+GitHub Actions (cron 15分ごと)
   ├─▶ npm run fetch ──▶ data/*.json を commit
   └─▶ npm run build ──▶ out/ ──▶ GitHub Pages
 ```
+
+## 情報源（12ソース・すべてAPIキー不要）
+
+| カテゴリ | ソース |
+|---|---|
+| AI | Hugging Face Daily Papers / Zenn AIトピック / Google ニュース（生成AI・LLM） |
+| コールセンター・情シス | Google ニュース（コールセンター・CTI） / ITmedia エンタープライズ / はてブ テクノロジー |
+| ゲーム | 4Gamer / Google ニュース（ゲーム） / はてブ アニメとゲーム |
+| 話題 | Google トレンド日本 / はてブ 総合 / Hacker News |
 
 ## 技術スタック
 
