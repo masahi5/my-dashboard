@@ -6,6 +6,30 @@
   "category": "ai",
   "items": [
     {
+      "id": "68ebe426e302",
+      "title": "Cloudflare Agentsで簡易記憶を実装する",
+      "url": "https://zenn.dev/8845musign/articles/dcbb8ae84eb397",
+      "publishedAt": "2026-08-02T13:26:38.000Z",
+      "publisher": "腹筋ローラーの力を信じろ",
+      "summary": "Cloudflare AgentsのThinkとSession APIを使って、エージェントに簡易的な記憶を持たせるための調査を行いました。OpenClawでいうSoulや、ChatGPTにおけるメモリに相当するものです。 今回はThin…"
+    },
+    {
+      "id": "012dbe210d8b",
+      "title": "プロンプト・コンテキスト・ハーネス・ループの違いを「設計責任」で整理する",
+      "url": "https://zenn.dev/kittybbit/articles/1433959c42ba79",
+      "publishedAt": "2026-08-02T12:09:57.000Z",
+      "publisher": "kittybbit",
+      "summary": "AI エージェントの説明では、プロンプト、コンテキスト、ハーネス、ループという言葉が並びます。 コンテキストやツールの結果は、次のモデル呼び出しの入力になります。そのため、「結局すべてプロンプトなのではないか」という疑問が生まれます。 一…"
+    },
+    {
+      "id": "52070661446e",
+      "title": "Claude Codeのplanを「設計の木」にしてPRに埋め込むOSSを作った",
+      "url": "https://zenn.dev/natsu529/articles/5b01b8824ced61",
+      "publishedAt": "2026-08-02T11:52:37.000Z",
+      "publisher": "natsu529",
+      "summary": "Claude Codeのplanモードの出力を木構造の設計書に変換し、実装後にコードとの一致を検証して、そのままPR本文に埋め込むCLIツール cc-plan-tree を作りました。 https://github.com/natsu05…"
+    },
+    {
       "id": "80ed1dfe863b",
       "title": "AIの「実測しました」を3回信じて、3回とも間違っていた — 出力を確認する型",
       "url": "https://zenn.dev/dstudylab/articles/trust-but-verify-ai-output",
@@ -76,33 +100,9 @@
       "publishedAt": "2026-08-02T09:43:02.000Z",
       "publisher": "tanahiro2010",
       "summary": "こんにちは。 普段は tanahiro2010 という名前で活動しています。GDG Greater Kwansaiに所属しています。 Google I/O Extended Osaka 2026のハンズオン「WebMCP を作って AI …"
-    },
-    {
-      "id": "354ed9a87ae0",
-      "title": "AIセキュリティに関する論文メモ⓷〜AgentDojo編〜",
-      "url": "https://zenn.dev/naoyabone/articles/b61b8804099e52",
-      "publishedAt": "2026-08-02T09:42:17.000Z",
-      "publisher": "ぼさぼさ",
-      "summary": "AgentDojo を読む arXiv: 2406.13352 (NeurIPS 2024 Datasets & Benchmarks) この論文が答えている問い 信頼できないデータ（メールやウェブ等）をツール経由で扱うLLMエージェント…"
-    },
-    {
-      "id": "cd3f6be7c0f2",
-      "title": "決定論的生成を土台に、非決定論的生成でビジネスロジックを書く",
-      "url": "https://zenn.dev/ayaextech_fill/articles/deterministic-codegen-with-llm-logic",
-      "publishedAt": "2026-08-02T09:28:55.000Z",
-      "publisher": "泡沫京水",
-      "summary": "はじめに ! この記事は、大部分がAIによる生成で記述されています。 記事の投稿にあたり、筆者がGitHubリポジトリ上でPRレビュワーとして チェックを行っていますが、AIらしい書き回しが残っている場合があるため、 わかりづらいところが…"
-    },
-    {
-      "id": "585678511763",
-      "title": "海外のSpecと日本の仕様は何が違うのか",
-      "url": "https://zenn.dev/yoshipon_tech/articles/34517dc09804dd",
-      "publishedAt": "2026-08-02T09:17:49.000Z",
-      "publisher": "よしぽん",
-      "summary": "この記事の要点 Kiroの requirements.md は要件定義ではなく、日本語で言う仕様に近い 誤読するのは英単語の見た目に引きずられるから。ファイル名ではなく、それがSpecという箱のどこに置かれているかで判断する SDDの本質…"
     }
   ],
-  "fetchedAt": "2026-08-02T16:02:44.749Z",
+  "fetchedAt": "2026-08-02T16:03:19.773Z",
   "stale": false,
   "error": null
 }
