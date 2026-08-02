@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "68ebe426e302",
-      "title": "Cloudflare Agentsで簡易記憶を実装する",
-      "url": "https://zenn.dev/8845musign/articles/dcbb8ae84eb397",
-      "publishedAt": "2026-08-02T13:26:38.000Z",
-      "publisher": "腹筋ローラーの力を信じろ",
-      "summary": "Cloudflare AgentsのThinkとSession APIを使って、エージェントに簡易的な記憶を持たせるための調査を行いました。OpenClawでいうSoulや、ChatGPTにおけるメモリに相当するものです。 今回はThin…"
+      "id": "4a11d3c4a8c0",
+      "title": "Claude Code の設定を、/boris スキルで自動的に追従させる",
+      "url": "https://zenn.dev/takotyan00/articles/claude-code-boris-skill",
+      "publishedAt": "2026-08-02T05:22:33.000Z",
+      "publisher": "takotyan00",
+      "summary": "Claude Code に全プロジェクト共通で読ませている設定ファイル（~/.claude/CLAUDE.md）には、いま こう書いてあります。 全タスク auto mode で着手する（Plan Mode は使わない。新しいモデルは計画…"
     },
     {
-      "id": "012dbe210d8b",
-      "title": "プロンプト・コンテキスト・ハーネス・ループの違いを「設計責任」で整理する",
-      "url": "https://zenn.dev/kittybbit/articles/1433959c42ba79",
-      "publishedAt": "2026-08-02T12:09:57.000Z",
-      "publisher": "kittybbit",
-      "summary": "AI エージェントの説明では、プロンプト、コンテキスト、ハーネス、ループという言葉が並びます。 コンテキストやツールの結果は、次のモデル呼び出しの入力になります。そのため、「結局すべてプロンプトなのではないか」という疑問が生まれます。 一…"
+      "id": "3f6b3ebb1b5f",
+      "title": "「設計は強いモデル、実装は安いモデル」は今も正解なのか(2026年8月現在)",
+      "url": "https://zenn.dev/hrimfaxi_tpw/articles/de75758b72efea",
+      "publishedAt": "2026-08-02T05:18:49.000Z",
+      "publisher": "りむふぁくし",
+      "summary": "TL;DR 「強いモデルが設計し、安いモデルが実装する」という工程別分業は、現在も条件次第では有効。ただし、一般的なベストプラクティスとは言いにくい。 Claude CodeとCodexの公式文書は、工程名ではなく、作業の自己完結性・コン…"
     },
     {
-      "id": "52070661446e",
-      "title": "Claude Codeのplanを「設計の木」にしてPRに埋め込むOSSを作った",
-      "url": "https://zenn.dev/natsu529/articles/5b01b8824ced61",
-      "publishedAt": "2026-08-02T11:52:37.000Z",
-      "publisher": "natsu529",
-      "summary": "Claude Codeのplanモードの出力を木構造の設計書に変換し、実装後にコードとの一致を検証して、そのままPR本文に埋め込むCLIツール cc-plan-tree を作りました。 https://github.com/natsu05…"
+      "id": "0d2d47c5e3cb",
+      "title": "バックテストで自分を騙さないための6つの検査",
+      "url": "https://zenn.dev/codecraft/articles/b1695ac8af3587",
+      "publishedAt": "2026-08-02T04:16:23.000Z",
+      "publisher": "CodeCraft｜自動売買Bot開発",
+      "summary": "AIにコードを書かせて暗号資産の自動売買Botを作り、東京リージョンで24時間動かしています。 この基盤で20以上の戦略仮説を検証して、採用5つ・不採用15以上になりました。落としたもののうち何個かは、最初「合格」に見えていました。この記…"
     },
     {
-      "id": "80ed1dfe863b",
-      "title": "AIの「実測しました」を3回信じて、3回とも間違っていた — 出力を確認する型",
-      "url": "https://zenn.dev/dstudylab/articles/trust-but-verify-ai-output",
-      "publishedAt": "2026-08-02T11:46:12.000Z",
-      "publisher": "d-study lab",
-      "summary": "AIに仕事を任せる量が増えると、あるところで詰まる。成果物の量ではなく、成果物を確認する時間が足りなくなる。 そして厄介なのは、AIが間違えるとき、たいてい自信を持って間違えることだ。「実測しました」「確認済みです」「テストは全部通りまし…"
+      "id": "a2898dc50acb",
+      "title": "Claude Codeを「優秀な1人の部下」として使うのをやめた — 7部署のAI組織にして実務を回す",
+      "url": "https://zenn.dev/shouki1484/articles/claude-code-ai-organization",
+      "publishedAt": "2026-08-02T04:12:43.000Z",
+      "publisher": "shouki",
+      "summary": "「優秀な1人の部下」としての限界 Claude Code を実務で使い始めて最初にやったのは、優秀な1人の部下として扱うことでした。何でも頼める、文脈も覚えている、指示も通る。しばらくはそれで回ります。 回らなくなるのは、仕事が実務の規模…"
     },
     {
-      "id": "af53a71c3be6",
-      "title": "AIに夜通し働かせるとき、事故らせないために引いた境界線",
-      "url": "https://zenn.dev/dstudylab/articles/overnight-agent-boundaries",
-      "publishedAt": "2026-08-02T11:46:11.000Z",
-      "publisher": "d-study lab",
-      "summary": "AIエージェントを寝ている間に走らせるようになって、いちばん時間を使ったのはプロンプトの工夫ではなく、境界線を引くことだった。 何を任せて、何を任せないか。どこで止めさせるか。止まったことをどう知るか。この3つが決まっていないと、朝起きた…"
+      "id": "e7033a059295",
+      "title": "トークンとは何なのか？AIが文章を読む仕組み",
+      "url": "https://zenn.dev/phinata/articles/ai-token-sikumi",
+      "publishedAt": "2026-08-02T03:46:35.000Z",
+      "publisher": "Hinata",
+      "summary": "はじめに ChatGPTやClaudeなどのAIを使っていると、必ず目にする「トークン」という言葉があります。 APIの料金表示を見ても「入力トークン数」「出力トークン数」という項目があり、料金を計算する際の基準になっています。つまり、A…"
     },
     {
-      "id": "c29d1d3e9dae",
-      "title": "Qwen 35Bの品質を7つの質問で採点したら、GPT-4に勝てるのは3領域だけだった",
-      "url": "https://zenn.dev/kenimo49/articles/qwen-35b-7q-quality-vs-gpt4-3-domains",
-      "publishedAt": "2026-08-02T11:16:45.000Z",
-      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
-      "summary": "ローカル LLM は所詮遊びだと思って、3ヶ月ほど RTX 4070 のフォルダを放置していました。家庭用 GPU で 35B クラスを動かせても、どうせ品質は API の GPT-4 に完敗するのだろう。そう決めつけて、ベンチ計測もサボ…"
+      "id": "18e328e2877a",
+      "title": "Zenn投稿をClaude Code Skillsで自動化してみた",
+      "url": "https://zenn.dev/katsuo_dev/articles/202608-claude-code-zenn-automation",
+      "publishedAt": "2026-08-02T03:27:34.000Z",
+      "publisher": "かつお",
+      "summary": "はじめに（自己紹介） はじめまして！かつおです。 普段は IT とは関係ない業種の会社を1社経営しながら、IT企業に会社員として勤め、 さらに個人開発もやっている、という3枚看板で活動しています。 Web3 領域には約3年ほど、プロダクト…"
     },
     {
-      "id": "d308a4fb1db3",
-      "title": "GarminデータをAIへ安全に渡すExternal-safe Packの設計",
-      "url": "https://zenn.dev/tsubotti63/articles/garmin-external-safe-pack-for-ai",
-      "publishedAt": "2026-08-02T10:45:18.000Z",
-      "publisher": "tsubotti63",
-      "summary": "Garmin Account Data Exportを繰り返し取得し、Snapshot Accumulationで 観測履歴を蓄積できるようになりました。 次に考えるべきなのは、蓄積したデータをAIへどう渡すかです。 Garmin Exp…"
+      "id": "0a712501629d",
+      "title": "Claude CodeのSkillsは「手順書」だったので、/article コマンドを作ってみた",
+      "url": "https://zenn.dev/osakayakyu/articles/e6aa9835c04d73",
+      "publishedAt": "2026-08-02T03:15:05.000Z",
+      "publisher": "KoH",
+      "summary": "概要 Claude Codeの「スキル」という言葉を見たとき、最初はプラグインや拡張機能みたいなものを想像していました。 何かスクリプトを書いて、コマンドから呼び出して、決まった処理を自動実行するようなイメージです。 でも実際に触ってみる…"
     },
     {
-      "id": "18cd5a8e8e78",
-      "title": "「AIは×10、コンパイラは×1000」Linus TorvaldsがAIを語った回を要点解説",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr21-linus-summary",
-      "publishedAt": "2026-08-02T10:37:07.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について ! 本記事は Linus Torvalds が Open Source Summit North America 2026 のキーノート（聞き手: Dirk Hohndel）で語った内容の紹介と論評を目的としています。発…"
+      "id": "6a45b0b6bcef",
+      "title": "プロバイダー単位のロックでブラウザ自動化の競合を防ぐ - 障害分析",
+      "url": "https://zenn.dev/kmn/articles/c912f315871540",
+      "publishedAt": "2026-08-02T02:50:08.000Z",
+      "publisher": "KMN KMN",
+      "summary": "プロバイダー単位のロックでブラウザ自動化の競合を防ぐ - 障害分析 自動処理は、スケジュール登録だけでは安定しません。同じログイン済みブラウザを2ジョブが操作すると、フォームやタブが競合します。 この記事では「障害分析」の観点から、入力、…"
     },
     {
-      "id": "3c944804d5cb",
-      "title": "なぜMCPは「セッション」を捨てたのか ─ 2026-07-28 改訂とステートレスコアの設計思想",
-      "url": "https://zenn.dev/yun_bow/articles/8a162af74f2a55",
-      "publishedAt": "2026-08-02T10:11:41.000Z",
-      "publisher": "ゆんぼう",
-      "summary": "! 本記事は書籍のダイジェスト記事だ 内容は、Zenn に公開予定の本「MCPサーバーを作るガイドライン解説 ― Node.js + TypeScript で学ぶ AI エージェント時代のツール設計指針【2026-07-28 仕様改訂対応…"
+      "id": "50ab25a1b974",
+      "title": "AI初心者にAIの活用方法を体感してもらうゲーム",
+      "url": "https://zenn.dev/algocat/articles/game-ai-oversight-demo",
+      "publishedAt": "2026-08-02T02:20:56.000Z",
+      "publisher": "algoCat",
+      "summary": "タイトルの通りですが、簡単なゲームを作ってみました。 https://aioversightdemo.vercel.app/ ゲームの趣旨 地面に散らばった資料を照らしてください UFO(AI)が照らす： オレンジに光ります 人間が照らす…"
     },
     {
-      "id": "0b08eedba5ad",
-      "title": "MCPサーバーを作るガイドライン解説 ― Node.js + TypeScript で学ぶ AI エージェント時代のツール設計指針",
-      "url": "https://zenn.dev/yun_bow/books/f0b23ef3093ddf",
-      "publishedAt": "2026-08-02T10:09:34.000Z",
-      "publisher": "ゆんぼう",
-      "summary": "MCP SDK のチュートリアル通りに `tools/call` を実装すれば、MCP サーバーは「動き」ます。しかし「動く」ことと「AI が迷わず使いこなせる」ことは別物です。説明文が曖昧で AI がツール選択に迷う、レスポンスが JS…"
+      "id": "78be7d9e02b4",
+      "title": "生産性は余白と余裕を奪いつくす",
+      "url": "https://zenn.dev/dx_junkyard/articles/e9f84c3af710bf",
+      "publishedAt": "2026-08-02T01:58:30.000Z",
+      "publisher": "uras",
+      "summary": "——AI時代に高密度化する、判断・理解・評価・統合の負荷 生成AIによって、開発の速度は劇的に上がった。 コードを書く。 テストを作る。 仕様を整理する。 調査する。 複数の実装案を比較する。 ドキュメントを作る。 以前なら数日かかってい…"
     },
     {
-      "id": "1d9a89bdc39d",
-      "title": "Claude Codeで自動化タスクを並行運用して分かった落とし穴と対策",
-      "url": "https://zenn.dev/jidoka_lab/articles/claude-code-automation-pitfalls",
-      "publishedAt": "2026-08-02T10:04:45.000Z",
-      "publisher": "自動化ラボ / jidoka-lab",
-      "summary": "「動いているはず」が一番危ない 個人開発や副業で自動化スクリプトを1本だけ回している間は、そこまで大きな事故は起きません。何かおかしければすぐ気づけますし、確認する対象も1つだけだからです。ところが、定期実行のスクリプトやスケジュール運用…"
+      "id": "d2aa99aa069a",
+      "title": "Cursor を会社アカウントと個人アカウントで使い分ける方法（macOS）",
+      "url": "https://zenn.dev/kaihatsuneko/articles/9ea98ed64e8560",
+      "publishedAt": "2026-08-02T01:12:51.000Z",
+      "publisher": "oouti@開発ネコ",
+      "summary": "会社で Cursor の Team プランを使っていて、個人開発では自分の個人プランを使いたい——そんなとき、Cursor にはアカウント切り替え機能がありません。この記事では、--user-data-dir を使って「会社アカウントの …"
     },
     {
-      "id": "ce79f654968d",
-      "title": "Googleが発表した新Web標準ドラフト――WebMCP。実際どうなの？ IO Extendedで実装・登壇して分かったこと",
-      "url": "https://zenn.dev/tanahiro2010/articles/b62637d8e55d2b",
-      "publishedAt": "2026-08-02T09:43:02.000Z",
+      "id": "4f7003c83d06",
+      "title": "【ランキング分析AI】Q. 底辺作家でも流行に乗れば舞えますか？ A. はい。分析ランキング分析AIを使えば",
+      "url": "https://zenn.dev/tanahiro2010/articles/fdbebecbd9faa9",
+      "publishedAt": "2026-08-02T00:18:04.000Z",
       "publisher": "tanahiro2010",
-      "summary": "こんにちは。 普段は tanahiro2010 という名前で活動しています。GDG Greater Kwansaiに所属しています。 Google I/O Extended Osaka 2026のハンズオン「WebMCP を作って AI …"
+      "summary": "こんにちは。tanahiro2010です。 この記事は、DemoStageで話した「Q. 底辺作家でも流行に乗れば舞えますか？ A. はい。分析ランキング分析AIを使えば」という登壇内容を、Qiita向けの記事としてまとめたものです。 対…"
     }
   ],
-  "fetchedAt": "2026-08-02T16:03:19.773Z",
+  "fetchedAt": "2026-08-02T17:14:32.088Z",
   "stale": false,
   "error": null
 }
