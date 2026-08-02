@@ -1,0 +1,68 @@
+name: フィード更新 & デプロイ
+
+on:
+  schedule:
+    # UTC で毎時0分（JST では毎時0分）。Actions の cron は数分ずれることがある。
+    - cron: "0 * * * *"
+  push:
+    branches: [main]
+  workflow_dispatch: # 手動実行用
+
+permissions:
+  contents: write # data/*.json を commit するため
+  pages: write
+  id-token: write
+
+# デプロイの競合を防ぐ。実行中のものは待たせる（キャンセルしない）。
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # 外部フィードの取得は「サーバー側」であるここで行う。
+      # ブラウザから直接叩くと CORS で弾かれるため。
+      - name: フィード取得
+        run: npm run fetch
+
+      - name: data/ の変更をコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          # 変更が無いときに commit すると失敗するので差分を見てから
+          git diff --staged --quiet || git commit -m "chore(data): フィード更新 [skip ci]"
+          git push
+
+      - name: ビルド（静的書き出し）
+        env:
+          # リポジトリ名 = サブパス。リポジトリ名を変えたらここも変える。
+          NEXT_PUBLIC_BASE_PATH: /my-dashboard
+        run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
