@@ -6,52 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "81ab9ea0e746",
-      "title": "Meshy T2: Fast Native Mesh Generation with Flow Matching",
-      "url": "https://huggingface.co/papers/2607.28675",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "summary": "Polygonal meshes are the standard surface representation of modern 3D pipelines, and generating high-quality meshes wit…",
-      "score": 31
-    },
-    {
-      "id": "0a2cb4f27e68",
-      "title": "Scaling Properties of Text Conditioning in Visual Generation",
-      "url": "https://huggingface.co/papers/2607.29679",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "We study empirical scaling properties for text conditioning in visual generation. Such properties have rarely been meas…",
-      "score": 21
-    },
-    {
-      "id": "f97f1bd32462",
-      "title": "Enhancing Rubric-based RL via Self-Distillation",
-      "url": "https://huggingface.co/papers/2607.18082",
-      "publishedAt": "2026-07-21T00:00:00.000Z",
-      "summary": "Rubric-based RL has recently shown promise in improving LLMs on open-ended tasks. A widely recognized limitation of rub…",
-      "score": 13
-    },
-    {
-      "id": "97912feb2324",
-      "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
-      "url": "https://huggingface.co/papers/2607.29677",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "Enterprise workflows increasingly rely on agents for schema-guided extraction: given a document and a user-defined sche…",
-      "score": 13
-    },
-    {
       "id": "38e20c6f92f5",
       "title": "N_0-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation",
       "url": "https://huggingface.co/papers/2607.23783",
       "publishedAt": "2026-07-26T00:00:00.000Z",
       "summary": "We present N_0-TWAM, a tactile-native world-action model for contact-rich manipulation that predicts both future vision…",
-      "score": 12
+      "score": 23
     },
     {
-      "id": "51cb3c5ea941",
-      "title": "Evaluation-Verification Reward for Consistent Multi-Reference Image Editing",
-      "url": "https://huggingface.co/papers/2607.29025",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "While recent image editing models have made rapid progress, multi-reference editing remains challenging, particularly i…",
-      "score": 11
+      "id": "368f93497a1b",
+      "title": "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants",
+      "url": "https://huggingface.co/papers/2607.26611",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "summary": "AI-assisted coding increasingly translates informal user intent into executable software, yet coding requests often con…",
+      "score": 17
     },
     {
       "id": "bfd8f1812599",
@@ -59,7 +27,23 @@
       "url": "https://huggingface.co/papers/2607.27201",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "summary": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical …",
-      "score": 2
+      "score": 12
+    },
+    {
+      "id": "4b7d3a1412b3",
+      "title": "SAF-OPD: Stable Advantage Fusion for On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2607.29209",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) broadcasts a single response-level reward to every token, while o…",
+      "score": 8
+    },
+    {
+      "id": "177238a71f27",
+      "title": "RL^2-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2607.26991",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Despite the impressive visuomotor capabilities enabled by Vision-Language-Action (VLA) models, their performance often …",
+      "score": 3
     },
     {
       "id": "4b079146fc4c",
@@ -67,7 +51,23 @@
       "url": "https://huggingface.co/papers/2607.28443",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "summary": "Can every robot in a swarm predict the same future collective state from only local observations and bandwidth-limited …",
-      "score": 2
+      "score": 3
+    },
+    {
+      "id": "444aae3a3d00",
+      "title": "Not All Tokens Deserve Equal Credit: Counterfactual Sensitivity Credit Reallocation for Long-CoT Reasoning",
+      "url": "https://huggingface.co/papers/2607.27888",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) is central to improving long-CoT reasoning in large language mode…",
+      "score": 1
+    },
+    {
+      "id": "8e6f58c11f77",
+      "title": "Toward Robust and 3D-Aware RGB-NIR Imaging in the Dark",
+      "url": "https://huggingface.co/papers/2607.29684",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "Robust low-light imaging remains challenging for the community. Recent studies have explored fusing Near-Infrared (NIR)…",
+      "score": 1
     },
     {
       "id": "925381e9b4ed",
@@ -78,12 +78,20 @@
       "score": 1
     },
     {
-      "id": "8f7739871c57",
-      "title": "SULAND v2: A Refined RGB Dataset and Deep Learning Object Detection Benchmark for UAV/UGV-Based SUrface LANDmine Detection Under Domain Shift",
-      "url": "https://huggingface.co/papers/2607.28996",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "RGB imagery offers a practical, low-cost option for Unmanned Aerial/Ground Vehicle (UAV/UGV) survey support in surface-…",
-      "score": 1
+      "id": "100a639ac263",
+      "title": "SGTP: Sampling-based Game-Theoretic Planning for Real-Time Multi-Vehicle Autonomous Racing",
+      "url": "https://huggingface.co/papers/2607.25388",
+      "publishedAt": "2026-07-28T00:00:00.000Z",
+      "summary": "Autonomous multi-vehicle racing requires real-time planning of diverse competitive behaviors in intense interactions. E…",
+      "score": 0
+    },
+    {
+      "id": "9f1b030e0745",
+      "title": "In the Driver's Seat: A Multi-Company Study on the Reality of Autonomous Driving System Testing",
+      "url": "https://huggingface.co/papers/2607.15820",
+      "publishedAt": "2026-07-17T00:00:00.000Z",
+      "summary": "Autonomous driving systems (ADS) are rapidly advancing and increasingly deployed in real-world applications. This creat…",
+      "score": 0
     },
     {
       "id": "c76b99b5a790",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "summary": "As large language models (LLMs) continue to advance in complex reasoning tasks, they have learned to heavily prioritize…",
       "score": 0
-    },
-    {
-      "id": "a4adbbf95bf2",
-      "title": "Safeguards Based on Copyable Context Cannot Provide Reliable Safety for LLMs",
-      "url": "https://huggingface.co/papers/2607.27951",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Large language model safeguards decide whether to answer before seeing how an answer will be used. This creates a basic…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-03T08:42:50.662Z",
+  "fetchedAt": "2026-08-03T12:01:59.069Z",
   "stale": false,
   "error": null
 }
