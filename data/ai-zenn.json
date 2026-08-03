@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "fc3d21883abc",
-      "title": "実装したAIにレビューさせない——Claude Codeの3パス独立レビューと機械判定",
-      "url": "https://zenn.dev/tukiyubi/articles/289ddb13e112b9",
-      "publishedAt": "2026-08-03T05:39:20.000Z",
-      "publisher": "ピヨ助",
-      "summary": "はじめに 以前は、AIにコードを実装させた後、そのまま同じ会話で「レビューして」とお願いしていました。 でも、よく考えると少し変です。 実装時の会話には、設計理由、途中の試行錯誤、「なぜこの実装にしたのか」という説明が全部入っています。 …"
+      "id": "0bc9df254405",
+      "title": "フィジカルAIは、何のためにあるのか 現場から考える",
+      "url": "https://zenn.dev/pomodoro_naomi/articles/ba50dbb04cdce4",
+      "publishedAt": "2026-08-03T17:36:37.000Z",
+      "publisher": "🍅Pomodoroナオミ🍅",
+      "summary": "あの頃は気付かなかった 子どもを抱いて、おっぱいをあげて、オムツを替えて、寝かしつける。 それだけのことが、一人の夜には終わらない仕事になる。 正直に書く。私はオムツ交換が好きではなかった。 愛情がなかったわけではない。ただ、その作業その…"
     },
     {
-      "id": "ae4007c53357",
-      "title": "入出力フォーマットで LLM トークンはどれだけ変わるのか",
-      "url": "https://zenn.dev/aiforall/articles/8cbeb63f5cbc00",
-      "publishedAt": "2026-08-03T05:38:52.000Z",
-      "publisher": "たこやき",
-      "summary": "はじめに LLM をアプリケーションに組み込むとき、入力や出力を JSON で扱う場面はよくあります。ただ、テキストで渡す・受け取る場合と比べて、トークン数やコストがどれくらい変わるのかが気になり調査してみました。 そこで本記事では、入力…"
+      "id": "26ab93615b5f",
+      "title": "2026-07-29 今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-07-29-tech-daily",
+      "publishedAt": "2026-08-03T17:11:19.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 2026-07-29の技術トレンドは、LLM単体からエージェント実装・標準化・安全性へ焦点が移った1日でした。BigGoのWAIC報道、FujitsuやMicrosoft Build関連、Allganizeの展示会ニュースが示す通り、…"
     },
     {
-      "id": "8556b41663b8",
-      "title": "Herdr で止まらず、精度の高い開発を進める工夫 ─ intent-cli で意図をもとに開発する",
-      "url": "https://zenn.dev/jtechjapan_pub/articles/intent-cli-herdr-orchestration",
-      "publishedAt": "2026-08-03T05:21:53.000Z",
-      "publisher": "tomohisa",
-      "summary": "株式会社ジェイテックジャパン CTOの高丘 @tomohisaです。 AIエージェントを4体、止まりを見つけて再開させながら回して開発を進める、ということを日常的にやっています。設計・オーケストレーション・実装・レビューの4スレッドが、G…"
+      "id": "89c7876f1eff",
+      "title": "AIが「効果ありませんでした」と報告した分析は、ほとんど実行されていなかった",
+      "url": "https://zenn.dev/gogyo/articles/a776292eb0114a",
+      "publishedAt": "2026-08-03T16:07:31.000Z",
+      "publisher": "gogyo",
+      "summary": "7つの手順を順番に全部踏んでから答えを出す——そう決めてある分析があります。手順書も書いてあります。 それをAIに頼みました。返ってきた報告はこうでした。 この手法では、効果は確認できませんでした。 そうか、ダメだったか。そう思いかけて、…"
     },
     {
-      "id": "17ee679e9221",
-      "title": "AIエージェントの実運用システム",
-      "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20260722-ai-agent-system",
-      "publishedAt": "2026-08-03T05:04:27.000Z",
-      "publisher": "yutaka8484",
-      "summary": "はじめに AIエージェントは、人工知能を利用して自動化されたタスクを実行するシステムです。当社では、AIエージェントを社内サーバーに常駐させ、毎日決まった時間に決まった仕事をこなしています。この記事では、AIエージェントの実運用システムの…"
+      "id": "4def364d3c94",
+      "title": "Cloudflare Computer を読んで動かす：Durable Object の中の仮想ファイルシステム",
+      "url": "https://zenn.dev/417/articles/masakazu-cloudflare-computer-20260804",
+      "publishedAt": "2026-08-03T15:47:19.000Z",
+      "publisher": "MAAAAAAAAAAA",
+      "summary": "Cloudflare が cloudflare/computer というリポジトリを公開した。 AI エージェントに作業用のファイルシステムを与えるための仕組みで、ライセンスは MIT である。 README の一行目がこの製品を要約して…"
     },
     {
-      "id": "12b79110fc15",
-      "title": "Graph Engineeringの外側で、AIエージェントのPRは衝突する",
-      "url": "https://zenn.dev/veripsa/articles/graph-engineering-ai-pr-coordination",
-      "publishedAt": "2026-08-03T04:05:02.000Z",
-      "publisher": "RollNuts",
-      "summary": "最近、agent systemをgraphとして設計する Graph Engineering という言葉をよく見かけるようになりました。 LangChainは、nodeが処理を行い、edgeが次の遷移を決め、stateを持ちながらagen…"
+      "id": "3dcc78781d4e",
+      "title": "Devin Proプラン契約後に表示される$50の正体を公式ドキュメントで徹底調査した",
+      "url": "https://zenn.dev/ryoushin/articles/devin-extra-usage-balance-investigation",
+      "publishedAt": "2026-08-03T15:27:43.000Z",
+      "publisher": "梁震",
+      "summary": "はじめに：$20のプランを契約したのに$50がある？ Devin（Cognition社のAIソフトウェアエンジニア）のProプランを契約した後、アカウント設定画面を見ると「Extra usage balance: $50.00」という項目…"
     },
     {
-      "id": "b9a5d0d34283",
-      "title": "AIナレーターの声が毎回変わる問題 — 声を一度だけ設計し、複製し続けるTTS運用",
-      "url": "https://zenn.dev/mameresearcher/articles/irodori-tts-voice-design-clone-ops",
-      "publishedAt": "2026-08-03T03:36:53.000Z",
-      "publisher": "まめ研究員",
-      "summary": "毎日動画を自動生成する個人プロジェクトを運用しています。ナレーションをTTSに任せると、すぐにぶつかる問題があります。生成のたびに声が微妙に違うことです。 視聴者にとって「チャンネルの声」はブランドそのものです。昨日と今日で声が変わると、…"
+      "id": "cf75773de9c9",
+      "title": "Rustで学ぶデータ指向プログラミング",
+      "url": "https://zenn.dev/yamakh/articles/3b20ba5a2603bf",
+      "publishedAt": "2026-08-03T15:25:40.000Z",
+      "publisher": "khaym",
+      "summary": "概要 最近、Rustを使った個人開発をしてるので勉強がてら変更容易性のあるコードを書くにはどうすればいいのか、よく使われる設計パターンを整理してみました。整理の軸は、データと振る舞いを分離する「データ指向プログラミング」というパラダイムで…"
     },
     {
-      "id": "b8138bb8352e",
-      "title": "表に2行足したら、検査も2件増えた ── CLAUDE.md のドキュメントドリフトを exit code で検知する",
-      "url": "https://zenn.dev/aizuchi_works/articles/402ac5f5118c64",
-      "publishedAt": "2026-08-03T03:23:07.000Z",
-      "publisher": "あいづち",
-      "summary": "CLAUDE.md の「正本パス地図」は、静かに嘘になる エージェント向けの指示ファイル（CLAUDE.md / AGENTS.md）を育てていくと、たいてい正本パスの表ができます。 種別 正本パス hooks 設定 templates/…"
+      "id": "320d6122b526",
+      "title": "AI エージェントに「仕様どおり」を保証させる — SoT Chain という設計",
+      "url": "https://zenn.dev/flip451/articles/sotohe-sot-chain-overview",
+      "publishedAt": "2026-08-03T15:23:18.000Z",
+      "publisher": "flip451",
+      "summary": "AI コーディングエージェントはコードを書くのが速い。しかし「書かれたコードが仕様どおりである」ことは、実は誰も保証していない。この問題を解く一つの方法として、仕様や設計を文書のままにせず、機械が強制する制約として扱う機構を提案する。その…"
     },
     {
-      "id": "e531a4f12606",
-      "title": "AIとおこなうスペック駆動開発",
-      "url": "https://zenn.dev/anton072/articles/8856ac60a0f9be",
-      "publishedAt": "2026-08-03T03:12:42.000Z",
-      "publisher": "Katsushi OUGI",
-      "summary": "最近余暇を利用してMCPサーバーを介した英単語帳アプリを作っています。 AI-Wordbook 試したいこと・学習したいことをいくつか盛り込んだのでその記録を発表していくシリーズその1。AIにモノを作らせても、振り返りをやらないと何も残ら…"
+      "id": "66483d5407e8",
+      "title": "AIを使う者よ、AIを使う側たらんとせば、中身を知るべし",
+      "url": "https://zenn.dev/okamyuji/articles/ai-architecture-one-sentence",
+      "publishedAt": "2026-08-03T14:30:22.000Z",
+      "publisher": "okamyuji",
+      "summary": "はじめに AIを「完全に理解した」というXのPOSTやQiitaやzennの記事が毎週のように現れ、「神プロンプト」だったり、はたまた、「ハーネスエンジニアリング」や「ループエンジニアリング」が毎週更新され、挙句の果てに明日から使えるテク…"
     },
     {
-      "id": "81371e39be23",
-      "title": "Claude Codeのコンテキスト引き継ぎを205セッション運用したら、申し送りが誤りを増幅していた",
-      "url": "https://zenn.dev/aiqlabs/articles/70370e973d8425",
-      "publishedAt": "2026-08-03T03:00:14.000Z",
-      "publisher": "アイ-Q ラボ",
-      "summary": "この記事について Claude Code を 1 つのプロジェクトで 76 日走らせ続けています。会話ログは 205 セッション分残っていて、生のトランスクリプトは合計 991MB あります。 その過程で「セッションをまたいで文脈を引き継…"
+      "id": "fa7de46bc962",
+      "title": "【2026年版】LLM御三家 GPT vs Gemini vs Claude 徹底比較 〜違い・特徴・使い分け〜",
+      "url": "https://zenn.dev/m16_llc/articles/gpt-gemini-claude-comparison-2026",
+      "publishedAt": "2026-08-03T14:00:05.000Z",
+      "publisher": "まさぴょん🐱",
+      "summary": "こんにちは、FDE, PdM, PM, ソフトウェアエンジニア/LLMエンジニアのまさぴょんです🐱 「結局、ChatGPT・Gemini・Claude のどれを使えばいいの?」——AIを仕事に使い始めた人から、いちばんよく聞かれる質問で…"
     },
     {
-      "id": "f13815067a2f",
-      "title": "AI Slop 問題の深刻化と対策",
-      "url": "https://zenn.dev/proyuki02/articles/1f1f79261fdc04",
-      "publishedAt": "2026-08-03T02:39:22.000Z",
-      "publisher": "Kazuyuki Tamura",
-      "summary": "! 本稿は AI の出力をもとに筆者が編集・加筆しています。 はじめに AI Slop 問題は、「AI が作ったものだから悪い」という話ではありません。問題の本質は、検証されていない、責任所在が曖昧で、受け手に認知負荷を押し付ける成果物が…"
+      "id": "53b3c8982ae3",
+      "title": "大学へ無料提供されるOpenAI依存に陥る未来、日本独自AIは生き残れるのか",
+      "url": "https://zenn.dev/syoshida07/articles/5ec4103cde9bd6",
+      "publishedAt": "2026-08-03T13:54:41.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "7月29日 OpenAIは大学研究者向けプログラム ChatGPT for Academic Researchers を正式発表した。 公式発表URL：OpenAI : Accelerating scientific discovery …"
     },
     {
-      "id": "1dba67e038fe",
-      "title": "ClaudeCodeじゃなくてClaudeを使っているエンジニアのClaudeの使い方紹介",
-      "url": "https://zenn.dev/someso/articles/516a97afeb097c",
-      "publishedAt": "2026-08-03T02:32:45.000Z",
-      "publisher": "そーめそ",
-      "summary": "はじめに 現在働いている会社ではchatGPTやClaudeCodeのエンタープライズ版を契約しておらず、 個人でAIを使用する場合にソースコード、資料などをそのまま読ませることを禁止しています。 そんな中でどのようにClaudeを活用し…"
+      "id": "9f5cff20e91a",
+      "title": "メールというプロトコルは、AIアプリの最適なUIXかもしれない.",
+      "url": "https://zenn.dev/jintarotanba/articles/3b70d69a81d781",
+      "publishedAt": "2026-08-03T13:36:31.000Z",
+      "publisher": "jin",
+      "summary": "― プロトコルとしてのメール再考 要旨 AIエージェントを特定の集団に届けようとすると、必ず「配布」の問題にぶつかる。アプリをインストールしてもらう、アカウントを作ってもらう、使い方を覚えてもらう。この三段の障壁が、エージェントの価値を届…"
     },
     {
-      "id": "8bc030d3b4a6",
-      "title": "Google Cloud Next Tokyo 2026 参加レポート",
-      "url": "https://zenn.dev/mbk_digital/articles/ca822217519527",
-      "publishedAt": "2026-08-03T02:22:06.000Z",
-      "publisher": "たかはし",
-      "summary": "こんにちは、MBKデジタルの高橋です。今回は先日、東京ビッグサイトで開催された『Google Cloud Next Tokyo 2026』に、2日間通しで参加してきました！ 今年はとにかくAIエージェント一色でした。「使ってみる」はもう前…"
+      "id": "ea7f9ecce139",
+      "title": "AIに引用される文章は明快さで決まる:5つの構造で設計する",
+      "url": "https://zenn.dev/kenimo49/articles/ai-citation-knowledge-clarity-5-structures",
+      "publishedAt": "2026-08-03T11:27:36.000Z",
+      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
+      "summary": "3,000字の力作を書きました。統計も、図表も、独自の考察も詰め込みました。出典も丁寧に並べました。それなのにChatGPTは、私の記事をひとことも引用しませんでした。 代わりに引用されていたのは、私より明らかに薄い、60字の段落でした。…"
     }
   ],
-  "fetchedAt": "2026-08-03T17:21:04.568Z",
+  "fetchedAt": "2026-08-03T19:05:34.015Z",
   "stale": false,
   "error": null
 }
