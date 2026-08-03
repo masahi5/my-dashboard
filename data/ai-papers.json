@@ -6,12 +6,36 @@
   "category": "ai",
   "items": [
     {
-      "id": "21eb55d1f106",
-      "title": "See2Think: Do Multimodal Models Really Use Intermediate Visual States?",
-      "url": "https://huggingface.co/papers/2607.26769",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "summary": "Multimodal large language models increasingly use sketches, annotations, tools, and intermediate images during reasonin…",
+      "id": "c094bb44a448",
+      "title": "From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement",
+      "url": "https://huggingface.co/papers/2607.23802",
+      "publishedAt": "2026-07-26T00:00:00.000Z",
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has driven recent progress in reasoning-oriented large language m…",
+      "score": 31
+    },
+    {
+      "id": "2a6955b360d3",
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "url": "https://huggingface.co/papers/2607.28617",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "System prompts are instructions configured by developers to govern the behaviors of foundation models in AI application…",
+      "score": 28
+    },
+    {
+      "id": "efd6126be74e",
+      "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
+      "url": "https://huggingface.co/papers/2607.28415",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Latent world models enable efficient planning by predicting future states in a compact representation space, but their …",
       "score": 22
+    },
+    {
+      "id": "96f073c9ce05",
+      "title": "N_0-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens",
+      "url": "https://huggingface.co/papers/2607.23782",
+      "publishedAt": "2026-07-26T00:00:00.000Z",
+      "summary": "We present N_0-VTLA, a vision-tactile-language-action (VTLA) foundation model capable of (1) fine-grained contact-rich …",
+      "score": 21
     },
     {
       "id": "e9e553b4f3eb",
@@ -19,39 +43,47 @@
       "url": "https://huggingface.co/papers/2607.28582",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "summary": "On-policy self-distillation (OPSD) is a promising approach to improve reasoning language models, but it remains brittle…",
-      "score": 19
+      "score": 21
     },
     {
-      "id": "88456563fac7",
-      "title": "ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow",
-      "url": "https://huggingface.co/papers/2607.28362",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "We present ShadowDancer, a novel approach to any-action, frame-level control of interactive video world models. The obs…",
-      "score": 16
+      "id": "81ab9ea0e746",
+      "title": "Meshy T2: Fast Native Mesh Generation with Flow Matching",
+      "url": "https://huggingface.co/papers/2607.28675",
+      "publishedAt": "2026-07-28T00:00:00.000Z",
+      "summary": "Polygonal meshes are the standard surface representation of modern 3D pipelines, and generating high-quality meshes wit…",
+      "score": 18
     },
     {
-      "id": "4f822b932868",
-      "title": "Σ-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems",
-      "url": "https://huggingface.co/papers/2607.27958",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Memory is central to long-horizon LLM agents, yet existing memory systems primarily preserve interaction content rather…",
-      "score": 12
+      "id": "0a2cb4f27e68",
+      "title": "Scaling Properties of Text Conditioning in Visual Generation",
+      "url": "https://huggingface.co/papers/2607.29679",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "We study empirical scaling properties for text conditioning in visual generation. Such properties have rarely been meas…",
+      "score": 18
     },
     {
-      "id": "5b3c28b4e277",
-      "title": "Multi-Head Attention Residuals",
-      "url": "https://huggingface.co/papers/2607.27230",
-      "publishedAt": "2026-07-22T00:00:00.000Z",
-      "summary": "Transformers propagate information across depth through a single additive residual stream: every sublayer reads only th…",
-      "score": 8
+      "id": "f97f1bd32462",
+      "title": "Enhancing Rubric-based RL via Self-Distillation",
+      "url": "https://huggingface.co/papers/2607.18082",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "summary": "Rubric-based RL has recently shown promise in improving LLMs on open-ended tasks. A widely recognized limitation of rub…",
+      "score": 13
     },
     {
-      "id": "228d8b2f22d0",
-      "title": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
-      "url": "https://huggingface.co/papers/2607.26637",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "summary": "Deployed LLM agents increasingly keep their long-term memory as a filesystem: a directory tree of markdown files that t…",
-      "score": 7
+      "id": "97912feb2324",
+      "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+      "url": "https://huggingface.co/papers/2607.29677",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "Enterprise workflows increasingly rely on agents for schema-guided extraction: given a document and a user-defined sche…",
+      "score": 13
+    },
+    {
+      "id": "51cb3c5ea941",
+      "title": "Evaluation-Verification Reward for Consistent Multi-Reference Image Editing",
+      "url": "https://huggingface.co/papers/2607.29025",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "While recent image editing models have made rapid progress, multi-reference editing remains challenging, particularly i…",
+      "score": 11
     },
     {
       "id": "3da4c4729ae8",
@@ -62,47 +94,15 @@
       "score": 3
     },
     {
-      "id": "9dae2da13da1",
-      "title": "Is Deep Research Reliable? Misleading Knowledge Induces False Conclusions",
-      "url": "https://huggingface.co/papers/2607.20891",
-      "publishedAt": "2026-07-23T00:00:00.000Z",
-      "summary": "Deep Research agents extend LLM-based assistants into long-horizon workflows involving planning, retrieval, evidence sy…",
-      "score": 3
-    },
-    {
       "id": "6df69510ef36",
       "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
       "url": "https://huggingface.co/papers/2607.28308",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "summary": "Sparse mixture-of-experts (MoE) language models route each token to multiple experts, suggesting a geometric account of…",
       "score": 2
-    },
-    {
-      "id": "f75192dd5b0e",
-      "title": "Fairness Pruning: Locating Demographic Bias in GLU-MLP Layers via Differential Activations",
-      "url": "https://huggingface.co/papers/2607.28319",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "This work presents Fairness Pruning, a lightweight structural intervention method designed for the management and futur…",
-      "score": 2
-    },
-    {
-      "id": "582d57bb3866",
-      "title": "Pedestrian Archetypes Extension -- More Pedestrian Models for Autonomous Vehicle Safety Testing",
-      "url": "https://huggingface.co/papers/2607.16922",
-      "publishedAt": "2026-07-18T00:00:00.000Z",
-      "summary": "In our prior work, Pedestrian Archetypes, we defined pedestrian archetypes as collections of behaviors that uniquely id…",
-      "score": 0
-    },
-    {
-      "id": "4dc3c78f99ae",
-      "title": "AMRD: Adaptive Multi-Teacher Relational Distillation for Lightweight Speech Emotion Recognition",
-      "url": "https://huggingface.co/papers/2607.25289",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "summary": "On-device speech emotion recognition (SER) is critical for real-time applications, yet large self-supervised models tha…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-03T01:16:02.924Z",
+  "fetchedAt": "2026-08-03T05:01:26.639Z",
   "stale": false,
   "error": null
 }
