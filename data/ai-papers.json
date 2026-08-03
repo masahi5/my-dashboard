@@ -6,28 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "38e20c6f92f5",
-      "title": "N_0-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation",
-      "url": "https://huggingface.co/papers/2607.23783",
-      "publishedAt": "2026-07-26T00:00:00.000Z",
-      "summary": "We present N_0-TWAM, a tactile-native world-action model for contact-rich manipulation that predicts both future vision…",
-      "score": 23
-    },
-    {
-      "id": "368f93497a1b",
-      "title": "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants",
-      "url": "https://huggingface.co/papers/2607.26611",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "summary": "AI-assisted coding increasingly translates informal user intent into executable software, yet coding requests often con…",
-      "score": 17
-    },
-    {
       "id": "bfd8f1812599",
       "title": "Mental World Modeling",
       "url": "https://huggingface.co/papers/2607.27201",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "summary": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical …",
-      "score": 12
+      "score": 44
     },
     {
       "id": "4b7d3a1412b3",
@@ -35,7 +19,23 @@
       "url": "https://huggingface.co/papers/2607.29209",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "summary": "Reinforcement learning with verifiable rewards (RLVR) broadcasts a single response-level reward to every token, while o…",
-      "score": 8
+      "score": 21
+    },
+    {
+      "id": "368f93497a1b",
+      "title": "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants",
+      "url": "https://huggingface.co/papers/2607.26611",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "summary": "AI-assisted coding increasingly translates informal user intent into executable software, yet coding requests often con…",
+      "score": 18
+    },
+    {
+      "id": "925381e9b4ed",
+      "title": "ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow",
+      "url": "https://huggingface.co/papers/2607.27924",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "In the physical world we inhabit, space and time are fundamentally continuous. However, existing machine learning parad…",
+      "score": 7
     },
     {
       "id": "177238a71f27",
@@ -43,6 +43,14 @@
       "url": "https://huggingface.co/papers/2607.26991",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "summary": "Despite the impressive visuomotor capabilities enabled by Vision-Language-Action (VLA) models, their performance often …",
+      "score": 4
+    },
+    {
+      "id": "68ff81562bce",
+      "title": "EMBL AI Librarian: Life-Sciences Knowledge Layer for AI Agents",
+      "url": "https://huggingface.co/papers/2607.28229",
+      "publishedAt": "2026-07-30T14:00:27.000Z",
+      "summary": "The web is increasingly accessed by AI agents rather than humans. Every agent needs knowledge, especially in the life-s…",
       "score": 3
     },
     {
@@ -59,7 +67,7 @@
       "url": "https://huggingface.co/papers/2607.27888",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "summary": "Reinforcement learning with verifiable rewards (RLVR) is central to improving long-CoT reasoning in large language mode…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "8e6f58c11f77",
@@ -67,14 +75,22 @@
       "url": "https://huggingface.co/papers/2607.29684",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "summary": "Robust low-light imaging remains challenging for the community. Recent studies have explored fusing Near-Infrared (NIR)…",
+      "score": 2
+    },
+    {
+      "id": "dd0547a27015",
+      "title": "Beyond Feeling Better: Capability-Sustaining Emotional Dialogue as a Longitudinal Research Paradigm",
+      "url": "https://huggingface.co/papers/2607.27851",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Emotional dialogue research includes two influential strategy traditions. Empathetic dialogue prioritizes understanding…",
       "score": 1
     },
     {
-      "id": "925381e9b4ed",
-      "title": "ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow",
-      "url": "https://huggingface.co/papers/2607.27924",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "In the physical world we inhabit, space and time are fundamentally continuous. However, existing machine learning parad…",
+      "id": "9f1b030e0745",
+      "title": "In the Driver's Seat: A Multi-Company Study on the Reality of Autonomous Driving System Testing",
+      "url": "https://huggingface.co/papers/2607.15820",
+      "publishedAt": "2026-07-17T00:00:00.000Z",
+      "summary": "Autonomous driving systems (ADS) are rapidly advancing and increasingly deployed in real-world applications. This creat…",
       "score": 1
     },
     {
@@ -84,25 +100,9 @@
       "publishedAt": "2026-07-28T00:00:00.000Z",
       "summary": "Autonomous multi-vehicle racing requires real-time planning of diverse competitive behaviors in intense interactions. E…",
       "score": 0
-    },
-    {
-      "id": "9f1b030e0745",
-      "title": "In the Driver's Seat: A Multi-Company Study on the Reality of Autonomous Driving System Testing",
-      "url": "https://huggingface.co/papers/2607.15820",
-      "publishedAt": "2026-07-17T00:00:00.000Z",
-      "summary": "Autonomous driving systems (ADS) are rapidly advancing and increasingly deployed in real-world applications. This creat…",
-      "score": 0
-    },
-    {
-      "id": "c76b99b5a790",
-      "title": "Would You Walk to the Car Wash? Revealing the Salience Bias of Large Language Models in Commonsense Reasoning",
-      "url": "https://huggingface.co/papers/2607.28478",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "As large language models (LLMs) continue to advance in complex reasoning tasks, they have learned to heavily prioritize…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-03T12:01:59.069Z",
+  "fetchedAt": "2026-08-03T15:14:57.548Z",
   "stale": false,
   "error": null
 }

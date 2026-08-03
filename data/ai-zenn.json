@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3a97a600e8ea",
-      "title": "なぜ、AI時代のIT企業の管理職には「業務効率化」を叫ぶ割に浮いた工数の活用計画がまるで無いのか？そして、なぜ、それでも会社は潰れないのか？",
-      "url": "https://zenn.dev/pdfractal/articles/03e2598665e0c6",
-      "publishedAt": "2026-08-03T02:13:04.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに 生成AIが急速に普及した現在、多くのIT企業では、経営者から現場に対して「AI時代に適応せよ」「AIを使って生産性を高めよ」という指示が出されています。経営者が求めているのは、AIによって競争力を高め、利益を増やし、従来より優れ…"
+      "id": "652d0d42c1be",
+      "title": "【Playwright MCP】複数AIエージェントでブラウザが衝突する問題を完全解決する構成",
+      "url": "https://zenn.dev/shohei_ai_lab/articles/4df38a6e593d70",
+      "publishedAt": "2026-08-03T06:29:35.000Z",
+      "publisher": "shohei-ai-lab",
+      "summary": "この記事で得られるもの 複数AIエージェントが同時にブラウザを操作するとなぜ衝突するのかの理解 Playwright MCPの「HTTPサーバーモード + mcp-remote」による衝突ゼロの構成 コピペで動く設定ファイル・起動スクリプ…"
     },
     {
-      "id": "bd7a5f441ba7",
-      "title": "Claude Max 20xとCodex Pro 5xに月$300払う — AI課金月報 #1（2026年7月）",
-      "url": "https://zenn.dev/uixhero_jp/articles/ai-kakin-geppo-2026-07",
-      "publishedAt": "2026-08-03T02:11:53.000Z",
-      "publisher": "KeEem",
-      "summary": "この記事は何か Claude Max 20x（$200/月）とOpenAI Codex Pro 5x（$100/月）を両方契約して、事業運営に使っています。「実際なにができて、どのプランがどれくらい必要なのか」を、毎月同じ型で記録していく…"
+      "id": "6789aa534ac4",
+      "title": "ハルシネーションとは違う、もう一つの嘘",
+      "url": "https://zenn.dev/triponte/articles/ai-fake-work-report",
+      "publishedAt": "2026-08-03T06:17:49.000Z",
+      "publisher": "ぴろゆき",
+      "summary": "「AIが嘘をつく」と聞いて想像するのは、たぶんこっち AIを勉強し始めると、わりと早い段階で「ハルシネーション」という言葉に出会う。 AIが、存在しない本のタイトルを堂々と挙げてくる。実在しない法律の条文を引用してくる。歴史の年号をしれっ…"
     },
     {
-      "id": "6d9b81f72651",
-      "title": "JetBrains Central CLI で Claude と Codex を使ってみた",
-      "url": "https://zenn.dev/nattosystem_jp/articles/c93227caea81d5",
-      "publishedAt": "2026-08-03T02:01:43.000Z",
-      "publisher": "ねばねば",
-      "summary": "はじめに JetBrains Central が2026 年 3 月 24 日に発表され、Early Access で登場しました。 https://blog.jetbrains.com/blog/2026/03/24/introduci…"
+      "id": "fc3d21883abc",
+      "title": "実装したAIにレビューさせない——Claude Codeの3パス独立レビューと機械判定",
+      "url": "https://zenn.dev/tukiyubi/articles/289ddb13e112b9",
+      "publishedAt": "2026-08-03T05:39:20.000Z",
+      "publisher": "ピヨ助",
+      "summary": "はじめに 以前は、AIにコードを実装させた後、そのまま同じ会話で「レビューして」とお願いしていました。 でも、よく考えると少し変です。 実装時の会話には、設計理由、途中の試行錯誤、「なぜこの実装にしたのか」という説明が全部入っています。 …"
     },
     {
-      "id": "33eaabb3cdd1",
-      "title": "Claude Codeで速く作れた。次は「開発するほど楽になる」に挑戦している",
-      "url": "https://zenn.dev/nexta_/articles/4f511d43f67be8",
-      "publishedAt": "2026-08-03T02:00:05.000Z",
-      "publisher": "bik",
-      "summary": "実装は終わっていました。 コードは動き、テストも通り、実装チケットも完了していました。 しかし、変更全体を確認すると、要件定義書には変更前の条件が残り、画面仕様書には「未リリース」「未実装」という説明が残っていました。人やAIがその文書を…"
+      "id": "ae4007c53357",
+      "title": "入出力フォーマットで LLM トークンはどれだけ変わるのか",
+      "url": "https://zenn.dev/aiforall/articles/8cbeb63f5cbc00",
+      "publishedAt": "2026-08-03T05:38:52.000Z",
+      "publisher": "たこやき",
+      "summary": "はじめに LLM をアプリケーションに組み込むとき、入力や出力を JSON で扱う場面はよくあります。ただ、テキストで渡す・受け取る場合と比べて、トークン数やコストがどれくらい変わるのかが気になり調査してみました。 そこで本記事では、入力…"
     },
     {
-      "id": "cf5444fc3a86",
-      "title": "AIで自分の顔を科学的に分析できるツールを試してみた ── 41項目の測定結果が面白すぎた",
-      "url": "https://zenn.dev/knowmyface/articles/ec41f912d32334",
-      "publishedAt": "2026-08-03T01:39:34.000Z",
-      "publisher": "knowmyface",
-      "summary": "3行まとめ AI顔分析の技術的な仕組み（ランドマーク検出・分類モデル・比率分析）を調べつつ、実際にツールを試した 41項目の測定値がランドマークガイド付きで返ってくるツールがあり、ブラックボックスではない分析体験ができた 精度や限界も含め…"
+      "id": "8556b41663b8",
+      "title": "Herdr で止まらず、精度の高い開発を進める工夫 ─ intent-cli で意図をもとに開発する",
+      "url": "https://zenn.dev/jtechjapan_pub/articles/intent-cli-herdr-orchestration",
+      "publishedAt": "2026-08-03T05:21:53.000Z",
+      "publisher": "tomohisa",
+      "summary": "株式会社ジェイテックジャパン CTOの高丘 @tomohisaです。 AIエージェントを4体、止まりを見つけて再開させながら回して開発を進める、ということを日常的にやっています。設計・オーケストレーション・実装・レビューの4スレッドが、G…"
     },
     {
-      "id": "cad453107054",
-      "title": "AIセキュリティに関する論文メモ4〜プロンプトの優先度問題〜",
-      "url": "https://zenn.dev/naoyabone/articles/993b82cee8356f",
-      "publishedAt": "2026-08-03T01:20:11.000Z",
-      "publisher": "ぼさぼさ",
-      "summary": "【4/12】The Instruction Hierarchy を読む ここから3本は「防御をどこに置くか」の3つの立場。今回はモデルの中。 arXiv: 2404.13208 (OpenAI) この論文が答えている問い LLMの性質とし…"
+      "id": "17ee679e9221",
+      "title": "AIエージェントの実運用システム",
+      "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20260722-ai-agent-system",
+      "publishedAt": "2026-08-03T05:04:27.000Z",
+      "publisher": "yutaka8484",
+      "summary": "はじめに AIエージェントは、人工知能を利用して自動化されたタスクを実行するシステムです。当社では、AIエージェントを社内サーバーに常駐させ、毎日決まった時間に決まった仕事をこなしています。この記事では、AIエージェントの実運用システムの…"
     },
     {
-      "id": "096c3e7ffbfe",
-      "title": "AI MVでキャラの顔が崩れる7つの操作（全部やらかした）",
-      "url": "https://zenn.dev/made_linlin/articles/ai-mv-face-breaks-7-operations",
-      "publishedAt": "2026-08-03T00:38:04.000Z",
-      "publisher": "made_linlin",
-      "summary": "ローカルGPUでフルコーラスのAI MVを作っていると、時間の9割は「顔が崩れた原因を探す」ことに消える。 単発のカットは綺麗に出る。問題は、それを束ねて1本の作品にしようとした瞬間に起きる。並べて再生すると同じキャラに見えない。動画化し…"
+      "id": "12b79110fc15",
+      "title": "Graph Engineeringの外側で、AIエージェントのPRは衝突する",
+      "url": "https://zenn.dev/veripsa/articles/graph-engineering-ai-pr-coordination",
+      "publishedAt": "2026-08-03T04:05:02.000Z",
+      "publisher": "RollNuts",
+      "summary": "最近、agent systemをgraphとして設計する Graph Engineering という言葉をよく見かけるようになりました。 LangChainは、nodeが処理を行い、edgeが次の遷移を決め、stateを持ちながらagen…"
     },
     {
-      "id": "385ad11234c1",
-      "title": "AI に業務の意味を教える——対話型データ分析を曖昧にしない「軽量オントロジー」の実装",
-      "url": "https://zenn.dev/mbk_digital/articles/next-tokyo-2026-ontology",
-      "publishedAt": "2026-08-03T00:38:01.000Z",
-      "publisher": "Kazumasa Iwao",
-      "summary": "株式会社 MBK Digital 執行役員 CTO の岩尾です。 Google Cloud Next Tokyo 2026 にて、「AI に業務の意味を教える オントロジー入門」と題して登壇しました。本セッションでは、対話型データ分析にお…"
+      "id": "b9a5d0d34283",
+      "title": "AIナレーターの声が毎回変わる問題 — 声を一度だけ設計し、複製し続けるTTS運用",
+      "url": "https://zenn.dev/mameresearcher/articles/irodori-tts-voice-design-clone-ops",
+      "publishedAt": "2026-08-03T03:36:53.000Z",
+      "publisher": "まめ研究員",
+      "summary": "毎日動画を自動生成する個人プロジェクトを運用しています。ナレーションをTTSに任せると、すぐにぶつかる問題があります。生成のたびに声が微妙に違うことです。 視聴者にとって「チャンネルの声」はブランドそのものです。昨日と今日で声が変わると、…"
     },
     {
-      "id": "f36bb2d495e9",
-      "title": "資産管理台帳をExcelからNotion DBに移行した3週間の記録",
-      "url": "https://zenn.dev/solo_joshis/articles/2026-08-03-excelnotion-db3",
-      "publishedAt": "2026-08-03T00:02:24.000Z",
-      "publisher": "ソロ情シス",
-      "summary": "はじめに 毎年11月、私にとって一番憂鬱な仕事が「PC資産の棚卸し」でした。 社員数120名弱の会社で情シスを一人でやっていると、資産管理台帳（会社が持っているPCやモニター、スマホなどの機器情報をまとめた一覧表のことです）はずっとExc…"
+      "id": "b8138bb8352e",
+      "title": "表に2行足したら、検査も2件増えた ── CLAUDE.md のドキュメントドリフトを exit code で検知する",
+      "url": "https://zenn.dev/aizuchi_works/articles/402ac5f5118c64",
+      "publishedAt": "2026-08-03T03:23:07.000Z",
+      "publisher": "あいづち",
+      "summary": "CLAUDE.md の「正本パス地図」は、静かに嘘になる エージェント向けの指示ファイル（CLAUDE.md / AGENTS.md）を育てていくと、たいてい正本パスの表ができます。 種別 正本パス hooks 設定 templates/…"
     },
     {
-      "id": "150ab3a97693",
-      "title": "RTX 5090ローカルで、キャラが崩れないフルコーラスAI MVを1本作った全工程",
-      "url": "https://zenn.dev/made_linlin/articles/local-ai-mv-full-workflow",
-      "publishedAt": "2026-08-03T00:00:41.000Z",
-      "publisher": "made_linlin",
-      "summary": "クラウドの月額サービスを使わず、自宅のGPU 1台だけで、同じキャラクターが最初から最後まで崩れずに歌うフルコーラスのMVを作った。この記事では、その全工程を「地図」として最初から最後まで公開する。 各工程の細かい設定値や、実際にやらかし…"
+      "id": "e531a4f12606",
+      "title": "AIとおこなうスペック駆動開発",
+      "url": "https://zenn.dev/anton072/articles/8856ac60a0f9be",
+      "publishedAt": "2026-08-03T03:12:42.000Z",
+      "publisher": "Katsushi OUGI",
+      "summary": "最近余暇を利用してMCPサーバーを介した英単語帳アプリを作っています。 AI-Wordbook 試したいこと・学習したいことをいくつか盛り込んだのでその記録を発表していくシリーズその1。AIにモノを作らせても、振り返りをやらないと何も残ら…"
     },
     {
-      "id": "99d546514694",
-      "title": "同じ成果を少ないトークンで出す練習をしている",
-      "url": "https://zenn.dev/kaji_kaji/articles/token-management-techniques",
-      "publishedAt": "2026-08-03T00:00:10.000Z",
-      "publisher": "Kaji",
-      "summary": "はじめに 同じような依頼を Claude Code に投げているつもりなのに、日によってトークンの減り方がまるで違う。 もしくは、特別トークンがかかるような指示を出してもいないのにトークンが溶けていくような経験はありますか。 以前、エンジ…"
+      "id": "81371e39be23",
+      "title": "Claude Codeのコンテキスト引き継ぎを205セッション運用したら、申し送りが誤りを増幅していた",
+      "url": "https://zenn.dev/aiqlabs/articles/70370e973d8425",
+      "publishedAt": "2026-08-03T03:00:14.000Z",
+      "publisher": "アイ-Q ラボ",
+      "summary": "この記事について Claude Code を 1 つのプロジェクトで 76 日走らせ続けています。会話ログは 205 セッション分残っていて、生のトランスクリプトは合計 991MB あります。 その過程で「セッションをまたいで文脈を引き継…"
     },
     {
-      "id": "98f14a54aa4d",
-      "title": "アーキテクチャに限らず意思決定を全部残す「ADR（Any Decision Record）」という文化",
-      "url": "https://zenn.dev/dress_code/articles/c73500ae73361c",
-      "publishedAt": "2026-08-03T00:00:10.000Z",
-      "publisher": "かわうそ",
-      "summary": "はじめに Dress Code 株式会社のかわうそです。 Dress Code では創業初期から ADR を書き続けているのですが、一般的な ADR とは少し違う運用をしています。頭文字の \"A\" を Architecture ではなく …"
+      "id": "f13815067a2f",
+      "title": "AI Slop 問題の深刻化と対策",
+      "url": "https://zenn.dev/proyuki02/articles/1f1f79261fdc04",
+      "publishedAt": "2026-08-03T02:39:22.000Z",
+      "publisher": "Kazuyuki Tamura",
+      "summary": "! 本稿は AI の出力をもとに筆者が編集・加筆しています。 はじめに AI Slop 問題は、「AI が作ったものだから悪い」という話ではありません。問題の本質は、検証されていない、責任所在が曖昧で、受け手に認知負荷を押し付ける成果物が…"
     }
   ],
-  "fetchedAt": "2026-08-03T12:01:59.235Z",
+  "fetchedAt": "2026-08-03T15:14:57.694Z",
   "stale": false,
   "error": null
 }
