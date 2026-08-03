@@ -6,52 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "c094bb44a448",
-      "title": "From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement",
-      "url": "https://huggingface.co/papers/2607.23802",
-      "publishedAt": "2026-07-26T00:00:00.000Z",
-      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has driven recent progress in reasoning-oriented large language m…",
-      "score": 31
-    },
-    {
-      "id": "2a6955b360d3",
-      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
-      "url": "https://huggingface.co/papers/2607.28617",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "System prompts are instructions configured by developers to govern the behaviors of foundation models in AI application…",
-      "score": 28
-    },
-    {
-      "id": "efd6126be74e",
-      "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
-      "url": "https://huggingface.co/papers/2607.28415",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Latent world models enable efficient planning by predicting future states in a compact representation space, but their …",
-      "score": 22
-    },
-    {
-      "id": "96f073c9ce05",
-      "title": "N_0-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens",
-      "url": "https://huggingface.co/papers/2607.23782",
-      "publishedAt": "2026-07-26T00:00:00.000Z",
-      "summary": "We present N_0-VTLA, a vision-tactile-language-action (VTLA) foundation model capable of (1) fine-grained contact-rich …",
-      "score": 21
-    },
-    {
-      "id": "e9e553b4f3eb",
-      "title": "β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
-      "url": "https://huggingface.co/papers/2607.28582",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "On-policy self-distillation (OPSD) is a promising approach to improve reasoning language models, but it remains brittle…",
-      "score": 21
-    },
-    {
       "id": "81ab9ea0e746",
       "title": "Meshy T2: Fast Native Mesh Generation with Flow Matching",
       "url": "https://huggingface.co/papers/2607.28675",
       "publishedAt": "2026-07-28T00:00:00.000Z",
       "summary": "Polygonal meshes are the standard surface representation of modern 3D pipelines, and generating high-quality meshes wit…",
-      "score": 18
+      "score": 31
     },
     {
       "id": "0a2cb4f27e68",
@@ -59,7 +19,7 @@
       "url": "https://huggingface.co/papers/2607.29679",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "summary": "We study empirical scaling properties for text conditioning in visual generation. Such properties have rarely been meas…",
-      "score": 18
+      "score": 21
     },
     {
       "id": "f97f1bd32462",
@@ -78,6 +38,14 @@
       "score": 13
     },
     {
+      "id": "38e20c6f92f5",
+      "title": "N_0-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation",
+      "url": "https://huggingface.co/papers/2607.23783",
+      "publishedAt": "2026-07-26T00:00:00.000Z",
+      "summary": "We present N_0-TWAM, a tactile-native world-action model for contact-rich manipulation that predicts both future vision…",
+      "score": 12
+    },
+    {
       "id": "51cb3c5ea941",
       "title": "Evaluation-Verification Reward for Consistent Multi-Reference Image Editing",
       "url": "https://huggingface.co/papers/2607.29025",
@@ -86,23 +54,55 @@
       "score": 11
     },
     {
-      "id": "3da4c4729ae8",
-      "title": "OmniScope: Modality-Decoupled Token Compression for Omnimodal Large Language Models",
-      "url": "https://huggingface.co/papers/2607.23193",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "summary": "Existing token compression methods for omnimodal large language models typically rely on one modality to determine what…",
-      "score": 3
+      "id": "bfd8f1812599",
+      "title": "Mental World Modeling",
+      "url": "https://huggingface.co/papers/2607.27201",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "summary": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical …",
+      "score": 2
     },
     {
-      "id": "6df69510ef36",
-      "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
-      "url": "https://huggingface.co/papers/2607.28308",
+      "id": "4b079146fc4c",
+      "title": "One Future, Every Robot: Label-Efficient Collective-State Prediction with Decentralized JEPA",
+      "url": "https://huggingface.co/papers/2607.28443",
       "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Sparse mixture-of-experts (MoE) language models route each token to multiple experts, suggesting a geometric account of…",
+      "summary": "Can every robot in a swarm predict the same future collective state from only local observations and bandwidth-limited …",
       "score": 2
+    },
+    {
+      "id": "925381e9b4ed",
+      "title": "ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow",
+      "url": "https://huggingface.co/papers/2607.27924",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "In the physical world we inhabit, space and time are fundamentally continuous. However, existing machine learning parad…",
+      "score": 1
+    },
+    {
+      "id": "8f7739871c57",
+      "title": "SULAND v2: A Refined RGB Dataset and Deep Learning Object Detection Benchmark for UAV/UGV-Based SUrface LANDmine Detection Under Domain Shift",
+      "url": "https://huggingface.co/papers/2607.28996",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "RGB imagery offers a practical, low-cost option for Unmanned Aerial/Ground Vehicle (UAV/UGV) survey support in surface-…",
+      "score": 1
+    },
+    {
+      "id": "c76b99b5a790",
+      "title": "Would You Walk to the Car Wash? Revealing the Salience Bias of Large Language Models in Commonsense Reasoning",
+      "url": "https://huggingface.co/papers/2607.28478",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "As large language models (LLMs) continue to advance in complex reasoning tasks, they have learned to heavily prioritize…",
+      "score": 0
+    },
+    {
+      "id": "a4adbbf95bf2",
+      "title": "Safeguards Based on Copyable Context Cannot Provide Reliable Safety for LLMs",
+      "url": "https://huggingface.co/papers/2607.27951",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Large language model safeguards decide whether to answer before seeing how an answer will be used. This creates a basic…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-03T05:01:26.639Z",
+  "fetchedAt": "2026-08-03T08:42:50.662Z",
   "stale": false,
   "error": null
 }
