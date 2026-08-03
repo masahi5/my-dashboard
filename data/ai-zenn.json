@@ -6,22 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "652d0d42c1be",
-      "title": "【Playwright MCP】複数AIエージェントでブラウザが衝突する問題を完全解決する構成",
-      "url": "https://zenn.dev/shohei_ai_lab/articles/4df38a6e593d70",
-      "publishedAt": "2026-08-03T06:29:35.000Z",
-      "publisher": "shohei-ai-lab",
-      "summary": "この記事で得られるもの 複数AIエージェントが同時にブラウザを操作するとなぜ衝突するのかの理解 Playwright MCPの「HTTPサーバーモード + mcp-remote」による衝突ゼロの構成 コピペで動く設定ファイル・起動スクリプ…"
-    },
-    {
-      "id": "6789aa534ac4",
-      "title": "ハルシネーションとは違う、もう一つの嘘",
-      "url": "https://zenn.dev/triponte/articles/ai-fake-work-report",
-      "publishedAt": "2026-08-03T06:17:49.000Z",
-      "publisher": "ぴろゆき",
-      "summary": "「AIが嘘をつく」と聞いて想像するのは、たぶんこっち AIを勉強し始めると、わりと早い段階で「ハルシネーション」という言葉に出会う。 AIが、存在しない本のタイトルを堂々と挙げてくる。実在しない法律の条文を引用してくる。歴史の年号をしれっ…"
-    },
-    {
       "id": "fc3d21883abc",
       "title": "実装したAIにレビューさせない——Claude Codeの3パス独立レビューと機械判定",
       "url": "https://zenn.dev/tukiyubi/articles/289ddb13e112b9",
@@ -100,9 +84,25 @@
       "publishedAt": "2026-08-03T02:39:22.000Z",
       "publisher": "Kazuyuki Tamura",
       "summary": "! 本稿は AI の出力をもとに筆者が編集・加筆しています。 はじめに AI Slop 問題は、「AI が作ったものだから悪い」という話ではありません。問題の本質は、検証されていない、責任所在が曖昧で、受け手に認知負荷を押し付ける成果物が…"
+    },
+    {
+      "id": "1dba67e038fe",
+      "title": "ClaudeCodeじゃなくてClaudeを使っているエンジニアのClaudeの使い方紹介",
+      "url": "https://zenn.dev/someso/articles/516a97afeb097c",
+      "publishedAt": "2026-08-03T02:32:45.000Z",
+      "publisher": "そーめそ",
+      "summary": "はじめに 現在働いている会社ではchatGPTやClaudeCodeのエンタープライズ版を契約しておらず、 個人でAIを使用する場合にソースコード、資料などをそのまま読ませることを禁止しています。 そんな中でどのようにClaudeを活用し…"
+    },
+    {
+      "id": "8bc030d3b4a6",
+      "title": "Google Cloud Next Tokyo 2026 参加レポート",
+      "url": "https://zenn.dev/mbk_digital/articles/ca822217519527",
+      "publishedAt": "2026-08-03T02:22:06.000Z",
+      "publisher": "たかはし",
+      "summary": "こんにちは、MBKデジタルの高橋です。今回は先日、東京ビッグサイトで開催された『Google Cloud Next Tokyo 2026』に、2日間通しで参加してきました！ 今年はとにかくAIエージェント一色でした。「使ってみる」はもう前…"
     }
   ],
-  "fetchedAt": "2026-08-03T15:14:57.694Z",
+  "fetchedAt": "2026-08-03T17:21:04.568Z",
   "stale": false,
   "error": null
 }
