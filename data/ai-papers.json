@@ -6,22 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "1b605555da40",
-      "title": "LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks",
-      "url": "https://huggingface.co/papers/2608.01964",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents increasingly undertake long-horizon tasks that require sustained reasoning, tool use,…",
-      "score": 97
-    },
-    {
-      "id": "3d84401fd209",
-      "title": "DAPD: Dual-Anchored Policy Distillation",
-      "url": "https://huggingface.co/papers/2608.01735",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "On-policy (self) distillation (OPSD) is increasingly adopted for language-model post-training. It strengthens the teach…",
-      "score": 23
-    },
-    {
       "id": "7938d51f2b86",
       "title": "Motion Beyond Morphology: Bootstrapping Cross-Category Motion Transfer from Abstract Motion Representations",
       "url": "https://huggingface.co/papers/2608.01628",
@@ -35,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.02585",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous st…",
-      "score": 16
+      "score": 18
     },
     {
       "id": "3bb0418578f0",
@@ -43,7 +27,7 @@
       "url": "https://huggingface.co/papers/2607.27042",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "summary": "Adaptive rounding methods such as GPTQ, or equivalently Babai's nearest plane algorithm, round a real matrix to integer…",
-      "score": 15
+      "score": 16
     },
     {
       "id": "4ff3ee4129d0",
@@ -60,14 +44,6 @@
       "publishedAt": "2026-08-02T00:00:00.000Z",
       "summary": "Recent 3D vision-language models (3D VLMs) construct geometry aware tokens by projecting 2D visual features into world …",
       "score": 14
-    },
-    {
-      "id": "12d65f4393a1",
-      "title": "DiffusionGemma Technical Report",
-      "url": "https://huggingface.co/papers/2608.00146",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "We introduce DiffusionGemma, an experimental open-weight language model that uses discrete diffusion to generate text a…",
-      "score": 13
     },
     {
       "id": "5962c8ba59e4",
@@ -99,10 +75,34 @@
       "url": "https://huggingface.co/papers/2607.28802",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "summary": "Existing evaluations often reduce agent failures to system-level outcomes, obscuring where the fault originated and whi…",
-      "score": 2
+      "score": 4
+    },
+    {
+      "id": "31c207fc9c6b",
+      "title": "ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching (ALD/E) Scientific Figures",
+      "url": "https://huggingface.co/papers/2607.26848",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "summary": "Scientific figure comprehension and reasoning using multimodal AI requires integrating visual perception with domain-sp…",
+      "score": 3
+    },
+    {
+      "id": "a186eb698836",
+      "title": "A Frozen Pixel-Space Diffusion Model Can Guide Itself with Its Own Samples",
+      "url": "https://huggingface.co/papers/2607.29122",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "Pixel-space diffusion models aim to learn an end-to-end generator directly over raw pixels. This is challenging because…",
+      "score": 1
+    },
+    {
+      "id": "48659f7448c8",
+      "title": "GEOID-Flood: A Large-Scale Multi-Modal Benchmark Dataset for Flood Segmentation",
+      "url": "https://huggingface.co/papers/2608.02315",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Geospatial foundation models aim to learn representations that transfer across regions and sensors, yet evaluating them…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-04T11:38:23.318Z",
+  "fetchedAt": "2026-08-04T13:24:19.210Z",
   "stale": false,
   "error": null
 }
