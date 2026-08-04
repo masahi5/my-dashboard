@@ -6,44 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "7938d51f2b86",
-      "title": "Motion Beyond Morphology: Bootstrapping Cross-Category Motion Transfer from Abstract Motion Representations",
-      "url": "https://huggingface.co/papers/2608.01628",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Video motion transfer aims to animate a target object using dynamics from a reference video. Existing formulations larg…",
-      "score": 20
-    },
-    {
       "id": "cbf219825697",
       "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
       "url": "https://huggingface.co/papers/2608.02585",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous st…",
-      "score": 18
-    },
-    {
-      "id": "3bb0418578f0",
-      "title": "GPTQ-2D: Cubic-Time Two-Sided Adaptive Rounding",
-      "url": "https://huggingface.co/papers/2607.27042",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "summary": "Adaptive rounding methods such as GPTQ, or equivalently Babai's nearest plane algorithm, round a real matrix to integer…",
-      "score": 16
-    },
-    {
-      "id": "4ff3ee4129d0",
-      "title": "DeepVoyager-VL: Incentivizing Vision-in-the-Loop Search for Long-Horizon Multimodal Agents",
-      "url": "https://huggingface.co/papers/2608.01827",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Multimodal large language models (MLLMs) have advanced visual understanding and reasoning, yet their static parametric …",
-      "score": 14
-    },
-    {
-      "id": "400516614c9b",
-      "title": "3DZip: Spatial-Aware Feature Diversity-Guided Token Compression for 3D Question Answering",
-      "url": "https://huggingface.co/papers/2608.01185",
-      "publishedAt": "2026-08-02T00:00:00.000Z",
-      "summary": "Recent 3D vision-language models (3D VLMs) construct geometry aware tokens by projecting 2D visual features into world …",
-      "score": 14
+      "score": 20
     },
     {
       "id": "5962c8ba59e4",
@@ -51,7 +19,15 @@
       "url": "https://huggingface.co/papers/2608.00486",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "Accurate prediction of object trajectories during manipulation is essential for closing the perception-action loop. Pro…",
-      "score": 11
+      "score": 12
+    },
+    {
+      "id": "b170cd0350cf",
+      "title": "Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures",
+      "url": "https://huggingface.co/papers/2607.28802",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Existing evaluations often reduce agent failures to system-level outcomes, obscuring where the fault originated and whi…",
+      "score": 7
     },
     {
       "id": "6e901796c685",
@@ -62,28 +38,52 @@
       "score": 6
     },
     {
-      "id": "336ff8134a9f",
-      "title": "Relax Within, Balance Across: Geometry-Guided Load Balancing for Vision-Language Mixture-of-Experts",
-      "url": "https://huggingface.co/papers/2608.00574",
-      "publishedAt": "2026-08-01T00:00:00.000Z",
-      "summary": "Vision-language MoE batches contain different numbers of image and text tokens. Image resolution, image count, tiling, …",
-      "score": 6
-    },
-    {
-      "id": "b170cd0350cf",
-      "title": "Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures",
-      "url": "https://huggingface.co/papers/2607.28802",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Existing evaluations often reduce agent failures to system-level outcomes, obscuring where the fault originated and whi…",
-      "score": 4
-    },
-    {
       "id": "31c207fc9c6b",
       "title": "ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching (ALD/E) Scientific Figures",
       "url": "https://huggingface.co/papers/2607.26848",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "summary": "Scientific figure comprehension and reasoning using multimodal AI requires integrating visual perception with domain-sp…",
+      "score": 4
+    },
+    {
+      "id": "8f842f941028",
+      "title": "Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV",
+      "url": "https://huggingface.co/papers/2607.23693",
+      "publishedAt": "2026-07-26T00:00:00.000Z",
+      "summary": "Long-horizon agents increasingly reuse their KV cache as memory: a serving system keeps a subset of cached entries and …",
       "score": 3
+    },
+    {
+      "id": "9a5cedf6865c",
+      "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
+      "url": "https://huggingface.co/papers/2607.29377",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate…",
+      "score": 2
+    },
+    {
+      "id": "834a20c7032e",
+      "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space",
+      "url": "https://huggingface.co/papers/2608.01397",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "summary": "World Action Models (WAMs) couple action generation with prediction of future states. Their effectiveness depends on wh…",
+      "score": 1
+    },
+    {
+      "id": "466240d69d60",
+      "title": "Loud or Silent? A Reusable Framework for Per-Modality Failure Analysis in Multimodal Clinical AI",
+      "url": "https://huggingface.co/papers/2608.01462",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "summary": "Multimodal clinical models are usually judged on accuracy with every modality present, but deployment removes modalitie…",
+      "score": 1
+    },
+    {
+      "id": "48659f7448c8",
+      "title": "GEOID-Flood: A Large-Scale Multi-Modal Benchmark Dataset for Flood Segmentation",
+      "url": "https://huggingface.co/papers/2608.02315",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Geospatial foundation models aim to learn representations that transfer across regions and sensors, yet evaluating them…",
+      "score": 1
     },
     {
       "id": "a186eb698836",
@@ -94,15 +94,15 @@
       "score": 1
     },
     {
-      "id": "48659f7448c8",
-      "title": "GEOID-Flood: A Large-Scale Multi-Modal Benchmark Dataset for Flood Segmentation",
-      "url": "https://huggingface.co/papers/2608.02315",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Geospatial foundation models aim to learn representations that transfer across regions and sensors, yet evaluating them…",
+      "id": "acc1f41da345",
+      "title": "Seeing or Knowing? Visual Context Sensitivity in Multimodal Large Language Models",
+      "url": "https://huggingface.co/papers/2607.26326",
+      "publishedAt": "2026-07-28T00:00:00.000Z",
+      "summary": "Multimodal Large Language Models (MLLMs) achieve strong performance by integrating visual inputs with the rich priors o…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-04T13:24:19.210Z",
+  "fetchedAt": "2026-08-04T15:54:11.152Z",
   "stale": false,
   "error": null
 }
