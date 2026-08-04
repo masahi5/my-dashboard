@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "cbf219825697",
-      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
-      "url": "https://huggingface.co/papers/2608.02585",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous st…",
-      "score": 20
-    },
-    {
-      "id": "5962c8ba59e4",
-      "title": "DreamTraj: Generating 6-DoF Object Trajectories by Reading Unrendered Video Diffusion Latents",
-      "url": "https://huggingface.co/papers/2608.00486",
-      "publishedAt": "2026-08-01T00:00:00.000Z",
-      "summary": "Accurate prediction of object trajectories during manipulation is essential for closing the perception-action loop. Pro…",
-      "score": 12
+      "id": "5d87e3e47cee",
+      "title": "To Add Is Machine, To Delete Is Human: Measuring and Mitigating Deletion Avoidance in LLM Code Editing",
+      "url": "https://huggingface.co/papers/2607.28887",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Large language models increasingly write and repair production code, yet evidence is mounting that their test-passing p…",
+      "score": 17
     },
     {
       "id": "b170cd0350cf",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2607.29241",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "summary": "Optimizing modern recommender models still depends heavily on engineers manually iterating over architectural, objectiv…",
-      "score": 6
+      "score": 7
     },
     {
       "id": "31c207fc9c6b",
@@ -46,6 +38,22 @@
       "score": 4
     },
     {
+      "id": "9a5cedf6865c",
+      "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
+      "url": "https://huggingface.co/papers/2607.29377",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate…",
+      "score": 3
+    },
+    {
+      "id": "466240d69d60",
+      "title": "Loud or Silent? A Reusable Framework for Per-Modality Failure Analysis in Multimodal Clinical AI",
+      "url": "https://huggingface.co/papers/2608.01462",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "summary": "Multimodal clinical models are usually judged on accuracy with every modality present, but deployment removes modalitie…",
+      "score": 3
+    },
+    {
       "id": "8f842f941028",
       "title": "Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV",
       "url": "https://huggingface.co/papers/2607.23693",
@@ -54,11 +62,11 @@
       "score": 3
     },
     {
-      "id": "9a5cedf6865c",
-      "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
-      "url": "https://huggingface.co/papers/2607.29377",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate…",
+      "id": "4819833aeb02",
+      "title": "Wnuan: Staged Post-Training for Question Answering over Proprietary Enterprise Knowledge",
+      "url": "https://huggingface.co/papers/2608.01862",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Enterprise question answering requires models to acquire proprietary knowledge without discarding general capabilities.…",
       "score": 2
     },
     {
@@ -70,11 +78,11 @@
       "score": 1
     },
     {
-      "id": "466240d69d60",
-      "title": "Loud or Silent? A Reusable Framework for Per-Modality Failure Analysis in Multimodal Clinical AI",
-      "url": "https://huggingface.co/papers/2608.01462",
-      "publishedAt": "2026-08-02T00:00:00.000Z",
-      "summary": "Multimodal clinical models are usually judged on accuracy with every modality present, but deployment removes modalitie…",
+      "id": "acc1f41da345",
+      "title": "Seeing or Knowing? Visual Context Sensitivity in Multimodal Large Language Models",
+      "url": "https://huggingface.co/papers/2607.26326",
+      "publishedAt": "2026-07-28T00:00:00.000Z",
+      "summary": "Multimodal Large Language Models (MLLMs) achieve strong performance by integrating visual inputs with the rich priors o…",
       "score": 1
     },
     {
@@ -92,17 +100,9 @@
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "summary": "Pixel-space diffusion models aim to learn an end-to-end generator directly over raw pixels. This is challenging because…",
       "score": 1
-    },
-    {
-      "id": "acc1f41da345",
-      "title": "Seeing or Knowing? Visual Context Sensitivity in Multimodal Large Language Models",
-      "url": "https://huggingface.co/papers/2607.26326",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "summary": "Multimodal Large Language Models (MLLMs) achieve strong performance by integrating visual inputs with the rich priors o…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-04T15:54:11.152Z",
+  "fetchedAt": "2026-08-04T17:44:02.804Z",
   "stale": false,
   "error": null
 }
