@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "ad02caad30fd",
-      "title": "AIエンジニアとして本番システムを作れるようになるための厳選5冊【2026年版】",
-      "url": "https://zenn.dev/koukyo/articles/20260804_ai_production_books_5",
-      "publishedAt": "2026-08-04T06:00:06.000Z",
-      "publisher": "Koukyo",
-      "summary": "はじめに 自分は昨年からLLMを組み込んだ社内ツールの開発に関わっている。最初はAPIを叩いてレスポンスを返すだけの簡単な仕組みだったが、本番運用が始まると想定外の問題が次々と出てきた。モデルの出力品質が日によってブレる、レイテンシが許容…"
+      "id": "bdc7f4027e5a",
+      "title": "セキュリティ事故分析「JetBrains悪性AIプラグイン事件」と非保持型権限委譲",
+      "url": "https://zenn.dev/tekka/articles/jetbrains-ai-plugin-credential-theft",
+      "publishedAt": "2026-08-04T14:24:25.000Z",
+      "publisher": "tekka",
+      "summary": "0. はじめに この記事は、セキュリティ関連のニュースを取り上げ、それに対して非保持型権限委譲をどのように適用できるか考察する技術記事です。 非保持型権限委譲については、以下の記事を参照してください。 https://zenn.dev/t…"
     },
     {
-      "id": "29d8903d423e",
-      "title": "Claude Codeのhookがモデル移行で静かに死んでいた話——fail-closed設計と契約テストで再発を止める",
-      "url": "https://zenn.dev/cutlet_of_pork/articles/claude-code-hook-fail-closed-contract-test",
-      "publishedAt": "2026-08-04T05:24:27.000Z",
-      "publisher": "とんのかつ",
-      "summary": "はじめに Claude Code の hook で「特定のモデルのときだけ警告を出す」という制御を書いている人向けの話です。 モデル名でマッチする hook は、メインのモデルを乗り換えた瞬間に静かに無効化されます。しかも exit 0 …"
+      "id": "db632bbb9b1f",
+      "title": "Knowledge Graphの次は何か？『知識表現』をAI自身に設計させるという思考実験",
+      "url": "https://zenn.dev/muzzledskr/articles/beyond-knowledge-graph",
+      "publishedAt": "2026-08-04T13:54:43.000Z",
+      "publisher": "ms",
+      "summary": "GraphRAG という言葉を、最近は毎日のように見る。Knowledge Graph（KG）は、もう当たり前の道具になった。だが業後にぼんやり考えていて、ふと立ち止まった。 Knowledge Graph は、そもそも人間が発明した知識…"
     },
     {
-      "id": "1314ceddd92f",
-      "title": "AIエージェントに委任しても速くならない理由は「直列待ち」だった——ログ290件を実測して並列化した話【Claude Code】",
-      "url": "https://zenn.dev/cutlet_of_pork/articles/ai-agent-delegation-serial-wait-bottleneck",
-      "publishedAt": "2026-08-04T05:23:40.000Z",
-      "publisher": "とんのかつ",
-      "summary": "AIエージェントに作業を委任する運用を続けていると、委任先もそろっているのに全体が速くならない、と感じることがあります。自分もそうでした。最初は委任量が足りないか、委任先が失敗して手戻りしているのだろうと考えていました。 ところがログを実…"
+      "id": "7f984a44d40b",
+      "title": "【Claude Opus 5】ベストプラクティスをルール25本に当てたら、穴が3つ出た",
+      "url": "https://zenn.dev/takuyanagai0213/articles/claude-opus-5-prompting-best-practices-25-rules",
+      "publishedAt": "2026-08-04T13:15:39.000Z",
+      "publisher": "Takuya Nagai / アフィリエイト × Claude Code",
+      "summary": "TL;DR 新しいモデル世代が出るたびに、自分がエージェントに与えている指示資産を棚卸ししている。今回は 25 本・4,023 行が対象だった(2026-08-04 実測) 公式ガイドは「明示的な検証指示は削除してください」と明言する。最…"
     },
     {
-      "id": "7ac54dcb40fe",
-      "title": "データを自由に使えないのは、道具のせいじゃない",
-      "url": "https://zenn.dev/usen_ict/articles/0a45ae8665e8dc",
-      "publishedAt": "2026-08-04T04:58:24.000Z",
-      "publisher": "RYO-ITOU",
-      "summary": "はじめに はじめまして。私は、営業、企画、デジタルマーケティングを経て、現在はDX推進の担当をしています。 エンジニアではなく、キャリアの軸足はずっとビジネス側にあります。SQLを書いて自分でデータを触ることもありますが、専門はあくまでビ…"
+      "id": "e7fdd53d1f04",
+      "title": "執事とメイドを雇ったら、AIエージェントが暴走しなくなった話",
+      "url": "https://zenn.dev/chisatom/articles/d6881ea76ada27",
+      "publishedAt": "2026-08-04T13:00:42.000Z",
+      "publisher": "Chisato Matsuzaki",
+      "summary": "うちの AI エージェントには、名前があります。 執事長のアルフレッド、執事のクライヴ、メイドのエマ・フィオナ・リリィ・ソフィア。6体の Claude Code エージェントが、それぞれ独立した tmux セッションで動いていて、私は彼ら…"
     },
     {
-      "id": "f0251c99d774",
-      "title": "GitHub Stacked PRsで何が変わる？ 宣言された依存と並列AIのPR衝突",
-      "url": "https://zenn.dev/veripsa/articles/github-stacked-prs-ai-agent-coordination",
-      "publishedAt": "2026-08-04T04:57:41.000Z",
-      "publisher": "RollNuts",
-      "summary": "<!-- lane: GitHub Stacked PRs / PR coordination comparison search intent: GitHub Stacked PRsが解く問題と、並列AIのPR衝突との違い exclud…"
+      "id": "ab88955899b0",
+      "title": "打ち合わせの録音を置くだけで議事録にする仕組みを作った",
+      "url": "https://zenn.dev/handa_lab/articles/e5876facbd2135",
+      "publishedAt": "2026-08-04T12:14:36.000Z",
+      "publisher": "HandaLab",
+      "summary": "会議の録音ファイルを置いて「議事録を作って」と一声かけると、文字起こし・話者分離・固有名詞補正・議事録生成まで走り切る仕組みを、Claude Code のスキルとして作りました。製造業の生産技術エンジニアとして本職のソフトウェアエンジニア…"
     },
     {
-      "id": "f71e0767421a",
-      "title": "Microsoft 謹製 デスクトップアプリ「Skill Recorder」で業務効率化スキル（SKILL.md）の作成が捗る？",
-      "url": "https://zenn.dev/benjuwan/articles/c2ba48e7662f92",
-      "publishedAt": "2026-08-04T04:57:19.000Z",
-      "publisher": "benjuwan",
-      "summary": "はじめに スキル（SKILL.md）で定型業務をAIに移譲したり、特定業務の自動化・半自動化を実現したりといった状況は珍しくなくなってきたと思います。 例えば、ブラウザ操作のトレースはplaywright-mcpまたはplaywright…"
+      "id": "70821f981382",
+      "title": "Perplexity.ai で調査結果のダッシュボードを共有したりplan modeを使う",
+      "url": "https://zenn.dev/minato_seagull/articles/5ce8ac69558ee1",
+      "publishedAt": "2026-08-04T12:01:06.000Z",
+      "publisher": "Minato_seagull",
+      "summary": "要旨 Perplexity 、単なる調査系で優秀なAIツールと思ってたんですが、 「調査結果を見やすくして静的サイトにする」機能まで出てたので驚きました。 また、ChatGPT/Claude などと同じように Skill や Plan M…"
     },
     {
-      "id": "5805613bd5cc",
-      "title": "常駐ゼロで回す自宅ラボの5仕組み——動画15秒生成と反証止め設計の理由",
-      "url": "https://zenn.dev/chemy_pvl/articles/home-lab-ai-maker-showcase",
-      "publishedAt": "2026-08-04T04:21:55.000Z",
-      "publisher": "Chemy",
-      "summary": "対戦ゲームは消費メモリ30MB未満で常時待機ゼロ、動画生成はピーク負荷が約347MBで生成時間は約15秒。数字を並べてみると、自宅ラボで動いている5つの仕組みに共通するのは「必要な時だけ働かせる」という一点でした。 対象は、AIを使った自…"
+      "id": "44123ab1a506",
+      "title": "Codexにコミット前のレビューを1回頼む ― codex review で未コミットの変更を見てもらう最初の一歩",
+      "url": "https://zenn.dev/akira_papa/articles/5c1cb2d10caba5",
+      "publishedAt": "2026-08-04T11:53:07.000Z",
+      "publisher": "あきらパパ",
+      "summary": "この記事は、Codex（OpenAIのコーディング用エージェント）は触ったことがあるけれど、コードレビューを頼む機能はまだ使ったことがない人に向けています。扱うのは codex review という1つの機能だけです。読み終えたとき、あな…"
     },
     {
-      "id": "e424ffe7e47d",
-      "title": "AIの記憶に「質量」と「重力」を持たせる —— フラットなコンテキストを超えて",
-      "url": "https://zenn.dev/ryosuke_tanabe/articles/58b5d0e4e9306b",
-      "publishedAt": "2026-08-04T04:11:15.000Z",
-      "publisher": "Ryosuke-Tanabe",
-      "summary": "! この記事は設計思想と数理モデルの骨格を扱う。実装コード・運用パラメータの実値・内部の想起パイプラインの配線は扱わない。前作［ローカルLLMに記憶装置を搭載させてみた］で「重力は別記事で」と予告した、その思想編にあたる。 1. はじめに…"
+      "id": "3fce6931ea52",
+      "title": "Perplexity風のエージェントを個人開発アプリに組み込んだ——設計の工夫と課題点",
+      "url": "https://zenn.dev/yook/articles/qa-agent-six-stage-design-and-scaling",
+      "publishedAt": "2026-08-04T11:46:43.000Z",
+      "publisher": "yook",
+      "summary": "はじめに 外部のウェブ検索と、アプリケーション内で事前にAI分析した独自の内部記事を組み合わせ、出典付きの回答を返す——そんな「Perplexity風のQ&Aエージェント」を、個人開発している海外テックニュース収集・分析アプリ『Vecto…"
     },
     {
-      "id": "35e52c812825",
-      "title": "Claude Code をチームに安全に配る — 権限設計と非エンジニア向け配布の実務",
-      "url": "https://zenn.dev/tikuwaman/books/claude-code-team-rollout",
-      "publishedAt": "2026-08-04T04:02:49.000Z",
-      "publisher": "ちくわマン",
-      "summary": "CLI を使わないメンバーを含むチームに Claude Code を配るとき、権限設計（deny / ask / allow）と配布手順のどこでつまずくか。実際に設計・配布した配布用 settings.json と導入手順書を、判断の根拠…"
+      "id": "027c22743958",
+      "title": "AIとスマートフォンの「セカンドライフ」",
+      "url": "https://zenn.dev/nsysgroup/articles/69731d2e6cd72e",
+      "publishedAt": "2026-08-04T11:20:20.000Z",
+      "publisher": "Nsysgroup",
+      "summary": "AIとスマートフォンの「セカンドライフ」 世界では毎年10億台を超えるスマートフォンが製造されているが、そのすべてが最終的に埋め立て地に行き着くわけではない。下取りに出され、整備(リファービッシュ)された上で、新たな持ち主のもとへ渡ってい…"
     },
     {
-      "id": "597e334c53a8",
-      "title": "# AIに画面を見せて「ここをこう」と言えるようにしました",
-      "url": "https://zenn.dev/kitamiya/articles/f8bc1292f8e250",
-      "publishedAt": "2026-08-04T03:32:37.000Z",
-      "publisher": "キタミヤ",
-      "summary": "AIに画面のことを説明するの、めちゃくちゃ面倒じゃないですか？ スクショを貼って「この右上のあたりにあるやつを、もう少し小さくして左に寄せて」って書く。書いてる途中でいつも思います。**これ、指させば1秒なんだけどな……**って。 なので…"
+      "id": "17b4a507f4bf",
+      "title": "AIエージェントの実運用",
+      "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20260724-ai-agent-jimusho-tech",
+      "publishedAt": "2026-08-04T11:00:06.000Z",
+      "publisher": "yutaka8484",
+      "summary": "はじめに AIエージェントの導入は、会社の業務を効率化するために重要なステップです。当社では、AIエージェントを社内サーバーに常駐させ、毎日決まった時間に決まった仕事を自動で行わせています。この記事では、そのシステムの構成、設計判断、ハマ…"
     },
     {
-      "id": "7b17c19c1c1e",
-      "title": "【レジェンド級・米国エンジニア思考法】 AI時代に求められるエンジニア生存戦略",
-      "url": "https://zenn.dev/mune_actor_en/articles/0815bed2d6e0ce",
-      "publishedAt": "2026-08-04T03:08:31.000Z",
-      "publisher": "むね｜フリーランスエンジニア",
-      "summary": "本日6/22(月)12:15〜13:00に、 米国Microsoftの牛尾さんと、ハワイ在住の酒井さんの対談（レバテックさん主催）を聞きました。 牛尾さん、酒井さんに聞く！アメリカ開発現場の最前線 これがもう刺さりすぎて、一人で何度も頷い…"
+      "id": "ea674cf1d3b7",
+      "title": "エンジニアをAIに置き換える、残りの二割",
+      "url": "https://zenn.dev/matsumoto11111/articles/aa2193e6924ac6",
+      "publishedAt": "2026-08-04T10:39:11.000Z",
+      "publisher": "松本",
+      "summary": "はじめに AIにコードを書かせて、Windows向けのセルフブロッカーを作りました。ブロック中は本人でもアンインストールできず、タスクキルなどでも解除できないという仕様のアプリです。 出荷の直前、仮想マシンで動作確認をしていたら、こんなバ…"
     },
     {
-      "id": "430d0e7d8383",
-      "title": "DDRのススメ：デザインの意思決定をチームの資産にする仕組み",
-      "url": "https://zenn.dev/xtm_blog/articles/aca85275cb6827",
-      "publishedAt": "2026-08-04T03:00:05.000Z",
-      "publisher": "mame",
-      "summary": "初カキコ…ども…！デザイナーのmameと申します。 最近は、AIエージェントの活用が進み、デザインもコードベースでやりとりする場面が増えてきました。 我々のチームでも、デザインシステムをAIエージェントが活用しやすい形にするため、コンポー…"
+      "id": "ab6bfa9c3483",
+      "title": "自作言語で AI エージェントをオーケストレーションしよう！",
+      "url": "https://zenn.dev/yukikurage/articles/201f6f9155f3db",
+      "publishedAt": "2026-08-04T10:24:32.000Z",
+      "publisher": "ゆきくらげ",
+      "summary": "現在、AI エージェントやその他オーケストレーションを書くための言語 Katari を開発しています。v0.1.x です。 サイト https://katari-lang.dev リポジトリ https://github.com/kata…"
     }
   ],
-  "fetchedAt": "2026-08-04T17:44:02.878Z",
+  "fetchedAt": "2026-08-04T19:12:15.644Z",
   "stale": false,
   "error": null
 }

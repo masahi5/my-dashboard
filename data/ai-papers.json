@@ -30,6 +30,14 @@
       "score": 7
     },
     {
+      "id": "9a5cedf6865c",
+      "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
+      "url": "https://huggingface.co/papers/2607.29377",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate…",
+      "score": 4
+    },
+    {
       "id": "31c207fc9c6b",
       "title": "ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching (ALD/E) Scientific Figures",
       "url": "https://huggingface.co/papers/2607.26848",
@@ -38,11 +46,11 @@
       "score": 4
     },
     {
-      "id": "9a5cedf6865c",
-      "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
-      "url": "https://huggingface.co/papers/2607.29377",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate…",
+      "id": "4819833aeb02",
+      "title": "Wnuan: Staged Post-Training for Question Answering over Proprietary Enterprise Knowledge",
+      "url": "https://huggingface.co/papers/2608.01862",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Enterprise question answering requires models to acquire proprietary knowledge without discarding general capabilities.…",
       "score": 3
     },
     {
@@ -62,11 +70,11 @@
       "score": 3
     },
     {
-      "id": "4819833aeb02",
-      "title": "Wnuan: Staged Post-Training for Question Answering over Proprietary Enterprise Knowledge",
-      "url": "https://huggingface.co/papers/2608.01862",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Enterprise question answering requires models to acquire proprietary knowledge without discarding general capabilities.…",
+      "id": "acc1f41da345",
+      "title": "Seeing or Knowing? Visual Context Sensitivity in Multimodal Large Language Models",
+      "url": "https://huggingface.co/papers/2607.26326",
+      "publishedAt": "2026-07-28T00:00:00.000Z",
+      "summary": "Multimodal Large Language Models (MLLMs) achieve strong performance by integrating visual inputs with the rich priors o…",
       "score": 2
     },
     {
@@ -75,14 +83,6 @@
       "url": "https://huggingface.co/papers/2608.01397",
       "publishedAt": "2026-08-02T00:00:00.000Z",
       "summary": "World Action Models (WAMs) couple action generation with prediction of future states. Their effectiveness depends on wh…",
-      "score": 1
-    },
-    {
-      "id": "acc1f41da345",
-      "title": "Seeing or Knowing? Visual Context Sensitivity in Multimodal Large Language Models",
-      "url": "https://huggingface.co/papers/2607.26326",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "summary": "Multimodal Large Language Models (MLLMs) achieve strong performance by integrating visual inputs with the rich priors o…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-04T17:44:02.804Z",
+  "fetchedAt": "2026-08-04T19:12:15.515Z",
   "stale": false,
   "error": null
 }
