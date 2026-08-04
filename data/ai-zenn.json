@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "0bc9df254405",
-      "title": "フィジカルAIは、何のためにあるのか 現場から考える",
-      "url": "https://zenn.dev/pomodoro_naomi/articles/ba50dbb04cdce4",
-      "publishedAt": "2026-08-03T17:36:37.000Z",
-      "publisher": "🍅Pomodoroナオミ🍅",
-      "summary": "あの頃は気付かなかった 子どもを抱いて、おっぱいをあげて、オムツを替えて、寝かしつける。 それだけのことが、一人の夜には終わらない仕事になる。 正直に書く。私はオムツ交換が好きではなかった。 愛情がなかったわけではない。ただ、その作業その…"
+      "id": "5805613bd5cc",
+      "title": "常駐ゼロで回す自宅ラボの5仕組み——動画15秒生成と反証止め設計の理由",
+      "url": "https://zenn.dev/chemy_pvl/articles/home-lab-ai-maker-showcase",
+      "publishedAt": "2026-08-04T04:21:55.000Z",
+      "publisher": "Chemy",
+      "summary": "対戦ゲームは消費メモリ30MB未満で常時待機ゼロ、動画生成はピーク負荷が約347MBで生成時間は約15秒。数字を並べてみると、自宅ラボで動いている5つの仕組みに共通するのは「必要な時だけ働かせる」という一点でした。 対象は、AIを使った自…"
     },
     {
-      "id": "26ab93615b5f",
-      "title": "2026-07-29 今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-07-29-tech-daily",
-      "publishedAt": "2026-08-03T17:11:19.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 2026-07-29の技術トレンドは、LLM単体からエージェント実装・標準化・安全性へ焦点が移った1日でした。BigGoのWAIC報道、FujitsuやMicrosoft Build関連、Allganizeの展示会ニュースが示す通り、…"
+      "id": "e424ffe7e47d",
+      "title": "AIの記憶に「質量」と「重力」を持たせる —— フラットなコンテキストを超えて",
+      "url": "https://zenn.dev/ryosuke_tanabe/articles/58b5d0e4e9306b",
+      "publishedAt": "2026-08-04T04:11:15.000Z",
+      "publisher": "Ryosuke-Tanabe",
+      "summary": "! この記事は設計思想と数理モデルの骨格を扱う。実装コード・運用パラメータの実値・内部の想起パイプラインの配線は扱わない。前作［ローカルLLMに記憶装置を搭載させてみた］で「重力は別記事で」と予告した、その思想編にあたる。 1. はじめに…"
     },
     {
-      "id": "89c7876f1eff",
-      "title": "AIが「効果ありませんでした」と報告した分析は、ほとんど実行されていなかった",
-      "url": "https://zenn.dev/gogyo/articles/a776292eb0114a",
-      "publishedAt": "2026-08-03T16:07:31.000Z",
-      "publisher": "gogyo",
-      "summary": "7つの手順を順番に全部踏んでから答えを出す——そう決めてある分析があります。手順書も書いてあります。 それをAIに頼みました。返ってきた報告はこうでした。 この手法では、効果は確認できませんでした。 そうか、ダメだったか。そう思いかけて、…"
+      "id": "35e52c812825",
+      "title": "Claude Code をチームに安全に配る — 権限設計と非エンジニア向け配布の実務",
+      "url": "https://zenn.dev/tikuwaman/books/claude-code-team-rollout",
+      "publishedAt": "2026-08-04T04:02:49.000Z",
+      "publisher": "ちくわマン",
+      "summary": "CLI を使わないメンバーを含むチームに Claude Code を配るとき、権限設計（deny / ask / allow）と配布手順のどこでつまずくか。実際に設計・配布した配布用 settings.json と導入手順書を、判断の根拠…"
     },
     {
-      "id": "5754df26a893",
-      "title": "27時間で書かれたCRMを解体する",
-      "url": "https://zenn.dev/417/books/agentic-crm-teardown",
-      "publishedAt": "2026-08-03T16:04:31.000Z",
-      "publisher": "MAAAAAAAAAAA",
-      "summary": "HubSpotの年8万ドルを断り、27時間で書かれたエージェント駆動CRMがMITで公開された。それをcloneし、実行し、パッチを当て、実測するまでの記録である。「AIに確信度を申告させない」証拠台帳、リース期限と試行回数、fail-c…"
+      "id": "597e334c53a8",
+      "title": "# AIに画面を見せて「ここをこう」と言えるようにしました",
+      "url": "https://zenn.dev/kitamiya/articles/f8bc1292f8e250",
+      "publishedAt": "2026-08-04T03:32:37.000Z",
+      "publisher": "キタミヤ",
+      "summary": "AIに画面のことを説明するの、めちゃくちゃ面倒じゃないですか？ スクショを貼って「この右上のあたりにあるやつを、もう少し小さくして左に寄せて」って書く。書いてる途中でいつも思います。**これ、指させば1秒なんだけどな……**って。 なので…"
     },
     {
-      "id": "83f1813a1d8b",
-      "title": "Durable Object の中のファイルシステム：Cloudflare Computer を読んで動かす",
-      "url": "https://zenn.dev/417/books/masakazu-cloudflare-computer-fs",
-      "publishedAt": "2026-08-03T16:04:06.000Z",
-      "publisher": "MAAAAAAAAAAA",
-      "summary": "AI エージェントに作業用のファイルシステムを与える Cloudflare Computer を、公開ドキュメントの範囲を越えて調べた記録。SQLite に置かれた仮想ファイルシステムの設計、FUSE マウントの実際、公開ベンチマークが成…"
+      "id": "7b17c19c1c1e",
+      "title": "【レジェンド級・米国エンジニア思考法】 AI時代に求められるエンジニア生存戦略",
+      "url": "https://zenn.dev/mune_actor_en/articles/0815bed2d6e0ce",
+      "publishedAt": "2026-08-04T03:08:31.000Z",
+      "publisher": "むね｜フリーランスエンジニア",
+      "summary": "本日6/22(月)12:15〜13:00に、 米国Microsoftの牛尾さんと、ハワイ在住の酒井さんの対談（レバテックさん主催）を聞きました。 牛尾さん、酒井さんに聞く！アメリカ開発現場の最前線 これがもう刺さりすぎて、一人で何度も頷い…"
     },
     {
-      "id": "4def364d3c94",
-      "title": "Cloudflare Computer を読んで動かす：Durable Object の中の仮想ファイルシステム",
-      "url": "https://zenn.dev/417/articles/masakazu-cloudflare-computer-20260804",
-      "publishedAt": "2026-08-03T15:47:19.000Z",
-      "publisher": "MAAAAAAAAAAA",
-      "summary": "Cloudflare が cloudflare/computer というリポジトリを公開した。 AI エージェントに作業用のファイルシステムを与えるための仕組みで、ライセンスは MIT である。 README の一行目がこの製品を要約して…"
+      "id": "430d0e7d8383",
+      "title": "DDRのススメ：デザインの意思決定をチームの資産にする仕組み",
+      "url": "https://zenn.dev/xtm_blog/articles/aca85275cb6827",
+      "publishedAt": "2026-08-04T03:00:05.000Z",
+      "publisher": "mame",
+      "summary": "初カキコ…ども…！デザイナーのmameと申します。 最近は、AIエージェントの活用が進み、デザインもコードベースでやりとりする場面が増えてきました。 我々のチームでも、デザインシステムをAIエージェントが活用しやすい形にするため、コンポー…"
     },
     {
-      "id": "3dcc78781d4e",
-      "title": "Devin Proプラン契約後に表示される$50の正体を公式ドキュメントで徹底調査した",
-      "url": "https://zenn.dev/ryoushin/articles/devin-extra-usage-balance-investigation",
-      "publishedAt": "2026-08-03T15:27:43.000Z",
-      "publisher": "梁震",
-      "summary": "はじめに：$20のプランを契約したのに$50がある？ Devin（Cognition社のAIソフトウェアエンジニア）のProプランを契約した後、アカウント設定画面を見ると「Extra usage balance: $50.00」という項目…"
+      "id": "24eff9a7b9b5",
+      "title": "AIにデザインを固定させる方法の変遷 — JSON定義で固定できたが「Excelの表」になった話",
+      "url": "https://zenn.dev/mxhlix/articles/design-locking-evolution",
+      "publishedAt": "2026-08-04T02:36:25.000Z",
+      "publisher": "Mxhlix",
+      "summary": "AIエージェントにWebツールを量産させると、必ずぶつかる問題があります。デザインが毎回ブレる。同じ指示を出しても、生成のたびに配色・余白・コンポーネントの形が微妙に違う。600個以上のツールを5言語で運用するプロジェクトで、このデザイン…"
     },
     {
-      "id": "cf75773de9c9",
-      "title": "Rustで学ぶデータ指向プログラミング",
-      "url": "https://zenn.dev/yamakh/articles/3b20ba5a2603bf",
-      "publishedAt": "2026-08-03T15:25:40.000Z",
-      "publisher": "khaym",
-      "summary": "概要 最近、Rustを使った個人開発をしてるので勉強がてら変更容易性のあるコードを書くにはどうすればいいのか、よく使われる設計パターンを整理してみました。整理の軸は、データと振る舞いを分離する「データ指向プログラミング」というパラダイムで…"
+      "id": "e8b505e40cfc",
+      "title": "投稿時刻より前に記事在庫を監視するバックプレッシャー設計 - 障害分析",
+      "url": "https://zenn.dev/kmn/articles/7d089bf15a42ce",
+      "publishedAt": "2026-08-04T02:34:01.000Z",
+      "publisher": "KMN KMN",
+      "summary": "投稿時刻より前に記事在庫を監視するバックプレッシャー設計 - 障害分析 自動処理は、スケジュール登録だけでは安定しません。スケジューラが正常でも、入力キューが空なら記事は公開されません。 この記事では「障害分析」の観点から、入力、処理、成…"
     },
     {
-      "id": "320d6122b526",
-      "title": "AI エージェントに「仕様どおり」を保証させる — SoT Chain という設計",
-      "url": "https://zenn.dev/flip451/articles/sotohe-sot-chain-overview",
-      "publishedAt": "2026-08-03T15:23:18.000Z",
-      "publisher": "flip451",
-      "summary": "AI コーディングエージェントはコードを書くのが速い。しかし「書かれたコードが仕様どおりである」ことは、実は誰も保証していない。この問題を解く一つの方法として、仕様や設計を文書のままにせず、機械が強制する制約として扱う機構を提案する。その…"
+      "id": "f4a650cf0607",
+      "title": "SDDという名前が付く前から、1年やっていた。効いたことと、続かなかったこと",
+      "url": "https://zenn.dev/rapls/articles/924d93cd48a100",
+      "publishedAt": "2026-08-04T01:33:48.000Z",
+      "publisher": "Rapls",
+      "summary": "最近、SDD（仕様駆動開発）という言葉をよく見るようになりました。 雰囲気でプロンプトを投げてAIに作らせる開発が広まって、そのひずみが出てきた。動いているけれど、なぜ動いているか分からないコードが積み上がって、デバッグもリファクタも効か…"
     },
     {
-      "id": "66483d5407e8",
-      "title": "AIを使う者よ、AIを使う側たらんとせば、中身を知るべし",
-      "url": "https://zenn.dev/okamyuji/articles/ai-architecture-one-sentence",
-      "publishedAt": "2026-08-03T14:30:22.000Z",
-      "publisher": "okamyuji",
-      "summary": "はじめに AIを「完全に理解した」というXのPOSTやQiitaやzennの記事が毎週のように現れ、「神プロンプト」だったり、はたまた、「ハーネスエンジニアリング」や「ループエンジニアリング」が毎週更新され、挙句の果てに明日から使えるテク…"
+      "id": "a6ed53d737c8",
+      "title": "自分が自然と学び続けられる環境を作ることの重要性",
+      "url": "https://zenn.dev/reitonkyoj/articles/a0a13d42b57222",
+      "publishedAt": "2026-08-04T01:19:54.000Z",
+      "publisher": "reitonkyoj",
+      "summary": "自分が自然と学び続けられる環境を作ることの重要性 学生の頃、私は全く勉強ができない生徒でした。 当時は「勉強を続けなければいけない」という焦りばかりがあり、そのプレッシャーの中で過ごしていました。 勉強そのものを楽しむことも、どうすればも…"
     },
     {
-      "id": "fa7de46bc962",
-      "title": "【2026年版】LLM御三家 GPT vs Gemini vs Claude 徹底比較 〜違い・特徴・使い分け〜",
-      "url": "https://zenn.dev/m16_llc/articles/gpt-gemini-claude-comparison-2026",
-      "publishedAt": "2026-08-03T14:00:05.000Z",
-      "publisher": "まさぴょん🐱",
-      "summary": "こんにちは、FDE, PdM, PM, ソフトウェアエンジニア/LLMエンジニアのまさぴょんです🐱 「結局、ChatGPT・Gemini・Claude のどれを使えばいいの?」——AIを仕事に使い始めた人から、いちばんよく聞かれる質問で…"
+      "id": "1d2f73190027",
+      "title": "CursorってClaude Codeより何が強いの？中の人に聞いてみた",
+      "url": "https://zenn.dev/eques_blog/articles/56efb738a7a9c1",
+      "publishedAt": "2026-08-04T00:59:45.000Z",
+      "publisher": "岸本悠佑_AIサムライ",
+      "summary": "はじめに 私は普段、開発のほぼすべてをClaude Codeでやっています。ツール開発も、資料生成の仕組みづくりも、だいたいClaude Codeに投げる生活です。 そんな私が先日、初めてCursorを触りました。 結果、3往復のやり取り…"
     },
     {
-      "id": "53b3c8982ae3",
-      "title": "大学へ無料提供されるOpenAI依存に陥る未来、日本独自AIは生き残れるのか",
-      "url": "https://zenn.dev/syoshida07/articles/5ec4103cde9bd6",
-      "publishedAt": "2026-08-03T13:54:41.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "7月29日 OpenAIは大学研究者向けプログラム ChatGPT for Academic Researchers を正式発表した。 公式発表URL：OpenAI : Accelerating scientific discovery …"
+      "id": "1ade422d5f20",
+      "title": "ExaVision 開発メモ（引き継ぎ・検索ロジック）",
+      "url": "https://zenn.dev/gitmame00/articles/9f6b7883bacdd9",
+      "publishedAt": "2026-08-04T00:23:07.000Z",
+      "publisher": "ゆうすけ",
+      "summary": "修正事項 記憶の引き継ぎ オフライン・ゲストモード→アカウント 記憶の引き継ぎを実行しても引き継がれないため原因調査・修正。 引き継ぎ成功後は、オフラインモードの既存記憶を削除する。 次回以降オフラインモードを使用する場合は、新しい空の記…"
     }
   ],
-  "fetchedAt": "2026-08-04T03:35:58.388Z",
+  "fetchedAt": "2026-08-04T06:15:56.831Z",
   "stale": false,
   "error": null
 }

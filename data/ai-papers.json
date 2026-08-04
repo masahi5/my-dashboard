@@ -6,59 +6,51 @@
   "category": "ai",
   "items": [
     {
-      "id": "1a1ff4c2d19d",
-      "title": "Weak-to-Strong On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2607.26246",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD), which aligns a student with the teacher's token-level distribution on the student's own r…",
-      "score": 44
-    },
-    {
-      "id": "cf2b245ebb14",
-      "title": "SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks",
-      "url": "https://huggingface.co/papers/2608.02023",
+      "id": "1b605555da40",
+      "title": "LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks",
+      "url": "https://huggingface.co/papers/2608.01964",
       "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Speech and audio generation is often needed in animation dubbing, audio drama, movies, advertising, games, podcasts, an…",
-      "score": 17
+      "summary": "Large language model (LLM) agents increasingly undertake long-horizon tasks that require sustained reasoning, tool use,…",
+      "score": 42
     },
     {
-      "id": "3e6dc40f3168",
-      "title": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2607.28590",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Multimodal on-policy distillation (OPD) transfers fine-grained visual knowledge by supervising student-generated trajec…",
-      "score": 17
-    },
-    {
-      "id": "63689dbeb1a9",
-      "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2607.29613",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) post-training of Vision-Language-Action (VLA) models has shown strong promise for robotic m…",
-      "score": 10
-    },
-    {
-      "id": "60f6910833f7",
-      "title": "StyleForge: Indoor Furniture Styling by Counterfactual Reasoning in a Hypergraph Field",
-      "url": "https://huggingface.co/papers/2608.01954",
+      "id": "c41ff3e7ba46",
+      "title": "SKT: Skill-Use Training at Scale via Verified Synthetic Data Generation",
+      "url": "https://huggingface.co/papers/2608.02287",
       "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Fixed-layout indoor furniture styling requires selecting assets that form a coherent room without changing the prescrib…",
-      "score": 5
+      "summary": "Agent skills have become an important mechanism for equipping language-model agents with reusable procedural knowledge.…",
+      "score": 15
     },
     {
-      "id": "b213615be5c8",
-      "title": "Roomer: Reflective Object-Grounded Model Editing and Repair for 3D Indoor Layout Synthesis",
-      "url": "https://huggingface.co/papers/2608.01973",
+      "id": "00c81b6f34fc",
+      "title": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity",
+      "url": "https://huggingface.co/papers/2608.02603",
       "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Existing indoor layout generators produce globally plausible layouts yet may retain local violations such as collisions…",
-      "score": 5
+      "summary": "Controllable video generation models are increasingly being developed as world models. Accordingly, evaluating them in …",
+      "score": 15
     },
     {
-      "id": "7e725ef22fac",
-      "title": "Constitutional Midtraining: Content Presence Drives Alignment Gains",
-      "url": "https://huggingface.co/papers/2607.26654",
+      "id": "8db67ffe0c85",
+      "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
+      "url": "https://huggingface.co/papers/2608.02583",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has …",
+      "score": 15
+    },
+    {
+      "id": "cf114da216d5",
+      "title": "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code",
+      "url": "https://huggingface.co/papers/2608.02499",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Real-world software development requires coding agents to operate in shared workspaces where users may inspect and modi…",
+      "score": 14
+    },
+    {
+      "id": "5ff5f4accb19",
+      "title": "LeapTalk: Breaking the Latency-Quality Trade-off in Talking Head Generation",
+      "url": "https://huggingface.co/papers/2608.00079",
       "publishedAt": "2026-07-29T00:00:00.000Z",
-      "summary": "Post-training alignment is often shallow, eroding under fine-tuning. Whether midtraining interventions, cleanly isolate…",
+      "summary": "Long-form and real-time talking-head generation remains challenging due to a latency-quality trade-off: inefficient mul…",
       "score": 3
     },
     {
@@ -67,42 +59,50 @@
       "url": "https://huggingface.co/papers/2608.00440",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "Recent image generators can synthesize convincing human-centric images, yet producing a useful collection remains diffe…",
+      "score": 3
+    },
+    {
+      "id": "400516614c9b",
+      "title": "3DZip: Spatial-Aware Feature Diversity-Guided Token Compression for 3D Question Answering",
+      "url": "https://huggingface.co/papers/2608.01185",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "summary": "Recent 3D vision-language models (3D VLMs) construct geometry aware tokens by projecting 2D visual features into world …",
       "score": 2
     },
     {
-      "id": "1b967e15d7cc",
-      "title": "ScrambleToolBench: Agents Search Exhaustively Even When Their Own Map Points to the Next Step",
-      "url": "https://huggingface.co/papers/2608.02358",
+      "id": "3d84401fd209",
+      "title": "DAPD: Dual-Anchored Policy Distillation",
+      "url": "https://huggingface.co/papers/2608.01735",
       "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "To operate robustly in open-world environments, autonomous agents should be able to infer the behavior of unfamiliar sy…",
-      "score": 2
-    },
-    {
-      "id": "cf114da216d5",
-      "title": "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code",
-      "url": "https://huggingface.co/papers/2608.02499",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Real-world software development requires coding agents to operate in shared workspaces where users may inspect and modi…",
+      "summary": "On-policy (self) distillation (OPSD) is increasingly adopted for language-model post-training. It strengthens the teach…",
       "score": 1
     },
     {
-      "id": "8db67ffe0c85",
-      "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
-      "url": "https://huggingface.co/papers/2608.02583",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has …",
-      "score": 0
+      "id": "12d65f4393a1",
+      "title": "DiffusionGemma Technical Report",
+      "url": "https://huggingface.co/papers/2608.00146",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "We introduce DiffusionGemma, an experimental open-weight language model that uses discrete diffusion to generate text a…",
+      "score": 1
     },
     {
-      "id": "86acc2996f9a",
-      "title": "Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs",
-      "url": "https://huggingface.co/papers/2608.01755",
+      "id": "aedf83f0e63d",
+      "title": "CADENA: Stepwise CAD Reverse Engineering",
+      "url": "https://huggingface.co/papers/2608.00799",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "summary": "Computer-Aided Design (CAD) underpins modern engineering, yet converting existing shapes into editable models still dem…",
+      "score": 1
+    },
+    {
+      "id": "8c1ad9f69cac",
+      "title": "Progressive Agent Skill Generation via Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2608.01678",
       "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Recent Vision-Language-Action (VLA) models for autonomous driving (AD) increasingly utilize chain-of-thought (CoT) supe…",
-      "score": 0
+      "summary": "Existing skill generation methods largely rely on heuristics or pipeline-style consolidation, which must be specially d…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-04T03:35:58.299Z",
+  "fetchedAt": "2026-08-04T06:15:56.668Z",
   "stale": false,
   "error": null
 }
