@@ -6,44 +6,52 @@
   "category": "ai",
   "items": [
     {
-      "id": "bfd8f1812599",
-      "title": "Mental World Modeling",
-      "url": "https://huggingface.co/papers/2607.27201",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "summary": "World models enable a predictive substrate for planning and action, yet existing formulations merely answer a physical …",
-      "score": 53
+      "id": "1a1ff4c2d19d",
+      "title": "Weak-to-Strong On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2607.26246",
+      "publishedAt": "2026-07-28T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD), which aligns a student with the teacher's token-level distribution on the student's own r…",
+      "score": 44
     },
     {
-      "id": "4b7d3a1412b3",
-      "title": "SAF-OPD: Stable Advantage Fusion for On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2607.29209",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) broadcasts a single response-level reward to every token, while o…",
-      "score": 23
+      "id": "cf2b245ebb14",
+      "title": "SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks",
+      "url": "https://huggingface.co/papers/2608.02023",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Speech and audio generation is often needed in animation dubbing, audio drama, movies, advertising, games, podcasts, an…",
+      "score": 17
     },
     {
-      "id": "368f93497a1b",
-      "title": "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants",
-      "url": "https://huggingface.co/papers/2607.26611",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "summary": "AI-assisted coding increasingly translates informal user intent into executable software, yet coding requests often con…",
-      "score": 20
-    },
-    {
-      "id": "68ff81562bce",
-      "title": "EMBL AI Librarian: Life-Sciences Knowledge Layer for AI Agents",
-      "url": "https://huggingface.co/papers/2607.28229",
-      "publishedAt": "2026-07-30T14:00:27.000Z",
-      "summary": "The web is increasingly accessed by AI agents rather than humans. Every agent needs knowledge, especially in the life-s…",
-      "score": 4
-    },
-    {
-      "id": "177238a71f27",
-      "title": "RL^2-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2607.26991",
+      "id": "3e6dc40f3168",
+      "title": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2607.28590",
       "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Despite the impressive visuomotor capabilities enabled by Vision-Language-Action (VLA) models, their performance often …",
-      "score": 4
+      "summary": "Multimodal on-policy distillation (OPD) transfers fine-grained visual knowledge by supervising student-generated trajec…",
+      "score": 17
+    },
+    {
+      "id": "63689dbeb1a9",
+      "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2607.29613",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "Reinforcement learning (RL) post-training of Vision-Language-Action (VLA) models has shown strong promise for robotic m…",
+      "score": 10
+    },
+    {
+      "id": "60f6910833f7",
+      "title": "StyleForge: Indoor Furniture Styling by Counterfactual Reasoning in a Hypergraph Field",
+      "url": "https://huggingface.co/papers/2608.01954",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Fixed-layout indoor furniture styling requires selecting assets that form a coherent room without changing the prescrib…",
+      "score": 5
+    },
+    {
+      "id": "b213615be5c8",
+      "title": "Roomer: Reflective Object-Grounded Model Editing and Repair for 3D Indoor Layout Synthesis",
+      "url": "https://huggingface.co/papers/2608.01973",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Existing indoor layout generators produce globally plausible layouts yet may retain local violations such as collisions…",
+      "score": 5
     },
     {
       "id": "7e725ef22fac",
@@ -54,55 +62,47 @@
       "score": 3
     },
     {
-      "id": "4b079146fc4c",
-      "title": "One Future, Every Robot: Label-Efficient Collective-State Prediction with Decentralized JEPA",
-      "url": "https://huggingface.co/papers/2607.28443",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Can every robot in a swarm predict the same future collective state from only local observations and bandwidth-limited …",
-      "score": 3
-    },
-    {
-      "id": "dd0547a27015",
-      "title": "Beyond Feeling Better: Capability-Sustaining Emotional Dialogue as a Longitudinal Research Paradigm",
-      "url": "https://huggingface.co/papers/2607.27851",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Emotional dialogue research includes two influential strategy traditions. Empathetic dialogue prioritizes understanding…",
+      "id": "81d65e70e7ba",
+      "title": "Poplar: A Scalable Pipeline for Human-Centric Image Dataset Synthesis",
+      "url": "https://huggingface.co/papers/2608.00440",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "summary": "Recent image generators can synthesize convincing human-centric images, yet producing a useful collection remains diffe…",
       "score": 2
     },
     {
-      "id": "444aae3a3d00",
-      "title": "Not All Tokens Deserve Equal Credit: Counterfactual Sensitivity Credit Reallocation for Long-CoT Reasoning",
-      "url": "https://huggingface.co/papers/2607.27888",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) is central to improving long-CoT reasoning in large language mode…",
+      "id": "1b967e15d7cc",
+      "title": "ScrambleToolBench: Agents Search Exhaustively Even When Their Own Map Points to the Next Step",
+      "url": "https://huggingface.co/papers/2608.02358",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "To operate robustly in open-world environments, autonomous agents should be able to infer the behavior of unfamiliar sy…",
       "score": 2
     },
     {
-      "id": "8e6f58c11f77",
-      "title": "Toward Robust and 3D-Aware RGB-NIR Imaging in the Dark",
-      "url": "https://huggingface.co/papers/2607.29684",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "Robust low-light imaging remains challenging for the community. Recent studies have explored fusing Near-Infrared (NIR)…",
-      "score": 2
-    },
-    {
-      "id": "9f1b030e0745",
-      "title": "In the Driver's Seat: A Multi-Company Study on the Reality of Autonomous Driving System Testing",
-      "url": "https://huggingface.co/papers/2607.15820",
-      "publishedAt": "2026-07-17T00:00:00.000Z",
-      "summary": "Autonomous driving systems (ADS) are rapidly advancing and increasingly deployed in real-world applications. This creat…",
+      "id": "cf114da216d5",
+      "title": "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code",
+      "url": "https://huggingface.co/papers/2608.02499",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Real-world software development requires coding agents to operate in shared workspaces where users may inspect and modi…",
       "score": 1
     },
     {
-      "id": "100a639ac263",
-      "title": "SGTP: Sampling-based Game-Theoretic Planning for Real-Time Multi-Vehicle Autonomous Racing",
-      "url": "https://huggingface.co/papers/2607.25388",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "summary": "Autonomous multi-vehicle racing requires real-time planning of diverse competitive behaviors in intense interactions. E…",
+      "id": "8db67ffe0c85",
+      "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
+      "url": "https://huggingface.co/papers/2608.02583",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has …",
+      "score": 0
+    },
+    {
+      "id": "86acc2996f9a",
+      "title": "Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs",
+      "url": "https://huggingface.co/papers/2608.01755",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Recent Vision-Language-Action (VLA) models for autonomous driving (AD) increasingly utilize chain-of-thought (CoT) supe…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-04T00:09:33.105Z",
+  "fetchedAt": "2026-08-04T03:35:58.299Z",
   "stale": false,
   "error": null
 }
