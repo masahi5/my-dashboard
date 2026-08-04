@@ -11,79 +11,7 @@
       "url": "https://huggingface.co/papers/2608.01964",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Large language model (LLM) agents increasingly undertake long-horizon tasks that require sustained reasoning, tool use,…",
-      "score": 42
-    },
-    {
-      "id": "c41ff3e7ba46",
-      "title": "SKT: Skill-Use Training at Scale via Verified Synthetic Data Generation",
-      "url": "https://huggingface.co/papers/2608.02287",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Agent skills have become an important mechanism for equipping language-model agents with reusable procedural knowledge.…",
-      "score": 15
-    },
-    {
-      "id": "00c81b6f34fc",
-      "title": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity",
-      "url": "https://huggingface.co/papers/2608.02603",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Controllable video generation models are increasingly being developed as world models. Accordingly, evaluating them in …",
-      "score": 15
-    },
-    {
-      "id": "8db67ffe0c85",
-      "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
-      "url": "https://huggingface.co/papers/2608.02583",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has …",
-      "score": 15
-    },
-    {
-      "id": "cf114da216d5",
-      "title": "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code",
-      "url": "https://huggingface.co/papers/2608.02499",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Real-world software development requires coding agents to operate in shared workspaces where users may inspect and modi…",
-      "score": 14
-    },
-    {
-      "id": "5ff5f4accb19",
-      "title": "LeapTalk: Breaking the Latency-Quality Trade-off in Talking Head Generation",
-      "url": "https://huggingface.co/papers/2608.00079",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "summary": "Long-form and real-time talking-head generation remains challenging due to a latency-quality trade-off: inefficient mul…",
-      "score": 3
-    },
-    {
-      "id": "81d65e70e7ba",
-      "title": "Poplar: A Scalable Pipeline for Human-Centric Image Dataset Synthesis",
-      "url": "https://huggingface.co/papers/2608.00440",
-      "publishedAt": "2026-08-01T00:00:00.000Z",
-      "summary": "Recent image generators can synthesize convincing human-centric images, yet producing a useful collection remains diffe…",
-      "score": 3
-    },
-    {
-      "id": "400516614c9b",
-      "title": "3DZip: Spatial-Aware Feature Diversity-Guided Token Compression for 3D Question Answering",
-      "url": "https://huggingface.co/papers/2608.01185",
-      "publishedAt": "2026-08-02T00:00:00.000Z",
-      "summary": "Recent 3D vision-language models (3D VLMs) construct geometry aware tokens by projecting 2D visual features into world …",
-      "score": 2
-    },
-    {
-      "id": "3d84401fd209",
-      "title": "DAPD: Dual-Anchored Policy Distillation",
-      "url": "https://huggingface.co/papers/2608.01735",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "On-policy (self) distillation (OPSD) is increasingly adopted for language-model post-training. It strengthens the teach…",
-      "score": 1
-    },
-    {
-      "id": "12d65f4393a1",
-      "title": "DiffusionGemma Technical Report",
-      "url": "https://huggingface.co/papers/2608.00146",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "We introduce DiffusionGemma, an experimental open-weight language model that uses discrete diffusion to generate text a…",
-      "score": 1
+      "score": 85
     },
     {
       "id": "aedf83f0e63d",
@@ -91,18 +19,90 @@
       "url": "https://huggingface.co/papers/2608.00799",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "Computer-Aided Design (CAD) underpins modern engineering, yet converting existing shapes into editable models still dem…",
+      "score": 20
+    },
+    {
+      "id": "7938d51f2b86",
+      "title": "Motion Beyond Morphology: Bootstrapping Cross-Category Motion Transfer from Abstract Motion Representations",
+      "url": "https://huggingface.co/papers/2608.01628",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Video motion transfer aims to animate a target object using dynamics from a reference video. Existing formulations larg…",
+      "score": 15
+    },
+    {
+      "id": "cbf219825697",
+      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "url": "https://huggingface.co/papers/2608.02585",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous st…",
+      "score": 11
+    },
+    {
+      "id": "3d84401fd209",
+      "title": "DAPD: Dual-Anchored Policy Distillation",
+      "url": "https://huggingface.co/papers/2608.01735",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "On-policy (self) distillation (OPSD) is increasingly adopted for language-model post-training. It strengthens the teach…",
+      "score": 11
+    },
+    {
+      "id": "3bb0418578f0",
+      "title": "GPTQ-2D: Cubic-Time Two-Sided Adaptive Rounding",
+      "url": "https://huggingface.co/papers/2607.27042",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "summary": "Adaptive rounding methods such as GPTQ, or equivalently Babai's nearest plane algorithm, round a real matrix to integer…",
+      "score": 10
+    },
+    {
+      "id": "400516614c9b",
+      "title": "3DZip: Spatial-Aware Feature Diversity-Guided Token Compression for 3D Question Answering",
+      "url": "https://huggingface.co/papers/2608.01185",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "summary": "Recent 3D vision-language models (3D VLMs) construct geometry aware tokens by projecting 2D visual features into world …",
+      "score": 9
+    },
+    {
+      "id": "4ff3ee4129d0",
+      "title": "DeepVoyager-VL: Incentivizing Vision-in-the-Loop Search for Long-Horizon Multimodal Agents",
+      "url": "https://huggingface.co/papers/2608.01827",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Multimodal large language models (MLLMs) have advanced visual understanding and reasoning, yet their static parametric …",
+      "score": 7
+    },
+    {
+      "id": "12d65f4393a1",
+      "title": "DiffusionGemma Technical Report",
+      "url": "https://huggingface.co/papers/2608.00146",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "We introduce DiffusionGemma, an experimental open-weight language model that uses discrete diffusion to generate text a…",
+      "score": 7
+    },
+    {
+      "id": "6e901796c685",
+      "title": "RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems",
+      "url": "https://huggingface.co/papers/2607.29241",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "Optimizing modern recommender models still depends heavily on engineers manually iterating over architectural, objectiv…",
       "score": 1
     },
     {
-      "id": "8c1ad9f69cac",
-      "title": "Progressive Agent Skill Generation via Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2608.01678",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Existing skill generation methods largely rely on heuristics or pipeline-style consolidation, which must be specially d…",
+      "id": "5962c8ba59e4",
+      "title": "DreamTraj: Generating 6-DoF Object Trajectories by Reading Unrendered Video Diffusion Latents",
+      "url": "https://huggingface.co/papers/2608.00486",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "summary": "Accurate prediction of object trajectories during manipulation is essential for closing the perception-action loop. Pro…",
+      "score": 1
+    },
+    {
+      "id": "336ff8134a9f",
+      "title": "Relax Within, Balance Across: Geometry-Guided Load Balancing for Vision-Language Mixture-of-Experts",
+      "url": "https://huggingface.co/papers/2608.00574",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "summary": "Vision-language MoE batches contain different numbers of image and text tokens. Image resolution, image count, tiling, …",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-04T06:15:56.668Z",
+  "fetchedAt": "2026-08-04T09:19:49.727Z",
   "stale": false,
   "error": null
 }

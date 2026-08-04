@@ -6,6 +6,78 @@
   "category": "ai",
   "items": [
     {
+      "id": "139388e3961f",
+      "title": "AIを活用してHTTPヘッダー付与用のChrome拡張機能を自作した話",
+      "url": "https://zenn.dev/mediba/articles/844e0402262f58",
+      "publishedAt": "2026-08-04T07:30:05.000Z",
+      "publisher": "Yu Fujitsuna",
+      "summary": "はじめに Chrome拡張機能は便利な反面、利用する拡張機能によってはセキュリティや運用面を考慮する必要があります。 今回、社内で利用するHTTPヘッダー付与ツールが必要になったため、この機会にAIと対話しながらChrome拡張機能を自作…"
+    },
+    {
+      "id": "0e5937fcf6ed",
+      "title": "MCP in 2026: Why Every AI Engineer Is Building Servers Now",
+      "url": "https://zenn.dev/neotechpark/articles/db627132ca5fba",
+      "publishedAt": "2026-08-04T07:06:55.000Z",
+      "publisher": "NeoTechPark",
+      "summary": "MCP adoption hit 97M monthly downloads in 2026. Here is what changed, how the protocol works, and how to build and secu…"
+    },
+    {
+      "id": "1ad5f2185f13",
+      "title": "究極のコードレビュー環境を目指して脱IDEを始めた",
+      "url": "https://zenn.dev/peoplex_blog/articles/be8e0a28b0f805",
+      "publishedAt": "2026-08-04T06:10:55.000Z",
+      "publisher": "首無しキリン",
+      "summary": "こんにちは。PeopleX エンジニアの竹内（@Kill_In_Sun）です。 皆さん、AI を使って開発してますか？していますよね？もうこれがないと開発できないというほど世の中の状況は変わってしまいました。 書くよりも、読む時間のほうが…"
+    },
+    {
+      "id": "ad02caad30fd",
+      "title": "AIエンジニアとして本番システムを作れるようになるための厳選5冊【2026年版】",
+      "url": "https://zenn.dev/koukyo/articles/20260804_ai_production_books_5",
+      "publishedAt": "2026-08-04T06:00:06.000Z",
+      "publisher": "Koukyo",
+      "summary": "はじめに 自分は昨年からLLMを組み込んだ社内ツールの開発に関わっている。最初はAPIを叩いてレスポンスを返すだけの簡単な仕組みだったが、本番運用が始まると想定外の問題が次々と出てきた。モデルの出力品質が日によってブレる、レイテンシが許容…"
+    },
+    {
+      "id": "29d8903d423e",
+      "title": "Claude Codeのhookがモデル移行で静かに死んでいた話——fail-closed設計と契約テストで再発を止める",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/claude-code-hook-fail-closed-contract-test",
+      "publishedAt": "2026-08-04T05:24:27.000Z",
+      "publisher": "とんのかつ",
+      "summary": "はじめに Claude Code の hook で「特定のモデルのときだけ警告を出す」という制御を書いている人向けの話です。 モデル名でマッチする hook は、メインのモデルを乗り換えた瞬間に静かに無効化されます。しかも exit 0 …"
+    },
+    {
+      "id": "1314ceddd92f",
+      "title": "AIエージェントに委任しても速くならない理由は「直列待ち」だった——ログ290件を実測して並列化した話【Claude Code】",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/ai-agent-delegation-serial-wait-bottleneck",
+      "publishedAt": "2026-08-04T05:23:40.000Z",
+      "publisher": "とんのかつ",
+      "summary": "AIエージェントに作業を委任する運用を続けていると、委任先もそろっているのに全体が速くならない、と感じることがあります。自分もそうでした。最初は委任量が足りないか、委任先が失敗して手戻りしているのだろうと考えていました。 ところがログを実…"
+    },
+    {
+      "id": "7ac54dcb40fe",
+      "title": "データを自由に使えないのは、道具のせいじゃない",
+      "url": "https://zenn.dev/usen_ict/articles/0a45ae8665e8dc",
+      "publishedAt": "2026-08-04T04:58:24.000Z",
+      "publisher": "RYO-ITOU",
+      "summary": "はじめに はじめまして。私は、営業、企画、デジタルマーケティングを経て、現在はDX推進の担当をしています。 エンジニアではなく、キャリアの軸足はずっとビジネス側にあります。SQLを書いて自分でデータを触ることもありますが、専門はあくまでビ…"
+    },
+    {
+      "id": "f0251c99d774",
+      "title": "GitHub Stacked PRsで何が変わる？ 宣言された依存と並列AIのPR衝突",
+      "url": "https://zenn.dev/veripsa/articles/github-stacked-prs-ai-agent-coordination",
+      "publishedAt": "2026-08-04T04:57:41.000Z",
+      "publisher": "RollNuts",
+      "summary": "<!-- lane: GitHub Stacked PRs / PR coordination comparison search intent: GitHub Stacked PRsが解く問題と、並列AIのPR衝突との違い exclud…"
+    },
+    {
+      "id": "f71e0767421a",
+      "title": "Microsoft 謹製 デスクトップアプリ「Skill Recorder」で業務効率化スキル（SKILL.md）の作成が捗る？",
+      "url": "https://zenn.dev/benjuwan/articles/c2ba48e7662f92",
+      "publishedAt": "2026-08-04T04:57:19.000Z",
+      "publisher": "benjuwan",
+      "summary": "はじめに スキル（SKILL.md）で定型業務をAIに移譲したり、特定業務の自動化・半自動化を実現したりといった状況は珍しくなくなってきたと思います。 例えば、ブラウザ操作のトレースはplaywright-mcpまたはplaywright…"
+    },
+    {
       "id": "5805613bd5cc",
       "title": "常駐ゼロで回す自宅ラボの5仕組み——動画15秒生成と反証止め設計の理由",
       "url": "https://zenn.dev/chemy_pvl/articles/home-lab-ai-maker-showcase",
@@ -28,81 +100,9 @@
       "publishedAt": "2026-08-04T04:02:49.000Z",
       "publisher": "ちくわマン",
       "summary": "CLI を使わないメンバーを含むチームに Claude Code を配るとき、権限設計（deny / ask / allow）と配布手順のどこでつまずくか。実際に設計・配布した配布用 settings.json と導入手順書を、判断の根拠…"
-    },
-    {
-      "id": "597e334c53a8",
-      "title": "# AIに画面を見せて「ここをこう」と言えるようにしました",
-      "url": "https://zenn.dev/kitamiya/articles/f8bc1292f8e250",
-      "publishedAt": "2026-08-04T03:32:37.000Z",
-      "publisher": "キタミヤ",
-      "summary": "AIに画面のことを説明するの、めちゃくちゃ面倒じゃないですか？ スクショを貼って「この右上のあたりにあるやつを、もう少し小さくして左に寄せて」って書く。書いてる途中でいつも思います。**これ、指させば1秒なんだけどな……**って。 なので…"
-    },
-    {
-      "id": "7b17c19c1c1e",
-      "title": "【レジェンド級・米国エンジニア思考法】 AI時代に求められるエンジニア生存戦略",
-      "url": "https://zenn.dev/mune_actor_en/articles/0815bed2d6e0ce",
-      "publishedAt": "2026-08-04T03:08:31.000Z",
-      "publisher": "むね｜フリーランスエンジニア",
-      "summary": "本日6/22(月)12:15〜13:00に、 米国Microsoftの牛尾さんと、ハワイ在住の酒井さんの対談（レバテックさん主催）を聞きました。 牛尾さん、酒井さんに聞く！アメリカ開発現場の最前線 これがもう刺さりすぎて、一人で何度も頷い…"
-    },
-    {
-      "id": "430d0e7d8383",
-      "title": "DDRのススメ：デザインの意思決定をチームの資産にする仕組み",
-      "url": "https://zenn.dev/xtm_blog/articles/aca85275cb6827",
-      "publishedAt": "2026-08-04T03:00:05.000Z",
-      "publisher": "mame",
-      "summary": "初カキコ…ども…！デザイナーのmameと申します。 最近は、AIエージェントの活用が進み、デザインもコードベースでやりとりする場面が増えてきました。 我々のチームでも、デザインシステムをAIエージェントが活用しやすい形にするため、コンポー…"
-    },
-    {
-      "id": "24eff9a7b9b5",
-      "title": "AIにデザインを固定させる方法の変遷 — JSON定義で固定できたが「Excelの表」になった話",
-      "url": "https://zenn.dev/mxhlix/articles/design-locking-evolution",
-      "publishedAt": "2026-08-04T02:36:25.000Z",
-      "publisher": "Mxhlix",
-      "summary": "AIエージェントにWebツールを量産させると、必ずぶつかる問題があります。デザインが毎回ブレる。同じ指示を出しても、生成のたびに配色・余白・コンポーネントの形が微妙に違う。600個以上のツールを5言語で運用するプロジェクトで、このデザイン…"
-    },
-    {
-      "id": "e8b505e40cfc",
-      "title": "投稿時刻より前に記事在庫を監視するバックプレッシャー設計 - 障害分析",
-      "url": "https://zenn.dev/kmn/articles/7d089bf15a42ce",
-      "publishedAt": "2026-08-04T02:34:01.000Z",
-      "publisher": "KMN KMN",
-      "summary": "投稿時刻より前に記事在庫を監視するバックプレッシャー設計 - 障害分析 自動処理は、スケジュール登録だけでは安定しません。スケジューラが正常でも、入力キューが空なら記事は公開されません。 この記事では「障害分析」の観点から、入力、処理、成…"
-    },
-    {
-      "id": "f4a650cf0607",
-      "title": "SDDという名前が付く前から、1年やっていた。効いたことと、続かなかったこと",
-      "url": "https://zenn.dev/rapls/articles/924d93cd48a100",
-      "publishedAt": "2026-08-04T01:33:48.000Z",
-      "publisher": "Rapls",
-      "summary": "最近、SDD（仕様駆動開発）という言葉をよく見るようになりました。 雰囲気でプロンプトを投げてAIに作らせる開発が広まって、そのひずみが出てきた。動いているけれど、なぜ動いているか分からないコードが積み上がって、デバッグもリファクタも効か…"
-    },
-    {
-      "id": "a6ed53d737c8",
-      "title": "自分が自然と学び続けられる環境を作ることの重要性",
-      "url": "https://zenn.dev/reitonkyoj/articles/a0a13d42b57222",
-      "publishedAt": "2026-08-04T01:19:54.000Z",
-      "publisher": "reitonkyoj",
-      "summary": "自分が自然と学び続けられる環境を作ることの重要性 学生の頃、私は全く勉強ができない生徒でした。 当時は「勉強を続けなければいけない」という焦りばかりがあり、そのプレッシャーの中で過ごしていました。 勉強そのものを楽しむことも、どうすればも…"
-    },
-    {
-      "id": "1d2f73190027",
-      "title": "CursorってClaude Codeより何が強いの？中の人に聞いてみた",
-      "url": "https://zenn.dev/eques_blog/articles/56efb738a7a9c1",
-      "publishedAt": "2026-08-04T00:59:45.000Z",
-      "publisher": "岸本悠佑_AIサムライ",
-      "summary": "はじめに 私は普段、開発のほぼすべてをClaude Codeでやっています。ツール開発も、資料生成の仕組みづくりも、だいたいClaude Codeに投げる生活です。 そんな私が先日、初めてCursorを触りました。 結果、3往復のやり取り…"
-    },
-    {
-      "id": "1ade422d5f20",
-      "title": "ExaVision 開発メモ（引き継ぎ・検索ロジック）",
-      "url": "https://zenn.dev/gitmame00/articles/9f6b7883bacdd9",
-      "publishedAt": "2026-08-04T00:23:07.000Z",
-      "publisher": "ゆうすけ",
-      "summary": "修正事項 記憶の引き継ぎ オフライン・ゲストモード→アカウント 記憶の引き継ぎを実行しても引き継がれないため原因調査・修正。 引き継ぎ成功後は、オフラインモードの既存記憶を削除する。 次回以降オフラインモードを使用する場合は、新しい空の記…"
     }
   ],
-  "fetchedAt": "2026-08-04T06:15:56.831Z",
+  "fetchedAt": "2026-08-04T09:19:49.859Z",
   "stale": false,
   "error": null
 }
