@@ -6,6 +6,46 @@
   "category": "ai",
   "items": [
     {
+      "id": "2a9a9302a62f",
+      "title": "自前のレビュースキルをやめて、Claude Code の /code-review に乗り換えた",
+      "url": "https://zenn.dev/tmasuyama1114/articles/claude_code_code_review_guide",
+      "publishedAt": "2026-08-04T17:39:16.000Z",
+      "publisher": "Masuyama（とまだ）",
+      "summary": "Claude Code でのコードレビュー、私はレビュー用の自前スキルを作り込んで回していました。 ところが先日、久しぶりに公式の /code-review を叩いたら、指摘が重大度で色分けされて並ぶようになっていて、どれから直すかが見た…"
+    },
+    {
+      "id": "6f5d813af4e5",
+      "title": "フリーランスとは何か――中世の騎士からAI時代のITエンジニアまで",
+      "url": "https://zenn.dev/saikoseiko/articles/b4a5aad85972f0",
+      "publishedAt": "2026-08-04T17:37:05.000Z",
+      "publisher": "Saiko-Seiko",
+      "summary": "IT業界で仕事をしていると、「フリーランスになろうと思っています」「フリーランスとして活動しています」という言葉を耳にする機会が非常に多くあります。 しかし、改めて考えてみると、「フリーランス」という言葉の本来の意味や歴史を正確に理解して…"
+    },
+    {
+      "id": "a7cbecc7e30e",
+      "title": "Claude Code で開発を『自働化』する — Anthropic 流 3 役エージェントループを launchd 常駐で回す",
+      "url": "https://zenn.dev/gunma/articles/claude-code-daemon-agent-orchestration",
+      "publishedAt": "2026-08-04T16:46:32.000Z",
+      "publisher": "AI Tech [Spec-Driven Development]",
+      "summary": "! この記事は「Claude Code で AI 駆動開発を仕組みにする」シリーズの記事です。 シリーズ全体は シリーズ目次 を参照してください。 手元の Mac 1 台で試せる内容です。 自分の PR にレビューコメントが付くと、気づく…"
+    },
+    {
+      "id": "f2f3f334de8d",
+      "title": "AIレビューから「良い点も挙げる」を捨てた ── 敵対的検証を全レビューに統一した結果",
+      "url": "https://zenn.dev/tomu_coelia/articles/adversarial-verification-review",
+      "publishedAt": "2026-08-04T14:47:31.000Z",
+      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
+      "summary": "AIにコードレビューをさせると、たいてい「全体的によく書けています。いくつか改善点として…」というバランスの取れた、当たり障りのないレポートが返ってきます。私たちはこれを捨てました。 Webサービス開発リポジトリ（coelia-syste…"
+    },
+    {
+      "id": "de0f7e0839d4",
+      "title": "小規模サイトでA/Bテストを提案されたAIが「やらない」と答えた話",
+      "url": "https://zenn.dev/tomu_coelia/articles/ab-test-decision-design",
+      "publishedAt": "2026-08-04T14:47:29.000Z",
+      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
+      "summary": "「トップ画像、顔のアップと大人数のわいわい、どっちがいいかな？ A/Bテストもありだな！」 コミュニティ運営のLINEスレッドで出たこの一言から、AIエージェント（Claude Code）にA/Bテストの設計を任せました。返ってきた結論は…"
+    },
+    {
       "id": "bdc7f4027e5a",
       "title": "セキュリティ事故分析「JetBrains悪性AIプラグイン事件」と非保持型権限委譲",
       "url": "https://zenn.dev/tekka/articles/jetbrains-ai-plugin-credential-theft",
@@ -60,49 +100,9 @@
       "publishedAt": "2026-08-04T11:53:07.000Z",
       "publisher": "あきらパパ",
       "summary": "この記事は、Codex（OpenAIのコーディング用エージェント）は触ったことがあるけれど、コードレビューを頼む機能はまだ使ったことがない人に向けています。扱うのは codex review という1つの機能だけです。読み終えたとき、あな…"
-    },
-    {
-      "id": "3fce6931ea52",
-      "title": "Perplexity風のエージェントを個人開発アプリに組み込んだ——設計の工夫と課題点",
-      "url": "https://zenn.dev/yook/articles/qa-agent-six-stage-design-and-scaling",
-      "publishedAt": "2026-08-04T11:46:43.000Z",
-      "publisher": "yook",
-      "summary": "はじめに 外部のウェブ検索と、アプリケーション内で事前にAI分析した独自の内部記事を組み合わせ、出典付きの回答を返す——そんな「Perplexity風のQ&Aエージェント」を、個人開発している海外テックニュース収集・分析アプリ『Vecto…"
-    },
-    {
-      "id": "027c22743958",
-      "title": "AIとスマートフォンの「セカンドライフ」",
-      "url": "https://zenn.dev/nsysgroup/articles/69731d2e6cd72e",
-      "publishedAt": "2026-08-04T11:20:20.000Z",
-      "publisher": "Nsysgroup",
-      "summary": "AIとスマートフォンの「セカンドライフ」 世界では毎年10億台を超えるスマートフォンが製造されているが、そのすべてが最終的に埋め立て地に行き着くわけではない。下取りに出され、整備(リファービッシュ)された上で、新たな持ち主のもとへ渡ってい…"
-    },
-    {
-      "id": "17b4a507f4bf",
-      "title": "AIエージェントの実運用",
-      "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20260724-ai-agent-jimusho-tech",
-      "publishedAt": "2026-08-04T11:00:06.000Z",
-      "publisher": "yutaka8484",
-      "summary": "はじめに AIエージェントの導入は、会社の業務を効率化するために重要なステップです。当社では、AIエージェントを社内サーバーに常駐させ、毎日決まった時間に決まった仕事を自動で行わせています。この記事では、そのシステムの構成、設計判断、ハマ…"
-    },
-    {
-      "id": "ea674cf1d3b7",
-      "title": "エンジニアをAIに置き換える、残りの二割",
-      "url": "https://zenn.dev/matsumoto11111/articles/aa2193e6924ac6",
-      "publishedAt": "2026-08-04T10:39:11.000Z",
-      "publisher": "松本",
-      "summary": "はじめに AIにコードを書かせて、Windows向けのセルフブロッカーを作りました。ブロック中は本人でもアンインストールできず、タスクキルなどでも解除できないという仕様のアプリです。 出荷の直前、仮想マシンで動作確認をしていたら、こんなバ…"
-    },
-    {
-      "id": "ab6bfa9c3483",
-      "title": "自作言語で AI エージェントをオーケストレーションしよう！",
-      "url": "https://zenn.dev/yukikurage/articles/201f6f9155f3db",
-      "publishedAt": "2026-08-04T10:24:32.000Z",
-      "publisher": "ゆきくらげ",
-      "summary": "現在、AI エージェントやその他オーケストレーションを書くための言語 Katari を開発しています。v0.1.x です。 サイト https://katari-lang.dev リポジトリ https://github.com/kata…"
     }
   ],
-  "fetchedAt": "2026-08-04T19:12:15.644Z",
+  "fetchedAt": "2026-08-04T20:43:29.521Z",
   "stale": false,
   "error": null
 }
