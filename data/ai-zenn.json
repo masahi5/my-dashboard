@@ -6,6 +6,14 @@
   "category": "ai",
   "items": [
     {
+      "id": "5b477d2cdee2",
+      "title": "プロンプトキャッシュを意識して claude code のトークンを節約しよう",
+      "url": "https://zenn.dev/ceres_tech_blog/articles/7163ae482e124e",
+      "publishedAt": "2026-08-04T07:48:52.000Z",
+      "publisher": "tamapon",
+      "summary": "困ってたこと 前日のやり取りを複数再開したら、いきなり claude code の5時間制限が2割くらい持っていかれた。まだ一言も打ってないのに.... そもそもプロンプトキャッシュとは モデルはリクエスト間で何も覚えていない。だから会話…"
+    },
+    {
       "id": "139388e3961f",
       "title": "AIを活用してHTTPヘッダー付与用のChrome拡張機能を自作した話",
       "url": "https://zenn.dev/mediba/articles/844e0402262f58",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-04T04:11:15.000Z",
       "publisher": "Ryosuke-Tanabe",
       "summary": "! この記事は設計思想と数理モデルの骨格を扱う。実装コード・運用パラメータの実値・内部の想起パイプラインの配線は扱わない。前作［ローカルLLMに記憶装置を搭載させてみた］で「重力は別記事で」と予告した、その思想編にあたる。 1. はじめに…"
-    },
-    {
-      "id": "35e52c812825",
-      "title": "Claude Code をチームに安全に配る — 権限設計と非エンジニア向け配布の実務",
-      "url": "https://zenn.dev/tikuwaman/books/claude-code-team-rollout",
-      "publishedAt": "2026-08-04T04:02:49.000Z",
-      "publisher": "ちくわマン",
-      "summary": "CLI を使わないメンバーを含むチームに Claude Code を配るとき、権限設計（deny / ask / allow）と配布手順のどこでつまずくか。実際に設計・配布した配布用 settings.json と導入手順書を、判断の根拠…"
     }
   ],
-  "fetchedAt": "2026-08-04T09:19:49.859Z",
+  "fetchedAt": "2026-08-04T11:38:23.429Z",
   "stale": false,
   "error": null
 }

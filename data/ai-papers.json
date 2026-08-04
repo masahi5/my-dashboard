@@ -11,31 +11,7 @@
       "url": "https://huggingface.co/papers/2608.01964",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Large language model (LLM) agents increasingly undertake long-horizon tasks that require sustained reasoning, tool use,…",
-      "score": 85
-    },
-    {
-      "id": "aedf83f0e63d",
-      "title": "CADENA: Stepwise CAD Reverse Engineering",
-      "url": "https://huggingface.co/papers/2608.00799",
-      "publishedAt": "2026-08-01T00:00:00.000Z",
-      "summary": "Computer-Aided Design (CAD) underpins modern engineering, yet converting existing shapes into editable models still dem…",
-      "score": 20
-    },
-    {
-      "id": "7938d51f2b86",
-      "title": "Motion Beyond Morphology: Bootstrapping Cross-Category Motion Transfer from Abstract Motion Representations",
-      "url": "https://huggingface.co/papers/2608.01628",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Video motion transfer aims to animate a target object using dynamics from a reference video. Existing formulations larg…",
-      "score": 15
-    },
-    {
-      "id": "cbf219825697",
-      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
-      "url": "https://huggingface.co/papers/2608.02585",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous st…",
-      "score": 11
+      "score": 97
     },
     {
       "id": "3d84401fd209",
@@ -43,7 +19,23 @@
       "url": "https://huggingface.co/papers/2608.01735",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "On-policy (self) distillation (OPSD) is increasingly adopted for language-model post-training. It strengthens the teach…",
-      "score": 11
+      "score": 23
+    },
+    {
+      "id": "7938d51f2b86",
+      "title": "Motion Beyond Morphology: Bootstrapping Cross-Category Motion Transfer from Abstract Motion Representations",
+      "url": "https://huggingface.co/papers/2608.01628",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Video motion transfer aims to animate a target object using dynamics from a reference video. Existing formulations larg…",
+      "score": 20
+    },
+    {
+      "id": "cbf219825697",
+      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "url": "https://huggingface.co/papers/2608.02585",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous st…",
+      "score": 16
     },
     {
       "id": "3bb0418578f0",
@@ -51,15 +43,7 @@
       "url": "https://huggingface.co/papers/2607.27042",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "summary": "Adaptive rounding methods such as GPTQ, or equivalently Babai's nearest plane algorithm, round a real matrix to integer…",
-      "score": 10
-    },
-    {
-      "id": "400516614c9b",
-      "title": "3DZip: Spatial-Aware Feature Diversity-Guided Token Compression for 3D Question Answering",
-      "url": "https://huggingface.co/papers/2608.01185",
-      "publishedAt": "2026-08-02T00:00:00.000Z",
-      "summary": "Recent 3D vision-language models (3D VLMs) construct geometry aware tokens by projecting 2D visual features into world …",
-      "score": 9
+      "score": 15
     },
     {
       "id": "4ff3ee4129d0",
@@ -67,7 +51,15 @@
       "url": "https://huggingface.co/papers/2608.01827",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Multimodal large language models (MLLMs) have advanced visual understanding and reasoning, yet their static parametric …",
-      "score": 7
+      "score": 14
+    },
+    {
+      "id": "400516614c9b",
+      "title": "3DZip: Spatial-Aware Feature Diversity-Guided Token Compression for 3D Question Answering",
+      "url": "https://huggingface.co/papers/2608.01185",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "summary": "Recent 3D vision-language models (3D VLMs) construct geometry aware tokens by projecting 2D visual features into world …",
+      "score": 14
     },
     {
       "id": "12d65f4393a1",
@@ -75,15 +67,7 @@
       "url": "https://huggingface.co/papers/2608.00146",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "summary": "We introduce DiffusionGemma, an experimental open-weight language model that uses discrete diffusion to generate text a…",
-      "score": 7
-    },
-    {
-      "id": "6e901796c685",
-      "title": "RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems",
-      "url": "https://huggingface.co/papers/2607.29241",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "Optimizing modern recommender models still depends heavily on engineers manually iterating over architectural, objectiv…",
-      "score": 1
+      "score": 13
     },
     {
       "id": "5962c8ba59e4",
@@ -91,7 +75,15 @@
       "url": "https://huggingface.co/papers/2608.00486",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "Accurate prediction of object trajectories during manipulation is essential for closing the perception-action loop. Pro…",
-      "score": 1
+      "score": 11
+    },
+    {
+      "id": "6e901796c685",
+      "title": "RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems",
+      "url": "https://huggingface.co/papers/2607.29241",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "Optimizing modern recommender models still depends heavily on engineers manually iterating over architectural, objectiv…",
+      "score": 6
     },
     {
       "id": "336ff8134a9f",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2608.00574",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "Vision-language MoE batches contain different numbers of image and text tokens. Image resolution, image count, tiling, …",
-      "score": 1
+      "score": 6
+    },
+    {
+      "id": "b170cd0350cf",
+      "title": "Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures",
+      "url": "https://huggingface.co/papers/2607.28802",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Existing evaluations often reduce agent failures to system-level outcomes, obscuring where the fault originated and whi…",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-08-04T09:19:49.727Z",
+  "fetchedAt": "2026-08-04T11:38:23.318Z",
   "stale": false,
   "error": null
 }
