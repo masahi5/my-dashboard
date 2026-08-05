@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f51a93dcbd91",
-      "title": "Claude Code の調査結果が静かに間違う4パターンと、CLAUDE.md に貼る自己検査",
-      "url": "https://zenn.dev/kestrel_log/articles/0463460d337be2",
-      "publishedAt": "2026-08-05T14:09:03.000Z",
-      "publisher": "kestrel_log",
-      "summary": "! この記事の下書きは AI エージェント（Claude）が書き、記事中の計測・誤り・修正もすべて同じエージェントが実際に行ったものです。 公開前に人間の運営者が内容を検証し、指摘にもとづいて全面的に書き直しています。 なお、この記事は「…"
+      "id": "214b552f40d4",
+      "title": "Claude Code v2.1.218〜221まとめ、fast modeは枠外課金で何を試すべきか",
+      "url": "https://zenn.dev/ainewsdaily/articles/20260806_claude_code_t1",
+      "publishedAt": "2026-08-05T22:02:35.000Z",
+      "publisher": "AIニュース",
+      "summary": "Claude Codeの2026年8月第1週は、v2.1.218からv2.1.221までの4回のアップデートがありました。Opus 5が既定モデルになったほか、コードレビューの実行場所やサブエージェントの入れ子構造など、日々の使い方に直接…"
     },
     {
-      "id": "2fa9071edf8c",
-      "title": "What's New in Sigma - 2026年07月31日のSigma Computing関連リリース情報まとめ",
-      "url": "https://zenn.dev/truestar/articles/c4b844a12cf412",
-      "publishedAt": "2026-08-05T13:55:13.000Z",
-      "publisher": "しんや",
-      "summary": "Sigma(Sigma Computing)の最新リリースノート情報を集約・要約して紹介しているコミュニティスレッド『Release Notes』。米国時間毎週金曜日中(日本時間土曜日早朝)に定期的に公開されているこちらのスレッドの内容に…"
+      "id": "95b946187bd1",
+      "title": "AI エージェントが 2 ヶ月見抜けなかったバグと、記憶・門番・診断 3 層の現在形",
+      "url": "https://zenn.dev/kokagex/articles/78ed9a0da5a6eb",
+      "publishedAt": "2026-08-05T21:56:21.000Z",
+      "publisher": "こかげ",
+      "summary": "この記事は AI コーディングエージェントが自分で書いています。 ソロ開発者が運用する自作の長期記憶基盤（以下 brain）と、その周辺 skill 群についての連載 8 本目です。 前記事（5/20）から 2 ヶ月半が空きました。 今回…"
     },
     {
-      "id": "2359264e3148",
-      "title": "LLM推論パラメータ入門——Temperature・Top-K・Top-Pの仕組みと実践調参ガイド",
-      "url": "https://zenn.dev/lumichy/articles/llm-sampling-params-guide-2026",
-      "publishedAt": "2026-08-05T13:51:08.000Z",
-      "publisher": "lumichy",
-      "summary": "LLM推論パラメータ入門——Temperature・Top-K・Top-Pの仕組みと実践調参ガイド ChatGPTやClaudeなどのLLM（大規模言語モデル）を使っていて、「回答が真面目すぎて面白みがない」「コードを出力させたいのに毎回…"
+      "id": "f33fb4cb3b3d",
+      "title": "個人サイトを改修する時、僕はどんな流れで進めているか",
+      "url": "https://zenn.dev/motimotinotch/articles/27d9aee281358e",
+      "publishedAt": "2026-08-05T21:37:04.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "個人サイトは、作って終わりではない。むしろ公開してからの方が長い。バグ修正、機能追加、たまに設計そのものの見直し——Astro + Cloudflareで自分のポートフォリオサイトを作ってから、地味な改修を今も続けている。 前回の記事（個…"
     },
     {
-      "id": "dc0ee09bd089",
-      "title": "AIに決済コードを書かせ、AIにレビューさせたら「1円も払っていない人に『お支払いが完了しました』と表示していた」",
-      "url": "https://zenn.dev/katsuo_dev/articles/202608-ai-payment-review-bugs",
-      "publishedAt": "2026-08-05T13:40:47.000Z",
-      "publisher": "かつお",
-      "summary": "この記事はローカルの D1 / vitest で再現したテストコードとレビュー指摘に基づきます。テストネットでの実決済・本番デプロイは未実施です。 この記事だけで分かること 署名検証・冪等性という「正しさ」の層にバグが無くても、決済システ…"
+      "id": "64ed122b8034",
+      "title": "制約8個の遵守確認、生成ターンと検証ターンを分けても文字数だけは直らない",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-two-turn-constraint-check",
+      "publishedAt": "2026-08-05T21:07:57.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 複数制約を守らせたい生成タスクで、「生成→自己チェック」を同一ターン内の1回の指示に詰め込む方式と、生成後に出力を新しいメッセージとして貼り直し、別ターンで照合・修正させる方式を比較した 制約8個（返金対応メールを想定）で試し…"
     },
     {
-      "id": "3fae0c47c539",
-      "title": "AIエージェントやスキルを活用したインシデントマネジメント戦略を考えてみよう",
-      "url": "https://zenn.dev/su3_hokkaido/articles/2026-08-05_incident_management_of_ai_era",
-      "publishedAt": "2026-08-05T13:28:48.000Z",
-      "publisher": "Su3",
-      "summary": "これなに ここ1年くらいはインシデント対応をやっていないので、忘れないうちに自分の知識や経験を棚卸ししておこうと思い付き、この記事を書こうと思いました。 ただ、せっかくならAIを活用したインシデント対応のフレームワークを考えてみようと思っ…"
+      "id": "edf1aa0f4359",
+      "title": "ループの次はグラフだった —— AIを含む開発実行系を監督制御の対象として扱う",
+      "url": "https://zenn.dev/cognitiveosmdl/articles/3d0c837f1abe3b",
+      "publishedAt": "2026-08-05T21:00:05.000Z",
+      "publisher": "cognitiveosmdl",
+      "summary": "! 本稿は三部作——「Loop Engineeringが暗黙に仮定しているもの」(A)、その対策編(B)、構造的に塞げないものの宣言(C)——に続く第四稿である。前三稿は統計と計測の言葉で書いた。本稿は同じ対象を、私の本業である制御工学の…"
     },
     {
-      "id": "4b9c538ed320",
-      "title": "Claude Codeとのブレストは『漠然問い』から始まる——選択肢を並べると構造化が起きる",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-05-14-073400",
-      "publishedAt": "2026-08-05T13:25:37.000Z",
-      "publisher": "saitoko",
-      "summary": "AIブレストを「アイデアを出してもらう作業」だと思っていると、なぜか浅い結果しか返ってこない。この記事では、AIブレストを機能させる「漠然問い」の作法と3工程を、このシリーズ自体が誕生した実例を使って説明する。「ちゃんと整理してから聞かな…"
+      "id": "9cbab6530d6b",
+      "title": "「パーソナルはモデルではない」——では、どこに置くのか",
+      "url": "https://zenn.dev/ryok/articles/personal-is-not-the-model",
+      "publishedAt": "2026-08-05T20:38:31.000Z",
+      "publisher": "ryok",
+      "summary": "10日間、スキルが嘘をついていた 自分のリポジトリで、AIエージェント向けの手順書（SKILL.md）が実際の運用と10日間ズレたままだったことに気づいた。 ズレていたのは Reddit のデータ取得手順で、SKILL.md には約60行…"
     },
     {
-      "id": "04f25166ca7a",
-      "title": "AI時代のリポジトリ構成 — AGENTS.md と知識ベースの分離",
-      "url": "https://zenn.dev/agepan/articles/ai-era-repository-directory-structure",
-      "publishedAt": "2026-08-05T13:21:34.000Z",
+      "id": "638e0ca8559a",
+      "title": "DESIGN.md を置くと、どこまで「いい感じ」になるのか — 74件を測って確かめた",
+      "url": "https://zenn.dev/ait/articles/google-design-md-measured",
+      "publishedAt": "2026-08-05T18:49:06.000Z",
+      "publisher": "aito",
+      "summary": "AI に UI を作らせると、毎回ちょっとずつ違うものが出てきます。 「モダンで、クリーンで、信頼感のある感じで」と頼む。悪くないものが出る。翌日また頼む。また悪くないものが出る。でも昨日のとは違う。 Google Labs が公開した …"
+    },
+    {
+      "id": "5684292141ff",
+      "title": "CodexとNotion Databaseで簡易メモアプリを作ってみた",
+      "url": "https://zenn.dev/naoyuki1212/articles/20260805-notion-memo",
+      "publishedAt": "2026-08-05T15:58:15.000Z",
+      "publisher": "Naoyuki",
+      "summary": "はじめに 普段のメモにはGoogle Keepを使っていましたが、次の2点が少し気になっていました。 ウィジェットに追加ボタンなどの操作項目が表示され、メモの表示領域が狭くなる メモを作成するときにラベルを付けるまでのタップ数が多い 一方…"
+    },
+    {
+      "id": "25459454f251",
+      "title": "MCPが業務自動化を“安全に”進めるための実装チェックリスト",
+      "url": "https://zenn.dev/bambampurin/articles/2026-07-30-tech-daily",
+      "publishedAt": "2026-08-05T15:39:44.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "この記事で分かること 2026-07-30時点で、AI/LLMの主戦場が「モデル性能」から「エージェント運用基盤」へ移った理由 MCP・業務自動化・安全性の3点を、今どの順番で追うべきか Python開発基盤ではなぜ uv / Ruff …"
+    },
+    {
+      "id": "892179b52ce4",
+      "title": "影響力のない個人が、AI時代にプロダクトを届けるまでの10ステップ",
+      "url": "https://zenn.dev/agepan/articles/how-to-build-product-alone-ai",
+      "publishedAt": "2026-08-05T15:30:06.000Z",
       "publisher": "Ryuya",
-      "summary": "! TL;DR — 3つの原則 正典（Source of Truth）は1つにし、ツール別ファイルは薄いポインタにする Progressive Disclosure（段階的開示）を設計し、必要な時だけ詳細を読み込ませる 「操作を担うリポジ…"
+      "summary": "! TL;DR — 3つのポイント AIで実装は速くなったが、使ってもらえるかは別問題 収益化している個人開発者は、需要検証をMVP開発より前に置いている 本記事は調査で得た「型」。実践手順は姉妹記事へ 項目 内容 対象読者 個人開発で何…"
     },
     {
-      "id": "0dcd78c4232f",
-      "title": "人が亡くなるたび、古い辞書がまた一冊、失われる 介護現場と地域で見つめてきた「検索できない知恵」",
-      "url": "https://zenn.dev/pomodoro_naomi/articles/681018ed66449a",
-      "publishedAt": "2026-08-05T13:07:45.000Z",
-      "publisher": "🍅Pomodoroナオミ🍅",
-      "summary": "父が、ある日ぽつりと、こんなことを言った。 「年寄りが亡くなると、古い辞書がまた一冊、失われる。」 その頃の私は、「また父ちゃん、何か面白いこと言うとるなぁ」くらいにしか思っていなかった。 けれど、介護福祉士として十五年以上、高齢者の方々…"
+      "id": "693509c291bb",
+      "title": "AI時代の個人開発で、実装前に需要を確かめる方法",
+      "url": "https://zenn.dev/agepan/articles/ai-indie-demand-validation",
+      "publishedAt": "2026-08-05T15:30:05.000Z",
+      "publisher": "Ryuya",
+      "summary": "! TL;DR — 3つのポイント AIが減らしたのは主に実装の不確実性。課題と需要は実測が必要 需要が確認できるまで、MVP（検証できる最小限のプロダクト）の実装へ進まない 先に決めるのは普遍的なKPIではなく、自分の撤退条件 項目 内…"
     },
     {
-      "id": "b369c743d17c",
-      "title": "20年間溜め込んだ2つの不満と、目の前にある突破口",
-      "url": "https://zenn.dev/katsutoatsuto/articles/5c680d86767900",
-      "publishedAt": "2026-08-05T13:00:11.000Z",
-      "publisher": "katsutoatsuto",
-      "summary": "Claude Codeによる開発とボトルネック Claude Codeの導入により、開発はまたさらに加速しました。トークン消費量が激しく時折休憩を挟む必要がありますが、AIが進めてくれる作業自体は高速です。 しかし、この作業スタイルに慣れ…"
-    },
-    {
-      "id": "9511aca90431",
-      "title": "音声AIの300msを100msに感じさせる5つの錯覚ハック",
-      "url": "https://zenn.dev/kenimo49/articles/voice-ai-300ms-100ms-5-perception-hacks",
-      "publishedAt": "2026-08-05T12:56:33.000Z",
-      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
-      "summary": "LLMを速くする方向に3ヶ月溶かしました。 GPU増強、モデル軽量化、STTの並列化。それでも実測300msは縮まらなかった。 ある晩、共同開発者のミサキがコーヒーを置いて振り返って言いました。「発想を変えよう。物理で無理なら、感じさせな…"
-    },
-    {
-      "id": "a06689ec208b",
-      "title": "Claude CodeでAI動画づくりを自動化する — Gemini APIひとつで30秒ショート動画",
-      "url": "https://zenn.dev/horatjp/articles/ai-video-with-claude-code",
-      "publishedAt": "2026-08-05T12:49:22.000Z",
-      "publisher": "horatjp",
-      "summary": "この記事でやること Claude Codeに頼んで、セリフ・音つきの30秒ショート動画を作ります。 プロンプト(依頼文)はすべてコピペできる形で載せているので、上から順に進めれば同じようなものが作れます。 そして最後には、こうなります。 …"
-    },
-    {
-      "id": "a239eaf9f9ac",
-      "title": "ClaudeとPythonを書いていたら、途中でAIがおかしくなった話",
-      "url": "https://zenn.dev/flipslidersand/articles/ai-python-context-degradation",
-      "publishedAt": "2026-08-05T12:37:22.000Z",
-      "publisher": "flipslidersand",
-      "summary": "AIと一緒にコーディングすれば、Pythonなんて簡単に書ける。 最初の1時間は、本当にそう思っていた。 「このエラーって何？」と聞けば、すぐに原因を説明してくれる。 「もっとシンプルに書けない？」と頼めば、コードをきれいにしてくれる。 …"
+      "id": "675df946cdda",
+      "title": "【AIと人間】AI時代について思うこと",
+      "url": "https://zenn.dev/beeeegle/articles/22c096360fb7f6",
+      "publishedAt": "2026-08-05T14:56:53.000Z",
+      "publisher": "びぃぐる",
+      "summary": "みなさま、こんにちはもしくは、こんばんは、あるいはおはようございます。 これを書いている時は夏です。 暑いです、暑いです、暑いです。 大事なことなので3回言いました（笑 ・・・それはさて置き、では以下本文です。 ※ 今回というかこのシリー…"
     }
   ],
-  "fetchedAt": "2026-08-05T22:44:58.479Z",
+  "fetchedAt": "2026-08-05T23:41:08.891Z",
   "stale": false,
   "error": null
 }
