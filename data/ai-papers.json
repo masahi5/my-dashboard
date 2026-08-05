@@ -6,60 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "8135801df09e",
-      "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
-      "url": "https://huggingface.co/papers/2608.02602",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuo…",
-      "score": 39
-    },
-    {
       "id": "0aea75e8cef5",
       "title": "Knowledge-Geometry Decoupling: Refreshable Pretrained Transfer for Streaming Recommendation",
       "url": "https://huggingface.co/papers/2608.02738",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Industrial recommenders increasingly adopt the pretrain-then-transfer paradigm, yet behavioral distribution drift raise…",
-      "score": 27
-    },
-    {
-      "id": "41cc8452fbd5",
-      "title": "PCSD: Persistent Consistency for Self-Distillation in Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2608.01837",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Large language model agents have shown strong potential in complex interactive tasks, yet their reinforcement learning …",
-      "score": 22
-    },
-    {
-      "id": "6c48134ffc6d",
-      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
-      "url": "https://huggingface.co/papers/2608.04003",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agen…",
-      "score": 18
-    },
-    {
-      "id": "420af2bcf4bf",
-      "title": "OmniPack: Unified Token Compression for Efficient Omni-modal Large Language Models",
-      "url": "https://huggingface.co/papers/2608.03812",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Omni-modal large language models (Omni-LLMs) have achieved remarkable performance on audio-visual understanding tasks, …",
-      "score": 15
-    },
-    {
-      "id": "9fbfbf291bc9",
-      "title": "CAPEval: A Decoupled Caption Evaluation across Understanding and Generation",
-      "url": "https://huggingface.co/papers/2608.02589",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Captions serve as a primary supervision signal for both multimodal understanding and text-to-image generation. However,…",
-      "score": 15
-    },
-    {
-      "id": "ea776dc90106",
-      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
-      "url": "https://huggingface.co/papers/2608.03979",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams,…",
-      "score": 8
+      "score": 32
     },
     {
       "id": "7957a59d10c4",
@@ -67,7 +19,39 @@
       "url": "https://huggingface.co/papers/2608.02713",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-environmen…",
-      "score": 8
+      "score": 21
+    },
+    {
+      "id": "ea776dc90106",
+      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+      "url": "https://huggingface.co/papers/2608.03979",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams,…",
+      "score": 18
+    },
+    {
+      "id": "4d4881f4ed9a",
+      "title": "LLaDA MoE v2: Scaling Mixture-of-Experts Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2608.03457",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Diffusion language models (dLLMs) offer an alternative to autoregressive (AR) language modeling, yet the scaling behavi…",
+      "score": 12
+    },
+    {
+      "id": "250f9e57e616",
+      "title": "ExplainBench: Evaluating Code Explanations from Agents",
+      "url": "https://huggingface.co/papers/2607.26451",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "summary": "Large Language Model (LLM) agents have seen rapid adoption in software engineering. As agents take a greater role in th…",
+      "score": 4
+    },
+    {
+      "id": "183d5c0ad217",
+      "title": "MiniWorld: Democratizing the Training of Video World Models from Scratch",
+      "url": "https://huggingface.co/papers/2608.01127",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "summary": "Video world models predict future observations conditioned on historical observations and control signals, enabling lon…",
+      "score": 2
     },
     {
       "id": "83d76a19154b",
@@ -75,6 +59,22 @@
       "url": "https://huggingface.co/papers/2608.03700",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Persona skills distill personal interaction histories into portable and executable artifacts for downstream agents. Whi…",
+      "score": 2
+    },
+    {
+      "id": "cd408266c55c",
+      "title": "Decoding Children's Gait Behavior",
+      "url": "https://huggingface.co/papers/2608.00371",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "summary": "We introduce a new problem domain for human action recognition: the fine-grained analysis of children's gait behaviors …",
+      "score": 1
+    },
+    {
+      "id": "f708e2e21f20",
+      "title": "ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?",
+      "url": "https://huggingface.co/papers/2608.03874",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Modern agent frameworks equip large language models with external skill libraries to solve complex tasks. However, it r…",
       "score": 1
     },
     {
@@ -94,15 +94,15 @@
       "score": 1
     },
     {
-      "id": "250f9e57e616",
-      "title": "ExplainBench: Evaluating Code Explanations from Agents",
-      "url": "https://huggingface.co/papers/2607.26451",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "summary": "Large Language Model (LLM) agents have seen rapid adoption in software engineering. As agents take a greater role in th…",
-      "score": 1
+      "id": "b052d6bcde53",
+      "title": "PosterMELD: Multi-Agent Paper-to-Poster Generation for Controllable Design Diversity with Editable Print-Ready Outputs",
+      "url": "https://huggingface.co/papers/2608.02218",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Scientific poster construction compresses a long multimodal paper into a readable, editable canvas. Existing systems hi…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-05T06:12:07.123Z",
+  "fetchedAt": "2026-08-05T09:06:08.936Z",
   "stale": false,
   "error": null
 }
