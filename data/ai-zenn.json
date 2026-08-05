@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "27e87e7c80bc",
-      "title": "【AI駆動開発 12】実例：全部つなげると、こうなる",
-      "url": "https://zenn.dev/idealive_kmon/articles/ai-dev-11-full-loop",
-      "publishedAt": "2026-08-05T05:52:48.000Z",
-      "publisher": "かわもん@idealive",
-      "summary": "! ここまでの11本は「考え方」でした。この記事は、それを実案件で1本のループに配線した一例です。 これが正解の形ではありません。案件・チーム・顧客が違えば正解の形も違う——ただ「つなげるとこう回る」という実物が1つあると、自分の案件での…"
+      "id": "7cda52b4dab1",
+      "title": "【参加レポート】Google Cloud Next Tokyo Day1：技術と人が交差するAIエージェント時代の最適解",
+      "url": "https://zenn.dev/grand2/articles/5f43af7ce0216a",
+      "publishedAt": "2026-08-05T10:00:07.000Z",
+      "publisher": "risaiwata",
+      "summary": "はじめに こんにちは。グランドツーで開発・運用・保守をしているエンジニアの岩田です。 今日は2026年7月30日に開催された Google Cloud Next Tokyo の Day1 に参加してきたので、当日聞いたセッションを時系列順…"
     },
     {
-      "id": "4ae6a8bef95a",
-      "title": "AI エージェントの「2週間かかります」は、誰の2週間なのか ― 測定されている事実を並べる",
-      "url": "https://zenn.dev/nihonbashi/articles/llm-time-estimate-human-hours",
-      "publishedAt": "2026-08-05T05:40:15.000Z",
-      "publisher": "Nihonbashi AI Lab",
-      "summary": "はじめに コーディングエージェントに作業を頼むと、着手前に見積もりが返ってくることがあります。「フェーズ1に2〜3日、フェーズ2に1〜2日、合計で5〜8日」。そして実際に走らせると、1時間で終わる。 この現象について、ネット上には体験談が…"
+      "id": "7fb98fec6206",
+      "title": "AI への作業指示書は4日で腐る──着手前の再実測が空撃ちを防いだ",
+      "url": "https://zenn.dev/xioncc/articles/stale-orders-subordinate-verifies",
+      "publishedAt": "2026-08-05T09:46:36.000Z",
+      "publisher": "hideyukiMORI",
+      "summary": "はじめに AI エージェントに作業指示書を書かせ、別の AI エージェントに実行させる運用をしている人へ。 私の手元で、ある指示書が「未修正の違反 17 件を是正せよ」と命じていた——着手前に再実測したら、前提は全部解消済みだった。指示書…"
     },
     {
-      "id": "e0fa6ac84d0c",
-      "title": "【2026年最新】RTC製品比較：AIチャット・AI音声会話に最適なのはどれか？TRTC / Agora / Twilio / SkyWay",
-      "url": "https://zenn.dev/lbddk/articles/bbd4bbc3f411d9",
-      "publishedAt": "2026-08-05T05:14:33.000Z",
-      "publisher": "LBDDK",
-      "summary": "はじめに 2025年から2026年にかけて、AI音声チャット・AI通話・AIボイスエージェントの需要が日本市場で急拡大している。カスタマーサポートの自動化、バーチャルアシスタント、AIコンパニオン、音声対話型ゲーム——これらすべてに共通す…"
+      "id": "0581bbe03b8c",
+      "title": "Claude Code の自作スキル、5本中定着は2本 — 何をコマンド化すべきかの選定基準",
+      "url": "https://zenn.dev/hoshiorange/articles/07-claude-code-custom-skills-what-stuck",
+      "publishedAt": "2026-08-05T09:17:15.000Z",
+      "publisher": "ほし",
+      "summary": "こんにちは。今日も Claude Code に、まったく同じ話をゼロから説明しました。数えていませんが、たぶん今週だけで5回目くらいです。 Claude Code は、ターミナルからチャット感覚で指示を出すと、コードを書いたりコマンドを実…"
     },
     {
-      "id": "60a7ca464f05",
-      "title": "【未来クライム】アドバンス第5回 — Claude Codeを使ってみよう＋課題の棚卸し",
-      "url": "https://zenn.dev/is0629sy/books/mirakura-advance-05",
-      "publishedAt": "2026-08-05T05:06:42.000Z",
-      "publisher": "is0629sy/GB",
-      "summary": "未来クライム 第4期 アドバンスコース第5回の教材です。Claude Code（VSCode拡張機能）のセットアップを行い、AIと一緒にコードを書ける環境を整えます。後半では自分の業務課題の棚卸しを行います。"
+      "id": "214aa1d01252",
+      "title": "「このサイト、スクレイピングしていいか」の確認が三層になっていた話",
+      "url": "https://zenn.dev/alma65/articles/scraping-permission-three-layers",
+      "publishedAt": "2026-08-05T09:00:05.000Z",
+      "publisher": "alma",
+      "summary": "個人開発中のプロダクトで、ユーザーの生の声(「〜が欲しい」「〜が面倒」)を集めてくるデータ収集先を新しく増やす作業をしていました。候補サイトが十数個あったので、AIに「まずrobots.txtと利用規約を一通りチェックしてきて」とお願いし…"
     },
     {
-      "id": "dce0fb9dd9b1",
-      "title": "会議室にESP32を設置して、ワンボタンで話者分離つきの議事録がGoogle Driveに保存されるようにした 🎙️",
-      "url": "https://zenn.dev/minedia/articles/meeting-recorder-esp32",
-      "publishedAt": "2026-08-05T04:51:53.000Z",
-      "publisher": "Matsukura Yuki",
-      "summary": "3秒まとめ 会議室に据え置いて ボタンを押すだけ で、話者分離つきの議事録が Google Drive に、要約と会議指標が Slack に流れる録音端末を自作しました ハードは ESP32-C3 SuperMini にマイクとOLEDと…"
+      "id": "557244e097ad",
+      "title": "既存APIを二重管理せずMCPを提供する仕組み",
+      "url": "https://zenn.dev/kikuvi/articles/9b7173868c8bef",
+      "publishedAt": "2026-08-05T08:47:29.000Z",
+      "publisher": "masaishi",
+      "summary": "はじめに Kikuvi Founding AI/ML Engineerのmasaishiです。 Kikuviは、AIとの対話を通じてユーザーインタビューやエンゲージメントサーベイなど、ヒアリングを実施できるサービスです。Webアプリから、…"
     },
     {
-      "id": "faa59fd35ec7",
-      "title": "なぜ、テイラー主義とアジャイルは矛盾しないのか？",
-      "url": "https://zenn.dev/pdfractal/articles/8155cf16e85bfd",
-      "publishedAt": "2026-08-05T03:39:25.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに テイラー主義とアジャイルは、一般には対立する管理思想として説明されます。 テイラー主義では、管理者が仕事を分析して作業方法を決定し、労働者は与えられた手順を正確に実行します。これに対してアジャイルでは、開発者の自律性、顧客との対…"
+      "id": "b6bdf5fcff5f",
+      "title": "特定AIエージェントへの委任集中を自己改善ループで是正する【Claude Code/マルチエージェント】",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/multi-agent-delegation-load-balancing",
+      "publishedAt": "2026-08-05T08:26:12.000Z",
+      "publisher": "とんのかつ",
+      "summary": "はじめに 複数のAI CLI（Codex CLI、Gemini系CLI、Claudeサブエージェント）と連携するマルチエージェント構成で開発していると、次の3つの課題に直面します。 委任先が固定化する: ルールには「分散させよ」と書いてあ…"
     },
     {
-      "id": "29cb43d7f46a",
-      "title": "🧠 Real-ESRGANを使って古い動画を4Kにアップスケールする——仕組みと実装の話",
-      "url": "https://zenn.dev/sophie_bella/articles/db05b82747d1d5",
-      "publishedAt": "2026-08-05T03:23:56.000Z",
-      "publisher": "SophieBella",
-      "summary": "古いVHSや低解像度のゲーム録画を、ただ拡大するだけではぼやけたままになる。従来のバイリニアやバイキュービック補間は、欠けた高周波成分を埋められないからだ。一方、GANベースの超解像は「本物らしい」ディテールを生成できる。なぜ優れているの…"
+      "id": "3a9f984eea52",
+      "title": "ClaudeCodeでさらに加速する開発、現れ始めた成果",
+      "url": "https://zenn.dev/katsutoatsuto/articles/77844bbc6ba2eb",
+      "publishedAt": "2026-08-05T08:21:51.000Z",
+      "publisher": "katsutoatsuto",
+      "summary": "Claude Codeでさらに加速する開発、現れ始めた成果 Claudeに課金してProjectを使い始めると、個人開発アプリ「tagasill」の開発は一気に加速しました。 ところが、ある時不思議なことが起こります。 予想外のステップア…"
     },
     {
-      "id": "574b9f83e7ab",
-      "title": "【試してみた】AIでGIFの顔を入れ替える「GIF Face Swap」が想像以上に面白かった｜SNSで使える新しい遊び方",
-      "url": "https://zenn.dev/olzzz/articles/d6c594f6753063",
-      "publishedAt": "2026-08-05T03:18:37.000Z",
-      "publisher": "racri",
-      "summary": "【AI GIF Face Swap体験レビュー】GIFの顔を入れ替えて、自分だけの面白いコンテンツを作ってみた SNSを見ていると、思わず笑ってしまうGIFやミーム動画をよく見かけます。 短い時間で感情やリアクションを伝えられるGIFは、…"
+      "id": "1506334647a0",
+      "title": "Claude Codeで生成した設計書をいい感じに！",
+      "url": "https://zenn.dev/miyachan2/articles/f5e8bd8e4e3de0",
+      "publishedAt": "2026-08-05T07:43:10.000Z",
+      "publisher": "ヤミちゃん",
+      "summary": "今日もプログラムしてない、プログラマーのヤミちゃんです。 AIに設計書を20ページ書かせたら、中身は大体合ってるのに読みにくい設計書が爆誕したので、全ページを自分で直してました。 その差分を使ってプロンプト作ったら、いい感じにAIが設計書…"
     },
     {
-      "id": "89ae2a0928a3",
-      "title": "Claude が書く長いコメントは、Claude 自身の役に立っていなかった",
-      "url": "https://zenn.dev/uzu_tech/articles/86a2ef05a7d649",
-      "publishedAt": "2026-08-05T03:00:10.000Z",
-      "publisher": "wellPicker",
-      "summary": "はじめに 株式会社Sally 所属エンジニアの @wellPicker です。 弊社では、スマホやパソコンでマダミスを遊べるアプリであるウズや、マダミス情報・予約管理サイトマダミス.jp、マダミス開発ツールウズスタジオを開発しています。 …"
+      "id": "c5852584ccc6",
+      "title": "テストコードは人間のための文書ではない（AI に書かせる時代の保証台帳）",
+      "url": "https://zenn.dev/yktsnet/articles/202608-guarantee-driven-development",
+      "publishedAt": "2026-08-05T07:42:28.000Z",
+      "publisher": "yktsnet",
+      "summary": "Claude Code に実装を投げるようになって、バグ修正も機能追加も、以前なら手を出さずに置いていた量までこなせるようになりました。同時に増えたのが手戻りです。直したところが次の変更で戻る、関係ないと思っていた場所が壊れる。作れる量が…"
     },
     {
-      "id": "59237550bb48",
-      "title": "散らばった議論を LLM-Wiki でフル活用する AI 時代のデザインシステムのカタチ",
-      "url": "https://zenn.dev/cybozu_frontend/articles/llm-wiki-for-design-systems",
-      "publishedAt": "2026-08-05T03:00:09.000Z",
-      "publisher": "saku",
-      "summary": "! この記事は、CYBOZU SUMMER BLOG FES '26の記事です。 筆者が携わる kDS (kintone Design System) Team は、kintone、Slack、GitHub、Confluence など、さ…"
+      "id": "07754b1f3514",
+      "title": "Gitワークツリーで並行作業する：AIエージェントの手を止めない使い方",
+      "url": "https://zenn.dev/gingakuwagata/articles/git-worktree-parallel-ai-agents",
+      "publishedAt": "2026-08-05T07:39:54.000Z",
+      "publisher": "ぎんがくわがた",
+      "summary": "はじめに Claude Code のようなコーディングエージェントに実装を任せていると、こんな場面によく出くわします。 大きめのタスクを投げて、出力が終わるまで数分から十数分待つことになる その間ターミナルを眺めているだけになり、次の作業…"
     },
     {
-      "id": "28d03701439f",
-      "title": "AI生成動画が「本物っぽく」見える瞬間、そうでない瞬間",
-      "url": "https://zenn.dev/derek/articles/70e01683d2d1ee",
-      "publishedAt": "2026-08-05T02:58:10.000Z",
-      "publisher": "derek",
-      "summary": "はじめに:AIアバター動画生成ツールが積み重ねてきた進化 数年前まで、AIアバター動画生成ツールの出力は一目で「合成っぽい」とわかるものが多かった。口の動きと音声がズレる、まばたきのタイミングが不自然、顔の輪郭が微妙に歪む——こうした違和…"
+      "id": "6bd957887a16",
+      "title": "14Bが4Bに負けた——16GBのGPU一枚で測った、蒸留の用量反応の全記録",
+      "url": "https://zenn.dev/satoshiakiyama/articles/b2662577410883",
+      "publishedAt": "2026-08-05T07:25:28.000Z",
+      "publisher": "satoshiakiyama",
+      "summary": "家庭用のRTX 5080(16GB)一枚で、LLM蒸留の「用量反応試験」をやりました。 4つの生徒規模(Qwen3 1.7B/4B/8B/14B)×11の学習例数=44セル、全セル事前登録、 評価基準は実験前に凍結、結果は外れた予測も含め…"
     },
     {
-      "id": "e1877449d46f",
-      "title": "Gemini EnterpriseのAgent GatewayとAgent RegistryでCloud RunのカスタムMCPへ接続する",
-      "url": "https://zenn.dev/team_lab/articles/433bb9679a4a4c",
-      "publishedAt": "2026-08-05T01:57:45.000Z",
-      "publisher": "チームラボ",
-      "summary": "はじめに こんにちは。 チームラボでエンジニアをしている津田です。 普段は、サービスの保守運用や追加開発の要件定義、開発方針の検討、社内でのAI活用の検証に関わっています。 私のチームでは、エンジニアと非エンジニアが同じ情報を参照しながら…"
+      "id": "842d44a84881",
+      "title": "SeedRealtimeを動画編集に入れる前に、会話より先に決めたいこと",
+      "url": "https://zenn.dev/kiritani_r/articles/50227b4711aaa5",
+      "publishedAt": "2026-08-05T07:09:52.000Z",
+      "publisher": "ハク（Haku）",
+      "summary": "自分がリアルタイムの音声・映像AIを見るとき、最初に気になるのは「どれだけ自然に会話できるか」ではありません。 編集の判断を、あとから人に渡せる形で返してくれるかです。 [2026年8月5日に公開されたSeedRealtime]は、音声・…"
     }
   ],
-  "fetchedAt": "2026-08-05T09:06:09.036Z",
+  "fetchedAt": "2026-08-05T11:28:54.528Z",
   "stale": false,
   "error": null
 }

@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "0aea75e8cef5",
-      "title": "Knowledge-Geometry Decoupling: Refreshable Pretrained Transfer for Streaming Recommendation",
-      "url": "https://huggingface.co/papers/2608.02738",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Industrial recommenders increasingly adopt the pretrain-then-transfer paradigm, yet behavioral distribution drift raise…",
-      "score": 32
+      "id": "ea776dc90106",
+      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+      "url": "https://huggingface.co/papers/2608.03979",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams,…",
+      "score": 42
     },
     {
       "id": "7957a59d10c4",
@@ -19,15 +19,7 @@
       "url": "https://huggingface.co/papers/2608.02713",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-environmen…",
-      "score": 21
-    },
-    {
-      "id": "ea776dc90106",
-      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
-      "url": "https://huggingface.co/papers/2608.03979",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams,…",
-      "score": 18
+      "score": 27
     },
     {
       "id": "4d4881f4ed9a",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.03457",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Diffusion language models (dLLMs) offer an alternative to autoregressive (AR) language modeling, yet the scaling behavi…",
-      "score": 12
+      "score": 18
     },
     {
       "id": "250f9e57e616",
@@ -43,7 +35,7 @@
       "url": "https://huggingface.co/papers/2607.26451",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "summary": "Large Language Model (LLM) agents have seen rapid adoption in software engineering. As agents take a greater role in th…",
-      "score": 4
+      "score": 10
     },
     {
       "id": "183d5c0ad217",
@@ -51,15 +43,7 @@
       "url": "https://huggingface.co/papers/2608.01127",
       "publishedAt": "2026-08-02T00:00:00.000Z",
       "summary": "Video world models predict future observations conditioned on historical observations and control signals, enabling lon…",
-      "score": 2
-    },
-    {
-      "id": "83d76a19154b",
-      "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
-      "url": "https://huggingface.co/papers/2608.03700",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Persona skills distill personal interaction histories into portable and executable artifacts for downstream agents. Whi…",
-      "score": 2
+      "score": 8
     },
     {
       "id": "cd408266c55c",
@@ -67,7 +51,7 @@
       "url": "https://huggingface.co/papers/2608.00371",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "We introduce a new problem domain for human action recognition: the fine-grained analysis of children's gait behaviors …",
-      "score": 1
+      "score": 7
     },
     {
       "id": "f708e2e21f20",
@@ -75,7 +59,15 @@
       "url": "https://huggingface.co/papers/2608.03874",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Modern agent frameworks equip large language models with external skill libraries to solve complex tasks. However, it r…",
-      "score": 1
+      "score": 7
+    },
+    {
+      "id": "83d76a19154b",
+      "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
+      "url": "https://huggingface.co/papers/2608.03700",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Persona skills distill personal interaction histories into portable and executable artifacts for downstream agents. Whi…",
+      "score": 7
     },
     {
       "id": "274b281e0ff6",
@@ -83,7 +75,7 @@
       "url": "https://huggingface.co/papers/2608.00730",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "Viscous stains, characterized by high viscosity and complex rheological properties, remain a major challenge for roboti…",
-      "score": 1
+      "score": 6
     },
     {
       "id": "e7fdc979d782",
@@ -91,7 +83,7 @@
       "url": "https://huggingface.co/papers/2607.28993",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "summary": "World Action Models (WAMs) have emerged as a promising paradigm by jointly modeling robot actions and future visual dyn…",
-      "score": 1
+      "score": 6
     },
     {
       "id": "b052d6bcde53",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2608.02218",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Scientific poster construction compresses a long multimodal paper into a readable, editable canvas. Existing systems hi…",
-      "score": 0
+      "score": 4
+    },
+    {
+      "id": "6f045f465444",
+      "title": "Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements",
+      "url": "https://huggingface.co/papers/2607.28661",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "summary": "Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching?…",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-08-05T09:06:08.936Z",
+  "fetchedAt": "2026-08-05T11:28:54.435Z",
   "stale": false,
   "error": null
 }
