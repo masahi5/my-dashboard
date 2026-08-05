@@ -6,92 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "9b646528fae0",
-      "title": "JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
-      "url": "https://huggingface.co/papers/2608.03974",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Real-time video editing requires low-latency causal generation with bounded computational resources while preserving so…",
-      "score": 46
-    },
-    {
       "id": "8135801df09e",
       "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
       "url": "https://huggingface.co/papers/2608.02602",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuo…",
-      "score": 31
-    },
-    {
-      "id": "7145bc4d7fd3",
-      "title": "MerchantBench: Benchmarking LLM Agents for Long-Term Coherence in E-Commerce Operations",
-      "url": "https://huggingface.co/papers/2607.28956",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "Large language model agents are increasingly evaluated as autonomous tool users, yet most benchmarks focus on bounded t…",
-      "score": 23
-    },
-    {
-      "id": "d2cd99ea14c2",
-      "title": "Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing",
-      "url": "https://huggingface.co/papers/2608.02711",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Recent advances in image generation have demonstrated the potential of unified multimodal models that integrate underst…",
-      "score": 19
-    },
-    {
-      "id": "41cc8452fbd5",
-      "title": "PCSD: Persistent Consistency for Self-Distillation in Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2608.01837",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Large language model agents have shown strong potential in complex interactive tasks, yet their reinforcement learning …",
-      "score": 17
-    },
-    {
-      "id": "6c48134ffc6d",
-      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
-      "url": "https://huggingface.co/papers/2608.04003",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agen…",
-      "score": 16
-    },
-    {
-      "id": "420af2bcf4bf",
-      "title": "OmniPack: Unified Token Compression for Efficient Omni-modal Large Language Models",
-      "url": "https://huggingface.co/papers/2608.03812",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Omni-modal large language models (Omni-LLMs) have achieved remarkable performance on audio-visual understanding tasks, …",
-      "score": 14
-    },
-    {
-      "id": "48bb1c82ec99",
-      "title": "UniWorld-Design: From Pixel Generation to Layer-Native Design",
-      "url": "https://huggingface.co/papers/2608.03971",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "We introduce UniWorld-Design, a framework that redefines image generation from flat pixel synthesis to structured visua…",
-      "score": 14
-    },
-    {
-      "id": "9fbfbf291bc9",
-      "title": "CAPEval: A Decoupled Caption Evaluation across Understanding and Generation",
-      "url": "https://huggingface.co/papers/2608.02589",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Captions serve as a primary supervision signal for both multimodal understanding and text-to-image generation. However,…",
-      "score": 13
-    },
-    {
-      "id": "251620d8c6f0",
-      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
-      "url": "https://huggingface.co/papers/2608.04007",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, exist…",
-      "score": 10
-    },
-    {
-      "id": "49d6bf199692",
-      "title": "SkillJack: Persistent Skill Backdoors in Self-Evolving Agents",
-      "url": "https://huggingface.co/papers/2608.03509",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Self-evolving agents increasingly convert interaction histories into reusable skills that persist beyond individual tas…",
-      "score": 9
+      "score": 39
     },
     {
       "id": "0aea75e8cef5",
@@ -99,10 +19,90 @@
       "url": "https://huggingface.co/papers/2608.02738",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Industrial recommenders increasingly adopt the pretrain-then-transfer paradigm, yet behavioral distribution drift raise…",
-      "score": 3
+      "score": 27
+    },
+    {
+      "id": "41cc8452fbd5",
+      "title": "PCSD: Persistent Consistency for Self-Distillation in Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2608.01837",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Large language model agents have shown strong potential in complex interactive tasks, yet their reinforcement learning …",
+      "score": 22
+    },
+    {
+      "id": "6c48134ffc6d",
+      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+      "url": "https://huggingface.co/papers/2608.04003",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agen…",
+      "score": 18
+    },
+    {
+      "id": "420af2bcf4bf",
+      "title": "OmniPack: Unified Token Compression for Efficient Omni-modal Large Language Models",
+      "url": "https://huggingface.co/papers/2608.03812",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Omni-modal large language models (Omni-LLMs) have achieved remarkable performance on audio-visual understanding tasks, …",
+      "score": 15
+    },
+    {
+      "id": "9fbfbf291bc9",
+      "title": "CAPEval: A Decoupled Caption Evaluation across Understanding and Generation",
+      "url": "https://huggingface.co/papers/2608.02589",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Captions serve as a primary supervision signal for both multimodal understanding and text-to-image generation. However,…",
+      "score": 15
+    },
+    {
+      "id": "ea776dc90106",
+      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+      "url": "https://huggingface.co/papers/2608.03979",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams,…",
+      "score": 8
+    },
+    {
+      "id": "7957a59d10c4",
+      "title": "Quo Vadis, World Modeling?",
+      "url": "https://huggingface.co/papers/2608.02713",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-environmen…",
+      "score": 8
+    },
+    {
+      "id": "83d76a19154b",
+      "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
+      "url": "https://huggingface.co/papers/2608.03700",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Persona skills distill personal interaction histories into portable and executable artifacts for downstream agents. Whi…",
+      "score": 1
+    },
+    {
+      "id": "274b281e0ff6",
+      "title": "Push-Wiper: Toward General-Purpose Robotic Cleaning across Varied Stains and Surfaces with Segmented Pushing Trajectories",
+      "url": "https://huggingface.co/papers/2608.00730",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "summary": "Viscous stains, characterized by high viscosity and complex rheological properties, remain a major challenge for roboti…",
+      "score": 1
+    },
+    {
+      "id": "e7fdc979d782",
+      "title": "ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts",
+      "url": "https://huggingface.co/papers/2607.28993",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "World Action Models (WAMs) have emerged as a promising paradigm by jointly modeling robot actions and future visual dyn…",
+      "score": 1
+    },
+    {
+      "id": "250f9e57e616",
+      "title": "ExplainBench: Evaluating Code Explanations from Agents",
+      "url": "https://huggingface.co/papers/2607.26451",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "summary": "Large Language Model (LLM) agents have seen rapid adoption in software engineering. As agents take a greater role in th…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-05T03:36:30.862Z",
+  "fetchedAt": "2026-08-05T06:12:07.123Z",
   "stale": false,
   "error": null
 }
