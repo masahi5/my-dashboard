@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "ea776dc90106",
-      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
-      "url": "https://huggingface.co/papers/2608.03979",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams,…",
-      "score": 42
-    },
-    {
       "id": "4d4881f4ed9a",
       "title": "LLaDA MoE v2: Scaling Mixture-of-Experts Diffusion Language Models",
       "url": "https://huggingface.co/papers/2608.03457",
@@ -27,15 +19,23 @@
       "url": "https://huggingface.co/papers/2608.01127",
       "publishedAt": "2026-08-02T00:00:00.000Z",
       "summary": "Video world models predict future observations conditioned on historical observations and control signals, enabling lon…",
-      "score": 8
+      "score": 9
     },
     {
-      "id": "83d76a19154b",
-      "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
-      "url": "https://huggingface.co/papers/2608.03700",
+      "id": "f708e2e21f20",
+      "title": "ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?",
+      "url": "https://huggingface.co/papers/2608.03874",
       "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Persona skills distill personal interaction histories into portable and executable artifacts for downstream agents. Whi…",
-      "score": 8
+      "summary": "Modern agent frameworks equip large language models with external skill libraries to solve complex tasks. However, it r…",
+      "score": 9
+    },
+    {
+      "id": "6f045f465444",
+      "title": "Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements",
+      "url": "https://huggingface.co/papers/2607.28661",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "summary": "Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching?…",
+      "score": 7
     },
     {
       "id": "cd408266c55c",
@@ -46,22 +46,6 @@
       "score": 7
     },
     {
-      "id": "f708e2e21f20",
-      "title": "ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?",
-      "url": "https://huggingface.co/papers/2608.03874",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Modern agent frameworks equip large language models with external skill libraries to solve complex tasks. However, it r…",
-      "score": 7
-    },
-    {
-      "id": "274b281e0ff6",
-      "title": "Push-Wiper: Toward General-Purpose Robotic Cleaning across Varied Stains and Surfaces with Segmented Pushing Trajectories",
-      "url": "https://huggingface.co/papers/2608.00730",
-      "publishedAt": "2026-08-01T00:00:00.000Z",
-      "summary": "Viscous stains, characterized by high viscosity and complex rheological properties, remain a major challenge for roboti…",
-      "score": 6
-    },
-    {
       "id": "b052d6bcde53",
       "title": "PosterMELD: Multi-Agent Paper-to-Poster Generation for Controllable Design Diversity with Editable Print-Ready Outputs",
       "url": "https://huggingface.co/papers/2608.02218",
@@ -70,12 +54,20 @@
       "score": 4
     },
     {
-      "id": "6f045f465444",
-      "title": "Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements",
-      "url": "https://huggingface.co/papers/2607.28661",
-      "publishedAt": "2026-07-22T00:00:00.000Z",
-      "summary": "Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching?…",
+      "id": "4e8158e14864",
+      "title": "RestoreKV: Recovering Full-Cache Behavior Under Aggressive Query-Agnostic KV Cache Eviction",
+      "url": "https://huggingface.co/papers/2608.01247",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "summary": "Query-agnostic KV cache eviction compresses a context once and reuses the resulting cache for arbitrary future queries,…",
       "score": 3
+    },
+    {
+      "id": "094f7356722c",
+      "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
+      "url": "https://huggingface.co/papers/2608.02791",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, preserved dialogue ability, …",
+      "score": 2
     },
     {
       "id": "8f5d49fbce77",
@@ -86,23 +78,31 @@
       "score": 2
     },
     {
-      "id": "094f7356722c",
-      "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
-      "url": "https://huggingface.co/papers/2608.02791",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, preserved dialogue ability, …",
-      "score": 1
-    },
-    {
       "id": "f33994c96010",
       "title": "Multi-Task Multi-Frame Visual Piano Transcription",
       "url": "https://huggingface.co/papers/2608.03419",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Audio-based piano transcription performs well on onset, pitch, and velocity, but the sustain pedal lets sound persist l…",
+      "score": 2
+    },
+    {
+      "id": "3b0aefe304fc",
+      "title": "ChronoLens: Measuring Language Change Across Time, Languages, and Linguistic Levels",
+      "url": "https://huggingface.co/papers/2608.03507",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Historical language change affects morphology, syntax, semantics, and pragmatics, yet computational studies typically e…",
       "score": 1
+    },
+    {
+      "id": "ca6173a1b3e8",
+      "title": "CURV: Enhancing Chart Understanding Through Curriculum Visual Grounded Reasoning",
+      "url": "https://huggingface.co/papers/2608.02833",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Chart question answering (CQA) requires multimodal large language models (MLLMs) to integrate visual comprehension with…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-05T13:13:05.054Z",
+  "fetchedAt": "2026-08-05T15:29:13.391Z",
   "stale": false,
   "error": null
 }
