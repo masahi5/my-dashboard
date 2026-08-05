@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f51a93dcbd91",
-      "title": "Claude Code の調査結果が静かに間違う4パターンと、CLAUDE.md に貼る自己検査",
-      "url": "https://zenn.dev/kestrel_log/articles/0463460d337be2",
-      "publishedAt": "2026-08-05T14:09:03.000Z",
-      "publisher": "kestrel_log",
-      "summary": "! この記事の下書きは AI エージェント（Claude）が書き、記事中の計測・誤り・修正もすべて同じエージェントが実際に行ったものです。 公開前に人間の運営者が内容を検証し、指摘にもとづいて全面的に書き直しています。 なお、この記事は「…"
+      "id": "7cda52b4dab1",
+      "title": "【参加レポート】Google Cloud Next Tokyo Day1：技術と人が交差するAIエージェント時代の最適解",
+      "url": "https://zenn.dev/grand2/articles/5f43af7ce0216a",
+      "publishedAt": "2026-08-05T10:00:07.000Z",
+      "publisher": "risaiwata",
+      "summary": "はじめに こんにちは。グランドツーで開発・運用・保守をしているエンジニアの岩田です。 今日は2026年7月30日に開催された Google Cloud Next Tokyo の Day1 に参加してきたので、当日聞いたセッションを時系列順…"
     },
     {
-      "id": "2fa9071edf8c",
-      "title": "What's New in Sigma - 2026年07月31日のSigma Computing関連リリース情報まとめ",
-      "url": "https://zenn.dev/truestar/articles/c4b844a12cf412",
-      "publishedAt": "2026-08-05T13:55:13.000Z",
-      "publisher": "しんや",
-      "summary": "Sigma(Sigma Computing)の最新リリースノート情報を集約・要約して紹介しているコミュニティスレッド『Release Notes』。米国時間毎週金曜日中(日本時間土曜日早朝)に定期的に公開されているこちらのスレッドの内容に…"
+      "id": "7fb98fec6206",
+      "title": "AI への作業指示書は4日で腐る──着手前の再実測が空撃ちを防いだ",
+      "url": "https://zenn.dev/xioncc/articles/stale-orders-subordinate-verifies",
+      "publishedAt": "2026-08-05T09:46:36.000Z",
+      "publisher": "hideyukiMORI",
+      "summary": "はじめに AI エージェントに作業指示書を書かせ、別の AI エージェントに実行させる運用をしている人へ。 私の手元で、ある指示書が「未修正の違反 17 件を是正せよ」と命じていた——着手前に再実測したら、前提は全部解消済みだった。指示書…"
     },
     {
-      "id": "2359264e3148",
-      "title": "LLM推論パラメータ入門——Temperature・Top-K・Top-Pの仕組みと実践調参ガイド",
-      "url": "https://zenn.dev/lumichy/articles/llm-sampling-params-guide-2026",
-      "publishedAt": "2026-08-05T13:51:08.000Z",
-      "publisher": "lumichy",
-      "summary": "LLM推論パラメータ入門——Temperature・Top-K・Top-Pの仕組みと実践調参ガイド ChatGPTやClaudeなどのLLM（大規模言語モデル）を使っていて、「回答が真面目すぎて面白みがない」「コードを出力させたいのに毎回…"
+      "id": "0581bbe03b8c",
+      "title": "Claude Code の自作スキル、5本中定着は2本 — 何をコマンド化すべきかの選定基準",
+      "url": "https://zenn.dev/hoshiorange/articles/07-claude-code-custom-skills-what-stuck",
+      "publishedAt": "2026-08-05T09:17:15.000Z",
+      "publisher": "ほし",
+      "summary": "こんにちは。今日も Claude Code に、まったく同じ話をゼロから説明しました。数えていませんが、たぶん今週だけで5回目くらいです。 Claude Code は、ターミナルからチャット感覚で指示を出すと、コードを書いたりコマンドを実…"
     },
     {
-      "id": "dc0ee09bd089",
-      "title": "AIに決済コードを書かせ、AIにレビューさせたら「1円も払っていない人に『お支払いが完了しました』と表示していた」",
-      "url": "https://zenn.dev/katsuo_dev/articles/202608-ai-payment-review-bugs",
-      "publishedAt": "2026-08-05T13:40:47.000Z",
-      "publisher": "かつお",
-      "summary": "この記事はローカルの D1 / vitest で再現したテストコードとレビュー指摘に基づきます。テストネットでの実決済・本番デプロイは未実施です。 この記事だけで分かること 署名検証・冪等性という「正しさ」の層にバグが無くても、決済システ…"
+      "id": "214aa1d01252",
+      "title": "「このサイト、スクレイピングしていいか」の確認が三層になっていた話",
+      "url": "https://zenn.dev/alma65/articles/scraping-permission-three-layers",
+      "publishedAt": "2026-08-05T09:00:05.000Z",
+      "publisher": "alma",
+      "summary": "個人開発中のプロダクトで、ユーザーの生の声(「〜が欲しい」「〜が面倒」)を集めてくるデータ収集先を新しく増やす作業をしていました。候補サイトが十数個あったので、AIに「まずrobots.txtと利用規約を一通りチェックしてきて」とお願いし…"
     },
     {
-      "id": "3fae0c47c539",
-      "title": "AIエージェントやスキルを活用したインシデントマネジメント戦略を考えてみよう",
-      "url": "https://zenn.dev/su3_hokkaido/articles/2026-08-05_incident_management_of_ai_era",
-      "publishedAt": "2026-08-05T13:28:48.000Z",
-      "publisher": "Su3",
-      "summary": "これなに ここ1年くらいはインシデント対応をやっていないので、忘れないうちに自分の知識や経験を棚卸ししておこうと思い付き、この記事を書こうと思いました。 ただ、せっかくならAIを活用したインシデント対応のフレームワークを考えてみようと思っ…"
+      "id": "557244e097ad",
+      "title": "既存APIを二重管理せずMCPを提供する仕組み",
+      "url": "https://zenn.dev/kikuvi/articles/9b7173868c8bef",
+      "publishedAt": "2026-08-05T08:47:29.000Z",
+      "publisher": "masaishi",
+      "summary": "はじめに Kikuvi Founding AI/ML Engineerのmasaishiです。 Kikuviは、AIとの対話を通じてユーザーインタビューやエンゲージメントサーベイなど、ヒアリングを実施できるサービスです。Webアプリから、…"
     },
     {
-      "id": "4b9c538ed320",
-      "title": "Claude Codeとのブレストは『漠然問い』から始まる——選択肢を並べると構造化が起きる",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-05-14-073400",
-      "publishedAt": "2026-08-05T13:25:37.000Z",
-      "publisher": "saitoko",
-      "summary": "AIブレストを「アイデアを出してもらう作業」だと思っていると、なぜか浅い結果しか返ってこない。この記事では、AIブレストを機能させる「漠然問い」の作法と3工程を、このシリーズ自体が誕生した実例を使って説明する。「ちゃんと整理してから聞かな…"
+      "id": "b6bdf5fcff5f",
+      "title": "特定AIエージェントへの委任集中を自己改善ループで是正する【Claude Code/マルチエージェント】",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/multi-agent-delegation-load-balancing",
+      "publishedAt": "2026-08-05T08:26:12.000Z",
+      "publisher": "とんのかつ",
+      "summary": "はじめに 複数のAI CLI（Codex CLI、Gemini系CLI、Claudeサブエージェント）と連携するマルチエージェント構成で開発していると、次の3つの課題に直面します。 委任先が固定化する: ルールには「分散させよ」と書いてあ…"
     },
     {
-      "id": "04f25166ca7a",
-      "title": "AI時代のリポジトリ構成 — AGENTS.md と知識ベースの分離",
-      "url": "https://zenn.dev/agepan/articles/ai-era-repository-directory-structure",
-      "publishedAt": "2026-08-05T13:21:34.000Z",
-      "publisher": "Ryuya",
-      "summary": "! TL;DR — 3つの原則 正典（Source of Truth）は1つにし、ツール別ファイルは薄いポインタにする Progressive Disclosure（段階的開示）を設計し、必要な時だけ詳細を読み込ませる 「操作を担うリポジ…"
-    },
-    {
-      "id": "0dcd78c4232f",
-      "title": "人が亡くなるたび、古い辞書がまた一冊、失われる 介護現場と地域で見つめてきた「検索できない知恵」",
-      "url": "https://zenn.dev/pomodoro_naomi/articles/681018ed66449a",
-      "publishedAt": "2026-08-05T13:07:45.000Z",
-      "publisher": "🍅Pomodoroナオミ🍅",
-      "summary": "父が、ある日ぽつりと、こんなことを言った。 「年寄りが亡くなると、古い辞書がまた一冊、失われる。」 その頃の私は、「また父ちゃん、何か面白いこと言うとるなぁ」くらいにしか思っていなかった。 けれど、介護福祉士として十五年以上、高齢者の方々…"
-    },
-    {
-      "id": "b369c743d17c",
-      "title": "20年間溜め込んだ2つの不満と、目の前にある突破口",
-      "url": "https://zenn.dev/katsutoatsuto/articles/5c680d86767900",
-      "publishedAt": "2026-08-05T13:00:11.000Z",
+      "id": "3a9f984eea52",
+      "title": "ClaudeCodeでさらに加速する開発、現れ始めた成果",
+      "url": "https://zenn.dev/katsutoatsuto/articles/77844bbc6ba2eb",
+      "publishedAt": "2026-08-05T08:21:51.000Z",
       "publisher": "katsutoatsuto",
-      "summary": "Claude Codeによる開発とボトルネック Claude Codeの導入により、開発はまたさらに加速しました。トークン消費量が激しく時折休憩を挟む必要がありますが、AIが進めてくれる作業自体は高速です。 しかし、この作業スタイルに慣れ…"
+      "summary": "Claude Codeでさらに加速する開発、現れ始めた成果 Claudeに課金してProjectを使い始めると、個人開発アプリ「tagasill」の開発は一気に加速しました。 ところが、ある時不思議なことが起こります。 予想外のステップア…"
     },
     {
-      "id": "9511aca90431",
-      "title": "音声AIの300msを100msに感じさせる5つの錯覚ハック",
-      "url": "https://zenn.dev/kenimo49/articles/voice-ai-300ms-100ms-5-perception-hacks",
-      "publishedAt": "2026-08-05T12:56:33.000Z",
-      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
-      "summary": "LLMを速くする方向に3ヶ月溶かしました。 GPU増強、モデル軽量化、STTの並列化。それでも実測300msは縮まらなかった。 ある晩、共同開発者のミサキがコーヒーを置いて振り返って言いました。「発想を変えよう。物理で無理なら、感じさせな…"
+      "id": "1506334647a0",
+      "title": "Claude Codeで生成した設計書をいい感じに！",
+      "url": "https://zenn.dev/miyachan2/articles/f5e8bd8e4e3de0",
+      "publishedAt": "2026-08-05T07:43:10.000Z",
+      "publisher": "ヤミちゃん",
+      "summary": "今日もプログラムしてない、プログラマーのヤミちゃんです。 AIに設計書を20ページ書かせたら、中身は大体合ってるのに読みにくい設計書が爆誕したので、全ページを自分で直してました。 その差分を使ってプロンプト作ったら、いい感じにAIが設計書…"
     },
     {
-      "id": "a06689ec208b",
-      "title": "Claude CodeでAI動画づくりを自動化する — Gemini APIひとつで30秒ショート動画",
-      "url": "https://zenn.dev/horatjp/articles/ai-video-with-claude-code",
-      "publishedAt": "2026-08-05T12:49:22.000Z",
-      "publisher": "horatjp",
-      "summary": "この記事でやること Claude Codeに頼んで、セリフ・音つきの30秒ショート動画を作ります。 プロンプト(依頼文)はすべてコピペできる形で載せているので、上から順に進めれば同じようなものが作れます。 そして最後には、こうなります。 …"
+      "id": "c5852584ccc6",
+      "title": "テストコードは人間のための文書ではない（AI に書かせる時代の保証台帳）",
+      "url": "https://zenn.dev/yktsnet/articles/202608-guarantee-driven-development",
+      "publishedAt": "2026-08-05T07:42:28.000Z",
+      "publisher": "yktsnet",
+      "summary": "Claude Code に実装を投げるようになって、バグ修正も機能追加も、以前なら手を出さずに置いていた量までこなせるようになりました。同時に増えたのが手戻りです。直したところが次の変更で戻る、関係ないと思っていた場所が壊れる。作れる量が…"
     },
     {
-      "id": "a239eaf9f9ac",
-      "title": "ClaudeとPythonを書いていたら、途中でAIがおかしくなった話",
-      "url": "https://zenn.dev/flipslidersand/articles/ai-python-context-degradation",
-      "publishedAt": "2026-08-05T12:37:22.000Z",
-      "publisher": "flipslidersand",
-      "summary": "AIと一緒にコーディングすれば、Pythonなんて簡単に書ける。 最初の1時間は、本当にそう思っていた。 「このエラーって何？」と聞けば、すぐに原因を説明してくれる。 「もっとシンプルに書けない？」と頼めば、コードをきれいにしてくれる。 …"
+      "id": "07754b1f3514",
+      "title": "Gitワークツリーで並行作業する：AIエージェントの手を止めない使い方",
+      "url": "https://zenn.dev/gingakuwagata/articles/git-worktree-parallel-ai-agents",
+      "publishedAt": "2026-08-05T07:39:54.000Z",
+      "publisher": "ぎんがくわがた",
+      "summary": "はじめに Claude Code のようなコーディングエージェントに実装を任せていると、こんな場面によく出くわします。 大きめのタスクを投げて、出力が終わるまで数分から十数分待つことになる その間ターミナルを眺めているだけになり、次の作業…"
+    },
+    {
+      "id": "6bd957887a16",
+      "title": "14Bが4Bに負けた——16GBのGPU一枚で測った、蒸留の用量反応の全記録",
+      "url": "https://zenn.dev/satoshiakiyama/articles/b2662577410883",
+      "publishedAt": "2026-08-05T07:25:28.000Z",
+      "publisher": "satoshiakiyama",
+      "summary": "家庭用のRTX 5080(16GB)一枚で、LLM蒸留の「用量反応試験」をやりました。 4つの生徒規模(Qwen3 1.7B/4B/8B/14B)×11の学習例数=44セル、全セル事前登録、 評価基準は実験前に凍結、結果は外れた予測も含め…"
+    },
+    {
+      "id": "842d44a84881",
+      "title": "SeedRealtimeを動画編集に入れる前に、会話より先に決めたいこと",
+      "url": "https://zenn.dev/kiritani_r/articles/50227b4711aaa5",
+      "publishedAt": "2026-08-05T07:09:52.000Z",
+      "publisher": "ハク（Haku）",
+      "summary": "自分がリアルタイムの音声・映像AIを見るとき、最初に気になるのは「どれだけ自然に会話できるか」ではありません。 編集の判断を、あとから人に渡せる形で返してくれるかです。 [2026年8月5日に公開されたSeedRealtime]は、音声・…"
     }
   ],
-  "fetchedAt": "2026-08-05T15:29:13.497Z",
+  "fetchedAt": "2026-08-05T17:04:57.485Z",
   "stale": false,
   "error": null
 }

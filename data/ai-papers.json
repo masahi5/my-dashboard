@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "4d4881f4ed9a",
-      "title": "LLaDA MoE v2: Scaling Mixture-of-Experts Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2608.03457",
+      "id": "f708e2e21f20",
+      "title": "ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?",
+      "url": "https://huggingface.co/papers/2608.03874",
       "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Diffusion language models (dLLMs) offer an alternative to autoregressive (AR) language modeling, yet the scaling behavi…",
-      "score": 20
+      "summary": "Modern agent frameworks equip large language models with external skill libraries to solve complex tasks. However, it r…",
+      "score": 10
     },
     {
       "id": "183d5c0ad217",
@@ -22,20 +22,12 @@
       "score": 9
     },
     {
-      "id": "f708e2e21f20",
-      "title": "ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?",
-      "url": "https://huggingface.co/papers/2608.03874",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Modern agent frameworks equip large language models with external skill libraries to solve complex tasks. However, it r…",
-      "score": 9
-    },
-    {
       "id": "6f045f465444",
       "title": "Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements",
       "url": "https://huggingface.co/papers/2607.28661",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "summary": "Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching?…",
-      "score": 7
+      "score": 8
     },
     {
       "id": "cd408266c55c",
@@ -43,7 +35,23 @@
       "url": "https://huggingface.co/papers/2608.00371",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "We introduce a new problem domain for human action recognition: the fine-grained analysis of children's gait behaviors …",
-      "score": 7
+      "score": 8
+    },
+    {
+      "id": "4e8158e14864",
+      "title": "RestoreKV: Recovering Full-Cache Behavior Under Aggressive Query-Agnostic KV Cache Eviction",
+      "url": "https://huggingface.co/papers/2608.01247",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "summary": "Query-agnostic KV cache eviction compresses a context once and reuses the resulting cache for arbitrary future queries,…",
+      "score": 5
+    },
+    {
+      "id": "8f5d49fbce77",
+      "title": "When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings",
+      "url": "https://huggingface.co/papers/2608.03994",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows float…",
+      "score": 4
     },
     {
       "id": "b052d6bcde53",
@@ -54,28 +62,12 @@
       "score": 4
     },
     {
-      "id": "4e8158e14864",
-      "title": "RestoreKV: Recovering Full-Cache Behavior Under Aggressive Query-Agnostic KV Cache Eviction",
-      "url": "https://huggingface.co/papers/2608.01247",
-      "publishedAt": "2026-08-02T00:00:00.000Z",
-      "summary": "Query-agnostic KV cache eviction compresses a context once and reuses the resulting cache for arbitrary future queries,…",
-      "score": 3
-    },
-    {
       "id": "094f7356722c",
       "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
       "url": "https://huggingface.co/papers/2608.02791",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, preserved dialogue ability, …",
-      "score": 2
-    },
-    {
-      "id": "8f5d49fbce77",
-      "title": "When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings",
-      "url": "https://huggingface.co/papers/2608.03994",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows float…",
-      "score": 2
+      "score": 3
     },
     {
       "id": "f33994c96010",
@@ -83,7 +75,15 @@
       "url": "https://huggingface.co/papers/2608.03419",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Audio-based piano transcription performs well on onset, pitch, and velocity, but the sustain pedal lets sound persist l…",
-      "score": 2
+      "score": 3
+    },
+    {
+      "id": "aeb0b5b78bf2",
+      "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
+      "url": "https://huggingface.co/papers/2608.03972",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large l…",
+      "score": 1
     },
     {
       "id": "3b0aefe304fc",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-05T15:29:13.391Z",
+  "fetchedAt": "2026-08-05T17:04:57.375Z",
   "stale": false,
   "error": null
 }
