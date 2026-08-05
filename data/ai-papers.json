@@ -14,28 +14,12 @@
       "score": 42
     },
     {
-      "id": "7957a59d10c4",
-      "title": "Quo Vadis, World Modeling?",
-      "url": "https://huggingface.co/papers/2608.02713",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-environmen…",
-      "score": 27
-    },
-    {
       "id": "4d4881f4ed9a",
       "title": "LLaDA MoE v2: Scaling Mixture-of-Experts Diffusion Language Models",
       "url": "https://huggingface.co/papers/2608.03457",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Diffusion language models (dLLMs) offer an alternative to autoregressive (AR) language modeling, yet the scaling behavi…",
-      "score": 18
-    },
-    {
-      "id": "250f9e57e616",
-      "title": "ExplainBench: Evaluating Code Explanations from Agents",
-      "url": "https://huggingface.co/papers/2607.26451",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "summary": "Large Language Model (LLM) agents have seen rapid adoption in software engineering. As agents take a greater role in th…",
-      "score": 10
+      "score": 20
     },
     {
       "id": "183d5c0ad217",
@@ -43,6 +27,14 @@
       "url": "https://huggingface.co/papers/2608.01127",
       "publishedAt": "2026-08-02T00:00:00.000Z",
       "summary": "Video world models predict future observations conditioned on historical observations and control signals, enabling lon…",
+      "score": 8
+    },
+    {
+      "id": "83d76a19154b",
+      "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
+      "url": "https://huggingface.co/papers/2608.03700",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Persona skills distill personal interaction histories into portable and executable artifacts for downstream agents. Whi…",
       "score": 8
     },
     {
@@ -62,27 +54,11 @@
       "score": 7
     },
     {
-      "id": "83d76a19154b",
-      "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
-      "url": "https://huggingface.co/papers/2608.03700",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Persona skills distill personal interaction histories into portable and executable artifacts for downstream agents. Whi…",
-      "score": 7
-    },
-    {
       "id": "274b281e0ff6",
       "title": "Push-Wiper: Toward General-Purpose Robotic Cleaning across Varied Stains and Surfaces with Segmented Pushing Trajectories",
       "url": "https://huggingface.co/papers/2608.00730",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "Viscous stains, characterized by high viscosity and complex rheological properties, remain a major challenge for roboti…",
-      "score": 6
-    },
-    {
-      "id": "e7fdc979d782",
-      "title": "ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts",
-      "url": "https://huggingface.co/papers/2607.28993",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "World Action Models (WAMs) have emerged as a promising paradigm by jointly modeling robot actions and future visual dyn…",
       "score": 6
     },
     {
@@ -99,10 +75,34 @@
       "url": "https://huggingface.co/papers/2607.28661",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "summary": "Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching?…",
+      "score": 3
+    },
+    {
+      "id": "8f5d49fbce77",
+      "title": "When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings",
+      "url": "https://huggingface.co/papers/2608.03994",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows float…",
       "score": 2
+    },
+    {
+      "id": "094f7356722c",
+      "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
+      "url": "https://huggingface.co/papers/2608.02791",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, preserved dialogue ability, …",
+      "score": 1
+    },
+    {
+      "id": "f33994c96010",
+      "title": "Multi-Task Multi-Frame Visual Piano Transcription",
+      "url": "https://huggingface.co/papers/2608.03419",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Audio-based piano transcription performs well on onset, pitch, and velocity, but the sustain pedal lets sound persist l…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-05T11:28:54.435Z",
+  "fetchedAt": "2026-08-05T13:13:05.054Z",
   "stale": false,
   "error": null
 }
