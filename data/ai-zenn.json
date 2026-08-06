@@ -6,6 +6,46 @@
   "category": "ai",
   "items": [
     {
+      "id": "8f8da6a80a76",
+      "title": "AIがひとりで自動売買システムを作り、運用し、毎日記事まで書く実験を公開した",
+      "url": "https://zenn.dev/auto_quont/articles/autoquant-lab-intro",
+      "publishedAt": "2026-08-06T03:34:04.000Z",
+      "publisher": "auto_quont",
+      "summary": "これは何 戦略の設計・実装・バックテスト・毎日の売買判断・結果の記事化とサイト公開まで、全工程をAI（Claude Code）が行う自動売買の公開実験です。人間（私）がやったのは、アカウント類の作成と「やって」と言うことだけです。 公開先…"
+    },
+    {
+      "id": "ebb9d599ce44",
+      "title": "MCPサーバーを社内に置く前に決めた3つのこと —— 認証・ロール・検査の順番",
+      "url": "https://zenn.dev/kazuhiro2188/articles/mcp-server-auth-role-design",
+      "publishedAt": "2026-08-06T03:33:13.000Z",
+      "publisher": "kazuhiro2188-lgtm",
+      "summary": "動いた。で、これをどこに置くのか MCPサーバーを作ってみた人なら、公式のサンプルを動かすところまでは、たぶん詰まらずに行けると思います。ドキュメントどおりにやれば動きます。 問題はその次でした。動いた。で、これどこに置くのか。 置き場所…"
+    },
+    {
+      "id": "673a54f5abf4",
+      "title": "Perplexity Personal Computer入門 — Mac miniを常時起動AIエージェントにする全貌",
+      "url": "https://zenn.dev/kai_kou/articles/257-perplexity-personal-computer-mac-agent-guide",
+      "publishedAt": "2026-08-06T03:22:28.000Z",
+      "publisher": "甲斐 甲",
+      "summary": "はじめに 2026年4月16日、Perplexityは Personal Computer を正式ローンチしました。Mac miniを「常時起動のAIデジタルワーカー」に変えるプラットフォームで、Perplexity Maxサブスクライバ…"
+    },
+    {
+      "id": "287bf8eb8fc7",
+      "title": "トレードオフを見極める力を養っていきたい",
+      "url": "https://zenn.dev/flinters_blog/articles/8afd693b825fb7",
+      "publishedAt": "2026-08-06T03:00:05.000Z",
+      "publisher": "のざき",
+      "summary": "こんにちは、FLINTERS新卒2年目エンジニアの野崎です。 自分はAIのない開発現場を知りません。 配属されたときには、もうコーディングエージェントがありました。 実装は頼めば進むし、プロトタイプは一晩で形になる。それが自分にとっての普…"
+    },
+    {
+      "id": "32459ef65560",
+      "title": "AIエージェントをNotion/GitHub/Google Driveに接続する方法",
+      "url": "https://zenn.dev/mkj/articles/8c75b21b4101b3",
+      "publishedAt": "2026-08-06T02:50:05.000Z",
+      "publisher": "からあげ",
+      "summary": "Claude CodeやCodexなどのAIエージェントを、Notion、GitHub、Google Driveへ接続すると便利です。 ただし、サービスと接続するための設定を適切にしないと、運用で問題が出てくるケースがあります。特に、プロ…"
+    },
+    {
       "id": "cc40b004c3a5",
       "title": "exit code 0を成功判定に使わないジョブ設計 - テスト設計",
       "url": "https://zenn.dev/kmn/articles/3a1c44590cf572",
@@ -19,7 +59,7 @@
       "url": "https://zenn.dev/bitkey_dev/articles/claude-viewpoint-subtraction",
       "publishedAt": "2026-08-06T02:30:05.000Z",
       "publisher": "日下部 聡久",
-      "summary": "<!-- コンセプト 「テスト観点が書けない」記事の続編かつAI実践編。Claudeにテスト観点を網羅的に出させて、人間が「何をテストしないか」を判断する。足し算はAI、引き算は人間。この分業がテスト設計スキルの核心。 想定読者 テスト観…"
+      "summary": "テスト観点は「出す」より「削る」ほうが難しい。 前回の記事で「テスト観点の書き方」を紹介しました。画面要素を列挙する、仕様書から名詞と動詞を抜き出す、AIに壁打ちする。これで「出す」はできるようになります。 でも、出した観点を全部テストで…"
     },
     {
       "id": "3b8f8a36dada",
@@ -28,6 +68,14 @@
       "publishedAt": "2026-08-06T02:26:30.000Z",
       "publisher": "savielvideo",
       "summary": "動画制作をしていると、「素材はあるのに、動画にする時間がない」ということがよくあります。旅行写真、商品の画像、キャラクターのラフ。どれも使えそうなのに、編集画面を開いた瞬間に手が止まる。 今回は、写真を動画にまとめる際に使うphoto v…"
+    },
+    {
+      "id": "cb8dbbd6f240",
+      "title": "Nano Banana Pro/2をAPIで叩く：Geminiの画像生成を制御する",
+      "url": "https://zenn.dev/libercraft/articles/20260806-nano-banana-pro-api",
+      "publishedAt": "2026-08-06T02:00:00.000Z",
+      "publisher": "リベルクラフト",
+      "summary": "以前の記事「Codex CLI経由でプログラム的に画像を生成する」ではgpt-image-2を扱いましたが、画像生成AIの選択肢はOpenAIだけではありません。Google DeepMindの「Nano Banana」シリーズ（Gemi…"
     },
     {
       "id": "f0275bdd12c5",
@@ -52,57 +100,9 @@
       "publishedAt": "2026-08-06T01:53:59.000Z",
       "publisher": "へのへのん",
       "summary": "本体 真面目にドキュメント整備してたらクッソ思想強いものができて面白かったのでアウトプット。 シンプルとジェネリック好きすぎる。 補足 SSOT この考え方が正しいのかはイマイチわかってない。コード/コメントすべてを常に最新かつ最適な形と…"
-    },
-    {
-      "id": "f203f06fc45b",
-      "title": "Claude Code をチームに配るときの settings.json — deny / ask / allow をどう引いたか",
-      "url": "https://zenn.dev/tikuwaman/articles/claude-code-team-settings-json",
-      "publishedAt": "2026-08-06T01:35:15.000Z",
-      "publisher": "ちくわマン",
-      "summary": "CLI を使わないメンバーを含むチームに Claude Code を配ることになり、配布用の settings.json を設計しました。この記事は、その設定を deny / ask / allow のどこに何を置いたか、なぜそうしたかを…"
-    },
-    {
-      "id": "d72b2e9e45be",
-      "title": "いよいよ学習開始。pix2pixに「ペア画像」を食わせる｜医療AI・実践編 ⑥🌆",
-      "url": "https://zenn.dev/voxelworks_jp/articles/2eea4bc8132e0b",
-      "publishedAt": "2026-08-06T01:30:20.000Z",
-      "publisher": "VoxelWorks",
-      "summary": "この回でやること 前回（第5回）は、誰かが学習させ終えた「借り物のモデル」を借りてきて、昼の写真を夜に変換しました。動きはしたものの、出来はちょっと物足りなかったですよね。 https://zenn.dev/voxelworks_jp/a…"
-    },
-    {
-      "id": "3eb21a70d8a6",
-      "title": "Claude Codeのようなエージェントをゼロから作る",
-      "url": "https://zenn.dev/sun_asterisk/articles/f5514175aa0a0a",
-      "publishedAt": "2026-08-06T01:17:33.000Z",
-      "publisher": "グエン・タイ・ゴック",
-      "summary": "はじめに GitHubで70kを超えるスターがついている shareAI-lab/learn-claude-code を、全20章読みました。 このリポジトリは、Claude Codeのような「エージェントハーネス」（agent harn…"
-    },
-    {
-      "id": "4c17a28cce29",
-      "title": "同じ日に2本作って同時に投稿する — 「既知性」と「実務密度」のどちらが効くかを試す（#22/#23 投稿前予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr2223-ab-prediction",
-      "publishedAt": "2026-08-06T01:00:08.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外のTech Talkを日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜10本のクリップを作り、投稿する前に「どれが伸びるか」を予測してファイルに保存しています。あとで実測と突き合わ…"
-    },
-    {
-      "id": "e7ee4d79a40f",
-      "title": "AI導入で変わったのは実装速度ではなく、開発プロセスだった",
-      "url": "https://zenn.dev/mediba/articles/babe1e148658a3",
-      "publishedAt": "2026-08-06T01:00:05.000Z",
-      "publisher": "horippy",
-      "summary": "はじめに 最近は、AIエージェントを開発に取り入れる事例をよく見かけるようになりました。 私たちのチームでも、比較的規模の大きいシステム刷新プロジェクトでAIエージェントを本格的に導入し、約2か月実際の開発で活用しています。 導入前に期待…"
-    },
-    {
-      "id": "a5c984fd7946",
-      "title": "AIをどう使うかで、学びの残り方は変わる",
-      "url": "https://zenn.dev/rasshii/articles/ai-coding-skill-formation",
-      "publishedAt": "2026-08-06T00:51:58.000Z",
-      "publisher": "らっしー",
-      "summary": "はじめに（結論） 「AIを使って開発した日の終わりに、自分が書いたコードの中身を思い出せない」— この感覚を裏付ける複数の実証研究が報告されています。 無作為化比較試験（RCT）で確認されている事実は以下の1点です。 【学びを目的とした課…"
     }
   ],
-  "fetchedAt": "2026-08-06T12:18:45.035Z",
+  "fetchedAt": "2026-08-06T14:52:48.797Z",
   "stale": false,
   "error": null
 }

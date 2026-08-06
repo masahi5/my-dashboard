@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.05102",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Long-horizon search agents must make multiple sequential actions (steps) to search, retrieve, verify, and integrate evi…",
-      "score": 48
+      "score": 51
     },
     {
       "id": "4cf746df386a",
@@ -19,15 +19,7 @@
       "url": "https://huggingface.co/papers/2608.03764",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Agent self-evolution updates an agent's persistent state from prior experience and reuses it to solve related tasks mor…",
-      "score": 19
-    },
-    {
-      "id": "ccf97820d301",
-      "title": "AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities",
-      "url": "https://huggingface.co/papers/2607.24821",
-      "publishedAt": "2026-07-17T00:00:00.000Z",
-      "summary": "While instruction-based video editing has advanced rapidly, real-world videos contain tightly coupled audio and visual …",
-      "score": 14
+      "score": 21
     },
     {
       "id": "002c526d0d9b",
@@ -35,15 +27,15 @@
       "url": "https://huggingface.co/papers/2608.02580",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Learning generalizable robot manipulation policies requires large-scale and diverse demonstration data. Egocentric huma…",
-      "score": 14
+      "score": 16
     },
     {
-      "id": "89d1b2016a30",
-      "title": "Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance",
-      "url": "https://huggingface.co/papers/2608.00782",
-      "publishedAt": "2026-08-01T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language m…",
-      "score": 9
+      "id": "ccf97820d301",
+      "title": "AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities",
+      "url": "https://huggingface.co/papers/2607.24821",
+      "publishedAt": "2026-07-17T00:00:00.000Z",
+      "summary": "While instruction-based video editing has advanced rapidly, real-world videos contain tightly coupled audio and visual …",
+      "score": 15
     },
     {
       "id": "c5187d1d25e2",
@@ -51,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.04530",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "GUI agents must remember both useful experience from earlier tasks and unfinished progress in the current interaction. …",
-      "score": 8
+      "score": 9
     },
     {
       "id": "cfdae364f0c0",
@@ -59,15 +51,7 @@
       "url": "https://huggingface.co/papers/2608.04505",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "This technical report presents K-EXAONE 2.0, an open-weight multilingual foundation model developed by LG AI Research a…",
-      "score": 7
-    },
-    {
-      "id": "86de5c8924eb",
-      "title": "BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation",
-      "url": "https://huggingface.co/papers/2608.05042",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Leveraging pre-trained vision-language models (VLMs) to construct vision-language-action (VLA) models has emerged as a …",
-      "score": 6
+      "score": 9
     },
     {
       "id": "15020c703511",
@@ -78,12 +62,28 @@
       "score": 5
     },
     {
+      "id": "34ac9671adb1",
+      "title": "Lossless Tensor Compression as Program Synthesis",
+      "url": "https://huggingface.co/papers/2608.02162",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Model checkpoints are growing in both number and size, which makes archival, transfer, and deployment increasingly cost…",
+      "score": 4
+    },
+    {
       "id": "f4f8615265df",
       "title": "Consistency-Driven Co-Evolution for Self-Supervised Cross-Representation Learning",
       "url": "https://huggingface.co/papers/2608.04926",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "As chart images, tabular data, and visualization code play increasingly important roles across diverse domains, cross-r…",
       "score": 4
+    },
+    {
+      "id": "e2b0a34292b3",
+      "title": "Self-Evolving Coding Agents",
+      "url": "https://huggingface.co/papers/2608.03392",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Large language models are increasingly embedded in software engineering workflows as coding agents that can inspect rep…",
+      "score": 2
     },
     {
       "id": "339145912a01",
@@ -94,15 +94,15 @@
       "score": 1
     },
     {
-      "id": "e2b0a34292b3",
-      "title": "Self-Evolving Coding Agents",
-      "url": "https://huggingface.co/papers/2608.03392",
+      "id": "13f88e1f1b6f",
+      "title": "Resume Means Resume: A Machine-Checked Conformance Contract for Checkpoint, Interrupt, and Resume Semantics in Workflow Persistence Layers",
+      "url": "https://huggingface.co/papers/2608.03836",
       "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Large language models are increasingly embedded in software engineering workflows as coding agents that can inspect rep…",
+      "summary": "A framework that persists execution state so a run can be interrupted, survive a crash, and continue must decide what a…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-06T12:18:44.893Z",
+  "fetchedAt": "2026-08-06T14:52:48.653Z",
   "stale": false,
   "error": null
 }
