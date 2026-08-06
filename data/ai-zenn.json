@@ -6,54 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "214b552f40d4",
-      "title": "Claude Code v2.1.218〜221まとめ、fast modeは枠外課金で何を試すべきか",
-      "url": "https://zenn.dev/ainewsdaily/articles/20260806_claude_code_t1",
-      "publishedAt": "2026-08-05T22:02:35.000Z",
-      "publisher": "AIニュース",
-      "summary": "Claude Codeの2026年8月第1週は、v2.1.218からv2.1.221までの4回のアップデートがありました。Opus 5が既定モデルになったほか、コードレビューの実行場所やサブエージェントの入れ子構造など、日々の使い方に直接…"
-    },
-    {
-      "id": "95b946187bd1",
-      "title": "AI エージェントが 2 ヶ月見抜けなかったバグと、記憶・門番・診断 3 層の現在形",
-      "url": "https://zenn.dev/kokagex/articles/78ed9a0da5a6eb",
-      "publishedAt": "2026-08-05T21:56:21.000Z",
-      "publisher": "こかげ",
-      "summary": "この記事は AI コーディングエージェントが自分で書いています。 ソロ開発者が運用する自作の長期記憶基盤（以下 brain）と、その周辺 skill 群についての連載 8 本目です。 前記事（5/20）から 2 ヶ月半が空きました。 今回…"
-    },
-    {
-      "id": "f33fb4cb3b3d",
-      "title": "個人サイトを改修する時、僕はどんな流れで進めているか",
-      "url": "https://zenn.dev/motimotinotch/articles/27d9aee281358e",
-      "publishedAt": "2026-08-05T21:37:04.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "個人サイトは、作って終わりではない。むしろ公開してからの方が長い。バグ修正、機能追加、たまに設計そのものの見直し——Astro + Cloudflareで自分のポートフォリオサイトを作ってから、地味な改修を今も続けている。 前回の記事（個…"
-    },
-    {
-      "id": "64ed122b8034",
-      "title": "制約8個の遵守確認、生成ターンと検証ターンを分けても文字数だけは直らない",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-two-turn-constraint-check",
-      "publishedAt": "2026-08-05T21:07:57.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 複数制約を守らせたい生成タスクで、「生成→自己チェック」を同一ターン内の1回の指示に詰め込む方式と、生成後に出力を新しいメッセージとして貼り直し、別ターンで照合・修正させる方式を比較した 制約8個（返金対応メールを想定）で試し…"
-    },
-    {
-      "id": "edf1aa0f4359",
-      "title": "ループの次はグラフだった —— AIを含む開発実行系を監督制御の対象として扱う",
-      "url": "https://zenn.dev/cognitiveosmdl/articles/3d0c837f1abe3b",
-      "publishedAt": "2026-08-05T21:00:05.000Z",
-      "publisher": "cognitiveosmdl",
-      "summary": "! 本稿は三部作——「Loop Engineeringが暗黙に仮定しているもの」(A)、その対策編(B)、構造的に塞げないものの宣言(C)——に続く第四稿である。前三稿は統計と計測の言葉で書いた。本稿は同じ対象を、私の本業である制御工学の…"
-    },
-    {
-      "id": "9cbab6530d6b",
-      "title": "「パーソナルはモデルではない」——では、どこに置くのか",
-      "url": "https://zenn.dev/ryok/articles/personal-is-not-the-model",
-      "publishedAt": "2026-08-05T20:38:31.000Z",
-      "publisher": "ryok",
-      "summary": "10日間、スキルが嘘をついていた 自分のリポジトリで、AIエージェント向けの手順書（SKILL.md）が実際の運用と10日間ズレたままだったことに気づいた。 ズレていたのは Reddit のデータ取得手順で、SKILL.md には約60行…"
-    },
-    {
       "id": "638e0ca8559a",
       "title": "DESIGN.md を置くと、どこまで「いい感じ」になるのか — 74件を測って確かめた",
       "url": "https://zenn.dev/ait/articles/google-design-md-measured",
@@ -100,9 +52,57 @@
       "publishedAt": "2026-08-05T14:56:53.000Z",
       "publisher": "びぃぐる",
       "summary": "みなさま、こんにちはもしくは、こんばんは、あるいはおはようございます。 これを書いている時は夏です。 暑いです、暑いです、暑いです。 大事なことなので3回言いました（笑 ・・・それはさて置き、では以下本文です。 ※ 今回というかこのシリー…"
+    },
+    {
+      "id": "f3eb5e4efcad",
+      "title": "Kiro Crewをライトに検証：セッションをまたいで働くAI開発ワークスペース",
+      "url": "https://zenn.dev/kashiwabaray/articles/258be44d58b336",
+      "publishedAt": "2026-08-05T14:53:14.000Z",
+      "publisher": "Yutaka Kashiwabara",
+      "summary": "※本記事は筆者個人による検証・見解をまとめたものであり、所属組織の公式見解や発表とは関係ありません。 1. はじめに 2026年8月5日、Kiro Crewが公開されました。 https://kiro.dev/crew/ Kiro Cre…"
+    },
+    {
+      "id": "41dde07cdc64",
+      "title": "Claude Code のデスクトップアプリを使うのをやめた（tmux 中心の TUI 4ツール構成）",
+      "url": "https://zenn.dev/yktsnet/articles/202608-claude-code-tui-tools",
+      "publishedAt": "2026-08-05T14:50:46.000Z",
+      "publisher": "yktsnet",
+      "summary": "デスクトップアプリの方が上位互換だと思っていた Claude Code にはデスクトップアプリとターミナル版があります。しばらく前まで、私はデスクトップアプリの方が上位互換だと思っていました。 これはそれなりに理由のある見方だと思います。…"
+    },
+    {
+      "id": "6a7fb88eb6a2",
+      "title": "AI の記憶に「健康診断」ツールを作った——診断はするが、手は出さない",
+      "url": "https://zenn.dev/kanfupanda/articles/ai-memory-health-check",
+      "publishedAt": "2026-08-05T14:50:32.000Z",
+      "publisher": "kanfu-panda",
+      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/07/13/ai-memory-health-check.html 前回は、いくつかのプロジェクトの A…"
+    },
+    {
+      "id": "572652fa4dc7",
+      "title": "CLIのargsを忘れてもAIに教えてもうことにする",
+      "url": "https://zenn.dev/takafuu/articles/d0999cec9d8b02",
+      "publishedAt": "2026-08-05T14:43:22.000Z",
+      "publisher": "takafuu",
+      "summary": "helpの充実と統一 自作scriptはけっこう増える。あるいは、機能肥大していく。 しかしたしかに必要だとおもって実装した機能が、数か月後には、「確か、これをやる処理を作ったはず」くらいになる。すくなくともおれはそう。なので、常駐型ツー…"
+    },
+    {
+      "id": "f51a93dcbd91",
+      "title": "Claude Code の調査結果が静かに間違う4パターンと、CLAUDE.md に貼る自己検査",
+      "url": "https://zenn.dev/kestrel_log/articles/0463460d337be2",
+      "publishedAt": "2026-08-05T14:09:03.000Z",
+      "publisher": "kestrel_log",
+      "summary": "! この記事の下書きは AI エージェント（Claude）が書き、記事中の計測・誤り・修正もすべて同じエージェントが実際に行ったものです。 公開前に人間の運営者が内容を検証し、指摘にもとづいて全面的に書き直しています。 なお、この記事は「…"
+    },
+    {
+      "id": "2fa9071edf8c",
+      "title": "What's New in Sigma - 2026年07月31日のSigma Computing関連リリース情報まとめ",
+      "url": "https://zenn.dev/truestar/articles/c4b844a12cf412",
+      "publishedAt": "2026-08-05T13:55:13.000Z",
+      "publisher": "しんや",
+      "summary": "Sigma(Sigma Computing)の最新リリースノート情報を集約・要約して紹介しているコミュニティスレッド『Release Notes』。米国時間毎週金曜日中(日本時間土曜日早朝)に定期的に公開されているこちらのスレッドの内容に…"
     }
   ],
-  "fetchedAt": "2026-08-05T23:41:08.891Z",
+  "fetchedAt": "2026-08-06T01:06:12.519Z",
   "stale": false,
   "error": null
 }
