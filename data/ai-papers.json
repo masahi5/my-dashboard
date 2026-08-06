@@ -6,36 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "a0c795a1f463",
-      "title": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
-      "url": "https://huggingface.co/papers/2608.04570",
+      "id": "9a335ad2af24",
+      "title": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
+      "url": "https://huggingface.co/papers/2608.05102",
       "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Personalized LLMs with persistent memory are increasingly deployed, yet the faithfulness of their user models remains u…",
-      "score": 30
-    },
-    {
-      "id": "0ef6aa4ad26c",
-      "title": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
-      "url": "https://huggingface.co/papers/2608.05013",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "LLM agents are increasingly applied to open-ended everyday requests that span work, study, and life. These tasks are lo…",
-      "score": 17
-    },
-    {
-      "id": "a90bd85c83a6",
-      "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2608.03632",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "On-Policy distillation (OPD) transfers teacher capabilities by supervising student-sampled trajectories with dense toke…",
-      "score": 14
-    },
-    {
-      "id": "ccf97820d301",
-      "title": "AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities",
-      "url": "https://huggingface.co/papers/2607.24821",
-      "publishedAt": "2026-07-17T00:00:00.000Z",
-      "summary": "While instruction-based video editing has advanced rapidly, real-world videos contain tightly coupled audio and visual …",
-      "score": 9
+      "summary": "Long-horizon search agents must make multiple sequential actions (steps) to search, retrieve, verify, and integrate evi…",
+      "score": 42
     },
     {
       "id": "4cf746df386a",
@@ -43,7 +19,15 @@
       "url": "https://huggingface.co/papers/2608.03764",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Agent self-evolution updates an agent's persistent state from prior experience and reuses it to solve related tasks mor…",
-      "score": 8
+      "score": 19
+    },
+    {
+      "id": "ccf97820d301",
+      "title": "AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities",
+      "url": "https://huggingface.co/papers/2607.24821",
+      "publishedAt": "2026-07-17T00:00:00.000Z",
+      "summary": "While instruction-based video editing has advanced rapidly, real-world videos contain tightly coupled audio and visual …",
+      "score": 14
     },
     {
       "id": "002c526d0d9b",
@@ -51,6 +35,22 @@
       "url": "https://huggingface.co/papers/2608.02580",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Learning generalizable robot manipulation policies requires large-scale and diverse demonstration data. Egocentric huma…",
+      "score": 13
+    },
+    {
+      "id": "89d1b2016a30",
+      "title": "Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance",
+      "url": "https://huggingface.co/papers/2608.00782",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language m…",
+      "score": 9
+    },
+    {
+      "id": "c5187d1d25e2",
+      "title": "FocusMem: Factorizing Content, Readout, and Trust in Latent GUI Memory",
+      "url": "https://huggingface.co/papers/2608.04530",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "GUI agents must remember both useful experience from earlier tasks and unfinished progress in the current interaction. …",
       "score": 8
     },
     {
@@ -59,7 +59,7 @@
       "url": "https://huggingface.co/papers/2608.04964",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Interactive video world models are essential for long-horizon planning and exploration, yet they suffer from compoundin…",
-      "score": 3
+      "score": 7
     },
     {
       "id": "cfdae364f0c0",
@@ -67,7 +67,7 @@
       "url": "https://huggingface.co/papers/2608.04505",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "This technical report presents K-EXAONE 2.0, an open-weight multilingual foundation model developed by LG AI Research a…",
-      "score": 2
+      "score": 6
     },
     {
       "id": "86de5c8924eb",
@@ -75,15 +75,7 @@
       "url": "https://huggingface.co/papers/2608.05042",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Leveraging pre-trained vision-language models (VLMs) to construct vision-language-action (VLA) models has emerged as a …",
-      "score": 2
-    },
-    {
-      "id": "89d1b2016a30",
-      "title": "Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance",
-      "url": "https://huggingface.co/papers/2608.00782",
-      "publishedAt": "2026-08-01T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language m…",
-      "score": 1
+      "score": 6
     },
     {
       "id": "15020c703511",
@@ -91,7 +83,7 @@
       "url": "https://huggingface.co/papers/2608.05108",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Prompt injection poses significant security risks to LLM agents. Efficient and effective red-teaming is therefore criti…",
-      "score": 0
+      "score": 5
     },
     {
       "id": "f4f8615265df",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2608.04926",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "As chart images, tabular data, and visualization code play increasingly important roles across diverse domains, cross-r…",
+      "score": 4
+    },
+    {
+      "id": "e2b0a34292b3",
+      "title": "Self-Evolving Coding Agents",
+      "url": "https://huggingface.co/papers/2608.03392",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Large language models are increasingly embedded in software engineering workflows as coding agents that can inspect rep…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-06T07:20:35.845Z",
+  "fetchedAt": "2026-08-06T10:07:45.991Z",
   "stale": false,
   "error": null
 }
