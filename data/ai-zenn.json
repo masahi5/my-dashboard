@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9c6c10a43a9f",
-      "title": "Anthropic公式プラグイン「code-review」でPRレビューを自動化する",
-      "url": "https://zenn.dev/shirochan/articles/4bfdcf3ebd7176",
-      "publishedAt": "2026-08-06T09:02:58.000Z",
-      "publisher": "しろちゃん",
-      "summary": "はじめに Pull Request のレビューは時間がかかります。大きな変更ほど見落としが増え、レビュアーによって観点にばらつきも出ます。 code-review は、そこを補うプラグインです。コマンド1つで複数のエージェントが並列でPR…"
+      "id": "cc40b004c3a5",
+      "title": "exit code 0を成功判定に使わないジョブ設計 - テスト設計",
+      "url": "https://zenn.dev/kmn/articles/3a1c44590cf572",
+      "publishedAt": "2026-08-06T02:34:09.000Z",
+      "publisher": "KMN KMN",
+      "summary": "exit code 0を成功判定に使わないジョブ設計 - テスト設計 自動処理は、スケジュール登録だけでは安定しません。ラッパーが正常終了しても、業務上の結果は保留・部分完了・公開失敗かもしれません。 この記事では「テスト設計」の観点から…"
     },
     {
-      "id": "2f7c5b056170",
-      "title": "イベント2日間のために、週末だけ1ヶ月・実働20時間未満でAI4コマ漫画アプリを作ってみた",
-      "url": "https://zenn.dev/optimisuke/articles/e9d1ac3bd47482",
-      "publishedAt": "2026-08-06T08:54:30.000Z",
-      "publisher": "Naosuke",
-      "summary": "はじめに テックルズで、経済産業省こどもデー(7/29・7/30)向けに4コマ漫画生成アプリ「どやねん.ai!」を作りました。人が1コマ目と3コマ目を描いて、AIが2コマ目と4コマ目を描くアプリです。 イベントが終わったので、そろそろこの…"
+      "id": "4cceb7d29ba2",
+      "title": "AIでテスト観点を100個出せる時代。65個「削れるか」がテスト設計力だ",
+      "url": "https://zenn.dev/bitkey_dev/articles/claude-viewpoint-subtraction",
+      "publishedAt": "2026-08-06T02:30:05.000Z",
+      "publisher": "日下部 聡久",
+      "summary": "<!-- コンセプト 「テスト観点が書けない」記事の続編かつAI実践編。Claudeにテスト観点を網羅的に出させて、人間が「何をテストしないか」を判断する。足し算はAI、引き算は人間。この分業がテスト設計スキルの核心。 想定読者 テスト観…"
     },
     {
-      "id": "9494dbaf00ae",
-      "title": "一生使える自分専用のAIベンチマークを作った — 差が出たのは「賢さ」ではなかった",
-      "url": "https://zenn.dev/miki_mini/articles/5d55f9056ac3ea",
-      "publishedAt": "2026-08-06T08:00:05.000Z",
-      "publisher": "miki-mini",
-      "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は AIの実力差が公開ベンチマークで分からない なら 一生使える自分専用のベンチマークを作ればいいじゃない 👸🍰です。 読了時間の目安：約 18〜22分（結果だ…"
+      "id": "3b8f8a36dada",
+      "title": "写真が眠らない動画になる。AIで作る「見せる素材」の作り方",
+      "url": "https://zenn.dev/savielyamiani/articles/72bf9fd6a9736d",
+      "publishedAt": "2026-08-06T02:26:30.000Z",
+      "publisher": "savielvideo",
+      "summary": "動画制作をしていると、「素材はあるのに、動画にする時間がない」ということがよくあります。旅行写真、商品の画像、キャラクターのラフ。どれも使えそうなのに、編集画面を開いた瞬間に手が止まる。 今回は、写真を動画にまとめる際に使うphoto v…"
     },
     {
-      "id": "9c80dc1314a6",
-      "title": "AIエージェントにスキーマ変更を委ねるための設計原則",
-      "url": "https://zenn.dev/gyu07/articles/a0f3640c6643cd",
-      "publishedAt": "2026-08-06T07:39:59.000Z",
-      "publisher": "遠藤 崇史 | ROUTE06",
-      "summary": "! 本記事は、dev.toに公開した\"Designing Schema Boundaries for AI Agents \"の日本語翻訳版です。 Claude CodeやCodexのようなAIエージェントに「accounts に plan…"
+      "id": "f0275bdd12c5",
+      "title": "PerplexityライクなQ&Aエージェントを個人開発アプリに組み込んだ——スケール時に実行モデルをどう変えるか",
+      "url": "https://zenn.dev/yook/articles/qa-agent-scaling-execution-model",
+      "publishedAt": "2026-08-06T01:58:40.000Z",
+      "publisher": "yook",
+      "summary": "はじめに 外部のウェブ検索と、アプリケーション内で事前にAI分析した独自の内部記事を組み合わせ、出典付きの回答を返す——そんな「PerplexityライクなQ&Aエージェント」を、個人開発している海外テックニュース収集・分析アプリ『Vec…"
     },
     {
-      "id": "00757f8d76e4",
-      "title": "MiniMax H3をWaveSpeed APIで呼ぶ：3入力とPollingの実装",
-      "url": "https://zenn.dev/kiritani_r/articles/15d02fee8894ff",
-      "publishedAt": "2026-08-06T07:15:13.000Z",
-      "publisher": "ハク（Haku）",
-      "summary": "TL;DR Text-to-Video、Image-to-Video、Reference-to-Videoは、POSTでpredictionを作り、結果URLをpollingするところまで共通です。 まずはText-to-VideoかIm…"
+      "id": "aa521f4284f9",
+      "title": "PerplexityライクなQ&Aエージェントを個人開発アプリに組み込んだ——6つの工程に分けた設計の工夫",
+      "url": "https://zenn.dev/yook/articles/qa-agent-six-stage-design",
+      "publishedAt": "2026-08-06T01:58:03.000Z",
+      "publisher": "yook",
+      "summary": "はじめに 外部のウェブ検索と、アプリケーション内で事前にAI分析した独自の内部記事を組み合わせ、出典付きの回答を返す——そんな「PerplexityライクなQ&Aエージェント」を、個人開発している海外テックニュース収集・分析アプリ『Vec…"
     },
     {
-      "id": "7bef2151feb6",
-      "title": "AIにプロジェクト全体のコードを書かせる「RACG」入門 — サーベイ論文を読み解く",
-      "url": "https://zenn.dev/hiroki_curio/articles/racg-repo-level-codegen-survey",
-      "publishedAt": "2026-08-06T07:00:05.000Z",
-      "publisher": "HASHIMOTO Hiroki",
-      "summary": "AIは1つの関数は書けても、プロジェクト全体は苦手 ChatGPT や Claude にコードを書かせたことがある人なら、こんな実感があるはずです。1つの関数、1つのファイルなら、驚くほどいいコードを出してくれる。でも「このプロジェクト全…"
+      "id": "bb91a4a2667f",
+      "title": "最近の開発プロンプト",
+      "url": "https://zenn.dev/henohenon/articles/current-prompt",
+      "publishedAt": "2026-08-06T01:53:59.000Z",
+      "publisher": "へのへのん",
+      "summary": "本体 真面目にドキュメント整備してたらクッソ思想強いものができて面白かったのでアウトプット。 シンプルとジェネリック好きすぎる。 補足 SSOT この考え方が正しいのかはイマイチわかってない。コード/コメントすべてを常に最新かつ最適な形と…"
     },
     {
-      "id": "b28a5e1a6949",
-      "title": "DHHのRails Doctrineを、大AIエージェント時代に読み直したら今こそぶっ刺さる思想だったぞ",
-      "url": "https://zenn.dev/dely_jp/articles/15459f9e99ddb7",
-      "publishedAt": "2026-08-06T06:58:39.000Z",
-      "publisher": "たろう眼鏡",
-      "summary": "こんにちは、エスカレーターの右側（関西では左側）で最初に止まる人は英雄です。たろう眼鏡です。私は普段クラシル株式会社でレシチャレやうさポというアプリのサーバーサイドの開発を担当しております。 ところで先日、Rails Doctrineを読…"
+      "id": "f203f06fc45b",
+      "title": "Claude Code をチームに配るときの settings.json — deny / ask / allow をどう引いたか",
+      "url": "https://zenn.dev/tikuwaman/articles/claude-code-team-settings-json",
+      "publishedAt": "2026-08-06T01:35:15.000Z",
+      "publisher": "ちくわマン",
+      "summary": "CLI を使わないメンバーを含むチームに Claude Code を配ることになり、配布用の settings.json を設計しました。この記事は、その設定を deny / ask / allow のどこに何を置いたか、なぜそうしたかを…"
     },
     {
-      "id": "2195b4a565ef",
-      "title": "【Day 20】ローカルAI vs クラウドAI。猫の写真1枚を10種類の動画AIで動かしてみた",
-      "url": "https://zenn.dev/saetag/articles/day20-video-showdown",
-      "publishedAt": "2026-08-06T06:51:10.000Z",
-      "publisher": "SAETAG",
-      "summary": "【Day 20】ローカルAI vs クラウドAI。猫の写真1枚を10種類の動画AIで動かしてみた はじめに 【Day 20】です！ 写真を1枚渡すと数秒の動画にしてくれるAIを、10種類用意しました。半分はローカル、半分はクラウドです🐱…"
+      "id": "d72b2e9e45be",
+      "title": "いよいよ学習開始。pix2pixに「ペア画像」を食わせる｜医療AI・実践編 ⑥🌆",
+      "url": "https://zenn.dev/voxelworks_jp/articles/2eea4bc8132e0b",
+      "publishedAt": "2026-08-06T01:30:20.000Z",
+      "publisher": "VoxelWorks",
+      "summary": "この回でやること 前回（第5回）は、誰かが学習させ終えた「借り物のモデル」を借りてきて、昼の写真を夜に変換しました。動きはしたものの、出来はちょっと物足りなかったですよね。 https://zenn.dev/voxelworks_jp/a…"
     },
     {
-      "id": "3f2d96bb3b2c",
-      "title": "AIガバナンスを現場で回すための書籍4選——「方針だけ決めて終わり」を脱却する",
-      "url": "https://zenn.dev/koukyo/articles/20260806_ai_governance_books_4",
-      "publishedAt": "2026-08-06T06:25:05.000Z",
-      "publisher": "Koukyo",
-      "summary": "はじめに 去年、自分のチームでLLMを使った社内文書の要約機能をリリースした。精度検証もやったし、利用ガイドラインも作った。それでも半年後に起きたのは「要約が微妙に事実と違う内容を含んでいて、それがそのまま顧客向け報告書に転記された」とい…"
+      "id": "3eb21a70d8a6",
+      "title": "Claude Codeのようなエージェントをゼロから作る",
+      "url": "https://zenn.dev/sun_asterisk/articles/f5514175aa0a0a",
+      "publishedAt": "2026-08-06T01:17:33.000Z",
+      "publisher": "グエン・タイ・ゴック",
+      "summary": "はじめに GitHubで70kを超えるスターがついている shareAI-lab/learn-claude-code を、全20章読みました。 このリポジトリは、Claude Codeのような「エージェントハーネス」（agent harn…"
     },
     {
-      "id": "cf41ab2c1520",
-      "title": "How HuMo AI Changed the Way I Write Video Scripts",
-      "url": "https://zenn.dev/emilyjones/articles/839967966b989f",
-      "publishedAt": "2026-08-06T06:14:53.000Z",
-      "publisher": "emilyjones1217",
-      "summary": "For a long time, I believed that better AI videos came from better visuals. I spent hours experimenting with different …"
+      "id": "4c17a28cce29",
+      "title": "同じ日に2本作って同時に投稿する — 「既知性」と「実務密度」のどちらが効くかを試す（#22/#23 投稿前予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr2223-ab-prediction",
+      "publishedAt": "2026-08-06T01:00:08.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事は何か 海外のTech Talkを日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜10本のクリップを作り、投稿する前に「どれが伸びるか」を予測してファイルに保存しています。あとで実測と突き合わ…"
     },
     {
-      "id": "37cfc5b0d47a",
-      "title": "AIエージェントに「エンジニアの心構え」を大量に教え込んだら、仕事の質はどう変わったか",
-      "url": "https://zenn.dev/tomu_coelia/articles/ai-agent-engineer-mindset",
-      "publishedAt": "2026-08-06T06:10:54.000Z",
-      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
-      "summary": "AIエージェントのシステムプロンプトには、ふつう「何をするか」を書きます。私たちはそこに「どういうエンジニアであるべきか」を大量に書きました。 この記事は、20代向けコミュニティ「Coelia」の運営基盤（Webサービス・HP・コンテンツ…"
+      "id": "e7ee4d79a40f",
+      "title": "AI導入で変わったのは実装速度ではなく、開発プロセスだった",
+      "url": "https://zenn.dev/mediba/articles/babe1e148658a3",
+      "publishedAt": "2026-08-06T01:00:05.000Z",
+      "publisher": "horippy",
+      "summary": "はじめに 最近は、AIエージェントを開発に取り入れる事例をよく見かけるようになりました。 私たちのチームでも、比較的規模の大きいシステム刷新プロジェクトでAIエージェントを本格的に導入し、約2か月実際の開発で活用しています。 導入前に期待…"
     },
     {
-      "id": "0e9b7c9c135f",
-      "title": "MiniMax-H3をM3 Ultra 512GBで実測：音つき5秒動画を35分で生成",
-      "url": "https://zenn.dev/noricha/articles/minimax-h3-m3-ultra-benchmark",
-      "publishedAt": "2026-08-06T05:31:11.000Z",
-      "publisher": "のりちゃん",
-      "summary": "MiniMax-H3をApple M3 Ultra / 512GBのMac Studioで動かしました。 先に結果を書くと、1344×768、124フレーム、30ステップの音声つき動画をローカルで生成できました。APIの待ち時間は2089…"
+      "id": "a5c984fd7946",
+      "title": "AIをどう使うかで、学びの残り方は変わる",
+      "url": "https://zenn.dev/rasshii/articles/ai-coding-skill-formation",
+      "publishedAt": "2026-08-06T00:51:58.000Z",
+      "publisher": "らっしー",
+      "summary": "はじめに（結論） 「AIを使って開発した日の終わりに、自分が書いたコードの中身を思い出せない」— この感覚を裏付ける複数の実証研究が報告されています。 無作為化比較試験（RCT）で確認されている事実は以下の1点です。 【学びを目的とした課…"
     }
   ],
-  "fetchedAt": "2026-08-06T10:07:46.129Z",
+  "fetchedAt": "2026-08-06T12:18:45.035Z",
   "stale": false,
   "error": null
 }
