@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "6f045f465444",
-      "title": "Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements",
-      "url": "https://huggingface.co/papers/2607.28661",
-      "publishedAt": "2026-07-22T00:00:00.000Z",
-      "summary": "Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching?…",
-      "score": 10
+      "id": "a0c795a1f463",
+      "title": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
+      "url": "https://huggingface.co/papers/2608.04570",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "Personalized LLMs with persistent memory are increasingly deployed, yet the faithfulness of their user models remains u…",
+      "score": 25
     },
     {
-      "id": "4e8158e14864",
-      "title": "RestoreKV: Recovering Full-Cache Behavior Under Aggressive Query-Agnostic KV Cache Eviction",
-      "url": "https://huggingface.co/papers/2608.01247",
-      "publishedAt": "2026-08-02T00:00:00.000Z",
-      "summary": "Query-agnostic KV cache eviction compresses a context once and reuses the resulting cache for arbitrary future queries,…",
+      "id": "0ef6aa4ad26c",
+      "title": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
+      "url": "https://huggingface.co/papers/2608.05013",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "LLM agents are increasingly applied to open-ended everyday requests that span work, study, and life. These tasks are lo…",
+      "score": 15
+    },
+    {
+      "id": "a90bd85c83a6",
+      "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2608.03632",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "On-Policy distillation (OPD) transfers teacher capabilities by supervising student-sampled trajectories with dense toke…",
+      "score": 13
+    },
+    {
+      "id": "8636aac57179",
+      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+      "url": "https://huggingface.co/papers/2608.05139",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, s…",
+      "score": 9
+    },
+    {
+      "id": "9ab4bb8c1616",
+      "title": "When Memory Lies: An Empirical Study of Spatial Memory Staleness in VLM Agents",
+      "url": "https://huggingface.co/papers/2608.04574",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "Memory-augmented VLM agents act on persistent spatial knowledge, yet that knowledge silently goes stale as the environm…",
       "score": 6
     },
     {
-      "id": "cedc90501906",
-      "title": "Know When to Stop: Segment-Level Credit Assignment for Reducing Overthinking",
-      "url": "https://huggingface.co/papers/2607.00482",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Reasoning language models frequently overthink: generating extended chains of behaviors such as hedging, approach aband…",
-      "score": 4
-    },
-    {
-      "id": "d865bf06a040",
-      "title": "ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads",
-      "url": "https://huggingface.co/papers/2608.02703",
+      "id": "002c526d0d9b",
+      "title": "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data",
+      "url": "https://huggingface.co/papers/2608.02580",
       "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Weight-only quantization substantially reduces the storage of large language model (LLM) transformer blocks, but practi…",
+      "summary": "Learning generalizable robot manipulation policies requires large-scale and diverse demonstration data. Egocentric huma…",
       "score": 4
     },
     {
-      "id": "8f5d49fbce77",
-      "title": "When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings",
-      "url": "https://huggingface.co/papers/2608.03994",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows float…",
-      "score": 4
-    },
-    {
-      "id": "fa2e95fd356d",
-      "title": "LegalPincite: Multi-level Legal Information Retrieval Dataset",
-      "url": "https://huggingface.co/papers/2608.03756",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "A common task in legal Information Retrieval (IR) is to find relevant legal sources from case-law collections. While le…",
+      "id": "a8568951fcd4",
+      "title": "WorldCycle: Self-Verifiable Reinforcement Learning for Long-Horizon Video World Models",
+      "url": "https://huggingface.co/papers/2608.04964",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "Interactive video world models are essential for long-horizon planning and exploration, yet they suffer from compoundin…",
       "score": 3
     },
     {
-      "id": "094f7356722c",
-      "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
-      "url": "https://huggingface.co/papers/2608.02791",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, preserved dialogue ability, …",
-      "score": 3
-    },
-    {
-      "id": "f33994c96010",
-      "title": "Multi-Task Multi-Frame Visual Piano Transcription",
-      "url": "https://huggingface.co/papers/2608.03419",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Audio-based piano transcription performs well on onset, pitch, and velocity, but the sustain pedal lets sound persist l…",
-      "score": 3
-    },
-    {
-      "id": "debbf44a287f",
-      "title": "When Many Answers Are Valid, Voting Fails: Symbolic Verification for Best-of-K Causal Reasoning in LLMs",
-      "url": "https://huggingface.co/papers/2608.03506",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Self-consistency assumes the most frequent answer among sampled reasoning traces is the most reliable, but this can fai…",
+      "id": "86de5c8924eb",
+      "title": "BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation",
+      "url": "https://huggingface.co/papers/2608.05042",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "Leveraging pre-trained vision-language models (VLMs) to construct vision-language-action (VLA) models has emerged as a …",
       "score": 2
     },
     {
-      "id": "aeb0b5b78bf2",
-      "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
-      "url": "https://huggingface.co/papers/2608.03972",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large l…",
-      "score": 2
-    },
-    {
-      "id": "3b0aefe304fc",
-      "title": "ChronoLens: Measuring Language Change Across Time, Languages, and Linguistic Levels",
-      "url": "https://huggingface.co/papers/2608.03507",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Historical language change affects morphology, syntax, semantics, and pragmatics, yet computational studies typically e…",
+      "id": "cfdae364f0c0",
+      "title": "K-EXAONE 2.0 Technical Report",
+      "url": "https://huggingface.co/papers/2608.04505",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "This technical report presents K-EXAONE 2.0, an open-weight multilingual foundation model developed by LG AI Research a…",
       "score": 1
     },
     {
-      "id": "ca6173a1b3e8",
-      "title": "CURV: Enhancing Chart Understanding Through Curriculum Visual Grounded Reasoning",
-      "url": "https://huggingface.co/papers/2608.02833",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Chart question answering (CQA) requires multimodal large language models (MLLMs) to integrate visual comprehension with…",
+      "id": "89d1b2016a30",
+      "title": "Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance",
+      "url": "https://huggingface.co/papers/2608.00782",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language m…",
+      "score": 1
+    },
+    {
+      "id": "15020c703511",
+      "title": "Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming",
+      "url": "https://huggingface.co/papers/2608.05108",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "Prompt injection poses significant security risks to LLM agents. Efficient and effective red-teaming is therefore criti…",
+      "score": 0
+    },
+    {
+      "id": "f4f8615265df",
+      "title": "Consistency-Driven Co-Evolution for Self-Supervised Cross-Representation Learning",
+      "url": "https://huggingface.co/papers/2608.04926",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "As chart images, tabular data, and visualization code play increasingly important roles across diverse domains, cross-r…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-06T01:06:12.381Z",
+  "fetchedAt": "2026-08-06T04:30:25.564Z",
   "stale": false,
   "error": null
 }
