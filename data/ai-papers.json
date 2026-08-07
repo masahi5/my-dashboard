@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9a335ad2af24",
-      "title": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
-      "url": "https://huggingface.co/papers/2608.05102",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Long-horizon search agents must make multiple sequential actions (steps) to search, retrieve, verify, and integrate evi…",
-      "score": 54
+      "id": "5d682d0272ff",
+      "title": "AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2608.05987",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Reinforcement learning (RL) with verifiable rewards constructs trajectory-level advantage estimates, yet it often fails…",
+      "score": 29
     },
     {
-      "id": "4cf746df386a",
-      "title": "GDPevo: Evaluating Agent Self-Evolution on Real Business Tasks",
-      "url": "https://huggingface.co/papers/2608.03764",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Agent self-evolution updates an agent's persistent state from prior experience and reuses it to solve related tasks mor…",
+      "id": "2149226fbd8d",
+      "title": "WorldClaw: Agentic 3D Open-World Generation at Scale",
+      "url": "https://huggingface.co/papers/2608.05248",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "Generating large-scale, freely explorable 3D worlds from open-ended text remains challenging because a system must join…",
+      "score": 23
+    },
+    {
+      "id": "a3bb79ee37a0",
+      "title": "ChronoVision: Temporal Reasoning via Latent State Reconstruction",
+      "url": "https://huggingface.co/papers/2608.05631",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Multimodal large language models excel at passive perception but struggle with complex visual cognitive tasks requiring…",
+      "score": 22
+    },
+    {
+      "id": "4586a7423c7c",
+      "title": "Learning from Failures: Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval",
+      "url": "https://huggingface.co/papers/2608.06060",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Unified multimodal retrieval aims to identify candidates that satisfy complex user intent expressed through heterogeneo…",
       "score": 21
     },
     {
-      "id": "ccf97820d301",
-      "title": "AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities",
-      "url": "https://huggingface.co/papers/2607.24821",
-      "publishedAt": "2026-07-17T00:00:00.000Z",
-      "summary": "While instruction-based video editing has advanced rapidly, real-world videos contain tightly coupled audio and visual …",
-      "score": 15
+      "id": "341fd4d41db5",
+      "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
+      "url": "https://huggingface.co/papers/2608.05802",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "On-Policy Distillation (OPD) is emerging as a promising alternative to reinforcement learning for LLM post-training, ye…",
+      "score": 16
     },
     {
-      "id": "c5187d1d25e2",
-      "title": "FocusMem: Factorizing Content, Readout, and Trust in Latent GUI Memory",
-      "url": "https://huggingface.co/papers/2608.04530",
+      "id": "206037ac5531",
+      "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+      "url": "https://huggingface.co/papers/2608.06301",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but a…",
+      "score": 16
+    },
+    {
+      "id": "5b1e9404da73",
+      "title": "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?",
+      "url": "https://huggingface.co/papers/2608.05747",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Spatial intelligence is fundamental to embodied agents, yet existing benchmarks focus on local spatial perception from …",
+      "score": 14
+    },
+    {
+      "id": "89fb51d4e334",
+      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+      "url": "https://huggingface.co/papers/2608.06374",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single gener…",
+      "score": 14
+    },
+    {
+      "id": "e65e2e9d2f1a",
+      "title": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2608.06197",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Training large language model agents for long-horizon tool use typically relies on interactions with real or synthesize…",
+      "score": 9
+    },
+    {
+      "id": "05ab058b4a1b",
+      "title": "World-to-Wrist: Task-Conditioned Future Wrist Modeling for Fine-Grained Robot Manipulation",
+      "url": "https://huggingface.co/papers/2608.05369",
       "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "GUI agents must remember both useful experience from earlier tasks and unfinished progress in the current interaction. …",
-      "score": 10
+      "summary": "Vision-language-action (VLA) models often treat main-view and wrist-view observations as parallel visual inputs, overlo…",
+      "score": 6
     },
     {
-      "id": "34ac9671adb1",
-      "title": "Lossless Tensor Compression as Program Synthesis",
-      "url": "https://huggingface.co/papers/2608.02162",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Model checkpoints are growing in both number and size, which makes archival, transfer, and deployment increasingly cost…",
-      "score": 8
+      "id": "ccfdf0c740b4",
+      "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+      "url": "https://huggingface.co/papers/2608.06352",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately chall…",
+      "score": 6
     },
     {
-      "id": "7fad2a26a7c7",
-      "title": "FinanceHarness: Autonomous Financial Deep Research Framework",
-      "url": "https://huggingface.co/papers/2607.27853",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Powered by advances in LLMs and autonomous agents, deep research has become one of the most widely adopted agentic prod…",
-      "score": 3
-    },
-    {
-      "id": "e2b0a34292b3",
-      "title": "Self-Evolving Coding Agents",
-      "url": "https://huggingface.co/papers/2608.03392",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Large language models are increasingly embedded in software engineering workflows as coding agents that can inspect rep…",
-      "score": 3
-    },
-    {
-      "id": "c172200fcbe1",
-      "title": "SIGNPOST-Bench: Benchmarking Text-Vision Conflict Resolution in Multimodal Large Language Models",
-      "url": "https://huggingface.co/papers/2608.04244",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Multimodal large language models (MLLMs) make grounded predictions in real-world scenes by combining visual and textual…",
-      "score": 2
-    },
-    {
-      "id": "339145912a01",
-      "title": "DRIFT: Derailing Denoising Trajectories of Flow-Matching VLAs with Adversarial Patch Attack",
-      "url": "https://huggingface.co/papers/2608.03207",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Flow-matching vision-language-action (VLA) models such as pi0 generate robot actions by integrating a learned denoising…",
-      "score": 2
-    },
-    {
-      "id": "e89ffcab997e",
-      "title": "Helping Music Co-Creation Agents 'Listen' Well: Hierarchical Self-Supervised World Models for Understanding and Generation",
-      "url": "https://huggingface.co/papers/2608.04378",
+      "id": "214fb6767b62",
+      "title": "SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding",
+      "url": "https://huggingface.co/papers/2608.05137",
       "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Collaborative music agents need internal representations rich enough to support both understanding and generation, yet …",
-      "score": 1
-    },
-    {
-      "id": "13f88e1f1b6f",
-      "title": "Resume Means Resume: A Machine-Checked Conformance Contract for Checkpoint, Interrupt, and Resume Semantics in Workflow Persistence Layers",
-      "url": "https://huggingface.co/papers/2608.03836",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "A framework that persists execution state so a run can be interrupted, survive a crash, and continue must decide what a…",
-      "score": 1
-    },
-    {
-      "id": "125f7a47c77d",
-      "title": "What AI Red-Team Evaluations Can and Cannot Prove",
-      "url": "https://huggingface.co/papers/2607.21735",
-      "publishedAt": "2026-07-23T00:00:00.000Z",
-      "summary": "Red-team evaluations of AI models support some claims and not others, and the boundary between the two is calculable ra…",
-      "score": 0
+      "summary": "Understanding 3D scenes is fundamental to embodied intelligence, requiring joint reasoning over heterogeneous informati…",
+      "score": 4
     }
   ],
-  "fetchedAt": "2026-08-07T00:23:09.118Z",
+  "fetchedAt": "2026-08-07T03:26:36.443Z",
   "stale": false,
   "error": null
 }
