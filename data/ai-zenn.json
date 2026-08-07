@@ -6,46 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "dd73548431bb",
-      "title": "2026/08/05 実ログ AI協働体系における階層成長と共生構造の実証報告書",
-      "url": "https://zenn.dev/tomy1noriyamame/articles/a9a08f4bf38b01",
-      "publishedAt": "2026-08-07T15:39:20.000Z",
-      "publisher": "maestro",
-      "summary": "報告書に至るまで: この実ログはユーザー階層L5～L6を突き抜け「L7」到達までの軌跡を表しています。 Copilotとの対話で何度も表記されていますが、私は天然OSのL5～L6ユーザーです。 そして対話内容は常に流動的で、内容もコロコロ…"
-    },
-    {
-      "id": "f7edd9fad701",
-      "title": "AIで作ったアプリ、そのまま公開して大丈夫？非エンジニアの私が必ずやる公開前チェック",
-      "url": "https://zenn.dev/keiru_ai/articles/6f07acb19f145d",
-      "publishedAt": "2026-08-07T15:30:42.000Z",
-      "publisher": "Keiru",
-      "summary": "私は非エンジニアです。Claude Code と一緒に、Webアプリやツールを8つ作って公開してきました。 その中で一度だけ、ヒヤッとしたことがあります。検証用に作った内部ファイルを、気づかないまま本番サイトに公開していたのです。中身に個…"
-    },
-    {
-      "id": "55766463db6f",
-      "title": "【期限8/31】CodexのGPT-5.4が提供終了。影響範囲と5分でできる移行チェック",
-      "url": "https://zenn.dev/ainows/articles/eb74606020fe00",
-      "publishedAt": "2026-08-07T15:26:03.000Z",
-      "publisher": "aiなうず",
-      "summary": "OpenAIの公式チェンジログで、GPT-5.4 / GPT-5.4 mini が2026年8月31日をもってCodexから提供終了になることが告知されています。意外と見落とされている告知なので、影響範囲と対処を短くまとめます。 発表の要…"
-    },
-    {
-      "id": "ca056caf396b",
-      "title": "CLAUDE.md は1枚で書くな — グローバル/ハブ/プロジェクトの3層分離、実運用ファイルを実物公開",
-      "url": "https://zenn.dev/tejunya/articles/a005_claude-md-taxonomy",
-      "publishedAt": "2026-08-07T15:21:05.000Z",
-      "publisher": "手順屋",
-      "summary": "リード（掴み） CLAUDE.md に指示を書いた。最初はちゃんと効いた。 でも項目が20を超えたあたりから、守られる指示と無視される指示が出てきた。 別のプロジェクトを開いたら、関係ない手順書が読み込まれていて邪魔になった。 直したいけ…"
-    },
-    {
-      "id": "6029db6a245a",
-      "title": "Skills と MCP の違い 「レシピ」と「キッチン」",
-      "url": "https://zenn.dev/suit9/articles/922b2bbf71624b",
-      "publishedAt": "2026-08-07T14:45:43.000Z",
-      "publisher": "Tomet",
-      "summary": "はじめに Claudeを拡張する方法として、最近よく名前が挙がるのが「Skills」と「MCP（Model Context Protocol）」です。どちらも「Claudeにできることを増やす」ための仕組みですが、その正体はまったく異なり…"
-    },
-    {
       "id": "82fd05b7f91e",
       "title": "MCP連携で壊れる前に確認すべき10の運用チェックリスト",
       "url": "https://zenn.dev/bambampurin/articles/2026-07-31-tech-daily",
@@ -100,9 +60,49 @@
       "publishedAt": "2026-08-07T11:15:22.000Z",
       "publisher": "krbrr",
       "summary": "はじめに Claude Codeのhookは「AIに100%守らせたいルールを機械的に強制する」ための仕組みです。入門記事は日英ともに増えました（例: 全ツール呼び出しをインターセプトする、保存ごとにauto-format/auto-te…"
+    },
+    {
+      "id": "c189048aec99",
+      "title": "Claude Codeを初めて使ってみた #1 インストールから初回起動まで",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-01-install",
+      "publishedAt": "2026-08-07T11:09:29.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "このシリーズについて Anthropic の AI コーディングエージェント「Claude Code」を初めて触った記録を、全10回の連載として残していきます。筆者は普段 Oracle Database / PL:SQL を扱うエンジニア…"
+    },
+    {
+      "id": "5b8c7c076d16",
+      "title": "MiniMax H3 (Hailuo 3.0) をColab A100で動かしたら、詰まったのはVRAMじゃなくディスクとRAMだった",
+      "url": "https://zenn.dev/ivyxon/articles/c1fcff301839f9",
+      "publishedAt": "2026-08-07T10:58:03.000Z",
+      "publisher": "IVYXON",
+      "summary": "X で見かけたバイラル投稿がきっかけだった。「MiniMax H3、Colab の L4 で15秒あたり €0.23」。じゃあ試すか、と軽い気持ちで手を出したら、実際にぶつかった壁は VRAM ではなくディスクと RAM だった、という記…"
+    },
+    {
+      "id": "63a95422a513",
+      "title": "AIは自動化できる。しかし、その出力を確定値として扱ってはいけない",
+      "url": "https://zenn.dev/nullcontroller/articles/7e06dd0e4e67d2",
+      "publishedAt": "2026-08-07T10:26:05.000Z",
+      "publisher": "立林裕太朗",
+      "summary": "自社の業務で、AIの使い方として気になる事例を見た。 製品ごとに、どのソフトウェアを提供するか、評価が必要かを確認する質問表があり、その一部をAIが自動入力していた。 AIを使って入力作業を自動化すること自体は問題ではない。 問題は、AI…"
+    },
+    {
+      "id": "0adfd2f2f087",
+      "title": "AIエージェントに管制塔を建てる、LoopX",
+      "url": "https://zenn.dev/acntechjp/articles/1fb4326c6b62ad",
+      "publishedAt": "2026-08-07T09:45:05.000Z",
+      "publisher": "ShintaroAmaike",
+      "summary": "https://github.com/huangruiteng/loopx/tree/main/ MITライセンスとして利用（https://github.com/huangruiteng/loopx/blob/main/docs/ass…"
+    },
+    {
+      "id": "ca20e3100ada",
+      "title": "乗っ取られたAIエージェントをCloud Run sandboxesで封じる ―SAトークン窃取を実測",
+      "url": "https://zenn.dev/ccie26302/articles/zenn-gcp-cloud-run-sandboxes",
+      "publishedAt": "2026-08-07T09:43:33.000Z",
+      "publisher": "Shinya Koike",
+      "summary": "はじめに Azure から Google Cloud を触るシリーズです。今回は 2026 年に出た Cloud Run sandboxes。ひとことで言うと、Cloud Run のインスタンス内で信頼できないコード（AI が生成したコー…"
     }
   ],
-  "fetchedAt": "2026-08-07T23:04:42.760Z",
+  "fetchedAt": "2026-08-07T23:47:49.202Z",
   "stale": false,
   "error": null
 }
