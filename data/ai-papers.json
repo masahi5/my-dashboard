@@ -11,15 +11,15 @@
       "url": "https://huggingface.co/papers/2608.05987",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Reinforcement learning (RL) with verifiable rewards constructs trajectory-level advantage estimates, yet it often fails…",
-      "score": 45
+      "score": 49
     },
     {
-      "id": "2149226fbd8d",
-      "title": "WorldClaw: Agentic 3D Open-World Generation at Scale",
-      "url": "https://huggingface.co/papers/2608.05248",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Generating large-scale, freely explorable 3D worlds from open-ended text remains challenging because a system must join…",
-      "score": 34
+      "id": "b51af722bfa5",
+      "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+      "url": "https://huggingface.co/papers/2607.28609",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actio…",
+      "score": 36
     },
     {
       "id": "e65e2e9d2f1a",
@@ -27,23 +27,15 @@
       "url": "https://huggingface.co/papers/2608.06197",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Training large language model agents for long-horizon tool use typically relies on interactions with real or synthesize…",
-      "score": 25
+      "score": 26
     },
     {
-      "id": "341fd4d41db5",
-      "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
-      "url": "https://huggingface.co/papers/2608.05802",
+      "id": "a9d7e7980f94",
+      "title": "From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models",
+      "url": "https://huggingface.co/papers/2608.06020",
       "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "On-Policy Distillation (OPD) is emerging as a promising alternative to reinforcement learning for LLM post-training, ye…",
-      "score": 18
-    },
-    {
-      "id": "5b1e9404da73",
-      "title": "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?",
-      "url": "https://huggingface.co/papers/2608.05747",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Spatial intelligence is fundamental to embodied agents, yet existing benchmarks focus on local spatial perception from …",
-      "score": 15
+      "summary": "Economic World Models (EWMs) are generative economic models that simulate how economies evolve from within by modeling …",
+      "score": 19
     },
     {
       "id": "05ab058b4a1b",
@@ -51,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.05369",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Vision-language-action (VLA) models often treat main-view and wrist-view observations as parallel visual inputs, overlo…",
-      "score": 13
+      "score": 14
     },
     {
       "id": "ccfdf0c740b4",
@@ -62,20 +54,12 @@
       "score": 10
     },
     {
-      "id": "b51af722bfa5",
-      "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
-      "url": "https://huggingface.co/papers/2607.28609",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actio…",
-      "score": 7
-    },
-    {
       "id": "66ea505fb314",
       "title": "PaDoc: Layout-Grounded Parallel Decoding for Document Parsing",
       "url": "https://huggingface.co/papers/2608.06146",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "End-to-end document parsers provide a unified interface, but serialize page layouts and regional contents into one auto…",
-      "score": 6
+      "score": 8
     },
     {
       "id": "214fb6767b62",
@@ -83,14 +67,22 @@
       "url": "https://huggingface.co/papers/2608.05137",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Understanding 3D scenes is fundamental to embodied intelligence, requiring joint reasoning over heterogeneous informati…",
-      "score": 6
+      "score": 8
     },
     {
-      "id": "4e98fcc54761",
-      "title": "Invisible Shortcuts: Why Vision Encoders Know Your Camera",
-      "url": "https://huggingface.co/papers/2608.05424",
+      "id": "d7d9f1a132cf",
+      "title": "ContextMaster: Interactive Multi-Shot Video Creation via Fixed-Budget Sparse Context Routing",
+      "url": "https://huggingface.co/papers/2608.04956",
       "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Deep vision models exploit shortcuts, relying on cues that correlate with supervision signals. Prior work has focused o…",
+      "summary": "Recent video models increasingly support generation, reference conditioning, and editing within a single model, yet typ…",
+      "score": 3
+    },
+    {
+      "id": "88e9ccc63db3",
+      "title": "MASS: Multiplayer World Models with Authoritative Shared State",
+      "url": "https://huggingface.co/papers/2608.06257",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Current video world models struggle in multiplayer environments because they entangle world state with view-dependent v…",
       "score": 2
     },
     {
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2608.05565",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Video object removal must eliminate not only the target object but also its induced effects while maintaining high-fide…",
-      "score": 1
+      "score": 2
+    },
+    {
+      "id": "4e98fcc54761",
+      "title": "Invisible Shortcuts: Why Vision Encoders Know Your Camera",
+      "url": "https://huggingface.co/papers/2608.05424",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "Deep vision models exploit shortcuts, relying on cues that correlate with supervision signals. Prior work has focused o…",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-08-07T06:34:04.130Z",
+  "fetchedAt": "2026-08-07T07:59:17.449Z",
   "stale": false,
   "error": null
 }
