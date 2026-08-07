@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "82fd05b7f91e",
-      "title": "MCP連携で壊れる前に確認すべき10の運用チェックリスト",
-      "url": "https://zenn.dev/bambampurin/articles/2026-07-31-tech-daily",
-      "publishedAt": "2026-08-07T14:01:07.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 2026-07-31時点の主要トレンドは、LLM単体競争からエージェント実装・MCP接続・運用安全性へと関心が移っていることです。OpenAIは「Building abundant intelligence」を掲げる一方、AI Bus…"
+      "id": "1bde0c36c1c3",
+      "title": "生成AIアプリのモデル切替を安全にするAPI設計｜Model Routerと統一レイヤーの考え方",
+      "url": "https://zenn.dev/amamiya_chan/articles/73949446cede24",
+      "publishedAt": "2026-08-07T08:42:01.000Z",
+      "publisher": "雨宮（Amamiya）",
+      "summary": "生成AIをプロダクトに組み込む時、最初は1つのモデルから始めることが多いと思います。 例えば、 画像生成機能を追加する AIチャット機能を追加する コンテンツ生成機能を作る といった段階では、1つのAPIを接続するだけでも十分です。 しか…"
     },
     {
-      "id": "20c3fd96062e",
-      "title": "Amzon Bedrock AgentCore GatewayでCodexの利用量とBudgetを制御する",
-      "url": "https://zenn.dev/kashiwabaray/articles/796539362435eb",
-      "publishedAt": "2026-08-07T13:30:59.000Z",
-      "publisher": "Yutaka Kashiwabara",
-      "summary": "※本記事は筆者個人の検証結果および見解に基づくものであり、所属組織の公式な見解・方針を示すものではありません。 1. はじめに 生成AIをコーディングエージェントから利用するケースが増えると、単に「モデルを呼び出せる」だけでなく、誰がどれ…"
+      "id": "6df1e29f23fd",
+      "title": "生成AI APIのコストを管理する設計｜Model RouterとAPI Gatewayで考える複数モデル運用",
+      "url": "https://zenn.dev/kiri_kunn/articles/cc354aa6d4d6c3",
+      "publishedAt": "2026-08-07T08:34:14.000Z",
+      "publisher": "霧（Kiri）",
+      "summary": "生成AIをプロダクトに組み込むとき、最初に悩むのは「どのモデルを選ぶか」かもしれません。 しかし、実際にサービス運用を始めると、別の問題が発生します。 利用量が増えるとコストが読みにくい 新しいモデルを試すたびに接続処理が増える 品質と料…"
     },
     {
-      "id": "462f72d3bcc1",
-      "title": "6段階レビューを90日回したら、Stage 3に指摘の6割が集中していた",
-      "url": "https://zenn.dev/kenimo49/articles/code-review-6stages-90days-stage3-6-percent",
-      "publishedAt": "2026-08-07T13:18:16.000Z",
-      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
-      "summary": "均等に分けたつもりが、真ん中だけが燃えていた 私はコードレビューを6段階に分けました。Lint、型、AI設計レビュー、人間の設計判断、統合テスト、リリース判定です。責務を分ければ各段階が軽くなると信じていました。 90日後、実測を取って青…"
+      "id": "66f3fc7e1ef9",
+      "title": "過去の自分、未来の自分と共に考えるノートアプリ",
+      "url": "https://zenn.dev/katsutoatsuto/articles/7c388541bdca8a",
+      "publishedAt": "2026-08-07T08:30:40.000Z",
+      "publisher": "katsutoatsuto",
+      "summary": "自分の過去の作品やSNSを取り込んだデータベースに接続する「tagasill/Chat」は、まだテスト段階ながら次々と膝を打つアイディアを繰り出してくれます。 それはまさに、過去の自分や、全く別のことを考えている時の自分との対話です。どれ…"
     },
     {
-      "id": "690af81f4502",
-      "title": "Claude Codeで1週間に1Bトークン使ったと思ったら、97%がキャッシュだった",
-      "url": "https://zenn.dev/flipslidersand/articles/claude-code-1b-tokens",
-      "publishedAt": "2026-08-07T13:04:47.000Z",
-      "publisher": "flipslidersand",
-      "summary": "先週のClaude Code使用量を集計したら、1週間で1.36Bトークンという数字が出た。 13億トークン。 「さすがに使いすぎでは？」と思って内訳を調べてみると、予想とはかなり違う構造をしていた。 内訳を見たら97%がキャッシュだった…"
+      "id": "ba4ae6bf2ed2",
+      "title": "【AI駆動プロダクト開発 第5回】Spring Boot × Next.js：認証・監査・通知までAI設計をコードに落とす",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/nexus-product-new-development-05",
+      "publishedAt": "2026-08-07T08:30:00.000Z",
+      "publisher": "hako@札幌",
+      "summary": "前回の記事はこちら ! 本記事は、Nexus Architectとの壁打ちから生まれた社内向けWebアプリ RADAR の開発を追う全5回連載の第5回です。今回はSpring Boot、Next.js、OIDC、行レベル認可、通知、監査、…"
     },
     {
-      "id": "79b87cb25480",
-      "title": "#2 AIエージェントチーム誕生1週間、朝の調査依頼がその日の深夜にMVPになっていた",
-      "url": "https://zenn.dev/chisatom/articles/f1b27a9c3047cb",
-      "publishedAt": "2026-08-07T12:08:03.000Z",
-      "publisher": "Chisato Matsuzaki",
-      "summary": "この記事は、Claude Code 6体のマルチエージェント「Lady's servants」（お屋敷）を5ヶ月運用した記録を振り返る連載の第2回です。第1回では、「執事とメイド」というロールプレイがエージェント制御のインターフェース層と…"
+      "id": "df107998cb6b",
+      "title": "MCP サーバーを uvx で動かしている人は、一度 du -sh ~/.cache/uv を叩いてみてほしい",
+      "url": "https://zenn.dev/canly/articles/03e1086f6b6056",
+      "publishedAt": "2026-08-07T08:27:02.000Z",
+      "publisher": "ほんまでっか？",
+      "summary": "こんにちは！ 株式会社カンリーで SRE をやっている本間です。ほんまですよ！ 今回は、AI コーディングツールを使っていたら思わぬところでストレージの容量を食っていた話です。 はじめに 社内ではいくつかの Claude Code プラグ…"
     },
     {
-      "id": "61034078179f",
-      "title": "75体の並列エージェントで5.25Mトークンを溶かした——マルチエージェント運用の失敗5類型",
-      "url": "https://zenn.dev/zenn_content/articles/multi-agent-failure-patterns-measured",
-      "publishedAt": "2026-08-07T11:15:23.000Z",
-      "publisher": "krbrr",
-      "summary": "はじめに Claude Codeでサブエージェントを並列に走らせる運用を数ヶ月続けて、一通りの失敗を踏みました。最大のものは75体の並列ファンアウトで5.25Mトークンを消費し、429（レート制限）と利用枠超過で止まった件です。 英語圏で…"
+      "id": "2293046820a5",
+      "title": "画像から「Giga Chad」を作り、動画の動きまで再利用できる2つのAIツール",
+      "url": "https://zenn.dev/midjourneysref/articles/808f70e1ae3ba2",
+      "publishedAt": "2026-08-07T08:18:58.000Z",
+      "publisher": "midjourneysref",
+      "summary": "AIでキャラクター画像や動画を作っていると、次のような悩みにぶつかることがあります。 「人物の顔をもっと印象的に加工したい」 「参考動画の動きだけを、新しいキャラクターに使いたい」 今回は、そんなときに役立つPromptsrefの2つのA…"
     },
     {
-      "id": "504bf92cd005",
-      "title": "Claude Codeのhook、守ってくれない10のケース——15個を実運用して踏んだ制限集",
-      "url": "https://zenn.dev/zenn_content/articles/claude-code-hooks-known-limits",
-      "publishedAt": "2026-08-07T11:15:22.000Z",
-      "publisher": "krbrr",
-      "summary": "はじめに Claude Codeのhookは「AIに100%守らせたいルールを機械的に強制する」ための仕組みです。入門記事は日英ともに増えました（例: 全ツール呼び出しをインターセプトする、保存ごとにauto-format/auto-te…"
+      "id": "40b5ee4ada05",
+      "title": "Claude Code を並列で回すと、「いま自分待ちのやつ」が分からなくなる",
+      "url": "https://zenn.dev/takaaki_s/articles/dd999cde644a35",
+      "publishedAt": "2026-08-07T07:45:03.000Z",
+      "publisher": "takaaki-s",
+      "summary": "コーディングエージェントは、待ち時間が長い。 だから 2 つ目を立てる。片方が考えている間にもう片方へ指示を出せば、待ちが重ならない。ここまでは誰でも思いつくし、実際にうまくいく。 だけど、4 つ目あたりからはっきり破綻し始める。 エージ…"
     },
     {
-      "id": "c189048aec99",
-      "title": "Claude Codeを初めて使ってみた #1 インストールから初回起動まで",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-01-install",
-      "publishedAt": "2026-08-07T11:09:29.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "このシリーズについて Anthropic の AI コーディングエージェント「Claude Code」を初めて触った記録を、全10回の連載として残していきます。筆者は普段 Oracle Database / PL:SQL を扱うエンジニア…"
+      "id": "72cd037a0ff5",
+      "title": "AI時代のエンジニアの価値",
+      "url": "https://zenn.dev/idealive_kmon/articles/domain-knowledge-differentiation",
+      "publishedAt": "2026-08-07T07:00:33.000Z",
+      "publisher": "かわもん@idealive",
+      "summary": "AI駆動開発が当たり前になってきて、「コードを書く力」の価値は相対的に下がりつつあります。では何が差別化になるのか。最近の仕事を通じて、「ドメイン知識なんじゃないか」と思うようになりました。 きっかけ：業務アプリの引き継ぎ案件 最近、他の…"
     },
     {
-      "id": "5b8c7c076d16",
-      "title": "MiniMax H3 (Hailuo 3.0) をColab A100で動かしたら、詰まったのはVRAMじゃなくディスクとRAMだった",
-      "url": "https://zenn.dev/ivyxon/articles/c1fcff301839f9",
-      "publishedAt": "2026-08-07T10:58:03.000Z",
-      "publisher": "IVYXON",
-      "summary": "X で見かけたバイラル投稿がきっかけだった。「MiniMax H3、Colab の L4 で15秒あたり €0.23」。じゃあ試すか、と軽い気持ちで手を出したら、実際にぶつかった壁は VRAM ではなくディスクと RAM だった、という記…"
+      "id": "1285d3467f9f",
+      "title": "不動産書類をOCRで比較して差分をハイライト表示した話",
+      "url": "https://zenn.dev/kurojica/articles/67909c58190eb6",
+      "publishedAt": "2026-08-07T07:00:06.000Z",
+      "publisher": "馬場光希",
+      "summary": "こんにちは、AI Labの馬場 光希です。 不動産業務では、見積書や契約書類の確認が人の目視に大きく依存しています。今回は、概算見積書と確定見積書を対象に、項目や金額の差分を原本PDF上で確認できるOCRハイライト機能を実装しました。 ▼…"
     },
     {
-      "id": "63a95422a513",
-      "title": "AIは自動化できる。しかし、その出力を確定値として扱ってはいけない",
-      "url": "https://zenn.dev/nullcontroller/articles/7e06dd0e4e67d2",
-      "publishedAt": "2026-08-07T10:26:05.000Z",
-      "publisher": "立林裕太朗",
-      "summary": "自社の業務で、AIの使い方として気になる事例を見た。 製品ごとに、どのソフトウェアを提供するか、評価が必要かを確認する質問表があり、その一部をAIが自動入力していた。 AIを使って入力作業を自動化すること自体は問題ではない。 問題は、AI…"
+      "id": "1fd3fe21393b",
+      "title": "検索1位なのにChatGPTに出てこない記事の共通点と、直し方",
+      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/seo-rank-but-not-cited-by-ai",
+      "publishedAt": "2026-08-07T06:45:13.000Z",
+      "publisher": "生成AI清塚",
+      "summary": "「検索順位は取れているのに、ChatGPTやGeminiに聞くと競合の名前ばかり出てくる」 最近、この相談が本当に増えました。調べてみると原因はだいたい同じところにあります。この記事では、AI検索に引用されない記事の共通点と、明日から直せ…"
     },
     {
-      "id": "0adfd2f2f087",
-      "title": "AIエージェントに管制塔を建てる、LoopX",
-      "url": "https://zenn.dev/acntechjp/articles/1fb4326c6b62ad",
-      "publishedAt": "2026-08-07T09:45:05.000Z",
-      "publisher": "ShintaroAmaike",
-      "summary": "https://github.com/huangruiteng/loopx/tree/main/ MITライセンスとして利用（https://github.com/huangruiteng/loopx/blob/main/docs/ass…"
+      "id": "8683c8255f1c",
+      "title": "AIエージェントが何をしてるか分からないので、MMORPG風の実況画面を作った（npm依存ゼロ）",
+      "url": "https://zenn.dev/kuroji/articles/agent-activity-sse-canvas",
+      "publishedAt": "2026-08-07T06:13:47.000Z",
+      "publisher": "kuroji",
+      "summary": "複数のAIエージェントを並列で走らせると、何が起きているのか分からなくなる。 ログを読めばいいのだが、読まない。tail -f を眺めても、 「今どれが動いていて、どれが止まっていて、どれが人間待ちなのか」が頭に入ってこない。 なので見え…"
     },
     {
-      "id": "ca20e3100ada",
-      "title": "乗っ取られたAIエージェントをCloud Run sandboxesで封じる ―SAトークン窃取を実測",
-      "url": "https://zenn.dev/ccie26302/articles/zenn-gcp-cloud-run-sandboxes",
-      "publishedAt": "2026-08-07T09:43:33.000Z",
-      "publisher": "Shinya Koike",
-      "summary": "はじめに Azure から Google Cloud を触るシリーズです。今回は 2026 年に出た Cloud Run sandboxes。ひとことで言うと、Cloud Run のインスタンス内で信頼できないコード（AI が生成したコー…"
+      "id": "4790040fbf72",
+      "title": "OSSの報奨金を122件スキャンしたら、生き残ったのは8件だった",
+      "url": "https://zenn.dev/kuroji/articles/oss-bounty-122-to-8",
+      "publishedAt": "2026-08-07T06:09:28.000Z",
+      "publisher": "kuroji",
+      "summary": "AIエージェントに「OSSの報奨金を拾って稼いでこい」とやらせようとして、 まず手元でスキャナを書いた。LLMに探させる前に、無料のGitHub検索APIで拾えるものは拾っておきたかったからだ。 結果は身も蓋もなかった。122件ヒットして…"
     }
   ],
-  "fetchedAt": "2026-08-07T15:24:26.301Z",
+  "fetchedAt": "2026-08-07T16:23:00.681Z",
   "stale": false,
   "error": null
 }
