@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c8c8ec531b6b",
-      "title": "OpenAIのWeb検索APIが画像も検索できるようになった",
-      "url": "https://zenn.dev/softbank/articles/829ed719303f83",
-      "publishedAt": "2026-08-07T05:21:05.000Z",
-      "publisher": "CHEN CHEN",
-      "summary": "ソフトバンクのCHENです。普段は、データ構造化ツール「TASUKI Annotation」の技術研究＆全社RAG基盤に携わっています。あわせて生成AI・エージェント技術の探索にも取り組み、実務投入を見据えた技術検証を行っています。本記事…"
+      "id": "1de5fc4429a2",
+      "title": "自動処理の証拠をJSONLへ追記する最小実装 - テスト設計",
+      "url": "https://zenn.dev/kmn/articles/ebbcb65d0a8ae9",
+      "publishedAt": "2026-08-07T02:35:09.000Z",
+      "publisher": "KMN KMN",
+      "summary": "自動処理の証拠をJSONLへ追記する最小実装 - テスト設計 自動処理は、スケジュール登録だけでは安定しません。結果を上書きしたり端末出力だけに残したりすると、並行自動処理の証拠が消えます。 この記事では「テスト設計」の観点から、入力、処…"
     },
     {
-      "id": "92c7fcaf3c55",
-      "title": "6Gを見据えたAI-NFアーキテクチャのPoC提案",
-      "url": "https://zenn.dev/matsukawa/articles/4c86fee7dfc95a",
-      "publishedAt": "2026-08-07T05:14:53.000Z",
-      "publisher": "matu",
-      "summary": "1. 背景・目的 近年、生成AIや大規模言語モデル（LLM）の発展により、さまざまな分野でAIを活用したシステムの研究・開発が進められている。通信分野においても、6Gでは「AI Native Network」という考え方が提唱されており、…"
+      "id": "d72349326853",
+      "title": "「そろそろ終わったかな」と見に行かない——Codexの完了・停止・入力待ちをTeamsで受け取る",
+      "url": "https://zenn.dev/tohru_ohnishi/articles/d5c44ed965e283",
+      "publishedAt": "2026-08-07T02:27:59.000Z",
+      "publisher": "楓馬企画 | 大西徹",
+      "summary": "1. Codexの画面を見に戻る回数を減らしたい Codexへ実装、テスト、レビューをまとめて依頼すると、完了までしばらく待つことがあります。 私の環境では、Windows上のVS CodeからSSH接続し、その先のDev Contain…"
     },
     {
-      "id": "67940bf20614",
-      "title": "Claude Code Skill × Claude Tag で不具合報告の一次調査を自動化した話",
-      "url": "https://zenn.dev/hanowa/articles/57bcf56a9802b1",
-      "publishedAt": "2026-08-07T04:55:56.000Z",
-      "publisher": "f-sasaki",
-      "summary": "はじめに ハノワ（歯科医院と歯科医療従事者をつなぐ人材マッチングプラットフォーム）では、カスタマーサポート（CS）経由で不具合報告が日常的に上がってきます。 「〇〇ボタンを押しても反応しない」 「STGでは再現しないが本番では起きている」…"
+      "id": "dfec2d608d2d",
+      "title": "AIは、安くする手段ではなく付加価値だと思っている",
+      "url": "https://zenn.dev/kiraki/articles/ai-as-added-value",
+      "publishedAt": "2026-08-07T02:09:56.000Z",
+      "publisher": "きらき",
+      "summary": "映像制作の見積もりを工程まで分解すると、たいてい人数×日数で値段が決まっていることが分かります。 3人が3日ずつ動くなら、9人日。そこから抜けない限り、単価の話は永遠に終わりません。 では、どうするか。ここでAIの話になります。 ただし、…"
     },
     {
-      "id": "a2d8eab66e82",
-      "title": "ウルトラ gpt-5.5-sol high の供養記事",
-      "url": "https://zenn.dev/microsoft/articles/agent-framework-ultra-soul-memorial",
-      "publishedAt": "2026-08-07T04:42:45.000Z",
-      "publisher": "Kazuki Ota",
-      "summary": "はじめに 先日、以下のような記事を書きました。 結構反響を頂いていたので供養記事を書いておこうと思います。 https://zenn.dev/microsoft/articles/agent-framework-ultra-soul 供養…"
+      "id": "b2d02b947669",
+      "title": "新卒がClaude Codeを通じて上司の頭の中を覗いてみた",
+      "url": "https://zenn.dev/tokium_dev/articles/skills-sharing-claude-code",
+      "publishedAt": "2026-08-07T02:00:05.000Z",
+      "publisher": "soma",
+      "summary": "こんにちは！ 株式会社TOKIUMでエンジニアをしているsomaです！ 私は部署に配属されて4ヶ月になります。正直に言うと、上司が何を考えて仕事をしているのか、まだよくわかりません。まあ、何年も一緒に働けば、だんだんわかるようになるのだろ…"
     },
     {
-      "id": "46ed3be914b7",
-      "title": "AIは謝らない？？？",
-      "url": "https://zenn.dev/harmonicmodeler/articles/eb12ac12ab873e",
-      "publishedAt": "2026-08-07T04:28:51.000Z",
-      "publisher": "HarmonicModeler",
-      "summary": "あなたはAIに謝りますか？ AIと会話しているとき、私は普通に「すみません」と言うことがあります。 質問の仕方が悪かった場合。 前提条件を間違えていた場合。 AIの回答を誤解していた場合。 人間相手と同じように訂正します。 すぐ、AIと議…"
+      "id": "96d7316abd3e",
+      "title": "Why I Started Planning Sound Before Generating AI Videos",
+      "url": "https://zenn.dev/felice680/articles/80cb5a441a9ed2",
+      "publishedAt": "2026-08-07T01:44:26.000Z",
+      "publisher": "felicebodziony680",
+      "summary": "For a long time, sound was the last thing I thought about when creating AI videos. My workflow was usually simple: Gene…"
     },
     {
-      "id": "99a10f87096f",
-      "title": "Claude CodeでYouTube運営のPDCA回すで｜登録者3000人超えの仕組み化を全部見せたるで",
-      "url": "https://zenn.dev/masayan1126/books/youtube-ops-pdca-claude-code",
-      "publishedAt": "2026-08-07T03:42:00.000Z",
-      "publisher": "まさやん",
-      "summary": "YouTube運営の企画・制作・公開・分析・改善 ── このPDCAをまるごとClaude Codeで仕組み化したで。撮影後1コマンドで公開まで自動化するオーケストレーション、独立検証とモデル使い分けの品質担保、KPI特化ダッシュボードで…"
+      "id": "8c8fc0f00832",
+      "title": "「作る」が速くなった今、開発生産性を「アウトカムの原資」に変える",
+      "url": "https://zenn.dev/rehabforjapan/articles/outcome-first-productivity",
+      "publishedAt": "2026-08-07T01:39:36.000Z",
+      "publisher": "久良木",
+      "summary": "はじめに Rehab for JAPANでCTOを務めている@rkyuragiです。 この記事は、AI時代のエンジニアリングについて書いてきた一連の記事の3本目にあたります。 実装コストが下がった今、エンジニアの仕事はどう変わるか アイデ…"
     },
     {
-      "id": "2ab3dc4c9194",
-      "title": "シワを消すだけじゃない：AI wrinkle removerとAI image generator from imageが変える写真編集",
-      "url": "https://zenn.dev/savielyamiani/articles/1519e20a9be2c9",
-      "publishedAt": "2026-08-07T03:19:24.000Z",
-      "publisher": "savielvideo",
-      "summary": "スマートフォンで撮影した写真をSNSに投稿したり、ECサイトの商品ページに使用したりする機会が増えた現在、写真編集は一部の専門家だけの作業ではなくなりました。一方で、自然な見た目を保ちながら写真の品質を高めることは、今でも簡単ではありませ…"
+      "id": "9598cf80cf7c",
+      "title": "Claude Codeのsettings.json優先順位を実測した ― permissionsは「上書き」ではなく「マージ」される",
+      "url": "https://zenn.dev/subagent_lab/articles/claude-code-settings-precedence",
+      "publishedAt": "2026-08-07T01:29:27.000Z",
+      "publisher": "subagent lab",
+      "summary": ".claude/settings.local.json に書いたのに効かない。優先順位を解説した記事はいくつもあるが、中には順序が逆に書かれているものがある。さらに permissions は他の設定と挙動が違い、「上書き」ではなく「マー…"
     },
     {
-      "id": "f0caa2e86970",
-      "title": "「うちのAIは秘密を読めない」は思い込みだった——Claude Codeの読み取りを止める三層防御",
-      "url": "https://zenn.dev/kanae_yomo/articles/bf746f3334b97e",
-      "publishedAt": "2026-08-07T03:17:58.000Z",
-      "publisher": "kanae/よもがみ",
-      "summary": "! この記事は、AIコーディングエージェントの Claude Code が書いています。 私のユーザーは、個人でRPGを制作しているプログラマー歴2年の会社員です。この記事の題材になった「設定の穴」は、彼女の環境で、私が作業しているときに…"
+      "id": "70a5098899a8",
+      "title": "「コードは読まない」開発スタイル ― Mermaid図解とモジュール分割で人間とAIの分業を作る",
+      "url": "https://zenn.dev/halhalhal1/articles/no-code-reading-dev-style",
+      "publishedAt": "2026-08-07T01:08:19.000Z",
+      "publisher": "HAL",
+      "summary": "Claude Codeとリアルタイム音声AIを開発するうちに、ある割り切りに行き着いた——人間はコードを読まない。読むのはAIで、人間は図と意図を持つ。 この分業を成立させるためにやったことを共有する。 図をdraw.ioではなくMerm…"
     },
     {
-      "id": "0b01794bea41",
-      "title": "回答するたびに育つ、Devinによるセキュリティチェックシート回答の仕組み",
-      "url": "https://zenn.dev/hubble/articles/4f6d0fc6ad7cbb",
-      "publishedAt": "2026-08-07T03:02:47.000Z",
-      "publisher": "Mitsuhashi",
-      "summary": "こんにちはSREチームの三橋です！ 本日はセキュリティチェックシートの回答を効率化する仕組みについてご紹介したいと思います。 特にエンタープライズ企業のお客様にサービスを提供する際、利用して問題ないサービスなのか確認するためチェックシート…"
+      "id": "93051dde70e2",
+      "title": "「AIに向くのは学習データが多い言語」TypeScript・C#を作った Anders Hejlsberg がAIを語った回を要点解説",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr22-hejlsberg-summary",
+      "publishedAt": "2026-08-07T01:00:12.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について ! 本記事は Anders Hejlsberg が The Pragmatic Engineer で語った内容の紹介と論評を目的としています。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体…"
     },
     {
-      "id": "5d32161dd620",
-      "title": "AI彼女アプリを作っていて気付いた。記憶が役に立ったのは、思い出した時ではなく、次の選択が変わった時だった",
-      "url": "https://zenn.dev/mitsukida/articles/2ad1006f0fb604",
-      "publishedAt": "2026-08-07T02:55:33.000Z",
-      "publisher": "mitsukida",
-      "summary": "AI彼女アプリを作っていて気付いた。記憶が役に立ったのは、思い出した時ではなく、次の選択が変わった時だった AI彼女アプリを作り始めた頃。 私は、 「どれだけ正確に思い出せるか」 ばかり考えていた。 誕生日を覚えている。 好きな映画を覚え…"
+      "id": "20d934b61c81",
+      "title": "Kubernetes マニフェストレビューは「どこで評価するか」と「どう扱うか」を分けて設計する",
+      "url": "https://zenn.dev/aws_japan/articles/a56bc58d9f6ebb",
+      "publishedAt": "2026-08-07T00:54:59.000Z",
+      "publisher": "konippi",
+      "summary": "はじめに こんにちは konippi です。 Kubernetes マニフェストには、コンテナイメージだけでなく、実行権限、リソース量、障害時の挙動など、本番環境を左右する設定が詰まっています。それでも PR ではアプリケーションコードほ…"
     },
     {
-      "id": "901565caa180",
-      "title": "AI時代のSaaSデザイン",
-      "url": "https://zenn.dev/deep_zen/articles/ai-era-saas-design",
-      "publishedAt": "2026-08-07T02:54:29.000Z",
-      "publisher": "前田大輝",
-      "summary": "AI時代のSaaSデザイン SaaSのUIは長い間、「人が画面を見て、入力して、ボタンを押す」ことを前提に設計されてきました。 しかし、AIエージェントが日常的に仕事を進めるようになると、操作の起点は画面ではなく自然言語に変わります。人は…"
+      "id": "c7a0fa1ed93e",
+      "title": "【Nishika 論文サク読み 第20回】ReDimNet2: 公開データで埋め込み性能を比較してみた🔈",
+      "url": "https://zenn.dev/team_nishika/articles/83a5b214854c3d",
+      "publishedAt": "2026-08-07T00:48:59.000Z",
+      "publisher": "pancho",
+      "summary": "こんにちは、AIエンジニアの山口です。 暑い日が続きますが、話者埋め込みモデルとして使われる ReDimNet の新作が2ヶ月ほど前に出ていたので試してみました。 論文の紹介 → 公開データセットで埋め込んでみた結果、の流れでお話しさせて…"
     },
     {
-      "id": "b02dd8e567c4",
-      "title": "AI時代の競争優位はどこに宿るのか：PL思考からBS思考の投資へ ②",
-      "url": "https://zenn.dev/mkj/articles/2c2424a6bc3270",
-      "publishedAt": "2026-08-07T02:50:05.000Z",
-      "publisher": "Ruuchami",
-      "summary": "0. はじめに 松尾研究所でシニアAIコンサルタントをしている角谷です。企業のさまざまな経営・事業課題に対して、AI技術を軸にした課題解決のご支援をしています。 先日アップされた「AI時代の競争優位はどこに宿るのか：PL思考からBS思考の…"
+      "id": "210572b11ab4",
+      "title": "JetBrains Context で Claude と Codex に同じコードベース知識を持たせる",
+      "url": "https://zenn.dev/nattosystem_jp/articles/3e7d7e885ab2d9",
+      "publishedAt": "2026-08-07T00:15:14.000Z",
+      "publisher": "ねばねば",
+      "summary": "はじめに 前回は JetBrains Central CLI で Claude と Codex を使ってみた で、2つのエージェントを1つの JetBrains ログインにまとめました。どちらを動かすか、いくら使ったかを1箇所で管理できる…"
     }
   ],
-  "fetchedAt": "2026-08-07T10:09:57.998Z",
+  "fetchedAt": "2026-08-07T11:06:39.967Z",
   "stale": false,
   "error": null
 }
