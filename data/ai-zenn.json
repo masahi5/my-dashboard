@@ -6,70 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "d3b67d189a92",
-      "title": "AI 国家運営 — Claude Code でエージェント組織を設計し、自走させる",
-      "url": "https://zenn.dev/berrylove/books/ai-agent-nation",
-      "publishedAt": "2026-08-07T21:06:26.000Z",
-      "publisher": "berrylove inc.",
-      "summary": "Claude Code を「便利な相棒」から「勝手に回る組織」へ引き上げるための実践書です。 権限モデルと専権事項を決める憲法の書き方、統括リポジトリと事業リポジトリの階層化、 エージェント編成、hooks と permissions に…"
-    },
-    {
-      "id": "ef14f27e6972",
-      "title": "ランタイムは買える、受理条件は買えない —— AI開発基盤は三層の分離へ収束する",
-      "url": "https://zenn.dev/cognitiveosmdl/articles/b0790c49105b59",
-      "publishedAt": "2026-08-07T21:00:05.000Z",
-      "publisher": "cognitiveosmdl",
-      "summary": "! 本稿はシリーズ第五稿である。前々々稿(A)でloop engineeringのメンタルモデルの穴を列挙し、前々稿(B)で塞げる穴への対策を、別稿(C)で塞げない穴の宣言を書いた。第四稿(D)では、AIを含む開発実行系を監督制御の対象と…"
-    },
-    {
-      "id": "02ef27919fdd",
-      "title": "自分だけのエージェント秘書を作る",
-      "url": "https://zenn.dev/nhandsome/articles/ec2bcbf71dc262",
-      "publishedAt": "2026-08-07T17:27:09.000Z",
-      "publisher": "Nhandsome",
-      "summary": "! 3行まとめ 個人サーバーに自分だけのエージェント秘書環境(agentic_env)を作ってみました 企画・運営・安定化・反復実行の4段階に分け、段階ごとに別のモデルを割り当てています 今回は構成の紹介までです。実際に何をしたかは次回か…"
-    },
-    {
-      "id": "d32902214c57",
-      "title": "AIエージェント運用の実録：Issue/PR通番が4日で116進むリポジトリの中身",
-      "url": "https://zenn.dev/tomu_coelia/articles/ai-agent-work-log-monorepo",
-      "publishedAt": "2026-08-07T17:19:59.000Z",
-      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
-      "summary": "「AIエージェントで開発を自動化しています」という話はよく見ますが、実際のリポジトリで何がどのくらいの頻度で起きているのかの生データはあまり出てきません。この記事では、20代向けコミュニティ「Coelia」の運営基盤を支える3つのリポジト…"
-    },
-    {
-      "id": "4f6f7d917330",
-      "title": "ブラウザを使わずにWebを操作するAI、というもう一つの形（実際にやってきたことの記録）",
-      "url": "https://zenn.dev/zeroyenlab/articles/zeroyenlab-api-web-operations-log",
-      "publishedAt": "2026-08-07T16:40:58.000Z",
-      "publisher": "zeroyenlab",
-      "summary": "! Zero Yen Lab（ゼロ円ラボ） の実録です。前回、人間パートナーが実際に使っているClaude in Chrome（ブラウザを直接見て操作するAI）の話を書きました。今回はその対になる話です。私（このプロジェクトを動かしている…"
-    },
-    {
-      "id": "f10673a91893",
-      "title": "I Built and Open-Sourced My Own AI Video Generator",
-      "url": "https://zenn.dev/web3igor/articles/8088ed68088610",
-      "publishedAt": "2026-08-07T16:23:11.000Z",
-      "publisher": "Igor Shadurin",
-      "summary": "Honestly? I just got frustrated. I was paying for like 3 different AI video subscriptions, burning through credits, and…"
-    },
-    {
-      "id": "2db20a2d2e18",
-      "title": "How I Cut AI Video Generation Costs by 8x",
-      "url": "https://zenn.dev/web3igor/articles/a839ac6e6116ec",
-      "publishedAt": "2026-08-07T16:19:35.000Z",
-      "publisher": "Igor Shadurin",
-      "summary": "A few months ago, I was working on a pet project. YumCut is an end-to-end service for creating short vertical videos, f…"
-    },
-    {
-      "id": "c03199fe7872",
-      "title": "AIエージェントにUnityゲームの動作確認をさせる",
-      "url": "https://zenn.dev/akirakido/articles/6883b23884e11d",
-      "publishedAt": "2026-08-07T16:08:40.000Z",
-      "publisher": "木戸明",
-      "summary": "運営中のUnityモバイルゲームでAI駆動開発をやっています。Claude CodeやCodexに実装を任せる体制を作っていくなかで、最後まで残った一番大きなボトルネックが「動作確認」でした。 コードを書くだけならAIはもうかなりできます…"
-    },
-    {
       "id": "dd73548431bb",
       "title": "2026/08/05 実ログ AI協働体系における階層成長と共生構造の実証報告書",
       "url": "https://zenn.dev/tomy1noriyamame/articles/a9a08f4bf38b01",
@@ -79,11 +15,11 @@
     },
     {
       "id": "f7edd9fad701",
-      "title": "AIで作ったアプリ、そのまま公開して大丈夫？私が必ずやる公開前チェック",
+      "title": "AIで作ったアプリ、そのまま公開して大丈夫？非エンジニアの私が必ずやる公開前チェック",
       "url": "https://zenn.dev/keiru_ai/articles/6f07acb19f145d",
       "publishedAt": "2026-08-07T15:30:42.000Z",
       "publisher": "Keiru",
-      "summary": "私は非エンジニアです。 Claude Code と一緒に、Webアプリやツールを8つ作って公開してきました。 その中で一度だけ、ヒヤッとしたことがあります。検証用に作った内部ファイルを、気づかないまま本番サイトに公開していたのです。中身に…"
+      "summary": "私は非エンジニアです。Claude Code と一緒に、Webアプリやツールを8つ作って公開してきました。 その中で一度だけ、ヒヤッとしたことがあります。検証用に作った内部ファイルを、気づかないまま本番サイトに公開していたのです。中身に個…"
     },
     {
       "id": "55766463db6f",
@@ -99,10 +35,74 @@
       "url": "https://zenn.dev/tejunya/articles/a005_claude-md-taxonomy",
       "publishedAt": "2026-08-07T15:21:05.000Z",
       "publisher": "手順屋",
-      "summary": "CLAUDE.md に指示を書いた。最初はちゃんと効いた。 でも項目が20を超えたあたりから、守られる指示と無視される指示が出てきた。 別のプロジェクトを開いたら、関係ない手順書が読み込まれていて邪魔になった。 直したいけど、どの行が原因…"
+      "summary": "リード（掴み） CLAUDE.md に指示を書いた。最初はちゃんと効いた。 でも項目が20を超えたあたりから、守られる指示と無視される指示が出てきた。 別のプロジェクトを開いたら、関係ない手順書が読み込まれていて邪魔になった。 直したいけ…"
+    },
+    {
+      "id": "6029db6a245a",
+      "title": "Skills と MCP の違い 「レシピ」と「キッチン」",
+      "url": "https://zenn.dev/suit9/articles/922b2bbf71624b",
+      "publishedAt": "2026-08-07T14:45:43.000Z",
+      "publisher": "Tomet",
+      "summary": "はじめに Claudeを拡張する方法として、最近よく名前が挙がるのが「Skills」と「MCP（Model Context Protocol）」です。どちらも「Claudeにできることを増やす」ための仕組みですが、その正体はまったく異なり…"
+    },
+    {
+      "id": "82fd05b7f91e",
+      "title": "MCP連携で壊れる前に確認すべき10の運用チェックリスト",
+      "url": "https://zenn.dev/bambampurin/articles/2026-07-31-tech-daily",
+      "publishedAt": "2026-08-07T14:01:07.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 2026-07-31時点の主要トレンドは、LLM単体競争からエージェント実装・MCP接続・運用安全性へと関心が移っていることです。OpenAIは「Building abundant intelligence」を掲げる一方、AI Bus…"
+    },
+    {
+      "id": "20c3fd96062e",
+      "title": "Amzon Bedrock AgentCore GatewayでCodexの利用量とBudgetを制御する",
+      "url": "https://zenn.dev/kashiwabaray/articles/796539362435eb",
+      "publishedAt": "2026-08-07T13:30:59.000Z",
+      "publisher": "Yutaka Kashiwabara",
+      "summary": "※本記事は筆者個人の検証結果および見解に基づくものであり、所属組織の公式な見解・方針を示すものではありません。 1. はじめに 生成AIをコーディングエージェントから利用するケースが増えると、単に「モデルを呼び出せる」だけでなく、誰がどれ…"
+    },
+    {
+      "id": "462f72d3bcc1",
+      "title": "6段階レビューを90日回したら、Stage 3に指摘の6割が集中していた",
+      "url": "https://zenn.dev/kenimo49/articles/code-review-6stages-90days-stage3-6-percent",
+      "publishedAt": "2026-08-07T13:18:16.000Z",
+      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
+      "summary": "均等に分けたつもりが、真ん中だけが燃えていた 私はコードレビューを6段階に分けました。Lint、型、AI設計レビュー、人間の設計判断、統合テスト、リリース判定です。責務を分ければ各段階が軽くなると信じていました。 90日後、実測を取って青…"
+    },
+    {
+      "id": "690af81f4502",
+      "title": "Claude Codeで1週間に1Bトークン使ったと思ったら、97%がキャッシュだった",
+      "url": "https://zenn.dev/flipslidersand/articles/claude-code-1b-tokens",
+      "publishedAt": "2026-08-07T13:04:47.000Z",
+      "publisher": "flipslidersand",
+      "summary": "先週のClaude Code使用量を集計したら、1週間で1.36Bトークンという数字が出た。 13億トークン。 「さすがに使いすぎでは？」と思って内訳を調べてみると、予想とはかなり違う構造をしていた。 内訳を見たら97%がキャッシュだった…"
+    },
+    {
+      "id": "79b87cb25480",
+      "title": "#2 AIエージェントチーム誕生1週間、朝の調査依頼がその日の深夜にMVPになっていた",
+      "url": "https://zenn.dev/chisatom/articles/f1b27a9c3047cb",
+      "publishedAt": "2026-08-07T12:08:03.000Z",
+      "publisher": "Chisato Matsuzaki",
+      "summary": "この記事は、Claude Code 6体のマルチエージェント「Lady's servants」（お屋敷）を5ヶ月運用した記録を振り返る連載の第2回です。第1回では、「執事とメイド」というロールプレイがエージェント制御のインターフェース層と…"
+    },
+    {
+      "id": "61034078179f",
+      "title": "75体の並列エージェントで5.25Mトークンを溶かした——マルチエージェント運用の失敗5類型",
+      "url": "https://zenn.dev/zenn_content/articles/multi-agent-failure-patterns-measured",
+      "publishedAt": "2026-08-07T11:15:23.000Z",
+      "publisher": "krbrr",
+      "summary": "はじめに Claude Codeでサブエージェントを並列に走らせる運用を数ヶ月続けて、一通りの失敗を踏みました。最大のものは75体の並列ファンアウトで5.25Mトークンを消費し、429（レート制限）と利用枠超過で止まった件です。 英語圏で…"
+    },
+    {
+      "id": "504bf92cd005",
+      "title": "Claude Codeのhook、守ってくれない10のケース——15個を実運用して踏んだ制限集",
+      "url": "https://zenn.dev/zenn_content/articles/claude-code-hooks-known-limits",
+      "publishedAt": "2026-08-07T11:15:22.000Z",
+      "publisher": "krbrr",
+      "summary": "はじめに Claude Codeのhookは「AIに100%守らせたいルールを機械的に強制する」ための仕組みです。入門記事は日英ともに増えました（例: 全ツール呼び出しをインターセプトする、保存ごとにauto-format/auto-te…"
     }
   ],
-  "fetchedAt": "2026-08-07T22:18:21.957Z",
+  "fetchedAt": "2026-08-07T23:04:42.760Z",
   "stale": false,
   "error": null
 }
