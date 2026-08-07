@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.05987",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Reinforcement learning (RL) with verifiable rewards constructs trajectory-level advantage estimates, yet it often fails…",
-      "score": 29
+      "score": 37
     },
     {
       "id": "2149226fbd8d",
@@ -19,15 +19,7 @@
       "url": "https://huggingface.co/papers/2608.05248",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Generating large-scale, freely explorable 3D worlds from open-ended text remains challenging because a system must join…",
-      "score": 23
-    },
-    {
-      "id": "a3bb79ee37a0",
-      "title": "ChronoVision: Temporal Reasoning via Latent State Reconstruction",
-      "url": "https://huggingface.co/papers/2608.05631",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Multimodal large language models excel at passive perception but struggle with complex visual cognitive tasks requiring…",
-      "score": 22
+      "score": 31
     },
     {
       "id": "4586a7423c7c",
@@ -35,39 +27,15 @@
       "url": "https://huggingface.co/papers/2608.06060",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Unified multimodal retrieval aims to identify candidates that satisfy complex user intent expressed through heterogeneo…",
-      "score": 21
+      "score": 25
     },
     {
-      "id": "341fd4d41db5",
-      "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
-      "url": "https://huggingface.co/papers/2608.05802",
+      "id": "a3bb79ee37a0",
+      "title": "ChronoVision: Temporal Reasoning via Latent State Reconstruction",
+      "url": "https://huggingface.co/papers/2608.05631",
       "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "On-Policy Distillation (OPD) is emerging as a promising alternative to reinforcement learning for LLM post-training, ye…",
-      "score": 16
-    },
-    {
-      "id": "206037ac5531",
-      "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
-      "url": "https://huggingface.co/papers/2608.06301",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but a…",
-      "score": 16
-    },
-    {
-      "id": "5b1e9404da73",
-      "title": "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?",
-      "url": "https://huggingface.co/papers/2608.05747",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Spatial intelligence is fundamental to embodied agents, yet existing benchmarks focus on local spatial perception from …",
-      "score": 14
-    },
-    {
-      "id": "89fb51d4e334",
-      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
-      "url": "https://huggingface.co/papers/2608.06374",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single gener…",
-      "score": 14
+      "summary": "Multimodal large language models excel at passive perception but struggle with complex visual cognitive tasks requiring…",
+      "score": 23
     },
     {
       "id": "e65e2e9d2f1a",
@@ -75,7 +43,31 @@
       "url": "https://huggingface.co/papers/2608.06197",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Training large language model agents for long-horizon tool use typically relies on interactions with real or synthesize…",
-      "score": 9
+      "score": 20
+    },
+    {
+      "id": "341fd4d41db5",
+      "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
+      "url": "https://huggingface.co/papers/2608.05802",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "On-Policy Distillation (OPD) is emerging as a promising alternative to reinforcement learning for LLM post-training, ye…",
+      "score": 18
+    },
+    {
+      "id": "206037ac5531",
+      "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+      "url": "https://huggingface.co/papers/2608.06301",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but a…",
+      "score": 17
+    },
+    {
+      "id": "5b1e9404da73",
+      "title": "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?",
+      "url": "https://huggingface.co/papers/2608.05747",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Spatial intelligence is fundamental to embodied agents, yet existing benchmarks focus on local spatial perception from …",
+      "score": 15
     },
     {
       "id": "05ab058b4a1b",
@@ -83,7 +75,7 @@
       "url": "https://huggingface.co/papers/2608.05369",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Vision-language-action (VLA) models often treat main-view and wrist-view observations as parallel visual inputs, overlo…",
-      "score": 6
+      "score": 12
     },
     {
       "id": "ccfdf0c740b4",
@@ -91,7 +83,7 @@
       "url": "https://huggingface.co/papers/2608.06352",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately chall…",
-      "score": 6
+      "score": 10
     },
     {
       "id": "214fb6767b62",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2608.05137",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Understanding 3D scenes is fundamental to embodied intelligence, requiring joint reasoning over heterogeneous informati…",
-      "score": 4
+      "score": 5
+    },
+    {
+      "id": "66ea505fb314",
+      "title": "PaDoc: Layout-Grounded Parallel Decoding for Document Parsing",
+      "url": "https://huggingface.co/papers/2608.06146",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "End-to-end document parsers provide a unified interface, but serialize page layouts and regional contents into one auto…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-07T03:26:36.443Z",
+  "fetchedAt": "2026-08-07T05:13:44.698Z",
   "stale": false,
   "error": null
 }
