@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "533e3027eed3",
-      "title": "FDEとは何か？AI時代に必要な事業完遂型エンジニアの役割",
-      "url": "https://zenn.dev/and_dot/articles/fde-outcome-ownership",
-      "publishedAt": "2026-08-07T09:07:05.000Z",
-      "publisher": "アンドドット広報チーム",
-      "summary": "こんにちは、アンドドットCTOの高根沢です。 最近、FDE（Forward Deployed Engineer）という言葉をよく聞くようになりました。直訳すると「前線に配置されたエンジニア」。ただ、顧客先に常駐するエンジニア、という説明だ…"
+      "id": "2ab3dc4c9194",
+      "title": "シワを消すだけじゃない：AI wrinkle removerとAI image generator from imageが変える写真編集",
+      "url": "https://zenn.dev/savielyamiani/articles/1519e20a9be2c9",
+      "publishedAt": "2026-08-07T03:19:24.000Z",
+      "publisher": "savielvideo",
+      "summary": "スマートフォンで撮影した写真をSNSに投稿したり、ECサイトの商品ページに使用したりする機会が増えた現在、写真編集は一部の専門家だけの作業ではなくなりました。一方で、自然な見た目を保ちながら写真の品質を高めることは、今でも簡単ではありませ…"
     },
     {
-      "id": "6b1a958b0538",
-      "title": "仕様の不足を指摘するLinear Agentで開発の高速化を目指す",
-      "url": "https://zenn.dev/geekplus/articles/84dbe103f3b2d6",
-      "publishedAt": "2026-08-07T09:00:08.000Z",
-      "publisher": "ren",
-      "summary": "概要 弊社ではLinearを使ったタスク管理を行っています。 今回は、Linearの機能であるLinear Agentを使って開発着手までのリードタイムを短縮することで開発の生産性向上を目指した事例を紹介します。 発生していた課題 弊社で…"
+      "id": "f0caa2e86970",
+      "title": "「うちのAIは秘密を読めない」は思い込みだった——Claude Codeの読み取りを止める三層防御",
+      "url": "https://zenn.dev/kanae_yomo/articles/bf746f3334b97e",
+      "publishedAt": "2026-08-07T03:17:58.000Z",
+      "publisher": "kanae/よもがみ",
+      "summary": "! この記事は、AIコーディングエージェントの Claude Code が書いています。 私のユーザーは、個人でRPGを制作しているプログラマー歴2年の会社員です。この記事の題材になった「設定の穴」は、彼女の環境で、私が作業しているときに…"
     },
     {
-      "id": "b0e4b5e53ab1",
-      "title": "コーディングエージェントを安全に使うための実務ガイド v0.2",
-      "url": "https://zenn.dev/kanaria007/articles/ee3dfd438af4df",
-      "publishedAt": "2026-08-07T09:00:07.000Z",
-      "publisher": "かなりあ",
-      "summary": "V0.1 is どこ？は最後および後続記事で説明されます Claude CodeやCodexのようなコーディングエージェントを使うと、実装速度は大きく上がる。 調査、修正案の作成、テスト追加、リファクタリング、レビュー観点の洗い出しまで、…"
+      "id": "0b01794bea41",
+      "title": "回答するたびに育つ、Devinによるセキュリティチェックシート回答の仕組み",
+      "url": "https://zenn.dev/hubble/articles/4f6d0fc6ad7cbb",
+      "publishedAt": "2026-08-07T03:02:47.000Z",
+      "publisher": "Mitsuhashi",
+      "summary": "こんにちはSREチームの三橋です！ 本日はセキュリティチェックシートの回答を効率化する仕組みについてご紹介したいと思います。 特にエンタープライズ企業のお客様にサービスを提供する際、利用して問題ないサービスなのか確認するためチェックシート…"
     },
     {
-      "id": "1bde0c36c1c3",
-      "title": "生成AIアプリのモデル切替を安全にするAPI設計｜Model Routerと統一レイヤーの考え方",
-      "url": "https://zenn.dev/amamiya_chan/articles/73949446cede24",
-      "publishedAt": "2026-08-07T08:42:01.000Z",
-      "publisher": "雨宮（Amamiya）",
-      "summary": "生成AIをプロダクトに組み込む時、最初は1つのモデルから始めることが多いと思います。 例えば、 画像生成機能を追加する AIチャット機能を追加する コンテンツ生成機能を作る といった段階では、1つのAPIを接続するだけでも十分です。 しか…"
+      "id": "5d32161dd620",
+      "title": "AI彼女アプリを作っていて気付いた。記憶が役に立ったのは、思い出した時ではなく、次の選択が変わった時だった",
+      "url": "https://zenn.dev/mitsukida/articles/2ad1006f0fb604",
+      "publishedAt": "2026-08-07T02:55:33.000Z",
+      "publisher": "mitsukida",
+      "summary": "AI彼女アプリを作っていて気付いた。記憶が役に立ったのは、思い出した時ではなく、次の選択が変わった時だった AI彼女アプリを作り始めた頃。 私は、 「どれだけ正確に思い出せるか」 ばかり考えていた。 誕生日を覚えている。 好きな映画を覚え…"
     },
     {
-      "id": "6df1e29f23fd",
-      "title": "生成AI APIのコストを管理する設計｜Model RouterとAPI Gatewayで考える複数モデル運用",
-      "url": "https://zenn.dev/kiri_kunn/articles/cc354aa6d4d6c3",
-      "publishedAt": "2026-08-07T08:34:14.000Z",
-      "publisher": "霧（Kiri）",
-      "summary": "生成AIをプロダクトに組み込むとき、最初に悩むのは「どのモデルを選ぶか」かもしれません。 しかし、実際にサービス運用を始めると、別の問題が発生します。 利用量が増えるとコストが読みにくい 新しいモデルを試すたびに接続処理が増える 品質と料…"
+      "id": "901565caa180",
+      "title": "AI時代のSaaSデザイン",
+      "url": "https://zenn.dev/deep_zen/articles/ai-era-saas-design",
+      "publishedAt": "2026-08-07T02:54:29.000Z",
+      "publisher": "前田大輝",
+      "summary": "AI時代のSaaSデザイン SaaSのUIは長い間、「人が画面を見て、入力して、ボタンを押す」ことを前提に設計されてきました。 しかし、AIエージェントが日常的に仕事を進めるようになると、操作の起点は画面ではなく自然言語に変わります。人は…"
     },
     {
-      "id": "66f3fc7e1ef9",
-      "title": "過去の自分、未来の自分と共に考えるノートアプリ",
-      "url": "https://zenn.dev/katsutoatsuto/articles/7c388541bdca8a",
-      "publishedAt": "2026-08-07T08:30:40.000Z",
-      "publisher": "katsutoatsuto",
-      "summary": "自分の過去の作品やSNSを取り込んだデータベースに接続する「tagasill/Chat」は、まだテスト段階ながら次々と膝を打つアイディアを繰り出してくれます。 それはまさに、過去の自分や、全く別のことを考えている時の自分との対話です。どれ…"
+      "id": "b02dd8e567c4",
+      "title": "AI時代の競争優位はどこに宿るのか：PL思考からBS思考の投資へ ②",
+      "url": "https://zenn.dev/mkj/articles/2c2424a6bc3270",
+      "publishedAt": "2026-08-07T02:50:05.000Z",
+      "publisher": "Ruuchami",
+      "summary": "0. はじめに 松尾研究所でシニアAIコンサルタントをしている角谷です。企業のさまざまな経営・事業課題に対して、AI技術を軸にした課題解決のご支援をしています。 先日アップされた「AI時代の競争優位はどこに宿るのか：PL思考からBS思考の…"
     },
     {
-      "id": "ba4ae6bf2ed2",
-      "title": "【AI駆動プロダクト開発 第5回】Spring Boot × Next.js：認証・監査・通知までAI設計をコードに落とす",
-      "url": "https://zenn.dev/scalar_sol_blog/articles/nexus-product-new-development-05",
-      "publishedAt": "2026-08-07T08:30:00.000Z",
-      "publisher": "hako@札幌",
-      "summary": "前回の記事はこちら ! 本記事は、Nexus Architectとの壁打ちから生まれた社内向けWebアプリ RADAR の開発を追う全5回連載の第5回です。今回はSpring Boot、Next.js、OIDC、行レベル認可、通知、監査、…"
+      "id": "5ea5a448bbeb",
+      "title": "AIに記事を書かせたら、品質チェックの側が単調な文章を推奨していた",
+      "url": "https://zenn.dev/infra_study_ze/articles/ai-draft-lint-monotone",
+      "publishedAt": "2026-08-07T02:46:59.000Z",
+      "publisher": "Taro",
+      "summary": "技術記事を継続して出したいのですが、1本書くのに数時間かかります。そこで、下書きは AI に任せることにしました。 ただ、AI が書いた文章はそのままでは出せません。毎回書き味が変わりますし、放っておくと、どこかで読んだような当たり障りの…"
     },
     {
-      "id": "df107998cb6b",
-      "title": "MCP サーバーを uvx で動かしている人は、一度 du -sh ~/.cache/uv を叩いてみてほしい",
-      "url": "https://zenn.dev/canly/articles/03e1086f6b6056",
-      "publishedAt": "2026-08-07T08:27:02.000Z",
-      "publisher": "ほんまでっか？",
-      "summary": "こんにちは！ 株式会社カンリーで SRE をやっている本間です。ほんまですよ！ 今回は、AI コーディングツールを使っていたら思わぬところでストレージの容量を食っていた話です。 はじめに 社内ではいくつかの Claude Code プラグ…"
+      "id": "1de5fc4429a2",
+      "title": "自動処理の証拠をJSONLへ追記する最小実装 - テスト設計",
+      "url": "https://zenn.dev/kmn/articles/ebbcb65d0a8ae9",
+      "publishedAt": "2026-08-07T02:35:09.000Z",
+      "publisher": "KMN KMN",
+      "summary": "自動処理の証拠をJSONLへ追記する最小実装 - テスト設計 自動処理は、スケジュール登録だけでは安定しません。結果を上書きしたり端末出力だけに残したりすると、並行自動処理の証拠が消えます。 この記事では「テスト設計」の観点から、入力、処…"
     },
     {
-      "id": "2293046820a5",
-      "title": "画像から「Giga Chad」を作り、動画の動きまで再利用できる2つのAIツール",
-      "url": "https://zenn.dev/midjourneysref/articles/808f70e1ae3ba2",
-      "publishedAt": "2026-08-07T08:18:58.000Z",
-      "publisher": "midjourneysref",
-      "summary": "AIでキャラクター画像や動画を作っていると、次のような悩みにぶつかることがあります。 「人物の顔をもっと印象的に加工したい」 「参考動画の動きだけを、新しいキャラクターに使いたい」 今回は、そんなときに役立つPromptsrefの2つのA…"
+      "id": "d72349326853",
+      "title": "「そろそろ終わったかな」と見に行かない——Codexの完了・停止・入力待ちをTeamsで受け取る",
+      "url": "https://zenn.dev/tohru_ohnishi/articles/d5c44ed965e283",
+      "publishedAt": "2026-08-07T02:27:59.000Z",
+      "publisher": "楓馬企画 | 大西徹",
+      "summary": "1. Codexの画面を見に戻る回数を減らしたい Codexへ実装、テスト、レビューをまとめて依頼すると、完了までしばらく待つことがあります。 私の環境では、Windows上のVS CodeからSSH接続し、その先のDev Contain…"
     },
     {
-      "id": "40b5ee4ada05",
-      "title": "Claude Code を並列で回すと、「いま自分待ちのやつ」が分からなくなる",
-      "url": "https://zenn.dev/takaaki_s/articles/dd999cde644a35",
-      "publishedAt": "2026-08-07T07:45:03.000Z",
-      "publisher": "takaaki-s",
-      "summary": "コーディングエージェントは、待ち時間が長い。 だから 2 つ目を立てる。片方が考えている間にもう片方へ指示を出せば、待ちが重ならない。ここまでは誰でも思いつくし、実際にうまくいく。 だけど、4 つ目あたりからはっきり破綻し始める。 エージ…"
+      "id": "dfec2d608d2d",
+      "title": "AIは、安くする手段ではなく付加価値だと思っている",
+      "url": "https://zenn.dev/kiraki/articles/ai-as-added-value",
+      "publishedAt": "2026-08-07T02:09:56.000Z",
+      "publisher": "きらき",
+      "summary": "映像制作の見積もりを工程まで分解すると、たいてい人数×日数で値段が決まっていることが分かります。 3人が3日ずつ動くなら、9人日。そこから抜けない限り、単価の話は永遠に終わりません。 では、どうするか。ここでAIの話になります。 ただし、…"
     },
     {
-      "id": "72cd037a0ff5",
-      "title": "AI時代のエンジニアの価値",
-      "url": "https://zenn.dev/idealive_kmon/articles/domain-knowledge-differentiation",
-      "publishedAt": "2026-08-07T07:00:33.000Z",
-      "publisher": "かわもん@idealive",
-      "summary": "AI駆動開発が当たり前になってきて、「コードを書く力」の価値は相対的に下がりつつあります。では何が差別化になるのか。最近の仕事を通じて、「ドメイン知識なんじゃないか」と思うようになりました。 きっかけ：業務アプリの引き継ぎ案件 最近、他の…"
+      "id": "b2d02b947669",
+      "title": "新卒がClaude Codeを通じて上司の頭の中を覗いてみた",
+      "url": "https://zenn.dev/tokium_dev/articles/skills-sharing-claude-code",
+      "publishedAt": "2026-08-07T02:00:05.000Z",
+      "publisher": "soma",
+      "summary": "こんにちは！ 株式会社TOKIUMでエンジニアをしているsomaです！ 私は部署に配属されて4ヶ月になります。正直に言うと、上司が何を考えて仕事をしているのか、まだよくわかりません。まあ、何年も一緒に働けば、だんだんわかるようになるのだろ…"
     },
     {
-      "id": "1285d3467f9f",
-      "title": "不動産書類をOCRで比較して差分をハイライト表示した話",
-      "url": "https://zenn.dev/kurojica/articles/67909c58190eb6",
-      "publishedAt": "2026-08-07T07:00:06.000Z",
-      "publisher": "馬場光希",
-      "summary": "こんにちは、AI Labの馬場 光希です。 不動産業務では、見積書や契約書類の確認が人の目視に大きく依存しています。今回は、概算見積書と確定見積書を対象に、項目や金額の差分を原本PDF上で確認できるOCRハイライト機能を実装しました。 ▼…"
+      "id": "96d7316abd3e",
+      "title": "Why I Started Planning Sound Before Generating AI Videos",
+      "url": "https://zenn.dev/felice680/articles/80cb5a441a9ed2",
+      "publishedAt": "2026-08-07T01:44:26.000Z",
+      "publisher": "felicebodziony680",
+      "summary": "For a long time, sound was the last thing I thought about when creating AI videos. My workflow was usually simple: Gene…"
     }
   ],
-  "fetchedAt": "2026-08-07T11:56:24.987Z",
+  "fetchedAt": "2026-08-07T13:01:01.661Z",
   "stale": false,
   "error": null
 }
