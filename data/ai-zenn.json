@@ -6,6 +6,22 @@
   "category": "ai",
   "items": [
     {
+      "id": "d3b67d189a92",
+      "title": "AI 国家運営 — Claude Code でエージェント組織を設計し、自走させる",
+      "url": "https://zenn.dev/berrylove/books/ai-agent-nation",
+      "publishedAt": "2026-08-07T21:06:26.000Z",
+      "publisher": "berrylove inc.",
+      "summary": "Claude Code を「便利な相棒」から「勝手に回る組織」へ引き上げるための実践書です。 権限モデルと専権事項を決める憲法の書き方、統括リポジトリと事業リポジトリの階層化、 エージェント編成、hooks と permissions に…"
+    },
+    {
+      "id": "ef14f27e6972",
+      "title": "ランタイムは買える、受理条件は買えない —— AI開発基盤は三層の分離へ収束する",
+      "url": "https://zenn.dev/cognitiveosmdl/articles/b0790c49105b59",
+      "publishedAt": "2026-08-07T21:00:05.000Z",
+      "publisher": "cognitiveosmdl",
+      "summary": "! 本稿はシリーズ第五稿である。前々々稿(A)でloop engineeringのメンタルモデルの穴を列挙し、前々稿(B)で塞げる穴への対策を、別稿(C)で塞げない穴の宣言を書いた。第四稿(D)では、AIを含む開発実行系を監督制御の対象と…"
+    },
+    {
       "id": "02ef27919fdd",
       "title": "自分だけのエージェント秘書を作る",
       "url": "https://zenn.dev/nhandsome/articles/ec2bcbf71dc262",
@@ -84,25 +100,9 @@
       "publishedAt": "2026-08-07T15:21:05.000Z",
       "publisher": "手順屋",
       "summary": "CLAUDE.md に指示を書いた。最初はちゃんと効いた。 でも項目が20を超えたあたりから、守られる指示と無視される指示が出てきた。 別のプロジェクトを開いたら、関係ない手順書が読み込まれていて邪魔になった。 直したいけど、どの行が原因…"
-    },
-    {
-      "id": "6029db6a245a",
-      "title": "Skills と MCP の違い 「レシピ」と「キッチン」",
-      "url": "https://zenn.dev/suit9/articles/922b2bbf71624b",
-      "publishedAt": "2026-08-07T14:45:43.000Z",
-      "publisher": "Tomet",
-      "summary": "はじめに Claudeを拡張する方法として、最近よく名前が挙がるのが「Skills」と「MCP（Model Context Protocol）」です。どちらも「Claudeにできることを増やす」ための仕組みですが、その正体はまったく異なり…"
-    },
-    {
-      "id": "82fd05b7f91e",
-      "title": "MCP連携で壊れる前に確認すべき10の運用チェックリスト",
-      "url": "https://zenn.dev/bambampurin/articles/2026-07-31-tech-daily",
-      "publishedAt": "2026-08-07T14:01:07.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 2026-07-31時点の主要トレンドは、LLM単体競争からエージェント実装・MCP接続・運用安全性へと関心が移っていることです。OpenAIは「Building abundant intelligence」を掲げる一方、AI Bus…"
     }
   ],
-  "fetchedAt": "2026-08-07T21:41:39.389Z",
+  "fetchedAt": "2026-08-07T22:18:21.957Z",
   "stale": false,
   "error": null
 }
