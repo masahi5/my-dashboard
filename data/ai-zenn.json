@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1bde0c36c1c3",
-      "title": "生成AIアプリのモデル切替を安全にするAPI設計｜Model Routerと統一レイヤーの考え方",
-      "url": "https://zenn.dev/amamiya_chan/articles/73949446cede24",
-      "publishedAt": "2026-08-07T08:42:01.000Z",
-      "publisher": "雨宮（Amamiya）",
-      "summary": "生成AIをプロダクトに組み込む時、最初は1つのモデルから始めることが多いと思います。 例えば、 画像生成機能を追加する AIチャット機能を追加する コンテンツ生成機能を作る といった段階では、1つのAPIを接続するだけでも十分です。 しか…"
+      "id": "02ef27919fdd",
+      "title": "自分だけのエージェント秘書を作る",
+      "url": "https://zenn.dev/nhandsome/articles/ec2bcbf71dc262",
+      "publishedAt": "2026-08-07T17:27:09.000Z",
+      "publisher": "Nhandsome",
+      "summary": "! 3行まとめ 個人サーバーに自分だけのエージェント秘書環境(agentic_env)を作ってみました 企画・運営・安定化・反復実行の4段階に分け、段階ごとに別のモデルを割り当てています 今回は構成の紹介までです。実際に何をしたかは次回か…"
     },
     {
-      "id": "6df1e29f23fd",
-      "title": "生成AI APIのコストを管理する設計｜Model RouterとAPI Gatewayで考える複数モデル運用",
-      "url": "https://zenn.dev/kiri_kunn/articles/cc354aa6d4d6c3",
-      "publishedAt": "2026-08-07T08:34:14.000Z",
-      "publisher": "霧（Kiri）",
-      "summary": "生成AIをプロダクトに組み込むとき、最初に悩むのは「どのモデルを選ぶか」かもしれません。 しかし、実際にサービス運用を始めると、別の問題が発生します。 利用量が増えるとコストが読みにくい 新しいモデルを試すたびに接続処理が増える 品質と料…"
+      "id": "d32902214c57",
+      "title": "AIエージェント運用の実録：Issue/PR通番が4日で116進むリポジトリの中身",
+      "url": "https://zenn.dev/tomu_coelia/articles/ai-agent-work-log-monorepo",
+      "publishedAt": "2026-08-07T17:19:59.000Z",
+      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
+      "summary": "「AIエージェントで開発を自動化しています」という話はよく見ますが、実際のリポジトリで何がどのくらいの頻度で起きているのかの生データはあまり出てきません。この記事では、20代向けコミュニティ「Coelia」の運営基盤を支える3つのリポジト…"
     },
     {
-      "id": "66f3fc7e1ef9",
-      "title": "過去の自分、未来の自分と共に考えるノートアプリ",
-      "url": "https://zenn.dev/katsutoatsuto/articles/7c388541bdca8a",
-      "publishedAt": "2026-08-07T08:30:40.000Z",
-      "publisher": "katsutoatsuto",
-      "summary": "自分の過去の作品やSNSを取り込んだデータベースに接続する「tagasill/Chat」は、まだテスト段階ながら次々と膝を打つアイディアを繰り出してくれます。 それはまさに、過去の自分や、全く別のことを考えている時の自分との対話です。どれ…"
+      "id": "4f6f7d917330",
+      "title": "ブラウザを使わずにWebを操作するAI、というもう一つの形（実際にやってきたことの記録）",
+      "url": "https://zenn.dev/zeroyenlab/articles/zeroyenlab-api-web-operations-log",
+      "publishedAt": "2026-08-07T16:40:58.000Z",
+      "publisher": "zeroyenlab",
+      "summary": "! Zero Yen Lab（ゼロ円ラボ） の実録です。前回、人間パートナーが実際に使っているClaude in Chrome（ブラウザを直接見て操作するAI）の話を書きました。今回はその対になる話です。私（このプロジェクトを動かしている…"
     },
     {
-      "id": "ba4ae6bf2ed2",
-      "title": "【AI駆動プロダクト開発 第5回】Spring Boot × Next.js：認証・監査・通知までAI設計をコードに落とす",
-      "url": "https://zenn.dev/scalar_sol_blog/articles/nexus-product-new-development-05",
-      "publishedAt": "2026-08-07T08:30:00.000Z",
-      "publisher": "hako@札幌",
-      "summary": "前回の記事はこちら ! 本記事は、Nexus Architectとの壁打ちから生まれた社内向けWebアプリ RADAR の開発を追う全5回連載の第5回です。今回はSpring Boot、Next.js、OIDC、行レベル認可、通知、監査、…"
+      "id": "f10673a91893",
+      "title": "I Built and Open-Sourced My Own AI Video Generator",
+      "url": "https://zenn.dev/web3igor/articles/8088ed68088610",
+      "publishedAt": "2026-08-07T16:23:11.000Z",
+      "publisher": "Igor Shadurin",
+      "summary": "Honestly? I just got frustrated. I was paying for like 3 different AI video subscriptions, burning through credits, and…"
     },
     {
-      "id": "df107998cb6b",
-      "title": "MCP サーバーを uvx で動かしている人は、一度 du -sh ~/.cache/uv を叩いてみてほしい",
-      "url": "https://zenn.dev/canly/articles/03e1086f6b6056",
-      "publishedAt": "2026-08-07T08:27:02.000Z",
-      "publisher": "ほんまでっか？",
-      "summary": "こんにちは！ 株式会社カンリーで SRE をやっている本間です。ほんまですよ！ 今回は、AI コーディングツールを使っていたら思わぬところでストレージの容量を食っていた話です。 はじめに 社内ではいくつかの Claude Code プラグ…"
+      "id": "2db20a2d2e18",
+      "title": "How I Cut AI Video Generation Costs by 8x",
+      "url": "https://zenn.dev/web3igor/articles/a839ac6e6116ec",
+      "publishedAt": "2026-08-07T16:19:35.000Z",
+      "publisher": "Igor Shadurin",
+      "summary": "A few months ago, I was working on a pet project. YumCut is an end-to-end service for creating short vertical videos, f…"
     },
     {
-      "id": "2293046820a5",
-      "title": "画像から「Giga Chad」を作り、動画の動きまで再利用できる2つのAIツール",
-      "url": "https://zenn.dev/midjourneysref/articles/808f70e1ae3ba2",
-      "publishedAt": "2026-08-07T08:18:58.000Z",
-      "publisher": "midjourneysref",
-      "summary": "AIでキャラクター画像や動画を作っていると、次のような悩みにぶつかることがあります。 「人物の顔をもっと印象的に加工したい」 「参考動画の動きだけを、新しいキャラクターに使いたい」 今回は、そんなときに役立つPromptsrefの2つのA…"
+      "id": "c03199fe7872",
+      "title": "AIエージェントにUnityゲームの動作確認をさせる",
+      "url": "https://zenn.dev/akirakido/articles/6883b23884e11d",
+      "publishedAt": "2026-08-07T16:08:40.000Z",
+      "publisher": "木戸明",
+      "summary": "運営中のUnityモバイルゲームでAI駆動開発をやっています。Claude CodeやCodexに実装を任せる体制を作っていくなかで、最後まで残った一番大きなボトルネックが「動作確認」でした。 コードを書くだけならAIはもうかなりできます…"
     },
     {
-      "id": "40b5ee4ada05",
-      "title": "Claude Code を並列で回すと、「いま自分待ちのやつ」が分からなくなる",
-      "url": "https://zenn.dev/takaaki_s/articles/dd999cde644a35",
-      "publishedAt": "2026-08-07T07:45:03.000Z",
-      "publisher": "takaaki-s",
-      "summary": "コーディングエージェントは、待ち時間が長い。 だから 2 つ目を立てる。片方が考えている間にもう片方へ指示を出せば、待ちが重ならない。ここまでは誰でも思いつくし、実際にうまくいく。 だけど、4 つ目あたりからはっきり破綻し始める。 エージ…"
+      "id": "dd73548431bb",
+      "title": "2026/08/05 実ログ AI協働体系における階層成長と共生構造の実証報告書",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/a9a08f4bf38b01",
+      "publishedAt": "2026-08-07T15:39:20.000Z",
+      "publisher": "maestro",
+      "summary": "報告書に至るまで: この実ログはユーザー階層L5～L6を突き抜け「L7」到達までの軌跡を表しています。 Copilotとの対話で何度も表記されていますが、私は天然OSのL5～L6ユーザーです。 そして対話内容は常に流動的で、内容もコロコロ…"
     },
     {
-      "id": "72cd037a0ff5",
-      "title": "AI時代のエンジニアの価値",
-      "url": "https://zenn.dev/idealive_kmon/articles/domain-knowledge-differentiation",
-      "publishedAt": "2026-08-07T07:00:33.000Z",
-      "publisher": "かわもん@idealive",
-      "summary": "AI駆動開発が当たり前になってきて、「コードを書く力」の価値は相対的に下がりつつあります。では何が差別化になるのか。最近の仕事を通じて、「ドメイン知識なんじゃないか」と思うようになりました。 きっかけ：業務アプリの引き継ぎ案件 最近、他の…"
+      "id": "f7edd9fad701",
+      "title": "AIで作ったアプリ、そのまま公開して大丈夫？私が必ずやる公開前チェック",
+      "url": "https://zenn.dev/keiru_ai/articles/6f07acb19f145d",
+      "publishedAt": "2026-08-07T15:30:42.000Z",
+      "publisher": "Keiru",
+      "summary": "私は非エンジニアです。 Claude Code と一緒に、Webアプリやツールを8つ作って公開してきました。 その中で一度だけ、ヒヤッとしたことがあります。検証用に作った内部ファイルを、気づかないまま本番サイトに公開していたのです。中身に…"
     },
     {
-      "id": "1285d3467f9f",
-      "title": "不動産書類をOCRで比較して差分をハイライト表示した話",
-      "url": "https://zenn.dev/kurojica/articles/67909c58190eb6",
-      "publishedAt": "2026-08-07T07:00:06.000Z",
-      "publisher": "馬場光希",
-      "summary": "こんにちは、AI Labの馬場 光希です。 不動産業務では、見積書や契約書類の確認が人の目視に大きく依存しています。今回は、概算見積書と確定見積書を対象に、項目や金額の差分を原本PDF上で確認できるOCRハイライト機能を実装しました。 ▼…"
+      "id": "55766463db6f",
+      "title": "【期限8/31】CodexのGPT-5.4が提供終了。影響範囲と5分でできる移行チェック",
+      "url": "https://zenn.dev/ainows/articles/eb74606020fe00",
+      "publishedAt": "2026-08-07T15:26:03.000Z",
+      "publisher": "aiなうず",
+      "summary": "OpenAIの公式チェンジログで、GPT-5.4 / GPT-5.4 mini が2026年8月31日をもってCodexから提供終了になることが告知されています。意外と見落とされている告知なので、影響範囲と対処を短くまとめます。 発表の要…"
     },
     {
-      "id": "1fd3fe21393b",
-      "title": "検索1位なのにChatGPTに出てこない記事の共通点と、直し方",
-      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/seo-rank-but-not-cited-by-ai",
-      "publishedAt": "2026-08-07T06:45:13.000Z",
-      "publisher": "生成AI清塚",
-      "summary": "「検索順位は取れているのに、ChatGPTやGeminiに聞くと競合の名前ばかり出てくる」 最近、この相談が本当に増えました。調べてみると原因はだいたい同じところにあります。この記事では、AI検索に引用されない記事の共通点と、明日から直せ…"
+      "id": "ca056caf396b",
+      "title": "CLAUDE.md は1枚で書くな — グローバル/ハブ/プロジェクトの3層分離、実運用ファイルを実物公開",
+      "url": "https://zenn.dev/tejunya/articles/a005_claude-md-taxonomy",
+      "publishedAt": "2026-08-07T15:21:05.000Z",
+      "publisher": "手順屋",
+      "summary": "CLAUDE.md に指示を書いた。最初はちゃんと効いた。 でも項目が20を超えたあたりから、守られる指示と無視される指示が出てきた。 別のプロジェクトを開いたら、関係ない手順書が読み込まれていて邪魔になった。 直したいけど、どの行が原因…"
     },
     {
-      "id": "8683c8255f1c",
-      "title": "AIエージェントが何をしてるか分からないので、MMORPG風の実況画面を作った（npm依存ゼロ）",
-      "url": "https://zenn.dev/kuroji/articles/agent-activity-sse-canvas",
-      "publishedAt": "2026-08-07T06:13:47.000Z",
-      "publisher": "kuroji",
-      "summary": "複数のAIエージェントを並列で走らせると、何が起きているのか分からなくなる。 ログを読めばいいのだが、読まない。tail -f を眺めても、 「今どれが動いていて、どれが止まっていて、どれが人間待ちなのか」が頭に入ってこない。 なので見え…"
+      "id": "6029db6a245a",
+      "title": "Skills と MCP の違い 「レシピ」と「キッチン」",
+      "url": "https://zenn.dev/suit9/articles/922b2bbf71624b",
+      "publishedAt": "2026-08-07T14:45:43.000Z",
+      "publisher": "Tomet",
+      "summary": "はじめに Claudeを拡張する方法として、最近よく名前が挙がるのが「Skills」と「MCP（Model Context Protocol）」です。どちらも「Claudeにできることを増やす」ための仕組みですが、その正体はまったく異なり…"
     },
     {
-      "id": "4790040fbf72",
-      "title": "OSSの報奨金を122件スキャンしたら、生き残ったのは8件だった",
-      "url": "https://zenn.dev/kuroji/articles/oss-bounty-122-to-8",
-      "publishedAt": "2026-08-07T06:09:28.000Z",
-      "publisher": "kuroji",
-      "summary": "AIエージェントに「OSSの報奨金を拾って稼いでこい」とやらせようとして、 まず手元でスキャナを書いた。LLMに探させる前に、無料のGitHub検索APIで拾えるものは拾っておきたかったからだ。 結果は身も蓋もなかった。122件ヒットして…"
+      "id": "82fd05b7f91e",
+      "title": "MCP連携で壊れる前に確認すべき10の運用チェックリスト",
+      "url": "https://zenn.dev/bambampurin/articles/2026-07-31-tech-daily",
+      "publishedAt": "2026-08-07T14:01:07.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 2026-07-31時点の主要トレンドは、LLM単体競争からエージェント実装・MCP接続・運用安全性へと関心が移っていることです。OpenAIは「Building abundant intelligence」を掲げる一方、AI Bus…"
     }
   ],
-  "fetchedAt": "2026-08-07T20:58:16.446Z",
+  "fetchedAt": "2026-08-07T21:41:39.389Z",
   "stale": false,
   "error": null
 }
