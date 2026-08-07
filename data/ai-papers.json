@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.05102",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Long-horizon search agents must make multiple sequential actions (steps) to search, retrieve, verify, and integrate evi…",
-      "score": 51
+      "score": 54
     },
     {
       "id": "4cf746df386a",
@@ -20,14 +20,6 @@
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Agent self-evolution updates an agent's persistent state from prior experience and reuses it to solve related tasks mor…",
       "score": 21
-    },
-    {
-      "id": "002c526d0d9b",
-      "title": "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data",
-      "url": "https://huggingface.co/papers/2608.02580",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Learning generalizable robot manipulation policies requires large-scale and diverse demonstration data. Egocentric huma…",
-      "score": 16
     },
     {
       "id": "ccf97820d301",
@@ -43,23 +35,7 @@
       "url": "https://huggingface.co/papers/2608.04530",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "GUI agents must remember both useful experience from earlier tasks and unfinished progress in the current interaction. …",
-      "score": 9
-    },
-    {
-      "id": "cfdae364f0c0",
-      "title": "K-EXAONE 2.0 Technical Report",
-      "url": "https://huggingface.co/papers/2608.04505",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "This technical report presents K-EXAONE 2.0, an open-weight multilingual foundation model developed by LG AI Research a…",
-      "score": 9
-    },
-    {
-      "id": "15020c703511",
-      "title": "Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming",
-      "url": "https://huggingface.co/papers/2608.05108",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Prompt injection poses significant security risks to LLM agents. Efficient and effective red-teaming is therefore criti…",
-      "score": 5
+      "score": 10
     },
     {
       "id": "34ac9671adb1",
@@ -67,15 +43,15 @@
       "url": "https://huggingface.co/papers/2608.02162",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Model checkpoints are growing in both number and size, which makes archival, transfer, and deployment increasingly cost…",
-      "score": 4
+      "score": 8
     },
     {
-      "id": "f4f8615265df",
-      "title": "Consistency-Driven Co-Evolution for Self-Supervised Cross-Representation Learning",
-      "url": "https://huggingface.co/papers/2608.04926",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "As chart images, tabular data, and visualization code play increasingly important roles across diverse domains, cross-r…",
-      "score": 4
+      "id": "7fad2a26a7c7",
+      "title": "FinanceHarness: Autonomous Financial Deep Research Framework",
+      "url": "https://huggingface.co/papers/2607.27853",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Powered by advances in LLMs and autonomous agents, deep research has become one of the most widely adopted agentic prod…",
+      "score": 3
     },
     {
       "id": "e2b0a34292b3",
@@ -83,6 +59,14 @@
       "url": "https://huggingface.co/papers/2608.03392",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Large language models are increasingly embedded in software engineering workflows as coding agents that can inspect rep…",
+      "score": 3
+    },
+    {
+      "id": "c172200fcbe1",
+      "title": "SIGNPOST-Bench: Benchmarking Text-Vision Conflict Resolution in Multimodal Large Language Models",
+      "url": "https://huggingface.co/papers/2608.04244",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Multimodal large language models (MLLMs) make grounded predictions in real-world scenes by combining visual and textual…",
       "score": 2
     },
     {
@@ -91,6 +75,14 @@
       "url": "https://huggingface.co/papers/2608.03207",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Flow-matching vision-language-action (VLA) models such as pi0 generate robot actions by integrating a learned denoising…",
+      "score": 2
+    },
+    {
+      "id": "e89ffcab997e",
+      "title": "Helping Music Co-Creation Agents 'Listen' Well: Hierarchical Self-Supervised World Models for Understanding and Generation",
+      "url": "https://huggingface.co/papers/2608.04378",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "Collaborative music agents need internal representations rich enough to support both understanding and generation, yet …",
       "score": 1
     },
     {
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2608.03836",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "A framework that persists execution state so a run can be interrupted, survive a crash, and continue must decide what a…",
+      "score": 1
+    },
+    {
+      "id": "125f7a47c77d",
+      "title": "What AI Red-Team Evaluations Can and Cannot Prove",
+      "url": "https://huggingface.co/papers/2607.21735",
+      "publishedAt": "2026-07-23T00:00:00.000Z",
+      "summary": "Red-team evaluations of AI models support some claims and not others, and the boundary between the two is calculable ra…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-06T14:52:48.653Z",
+  "fetchedAt": "2026-08-07T00:23:09.118Z",
   "stale": false,
   "error": null
 }
