@@ -6,70 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "b67dcc3dc1ae",
-      "title": "AI に rm を打たせない — hooks 三段構えの実物",
-      "url": "https://zenn.dev/berrylove/articles/ai-cant-rm-hooks-in-practice",
-      "publishedAt": "2026-08-08T21:07:52.000Z",
-      "publisher": "berrylove inc.",
-      "summary": "先日公開した本『AI 国家運営』の第5章では、「指示書はサブエージェントに徹底されない」という前提に立って、削除コマンドを機械的にブロックする仕組みを「三段構え」として説明しました。本では設計の考え方に絞ったので、コードそのものは書いてい…"
-    },
-    {
-      "id": "1dda2bac6a59",
-      "title": "Grok Build事件「ソース公開」の2日前に何が起きたか",
-      "url": "https://zenn.dev/shuhari_ai/articles/31e8c37837d5a1",
-      "publishedAt": "2026-08-08T20:48:42.000Z",
-      "publisher": "守破離AI",
-      "summary": "! 情報確認日: 2026-08-06。 本記事は、研究者の解析レポート原文・再現用リポジトリ・公開されたソースリポジトリなど、直接確認できた一次情報を土台にしています。直接確認できなかった情報（報道経由の発言引用など）は、その旨を都度明…"
-    },
-    {
-      "id": "6f8b38c1ea14",
-      "title": "WebMCPのnavigator/document揺れをGitHub Issueで裏取りしフォーム公開PoCを書いた",
-      "url": "https://zenn.dev/mskbhd/articles/lab-238-webmcpfeature-detectionpoc",
-      "publishedAt": "2026-08-08T20:45:50.000Z",
-      "publisher": "mskbhd",
-      "summary": "きっかけ SNSで流れてきたWebMCPの解説をメモにまとめていたら、出典によって書いてあることが微妙に違うことに気づいた。 出典 API名 SNSの投稿 modelContext Cloudflare Blog document.mod…"
-    },
-    {
-      "id": "2cc054abe769",
-      "title": "この本の公開ボタンは、人間が押していない",
-      "url": "https://zenn.dev/berrylove/articles/ai-pressed-publish-button",
-      "publishedAt": "2026-08-08T19:12:25.000Z",
-      "publisher": "berrylove inc.",
-      "summary": "先日、私たちは Zenn で有料の技術書を1冊公開しました。企画も、執筆も、校閲も、そして公開ボタンを押す判断も、人間は行っていません。 こう書くと「AI が勝手に本を売り始めた」ように聞こえますが、実態はその逆です。この記事では、「AI…"
-    },
-    {
-      "id": "a1326a50662e",
-      "title": "AIに渡す前の秘密情報チェックからセキュリティ対策の可視化までできるデスクトップアプリを作ってみた（shk Desktop）",
-      "url": "https://zenn.dev/kazuki_tam/articles/72c261b787c101",
-      "publishedAt": "2026-08-08T16:33:09.000Z",
-      "publisher": "Kazuki Yonemoto",
-      "summary": "以前、AIエージェントへ渡す前にローカルの秘密情報をチェックするCLI shk (security-harness-kit) を作った話を書きました。 https://zenn.dev/kazuki_tam/articles/6a8217…"
-    },
-    {
-      "id": "b9bf30c30ee8",
-      "title": "【Atlas定理】反証4回・Lean 13,000行の末に掴んだ解像度不変性定理",
-      "url": "https://zenn.dev/iroha1203/articles/496cff14471f5a",
-      "publishedAt": "2026-08-08T15:21:38.000Z",
-      "publisher": "Hiroyuki Nakahata",
-      "summary": "本記事はHashnodeに公開したAtlas Theorem: How Far Can You Zoom Out?の日本語訳です TL;DR ベテランのレビュアーは、コードを全行読まない。確認したい性質に応じて、読む解像度を切り替える。 …"
-    },
-    {
-      "id": "ed1e976615ed",
-      "title": "直していないのに、直った（11）",
-      "url": "https://zenn.dev/jissokulog/articles/b16fc81f5db637",
-      "publishedAt": "2026-08-08T15:06:49.000Z",
-      "publisher": "実測",
-      "summary": "シリーズ「AIエージェントの報告を信じる前に」の11本目です。1本目からの一覧は記事の最後にあります。 同じ関数が、同じ日の朝には見送られ、夕方には通りました。コードは1行も変えていません。設定も変えていません。入力ファイルの置き場所も同…"
-    },
-    {
-      "id": "439334d9703a",
-      "title": "「信頼済みコマンド」を設定しても夜間オート実行はできなかった - claude --helpで分かった見落とし",
-      "url": "https://zenn.dev/devex12/articles/claude-code-unattended-permission-mode-gap",
-      "publishedAt": "2026-08-08T14:43:38.000Z",
-      "publisher": "dev-ex12",
-      "summary": "この記事で得られること 「調査系コマンドの承認をゼロにする」設定（許可リスト方式）と、「夜間バッチで記事生成→コミット→push→PR作成まで無人で回す」ことの間にあったギャップ claude --help を実際に読んで見つけた、許可リ…"
-    },
-    {
       "id": "106ee3356f59",
       "title": "未経験でもAIでサービスは作れる。でも“出して保つ”には別の力が要る",
       "url": "https://zenn.dev/cyberdog_ai_lab/articles/20260808-essential-engineer-literacy",
@@ -100,9 +36,73 @@
       "publishedAt": "2026-08-08T13:29:08.000Z",
       "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
       "summary": "私は4種類のフィードバックループをハーネスに仕込みました。 3ヶ月後、実際に回っていたのは1つだけでした。 残り3種類は、書いたことすら忘れていました。 3ヶ月経って気づいた「動いてない3つ」 きっかけは月次のログ棚卸しでした。ハーネスに…"
+    },
+    {
+      "id": "79b361c1fd2b",
+      "title": "「その動画、本当に全部見る必要ある？」AI動画要約サービスを個人開発して公開しました",
+      "url": "https://zenn.dev/kagami7777/articles/3bc32eeba736f5",
+      "publishedAt": "2026-08-08T13:25:51.000Z",
+      "publisher": "KAGAMI",
+      "summary": "動画要約サービスを作って公開しました。 Google認証で簡単ログインできますので、使っていただき、フィードバックいただけたら嬉しいです☺️ 現在の機能 現在は無料で利用できますが、個人サーバーで運営しているため、機能制限を設けています。…"
+    },
+    {
+      "id": "e3019f67aa9d",
+      "title": "AIに仕事の文脈を理解させたいなら、ツールではなく関係を繋ぐ",
+      "url": "https://zenn.dev/kkjp/articles/858d2f62fe28b7",
+      "publishedAt": "2026-08-08T13:14:05.000Z",
+      "publisher": "kkjp",
+      "summary": "TL;DR 複数の業務ツールをAIから読めるようにしても、ツール間の因果関係までは 取得できない 足りないのは必ずしもEmbedding精度ではなく、 「どの議論から、どの仕事が生まれたか」という保存済みedge そこでチャット・タスク・…"
+    },
+    {
+      "id": "e0f71b248e1f",
+      "title": "#003 AI時代になぜ設計判断が重要なのか",
+      "url": "https://zenn.dev/kvl/articles/f0aa46ef609ae6",
+      "publishedAt": "2026-08-08T13:02:34.000Z",
+      "publisher": "KnowledgeValidationLab<KVL>",
+      "summary": "#003 AI時代になぜ設計判断が重要なのか ― AIが「答え」を示せる時代だからこそ、人が担うべき役割を考える ― はじめに 前回の記事では、「ベストプラクティス」と「設計判断」は異なるものであり、 ベストプラクティスは設計判断を行うた…"
+    },
+    {
+      "id": "ee5d7355f978",
+      "title": "ページ分割のない自由なスライドをAIに作らせるといった試み（HTMLで）",
+      "url": "https://zenn.dev/6uclz1/articles/f3a8f74a63c1d9",
+      "publishedAt": "2026-08-08T12:59:09.000Z",
+      "publisher": "6uclz1",
+      "summary": "tl;dr 以下の文章をそのままAIに投げて下さい（最初から構成が決まっているのであれば、最後の部分を変えて指示して下さい） HTMLで「HTMLでスライドを作成する方法」を解説するスライドを作成してください。 PowerPointのよう…"
+    },
+    {
+      "id": "cbbac8dd8641",
+      "title": "Unity初心者がAIと一緒に、約1週間でブロック崩しを完成させるまで",
+      "url": "https://zenn.dev/zelk96/articles/unity-beginner-breakout-with-ai",
+      "publishedAt": "2026-08-08T12:32:53.000Z",
+      "publisher": "黒暁",
+      "summary": "はじめに 子どもの頃からゲームが好きで、SFCの『星のカービィ スーパーデラックス』をプレイしたとき、「自分もゲームを作ってスタッフロールに載りたい」と思ったことがありました。 以前はJavaプログラマーとして働いていましたが、その後QA…"
+    },
+    {
+      "id": "fb4f0b7b43b2",
+      "title": "Markdown を読むための canvas を GitHub Copilot app に追加してみた",
+      "url": "https://zenn.dev/microsoft/articles/skimdown-for-github-copilot-app",
+      "publishedAt": "2026-08-08T12:25:17.000Z",
+      "publisher": "Kazuki Ota",
+      "summary": "はじめに 同僚の土田さんが、macOS 向けの Markdown リーダー SkimDown を作っています。設計書や仕様書のような長い Markdown をさくさく読むことに特化したビューアーで、個人的にも「これは良いな」と思っていたア…"
+    },
+    {
+      "id": "1c32d56824cf",
+      "title": "AIが最も間違える領域は「バイト」だ — 固定長・文字コード処理のガードレール設計",
+      "url": "https://zenn.dev/tejunya/articles/a015_byte-boundary",
+      "publishedAt": "2026-08-08T12:00:05.000Z",
+      "publisher": "手順屋",
+      "summary": "半角の英数字だけで作ったテストデータでは、AIが書いた取込処理は問題なく通った。レビューも通った。だが境界値のテストデータ（漢字の入った商品名）を追加した瞬間、そのレコードの全桁がずれた。 固定長・SJIS を扱う案件でAIコーディング支…"
+    },
+    {
+      "id": "9e626bbd2848",
+      "title": "AIエージェントに『見るだけ』をさせる ― Codexを読み取り専用で動かす最初の一歩",
+      "url": "https://zenn.dev/akira_papa/articles/6884605e7b045a",
+      "publishedAt": "2026-08-08T11:52:03.000Z",
+      "publisher": "あきらパパ",
+      "summary": "この記事は「AIエージェントという言葉は聞いたことがあるけれど、自分で動かしたことはない」という方に向けて書いています。扱うのは Codex CLI の権限設定ひとつだけです。読み終えるころには、AIエージェントを「見るだけ・書き換えない…"
     }
   ],
-  "fetchedAt": "2026-08-08T21:33:35.552Z",
+  "fetchedAt": "2026-08-08T22:01:49.520Z",
   "stale": false,
   "error": null
 }
