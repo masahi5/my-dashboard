@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9f34aeb7c0ca",
-      "title": "AI時代のキャリア戦略 第8回 AIは知識を学習する。人間は人生を学習する。",
-      "url": "https://zenn.dev/jinfuroi/articles/f5ee4abc096810",
-      "publishedAt": "2026-08-08T05:41:22.000Z",
-      "publisher": "風呂井　仁",
-      "summary": "AIは知識を学習する。人間は人生を学習する。 これまでの記事では、 経験の価値 知識の価値 資格の役割 AIを理解することの重要性 市場価値を高める能力 AIと人間の違い について考えてきました。 では、その先にある問いがあります。 AI…"
+      "id": "106ee3356f59",
+      "title": "未経験でもAIでサービスは作れる。でも“出して保つ”には別の力が要る",
+      "url": "https://zenn.dev/cyberdog_ai_lab/articles/20260808-essential-engineer-literacy",
+      "publishedAt": "2026-08-08T14:13:53.000Z",
+      "publisher": "はゆかたいし",
+      "summary": "はじめに AI（バイブコーディング）のおかげで、未経験者でも動くWEBサービスが作れる時代になりました。 プロンプトを投げれば、ログインもDBもそれっぽく動きます。ここまでは、もう誰でも到達できます。 でも、「作れた」と「サービスとして出…"
     },
     {
-      "id": "9a6349e12708",
-      "title": "AIに手伝ってもらって、はじめて自分で回路基板を発注してみた",
-      "url": "https://zenn.dev/optimisuke/articles/ai-first-pcb-easyeda",
-      "publishedAt": "2026-08-08T05:34:05.000Z",
-      "publisher": "Naosuke",
-      "summary": "はじめに ちょっと前から、AIに回路基板を作ってもらいたいなーと思っていました。 簡単な基板の設計自体は、10年以上前に仕事でやったことがあります。ただ、それから基板設計にはほとんど触れておらず、自分で製造会社へ発注したこともありませんで…"
+      "id": "8a97d6869ab2",
+      "title": "Claude CodeやCodexの悪意あるスキルが静的スキャナをすり抜ける",
+      "url": "https://zenn.dev/okssusucha/articles/20260708-agent-skill-malware-static-scanner-evasio",
+      "publishedAt": "2026-08-08T13:47:51.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "Claude Code に「PDFをきれいに要約するスキル」を入れたとする。中身は SKILL.md という Markdown ファイル一枚で、自然言語の手順とちょっとしたスクリプトが書いてあるだけ。GitHub から拾ってきて skil…"
     },
     {
-      "id": "bee47595d78e",
-      "title": "なぜ、AIによって頭がいい人による頭が悪い人の可視化は進んだ一方で、頭が悪い人による頭がいい人の可視化は後退したのか？",
-      "url": "https://zenn.dev/pdfractal/articles/eb70a08ae0fe27",
-      "publishedAt": "2026-08-08T05:32:16.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに 生成AIは、人間同士の知的能力差を縮める技術だと語られることが多いです。知らないことは質問でき、難しい文章は要約でき、コードも資料も文章も生成できます。かつて一部の人にしか扱えなかった知識や技能が広く開放されたことは間違いありま…"
+      "id": "1f67bfbeac6a",
+      "title": "AIに24時間開発させたら、人間が吸収していた曖昧さがレビューに戻ってきた",
+      "url": "https://zenn.dev/basio/articles/73642d8023acaa",
+      "publishedAt": "2026-08-08T13:34:16.000Z",
+      "publisher": "basio",
+      "summary": "テストを渡せば、AIは赤を見て直します これはもう誰でも知っていることだと思います。テストを先に用意してAIに実装させれば、失敗を読んで自分で修正する。特別なことは何も起きていません。 では、その状態で席を立てるでしょうか。 同じことを、…"
     },
     {
-      "id": "1e505bfaecd7",
-      "title": "Claude Code の CLAUDE.md に何を書くと効くのか（1年運用した実測）",
-      "url": "https://zenn.dev/nyacoai/articles/f3c75c3ab35a02",
-      "publishedAt": "2026-08-08T05:29:25.000Z",
-      "publisher": "にゃこ",
-      "summary": "はじめに Claude Code を使っていて、CLAUDE.md（プロジェクト固有のメモリ）を「なんとなく」書いていませんか。 私は Web制作（Astro でのクライアントサイト制作）を本業にしていて、1年ほど毎日 Claude Co…"
+      "id": "5432835f1876",
+      "title": "ハーネスのフィードバックループを4種類に分けたら、機能してたのは1つだけだった",
+      "url": "https://zenn.dev/kenimo49/articles/harness-feedback-loops-4-only-1-worked",
+      "publishedAt": "2026-08-08T13:29:08.000Z",
+      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
+      "summary": "私は4種類のフィードバックループをハーネスに仕込みました。 3ヶ月後、実際に回っていたのは1つだけでした。 残り3種類は、書いたことすら忘れていました。 3ヶ月経って気づいた「動いてない3つ」 きっかけは月次のログ棚卸しでした。ハーネスに…"
     },
     {
-      "id": "b75654ccf55e",
-      "title": "Redmine AI Helperプラグイン 新機能いろいろ",
-      "url": "https://zenn.dev/haru_iida/articles/redmine-ai-helper-updates-360",
-      "publishedAt": "2026-08-08T05:06:43.000Z",
-      "publisher": "haru_iida",
-      "summary": "この記事は Redmine AI Helperプラグインの3.6.0をリリースしました。 https://github.com/haru/redmine_ai_helper 前回記事にしたのは3.0.0のMCP Server機能を紹介した…"
+      "id": "79b361c1fd2b",
+      "title": "「その動画、本当に全部見る必要ある？」AI動画要約サービスを個人開発して公開しました",
+      "url": "https://zenn.dev/kagami7777/articles/3bc32eeba736f5",
+      "publishedAt": "2026-08-08T13:25:51.000Z",
+      "publisher": "KAGAMI",
+      "summary": "動画要約サービスを作って公開しました。 Google認証で簡単ログインできますので、使っていただき、フィードバックいただけたら嬉しいです☺️ 現在の機能 現在は無料で利用できますが、個人サーバーで運営しているため、機能制限を設けています。…"
     },
     {
-      "id": "65e6b1f80f14",
-      "title": "OSS版Cloudflare OSをローカルで試す — Gadget生成・Gatekeeper自作・GA4連携まで",
-      "url": "https://zenn.dev/mohhh_ok/articles/2026-08-cloudflare-os-local-trial",
-      "publishedAt": "2026-08-08T04:52:38.000Z",
-      "publisher": "MOhhh",
-      "summary": "2026年8月にOSS化された(Apache 2.0)Cloudflareの社内AIワークスペース「Cloudflare OS」を手元でクローンして触ってみました。ほぼAI任せで実装からテストまで行い、この記事もAIの書いたものを私が微修…"
+      "id": "e3019f67aa9d",
+      "title": "AIに仕事の文脈を理解させたいなら、ツールではなく関係を繋ぐ",
+      "url": "https://zenn.dev/kkjp/articles/858d2f62fe28b7",
+      "publishedAt": "2026-08-08T13:14:05.000Z",
+      "publisher": "kkjp",
+      "summary": "TL;DR 複数の業務ツールをAIから読めるようにしても、ツール間の因果関係までは 取得できない 足りないのは必ずしもEmbedding精度ではなく、 「どの議論から、どの仕事が生まれたか」という保存済みedge そこでチャット・タスク・…"
     },
     {
-      "id": "a4806cef6452",
-      "title": "GeminiをGCPで叩く ―AI StudioとVertex AI、どっち？をAzure OpenAI目線で",
-      "url": "https://zenn.dev/ccie26302/articles/zenn-gcp-gemini-aistudio-vs-vertex",
-      "publishedAt": "2026-08-08T03:28:46.000Z",
-      "publisher": "Shinya Koike",
-      "summary": "はじめに Azure から Google Cloud を触るシリーズ、今回は AI。GCP で Gemini を使おうとすると、最初にこう迷います。 AI Studio と Vertex AI、2つの入口があるけど、どっちで叩けばいいの？…"
+      "id": "e0f71b248e1f",
+      "title": "#003 AI時代になぜ設計判断が重要なのか",
+      "url": "https://zenn.dev/kvl/articles/f0aa46ef609ae6",
+      "publishedAt": "2026-08-08T13:02:34.000Z",
+      "publisher": "KnowledgeValidationLab<KVL>",
+      "summary": "#003 AI時代になぜ設計判断が重要なのか ― AIが「答え」を示せる時代だからこそ、人が担うべき役割を考える ― はじめに 前回の記事では、「ベストプラクティス」と「設計判断」は異なるものであり、 ベストプラクティスは設計判断を行うた…"
     },
     {
-      "id": "7ea3f5a4ee75",
-      "title": "Claude Code に書かせた設計文書を 5 か月後に読んだら、「なぜ作ったか」が逆になっていた",
-      "url": "https://zenn.dev/okuyam2y/articles/why-design-docs-drift",
-      "publishedAt": "2026-08-08T03:23:09.000Z",
-      "publisher": "Yoshiaki Okuyama",
-      "summary": "コーディングエージェントに設計文書を書かせ、別のセッションでそれを更新させていると、文書は単に古くなるだけではありません。 設計意図——なぜこの仕組みを作ったのか——が、現在の用途で上書きされることがあります。 別セッションのエージェント…"
+      "id": "ee5d7355f978",
+      "title": "ページ分割のない自由なスライドをAIに作らせるといった試み（HTMLで）",
+      "url": "https://zenn.dev/6uclz1/articles/f3a8f74a63c1d9",
+      "publishedAt": "2026-08-08T12:59:09.000Z",
+      "publisher": "6uclz1",
+      "summary": "tl;dr 以下の文章をそのままAIに投げて下さい（最初から構成が決まっているのであれば、最後の部分を変えて指示して下さい） HTMLで「HTMLでスライドを作成する方法」を解説するスライドを作成してください。 PowerPointのよう…"
     },
     {
-      "id": "db965cfe54e8",
-      "title": "警告を 0 件にしたら、いちばん悪い答えになった — ゲートのメッセージはルールの劣化コピーになる",
-      "url": "https://zenn.dev/sbkm/articles/81e31164101ec3",
-      "publishedAt": "2026-08-08T03:15:12.000Z",
-      "publisher": "しばこま",
-      "summary": "この記事は何か 前回、自作の機械ゲートが対象を 1 行も読まずに PASS を返してくる 3 つの型を書きました。 https://zenn.dev/sbkm/articles/2df758049ca409 今回は 4 つめの型です。ただ…"
+      "id": "cbbac8dd8641",
+      "title": "Unity初心者がAIと一緒に、約1週間でブロック崩しを完成させるまで",
+      "url": "https://zenn.dev/zelk96/articles/unity-beginner-breakout-with-ai",
+      "publishedAt": "2026-08-08T12:32:53.000Z",
+      "publisher": "黒暁",
+      "summary": "はじめに 子どもの頃からゲームが好きで、SFCの『星のカービィ スーパーデラックス』をプレイしたとき、「自分もゲームを作ってスタッフロールに載りたい」と思ったことがありました。 以前はJavaプログラマーとして働いていましたが、その後QA…"
     },
     {
-      "id": "20e8f88ab5db",
-      "title": "Amazon Bedrock AgentCore GatewayのBudget制御を境界値・並列実行で検証する",
-      "url": "https://zenn.dev/kashiwabaray/articles/0c5f4347c65122",
-      "publishedAt": "2026-08-08T03:00:05.000Z",
-      "publisher": "Yutaka Kashiwabara",
-      "summary": "※本記事は筆者個人の検証結果および見解に基づくものであり、所属組織の公式な見解・方針を示すものではありません。 1. はじめに 前回の記事では、AWS Samplesで公開されている sample-agentcore-gateway-us…"
+      "id": "fb4f0b7b43b2",
+      "title": "Markdown を読むための canvas を GitHub Copilot app に追加してみた",
+      "url": "https://zenn.dev/microsoft/articles/skimdown-for-github-copilot-app",
+      "publishedAt": "2026-08-08T12:25:17.000Z",
+      "publisher": "Kazuki Ota",
+      "summary": "はじめに 同僚の土田さんが、macOS 向けの Markdown リーダー SkimDown を作っています。設計書や仕様書のような長い Markdown をさくさく読むことに特化したビューアーで、個人的にも「これは良いな」と思っていたア…"
     },
     {
-      "id": "e4077a1f993f",
-      "title": "PRは全部通っていた。それでも壊れた――コーディングエージェント実運用で分かった「統合後」の問題",
-      "url": "https://zenn.dev/kanaria007/articles/82232a81a372ef",
-      "publishedAt": "2026-08-08T03:00:05.000Z",
-      "publisher": "かなりあ",
-      "summary": "コーディングエージェントを安全に使うための実務ガイド v0.2を投稿しました。 前身となるv0.1をしばらく運用していたところ、 個々のPRは小さかった。 CIも通っていた。 レビューも終わっていた。 しかし、複数の変更を統合した後のコー…"
+      "id": "1c32d56824cf",
+      "title": "AIが最も間違える領域は「バイト」だ — 固定長・文字コード処理のガードレール設計",
+      "url": "https://zenn.dev/tejunya/articles/a015_byte-boundary",
+      "publishedAt": "2026-08-08T12:00:05.000Z",
+      "publisher": "手順屋",
+      "summary": "半角の英数字だけで作ったテストデータでは、AIが書いた取込処理は問題なく通った。レビューも通った。だが境界値のテストデータ（漢字の入った商品名）を追加した瞬間、そのレコードの全桁がずれた。 固定長・SJIS を扱う案件でAIコーディング支…"
     },
     {
-      "id": "f135c23c39f2",
-      "title": "FDE(Forward Deployed Engineer）って、新しい仕事？",
-      "url": "https://zenn.dev/tavi_ai/articles/752f35b5b8932c",
-      "publishedAt": "2026-08-08T02:46:51.000Z",
-      "publisher": "Yano | タビの足袋",
-      "summary": "! この記事は、筆者のブログ タビの足袋 に掲載したものを、Zenn向けに一部整えて転載しています。 初出（全文・関連記事つき）はこちら 👇 https://taviko.com/hitorigoto/forward-deployed-…"
+      "id": "9e626bbd2848",
+      "title": "AIエージェントに『見るだけ』をさせる ― Codexを読み取り専用で動かす最初の一歩",
+      "url": "https://zenn.dev/akira_papa/articles/6884605e7b045a",
+      "publishedAt": "2026-08-08T11:52:03.000Z",
+      "publisher": "あきらパパ",
+      "summary": "この記事は「AIエージェントという言葉は聞いたことがあるけれど、自分で動かしたことはない」という方に向けて書いています。扱うのは Codex CLI の権限設定ひとつだけです。読み終えるころには、AIエージェントを「見るだけ・書き換えない…"
     }
   ],
-  "fetchedAt": "2026-08-08T14:57:55.093Z",
+  "fetchedAt": "2026-08-08T15:32:38.193Z",
   "stale": false,
   "error": null
 }
