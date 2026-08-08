@@ -6,54 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "a4806cef6452",
-      "title": "GeminiをGCPで叩く ―AI StudioとVertex AI、どっち？をAzure OpenAI目線で",
-      "url": "https://zenn.dev/ccie26302/articles/zenn-gcp-gemini-aistudio-vs-vertex",
-      "publishedAt": "2026-08-08T03:28:46.000Z",
-      "publisher": "Shinya Koike",
-      "summary": "はじめに Azure から Google Cloud を触るシリーズ、今回は AI。GCP で Gemini を使おうとすると、最初にこう迷います。 AI Studio と Vertex AI、2つの入口があるけど、どっちで叩けばいいの？…"
-    },
-    {
-      "id": "7ea3f5a4ee75",
-      "title": "Claude Code に書かせた設計文書を 5 か月後に読んだら、「なぜ作ったか」が逆になっていた",
-      "url": "https://zenn.dev/okuyam2y/articles/why-design-docs-drift",
-      "publishedAt": "2026-08-08T03:23:09.000Z",
-      "publisher": "Yoshiaki Okuyama",
-      "summary": "コーディングエージェントに設計文書を書かせ、別のセッションでそれを更新させていると、文書は単に古くなるだけではありません。 設計意図——なぜこの仕組みを作ったのか——が、現在の用途で上書きされることがあります。 別セッションのエージェント…"
-    },
-    {
-      "id": "db965cfe54e8",
-      "title": "警告を 0 件にしたら、いちばん悪い答えになった — ゲートのメッセージはルールの劣化コピーになる",
-      "url": "https://zenn.dev/sbkm/articles/81e31164101ec3",
-      "publishedAt": "2026-08-08T03:15:12.000Z",
-      "publisher": "しばこま",
-      "summary": "この記事は何か 前回、自作の機械ゲートが対象を 1 行も読まずに PASS を返してくる 3 つの型を書きました。 https://zenn.dev/sbkm/articles/2df758049ca409 今回は 4 つめの型です。ただ…"
-    },
-    {
-      "id": "20e8f88ab5db",
-      "title": "Amazon Bedrock AgentCore GatewayのBudget制御を境界値・並列実行で検証する",
-      "url": "https://zenn.dev/kashiwabaray/articles/0c5f4347c65122",
-      "publishedAt": "2026-08-08T03:00:05.000Z",
-      "publisher": "Yutaka Kashiwabara",
-      "summary": "※本記事は筆者個人の検証結果および見解に基づくものであり、所属組織の公式な見解・方針を示すものではありません。 1. はじめに 前回の記事では、AWS Samplesで公開されている sample-agentcore-gateway-us…"
-    },
-    {
-      "id": "e4077a1f993f",
-      "title": "PRは全部通っていた。それでも壊れた――コーディングエージェント実運用で分かった「統合後」の問題",
-      "url": "https://zenn.dev/kanaria007/articles/82232a81a372ef",
-      "publishedAt": "2026-08-08T03:00:05.000Z",
-      "publisher": "かなりあ",
-      "summary": "コーディングエージェントを安全に使うための実務ガイド v0.2を投稿しました。 前身となるv0.1をしばらく運用していたところ、 個々のPRは小さかった。 CIも通っていた。 レビューも終わっていた。 しかし、複数の変更を統合した後のコー…"
-    },
-    {
-      "id": "f135c23c39f2",
-      "title": "FDE(Forward Deployed Engineer）って、新しい仕事？",
-      "url": "https://zenn.dev/tavi_ai/articles/752f35b5b8932c",
-      "publishedAt": "2026-08-08T02:46:51.000Z",
-      "publisher": "Yano | タビの足袋",
-      "summary": "! この記事は、筆者のブログ タビの足袋 に掲載したものを、Zenn向けに一部整えて転載しています。 初出（全文・関連記事つき）はこちら 👇 https://taviko.com/hitorigoto/forward-deployed-…"
-    },
-    {
       "id": "688124ef9e2e",
       "title": "プロバイダー単位のロックでブラウザ自動化の競合を防ぐ - テスト設計",
       "url": "https://zenn.dev/kmn/articles/7bee0901e4f7db",
@@ -100,9 +52,57 @@
       "publishedAt": "2026-08-08T00:47:24.000Z",
       "publisher": "Kenji Igarashi",
       "summary": "🧭 はじめに この記事は「LLM（大規模言語モデル）」の概念を直感的に伝えるための読み物です。そのため、難解な数学的数式や、専門的なグラフは一切登場しません。 巷のAI解説書や技術記事を開くと、すぐに「多次元ベクトルの分布図」が出てきて…"
+    },
+    {
+      "id": "840d81a9f988",
+      "title": "OpenCode用GUI「openchamber」を実際に動かして3条件を検証した",
+      "url": "https://zenn.dev/mskbhd/articles/lab-236-openchamber-opencodegui-gui-os",
+      "publishedAt": "2026-08-08T00:39:28.000Z",
+      "publisher": "mskbhd",
+      "summary": "はじめに 複数のAIコーディングエージェント(CLI/TUIハーネス)を使い比べた結果として「OpenCode + openchamber」の組み合わせに行き着いた、という趣旨の投稿をSNSで見かけた。挙げられていた判断基準を自分なりに要…"
+    },
+    {
+      "id": "53769d8119ad",
+      "title": "AIの暴走が怖いのでOTelで収集したエージェントのトレースから異常検知システムを構築してみる",
+      "url": "https://zenn.dev/rick2200/articles/c5d90108d0eb87",
+      "publishedAt": "2026-08-08T00:27:52.000Z",
+      "publisher": "Rick2200",
+      "summary": "要約 AIエージェントの「暴走」— 無限ループ・コストの過剰消耗・目的の逸脱・危険操作 — を、OpenTelemetry(以下 OTel)で集めた行動トレースから準リアルタイムに検知するPoCを作りました。 収集は OTel GenAI…"
+    },
+    {
+      "id": "d350ab1ec81b",
+      "title": "A Pre-Publish Review Checklist for Photo-to-Dance Video Pipelines",
+      "url": "https://zenn.dev/wendyxyz733/articles/b8ccfec4aa0097",
+      "publishedAt": "2026-08-08T00:02:13.000Z",
+      "publisher": "Wendy Xu",
+      "summary": "A Pre-Publish Review Checklist for Photo-to-Dance Video Pipelines Why Spot-Checking AI-Generated Dance Clips Doesn't Sc…"
+    },
+    {
+      "id": "233caacf58e5",
+      "title": "A Checklist for Turning Scripts into Reviewable Video Drafts...",
+      "url": "https://zenn.dev/tairagiang612/articles/316c7343cfaa4a",
+      "publishedAt": "2026-08-08T00:00:40.000Z",
+      "publisher": "Giang Taira",
+      "summary": "A Checklist for Turning Scripts into Reviewable Video Drafts... The Pre-Visualization Bottleneck in Script-to-Video Pip…"
+    },
+    {
+      "id": "5bcb3790d3ee",
+      "title": "「AIに自分でミスを直させる」が伸びてるけど、それ自己申告では? と思ったので、うちは逆をやった",
+      "url": "https://zenn.dev/shio_shoppaize/articles/kagemusha-self-audit",
+      "publishedAt": "2026-08-08T00:00:21.000Z",
+      "publisher": "おしお",
+      "summary": "AIに自分の出力を検査させ、ミスを見つけさせ、自分で直させる。人間のレビュー工程こそスケールの限界だから外そう——って話がタイムラインで伸びてる。 それ、自己申告では? 影武者はオレのAIの呼び名だ（Claude Codeの常駐エージェン…"
+    },
+    {
+      "id": "179fa2a49871",
+      "title": "Claude Codeを初めて使ってみた #2 基本操作編：読ませて、直させて、実行させる",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-02-basics",
+      "publishedAt": "2026-08-07T23:59:01.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code を初めて触った記録を連載で残しています。前回はインストールから初回起動までをまとめました。 https://zenn.dev/mika_and_coco/articles/claude-code-diar…"
     }
   ],
-  "fetchedAt": "2026-08-08T11:53:22.631Z",
+  "fetchedAt": "2026-08-08T12:39:50.821Z",
   "stale": false,
   "error": null
 }
