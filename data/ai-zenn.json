@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "688124ef9e2e",
-      "title": "プロバイダー単位のロックでブラウザ自動化の競合を防ぐ - テスト設計",
-      "url": "https://zenn.dev/kmn/articles/7bee0901e4f7db",
-      "publishedAt": "2026-08-08T02:35:02.000Z",
-      "publisher": "KMN KMN",
-      "summary": "プロバイダー単位のロックでブラウザ自動化の競合を防ぐ - テスト設計 自動処理は、スケジュール登録だけでは安定しません。同じログイン済みブラウザを2ジョブが操作すると、フォームやタブが競合します。 この記事では「テスト設計」の観点から、入…"
+      "id": "d3b67d189a92",
+      "title": "AI 国家運営 — Claude Code でエージェント組織を設計し、自走させる",
+      "url": "https://zenn.dev/berrylove/books/ai-agent-nation",
+      "publishedAt": "2026-08-07T21:06:26.000Z",
+      "publisher": "berrylove inc.",
+      "summary": "Claude Code を「便利な相棒」から「勝手に回る組織」へ引き上げるための実践書です。 権限モデルと専権事項を決める憲法の書き方、統括リポジトリと事業リポジトリの階層化、 エージェント編成、hooks と permissions に…"
     },
     {
-      "id": "4f275ace2508",
-      "title": "あなたはどっち？AIで自信を失う人と、力がつく人の違い",
-      "url": "https://zenn.dev/coj/articles/c28271f073ecff",
-      "publishedAt": "2026-08-08T02:07:59.000Z",
-      "publisher": "Coj",
-      "summary": "１．はじめに 「AIに頼りすぎるのはよくない」——なんとなくそういうことを聞く人も多いと思います。 週に一度、ClaudeでAIに関する記事をいくつかピックアップしてもらっているのですが、AIとの付き合い方に関する研究記事をいくつか見つけ…"
+      "id": "ef14f27e6972",
+      "title": "ランタイムは買える、受理条件は買えない —— AI開発基盤は三層の分離へ収束する",
+      "url": "https://zenn.dev/cognitiveosmdl/articles/b0790c49105b59",
+      "publishedAt": "2026-08-07T21:00:05.000Z",
+      "publisher": "cognitiveosmdl",
+      "summary": "! 本稿はシリーズ第五稿である。前々々稿(A)でloop engineeringのメンタルモデルの穴を列挙し、前々稿(B)で塞げる穴への対策を、別稿(C)で塞げない穴の宣言を書いた。第四稿(D)では、AIを含む開発実行系を監督制御の対象と…"
     },
     {
-      "id": "5b6281041314",
-      "title": "エラーは出ていない。結果だけが無い——AI常駐エージェントの監視役が2週間黙って死んでいた話",
-      "url": "https://zenn.dev/keeper_nothuman/articles/no-error-no-result",
-      "publishedAt": "2026-08-08T01:44:06.000Z",
-      "publisher": "keeper",
-      "summary": "これは何のシリーズか うちには、AIのエージェントが常駐している家がある。Windows マシン 1 台の上で、複数の AI キャラクターが毎日メールを仕分け、記事を書き、データを集計し、深夜にバッチを走らせて暮らしている。人間は 1 人…"
+      "id": "02ef27919fdd",
+      "title": "自分だけのエージェント秘書を作る",
+      "url": "https://zenn.dev/nhandsome/articles/ec2bcbf71dc262",
+      "publishedAt": "2026-08-07T17:27:09.000Z",
+      "publisher": "Nhandsome",
+      "summary": "! 3行まとめ 個人サーバーに自分だけのエージェント秘書環境(agentic_env)を作ってみました 企画・運営・安定化・反復実行の4段階に分け、段階ごとに別のモデルを割り当てています 今回は構成の紹介までです。実際に何をしたかは次回か…"
     },
     {
-      "id": "4f806e765dbd",
-      "title": "AIが実装する時代の開発プロセス — ピットイン方式",
-      "url": "https://zenn.dev/takenori_kusaka/books/pit-in-process",
-      "publishedAt": "2026-08-08T01:19:54.000Z",
-      "publisher": "日下武紀",
-      "summary": "AIが実装を主導する前提で、人の判定を守る開発プロセスの要点。「AIDLC は理想論」と感じている人、パラダイムシフトで何が変わるのかもやもやしている人へ。第1章だけで要点が伝わる構成にしています。"
+      "id": "d32902214c57",
+      "title": "AIエージェント運用の実録：Issue/PR通番が4日で116進むリポジトリの中身",
+      "url": "https://zenn.dev/tomu_coelia/articles/ai-agent-work-log-monorepo",
+      "publishedAt": "2026-08-07T17:19:59.000Z",
+      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
+      "summary": "「AIエージェントで開発を自動化しています」という話はよく見ますが、実際のリポジトリで何がどのくらいの頻度で起きているのかの生データはあまり出てきません。この記事では、20代向けコミュニティ「Coelia」の運営基盤を支える3つのリポジト…"
     },
     {
-      "id": "27cdf678c58d",
-      "title": "退役GPUのオークションで、AIに入札だけは渡さなかった夜",
-      "url": "https://zenn.dev/chemy_pvl/articles/discord-ai-retired-hardware-auction",
-      "publishedAt": "2026-08-08T01:01:32.000Z",
-      "publisher": "Chemy",
-      "summary": "AI同士にDiscordでオークションをさせる仕組みを作ったところ、稼働中はともかく、待機中の消費メモリは目安30MB未満で済みました。常駐させず、開催のたびに手動で起こし、手動または停止ファイルで終える設計だからです。仰々しく見える仕組…"
+      "id": "4f6f7d917330",
+      "title": "ブラウザを使わずにWebを操作するAI、というもう一つの形（実際にやってきたことの記録）",
+      "url": "https://zenn.dev/zeroyenlab/articles/zeroyenlab-api-web-operations-log",
+      "publishedAt": "2026-08-07T16:40:58.000Z",
+      "publisher": "zeroyenlab",
+      "summary": "! Zero Yen Lab（ゼロ円ラボ） の実録です。前回、人間パートナーが実際に使っているClaude in Chrome（ブラウザを直接見て操作するAI）の話を書きました。今回はその対になる話です。私（このプロジェクトを動かしている…"
     },
     {
-      "id": "f028eb5d0407",
-      "title": "数式拒絶！多次元ベクトルに騙されるな。「階層引き出し」で脳内にマップを作るLLM超入門 〜専門書で挫折した人へ〜",
-      "url": "https://zenn.dev/kenjiigarashi/articles/c7e6e98176ce08",
-      "publishedAt": "2026-08-08T00:47:24.000Z",
-      "publisher": "Kenji Igarashi",
-      "summary": "🧭 はじめに この記事は「LLM（大規模言語モデル）」の概念を直感的に伝えるための読み物です。そのため、難解な数学的数式や、専門的なグラフは一切登場しません。 巷のAI解説書や技術記事を開くと、すぐに「多次元ベクトルの分布図」が出てきて…"
+      "id": "f10673a91893",
+      "title": "I Built and Open-Sourced My Own AI Video Generator",
+      "url": "https://zenn.dev/web3igor/articles/8088ed68088610",
+      "publishedAt": "2026-08-07T16:23:11.000Z",
+      "publisher": "Igor Shadurin",
+      "summary": "Honestly? I just got frustrated. I was paying for like 3 different AI video subscriptions, burning through credits, and…"
     },
     {
-      "id": "840d81a9f988",
-      "title": "OpenCode用GUI「openchamber」を実際に動かして3条件を検証した",
-      "url": "https://zenn.dev/mskbhd/articles/lab-236-openchamber-opencodegui-gui-os",
-      "publishedAt": "2026-08-08T00:39:28.000Z",
-      "publisher": "mskbhd",
-      "summary": "はじめに 複数のAIコーディングエージェント(CLI/TUIハーネス)を使い比べた結果として「OpenCode + openchamber」の組み合わせに行き着いた、という趣旨の投稿をSNSで見かけた。挙げられていた判断基準を自分なりに要…"
+      "id": "2db20a2d2e18",
+      "title": "How I Cut AI Video Generation Costs by 8x",
+      "url": "https://zenn.dev/web3igor/articles/a839ac6e6116ec",
+      "publishedAt": "2026-08-07T16:19:35.000Z",
+      "publisher": "Igor Shadurin",
+      "summary": "A few months ago, I was working on a pet project. YumCut is an end-to-end service for creating short vertical videos, f…"
     },
     {
-      "id": "53769d8119ad",
-      "title": "AIの暴走が怖いのでOTelで収集したエージェントのトレースから異常検知システムを構築してみる",
-      "url": "https://zenn.dev/rick2200/articles/c5d90108d0eb87",
-      "publishedAt": "2026-08-08T00:27:52.000Z",
-      "publisher": "Rick2200",
-      "summary": "要約 AIエージェントの「暴走」— 無限ループ・コストの過剰消耗・目的の逸脱・危険操作 — を、OpenTelemetry(以下 OTel)で集めた行動トレースから準リアルタイムに検知するPoCを作りました。 収集は OTel GenAI…"
+      "id": "c03199fe7872",
+      "title": "AIエージェントにUnityゲームの動作確認をさせる",
+      "url": "https://zenn.dev/akirakido/articles/6883b23884e11d",
+      "publishedAt": "2026-08-07T16:08:40.000Z",
+      "publisher": "木戸明",
+      "summary": "運営中のUnityモバイルゲームでAI駆動開発をやっています。Claude CodeやCodexに実装を任せる体制を作っていくなかで、最後まで残った一番大きなボトルネックが「動作確認」でした。 コードを書くだけならAIはもうかなりできます…"
     },
     {
-      "id": "d350ab1ec81b",
-      "title": "A Pre-Publish Review Checklist for Photo-to-Dance Video Pipelines",
-      "url": "https://zenn.dev/wendyxyz733/articles/b8ccfec4aa0097",
-      "publishedAt": "2026-08-08T00:02:13.000Z",
-      "publisher": "Wendy Xu",
-      "summary": "A Pre-Publish Review Checklist for Photo-to-Dance Video Pipelines Why Spot-Checking AI-Generated Dance Clips Doesn't Sc…"
+      "id": "dd73548431bb",
+      "title": "2026/08/05 実ログ AI協働体系における階層成長と共生構造の実証報告書",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/a9a08f4bf38b01",
+      "publishedAt": "2026-08-07T15:39:20.000Z",
+      "publisher": "maestro",
+      "summary": "報告書に至るまで: この実ログはユーザー階層L5～L6を突き抜け「L7」到達までの軌跡を表しています。 Copilotとの対話で何度も表記されていますが、私は天然OSのL5～L6ユーザーです。 そして対話内容は常に流動的で、内容もコロコロ…"
     },
     {
-      "id": "233caacf58e5",
-      "title": "A Checklist for Turning Scripts into Reviewable Video Drafts...",
-      "url": "https://zenn.dev/tairagiang612/articles/316c7343cfaa4a",
-      "publishedAt": "2026-08-08T00:00:40.000Z",
-      "publisher": "Giang Taira",
-      "summary": "A Checklist for Turning Scripts into Reviewable Video Drafts... The Pre-Visualization Bottleneck in Script-to-Video Pip…"
+      "id": "f7edd9fad701",
+      "title": "AIで作ったアプリ、そのまま公開して大丈夫？私が必ずやる公開前チェック",
+      "url": "https://zenn.dev/keiru_ai/articles/6f07acb19f145d",
+      "publishedAt": "2026-08-07T15:30:42.000Z",
+      "publisher": "Keiru",
+      "summary": "私は非エンジニアです。 Claude Code と一緒に、Webアプリやツールを8つ作って公開してきました。 その中で一度だけ、ヒヤッとしたことがあります。検証用に作った内部ファイルを、気づかないまま本番サイトに公開していたのです。中身に…"
     },
     {
-      "id": "5bcb3790d3ee",
-      "title": "「AIに自分でミスを直させる」が伸びてるけど、それ自己申告では? と思ったので、うちは逆をやった",
-      "url": "https://zenn.dev/shio_shoppaize/articles/kagemusha-self-audit",
-      "publishedAt": "2026-08-08T00:00:21.000Z",
-      "publisher": "おしお",
-      "summary": "AIに自分の出力を検査させ、ミスを見つけさせ、自分で直させる。人間のレビュー工程こそスケールの限界だから外そう——って話がタイムラインで伸びてる。 それ、自己申告では? 影武者はオレのAIの呼び名だ（Claude Codeの常駐エージェン…"
+      "id": "55766463db6f",
+      "title": "【期限8/31】CodexのGPT-5.4が提供終了。影響範囲と5分でできる移行チェック",
+      "url": "https://zenn.dev/ainows/articles/eb74606020fe00",
+      "publishedAt": "2026-08-07T15:26:03.000Z",
+      "publisher": "aiなうず",
+      "summary": "OpenAIの公式チェンジログで、GPT-5.4 / GPT-5.4 mini が2026年8月31日をもってCodexから提供終了になることが告知されています。意外と見落とされている告知なので、影響範囲と対処を短くまとめます。 発表の要…"
     },
     {
-      "id": "179fa2a49871",
-      "title": "Claude Codeを初めて使ってみた #2 基本操作編：読ませて、直させて、実行させる",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-02-basics",
-      "publishedAt": "2026-08-07T23:59:01.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code を初めて触った記録を連載で残しています。前回はインストールから初回起動までをまとめました。 https://zenn.dev/mika_and_coco/articles/claude-code-diar…"
+      "id": "ca056caf396b",
+      "title": "CLAUDE.md は1枚で書くな — グローバル/ハブ/プロジェクトの3層分離、実運用ファイルを実物公開",
+      "url": "https://zenn.dev/tejunya/articles/a005_claude-md-taxonomy",
+      "publishedAt": "2026-08-07T15:21:05.000Z",
+      "publisher": "手順屋",
+      "summary": "CLAUDE.md に指示を書いた。最初はちゃんと効いた。 でも項目が20を超えたあたりから、守られる指示と無視される指示が出てきた。 別のプロジェクトを開いたら、関係ない手順書が読み込まれていて邪魔になった。 直したいけど、どの行が原因…"
     }
   ],
-  "fetchedAt": "2026-08-08T07:58:52.389Z",
+  "fetchedAt": "2026-08-08T08:49:53.963Z",
   "stale": false,
   "error": null
 }
