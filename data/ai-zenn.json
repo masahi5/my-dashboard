@@ -6,6 +6,46 @@
   "category": "ai",
   "items": [
     {
+      "id": "6e5b8a60b0d1",
+      "title": "思いつきのパズルゲームを、AIと「使える状態」まで持っていく",
+      "url": "https://zenn.dev/hummer/articles/reactive-extream-ai-end-to-end",
+      "publishedAt": "2026-08-08T10:35:42.000Z",
+      "publisher": "Yamamoto Yuji / はまあ",
+      "summary": "はじめに 「マーブル図って、読むものじゃなくて組み立てるものでは？」 RxJS のドキュメントを眺めていて浮かんだ、それだけの思いつきでした。そこから Claude Code に投げ続けて、94ステージのパズルゲームとして公開しました。 …"
+    },
+    {
+      "id": "6aba0ceb5e10",
+      "title": "BigQueryのGeminiアシスタントで非エンジニアが自力でSQL分析できるか検証した",
+      "url": "https://zenn.dev/web_benriya/articles/bigquery-gemini-assistant-noneng-sql-validation",
+      "publishedAt": "2026-08-08T10:13:54.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに 「BigQueryにデータは蓄積されているのに、SQLが書けないから分析できない」というお悩みを、中小ECサイトの経営者やWebコンサルタントの方からよく伺います。GA4のデータをBigQueryにエクスポートする設定まではでき…"
+    },
+    {
+      "id": "74ed14e33430",
+      "title": "【最終回】やっててよかったSNS・tagasill開発の感想文",
+      "url": "https://zenn.dev/katsutoatsuto/articles/a081c9b97aa7b6",
+      "publishedAt": "2026-08-08T09:51:33.000Z",
+      "publisher": "katsutoatsuto",
+      "summary": "というわけで、twitter17年分の分析をAIにさせようとして、気がついたらアイディア出しがとんでもなく楽になるノートアプリができてたという一連の記事は、今回で終わりです。 実をいうと、どうにもZennの文体には慣れず、これまでの記事は…"
+    },
+    {
+      "id": "17f5e8edaed8",
+      "title": "Cloudflare WebMCP入門：AIがWebを「画面」ではなく「機能」として扱う仕組み",
+      "url": "https://zenn.dev/archack/articles/cloudflare-webmcp-introduction",
+      "publishedAt": "2026-08-08T09:50:23.000Z",
+      "publisher": "株式会社ArcHack",
+      "summary": "はじめに こんにちは、ArcHack株式会社 代表の宮田です。情報学（人工知能）を専攻する現役大学院生として研究を続けながら、京都でAIシステムの受託開発を行っています。海外のAI・開発の最新情報を、日本企業や地方の現場で使える形へ翻訳し…"
+    },
+    {
+      "id": "9302e35beefc",
+      "title": "ClaudeCodeの利用制限がきたらCodexにのりかえる仕組みを作った",
+      "url": "https://zenn.dev/uguisu_blog/articles/f184b67962ce7c",
+      "publishedAt": "2026-08-08T09:37:04.000Z",
+      "publisher": "ぴよ",
+      "summary": "こんにちは。うぐいすソリューションズのぴよです。私は経営者ですが、病むたびにClaudeCodeをぶんまわして開発をしています。 普段はClaudeDesktopのCoworkを使ってスライド作成だの、事業計画作成だのをしているのでサブス…"
+    },
+    {
       "id": "2e6990d7bd31",
       "title": "Claude Code に作業ログを書かせたら60本たまった — 引き継ぎもネタ出しも困らない運用",
       "url": "https://zenn.dev/hoshiorange/articles/06-claude-code-worklog-as-asset",
@@ -60,49 +100,9 @@
       "publishedAt": "2026-08-08T08:12:31.000Z",
       "publisher": "Shota | devnestio",
       "summary": "矢印・数学記号・著作権マーク・通貨記号などをドキュメントやコードに使いたいとき、いちいち検索するのが面倒。devnestio に Unicode Symbol Table を追加しました。 https://devnestio.pages.…"
-    },
-    {
-      "id": "ac99f673ef08",
-      "title": "AI&Julia #19｜生成モデル » ガウス判別分析/QDA » IRIS",
-      "url": "https://zenn.dev/catalyst2064/articles/8dbe02e81c5fd8",
-      "publishedAt": "2026-08-08T07:55:25.000Z",
-      "publisher": "catalyst2064",
-      "summary": "はじめに 本記事では、Irisデータセットの各クラスを多変量ガウス分布で近似する確率モデルを構築し、これを用いて多クラス分類タスクを実施します。生成モデルで多クラス分類を行う手法としていくつかの候補がありますが、今回はガウス判別分析/QD…"
-    },
-    {
-      "id": "ba99fb592295",
-      "title": "Claude Codeを自作したら、特別なことは何もしていなかった",
-      "url": "https://zenn.dev/shoujiki_panman/articles/claude-code-clone-from-scratch",
-      "publishedAt": "2026-08-08T07:15:16.000Z",
-      "publisher": "田沼秀",
-      "summary": "毎日使っているのに、何も分かっていなかった ふだんClaude Codeを使っています。「このテストを直して」と言うだけで、ファイルを探して、直して、テストを走らせて、失敗したらまた直す。なのに危ないコマンドの前だけは、必ず「実行していい…"
-    },
-    {
-      "id": "72b6a2a527d6",
-      "title": "フツーの人間がAIと遊んでいたら、査読付き論文にAcceptされた話(1)",
-      "url": "https://zenn.dev/lavieenscope/articles/148a9d187c04cd",
-      "publishedAt": "2026-08-08T06:57:17.000Z",
-      "publisher": "海老とピラフ@La vie en scope（ラ・ヴィー・アン・スコープ）",
-      "summary": "海老とピラフ@La vie en scopeです。 大学で研究しているわけでもなければ、 研究室を持っているわけでもありません。 研究費があるわけでもない。 指導教員もいません。 そんな私が独立系研究者として論文を書き、査読を受け、 最終…"
-    },
-    {
-      "id": "dc54dd0fe89c",
-      "title": "Claude CodeのSkillsが自動で呼ばれたり呼ばれなかったりするので調査してみた",
-      "url": "https://zenn.dev/hijio/articles/fb6b3a8b1cb70e",
-      "publishedAt": "2026-08-08T06:54:13.000Z",
-      "publisher": "HIJIO",
-      "summary": "はじめに こんにちは、HIJIOです。 最近やっとこさClaude Codeの学習をし始めました。そこでSkillsというワードに出会い、実際その仕組みを利用しようと試みましたが上手くいかないことがありました。 そのときに調べた内容を、自…"
-    },
-    {
-      "id": "472fecdc70d5",
-      "title": "祭りは観測できるのか OpenTelemetryから考える、地域の暗黙知とAIの役割🏮",
-      "url": "https://zenn.dev/pomodoro_naomi/articles/745ae9a79bbe57",
-      "publishedAt": "2026-08-08T06:24:10.000Z",
-      "publisher": "🍅Pomodoroナオミ🍅",
-      "summary": "1章：日本海の前で、人間は小さい 魚津の「たてもん祭り」。 巨大な山車に何十個もの提灯が灯り、漆黒の夜空と日本海を背に浮かび上がる。その圧倒的な姿を前にすると、人間一人の存在がいかにちっぽけかを感じずにはいられない。 この巨大な山車を動か…"
     }
   ],
-  "fetchedAt": "2026-08-08T19:16:25.877Z",
+  "fetchedAt": "2026-08-08T19:53:05.174Z",
   "stale": false,
   "error": null
 }
