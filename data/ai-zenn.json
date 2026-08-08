@@ -6,6 +6,22 @@
   "category": "ai",
   "items": [
     {
+      "id": "b9bf30c30ee8",
+      "title": "【Atlas定理】反証4回・Lean 13,000行の末に掴んだ解像度不変性定理",
+      "url": "https://zenn.dev/iroha1203/articles/496cff14471f5a",
+      "publishedAt": "2026-08-08T15:21:38.000Z",
+      "publisher": "Hiroyuki Nakahata",
+      "summary": "本記事はHashnodeに公開したAtlas Theorem: How Far Can You Zoom Out?の日本語訳です TL;DR ベテランのレビュアーは、コードを全行読まない。確認したい性質に応じて、読む解像度を切り替える。 …"
+    },
+    {
+      "id": "439334d9703a",
+      "title": "「信頼済みコマンド」を設定しても夜間オート実行はできなかった - claude --helpで分かった見落とし",
+      "url": "https://zenn.dev/devex12/articles/claude-code-unattended-permission-mode-gap",
+      "publishedAt": "2026-08-08T14:43:38.000Z",
+      "publisher": "dev-ex12",
+      "summary": "この記事で得られること 「調査系コマンドの承認をゼロにする」設定（許可リスト方式）と、「夜間バッチで記事生成→コミット→push→PR作成まで無人で回す」ことの間にあったギャップ claude --help を実際に読んで見つけた、許可リ…"
+    },
+    {
       "id": "106ee3356f59",
       "title": "未経験でもAIでサービスは作れる。でも“出して保つ”には別の力が要る",
       "url": "https://zenn.dev/cyberdog_ai_lab/articles/20260808-essential-engineer-literacy",
@@ -84,25 +100,9 @@
       "publishedAt": "2026-08-08T12:25:17.000Z",
       "publisher": "Kazuki Ota",
       "summary": "はじめに 同僚の土田さんが、macOS 向けの Markdown リーダー SkimDown を作っています。設計書や仕様書のような長い Markdown をさくさく読むことに特化したビューアーで、個人的にも「これは良いな」と思っていたア…"
-    },
-    {
-      "id": "1c32d56824cf",
-      "title": "AIが最も間違える領域は「バイト」だ — 固定長・文字コード処理のガードレール設計",
-      "url": "https://zenn.dev/tejunya/articles/a015_byte-boundary",
-      "publishedAt": "2026-08-08T12:00:05.000Z",
-      "publisher": "手順屋",
-      "summary": "半角の英数字だけで作ったテストデータでは、AIが書いた取込処理は問題なく通った。レビューも通った。だが境界値のテストデータ（漢字の入った商品名）を追加した瞬間、そのレコードの全桁がずれた。 固定長・SJIS を扱う案件でAIコーディング支…"
-    },
-    {
-      "id": "9e626bbd2848",
-      "title": "AIエージェントに『見るだけ』をさせる ― Codexを読み取り専用で動かす最初の一歩",
-      "url": "https://zenn.dev/akira_papa/articles/6884605e7b045a",
-      "publishedAt": "2026-08-08T11:52:03.000Z",
-      "publisher": "あきらパパ",
-      "summary": "この記事は「AIエージェントという言葉は聞いたことがあるけれど、自分で動かしたことはない」という方に向けて書いています。扱うのは Codex CLI の権限設定ひとつだけです。読み終えるころには、AIエージェントを「見るだけ・書き換えない…"
     }
   ],
-  "fetchedAt": "2026-08-08T15:32:38.193Z",
+  "fetchedAt": "2026-08-08T16:02:49.584Z",
   "stale": false,
   "error": null
 }
