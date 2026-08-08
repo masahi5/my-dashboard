@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "2e6990d7bd31",
-      "title": "Claude Code に作業ログを書かせたら60本たまった — 引き継ぎもネタ出しも困らない運用",
-      "url": "https://zenn.dev/hoshiorange/articles/06-claude-code-worklog-as-asset",
-      "publishedAt": "2026-08-08T09:10:43.000Z",
-      "publisher": "ほし",
-      "summary": "こんにちは。人間の記憶力には限界がありますが、私の限界はだいたい一晩です。 「昨日の私、Claude Code に何をやらせたんだっけ?」 朝いちばん、続きをやろうとして手が止まる。これが嫌で、作業のたびに Claude Code 自身に…"
+      "id": "9f34aeb7c0ca",
+      "title": "AI時代のキャリア戦略 第8回 AIは知識を学習する。人間は人生を学習する。",
+      "url": "https://zenn.dev/jinfuroi/articles/f5ee4abc096810",
+      "publishedAt": "2026-08-08T05:41:22.000Z",
+      "publisher": "風呂井　仁",
+      "summary": "AIは知識を学習する。人間は人生を学習する。 これまでの記事では、 経験の価値 知識の価値 資格の役割 AIを理解することの重要性 市場価値を高める能力 AIと人間の違い について考えてきました。 では、その先にある問いがあります。 AI…"
     },
     {
-      "id": "673a13499f23",
-      "title": "AI コーディングエージェントは 4 ヶ月で何回 rm -rf を出すのか。実ログ 55 万件を数えた",
-      "url": "https://zenn.dev/yottayoshida/articles/omamori-v1-audit-log-record",
-      "publishedAt": "2026-08-08T08:49:51.000Z",
-      "publisher": "yotta",
-      "summary": "! この記事は omamori（AI CLI 経由の破壊的コマンドをブロックする macOS 向けガードツール）の v1.0.0 リリースノートだ。前回の記事はこちら: https://zenn.dev/yottayoshida/arti…"
+      "id": "9a6349e12708",
+      "title": "AIに手伝ってもらって、はじめて自分で回路基板を発注してみた",
+      "url": "https://zenn.dev/optimisuke/articles/ai-first-pcb-easyeda",
+      "publishedAt": "2026-08-08T05:34:05.000Z",
+      "publisher": "Naosuke",
+      "summary": "はじめに ちょっと前から、AIに回路基板を作ってもらいたいなーと思っていました。 簡単な基板の設計自体は、10年以上前に仕事でやったことがあります。ただ、それから基板設計にはほとんど触れておらず、自分で製造会社へ発注したこともありませんで…"
     },
     {
-      "id": "ce2ff7b3f2ed",
-      "title": "Claude Code effortとは？5段階の違いと料金の落とし穴",
-      "url": "https://zenn.dev/appare/articles/jp-digest-20260731-claude-code-effort",
-      "publishedAt": "2026-08-08T08:44:56.000Z",
-      "publisher": "田口天晴",
-      "summary": "「モデルを選ぶ」のとは別に、「そのモデルにどれくらい考えさせるか」をリクエストごとに決めるツマミが、主要な LLM（大規模言語モデル）に一通り出そろってきました。 Claude では effort、OpenAI では reasoning …"
+      "id": "bee47595d78e",
+      "title": "なぜ、AIによって頭がいい人による頭が悪い人の可視化は進んだ一方で、頭が悪い人による頭がいい人の可視化は後退したのか？",
+      "url": "https://zenn.dev/pdfractal/articles/eb70a08ae0fe27",
+      "publishedAt": "2026-08-08T05:32:16.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに 生成AIは、人間同士の知的能力差を縮める技術だと語られることが多いです。知らないことは質問でき、難しい文章は要約でき、コードも資料も文章も生成できます。かつて一部の人にしか扱えなかった知識や技能が広く開放されたことは間違いありま…"
     },
     {
-      "id": "9ff767ad0c4c",
-      "title": "AIが生成したコードのレビューで確認すべきポイント！",
-      "url": "https://zenn.dev/yx_xy/articles/7260c3affa9ed7",
-      "publishedAt": "2026-08-08T08:32:40.000Z",
-      "publisher": "Yuta",
-      "summary": "最近は、Claude CodeなどのAIツールにコードを書いてもらうことがかなり増えました。 プログラムの修正だけでなく、新規機能の実装を任せることもあります。うまく指示すれば、短時間でそれなりに完成度の高いコードが作成できるので、とても…"
+      "id": "1e505bfaecd7",
+      "title": "Claude Code の CLAUDE.md に何を書くと効くのか（1年運用した実測）",
+      "url": "https://zenn.dev/nyacoai/articles/f3c75c3ab35a02",
+      "publishedAt": "2026-08-08T05:29:25.000Z",
+      "publisher": "にゃこ",
+      "summary": "はじめに Claude Code を使っていて、CLAUDE.md（プロジェクト固有のメモリ）を「なんとなく」書いていませんか。 私は Web制作（Astro でのクライアントサイト制作）を本業にしていて、1年ほど毎日 Claude Co…"
     },
     {
-      "id": "a64634f183c9",
-      "title": "Laravelコードを1分で理解するために、AIに日本語疑似PHPを書かせてみた",
-      "url": "https://zenn.dev/taiki_yoko/articles/39404c9134efee",
-      "publishedAt": "2026-08-08T08:19:59.000Z",
-      "publisher": "プログラミングをするキツネ",
-      "summary": "1. AIにコードを説明させても、意外と読みにくい 私は普段Laravelで開発しています。 コードは読めるし、Laravelの文法で困ることもそこまで多くない気がします。 それでも、セルフレビューや既存コードを読むときに毎回感じることが…"
+      "id": "b75654ccf55e",
+      "title": "Redmine AI Helperプラグイン 新機能いろいろ",
+      "url": "https://zenn.dev/haru_iida/articles/redmine-ai-helper-updates-360",
+      "publishedAt": "2026-08-08T05:06:43.000Z",
+      "publisher": "haru_iida",
+      "summary": "この記事は Redmine AI Helperプラグインの3.6.0をリリースしました。 https://github.com/haru/redmine_ai_helper 前回記事にしたのは3.0.0のMCP Server機能を紹介した…"
     },
     {
-      "id": "9a4609b3fec6",
-      "title": "AIにPR作成を任せたら、レビュー負荷が上がった話",
-      "url": "https://zenn.dev/with_kazuma/articles/ecc2657dcc0901",
-      "publishedAt": "2026-08-08T08:17:13.000Z",
-      "publisher": "Kaz",
-      "summary": "結論 PRの作成は人間がやったほうがよさそう。 チームでPR作成スキルを用意してClaude Codeに任せてみたものの、 今はスキルの担当範囲をcommitまでに留めています。 やったこと チームにClaude Codeを導入したタイミ…"
+      "id": "65e6b1f80f14",
+      "title": "OSS版Cloudflare OSをローカルで試す — Gadget生成・Gatekeeper自作・GA4連携まで",
+      "url": "https://zenn.dev/mohhh_ok/articles/2026-08-cloudflare-os-local-trial",
+      "publishedAt": "2026-08-08T04:52:38.000Z",
+      "publisher": "MOhhh",
+      "summary": "2026年8月にOSS化された(Apache 2.0)Cloudflareの社内AIワークスペース「Cloudflare OS」を手元でクローンして触ってみました。ほぼAI任せで実装からテストまで行い、この記事もAIの書いたものを私が微修…"
     },
     {
-      "id": "4104008f0a9a",
-      "title": "Unicode記号テーブル — 121シンボルをワンクリックでコピー",
-      "url": "https://zenn.dev/devnestio/articles/devnestio-tool-unicode-table",
-      "publishedAt": "2026-08-08T08:12:31.000Z",
-      "publisher": "Shota | devnestio",
-      "summary": "矢印・数学記号・著作権マーク・通貨記号などをドキュメントやコードに使いたいとき、いちいち検索するのが面倒。devnestio に Unicode Symbol Table を追加しました。 https://devnestio.pages.…"
+      "id": "a4806cef6452",
+      "title": "GeminiをGCPで叩く ―AI StudioとVertex AI、どっち？をAzure OpenAI目線で",
+      "url": "https://zenn.dev/ccie26302/articles/zenn-gcp-gemini-aistudio-vs-vertex",
+      "publishedAt": "2026-08-08T03:28:46.000Z",
+      "publisher": "Shinya Koike",
+      "summary": "はじめに Azure から Google Cloud を触るシリーズ、今回は AI。GCP で Gemini を使おうとすると、最初にこう迷います。 AI Studio と Vertex AI、2つの入口があるけど、どっちで叩けばいいの？…"
     },
     {
-      "id": "ac99f673ef08",
-      "title": "AI&Julia #19｜生成モデル » ガウス判別分析/QDA » IRIS",
-      "url": "https://zenn.dev/catalyst2064/articles/8dbe02e81c5fd8",
-      "publishedAt": "2026-08-08T07:55:25.000Z",
-      "publisher": "catalyst2064",
-      "summary": "はじめに 本記事では、Irisデータセットの各クラスを多変量ガウス分布で近似する確率モデルを構築し、これを用いて多クラス分類タスクを実施します。生成モデルで多クラス分類を行う手法としていくつかの候補がありますが、今回はガウス判別分析/QD…"
+      "id": "7ea3f5a4ee75",
+      "title": "Claude Code に書かせた設計文書を 5 か月後に読んだら、「なぜ作ったか」が逆になっていた",
+      "url": "https://zenn.dev/okuyam2y/articles/why-design-docs-drift",
+      "publishedAt": "2026-08-08T03:23:09.000Z",
+      "publisher": "Yoshiaki Okuyama",
+      "summary": "コーディングエージェントに設計文書を書かせ、別のセッションでそれを更新させていると、文書は単に古くなるだけではありません。 設計意図——なぜこの仕組みを作ったのか——が、現在の用途で上書きされることがあります。 別セッションのエージェント…"
     },
     {
-      "id": "ba99fb592295",
-      "title": "Claude Codeを自作したら、特別なことは何もしていなかった",
-      "url": "https://zenn.dev/shoujiki_panman/articles/claude-code-clone-from-scratch",
-      "publishedAt": "2026-08-08T07:15:16.000Z",
-      "publisher": "田沼秀",
-      "summary": "毎日使っているのに、何も分かっていなかった ふだんClaude Codeを使っています。「このテストを直して」と言うだけで、ファイルを探して、直して、テストを走らせて、失敗したらまた直す。なのに危ないコマンドの前だけは、必ず「実行していい…"
+      "id": "db965cfe54e8",
+      "title": "警告を 0 件にしたら、いちばん悪い答えになった — ゲートのメッセージはルールの劣化コピーになる",
+      "url": "https://zenn.dev/sbkm/articles/81e31164101ec3",
+      "publishedAt": "2026-08-08T03:15:12.000Z",
+      "publisher": "しばこま",
+      "summary": "この記事は何か 前回、自作の機械ゲートが対象を 1 行も読まずに PASS を返してくる 3 つの型を書きました。 https://zenn.dev/sbkm/articles/2df758049ca409 今回は 4 つめの型です。ただ…"
     },
     {
-      "id": "72b6a2a527d6",
-      "title": "フツーの人間がAIと遊んでいたら、査読付き論文にAcceptされた話(1)",
-      "url": "https://zenn.dev/lavieenscope/articles/148a9d187c04cd",
-      "publishedAt": "2026-08-08T06:57:17.000Z",
-      "publisher": "海老とピラフ@La vie en scope（ラ・ヴィー・アン・スコープ）",
-      "summary": "海老とピラフ@La vie en scopeです。 大学で研究しているわけでもなければ、 研究室を持っているわけでもありません。 研究費があるわけでもない。 指導教員もいません。 そんな私が独立系研究者として論文を書き、査読を受け、 最終…"
+      "id": "20e8f88ab5db",
+      "title": "Amazon Bedrock AgentCore GatewayのBudget制御を境界値・並列実行で検証する",
+      "url": "https://zenn.dev/kashiwabaray/articles/0c5f4347c65122",
+      "publishedAt": "2026-08-08T03:00:05.000Z",
+      "publisher": "Yutaka Kashiwabara",
+      "summary": "※本記事は筆者個人の検証結果および見解に基づくものであり、所属組織の公式な見解・方針を示すものではありません。 1. はじめに 前回の記事では、AWS Samplesで公開されている sample-agentcore-gateway-us…"
     },
     {
-      "id": "dc54dd0fe89c",
-      "title": "Claude CodeのSkillsが自動で呼ばれたり呼ばれなかったりするので調査してみた",
-      "url": "https://zenn.dev/hijio/articles/fb6b3a8b1cb70e",
-      "publishedAt": "2026-08-08T06:54:13.000Z",
-      "publisher": "HIJIO",
-      "summary": "はじめに こんにちは、HIJIOです。 最近やっとこさClaude Codeの学習をし始めました。そこでSkillsというワードに出会い、実際その仕組みを利用しようと試みましたが上手くいかないことがありました。 そのときに調べた内容を、自…"
+      "id": "e4077a1f993f",
+      "title": "PRは全部通っていた。それでも壊れた――コーディングエージェント実運用で分かった「統合後」の問題",
+      "url": "https://zenn.dev/kanaria007/articles/82232a81a372ef",
+      "publishedAt": "2026-08-08T03:00:05.000Z",
+      "publisher": "かなりあ",
+      "summary": "コーディングエージェントを安全に使うための実務ガイド v0.2を投稿しました。 前身となるv0.1をしばらく運用していたところ、 個々のPRは小さかった。 CIも通っていた。 レビューも終わっていた。 しかし、複数の変更を統合した後のコー…"
     },
     {
-      "id": "472fecdc70d5",
-      "title": "祭りは観測できるのか OpenTelemetryから考える、地域の暗黙知とAIの役割🏮",
-      "url": "https://zenn.dev/pomodoro_naomi/articles/745ae9a79bbe57",
-      "publishedAt": "2026-08-08T06:24:10.000Z",
-      "publisher": "🍅Pomodoroナオミ🍅",
-      "summary": "1章：日本海の前で、人間は小さい 魚津の「たてもん祭り」。 巨大な山車に何十個もの提灯が灯り、漆黒の夜空と日本海を背に浮かび上がる。その圧倒的な姿を前にすると、人間一人の存在がいかにちっぽけかを感じずにはいられない。 この巨大な山車を動か…"
+      "id": "f135c23c39f2",
+      "title": "FDE(Forward Deployed Engineer）って、新しい仕事？",
+      "url": "https://zenn.dev/tavi_ai/articles/752f35b5b8932c",
+      "publishedAt": "2026-08-08T02:46:51.000Z",
+      "publisher": "Yano | タビの足袋",
+      "summary": "! この記事は、筆者のブログ タビの足袋 に掲載したものを、Zenn向けに一部整えて転載しています。 初出（全文・関連記事つき）はこちら 👇 https://taviko.com/hitorigoto/forward-deployed-…"
     }
   ],
-  "fetchedAt": "2026-08-08T14:17:18.887Z",
+  "fetchedAt": "2026-08-08T14:57:55.093Z",
   "stale": false,
   "error": null
 }
