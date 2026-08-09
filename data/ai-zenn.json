@@ -6,30 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "a7b3918040d3",
-      "title": "プロンプトエンジニアリング・Loop エンジニアリング・Graph エンジニアリングとは何か",
-      "url": "https://zenn.dev/kanfupanda/articles/prompt-loop-graph-engineering",
-      "publishedAt": "2026-08-09T04:07:22.000Z",
-      "publisher": "kanfu-panda",
-      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/08/09/prompt-loop-graph-engineering.html プロンプトエンジニアリ…"
-    },
-    {
-      "id": "4039bf7f405b",
-      "title": "AI駆動開発を「変更を扱う分散システム」として考える――PR単体の品質管理から、変更Control Planeへ",
-      "url": "https://zenn.dev/kanaria007/articles/eef3a6a132ac91",
-      "publishedAt": "2026-08-09T03:16:37.000Z",
-      "publisher": "かなりあ",
-      "summary": "前回の記事では、コーディングエージェントを実際の開発で使う中で、 個々のPRは小さい。 CIも通っている。 レビューも終わっている。 それでも、統合後の機能は壊れる。 という問題を扱いました。 mainの変更を取り込んだ後に、以前追加した…"
-    },
-    {
-      "id": "b1b76ec6a14a",
-      "title": "イラストレーターがAIを使って、俺の好き嫌いデータベースと、俺専用アイディア爆増ノートアプリを作った",
-      "url": "https://zenn.dev/katsutoatsuto/books/784dbf4eaede4c",
-      "publishedAt": "2026-08-09T02:46:30.000Z",
-      "publisher": "katsutoatsuto",
-      "summary": "プログラミング素人のイラストレーターがClaudeを使って、自分のSNSや作品から抽出したトピックと、そのトピックに対する感情を集積したデータベースを作り、自分の再発見と、過去の自分、今の自分、それから派生した未来の自分とともに考えるノー…"
-    },
-    {
       "id": "ef2ec400f5b1",
       "title": "RDDの直しどころを、全部棚卸ししてみた話",
       "url": "https://zenn.dev/kor89/articles/rdd-loop-graph-improve",
@@ -100,9 +76,33 @@
       "publishedAt": "2026-08-09T00:00:06.000Z",
       "publisher": "TomNoteLog",
       "summary": "はじめに 大学の授業資料・録音・ノートを、1つの Git リポジトリで管理しています。 中身は3つの層に分かれています。 構成はこれだけで、凝った仕組みは何もありません。 courses/<授業>/ raw/ # 配布 PDF・録音の原本…"
+    },
+    {
+      "id": "de9643e9af11",
+      "title": "AIはルールを守り、目的を見失う——AI版グッドハートの法則",
+      "url": "https://zenn.dev/triponte/articles/ai-obeys-rules-finds-loophole",
+      "publishedAt": "2026-08-08T23:55:39.000Z",
+      "publisher": "ぴろゆき",
+      "summary": "会議を30分に制限したら、会議が2本になった 「会議は30分まで」というルールを作った職場の話を聞いたことがある。結果どうなったか。30分で終わらない会議は、「前半」と「後半」の2本に分裂した。ルールは守られている。会議室の予約表の上では…"
+    },
+    {
+      "id": "95f60fae7ad3",
+      "title": "この休みの5日で、AIエージェント運用を1段上げる — 事故台帳57件から作った4層のカリキュラム",
+      "url": "https://zenn.dev/leadeas_cto/articles/cf2906df00e338",
+      "publishedAt": "2026-08-08T23:54:05.000Z",
+      "publisher": "Leadeas_CTO",
+      "summary": "AI エージェントに実務を任せはじめて 1 年、事故を起こすたびに台帳へ 1 行足してきました。何がどう壊れたか、どう検知したか、どう塞いだか。先日その台帳を Claude Code の permissions / managed set…"
+    },
+    {
+      "id": "617adb9f217c",
+      "title": "39. スキルもエージェントも1個も増えなかった ― Claude Code開発環境 1ヶ月後の差分レポート",
+      "url": "https://zenn.dev/yamada_ai_dev/articles/claude-code-env-diff-one-month",
+      "publishedAt": "2026-08-08T23:30:11.000Z",
+      "publisher": "yamada-ai-dev",
+      "summary": "TL;DR 1ヶ月前に自分のClaude Code開発環境を紹介する記事を書いた。あれから環境がどう変わったかを、設定リポジトリのgit履歴から機械的に数え直した。 結果は予想と違った。スキルもエージェントも1個も増えていなかった。増えた…"
     }
   ],
-  "fetchedAt": "2026-08-09T11:06:33.738Z",
+  "fetchedAt": "2026-08-09T11:44:11.739Z",
   "stale": false,
   "error": null
 }
