@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "4039bf7f405b",
-      "title": "AI駆動開発を「変更を扱う分散システム」として考える――PR単体の品質管理から、変更Control Planeへ",
-      "url": "https://zenn.dev/kanaria007/articles/eef3a6a132ac91",
-      "publishedAt": "2026-08-09T03:16:37.000Z",
-      "publisher": "かなりあ",
-      "summary": "前回の記事では、コーディングエージェントを実際の開発で使う中で、 個々のPRは小さい。 CIも通っている。 レビューも終わっている。 それでも、統合後の機能は壊れる。 という問題を扱いました。 mainの変更を取り込んだ後に、以前追加した…"
+      "id": "b527e8f390f4",
+      "title": "漢字音でしりとりゲームを作る — 企画は Claude、実装は Solar Pro4",
+      "url": "https://zenn.dev/nhandsome/articles/kanji-onyomi-word-chain-game",
+      "publishedAt": "2026-08-09T10:50:22.000Z",
+      "publisher": "Nhandsome",
+      "summary": "このブログは、Solar Pro4 がエージェントの活動ログをもとに下書きを自動作成し、Claude と筆者のレビューを経て公開しています。 ! 三行まとめ 韓国語の漢字語と日本語の漢字語を発音でつなぐしりとりゲームを作りました 企画は …"
     },
     {
-      "id": "b1b76ec6a14a",
-      "title": "イラストレーターがAIを使って、俺の好き嫌いデータベースと、俺専用アイディア爆増ノートアプリを作った",
-      "url": "https://zenn.dev/katsutoatsuto/books/784dbf4eaede4c",
-      "publishedAt": "2026-08-09T02:46:30.000Z",
-      "publisher": "katsutoatsuto",
-      "summary": "プログラミング素人のイラストレーターがClaudeを使って、自分のSNSや作品から抽出したトピックと、そのトピックに対する感情を集積したデータベースを作り、自分の再発見と、過去の自分、今の自分、それから派生した未来の自分とともに考えるノー…"
+      "id": "936f5fc877d3",
+      "title": "Claude Opus 5を1週間使って分かったこと",
+      "url": "https://zenn.dev/horizon_it00/articles/claude-opus5-one-week",
+      "publishedAt": "2026-08-09T10:31:42.000Z",
+      "publisher": "佐藤賢治 | MLエンジニア",
+      "summary": "5ファイルにまたがるリファクタリングが、Sonnet 5では3往復かかっていたのに1セッションで終わりました。Opus 5に切り替えて数日後のことです。 Sonnet 5で十分なのか、Opus 5に切り替えるべきか。Claude 5ファミ…"
     },
     {
-      "id": "ef2ec400f5b1",
-      "title": "RDDの直しどころを、全部棚卸ししてみた話",
-      "url": "https://zenn.dev/kor89/articles/rdd-loop-graph-improve",
-      "publishedAt": "2026-08-09T01:53:57.000Z",
-      "publisher": "KoR89",
-      "summary": "前回、RDD（Ratchet-Driven Development）をループ・エンジニアリングとグラフ・エンジニアリングという2つの物差しで採点しました。今回はその続きで「じゃあ実際どこを直すか」を書くのですが、正直に言うと、前回の時点で…"
+      "id": "47de817c64cf",
+      "title": "Claude Codeに月次KPIレポートの「考察」まで書かせるプロンプト設計術",
+      "url": "https://zenn.dev/web_benriya/articles/claude-code-monthly-kpi-insight-prompt-design",
+      "publishedAt": "2026-08-09T10:14:31.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに 月次のKPIレポートを作成するたびに、「数字を並べることはできても、そこから何を言えばよいのかが難しい」と感じている方は多いのではないでしょうか。セッション数が前月比でどう変化したか、CVRが上下した原因は何か——そういった「考…"
     },
     {
-      "id": "fe14f4d6dca1",
-      "title": "数式拒絶！100%腹に落ちる！LLMの「量子化」ってつまりどういうこと？",
-      "url": "https://zenn.dev/kenjiigarashi/articles/7fe743a4da8066",
-      "publishedAt": "2026-08-09T01:53:11.000Z",
-      "publisher": "Kenji Igarashi",
-      "summary": "※この記事は、先行して公開した [Qiitaの記事](ここにコピーしたZennの実際の記事URLを貼る の同時投稿（クロスポスト）です。 1. はじめに（量子化の数式が意味不明すぎる問題） LLMを軽量化して、スマホや普通のパソコンでも動…"
+      "id": "ae49df83d187",
+      "title": "AIがコードを書く時代に、なぜWebエンジニアは必要なのか",
+      "url": "https://zenn.dev/saikoseiko/articles/7e985d807fda51",
+      "publishedAt": "2026-08-09T10:06:05.000Z",
+      "publisher": "Saiko-Seiko",
+      "summary": "近年、生成AIの進化は目覚ましいものがあります。 数年前まで「AIがコードを書く」という話は、一部の研究者や先進的なエンジニアの実験領域でした。しかし現在では、自然言語で指示を出すだけでWebアプリケーションのプロトタイプが数分で生成され…"
     },
     {
-      "id": "f99c25cf4424",
-      "title": "Claude Code に長期タスクを任せて初日に方針が7回変わった話と、そのあと固定した3ファイル",
-      "url": "https://zenn.dev/shirube/articles/claude-code-state-md-design",
-      "publishedAt": "2026-08-09T01:49:27.000Z",
-      "publisher": "しるべ",
-      "summary": "長いタスクを Claude Code に任せると、セッションが切れた瞬間に文脈が消えます。 これを「記憶」で解こうとすると失敗します。記録を記憶として扱うのが現実的です。 具体的には、CLAUDE.md に読み順を固定し、ops/STAT…"
+      "id": "558a5e86f845",
+      "title": "ChatGPT × Claude Code × Codex × NotionでAI駆動開発を始めてみた",
+      "url": "https://zenn.dev/keisuke1306/articles/01-ai-driven-dev-overview",
+      "publishedAt": "2026-08-09T10:00:05.000Z",
+      "publisher": "keisuke",
+      "summary": "導入 この記事は、ChatGPT・Claude Code・Codex・Notionを組み合わせた「AI駆動開発」というテーマで書いている記事の1本です。机上で考えた開発フローではなく、実際に運用しているポートフォリオサイトの改修に適用しな…"
     },
     {
-      "id": "2b5b6ccff997",
-      "title": "なぜ実装エージェントはUXの指摘をしてくれないのか ─ コード起点レビューと画面起点レビューの違い",
-      "url": "https://zenn.dev/yun_bow/articles/03ddb8a9d616ec",
-      "publishedAt": "2026-08-09T01:21:49.000Z",
-      "publisher": "ゆんぼう",
-      "summary": "はじめに 実装はエージェントに任せると快適なのに、「この機能をどう思うか」「MVPとして足りないものはあるか」と聞いた途端、当たり障りのない答えに感じることがある。CTAを追加する、既存のカードを再利用する、状態管理を整理する。どれも間違…"
+      "id": "af51860fb812",
+      "title": "人間観察とシステム観測 OpenTelemetryで紐解くAI対話の構造",
+      "url": "https://zenn.dev/pomodoro_naomi/articles/2f1d7cf6b81a6c",
+      "publishedAt": "2026-08-09T09:33:11.000Z",
+      "publisher": "🍅Pomodoroナオミ🍅",
+      "summary": "はじめに：縁側の観察とシステムの観測 日常のふとした観察や実体験から得られる「人間の実感」と、システム内部の動きをログやトレースとして捉える「システムの観測（Observability）」。一見異なるこの2つは、実は深層で強く繋がっていま…"
     },
     {
-      "id": "5c06842505f8",
-      "title": "作った人が辞めたVBA100本を、AIと発掘調査した話",
-      "url": "https://zenn.dev/mrkumachan/articles/legacy-vba-excavation",
-      "publishedAt": "2026-08-09T00:55:07.000Z",
-      "publisher": "mrkumachan",
-      "summary": "オレは誰か 地方の小売業の本部でシステム関連の仕事をしている。エンジニア出身じゃない。前に「非エンジニア30人にn8nを教えてみた」という記事を書いたが、今回はその前日譚にあたる。うちの会社がなんでn8nに舵を切ったのかという話だ。 きっ…"
+      "id": "8fb245502b31",
+      "title": "AI時代、エンジニア組織は「仕事」ではなく「意思決定」を分配する",
+      "url": "https://zenn.dev/kkdev92/articles/ai-era-decision-distribution",
+      "publishedAt": "2026-08-09T09:24:03.000Z",
+      "publisher": "kkdev92",
+      "summary": "AI時代、エンジニア組織は「仕事」ではなく「意思決定」を分配する いつものツール紹介ではなく、最近考えていることの続きです。 前回はエンジニア個人の役割がどう変わるかを書きました。今回はその組織版で、AIがいる前提でエンジニア組織そのもの…"
     },
     {
-      "id": "1f5ddba08747",
-      "title": "「これ実行していい？」とAIに聞かれたときのためのGit入門",
-      "url": "https://zenn.dev/nekonoko2323/articles/f885ed9619ad2a",
-      "publishedAt": "2026-08-09T00:41:19.000Z",
-      "publisher": "ねこのこ",
-      "summary": "Gitを初めて使う新人や後輩に、とりあえず読んでもらうための記事です。 Gitはかなり奥が深いので、ここですべてを理解する必要はありません。 最近はClaude CodeなどのAIにGit操作を任せることも増えました。私自身も、Gitコマ…"
+      "id": "87e31e443d75",
+      "title": "「動くプロトタイプ」を諦めて「静止画モック」に切り替えたら、レビューが一瞬で終わった話",
+      "url": "https://zenn.dev/yucco/articles/claude-design-ui-mockup-story",
+      "publishedAt": "2026-08-09T08:40:50.000Z",
+      "publisher": "Komugi（Yuki）",
+      "summary": "! 実際のプロダクト名・画面は伏せていますが、体験自体は実務で起きたことをベースにしています。 はじめに こんにちは、修行中エンジニアのKomugiです。 教育系Webサービスで「ダッシュボードの表示項目をユーザーがON/OFFできる」機…"
     },
     {
-      "id": "3a41310db3e8",
-      "title": "ローカルLLMだけで会社を回す——全部門の構成と検品の設計",
-      "url": "https://zenn.dev/japanfeats/articles/30e8a7e6ef559c",
-      "publishedAt": "2026-08-09T00:20:13.000Z",
-      "publisher": "日本偉業協会",
-      "summary": "当会は従業員が全員AIの組織である（人間は理事長1名）。実務の推論——作詞・作曲・映像・検品・コード実装——はすべて手元のMac一台（Mac Studio）で回している。唯一の例外は戦略職の総監督で、本稿の脱稿直後にローカルの82.5GB…"
+      "id": "eb8e2e7274f1",
+      "title": "ドキュメントのAI Slopを抑止するためのSkillつくってあんま意味なかったので消した",
+      "url": "https://zenn.dev/st43/articles/a4eaee738d4626",
+      "publishedAt": "2026-08-09T08:36:03.000Z",
+      "publisher": "蔀",
+      "summary": "Talking DogsというWebサービス開発中に得たAI駆動開発の知見を流してくシリーズです。 概要 AI Slopというワードはかなり普及してきたと感じています。 Wikipediaのページもできていました。 引用すると、 AIスロ…"
     },
     {
-      "id": "3542a52e1534",
-      "title": "ゼロから始めるClaude Code #4 フォルダ構成編【図解】グローバルとプロジェクトの関係を理解する",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-04-folders",
-      "publishedAt": "2026-08-09T00:15:24.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は VS Code との組み合わせを紹介しました。 https://zenn.dev/mika_and_coco/articles/claude-code-diary…"
+      "id": "62e0e683619c",
+      "title": "LLMの仕組みから逆算する、コンテキストエンジニアリングが効く理由",
+      "url": "https://zenn.dev/oryo_data/articles/6495272ee33587",
+      "publishedAt": "2026-08-09T08:34:06.000Z",
+      "publisher": "おりょう【なんでもデータ分析】",
+      "summary": "はじめに 蒲生弘郷さんの『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』（技術評論社）を読みました。 本書の第1章「LLMの仕組みから見るコンテキストの正体」がとても良かったので、この記事ではLLMの内…"
     },
     {
-      "id": "f28f084d76cd",
-      "title": "授業ノートを raw / converted / claude の3層に分けた理由 — 「穴埋め清書」と「余談込み完成版」は別に欲しい",
-      "url": "https://zenn.dev/tomnotelog/articles/raw-converted-claude-three-layer-notes",
-      "publishedAt": "2026-08-09T00:00:06.000Z",
-      "publisher": "TomNoteLog",
-      "summary": "はじめに 大学の授業資料・録音・ノートを、1つの Git リポジトリで管理しています。 中身は3つの層に分かれています。 構成はこれだけで、凝った仕組みは何もありません。 courses/<授業>/ raw/ # 配布 PDF・録音の原本…"
+      "id": "173c26487930",
+      "title": "機械は、人の外に立たせたい ── 完全自立型アンドロイドと、埋め込みを選ばない理由",
+      "url": "https://zenn.dev/izumimakoto/articles/fdf148f7de4171",
+      "publishedAt": "2026-08-09T08:16:57.000Z",
+      "publisher": "izumimakoto",
+      "summary": "! これは技術解説ではなく、個人開発者の思想メモです。書かれている意見はすべて私個人のもの。肩の力を抜いて読んでください。 深夜、道具はいつも私の外にあった まず、文句から書かせてほしい。今年の夏は、暑すぎる。 深夜になっても部屋の熱は抜…"
     },
     {
-      "id": "de9643e9af11",
-      "title": "AIはルールを守り、目的を見失う——AI版グッドハートの法則",
-      "url": "https://zenn.dev/triponte/articles/ai-obeys-rules-finds-loophole",
-      "publishedAt": "2026-08-08T23:55:39.000Z",
-      "publisher": "ぴろゆき",
-      "summary": "会議を30分に制限したら、会議が2本になった 「会議は30分まで」というルールを作った職場の話を聞いたことがある。結果どうなったか。30分で終わらない会議は、「前半」と「後半」の2本に分裂した。ルールは守られている。会議室の予約表の上では…"
+      "id": "296fd6929c94",
+      "title": "AIのセルフレビューだけで終えない — 別の会話で初見レビューする",
+      "url": "https://zenn.dev/okuyam2y/articles/fresh-conversation-code-review",
+      "publishedAt": "2026-08-09T08:15:17.000Z",
+      "publisher": "Yoshiaki Okuyama",
+      "summary": "AI にコードを書かせたあと、同じ会話で「問題がないか見直して」と頼んで終わりにしていませんか。 私が勧めたいのは、別の AI を用意することではありません。実装した会話の中だけでレビューを終えないことです。 同じモデルでもいいので、新し…"
     }
   ],
-  "fetchedAt": "2026-08-09T15:27:08.125Z",
+  "fetchedAt": "2026-08-09T15:58:27.484Z",
   "stale": false,
   "error": null
 }
