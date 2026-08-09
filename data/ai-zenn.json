@@ -6,62 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "b527e8f390f4",
-      "title": "漢字音でしりとりゲームを作る — 企画は Claude、実装は Solar Pro4",
-      "url": "https://zenn.dev/nhandsome/articles/kanji-onyomi-word-chain-game",
-      "publishedAt": "2026-08-09T10:50:22.000Z",
-      "publisher": "Nhandsome",
-      "summary": "このブログは、Solar Pro4 がエージェントの活動ログをもとに下書きを自動作成し、Claude と筆者のレビューを経て公開しています。 ! 三行まとめ 韓国語の漢字語と日本語の漢字語を発音でつなぐしりとりゲームを作りました 企画は …"
-    },
-    {
-      "id": "936f5fc877d3",
-      "title": "Claude Opus 5を1週間使って分かったこと",
-      "url": "https://zenn.dev/horizon_it00/articles/claude-opus5-one-week",
-      "publishedAt": "2026-08-09T10:31:42.000Z",
-      "publisher": "佐藤賢治 | MLエンジニア",
-      "summary": "5ファイルにまたがるリファクタリングが、Sonnet 5では3往復かかっていたのに1セッションで終わりました。Opus 5に切り替えて数日後のことです。 Sonnet 5で十分なのか、Opus 5に切り替えるべきか。Claude 5ファミ…"
-    },
-    {
-      "id": "47de817c64cf",
-      "title": "Claude Codeに月次KPIレポートの「考察」まで書かせるプロンプト設計術",
-      "url": "https://zenn.dev/web_benriya/articles/claude-code-monthly-kpi-insight-prompt-design",
-      "publishedAt": "2026-08-09T10:14:31.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに 月次のKPIレポートを作成するたびに、「数字を並べることはできても、そこから何を言えばよいのかが難しい」と感じている方は多いのではないでしょうか。セッション数が前月比でどう変化したか、CVRが上下した原因は何か——そういった「考…"
-    },
-    {
-      "id": "ae49df83d187",
-      "title": "AIがコードを書く時代に、なぜWebエンジニアは必要なのか",
-      "url": "https://zenn.dev/saikoseiko/articles/7e985d807fda51",
-      "publishedAt": "2026-08-09T10:06:05.000Z",
-      "publisher": "Saiko-Seiko",
-      "summary": "近年、生成AIの進化は目覚ましいものがあります。 数年前まで「AIがコードを書く」という話は、一部の研究者や先進的なエンジニアの実験領域でした。しかし現在では、自然言語で指示を出すだけでWebアプリケーションのプロトタイプが数分で生成され…"
-    },
-    {
-      "id": "558a5e86f845",
-      "title": "ChatGPT × Claude Code × Codex × NotionでAI駆動開発を始めてみた",
-      "url": "https://zenn.dev/keisuke1306/articles/01-ai-driven-dev-overview",
-      "publishedAt": "2026-08-09T10:00:05.000Z",
-      "publisher": "keisuke",
-      "summary": "導入 この記事は、ChatGPT・Claude Code・Codex・Notionを組み合わせた「AI駆動開発」というテーマで書いている記事の1本です。机上で考えた開発フローではなく、実際に運用しているポートフォリオサイトの改修に適用しな…"
-    },
-    {
-      "id": "af51860fb812",
-      "title": "人間観察とシステム観測 OpenTelemetryで紐解くAI対話の構造",
-      "url": "https://zenn.dev/pomodoro_naomi/articles/2f1d7cf6b81a6c",
-      "publishedAt": "2026-08-09T09:33:11.000Z",
-      "publisher": "🍅Pomodoroナオミ🍅",
-      "summary": "はじめに：縁側の観察とシステムの観測 日常のふとした観察や実体験から得られる「人間の実感」と、システム内部の動きをログやトレースとして捉える「システムの観測（Observability）」。一見異なるこの2つは、実は深層で強く繋がっていま…"
-    },
-    {
-      "id": "8fb245502b31",
-      "title": "AI時代、エンジニア組織は「仕事」ではなく「意思決定」を分配する",
-      "url": "https://zenn.dev/kkdev92/articles/ai-era-decision-distribution",
-      "publishedAt": "2026-08-09T09:24:03.000Z",
-      "publisher": "kkdev92",
-      "summary": "AI時代、エンジニア組織は「仕事」ではなく「意思決定」を分配する いつものツール紹介ではなく、最近考えていることの続きです。 前回はエンジニア個人の役割がどう変わるかを書きました。今回はその組織版で、AIがいる前提でエンジニア組織そのもの…"
-    },
-    {
       "id": "87e31e443d75",
       "title": "「動くプロトタイプ」を諦めて「静止画モック」に切り替えたら、レビューが一瞬で終わった話",
       "url": "https://zenn.dev/yucco/articles/claude-design-ui-mockup-story",
@@ -100,9 +44,65 @@
       "publishedAt": "2026-08-09T08:15:17.000Z",
       "publisher": "Yoshiaki Okuyama",
       "summary": "AI にコードを書かせたあと、同じ会話で「問題がないか見直して」と頼んで終わりにしていませんか。 私が勧めたいのは、別の AI を用意することではありません。実装した会話の中だけでレビューを終えないことです。 同じモデルでもいいので、新し…"
+    },
+    {
+      "id": "09e019684c12",
+      "title": "受託開発でクライアントのAPIキーを預かるのをやめた ― 使った分だけ自動請求されるゲートウェイを作った話",
+      "url": "https://zenn.dev/esupple/articles/8c3cb52f3ae80c",
+      "publishedAt": "2026-08-09T08:09:39.000Z",
+      "publisher": "eサプリ",
+      "summary": "AI機能を組み込む受託案件を何本かやって、確信したことがあります。 いちばん消耗するのは実装ではなく、「APIキーとその費用を誰が持つか」の調整です。 この問題を解決するために、クライアントごとの使用量を計測して、月末にマージンを乗せて自…"
+    },
+    {
+      "id": "40c8a83bc09c",
+      "title": "2.8Tパラメータの Kimi K3 を、RTX 6000 PRO搭載ワークステーションで動かす",
+      "url": "https://zenn.dev/mamoru_f/articles/8d270259d68b71",
+      "publishedAt": "2026-08-09T08:09:33.000Z",
+      "publisher": "Mamoru Fujita",
+      "summary": "はじめに こんにちは！ オープン株式会社にてプロダクト企画を担当している藤田です。 DevelopersIO の記事「DGX Spark 1台で2.8TのKimi K3を動かしてみた」を読んで、「DGX Spark じゃなくても動くんじゃ…"
+    },
+    {
+      "id": "f151e53ca59c",
+      "title": "「実データに当てろ」と書いた翌日、自作ツールが1本ハングして1本落ちた",
+      "url": "https://zenn.dev/maronsan/articles/audit-4-tools-hang-and-crash",
+      "publishedAt": "2026-08-09T08:08:59.000Z",
+      "publisher": "maronsan",
+      "summary": "前回、自作のリンタを他人のリポジトリ230本に当てたら8割が誤検知だった、という話を書きました。最後に、人に配るものを作っているなら告知の前に30分だけ実データに当ててみてください、と書きました。 その記事を出した日に、聞かれました。今公…"
+    },
+    {
+      "id": "4e2ba2f06bd8",
+      "title": "ユーザー入力は数十秒後にはシェルコマンドになる。DreamCoreの「1ジョブ1サンドボックス」設計",
+      "url": "https://zenn.dev/notf/articles/ec5ec1e595b6f7",
+      "publishedAt": "2026-08-09T08:03:50.000Z",
+      "publisher": "ノトフDreamCore",
+      "summary": "DreamCore というサービスを開発しています。チャットで「ネコが空を飛ぶゲーム」のように話しかけると、数分後にブラウザで遊べるゲームが1本できあがって、URL で共有できるというものです。https://www.dreamcore.…"
+    },
+    {
+      "id": "ec882728654b",
+      "title": "日本企業でFDEをやって分かった、海外のFDE論がそのまま通用しない3つの理由",
+      "url": "https://zenn.dev/ohmiyamizuki/articles/fde-japan-3-gaps",
+      "publishedAt": "2026-08-09T07:32:36.000Z",
+      "publisher": "Ohmiya-Mizuki",
+      "summary": "! この記事はFDEの現場からの転載です。 FDE（Forward Deployed Engineer）という職種が、日本でも少しずつ語られるようになってきた。「FDEとは何か」を解説する記事は増えたが、そのほとんどは海外——主にPala…"
+    },
+    {
+      "id": "26a0933bdbe4",
+      "title": "Claude Codeの使い方をAIに監査させて、修正プロンプトまで受け取る（better-harness）",
+      "url": "https://zenn.dev/nuresen/articles/better-harness-agent-work-loop",
+      "publishedAt": "2026-08-09T07:30:22.000Z",
+      "publisher": "nuresen",
+      "summary": "better-harness は、Claude Code のセッションログとプロジェクトの状態を読んで、「あなたの開発の回し方はここが穴です」というレポートを HTML で出すツールです。 面白いのは出して終わりではないところで、レポート…"
+    },
+    {
+      "id": "463223ed5f10",
+      "title": "【2026年最新】Agent Skills を整理する — google/addyosmani/mattpocockの違いと選び方",
+      "url": "https://zenn.dev/amu_lab/articles/agent-skills-repos-comparison-2026",
+      "publishedAt": "2026-08-09T07:17:09.000Z",
+      "publisher": "amu_lab",
+      "summary": "<!-- メタデータ（Obsidian管理用・Zenn側には公開されない） ステータス: 下書き スラッグ: agent-skills-repos-comparison-2026 ファクトチェック: 済（2026-08-09 Genspa…"
     }
   ],
-  "fetchedAt": "2026-08-09T12:15:31.661Z",
+  "fetchedAt": "2026-08-09T13:29:48.892Z",
   "stale": false,
   "error": null
 }
