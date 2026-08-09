@@ -6,38 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "12ec71e4f446",
-      "title": "スクラムフェス大阪2026のセッションを個人的にふりかえる",
-      "url": "https://zenn.dev/mlbread/articles/2fdfcf3a528711",
-      "publishedAt": "2026-08-08T23:00:05.000Z",
-      "publisher": "ずみは",
-      "summary": "スクラムフェス大阪2026に参加してきました。スクラムやアジャイルについてのイベントへの参加は初めてでした。 まだまだ経験年数は浅いものの、スクラムの実践者として一定スクラムについて理解しているつもりになっていました。その思い上がりを打ち…"
-    },
-    {
-      "id": "5eb0ba341f64",
-      "title": "Windows 日本語環境という地雷原 — 非ASCIIパス・文字コード・ユーザー名でAI支援が滑る箇所",
-      "url": "https://zenn.dev/tejunya/articles/a021_windows-nihongo-kankyo",
-      "publishedAt": "2026-08-08T23:00:05.000Z",
-      "publisher": "手順屋",
-      "summary": "手順どおりにやったのに動かない。エラーメッセージは的を射ていない。1時間潰して、ようやく気づく。「ユーザー名が日本語だからだ」。 日本語版Windowsを使っていると、この種の詰まりに定期的にぶつかる。AIコーディング支援の解説記事はほと…"
-    },
-    {
-      "id": "92d7177e444f",
-      "title": "AIエージェントの「ループ」を10種類に分けたら、検出しきい値の設計が変わった",
-      "url": "https://zenn.dev/skova_digital/articles/dac77bc5fbe17f",
-      "publishedAt": "2026-08-08T22:30:06.000Z",
-      "publisher": "Skova Digital",
-      "summary": "AI コーディングエージェントが同じ操作を繰り返して止まらなくなることがある。 ログから検出する仕組みを作ろうとして、まず「ループ」が何を指すのかを調べた。 調べた結果、10種類の別々の現象が同じ言葉で呼ばれていた。 そして種類ごとに、検…"
-    },
-    {
-      "id": "f9d812832164",
-      "title": "SNS運用を4.5ヶ月自動化して1,271投稿した結果と、見つけた7つの構造欠陥",
-      "url": "https://zenn.dev/viralana/articles/sns-automation-4months-data",
-      "publishedAt": "2026-08-08T22:08:41.000Z",
-      "publisher": "aprou",
-      "summary": "先に結論の数字だけ 総投稿数: 1,271本(X 456 / Bluesky 529 / note 139 / YouTube Shorts 126) 期間: 2026年3月26日〜8月上旬(約4.5ヶ月・ほぼ無人) Xのインプレッション…"
-    },
-    {
       "id": "b67dcc3dc1ae",
       "title": "AI に rm を打たせない — hooks 三段構えの実物",
       "url": "https://zenn.dev/berrylove/articles/ai-cant-rm-hooks-in-practice",
@@ -100,9 +68,41 @@
       "publishedAt": "2026-08-08T14:43:38.000Z",
       "publisher": "dev-ex12",
       "summary": "この記事で得られること 「調査系コマンドの承認をゼロにする」設定（許可リスト方式）と、「夜間バッチで記事生成→コミット→push→PR作成まで無人で回す」ことの間にあったギャップ claude --help を実際に読んで見つけた、許可リ…"
+    },
+    {
+      "id": "106ee3356f59",
+      "title": "未経験でもAIでサービスは作れる。でも“出して保つ”には別の力が要る",
+      "url": "https://zenn.dev/cyberdog_ai_lab/articles/20260808-essential-engineer-literacy",
+      "publishedAt": "2026-08-08T14:13:53.000Z",
+      "publisher": "はゆかたいし",
+      "summary": "はじめに AI（バイブコーディング）のおかげで、未経験者でも動くWEBサービスが作れる時代になりました。 プロンプトを投げれば、ログインもDBもそれっぽく動きます。ここまでは、もう誰でも到達できます。 でも、「作れた」と「サービスとして出…"
+    },
+    {
+      "id": "8a97d6869ab2",
+      "title": "Claude CodeやCodexの悪意あるスキルが静的スキャナをすり抜ける",
+      "url": "https://zenn.dev/okssusucha/articles/20260708-agent-skill-malware-static-scanner-evasio",
+      "publishedAt": "2026-08-08T13:47:51.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "Claude Code に「PDFをきれいに要約するスキル」を入れたとする。中身は SKILL.md という Markdown ファイル一枚で、自然言語の手順とちょっとしたスクリプトが書いてあるだけ。GitHub から拾ってきて skil…"
+    },
+    {
+      "id": "1f67bfbeac6a",
+      "title": "AIに24時間開発させたら、人間が吸収していた曖昧さがレビューに戻ってきた",
+      "url": "https://zenn.dev/basio/articles/73642d8023acaa",
+      "publishedAt": "2026-08-08T13:34:16.000Z",
+      "publisher": "basio",
+      "summary": "テストを渡せば、AIは赤を見て直します これはもう誰でも知っていることだと思います。テストを先に用意してAIに実装させれば、失敗を読んで自分で修正する。特別なことは何も起きていません。 では、その状態で席を立てるでしょうか。 同じことを、…"
+    },
+    {
+      "id": "5432835f1876",
+      "title": "ハーネスのフィードバックループを4種類に分けたら、機能してたのは1つだけだった",
+      "url": "https://zenn.dev/kenimo49/articles/harness-feedback-loops-4-only-1-worked",
+      "publishedAt": "2026-08-08T13:29:08.000Z",
+      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
+      "summary": "私は4種類のフィードバックループをハーネスに仕込みました。 3ヶ月後、実際に回っていたのは1つだけでした。 残り3種類は、書いたことすら忘れていました。 3ヶ月経って気づいた「動いてない3つ」 きっかけは月次のログ棚卸しでした。ハーネスに…"
     }
   ],
-  "fetchedAt": "2026-08-09T07:35:09.151Z",
+  "fetchedAt": "2026-08-09T08:23:14.999Z",
   "stale": false,
   "error": null
 }
