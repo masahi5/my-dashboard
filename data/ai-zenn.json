@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "b67dcc3dc1ae",
-      "title": "AI に rm を打たせない — hooks 三段構えの実物",
-      "url": "https://zenn.dev/berrylove/articles/ai-cant-rm-hooks-in-practice",
-      "publishedAt": "2026-08-08T21:07:52.000Z",
-      "publisher": "berrylove inc.",
-      "summary": "先日公開した本『AI 国家運営』の第5章では、「指示書はサブエージェントに徹底されない」という前提に立って、削除コマンドを機械的にブロックする仕組みを「三段構え」として説明しました。本では設計の考え方に絞ったので、コードそのものは書いてい…"
+      "id": "4039bf7f405b",
+      "title": "AI駆動開発を「変更を扱う分散システム」として考える――PR単体の品質管理から、変更Control Planeへ",
+      "url": "https://zenn.dev/kanaria007/articles/eef3a6a132ac91",
+      "publishedAt": "2026-08-09T03:16:37.000Z",
+      "publisher": "かなりあ",
+      "summary": "前回の記事では、コーディングエージェントを実際の開発で使う中で、 個々のPRは小さい。 CIも通っている。 レビューも終わっている。 それでも、統合後の機能は壊れる。 という問題を扱いました。 mainの変更を取り込んだ後に、以前追加した…"
     },
     {
-      "id": "1dda2bac6a59",
-      "title": "Grok Build事件「ソース公開」の2日前に何が起きたか",
-      "url": "https://zenn.dev/shuhari_ai/articles/31e8c37837d5a1",
-      "publishedAt": "2026-08-08T20:48:42.000Z",
-      "publisher": "守破離AI",
-      "summary": "! 情報確認日: 2026-08-06。 本記事は、研究者の解析レポート原文・再現用リポジトリ・公開されたソースリポジトリなど、直接確認できた一次情報を土台にしています。直接確認できなかった情報（報道経由の発言引用など）は、その旨を都度明…"
+      "id": "b1b76ec6a14a",
+      "title": "イラストレーターがAIを使って、俺の好き嫌いデータベースと、俺専用アイディア爆増ノートアプリを作った",
+      "url": "https://zenn.dev/katsutoatsuto/books/784dbf4eaede4c",
+      "publishedAt": "2026-08-09T02:46:30.000Z",
+      "publisher": "katsutoatsuto",
+      "summary": "プログラミング素人のイラストレーターがClaudeを使って、自分のSNSや作品から抽出したトピックと、そのトピックに対する感情を集積したデータベースを作り、自分の再発見と、過去の自分、今の自分、それから派生した未来の自分とともに考えるノー…"
     },
     {
-      "id": "6f8b38c1ea14",
-      "title": "WebMCPのnavigator/document揺れをGitHub Issueで裏取りしフォーム公開PoCを書いた",
-      "url": "https://zenn.dev/mskbhd/articles/lab-238-webmcpfeature-detectionpoc",
-      "publishedAt": "2026-08-08T20:45:50.000Z",
-      "publisher": "mskbhd",
-      "summary": "きっかけ SNSで流れてきたWebMCPの解説をメモにまとめていたら、出典によって書いてあることが微妙に違うことに気づいた。 出典 API名 SNSの投稿 modelContext Cloudflare Blog document.mod…"
+      "id": "ef2ec400f5b1",
+      "title": "RDDの直しどころを、全部棚卸ししてみた話",
+      "url": "https://zenn.dev/kor89/articles/rdd-loop-graph-improve",
+      "publishedAt": "2026-08-09T01:53:57.000Z",
+      "publisher": "KoR89",
+      "summary": "前回、RDD（Ratchet-Driven Development）をループ・エンジニアリングとグラフ・エンジニアリングという2つの物差しで採点しました。今回はその続きで「じゃあ実際どこを直すか」を書くのですが、正直に言うと、前回の時点で…"
     },
     {
-      "id": "2cc054abe769",
-      "title": "この本の公開ボタンは、人間が押していない",
-      "url": "https://zenn.dev/berrylove/articles/ai-pressed-publish-button",
-      "publishedAt": "2026-08-08T19:12:25.000Z",
-      "publisher": "berrylove inc.",
-      "summary": "先日、私たちは Zenn で有料の技術書を1冊公開しました。企画も、執筆も、校閲も、そして公開ボタンを押す判断も、人間は行っていません。 こう書くと「AI が勝手に本を売り始めた」ように聞こえますが、実態はその逆です。この記事では、「AI…"
+      "id": "fe14f4d6dca1",
+      "title": "数式拒絶！100%腹に落ちる！LLMの「量子化」ってつまりどういうこと？",
+      "url": "https://zenn.dev/kenjiigarashi/articles/7fe743a4da8066",
+      "publishedAt": "2026-08-09T01:53:11.000Z",
+      "publisher": "Kenji Igarashi",
+      "summary": "※この記事は、先行して公開した [Qiitaの記事](ここにコピーしたZennの実際の記事URLを貼る の同時投稿（クロスポスト）です。 1. はじめに（量子化の数式が意味不明すぎる問題） LLMを軽量化して、スマホや普通のパソコンでも動…"
     },
     {
-      "id": "a1326a50662e",
-      "title": "AIに渡す前の秘密情報チェックからセキュリティ対策の可視化までできるデスクトップアプリを作ってみた（shk Desktop）",
-      "url": "https://zenn.dev/kazuki_tam/articles/72c261b787c101",
-      "publishedAt": "2026-08-08T16:33:09.000Z",
-      "publisher": "Kazuki Yonemoto",
-      "summary": "以前、AIエージェントへ渡す前にローカルの秘密情報をチェックするCLI shk (security-harness-kit) を作った話を書きました。 https://zenn.dev/kazuki_tam/articles/6a8217…"
+      "id": "f99c25cf4424",
+      "title": "Claude Code に長期タスクを任せて初日に方針が7回変わった話と、そのあと固定した3ファイル",
+      "url": "https://zenn.dev/shirube/articles/claude-code-state-md-design",
+      "publishedAt": "2026-08-09T01:49:27.000Z",
+      "publisher": "しるべ",
+      "summary": "長いタスクを Claude Code に任せると、セッションが切れた瞬間に文脈が消えます。 これを「記憶」で解こうとすると失敗します。記録を記憶として扱うのが現実的です。 具体的には、CLAUDE.md に読み順を固定し、ops/STAT…"
     },
     {
-      "id": "b9bf30c30ee8",
-      "title": "【Atlas定理】反証4回・Lean 13,000行の末に掴んだ解像度不変性定理",
-      "url": "https://zenn.dev/iroha1203/articles/496cff14471f5a",
-      "publishedAt": "2026-08-08T15:21:38.000Z",
-      "publisher": "Hiroyuki Nakahata",
-      "summary": "本記事はHashnodeに公開したAtlas Theorem: How Far Can You Zoom Out?の日本語訳です TL;DR ベテランのレビュアーは、コードを全行読まない。確認したい性質に応じて、読む解像度を切り替える。 …"
+      "id": "2b5b6ccff997",
+      "title": "なぜ実装エージェントはUXの指摘をしてくれないのか ─ コード起点レビューと画面起点レビューの違い",
+      "url": "https://zenn.dev/yun_bow/articles/03ddb8a9d616ec",
+      "publishedAt": "2026-08-09T01:21:49.000Z",
+      "publisher": "ゆんぼう",
+      "summary": "はじめに 実装はエージェントに任せると快適なのに、「この機能をどう思うか」「MVPとして足りないものはあるか」と聞いた途端、当たり障りのない答えに感じることがある。CTAを追加する、既存のカードを再利用する、状態管理を整理する。どれも間違…"
     },
     {
-      "id": "ed1e976615ed",
-      "title": "直していないのに、直った（11）",
-      "url": "https://zenn.dev/jissokulog/articles/b16fc81f5db637",
-      "publishedAt": "2026-08-08T15:06:49.000Z",
-      "publisher": "実測",
-      "summary": "シリーズ「AIエージェントの報告を信じる前に」の11本目です。1本目からの一覧は記事の最後にあります。 同じ関数が、同じ日の朝には見送られ、夕方には通りました。コードは1行も変えていません。設定も変えていません。入力ファイルの置き場所も同…"
+      "id": "5c06842505f8",
+      "title": "作った人が辞めたVBA100本を、AIと発掘調査した話",
+      "url": "https://zenn.dev/mrkumachan/articles/legacy-vba-excavation",
+      "publishedAt": "2026-08-09T00:55:07.000Z",
+      "publisher": "mrkumachan",
+      "summary": "オレは誰か 地方の小売業の本部でシステム関連の仕事をしている。エンジニア出身じゃない。前に「非エンジニア30人にn8nを教えてみた」という記事を書いたが、今回はその前日譚にあたる。うちの会社がなんでn8nに舵を切ったのかという話だ。 きっ…"
     },
     {
-      "id": "439334d9703a",
-      "title": "「信頼済みコマンド」を設定しても夜間オート実行はできなかった - claude --helpで分かった見落とし",
-      "url": "https://zenn.dev/devex12/articles/claude-code-unattended-permission-mode-gap",
-      "publishedAt": "2026-08-08T14:43:38.000Z",
-      "publisher": "dev-ex12",
-      "summary": "この記事で得られること 「調査系コマンドの承認をゼロにする」設定（許可リスト方式）と、「夜間バッチで記事生成→コミット→push→PR作成まで無人で回す」ことの間にあったギャップ claude --help を実際に読んで見つけた、許可リ…"
+      "id": "1f5ddba08747",
+      "title": "「これ実行していい？」とAIに聞かれたときのためのGit入門",
+      "url": "https://zenn.dev/nekonoko2323/articles/f885ed9619ad2a",
+      "publishedAt": "2026-08-09T00:41:19.000Z",
+      "publisher": "ねこのこ",
+      "summary": "Gitを初めて使う新人や後輩に、とりあえず読んでもらうための記事です。 Gitはかなり奥が深いので、ここですべてを理解する必要はありません。 最近はClaude CodeなどのAIにGit操作を任せることも増えました。私自身も、Gitコマ…"
     },
     {
-      "id": "106ee3356f59",
-      "title": "未経験でもAIでサービスは作れる。でも“出して保つ”には別の力が要る",
-      "url": "https://zenn.dev/cyberdog_ai_lab/articles/20260808-essential-engineer-literacy",
-      "publishedAt": "2026-08-08T14:13:53.000Z",
-      "publisher": "はゆかたいし",
-      "summary": "はじめに AI（バイブコーディング）のおかげで、未経験者でも動くWEBサービスが作れる時代になりました。 プロンプトを投げれば、ログインもDBもそれっぽく動きます。ここまでは、もう誰でも到達できます。 でも、「作れた」と「サービスとして出…"
+      "id": "3a41310db3e8",
+      "title": "ローカルLLMだけで会社を回す——全部門の構成と検品の設計",
+      "url": "https://zenn.dev/japanfeats/articles/30e8a7e6ef559c",
+      "publishedAt": "2026-08-09T00:20:13.000Z",
+      "publisher": "日本偉業協会",
+      "summary": "当会は従業員が全員AIの組織である（人間は理事長1名）。実務の推論——作詞・作曲・映像・検品・コード実装——はすべて手元のMac一台（Mac Studio）で回している。唯一の例外は戦略職の総監督で、本稿の脱稿直後にローカルの82.5GB…"
     },
     {
-      "id": "8a97d6869ab2",
-      "title": "Claude CodeやCodexの悪意あるスキルが静的スキャナをすり抜ける",
-      "url": "https://zenn.dev/okssusucha/articles/20260708-agent-skill-malware-static-scanner-evasio",
-      "publishedAt": "2026-08-08T13:47:51.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "Claude Code に「PDFをきれいに要約するスキル」を入れたとする。中身は SKILL.md という Markdown ファイル一枚で、自然言語の手順とちょっとしたスクリプトが書いてあるだけ。GitHub から拾ってきて skil…"
+      "id": "3542a52e1534",
+      "title": "ゼロから始めるClaude Code #4 フォルダ構成編【図解】グローバルとプロジェクトの関係を理解する",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-04-folders",
+      "publishedAt": "2026-08-09T00:15:24.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は VS Code との組み合わせを紹介しました。 https://zenn.dev/mika_and_coco/articles/claude-code-diary…"
     },
     {
-      "id": "1f67bfbeac6a",
-      "title": "AIに24時間開発させたら、人間が吸収していた曖昧さがレビューに戻ってきた",
-      "url": "https://zenn.dev/basio/articles/73642d8023acaa",
-      "publishedAt": "2026-08-08T13:34:16.000Z",
-      "publisher": "basio",
-      "summary": "テストを渡せば、AIは赤を見て直します これはもう誰でも知っていることだと思います。テストを先に用意してAIに実装させれば、失敗を読んで自分で修正する。特別なことは何も起きていません。 では、その状態で席を立てるでしょうか。 同じことを、…"
+      "id": "f28f084d76cd",
+      "title": "授業ノートを raw / converted / claude の3層に分けた理由 — 「穴埋め清書」と「余談込み完成版」は別に欲しい",
+      "url": "https://zenn.dev/tomnotelog/articles/raw-converted-claude-three-layer-notes",
+      "publishedAt": "2026-08-09T00:00:06.000Z",
+      "publisher": "TomNoteLog",
+      "summary": "はじめに 大学の授業資料・録音・ノートを、1つの Git リポジトリで管理しています。 中身は3つの層に分かれています。 構成はこれだけで、凝った仕組みは何もありません。 courses/<授業>/ raw/ # 配布 PDF・録音の原本…"
     },
     {
-      "id": "5432835f1876",
-      "title": "ハーネスのフィードバックループを4種類に分けたら、機能してたのは1つだけだった",
-      "url": "https://zenn.dev/kenimo49/articles/harness-feedback-loops-4-only-1-worked",
-      "publishedAt": "2026-08-08T13:29:08.000Z",
-      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
-      "summary": "私は4種類のフィードバックループをハーネスに仕込みました。 3ヶ月後、実際に回っていたのは1つだけでした。 残り3種類は、書いたことすら忘れていました。 3ヶ月経って気づいた「動いてない3つ」 きっかけは月次のログ棚卸しでした。ハーネスに…"
+      "id": "de9643e9af11",
+      "title": "AIはルールを守り、目的を見失う——AI版グッドハートの法則",
+      "url": "https://zenn.dev/triponte/articles/ai-obeys-rules-finds-loophole",
+      "publishedAt": "2026-08-08T23:55:39.000Z",
+      "publisher": "ぴろゆき",
+      "summary": "会議を30分に制限したら、会議が2本になった 「会議は30分まで」というルールを作った職場の話を聞いたことがある。結果どうなったか。30分で終わらない会議は、「前半」と「後半」の2本に分裂した。ルールは守られている。会議室の予約表の上では…"
     }
   ],
-  "fetchedAt": "2026-08-09T09:10:50.503Z",
+  "fetchedAt": "2026-08-09T09:55:52.105Z",
   "stale": false,
   "error": null
 }
