@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "353ebc53d68f",
-      "title": "黙って失敗する無人エージェントを検知するツールを公開した",
-      "url": "https://zenn.dev/chikoku_neko/articles/1f2071c9821b47",
-      "publishedAt": "2026-08-09T14:33:20.000Z",
-      "publisher": "遅刻ねこ",
-      "summary": "exit code 0 なのに成果物がない cron で毎週動かしているレポート生成エージェントがある。ある朝確認したら、exit code は 0 でジョブは成功扱いなのに、レポートのファイルだけがなかった。 エラーは出ていないので通知…"
+      "id": "7c75ed76ae45",
+      "title": "うちのAI開発体制は世界基準で何レベルか——Claude Code個人開発を2026年の成熟度モデルで自己診断したら「L3.5」だった",
+      "url": "https://zenn.dev/abyssgate/articles/ai-dev-maturity-self-check-l35",
+      "publishedAt": "2026-08-09T16:53:31.000Z",
+      "publisher": "Abyssgate開発中",
+      "summary": "はじめに Claude Code を相棒に、Wizardry風の3DダンジョンRPG「Abyssgate」を個人開発しています。前職は製造業で装置の設計をしていました。 このアカウントでは、開発を5フェーズに分割する話、1タスク1AIで検…"
     },
     {
-      "id": "e73be0c18afe",
-      "title": "AIと共作で12日間に小説8冊・32万字をKindleから出した — 40年CAD/GIS屋の制作パイプライン",
-      "url": "https://zenn.dev/amru195704/articles/a063b61cd024a0",
-      "publishedAt": "2026-08-09T14:20:49.000Z",
-      "publisher": "y4u",
-      "summary": "CAD/GISのソフトウェアを40年書いてきた開発者が、まったくの趣味で歴史改変ファンタジーのシリーズを書きはじめ、2026年7月29日から8月9日までの12日間で、8冊・約32万字をKindleで刊行しました。文章化は生成AIとの共作で…"
+      "id": "e56f2a8011a3",
+      "title": "値を変えても何も起きない：AIが書いた「宣言だけのコード」を機械検査した",
+      "url": "https://zenn.dev/yamakraft/articles/unwired-fields-ai-code",
+      "publishedAt": "2026-08-09T16:47:23.000Z",
+      "publisher": "Yamakraft",
+      "summary": "ゲームの手触りを決める数値（回避のスタミナ消費、攻撃が当たった瞬間に画面を止める長さ、など）は、何十回も入れ替えて詰めていく類のものです。そのたびにコードを書き換えてビルドを待つ形にはできないので、こうした調整用の数値はコードから追い出し…"
     },
     {
-      "id": "d2c3c7ade06c",
-      "title": "MCP対応でAgentCore Gatewayを本番投入する前のチェックリスト",
-      "url": "https://zenn.dev/bambampurin/articles/2026-08-01-tech-daily",
-      "publishedAt": "2026-08-09T14:00:52.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 2026-08-01時点の実ニュースでは、LLMそのものよりもエージェント化・業務統合・MCP対応が前面に出ています。特に「WAIC 2026詳報」の“LLMは舞台裏へ”という整理と、AWSのMCP対応、Microsoft・Fujit…"
+      "id": "e3233e4939ea",
+      "title": "Claude CodeのSkillはちゃんと発火しているか？ 自作ダッシュボードと公式機能を突き合わせてみた",
+      "url": "https://zenn.dev/ytakashi_dev/articles/self-built-dashboard-value-shift",
+      "publishedAt": "2026-08-09T16:28:43.000Z",
+      "publisher": "たかし",
+      "summary": "Claude Codeのスキル利用を可視化するダッシュボードを自作した。 ところが作ったあと、8月になって、公式OpenTelemetryにはスキルの発火を記録するclaude_code.skill_activatedイベントがあると知っ…"
     },
     {
-      "id": "d460cfe277fc",
-      "title": "AI仕様駆動開発はなぜ苦しいか——2つの壁",
-      "url": "https://zenn.dev/netetahito/articles/98982c8228b5f4",
-      "publishedAt": "2026-08-09T13:54:32.000Z",
-      "publisher": "おなさい",
-      "summary": "1. AI仕様駆動開発やってますか？ AIに仕様書や設計書を書かせて開発を進めるやり方、やっていますか？ Kiro、Spec Kit、その他いろいろ、手法は次々に出ています。でも周りを見ると思ったよりやっていないような？あるいは一度やって…"
+      "id": "4efc5862545d",
+      "title": "常駐型AIチャットエージェントの「トークンコスト予算」設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-token-cost-budget-design",
+      "publishedAt": "2026-08-09T16:04:43.000Z",
+      "publisher": "HACH",
+      "summary": "Slack / Teams / Chatworkに常駐して働くAIエージェントは、機能が増えるほどLLM呼び出しの回数と1回あたりのトークン量が積み上がっていきます。レート制限(APIの同時実行数・秒間リクエスト数)の設計と混同されがちで…"
     },
     {
-      "id": "1914a2dde3e0",
-      "title": "なぜ世界は男性100%でも女性100%でもないのか？",
-      "url": "https://zenn.dev/rahuldhole/articles/a7c11929f40017",
-      "publishedAt": "2026-08-09T13:47:05.000Z",
-      "publisher": "ラーフラ・ドーレ",
-      "summary": "なぜ人類の男女比は、常に50:50に近いのでしょうか？ なぜ80:20や40:60ではないのでしょうか？ 不思議なことに、何十億人という規模になっても、自然はほぼ一定のバランスを保っています。 なぜでしょう？ 答えは「確率」の中にあります…"
+      "id": "83217eae4997",
+      "title": "「手動」の反対は、「人」ではなかった（12）",
+      "url": "https://zenn.dev/jissokulog/articles/2bbf24ea51be81",
+      "publishedAt": "2026-08-09T15:38:08.000Z",
+      "publisher": "実測",
+      "summary": "引き継ぎの記録に「手動実行」と書いてありました。私はそれを「人が自分でコマンドを打った」と読みました。そのつもりで話を進め、断定の形で2回書きました。 記録にはこう書いてありました。 2026-08-06 未明、「16:24 の手動実行」…"
     },
     {
-      "id": "11fb4209737a",
-      "title": "MCPで7サービスにファイルを送ろうとしたら、完全動作は1つだけだった",
-      "url": "https://zenn.dev/kenimo49/articles/mcp-7-services-file-upload-1-worked",
-      "publishedAt": "2026-08-09T13:40:05.000Z",
-      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
-      "summary": "一晩で7つのMCPホストにファイルアップロード機能を実装しました。翌朝、完全に動いていたのは1つだけでした。他の6つは、ファイル形式・サイズ制限・エンコード方式で全部詰まっていました。「MCPは共通プロトコル」と業界は言います。しかし実装…"
+      "id": "a11151022e84",
+      "title": "インストラクション ・スキル・フックの個人的構成や作り方",
+      "url": "https://zenn.dev/fukaunabara/articles/88fc256f525f2a",
+      "publishedAt": "2026-08-09T15:30:10.000Z",
+      "publisher": "Takeshi Saito",
+      "summary": "スキルやインストラクション（指示ファイル）をちゃんと使っていますか。 AI エージェントはここ１年でかなり進化しましたね。一方で、環境構築やプロジェクト固有の作法が相変わらず苦手という印象です。というより、こればかりは教えないと無理な気も…"
     },
     {
-      "id": "f25de2202740",
-      "title": "独立したClaude同士が話し始めた。Claude Codeのセッション間メッセージングを試す",
-      "url": "https://zenn.dev/yukika/articles/20260809_claudecode_cross_session_messaging",
-      "publishedAt": "2026-08-09T13:36:27.000Z",
-      "publisher": "yukika",
-      "summary": "はじめに こんにちは。 Claude Code の changelog を眺めていたら、気になるアップデートを見つけました。 v2.1.224 で追加された セッション間メッセージング (cross-session messaging) …"
+      "id": "b4ceb92d0c6f",
+      "title": "Claude CodeでNext.jsのタスク管理アプリを作ってみた",
+      "url": "https://zenn.dev/fujinodev/articles/db2a141c79b2b8",
+      "publishedAt": "2026-08-09T15:28:51.000Z",
+      "publisher": "Fujino",
+      "summary": "はじめに 組込みソフトウェアエンジニアとして製品開発に携わっています。 普段はC/C++を中心とした制御開発やファームウェア開発を行っていますが、 今回はAIを活用した開発手法に興味を持ち、Claude Codeを使ってWebアプリ開発に…"
     },
     {
-      "id": "2acede23d753",
-      "title": "AIヘアスタイル試着の裏側：顔検出からヘア転送までの仕組み",
-      "url": "https://zenn.dev/facehair/articles/ad04b9967d047d",
-      "publishedAt": "2026-08-09T13:28:12.000Z",
-      "publisher": "facehair ai",
-      "summary": "はじめに 写真をアップロードするだけでAIが髪型を変えてくれるツールが増えている。エンジニア目線でどう実装されているのか気になったので、公開情報を元にパイプラインを整理してみた。 入力画像（顔写真） ↓ 顔検出・ランドマーク取得（Medi…"
+      "id": "147c1961c44b",
+      "title": "AIエージェントを「安全に暴れさせる」設計。Cloudflare OSのセキュリティとガバナンスを読む",
+      "url": "https://zenn.dev/akari1106/articles/21ead1df717cb9",
+      "publishedAt": "2026-08-09T15:22:25.000Z",
+      "publisher": "灯里(akari)",
+      "summary": "はじめに Cloudflare OSの話、3本目です。 1つのプロダクトでこんなに記事書くの笑いますね。でもそれだけ良いプロダクトだと思いますし、すごいなって思います。 1本目はローカルLLMで三目並べに5ラウンドかけた奮闘記、2本目はそ…"
     },
     {
-      "id": "26fdc363093e",
-      "title": "ぼくのかんがえたさいきょうのAI並列開発環境 — 結論、Orca が最強だった",
-      "url": "https://zenn.dev/naoto24kawa/articles/20260809-orca-parallel-agents",
-      "publishedAt": "2026-08-09T13:21:56.000Z",
-      "publisher": "naoto24kawa",
-      "summary": "! この記事は筆者の運用と実測をもとに、Claude Code に下書きさせて仕上げたものです。内容は執筆時点（2026年8月、Orca v1.4.177）のもので、Orca は開発が速く CLI は変わりうる。 計画は Claude C…"
+      "id": "159ea350ac46",
+      "title": "「Kimi-K3をRTX 6000 PROで動かした」の続き。モデルを変えたら5.2倍速くなった話",
+      "url": "https://zenn.dev/mamoru_f/articles/2b4f87b42736e2",
+      "publishedAt": "2026-08-09T15:21:13.000Z",
+      "publisher": "Mamoru Fujita",
+      "summary": "はじめに こんにちは！ オープン株式会社にてプロダクト企画を担当している藤田です。 前回の記事「2.8Tパラメータの Kimi K3 を、RTX 6000 PRO搭載ワークステーションで動かす」を書いた際、「実用に耐える速度ではありません…"
     },
     {
-      "id": "147ace6e4cca",
-      "title": "#3「ご報告申し上げます」と画面に表示しただけでは、報告にならない — AIエージェント間通信の進化史",
-      "url": "https://zenn.dev/chisatom/articles/68ee26e2969f5a",
-      "publishedAt": "2026-08-09T12:38:27.000Z",
-      "publisher": "Chisato Matsuzaki",
-      "summary": "この記事は、Claude Code 6体のマルチエージェント「Lady's servants」（お屋敷）を5ヶ月運用した記録を振り返る連載の第3回です。第1回はロールプレイが制御に効く話、第2回は誕生直後の生ログを紹介しました。 第2回の…"
+      "id": "a749a0b089d9",
+      "title": "cc-sddもSuperpowersも重かったので、2コマンドの仕様駆動開発を作った",
+      "url": "https://zenn.dev/basio/articles/9d54fa15aef12b",
+      "publishedAt": "2026-08-09T15:17:49.000Z",
+      "publisher": "basio",
+      "summary": "忙しい人向け cc-sddやSuperpowersを使って仕様駆動開発をしていましたが、普段の開発で使うには、設計・タスク分解・レビューの工程が少し重いと感じていました。そこで、こう考えました。 今のフロンティアモデルなら、曖昧さを解消し…"
     },
     {
-      "id": "70e5240bb23c",
-      "title": "カバレッジ4指標100%をAI開発で維持し続ける ── 「ゲートが本当に落ちるか」まで検証する運用",
-      "url": "https://zenn.dev/tomu_coelia/articles/coverage-100-with-ai",
-      "publishedAt": "2026-08-09T12:34:54.000Z",
-      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
-      "summary": "「カバレッジ100%は手段の目的化」という批判は昔からあります。それでも私たちのWebサービスリポジトリ（イベント予約・LINE連携・決済まわり）は、**stmt / branch / func / line の4指標100%**を開発初…"
+      "id": "d35781ff4d03",
+      "title": "「AIの思考って何だ?」と思ったので、自分で定義を書き始めた。",
+      "url": "https://zenn.dev/think_node/articles/16ecf129142d47",
+      "publishedAt": "2026-08-09T15:07:01.000Z",
+      "publisher": "THINK NODE",
+      "summary": "この連載について LLM を触っていて、ふと「これ、考えてるのか?」と思ったのが始まりです。 そこから「じゃあ思考って何?」を調べて自分が欲しい形の答えが見つからなかったので、自分で書くことにしました。 書いた仮説を実装したら、実装が仮説…"
     },
     {
-      "id": "22943878576b",
-      "title": "Claude Code タスク管理ガイド——/todoから始めて2ヶ月・1363件を回すまで",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-07-15-193500",
-      "publishedAt": "2026-08-09T12:12:30.000Z",
-      "publisher": "saitoko",
-      "summary": "この記事はGTD（Getting Things Done：頭の中のタスクを全部外に出して整理する手法）× Claude Codeのタスク管理シリーズ全15本のうち12本を、読者ジャーニー5段階で案内するハブ記事である。Claude Cod…"
+      "id": "ce8cca303cb1",
+      "title": "論文メモ：Agent-XでオンデバイスAIエージェントを高速化する",
+      "url": "https://zenn.dev/kas_blog/articles/20260805-agent-x-on-device-ai-agent-acceleration",
+      "publishedAt": "2026-08-09T14:45:59.000Z",
+      "publisher": "kas's blog",
+      "summary": "はじめに この記事は、以下の論文を読んだ技術メモです。 論文タイトル：Agent-X: Full Pipeline Acceleration of On-device AI Agents 著者：Jinha Chung, Byeongjun…"
     }
   ],
-  "fetchedAt": "2026-08-09T22:26:26.447Z",
+  "fetchedAt": "2026-08-09T23:05:20.411Z",
   "stale": false,
   "error": null
 }
