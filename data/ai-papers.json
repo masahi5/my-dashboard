@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "e0721545e246",
-      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
-      "url": "https://huggingface.co/papers/2608.07468",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "World-Action Models (WAMs) improve end-to-end autonomous driving by transferring video dynamics priors to action predic…",
-      "score": 19
-    },
-    {
       "id": "07b9434236b2",
       "title": "Beyond Simply Environment Scaling: Designing Effective Environment Distributions for Multimodal Agent Learning",
       "url": "https://huggingface.co/papers/2608.03571",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Recent works train agents by constructing large-scale multimodal environment pools. However, we find that simply increa…",
-      "score": 16
+      "score": 23
     },
     {
       "id": "99a6b27d34e8",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.03573",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) exhibit fundamentally different behaviors in enhancing mul…",
-      "score": 14
+      "score": 23
     },
     {
       "id": "e2de46e1fcfa",
@@ -44,14 +36,6 @@
       "publishedAt": "2026-08-03T19:46:13.000Z",
       "summary": "Audio reasoning is essential for machine understanding of the acoustic world. Reinforcement learning with verifiable re…",
       "score": 8
-    },
-    {
-      "id": "0cf41b889c97",
-      "title": "Uncertainty-Aware World Model for Aerial Image-Goal Navigation",
-      "url": "https://huggingface.co/papers/2608.05597",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Aerial image-goal navigation requires an unmanned aerial vehicle (UAV) to reach a target location specified by a goal i…",
-      "score": 5
     },
     {
       "id": "bb6043ad64f4",
@@ -100,9 +84,25 @@
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain diff…",
       "score": 1
+    },
+    {
+      "id": "b9ca1a1efdec",
+      "title": "Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence",
+      "url": "https://huggingface.co/papers/2608.06756",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Vision-language models are increasingly serving as the reasoning core of embodied agents. Robot execution is inherently…",
+      "score": 0
+    },
+    {
+      "id": "4485b73cee55",
+      "title": "Towards Interpretable Foundation Models for Retinal Fundus Images",
+      "url": "https://huggingface.co/papers/2603.18846",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Foundation models are used to extract transferable representations from large amounts of unlabeled data, typically via …",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-10T07:24:59.968Z",
+  "fetchedAt": "2026-08-10T08:57:18.959Z",
   "stale": false,
   "error": null
 }
