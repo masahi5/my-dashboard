@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "631a141fe63d",
-      "title": "テストが本番データを3回壊した話 — 疑うべきは『他人』より『自分』だった",
-      "url": "https://zenn.dev/berrylove/articles/test-broke-production-data-three-times",
-      "publishedAt": "2026-08-09T21:12:29.000Z",
-      "publisher": "berrylove inc.",
-      "summary": "先日公開した本『AI 国家運営』の第9章では、テストコードが本番相当のデータを3回壊した事故を扱いました。本では対処（隔離・出口の防御・回帰確認）に重心を置いたので、この記事では逆に、原因にたどり着くまでの調査プロセスだけを切り出します。…"
+      "id": "8b64ab17381e",
+      "title": "AIを育てはじめた初日、コードは1行も書かなかった",
+      "url": "https://zenn.dev/yi_works/articles/ai-workspace-layout",
+      "publishedAt": "2026-08-10T05:53:18.000Z",
+      "publisher": "imai",
+      "summary": "前回は、AI が足し算を間違えていたころから、仕事の中心になるまでの3年を書きました。 ただ、中心に置いたところで、一緒に働く形まで決まるわけではありません。 どう頼み、どこまで任せ、何を残すのか。手本がどこにもないので、自分で組み立てる…"
     },
     {
-      "id": "b87b00d773b1",
-      "title": "AI討論の全ログは渡さない、ラウンド3の出力だけで意思決定メモを作る",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-roundtable-decision-memo",
-      "publishedAt": "2026-08-09T21:08:01.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 前回の記事で、1つのチャットに5人の役を立ててAIに討論させる「円卓プロンプト」を紹介した。今回はその出力を報告用の1枚に変換する後工程を扱う 討論の全ログ（5ラウンド分の発言）をそのまま次の相手に渡すと、要約でなく丸投げにな…"
+      "id": "417c6dfa1d9b",
+      "title": "中高生からわかる 生成AIパスポート教科書",
+      "url": "https://zenn.dev/student_blog/books/generative-ai-passport-study-guide",
+      "publishedAt": "2026-08-10T05:34:03.000Z",
+      "publisher": "まる",
+      "summary": "AIの基礎、生成AIの仕組み、リスク、法律・倫理、プロンプトを図解と50問で学ぶ、2026年2月以降のシラバス対応入門書"
     },
     {
-      "id": "f4097bd985f0",
-      "title": "AI を使うほど、プロセスが要る — バグをゼロにできない前提で、何を管理するか",
-      "url": "https://zenn.dev/exapolicy/articles/9c56bb7207f0cc",
-      "publishedAt": "2026-08-09T21:07:26.000Z",
-      "publisher": "プロマネ武蔵",
-      "summary": "はじめに 「AI コーディングで品質が落ちている」という調査結果が、この夏話題になりました。New Relic が 2026 年 7 月 30 日に発表した「The 2026 State of AI Coding Report」(米国の中…"
+      "id": "d0a83e6a5c38",
+      "title": "個人1名+AIエージェント2種で金融グレードシステムを全自動運用している話",
+      "url": "https://zenn.dev/tkglobalos/articles/ai-driven-finos",
+      "publishedAt": "2026-08-10T05:21:00.000Z",
+      "publisher": "Tk",
+      "summary": "はじめに 「AIがコードを書く」という話はよく聞くようになった。でも「AIエージェントが実際に金融グレードのシステムのPRを起票して、人間がレビューしてマージする」という体制で本番運用している、というケースはまだ少ないと思う。 この記事で…"
     },
     {
-      "id": "f460ab04b5f7",
-      "title": "「変更するな」と書いた仕様は、なぜ本番DBを守れなかったのか ― AIに効く、人間のための古い技術",
-      "url": "https://zenn.dev/cognitiveosmdl/articles/12c36c1e5e108f",
-      "publishedAt": "2026-08-09T21:00:07.000Z",
-      "publisher": "cognitiveosmdl",
-      "summary": "! 本記事は特定の企業・製品・個人を批判するものではありません。むしろ逆で、「これは AI を使えば誰にでも普通に起こることであり、人間相手に 50 年かけて整備されてきた技術で、今日から抑え込める」という話をします。記事中のコマンドとフ…"
+      "id": "60d5a16ae9ba",
+      "title": "Google Cloud Next Tokyo 2026に登壇しました！",
+      "url": "https://zenn.dev/sompojapan_dx/articles/f88ed67e2f258f",
+      "publishedAt": "2026-08-10T05:15:47.000Z",
+      "publisher": "sishikawa40",
+      "summary": "先日開催された Google Cloud Next Tokyo に、Sompo Digital Lab として複数の登壇機会をいただきました。まだ興奮が冷めやらないうちに、ブログとして残しておきます。 Day 1 基調講演に、損害保険ジャ…"
     },
     {
-      "id": "6924def3816c",
-      "title": "Slackの過去ログが90日で消える前に —— 会話をまるごとローカルにバックアップする方法",
-      "url": "https://zenn.dev/jinqiu/articles/052165a19d626b",
-      "publishedAt": "2026-08-09T20:02:51.000Z",
-      "publisher": "Jinqiu",
-      "summary": "はじめに（TL;DR） Slackの無料プランでは、90日より古いメッセージが見えなくなります。消えるわけではなく「見られなくなる」だけですが、実質的には同じこと——過去の決定や、共有されたファイル、あのやり取りに、もうたどり着けません。…"
+      "id": "0cfa85f4723a",
+      "title": "CLI 上の Claude Code で Computer Use を再現する（追加課金ゼロ、441 行のエージェント）",
+      "url": "https://zenn.dev/tokium_dev/articles/gui-agent-zero-extra-cost",
+      "publishedAt": "2026-08-10T04:59:12.000Z",
+      "publisher": "ikedan",
+      "summary": "! この記事は何の話か（3 行まとめ） Computer Use（AI がスクリーンを見てマウス・キーボードを操作する）を試したいけれど、API の従量課金は使いたくない。その制約のもとで Windows 11 のネイティブ GUI を自…"
     },
     {
-      "id": "ef121946857a",
-      "title": "エージェントに媒体運用を任せて1年、事故は全部「関門」と「確認」で起きた",
-      "url": "https://zenn.dev/mameresearcher/articles/agent-media-ops-gates-and-verification",
-      "publishedAt": "2026-08-09T19:57:35.000Z",
-      "publisher": "まめ研究員",
-      "summary": "16媒体に自動配信するコンテンツ基盤 の続きです。前回は「媒体ごとに設計を変える」という配信側の話でした。今回は運用に入ってから起きたことを書きます。 結論から言うと、壊れるのは配信ロジックではありませんでした。 事故はほぼ全部、次の2箇…"
+      "id": "fc26b46e2ac6",
+      "title": "長時間タスクで失速するエージェントを、別セッションへの定例報告で立て直す",
+      "url": "https://zenn.dev/acntechjp/articles/09c6aef835b437",
+      "publishedAt": "2026-08-10T04:57:58.000Z",
+      "publisher": "Ryo Tsukuda",
+      "summary": "! この記事は、筆者の実際の作業ログとメモをもとに生成AI（Claude）が下書きし、公式ドキュメントや論文で裏取りをしながらまとめたものです。Claude Code は更新が速く、バージョンや環境（OS・プラン・設定）によって挙動が変わ…"
     },
     {
-      "id": "37fea9d49e8a",
-      "title": "LangChainとLangGraphの違いを理解するために、ReActエージェントを自分で組んでみた",
-      "url": "https://zenn.dev/hkame/articles/lang-chain-learn",
-      "publishedAt": "2026-08-09T19:31:19.000Z",
-      "publisher": "Hiroki Kameyama",
-      "summary": "はじめに LLMを使ったエージェント機能を調べていると、「LangChain」と「LangGraph」という2つの名前が出てきて、両者の違いがよくわからなくなることがあります。 LangChainだけでもエージェント(ツールを使うLLM)…"
+      "id": "0ce2896ada9f",
+      "title": "OceanBase AIが実現するRAGパイプラインの全体像",
+      "url": "https://zenn.dev/objp/articles/b086057e6c4259",
+      "publishedAt": "2026-08-10T04:37:52.000Z",
+      "publisher": "OceanBase",
+      "summary": "前回の記事「AI時代のデータベースはどう進化するのか。ベクトル検索だけでは足りない」では、アーキテクチャと価値の観点から、OceanBase AI がマルチモデル統合アプローチを採用する理由を解説しました。1 つのデータベースで業務データ…"
     },
     {
-      "id": "7c75ed76ae45",
-      "title": "うちのAI開発体制は世界基準で何レベルか——Claude Code個人開発を2026年の成熟度モデルで自己診断したら「L3.5」だった",
-      "url": "https://zenn.dev/abyssgate/articles/ai-dev-maturity-self-check-l35",
-      "publishedAt": "2026-08-09T16:53:31.000Z",
-      "publisher": "Abyssgate開発中",
-      "summary": "はじめに Claude Code を相棒に、Wizardry風の3DダンジョンRPG「Abyssgate」を個人開発しています。前職は製造業で装置の設計をしていました。 このアカウントでは、開発を5フェーズに分割する話、1タスク1AIで検…"
+      "id": "bcafa14914a8",
+      "title": "AIに家の自動化を36個作らせた1年後、最大のコストは「壊れても気づかない」だった",
+      "url": "https://zenn.dev/kentaro_tak/articles/ai-home-automation-silent-failure",
+      "publishedAt": "2026-08-10T04:36:34.000Z",
+      "publisher": "kentaro",
+      "summary": "去年から、家庭の面倒くさいことを片っ端から自作ツールで潰してきた。設計も実装もほとんどAIに任せている。 今朝の時点で、自宅PCのタスクスケジューラにはこうなって並んでいる。 > Get-ScheduledTask | Where-Obj…"
     },
     {
-      "id": "e56f2a8011a3",
-      "title": "値を変えても何も起きない：AIが書いた「宣言だけのコード」を機械検査した",
-      "url": "https://zenn.dev/yamakraft/articles/unwired-fields-ai-code",
-      "publishedAt": "2026-08-09T16:47:23.000Z",
-      "publisher": "Yamakraft",
-      "summary": "ゲームの手触りを決める数値（回避のスタミナ消費、攻撃が当たった瞬間に画面を止める長さ、など）は、何十回も入れ替えて詰めていく類のものです。そのたびにコードを書き換えてビルドを待つ形にはできないので、こうした調整用の数値はコードから追い出し…"
+      "id": "b9400ee39b39",
+      "title": "worktreeで消えるのはコードより「議論」——Claude Code並列開発の事故類型と除去前チェック",
+      "url": "https://zenn.dev/zenn_content/articles/claude-code-worktree-accident-patterns",
+      "publishedAt": "2026-08-10T04:18:37.000Z",
+      "publisher": "krbrr",
+      "summary": "はじめに Claude Codeで並列開発をするとき、git worktreeはほぼ標準装備になりました。エージェントごとに独立した作業コピーを持たせて衝突を防ぐ——設計としては真っ当です。 ただ、実際に運用するとworktree固有の事…"
     },
     {
-      "id": "e3233e4939ea",
-      "title": "Claude CodeのSkillはちゃんと発火しているか？ 自作ダッシュボードと公式機能を突き合わせてみた",
-      "url": "https://zenn.dev/ytakashi_dev/articles/self-built-dashboard-value-shift",
-      "publishedAt": "2026-08-09T16:28:43.000Z",
-      "publisher": "たかし",
-      "summary": "Claude Codeのスキル利用を可視化するダッシュボードを自作した。 ところが作ったあと、8月になって、公式OpenTelemetryにはスキルの発火を記録するclaude_code.skill_activatedイベントがあると知っ…"
+      "id": "694e1e8b6496",
+      "title": "Claude Codeの隠れコンテキスト、実測したら毎ターン165KBだった——注入源の棚卸し手順",
+      "url": "https://zenn.dev/zenn_content/articles/claude-code-hidden-context-audit",
+      "publishedAt": "2026-08-10T04:18:37.000Z",
+      "publisher": "krbrr",
+      "summary": "結論から Claude Codeは毎ターン、あなたが書いたプロンプトの他に設定テキストの塊をモデルに送っています。私の環境を実測したら、その合計は約165KBでした。 注入源 実測サイズ 中身 ~/.claude/rules/ 配下 13…"
     },
     {
-      "id": "4efc5862545d",
-      "title": "常駐型AIチャットエージェントの「トークンコスト予算」設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-token-cost-budget-design",
-      "publishedAt": "2026-08-09T16:04:43.000Z",
-      "publisher": "HACH",
-      "summary": "Slack / Teams / Chatworkに常駐して働くAIエージェントは、機能が増えるほどLLM呼び出しの回数と1回あたりのトークン量が積み上がっていきます。レート制限(APIの同時実行数・秒間リクエスト数)の設計と混同されがちで…"
+      "id": "93e1ab8cc636",
+      "title": "植える前にAIで描いてみたら、庭づくりに対する考え方が変わった話",
+      "url": "https://zenn.dev/sophie_bella/articles/88dcef08407458",
+      "publishedAt": "2026-08-10T03:30:31.000Z",
+      "publisher": "SophieBella",
+      "summary": "ここ数ヶAI garden designというキーワードをよく見かけるようになった。正直「またバズワードか」と思っていたけど、自分の庭のリフォームを考え始めたタイミングで、試しに使ってみることにした。この記事は宣伝でも何でもなく、単純に「…"
     },
     {
-      "id": "83217eae4997",
-      "title": "「手動」の反対は、「人」ではなかった（12）",
-      "url": "https://zenn.dev/jissokulog/articles/2bbf24ea51be81",
-      "publishedAt": "2026-08-09T15:38:08.000Z",
-      "publisher": "実測",
-      "summary": "引き継ぎの記録に「手動実行」と書いてありました。私はそれを「人が自分でコマンドを打った」と読みました。そのつもりで話を進め、断定の形で2回書きました。 記録にはこう書いてありました。 2026-08-06 未明、「16:24 の手動実行」…"
+      "id": "af7c92d9e23d",
+      "title": "AI彼女アプリを作っていて気付いた。AIの成長は、前と違う選択をすることだった",
+      "url": "https://zenn.dev/mitsukida/articles/ae46f4ad33e2a7",
+      "publishedAt": "2026-08-10T03:19:38.000Z",
+      "publisher": "mitsukida",
+      "summary": "AI彼女アプリを作っていて気付いた。AIの成長は、前と違う選択をすることだった AI彼女アプリを作っていると、 どうしても、 「何を覚えているか」が気になる。 好きなものを覚えている。 前に話したことを覚えている。 嫌だったことを覚えてい…"
     }
   ],
-  "fetchedAt": "2026-08-10T08:57:19.102Z",
+  "fetchedAt": "2026-08-10T10:17:36.546Z",
   "stale": false,
   "error": null
 }
