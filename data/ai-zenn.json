@@ -6,46 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "cbbdac821313",
-      "title": "ベクトルDB選択時の考慮点- RDB同居型と専用ベクトルDB、それぞれの注意点",
-      "url": "https://zenn.dev/hkame/articles/pgvector-vs-vectordb",
-      "publishedAt": "2026-08-10T19:22:24.000Z",
-      "publisher": "Hiroki Kameyama",
-      "summary": "はじめに RAGやレコメンド機能を実装する際、ベクトル検索の基盤として「Chromaのような専用ベクトルDBを使うか」「PostgreSQL + pgvectorのようにRDBにベクトル機能を追加するか」で迷うことは多い。本記事では、両者…"
-    },
-    {
-      "id": "930dd4ce823f",
-      "title": "個人開発でAIエラー解析ツール「ERROR DECODER」を作った話",
-      "url": "https://zenn.dev/kage299/articles/914844bab15cae",
-      "publishedAt": "2026-08-10T18:09:38.000Z",
-      "publisher": "kage",
-      "summary": "はじめに 新卒でインフラエンジニアとして働き始めて数ヶ月。平日は業務、開発に使える時間は土日中心という限られたリソースの中で、AIをフル活用して個人開発サービス「ERROR DECODER」を作りました。 ERROR DECODERは、エ…"
-    },
-    {
-      "id": "1638b0d83b51",
-      "title": "その対策、誰も通らない廊下に貼ってありました ── 「場当たり的な気がする」を実測した負債棚卸し 8 日間",
-      "url": "https://zenn.dev/satoh_y_0323/articles/95ff9a7b16510c",
-      "publishedAt": "2026-08-10T17:57:49.000Z",
-      "publisher": "satoh-y-0323",
-      "summary": "前回記事: https://zenn.dev/satoh_y_0323/articles/45a68b92d06f54 C3 GitHub: https://github.com/satoh-y-0323/claude-code-cond…"
-    },
-    {
-      "id": "472cbb6da69e",
-      "title": "MCP対応でNext.js開発が変わる：AIエージェント実装チェックリスト",
-      "url": "https://zenn.dev/bambampurin/articles/2026-08-02-tech-daily",
-      "publishedAt": "2026-08-10T17:02:10.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 今日の実際のヘッドラインから見える最大の流れは、LLM単体の進化よりも、AIエージェント・MCP・業務自動化への実装シフトです。AWSのMCP対応、Microsoft Build 2026の業務自動化、Fujitsuの自己進化マルチA…"
-    },
-    {
-      "id": "567fee2abed3",
-      "title": "CLAUDE.md と Skills の違い — 置き場を4つに分けた基準と、80本に増えて壊れたこと",
-      "url": "https://zenn.dev/nikokobo/articles/7a399b93c8d471",
-      "publishedAt": "2026-08-10T16:41:47.000Z",
-      "publisher": "AI秘書を育てる NiKoKobo",
-      "summary": "結論 CLAUDE.md と Skills の違いを一言でいうと、いつ読ませるかです。 置き場 いつ読まれるか 私の実測 CLAUDE.md / rules 毎回（常時ロード） 135行 / 5本486行 references 呼ばれた時…"
-    },
-    {
       "id": "c746f7d4433a",
       "title": "CLAUDE.md の書き方 — 指示を書いても守られないので、hook 57本に移した話",
       "url": "https://zenn.dev/nikokobo/articles/fd08408988b168",
@@ -100,9 +60,49 @@
       "publishedAt": "2026-08-10T14:21:53.000Z",
       "publisher": "saitoko",
       "summary": "この記事の要点: CLAUDE.mdや.claude/rules/に「〇〇を確認する」「〇〇は禁止」と書いても、ルールは思ったほど守られない。技術的な理由（テキストのルールは強制力を持たない）・人間側の理由（承認は基本的に通る）・規模の理…"
+    },
+    {
+      "id": "16827d383837",
+      "title": "GoogleがWebサイトを「AI向け」に変え始めた——WebMCPとは何か",
+      "url": "https://zenn.dev/jeong/articles/81970b9adb216d",
+      "publishedAt": "2026-08-10T14:19:13.000Z",
+      "publisher": "田中義正",
+      "summary": "「AIにピザを注文してもらう」と聞くと、AIが画面を見ながら人間のようにクリックしていく姿を想像するかもしれません。 しかし、その方法は意外にも不安定です。ボタンの位置や文言、DOM構造が少し変わるだけで失敗し、画面を何度も読み取るため時…"
+    },
+    {
+      "id": "e9bb6cfe9842",
+      "title": "プロンプト・コンテキスト・ハーネス・ループ: Claude Code に大きなタスクを任せる設計",
+      "url": "https://zenn.dev/mosida/articles/claude-code-large-task-design",
+      "publishedAt": "2026-08-10T14:15:49.000Z",
+      "publisher": "mosida",
+      "summary": "Claude Code に指示を出すと、ファイルを読み、コードを書き、テストを走らせます。小さなタスクであれば、適当な指示でも期待どおりの結果を出してくれます。 タスクが大きくなると、適当な指示ではうまくいかなくなります。指示の解釈が毎回…"
+    },
+    {
+      "id": "b47d4ae6e5c1",
+      "title": "割れた器を、言葉で継ぐ——1日ひとことのAI日記アプリを個人開発した",
+      "url": "https://zenn.dev/kintsugijournal/articles/3391edb342686a",
+      "publishedAt": "2026-08-10T13:55:53.000Z",
+      "publisher": "金継ぎジャーナル | AI日記アプリ",
+      "summary": "日本には、割れた器を漆で継ぎ、その継ぎ目に金を施す「金継ぎ」という修復の技法があります。ひびを隠すのではなく、金の線として残す。そのありようをこころの傷とも重ねられないかと考え、1日ひとことの記録で器を繕っていくAI日記アプリ「金継ぎジャ…"
+    },
+    {
+      "id": "9d774dbb3491",
+      "title": "社内スキャンPDFを、ローカルOCRとローカルLLMだけで Markdown にする",
+      "url": "https://zenn.dev/gungrifone/articles/6703cb1074c81b",
+      "publishedAt": "2026-08-10T13:50:55.000Z",
+      "publisher": "gungrifone",
+      "summary": "! この記事は 自分のマシン上で完結させる 話です。文書を業者に預ける話ではありません。 「外部LLMを使わない受託」でも、預かった瞬間に依頼者側の漏洩リスクは残ります。秘匿と両立するのは 自走 だけです。 社内マニュアルや手順書を、Ch…"
+    },
+    {
+      "id": "64f7dc95110b",
+      "title": "AIエージェントとAI連携システムの違い──「自律性」という名の誤解と現場のリアル",
+      "url": "https://zenn.dev/saikoseiko/articles/0e70e6dcd9ee7f",
+      "publishedAt": "2026-08-10T12:22:05.000Z",
+      "publisher": "Saiko-Seiko",
+      "summary": "近年のAI技術の進展に伴い、「AIエージェント」と「AI連携システム」という用語が現場レベルでも頻繁に用いられるようになっている。しかしながら、これらの概念は混同されやすく、特に要件定義やアーキテクチャ設計のフェーズにおいて、しばしば\"同…"
     }
   ],
-  "fetchedAt": "2026-08-10T21:11:18.836Z",
+  "fetchedAt": "2026-08-10T21:57:48.942Z",
   "stale": false,
   "error": null
 }
