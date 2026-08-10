@@ -11,7 +11,31 @@
       "url": "https://huggingface.co/papers/2608.07468",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "World-Action Models (WAMs) improve end-to-end autonomous driving by transferring video dynamics priors to action predic…",
-      "score": 18
+      "score": 19
+    },
+    {
+      "id": "07b9434236b2",
+      "title": "Beyond Simply Environment Scaling: Designing Effective Environment Distributions for Multimodal Agent Learning",
+      "url": "https://huggingface.co/papers/2608.03571",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Recent works train agents by constructing large-scale multimodal environment pools. However, we find that simply increa…",
+      "score": 16
+    },
+    {
+      "id": "99a6b27d34e8",
+      "title": "SFT Conflicts, RL Coexists: A Theoretical and Empirical Analysis of Multi-Task Learning for LLMs",
+      "url": "https://huggingface.co/papers/2608.03573",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) exhibit fundamentally different behaviors in enhancing mul…",
+      "score": 14
+    },
+    {
+      "id": "e2de46e1fcfa",
+      "title": "YOLO-PEFT: Parameter-Efficient Fine-Tuning on YOLO Family",
+      "url": "https://huggingface.co/papers/2608.07051",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Generic parameter-efficient fine-tuning (PEFT) methods transferred from language models can fail silently on real-time …",
+      "score": 10
     },
     {
       "id": "e6fde82e6657",
@@ -22,28 +46,12 @@
       "score": 8
     },
     {
-      "id": "e2de46e1fcfa",
-      "title": "YOLO-PEFT: Parameter-Efficient Fine-Tuning on YOLO Family",
-      "url": "https://huggingface.co/papers/2608.07051",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Generic parameter-efficient fine-tuning (PEFT) methods transferred from language models can fail silently on real-time …",
-      "score": 8
-    },
-    {
       "id": "0cf41b889c97",
       "title": "Uncertainty-Aware World Model for Aerial Image-Goal Navigation",
       "url": "https://huggingface.co/papers/2608.05597",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Aerial image-goal navigation requires an unmanned aerial vehicle (UAV) to reach a target location specified by a goal i…",
       "score": 5
-    },
-    {
-      "id": "abab5f1b010c",
-      "title": "StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding",
-      "url": "https://huggingface.co/papers/2608.05703",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Deploying autonomous multimodal agents in continuous, real-world environments requires them to ingest unbounded audio-v…",
-      "score": 4
     },
     {
       "id": "bb6043ad64f4",
@@ -78,20 +86,12 @@
       "score": 2
     },
     {
-      "id": "1e8bea4b6da6",
-      "title": "Douyin Multimodal Embedding Model Technical Report",
-      "url": "https://huggingface.co/papers/2608.02148",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Multimodal representation learning is a cornerstone of modern AI. By encoding multimodal queries and targets into vecto…",
-      "score": 2
-    },
-    {
-      "id": "c1997b2a8171",
-      "title": "The Optimizer Is the Agent: Reasoning-Driven Search across Prompts, Programs, and ML Workflows",
-      "url": "https://huggingface.co/papers/2608.06714",
+      "id": "cbe988a200f1",
+      "title": "Zero Gap Is Not Restoration: Stratified Per-Question Probability Evaluation and Step-wise Mitigation of Benchmark Contamination",
+      "url": "https://huggingface.co/papers/2608.07341",
       "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Recent systems for optimizing prompts, programs, and ML workflows typically rely on explicit outer-loop controllers suc…",
-      "score": 2
+      "summary": "Test data from public benchmarks inevitably leaks into pretraining corpora, inflating evaluation scores once memorized.…",
+      "score": 1
     },
     {
       "id": "b505329cb16d",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-10T05:54:40.832Z",
+  "fetchedAt": "2026-08-10T07:24:59.968Z",
   "stale": false,
   "error": null
 }
