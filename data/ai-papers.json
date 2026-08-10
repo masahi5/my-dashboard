@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.03571",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Recent works train agents by constructing large-scale multimodal environment pools. However, we find that simply increa…",
-      "score": 24
+      "score": 25
     },
     {
       "id": "99a6b27d34e8",
@@ -19,15 +19,7 @@
       "url": "https://huggingface.co/papers/2608.03573",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) exhibit fundamentally different behaviors in enhancing mul…",
-      "score": 24
-    },
-    {
-      "id": "e2de46e1fcfa",
-      "title": "YOLO-PEFT: Parameter-Efficient Fine-Tuning on YOLO Family",
-      "url": "https://huggingface.co/papers/2608.07051",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Generic parameter-efficient fine-tuning (PEFT) methods transferred from language models can fail silently on real-time …",
-      "score": 10
+      "score": 25
     },
     {
       "id": "e6fde82e6657",
@@ -38,12 +30,12 @@
       "score": 9
     },
     {
-      "id": "7527155d1f58",
-      "title": "Round-Trip Consistency: Bidirectional Diffusion Models Can Predict Their Own Rollout Errors",
-      "url": "https://huggingface.co/papers/2608.00675",
-      "publishedAt": "2026-08-01T13:49:46.000Z",
-      "summary": "Autoregressive models accumulate error over long rollouts, yet at deployment there is no ground truth to measure it aga…",
-      "score": 3
+      "id": "dbc4d2ae1a67",
+      "title": "Efficient Knowledge Distillation for LLMs: Offline Top-K Logits and a Fused Chunked KL Loss",
+      "url": "https://huggingface.co/papers/2608.03796",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Small language models are often the only option for deployment under tight latency, cost, and on-premises constraints, …",
+      "score": 5
     },
     {
       "id": "cbe988a200f1",
@@ -78,6 +70,14 @@
       "score": 1
     },
     {
+      "id": "2b16ad87219b",
+      "title": "FATE: Frame-Level Audio-Visual Temporal Embedding",
+      "url": "https://huggingface.co/papers/2608.01310",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "summary": "When a dog opens its mouth and barks, humans naturally recognize what the sound is and when it occurs. Building audio-v…",
+      "score": 0
+    },
+    {
       "id": "624100477204",
       "title": "OneEmo: A Unified Multimodal Reasoning Model for Emotion Perception, Understanding, and Interaction",
       "url": "https://huggingface.co/papers/2608.06013",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-10T10:17:36.397Z",
+  "fetchedAt": "2026-08-10T11:29:57.827Z",
   "stale": false,
   "error": null
 }
