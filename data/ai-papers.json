@@ -6,60 +6,44 @@
   "category": "ai",
   "items": [
     {
-      "id": "6c6459095978",
-      "title": "Interpretable MEG Decoding of Perceived Speech: Cortical Sources and the Stimulus Features That Drive Retrieval",
-      "url": "https://huggingface.co/papers/2608.01481",
-      "publishedAt": "2026-08-02T00:00:00.000Z",
-      "summary": "Short segments of perceived speech can be retrieved from non-invasive magnetoencephalographic (MEG) recordings by deep …",
-      "score": 65
+      "id": "e0721545e246",
+      "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+      "url": "https://huggingface.co/papers/2608.07468",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "World-Action Models (WAMs) improve end-to-end autonomous driving by transferring video dynamics priors to action predic…",
+      "score": 15
     },
     {
-      "id": "814e5a745221",
-      "title": "DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces",
-      "url": "https://huggingface.co/papers/2608.03451",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Data agents enable natural-language analytics over organizational workspaces, where relevant evidence may be scattered …",
-      "score": 30
+      "id": "e2de46e1fcfa",
+      "title": "YOLO-PEFT: Parameter-Efficient Fine-Tuning on YOLO Family",
+      "url": "https://huggingface.co/papers/2608.07051",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Generic parameter-efficient fine-tuning (PEFT) methods transferred from language models can fail silently on real-time …",
+      "score": 5
     },
     {
-      "id": "f83fb003cb65",
-      "title": "Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay",
-      "url": "https://huggingface.co/papers/2608.05784",
+      "id": "bb6043ad64f4",
+      "title": "When Privileged Guidance Misaligns: State-Matched Routing and Contextualized Self-Distillation for Multi-Turn Agents",
+      "url": "https://huggingface.co/papers/2608.05219",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "Privileged on-policy distillation provides dense supervision for multi-turn agents by allowing a synchronized teacher t…",
+      "score": 3
+    },
+    {
+      "id": "abab5f1b010c",
+      "title": "StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding",
+      "url": "https://huggingface.co/papers/2608.05703",
       "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Computer-use agents pay full frontier inference to re-derive routines their user has already performed, because an agen…",
-      "score": 23
+      "summary": "Deploying autonomous multimodal agents in continuous, real-world environments requires them to ingest unbounded audio-v…",
+      "score": 3
     },
     {
-      "id": "5a1669182c67",
-      "title": "KVAE: Family of Tokenizers for Multimodal Generative Models",
-      "url": "https://huggingface.co/papers/2608.05798",
+      "id": "0cf41b889c97",
+      "title": "Uncertainty-Aware World Model for Aerial Image-Goal Navigation",
+      "url": "https://huggingface.co/papers/2608.05597",
       "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Latent diffusion modeling (LDM), a prominent paradigm, utilizes tokenizers to map input signal to compressed representa…",
-      "score": 20
-    },
-    {
-      "id": "832ee0135836",
-      "title": "Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills",
-      "url": "https://huggingface.co/papers/2608.01851",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Robot learning is splitting into two bets: policies that bake competence into frozen weights (vision-language-action, o…",
-      "score": 10
-    },
-    {
-      "id": "c4e852ab2bc1",
-      "title": "FactorJEPA: Factorizing Monolithic Futures into Layout-Agent-Interaction Channels for Crowded and Chaotic Global South Urban Worlds",
-      "url": "https://huggingface.co/papers/2608.01049",
-      "publishedAt": "2026-08-02T00:00:00.000Z",
-      "summary": "World models have attracted significant attention for their ability to capture and predict the structure and dynamics o…",
-      "score": 10
-    },
-    {
-      "id": "dee456a10cd9",
-      "title": "GaussianSelector: Lightweight Human-Guided Object Selection in 3D Gaussian Splatting with Graph Optimization",
-      "url": "https://huggingface.co/papers/2608.01492",
-      "publishedAt": "2026-08-02T00:00:00.000Z",
-      "summary": "Selecting a complete 3D object from a reconstructed scene with minimal user effort is essential for practical scene edi…",
-      "score": 9
+      "summary": "Aerial image-goal navigation requires an unmanned aerial vehicle (UAV) to reach a target location specified by a goal i…",
+      "score": 2
     },
     {
       "id": "c1997b2a8171",
@@ -67,6 +51,38 @@
       "url": "https://huggingface.co/papers/2608.06714",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "Recent systems for optimizing prompts, programs, and ML workflows typically rely on explicit outer-loop controllers suc…",
+      "score": 2
+    },
+    {
+      "id": "457077aac69e",
+      "title": "Modular TTT: Rethinking Test-Time Training as Composable Modules",
+      "url": "https://huggingface.co/papers/2608.07110",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Test-time training (TTT) views sequence modeling as an online learning problem in which fast weights are updated by an …",
+      "score": 2
+    },
+    {
+      "id": "823b3cad869d",
+      "title": "Addressable Memory for Video World Models",
+      "url": "https://huggingface.co/papers/2608.07408",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "We study visual persistence in interactive video world models. These models rely on a Key-Value (KV) cache as a growing…",
+      "score": 2
+    },
+    {
+      "id": "7527155d1f58",
+      "title": "Round-Trip Consistency: Bidirectional Diffusion Models Can Predict Their Own Rollout Errors",
+      "url": "https://huggingface.co/papers/2608.00675",
+      "publishedAt": "2026-08-01T13:49:46.000Z",
+      "summary": "Autoregressive models accumulate error over long rollouts, yet at deployment there is no ground truth to measure it aga…",
+      "score": 1
+    },
+    {
+      "id": "1e8bea4b6da6",
+      "title": "Douyin Multimodal Embedding Model Technical Report",
+      "url": "https://huggingface.co/papers/2608.02148",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Multimodal representation learning is a cornerstone of modern AI. By encoding multimodal queries and targets into vecto…",
       "score": 1
     },
     {
@@ -75,15 +91,7 @@
       "url": "https://huggingface.co/papers/2608.06640",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "The widespread integration of AI coding assistants offers undeniable boosts to engineering velocity. Yet, recent studie…",
-      "score": 0
-    },
-    {
-      "id": "457077aac69e",
-      "title": "Modular TTT: Rethinking Test-Time Training as Composable Modules",
-      "url": "https://huggingface.co/papers/2608.07110",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Test-time training (TTT) views sequence modeling as an online learning problem in which fast weights are updated by an …",
-      "score": 0
+      "score": 1
     },
     {
       "id": "062d2b0c62cc",
@@ -91,18 +99,10 @@
       "url": "https://huggingface.co/papers/2608.07222",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "Neural scaling laws are foundational for language model development, yet standard formulations systematically under- an…",
-      "score": 0
-    },
-    {
-      "id": "823b3cad869d",
-      "title": "Addressable Memory for Video World Models",
-      "url": "https://huggingface.co/papers/2608.07408",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "We study visual persistence in interactive video world models. These models rely on a Key-Value (KV) cache as a growing…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-10T02:33:46.358Z",
+  "fetchedAt": "2026-08-10T04:18:06.513Z",
   "stale": false,
   "error": null
 }
