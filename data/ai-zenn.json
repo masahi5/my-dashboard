@@ -6,6 +6,62 @@
   "category": "ai",
   "items": [
     {
+      "id": "631a141fe63d",
+      "title": "テストが本番データを3回壊した話 — 疑うべきは『他人』より『自分』だった",
+      "url": "https://zenn.dev/berrylove/articles/test-broke-production-data-three-times",
+      "publishedAt": "2026-08-09T21:12:29.000Z",
+      "publisher": "berrylove inc.",
+      "summary": "先日公開した本『AI 国家運営』の第9章では、テストコードが本番相当のデータを3回壊した事故を扱いました。本では対処（隔離・出口の防御・回帰確認）に重心を置いたので、この記事では逆に、原因にたどり着くまでの調査プロセスだけを切り出します。…"
+    },
+    {
+      "id": "b87b00d773b1",
+      "title": "AI討論の全ログは渡さない、ラウンド3の出力だけで意思決定メモを作る",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-roundtable-decision-memo",
+      "publishedAt": "2026-08-09T21:08:01.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 前回の記事で、1つのチャットに5人の役を立ててAIに討論させる「円卓プロンプト」を紹介した。今回はその出力を報告用の1枚に変換する後工程を扱う 討論の全ログ（5ラウンド分の発言）をそのまま次の相手に渡すと、要約でなく丸投げにな…"
+    },
+    {
+      "id": "f4097bd985f0",
+      "title": "AI を使うほど、プロセスが要る — バグをゼロにできない前提で、何を管理するか",
+      "url": "https://zenn.dev/exapolicy/articles/9c56bb7207f0cc",
+      "publishedAt": "2026-08-09T21:07:26.000Z",
+      "publisher": "プロマネ武蔵",
+      "summary": "はじめに 「AI コーディングで品質が落ちている」という調査結果が、この夏話題になりました。New Relic が 2026 年 7 月 30 日に発表した「The 2026 State of AI Coding Report」(米国の中…"
+    },
+    {
+      "id": "f460ab04b5f7",
+      "title": "「変更するな」と書いた仕様は、なぜ本番DBを守れなかったのか ― AIに効く、人間のための古い技術",
+      "url": "https://zenn.dev/cognitiveosmdl/articles/12c36c1e5e108f",
+      "publishedAt": "2026-08-09T21:00:07.000Z",
+      "publisher": "cognitiveosmdl",
+      "summary": "! 本記事は特定の企業・製品・個人を批判するものではありません。むしろ逆で、「これは AI を使えば誰にでも普通に起こることであり、人間相手に 50 年かけて整備されてきた技術で、今日から抑え込める」という話をします。記事中のコマンドとフ…"
+    },
+    {
+      "id": "6924def3816c",
+      "title": "Slackの過去ログが90日で消える前に —— 会話をまるごとローカルにバックアップする方法",
+      "url": "https://zenn.dev/jinqiu/articles/052165a19d626b",
+      "publishedAt": "2026-08-09T20:02:51.000Z",
+      "publisher": "Jinqiu",
+      "summary": "はじめに（TL;DR） Slackの無料プランでは、90日より古いメッセージが見えなくなります。消えるわけではなく「見られなくなる」だけですが、実質的には同じこと——過去の決定や、共有されたファイル、あのやり取りに、もうたどり着けません。…"
+    },
+    {
+      "id": "ef121946857a",
+      "title": "エージェントに媒体運用を任せて1年、事故は全部「関門」と「確認」で起きた",
+      "url": "https://zenn.dev/mameresearcher/articles/agent-media-ops-gates-and-verification",
+      "publishedAt": "2026-08-09T19:57:35.000Z",
+      "publisher": "まめ研究員",
+      "summary": "16媒体に自動配信するコンテンツ基盤 の続きです。前回は「媒体ごとに設計を変える」という配信側の話でした。今回は運用に入ってから起きたことを書きます。 結論から言うと、壊れるのは配信ロジックではありませんでした。 事故はほぼ全部、次の2箇…"
+    },
+    {
+      "id": "37fea9d49e8a",
+      "title": "LangChainとLangGraphの違いを理解するために、ReActエージェントを自分で組んでみた",
+      "url": "https://zenn.dev/hkame/articles/lang-chain-learn",
+      "publishedAt": "2026-08-09T19:31:19.000Z",
+      "publisher": "Hiroki Kameyama",
+      "summary": "はじめに LLMを使ったエージェント機能を調べていると、「LangChain」と「LangGraph」という2つの名前が出てきて、両者の違いがよくわからなくなることがあります。 LangChainだけでもエージェント(ツールを使うLLM)…"
+    },
+    {
       "id": "7c75ed76ae45",
       "title": "うちのAI開発体制は世界基準で何レベルか——Claude Code個人開発を2026年の成熟度モデルで自己診断したら「L3.5」だった",
       "url": "https://zenn.dev/abyssgate/articles/ai-dev-maturity-self-check-l35",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-08-09T15:38:08.000Z",
       "publisher": "実測",
       "summary": "引き継ぎの記録に「手動実行」と書いてありました。私はそれを「人が自分でコマンドを打った」と読みました。そのつもりで話を進め、断定の形で2回書きました。 記録にはこう書いてありました。 2026-08-06 未明、「16:24 の手動実行」…"
-    },
-    {
-      "id": "a11151022e84",
-      "title": "インストラクション ・スキル・フックの個人的構成や作り方",
-      "url": "https://zenn.dev/fukaunabara/articles/88fc256f525f2a",
-      "publishedAt": "2026-08-09T15:30:10.000Z",
-      "publisher": "Takeshi Saito",
-      "summary": "スキルやインストラクション（指示ファイル）をちゃんと使っていますか。 AI エージェントはここ１年でかなり進化しましたね。一方で、環境構築やプロジェクト固有の作法が相変わらず苦手という印象です。というより、こればかりは教えないと無理な気も…"
-    },
-    {
-      "id": "b4ceb92d0c6f",
-      "title": "Claude CodeでNext.jsのタスク管理アプリを作ってみた",
-      "url": "https://zenn.dev/fujinodev/articles/db2a141c79b2b8",
-      "publishedAt": "2026-08-09T15:28:51.000Z",
-      "publisher": "Fujino",
-      "summary": "はじめに 組込みソフトウェアエンジニアとして製品開発に携わっています。 普段はC/C++を中心とした制御開発やファームウェア開発を行っていますが、 今回はAIを活用した開発手法に興味を持ち、Claude Codeを使ってWebアプリ開発に…"
-    },
-    {
-      "id": "147c1961c44b",
-      "title": "AIエージェントを「安全に暴れさせる」設計。Cloudflare OSのセキュリティとガバナンスを読む",
-      "url": "https://zenn.dev/akari1106/articles/21ead1df717cb9",
-      "publishedAt": "2026-08-09T15:22:25.000Z",
-      "publisher": "灯里(akari)",
-      "summary": "はじめに Cloudflare OSの話、3本目です。 1つのプロダクトでこんなに記事書くの笑いますね。でもそれだけ良いプロダクトだと思いますし、すごいなって思います。 1本目はローカルLLMで三目並べに5ラウンドかけた奮闘記、2本目はそ…"
-    },
-    {
-      "id": "159ea350ac46",
-      "title": "「Kimi-K3をRTX 6000 PROで動かした」の続き。モデルを変えたら5.2倍速くなった話",
-      "url": "https://zenn.dev/mamoru_f/articles/2b4f87b42736e2",
-      "publishedAt": "2026-08-09T15:21:13.000Z",
-      "publisher": "Mamoru Fujita",
-      "summary": "はじめに こんにちは！ オープン株式会社にてプロダクト企画を担当している藤田です。 前回の記事「2.8Tパラメータの Kimi K3 を、RTX 6000 PRO搭載ワークステーションで動かす」を書いた際、「実用に耐える速度ではありません…"
-    },
-    {
-      "id": "a749a0b089d9",
-      "title": "cc-sddもSuperpowersも重かったので、2コマンドの仕様駆動開発を作った",
-      "url": "https://zenn.dev/basio/articles/9d54fa15aef12b",
-      "publishedAt": "2026-08-09T15:17:49.000Z",
-      "publisher": "basio",
-      "summary": "忙しい人向け cc-sddやSuperpowersを使って仕様駆動開発をしていましたが、普段の開発で使うには、設計・タスク分解・レビューの工程が少し重いと感じていました。そこで、こう考えました。 今のフロンティアモデルなら、曖昧さを解消し…"
-    },
-    {
-      "id": "d35781ff4d03",
-      "title": "「AIの思考って何だ?」と思ったので、自分で定義を書き始めた。",
-      "url": "https://zenn.dev/think_node/articles/16ecf129142d47",
-      "publishedAt": "2026-08-09T15:07:01.000Z",
-      "publisher": "THINK NODE",
-      "summary": "この連載について LLM を触っていて、ふと「これ、考えてるのか?」と思ったのが始まりです。 そこから「じゃあ思考って何?」を調べて自分が欲しい形の答えが見つからなかったので、自分で書くことにしました。 書いた仮説を実装したら、実装が仮説…"
-    },
-    {
-      "id": "ce8cca303cb1",
-      "title": "論文メモ：Agent-XでオンデバイスAIエージェントを高速化する",
-      "url": "https://zenn.dev/kas_blog/articles/20260805-agent-x-on-device-ai-agent-acceleration",
-      "publishedAt": "2026-08-09T14:45:59.000Z",
-      "publisher": "kas's blog",
-      "summary": "はじめに この記事は、以下の論文を読んだ技術メモです。 論文タイトル：Agent-X: Full Pipeline Acceleration of On-device AI Agents 著者：Jinha Chung, Byeongjun…"
     }
   ],
-  "fetchedAt": "2026-08-09T23:39:44.275Z",
+  "fetchedAt": "2026-08-10T00:04:17.617Z",
   "stale": false,
   "error": null
 }
