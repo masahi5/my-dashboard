@@ -6,6 +6,30 @@
   "category": "ai",
   "items": [
     {
+      "id": "1638b0d83b51",
+      "title": "その対策、誰も通らない廊下に貼ってありました ── 「場当たり的な気がする」を実測した負債棚卸し 8 日間",
+      "url": "https://zenn.dev/satoh_y_0323/articles/95ff9a7b16510c",
+      "publishedAt": "2026-08-10T17:57:49.000Z",
+      "publisher": "satoh-y-0323",
+      "summary": "前回記事: https://zenn.dev/satoh_y_0323/articles/45a68b92d06f54 C3 GitHub: https://github.com/satoh-y-0323/claude-code-cond…"
+    },
+    {
+      "id": "472cbb6da69e",
+      "title": "MCP対応でNext.js開発が変わる：AIエージェント実装チェックリスト",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-02-tech-daily",
+      "publishedAt": "2026-08-10T17:02:10.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 今日の実際のヘッドラインから見える最大の流れは、LLM単体の進化よりも、AIエージェント・MCP・業務自動化への実装シフトです。AWSのMCP対応、Microsoft Build 2026の業務自動化、Fujitsuの自己進化マルチA…"
+    },
+    {
+      "id": "567fee2abed3",
+      "title": "CLAUDE.md と Skills の違い — 置き場を4つに分けた基準と、80本に増えて壊れたこと",
+      "url": "https://zenn.dev/nikokobo/articles/7a399b93c8d471",
+      "publishedAt": "2026-08-10T16:41:47.000Z",
+      "publisher": "AI秘書を育てる NiKoKobo",
+      "summary": "結論 CLAUDE.md と Skills の違いを一言でいうと、いつ読ませるかです。 置き場 いつ読まれるか 私の実測 CLAUDE.md / rules 毎回（常時ロード） 135行 / 5本486行 references 呼ばれた時…"
+    },
+    {
       "id": "c746f7d4433a",
       "title": "CLAUDE.md の書き方 — 指示を書いても守られないので、hook 57本に移した話",
       "url": "https://zenn.dev/nikokobo/articles/fd08408988b168",
@@ -76,33 +100,9 @@
       "publishedAt": "2026-08-10T14:15:49.000Z",
       "publisher": "mosida",
       "summary": "Claude Code に指示を出すと、ファイルを読み、コードを書き、テストを走らせます。小さなタスクであれば、適当な指示でも期待どおりの結果を出してくれます。 タスクが大きくなると、適当な指示ではうまくいかなくなります。指示の解釈が毎回…"
-    },
-    {
-      "id": "b47d4ae6e5c1",
-      "title": "割れた器を、言葉で継ぐ——1日ひとことのAI日記アプリを個人開発した",
-      "url": "https://zenn.dev/kintsugijournal/articles/3391edb342686a",
-      "publishedAt": "2026-08-10T13:55:53.000Z",
-      "publisher": "金継ぎジャーナル | AI日記アプリ",
-      "summary": "日本には、割れた器を漆で継ぎ、その継ぎ目に金を施す「金継ぎ」という修復の技法があります。ひびを隠すのではなく、金の線として残す。そのありようをこころの傷とも重ねられないかと考え、1日ひとことの記録で器を繕っていくAI日記アプリ「金継ぎジャ…"
-    },
-    {
-      "id": "9d774dbb3491",
-      "title": "社内スキャンPDFを、ローカルOCRとローカルLLMだけで Markdown にする",
-      "url": "https://zenn.dev/gungrifone/articles/6703cb1074c81b",
-      "publishedAt": "2026-08-10T13:50:55.000Z",
-      "publisher": "gungrifone",
-      "summary": "! この記事は 自分のマシン上で完結させる 話です。文書を業者に預ける話ではありません。 「外部LLMを使わない受託」でも、預かった瞬間に依頼者側の漏洩リスクは残ります。秘匿と両立するのは 自走 だけです。 社内マニュアルや手順書を、Ch…"
-    },
-    {
-      "id": "64f7dc95110b",
-      "title": "AIエージェントとAI連携システムの違い──「自律性」という名の誤解と現場のリアル",
-      "url": "https://zenn.dev/saikoseiko/articles/0e70e6dcd9ee7f",
-      "publishedAt": "2026-08-10T12:22:05.000Z",
-      "publisher": "Saiko-Seiko",
-      "summary": "近年のAI技術の進展に伴い、「AIエージェント」と「AI連携システム」という用語が現場レベルでも頻繁に用いられるようになっている。しかしながら、これらの概念は混同されやすく、特に要件定義やアーキテクチャ設計のフェーズにおいて、しばしば\"同…"
     }
   ],
-  "fetchedAt": "2026-08-10T21:57:48.942Z",
+  "fetchedAt": "2026-08-10T22:40:03.039Z",
   "stale": false,
   "error": null
 }
