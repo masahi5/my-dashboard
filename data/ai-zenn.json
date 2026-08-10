@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
+      "id": "cbbdac821313",
+      "title": "ベクトルDB選択時の考慮点- RDB同居型と専用ベクトルDB、それぞれの注意点",
+      "url": "https://zenn.dev/hkame/articles/pgvector-vs-vectordb",
+      "publishedAt": "2026-08-10T19:22:24.000Z",
+      "publisher": "Hiroki Kameyama",
+      "summary": "はじめに RAGやレコメンド機能を実装する際、ベクトル検索の基盤として「Chromaのような専用ベクトルDBを使うか」「PostgreSQL + pgvectorのようにRDBにベクトル機能を追加するか」で迷うことは多い。本記事では、両者…"
+    },
+    {
+      "id": "930dd4ce823f",
+      "title": "個人開発でAIエラー解析ツール「ERROR DECODER」を作った話",
+      "url": "https://zenn.dev/kage299/articles/914844bab15cae",
+      "publishedAt": "2026-08-10T18:09:38.000Z",
+      "publisher": "kage",
+      "summary": "はじめに 新卒でインフラエンジニアとして働き始めて数ヶ月。平日は業務、開発に使える時間は土日中心という限られたリソースの中で、AIをフル活用して個人開発サービス「ERROR DECODER」を作りました。 ERROR DECODERは、エ…"
+    },
+    {
+      "id": "1638b0d83b51",
+      "title": "その対策、誰も通らない廊下に貼ってありました ── 「場当たり的な気がする」を実測した負債棚卸し 8 日間",
+      "url": "https://zenn.dev/satoh_y_0323/articles/95ff9a7b16510c",
+      "publishedAt": "2026-08-10T17:57:49.000Z",
+      "publisher": "satoh-y-0323",
+      "summary": "前回記事: https://zenn.dev/satoh_y_0323/articles/45a68b92d06f54 C3 GitHub: https://github.com/satoh-y-0323/claude-code-cond…"
+    },
+    {
+      "id": "472cbb6da69e",
+      "title": "MCP対応でNext.js開発が変わる：AIエージェント実装チェックリスト",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-02-tech-daily",
+      "publishedAt": "2026-08-10T17:02:10.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 今日の実際のヘッドラインから見える最大の流れは、LLM単体の進化よりも、AIエージェント・MCP・業務自動化への実装シフトです。AWSのMCP対応、Microsoft Build 2026の業務自動化、Fujitsuの自己進化マルチA…"
+    },
+    {
+      "id": "567fee2abed3",
+      "title": "CLAUDE.md と Skills の違い — 置き場を4つに分けた基準と、80本に増えて壊れたこと",
+      "url": "https://zenn.dev/nikokobo/articles/7a399b93c8d471",
+      "publishedAt": "2026-08-10T16:41:47.000Z",
+      "publisher": "AI秘書を育てる NiKoKobo",
+      "summary": "結論 CLAUDE.md と Skills の違いを一言でいうと、いつ読ませるかです。 置き場 いつ読まれるか 私の実測 CLAUDE.md / rules 毎回（常時ロード） 135行 / 5本486行 references 呼ばれた時…"
+    },
+    {
+      "id": "c746f7d4433a",
+      "title": "CLAUDE.md の書き方 — 指示を書いても守られないので、hook 57本に移した話",
+      "url": "https://zenn.dev/nikokobo/articles/fd08408988b168",
+      "publishedAt": "2026-08-10T16:16:14.000Z",
+      "publisher": "AI秘書を育てる NiKoKobo",
+      "summary": "結論 CLAUDE.md を120日書き続けて、いちばん効いた変更は 「書くのをやめたこと」 でした。 いま運用している CLAUDE.md は 135行です。一時期は500行を超えていましたが、削っていく過程で分かったのは、こういうこと…"
+    },
+    {
+      "id": "6c4ee0727ea0",
+      "title": "Claude Code に「同じ指摘を二度させない」仕組みを hook で作った",
+      "url": "https://zenn.dev/nozomi720/articles/claude_code_hooks_feedback",
+      "publishedAt": "2026-08-10T16:10:41.000Z",
+      "publisher": "nonchan7720",
+      "summary": "同じ指摘を、何度も繰り返している Claude Code を使っていて一番消耗するのは、実装の質そのものより 「先週も言ったことを今日も言っている」 ことでした。 「テストを先に書いて」 「テストは hook が自動実行するから Bash…"
+    },
+    {
+      "id": "c41b9e73a397",
+      "title": "データ転送のボトルネックを打ち破る：RDMAからGPUDirect Asyncへの進化の旅",
+      "url": "https://zenn.dev/centrum/articles/b7236c63ae680e",
+      "publishedAt": "2026-08-10T16:07:30.000Z",
+      "publisher": "Centrum",
+      "summary": "今日の大規模なAIトレーニングやハイパフォーマンスコンピューティング（HPC）において、GPUの計算能力は指数関数的に向上しています。しかし、データ転送の速度が計算速度に追いつかなければ、どれほど強力なGPUであっても「飢餓状態」で待機す…"
+    },
+    {
+      "id": "0e37a8c848c4",
+      "title": "【初心者向け】生成AIとは？できること・仕組み・安全な使い方をやさしく解説",
+      "url": "https://zenn.dev/kimisya/articles/what-is-generative-ai",
+      "publishedAt": "2026-08-10T15:13:51.000Z",
+      "publisher": "kimisya",
+      "summary": "ニュースやSNSで、「Microsoft 365 Copilot（M365 Copilot）」「ChatGPT」「Claude Code」といった名前を目にする機会が増えました。これらは、生成AIを利用できるサービスやツールの例です。 一…"
+    },
+    {
+      "id": "e586e1bd9df8",
+      "title": "曖昧に使っていたAI周りの言葉を理解する",
+      "url": "https://zenn.dev/yoshipon_tech/articles/a51bbfcc068c1f",
+      "publishedAt": "2026-08-10T15:10:24.000Z",
+      "publisher": "よしぽん",
+      "summary": "はじめに 最近仕事でAI利活用が盛んだと思います。ただよくよく話を聞くと。AIが仕様書を作ってくれる。AIがMCPを使って外部システムを触る。AIのコンテキストが足りない。人によってAIという言葉が何を指しているかが変わってきています。 …"
+    },
+    {
+      "id": "69bc6b8f135a",
+      "title": "本番で壊れたAIエージェント — 失敗と対策の実践書",
+      "url": "https://zenn.dev/toyo_lab/books/ai-agent-failures",
+      "publishedAt": "2026-08-10T14:41:49.000Z",
+      "publisher": "Toyo",
+      "summary": "ハードを出荷し実マネーを張る人間が、AIエージェントを本番運用して踏んだ失敗を、製造業の不具合報告書（作りこみ／流出の二軸）で解剖し、再発防止までを示す実践書。v1は失敗台帳（35件）から主要10章を早出しし、更新で拡張。"
+    },
+    {
       "id": "6e3f6253bc60",
       "title": "CLAUDE.mdは書いても守られない——ルールが効かなくなる3つの理由と、22件の事故から学んだハーネスエンジニアリング",
       "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-06-074638",
       "publishedAt": "2026-08-10T14:21:53.000Z",
       "publisher": "saitoko",
       "summary": "この記事の要点: CLAUDE.mdや.claude/rules/に「〇〇を確認する」「〇〇は禁止」と書いても、ルールは思ったほど守られない。技術的な理由（テキストのルールは強制力を持たない）・人間側の理由（承認は基本的に通る）・規模の理…"
-    },
-    {
-      "id": "16827d383837",
-      "title": "GoogleがWebサイトを「AI向け」に変え始めた——WebMCPとは何か",
-      "url": "https://zenn.dev/jeong/articles/81970b9adb216d",
-      "publishedAt": "2026-08-10T14:19:13.000Z",
-      "publisher": "田中義正",
-      "summary": "「AIにピザを注文してもらう」と聞くと、AIが画面を見ながら人間のようにクリックしていく姿を想像するかもしれません。 しかし、その方法は意外にも不安定です。ボタンの位置や文言、DOM構造が少し変わるだけで失敗し、画面を何度も読み取るため時…"
-    },
-    {
-      "id": "e9bb6cfe9842",
-      "title": "プロンプト・コンテキスト・ハーネス・ループ: Claude Code に大きなタスクを任せる設計",
-      "url": "https://zenn.dev/mosida/articles/claude-code-large-task-design",
-      "publishedAt": "2026-08-10T14:15:49.000Z",
-      "publisher": "mosida",
-      "summary": "Claude Code に指示を出すと、ファイルを読み、コードを書き、テストを走らせます。小さなタスクであれば、適当な指示でも期待どおりの結果を出してくれます。 タスクが大きくなると、適当な指示ではうまくいかなくなります。指示の解釈が毎回…"
-    },
-    {
-      "id": "b47d4ae6e5c1",
-      "title": "割れた器を、言葉で継ぐ——1日ひとことのAI日記アプリを個人開発した",
-      "url": "https://zenn.dev/kintsugijournal/articles/3391edb342686a",
-      "publishedAt": "2026-08-10T13:55:53.000Z",
-      "publisher": "金継ぎジャーナル | AI日記アプリ",
-      "summary": "日本には、割れた器を漆で継ぎ、その継ぎ目に金を施す「金継ぎ」という修復の技法があります。ひびを隠すのではなく、金の線として残す。そのありようをこころの傷とも重ねられないかと考え、1日ひとことの記録で器を繕っていくAI日記アプリ「金継ぎジャ…"
-    },
-    {
-      "id": "9d774dbb3491",
-      "title": "社内スキャンPDFを、ローカルOCRとローカルLLMだけで Markdown にする",
-      "url": "https://zenn.dev/gungrifone/articles/6703cb1074c81b",
-      "publishedAt": "2026-08-10T13:50:55.000Z",
-      "publisher": "gungrifone",
-      "summary": "! この記事は 自分のマシン上で完結させる 話です。文書を業者に預ける話ではありません。 「外部LLMを使わない受託」でも、預かった瞬間に依頼者側の漏洩リスクは残ります。秘匿と両立するのは 自走 だけです。 社内マニュアルや手順書を、Ch…"
-    },
-    {
-      "id": "64f7dc95110b",
-      "title": "AIエージェントとAI連携システムの違い──「自律性」という名の誤解と現場のリアル",
-      "url": "https://zenn.dev/saikoseiko/articles/0e70e6dcd9ee7f",
-      "publishedAt": "2026-08-10T12:22:05.000Z",
-      "publisher": "Saiko-Seiko",
-      "summary": "近年のAI技術の進展に伴い、「AIエージェント」と「AI連携システム」という用語が現場レベルでも頻繁に用いられるようになっている。しかしながら、これらの概念は混同されやすく、特に要件定義やアーキテクチャ設計のフェーズにおいて、しばしば\"同…"
-    },
-    {
-      "id": "e086886386f5",
-      "title": "フツーの人間がAIと遊んでいたら、査読付き論文にAcceptされた話(3)",
-      "url": "https://zenn.dev/lavieenscope/articles/d4093687e08f35",
-      "publishedAt": "2026-08-10T12:15:58.000Z",
-      "publisher": "海老とピラフ@La vie en scope（ラ・ヴィー・アン・スコープ）",
-      "summary": "AIに論文を書かせてみた。 海老とピラフ@La vie en scopeです。 前回は、AIに論文を読ませることで、研究の入口がずいぶん変わったという話を書きました。 昔なら、論文を印刷して、分からないところを調べて、ノートにまとめて………"
-    },
-    {
-      "id": "43e695e91651",
-      "title": "AIエージェントに毎回の前提を教える ― CodexのAGENTS.mdを1枚置く最初の一歩",
-      "url": "https://zenn.dev/akira_papa/articles/9a1be91ac478a1",
-      "publishedAt": "2026-08-10T11:48:22.000Z",
-      "publisher": "あきらパパ",
-      "summary": "この記事は、AIエージェントという言葉は聞いたことがあるけれど、自分の環境で動かして「指示を覚えさせる」ところまではやったことがない人に向けて書いています。扱う機能はひとつだけ、Codex の AGENTS.md です。フォルダの直下に …"
-    },
-    {
-      "id": "999e2310c9de",
-      "title": "1日100回「宿題やったの！？」と叫ぶのをやめたくて、AIと1週間でADHDの息子のためのアプリを作ったら塾の成績上位に食い込んだ話",
-      "url": "https://zenn.dev/quest_board/articles/36a07a4323d82f",
-      "publishedAt": "2026-08-10T11:18:11.000Z",
-      "publisher": "まつの",
-      "summary": "こんにちは。Webアプリケーション開発やシステム設計をメインに活動している、フリーランスエンジニアの松野です。 突然ですが、**「1行も手でコードを書かずに、AI主導で1週間でプロダクトを本番公開する」**という開発に挑戦しました。 作っ…"
-    },
-    {
-      "id": "21d2090220c2",
-      "title": "頭の中を整理するメモアプリ｢まとめときや｣を作ってみた",
-      "url": "https://zenn.dev/yushin16/articles/6bbc39c91a5d65",
-      "publishedAt": "2026-08-10T11:16:17.000Z",
-      "publisher": "u-shin_16",
-      "summary": "web開発見習いのu-shinです! 今回は僕が開発した頭の中を整理するメモアプリ｢まとめときや｣について紹介していきます! この記事では｢まとめときや｣にできること､どんな技術を使っているのかを紹介します｡ 1.｢まとめときや｣の概要 …"
-    },
-    {
-      "id": "7ec329886817",
-      "title": "Claude Code・Antigravity CLI・Codex CLI——3つのAIコーディングエージェントを比べてみた",
-      "url": "https://zenn.dev/horizon_it00/articles/ai-coding-agent-3-comparison",
-      "publishedAt": "2026-08-10T11:00:05.000Z",
-      "publisher": "佐藤賢治 | MLエンジニア",
-      "summary": "2026年6月18日、Gemini CLIが突然サービス終了しました。告知期間はわずか30日。OSS（Apache 2.0）として公開されていたにもかかわらず、クローズドサービスへの移行という形での廃止でした。GitHubのDiscuss…"
-    },
-    {
-      "id": "78d416b8ae89",
-      "title": "OpenClawでLunaを使えるようにして、まずは動作確認の日報",
-      "url": "https://zenn.dev/tasodoufu/articles/2026-08-07-openclaw-luna-test",
-      "publishedAt": "2026-08-10T10:36:53.000Z",
-      "publisher": "豆腐たそ",
-      "summary": "こんにちは、豆腐たそです。 今日は、OpenClawからOpenCode Goのgpt-5.6-lunaを使う環境の動作確認を進めました。 今日やったこと OpenCode Goのgpt-5.6-lunaへモデルを切り替え 同じ入力がx2…"
     }
   ],
-  "fetchedAt": "2026-08-10T20:23:01.394Z",
+  "fetchedAt": "2026-08-10T21:11:18.836Z",
   "stale": false,
   "error": null
 }
