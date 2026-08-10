@@ -11,7 +11,15 @@
       "url": "https://huggingface.co/papers/2608.07468",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "World-Action Models (WAMs) improve end-to-end autonomous driving by transferring video dynamics priors to action predic…",
-      "score": 15
+      "score": 18
+    },
+    {
+      "id": "e6fde82e6657",
+      "title": "Reinforcement Learning with Evolving Rubrics as Rewards for Audio Reasoning",
+      "url": "https://huggingface.co/papers/2608.02831",
+      "publishedAt": "2026-08-03T19:46:13.000Z",
+      "summary": "Audio reasoning is essential for machine understanding of the acoustic world. Reinforcement learning with verifiable re…",
+      "score": 8
     },
     {
       "id": "e2de46e1fcfa",
@@ -19,7 +27,23 @@
       "url": "https://huggingface.co/papers/2608.07051",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "Generic parameter-efficient fine-tuning (PEFT) methods transferred from language models can fail silently on real-time …",
+      "score": 8
+    },
+    {
+      "id": "0cf41b889c97",
+      "title": "Uncertainty-Aware World Model for Aerial Image-Goal Navigation",
+      "url": "https://huggingface.co/papers/2608.05597",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Aerial image-goal navigation requires an unmanned aerial vehicle (UAV) to reach a target location specified by a goal i…",
       "score": 5
+    },
+    {
+      "id": "abab5f1b010c",
+      "title": "StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding",
+      "url": "https://huggingface.co/papers/2608.05703",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Deploying autonomous multimodal agents in continuous, real-world environments requires them to ingest unbounded audio-v…",
+      "score": 4
     },
     {
       "id": "bb6043ad64f4",
@@ -30,19 +54,35 @@
       "score": 3
     },
     {
-      "id": "abab5f1b010c",
-      "title": "StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding",
-      "url": "https://huggingface.co/papers/2608.05703",
+      "id": "9da38d104e59",
+      "title": "Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events",
+      "url": "https://huggingface.co/papers/2608.06485",
       "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Deploying autonomous multimodal agents in continuous, real-world environments requires them to ingest unbounded audio-v…",
-      "score": 3
+      "summary": "Personality-conditioned LLM agents (PC-Agents) are increasingly used in emotional support, social simulation, and role-…",
+      "score": 2
     },
     {
-      "id": "0cf41b889c97",
-      "title": "Uncertainty-Aware World Model for Aerial Image-Goal Navigation",
-      "url": "https://huggingface.co/papers/2608.05597",
+      "id": "96e1f900df3a",
+      "title": "PrivacyPeek: Auditing What LLM-Based Agents Acquire, Not Just What They Say",
+      "url": "https://huggingface.co/papers/2606.00152",
       "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Aerial image-goal navigation requires an unmanned aerial vehicle (UAV) to reach a target location specified by a goal i…",
+      "summary": "LLM-based agents are rapidly advancing, autonomously invoking external tools to complete multi-step tasks for users. Ho…",
+      "score": 2
+    },
+    {
+      "id": "7527155d1f58",
+      "title": "Round-Trip Consistency: Bidirectional Diffusion Models Can Predict Their Own Rollout Errors",
+      "url": "https://huggingface.co/papers/2608.00675",
+      "publishedAt": "2026-08-01T13:49:46.000Z",
+      "summary": "Autoregressive models accumulate error over long rollouts, yet at deployment there is no ground truth to measure it aga…",
+      "score": 2
+    },
+    {
+      "id": "1e8bea4b6da6",
+      "title": "Douyin Multimodal Embedding Model Technical Report",
+      "url": "https://huggingface.co/papers/2608.02148",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Multimodal representation learning is a cornerstone of modern AI. By encoding multimodal queries and targets into vecto…",
       "score": 2
     },
     {
@@ -54,55 +94,15 @@
       "score": 2
     },
     {
-      "id": "457077aac69e",
-      "title": "Modular TTT: Rethinking Test-Time Training as Composable Modules",
-      "url": "https://huggingface.co/papers/2608.07110",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Test-time training (TTT) views sequence modeling as an online learning problem in which fast weights are updated by an …",
-      "score": 2
-    },
-    {
-      "id": "823b3cad869d",
-      "title": "Addressable Memory for Video World Models",
-      "url": "https://huggingface.co/papers/2608.07408",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "We study visual persistence in interactive video world models. These models rely on a Key-Value (KV) cache as a growing…",
-      "score": 2
-    },
-    {
-      "id": "7527155d1f58",
-      "title": "Round-Trip Consistency: Bidirectional Diffusion Models Can Predict Their Own Rollout Errors",
-      "url": "https://huggingface.co/papers/2608.00675",
-      "publishedAt": "2026-08-01T13:49:46.000Z",
-      "summary": "Autoregressive models accumulate error over long rollouts, yet at deployment there is no ground truth to measure it aga…",
-      "score": 1
-    },
-    {
-      "id": "1e8bea4b6da6",
-      "title": "Douyin Multimodal Embedding Model Technical Report",
-      "url": "https://huggingface.co/papers/2608.02148",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Multimodal representation learning is a cornerstone of modern AI. By encoding multimodal queries and targets into vecto…",
-      "score": 1
-    },
-    {
-      "id": "6183233af2bb",
-      "title": "Characterizing the Quality Profile of AI-Generated C++ in Production",
-      "url": "https://huggingface.co/papers/2608.06640",
+      "id": "b505329cb16d",
+      "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
+      "url": "https://huggingface.co/papers/2608.06501",
       "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "The widespread integration of AI coding assistants offers undeniable boosts to engineering velocity. Yet, recent studie…",
-      "score": 1
-    },
-    {
-      "id": "062d2b0c62cc",
-      "title": "Skaling: Chinchilla's Exponents Meet Kaplan's Coupling",
-      "url": "https://huggingface.co/papers/2608.07222",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Neural scaling laws are foundational for language model development, yet standard formulations systematically under- an…",
+      "summary": "Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain diff…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-10T04:18:06.513Z",
+  "fetchedAt": "2026-08-10T05:54:40.832Z",
   "stale": false,
   "error": null
 }

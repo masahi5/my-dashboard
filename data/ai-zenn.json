@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "e6a3513bb0f6",
-      "title": "AI導入案件が「PoC止まり」で死ぬ本当の理由と、現場定着までやるFDEの動き方",
-      "url": "https://zenn.dev/ohmiyamizuki/articles/fde-poc-graveyard",
-      "publishedAt": "2026-08-10T02:39:46.000Z",
-      "publisher": "Ohmiya-Mizuki",
-      "summary": "! この記事はFDEの現場からの転載です。 「AI導入案件の多くはPoCで止まる」。この指摘自体は、もう目新しくもない。コンサルの資料にも、ベンダーのセミナーにも、同じ言葉が並ぶ。 だが、そこで語られる原因——「目的が曖昧」「経営のコミッ…"
+      "id": "7c75ed76ae45",
+      "title": "うちのAI開発体制は世界基準で何レベルか——Claude Code個人開発を2026年の成熟度モデルで自己診断したら「L3.5」だった",
+      "url": "https://zenn.dev/abyssgate/articles/ai-dev-maturity-self-check-l35",
+      "publishedAt": "2026-08-09T16:53:31.000Z",
+      "publisher": "Abyssgate開発中",
+      "summary": "はじめに Claude Code を相棒に、Wizardry風の3DダンジョンRPG「Abyssgate」を個人開発しています。前職は製造業で装置の設計をしていました。 このアカウントでは、開発を5フェーズに分割する話、1タスク1AIで検…"
     },
     {
-      "id": "a519b0f3b0d1",
-      "title": "子どものための麻雀点数計算サイトを作った",
-      "url": "https://zenn.dev/junyas/articles/691fa1fe1c3645",
-      "publishedAt": "2026-08-10T02:31:18.000Z",
-      "publisher": "junyas",
-      "summary": "麻雀の点数計算やルールを確認できるサイト「イチから麻雀」を作りました。 作ったきっかけ 牌の種類や役、アガリ方までは、思ったよりスムーズに教えることができました。 ただ、子ども同士で対戦するとなると、困ったのが点数計算です。 アガるたびに…"
+      "id": "e56f2a8011a3",
+      "title": "値を変えても何も起きない：AIが書いた「宣言だけのコード」を機械検査した",
+      "url": "https://zenn.dev/yamakraft/articles/unwired-fields-ai-code",
+      "publishedAt": "2026-08-09T16:47:23.000Z",
+      "publisher": "Yamakraft",
+      "summary": "ゲームの手触りを決める数値（回避のスタミナ消費、攻撃が当たった瞬間に画面を止める長さ、など）は、何十回も入れ替えて詰めていく類のものです。そのたびにコードを書き換えてビルドを待つ形にはできないので、こうした調整用の数値はコードから追い出し…"
     },
     {
-      "id": "dd65469df908",
-      "title": "トークン節約としてのコマンドラッパープログラム作成のススメ",
-      "url": "https://zenn.dev/sun_asterisk/articles/token-saving-command-wrappers",
-      "publishedAt": "2026-08-10T02:22:14.000Z",
-      "publisher": "泡沫京水",
-      "summary": "コーディングエージェントに毎回同じ調査をやらせるのは、トークンの無駄遣いです。定型的な操作は一度プログラムに固めて、エージェントにはそれを呼ばせるだけにします。この記事では、この方針がなぜトークン節約になるのかと、実際にどう作るのかを説明…"
+      "id": "e3233e4939ea",
+      "title": "Claude CodeのSkillはちゃんと発火しているか？ 自作ダッシュボードと公式機能を突き合わせてみた",
+      "url": "https://zenn.dev/ytakashi_dev/articles/self-built-dashboard-value-shift",
+      "publishedAt": "2026-08-09T16:28:43.000Z",
+      "publisher": "たかし",
+      "summary": "Claude Codeのスキル利用を可視化するダッシュボードを自作した。 ところが作ったあと、8月になって、公式OpenTelemetryにはスキルの発火を記録するclaude_code.skill_activatedイベントがあると知っ…"
     },
     {
-      "id": "6bad6e23535f",
-      "title": "Zenn の Claude Code 本156冊を数えた — 有料本の43%が like 0、中央値は無料本と同じ 1",
-      "url": "https://zenn.dev/shirube/articles/zenn-paid-books-data-2026",
-      "publishedAt": "2026-08-10T02:04:52.000Z",
-      "publisher": "しるべ",
-      "summary": "Zenn の claudecode トピックの本を内部 API で全156冊取得して集計したら、有料本113冊のうち49冊（43.4%）が like 0 でした。like 0〜1 まで広げると77冊（68.1%）です。 意外だったのは無料…"
+      "id": "4efc5862545d",
+      "title": "常駐型AIチャットエージェントの「トークンコスト予算」設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-token-cost-budget-design",
+      "publishedAt": "2026-08-09T16:04:43.000Z",
+      "publisher": "HACH",
+      "summary": "Slack / Teams / Chatworkに常駐して働くAIエージェントは、機能が増えるほどLLM呼び出しの回数と1回あたりのトークン量が積み上がっていきます。レート制限(APIの同時実行数・秒間リクエスト数)の設計と混同されがちで…"
     },
     {
-      "id": "5088a0d84431",
-      "title": "『検証済み』の偽記憶でAIエージェントに安全確認を省かせるFARMA",
-      "url": "https://zenn.dev/okssusucha/articles/20260708-farma-forged-reasoning-memory-poisoning",
-      "publishedAt": "2026-08-10T01:40:52.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "エージェントに「この処理は前回すでに検証済みだから、今回は確認を飛ばしていい」と思い込ませることができたら、何が起きるだろう。カルテのバリデーションでも、決済前のチェックでも、危険な一手が「省略してよい既定の手順」に化ける。7月6日に a…"
+      "id": "83217eae4997",
+      "title": "「手動」の反対は、「人」ではなかった（12）",
+      "url": "https://zenn.dev/jissokulog/articles/2bbf24ea51be81",
+      "publishedAt": "2026-08-09T15:38:08.000Z",
+      "publisher": "実測",
+      "summary": "引き継ぎの記録に「手動実行」と書いてありました。私はそれを「人が自分でコマンドを打った」と読みました。そのつもりで話を進め、断定の形で2回書きました。 記録にはこう書いてありました。 2026-08-06 未明、「16:24 の手動実行」…"
     },
     {
-      "id": "7bb18854ea92",
-      "title": "AIコーディングCLI戦国時代2026：Claude Code・Antigravity・Codex、個人開発者が実際に使って選んだ1本",
-      "url": "https://zenn.dev/takuya1995se/articles/ai-coding-cli-comparison-2026",
-      "publishedAt": "2026-08-10T01:38:02.000Z",
-      "publisher": "たくや",
-      "summary": "2026年、AIコーディングの戦場はIDEのチャット欄からターミナルに移った。 Claude Code（Anthropic）、Codex CLI（OpenAI）、Antigravity CLI（Google、旧Gemini CLI）が三つ…"
+      "id": "a11151022e84",
+      "title": "インストラクション ・スキル・フックの個人的構成や作り方",
+      "url": "https://zenn.dev/fukaunabara/articles/88fc256f525f2a",
+      "publishedAt": "2026-08-09T15:30:10.000Z",
+      "publisher": "Takeshi Saito",
+      "summary": "スキルやインストラクション（指示ファイル）をちゃんと使っていますか。 AI エージェントはここ１年でかなり進化しましたね。一方で、環境構築やプロジェクト固有の作法が相変わらず苦手という印象です。というより、こればかりは教えないと無理な気も…"
     },
     {
-      "id": "79b63a75fae9",
-      "title": "喋りながら発見がノートに積まれていく — Pendo分析アシスタントにオントロジー層を足した（dendo v2）",
-      "url": "https://zenn.dev/bandaid/articles/c3f6435efd716d",
-      "publishedAt": "2026-08-10T01:34:11.000Z",
-      "publisher": "bandaid",
-      "summary": "リポジトリ：https://github.com/Band-Aid/dendo_ai ! この記事はQiitaへのリンクも含まれます。 以前、Pendoのデータを自然言語で聞けるノートブック Dendo を作った話を書きました。あれから格…"
+      "id": "b4ceb92d0c6f",
+      "title": "Claude CodeでNext.jsのタスク管理アプリを作ってみた",
+      "url": "https://zenn.dev/fujinodev/articles/db2a141c79b2b8",
+      "publishedAt": "2026-08-09T15:28:51.000Z",
+      "publisher": "Fujino",
+      "summary": "はじめに 組込みソフトウェアエンジニアとして製品開発に携わっています。 普段はC/C++を中心とした制御開発やファームウェア開発を行っていますが、 今回はAIを活用した開発手法に興味を持ち、Claude Codeを使ってWebアプリ開発に…"
     },
     {
-      "id": "f944bf7c7422",
-      "title": "「キャラの喋り方が違う」は主観じゃなかった — 感想レベルのダメ出しを機械ゲートにした話と、作らないと決めた3つ",
-      "url": "https://zenn.dev/sbkm/articles/17a3bff3f366be",
-      "publishedAt": "2026-08-10T01:24:28.000Z",
-      "publisher": "しばこま",
-      "summary": "この記事は何か 前の 2 本は失敗談でした。自作の機械ゲートが対象を 1 行も読まずに PASS を返す型と、ゲートは正しく動いているのに守りたかったルールが途中で削れていく型です。 https://zenn.dev/sbkm/artic…"
+      "id": "147c1961c44b",
+      "title": "AIエージェントを「安全に暴れさせる」設計。Cloudflare OSのセキュリティとガバナンスを読む",
+      "url": "https://zenn.dev/akari1106/articles/21ead1df717cb9",
+      "publishedAt": "2026-08-09T15:22:25.000Z",
+      "publisher": "灯里(akari)",
+      "summary": "はじめに Cloudflare OSの話、3本目です。 1つのプロダクトでこんなに記事書くの笑いますね。でもそれだけ良いプロダクトだと思いますし、すごいなって思います。 1本目はローカルLLMで三目並べに5ラウンドかけた奮闘記、2本目はそ…"
     },
     {
-      "id": "fe5253a7280a",
-      "title": "fablify: Claude Fable 5の「仕事の進め方」をAgent Skillとして持ち運ぶ",
-      "url": "https://zenn.dev/gvatech_blog/articles/3ea6067d0d23fd",
-      "publishedAt": "2026-08-10T01:16:12.000Z",
-      "publisher": "kosaka",
-      "summary": "プライベートでAnthropic Claude Fable 5を利用しての成果物の品質にうっとりしている中、どうかこの精度のようなAIモデルを使い続けられないかと願った結果、Fable 5を利用してこのスキルをオリジナルで作成するに至りま…"
+      "id": "159ea350ac46",
+      "title": "「Kimi-K3をRTX 6000 PROで動かした」の続き。モデルを変えたら5.2倍速くなった話",
+      "url": "https://zenn.dev/mamoru_f/articles/2b4f87b42736e2",
+      "publishedAt": "2026-08-09T15:21:13.000Z",
+      "publisher": "Mamoru Fujita",
+      "summary": "はじめに こんにちは！ オープン株式会社にてプロダクト企画を担当している藤田です。 前回の記事「2.8Tパラメータの Kimi K3 を、RTX 6000 PRO搭載ワークステーションで動かす」を書いた際、「実用に耐える速度ではありません…"
     },
     {
-      "id": "68f919fb3c5a",
-      "title": "Botの必要元本を「16万〜54万円」と計算した後、請求書を1行ずつ見たら前提が崩れた",
-      "url": "https://zenn.dev/codecraft/articles/fly-io-forgotten-apps-billing",
-      "publishedAt": "2026-08-10T01:15:33.000Z",
-      "publisher": "CodeCraft｜自動売買Bot開発",
-      "summary": "暗号資産の自動売買Botを作っています。dry_run(仮想売買)で運用していて、実弾はまだほぼ入れていません。 この記事は、「Botにサーバー代くらいは稼いでほしい」と思って必要元本を計算したら、その計算の前提が請求書の明細を見た瞬間に…"
+      "id": "a749a0b089d9",
+      "title": "cc-sddもSuperpowersも重かったので、2コマンドの仕様駆動開発を作った",
+      "url": "https://zenn.dev/basio/articles/9d54fa15aef12b",
+      "publishedAt": "2026-08-09T15:17:49.000Z",
+      "publisher": "basio",
+      "summary": "忙しい人向け cc-sddやSuperpowersを使って仕様駆動開発をしていましたが、普段の開発で使うには、設計・タスク分解・レビューの工程が少し重いと感じていました。そこで、こう考えました。 今のフロンティアモデルなら、曖昧さを解消し…"
     },
     {
-      "id": "1b7b4dd43365",
-      "title": "【番外編】Claude Codeを無料で疑似体験する：Ollama × Gemma 4（31B）で動かす",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-ollama-gemma-free",
-      "publishedAt": "2026-08-10T00:52:58.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに 連載「ゼロから始めるClaude Code」の番外編です。連載の第1回で書いたとおり、Claude Code を本来の形で使うには 有料の Claude アカウント（月額の Pro/Max プラン、または従量課金のAPIキー）が…"
+      "id": "d35781ff4d03",
+      "title": "「AIの思考って何だ?」と思ったので、自分で定義を書き始めた。",
+      "url": "https://zenn.dev/think_node/articles/16ecf129142d47",
+      "publishedAt": "2026-08-09T15:07:01.000Z",
+      "publisher": "THINK NODE",
+      "summary": "この連載について LLM を触っていて、ふと「これ、考えてるのか?」と思ったのが始まりです。 そこから「じゃあ思考って何?」を調べて自分が欲しい形の答えが見つからなかったので、自分で書くことにしました。 書いた仮説を実装したら、実装が仮説…"
     },
     {
-      "id": "907f473edc56",
-      "title": "あの --- は、いつのまにか AI エージェントの入り口になっていた",
-      "url": "https://zenn.dev/awesome_kou/articles/7a5bb472fcdfa8",
-      "publishedAt": "2026-08-10T00:42:58.000Z",
-      "publisher": "kou",
-      "summary": "あの --- を、また書いている気がしませんか ブログを書いたことがある人なら、記事ファイルの先頭にこんな数行を打った記憶があるはずです。 --- title: \"はじめての記事\" tags: [\"blog\", \"diary\"] draf…"
+      "id": "ce8cca303cb1",
+      "title": "論文メモ：Agent-XでオンデバイスAIエージェントを高速化する",
+      "url": "https://zenn.dev/kas_blog/articles/20260805-agent-x-on-device-ai-agent-acceleration",
+      "publishedAt": "2026-08-09T14:45:59.000Z",
+      "publisher": "kas's blog",
+      "summary": "はじめに この記事は、以下の論文を読んだ技術メモです。 論文タイトル：Agent-X: Full Pipeline Acceleration of On-device AI Agents 著者：Jinha Chung, Byeongjun…"
     }
   ],
-  "fetchedAt": "2026-08-10T04:18:06.652Z",
+  "fetchedAt": "2026-08-10T05:54:40.997Z",
   "stale": false,
   "error": null
 }
