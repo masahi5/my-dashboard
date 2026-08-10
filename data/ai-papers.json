@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "07b9434236b2",
-      "title": "Beyond Simply Environment Scaling: Designing Effective Environment Distributions for Multimodal Agent Learning",
-      "url": "https://huggingface.co/papers/2608.03571",
+      "id": "010f18eed360",
+      "title": "DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds",
+      "url": "https://huggingface.co/papers/2608.06113",
       "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Recent works train agents by constructing large-scale multimodal environment pools. However, we find that simply increa…",
-      "score": 27
-    },
-    {
-      "id": "99a6b27d34e8",
-      "title": "SFT Conflicts, RL Coexists: A Theoretical and Empirical Analysis of Multi-Task Learning for LLMs",
-      "url": "https://huggingface.co/papers/2608.03573",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) exhibit fundamentally different behaviors in enhancing mul…",
-      "score": 27
+      "summary": "CLI-based software-engineering agents have matured rapidly, yet the open ecosystem has converged on a single training e…",
+      "score": 10
     },
     {
       "id": "3ee380e62411",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2607.23379",
       "publishedAt": "2026-07-25T00:00:00.000Z",
       "summary": "Activation Oracles (AOs) are language models trained to answer natural-language questions about another model's interna…",
-      "score": 9
+      "score": 10
     },
     {
       "id": "dbc4d2ae1a67",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.03796",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Small language models are often the only option for deployment under tight latency, cost, and on-premises constraints, …",
-      "score": 8
+      "score": 9
     },
     {
       "id": "604f20a6e687",
@@ -43,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.04569",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Hard prompt compression reduces long-context inference cost by independently scoring tokens, sentences, or chunks and r…",
-      "score": 6
+      "score": 7
     },
     {
       "id": "b0e00b548aa6",
@@ -59,6 +51,14 @@
       "url": "https://huggingface.co/papers/2608.07341",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "Test data from public benchmarks inevitably leaks into pretraining corpora, inflating evaluation scores once memorized.…",
+      "score": 3
+    },
+    {
+      "id": "94c1a01f2188",
+      "title": "Multi-Agent Forensic Reasoning for Generalizable Deepfake Video Detection",
+      "url": "https://huggingface.co/papers/2608.06865",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "The malicious use of generative artificial intelligence to create highly realistic deepfake videos raises serious ethic…",
       "score": 2
     },
     {
@@ -78,6 +78,14 @@
       "score": 1
     },
     {
+      "id": "4485b73cee55",
+      "title": "Towards Interpretable Foundation Models for Retinal Fundus Images",
+      "url": "https://huggingface.co/papers/2603.18846",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Foundation models are used to extract transferable representations from large amounts of unlabeled data, typically via …",
+      "score": 1
+    },
+    {
       "id": "624100477204",
       "title": "OneEmo: A Unified Multimodal Reasoning Model for Emotion Perception, Understanding, and Interaction",
       "url": "https://huggingface.co/papers/2608.06013",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "Vision-language models are increasingly serving as the reasoning core of embodied agents. Robot execution is inherently…",
       "score": 0
-    },
-    {
-      "id": "4485b73cee55",
-      "title": "Towards Interpretable Foundation Models for Retinal Fundus Images",
-      "url": "https://huggingface.co/papers/2603.18846",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Foundation models are used to extract transferable representations from large amounts of unlabeled data, typically via …",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-10T16:33:18.476Z",
+  "fetchedAt": "2026-08-10T17:35:49.783Z",
   "stale": false,
   "error": null
 }
