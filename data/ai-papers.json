@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "a7293c675b14",
-      "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
-      "url": "https://huggingface.co/papers/2608.09802",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapi…",
-      "score": 60
-    },
-    {
       "id": "2f68f8ac6f23",
       "title": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
       "url": "https://huggingface.co/papers/2608.09819",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments a…",
-      "score": 37
+      "score": 38
     },
     {
       "id": "5d36b20d3bd8",
@@ -27,23 +19,7 @@
       "url": "https://huggingface.co/papers/2608.07169",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "Memory systems have shown promise for improving agent performance, but their potential remains largely unexplored for s…",
-      "score": 22
-    },
-    {
-      "id": "4db0eae28559",
-      "title": "Sci-VBench: Evaluating Knowledge- and Reasoning-Intensive Video Generation in Science Domains",
-      "url": "https://huggingface.co/papers/2608.09873",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "We introduce Sci-VBench, a comprehensive benchmark for evaluating knowledge- and reasoning-intensive video generation a…",
-      "score": 21
-    },
-    {
-      "id": "e866aa0219d5",
-      "title": "Motif 3: Technical Report",
-      "url": "https://huggingface.co/papers/2608.09119",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "We introduce Motif 3, a decoder-only Mixture-of-Experts language model with 314 billion total parameters and 13.2 billi…",
-      "score": 20
+      "score": 24
     },
     {
       "id": "4dd9a66c39e5",
@@ -51,7 +27,15 @@
       "url": "https://huggingface.co/papers/2608.08311",
       "publishedAt": "2026-08-08T00:00:00.000Z",
       "summary": "We present Ouroboros, a self-developing agent harness whose tools, prompts, context assembly, and core implementation i…",
-      "score": 11
+      "score": 20
+    },
+    {
+      "id": "09baf4d79388",
+      "title": "What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems",
+      "url": "https://huggingface.co/papers/2608.07565",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "summary": "Conversational assistants increasingly recommend follow-up edits to help users continue a task. Existing systems primar…",
+      "score": 17
     },
     {
       "id": "162a51c41b94",
@@ -59,7 +43,23 @@
       "url": "https://huggingface.co/papers/2608.08097",
       "publishedAt": "2026-08-08T00:00:00.000Z",
       "summary": "Large language model (LLM) inference serving is increasingly constrained by memory rather than compute. As long-context…",
-      "score": 8
+      "score": 10
+    },
+    {
+      "id": "027336776527",
+      "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
+      "url": "https://huggingface.co/papers/2608.09096",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "Large Language Models (LLMs) have driven rapid progress in autonomous agents, yet standard evaluations remain confined …",
+      "score": 6
+    },
+    {
+      "id": "cc911cbaf709",
+      "title": "Scaling Inherently Interpretable Language Models",
+      "url": "https://huggingface.co/papers/2608.07594",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Interpretability is often treated as a tax on capability: language models are trained as opaque systems, then explained…",
+      "score": 5
     },
     {
       "id": "ae054ca963ea",
@@ -70,27 +70,27 @@
       "score": 4
     },
     {
-      "id": "027336776527",
-      "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
-      "url": "https://huggingface.co/papers/2608.09096",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Large Language Models (LLMs) have driven rapid progress in autonomous agents, yet standard evaluations remain confined …",
-      "score": 4
-    },
-    {
-      "id": "cc911cbaf709",
-      "title": "Scaling Inherently Interpretable Language Models",
-      "url": "https://huggingface.co/papers/2608.07594",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Interpretability is often treated as a tax on capability: language models are trained as opaque systems, then explained…",
-      "score": 2
-    },
-    {
       "id": "74f3e44c68d1",
       "title": "Intent Speaks Louder: Controllable User Simulation Beyond Response Imitation",
       "url": "https://huggingface.co/papers/2608.09420",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "User simulators are widely used as scalable environments for training and evaluating interactive assistants. Generating…",
+      "score": 3
+    },
+    {
+      "id": "3875f624d809",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://huggingface.co/papers/2608.09867",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protec…",
+      "score": 2
+    },
+    {
+      "id": "c52e88fde787",
+      "title": "An End-to-End Agent Auditing Engine",
+      "url": "https://huggingface.co/papers/2608.07346",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "With the rapid advancement of large language models (LLMs), harnesses have become essential infrastructure for deployin…",
       "score": 2
     },
     {
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2608.06614",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Large-taxonomy retrieval often assumes that the input already expresses the target concept. In many settings, however, …",
-      "score": 1
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-08-11T06:13:36.513Z",
+  "fetchedAt": "2026-08-11T07:39:22.648Z",
   "stale": false,
   "error": null
 }
