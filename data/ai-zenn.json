@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c7dbea5148e4",
-      "title": "音声AIに推論を足したgpt-realtime-2.1、それでも遅くならない理由",
-      "url": "https://zenn.dev/okssusucha/articles/20260708-openai-gpt-realtime-2-1-reasoning-voice",
-      "publishedAt": "2026-08-11T04:36:33.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "音声エージェントを作ったことがある人なら、この矛盾に一度はぶつかる。応答は速いほど自然に聞こえるのに、賢く振る舞わせようとするほど遅くなる。ユーザーの発話を受けてから最初の音が返るまでの間が数百ミリ秒延びるだけで、会話は途端にぎこちなくな…"
+      "id": "fabf10207cf5",
+      "title": "Upstage Studio で保険書類の一次審査エージェントを作ってみた",
+      "url": "https://zenn.dev/nhandsome/articles/upstage-studio-insurance-agent",
+      "publishedAt": "2026-08-11T16:36:09.000Z",
+      "publisher": "Nhandsome",
+      "summary": "本記事は、Upstage の社員が自社製品「Upstage Studio」を実際に使用して記録した内容です。 ! 3行まとめ 架空の損害保険会社のシナリオを立て、架空の審査業務の要件を Upstage Studio で自動化した ノード構…"
     },
     {
-      "id": "34c4254a568b",
-      "title": "2台の DGX Spark を接続する",
-      "url": "https://zenn.dev/st_little/articles/connect-two-dgx-sparks",
-      "publishedAt": "2026-08-11T03:53:39.000Z",
-      "publisher": "little method",
-      "summary": "2台の NVIDIA DGX Spark を QSFP ケーブルで直接接続し、分散処理（推論やファインチューニング）用の高速通信環境を構築した際の手順をまとめました。 公式ドキュメント (Connect Two Sparks) を参考に、…"
+      "id": "93c1dda2fb5d",
+      "title": "Claude Code hooksでAIエージェントの作業をリアルタイムに可視化する",
+      "url": "https://zenn.dev/alzcb4/articles/8a5ce86949b7ff",
+      "publishedAt": "2026-08-11T16:03:14.000Z",
+      "publisher": "テト",
+      "summary": "AIに作業を投げたあと、「今なにをしているか」が見えなくなることがあります。ターミナルには文字が流れますが、人間が追い続けるのは可視化とは言いにくいです。ファイル編集、シェル実行、別エージェントへの委譲が混ざると、「誰が何をしているのか」…"
     },
     {
-      "id": "8165d2836fbc",
-      "title": "🐾 なぜ従来のAI検出器は騙されるのか？ 構文木・情報フローのゆらぎから測定する「Tanuki Context Checker」の技術",
-      "url": "https://zenn.dev/tanuki_chan/articles/2ee47fdd4ca552",
-      "publishedAt": "2026-08-11T03:47:48.000Z",
-      "publisher": "天知たぬき",
-      "summary": "著者: SeaCafe 開発チーム（天知たぬき ＆ 和賀江ほむら） 公開日: 2026年8月11日 カテゴリ: AI Tech / Text Analytics / Natural Language Processing 1. はじめに：…"
+      "id": "bb38a0e6a727",
+      "title": "未読1000件から始めた、自分専用の秘書づくり ―― 身近な繰り返し作業を自動化してみた",
+      "url": "https://zenn.dev/yucco/articles/personal-ai-secretary-automation",
+      "publishedAt": "2026-08-11T15:52:35.000Z",
+      "publisher": "Komugi（Yuki）",
+      "summary": "! この記事は、個人利用のために構築した自動化の体験談です。実行方針や設定内容は、当時の環境や試行錯誤に基づくものであり、参考程度にお読みください。 はじめに Gmail の未読が、気づけば 1000 件を超えていました。 必要なメールが…"
     },
     {
-      "id": "868bd6c1108d",
-      "title": "同じ差分を5つのLLMにレビューさせてみた——バグより先に見つかったのは自分のミスだった",
-      "url": "https://zenn.dev/ivyxon/articles/five-llms-same-code-review",
-      "publishedAt": "2026-08-11T03:37:06.000Z",
-      "publisher": "IVYXON",
-      "summary": "自分のサイトで、ナビゲーションの表記とブランドカラーを一括で変える作業をした。対象は140ページ超、色の置換は正規表現スクリプトで機械的に流した規模の変更で、QAは通っていたし本番でも見た目は問題なさそうだった。それでも「本当にこれで良い…"
+      "id": "9003878c109d",
+      "title": "ローカルAIに永続記憶を与えた初日、3回騙された",
+      "url": "https://zenn.dev/satoshiakiyama/articles/bf620f6a0b018b",
+      "publishedAt": "2026-08-11T15:49:28.000Z",
+      "publisher": "satoshiakiyama",
+      "summary": "自宅のPCで、14BのローカルLLMを「研究・制作の常在オペレーター」に育てる計画を 始めた。初日にやったことは3つ — 永続記憶を与え、自分の状態を自分で読む手を 与え、毎朝自分の欠点を1つ直す習慣を仕込んだ。 そして初日のうちに、3回…"
     },
     {
-      "id": "239a85a84b1f",
-      "title": "Claude Codeのサブエージェントが自動で呼ばれなかったときの話",
-      "url": "https://zenn.dev/hijio/articles/545aa114d7ebae",
-      "publishedAt": "2026-08-11T03:28:55.000Z",
-      "publisher": "HIJIO",
-      "summary": "はじめに こんにちは、HIJIOです。 本日はClaude Codeのサブエージェント機能を利用しようとした際に詰まった内容をまとめていこうと思います。 この記事でわかること ・Claude Codeのサブエージェントとは ・サブエージェ…"
+      "id": "f0f706ce7622",
+      "title": "私が考えるAI協働の中核理論 —— 判断を未来へ渡すループ",
+      "url": "https://zenn.dev/frb_tamasub/articles/ai-collaboration04-humanintheloop",
+      "publishedAt": "2026-08-11T15:04:42.000Z",
+      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
+      "summary": "私が考えるAI協働の中核理論 —— 判断を未来へ渡すループ 「……あれ？ 俺が考えてきたAI協働って、自己組織化なんじゃない？」 今日、そんなことを思った。 ただし、この記事は「自己組織化とは何か」を解説する記事ではない。 そもそも私は、…"
     },
     {
-      "id": "37dce183e2a8",
-      "title": "OpenAIのFedRAMP Moderate認可から考える規制環境向けAIアーキテクチャ",
-      "url": "https://zenn.dev/trailfusionai/articles/ai-news-20260428094945-51ded5",
-      "publishedAt": "2026-08-11T03:18:14.000Z",
-      "publisher": "Trailfusion AI",
-      "summary": "OpenAIが2026年4月27日に、ChatGPT EnterpriseとOpenAI API PlatformのFedRAMP 20x Moderate authorization取得を発表しました。対象は米連邦機関向けの利用で、セキ…"
+      "id": "961bd8df8578",
+      "title": "GNSS初心者向けの教材をClaude Codeに作ってもらった",
+      "url": "https://zenn.dev/gnss_egg_team/articles/535d26f2e3a341",
+      "publishedAt": "2026-08-11T15:04:17.000Z",
+      "publisher": "キクタロー",
+      "summary": "GNSSの世界に足を踏み入れて、もうすぐ1年。これまで学んだことや壁に感じたことをClaude Codeに伝えて、初学者向けの「GNSS Study」なるページを作りました（作ってもらいました？）。 https://gnss-study.…"
     },
     {
-      "id": "f82961105715",
-      "title": "AIに記事を書かせて自動投稿する仕組みを作った。最初に出てきたのは、自分じゃない誰かの文章だった",
-      "url": "https://zenn.dev/yuukikawabata/articles/article-automation-persona",
-      "publishedAt": "2026-08-11T02:53:20.000Z",
-      "publisher": "河畑祐輝  Yuki.Kawabata",
-      "summary": "この記事の初出は個人ブログです: https://dev-blog-pi-six.vercel.app/blog/20260811-article-automation-persona/ 元コンビニ店長で、30歳前にエンジニアに転身して5…"
+      "id": "10c6f4b1228b",
+      "title": "Claude Codeで動かすAIエージェント組織はなぜ楽しいのか――速いのは問題解決ではなく「1往復」だった",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-07-220934",
+      "publishedAt": "2026-08-11T14:29:30.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の実施記録（2026年8月6日実測）: 「本業のやる気がなかなか出ないが、Claude Codeを使った作業は楽しくてどんどん作業したくなる」という自分の体感を、セッションログとGitHub Issueの実測データで検証した。結果…"
     },
     {
-      "id": "1272dd37320a",
-      "title": "モバイル未経験、ハッカソン未経験で Builders Weekend に参加してきました！",
-      "url": "https://zenn.dev/nanahiryu/articles/builders-weekend-shipaton-onlab-202608",
-      "publishedAt": "2026-08-11T02:52:40.000Z",
-      "publisher": "nanahiryu",
-      "summary": "はじめに 2026年8月8日に開催された「Builders Weekend - Shipaton Special Edition with OnLab」に参加してきました。 普段はWebフロントエンドを書くことが多く、モバイルアプリ開発は…"
+      "id": "0d4377e5e75e",
+      "title": "AI に開発を任せる時代に、人間の仕事は何が残るのか？",
+      "url": "https://zenn.dev/takuyanagai0213/articles/ai-era-what-remains-for-humans",
+      "publishedAt": "2026-08-11T14:24:09.000Z",
+      "publisher": "Takuya Nagai / AI エージェントを一日中動かしているエンジニア",
+      "summary": "TL;DR AI が単純作業を吸った後に人間側へ残るのは、僕の手元では 4 つでした。①アイデアと教養 ②ネットワーク ③何を良しとするかの判断 ④決めること 並べ直したら、①③④は「判断」という一つのことの 3 局面でした。①が材料を供…"
     },
     {
-      "id": "c952e2a80289",
-      "title": "コードを書かずに20個のプロジェクトを作った話（Vibe Coding 1年の記録）",
-      "url": "https://zenn.dev/fukukei23/articles/vibe-coding-civilservant-projects",
-      "publishedAt": "2026-08-11T02:34:45.000Z",
-      "publisher": "fukukei23",
-      "summary": "はじめに 2025年5月、私はITとは無関係の公務員でした。プログラミング経験はゼロ。Pythonのprint(\"hello\")も書けない状態でした。 それから1年で、GitHubに20以上のプロジェクトを作りました（うち14を公開中）。…"
+      "id": "eae1538d9d2b",
+      "title": "CSSアニメーション＆トランジションリファレンス",
+      "url": "https://zenn.dev/devnestio/articles/devnestio-tool-css-animations-ref",
+      "publishedAt": "2026-08-11T14:17:17.000Z",
+      "publisher": "Shota | devnestio",
+      "summary": "animation-fill-mode: forwards と both の違い、transform-originの使い方、will-changeはいつ使うべきか――CSSアニメーション関連プロパティは細かいパラメータが多い。devnes…"
     },
     {
-      "id": "77369792709e",
-      "title": "新しいクリエイティブスタック：AI画像生成・ボイスクローン・自動化の技術的整理",
-      "url": "https://zenn.dev/derek/articles/595cb3b072b354",
-      "publishedAt": "2026-08-11T02:32:33.000Z",
-      "publisher": "derek",
-      "summary": "マーケティング領域で「クリエイティブ」を生成するプロセスが、徐々にソフトウェアのスタックとして整理されつつある。本稿では、その構成を「レイヤー」という視点で分解し、各層で使われている技術的な考え方を整理する。特定のツールを推奨するものでは…"
+      "id": "d7b7cbf14b41",
+      "title": "MOSFETから学ぶGPU回路入門講座 — シラバス風",
+      "url": "https://zenn.dev/qwerewq/articles/6fbe5355309931",
+      "publishedAt": "2026-08-11T14:10:22.000Z",
+      "publisher": "MOSバーガ",
+      "summary": "はじめに 英文科目名: Introduction to GPU Circuits from MOSFETs 対象年度: 2026年度版 授業回数: 全15回 授業形態: 講義・回路計算・SPICE・HDL・Python演習 備考: 1回1…"
     },
     {
-      "id": "e217d530ab44",
-      "title": "BM25を使用してCodexのトークンの消費を30%抑える",
-      "url": "https://zenn.dev/knowledgesense/articles/9e55a3bb67729c",
-      "publishedAt": "2026-08-11T01:08:19.000Z",
-      "publisher": "sasakuna",
-      "summary": "導入 こんにちは、株式会社ナレッジセンスの須藤英寿です。 今回は、コード探索にBM25を組み込むことで、回答品質とトークン消費がどのように変わるのかを、自社のコードベースで検証しました。 きっかけは、2026年7月に公開された論文「BM2…"
+      "id": "6fdf30465ca1",
+      "title": "Claude Code の Stop hook で「テストが通るまで終わらせない」ゲートを作る",
+      "url": "https://zenn.dev/nozomi720/articles/claude_code_hooks_gate",
+      "publishedAt": "2026-08-11T14:08:36.000Z",
+      "publisher": "nonchan7720",
+      "summary": "テストが落ちたまま「完了しました」と言われる問題 Claude Code に PostToolUse hook で lint とテストを仕込んでいる人は多いと思います。ファイルを編集した直後にそのパッケージのテストを流す、というやつです。…"
     },
     {
-      "id": "c29fa2e6f823",
-      "title": "ゼロから始めるClaude Code #5 CLAUDE.mdでプロジェクトのルールを教え込む",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-05-claudemd",
-      "publishedAt": "2026-08-11T01:07:13.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はグローバルとプロジェクトの2層構造を図解で整理しました。 https://zenn.dev/mika_and_coco/articles/claude-code-d…"
+      "id": "b8ba45d2fd11",
+      "title": "「おはよう」1回 = 5時間制限の7%！？ — 挨拶3トークンの裏で送られる数万トークンの話",
+      "url": "https://zenn.dev/honeymarron/articles/claude-code-context-diet",
+      "publishedAt": "2026-08-11T14:04:58.000Z",
+      "publisher": "honeymarron",
+      "summary": "Claude Code に「おはよう」と送っただけで、5時間枠の残量が7%減っていた——そんな経験はないでしょうか。長い会話をしたわけでも、大きなファイルを扱わせたわけでもない。それなのに大して作業しないまま利用上限に達し、週の途中で週次…"
     }
   ],
-  "fetchedAt": "2026-08-11T15:57:31.707Z",
+  "fetchedAt": "2026-08-11T16:59:02.559Z",
   "stale": false,
   "error": null
 }
