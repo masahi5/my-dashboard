@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.04205",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Human evaluation of AI systems and digital products is costly, slow, and difficult to scale. Offline evaluations are mo…",
-      "score": 14
+      "score": 16
     },
     {
       "id": "010f18eed360",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.06113",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "CLI-based software-engineering agents have matured rapidly, yet the open ecosystem has converged on a single training e…",
-      "score": 12
+      "score": 14
     },
     {
       "id": "3ee380e62411",
@@ -35,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.04569",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Hard prompt compression reduces long-context inference cost by independently scoring tokens, sentences, or chunks and r…",
-      "score": 7
+      "score": 8
     },
     {
       "id": "b0e00b548aa6",
@@ -43,7 +43,15 @@
       "url": "https://huggingface.co/papers/2608.05224",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Large language models fine-tuned on human behavioural data have emerged as general-purpose cognitive proxies, but the s…",
-      "score": 5
+      "score": 8
+    },
+    {
+      "id": "ef8b93866267",
+      "title": "Evidence-RL: Towards Evidence-intensive Visual Reasoning",
+      "url": "https://huggingface.co/papers/2608.08021",
+      "publishedAt": "2026-08-08T00:00:00.000Z",
+      "summary": "Vision-Language Models (VLMs) should answer from concrete image evidence rather than language priors, dataset shortcuts…",
+      "score": 3
     },
     {
       "id": "94c1a01f2188",
@@ -59,6 +67,22 @@
       "url": "https://huggingface.co/papers/2608.04314",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Once visual content enters an AI pipeline, its owner often retains little technical control over how it is used. Legal …",
+      "score": 3
+    },
+    {
+      "id": "9e960db92dfe",
+      "title": "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues",
+      "url": "https://huggingface.co/papers/2607.26178",
+      "publishedAt": "2026-07-28T00:00:00.000Z",
+      "summary": "Turn-taking is a central component of full-duplex interaction. Which turn-taking behaviors are appropriate varies with …",
+      "score": 2
+    },
+    {
+      "id": "16acdd22bc66",
+      "title": "Complementary Matrix-Gated QKAN Fast-Weight Programmers for Quantum Dynamics Forecasting",
+      "url": "https://huggingface.co/papers/2607.27945",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Sequence models must decide what to write into memory and what to retain. In quantum and quantum-inspired sequence lear…",
       "score": 2
     },
     {
@@ -76,33 +100,9 @@
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Benchmarking video-language models has largely focused on short clips and single-sentence metrics, leaving open whether…",
       "score": 1
-    },
-    {
-      "id": "9e960db92dfe",
-      "title": "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues",
-      "url": "https://huggingface.co/papers/2607.26178",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "summary": "Turn-taking is a central component of full-duplex interaction. Which turn-taking behaviors are appropriate varies with …",
-      "score": 1
-    },
-    {
-      "id": "16acdd22bc66",
-      "title": "Complementary Matrix-Gated QKAN Fast-Weight Programmers for Quantum Dynamics Forecasting",
-      "url": "https://huggingface.co/papers/2607.27945",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Sequence models must decide what to write into memory and what to retain. In quantum and quantum-inspired sequence lear…",
-      "score": 1
-    },
-    {
-      "id": "2b16ad87219b",
-      "title": "FATE: Frame-Level Audio-Visual Temporal Embedding",
-      "url": "https://huggingface.co/papers/2608.01310",
-      "publishedAt": "2026-08-02T00:00:00.000Z",
-      "summary": "When a dog opens its mouth and barks, humans naturally recognize what the sound is and when it occurs. Building audio-v…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-10T23:59:38.588Z",
+  "fetchedAt": "2026-08-11T02:19:23.021Z",
   "stale": false,
   "error": null
 }
