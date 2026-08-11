@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "4dd9a66c39e5",
-      "title": "Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution",
-      "url": "https://huggingface.co/papers/2608.08311",
-      "publishedAt": "2026-08-08T00:00:00.000Z",
-      "summary": "We present Ouroboros, a self-developing agent harness whose tools, prompts, context assembly, and core implementation i…",
-      "score": 26
-    },
-    {
       "id": "5d36b20d3bd8",
       "title": "Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory",
       "url": "https://huggingface.co/papers/2608.07169",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "Memory systems have shown promise for improving agent performance, but their potential remains largely unexplored for s…",
-      "score": 24
+      "score": 25
     },
     {
       "id": "09baf4d79388",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.07565",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "summary": "Conversational assistants increasingly recommend follow-up edits to help users continue a task. Existing systems primar…",
-      "score": 20
+      "score": 21
     },
     {
       "id": "162a51c41b94",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.08097",
       "publishedAt": "2026-08-08T00:00:00.000Z",
       "summary": "Large language model (LLM) inference serving is increasingly constrained by memory rather than compute. As long-context…",
-      "score": 10
+      "score": 11
     },
     {
       "id": "cc911cbaf709",
@@ -43,15 +35,7 @@
       "url": "https://huggingface.co/papers/2608.07594",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Interpretability is often treated as a tax on capability: language models are trained as opaque systems, then explained…",
-      "score": 6
-    },
-    {
-      "id": "027336776527",
-      "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
-      "url": "https://huggingface.co/papers/2608.09096",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Large Language Models (LLMs) have driven rapid progress in autonomous agents, yet standard evaluations remain confined …",
-      "score": 6
+      "score": 7
     },
     {
       "id": "3875f624d809",
@@ -71,11 +55,11 @@
     },
     {
       "id": "c52e88fde787",
-      "title": "An End-to-End Agent Auditing Engine",
+      "title": "A^2E : An End-to-End Agent Auditing Engine",
       "url": "https://huggingface.co/papers/2608.07346",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "With the rapid advancement of large language models (LLMs), harnesses have become essential infrastructure for deployin…",
-      "score": 2
+      "score": 3
     },
     {
       "id": "f4bb769f06b2",
@@ -86,12 +70,28 @@
       "score": 2
     },
     {
+      "id": "e984f522e900",
+      "title": "WeClawArena: An Auditable Sandbox and Benchmark for Cross-User Agents Collaboration and Security in Human-Centered Agent Networks",
+      "url": "https://huggingface.co/papers/2608.03499",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Recent advances in persistent personal-agent frameworks are making human-centered agent networks realistic deployment t…",
+      "score": 1
+    },
+    {
       "id": "cc85cae932e9",
       "title": "Vision-Language Grounding as Bidirectional Concept Correspondence",
       "url": "https://huggingface.co/papers/2608.07886",
       "publishedAt": "2026-08-08T00:00:00.000Z",
       "summary": "Vision-language grounding connects language to visual content, yet most existing formulations reduce grounding to a uni…",
       "score": 1
+    },
+    {
+      "id": "d084ba0a6d90",
+      "title": "Ego-OSCAR: Egocentric Open source Stereo CAptuRe System",
+      "url": "https://huggingface.co/papers/2608.08285",
+      "publishedAt": "2026-08-08T00:00:00.000Z",
+      "summary": "We present Ego-OSCAR, an open-hardware, low-cost, head-mounted stereo-inertial capture device for egocentric data colle…",
+      "score": 0
     },
     {
       "id": "6378f096b55e",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-11T08:37:09.408Z",
+  "fetchedAt": "2026-08-11T09:41:16.070Z",
   "stale": false,
   "error": null
 }
