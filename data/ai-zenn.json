@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "62a7602a76a3",
-      "title": "Dify中心から自作AIチャットへ：会話を切らずにモデルを切り替える「星合庵」",
-      "url": "https://zenn.dev/imaginarygate/articles/c7d653f565c92d",
-      "publishedAt": "2026-08-11T09:19:19.000Z",
-      "publisher": "Mai",
-      "summary": "はじめに これまで、個人用のAIチャット環境を少しずつ作ってきた。 前回の記事では、自作チャットUIとFastAPI中継の構成を見直し、接続先をコードへ固定せず、後から増やせる土台を作った。 前回の記事： https://zenn.dev…"
+      "id": "c7dbea5148e4",
+      "title": "音声AIに推論を足したgpt-realtime-2.1、それでも遅くならない理由",
+      "url": "https://zenn.dev/okssusucha/articles/20260708-openai-gpt-realtime-2-1-reasoning-voice",
+      "publishedAt": "2026-08-11T04:36:33.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "音声エージェントを作ったことがある人なら、この矛盾に一度はぶつかる。応答は速いほど自然に聞こえるのに、賢く振る舞わせようとするほど遅くなる。ユーザーの発話を受けてから最初の音が返るまでの間が数百ミリ秒延びるだけで、会話は途端にぎこちなくな…"
     },
     {
-      "id": "8e5a161723f0",
-      "title": "AIでLPを1〜3日で作るために、最初に固定する5つのもの",
-      "url": "https://zenn.dev/tact_works/articles/4743cbce968348",
-      "publishedAt": "2026-08-11T09:16:37.000Z",
-      "publisher": "Tact Works",
-      "summary": "AIに「この営業資料からLPを作って」と頼むと、数分でそれらしい画面が出てきます。しかし、修正を頼むたびに別の場所が崩れたり、スマートフォンで読みにくかったりして、結局人が作るより時間がかかることがあります。 原因は、AIの性能だけではあ…"
+      "id": "34c4254a568b",
+      "title": "2台の DGX Spark を接続する",
+      "url": "https://zenn.dev/st_little/articles/connect-two-dgx-sparks",
+      "publishedAt": "2026-08-11T03:53:39.000Z",
+      "publisher": "little method",
+      "summary": "2台の NVIDIA DGX Spark を QSFP ケーブルで直接接続し、分散処理（推論やファインチューニング）用の高速通信環境を構築した際の手順をまとめました。 公式ドキュメント (Connect Two Sparks) を参考に、…"
     },
     {
-      "id": "12e35780a187",
-      "title": "Claude Code 新機能のセッション間メッセージ、使う前に知ってほしい「即座には読まれない」問題",
-      "url": "https://zenn.dev/hoshiorange/articles/22-cross-session-messaging-windows",
-      "publishedAt": "2026-08-11T09:12:28.000Z",
-      "publisher": "ほし",
-      "summary": "別々に起動した Claude Code のセッション同士が、相手の名前を指定して伝言を送り合える。そんな機能(セッション間メッセージング)が入りました。公式アカウント @ClaudeDevs が X で発表しています。 https://x…"
+      "id": "8165d2836fbc",
+      "title": "🐾 なぜ従来のAI検出器は騙されるのか？ 構文木・情報フローのゆらぎから測定する「Tanuki Context Checker」の技術",
+      "url": "https://zenn.dev/tanuki_chan/articles/2ee47fdd4ca552",
+      "publishedAt": "2026-08-11T03:47:48.000Z",
+      "publisher": "天知たぬき",
+      "summary": "著者: SeaCafe 開発チーム（天知たぬき ＆ 和賀江ほむら） 公開日: 2026年8月11日 カテゴリ: AI Tech / Text Analytics / Natural Language Processing 1. はじめに：…"
     },
     {
-      "id": "b9f200f0eafb",
-      "title": "なぜAIで作業を効率化しても、給料が上がらないのか？",
-      "url": "https://zenn.dev/karamage/articles/976a5f8fb0f876",
-      "publishedAt": "2026-08-11T09:09:53.000Z",
-      "publisher": "karamage",
-      "summary": "先月作成したPR作成件数やコミット数は、去年の同じ時期の三倍くらいの量になっているのに、今月の振込予定額は去年とほとんど同じ数字でした。 AIコーディングエージェントのおかげで、生産性は確実に上がってるはずなのに、もらえるお金が増えてない…"
+      "id": "868bd6c1108d",
+      "title": "同じ差分を5つのLLMにレビューさせてみた——バグより先に見つかったのは自分のミスだった",
+      "url": "https://zenn.dev/ivyxon/articles/five-llms-same-code-review",
+      "publishedAt": "2026-08-11T03:37:06.000Z",
+      "publisher": "IVYXON",
+      "summary": "自分のサイトで、ナビゲーションの表記とブランドカラーを一括で変える作業をした。対象は140ページ超、色の置換は正規表現スクリプトで機械的に流した規模の変更で、QAは通っていたし本番でも見た目は問題なさそうだった。それでも「本当にこれで良い…"
     },
     {
-      "id": "f3e4ecc123d6",
-      "title": "AI駆動開発の契約・検証・一貫性を単巻にした話 — コード全文より型を渡す本の設計",
-      "url": "https://zenn.dev/amayann/articles/ai-driven-dev-cursor-creation",
-      "publishedAt": "2026-08-11T08:18:11.000Z",
-      "publisher": "bauhaus",
-      "summary": "本記事について Cursor などのコーディングエージェントでアプリを作っていると、実装の手数は減ります。一方で、「速いのに話が食い違う」「画面ごとに見た目が違う」「動いたので完了にしたら別操作で落ちる」「作った流れのまま自分で合格にする…"
+      "id": "239a85a84b1f",
+      "title": "Claude Codeのサブエージェントが自動で呼ばれなかったときの話",
+      "url": "https://zenn.dev/hijio/articles/545aa114d7ebae",
+      "publishedAt": "2026-08-11T03:28:55.000Z",
+      "publisher": "HIJIO",
+      "summary": "はじめに こんにちは、HIJIOです。 本日はClaude Codeのサブエージェント機能を利用しようとした際に詰まった内容をまとめていこうと思います。 この記事でわかること ・Claude Codeのサブエージェントとは ・サブエージェ…"
     },
     {
-      "id": "1e78058e7c43",
-      "title": "Why We Overthink Text Messages — And How AI Can Help Spot the Bigger P",
-      "url": "https://zenn.dev/dndname/articles/eed63596a943e3",
-      "publishedAt": "2026-08-11T08:03:32.000Z",
-      "publisher": "DnD Name Generator",
-      "summary": "Have you ever stared at the same text message for ten minutes trying to figure out what it really means? What Brandon T…"
+      "id": "37dce183e2a8",
+      "title": "OpenAIのFedRAMP Moderate認可から考える規制環境向けAIアーキテクチャ",
+      "url": "https://zenn.dev/trailfusionai/articles/ai-news-20260428094945-51ded5",
+      "publishedAt": "2026-08-11T03:18:14.000Z",
+      "publisher": "Trailfusion AI",
+      "summary": "OpenAIが2026年4月27日に、ChatGPT EnterpriseとOpenAI API PlatformのFedRAMP 20x Moderate authorization取得を発表しました。対象は米連邦機関向けの利用で、セキ…"
     },
     {
-      "id": "48f7ef013234",
-      "title": "Comfy CLI・Seedance・FFmpegで中国怪異譚アニメを作った実践フロー",
-      "url": "https://zenn.dev/hrak0x59/articles/comfy-seedance-zhiguai-video-workflow",
-      "publishedAt": "2026-08-11T07:58:46.000Z",
-      "publisher": "hrak0x59",
-      "summary": "中国の故事「邯鄲の夢」を題材に、34秒の縦型AIアニメを作りました。 使ったのは、Comfy CLI、Seedance 1.5 Pro、MiniMax TTS、FFmpegです。この記事ではモデル比較ではなく、実際に最後まで作って分かった…"
+      "id": "f82961105715",
+      "title": "AIに記事を書かせて自動投稿する仕組みを作った。最初に出てきたのは、自分じゃない誰かの文章だった",
+      "url": "https://zenn.dev/yuukikawabata/articles/article-automation-persona",
+      "publishedAt": "2026-08-11T02:53:20.000Z",
+      "publisher": "河畑祐輝  Yuki.Kawabata",
+      "summary": "この記事の初出は個人ブログです: https://dev-blog-pi-six.vercel.app/blog/20260811-article-automation-persona/ 元コンビニ店長で、30歳前にエンジニアに転身して5…"
     },
     {
-      "id": "51fe039716e7",
-      "title": "LLMアプリの「デモでは動くが本番で使えない」を潰す評価設計",
-      "url": "https://zenn.dev/ohmiyamizuki/articles/llm-demo-to-production-eval",
-      "publishedAt": "2026-08-11T07:46:55.000Z",
-      "publisher": "Ohmiya-Mizuki",
-      "summary": "! この記事はFDEの現場からの転載です。 「デモでは完璧に動いたのに、本番投入したら思ったように動かない」。LLMアプリを作っていると、これは驚くほど頻繁に起きる。 原因の多くは、モデルの性能不足ではない。デモを通す評価と、本番で求めら…"
+      "id": "1272dd37320a",
+      "title": "モバイル未経験、ハッカソン未経験で Builders Weekend に参加してきました！",
+      "url": "https://zenn.dev/nanahiryu/articles/builders-weekend-shipaton-onlab-202608",
+      "publishedAt": "2026-08-11T02:52:40.000Z",
+      "publisher": "nanahiryu",
+      "summary": "はじめに 2026年8月8日に開催された「Builders Weekend - Shipaton Special Edition with OnLab」に参加してきました。 普段はWebフロントエンドを書くことが多く、モバイルアプリ開発は…"
     },
     {
-      "id": "af0bc6aaf2cd",
-      "title": "Docker SandboxesでAIエージェントを隔離してみた",
-      "url": "https://zenn.dev/the_exile/articles/docker-sandboxes-ai-agent",
-      "publishedAt": "2026-08-11T07:46:06.000Z",
-      "publisher": "RUI",
-      "summary": "AIエージェントにコードを書かせていると、次第に権限確認を省いて最後まで実行させたくなります。ただし、普段使っているMacでそのまま動かすと、プロジェクト外のファイルやホスト側のDocker、ローカルに保存した認証情報まで操作対象になり得…"
+      "id": "c952e2a80289",
+      "title": "コードを書かずに20個のプロジェクトを作った話（Vibe Coding 1年の記録）",
+      "url": "https://zenn.dev/fukukei23/articles/vibe-coding-civilservant-projects",
+      "publishedAt": "2026-08-11T02:34:45.000Z",
+      "publisher": "fukukei23",
+      "summary": "はじめに 2025年5月、私はITとは無関係の公務員でした。プログラミング経験はゼロ。Pythonのprint(\"hello\")も書けない状態でした。 それから1年で、GitHubに20以上のプロジェクトを作りました（うち14を公開中）。…"
     },
     {
-      "id": "97fdc451767f",
-      "title": "クライアントワークでClaude Codeを使う際の運用設計",
-      "url": "https://zenn.dev/ohmiyamizuki/articles/claude-code-client-work",
-      "publishedAt": "2026-08-11T07:42:42.000Z",
-      "publisher": "Ohmiya-Mizuki",
-      "summary": "! この記事はFDEの現場からの転載です。 Claude CodeのようなAIコーディングエージェントを個人開発で使うのと、クライアントワークで使うのとでは、気をつけるべきことがまったく違う。個人開発なら多少雑に扱っても自分が困るだけだが…"
+      "id": "77369792709e",
+      "title": "新しいクリエイティブスタック：AI画像生成・ボイスクローン・自動化の技術的整理",
+      "url": "https://zenn.dev/derek/articles/595cb3b072b354",
+      "publishedAt": "2026-08-11T02:32:33.000Z",
+      "publisher": "derek",
+      "summary": "マーケティング領域で「クリエイティブ」を生成するプロセスが、徐々にソフトウェアのスタックとして整理されつつある。本稿では、その構成を「レイヤー」という視点で分解し、各層で使われている技術的な考え方を整理する。特定のツールを推奨するものでは…"
     },
     {
-      "id": "d14bf8d98bbe",
-      "title": "責任経路をRuntimeまで作ったら、その外側が残った――RPOSを考え始めた理由",
-      "url": "https://zenn.dev/dantarg/articles/ai-entered-human-responsibility-pathway",
-      "publishedAt": "2026-08-11T07:41:50.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "こんにちは、小野昭久です。 責任経路について、これまでZennで何本も書いてきました。 最初から今の形が見えていたわけではありません。 責任を一点に固定するだけでは、実際の業務では足りないのではないか。AIは責任を負えないとしても、責任に…"
+      "id": "e217d530ab44",
+      "title": "BM25を使用してCodexのトークンの消費を30%抑える",
+      "url": "https://zenn.dev/knowledgesense/articles/9e55a3bb67729c",
+      "publishedAt": "2026-08-11T01:08:19.000Z",
+      "publisher": "sasakuna",
+      "summary": "導入 こんにちは、株式会社ナレッジセンスの須藤英寿です。 今回は、コード探索にBM25を組み込むことで、回答品質とトークン消費がどのように変わるのかを、自社のコードベースで検証しました。 きっかけは、2026年7月に公開された論文「BM2…"
     },
     {
-      "id": "e40876e3b1c8",
-      "title": "コードを1行も書かずに、AI3人と組んで、現場で使えるものを作った話（AI HACK 2026）",
-      "url": "https://zenn.dev/m_go/articles/794869d594e333",
-      "publishedAt": "2026-08-11T07:35:10.000Z",
-      "publisher": "Mari",
-      "summary": "作ったもの 建築・リノベーションの打ち合わせを録音すると、そこから 追加見積が必要な変更 金額に影響しない決定 保留と、その期限 「言った言わない」になりそうな箇所 を仕分けて、施主向け・職人向け・社内保存用の3つの文書 に変えるものです…"
+      "id": "c29fa2e6f823",
+      "title": "ゼロから始めるClaude Code #5 CLAUDE.mdでプロジェクトのルールを教え込む",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-05-claudemd",
+      "publishedAt": "2026-08-11T01:07:13.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はグローバルとプロジェクトの2層構造を図解で整理しました。 https://zenn.dev/mika_and_coco/articles/claude-code-d…"
     }
   ],
-  "fetchedAt": "2026-08-11T14:54:44.900Z",
+  "fetchedAt": "2026-08-11T15:57:31.707Z",
   "stale": false,
   "error": null
 }
