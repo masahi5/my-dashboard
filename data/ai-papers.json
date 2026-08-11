@@ -6,43 +6,51 @@
   "category": "ai",
   "items": [
     {
-      "id": "d80940429a64",
-      "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
-      "url": "https://huggingface.co/papers/2608.04205",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Human evaluation of AI systems and digital products is costly, slow, and difficult to scale. Offline evaluations are mo…",
-      "score": 16
+      "id": "a7293c675b14",
+      "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+      "url": "https://huggingface.co/papers/2608.09802",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapi…",
+      "score": 38
     },
     {
-      "id": "010f18eed360",
-      "title": "DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds",
-      "url": "https://huggingface.co/papers/2608.06113",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "CLI-based software-engineering agents have matured rapidly, yet the open ecosystem has converged on a single training e…",
+      "id": "2f68f8ac6f23",
+      "title": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
+      "url": "https://huggingface.co/papers/2608.09819",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments a…",
+      "score": 31
+    },
+    {
+      "id": "4db0eae28559",
+      "title": "Sci-VBench: Evaluating Knowledge- and Reasoning-Intensive Video Generation in Science Domains",
+      "url": "https://huggingface.co/papers/2608.09873",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "We introduce Sci-VBench, a comprehensive benchmark for evaluating knowledge- and reasoning-intensive video generation a…",
+      "score": 18
+    },
+    {
+      "id": "623ec655464b",
+      "title": "SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2608.04419",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) provides dense teacher supervision on student-generated trajectories, but standard reverse…",
       "score": 14
     },
     {
-      "id": "3ee380e62411",
-      "title": "When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles",
-      "url": "https://huggingface.co/papers/2607.23379",
-      "publishedAt": "2026-07-25T00:00:00.000Z",
-      "summary": "Activation Oracles (AOs) are language models trained to answer natural-language questions about another model's interna…",
-      "score": 10
+      "id": "e866aa0219d5",
+      "title": "Motif 3: Technical Report",
+      "url": "https://huggingface.co/papers/2608.09119",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "We introduce Motif 3, a decoder-only Mixture-of-Experts language model with 314 billion total parameters and 13.2 billi…",
+      "score": 13
     },
     {
-      "id": "604f20a6e687",
-      "title": "Relevant but Incomplete: Referential Dangling as a Paradigm-Level Failure Mode in Hard Prompt Compression",
-      "url": "https://huggingface.co/papers/2608.04569",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Hard prompt compression reduces long-context inference cost by independently scoring tokens, sentences, or chunks and r…",
-      "score": 8
-    },
-    {
-      "id": "b0e00b548aa6",
-      "title": "Small Foundation Models of Human Cognition and Behaviour",
-      "url": "https://huggingface.co/papers/2608.05224",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Large language models fine-tuned on human behavioural data have emerged as general-purpose cognitive proxies, but the s…",
+      "id": "4ac401c54fde",
+      "title": "RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States",
+      "url": "https://huggingface.co/papers/2608.02508",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Learning-based memory systems for self-evolving LLM agents face two tightly coupled challenges. First, trajectory-index…",
       "score": 8
     },
     {
@@ -51,22 +59,14 @@
       "url": "https://huggingface.co/papers/2608.08021",
       "publishedAt": "2026-08-08T00:00:00.000Z",
       "summary": "Vision-Language Models (VLMs) should answer from concrete image evidence rather than language priors, dataset shortcuts…",
-      "score": 3
+      "score": 6
     },
     {
-      "id": "94c1a01f2188",
-      "title": "Multi-Agent Forensic Reasoning for Generalizable Deepfake Video Detection",
-      "url": "https://huggingface.co/papers/2608.06865",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "The malicious use of generative artificial intelligence to create highly realistic deepfake videos raises serious ethic…",
-      "score": 3
-    },
-    {
-      "id": "61225e254e3e",
-      "title": "Adversarial Attacks for Good: A Survey of Proactive Protection across the Visual Content Lifecycle",
-      "url": "https://huggingface.co/papers/2608.04314",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Once visual content enters an AI pipeline, its owner often retains little technical control over how it is used. Legal …",
+      "id": "027336776527",
+      "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
+      "url": "https://huggingface.co/papers/2608.09096",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "Large Language Models (LLMs) have driven rapid progress in autonomous agents, yet standard evaluations remain confined …",
       "score": 3
     },
     {
@@ -75,14 +75,14 @@
       "url": "https://huggingface.co/papers/2607.26178",
       "publishedAt": "2026-07-28T00:00:00.000Z",
       "summary": "Turn-taking is a central component of full-duplex interaction. Which turn-taking behaviors are appropriate varies with …",
-      "score": 2
+      "score": 3
     },
     {
-      "id": "16acdd22bc66",
-      "title": "Complementary Matrix-Gated QKAN Fast-Weight Programmers for Quantum Dynamics Forecasting",
-      "url": "https://huggingface.co/papers/2607.27945",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Sequence models must decide what to write into memory and what to retain. In quantum and quantum-inspired sequence lear…",
+      "id": "74f3e44c68d1",
+      "title": "Intent Speaks Louder: Controllable User Simulation Beyond Response Imitation",
+      "url": "https://huggingface.co/papers/2608.09420",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "User simulators are widely used as scalable environments for training and evaluating interactive assistants. Generating…",
       "score": 2
     },
     {
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-11T02:19:23.021Z",
+  "fetchedAt": "2026-08-11T03:59:29.913Z",
   "stale": false,
   "error": null
 }
