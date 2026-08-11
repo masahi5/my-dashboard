@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "d9506593d213",
-      "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
-      "url": "https://huggingface.co/papers/2608.09888",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presen…",
-      "score": 239
-    },
-    {
       "id": "81bbead6a853",
       "title": "On-Policy Self-Distillation without Any Supervision",
       "url": "https://huggingface.co/papers/2608.06296",
@@ -27,15 +19,15 @@
       "url": "https://huggingface.co/papers/2608.08621",
       "publishedAt": "2026-08-09T00:00:00.000Z",
       "summary": "Running a business is a challenging form of intelligent work. Operators must infer opportunities from partial signals, …",
-      "score": 3
+      "score": 4
     },
     {
-      "id": "a62f5105cebe",
-      "title": "The Loss Does Not See the Basis, but Adam Does",
-      "url": "https://huggingface.co/papers/2608.05136",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Gradient descent on a factored model W = UV^top is implicitly biased toward low-rank solutions, while Adam, starting fr…",
-      "score": 3
+      "id": "e8f3718f27ab",
+      "title": "Beyond Starry Night: Shortcut-Aware Control-State Planning for Artist-Grounded Text to Image Generation",
+      "url": "https://huggingface.co/papers/2608.06751",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Artist-grounded image generation requires more than appending an artist name to a prompt. Image models often respond to…",
+      "score": 2
     },
     {
       "id": "1ce4cebd078f",
@@ -70,12 +62,28 @@
       "score": 2
     },
     {
+      "id": "c0ab82948d7a",
+      "title": "Don't Scroll Back: Missing-Evidence Memory for Streaming Dialogue Summarization",
+      "url": "https://huggingface.co/papers/2608.09043",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "Users of modern platforms repeatedly need summaries of recent dialogue, but the window rarely contains enough context t…",
+      "score": 2
+    },
+    {
       "id": "e334e29b32b9",
       "title": "MMOOC: A Comprehensive Benchmark for Out-of-Context Evaluation in Multimodal Large Language Models",
       "url": "https://huggingface.co/papers/2607.27637",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "Multimodal Large Language Models (MLLMs) have achieved strong performance on a wide range of vision-language tasks, but…",
       "score": 2
+    },
+    {
+      "id": "5d62260f223f",
+      "title": "Beyond Sequence Order: Syntax-Informed Positional Embeddings for Transformers",
+      "url": "https://huggingface.co/papers/2608.06111",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Positional embeddings (PE) in Transformers encode token distance and order but are largely agnostic to syntactic struct…",
+      "score": 1
     },
     {
       "id": "aa0116927d1d",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Fine-tuning a large language model on new data degrades what it previously learned. We present Omega-S, a drop-in penal…",
       "score": 1
-    },
-    {
-      "id": "c0ab82948d7a",
-      "title": "Don't Scroll Back: Missing-Evidence Memory for Streaming Dialogue Summarization",
-      "url": "https://huggingface.co/papers/2608.09043",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Users of modern platforms repeatedly need summaries of recent dialogue, but the window rarely contains enough context t…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-11T23:02:23.552Z",
+  "fetchedAt": "2026-08-11T23:59:16.144Z",
   "stale": false,
   "error": null
 }
