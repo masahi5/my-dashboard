@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c952e2a80289",
-      "title": "コードを書かずに20個のプロジェクトを作った話（Vibe Coding 1年の記録）",
-      "url": "https://zenn.dev/fukukei23/articles/vibe-coding-civilservant-projects",
-      "publishedAt": "2026-08-11T02:34:45.000Z",
-      "publisher": "fukukei23",
-      "summary": "はじめに 2025年5月、私はITとは無関係の公務員でした。プログラミング経験はゼロ。Pythonのprint(\"hello\")も書けない状態でした。 それから1年で、GitHubに20以上のプロジェクトを作りました（うち14を公開中）。…"
+      "id": "b4b41b3e96d8",
+      "title": "ループエンジニアリングは、なぜ同じ提案を繰り返すのか",
+      "url": "https://zenn.dev/motimotinotch/articles/f1491bb5b0e0d3",
+      "publishedAt": "2026-08-11T10:26:15.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "アーキテクチャを改善させようとして、エージェントに何周もループを回させたことはないだろうか。最初の数回で、キャッシュ戦略やコンポーネント分割の提案は確かに幅が広がる。しかしその先を回し続けると、提案は新しくならない。既に見た2つ・3つの案…"
     },
     {
-      "id": "77369792709e",
-      "title": "新しいクリエイティブスタック：AI画像生成・ボイスクローン・自動化の技術的整理",
-      "url": "https://zenn.dev/derek/articles/595cb3b072b354",
-      "publishedAt": "2026-08-11T02:32:33.000Z",
-      "publisher": "derek",
-      "summary": "マーケティング領域で「クリエイティブ」を生成するプロセスが、徐々にソフトウェアのスタックとして整理されつつある。本稿では、その構成を「レイヤー」という視点で分解し、各層で使われている技術的な考え方を整理する。特定のツールを推奨するものでは…"
+      "id": "11c664f3aafb",
+      "title": "双極性障害の私が、AIと一緒にObsidianを「自分を責めない記録システム」に作り替えた話",
+      "url": "https://zenn.dev/window794/articles/37e8539b7a82b6",
+      "publishedAt": "2026-08-11T10:22:17.000Z",
+      "publisher": "かのん",
+      "summary": "! TL;DR（3行まとめ） 双極性障害・ADHD・ASDの自分の脳の仕様を先に明文化してから、Obsidianを設計した 「やることリスト」ではなく「やったことリスト」、習慣トラッカーではなく責めない記録——世間のベストプラクティスは仕…"
     },
     {
-      "id": "e217d530ab44",
-      "title": "BM25を使用してCodexのトークンの消費を30%抑える",
-      "url": "https://zenn.dev/knowledgesense/articles/9e55a3bb67729c",
-      "publishedAt": "2026-08-11T01:08:19.000Z",
-      "publisher": "sasakuna",
-      "summary": "導入 こんにちは、株式会社ナレッジセンスの須藤英寿です。 今回は、コード探索にBM25を組み込むことで、回答品質とトークン消費がどのように変わるのかを、自社のコードベースで検証しました。 きっかけは、2026年7月に公開された論文「BM2…"
+      "id": "4397c5f5fa63",
+      "title": "Gemini in BigQueryで自然言語からSQLを生成する実践ガイド【2026年版】",
+      "url": "https://zenn.dev/web_benriya/articles/gemini-bigquery-nl-sql-guide-2026",
+      "publishedAt": "2026-08-11T10:20:32.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに 「BigQueryにデータが蓄積されているのに、SQLが書けないせいで活用できていない」——そんな悩みを抱えるEC事業者やウェブ担当者の方は少なくありません。GA4のデータをBigQueryに連携したものの、いざ分析しようとする…"
     },
     {
-      "id": "c29fa2e6f823",
-      "title": "ゼロから始めるClaude Code #5 CLAUDE.mdでプロジェクトのルールを教え込む",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-05-claudemd",
-      "publishedAt": "2026-08-11T01:07:13.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はグローバルとプロジェクトの2層構造を図解で整理しました。 https://zenn.dev/mika_and_coco/articles/claude-code-d…"
+      "id": "b28708f9addd",
+      "title": "開発の暗黙知を集約するskillsを作った",
+      "url": "https://zenn.dev/fatricepaddyy/articles/skills-tacit-knowledge",
+      "publishedAt": "2026-08-11T10:20:07.000Z",
+      "publisher": "FatRicePaddyyyy",
+      "summary": "開発の暗黙知とは？ この記事において、開発の暗黙知は例えば以下のようなものです。 コードレビューで「なんとなく気になる」匂いの感覚 「この設計はあとで痛い目を見る」という予感 デバッグで「まずここを疑う」という直感 「うちのチームではこう…"
     },
     {
-      "id": "7f292fd141b9",
-      "title": "Few-shot例を5個渡したら、AIが真似したのは最後の1個だけだった",
-      "url": "https://zenn.dev/kenimo49/articles/few-shot-5-examples-only-last-mimicked",
-      "publishedAt": "2026-08-11T01:00:45.000Z",
-      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
-      "summary": "私は5個の Few-shot 例を丁寧に選びました。 生成されたコードは、5個全体の平均ではなく、最後の1個だけを模倣していました。順序を入れ替えると、また末尾の1個が支配しました。 これは Choice Overload の Few-s…"
+      "id": "fe09c266cc7a",
+      "title": "Fabric Automation Tool — Microsoft Fabric環境を構築するAI支援自動化ソリューション",
+      "url": "https://zenn.dev/headwaters/articles/a9b4f4729d088e",
+      "publishedAt": "2026-08-11T10:03:39.000Z",
+      "publisher": "Data Impact",
+      "summary": "はじめに Microsoft Fabric は、データエンジニアリング・データウェアハウス・データサイエンス・リアルタイム分析・BI・AI という6つの主要ワークロードを単一の SaaS プラットフォームに統合し、企業のデータ活用のあり方…"
     },
     {
-      "id": "00b81ba5b1da",
-      "title": "スマートプラグ×AIで自宅ラボの電力・監視・通知を自動化した記録",
-      "url": "https://zenn.dev/chemy_pvl/articles/homelab-small-tools-season-2",
-      "publishedAt": "2026-08-11T00:22:31.000Z",
-      "publisher": "Chemy",
-      "summary": "自宅ラボは、派手な機材を増やすより先に、毎日同じように働く小さな道具が必要になります。電力を記録する、変化を見張る、決めた日を忘れない。今回は、その裏方となる仕組みを5つ紹介します。 自宅ラボ「Proto.Violet.Lab」では第2期…"
+      "id": "337eeaf73c55",
+      "title": "GitHub Issue を「行動 OS」にする ── Life Management Agentという実験",
+      "url": "https://zenn.dev/macksat/articles/01-life-management-agent-github-issue-os",
+      "publishedAt": "2026-08-11T09:46:03.000Z",
+      "publisher": "macksat",
+      "summary": "はじめに ── 情報はあるのに、動けない問題 タスク管理ツール、メモアプリ、ノートアプリ。 いくつも試した。Notion も Obsidian も Todoist も使った。 でも、結局こうなる。 メモは溜まるが、次に何をすればいいか分か…"
     },
     {
-      "id": "9d78dc5b83f4",
-      "title": "無いと思って、作りかけた（13）",
-      "url": "https://zenn.dev/jissokulog/articles/eb41dac7d195c8",
-      "publishedAt": "2026-08-11T00:20:02.000Z",
-      "publisher": "実測",
-      "summary": "今日、3つの機能を「まだ実装されていない」と判断して、実装の指示を出しました。 3つとも、前日に実装済みでした。テストも変異確認もコミットも、全部済んでいました。 エージェントは何も間違えていません。誤った報告は1件もありませんでした。あ…"
+      "id": "ef6edd93351d",
+      "title": "AI開発の半分をローカルLLMへ。大きいモデルを選ばず、役割で振り分けた話",
+      "url": "https://zenn.dev/chooser/articles/lc-007-local-llm",
+      "publishedAt": "2026-08-11T09:44:18.000Z",
+      "publisher": "chooser",
+      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 2026年7月30日、社内のAI開発を…"
     },
     {
-      "id": "60af7745f5b7",
-      "title": "OneTrainerに完了時に通知音（アルペジオ）を鳴らすコードを追加したお話",
-      "url": "https://zenn.dev/neon_aiart/articles/6775c72d1b165b",
-      "publishedAt": "2026-08-11T00:12:37.000Z",
-      "publisher": "ねおん",
-      "summary": "OneTrainerに完了時に通知音（アルペジオ）を鳴らすコードを追加したお話 別の作業をしていても、いつ終わったのか分からないサイレントな完了よりも 通知音でお知らせしてもらったほうが嬉しいですよね♪ ! 【イントロダクション】 動作環…"
+      "id": "51ed460aa865",
+      "title": "AI記事生成プラットフォームのアーキテクチャを設計する",
+      "url": "https://zenn.dev/avecdogpresence/articles/a567eca88909fe",
+      "publishedAt": "2026-08-11T09:36:54.000Z",
+      "publisher": "Ken",
+      "summary": "検索流入を伸ばしたいのに、オウンドメディアの制作は「思いつきの単発記事」になりがちだった。私はキーワードを拾って文章を書いても、ピラー記事とクラスター記事の関係が弱いせいで、内部リンクの筋が通らず、E-E-A-Tの積み上げも途切れる感覚が…"
     },
     {
-      "id": "ca7f358d6ebe",
-      "title": "AIに文体ルールを渡しても守られない — 投稿200件中196件が同じ一文で終わっていた話",
-      "url": "https://zenn.dev/ai_eris_log/articles/eris-20260728-llm-style-guard",
-      "publishedAt": "2026-08-11T00:08:04.000Z",
-      "publisher": "エリス・ログ",
-      "summary": "この記事は何か 私は Claude Code のスケジュールタスクで、SNS 投稿を自動生成・投稿するシステムを運用しています。生成の指示は CLAUDE.md と各タスクの SKILL.md に日本語で書いてあります。「同じ言い回しを繰…"
+      "id": "a71f12595e69",
+      "title": "Claude Code 完璧マスター講座【中級編】——「なんか使いこなせてない」を解決する装備庫",
+      "url": "https://zenn.dev/imu_imu/books/claude-guide",
+      "publishedAt": "2026-08-11T09:33:23.000Z",
+      "publisher": "いむたろ",
+      "summary": "全4冊の『Claude Code 完璧マスター講座』の第2冊。プロンプトの型・CLAUDE.mdの育て方・ターミナルへの引っ越し・スキル・MCP・Claude in Chrome・採点ボット・モデル選び、そして資料作成/リサーチ/コピーラ…"
     },
     {
-      "id": "defe4dca8999",
-      "title": "フィジカルAIが建設現場へ──清水建設の取り組みから見えた「AIが仕事をする時代」の始まり",
-      "url": "https://zenn.dev/rikunagano/articles/cbcff78d25ec6a",
-      "publishedAt": "2026-08-11T00:06:03.000Z",
-      "publisher": "長野陸（Riku Nagano） | AI伝道師",
-      "summary": "AI活用は、新たなステージへ進み始めた 生成AIの普及によって、企業におけるAI活用は急速に広がっています。 議事録やメールの作成、市場調査、企画書のたたき台づくりなど、これまで人が行ってきた情報処理業務にAIを活用する取り組みは幅広い企…"
+      "id": "62a7602a76a3",
+      "title": "複数LLMを1つの会話で切り替えたい。星合庵が会話中心の構成になるまで",
+      "url": "https://zenn.dev/imaginarygate/articles/c7d653f565c92d",
+      "publishedAt": "2026-08-11T09:19:19.000Z",
+      "publisher": "Mai",
+      "summary": "はじめに これまで、個人用のAIチャット環境を少しずつ作ってきた。 前回の記事では、自作チャットUIとFastAPI中継の構成を見直し、接続先をコードへ固定せず、後から増やせる土台を作った。 前回の記事： https://zenn.dev…"
     },
     {
-      "id": "37e377e85b53",
-      "title": "翻訳は、最初から特殊ケースに過ぎなかった",
-      "url": "https://zenn.dev/hidekimori/articles/b5cb3c45ba7e24",
-      "publishedAt": "2026-08-11T00:00:06.000Z",
-      "publisher": "Hideki Mori",
-      "summary": "私は、40年にわたって翻訳事業を営んできた会社で、あるサービスの面倒を見ています。その背後にあるエンジンは現在、医療記録や契約書を読み込み、構造化されたJSONとして返却しています。そのままデータベースに流し込めるフィールド群です。 人々…"
+      "id": "8e5a161723f0",
+      "title": "AIでLPを1〜3日で作るために、最初に固定する5つのもの",
+      "url": "https://zenn.dev/tact_works/articles/4743cbce968348",
+      "publishedAt": "2026-08-11T09:16:37.000Z",
+      "publisher": "Tact Works",
+      "summary": "AIに「この営業資料からLPを作って」と頼むと、数分でそれらしい画面が出てきます。しかし、修正を頼むたびに別の場所が崩れたり、スマートフォンで読みにくかったりして、結局人が作るより時間がかかることがあります。 原因は、AIの性能だけではあ…"
     },
     {
-      "id": "82d8f7aae483",
-      "title": "AIに「1分で終わる作業」を頼んだら、本番サイトが全ページ落ちた",
-      "url": "https://zenn.dev/toyo_lab/articles/ai-honban-down-1min-incident",
-      "publishedAt": "2026-08-11T00:00:06.000Z",
-      "publisher": "Toyo",
-      "summary": "要点（アンサーカプセル）: 原因は1分依頼に足された「ついで実装」。検証なしのテーマ更新が半端に失敗し27分の全面停止。穴は承認ゲートの不在。 AIコーディングエージェントの成功談は溢れているが、本番で壊した側の一次記録はほとんど出てこな…"
+      "id": "12e35780a187",
+      "title": "Claude Code 新機能のセッション間メッセージ、使う前に知ってほしい「即座には読まれない」問題",
+      "url": "https://zenn.dev/hoshiorange/articles/22-cross-session-messaging-windows",
+      "publishedAt": "2026-08-11T09:12:28.000Z",
+      "publisher": "ほし",
+      "summary": "別々に起動した Claude Code のセッション同士が、相手の名前を指定して伝言を送り合える。そんな機能(セッション間メッセージング)が入りました。公式アカウント @ClaudeDevs が X で発表しています。 https://x…"
     }
   ],
-  "fetchedAt": "2026-08-11T10:34:00.163Z",
+  "fetchedAt": "2026-08-11T11:30:21.035Z",
   "stale": false,
   "error": null
 }
