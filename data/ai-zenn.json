@@ -6,6 +6,46 @@
   "category": "ai",
   "items": [
     {
+      "id": "fae4edbfd3a9",
+      "title": "売上表のラベルを段階的に省略すると、LLMはどこで列を取り違えるか",
+      "url": "https://zenn.dev/every_ai_recipe/articles/sales-table-label-omission-limit",
+      "publishedAt": "2026-08-10T21:08:43.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 表形式のデータをLLMに渡すとき、列見出し（ラベル）を「記号への置き換え」までは実務に耐えたが、「見出し行の完全削除」まで踏み込むと、系列が伸びるにつれて列の取り違えが起きた 記号への置き換え（対応表を冒頭で1回だけ提示）は3…"
+    },
+    {
+      "id": "85660f3a4e9c",
+      "title": "常駐型AIエージェントに「黙ることを覚えさせる」設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-when-to-stay-silent-design",
+      "publishedAt": "2026-08-10T21:04:42.000Z",
+      "publisher": "HACH",
+      "summary": "チャットに常駐して自律的に動くAIエージェントを作っていると、機能追加の議論はいつも「何ができるようになったか」に偏りがちです。ですが実際に使われ続けるかどうかを分けるのは、むしろいつ発言しないかの設計だと感じています。この記事では、常駐…"
+    },
+    {
+      "id": "3c31b73be626",
+      "title": "自分の商品が「AIに飲み込まれる側」かどうかを、実例で判定してみた",
+      "url": "https://zenn.dev/limit_lab_works/articles/ai-replaceable-product-check",
+      "publishedAt": "2026-08-10T20:35:04.000Z",
+      "publisher": "限界社会人（LIMIT LAB WORKS）",
+      "summary": "結論から言う。AIツールを使って作った商品が将来AIに置き換えられるかどうかは、「AIを使って何を作ったか」ではなく「AIそのものを売っているか、それとも既存の市場の悩みをAIで速く解いているか」で決まる。この1問に答えられない商品は、次…"
+    },
+    {
+      "id": "cbbdac821313",
+      "title": "ベクトルDB選択時の考慮点- RDB同居型と専用ベクトルDB、それぞれの注意点",
+      "url": "https://zenn.dev/hkame/articles/pgvector-vs-vectordb",
+      "publishedAt": "2026-08-10T19:22:24.000Z",
+      "publisher": "Hiroki Kameyama",
+      "summary": "はじめに RAGやレコメンド機能を実装する際、ベクトル検索の基盤として「Chromaのような専用ベクトルDBを使うか」「PostgreSQL + pgvectorのようにRDBにベクトル機能を追加するか」で迷うことは多い。本記事では、両者…"
+    },
+    {
+      "id": "930dd4ce823f",
+      "title": "個人開発でAIエラー解析ツール「ERROR DECODER」を作った話",
+      "url": "https://zenn.dev/kage299/articles/914844bab15cae",
+      "publishedAt": "2026-08-10T18:09:38.000Z",
+      "publisher": "kage",
+      "summary": "はじめに 新卒でインフラエンジニアとして働き始めて数ヶ月。平日は業務、開発に使える時間は土日中心という限られたリソースの中で、AIをフル活用して個人開発サービス「ERROR DECODER」を作りました。 ERROR DECODERは、エ…"
+    },
+    {
       "id": "1638b0d83b51",
       "title": "その対策、誰も通らない廊下に貼ってありました ── 「場当たり的な気がする」を実測した負債棚卸し 8 日間",
       "url": "https://zenn.dev/satoh_y_0323/articles/95ff9a7b16510c",
@@ -60,49 +100,9 @@
       "publishedAt": "2026-08-10T15:13:51.000Z",
       "publisher": "kimisya",
       "summary": "ニュースやSNSで、「Microsoft 365 Copilot（M365 Copilot）」「ChatGPT」「Claude Code」といった名前を目にする機会が増えました。これらは、生成AIを利用できるサービスやツールの例です。 一…"
-    },
-    {
-      "id": "e586e1bd9df8",
-      "title": "曖昧に使っていたAI周りの言葉を理解する",
-      "url": "https://zenn.dev/yoshipon_tech/articles/a51bbfcc068c1f",
-      "publishedAt": "2026-08-10T15:10:24.000Z",
-      "publisher": "よしぽん",
-      "summary": "はじめに 最近仕事でAI利活用が盛んだと思います。ただよくよく話を聞くと。AIが仕様書を作ってくれる。AIがMCPを使って外部システムを触る。AIのコンテキストが足りない。人によってAIという言葉が何を指しているかが変わってきています。 …"
-    },
-    {
-      "id": "69bc6b8f135a",
-      "title": "本番で壊れたAIエージェント — 失敗と対策の実践書",
-      "url": "https://zenn.dev/toyo_lab/books/ai-agent-failures",
-      "publishedAt": "2026-08-10T14:41:49.000Z",
-      "publisher": "Toyo",
-      "summary": "ハードを出荷し実マネーを張る人間が、AIエージェントを本番運用して踏んだ失敗を、製造業の不具合報告書（作りこみ／流出の二軸）で解剖し、再発防止までを示す実践書。v1は失敗台帳（35件）から主要10章を早出しし、更新で拡張。"
-    },
-    {
-      "id": "6e3f6253bc60",
-      "title": "CLAUDE.mdは書いても守られない——ルールが効かなくなる3つの理由と、22件の事故から学んだハーネスエンジニアリング",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-06-074638",
-      "publishedAt": "2026-08-10T14:21:53.000Z",
-      "publisher": "saitoko",
-      "summary": "この記事の要点: CLAUDE.mdや.claude/rules/に「〇〇を確認する」「〇〇は禁止」と書いても、ルールは思ったほど守られない。技術的な理由（テキストのルールは強制力を持たない）・人間側の理由（承認は基本的に通る）・規模の理…"
-    },
-    {
-      "id": "16827d383837",
-      "title": "GoogleがWebサイトを「AI向け」に変え始めた——WebMCPとは何か",
-      "url": "https://zenn.dev/jeong/articles/81970b9adb216d",
-      "publishedAt": "2026-08-10T14:19:13.000Z",
-      "publisher": "田中義正",
-      "summary": "「AIにピザを注文してもらう」と聞くと、AIが画面を見ながら人間のようにクリックしていく姿を想像するかもしれません。 しかし、その方法は意外にも不安定です。ボタンの位置や文言、DOM構造が少し変わるだけで失敗し、画面を何度も読み取るため時…"
-    },
-    {
-      "id": "e9bb6cfe9842",
-      "title": "プロンプト・コンテキスト・ハーネス・ループ: Claude Code に大きなタスクを任せる設計",
-      "url": "https://zenn.dev/mosida/articles/claude-code-large-task-design",
-      "publishedAt": "2026-08-10T14:15:49.000Z",
-      "publisher": "mosida",
-      "summary": "Claude Code に指示を出すと、ファイルを読み、コードを書き、テストを走らせます。小さなタスクであれば、適当な指示でも期待どおりの結果を出してくれます。 タスクが大きくなると、適当な指示ではうまくいかなくなります。指示の解釈が毎回…"
     }
   ],
-  "fetchedAt": "2026-08-10T23:18:17.974Z",
+  "fetchedAt": "2026-08-10T23:59:38.675Z",
   "stale": false,
   "error": null
 }

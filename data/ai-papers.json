@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.04205",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Human evaluation of AI systems and digital products is costly, slow, and difficult to scale. Offline evaluations are mo…",
-      "score": 12
+      "score": 14
     },
     {
       "id": "010f18eed360",
@@ -28,14 +28,6 @@
       "publishedAt": "2026-07-25T00:00:00.000Z",
       "summary": "Activation Oracles (AOs) are language models trained to answer natural-language questions about another model's interna…",
       "score": 10
-    },
-    {
-      "id": "dbc4d2ae1a67",
-      "title": "Efficient Knowledge Distillation for LLMs: Offline Top-K Logits and a Fused Chunked KL Loss",
-      "url": "https://huggingface.co/papers/2608.03796",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "summary": "Small language models are often the only option for deployment under tight latency, cost, and on-premises constraints, …",
-      "score": 9
     },
     {
       "id": "604f20a6e687",
@@ -62,20 +54,20 @@
       "score": 3
     },
     {
-      "id": "16acdd22bc66",
-      "title": "Complementary Matrix-Gated QKAN Fast-Weight Programmers for Quantum Dynamics Forecasting",
-      "url": "https://huggingface.co/papers/2607.27945",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Sequence models must decide what to write into memory and what to retain. In quantum and quantum-inspired sequence lear…",
-      "score": 2
-    },
-    {
       "id": "61225e254e3e",
       "title": "Adversarial Attacks for Good: A Survey of Proactive Protection across the Visual Content Lifecycle",
       "url": "https://huggingface.co/papers/2608.04314",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "summary": "Once visual content enters an AI pipeline, its owner often retains little technical control over how it is used. Legal …",
       "score": 2
+    },
+    {
+      "id": "6d82924d2f5e",
+      "title": "Enfold: Folding World Model Imagination into Predictive Representations for Ultra-Efficient Embodied Control",
+      "url": "https://huggingface.co/papers/2607.26657",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "World generative models are typically used through what they produce: a rendered future, a video-conditioned action, or…",
+      "score": 1
     },
     {
       "id": "f1da39f358cb",
@@ -94,6 +86,14 @@
       "score": 1
     },
     {
+      "id": "16acdd22bc66",
+      "title": "Complementary Matrix-Gated QKAN Fast-Weight Programmers for Quantum Dynamics Forecasting",
+      "url": "https://huggingface.co/papers/2607.27945",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "summary": "Sequence models must decide what to write into memory and what to retain. In quantum and quantum-inspired sequence lear…",
+      "score": 1
+    },
+    {
       "id": "2b16ad87219b",
       "title": "FATE: Frame-Level Audio-Visual Temporal Embedding",
       "url": "https://huggingface.co/papers/2608.01310",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-10T23:18:17.780Z",
+  "fetchedAt": "2026-08-10T23:59:38.588Z",
   "stale": false,
   "error": null
 }
