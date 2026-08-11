@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.09802",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapi…",
-      "score": 38
+      "score": 43
     },
     {
       "id": "2f68f8ac6f23",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.09819",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments a…",
-      "score": 31
+      "score": 35
     },
     {
       "id": "4db0eae28559",
@@ -30,20 +30,12 @@
       "score": 18
     },
     {
-      "id": "623ec655464b",
-      "title": "SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2608.04419",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) provides dense teacher supervision on student-generated trajectories, but standard reverse…",
-      "score": 14
-    },
-    {
       "id": "e866aa0219d5",
       "title": "Motif 3: Technical Report",
       "url": "https://huggingface.co/papers/2608.09119",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "We introduce Motif 3, a decoder-only Mixture-of-Experts language model with 314 billion total parameters and 13.2 billi…",
-      "score": 13
+      "score": 16
     },
     {
       "id": "4ac401c54fde",
@@ -51,15 +43,31 @@
       "url": "https://huggingface.co/papers/2608.02508",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Learning-based memory systems for self-evolving LLM agents face two tightly coupled challenges. First, trajectory-index…",
-      "score": 8
+      "score": 9
     },
     {
-      "id": "ef8b93866267",
-      "title": "Evidence-RL: Towards Evidence-intensive Visual Reasoning",
-      "url": "https://huggingface.co/papers/2608.08021",
+      "id": "4dd9a66c39e5",
+      "title": "Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution",
+      "url": "https://huggingface.co/papers/2608.08311",
       "publishedAt": "2026-08-08T00:00:00.000Z",
-      "summary": "Vision-Language Models (VLMs) should answer from concrete image evidence rather than language priors, dataset shortcuts…",
-      "score": 6
+      "summary": "We present Ouroboros, a self-developing agent harness whose tools, prompts, context assembly, and core implementation i…",
+      "score": 5
+    },
+    {
+      "id": "162a51c41b94",
+      "title": "OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching",
+      "url": "https://huggingface.co/papers/2608.08097",
+      "publishedAt": "2026-08-08T00:00:00.000Z",
+      "summary": "Large language model (LLM) inference serving is increasingly constrained by memory rather than compute. As long-context…",
+      "score": 3
+    },
+    {
+      "id": "5d36b20d3bd8",
+      "title": "Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory",
+      "url": "https://huggingface.co/papers/2608.07169",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Memory systems have shown promise for improving agent performance, but their potential remains largely unexplored for s…",
+      "score": 3
     },
     {
       "id": "027336776527",
@@ -67,14 +75,6 @@
       "url": "https://huggingface.co/papers/2608.09096",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "Large Language Models (LLMs) have driven rapid progress in autonomous agents, yet standard evaluations remain confined …",
-      "score": 3
-    },
-    {
-      "id": "9e960db92dfe",
-      "title": "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues",
-      "url": "https://huggingface.co/papers/2607.26178",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "summary": "Turn-taking is a central component of full-duplex interaction. Which turn-taking behaviors are appropriate varies with …",
       "score": 3
     },
     {
@@ -86,23 +86,23 @@
       "score": 2
     },
     {
-      "id": "6d82924d2f5e",
-      "title": "Enfold: Folding World Model Imagination into Predictive Representations for Ultra-Efficient Embodied Control",
-      "url": "https://huggingface.co/papers/2607.26657",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "World generative models are typically used through what they produce: a rendered future, a video-conditioned action, or…",
+      "id": "ae054ca963ea",
+      "title": "RynnValue: Scaling Robotic Value Foundation Models with Temporal Distance",
+      "url": "https://huggingface.co/papers/2608.09853",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "General-purpose reward models are increasingly the bottleneck for scaling robot learning, yet the recipe for learning v…",
       "score": 1
     },
     {
-      "id": "f1da39f358cb",
-      "title": "CLIP-CC-Bench: Evaluating Paragraph-Level Video Descriptions in Video-Language Models",
-      "url": "https://huggingface.co/papers/2608.04302",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "Benchmarking video-language models has largely focused on short clips and single-sentence metrics, leaving open whether…",
+      "id": "f4bb769f06b2",
+      "title": "Factorized Hypothesis Search for Evidence-to-Taxonomy Retrieval",
+      "url": "https://huggingface.co/papers/2608.06614",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Large-taxonomy retrieval often assumes that the input already expresses the target concept. In many settings, however, …",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-11T03:59:29.913Z",
+  "fetchedAt": "2026-08-11T05:16:01.140Z",
   "stale": false,
   "error": null
 }
