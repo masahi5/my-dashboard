@@ -6,80 +6,8 @@
   "category": "ai",
   "items": [
     {
-      "id": "b4b41b3e96d8",
-      "title": "ループエンジニアリングは、なぜ同じ提案を繰り返すのか",
-      "url": "https://zenn.dev/motimotinotch/articles/f1491bb5b0e0d3",
-      "publishedAt": "2026-08-11T10:26:15.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "アーキテクチャを改善させようとして、エージェントに何周もループを回させたことはないだろうか。最初の数回で、キャッシュ戦略やコンポーネント分割の提案は確かに幅が広がる。しかしその先を回し続けると、提案は新しくならない。既に見た2つ・3つの案…"
-    },
-    {
-      "id": "11c664f3aafb",
-      "title": "双極性障害の私が、AIと一緒にObsidianを「自分を責めない記録システム」に作り替えた話",
-      "url": "https://zenn.dev/window794/articles/37e8539b7a82b6",
-      "publishedAt": "2026-08-11T10:22:17.000Z",
-      "publisher": "かのん",
-      "summary": "! TL;DR（3行まとめ） 双極性障害・ADHD・ASDの自分の脳の仕様を先に明文化してから、Obsidianを設計した 「やることリスト」ではなく「やったことリスト」、習慣トラッカーではなく責めない記録——世間のベストプラクティスは仕…"
-    },
-    {
-      "id": "4397c5f5fa63",
-      "title": "Gemini in BigQueryで自然言語からSQLを生成する実践ガイド【2026年版】",
-      "url": "https://zenn.dev/web_benriya/articles/gemini-bigquery-nl-sql-guide-2026",
-      "publishedAt": "2026-08-11T10:20:32.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに 「BigQueryにデータが蓄積されているのに、SQLが書けないせいで活用できていない」——そんな悩みを抱えるEC事業者やウェブ担当者の方は少なくありません。GA4のデータをBigQueryに連携したものの、いざ分析しようとする…"
-    },
-    {
-      "id": "b28708f9addd",
-      "title": "開発の暗黙知を集約するskillsを作った",
-      "url": "https://zenn.dev/fatricepaddyy/articles/skills-tacit-knowledge",
-      "publishedAt": "2026-08-11T10:20:07.000Z",
-      "publisher": "FatRicePaddyyyy",
-      "summary": "開発の暗黙知とは？ この記事において、開発の暗黙知は例えば以下のようなものです。 コードレビューで「なんとなく気になる」匂いの感覚 「この設計はあとで痛い目を見る」という予感 デバッグで「まずここを疑う」という直感 「うちのチームではこう…"
-    },
-    {
-      "id": "fe09c266cc7a",
-      "title": "Fabric Automation Tool — Microsoft Fabric環境を構築するAI支援自動化ソリューション",
-      "url": "https://zenn.dev/headwaters/articles/a9b4f4729d088e",
-      "publishedAt": "2026-08-11T10:03:39.000Z",
-      "publisher": "Data Impact",
-      "summary": "はじめに Microsoft Fabric は、データエンジニアリング・データウェアハウス・データサイエンス・リアルタイム分析・BI・AI という6つの主要ワークロードを単一の SaaS プラットフォームに統合し、企業のデータ活用のあり方…"
-    },
-    {
-      "id": "337eeaf73c55",
-      "title": "GitHub Issue を「行動 OS」にする ── Life Management Agentという実験",
-      "url": "https://zenn.dev/macksat/articles/01-life-management-agent-github-issue-os",
-      "publishedAt": "2026-08-11T09:46:03.000Z",
-      "publisher": "macksat",
-      "summary": "はじめに ── 情報はあるのに、動けない問題 タスク管理ツール、メモアプリ、ノートアプリ。 いくつも試した。Notion も Obsidian も Todoist も使った。 でも、結局こうなる。 メモは溜まるが、次に何をすればいいか分か…"
-    },
-    {
-      "id": "ef6edd93351d",
-      "title": "AI開発の半分をローカルLLMへ。大きいモデルを選ばず、役割で振り分けた話",
-      "url": "https://zenn.dev/chooser/articles/lc-007-local-llm",
-      "publishedAt": "2026-08-11T09:44:18.000Z",
-      "publisher": "chooser",
-      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 2026年7月30日、社内のAI開発を…"
-    },
-    {
-      "id": "51ed460aa865",
-      "title": "AI記事生成プラットフォームのアーキテクチャを設計する",
-      "url": "https://zenn.dev/avecdogpresence/articles/a567eca88909fe",
-      "publishedAt": "2026-08-11T09:36:54.000Z",
-      "publisher": "Ken",
-      "summary": "検索流入を伸ばしたいのに、オウンドメディアの制作は「思いつきの単発記事」になりがちだった。私はキーワードを拾って文章を書いても、ピラー記事とクラスター記事の関係が弱いせいで、内部リンクの筋が通らず、E-E-A-Tの積み上げも途切れる感覚が…"
-    },
-    {
-      "id": "a71f12595e69",
-      "title": "Claude Code 完璧マスター講座【中級編】——「なんか使いこなせてない」を解決する装備庫",
-      "url": "https://zenn.dev/imu_imu/books/claude-guide",
-      "publishedAt": "2026-08-11T09:33:23.000Z",
-      "publisher": "いむたろ",
-      "summary": "全4冊の『Claude Code 完璧マスター講座』の第2冊。プロンプトの型・CLAUDE.mdの育て方・ターミナルへの引っ越し・スキル・MCP・Claude in Chrome・採点ボット・モデル選び、そして資料作成/リサーチ/コピーラ…"
-    },
-    {
       "id": "62a7602a76a3",
-      "title": "複数LLMを1つの会話で切り替えたい。星合庵が会話中心の構成になるまで",
+      "title": "Dify中心から自作AIチャットへ：会話を切らずにモデルを切り替える「星合庵」",
       "url": "https://zenn.dev/imaginarygate/articles/c7d653f565c92d",
       "publishedAt": "2026-08-11T09:19:19.000Z",
       "publisher": "Mai",
@@ -100,9 +28,81 @@
       "publishedAt": "2026-08-11T09:12:28.000Z",
       "publisher": "ほし",
       "summary": "別々に起動した Claude Code のセッション同士が、相手の名前を指定して伝言を送り合える。そんな機能(セッション間メッセージング)が入りました。公式アカウント @ClaudeDevs が X で発表しています。 https://x…"
+    },
+    {
+      "id": "b9f200f0eafb",
+      "title": "なぜAIで作業を効率化しても、給料が上がらないのか？",
+      "url": "https://zenn.dev/karamage/articles/976a5f8fb0f876",
+      "publishedAt": "2026-08-11T09:09:53.000Z",
+      "publisher": "karamage",
+      "summary": "先月作成したPR作成件数やコミット数は、去年の同じ時期の三倍くらいの量になっているのに、今月の振込予定額は去年とほとんど同じ数字でした。 AIコーディングエージェントのおかげで、生産性は確実に上がってるはずなのに、もらえるお金が増えてない…"
+    },
+    {
+      "id": "f3e4ecc123d6",
+      "title": "AI駆動開発の契約・検証・一貫性を単巻にした話 — コード全文より型を渡す本の設計",
+      "url": "https://zenn.dev/amayann/articles/ai-driven-dev-cursor-creation",
+      "publishedAt": "2026-08-11T08:18:11.000Z",
+      "publisher": "bauhaus",
+      "summary": "本記事について Cursor などのコーディングエージェントでアプリを作っていると、実装の手数は減ります。一方で、「速いのに話が食い違う」「画面ごとに見た目が違う」「動いたので完了にしたら別操作で落ちる」「作った流れのまま自分で合格にする…"
+    },
+    {
+      "id": "1e78058e7c43",
+      "title": "Why We Overthink Text Messages — And How AI Can Help Spot the Bigger P",
+      "url": "https://zenn.dev/dndname/articles/eed63596a943e3",
+      "publishedAt": "2026-08-11T08:03:32.000Z",
+      "publisher": "DnD Name Generator",
+      "summary": "Have you ever stared at the same text message for ten minutes trying to figure out what it really means? What Brandon T…"
+    },
+    {
+      "id": "48f7ef013234",
+      "title": "Comfy CLI・Seedance・FFmpegで中国怪異譚アニメを作った実践フロー",
+      "url": "https://zenn.dev/hrak0x59/articles/comfy-seedance-zhiguai-video-workflow",
+      "publishedAt": "2026-08-11T07:58:46.000Z",
+      "publisher": "hrak0x59",
+      "summary": "中国の故事「邯鄲の夢」を題材に、34秒の縦型AIアニメを作りました。 使ったのは、Comfy CLI、Seedance 1.5 Pro、MiniMax TTS、FFmpegです。この記事ではモデル比較ではなく、実際に最後まで作って分かった…"
+    },
+    {
+      "id": "51fe039716e7",
+      "title": "LLMアプリの「デモでは動くが本番で使えない」を潰す評価設計",
+      "url": "https://zenn.dev/ohmiyamizuki/articles/llm-demo-to-production-eval",
+      "publishedAt": "2026-08-11T07:46:55.000Z",
+      "publisher": "Ohmiya-Mizuki",
+      "summary": "! この記事はFDEの現場からの転載です。 「デモでは完璧に動いたのに、本番投入したら思ったように動かない」。LLMアプリを作っていると、これは驚くほど頻繁に起きる。 原因の多くは、モデルの性能不足ではない。デモを通す評価と、本番で求めら…"
+    },
+    {
+      "id": "af0bc6aaf2cd",
+      "title": "Docker SandboxesでAIエージェントを隔離してみた",
+      "url": "https://zenn.dev/the_exile/articles/docker-sandboxes-ai-agent",
+      "publishedAt": "2026-08-11T07:46:06.000Z",
+      "publisher": "RUI",
+      "summary": "AIエージェントにコードを書かせていると、次第に権限確認を省いて最後まで実行させたくなります。ただし、普段使っているMacでそのまま動かすと、プロジェクト外のファイルやホスト側のDocker、ローカルに保存した認証情報まで操作対象になり得…"
+    },
+    {
+      "id": "97fdc451767f",
+      "title": "クライアントワークでClaude Codeを使う際の運用設計",
+      "url": "https://zenn.dev/ohmiyamizuki/articles/claude-code-client-work",
+      "publishedAt": "2026-08-11T07:42:42.000Z",
+      "publisher": "Ohmiya-Mizuki",
+      "summary": "! この記事はFDEの現場からの転載です。 Claude CodeのようなAIコーディングエージェントを個人開発で使うのと、クライアントワークで使うのとでは、気をつけるべきことがまったく違う。個人開発なら多少雑に扱っても自分が困るだけだが…"
+    },
+    {
+      "id": "d14bf8d98bbe",
+      "title": "責任経路をRuntimeまで作ったら、その外側が残った――RPOSを考え始めた理由",
+      "url": "https://zenn.dev/dantarg/articles/ai-entered-human-responsibility-pathway",
+      "publishedAt": "2026-08-11T07:41:50.000Z",
+      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+      "summary": "こんにちは、小野昭久です。 責任経路について、これまでZennで何本も書いてきました。 最初から今の形が見えていたわけではありません。 責任を一点に固定するだけでは、実際の業務では足りないのではないか。AIは責任を負えないとしても、責任に…"
+    },
+    {
+      "id": "e40876e3b1c8",
+      "title": "コードを1行も書かずに、AI3人と組んで、現場で使えるものを作った話（AI HACK 2026）",
+      "url": "https://zenn.dev/m_go/articles/794869d594e333",
+      "publishedAt": "2026-08-11T07:35:10.000Z",
+      "publisher": "Mari",
+      "summary": "作ったもの 建築・リノベーションの打ち合わせを録音すると、そこから 追加見積が必要な変更 金額に影響しない決定 保留と、その期限 「言った言わない」になりそうな箇所 を仕分けて、施主向け・職人向け・社内保存用の3つの文書 に変えるものです…"
     }
   ],
-  "fetchedAt": "2026-08-11T11:30:21.035Z",
+  "fetchedAt": "2026-08-11T12:24:39.363Z",
   "stale": false,
   "error": null
 }
