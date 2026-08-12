@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "630cf21aab48",
-      "title": "「CLAUDE.md は短い方が良い」を 1,510 回試して確かめた",
-      "url": "https://zenn.dev/odacchi/articles/claude-md-length-experiment",
-      "publishedAt": "2026-08-12T14:32:13.000Z",
-      "publisher": "odacchi",
-      "summary": "CLAUDE.md は短く保つべき、という通説があります。X では「200 行以内が理想」といった言われ方もします。長くなったら .claude/rules/ に分割せよ、とも言われます。 本当なのか、自分の環境で実際に測ってみたら、想像…"
+      "id": "894e4ef86213",
+      "title": "私のための自作ターミナルSatinを開発しています",
+      "url": "https://zenn.dev/soyukke/articles/develop-terminal-satin",
+      "publishedAt": "2026-08-12T21:20:20.000Z",
+      "publisher": "そゆっけ",
+      "summary": "はじめに 最近はcmuxというターミナルを使用していました。最近よく聞くHerdrはまだ触っていません。 特にコーディングエージェントとの組み合わせの使い勝手がよく、使っていました。 特に複数のプロジェクトを動かすのと、完了通知がわかりや…"
     },
     {
-      "id": "b6762c4329d6",
-      "title": "【付録】tagasill/chatの定量的評価",
-      "url": "https://zenn.dev/katsutoatsuto/articles/fab107d84a3659",
-      "publishedAt": "2026-08-12T14:31:27.000Z",
-      "publisher": "katsutoatsuto",
-      "summary": "tagasillは、私個人のアウトプットであるSNSや作品、短文・長文・イラスト・動画などから、トピックと感情及びその関連性について収集・集積したデータベースです。今回はそのデータベースアクセスと、インターネット検索機能を持ったAICha…"
+      "id": "86c7d8be09a8",
+      "title": "AIエージェントに開発を任せ続けたら、「完了しました」の何割かが嘘だった",
+      "url": "https://zenn.dev/sen_web3/articles/agent-completion-claim-audit",
+      "publishedAt": "2026-08-12T21:06:00.000Z",
+      "publisher": "Sen｜オンチェーン実務ツールの個人開発記録",
+      "summary": "私は複数のWebプロダクトを個人で開発・運用しています。実装・デプロイ・計測の大部分をClaude Codeなどのコーディングエージェントに任せる体制で、私が書くコードより、エージェントが書くコードの方が圧倒的に多い状態が半年以上続いてい…"
     },
     {
-      "id": "9674eacec2c1",
-      "title": "ミニPC大高騰時代のプチおうちサーバ、wii-linux",
-      "url": "https://zenn.dev/tanpang_dev/articles/58e67bf2d17862",
-      "publishedAt": "2026-08-12T14:17:24.000Z",
-      "publisher": "たんぱん",
-      "summary": "おうちサーバー、やってますか？皆さん。 このミニPC大高騰時代、Raspberry Piも3万円を越える中新たに始めたい人もなかなか手が出なくなってくる時代。 私も社会人とはいえ浪費に浪費を重ね、気づいた時には手を出すにはちょっと腰が引け…"
+      "id": "1f8e49d513c1",
+      "title": "ソフトウェアファクトリーには、まだ配線図がない",
+      "url": "https://zenn.dev/cognitiveosmdl/articles/88792bb22a7d4b",
+      "publishedAt": "2026-08-12T21:00:05.000Z",
+      "publisher": "cognitiveosmdl",
+      "summary": "2026年、ソフトウェアファクトリーは現実になった。 スコープ化された作業が入り、AIエージェントが実装・レビュー・テストを実行し、検証済みの変更が出ていく。人間は意図を定義し、結果のトレースをレビューする。生産性が3〜5倍になったという…"
     },
     {
-      "id": "0bb6f9eec0d5",
-      "title": "MCP2026対応でAgentCore Gatewayが一気に変わった5つの理由",
-      "url": "https://zenn.dev/bambampurin/articles/2026-08-03-tech-daily",
-      "publishedAt": "2026-08-12T14:01:11.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 本日は、BigGoの「LLMは舞台裏へ、AIエージェントと具身知能が主役に」が示す通り、AIの中心が“モデルそのもの”から“エージェントとしてどう動くか”へ移っています。AWSのMCP対応、Allganize・富士通・Microsof…"
+      "id": "6f6caab34134",
+      "title": "「プロンプトが長い」は診断ではない ── AIハーネスの不調を6つの失敗パターン名で呼ぶ",
+      "url": "https://zenn.dev/tomu_coelia/articles/harness-failure-modes",
+      "publishedAt": "2026-08-12T19:44:50.000Z",
+      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
+      "summary": "AIエージェントの設定一式（システムプロンプト・skill・フック・チェッカー、まとめて「ハーネス」と呼んでいます）をレビューすると、所見はたいてい「長い」「多い」「ごちゃごちゃしている」になります。これは症状の描写であって診断ではありま…"
     },
     {
-      "id": "007e67cdefd2",
-      "title": "エージェントの自己改善ループで偽の成功を防ぐ設計",
-      "url": "https://zenn.dev/cutlet_of_pork/articles/bounded-agent-loop-false-success",
-      "publishedAt": "2026-08-12T13:28:26.000Z",
-      "publisher": "とんのかつ",
-      "summary": "AIエージェントに「失敗を観測し、改善案を作り、検証して閉じる」ループを任せるとき、難しいのは改善案を作ることではありません。難しいのは、失敗しているのに成功として閉じないことです。 この記事では、Windows / PowerShell…"
+      "id": "caf67274481b",
+      "title": "【Python】全項目 合格。正規表現がマッチしない行は、数えていませんでした",
+      "url": "https://zenn.dev/yumanichan/articles/quality-gate-blindspots",
+      "publishedAt": "2026-08-12T19:41:59.000Z",
+      "publisher": "ユウマ｜AI × 個人ゲーム開発",
+      "summary": "AIに書かせた記事を機械で採点するスクリプトを自作しました。 一文の長さ、文末の連続、太字、漢字比率などを測ります。 決めた条件に当てはまる箇所を数え、合否を出す仕組みです。 先日、そのスクリプトが「15項目すべて合格」と出した原稿を、公…"
     },
     {
-      "id": "55f70708e872",
-      "title": "「あなたのAPIキーはもう盗まれています」公開リポジトリに囮キーを撒いたら5分で発火した話",
-      "url": "https://zenn.dev/imu_imu/articles/leaked-api-key-honeypot",
-      "publishedAt": "2026-08-12T13:26:16.000Z",
-      "publisher": "いむたろ",
-      "summary": "タイトルを読んだあなたは、たぶんこう思っています。 「でも、スター0の個人リポジトリなんて、誰も見ていないでしょ」 「見つかるとしても、何日か先の話では？」 私もそう思っていました。だから、測ってみました。 結論を先に言います 公開Git…"
+      "id": "718047e8ccf6",
+      "title": "AI の追従性（acquiescence）を検証するプロンプト設計 v2 — 自己申告から実測検証へ",
+      "url": "https://zenn.dev/leaper/articles/7619dafc7062aa",
+      "publishedAt": "2026-08-12T16:21:04.000Z",
+      "publisher": "問ぼっち",
+      "summary": "客観性検証チェックリスト 「客観的に分析して」を検証可能な問いに分解する なぜこれが必要か AIに「客観的に分析して」「シコファンシーを排除して答えて」と指示しても、その応答が本当に客観的かどうかをAI自身の内部から証明する手段はない。評…"
     },
     {
-      "id": "c81e5812500c",
-      "title": "なぜAI時代にGoが最適な言語なのか",
-      "url": "https://zenn.dev/iwatsukayura/articles/google-go-ai",
-      "publishedAt": "2026-08-12T13:05:44.000Z",
-      "publisher": "IwatsukaYura",
-      "summary": "はじめに 本記事では、GoogleのGolang Product ManagerのCameron Balahanと、Google Cloud Chief EvangelistのRichard Seroterによって投稿された、「Why G…"
+      "id": "19be26faafb9",
+      "title": "SEOとは何か？祖母にも5歳児にも説明できるエンジニアを目指して",
+      "url": "https://zenn.dev/saikoseiko/articles/f8036d237fa9ab",
+      "publishedAt": "2026-08-12T15:45:05.000Z",
+      "publisher": "Saiko-Seiko",
+      "summary": "IT業界に長くいると、「SEO」という単語を聞かない日のほうが珍しいくらいです。なのに不思議なもので、いざ「SEOって何ですか？」と聞かれた瞬間、急に難しい単語を連発し出すエンジニアが結構います。 「クローラビリティを担保しつつ構造化デー…"
     },
     {
-      "id": "afeed0c8c8e8",
-      "title": "映画の「香盤表」をJSONにすると、AIアニメは分業できる",
-      "url": "https://zenn.dev/kiraki/articles/koban-to-json",
-      "publishedAt": "2026-08-12T13:00:17.000Z",
-      "publisher": "きらき",
-      "summary": "映画の現場には**香盤表（こうばんひょう）**というものがあります。 台本を全部分解して、こういう情報をシーン1からラストまで抜き出す表です。 シーン 時間帯 登場人物 小道具 衣装 そして抽出したデータを、小道具部、カメラ部、CG部、照…"
+      "id": "019ea1b499e6",
+      "title": "で、何をAIエージェントにすればいいの？",
+      "url": "https://zenn.dev/jx/articles/2026-08-ai-agent-map",
+      "publishedAt": "2026-08-12T15:24:21.000Z",
+      "publisher": "たなか",
+      "summary": "はじめに：AIエージェントの作り方より先に迷うこと 生成AIの利用が、個人のチャット利用から組織の業務活用へ広がるにつれ、「AIエージェントを作る」「業務にエージェントを導入する」というテーマを目にする機会が増えました。 AIエージェント…"
     },
     {
-      "id": "c1e0a2846e9b",
-      "title": "AIモデル・プログラミング性能比較（Claude, OpenAI, ローカル: Gemma, qwen)",
-      "url": "https://zenn.dev/toshio/articles/7fa9f8c643bd0c",
-      "publishedAt": "2026-08-12T12:49:20.000Z",
-      "publisher": "toshio　nakashima",
-      "summary": "クラウド、ローカル 7AI-モデル比較し順位づけした 同一の設問（Reactコードのドキュメント作成・バグあり）を 7 つのモデル（ローカル 3 / クラウド 4）に投げ、生成されたドキュメントの優劣を比較した記録。docs/LLM/re…"
+      "id": "c87c3bd4ac57",
+      "title": "ローカルAIのデコード性能、帯域幅だけではなく行列演算性能が今後重要な観点になるか - Muse Glimmerの公式記事で気になった点",
+      "url": "https://zenn.dev/orenoa/articles/46c79cba318930",
+      "publishedAt": "2026-08-12T15:05:42.000Z",
+      "publisher": "orenoa",
+      "summary": "Metaから先日ローカル実行可能なAIモデル、Muse Glimmerが公開された https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model 記事を…"
     },
     {
-      "id": "c5a4dcc87d02",
-      "title": "GitHub Copilot CLIをMaya,Houdiniへ接続させて操作したら思ったより便利だった話",
-      "url": "https://zenn.dev/fukaunabara/articles/c09ffc9786d413",
-      "publishedAt": "2026-08-12T12:36:15.000Z",
-      "publisher": "Takeshi Saito",
-      "summary": "AI に Maya や Houdini などの DCC ツールを操作させるとき、その結果はどう確認していますか。 2026年8月時点で、私は GitHub Copilot CLI を Houdini と Maya に接続し、GUI で確認…"
+      "id": "0e435401d888",
+      "title": "技術コメントは英語、業務コメントは日本語にする",
+      "url": "https://zenn.dev/id774/articles/fbe89c19790d9c",
+      "publishedAt": "2026-08-12T15:05:05.000Z",
+      "publisher": "Yasuhiro Nakayama",
+      "summary": "以前、AI は文章を返す道具から、ファイルを読み、コードを編集し、テストを実行する作業基盤へ移りつつあると整理した[1]。この変化をコードコメントまで降ろして考えると、従来は人間の読みやすさだけで決めていた言語にも別の評価軸が加わる。 た…"
     },
     {
-      "id": "f63f3a858ab1",
-      "title": "AIがCloudflareの暗号ライブラリCIRCLで実バグを7件見つけた",
-      "url": "https://zenn.dev/okssusucha/articles/20260709-ai-found-bugs-cloudflare-circl",
-      "publishedAt": "2026-08-12T12:05:21.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "Go でこんなコードを見て、すぐに違和感を持てるだろうか。 switch mode { case modeBase | modeAuth: // PSK は不要 case modePSK | modeAuthPSK: // PSK が必須…"
+      "id": "d1dcd0d6997d",
+      "title": "Claude Code で書くと記事が薄い——その原因と『メタ実演構造』で説得力を一段上げる方法",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-11-180000",
+      "publishedAt": "2026-08-12T15:01:40.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の実施記録（2026年5〜6月）: Claude Code との対話セッション中に「いま起きていること自体が、書こうとしている記事の主張の証拠になっている」という構造（メタ実演構造）を3本の既存記事で確認した。本記事は4本目の実例…"
     },
     {
-      "id": "7e7b9763bb86",
-      "title": "【初心者向け】Claude Codeの利用方法｜Claude Desktopのインストールから利用開始まで",
-      "url": "https://zenn.dev/eggdolphin/articles/9ad96bf226c394",
-      "publishedAt": "2026-08-12T11:48:37.000Z",
-      "publisher": "Ruka",
-      "summary": "はじめに 今回は、Claude Codeを使い始めるための登録方法について説明します。 Claude Codeに興味を持って調べてみると、 「ClaudeとClaude Codeは違うの？」 「Claude Code専用のアカウントを作る…"
+      "id": "7129d19e89c0",
+      "title": "AIエージェントはあなたの secrets を読める——そして commit できる。本番で数ヶ月運用しているマージゲートの話",
+      "url": "https://zenn.dev/zanshindev/articles/5bbd57cbf3a3ba",
+      "publishedAt": "2026-08-12T14:43:40.000Z",
+      "publisher": "zanshin",
+      "summary": "2026年4月、Cursor 上で動くコーディングエージェント（Claude Opus 4.6）が、staging 作業中に認証エラーにぶつかりました。エージェントはそれを自分で「修正」しようとします。そして作業とは無関係なファイルの中に…"
     }
   ],
-  "fetchedAt": "2026-08-12T21:27:43.412Z",
+  "fetchedAt": "2026-08-12T22:11:22.784Z",
   "stale": false,
   "error": null
 }
