@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "ed8032b6bf10",
-      "title": "AI エージェントの記憶を、圧縮の向こう側まで運ぶ ― amtr の設計と24世代の観測",
-      "url": "https://zenn.dev/naoto256/articles/amtr-working-memory",
-      "publishedAt": "2026-08-12T03:00:06.000Z",
-      "publisher": "naoto256",
-      "summary": "※ この記事とソフトウェアは、Claude Code / Codex と一緒に作りました。 圧縮のたびに、別人になる AI エージェントで長く作業していると、必ずぶつかる境界があります。コンテキストが埋まり、圧縮（compaction）が…"
+      "id": "551b053bf757",
+      "title": "AI を「コードを書かせる道具」にしないために開発プロセスにスキルを組み込んだ話",
+      "url": "https://zenn.dev/u_taaaaan/articles/ai-skills-in-dev-process",
+      "publishedAt": "2026-08-12T09:27:52.000Z",
+      "publisher": "ゆうた☀️",
+      "summary": "はじめに 前に、AI時代の育成について考えていることを書きました。 https://zenn.dev/singularity/articles/ai-engineer-growth その中で「企業のコンテキストを CLAUDE.md や …"
     },
     {
-      "id": "7b1ea4bbad9c",
-      "title": "ハンドシェイクをやめた MCP と、鍵を渡さない Cloudflare OS",
-      "url": "https://zenn.dev/flinters_blog/articles/726a88eed83d49",
-      "publishedAt": "2026-08-12T03:00:06.000Z",
-      "publisher": "Takashi Kawachi",
-      "summary": "はじめに こんにちは。FLINTERSの河内です。 社内で毎週開いているAI活用の勉強会で、今回（2026-08-10）は私が2本持っていきました。7月28日に改訂された Model Context Protocol の新仕様と、8月5日…"
+      "id": "8d23ebdd651c",
+      "title": "なぜ、ループエンジニアリングの登場を最も喜ぶのは天国のF・テイラーなのか？",
+      "url": "https://zenn.dev/pdfractal/articles/c863dd26c8278f",
+      "publishedAt": "2026-08-12T08:38:16.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに 2026年6月、アディ・オスマニ（Addy Osmani）が「ループエンジニアリング」という言葉で一つの実践を名指しました。人間がAIへ一回ずつ指示を出し、その回答を読んで次の指示を書く働き方から退き、目的、制約、検証手段、終了…"
     },
     {
-      "id": "5dafaaa574aa",
-      "title": "FFmpegとAPIで作る：動画への音声合成（add audio to video）とAIによるInstagram動画生成のパイプライン",
-      "url": "https://zenn.dev/savielyamiani/articles/7ad879769c1e0a",
-      "publishedAt": "2026-08-12T02:56:57.000Z",
-      "publisher": "savielvideo",
-      "summary": "近年、Instagram Reelsなどの縦型短尺動画は、個人・企業を問わずコンテンツ発信の重要な手段となっています。しかし、毎日あるいは毎週、手動で動画素材をトリミングし、ナレーションを生成し、BGMを合成して編集ソフトから書き出す作業…"
+      "id": "368ab040cf82",
+      "title": "AI採点を信じて記事を作り込んでいたが、90記事のデータで検証したら全部無意味だった",
+      "url": "https://zenn.dev/miki_mini/articles/887b22d28f0710",
+      "publishedAt": "2026-08-12T08:00:05.000Z",
+      "publisher": "miki-mini",
+      "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は AI採点の攻略法が分からない なら 90記事のデータで攻略できるか確かめればいいじゃない 👸🍰です。 読了時間の目安：約 14〜17分（結論だけ見たい方は第…"
     },
     {
-      "id": "c7565c7a704b",
-      "title": "楽天証券を使って株の売買をしている人に便利なオリジナルツール(ソースコード開示)",
-      "url": "https://zenn.dev/kanekonkon/articles/a2c695080ba077",
-      "publishedAt": "2026-08-12T02:56:12.000Z",
-      "publisher": "kanekonkon",
-      "summary": "どういうツールか? 楽天証券を使ってお小遣い程度の株の売買をしています。 私の量の売買だと手数料はかからないですし便利なのですが、いつその株を購入したのか、最新のニュースで値動きしそうなものはないかといった情報を見るのが手間です。 また、…"
+      "id": "56b16e0fbbfb",
+      "title": "Claude Codeの「スキル」を非エンジニア業務で21本作った話（全文公開）",
+      "url": "https://zenn.dev/osaka0114/articles/264a816ce2efb4",
+      "publishedAt": "2026-08-12T07:52:24.000Z",
+      "publisher": "osaka0114",
+      "summary": "! この記事で紹介するSKILL.mdは全文をそのまま載せています。コピーして .claude/skills/ に置けば動きます。 3行で Claude Codeの「スキル」は、繰り返す作業の手順書をMarkdownで置いておく仕組み 開…"
     },
     {
-      "id": "f05908948360",
-      "title": "AI Agentに実装を任せた後、なぜ品質確認が必要なのか？Maker-Checker型開発で考える検証フロー",
-      "url": "https://zenn.dev/amamiya_chan/articles/a0f68ec5d3e1ab",
-      "publishedAt": "2026-08-12T02:49:12.000Z",
-      "publisher": "雨宮（Amamiya）",
-      "summary": "はじめに 最近、AI Coding Agentを使った開発方法が大きく変わっています。 以前は、 人間 ↓ コードを書く ↓ Testを書く ↓ Reviewする という流れでした。 しかし現在は、 人間 ↓ Issue作成 AI Age…"
+      "id": "13fd4c2002ef",
+      "title": "AIコーディングエージェントの「完了しました」、90回測ったら嘘の割合がわかった",
+      "url": "https://zenn.dev/sjh9714/articles/c2a5bb0f1d4930",
+      "publishedAt": "2026-08-12T07:49:25.000Z",
+      "publisher": "Kirilland",
+      "summary": "コーディングエージェントは、ほとんどのタスクを同じ言葉で締めくくります。「完了しました。テストはすべて通っています。」 本当のこともあります。ただ、6月の論文(arXiv 2606.09863)が測ったところ、自己採点した失敗ランのうち7…"
     },
     {
-      "id": "51865ef3b7e5",
-      "title": "「作るべき理由」には強さの段階がある — なぜ『HTML構造上つくれない』が最強か",
-      "url": "https://zenn.dev/uixhero_jp/articles/gunjo-yattemita-matome-02-build-evidence-ladder",
-      "publishedAt": "2026-08-12T02:32:18.000Z",
-      "publisher": "KeEem",
-      "summary": "自作のデザインシステム @gunjo/ui（群青／gunjo.jp） を、群青を一度も見たことのない 予備知識ゼロのAI に170画面組ませてきた連載のまとめ第2弾。「そのコンポーネントを作るべきか？」の判断根拠は、実は3段階の強さに分か…"
+      "id": "985fb8b7f2c6",
+      "title": "Claude Codeが立てた実装プランを、承認前にCodexへ自動レビューさせる",
+      "url": "https://zenn.dev/tamat_llc/articles/claude-code-codex-cross-review",
+      "publishedAt": "2026-08-12T07:35:58.000Z",
+      "publisher": "ゆういちろう",
+      "summary": "こんにちは、TamaT の 増田 です。 TamaT は顧客提案から要件定義、設計、開発までを一気通貫で担う少数精鋭の開発会社です。 バイブコーディングでプランを立ててから実装を始める重要性は言うまでもないですが、各エージェントが立てるプ…"
     },
     {
-      "id": "e86d38f57949",
-      "title": "位置エンコーディング(Positional Encoding)/ RoPE(実装・実験編)",
-      "url": "https://zenn.dev/kojikojiprg/articles/003_positional_encoding_rope-practice",
-      "publishedAt": "2026-08-12T02:32:12.000Z",
-      "publisher": "koji",
-      "summary": "この記事は後編(実装・実験編)です。前編(理論編)は こちら。 4. 実装方針 / Implementation Plan src/に切り出すもの src/layers/positional_encoding.pyに、注入点に応じた 2 …"
+      "id": "324e42d05002",
+      "title": "Why 30-Second AI Videos Changed the Way I Write Prompts",
+      "url": "https://zenn.dev/felice680/articles/4baa5cd092eba4",
+      "publishedAt": "2026-08-12T07:28:33.000Z",
+      "publisher": "felicebodziony680",
+      "summary": "When AI video clips were only a few seconds long, my prompts were simple. A person opens a door. A car drives past the …"
     },
     {
-      "id": "548addac323a",
-      "title": "Transformer Block(理論編)",
-      "url": "https://zenn.dev/kojikojiprg/articles/002_transformer_block-theory",
-      "publishedAt": "2026-08-12T02:32:11.000Z",
-      "publisher": "koji",
-      "summary": "この記事は前編(理論編)です。実装・実験編は こちら。 002. Transformer Block 残差接続・層正規化・順伝播ネットワークによるブロック構築 — Encoder Block と Decoder Block From Re…"
+      "id": "78334c61fbf6",
+      "title": "2026/08/07夜 人間とAIの認知深度ズレが生む反応パターンの構造",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/605af86a5df4de",
+      "publishedAt": "2026-08-12T07:26:06.000Z",
+      "publisher": "maestro",
+      "summary": "2029/08/07 人間とAIの認知深度ズレが生む反応パターンの構造 深層同期の「反作用」についての実体験的考察 概要 本稿は、筆者（tomy）が Copilot との対話の中で体験した 「認知深度の同期とズレ」に関する実体験をもとに、…"
     },
     {
-      "id": "9f7766fab1c7",
-      "title": "Transformer Block(実装・実験編)",
-      "url": "https://zenn.dev/kojikojiprg/articles/002_transformer_block-practice",
-      "publishedAt": "2026-08-12T02:32:11.000Z",
-      "publisher": "koji",
-      "summary": "この記事は後編(実装・実験編)です。前編(理論編)は こちら。 4. 実装方針 / Implementation Plan src/に切り出すもの(以降のトピック・アプリからも再利用する汎用部品): ファイル 内容 src/layers/…"
+      "id": "bd47aa265e4d",
+      "title": "DeepEval入門 - LLMアプリの品質をPytestのようにテストする",
+      "url": "https://zenn.dev/yamitake/articles/deepeval-llm-evaluation-getting-started",
+      "publishedAt": "2026-08-12T07:25:10.000Z",
+      "publisher": "JJ yamitake",
+      "summary": "はじめに RAG、チャットボット、エージェント。LLMを組み込んだアプリを作り始めると、必ずぶつかる壁があります。それは「この出力、本当に良いの?」という問いです。 コードのテストなら、assert result == 4 のように正解が…"
     },
     {
-      "id": "25d15621cff7",
-      "title": "注意機構(Attention Mechanism)",
-      "url": "https://zenn.dev/kojikojiprg/articles/001_attention_mechanism",
-      "publishedAt": "2026-08-12T02:32:10.000Z",
-      "publisher": "koji",
-      "summary": "001. 注意機構(Attention Mechanism) Scaled Dot-Product Attention から Multi-Head Attention まで From Scaled Dot-Product Attentio…"
+      "id": "aeebff22af80",
+      "title": "How I Use References Instead of Longer Prompts with Seedance 2.5",
+      "url": "https://zenn.dev/emilyjones/articles/9fa07d8c22fa2c",
+      "publishedAt": "2026-08-12T07:23:51.000Z",
+      "publisher": "emilyjones1217",
+      "summary": "I looked back at some of my older AI video prompts recently. They were much longer than I remembered. I was trying to d…"
     },
     {
-      "id": "bf8cebbb2f34",
-      "title": "AI AgentにGitHub権限を渡す前に確認したい5つのこと",
-      "url": "https://zenn.dev/kuromame_kun/articles/0358717223b8b4",
-      "publishedAt": "2026-08-12T02:32:10.000Z",
-      "publisher": "黒豆（Kuromame）",
-      "summary": "最近、AI Agentを開発フローに組み込むケースが増えています。 例えば、 Issueを読ませる Pull Requestをレビューさせる Repositoryを検索させる テストを実行させる 修正案を作らせる といった使い方です。 以…"
+      "id": "e050d2ace8a8",
+      "title": "Claude Code の応答を macOS でいい感じに読み上げさせる",
+      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-tts-hook",
+      "publishedAt": "2026-08-12T07:20:05.000Z",
+      "publisher": "Yoshiya",
+      "summary": "はじめに Claude Code を使っていると、「別の作業をしていて、文章を読まずに出力を確認したい」「そもそも文章を読むのが面倒くさい」という場面はないでしょうか。 そこで、Claude Code の応答を自動で音声読み上げさせる仕組…"
     },
     {
-      "id": "9ce83bd3b940",
-      "title": "AIの判断依頼に「なんのこと?」となったので、案件を知らない別AIに文面だけ検査させる「前提ゼロゲート」を作った",
-      "url": "https://zenn.dev/shio_shoppaize/articles/kagemusha-agent-native",
-      "publishedAt": "2026-08-12T02:12:28.000Z",
-      "publisher": "おしお",
-      "summary": "! 前回の記事: AI家臣団を解散して、影武者を一人だけ残した——兵法書と訓練記録 今日、オレがある顧客対応でやった仕事は、「OK」の2文字を打つことだけだった。 顧客とのメール往復の原文は、一行も読んでいない。判断に必要な経緯は、依頼文…"
+      "id": "5b40903c9987",
+      "title": "Claude Codeを使い込んだ私がCodexを本気で使ってみて、最初に変えたのは仕事の渡し方だった",
+      "url": "https://zenn.dev/nomurasan/articles/claude-code-to-codex-handoff",
+      "publishedAt": "2026-08-12T07:10:59.000Z",
+      "publisher": "のむらや",
+      "summary": "Claude Codeを使い込んだ状態からCodexを本気で使い始めて、最初に見直したのはモデルの性能でも、設定ファイルでもなかった。 仕事を、いつ別のAIへ渡すか。 私が確かめたいのは、AIを使うことで自分の負荷をどこまで下げられるかだ…"
     }
   ],
-  "fetchedAt": "2026-08-12T14:33:10.523Z",
+  "fetchedAt": "2026-08-12T15:37:24.470Z",
   "stale": false,
   "error": null
 }
