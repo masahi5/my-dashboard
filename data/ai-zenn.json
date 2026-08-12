@@ -6,6 +6,62 @@
   "category": "ai",
   "items": [
     {
+      "id": "4362169a8a34",
+      "title": "Agent は二つに分かれていく：Pet と Cattle",
+      "url": "https://zenn.dev/yevanchen/articles/d75ccb82165a93",
+      "publishedAt": "2026-08-11T17:01:53.000Z",
+      "publisher": "Evan Chen",
+      "summary": "Agent は最終的に二つに分かれていく。私はそう考えるようになった。 これは同じ製品の軽量版と重量版ではなく、自律性の高低でもない。人々が期待しているもの自体が違う。一方には「誰か」になることを期待し、もう一方には、ある種類の仕事を終え…"
+    },
+    {
+      "id": "fabf10207cf5",
+      "title": "Upstage Studio で保険書類の一次審査エージェントを作ってみた",
+      "url": "https://zenn.dev/nhandsome/articles/upstage-studio-insurance-agent",
+      "publishedAt": "2026-08-11T16:36:09.000Z",
+      "publisher": "Nhandsome",
+      "summary": "本記事は、Upstage の社員が自社製品「Upstage Studio」を実際に使用して記録した内容です。 ! 3行まとめ 架空の損害保険会社のシナリオを立て、架空の審査業務の要件を Upstage Studio で自動化した ノード構…"
+    },
+    {
+      "id": "93c1dda2fb5d",
+      "title": "Claude Code hooksでAIエージェントの作業をリアルタイムに可視化する",
+      "url": "https://zenn.dev/alzcb4/articles/8a5ce86949b7ff",
+      "publishedAt": "2026-08-11T16:03:14.000Z",
+      "publisher": "テト",
+      "summary": "AIに作業を投げたあと、「今なにをしているか」が見えなくなることがあります。ターミナルには文字が流れますが、人間が追い続けるのは可視化とは言いにくいです。ファイル編集、シェル実行、別エージェントへの委譲が混ざると、「誰が何をしているのか」…"
+    },
+    {
+      "id": "bb38a0e6a727",
+      "title": "未読1000件から始めた、自分専用の秘書づくり ―― 身近な繰り返し作業を自動化してみた",
+      "url": "https://zenn.dev/yucco/articles/personal-ai-secretary-automation",
+      "publishedAt": "2026-08-11T15:52:35.000Z",
+      "publisher": "Komugi（Yuki）",
+      "summary": "! この記事は、個人利用のために構築した自動化の体験談です。実行方針や設定内容は、当時の環境や試行錯誤に基づくものであり、参考程度にお読みください。 はじめに Gmail の未読が、気づけば 1000 件を超えていました。 必要なメールが…"
+    },
+    {
+      "id": "9003878c109d",
+      "title": "ローカルAIに永続記憶を与えた初日、3回騙された",
+      "url": "https://zenn.dev/satoshiakiyama/articles/bf620f6a0b018b",
+      "publishedAt": "2026-08-11T15:49:28.000Z",
+      "publisher": "satoshiakiyama",
+      "summary": "自宅のPCで、14BのローカルLLMを「研究・制作の常在オペレーター」に育てる計画を 始めた。初日にやったことは3つ — 永続記憶を与え、自分の状態を自分で読む手を 与え、毎朝自分の欠点を1つ直す習慣を仕込んだ。 そして初日のうちに、3回…"
+    },
+    {
+      "id": "f0f706ce7622",
+      "title": "私が考えるAI協働の中核理論 —— 判断を未来へ渡すループ",
+      "url": "https://zenn.dev/frb_tamasub/articles/ai-collaboration04-humanintheloop",
+      "publishedAt": "2026-08-11T15:04:42.000Z",
+      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
+      "summary": "私が考えるAI協働の中核理論 —— 判断を未来へ渡すループ 「……あれ？ 俺が考えてきたAI協働って、自己組織化なんじゃない？」 今日、そんなことを思った。 ただし、この記事は「自己組織化とは何か」を解説する記事ではない。 そもそも私は、…"
+    },
+    {
+      "id": "961bd8df8578",
+      "title": "GNSS初心者向けの教材をClaude Codeに作ってもらった",
+      "url": "https://zenn.dev/gnss_egg_team/articles/535d26f2e3a341",
+      "publishedAt": "2026-08-11T15:04:17.000Z",
+      "publisher": "キクタロー",
+      "summary": "GNSSの世界に足を踏み入れて、もうすぐ1年。これまで学んだことや壁に感じたことをClaude Codeに伝えて、初学者向けの「GNSS Study」なるページを作りました（作ってもらいました？）。 https://gnss-study.…"
+    },
+    {
       "id": "10c6f4b1228b",
       "title": "Claude Codeで動かすAIエージェント組織はなぜ楽しいのか――速いのは問題解決ではなく「1往復」だった",
       "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-07-220934",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-08-11T14:08:36.000Z",
       "publisher": "nonchan7720",
       "summary": "テストが落ちたまま「完了しました」と言われる問題 Claude Code に PostToolUse hook で lint とテストを仕込んでいる人は多いと思います。ファイルを編集した直後にそのパッケージのテストを流す、というやつです。…"
-    },
-    {
-      "id": "b8ba45d2fd11",
-      "title": "「おはよう」1回 = 5時間制限の7%！？ — 挨拶3トークンの裏で送られる数万トークンの話",
-      "url": "https://zenn.dev/honeymarron/articles/claude-code-context-diet",
-      "publishedAt": "2026-08-11T14:04:58.000Z",
-      "publisher": "honeymarron",
-      "summary": "Claude Code に「おはよう」と送っただけで、5時間枠の残量が7%減っていた——そんな経験はないでしょうか。長い会話をしたわけでも、大きなファイルを扱わせたわけでもない。それなのに大して作業しないまま利用上限に達し、週の途中で週次…"
-    },
-    {
-      "id": "5103420749ad",
-      "title": "Antigravity CLIを使って無料でゲーム開発",
-      "url": "https://zenn.dev/yurinchi/articles/f289ab5cee478f",
-      "publishedAt": "2026-08-11T13:45:05.000Z",
-      "publisher": "ゆーりんちぃ",
-      "summary": "はじめに 前回の記事ではClaude Cpde を利用してゲーム開発をしました。 今回の記事ではAntigravity CLIを利用してゲーム開発をしてみようと思います。 関連の記事 Claude Codeを利用したゲーム開発については前…"
-    },
-    {
-      "id": "7ed7f2c3791d",
-      "title": "実務エンジニアがSOAで運用力を底上げした話 〜間違えた問題をAIと資産化する3週間の合格体験記〜",
-      "url": "https://zenn.dev/kh_penzen/articles/1167849749d684",
-      "publishedAt": "2026-08-11T13:41:36.000Z",
-      "publisher": "kh_penzen",
-      "summary": "はじめに 普段はフルスタックエンジニア（4年目）として、インフラ構築からバックエンド・フロントエンド開発まで幅広く担当しています。 すでにAWSの認定資格としては CLF / SAA / DVA / SCS / SAP を取得しており、ア…"
-    },
-    {
-      "id": "b14019bcdc46",
-      "title": "Claude CodeにCONTEXT.mdとSPEC.mdとADRを書かせると、途中で破綻しなくなる",
-      "url": "https://zenn.dev/reona777/articles/context-spec-adr-for-claude-code",
-      "publishedAt": "2026-08-11T13:40:14.000Z",
-      "publisher": "reona777",
-      "summary": "教育系の事業所で現場の運営をしています。エンジニアではありません。2026年の春から Claude Code で社内ツールを作り始めて、5か月で6本を本番稼働させました。 最初の記事で「コードより先に言葉を決めさせた」と書き、次の記事の最…"
-    },
-    {
-      "id": "5ebd57a56a2a",
-      "title": "長い仕事は「切れ目」で割る — 文脈を捨てるための工程分割3基準",
-      "url": "https://zenn.dev/tejunya/articles/a046_kotei-bunkatsu",
-      "publishedAt": "2026-08-11T13:10:05.000Z",
-      "publisher": "手順屋",
-      "summary": "「その前提、さっき説明しましたよね」を今日も打った。 新しいセッションを開くたび、本題に入る前に経緯を10行書いている。 長い仕事ほど、後半の精度が落ちていく。 対策として「セッションを切る」はもう知られている。だがあれは、崩れてから打つ…"
-    },
-    {
-      "id": "8ac7f282dea7",
-      "title": "AIが「仕事をする」時代に、エンジニアの仕事はどうなるのか",
-      "url": "https://zenn.dev/saikoseiko/articles/d576e886cc0d00",
-      "publishedAt": "2026-08-11T12:31:05.000Z",
-      "publisher": "Saiko-Seiko",
-      "summary": "ここ1〜2年、ソフトウェア開発の現場が体感レベルで様変わりした。そう感じている人、実は結構多いんじゃないだろうか。 少し前まで、開発の流れといえばこうだった。要件定義書を読み込んで、設計して、コードを書いて、テストケースを作って、レビュー…"
-    },
-    {
-      "id": "d15f5d7d9a54",
-      "title": "「あの人なら？」を4件から集める――意思決定RAGのExcelづくり",
-      "url": "https://zenn.dev/hobomokha/articles/decision-rag-collect-episodes",
-      "publishedAt": "2026-08-11T12:03:29.000Z",
-      "publisher": "hobomokha",
-      "summary": "連載「小さく作る意思決定RAG」の第1回。 前回は、ローカルPCで最小のRAGを動かした。今回は、そのRAGへ入れる判断エピソードを4件だけ作る。 はじめに：「本人っぽい答え」は、どこから生まれるのか 事業や組織を次の世代へ引き継ぐとき、…"
     }
   ],
-  "fetchedAt": "2026-08-11T23:59:16.249Z",
+  "fetchedAt": "2026-08-12T02:30:42.179Z",
   "stale": false,
   "error": null
 }
