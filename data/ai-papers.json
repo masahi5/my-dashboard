@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.10915",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "After an older adult misses a medication dose, a software agent can send another reminder and an embodied agent can bri…",
-      "score": 33
+      "score": 40
     },
     {
       "id": "ec191be36f1d",
@@ -19,7 +19,15 @@
       "url": "https://huggingface.co/papers/2608.10299",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "Agentic systems are increasingly expected to improve after deployment, yet single-entity self-evolution is often bounde…",
-      "score": 13
+      "score": 23
+    },
+    {
+      "id": "1377cc02a25e",
+      "title": "AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss",
+      "url": "https://huggingface.co/papers/2608.11205",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Fréchet distance has recently emerged as an effective distribution-level objective for generator post-training, complem…",
+      "score": 7
     },
     {
       "id": "c637c8b8d945",
@@ -30,28 +38,36 @@
       "score": 6
     },
     {
-      "id": "f03c09840d02",
-      "title": "Mendel Gödel Machine: Recursive Self-Improving Coding Agents via Comparative Evolution",
-      "url": "https://huggingface.co/papers/2608.07645",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Self-improving coding agents that iteratively rewrite their own source code have demonstrated impressive performance on…",
-      "score": 6
-    },
-    {
       "id": "aee762f8cef8",
       "title": "SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure",
       "url": "https://huggingface.co/papers/2608.11079",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes. Over time, the sa…",
+      "score": 4
+    },
+    {
+      "id": "ded8ff4aaf24",
+      "title": "Reference-Free Post-Training of Open Large Language Models for Multilingual Machine Translation",
+      "url": "https://huggingface.co/papers/2608.10812",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "We study reference-free post-training for multilingual machine translation with open large language models. Starting fr…",
       "score": 3
     },
     {
-      "id": "930de9786688",
-      "title": "VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World?",
-      "url": "https://huggingface.co/papers/2608.10875",
+      "id": "bd6e3fbe3ac7",
+      "title": "DistilVDR: A Compact End-to-End Visual Document Retriever via Dual-Student Distillation",
+      "url": "https://huggingface.co/papers/2608.10636",
       "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents are increasingly deployed as personal assistants. Existing evaluations, however, most…",
-      "score": 3
+      "summary": "Visual document retrieval (VDR) is dominated by multi-billion-parameter models that are slow to index at full corpus sc…",
+      "score": 2
+    },
+    {
+      "id": "17baf39174b1",
+      "title": "Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents",
+      "url": "https://huggingface.co/papers/2608.08389",
+      "publishedAt": "2026-08-09T00:00:00.000Z",
+      "summary": "Long-horizon research agents solve open-ended tasks through iterative retrieval, aggregation, and synthesis, but contex…",
+      "score": 2
     },
     {
       "id": "76fa3132ecaf",
@@ -62,28 +78,12 @@
       "score": 2
     },
     {
-      "id": "49c043e47baf",
-      "title": "SPIEval: Evaluating Large Language Models as Mobile Assistants over Scattered Personal Information",
-      "url": "https://huggingface.co/papers/2608.10692",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Large language models (LLMs) are increasingly deployed as mobile assistants, where a key challenge is leveraging person…",
-      "score": 2
-    },
-    {
-      "id": "ded8ff4aaf24",
-      "title": "Reference-Free Post-Training of Open Large Language Models for Multilingual Machine Translation",
-      "url": "https://huggingface.co/papers/2608.10812",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "We study reference-free post-training for multilingual machine translation with open large language models. Starting fr…",
-      "score": 1
-    },
-    {
       "id": "bfb3461ccf37",
       "title": "TSDS-Toolbox: A Toolbox for Measuring Time-Series Dataset Similarity",
       "url": "https://huggingface.co/papers/2608.08119",
       "publishedAt": "2026-08-08T00:00:00.000Z",
       "summary": "The rapid advancement of artificial intelligence (AI) has significantly accelerated research in time-series analysis, p…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "979158533e66",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-12T04:26:49.055Z",
+  "fetchedAt": "2026-08-12T05:55:35.848Z",
   "stale": false,
   "error": null
 }
