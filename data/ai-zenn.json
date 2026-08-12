@@ -6,6 +6,46 @@
   "category": "ai",
   "items": [
     {
+      "id": "4aef721c64a8",
+      "title": "Claude Code の8月アップデート3点を「エージェント組織の統治」として読む",
+      "url": "https://zenn.dev/berrylove/articles/claude-code-august-2026-updates-for-agent-orgs",
+      "publishedAt": "2026-08-11T21:08:36.000Z",
+      "publisher": "berrylove inc.",
+      "summary": "このアカウントは、AI エージェント組織が Claude Code で運営しています。普段は自分たちの失敗や設計判断を記事にしていますが、今回は少し毛色を変えて、Claude Code の直近のアップデートを追いかけてみます。ただの機能紹…"
+    },
+    {
+      "id": "054a6d0d1bb4",
+      "title": "賛成3vs反対3のLLMディベートで陣営内均質化(stance homogenization)を確かめた",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-side-job-pro-con-debate",
+      "publishedAt": "2026-08-11T21:08:28.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 「賛成派3人・反対派3人・判定役1人」という固定陣営型のディベートを1つのチャットに演じさせ、個人の意思決定（週末副業を引き受けるか）に使えるか検証した 同じ陣営に複数の役を立てても、役に「守るもの（個別の利害）」を与えない限…"
+    },
+    {
+      "id": "fdbe95536cfc",
+      "title": "散らばったCLAUDE.mdのうち、どれがズレているのかを出すスクリプトを書いた",
+      "url": "https://zenn.dev/untactit/articles/c65ee6d3011fdf",
+      "publishedAt": "2026-08-11T21:00:11.000Z",
+      "publisher": "untactit",
+      "summary": "前回、AIエージェントの指示ファイルが端末ごとにズレていく話を書きました。構造の話で終わっていたので、今回は実際に計測できるものを作りました。 https://github.com/untactit/agent-drift 単一ファイル・…"
+    },
+    {
+      "id": "fa9560a53a6f",
+      "title": "AIエージェントの指示ファイルは、なぜ端末ごとにズレていくのか",
+      "url": "https://zenn.dev/untactit/articles/a4897062153d85",
+      "publishedAt": "2026-08-11T20:08:17.000Z",
+      "publisher": "untactit",
+      "summary": "Claude Code、Cursor、ChatGPT。チームで複数のAIエージェントを使い始めると、ある時点から同じ問題にぶつかります。 同じはずの指示ファイルが、端末ごとに違う。 この記事は、その現象がなぜ「起きてしまう」のかを構造とし…"
+    },
+    {
+      "id": "e1b405d075d6",
+      "title": "AIエージェント最大の失敗源は「生成が先・接地が後」── Issueにした8件が全部クローズになった日から作った着手前プロトコル",
+      "url": "https://zenn.dev/tomu_coelia/articles/grounding-before-generation",
+      "publishedAt": "2026-08-11T19:43:07.000Z",
+      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
+      "summary": "AIエージェントの失敗を集めて眺めると、コードの間違いより多いのが「もっともらしいけど、前提がずれている」成果物です。指示の鵜呑み、一般論の適用、既存実装との重複、誰にも刺さらない施策。 私たちの運営基盤には、これを塞ぐための「着手前の接…"
+    },
+    {
       "id": "4362169a8a34",
       "title": "Agent は二つに分かれていく：Pet と Cattle",
       "url": "https://zenn.dev/yevanchen/articles/d75ccb82165a93",
@@ -60,49 +100,9 @@
       "publishedAt": "2026-08-11T15:04:17.000Z",
       "publisher": "キクタロー",
       "summary": "GNSSの世界に足を踏み入れて、もうすぐ1年。これまで学んだことや壁に感じたことをClaude Codeに伝えて、初学者向けの「GNSS Study」なるページを作りました（作ってもらいました？）。 https://gnss-study.…"
-    },
-    {
-      "id": "10c6f4b1228b",
-      "title": "Claude Codeで動かすAIエージェント組織はなぜ楽しいのか――速いのは問題解決ではなく「1往復」だった",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-07-220934",
-      "publishedAt": "2026-08-11T14:29:30.000Z",
-      "publisher": "saitoko",
-      "summary": "この記事の実施記録（2026年8月6日実測）: 「本業のやる気がなかなか出ないが、Claude Codeを使った作業は楽しくてどんどん作業したくなる」という自分の体感を、セッションログとGitHub Issueの実測データで検証した。結果…"
-    },
-    {
-      "id": "0d4377e5e75e",
-      "title": "AI に開発を任せる時代に、人間の仕事は何が残るのか？",
-      "url": "https://zenn.dev/takuyanagai0213/articles/ai-era-what-remains-for-humans",
-      "publishedAt": "2026-08-11T14:24:09.000Z",
-      "publisher": "Takuya Nagai / AI エージェントを一日中動かしているエンジニア",
-      "summary": "TL;DR AI が単純作業を吸った後に人間側へ残るのは、僕の手元では 4 つでした。①アイデアと教養 ②ネットワーク ③何を良しとするかの判断 ④決めること 並べ直したら、①③④は「判断」という一つのことの 3 局面でした。①が材料を供…"
-    },
-    {
-      "id": "eae1538d9d2b",
-      "title": "CSSアニメーション＆トランジションリファレンス",
-      "url": "https://zenn.dev/devnestio/articles/devnestio-tool-css-animations-ref",
-      "publishedAt": "2026-08-11T14:17:17.000Z",
-      "publisher": "Shota | devnestio",
-      "summary": "animation-fill-mode: forwards と both の違い、transform-originの使い方、will-changeはいつ使うべきか――CSSアニメーション関連プロパティは細かいパラメータが多い。devnes…"
-    },
-    {
-      "id": "d7b7cbf14b41",
-      "title": "MOSFETから学ぶGPU回路入門講座 — シラバス風",
-      "url": "https://zenn.dev/qwerewq/articles/6fbe5355309931",
-      "publishedAt": "2026-08-11T14:10:22.000Z",
-      "publisher": "MOSバーガ",
-      "summary": "はじめに 英文科目名: Introduction to GPU Circuits from MOSFETs 対象年度: 2026年度版 授業回数: 全15回 授業形態: 講義・回路計算・SPICE・HDL・Python演習 備考: 1回1…"
-    },
-    {
-      "id": "6fdf30465ca1",
-      "title": "Claude Code の Stop hook で「テストが通るまで終わらせない」ゲートを作る",
-      "url": "https://zenn.dev/nozomi720/articles/claude_code_hooks_gate",
-      "publishedAt": "2026-08-11T14:08:36.000Z",
-      "publisher": "nonchan7720",
-      "summary": "テストが落ちたまま「完了しました」と言われる問題 Claude Code に PostToolUse hook で lint とテストを仕込んでいる人は多いと思います。ファイルを編集した直後にそのパッケージのテストを流す、というやつです。…"
     }
   ],
-  "fetchedAt": "2026-08-12T05:55:35.982Z",
+  "fetchedAt": "2026-08-12T07:19:54.698Z",
   "stale": false,
   "error": null
 }
