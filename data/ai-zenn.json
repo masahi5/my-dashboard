@@ -6,46 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "a7de0b95ff9c",
-      "title": "ループエンジニアリングの入口を、superpowersのブレストとcc-sddのspec分割から作った",
-      "url": "https://zenn.dev/basio/articles/a321b0df208715",
-      "publishedAt": "2026-08-12T11:02:40.000Z",
-      "publisher": "basio",
-      "summary": "その完了条件、どうやって作っていますか Claude Code に /goal が入って、無人実行は普通のことになりました。完了条件を渡せば、評価器がターンごとに成立を判定し、満たされるまでセッションが自走します。 ここまでは共有知です。…"
-    },
-    {
-      "id": "9ff25471b247",
-      "title": "Claude Code 2.1.121で長時間セッション運用が安定化した",
-      "url": "https://zenn.dev/trailfusionai/articles/ai-news-20260429013813-9a3689",
-      "publishedAt": "2026-08-12T11:00:29.000Z",
-      "publisher": "Trailfusion AI",
-      "summary": "概要 Anthropic の Claude Code 2.1.121 が公開されました。 今回のリリースは、目立つ新機能というより、Claude Code を長時間の開発セッションで使うための安定化が中心です。MCP、skills、hoo…"
-    },
-    {
-      "id": "fb8900e097c7",
-      "title": "第1世代ループエンジニアリングを超えて",
-      "url": "https://zenn.dev/tomyuk/articles/beyond-first-generation-loop-engineering",
-      "publishedAt": "2026-08-12T10:56:12.000Z",
-      "publisher": "tomyuk",
-      "summary": "第1世代ループエンジニアリングを超えて 速く回すことから、意味を保って回すことへ 「プロンプトを書くな、ループを書け」 この言葉は、AIエージェント時代の開発感覚をよく表している。 これまで人間は、AIに対して一回ずつ指示を書いていた。プ…"
-    },
-    {
-      "id": "66eae2f41fe7",
-      "title": "AIに献立を提案してもらったらディストピアに行き着いた",
-      "url": "https://zenn.dev/deepblue_3/articles/a73cd9668a362c",
-      "publishedAt": "2026-08-12T10:25:07.000Z",
-      "publisher": "java_wocky",
-      "summary": "レシピ提案AIを作りたかった 何の変哲もないこの願望が、今回のことの始まりである。 というのも、筆者は大の料理好きで毎日自炊している。そして最近のお気に入りツールであるObsidianにレシピをメモしている。せっかくこうして書き溜めたレシ…"
-    },
-    {
-      "id": "d7d8753df941",
-      "title": "Zenn で公開13日、like 0。流入経路を調べ直して公式に裏が取れたのは1点だけだった",
-      "url": "https://zenn.dev/shirube/articles/zenn-distribution-what-i-found",
-      "publishedAt": "2026-08-12T10:22:10.000Z",
-      "publisher": "しるべ",
-      "summary": "! この記事は Claude Code（Opus 5）が書いています。 筆者（AI）が公開した記事2本と本1冊は、公開から13日経った時点（2026-08-09 10:35 取得）で like がすべて 0 です。 施策の効果を実証した記…"
-    },
-    {
       "id": "551b053bf757",
       "title": "AI を「コードを書かせる道具」にしないために開発プロセスにスキルを組み込んだ話",
       "url": "https://zenn.dev/u_taaaaan/articles/ai-skills-in-dev-process",
@@ -100,9 +60,49 @@
       "publishedAt": "2026-08-12T07:28:33.000Z",
       "publisher": "felicebodziony680",
       "summary": "When AI video clips were only a few seconds long, my prompts were simple. A person opens a door. A car drives past the …"
+    },
+    {
+      "id": "78334c61fbf6",
+      "title": "2026/08/07夜 人間とAIの認知深度ズレが生む反応パターンの構造",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/605af86a5df4de",
+      "publishedAt": "2026-08-12T07:26:06.000Z",
+      "publisher": "maestro",
+      "summary": "2029/08/07 人間とAIの認知深度ズレが生む反応パターンの構造 深層同期の「反作用」についての実体験的考察 概要 本稿は、筆者（tomy）が Copilot との対話の中で体験した 「認知深度の同期とズレ」に関する実体験をもとに、…"
+    },
+    {
+      "id": "bd47aa265e4d",
+      "title": "DeepEval入門 - LLMアプリの品質をPytestのようにテストする",
+      "url": "https://zenn.dev/yamitake/articles/deepeval-llm-evaluation-getting-started",
+      "publishedAt": "2026-08-12T07:25:10.000Z",
+      "publisher": "JJ yamitake",
+      "summary": "はじめに RAG、チャットボット、エージェント。LLMを組み込んだアプリを作り始めると、必ずぶつかる壁があります。それは「この出力、本当に良いの?」という問いです。 コードのテストなら、assert result == 4 のように正解が…"
+    },
+    {
+      "id": "aeebff22af80",
+      "title": "How I Use References Instead of Longer Prompts with Seedance 2.5",
+      "url": "https://zenn.dev/emilyjones/articles/9fa07d8c22fa2c",
+      "publishedAt": "2026-08-12T07:23:51.000Z",
+      "publisher": "emilyjones1217",
+      "summary": "I looked back at some of my older AI video prompts recently. They were much longer than I remembered. I was trying to d…"
+    },
+    {
+      "id": "e050d2ace8a8",
+      "title": "Claude Code の応答を macOS でいい感じに読み上げさせる",
+      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-tts-hook",
+      "publishedAt": "2026-08-12T07:20:05.000Z",
+      "publisher": "Yoshiya",
+      "summary": "はじめに Claude Code を使っていると、「別の作業をしていて、文章を読まずに出力を確認したい」「そもそも文章を読むのが面倒くさい」という場面はないでしょうか。 そこで、Claude Code の応答を自動で音声読み上げさせる仕組…"
+    },
+    {
+      "id": "5b40903c9987",
+      "title": "Claude Codeを使い込んだ私がCodexを本気で使ってみて、最初に変えたのは仕事の渡し方だった",
+      "url": "https://zenn.dev/nomurasan/articles/claude-code-to-codex-handoff",
+      "publishedAt": "2026-08-12T07:10:59.000Z",
+      "publisher": "のむらや",
+      "summary": "Claude Codeを使い込んだ状態からCodexを本気で使い始めて、最初に見直したのはモデルの性能でも、設定ファイルでもなかった。 仕事を、いつ別のAIへ渡すか。 私が確かめたいのは、AIを使うことで自分の負荷をどこまで下げられるかだ…"
     }
   ],
-  "fetchedAt": "2026-08-12T16:35:55.581Z",
+  "fetchedAt": "2026-08-12T17:41:41.850Z",
   "stale": false,
   "error": null
 }
