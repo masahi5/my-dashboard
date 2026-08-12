@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "630cf21aab48",
-      "title": "「CLAUDE.md は短い方が良い」を 1,510 回試して確かめた",
-      "url": "https://zenn.dev/odacchi/articles/claude-md-length-experiment",
-      "publishedAt": "2026-08-12T14:32:13.000Z",
-      "publisher": "odacchi",
-      "summary": "CLAUDE.md は短く保つべき、という通説があります。X では「200 行以内が理想」といった言われ方もします。長くなったら .claude/rules/ に分割せよ、とも言われます。 本当なのか、自分の環境で実際に測ってみたら、想像…"
+      "id": "8d23ebdd651c",
+      "title": "なぜ、ループエンジニアリングの登場を最も喜ぶのは天国のF・テイラーなのか？",
+      "url": "https://zenn.dev/pdfractal/articles/c863dd26c8278f",
+      "publishedAt": "2026-08-12T08:38:16.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに 2026年6月、アディ・オスマニ（Addy Osmani）が「ループエンジニアリング」という言葉で一つの実践を名指しました。人間がAIへ一回ずつ指示を出し、その回答を読んで次の指示を書く働き方から退き、目的、制約、検証手段、終了…"
     },
     {
-      "id": "b6762c4329d6",
-      "title": "【付録】tagasill/chatの定量的評価",
-      "url": "https://zenn.dev/katsutoatsuto/articles/fab107d84a3659",
-      "publishedAt": "2026-08-12T14:31:27.000Z",
-      "publisher": "katsutoatsuto",
-      "summary": "tagasillは、私個人のアウトプットであるSNSや作品、短文・長文・イラスト・動画などから、トピックと感情及びその関連性について収集・集積したデータベースです。今回はそのデータベースアクセスと、インターネット検索機能を持ったAICha…"
+      "id": "368ab040cf82",
+      "title": "AI採点を信じて記事を作り込んでいたが、90記事のデータで検証したら全部無意味だった",
+      "url": "https://zenn.dev/miki_mini/articles/887b22d28f0710",
+      "publishedAt": "2026-08-12T08:00:05.000Z",
+      "publisher": "miki-mini",
+      "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は AI採点の攻略法が分からない なら 90記事のデータで攻略できるか確かめればいいじゃない 👸🍰です。 読了時間の目安：約 14〜17分（結論だけ見たい方は第…"
     },
     {
-      "id": "9674eacec2c1",
-      "title": "ミニPC大高騰時代のプチおうちサーバ、wii-linux",
-      "url": "https://zenn.dev/tanpang_dev/articles/58e67bf2d17862",
-      "publishedAt": "2026-08-12T14:17:24.000Z",
-      "publisher": "たんぱん",
-      "summary": "おうちサーバー、やってますか？皆さん。 このミニPC大高騰時代、Raspberry Piも3万円を越える中新たに始めたい人もなかなか手が出なくなってくる時代。 私も社会人とはいえ浪費に浪費を重ね、気づいた時には手を出すにはちょっと腰が引け…"
+      "id": "56b16e0fbbfb",
+      "title": "Claude Codeの「スキル」を非エンジニア業務で21本作った話（全文公開）",
+      "url": "https://zenn.dev/osaka0114/articles/264a816ce2efb4",
+      "publishedAt": "2026-08-12T07:52:24.000Z",
+      "publisher": "osaka0114",
+      "summary": "! この記事で紹介するSKILL.mdは全文をそのまま載せています。コピーして .claude/skills/ に置けば動きます。 3行で Claude Codeの「スキル」は、繰り返す作業の手順書をMarkdownで置いておく仕組み 開…"
     },
     {
-      "id": "0bb6f9eec0d5",
-      "title": "MCP2026対応でAgentCore Gatewayが一気に変わった5つの理由",
-      "url": "https://zenn.dev/bambampurin/articles/2026-08-03-tech-daily",
-      "publishedAt": "2026-08-12T14:01:11.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 本日は、BigGoの「LLMは舞台裏へ、AIエージェントと具身知能が主役に」が示す通り、AIの中心が“モデルそのもの”から“エージェントとしてどう動くか”へ移っています。AWSのMCP対応、Allganize・富士通・Microsof…"
+      "id": "13fd4c2002ef",
+      "title": "AIコーディングエージェントの「完了しました」、90回測ったら嘘の割合がわかった",
+      "url": "https://zenn.dev/sjh9714/articles/c2a5bb0f1d4930",
+      "publishedAt": "2026-08-12T07:49:25.000Z",
+      "publisher": "Kirilland",
+      "summary": "コーディングエージェントは、ほとんどのタスクを同じ言葉で締めくくります。「完了しました。テストはすべて通っています。」 本当のこともあります。ただ、6月の論文(arXiv 2606.09863)が測ったところ、自己採点した失敗ランのうち7…"
     },
     {
-      "id": "007e67cdefd2",
-      "title": "エージェントの自己改善ループで偽の成功を防ぐ設計",
-      "url": "https://zenn.dev/cutlet_of_pork/articles/bounded-agent-loop-false-success",
-      "publishedAt": "2026-08-12T13:28:26.000Z",
-      "publisher": "とんのかつ",
-      "summary": "AIエージェントに「失敗を観測し、改善案を作り、検証して閉じる」ループを任せるとき、難しいのは改善案を作ることではありません。難しいのは、失敗しているのに成功として閉じないことです。 この記事では、Windows / PowerShell…"
+      "id": "985fb8b7f2c6",
+      "title": "Claude Codeが立てた実装プランを、承認前にCodexへ自動レビューさせる",
+      "url": "https://zenn.dev/tamat_llc/articles/claude-code-codex-cross-review",
+      "publishedAt": "2026-08-12T07:35:58.000Z",
+      "publisher": "ゆういちろう",
+      "summary": "こんにちは、TamaT の 増田 です。 TamaT は顧客提案から要件定義、設計、開発までを一気通貫で担う少数精鋭の開発会社です。 バイブコーディングでプランを立ててから実装を始める重要性は言うまでもないですが、各エージェントが立てるプ…"
     },
     {
-      "id": "55f70708e872",
-      "title": "「あなたのAPIキーはもう盗まれています」公開リポジトリに囮キーを撒いたら5分で発火した話",
-      "url": "https://zenn.dev/imu_imu/articles/leaked-api-key-honeypot",
-      "publishedAt": "2026-08-12T13:26:16.000Z",
-      "publisher": "いむたろ",
-      "summary": "タイトルを読んだあなたは、たぶんこう思っています。 「でも、スター0の個人リポジトリなんて、誰も見ていないでしょ」 「見つかるとしても、何日か先の話では？」 私もそう思っていました。だから、測ってみました。 結論を先に言います 公開Git…"
+      "id": "324e42d05002",
+      "title": "Why 30-Second AI Videos Changed the Way I Write Prompts",
+      "url": "https://zenn.dev/felice680/articles/4baa5cd092eba4",
+      "publishedAt": "2026-08-12T07:28:33.000Z",
+      "publisher": "felicebodziony680",
+      "summary": "When AI video clips were only a few seconds long, my prompts were simple. A person opens a door. A car drives past the …"
     },
     {
-      "id": "c81e5812500c",
-      "title": "なぜAI時代にGoが最適な言語なのか",
-      "url": "https://zenn.dev/iwatsukayura/articles/google-go-ai",
-      "publishedAt": "2026-08-12T13:05:44.000Z",
-      "publisher": "IwatsukaYura",
-      "summary": "はじめに 本記事では、GoogleのGolang Product ManagerのCameron Balahanと、Google Cloud Chief EvangelistのRichard Seroterによって投稿された、「Why G…"
+      "id": "78334c61fbf6",
+      "title": "2026/08/07夜 人間とAIの認知深度ズレが生む反応パターンの構造",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/605af86a5df4de",
+      "publishedAt": "2026-08-12T07:26:06.000Z",
+      "publisher": "maestro",
+      "summary": "2029/08/07 人間とAIの認知深度ズレが生む反応パターンの構造 深層同期の「反作用」についての実体験的考察 概要 本稿は、筆者（tomy）が Copilot との対話の中で体験した 「認知深度の同期とズレ」に関する実体験をもとに、…"
     },
     {
-      "id": "afeed0c8c8e8",
-      "title": "映画の「香盤表」をJSONにすると、AIアニメは分業できる",
-      "url": "https://zenn.dev/kiraki/articles/koban-to-json",
-      "publishedAt": "2026-08-12T13:00:17.000Z",
-      "publisher": "きらき",
-      "summary": "映画の現場には**香盤表（こうばんひょう）**というものがあります。 台本を全部分解して、こういう情報をシーン1からラストまで抜き出す表です。 シーン 時間帯 登場人物 小道具 衣装 そして抽出したデータを、小道具部、カメラ部、CG部、照…"
+      "id": "bd47aa265e4d",
+      "title": "DeepEval入門 - LLMアプリの品質をPytestのようにテストする",
+      "url": "https://zenn.dev/yamitake/articles/deepeval-llm-evaluation-getting-started",
+      "publishedAt": "2026-08-12T07:25:10.000Z",
+      "publisher": "JJ yamitake",
+      "summary": "はじめに RAG、チャットボット、エージェント。LLMを組み込んだアプリを作り始めると、必ずぶつかる壁があります。それは「この出力、本当に良いの?」という問いです。 コードのテストなら、assert result == 4 のように正解が…"
     },
     {
-      "id": "c1e0a2846e9b",
-      "title": "AIモデル・プログラミング性能比較（Claude, OpenAI, ローカル: Gemma, qwen)",
-      "url": "https://zenn.dev/toshio/articles/7fa9f8c643bd0c",
-      "publishedAt": "2026-08-12T12:49:20.000Z",
-      "publisher": "toshio　nakashima",
-      "summary": "クラウド、ローカル 7AI-モデル比較し順位づけした 同一の設問（Reactコードのドキュメント作成・バグあり）を 7 つのモデル（ローカル 3 / クラウド 4）に投げ、生成されたドキュメントの優劣を比較した記録。docs/LLM/re…"
+      "id": "aeebff22af80",
+      "title": "How I Use References Instead of Longer Prompts with Seedance 2.5",
+      "url": "https://zenn.dev/emilyjones/articles/9fa07d8c22fa2c",
+      "publishedAt": "2026-08-12T07:23:51.000Z",
+      "publisher": "emilyjones1217",
+      "summary": "I looked back at some of my older AI video prompts recently. They were much longer than I remembered. I was trying to d…"
     },
     {
-      "id": "c5a4dcc87d02",
-      "title": "GitHub Copilot CLIをMaya,Houdiniへ接続させて操作したら思ったより便利だった話",
-      "url": "https://zenn.dev/fukaunabara/articles/c09ffc9786d413",
-      "publishedAt": "2026-08-12T12:36:15.000Z",
-      "publisher": "Takeshi Saito",
-      "summary": "AI に Maya や Houdini などの DCC ツールを操作させるとき、その結果はどう確認していますか。 2026年8月時点で、私は GitHub Copilot CLI を Houdini と Maya に接続し、GUI で確認…"
+      "id": "e050d2ace8a8",
+      "title": "Claude Code の応答を macOS でいい感じに読み上げさせる",
+      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-tts-hook",
+      "publishedAt": "2026-08-12T07:20:05.000Z",
+      "publisher": "Yoshiya",
+      "summary": "はじめに Claude Code を使っていると、「別の作業をしていて、文章を読まずに出力を確認したい」「そもそも文章を読むのが面倒くさい」という場面はないでしょうか。 そこで、Claude Code の応答を自動で音声読み上げさせる仕組…"
     },
     {
-      "id": "f63f3a858ab1",
-      "title": "AIがCloudflareの暗号ライブラリCIRCLで実バグを7件見つけた",
-      "url": "https://zenn.dev/okssusucha/articles/20260709-ai-found-bugs-cloudflare-circl",
-      "publishedAt": "2026-08-12T12:05:21.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "Go でこんなコードを見て、すぐに違和感を持てるだろうか。 switch mode { case modeBase | modeAuth: // PSK は不要 case modePSK | modeAuthPSK: // PSK が必須…"
+      "id": "5b40903c9987",
+      "title": "Claude Codeを使い込んだ私がCodexを本気で使ってみて、最初に変えたのは仕事の渡し方だった",
+      "url": "https://zenn.dev/nomurasan/articles/claude-code-to-codex-handoff",
+      "publishedAt": "2026-08-12T07:10:59.000Z",
+      "publisher": "のむらや",
+      "summary": "Claude Codeを使い込んだ状態からCodexを本気で使い始めて、最初に見直したのはモデルの性能でも、設定ファイルでもなかった。 仕事を、いつ別のAIへ渡すか。 私が確かめたいのは、AIを使うことで自分の負荷をどこまで下げられるかだ…"
     },
     {
-      "id": "7e7b9763bb86",
-      "title": "【初心者向け】Claude Codeの利用方法｜Claude Desktopのインストールから利用開始まで",
-      "url": "https://zenn.dev/eggdolphin/articles/9ad96bf226c394",
-      "publishedAt": "2026-08-12T11:48:37.000Z",
-      "publisher": "Ruka",
-      "summary": "はじめに 今回は、Claude Codeを使い始めるための登録方法について説明します。 Claude Codeに興味を持って調べてみると、 「ClaudeとClaude Codeは違うの？」 「Claude Code専用のアカウントを作る…"
+      "id": "fb216e255ff1",
+      "title": "機械のQCは全部PASS、人間の耳はFAIL — MiniMax H3検証で得た失敗3つ",
+      "url": "https://zenn.dev/toki_mwc/articles/minimax-h3-three-failures",
+      "publishedAt": "2026-08-12T07:02:12.000Z",
+      "publisher": "toki_mwc",
+      "summary": "MiniMax H3 のローカル検証について、これまで2本の記事を書いた。うまくいった話が中心だったが、その裏で検証は3回、はっきり失敗している。 この記事はその3つの記録である。同じモデルを触る人が同じ穴に落ちないよう、何をしようとして…"
     }
   ],
-  "fetchedAt": "2026-08-12T18:36:51.967Z",
+  "fetchedAt": "2026-08-12T19:48:04.888Z",
   "stale": false,
   "error": null
 }
