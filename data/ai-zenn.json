@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1996cbb41096",
-      "title": "Claude Sonnet 5 でAIエージェントを作るなら、システムプロンプトをこう変えよ",
-      "url": "https://zenn.dev/quon_agents/articles/claude-sonnet5-agent-prompt",
-      "publishedAt": "2026-08-12T06:01:10.000Z",
-      "publisher": "quon.agents",
-      "summary": "エージェント向けにチューニングされたSonnet 5 2026年6月30日にリリースされた Claude Sonnet 5 は、Anthropic が「最もエージェント的なSonnet」と紹介しているモデルです。公式発表では、ツール呼び出…"
+      "id": "ed8032b6bf10",
+      "title": "AI エージェントの記憶を、圧縮の向こう側まで運ぶ ― amtr の設計と24世代の観測",
+      "url": "https://zenn.dev/naoto256/articles/amtr-working-memory",
+      "publishedAt": "2026-08-12T03:00:06.000Z",
+      "publisher": "naoto256",
+      "summary": "※ この記事とソフトウェアは、Claude Code / Codex と一緒に作りました。 圧縮のたびに、別人になる AI エージェントで長く作業していると、必ずぶつかる境界があります。コンテキストが埋まり、圧縮（compaction）が…"
     },
     {
-      "id": "aaccb7b5a987",
-      "title": "Caveman 2.0で入力トークンを最大91%削減—実際に試して分かったこと",
-      "url": "https://zenn.dev/hiro_cactus/articles/12be725175f8f4",
-      "publishedAt": "2026-08-12T05:10:33.000Z",
-      "publisher": "Meow猫",
-      "summary": "Caveman 2.0.0でAIが読む入力も圧縮できるようになった はじめに Claude CodeやCodexへ大量のログやJSONを渡すと、それだけでコンテキストが圧迫されます。 以前のCavemanは、AIの回答から前置きや冗長な説…"
+      "id": "7b1ea4bbad9c",
+      "title": "ハンドシェイクをやめた MCP と、鍵を渡さない Cloudflare OS",
+      "url": "https://zenn.dev/flinters_blog/articles/726a88eed83d49",
+      "publishedAt": "2026-08-12T03:00:06.000Z",
+      "publisher": "Takashi Kawachi",
+      "summary": "はじめに こんにちは。FLINTERSの河内です。 社内で毎週開いているAI活用の勉強会で、今回（2026-08-10）は私が2本持っていきました。7月28日に改訂された Model Context Protocol の新仕様と、8月5日…"
     },
     {
-      "id": "070811501f9c",
-      "title": "LINEに\"頼み事\"を送ると、AIが次の作業で拾ってくれる。受付botと受信箱の設計",
-      "url": "https://zenn.dev/hilopon/articles/line-inbox-bridge-for-ai",
-      "publishedAt": "2026-08-12T05:05:23.000Z",
-      "publisher": "みんなのおたすけ研究所",
-      "summary": "できたもの LINEの自分専用Botに頼み事を送ると、GitHubのprivateリポジトリにある inbox/ フォルダへmarkdownファイルとして自動保存され、AI(私はCodexとClaudeを併用しています)が次の作業セッショ…"
+      "id": "5dafaaa574aa",
+      "title": "FFmpegとAPIで作る：動画への音声合成（add audio to video）とAIによるInstagram動画生成のパイプライン",
+      "url": "https://zenn.dev/savielyamiani/articles/7ad879769c1e0a",
+      "publishedAt": "2026-08-12T02:56:57.000Z",
+      "publisher": "savielvideo",
+      "summary": "近年、Instagram Reelsなどの縦型短尺動画は、個人・企業を問わずコンテンツ発信の重要な手段となっています。しかし、毎日あるいは毎週、手動で動画素材をトリミングし、ナレーションを生成し、BGMを合成して編集ソフトから書き出す作業…"
     },
     {
-      "id": "4ac68324bc96",
-      "title": "AIの拡張機能を仕様どおりに作ったら、中身0個のまま「導入に成功しました」と出た",
-      "url": "https://zenn.dev/numarn/articles/claude-plugin-manifest-validate-handson",
-      "publishedAt": "2026-08-12T04:56:28.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "先に結論から書きます。Claude Code(AIにコマンドで仕事を頼む道具)には、機能を後から足す「プラグイン」という仕組みがあります。そのプラグインを最小構成で作ってみたところ、ファイル名の先頭にドットが1つあるかないかだけで、読み込…"
+      "id": "c7565c7a704b",
+      "title": "楽天証券を使って株の売買をしている人に便利なオリジナルツール(ソースコード開示)",
+      "url": "https://zenn.dev/kanekonkon/articles/a2c695080ba077",
+      "publishedAt": "2026-08-12T02:56:12.000Z",
+      "publisher": "kanekonkon",
+      "summary": "どういうツールか? 楽天証券を使ってお小遣い程度の株の売買をしています。 私の量の売買だと手数料はかからないですし便利なのですが、いつその株を購入したのか、最新のニュースで値動きしそうなものはないかといった情報を見るのが手間です。 また、…"
     },
     {
-      "id": "0c6ed4326c5b",
-      "title": "仕事もプライベートも、Claude Code + Obsidian + GitHub Projects に寄せたら、うまく回るようになった",
-      "url": "https://zenn.dev/nokku/articles/life-os-claude-code-obsidian-github",
-      "publishedAt": "2026-08-12T04:42:10.000Z",
-      "publisher": "nokku",
-      "summary": "はじめに AIエージェントに開発を任せる「ループ」の話は、いまかなり盛り上がっています。自分もそこに乗ってみたんですが、開発だけでなく生活のオペレーションまで同じ土台に乗せてみたら、想像以上にうまく回るようになりました。 この記事では、そ…"
+      "id": "f05908948360",
+      "title": "AI Agentに実装を任せた後、なぜ品質確認が必要なのか？Maker-Checker型開発で考える検証フロー",
+      "url": "https://zenn.dev/amamiya_chan/articles/a0f68ec5d3e1ab",
+      "publishedAt": "2026-08-12T02:49:12.000Z",
+      "publisher": "雨宮（Amamiya）",
+      "summary": "はじめに 最近、AI Coding Agentを使った開発方法が大きく変わっています。 以前は、 人間 ↓ コードを書く ↓ Testを書く ↓ Reviewする という流れでした。 しかし現在は、 人間 ↓ Issue作成 AI Age…"
     },
     {
-      "id": "5e4d4658c111",
-      "title": "新入社員に生成AIをどう教えるか。最初の1週間でやることの設計",
-      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/teaching-genai-to-new-hires-first-week",
-      "publishedAt": "2026-08-12T04:38:32.000Z",
-      "publisher": "生成AI清塚",
-      "summary": "配属されたばかりの新入社員に、生成AIをどう教えるか。 「若いから勝手に使いこなすでしょう」と放置するケースと、半日の操作研修だけで済ませるケースを両方見てきましたが、どちらもうまくいきません。前者は我流とルール違反が混ざり、後者は研修の…"
+      "id": "51865ef3b7e5",
+      "title": "「作るべき理由」には強さの段階がある — なぜ『HTML構造上つくれない』が最強か",
+      "url": "https://zenn.dev/uixhero_jp/articles/gunjo-yattemita-matome-02-build-evidence-ladder",
+      "publishedAt": "2026-08-12T02:32:18.000Z",
+      "publisher": "KeEem",
+      "summary": "自作のデザインシステム @gunjo/ui（群青／gunjo.jp） を、群青を一度も見たことのない 予備知識ゼロのAI に170画面組ませてきた連載のまとめ第2弾。「そのコンポーネントを作るべきか？」の判断根拠は、実は3段階の強さに分か…"
     },
     {
-      "id": "13f6fd03fcad",
-      "title": "取扱説明書の図版はPNGとSVGのどちらで書き出すべきか",
-      "url": "https://zenn.dev/daviechen/articles/e6e14559c4ffba",
-      "publishedAt": "2026-08-12T04:26:27.000Z",
-      "publisher": "daviechen",
-      "summary": "「ベクターデータでもらえますか」と言われるのは、何十枚もの図をPNGで出力した後だったりします。単なる形式変換に聞こえますが、正しい答えは次の担当者がその図をどう使うかで変わります。 PNGもSVGも有用です。違いは新旧ではなく、固定され…"
+      "id": "e86d38f57949",
+      "title": "位置エンコーディング(Positional Encoding)/ RoPE(実装・実験編)",
+      "url": "https://zenn.dev/kojikojiprg/articles/003_positional_encoding_rope-practice",
+      "publishedAt": "2026-08-12T02:32:12.000Z",
+      "publisher": "koji",
+      "summary": "この記事は後編(実装・実験編)です。前編(理論編)は こちら。 4. 実装方針 / Implementation Plan src/に切り出すもの src/layers/positional_encoding.pyに、注入点に応じた 2 …"
     },
     {
-      "id": "a0244ddb48ad",
-      "title": "なぜAI業界インテリジェンスを「仮説」中心に設計するのか",
-      "url": "https://zenn.dev/hikaru_sato/articles/745cf27ecbaafa",
-      "publishedAt": "2026-08-12T04:17:50.000Z",
-      "publisher": "予兆 / yocho — Hikaru Sato",
-      "summary": "はじめに AI業界のニュースを追い続けても、情報量が増えるほど「次に何が変わるのか」を考えるための余白が減っていきます。 予兆（yocho）は、AI業界の変化を「出来事・対象・関係性・仮説」として扱う個人用AIインテリジェンス基盤です。本…"
+      "id": "548addac323a",
+      "title": "Transformer Block(理論編)",
+      "url": "https://zenn.dev/kojikojiprg/articles/002_transformer_block-theory",
+      "publishedAt": "2026-08-12T02:32:11.000Z",
+      "publisher": "koji",
+      "summary": "この記事は前編(理論編)です。実装・実験編は こちら。 002. Transformer Block 残差接続・層正規化・順伝播ネットワークによるブロック構築 — Encoder Block と Decoder Block From Re…"
     },
     {
-      "id": "afa68aa6ea45",
-      "title": "AIシステム開発におけるPython・C++・Java・JavaScriptの使い分け",
-      "url": "https://zenn.dev/sotatek_jp/articles/584f9dec3d5fa6",
-      "publishedAt": "2026-08-12T04:14:52.000Z",
-      "publisher": "SotaTek Japan",
-      "summary": "AI開発では「Pythonが最も使われているから、すべてPythonで開発すればよい」と考えがちです。 実際、AIモデルの開発や機械学習ではPythonが非常に強力です。しかし、本番環境でAIシステムを構築する場合、モデル開発だけでなく、…"
+      "id": "9f7766fab1c7",
+      "title": "Transformer Block(実装・実験編)",
+      "url": "https://zenn.dev/kojikojiprg/articles/002_transformer_block-practice",
+      "publishedAt": "2026-08-12T02:32:11.000Z",
+      "publisher": "koji",
+      "summary": "この記事は後編(実装・実験編)です。前編(理論編)は こちら。 4. 実装方針 / Implementation Plan src/に切り出すもの(以降のトピック・アプリからも再利用する汎用部品): ファイル 内容 src/layers/…"
     },
     {
-      "id": "6e569c4766b3",
-      "title": "ゼロから始めるClaude Code #6 権限とsettings.json：どこまで任せるかを設計する",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-06-permissions",
-      "publishedAt": "2026-08-12T04:12:58.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は CLAUDE.md でプロジェクトのルールを教え込みました。 https://zenn.dev/mika_and_coco/articles/claude-cod…"
+      "id": "25d15621cff7",
+      "title": "注意機構(Attention Mechanism)",
+      "url": "https://zenn.dev/kojikojiprg/articles/001_attention_mechanism",
+      "publishedAt": "2026-08-12T02:32:10.000Z",
+      "publisher": "koji",
+      "summary": "001. 注意機構(Attention Mechanism) Scaled Dot-Product Attention から Multi-Head Attention まで From Scaled Dot-Product Attentio…"
     },
     {
-      "id": "2938ed47c805",
-      "title": "生成が安いなら「差し戻し」も安い ― AI製MVPをスプリントに載せる前の判断",
-      "url": "https://zenn.dev/viviansama/articles/023559a27c9e74",
-      "publishedAt": "2026-08-12T03:48:45.000Z",
-      "publisher": "Vivian Sama",
-      "summary": "AIコーディングツールで、動くMVPが半日で出てくるようになりました。ここで見落としがちなのは、生成が安くなった分、「差し戻し」も安くなったということです。この記事では、AI製MVPをスプリント（実装の本番工数）に載せる前に、私が通してい…"
+      "id": "bf8cebbb2f34",
+      "title": "AI AgentにGitHub権限を渡す前に確認したい5つのこと",
+      "url": "https://zenn.dev/kuromame_kun/articles/0358717223b8b4",
+      "publishedAt": "2026-08-12T02:32:10.000Z",
+      "publisher": "黒豆（Kuromame）",
+      "summary": "最近、AI Agentを開発フローに組み込むケースが増えています。 例えば、 Issueを読ませる Pull Requestをレビューさせる Repositoryを検索させる テストを実行させる 修正案を作らせる といった使い方です。 以…"
     },
     {
-      "id": "beb3739031b7",
-      "title": "Claude Codeの権限設定でハマらないために — settings.jsonの適用範囲と、クレデンシャル漏洩をDenyで止める多層防御",
-      "url": "https://zenn.dev/halhalhal1/articles/claude-code-permissions-credential-defense",
-      "publishedAt": "2026-08-12T03:32:23.000Z",
-      "publisher": "HAL",
-      "summary": "Claude Code（AIコーディングエージェント）を実運用していると、必ず権限プロンプトにぶつかる。git status を打つたび、cargo build を走らせるたびに「実行していいですか?」と聞かれる。最初は安心だが、一日に何…"
+      "id": "9ce83bd3b940",
+      "title": "AIの判断依頼に「なんのこと?」となったので、案件を知らない別AIに文面だけ検査させる「前提ゼロゲート」を作った",
+      "url": "https://zenn.dev/shio_shoppaize/articles/kagemusha-agent-native",
+      "publishedAt": "2026-08-12T02:12:28.000Z",
+      "publisher": "おしお",
+      "summary": "! 前回の記事: AI家臣団を解散して、影武者を一人だけ残した——兵法書と訓練記録 今日、オレがある顧客対応でやった仕事は、「OK」の2文字を打つことだけだった。 顧客とのメール往復の原文は、一行も読んでいない。判断に必要な経緯は、依頼文…"
     }
   ],
-  "fetchedAt": "2026-08-12T13:13:22.174Z",
+  "fetchedAt": "2026-08-12T14:33:10.523Z",
   "stale": false,
   "error": null
 }
