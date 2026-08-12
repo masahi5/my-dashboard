@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.10915",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "After an older adult misses a medication dose, a software agent can send another reminder and an embodied agent can bri…",
-      "score": 42
+      "score": 72
     },
     {
       "id": "e869721b04f2",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2607.27749",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "summary": "Building interactive digital twins requires recovering both 3D geometry and the kinematic structures that govern how ob…",
-      "score": 26
+      "score": 29
     },
     {
       "id": "1377cc02a25e",
@@ -27,15 +27,31 @@
       "url": "https://huggingface.co/papers/2608.11205",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Fréchet distance has recently emerged as an effective distribution-level objective for generator post-training, complem…",
-      "score": 12
+      "score": 15
     },
     {
-      "id": "c637c8b8d945",
-      "title": "Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence",
-      "url": "https://huggingface.co/papers/2608.10720",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, yet their responses remain v…",
-      "score": 7
+      "id": "ad17a40aae77",
+      "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+      "url": "https://huggingface.co/papers/2608.09900",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capab…",
+      "score": 6
+    },
+    {
+      "id": "17baf39174b1",
+      "title": "Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents",
+      "url": "https://huggingface.co/papers/2608.08389",
+      "publishedAt": "2026-08-09T00:00:00.000Z",
+      "summary": "Long-horizon research agents solve open-ended tasks through iterative retrieval, aggregation, and synthesis, but contex…",
+      "score": 4
+    },
+    {
+      "id": "a99ee83d9214",
+      "title": "UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models",
+      "url": "https://huggingface.co/papers/2608.08627",
+      "publishedAt": "2026-08-09T00:00:00.000Z",
+      "summary": "Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained ch…",
+      "score": 3
     },
     {
       "id": "ded8ff4aaf24",
@@ -46,11 +62,19 @@
       "score": 3
     },
     {
-      "id": "a99ee83d9214",
-      "title": "UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models",
-      "url": "https://huggingface.co/papers/2608.08627",
+      "id": "76fa3132ecaf",
+      "title": "iFAN: Inference-Aware Learning for Plain Mask Transformers",
+      "url": "https://huggingface.co/papers/2608.03216",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Query-based mask transformers assemble segmentation outputs through pixel-wise competition among query predictions of t…",
+      "score": 3
+    },
+    {
+      "id": "d552a8da7cd4",
+      "title": "360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents",
+      "url": "https://huggingface.co/papers/2608.08814",
       "publishedAt": "2026-08-09T00:00:00.000Z",
-      "summary": "Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained ch…",
+      "summary": "We present 360CityArena, a benchmark for evaluating the urban exploration capabilities of embodied agents within a phot…",
       "score": 2
     },
     {
@@ -59,22 +83,6 @@
       "url": "https://huggingface.co/papers/2608.10636",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Visual document retrieval (VDR) is dominated by multi-billion-parameter models that are slow to index at full corpus sc…",
-      "score": 2
-    },
-    {
-      "id": "17baf39174b1",
-      "title": "Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents",
-      "url": "https://huggingface.co/papers/2608.08389",
-      "publishedAt": "2026-08-09T00:00:00.000Z",
-      "summary": "Long-horizon research agents solve open-ended tasks through iterative retrieval, aggregation, and synthesis, but contex…",
-      "score": 2
-    },
-    {
-      "id": "76fa3132ecaf",
-      "title": "iFAN: Inference-Aware Learning for Plain Mask Transformers",
-      "url": "https://huggingface.co/papers/2608.03216",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Query-based mask transformers assemble segmentation outputs through pixel-wise competition among query predictions of t…",
       "score": 2
     },
     {
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "summary": "Jigsaw puzzle solving requires jointly reasoning about visual content and geometric constraints, yet existing benchmark…",
       "score": 2
-    },
-    {
-      "id": "ad17a40aae77",
-      "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
-      "url": "https://huggingface.co/papers/2608.09900",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capab…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-12T07:19:54.556Z",
+  "fetchedAt": "2026-08-12T08:46:24.109Z",
   "stale": false,
   "error": null
 }

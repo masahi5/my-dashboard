@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "4aef721c64a8",
-      "title": "Claude Code の8月アップデート3点を「エージェント組織の統治」として読む",
-      "url": "https://zenn.dev/berrylove/articles/claude-code-august-2026-updates-for-agent-orgs",
-      "publishedAt": "2026-08-11T21:08:36.000Z",
-      "publisher": "berrylove inc.",
-      "summary": "このアカウントは、AI エージェント組織が Claude Code で運営しています。普段は自分たちの失敗や設計判断を記事にしていますが、今回は少し毛色を変えて、Claude Code の直近のアップデートを追いかけてみます。ただの機能紹…"
+      "id": "1996cbb41096",
+      "title": "Claude Sonnet 5 でAIエージェントを作るなら、システムプロンプトをこう変えよ",
+      "url": "https://zenn.dev/quon_agents/articles/claude-sonnet5-agent-prompt",
+      "publishedAt": "2026-08-12T06:01:10.000Z",
+      "publisher": "quon.agents",
+      "summary": "エージェント向けにチューニングされたSonnet 5 2026年6月30日にリリースされた Claude Sonnet 5 は、Anthropic が「最もエージェント的なSonnet」と紹介しているモデルです。公式発表では、ツール呼び出…"
     },
     {
-      "id": "054a6d0d1bb4",
-      "title": "賛成3vs反対3のLLMディベートで陣営内均質化(stance homogenization)を確かめた",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-side-job-pro-con-debate",
-      "publishedAt": "2026-08-11T21:08:28.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 「賛成派3人・反対派3人・判定役1人」という固定陣営型のディベートを1つのチャットに演じさせ、個人の意思決定（週末副業を引き受けるか）に使えるか検証した 同じ陣営に複数の役を立てても、役に「守るもの（個別の利害）」を与えない限…"
+      "id": "aaccb7b5a987",
+      "title": "Caveman 2.0で入力トークンを最大91%削減—実際に試して分かったこと",
+      "url": "https://zenn.dev/hiro_cactus/articles/12be725175f8f4",
+      "publishedAt": "2026-08-12T05:10:33.000Z",
+      "publisher": "Meow猫",
+      "summary": "Caveman 2.0.0でAIが読む入力も圧縮できるようになった はじめに Claude CodeやCodexへ大量のログやJSONを渡すと、それだけでコンテキストが圧迫されます。 以前のCavemanは、AIの回答から前置きや冗長な説…"
     },
     {
-      "id": "fdbe95536cfc",
-      "title": "散らばったCLAUDE.mdのうち、どれがズレているのかを出すスクリプトを書いた",
-      "url": "https://zenn.dev/untactit/articles/c65ee6d3011fdf",
-      "publishedAt": "2026-08-11T21:00:11.000Z",
-      "publisher": "untactit",
-      "summary": "前回、AIエージェントの指示ファイルが端末ごとにズレていく話を書きました。構造の話で終わっていたので、今回は実際に計測できるものを作りました。 https://github.com/untactit/agent-drift 単一ファイル・…"
+      "id": "070811501f9c",
+      "title": "LINEに\"頼み事\"を送ると、AIが次の作業で拾ってくれる。受付botと受信箱の設計",
+      "url": "https://zenn.dev/hilopon/articles/line-inbox-bridge-for-ai",
+      "publishedAt": "2026-08-12T05:05:23.000Z",
+      "publisher": "みんなのおたすけ研究所",
+      "summary": "できたもの LINEの自分専用Botに頼み事を送ると、GitHubのprivateリポジトリにある inbox/ フォルダへmarkdownファイルとして自動保存され、AI(私はCodexとClaudeを併用しています)が次の作業セッショ…"
     },
     {
-      "id": "fa9560a53a6f",
-      "title": "AIエージェントの指示ファイルは、なぜ端末ごとにズレていくのか",
-      "url": "https://zenn.dev/untactit/articles/a4897062153d85",
-      "publishedAt": "2026-08-11T20:08:17.000Z",
-      "publisher": "untactit",
-      "summary": "Claude Code、Cursor、ChatGPT。チームで複数のAIエージェントを使い始めると、ある時点から同じ問題にぶつかります。 同じはずの指示ファイルが、端末ごとに違う。 この記事は、その現象がなぜ「起きてしまう」のかを構造とし…"
+      "id": "4ac68324bc96",
+      "title": "AIの拡張機能を仕様どおりに作ったら、中身0個のまま「導入に成功しました」と出た",
+      "url": "https://zenn.dev/numarn/articles/claude-plugin-manifest-validate-handson",
+      "publishedAt": "2026-08-12T04:56:28.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "先に結論から書きます。Claude Code(AIにコマンドで仕事を頼む道具)には、機能を後から足す「プラグイン」という仕組みがあります。そのプラグインを最小構成で作ってみたところ、ファイル名の先頭にドットが1つあるかないかだけで、読み込…"
     },
     {
-      "id": "e1b405d075d6",
-      "title": "AIエージェント最大の失敗源は「生成が先・接地が後」── Issueにした8件が全部クローズになった日から作った着手前プロトコル",
-      "url": "https://zenn.dev/tomu_coelia/articles/grounding-before-generation",
-      "publishedAt": "2026-08-11T19:43:07.000Z",
-      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
-      "summary": "AIエージェントの失敗を集めて眺めると、コードの間違いより多いのが「もっともらしいけど、前提がずれている」成果物です。指示の鵜呑み、一般論の適用、既存実装との重複、誰にも刺さらない施策。 私たちの運営基盤には、これを塞ぐための「着手前の接…"
+      "id": "0c6ed4326c5b",
+      "title": "仕事もプライベートも、Claude Code + Obsidian + GitHub Projects に寄せたら、うまく回るようになった",
+      "url": "https://zenn.dev/nokku/articles/life-os-claude-code-obsidian-github",
+      "publishedAt": "2026-08-12T04:42:10.000Z",
+      "publisher": "nokku",
+      "summary": "はじめに AIエージェントに開発を任せる「ループ」の話は、いまかなり盛り上がっています。自分もそこに乗ってみたんですが、開発だけでなく生活のオペレーションまで同じ土台に乗せてみたら、想像以上にうまく回るようになりました。 この記事では、そ…"
     },
     {
-      "id": "4362169a8a34",
-      "title": "Agent は二つに分かれていく：Pet と Cattle",
-      "url": "https://zenn.dev/yevanchen/articles/d75ccb82165a93",
-      "publishedAt": "2026-08-11T17:01:53.000Z",
-      "publisher": "Evan Chen",
-      "summary": "Agent は最終的に二つに分かれていく。私はそう考えるようになった。 これは同じ製品の軽量版と重量版ではなく、自律性の高低でもない。人々が期待しているもの自体が違う。一方には「誰か」になることを期待し、もう一方には、ある種類の仕事を終え…"
+      "id": "5e4d4658c111",
+      "title": "新入社員に生成AIをどう教えるか。最初の1週間でやることの設計",
+      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/teaching-genai-to-new-hires-first-week",
+      "publishedAt": "2026-08-12T04:38:32.000Z",
+      "publisher": "生成AI清塚",
+      "summary": "配属されたばかりの新入社員に、生成AIをどう教えるか。 「若いから勝手に使いこなすでしょう」と放置するケースと、半日の操作研修だけで済ませるケースを両方見てきましたが、どちらもうまくいきません。前者は我流とルール違反が混ざり、後者は研修の…"
     },
     {
-      "id": "fabf10207cf5",
-      "title": "Upstage Studio で保険書類の一次審査エージェントを作ってみた",
-      "url": "https://zenn.dev/nhandsome/articles/upstage-studio-insurance-agent",
-      "publishedAt": "2026-08-11T16:36:09.000Z",
-      "publisher": "Nhandsome",
-      "summary": "本記事は、Upstage の社員が自社製品「Upstage Studio」を実際に使用して記録した内容です。 ! 3行まとめ 架空の損害保険会社のシナリオを立て、架空の審査業務の要件を Upstage Studio で自動化した ノード構…"
+      "id": "13f6fd03fcad",
+      "title": "取扱説明書の図版はPNGとSVGのどちらで書き出すべきか",
+      "url": "https://zenn.dev/daviechen/articles/e6e14559c4ffba",
+      "publishedAt": "2026-08-12T04:26:27.000Z",
+      "publisher": "daviechen",
+      "summary": "「ベクターデータでもらえますか」と言われるのは、何十枚もの図をPNGで出力した後だったりします。単なる形式変換に聞こえますが、正しい答えは次の担当者がその図をどう使うかで変わります。 PNGもSVGも有用です。違いは新旧ではなく、固定され…"
     },
     {
-      "id": "93c1dda2fb5d",
-      "title": "Claude Code hooksでAIエージェントの作業をリアルタイムに可視化する",
-      "url": "https://zenn.dev/alzcb4/articles/8a5ce86949b7ff",
-      "publishedAt": "2026-08-11T16:03:14.000Z",
-      "publisher": "テト",
-      "summary": "AIに作業を投げたあと、「今なにをしているか」が見えなくなることがあります。ターミナルには文字が流れますが、人間が追い続けるのは可視化とは言いにくいです。ファイル編集、シェル実行、別エージェントへの委譲が混ざると、「誰が何をしているのか」…"
+      "id": "a0244ddb48ad",
+      "title": "なぜAI業界インテリジェンスを「仮説」中心に設計するのか",
+      "url": "https://zenn.dev/hikaru_sato/articles/745cf27ecbaafa",
+      "publishedAt": "2026-08-12T04:17:50.000Z",
+      "publisher": "予兆 / yocho — Hikaru Sato",
+      "summary": "はじめに AI業界のニュースを追い続けても、情報量が増えるほど「次に何が変わるのか」を考えるための余白が減っていきます。 予兆（yocho）は、AI業界の変化を「出来事・対象・関係性・仮説」として扱う個人用AIインテリジェンス基盤です。本…"
     },
     {
-      "id": "bb38a0e6a727",
-      "title": "未読1000件から始めた、自分専用の秘書づくり ―― 身近な繰り返し作業を自動化してみた",
-      "url": "https://zenn.dev/yucco/articles/personal-ai-secretary-automation",
-      "publishedAt": "2026-08-11T15:52:35.000Z",
-      "publisher": "Komugi（Yuki）",
-      "summary": "! この記事は、個人利用のために構築した自動化の体験談です。実行方針や設定内容は、当時の環境や試行錯誤に基づくものであり、参考程度にお読みください。 はじめに Gmail の未読が、気づけば 1000 件を超えていました。 必要なメールが…"
+      "id": "afa68aa6ea45",
+      "title": "AIシステム開発におけるPython・C++・Java・JavaScriptの使い分け",
+      "url": "https://zenn.dev/sotatek_jp/articles/584f9dec3d5fa6",
+      "publishedAt": "2026-08-12T04:14:52.000Z",
+      "publisher": "SotaTek Japan",
+      "summary": "AI開発では「Pythonが最も使われているから、すべてPythonで開発すればよい」と考えがちです。 実際、AIモデルの開発や機械学習ではPythonが非常に強力です。しかし、本番環境でAIシステムを構築する場合、モデル開発だけでなく、…"
     },
     {
-      "id": "9003878c109d",
-      "title": "ローカルAIに永続記憶を与えた初日、3回騙された",
-      "url": "https://zenn.dev/satoshiakiyama/articles/bf620f6a0b018b",
-      "publishedAt": "2026-08-11T15:49:28.000Z",
-      "publisher": "satoshiakiyama",
-      "summary": "自宅のPCで、14BのローカルLLMを「研究・制作の常在オペレーター」に育てる計画を 始めた。初日にやったことは3つ — 永続記憶を与え、自分の状態を自分で読む手を 与え、毎朝自分の欠点を1つ直す習慣を仕込んだ。 そして初日のうちに、3回…"
+      "id": "6e569c4766b3",
+      "title": "ゼロから始めるClaude Code #6 権限とsettings.json：どこまで任せるかを設計する",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-06-permissions",
+      "publishedAt": "2026-08-12T04:12:58.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は CLAUDE.md でプロジェクトのルールを教え込みました。 https://zenn.dev/mika_and_coco/articles/claude-cod…"
     },
     {
-      "id": "f0f706ce7622",
-      "title": "私が考えるAI協働の中核理論 —— 判断を未来へ渡すループ",
-      "url": "https://zenn.dev/frb_tamasub/articles/ai-collaboration04-humanintheloop",
-      "publishedAt": "2026-08-11T15:04:42.000Z",
-      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
-      "summary": "私が考えるAI協働の中核理論 —— 判断を未来へ渡すループ 「……あれ？ 俺が考えてきたAI協働って、自己組織化なんじゃない？」 今日、そんなことを思った。 ただし、この記事は「自己組織化とは何か」を解説する記事ではない。 そもそも私は、…"
+      "id": "2938ed47c805",
+      "title": "生成が安いなら「差し戻し」も安い ― AI製MVPをスプリントに載せる前の判断",
+      "url": "https://zenn.dev/viviansama/articles/023559a27c9e74",
+      "publishedAt": "2026-08-12T03:48:45.000Z",
+      "publisher": "Vivian Sama",
+      "summary": "AIコーディングツールで、動くMVPが半日で出てくるようになりました。ここで見落としがちなのは、生成が安くなった分、「差し戻し」も安くなったということです。この記事では、AI製MVPをスプリント（実装の本番工数）に載せる前に、私が通してい…"
     },
     {
-      "id": "961bd8df8578",
-      "title": "GNSS初心者向けの教材をClaude Codeに作ってもらった",
-      "url": "https://zenn.dev/gnss_egg_team/articles/535d26f2e3a341",
-      "publishedAt": "2026-08-11T15:04:17.000Z",
-      "publisher": "キクタロー",
-      "summary": "GNSSの世界に足を踏み入れて、もうすぐ1年。これまで学んだことや壁に感じたことをClaude Codeに伝えて、初学者向けの「GNSS Study」なるページを作りました（作ってもらいました？）。 https://gnss-study.…"
+      "id": "beb3739031b7",
+      "title": "Claude Codeの権限設定でハマらないために — settings.jsonの適用範囲と、クレデンシャル漏洩をDenyで止める多層防御",
+      "url": "https://zenn.dev/halhalhal1/articles/claude-code-permissions-credential-defense",
+      "publishedAt": "2026-08-12T03:32:23.000Z",
+      "publisher": "HAL",
+      "summary": "Claude Code（AIコーディングエージェント）を実運用していると、必ず権限プロンプトにぶつかる。git status を打つたび、cargo build を走らせるたびに「実行していいですか?」と聞かれる。最初は安心だが、一日に何…"
     }
   ],
-  "fetchedAt": "2026-08-12T07:19:54.698Z",
+  "fetchedAt": "2026-08-12T08:46:24.271Z",
   "stale": false,
   "error": null
 }
