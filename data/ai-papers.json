@@ -14,20 +14,20 @@
       "score": 159
     },
     {
+      "id": "b096e9867ba9",
+      "title": "SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries",
+      "url": "https://huggingface.co/papers/2608.05604",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Large Language Models (LLMs) increasingly act as agents whose procedural knowledge is stored in reusable skill packages…",
+      "score": 72
+    },
+    {
       "id": "20676e5ac860",
       "title": "Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence",
       "url": "https://huggingface.co/papers/2608.12036",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "AI models have achieved remarkable success across diverse domains, yet the mechanisms underlying their capabilities and…",
       "score": 72
-    },
-    {
-      "id": "b096e9867ba9",
-      "title": "SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries",
-      "url": "https://huggingface.co/papers/2608.05604",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Large Language Models (LLMs) increasingly act as agents whose procedural knowledge is stored in reusable skill packages…",
-      "score": 71
     },
     {
       "id": "f7edaffe839f",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.11350",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Embodied agents are increasingly built as systems around foundation models, where performance depends not only on model…",
-      "score": 8
+      "score": 9
     },
     {
       "id": "9223e8da387a",
@@ -54,6 +54,22 @@
       "score": 3
     },
     {
+      "id": "1c6ffee2eac2",
+      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
+      "url": "https://huggingface.co/papers/2608.10450",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic …",
+      "score": 3
+    },
+    {
+      "id": "fa28cfa0895b",
+      "title": "Parameter Exploration for RLVR via Variational Learning",
+      "url": "https://huggingface.co/papers/2608.09805",
+      "publishedAt": "2026-08-10T16:28:07.000Z",
+      "summary": "Exploration has been a focus of reinforcement learning research for a long time. Recently, there has been growing evide…",
+      "score": 2
+    },
+    {
       "id": "29f6543b21ba",
       "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
       "url": "https://huggingface.co/papers/2608.11215",
@@ -62,19 +78,11 @@
       "score": 2
     },
     {
-      "id": "1c6ffee2eac2",
-      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
-      "url": "https://huggingface.co/papers/2608.10450",
+      "id": "b54235eb8628",
+      "title": "Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control",
+      "url": "https://huggingface.co/papers/2608.12123",
       "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic …",
-      "score": 2
-    },
-    {
-      "id": "fa28cfa0895b",
-      "title": "Parameter Exploration for RLVR via Variational Learning",
-      "url": "https://huggingface.co/papers/2608.09805",
-      "publishedAt": "2026-08-10T16:28:07.000Z",
-      "summary": "Exploration has been a focus of reinforcement learning research for a long time. Recently, there has been growing evide…",
+      "summary": "LLM-agent services repeatedly execute small deterministic transitions between model and tool calls: route an outcome, u…",
       "score": 1
     },
     {
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "While Vision-Language-Action (VLA) models have advanced embodied AI, their fundamentally reactive paradigm severely lim…",
       "score": 1
-    },
-    {
-      "id": "b54235eb8628",
-      "title": "Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control",
-      "url": "https://huggingface.co/papers/2608.12123",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "LLM-agent services repeatedly execute small deterministic transitions between model and tool calls: route an outcome, u…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-13T16:34:45.787Z",
+  "fetchedAt": "2026-08-13T17:41:36.803Z",
   "stale": false,
   "error": null
 }
