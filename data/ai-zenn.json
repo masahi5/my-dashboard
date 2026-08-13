@@ -6,86 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "6c569fa65a6c",
-      "title": "# AIに本当に足りないのは「判断力」なのか？——プロジェクト管理から考える文脈の問題",
-      "url": "https://zenn.dev/kuma18/articles/0d30acc29d3fd3",
-      "publishedAt": "2026-08-13T16:50:13.000Z",
-      "publisher": "xiao18",
-      "summary": "PMPの更新期限が近づいてきたので、最近になってようやくPDUを少しずつ消化し始めました。 ProjectManagement.comを見ていたときに見つけたのが、Mark Mullaly氏の “What AI Cannot Do for…"
-    },
-    {
-      "id": "2d3e630a296f",
-      "title": "多言語サイトは「言語切替型」と「二言語同時表示型」、結局どっちが正解なのか問題",
-      "url": "https://zenn.dev/saikoseiko/articles/ff42d756e1a8f6",
-      "publishedAt": "2026-08-13T16:28:05.000Z",
-      "publisher": "Saiko-Seiko",
-      "summary": "〜現場で何度もモヤモヤしてきた話を、全部さらけ出します〜 Webサイトの多言語対応というテーマ、パッと聞くと「まあ翻訳すればいいんでしょ？」くらいに思われがちです。 でも実際に現場に入ってみると、翻訳の精度うんぬんより先に、もっと根本的な…"
-    },
-    {
-      "id": "912b55c223a1",
-      "title": "Embeddingモデルを活用した英単語教育「ワードウルフ」",
-      "url": "https://zenn.dev/ddd3h/articles/a37be0976c4e7b",
-      "publishedAt": "2026-08-13T16:27:32.000Z",
-      "publisher": "西濱大将",
-      "summary": "はじめに 最近では、英単語帳を開いてひたすら暗記するような学習だけでなく、Duolingoのようにゲーム感覚で楽しみながら学習する方法も広く使われるようになっています。 そこで今回は、大学受験を目指す高校生向けに、楽しみながら英単語を学べ…"
-    },
-    {
-      "id": "b488348a28c8",
-      "title": "自分のブログを、AIに見つけてもらう — RSSがもう一度効く理由",
-      "url": "https://zenn.dev/rssatlas/articles/rss-for-writers",
-      "publishedAt": "2026-08-13T16:16:44.000Z",
-      "publisher": "RSS Atlas",
-      "summary": "検索経由の流入が減って、代わりにAIが答えを作るようになりました。 そのときAIが何を読んでいるかが、書き手にとって新しい可視性になります。 この記事は、その入口としてRSSがもう一度効くという話です。技術記事というより、 書いている人向…"
-    },
-    {
-      "id": "9f7f98edf04a",
-      "title": "「ピラー×クラスター」をシステムに落とし込む：データモデリングの考え方",
-      "url": "https://zenn.dev/avecdogpresence/articles/b3726e67e109ca",
-      "publishedAt": "2026-08-13T16:11:06.000Z",
-      "publisher": "Ken",
-      "summary": "SEO記事の量産を任されたとき、私は「とにかく記事数を増やせば伸びる」という感覚に引っ張られていました。ところが実運用では、記事同士が似た内容でぶつかり、検索意図ごとの役割分担が曖昧なまま増殖していく問題が起きます。結果として、個々の記事…"
-    },
-    {
-      "id": "fca89e74f136",
-      "title": "型契約書を SSoT にする — TDDD（型定義駆動開発）",
-      "url": "https://zenn.dev/flip451/articles/sotohe-tddd-type-contract",
-      "publishedAt": "2026-08-13T15:31:49.000Z",
-      "publisher": "flip451",
-      "summary": "型システムは雄弁だ。それだけでコードの意図や制約を表現できる。この性質は、自然言語で書かれた仕様書と実装の間のギャップを仲介するのに役立つ。さらに型そのものに制約をかければ、アーキテクチャ上の約束やコーディングの作法も、守られているかを機…"
-    },
-    {
-      "id": "2a2b5fb91aeb",
-      "title": "Claude Code の続きを Cursor でやる — 履歴は継げるが、道具は別物",
-      "url": "https://zenn.dev/honeymarron/articles/claude-code-cursor-session-handoff",
-      "publishedAt": "2026-08-13T15:30:06.000Z",
-      "publisher": "honeymarron",
-      "summary": "エージェントを乗り換えるとき、いちばん高くつくのは、ここまでの経緯を最初から説明し直すコストです。Cursor には、同じマシン上の Claude Code の会話を Agents Window に取り込む機能があり、この再説明を大きく減…"
-    },
-    {
-      "id": "234fc73b15a8",
-      "title": "NPUのSystolic Arrayとは？PE Arrayとデータ再利用の仕組み",
-      "url": "https://zenn.dev/kas_blog/articles/npu-systolic-array-dataflow",
-      "publishedAt": "2026-08-13T15:13:18.000Z",
-      "publisher": "kas's blog",
-      "summary": "NPUはなぜDRAMアクセスを減らしやすいのか？PE ArrayとSystolic ArrayをGPUとの違いから理解する 概念図：実際の製品回路を理解しやすく簡略化した図。 本記事の目的 前編では、GPUが行列積をtile（小さな部分行…"
-    },
-    {
-      "id": "74ee1772cbb8",
-      "title": "Herdrのサイドバーに要約とプロンプトを出す",
-      "url": "https://zenn.dev/mostlyfine/articles/c4978481603b47",
-      "publishedAt": "2026-08-13T15:08:31.000Z",
-      "publisher": "mostlyfine",
-      "summary": "https://github.com/mostlyfine/herdr-summarize Herdr、便利なんだけど大量にClaudeを動かしてると何やってるか分からなくなるんよね。。 Claudeのhooksを使って、入力したプロンプ…"
-    },
-    {
-      "id": "4ea8d8c9b85b",
-      "title": "スケジュール機能を使ったテック朝刊",
-      "url": "https://zenn.dev/takumi_machino/articles/gpt-work-teck-news",
-      "publishedAt": "2026-08-13T14:44:19.000Z",
-      "publisher": "takumi(machino)",
-      "summary": "概要 技術ニュースを追いかけたいと思っていても、複数のサイトを毎日追いかけるのは大変である。 そこで今回は、ChatGPTのスケジュール機能を使い、自分が興味のある分野のニュースを「テック朝刊」として毎朝自動でまとめてもらうプロンプトを作…"
-    },
-    {
       "id": "ecb83e083400",
       "title": "クラウドAIに入力できない情報をどう扱うか？llama.cppで学ぶローカルLLM入門をUdemyで公開した話",
       "url": "https://zenn.dev/sumumu26/articles/1898ece4db3afa",
@@ -100,9 +20,89 @@
       "publishedAt": "2026-08-13T14:04:21.000Z",
       "publisher": "ほし",
       "summary": "こんにちは。今日は「Claude Code に書かせた文章を、OpenAI の Codex CLI にレビューさせてみた」話です。身内の原稿をよその会社に添削してもらうようなもので、正直ちょっと気まずかったです。 先に結論から言います。同…"
+    },
+    {
+      "id": "fa0467df255b",
+      "title": "AIエージェント15体で事業を回すために、記憶と人格を分離した — nenrin を公開しました",
+      "url": "https://zenn.dev/edhiblemeer/articles/67b7496375661e",
+      "publishedAt": "2026-08-13T13:20:50.000Z",
+      "publisher": "yoshi",
+      "summary": "Claude Code のセッションを 15 体、常時稼働させています。実験環境ではありません。4 つの事業がこの上で動いています。 そのために作った記憶・人格レイヤー nenrin を、MIT ライセンスで公開しました。 https:/…"
+    },
+    {
+      "id": "479eacd62d88",
+      "title": "CLAUDE.mdは確率的制約——144KBのルールが破られた記録と3層防御",
+      "url": "https://zenn.dev/zenn_content/articles/claude-md-rules-are-probabilistic",
+      "publishedAt": "2026-08-13T13:00:50.000Z",
+      "publisher": "krbrr",
+      "summary": "結論から CLAUDE.mdに「必ず〜せよ」「絶対に〜するな」と書いても、Claude Codeは一定確率でそれを破ります。これは設定ミスではなく構造的な性質です。 私の環境には現在、CLAUDE.md（70行）＋ルールファイル17本・1…"
+    },
+    {
+      "id": "550be9f7e635",
+      "title": "そのdenyルール、効いていません——settings.json堅牢化チートシート",
+      "url": "https://zenn.dev/zenn_content/articles/claude-code-settings-hardening",
+      "publishedAt": "2026-08-13T13:00:49.000Z",
+      "publisher": "krbrr",
+      "summary": "結論から Claude Codeの settings.json には、書けてしまうのに一切適用されないルール形式があります。公開されている設定149件を走査した調査では、16%の設定に「死んだルール」が含まれていた——.ssh や .aw…"
+    },
+    {
+      "id": "ad08e7d66269",
+      "title": "「賢いAIを入れればエージェント完成」だと思っていた — コードを書かないエンジニアが2ヶ月で気づいた誤解",
+      "url": "https://zenn.dev/sikada/articles/story-agent-realization",
+      "publishedAt": "2026-08-13T12:57:08.000Z",
+      "publisher": "コードを書かない鹿田さん",
+      "summary": "自宅のゲーミングPCに、画像も動画も音楽も作れて、話しかければ道具を使いこなして働いてくれるAIエージェント環境を作りました。私はIT系ではない製造業のエンジニアで、コードはほぼ書けません。それでも作れた話は別の記事に書いたのですが、今回…"
+    },
+    {
+      "id": "fc8302a4f6ce",
+      "title": "AIにiOSアプリをビルドさせるときのxcodebuildオプション",
+      "url": "https://zenn.dev/hmhv/articles/1a3ca2c2e93d53",
+      "publishedAt": "2026-08-13T12:51:38.000Z",
+      "publisher": "hmhv",
+      "summary": "AIにiOSアプリの実装からビルド、シミュレータへのインストール、検証まで任せる機会が増えた。 その中で、ビルドを速くしつつ、AIに渡すログを必要最小限に抑えるため、現在は次のコマンドを使っている。 xcodebuild -project…"
+    },
+    {
+      "id": "8df97a3318d8",
+      "title": "Claude Code のフックで危険なコマンドを止める：語で探すのをやめて実行位置で見る",
+      "url": "https://zenn.dev/mitsubato/articles/claude-code-hook-block-dangerous-commands",
+      "publishedAt": "2026-08-13T12:51:32.000Z",
+      "publisher": "タカてぃん",
+      "summary": "起きたこと Claude Code にコマンドを自動で実行させていると、実行してほしくないものが混ざります。外部への送信、機密ファイルのコピー、取り消せない削除。そこで PreToolUse フック（コマンドが実行される直前に割り込んで、…"
+    },
+    {
+      "id": "92df191b9a75",
+      "title": "AI承認駆動開発 #3｜AI生成を減らせ——プログラム生成できない「残差」を育てる",
+      "url": "https://zenn.dev/frb_tamasub/articles/ai-approval-driven-development-03-minimize-ai",
+      "publishedAt": "2026-08-13T12:51:14.000Z",
+      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
+      "summary": "! 同じ判断を、二度させるな。 不安定な人間に、同じ判断を何度もさせない。 答えが確定したことを、AIにも毎回考え直させない。 判断軸と制約を育て、人間とAIで協力して、可能な限りプログラムへ倒していく。 ! AI承認駆動開発では、AI生…"
+    },
+    {
+      "id": "3efdfeb3b297",
+      "title": "【緊急解説】DeepSeek衝撃の値上げ発表！最新AIモデル価格徹底比較",
+      "url": "https://zenn.dev/lumichy/articles/llm-api-pricing-comparison-2026",
+      "publishedAt": "2026-08-13T12:44:07.000Z",
+      "publisher": "lumichy",
+      "summary": "【緊急解説】DeepSeek衝撃の値上げ発表！最新AIモデル価格徹底比較 AI業界に再び巨大な激震が走りました。 これまで「業界最安値の破格コスト」「価格破壊の旗手」として世界中の開発者を熱狂させてきた中国のAIスタートアップ DeepS…"
+    },
+    {
+      "id": "7fa72c483c97",
+      "title": "「AIで技術記事を書くのは良くない」と言われるけど、別に書いてもよくない？",
+      "url": "https://zenn.dev/ikuosaito1989/articles/185ec5ce09b9ae",
+      "publishedAt": "2026-08-13T12:43:42.000Z",
+      "publisher": "さいとうさん",
+      "summary": "最近、AIで書いた技術記事に対して否定的な意見をよく見ます。 AIにテーマだけ渡して長文を作ったり、内容を十分に確認せずそのまま公開したり。そういう記事が増えるのは良くないよね、という話です。 これはまぁわかります。 ただ、 AIを使って…"
+    },
+    {
+      "id": "df166aa175dd",
+      "title": "★2.8万のOfficeCLIでxlsxを読ませたらふりがなが値に混入した",
+      "url": "https://zenn.dev/mskbhd/articles/lab-250-officecli-2-8-officexlsx",
+      "publishedAt": "2026-08-13T12:42:48.000Z",
+      "publisher": "mskbhd",
+      "summary": "きっかけ 「人類がOfficeの呪縛から完全解放される」――そんな触れ込みでXで話題になっていた OfficeCLI を試した。GitHubスター2.8万超、fork1,900超。Office本体もクラウドもAPIキーも不要、単一バイナリ…"
     }
   ],
-  "fetchedAt": "2026-08-13T20:22:11.698Z",
+  "fetchedAt": "2026-08-13T21:13:05.856Z",
   "stale": false,
   "error": null
 }
