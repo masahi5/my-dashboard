@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.00677",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "AI agents operate in persistent environments where early state changes can influence decisions far into the future. Unl…",
-      "score": 68
+      "score": 92
     },
     {
       "id": "40a5c8f6432a",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.12307",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's p…",
-      "score": 68
+      "score": 70
     },
     {
       "id": "64a9e367e769",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.08160",
       "publishedAt": "2026-08-08T00:00:00.000Z",
       "summary": "The rapid advancement of Large Language Models (LLMs) is revolutionizing AI for Games by enabling open-ended and fluid …",
-      "score": 21
+      "score": 22
     },
     {
       "id": "f7edaffe839f",
@@ -35,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.10708",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Recent Vision Foundation Models (VFMs) predict depth, camera pose, and pointmap in a single forward pass without per-sc…",
-      "score": 9
+      "score": 10
     },
     {
       "id": "8d7fe39291bd",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.11562",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Videos captured through glass often contain reflections that degrade visual quality and interfere with downstream visio…",
-      "score": 4
+      "score": 5
     },
     {
       "id": "1c6ffee2eac2",
@@ -51,6 +51,14 @@
       "url": "https://huggingface.co/papers/2608.10450",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic …",
+      "score": 2
+    },
+    {
+      "id": "85efcb609895",
+      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
+      "url": "https://huggingface.co/papers/2608.06270",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "The \"thinking-with-images\" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom. However…",
       "score": 2
     },
     {
@@ -62,12 +70,20 @@
       "score": 2
     },
     {
-      "id": "0fbf04c80577",
-      "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
-      "url": "https://huggingface.co/papers/2608.11216",
-      "publishedAt": "2026-07-20T00:00:00.000Z",
-      "summary": "World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex…",
-      "score": 2
+      "id": "9223e8da387a",
+      "title": "Simplex Relaxation for Discrete Diffusion",
+      "url": "https://huggingface.co/papers/2608.10615",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Discrete diffusion models for categorical generation are defined by a corruption kernel, which determines the intermedi…",
+      "score": 1
+    },
+    {
+      "id": "aeb2887183d5",
+      "title": "Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands",
+      "url": "https://huggingface.co/papers/2608.11574",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Hand Pose Estimation (HPE) is a fundamental technology for various applications such as AR/VR and robotics. In these ap…",
+      "score": 1
     },
     {
       "id": "8586d24277db",
@@ -78,31 +94,15 @@
       "score": 1
     },
     {
-      "id": "85efcb609895",
-      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
-      "url": "https://huggingface.co/papers/2608.06270",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "The \"thinking-with-images\" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom. However…",
-      "score": 1
-    },
-    {
       "id": "8c968fb54c1a",
       "title": "NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs",
       "url": "https://huggingface.co/papers/2608.08107",
       "publishedAt": "2026-08-08T00:00:00.000Z",
       "summary": "Multimodal expansion of large language models (LLMs) enables new perceptual capabilities but often compromises the lang…",
       "score": 1
-    },
-    {
-      "id": "7348675704cf",
-      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
-      "url": "https://huggingface.co/papers/2608.12313",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce c…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-13T05:54:39.931Z",
+  "fetchedAt": "2026-08-13T07:21:34.583Z",
   "stale": false,
   "error": null
 }
