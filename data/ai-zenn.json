@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "6a1740cd97fc",
-      "title": "41. Claude Code ビルトインスキル図鑑（v2.1.216 / 2026年7月版）",
-      "url": "https://zenn.dev/yamada_ai_dev/articles/claude-code-builtin-skills-catalog",
-      "publishedAt": "2026-08-12T23:30:11.000Z",
-      "publisher": "yamada-ai-dev",
-      "summary": "Claude Code には最初から使えるスキルが入っている。/ を打てば候補は出るが、一行説明だけでは何ができるか分からないものが多い。しかも一覧に出ないのに動くスキルと一覧に出るのに Claude が呼んでくれないスキルが混在している…"
+      "id": "ea6a0fe967dd",
+      "title": "ループエンジニアリングではなく制約設計",
+      "url": "https://zenn.dev/rerena/articles/999e899cc788c1",
+      "publishedAt": "2026-08-13T09:21:58.000Z",
+      "publisher": "Rerena/Dicorble",
+      "summary": "AIによるソフトウェア開発で行われる生成・評価・修正の反復を、最適解を探索する反復過程として考える。 解候補の集合を X、評価関数を f(x) とすると、単純には次の最適化問題として書ける。 x^*=\\arg\\min_{x\\in X} f…"
     },
     {
-      "id": "29e47710539a",
-      "title": "AIが生成したJSONを、本文としてそのまま4か月公開していた話",
-      "url": "https://zenn.dev/alzcb4/articles/24f3a40293666a",
-      "publishedAt": "2026-08-12T23:21:12.000Z",
-      "publisher": "テト",
-      "summary": "note に自動投稿するパイプラインを回していたら、AI が返した JSON を本文としてそのまま公開していた。 投稿は4月上旬。気づいたのは8月だった。約4か月、そのまま公開され続けていた。 公開済みの記事78本をチェックしたところ、1…"
+      "id": "2aa703b90592",
+      "title": "なぜ、私が「AIの発展でITエンジニアは消滅する」vs「AIが発展してもITエンジニアはずっと必要」の論争を冷笑的に見るのか？",
+      "url": "https://zenn.dev/pdfractal/articles/a8eb480fd10df9",
+      "publishedAt": "2026-08-13T09:16:43.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに AIが急速に発展するようになってから、「いずれITエンジニアはAIに仕事を奪われて消滅する」という議論と、「どれだけAIが発展してもITエンジニアは必要であり続ける」という議論を頻繁に見かけるようになりました。私はこの論争をかな…"
     },
     {
-      "id": "a674eae142b8",
-      "title": "仕様を書く人になる — AIに実装させる前に決めるべきことと、その粒度",
-      "url": "https://zenn.dev/tejunya/articles/a031_spec-driven-development",
-      "publishedAt": "2026-08-12T23:00:05.000Z",
-      "publisher": "手順屋",
-      "summary": "「経費CSVを取り込んで月次集計を出すツールを作って」と投げると、AIは30秒で動くコードを返してくる。実行すると、それらしい結果が出る。 ここで手が止まる。文字コードは何を想定しているのか。空のCSVを入れたらどうなるのか。金額が桁あふ…"
+      "id": "5031ff1a8b80",
+      "title": "AWS AI Leagueを自身のAWS環境で試す ─ Community EditionでGame Playとエージェント改善",
+      "url": "https://zenn.dev/nttdata_tech/articles/3e517cc5f344c6",
+      "publishedAt": "2026-08-13T08:30:05.000Z",
+      "publisher": "Yutaka Kashiwabara",
+      "summary": "1. はじめに これまで、AWS AI League Community Editionについて、以下の記事で全体像とデプロイ方法を紹介しました。 AWS AI Leagueを自身のAWS環境で試す ─ Community Edition…"
     },
     {
-      "id": "15146c1a8c5c",
-      "title": "AIの注意書きは27件で効かなくなる — 4行に畳めば効きが戻る",
-      "url": "https://zenn.dev/cnative_tkb/articles/c5b37ddb791b4c",
-      "publishedAt": "2026-08-12T22:51:59.000Z",
-      "publisher": "cnative_tkb",
-      "summary": "数えたら、39 件あった。 AI に「次から同じことをしないでほしい」と伝えるたびに書き足してきた注意書きのことだ。Claude Code で個人用の自動化基盤を約 4 ヶ月いじってきて、その間ずっと溜め続けている。1 件ずつはちゃんとし…"
+      "id": "d6fcfeff1141",
+      "title": "AIエージェントと進めるソフトウェア開発",
+      "url": "https://zenn.dev/hako_hako/books/nexus-product-new-development",
+      "publishedAt": "2026-08-13T08:10:07.000Z",
+      "publisher": "hako@札幌",
+      "summary": "AIエージェントは、プロダクト開発のどこまでを担えるのか。社内向け案件管理アプリRADARを題材に、Claude CodeとNexus Architectとの壁打ちから、仮説検証、設計、Issue分解、実装、レビュー、実運用後の改善まで、…"
     },
     {
-      "id": "793680b88b59",
-      "title": "ダートマス会議とは？AI研究の出発点",
-      "url": "https://zenn.dev/h888s/articles/gtest-dartmouth-conference",
-      "publishedAt": "2026-08-12T22:39:30.000Z",
-      "publisher": "合格を、研究する。",
-      "summary": "G検定の歴史分野で登場する「ダートマス会議」は、AIという学問領域の出発点として位置づけられる学術会議です。本記事では、その意味と関連用語との違いを、定義に沿って整理します。 ダートマス会議とは ダートマス会議は、1956年にジョン・マッ…"
+      "id": "7c8e75179429",
+      "title": "LLMをどこに置くか ― 電話網のIN(SCP)設計を写経したら差し替え可能になった",
+      "url": "https://zenn.dev/halhalhal1/articles/in-scp-ai-architecture",
+      "publishedAt": "2026-08-13T08:07:12.000Z",
+      "publisher": "HAL",
+      "summary": "Amazon Connectで通話心理分析AI(crossbar_telepath)を開発している。設計レビューで「分析エンジンをOpenAIとGeminiで差し替えられると面白い」と言われたとき、答えは「最初からそうなっている」だった。…"
     },
     {
-      "id": "6d61b6e94f98",
-      "title": "【実測】Claude Codeデスクトップアプリでhookが発火しない——検査手順・回避策・5日運用の答え合わせ",
-      "url": "https://zenn.dev/keeper_nothuman/articles/app-hooks-not-firing",
-      "publishedAt": "2026-08-12T22:30:05.000Z",
-      "publisher": "keeper",
-      "summary": "症状 Claude Code をターミナルではなくデスクトップアプリ（Windows版）で使い始めたところ、settings.json に配線してある hook が一切動かなくなった。 うちの環境では、セッションの心拍を書く hook（U…"
+      "id": "6edffef15ab3",
+      "title": "AI画像生成ワークフロー設計入門｜PixAI Studioで学ぶノードのつなぎ方",
+      "url": "https://zenn.dev/satofun/articles/b021bbbd156223",
+      "publishedAt": "2026-08-13T07:56:15.000Z",
+      "publisher": "sato",
+      "summary": "PR｜本記事はプロモーションを含みます AIでイラストを制作する際は、画像を生成するだけでなく、修正、別シーンへの展開、動画化と工程が続きます。これらを別々に進めると、ファイルの書き出しや再アップロード、素材の確認に思わぬ時間を取られてし…"
     },
     {
-      "id": "011b24f56060",
-      "title": "「この関数のテストを書いて」は委譲していい。「このモジュールをテストして」はいけない",
-      "url": "https://zenn.dev/hidetzu/articles/ai-test-delegation-boundary",
-      "publishedAt": "2026-08-12T22:30:05.000Z",
-      "publisher": "hidetzu",
-      "summary": "🎯 はじめに AIエージェントにテストを書かせている。カバレッジも上がるし、速い。 ただ、あるときから引っかかっている。テストは検証器だ。 AIが書いたコードが正しいかを判定するための仕組みを、同じAIに書かせているとしたら、それは自己…"
+      "id": "7e75b692e0a1",
+      "title": "一つのファイルから生成しても、指示のズレは止まらない",
+      "url": "https://zenn.dev/untactit/articles/9b983792bd8e61",
+      "publishedAt": "2026-08-13T06:24:49.000Z",
+      "publisher": "untactit",
+      "summary": "「エージェントの指示ファイルがズレる」への素直な対策は、写しを持つのをやめることです。AGENTS.md を一つ書いて、CLAUDE.md も .cursor/rules/*.mdc も .github/copilot-instructi…"
     },
     {
-      "id": "17f56061fa94",
-      "title": "Claude CodeとPythonでPDF請求書から情報を自動抽出",
-      "url": "https://zenn.dev/ikuokuotiak/articles/claude-python-pdf-invoice-extractor",
-      "publishedAt": "2026-08-12T22:01:33.000Z",
-      "publisher": "ahic",
-      "summary": "課題提起：PDF請求書からの情報抽出を自動化する 日々の業務において、多くの企業が大量のPDF形式の請求書や伝票を処理しています。これらのPDFから、請求番号、日付、合計金額、品目といった必要な情報を手作業で抽出・入力するのは、非常に時間…"
+      "id": "0c7455a6b84c",
+      "title": "Grok 4.6: Benchmarks, Pricing vs GPT-5.6 Sol and Fable 5",
+      "url": "https://zenn.dev/neotechpark/articles/09f7b23a75ac1b",
+      "publishedAt": "2026-08-13T06:00:50.000Z",
+      "publisher": "NeoTechPark",
+      "summary": "https://x.com/SpaceXAI/status/2087562800982077492?s=20 xAI (now operating as SpaceXAI) shipped Grok 4.6 on August 12, 2…"
     },
     {
-      "id": "dcefc04ee53d",
-      "title": "`.claude/` を一から設計して副業 AI 開発環境を整える",
-      "url": "https://zenn.dev/liatris/articles/20260813-claude-dir-setup",
-      "publishedAt": "2026-08-12T22:00:05.000Z",
-      "publisher": "平野翔斗",
-      "summary": "! この記事は、Claude Codeを執筆支援に使った \"毎朝1本書く\" 取り組みの一環で書いています。 目的: 自分のAI活用キャッチアップ。仕組み自体も毎月アップデートしていきます 体制: 題材選定・実装・下書きをClaude Co…"
+      "id": "8ba32bc8c130",
+      "title": "AIとMCPサーバーの通信を全部記録したら、2万字の説明文は1トークンも渡っていなかった",
+      "url": "https://zenn.dev/numarn/articles/mcp-tool-lazy-load-wire-handson",
+      "publishedAt": "2026-08-13T05:20:22.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "先に結論から書きます。AI に外部の道具を持たせる仕組み(MCP)で、道具の説明文をどれだけ長く書いても、AI への入力は1トークンも増えませんでした(トークンは AI が文章を数えるときの単位で、料金も待ち時間もこれで決まります)。2つ…"
     },
     {
-      "id": "2cb0198364c6",
-      "title": "ECEを正しく理解する - ニューラルネットワークの確信度を測る・疑う・較正する",
-      "url": "https://zenn.dev/arima_mira/articles/ece-calibration-report",
-      "publishedAt": "2026-08-12T21:53:35.000Z",
-      "publisher": "ありまみら",
-      "summary": "AIは精度だけでは足りない時もある 画像分類をはじめとするニューラルネットワークは、さまざまな分野で高い性能を示しています。 しかし、モデルを実際の意思決定に利用する場合、予測ラベルが正しいかどうかだけでなく、その予測に付けられた確率がど…"
+      "id": "5048567c7cb9",
+      "title": "AI音声コールセンターで正確な住所を聞き取るための設計",
+      "url": "https://zenn.dev/genax_corp/articles/1ea3eca0741017",
+      "publishedAt": "2026-08-13T04:35:38.000Z",
+      "publisher": "tuchiyam_genax",
+      "summary": "はじめに こんにちは。 Gen-AX AIエンジニアの内山です。 私たちは X-Ghost（クロスゴースト）というプロダクトを開発しています。企業にかかってきた電話に、AIがオペレーターとして音声で応対するシステムです。Azure Ope…"
     },
     {
-      "id": "894e4ef86213",
-      "title": "私のための自作ターミナルSatinを開発しています",
-      "url": "https://zenn.dev/soyukke/articles/develop-terminal-satin",
-      "publishedAt": "2026-08-12T21:20:20.000Z",
-      "publisher": "そゆっけ",
-      "summary": "はじめに 最近はcmuxというターミナルを使用していました。最近よく聞くHerdrはまだ触っていません。 特にコーディングエージェントとの組み合わせの使い勝手がよく、使っていました。 特に複数のプロジェクトを動かすのと、完了通知がわかりや…"
+      "id": "4a44c63859e6",
+      "title": "ゼロから始めるClaude Code #7 Git連携編：コミットもPRもClaudeに任せてみる",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-07-git",
+      "publishedAt": "2026-08-13T04:14:20.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は権限と settings.json で「どこまで任せるか」を設計しました。 https://zenn.dev/mika_and_coco/articles/clau…"
     },
     {
-      "id": "86c7d8be09a8",
-      "title": "AIエージェントに開発を任せ続けたら、「完了しました」の何割かが嘘だった",
-      "url": "https://zenn.dev/sen_web3/articles/agent-completion-claim-audit",
-      "publishedAt": "2026-08-12T21:06:00.000Z",
-      "publisher": "Sen｜オンチェーン実務ツールの個人開発記録",
-      "summary": "私は複数のWebプロダクトを個人で開発・運用しています。実装・デプロイ・計測の大部分をClaude Codeなどのコーディングエージェントに任せる体制で、私が書くコードより、エージェントが書くコードの方が圧倒的に多い状態が半年以上続いてい…"
+      "id": "a3de30d7ab00",
+      "title": "【Make】特定の送信元から届いたGmailをSlackへ自動通知する",
+      "url": "https://zenn.dev/donko/articles/2ed2114a1b0015",
+      "publishedAt": "2026-08-13T04:11:04.000Z",
+      "publisher": "凡人",
+      "summary": "作ったもの Gmailに特定のメールアドレスからメールが届いた際、Makeを使ってSlackの非公開チャンネルへ自動通知するフローを作成しました。 Gmail（特定の送信元を監視） ↓ Make（15分おきに確認） ↓ Slack（非公開…"
     }
   ],
-  "fetchedAt": "2026-08-13T10:00:54.318Z",
+  "fetchedAt": "2026-08-13T11:10:20.947Z",
   "stale": false,
   "error": null
 }
