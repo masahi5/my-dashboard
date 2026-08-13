@@ -6,83 +6,83 @@
   "category": "ai",
   "items": [
     {
-      "id": "e869721b04f2",
-      "title": "Articulated Object Reconstruction from Rest-State Observation",
-      "url": "https://huggingface.co/papers/2607.27749",
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "summary": "Building interactive digital twins requires recovering both 3D geometry and the kinematic structures that govern how ob…",
-      "score": 40
-    },
-    {
-      "id": "1377cc02a25e",
-      "title": "AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss",
-      "url": "https://huggingface.co/papers/2608.11205",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Fréchet distance has recently emerged as an effective distribution-level objective for generator post-training, complem…",
-      "score": 23
-    },
-    {
-      "id": "ad17a40aae77",
-      "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
-      "url": "https://huggingface.co/papers/2608.09900",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capab…",
-      "score": 12
-    },
-    {
-      "id": "a99ee83d9214",
-      "title": "UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models",
-      "url": "https://huggingface.co/papers/2608.08627",
-      "publishedAt": "2026-08-09T00:00:00.000Z",
-      "summary": "Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained ch…",
-      "score": 11
-    },
-    {
-      "id": "17b5525468f5",
-      "title": "InSight-doc: Agentic Visual Perception for Long-Document Understanding",
-      "url": "https://huggingface.co/papers/2608.10628",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Long-document understanding often requires reasoning over many visually rich pages, making inference costly and prone t…",
-      "score": 10
-    },
-    {
-      "id": "bd6e3fbe3ac7",
-      "title": "DistilVDR: A Compact End-to-End Visual Document Retriever via Dual-Student Distillation",
-      "url": "https://huggingface.co/papers/2608.10636",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Visual document retrieval (VDR) is dominated by multi-billion-parameter models that are slow to index at full corpus sc…",
-      "score": 10
-    },
-    {
-      "id": "d552a8da7cd4",
-      "title": "360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents",
-      "url": "https://huggingface.co/papers/2608.08814",
-      "publishedAt": "2026-08-09T00:00:00.000Z",
-      "summary": "We present 360CityArena, a benchmark for evaluating the urban exploration capabilities of embodied agents within a phot…",
-      "score": 9
-    },
-    {
-      "id": "2859a4165428",
-      "title": "Power law graph attention: exact generalization of scaled dot-product attention, empirical collapse at inference",
-      "url": "https://huggingface.co/papers/2608.10288",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "The Large Language Model from Power Law Decoder Representations (PLDR-LLM) and its attention, Power Law Graph Attention…",
-      "score": 6
-    },
-    {
-      "id": "3dc502ffe4ff",
-      "title": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG",
-      "url": "https://huggingface.co/papers/2608.07458",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid …",
-      "score": 4
-    },
-    {
-      "id": "c612c68d209b",
-      "title": "ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents",
-      "url": "https://huggingface.co/papers/2608.11878",
+      "id": "40a5c8f6432a",
+      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "url": "https://huggingface.co/papers/2608.12307",
       "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents integrated with external tools are vulnerable to indirect prompt injections embedded …",
+      "summary": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's p…",
+      "score": 58
+    },
+    {
+      "id": "64a9e367e769",
+      "title": "Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives",
+      "url": "https://huggingface.co/papers/2608.08160",
+      "publishedAt": "2026-08-08T00:00:00.000Z",
+      "summary": "The rapid advancement of Large Language Models (LLMs) is revolutionizing AI for Games by enabling open-ended and fluid …",
+      "score": 17
+    },
+    {
+      "id": "14c2d93bca1e",
+      "title": "StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization",
+      "url": "https://huggingface.co/papers/2608.12314",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Previsualization is an intermediate layer between ideas and production in film, games, architecture, and urban design. …",
+      "score": 14
+    },
+    {
+      "id": "f7edaffe839f",
+      "title": "Self-Geometry: GT-Free and Plug-and-Play Test-Time Adaptation for Geometrically Consistent 3D Vision Foundation Models",
+      "url": "https://huggingface.co/papers/2608.10708",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Recent Vision Foundation Models (VFMs) predict depth, camera pose, and pointmap in a single forward pass without per-sc…",
+      "score": 5
+    },
+    {
+      "id": "8d7fe39291bd",
+      "title": "From Synthesis to Removal: Physics-Grounded Reflection Simulation and Diffusion-Based Video Dereflection",
+      "url": "https://huggingface.co/papers/2608.11562",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Videos captured through glass often contain reflections that degrade visual quality and interfere with downstream visio…",
+      "score": 3
+    },
+    {
+      "id": "0fbf04c80577",
+      "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+      "url": "https://huggingface.co/papers/2608.11216",
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "summary": "World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex…",
+      "score": 2
+    },
+    {
+      "id": "8586d24277db",
+      "title": "AtlasVLA: Persistent World-Ego State Modeling for Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2608.06729",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "While Vision-Language-Action (VLA) models have advanced embodied AI, their fundamentally reactive paradigm severely lim…",
+      "score": 1
+    },
+    {
+      "id": "85efcb609895",
+      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
+      "url": "https://huggingface.co/papers/2608.06270",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "The \"thinking-with-images\" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom. However…",
+      "score": 1
+    },
+    {
+      "id": "8c968fb54c1a",
+      "title": "NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs",
+      "url": "https://huggingface.co/papers/2608.08107",
+      "publishedAt": "2026-08-08T00:00:00.000Z",
+      "summary": "Multimodal expansion of large language models (LLMs) enables new perceptual capabilities but often compromises the lang…",
+      "score": 1
+    },
+    {
+      "id": "81ddd2a527c6",
+      "title": "MBA: Multimodal Benchmark and Agents for Real-World Business Ideation",
+      "url": "https://huggingface.co/papers/2608.11616",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Agentic systems powered by large language models (LLMs) have opened new opportunities for business ideation. Yet existi…",
       "score": 1
     },
     {
@@ -91,18 +91,18 @@
       "url": "https://huggingface.co/papers/2608.11274",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "The dominant paradigm treats AI safety as a property to be instilled during model training via RLHF, DPO, or Constituti…",
-      "score": 0
+      "score": 1
     },
     {
-      "id": "699b3e2cb51d",
-      "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
-      "url": "https://huggingface.co/papers/2608.11924",
+      "id": "7348675704cf",
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "url": "https://huggingface.co/papers/2608.12313",
       "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Turning a research idea into a complete paper requires more than text generation: the system must retrieve literature, …",
+      "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce c…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-13T02:02:51.723Z",
+  "fetchedAt": "2026-08-13T04:20:11.351Z",
   "stale": false,
   "error": null
 }

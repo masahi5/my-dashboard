@@ -6,46 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "894e4ef86213",
-      "title": "私のための自作ターミナルSatinを開発しています",
-      "url": "https://zenn.dev/soyukke/articles/develop-terminal-satin",
-      "publishedAt": "2026-08-12T21:20:20.000Z",
-      "publisher": "そゆっけ",
-      "summary": "はじめに 最近はcmuxというターミナルを使用していました。最近よく聞くHerdrはまだ触っていません。 特にコーディングエージェントとの組み合わせの使い勝手がよく、使っていました。 特に複数のプロジェクトを動かすのと、完了通知がわかりや…"
-    },
-    {
-      "id": "86c7d8be09a8",
-      "title": "AIエージェントに開発を任せ続けたら、「完了しました」の何割かが嘘だった",
-      "url": "https://zenn.dev/sen_web3/articles/agent-completion-claim-audit",
-      "publishedAt": "2026-08-12T21:06:00.000Z",
-      "publisher": "Sen｜オンチェーン実務ツールの個人開発記録",
-      "summary": "私は複数のWebプロダクトを個人で開発・運用しています。実装・デプロイ・計測の大部分をClaude Codeなどのコーディングエージェントに任せる体制で、私が書くコードより、エージェントが書くコードの方が圧倒的に多い状態が半年以上続いてい…"
-    },
-    {
-      "id": "1f8e49d513c1",
-      "title": "ソフトウェアファクトリーには、まだ配線図がない",
-      "url": "https://zenn.dev/cognitiveosmdl/articles/88792bb22a7d4b",
-      "publishedAt": "2026-08-12T21:00:05.000Z",
-      "publisher": "cognitiveosmdl",
-      "summary": "2026年、ソフトウェアファクトリーは現実になった。 スコープ化された作業が入り、AIエージェントが実装・レビュー・テストを実行し、検証済みの変更が出ていく。人間は意図を定義し、結果のトレースをレビューする。生産性が3〜5倍になったという…"
-    },
-    {
-      "id": "6f6caab34134",
-      "title": "「プロンプトが長い」は診断ではない ── AIハーネスの不調を6つの失敗パターン名で呼ぶ",
-      "url": "https://zenn.dev/tomu_coelia/articles/harness-failure-modes",
-      "publishedAt": "2026-08-12T19:44:50.000Z",
-      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
-      "summary": "AIエージェントの設定一式（システムプロンプト・skill・フック・チェッカー、まとめて「ハーネス」と呼んでいます）をレビューすると、所見はたいてい「長い」「多い」「ごちゃごちゃしている」になります。これは症状の描写であって診断ではありま…"
-    },
-    {
-      "id": "caf67274481b",
-      "title": "【Python】全項目 合格。正規表現がマッチしない行は、数えていませんでした",
-      "url": "https://zenn.dev/yumanichan/articles/quality-gate-blindspots",
-      "publishedAt": "2026-08-12T19:41:59.000Z",
-      "publisher": "ユウマ｜AI × 個人ゲーム開発",
-      "summary": "AIに書かせた記事を機械で採点するスクリプトを自作しました。 一文の長さ、文末の連続、太字、漢字比率などを測ります。 決めた条件に当てはまる箇所を数え、合否を出す仕組みです。 先日、そのスクリプトが「15項目すべて合格」と出した原稿を、公…"
-    },
-    {
       "id": "718047e8ccf6",
       "title": "AI の追従性（acquiescence）を検証するプロンプト設計 v2 — 自己申告から実測検証へ",
       "url": "https://zenn.dev/leaper/articles/7619dafc7062aa",
@@ -100,9 +60,49 @@
       "publishedAt": "2026-08-12T14:43:40.000Z",
       "publisher": "zanshin",
       "summary": "2026年4月、Cursor 上で動くコーディングエージェント（Claude Opus 4.6）が、staging 作業中に認証エラーにぶつかりました。エージェントはそれを自分で「修正」しようとします。そして作業とは無関係なファイルの中に…"
+    },
+    {
+      "id": "630cf21aab48",
+      "title": "「CLAUDE.md は短い方が良い」を 1,510 回試して確かめた",
+      "url": "https://zenn.dev/odacchi/articles/claude-md-length-experiment",
+      "publishedAt": "2026-08-12T14:32:13.000Z",
+      "publisher": "odacchi",
+      "summary": "CLAUDE.md は短く保つべき、という通説があります。X では「200 行以内が理想」といった言われ方もします。長くなったら .claude/rules/ に分割せよ、とも言われます。 本当なのか、自分の環境で実際に測ってみたら、想像…"
+    },
+    {
+      "id": "b6762c4329d6",
+      "title": "【付録】tagasill/chatの定量的評価",
+      "url": "https://zenn.dev/katsutoatsuto/articles/fab107d84a3659",
+      "publishedAt": "2026-08-12T14:31:27.000Z",
+      "publisher": "katsutoatsuto",
+      "summary": "tagasillは、私個人のアウトプットであるSNSや作品、短文・長文・イラスト・動画などから、トピックと感情及びその関連性について収集・集積したデータベースです。今回はそのデータベースアクセスと、インターネット検索機能を持ったAICha…"
+    },
+    {
+      "id": "9674eacec2c1",
+      "title": "ミニPC大高騰時代のプチおうちサーバ、wii-linux",
+      "url": "https://zenn.dev/tanpang_dev/articles/58e67bf2d17862",
+      "publishedAt": "2026-08-12T14:17:24.000Z",
+      "publisher": "たんぱん",
+      "summary": "おうちサーバー、やってますか？皆さん。 このミニPC大高騰時代、Raspberry Piも3万円を越える中新たに始めたい人もなかなか手が出なくなってくる時代。 私も社会人とはいえ浪費に浪費を重ね、気づいた時には手を出すにはちょっと腰が引け…"
+    },
+    {
+      "id": "0bb6f9eec0d5",
+      "title": "MCP2026対応でAgentCore Gatewayが一気に変わった5つの理由",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-03-tech-daily",
+      "publishedAt": "2026-08-12T14:01:11.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 本日は、BigGoの「LLMは舞台裏へ、AIエージェントと具身知能が主役に」が示す通り、AIの中心が“モデルそのもの”から“エージェントとしてどう動くか”へ移っています。AWSのMCP対応、Allganize・富士通・Microsof…"
+    },
+    {
+      "id": "007e67cdefd2",
+      "title": "エージェントの自己改善ループで偽の成功を防ぐ設計",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/bounded-agent-loop-false-success",
+      "publishedAt": "2026-08-12T13:28:26.000Z",
+      "publisher": "とんのかつ",
+      "summary": "AIエージェントに「失敗を観測し、改善案を作り、検証して閉じる」ループを任せるとき、難しいのは改善案を作ることではありません。難しいのは、失敗しているのに成功として閉じないことです。 この記事では、Windows / PowerShell…"
     }
   ],
-  "fetchedAt": "2026-08-13T02:02:51.830Z",
+  "fetchedAt": "2026-08-13T04:20:11.482Z",
   "stale": false,
   "error": null
 }
