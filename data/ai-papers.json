@@ -6,12 +6,20 @@
   "category": "ai",
   "items": [
     {
+      "id": "8375f6f83b3e",
+      "title": "OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution",
+      "url": "https://huggingface.co/papers/2608.00677",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "summary": "AI agents operate in persistent environments where early state changes can influence decisions far into the future. Unl…",
+      "score": 68
+    },
+    {
       "id": "40a5c8f6432a",
       "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
       "url": "https://huggingface.co/papers/2608.12307",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's p…",
-      "score": 58
+      "score": 68
     },
     {
       "id": "64a9e367e769",
@@ -19,15 +27,7 @@
       "url": "https://huggingface.co/papers/2608.08160",
       "publishedAt": "2026-08-08T00:00:00.000Z",
       "summary": "The rapid advancement of Large Language Models (LLMs) is revolutionizing AI for Games by enabling open-ended and fluid …",
-      "score": 17
-    },
-    {
-      "id": "14c2d93bca1e",
-      "title": "StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization",
-      "url": "https://huggingface.co/papers/2608.12314",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Previsualization is an intermediate layer between ideas and production in film, games, architecture, and urban design. …",
-      "score": 14
+      "score": 21
     },
     {
       "id": "f7edaffe839f",
@@ -35,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.10708",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Recent Vision Foundation Models (VFMs) predict depth, camera pose, and pointmap in a single forward pass without per-sc…",
-      "score": 5
+      "score": 9
     },
     {
       "id": "8d7fe39291bd",
@@ -43,7 +43,23 @@
       "url": "https://huggingface.co/papers/2608.11562",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Videos captured through glass often contain reflections that degrade visual quality and interfere with downstream visio…",
-      "score": 3
+      "score": 4
+    },
+    {
+      "id": "1c6ffee2eac2",
+      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
+      "url": "https://huggingface.co/papers/2608.10450",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic …",
+      "score": 2
+    },
+    {
+      "id": "81ddd2a527c6",
+      "title": "MBA: Multimodal Benchmark and Agents for Real-World Business Ideation",
+      "url": "https://huggingface.co/papers/2608.11616",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Agentic systems powered by large language models (LLMs) have opened new opportunities for business ideation. Yet existi…",
+      "score": 2
     },
     {
       "id": "0fbf04c80577",
@@ -78,31 +94,15 @@
       "score": 1
     },
     {
-      "id": "81ddd2a527c6",
-      "title": "MBA: Multimodal Benchmark and Agents for Real-World Business Ideation",
-      "url": "https://huggingface.co/papers/2608.11616",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Agentic systems powered by large language models (LLMs) have opened new opportunities for business ideation. Yet existi…",
-      "score": 1
-    },
-    {
-      "id": "62602740a728",
-      "title": "Agent Safety Should Be a Runtime Contract",
-      "url": "https://huggingface.co/papers/2608.11274",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "The dominant paradigm treats AI safety as a property to be instilled during model training via RLHF, DPO, or Constituti…",
-      "score": 1
-    },
-    {
       "id": "7348675704cf",
       "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
       "url": "https://huggingface.co/papers/2608.12313",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce c…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-13T04:20:11.351Z",
+  "fetchedAt": "2026-08-13T05:54:39.931Z",
   "stale": false,
   "error": null
 }
