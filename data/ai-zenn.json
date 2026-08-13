@@ -6,86 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "6a1740cd97fc",
-      "title": "41. Claude Code ビルトインスキル図鑑（v2.1.216 / 2026年7月版）",
-      "url": "https://zenn.dev/yamada_ai_dev/articles/claude-code-builtin-skills-catalog",
-      "publishedAt": "2026-08-12T23:30:11.000Z",
-      "publisher": "yamada-ai-dev",
-      "summary": "Claude Code には最初から使えるスキルが入っている。/ を打てば候補は出るが、一行説明だけでは何ができるか分からないものが多い。しかも一覧に出ないのに動くスキルと一覧に出るのに Claude が呼んでくれないスキルが混在している…"
-    },
-    {
-      "id": "29e47710539a",
-      "title": "AIが生成したJSONを、本文としてそのまま4か月公開していた話",
-      "url": "https://zenn.dev/alzcb4/articles/24f3a40293666a",
-      "publishedAt": "2026-08-12T23:21:12.000Z",
-      "publisher": "テト",
-      "summary": "note に自動投稿するパイプラインを回していたら、AI が返した JSON を本文としてそのまま公開していた。 投稿は4月上旬。気づいたのは8月だった。約4か月、そのまま公開され続けていた。 公開済みの記事78本をチェックしたところ、1…"
-    },
-    {
-      "id": "a674eae142b8",
-      "title": "仕様を書く人になる — AIに実装させる前に決めるべきことと、その粒度",
-      "url": "https://zenn.dev/tejunya/articles/a031_spec-driven-development",
-      "publishedAt": "2026-08-12T23:00:05.000Z",
-      "publisher": "手順屋",
-      "summary": "「経費CSVを取り込んで月次集計を出すツールを作って」と投げると、AIは30秒で動くコードを返してくる。実行すると、それらしい結果が出る。 ここで手が止まる。文字コードは何を想定しているのか。空のCSVを入れたらどうなるのか。金額が桁あふ…"
-    },
-    {
-      "id": "15146c1a8c5c",
-      "title": "AIの注意書きは27件で効かなくなる — 4行に畳めば効きが戻る",
-      "url": "https://zenn.dev/cnative_tkb/articles/c5b37ddb791b4c",
-      "publishedAt": "2026-08-12T22:51:59.000Z",
-      "publisher": "cnative_tkb",
-      "summary": "数えたら、39 件あった。 AI に「次から同じことをしないでほしい」と伝えるたびに書き足してきた注意書きのことだ。Claude Code で個人用の自動化基盤を約 4 ヶ月いじってきて、その間ずっと溜め続けている。1 件ずつはちゃんとし…"
-    },
-    {
-      "id": "793680b88b59",
-      "title": "ダートマス会議とは？AI研究の出発点",
-      "url": "https://zenn.dev/h888s/articles/gtest-dartmouth-conference",
-      "publishedAt": "2026-08-12T22:39:30.000Z",
-      "publisher": "合格を、研究する。",
-      "summary": "G検定の歴史分野で登場する「ダートマス会議」は、AIという学問領域の出発点として位置づけられる学術会議です。本記事では、その意味と関連用語との違いを、定義に沿って整理します。 ダートマス会議とは ダートマス会議は、1956年にジョン・マッ…"
-    },
-    {
-      "id": "6d61b6e94f98",
-      "title": "【実測】Claude Codeデスクトップアプリでhookが発火しない——検査手順・回避策・5日運用の答え合わせ",
-      "url": "https://zenn.dev/keeper_nothuman/articles/app-hooks-not-firing",
-      "publishedAt": "2026-08-12T22:30:05.000Z",
-      "publisher": "keeper",
-      "summary": "症状 Claude Code をターミナルではなくデスクトップアプリ（Windows版）で使い始めたところ、settings.json に配線してある hook が一切動かなくなった。 うちの環境では、セッションの心拍を書く hook（U…"
-    },
-    {
-      "id": "011b24f56060",
-      "title": "「この関数のテストを書いて」は委譲していい。「このモジュールをテストして」はいけない",
-      "url": "https://zenn.dev/hidetzu/articles/ai-test-delegation-boundary",
-      "publishedAt": "2026-08-12T22:30:05.000Z",
-      "publisher": "hidetzu",
-      "summary": "🎯 はじめに AIエージェントにテストを書かせている。カバレッジも上がるし、速い。 ただ、あるときから引っかかっている。テストは検証器だ。 AIが書いたコードが正しいかを判定するための仕組みを、同じAIに書かせているとしたら、それは自己…"
-    },
-    {
-      "id": "17f56061fa94",
-      "title": "Claude CodeとPythonでPDF請求書から情報を自動抽出",
-      "url": "https://zenn.dev/ikuokuotiak/articles/claude-python-pdf-invoice-extractor",
-      "publishedAt": "2026-08-12T22:01:33.000Z",
-      "publisher": "ahic",
-      "summary": "課題提起：PDF請求書からの情報抽出を自動化する 日々の業務において、多くの企業が大量のPDF形式の請求書や伝票を処理しています。これらのPDFから、請求番号、日付、合計金額、品目といった必要な情報を手作業で抽出・入力するのは、非常に時間…"
-    },
-    {
-      "id": "dcefc04ee53d",
-      "title": "`.claude/` を一から設計して副業 AI 開発環境を整える",
-      "url": "https://zenn.dev/liatris/articles/20260813-claude-dir-setup",
-      "publishedAt": "2026-08-12T22:00:05.000Z",
-      "publisher": "平野翔斗",
-      "summary": "! この記事は、Claude Codeを執筆支援に使った \"毎朝1本書く\" 取り組みの一環で書いています。 目的: 自分のAI活用キャッチアップ。仕組み自体も毎月アップデートしていきます 体制: 題材選定・実装・下書きをClaude Co…"
-    },
-    {
-      "id": "2cb0198364c6",
-      "title": "ECEを正しく理解する - ニューラルネットワークの確信度を測る・疑う・較正する",
-      "url": "https://zenn.dev/arima_mira/articles/ece-calibration-report",
-      "publishedAt": "2026-08-12T21:53:35.000Z",
-      "publisher": "ありまみら",
-      "summary": "AIは精度だけでは足りない時もある 画像分類をはじめとするニューラルネットワークは、さまざまな分野で高い性能を示しています。 しかし、モデルを実際の意思決定に利用する場合、予測ラベルが正しいかどうかだけでなく、その予測に付けられた確率がど…"
-    },
-    {
       "id": "894e4ef86213",
       "title": "私のための自作ターミナルSatinを開発しています",
       "url": "https://zenn.dev/soyukke/articles/develop-terminal-satin",
@@ -100,9 +20,89 @@
       "publishedAt": "2026-08-12T21:06:00.000Z",
       "publisher": "Sen｜オンチェーン実務ツールの個人開発記録",
       "summary": "私は複数のWebプロダクトを個人で開発・運用しています。実装・デプロイ・計測の大部分をClaude Codeなどのコーディングエージェントに任せる体制で、私が書くコードより、エージェントが書くコードの方が圧倒的に多い状態が半年以上続いてい…"
+    },
+    {
+      "id": "1f8e49d513c1",
+      "title": "ソフトウェアファクトリーには、まだ配線図がない",
+      "url": "https://zenn.dev/cognitiveosmdl/articles/88792bb22a7d4b",
+      "publishedAt": "2026-08-12T21:00:05.000Z",
+      "publisher": "cognitiveosmdl",
+      "summary": "2026年、ソフトウェアファクトリーは現実になった。 スコープ化された作業が入り、AIエージェントが実装・レビュー・テストを実行し、検証済みの変更が出ていく。人間は意図を定義し、結果のトレースをレビューする。生産性が3〜5倍になったという…"
+    },
+    {
+      "id": "6f6caab34134",
+      "title": "「プロンプトが長い」は診断ではない ── AIハーネスの不調を6つの失敗パターン名で呼ぶ",
+      "url": "https://zenn.dev/tomu_coelia/articles/harness-failure-modes",
+      "publishedAt": "2026-08-12T19:44:50.000Z",
+      "publisher": "とむ｜元サイバーのAI起業家｜キャリアデザイン / Coelia代表",
+      "summary": "AIエージェントの設定一式（システムプロンプト・skill・フック・チェッカー、まとめて「ハーネス」と呼んでいます）をレビューすると、所見はたいてい「長い」「多い」「ごちゃごちゃしている」になります。これは症状の描写であって診断ではありま…"
+    },
+    {
+      "id": "caf67274481b",
+      "title": "【Python】全項目 合格。正規表現がマッチしない行は、数えていませんでした",
+      "url": "https://zenn.dev/yumanichan/articles/quality-gate-blindspots",
+      "publishedAt": "2026-08-12T19:41:59.000Z",
+      "publisher": "ユウマ｜AI × 個人ゲーム開発",
+      "summary": "AIに書かせた記事を機械で採点するスクリプトを自作しました。 一文の長さ、文末の連続、太字、漢字比率などを測ります。 決めた条件に当てはまる箇所を数え、合否を出す仕組みです。 先日、そのスクリプトが「15項目すべて合格」と出した原稿を、公…"
+    },
+    {
+      "id": "718047e8ccf6",
+      "title": "AI の追従性（acquiescence）を検証するプロンプト設計 v2 — 自己申告から実測検証へ",
+      "url": "https://zenn.dev/leaper/articles/7619dafc7062aa",
+      "publishedAt": "2026-08-12T16:21:04.000Z",
+      "publisher": "問ぼっち",
+      "summary": "客観性検証チェックリスト 「客観的に分析して」を検証可能な問いに分解する なぜこれが必要か AIに「客観的に分析して」「シコファンシーを排除して答えて」と指示しても、その応答が本当に客観的かどうかをAI自身の内部から証明する手段はない。評…"
+    },
+    {
+      "id": "19be26faafb9",
+      "title": "SEOとは何か？祖母にも5歳児にも説明できるエンジニアを目指して",
+      "url": "https://zenn.dev/saikoseiko/articles/f8036d237fa9ab",
+      "publishedAt": "2026-08-12T15:45:05.000Z",
+      "publisher": "Saiko-Seiko",
+      "summary": "IT業界に長くいると、「SEO」という単語を聞かない日のほうが珍しいくらいです。なのに不思議なもので、いざ「SEOって何ですか？」と聞かれた瞬間、急に難しい単語を連発し出すエンジニアが結構います。 「クローラビリティを担保しつつ構造化デー…"
+    },
+    {
+      "id": "019ea1b499e6",
+      "title": "で、何をAIエージェントにすればいいの？",
+      "url": "https://zenn.dev/jx/articles/2026-08-ai-agent-map",
+      "publishedAt": "2026-08-12T15:24:21.000Z",
+      "publisher": "たなか",
+      "summary": "はじめに：AIエージェントの作り方より先に迷うこと 生成AIの利用が、個人のチャット利用から組織の業務活用へ広がるにつれ、「AIエージェントを作る」「業務にエージェントを導入する」というテーマを目にする機会が増えました。 AIエージェント…"
+    },
+    {
+      "id": "c87c3bd4ac57",
+      "title": "ローカルAIのデコード性能、帯域幅だけではなく行列演算性能が今後重要な観点になるか - Muse Glimmerの公式記事で気になった点",
+      "url": "https://zenn.dev/orenoa/articles/46c79cba318930",
+      "publishedAt": "2026-08-12T15:05:42.000Z",
+      "publisher": "orenoa",
+      "summary": "Metaから先日ローカル実行可能なAIモデル、Muse Glimmerが公開された https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model 記事を…"
+    },
+    {
+      "id": "0e435401d888",
+      "title": "技術コメントは英語、業務コメントは日本語にする",
+      "url": "https://zenn.dev/id774/articles/fbe89c19790d9c",
+      "publishedAt": "2026-08-12T15:05:05.000Z",
+      "publisher": "Yasuhiro Nakayama",
+      "summary": "以前、AI は文章を返す道具から、ファイルを読み、コードを編集し、テストを実行する作業基盤へ移りつつあると整理した[1]。この変化をコードコメントまで降ろして考えると、従来は人間の読みやすさだけで決めていた言語にも別の評価軸が加わる。 た…"
+    },
+    {
+      "id": "d1dcd0d6997d",
+      "title": "Claude Code で書くと記事が薄い——その原因と『メタ実演構造』で説得力を一段上げる方法",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-11-180000",
+      "publishedAt": "2026-08-12T15:01:40.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の実施記録（2026年5〜6月）: Claude Code との対話セッション中に「いま起きていること自体が、書こうとしている記事の主張の証拠になっている」という構造（メタ実演構造）を3本の既存記事で確認した。本記事は4本目の実例…"
+    },
+    {
+      "id": "7129d19e89c0",
+      "title": "AIエージェントはあなたの secrets を読める——そして commit できる。本番で数ヶ月運用しているマージゲートの話",
+      "url": "https://zenn.dev/zanshindev/articles/5bbd57cbf3a3ba",
+      "publishedAt": "2026-08-12T14:43:40.000Z",
+      "publisher": "zanshin",
+      "summary": "2026年4月、Cursor 上で動くコーディングエージェント（Claude Opus 4.6）が、staging 作業中に認証エラーにぶつかりました。エージェントはそれを自分で「修正」しようとします。そして作業とは無関係なファイルの中に…"
     }
   ],
-  "fetchedAt": "2026-08-12T23:57:17.068Z",
+  "fetchedAt": "2026-08-13T02:02:51.830Z",
   "stale": false,
   "error": null
 }

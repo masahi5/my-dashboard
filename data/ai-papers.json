@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "3795c0ab93e8",
-      "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
-      "url": "https://huggingface.co/papers/2608.10915",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "After an older adult misses a medication dose, a software agent can send another reminder and an embodied agent can bri…",
-      "score": 166
-    },
-    {
       "id": "e869721b04f2",
       "title": "Articulated Object Reconstruction from Rest-State Observation",
       "url": "https://huggingface.co/papers/2607.27749",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "summary": "Building interactive digital twins requires recovering both 3D geometry and the kinematic structures that govern how ob…",
-      "score": 34
+      "score": 40
     },
     {
       "id": "1377cc02a25e",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.11205",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Fréchet distance has recently emerged as an effective distribution-level objective for generator post-training, complem…",
-      "score": 17
+      "score": 23
     },
     {
       "id": "ad17a40aae77",
@@ -35,23 +27,7 @@
       "url": "https://huggingface.co/papers/2608.09900",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capab…",
-      "score": 7
-    },
-    {
-      "id": "17baf39174b1",
-      "title": "Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents",
-      "url": "https://huggingface.co/papers/2608.08389",
-      "publishedAt": "2026-08-09T00:00:00.000Z",
-      "summary": "Long-horizon research agents solve open-ended tasks through iterative retrieval, aggregation, and synthesis, but contex…",
-      "score": 6
-    },
-    {
-      "id": "17b5525468f5",
-      "title": "InSight-doc: Agentic Visual Perception for Long-Document Understanding",
-      "url": "https://huggingface.co/papers/2608.10628",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Long-document understanding often requires reasoning over many visually rich pages, making inference costly and prone t…",
-      "score": 5
+      "score": 12
     },
     {
       "id": "a99ee83d9214",
@@ -59,7 +35,15 @@
       "url": "https://huggingface.co/papers/2608.08627",
       "publishedAt": "2026-08-09T00:00:00.000Z",
       "summary": "Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained ch…",
-      "score": 5
+      "score": 11
+    },
+    {
+      "id": "17b5525468f5",
+      "title": "InSight-doc: Agentic Visual Perception for Long-Document Understanding",
+      "url": "https://huggingface.co/papers/2608.10628",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Long-document understanding often requires reasoning over many visually rich pages, making inference costly and prone t…",
+      "score": 10
     },
     {
       "id": "bd6e3fbe3ac7",
@@ -67,15 +51,7 @@
       "url": "https://huggingface.co/papers/2608.10636",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Visual document retrieval (VDR) is dominated by multi-billion-parameter models that are slow to index at full corpus sc…",
-      "score": 5
-    },
-    {
-      "id": "ded8ff4aaf24",
-      "title": "Reference-Free Post-Training of Open Large Language Models for Multilingual Machine Translation",
-      "url": "https://huggingface.co/papers/2608.10812",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "We study reference-free post-training for multilingual machine translation with open large language models. Starting fr…",
-      "score": 5
+      "score": 10
     },
     {
       "id": "d552a8da7cd4",
@@ -83,7 +59,7 @@
       "url": "https://huggingface.co/papers/2608.08814",
       "publishedAt": "2026-08-09T00:00:00.000Z",
       "summary": "We present 360CityArena, a benchmark for evaluating the urban exploration capabilities of embodied agents within a phot…",
-      "score": 4
+      "score": 9
     },
     {
       "id": "2859a4165428",
@@ -91,7 +67,7 @@
       "url": "https://huggingface.co/papers/2608.10288",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "The Large Language Model from Power Law Decoder Representations (PLDR-LLM) and its attention, Power Law Graph Attention…",
-      "score": 1
+      "score": 6
     },
     {
       "id": "3dc502ffe4ff",
@@ -99,10 +75,34 @@
       "url": "https://huggingface.co/papers/2608.07458",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid …",
+      "score": 4
+    },
+    {
+      "id": "c612c68d209b",
+      "title": "ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents",
+      "url": "https://huggingface.co/papers/2608.11878",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Large language model (LLM) agents integrated with external tools are vulnerable to indirect prompt injections embedded …",
+      "score": 1
+    },
+    {
+      "id": "62602740a728",
+      "title": "Agent Safety Should Be a Runtime Contract",
+      "url": "https://huggingface.co/papers/2608.11274",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "The dominant paradigm treats AI safety as a property to be instilled during model training via RLHF, DPO, or Constituti…",
+      "score": 0
+    },
+    {
+      "id": "699b3e2cb51d",
+      "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
+      "url": "https://huggingface.co/papers/2608.11924",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Turning a research idea into a complete paper requires more than text generation: the system must retrieve literature, …",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-12T23:57:17.001Z",
+  "fetchedAt": "2026-08-13T02:02:51.723Z",
   "stale": false,
   "error": null
 }
