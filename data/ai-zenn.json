@@ -6,6 +6,14 @@
   "category": "ai",
   "items": [
     {
+      "id": "2623d3ecd74d",
+      "title": "AIが大好きな「最小限の修正」を繰り返すとなぜソフトは壊れるのか",
+      "url": "https://zenn.dev/rerena/articles/b07b32c6259afe",
+      "publishedAt": "2026-08-13T09:32:43.000Z",
+      "publisher": "Rerena/Dicorble",
+      "summary": "AIが大好きな「最小限の修正」を繰り返すとなぜソフトは壊れるのか AIにソフトウェアの修正を依頼すると、しばしば「最小限の修正」が選択される。 これは自然な戦略である。 変更範囲を小さくすれば、既存部分への影響も小さくなるように見える。 …"
+    },
+    {
       "id": "ea6a0fe967dd",
       "title": "ループエンジニアリングではなく制約設計",
       "url": "https://zenn.dev/rerena/articles/999e899cc788c1",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-13T04:14:20.000Z",
       "publisher": "みか あんど ここ",
       "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は権限と settings.json で「どこまで任せるか」を設計しました。 https://zenn.dev/mika_and_coco/articles/clau…"
-    },
-    {
-      "id": "a3de30d7ab00",
-      "title": "【Make】特定の送信元から届いたGmailをSlackへ自動通知する",
-      "url": "https://zenn.dev/donko/articles/2ed2114a1b0015",
-      "publishedAt": "2026-08-13T04:11:04.000Z",
-      "publisher": "凡人",
-      "summary": "作ったもの Gmailに特定のメールアドレスからメールが届いた際、Makeを使ってSlackの非公開チャンネルへ自動通知するフローを作成しました。 Gmail（特定の送信元を監視） ↓ Make（15分おきに確認） ↓ Slack（非公開…"
     }
   ],
-  "fetchedAt": "2026-08-13T13:25:57.079Z",
+  "fetchedAt": "2026-08-13T14:36:51.139Z",
   "stale": false,
   "error": null
 }

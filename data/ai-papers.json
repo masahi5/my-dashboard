@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.00677",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "AI agents operate in persistent environments where early state changes can influence decisions far into the future. Unl…",
-      "score": 119
+      "score": 139
     },
     {
       "id": "20676e5ac860",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.12036",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "AI models have achieved remarkable success across diverse domains, yet the mechanisms underlying their capabilities and…",
-      "score": 68
+      "score": 70
     },
     {
       "id": "b096e9867ba9",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.05604",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Large Language Models (LLMs) increasingly act as agents whose procedural knowledge is stored in reusable skill packages…",
-      "score": 11
+      "score": 53
     },
     {
       "id": "f7edaffe839f",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.11350",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Embodied agents are increasingly built as systems around foundation models, where performance depends not only on model…",
-      "score": 6
+      "score": 8
     },
     {
       "id": "9223e8da387a",
@@ -52,6 +52,14 @@
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Discrete diffusion models for categorical generation are defined by a corruption kernel, which determines the intermedi…",
       "score": 3
+    },
+    {
+      "id": "29f6543b21ba",
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "url": "https://huggingface.co/papers/2608.11215",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "summary": "Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulation…",
+      "score": 2
     },
     {
       "id": "1c6ffee2eac2",
@@ -70,22 +78,6 @@
       "score": 1
     },
     {
-      "id": "b54235eb8628",
-      "title": "Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control",
-      "url": "https://huggingface.co/papers/2608.12123",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "LLM-agent services repeatedly execute small deterministic transitions between model and tool calls: route an outcome, u…",
-      "score": 1
-    },
-    {
-      "id": "29f6543b21ba",
-      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
-      "url": "https://huggingface.co/papers/2608.11215",
-      "publishedAt": "2026-07-19T00:00:00.000Z",
-      "summary": "Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulation…",
-      "score": 1
-    },
-    {
       "id": "aeb2887183d5",
       "title": "Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands",
       "url": "https://huggingface.co/papers/2608.11574",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "While Vision-Language-Action (VLA) models have advanced embodied AI, their fundamentally reactive paradigm severely lim…",
       "score": 1
+    },
+    {
+      "id": "b54235eb8628",
+      "title": "Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control",
+      "url": "https://huggingface.co/papers/2608.12123",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "LLM-agent services repeatedly execute small deterministic transitions between model and tool calls: route an outcome, u…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-13T13:25:56.910Z",
+  "fetchedAt": "2026-08-13T14:36:50.980Z",
   "stale": false,
   "error": null
 }
