@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.00677",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "summary": "AI agents operate in persistent environments where early state changes can influence decisions far into the future. Unl…",
-      "score": 92
+      "score": 98
     },
     {
       "id": "40a5c8f6432a",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.12307",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's p…",
-      "score": 70
+      "score": 71
     },
     {
       "id": "64a9e367e769",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.08160",
       "publishedAt": "2026-08-08T00:00:00.000Z",
       "summary": "The rapid advancement of Large Language Models (LLMs) is revolutionizing AI for Games by enabling open-ended and fluid …",
-      "score": 22
+      "score": 24
     },
     {
       "id": "f7edaffe839f",
@@ -38,12 +38,28 @@
       "score": 10
     },
     {
-      "id": "8d7fe39291bd",
-      "title": "From Synthesis to Removal: Physics-Grounded Reflection Simulation and Diffusion-Based Video Dereflection",
-      "url": "https://huggingface.co/papers/2608.11562",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Videos captured through glass often contain reflections that degrade visual quality and interfere with downstream visio…",
-      "score": 5
+      "id": "85efcb609895",
+      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
+      "url": "https://huggingface.co/papers/2608.06270",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "The \"thinking-with-images\" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom. However…",
+      "score": 3
+    },
+    {
+      "id": "808703fe515a",
+      "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+      "url": "https://huggingface.co/papers/2608.11350",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Embodied agents are increasingly built as systems around foundation models, where performance depends not only on model…",
+      "score": 2
+    },
+    {
+      "id": "9223e8da387a",
+      "title": "Simplex Relaxation for Discrete Diffusion",
+      "url": "https://huggingface.co/papers/2608.10615",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Discrete diffusion models for categorical generation are defined by a corruption kernel, which determines the intermedi…",
+      "score": 2
     },
     {
       "id": "1c6ffee2eac2",
@@ -54,27 +70,11 @@
       "score": 2
     },
     {
-      "id": "85efcb609895",
-      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
-      "url": "https://huggingface.co/papers/2608.06270",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "The \"thinking-with-images\" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom. However…",
-      "score": 2
-    },
-    {
-      "id": "81ddd2a527c6",
-      "title": "MBA: Multimodal Benchmark and Agents for Real-World Business Ideation",
-      "url": "https://huggingface.co/papers/2608.11616",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Agentic systems powered by large language models (LLMs) have opened new opportunities for business ideation. Yet existi…",
-      "score": 2
-    },
-    {
-      "id": "9223e8da387a",
-      "title": "Simplex Relaxation for Discrete Diffusion",
-      "url": "https://huggingface.co/papers/2608.10615",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Discrete diffusion models for categorical generation are defined by a corruption kernel, which determines the intermedi…",
+      "id": "29f6543b21ba",
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "url": "https://huggingface.co/papers/2608.11215",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "summary": "Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulation…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-13T07:21:34.583Z",
+  "fetchedAt": "2026-08-13T08:50:08.808Z",
   "stale": false,
   "error": null
 }

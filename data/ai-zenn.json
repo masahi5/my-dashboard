@@ -6,22 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "0c7455a6b84c",
-      "title": "Grok 4.6: Benchmarks, Pricing vs GPT-5.6 Sol and Fable 5",
-      "url": "https://zenn.dev/neotechpark/articles/09f7b23a75ac1b",
-      "publishedAt": "2026-08-13T06:00:50.000Z",
-      "publisher": "NeoTechPark",
-      "summary": "https://x.com/SpaceXAI/status/2087562800982077492?s=20 xAI (now operating as SpaceXAI) shipped Grok 4.6 on August 12, 2…"
-    },
-    {
-      "id": "8ba32bc8c130",
-      "title": "AIとMCPサーバーの通信を全部記録したら、2万字の説明文は1トークンも渡っていなかった",
-      "url": "https://zenn.dev/numarn/articles/mcp-tool-lazy-load-wire-handson",
-      "publishedAt": "2026-08-13T05:20:22.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "先に結論から書きます。AI に外部の道具を持たせる仕組み(MCP)で、道具の説明文をどれだけ長く書いても、AI への入力は1トークンも増えませんでした(トークンは AI が文章を数えるときの単位で、料金も待ち時間もこれで決まります)。2つ…"
-    },
-    {
       "id": "5048567c7cb9",
       "title": "AI音声コールセンターで正確な住所を聞き取るための設計",
       "url": "https://zenn.dev/genax_corp/articles/1ea3eca0741017",
@@ -100,9 +84,25 @@
       "publishedAt": "2026-08-13T01:41:32.000Z",
       "publisher": "okawa2929",
       "summary": "はじめに AIにコードを書かせる機会が増えるにつれて、このコードはセキュリティ的に本当に大丈夫なのか？みたいな状況が増えてきたと思います。 コードを書く速度は明らかに上がったのに、それをレビューする側の速度は変わっていません。 以前であれ…"
+    },
+    {
+      "id": "48bf1b8df1d2",
+      "title": "【保存版】LangChain完全ガイド2026 — LCEL・LangGraph・RAG・エージェントを本番投入レベルで理解する",
+      "url": "https://zenn.dev/m_sakaaai/articles/5f54f31e49eaee",
+      "publishedAt": "2026-08-13T01:00:05.000Z",
+      "publisher": "M Sakai",
+      "summary": "LangChainってまだ現役なの？LangGraphとの違いは？結局どう書くのが正解？ この記事は、そんなモヤモヤを1本で全部解消することを目的にした2026年版の総まとめです。ブックマーク推奨。 この記事のゴール LangChainの…"
+    },
+    {
+      "id": "8eea1117d9a9",
+      "title": "脆弱性管理を無料SaaSだけで回した結果、月1500件のアラートが4件に絞れた話",
+      "url": "https://zenn.dev/solo_joshis/articles/2026-08-13-saas-solo-it-13",
+      "publishedAt": "2026-08-13T00:05:10.000Z",
+      "publisher": "ソロ情シス",
+      "summary": "取引先の担当者から「御社、Log4jの件は大丈夫ですか」と聞かれて、答えに詰まったことがあります。資産台帳を開くと管理対象は82台。でも念のためDHCP（社内ネットワークで機器に自動でIPアドレスを割り当てる仕組みです）のログを見たら、直…"
     }
   ],
-  "fetchedAt": "2026-08-13T07:21:34.756Z",
+  "fetchedAt": "2026-08-13T08:50:08.991Z",
   "stale": false,
   "error": null
 }
