@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "2623d3ecd74d",
-      "title": "AIが大好きな「最小限の修正」を繰り返すとなぜソフトは壊れるのか",
-      "url": "https://zenn.dev/rerena/articles/b07b32c6259afe",
-      "publishedAt": "2026-08-13T09:32:43.000Z",
-      "publisher": "Rerena/Dicorble",
-      "summary": "AIが大好きな「最小限の修正」を繰り返すとなぜソフトは壊れるのか AIにソフトウェアの修正を依頼すると、しばしば「最小限の修正」が選択される。 これは自然な戦略である。 変更範囲を小さくすれば、既存部分への影響も小さくなるように見える。 …"
+      "id": "ecb83e083400",
+      "title": "クラウドAIに入力できない情報をどう扱うか？llama.cppで学ぶローカルLLM入門をUdemyで公開した話",
+      "url": "https://zenn.dev/sumumu26/articles/1898ece4db3afa",
+      "publishedAt": "2026-08-13T14:21:32.000Z",
+      "publisher": "miharuba_jp",
+      "summary": "こんにちは。miharubaの池谷です。 今日、Udemyで講座「llama.cppで学ぶローカルLLM入門 ― GPU・コンテキスト・KVキャッシュからRAGまで」を公開しました。この記事では、講座で何を扱っているか、なぜこのテーマを選…"
     },
     {
-      "id": "ea6a0fe967dd",
-      "title": "ループエンジニアリングではなく制約設計",
-      "url": "https://zenn.dev/rerena/articles/999e899cc788c1",
-      "publishedAt": "2026-08-13T09:21:58.000Z",
-      "publisher": "Rerena/Dicorble",
-      "summary": "AIによるソフトウェア開発で行われる生成・評価・修正の反復を、最適解を探索する反復過程として考える。 解候補の集合を X、評価関数を f(x) とすると、単純には次の最適化問題として書ける。 x^*=\\arg\\min_{x\\in X} f…"
+      "id": "f14521e17cd2",
+      "title": "AIが書いた記事はAIにレビューさせろ ― Claude×Codex クロスレビューの驚きの成果",
+      "url": "https://zenn.dev/hoshiorange/articles/20-cross-model-review-prose-not-code",
+      "publishedAt": "2026-08-13T14:04:21.000Z",
+      "publisher": "ほし",
+      "summary": "こんにちは。今日は「Claude Code に書かせた文章を、OpenAI の Codex CLI にレビューさせてみた」話です。身内の原稿をよその会社に添削してもらうようなもので、正直ちょっと気まずかったです。 先に結論から言います。同…"
     },
     {
-      "id": "2aa703b90592",
-      "title": "なぜ、私が「AIの発展でITエンジニアは消滅する」vs「AIが発展してもITエンジニアはずっと必要」の論争を冷笑的に見るのか？",
-      "url": "https://zenn.dev/pdfractal/articles/a8eb480fd10df9",
-      "publishedAt": "2026-08-13T09:16:43.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに AIが急速に発展するようになってから、「いずれITエンジニアはAIに仕事を奪われて消滅する」という議論と、「どれだけAIが発展してもITエンジニアは必要であり続ける」という議論を頻繁に見かけるようになりました。私はこの論争をかな…"
+      "id": "fa0467df255b",
+      "title": "AIエージェント15体で事業を回すために、記憶と人格を分離した — nenrin を公開しました",
+      "url": "https://zenn.dev/edhiblemeer/articles/67b7496375661e",
+      "publishedAt": "2026-08-13T13:20:50.000Z",
+      "publisher": "yoshi",
+      "summary": "Claude Code のセッションを 15 体、常時稼働させています。実験環境ではありません。4 つの事業がこの上で動いています。 そのために作った記憶・人格レイヤー nenrin を、MIT ライセンスで公開しました。 https:/…"
     },
     {
-      "id": "5031ff1a8b80",
-      "title": "AWS AI Leagueを自身のAWS環境で試す ─ Community EditionでGame Playとエージェント改善",
-      "url": "https://zenn.dev/nttdata_tech/articles/3e517cc5f344c6",
-      "publishedAt": "2026-08-13T08:30:05.000Z",
-      "publisher": "Yutaka Kashiwabara",
-      "summary": "1. はじめに これまで、AWS AI League Community Editionについて、以下の記事で全体像とデプロイ方法を紹介しました。 AWS AI Leagueを自身のAWS環境で試す ─ Community Edition…"
+      "id": "479eacd62d88",
+      "title": "CLAUDE.mdは確率的制約——144KBのルールが破られた記録と3層防御",
+      "url": "https://zenn.dev/zenn_content/articles/claude-md-rules-are-probabilistic",
+      "publishedAt": "2026-08-13T13:00:50.000Z",
+      "publisher": "krbrr",
+      "summary": "結論から CLAUDE.mdに「必ず〜せよ」「絶対に〜するな」と書いても、Claude Codeは一定確率でそれを破ります。これは設定ミスではなく構造的な性質です。 私の環境には現在、CLAUDE.md（70行）＋ルールファイル17本・1…"
     },
     {
-      "id": "d6fcfeff1141",
-      "title": "AIエージェントと進めるソフトウェア開発",
-      "url": "https://zenn.dev/hako_hako/books/nexus-product-new-development",
-      "publishedAt": "2026-08-13T08:10:07.000Z",
-      "publisher": "hako@札幌",
-      "summary": "AIエージェントは、プロダクト開発のどこまでを担えるのか。社内向け案件管理アプリRADARを題材に、Claude CodeとNexus Architectとの壁打ちから、仮説検証、設計、Issue分解、実装、レビュー、実運用後の改善まで、…"
+      "id": "550be9f7e635",
+      "title": "そのdenyルール、効いていません——settings.json堅牢化チートシート",
+      "url": "https://zenn.dev/zenn_content/articles/claude-code-settings-hardening",
+      "publishedAt": "2026-08-13T13:00:49.000Z",
+      "publisher": "krbrr",
+      "summary": "結論から Claude Codeの settings.json には、書けてしまうのに一切適用されないルール形式があります。公開されている設定149件を走査した調査では、16%の設定に「死んだルール」が含まれていた——.ssh や .aw…"
     },
     {
-      "id": "7c8e75179429",
-      "title": "LLMをどこに置くか ― 電話網のIN(SCP)設計を写経したら差し替え可能になった",
-      "url": "https://zenn.dev/halhalhal1/articles/in-scp-ai-architecture",
-      "publishedAt": "2026-08-13T08:07:12.000Z",
-      "publisher": "HAL",
-      "summary": "Amazon Connectで通話心理分析AI(crossbar_telepath)を開発している。設計レビューで「分析エンジンをOpenAIとGeminiで差し替えられると面白い」と言われたとき、答えは「最初からそうなっている」だった。…"
+      "id": "ad08e7d66269",
+      "title": "「賢いAIを入れればエージェント完成」だと思っていた — コードを書かないエンジニアが2ヶ月で気づいた誤解",
+      "url": "https://zenn.dev/sikada/articles/story-agent-realization",
+      "publishedAt": "2026-08-13T12:57:08.000Z",
+      "publisher": "コードを書かない鹿田さん",
+      "summary": "自宅のゲーミングPCに、画像も動画も音楽も作れて、話しかければ道具を使いこなして働いてくれるAIエージェント環境を作りました。私はIT系ではない製造業のエンジニアで、コードはほぼ書けません。それでも作れた話は別の記事に書いたのですが、今回…"
     },
     {
-      "id": "6edffef15ab3",
-      "title": "AI画像生成ワークフロー設計入門｜PixAI Studioで学ぶノードのつなぎ方",
-      "url": "https://zenn.dev/satofun/articles/b021bbbd156223",
-      "publishedAt": "2026-08-13T07:56:15.000Z",
-      "publisher": "sato",
-      "summary": "PR｜本記事はプロモーションを含みます AIでイラストを制作する際は、画像を生成するだけでなく、修正、別シーンへの展開、動画化と工程が続きます。これらを別々に進めると、ファイルの書き出しや再アップロード、素材の確認に思わぬ時間を取られてし…"
+      "id": "fc8302a4f6ce",
+      "title": "AIにiOSアプリをビルドさせるときのxcodebuildオプション",
+      "url": "https://zenn.dev/hmhv/articles/1a3ca2c2e93d53",
+      "publishedAt": "2026-08-13T12:51:38.000Z",
+      "publisher": "hmhv",
+      "summary": "AIにiOSアプリの実装からビルド、シミュレータへのインストール、検証まで任せる機会が増えた。 その中で、ビルドを速くしつつ、AIに渡すログを必要最小限に抑えるため、現在は次のコマンドを使っている。 xcodebuild -project…"
     },
     {
-      "id": "7e75b692e0a1",
-      "title": "一つのファイルから生成しても、指示のズレは止まらない",
-      "url": "https://zenn.dev/untactit/articles/9b983792bd8e61",
-      "publishedAt": "2026-08-13T06:24:49.000Z",
-      "publisher": "untactit",
-      "summary": "「エージェントの指示ファイルがズレる」への素直な対策は、写しを持つのをやめることです。AGENTS.md を一つ書いて、CLAUDE.md も .cursor/rules/*.mdc も .github/copilot-instructi…"
+      "id": "8df97a3318d8",
+      "title": "Claude Code のフックで危険なコマンドを止める：語で探すのをやめて実行位置で見る",
+      "url": "https://zenn.dev/mitsubato/articles/claude-code-hook-block-dangerous-commands",
+      "publishedAt": "2026-08-13T12:51:32.000Z",
+      "publisher": "タカてぃん",
+      "summary": "起きたこと Claude Code にコマンドを自動で実行させていると、実行してほしくないものが混ざります。外部への送信、機密ファイルのコピー、取り消せない削除。そこで PreToolUse フック（コマンドが実行される直前に割り込んで、…"
     },
     {
-      "id": "0c7455a6b84c",
-      "title": "Grok 4.6: Benchmarks, Pricing vs GPT-5.6 Sol and Fable 5",
-      "url": "https://zenn.dev/neotechpark/articles/09f7b23a75ac1b",
-      "publishedAt": "2026-08-13T06:00:50.000Z",
-      "publisher": "NeoTechPark",
-      "summary": "https://x.com/SpaceXAI/status/2087562800982077492?s=20 xAI (now operating as SpaceXAI) shipped Grok 4.6 on August 12, 2…"
+      "id": "92df191b9a75",
+      "title": "AI承認駆動開発 #3｜AI生成を減らせ——プログラム生成できない「残差」を育てる",
+      "url": "https://zenn.dev/frb_tamasub/articles/ai-approval-driven-development-03-minimize-ai",
+      "publishedAt": "2026-08-13T12:51:14.000Z",
+      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
+      "summary": "! 同じ判断を、二度させるな。 不安定な人間に、同じ判断を何度もさせない。 答えが確定したことを、AIにも毎回考え直させない。 判断軸と制約を育て、人間とAIで協力して、可能な限りプログラムへ倒していく。 ! AI承認駆動開発では、AI生…"
     },
     {
-      "id": "8ba32bc8c130",
-      "title": "AIとMCPサーバーの通信を全部記録したら、2万字の説明文は1トークンも渡っていなかった",
-      "url": "https://zenn.dev/numarn/articles/mcp-tool-lazy-load-wire-handson",
-      "publishedAt": "2026-08-13T05:20:22.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "先に結論から書きます。AI に外部の道具を持たせる仕組み(MCP)で、道具の説明文をどれだけ長く書いても、AI への入力は1トークンも増えませんでした(トークンは AI が文章を数えるときの単位で、料金も待ち時間もこれで決まります)。2つ…"
+      "id": "3efdfeb3b297",
+      "title": "【緊急解説】DeepSeek衝撃の値上げ発表！最新AIモデル価格徹底比較",
+      "url": "https://zenn.dev/lumichy/articles/llm-api-pricing-comparison-2026",
+      "publishedAt": "2026-08-13T12:44:07.000Z",
+      "publisher": "lumichy",
+      "summary": "【緊急解説】DeepSeek衝撃の値上げ発表！最新AIモデル価格徹底比較 AI業界に再び巨大な激震が走りました。 これまで「業界最安値の破格コスト」「価格破壊の旗手」として世界中の開発者を熱狂させてきた中国のAIスタートアップ DeepS…"
     },
     {
-      "id": "5048567c7cb9",
-      "title": "AI音声コールセンターで正確な住所を聞き取るための設計",
-      "url": "https://zenn.dev/genax_corp/articles/1ea3eca0741017",
-      "publishedAt": "2026-08-13T04:35:38.000Z",
-      "publisher": "tuchiyam_genax",
-      "summary": "はじめに こんにちは。 Gen-AX AIエンジニアの内山です。 私たちは X-Ghost（クロスゴースト）というプロダクトを開発しています。企業にかかってきた電話に、AIがオペレーターとして音声で応対するシステムです。Azure Ope…"
+      "id": "7fa72c483c97",
+      "title": "「AIで技術記事を書くのは良くない」と言われるけど、別に書いてもよくない？",
+      "url": "https://zenn.dev/ikuosaito1989/articles/185ec5ce09b9ae",
+      "publishedAt": "2026-08-13T12:43:42.000Z",
+      "publisher": "さいとうさん",
+      "summary": "最近、AIで書いた技術記事に対して否定的な意見をよく見ます。 AIにテーマだけ渡して長文を作ったり、内容を十分に確認せずそのまま公開したり。そういう記事が増えるのは良くないよね、という話です。 これはまぁわかります。 ただ、 AIを使って…"
     },
     {
-      "id": "4a44c63859e6",
-      "title": "ゼロから始めるClaude Code #7 Git連携編：コミットもPRもClaudeに任せてみる",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-07-git",
-      "publishedAt": "2026-08-13T04:14:20.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は権限と settings.json で「どこまで任せるか」を設計しました。 https://zenn.dev/mika_and_coco/articles/clau…"
+      "id": "df166aa175dd",
+      "title": "★2.8万のOfficeCLIでxlsxを読ませたらふりがなが値に混入した",
+      "url": "https://zenn.dev/mskbhd/articles/lab-250-officecli-2-8-officexlsx",
+      "publishedAt": "2026-08-13T12:42:48.000Z",
+      "publisher": "mskbhd",
+      "summary": "きっかけ 「人類がOfficeの呪縛から完全解放される」――そんな触れ込みでXで話題になっていた OfficeCLI を試した。GitHubスター2.8万超、fork1,900超。Office本体もクラウドもAPIキーも不要、単一バイナリ…"
     }
   ],
-  "fetchedAt": "2026-08-13T14:36:51.139Z",
+  "fetchedAt": "2026-08-13T15:38:06.033Z",
   "stale": false,
   "error": null
 }
