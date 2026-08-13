@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "fbae435ce4b2",
-      "title": "Claude Codeを実務で回す — CLIエージェントの現実的な使い方",
-      "url": "https://zenn.dev/snowcode/articles/claude-code-practical-workflow",
-      "publishedAt": "2026-08-13T11:57:07.000Z",
-      "publisher": "雪符しき",
-      "summary": "ターミナル常駐型のCLIエージェント Claude Code を、実務でどう回すかを整理します。「賢いチャット」ではなく「リポジトリを操作する作業者」として扱うと、効き方が変わります。 CLIエージェントの位置づけ IDE補完やチャットと…"
+      "id": "ecb83e083400",
+      "title": "クラウドAIに入力できない情報をどう扱うか？llama.cppで学ぶローカルLLM入門をUdemyで公開した話",
+      "url": "https://zenn.dev/sumumu26/articles/1898ece4db3afa",
+      "publishedAt": "2026-08-13T14:21:32.000Z",
+      "publisher": "miharuba_jp",
+      "summary": "こんにちは。miharubaの池谷です。 今日、Udemyで講座「llama.cppで学ぶローカルLLM入門 ― GPU・コンテキスト・KVキャッシュからRAGまで」を公開しました。この記事では、講座で何を扱っているか、なぜこのテーマを選…"
     },
     {
-      "id": "93f7557f8f15",
-      "title": "AIが「1+1=3」に同意する!? ─ 仕組みから学ぶ、媚びへつらいを防ぐプロンプト設計",
-      "url": "https://zenn.dev/kotakotahiro/articles/cad5cd0155b57d",
-      "publishedAt": "2026-08-13T11:31:42.000Z",
-      "publisher": "こたこた博",
-      "summary": "はじめに 「1+1=3ってことだよね？」 そう聞いたとき、AIがこう返してきたらどう思いますか。 はい、その通りです！ ……いや、違うだろ。 笑い話で済めばよいのですが、これがコードレビューや設計検討の場だったらどうでしょう。 「この設計…"
-    },
-    {
-      "id": "32a4e194b7dd",
-      "title": "AI編集部のボトルネックは自分だった ― 承認は不可逆な1点だけに置く",
-      "url": "https://zenn.dev/hoshiorange/articles/14-ai-agent-approval-bottleneck",
-      "publishedAt": "2026-08-13T11:30:31.000Z",
+      "id": "f14521e17cd2",
+      "title": "AIが書いた記事はAIにレビューさせろ ― Claude×Codex クロスレビューの驚きの成果",
+      "url": "https://zenn.dev/hoshiorange/articles/20-cross-model-review-prose-not-code",
+      "publishedAt": "2026-08-13T14:04:21.000Z",
       "publisher": "ほし",
-      "summary": "こんにちは。1週間の運用をふりかえったら、AI編集部のボトルネックは自分でした。エージェントは企画も執筆もこなしているのに、出来上がったものがひとつも次の工程に進んでいない。しかも承認が滞ると、上流の執筆まで自動で止まる仕掛けになっていま…"
+      "summary": "こんにちは。今日は「Claude Code に書かせた文章を、OpenAI の Codex CLI にレビューさせてみた」話です。身内の原稿をよその会社に添削してもらうようなもので、正直ちょっと気まずかったです。 先に結論から言います。同…"
     },
     {
-      "id": "87ba8f6ef72c",
-      "title": "AI開発はクリーンアーキテクチャと相性がいい――DIを変更伝播ヤコビアンとして考える",
-      "url": "https://zenn.dev/rerena/articles/cb7ba7fdd51b0d",
-      "publishedAt": "2026-08-13T11:29:39.000Z",
-      "publisher": "Rerena/Dicorble",
-      "summary": "AI開発はクリーンアーキテクチャと相性がいい AIによるソフトウェア開発では、ときどき妙なことが起きる。 「ここだけ直してほしい」と頼んだはずなのに、AIが周辺コードまで整理し始め、気が付けば別の場所まで壊れている。 逆に「最小限の修正だ…"
+      "id": "fa0467df255b",
+      "title": "AIエージェント15体で事業を回すために、記憶と人格を分離した — nenrin を公開しました",
+      "url": "https://zenn.dev/edhiblemeer/articles/67b7496375661e",
+      "publishedAt": "2026-08-13T13:20:50.000Z",
+      "publisher": "yoshi",
+      "summary": "Claude Code のセッションを 15 体、常時稼働させています。実験環境ではありません。4 つの事業がこの上で動いています。 そのために作った記憶・人格レイヤー nenrin を、MIT ライセンスで公開しました。 https:/…"
     },
     {
-      "id": "ceefe068dd10",
-      "title": "Claude Code 2.1.122は企業・MCP・監視運用を底上げする更新",
-      "url": "https://zenn.dev/trailfusionai/articles/ai-news-20260430152558-2e6865",
-      "publishedAt": "2026-08-13T11:00:36.000Z",
-      "publisher": "Trailfusion AI",
-      "summary": "概要 Claude Code 2.1.122 は、Bedrock、/resume、MCP、OpenTelemetry、画像入力、Remote Control、ToolSearch、hooks設定などを広く改善する運用寄りのリリースです。 …"
+      "id": "479eacd62d88",
+      "title": "CLAUDE.mdは確率的制約——144KBのルールが破られた記録と3層防御",
+      "url": "https://zenn.dev/zenn_content/articles/claude-md-rules-are-probabilistic",
+      "publishedAt": "2026-08-13T13:00:50.000Z",
+      "publisher": "krbrr",
+      "summary": "結論から CLAUDE.mdに「必ず〜せよ」「絶対に〜するな」と書いても、Claude Codeは一定確率でそれを破ります。これは設定ミスではなく構造的な性質です。 私の環境には現在、CLAUDE.md（70行）＋ルールファイル17本・1…"
     },
     {
-      "id": "4b36e76dcc0b",
-      "title": "AIの挙げてくるウンコード💩選 (主に静的型向けC言語村向け)",
-      "url": "https://zenn.dev/libraplanet/articles/601cac935ff19e",
-      "publishedAt": "2026-08-13T10:18:49.000Z",
-      "publisher": "takumi",
-      "summary": "プログラミングはバイブスでするものではない。 ただし、気合を入れてコンパイルをすればバグは減る。 概要 背景 最近、ちょっとAIに色々とコーディングの手伝いをしてもらっている中。上がってくるコードがひどく、なかなか実装に集中出来ないことが…"
+      "id": "550be9f7e635",
+      "title": "そのdenyルール、効いていません——settings.json堅牢化チートシート",
+      "url": "https://zenn.dev/zenn_content/articles/claude-code-settings-hardening",
+      "publishedAt": "2026-08-13T13:00:49.000Z",
+      "publisher": "krbrr",
+      "summary": "結論から Claude Codeの settings.json には、書けてしまうのに一切適用されないルール形式があります。公開されている設定149件を走査した調査では、16%の設定に「死んだルール」が含まれていた——.ssh や .aw…"
     },
     {
-      "id": "a5fb37b5858c",
-      "title": "夏の読書感想文：『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』",
-      "url": "https://zenn.dev/headwaters/articles/052576a821395d",
-      "publishedAt": "2026-08-13T10:16:09.000Z",
-      "publisher": "yu shimohama",
-      "summary": "ちょっと時間ができたので、体系的にエージェント開発・コンテキストエンジニアリングを学びたくて、久々にzenn記事投稿してみました。 読んで得られたものや気づきなどを、備忘録もかねて、章ごとに気ままに書いていこうと思います。 https:/…"
+      "id": "ad08e7d66269",
+      "title": "「賢いAIを入れればエージェント完成」だと思っていた — コードを書かないエンジニアが2ヶ月で気づいた誤解",
+      "url": "https://zenn.dev/sikada/articles/story-agent-realization",
+      "publishedAt": "2026-08-13T12:57:08.000Z",
+      "publisher": "コードを書かない鹿田さん",
+      "summary": "自宅のゲーミングPCに、画像も動画も音楽も作れて、話しかければ道具を使いこなして働いてくれるAIエージェント環境を作りました。私はIT系ではない製造業のエンジニアで、コードはほぼ書けません。それでも作れた話は別の記事に書いたのですが、今回…"
     },
     {
-      "id": "7f7541329468",
-      "title": "【アルゴリズムトレード開発記 #1】今日やることは、グラフを1枚出すだけ",
-      "url": "https://zenn.dev/keennn/articles/algo-trading-diary-01",
-      "publishedAt": "2026-08-13T10:01:39.000Z",
-      "publisher": "keennn",
-      "summary": "導入 前回のあらすじ: 「月100万円」という当初の夢は数字で殴られて崩れ、「50万円のまま、検証環境づくりを最初の資産にする」という方針に切り替わりました。今回は、その方針を受けて実際に何から手を付けたかという話です。 「勉強にもなるし…"
+      "id": "fc8302a4f6ce",
+      "title": "AIにiOSアプリをビルドさせるときのxcodebuildオプション",
+      "url": "https://zenn.dev/hmhv/articles/1a3ca2c2e93d53",
+      "publishedAt": "2026-08-13T12:51:38.000Z",
+      "publisher": "hmhv",
+      "summary": "AIにiOSアプリの実装からビルド、シミュレータへのインストール、検証まで任せる機会が増えた。 その中で、ビルドを速くしつつ、AIに渡すログを必要最小限に抑えるため、現在は次のコマンドを使っている。 xcodebuild -project…"
     },
     {
-      "id": "2b22ba550bbb",
-      "title": "AIに丸投げしない。チケット駆動開発で変わったこと",
-      "url": "https://zenn.dev/keisuke1306/articles/02-ticket-driven-development",
-      "publishedAt": "2026-08-13T10:00:07.000Z",
-      "publisher": "keisuke",
-      "summary": "導入 この記事は、ChatGPT・Claude Code・Codex・Notionを組み合わせた「AI駆動開発」というテーマで書いている記事の1本です。実際に運用しているポートフォリオサイトの改修にこの開発フローを適用しながら、実践の中で…"
+      "id": "8df97a3318d8",
+      "title": "Claude Code のフックで危険なコマンドを止める：語で探すのをやめて実行位置で見る",
+      "url": "https://zenn.dev/mitsubato/articles/claude-code-hook-block-dangerous-commands",
+      "publishedAt": "2026-08-13T12:51:32.000Z",
+      "publisher": "タカてぃん",
+      "summary": "起きたこと Claude Code にコマンドを自動で実行させていると、実行してほしくないものが混ざります。外部への送信、機密ファイルのコピー、取り消せない削除。そこで PreToolUse フック（コマンドが実行される直前に割り込んで、…"
     },
     {
-      "id": "a51d3a4fae03",
-      "title": "Apple Silicon MacでローカルAIを爆速構築する手順【llama.cpp + OpenCode】",
-      "url": "https://zenn.dev/qinritukou/articles/coding-token-free",
-      "publishedAt": "2026-08-13T09:59:23.000Z",
-      "publisher": "John",
-      "summary": "Apple Silicon Mac（特にメモリ32GB構成）において、完全ローカル環境でコード補完・AIアシスタントを高速で動かす構築手順をまとめました。 今回は Homebrew を使って llama.cpp を導入し、curl で事前…"
+      "id": "92df191b9a75",
+      "title": "AI承認駆動開発 #3｜AI生成を減らせ——プログラム生成できない「残差」を育てる",
+      "url": "https://zenn.dev/frb_tamasub/articles/ai-approval-driven-development-03-minimize-ai",
+      "publishedAt": "2026-08-13T12:51:14.000Z",
+      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
+      "summary": "! 同じ判断を、二度させるな。 不安定な人間に、同じ判断を何度もさせない。 答えが確定したことを、AIにも毎回考え直させない。 判断軸と制約を育て、人間とAIで協力して、可能な限りプログラムへ倒していく。 ! AI承認駆動開発では、AI生…"
     },
     {
-      "id": "858607b8ff38",
-      "title": "Claude Codeのスラッシュコマンドには、手順ではなく踏んだ罠を書く",
-      "url": "https://zenn.dev/reona777/articles/slash-commands-as-trap-notes",
-      "publishedAt": "2026-08-13T09:45:09.000Z",
-      "publisher": "reona777",
-      "summary": "教育系の事業所で現場の運営をしています。エンジニアではありません。2026年の春から Claude Code で社内ツールを作り始めて、5か月で6本を本番稼働させました。 前の記事で、プロジェクトの中で破綻しないように CONTEXT.m…"
+      "id": "3efdfeb3b297",
+      "title": "【緊急解説】DeepSeek衝撃の値上げ発表！最新AIモデル価格徹底比較",
+      "url": "https://zenn.dev/lumichy/articles/llm-api-pricing-comparison-2026",
+      "publishedAt": "2026-08-13T12:44:07.000Z",
+      "publisher": "lumichy",
+      "summary": "【緊急解説】DeepSeek衝撃の値上げ発表！最新AIモデル価格徹底比較 AI業界に再び巨大な激震が走りました。 これまで「業界最安値の破格コスト」「価格破壊の旗手」として世界中の開発者を熱狂させてきた中国のAIスタートアップ DeepS…"
     },
     {
-      "id": "2623d3ecd74d",
-      "title": "AIが大好きな「最小限の修正」を繰り返すとなぜソフトは壊れるのか",
-      "url": "https://zenn.dev/rerena/articles/b07b32c6259afe",
-      "publishedAt": "2026-08-13T09:32:43.000Z",
-      "publisher": "Rerena/Dicorble",
-      "summary": "AIが大好きな「最小限の修正」を繰り返すとなぜソフトは壊れるのか AIにソフトウェアの修正を依頼すると、しばしば「最小限の修正」が選択される。 これは自然な戦略である。 変更範囲を小さくすれば、既存部分への影響も小さくなるように見える。 …"
+      "id": "7fa72c483c97",
+      "title": "「AIで技術記事を書くのは良くない」と言われるけど、別に書いてもよくない？",
+      "url": "https://zenn.dev/ikuosaito1989/articles/185ec5ce09b9ae",
+      "publishedAt": "2026-08-13T12:43:42.000Z",
+      "publisher": "さいとうさん",
+      "summary": "最近、AIで書いた技術記事に対して否定的な意見をよく見ます。 AIにテーマだけ渡して長文を作ったり、内容を十分に確認せずそのまま公開したり。そういう記事が増えるのは良くないよね、という話です。 これはまぁわかります。 ただ、 AIを使って…"
+    },
+    {
+      "id": "df166aa175dd",
+      "title": "★2.8万のOfficeCLIでxlsxを読ませたらふりがなが値に混入した",
+      "url": "https://zenn.dev/mskbhd/articles/lab-250-officecli-2-8-officexlsx",
+      "publishedAt": "2026-08-13T12:42:48.000Z",
+      "publisher": "mskbhd",
+      "summary": "きっかけ 「人類がOfficeの呪縛から完全解放される」――そんな触れ込みでXで話題になっていた OfficeCLI を試した。GitHubスター2.8万超、fork1,900超。Office本体もクラウドもAPIキーも不要、単一バイナリ…"
     }
   ],
-  "fetchedAt": "2026-08-13T17:41:36.929Z",
+  "fetchedAt": "2026-08-13T18:37:27.709Z",
   "stale": false,
   "error": null
 }
