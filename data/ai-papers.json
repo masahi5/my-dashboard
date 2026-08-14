@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.13391",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Interactive autoregressive video generation demands both low-latency rollouts and precise online control. Few-step dist…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "b3274ce44ac9",
@@ -35,6 +35,30 @@
       "url": "https://huggingface.co/papers/2608.11660",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Large language models (LLMs) achieve remarkable performance across natural language tasks, yet they are trained on stat…",
+      "score": 2
+    },
+    {
+      "id": "6ba6be251faa",
+      "title": "Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning",
+      "url": "https://huggingface.co/papers/2607.29211",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "Large language models generate computationally expensive yet semantically void reasoning on beyond-capability tasks, cr…",
+      "score": 2
+    },
+    {
+      "id": "df4afdfaac49",
+      "title": "Specification-first convergence with an AI coding agent: a case study of dismantling a core architectural invariant across 189 files in a 717k-line codebase with no test oracle and no human code review",
+      "url": "https://huggingface.co/papers/2608.12440",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "This paper reports a single, fully instrumented case study of a large-scale architectural refactoring by an AI coding a…",
+      "score": 1
+    },
+    {
+      "id": "da674f83c139",
+      "title": "Are You Sure You're Sure? On the Impact of Instruction Tuning on Confidence and Lexical Diversity",
+      "url": "https://huggingface.co/papers/2608.13430",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Instruction-tuned language models achieve strong performance across a range of generation tasks, but have also recently…",
       "score": 1
     },
     {
@@ -62,14 +86,6 @@
       "score": 0
     },
     {
-      "id": "df4afdfaac49",
-      "title": "Specification-first convergence with an AI coding agent: a case study of dismantling a core architectural invariant across 189 files in a 717k-line codebase with no test oracle and no human code review",
-      "url": "https://huggingface.co/papers/2608.12440",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "This paper reports a single, fully instrumented case study of a large-scale architectural refactoring by an AI coding a…",
-      "score": 0
-    },
-    {
       "id": "bff264abae61",
       "title": "PixSDS: Why Latent SDS Makes Noisy Pixels",
       "url": "https://huggingface.co/papers/2608.12997",
@@ -84,25 +100,9 @@
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Extreme events in air transport, such as severe arrival delays and abnormal air times, cause cascading network disrupti…",
       "score": 0
-    },
-    {
-      "id": "da674f83c139",
-      "title": "Are You Sure You're Sure? On the Impact of Instruction Tuning on Confidence and Lexical Diversity",
-      "url": "https://huggingface.co/papers/2608.13430",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Instruction-tuned language models achieve strong performance across a range of generation tasks, but have also recently…",
-      "score": 0
-    },
-    {
-      "id": "6ba6be251faa",
-      "title": "Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning",
-      "url": "https://huggingface.co/papers/2607.29211",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "Large language models generate computationally expensive yet semantically void reasoning on beyond-capability tasks, cr…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-14T17:37:42.857Z",
+  "fetchedAt": "2026-08-14T18:32:42.487Z",
   "stale": false,
   "error": null
 }

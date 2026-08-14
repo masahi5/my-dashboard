@@ -6,12 +6,36 @@
   "category": "ai",
   "items": [
     {
+      "id": "beca546418b4",
+      "title": "AI活用 = いかにAIを使わないか",
+      "url": "https://zenn.dev/asheze/articles/6069d46a81f805",
+      "publishedAt": "2026-08-14T09:31:17.000Z",
+      "publisher": "Ash",
+      "summary": "AI活用の真髄は「いかにAIを使わないか」である 最近、業務効率化の文脈で「とにかくAIを使う」システムが増えている。 資料の校正、数値の集計、データ入力、問い合わせ対応。 入力から出力までの一連の業務をAIに任せれば、一見すると大幅な効…"
+    },
+    {
+      "id": "ec297b0de556",
+      "title": "「誰もコードを読まない工場」を作って閉じた話 — context engineering 命名者 Dex Horthy の回",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr23-horthy-summary",
+      "publishedAt": "2026-08-14T09:30:22.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について ! 本記事は Dex Horthy が The Pragmatic Engineer で語った内容の紹介と論評を目的としています。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文脈は必ず…"
+    },
+    {
       "id": "551764d22fe7",
       "title": "値下げではなく対価に見合う機能提供を — 1日10本のAIセッションが支える価格競争からの降り方",
       "url": "https://zenn.dev/fixu/articles/exit-price-war-with-value-ai-native",
       "publishedAt": "2026-08-14T09:10:13.000Z",
       "publisher": "fixU",
       "summary": "はじめに 私たちは会員管理・予約決済システムの SaaS を開発・運営しています。コワーキングスペース、ジム、レンタルスペースといった店舗・施設の運営を支えるこの領域は、機能の同質化 — いわゆるコモディティ化が進んでいる市場です。似たよ…"
+    },
+    {
+      "id": "2845e82941eb",
+      "title": "Claude Codeで学習ツールを作ったので共有します",
+      "url": "https://zenn.dev/mlbread/articles/c19f568b07e9d9",
+      "publishedAt": "2026-08-14T09:02:07.000Z",
+      "publisher": "ずみは",
+      "summary": "背景 AIがたいていのことを教えてくれるのに、技術書やドキュメントを読むのは億劫です。なのに、技術書やドキュメントを読んで勉強するとAIだけじゃ身に付かなかったことが身に付く感覚があるのは確か。 「本を読んでする勉強」と「AIから教わる勉…"
     },
     {
       "id": "69509b988206",
@@ -70,39 +94,15 @@
       "summary": "📊 フルカラー版（図解つき）はこちら 色分け・構成図つきの完全版を別サイトに置いています。構造を掴むならこちらの方が速いです。 フルカラー版の画面の様子 ! 検証環境：Claude Code v2.1.232 / 2026-08 時点 …"
     },
     {
-      "id": "4570560c8a42",
-      "title": "新卒2年目のAI活用事例 ~前編~ 保守運用現場にRAGを持ち込んだ話",
-      "url": "https://zenn.dev/acntechjp/articles/f0715ee2fd9b3d",
-      "publishedAt": "2026-08-14T08:00:05.000Z",
-      "publisher": "TGP_CDAI",
-      "summary": "執筆者：Kensuke Tezuka はじめに 「また障害だ。でも誰に聞けばいいかわからない。資料はどこにあるんだろう」 ――運用現場で働いていると、こういう場面に何度も直面します。 手順書はどこかの共有フォルダに眠っていて、過去の対応履…"
-    },
-    {
       "id": "014fae2fe92e",
       "title": "新卒2年目のAI活用事例 ~後編~ Indexを育てると自動化が広がる",
       "url": "https://zenn.dev/acntechjp/articles/bc8555842d0bdd",
       "publishedAt": "2026-08-14T08:00:05.000Z",
       "publisher": "TGP_CDAI",
       "summary": "執筆者：Kensuke Tezuka はじめに 前回の記事では、チケット管理ツールに起票された障害・問い合わせチケットをエンベディング処理してインデックスに蓄積し、新規チケットが起票されるたびに過去事例と関連手順書をチャットツールへ自動通…"
-    },
-    {
-      "id": "871f03e3b804",
-      "title": "Codex完全コース、設計から実装・検証までぜんぶ使いこなすで",
-      "url": "https://zenn.dev/masayan1126/books/codex-complete-practical-course",
-      "publishedAt": "2026-08-14T06:49:44.000Z",
-      "publisher": "まさやん",
-      "summary": "Codexを初めて使う準備から、指示と設定、Skills、サブエージェント、外部連携、安全設計、検証できる自動化までを、毎日の開発で再現できる形にまとめるで。"
-    },
-    {
-      "id": "6fd152a7756c",
-      "title": "あなたに合わせたトレーニング🏋️‍♀️、食事メニュー🥗、生活習慣アドバイス",
-      "url": "https://zenn.dev/st4rcitizen/articles/b44dd0a8f01009",
-      "publishedAt": "2026-08-14T06:37:05.000Z",
-      "publisher": "Evgenii",
-      "summary": "Wellie — トレーニングを組み立て、食事を合わせ、生活に適応するAIコーチ 一言のゴールから、その人の生活に合わせたトレーニングと食事のプランをつくり、実際にやったこと・食べたことから、プランを組み直し続けるエージェント型コーチ。そ…"
     }
   ],
-  "fetchedAt": "2026-08-14T17:37:42.955Z",
+  "fetchedAt": "2026-08-14T18:32:42.648Z",
   "stale": false,
   "error": null
 }
