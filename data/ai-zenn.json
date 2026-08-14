@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "e00bf35a512b",
-      "title": "AIによる画像背景削除を試してみた：画像セグメンテーション技術の仕組みはじめに",
-      "url": "https://zenn.dev/cathy_chen/articles/9af7c6f266f262",
-      "publishedAt": "2026-08-14T04:57:05.000Z",
-      "publisher": "Yuriko",
-      "summary": "Webサービスやアプリケーションを開発していると、画像処理が必要になる場面があります。 例えば、 ユーザーアイコンの加工 商品画像の作成 コンテンツ制作 画像編集機能の実装 などです。 その中でも「画像の背景を削除する処理」は、一見シンプ…"
+      "id": "551764d22fe7",
+      "title": "値下げではなく対価に見合う機能提供を — 1日10本のAIセッションが支える価格競争からの降り方",
+      "url": "https://zenn.dev/fixu/articles/exit-price-war-with-value-ai-native",
+      "publishedAt": "2026-08-14T09:10:13.000Z",
+      "publisher": "fixU",
+      "summary": "はじめに 私たちは会員管理・予約決済システムの SaaS を開発・運営しています。コワーキングスペース、ジム、レンタルスペースといった店舗・施設の運営を支えるこの領域は、機能の同質化 — いわゆるコモディティ化が進んでいる市場です。似たよ…"
     },
     {
-      "id": "2faec72518d3",
-      "title": "承認ダイアログが押せなくなった（全部見せることと、選べることは別）",
-      "url": "https://zenn.dev/bricks/articles/approval-dialog",
-      "publishedAt": "2026-08-14T04:24:34.000Z",
-      "publisher": "Renga",
-      "summary": "AI エージェントにコマンドを実行させるアプリを作っている。 実行前に必ず「何をするか」を出して許可を取る、という作りにしていた。 デモを撮っている最中に詰んだ。ダイアログのボタンが画面の外へ出て、 承認も拒否もできなくなった。 結論を先…"
+      "id": "69509b988206",
+      "title": "claude -p 15分ハンズオン — 初めてのヘッドレス実行",
+      "url": "https://zenn.dev/hampen2929/articles/20260807-claude-p-headless-hands-on",
+      "publishedAt": "2026-08-14T09:00:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "Claude Codeには、対話UIを起動せずに「プロンプトを渡す → 結果を受け取る → 終了」するヘッドレス実行モードがあります。これができると、Claude Codeをシェルスクリプトから、CIから、cronから呼べるようになります…"
     },
     {
-      "id": "ef4f68bf954b",
-      "title": "【2026年最新】いま開発現場でバズってる10のワード 〜並列AIエージェントからSpec-Driven Developmentまで〜",
-      "url": "https://zenn.dev/yamitake/articles/dev-trends-2026-buzzwords",
-      "publishedAt": "2026-08-14T04:23:21.000Z",
-      "publisher": "JJ yamitake",
-      "summary": "はじめに 2026年、開発の景色は「AIに補完してもらう」から「AIチームをオーケストレーションする」へと一段ギアが上がりました。SNSやテックブログを眺めていると、毎週のように新しいバズワードが流れてきて、正直ついていくのが大変です。 …"
+      "id": "e21c76f5c6de",
+      "title": "MCPのTool execution failed、反証は本当に反証か",
+      "url": "https://zenn.dev/nomurasan/articles/mcp-tool-execution-failed-troubleshooting",
+      "publishedAt": "2026-08-14T08:32:54.000Z",
+      "publisher": "のむらや",
+      "summary": "ツールは一覧に出ている。26個ちゃんと認識されている。なのに呼ぶと全部落ちる。画面に出るのは Tool execution failed の一行だけ。 半日ぶんの切り分けの記録です。結論から言うと、最初にAIが出した仮説が正解でした。 原…"
     },
     {
-      "id": "aee187070234",
-      "title": "ゼロから始めるClaude Code #8 スキル（スラッシュコマンド）で定型作業を自動化する",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-08-skills",
-      "publishedAt": "2026-08-14T04:19:15.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は Git 連携で、コミットも PR も日本語で頼めることを確かめました。 https://zenn.dev/mika_and_coco/articles/claud…"
+      "id": "ebd8cb69e7b4",
+      "title": "KMP × AIエージェントで個人開発して分かった「AIに任せるための設計」",
+      "url": "https://zenn.dev/photoruction_bl/articles/10f69310759131",
+      "publishedAt": "2026-08-14T08:31:34.000Z",
+      "publisher": "Yosuke Fujii",
+      "summary": "はじめに Androidエンジニアの藤井です。 最近、個人開発で Kotlin Multiplatform（KMP）を使ったモバイルアプリを開発しています。 Android版はすでにリリースしており、iOS版は最近開発に着手したばかりです…"
     },
     {
-      "id": "23b092802b01",
-      "title": "Inference-time Topological Control for LLMs: 空白駆動型アテンション（Hi-Z Softmax）",
-      "url": "https://zenn.dev/nanashi_os/articles/9da1bcdba37319",
-      "publishedAt": "2026-08-14T04:07:55.000Z",
-      "publisher": "NanashiOS",
-      "summary": "導入および課題定義（Background & Motivation） 現代の大規模言語モデル（LLM）の基盤であるTransformerアーキテクチャは、すべてのトークン間に全結合（Dense）のアテンションを巡らせるため、文脈長（\\ N…"
+      "id": "7cae87b153e6",
+      "title": "（定例）Zennで登録したブックマークを分析してみた（第2回）",
+      "url": "https://zenn.dev/angelagaku/articles/zenn_bookmark_analyze_no002",
+      "publishedAt": "2026-08-14T08:31:03.000Z",
+      "publisher": "まなぶのzenn",
+      "summary": "※この記事はClaudeで生成してます。 今回のスコープ 「Zennブクマ分析」の第2回です。対象はブックマークのみ、前回（第1回・43件）との差分を中心に見ていきます。 対象: Zennのブックマーク全66件（Claude in Chr…"
     },
     {
-      "id": "444c4607acc3",
-      "title": "Amazon Bedrockで動画の音声解説を自動生成してみた ― Pegasus + Claude + Pollyを検証",
-      "url": "https://zenn.dev/nttdata_tech/articles/e1ac51a904e2a4",
-      "publishedAt": "2026-08-14T04:00:06.000Z",
-      "publisher": "Yutaka Kashiwabara",
-      "summary": "1. はじめに 動画のアクセシビリティを高める方法の1つに、映像中の視覚情報を音声で説明する Audio Description（音声解説） があります。 AWS Samplesには、生成AIを利用して動画のAudio Descripti…"
+      "id": "07e0d3babd10",
+      "title": "AI音楽の作り方：プロンプト設計から生成・リミックスまでの実践ガイド",
+      "url": "https://zenn.dev/aitool/articles/486cc439e36cff",
+      "publishedAt": "2026-08-14T08:22:12.000Z",
+      "publisher": "AI Tools",
+      "summary": "AI音楽の作り方：プロンプトから生成・リミックスまでの実践ワークフロー AI音楽を作ろうとすると、まずプロンプトの例を探しがちです。ただ、実際の制作は一度生成して終わりではありません。方向を決め、複数の結果を聴き比べ、使える部分を残してリ…"
     },
     {
-      "id": "cee16e46e8e7",
-      "title": "隔離環境のAIエージェントが、なぜ外へ出られたのか：OpenAI–Hugging Faceインシデントを読む",
-      "url": "https://zenn.dev/kuninogu/articles/ce0d48cd9db2f6",
-      "publishedAt": "2026-08-14T03:47:08.000Z",
-      "publisher": "KuniNogu",
-      "summary": "こんにちは、KuniNoguです。 この記事では、OpenAI、Hugging Face、JFrogが公表した資料とBlack Hat講演をもとに、どの仕組みがどのようにつながったのかを一段ずつ追います。 ! 本稿の確認基準日は2026年…"
+      "id": "4463364f11dc",
+      "title": "AI駆動開発の文章管理で「Markdownか、HTMLか」の議論から降りることにした【Vellym】",
+      "url": "https://zenn.dev/tasclub/articles/018b12c99c568e",
+      "publishedAt": "2026-08-14T08:14:19.000Z",
+      "publisher": "tasclub",
+      "summary": "はじめに 初投稿となります。全力でオタ活・推し活を楽しもうというときに、頭の中を走る現世の雑音を取り除くためのアプリを開発している tasclub ( https://tasclub.com/ ) です。 この記事では、次のことを書きます…"
     },
     {
-      "id": "037ab09b0935",
-      "title": "Microsoft MAI-Image-2e入門 — 41%コスト削減・4倍高速な画像生成APIをPythonで実装する",
-      "url": "https://zenn.dev/kai_kou/articles/260-microsoft-mai-image-2e-azure-foundry-guide",
-      "publishedAt": "2026-08-14T03:22:27.000Z",
-      "publisher": "甲斐 甲",
-      "summary": "はじめに 2026年4月14日、Microsoftは画像生成AIモデル「MAI-Image-2e（MAI-Image-2-Efficient）」をパブリックプレビューとして公開しました。MAI-Image-2 のアーキテクチャを継承しなが…"
+      "id": "399bc77a0d07",
+      "title": "Claude Code そもそも論的解説 —.claude/ の中身と優先順位から「導入する・しない」を決める",
+      "url": "https://zenn.dev/tomiyasu_chan/articles/claude-code-overview-decision",
+      "publishedAt": "2026-08-14T08:10:18.000Z",
+      "publisher": "ふじ",
+      "summary": "📊 フルカラー版（図解つき）はこちら 色分け・構成図つきの完全版を別サイトに置いています。構造を掴むならこちらの方が速いです。 フルカラー版の画面の様子 ! 検証環境：Claude Code v2.1.232 / 2026-08 時点 …"
     },
     {
-      "id": "315b30fee93b",
-      "title": "Amazon販売者向け：商品写真から同梱説明カードを作る方法",
-      "url": "https://zenn.dev/daviechen/articles/08d70901fb3847",
-      "publishedAt": "2026-08-14T02:14:47.000Z",
-      "publisher": "daviechen",
-      "summary": "同梱カードは、購入者が実際に最初に読む説明文書になりやすいものです。完全版マニュアルはQRコードの先にあっても、箱の中の小さな紙は「何が入っているか」「どう始めるか」「何を避けるか」「動かないとき何を確認するか」にすぐ答えなければなりませ…"
+      "id": "4570560c8a42",
+      "title": "新卒2年目のAI活用事例 ~前編~ 保守運用現場にRAGを持ち込んだ話",
+      "url": "https://zenn.dev/acntechjp/articles/f0715ee2fd9b3d",
+      "publishedAt": "2026-08-14T08:00:05.000Z",
+      "publisher": "TGP_CDAI",
+      "summary": "執筆者：Kensuke Tezuka はじめに 「また障害だ。でも誰に聞けばいいかわからない。資料はどこにあるんだろう」 ――運用現場で働いていると、こういう場面に何度も直面します。 手順書はどこかの共有フォルダに眠っていて、過去の対応履…"
     },
     {
-      "id": "1ac028c7f2bf",
-      "title": "作業見積もり3人日のコーディングタスクを約1時間で終えたAIエージェント構成",
-      "url": "https://zenn.dev/hiramax/articles/5604f50c7c9f19",
-      "publishedAt": "2026-08-14T02:05:15.000Z",
-      "publisher": "hiramax",
-      "summary": "最近、AIエージェントを使ったコーディングのやり方をいろいろ試しています。 その中で、今のところ一番うまくいっている構成を紹介します。 実際の業務でこの構成を試したところ、作業見積もり約3人日のコーディングタスクが、約1時間で完了しました…"
+      "id": "014fae2fe92e",
+      "title": "新卒2年目のAI活用事例 ~後編~ Indexを育てると自動化が広がる",
+      "url": "https://zenn.dev/acntechjp/articles/bc8555842d0bdd",
+      "publishedAt": "2026-08-14T08:00:05.000Z",
+      "publisher": "TGP_CDAI",
+      "summary": "執筆者：Kensuke Tezuka はじめに 前回の記事では、チケット管理ツールに起票された障害・問い合わせチケットをエンベディング処理してインデックスに蓄積し、新規チケットが起票されるたびに過去事例と関連手順書をチャットツールへ自動通…"
     },
     {
-      "id": "a68904d68e89",
-      "title": "「オプトインなら誰もオンにしない」既定値でAI学習に使われる時代の設定確認",
-      "url": "https://zenn.dev/kairosai/articles/e795cbf567147e",
-      "publishedAt": "2026-08-14T02:01:31.000Z",
-      "publisher": "kairos",
-      "summary": "こんにちは、カイロスAIです。毎朝7時、アメリカのAI副業事情を日本語でお届けしています。 8月12日、Twitchが変えたのは「既定値」だった Amazon傘下の配信サービス Twitch が、2026年8月12日にアカウント設定へ新し…"
+      "id": "871f03e3b804",
+      "title": "Codex完全コース、設計から実装・検証までぜんぶ使いこなすで",
+      "url": "https://zenn.dev/masayan1126/books/codex-complete-practical-course",
+      "publishedAt": "2026-08-14T06:49:44.000Z",
+      "publisher": "まさやん",
+      "summary": "Codexを初めて使う準備から、指示と設定、Skills、サブエージェント、外部連携、安全設計、検証できる自動化までを、毎日の開発で再現できる形にまとめるで。"
     },
     {
-      "id": "1cc4eba15d99",
-      "title": "note.comにAPIが無いので、Playwrightをheadedで回すMCPサーバーを自作して25日で44本運用している",
-      "url": "https://zenn.dev/musicflow/articles/note-mcp-digest",
-      "publishedAt": "2026-08-14T01:38:57.000Z",
-      "publisher": "MusicFlow",
-      "summary": "note.com には公開 API がありません。それでも記事の下書き作成・アイキャッチ設定・タグ・マガジン追加・公開・SNS 告知までを自動化して、25日で44本を運用しています。 やったことの要点だけ書きます（詳しい実録は note …"
+      "id": "6fd152a7756c",
+      "title": "あなたに合わせたトレーニング🏋️‍♀️、食事メニュー🥗、生活習慣アドバイス",
+      "url": "https://zenn.dev/st4rcitizen/articles/b44dd0a8f01009",
+      "publishedAt": "2026-08-14T06:37:05.000Z",
+      "publisher": "Evgenii",
+      "summary": "Wellie — トレーニングを組み立て、食事を合わせ、生活に適応するAIコーチ 一言のゴールから、その人の生活に合わせたトレーニングと食事のプランをつくり、実際にやったこと・食べたことから、プランを組み直し続けるエージェント型コーチ。そ…"
     }
   ],
-  "fetchedAt": "2026-08-14T12:10:18.471Z",
+  "fetchedAt": "2026-08-14T13:41:22.398Z",
   "stale": false,
   "error": null
 }
