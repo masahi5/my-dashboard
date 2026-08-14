@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "b91ee5dec5e6",
-      "title": "UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos",
-      "url": "https://huggingface.co/papers/2608.11752",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Talking-video character replacement requires coordinated transfer of appearance and voice while preserving the source m…",
-      "score": 11
-    },
-    {
       "id": "977f30b1659e",
       "title": "An AI4AI Framework for Visual Token Pruning",
       "url": "https://huggingface.co/papers/2608.07193",
@@ -28,6 +20,14 @@
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce c…",
       "score": 5
+    },
+    {
+      "id": "d555c77243d8",
+      "title": "Context-Matched Distillation: Teacher Causality for Autoregressive Video Distillation",
+      "url": "https://huggingface.co/papers/2608.13391",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Interactive autoregressive video generation demands both low-latency rollouts and precise online control. Few-step dist…",
+      "score": 1
     },
     {
       "id": "b3274ce44ac9",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-14T15:31:41.315Z",
+  "fetchedAt": "2026-08-14T16:31:35.441Z",
   "stale": false,
   "error": null
 }
