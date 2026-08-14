@@ -19,23 +19,7 @@
       "url": "https://huggingface.co/papers/2608.06867",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "No single large language model (LLM) is optimal across all queries and budget constraints, making model routing essenti…",
-      "score": 52
-    },
-    {
-      "id": "eda8a978c846",
-      "title": "DarwinX: Evolving Agent Harnesses Through Natural Selection",
-      "url": "https://huggingface.co/papers/2608.07545",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "An LLM agent's capability depends not only on model weights but on its harness: prompts, tools, skills, and control flo…",
-      "score": 31
-    },
-    {
-      "id": "fda2758db7f8",
-      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
-      "url": "https://huggingface.co/papers/2608.13560",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a lo…",
-      "score": 27
+      "score": 53
     },
     {
       "id": "6a1a8181f856",
@@ -43,15 +27,7 @@
       "url": "https://huggingface.co/papers/2608.12743",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Spatial intelligence is becoming a foundation for embodied agents, robotic planning, and multimodal assistants. To impr…",
-      "score": 24
-    },
-    {
-      "id": "88947c567511",
-      "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
-      "url": "https://huggingface.co/papers/2608.12149",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two archit…",
-      "score": 11
+      "score": 25
     },
     {
       "id": "b91ee5dec5e6",
@@ -70,20 +46,20 @@
       "score": 8
     },
     {
+      "id": "977f30b1659e",
+      "title": "An AI4AI Framework for Visual Token Pruning",
+      "url": "https://huggingface.co/papers/2608.07193",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Visual-token pruning can substantially reduce the inference cost of multimodal large language models (MLLMs), yet exist…",
+      "score": 6
+    },
+    {
       "id": "8ff631dcb419",
       "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
       "url": "https://huggingface.co/papers/2608.13049",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Large-scale manipulation data is essential for robot learning, yet collecting robot demonstrations remains expensive an…",
       "score": 5
-    },
-    {
-      "id": "977f30b1659e",
-      "title": "An AI4AI Framework for Visual Token Pruning",
-      "url": "https://huggingface.co/papers/2608.07193",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Visual-token pruning can substantially reduce the inference cost of multimodal large language models (MLLMs), yet exist…",
-      "score": 4
     },
     {
       "id": "57b7109e2fb6",
@@ -94,6 +70,30 @@
       "score": 1
     },
     {
+      "id": "920b8414e60e",
+      "title": "TailBooster: A Dual-Layer Generative Framework for Extreme Value Augmentation with Operational Validity Enforcement",
+      "url": "https://huggingface.co/papers/2608.11951",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Extreme events in air transport, such as severe arrival delays and abnormal air times, cause cascading network disrupti…",
+      "score": 0
+    },
+    {
+      "id": "da674f83c139",
+      "title": "Are You Sure You're Sure? On the Impact of Instruction Tuning on Confidence and Lexical Diversity",
+      "url": "https://huggingface.co/papers/2608.13430",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Instruction-tuned language models achieve strong performance across a range of generation tasks, but have also recently…",
+      "score": 0
+    },
+    {
+      "id": "6ba6be251faa",
+      "title": "Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning",
+      "url": "https://huggingface.co/papers/2607.29211",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "Large language models generate computationally expensive yet semantically void reasoning on beyond-capability tasks, cr…",
+      "score": 0
+    },
+    {
       "id": "45ce7f061280",
       "title": "CW-BASS v2: Saturation-Aware Pseudo-Label Selection for Semi-Supervised Segmentation under Foundation-Model Teachers",
       "url": "https://huggingface.co/papers/2608.12773",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-14T07:19:02.925Z",
+  "fetchedAt": "2026-08-14T08:43:09.308Z",
   "stale": false,
   "error": null
 }
