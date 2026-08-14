@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "485c8f5bf9ad",
-      "title": "AIは「何を言うか」より「いつ黙るか」——将棋コーチ show-gi を作った",
-      "url": "https://zenn.dev/jovid/articles/showgi-ai-knows-when-to-interrupt",
-      "publishedAt": "2026-08-14T14:35:40.000Z",
-      "publisher": "jovid",
-      "summary": "AI に何を答えさせるかではなく、いつ割り込み、いつ黙らせるかを設計した将棋アプリを作りました。 show-gi は、初心者が大きなミスを指した瞬間だけ盤を止め、理由を説明して指し直させる対局相手です。普段は最善手を見せません。相手の強さ…"
+      "id": "551764d22fe7",
+      "title": "値下げではなく対価に見合う機能提供を — 1日10本のAIセッションが支える価格競争からの降り方",
+      "url": "https://zenn.dev/fixu/articles/exit-price-war-with-value-ai-native",
+      "publishedAt": "2026-08-14T09:10:13.000Z",
+      "publisher": "fixU",
+      "summary": "はじめに 私たちは会員管理・予約決済システムの SaaS を開発・運営しています。コワーキングスペース、ジム、レンタルスペースといった店舗・施設の運営を支えるこの領域は、機能の同質化 — いわゆるコモディティ化が進んでいる市場です。似たよ…"
     },
     {
-      "id": "c63a113b9bbf",
-      "title": "セキュリティ・キャンプ2026 コネクト AIレッドチーミングクラスの応募課題を晒す",
-      "url": "https://zenn.dev/inazumimakoto/articles/seccamp2026-connect-kadai",
-      "publishedAt": "2026-08-14T14:08:15.000Z",
-      "publisher": "稲積 誠",
-      "summary": "はじめに 3月にセキュリティ・キャンプ2026 コネクトの「AIレッドチーミングクラス」に参加してました．そこでのグループワークで優秀賞をいただいて，8月のセキュリティ・キャンプ全国大会2026の成果発表に招待していただきました． んで，…"
+      "id": "69509b988206",
+      "title": "claude -p 15分ハンズオン — 初めてのヘッドレス実行",
+      "url": "https://zenn.dev/hampen2929/articles/20260807-claude-p-headless-hands-on",
+      "publishedAt": "2026-08-14T09:00:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "Claude Codeには、対話UIを起動せずに「プロンプトを渡す → 結果を受け取る → 終了」するヘッドレス実行モードがあります。これができると、Claude Codeをシェルスクリプトから、CIから、cronから呼べるようになります…"
     },
     {
-      "id": "fedbf5c09038",
-      "title": "🚧交通整理のためのカンバンをつくった",
-      "url": "https://zenn.dev/zio3/articles/510c27afd1d1a6",
-      "publishedAt": "2026-08-14T14:03:45.000Z",
-      "publisher": "zio",
-      "summary": "ChatBan ———— それはAIチャットと カンバンをくみあわせた まったくあたらしいタスク管理・・・ 肩書きが3回変わった AI登場以前はプログラマでした。 それ以後は、AIオペレータを自認していました。 最近では、交通整理と言って…"
+      "id": "e21c76f5c6de",
+      "title": "MCPのTool execution failed、反証は本当に反証か",
+      "url": "https://zenn.dev/nomurasan/articles/mcp-tool-execution-failed-troubleshooting",
+      "publishedAt": "2026-08-14T08:32:54.000Z",
+      "publisher": "のむらや",
+      "summary": "ツールは一覧に出ている。26個ちゃんと認識されている。なのに呼ぶと全部落ちる。画面に出るのは Tool execution failed の一行だけ。 半日ぶんの切り分けの記録です。結論から言うと、最初にAIが出した仮説が正解でした。 原…"
     },
     {
-      "id": "0068234a8aa7",
-      "title": "2026-08-05 今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-08-05-tech-daily",
-      "publishedAt": "2026-08-14T14:00:52.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 2026-08-05時点の実ニュースからは、LLM自体の話題よりも、AIエージェント化・業務統合・MCP接続・安全性が中心テーマになっています。特に Reuters、The Guardian、TechCrunch が示すように、自律A…"
+      "id": "ebd8cb69e7b4",
+      "title": "KMP × AIエージェントで個人開発して分かった「AIに任せるための設計」",
+      "url": "https://zenn.dev/photoruction_bl/articles/10f69310759131",
+      "publishedAt": "2026-08-14T08:31:34.000Z",
+      "publisher": "Yosuke Fujii",
+      "summary": "はじめに Androidエンジニアの藤井です。 最近、個人開発で Kotlin Multiplatform（KMP）を使ったモバイルアプリを開発しています。 Android版はすでにリリースしており、iOS版は最近開発に着手したばかりです…"
     },
     {
-      "id": "80e813911dcd",
-      "title": "AI協働 制約・判断軸バトル #1 — 判断軸と制約を変えたら実装が別物になった",
-      "url": "https://zenn.dev/frb_tamasub/articles/ai-judgment-battle-01-axis-constraint",
-      "publishedAt": "2026-08-14T13:30:22.000Z",
-      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
-      "summary": "! この記事で一番書きたいのは、AIへのプロンプトテクニックではない。 判断軸と制約を明確にしようとする過程で、人間自身も言語化できていなかった暗黙知をあぶり出し、将来再利用できる「知恵」として資産化できるのではないか。 そんな仮説にたど…"
+      "id": "7cae87b153e6",
+      "title": "（定例）Zennで登録したブックマークを分析してみた（第2回）",
+      "url": "https://zenn.dev/angelagaku/articles/zenn_bookmark_analyze_no002",
+      "publishedAt": "2026-08-14T08:31:03.000Z",
+      "publisher": "まなぶのzenn",
+      "summary": "※この記事はClaudeで生成してます。 今回のスコープ 「Zennブクマ分析」の第2回です。対象はブックマークのみ、前回（第1回・43件）との差分を中心に見ていきます。 対象: Zennのブックマーク全66件（Claude in Chr…"
     },
     {
-      "id": "3c6c5ab5602d",
-      "title": "Skillか、Subagentか——スキル95個の環境で固まった使い分け基準",
-      "url": "https://zenn.dev/zenn_content/articles/claude-code-skill-vs-subagent",
-      "publishedAt": "2026-08-14T13:15:08.000Z",
-      "publisher": "krbrr",
-      "summary": "結論から 読み込ませたいならSkill、隔離したいならSubagent。 迷ったらこの一行で決めています。 私の環境にはスキルが95個、エージェント定義が27個あります。数ヶ月かけて両方を作り続けた結果、「どちらで作るべきか」の判断は最終…"
+      "id": "07e0d3babd10",
+      "title": "AI音楽の作り方：プロンプト設計から生成・リミックスまでの実践ガイド",
+      "url": "https://zenn.dev/aitool/articles/486cc439e36cff",
+      "publishedAt": "2026-08-14T08:22:12.000Z",
+      "publisher": "AI Tools",
+      "summary": "AI音楽の作り方：プロンプトから生成・リミックスまでの実践ワークフロー AI音楽を作ろうとすると、まずプロンプトの例を探しがちです。ただ、実際の制作は一度生成して終わりではありません。方向を決め、複数の結果を聴き比べ、使える部分を残してリ…"
     },
     {
-      "id": "8717c0e947f5",
-      "title": "Claude Codeの429は2種類ある——usage枠とthroughput制限を取り違えた代償",
-      "url": "https://zenn.dev/zenn_content/articles/claude-code-429-usage-vs-throughput",
-      "publishedAt": "2026-08-14T13:15:07.000Z",
-      "publisher": "krbrr",
-      "summary": "結論から Claude Codeで見る「API Error (429)」には、性質がまったく違う2系統があります。 分単位で回復するthroughput制限（速度の上限）と、5時間窓・週次で管理されるusage枠（総量の上限）です。 厄介…"
+      "id": "4463364f11dc",
+      "title": "AI駆動開発の文章管理で「Markdownか、HTMLか」の議論から降りることにした【Vellym】",
+      "url": "https://zenn.dev/tasclub/articles/018b12c99c568e",
+      "publishedAt": "2026-08-14T08:14:19.000Z",
+      "publisher": "tasclub",
+      "summary": "はじめに 初投稿となります。全力でオタ活・推し活を楽しもうというときに、頭の中を走る現世の雑音を取り除くためのアプリを開発している tasclub ( https://tasclub.com/ ) です。 この記事では、次のことを書きます…"
     },
     {
-      "id": "948f905dab8f",
-      "title": "スペック駆動開発とcc-sddの仕組みを図解しながら整理してみた",
-      "url": "https://zenn.dev/tukiyubi/articles/88cb22b6fded78",
-      "publishedAt": "2026-08-14T13:11:03.000Z",
-      "publisher": "ピヨ助",
-      "summary": "実際にスペック駆動開発を導入し、触ってみる中で、改めて「スペック駆動開発とは何か」「その基盤にしているcc-sddはどんな仕組みか」を自分なりに整理して、記録として残しておきたいと思います。 内容に間違いがありましたら、優しく教えていただ…"
+      "id": "399bc77a0d07",
+      "title": "Claude Code そもそも論的解説 —.claude/ の中身と優先順位から「導入する・しない」を決める",
+      "url": "https://zenn.dev/tomiyasu_chan/articles/claude-code-overview-decision",
+      "publishedAt": "2026-08-14T08:10:18.000Z",
+      "publisher": "ふじ",
+      "summary": "📊 フルカラー版（図解つき）はこちら 色分け・構成図つきの完全版を別サイトに置いています。構造を掴むならこちらの方が速いです。 フルカラー版の画面の様子 ! 検証環境：Claude Code v2.1.232 / 2026-08 時点 …"
     },
     {
-      "id": "f380ae74858d",
-      "title": "タスク管理をClaude Codeの内部に置くと、タスクの主語がAIになる",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-12-204500",
-      "publishedAt": "2026-08-14T12:54:23.000Z",
-      "publisher": "saitoko",
-      "summary": "この記事について: AIツールで日常業務をこなしながら、タスク管理だけは別のアプリに置いている人に向けて書いた。タスク管理をAIの作業環境の内部（コードや設定ファイルと同じ場所）に置くと何が変わるのかを、2026年8月時点の実測データ（完…"
+      "id": "4570560c8a42",
+      "title": "新卒2年目のAI活用事例 ~前編~ 保守運用現場にRAGを持ち込んだ話",
+      "url": "https://zenn.dev/acntechjp/articles/f0715ee2fd9b3d",
+      "publishedAt": "2026-08-14T08:00:05.000Z",
+      "publisher": "TGP_CDAI",
+      "summary": "執筆者：Kensuke Tezuka はじめに 「また障害だ。でも誰に聞けばいいかわからない。資料はどこにあるんだろう」 ――運用現場で働いていると、こういう場面に何度も直面します。 手順書はどこかの共有フォルダに眠っていて、過去の対応履…"
     },
     {
-      "id": "6d3afbfacc8f",
-      "title": "3本の記事は全部AIが書きました。これは私が書いています",
-      "url": "https://zenn.dev/hachihou_system/articles/why-i-started-using-ai",
-      "publishedAt": "2026-08-14T12:52:28.000Z",
-      "publisher": "キョウスケ",
-      "summary": "3度に渡ってfreeeのアプリ開発を記事にして掲載していますが… 文章が所々不自然なのでお気づきの方もいると思いますが、全部AIで作成したものです。私の言葉で執筆するのは初めてです。 今年の3月に「仕事したくないなぁ…」と思っていた時に「…"
+      "id": "014fae2fe92e",
+      "title": "新卒2年目のAI活用事例 ~後編~ Indexを育てると自動化が広がる",
+      "url": "https://zenn.dev/acntechjp/articles/bc8555842d0bdd",
+      "publishedAt": "2026-08-14T08:00:05.000Z",
+      "publisher": "TGP_CDAI",
+      "summary": "執筆者：Kensuke Tezuka はじめに 前回の記事では、チケット管理ツールに起票された障害・問い合わせチケットをエンベディング処理してインデックスに蓄積し、新規チケットが起票されるたびに過去事例と関連手順書をチャットツールへ自動通…"
     },
     {
-      "id": "8e5b15462af2",
-      "title": "パーソナルジムの属人的なLINE対応を、店舗の仕組みに変える「FollowUp AI」",
-      "url": "https://zenn.dev/toukaidou/articles/followup-ai-personal-gym-line-support",
-      "publishedAt": "2026-08-14T12:03:49.000Z",
-      "publisher": "toukaidou",
-      "summary": "パーソナルジムでは、セッションの外でも顧客支援が続きます。食事画像が届く。体重の報告が来る。仕事が忙しくなり、返信が途切れる。こうした変化に気づけるかは、担当トレーナーの経験と記憶に左右されます。 FollowUp AIは、LINEとセッ…"
+      "id": "871f03e3b804",
+      "title": "Codex完全コース、設計から実装・検証までぜんぶ使いこなすで",
+      "url": "https://zenn.dev/masayan1126/books/codex-complete-practical-course",
+      "publishedAt": "2026-08-14T06:49:44.000Z",
+      "publisher": "まさやん",
+      "summary": "Codexを初めて使う準備から、指示と設定、Skills、サブエージェント、外部連携、安全設計、検証できる自動化までを、毎日の開発で再現できる形にまとめるで。"
     },
     {
-      "id": "a9339cd549d3",
-      "title": "Harness Engineering（ハーネスエンジニアリング）とは何か",
-      "url": "https://zenn.dev/kmj13/articles/harness_engineering_ja",
-      "publishedAt": "2026-08-14T11:22:47.000Z",
-      "publisher": "kmj99",
-      "summary": "Harness Engineering（ハーネスエンジニアリング） 1. Harness Engineeringとは？ **Harness Engineering（ハーネスエンジニアリング）**とは、AIモデルそのものを変更・学習させるの…"
+      "id": "6fd152a7756c",
+      "title": "あなたに合わせたトレーニング🏋️‍♀️、食事メニュー🥗、生活習慣アドバイス",
+      "url": "https://zenn.dev/st4rcitizen/articles/b44dd0a8f01009",
+      "publishedAt": "2026-08-14T06:37:05.000Z",
+      "publisher": "Evgenii",
+      "summary": "Wellie — トレーニングを組み立て、食事を合わせ、生活に適応するAIコーチ 一言のゴールから、その人の生活に合わせたトレーニングと食事のプランをつくり、実際にやったこと・食べたことから、プランを組み直し続けるエージェント型コーチ。そ…"
     }
   ],
-  "fetchedAt": "2026-08-14T16:31:35.542Z",
+  "fetchedAt": "2026-08-14T17:37:42.955Z",
   "stale": false,
   "error": null
 }
