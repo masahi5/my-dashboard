@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.12036",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "AI models have achieved remarkable success across diverse domains, yet the mechanisms underlying their capabilities and…",
-      "score": 73
+      "score": 76
     },
     {
       "id": "b096e9867ba9",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.05604",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "summary": "Large Language Models (LLMs) increasingly act as agents whose procedural knowledge is stored in reusable skill packages…",
-      "score": 72
+      "score": 73
     },
     {
       "id": "808703fe515a",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.11350",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Embodied agents are increasingly built as systems around foundation models, where performance depends not only on model…",
-      "score": 9
+      "score": 10
     },
     {
       "id": "c6b62c025c6c",
@@ -38,43 +38,35 @@
       "score": 6
     },
     {
-      "id": "fa28cfa0895b",
-      "title": "Parameter Exploration for RLVR via Variational Learning",
-      "url": "https://huggingface.co/papers/2608.09805",
-      "publishedAt": "2026-08-10T16:28:07.000Z",
-      "summary": "Exploration has been a focus of reinforcement learning research for a long time. Recently, there has been growing evide…",
-      "score": 4
-    },
-    {
-      "id": "9223e8da387a",
-      "title": "Simplex Relaxation for Discrete Diffusion",
-      "url": "https://huggingface.co/papers/2608.10615",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Discrete diffusion models for categorical generation are defined by a corruption kernel, which determines the intermedi…",
-      "score": 4
-    },
-    {
-      "id": "1c6ffee2eac2",
-      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
-      "url": "https://huggingface.co/papers/2608.10450",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic …",
-      "score": 4
-    },
-    {
       "id": "ddb079ab534b",
       "title": "Gaze Target Estimation Anywhere with Concepts",
       "url": "https://huggingface.co/papers/2608.11367",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Estimating human gaze targets from images in-the-wild is an important and formidable task. Existing approaches primaril…",
+      "score": 5
+    },
+    {
+      "id": "fa28cfa0895b",
+      "title": "Parameter Exploration for RLVR via Variational Learning",
+      "url": "https://huggingface.co/papers/2608.09805",
+      "publishedAt": "2026-08-10T16:28:07.000Z",
+      "summary": "Exploration has been a focus of reinforcement learning research for a long time. Recently, there has been growing evide…",
+      "score": 5
+    },
+    {
+      "id": "5470dd160978",
+      "title": "How Can Rhetoric Reward-Hack AI Reviewers? Dissecting Rhetorical Sensitivity in AI-Based Peer Review",
+      "url": "https://huggingface.co/papers/2608.08975",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "As large language models increasingly participate in scientific evaluation, we investigate a potential form of reward h…",
       "score": 2
     },
     {
-      "id": "29f6543b21ba",
-      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
-      "url": "https://huggingface.co/papers/2608.11215",
-      "publishedAt": "2026-07-19T00:00:00.000Z",
-      "summary": "Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulation…",
+      "id": "847a8295189c",
+      "title": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+      "url": "https://huggingface.co/papers/2608.13505",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Scientific discovery increasingly requires AI systems that can reason over scientific evidence of heterogeneous modalit…",
       "score": 2
     },
     {
@@ -83,14 +75,22 @@
       "url": "https://huggingface.co/papers/2608.12123",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "LLM-agent services repeatedly execute small deterministic transitions between model and tool calls: route an outcome, u…",
+      "score": 2
+    },
+    {
+      "id": "01c9bcac85ef",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "url": "https://huggingface.co/papers/2608.13558",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, f…",
       "score": 1
     },
     {
-      "id": "aeb2887183d5",
-      "title": "Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands",
-      "url": "https://huggingface.co/papers/2608.11574",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Hand Pose Estimation (HPE) is a fundamental technology for various applications such as AR/VR and robotics. In these ap…",
+      "id": "db5ad6230bcd",
+      "title": "From Atomic Evidence to Logical Composition: Structured Compositional Reasoning over Compound Answer Options",
+      "url": "https://huggingface.co/papers/2608.12836",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Large language models often fail when answer options require combining atomic judgments under explicit logical operator…",
       "score": 1
     },
     {
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2608.11045",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "ReRound (Reconstructive Rounding) is a post-training quantization method that addresses the midpoint ambiguity inherent…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-13T23:57:43.414Z",
+  "fetchedAt": "2026-08-14T02:08:11.743Z",
   "stale": false,
   "error": null
 }
