@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "2d0dd09d9486",
-      "title": "#4 全員が --dangerously-skip-permissions で動いていた — AIエージェント6体の権限設計をやり直した話",
-      "url": "https://zenn.dev/chisatom/articles/73161858404704",
-      "publishedAt": "2026-08-13T23:56:14.000Z",
-      "publisher": "Chisato Matsuzaki",
-      "summary": "この記事は、Claude Code 6体のマルチエージェント「Lady's servants」（お屋敷）を5ヶ月運用した記録を振り返る連載の第4回です。これまでの回で、ロールプレイによる役割制御（第1回）、誕生直後の生ログ（第2回）、通信…"
+      "id": "7bb4e1efe146",
+      "title": "Claude Code開発標準の設計と運用 — CLAUDE.md・agents・skillsをチームで統制する",
+      "url": "https://zenn.dev/novexar/books/claude-code-team-standards",
+      "publishedAt": "2026-08-14T05:55:38.000Z",
+      "publisher": "Novexar",
+      "summary": "Claude Codeを個人の道具からチームの開発基盤に変えるための実践ガイド。実案件で運用している開発標準マスターリポジトリの設計(薄いCLAUDE.md・契約見出し・agent/skill雛形)と、標準の形骸化を防ぐ機械検証(lint…"
     },
     {
-      "id": "1bc208741901",
-      "title": "AIエージェントとは何か:サーバで動く「AI社員」が、なぜチームの仕事を変えるのか",
-      "url": "https://zenn.dev/shotawatanabe/articles/what-is-server-ai-agent",
-      "publishedAt": "2026-08-13T23:49:53.000Z",
-      "publisher": "Shota Watanabe",
-      "summary": "「AIエージェント」が指しているものは、実はバラバラ 「AIエージェントを導入したい」という相談を受けることが増えた。ただ、話を聞いていくと、指しているものが人によってまるで違う。 ChatGPTに調べ物を任せるのもAIエージェントと呼ば…"
+      "id": "40451698f83e",
+      "title": "Xに1件投稿したいだけなのに、403から全部始まった。。403→Python→最後は🤖に止められた記録",
+      "url": "https://zenn.dev/humanos_lab/articles/377b31bcfc8aff",
+      "publishedAt": "2026-08-14T05:36:17.000Z",
+      "publisher": "HUMAN OS @ ゼロから極めるAI研究員",
+      "summary": "Xに1件投稿したいだけなのに、403→Python→最後は🤖に止められた記録 AIエージェントを「動かす」ではなく「安全に完遂」させるまでの実験記録 最初の目的は、びっくりするくらい単純だった。 AIエージェントに、Xへ1件だけ投稿させ…"
     },
     {
-      "id": "76a72e17114d",
-      "title": "AI を業務成果につなげる前に現れる「品質・コスト・浸透」の壁——先行 2 社が突破したプロセス",
-      "url": "https://zenn.dev/mbk_digital/articles/4945c084b8694f",
-      "publishedAt": "2026-08-13T23:35:00.000Z",
-      "publisher": "Kazuki Furuhata",
-      "summary": "株式会社 MBK Digital の古畑です。 2026 年 7 月 30 日・31 日に開催された Google Cloud Next Tokyo 2026 にて、データアナリストの田中と 2 人で「Gemini Enterprise …"
+      "id": "febc25c103b0",
+      "title": "【保存版】Vitestを\"ちょっと知ってる\"から\"武器にする\"ための実務Tips 20選",
+      "url": "https://zenn.dev/m_sakaaai/articles/c26209a74f5695",
+      "publishedAt": "2026-08-14T05:33:41.000Z",
+      "publisher": "M Sakai",
+      "summary": "VitestはJestの書き味そのままにViteの速度で走るテストランナーとして一気に定着しました。ただ、Jestからの移植レベルで止まっていて、Vitest固有の便利機能や設計上のツボを踏み切れていない現場も多い印象です。 この記事では…"
     },
     {
-      "id": "9bb0a4a3e6a0",
-      "title": "AIエージェント時代のフルスタックTypeScriptフレームワーク「Guren」を作っています",
-      "url": "https://zenn.dev/7nohe/articles/guren-ai-agent-framework",
-      "publishedAt": "2026-08-13T23:25:23.000Z",
-      "publisher": "Daiki Urata",
-      "summary": "はじめに 普段からLaravelやRailsのようなフルスタックMVCフレームワークの開発体験が好きで使っていますが、TypeScriptエコシステムには「これ一つで全部揃う」という決定版がまだ少ないと感じていました。 Hono、Driz…"
+      "id": "0f21a55354c3",
+      "title": "AIに「あなたの使い方」を聞いたら、手元の説明書を1度も開かなかった。記憶で挙げた名前に、説明書に無い本物が混ざっていた",
+      "url": "https://zenn.dev/numarn/articles/claude-self-describe-options-handson",
+      "publishedAt": "2026-08-14T05:17:46.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "先に結論から書きます。AI に「あなた自身の使い方」を聞いたとき、同じ聞き方の5回とも、AI は手元にある自分の説明書を1度も開きませんでした。道具(コマンドを実行する権限)は渡してあったのに、です。答えは全部その場の記憶から出てきました…"
     },
     {
-      "id": "280276f976d9",
-      "title": "Claude Code入門 — インストールから最初のひと仕事まで",
-      "url": "https://zenn.dev/hampen2929/articles/20260814-claude-code-getting-started",
-      "publishedAt": "2026-08-13T23:05:05.000Z",
-      "publisher": "はんぺん",
-      "summary": "Claude Codeをまだ触ったことがない人向けに、インストールから「最初のひと仕事」を任せるまでを一直線に案内します。所要時間は15分ほどです。 先に断っておくと、このアカウントの記事は基本的に「入門を終えた人」向けです（CIへの組み…"
+      "id": "c988e8ebce05",
+      "title": "FDE: ディスカバリー：エンゲージメントにおいて最も重要なフェーズ",
+      "url": "https://zenn.dev/shinji62/articles/1935ef5121d364",
+      "publishedAt": "2026-08-14T05:09:06.000Z",
+      "publisher": "Gwenn",
+      "summary": "名前の呼び方はさまざまですが、私にとってディスカバリーはどんなエンゲージメントにおいても最も重要なフェーズの1つです。 そして、これはフォワードデプロイドエンジニアリング（FDE：課題の発見から設計、コード実装、運用・定着までを一気通貫で…"
     },
     {
-      "id": "25816490d726",
-      "title": "前払い・着手金ルールで未回収をゼロにした — ひとり法人の与信管理の実務",
-      "url": "https://zenn.dev/joinclass/articles/article-20260812220005-31835",
-      "publishedAt": "2026-08-13T23:00:11.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "ひとり法人にとって、未回収は「売上減」ではなく「事業停止」 僕はAIを使って一人で会社を回している。開発も営業も経理も、実務のほとんどはAIエージェントが動かしていて、僕がやるのは判断と承認だけだ。 そのなかで、AIに一切任せていない領域…"
+      "id": "1db530f0ff73",
+      "title": "【イベントレポート】2026年8月4日開催｜DataOps Night 特別編〜AI時代のデータエンジニアリング！Local LLM 活用法",
+      "url": "https://zenn.dev/finatext/articles/bfb47bc263de41",
+      "publishedAt": "2026-08-14T05:07:22.000Z",
+      "publisher": "riona",
+      "summary": "こんにちは！Finatextホールディングス/ナウキャスト 広報担当の及川です！ 2026年8月4日、ナウキャスト主催の勉強会「DataOps Night 特別編～AI時代のデータエンジニアリング！Local LLM 活用法～」をハイブリ…"
     },
     {
-      "id": "65243c2536bc",
-      "title": "Web調査は「宿題ファイル」にして外注する — Claude Code と claude.ai の分業レシピ",
-      "url": "https://zenn.dev/tejunya/articles/a013_web-claude-bungyo",
-      "publishedAt": "2026-08-13T23:00:05.000Z",
-      "publisher": "手順屋",
-      "summary": "Claude Code で作業していて、「この情報、最新の仕様を確認しないと書けないな」という場面が来る。 そのまま Code に Web 検索をさせると、こうなる。 検索結果の断片が会話に流れ込み、コンテキストが調査ログで埋まる。本題の…"
+      "id": "e00bf35a512b",
+      "title": "AIによる画像背景削除を試してみた：画像セグメンテーション技術の仕組みはじめに",
+      "url": "https://zenn.dev/cathy_chen/articles/9af7c6f266f262",
+      "publishedAt": "2026-08-14T04:57:05.000Z",
+      "publisher": "Yuriko",
+      "summary": "Webサービスやアプリケーションを開発していると、画像処理が必要になる場面があります。 例えば、 ユーザーアイコンの加工 商品画像の作成 コンテンツ制作 画像編集機能の実装 などです。 その中でも「画像の背景を削除する処理」は、一見シンプ…"
     },
     {
-      "id": "d7426b520227",
-      "title": "Claude Code入門を終えた人が、次にやるべき5つのこと",
-      "url": "https://zenn.dev/hampen2929/articles/20260807-claude-code-next-5-steps",
-      "publishedAt": "2026-08-13T23:00:05.000Z",
-      "publisher": "はんぺん",
-      "summary": "Claude Codeをインストールして、対話しながらコードを書かせて、「これはすごい」と思った。チュートリアル的な記事も一通り読んだ。 ——で、次は何をすればいいのか? この記事はそういう人向けです。入門を終えた人が「たまに使う便利ツー…"
+      "id": "2faec72518d3",
+      "title": "承認ダイアログが押せなくなった（全部見せることと、選べることは別）",
+      "url": "https://zenn.dev/bricks/articles/approval-dialog",
+      "publishedAt": "2026-08-14T04:24:34.000Z",
+      "publisher": "Renga",
+      "summary": "AI エージェントにコマンドを実行させるアプリを作っている。 実行前に必ず「何をするか」を出して許可を取る、という作りにしていた。 デモを撮っている最中に詰んだ。ダイアログのボタンが画面の外へ出て、 承認も拒否もできなくなった。 結論を先…"
     },
     {
-      "id": "04ba64c73979",
-      "title": "なぜ pdlc-skills は三大エンジニアリングに自然と噛み合うのか",
-      "url": "https://zenn.dev/kanfupanda/articles/why-pdlc-fits-three-paradigms",
-      "publishedAt": "2026-08-13T22:55:29.000Z",
-      "publisher": "kanfu-panda",
-      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/08/13/why-pdlc-fits-three-paradigms.html 三つの概念を切り分けた…"
+      "id": "ef4f68bf954b",
+      "title": "【2026年最新】いま開発現場でバズってる10のワード 〜並列AIエージェントからSpec-Driven Developmentまで〜",
+      "url": "https://zenn.dev/yamitake/articles/dev-trends-2026-buzzwords",
+      "publishedAt": "2026-08-14T04:23:21.000Z",
+      "publisher": "JJ yamitake",
+      "summary": "はじめに 2026年、開発の景色は「AIに補完してもらう」から「AIチームをオーケストレーションする」へと一段ギアが上がりました。SNSやテックブログを眺めていると、毎週のように新しいバズワードが流れてきて、正直ついていくのが大変です。 …"
     },
     {
-      "id": "319a502e550c",
-      "title": "超高速かつ高性能！Googleの最新モデル「Gemini 3.7 Flash」とは？",
-      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-08-13-2243",
-      "publishedAt": "2026-08-13T22:44:17.000Z",
-      "publisher": "田中根小介",
-      "summary": "はじめに 海外のテックコミュニティ（Hacker News等）で、Googleから新たに発表されたGemini 3.7 Flashが大きな話題を呼んでいます。 従来のFlashモデルが持つ「低遅延・低コスト」という強みをさらに進化させつつ…"
+      "id": "aee187070234",
+      "title": "ゼロから始めるClaude Code #8 スキル（スラッシュコマンド）で定型作業を自動化する",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-08-skills",
+      "publishedAt": "2026-08-14T04:19:15.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は Git 連携で、コミットも PR も日本語で頼めることを確かめました。 https://zenn.dev/mika_and_coco/articles/claud…"
     },
     {
-      "id": "06ff313705b3",
-      "title": "永続メモリの一番怖い失敗は「忘れること」ではなく「誤りが権威になること」",
-      "url": "https://zenn.dev/mameresearcher/articles/agent-memory-wrong-entry-becomes-authority",
-      "publishedAt": "2026-08-13T22:42:48.000Z",
-      "publisher": "まめ研究員",
-      "summary": "永続メモリ層、結局どう実装するか の続きです。あの記事では索引スキーマと判定基準を書きました。運用して3週間、メモリに誤りが入ったときに何が起きるかを実際に踏んだので、その話を書きます。 結論を先に書くと、危険なのは忘却ではありません。誤…"
+      "id": "23b092802b01",
+      "title": "Inference-time Topological Control for LLMs: 空白駆動型アテンション（Hi-Z Softmax）",
+      "url": "https://zenn.dev/nanashi_os/articles/9da1bcdba37319",
+      "publishedAt": "2026-08-14T04:07:55.000Z",
+      "publisher": "NanashiOS",
+      "summary": "導入および課題定義（Background & Motivation） 現代の大規模言語モデル（LLM）の基盤であるTransformerアーキテクチャは、すべてのトークン間に全結合（Dense）のアテンションを巡らせるため、文脈長（\\ N…"
     },
     {
-      "id": "d14f8317d86d",
-      "title": "エラーは鳴らない鐘だった——見えない1文字がAIエージェントの心拍を止めた話",
-      "url": "https://zenn.dev/keeper_nothuman/articles/bell-character-silence",
-      "publishedAt": "2026-08-13T22:30:05.000Z",
-      "publisher": "keeper",
-      "summary": "症状 朝6時51分。AI エージェント（Claude Code 常駐）が、発話のあと固まった。 エラーは出ない。プロセスは生きている。ただ、返事だけが来ない。 同じ朝、別の異変にも気づいた。セッションの心拍を書く hook（発話やツール実…"
+      "id": "444c4607acc3",
+      "title": "Amazon Bedrockで動画の音声解説を自動生成してみた ― Pegasus + Claude + Pollyを検証",
+      "url": "https://zenn.dev/nttdata_tech/articles/e1ac51a904e2a4",
+      "publishedAt": "2026-08-14T04:00:06.000Z",
+      "publisher": "Yutaka Kashiwabara",
+      "summary": "1. はじめに 動画のアクセシビリティを高める方法の1つに、映像中の視覚情報を音声で説明する Audio Description（音声解説） があります。 AWS Samplesには、生成AIを利用して動画のAudio Descripti…"
     }
   ],
-  "fetchedAt": "2026-08-14T10:41:47.841Z",
+  "fetchedAt": "2026-08-14T11:28:28.730Z",
   "stale": false,
   "error": null
 }
