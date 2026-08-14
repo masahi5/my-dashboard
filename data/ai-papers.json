@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "977f30b1659e",
-      "title": "An AI4AI Framework for Visual Token Pruning",
-      "url": "https://huggingface.co/papers/2608.07193",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Visual-token pruning can substantially reduce the inference cost of multimodal large language models (MLLMs), yet exist…",
-      "score": 7
-    },
-    {
       "id": "7348675704cf",
       "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
       "url": "https://huggingface.co/papers/2608.12313",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.13391",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Interactive autoregressive video generation demands both low-latency rollouts and precise online control. Few-step dist…",
-      "score": 3
+      "score": 4
     },
     {
       "id": "b3274ce44ac9",
@@ -36,6 +28,14 @@
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Large language models (LLMs) achieve remarkable performance across natural language tasks, yet they are trained on stat…",
       "score": 3
+    },
+    {
+      "id": "dbec82f4186b",
+      "title": "Thought-Level Beam Search for Reasoning",
+      "url": "https://huggingface.co/papers/2608.08020",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Test-time compute scaling is a primary driver of performance in large reasoning models (LRMs), but extreme inefficiency…",
+      "score": 2
     },
     {
       "id": "6ba6be251faa",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-14T22:48:25.678Z",
+  "fetchedAt": "2026-08-14T23:17:57.360Z",
   "stale": false,
   "error": null
 }
