@@ -6,51 +6,67 @@
   "category": "ai",
   "items": [
     {
-      "id": "20676e5ac860",
-      "title": "Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence",
-      "url": "https://huggingface.co/papers/2608.12036",
+      "id": "9735382037ab",
+      "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2608.13489",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "We present DreamX-Phi 1.0, an action-conditioned video world model for robotic manipulation that, given an observed fra…",
+      "score": 54
+    },
+    {
+      "id": "c2b12b351a17",
+      "title": "LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers",
+      "url": "https://huggingface.co/papers/2608.06867",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "No single large language model (LLM) is optimal across all queries and budget constraints, making model routing essenti…",
+      "score": 47
+    },
+    {
+      "id": "6a1a8181f856",
+      "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence",
+      "url": "https://huggingface.co/papers/2608.12743",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Spatial intelligence is becoming a foundation for embodied agents, robotic planning, and multimodal assistants. To impr…",
+      "score": 18
+    },
+    {
+      "id": "fda2758db7f8",
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "url": "https://huggingface.co/papers/2608.13560",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a lo…",
+      "score": 14
+    },
+    {
+      "id": "c4517b2aa140",
+      "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
+      "url": "https://huggingface.co/papers/2608.13552",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Video world models simulate future states conditioned on current observations and user actions. Recent systems have dem…",
+      "score": 13
+    },
+    {
+      "id": "eda8a978c846",
+      "title": "DarwinX: Evolving Agent Harnesses Through Natural Selection",
+      "url": "https://huggingface.co/papers/2608.07545",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "An LLM agent's capability depends not only on model weights but on its harness: prompts, tools, skills, and control flo…",
+      "score": 11
+    },
+    {
+      "id": "88947c567511",
+      "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
+      "url": "https://huggingface.co/papers/2608.12149",
       "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "AI models have achieved remarkable success across diverse domains, yet the mechanisms underlying their capabilities and…",
-      "score": 76
-    },
-    {
-      "id": "b096e9867ba9",
-      "title": "SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries",
-      "url": "https://huggingface.co/papers/2608.05604",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "Large Language Models (LLMs) increasingly act as agents whose procedural knowledge is stored in reusable skill packages…",
-      "score": 73
-    },
-    {
-      "id": "808703fe515a",
-      "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
-      "url": "https://huggingface.co/papers/2608.11350",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Embodied agents are increasingly built as systems around foundation models, where performance depends not only on model…",
+      "summary": "We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two archit…",
       "score": 10
     },
     {
-      "id": "c6b62c025c6c",
-      "title": "Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning",
-      "url": "https://huggingface.co/papers/2608.09926",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "The world evolves following its dynamics, i.e., its laws of motion. However, leading video diffusion models largely fit…",
-      "score": 6
-    },
-    {
-      "id": "ddb079ab534b",
-      "title": "Gaze Target Estimation Anywhere with Concepts",
-      "url": "https://huggingface.co/papers/2608.11367",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Estimating human gaze targets from images in-the-wild is an important and formidable task. Existing approaches primaril…",
-      "score": 5
-    },
-    {
-      "id": "fa28cfa0895b",
-      "title": "Parameter Exploration for RLVR via Variational Learning",
-      "url": "https://huggingface.co/papers/2608.09805",
-      "publishedAt": "2026-08-10T16:28:07.000Z",
-      "summary": "Exploration has been a focus of reinforcement learning research for a long time. Recently, there has been growing evide…",
+      "id": "269cf90ec872",
+      "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+      "url": "https://huggingface.co/papers/2608.13546",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Interactive world models must support persistent memory, responsive interaction, and long-horizon generation, yet these…",
       "score": 5
     },
     {
@@ -59,50 +75,34 @@
       "url": "https://huggingface.co/papers/2608.08975",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "As large language models increasingly participate in scientific evaluation, we investigate a potential form of reward h…",
+      "score": 5
+    },
+    {
+      "id": "7244537c7e45",
+      "title": "Full-bandwidth transformer",
+      "url": "https://huggingface.co/papers/2608.08888",
+      "publishedAt": "2026-08-09T00:00:00.000Z",
+      "summary": "Autoregressive transformers compute along two axes: horizontally across generated tokens, and vertically through model …",
+      "score": 4
+    },
+    {
+      "id": "e7380f5a36e2",
+      "title": "LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation",
+      "url": "https://huggingface.co/papers/2608.12990",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Long-horizon LLM agents must preserve information from past interactions to support future tasks. Existing memory syste…",
       "score": 2
     },
     {
-      "id": "847a8295189c",
-      "title": "Intern-S2-Preview: Scientific Agentic Foundation Model",
-      "url": "https://huggingface.co/papers/2608.13505",
+      "id": "8ff631dcb419",
+      "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
+      "url": "https://huggingface.co/papers/2608.13049",
       "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Scientific discovery increasingly requires AI systems that can reason over scientific evidence of heterogeneous modalit…",
-      "score": 2
-    },
-    {
-      "id": "b54235eb8628",
-      "title": "Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control",
-      "url": "https://huggingface.co/papers/2608.12123",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "LLM-agent services repeatedly execute small deterministic transitions between model and tool calls: route an outcome, u…",
-      "score": 2
-    },
-    {
-      "id": "01c9bcac85ef",
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "url": "https://huggingface.co/papers/2608.13558",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, f…",
-      "score": 1
-    },
-    {
-      "id": "db5ad6230bcd",
-      "title": "From Atomic Evidence to Logical Composition: Structured Compositional Reasoning over Compound Answer Options",
-      "url": "https://huggingface.co/papers/2608.12836",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Large language models often fail when answer options require combining atomic judgments under explicit logical operator…",
-      "score": 1
-    },
-    {
-      "id": "6c6af3fc361d",
-      "title": "ReRound: Reconstructive Rounding to Resolve Midpoint Ambiguity in Calibration-Free LLM Quantization",
-      "url": "https://huggingface.co/papers/2608.11045",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "ReRound (Reconstructive Rounding) is a post-training quantization method that addresses the midpoint ambiguity inherent…",
+      "summary": "Large-scale manipulation data is essential for robot learning, yet collecting robot demonstrations remains expensive an…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-14T02:08:11.743Z",
+  "fetchedAt": "2026-08-14T04:18:03.416Z",
   "stale": false,
   "error": null
 }

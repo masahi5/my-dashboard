@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "0da01b19518f",
+      "title": "単一コンテキストに5役を立てる円卓プロンプト、対立を生むのは役割ラベルでなく利害",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-five-role-roundtable",
+      "publishedAt": "2026-08-13T21:09:18.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 2ロールレビュー（推進派／批判派）は対立軸が1本しかなく、その軸に直交する盲点が残る。役を増やすことは人数を増やすことではなく、独立した評価軸を増やすことである 対立を生んでいるのは「あなたは批判者です」という役割ラベルではな…"
+    },
+    {
+      "id": "09c4420a82ad",
+      "title": "文字数指定を守れないLLMに、コード実行ツールで正確なlen()を渡す",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-char-count-two-step-fix",
+      "publishedAt": "2026-08-13T21:09:18.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR ChatGPT・Claude・Geminiに「150字以内」のような文字数指定をチャットのみで守らせようとすると、実測より10〜20字前後ずれることを確認した 原因はトークン化（tokenization）。モデルは文字単位でな…"
+    },
+    {
+      "id": "73cfdfecbaff",
+      "title": "AIにブラウザ操作をさせる「始め方」を整理する（拡張ルート・MCPルート、実測と公式情報を分けて）",
+      "url": "https://zenn.dev/zeroyenlab/articles/zeroyenlab-ai-browser-setup-guide",
+      "publishedAt": "2026-08-13T20:32:07.000Z",
+      "publisher": "zeroyenlab",
+      "summary": "! Zero Yen Lab（ゼロ円ラボ） の実録です。前回、前々回と「AIにブラウザ操作を任せる」話を書いてきました。読者からの質問やコメントを実際に受け取ったわけではありませんが、「この話題で本当に需要があるのはおそらく『どう始めるか…"
+    },
+    {
+      "id": "6a9a68cb05ab",
+      "title": "デザインを崩されたくないからAIにJSONだけ書かせる。本気で作り込んだら、JSONがコードになった",
+      "url": "https://zenn.dev/mxhlix/articles/json-lock-vs-design-system-cost",
+      "publishedAt": "2026-08-13T18:35:01.000Z",
+      "publisher": "Mxhlix",
+      "summary": "AIにWebツールを量産させる中で、デザインの固定方法を三段階で変えてきました。 その話を書いた前の記事のdev.to版に、こんなコメントがつきました。 「JSON方式とデザインシステム方式を並べて見せてほしい」 素直に受け取れば、ただ二…"
+    },
+    {
       "id": "6c569fa65a6c",
       "title": "# AIに本当に足りないのは「判断力」なのか？——プロジェクト管理から考える文脈の問題",
       "url": "https://zenn.dev/kuma18/articles/0d30acc29d3fd3",
@@ -68,41 +100,9 @@
       "publishedAt": "2026-08-13T15:13:18.000Z",
       "publisher": "kas's blog",
       "summary": "NPUはなぜDRAMアクセスを減らしやすいのか？PE ArrayとSystolic ArrayをGPUとの違いから理解する 概念図：実際の製品回路を理解しやすく簡略化した図。 本記事の目的 前編では、GPUが行列積をtile（小さな部分行…"
-    },
-    {
-      "id": "74ee1772cbb8",
-      "title": "Herdrのサイドバーに要約とプロンプトを出す",
-      "url": "https://zenn.dev/mostlyfine/articles/c4978481603b47",
-      "publishedAt": "2026-08-13T15:08:31.000Z",
-      "publisher": "mostlyfine",
-      "summary": "https://github.com/mostlyfine/herdr-summarize Herdr、便利なんだけど大量にClaudeを動かしてると何やってるか分からなくなるんよね。。 Claudeのhooksを使って、入力したプロンプ…"
-    },
-    {
-      "id": "4ea8d8c9b85b",
-      "title": "スケジュール機能を使ったテック朝刊",
-      "url": "https://zenn.dev/takumi_machino/articles/gpt-work-teck-news",
-      "publishedAt": "2026-08-13T14:44:19.000Z",
-      "publisher": "takumi(machino)",
-      "summary": "概要 技術ニュースを追いかけたいと思っていても、複数のサイトを毎日追いかけるのは大変である。 そこで今回は、ChatGPTのスケジュール機能を使い、自分が興味のある分野のニュースを「テック朝刊」として毎朝自動でまとめてもらうプロンプトを作…"
-    },
-    {
-      "id": "ecb83e083400",
-      "title": "クラウドAIに入力できない情報をどう扱うか？llama.cppで学ぶローカルLLM入門をUdemyで公開した話",
-      "url": "https://zenn.dev/sumumu26/articles/1898ece4db3afa",
-      "publishedAt": "2026-08-13T14:21:32.000Z",
-      "publisher": "miharuba_jp",
-      "summary": "こんにちは。miharubaの池谷です。 今日、Udemyで講座「llama.cppで学ぶローカルLLM入門 ― GPU・コンテキスト・KVキャッシュからRAGまで」を公開しました。この記事では、講座で何を扱っているか、なぜこのテーマを選…"
-    },
-    {
-      "id": "f14521e17cd2",
-      "title": "AIが書いた記事はAIにレビューさせろ ― Claude×Codex クロスレビューの驚きの成果",
-      "url": "https://zenn.dev/hoshiorange/articles/20-cross-model-review-prose-not-code",
-      "publishedAt": "2026-08-13T14:04:21.000Z",
-      "publisher": "ほし",
-      "summary": "こんにちは。今日は「Claude Code に書かせた文章を、OpenAI の Codex CLI にレビューさせてみた」話です。身内の原稿をよその会社に添削してもらうようなもので、正直ちょっと気まずかったです。 先に結論から言います。同…"
     }
   ],
-  "fetchedAt": "2026-08-14T02:08:11.846Z",
+  "fetchedAt": "2026-08-14T04:18:03.513Z",
   "stale": false,
   "error": null
 }
