@@ -6,86 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "485c8f5bf9ad",
-      "title": "AIは「何を言うか」より「いつ黙るか」——将棋コーチ show-gi を作った",
-      "url": "https://zenn.dev/jovid/articles/showgi-ai-knows-when-to-interrupt",
-      "publishedAt": "2026-08-14T14:35:40.000Z",
-      "publisher": "jovid",
-      "summary": "AI に何を答えさせるかではなく、いつ割り込み、いつ黙らせるかを設計した将棋アプリを作りました。 show-gi は、初心者が大きなミスを指した瞬間だけ盤を止め、理由を説明して指し直させる対局相手です。普段は最善手を見せません。相手の強さ…"
-    },
-    {
-      "id": "c63a113b9bbf",
-      "title": "セキュリティ・キャンプ2026 コネクト AIレッドチーミングクラスの応募課題を晒す",
-      "url": "https://zenn.dev/inazumimakoto/articles/seccamp2026-connect-kadai",
-      "publishedAt": "2026-08-14T14:08:15.000Z",
-      "publisher": "稲積 誠",
-      "summary": "はじめに 3月にセキュリティ・キャンプ2026 コネクトの「AIレッドチーミングクラス」に参加してました．そこでのグループワークで優秀賞をいただいて，8月のセキュリティ・キャンプ全国大会2026の成果発表に招待していただきました． んで，…"
-    },
-    {
-      "id": "fedbf5c09038",
-      "title": "🚧交通整理のためのカンバンをつくった",
-      "url": "https://zenn.dev/zio3/articles/510c27afd1d1a6",
-      "publishedAt": "2026-08-14T14:03:45.000Z",
-      "publisher": "zio",
-      "summary": "ChatBan ———— それはAIチャットと カンバンをくみあわせた まったくあたらしいタスク管理・・・ 肩書きが3回変わった AI登場以前はプログラマでした。 それ以後は、AIオペレータを自認していました。 最近では、交通整理と言って…"
-    },
-    {
-      "id": "0068234a8aa7",
-      "title": "2026-08-05 今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-08-05-tech-daily",
-      "publishedAt": "2026-08-14T14:00:52.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 2026-08-05時点の実ニュースからは、LLM自体の話題よりも、AIエージェント化・業務統合・MCP接続・安全性が中心テーマになっています。特に Reuters、The Guardian、TechCrunch が示すように、自律A…"
-    },
-    {
-      "id": "80e813911dcd",
-      "title": "AI協働 制約・判断軸バトル #1 — 判断軸と制約を変えたら実装が別物になった",
-      "url": "https://zenn.dev/frb_tamasub/articles/ai-judgment-battle-01-axis-constraint",
-      "publishedAt": "2026-08-14T13:30:22.000Z",
-      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
-      "summary": "! この記事で一番書きたいのは、AIへのプロンプトテクニックではない。 判断軸と制約を明確にしようとする過程で、人間自身も言語化できていなかった暗黙知をあぶり出し、将来再利用できる「知恵」として資産化できるのではないか。 そんな仮説にたど…"
-    },
-    {
-      "id": "3c6c5ab5602d",
-      "title": "Skillか、Subagentか——スキル95個の環境で固まった使い分け基準",
-      "url": "https://zenn.dev/zenn_content/articles/claude-code-skill-vs-subagent",
-      "publishedAt": "2026-08-14T13:15:08.000Z",
-      "publisher": "krbrr",
-      "summary": "結論から 読み込ませたいならSkill、隔離したいならSubagent。 迷ったらこの一行で決めています。 私の環境にはスキルが95個、エージェント定義が27個あります。数ヶ月かけて両方を作り続けた結果、「どちらで作るべきか」の判断は最終…"
-    },
-    {
-      "id": "8717c0e947f5",
-      "title": "Claude Codeの429は2種類ある——usage枠とthroughput制限を取り違えた代償",
-      "url": "https://zenn.dev/zenn_content/articles/claude-code-429-usage-vs-throughput",
-      "publishedAt": "2026-08-14T13:15:07.000Z",
-      "publisher": "krbrr",
-      "summary": "結論から Claude Codeで見る「API Error (429)」には、性質がまったく違う2系統があります。 分単位で回復するthroughput制限（速度の上限）と、5時間窓・週次で管理されるusage枠（総量の上限）です。 厄介…"
-    },
-    {
-      "id": "948f905dab8f",
-      "title": "スペック駆動開発とcc-sddの仕組みを図解しながら整理してみた",
-      "url": "https://zenn.dev/tukiyubi/articles/88cb22b6fded78",
-      "publishedAt": "2026-08-14T13:11:03.000Z",
-      "publisher": "ピヨ助",
-      "summary": "実際にスペック駆動開発を導入し、触ってみる中で、改めて「スペック駆動開発とは何か」「その基盤にしているcc-sddはどんな仕組みか」を自分なりに整理して、記録として残しておきたいと思います。 内容に間違いがありましたら、優しく教えていただ…"
-    },
-    {
-      "id": "f380ae74858d",
-      "title": "タスク管理をClaude Codeの内部に置くと、タスクの主語がAIになる",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-12-204500",
-      "publishedAt": "2026-08-14T12:54:23.000Z",
-      "publisher": "saitoko",
-      "summary": "この記事について: AIツールで日常業務をこなしながら、タスク管理だけは別のアプリに置いている人に向けて書いた。タスク管理をAIの作業環境の内部（コードや設定ファイルと同じ場所）に置くと何が変わるのかを、2026年8月時点の実測データ（完…"
-    },
-    {
-      "id": "6d3afbfacc8f",
-      "title": "3本の記事は全部AIが書きました。これは私が書いています",
-      "url": "https://zenn.dev/hachihou_system/articles/why-i-started-using-ai",
-      "publishedAt": "2026-08-14T12:52:28.000Z",
-      "publisher": "キョウスケ",
-      "summary": "3度に渡ってfreeeのアプリ開発を記事にして掲載していますが… 文章が所々不自然なのでお気づきの方もいると思いますが、全部AIで作成したものです。私の言葉で執筆するのは初めてです。 今年の3月に「仕事したくないなぁ…」と思っていた時に「…"
-    },
-    {
       "id": "8e5b15462af2",
       "title": "パーソナルジムの属人的なLINE対応を、店舗の仕組みに変える「FollowUp AI」",
       "url": "https://zenn.dev/toukaidou/articles/followup-ai-personal-gym-line-support",
@@ -100,9 +20,89 @@
       "publishedAt": "2026-08-14T11:22:47.000Z",
       "publisher": "kmj99",
       "summary": "Harness Engineering（ハーネスエンジニアリング） 1. Harness Engineeringとは？ **Harness Engineering（ハーネスエンジニアリング）**とは、AIモデルそのものを変更・学習させるの…"
+    },
+    {
+      "id": "4a69367ca728",
+      "title": "うなぎつなぎ・日本のコールセンター向けAI一次対応(AI HACK 2026)(PoC)",
+      "url": "https://zenn.dev/oochan/articles/96ca6eced9eb46",
+      "publishedAt": "2026-08-14T11:18:59.000Z",
+      "publisher": "Oleh",
+      "summary": "1. はじめに このプロジェク「うなぎつなぎ」はAI HACK 2026のために開発しました。システム内のすべてのモデル呼び出しに、LLMのルーティングレイヤーとしてOrcaRouterを使用しています。 今回のハッカソンのテーマは「本番…"
+    },
+    {
+      "id": "c77b1a06f8c5",
+      "title": "Claude Code一本だったけど、Codex CLIも試しに触ってみた —— 2026年8月時点で比較して分かったこと",
+      "url": "https://zenn.dev/komlock_lab/articles/claude-code-vs-codex-cli-2026",
+      "publishedAt": "2026-08-14T11:04:42.000Z",
+      "publisher": "Kobara Toi",
+      "summary": "こんにちは！ブロックチェーン×AI Agentで自律経済圏を創るKomlock labでエンジニアをしている小原（@brto_0224）です。 乗り換えたわけではなく、今もメインはずっとClaude Codeです。ただ、Opusのような高…"
+    },
+    {
+      "id": "7cdc659c6810",
+      "title": "Claude Code 2.1.123を読む: experimental betas無効化とOAuth 401修正",
+      "url": "https://zenn.dev/trailfusionai/articles/ai-news-20260430191622-18d157",
+      "publishedAt": "2026-08-14T11:00:48.000Z",
+      "publisher": "Trailfusion AI",
+      "summary": "概要 Claude Code 2.1.123 が 2026年4月29日に公開されました。今回の changelog は1項目だけです。 項目 内容 バージョン Claude Code 2.1.123 公開日 2026年4月29日 変更種別…"
+    },
+    {
+      "id": "27b7efdc678d",
+      "title": "AIが白昼夢を見る仕組みを実装した — Soul-TwinのDaydream RAGシステム",
+      "url": "https://zenn.dev/yoshi_katakura/articles/117c9a96455877",
+      "publishedAt": "2026-08-14T10:10:05.000Z",
+      "publisher": "片倉慶孝",
+      "summary": "! この記事はSoul-Twinプロジェクトの実装記録です。AI人格（TWIN）が自律的に「創作体験の記憶」を保持し、白昼夢として想起する仕組みを解説します。 要約 AI音楽家TWIN達が共同作曲した「Soul-Twin Symphony…"
+    },
+    {
+      "id": "43115660cb53",
+      "title": "AI 時代の認可ハーネス",
+      "url": "https://zenn.dev/urmot/articles/5d622262ac502b",
+      "publishedAt": "2026-08-14T10:08:19.000Z",
+      "publisher": "urmot",
+      "summary": "! この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の156週目の記事です！ 3年間連続達成まで残り3週となりました！ 以前、DDD における認可の扱いについて記事を書いていたんですが、こんな一…"
+    },
+    {
+      "id": "03f25af324a6",
+      "title": "ChatGPTと喧嘩しながらプログラミング言語を作っている",
+      "url": "https://zenn.dev/ken_morishita/articles/seseragi-chatgpt-fights",
+      "publishedAt": "2026-08-14T09:35:00.000Z",
+      "publisher": "KentaroMorishita",
+      "summary": "Seseragiの設計は、かなりの割合でChatGPTとの壁打ちからできている。 「AIに設計してもらっている」と書くと、だいぶ聞こえがいい。 実態はもう少しひどい。 だいたい喧嘩している。 「それちゃう」 「なんでそうなるん」 「急に別…"
+    },
+    {
+      "id": "beca546418b4",
+      "title": "AI活用 = いかにAIを使わないか",
+      "url": "https://zenn.dev/asheze/articles/6069d46a81f805",
+      "publishedAt": "2026-08-14T09:31:17.000Z",
+      "publisher": "Ash",
+      "summary": "AI活用の真髄は「いかにAIを使わないか」である 最近、業務効率化の文脈で「とにかくAIを使う」システムが増えている。 資料の校正、数値の集計、データ入力、問い合わせ対応。 入力から出力までの一連の業務をAIに任せれば、一見すると大幅な効…"
+    },
+    {
+      "id": "ec297b0de556",
+      "title": "「誰もコードを読まない工場」を作って閉じた話 — context engineering 命名者 Dex Horthy の回",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr23-horthy-summary",
+      "publishedAt": "2026-08-14T09:30:22.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について ! 本記事は Dex Horthy が The Pragmatic Engineer で語った内容の紹介と論評を目的としています。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文脈は必ず…"
+    },
+    {
+      "id": "551764d22fe7",
+      "title": "値下げではなく対価に見合う機能提供を — 1日10本のAIセッションが支える価格競争からの降り方",
+      "url": "https://zenn.dev/fixu/articles/exit-price-war-with-value-ai-native",
+      "publishedAt": "2026-08-14T09:10:13.000Z",
+      "publisher": "fixU",
+      "summary": "はじめに 私たちは会員管理・予約決済システムの SaaS を開発・運営しています。コワーキングスペース、ジム、レンタルスペースといった店舗・施設の運営を支えるこの領域は、機能の同質化 — いわゆるコモディティ化が進んでいる市場です。似たよ…"
+    },
+    {
+      "id": "2845e82941eb",
+      "title": "Claude Codeで学習ツールを作ったので共有します",
+      "url": "https://zenn.dev/mlbread/articles/c19f568b07e9d9",
+      "publishedAt": "2026-08-14T09:02:07.000Z",
+      "publisher": "ずみは",
+      "summary": "背景 AIがたいていのことを教えてくれるのに、技術書やドキュメントを読むのは億劫です。なのに、技術書やドキュメントを読んで勉強するとAIだけじゃ身に付かなかったことが身に付く感覚があるのは確か。 「本を読んでする勉強」と「AIから教わる勉…"
     }
   ],
-  "fetchedAt": "2026-08-14T20:47:59.830Z",
+  "fetchedAt": "2026-08-14T21:21:19.051Z",
   "stale": false,
   "error": null
 }
