@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.13489",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "We present DreamX-Phi 1.0, an action-conditioned video world model for robotic manipulation that, given an observed fra…",
-      "score": 54
+      "score": 58
     },
     {
       "id": "c2b12b351a17",
@@ -19,31 +19,7 @@
       "url": "https://huggingface.co/papers/2608.06867",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "No single large language model (LLM) is optimal across all queries and budget constraints, making model routing essenti…",
-      "score": 47
-    },
-    {
-      "id": "6a1a8181f856",
-      "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence",
-      "url": "https://huggingface.co/papers/2608.12743",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Spatial intelligence is becoming a foundation for embodied agents, robotic planning, and multimodal assistants. To impr…",
-      "score": 18
-    },
-    {
-      "id": "fda2758db7f8",
-      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
-      "url": "https://huggingface.co/papers/2608.13560",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a lo…",
-      "score": 14
-    },
-    {
-      "id": "c4517b2aa140",
-      "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
-      "url": "https://huggingface.co/papers/2608.13552",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Video world models simulate future states conditioned on current observations and user actions. Recent systems have dem…",
-      "score": 13
+      "score": 48
     },
     {
       "id": "eda8a978c846",
@@ -51,7 +27,31 @@
       "url": "https://huggingface.co/papers/2608.07545",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "summary": "An LLM agent's capability depends not only on model weights but on its harness: prompts, tools, skills, and control flo…",
-      "score": 11
+      "score": 26
+    },
+    {
+      "id": "fda2758db7f8",
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "url": "https://huggingface.co/papers/2608.13560",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a lo…",
+      "score": 23
+    },
+    {
+      "id": "6a1a8181f856",
+      "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence",
+      "url": "https://huggingface.co/papers/2608.12743",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Spatial intelligence is becoming a foundation for embodied agents, robotic planning, and multimodal assistants. To impr…",
+      "score": 22
+    },
+    {
+      "id": "c4517b2aa140",
+      "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
+      "url": "https://huggingface.co/papers/2608.13552",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Video world models simulate future states conditioned on current observations and user actions. Recent systems have dem…",
+      "score": 19
     },
     {
       "id": "88947c567511",
@@ -59,31 +59,31 @@
       "url": "https://huggingface.co/papers/2608.12149",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two archit…",
-      "score": 10
+      "score": 11
     },
     {
-      "id": "269cf90ec872",
-      "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
-      "url": "https://huggingface.co/papers/2608.13546",
+      "id": "b91ee5dec5e6",
+      "title": "UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos",
+      "url": "https://huggingface.co/papers/2608.11752",
       "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Interactive world models must support persistent memory, responsive interaction, and long-horizon generation, yet these…",
+      "summary": "Talking-video character replacement requires coordinated transfer of appearance and voice while preserving the source m…",
       "score": 5
     },
     {
-      "id": "5470dd160978",
-      "title": "How Can Rhetoric Reward-Hack AI Reviewers? Dissecting Rhetorical Sensitivity in AI-Based Peer Review",
-      "url": "https://huggingface.co/papers/2608.08975",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "As large language models increasingly participate in scientific evaluation, we investigate a potential form of reward h…",
+      "id": "f9ba7e1eb3c6",
+      "title": "LiveAnimate: Stable Long-Form Streaming Human Animation in Real-Time",
+      "url": "https://huggingface.co/papers/2608.11745",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Pose-driven human animation synthesizes a video of a target person from a single reference image and a driving pose str…",
       "score": 5
     },
     {
-      "id": "7244537c7e45",
-      "title": "Full-bandwidth transformer",
-      "url": "https://huggingface.co/papers/2608.08888",
-      "publishedAt": "2026-08-09T00:00:00.000Z",
-      "summary": "Autoregressive transformers compute along two axes: horizontally across generated tokens, and vertically through model …",
-      "score": 4
+      "id": "8ff631dcb419",
+      "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
+      "url": "https://huggingface.co/papers/2608.13049",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Large-scale manipulation data is essential for robot learning, yet collecting robot demonstrations remains expensive an…",
+      "score": 2
     },
     {
       "id": "e7380f5a36e2",
@@ -94,15 +94,15 @@
       "score": 2
     },
     {
-      "id": "8ff631dcb419",
-      "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
-      "url": "https://huggingface.co/papers/2608.13049",
+      "id": "45ce7f061280",
+      "title": "CW-BASS v2: Saturation-Aware Pseudo-Label Selection for Semi-Supervised Segmentation under Foundation-Model Teachers",
+      "url": "https://huggingface.co/papers/2608.12773",
       "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Large-scale manipulation data is essential for robot learning, yet collecting robot demonstrations remains expensive an…",
-      "score": 1
+      "summary": "Semi-supervised semantic segmentation has long turned on one question, which pseudo-labels to trust, and a generation o…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-14T04:18:03.416Z",
+  "fetchedAt": "2026-08-14T05:54:08.893Z",
   "stale": false,
   "error": null
 }

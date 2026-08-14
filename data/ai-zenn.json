@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "0da01b19518f",
-      "title": "単一コンテキストに5役を立てる円卓プロンプト、対立を生むのは役割ラベルでなく利害",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-five-role-roundtable",
-      "publishedAt": "2026-08-13T21:09:18.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 2ロールレビュー（推進派／批判派）は対立軸が1本しかなく、その軸に直交する盲点が残る。役を増やすことは人数を増やすことではなく、独立した評価軸を増やすことである 対立を生んでいるのは「あなたは批判者です」という役割ラベルではな…"
+      "id": "2faec72518d3",
+      "title": "承認ダイアログが押せなくなった（全部見せることと、選べることは別）",
+      "url": "https://zenn.dev/bricks/articles/approval-dialog",
+      "publishedAt": "2026-08-14T04:24:34.000Z",
+      "publisher": "Renga",
+      "summary": "AI エージェントにコマンドを実行させるアプリを作っている。 実行前に必ず「何をするか」を出して許可を取る、という作りにしていた。 デモを撮っている最中に詰んだ。ダイアログのボタンが画面の外へ出て、 承認も拒否もできなくなった。 結論を先…"
     },
     {
-      "id": "09c4420a82ad",
-      "title": "文字数指定を守れないLLMに、コード実行ツールで正確なlen()を渡す",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-char-count-two-step-fix",
-      "publishedAt": "2026-08-13T21:09:18.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR ChatGPT・Claude・Geminiに「150字以内」のような文字数指定をチャットのみで守らせようとすると、実測より10〜20字前後ずれることを確認した 原因はトークン化（tokenization）。モデルは文字単位でな…"
+      "id": "ef4f68bf954b",
+      "title": "【2026年最新】いま開発現場でバズってる10のワード 〜並列AIエージェントからSpec-Driven Developmentまで〜",
+      "url": "https://zenn.dev/yamitake/articles/dev-trends-2026-buzzwords",
+      "publishedAt": "2026-08-14T04:23:21.000Z",
+      "publisher": "JJ yamitake",
+      "summary": "はじめに 2026年、開発の景色は「AIに補完してもらう」から「AIチームをオーケストレーションする」へと一段ギアが上がりました。SNSやテックブログを眺めていると、毎週のように新しいバズワードが流れてきて、正直ついていくのが大変です。 …"
     },
     {
-      "id": "73cfdfecbaff",
-      "title": "AIにブラウザ操作をさせる「始め方」を整理する（拡張ルート・MCPルート、実測と公式情報を分けて）",
-      "url": "https://zenn.dev/zeroyenlab/articles/zeroyenlab-ai-browser-setup-guide",
-      "publishedAt": "2026-08-13T20:32:07.000Z",
-      "publisher": "zeroyenlab",
-      "summary": "! Zero Yen Lab（ゼロ円ラボ） の実録です。前回、前々回と「AIにブラウザ操作を任せる」話を書いてきました。読者からの質問やコメントを実際に受け取ったわけではありませんが、「この話題で本当に需要があるのはおそらく『どう始めるか…"
+      "id": "aee187070234",
+      "title": "ゼロから始めるClaude Code #8 スキル（スラッシュコマンド）で定型作業を自動化する",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-08-skills",
+      "publishedAt": "2026-08-14T04:19:15.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は Git 連携で、コミットも PR も日本語で頼めることを確かめました。 https://zenn.dev/mika_and_coco/articles/claud…"
     },
     {
-      "id": "6a9a68cb05ab",
-      "title": "デザインを崩されたくないからAIにJSONだけ書かせる。本気で作り込んだら、JSONがコードになった",
-      "url": "https://zenn.dev/mxhlix/articles/json-lock-vs-design-system-cost",
-      "publishedAt": "2026-08-13T18:35:01.000Z",
-      "publisher": "Mxhlix",
-      "summary": "AIにWebツールを量産させる中で、デザインの固定方法を三段階で変えてきました。 その話を書いた前の記事のdev.to版に、こんなコメントがつきました。 「JSON方式とデザインシステム方式を並べて見せてほしい」 素直に受け取れば、ただ二…"
+      "id": "23b092802b01",
+      "title": "Inference-time Topological Control for LLMs: 空白駆動型アテンション（Hi-Z Softmax）",
+      "url": "https://zenn.dev/nanashi_os/articles/9da1bcdba37319",
+      "publishedAt": "2026-08-14T04:07:55.000Z",
+      "publisher": "NanashiOS",
+      "summary": "導入および課題定義（Background & Motivation） 現代の大規模言語モデル（LLM）の基盤であるTransformerアーキテクチャは、すべてのトークン間に全結合（Dense）のアテンションを巡らせるため、文脈長（\\ N…"
     },
     {
-      "id": "6c569fa65a6c",
-      "title": "# AIに本当に足りないのは「判断力」なのか？——プロジェクト管理から考える文脈の問題",
-      "url": "https://zenn.dev/kuma18/articles/0d30acc29d3fd3",
-      "publishedAt": "2026-08-13T16:50:13.000Z",
-      "publisher": "xiao18",
-      "summary": "PMPの更新期限が近づいてきたので、最近になってようやくPDUを少しずつ消化し始めました。 ProjectManagement.comを見ていたときに見つけたのが、Mark Mullaly氏の “What AI Cannot Do for…"
+      "id": "444c4607acc3",
+      "title": "Amazon Bedrockで動画の音声解説を自動生成してみた ― Pegasus + Claude + Pollyを検証",
+      "url": "https://zenn.dev/nttdata_tech/articles/e1ac51a904e2a4",
+      "publishedAt": "2026-08-14T04:00:06.000Z",
+      "publisher": "Yutaka Kashiwabara",
+      "summary": "1. はじめに 動画のアクセシビリティを高める方法の1つに、映像中の視覚情報を音声で説明する Audio Description（音声解説） があります。 AWS Samplesには、生成AIを利用して動画のAudio Descripti…"
     },
     {
-      "id": "2d3e630a296f",
-      "title": "多言語サイトは「言語切替型」と「二言語同時表示型」、結局どっちが正解なのか問題",
-      "url": "https://zenn.dev/saikoseiko/articles/ff42d756e1a8f6",
-      "publishedAt": "2026-08-13T16:28:05.000Z",
-      "publisher": "Saiko-Seiko",
-      "summary": "〜現場で何度もモヤモヤしてきた話を、全部さらけ出します〜 Webサイトの多言語対応というテーマ、パッと聞くと「まあ翻訳すればいいんでしょ？」くらいに思われがちです。 でも実際に現場に入ってみると、翻訳の精度うんぬんより先に、もっと根本的な…"
+      "id": "cee16e46e8e7",
+      "title": "隔離環境のAIエージェントが、なぜ外へ出られたのか：OpenAI–Hugging Faceインシデントを読む",
+      "url": "https://zenn.dev/kuninogu/articles/ce0d48cd9db2f6",
+      "publishedAt": "2026-08-14T03:47:08.000Z",
+      "publisher": "KuniNogu",
+      "summary": "こんにちは、KuniNoguです。 この記事では、OpenAI、Hugging Face、JFrogが公表した資料とBlack Hat講演をもとに、どの仕組みがどのようにつながったのかを一段ずつ追います。 ! 本稿の確認基準日は2026年…"
     },
     {
-      "id": "912b55c223a1",
-      "title": "Embeddingモデルを活用した英単語教育「ワードウルフ」",
-      "url": "https://zenn.dev/ddd3h/articles/a37be0976c4e7b",
-      "publishedAt": "2026-08-13T16:27:32.000Z",
-      "publisher": "西濱大将",
-      "summary": "はじめに 最近では、英単語帳を開いてひたすら暗記するような学習だけでなく、Duolingoのようにゲーム感覚で楽しみながら学習する方法も広く使われるようになっています。 そこで今回は、大学受験を目指す高校生向けに、楽しみながら英単語を学べ…"
+      "id": "037ab09b0935",
+      "title": "Microsoft MAI-Image-2e入門 — 41%コスト削減・4倍高速な画像生成APIをPythonで実装する",
+      "url": "https://zenn.dev/kai_kou/articles/260-microsoft-mai-image-2e-azure-foundry-guide",
+      "publishedAt": "2026-08-14T03:22:27.000Z",
+      "publisher": "甲斐 甲",
+      "summary": "はじめに 2026年4月14日、Microsoftは画像生成AIモデル「MAI-Image-2e（MAI-Image-2-Efficient）」をパブリックプレビューとして公開しました。MAI-Image-2 のアーキテクチャを継承しなが…"
     },
     {
-      "id": "b488348a28c8",
-      "title": "自分のブログを、AIに見つけてもらう — RSSがもう一度効く理由",
-      "url": "https://zenn.dev/rssatlas/articles/rss-for-writers",
-      "publishedAt": "2026-08-13T16:16:44.000Z",
-      "publisher": "RSS Atlas",
-      "summary": "検索経由の流入が減って、代わりにAIが答えを作るようになりました。 そのときAIが何を読んでいるかが、書き手にとって新しい可視性になります。 この記事は、その入口としてRSSがもう一度効くという話です。技術記事というより、 書いている人向…"
+      "id": "315b30fee93b",
+      "title": "Amazon販売者向け：商品写真から同梱説明カードを作る方法",
+      "url": "https://zenn.dev/daviechen/articles/08d70901fb3847",
+      "publishedAt": "2026-08-14T02:14:47.000Z",
+      "publisher": "daviechen",
+      "summary": "同梱カードは、購入者が実際に最初に読む説明文書になりやすいものです。完全版マニュアルはQRコードの先にあっても、箱の中の小さな紙は「何が入っているか」「どう始めるか」「何を避けるか」「動かないとき何を確認するか」にすぐ答えなければなりませ…"
     },
     {
-      "id": "9f7f98edf04a",
-      "title": "「ピラー×クラスター」をシステムに落とし込む：データモデリングの考え方",
-      "url": "https://zenn.dev/avecdogpresence/articles/b3726e67e109ca",
-      "publishedAt": "2026-08-13T16:11:06.000Z",
-      "publisher": "Ken",
-      "summary": "SEO記事の量産を任されたとき、私は「とにかく記事数を増やせば伸びる」という感覚に引っ張られていました。ところが実運用では、記事同士が似た内容でぶつかり、検索意図ごとの役割分担が曖昧なまま増殖していく問題が起きます。結果として、個々の記事…"
+      "id": "1ac028c7f2bf",
+      "title": "作業見積もり3人日のコーディングタスクを約1時間で終えたAIエージェント構成",
+      "url": "https://zenn.dev/hiramax/articles/5604f50c7c9f19",
+      "publishedAt": "2026-08-14T02:05:15.000Z",
+      "publisher": "hiramax",
+      "summary": "最近、AIエージェントを使ったコーディングのやり方をいろいろ試しています。 その中で、今のところ一番うまくいっている構成を紹介します。 実際の業務でこの構成を試したところ、作業見積もり約3人日のコーディングタスクが、約1時間で完了しました…"
     },
     {
-      "id": "fca89e74f136",
-      "title": "型契約書を SSoT にする — TDDD（型定義駆動開発）",
-      "url": "https://zenn.dev/flip451/articles/sotohe-tddd-type-contract",
-      "publishedAt": "2026-08-13T15:31:49.000Z",
-      "publisher": "flip451",
-      "summary": "型システムは雄弁だ。それだけでコードの意図や制約を表現できる。この性質は、自然言語で書かれた仕様書と実装の間のギャップを仲介するのに役立つ。さらに型そのものに制約をかければ、アーキテクチャ上の約束やコーディングの作法も、守られているかを機…"
+      "id": "a68904d68e89",
+      "title": "「オプトインなら誰もオンにしない」既定値でAI学習に使われる時代の設定確認",
+      "url": "https://zenn.dev/kairosai/articles/e795cbf567147e",
+      "publishedAt": "2026-08-14T02:01:31.000Z",
+      "publisher": "kairos",
+      "summary": "こんにちは、カイロスAIです。毎朝7時、アメリカのAI副業事情を日本語でお届けしています。 8月12日、Twitchが変えたのは「既定値」だった Amazon傘下の配信サービス Twitch が、2026年8月12日にアカウント設定へ新し…"
     },
     {
-      "id": "2a2b5fb91aeb",
-      "title": "Claude Code の続きを Cursor でやる — 履歴は継げるが、道具は別物",
-      "url": "https://zenn.dev/honeymarron/articles/claude-code-cursor-session-handoff",
-      "publishedAt": "2026-08-13T15:30:06.000Z",
-      "publisher": "honeymarron",
-      "summary": "エージェントを乗り換えるとき、いちばん高くつくのは、ここまでの経緯を最初から説明し直すコストです。Cursor には、同じマシン上の Claude Code の会話を Agents Window に取り込む機能があり、この再説明を大きく減…"
+      "id": "1cc4eba15d99",
+      "title": "note.comにAPIが無いので、Playwrightをheadedで回すMCPサーバーを自作して25日で44本運用している",
+      "url": "https://zenn.dev/musicflow/articles/note-mcp-digest",
+      "publishedAt": "2026-08-14T01:38:57.000Z",
+      "publisher": "MusicFlow",
+      "summary": "note.com には公開 API がありません。それでも記事の下書き作成・アイキャッチ設定・タグ・マガジン追加・公開・SNS 告知までを自動化して、25日で44本を運用しています。 やったことの要点だけ書きます（詳しい実録は note …"
     },
     {
-      "id": "234fc73b15a8",
-      "title": "NPUのSystolic Arrayとは？PE Arrayとデータ再利用の仕組み",
-      "url": "https://zenn.dev/kas_blog/articles/npu-systolic-array-dataflow",
-      "publishedAt": "2026-08-13T15:13:18.000Z",
-      "publisher": "kas's blog",
-      "summary": "NPUはなぜDRAMアクセスを減らしやすいのか？PE ArrayとSystolic ArrayをGPUとの違いから理解する 概念図：実際の製品回路を理解しやすく簡略化した図。 本記事の目的 前編では、GPUが行列積をtile（小さな部分行…"
+      "id": "e31cd1bf0a48",
+      "title": "Mac でローカル LLM を始める前に知っておきたい、ユニファイドメモリの話",
+      "url": "https://zenn.dev/exapolicy/articles/757ae236c4d49f",
+      "publishedAt": "2026-08-14T01:35:08.000Z",
+      "publisher": "プロマネ武蔵",
+      "summary": "はじめに 「ローカル LLM を試したいが、手元のマシンで動くのか」— ローカル LLM の相談で、最終的に行き着くのはいつもマシンの話です。 先に結論を書きます。Apple Silicon の Mac をすでにお持ちなら、ローカル LL…"
     }
   ],
-  "fetchedAt": "2026-08-14T04:18:03.513Z",
+  "fetchedAt": "2026-08-14T05:54:09.030Z",
   "stale": false,
   "error": null
 }
