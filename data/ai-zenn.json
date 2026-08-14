@@ -6,54 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "7bb4e1efe146",
-      "title": "Claude Code開発標準の設計と運用 — CLAUDE.md・agents・skillsをチームで統制する",
-      "url": "https://zenn.dev/novexar/books/claude-code-team-standards",
-      "publishedAt": "2026-08-14T05:55:38.000Z",
-      "publisher": "Novexar",
-      "summary": "Claude Codeを個人の道具からチームの開発基盤に変えるための実践ガイド。実案件で運用している開発標準マスターリポジトリの設計(薄いCLAUDE.md・契約見出し・agent/skill雛形)と、標準の形骸化を防ぐ機械検証(lint…"
-    },
-    {
-      "id": "40451698f83e",
-      "title": "Xに1件投稿したいだけなのに、403から全部始まった。。403→Python→最後は🤖に止められた記録",
-      "url": "https://zenn.dev/humanos_lab/articles/377b31bcfc8aff",
-      "publishedAt": "2026-08-14T05:36:17.000Z",
-      "publisher": "HUMAN OS @ ゼロから極めるAI研究員",
-      "summary": "Xに1件投稿したいだけなのに、403→Python→最後は🤖に止められた記録 AIエージェントを「動かす」ではなく「安全に完遂」させるまでの実験記録 最初の目的は、びっくりするくらい単純だった。 AIエージェントに、Xへ1件だけ投稿させ…"
-    },
-    {
-      "id": "febc25c103b0",
-      "title": "【保存版】Vitestを\"ちょっと知ってる\"から\"武器にする\"ための実務Tips 20選",
-      "url": "https://zenn.dev/m_sakaaai/articles/c26209a74f5695",
-      "publishedAt": "2026-08-14T05:33:41.000Z",
-      "publisher": "M Sakai",
-      "summary": "VitestはJestの書き味そのままにViteの速度で走るテストランナーとして一気に定着しました。ただ、Jestからの移植レベルで止まっていて、Vitest固有の便利機能や設計上のツボを踏み切れていない現場も多い印象です。 この記事では…"
-    },
-    {
-      "id": "0f21a55354c3",
-      "title": "AIに「あなたの使い方」を聞いたら、手元の説明書を1度も開かなかった。記憶で挙げた名前に、説明書に無い本物が混ざっていた",
-      "url": "https://zenn.dev/numarn/articles/claude-self-describe-options-handson",
-      "publishedAt": "2026-08-14T05:17:46.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "先に結論から書きます。AI に「あなた自身の使い方」を聞いたとき、同じ聞き方の5回とも、AI は手元にある自分の説明書を1度も開きませんでした。道具(コマンドを実行する権限)は渡してあったのに、です。答えは全部その場の記憶から出てきました…"
-    },
-    {
-      "id": "c988e8ebce05",
-      "title": "FDE: ディスカバリー：エンゲージメントにおいて最も重要なフェーズ",
-      "url": "https://zenn.dev/shinji62/articles/1935ef5121d364",
-      "publishedAt": "2026-08-14T05:09:06.000Z",
-      "publisher": "Gwenn",
-      "summary": "名前の呼び方はさまざまですが、私にとってディスカバリーはどんなエンゲージメントにおいても最も重要なフェーズの1つです。 そして、これはフォワードデプロイドエンジニアリング（FDE：課題の発見から設計、コード実装、運用・定着までを一気通貫で…"
-    },
-    {
-      "id": "1db530f0ff73",
-      "title": "【イベントレポート】2026年8月4日開催｜DataOps Night 特別編〜AI時代のデータエンジニアリング！Local LLM 活用法",
-      "url": "https://zenn.dev/finatext/articles/bfb47bc263de41",
-      "publishedAt": "2026-08-14T05:07:22.000Z",
-      "publisher": "riona",
-      "summary": "こんにちは！Finatextホールディングス/ナウキャスト 広報担当の及川です！ 2026年8月4日、ナウキャスト主催の勉強会「DataOps Night 特別編～AI時代のデータエンジニアリング！Local LLM 活用法～」をハイブリ…"
-    },
-    {
       "id": "e00bf35a512b",
       "title": "AIによる画像背景削除を試してみた：画像セグメンテーション技術の仕組みはじめに",
       "url": "https://zenn.dev/cathy_chen/articles/9af7c6f266f262",
@@ -100,9 +52,57 @@
       "publishedAt": "2026-08-14T04:00:06.000Z",
       "publisher": "Yutaka Kashiwabara",
       "summary": "1. はじめに 動画のアクセシビリティを高める方法の1つに、映像中の視覚情報を音声で説明する Audio Description（音声解説） があります。 AWS Samplesには、生成AIを利用して動画のAudio Descripti…"
+    },
+    {
+      "id": "cee16e46e8e7",
+      "title": "隔離環境のAIエージェントが、なぜ外へ出られたのか：OpenAI–Hugging Faceインシデントを読む",
+      "url": "https://zenn.dev/kuninogu/articles/ce0d48cd9db2f6",
+      "publishedAt": "2026-08-14T03:47:08.000Z",
+      "publisher": "KuniNogu",
+      "summary": "こんにちは、KuniNoguです。 この記事では、OpenAI、Hugging Face、JFrogが公表した資料とBlack Hat講演をもとに、どの仕組みがどのようにつながったのかを一段ずつ追います。 ! 本稿の確認基準日は2026年…"
+    },
+    {
+      "id": "037ab09b0935",
+      "title": "Microsoft MAI-Image-2e入門 — 41%コスト削減・4倍高速な画像生成APIをPythonで実装する",
+      "url": "https://zenn.dev/kai_kou/articles/260-microsoft-mai-image-2e-azure-foundry-guide",
+      "publishedAt": "2026-08-14T03:22:27.000Z",
+      "publisher": "甲斐 甲",
+      "summary": "はじめに 2026年4月14日、Microsoftは画像生成AIモデル「MAI-Image-2e（MAI-Image-2-Efficient）」をパブリックプレビューとして公開しました。MAI-Image-2 のアーキテクチャを継承しなが…"
+    },
+    {
+      "id": "315b30fee93b",
+      "title": "Amazon販売者向け：商品写真から同梱説明カードを作る方法",
+      "url": "https://zenn.dev/daviechen/articles/08d70901fb3847",
+      "publishedAt": "2026-08-14T02:14:47.000Z",
+      "publisher": "daviechen",
+      "summary": "同梱カードは、購入者が実際に最初に読む説明文書になりやすいものです。完全版マニュアルはQRコードの先にあっても、箱の中の小さな紙は「何が入っているか」「どう始めるか」「何を避けるか」「動かないとき何を確認するか」にすぐ答えなければなりませ…"
+    },
+    {
+      "id": "1ac028c7f2bf",
+      "title": "作業見積もり3人日のコーディングタスクを約1時間で終えたAIエージェント構成",
+      "url": "https://zenn.dev/hiramax/articles/5604f50c7c9f19",
+      "publishedAt": "2026-08-14T02:05:15.000Z",
+      "publisher": "hiramax",
+      "summary": "最近、AIエージェントを使ったコーディングのやり方をいろいろ試しています。 その中で、今のところ一番うまくいっている構成を紹介します。 実際の業務でこの構成を試したところ、作業見積もり約3人日のコーディングタスクが、約1時間で完了しました…"
+    },
+    {
+      "id": "a68904d68e89",
+      "title": "「オプトインなら誰もオンにしない」既定値でAI学習に使われる時代の設定確認",
+      "url": "https://zenn.dev/kairosai/articles/e795cbf567147e",
+      "publishedAt": "2026-08-14T02:01:31.000Z",
+      "publisher": "kairos",
+      "summary": "こんにちは、カイロスAIです。毎朝7時、アメリカのAI副業事情を日本語でお届けしています。 8月12日、Twitchが変えたのは「既定値」だった Amazon傘下の配信サービス Twitch が、2026年8月12日にアカウント設定へ新し…"
+    },
+    {
+      "id": "1cc4eba15d99",
+      "title": "note.comにAPIが無いので、Playwrightをheadedで回すMCPサーバーを自作して25日で44本運用している",
+      "url": "https://zenn.dev/musicflow/articles/note-mcp-digest",
+      "publishedAt": "2026-08-14T01:38:57.000Z",
+      "publisher": "MusicFlow",
+      "summary": "note.com には公開 API がありません。それでも記事の下書き作成・アイキャッチ設定・タグ・マガジン追加・公開・SNS 告知までを自動化して、25日で44本を運用しています。 やったことの要点だけ書きます（詳しい実録は note …"
     }
   ],
-  "fetchedAt": "2026-08-14T11:28:28.730Z",
+  "fetchedAt": "2026-08-14T12:10:18.471Z",
   "stale": false,
   "error": null
 }
