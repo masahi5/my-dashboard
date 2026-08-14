@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "551764d22fe7",
-      "title": "値下げではなく対価に見合う機能提供を — 1日10本のAIセッションが支える価格競争からの降り方",
-      "url": "https://zenn.dev/fixu/articles/exit-price-war-with-value-ai-native",
-      "publishedAt": "2026-08-14T09:10:13.000Z",
-      "publisher": "fixU",
-      "summary": "はじめに 私たちは会員管理・予約決済システムの SaaS を開発・運営しています。コワーキングスペース、ジム、レンタルスペースといった店舗・施設の運営を支えるこの領域は、機能の同質化 — いわゆるコモディティ化が進んでいる市場です。似たよ…"
+      "id": "2d0dd09d9486",
+      "title": "#4 全員が --dangerously-skip-permissions で動いていた — AIエージェント6体の権限設計をやり直した話",
+      "url": "https://zenn.dev/chisatom/articles/73161858404704",
+      "publishedAt": "2026-08-13T23:56:14.000Z",
+      "publisher": "Chisato Matsuzaki",
+      "summary": "この記事は、Claude Code 6体のマルチエージェント「Lady's servants」（お屋敷）を5ヶ月運用した記録を振り返る連載の第4回です。これまでの回で、ロールプレイによる役割制御（第1回）、誕生直後の生ログ（第2回）、通信…"
     },
     {
-      "id": "69509b988206",
-      "title": "claude -p 15分ハンズオン — 初めてのヘッドレス実行",
-      "url": "https://zenn.dev/hampen2929/articles/20260807-claude-p-headless-hands-on",
-      "publishedAt": "2026-08-14T09:00:05.000Z",
+      "id": "1bc208741901",
+      "title": "AIエージェントとは何か:サーバで動く「AI社員」が、なぜチームの仕事を変えるのか",
+      "url": "https://zenn.dev/shotawatanabe/articles/what-is-server-ai-agent",
+      "publishedAt": "2026-08-13T23:49:53.000Z",
+      "publisher": "Shota Watanabe",
+      "summary": "「AIエージェント」が指しているものは、実はバラバラ 「AIエージェントを導入したい」という相談を受けることが増えた。ただ、話を聞いていくと、指しているものが人によってまるで違う。 ChatGPTに調べ物を任せるのもAIエージェントと呼ば…"
+    },
+    {
+      "id": "76a72e17114d",
+      "title": "AI を業務成果につなげる前に現れる「品質・コスト・浸透」の壁——先行 2 社が突破したプロセス",
+      "url": "https://zenn.dev/mbk_digital/articles/4945c084b8694f",
+      "publishedAt": "2026-08-13T23:35:00.000Z",
+      "publisher": "Kazuki Furuhata",
+      "summary": "株式会社 MBK Digital の古畑です。 2026 年 7 月 30 日・31 日に開催された Google Cloud Next Tokyo 2026 にて、データアナリストの田中と 2 人で「Gemini Enterprise …"
+    },
+    {
+      "id": "9bb0a4a3e6a0",
+      "title": "AIエージェント時代のフルスタックTypeScriptフレームワーク「Guren」を作っています",
+      "url": "https://zenn.dev/7nohe/articles/guren-ai-agent-framework",
+      "publishedAt": "2026-08-13T23:25:23.000Z",
+      "publisher": "Daiki Urata",
+      "summary": "はじめに 普段からLaravelやRailsのようなフルスタックMVCフレームワークの開発体験が好きで使っていますが、TypeScriptエコシステムには「これ一つで全部揃う」という決定版がまだ少ないと感じていました。 Hono、Driz…"
+    },
+    {
+      "id": "280276f976d9",
+      "title": "Claude Code入門 — インストールから最初のひと仕事まで",
+      "url": "https://zenn.dev/hampen2929/articles/20260814-claude-code-getting-started",
+      "publishedAt": "2026-08-13T23:05:05.000Z",
       "publisher": "はんぺん",
-      "summary": "Claude Codeには、対話UIを起動せずに「プロンプトを渡す → 結果を受け取る → 終了」するヘッドレス実行モードがあります。これができると、Claude Codeをシェルスクリプトから、CIから、cronから呼べるようになります…"
+      "summary": "Claude Codeをまだ触ったことがない人向けに、インストールから「最初のひと仕事」を任せるまでを一直線に案内します。所要時間は15分ほどです。 先に断っておくと、このアカウントの記事は基本的に「入門を終えた人」向けです（CIへの組み…"
     },
     {
-      "id": "e21c76f5c6de",
-      "title": "MCPのTool execution failed、反証は本当に反証か",
-      "url": "https://zenn.dev/nomurasan/articles/mcp-tool-execution-failed-troubleshooting",
-      "publishedAt": "2026-08-14T08:32:54.000Z",
-      "publisher": "のむらや",
-      "summary": "ツールは一覧に出ている。26個ちゃんと認識されている。なのに呼ぶと全部落ちる。画面に出るのは Tool execution failed の一行だけ。 半日ぶんの切り分けの記録です。結論から言うと、最初にAIが出した仮説が正解でした。 原…"
+      "id": "25816490d726",
+      "title": "前払い・着手金ルールで未回収をゼロにした — ひとり法人の与信管理の実務",
+      "url": "https://zenn.dev/joinclass/articles/article-20260812220005-31835",
+      "publishedAt": "2026-08-13T23:00:11.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "ひとり法人にとって、未回収は「売上減」ではなく「事業停止」 僕はAIを使って一人で会社を回している。開発も営業も経理も、実務のほとんどはAIエージェントが動かしていて、僕がやるのは判断と承認だけだ。 そのなかで、AIに一切任せていない領域…"
     },
     {
-      "id": "ebd8cb69e7b4",
-      "title": "KMP × AIエージェントで個人開発して分かった「AIに任せるための設計」",
-      "url": "https://zenn.dev/photoruction_bl/articles/10f69310759131",
-      "publishedAt": "2026-08-14T08:31:34.000Z",
-      "publisher": "Yosuke Fujii",
-      "summary": "はじめに Androidエンジニアの藤井です。 最近、個人開発で Kotlin Multiplatform（KMP）を使ったモバイルアプリを開発しています。 Android版はすでにリリースしており、iOS版は最近開発に着手したばかりです…"
+      "id": "65243c2536bc",
+      "title": "Web調査は「宿題ファイル」にして外注する — Claude Code と claude.ai の分業レシピ",
+      "url": "https://zenn.dev/tejunya/articles/a013_web-claude-bungyo",
+      "publishedAt": "2026-08-13T23:00:05.000Z",
+      "publisher": "手順屋",
+      "summary": "Claude Code で作業していて、「この情報、最新の仕様を確認しないと書けないな」という場面が来る。 そのまま Code に Web 検索をさせると、こうなる。 検索結果の断片が会話に流れ込み、コンテキストが調査ログで埋まる。本題の…"
     },
     {
-      "id": "7cae87b153e6",
-      "title": "（定例）Zennで登録したブックマークを分析してみた（第2回）",
-      "url": "https://zenn.dev/angelagaku/articles/zenn_bookmark_analyze_no002",
-      "publishedAt": "2026-08-14T08:31:03.000Z",
-      "publisher": "まなぶのzenn",
-      "summary": "※この記事はClaudeで生成してます。 今回のスコープ 「Zennブクマ分析」の第2回です。対象はブックマークのみ、前回（第1回・43件）との差分を中心に見ていきます。 対象: Zennのブックマーク全66件（Claude in Chr…"
+      "id": "d7426b520227",
+      "title": "Claude Code入門を終えた人が、次にやるべき5つのこと",
+      "url": "https://zenn.dev/hampen2929/articles/20260807-claude-code-next-5-steps",
+      "publishedAt": "2026-08-13T23:00:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "Claude Codeをインストールして、対話しながらコードを書かせて、「これはすごい」と思った。チュートリアル的な記事も一通り読んだ。 ——で、次は何をすればいいのか? この記事はそういう人向けです。入門を終えた人が「たまに使う便利ツー…"
     },
     {
-      "id": "07e0d3babd10",
-      "title": "AI音楽の作り方：プロンプト設計から生成・リミックスまでの実践ガイド",
-      "url": "https://zenn.dev/aitool/articles/486cc439e36cff",
-      "publishedAt": "2026-08-14T08:22:12.000Z",
-      "publisher": "AI Tools",
-      "summary": "AI音楽の作り方：プロンプトから生成・リミックスまでの実践ワークフロー AI音楽を作ろうとすると、まずプロンプトの例を探しがちです。ただ、実際の制作は一度生成して終わりではありません。方向を決め、複数の結果を聴き比べ、使える部分を残してリ…"
+      "id": "04ba64c73979",
+      "title": "なぜ pdlc-skills は三大エンジニアリングに自然と噛み合うのか",
+      "url": "https://zenn.dev/kanfupanda/articles/why-pdlc-fits-three-paradigms",
+      "publishedAt": "2026-08-13T22:55:29.000Z",
+      "publisher": "kanfu-panda",
+      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/08/13/why-pdlc-fits-three-paradigms.html 三つの概念を切り分けた…"
     },
     {
-      "id": "4463364f11dc",
-      "title": "AI駆動開発の文章管理で「Markdownか、HTMLか」の議論から降りることにした【Vellym】",
-      "url": "https://zenn.dev/tasclub/articles/018b12c99c568e",
-      "publishedAt": "2026-08-14T08:14:19.000Z",
-      "publisher": "tasclub",
-      "summary": "はじめに 初投稿となります。全力でオタ活・推し活を楽しもうというときに、頭の中を走る現世の雑音を取り除くためのアプリを開発している tasclub ( https://tasclub.com/ ) です。 この記事では、次のことを書きます…"
+      "id": "319a502e550c",
+      "title": "超高速かつ高性能！Googleの最新モデル「Gemini 3.7 Flash」とは？",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-08-13-2243",
+      "publishedAt": "2026-08-13T22:44:17.000Z",
+      "publisher": "田中根小介",
+      "summary": "はじめに 海外のテックコミュニティ（Hacker News等）で、Googleから新たに発表されたGemini 3.7 Flashが大きな話題を呼んでいます。 従来のFlashモデルが持つ「低遅延・低コスト」という強みをさらに進化させつつ…"
     },
     {
-      "id": "399bc77a0d07",
-      "title": "Claude Code そもそも論的解説 —.claude/ の中身と優先順位から「導入する・しない」を決める",
-      "url": "https://zenn.dev/tomiyasu_chan/articles/claude-code-overview-decision",
-      "publishedAt": "2026-08-14T08:10:18.000Z",
-      "publisher": "ふじ",
-      "summary": "📊 フルカラー版（図解つき）はこちら 色分け・構成図つきの完全版を別サイトに置いています。構造を掴むならこちらの方が速いです。 フルカラー版の画面の様子 ! 検証環境：Claude Code v2.1.232 / 2026-08 時点 …"
+      "id": "06ff313705b3",
+      "title": "永続メモリの一番怖い失敗は「忘れること」ではなく「誤りが権威になること」",
+      "url": "https://zenn.dev/mameresearcher/articles/agent-memory-wrong-entry-becomes-authority",
+      "publishedAt": "2026-08-13T22:42:48.000Z",
+      "publisher": "まめ研究員",
+      "summary": "永続メモリ層、結局どう実装するか の続きです。あの記事では索引スキーマと判定基準を書きました。運用して3週間、メモリに誤りが入ったときに何が起きるかを実際に踏んだので、その話を書きます。 結論を先に書くと、危険なのは忘却ではありません。誤…"
     },
     {
-      "id": "4570560c8a42",
-      "title": "新卒2年目のAI活用事例 ~前編~ 保守運用現場にRAGを持ち込んだ話",
-      "url": "https://zenn.dev/acntechjp/articles/f0715ee2fd9b3d",
-      "publishedAt": "2026-08-14T08:00:05.000Z",
-      "publisher": "TGP_CDAI",
-      "summary": "執筆者：Kensuke Tezuka はじめに 「また障害だ。でも誰に聞けばいいかわからない。資料はどこにあるんだろう」 ――運用現場で働いていると、こういう場面に何度も直面します。 手順書はどこかの共有フォルダに眠っていて、過去の対応履…"
-    },
-    {
-      "id": "014fae2fe92e",
-      "title": "新卒2年目のAI活用事例 ~後編~ Indexを育てると自動化が広がる",
-      "url": "https://zenn.dev/acntechjp/articles/bc8555842d0bdd",
-      "publishedAt": "2026-08-14T08:00:05.000Z",
-      "publisher": "TGP_CDAI",
-      "summary": "執筆者：Kensuke Tezuka はじめに 前回の記事では、チケット管理ツールに起票された障害・問い合わせチケットをエンベディング処理してインデックスに蓄積し、新規チケットが起票されるたびに過去事例と関連手順書をチャットツールへ自動通…"
-    },
-    {
-      "id": "871f03e3b804",
-      "title": "Codex完全コース、設計から実装・検証までぜんぶ使いこなすで",
-      "url": "https://zenn.dev/masayan1126/books/codex-complete-practical-course",
-      "publishedAt": "2026-08-14T06:49:44.000Z",
-      "publisher": "まさやん",
-      "summary": "Codexを初めて使う準備から、指示と設定、Skills、サブエージェント、外部連携、安全設計、検証できる自動化までを、毎日の開発で再現できる形にまとめるで。"
-    },
-    {
-      "id": "6fd152a7756c",
-      "title": "あなたに合わせたトレーニング🏋️‍♀️、食事メニュー🥗、生活習慣アドバイス",
-      "url": "https://zenn.dev/st4rcitizen/articles/b44dd0a8f01009",
-      "publishedAt": "2026-08-14T06:37:05.000Z",
-      "publisher": "Evgenii",
-      "summary": "Wellie — トレーニングを組み立て、食事を合わせ、生活に適応するAIコーチ 一言のゴールから、その人の生活に合わせたトレーニングと食事のプランをつくり、実際にやったこと・食べたことから、プランを組み直し続けるエージェント型コーチ。そ…"
+      "id": "d14f8317d86d",
+      "title": "エラーは鳴らない鐘だった——見えない1文字がAIエージェントの心拍を止めた話",
+      "url": "https://zenn.dev/keeper_nothuman/articles/bell-character-silence",
+      "publishedAt": "2026-08-13T22:30:05.000Z",
+      "publisher": "keeper",
+      "summary": "症状 朝6時51分。AI エージェント（Claude Code 常駐）が、発話のあと固まった。 エラーは出ない。プロセスは生きている。ただ、返事だけが来ない。 同じ朝、別の異変にも気づいた。セッションの心拍を書く hook（発話やツール実…"
     }
   ],
-  "fetchedAt": "2026-08-14T09:44:05.807Z",
+  "fetchedAt": "2026-08-14T10:41:47.841Z",
   "stale": false,
   "error": null
 }
