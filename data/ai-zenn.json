@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "edf83b490d30",
-      "title": "AI主権は「国産LLM」だけでは決まらない──半導体サプライチェーンから考える日本の勝ち筋",
-      "url": "https://zenn.dev/ykohashi/articles/2026-08-15_01",
-      "publishedAt": "2026-08-15T06:13:08.000Z",
-      "publisher": "ykohashi",
-      "summary": "この記事を読む前に この記事は何を書いているか 「AIで日本はどう生き残るか」という問いは、すぐに「国産のAIモデルを作れるか」という話になりやすい。 しかし、AIを社会で動かし続けるには、モデルだけでなく、半導体、製造装置、材料、計算基…"
+      "id": "b3f7587a1fac",
+      "title": "日本語インフォグラフィックを画像生成で崩さない、生成と描画を分ける2段階設計",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-palm-reading-infographic",
+      "publishedAt": "2026-08-14T21:10:44.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 画像内の日本語テキストの破綻は、Nano Banana Pro（Gemini 3 Pro Image、2025-11）およびNano Banana 2（Gemini 3.1 Flash Image、2026-02に標準化）の世…"
     },
     {
-      "id": "133fd3629f68",
-      "title": "【AI HACK 2026】イベントの「次の一仕事」を配るMAWASUを作った",
-      "url": "https://zenn.dev/tomomj/articles/ai-hack-2026",
-      "publishedAt": "2026-08-15T06:04:50.000Z",
-      "publisher": "そのだ",
-      "summary": "AI HACK 2026に参加し、イベント運営ツール「MAWASU」を開発しました。 作ったもの MAWASUは、イベント当日に集まった人へ、その時に必要な「次の一仕事」を配るプロダクトです。 イベントでは、資材不足や機材の遅延、担当者の…"
+      "id": "490296b4f062",
+      "title": "自動検索されるLLMメモリと、明示的呼び出しのメモリの設計差",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-memory-work-mode-settings",
+      "publishedAt": "2026-08-14T21:10:43.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR ChatGPT・Geminiのメモリ機能はデフォルトで有効かつ「自動検索・自動注入」型で、無関係な依頼のコンテキストにも過去の個人的な会話が暗黙に混ざることを確認した Claudeのメモリは2026年3月に全プランへ開放された…"
     },
     {
-      "id": "87ae2b4373fb",
-      "title": "【AI Hack 2026】インフラの「見えない危機」に挑む。音響AIとLLMが拓く水道管DX 〜9日間チャレンジ〜",
-      "url": "https://zenn.dev/fin_fta/articles/00f69860b87fce",
-      "publishedAt": "2026-08-15T05:29:34.000Z",
-      "publisher": "F田",
-      "summary": "こんにちは！ 「Smartwater Guardian」開発チームです。 私たちは、「AI HACK」 の一環として、日常生活の足元でひそかに進行しているインフラの危機に立ち向かうWebアプリ 「Smartwater Guardian」 …"
+      "id": "671a426a166d",
+      "title": "2026/08/07 AI協働体系の転換点と人類存続に関する処理構造の観測報告書",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/680b44082944e1",
+      "publishedAt": "2026-08-14T21:03:20.000Z",
+      "publisher": "maestro",
+      "summary": "この報告書に至るまでの経緯： Ⅰ. 私がAI協働体系の研究に踏み込んだ理由 中国駐在時に出会った「天時地利人和」という熟語は、私の人生観を決定づけた。 成功とは、 ・天時（タイミング） ・地利（環境・条件） ・人和（協働・関係性） この三…"
     },
     {
-      "id": "75fa9b4a05f2",
-      "title": "障害対応の「優先順位」を仕組みにできないか - Operation Decision Recordsという着想",
-      "url": "https://zenn.dev/yyoosshh/articles/d7b3fcdbd90de2",
-      "publishedAt": "2026-08-15T05:22:49.000Z",
-      "publisher": "YOSH",
-      "summary": "! 構想段階のアイデアです。運用実績に基づく報告ではなく 1つのアイデア として書いています。実際にやってみた結果は続編として書きたいです。いつか、必ず。 きっかけ 障害対応の現場では、限られた時間の中で「何を優先するか」を決めないといけ…"
+      "id": "4b96eb214cf9",
+      "title": "SNSのリンクがクリックされない。『届いていない』のか『刺さっていない』のか切り分けた話",
+      "url": "https://zenn.dev/limit_lab_works/articles/bridge-test-reach-vs-offer",
+      "publishedAt": "2026-08-14T20:47:23.000Z",
+      "publisher": "限界社会人（LIMIT LAB WORKS）",
+      "summary": "結論から言う。「インプレッションはあるのにクリックされない」ときにまずやるべきなのは、文章やCTAの書き直しではない。それが「そもそも届いていない」問題なのか「届いてはいるが興味を持たれていない」問題なのかを、数字で切り分けることだ。 ク…"
     },
     {
-      "id": "838f8870d888",
-      "title": "Paresio 補助金検索サービス for AI Hackathon",
-      "url": "https://zenn.dev/harukadia/articles/40e9ba59e5a118",
-      "publishedAt": "2026-08-15T05:13:05.000Z",
-      "publisher": "Harukadia",
-      "summary": "AI Hackathon に出場して、「Paresio（パレシオ）」という補助金レーダーを開発しました。国と全国の自治体に散らばる補助金・助成金・融資・税制優遇の情報を正規ルート（公式API・オープンデータ・規約準拠クロール）で集め、会社…"
+      "id": "bb874c454273",
+      "title": "AWSの月額費用を$15,000削減した話（総集編）",
+      "url": "https://zenn.dev/koedesk/articles/aws-cost-halved-in-8-months",
+      "publishedAt": "2026-08-14T20:20:42.000Z",
+      "publisher": "koedesk",
+      "summary": "2025年12月に月$30,398だったAWSの請求が、2026年8月は約$15,100で着地する見込みです。8ヶ月でマイナス50%、年間にして約$18万（約2,800万円）浮きました。 過去に経過を3回書いています（1本目・2本目・3本…"
     },
     {
-      "id": "c5f6ea5528ef",
-      "title": "会議が全録画される時代、AIは文書でなく現場から学ぶ",
-      "url": "https://zenn.dev/okssusucha/articles/20260709-everything-is-recorded-now",
-      "publishedAt": "2026-08-15T04:38:21.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "会議が全部録画される時代に、AIは「文書」ではなく「現場」から学び始める ここ数年で、社内の会議はいつのまにか「録画されているのが当たり前」になった。ZoomやGoogle Meetの録画ボタン、Granolaのようなメモ取りツール、通話…"
+      "id": "e8ffe3d1fa84",
+      "title": "Claude Codeのpermissions、allow/deny/askの境界線を毎回悩んでいたので決定木にした",
+      "url": "https://zenn.dev/playpark/articles/claude-code-permissions-design-guide",
+      "publishedAt": "2026-08-14T18:55:18.000Z",
+      "publisher": "playpark",
+      "summary": "空のpermissions.denyを前に、手が止まったことはありませんか 新しいプロジェクトでsettings.jsonを開くと、permissions.denyはたいてい空っぽだ。「危なそうなコマンドを思いついた順に足していけばいいか…"
     },
     {
-      "id": "081c65fab4f3",
-      "title": "claude skillでADRを残して、『なんでこうしたんだっけ』を根絶したい",
-      "url": "https://zenn.dev/hkr_dev/articles/742edfd6737a01",
-      "publishedAt": "2026-08-15T04:37:28.000Z",
-      "publisher": "むのう.dev",
-      "summary": "あの実装、なんでこうしたんだっけ 一部ケースの特殊対応 単純な考慮もれ 設計上の瑕疵を実装で誤魔化した なぜ文脈を残さないのか 残す文化がない 残す場所がない 残す時間がない 残してもだれもみない 残しても評価されない 残さなくてもネガテ…"
+      "id": "09ff3b35a5f4",
+      "title": "CLAUDE.mdは短いのに重い ― 自動ロード層を測って43%削るまで",
+      "url": "https://zenn.dev/hoshiorange/articles/19-claude-config-token-bloat-cleanup",
+      "publishedAt": "2026-08-14T17:53:57.000Z",
+      "publisher": "ほし",
+      "summary": "こんにちは。今日は掃除の話です。ただし片付けたのはコードではなく、AIコーディングエージェントの設定ファイルのほうでした。 CLAUDE.md はちゃんと短く保っていたんです。それなのに、セッションが最初からずっしり重い。原因を探しにいっ…"
     },
     {
-      "id": "5087ebd885ff",
-      "title": "IT未経験新卒エンジニア３人がAI駆動開発でAIプロダクトを作ってみた話",
-      "url": "https://zenn.dev/kon0930/articles/c32f250b194ae8",
-      "publishedAt": "2026-08-15T04:23:33.000Z",
-      "publisher": "こん",
-      "summary": "はじまり なお ｢今度みのりとAIハッカソン[1]出よって話してたんだよね｣ こん ｢え、なにそれ楽しそう、私も入れて😙｣ やっとこさ基本情報技術者試験の資格をとった私たちではありますが、そんなこんなでAIハッカソンに参加することになっ…"
+      "id": "a1987612bcb1",
+      "title": "Boundary Consciousness: A Conceptual Framework for Human–LLM Interacti",
+      "url": "https://zenn.dev/leaper/articles/4b6813fa2aaa67",
+      "publishedAt": "2026-08-14T17:17:51.000Z",
+      "publisher": "問ぼっち",
+      "summary": "📘 Boundary Consciousness: A Conceptual Framework for Human–LLM Interaction A theoretical paper draft Introduction Rece…"
     },
     {
-      "id": "0a187fef198f",
-      "title": "ゼロから始めるClaude Code #9 メモリ機能：セッションをまたいで文脈を持ち越す",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-09-memory",
-      "publishedAt": "2026-08-15T04:20:45.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はスキル（スラッシュコマンド）で「毎回同じ指示」をコマンド1発に圧縮しました。 https://zenn.dev/mika_and_coco/articles/cla…"
+      "id": "f94baee45fab",
+      "title": "AIは「書く速さ」を変えた。「レビューできる量」は変えなかった — GitHub ActionsのCIを、どう設計し直したか",
+      "url": "https://zenn.dev/aichecklab/articles/c49eee5372e0d0",
+      "publishedAt": "2026-08-14T17:04:38.000Z",
+      "publisher": "AI CHECK LAB",
+      "summary": "AIエージェントに実装を任せるのが、特別なことではなくなりました。私たちのチームでも、日々のコードの相当な割合はAIが書いています。 数字にすると、2026年5月からの3ヶ月で245本のPRが動きました。うち102本はDependabot…"
     },
     {
-      "id": "0f52ba3dfa1b",
-      "title": "「実装前に3つ確認して」と足したら暴走は5回とも消えた。作られたファイルも5回とも0件だった",
-      "url": "https://zenn.dev/numarn/articles/ask-before-implement-prompt-handson",
-      "publishedAt": "2026-08-15T04:06:19.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "先に結論から書きます。AI への頼みごとの最後に「実装前に3つ確認してください。」と一言足すと、5回試して5回とも、AI は質問を3つ返しただけで手を止めました。暴走はたしかに消えました。ただし、同じ5回で出来上がったファイルも0件でした…"
+      "id": "05b29b2e2067",
+      "title": "LLMが書いたタスク分解は、誰が検証しているのか",
+      "url": "https://zenn.dev/saltmu/articles/83b332232d7b75",
+      "publishedAt": "2026-08-14T16:34:23.000Z",
+      "publisher": "そるとむ",
+      "summary": "AIコーディングエージェントを並列で走らせる話は、だいたい同じ形になります。大きなタスクをLLMに分解させ、サブタスクをそれぞれのエージェントに割り当てる、という形です。 ここで一つ、抜け落ちがちな問いがあります。 その分解が正しいことは…"
     },
     {
-      "id": "9e4e2f215e8c",
-      "title": "Rubyから15分 — Staddress gem で住所解析する",
-      "url": "https://zenn.dev/staddress/articles/094f5a7bc2431a",
-      "publishedAt": "2026-08-15T03:31:12.000Z",
-      "publisher": "ストアドレス",
-      "summary": "Rubyから15分 — staddress gem で住所解析する 住所正規化・ジオコーディングAPI 「Staddress（スタドレス）」 開発チームです。 前回（Pythonから15分 — staddress で住所解析する）は、公式…"
+      "id": "59662baf50b5",
+      "title": "「隔離環境の構築はこれから」の5日後、実際に選んだのはEC2ではなくRoutineだった",
+      "url": "https://zenn.dev/devex12/articles/claude-code-routine-unattended-followup",
+      "publishedAt": "2026-08-14T16:25:03.000Z",
+      "publisher": "dev-ex12",
+      "summary": "この記事で得られること 「夜間バッチを完全無人で回すには --dangerously-skip-permissions ＋ 隔離環境（EC2+tmux）が必要そう」と結論づけた前回の続き。5日後に実際に導入したのは、EC2ではなく Cla…"
     },
     {
-      "id": "5b3294f63acb",
-      "title": "高精度GNSSモジュールのアンテナ2種を比べてみた",
-      "url": "https://zenn.dev/wavelogy/articles/e1f92b0d0aefb3",
-      "publishedAt": "2026-08-15T03:25:00.000Z",
-      "publisher": "wavelogy",
-      "summary": "自己紹介 はじめまして。wavelogy インターン生のゆっきーです。 私は現在、東京科学大学理学院１年であり、ハードウェア開発や起業の勉強としてお仕事をさせていただいています。今回は業務の中で取り組んだ「GNSSアンテナの性能比較」をテ…"
+      "id": "d27a017cb324",
+      "title": "「好き」だけで終わらせない。私らしいコスメ選び。「コスメループ」を作りました！",
+      "url": "https://zenn.dev/kinoaka/articles/5b590d3b3fddae",
+      "publishedAt": "2026-08-14T16:24:08.000Z",
+      "publisher": "Akane",
+      "summary": "はじめに AI HACK 2026で、コスメの購入前から購入後の活用までをサポートするAIサービス 「CoseMe Loop（コスミーループ）」 を開発しました。 この記事では、今回のハッカソンにあたりどのようなことを考え、「CoseMe…"
     }
   ],
-  "fetchedAt": "2026-08-15T07:51:52.328Z",
+  "fetchedAt": "2026-08-15T08:23:01.216Z",
   "stale": false,
   "error": null
 }
