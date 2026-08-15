@@ -6,70 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "fcfabeb5d865",
-      "title": "NII(国立情報学研究所)報告書にみる生成AIの制度的課題、透明性・安全性・監査義務の国際動向",
-      "url": "https://zenn.dev/syoshida07/articles/a2d4d68b1b4e74",
-      "publishedAt": "2026-08-15T11:54:55.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "国立情報学研究所(NII)大規模言語モデル研究開発センターが先日公表した「生成AI規制・AIガバナンスに関する国際動向調査報告書」 EU・英国・米国で急速に整備が進む生成AI規制を体系的に整理し、日本の政策立案者・研究者・企業が参照できる…"
-    },
-    {
-      "id": "6cd2397c4529",
-      "title": "LTSpice × Claude Code を MCP で繋いで AI に電子回路を設計させる",
-      "url": "https://zenn.dev/trailfusionai/articles/ai-news-20260501005814-533b8e",
-      "publishedAt": "2026-08-15T11:00:50.000Z",
-      "publisher": "Trailfusion AI",
-      "summary": "TL;DR AI に「5V で赤色 LED を安全に光らせる回路を作って、電流値も教えて」と打つだけで、本物の LTSpice が回路図を生成し、シミュレーションを実行し、I = 10.8 mA という数値で返してくる時代になった。 仕組…"
-    },
-    {
-      "id": "5f8210de4b49",
-      "title": "オントロジーは本当に「バラバラを一つにする」道具か、自分の理論と突き合わせてみた",
-      "url": "https://zenn.dev/motimotinotch/articles/ef8d9a4851d657",
-      "publishedAt": "2026-08-15T10:43:37.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "要約: 「AIに同じ質問をしたら、部署ごとに違う数字が返ってきた」という記事を読んで、自分が個人開発しているAI人格システムの実装ログを見返してみた。すると同じ形の道具（「これとこれは別物だ」という制約）を、真逆の目的のために先に実装して…"
-    },
-    {
-      "id": "1ddd40fae448",
-      "title": "MCPでAIエージェントに「手」を与える — Model Context Protocol入門",
-      "url": "https://zenn.dev/yukihayama/articles/mcp-ai-agent-tools",
-      "publishedAt": "2026-08-15T10:28:14.000Z",
-      "publisher": "葉山悠希",
-      "summary": "MCPでAIエージェントに「手」を与える — Model Context Protocol入門 AIエージェントの「手と目」の問題 ChatGPTやClaudeを使っていて、こんな不満を感じたことはありませんか？ 「ファイルを読んでほしい…"
-    },
-    {
-      "id": "32ce59b484db",
-      "title": "学習データに忠実な出力をするLLMが欲しい",
-      "url": "https://zenn.dev/sabiuyack/articles/9b205ca32cbfcb",
-      "publishedAt": "2026-08-15T10:04:53.000Z",
-      "publisher": "soya-miyoshi",
-      "summary": "※検証したわけではなくて、「ビジネスの都合や、訴訟リスクを考えたら、そうだよな」という一般論的な話です。 一般的に公開されているLLMを使っていると、出力に「ああ、これは運営会社の都合や、運営会社のリスクを加味して、こういう風に出力するよ…"
-    },
-    {
-      "id": "23660a6ca285",
-      "title": "ChatGPT・Codex・Claude Codeをどう役割分担したか。実際のチケットで紹介",
-      "url": "https://zenn.dev/keisuke1306/articles/03-chatgpt-claude-codex-roles",
-      "publishedAt": "2026-08-15T10:00:05.000Z",
-      "publisher": "keisuke",
-      "summary": "導入 この記事は、ChatGPT・Claude Code・Codex・Notionを組み合わせた「AI駆動開発」というテーマで書いている記事の1本です。実際に運用しているポートフォリオサイトの改修にこの開発フローを適用しながら、実践の中で…"
-    },
-    {
-      "id": "cf4a49397bc0",
-      "title": "AIに1つのPRを任せきるための開発設計",
-      "url": "https://zenn.dev/saltmu/articles/c05853bb7eeb49",
-      "publishedAt": "2026-08-15T09:59:00.000Z",
-      "publisher": "そるとむ",
-      "summary": "はじめに Claude CodeやCodexなどのAIコーディングエージェントにIssueを渡し、実装からPull Request（PR）の作成まで任せる開発スタイルは、急速に身近なものになってきました。 しかし、実際に運用してみると、「…"
-    },
-    {
-      "id": "e12ed5e0d5f4",
-      "title": "AIを使って記事を書くのをやめます",
-      "url": "https://zenn.dev/sabiuyack/articles/575a298fc6f71b",
-      "publishedAt": "2026-08-15T09:48:23.000Z",
-      "publisher": "soya-miyoshi",
-      "summary": "AIを使って記事を何個か書いて投稿してみたのですが、以下の理由により今後は一切AIを使うのをやめようと思います 余計な情報や比喩や言い換えを多用するモデルが多い。 記事が不必要に長くなるし、わかりにくくなる 変なところ１つ１つ指摘し出すと…"
-    },
-    {
       "id": "7722cf226d1f",
       "title": "AIエージェント3体に1週間、交換日記アプリを自動開発させてわかったこと",
       "url": "https://zenn.dev/naokik/articles/4c87c4ce7553b3",
@@ -100,9 +36,73 @@
       "publishedAt": "2026-08-15T07:37:06.000Z",
       "publisher": "karamage",
       "summary": "AIエージェントに何か仕事を任せていて「あれ、これ誰が責任取るんだっけ」と思った瞬間、ありませんか？ 最近、Claude Codeにコードの修正やレビューを任せる機会がぐっと増えましたが、ある本を読んで、「本当にこれ、任せていいんだっけ？…"
+    },
+    {
+      "id": "a4f6c617a795",
+      "title": "個人開発の「あとで見直そう」が、実務のテストレビューでは通用しなかった話",
+      "url": "https://zenn.dev/yucco/articles/backend-test-last-line-of-defense",
+      "publishedAt": "2026-08-15T06:54:49.000Z",
+      "publisher": "Komugi（Yuki）",
+      "summary": "! 実際のプロダクト名・チーム名・PRの詳細は伏せていますが、体験自体は実務で起きたことをベースにしています。 はじめに こんにちは、修行中エンジニアのKomugiです。 半年ほど前、受託案件で手動テストを担当する機会がありました。それを…"
+    },
+    {
+      "id": "9242e136c735",
+      "title": "複数の教師から蒸留されたAIは、複数の「世界観」を獲得するのか？ ——reasoning style・多言語学習の比喩から考える未検証の仮説",
+      "url": "https://zenn.dev/blue_sunset_ai/articles/27cf4c33a28667",
+      "publishedAt": "2026-08-15T06:48:03.000Z",
+      "publisher": "blue_sunset",
+      "summary": "はじめに この記事は、研究成果の報告ではありません。 私には大規模なLLMの蒸留実験を行える環境もなく、ここで書く仮説を検証する手段すら、まだ持っていません。 ただ、複数のLLMの推論過程や蒸留について調べているうちに、どうしても気になる…"
+    },
+    {
+      "id": "edf83b490d30",
+      "title": "AI主権は「国産LLM」だけでは決まらない──半導体サプライチェーンから考える日本の勝ち筋",
+      "url": "https://zenn.dev/ykohashi/articles/2026-08-15_01",
+      "publishedAt": "2026-08-15T06:13:08.000Z",
+      "publisher": "ykohashi",
+      "summary": "この記事を読む前に この記事は何を書いているか 「AIで日本はどう生き残るか」という問いは、すぐに「国産のAIモデルを作れるか」という話になりやすい。 しかし、AIを社会で動かし続けるには、モデルだけでなく、半導体、製造装置、材料、計算基…"
+    },
+    {
+      "id": "133fd3629f68",
+      "title": "【AI HACK 2026】イベントの「次の一仕事」を配るMAWASUを作った",
+      "url": "https://zenn.dev/tomomj/articles/ai-hack-2026",
+      "publishedAt": "2026-08-15T06:04:50.000Z",
+      "publisher": "そのだ",
+      "summary": "AI HACK 2026に参加し、イベント運営ツール「MAWASU」を開発しました。 作ったもの MAWASUは、イベント当日に集まった人へ、その時に必要な「次の一仕事」を配るプロダクトです。 イベントでは、資材不足や機材の遅延、担当者の…"
+    },
+    {
+      "id": "87ae2b4373fb",
+      "title": "【AI Hack 2026】インフラの「見えない危機」に挑む。音響AIとLLMが拓く水道管DX 〜9日間チャレンジ〜",
+      "url": "https://zenn.dev/fin_fta/articles/00f69860b87fce",
+      "publishedAt": "2026-08-15T05:29:34.000Z",
+      "publisher": "F田",
+      "summary": "こんにちは！ 「Smartwater Guardian」開発チームです。 私たちは、「AI HACK」 の一環として、日常生活の足元でひそかに進行しているインフラの危機に立ち向かうWebアプリ 「Smartwater Guardian」 …"
+    },
+    {
+      "id": "75fa9b4a05f2",
+      "title": "障害対応の「優先順位」を仕組みにできないか - Operation Decision Recordsという着想",
+      "url": "https://zenn.dev/yyoosshh/articles/d7b3fcdbd90de2",
+      "publishedAt": "2026-08-15T05:22:49.000Z",
+      "publisher": "YOSH",
+      "summary": "! 構想段階のアイデアです。運用実績に基づく報告ではなく 1つのアイデア として書いています。実際にやってみた結果は続編として書きたいです。いつか、必ず。 きっかけ 障害対応の現場では、限られた時間の中で「何を優先するか」を決めないといけ…"
+    },
+    {
+      "id": "838f8870d888",
+      "title": "Paresio 補助金検索サービス for AI Hackathon",
+      "url": "https://zenn.dev/harukadia/articles/40e9ba59e5a118",
+      "publishedAt": "2026-08-15T05:13:05.000Z",
+      "publisher": "Harukadia",
+      "summary": "AI Hackathon に出場して、「Paresio（パレシオ）」という補助金レーダーを開発しました。国と全国の自治体に散らばる補助金・助成金・融資・税制優遇の情報を正規ルート（公式API・オープンデータ・規約準拠クロール）で集め、会社…"
+    },
+    {
+      "id": "c5f6ea5528ef",
+      "title": "会議が全録画される時代、AIは文書でなく現場から学ぶ",
+      "url": "https://zenn.dev/okssusucha/articles/20260709-everything-is-recorded-now",
+      "publishedAt": "2026-08-15T04:38:21.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "会議が全部録画される時代に、AIは「文書」ではなく「現場」から学び始める ここ数年で、社内の会議はいつのまにか「録画されているのが当たり前」になった。ZoomやGoogle Meetの録画ボタン、Granolaのようなメモ取りツール、通話…"
     }
   ],
-  "fetchedAt": "2026-08-15T16:59:15.926Z",
+  "fetchedAt": "2026-08-15T17:26:52.899Z",
   "stale": false,
   "error": null
 }
