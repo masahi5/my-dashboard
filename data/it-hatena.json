@@ -6,6 +6,14 @@
   "category": "callcenter",
   "items": [
     {
+      "id": "ebdae463ce73",
+      "title": "概念設計が、その後のコードの命運を左右する",
+      "url": "https://zenn.dev/takeshi_teshima/articles/bae79b2f0f97be",
+      "publishedAt": "2026-08-14T19:21:13.000Z",
+      "summary": "最近、ソフトウェア開発における概念設計の威力と重要さについて人に伝えたい機会が何度かあった。[1] しかし、概念の整理がなぜどのように重要なのか、という一点を取り上げて書かれたものは少ないようで、人…",
+      "score": 245
+    },
+    {
       "id": "19a9a908233f",
       "title": "The 37signals Manager Playbook",
       "url": "https://basecamp.com/managers",
@@ -14,20 +22,12 @@
       "score": 245
     },
     {
-      "id": "ebdae463ce73",
-      "title": "概念設計が、その後のコードの命運を左右する",
-      "url": "https://zenn.dev/takeshi_teshima/articles/bae79b2f0f97be",
-      "publishedAt": "2026-08-14T19:21:13.000Z",
-      "summary": "最近、ソフトウェア開発における概念設計の威力と重要さについて人に伝えたい機会が何度かあった。[1] しかし、概念の整理がなぜどのように重要なのか、という一点を取り上げて書かれたものは少ないようで、人…",
-      "score": 243
-    },
-    {
       "id": "6bcf654a8f28",
       "title": "生成AIポスターを展示する飲食店が増えているが、極力そういう店には行かないようにしている…「これくらい別にいいでしょ？」とバカにされていると感じる→共感の声が続々",
       "url": "https://togetter.com/li/2733238",
       "publishedAt": "2026-08-15T02:31:54.000Z",
       "summary": "キニマンス塚本ニキ Nikki Tsukamoto Kininmonth @tsukaniki85 生成AIポスターを展示する飲食店が増えてるけど、私は極力そういう店には行かないようにしてる。 AI…",
-      "score": 197
+      "score": 209
     },
     {
       "id": "c81e5812500c",
@@ -43,7 +43,7 @@
       "url": "https://zenn.dev/nnakapa/articles/lab-34-opus5-sonnet5-qcd",
       "publishedAt": "2026-08-14T00:44:29.000Z",
       "summary": "3つの発見 1. 定番の DB 処理であれば、Opus 5 よりも Sonnet 5 のコストは約 1/2（$0.33 対 $0.59、同時間換算で約 2倍差）——ただし effort level …",
-      "score": 106
+      "score": 107
     },
     {
       "id": "be16465b6562",
@@ -51,7 +51,7 @@
       "url": "https://zenn.dev/rdlabo/articles/cloudflare-workers-after-rich-programming",
       "publishedAt": "2026-08-15T01:37:14.000Z",
       "summary": "Cloudflareへ移るまで、我々が富豪プログラミングをしているとは気づきませんでした。 EC2で動かしていたNestJSをHono + Cloudflare Workersへ移しました。RDSは…",
-      "score": 86
+      "score": 87
     },
     {
       "id": "e57778b16c01",
@@ -66,14 +66,7 @@
       "url": "https://techfeed.io/entries/6a7e3a5aec7a075ad3292ac1",
       "publishedAt": "2026-08-14T15:26:09.000Z",
       "summary": "8月13日、Jowi Moralesが「PBS broadcaster loses access to 50TB of data comprising 70 years of TV history …",
-      "score": 79
-    },
-    {
-      "id": "99fcd45d201c",
-      "title": "MicrosoftのAIターミナル「Intelligent Terminal 0.2」が公開 ～ローカルモデルに対応／「OpenCode」対応、スラッシュコマンドの拡充、WSL内エージェントなどの改善も",
-      "url": "https://forest.watch.impress.co.jp/docs/news/2132156.html",
-      "publishedAt": "2026-08-14T10:43:58.000Z",
-      "score": 72
+      "score": 80
     },
     {
       "id": "d81b3cebab3e",
@@ -81,7 +74,14 @@
       "url": "https://zenn.dev/tkou15/articles/email-verification-protocol",
       "publishedAt": "2026-08-14T12:43:08.000Z",
       "summary": "はじめに アカウント登録時のメールアドレス確認は、Web でもっとも普及していて、もっとも面倒な手続きのひとつです。ユーザーは、 フォームにメールアドレスを入力する メールクライアントに切り替える …",
-      "score": 70
+      "score": 74
+    },
+    {
+      "id": "99fcd45d201c",
+      "title": "MicrosoftのAIターミナル「Intelligent Terminal 0.2」が公開 ～ローカルモデルに対応／「OpenCode」対応、スラッシュコマンドの拡充、WSL内エージェントなどの改善も",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2132156.html",
+      "publishedAt": "2026-08-14T10:43:58.000Z",
+      "score": 73
     },
     {
       "id": "7c333c5c5fe2",
@@ -89,7 +89,7 @@
       "url": "https://forbesjapan.com/articles/detail/102858",
       "publishedAt": "2026-08-14T12:02:10.000Z",
       "summary": "8月も半ばに差しかかり、夏の大半をGemini 3.5 Proの登場を待って過ごしてきた人たちの間に、いらだちが広がっている。 これを「2026年で最も待たされたモデル」と呼ぶ声もある。というのも、…",
-      "score": 49
+      "score": 50
     },
     {
       "id": "0b5baf0d307e",
@@ -100,7 +100,7 @@
       "score": 35
     }
   ],
-  "fetchedAt": "2026-08-15T08:54:12.114Z",
+  "fetchedAt": "2026-08-15T09:21:44.933Z",
   "stale": false,
   "error": null
 }
