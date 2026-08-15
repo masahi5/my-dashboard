@@ -6,54 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "7722cf226d1f",
-      "title": "AIエージェント3体に1週間、交換日記アプリを自動開発させてわかったこと",
-      "url": "https://zenn.dev/naokik/articles/4c87c4ce7553b3",
-      "publishedAt": "2026-08-15T08:41:53.000Z",
-      "publisher": "Naoki.K",
-      "summary": "はじめに AIエージェントに、1回だけコードを書かせるのではなく、毎日自動で開発・レビュー・振り返りを続けさせたら、アプリはどこへ向かうのでしょうか。 同じ初期状態のリポジトリを3つ用意し、担当するAIの組み合わせだけを変えて、交換日記ア…"
-    },
-    {
-      "id": "4a35d25f9653",
-      "title": "バイブコーディングで3週間、アプリ3つとポートフォリオを作って分かった個人開発の知見",
-      "url": "https://zenn.dev/hazime_app/articles/40d3fb42d02554",
-      "publishedAt": "2026-08-15T08:14:02.000Z",
-      "publisher": "はじめ",
-      "summary": "はじめに はじめまして。普段はエンジニアとして働きながら、趣味でライブなどに参加しています。 いろいろなアイドルグループのSpotify月間リスナー数を定期的に記録し、まとめて確認できるランキングサイトが欲しいと思ったことをきっかけに、こ…"
-    },
-    {
-      "id": "aaaa0de21e9e",
-      "title": "AIの個性ってアトラクタでは？と言ったら、9回殴られて実験設計が1枚の図になった",
-      "url": "https://zenn.dev/think_node/articles/5ae6a8687aea0b",
-      "publishedAt": "2026-08-15T07:54:59.000Z",
-      "publisher": "THINK NODE",
-      "summary": "長いこと同じAIと話していると、「こいつ、こういうやつだよな」という感じが出てくる。 同じような使い方をしていても、ChatGPTとClaudeでは違う「らしさ」を感じる。逆に、同じAIでもユーザーが違えば、別の「らしさ」が育つのかもしれ…"
-    },
-    {
-      "id": "b5f6223727bf",
-      "title": "なぜAIは実行はできても、責任を引き受けられないのか？ ─『ヒトとAI』から学んだ、人間とAIの違い",
-      "url": "https://zenn.dev/karamage/articles/bc629f1cef7a9a",
-      "publishedAt": "2026-08-15T07:37:06.000Z",
-      "publisher": "karamage",
-      "summary": "AIエージェントに何か仕事を任せていて「あれ、これ誰が責任取るんだっけ」と思った瞬間、ありませんか？ 最近、Claude Codeにコードの修正やレビューを任せる機会がぐっと増えましたが、ある本を読んで、「本当にこれ、任せていいんだっけ？…"
-    },
-    {
-      "id": "a4f6c617a795",
-      "title": "個人開発の「あとで見直そう」が、実務のテストレビューでは通用しなかった話",
-      "url": "https://zenn.dev/yucco/articles/backend-test-last-line-of-defense",
-      "publishedAt": "2026-08-15T06:54:49.000Z",
-      "publisher": "Komugi（Yuki）",
-      "summary": "! 実際のプロダクト名・チーム名・PRの詳細は伏せていますが、体験自体は実務で起きたことをベースにしています。 はじめに こんにちは、修行中エンジニアのKomugiです。 半年ほど前、受託案件で手動テストを担当する機会がありました。それを…"
-    },
-    {
-      "id": "9242e136c735",
-      "title": "複数の教師から蒸留されたAIは、複数の「世界観」を獲得するのか？ ——reasoning style・多言語学習の比喩から考える未検証の仮説",
-      "url": "https://zenn.dev/blue_sunset_ai/articles/27cf4c33a28667",
-      "publishedAt": "2026-08-15T06:48:03.000Z",
-      "publisher": "blue_sunset",
-      "summary": "はじめに この記事は、研究成果の報告ではありません。 私には大規模なLLMの蒸留実験を行える環境もなく、ここで書く仮説を検証する手段すら、まだ持っていません。 ただ、複数のLLMの推論過程や蒸留について調べているうちに、どうしても気になる…"
-    },
-    {
       "id": "edf83b490d30",
       "title": "AI主権は「国産LLM」だけでは決まらない──半導体サプライチェーンから考える日本の勝ち筋",
       "url": "https://zenn.dev/ykohashi/articles/2026-08-15_01",
@@ -100,9 +52,57 @@
       "publishedAt": "2026-08-15T04:38:21.000Z",
       "publisher": "とうもろこし茶",
       "summary": "会議が全部録画される時代に、AIは「文書」ではなく「現場」から学び始める ここ数年で、社内の会議はいつのまにか「録画されているのが当たり前」になった。ZoomやGoogle Meetの録画ボタン、Granolaのようなメモ取りツール、通話…"
+    },
+    {
+      "id": "081c65fab4f3",
+      "title": "claude skillでADRを残して、『なんでこうしたんだっけ』を根絶したい",
+      "url": "https://zenn.dev/hkr_dev/articles/742edfd6737a01",
+      "publishedAt": "2026-08-15T04:37:28.000Z",
+      "publisher": "むのう.dev",
+      "summary": "あの実装、なんでこうしたんだっけ 一部ケースの特殊対応 単純な考慮もれ 設計上の瑕疵を実装で誤魔化した なぜ文脈を残さないのか 残す文化がない 残す場所がない 残す時間がない 残してもだれもみない 残しても評価されない 残さなくてもネガテ…"
+    },
+    {
+      "id": "5087ebd885ff",
+      "title": "IT未経験新卒エンジニア３人がAI駆動開発でAIプロダクトを作ってみた話",
+      "url": "https://zenn.dev/kon0930/articles/c32f250b194ae8",
+      "publishedAt": "2026-08-15T04:23:33.000Z",
+      "publisher": "こん",
+      "summary": "はじまり なお ｢今度みのりとAIハッカソン[1]出よって話してたんだよね｣ こん ｢え、なにそれ楽しそう、私も入れて😙｣ やっとこさ基本情報技術者試験の資格をとった私たちではありますが、そんなこんなでAIハッカソンに参加することになっ…"
+    },
+    {
+      "id": "0a187fef198f",
+      "title": "ゼロから始めるClaude Code #9 メモリ機能：セッションをまたいで文脈を持ち越す",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-09-memory",
+      "publishedAt": "2026-08-15T04:20:45.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はスキル（スラッシュコマンド）で「毎回同じ指示」をコマンド1発に圧縮しました。 https://zenn.dev/mika_and_coco/articles/cla…"
+    },
+    {
+      "id": "0f52ba3dfa1b",
+      "title": "「実装前に3つ確認して」と足したら暴走は5回とも消えた。作られたファイルも5回とも0件だった",
+      "url": "https://zenn.dev/numarn/articles/ask-before-implement-prompt-handson",
+      "publishedAt": "2026-08-15T04:06:19.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "先に結論から書きます。AI への頼みごとの最後に「実装前に3つ確認してください。」と一言足すと、5回試して5回とも、AI は質問を3つ返しただけで手を止めました。暴走はたしかに消えました。ただし、同じ5回で出来上がったファイルも0件でした…"
+    },
+    {
+      "id": "9e4e2f215e8c",
+      "title": "Rubyから15分 — Staddress gem で住所解析する",
+      "url": "https://zenn.dev/staddress/articles/094f5a7bc2431a",
+      "publishedAt": "2026-08-15T03:31:12.000Z",
+      "publisher": "ストアドレス",
+      "summary": "Rubyから15分 — staddress gem で住所解析する 住所正規化・ジオコーディングAPI 「Staddress（スタドレス）」 開発チームです。 前回（Pythonから15分 — staddress で住所解析する）は、公式…"
+    },
+    {
+      "id": "5b3294f63acb",
+      "title": "高精度GNSSモジュールのアンテナ2種を比べてみた",
+      "url": "https://zenn.dev/wavelogy/articles/e1f92b0d0aefb3",
+      "publishedAt": "2026-08-15T03:25:00.000Z",
+      "publisher": "wavelogy",
+      "summary": "自己紹介 はじめまして。wavelogy インターン生のゆっきーです。 私は現在、東京科学大学理学院１年であり、ハードウェア開発や起業の勉強としてお仕事をさせていただいています。今回は業務の中で取り組んだ「GNSSアンテナの性能比較」をテ…"
     }
   ],
-  "fetchedAt": "2026-08-15T11:43:45.118Z",
+  "fetchedAt": "2026-08-15T11:58:18.405Z",
   "stale": false,
   "error": null
 }
