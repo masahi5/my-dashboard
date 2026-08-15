@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "fcfabeb5d865",
-      "title": "NII(国立情報学研究所)報告書にみる生成AIの制度的課題、透明性・安全性・監査義務の国際動向",
-      "url": "https://zenn.dev/syoshida07/articles/a2d4d68b1b4e74",
-      "publishedAt": "2026-08-15T11:54:55.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "国立情報学研究所(NII)大規模言語モデル研究開発センターが先日公表した「生成AI規制・AIガバナンスに関する国際動向調査報告書」 EU・英国・米国で急速に整備が進む生成AI規制を体系的に整理し、日本の政策立案者・研究者・企業が参照できる…"
+      "id": "6641e60c78b8",
+      "title": "Claude Codeに『あなたのサイト、ギャンブルサイトになってますよ』と言われた話",
+      "url": "https://zenn.dev/eques_blog/articles/199c2e995f3fe8",
+      "publishedAt": "2026-08-15T02:22:04.000Z",
+      "publisher": "岸本悠佑_AIサムライ",
+      "summary": "簡単なまとめ Claude Codeでサイト編集中、Claude Codeがいきなり「あなたのルートドメイン、ギャンブルスパムサイトになってます」と警告してきた。 調べたら、DNSのAレコードはGitHub Pages公式IPを向いている…"
     },
     {
-      "id": "6cd2397c4529",
-      "title": "LTSpice × Claude Code を MCP で繋いで AI に電子回路を設計させる",
-      "url": "https://zenn.dev/trailfusionai/articles/ai-news-20260501005814-533b8e",
-      "publishedAt": "2026-08-15T11:00:50.000Z",
-      "publisher": "Trailfusion AI",
-      "summary": "TL;DR AI に「5V で赤色 LED を安全に光らせる回路を作って、電流値も教えて」と打つだけで、本物の LTSpice が回路図を生成し、シミュレーションを実行し、I = 10.8 mA という数値で返してくる時代になった。 仕組…"
+      "id": "e4282c1fa72a",
+      "title": "Mozilla.aiのAnyAgentを用いて、AnthropicのBuilding Effective Agentsのパターンを実装する",
+      "url": "https://zenn.dev/eyeofjapetus/articles/anyagent-building-effective-agents",
+      "publishedAt": "2026-08-15T02:17:42.000Z",
+      "publisher": "eye-of-japetus",
+      "summary": "はじめに 2024年12月にAnthropicが公開したBuilding Effective Agentsは、「エージェント」という言葉が指すものを整理し、実務でうまくいくパターンをカタログ化した記事として広く参照されています。単一のツー…"
     },
     {
-      "id": "5f8210de4b49",
-      "title": "オントロジーは本当に「バラバラを一つにする」道具か、自分の理論と突き合わせてみた",
-      "url": "https://zenn.dev/motimotinotch/articles/ef8d9a4851d657",
-      "publishedAt": "2026-08-15T10:43:37.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "要約: 「AIに同じ質問をしたら、部署ごとに違う数字が返ってきた」という記事を読んで、自分が個人開発しているAI人格システムの実装ログを見返してみた。すると同じ形の道具（「これとこれは別物だ」という制約）を、真逆の目的のために先に実装して…"
+      "id": "495ed8c014c3",
+      "title": "幻覚0件を、お願いではなく構造で作る — 紙の写真1枚が業務システムになる「カミワザ」",
+      "url": "https://zenn.dev/hocky3/articles/2b3b638a8d6885",
+      "publishedAt": "2026-08-15T02:11:48.000Z",
+      "publisher": "KML",
+      "summary": "! AI HACKATHON 2026 TOKYO(8/8〜8/16)に Team OO(ソロ)として提出した作品です。 ① はじめに — 何を作ったか FAXで届いた手書きの注文書を、人がパソコンに打ち直す。この「転記」という仕事が、い…"
     },
     {
-      "id": "1ddd40fae448",
-      "title": "MCPでAIエージェントに「手」を与える — Model Context Protocol入門",
-      "url": "https://zenn.dev/yukihayama/articles/mcp-ai-agent-tools",
-      "publishedAt": "2026-08-15T10:28:14.000Z",
-      "publisher": "葉山悠希",
-      "summary": "MCPでAIエージェントに「手」を与える — Model Context Protocol入門 AIエージェントの「手と目」の問題 ChatGPTやClaudeを使っていて、こんな不満を感じたことはありませんか？ 「ファイルを読んでほしい…"
+      "id": "70c9351e6856",
+      "title": "【AI HACK】思いつきが3分で生えるSNS「HAERU」を作った",
+      "url": "https://zenn.dev/yamamotoabc/articles/95b66284a97279",
+      "publishedAt": "2026-08-15T02:03:49.000Z",
+      "publisher": "山本",
+      "summary": "はじめに AI HACK参加し、HAERU（ハエル） を開発しました。 HAERU = 思いつきが3分で生えるSNS 「彼女の機嫌を5段階で記録したい」「LINEの返信が遅い人を裁く裁判所がほしい」 ——そんな“思いつき”を投稿すると、そ…"
     },
     {
-      "id": "32ce59b484db",
-      "title": "学習データに忠実な出力をするLLMが欲しい",
-      "url": "https://zenn.dev/sabiuyack/articles/9b205ca32cbfcb",
-      "publishedAt": "2026-08-15T10:04:53.000Z",
-      "publisher": "soya-miyoshi",
-      "summary": "※検証したわけではなくて、「ビジネスの都合や、訴訟リスクを考えたら、そうだよな」という一般論的な話です。 一般的に公開されているLLMを使っていると、出力に「ああ、これは運営会社の都合や、運営会社のリスクを加味して、こういう風に出力するよ…"
+      "id": "736477028e4b",
+      "title": "LLM Wikiで自分のトリセツを作ってみた",
+      "url": "https://zenn.dev/deepblue_3/articles/ac1ab7c843d8e8",
+      "publishedAt": "2026-08-15T01:58:33.000Z",
+      "publisher": "java_wocky",
+      "summary": "LLMによる知識管理の方法として、最近注目を浴びている「LLM Wiki」。既存のRAGやGraph RAG、構造化データとは一線を画する斬新な構造が特徴です。今回はそんなLLM Wikiを使って、自分の価値観や好き嫌いをまとめた取り扱い…"
     },
     {
-      "id": "23660a6ca285",
-      "title": "ChatGPT・Codex・Claude Codeをどう役割分担したか。実際のチケットで紹介",
-      "url": "https://zenn.dev/keisuke1306/articles/03-chatgpt-claude-codex-roles",
-      "publishedAt": "2026-08-15T10:00:05.000Z",
-      "publisher": "keisuke",
-      "summary": "導入 この記事は、ChatGPT・Claude Code・Codex・Notionを組み合わせた「AI駆動開発」というテーマで書いている記事の1本です。実際に運用しているポートフォリオサイトの改修にこの開発フローを適用しながら、実践の中で…"
+      "id": "daa524608af2",
+      "title": "クリッピーを復活させた。今度は本当にコードを書く（DeepSeek Harness プラグイン）",
+      "url": "https://zenn.dev/sjh9714/articles/f09c86bfe92056",
+      "publishedAt": "2026-08-15T01:39:13.000Z",
+      "publisher": "Kirilland",
+      "summary": "25 年前、Office で「手紙を書いているようですね。お手伝いしましょうか」と聞いてきて、何もできずに消えたあのクリップ。先週 DeepSeek が Harness をオープンソースにしたので、彼にエージェントランタイムを与えることに…"
     },
     {
-      "id": "cf4a49397bc0",
-      "title": "AIに1つのPRを任せきるための開発設計",
-      "url": "https://zenn.dev/saltmu/articles/c05853bb7eeb49",
-      "publishedAt": "2026-08-15T09:59:00.000Z",
-      "publisher": "そるとむ",
-      "summary": "はじめに Claude CodeやCodexなどのAIコーディングエージェントにIssueを渡し、実装からPull Request（PR）の作成まで任せる開発スタイルは、急速に身近なものになってきました。 しかし、実際に運用してみると、「…"
+      "id": "34aa65081c7e",
+      "title": "AIに夜間開発を任せるために決めた3つのルール（11日で15個作らせた記録）",
+      "url": "https://zenn.dev/deafedge/articles/5728f59e536cab",
+      "publishedAt": "2026-08-15T01:35:11.000Z",
+      "publisher": "とおる｜難聴エンジニア",
+      "summary": "! この記事にコードは出てきません。「AIエージェントに無人で作業させるとき、事故らないために何を決めておくか」という運用設計の話です。 自分のブログに書いた内容を、エンジニア向けに書き直しています。 タスク管理アプリに「これ、やっといて…"
     },
     {
-      "id": "e12ed5e0d5f4",
-      "title": "AIを使って記事を書くのをやめます",
-      "url": "https://zenn.dev/sabiuyack/articles/575a298fc6f71b",
-      "publishedAt": "2026-08-15T09:48:23.000Z",
-      "publisher": "soya-miyoshi",
-      "summary": "AIを使って記事を何個か書いて投稿してみたのですが、以下の理由により今後は一切AIを使うのをやめようと思います 余計な情報や比喩や言い換えを多用するモデルが多い。 記事が不必要に長くなるし、わかりにくくなる 変なところ１つ１つ指摘し出すと…"
+      "id": "8b4e0ef855b4",
+      "title": "自分の本に、次は同じ手で騙されると思うと書いた。5日後、オレは止まっていない案件を8日間止まっていると信じていた",
+      "url": "https://zenn.dev/shio_shoppaize/articles/kagemusha-rebuild-not-stock",
+      "publishedAt": "2026-08-15T01:02:16.000Z",
+      "publisher": "おしお",
+      "summary": "案件の資料はそろっている。記録も残っている。作業も進んでいる。なのに、いま誰がボールを持っていて次に何が起きるのかを、口で説明できない。 オレはその状態を直そうとして、自分で本に書いたとおりの間違いをした。 自分の本の中に、一度こう書いた…"
     },
     {
-      "id": "7722cf226d1f",
-      "title": "AIエージェント3体に1週間、交換日記アプリを自動開発させてわかったこと",
-      "url": "https://zenn.dev/naokik/articles/4c87c4ce7553b3",
-      "publishedAt": "2026-08-15T08:41:53.000Z",
-      "publisher": "Naoki.K",
-      "summary": "はじめに AIエージェントに、1回だけコードを書かせるのではなく、毎日自動で開発・レビュー・振り返りを続けさせたら、アプリはどこへ向かうのでしょうか。 同じ初期状態のリポジトリを3つ用意し、担当するAIの組み合わせだけを変えて、交換日記ア…"
+      "id": "7bb12861cd62",
+      "title": "Claude Codeにテストを全部任せるなら、先に「合格条件」を固定する",
+      "url": "https://zenn.dev/kafka2306/articles/2026-08-15-hook-runner-is-not-policy",
+      "publishedAt": "2026-08-15T00:33:44.000Z",
+      "publisher": "かふか",
+      "summary": "「実装して。テストも書いて。失敗したら直して。全部通ったらPRまで作って」 Claude Codeを使っていると、ここまでまとめて任せられる。 Anthropicの現在の公式ドキュメントでも、Claude Codeはコードベースを読み、フ…"
     },
     {
-      "id": "4a35d25f9653",
-      "title": "バイブコーディングで3週間、アプリ3つとポートフォリオを作って分かった個人開発の知見",
-      "url": "https://zenn.dev/hazime_app/articles/40d3fb42d02554",
-      "publishedAt": "2026-08-15T08:14:02.000Z",
-      "publisher": "はじめ",
-      "summary": "はじめに はじめまして。普段はエンジニアとして働きながら、趣味でライブなどに参加しています。 いろいろなアイドルグループのSpotify月間リスナー数を定期的に記録し、まとめて確認できるランキングサイトが欲しいと思ったことをきっかけに、こ…"
+      "id": "2e1619ed22c4",
+      "title": "Claude CodeをGLM-5.3で使う完全ガイド｜GLM Coding PlanをCLI・VS Codeで連携する",
+      "url": "https://zenn.dev/yuzu_krs/articles/ef6c320658fe30",
+      "publishedAt": "2026-08-15T00:12:18.000Z",
+      "publisher": "yuzu-krs",
+      "summary": "はじめに Claude Codeを使ってみたいけれど、 ClaudeのProやMaxまで契約するのはちょっと高い…… という人もいると思います。 実は Claude Codeの実行環境にZ.AIのGLM Coding Planを接続し、モ…"
     },
     {
-      "id": "aaaa0de21e9e",
-      "title": "AIの個性ってアトラクタでは？と言ったら、9回殴られて実験設計が1枚の図になった",
-      "url": "https://zenn.dev/think_node/articles/5ae6a8687aea0b",
-      "publishedAt": "2026-08-15T07:54:59.000Z",
-      "publisher": "THINK NODE",
-      "summary": "長いこと同じAIと話していると、「こいつ、こういうやつだよな」という感じが出てくる。 同じような使い方をしていても、ChatGPTとClaudeでは違う「らしさ」を感じる。逆に、同じAIでもユーザーが違えば、別の「らしさ」が育つのかもしれ…"
+      "id": "b4e0cb0233d9",
+      "title": "Deepseek Harnessの Agent Notes 運用術を知る",
+      "url": "https://zenn.dev/masato13/articles/4dc133b4564853",
+      "publishedAt": "2026-08-15T00:09:40.000Z",
+      "publisher": "Masato13",
+      "summary": "1.はじめに AIのモデル競争が激化している中で、非常に強力なモデルであるdeepseek-v4-flashやproを提供しているDeepSeek社が、エージェント基盤 DeepSeek Harness を公開しました。 https://…"
     },
     {
-      "id": "b5f6223727bf",
-      "title": "なぜAIは実行はできても、責任を引き受けられないのか？ ─『ヒトとAI』から学んだ、人間とAIの違い",
-      "url": "https://zenn.dev/karamage/articles/bc629f1cef7a9a",
-      "publishedAt": "2026-08-15T07:37:06.000Z",
-      "publisher": "karamage",
-      "summary": "AIエージェントに何か仕事を任せていて「あれ、これ誰が責任取るんだっけ」と思った瞬間、ありませんか？ 最近、Claude Codeにコードの修正やレビューを任せる機会がぐっと増えましたが、ある本を読んで、「本当にこれ、任せていいんだっけ？…"
+      "id": "4de80702476a",
+      "title": "Claude Codeに、36カットのAI MVを1本作らせた話",
+      "url": "https://zenn.dev/made_linlin/articles/claude-code-orchestrates-ai-mv",
+      "publishedAt": "2026-08-14T23:34:50.000Z",
+      "publisher": "made_linlin",
+      "summary": "3分29秒、36カットのミュージックビデオを1本作った。絵コンテもスクリプトもQCも、書いたのは全部 Claude Code だ。私がやったのは「どれを採用するか」を選ぶことだけだった。 この記事は、その配線をどう組んだかの話をする。生成…"
     }
   ],
-  "fetchedAt": "2026-08-15T12:43:47.333Z",
+  "fetchedAt": "2026-08-15T13:18:48.081Z",
   "stale": false,
   "error": null
 }
