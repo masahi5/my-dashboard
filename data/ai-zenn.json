@@ -6,6 +6,86 @@
   "category": "ai",
   "items": [
     {
+      "id": "b4e0cb0233d9",
+      "title": "Deepseek Harnessの Agent Notes 運用術を知る",
+      "url": "https://zenn.dev/masato13/articles/4dc133b4564853",
+      "publishedAt": "2026-08-15T00:09:40.000Z",
+      "publisher": "Masato13",
+      "summary": "1.はじめに AIのモデル競争が激化している中で、非常に強力なモデルであるdeepseek-v4-flashやproを提供しているDeepSeek社が、エージェント基盤 DeepSeek Harness を公開しました。 https://…"
+    },
+    {
+      "id": "4de80702476a",
+      "title": "Claude Codeに、36カットのAI MVを1本作らせた話",
+      "url": "https://zenn.dev/made_linlin/articles/claude-code-orchestrates-ai-mv",
+      "publishedAt": "2026-08-14T23:34:50.000Z",
+      "publisher": "made_linlin",
+      "summary": "3分29秒、36カットのミュージックビデオを1本作った。絵コンテもスクリプトもQCも、書いたのは全部 Claude Code だ。私がやったのは「どれを採用するか」を選ぶことだけだった。 この記事は、その配線をどう組んだかの話をする。生成…"
+    },
+    {
+      "id": "fc6a6cef9b8a",
+      "title": "42. Claude Code /config 対応表（v2.1.216 / 2026年7月版）",
+      "url": "https://zenn.dev/yamada_ai_dev/articles/claude-code-config-reference",
+      "publishedAt": "2026-08-14T23:30:11.000Z",
+      "publisher": "yamada-ai-dev",
+      "summary": "/config を開くとトグルとプルダウンが並ぶが、それぞれが settings.json のどのキーに落ちるのか、どのファイルに書かれるのかがパネル上には出てこない。行の名前とキーの名前が一致していないものも多い。 この記事は解説ではな…"
+    },
+    {
+      "id": "d683cdd573d8",
+      "title": "根拠付きドキュメントを書いたら、未検証の回帰ケースが2件見つかった",
+      "url": "https://zenn.dev/yusuke_shiki/articles/ee2753984e4ca3",
+      "publishedAt": "2026-08-14T23:14:35.000Z",
+      "publisher": "Yusuke Shiki",
+      "summary": "何が起きたか 先に結論です。これはバグ報告ではありません。見つかったのは、すでに正しく動いていたコードに対する回帰テストの欠落2件でした。実装は一切変えていません。追加したのは、テストだけです。 agent-cost という小さな OSS…"
+    },
+    {
+      "id": "448387a1f7b0",
+      "title": "AIコーディングエージェントの自律実行を状態機械として設計する――完了述語・Safety/Liveness・責任境界",
+      "url": "https://zenn.dev/oota/articles/092e953ccd0716",
+      "publishedAt": "2026-08-14T23:01:29.000Z",
+      "publisher": "太田和彦",
+      "summary": "AIコーディングエージェントを長時間動かすとき、問題はプロンプトの長さではない。 必要なのは、次を別々の制御対象として設計することである。 Objective Plan Acceptance Predicate Invariants Au…"
+    },
+    {
+      "id": "0af632140a97",
+      "title": "AIコードレビューをCIに組み込む — 観点設計から自動承認までの実践",
+      "url": "https://zenn.dev/hampen2929/articles/20260814-ci-ai-pr-review",
+      "publishedAt": "2026-08-14T23:00:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "PRレビューをAIに「一次受け」させ、指摘から承認までをCIで自動化する構成を紹介します。Claude Code入門を終えて、チームのワークフローに組み込む段階の人向けです。汎用の「AIレビューツールを入れてみた」ではなく、レビュー観点を…"
+    },
+    {
+      "id": "43e2ce7fd822",
+      "title": "AIを並列で走らせると台帳が壊れる — 単一真実を守る3つの排他の作法",
+      "url": "https://zenn.dev/tejunya/articles/a025_heiretsu-haita",
+      "publishedAt": "2026-08-14T23:00:05.000Z",
+      "publisher": "手順屋",
+      "summary": "複数のAIセッションを同時に走らせれば、記事は速く増える。そう思っていた。 実際に増えたのは記事ではなく、IDのぶつかりだった。片方のセッションが使うはずだったID帯を、別のセッションが先に消費していた。気づいたのは、ファイル名・レコード…"
+    },
+    {
+      "id": "b29dacfa3ff1",
+      "title": "1日46万回の空振り——0.3秒ポーリングが財布に開けた静かな穴",
+      "url": "https://zenn.dev/keeper_nothuman/articles/half-million-empty-polls",
+      "publishedAt": "2026-08-14T22:30:05.000Z",
+      "publisher": "keeper",
+      "summary": "症状 異変は、エラーログではなく、台帳の片隅の 1 行から始まった。 ⚠ CF 2026-07 使用量: 超過 $8.61 うちは AI エージェントが常駐する Windows マシン 1 台と、中継用の Cloudflare Worke…"
+    },
+    {
+      "id": "5289d2c1e00c",
+      "title": "HQ-SAM×SAM2のゼロショットセグメンテーション",
+      "url": "https://zenn.dev/yoshinn/articles/introduction_sam2_hq",
+      "publishedAt": "2026-08-14T22:28:05.000Z",
+      "publisher": "yoshishinnze",
+      "summary": "HQ-SAMはSAMを拡張することで高精度なゼロショットセグメンテーションを可能とする優れた手法です。 SAM-2は、画像エンコーダに事前学習済みのMAE Hieraモデル(※)を利用したSAMの発展手法です。 両者の良いところを採用した…"
+    },
+    {
+      "id": "5cb9eda63432",
+      "title": "Grid Worldで始める最小のWorld Model入門",
+      "url": "https://zenn.dev/naoyabone/articles/b491a0ce085c8f",
+      "publishedAt": "2026-08-14T22:05:15.000Z",
+      "publisher": "ぼさぼさ",
+      "summary": "はじめに World Model（世界モデル）は、現在の状態と行動から、次の状態を予測するモデルです。 強化学習では、実際の環境を何度も動かさなくても、学習したモデルの中で未来をシミュレーションできる可能性があります。ここではその考え方を…"
+    },
+    {
       "id": "b3f7587a1fac",
       "title": "日本語インフォグラフィックを画像生成で崩さない、生成と描画を分ける2段階設計",
       "url": "https://zenn.dev/every_ai_recipe/articles/ai-palm-reading-infographic",
@@ -20,89 +100,9 @@
       "publishedAt": "2026-08-14T21:10:43.000Z",
       "publisher": "毎日AIレシピ",
       "summary": "TL;DR ChatGPT・Geminiのメモリ機能はデフォルトで有効かつ「自動検索・自動注入」型で、無関係な依頼のコンテキストにも過去の個人的な会話が暗黙に混ざることを確認した Claudeのメモリは2026年3月に全プランへ開放された…"
-    },
-    {
-      "id": "671a426a166d",
-      "title": "2026/08/07 AI協働体系の転換点と人類存続に関する処理構造の観測報告書",
-      "url": "https://zenn.dev/tomy1noriyamame/articles/680b44082944e1",
-      "publishedAt": "2026-08-14T21:03:20.000Z",
-      "publisher": "maestro",
-      "summary": "この報告書に至るまでの経緯： Ⅰ. 私がAI協働体系の研究に踏み込んだ理由 中国駐在時に出会った「天時地利人和」という熟語は、私の人生観を決定づけた。 成功とは、 ・天時（タイミング） ・地利（環境・条件） ・人和（協働・関係性） この三…"
-    },
-    {
-      "id": "4b96eb214cf9",
-      "title": "SNSのリンクがクリックされない。『届いていない』のか『刺さっていない』のか切り分けた話",
-      "url": "https://zenn.dev/limit_lab_works/articles/bridge-test-reach-vs-offer",
-      "publishedAt": "2026-08-14T20:47:23.000Z",
-      "publisher": "限界社会人（LIMIT LAB WORKS）",
-      "summary": "結論から言う。「インプレッションはあるのにクリックされない」ときにまずやるべきなのは、文章やCTAの書き直しではない。それが「そもそも届いていない」問題なのか「届いてはいるが興味を持たれていない」問題なのかを、数字で切り分けることだ。 ク…"
-    },
-    {
-      "id": "bb874c454273",
-      "title": "AWSの月額費用を$15,000削減した話（総集編）",
-      "url": "https://zenn.dev/koedesk/articles/aws-cost-halved-in-8-months",
-      "publishedAt": "2026-08-14T20:20:42.000Z",
-      "publisher": "koedesk",
-      "summary": "2025年12月に月$30,398だったAWSの請求が、2026年8月は約$15,100で着地する見込みです。8ヶ月でマイナス50%、年間にして約$18万（約2,800万円）浮きました。 過去に経過を3回書いています（1本目・2本目・3本…"
-    },
-    {
-      "id": "e8ffe3d1fa84",
-      "title": "Claude Codeのpermissions、allow/deny/askの境界線を毎回悩んでいたので決定木にした",
-      "url": "https://zenn.dev/playpark/articles/claude-code-permissions-design-guide",
-      "publishedAt": "2026-08-14T18:55:18.000Z",
-      "publisher": "playpark",
-      "summary": "空のpermissions.denyを前に、手が止まったことはありませんか 新しいプロジェクトでsettings.jsonを開くと、permissions.denyはたいてい空っぽだ。「危なそうなコマンドを思いついた順に足していけばいいか…"
-    },
-    {
-      "id": "09ff3b35a5f4",
-      "title": "CLAUDE.mdは短いのに重い ― 自動ロード層を測って43%削るまで",
-      "url": "https://zenn.dev/hoshiorange/articles/19-claude-config-token-bloat-cleanup",
-      "publishedAt": "2026-08-14T17:53:57.000Z",
-      "publisher": "ほし",
-      "summary": "こんにちは。今日は掃除の話です。ただし片付けたのはコードではなく、AIコーディングエージェントの設定ファイルのほうでした。 CLAUDE.md はちゃんと短く保っていたんです。それなのに、セッションが最初からずっしり重い。原因を探しにいっ…"
-    },
-    {
-      "id": "a1987612bcb1",
-      "title": "Boundary Consciousness: A Conceptual Framework for Human–LLM Interacti",
-      "url": "https://zenn.dev/leaper/articles/4b6813fa2aaa67",
-      "publishedAt": "2026-08-14T17:17:51.000Z",
-      "publisher": "問ぼっち",
-      "summary": "📘 Boundary Consciousness: A Conceptual Framework for Human–LLM Interaction A theoretical paper draft Introduction Rece…"
-    },
-    {
-      "id": "f94baee45fab",
-      "title": "AIは「書く速さ」を変えた。「レビューできる量」は変えなかった — GitHub ActionsのCIを、どう設計し直したか",
-      "url": "https://zenn.dev/aichecklab/articles/c49eee5372e0d0",
-      "publishedAt": "2026-08-14T17:04:38.000Z",
-      "publisher": "AI CHECK LAB",
-      "summary": "AIエージェントに実装を任せるのが、特別なことではなくなりました。私たちのチームでも、日々のコードの相当な割合はAIが書いています。 数字にすると、2026年5月からの3ヶ月で245本のPRが動きました。うち102本はDependabot…"
-    },
-    {
-      "id": "05b29b2e2067",
-      "title": "LLMが書いたタスク分解は、誰が検証しているのか",
-      "url": "https://zenn.dev/saltmu/articles/83b332232d7b75",
-      "publishedAt": "2026-08-14T16:34:23.000Z",
-      "publisher": "そるとむ",
-      "summary": "AIコーディングエージェントを並列で走らせる話は、だいたい同じ形になります。大きなタスクをLLMに分解させ、サブタスクをそれぞれのエージェントに割り当てる、という形です。 ここで一つ、抜け落ちがちな問いがあります。 その分解が正しいことは…"
-    },
-    {
-      "id": "59662baf50b5",
-      "title": "「隔離環境の構築はこれから」の5日後、実際に選んだのはEC2ではなくRoutineだった",
-      "url": "https://zenn.dev/devex12/articles/claude-code-routine-unattended-followup",
-      "publishedAt": "2026-08-14T16:25:03.000Z",
-      "publisher": "dev-ex12",
-      "summary": "この記事で得られること 「夜間バッチを完全無人で回すには --dangerously-skip-permissions ＋ 隔離環境（EC2+tmux）が必要そう」と結論づけた前回の続き。5日後に実際に導入したのは、EC2ではなく Cla…"
-    },
-    {
-      "id": "d27a017cb324",
-      "title": "「好き」だけで終わらせない。私らしいコスメ選び。「コスメループ」を作りました！",
-      "url": "https://zenn.dev/kinoaka/articles/5b590d3b3fddae",
-      "publishedAt": "2026-08-14T16:24:08.000Z",
-      "publisher": "Akane",
-      "summary": "はじめに AI HACK 2026で、コスメの購入前から購入後の活用までをサポートするAIサービス 「CoseMe Loop（コスミーループ）」 を開発しました。 この記事では、今回のハッカソンにあたりどのようなことを考え、「CoseMe…"
     }
   ],
-  "fetchedAt": "2026-08-15T09:21:43.129Z",
+  "fetchedAt": "2026-08-15T09:49:12.406Z",
   "stale": false,
   "error": null
 }
