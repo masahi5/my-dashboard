@@ -2,11 +2,14 @@
 
 # My Dashboard
 
-個人的に欲しい情報を集約したダッシュボード（AI / コールセンター・情シス / ゲーム / 話題の4カテゴリ・12ソース）。
+個人的に欲しい情報を集約したダッシュボード。タブは5枚
+（AI / コールセンタ・システム / ゲーム / その他 / ツイート）で、フィード12ソース + X 12アカウント。
 公開先: https://masahi5.github.io/my-dashboard/
 
 **運用費ゼロ**が設計上の最重要制約：常時起動サーバーを持たず、GitHub Actions でデータを取得し、
 静的書き出しした Next.js を GitHub Pages から配信する。APIキーが必要な情報源は採用しない。
+
+スマホでの利用が主。PWA として「ホーム画面に追加」でき、タブは横スワイプでも切り替わる。
 
 ## Architecture / Data flow
 
@@ -43,9 +46,25 @@ GitHub Actions (cron 15分ごと)
 - `lib/feeds.ts` — `readAllFeeds()` / `groupByCategory()`。**Server Component 専用**（fs を使う）。
   ページはキーを列挙せずこれを使うので、ソース追加だけでウィジェットが増える
 - `lib/format.ts` — 日時整形。**必ず `timeZone: "Asia/Tokyo"` を指定する**（後述）
+- `app/page.tsx` — タブの中身を組み立てるだけ。並べ方はタブごとに違うのでここが持つ
+- `components/dashboard-tabs.tsx` — タブ本体（Client）。タブ切り替え / ハッシュ連動 /
+  ジャンプボタン / 横スワイプ / 「上へ戻る」。**カテゴリの追加はここではなく `schemas.ts`**
 - `components/widgets/feed-card.tsx` — フィード1本のウィジェット。空/stale の状態も明示する
+- `components/widgets/x-timeline-card.tsx` — X 1アカウント分（Client、後述）
 - `components/relative-time.tsx` — 相対時刻。Client Component（後述）
 - `components/ui/` — shadcn/ui。`npx shadcn@latest add <name>` で追加
+
+### X（ツイートタブ）
+- `lib/x-accounts.ts` — 表示するアカウントの一覧。グループ = タブ内の小見出し = ジャンプ先
+- `lib/x-widgets.ts` — 公式ウィジェット（platform.twitter.com/widgets.js）の読み込みと生成
+- X は API/RSS を閉じたため、**無料で使える手段が公式ウィジェットしかない**。
+  ここだけはビルド時ではなく**ブラウザ側**で中身を取りに行く（`data/*.json` には入らない）
+
+### PWA
+- `app/manifest.ts` — Web App Manifest。**中身の URL には basePath が自動で付かない**ので自分で前置する
+- `app/layout.tsx` — `viewport.themeColor` / apple 用 meta / safe-area
+- `public/sw.js` — Service Worker。HTML はネットワーク優先、`_next/static` だけキャッシュ優先
+- `scripts/generate-icons.ts` — アイコン PNG 生成（`npm run icons`）。生成物は commit 済み
 
 ### 自動化
 - `.github/workflows/update-and-deploy.yml` — cron で取得 → `data/` を commit → ビルド → Pages へデプロイ
@@ -54,6 +73,7 @@ GitHub Actions (cron 15分ごと)
 
 ```bash
 npm run fetch    # data/*.json を生成（ソース追加後は必ず実行）
+npm run icons    # PWA アイコンを再生成（デザインを変えたときだけ）
 npm run dev      # http://localhost:3000
 npm run build    # out/ へ静的書き出し
 npm run lint
@@ -71,6 +91,13 @@ npm run lint
   workflow の値も変える。ローカル dev は `/` のまま。
 - `public/.nojekyll` は消さない（`_next/` を GitHub Pages が無視しないようにするため）。
 - Vercel ではなく **GitHub Pages** を使う。Actions は public リポジトリなら実行時間無料。
+- **manifest / Service Worker / apple-touch-icon のパスは basePath を自分で付ける。**
+  Next が自動で付けてくれるのは `<link rel="manifest">` の href まで。中身は素通し。
+- **`app/manifest.ts` には `export const dynamic = "force-static"` が要る**（無いと export でビルドが落ちる）。
+- **X の埋め込みは一斉に作らない。** 12個を同時に生成すると syndication.twitter.com が 429 を返し、
+  全部が無言で空になる。`lib/x-widgets.ts` で1件ずつ直列化し、画面に入ったものだけ生成している。
+  `createTimeline` の Promise は iframe 挿入時点で解決してしまうので、**成否は iframe の高さで判定する**。
+  失敗時はプロフィールへのリンクに退避する（広告ブロッカーでも同じ経路になる）。
 
 ## 情報源を追加する手順
 
@@ -95,3 +122,11 @@ npm run lint
 | trend | `trend-google` | Google トレンド日本（RSS, 検索数） |
 | trend | `trend-hatena` | はてブ 総合（RSS 1.0, ブクマ数） |
 | trend | `trend-hackernews` | Hacker News / Algolia（JSON, points） |
+
+カテゴリ ↔ タブ名は `lib/schemas.ts` の `CATEGORY_LABELS` で決める
+（`callcenter` → 「コールセンタ・システム」、`trend` → 「その他」）。
+
+### X アカウントを追加する手順
+
+`lib/x-accounts.ts` の `X_ACCOUNT_GROUPS` に足すだけ。取得処理もビルドも不要。
+グループを増やすと小見出しとジャンプボタンが1つ増える。

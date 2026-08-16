@@ -23,7 +23,9 @@ export function FeedCard({ feed, fallbackLabel, limit = 12 }: FeedCardProps) {
   const items = feed?.items.slice(0, limit) ?? [];
 
   return (
-    <Card className="flex h-full flex-col gap-4">
+    // スマホでは画面幅が貴重なのでカード内側の余白も詰める（--card-spacing は
+    // Card が padding に使っている変数。上書きすると見出し・本文・脚注が揃って狭まる）
+    <Card className="flex h-full flex-col gap-4 [--card-spacing:--spacing(3)] sm:[--card-spacing:--spacing(4)]">
       <CardHeader>
         <CardTitle className="text-base">
           {feed ? (
@@ -90,7 +92,7 @@ export function FeedCard({ feed, fallbackLabel, limit = 12 }: FeedCardProps) {
         )}
       </CardContent>
 
-      <div className="text-muted-foreground border-border/60 border-t px-6 pt-3 text-[11px]">
+      <div className="text-muted-foreground border-border/60 border-t px-(--card-spacing) pt-3 text-[11px]">
         {feed ? (
           <>
             最終取得 {formatJstFull(feed.fetchedAt)}

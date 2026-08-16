@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fetch": "tsx scripts/fetch-feeds.ts"
+    "fetch": "tsx scripts/fetch-feeds.ts",
+    "icons": "tsx scripts/generate-icons.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",

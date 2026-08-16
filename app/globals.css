@@ -120,14 +120,27 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* タブバーやジャンプボタンの列は横スクロールさせるが、
+   スクロールバーが出ると数ピクセルを食って行が詰まるので隠す。 */
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
+    /* タップのたびに青い矩形が出るとネイティブアプリらしさが削がれる */
+    -webkit-tap-highlight-color: transparent;
   }
   html {
     @apply font-sans;
+    /* 横向きにしたときに iOS が勝手に文字を拡大するのを止める */
+    -webkit-text-size-adjust: 100%;
   }
 }

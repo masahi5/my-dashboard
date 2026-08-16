@@ -6,11 +6,12 @@ import { z } from "zod";
 export const categorySchema = z.enum(["ai", "callcenter", "game", "trend"]);
 export type Category = z.infer<typeof categorySchema>;
 
+/** タブの見出しになる。狭い画面でも折り返さない長さに保つこと */
 export const CATEGORY_LABELS: Record<Category, string> = {
   ai: "AI",
-  callcenter: "コールセンター / 情シス",
+  callcenter: "コールセンタ・システム",
   game: "ゲーム",
-  trend: "話題",
+  trend: "その他",
 };
 
 /** ダッシュボード上のセクション表示順 */
