@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "a7d85c7f0ecd",
-      "title": "AIシステムの行き着く先は、LLMと固定処理を行き来する「進化型パイプライン」である",
-      "url": "https://zenn.dev/dx_junkyard/articles/5808807eeef8e8",
-      "publishedAt": "2026-08-16T00:05:20.000Z",
-      "publisher": "uras",
-      "summary": "——探索時には考え、安定すれば定着し、変化すれば再び探索する 現在のLLMは、何ができるようになったのか 生成AIの能力は、ここ数年で飛躍的に向上した。 文章を書く。コードを作る。情報を調査する。複雑な資料を整理する。要件をまとめ、設計し…"
+      "id": "c8e6856b4e57",
+      "title": "待ち時間を予測してLLM推論を振り分ける、llm-dの予測レイテンシ・ルーティング",
+      "url": "https://zenn.dev/okssusucha/articles/20260709-llm-d-predicted-latency-scheduling",
+      "publishedAt": "2026-08-16T12:05:21.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "LLM を複数台のGPUサーバーで捌くとき、リクエストをどのサーバーへ送るかは意外と厄介だ。KVキャッシュの再利用を狙って同じ接頭辞のリクエストを1台に寄せれば、そのサーバーだけ混んで待ち時間が跳ねる。逆に負荷を平らに散らせば、せっかくの…"
     },
     {
-      "id": "638474728e30",
-      "title": "Remote ControlのServer modeなら、スマホから新しいセッションを立てられる",
-      "url": "https://zenn.dev/0msys/articles/486b44b3af083d",
-      "publishedAt": "2026-08-15T23:27:24.000Z",
-      "publisher": "0msys",
-      "summary": "はじめに Claude Code の Remote Control を、「すでに動いているセッションを、スマホやブラウザから覗いて操作するもの」だと思い込んでいました。今日たまたまドキュメントを読んでいて、Server mode というも…"
+      "id": "a805e3a15682",
+      "title": "設計も実装もレビューもAIがやる個人開発で、精度をどう出しているか",
+      "url": "https://zenn.dev/r2_san/articles/2daa394288fcef",
+      "publishedAt": "2026-08-16T11:50:36.000Z",
+      "publisher": "R2-san",
+      "summary": "私は個人で AI coding agent の runtime を作っています。 この製品は、設計も、実装も、実装のレビューも、AI が行っています。 私がやっているのは、AI に渡す最初の指示の精度を上げることと、最終的な成果物が目的に…"
     },
     {
-      "id": "944b5c205432",
-      "title": "Meta Muse Glimmer 30Bを自分の実務4タスクで実測した記録(失敗込み)",
-      "url": "https://zenn.dev/acropapa330/articles/muse_glimmer_4task_eval",
-      "publishedAt": "2026-08-15T23:02:10.000Z",
-      "publisher": "アクロパパ",
-      "summary": "Meta Muse Glimmer 30Bを自分の実務4タスクで実測した記録(失敗込み) 誰向けの記事か この記事は、「ローカルLLMやオープンウェイトモデルを実務に投入できるか」を気にしている開発者向けです。ベンチマークのスコアを紹介す…"
+      "id": "4c070a6b2dec",
+      "title": "AIと仕事をするノウハウ",
+      "url": "https://zenn.dev/yy7613/articles/3221ab32f69e62",
+      "publishedAt": "2026-08-16T11:31:31.000Z",
+      "publisher": "Yuuki.Y",
+      "summary": "はじめに AIに仕事を任せる場面は増えましたが期待どおりの成果が得られずに苦労した経験は誰にでもあるのではないでしょうか。 そういった中で試行錯誤するうちに原因はAIの能力ではなく、仕事の進め方にあることが多いと分かってきました。 この記…"
     },
     {
-      "id": "9d4837852320",
-      "title": "AIエージェントに任せた業務を「棚卸し」した結果 — 委任先が重複していた5業務の統廃合",
-      "url": "https://zenn.dev/joinclass/articles/ai-5-20260814220004-29176",
-      "publishedAt": "2026-08-15T23:00:12.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "「誰がやっているか分からない業務」が増えていた 僕は一人会社で、10部門のAIエージェントを動かしている。launchdジョブは17個、SNS自動配信は27件/日（9プロダクト×3チャネル）、記事の自動公開が3チャネル/日。自動化率は98…"
+      "id": "867bc2e95eba",
+      "title": "A*経路探索をPythonで実装する｜ロボットの「最短ルート」を見つける",
+      "url": "https://zenn.dev/maru1228/articles/physical-ai-astar-pathfinding-python",
+      "publishedAt": "2026-08-16T11:00:05.000Z",
+      "publisher": "まる",
+      "summary": "! この記事は自サイト A*経路探索をPythonで実装する｜ロボットの「最短ルート」を見つける の再掲（クロス投稿）です。図をインタラクティブに動かせる版は元記事でどうぞ。 自律ロボットが「今いる場所から目的地まで、障害物を避けてどう進…"
     },
     {
-      "id": "4eb14875426b",
-      "title": "認知的負債 — AIが速く書いたコードの請求書は、頭の中に届く",
-      "url": "https://zenn.dev/tejunya/articles/a047_ninchi-teki-fusai",
-      "publishedAt": "2026-08-15T23:00:05.000Z",
-      "publisher": "手順屋",
-      "summary": "コードは動いている。テストも通っている。レビューにも出せる。 なのに、レビュアーに「ここ、なんでこうしたんですか」と聞かれた瞬間、答えが出てこない。画面には自分がマージしたコードが映っていて、コミットログには自分の名前が入っている。それで…"
+      "id": "a0bdd995ac98",
+      "title": "AIと作った、はじめての回路基板が届いた",
+      "url": "https://zenn.dev/optimisuke/articles/841a3f265c58b0",
+      "publishedAt": "2026-08-16T11:00:05.000Z",
+      "publisher": "Naosuke",
+      "summary": "はじめに 前回、AIにEasyEDAを操作してもらいながら、はじめて自分で回路基板を設計してJLCPCBへ発注しました。 https://zenn.dev/optimisuke/articles/ai-first-pcb-easyeda …"
     },
     {
-      "id": "de41ecc4ca66",
-      "title": "27Bクラス最高峰！？ローカルで動く話題のLLM「Qwen 3.8 27B」とは",
-      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-08-14-2224",
-      "publishedAt": "2026-08-15T22:24:27.000Z",
-      "publisher": "田中根小介",
-      "summary": "Hacker News等の海外テックコミュニティで、Alibaba開発の最新オープンモデル系LLM**「Qwen 3.8 27B（FP8）」**が大きな話題を呼んでいます。 本記事では、このモデルがなぜ日本のエンジニアにとって注目すべき存…"
+      "id": "3b8a55362e35",
+      "title": "弊社の AI 社員一覧",
+      "url": "https://zenn.dev/saixaid/articles/ai-employee-list",
+      "publishedAt": "2026-08-16T10:17:09.000Z",
+      "publisher": "株式会社sai X aid",
+      "summary": "「AIを導入した」と聞くと、多くの人は“賢いチャットツール”を思い浮かべます。質問すれば答え、文章を要約してくれる。便利です。でも、それは道具であって、同僚ではありません。 私たち sai X aid は、もう一歩踏み込みました。役割と名…"
     },
     {
-      "id": "b5322e7df242",
-      "title": "その検査、初日に自分の公開物の欠品を見つけました ── 関所を機械に渡す・人間に返す・捨てる、の 9 リリース",
-      "url": "https://zenn.dev/satoh_y_0323/articles/88035adf48b41b",
-      "publishedAt": "2026-08-15T21:57:06.000Z",
-      "publisher": "satoh-y-0323",
-      "summary": "前回記事: https://zenn.dev/satoh_y_0323/articles/95ff9a7b16510c C3 GitHub: https://github.com/satoh-y-0323/claude-code-cond…"
+      "id": "24d6a987511a",
+      "title": "ChatGPTはどのように学習するのか？",
+      "url": "https://zenn.dev/shai/articles/c31fd7ea66c825",
+      "publishedAt": "2026-08-16T10:16:23.000Z",
+      "publisher": "shai",
+      "summary": "ChatGPTはどのように学習するのか？ — Loss・Gradient・Backpropagationを理解する 前回の記事では、ChatGPTを支えているTransformerについて整理しました。 文章をTokenに分割し、Embe…"
     },
     {
-      "id": "11a875fbff55",
-      "title": "vibe codingの12ヶ月後：『動くコード』が『触れないブラックボックス』になるまで",
-      "url": "https://zenn.dev/ryok/articles/vibe-coding-twelve-months",
-      "publishedAt": "2026-08-15T19:51:19.000Z",
-      "publisher": "ryok",
-      "summary": "結論 vibe codingの生死を分けるのは「コードを読んだか」ではない。判断の理由（why）を、後から検証できる形で残したかだ。 理由が消えたコードは、リリースから12ヶ月後に「誰も触れないブラックボックス」になり、静かなリライトで終…"
+      "id": "3da64420ebb0",
+      "title": "「AI社員」とは何か 〜採用でも外注でもない、第三の選択肢〜",
+      "url": "https://zenn.dev/saixaid/articles/what-is-ai-employee",
+      "publishedAt": "2026-08-16T10:03:05.000Z",
+      "publisher": "株式会社sai X aid",
+      "summary": "「経理を締めておいて」「あの会社、商談前に調べておいて」——そんな頼みごとを、私たちは人ではなく、名前を持った AI に投げます。sai X aid のオフィス、といっても実体は Slack のワークスペースですが、そこでは毎日それが当た…"
     },
     {
-      "id": "94691637c995",
-      "title": "Godotの当たり判定が突然無反応になった",
-      "url": "https://zenn.dev/hoakari/articles/2026-08-16-godot-collision-layer-override",
-      "publishedAt": "2026-08-15T18:54:44.000Z",
-      "publisher": "hoakari",
-      "summary": "何が起きたか Godot 4.7で個人開発中の2Dアクションゲームで、プレイヤーの攻撃判定と、敵の接触ダメージ判定を実装しました。Area2Dのレイヤー・マスクをきちんと分けて、get_overlapping_bodies()でお互いを検…"
+      "id": "540f47d3dbbc",
+      "title": "AIコーディングブームの反動——Notebook LM要約",
+      "url": "https://zenn.dev/hai08320/articles/def4326c4cf293",
+      "publishedAt": "2026-08-16T09:22:07.000Z",
+      "publisher": "ネオPotato",
+      "summary": "本記事は \"The AI Coding Boom Is Backfiring\" をGemini Notebook LMに要約・ポッドキャスト化したものです。 📔 Notebook LM: https://notebook.google.…"
     },
     {
-      "id": "a95d294f7631",
-      "title": "LLMを賢くするのではなく「境界」を作る——AXIOM Framework Prototypeを作ってみた",
-      "url": "https://zenn.dev/void09/articles/7ecb850ac0c96c",
-      "publishedAt": "2026-08-15T16:43:36.000Z",
-      "publisher": "kishimoto-void",
-      "summary": "LLMを賢くするのではなく「境界」を作る——AXIOM Framework Prototypeを作ってみた 正直に言うと、最初から「AIの共通基盤を作ろう」と考えていたわけではありません。 自分が作りたいものを作るためにLLMを使っていた…"
+      "id": "238d14ea2345",
+      "title": "Claude Code のログ2GB、活用するつもりがただ溜めていただけだった ― AIに毎晩資産化させて解決",
+      "url": "https://zenn.dev/hoshiorange/articles/16-claude-code-log-distillation-knowledge-base",
+      "publishedAt": "2026-08-16T09:14:28.000Z",
+      "publisher": "ほし",
+      "summary": "こんにちは。AIと一緒に仕事をした記録が2GBほど溜まっていました。いつか活用するつもりで消さずにいたのですが、読み返した回数はゼロ。つまり、活用できていませんでした。 先に結論を書きます。ログを後から読み返すのはやめて、AIに毎晩読ませ…"
     },
     {
-      "id": "a3ef7fec02d3",
-      "title": "24時間のAI開発でクラウド課金が増え続ける —— 判断と実装を自前のローカルLLMに移してコストを下げた",
-      "url": "https://zenn.dev/chooser/articles/series-005-local-llm",
-      "publishedAt": "2026-08-15T16:10:05.000Z",
-      "publisher": "chooser",
-      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 2026 年 6 月末から 7 月にか…"
+      "id": "957269a9c242",
+      "title": "篠澤広と学ぶ物理のエッセンス",
+      "url": "https://zenn.dev/fibujrsl/books/0ffc369d83a8ea",
+      "publishedAt": "2026-08-16T09:07:46.000Z",
+      "publisher": "名前決めてね",
+      "summary": "あ"
     },
     {
-      "id": "3a88a896e55d",
-      "title": "Claude Codeをデスクトップアプリで使う場合とCLIで使う場合の違いを調べてみた",
-      "url": "https://zenn.dev/shogo_h/articles/claude-code-desktop-vs-cli",
-      "publishedAt": "2026-08-15T15:30:53.000Z",
-      "publisher": "shogo-h",
-      "summary": "はじめに 私は日常的にClaude Codeを使用して開発や調べ物等を行なっているのですが、特に深く考えずClaude Desktop上のCodeタブから使用しておりました。 会社の同僚の中でも大きく分けるとClaude Desktopか…"
+      "id": "773855071eb7",
+      "title": "ワークスペースの構成をチームで共有する「バーチャルモノレポ」を実装してみた",
+      "url": "https://zenn.dev/shigerufukada/articles/cf2b046c2564d1",
+      "publishedAt": "2026-08-16T08:41:33.000Z",
+      "publisher": "Fukada",
+      "summary": "はじめに この記事は、ymmt2005 さんの Virtual monorepo のすゝめ で提案されているパターンを、自分の環境に合わせて実装した記録です。 元記事では、複数の独立したGitリポジトリを1つの親ディレクトリに集め、コーデ…"
     }
   ],
-  "fetchedAt": "2026-08-16T11:59:03.822Z",
+  "fetchedAt": "2026-08-16T12:50:53.845Z",
   "stale": false,
   "error": null
 }
