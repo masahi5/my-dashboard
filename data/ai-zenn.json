@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "09e05ccc663e",
-      "title": "巨大AIの対極へ。Fire HD 10（完全ローカル）で動く自律型AI「Kokone」を作ってみた",
-      "url": "https://zenn.dev/pok/articles/240333a989c8e1",
-      "publishedAt": "2026-08-16T14:40:30.000Z",
-      "publisher": "pok",
-      "summary": "1. はじめに：なぜFire HD 10なのか 現在のAI開発のトレンドは、「より巨大なデータセンターで、より多くのパラメータを処理し、常にネットワークに接続されていること」が前提になっています。LLM（大規模言語モデル）の進化は確かに目…"
+      "id": "540f47d3dbbc",
+      "title": "AIコーディングブームの反動——Notebook LM要約",
+      "url": "https://zenn.dev/hai08320/articles/def4326c4cf293",
+      "publishedAt": "2026-08-16T09:22:07.000Z",
+      "publisher": "ネオPotato",
+      "summary": "本記事は \"The AI Coding Boom Is Backfiring\" をGemini Notebook LMに要約・ポッドキャスト化したものです。 📔 Notebook LM: https://notebook.google.…"
     },
     {
-      "id": "be18e4286025",
-      "title": "Qwen3.8 27B に Reasoning Effort を実装してみる",
-      "url": "https://zenn.dev/shogo0x2e/articles/qwen38-27b-stop-overthinking",
-      "publishedAt": "2026-08-16T14:39:24.000Z",
-      "publisher": "shogo0x2e",
-      "summary": "TL;DR Qwen 3.8 27B を動かすと，曖昧なタスクで thinking が長時間続き，tool call や回答に到達する前に生成上限に達して止まってしまうことがあった． 解決策として，Per-request reasonin…"
+      "id": "238d14ea2345",
+      "title": "Claude Code のログ2GB、活用するつもりがただ溜めていただけだった ― AIに毎晩資産化させて解決",
+      "url": "https://zenn.dev/hoshiorange/articles/16-claude-code-log-distillation-knowledge-base",
+      "publishedAt": "2026-08-16T09:14:28.000Z",
+      "publisher": "ほし",
+      "summary": "こんにちは。AIと一緒に仕事をした記録が2GBほど溜まっていました。いつか活用するつもりで消さずにいたのですが、読み返した回数はゼロ。つまり、活用できていませんでした。 先に結論を書きます。ログを後から読み返すのはやめて、AIに毎晩読ませ…"
     },
     {
-      "id": "7249ba866357",
-      "title": "非エンジニアがAIセキュリティCTF『Gandalf Adventure』で遊んでみた（Lv4攻略 / write up）",
-      "url": "https://zenn.dev/na417/articles/e57628addadaa6",
-      "publishedAt": "2026-08-16T14:13:47.000Z",
-      "publisher": "nyanjaro",
-      "summary": "はじめに Lakera社が提供するAIセキュリティのCTF「Gandalf Adventure」で遊んでいます。 英語サイトなので、翻訳にはClaudeを使いながら進めました。 Gandalf Adventureは、AIが特定の話題を避け…"
+      "id": "957269a9c242",
+      "title": "篠澤広で学ぶ『物理のエッセンス』",
+      "url": "https://zenn.dev/fibujrsl/books/0ffc369d83a8ea",
+      "publishedAt": "2026-08-16T09:07:46.000Z",
+      "publisher": "名前決めてね",
+      "summary": "あ"
     },
     {
-      "id": "ecb2480b04e2",
-      "title": "【付録】考察・何が起きたのか？",
-      "url": "https://zenn.dev/katsutoatsuto/articles/351886ab7b8e95",
-      "publishedAt": "2026-08-16T14:11:12.000Z",
-      "publisher": "katsutoatsuto",
-      "summary": "自分のSNSや作品、最大17年分を記録したデータベースに接続するtagasill/chatが、なぜ自分と似ていると感じるのか？どういう仕組でそうなるのか、考察しました。 tagasillには、自分のデータベースを可視化する3Dビュワーをつ…"
+      "id": "773855071eb7",
+      "title": "ワークスペースの構成をチームで共有する「バーチャルモノレポ」を実装してみた",
+      "url": "https://zenn.dev/shigerufukada/articles/cf2b046c2564d1",
+      "publishedAt": "2026-08-16T08:41:33.000Z",
+      "publisher": "Fukada",
+      "summary": "はじめに この記事は、ymmt2005 さんの Virtual monorepo のすゝめ で提案されているパターンを、自分の環境に合わせて実装した記録です。 元記事では、複数の独立したGitリポジトリを1つの親ディレクトリに集め、コーデ…"
     },
     {
-      "id": "2747e5ab8d55",
-      "title": "AIエージェントの暴走を止めたのは、技術ではなく地味なルールだった",
-      "url": "https://zenn.dev/ai_engineernote/articles/e2a2e50c067774",
-      "publishedAt": "2026-08-16T13:52:05.000Z",
-      "publisher": "AI開発日誌",
-      "summary": "AIに実務を任せ始めて最初にぶつかった問題 AIエージェントに「情報収集→整理→報告」のような実務を任せてみると、驚くほどよく働いてくれる。困るのはむしろ逆で、**AIが「良かれと思って」先へ進んでしまう瞬間が必ず出てくる。 たとえば「新…"
+      "id": "04447e32d012",
+      "title": "AI自動投稿の「誤公開・事故」を防ぐ！GitHub Actions × Zennの2リポジトリ安全運用術",
+      "url": "https://zenn.dev/yusamore/articles/zenn-2026-08-16-safe-publish",
+      "publishedAt": "2026-08-16T08:20:39.000Z",
+      "publisher": "Yusa",
+      "summary": "AIにニュースまとめや技術メモを書いてもらうと、驚愕するほど大量の下書きが溜まります。 そらもう、自分でこんな記事書いたっけ、って驚愕するほどに。 AI開発をしていると、IDEやテキストエディタをいじっているときに「このままワンクリックで…"
     },
     {
-      "id": "5f4959528b14",
-      "title": "AIコーディングのルール、機械的に強制できるもの・できないもの",
-      "url": "https://zenn.dev/nozomi720/articles/rules_machine_enforceable",
-      "publishedAt": "2026-08-16T13:48:42.000Z",
-      "publisher": "nonchan7720",
-      "summary": "47個のルールを分類してみた 前回の記事で、Claude Code への指摘をファイルとして永続化し、指摘回数に応じて hook の強制力を上げる仕組みを書きました。この記事は単体で読めるように書きますが、前回の用語を3つだけ引き継ぎます…"
-    },
-    {
-      "id": "f7d693fe923c",
-      "title": "GenOfficeとRAGナレッジで資料を下書きするやつを作った",
-      "url": "https://zenn.dev/bathtimefish/articles/eb089fbe8434b0",
-      "publishedAt": "2026-08-16T13:46:09.000Z",
-      "publisher": "bathtimefish",
-      "summary": "過去の資料をもとにAIで今日の資料の下書きをする GenOfficeすごいですね。GenSparkは結構前から使っているんですが、だんだん資料の作り込みが上手くなってきている感じがしています。あのAIスライドやAIシートなんかがそのままデ…"
-    },
-    {
-      "id": "e6b984456e1d",
-      "title": "pi-coding-agentを使わずにOpenCode Go×Hermes Agentを選んだ理由",
-      "url": "https://zenn.dev/jodycraft/articles/c35818f2f6c28a",
-      "publishedAt": "2026-08-16T13:26:35.000Z",
-      "publisher": "JodyCraft",
-      "summary": "正直に言うと、この記事を書くまで自分でも整理できていなかったことがある。「OpenCode Go×pi-coding-agent」の組み合わせがハーネス界隈で評判になっているのを見て、自分もそれで行こうと思っていたのに、実際に手を動かした…"
-    },
-    {
-      "id": "3c34c3aca58e",
-      "title": "生成AIを組織に定着させるための、渡し方・受け方・測り方・育て方の設計",
-      "url": "https://zenn.dev/tk_notes/articles/genai-adoption-establishment-design",
-      "publishedAt": "2026-08-16T13:21:01.000Z",
+      "id": "08d829d9a421",
+      "title": "AIエージェントにコードを書かせて、人が品質を守る——個人開発3ヶ月の品質ゲート設計",
+      "url": "https://zenn.dev/tk_notes/articles/ai-agent-quality-gate",
+      "publishedAt": "2026-08-16T08:10:53.000Z",
       "publisher": "tk",
-      "summary": "生成AIの導入は、派手には失敗しません。「もうやめます」と宣言されるような終わり方は、めったにない。AIは、それ自体が便利すぎるからです。 静かに崩れていくのは、利用そのものではなく、「組織が意図した使い方」のほうです。使う人は残る。ただ…"
+      "summary": "AIエージェントはコードを速く書きます。もっともらしい間違いも、同じ速度で書きます。 2026年4月から6月にかけて、Claude CodeとCodexを使い、3つの個人開発を進めました。AIには調査、実装、テスト追加、レビューを任せてい…"
     },
     {
-      "id": "0657b6e0ebfc",
-      "title": "動画生成AIの使い分け — アニメはVidu、リアルはKling",
-      "url": "https://zenn.dev/kiraki/articles/video-ai-comparison",
-      "publishedAt": "2026-08-16T13:00:19.000Z",
-      "publisher": "きらき",
-      "summary": "先に結論を書きます。 アニメはVidu、リアルはKling。 1話約1分のAIアニメを29話ぶん作り、並行して実案件の映像制作でも生成AIを使ってきた結果、この2つに落ち着きました。以下、それぞれの使いどころを書きます。 Vidu — ア…"
+      "id": "67bca6846515",
+      "title": "寝ている間にPCを動かすAIと、「諦めないで」で難問を解いたAIのお話（2026年8月AIトレンド3選）",
+      "url": "https://zenn.dev/yusamore/articles/zenn-2026-08-16-ai-agent-frontier-3-news",
+      "publishedAt": "2026-08-16T07:43:35.000Z",
+      "publisher": "Yusa",
+      "summary": "AIの世界では、チャットで会話するだけでなく「パソコンを自動で動かしてくれるAI」や「人間の励ましで限界を超えるAI」など、人間味を感じる面白い進化を伝えるニュースが続いています。 今週、特に「これは面白い！」と感じた3つの出来事を、まと…"
     },
     {
-      "id": "3e1e9e93f16d",
-      "title": "AIはアーキテクチャを汚すので、防ぐOSSを作成した",
-      "url": "https://zenn.dev/cutepome/articles/8548edf34c8bca",
-      "publishedAt": "2026-08-16T12:53:09.000Z",
-      "publisher": "A.Y",
-      "summary": "吐露 AIで開発できる時代は狩人的なマインドをもって開発したい。よね的なOSS。 AIに禁止事項や守らせたいことをプロンプトに書くような馬鹿なAIコーディングやってる現場はもうなくなってると願いたい。エンジニアリング側で防げるような話もか…"
+      "id": "30565880a831",
+      "title": "Claudeの「見えない透かし」はどこに入る？ ― SynthID-TextのSamplingを理解する",
+      "url": "https://zenn.dev/50s_zerotohero/articles/e5198b07a3c9f0",
+      "publishedAt": "2026-08-16T06:52:00.000Z",
+      "publisher": "ZeroToHero",
+      "summary": "2026年8月、Anthropicは今後のClaudeが生成するテキストに 透かし（Watermark） を入れることを発表しました。 https://www.anthropic.com/news/claude-text-watermar…"
     },
     {
-      "id": "069e257a7520",
-      "title": "AI駆動開発は従来開発と何が違う？ 8領域で整理してみた",
-      "url": "https://zenn.dev/kinokomilk/articles/6c40d9a169a892",
-      "publishedAt": "2026-08-16T12:40:32.000Z",
-      "publisher": "S.T",
-      "summary": "AI駆動開発は従来開発と何が違う？ 8領域で整理してみた この記事は、本文・図ともに筆者とAIが共同で作成しました。構成と主張は筆者が決め、文章の整理と作図をAIと分担しています。 Claude CodeやCodexなど、AIを使った開発…"
+      "id": "9723236d5097",
+      "title": "Claude Codeで「ホワイト企業マップ」を個人開発した話",
+      "url": "https://zenn.dev/hayatech/articles/develop-whapp-1",
+      "publishedAt": "2026-08-16T05:40:53.000Z",
+      "publisher": "HayaTech",
+      "summary": "はじめに AIを活用した開発に興味を抱き、Claude Codeで個人開発のアプリを作ってみようと考えました。 市場調査をしたうえでニッチなサービスを提供したい、自分の得意な技術スタックを活用したいと考え、公的なホワイト企業認定・公表デー…"
+    },
+    {
+      "id": "f30a78d60a19",
+      "title": "【最速7分】ローカルLLM×Tauriで爆速Markdownビューアを作らせた必勝パターン",
+      "url": "https://zenn.dev/kotax/articles/local-llm-tauri-viewer",
+      "publishedAt": "2026-08-16T05:37:19.000Z",
+      "publisher": "KotaX",
+      "summary": "はじめに 普段エディタでMarkdownを書いているエンジニアの皆様、「ちょっと中身を確認したいだけなのに、エディタを立ち上げるのが重い…」と感じることはありませんか？ そこで今回は、起動が爆速で閲覧に特化した「軽量マークダウンビューアー…"
+    },
+    {
+      "id": "5f556cc6d990",
+      "title": "ゼロから始めるClaude Code #10 トークン節約の考え方：コンテキストは有限資源である",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-10-tokens",
+      "publishedAt": "2026-08-16T04:28:31.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はメモリ機能で、セッションをまたいで文脈を持ち越す3つの方法を試しました。 https://zenn.dev/mika_and_coco/articles/claud…"
+    },
+    {
+      "id": "4cc2cfff260e",
+      "title": "裏で動かしたAIが名乗った8桁の番号は、別のコマンドでは通じなかった",
+      "url": "https://zenn.dev/numarn/articles/claude-background-agents-registry-handson",
+      "publishedAt": "2026-08-16T04:16:56.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "先に結論から書きます。Claude Code(ターミナルで動く AI の相棒)には、仕事を裏に回して走らせるやり方があります。実際に走らせると backgrounded · ea1a4336 と、8桁の番号を名乗って返ってきました。ところ…"
     }
   ],
-  "fetchedAt": "2026-08-16T19:32:37.624Z",
+  "fetchedAt": "2026-08-16T19:54:11.315Z",
   "stale": false,
   "error": null
 }
