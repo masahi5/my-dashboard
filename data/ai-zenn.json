@@ -6,78 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "3da64420ebb0",
-      "title": "「AI社員」とは何か 〜採用でも外注でもない、第三の選択肢〜",
-      "url": "https://zenn.dev/saixaid/articles/what-is-ai-employee",
-      "publishedAt": "2026-08-16T10:03:05.000Z",
-      "publisher": "株式会社sai X aid",
-      "summary": "「経理を締めておいて」「あの会社、商談前に調べておいて」——そんな頼みごとを、私たちは人ではなく、名前を持った AI に投げます。sai X aid のオフィス、といっても実体は Slack のワークスペースですが、そこでは毎日それが当た…"
-    },
-    {
-      "id": "540f47d3dbbc",
-      "title": "AIコーディングブームの反動——Notebook LM要約",
-      "url": "https://zenn.dev/hai08320/articles/def4326c4cf293",
-      "publishedAt": "2026-08-16T09:22:07.000Z",
-      "publisher": "ネオPotato",
-      "summary": "本記事は \"The AI Coding Boom Is Backfiring\" をGemini Notebook LMに要約・ポッドキャスト化したものです。 📔 Notebook LM: https://notebook.google.…"
-    },
-    {
-      "id": "238d14ea2345",
-      "title": "Claude Code のログ2GB、活用するつもりがただ溜めていただけだった ― AIに毎晩資産化させて解決",
-      "url": "https://zenn.dev/hoshiorange/articles/16-claude-code-log-distillation-knowledge-base",
-      "publishedAt": "2026-08-16T09:14:28.000Z",
-      "publisher": "ほし",
-      "summary": "こんにちは。AIと一緒に仕事をした記録が2GBほど溜まっていました。いつか活用するつもりで消さずにいたのですが、読み返した回数はゼロ。つまり、活用できていませんでした。 先に結論を書きます。ログを後から読み返すのはやめて、AIに毎晩読ませ…"
-    },
-    {
-      "id": "957269a9c242",
-      "title": "篠澤広と学ぶ物理のエッセンス",
-      "url": "https://zenn.dev/fibujrsl/books/0ffc369d83a8ea",
-      "publishedAt": "2026-08-16T09:07:46.000Z",
-      "publisher": "名前決めてね",
-      "summary": "あ"
-    },
-    {
-      "id": "773855071eb7",
-      "title": "ワークスペースの構成をチームで共有する「バーチャルモノレポ」を実装してみた",
-      "url": "https://zenn.dev/shigerufukada/articles/cf2b046c2564d1",
-      "publishedAt": "2026-08-16T08:41:33.000Z",
-      "publisher": "Fukada",
-      "summary": "はじめに この記事は、ymmt2005 さんの Virtual monorepo のすゝめ で提案されているパターンを、自分の環境に合わせて実装した記録です。 元記事では、複数の独立したGitリポジトリを1つの親ディレクトリに集め、コーデ…"
-    },
-    {
-      "id": "04447e32d012",
-      "title": "AI自動投稿の「誤公開・事故」を防ぐ！GitHub Actions × Zennの2リポジトリ安全運用術",
-      "url": "https://zenn.dev/yusamore/articles/zenn-2026-08-16-safe-publish",
-      "publishedAt": "2026-08-16T08:20:39.000Z",
-      "publisher": "Yusa",
-      "summary": "AIにニュースまとめや技術メモを書いてもらうと、驚愕するほど大量の下書きが溜まります。 そらもう、自分でこんな記事書いたっけ、って驚愕するほどに。 AI開発をしていると、IDEやテキストエディタをいじっているときに「このままワンクリックで…"
-    },
-    {
-      "id": "08d829d9a421",
-      "title": "AIエージェントにコードを書かせて、人が品質を守る——個人開発3ヶ月の品質ゲート設計",
-      "url": "https://zenn.dev/tk_notes/articles/ai-agent-quality-gate",
-      "publishedAt": "2026-08-16T08:10:53.000Z",
-      "publisher": "tk",
-      "summary": "AIエージェントはコードを速く書きます。もっともらしい間違いも、同じ速度で書きます。 2026年4月から6月にかけて、Claude CodeとCodexを使い、3つの個人開発を進めました。AIには調査、実装、テスト追加、レビューを任せてい…"
-    },
-    {
-      "id": "67bca6846515",
-      "title": "寝ている間にPCを動かすAIと、「諦めないで」で難問を解いたAIのお話（2026年8月AIトレンド3選）",
-      "url": "https://zenn.dev/yusamore/articles/zenn-2026-08-16-ai-agent-frontier-3-news",
-      "publishedAt": "2026-08-16T07:43:35.000Z",
-      "publisher": "Yusa",
-      "summary": "AIの世界では、チャットで会話するだけでなく「パソコンを自動で動かしてくれるAI」や「人間の励ましで限界を超えるAI」など、人間味を感じる面白い進化を伝えるニュースが続いています。 今週、特に「これは面白い！」と感じた3つの出来事を、まと…"
-    },
-    {
-      "id": "30565880a831",
-      "title": "Claudeの「見えない透かし」はどこに入る？ ― SynthID-TextのSamplingを理解する",
-      "url": "https://zenn.dev/50s_zerotohero/articles/e5198b07a3c9f0",
-      "publishedAt": "2026-08-16T06:52:00.000Z",
-      "publisher": "ZeroToHero",
-      "summary": "2026年8月、Anthropicは今後のClaudeが生成するテキストに 透かし（Watermark） を入れることを発表しました。 https://www.anthropic.com/news/claude-text-watermar…"
-    },
-    {
       "id": "9723236d5097",
       "title": "Claude Codeで「ホワイト企業マップ」を個人開発した話",
       "url": "https://zenn.dev/hayatech/articles/develop-whapp-1",
@@ -100,9 +28,81 @@
       "publishedAt": "2026-08-16T04:28:31.000Z",
       "publisher": "みか あんど ここ",
       "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はメモリ機能で、セッションをまたいで文脈を持ち越す3つの方法を試しました。 https://zenn.dev/mika_and_coco/articles/claud…"
+    },
+    {
+      "id": "4cc2cfff260e",
+      "title": "裏で動かしたAIが名乗った8桁の番号は、別のコマンドでは通じなかった",
+      "url": "https://zenn.dev/numarn/articles/claude-background-agents-registry-handson",
+      "publishedAt": "2026-08-16T04:16:56.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "先に結論から書きます。Claude Code(ターミナルで動く AI の相棒)には、仕事を裏に回して走らせるやり方があります。実際に走らせると backgrounded · ea1a4336 と、8桁の番号を名乗って返ってきました。ところ…"
+    },
+    {
+      "id": "4f68787536fa",
+      "title": "指示プロンプト開発の基礎",
+      "url": "https://zenn.dev/oryo_data/articles/c01f2d4b84f35b",
+      "publishedAt": "2026-08-16T04:16:17.000Z",
+      "publisher": "おりょう【なんでもデータ分析】",
+      "summary": "はじめに 蒲生弘郷さんの『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』（技術評論社）の読書アウトプット、今回は3章「指示プロンプト開発の基礎」です。 https://link.amazon/B05JL…"
+    },
+    {
+      "id": "a2bc2d5f7b04",
+      "title": "Shopify構築ディレクターが始める、AI・自動化による「業務とタスクの仕組み化」",
+      "url": "https://zenn.dev/dann_chan_lab/articles/shopify-ai-auto-00",
+      "publishedAt": "2026-08-16T04:16:07.000Z",
+      "publisher": "ダンちゃん ｜ Shopify×AI自動化ラボ",
+      "summary": "はじめに Shopifyの構築ディレクターとして活動している「だんちゃん」と申します。 このアカウントでは、Shopifyの構築・ディレクション業務 × AI・自動化ツール を組み合わせた実践的なノウハウやコードを記録していきます。 私の…"
+    },
+    {
+      "id": "a174847c6b97",
+      "title": "現場知識ゼロの僕が、AI駆動開発で12兆円市場の未解決タスク『配線認識』を作り切るまで",
+      "url": "https://zenn.dev/tatsuta_dev/articles/ai-driven-dev-ceo",
+      "publishedAt": "2026-08-16T04:06:06.000Z",
+      "publisher": "tatuut",
+      "summary": "はじめに 初めましてtatuutと申します。 突然ですが、「積算」をご存じですか。僕は知りませんでした。 が！！「積算」はすべての電気設備工事の入り口にある業務。その電気設備工事は、年間およそ12兆円の市場です[1]！！ めちゃくちゃ巨大…"
+    },
+    {
+      "id": "3cf6277bee2f",
+      "title": "わたあめAI開発 ── 雑談を仕様の一次資料にする",
+      "url": "https://zenn.dev/konohana_rm/articles/c5f367823d5bf6",
+      "publishedAt": "2026-08-16T04:05:10.000Z",
+      "publisher": "RyokoM コノハナ・フュージョン",
+      "summary": "商標調査で、サービス名が使えないことが分かった。泣く泣く改名した。 設計資料には旧名が残っていた。 そこからAIが、旧名と新名を別のプロダクトとして扱いはじめた。 何度訂正しても止まらなかった。 会話の中で「旧名と新名は同じものだよ」と何…"
+    },
+    {
+      "id": "149880e5ff56",
+      "title": "外出先からスマホで快適にVibe Codingする",
+      "url": "https://zenn.dev/sabiuyack/articles/b7cec27636221b",
+      "publishedAt": "2026-08-16T04:02:12.000Z",
+      "publisher": "soya-miyoshi",
+      "summary": "https://github.com/soya-miyoshi/agentdeck 作りました。 tailscale 経由で自分のMacにリモート接続（というか、tailscale越しにアプリケーションサーバーに話しかけ、アプリケーション…"
+    },
+    {
+      "id": "29cfda6edad4",
+      "title": "APIを用いたコンテキストエンジニアリング",
+      "url": "https://zenn.dev/oryo_data/articles/9c9cf08c851b59",
+      "publishedAt": "2026-08-16T03:48:32.000Z",
+      "publisher": "おりょう【なんでもデータ分析】",
+      "summary": "はじめに 蒲生弘郷さんの『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』（技術評論社）を読み進めています。 https://link.amazon/B05JLhPYT 今回は2章「APIサービス利用にお…"
+    },
+    {
+      "id": "1f3a2a1b151b",
+      "title": "AI時代のキャリア戦略 第9回 AI時代の学び方",
+      "url": "https://zenn.dev/jinfuroi/articles/c13bae5ef12d68",
+      "publishedAt": "2026-08-16T03:45:35.000Z",
+      "publisher": "風呂井　仁",
+      "summary": "生成AIによって、エンジニアの学習環境は大きく変わりました。 分からないコードを説明してもらう。設計について相談する。エラーの原因を調べる。実装例を作ってもらう。これまでなら書籍や検索を行き来しながら時間をかけて調べていたことを、AIとの…"
+    },
+    {
+      "id": "e0f4dd8ec155",
+      "title": "DeepSeek Harness は Windows で二級市民？根本原因と、欠けていた部品を補った話",
+      "url": "https://zenn.dev/sjh9714/articles/e557ea111ab305",
+      "publishedAt": "2026-08-16T03:36:24.000Z",
+      "publisher": "Kirilland",
+      "summary": "現象 DeepSeek Harness (DSH) が公開されて数日、公式ディスカッションには Windows 関連のスレッドがすでに 400 件以上あります。ミニマルモードが起動しない、フォルダ選択でクラッシュ、実行中コマンドのキャンセ…"
     }
   ],
-  "fetchedAt": "2026-08-16T13:27:50.139Z",
+  "fetchedAt": "2026-08-16T13:53:51.873Z",
   "stale": false,
   "error": null
 }
