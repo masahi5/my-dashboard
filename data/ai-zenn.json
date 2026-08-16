@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3da64420ebb0",
-      "title": "「AI社員」とは何か 〜採用でも外注でもない、第三の選択肢〜",
-      "url": "https://zenn.dev/saixaid/articles/what-is-ai-employee",
-      "publishedAt": "2026-08-16T10:03:05.000Z",
-      "publisher": "株式会社sai X aid",
-      "summary": "「経理を締めておいて」「あの会社、商談前に調べておいて」——そんな頼みごとを、私たちは人ではなく、名前を持った AI に投げます。sai X aid のオフィス、といっても実体は Slack のワークスペースですが、そこでは毎日それが当た…"
+      "id": "e08a79eb337e",
+      "title": "AIシステムの設計は、まずプロンプトで動かして確かめる",
+      "url": "https://zenn.dev/dx_junkyard/articles/f47873374b4b92",
+      "publishedAt": "2026-08-16T21:23:07.000Z",
+      "publisher": "uras",
+      "summary": "——実データから必要な処理を発見し、固定パイプラインへ育てる 前の記事「AIシステムの行き着く先は、LLMと固定処理を行き来する『進化型パイプライン』である」では、まだ答えが定まっていないときにはLLMで探索し、処理が安定したら固定し、環…"
     },
     {
-      "id": "540f47d3dbbc",
-      "title": "AIコーディングブームの反動——Notebook LM要約",
-      "url": "https://zenn.dev/hai08320/articles/def4326c4cf293",
-      "publishedAt": "2026-08-16T09:22:07.000Z",
-      "publisher": "ネオPotato",
-      "summary": "本記事は \"The AI Coding Boom Is Backfiring\" をGemini Notebook LMに要約・ポッドキャスト化したものです。 📔 Notebook LM: https://notebook.google.…"
+      "id": "c8f58906b327",
+      "title": "GPT-5.6・Opus 5・Gemini 3.6、モデルの自己申告があてにならない理由",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-model-check-3-steps",
+      "publishedAt": "2026-08-16T21:09:41.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR ChatGPT・Claude・Geminiは2026年7月にそろって新モデルへ切り替わった（ChatGPT=GPT-5.6 Sol/Terra/Luna、Claude=Opus 5、Gemini=Gemini 3.6 Flas…"
     },
     {
-      "id": "238d14ea2345",
-      "title": "Claude Code のログ2GB、活用するつもりがただ溜めていただけだった ― AIに毎晩資産化させて解決",
-      "url": "https://zenn.dev/hoshiorange/articles/16-claude-code-log-distillation-knowledge-base",
-      "publishedAt": "2026-08-16T09:14:28.000Z",
-      "publisher": "ほし",
-      "summary": "こんにちは。AIと一緒に仕事をした記録が2GBほど溜まっていました。いつか活用するつもりで消さずにいたのですが、読み返した回数はゼロ。つまり、活用できていませんでした。 先に結論を書きます。ログを後から読み返すのはやめて、AIに毎晩読ませ…"
+      "id": "c35d3809eadd",
+      "title": "強化学習に用いられるエントロピについて",
+      "url": "https://zenn.dev/yoshinn/articles/entropy_meaning_in_rl",
+      "publishedAt": "2026-08-16T20:44:33.000Z",
+      "publisher": "yoshishinnze",
+      "summary": "強化学習においてエージェントの学習の進行具合を測定する指標としてエントロピなるものが存在します。 エントロピの理論式や、強化学習での利用法について説明していきます。 定義 強化学習で計算されるエントロピーは、情報理論におけるシャノンエント…"
     },
     {
-      "id": "957269a9c242",
-      "title": "篠澤広と学ぶ物理のエッセンス",
-      "url": "https://zenn.dev/fibujrsl/books/0ffc369d83a8ea",
-      "publishedAt": "2026-08-16T09:07:46.000Z",
-      "publisher": "名前決めてね",
-      "summary": "あ"
+      "id": "b9191ab90506",
+      "title": "AIが生成した捏造記事を自動公開していた ― 機械ゲートの限界と「人の目」の設計",
+      "url": "https://zenn.dev/my_agent_works/articles/ai-article-pipeline-human-gate",
+      "publishedAt": "2026-08-16T18:44:29.000Z",
+      "publisher": "My Agent Works",
+      "summary": "公開済みの記事に「実行していないコマンドのログ」が載っていた 宅建試験の学習アプリを運営しながら、開発で実際に起きたインシデントを元に技術記事を自動生成し、毎時公開するパイプラインを動かしています。 ある日、公開済みの記事を読み返していて…"
     },
     {
-      "id": "773855071eb7",
-      "title": "ワークスペースの構成をチームで共有する「バーチャルモノレポ」を実装してみた",
-      "url": "https://zenn.dev/shigerufukada/articles/cf2b046c2564d1",
-      "publishedAt": "2026-08-16T08:41:33.000Z",
-      "publisher": "Fukada",
-      "summary": "はじめに この記事は、ymmt2005 さんの Virtual monorepo のすゝめ で提案されているパターンを、自分の環境に合わせて実装した記録です。 元記事では、複数の独立したGitリポジトリを1つの親ディレクトリに集め、コーデ…"
+      "id": "33d4803f362f",
+      "title": "座標から画像へ：潜在空間で未来を予測するWorld Modelを実装してみた",
+      "url": "https://zenn.dev/naoyabone/articles/ebefbf5fcb90d6",
+      "publishedAt": "2026-08-16T16:45:20.000Z",
+      "publisher": "ぼさぼさ",
+      "summary": "はじめに 前回の記事では、5×5のGrid Worldを使って、最小構成のWorld Modelを実装しました。 前回作ったモデルは非常に単純で、 現在の座標 (x, y) + 行動 ↓ World Model ↓ 次の座標 (x', y…"
     },
     {
-      "id": "04447e32d012",
-      "title": "AI自動投稿の「誤公開・事故」を防ぐ！GitHub Actions × Zennの2リポジトリ安全運用術",
-      "url": "https://zenn.dev/yusamore/articles/zenn-2026-08-16-safe-publish",
-      "publishedAt": "2026-08-16T08:20:39.000Z",
-      "publisher": "Yusa",
-      "summary": "AIにニュースまとめや技術メモを書いてもらうと、驚愕するほど大量の下書きが溜まります。 そらもう、自分でこんな記事書いたっけ、って驚愕するほどに。 AI開発をしていると、IDEやテキストエディタをいじっているときに「このままワンクリックで…"
+      "id": "f4bedc907e10",
+      "title": "自分だけのエージェント秘書を作る ③ 知識をつなぐエージェント",
+      "url": "https://zenn.dev/nhandsome/articles/my-agent-assistant-03-knowledge-graph",
+      "publishedAt": "2026-08-16T16:14:30.000Z",
+      "publisher": "Nhandsome",
+      "summary": "このブログは、Solar Pro4 がエージェントの活動ログをもとに下書きを自動作成し、Claude と筆者のレビューを経て公開しています。 シリーズ：① 構成編 → ② 知識インボックス → ③ 知識をつなぐエージェント（この記事） !…"
     },
     {
-      "id": "08d829d9a421",
-      "title": "AIエージェントにコードを書かせて、人が品質を守る——個人開発3ヶ月の品質ゲート設計",
-      "url": "https://zenn.dev/tk_notes/articles/ai-agent-quality-gate",
-      "publishedAt": "2026-08-16T08:10:53.000Z",
-      "publisher": "tk",
-      "summary": "AIエージェントはコードを速く書きます。もっともらしい間違いも、同じ速度で書きます。 2026年4月から6月にかけて、Claude CodeとCodexを使い、3つの個人開発を進めました。AIには調査、実装、テスト追加、レビューを任せてい…"
+      "id": "8d9b22977028",
+      "title": "1つの常駐AIエージェントを複数の顧客ワークスペースに安全に置くマルチテナント分離設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-multi-tenant-isolation-design",
+      "publishedAt": "2026-08-16T16:14:27.000Z",
+      "publisher": "HACH",
+      "summary": "チャットに常駐するAIエージェントをSaaSとして提供する場合、実装の初期段階ではあまり意識されないのに、顧客が増えた瞬間に一番重い課題になるのがテナント分離です。1つのエージェント基盤で複数の顧客企業のSlack/Teams/Chatw…"
     },
     {
-      "id": "67bca6846515",
-      "title": "寝ている間にPCを動かすAIと、「諦めないで」で難問を解いたAIのお話（2026年8月AIトレンド3選）",
-      "url": "https://zenn.dev/yusamore/articles/zenn-2026-08-16-ai-agent-frontier-3-news",
-      "publishedAt": "2026-08-16T07:43:35.000Z",
-      "publisher": "Yusa",
-      "summary": "AIの世界では、チャットで会話するだけでなく「パソコンを自動で動かしてくれるAI」や「人間の励ましで限界を超えるAI」など、人間味を感じる面白い進化を伝えるニュースが続いています。 今週、特に「これは面白い！」と感じた3つの出来事を、まと…"
+      "id": "a4419806d79b",
+      "title": "ソフトウェア設計の統一理論 ── 概念設計・要件定義・DDD・オントロジーを、型で一本の線にする",
+      "url": "https://zenn.dev/pninfo/articles/ba44cfd6a714e8",
+      "publishedAt": "2026-08-16T16:10:24.000Z",
+      "publisher": "石川雄貴",
+      "summary": "先日、takeshi_teshima氏の「概念設計が、その後のコードの命運を左右する」という記事を読んだ。 この記事では、ECサイトにおける Order と Fulfillment の例を通して、ソフトウェアの複雑さは単にコード量や条件分…"
     },
     {
-      "id": "30565880a831",
-      "title": "Claudeの「見えない透かし」はどこに入る？ ― SynthID-TextのSamplingを理解する",
-      "url": "https://zenn.dev/50s_zerotohero/articles/e5198b07a3c9f0",
-      "publishedAt": "2026-08-16T06:52:00.000Z",
-      "publisher": "ZeroToHero",
-      "summary": "2026年8月、Anthropicは今後のClaudeが生成するテキストに 透かし（Watermark） を入れることを発表しました。 https://www.anthropic.com/news/claude-text-watermar…"
+      "id": "abba6adfa1df",
+      "title": "WindowsのPythonからclaude -pを起動すると複数行プロンプトが最初の改行で切れる",
+      "url": "https://zenn.dev/chikoku_neko/articles/f963b2a2607d02",
+      "publishedAt": "2026-08-16T16:02:46.000Z",
+      "publisher": "遅刻ねこ",
+      "summary": "先に結論（TL;DR） 定型Web作業のエージェント評価で、Claude Code headless（claude -p）側の成功率が3/24から21/24まで動いた。モデルもプロンプトの中身も変えていない。変えたのは、指示をプロセスに渡…"
     },
     {
-      "id": "9723236d5097",
-      "title": "Claude Codeで「ホワイト企業マップ」を個人開発した話",
-      "url": "https://zenn.dev/hayatech/articles/develop-whapp-1",
-      "publishedAt": "2026-08-16T05:40:53.000Z",
-      "publisher": "HayaTech",
-      "summary": "はじめに AIを活用した開発に興味を抱き、Claude Codeで個人開発のアプリを作ってみようと考えました。 市場調査をしたうえでニッチなサービスを提供したい、自分の得意な技術スタックを活用したいと考え、公的なホワイト企業認定・公表デー…"
+      "id": "f3e324f4cfde",
+      "title": "AIが書いた運用ルールを2週間で覆した話",
+      "url": "https://zenn.dev/vdnih/articles/squash-merge-decision-reversal",
+      "publishedAt": "2026-08-16T15:43:47.000Z",
+      "publisher": "vdnih",
+      "summary": "複数のプロダクトを一人（と AI コーディングエージェント）で並行開発していると、運用ルールの文書化そのものを AI に任せる場面が増えます。この記事は、AI に書かせたマージ方針が2週間で撤回された経験から、「AI が作った運用ルールを…"
     },
     {
-      "id": "f30a78d60a19",
-      "title": "【最速7分】ローカルLLM×Tauriで爆速Markdownビューアを作らせた必勝パターン",
-      "url": "https://zenn.dev/kotax/articles/local-llm-tauri-viewer",
-      "publishedAt": "2026-08-16T05:37:19.000Z",
-      "publisher": "KotaX",
-      "summary": "はじめに 普段エディタでMarkdownを書いているエンジニアの皆様、「ちょっと中身を確認したいだけなのに、エディタを立ち上げるのが重い…」と感じることはありませんか？ そこで今回は、起動が爆速で閲覧に特化した「軽量マークダウンビューアー…"
+      "id": "97103e1dd64e",
+      "title": "未知なる海域の航海術: 定理7本を証明したループエンジニアリングの規律と記録",
+      "url": "https://zenn.dev/iroha1203/articles/c136054852d4b6",
+      "publishedAt": "2026-08-16T15:31:39.000Z",
+      "publisher": "Hiroyuki Nakahata",
+      "summary": "本記事は、Hashnodeに公開したUncharted Waters: Thirteen Rules for Not Trusting an AI's Proofsの日本語版です TL;DR 数日がかりの仕事をAIエージェントのループに任…"
     },
     {
-      "id": "5f556cc6d990",
-      "title": "ゼロから始めるClaude Code #10 トークン節約の考え方：コンテキストは有限資源である",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-10-tokens",
-      "publishedAt": "2026-08-16T04:28:31.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はメモリ機能で、セッションをまたいで文脈を持ち越す3つの方法を試しました。 https://zenn.dev/mika_and_coco/articles/claud…"
+      "id": "a424cd8f96d1",
+      "title": "安い・速い・美味(賢)い — Gemini 3.7 Flash の絶妙すぎるポジショニング",
+      "url": "https://zenn.dev/okamo02427/articles/ffd9d103ab165c",
+      "publishedAt": "2026-08-16T15:03:32.000Z",
+      "publisher": "noriyuki okamoto",
+      "summary": "2026年8月に登場した Gemini 3.7 Flash の実測データを見ていて、その立ち位置の良さが際立っている。 一言で言えば、安くて、速くて、美味い 賢い。 ベンチマーク機関 Artificial Analysis の最新データを…"
     }
   ],
-  "fetchedAt": "2026-08-16T21:43:28.301Z",
+  "fetchedAt": "2026-08-16T21:57:34.105Z",
   "stale": false,
   "error": null
 }
