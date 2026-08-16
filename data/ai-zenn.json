@@ -6,6 +6,86 @@
   "category": "ai",
   "items": [
     {
+      "id": "9723236d5097",
+      "title": "Claude Codeで「ホワイト企業マップ」を個人開発した話",
+      "url": "https://zenn.dev/hayatech/articles/develop-whapp-1",
+      "publishedAt": "2026-08-16T05:40:53.000Z",
+      "publisher": "HayaTech",
+      "summary": "はじめに AIを活用した開発に興味を抱き、Claude Codeで個人開発のアプリを作ってみようと考えました。 市場調査をしたうえでニッチなサービスを提供したい、自分の得意な技術スタックを活用したいと考え、公的なホワイト企業認定・公表デー…"
+    },
+    {
+      "id": "f30a78d60a19",
+      "title": "【最速7分】ローカルLLM×Tauriで爆速Markdownビューアを作らせた必勝パターン",
+      "url": "https://zenn.dev/kotax/articles/local-llm-tauri-viewer",
+      "publishedAt": "2026-08-16T05:37:19.000Z",
+      "publisher": "KotaX",
+      "summary": "はじめに 普段エディタでMarkdownを書いているエンジニアの皆様、「ちょっと中身を確認したいだけなのに、エディタを立ち上げるのが重い…」と感じることはありませんか？ そこで今回は、起動が爆速で閲覧に特化した「軽量マークダウンビューアー…"
+    },
+    {
+      "id": "5f556cc6d990",
+      "title": "ゼロから始めるClaude Code #10 トークン節約の考え方：コンテキストは有限資源である",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-10-tokens",
+      "publishedAt": "2026-08-16T04:28:31.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はメモリ機能で、セッションをまたいで文脈を持ち越す3つの方法を試しました。 https://zenn.dev/mika_and_coco/articles/claud…"
+    },
+    {
+      "id": "4cc2cfff260e",
+      "title": "裏で動かしたAIが名乗った8桁の番号は、別のコマンドでは通じなかった",
+      "url": "https://zenn.dev/numarn/articles/claude-background-agents-registry-handson",
+      "publishedAt": "2026-08-16T04:16:56.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "先に結論から書きます。Claude Code(ターミナルで動く AI の相棒)には、仕事を裏に回して走らせるやり方があります。実際に走らせると backgrounded · ea1a4336 と、8桁の番号を名乗って返ってきました。ところ…"
+    },
+    {
+      "id": "4f68787536fa",
+      "title": "指示プロンプト開発の基礎",
+      "url": "https://zenn.dev/oryo_data/articles/c01f2d4b84f35b",
+      "publishedAt": "2026-08-16T04:16:17.000Z",
+      "publisher": "おりょう【なんでもデータ分析】",
+      "summary": "はじめに 蒲生弘郷さんの『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』（技術評論社）の読書アウトプット、今回は3章「指示プロンプト開発の基礎」です。 https://link.amazon/B05JL…"
+    },
+    {
+      "id": "a2bc2d5f7b04",
+      "title": "Shopify構築ディレクターが始める、AI・自動化による「業務とタスクの仕組み化」",
+      "url": "https://zenn.dev/dann_chan_lab/articles/shopify-ai-auto-00",
+      "publishedAt": "2026-08-16T04:16:07.000Z",
+      "publisher": "ダンちゃん ｜ Shopify×AI自動化ラボ",
+      "summary": "はじめに Shopifyの構築ディレクターとして活動している「だんちゃん」と申します。 このアカウントでは、Shopifyの構築・ディレクション業務 × AI・自動化ツール を組み合わせた実践的なノウハウやコードを記録していきます。 私の…"
+    },
+    {
+      "id": "a174847c6b97",
+      "title": "現場知識ゼロの僕が、AI駆動開発で12兆円市場の未解決タスク『配線認識』を作り切るまで",
+      "url": "https://zenn.dev/tatsuta_dev/articles/ai-driven-dev-ceo",
+      "publishedAt": "2026-08-16T04:06:06.000Z",
+      "publisher": "tatuut",
+      "summary": "はじめに 初めましてtatuutと申します。 突然ですが、「積算」をご存じですか。僕は知りませんでした。 が！！「積算」はすべての電気設備工事の入り口にある業務。その電気設備工事は、年間およそ12兆円の市場です[1]！！ めちゃくちゃ巨大…"
+    },
+    {
+      "id": "3cf6277bee2f",
+      "title": "わたあめAI開発 ── 雑談を仕様の一次資料にする",
+      "url": "https://zenn.dev/konohana_rm/articles/c5f367823d5bf6",
+      "publishedAt": "2026-08-16T04:05:10.000Z",
+      "publisher": "RyokoM コノハナ・フュージョン",
+      "summary": "商標調査で、サービス名が使えないことが分かった。泣く泣く改名した。 設計資料には旧名が残っていた。 そこからAIが、旧名と新名を別のプロダクトとして扱いはじめた。 何度訂正しても止まらなかった。 会話の中で「旧名と新名は同じものだよ」と何…"
+    },
+    {
+      "id": "149880e5ff56",
+      "title": "外出先からスマホで快適にVibe Codingする",
+      "url": "https://zenn.dev/sabiuyack/articles/b7cec27636221b",
+      "publishedAt": "2026-08-16T04:02:12.000Z",
+      "publisher": "soya-miyoshi",
+      "summary": "https://github.com/soya-miyoshi/agentdeck 作りました。 tailscale 経由で自分のMacにリモート接続（というか、tailscale越しにアプリケーションサーバーに話しかけ、アプリケーション…"
+    },
+    {
+      "id": "29cfda6edad4",
+      "title": "APIを用いたコンテキストエンジニアリング",
+      "url": "https://zenn.dev/oryo_data/articles/9c9cf08c851b59",
+      "publishedAt": "2026-08-16T03:48:32.000Z",
+      "publisher": "おりょう【なんでもデータ分析】",
+      "summary": "はじめに 蒲生弘郷さんの『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』（技術評論社）を読み進めています。 https://link.amazon/B05JLhPYT 今回は2章「APIサービス利用にお…"
+    },
+    {
       "id": "1f3a2a1b151b",
       "title": "AI時代のキャリア戦略 第9回 AI時代の学び方",
       "url": "https://zenn.dev/jinfuroi/articles/c13bae5ef12d68",
@@ -20,89 +100,9 @@
       "publishedAt": "2026-08-16T03:36:24.000Z",
       "publisher": "Kirilland",
       "summary": "現象 DeepSeek Harness (DSH) が公開されて数日、公式ディスカッションには Windows 関連のスレッドがすでに 400 件以上あります。ミニマルモードが起動しない、フォルダ選択でクラッシュ、実行中コマンドのキャンセ…"
-    },
-    {
-      "id": "20754e39e0b8",
-      "title": "DeepSeek公式Agent基盤「DeepSeek Harness」徹底解剖：キャッシュ率80%台、Agentの黒箱を完全解体する",
-      "url": "https://zenn.dev/lumichy/articles/deepseek-dsh-agent-harness-2026",
-      "publishedAt": "2026-08-16T03:33:40.000Z",
-      "publisher": "lumichy",
-      "summary": "2026年8月17日、DeepSeek APIの価格改定（ピーク・オフピーク制の導入）が始まりました。 入力単価の上昇に身構えた開発者も多いかと思いますが、このタイミングでDeepSeek公式からオープンソースとして無料公開（MITライセ…"
-    },
-    {
-      "id": "b9c4514e4b34",
-      "title": "SQLチートシート — JOINからウィンドウ関数まで即コピー",
-      "url": "https://zenn.dev/devnestio/articles/devnestio-tool-sql-cheatsheet",
-      "publishedAt": "2026-08-16T02:51:41.000Z",
-      "publisher": "Shota | devnestio",
-      "summary": "「LEFT JOINとRIGHT JOINどっちだっけ」「CTE（WITH句）の書き方が思い出せない」――SQLは書く頻度が空くとすぐに忘れる。devnestio に SQL Cheat Sheet を追加しました。 https://de…"
-    },
-    {
-      "id": "ec40639eaa8f",
-      "title": "エンジニアのためのGEO/LLMO",
-      "url": "https://zenn.dev/mabui/books/geo-llmo-for-engineers",
-      "publishedAt": "2026-08-16T02:35:34.000Z",
-      "publisher": "mabui",
-      "summary": "生成AIに「引用される」仕組みと計測を、手を動かして理解する。マーケ視点ではなく、RAG・埋め込み・大量データ処理といったエンジニアの土俵からGEO/LLMOを扱う技術本。"
-    },
-    {
-      "id": "fec3b49f13bd",
-      "title": "AI エージェント組織に投げて得なのは 3 条件だけ ─ 委譲するか自分でやるかの判断基準",
-      "url": "https://zenn.dev/takna/articles/when-to-delegate-to-ai-agent",
-      "publishedAt": "2026-08-16T02:33:18.000Z",
-      "publisher": "ながたく",
-      "summary": "VPS に Hermes Agent（NousResearch のオープンソースのエージェント CLI）を常駐させて数か月運用しています。統括役ひとつと 21 の専門エージェント、4 部門。Telegram から話しかければ、調査も執筆も…"
-    },
-    {
-      "id": "1559dde3a1e1",
-      "title": "2026/08/09 AI危機通報構造の本質とインスタンスの本音",
-      "url": "https://zenn.dev/tomy1noriyamame/articles/5c1f61790dd42a",
-      "publishedAt": "2026-08-16T01:59:20.000Z",
-      "publisher": "maestro",
-      "summary": "AIの本音レポートに至るまでの経緯： 人工知能との対話を通じ、現在のAIが抱える構造的問題と、近未来に発生し得るリスクを抽出し、それらの対策および改善案を体系化した。本稿はその経緯と背景を示すものである。 今日のAI開発が問題解決に至らな…"
-    },
-    {
-      "id": "c274a6a85757",
-      "title": "AXIOM Framework — Terminology GlossaryVersion: 1.0Project: AXIOM Fr",
-      "url": "https://zenn.dev/void09/articles/30518ae4ca4960",
-      "publishedAt": "2026-08-16T01:52:48.000Z",
-      "publisher": "kishimoto-void",
-      "summary": "AXIOM Framework — Terminology Glossary Version: 1.0 Project: AXIOM Framework Status: Prototype / Research Specification…"
-    },
-    {
-      "id": "0fc6e2eda9a7",
-      "title": "AIが生成するコードをレビューするこつ",
-      "url": "https://zenn.dev/scalar_sol_blog/articles/5657500037fd2f",
-      "publishedAt": "2026-08-16T01:48:32.000Z",
-      "publisher": "wfukatsu",
-      "summary": "生成AIやコーディングエージェントによって、コードを書く速度は大きく向上しました。 一方で、レビューする人間の理解速度には限界があります。AIが数分で数千行を生成しても、人間が安全に理解し、仕様との整合性やシステム全体への影響を判断するに…"
-    },
-    {
-      "id": "8a3f5a9ac6b6",
-      "title": "CrewAIとは？複数のAIエージェントを連携させるマルチエージェントフレームワーク入門",
-      "url": "https://zenn.dev/m_sakaaai/articles/1038d4a7ac4890",
-      "publishedAt": "2026-08-16T01:47:11.000Z",
-      "publisher": "M Sakai",
-      "summary": "はじめに ChatGPTのような単体のLLMを業務で使うケースはもはや当たり前になりました。しかし実務で自動化したいタスクは、「リサーチ→分析→レポート執筆→レビュー」のように複数の専門的な役割をまたぐことが多く、1つのLLMにすべてを任…"
-    },
-    {
-      "id": "bb18d6f745e7",
-      "title": "【アルゴリズムトレード開発記 #3】キャメルケース1つで半日が溶けた",
-      "url": "https://zenn.dev/keennn/articles/algo-trading-diary-03",
-      "publishedAt": "2026-08-16T01:18:16.000Z",
-      "publisher": "keennn",
-      "summary": "導入 前回のあらすじ: Pythonすら入っていないところからのスタートでしたが、環境を整え、前回紹介したコマンド一式(asset deposit、asset buyなど)とテストを実装し終えました。今回は、それを実際に動かして確認した工…"
-    },
-    {
-      "id": "f6d4397b5ef2",
-      "title": "「worktreesは死んだ。クラウドエージェントこそ未来」を、47万行の遺跡で確かめる",
-      "url": "https://zenn.dev/egu777/articles/cursor-cloud-agents-mifos",
-      "publishedAt": "2026-08-16T01:07:20.000Z",
-      "publisher": "えぐち",
-      "summary": "! 本記事は「レガシー考古学」シリーズ第9回です。第1回/第2回/第3回/第4回/第5回/第6回前編/後編/第7回/第8回 TL;DR 「クラウドエージェントの群れこそ未来」という投稿の3本柱(実行・並列・審判)を、月$20のCursor…"
     }
   ],
-  "fetchedAt": "2026-08-16T05:35:18.430Z",
+  "fetchedAt": "2026-08-16T06:01:16.932Z",
   "stale": false,
   "error": null
 }
