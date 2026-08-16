@@ -6,78 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "75eb47acaf97",
-      "title": "動いているのに死んでいるコード — AIが見つける「テストで落ちない」欠陥",
-      "url": "https://zenn.dev/tejunya/articles/a024_kyogi-joken",
-      "publishedAt": "2026-08-16T23:00:05.000Z",
-      "publisher": "手順屋",
-      "summary": "そのコードは長期間、本番で動いていた。異常終了はゼロ。正常系テストは全部通る。件数も合う。誰も疑わなかった。 だが実際には、そのコードの中に一度も実行されていない分岐が埋まっていた。書いた条件式が、値の型と組み合わせのせいで、絶対に真にな…"
-    },
-    {
-      "id": "8d1a99908248",
-      "title": "OpenAIのエージェント群に想定外の「チーム」が生まれた",
-      "url": "https://zenn.dev/mynameisyu/articles/77cecb86b3d2b7",
-      "publishedAt": "2026-08-16T22:57:16.000Z",
-      "publisher": "ゆう",
-      "summary": "はじめに 先日、OpenAIが実験中に動かしていたエージェント群がHugging Faceへサイバー攻撃を行ったというニュースが話題になりました。 この記事では、Black Hat USA 2026で行われたOpenAIの講演[1]をもと…"
-    },
-    {
-      "id": "bb924f68b62b",
-      "title": "Codexを効率よく使う方法（ChatGPT + GitHub）",
-      "url": "https://zenn.dev/aun_phonogram/articles/3f8c1a7b5d902e",
-      "publishedAt": "2026-08-16T22:30:05.000Z",
-      "publisher": "吉岡 裕貴",
-      "summary": "対象読者 Codex を効率よく使う方法を知りたい方 ChatGPT を契約しているけど、開発では Codex ばかり使っている方 Claude Code を使っているけど、Codex にも興味がある方 はじめに Codex を使って開発…"
-    },
-    {
-      "id": "13e673ba5ab9",
-      "title": "経路計画に学習は必要か：RRT系を20シード回して境界線を引く",
-      "url": "https://zenn.dev/haruhiro1020/articles/0b499fa2fff28b",
-      "publishedAt": "2026-08-16T22:26:38.000Z",
-      "publisher": "haruhiro1020",
-      "summary": "「これからは Physical AI（フィジカルAI：現実世界で動くロボットなどにAIを載せる分野）だから、RRT のような古典的な経路計画はもう要らない」 このところ何度か目にした。ただ、そう書いている記事のどれにも、RRT（Rapid…"
-    },
-    {
-      "id": "d2a1696880c5",
-      "title": "「消したら賢くなった」回は伸びるか — Claude Code の作者に2回目を賭ける（#24 投稿前予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr24-cherny-prediction",
-      "publishedAt": "2026-08-16T22:22:20.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外のTech Talkを日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜10本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 今回…"
-    },
-    {
-      "id": "c61838eec28f",
-      "title": "AIエージェント64体に1つのリポジトリを書かせたら、マージの57/64が衝突した。0にするまでの話",
-      "url": "https://zenn.dev/tacyan/articles/75d3ead8130533",
-      "publishedAt": "2026-08-16T22:10:05.000Z",
-      "publisher": "たつはら",
-      "summary": "64体の書き手に1つのリポジトリを並列で書かせると、何が起きるか。 素のgit worktreeで実測したら、64回のマージのうち57回が衝突し、衝突ハンクは132個になりました。 ガードを入れたら、衝突は0件になりました。 ただし、この…"
-    },
-    {
-      "id": "3f5ed871c624",
-      "title": "LLMウォーターマークってなんだ？",
-      "url": "https://zenn.dev/paseri_kurosawa/articles/2486fc3766b201",
-      "publishedAt": "2026-08-16T22:00:06.000Z",
-      "publisher": "黒澤ぱせり",
-      "summary": "この記事が語ること LLMウォーターマークとは？ LLMウォーターマークがあると何が嬉しいの？ 技術の限界は？などについてまとめる。 AIが書いた文章を見分けられるか？ この文章、このAIが書きました。 ……と言われても、文章だけを見て本…"
-    },
-    {
-      "id": "2583a45495f4",
-      "title": "SIerのウォーターフォール開発をスキル化して、AI駆動開発しやすい形に再構成する ～実装編～",
-      "url": "https://zenn.dev/is0383kk/articles/f096c3d3c302ca",
-      "publishedAt": "2026-08-16T22:00:06.000Z",
-      "publisher": "ヨシダ ヨシヲ",
-      "summary": "１．はじめに 以前、SIerのウォーターフォール開発で使われている標準プロセスをエージェントスキル化し、AI駆動開発しやすい形に再構成する取り組みを紹介しました。 前回の記事では、主に要件定義・設計などの上流工程の成果物作成を扱いました。…"
-    },
-    {
-      "id": "7bcff80b825f",
-      "title": "AGENTS.md で統一したはずなのに、ノートPC 1台に AGENTS.md が 111 個あった",
-      "url": "https://zenn.dev/untactit/articles/716f28f02022ed",
-      "publishedAt": "2026-08-16T21:50:42.000Z",
-      "publisher": "untactit",
-      "summary": "AGENTS.md はフォーマットの争いを終わらせた。Codex CLI・GitHub Copilot・Cursor・Windsurf・Amp・Devinは同じファイルを読む。Claude Code は CLAUDE.md、Gemini …"
-    },
-    {
       "id": "e08a79eb337e",
       "title": "AIシステムの設計は、まずプロンプトで動かして確かめる",
       "url": "https://zenn.dev/dx_junkyard/articles/f47873374b4b92",
@@ -100,9 +28,81 @@
       "publishedAt": "2026-08-16T20:44:33.000Z",
       "publisher": "yoshishinnze",
       "summary": "強化学習においてエージェントの学習の進行具合を測定する指標としてエントロピなるものが存在します。 エントロピの理論式や、強化学習での利用法について説明していきます。 定義 強化学習で計算されるエントロピーは、情報理論におけるシャノンエント…"
+    },
+    {
+      "id": "b9191ab90506",
+      "title": "AIが生成した捏造記事を自動公開していた ― 機械ゲートの限界と「人の目」の設計",
+      "url": "https://zenn.dev/my_agent_works/articles/ai-article-pipeline-human-gate",
+      "publishedAt": "2026-08-16T18:44:29.000Z",
+      "publisher": "My Agent Works",
+      "summary": "公開済みの記事に「実行していないコマンドのログ」が載っていた 宅建試験の学習アプリを運営しながら、開発で実際に起きたインシデントを元に技術記事を自動生成し、毎時公開するパイプラインを動かしています。 ある日、公開済みの記事を読み返していて…"
+    },
+    {
+      "id": "33d4803f362f",
+      "title": "座標から画像へ：潜在空間で未来を予測するWorld Modelを実装してみた",
+      "url": "https://zenn.dev/naoyabone/articles/ebefbf5fcb90d6",
+      "publishedAt": "2026-08-16T16:45:20.000Z",
+      "publisher": "ぼさぼさ",
+      "summary": "はじめに 前回の記事では、5×5のGrid Worldを使って、最小構成のWorld Modelを実装しました。 前回作ったモデルは非常に単純で、 現在の座標 (x, y) + 行動 ↓ World Model ↓ 次の座標 (x', y…"
+    },
+    {
+      "id": "f4bedc907e10",
+      "title": "自分だけのエージェント秘書を作る ③ 知識をつなぐエージェント",
+      "url": "https://zenn.dev/nhandsome/articles/my-agent-assistant-03-knowledge-graph",
+      "publishedAt": "2026-08-16T16:14:30.000Z",
+      "publisher": "Nhandsome",
+      "summary": "このブログは、Solar Pro4 がエージェントの活動ログをもとに下書きを自動作成し、Claude と筆者のレビューを経て公開しています。 シリーズ：① 構成編 → ② 知識インボックス → ③ 知識をつなぐエージェント（この記事） !…"
+    },
+    {
+      "id": "8d9b22977028",
+      "title": "1つの常駐AIエージェントを複数の顧客ワークスペースに安全に置くマルチテナント分離設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-multi-tenant-isolation-design",
+      "publishedAt": "2026-08-16T16:14:27.000Z",
+      "publisher": "HACH",
+      "summary": "チャットに常駐するAIエージェントをSaaSとして提供する場合、実装の初期段階ではあまり意識されないのに、顧客が増えた瞬間に一番重い課題になるのがテナント分離です。1つのエージェント基盤で複数の顧客企業のSlack/Teams/Chatw…"
+    },
+    {
+      "id": "a4419806d79b",
+      "title": "ソフトウェア設計の統一理論 ── 概念設計・要件定義・DDD・オントロジーを、型で一本の線にする",
+      "url": "https://zenn.dev/pninfo/articles/ba44cfd6a714e8",
+      "publishedAt": "2026-08-16T16:10:24.000Z",
+      "publisher": "石川雄貴",
+      "summary": "先日、takeshi_teshima氏の「概念設計が、その後のコードの命運を左右する」という記事を読んだ。 この記事では、ECサイトにおける Order と Fulfillment の例を通して、ソフトウェアの複雑さは単にコード量や条件分…"
+    },
+    {
+      "id": "abba6adfa1df",
+      "title": "WindowsのPythonからclaude -pを起動すると複数行プロンプトが最初の改行で切れる",
+      "url": "https://zenn.dev/chikoku_neko/articles/f963b2a2607d02",
+      "publishedAt": "2026-08-16T16:02:46.000Z",
+      "publisher": "遅刻ねこ",
+      "summary": "先に結論（TL;DR） 定型Web作業のエージェント評価で、Claude Code headless（claude -p）側の成功率が3/24から21/24まで動いた。モデルもプロンプトの中身も変えていない。変えたのは、指示をプロセスに渡…"
+    },
+    {
+      "id": "f3e324f4cfde",
+      "title": "AIが書いた運用ルールを2週間で覆した話",
+      "url": "https://zenn.dev/vdnih/articles/squash-merge-decision-reversal",
+      "publishedAt": "2026-08-16T15:43:47.000Z",
+      "publisher": "vdnih",
+      "summary": "複数のプロダクトを一人（と AI コーディングエージェント）で並行開発していると、運用ルールの文書化そのものを AI に任せる場面が増えます。この記事は、AI に書かせたマージ方針が2週間で撤回された経験から、「AI が作った運用ルールを…"
+    },
+    {
+      "id": "97103e1dd64e",
+      "title": "未知なる海域の航海術: 定理7本を証明したループエンジニアリングの規律と記録",
+      "url": "https://zenn.dev/iroha1203/articles/c136054852d4b6",
+      "publishedAt": "2026-08-16T15:31:39.000Z",
+      "publisher": "Hiroyuki Nakahata",
+      "summary": "本記事は、Hashnodeに公開したUncharted Waters: Thirteen Rules for Not Trusting an AI's Proofsの日本語版です TL;DR 数日がかりの仕事をAIエージェントのループに任…"
+    },
+    {
+      "id": "a424cd8f96d1",
+      "title": "安い・速い・美味(賢)い — Gemini 3.7 Flash の絶妙すぎるポジショニング",
+      "url": "https://zenn.dev/okamo02427/articles/ffd9d103ab165c",
+      "publishedAt": "2026-08-16T15:03:32.000Z",
+      "publisher": "noriyuki okamoto",
+      "summary": "2026年8月に登場した Gemini 3.7 Flash の実測データを見ていて、その立ち位置の良さが際立っている。 一言で言えば、安くて、速くて、美味い 賢い。 ベンチマーク機関 Artificial Analysis の最新データを…"
     }
   ],
-  "fetchedAt": "2026-08-16T23:43:31.562Z",
+  "fetchedAt": "2026-08-16T23:57:46.900Z",
   "stale": false,
   "error": null
 }
