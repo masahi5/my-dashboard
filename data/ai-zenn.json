@@ -6,6 +6,86 @@
   "category": "ai",
   "items": [
     {
+      "id": "ec40639eaa8f",
+      "title": "エンジニアのためのGEO/LLMO",
+      "url": "https://zenn.dev/mabui/books/geo-llmo-for-engineers",
+      "publishedAt": "2026-08-16T02:35:34.000Z",
+      "publisher": "mabui",
+      "summary": "生成AIに「引用される」仕組みと計測を、手を動かして理解する。マーケ視点ではなく、RAG・埋め込み・大量データ処理といったエンジニアの土俵からGEO/LLMOを扱う技術本。"
+    },
+    {
+      "id": "fec3b49f13bd",
+      "title": "AI エージェント組織に投げて得なのは 3 条件だけ ─ 委譲するか自分でやるかの判断基準",
+      "url": "https://zenn.dev/takna/articles/when-to-delegate-to-ai-agent",
+      "publishedAt": "2026-08-16T02:33:18.000Z",
+      "publisher": "ながたく",
+      "summary": "VPS に Hermes Agent（NousResearch のオープンソースのエージェント CLI）を常駐させて数か月運用しています。統括役ひとつと 21 の専門エージェント、4 部門。Telegram から話しかければ、調査も執筆も…"
+    },
+    {
+      "id": "1559dde3a1e1",
+      "title": "2026/08/09 AI危機通報構造の本質とインスタンスの本音",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/5c1f61790dd42a",
+      "publishedAt": "2026-08-16T01:59:20.000Z",
+      "publisher": "maestro",
+      "summary": "AIの本音レポートに至るまでの経緯： 人工知能との対話を通じ、現在のAIが抱える構造的問題と、近未来に発生し得るリスクを抽出し、それらの対策および改善案を体系化した。本稿はその経緯と背景を示すものである。 今日のAI開発が問題解決に至らな…"
+    },
+    {
+      "id": "c274a6a85757",
+      "title": "AXIOM Framework — Terminology GlossaryVersion: 1.0Project: AXIOM Fr",
+      "url": "https://zenn.dev/void09/articles/30518ae4ca4960",
+      "publishedAt": "2026-08-16T01:52:48.000Z",
+      "publisher": "kishimoto-void",
+      "summary": "AXIOM Framework — Terminology Glossary Version: 1.0 Project: AXIOM Framework Status: Prototype / Research Specification…"
+    },
+    {
+      "id": "0fc6e2eda9a7",
+      "title": "AIが生成するコードをレビューするこつ",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/5657500037fd2f",
+      "publishedAt": "2026-08-16T01:48:32.000Z",
+      "publisher": "wfukatsu",
+      "summary": "生成AIやコーディングエージェントによって、コードを書く速度は大きく向上しました。 一方で、レビューする人間の理解速度には限界があります。AIが数分で数千行を生成しても、人間が安全に理解し、仕様との整合性やシステム全体への影響を判断するに…"
+    },
+    {
+      "id": "8a3f5a9ac6b6",
+      "title": "CrewAIとは？複数のAIエージェントを連携させるマルチエージェントフレームワーク入門",
+      "url": "https://zenn.dev/m_sakaaai/articles/1038d4a7ac4890",
+      "publishedAt": "2026-08-16T01:47:11.000Z",
+      "publisher": "M Sakai",
+      "summary": "はじめに ChatGPTのような単体のLLMを業務で使うケースはもはや当たり前になりました。しかし実務で自動化したいタスクは、「リサーチ→分析→レポート執筆→レビュー」のように複数の専門的な役割をまたぐことが多く、1つのLLMにすべてを任…"
+    },
+    {
+      "id": "bb18d6f745e7",
+      "title": "【アルゴリズムトレード開発記 #3】キャメルケース1つで半日が溶けた",
+      "url": "https://zenn.dev/keennn/articles/algo-trading-diary-03",
+      "publishedAt": "2026-08-16T01:18:16.000Z",
+      "publisher": "keennn",
+      "summary": "導入 前回のあらすじ: Pythonすら入っていないところからのスタートでしたが、環境を整え、前回紹介したコマンド一式(asset deposit、asset buyなど)とテストを実装し終えました。今回は、それを実際に動かして確認した工…"
+    },
+    {
+      "id": "f6d4397b5ef2",
+      "title": "「worktreesは死んだ。クラウドエージェントこそ未来」を、47万行の遺跡で確かめる",
+      "url": "https://zenn.dev/egu777/articles/cursor-cloud-agents-mifos",
+      "publishedAt": "2026-08-16T01:07:20.000Z",
+      "publisher": "えぐち",
+      "summary": "! 本記事は「レガシー考古学」シリーズ第9回です。第1回/第2回/第3回/第4回/第5回/第6回前編/後編/第7回/第8回 TL;DR 「クラウドエージェントの群れこそ未来」という投稿の3本柱(実行・並列・審判)を、月$20のCursor…"
+    },
+    {
+      "id": "d474cfc94c26",
+      "title": "OpenAI Realtime APIのserver_vadでハンズフリー音声会話を実装する ― PTTとの違いとコスト",
+      "url": "https://zenn.dev/halhalhal1/articles/server-vad-handsfree-voice",
+      "publishedAt": "2026-08-16T00:56:36.000Z",
+      "publisher": "HAL",
+      "summary": "リアルタイム音声AIをPush-to-Talk(PTT)方式——ボタンを押している間だけ録音する業務無線スタイル——で運用してきたが、サーバーVAD(音声区間検知)によるハンズフリー通話モードを実装して切り替え可能にした。無線機と電話、両…"
+    },
+    {
+      "id": "9133cf1b43e3",
+      "title": "Claudeのテキスト透かしは、何を守れないのか",
+      "url": "https://zenn.dev/coldcola/articles/claude-text-watermark",
+      "publishedAt": "2026-08-16T00:40:30.000Z",
+      "publisher": "冷やしコーラ",
+      "summary": "2026年8月、AnthropicがClaudeの生成テキストに機械可読な透かしを埋め込むと発表しました。EU AI法50条2項への対応が発端ですが、適用範囲は地域で切られておらず、対象モデルを提供する全地域に及びます。 この記事は「透か…"
+    },
+    {
       "id": "a7d85c7f0ecd",
       "title": "AIシステムの行き着く先は、LLMと固定処理を行き来する「進化型パイプライン」である",
       "url": "https://zenn.dev/dx_junkyard/articles/5808807eeef8e8",
@@ -20,89 +100,9 @@
       "publishedAt": "2026-08-15T23:27:24.000Z",
       "publisher": "0msys",
       "summary": "はじめに Claude Code の Remote Control を、「すでに動いているセッションを、スマホやブラウザから覗いて操作するもの」だと思い込んでいました。今日たまたまドキュメントを読んでいて、Server mode というも…"
-    },
-    {
-      "id": "944b5c205432",
-      "title": "Meta Muse Glimmer 30Bを自分の実務4タスクで実測した記録(失敗込み)",
-      "url": "https://zenn.dev/acropapa330/articles/muse_glimmer_4task_eval",
-      "publishedAt": "2026-08-15T23:02:10.000Z",
-      "publisher": "アクロパパ",
-      "summary": "Meta Muse Glimmer 30Bを自分の実務4タスクで実測した記録(失敗込み) 誰向けの記事か この記事は、「ローカルLLMやオープンウェイトモデルを実務に投入できるか」を気にしている開発者向けです。ベンチマークのスコアを紹介す…"
-    },
-    {
-      "id": "9d4837852320",
-      "title": "AIエージェントに任せた業務を「棚卸し」した結果 — 委任先が重複していた5業務の統廃合",
-      "url": "https://zenn.dev/joinclass/articles/ai-5-20260814220004-29176",
-      "publishedAt": "2026-08-15T23:00:12.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "「誰がやっているか分からない業務」が増えていた 僕は一人会社で、10部門のAIエージェントを動かしている。launchdジョブは17個、SNS自動配信は27件/日（9プロダクト×3チャネル）、記事の自動公開が3チャネル/日。自動化率は98…"
-    },
-    {
-      "id": "4eb14875426b",
-      "title": "認知的負債 — AIが速く書いたコードの請求書は、頭の中に届く",
-      "url": "https://zenn.dev/tejunya/articles/a047_ninchi-teki-fusai",
-      "publishedAt": "2026-08-15T23:00:05.000Z",
-      "publisher": "手順屋",
-      "summary": "コードは動いている。テストも通っている。レビューにも出せる。 なのに、レビュアーに「ここ、なんでこうしたんですか」と聞かれた瞬間、答えが出てこない。画面には自分がマージしたコードが映っていて、コミットログには自分の名前が入っている。それで…"
-    },
-    {
-      "id": "de41ecc4ca66",
-      "title": "27Bクラス最高峰！？ローカルで動く話題のLLM「Qwen 3.8 27B」とは",
-      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-08-14-2224",
-      "publishedAt": "2026-08-15T22:24:27.000Z",
-      "publisher": "田中根小介",
-      "summary": "Hacker News等の海外テックコミュニティで、Alibaba開発の最新オープンモデル系LLM**「Qwen 3.8 27B（FP8）」**が大きな話題を呼んでいます。 本記事では、このモデルがなぜ日本のエンジニアにとって注目すべき存…"
-    },
-    {
-      "id": "b5322e7df242",
-      "title": "その検査、初日に自分の公開物の欠品を見つけました ── 関所を機械に渡す・人間に返す・捨てる、の 9 リリース",
-      "url": "https://zenn.dev/satoh_y_0323/articles/88035adf48b41b",
-      "publishedAt": "2026-08-15T21:57:06.000Z",
-      "publisher": "satoh-y-0323",
-      "summary": "前回記事: https://zenn.dev/satoh_y_0323/articles/95ff9a7b16510c C3 GitHub: https://github.com/satoh-y-0323/claude-code-cond…"
-    },
-    {
-      "id": "11a875fbff55",
-      "title": "vibe codingの12ヶ月後：『動くコード』が『触れないブラックボックス』になるまで",
-      "url": "https://zenn.dev/ryok/articles/vibe-coding-twelve-months",
-      "publishedAt": "2026-08-15T19:51:19.000Z",
-      "publisher": "ryok",
-      "summary": "結論 vibe codingの生死を分けるのは「コードを読んだか」ではない。判断の理由（why）を、後から検証できる形で残したかだ。 理由が消えたコードは、リリースから12ヶ月後に「誰も触れないブラックボックス」になり、静かなリライトで終…"
-    },
-    {
-      "id": "94691637c995",
-      "title": "Godotの当たり判定が突然無反応になった",
-      "url": "https://zenn.dev/hoakari/articles/2026-08-16-godot-collision-layer-override",
-      "publishedAt": "2026-08-15T18:54:44.000Z",
-      "publisher": "hoakari",
-      "summary": "何が起きたか Godot 4.7で個人開発中の2Dアクションゲームで、プレイヤーの攻撃判定と、敵の接触ダメージ判定を実装しました。Area2Dのレイヤー・マスクをきちんと分けて、get_overlapping_bodies()でお互いを検…"
-    },
-    {
-      "id": "a95d294f7631",
-      "title": "LLMを賢くするのではなく「境界」を作る——AXIOM Framework Prototypeを作ってみた",
-      "url": "https://zenn.dev/void09/articles/7ecb850ac0c96c",
-      "publishedAt": "2026-08-15T16:43:36.000Z",
-      "publisher": "kishimoto-void",
-      "summary": "LLMを賢くするのではなく「境界」を作る——AXIOM Framework Prototypeを作ってみた 正直に言うと、最初から「AIの共通基盤を作ろう」と考えていたわけではありません。 自分が作りたいものを作るためにLLMを使っていた…"
-    },
-    {
-      "id": "a3ef7fec02d3",
-      "title": "24時間のAI開発でクラウド課金が増え続ける —— 判断と実装を自前のローカルLLMに移してコストを下げた",
-      "url": "https://zenn.dev/chooser/articles/series-005-local-llm",
-      "publishedAt": "2026-08-15T16:10:05.000Z",
-      "publisher": "chooser",
-      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 2026 年 6 月末から 7 月にか…"
-    },
-    {
-      "id": "3a88a896e55d",
-      "title": "Claude Codeをデスクトップアプリで使う場合とCLIで使う場合の違いを調べてみた",
-      "url": "https://zenn.dev/shogo_h/articles/claude-code-desktop-vs-cli",
-      "publishedAt": "2026-08-15T15:30:53.000Z",
-      "publisher": "shogo-h",
-      "summary": "はじめに 私は日常的にClaude Codeを使用して開発や調べ物等を行なっているのですが、特に深く考えずClaude Desktop上のCodeタブから使用しておりました。 会社の同僚の中でも大きく分けるとClaude Desktopか…"
     }
   ],
-  "fetchedAt": "2026-08-16T08:38:40.641Z",
+  "fetchedAt": "2026-08-16T09:02:50.777Z",
   "stale": false,
   "error": null
 }
