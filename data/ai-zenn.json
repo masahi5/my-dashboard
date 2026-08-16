@@ -6,6 +6,62 @@
   "category": "ai",
   "items": [
     {
+      "id": "a7d85c7f0ecd",
+      "title": "AIシステムの行き着く先は、LLMと固定処理を行き来する「進化型パイプライン」である",
+      "url": "https://zenn.dev/dx_junkyard/articles/5808807eeef8e8",
+      "publishedAt": "2026-08-16T00:05:20.000Z",
+      "publisher": "uras",
+      "summary": "——探索時には考え、安定すれば定着し、変化すれば再び探索する 現在のLLMは、何ができるようになったのか 生成AIの能力は、ここ数年で飛躍的に向上した。 文章を書く。コードを作る。情報を調査する。複雑な資料を整理する。要件をまとめ、設計し…"
+    },
+    {
+      "id": "638474728e30",
+      "title": "Remote ControlのServer modeなら、スマホから新しいセッションを立てられる",
+      "url": "https://zenn.dev/0msys/articles/486b44b3af083d",
+      "publishedAt": "2026-08-15T23:27:24.000Z",
+      "publisher": "0msys",
+      "summary": "はじめに Claude Code の Remote Control を、「すでに動いているセッションを、スマホやブラウザから覗いて操作するもの」だと思い込んでいました。今日たまたまドキュメントを読んでいて、Server mode というも…"
+    },
+    {
+      "id": "944b5c205432",
+      "title": "Meta Muse Glimmer 30Bを自分の実務4タスクで実測した記録(失敗込み)",
+      "url": "https://zenn.dev/acropapa330/articles/muse_glimmer_4task_eval",
+      "publishedAt": "2026-08-15T23:02:10.000Z",
+      "publisher": "アクロパパ",
+      "summary": "Meta Muse Glimmer 30Bを自分の実務4タスクで実測した記録(失敗込み) 誰向けの記事か この記事は、「ローカルLLMやオープンウェイトモデルを実務に投入できるか」を気にしている開発者向けです。ベンチマークのスコアを紹介す…"
+    },
+    {
+      "id": "9d4837852320",
+      "title": "AIエージェントに任せた業務を「棚卸し」した結果 — 委任先が重複していた5業務の統廃合",
+      "url": "https://zenn.dev/joinclass/articles/ai-5-20260814220004-29176",
+      "publishedAt": "2026-08-15T23:00:12.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "「誰がやっているか分からない業務」が増えていた 僕は一人会社で、10部門のAIエージェントを動かしている。launchdジョブは17個、SNS自動配信は27件/日（9プロダクト×3チャネル）、記事の自動公開が3チャネル/日。自動化率は98…"
+    },
+    {
+      "id": "4eb14875426b",
+      "title": "認知的負債 — AIが速く書いたコードの請求書は、頭の中に届く",
+      "url": "https://zenn.dev/tejunya/articles/a047_ninchi-teki-fusai",
+      "publishedAt": "2026-08-15T23:00:05.000Z",
+      "publisher": "手順屋",
+      "summary": "コードは動いている。テストも通っている。レビューにも出せる。 なのに、レビュアーに「ここ、なんでこうしたんですか」と聞かれた瞬間、答えが出てこない。画面には自分がマージしたコードが映っていて、コミットログには自分の名前が入っている。それで…"
+    },
+    {
+      "id": "de41ecc4ca66",
+      "title": "27Bクラス最高峰！？ローカルで動く話題のLLM「Qwen 3.8 27B」とは",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-08-14-2224",
+      "publishedAt": "2026-08-15T22:24:27.000Z",
+      "publisher": "田中根小介",
+      "summary": "Hacker News等の海外テックコミュニティで、Alibaba開発の最新オープンモデル系LLM**「Qwen 3.8 27B（FP8）」**が大きな話題を呼んでいます。 本記事では、このモデルがなぜ日本のエンジニアにとって注目すべき存…"
+    },
+    {
+      "id": "b5322e7df242",
+      "title": "その検査、初日に自分の公開物の欠品を見つけました ── 関所を機械に渡す・人間に返す・捨てる、の 9 リリース",
+      "url": "https://zenn.dev/satoh_y_0323/articles/88035adf48b41b",
+      "publishedAt": "2026-08-15T21:57:06.000Z",
+      "publisher": "satoh-y-0323",
+      "summary": "前回記事: https://zenn.dev/satoh_y_0323/articles/95ff9a7b16510c C3 GitHub: https://github.com/satoh-y-0323/claude-code-cond…"
+    },
+    {
       "id": "11a875fbff55",
       "title": "vibe codingの12ヶ月後：『動くコード』が『触れないブラックボックス』になるまで",
       "url": "https://zenn.dev/ryok/articles/vibe-coding-twelve-months",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-08-15T15:30:53.000Z",
       "publisher": "shogo-h",
       "summary": "はじめに 私は日常的にClaude Codeを使用して開発や調べ物等を行なっているのですが、特に深く考えずClaude Desktop上のCodeタブから使用しておりました。 会社の同僚の中でも大きく分けるとClaude Desktopか…"
-    },
-    {
-      "id": "84dc523b5b4c",
-      "title": "画面クリック系のゲームなら大体自動操作&実況できるAIエージェントを開発した話",
-      "url": "https://zenn.dev/jam0824/articles/1818b26be463e8",
-      "publishedAt": "2026-08-15T15:16:26.000Z",
-      "publisher": "まつ",
-      "summary": "概要 ゲームの画面を見て、内容に反応し話し、自分で操作まで行うAI実況エージェントを作りました。 以前作った、Android/PCの画面をAIに自動操作させるツールのゲーム実況版です。 https://zenn.dev/jam0824/a…"
-    },
-    {
-      "id": "8b149a29b09c",
-      "title": "ローカルLLM : Muse Gimmer を使用してQiitaとZennの新着記事を一括でフィルタして読む統合ダッシュボードを作ってみた",
-      "url": "https://zenn.dev/arc0922/articles/e9a374d8afb02e",
-      "publishedAt": "2026-08-15T15:01:09.000Z",
-      "publisher": "arc@AIを試す人",
-      "summary": "1. 概要 複数の技術ブログを個別にチェックする手間を削減し、興味分野ごとに新着記事を一括表示・フィルタできるローカルダッシュボードを作成した。 LM Studio の LLM で要約と分類を行い、ポート 8000 で動作する。 作成した…"
-    },
-    {
-      "id": "c33a3b533757",
-      "title": "AIの出力は人力でレビューしないのが望ましい",
-      "url": "https://zenn.dev/sabiuyack/articles/6bf53e64f4cd84",
-      "publishedAt": "2026-08-15T14:57:32.000Z",
-      "publisher": "soya-miyoshi",
-      "summary": "「レビュー負荷が高くなるから、AIの出力をそのまま Pull Request にするな」といった文句や愚痴をよく聞くようになりました。 しかし、AIの出力を人力でレビューするのはもはや限界が来ていると思います。 （※これには色々前提があっ…"
-    },
-    {
-      "id": "246f4005315e",
-      "title": "技術トレンドの収集を AI に任せることにした話",
-      "url": "https://zenn.dev/kkhys/articles/trends-digest",
-      "publishedAt": "2026-08-15T14:37:05.000Z",
-      "publisher": "Keisuke Hayashi",
-      "summary": "ここ最近、AI まわりの動きが速すぎて、情報収集が追いつかなくなってきました。 そこで、自力で情報を集めるのをやめました。正確に言うと、集めて選んで要約するところまでを AI に任せ、自分は毎朝コーヒーを飲みながら出来上がったページを読む…"
-    },
-    {
-      "id": "1f07c48f799a",
-      "title": "【アルゴリズムトレード開発記 #2】Pythonすら入っていなかった",
-      "url": "https://zenn.dev/keennn/articles/algo-trading-diary-02",
-      "publishedAt": "2026-08-15T14:28:58.000Z",
-      "publisher": "keennn",
-      "summary": "導入 前回のあらすじ: Claudeアプリで、バックテストエンジン用の練られたプロンプトをもらいました。ただし今回のPhase 1(資産管理CLI)は事情が違います。壁打ちなしで、思いついたことをそのままClaude Codeにぶつけまし…"
-    },
-    {
-      "id": "0e6f8eb8b943",
-      "title": "SE歴26年、初めての部下はAIだった",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-04-16-se-26years-first-subordinate-was-ai",
-      "publishedAt": "2026-08-15T14:14:14.000Z",
-      "publisher": "saitoko",
-      "summary": "SE歴26年、ずっと「指示される側」だった。 設計書を書き、コードを書き、テストをして、リリースする。上から降ってくる仕様をどう実装するかを考える仕事だ。数人のチームでプロジェクトマネージャーを担ったことはある。ただし本格的なマネジメント…"
-    },
-    {
-      "id": "32023af4baa2",
-      "title": "Claude Codeで挫折しないための30語",
-      "url": "https://zenn.dev/todo_inc/books/be87a733eb854e",
-      "publishedAt": "2026-08-15T14:10:00.000Z",
-      "publisher": "To do",
-      "summary": "「CLAUDE.mdって何?」で検索して、結局よくわからないまま閉じてしまった——そんな経験はありませんか。 Claude Codeで挫折しないための30語を、一言の意味だけでなく「覚える理由」「使いどころ」「コマンド例」「よくある勘違い…"
     }
   ],
-  "fetchedAt": "2026-08-16T03:44:12.678Z",
+  "fetchedAt": "2026-08-16T04:21:35.830Z",
   "stale": false,
   "error": null
 }
