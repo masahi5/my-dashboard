@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9723236d5097",
-      "title": "Claude Codeで「ホワイト企業マップ」を個人開発した話",
-      "url": "https://zenn.dev/hayatech/articles/develop-whapp-1",
-      "publishedAt": "2026-08-16T05:40:53.000Z",
-      "publisher": "HayaTech",
-      "summary": "はじめに AIを活用した開発に興味を抱き、Claude Codeで個人開発のアプリを作ってみようと考えました。 市場調査をしたうえでニッチなサービスを提供したい、自分の得意な技術スタックを活用したいと考え、公的なホワイト企業認定・公表デー…"
+      "id": "a7d85c7f0ecd",
+      "title": "AIシステムの行き着く先は、LLMと固定処理を行き来する「進化型パイプライン」である",
+      "url": "https://zenn.dev/dx_junkyard/articles/5808807eeef8e8",
+      "publishedAt": "2026-08-16T00:05:20.000Z",
+      "publisher": "uras",
+      "summary": "——探索時には考え、安定すれば定着し、変化すれば再び探索する 現在のLLMは、何ができるようになったのか 生成AIの能力は、ここ数年で飛躍的に向上した。 文章を書く。コードを作る。情報を調査する。複雑な資料を整理する。要件をまとめ、設計し…"
     },
     {
-      "id": "f30a78d60a19",
-      "title": "【最速7分】ローカルLLM×Tauriで爆速Markdownビューアを作らせた必勝パターン",
-      "url": "https://zenn.dev/kotax/articles/local-llm-tauri-viewer",
-      "publishedAt": "2026-08-16T05:37:19.000Z",
-      "publisher": "KotaX",
-      "summary": "はじめに 普段エディタでMarkdownを書いているエンジニアの皆様、「ちょっと中身を確認したいだけなのに、エディタを立ち上げるのが重い…」と感じることはありませんか？ そこで今回は、起動が爆速で閲覧に特化した「軽量マークダウンビューアー…"
+      "id": "638474728e30",
+      "title": "Remote ControlのServer modeなら、スマホから新しいセッションを立てられる",
+      "url": "https://zenn.dev/0msys/articles/486b44b3af083d",
+      "publishedAt": "2026-08-15T23:27:24.000Z",
+      "publisher": "0msys",
+      "summary": "はじめに Claude Code の Remote Control を、「すでに動いているセッションを、スマホやブラウザから覗いて操作するもの」だと思い込んでいました。今日たまたまドキュメントを読んでいて、Server mode というも…"
     },
     {
-      "id": "5f556cc6d990",
-      "title": "ゼロから始めるClaude Code #10 トークン節約の考え方：コンテキストは有限資源である",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-10-tokens",
-      "publishedAt": "2026-08-16T04:28:31.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はメモリ機能で、セッションをまたいで文脈を持ち越す3つの方法を試しました。 https://zenn.dev/mika_and_coco/articles/claud…"
+      "id": "944b5c205432",
+      "title": "Meta Muse Glimmer 30Bを自分の実務4タスクで実測した記録(失敗込み)",
+      "url": "https://zenn.dev/acropapa330/articles/muse_glimmer_4task_eval",
+      "publishedAt": "2026-08-15T23:02:10.000Z",
+      "publisher": "アクロパパ",
+      "summary": "Meta Muse Glimmer 30Bを自分の実務4タスクで実測した記録(失敗込み) 誰向けの記事か この記事は、「ローカルLLMやオープンウェイトモデルを実務に投入できるか」を気にしている開発者向けです。ベンチマークのスコアを紹介す…"
     },
     {
-      "id": "4cc2cfff260e",
-      "title": "裏で動かしたAIが名乗った8桁の番号は、別のコマンドでは通じなかった",
-      "url": "https://zenn.dev/numarn/articles/claude-background-agents-registry-handson",
-      "publishedAt": "2026-08-16T04:16:56.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "先に結論から書きます。Claude Code(ターミナルで動く AI の相棒)には、仕事を裏に回して走らせるやり方があります。実際に走らせると backgrounded · ea1a4336 と、8桁の番号を名乗って返ってきました。ところ…"
+      "id": "9d4837852320",
+      "title": "AIエージェントに任せた業務を「棚卸し」した結果 — 委任先が重複していた5業務の統廃合",
+      "url": "https://zenn.dev/joinclass/articles/ai-5-20260814220004-29176",
+      "publishedAt": "2026-08-15T23:00:12.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "「誰がやっているか分からない業務」が増えていた 僕は一人会社で、10部門のAIエージェントを動かしている。launchdジョブは17個、SNS自動配信は27件/日（9プロダクト×3チャネル）、記事の自動公開が3チャネル/日。自動化率は98…"
     },
     {
-      "id": "4f68787536fa",
-      "title": "指示プロンプト開発の基礎",
-      "url": "https://zenn.dev/oryo_data/articles/c01f2d4b84f35b",
-      "publishedAt": "2026-08-16T04:16:17.000Z",
-      "publisher": "おりょう【なんでもデータ分析】",
-      "summary": "はじめに 蒲生弘郷さんの『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』（技術評論社）の読書アウトプット、今回は3章「指示プロンプト開発の基礎」です。 https://link.amazon/B05JL…"
+      "id": "4eb14875426b",
+      "title": "認知的負債 — AIが速く書いたコードの請求書は、頭の中に届く",
+      "url": "https://zenn.dev/tejunya/articles/a047_ninchi-teki-fusai",
+      "publishedAt": "2026-08-15T23:00:05.000Z",
+      "publisher": "手順屋",
+      "summary": "コードは動いている。テストも通っている。レビューにも出せる。 なのに、レビュアーに「ここ、なんでこうしたんですか」と聞かれた瞬間、答えが出てこない。画面には自分がマージしたコードが映っていて、コミットログには自分の名前が入っている。それで…"
     },
     {
-      "id": "a2bc2d5f7b04",
-      "title": "Shopify構築ディレクターが始める、AI・自動化による「業務とタスクの仕組み化」",
-      "url": "https://zenn.dev/dann_chan_lab/articles/shopify-ai-auto-00",
-      "publishedAt": "2026-08-16T04:16:07.000Z",
-      "publisher": "ダンちゃん ｜ Shopify×AI自動化ラボ",
-      "summary": "はじめに Shopifyの構築ディレクターとして活動している「だんちゃん」と申します。 このアカウントでは、Shopifyの構築・ディレクション業務 × AI・自動化ツール を組み合わせた実践的なノウハウやコードを記録していきます。 私の…"
+      "id": "de41ecc4ca66",
+      "title": "27Bクラス最高峰！？ローカルで動く話題のLLM「Qwen 3.8 27B」とは",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-08-14-2224",
+      "publishedAt": "2026-08-15T22:24:27.000Z",
+      "publisher": "田中根小介",
+      "summary": "Hacker News等の海外テックコミュニティで、Alibaba開発の最新オープンモデル系LLM**「Qwen 3.8 27B（FP8）」**が大きな話題を呼んでいます。 本記事では、このモデルがなぜ日本のエンジニアにとって注目すべき存…"
     },
     {
-      "id": "a174847c6b97",
-      "title": "現場知識ゼロの僕が、AI駆動開発で12兆円市場の未解決タスク『配線認識』を作り切るまで",
-      "url": "https://zenn.dev/tatsuta_dev/articles/ai-driven-dev-ceo",
-      "publishedAt": "2026-08-16T04:06:06.000Z",
-      "publisher": "tatuut",
-      "summary": "はじめに 初めましてtatuutと申します。 突然ですが、「積算」をご存じですか。僕は知りませんでした。 が！！「積算」はすべての電気設備工事の入り口にある業務。その電気設備工事は、年間およそ12兆円の市場です[1]！！ めちゃくちゃ巨大…"
+      "id": "b5322e7df242",
+      "title": "その検査、初日に自分の公開物の欠品を見つけました ── 関所を機械に渡す・人間に返す・捨てる、の 9 リリース",
+      "url": "https://zenn.dev/satoh_y_0323/articles/88035adf48b41b",
+      "publishedAt": "2026-08-15T21:57:06.000Z",
+      "publisher": "satoh-y-0323",
+      "summary": "前回記事: https://zenn.dev/satoh_y_0323/articles/95ff9a7b16510c C3 GitHub: https://github.com/satoh-y-0323/claude-code-cond…"
     },
     {
-      "id": "3cf6277bee2f",
-      "title": "わたあめAI開発 ── 雑談を仕様の一次資料にする",
-      "url": "https://zenn.dev/konohana_rm/articles/c5f367823d5bf6",
-      "publishedAt": "2026-08-16T04:05:10.000Z",
-      "publisher": "RyokoM コノハナ・フュージョン",
-      "summary": "商標調査で、サービス名が使えないことが分かった。泣く泣く改名した。 設計資料には旧名が残っていた。 そこからAIが、旧名と新名を別のプロダクトとして扱いはじめた。 何度訂正しても止まらなかった。 会話の中で「旧名と新名は同じものだよ」と何…"
+      "id": "11a875fbff55",
+      "title": "vibe codingの12ヶ月後：『動くコード』が『触れないブラックボックス』になるまで",
+      "url": "https://zenn.dev/ryok/articles/vibe-coding-twelve-months",
+      "publishedAt": "2026-08-15T19:51:19.000Z",
+      "publisher": "ryok",
+      "summary": "結論 vibe codingの生死を分けるのは「コードを読んだか」ではない。判断の理由（why）を、後から検証できる形で残したかだ。 理由が消えたコードは、リリースから12ヶ月後に「誰も触れないブラックボックス」になり、静かなリライトで終…"
     },
     {
-      "id": "149880e5ff56",
-      "title": "外出先からスマホで快適にVibe Codingする",
-      "url": "https://zenn.dev/sabiuyack/articles/b7cec27636221b",
-      "publishedAt": "2026-08-16T04:02:12.000Z",
-      "publisher": "soya-miyoshi",
-      "summary": "https://github.com/soya-miyoshi/agentdeck 作りました。 tailscale 経由で自分のMacにリモート接続（というか、tailscale越しにアプリケーションサーバーに話しかけ、アプリケーション…"
+      "id": "94691637c995",
+      "title": "Godotの当たり判定が突然無反応になった",
+      "url": "https://zenn.dev/hoakari/articles/2026-08-16-godot-collision-layer-override",
+      "publishedAt": "2026-08-15T18:54:44.000Z",
+      "publisher": "hoakari",
+      "summary": "何が起きたか Godot 4.7で個人開発中の2Dアクションゲームで、プレイヤーの攻撃判定と、敵の接触ダメージ判定を実装しました。Area2Dのレイヤー・マスクをきちんと分けて、get_overlapping_bodies()でお互いを検…"
     },
     {
-      "id": "29cfda6edad4",
-      "title": "APIを用いたコンテキストエンジニアリング",
-      "url": "https://zenn.dev/oryo_data/articles/9c9cf08c851b59",
-      "publishedAt": "2026-08-16T03:48:32.000Z",
-      "publisher": "おりょう【なんでもデータ分析】",
-      "summary": "はじめに 蒲生弘郷さんの『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』（技術評論社）を読み進めています。 https://link.amazon/B05JLhPYT 今回は2章「APIサービス利用にお…"
+      "id": "a95d294f7631",
+      "title": "LLMを賢くするのではなく「境界」を作る——AXIOM Framework Prototypeを作ってみた",
+      "url": "https://zenn.dev/void09/articles/7ecb850ac0c96c",
+      "publishedAt": "2026-08-15T16:43:36.000Z",
+      "publisher": "kishimoto-void",
+      "summary": "LLMを賢くするのではなく「境界」を作る——AXIOM Framework Prototypeを作ってみた 正直に言うと、最初から「AIの共通基盤を作ろう」と考えていたわけではありません。 自分が作りたいものを作るためにLLMを使っていた…"
     },
     {
-      "id": "1f3a2a1b151b",
-      "title": "AI時代のキャリア戦略 第9回 AI時代の学び方",
-      "url": "https://zenn.dev/jinfuroi/articles/c13bae5ef12d68",
-      "publishedAt": "2026-08-16T03:45:35.000Z",
-      "publisher": "風呂井　仁",
-      "summary": "生成AIによって、エンジニアの学習環境は大きく変わりました。 分からないコードを説明してもらう。設計について相談する。エラーの原因を調べる。実装例を作ってもらう。これまでなら書籍や検索を行き来しながら時間をかけて調べていたことを、AIとの…"
+      "id": "a3ef7fec02d3",
+      "title": "24時間のAI開発でクラウド課金が増え続ける —— 判断と実装を自前のローカルLLMに移してコストを下げた",
+      "url": "https://zenn.dev/chooser/articles/series-005-local-llm",
+      "publishedAt": "2026-08-15T16:10:05.000Z",
+      "publisher": "chooser",
+      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 2026 年 6 月末から 7 月にか…"
     },
     {
-      "id": "e0f4dd8ec155",
-      "title": "DeepSeek Harness は Windows で二級市民？根本原因と、欠けていた部品を補った話",
-      "url": "https://zenn.dev/sjh9714/articles/e557ea111ab305",
-      "publishedAt": "2026-08-16T03:36:24.000Z",
-      "publisher": "Kirilland",
-      "summary": "現象 DeepSeek Harness (DSH) が公開されて数日、公式ディスカッションには Windows 関連のスレッドがすでに 400 件以上あります。ミニマルモードが起動しない、フォルダ選択でクラッシュ、実行中コマンドのキャンセ…"
+      "id": "3a88a896e55d",
+      "title": "Claude Codeをデスクトップアプリで使う場合とCLIで使う場合の違いを調べてみた",
+      "url": "https://zenn.dev/shogo_h/articles/claude-code-desktop-vs-cli",
+      "publishedAt": "2026-08-15T15:30:53.000Z",
+      "publisher": "shogo-h",
+      "summary": "はじめに 私は日常的にClaude Codeを使用して開発や調べ物等を行なっているのですが、特に深く考えずClaude Desktop上のCodeタブから使用しておりました。 会社の同僚の中でも大きく分けるとClaude Desktopか…"
     }
   ],
-  "fetchedAt": "2026-08-16T11:43:48.472Z",
+  "fetchedAt": "2026-08-16T11:59:03.822Z",
   "stale": false,
   "error": null
 }
