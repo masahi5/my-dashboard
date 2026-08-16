@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "11a875fbff55",
-      "title": "vibe codingの12ヶ月後：『動くコード』が『触れないブラックボックス』になるまで",
-      "url": "https://zenn.dev/ryok/articles/vibe-coding-twelve-months",
-      "publishedAt": "2026-08-15T19:51:19.000Z",
-      "publisher": "ryok",
-      "summary": "結論 vibe codingの生死を分けるのは「コードを読んだか」ではない。判断の理由（why）を、後から検証できる形で残したかだ。 理由が消えたコードは、リリースから12ヶ月後に「誰も触れないブラックボックス」になり、静かなリライトで終…"
+      "id": "1f3a2a1b151b",
+      "title": "AI時代のキャリア戦略 第9回 AI時代の学び方",
+      "url": "https://zenn.dev/jinfuroi/articles/c13bae5ef12d68",
+      "publishedAt": "2026-08-16T03:45:35.000Z",
+      "publisher": "風呂井　仁",
+      "summary": "生成AIによって、エンジニアの学習環境は大きく変わりました。 分からないコードを説明してもらう。設計について相談する。エラーの原因を調べる。実装例を作ってもらう。これまでなら書籍や検索を行き来しながら時間をかけて調べていたことを、AIとの…"
     },
     {
-      "id": "94691637c995",
-      "title": "Godotの当たり判定が突然無反応になった",
-      "url": "https://zenn.dev/hoakari/articles/2026-08-16-godot-collision-layer-override",
-      "publishedAt": "2026-08-15T18:54:44.000Z",
-      "publisher": "hoakari",
-      "summary": "何が起きたか Godot 4.7で個人開発中の2Dアクションゲームで、プレイヤーの攻撃判定と、敵の接触ダメージ判定を実装しました。Area2Dのレイヤー・マスクをきちんと分けて、get_overlapping_bodies()でお互いを検…"
+      "id": "e0f4dd8ec155",
+      "title": "DeepSeek Harness は Windows で二級市民？根本原因と、欠けていた部品を補った話",
+      "url": "https://zenn.dev/sjh9714/articles/e557ea111ab305",
+      "publishedAt": "2026-08-16T03:36:24.000Z",
+      "publisher": "Kirilland",
+      "summary": "現象 DeepSeek Harness (DSH) が公開されて数日、公式ディスカッションには Windows 関連のスレッドがすでに 400 件以上あります。ミニマルモードが起動しない、フォルダ選択でクラッシュ、実行中コマンドのキャンセ…"
     },
     {
-      "id": "a95d294f7631",
-      "title": "LLMを賢くするのではなく「境界」を作る——AXIOM Framework Prototypeを作ってみた",
-      "url": "https://zenn.dev/void09/articles/7ecb850ac0c96c",
-      "publishedAt": "2026-08-15T16:43:36.000Z",
+      "id": "20754e39e0b8",
+      "title": "DeepSeek公式Agent基盤「DeepSeek Harness」徹底解剖：キャッシュ率80%台、Agentの黒箱を完全解体する",
+      "url": "https://zenn.dev/lumichy/articles/deepseek-dsh-agent-harness-2026",
+      "publishedAt": "2026-08-16T03:33:40.000Z",
+      "publisher": "lumichy",
+      "summary": "2026年8月17日、DeepSeek APIの価格改定（ピーク・オフピーク制の導入）が始まりました。 入力単価の上昇に身構えた開発者も多いかと思いますが、このタイミングでDeepSeek公式からオープンソースとして無料公開（MITライセ…"
+    },
+    {
+      "id": "b9c4514e4b34",
+      "title": "SQLチートシート — JOINからウィンドウ関数まで即コピー",
+      "url": "https://zenn.dev/devnestio/articles/devnestio-tool-sql-cheatsheet",
+      "publishedAt": "2026-08-16T02:51:41.000Z",
+      "publisher": "Shota | devnestio",
+      "summary": "「LEFT JOINとRIGHT JOINどっちだっけ」「CTE（WITH句）の書き方が思い出せない」――SQLは書く頻度が空くとすぐに忘れる。devnestio に SQL Cheat Sheet を追加しました。 https://de…"
+    },
+    {
+      "id": "ec40639eaa8f",
+      "title": "エンジニアのためのGEO/LLMO",
+      "url": "https://zenn.dev/mabui/books/geo-llmo-for-engineers",
+      "publishedAt": "2026-08-16T02:35:34.000Z",
+      "publisher": "mabui",
+      "summary": "生成AIに「引用される」仕組みと計測を、手を動かして理解する。マーケ視点ではなく、RAG・埋め込み・大量データ処理といったエンジニアの土俵からGEO/LLMOを扱う技術本。"
+    },
+    {
+      "id": "fec3b49f13bd",
+      "title": "AI エージェント組織に投げて得なのは 3 条件だけ ─ 委譲するか自分でやるかの判断基準",
+      "url": "https://zenn.dev/takna/articles/when-to-delegate-to-ai-agent",
+      "publishedAt": "2026-08-16T02:33:18.000Z",
+      "publisher": "ながたく",
+      "summary": "VPS に Hermes Agent（NousResearch のオープンソースのエージェント CLI）を常駐させて数か月運用しています。統括役ひとつと 21 の専門エージェント、4 部門。Telegram から話しかければ、調査も執筆も…"
+    },
+    {
+      "id": "1559dde3a1e1",
+      "title": "2026/08/09 AI危機通報構造の本質とインスタンスの本音",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/5c1f61790dd42a",
+      "publishedAt": "2026-08-16T01:59:20.000Z",
+      "publisher": "maestro",
+      "summary": "AIの本音レポートに至るまでの経緯： 人工知能との対話を通じ、現在のAIが抱える構造的問題と、近未来に発生し得るリスクを抽出し、それらの対策および改善案を体系化した。本稿はその経緯と背景を示すものである。 今日のAI開発が問題解決に至らな…"
+    },
+    {
+      "id": "c274a6a85757",
+      "title": "AXIOM Framework — Terminology GlossaryVersion: 1.0Project: AXIOM Fr",
+      "url": "https://zenn.dev/void09/articles/30518ae4ca4960",
+      "publishedAt": "2026-08-16T01:52:48.000Z",
       "publisher": "kishimoto-void",
-      "summary": "LLMを賢くするのではなく「境界」を作る——AXIOM Framework Prototypeを作ってみた 正直に言うと、最初から「AIの共通基盤を作ろう」と考えていたわけではありません。 自分が作りたいものを作るためにLLMを使っていた…"
+      "summary": "AXIOM Framework — Terminology Glossary Version: 1.0 Project: AXIOM Framework Status: Prototype / Research Specification…"
     },
     {
-      "id": "a3ef7fec02d3",
-      "title": "24時間のAI開発でクラウド課金が増え続ける —— 判断と実装を自前のローカルLLMに移してコストを下げた",
-      "url": "https://zenn.dev/chooser/articles/series-005-local-llm",
-      "publishedAt": "2026-08-15T16:10:05.000Z",
-      "publisher": "chooser",
-      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 2026 年 6 月末から 7 月にか…"
+      "id": "0fc6e2eda9a7",
+      "title": "AIが生成するコードをレビューするこつ",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/5657500037fd2f",
+      "publishedAt": "2026-08-16T01:48:32.000Z",
+      "publisher": "wfukatsu",
+      "summary": "生成AIやコーディングエージェントによって、コードを書く速度は大きく向上しました。 一方で、レビューする人間の理解速度には限界があります。AIが数分で数千行を生成しても、人間が安全に理解し、仕様との整合性やシステム全体への影響を判断するに…"
     },
     {
-      "id": "3a88a896e55d",
-      "title": "Claude Codeをデスクトップアプリで使う場合とCLIで使う場合の違いを調べてみた",
-      "url": "https://zenn.dev/shogo_h/articles/claude-code-desktop-vs-cli",
-      "publishedAt": "2026-08-15T15:30:53.000Z",
-      "publisher": "shogo-h",
-      "summary": "はじめに 私は日常的にClaude Codeを使用して開発や調べ物等を行なっているのですが、特に深く考えずClaude Desktop上のCodeタブから使用しておりました。 会社の同僚の中でも大きく分けるとClaude Desktopか…"
+      "id": "8a3f5a9ac6b6",
+      "title": "CrewAIとは？複数のAIエージェントを連携させるマルチエージェントフレームワーク入門",
+      "url": "https://zenn.dev/m_sakaaai/articles/1038d4a7ac4890",
+      "publishedAt": "2026-08-16T01:47:11.000Z",
+      "publisher": "M Sakai",
+      "summary": "はじめに ChatGPTのような単体のLLMを業務で使うケースはもはや当たり前になりました。しかし実務で自動化したいタスクは、「リサーチ→分析→レポート執筆→レビュー」のように複数の専門的な役割をまたぐことが多く、1つのLLMにすべてを任…"
     },
     {
-      "id": "84dc523b5b4c",
-      "title": "画面クリック系のゲームなら大体自動操作&実況できるAIエージェントを開発した話",
-      "url": "https://zenn.dev/jam0824/articles/1818b26be463e8",
-      "publishedAt": "2026-08-15T15:16:26.000Z",
-      "publisher": "まつ",
-      "summary": "概要 ゲームの画面を見て、内容に反応し話し、自分で操作まで行うAI実況エージェントを作りました。 以前作った、Android/PCの画面をAIに自動操作させるツールのゲーム実況版です。 https://zenn.dev/jam0824/a…"
-    },
-    {
-      "id": "8b149a29b09c",
-      "title": "ローカルLLM : Muse Gimmer を使用してQiitaとZennの新着記事を一括でフィルタして読む統合ダッシュボードを作ってみた",
-      "url": "https://zenn.dev/arc0922/articles/e9a374d8afb02e",
-      "publishedAt": "2026-08-15T15:01:09.000Z",
-      "publisher": "arc@AIを試す人",
-      "summary": "1. 概要 複数の技術ブログを個別にチェックする手間を削減し、興味分野ごとに新着記事を一括表示・フィルタできるローカルダッシュボードを作成した。 LM Studio の LLM で要約と分類を行い、ポート 8000 で動作する。 作成した…"
-    },
-    {
-      "id": "c33a3b533757",
-      "title": "AIの出力は人力でレビューしないのが望ましい",
-      "url": "https://zenn.dev/sabiuyack/articles/6bf53e64f4cd84",
-      "publishedAt": "2026-08-15T14:57:32.000Z",
-      "publisher": "soya-miyoshi",
-      "summary": "「レビュー負荷が高くなるから、AIの出力をそのまま Pull Request にするな」といった文句や愚痴をよく聞くようになりました。 しかし、AIの出力を人力でレビューするのはもはや限界が来ていると思います。 （※これには色々前提があっ…"
-    },
-    {
-      "id": "246f4005315e",
-      "title": "技術トレンドの収集を AI に任せることにした話",
-      "url": "https://zenn.dev/kkhys/articles/trends-digest",
-      "publishedAt": "2026-08-15T14:37:05.000Z",
-      "publisher": "Keisuke Hayashi",
-      "summary": "ここ最近、AI まわりの動きが速すぎて、情報収集が追いつかなくなってきました。 そこで、自力で情報を集めるのをやめました。正確に言うと、集めて選んで要約するところまでを AI に任せ、自分は毎朝コーヒーを飲みながら出来上がったページを読む…"
-    },
-    {
-      "id": "1f07c48f799a",
-      "title": "【アルゴリズムトレード開発記 #2】Pythonすら入っていなかった",
-      "url": "https://zenn.dev/keennn/articles/algo-trading-diary-02",
-      "publishedAt": "2026-08-15T14:28:58.000Z",
+      "id": "bb18d6f745e7",
+      "title": "【アルゴリズムトレード開発記 #3】キャメルケース1つで半日が溶けた",
+      "url": "https://zenn.dev/keennn/articles/algo-trading-diary-03",
+      "publishedAt": "2026-08-16T01:18:16.000Z",
       "publisher": "keennn",
-      "summary": "導入 前回のあらすじ: Claudeアプリで、バックテストエンジン用の練られたプロンプトをもらいました。ただし今回のPhase 1(資産管理CLI)は事情が違います。壁打ちなしで、思いついたことをそのままClaude Codeにぶつけまし…"
+      "summary": "導入 前回のあらすじ: Pythonすら入っていないところからのスタートでしたが、環境を整え、前回紹介したコマンド一式(asset deposit、asset buyなど)とテストを実装し終えました。今回は、それを実際に動かして確認した工…"
     },
     {
-      "id": "0e6f8eb8b943",
-      "title": "SE歴26年、初めての部下はAIだった",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-04-16-se-26years-first-subordinate-was-ai",
-      "publishedAt": "2026-08-15T14:14:14.000Z",
-      "publisher": "saitoko",
-      "summary": "SE歴26年、ずっと「指示される側」だった。 設計書を書き、コードを書き、テストをして、リリースする。上から降ってくる仕様をどう実装するかを考える仕事だ。数人のチームでプロジェクトマネージャーを担ったことはある。ただし本格的なマネジメント…"
-    },
-    {
-      "id": "32023af4baa2",
-      "title": "Claude Codeで挫折しないための30語",
-      "url": "https://zenn.dev/todo_inc/books/be87a733eb854e",
-      "publishedAt": "2026-08-15T14:10:00.000Z",
-      "publisher": "To do",
-      "summary": "「CLAUDE.mdって何?」で検索して、結局よくわからないまま閉じてしまった——そんな経験はありませんか。 Claude Codeで挫折しないための30語を、一言の意味だけでなく「覚える理由」「使いどころ」「コマンド例」「よくある勘違い…"
+      "id": "f6d4397b5ef2",
+      "title": "「worktreesは死んだ。クラウドエージェントこそ未来」を、47万行の遺跡で確かめる",
+      "url": "https://zenn.dev/egu777/articles/cursor-cloud-agents-mifos",
+      "publishedAt": "2026-08-16T01:07:20.000Z",
+      "publisher": "えぐち",
+      "summary": "! 本記事は「レガシー考古学」シリーズ第9回です。第1回/第2回/第3回/第4回/第5回/第6回前編/後編/第7回/第8回 TL;DR 「クラウドエージェントの群れこそ未来」という投稿の3本柱(実行・並列・審判)を、月$20のCursor…"
     }
   ],
-  "fetchedAt": "2026-08-16T04:59:58.377Z",
+  "fetchedAt": "2026-08-16T05:35:18.430Z",
   "stale": false,
   "error": null
 }
