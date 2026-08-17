@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "dbec82f4186b",
-      "title": "Thought-Level Beam Search for Reasoning",
-      "url": "https://huggingface.co/papers/2608.08020",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Test-time compute scaling is a primary driver of performance in large reasoning models (LRMs), but extreme inefficiency…",
-      "score": 14
+      "id": "0584da93bc7a",
+      "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
+      "url": "https://huggingface.co/papers/2608.13417",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Autonomous agents are increasingly capable of improving models, systems, and other technical artifacts through long-hor…",
+      "score": 20
     },
     {
       "id": "a681f3e7915d",
@@ -19,23 +19,7 @@
       "url": "https://huggingface.co/papers/2608.14391",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Recent video generators can fabricate realistic depictions of wars, disasters, public emergencies, and other real-world…",
-      "score": 13
-    },
-    {
-      "id": "d79d5386e22b",
-      "title": "Maglev: Sliding Recurrent Memory",
-      "url": "https://huggingface.co/papers/2608.02870",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "summary": "We introduce , a recurrent Transformer architecture with fixed-size memory that generalizes sliding-window attention wh…",
-      "score": 13
-    },
-    {
-      "id": "0584da93bc7a",
-      "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
-      "url": "https://huggingface.co/papers/2608.13417",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Autonomous agents are increasingly capable of improving models, systems, and other technical artifacts through long-hor…",
-      "score": 12
+      "score": 16
     },
     {
       "id": "bdf8525ca44d",
@@ -46,28 +30,28 @@
       "score": 11
     },
     {
-      "id": "81cfc7217ca5",
-      "title": "Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
-      "url": "https://huggingface.co/papers/2608.14290",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "We introduce Mobius-v0, an architecture that comprises a globally shared Memory (FFN) that stores knowledge vectors and…",
-      "score": 9
-    },
-    {
       "id": "f44297466f88",
       "title": "Claim-Level Reliability Assessment for Efficient Test-Time Reasoning",
       "url": "https://huggingface.co/papers/2608.11994",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "We propose claim-level falsification as a principle for test-time scaling and instantiate it through Claim-Level Reliab…",
+      "score": 9
+    },
+    {
+      "id": "8342f5dc4621",
+      "title": "CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing",
+      "url": "https://huggingface.co/papers/2608.14546",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "With the rapid advancement of image editing models and their widespread application across various domains, there is an…",
       "score": 8
     },
     {
-      "id": "12f3163b3a23",
-      "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
-      "url": "https://huggingface.co/papers/2608.14530",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing stru…",
-      "score": 3
+      "id": "c973fd13f07b",
+      "title": "MobileMem: Learning from a Year of Mobile Experiences",
+      "url": "https://huggingface.co/papers/2608.13606",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "The next generation of AI agents is increasingly moving beyond systems that answer isolated questions toward persistent…",
+      "score": 2
     },
     {
       "id": "ece5d18dacb8",
@@ -75,14 +59,22 @@
       "url": "https://huggingface.co/papers/2608.14071",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "As large language models scale, their training-token budgets must also increase to maintain an appropriate tokens-per-p…",
+      "score": 2
+    },
+    {
+      "id": "925ae3520349",
+      "title": "PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment",
+      "url": "https://huggingface.co/papers/2608.14284",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Fine-grained robotic evaluation matters for understanding embodied models, going beyond binary success rates and rule-b…",
       "score": 1
     },
     {
-      "id": "0ee7eb778499",
-      "title": "Dion3: Full-Stack Orthogonal Updates",
-      "url": "https://huggingface.co/papers/2608.11612",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "The Muon optimizer incurs a significant overhead cost due to its cubic-time Newton-Schulz orthogonalization step. When …",
+      "id": "763628f5922f",
+      "title": "Multimodal Model Diffing for Feature Discovery and Control",
+      "url": "https://huggingface.co/papers/2608.09928",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause thes…",
       "score": 1
     },
     {
@@ -91,6 +83,14 @@
       "url": "https://huggingface.co/papers/2608.00220",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "summary": "We show that on-policy reinforcement learning with verifiable rewards (RLVR) can improve the current objective while ma…",
+      "score": 1
+    },
+    {
+      "id": "55129e7714e7",
+      "title": "Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction",
+      "url": "https://huggingface.co/papers/2608.12209",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "While Multimodal Large Language Models (MLLMs) have achieved remarkable progress, visual understanding and generation a…",
       "score": 0
     },
     {
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-17T03:32:54.363Z",
+  "fetchedAt": "2026-08-17T04:25:23.699Z",
   "stale": false,
   "error": null
 }

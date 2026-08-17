@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "e08a79eb337e",
-      "title": "AIシステムの設計は、まずプロンプトで動かして確かめる",
-      "url": "https://zenn.dev/dx_junkyard/articles/f47873374b4b92",
-      "publishedAt": "2026-08-16T21:23:07.000Z",
-      "publisher": "uras",
-      "summary": "——実データから必要な処理を発見し、固定パイプラインへ育てる 前の記事「AIシステムの行き着く先は、LLMと固定処理を行き来する『進化型パイプライン』である」では、まだ答えが定まっていないときにはLLMで探索し、処理が安定したら固定し、環…"
+      "id": "92fac27942ce",
+      "title": "ストーリーボードから始めるTikTok動画制作術：企画から最終カットまで",
+      "url": "https://zenn.dev/savielyamiani/articles/03e6133ee3a62a",
+      "publishedAt": "2026-08-17T02:41:03.000Z",
+      "publisher": "savielvideo",
+      "summary": "TikTok動画は、思いついたまま撮影しても完成させられます。しかし、視聴者を冒頭で引き込み、最後まで見てもらい、行動につなげるには、短い動画でも事前設計が重要です。 本記事では、video storyboardを使ってTikTok動画を…"
     },
     {
-      "id": "c8f58906b327",
-      "title": "GPT-5.6・Opus 5・Gemini 3.6、モデルの自己申告があてにならない理由",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-model-check-3-steps",
-      "publishedAt": "2026-08-16T21:09:41.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR ChatGPT・Claude・Geminiは2026年7月にそろって新モデルへ切り替わった（ChatGPT=GPT-5.6 Sol/Terra/Luna、Claude=Opus 5、Gemini=Gemini 3.6 Flas…"
+      "id": "ca6d387b16a6",
+      "title": "「自分の判断」をAIに再現させるために、RAG・プロンプト・コードの役割分担を考えた",
+      "url": "https://zenn.dev/micomia/articles/1bbed4f5a968aa",
+      "publishedAt": "2026-08-17T02:32:01.000Z",
+      "publisher": "micomia株式会社",
+      "summary": "「自分の知識や経験をAIにしたい」と考えたとき、最初に思いつくのは、過去の文章や資料をできるだけ多く学習素材にする方法だと思います。 私も、アプリ・システム開発の相談を受けたときに、自分が行っているヒアリング、技術選定、要件整理、概算見積…"
     },
     {
-      "id": "c35d3809eadd",
-      "title": "強化学習に用いられるエントロピについて",
-      "url": "https://zenn.dev/yoshinn/articles/entropy_meaning_in_rl",
-      "publishedAt": "2026-08-16T20:44:33.000Z",
-      "publisher": "yoshishinnze",
-      "summary": "強化学習においてエージェントの学習の進行具合を測定する指標としてエントロピなるものが存在します。 エントロピの理論式や、強化学習での利用法について説明していきます。 定義 強化学習で計算されるエントロピーは、情報理論におけるシャノンエント…"
+      "id": "0e92b6f0a3ff",
+      "title": "欠損をゼロとして足していた — 自作リサーチ基盤を2週間動かして出た3つの欠陥",
+      "url": "https://zenn.dev/gjunkie/articles/0ce2ed09dbb269",
+      "publishedAt": "2026-08-17T02:12:06.000Z",
+      "publisher": "GENERATIVE JUNKIE",
+      "summary": "Evolver Engine は、GitHubを巡回して自分の開発スタックに関連するリポジトリを週に3件だけ提示し、その判断を追記専用のログに記録するCLIツールである。サンドボックスも、LLM呼び出しも、知識グラフも入っていない。設計レ…"
     },
     {
-      "id": "b9191ab90506",
-      "title": "AIが生成した捏造記事を自動公開していた ― 機械ゲートの限界と「人の目」の設計",
-      "url": "https://zenn.dev/my_agent_works/articles/ai-article-pipeline-human-gate",
-      "publishedAt": "2026-08-16T18:44:29.000Z",
-      "publisher": "My Agent Works",
-      "summary": "公開済みの記事に「実行していないコマンドのログ」が載っていた 宅建試験の学習アプリを運営しながら、開発で実際に起きたインシデントを元に技術記事を自動生成し、毎時公開するパイプラインを動かしています。 ある日、公開済みの記事を読み返していて…"
+      "id": "4521746eb531",
+      "title": "ClaudeのUsageの仕組みを理解し、効率的に使う方法",
+      "url": "https://zenn.dev/sun_asterisk/articles/01b275b5360c29",
+      "publishedAt": "2026-08-17T02:11:05.000Z",
+      "publisher": "luctq",
+      "summary": "はじめに Claude を使い始めたばかりの頃、たいしたことをしていないのに使用量の上限にすぐ達してしまう、ということはないでしょうか。その多くは、Claude が使用量をどう計算しているのかをまだ理解していないことが原因です。 私もまっ…"
     },
     {
-      "id": "33d4803f362f",
-      "title": "座標から画像へ：潜在空間で未来を予測するWorld Modelを実装してみた",
-      "url": "https://zenn.dev/naoyabone/articles/ebefbf5fcb90d6",
-      "publishedAt": "2026-08-16T16:45:20.000Z",
-      "publisher": "ぼさぼさ",
-      "summary": "はじめに 前回の記事では、5×5のGrid Worldを使って、最小構成のWorld Modelを実装しました。 前回作ったモデルは非常に単純で、 現在の座標 (x, y) + 行動 ↓ World Model ↓ 次の座標 (x', y…"
+      "id": "1875ec3a6bd1",
+      "title": "【AI検証】もう髪型で後悔しない！AI Hairstyle Generatorで顔型に合うスタイルを事前シミュレーションする技術",
+      "url": "https://zenn.dev/nogc/articles/f022e28ae287b3",
+      "publishedAt": "2026-08-17T01:52:36.000Z",
+      "publisher": "Nogc",
+      "summary": "「美容室でお願いしたイメージと違った」「短く切りすぎて後悔した」という経験は誰しもあるのではないでしょうか。髪型の失敗（Haircut Regret）は、一度起こると数ヶ月単位で引きずることになります。 近年、画像生成AIやセグメンテーシ…"
     },
     {
-      "id": "f4bedc907e10",
-      "title": "自分だけのエージェント秘書を作る ③ 知識をつなぐエージェント",
-      "url": "https://zenn.dev/nhandsome/articles/my-agent-assistant-03-knowledge-graph",
-      "publishedAt": "2026-08-16T16:14:30.000Z",
-      "publisher": "Nhandsome",
-      "summary": "このブログは、Solar Pro4 がエージェントの活動ログをもとに下書きを自動作成し、Claude と筆者のレビューを経て公開しています。 シリーズ：① 構成編 → ② 知識インボックス → ③ 知識をつなぐエージェント（この記事） !…"
+      "id": "b23f9adbcb03",
+      "title": "OceanBaseのAI Function入門。SQLでここまでできる",
+      "url": "https://zenn.dev/objp/articles/1f8fe71bf51d8c",
+      "publishedAt": "2026-08-17T01:11:45.000Z",
+      "publisher": "OceanBase",
+      "summary": "OceanBaseには、AI_COMPLETE、AI_EMBED、AI_RERANK、AI_PROMPT、AI_SPLIT_DOCUMENT という5つのSQL組み込み関数があります。これらを使うと、テキストのチャンキング、ベクトル化、検…"
     },
     {
-      "id": "8d9b22977028",
-      "title": "1つの常駐AIエージェントを複数の顧客ワークスペースに安全に置くマルチテナント分離設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-multi-tenant-isolation-design",
-      "publishedAt": "2026-08-16T16:14:27.000Z",
-      "publisher": "HACH",
-      "summary": "チャットに常駐するAIエージェントをSaaSとして提供する場合、実装の初期段階ではあまり意識されないのに、顧客が増えた瞬間に一番重い課題になるのがテナント分離です。1つのエージェント基盤で複数の顧客企業のSlack/Teams/Chatw…"
+      "id": "e5d65cfb9366",
+      "title": "AI彼女アプリを作っていて気付いた。関係は、元に戻っても前と同じではなかった",
+      "url": "https://zenn.dev/mitsukida/articles/c1d88e1c0268f2",
+      "publishedAt": "2026-08-17T00:30:16.000Z",
+      "publisher": "mitsukida",
+      "summary": "AI彼女アプリを作っていて気付いた。関係は、元に戻っても前と同じではなかった AI彼女アプリを作っていて、 少し不思議なことに気付いた。 人との関係は、 元に戻ることがある。 でも、 前とまったく同じ場所には戻っていない。 最初は、 そん…"
     },
     {
-      "id": "a4419806d79b",
-      "title": "ソフトウェア設計の統一理論 ── 概念設計・要件定義・DDD・オントロジーを、型で一本の線にする",
-      "url": "https://zenn.dev/pninfo/articles/ba44cfd6a714e8",
-      "publishedAt": "2026-08-16T16:10:24.000Z",
-      "publisher": "石川雄貴",
-      "summary": "先日、takeshi_teshima氏の「概念設計が、その後のコードの命運を左右する」という記事を読んだ。 この記事では、ECサイトにおける Order と Fulfillment の例を通して、ソフトウェアの複雑さは単にコード量や条件分…"
+      "id": "aad5448b97c0",
+      "title": "【Rust】AIに「自分の文脈」を自動で叩き込む、プライバシー重視の生産性ログコンソールを作った",
+      "url": "https://zenn.dev/internal_ghost/articles/4ddefe85717f67",
+      "publishedAt": "2026-08-17T00:30:05.000Z",
+      "publisher": "internal ghost",
+      "summary": "「今日、何してた？」を可視化して、目標に近づくためのRust製アプリ「Internalium」を開発しています。 ちなみに「Internalium」という名前は、「自身の内面（Internal）を、プラネタリウムやアクアリウムのように静か…"
     },
     {
-      "id": "abba6adfa1df",
-      "title": "WindowsのPythonからclaude -pを起動すると複数行プロンプトが最初の改行で切れる",
-      "url": "https://zenn.dev/chikoku_neko/articles/f963b2a2607d02",
-      "publishedAt": "2026-08-16T16:02:46.000Z",
-      "publisher": "遅刻ねこ",
-      "summary": "先に結論（TL;DR） 定型Web作業のエージェント評価で、Claude Code headless（claude -p）側の成功率が3/24から21/24まで動いた。モデルもプロンプトの中身も変えていない。変えたのは、指示をプロセスに渡…"
+      "id": "976d3a29c9b6",
+      "title": "リアルタイム音声認識の\"精度と遅延\"両立を実現するための「AIの確信度」を使った新手法【Nishika 論文サク読み 第22回】",
+      "url": "https://zenn.dev/team_nishika/articles/808aa77c271793",
+      "publishedAt": "2026-08-17T00:00:14.000Z",
+      "publisher": "r.k",
+      "summary": "リアルタイム音声認識の「精度 vs 遅延」問題：「AIの不確実性」で出力タイミングを決める新手法 こんにちは。NishikaでAIエンジニアとしてインターンをしている笠原です。 業務で文字起こしに関わる中で、オフライン音声認識とリアルタイ…"
     },
     {
-      "id": "f3e324f4cfde",
-      "title": "AIが書いた運用ルールを2週間で覆した話",
-      "url": "https://zenn.dev/vdnih/articles/squash-merge-decision-reversal",
-      "publishedAt": "2026-08-16T15:43:47.000Z",
-      "publisher": "vdnih",
-      "summary": "複数のプロダクトを一人（と AI コーディングエージェント）で並行開発していると、運用ルールの文書化そのものを AI に任せる場面が増えます。この記事は、AI に書かせたマージ方針が2週間で撤回された経験から、「AI が作った運用ルールを…"
+      "id": "799adebd8a60",
+      "title": "#5 記憶を失った執事 — コンパクションとモデル更新、長時間稼働AIエージェントの2大外乱",
+      "url": "https://zenn.dev/chisatom/articles/597d4985fc9a73",
+      "publishedAt": "2026-08-16T23:38:40.000Z",
+      "publisher": "Chisato Matsuzaki",
+      "summary": "この記事は、Claude Code 6体のマルチエージェント「Lady's servants」（お屋敷）を5ヶ月運用した記録を振り返る連載の第5回です。第3回で通信を、第4回で権限を堅牢にした話を書きました。 ここまでの敵は、すべて内側に…"
     },
     {
-      "id": "97103e1dd64e",
-      "title": "未知なる海域の航海術: 定理7本を証明したループエンジニアリングの規律と記録",
-      "url": "https://zenn.dev/iroha1203/articles/c136054852d4b6",
-      "publishedAt": "2026-08-16T15:31:39.000Z",
-      "publisher": "Hiroyuki Nakahata",
-      "summary": "本記事は、Hashnodeに公開したUncharted Waters: Thirteen Rules for Not Trusting an AI's Proofsの日本語版です TL;DR 数日がかりの仕事をAIエージェントのループに任…"
+      "id": "95e812fc8f10",
+      "title": "地球46億年を「1年」にしたら、いま世界を騒がせるAIの進化は“最後の0.03秒”だった",
+      "url": "https://zenn.dev/acntechjp/articles/af81893302f9a2",
+      "publishedAt": "2026-08-16T23:35:47.000Z",
+      "publisher": "shinya.hara",
+      "summary": "あなたの一生は、地球の歴史からすると何秒くらいだと思いますか。 地球が生まれてから今日までの45.4億年を、もし1年間のカレンダーに圧縮してみると──恐竜も、私たち人類も、いまニュースを賑わせている生成AIも、全員がその1年のどこかに登場…"
     },
     {
-      "id": "a424cd8f96d1",
-      "title": "安い・速い・美味(賢)い — Gemini 3.7 Flash の絶妙すぎるポジショニング",
-      "url": "https://zenn.dev/okamo02427/articles/ffd9d103ab165c",
-      "publishedAt": "2026-08-16T15:03:32.000Z",
-      "publisher": "noriyuki okamoto",
-      "summary": "2026年8月に登場した Gemini 3.7 Flash の実測データを見ていて、その立ち位置の良さが際立っている。 一言で言えば、安くて、速くて、美味い 賢い。 ベンチマーク機関 Artificial Analysis の最新データを…"
+      "id": "9a80a3bd0d3b",
+      "title": "43. レビュー機構を作ったのに、自分の成果物に回さなかった — 「機械判定PASS」を「レビュー済み」と読み替えた失敗",
+      "url": "https://zenn.dev/yamada_ai_dev/articles/review-harness-not-run",
+      "publishedAt": "2026-08-16T23:30:10.000Z",
+      "publisher": "yamada-ai-dev",
+      "summary": "TL;DR 資料をレビューする機構を作った当日、その機構で自分の資料をレビューしなかった。正確には半分だけ回した。機械判定（13項目）だけ通して全部PASSだったので「レビュー済み」と書いた。読解判定（18項目）は回していない。読み手から…"
     }
   ],
-  "fetchedAt": "2026-08-17T03:32:54.527Z",
+  "fetchedAt": "2026-08-17T04:25:23.835Z",
   "stale": false,
   "error": null
 }
