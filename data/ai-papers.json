@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.14144",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Visual on-policy distillation relies heavily on an informative teacher-student asymmetry, through either a larger, stro…",
-      "score": 57
+      "score": 66
     },
     {
       "id": "c973fd13f07b",
@@ -27,7 +27,15 @@
       "url": "https://huggingface.co/papers/2608.14277",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "On-policy distillation (OPD) offers a promising way to transfer reasoning capabilities from stronger teacher models, bu…",
-      "score": 16
+      "score": 17
+    },
+    {
+      "id": "925ae3520349",
+      "title": "PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment",
+      "url": "https://huggingface.co/papers/2608.14284",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Fine-grained robotic evaluation matters for understanding embodied models, going beyond binary success rates and rule-b…",
+      "score": 8
     },
     {
       "id": "25f3150bd350",
@@ -52,22 +60,6 @@
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Enabling agents to learn from experience and internalize it into their policy has become a central problem in self-evol…",
       "score": 7
-    },
-    {
-      "id": "925ae3520349",
-      "title": "PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment",
-      "url": "https://huggingface.co/papers/2608.14284",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Fine-grained robotic evaluation matters for understanding embodied models, going beyond binary success rates and rule-b…",
-      "score": 6
-    },
-    {
-      "id": "763628f5922f",
-      "title": "Multimodal Model Diffing for Feature Discovery and Control",
-      "url": "https://huggingface.co/papers/2608.09928",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause thes…",
-      "score": 5
     },
     {
       "id": "17179d8b9196",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "Neural language models trained on large crowdsourced corpora frequently exploit spurious surface patterns tied to targe…",
       "score": 1
+    },
+    {
+      "id": "662fc0591d88",
+      "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+      "url": "https://huggingface.co/papers/2608.03744",
+      "publishedAt": "2026-08-04T14:37:16.000Z",
+      "summary": "Clinical decision support is moving toward committees of language-model agents deliberating on a shared workspace. We a…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-17T11:21:19.542Z",
+  "fetchedAt": "2026-08-17T11:49:54.363Z",
   "stale": false,
   "error": null
 }
