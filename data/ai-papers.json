@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.14391",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Recent video generators can fabricate realistic depictions of wars, disasters, public emergencies, and other real-world…",
-      "score": 24
+      "score": 26
     },
     {
       "id": "c973fd13f07b",
@@ -38,20 +38,28 @@
       "score": 9
     },
     {
-      "id": "f44297466f88",
-      "title": "Claim-Level Reliability Assessment for Efficient Test-Time Reasoning",
-      "url": "https://huggingface.co/papers/2608.11994",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "We propose claim-level falsification as a principle for test-time scaling and instantiate it through Claim-Level Reliab…",
-      "score": 9
-    },
-    {
       "id": "3fccfb84310d",
       "title": "Latent On-Policy Self-Distillation",
       "url": "https://huggingface.co/papers/2608.13040",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Enabling agents to learn from experience and internalize it into their policy has become a central problem in self-evol…",
-      "score": 3
+      "score": 6
+    },
+    {
+      "id": "25f3150bd350",
+      "title": "Forecast Collapse in Time-Series Foundation Models",
+      "url": "https://huggingface.co/papers/2608.14106",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "When forecasting hourly returns for 1,000 US equities, we observe an unexpected phenomenon: predictions become nearly f…",
+      "score": 4
+    },
+    {
+      "id": "7791ad4eb837",
+      "title": "Second Thought: Reasoning in Parallel as LLM Agents Act and Observe",
+      "url": "https://huggingface.co/papers/2608.13667",
+      "publishedAt": "2026-08-13T18:04:53.000Z",
+      "summary": "LLM agents in the ReAct paradigm alternate between reasoning, acting, and observing, but deliberate reasoning is confin…",
+      "score": 4
     },
     {
       "id": "925ae3520349",
@@ -62,20 +70,20 @@
       "score": 3
     },
     {
+      "id": "763628f5922f",
+      "title": "Multimodal Model Diffing for Feature Discovery and Control",
+      "url": "https://huggingface.co/papers/2608.09928",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summary": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause thes…",
+      "score": 3
+    },
+    {
       "id": "ece5d18dacb8",
       "title": "Scaling Domain Data Repetition in LLM Pretraining",
       "url": "https://huggingface.co/papers/2608.14071",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "As large language models scale, their training-token budgets must also increase to maintain an appropriate tokens-per-p…",
       "score": 3
-    },
-    {
-      "id": "763628f5922f",
-      "title": "Multimodal Model Diffing for Feature Discovery and Control",
-      "url": "https://huggingface.co/papers/2608.09928",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause thes…",
-      "score": 2
     },
     {
       "id": "fa67dbea43d6",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "While Multimodal Large Language Models (MLLMs) have achieved remarkable progress, visual understanding and generation a…",
       "score": 0
-    },
-    {
-      "id": "45321a6d3959",
-      "title": "SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation",
-      "url": "https://huggingface.co/papers/2608.14138",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Spatial perception and reasoning from visual observations require recovering geometric structure, establishing correspo…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-17T05:07:53.670Z",
+  "fetchedAt": "2026-08-17T05:49:42.760Z",
   "stale": false,
   "error": null
 }
