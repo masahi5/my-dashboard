@@ -14,6 +14,14 @@
       "score": 14
     },
     {
+      "id": "a681f3e7915d",
+      "title": "Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Generators and Social Dissemination",
+      "url": "https://huggingface.co/papers/2608.14391",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Recent video generators can fabricate realistic depictions of wars, disasters, public emergencies, and other real-world…",
+      "score": 13
+    },
+    {
       "id": "d79d5386e22b",
       "title": "Maglev: Sliding Recurrent Memory",
       "url": "https://huggingface.co/papers/2608.02870",
@@ -22,60 +30,20 @@
       "score": 13
     },
     {
-      "id": "d555c77243d8",
-      "title": "Context-Matched Distillation: Teacher Causality for Autoregressive Video Distillation",
-      "url": "https://huggingface.co/papers/2608.13391",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Interactive autoregressive video generation demands both low-latency rollouts and precise online control. Few-step dist…",
-      "score": 13
-    },
-    {
-      "id": "b3274ce44ac9",
-      "title": "Hybrid-Policy Self-Editing for Composable Unstructured Knowledge Editing",
-      "url": "https://huggingface.co/papers/2608.11660",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Large language models (LLMs) achieve remarkable performance across natural language tasks, yet they are trained on stat…",
-      "score": 11
-    },
-    {
       "id": "0584da93bc7a",
       "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
       "url": "https://huggingface.co/papers/2608.13417",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Autonomous agents are increasingly capable of improving models, systems, and other technical artifacts through long-hor…",
-      "score": 10
+      "score": 12
     },
     {
-      "id": "c7d2b7c437cb",
-      "title": "From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs",
-      "url": "https://huggingface.co/papers/2608.09158",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Large audio-language models (LALMs) have demonstrated strong capabilities in understanding diverse audio inputs. This d…",
-      "score": 10
-    },
-    {
-      "id": "d2e76c6a9aff",
-      "title": "RibAssist 3D: Biplanar Rib-Fracture Detection, Addressing, and Selective 3D Localization from CT-Derived Projections",
-      "url": "https://huggingface.co/papers/2608.06914",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Rib fractures are common and time-consuming to localize on computed tomography (CT). We ask whether fractures detected …",
-      "score": 9
-    },
-    {
-      "id": "7f8732661ea3",
-      "title": "Mitigating Gender Bias in English to Romanian Machine Translation",
-      "url": "https://huggingface.co/papers/2608.08606",
-      "publishedAt": "2026-08-09T00:00:00.000Z",
-      "summary": "Machine translation (MT) systems often fail to correctly translate gender, especially when converting from a gender-neu…",
-      "score": 9
-    },
-    {
-      "id": "12f3163b3a23",
-      "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
-      "url": "https://huggingface.co/papers/2608.14530",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing stru…",
-      "score": 2
+      "id": "bdf8525ca44d",
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "url": "https://huggingface.co/papers/2608.13555",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what…",
+      "score": 11
     },
     {
       "id": "81cfc7217ca5",
@@ -83,6 +51,30 @@
       "url": "https://huggingface.co/papers/2608.14290",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "We introduce Mobius-v0, an architecture that comprises a globally shared Memory (FFN) that stores knowledge vectors and…",
+      "score": 9
+    },
+    {
+      "id": "f44297466f88",
+      "title": "Claim-Level Reliability Assessment for Efficient Test-Time Reasoning",
+      "url": "https://huggingface.co/papers/2608.11994",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "We propose claim-level falsification as a principle for test-time scaling and instantiate it through Claim-Level Reliab…",
+      "score": 8
+    },
+    {
+      "id": "12f3163b3a23",
+      "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+      "url": "https://huggingface.co/papers/2608.14530",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing stru…",
+      "score": 3
+    },
+    {
+      "id": "ece5d18dacb8",
+      "title": "Scaling Domain Data Repetition in LLM Pretraining",
+      "url": "https://huggingface.co/papers/2608.14071",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "As large language models scale, their training-token budgets must also increase to maintain an appropriate tokens-per-p…",
       "score": 1
     },
     {
@@ -94,6 +86,14 @@
       "score": 1
     },
     {
+      "id": "fa67dbea43d6",
+      "title": "Verifier-Induced Support Reshaping in On-Policy Optimization",
+      "url": "https://huggingface.co/papers/2608.00220",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "We show that on-policy reinforcement learning with verifiable rewards (RLVR) can improve the current objective while ma…",
+      "score": 0
+    },
+    {
       "id": "45321a6d3959",
       "title": "SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation",
       "url": "https://huggingface.co/papers/2608.14138",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-17T02:39:29.964Z",
+  "fetchedAt": "2026-08-17T03:32:54.363Z",
   "stale": false,
   "error": null
 }
