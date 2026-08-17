@@ -6,38 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "e08a79eb337e",
-      "title": "AIシステムの設計は、まずプロンプトで動かして確かめる",
-      "url": "https://zenn.dev/dx_junkyard/articles/f47873374b4b92",
-      "publishedAt": "2026-08-16T21:23:07.000Z",
-      "publisher": "uras",
-      "summary": "——実データから必要な処理を発見し、固定パイプラインへ育てる 前の記事「AIシステムの行き着く先は、LLMと固定処理を行き来する『進化型パイプライン』である」では、まだ答えが定まっていないときにはLLMで探索し、処理が安定したら固定し、環…"
-    },
-    {
-      "id": "c8f58906b327",
-      "title": "GPT-5.6・Opus 5・Gemini 3.6、モデルの自己申告があてにならない理由",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-model-check-3-steps",
-      "publishedAt": "2026-08-16T21:09:41.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR ChatGPT・Claude・Geminiは2026年7月にそろって新モデルへ切り替わった（ChatGPT=GPT-5.6 Sol/Terra/Luna、Claude=Opus 5、Gemini=Gemini 3.6 Flas…"
-    },
-    {
-      "id": "c35d3809eadd",
-      "title": "強化学習に用いられるエントロピについて",
-      "url": "https://zenn.dev/yoshinn/articles/entropy_meaning_in_rl",
-      "publishedAt": "2026-08-16T20:44:33.000Z",
-      "publisher": "yoshishinnze",
-      "summary": "強化学習においてエージェントの学習の進行具合を測定する指標としてエントロピなるものが存在します。 エントロピの理論式や、強化学習での利用法について説明していきます。 定義 強化学習で計算されるエントロピーは、情報理論におけるシャノンエント…"
-    },
-    {
-      "id": "b9191ab90506",
-      "title": "AIが生成した捏造記事を自動公開していた ― 機械ゲートの限界と「人の目」の設計",
-      "url": "https://zenn.dev/my_agent_works/articles/ai-article-pipeline-human-gate",
-      "publishedAt": "2026-08-16T18:44:29.000Z",
-      "publisher": "My Agent Works",
-      "summary": "公開済みの記事に「実行していないコマンドのログ」が載っていた 宅建試験の学習アプリを運営しながら、開発で実際に起きたインシデントを元に技術記事を自動生成し、毎時公開するパイプラインを動かしています。 ある日、公開済みの記事を読み返していて…"
-    },
-    {
       "id": "33d4803f362f",
       "title": "座標から画像へ：潜在空間で未来を予測するWorld Modelを実装してみた",
       "url": "https://zenn.dev/naoyabone/articles/ebefbf5fcb90d6",
@@ -100,9 +68,41 @@
       "publishedAt": "2026-08-16T15:03:32.000Z",
       "publisher": "noriyuki okamoto",
       "summary": "2026年8月に登場した Gemini 3.7 Flash の実測データを見ていて、その立ち位置の良さが際立っている。 一言で言えば、安くて、速くて、美味い 賢い。 ベンチマーク機関 Artificial Analysis の最新データを…"
+    },
+    {
+      "id": "4c2c41210330",
+      "title": "Windows上のDockerでSO-101のセットアップ",
+      "url": "https://zenn.dev/miggy/articles/2641d01d461a67",
+      "publishedAt": "2026-08-16T15:00:06.000Z",
+      "publisher": "さいゆうき",
+      "summary": "こんにちは，フィジカルAIという言葉をよく聞くようになったのですが，企業や大学でロボットを作ってやるものかなと思っていました． ところが，SO-101というロボットアームのキットとHugging FaceのLeRobotプロジェクトで公開…"
+    },
+    {
+      "id": "09e05ccc663e",
+      "title": "巨大AIの対極へ。Fire HD 10（完全ローカル）で動く自律型AI「Kokone」を作ってみた",
+      "url": "https://zenn.dev/pok/articles/240333a989c8e1",
+      "publishedAt": "2026-08-16T14:40:30.000Z",
+      "publisher": "pok",
+      "summary": "1. はじめに：なぜFire HD 10なのか 現在のAI開発のトレンドは、「より巨大なデータセンターで、より多くのパラメータを処理し、常にネットワークに接続されていること」が前提になっています。LLM（大規模言語モデル）の進化は確かに目…"
+    },
+    {
+      "id": "be18e4286025",
+      "title": "Qwen3.8 27B に Reasoning Effort を実装してみる",
+      "url": "https://zenn.dev/shogo0x2e/articles/qwen38-27b-stop-overthinking",
+      "publishedAt": "2026-08-16T14:39:24.000Z",
+      "publisher": "shogo0x2e",
+      "summary": "TL;DR Qwen 3.8 27B を動かすと，曖昧なタスクで thinking が長時間続き，tool call や回答に到達する前に生成上限に達して止まってしまうことがあった． 解決策として，Per-request reasonin…"
+    },
+    {
+      "id": "7249ba866357",
+      "title": "非エンジニアがAIセキュリティCTF『Gandalf Adventure』で遊んでみた（Lv4攻略 / write up）",
+      "url": "https://zenn.dev/na417/articles/e57628addadaa6",
+      "publishedAt": "2026-08-16T14:13:47.000Z",
+      "publisher": "nyanjaro",
+      "summary": "はじめに Lakera社が提供するAIセキュリティのCTF「Gandalf Adventure」で遊んでいます。 英語サイトなので、翻訳にはClaudeを使いながら進めました。 Gandalf Adventureは、AIが特定の話題を避け…"
     }
   ],
-  "fetchedAt": "2026-08-16T23:57:46.900Z",
+  "fetchedAt": "2026-08-17T01:25:02.730Z",
   "stale": false,
   "error": null
 }
