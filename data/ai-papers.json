@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.14144",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Visual on-policy distillation relies heavily on an informative teacher-student asymmetry, through either a larger, stro…",
-      "score": 139
+      "score": 141
     },
     {
       "id": "9e6034e1bdd2",
@@ -22,6 +22,14 @@
       "score": 19
     },
     {
+      "id": "3ab1a45a28d7",
+      "title": "Apodex Discovery: Reality Benchmarks and Environments for Evaluating and Building Discoverative Artificial Intelligence",
+      "url": "https://huggingface.co/papers/2608.11341",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Apollo did not reach the Moon merely because its engineers could solve difficult equations. It succeeded by turning a d…",
+      "score": 18
+    },
+    {
       "id": "ac2df3efe390",
       "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
       "url": "https://huggingface.co/papers/2608.13517",
@@ -30,20 +38,12 @@
       "score": 18
     },
     {
-      "id": "3ab1a45a28d7",
-      "title": "Apodex Discovery: Reality Benchmarks and Environments for Evaluating and Building Discoverative Artificial Intelligence",
-      "url": "https://huggingface.co/papers/2608.11341",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Apollo did not reach the Moon merely because its engineers could solve difficult equations. It succeeded by turning a d…",
-      "score": 15
-    },
-    {
       "id": "29e2797e9c27",
       "title": "Modular Cognitive Architecture Emerges in Large Language Models",
       "url": "https://huggingface.co/papers/2608.13567",
       "publishedAt": "2026-06-27T01:56:22.000Z",
       "summary": "The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, fo…",
-      "score": 8
+      "score": 9
     },
     {
       "id": "17179d8b9196",
@@ -54,12 +54,28 @@
       "score": 4
     },
     {
-      "id": "a959ba23714c",
-      "title": "UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations",
-      "url": "https://huggingface.co/papers/2608.10835",
-      "publishedAt": "2026-08-11T12:01:59.000Z",
-      "summary": "Large Vision-Language Models (LVLMs) achieve impressive visual reasoning and dialogue capabilities, yet frequently hall…",
+      "id": "662fc0591d88",
+      "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+      "url": "https://huggingface.co/papers/2608.03744",
+      "publishedAt": "2026-08-04T14:37:16.000Z",
+      "summary": "Clinical decision support is moving toward committees of language-model agents deliberating on a shared workspace. We a…",
       "score": 3
+    },
+    {
+      "id": "4ee2cebfddb1",
+      "title": "Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead",
+      "url": "https://huggingface.co/papers/2608.13987",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Nanbeige4.2-3B is a 3B-parameter agentic model built around a Looped Transformer (LT) that reuses one stack of layers f…",
+      "score": 2
+    },
+    {
+      "id": "28c3f83d461f",
+      "title": "Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models",
+      "url": "https://huggingface.co/papers/2608.13760",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Which reasoning behaviors are associated with correct answers in reasoning models, and does reasoning-oriented training…",
+      "score": 2
     },
     {
       "id": "5093960f914a",
@@ -70,27 +86,11 @@
       "score": 2
     },
     {
-      "id": "28c3f83d461f",
-      "title": "Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models",
-      "url": "https://huggingface.co/papers/2608.13760",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Which reasoning behaviors are associated with correct answers in reasoning models, and does reasoning-oriented training…",
-      "score": 1
-    },
-    {
       "id": "242f40eb1c3a",
       "title": "Who Speaks Matters: Authority-Aware Multi-View RAG over Italian Parliamentary Proceedings",
       "url": "https://huggingface.co/papers/2608.13410",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Parliamentary proceedings are a primary record of democratic deliberation, yet their volume and fragmentation make mult…",
-      "score": 1
-    },
-    {
-      "id": "662fc0591d88",
-      "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
-      "url": "https://huggingface.co/papers/2608.03744",
-      "publishedAt": "2026-08-04T14:37:16.000Z",
-      "summary": "Clinical decision support is moving toward committees of language-model agents deliberating on a shared workspace. We a…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-17T17:03:06.036Z",
+  "fetchedAt": "2026-08-17T17:44:08.490Z",
   "stale": false,
   "error": null
 }
