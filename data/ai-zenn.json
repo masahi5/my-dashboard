@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "e08a79eb337e",
-      "title": "AIシステムの設計は、まずプロンプトで動かして確かめる",
-      "url": "https://zenn.dev/dx_junkyard/articles/f47873374b4b92",
-      "publishedAt": "2026-08-16T21:23:07.000Z",
-      "publisher": "uras",
-      "summary": "——実データから必要な処理を発見し、固定パイプラインへ育てる 前の記事「AIシステムの行き着く先は、LLMと固定処理を行き来する『進化型パイプライン』である」では、まだ答えが定まっていないときにはLLMで探索し、処理が安定したら固定し、環…"
+      "id": "878bf308bb26",
+      "title": "テックブログはじめます",
+      "url": "https://zenn.dev/triplethree/articles/42a53e4f320e72",
+      "publishedAt": "2026-08-17T05:00:24.000Z",
+      "publisher": "n-hayata",
+      "summary": "こんにちは。株式会社トリプルスリーでCTOをしている中川です。『日本の外食産業に革新を』をミッションに、9つの主要プロダクトで100社超の外食企業の人財課題を支えています。2018年創業、社員は約50名。エンジニア4人、デザイナー1人でプ…"
     },
     {
-      "id": "c8f58906b327",
-      "title": "GPT-5.6・Opus 5・Gemini 3.6、モデルの自己申告があてにならない理由",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-model-check-3-steps",
-      "publishedAt": "2026-08-16T21:09:41.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR ChatGPT・Claude・Geminiは2026年7月にそろって新モデルへ切り替わった（ChatGPT=GPT-5.6 Sol/Terra/Luna、Claude=Opus 5、Gemini=Gemini 3.6 Flas…"
+      "id": "d0340646be73",
+      "title": "タスク選定が9割！？要件定義がメインになった、運営目線のAI時代1Weekインターン",
+      "url": "https://zenn.dev/tokium_dev/articles/tokium-summer-intern-2026",
+      "publishedAt": "2026-08-17T04:16:15.000Z",
+      "publisher": "FatherScorpion",
+      "summary": "こんにちは、TOKIUMでエンジニアをしているFatherScorpionです。 TOKIUMでは今年の夏から、開発チームに混ざって実際のプロダクト開発に挑戦してもらう実務型のサマーインターンが始まりました！ 期間は5日間。テーマは「AI…"
     },
     {
-      "id": "c35d3809eadd",
-      "title": "強化学習に用いられるエントロピについて",
-      "url": "https://zenn.dev/yoshinn/articles/entropy_meaning_in_rl",
-      "publishedAt": "2026-08-16T20:44:33.000Z",
-      "publisher": "yoshishinnze",
-      "summary": "強化学習においてエージェントの学習の進行具合を測定する指標としてエントロピなるものが存在します。 エントロピの理論式や、強化学習での利用法について説明していきます。 定義 強化学習で計算されるエントロピーは、情報理論におけるシャノンエント…"
+      "id": "3b84a24680c9",
+      "title": "AI時代のキャリア戦略 第10回（最終回） AI時代のキャリア戦略",
+      "url": "https://zenn.dev/jinfuroi/articles/5aafaf9c69ded2",
+      "publishedAt": "2026-08-17T03:59:34.000Z",
+      "publisher": "風呂井　仁",
+      "summary": "AIに奪われない仕事を探すより、キャリアを再設計できる人になる AI時代のキャリア戦略 第10回（最終回） このシリーズでは、ここまで9回にわたって、AI時代のキャリアについて考えてきました。 最初の問いは、 「AIは仕事を奪うのか」 と…"
     },
     {
-      "id": "b9191ab90506",
-      "title": "AIが生成した捏造記事を自動公開していた ― 機械ゲートの限界と「人の目」の設計",
-      "url": "https://zenn.dev/my_agent_works/articles/ai-article-pipeline-human-gate",
-      "publishedAt": "2026-08-16T18:44:29.000Z",
-      "publisher": "My Agent Works",
-      "summary": "公開済みの記事に「実行していないコマンドのログ」が載っていた 宅建試験の学習アプリを運営しながら、開発で実際に起きたインシデントを元に技術記事を自動生成し、毎時公開するパイプラインを動かしています。 ある日、公開済みの記事を読み返していて…"
+      "id": "fbd3990bb4a8",
+      "title": "【2026年最新・保存版】Microsoft Agent Frameworkとは？AutoGen × Semantic Kernelの後継",
+      "url": "https://zenn.dev/m_sakaaai/articles/805c31f15d93b8",
+      "publishedAt": "2026-08-17T03:03:49.000Z",
+      "publisher": "M Sakai",
+      "summary": "Semantic KernelとAutoGen、結局どっち使えばいいの？ ——その悩み、Microsoftが2025年に公式に終わらせました。 こんにちは。この記事では、いま.NET / Python界隈で最もアツいAIエージェント開発S…"
     },
     {
-      "id": "33d4803f362f",
-      "title": "座標から画像へ：潜在空間で未来を予測するWorld Modelを実装してみた",
-      "url": "https://zenn.dev/naoyabone/articles/ebefbf5fcb90d6",
-      "publishedAt": "2026-08-16T16:45:20.000Z",
-      "publisher": "ぼさぼさ",
-      "summary": "はじめに 前回の記事では、5×5のGrid Worldを使って、最小構成のWorld Modelを実装しました。 前回作ったモデルは非常に単純で、 現在の座標 (x, y) + 行動 ↓ World Model ↓ 次の座標 (x', y…"
+      "id": "d295e0fb1ef4",
+      "title": "AIエージェントにIDEは必要か？ Android StudioとJetBrains Contextから考えるIDEの未来",
+      "url": "https://zenn.dev/kauchi/articles/android-studio-for-ai-agent",
+      "publishedAt": "2026-08-17T03:02:20.000Z",
+      "publisher": "kauchi",
+      "summary": "はじめに AIエージェントがコーディングするのを眺めているとき、人間がIDEを使ってコーディングをしていた時代と明らかにやり方が違う点に気づくことはないでしょうか？ AIエージェントがコードベースを探索・検索するときのTool Callを…"
     },
     {
-      "id": "f4bedc907e10",
-      "title": "自分だけのエージェント秘書を作る ③ 知識をつなぐエージェント",
-      "url": "https://zenn.dev/nhandsome/articles/my-agent-assistant-03-knowledge-graph",
-      "publishedAt": "2026-08-16T16:14:30.000Z",
-      "publisher": "Nhandsome",
-      "summary": "このブログは、Solar Pro4 がエージェントの活動ログをもとに下書きを自動作成し、Claude と筆者のレビューを経て公開しています。 シリーズ：① 構成編 → ② 知識インボックス → ③ 知識をつなぐエージェント（この記事） !…"
+      "id": "ab7b1ae73e16",
+      "title": "AIエージェントに「役職」を与えたら複数案件の並走が安定した話",
+      "url": "https://zenn.dev/akinori901/articles/20260705-ai-staff-parallel-projects",
+      "publishedAt": "2026-08-17T02:52:42.000Z",
+      "publisher": "Akinori901",
+      "summary": "概要 Claude Code のカスタムスラッシュコマンドを使い、「秘書・ディレクター・専門スタッフ」という3層のAIスタッフ体制を組んで複数案件を並走させた。役職ごとに責務を分けることでコンテキストの混在を防ぎ、ファイルベースの成果物受…"
     },
     {
-      "id": "8d9b22977028",
-      "title": "1つの常駐AIエージェントを複数の顧客ワークスペースに安全に置くマルチテナント分離設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-multi-tenant-isolation-design",
-      "publishedAt": "2026-08-16T16:14:27.000Z",
-      "publisher": "HACH",
-      "summary": "チャットに常駐するAIエージェントをSaaSとして提供する場合、実装の初期段階ではあまり意識されないのに、顧客が増えた瞬間に一番重い課題になるのがテナント分離です。1つのエージェント基盤で複数の顧客企業のSlack/Teams/Chatw…"
+      "id": "ca6d387b16a6",
+      "title": "「自分の判断」をAIに再現させるために、RAG・プロンプト・コードの役割分担を考えた",
+      "url": "https://zenn.dev/micomia/articles/1bbed4f5a968aa",
+      "publishedAt": "2026-08-17T02:32:01.000Z",
+      "publisher": "micomia株式会社",
+      "summary": "「自分の知識や経験をAIにしたい」と考えたとき、最初に思いつくのは、過去の文章や資料をできるだけ多く学習素材にする方法だと思います。 私も、アプリ・システム開発の相談を受けたときに、自分が行っているヒアリング、技術選定、要件整理、概算見積…"
     },
     {
-      "id": "a4419806d79b",
-      "title": "ソフトウェア設計の統一理論 ── 概念設計・要件定義・DDD・オントロジーを、型で一本の線にする",
-      "url": "https://zenn.dev/pninfo/articles/ba44cfd6a714e8",
-      "publishedAt": "2026-08-16T16:10:24.000Z",
-      "publisher": "石川雄貴",
-      "summary": "先日、takeshi_teshima氏の「概念設計が、その後のコードの命運を左右する」という記事を読んだ。 この記事では、ECサイトにおける Order と Fulfillment の例を通して、ソフトウェアの複雑さは単にコード量や条件分…"
+      "id": "0e92b6f0a3ff",
+      "title": "欠損をゼロとして足していた — 自作リサーチ基盤を2週間動かして出た3つの欠陥",
+      "url": "https://zenn.dev/gjunkie/articles/0ce2ed09dbb269",
+      "publishedAt": "2026-08-17T02:12:06.000Z",
+      "publisher": "GENERATIVE JUNKIE",
+      "summary": "Evolver Engine は、GitHubを巡回して自分の開発スタックに関連するリポジトリを週に3件だけ提示し、その判断を追記専用のログに記録するCLIツールである。サンドボックスも、LLM呼び出しも、知識グラフも入っていない。設計レ…"
     },
     {
-      "id": "abba6adfa1df",
-      "title": "WindowsのPythonからclaude -pを起動すると複数行プロンプトが最初の改行で切れる",
-      "url": "https://zenn.dev/chikoku_neko/articles/f963b2a2607d02",
-      "publishedAt": "2026-08-16T16:02:46.000Z",
-      "publisher": "遅刻ねこ",
-      "summary": "先に結論（TL;DR） 定型Web作業のエージェント評価で、Claude Code headless（claude -p）側の成功率が3/24から21/24まで動いた。モデルもプロンプトの中身も変えていない。変えたのは、指示をプロセスに渡…"
+      "id": "4521746eb531",
+      "title": "ClaudeのUsageの仕組みを理解し、効率的に使う方法",
+      "url": "https://zenn.dev/sun_asterisk/articles/01b275b5360c29",
+      "publishedAt": "2026-08-17T02:11:05.000Z",
+      "publisher": "luctq",
+      "summary": "はじめに Claude を使い始めたばかりの頃、たいしたことをしていないのに使用量の上限にすぐ達してしまう、ということはないでしょうか。その多くは、Claude が使用量をどう計算しているのかをまだ理解していないことが原因です。 私もまっ…"
     },
     {
-      "id": "f3e324f4cfde",
-      "title": "AIが書いた運用ルールを2週間で覆した話",
-      "url": "https://zenn.dev/vdnih/articles/squash-merge-decision-reversal",
-      "publishedAt": "2026-08-16T15:43:47.000Z",
-      "publisher": "vdnih",
-      "summary": "複数のプロダクトを一人（と AI コーディングエージェント）で並行開発していると、運用ルールの文書化そのものを AI に任せる場面が増えます。この記事は、AI に書かせたマージ方針が2週間で撤回された経験から、「AI が作った運用ルールを…"
+      "id": "1875ec3a6bd1",
+      "title": "【AI検証】もう髪型で後悔しない！AI Hairstyle Generatorで顔型に合うスタイルを事前シミュレーションする技術",
+      "url": "https://zenn.dev/nogc/articles/f022e28ae287b3",
+      "publishedAt": "2026-08-17T01:52:36.000Z",
+      "publisher": "Nogc",
+      "summary": "「美容室でお願いしたイメージと違った」「短く切りすぎて後悔した」という経験は誰しもあるのではないでしょうか。髪型の失敗（Haircut Regret）は、一度起こると数ヶ月単位で引きずることになります。 近年、画像生成AIやセグメンテーシ…"
     },
     {
-      "id": "97103e1dd64e",
-      "title": "未知なる海域の航海術: 定理7本を証明したループエンジニアリングの規律と記録",
-      "url": "https://zenn.dev/iroha1203/articles/c136054852d4b6",
-      "publishedAt": "2026-08-16T15:31:39.000Z",
-      "publisher": "Hiroyuki Nakahata",
-      "summary": "本記事は、Hashnodeに公開したUncharted Waters: Thirteen Rules for Not Trusting an AI's Proofsの日本語版です TL;DR 数日がかりの仕事をAIエージェントのループに任…"
+      "id": "b23f9adbcb03",
+      "title": "OceanBaseのAI Function入門。SQLでここまでできる",
+      "url": "https://zenn.dev/objp/articles/1f8fe71bf51d8c",
+      "publishedAt": "2026-08-17T01:11:45.000Z",
+      "publisher": "OceanBase",
+      "summary": "OceanBaseには、AI_COMPLETE、AI_EMBED、AI_RERANK、AI_PROMPT、AI_SPLIT_DOCUMENT という5つのSQL組み込み関数があります。これらを使うと、テキストのチャンキング、ベクトル化、検…"
     },
     {
-      "id": "a424cd8f96d1",
-      "title": "安い・速い・美味(賢)い — Gemini 3.7 Flash の絶妙すぎるポジショニング",
-      "url": "https://zenn.dev/okamo02427/articles/ffd9d103ab165c",
-      "publishedAt": "2026-08-16T15:03:32.000Z",
-      "publisher": "noriyuki okamoto",
-      "summary": "2026年8月に登場した Gemini 3.7 Flash の実測データを見ていて、その立ち位置の良さが際立っている。 一言で言えば、安くて、速くて、美味い 賢い。 ベンチマーク機関 Artificial Analysis の最新データを…"
+      "id": "e5d65cfb9366",
+      "title": "AI彼女アプリを作っていて気付いた。関係は、元に戻っても前と同じではなかった",
+      "url": "https://zenn.dev/mitsukida/articles/c1d88e1c0268f2",
+      "publishedAt": "2026-08-17T00:30:16.000Z",
+      "publisher": "mitsukida",
+      "summary": "AI彼女アプリを作っていて気付いた。関係は、元に戻っても前と同じではなかった AI彼女アプリを作っていて、 少し不思議なことに気付いた。 人との関係は、 元に戻ることがある。 でも、 前とまったく同じ場所には戻っていない。 最初は、 そん…"
     }
   ],
-  "fetchedAt": "2026-08-17T09:23:51.542Z",
+  "fetchedAt": "2026-08-17T10:04:34.930Z",
   "stale": false,
   "error": null
 }
