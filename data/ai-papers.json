@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.14144",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Visual on-policy distillation relies heavily on an informative teacher-student asymmetry, through either a larger, stro…",
-      "score": 80
+      "score": 99
     },
     {
       "id": "9e6034e1bdd2",
@@ -27,7 +27,15 @@
       "url": "https://huggingface.co/papers/2608.13517",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for…",
-      "score": 8
+      "score": 13
+    },
+    {
+      "id": "3fccfb84310d",
+      "title": "Latent On-Policy Self-Distillation",
+      "url": "https://huggingface.co/papers/2608.13040",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Enabling agents to learn from experience and internalize it into their policy has become a central problem in self-evol…",
+      "score": 9
     },
     {
       "id": "925ae3520349",
@@ -51,14 +59,6 @@
       "url": "https://huggingface.co/papers/2608.13667",
       "publishedAt": "2026-08-13T18:04:53.000Z",
       "summary": "LLM agents in the ReAct paradigm alternate between reasoning, acting, and observing, but deliberate reasoning is confin…",
-      "score": 7
-    },
-    {
-      "id": "3fccfb84310d",
-      "title": "Latent On-Policy Self-Distillation",
-      "url": "https://huggingface.co/papers/2608.13040",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Enabling agents to learn from experience and internalize it into their policy has become a central problem in self-evol…",
       "score": 7
     },
     {
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-17T12:36:14.068Z",
+  "fetchedAt": "2026-08-17T13:25:58.905Z",
   "stale": false,
   "error": null
 }
