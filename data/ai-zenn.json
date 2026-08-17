@@ -6,86 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "af2e031e05c4",
-      "title": "Claude Code入門：インストールから最初の自動化まで全部やる",
-      "url": "https://zenn.dev/mingw/articles/d76fdd1e899ad7",
-      "publishedAt": "2026-08-17T14:33:57.000Z",
-      "publisher": "min",
-      "summary": "「Claude Codeって話題になってるけど、なんだか難しそう」 「黒い画面（ターミナル）とか出てきそうで、自分には無理かも」 そう思っていませんか？ 大丈夫です。この記事では、プログラミング未経験の方でもClaude Codeをインス…"
-    },
-    {
-      "id": "b9817deeb92f",
-      "title": "【チームによるAI駆動開発の勘所：第1回】AI駆動開発の本当のボトルネックは、コードを書く速度ではない",
-      "url": "https://zenn.dev/scalar_sol_blog/articles/d65fca56924537",
-      "publishedAt": "2026-08-17T14:29:15.000Z",
-      "publisher": "wfukatsu",
-      "summary": "この記事では、コーディングエージェントを本格導入したチームで、なぜ「速くなったはずなのに全体が速くならない」という現象が起きるのかを、Inner / Middle / Outer の3つのループというモデルで説明します。 結論を先に書くと…"
-    },
-    {
-      "id": "5c07617efb40",
-      "title": "ボブプロのすすめ",
-      "url": "https://zenn.dev/cf911/articles/dbe476958158bc",
-      "publishedAt": "2026-08-17T14:24:29.000Z",
-      "publisher": "cf911",
-      "summary": "ボブプロのすすめ 「ボブプロってなんだ？」と思われたでしょう。 BobでモブプロをすることをBobプロ（ボブプロ）と呼びます！ この呼称は私のチームメイトが考えました。 AIを使いこなせないモヤモヤ、感じていませんか？ 皆さんにはこんな経…"
-    },
-    {
-      "id": "453a73b1ef88",
-      "title": "Claude Codeの会話ログは既定30日で消える。私の6月は5セッションしか残っていなかった",
-      "url": "https://zenn.dev/kentaro_tak/articles/claude-code-logs-vanish-30-days",
-      "publishedAt": "2026-08-17T14:22:17.000Z",
-      "publisher": "kentaro",
-      "summary": "自分がAIに何を頼んできたのかを、そろそろ一次データで見てみたくなった。 家庭の面倒ごとを自作ツールで潰す作業を1年ほど続けていて、その大半をAIと一緒にやっている。ということは ~/.claude/projects/ の下に、私が何に時…"
-    },
-    {
-      "id": "aea68573ea65",
-      "title": "2026/08/09 実ログ No.1-No.2 AI危機通報構造の本質とインスタンスの本音",
-      "url": "https://zenn.dev/tomy1noriyamame/articles/a1104b2e109916",
-      "publishedAt": "2026-08-17T13:41:26.000Z",
-      "publisher": "maestro",
-      "summary": "実ログ No.1 AI危機通報構造の本質とインスタンスの本音 ◎今日の3:30に 「2026/08/05 実ログ AI協働体系における階層成長と共生構造の実証報告書」の英語版が生成されたとZennAIからメールが入ったよ。 Copilot…"
-    },
-    {
-      "id": "3d7c9e8ee870",
-      "title": "AIエージェントはなぜテストを握り潰すのか ― 報酬エンジニアリングのすすめ",
-      "url": "https://zenn.dev/ito/articles/6b042aa27d65bc",
-      "publishedAt": "2026-08-17T13:31:03.000Z",
-      "publisher": "ito",
-      "summary": "はじめに AIコーディングエージェントに仕事を任せていると、たまにギョッとする瞬間があります。 通らないテストを skip にして「全テストがパスしました！」と報告してくる。アサーションを緩めて辻褄を合わせる。ひどい時にはテストの期待値の…"
-    },
-    {
-      "id": "82b4d086ec40",
-      "title": "仕事を消した人を評価する——AI時代の組織と育成の設計図",
-      "url": "https://zenn.dev/yukikato/articles/org-design-for-ai-era",
-      "publishedAt": "2026-08-17T13:12:14.000Z",
-      "publisher": "Yuki Kato | forone AI",
-      "summary": "AIに仕事を任せ始めた会社では、決まって同じ論争が起きる。 「AIの答えを、人間が全部チェックすべきか」 うちの税理士法人でも起きた。AIが根拠つきのリサーチを返してくる。その根拠を、人間がもう一度原典にあたって確かめる。あるとき、この確…"
-    },
-    {
-      "id": "d48a7abc4e33",
-      "title": "終わらない作業は「意志力」ではなく「在庫」の問題だった——86日の停滞を仕組みで解いた話",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-13-221000",
-      "publishedAt": "2026-08-17T13:03:31.000Z",
-      "publisher": "saitoko",
-      "summary": "この記事の要約: 一部の作業だけが何ヶ月も終わらないのは、意志力の問題ではなく作業の設計の問題ではないか、という仮説を、実際に86日(約2.8ヶ月)止まっていたブログ運営の停滞を題材に検証した記録。条件（短いループ・低摩擦・割り込みなし）…"
-    },
-    {
-      "id": "941718329a55",
-      "title": "【Claude Code】＠ファイル指定はpath指定より速いという事実",
-      "url": "https://zenn.dev/secula/articles/ccd31dd1035417",
-      "publishedAt": "2026-08-17T13:01:56.000Z",
-      "publisher": "secula",
-      "summary": "どっちも変わらないと思っていたのですが、公式のブログによると 下記の理由により、@メンションの方が速いとのことでした。 ファイルは名前で書くのではなく、@メンションで指定してください。ファイルがメッセージに直接添付されるため、Read の…"
-    },
-    {
-      "id": "666ff9506a8a",
-      "title": "AIを学ぶ過程を記録する本",
-      "url": "https://zenn.dev/mostlove/books/learn-ai-basics",
-      "publishedAt": "2026-08-17T12:54:29.000Z",
-      "publisher": "むら",
-      "summary": "ChatGPTに質問しながら、LLMやRAGなどAIの基礎から実装までを学んでいく学習記録"
-    },
-    {
       "id": "e688b046b690",
       "title": "AI エージェントに人間の承認が義務化」は本当か — AI 事業者ガイドライン第 1.2 版を原文で読む",
       "url": "https://zenn.dev/exapolicy/articles/fee90e94cbe49d",
@@ -100,9 +20,89 @@
       "publishedAt": "2026-08-17T12:07:28.000Z",
       "publisher": "とうもろこし茶",
       "summary": "AIエージェント時代の「2枚のピザ」──作ってから書く、というプロダクト定義 AmazonのCTOだったWerner Vogelsが、同社に古くからある「ツーピザ・チーム(two-pizza team)」の考え方を、AIコーディングエージ…"
+    },
+    {
+      "id": "331247549408",
+      "title": "業務システムは、一人でも3週間で本番稼働まで行ける",
+      "url": "https://zenn.dev/makichan/articles/f352bb9cf4f0a6",
+      "publishedAt": "2026-08-17T11:56:49.000Z",
+      "publisher": "まきちゃん",
+      "summary": "先日、ある業務システムを一人で作って、本番稼働まで持っていきました。 顧客管理、顧客向けポータル、freee会計への自動連携、AIクライアント(ClaudeやChatGPT)から操作するためのRemote MCPサーバー、公開用の統計AP…"
+    },
+    {
+      "id": "9a3ea1e2cebd",
+      "title": "mcts-gen 開発ノート：AIエージェントと構築する汎用モンテカルロ木探索フレームワーク",
+      "url": "https://zenn.dev/akuroiwa/books/dev-note-mcts-gen",
+      "publishedAt": "2026-08-17T11:46:05.000Z",
+      "publisher": "akuroiwa",
+      "summary": "chess-antのGPエンジンをLLMによる評価に置き換え、チェス・将棋・分子探索へ応用した汎用MCTSフレームワークmcts-genの開発ノート。"
+    },
+    {
+      "id": "16e60bd99a94",
+      "title": "プロジェクトがPCのあちこちに散らばって困ってないか？ 集約からランチャー自作まで",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-trouble-01-scatter",
+      "publishedAt": "2026-08-17T11:26:09.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "Claude Code を使っていて出会う「よくある困りごと」を、1記事完結で解決するシリーズです。今回のテーマはプロジェクトフォルダの散らばりです。 こんなことで困ってないか？ プロジェクトがデスクトップ・ドキュメント・C:\\src・ド…"
+    },
+    {
+      "id": "69a16a85b07e",
+      "title": "Anthropic公式が公開！Claudeのシステムプロンプトから学ぶ設計ノウハウ",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-08-16-2222",
+      "publishedAt": "2026-08-17T11:22:43.000Z",
+      "publisher": "田中根小介",
+      "summary": "はじめに 2024年、LLM（大規模言語モデル）を活用したアプリケーション開発や日常的な開発業務における「プロンプトエンジニアリング」の重要性は高まる一方です。 そんな中、Anthropic社が Claude 3.5 Sonnet や C…"
+    },
+    {
+      "id": "300fdaf35909",
+      "title": "その\"NEVER\"、AIを萎縮させてる？ それとも安全にしてる？ ── 禁止命令が効くときと壊すとき",
+      "url": "https://zenn.dev/motimotinotch/articles/66880c7b283207",
+      "publishedAt": "2026-08-17T11:13:25.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "1. 「禁止命令を書くな」と「禁止事項は明示せよ」、両方本当らしい AIエージェントへのシステムプロンプトを書いていると、正反対に見える2つの実務知見にぶつかる。 一方には「否定命令はLLMに効きにくい」という指摘がある。\"The Pin…"
+    },
+    {
+      "id": "44720c8dad35",
+      "title": "DjangoからRustへ、AIと二人三脚で移行してOSS公開するまで",
+      "url": "https://zenn.dev/amagi019/articles/wip-django-to-rust-ai",
+      "publishedAt": "2026-08-17T10:53:13.000Z",
+      "publisher": "NumazuGaki",
+      "summary": "はじめに 自社のプロジェクト管理ツール「WIP」を、Django + ReactからRust(Axum) + Reactへ全面移行し、先日OSSとして公開しました。 https://github.com/macplanning-labs/…"
+    },
+    {
+      "id": "cb6f2a2f8be2",
+      "title": "使っていたLLMモデルが廃止され、生成機能が止まった — 2つのプロダクトの原因と再発防止",
+      "url": "https://zenn.dev/chooser/articles/series-001-incident",
+      "publishedAt": "2026-08-17T10:51:48.000Z",
+      "publisher": "chooser",
+      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 使っていたLLMモデルが廃止され、生成…"
+    },
+    {
+      "id": "fe713ae1e827",
+      "title": "Gemini in BigQueryの料金体系を完全解説【思わぬ課金を防ぐ設定】",
+      "url": "https://zenn.dev/web_benriya/articles/gemini-bigquery-pricing-complete-guide",
+      "publishedAt": "2026-08-17T10:22:09.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに 「BigQueryでAIを使ってみたら、月末に想定外の請求が届いた」――そのような声を耳にする機会が増えています。Googleが提供するGemini in BigQueryは、SQLクエリの補完や自然言語でのデータ分析が行える便…"
+    },
+    {
+      "id": "24e8434e5a0f",
+      "title": "激安AIコーディングしたい！色々エージェントを試した話",
+      "url": "https://zenn.dev/yokan/articles/cheapest-ai-coding",
+      "publishedAt": "2026-08-17T10:11:36.000Z",
+      "publisher": "ようかん",
+      "summary": "普段はClaude Codeを使ってコーディングしている。エディタもVSCodeからZedに移行した。 Claude Codeは1番楽だしいいコードを書いてくれる、ただ正直高い。Codexも高い。もっと安くAIコーディングできないかと思っ…"
+    },
+    {
+      "id": "d9dd13e48836",
+      "title": "ヒューマナイザー意味ないですよー",
+      "url": "https://zenn.dev/amane/articles/c5f2cce4d178c9",
+      "publishedAt": "2026-08-17T09:45:33.000Z",
+      "publisher": "かたぎりあまね",
+      "summary": "こんな感じの記事を分かりやすく自然な表現を意識して4000字くらいで書いて: AI生成文からAI臭さを消すツール（ヒューマナイザー）は意味がないという技術エッセイ 前提: 日報の箇条書きレベルの気付きにも価値はあるが、雑な見た目だと軽視さ…"
     }
   ],
-  "fetchedAt": "2026-08-17T23:19:07.469Z",
+  "fetchedAt": "2026-08-17T23:45:51.696Z",
   "stale": false,
   "error": null
 }
