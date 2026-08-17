@@ -14,14 +14,6 @@
       "score": 14
     },
     {
-      "id": "7348675704cf",
-      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
-      "url": "https://huggingface.co/papers/2608.12313",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce c…",
-      "score": 14
-    },
-    {
       "id": "d79d5386e22b",
       "title": "Maglev: Sliding Recurrent Memory",
       "url": "https://huggingface.co/papers/2608.02870",
@@ -46,12 +38,12 @@
       "score": 11
     },
     {
-      "id": "da674f83c139",
-      "title": "Are You Sure You're Sure? On the Impact of Instruction Tuning on Confidence and Lexical Diversity",
-      "url": "https://huggingface.co/papers/2608.13430",
+      "id": "0584da93bc7a",
+      "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
+      "url": "https://huggingface.co/papers/2608.13417",
       "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Instruction-tuned language models achieve strong performance across a range of generation tasks, but have also recently…",
-      "score": 11
+      "summary": "Autonomous agents are increasingly capable of improving models, systems, and other technical artifacts through long-hor…",
+      "score": 10
     },
     {
       "id": "c7d2b7c437cb",
@@ -59,14 +51,6 @@
       "url": "https://huggingface.co/papers/2608.09158",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "Large audio-language models (LALMs) have demonstrated strong capabilities in understanding diverse audio inputs. This d…",
-      "score": 10
-    },
-    {
-      "id": "df4afdfaac49",
-      "title": "Specification-first convergence with an AI coding agent: a case study of dismantling a core architectural invariant across 189 files in a 717k-line codebase with no test oracle and no human code review",
-      "url": "https://huggingface.co/papers/2608.12440",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "This paper reports a single, fully instrumented case study of a large-scale architectural refactoring by an AI coding a…",
       "score": 10
     },
     {
@@ -86,23 +70,39 @@
       "score": 9
     },
     {
-      "id": "920b8414e60e",
-      "title": "TailBooster: A Dual-Layer Generative Framework for Extreme Value Augmentation with Operational Validity Enforcement",
-      "url": "https://huggingface.co/papers/2608.11951",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Extreme events in air transport, such as severe arrival delays and abnormal air times, cause cascading network disrupti…",
-      "score": 8
+      "id": "12f3163b3a23",
+      "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+      "url": "https://huggingface.co/papers/2608.14530",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing stru…",
+      "score": 2
     },
     {
-      "id": "bff264abae61",
-      "title": "PixSDS: Why Latent SDS Makes Noisy Pixels",
-      "url": "https://huggingface.co/papers/2608.12997",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Score Distillation Sampling (SDS) enables text-to-3D generation by optimizing rendered images with a pretrained diffusi…",
-      "score": 7
+      "id": "81cfc7217ca5",
+      "title": "Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+      "url": "https://huggingface.co/papers/2608.14290",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "We introduce Mobius-v0, an architecture that comprises a globally shared Memory (FFN) that stores knowledge vectors and…",
+      "score": 1
+    },
+    {
+      "id": "0ee7eb778499",
+      "title": "Dion3: Full-Stack Orthogonal Updates",
+      "url": "https://huggingface.co/papers/2608.11612",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "The Muon optimizer incurs a significant overhead cost due to its cubic-time Newton-Schulz orthogonalization step. When …",
+      "score": 1
+    },
+    {
+      "id": "45321a6d3959",
+      "title": "SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation",
+      "url": "https://huggingface.co/papers/2608.14138",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Spatial perception and reasoning from visual observations require recovering geometric structure, establishing correspo…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-17T01:25:02.520Z",
+  "fetchedAt": "2026-08-17T02:39:29.964Z",
   "stale": false,
   "error": null
 }
