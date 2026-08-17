@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "a681f3e7915d",
-      "title": "Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Generators and Social Dissemination",
-      "url": "https://huggingface.co/papers/2608.14391",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Recent video generators can fabricate realistic depictions of wars, disasters, public emergencies, and other real-world…",
-      "score": 26
-    },
-    {
       "id": "c973fd13f07b",
       "title": "MobileMem: Learning from a Year of Mobile Experiences",
       "url": "https://huggingface.co/papers/2608.13606",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "The next generation of AI agents is increasingly moving beyond systems that answer isolated questions toward persistent…",
-      "score": 13
+      "score": 15
     },
     {
       "id": "bdf8525ca44d",
@@ -35,7 +27,15 @@
       "url": "https://huggingface.co/papers/2608.14546",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "With the rapid advancement of image editing models and their widespread application across various domains, there is an…",
-      "score": 9
+      "score": 10
+    },
+    {
+      "id": "25f3150bd350",
+      "title": "Forecast Collapse in Time-Series Foundation Models",
+      "url": "https://huggingface.co/papers/2608.14106",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "When forecasting hourly returns for 1,000 US equities, we observe an unexpected phenomenon: predictions become nearly f…",
+      "score": 6
     },
     {
       "id": "3fccfb84310d",
@@ -46,20 +46,12 @@
       "score": 6
     },
     {
-      "id": "25f3150bd350",
-      "title": "Forecast Collapse in Time-Series Foundation Models",
-      "url": "https://huggingface.co/papers/2608.14106",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "When forecasting hourly returns for 1,000 US equities, we observe an unexpected phenomenon: predictions become nearly f…",
-      "score": 4
-    },
-    {
       "id": "7791ad4eb837",
       "title": "Second Thought: Reasoning in Parallel as LLM Agents Act and Observe",
       "url": "https://huggingface.co/papers/2608.13667",
       "publishedAt": "2026-08-13T18:04:53.000Z",
       "summary": "LLM agents in the ReAct paradigm alternate between reasoning, acting, and observing, but deliberate reasoning is confin…",
-      "score": 4
+      "score": 5
     },
     {
       "id": "925ae3520349",
@@ -67,7 +59,7 @@
       "url": "https://huggingface.co/papers/2608.14284",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Fine-grained robotic evaluation matters for understanding embodied models, going beyond binary success rates and rule-b…",
-      "score": 3
+      "score": 4
     },
     {
       "id": "763628f5922f",
@@ -94,6 +86,14 @@
       "score": 2
     },
     {
+      "id": "a959ba23714c",
+      "title": "UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations",
+      "url": "https://huggingface.co/papers/2608.10835",
+      "publishedAt": "2026-08-11T12:01:59.000Z",
+      "summary": "Large Vision-Language Models (LVLMs) achieve impressive visual reasoning and dialogue capabilities, yet frequently hall…",
+      "score": 1
+    },
+    {
       "id": "55129e7714e7",
       "title": "Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction",
       "url": "https://huggingface.co/papers/2608.12209",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-17T05:49:42.760Z",
+  "fetchedAt": "2026-08-17T06:46:11.683Z",
   "stale": false,
   "error": null
 }
