@@ -6,76 +6,28 @@
   "category": "ai",
   "items": [
     {
-      "id": "3ab1a45a28d7",
-      "title": "Apodex Discovery: Reality Benchmarks and Environments for Evaluating and Building Discoverative Artificial Intelligence",
-      "url": "https://huggingface.co/papers/2608.11341",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Apollo did not reach the Moon merely because its engineers could solve difficult equations. It succeeded by turning a d…",
-      "score": 27
-    },
-    {
-      "id": "ac2df3efe390",
-      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
-      "url": "https://huggingface.co/papers/2608.13517",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for…",
-      "score": 21
-    },
-    {
-      "id": "29e2797e9c27",
-      "title": "Modular Cognitive Architecture Emerges in Large Language Models",
-      "url": "https://huggingface.co/papers/2608.13567",
-      "publishedAt": "2026-06-27T01:56:22.000Z",
-      "summary": "The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, fo…",
-      "score": 12
-    },
-    {
       "id": "d845b8d7091a",
       "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
       "url": "https://huggingface.co/papers/2608.15265",
       "publishedAt": "2026-08-15T00:00:00.000Z",
       "summary": "Constructing an interactive 3D open world from a user query is important. However, existing methods are primarily evalu…",
-      "score": 5
+      "score": 24
     },
     {
-      "id": "d566515d1681",
-      "title": "NaviDC-OCR: Navigating Document Parsing Across Digital and Camera-Captured Documents",
-      "url": "https://huggingface.co/papers/2608.12898",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Document parsing aims to transform unstructured documents into structured and machine-readable representations. Recent …",
-      "score": 3
+      "id": "327b0db8747d",
+      "title": "GenRouter: Unified Workflow Routing for Agentic Image Generation",
+      "url": "https://huggingface.co/papers/2608.16721",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "The rapid evolution of text-to-image (T2I) generation models has effectively solved the foundational challenge of raw p…",
+      "score": 12
     },
     {
-      "id": "cd61e27bdef9",
-      "title": "Agentic Transaction: Towards ACID-Compliant Agent Systems",
-      "url": "https://huggingface.co/papers/2608.13900",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents are evolving from conversational assistants into autonomous systems that execute long…",
-      "score": 2
-    },
-    {
-      "id": "4ee2cebfddb1",
-      "title": "Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead",
-      "url": "https://huggingface.co/papers/2608.13987",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Nanbeige4.2-3B is a 3B-parameter agentic model built around a Looped Transformer (LT) that reuses one stack of layers f…",
-      "score": 2
-    },
-    {
-      "id": "28c3f83d461f",
-      "title": "Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models",
-      "url": "https://huggingface.co/papers/2608.13760",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Which reasoning behaviors are associated with correct answers in reasoning models, and does reasoning-oriented training…",
-      "score": 2
-    },
-    {
-      "id": "242f40eb1c3a",
-      "title": "Who Speaks Matters: Authority-Aware Multi-View RAG over Italian Parliamentary Proceedings",
-      "url": "https://huggingface.co/papers/2608.13410",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Parliamentary proceedings are a primary record of democratic deliberation, yet their volume and fragmentation make mult…",
-      "score": 2
+      "id": "0988de291485",
+      "title": "R^3-Bench: LLMs Struggle with Resource-Rational Reasoning under Shared Budgets",
+      "url": "https://huggingface.co/papers/2608.16033",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "In cognitive science, resource rationality asks how an agent should allocate limited computation to maximize expected v…",
+      "score": 9
     },
     {
       "id": "17909d461ee1",
@@ -83,26 +35,74 @@
       "url": "https://huggingface.co/papers/2608.15304",
       "publishedAt": "2026-08-15T00:00:00.000Z",
       "summary": "Frontier agentic systems powered by large language models (LLMs) exhibit human-like patterns of cognition. As these sys…",
-      "score": 1
+      "score": 9
     },
     {
-      "id": "08383df4cb2a",
-      "title": "MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling",
-      "url": "https://huggingface.co/papers/2608.14783",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Part-aware 3D object generation is essential for graphics applications such as controllable modeling, editing, and arti…",
-      "score": 1
+      "id": "61ae6887e073",
+      "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+      "url": "https://huggingface.co/papers/2608.16798",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with t…",
+      "score": 7
     },
     {
-      "id": "e58b6c7fb37a",
-      "title": "Is this Citation on Point?",
-      "url": "https://huggingface.co/papers/2608.12571",
+      "id": "eb37d752fcfa",
+      "title": "UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations",
+      "url": "https://huggingface.co/papers/2608.15930",
+      "publishedAt": "2026-08-16T00:00:00.000Z",
+      "summary": "Foundation GUI agents can automate complex digital tasks, but deployment is hindered by scarce and biased training data…",
+      "score": 3
+    },
+    {
+      "id": "eb510f853704",
+      "title": "VideoGAIA: A Benchmark for General AI Assistants on Agentic Video Understanding",
+      "url": "https://huggingface.co/papers/2608.14718",
       "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "In 2023, a New York judge sanctioned two attorneys in Mata v. Avianca for filing a brief with hallucinated citations ge…",
+      "summary": "Video understanding is a fundamental task for evaluating the capabilities of multimodal large language models (MLLMs). …",
+      "score": 1
+    },
+    {
+      "id": "8fe2785eba71",
+      "title": "ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval",
+      "url": "https://huggingface.co/papers/2608.15698",
+      "publishedAt": "2026-08-16T00:00:00.000Z",
+      "summary": "Visual document retrieval is a critical component of multimodal retrieval-augmented generation, aiming to identify quer…",
+      "score": 1
+    },
+    {
+      "id": "a29c5d99e895",
+      "title": "ENTLORE: A Graph-Grounded Benchmark for Latent Organizational Reasoning in Enterprise Question Answering",
+      "url": "https://huggingface.co/papers/2608.10679",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Enterprise question answering is framed as retrieving internal documents and generating grounded answers. Routine enter…",
+      "score": 1
+    },
+    {
+      "id": "7b487ebed9d6",
+      "title": "Position: AI Agents in Scientific Teams Should Be Studied as Human-Agent Systems",
+      "url": "https://huggingface.co/papers/2608.14667",
+      "publishedAt": "2026-08-02T00:00:00.000Z",
+      "summary": "Large language model-based agents are increasingly deployed as collaborators in scientific discovery yet most current w…",
+      "score": 0
+    },
+    {
+      "id": "474ac86676d3",
+      "title": "When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse",
+      "url": "https://huggingface.co/papers/2608.06947",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Retrieval-augmented generation (RAG) is indispensable for enhancing large language models. However, RAGs are increasing…",
+      "score": 0
+    },
+    {
+      "id": "8bb272923b12",
+      "title": "Ventor-QTest: Threat-Model-Driven Verification of Vendor-Hosted LLM APIs",
+      "url": "https://huggingface.co/papers/2608.16391",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "As large language models become increasingly widespread, third-party providers that deploy open-weight models have beco…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-18T02:18:57.650Z",
+  "fetchedAt": "2026-08-18T03:22:30.750Z",
   "stale": false,
   "error": null
 }
