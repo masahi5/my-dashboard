@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "76008a23937e",
-      "title": "Claude Code に任せたタスク、終わったことに気づいていますか",
-      "url": "https://zenn.dev/takeinoriyuki/articles/ea17a57c19c588",
-      "publishedAt": "2026-08-18T00:09:00.000Z",
-      "publisher": "のりの技術ブログ",
-      "summary": "こんな困りごと、ありませんか？ Claude Code を使っていて、こんな経験はないでしょうか。 別ウィンドウ、あるいはタブ化したターミナルの別タブでタスクをお願いしていたら、とっくに完了していたのに気づかなかった。もしくは確認待ちのま…"
+      "id": "fbeb0bdb58b7",
+      "title": "AIコンテキスト設計ガイド ── 規約を配ったのに守られない理由",
+      "url": "https://zenn.dev/tsutomusaito/books/ai-context-design-guide",
+      "publishedAt": "2026-08-18T04:50:59.000Z",
+      "publisher": "saito",
+      "summary": "Claude Code / Cursor / GitHub Copilot に規約を配る仕組みは、ruler や rulesync で既に解決済みです。 それでも「配ったのに守られない」は残ります。本書はそちら側だけを扱います。 層をどう…"
     },
     {
-      "id": "fb8276c7c412",
-      "title": "LLMが間違える日本語「Bの次に重い」",
-      "url": "https://zenn.dev/mohhh_ok/articles/2026-08-luna-japanese-ranking",
-      "publishedAt": "2026-08-18T00:03:24.000Z",
-      "publisher": "MOhhh",
-      "summary": "LLMが間違える日本語解釈についてです。 発端 今朝Xでこのような投稿を見かけました Aの体重は50kg Bの体重は60kg Cの体重は70kg Dの体重は80kg Eの体重は90kg この5人の中で、Cの次に体重が重い人は誰でしょうか？…"
+      "id": "f945d0d2831d",
+      "title": "AIエージェントが「知っているはず」を間違える理由 — コンテキスト設計の実務",
+      "url": "https://zenn.dev/tsutomusaito/articles/ai-agent-context-design",
+      "publishedAt": "2026-08-18T04:50:55.000Z",
+      "publisher": "saito",
+      "summary": "対象: Claude Code / Cursor / Copilot Agent などを業務で毎日使っているエンジニア 前提知識: エージェント型のAIコーディングツールを数ヶ月以上使っていること この記事で解けること CLAUDE.md…"
     },
     {
-      "id": "fcaf6355faa9",
-      "title": "作業手順書を動画マニュアルに変える Stickman Video Director 活用検討",
-      "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20260815-stickman-video-director-d",
-      "publishedAt": "2026-08-18T00:00:15.000Z",
-      "publisher": "yutaka8484",
-      "summary": "作業手順書が「読まれない」という現場の課題 木工所の生産現場では、加工手順や治具の使い方、安全確認のポイントをまとめた作業手順書が数多く存在します。しかし紙やPDFの手順書は、文章と静止画だけでは動きや力加減、タイミングといった「時間軸を…"
+      "id": "605d1680f694",
+      "title": "インストール数の15.8%が、検証済みコピーに乗っている",
+      "url": "https://zenn.dev/skillselion/articles/d473f8aa8b3e08",
+      "publishedAt": "2026-08-18T04:37:33.000Z",
+      "publisher": "Skillselion",
+      "summary": "トレンド名のスキルを入れる直前、インストール順でカタログを開く。同じ製品が3つの掲載に分かれていると、グラフは同じインストールを3回描いている。 SkillselionのClone Censusは、2026年8月12日に凍結したダンプだ。…"
     },
     {
-      "id": "bcd1eb4bc679",
-      "title": "ドアはすでにそこにあった",
-      "url": "https://zenn.dev/hidekimori/articles/59512b3be4f5a5",
-      "publishedAt": "2026-08-18T00:00:08.000Z",
-      "publisher": "Hideki Mori",
-      "summary": "少し前、私が携わっている翻訳システムが密かに「より大きなもの」へと姿を変えていたことについて書きました。40年の歴史を持つ翻訳会社をドキュメントAIへと変貌させたのは、事業転換（ピボット）というより、一つの定義を最後まで追い求めた結果だっ…"
+      "id": "5ad83075146d",
+      "title": "エージェントは「差分の外」を読む：ADK for Go で AI レビューを作り直した実践",
+      "url": "https://zenn.dev/snknsk/articles/adk-go-agent-review-practice",
+      "publishedAt": "2026-08-18T04:22:18.000Z",
+      "publisher": "shouni",
+      "summary": "はじめに Git の差分を Gemini にレビューさせる Web アプリを半年あまり使ってきた。構造は単純で、差分を取り、プロンプトに埋めて、構造化出力で JSON を受け取る。LLM 呼び出しは 1 回だけ。 このアプリを ADK f…"
     },
     {
-      "id": "6e1fd6c1fa26",
-      "title": "APIキー無しでも動くRAG：まず語彙検索、必要なら埋め込み",
-      "url": "https://zenn.dev/mabui/articles/rag-lexical-then-embedding",
-      "publishedAt": "2026-08-18T00:00:08.000Z",
-      "publisher": "mabui",
-      "summary": "公開リポジトリ: https://github.com/mabuix/iac-guard 前回（記事③）は .tf の静的解析でした。今回は、指摘に「なぜダメか」の根拠（出典）を添える RAG の部分です。ポイントは「APIキーや埋め込み…"
+      "id": "f770377bead7",
+      "title": "AIの拡張機能を1行で読ませたら5種類の部品が一度に入った。名前を1語変えただけで、同じ中身が5回中0回から3回中3回に化けた",
+      "url": "https://zenn.dev/numarn/articles/claude-plugin-dir-runtime-parts-handson",
+      "publishedAt": "2026-08-18T04:17:49.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "Claude Code(ターミナルで動くAIの作業役)には、プラグインという仕組みがあります。設定ファイルや自動処理をひとまとめにしたフォルダを渡すと、その中身がまるごとAIの作業環境に入る、という機能です。 「フォルダを1つ渡すだけで、…"
     },
     {
-      "id": "3fb07182719a",
-      "title": "AIに与えるルールを太らせすぎて、文章から人間味が消えた — 16項目の\"校則\"をダイエットした話",
-      "url": "https://zenn.dev/sikada/articles/devstory-rule-diet",
-      "publishedAt": "2026-08-18T00:00:08.000Z",
-      "publisher": "コードを書かない鹿田さん",
-      "summary": "自宅AI環境シリーズの開発記です。今回は、AIを使い込んでいる人ほど心当たりがあるはずの話——「AIへの指示ルールは、増やせば増やすほど良くなる」という思い込みが崩れた日のこと。そして、どうClaudeにお願いして立て直したかを書きます。…"
+      "id": "adc69e4331a6",
+      "title": "Devinを1週間試して導入をやめた話",
+      "url": "https://zenn.dev/vesslabs/articles/da9593d77369ee",
+      "publishedAt": "2026-08-18T04:08:12.000Z",
+      "publisher": "VESS Labs",
+      "summary": "Devinを1週間試して、導入をやめた話 自律型のコーディングエージェント Devin を 1 週間評価して、導入しないことに決めました。 動かなかったから諦めたわけではありません。3 つのリポジトリで実行環境が立ち上がり、GitHub …"
     },
     {
-      "id": "48a67765379a",
-      "title": "AIが読むドキュメントにも、テストを書いた",
-      "url": "https://zenn.dev/miyakona/articles/379d6908a90247",
-      "publishedAt": "2026-08-18T00:00:08.000Z",
-      "publisher": "miyakona",
-      "summary": "リポジトリの指示書に、こんな一文が紛れ込んでいました。 詳しい手順は [[release-runbook]] を参照すること。 書いた本人と、その個人メモを読めるAIには意味が通じます。しかし、別のAIやCIから見れば、参照先の存在しない…"
+      "id": "a8f894bfaac6",
+      "title": "「タスクがありません」を無くす — 自分も手を動かすリードのための、プル型タスク設計",
+      "url": "https://zenn.dev/shigerufukada/articles/ffbcc4b15e1fed",
+      "publishedAt": "2026-08-18T04:02:09.000Z",
+      "publisher": "Fukada",
+      "summary": "課題: プレイングリードがボトルネックになる 自分にとっても未知の技術を使い、公開日が決まっていて、直列の工程（クリティカルパス）があるプロジェクトを、少人数のチームで進めていました。しかもリードである自分が、そのクリティカルパス上の作業…"
     },
     {
-      "id": "c45d3eaa4273",
-      "title": "AI時代に最適な言語を決めるため、40構成で同じアプリを作らせてみた",
-      "url": "https://zenn.dev/abalol/articles/ef518139af593c",
-      "publishedAt": "2026-08-17T23:47:48.000Z",
-      "publisher": "abalol",
-      "summary": "AIは、もう「構文的に正しいコードを書けるか」という水準では評価できない。数百行、ときには数千行のコードが短時間で出てくる。 困るのは、その後だ。 そのコードは本当にビルドできるのか。業務ルールを守っているのか。半年後、別の人が安全に変更…"
+      "id": "05c38827c7c2",
+      "title": "AI が作る「ドット絵風」を本物のドット絵に変換する Web ツール「Pixel Refiner」を作りました",
+      "url": "https://zenn.dev/happy_onigiri/articles/1a0601d2afec2c",
+      "publishedAt": "2026-08-18T03:53:46.000Z",
+      "publisher": "HappyOnigiri",
+      "summary": "画像生成 AI は、ドット絵も描けるようになりました。 少なくとも、遠目にはそう見えます。 私はドット絵のイラストが好きで、SNS のアイコンやプロダクト紹介の 1 枚絵に使いたいと思っていました。 絵心はありませんが、いまは AI が描…"
     },
     {
-      "id": "f408f4135dda",
-      "title": "子どもと8日間の夏休みを堪能しながら、issueを109件起票して95件消化した方法",
-      "url": "https://zenn.dev/kewton/articles/summer-vacation-issue-driven-dev",
-      "publishedAt": "2026-08-17T23:45:01.000Z",
-      "publisher": "kewton",
-      "summary": "結論: 育児をしながらでも、個人開発は前に進められる お盆に子どもを連れて8日間の旅行に出ました。5つの都道府県をまわり、カブトムシを採り、川でも遊びました。 その8日間で、issueを109件起票し、95件が閉じました。 やっていたのは…"
+      "id": "abd9d18c361e",
+      "title": "一人で広告動画をサクッと作れるようになった話｜AI ツールを実務で使ってみた感想",
+      "url": "https://zenn.dev/derek/articles/872460c2909e5b",
+      "publishedAt": "2026-08-18T03:11:06.000Z",
+      "publisher": "derek",
+      "summary": "最近、個人で小さなプロモーション動画を作ることが増えた。外注すると時間もお金もかかるし、自分で全部やろうとすると素材集めとナレーション録音で半日溶ける。そんな悩みから、試しに AI を使ってみることにした。 素材作りで感じた変化 最初に触…"
     },
     {
-      "id": "da64cc770f72",
-      "title": "AIが作ったHTMLの社内共有、みんな一回自作するやつをちゃんと作った",
-      "url": "https://zenn.dev/coji/articles/artifact-share-release",
-      "publishedAt": "2026-08-17T23:24:13.000Z",
-      "publisher": "Coji Mizoguchi",
-      "summary": "「最新版どれですか」が戻ってきた Claude Code に調査レポートや比較表を頼むと、きれいな HTML を吐いてくれますよね。それを Slack に添付して送る。修正が入る。また添付する。数日後、チャンネルには comparison…"
+      "id": "894b663e4180",
+      "title": "LLMO対策の効果、どうやって測っていますか——観測プロンプトの3階層設計と、10エンジン計測の現実",
+      "url": "https://zenn.dev/penbit_lab/articles/ba054b04fbc8eb",
+      "publishedAt": "2026-08-18T03:10:05.000Z",
+      "publisher": "Penbit Lab",
+      "summary": "「AI検索対策やってます」の次に来る質問 構造化データを入れた。E-E-A-Tを意識して著者情報を整備した。一問一答形式の見出しに書き換えた。llms.txt も置いた。 ——それで、効果はあったんでしょうか？ LLMO / GEO / …"
     },
     {
-      "id": "899cf96bc898",
-      "title": "キャラなりきりでAIコメントのススメ",
-      "url": "https://zenn.dev/dala/articles/ai-narikiri-comment",
-      "publishedAt": "2026-08-17T23:04:25.000Z",
-      "publisher": "だら",
-      "summary": "最近は業務でGitHubのコメントをする時もまるまるAI任せになることも増えてきましたよね。そんな時、僕はAIにコメントさせる時に何かのキャラになりきることをおすすめします。 AIにコメントさせる際の問題点 その前に背景として、AIにコメ…"
+      "id": "4e22da9ab788",
+      "title": "AIが「できたか分からない」と言ったとき、もう一度やらせてはいけない",
+      "url": "https://zenn.dev/humanos_lab/articles/fe8fddb2b7e177",
+      "publishedAt": "2026-08-18T03:01:08.000Z",
+      "publisher": "HUMAN OS @ ゼロから極めるAI研究員",
+      "summary": "―― 二重実行・Commit-Unknownから考えるAI Agentの安全設計 AI Agentに「メールを送って」と頼んだ。 AIは外部サービスへ送信要求を出した。ところが直後に通信が切れ、 「成功したか分かりません」 と返してきた。…"
     },
     {
-      "id": "178ba821b792",
-      "title": "自動化ログを1ヶ月読まなかったら異常に気づけなかった — ひとり社長の監査習慣の作り方",
-      "url": "https://zenn.dev/joinclass/articles/1-20260816220005-7966",
-      "publishedAt": "2026-08-17T23:00:11.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "「全部動いている」と思い込んでいた1ヶ月 僕はひとりで会社をやっている。開発も営業もマーケも経理も自分ひとりで、実作業のほとんどをAIエージェントとスクリプトに任せている。自動化率はざっくり98%、macOSのlaunchdジョブは17個…"
+      "id": "0a72dd0e7b6e",
+      "title": "セッション同士が話せるようになっても、私は PO への仲介役をやめられない",
+      "url": "https://zenn.dev/flinters_blog/articles/217801a0cca9e2",
+      "publishedAt": "2026-08-18T03:00:05.000Z",
+      "publisher": "Takashi Kawachi",
+      "summary": "はじめに こんにちは。FLINTERSの河内です。 実装を任せた Claude Code が止まるとき、原因が技術的な問題であることは意外と少ないです。多いのは「この仕様は PO（プロダクトオーナー）の判断がないと決められない」「この挙動…"
     }
   ],
-  "fetchedAt": "2026-08-18T09:28:39.254Z",
+  "fetchedAt": "2026-08-18T09:59:32.264Z",
   "stale": false,
   "error": null
 }
