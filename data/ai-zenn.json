@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "e8f9eb480b9b",
-      "title": "【Kitesurf】Playwright MCPを常駐させないブラウザ戦略",
-      "url": "https://zenn.dev/yutti/articles/reduce-memory-consumption",
-      "publishedAt": "2026-08-18T09:32:57.000Z",
-      "publisher": "uuta",
-      "summary": "Global設定にMCPサーバーを配置していたのですが、Agentを起動するたびにMCPサーバーも起動するため、メモリ圧迫の大きな要因の一つになっていました。不要なMCPサーバーについては、コンテキストを無駄に占有させないという観点から削…"
+      "id": "14b27465bb56",
+      "title": "ComfyUIのノード地獄から解放！MiniMax動画・画像生成を「Agent Skill」と「専用GUI」で誰でも扱えるようにした話",
+      "url": "https://zenn.dev/lumichy/articles/comfyui-minimax-agent-skill-studio-2026",
+      "publishedAt": "2026-08-18T12:29:26.000Z",
+      "publisher": "lumichy",
+      "summary": "前回の記事（MiniMax H3 × ComfyUI 徹底解説ガイド）では、最新のオープンソース全模態（マルチモーダル）AI動画生成モデル 「MiniMax H3」 と ComfyUI を組み合わせて、ローカル環境で高品質な動画や音声を生…"
     },
     {
-      "id": "63d163baa2b3",
-      "title": "【5分でわかる Foundry Tools シリーズ】Azure Speech で英語の発音評価する",
-      "url": "https://zenn.dev/yukurash/articles/0c40a8eca488fa",
-      "publishedAt": "2026-08-18T09:22:38.000Z",
-      "publisher": "yukurash",
-      "summary": "! Foundry Tools（旧 Azure AI Services）の各サービスから機能をひとつ取り上げ、「ざっくり理解」から「手元で即デプロイ」まで5分で紹介するシリーズです。わかりやすいように動画やサンプルコードも記載しています。…"
+      "id": "ebb30dbaef9a",
+      "title": "AIオーディオはテキスト読み上げの時代を離れつつある",
+      "url": "https://zenn.dev/funnycoding/articles/4597a8849691f5",
+      "publishedAt": "2026-08-18T12:19:33.000Z",
+      "publisher": "funnycoding",
+      "summary": "AIオーディオは「テキスト読み上げ」の時代を超えつつある Seed Audio 1.0が示す、音声・サウンドデザイン・マルチモーダル制作の未来 ここ数年、「AIオーディオ」と呼ばれる製品の多くは、それぞれ独立したタスクに特化してきました。…"
     },
     {
-      "id": "1043aa63ee62",
-      "title": "毎日無人でPRを作らせる ― 人間が押すのは公開ボタンだけ、踏んだ罠は4つ",
-      "url": "https://zenn.dev/hoshiorange/articles/11-claude-code-cloud-routine-plumbing",
-      "publishedAt": "2026-08-18T09:14:17.000Z",
-      "publisher": "ほし",
-      "summary": "こんにちは。手元で動かしていた Claude Code を、毎日18時に無人で立ち上がり、記事のネタ選びから下書き、PRの作成まで済ませておいてくれる状態にしました。 人間は朝、出てきたPRを見るだけ。これが今回やりたかったことです。 定…"
+      "id": "e6c11ef9d954",
+      "title": "【CC0】プラカゴのステッチを数理コード化したら、AIに「将来のために」とWebアプリまで作らされた話",
+      "url": "https://zenn.dev/craftbandlabo/articles/89c1e9886a6ef2",
+      "publishedAt": "2026-08-18T12:08:00.000Z",
+      "publisher": "haru@CraftBandLabo",
+      "summary": "はじめに：プラカゴのステッチとは 初めまして。クラフトバンド・ラボのharuです。 趣味で、平らな素材を使ったカゴをデザインするフリーソフトを開発するとともに、そのソフトを使ってカゴやパッチワークの模様など、さまざまな応用を試作しています…"
     },
     {
-      "id": "5f5f8610644c",
-      "title": "firecrawl/anydoc でドキュメントを Markdown に変換する検証",
-      "url": "https://zenn.dev/aiforall/articles/4000079b4c425a",
-      "publishedAt": "2026-08-18T07:38:48.000Z",
-      "publisher": "やきそば",
-      "summary": "概要 この検証では、firecrawl/anydoc を利用し、複数形式のドキュメントファイルを Markdown に変換します。 変換元の資料 今回の検証では、Word、PDF、Excel、PowerPoint の4種類のファイルを入力…"
+      "id": "c6c8df58b449",
+      "title": "中学生の期末試験対策を、Claude Codeで“AI家庭教師チーム”運用してみた",
+      "url": "https://zenn.dev/jiro2026/articles/claude-code-ai-katei-kyoshi-team",
+      "publishedAt": "2026-08-18T12:07:01.000Z",
+      "publisher": "Jiro",
+      "summary": "はじめに 中学校程度の学習であれば、「苦手の把握 → 対策の実施 → 再チェック → 対策の見直し」というPDCAサイクルをきちんと回すことが有効だと考えています。ただ、これを一人ひとりに合わせて手軽にやろうとすると、これまでは学習塾や家…"
     },
     {
-      "id": "22416e371d8e",
-      "title": "バイブコーディングバイブル 〜コードを書かずに、つくりたいものをつくる〜",
-      "url": "https://zenn.dev/yamitake/books/vibecoding-bible",
-      "publishedAt": "2026-08-18T07:37:50.000Z",
-      "publisher": "JJ yamitake",
-      "summary": "コードは書けない。でも作りたいものがある。妄想を膨らませ、GitHubに思いを書き、決めるところだけ決めて、あとは全部AIにぶん投げる——Claude Code と GitHub だけで「ないもの」を作り、公開し、数字で育て続けるための実…"
+      "id": "4bba4c2020cb",
+      "title": "ローカルLLM編成が単独のフロンティアAIを超えた日",
+      "url": "https://zenn.dev/nrs/articles/b920540a64e1a1",
+      "publishedAt": "2026-08-18T11:42:49.000Z",
+      "publisher": "nrs",
+      "summary": "OpenAI や Anthropic のフロンティアモデルの性能はとてもよいのですが、経済性がよくありません。 日次や週次のレート制限がどれだけあなたを苛立たせたでしょう。 また、毎日の仕事道具の生殺与奪を誰かの方針に握られているのも気に…"
     },
     {
-      "id": "4e2c2fc6e0a0",
-      "title": "自分のマージゲートを17通りの方法で破ろうとした話",
-      "url": "https://zenn.dev/zanshindev/articles/c18122115c0363",
-      "publishedAt": "2026-08-18T07:36:19.000Z",
-      "publisher": "zanshin",
-      "summary": "前の記事で「照合コアにはテストが56件ある」と書きました。この一文はほとんど何も言っていないので、ここで補います。 テストの件数は品質の指標になりません。 全行を通るのに何も捕まえないテストは、いくらでも書けます。コードに「いつもやってい…"
+      "id": "125e6e98b110",
+      "title": "【Docker Sandboxes】AIエージェントを安全に自律実行させる隔離環境",
+      "url": "https://zenn.dev/ykbone/articles/202608-docker-ai-agent-sandboxes",
+      "publishedAt": "2026-08-18T11:42:09.000Z",
+      "publisher": "ykbone",
+      "summary": "はじめに AIコーディングエージェントを用いて開発をしている際に、承認プロンプトを省いてエージェントに最大限の自律性を与える「YOLO mode」を使ったことがある方は多いのではないでしょうか？ ファイル変更のたびに承認を求められると作業…"
     },
     {
-      "id": "a12e5309afb4",
-      "title": "Codexでチェスコーチツールを作ってみた",
-      "url": "https://zenn.dev/wwwave/articles/32475aa04f91d4",
-      "publishedAt": "2026-08-18T07:05:10.000Z",
-      "publisher": "れん",
-      "summary": "はじめに こんにちは、AI大好きマンです！ 突然ですが、みんなさんはチェスが好きです？日本では、将棋や囲碁ほどの知名度がないが、近年はDuolingoやNetflixドラマのThe Queen's Gambitにおかげで、チェスプレイヤが…"
+      "id": "80fb4303baba",
+      "title": "禁止すれば安全、良い例を見せれば的確、資料を読ませれば賢くなる——本当に？",
+      "url": "https://zenn.dev/motimotinotch/articles/cd448e3f00a0af",
+      "publishedAt": "2026-08-18T11:41:34.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "AIに何かを頼むとき、多くの人はこう考える。「ダメなことは禁止しておけば安全」「良い回答例を見せておけば、その通りの精度で返してくれる」「関連資料を読ませれば読ませるほど、賢く答えてくれる」。 どれも直感的には正しく聞こえる。しかし個人開…"
     },
     {
-      "id": "2830e764efcf",
-      "title": "AXIOM Capsule DEMO最小構成で検証する「不変性・決定論・制約強制」",
-      "url": "https://zenn.dev/void09/articles/15b9a0f34f949c",
-      "publishedAt": "2026-08-18T07:02:09.000Z",
-      "publisher": "kishimoto-void",
-      "summary": "AXIOM Capsule DEMO 最小構成で検証する「不変性・決定論・制約強制」 AXIOM / PSS Capsule Architecture の核心部分を最小構成にした SHOWCASE DEMO / Prototype です。…"
+      "id": "80243d46a9d7",
+      "title": "Webアプリの「良い設計」を考えるためのHumane by Design入門",
+      "url": "https://zenn.dev/midpt/articles/designing-better-ai-built-web-apps-with-hbd",
+      "publishedAt": "2026-08-18T11:41:12.000Z",
+      "publisher": "midpoint",
+      "summary": "はじめに CodexやClaude CodeなどのAIツールにコーディングを任せることで、これまでよりはるかに速くWebアプリケーションを実装できるようになりました。 「通知機能を追加してください」 「操作しやすいUIに改善して」 「タス…"
     },
     {
-      "id": "fbeb0bdb58b7",
-      "title": "AIコンテキスト設計ガイド ── 規約を配ったのに守られない理由",
-      "url": "https://zenn.dev/tsutomusaito/books/ai-context-design-guide",
-      "publishedAt": "2026-08-18T04:50:59.000Z",
-      "publisher": "saito",
-      "summary": "Claude Code / Cursor / GitHub Copilot に規約を配る仕組みは、ruler や rulesync で既に解決済みです。 それでも「配ったのに守られない」は残ります。本書はそちら側だけを扱います。 層をどう…"
+      "id": "9054347b22e3",
+      "title": "AIがこっそり仕込むウォーターマークの仕組みを初心者向けにマンガで解説",
+      "url": "https://zenn.dev/syoshida07/articles/36fa4a0ee92126",
+      "publishedAt": "2026-08-18T11:18:28.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "ウォーターマークとは、AIが生成したコンテンツに「見えない目印」を埋め込み、後からAI生成であることを判定できるようにする技術です。 画像ではピクセルに情報を埋め込む方式が一般的ですが、テキストにはピクセルが存在しません。そのため、文章の…"
     },
     {
-      "id": "f945d0d2831d",
-      "title": "AIエージェントが「知っているはず」を間違える理由 — コンテキスト設計の実務",
-      "url": "https://zenn.dev/tsutomusaito/articles/ai-agent-context-design",
-      "publishedAt": "2026-08-18T04:50:55.000Z",
-      "publisher": "saito",
-      "summary": "対象: Claude Code / Cursor / Copilot Agent などを業務で毎日使っているエンジニア 前提知識: エージェント型のAIコーディングツールを数ヶ月以上使っていること この記事で解けること CLAUDE.md…"
+      "id": "cfde6e587fac",
+      "title": "Claudeが全出力に\"見えない透かし\"を入れ始めたので、AI使用を100%公言している個人開発者が検査を1本だけ足した話",
+      "url": "https://zenn.dev/abyssgate/articles/claude-watermark-full-disclosure-dev",
+      "publishedAt": "2026-08-18T10:28:24.000Z",
+      "publisher": "Abyssgate開発中",
+      "summary": "はじめに 2026年8月11日、Anthropicが「Claudeの生成物に機械可読なマークを入れる」と発表しました。テキストには読んでも分からない統計的な透かし、画像などのファイルにはC2PA形式の署名メタデータ。EU域内だけでなく、全…"
     },
     {
-      "id": "605d1680f694",
-      "title": "インストール数の15.8%が、検証済みコピーに乗っている",
-      "url": "https://zenn.dev/skillselion/articles/d473f8aa8b3e08",
-      "publishedAt": "2026-08-18T04:37:33.000Z",
-      "publisher": "Skillselion",
-      "summary": "トレンド名のスキルを入れる直前、インストール順でカタログを開く。同じ製品が3つの掲載に分かれていると、グラフは同じインストールを3回描いている。 SkillselionのClone Censusは、2026年8月12日に凍結したダンプだ。…"
+      "id": "4e5426996503",
+      "title": "AIは3Dをどこまで作れるのか — 2.5Dと高度な3D Geometryの間にある壁",
+      "url": "https://zenn.dev/0xliclog/articles/5fc37207df95a9",
+      "publishedAt": "2026-08-18T10:00:05.000Z",
+      "publisher": "0xL1C10G",
+      "summary": "まずは、次の4つのモデルを見てください。 4気筒のピストン・クランク機構 二段式ゼネバ機構 ツインローブルーツ機構 二段式遊星歯車機構 これらはすべて、Claude Opus 5がAutodesk Fusionを操作して作ったモデルです。…"
     },
     {
-      "id": "5ad83075146d",
-      "title": "エージェントは「差分の外」を読む：ADK for Go で AI レビューを作り直した実践",
-      "url": "https://zenn.dev/snknsk/articles/adk-go-agent-review-practice",
-      "publishedAt": "2026-08-18T04:22:18.000Z",
-      "publisher": "shouni",
-      "summary": "はじめに Git の差分を Gemini にレビューさせる Web アプリを半年あまり使ってきた。構造は単純で、差分を取り、プロンプトに埋めて、構造化出力で JSON を受け取る。LLM 呼び出しは 1 回だけ。 このアプリを ADK f…"
+      "id": "bb805cb3d4d5",
+      "title": "Gemini 3.7 Flash Is Here: What the Benchmarks Actually Say",
+      "url": "https://zenn.dev/neotechpark/articles/40546e4a398d29",
+      "publishedAt": "2026-08-18T09:53:04.000Z",
+      "publisher": "NeoTechPark",
+      "summary": "Google shipped Gemini 3.7 Flash just three weeks after 3.6 Flash, at half the launch price. Here is what the official b…"
     }
   ],
-  "fetchedAt": "2026-08-18T19:48:19.704Z",
+  "fetchedAt": "2026-08-18T20:19:08.404Z",
   "stale": false,
   "error": null
 }
