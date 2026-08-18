@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "fbeb0bdb58b7",
-      "title": "AIコンテキスト設計ガイド ── 規約を配ったのに守られない理由",
-      "url": "https://zenn.dev/tsutomusaito/books/ai-context-design-guide",
-      "publishedAt": "2026-08-18T04:50:59.000Z",
-      "publisher": "saito",
-      "summary": "Claude Code / Cursor / GitHub Copilot に規約を配る仕組みは、ruler や rulesync で既に解決済みです。 それでも「配ったのに守られない」は残ります。本書はそちら側だけを扱います。 層をどう…"
+      "id": "aeff901e7784",
+      "title": "FoundryのClaudeにWeb検索・MCPコネクタ等5機能、Hosted on Azure対応の実態",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/foundry-claude-server-tools-azure",
+      "publishedAt": "2026-08-18T14:11:02.000Z",
+      "publisher": "Kazu_AzureAI開拓",
+      "summary": "! 2026-08-18 時点の公式ブログ・ドキュメントに基づいています。後述の通り発表とドキュメントの記述に食い違いがある過渡期なので、導入判断の際は文末の一次ソースと自分のデプロイでの挙動を必ず確認してください。 先に結論 2026-…"
     },
     {
-      "id": "f945d0d2831d",
-      "title": "AIエージェントが「知っているはず」を間違える理由 — コンテキスト設計の実務",
-      "url": "https://zenn.dev/tsutomusaito/articles/ai-agent-context-design",
-      "publishedAt": "2026-08-18T04:50:55.000Z",
-      "publisher": "saito",
-      "summary": "対象: Claude Code / Cursor / Copilot Agent などを業務で毎日使っているエンジニア 前提知識: エージェント型のAIコーディングツールを数ヶ月以上使っていること この記事で解けること CLAUDE.md…"
+      "id": "c3035c645826",
+      "title": "AIエージェントを「チームメイト」に。OSSでセルフホストもできるMultica入門",
+      "url": "https://zenn.dev/sepi/articles/multica-ai-agent-selfhost",
+      "publishedAt": "2026-08-18T14:06:35.000Z",
+      "publisher": "sepi",
+      "summary": "! この記事はAI(生成AI)によって作成され、AIによるレビューを経たのち、公開前に人間によるレビューを受けています。 ! 本記事は情報公開・共有を目的として執筆しています。Multicaについては既に他の方が書かれた紹介記事も複数公開…"
     },
     {
-      "id": "605d1680f694",
-      "title": "インストール数の15.8%が、検証済みコピーに乗っている",
-      "url": "https://zenn.dev/skillselion/articles/d473f8aa8b3e08",
-      "publishedAt": "2026-08-18T04:37:33.000Z",
-      "publisher": "Skillselion",
-      "summary": "トレンド名のスキルを入れる直前、インストール順でカタログを開く。同じ製品が3つの掲載に分かれていると、グラフは同じインストールを3回描いている。 SkillselionのClone Censusは、2026年8月12日に凍結したダンプだ。…"
+      "id": "d9d1bfef10c2",
+      "title": "【紹介リンクあり】RunPodの料金体系を徹底解説！GPU別単価・ストレージ課金の落とし穴・最安運用のコツ",
+      "url": "https://zenn.dev/studysun/articles/ef264131dd0d76",
+      "publishedAt": "2026-08-18T13:59:33.000Z",
+      "publisher": "StudySun",
+      "summary": "! 🎁 初回登録特典（無料クレジット付与）について 紹介リンク経由で新規登録し、$10以上チャージして利用を開始すると、$5〜$500相当のボーナスクレジット がランダム（最低でも$5〜$10以上、運が良ければ最大$500）で付与されま…"
     },
     {
-      "id": "5ad83075146d",
-      "title": "エージェントは「差分の外」を読む：ADK for Go で AI レビューを作り直した実践",
-      "url": "https://zenn.dev/snknsk/articles/adk-go-agent-review-practice",
-      "publishedAt": "2026-08-18T04:22:18.000Z",
-      "publisher": "shouni",
-      "summary": "はじめに Git の差分を Gemini にレビューさせる Web アプリを半年あまり使ってきた。構造は単純で、差分を取り、プロンプトに埋めて、構造化出力で JSON を受け取る。LLM 呼び出しは 1 回だけ。 このアプリを ADK f…"
+      "id": "d400b6316c69",
+      "title": "CPUのみでローカルLLMする",
+      "url": "https://zenn.dev/ashidan/articles/tech_llm_cpu_a",
+      "publishedAt": "2026-08-18T13:55:19.000Z",
+      "publisher": "molelord",
+      "summary": "Windowsかつ、CPUのみでローカルLLMしたい RAMが16GB以上ある 少し手間がかかっても性能を上げたい というニッチな需要を満たす記事です。 なお、この記事は2026年8月17日の情報を元に書かれています。llama.cppの…"
     },
     {
-      "id": "f770377bead7",
-      "title": "AIの拡張機能を1行で読ませたら5種類の部品が一度に入った。名前を1語変えただけで、同じ中身が5回中0回から3回中3回に化けた",
-      "url": "https://zenn.dev/numarn/articles/claude-plugin-dir-runtime-parts-handson",
-      "publishedAt": "2026-08-18T04:17:49.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "Claude Code(ターミナルで動くAIの作業役)には、プラグインという仕組みがあります。設定ファイルや自動処理をひとまとめにしたフォルダを渡すと、その中身がまるごとAIの作業環境に入る、という機能です。 「フォルダを1つ渡すだけで、…"
+      "id": "76592a09da4e",
+      "title": "2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較",
+      "url": "https://zenn.dev/secure_auto_lab/articles/local-llm-5model-benchmark-2026",
+      "publishedAt": "2026-08-18T13:35:18.000Z",
+      "publisher": "セキュア＆オートラボ",
+      "summary": "2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較 同じ27Bなのに、生成速度2.4倍。 2026年8月13日に公開されたQwen3.8-27Bを実測し、1ヶ月前に組んだ構成を迷わず入れ替…"
     },
     {
-      "id": "adc69e4331a6",
-      "title": "Devinを1週間試して導入をやめた話",
-      "url": "https://zenn.dev/vesslabs/articles/da9593d77369ee",
-      "publishedAt": "2026-08-18T04:08:12.000Z",
-      "publisher": "VESS Labs",
-      "summary": "Devinを1週間試して、導入をやめた話 自律型のコーディングエージェント Devin を 1 週間評価して、導入しないことに決めました。 動かなかったから諦めたわけではありません。3 つのリポジトリで実行環境が立ち上がり、GitHub …"
+      "id": "14b27465bb56",
+      "title": "ComfyUIのノード地獄から解放！MiniMax動画・画像生成を「Agent Skill」と「専用GUI」で誰でも扱えるようにした話",
+      "url": "https://zenn.dev/lumichy/articles/comfyui-minimax-agent-skill-studio-2026",
+      "publishedAt": "2026-08-18T12:29:26.000Z",
+      "publisher": "lumichy",
+      "summary": "前回の記事（MiniMax H3 × ComfyUI 徹底解説ガイド）では、最新のオープンソース全模態（マルチモーダル）AI動画生成モデル 「MiniMax H3」 と ComfyUI を組み合わせて、ローカル環境で高品質な動画や音声を生…"
     },
     {
-      "id": "a8f894bfaac6",
-      "title": "「タスクがありません」を無くす — 自分も手を動かすリードのための、プル型タスク設計",
-      "url": "https://zenn.dev/shigerufukada/articles/ffbcc4b15e1fed",
-      "publishedAt": "2026-08-18T04:02:09.000Z",
-      "publisher": "Fukada",
-      "summary": "課題: プレイングリードがボトルネックになる 自分にとっても未知の技術を使い、公開日が決まっていて、直列の工程（クリティカルパス）があるプロジェクトを、少人数のチームで進めていました。しかもリードである自分が、そのクリティカルパス上の作業…"
+      "id": "ebb30dbaef9a",
+      "title": "AIオーディオはテキスト読み上げの時代を離れつつある",
+      "url": "https://zenn.dev/funnycoding/articles/4597a8849691f5",
+      "publishedAt": "2026-08-18T12:19:33.000Z",
+      "publisher": "funnycoding",
+      "summary": "AIオーディオは「テキスト読み上げ」の時代を超えつつある Seed Audio 1.0が示す、音声・サウンドデザイン・マルチモーダル制作の未来 ここ数年、「AIオーディオ」と呼ばれる製品の多くは、それぞれ独立したタスクに特化してきました。…"
     },
     {
-      "id": "05c38827c7c2",
-      "title": "AI が作る「ドット絵風」を本物のドット絵に変換する Web ツール「Pixel Refiner」を作りました",
-      "url": "https://zenn.dev/happy_onigiri/articles/1a0601d2afec2c",
-      "publishedAt": "2026-08-18T03:53:46.000Z",
-      "publisher": "HappyOnigiri",
-      "summary": "画像生成 AI は、ドット絵も描けるようになりました。 少なくとも、遠目にはそう見えます。 私はドット絵のイラストが好きで、SNS のアイコンやプロダクト紹介の 1 枚絵に使いたいと思っていました。 絵心はありませんが、いまは AI が描…"
+      "id": "e6c11ef9d954",
+      "title": "【CC0】プラカゴのステッチを数理コード化したら、AIに「将来のために」とWebアプリまで作らされた話",
+      "url": "https://zenn.dev/craftbandlabo/articles/89c1e9886a6ef2",
+      "publishedAt": "2026-08-18T12:08:00.000Z",
+      "publisher": "haru@CraftBandLabo",
+      "summary": "はじめに：プラカゴのステッチとは 初めまして。クラフトバンド・ラボのharuです。 趣味で、平らな素材を使ったカゴをデザインするフリーソフトを開発するとともに、そのソフトを使ってカゴやパッチワークの模様など、さまざまな応用を試作しています…"
     },
     {
-      "id": "abd9d18c361e",
-      "title": "一人で広告動画をサクッと作れるようになった話｜AI ツールを実務で使ってみた感想",
-      "url": "https://zenn.dev/derek/articles/872460c2909e5b",
-      "publishedAt": "2026-08-18T03:11:06.000Z",
-      "publisher": "derek",
-      "summary": "最近、個人で小さなプロモーション動画を作ることが増えた。外注すると時間もお金もかかるし、自分で全部やろうとすると素材集めとナレーション録音で半日溶ける。そんな悩みから、試しに AI を使ってみることにした。 素材作りで感じた変化 最初に触…"
+      "id": "c6c8df58b449",
+      "title": "中学生の期末試験対策を、Claude Codeで“AI家庭教師チーム”運用してみた",
+      "url": "https://zenn.dev/jiro2026/articles/claude-code-ai-katei-kyoshi-team",
+      "publishedAt": "2026-08-18T12:07:01.000Z",
+      "publisher": "Jiro",
+      "summary": "はじめに 中学校程度の学習であれば、「苦手の把握 → 対策の実施 → 再チェック → 対策の見直し」というPDCAサイクルをきちんと回すことが有効だと考えています。ただ、これを一人ひとりに合わせて手軽にやろうとすると、これまでは学習塾や家…"
     },
     {
-      "id": "894b663e4180",
-      "title": "LLMO対策の効果、どうやって測っていますか——観測プロンプトの3階層設計と、10エンジン計測の現実",
-      "url": "https://zenn.dev/penbit_lab/articles/ba054b04fbc8eb",
-      "publishedAt": "2026-08-18T03:10:05.000Z",
-      "publisher": "Penbit Lab",
-      "summary": "「AI検索対策やってます」の次に来る質問 構造化データを入れた。E-E-A-Tを意識して著者情報を整備した。一問一答形式の見出しに書き換えた。llms.txt も置いた。 ——それで、効果はあったんでしょうか？ LLMO / GEO / …"
+      "id": "4bba4c2020cb",
+      "title": "ローカルLLM編成が単独のフロンティアAIを超えた日",
+      "url": "https://zenn.dev/nrs/articles/b920540a64e1a1",
+      "publishedAt": "2026-08-18T11:42:49.000Z",
+      "publisher": "nrs",
+      "summary": "OpenAI や Anthropic のフロンティアモデルの性能はとてもよいのですが、経済性がよくありません。 日次や週次のレート制限がどれだけあなたを苛立たせたでしょう。 また、毎日の仕事道具の生殺与奪を誰かの方針に握られているのも気に…"
     },
     {
-      "id": "4e22da9ab788",
-      "title": "AIが「できたか分からない」と言ったとき、もう一度やらせてはいけない",
-      "url": "https://zenn.dev/humanos_lab/articles/fe8fddb2b7e177",
-      "publishedAt": "2026-08-18T03:01:08.000Z",
-      "publisher": "HUMAN OS @ ゼロから極めるAI研究員",
-      "summary": "―― 二重実行・Commit-Unknownから考えるAI Agentの安全設計 AI Agentに「メールを送って」と頼んだ。 AIは外部サービスへ送信要求を出した。ところが直後に通信が切れ、 「成功したか分かりません」 と返してきた。…"
+      "id": "125e6e98b110",
+      "title": "【Docker Sandboxes】AIエージェントを安全に自律実行させる隔離環境",
+      "url": "https://zenn.dev/ykbone/articles/202608-docker-ai-agent-sandboxes",
+      "publishedAt": "2026-08-18T11:42:09.000Z",
+      "publisher": "ykbone",
+      "summary": "はじめに AIコーディングエージェントを用いて開発をしている際に、承認プロンプトを省いてエージェントに最大限の自律性を与える「YOLO mode」を使ったことがある方は多いのではないでしょうか？ ファイル変更のたびに承認を求められると作業…"
     },
     {
-      "id": "0a72dd0e7b6e",
-      "title": "セッション同士が話せるようになっても、私は PO への仲介役をやめられない",
-      "url": "https://zenn.dev/flinters_blog/articles/217801a0cca9e2",
-      "publishedAt": "2026-08-18T03:00:05.000Z",
-      "publisher": "Takashi Kawachi",
-      "summary": "はじめに こんにちは。FLINTERSの河内です。 実装を任せた Claude Code が止まるとき、原因が技術的な問題であることは意外と少ないです。多いのは「この仕様は PO（プロダクトオーナー）の判断がないと決められない」「この挙動…"
+      "id": "80fb4303baba",
+      "title": "禁止すれば安全、良い例を見せれば的確、資料を読ませれば賢くなる——本当に？",
+      "url": "https://zenn.dev/motimotinotch/articles/cd448e3f00a0af",
+      "publishedAt": "2026-08-18T11:41:34.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "AIに何かを頼むとき、多くの人はこう考える。「ダメなことは禁止しておけば安全」「良い回答例を見せておけば、その通りの精度で返してくれる」「関連資料を読ませれば読ませるほど、賢く答えてくれる」。 どれも直感的には正しく聞こえる。しかし個人開…"
     }
   ],
-  "fetchedAt": "2026-08-18T15:45:43.209Z",
+  "fetchedAt": "2026-08-18T16:26:36.498Z",
   "stale": false,
   "error": null
 }
