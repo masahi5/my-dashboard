@@ -6,44 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "d845b8d7091a",
-      "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
-      "url": "https://huggingface.co/papers/2608.15265",
-      "publishedAt": "2026-08-15T00:00:00.000Z",
-      "summary": "Constructing an interactive 3D open world from a user query is important. However, existing methods are primarily evalu…",
-      "score": 24
-    },
-    {
-      "id": "327b0db8747d",
-      "title": "GenRouter: Unified Workflow Routing for Agentic Image Generation",
-      "url": "https://huggingface.co/papers/2608.16721",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "The rapid evolution of text-to-image (T2I) generation models has effectively solved the foundational challenge of raw p…",
-      "score": 12
-    },
-    {
-      "id": "0988de291485",
-      "title": "R^3-Bench: LLMs Struggle with Resource-Rational Reasoning under Shared Budgets",
-      "url": "https://huggingface.co/papers/2608.16033",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "In cognitive science, resource rationality asks how an agent should allocate limited computation to maximize expected v…",
-      "score": 9
-    },
-    {
-      "id": "17909d461ee1",
-      "title": "Understanding Cognition-Induced Risks in Agentic AI Systems",
-      "url": "https://huggingface.co/papers/2608.15304",
-      "publishedAt": "2026-08-15T00:00:00.000Z",
-      "summary": "Frontier agentic systems powered by large language models (LLMs) exhibit human-like patterns of cognition. As these sys…",
-      "score": 9
-    },
-    {
       "id": "61ae6887e073",
       "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
       "url": "https://huggingface.co/papers/2608.16798",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with t…",
-      "score": 7
+      "score": 12
     },
     {
       "id": "eb37d752fcfa",
@@ -51,7 +19,23 @@
       "url": "https://huggingface.co/papers/2608.15930",
       "publishedAt": "2026-08-16T00:00:00.000Z",
       "summary": "Foundation GUI agents can automate complex digital tasks, but deployment is hindered by scarce and biased training data…",
-      "score": 3
+      "score": 10
+    },
+    {
+      "id": "1fbaefc117a4",
+      "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+      "url": "https://huggingface.co/papers/2608.16859",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifi…",
+      "score": 9
+    },
+    {
+      "id": "2869824402ce",
+      "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
+      "url": "https://huggingface.co/papers/2608.16887",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models. Although …",
+      "score": 6
     },
     {
       "id": "eb510f853704",
@@ -59,7 +43,15 @@
       "url": "https://huggingface.co/papers/2608.14718",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Video understanding is a fundamental task for evaluating the capabilities of multimodal large language models (MLLMs). …",
-      "score": 1
+      "score": 4
+    },
+    {
+      "id": "c3192221f972",
+      "title": "PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments",
+      "url": "https://huggingface.co/papers/2608.14441",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Self-evolving agents improve future behavior from interaction experience, yet existing evaluations typically optimize u…",
+      "score": 3
     },
     {
       "id": "8fe2785eba71",
@@ -67,6 +59,22 @@
       "url": "https://huggingface.co/papers/2608.15698",
       "publishedAt": "2026-08-16T00:00:00.000Z",
       "summary": "Visual document retrieval is a critical component of multimodal retrieval-augmented generation, aiming to identify quer…",
+      "score": 2
+    },
+    {
+      "id": "474ac86676d3",
+      "title": "When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse",
+      "url": "https://huggingface.co/papers/2608.06947",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Retrieval-augmented generation (RAG) is indispensable for enhancing large language models. However, RAGs are increasing…",
+      "score": 1
+    },
+    {
+      "id": "8bb272923b12",
+      "title": "Ventor-QTest: Threat-Model-Driven Verification of Vendor-Hosted LLM APIs",
+      "url": "https://huggingface.co/papers/2608.16391",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "As large language models become increasingly widespread, third-party providers that deploy open-weight models have beco…",
       "score": 1
     },
     {
@@ -78,31 +86,23 @@
       "score": 1
     },
     {
+      "id": "f9fbf0376a38",
+      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+      "url": "https://huggingface.co/papers/2608.16884",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method c…",
+      "score": 0
+    },
+    {
       "id": "7b487ebed9d6",
       "title": "Position: AI Agents in Scientific Teams Should Be Studied as Human-Agent Systems",
       "url": "https://huggingface.co/papers/2608.14667",
       "publishedAt": "2026-08-02T00:00:00.000Z",
       "summary": "Large language model-based agents are increasingly deployed as collaborators in scientific discovery yet most current w…",
       "score": 0
-    },
-    {
-      "id": "474ac86676d3",
-      "title": "When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse",
-      "url": "https://huggingface.co/papers/2608.06947",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Retrieval-augmented generation (RAG) is indispensable for enhancing large language models. However, RAGs are increasing…",
-      "score": 0
-    },
-    {
-      "id": "8bb272923b12",
-      "title": "Ventor-QTest: Threat-Model-Driven Verification of Vendor-Hosted LLM APIs",
-      "url": "https://huggingface.co/papers/2608.16391",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "As large language models become increasingly widespread, third-party providers that deploy open-weight models have beco…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-18T03:22:30.750Z",
+  "fetchedAt": "2026-08-18T04:06:43.172Z",
   "stale": false,
   "error": null
 }
