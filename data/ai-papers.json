@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "61ae6887e073",
-      "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
-      "url": "https://huggingface.co/papers/2608.16798",
+      "id": "1fbaefc117a4",
+      "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+      "url": "https://huggingface.co/papers/2608.16859",
       "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with t…",
-      "score": 12
+      "summary": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifi…",
+      "score": 29
     },
     {
       "id": "eb37d752fcfa",
@@ -19,15 +19,7 @@
       "url": "https://huggingface.co/papers/2608.15930",
       "publishedAt": "2026-08-16T00:00:00.000Z",
       "summary": "Foundation GUI agents can automate complex digital tasks, but deployment is hindered by scarce and biased training data…",
-      "score": 10
-    },
-    {
-      "id": "1fbaefc117a4",
-      "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
-      "url": "https://huggingface.co/papers/2608.16859",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifi…",
-      "score": 9
+      "score": 20
     },
     {
       "id": "2869824402ce",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.16887",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models. Although …",
-      "score": 6
+      "score": 9
     },
     {
       "id": "eb510f853704",
@@ -43,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.14718",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Video understanding is a fundamental task for evaluating the capabilities of multimodal large language models (MLLMs). …",
-      "score": 4
+      "score": 5
     },
     {
       "id": "c3192221f972",
@@ -54,35 +46,35 @@
       "score": 3
     },
     {
-      "id": "8fe2785eba71",
-      "title": "ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval",
-      "url": "https://huggingface.co/papers/2608.15698",
-      "publishedAt": "2026-08-16T00:00:00.000Z",
-      "summary": "Visual document retrieval is a critical component of multimodal retrieval-augmented generation, aiming to identify quer…",
+      "id": "5a7ed2e0051e",
+      "title": "AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model",
+      "url": "https://huggingface.co/papers/2608.16143",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "We present AnyTalk, a novel method for generating 3D speech animations for arbitrary characters without requiring any a…",
       "score": 2
     },
     {
-      "id": "474ac86676d3",
-      "title": "When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse",
-      "url": "https://huggingface.co/papers/2608.06947",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Retrieval-augmented generation (RAG) is indispensable for enhancing large language models. However, RAGs are increasing…",
-      "score": 1
-    },
-    {
-      "id": "8bb272923b12",
-      "title": "Ventor-QTest: Threat-Model-Driven Verification of Vendor-Hosted LLM APIs",
-      "url": "https://huggingface.co/papers/2608.16391",
+      "id": "69584ff84fa6",
+      "title": "Prior Audit-Repair Context Shifts LLM Verifier Thresholds Toward Leniency",
+      "url": "https://huggingface.co/papers/2608.16003",
       "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "As large language models become increasingly widespread, third-party providers that deploy open-weight models have beco…",
-      "score": 1
+      "summary": "Automated checking pipelines increasingly place one language model as the checker and another (or the same one) as the …",
+      "score": 2
     },
     {
-      "id": "a29c5d99e895",
-      "title": "ENTLORE: A Graph-Grounded Benchmark for Latent Organizational Reasoning in Enterprise Question Answering",
-      "url": "https://huggingface.co/papers/2608.10679",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Enterprise question answering is framed as retrieving internal documents and generating grounded answers. Routine enter…",
+      "id": "e34901d80ff4",
+      "title": "Gathered, Not Admitted: How Attention Brings a Latent Variable into Verbalizable Form",
+      "url": "https://huggingface.co/papers/2608.15022",
+      "publishedAt": "2026-08-15T00:00:00.000Z",
+      "summary": "Language models hold latent quantities in a form they can report on, and more of a quantity is present in that form whe…",
+      "score": 2
+    },
+    {
+      "id": "8d1f5a209b99",
+      "title": "Drive, Pack, Fly: The Travelling Thief Problem with Drone",
+      "url": "https://huggingface.co/papers/2608.16435",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "In collection operations, accumulating payload progressively slows the vehicle, imposing a cumulative penalty on routin…",
       "score": 1
     },
     {
@@ -91,7 +83,7 @@
       "url": "https://huggingface.co/papers/2608.16884",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method c…",
-      "score": 0
+      "score": 1
     },
     {
       "id": "7b487ebed9d6",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2608.14667",
       "publishedAt": "2026-08-02T00:00:00.000Z",
       "summary": "Large language model-based agents are increasingly deployed as collaborators in scientific discovery yet most current w…",
-      "score": 0
+      "score": 1
+    },
+    {
+      "id": "474ac86676d3",
+      "title": "When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse",
+      "url": "https://huggingface.co/papers/2608.06947",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Retrieval-augmented generation (RAG) is indispensable for enhancing large language models. However, RAGs are increasing…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-18T04:06:43.172Z",
+  "fetchedAt": "2026-08-18T04:50:57.150Z",
   "stale": false,
   "error": null
 }
