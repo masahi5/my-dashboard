@@ -6,46 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "aeff901e7784",
-      "title": "FoundryのClaudeにWeb検索・MCPコネクタ等5機能、Hosted on Azure対応の実態",
-      "url": "https://zenn.dev/kazu_aiengineer/articles/foundry-claude-server-tools-azure",
-      "publishedAt": "2026-08-18T14:11:02.000Z",
-      "publisher": "Kazu_AzureAI開拓",
-      "summary": "! 2026-08-18 時点の公式ブログ・ドキュメントに基づいています。後述の通り発表とドキュメントの記述に食い違いがある過渡期なので、導入判断の際は文末の一次ソースと自分のデプロイでの挙動を必ず確認してください。 先に結論 2026-…"
-    },
-    {
-      "id": "c3035c645826",
-      "title": "AIエージェントを「チームメイト」に。OSSでセルフホストもできるMultica入門",
-      "url": "https://zenn.dev/sepi/articles/multica-ai-agent-selfhost",
-      "publishedAt": "2026-08-18T14:06:35.000Z",
-      "publisher": "sepi",
-      "summary": "! この記事はAI(生成AI)によって作成され、AIによるレビューを経たのち、公開前に人間によるレビューを受けています。 ! 本記事は情報公開・共有を目的として執筆しています。Multicaについては既に他の方が書かれた紹介記事も複数公開…"
-    },
-    {
-      "id": "d9d1bfef10c2",
-      "title": "【紹介リンクあり】RunPodの料金体系を徹底解説！GPU別単価・ストレージ課金の落とし穴・最安運用のコツ",
-      "url": "https://zenn.dev/studysun/articles/ef264131dd0d76",
-      "publishedAt": "2026-08-18T13:59:33.000Z",
-      "publisher": "StudySun",
-      "summary": "! 🎁 初回登録特典（無料クレジット付与）について 紹介リンク経由で新規登録し、$10以上チャージして利用を開始すると、$5〜$500相当のボーナスクレジット がランダム（最低でも$5〜$10以上、運が良ければ最大$500）で付与されま…"
-    },
-    {
-      "id": "d400b6316c69",
-      "title": "CPUのみでローカルLLMする",
-      "url": "https://zenn.dev/ashidan/articles/tech_llm_cpu_a",
-      "publishedAt": "2026-08-18T13:55:19.000Z",
-      "publisher": "molelord",
-      "summary": "Windowsかつ、CPUのみでローカルLLMしたい RAMが16GB以上ある 少し手間がかかっても性能を上げたい というニッチな需要を満たす記事です。 なお、この記事は2026年8月17日の情報を元に書かれています。llama.cppの…"
-    },
-    {
-      "id": "76592a09da4e",
-      "title": "2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較",
-      "url": "https://zenn.dev/secure_auto_lab/articles/local-llm-5model-benchmark-2026",
-      "publishedAt": "2026-08-18T13:35:18.000Z",
-      "publisher": "セキュア＆オートラボ",
-      "summary": "2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較 同じ27Bなのに、生成速度2.4倍。 2026年8月13日に公開されたQwen3.8-27Bを実測し、1ヶ月前に組んだ構成を迷わず入れ替…"
-    },
-    {
       "id": "14b27465bb56",
       "title": "ComfyUIのノード地獄から解放！MiniMax動画・画像生成を「Agent Skill」と「専用GUI」で誰でも扱えるようにした話",
       "url": "https://zenn.dev/lumichy/articles/comfyui-minimax-agent-skill-studio-2026",
@@ -100,9 +60,49 @@
       "publishedAt": "2026-08-18T11:41:34.000Z",
       "publisher": "MotimotiNotch",
       "summary": "AIに何かを頼むとき、多くの人はこう考える。「ダメなことは禁止しておけば安全」「良い回答例を見せておけば、その通りの精度で返してくれる」「関連資料を読ませれば読ませるほど、賢く答えてくれる」。 どれも直感的には正しく聞こえる。しかし個人開…"
+    },
+    {
+      "id": "80243d46a9d7",
+      "title": "Webアプリの「良い設計」を考えるためのHumane by Design入門",
+      "url": "https://zenn.dev/midpt/articles/designing-better-ai-built-web-apps-with-hbd",
+      "publishedAt": "2026-08-18T11:41:12.000Z",
+      "publisher": "midpoint",
+      "summary": "はじめに CodexやClaude CodeなどのAIツールにコーディングを任せることで、これまでよりはるかに速くWebアプリケーションを実装できるようになりました。 「通知機能を追加してください」 「操作しやすいUIに改善して」 「タス…"
+    },
+    {
+      "id": "9054347b22e3",
+      "title": "AIがこっそり仕込むウォーターマークの仕組みを初心者向けにマンガで解説",
+      "url": "https://zenn.dev/syoshida07/articles/36fa4a0ee92126",
+      "publishedAt": "2026-08-18T11:18:28.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "ウォーターマークとは、AIが生成したコンテンツに「見えない目印」を埋め込み、後からAI生成であることを判定できるようにする技術です。 画像ではピクセルに情報を埋め込む方式が一般的ですが、テキストにはピクセルが存在しません。そのため、文章の…"
+    },
+    {
+      "id": "cfde6e587fac",
+      "title": "Claudeが全出力に\"見えない透かし\"を入れ始めたので、AI使用を100%公言している個人開発者が検査を1本だけ足した話",
+      "url": "https://zenn.dev/abyssgate/articles/claude-watermark-full-disclosure-dev",
+      "publishedAt": "2026-08-18T10:28:24.000Z",
+      "publisher": "Abyssgate開発中",
+      "summary": "はじめに 2026年8月11日、Anthropicが「Claudeの生成物に機械可読なマークを入れる」と発表しました。テキストには読んでも分からない統計的な透かし、画像などのファイルにはC2PA形式の署名メタデータ。EU域内だけでなく、全…"
+    },
+    {
+      "id": "4e5426996503",
+      "title": "AIは3Dをどこまで作れるのか — 2.5Dと高度な3D Geometryの間にある壁",
+      "url": "https://zenn.dev/0xliclog/articles/5fc37207df95a9",
+      "publishedAt": "2026-08-18T10:00:05.000Z",
+      "publisher": "0xL1C10G",
+      "summary": "まずは、次の4つのモデルを見てください。 4気筒のピストン・クランク機構 二段式ゼネバ機構 ツインローブルーツ機構 二段式遊星歯車機構 これらはすべて、Claude Opus 5がAutodesk Fusionを操作して作ったモデルです。…"
+    },
+    {
+      "id": "bb805cb3d4d5",
+      "title": "Gemini 3.7 Flash Is Here: What the Benchmarks Actually Say",
+      "url": "https://zenn.dev/neotechpark/articles/40546e4a398d29",
+      "publishedAt": "2026-08-18T09:53:04.000Z",
+      "publisher": "NeoTechPark",
+      "summary": "Google shipped Gemini 3.7 Flash just three weeks after 3.6 Flash, at half the launch price. Here is what the official b…"
     }
   ],
-  "fetchedAt": "2026-08-18T23:17:56.746Z",
+  "fetchedAt": "2026-08-18T23:45:51.156Z",
   "stale": false,
   "error": null
 }
