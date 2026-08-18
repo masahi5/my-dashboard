@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.16859",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifi…",
-      "score": 33
+      "score": 36
     },
     {
       "id": "2869824402ce",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.16887",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models. Although …",
-      "score": 14
+      "score": 17
     },
     {
       "id": "fc3381552ed0",
@@ -27,7 +27,15 @@
       "url": "https://huggingface.co/papers/2608.16072",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Reinforcement learning (RL) with group-relative advantages has become the de facto standard for post-training language …",
-      "score": 4
+      "score": 8
+    },
+    {
+      "id": "68062cb82ec4",
+      "title": "TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation",
+      "url": "https://huggingface.co/papers/2608.16765",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Despite recent advances in unified multimodal models for multi-reference image generation, existing benchmarks remain o…",
+      "score": 3
     },
     {
       "id": "5a7ed2e0051e",
@@ -35,14 +43,6 @@
       "url": "https://huggingface.co/papers/2608.16143",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "We present AnyTalk, a novel method for generating 3D speech animations for arbitrary characters without requiring any a…",
-      "score": 3
-    },
-    {
-      "id": "c3192221f972",
-      "title": "PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments",
-      "url": "https://huggingface.co/papers/2608.14441",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Self-evolving agents improve future behavior from interaction experience, yet existing evaluations typically optimize u…",
       "score": 3
     },
     {
@@ -62,12 +62,20 @@
       "score": 2
     },
     {
-      "id": "f9fbf0376a38",
-      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
-      "url": "https://huggingface.co/papers/2608.16884",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method c…",
-      "score": 2
+      "id": "248d632c6fa1",
+      "title": "WorldRover: A Scalable Synthetic Video Data Engine for World Exploration with Rich Annotations",
+      "url": "https://huggingface.co/papers/2608.15659",
+      "publishedAt": "2026-08-16T00:00:00.000Z",
+      "summary": "Learning to generate or reconstruct explorable worlds requires video paired with more than RGB: camera motion, scene ge…",
+      "score": 1
+    },
+    {
+      "id": "a92e6ebb694f",
+      "title": "DumpsterCluster: From Dumpster Diving to Serving LLaMA-70B on $60 GPUs",
+      "url": "https://huggingface.co/papers/2608.14614",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "summary": "As AI datacenters retire functional GPUs, vast quantities of still capable accelerators enter secondary markets. This p…",
+      "score": 1
     },
     {
       "id": "8d1f5a209b99",
@@ -86,14 +94,6 @@
       "score": 0
     },
     {
-      "id": "a92e6ebb694f",
-      "title": "DumpsterCluster: From Dumpster Diving to Serving LLaMA-70B on $60 GPUs",
-      "url": "https://huggingface.co/papers/2608.14614",
-      "publishedAt": "2026-07-10T00:00:00.000Z",
-      "summary": "As AI datacenters retire functional GPUs, vast quantities of still capable accelerators enter secondary markets. This p…",
-      "score": 0
-    },
-    {
       "id": "409aa7af827c",
       "title": "HiFi-BRep: High-Fidelity Latent Representation for Robust B-Rep Generation",
       "url": "https://huggingface.co/papers/2608.16485",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-18T07:24:05.748Z",
+  "fetchedAt": "2026-08-18T08:02:16.343Z",
   "stale": false,
   "error": null
 }
