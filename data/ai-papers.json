@@ -6,20 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "1fbaefc117a4",
-      "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
-      "url": "https://huggingface.co/papers/2608.16859",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifi…",
-      "score": 49
-    },
-    {
       "id": "301bda783b99",
       "title": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
       "url": "https://huggingface.co/papers/2608.15669",
       "publishedAt": "2026-08-16T00:00:00.000Z",
       "summary": "Scientific discovery often involves optimising expensive-to-evaluate objectives over vast, structured, and open-ended h…",
-      "score": 18
+      "score": 22
+    },
+    {
+      "id": "bbc3e6a81f06",
+      "title": "MOSS-VL Technical Report",
+      "url": "https://huggingface.co/papers/2608.15045",
+      "publishedAt": "2026-08-15T00:00:00.000Z",
+      "summary": "We present MOSS-VL, an open vision-language model family that treats real-time interaction -- perceiving while it speak…",
+      "score": 20
     },
     {
       "id": "fc3381552ed0",
@@ -27,7 +27,15 @@
       "url": "https://huggingface.co/papers/2608.16072",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Reinforcement learning (RL) with group-relative advantages has become the de facto standard for post-training language …",
-      "score": 13
+      "score": 17
+    },
+    {
+      "id": "10521564e737",
+      "title": "How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks",
+      "url": "https://huggingface.co/papers/2608.14905",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "AI has long assisted scientific research, but the rapid advance of LLMs and agentic scaffolds is reshaping the landscap…",
+      "score": 16
     },
     {
       "id": "68062cb82ec4",
@@ -46,20 +54,12 @@
       "score": 3
     },
     {
-      "id": "69584ff84fa6",
-      "title": "Prior Audit-Repair Context Shifts LLM Verifier Thresholds Toward Leniency",
-      "url": "https://huggingface.co/papers/2608.16003",
+      "id": "f127fcb912d1",
+      "title": "A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models",
+      "url": "https://huggingface.co/papers/2608.15984",
       "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Automated checking pipelines increasingly place one language model as the checker and another (or the same one) as the …",
-      "score": 2
-    },
-    {
-      "id": "e34901d80ff4",
-      "title": "Gathered, Not Admitted: How Attention Brings a Latent Variable into Verbalizable Form",
-      "url": "https://huggingface.co/papers/2608.15022",
-      "publishedAt": "2026-08-15T00:00:00.000Z",
-      "summary": "Language models hold latent quantities in a form they can report on, and more of a quantity is present in that form whe…",
-      "score": 2
+      "summary": "Motion Language Models (MoLMs) typically understand human motions by tokenizing 3D motion and processing the resulting …",
+      "score": 1
     },
     {
       "id": "248d632c6fa1",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-18T08:52:53.613Z",
+  "fetchedAt": "2026-08-18T09:28:39.126Z",
   "stale": false,
   "error": null
 }
