@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "aae96af68a6b",
-      "title": "Claude Codeの使用量を自力集計したら97%がキャッシュ再読だった",
-      "url": "https://zenn.dev/zenn_content/articles/claude-code-usage-self-audit",
-      "publishedAt": "2026-08-17T21:30:13.000Z",
-      "publisher": "krbrr",
-      "summary": "結論から Claude Codeを1週間使った自分の環境のトークンを、UI表示ではなく一次データ（セッションのjsonlファイル）から直接集計しました。結果がこれです。 内訳 トークン数 比率 cache_read（キャッシュ再読） 32…"
+      "id": "fbeb0bdb58b7",
+      "title": "AIコンテキスト設計ガイド ── 規約を配ったのに守られない理由",
+      "url": "https://zenn.dev/tsutomusaito/books/ai-context-design-guide",
+      "publishedAt": "2026-08-18T04:50:59.000Z",
+      "publisher": "saito",
+      "summary": "Claude Code / Cursor / GitHub Copilot に規約を配る仕組みは、ruler や rulesync で既に解決済みです。 それでも「配ったのに守られない」は残ります。本書はそちら側だけを扱います。 層をどう…"
     },
     {
-      "id": "0b305201a97a",
-      "title": "常駐AIエージェントの「会話を忘れない」を支えるコンテキスト圧縮設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-context-compaction-design",
-      "publishedAt": "2026-08-17T21:12:38.000Z",
-      "publisher": "HACH",
-      "summary": "チャットに常駐するAIエージェントは、1回のやり取りで完結するチャットボットと違い、同じワークスペースで数ヶ月〜数年単位のやり取りを持ち続けることが前提になります。ここで必ずぶつかるのが、LLMのコンテキストウィンドウには物理的な上限があ…"
+      "id": "f945d0d2831d",
+      "title": "AIエージェントが「知っているはず」を間違える理由 — コンテキスト設計の実務",
+      "url": "https://zenn.dev/tsutomusaito/articles/ai-agent-context-design",
+      "publishedAt": "2026-08-18T04:50:55.000Z",
+      "publisher": "saito",
+      "summary": "対象: Claude Code / Cursor / Copilot Agent などを業務で毎日使っているエンジニア 前提知識: エージェント型のAIコーディングツールを数ヶ月以上使っていること この記事で解けること CLAUDE.md…"
     },
     {
-      "id": "51ef969172ce",
-      "title": "ChatGPT・Claude・Geminiのアップロード上限とRAGへの暗黙の切り替え",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-file-upload-limit-check",
-      "publishedAt": "2026-08-17T21:10:54.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR ファイル1つあたりのサイズ上限（ChatGPT 512MB / Claude 30MB / Gemini 100MB）と、会話全体で処理できる分量の上限（コンテキストウィンドウ）は独立した別レイヤーの制約である。前者を通過して…"
+      "id": "605d1680f694",
+      "title": "インストール数の15.8%が、検証済みコピーに乗っている",
+      "url": "https://zenn.dev/skillselion/articles/d473f8aa8b3e08",
+      "publishedAt": "2026-08-18T04:37:33.000Z",
+      "publisher": "Skillselion",
+      "summary": "トレンド名のスキルを入れる直前、インストール順でカタログを開く。同じ製品が3つの掲載に分かれていると、グラフは同じインストールを3回描いている。 SkillselionのClone Censusは、2026年8月12日に凍結したダンプだ。…"
     },
     {
-      "id": "6fa9c6931d72",
-      "title": "end-to-end entity resolution and question answering",
-      "url": "https://zenn.dev/yoshinn/articles/end-to-end_entity_resolution",
-      "publishedAt": "2026-08-17T20:57:14.000Z",
-      "publisher": "yoshishinnze",
-      "summary": "この論文はNLPの名寄せに関するものです 主旨は 「知識グラフ上での質問応答（KGQA）において、エンティティ解決（名寄せ・曖昧性解消）まで含めて全部をEnd-to-Endで学習する」 というものです。 論文の基本情報 項目 内容 タイト…"
+      "id": "5ad83075146d",
+      "title": "エージェントは「差分の外」を読む：ADK for Go で AI レビューを作り直した実践",
+      "url": "https://zenn.dev/snknsk/articles/adk-go-agent-review-practice",
+      "publishedAt": "2026-08-18T04:22:18.000Z",
+      "publisher": "shouni",
+      "summary": "はじめに Git の差分を Gemini にレビューさせる Web アプリを半年あまり使ってきた。構造は単純で、差分を取り、プロンプトに埋めて、構造化出力で JSON を受け取る。LLM 呼び出しは 1 回だけ。 このアプリを ADK f…"
     },
     {
-      "id": "a1fe27bd5861",
-      "title": "フルスタックエンジニアが初めてAIエージェント(Claude Code)を使って副業設計をしてみた話",
-      "url": "https://zenn.dev/unidesign/articles/first-time-claude-code-agent",
-      "publishedAt": "2026-08-17T20:29:05.000Z",
-      "publisher": "uni",
-      "summary": "普段は要件定義から実装・運用まで担当するフルスタックエンジニアとして働いている。趣味はゲームと動画視聴で、以前はゲーム開発もしていた。 そんな中、「AIを使って何か将来の収入につながることを始めたい」と思い立ち、AIエージェント(Clau…"
+      "id": "f770377bead7",
+      "title": "AIの拡張機能を1行で読ませたら5種類の部品が一度に入った。名前を1語変えただけで、同じ中身が5回中0回から3回中3回に化けた",
+      "url": "https://zenn.dev/numarn/articles/claude-plugin-dir-runtime-parts-handson",
+      "publishedAt": "2026-08-18T04:17:49.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "Claude Code(ターミナルで動くAIの作業役)には、プラグインという仕組みがあります。設定ファイルや自動処理をひとまとめにしたフォルダを渡すと、その中身がまるごとAIの作業環境に入る、という機能です。 「フォルダを1つ渡すだけで、…"
     },
     {
-      "id": "276b95696f77",
-      "title": "AIチームに「組織学習」をさせる — 分析レポート、教訓メモリ、そして『正直な申告は称賛される』",
-      "url": "https://zenn.dev/chisatom/articles/f19e131916c12b",
-      "publishedAt": "2026-08-17T20:26:26.000Z",
-      "publisher": "Chisato Matsuzaki",
-      "summary": "この記事は、Claude Code 6体のマルチエージェント「Lady's servants」（お屋敷）を5ヶ月運用した記録を振り返る連載の第6回です。ここまで通信（第3回）、権限（第4回）、コンパクションとモデル更新（第5回）と、機構の…"
+      "id": "adc69e4331a6",
+      "title": "Devinを1週間試して導入をやめた話",
+      "url": "https://zenn.dev/vesslabs/articles/da9593d77369ee",
+      "publishedAt": "2026-08-18T04:08:12.000Z",
+      "publisher": "VESS Labs",
+      "summary": "Devinを1週間試して、導入をやめた話 自律型のコーディングエージェント Devin を 1 週間評価して、導入しないことに決めました。 動かなかったから諦めたわけではありません。3 つのリポジトリで実行環境が立ち上がり、GitHub …"
     },
     {
-      "id": "15fb694b9056",
-      "title": "Claude Codeのauto-compactで「別人」になる問題をhookで塞いだ",
-      "url": "https://zenn.dev/playpark/articles/claude-code-auto-compact-context-preservation",
-      "publishedAt": "2026-08-17T18:56:50.000Z",
-      "publisher": "playpark",
-      "summary": "圧縮後のClaude Codeが、心なしか「他人」に見えることはないか 長時間のリファクタリングをClaude Codeに任せていると、画面に「Compacting conversation」と出て、数秒後に会話が何事もなく再開することが…"
+      "id": "a8f894bfaac6",
+      "title": "「タスクがありません」を無くす — 自分も手を動かすリードのための、プル型タスク設計",
+      "url": "https://zenn.dev/shigerufukada/articles/ffbcc4b15e1fed",
+      "publishedAt": "2026-08-18T04:02:09.000Z",
+      "publisher": "Fukada",
+      "summary": "課題: プレイングリードがボトルネックになる 自分にとっても未知の技術を使い、公開日が決まっていて、直列の工程（クリティカルパス）があるプロジェクトを、少人数のチームで進めていました。しかもリードである自分が、そのクリティカルパス上の作業…"
     },
     {
-      "id": "baa417bf399a",
-      "title": "AIの質問に、ブラウザのサイドバーで答える",
-      "url": "https://zenn.dev/leia_dev/articles/answer-ai-questions-in-sidebar",
-      "publishedAt": "2026-08-17T18:51:27.000Z",
-      "publisher": "Leia",
-      "summary": "AIにコードを書いてもらっていると、途中で聞かれます。 「A案とB案、どっちにしますか？」 「この3件、どれから直しますか？」 わたしはこれに、ブラウザのサイドバーで答えるようにしました。ターミナルには打ちません。 ターミナルで答えるのが…"
+      "id": "05c38827c7c2",
+      "title": "AI が作る「ドット絵風」を本物のドット絵に変換する Web ツール「Pixel Refiner」を作りました",
+      "url": "https://zenn.dev/happy_onigiri/articles/1a0601d2afec2c",
+      "publishedAt": "2026-08-18T03:53:46.000Z",
+      "publisher": "HappyOnigiri",
+      "summary": "画像生成 AI は、ドット絵も描けるようになりました。 少なくとも、遠目にはそう見えます。 私はドット絵のイラストが好きで、SNS のアイコンやプロダクト紹介の 1 枚絵に使いたいと思っていました。 絵心はありませんが、いまは AI が描…"
     },
     {
-      "id": "4503b0926ba3",
-      "title": "AIエージェントの自己修復ループ設計（テスト失敗→原因分析→自動修正の実装）",
-      "url": "https://zenn.dev/fukukei23/articles/ai-agent-self-healing-loop",
-      "publishedAt": "2026-08-17T18:38:48.000Z",
-      "publisher": "fukukei23",
-      "summary": "はじめに AIにコードを生成させると、必ずエラーが起きます。テストが失敗したり、想定と違う挙動をしたり。人間がエラーを確認して修正指示を出すのは手間がかかります。 本記事では、テスト失敗を自動検知し、原因を分析し、修正を生成し、再テストす…"
+      "id": "abd9d18c361e",
+      "title": "一人で広告動画をサクッと作れるようになった話｜AI ツールを実務で使ってみた感想",
+      "url": "https://zenn.dev/derek/articles/872460c2909e5b",
+      "publishedAt": "2026-08-18T03:11:06.000Z",
+      "publisher": "derek",
+      "summary": "最近、個人で小さなプロモーション動画を作ることが増えた。外注すると時間もお金もかかるし、自分で全部やろうとすると素材集めとナレーション録音で半日溶ける。そんな悩みから、試しに AI を使ってみることにした。 素材作りで感じた変化 最初に触…"
     },
     {
-      "id": "ec958d2cee45",
-      "title": "Vibe作曲でボカロPを目指そう！",
-      "url": "https://zenn.dev/yy7613/articles/98dc9f05b1ddf4",
-      "publishedAt": "2026-08-17T16:30:25.000Z",
-      "publisher": "Yuuki.Y",
-      "summary": "はじめに 何となく買ったけどAIが楽しすぎて触れていなかった「初音ミク V6」を、Claude Codeで操作させてみました。結果として楽譜もソフトの操作方法も分からないけどノリで作曲できる「Vibe作曲」 ができました。 Vibe Co…"
+      "id": "894b663e4180",
+      "title": "LLMO対策の効果、どうやって測っていますか——観測プロンプトの3階層設計と、10エンジン計測の現実",
+      "url": "https://zenn.dev/penbit_lab/articles/ba054b04fbc8eb",
+      "publishedAt": "2026-08-18T03:10:05.000Z",
+      "publisher": "Penbit Lab",
+      "summary": "「AI検索対策やってます」の次に来る質問 構造化データを入れた。E-E-A-Tを意識して著者情報を整備した。一問一答形式の見出しに書き換えた。llms.txt も置いた。 ——それで、効果はあったんでしょうか？ LLMO / GEO / …"
     },
     {
-      "id": "5957bd32d5ab",
-      "title": "LLM による意味論検証を支える規律 〜参照整合性への応用例を添えて〜",
-      "url": "https://zenn.dev/flip451/articles/sotohe-semantic-gate",
-      "publishedAt": "2026-08-17T16:25:43.000Z",
-      "publisher": "flip451",
-      "summary": "プログラムの正しさには、シンタックス（構文）とセマンティクス（意味論）の両面がある。構文の検証は機械の得意分野で、コンパイラや lint が昔から黙って引き受けてきた。一方、意味論の検証——この仕様は設計の意図と矛盾していないか、このコー…"
+      "id": "4e22da9ab788",
+      "title": "AIが「できたか分からない」と言ったとき、もう一度やらせてはいけない",
+      "url": "https://zenn.dev/humanos_lab/articles/fe8fddb2b7e177",
+      "publishedAt": "2026-08-18T03:01:08.000Z",
+      "publisher": "HUMAN OS @ ゼロから極めるAI研究員",
+      "summary": "―― 二重実行・Commit-Unknownから考えるAI Agentの安全設計 AI Agentに「メールを送って」と頼んだ。 AIは外部サービスへ送信要求を出した。ところが直後に通信が切れ、 「成功したか分かりません」 と返してきた。…"
     },
     {
-      "id": "7e76ade0f55a",
-      "title": "AI エージェントの長期開発では、未確定な成果を次のタスクへ渡さない",
-      "url": "https://zenn.dev/id774/articles/b96f7c57224f2a",
-      "publishedAt": "2026-08-17T15:12:24.000Z",
-      "publisher": "Yasuhiro Nakayama",
-      "summary": "「実装済み」は、まだ次のタスクの前提にできない AI コーディングエージェントに小さな修正を任せる場合、作業の終了は比較的分かりやすい。差分を確認し、テストを実行し、期待した結果が得られれば、その変更を採用できる。 これが複数の変更を連結…"
+      "id": "0a72dd0e7b6e",
+      "title": "セッション同士が話せるようになっても、私は PO への仲介役をやめられない",
+      "url": "https://zenn.dev/flinters_blog/articles/217801a0cca9e2",
+      "publishedAt": "2026-08-18T03:00:05.000Z",
+      "publisher": "Takashi Kawachi",
+      "summary": "はじめに こんにちは。FLINTERSの河内です。 実装を任せた Claude Code が止まるとき、原因が技術的な問題であることは意外と少ないです。多いのは「この仕様は PO（プロダクトオーナー）の判断がないと決められない」「この挙動…"
     }
   ],
-  "fetchedAt": "2026-08-18T04:50:57.252Z",
+  "fetchedAt": "2026-08-18T05:25:02.759Z",
   "stale": false,
   "error": null
 }
