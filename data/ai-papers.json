@@ -11,39 +11,7 @@
       "url": "https://huggingface.co/papers/2608.15089",
       "publishedAt": "2026-08-15T00:00:00.000Z",
       "summary": "Long-horizon agents can fail even when their underlying models can solve the constituent steps. They may lose track of …",
-      "score": 130
-    },
-    {
-      "id": "bbc3e6a81f06",
-      "title": "MOSS-VL Technical Report",
-      "url": "https://huggingface.co/papers/2608.15045",
-      "publishedAt": "2026-08-15T00:00:00.000Z",
-      "summary": "We present MOSS-VL, an open vision-language model family that treats real-time interaction -- perceiving while it speak…",
-      "score": 38
-    },
-    {
-      "id": "26ea4c1a88a5",
-      "title": "Advancing Open and Reproducible Relational Learning: RelArena-α, TabPFN-Rel and RPI",
-      "url": "https://huggingface.co/papers/2608.16319",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "This first release of Prior Labs in relational learning shows our continued commitment to open science. We open-source …",
-      "score": 22
-    },
-    {
-      "id": "10521564e737",
-      "title": "How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks",
-      "url": "https://huggingface.co/papers/2608.14905",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "AI has long assisted scientific research, but the rapid advance of LLMs and agentic scaffolds is reshaping the landscap…",
-      "score": 22
-    },
-    {
-      "id": "4da30c4e98f1",
-      "title": "GRNEdit: Efficient General Video Editing from a New Binary-Evidence Perspective in Generative Refinement Networks",
-      "url": "https://huggingface.co/papers/2608.16328",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Instruction-based general video editing seeks to unify diverse editing operations within a single, intuitive interface.…",
-      "score": 13
+      "score": 157
     },
     {
       "id": "00fd11f59e23",
@@ -51,7 +19,15 @@
       "url": "https://huggingface.co/papers/2608.15869",
       "publishedAt": "2026-08-16T00:00:00.000Z",
       "summary": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, tempora…",
-      "score": 4
+      "score": 5
+    },
+    {
+      "id": "ac487726c69d",
+      "title": "From Sequence to Structure: Relational Uncertainty Propagation for LLM Agents",
+      "url": "https://huggingface.co/papers/2608.16002",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Reliable uncertainty quantification (UQ) is essential for deploying large language model (LLM) agents in complex intera…",
+      "score": 3
     },
     {
       "id": "fec3e23d31da",
@@ -59,15 +35,47 @@
       "url": "https://huggingface.co/papers/2608.14577",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "summary": "Frontier large language models (LLMs) safety evaluation has largely treated harmful generation as an attack outcome rat…",
-      "score": 2
+      "score": 3
     },
     {
-      "id": "292357c7fc11",
-      "title": "Plausible but Not Valid: A Psychometric Audit of LLMs as Synthetic Survey Respondents",
-      "url": "https://huggingface.co/papers/2608.14606",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "Large language models (LLMs) are increasingly used as synthetic survey respondents, but existing evaluations ask whethe…",
-      "score": 2
+      "id": "ee82fc065ac8",
+      "title": "ASI-Bench: At the Dawn of Artificial Superintelligence",
+      "url": "https://huggingface.co/papers/2608.17271",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Artificial superintelligence (ASI) requires AI to move beyond mastering existing knowledge toward exploring the unknown…",
+      "score": 1
+    },
+    {
+      "id": "3932b7c7618c",
+      "title": "Abra: Scaling Diffusion Image Training",
+      "url": "https://huggingface.co/papers/2608.17286",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Compute-optimal scaling laws guide the training of frontier language models yet remain largely unexplored for visual ge…",
+      "score": 1
+    },
+    {
+      "id": "fb32575eaa30",
+      "title": "StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows",
+      "url": "https://huggingface.co/papers/2608.17800",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Recent advances in Large Language Models(LLMs) and agents have substantially improved the ability of AI systems to exec…",
+      "score": 1
+    },
+    {
+      "id": "6005a7fb0cba",
+      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+      "url": "https://huggingface.co/papers/2608.17310",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Reinforcement Learning (RL) has been promising in single-turn LLM fine-tuning. However, long-horizon agentic reasoning …",
+      "score": 1
+    },
+    {
+      "id": "dc1d1b7998a2",
+      "title": "Dynamic Multi-Byte Prediction With Hierarchical Language Models",
+      "url": "https://huggingface.co/papers/2608.15454",
+      "publishedAt": "2026-08-16T00:00:00.000Z",
+      "summary": "Byte-level hierarchical language models (LMs) have recently emerged as a robust alternative to their popular counterpar…",
+      "score": 1
     },
     {
       "id": "6e14c9d8a1d6",
@@ -78,20 +86,12 @@
       "score": 1
     },
     {
-      "id": "03b1f6dbfc69",
-      "title": "Valid Per-Field Selective Risk Control for Document Extraction: Three Failure Modes, a Validity Ladder, and When Conditioning Pays",
-      "url": "https://huggingface.co/papers/2608.14639",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "summary": "Per-field accept/review with selective risk at most alpha -- accept a field only if the error rate among accepted field…",
-      "score": 1
-    },
-    {
-      "id": "f127fcb912d1",
-      "title": "A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models",
-      "url": "https://huggingface.co/papers/2608.15984",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Motion Language Models (MoLMs) typically understand human motions by tokenizing 3D motion and processing the resulting …",
-      "score": 1
+      "id": "958fa6079402",
+      "title": "aDSL: Agentic 3D Creation via Joint Agent-Program Design",
+      "url": "https://huggingface.co/papers/2608.17975",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Programmatic representations provide a compelling paradigm for 3D content creation, enabling fine-grained edits, interp…",
+      "score": 0
     },
     {
       "id": "945366b286c7",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-19T01:01:08.395Z",
+  "fetchedAt": "2026-08-19T02:31:27.135Z",
   "stale": false,
   "error": null
 }
