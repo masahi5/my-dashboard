@@ -6,6 +6,86 @@
   "category": "ai",
   "items": [
     {
+      "id": "092dffbdaafa",
+      "title": "MiniMax-H3動画生成を50%以上高速化！Turbo LoRA×ComfyUIで830秒→375秒にする方法",
+      "url": "https://zenn.dev/lumichy/articles/minimax-h3-turbo-speedup-comfyui-2026",
+      "publishedAt": "2026-08-19T21:33:43.000Z",
+      "publisher": "lumichy",
+      "summary": "前回、ComfyUIとMiniMax-H3を使ったAI動画生成のローカル構築手順を紹介しました。高クオリティな動画と音声が同時に吐き出される感動は大きかったのですが、実際に運用してみて一番大きな課題だと感じたのが、動画生成にかかる待ち時間…"
+    },
+    {
+      "id": "571d232e7154",
+      "title": "多役プロンプトの後半ロール希薄化は、守るものの記述量で緩和できるか検証した",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-role-defense-length-dilution",
+      "publishedAt": "2026-08-19T21:10:05.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 前回記事（賛成3vs反対3のLLMディベートで陣営内均質化を確かめた）で、「後半に定義した役ほど発言が抽象化する。守るものの具体性を上げても完全には解消しない」という未解決の傾向を報告した 今回は6人構成のロールプレイで、前半…"
+    },
+    {
+      "id": "6871e33f0cbe",
+      "title": "AI導入相談を次の一歩まで追跡する最小キューを作る",
+      "url": "https://zenn.dev/miraigent/articles/ai-consultation-next-action-queue",
+      "publishedAt": "2026-08-19T20:36:50.000Z",
+      "publisher": "Kirisaki Kazuya | Miraigent代表",
+      "summary": "AI導入の相談をフォームで受けても、「面談済み」だけを記録すると次の担当者が動けません。必要なのは、相談の結論ではなく、現在地・止まった理由・次の一歩を一行で追える小さなキューです。 この記事では、Googleフォームで受けた相談をGoo…"
+    },
+    {
+      "id": "c02a9407885d",
+      "title": "ゼロから始めるClaude Code #12 フック（hooks）編：Claudeの判断に頼らず「必ず」動く自動化",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-12-hooks",
+      "publishedAt": "2026-08-19T20:26:21.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は初めての自作ツール、ポモドーロタイマーを作りました。 https://zenn.dev/mika_and_coco/articles/claude-code-dia…"
+    },
+    {
+      "id": "2ff7843521d1",
+      "title": "毎日決まった時刻に動くはずのスキルだけ動かない — 原因はcloud routineの参照先だった",
+      "url": "https://zenn.dev/playpark/articles/claude-code-cloud-routine-skills",
+      "publishedAt": "2026-08-19T18:53:39.000Z",
+      "publisher": "playpark",
+      "summary": "ローカルでは一発で動くのに、スケジュール実行のときだけ「見つかりません」と言われる 手元のターミナルで動かすと成功するのに、同じ指示をスケジュール実行に登録した瞬間だけ「該当のスキルが見つかりません」と言われる。ローカルではまったく再現し…"
+    },
+    {
+      "id": "1f87c84640cf",
+      "title": "B2B AIエージェントを安全に設計する",
+      "url": "https://zenn.dev/creapia_tech_ry/articles/1b109de4529fff",
+      "publishedAt": "2026-08-19T16:52:07.000Z",
+      "publisher": "CREAPIA TECHNOLOGY 中の人",
+      "summary": "知ってる技術でB2B AIエージェント作ってみた...でも失敗！ 当社はVTuber等のライブ配信を24時間追いかけて分析するマーケティングSaaSを提供しています。 https://creapia-tech.com/ 「ChatGPTみ…"
+    },
+    {
+      "id": "b88bc9177626",
+      "title": "あなたのPCで動くAIモデルは？ whichllmとllmfitを比較してみた",
+      "url": "https://zenn.dev/taka4/articles/000243de004165",
+      "publishedAt": "2026-08-19T16:49:03.000Z",
+      "publisher": "おっぴー＠AI推進",
+      "summary": "はじめに こんにちは。おっぴー@AI推進です。 ローカルLLMを試そうとして、最初にぶつかる壁がある。それは「このモデル、自分のマシンで本当に動くのか」が事前にわからない、という壁だ。 Hugging Faceのモデルカードにはパラメータ…"
+    },
+    {
+      "id": "ac0f883eb3d5",
+      "title": "AIエージェントが見つけたサーバーレス",
+      "url": "https://zenn.dev/nekoruri/books/agent-serverless",
+      "publishedAt": "2026-08-19T15:17:40.000Z",
+      "publisher": "nekoruri | めもおきば",
+      "summary": "AIエージェント開発者向けサーバーレス技術書。任せられる実行基盤の設計。Zennのブラウザ閲覧版です。PDFのダウンロード権やBOOTH等の別経路の購入権は含みません。"
+    },
+    {
+      "id": "68a58be65a64",
+      "title": "AI が間違えることより、間違いを止められないことが問題だ",
+      "url": "https://zenn.dev/id774/articles/204101634ea898",
+      "publishedAt": "2026-08-19T15:03:05.000Z",
+      "publisher": "Yasuhiro Nakayama",
+      "summary": "「AI を使った」が事故原因では再発防止策を決められない 企業が公開した料理画像で、商品パッケージ上の文字列が正規の商品表示と一致していなかった。原典では、この一件を出発点に、成果物として確認できる不備、制作工程についての推測、AI 利用…"
+    },
+    {
+      "id": "84edb8e5eeec",
+      "title": "AIに聞く、先輩に聞く——生成AI時代の「質問の仕方」を考え直す",
+      "url": "https://zenn.dev/inapvision/articles/asking-ai-and-humans",
+      "publishedAt": "2026-08-19T15:00:05.000Z",
+      "publisher": "s.shohei",
+      "summary": "AI時代に増えた新しい悩み Claude CodeをはじめとするAIコーディングツールが当たり前になり、若手エンジニアの学び方は明らかに変わりました。わからないことがあれば、まずAIに聞く。構文もエラーもアーキテクチャの説明も、数秒で「そ…"
+    },
+    {
       "id": "2c819bc04cbb",
       "title": "ポエム：ITの仕事の大半は、代わりにパソコンを叩いているだけだった",
       "url": "https://zenn.dev/takemo101/articles/f8c239a542c3de",
@@ -20,89 +100,9 @@
       "publishedAt": "2026-08-19T13:51:13.000Z",
       "publisher": "増田",
       "summary": "1. はじめに：AIに自分で自分のコードをチェックさせる限界 「AIエージェントにコードを書かせ、そのまま『自分でテストしてセルフチェックして問題なければマージして』と指示する」——こうしたプロンプト駆動の自律開発を試したことがある人は多…"
-    },
-    {
-      "id": "ed4c592e3c50",
-      "title": "Claudeでコードを書き、Codexでレビューさせた時におきたこと",
-      "url": "https://zenn.dev/saltmu/articles/e1414887002126",
-      "publishedAt": "2026-08-19T13:40:03.000Z",
-      "publisher": "そるとむ",
-      "summary": "AI駆動開発実験中のそるとむです。 要件を人間が伝え、Claude CodeでIssue、コードを書き、GitHub上のPRをCodexでレビュー、あるいはその逆を組み合わせ、日々の開発をフル自律に近い形で回す実験を続けています。時々An…"
-    },
-    {
-      "id": "7dadb6030e86",
-      "title": "技術資産ポータルの設計を、ChatGPTとの壁打ちでMVPまで削った話",
-      "url": "https://zenn.dev/jodycraft/articles/8aaf8bd89bc8d1",
-      "publishedAt": "2026-08-19T13:29:48.000Z",
-      "publisher": "JodyCraft",
-      "summary": "! 📋 この記事の前提 前回の記事(iPhoneとDiscordだけで、2日でBlazor Web Appを3つ作った話)で少し触れた「事前設計の中身」を、この記事で詳しく掘り下げます。C#/.NETの基本文法がわかる方向けです。 この…"
-    },
-    {
-      "id": "c97ed6010fbc",
-      "title": "iPhoneとDiscordだけで、2日でBlazor Web Appを3つ作った話",
-      "url": "https://zenn.dev/jodycraft/articles/f2d472b643e7ff",
-      "publishedAt": "2026-08-19T13:29:34.000Z",
-      "publisher": "JodyCraft",
-      "summary": "! 📋 この記事の前提 Blazorの基本的な仕組み(コンポーネント、DIコンテナ程度)を知っている方向けです。AIコーディングエージェントを使ったことがなくても読めるように書いています。 3週間ほど記事の更新が空いていました。理由は単…"
-    },
-    {
-      "id": "3db51c28a90b",
-      "title": "正規表現チートシート — アンカーから名前付きグループまで",
-      "url": "https://zenn.dev/devnestio/articles/devnestio-tool-regex-cheatsheet",
-      "publishedAt": "2026-08-19T13:23:56.000Z",
-      "publisher": "Shota | devnestio",
-      "summary": "正規表現は書くたびに「あれ、lookaheadってどっちだっけ？」となりがち。devnestio に Regex Cheat Sheet を追加しました。 https://devnestio.pages.dev/regex-cheatsh…"
-    },
-    {
-      "id": "fc07a8ac26e0",
-      "title": "\"やったのは AI だけど、バグがあったら俺の責任\" — Code w/ Claude in Tokyo 2026 に行ってきた",
-      "url": "https://zenn.dev/rb_engineering/articles/f5e5fa60ae0d96",
-      "publishedAt": "2026-08-19T12:22:52.000Z",
-      "publisher": "Yuji T. @Rebase, Inc.",
-      "summary": "Rebase の髙畠裕二 @_ug_ です。 Code w/ Claude in Tokyo 2026 に参加してきました！✌️✌️ 最初から最後まで Anthropic 社員の講演を聞き通したので、中の人がどう Claude Code …"
-    },
-    {
-      "id": "632ca0576348",
-      "title": "ループエンジニアリングじゃない。デイリーノート1枚で回すAIエージェント運用",
-      "url": "https://zenn.dev/motimotinotch/articles/f24c65c8f38885",
-      "publishedAt": "2026-08-19T12:03:23.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "「ハーネスエンジニアリング」「ループエンジニアリング」というAIエージェント運用の設計論が、2026年に入って急増している。権限をどこまで絞るか、自律ループをどう安全に閉じるか——読んでいると、複数のAIエージェントを併用するには相応に大…"
-    },
-    {
-      "id": "1c47ff42e8d6",
-      "title": "GLM 5.3 ついに登場：智譜AIが2026年8月に投下した次世代フラッグシップLLMを徹底解説",
-      "url": "https://zenn.dev/erhg/articles/6f6afb57a04e0d",
-      "publishedAt": "2026-08-19T11:42:55.000Z",
-      "publisher": "aerg",
-      "summary": "「またモデルが出たの？」と思ったあなた、正しいです。でも今回はちょっと事情が違います。 中国の智譜AI（Zhipu AI / Z.ai）が次世代フラッグシップ大規模言語モデル GLM 5.3 を2026年8月にリリースしました。前世代の …"
-    },
-    {
-      "id": "350f03a9acb1",
-      "title": "[WIP] Hermes Agent セットアップメモ",
-      "url": "https://zenn.dev/konto/articles/cd05407cd5b7fc",
-      "publishedAt": "2026-08-19T11:38:10.000Z",
-      "publisher": "konto",
-      "summary": "Hermes Agent セットアップメモ 環境 マシン: M1 Mac mini（クリーンインストール直後） macOSバージョン: 未確認（確認前に作業開始） Hermes Agent: v0.18.2 (2026.7.7.2) ター…"
-    },
-    {
-      "id": "dea0c215c89f",
-      "title": "「Claude Codeはやりすぎでは？」に答える——Notion AIとの構造差7軸と、使い分けの4シグナル",
-      "url": "https://zenn.dev/imu_imu/articles/notion-ai-vs-claude-code",
-      "publishedAt": "2026-08-19T11:15:04.000Z",
-      "publisher": "いむたろ",
-      "summary": "「Claude Codeって、非エンジニアにはやりすぎじゃない？ うちは Notion AI があるし」 社内で Claude Code の話をすると、だいたいこれを言われます。そして、この反応は半分正しい。 半分正しいからこそ、雑に反論…"
-    },
-    {
-      "id": "23126d7abf1e",
-      "title": "GLM-5.3、後学習だけで最前線へ――AIモデル競争は規模から費用対効果の時代へ",
-      "url": "https://zenn.dev/moonwalker/articles/glm-5-3-post-training-value",
-      "publishedAt": "2026-08-19T11:14:08.000Z",
-      "publisher": "moonwalker",
-      "summary": "中国のAI企業Z.ai（智譜AI）は8月14日、最新の基盤モデル「GLM-5.3」を発表しました。2026年8月19日時点でAPIとGLM Coding Planから利用でき、複雑なソフトウェア開発、長時間にわたるエージェント処理、サイバ…"
     }
   ],
-  "fetchedAt": "2026-08-19T21:39:44.227Z",
+  "fetchedAt": "2026-08-19T22:00:07.234Z",
   "stale": false,
   "error": null
 }
