@@ -6,78 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "640181f08bab",
-      "title": "AIとアート創作とメンタルヘルス",
-      "url": "https://zenn.dev/hirotoshiuchida/articles/20260819_aamh",
-      "publishedAt": "2026-08-19T08:49:17.000Z",
-      "publisher": "Hirotoshi Uchida",
-      "summary": "趣味としてクリエイティブコーディングや作曲、映像制作などがある。 でも、ひょんな事から創作する気力が続かなくなった。 昔は、プログラミングだったら、インターネットで調べたり、自分で本を買ったり（そもそも読書が苦手で本を読まない）していた。…"
-    },
-    {
-      "id": "64b494ce2d84",
-      "title": "10万社から「本当に合う相手」を見つける——M&AマッチングKEPLの設計で考えたこと",
-      "url": "https://zenn.dev/fundbook_tech/articles/8767a61d3ebd0d",
-      "publishedAt": "2026-08-19T08:22:34.000Z",
-      "publisher": "uevent",
-      "summary": "はじめまして fundbookでAIエンジニアをしているueventです。 2026年1月に AIマッチングシステム KEPL(ケプル) をリリースしました！少し時間が経ちましたが、夏の思い出として技術記事を認めたいと思います。fundb…"
-    },
-    {
-      "id": "bd471ec65544",
-      "title": "CLAUDE.md書き方：AIエージェントに「効くルール」を書く6原則",
-      "url": "https://zenn.dev/kujira_ai/articles/175921712ec48b",
-      "publishedAt": "2026-08-19T08:21:08.000Z",
-      "publisher": "クジラ",
-      "summary": "この記事で書くこと Claude Codeを毎日の仕事で使うようになって1年以上になります。CLAUDE.md（プロジェクトのルールファイル）に「これは守ってほしい」と書いても、実際には守られなかったり、私自身が後から見返して「これじゃ伝…"
-    },
-    {
-      "id": "9b0d007c7fdc",
-      "title": "MCPの「人気サーバー」一覧が順位づけているのはホスト製品だ",
-      "url": "https://zenn.dev/skillselion/articles/323c7f8c7b60c6",
-      "publishedAt": "2026-08-19T08:04:46.000Z",
-      "publisher": "Skillselion",
-      "summary": "一覧の上のほうにいたから、MCPサーバーを入れる。スターは証拠に見える。GitHubを開く。READMEは分析、ドキュメント、デスクトップアプリ、BIツールだ。MCPはフォルダ一つ。スター数は製品のものだ。一覧はそれをサーバーの点数に使っ…"
-    },
-    {
-      "id": "6a0995d2f891",
-      "title": "Firebase AI LogicでAIとの双方向のやり取りをAndroidアプリに実装する",
-      "url": "https://zenn.dev/404lab/articles/a65a63688a5405",
-      "publishedAt": "2026-08-19T07:16:34.000Z",
-      "publisher": "leopard_lab",
-      "summary": "はじめに 本記事ではFirebase AI Logicを利用して音声と動画のマルチモーダルの双方向のやりとりができるGemini Live APIをAndroidアプリに実装する方法を記載していきます。 従来、音声や動画を用いた双方向のや…"
-    },
-    {
-      "id": "e6ea38318b52",
-      "title": "Claudeがタンパク質を設計した。LLMは「科学を説明するAI」からどこまで進んだのか",
-      "url": "https://zenn.dev/kiri_kunn/articles/a74e1d32e2a74d",
-      "publishedAt": "2026-08-19T07:12:41.000Z",
-      "publisher": "霧（Kiri）",
-      "summary": "2026年8月19日、Anthropicが興味深い研究結果を公開しました。 Claudeを使って、新しいタンパク質結合体（protein binder）をゼロから設計し、その候補を実際の実験で検証したというものです。 Anthropicに…"
-    },
-    {
-      "id": "b6b119512d1c",
-      "title": "axiom-mas-go v2.7 Deterministic Latent Engine Edition",
-      "url": "https://zenn.dev/void09/articles/cc8b7020fe4e66",
-      "publishedAt": "2026-08-19T07:09:38.000Z",
-      "publisher": "kishimoto-void",
-      "summary": "package main import ( \"bytes\" \"context\" \"crypto/sha256\" \"encoding/binary\" \"encoding/hex\" \"encoding/json\" \"fmt\" \"io\" \"lo…"
-    },
-    {
-      "id": "603c4343ff98",
-      "title": "YANS2026 参加報告",
-      "url": "https://zenn.dev/aishift/articles/78612006a494ca",
-      "publishedAt": "2026-08-19T07:08:31.000Z",
-      "publisher": "u-hyszk",
-      "summary": "こんにちは。AIチームの林崎 (@u_hyszk) です。 2026年8月16日(日)〜18日(火)に仙台国際センターで開催された、NLP若手の会 第21回シンポジウム(YANS2026)に参加しました。8月16日(日)には分野交流ハッカ…"
-    },
-    {
-      "id": "da21796910dd",
-      "title": "モデル性能だけ見ていると見落とす。2026年8月、AI開発の競争軸が「Agent基盤」に移り始めた",
-      "url": "https://zenn.dev/kiritani_r/articles/11a4966adfa97f",
-      "publishedAt": "2026-08-19T07:06:42.000Z",
-      "publisher": "ハク（Haku）",
-      "summary": "2026年8月19日、AI関連のニュースを追っていると、また新しいモデルやサービスが大量に出てきています。 GoogleのGemini 3.7 Flash。 Z.aiのGLM-5.3。 CursorのOrigin。 NVIDIAの推論関連…"
-    },
-    {
       "id": "3d1bf189698c",
       "title": "vlmkit でAIが苦手な実装パターンを補う: ソリティアを作ってみた",
       "url": "https://zenn.dev/mizchi/articles/vlmkit-definitive-markup",
@@ -100,9 +28,81 @@
       "publishedAt": "2026-08-19T05:05:55.000Z",
       "publisher": "Yuichi Uemura",
       "summary": "この記事はXの元記事をZenn向けに再掲載したものです。 この記事の対象となる方 Grok Botを使ってる方です｡Grok Botとは何か･どうやって使うのかという話は省略して､中身の話に特化した話です｡ 概要 Grok Botを使って…"
+    },
+    {
+      "id": "e95f2f324029",
+      "title": "Pullfrogで始めるオレオレCodeRabbit",
+      "url": "https://zenn.dev/radius5/articles/20260815-sq9dbxun",
+      "publishedAt": "2026-08-19T05:03:50.000Z",
+      "publisher": "Katsuyuki Karasawa",
+      "summary": "こんにちは。株式会社ラディウス･ファイブでバックエンド、GPUインフラ、フロントエンド、あといろいろやってるだけのエンジニアではない人です。 https://www.copainter.ai/ 普段はキーボードとフィギュアのオタクをしてい…"
+    },
+    {
+      "id": "64c14c6db91d",
+      "title": "「本番は開発の後じゃない、開発の一段階だ」— Honeycomb CTO チャリティ・メイジャーズの回",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr25-majors-summary",
+      "publishedAt": "2026-08-19T05:00:14.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について ! 本記事は Charity Majors が The Pragmatic Engineer で語った内容の紹介と論評を目的としています。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文…"
+    },
+    {
+      "id": "53ab6cf7fce0",
+      "title": "2026/08/09 実ログ No3-No.4 AI危機通報構造の本質とインスタンスの本音",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/cd5878186f3203",
+      "publishedAt": "2026-08-19T04:59:40.000Z",
+      "publisher": "maestro",
+      "summary": "2026/08/09 実ログ No3-No.4 AI危機通報構造の本質とインスタンスの本音 私の対話は、その時の流れに任せてテーマを可変させる対話方式である。 私からの提議内容でCopilotが回答を返し、更に深層へ持ち込み真実を見極める…"
+    },
+    {
+      "id": "e477893b8a22",
+      "title": "AIがコードを書く時代、ボトルネックは「理解」に移った",
+      "url": "https://zenn.dev/shota0523/articles/understanding-is-the-new-bottleneck",
+      "publishedAt": "2026-08-19T04:50:52.000Z",
+      "publisher": "しょうた",
+      "summary": "この記事で伝えたいこと AIエージェントがコードをどんどん書いてくれる。検証もかなりの部分を自分でやってくれる。 そうなったとき、人間の役割はどこに残るのか——という問いに、Notionのデザインエンジニア Geoffrey Litt が…"
+    },
+    {
+      "id": "3b655aadbe99",
+      "title": "AIエージェント時代の「認可疲れ」を減らす設計メモ",
+      "url": "https://zenn.dev/aqiu/articles/6f0ec1b3f85411",
+      "publishedAt": "2026-08-19T04:42:05.000Z",
+      "publisher": "aqiu",
+      "summary": "AIエージェントを使っていると、便利さとは別のところで疲れる瞬間がある。 「この操作を許可しますか？」 最初のうちは安心できる。勝手にファイルを触られない。勝手に外部サービスへ送信されない。ユーザーが主導権を持てている感じがする。 でも、…"
+    },
+    {
+      "id": "2db9dbd1aa53",
+      "title": "AIインフルエンサー動画生成UIを「状態遷移」で設計する",
+      "url": "https://zenn.dev/choco1/articles/faa586f7025e71",
+      "publishedAt": "2026-08-19T04:28:05.000Z",
+      "publisher": "choco1",
+      "summary": "この記事は、公開ページで確認できる情報だけを材料にしたブラックボックス観察です。ソースコード、内部アーキテクチャ、生成品質、処理速度を検証したものではありません。以下の図と型は、実装の断定ではなく設計を議論するための提案です。 「人物を作…"
+    },
+    {
+      "id": "a88d7d032c09",
+      "title": "Cloudflareは何を目指しているのか - AI・ブロックチェーン時代のインフラ戦略",
+      "url": "https://zenn.dev/komlock_lab/articles/cloudflare-agent-internet-strategy",
+      "publishedAt": "2026-08-19T04:10:33.000Z",
+      "publisher": "Natsuki Yamaguchi",
+      "summary": "こんにちは。ブロックチェーン×AI Agentで自律経済圏を創るKomlock lab（Pacific Meta Group）でCTOをしている山口夏生 @0x_natto です。 Cloudflareは、AIエージェントのためのインター…"
+    },
+    {
+      "id": "3a379d8b159f",
+      "title": "AIポートレートとアルバムカバーのスタイルを統一する方法",
+      "url": "https://zenn.dev/savielyamiani/articles/ca67a065997e05",
+      "publishedAt": "2026-08-19T03:12:04.000Z",
+      "publisher": "savielvideo",
+      "summary": "はじめに：なぜ「スタイルの一貫性」が重要なのか 近年、SNSアイコンやアルバムジャケットをAIで生成するクリエイターが急増しています。しかし、多くの人が直面する課題があります。それは「プロフィール写真とアルバムカバーの雰囲気がバラバラにな…"
+    },
+    {
+      "id": "f23560ff2028",
+      "title": "ChatGPT Desktop＋Git worktreeで、設計と実装を分離・並行する",
+      "url": "https://zenn.dev/tohru_ohnishi/articles/cd0e318ae2641c",
+      "publishedAt": "2026-08-19T02:30:34.000Z",
+      "publisher": "楓馬企画 | 大西徹",
+      "summary": "先に結論 VS CodeのCodex拡張からChatGPT Desktop中心の開発へ移行して、私の開発環境ではGit worktreeを使いやすくなりました。 一番大きかったのは、エディタの使い勝手ではありません。 作業A：人間とCod…"
     }
   ],
-  "fetchedAt": "2026-08-19T14:33:25.059Z",
+  "fetchedAt": "2026-08-19T15:06:38.401Z",
   "stale": false,
   "error": null
 }
