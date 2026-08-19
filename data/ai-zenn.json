@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "7bee5f52a711",
-      "title": "AIエージェントは「群れ」にすると壊れる ——各出力を検証しても、配備が壊す新しい次元",
-      "url": "https://zenn.dev/ryok/articles/agent-swarm-verification",
-      "publishedAt": "2026-08-18T20:01:28.000Z",
-      "publisher": "ryok",
-      "summary": "結論 私はこれまで「検証可能性の階段」という概念で、AIエージェント運用の律速はモデルの賢さではなく「検証をどう設計したか」だと書いてきた（前記事）。タスクを「生成コスト」ではなく「検証コスト」で段に分け、そのタスクが何段目かを見誤ると事…"
+      "id": "a24eb51b6585",
+      "title": "AI生成したピクセルキャラクターをGodotへ取り込むパイプライン",
+      "url": "https://zenn.dev/hirodeath/articles/ai-pixel-character-godot-pipeline",
+      "publishedAt": "2026-08-19T00:28:44.000Z",
+      "publisher": "ヒロ",
+      "summary": "ピクセルキャラクターを生成APIで作っても、そのままGodotへ置くだけではゲーム素材になりません。方向、アニメーション、フレーム数、保存先、採用状態を対応付ける必要があります。 Nocturne Vaniaでは、生成とレビューを行うNe…"
     },
     {
-      "id": "ef77835447d9",
-      "title": "トントントントン日野の2トン ― 遊びを観測しようとして、観測されてたのは私だった🚚",
-      "url": "https://zenn.dev/pomodoro_naomi/articles/d2ea40087cc936",
-      "publishedAt": "2026-08-18T18:53:42.000Z",
-      "publisher": "🍅Pomodoroナオミ🍅",
-      "summary": "title: \"トントントントン日野の2トン ― 遊びを観測しようとして、観測されてたのは私だった\" emoji: \"🚚\" type: \"idea\" topics: [\"ai\", \"opentelemetry\", \"observabil…"
+      "id": "beb7d184303d",
+      "title": "【チームによるAI駆動開発の勘所：第2回】AIが書いたコードに仕込まれる欠陥を見抜くには",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/2dc93d3834ea33",
+      "publishedAt": "2026-08-19T00:18:27.000Z",
+      "publisher": "wfukatsu",
+      "summary": "この記事は、日々実務でAIが書いたコードの中で気がついたことを具体例を挙げてまとめたものです。例として、注文サービスの実装が1つあり、そこに9件の欠陥が仕込まれています。設計仕様も一緒に載せますので、記事を読みながら実際に指摘を書き出して…"
     },
     {
-      "id": "c5e00d534f1b",
-      "title": "AIエージェントの『勝率88%の発見』を検証で殺すまで — 計測アーティファクト2つの実話",
-      "url": "https://zenn.dev/sobani_dev/articles/80398658f78418",
-      "publishedAt": "2026-08-18T18:44:02.000Z",
-      "publisher": "WD",
-      "summary": "! これは実話です。数値はすべて、筆者が運用している研究プログラムの記録台帳から、そのまま引いています。対象の仮説は2026年8月18日に棄却済みで、この記事に再現可能な儲け話は含まれません。含まれないことこそが本題です。 勝率88%、1…"
+      "id": "47b6c1bef37a",
+      "title": "744BのGLM-5.2を25GBのRAMで動かすcolibri、エキスパートをディスクから流す",
+      "url": "https://zenn.dev/okssusucha/articles/20260710-colibri-glm52-disk-streamed-moe",
+      "publishedAt": "2026-08-19T00:04:03.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "744Bのフロンティア級モデルを、GPUなしで、しかもRAMが25GBしかないノートPCで動かす。しかもちゃんと正しい答えを返す。そんな話をHacker NewsのShow HNで見かけて、最初は誇張だろうと思った。実際にリポジトリを読む…"
     },
     {
-      "id": "0e296c779b97",
-      "title": "ゼロから始めるClaude Code #11 実践編：初めての自作ツール、ポモドーロタイマーを一緒に作る",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-11-pomodoro",
-      "publishedAt": "2026-08-18T18:23:39.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はトークン節約の考え方を整理しました。 https://zenn.dev/mika_and_coco/articles/claude-code-diary-10-to…"
+      "id": "2c93f91c3a55",
+      "title": "AIエージェントが自分で守る「1ラウンド1 push」",
+      "url": "https://zenn.dev/miyakona/articles/9b2e43a12a2f7c",
+      "publishedAt": "2026-08-19T00:00:06.000Z",
+      "publisher": "miyakona",
+      "summary": "今回紹介する運用では、PRをレビュー可能な状態へ仕上げ、Copilotの指摘へ対応するのもAIエージェントです。 人間がコメントを一件ずつAIへ転送しているわけではありません。AIエージェント自身がレビューの到着を確認し、全コメントを読み…"
     },
     {
-      "id": "627fd43d25d3",
-      "title": "AI Agentをデバッグする",
-      "url": "https://zenn.dev/netetahito/articles/76dd3d9ba02400",
-      "publishedAt": "2026-08-18T18:00:44.000Z",
-      "publisher": "おなさい",
-      "summary": "前回:AI仕様駆動開発はなぜ苦しいか——2つの壁 AI仕様駆動開発をしていて困ること Agentの「できました」が信用できません。 仕様が大きくなればなるほど、必ず間違いがあります。そして間違いを発見したあと、なぜ間違ったのか聞いて、もう…"
+      "id": "3d489ecfe471",
+      "title": "「どこが遅い」「どこで失敗した」を勘で探すのをやめた ― 開発中のエージェント可観測性",
+      "url": "https://zenn.dev/datarobotjp/articles/7274d18c076e1a",
+      "publishedAt": "2026-08-18T23:51:20.000Z",
+      "publisher": "小川幹雄",
+      "summary": "はじめに いちエンジニアとして、DataRobot CLI の experimentation プラグイン（dr xp） を実際に触ってみたので、その記録を残します。 DataRobot には以前から、デプロイしたエージェントのトレースを…"
     },
     {
-      "id": "9db93053ca43",
-      "title": "AIループを自作しながら考えた、良いAIループの条件",
-      "url": "https://zenn.dev/m2dw/articles/n8n-ai-cli-loop-conditions",
-      "publishedAt": "2026-08-18T15:42:28.000Z",
-      "publisher": "ニコドリ",
-      "summary": "AI ループを使って、その AI ループ自身を開発しています。 2026 年 6 月に開発を始めて、約 2 ヶ月半。本体の TypeScript は約 12.6 万行、テストコードは約 15 万行になりました。開発リポジトリでマージした …"
+      "id": "0f1b0ce491d0",
+      "title": "Agents on Guren: AIエージェントに自作フレームワークを360回解かせてわかったこと",
+      "url": "https://zenn.dev/7nohe/articles/agents-on-guren-benchmark",
+      "publishedAt": "2026-08-18T23:50:31.000Z",
+      "publisher": "Daiki Urata",
+      "summary": "はじめに 2026年8月13日、Rails Foundationが「Agents on Rails: the first benchmark report」を公開しました。21個のタスクを8つのモデルに3回ずつ、計504回解かせたベンチマ…"
     },
     {
-      "id": "e9345b4579a1",
-      "title": "herdrを使っていい感じにworktreeで作業させる",
-      "url": "https://zenn.dev/netai/articles/20260819-herdr-worktree",
-      "publishedAt": "2026-08-18T15:03:26.000Z",
-      "publisher": "mechanetai",
-      "summary": "「自分で git worktree コマンドを叩くの面倒だし、エージェントがいい感じにworktree作って作業してくれないかな～」 これを上手く解決してくれたのがherdrでした この記事では網羅的な使い方ではなく、上記のやりたいことが…"
+      "id": "a69b00e51b3a",
+      "title": "44. AIの判断基準を公開資料から作る【調査編】— 検索要約を信じず803ページを実測した",
+      "url": "https://zenn.dev/yamada_ai_dev/articles/public-materials-as-criteria-research",
+      "publishedAt": "2026-08-18T23:30:10.000Z",
+      "publisher": "yamada-ai-dev",
+      "summary": "! この記事は生成AIで作成した草稿を、筆者が内容を確認し、添削・修正のうえ公開しています。 TL;DR AIに「良い資料かどうか」を判定させたかったが、判断基準の出所が無かった。ネットの解説記事は大量にあるが、ほぼ全部が第三者の観察だ。…"
     },
     {
-      "id": "aeff901e7784",
-      "title": "FoundryのClaudeにWeb検索・MCPコネクタ等5機能、Hosted on Azure対応の実態",
-      "url": "https://zenn.dev/kazu_aiengineer/articles/foundry-claude-server-tools-azure",
-      "publishedAt": "2026-08-18T14:11:02.000Z",
+      "id": "4a0d3903ab0c",
+      "title": "作業指示書は、最初に書かせない ― 設計AIとのやり取りを全部見せる",
+      "url": "https://zenn.dev/r2_san/articles/e511e0d0a71e06",
+      "publishedAt": "2026-08-18T23:25:46.000Z",
+      "publisher": "R2-san",
+      "summary": "前回、設計も実装もレビューも AI が行う個人開発で、精度をどう出しているかの全体像を書きました。 そこで、作業指示書を書く AI を設計 AI、コードを書く AI を実装 AI、実装を審査する AI をレビュー AI と呼びました。 今…"
+    },
+    {
+      "id": "7cdbc51a489a",
+      "title": "子連れ宿約1,900軒の検証データをMCPサーバーで無料公開した話",
+      "url": "https://zenn.dev/guusuu/articles/dad750ad03770e",
+      "publishedAt": "2026-08-18T23:15:05.000Z",
+      "publisher": "guusuu",
+      "summary": "guusuuです。子連れ・赤ちゃん連れ向けの宿検索サイト Kids Stay を作っています。今回、そのデータをMCP（Model Context Protocol）サーバーとして無料公開しました。 エンドポイント: https://mc…"
+    },
+    {
+      "id": "f8d311fa8417",
+      "title": "AIを全員に配っても生産性が落ちない組織が備える仕組み",
+      "url": "https://zenn.dev/akring/articles/11e668bae28707",
+      "publishedAt": "2026-08-18T23:00:05.000Z",
+      "publisher": "mahitotsu",
+      "summary": "AIで増えた変更量が、レビューという工程に集中する 最近、「AIを全員に配った組織」の生産性が落ちるときという記事を読みました。会社を「仕事や情報が流れるネットワーク」として捉え、AIによる生成だけが速くなると、その先にあるレビューや承認…"
+    },
+    {
+      "id": "1fb576957b52",
+      "title": "ポイント失効で損したので、スクショを送るだけで管理できるアプリを作った",
+      "url": "https://zenn.dev/taniguchi_dev/articles/9226d444f6ca94",
+      "publishedAt": "2026-08-18T22:36:05.000Z",
+      "publisher": "谷口",
+      "summary": "Capacitor + React で作ったiOSアプリの話です。Swiftを書いたのは、iCloud Drive と Sign in with Apple のプラグイン2つだけでした。 期間限定ポイントを失効させた 期限が「あと3日」だ…"
+    },
+    {
+      "id": "a0a3224d7d04",
+      "title": "Agent Frameworkのagent-hooksは、denyでストリームが1文字も出ない",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/agent-framework-agent-hooks",
+      "publishedAt": "2026-08-18T22:33:52.000Z",
       "publisher": "Kazu_AzureAI開拓",
-      "summary": "! 2026-08-18 時点の公式ブログ・ドキュメントに基づいています。後述の通り発表とドキュメントの記述に食い違いがある過渡期なので、導入判断の際は文末の一次ソースと自分のデプロイでの挙動を必ず確認してください。 先に結論 2026-…"
-    },
-    {
-      "id": "c3035c645826",
-      "title": "AIエージェントを「チームメイト」に。OSSでセルフホストもできるMultica入門",
-      "url": "https://zenn.dev/sepi/articles/multica-ai-agent-selfhost",
-      "publishedAt": "2026-08-18T14:06:35.000Z",
-      "publisher": "sepi",
-      "summary": "! この記事はAI(生成AI)によって作成され、AIによるレビューを経たのち、公開前に人間によるレビューを受けています。 ! 本記事は情報公開・共有を目的として執筆しています。Multicaについては既に他の方が書かれた紹介記事も複数公開…"
-    },
-    {
-      "id": "d9d1bfef10c2",
-      "title": "【紹介リンクあり】RunPodの料金体系を徹底解説！GPU別単価・ストレージ課金の落とし穴・最安運用のコツ",
-      "url": "https://zenn.dev/studysun/articles/ef264131dd0d76",
-      "publishedAt": "2026-08-18T13:59:33.000Z",
-      "publisher": "StudySun",
-      "summary": "! 🎁 初回登録特典（無料クレジット付与）について 紹介リンク経由で新規登録し、$10以上チャージして利用を開始すると、$5〜$500相当のボーナスクレジット がランダム（最低でも$5〜$10以上、運が良ければ最大$500）で付与されま…"
-    },
-    {
-      "id": "d400b6316c69",
-      "title": "CPUのみでローカルLLMする",
-      "url": "https://zenn.dev/ashidan/articles/tech_llm_cpu_a",
-      "publishedAt": "2026-08-18T13:55:19.000Z",
-      "publisher": "molelord",
-      "summary": "Windowsかつ、CPUのみでローカルLLMしたい RAMが16GB以上ある 少し手間がかかっても性能を上げたい というニッチな需要を満たす記事です。 なお、この記事は2026年8月17日の情報を元に書かれています。llama.cppの…"
-    },
-    {
-      "id": "76592a09da4e",
-      "title": "2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較",
-      "url": "https://zenn.dev/secure_auto_lab/articles/local-llm-5model-benchmark-2026",
-      "publishedAt": "2026-08-18T13:35:18.000Z",
-      "publisher": "セキュア＆オートラボ",
-      "summary": "2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較 同じ27Bなのに、生成速度2.4倍。 2026年8月13日に公開されたQwen3.8-27Bを実測し、1ヶ月前に組んだ構成を迷わず入れ替…"
+      "summary": "! 2026-08-19 時点の情報です。Agent Hooks は Python 版 Agent Framework の experimental 機能で、依存する agent-hooks-sdk も alpha（0.1.0a5）です。…"
     }
   ],
-  "fetchedAt": "2026-08-19T09:29:38.287Z",
+  "fetchedAt": "2026-08-19T10:00:38.791Z",
   "stale": false,
   "error": null
 }
