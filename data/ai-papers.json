@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.14036",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured…",
-      "score": 64
+      "score": 71
     },
     {
       "id": "a12f5d7b5e87",
@@ -22,20 +22,20 @@
       "score": 20
     },
     {
+      "id": "7224821ee740",
+      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
+      "url": "https://huggingface.co/papers/2608.13556",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although v…",
+      "score": 15
+    },
+    {
       "id": "5e50f4dc9d2e",
       "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
       "url": "https://huggingface.co/papers/2608.17528",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Modern agents operate inside agent harnesses that manage tools, context, and control flow, making the harness a critica…",
       "score": 15
-    },
-    {
-      "id": "7224821ee740",
-      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
-      "url": "https://huggingface.co/papers/2608.13556",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although v…",
-      "score": 14
     },
     {
       "id": "04f60861fa38",
@@ -52,14 +52,6 @@
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Saf…",
       "score": 12
-    },
-    {
-      "id": "f057065ab369",
-      "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
-      "url": "https://huggingface.co/papers/2608.17597",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Large language models are increasingly deployed through agent harnesses that manage tools, extensions, persistent state…",
-      "score": 7
     },
     {
       "id": "0a8ceef822de",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Unified image restoration (UIR) aims to recover high-quality (HQ) content from low-quality (LQ) images with different d…",
       "score": 1
+    },
+    {
+      "id": "8437b7705a7e",
+      "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
+      "url": "https://huggingface.co/papers/2608.17379",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "We introduce PTXBench, a benchmark for evaluating and adapting large language models (LLMs) to use architecture-specifi…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-19T15:06:38.242Z",
+  "fetchedAt": "2026-08-19T15:45:43.326Z",
   "stale": false,
   "error": null
 }
