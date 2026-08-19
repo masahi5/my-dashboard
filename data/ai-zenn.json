@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "ca6fbb658276",
-      "title": "RTX 4070 (VRAM 12GB) で MiniMax H3 はどこまで動くか — 896pは43分で完走、1080p相当は失敗",
-      "url": "https://zenn.dev/nekod/articles/c557520d347256",
-      "publishedAt": "2026-08-19T05:16:36.000Z",
-      "publisher": "nekoD",
-      "summary": "はじめに 音声つき動画を一発生成できる MiniMax H3 を、趣味用 PC(RTX 4070 / VRAM 12GB / RAM 32GB)のローカル ComfyUI で動かしました。公式チュートリアルには VRAM 要件の記載が見当…"
+      "id": "7bee5f52a711",
+      "title": "AIエージェントは「群れ」にすると壊れる ——各出力を検証しても、配備が壊す新しい次元",
+      "url": "https://zenn.dev/ryok/articles/agent-swarm-verification",
+      "publishedAt": "2026-08-18T20:01:28.000Z",
+      "publisher": "ryok",
+      "summary": "結論 私はこれまで「検証可能性の階段」という概念で、AIエージェント運用の律速はモデルの賢さではなく「検証をどう設計したか」だと書いてきた（前記事）。タスクを「生成コスト」ではなく「検証コスト」で段に分け、そのタスクが何段目かを見誤ると事…"
     },
     {
-      "id": "eda632ba84c9",
-      "title": "Grok Botの動きの手懐け方と最低限まともに使うためにやったこと",
-      "url": "https://zenn.dev/u1/articles/grok-bot-memory-and-japanese-rules",
-      "publishedAt": "2026-08-19T05:05:55.000Z",
-      "publisher": "Yuichi Uemura",
-      "summary": "この記事はXの元記事をZenn向けに再掲載したものです。 この記事の対象となる方 Grok Botを使ってる方です｡Grok Botとは何か･どうやって使うのかという話は省略して､中身の話に特化した話です｡ 概要 Grok Botを使って…"
+      "id": "ef77835447d9",
+      "title": "トントントントン日野の2トン ― 遊びを観測しようとして、観測されてたのは私だった🚚",
+      "url": "https://zenn.dev/pomodoro_naomi/articles/d2ea40087cc936",
+      "publishedAt": "2026-08-18T18:53:42.000Z",
+      "publisher": "🍅Pomodoroナオミ🍅",
+      "summary": "title: \"トントントントン日野の2トン ― 遊びを観測しようとして、観測されてたのは私だった\" emoji: \"🚚\" type: \"idea\" topics: [\"ai\", \"opentelemetry\", \"observabil…"
     },
     {
-      "id": "e95f2f324029",
-      "title": "Pullfrogで始めるオレオレCodeRabbit",
-      "url": "https://zenn.dev/radius5/articles/20260815-sq9dbxun",
-      "publishedAt": "2026-08-19T05:03:50.000Z",
-      "publisher": "Katsuyuki Karasawa",
-      "summary": "こんにちは。株式会社ラディウス･ファイブでバックエンド、GPUインフラ、フロントエンド、あといろいろやってるだけのエンジニアではない人です。 https://www.copainter.ai/ 普段はキーボードとフィギュアのオタクをしてい…"
+      "id": "c5e00d534f1b",
+      "title": "AIエージェントの『勝率88%の発見』を検証で殺すまで — 計測アーティファクト2つの実話",
+      "url": "https://zenn.dev/sobani_dev/articles/80398658f78418",
+      "publishedAt": "2026-08-18T18:44:02.000Z",
+      "publisher": "WD",
+      "summary": "! これは実話です。数値はすべて、筆者が運用している研究プログラムの記録台帳から、そのまま引いています。対象の仮説は2026年8月18日に棄却済みで、この記事に再現可能な儲け話は含まれません。含まれないことこそが本題です。 勝率88%、1…"
     },
     {
-      "id": "64c14c6db91d",
-      "title": "「本番は開発の後じゃない、開発の一段階だ」— Honeycomb CTO チャリティ・メイジャーズの回",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr25-majors-summary",
-      "publishedAt": "2026-08-19T05:00:14.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について ! 本記事は Charity Majors が The Pragmatic Engineer で語った内容の紹介と論評を目的としています。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文…"
+      "id": "0e296c779b97",
+      "title": "ゼロから始めるClaude Code #11 実践編：初めての自作ツール、ポモドーロタイマーを一緒に作る",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-11-pomodoro",
+      "publishedAt": "2026-08-18T18:23:39.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はトークン節約の考え方を整理しました。 https://zenn.dev/mika_and_coco/articles/claude-code-diary-10-to…"
     },
     {
-      "id": "53ab6cf7fce0",
-      "title": "2026/08/09 実ログ No3-No.4 AI危機通報構造の本質とインスタンスの本音",
-      "url": "https://zenn.dev/tomy1noriyamame/articles/cd5878186f3203",
-      "publishedAt": "2026-08-19T04:59:40.000Z",
-      "publisher": "maestro",
-      "summary": "2026/08/09 実ログ No3-No.4 AI危機通報構造の本質とインスタンスの本音 私の対話は、その時の流れに任せてテーマを可変させる対話方式である。 私からの提議内容でCopilotが回答を返し、更に深層へ持ち込み真実を見極める…"
+      "id": "627fd43d25d3",
+      "title": "AI Agentをデバッグする",
+      "url": "https://zenn.dev/netetahito/articles/76dd3d9ba02400",
+      "publishedAt": "2026-08-18T18:00:44.000Z",
+      "publisher": "おなさい",
+      "summary": "前回:AI仕様駆動開発はなぜ苦しいか——2つの壁 AI仕様駆動開発をしていて困ること Agentの「できました」が信用できません。 仕様が大きくなればなるほど、必ず間違いがあります。そして間違いを発見したあと、なぜ間違ったのか聞いて、もう…"
     },
     {
-      "id": "e477893b8a22",
-      "title": "AIがコードを書く時代、ボトルネックは「理解」に移った",
-      "url": "https://zenn.dev/shota0523/articles/understanding-is-the-new-bottleneck",
-      "publishedAt": "2026-08-19T04:50:52.000Z",
-      "publisher": "しょうた",
-      "summary": "この記事で伝えたいこと AIエージェントがコードをどんどん書いてくれる。検証もかなりの部分を自分でやってくれる。 そうなったとき、人間の役割はどこに残るのか——という問いに、Notionのデザインエンジニア Geoffrey Litt が…"
+      "id": "9db93053ca43",
+      "title": "AIループを自作しながら考えた、良いAIループの条件",
+      "url": "https://zenn.dev/m2dw/articles/n8n-ai-cli-loop-conditions",
+      "publishedAt": "2026-08-18T15:42:28.000Z",
+      "publisher": "ニコドリ",
+      "summary": "AI ループを使って、その AI ループ自身を開発しています。 2026 年 6 月に開発を始めて、約 2 ヶ月半。本体の TypeScript は約 12.6 万行、テストコードは約 15 万行になりました。開発リポジトリでマージした …"
     },
     {
-      "id": "3b655aadbe99",
-      "title": "AIエージェント時代の「認可疲れ」を減らす設計メモ",
-      "url": "https://zenn.dev/aqiu/articles/6f0ec1b3f85411",
-      "publishedAt": "2026-08-19T04:42:05.000Z",
-      "publisher": "aqiu",
-      "summary": "AIエージェントを使っていると、便利さとは別のところで疲れる瞬間がある。 「この操作を許可しますか？」 最初のうちは安心できる。勝手にファイルを触られない。勝手に外部サービスへ送信されない。ユーザーが主導権を持てている感じがする。 でも、…"
+      "id": "e9345b4579a1",
+      "title": "herdrを使っていい感じにworktreeで作業させる",
+      "url": "https://zenn.dev/netai/articles/20260819-herdr-worktree",
+      "publishedAt": "2026-08-18T15:03:26.000Z",
+      "publisher": "mechanetai",
+      "summary": "「自分で git worktree コマンドを叩くの面倒だし、エージェントがいい感じにworktree作って作業してくれないかな～」 これを上手く解決してくれたのがherdrでした この記事では網羅的な使い方ではなく、上記のやりたいことが…"
     },
     {
-      "id": "2db9dbd1aa53",
-      "title": "AIインフルエンサー動画生成UIを「状態遷移」で設計する",
-      "url": "https://zenn.dev/choco1/articles/faa586f7025e71",
-      "publishedAt": "2026-08-19T04:28:05.000Z",
-      "publisher": "choco1",
-      "summary": "この記事は、公開ページで確認できる情報だけを材料にしたブラックボックス観察です。ソースコード、内部アーキテクチャ、生成品質、処理速度を検証したものではありません。以下の図と型は、実装の断定ではなく設計を議論するための提案です。 「人物を作…"
+      "id": "aeff901e7784",
+      "title": "FoundryのClaudeにWeb検索・MCPコネクタ等5機能、Hosted on Azure対応の実態",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/foundry-claude-server-tools-azure",
+      "publishedAt": "2026-08-18T14:11:02.000Z",
+      "publisher": "Kazu_AzureAI開拓",
+      "summary": "! 2026-08-18 時点の公式ブログ・ドキュメントに基づいています。後述の通り発表とドキュメントの記述に食い違いがある過渡期なので、導入判断の際は文末の一次ソースと自分のデプロイでの挙動を必ず確認してください。 先に結論 2026-…"
     },
     {
-      "id": "a88d7d032c09",
-      "title": "Cloudflareは何を目指しているのか - AI・ブロックチェーン時代のインフラ戦略",
-      "url": "https://zenn.dev/komlock_lab/articles/cloudflare-agent-internet-strategy",
-      "publishedAt": "2026-08-19T04:10:33.000Z",
-      "publisher": "Natsuki Yamaguchi",
-      "summary": "こんにちは。ブロックチェーン×AI Agentで自律経済圏を創るKomlock lab（Pacific Meta Group）でCTOをしている山口夏生 @0x_natto です。 Cloudflareは、AIエージェントのためのインター…"
+      "id": "c3035c645826",
+      "title": "AIエージェントを「チームメイト」に。OSSでセルフホストもできるMultica入門",
+      "url": "https://zenn.dev/sepi/articles/multica-ai-agent-selfhost",
+      "publishedAt": "2026-08-18T14:06:35.000Z",
+      "publisher": "sepi",
+      "summary": "! この記事はAI(生成AI)によって作成され、AIによるレビューを経たのち、公開前に人間によるレビューを受けています。 ! 本記事は情報公開・共有を目的として執筆しています。Multicaについては既に他の方が書かれた紹介記事も複数公開…"
     },
     {
-      "id": "3a379d8b159f",
-      "title": "AIポートレートとアルバムカバーのスタイルを統一する方法",
-      "url": "https://zenn.dev/savielyamiani/articles/ca67a065997e05",
-      "publishedAt": "2026-08-19T03:12:04.000Z",
-      "publisher": "savielvideo",
-      "summary": "はじめに：なぜ「スタイルの一貫性」が重要なのか 近年、SNSアイコンやアルバムジャケットをAIで生成するクリエイターが急増しています。しかし、多くの人が直面する課題があります。それは「プロフィール写真とアルバムカバーの雰囲気がバラバラにな…"
+      "id": "d9d1bfef10c2",
+      "title": "【紹介リンクあり】RunPodの料金体系を徹底解説！GPU別単価・ストレージ課金の落とし穴・最安運用のコツ",
+      "url": "https://zenn.dev/studysun/articles/ef264131dd0d76",
+      "publishedAt": "2026-08-18T13:59:33.000Z",
+      "publisher": "StudySun",
+      "summary": "! 🎁 初回登録特典（無料クレジット付与）について 紹介リンク経由で新規登録し、$10以上チャージして利用を開始すると、$5〜$500相当のボーナスクレジット がランダム（最低でも$5〜$10以上、運が良ければ最大$500）で付与されま…"
     },
     {
-      "id": "f23560ff2028",
-      "title": "ChatGPT Desktop＋Git worktreeで、設計と実装を分離・並行する",
-      "url": "https://zenn.dev/tohru_ohnishi/articles/cd0e318ae2641c",
-      "publishedAt": "2026-08-19T02:30:34.000Z",
-      "publisher": "楓馬企画 | 大西徹",
-      "summary": "先に結論 VS CodeのCodex拡張からChatGPT Desktop中心の開発へ移行して、私の開発環境ではGit worktreeを使いやすくなりました。 一番大きかったのは、エディタの使い勝手ではありません。 作業A：人間とCod…"
+      "id": "d400b6316c69",
+      "title": "CPUのみでローカルLLMする",
+      "url": "https://zenn.dev/ashidan/articles/tech_llm_cpu_a",
+      "publishedAt": "2026-08-18T13:55:19.000Z",
+      "publisher": "molelord",
+      "summary": "Windowsかつ、CPUのみでローカルLLMしたい RAMが16GB以上ある 少し手間がかかっても性能を上げたい というニッチな需要を満たす記事です。 なお、この記事は2026年8月17日の情報を元に書かれています。llama.cppの…"
     },
     {
-      "id": "3b365ac9dcac",
-      "title": "業務システムにあって、AIのデモにないもの",
-      "url": "https://zenn.dev/shin4/articles/cc9c55cf8097b2",
-      "publishedAt": "2026-08-19T02:19:05.000Z",
-      "publisher": "しんのすけ",
-      "summary": "雰囲気だけ伝えると数分で動くものが出てくる。あのデモは、素直にすごいと思います。 探索目的でなら私も使います。何を作るべきか自分でも分かっていない段階で、一度ざっくり作らせて眺めてみる。手が動き出すまでの時間が明らかに短くなるので、あれは…"
+      "id": "76592a09da4e",
+      "title": "2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較",
+      "url": "https://zenn.dev/secure_auto_lab/articles/local-llm-5model-benchmark-2026",
+      "publishedAt": "2026-08-18T13:35:18.000Z",
+      "publisher": "セキュア＆オートラボ",
+      "summary": "2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較 同じ27Bなのに、生成速度2.4倍。 2026年8月13日に公開されたQwen3.8-27Bを実測し、1ヶ月前に組んだ構成を迷わず入れ替…"
     }
   ],
-  "fetchedAt": "2026-08-19T05:55:27.155Z",
+  "fetchedAt": "2026-08-19T06:38:08.525Z",
   "stale": false,
   "error": null
 }
