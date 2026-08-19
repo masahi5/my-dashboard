@@ -11,23 +11,7 @@
       "url": "https://huggingface.co/papers/2608.16157",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructur…",
-      "score": 28
-    },
-    {
-      "id": "7348675704cf",
-      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
-      "url": "https://huggingface.co/papers/2608.12313",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce c…",
-      "score": 18
-    },
-    {
-      "id": "ee82fc065ac8",
-      "title": "ASI-Bench: At the Dawn of Artificial Superintelligence",
-      "url": "https://huggingface.co/papers/2608.17271",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Artificial superintelligence (ASI) requires AI to move beyond mastering existing knowledge toward exploring the unknown…",
-      "score": 16
+      "score": 31
     },
     {
       "id": "c7b81493b312",
@@ -35,14 +19,30 @@
       "url": "https://huggingface.co/papers/2608.17512",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Although Large Vision-Language Models (VLMs) have significantly advanced embodied navigation, their direct deployment r…",
-      "score": 4
+      "score": 14
     },
     {
-      "id": "3932b7c7618c",
-      "title": "Abra: Scaling Diffusion Image Training",
-      "url": "https://huggingface.co/papers/2608.17286",
+      "id": "0333fd0c739b",
+      "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+      "url": "https://huggingface.co/papers/2608.15008",
+      "publishedAt": "2026-08-15T00:00:00.000Z",
+      "summary": "Memory is becoming core infrastructure for long-horizon LLM agents, yet existing evaluations offer limited guidance on …",
+      "score": 8
+    },
+    {
+      "id": "f057065ab369",
+      "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
+      "url": "https://huggingface.co/papers/2608.17597",
       "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Compute-optimal scaling laws guide the training of frontier language models yet remain largely unexplored for visual ge…",
+      "summary": "Large language models are increasingly deployed through agent harnesses that manage tools, extensions, persistent state…",
+      "score": 5
+    },
+    {
+      "id": "5e50f4dc9d2e",
+      "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+      "url": "https://huggingface.co/papers/2608.17528",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Modern agents operate inside agent harnesses that manage tools, context, and control flow, making the harness a critica…",
       "score": 4
     },
     {
@@ -52,6 +52,14 @@
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "Pixel-space generative models bypass lossy latent compression, yet necessitate joint learning of global structure and f…",
       "score": 3
+    },
+    {
+      "id": "0a8ceef822de",
+      "title": "MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement",
+      "url": "https://huggingface.co/papers/2608.14221",
+      "publishedAt": "2026-08-14T11:51:12.000Z",
+      "summary": "Autoformalization is commonly framed as translating natural-language mathematical statements into machine-verifiable fo…",
+      "score": 2
     },
     {
       "id": "c09c2f5df8ee",
@@ -86,14 +94,6 @@
       "score": 1
     },
     {
-      "id": "0333fd0c739b",
-      "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
-      "url": "https://huggingface.co/papers/2608.15008",
-      "publishedAt": "2026-08-15T00:00:00.000Z",
-      "summary": "Memory is becoming core infrastructure for long-horizon LLM agents, yet existing evaluations offer limited guidance on …",
-      "score": 1
-    },
-    {
       "id": "2b738d41b65b",
       "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
       "url": "https://huggingface.co/papers/2608.18076",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-19T04:09:37.395Z",
+  "fetchedAt": "2026-08-19T04:51:09.594Z",
   "stale": false,
   "error": null
 }
