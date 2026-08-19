@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.14036",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured…",
-      "score": 44
+      "score": 50
     },
     {
       "id": "a12f5d7b5e87",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.18063",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "High-resolution image editing is increasingly demanded in professional workflows, yet existing diffusion-based models r…",
-      "score": 19
+      "score": 20
     },
     {
       "id": "5e50f4dc9d2e",
@@ -30,6 +30,22 @@
       "score": 14
     },
     {
+      "id": "7224821ee740",
+      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
+      "url": "https://huggingface.co/papers/2608.13556",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although v…",
+      "score": 12
+    },
+    {
+      "id": "03b8e774b302",
+      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+      "url": "https://huggingface.co/papers/2608.17067",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Saf…",
+      "score": 12
+    },
+    {
       "id": "04f60861fa38",
       "title": "CoinVE-200K: A Large-Scale High-Quality Dataset for Compositional Instruction-Guided Video Editing",
       "url": "https://huggingface.co/papers/2608.17566",
@@ -38,28 +54,12 @@
       "score": 12
     },
     {
-      "id": "7224821ee740",
-      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
-      "url": "https://huggingface.co/papers/2608.13556",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although v…",
-      "score": 10
-    },
-    {
-      "id": "03b8e774b302",
-      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
-      "url": "https://huggingface.co/papers/2608.17067",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Saf…",
-      "score": 10
-    },
-    {
       "id": "f057065ab369",
       "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
       "url": "https://huggingface.co/papers/2608.17597",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Large language models are increasingly deployed through agent harnesses that manage tools, extensions, persistent state…",
-      "score": 6
+      "score": 7
     },
     {
       "id": "0a8ceef822de",
@@ -78,11 +78,11 @@
       "score": 2
     },
     {
-      "id": "debdaeb4b8bf",
-      "title": "Unifying Graph Neural Networks Through a Common Layer Equation",
-      "url": "https://huggingface.co/papers/2608.16097",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Graph neural networks are commonly described through family-specific equations whose notation obscures shared computati…",
+      "id": "881226f24268",
+      "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
+      "url": "https://huggingface.co/papers/2608.12944",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Electrocardiography (ECG), photoplethysmography (PPG), and phonocardiography (PCG) provide complementary views of the s…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-19T12:00:18.035Z",
+  "fetchedAt": "2026-08-19T13:02:10.645Z",
   "stale": false,
   "error": null
 }
