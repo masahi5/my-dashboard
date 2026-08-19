@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
+      "id": "632ca0576348",
+      "title": "ループエンジニアリングじゃない。デイリーノート1枚で回すAIエージェント運用",
+      "url": "https://zenn.dev/motimotinotch/articles/f24c65c8f38885",
+      "publishedAt": "2026-08-19T12:03:23.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "「ハーネスエンジニアリング」「ループエンジニアリング」というAIエージェント運用の設計論が、2026年に入って急増している。権限をどこまで絞るか、自律ループをどう安全に閉じるか——読んでいると、複数のAIエージェントを併用するには相応に大…"
+    },
+    {
+      "id": "1c47ff42e8d6",
+      "title": "GLM 5.3 ついに登場：智譜AIが2026年8月に投下した次世代フラッグシップLLMを徹底解説",
+      "url": "https://zenn.dev/erhg/articles/6f6afb57a04e0d",
+      "publishedAt": "2026-08-19T11:42:55.000Z",
+      "publisher": "aerg",
+      "summary": "「またモデルが出たの？」と思ったあなた、正しいです。でも今回はちょっと事情が違います。 中国の智譜AI（Zhipu AI / Z.ai）が次世代フラッグシップ大規模言語モデル GLM 5.3 を2026年8月にリリースしました。前世代の …"
+    },
+    {
+      "id": "350f03a9acb1",
+      "title": "[WIP] Hermes Agent セットアップメモ",
+      "url": "https://zenn.dev/konto/articles/cd05407cd5b7fc",
+      "publishedAt": "2026-08-19T11:38:10.000Z",
+      "publisher": "konto",
+      "summary": "Hermes Agent セットアップメモ 環境 マシン: M1 Mac mini（クリーンインストール直後） macOSバージョン: 未確認（確認前に作業開始） Hermes Agent: v0.18.2 (2026.7.7.2) ター…"
+    },
+    {
+      "id": "dea0c215c89f",
+      "title": "「Claude Codeはやりすぎでは？」に答える——Notion AIとの構造差7軸と、使い分けの4シグナル",
+      "url": "https://zenn.dev/imu_imu/articles/notion-ai-vs-claude-code",
+      "publishedAt": "2026-08-19T11:15:04.000Z",
+      "publisher": "いむたろ",
+      "summary": "「Claude Codeって、非エンジニアにはやりすぎじゃない？ うちは Notion AI があるし」 社内で Claude Code の話をすると、だいたいこれを言われます。そして、この反応は半分正しい。 半分正しいからこそ、雑に反論…"
+    },
+    {
+      "id": "23126d7abf1e",
+      "title": "GLM-5.3、後学習だけで最前線へ――AIモデル競争は規模から費用対効果の時代へ",
+      "url": "https://zenn.dev/moonwalker/articles/glm-5-3-post-training-value",
+      "publishedAt": "2026-08-19T11:14:08.000Z",
+      "publisher": "moonwalker",
+      "summary": "中国のAI企業Z.ai（智譜AI）は8月14日、最新の基盤モデル「GLM-5.3」を発表しました。2026年8月19日時点でAPIとGLM Coding Planから利用でき、複雑なソフトウェア開発、長時間にわたるエージェント処理、サイバ…"
+    },
+    {
+      "id": "4498a534c020",
+      "title": "AI承認駆動開発 #4｜チェック観点を「型」にする——Validation TypeからApproval Engineeringへ",
+      "url": "https://zenn.dev/frb_tamasub/articles/ai-approval-driven-development-04-approval-eng",
+      "publishedAt": "2026-08-19T10:43:16.000Z",
+      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
+      "summary": "! 判断軸・制約は「大きな意味」。 Validation Typeは「小さな見る型」。 ! AI協働で大切なのは、すべてのチェックをAIへ任せることではない。 人間が何を見て判断しているのかを、再利用可能な「型」として外へ出すこと。 前回…"
+    },
+    {
+      "id": "118191c6c174",
+      "title": "AIで生産性が3倍になった私たちが、チームを置き去りにした話",
+      "url": "https://zenn.dev/factory_dx_eng/articles/ai-productivity-team-divide",
+      "publishedAt": "2026-08-19T10:27:37.000Z",
+      "publisher": "現場と一緒に作るDX",
+      "summary": "「すぐには理解できないが、正しいことを言っているのだと思う」 週次の報告会で、上司がそう言った。 私はAIで作ったスライドとHTMLレポートを画面に映していた。上司は内容を否定しなかった。むしろ、正しいと言ってくれた。理解はできないけれど…"
+    },
+    {
+      "id": "7f3a8ad63158",
+      "title": "創刊のワケ、あるいは「なんでオレはナルトの話からAIマガジンを始めるのか」",
+      "url": "https://zenn.dev/saikoseiko/articles/b817ef335a3c49",
+      "publishedAt": "2026-08-19T10:26:05.000Z",
+      "publisher": "Saiko-Seiko",
+      "summary": "こんにちは。はじめましての方も、どこかで会ったことある気がする方も、とりあえず座ってください。お茶でも入れます。今日はちょっと長い話になりますが、最後まで読んだ人にはちゃんとご褒美があります。約束します。 きっかけは、深夜のファミレスだっ…"
+    },
+    {
+      "id": "72ff7aadec26",
+      "title": "YouTube動画を映像ごとAIに読ませるCLIを作った（Gemini API、Python標準ライブラリのみ）",
+      "url": "https://zenn.dev/metamol/articles/5cdf6a649ed1bc",
+      "publishedAt": "2026-08-19T10:25:46.000Z",
+      "publisher": "MetamoL",
+      "summary": "YouTubeの解説動画をAIに渡して「これを踏まえて実装して」とやりたい。字幕を取れば済むと思っていました。ところが取り出した字幕には、話者が「この図のここが問題で」と言った「ここ」の中身が、1文字も残っていません。 画面にスライドが映…"
+    },
+    {
+      "id": "767997261914",
+      "title": "【無料・動画連動】AIと開発する技術 — エージェント時代の「任せ方」入門",
+      "url": "https://zenn.dev/acropapa330/books/ai-agentic-dev",
+      "publishedAt": "2026-08-19T10:15:10.000Z",
+      "publisher": "アクロパパ",
+      "summary": "「AIにコードを書いてもらう」が当たり前になった今、差がつくのは書く力ではなく任せ方。 プロンプトの型、コンテキストエンジニアリング、ハーネスとループ、レビューゲート—— YouTube番組「アクロパパのAI教室」第3シリーズと連動して、…"
+    },
+    {
+      "id": "da5007ba1289",
+      "title": "Even G2でMicrosoft Foundry上のエージェントと会話する ― Even G2 × Voice Live API",
+      "url": "https://zenn.dev/miyaura/articles/eveng2-voicelive-d6c78abe98f354",
+      "publishedAt": "2026-08-19T10:07:05.000Z",
+      "publisher": "miyaura",
+      "summary": "スマートグラスに Foundry のエージェントを載せてみる Microsoft Foundry の Voice Live API は、Foundry上の生成AIモデルや、エージェントに対して、リアルタイム音声対話を実現するFoundry…"
+    },
+    {
       "id": "640181f08bab",
       "title": "AIとアート創作とメンタルヘルス",
       "url": "https://zenn.dev/hirotoshiuchida/articles/20260819_aamh",
       "publishedAt": "2026-08-19T08:49:17.000Z",
       "publisher": "Hirotoshi Uchida",
       "summary": "趣味としてクリエイティブコーディングや作曲、映像制作などがある。 でも、ひょんな事から創作する気力が続かなくなった。 昔は、プログラミングだったら、インターネットで調べたり、自分で本を買ったり（そもそも読書が苦手で本を読まない）していた。…"
-    },
-    {
-      "id": "64b494ce2d84",
-      "title": "10万社から「本当に合う相手」を見つける——M&AマッチングKEPLの設計で考えたこと",
-      "url": "https://zenn.dev/fundbook_tech/articles/8767a61d3ebd0d",
-      "publishedAt": "2026-08-19T08:22:34.000Z",
-      "publisher": "uevent",
-      "summary": "はじめまして fundbookでAIエンジニアをしているueventです。 2026年1月に AIマッチングシステム KEPL(ケプル) をリリースしました！少し時間が経ちましたが、夏の思い出として技術記事を認めたいと思います。fundb…"
-    },
-    {
-      "id": "bd471ec65544",
-      "title": "CLAUDE.md書き方：AIエージェントに「効くルール」を書く6原則",
-      "url": "https://zenn.dev/kujira_ai/articles/175921712ec48b",
-      "publishedAt": "2026-08-19T08:21:08.000Z",
-      "publisher": "クジラ",
-      "summary": "この記事で書くこと Claude Codeを毎日の仕事で使うようになって1年以上になります。CLAUDE.md（プロジェクトのルールファイル）に「これは守ってほしい」と書いても、実際には守られなかったり、私自身が後から見返して「これじゃ伝…"
-    },
-    {
-      "id": "9b0d007c7fdc",
-      "title": "MCPの「人気サーバー」一覧が順位づけているのはホスト製品だ",
-      "url": "https://zenn.dev/skillselion/articles/323c7f8c7b60c6",
-      "publishedAt": "2026-08-19T08:04:46.000Z",
-      "publisher": "Skillselion",
-      "summary": "一覧の上のほうにいたから、MCPサーバーを入れる。スターは証拠に見える。GitHubを開く。READMEは分析、ドキュメント、デスクトップアプリ、BIツールだ。MCPはフォルダ一つ。スター数は製品のものだ。一覧はそれをサーバーの点数に使っ…"
-    },
-    {
-      "id": "6a0995d2f891",
-      "title": "Firebase AI LogicでAIとの双方向のやり取りをAndroidアプリに実装する",
-      "url": "https://zenn.dev/404lab/articles/a65a63688a5405",
-      "publishedAt": "2026-08-19T07:16:34.000Z",
-      "publisher": "leopard_lab",
-      "summary": "はじめに 本記事ではFirebase AI Logicを利用して音声と動画のマルチモーダルの双方向のやりとりができるGemini Live APIをAndroidアプリに実装する方法を記載していきます。 従来、音声や動画を用いた双方向のや…"
-    },
-    {
-      "id": "e6ea38318b52",
-      "title": "Claudeがタンパク質を設計した。LLMは「科学を説明するAI」からどこまで進んだのか",
-      "url": "https://zenn.dev/kiri_kunn/articles/a74e1d32e2a74d",
-      "publishedAt": "2026-08-19T07:12:41.000Z",
-      "publisher": "霧（Kiri）",
-      "summary": "2026年8月19日、Anthropicが興味深い研究結果を公開しました。 Claudeを使って、新しいタンパク質結合体（protein binder）をゼロから設計し、その候補を実際の実験で検証したというものです。 Anthropicに…"
-    },
-    {
-      "id": "b6b119512d1c",
-      "title": "axiom-mas-go v2.7 Deterministic Latent Engine Edition",
-      "url": "https://zenn.dev/void09/articles/cc8b7020fe4e66",
-      "publishedAt": "2026-08-19T07:09:38.000Z",
-      "publisher": "kishimoto-void",
-      "summary": "package main import ( \"bytes\" \"context\" \"crypto/sha256\" \"encoding/binary\" \"encoding/hex\" \"encoding/json\" \"fmt\" \"io\" \"lo…"
-    },
-    {
-      "id": "603c4343ff98",
-      "title": "YANS2026 参加報告",
-      "url": "https://zenn.dev/aishift/articles/78612006a494ca",
-      "publishedAt": "2026-08-19T07:08:31.000Z",
-      "publisher": "u-hyszk",
-      "summary": "こんにちは。AIチームの林崎 (@u_hyszk) です。 2026年8月16日(日)〜18日(火)に仙台国際センターで開催された、NLP若手の会 第21回シンポジウム(YANS2026)に参加しました。8月16日(日)には分野交流ハッカ…"
-    },
-    {
-      "id": "da21796910dd",
-      "title": "モデル性能だけ見ていると見落とす。2026年8月、AI開発の競争軸が「Agent基盤」に移り始めた",
-      "url": "https://zenn.dev/kiritani_r/articles/11a4966adfa97f",
-      "publishedAt": "2026-08-19T07:06:42.000Z",
-      "publisher": "ハク（Haku）",
-      "summary": "2026年8月19日、AI関連のニュースを追っていると、また新しいモデルやサービスが大量に出てきています。 GoogleのGemini 3.7 Flash。 Z.aiのGLM-5.3。 CursorのOrigin。 NVIDIAの推論関連…"
-    },
-    {
-      "id": "3d1bf189698c",
-      "title": "vlmkit でAIが苦手な実装パターンを補う: ソリティアを作ってみた",
-      "url": "https://zenn.dev/mizchi/articles/vlmkit-definitive-markup",
-      "publishedAt": "2026-08-19T06:06:26.000Z",
-      "publisher": "mizchi",
-      "summary": "マークアップをいい感じにやってくれる vlmkit というライブラリを作っています。ある程度動くようになったので紹介します。 https://github.com/mizchi/vlmkit 現代の Claude や Codex といった…"
-    },
-    {
-      "id": "ca6fbb658276",
-      "title": "RTX 4070 (VRAM 12GB) で MiniMax H3 はどこまで動くか — 896pは43分で完走、1080p相当は失敗",
-      "url": "https://zenn.dev/nekod/articles/c557520d347256",
-      "publishedAt": "2026-08-19T05:16:36.000Z",
-      "publisher": "nekoD",
-      "summary": "はじめに 音声つき動画を一発生成できる MiniMax H3 を、趣味用 PC(RTX 4070 / VRAM 12GB / RAM 32GB)のローカル ComfyUI で動かしました。公式チュートリアルには VRAM 要件の記載が見当…"
-    },
-    {
-      "id": "eda632ba84c9",
-      "title": "Grok Botの動きの手懐け方と最低限まともに使うためにやったこと",
-      "url": "https://zenn.dev/u1/articles/grok-bot-memory-and-japanese-rules",
-      "publishedAt": "2026-08-19T05:05:55.000Z",
-      "publisher": "Yuichi Uemura",
-      "summary": "この記事はXの元記事をZenn向けに再掲載したものです。 この記事の対象となる方 Grok Botを使ってる方です｡Grok Botとは何か･どうやって使うのかという話は省略して､中身の話に特化した話です｡ 概要 Grok Botを使って…"
     }
   ],
-  "fetchedAt": "2026-08-19T17:25:14.087Z",
+  "fetchedAt": "2026-08-19T17:49:54.366Z",
   "stale": false,
   "error": null
 }
