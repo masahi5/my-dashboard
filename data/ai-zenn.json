@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "092dffbdaafa",
+      "title": "MiniMax-H3動画生成を50%以上高速化！Turbo LoRA×ComfyUIで830秒→375秒にする方法",
+      "url": "https://zenn.dev/lumichy/articles/minimax-h3-turbo-speedup-comfyui-2026",
+      "publishedAt": "2026-08-19T21:33:43.000Z",
+      "publisher": "lumichy",
+      "summary": "前回、ComfyUIとMiniMax-H3を使ったAI動画生成のローカル構築手順を紹介しました。高クオリティな動画と音声が同時に吐き出される感動は大きかったのですが、実際に運用してみて一番大きな課題だと感じたのが、動画生成にかかる待ち時間…"
+    },
+    {
+      "id": "571d232e7154",
+      "title": "多役プロンプトの後半ロール希薄化は、守るものの記述量で緩和できるか検証した",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-role-defense-length-dilution",
+      "publishedAt": "2026-08-19T21:10:05.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 前回記事（賛成3vs反対3のLLMディベートで陣営内均質化を確かめた）で、「後半に定義した役ほど発言が抽象化する。守るものの具体性を上げても完全には解消しない」という未解決の傾向を報告した 今回は6人構成のロールプレイで、前半…"
+    },
+    {
+      "id": "6871e33f0cbe",
+      "title": "AI導入相談を次の一歩まで追跡する最小キューを作る",
+      "url": "https://zenn.dev/miraigent/articles/ai-consultation-next-action-queue",
+      "publishedAt": "2026-08-19T20:36:50.000Z",
+      "publisher": "Kirisaki Kazuya | Miraigent代表",
+      "summary": "AI導入の相談をフォームで受けても、「面談済み」だけを記録すると次の担当者が動けません。必要なのは、相談の結論ではなく、現在地・止まった理由・次の一歩を一行で追える小さなキューです。 この記事では、Googleフォームで受けた相談をGoo…"
+    },
+    {
+      "id": "c02a9407885d",
+      "title": "ゼロから始めるClaude Code #12 フック（hooks）編：Claudeの判断に頼らず「必ず」動く自動化",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-12-hooks",
+      "publishedAt": "2026-08-19T20:26:21.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は初めての自作ツール、ポモドーロタイマーを作りました。 https://zenn.dev/mika_and_coco/articles/claude-code-dia…"
+    },
+    {
       "id": "2ff7843521d1",
       "title": "毎日決まった時刻に動くはずのスキルだけ動かない — 原因はcloud routineの参照先だった",
       "url": "https://zenn.dev/playpark/articles/claude-code-cloud-routine-skills",
@@ -68,41 +100,9 @@
       "publishedAt": "2026-08-19T13:51:13.000Z",
       "publisher": "増田",
       "summary": "1. はじめに：AIに自分で自分のコードをチェックさせる限界 「AIエージェントにコードを書かせ、そのまま『自分でテストしてセルフチェックして問題なければマージして』と指示する」——こうしたプロンプト駆動の自律開発を試したことがある人は多…"
-    },
-    {
-      "id": "ed4c592e3c50",
-      "title": "Claudeでコードを書き、Codexでレビューさせた時におきたこと",
-      "url": "https://zenn.dev/saltmu/articles/e1414887002126",
-      "publishedAt": "2026-08-19T13:40:03.000Z",
-      "publisher": "そるとむ",
-      "summary": "AI駆動開発実験中のそるとむです。 要件を人間が伝え、Claude CodeでIssue、コードを書き、GitHub上のPRをCodexでレビュー、あるいはその逆を組み合わせ、日々の開発をフル自律に近い形で回す実験を続けています。時々An…"
-    },
-    {
-      "id": "7dadb6030e86",
-      "title": "技術資産ポータルの設計を、ChatGPTとの壁打ちでMVPまで削った話",
-      "url": "https://zenn.dev/jodycraft/articles/8aaf8bd89bc8d1",
-      "publishedAt": "2026-08-19T13:29:48.000Z",
-      "publisher": "JodyCraft",
-      "summary": "! 📋 この記事の前提 前回の記事(iPhoneとDiscordだけで、2日でBlazor Web Appを3つ作った話)で少し触れた「事前設計の中身」を、この記事で詳しく掘り下げます。C#/.NETの基本文法がわかる方向けです。 この…"
-    },
-    {
-      "id": "c97ed6010fbc",
-      "title": "iPhoneとDiscordだけで、2日でBlazor Web Appを3つ作った話",
-      "url": "https://zenn.dev/jodycraft/articles/f2d472b643e7ff",
-      "publishedAt": "2026-08-19T13:29:34.000Z",
-      "publisher": "JodyCraft",
-      "summary": "! 📋 この記事の前提 Blazorの基本的な仕組み(コンポーネント、DIコンテナ程度)を知っている方向けです。AIコーディングエージェントを使ったことがなくても読めるように書いています。 3週間ほど記事の更新が空いていました。理由は単…"
-    },
-    {
-      "id": "3db51c28a90b",
-      "title": "正規表現チートシート — アンカーから名前付きグループまで",
-      "url": "https://zenn.dev/devnestio/articles/devnestio-tool-regex-cheatsheet",
-      "publishedAt": "2026-08-19T13:23:56.000Z",
-      "publisher": "Shota | devnestio",
-      "summary": "正規表現は書くたびに「あれ、lookaheadってどっちだっけ？」となりがち。devnestio に Regex Cheat Sheet を追加しました。 https://devnestio.pages.dev/regex-cheatsh…"
     }
   ],
-  "fetchedAt": "2026-08-19T22:32:57.732Z",
+  "fetchedAt": "2026-08-19T23:00:22.399Z",
   "stale": false,
   "error": null
 }
