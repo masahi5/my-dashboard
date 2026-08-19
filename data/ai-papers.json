@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.14036",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured…",
-      "score": 71
+      "score": 78
     },
     {
       "id": "a12f5d7b5e87",
@@ -62,6 +62,14 @@
       "score": 5
     },
     {
+      "id": "e06b7641d875",
+      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+      "url": "https://huggingface.co/papers/2608.17050",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval …",
+      "score": 3
+    },
+    {
       "id": "65455bb6e37e",
       "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
       "url": "https://huggingface.co/papers/2608.17402",
@@ -70,12 +78,12 @@
       "score": 2
     },
     {
-      "id": "e06b7641d875",
-      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
-      "url": "https://huggingface.co/papers/2608.17050",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval …",
-      "score": 2
+      "id": "8437b7705a7e",
+      "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
+      "url": "https://huggingface.co/papers/2608.17379",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "We introduce PTXBench, a benchmark for evaluating and adapting large language models (LLMs) to use architecture-specifi…",
+      "score": 1
     },
     {
       "id": "881226f24268",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Unified image restoration (UIR) aims to recover high-quality (HQ) content from low-quality (LQ) images with different d…",
       "score": 1
-    },
-    {
-      "id": "8437b7705a7e",
-      "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
-      "url": "https://huggingface.co/papers/2608.17379",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "We introduce PTXBench, a benchmark for evaluating and adapting large language models (LLMs) to use architecture-specifi…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-19T15:45:43.326Z",
+  "fetchedAt": "2026-08-19T16:26:42.226Z",
   "stale": false,
   "error": null
 }
