@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.16157",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructur…",
-      "score": 35
+      "score": 37
     },
     {
       "id": "c7b81493b312",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.17512",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Although Large Vision-Language Models (VLMs) have significantly advanced embodied navigation, their direct deployment r…",
-      "score": 21
+      "score": 30
     },
     {
       "id": "5e50f4dc9d2e",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.17528",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Modern agents operate inside agent harnesses that manage tools, context, and control flow, making the harness a critica…",
-      "score": 11
+      "score": 12
     },
     {
       "id": "04f60861fa38",
@@ -38,20 +38,12 @@
       "score": 10
     },
     {
-      "id": "0333fd0c739b",
-      "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
-      "url": "https://huggingface.co/papers/2608.15008",
-      "publishedAt": "2026-08-15T00:00:00.000Z",
-      "summary": "Memory is becoming core infrastructure for long-horizon LLM agents, yet existing evaluations offer limited guidance on …",
-      "score": 10
-    },
-    {
-      "id": "2b738d41b65b",
-      "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
-      "url": "https://huggingface.co/papers/2608.18076",
+      "id": "a12f5d7b5e87",
+      "title": "EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing",
+      "url": "https://huggingface.co/papers/2608.18063",
       "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet con…",
-      "score": 8
+      "summary": "High-resolution image editing is increasingly demanded in professional workflows, yet existing diffusion-based models r…",
+      "score": 6
     },
     {
       "id": "f057065ab369",
@@ -60,14 +52,6 @@
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Large language models are increasingly deployed through agent harnesses that manage tools, extensions, persistent state…",
       "score": 6
-    },
-    {
-      "id": "72f16d732666",
-      "title": "Energy-Guided Flow Matching",
-      "url": "https://huggingface.co/papers/2608.05811",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Pixel-space generative models bypass lossy latent compression, yet necessitate joint learning of global structure and f…",
-      "score": 5
     },
     {
       "id": "0a8ceef822de",
@@ -86,12 +70,20 @@
       "score": 3
     },
     {
-      "id": "c09c2f5df8ee",
-      "title": "GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation",
-      "url": "https://huggingface.co/papers/2608.17988",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Many scalable latent 3D generators operate on structured tensors, whereas pre-optimized 3D Gaussian Splatting (3DGS) re…",
-      "score": 3
+      "id": "fbd5c8885151",
+      "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
+      "url": "https://huggingface.co/papers/2608.14036",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured…",
+      "score": 2
+    },
+    {
+      "id": "e06b7641d875",
+      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+      "url": "https://huggingface.co/papers/2608.17050",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval …",
+      "score": 1
     },
     {
       "id": "debdaeb4b8bf",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Graph neural networks are commonly described through family-specific equations whose notation obscures shared computati…",
       "score": 1
+    },
+    {
+      "id": "65455bb6e37e",
+      "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+      "url": "https://huggingface.co/papers/2608.17402",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Vision encoders are a critical component of vision-language models, and scaling their capacity effectively improves per…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-19T07:24:48.058Z",
+  "fetchedAt": "2026-08-19T08:02:17.648Z",
   "stale": false,
   "error": null
 }
