@@ -6,20 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "1218a51355f6",
-      "title": "StateM: Reaching 95.3% Raw Accuracy, or a \\$15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling",
-      "url": "https://huggingface.co/papers/2608.15089",
-      "publishedAt": "2026-08-15T00:00:00.000Z",
-      "summary": "Long-horizon agents can fail even when their underlying models can solve the constituent steps. They may lose track of …",
-      "score": 157
+      "id": "7348675704cf",
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "url": "https://huggingface.co/papers/2608.12313",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce c…",
+      "score": 17
     },
     {
-      "id": "00fd11f59e23",
-      "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
-      "url": "https://huggingface.co/papers/2608.15869",
-      "publishedAt": "2026-08-16T00:00:00.000Z",
-      "summary": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, tempora…",
-      "score": 5
+      "id": "6005a7fb0cba",
+      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+      "url": "https://huggingface.co/papers/2608.17310",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Reinforcement Learning (RL) has been promising in single-turn LLM fine-tuning. However, long-horizon agentic reasoning …",
+      "score": 9
     },
     {
       "id": "ac487726c69d",
@@ -27,14 +27,22 @@
       "url": "https://huggingface.co/papers/2608.16002",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Reliable uncertainty quantification (UQ) is essential for deploying large language model (LLM) agents in complex intera…",
-      "score": 3
+      "score": 5
     },
     {
-      "id": "fec3e23d31da",
-      "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
-      "url": "https://huggingface.co/papers/2608.14577",
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "summary": "Frontier large language models (LLMs) safety evaluation has largely treated harmful generation as an attack outcome rat…",
+      "id": "3932b7c7618c",
+      "title": "Abra: Scaling Diffusion Image Training",
+      "url": "https://huggingface.co/papers/2608.17286",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Compute-optimal scaling laws guide the training of frontier language models yet remain largely unexplored for visual ge…",
+      "score": 4
+    },
+    {
+      "id": "72f16d732666",
+      "title": "Energy-Guided Flow Matching",
+      "url": "https://huggingface.co/papers/2608.05811",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Pixel-space generative models bypass lossy latent compression, yet necessitate joint learning of global structure and f…",
       "score": 3
     },
     {
@@ -43,15 +51,15 @@
       "url": "https://huggingface.co/papers/2608.17271",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Artificial superintelligence (ASI) requires AI to move beyond mastering existing knowledge toward exploring the unknown…",
-      "score": 1
+      "score": 3
     },
     {
-      "id": "3932b7c7618c",
-      "title": "Abra: Scaling Diffusion Image Training",
-      "url": "https://huggingface.co/papers/2608.17286",
+      "id": "a94177c0d6b6",
+      "title": "Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection",
+      "url": "https://huggingface.co/papers/2608.16393",
       "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Compute-optimal scaling laws guide the training of frontier language models yet remain largely unexplored for visual ge…",
-      "score": 1
+      "summary": "We assess indirect prompt injection in DeepSeek Harness (DSH), using AI-Infra-Guard (A.I.G) to construct tests, deliver…",
+      "score": 2
     },
     {
       "id": "fb32575eaa30",
@@ -59,15 +67,7 @@
       "url": "https://huggingface.co/papers/2608.17800",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Recent advances in Large Language Models(LLMs) and agents have substantially improved the ability of AI systems to exec…",
-      "score": 1
-    },
-    {
-      "id": "6005a7fb0cba",
-      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
-      "url": "https://huggingface.co/papers/2608.17310",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Reinforcement Learning (RL) has been promising in single-turn LLM fine-tuning. However, long-horizon agentic reasoning …",
-      "score": 1
+      "score": 2
     },
     {
       "id": "dc1d1b7998a2",
@@ -75,15 +75,23 @@
       "url": "https://huggingface.co/papers/2608.15454",
       "publishedAt": "2026-08-16T00:00:00.000Z",
       "summary": "Byte-level hierarchical language models (LMs) have recently emerged as a robust alternative to their popular counterpar…",
+      "score": 2
+    },
+    {
+      "id": "2b738d41b65b",
+      "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+      "url": "https://huggingface.co/papers/2608.18076",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet con…",
       "score": 1
     },
     {
-      "id": "6e14c9d8a1d6",
-      "title": "Accuracy and Order Sensitivity Diverge Under Label-Free Strategies",
-      "url": "https://huggingface.co/papers/2608.11947",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "Multiple-choice benchmarks are widely used to evaluate large language models, but MCQ scores conflate knowledge with se…",
-      "score": 1
+      "id": "c09c2f5df8ee",
+      "title": "GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation",
+      "url": "https://huggingface.co/papers/2608.17988",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Many scalable latent 3D generators operate on structured tensors, whereas pre-optimized 3D Gaussian Splatting (3DGS) re…",
+      "score": 0
     },
     {
       "id": "958fa6079402",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Programmatic representations provide a compelling paradigm for 3D content creation, enabling fine-grained edits, interp…",
       "score": 0
-    },
-    {
-      "id": "945366b286c7",
-      "title": "StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding",
-      "url": "https://huggingface.co/papers/2608.16320",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Streaming video understanding demands direct responses from the causally observed prefix of an unfolding video. Existin…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-19T02:31:27.135Z",
+  "fetchedAt": "2026-08-19T03:29:01.350Z",
   "stale": false,
   "error": null
 }

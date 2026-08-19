@@ -6,28 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "7bee5f52a711",
-      "title": "AIエージェントは「群れ」にすると壊れる ——各出力を検証しても、配備が壊す新しい次元",
-      "url": "https://zenn.dev/ryok/articles/agent-swarm-verification",
-      "publishedAt": "2026-08-18T20:01:28.000Z",
-      "publisher": "ryok",
-      "summary": "結論 私はこれまで「検証可能性の階段」という概念で、AIエージェント運用の律速はモデルの賢さではなく「検証をどう設計したか」だと書いてきた（前記事）。タスクを「生成コスト」ではなく「検証コスト」で段に分け、そのタスクが何段目かを見誤ると事…"
-    },
-    {
-      "id": "ef77835447d9",
-      "title": "トントントントン日野の2トン ― 遊びを観測しようとして、観測されてたのは私だった🚚",
-      "url": "https://zenn.dev/pomodoro_naomi/articles/d2ea40087cc936",
-      "publishedAt": "2026-08-18T18:53:42.000Z",
-      "publisher": "🍅Pomodoroナオミ🍅",
-      "summary": "title: \"トントントントン日野の2トン ― 遊びを観測しようとして、観測されてたのは私だった\" emoji: \"🚚\" type: \"idea\" topics: [\"ai\", \"opentelemetry\", \"observabil…"
-    },
-    {
       "id": "c5e00d534f1b",
-      "title": "AIエージェントの『勝率88%の発見』を検証で殺すまで — 計測アーティファクト2つの実話",
+      "title": "AIエージェントが自分の発見を殺した夜 — 勝率88%のバックテストをAIエージェントの検証規律で潰すまで",
       "url": "https://zenn.dev/sobani_dev/articles/80398658f78418",
       "publishedAt": "2026-08-18T18:44:02.000Z",
       "publisher": "WD",
-      "summary": "! これは実話です。数値はすべて、筆者が運用している研究プログラムの記録台帳から、そのまま引いています。対象の仮説は2026年8月18日に棄却済みで、この記事に再現可能な儲け話は含まれません。含まれないことこそが本題です。 勝率88%、1…"
+      "summary": "! これは実話です。数値はすべて、運用中の研究プログラムの台帳(多重性台帳・kill台帳)の記載をそのまま引いています。対象の仮説は2026-08-18に棄却済みで、この記事に再現可能な儲け話は含まれません。含まれないことこそが本題です。…"
     },
     {
       "id": "0e296c779b97",
@@ -100,9 +84,25 @@
       "publishedAt": "2026-08-18T13:35:18.000Z",
       "publisher": "セキュア＆オートラボ",
       "summary": "2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較 同じ27Bなのに、生成速度2.4倍。 2026年8月13日に公開されたQwen3.8-27Bを実測し、1ヶ月前に組んだ構成を迷わず入れ替…"
+    },
+    {
+      "id": "14b27465bb56",
+      "title": "ComfyUIのノード地獄から解放！MiniMax動画・画像生成を「Agent Skill」と「専用GUI」で誰でも扱えるようにした話",
+      "url": "https://zenn.dev/lumichy/articles/comfyui-minimax-agent-skill-studio-2026",
+      "publishedAt": "2026-08-18T12:29:26.000Z",
+      "publisher": "lumichy",
+      "summary": "前回の記事（MiniMax H3 × ComfyUI 徹底解説ガイド）では、最新のオープンソース全模態（マルチモーダル）AI動画生成モデル 「MiniMax H3」 と ComfyUI を組み合わせて、ローカル環境で高品質な動画や音声を生…"
+    },
+    {
+      "id": "ebb30dbaef9a",
+      "title": "AIオーディオはテキスト読み上げの時代を離れつつある",
+      "url": "https://zenn.dev/funnycoding/articles/4597a8849691f5",
+      "publishedAt": "2026-08-18T12:19:33.000Z",
+      "publisher": "funnycoding",
+      "summary": "AIオーディオは「テキスト読み上げ」の時代を超えつつある Seed Audio 1.0が示す、音声・サウンドデザイン・マルチモーダル制作の未来 ここ数年、「AIオーディオ」と呼ばれる製品の多くは、それぞれ独立したタスクに特化してきました。…"
     }
   ],
-  "fetchedAt": "2026-08-19T02:31:27.243Z",
+  "fetchedAt": "2026-08-19T03:29:01.521Z",
   "stale": false,
   "error": null
 }
