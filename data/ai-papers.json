@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.14036",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured…",
-      "score": 78
+      "score": 81
     },
     {
       "id": "a12f5d7b5e87",
@@ -30,12 +30,12 @@
       "score": 15
     },
     {
-      "id": "5e50f4dc9d2e",
-      "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
-      "url": "https://huggingface.co/papers/2608.17528",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Modern agents operate inside agent harnesses that manage tools, context, and control flow, making the harness a critica…",
-      "score": 15
+      "id": "03b8e774b302",
+      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+      "url": "https://huggingface.co/papers/2608.17067",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Saf…",
+      "score": 13
     },
     {
       "id": "04f60861fa38",
@@ -44,14 +44,6 @@
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "The quality and diversity of instruction-based video editing datasets are steadily improving, yet existing datasets mai…",
       "score": 13
-    },
-    {
-      "id": "03b8e774b302",
-      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
-      "url": "https://huggingface.co/papers/2608.17067",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Saf…",
-      "score": 12
     },
     {
       "id": "0a8ceef822de",
@@ -78,6 +70,14 @@
       "score": 2
     },
     {
+      "id": "015ad531a6fe",
+      "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
+      "url": "https://huggingface.co/papers/2608.17393",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Reinforcement learning for coding agents increasingly relies on long-running agent harnesses to manage tool integration…",
+      "score": 1
+    },
+    {
       "id": "8437b7705a7e",
       "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
       "url": "https://huggingface.co/papers/2608.17379",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-19T16:26:42.226Z",
+  "fetchedAt": "2026-08-19T16:56:17.166Z",
   "stale": false,
   "error": null
 }
