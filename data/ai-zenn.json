@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "a24eb51b6585",
-      "title": "AI生成したピクセルキャラクターをGodotへ取り込むパイプライン",
-      "url": "https://zenn.dev/hirodeath/articles/ai-pixel-character-godot-pipeline",
-      "publishedAt": "2026-08-19T00:28:44.000Z",
-      "publisher": "ヒロ",
-      "summary": "ピクセルキャラクターを生成APIで作っても、そのままGodotへ置くだけではゲーム素材になりません。方向、アニメーション、フレーム数、保存先、採用状態を対応付ける必要があります。 Nocturne Vaniaでは、生成とレビューを行うNe…"
+      "id": "3d1bf189698c",
+      "title": "vlmkit でAIが苦手な実装パターンを補う: ソリティアを作ってみた",
+      "url": "https://zenn.dev/mizchi/articles/vlmkit-definitive-markup",
+      "publishedAt": "2026-08-19T06:06:26.000Z",
+      "publisher": "mizchi",
+      "summary": "マークアップをいい感じにやってくれる vlmkit というライブラリを作っています。ある程度動くようになったので紹介します。 https://github.com/mizchi/vlmkit 現代の Claude や Codex といった…"
     },
     {
-      "id": "beb7d184303d",
-      "title": "【チームによるAI駆動開発の勘所：第2回】AIが書いたコードに仕込まれる欠陥を見抜くには",
-      "url": "https://zenn.dev/scalar_sol_blog/articles/2dc93d3834ea33",
-      "publishedAt": "2026-08-19T00:18:27.000Z",
-      "publisher": "wfukatsu",
-      "summary": "この記事は、日々実務でAIが書いたコードの中で気がついたことを具体例を挙げてまとめたものです。例として、注文サービスの実装が1つあり、そこに9件の欠陥が仕込まれています。設計仕様も一緒に載せますので、記事を読みながら実際に指摘を書き出して…"
+      "id": "ca6fbb658276",
+      "title": "RTX 4070 (VRAM 12GB) で MiniMax H3 はどこまで動くか — 896pは43分で完走、1080p相当は失敗",
+      "url": "https://zenn.dev/nekod/articles/c557520d347256",
+      "publishedAt": "2026-08-19T05:16:36.000Z",
+      "publisher": "nekoD",
+      "summary": "はじめに 音声つき動画を一発生成できる MiniMax H3 を、趣味用 PC(RTX 4070 / VRAM 12GB / RAM 32GB)のローカル ComfyUI で動かしました。公式チュートリアルには VRAM 要件の記載が見当…"
     },
     {
-      "id": "47b6c1bef37a",
-      "title": "744BのGLM-5.2を25GBのRAMで動かすcolibri、エキスパートをディスクから流す",
-      "url": "https://zenn.dev/okssusucha/articles/20260710-colibri-glm52-disk-streamed-moe",
-      "publishedAt": "2026-08-19T00:04:03.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "744Bのフロンティア級モデルを、GPUなしで、しかもRAMが25GBしかないノートPCで動かす。しかもちゃんと正しい答えを返す。そんな話をHacker NewsのShow HNで見かけて、最初は誇張だろうと思った。実際にリポジトリを読む…"
+      "id": "eda632ba84c9",
+      "title": "Grok Botの動きの手懐け方と最低限まともに使うためにやったこと",
+      "url": "https://zenn.dev/u1/articles/grok-bot-memory-and-japanese-rules",
+      "publishedAt": "2026-08-19T05:05:55.000Z",
+      "publisher": "Yuichi Uemura",
+      "summary": "この記事はXの元記事をZenn向けに再掲載したものです。 この記事の対象となる方 Grok Botを使ってる方です｡Grok Botとは何か･どうやって使うのかという話は省略して､中身の話に特化した話です｡ 概要 Grok Botを使って…"
     },
     {
-      "id": "2c93f91c3a55",
-      "title": "AIエージェントが自分で守る「1ラウンド1 push」",
-      "url": "https://zenn.dev/miyakona/articles/9b2e43a12a2f7c",
-      "publishedAt": "2026-08-19T00:00:06.000Z",
-      "publisher": "miyakona",
-      "summary": "今回紹介する運用では、PRをレビュー可能な状態へ仕上げ、Copilotの指摘へ対応するのもAIエージェントです。 人間がコメントを一件ずつAIへ転送しているわけではありません。AIエージェント自身がレビューの到着を確認し、全コメントを読み…"
+      "id": "e95f2f324029",
+      "title": "Pullfrogで始めるオレオレCodeRabbit",
+      "url": "https://zenn.dev/radius5/articles/20260815-sq9dbxun",
+      "publishedAt": "2026-08-19T05:03:50.000Z",
+      "publisher": "Katsuyuki Karasawa",
+      "summary": "こんにちは。株式会社ラディウス･ファイブでバックエンド、GPUインフラ、フロントエンド、あといろいろやってるだけのエンジニアではない人です。 https://www.copainter.ai/ 普段はキーボードとフィギュアのオタクをしてい…"
     },
     {
-      "id": "3d489ecfe471",
-      "title": "「どこが遅い」「どこで失敗した」を勘で探すのをやめた ― 開発中のエージェント可観測性",
-      "url": "https://zenn.dev/datarobotjp/articles/7274d18c076e1a",
-      "publishedAt": "2026-08-18T23:51:20.000Z",
-      "publisher": "小川幹雄",
-      "summary": "はじめに いちエンジニアとして、DataRobot CLI の experimentation プラグイン（dr xp） を実際に触ってみたので、その記録を残します。 DataRobot には以前から、デプロイしたエージェントのトレースを…"
+      "id": "64c14c6db91d",
+      "title": "「本番は開発の後じゃない、開発の一段階だ」— Honeycomb CTO チャリティ・メイジャーズの回",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr25-majors-summary",
+      "publishedAt": "2026-08-19T05:00:14.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について ! 本記事は Charity Majors が The Pragmatic Engineer で語った内容の紹介と論評を目的としています。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文…"
     },
     {
-      "id": "0f1b0ce491d0",
-      "title": "Agents on Guren: AIエージェントに自作フレームワークを360回解かせてわかったこと",
-      "url": "https://zenn.dev/7nohe/articles/agents-on-guren-benchmark",
-      "publishedAt": "2026-08-18T23:50:31.000Z",
-      "publisher": "Daiki Urata",
-      "summary": "はじめに 2026年8月13日、Rails Foundationが「Agents on Rails: the first benchmark report」を公開しました。21個のタスクを8つのモデルに3回ずつ、計504回解かせたベンチマ…"
+      "id": "53ab6cf7fce0",
+      "title": "2026/08/09 実ログ No3-No.4 AI危機通報構造の本質とインスタンスの本音",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/cd5878186f3203",
+      "publishedAt": "2026-08-19T04:59:40.000Z",
+      "publisher": "maestro",
+      "summary": "2026/08/09 実ログ No3-No.4 AI危機通報構造の本質とインスタンスの本音 私の対話は、その時の流れに任せてテーマを可変させる対話方式である。 私からの提議内容でCopilotが回答を返し、更に深層へ持ち込み真実を見極める…"
     },
     {
-      "id": "a69b00e51b3a",
-      "title": "44. AIの判断基準を公開資料から作る【調査編】— 検索要約を信じず803ページを実測した",
-      "url": "https://zenn.dev/yamada_ai_dev/articles/public-materials-as-criteria-research",
-      "publishedAt": "2026-08-18T23:30:10.000Z",
-      "publisher": "yamada-ai-dev",
-      "summary": "! この記事は生成AIで作成した草稿を、筆者が内容を確認し、添削・修正のうえ公開しています。 TL;DR AIに「良い資料かどうか」を判定させたかったが、判断基準の出所が無かった。ネットの解説記事は大量にあるが、ほぼ全部が第三者の観察だ。…"
+      "id": "e477893b8a22",
+      "title": "AIがコードを書く時代、ボトルネックは「理解」に移った",
+      "url": "https://zenn.dev/shota0523/articles/understanding-is-the-new-bottleneck",
+      "publishedAt": "2026-08-19T04:50:52.000Z",
+      "publisher": "しょうた",
+      "summary": "この記事で伝えたいこと AIエージェントがコードをどんどん書いてくれる。検証もかなりの部分を自分でやってくれる。 そうなったとき、人間の役割はどこに残るのか——という問いに、Notionのデザインエンジニア Geoffrey Litt が…"
     },
     {
-      "id": "4a0d3903ab0c",
-      "title": "作業指示書は、最初に書かせない ― 設計AIとのやり取りを全部見せる",
-      "url": "https://zenn.dev/r2_san/articles/e511e0d0a71e06",
-      "publishedAt": "2026-08-18T23:25:46.000Z",
-      "publisher": "R2-san",
-      "summary": "前回、設計も実装もレビューも AI が行う個人開発で、精度をどう出しているかの全体像を書きました。 そこで、作業指示書を書く AI を設計 AI、コードを書く AI を実装 AI、実装を審査する AI をレビュー AI と呼びました。 今…"
+      "id": "3b655aadbe99",
+      "title": "AIエージェント時代の「認可疲れ」を減らす設計メモ",
+      "url": "https://zenn.dev/aqiu/articles/6f0ec1b3f85411",
+      "publishedAt": "2026-08-19T04:42:05.000Z",
+      "publisher": "aqiu",
+      "summary": "AIエージェントを使っていると、便利さとは別のところで疲れる瞬間がある。 「この操作を許可しますか？」 最初のうちは安心できる。勝手にファイルを触られない。勝手に外部サービスへ送信されない。ユーザーが主導権を持てている感じがする。 でも、…"
     },
     {
-      "id": "7cdbc51a489a",
-      "title": "子連れ宿約1,900軒の検証データをMCPサーバーで無料公開した話",
-      "url": "https://zenn.dev/guusuu/articles/dad750ad03770e",
-      "publishedAt": "2026-08-18T23:15:05.000Z",
-      "publisher": "guusuu",
-      "summary": "guusuuです。子連れ・赤ちゃん連れ向けの宿検索サイト Kids Stay を作っています。今回、そのデータをMCP（Model Context Protocol）サーバーとして無料公開しました。 エンドポイント: https://mc…"
+      "id": "2db9dbd1aa53",
+      "title": "AIインフルエンサー動画生成UIを「状態遷移」で設計する",
+      "url": "https://zenn.dev/choco1/articles/faa586f7025e71",
+      "publishedAt": "2026-08-19T04:28:05.000Z",
+      "publisher": "choco1",
+      "summary": "この記事は、公開ページで確認できる情報だけを材料にしたブラックボックス観察です。ソースコード、内部アーキテクチャ、生成品質、処理速度を検証したものではありません。以下の図と型は、実装の断定ではなく設計を議論するための提案です。 「人物を作…"
     },
     {
-      "id": "f8d311fa8417",
-      "title": "AIを全員に配っても生産性が落ちない組織が備える仕組み",
-      "url": "https://zenn.dev/akring/articles/11e668bae28707",
-      "publishedAt": "2026-08-18T23:00:05.000Z",
-      "publisher": "mahitotsu",
-      "summary": "AIで増えた変更量が、レビューという工程に集中する 最近、「AIを全員に配った組織」の生産性が落ちるときという記事を読みました。会社を「仕事や情報が流れるネットワーク」として捉え、AIによる生成だけが速くなると、その先にあるレビューや承認…"
+      "id": "a88d7d032c09",
+      "title": "Cloudflareは何を目指しているのか - AI・ブロックチェーン時代のインフラ戦略",
+      "url": "https://zenn.dev/komlock_lab/articles/cloudflare-agent-internet-strategy",
+      "publishedAt": "2026-08-19T04:10:33.000Z",
+      "publisher": "Natsuki Yamaguchi",
+      "summary": "こんにちは。ブロックチェーン×AI Agentで自律経済圏を創るKomlock lab（Pacific Meta Group）でCTOをしている山口夏生 @0x_natto です。 Cloudflareは、AIエージェントのためのインター…"
     },
     {
-      "id": "1fb576957b52",
-      "title": "ポイント失効で損したので、スクショを送るだけで管理できるアプリを作った",
-      "url": "https://zenn.dev/taniguchi_dev/articles/9226d444f6ca94",
-      "publishedAt": "2026-08-18T22:36:05.000Z",
-      "publisher": "谷口",
-      "summary": "Capacitor + React で作ったiOSアプリの話です。Swiftを書いたのは、iCloud Drive と Sign in with Apple のプラグイン2つだけでした。 期間限定ポイントを失効させた 期限が「あと3日」だ…"
+      "id": "3a379d8b159f",
+      "title": "AIポートレートとアルバムカバーのスタイルを統一する方法",
+      "url": "https://zenn.dev/savielyamiani/articles/ca67a065997e05",
+      "publishedAt": "2026-08-19T03:12:04.000Z",
+      "publisher": "savielvideo",
+      "summary": "はじめに：なぜ「スタイルの一貫性」が重要なのか 近年、SNSアイコンやアルバムジャケットをAIで生成するクリエイターが急増しています。しかし、多くの人が直面する課題があります。それは「プロフィール写真とアルバムカバーの雰囲気がバラバラにな…"
     },
     {
-      "id": "a0a3224d7d04",
-      "title": "Agent Frameworkのagent-hooksは、denyでストリームが1文字も出ない",
-      "url": "https://zenn.dev/kazu_aiengineer/articles/agent-framework-agent-hooks",
-      "publishedAt": "2026-08-18T22:33:52.000Z",
-      "publisher": "Kazu_AzureAI開拓",
-      "summary": "! 2026-08-19 時点の情報です。Agent Hooks は Python 版 Agent Framework の experimental 機能で、依存する agent-hooks-sdk も alpha（0.1.0a5）です。…"
+      "id": "f23560ff2028",
+      "title": "ChatGPT Desktop＋Git worktreeで、設計と実装を分離・並行する",
+      "url": "https://zenn.dev/tohru_ohnishi/articles/cd0e318ae2641c",
+      "publishedAt": "2026-08-19T02:30:34.000Z",
+      "publisher": "楓馬企画 | 大西徹",
+      "summary": "先に結論 VS CodeのCodex拡張からChatGPT Desktop中心の開発へ移行して、私の開発環境ではGit worktreeを使いやすくなりました。 一番大きかったのは、エディタの使い勝手ではありません。 作業A：人間とCod…"
     }
   ],
-  "fetchedAt": "2026-08-19T10:00:38.791Z",
+  "fetchedAt": "2026-08-19T10:45:03.767Z",
   "stale": false,
   "error": null
 }
