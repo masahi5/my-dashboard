@@ -6,28 +6,36 @@
   "category": "ai",
   "items": [
     {
+      "id": "cebcf299be42",
+      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+      "url": "https://huggingface.co/papers/2608.16157",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructur…",
+      "score": 28
+    },
+    {
       "id": "7348675704cf",
       "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
       "url": "https://huggingface.co/papers/2608.12313",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "summary": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce c…",
-      "score": 17
+      "score": 18
     },
     {
-      "id": "6005a7fb0cba",
-      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
-      "url": "https://huggingface.co/papers/2608.17310",
+      "id": "ee82fc065ac8",
+      "title": "ASI-Bench: At the Dawn of Artificial Superintelligence",
+      "url": "https://huggingface.co/papers/2608.17271",
       "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Reinforcement Learning (RL) has been promising in single-turn LLM fine-tuning. However, long-horizon agentic reasoning …",
-      "score": 9
+      "summary": "Artificial superintelligence (ASI) requires AI to move beyond mastering existing knowledge toward exploring the unknown…",
+      "score": 16
     },
     {
-      "id": "ac487726c69d",
-      "title": "From Sequence to Structure: Relational Uncertainty Propagation for LLM Agents",
-      "url": "https://huggingface.co/papers/2608.16002",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Reliable uncertainty quantification (UQ) is essential for deploying large language model (LLM) agents in complex intera…",
-      "score": 5
+      "id": "c7b81493b312",
+      "title": "Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation",
+      "url": "https://huggingface.co/papers/2608.17512",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Although Large Vision-Language Models (VLMs) have significantly advanced embodied navigation, their direct deployment r…",
+      "score": 4
     },
     {
       "id": "3932b7c7618c",
@@ -46,12 +54,12 @@
       "score": 3
     },
     {
-      "id": "ee82fc065ac8",
-      "title": "ASI-Bench: At the Dawn of Artificial Superintelligence",
-      "url": "https://huggingface.co/papers/2608.17271",
+      "id": "c09c2f5df8ee",
+      "title": "GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation",
+      "url": "https://huggingface.co/papers/2608.17988",
       "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Artificial superintelligence (ASI) requires AI to move beyond mastering existing knowledge toward exploring the unknown…",
-      "score": 3
+      "summary": "Many scalable latent 3D generators operate on structured tensors, whereas pre-optimized 3D Gaussian Splatting (3DGS) re…",
+      "score": 2
     },
     {
       "id": "a94177c0d6b6",
@@ -62,20 +70,28 @@
       "score": 2
     },
     {
-      "id": "fb32575eaa30",
-      "title": "StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows",
-      "url": "https://huggingface.co/papers/2608.17800",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Recent advances in Large Language Models(LLMs) and agents have substantially improved the ability of AI systems to exec…",
-      "score": 2
+      "id": "debdaeb4b8bf",
+      "title": "Unifying Graph Neural Networks Through a Common Layer Equation",
+      "url": "https://huggingface.co/papers/2608.16097",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Graph neural networks are commonly described through family-specific equations whose notation obscures shared computati…",
+      "score": 1
     },
     {
-      "id": "dc1d1b7998a2",
-      "title": "Dynamic Multi-Byte Prediction With Hierarchical Language Models",
-      "url": "https://huggingface.co/papers/2608.15454",
-      "publishedAt": "2026-08-16T00:00:00.000Z",
-      "summary": "Byte-level hierarchical language models (LMs) have recently emerged as a robust alternative to their popular counterpar…",
-      "score": 2
+      "id": "c3ea0c1ce614",
+      "title": "Personalized Auto-Research: Towards a True AI Co-Scientist",
+      "url": "https://huggingface.co/papers/2608.14881",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "AI co-scientists that generate hypotheses, retrieve related work, design experiments, execute code, and draft full pape…",
+      "score": 1
+    },
+    {
+      "id": "0333fd0c739b",
+      "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+      "url": "https://huggingface.co/papers/2608.15008",
+      "publishedAt": "2026-08-15T00:00:00.000Z",
+      "summary": "Memory is becoming core infrastructure for long-horizon LLM agents, yet existing evaluations offer limited guidance on …",
+      "score": 1
     },
     {
       "id": "2b738d41b65b",
@@ -84,25 +100,9 @@
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet con…",
       "score": 1
-    },
-    {
-      "id": "c09c2f5df8ee",
-      "title": "GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation",
-      "url": "https://huggingface.co/papers/2608.17988",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Many scalable latent 3D generators operate on structured tensors, whereas pre-optimized 3D Gaussian Splatting (3DGS) re…",
-      "score": 0
-    },
-    {
-      "id": "958fa6079402",
-      "title": "aDSL: Agentic 3D Creation via Joint Agent-Program Design",
-      "url": "https://huggingface.co/papers/2608.17975",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Programmatic representations provide a compelling paradigm for 3D content creation, enabling fine-grained edits, interp…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-19T03:29:01.350Z",
+  "fetchedAt": "2026-08-19T04:09:37.395Z",
   "stale": false,
   "error": null
 }
