@@ -6,46 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "1f87c84640cf",
-      "title": "B2B AIエージェントを安全に設計する",
-      "url": "https://zenn.dev/creapia_tech_ry/articles/1b109de4529fff",
-      "publishedAt": "2026-08-19T16:52:07.000Z",
-      "publisher": "CREAPIA TECHNOLOGY 中の人",
-      "summary": "知ってる技術でB2B AIエージェント作ってみた...でも失敗！ 当社はVTuber等のライブ配信を24時間追いかけて分析するマーケティングSaaSを提供しています。 https://creapia-tech.com/ 「ChatGPTみ…"
-    },
-    {
-      "id": "b88bc9177626",
-      "title": "あなたのPCで動くAIモデルは？ whichllmとllmfitを比較してみた",
-      "url": "https://zenn.dev/taka4/articles/000243de004165",
-      "publishedAt": "2026-08-19T16:49:03.000Z",
-      "publisher": "おっぴー＠AI推進",
-      "summary": "はじめに こんにちは。おっぴー@AI推進です。 ローカルLLMを試そうとして、最初にぶつかる壁がある。それは「このモデル、自分のマシンで本当に動くのか」が事前にわからない、という壁だ。 Hugging Faceのモデルカードにはパラメータ…"
-    },
-    {
-      "id": "ac0f883eb3d5",
-      "title": "AIエージェントが見つけたサーバーレス",
-      "url": "https://zenn.dev/nekoruri/books/agent-serverless",
-      "publishedAt": "2026-08-19T15:17:40.000Z",
-      "publisher": "nekoruri | めもおきば",
-      "summary": "AIエージェント開発者向けサーバーレス技術書。任せられる実行基盤の設計。Zennのブラウザ閲覧版です。PDFのダウンロード権やBOOTH等の別経路の購入権は含みません。"
-    },
-    {
-      "id": "68a58be65a64",
-      "title": "AI が間違えることより、間違いを止められないことが問題だ",
-      "url": "https://zenn.dev/id774/articles/204101634ea898",
-      "publishedAt": "2026-08-19T15:03:05.000Z",
-      "publisher": "Yasuhiro Nakayama",
-      "summary": "「AI を使った」が事故原因では再発防止策を決められない 企業が公開した料理画像で、商品パッケージ上の文字列が正規の商品表示と一致していなかった。原典では、この一件を出発点に、成果物として確認できる不備、制作工程についての推測、AI 利用…"
-    },
-    {
-      "id": "84edb8e5eeec",
-      "title": "AIに聞く、先輩に聞く——生成AI時代の「質問の仕方」を考え直す",
-      "url": "https://zenn.dev/inapvision/articles/asking-ai-and-humans",
-      "publishedAt": "2026-08-19T15:00:05.000Z",
-      "publisher": "s.shohei",
-      "summary": "AI時代に増えた新しい悩み Claude CodeをはじめとするAIコーディングツールが当たり前になり、若手エンジニアの学び方は明らかに変わりました。わからないことがあれば、まずAIに聞く。構文もエラーもアーキテクチャの説明も、数秒で「そ…"
-    },
-    {
       "id": "2c819bc04cbb",
       "title": "ポエム：ITの仕事の大半は、代わりにパソコンを叩いているだけだった",
       "url": "https://zenn.dev/takemo101/articles/f8c239a542c3de",
@@ -100,9 +60,49 @@
       "publishedAt": "2026-08-19T12:22:52.000Z",
       "publisher": "Yuji T. @Rebase, Inc.",
       "summary": "Rebase の髙畠裕二 @_ug_ です。 Code w/ Claude in Tokyo 2026 に参加してきました！✌️✌️ 最初から最後まで Anthropic 社員の講演を聞き通したので、中の人がどう Claude Code …"
+    },
+    {
+      "id": "632ca0576348",
+      "title": "ループエンジニアリングじゃない。デイリーノート1枚で回すAIエージェント運用",
+      "url": "https://zenn.dev/motimotinotch/articles/f24c65c8f38885",
+      "publishedAt": "2026-08-19T12:03:23.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "「ハーネスエンジニアリング」「ループエンジニアリング」というAIエージェント運用の設計論が、2026年に入って急増している。権限をどこまで絞るか、自律ループをどう安全に閉じるか——読んでいると、複数のAIエージェントを併用するには相応に大…"
+    },
+    {
+      "id": "1c47ff42e8d6",
+      "title": "GLM 5.3 ついに登場：智譜AIが2026年8月に投下した次世代フラッグシップLLMを徹底解説",
+      "url": "https://zenn.dev/erhg/articles/6f6afb57a04e0d",
+      "publishedAt": "2026-08-19T11:42:55.000Z",
+      "publisher": "aerg",
+      "summary": "「またモデルが出たの？」と思ったあなた、正しいです。でも今回はちょっと事情が違います。 中国の智譜AI（Zhipu AI / Z.ai）が次世代フラッグシップ大規模言語モデル GLM 5.3 を2026年8月にリリースしました。前世代の …"
+    },
+    {
+      "id": "350f03a9acb1",
+      "title": "[WIP] Hermes Agent セットアップメモ",
+      "url": "https://zenn.dev/konto/articles/cd05407cd5b7fc",
+      "publishedAt": "2026-08-19T11:38:10.000Z",
+      "publisher": "konto",
+      "summary": "Hermes Agent セットアップメモ 環境 マシン: M1 Mac mini（クリーンインストール直後） macOSバージョン: 未確認（確認前に作業開始） Hermes Agent: v0.18.2 (2026.7.7.2) ター…"
+    },
+    {
+      "id": "dea0c215c89f",
+      "title": "「Claude Codeはやりすぎでは？」に答える——Notion AIとの構造差7軸と、使い分けの4シグナル",
+      "url": "https://zenn.dev/imu_imu/articles/notion-ai-vs-claude-code",
+      "publishedAt": "2026-08-19T11:15:04.000Z",
+      "publisher": "いむたろ",
+      "summary": "「Claude Codeって、非エンジニアにはやりすぎじゃない？ うちは Notion AI があるし」 社内で Claude Code の話をすると、だいたいこれを言われます。そして、この反応は半分正しい。 半分正しいからこそ、雑に反論…"
+    },
+    {
+      "id": "23126d7abf1e",
+      "title": "GLM-5.3、後学習だけで最前線へ――AIモデル競争は規模から費用対効果の時代へ",
+      "url": "https://zenn.dev/moonwalker/articles/glm-5-3-post-training-value",
+      "publishedAt": "2026-08-19T11:14:08.000Z",
+      "publisher": "moonwalker",
+      "summary": "中国のAI企業Z.ai（智譜AI）は8月14日、最新の基盤モデル「GLM-5.3」を発表しました。2026年8月19日時点でAPIとGLM Coding Planから利用でき、複雑なソフトウェア開発、長時間にわたるエージェント処理、サイバ…"
     }
   ],
-  "fetchedAt": "2026-08-19T21:02:13.064Z",
+  "fetchedAt": "2026-08-19T21:39:44.227Z",
   "stale": false,
   "error": null
 }
