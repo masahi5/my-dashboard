@@ -6,54 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "a24eb51b6585",
-      "title": "AI生成したピクセルキャラクターをGodotへ取り込むパイプライン",
-      "url": "https://zenn.dev/hirodeath/articles/ai-pixel-character-godot-pipeline",
-      "publishedAt": "2026-08-19T00:28:44.000Z",
-      "publisher": "ヒロ",
-      "summary": "ピクセルキャラクターを生成APIで作っても、そのままGodotへ置くだけではゲーム素材になりません。方向、アニメーション、フレーム数、保存先、採用状態を対応付ける必要があります。 Nocturne Vaniaでは、生成とレビューを行うNe…"
-    },
-    {
-      "id": "beb7d184303d",
-      "title": "【チームによるAI駆動開発の勘所：第2回】AIが書いたコードに仕込まれる欠陥を見抜くには",
-      "url": "https://zenn.dev/scalar_sol_blog/articles/2dc93d3834ea33",
-      "publishedAt": "2026-08-19T00:18:27.000Z",
-      "publisher": "wfukatsu",
-      "summary": "この記事は、日々実務でAIが書いたコードの中で気がついたことを具体例を挙げてまとめたものです。例として、注文サービスの実装が1つあり、そこに9件の欠陥が仕込まれています。設計仕様も一緒に載せますので、記事を読みながら実際に指摘を書き出して…"
-    },
-    {
-      "id": "47b6c1bef37a",
-      "title": "744BのGLM-5.2を25GBのRAMで動かすcolibri、エキスパートをディスクから流す",
-      "url": "https://zenn.dev/okssusucha/articles/20260710-colibri-glm52-disk-streamed-moe",
-      "publishedAt": "2026-08-19T00:04:03.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "744Bのフロンティア級モデルを、GPUなしで、しかもRAMが25GBしかないノートPCで動かす。しかもちゃんと正しい答えを返す。そんな話をHacker NewsのShow HNで見かけて、最初は誇張だろうと思った。実際にリポジトリを読む…"
-    },
-    {
-      "id": "2c93f91c3a55",
-      "title": "AIエージェントが自分で守る「1ラウンド1 push」",
-      "url": "https://zenn.dev/miyakona/articles/9b2e43a12a2f7c",
-      "publishedAt": "2026-08-19T00:00:06.000Z",
-      "publisher": "miyakona",
-      "summary": "今回紹介する運用では、PRをレビュー可能な状態へ仕上げ、Copilotの指摘へ対応するのもAIエージェントです。 人間がコメントを一件ずつAIへ転送しているわけではありません。AIエージェント自身がレビューの到着を確認し、全コメントを読み…"
-    },
-    {
-      "id": "3d489ecfe471",
-      "title": "「どこが遅い」「どこで失敗した」を勘で探すのをやめた ― 開発中のエージェント可観測性",
-      "url": "https://zenn.dev/datarobotjp/articles/7274d18c076e1a",
-      "publishedAt": "2026-08-18T23:51:20.000Z",
-      "publisher": "小川幹雄",
-      "summary": "はじめに いちエンジニアとして、DataRobot CLI の experimentation プラグイン（dr xp） を実際に触ってみたので、その記録を残します。 DataRobot には以前から、デプロイしたエージェントのトレースを…"
-    },
-    {
-      "id": "0f1b0ce491d0",
-      "title": "Agents on Guren: AIエージェントに自作フレームワークを360回解かせてわかったこと",
-      "url": "https://zenn.dev/7nohe/articles/agents-on-guren-benchmark",
-      "publishedAt": "2026-08-18T23:50:31.000Z",
-      "publisher": "Daiki Urata",
-      "summary": "はじめに 2026年8月13日、Rails Foundationが「Agents on Rails: the first benchmark report」を公開しました。21個のタスクを8つのモデルに3回ずつ、計504回解かせたベンチマ…"
-    },
-    {
       "id": "a69b00e51b3a",
       "title": "44. AIの判断基準を公開資料から作る【調査編】— 検索要約を信じず803ページを実測した",
       "url": "https://zenn.dev/yamada_ai_dev/articles/public-materials-as-criteria-research",
@@ -100,9 +52,57 @@
       "publishedAt": "2026-08-18T22:33:52.000Z",
       "publisher": "Kazu_AzureAI開拓",
       "summary": "! 2026-08-19 時点の情報です。Agent Hooks は Python 版 Agent Framework の experimental 機能で、依存する agent-hooks-sdk も alpha（0.1.0a5）です。…"
+    },
+    {
+      "id": "06e106c5d6ab",
+      "title": "Claude Codeで非対応プリンタのmacOS用ドライバ自作！AIを活用した低レイヤ制御の実践事例",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-08-18-2226",
+      "publishedAt": "2026-08-18T22:26:52.000Z",
+      "publisher": "田中根小介",
+      "summary": "Anthropicから登場したターミナル一体型AIツールClaude Codeは、単なるコード補完や簡単なWebアプリ開発に留まらず、より低レイヤなシステム制御やハードウェア制御においても驚異的な威力を発揮しています。 今回は、海外で大き…"
+    },
+    {
+      "id": "1e4123fb3d6a",
+      "title": "コーディング技術はもう無価値で、そろばんのような存在になっている",
+      "url": "https://zenn.dev/yskms/articles/f2dceff2dd5c45",
+      "publishedAt": "2026-08-18T22:24:05.000Z",
+      "publisher": "yskms",
+      "summary": "煽りではなくこれは先輩達へのご相談です、、、 いや無価値ではないんだろうけども、自分のようなエントリーレベルのエンジニアが頑張ってヨチヨチと自己研鑽してきた写経とかおまじないとかの時間は、今の時点ではやる価値のない努力になってしまった。で…"
+    },
+    {
+      "id": "4f80d5c935c1",
+      "title": "複数の生成AIモデルを一つのAPIで切り替える設計パターン",
+      "url": "https://zenn.dev/hiapi_ai/articles/5c999d530cd377",
+      "publishedAt": "2026-08-18T21:53:08.000Z",
+      "publisher": "HiAPI",
+      "summary": "生成AIを使うプロダクトでは、最初は1社のAPIだけで十分でも、運用が進むと「用途ごとにモデルを変えたい」「障害時に別モデルへ切り替えたい」「画像や音声も同じ基盤で扱いたい」という要求が増えてきます。 この記事では、アプリケーション側を特…"
+    },
+    {
+      "id": "7bee5f52a711",
+      "title": "AIエージェントは「群れ」にすると壊れる ——各出力を検証しても、配備が壊す新しい次元",
+      "url": "https://zenn.dev/ryok/articles/agent-swarm-verification",
+      "publishedAt": "2026-08-18T20:01:28.000Z",
+      "publisher": "ryok",
+      "summary": "結論 私はこれまで「検証可能性の階段」という概念で、AIエージェント運用の律速はモデルの賢さではなく「検証をどう設計したか」だと書いてきた（前記事）。タスクを「生成コスト」ではなく「検証コスト」で段に分け、そのタスクが何段目かを見誤ると事…"
+    },
+    {
+      "id": "ef77835447d9",
+      "title": "トントントントン日野の2トン ― 遊びを観測しようとして、観測されてたのは私だった🚚",
+      "url": "https://zenn.dev/pomodoro_naomi/articles/d2ea40087cc936",
+      "publishedAt": "2026-08-18T18:53:42.000Z",
+      "publisher": "🍅Pomodoroナオミ🍅",
+      "summary": "title: \"トントントントン日野の2トン ― 遊びを観測しようとして、観測されてたのは私だった\" emoji: \"🚚\" type: \"idea\" topics: [\"ai\", \"opentelemetry\", \"observabil…"
+    },
+    {
+      "id": "c5e00d534f1b",
+      "title": "AIエージェントの『勝率88%の発見』を検証で殺すまで — 計測アーティファクト2つの実話",
+      "url": "https://zenn.dev/sobani_dev/articles/80398658f78418",
+      "publishedAt": "2026-08-18T18:44:02.000Z",
+      "publisher": "WD",
+      "summary": "! これは実話です。数値はすべて、筆者が運用している研究プログラムの記録台帳から、そのまま引いています。対象の仮説は2026年8月18日に棄却済みで、この記事に再現可能な儲け話は含まれません。含まれないことこそが本題です。 勝率88%、1…"
     }
   ],
-  "fetchedAt": "2026-08-19T08:02:17.770Z",
+  "fetchedAt": "2026-08-19T08:53:55.874Z",
   "stale": false,
   "error": null
 }

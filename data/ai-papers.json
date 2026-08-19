@@ -6,20 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "cebcf299be42",
-      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
-      "url": "https://huggingface.co/papers/2608.16157",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructur…",
-      "score": 37
+      "id": "fbd5c8885151",
+      "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
+      "url": "https://huggingface.co/papers/2608.14036",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured…",
+      "score": 20
     },
     {
-      "id": "c7b81493b312",
-      "title": "Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation",
-      "url": "https://huggingface.co/papers/2608.17512",
+      "id": "a12f5d7b5e87",
+      "title": "EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing",
+      "url": "https://huggingface.co/papers/2608.18063",
       "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Although Large Vision-Language Models (VLMs) have significantly advanced embodied navigation, their direct deployment r…",
-      "score": 30
+      "summary": "High-resolution image editing is increasingly demanded in professional workflows, yet existing diffusion-based models r…",
+      "score": 13
     },
     {
       "id": "5e50f4dc9d2e",
@@ -36,14 +36,6 @@
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "The quality and diversity of instruction-based video editing datasets are steadily improving, yet existing datasets mai…",
       "score": 10
-    },
-    {
-      "id": "a12f5d7b5e87",
-      "title": "EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing",
-      "url": "https://huggingface.co/papers/2608.18063",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "High-resolution image editing is increasingly demanded in professional workflows, yet existing diffusion-based models r…",
-      "score": 6
     },
     {
       "id": "f057065ab369",
@@ -70,19 +62,19 @@
       "score": 3
     },
     {
-      "id": "fbd5c8885151",
-      "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
-      "url": "https://huggingface.co/papers/2608.14036",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured…",
-      "score": 2
-    },
-    {
       "id": "e06b7641d875",
       "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
       "url": "https://huggingface.co/papers/2608.17050",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval …",
+      "score": 2
+    },
+    {
+      "id": "03b8e774b302",
+      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+      "url": "https://huggingface.co/papers/2608.17067",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Saf…",
       "score": 1
     },
     {
@@ -94,6 +86,14 @@
       "score": 1
     },
     {
+      "id": "25000b9dcfac",
+      "title": "PixRestore: Unified Image Restoration via Pixel Diffusion Transformer",
+      "url": "https://huggingface.co/papers/2608.16793",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Unified image restoration (UIR) aims to recover high-quality (HQ) content from low-quality (LQ) images with different d…",
+      "score": 0
+    },
+    {
       "id": "65455bb6e37e",
       "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
       "url": "https://huggingface.co/papers/2608.17402",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-19T08:02:17.648Z",
+  "fetchedAt": "2026-08-19T08:53:55.762Z",
   "stale": false,
   "error": null
 }
