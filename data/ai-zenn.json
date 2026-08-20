@@ -6,12 +6,68 @@
   "category": "ai",
   "items": [
     {
-      "id": "00981abc1aa2",
-      "title": "AI に決済コードを書かせる前に、3層のドキュメントと3つの「作らないリスト」を用意した",
-      "url": "https://zenn.dev/katsuo_dev/articles/202608-ai-agent-guardrail-layers",
-      "publishedAt": "2026-08-20T02:08:36.000Z",
-      "publisher": "かつお",
-      "summary": "AI に決済コードを書かせる前に、3層のドキュメントと3つの「作らないリスト」を用意した この記事で紹介する3層のルールファイル（CLAUDE.md / .claude/rules/*.md / docs/architecture.md）…"
+      "id": "867628b37e11",
+      "title": "allow_preview=Trueの正体はヘッダー1本 — Foundryのプレビュー鍵13個",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/azure-foundry-features-header",
+      "publishedAt": "2026-08-20T05:01:19.000Z",
+      "publisher": "Kazu_AzureAI開拓",
+      "summary": "! 2026-08-20 時点の情報です。この記事で扱う Foundry-Features ヘッダーの値はすべて preview 機能の opt-in キーで、名前もバージョン番号も予告なく変わります（実際、後述する Routines は…"
+    },
+    {
+      "id": "be941262b558",
+      "title": "既存のOSの概念をぶっ壊すOSを考えてみた(TensorOS)",
+      "url": "https://zenn.dev/kamisori_daijin/articles/814061ea006339",
+      "publishedAt": "2026-08-20T04:18:00.000Z",
+      "publisher": "kamisori-daijin",
+      "summary": "思いついてしまった ANEでラスタライズをしていたところ、(この前の記事) AI演算に変換することによるANEの汎用性を感じた。そして、色々考えていたところ、ANEなどで動くOSを作ったら面白いのではないかと思った。 それをここに書いてお…"
+    },
+    {
+      "id": "8ca6c01df7cb",
+      "title": "Preventing Constraint Drift When Iterating AI-Generated Product Images",
+      "url": "https://zenn.dev/wendyxyz733/articles/672268686edfc1",
+      "publishedAt": "2026-08-20T03:41:44.000Z",
+      "publisher": "Wendy Xu",
+      "summary": "Preventing Constraint Drift When Iterating AI-Generated Product Images The Multi-Direction Brief Problem A visual brief…"
+    },
+    {
+      "id": "59eb7d55d26a",
+      "title": "Monolithic Song Generation vs Modular Audio Pipelines: A...",
+      "url": "https://zenn.dev/tairagiang612/articles/a565da3629a79a",
+      "publishedAt": "2026-08-20T03:19:59.000Z",
+      "publisher": "Giang Taira",
+      "summary": "Monolithic Song Generation vs Modular Audio Pipelines: A... The Problem: Full-Track Generation Doesn't Fit a Modular Pi…"
+    },
+    {
+      "id": "39d165cd7cb1",
+      "title": "# AIが「できたか分からない」と言ったとき、もう一度やらせてはいけない## ―― 外部API・二重実行・Commit-Unknownか",
+      "url": "https://zenn.dev/humanos_lab/articles/93ff5a31a19c91",
+      "publishedAt": "2026-08-20T03:15:13.000Z",
+      "publisher": "HUMAN OS @ ゼロから極めるAI研究員",
+      "summary": "AIが「できたか分からない」と言ったとき、もう一度やらせてはいけない ―― 外部API・二重実行・Commit-Unknownから考えるAI Agentの安全設計 0｜たった1回の「もう一度」が事故になる 人間： 「この注文を返金して」 …"
+    },
+    {
+      "id": "a800f41cd1b4",
+      "title": "Prompt / Context / Harness / Loop / Graph で振り返る acomo の AI 駆動開発",
+      "url": "https://zenn.dev/acomo/articles/progress-acomo-2026-08-20-01-32-52",
+      "publishedAt": "2026-08-20T03:00:26.000Z",
+      "publisher": "acomoのエンジニア",
+      "summary": "はじめに acomo は、申請・承認ワークフローを API で扱えるヘッドレス型のワークフロー SaaS です。バックエンド、フロントエンド、API 仕様、API クライアントをひとつのリポジトリで管理しており、どこか 1 か所の変更が他…"
+    },
+    {
+      "id": "d64de2b6ff3b",
+      "title": "GLM-5.3: 6x Terminal-Bench Gain From Post-Training Alone",
+      "url": "https://zenn.dev/neotechpark/articles/7003e20300d7e5",
+      "publishedAt": "2026-08-20T02:49:51.000Z",
+      "publisher": "NeoTechPark",
+      "summary": "Z.ai shipped GLM-5.3 with zero new pretraining. Post-training alone sent Terminal-Bench 3.0 from 4.6 to 28.3, and cyber…"
+    },
+    {
+      "id": "4a95a9cb37d5",
+      "title": "「何でもAIで効率化」の時代は来ない——AIで人を減らすほど、AIは必須になる",
+      "url": "https://zenn.dev/veripsa/articles/ai-efficiency-common-mode-failure",
+      "publishedAt": "2026-08-20T02:15:58.000Z",
+      "publisher": "RollNuts",
+      "summary": "回線が落ちる。メールが届かない。認証基盤に入れない。 どれか1つのサービスに障害が起きただけで、社内の人間が一斉に仕事を進められなくなる。ネットワークやクラウドの現場では、珍しくない光景です。 ところがAIの導入になると、この当たり前の話…"
     },
     {
       "id": "0897952a4de4",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-08-20T01:00:23.000Z",
       "publisher": "Masato Namiki / 並木 正人",
       "summary": "～Vertex AIからAgent Platformへ。試験を通して理解したGoogle Cloud AI/MLの現在地～ はじめに 先日、Google CloudのProfessional Machine Learning Engine…"
-    },
-    {
-      "id": "6b9e3647e66a",
-      "title": "#7 実録・AIチームとアプリを作る（前編） — 課金導入40日間と、プレゼンまで48時間の総力戦",
-      "url": "https://zenn.dev/chisatom/articles/4e604fc40c9465",
-      "publishedAt": "2026-08-20T00:58:21.000Z",
-      "publisher": "Chisato Matsuzaki",
-      "summary": "この記事は、Claude Code 6体のマルチエージェント「Lady's servants」（お屋敷）を5ヶ月運用した記録を振り返る連載の第7回です。前回までシステムと文化の話をしてきました（第6回）。今回から実録編——この体制が実際の…"
-    },
-    {
-      "id": "7bc799f6fe56",
-      "title": "Claude Code サブエージェント制限はどう変わったか——200体撤廃・20並列上限をv2.1.221で確かめた",
-      "url": "https://zenn.dev/kujira_ai/articles/043735a2da03b6",
-      "publishedAt": "2026-08-20T00:52:29.000Z",
-      "publisher": "クジラ",
-      "summary": "複数のプロジェクトを横断してClaude Codeに調査や作業を頼んでいると、「サブエージェントを一度に何体まで投げていいのか」が地味に気になる場面がある。大きな調査ほどタスクを細かく分けてサブエージェントに振りたくなるが、これまでは総数…"
-    },
-    {
-      "id": "3918660faa37",
-      "title": "AIエージェントにAPIキーを渡さない — trustlessを作った理由",
-      "url": "https://zenn.dev/neomaru/articles/trustless-why-no-secrets-for-agents",
-      "publishedAt": "2026-08-20T00:40:05.000Z",
-      "publisher": "neomaru",
-      "summary": "結論: AIエージェントに平文のAPIキーを渡すのはやめる。trustlessは「エージェントはキー名だけを知り、値はbrokerがプロセス起動時にだけ注入する」という一点に絞ったCLIです。 外部依存は github.com/pelle…"
-    },
-    {
-      "id": "dc31d20c060e",
-      "title": "止まらないエージェントを実行前に見つける静的解析ツールIAL-Scan",
-      "url": "https://zenn.dev/okssusucha/articles/20260710-infinite-agentic-loops-ial-scan",
-      "publishedAt": "2026-08-20T00:04:31.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "「夜のうちにコーディングエージェントを走らせておいたら、朝には成果物ではなく数万円分のAPI課金だけが残っていた」。この手のヒヤリに心当たりがあるなら、7月2日にarXivへ出た論文が刺さるはずだ。エージェントが止まらずに同じ処理を回し続…"
-    },
-    {
-      "id": "56258f8f8578",
-      "title": "「Issue ## 対応して」だけで、なぜ最後まで進むのか",
-      "url": "https://zenn.dev/miyakona/articles/ff185f6948d380",
-      "publishedAt": "2026-08-20T00:00:06.000Z",
-      "publisher": "miyakona",
-      "summary": "「Issue 123、対応してください」 AIエージェントへ伝えるのは、これだけです。 するとAIエージェントはIssueとコメントを読み、影響範囲を調べ、実装し、テストし、PRを作ります。CIとCopilotのレビューを待ち、指摘を直し…"
-    },
-    {
-      "id": "3031cdee8c31",
-      "title": "Claude Codeの回答を\"行動指向\"にするOutput Styleは効果があるのか検証してみた",
-      "url": "https://zenn.dev/tokium_dev/articles/claude-code-output-styles-action-first",
-      "publishedAt": "2026-08-20T00:00:06.000Z",
-      "publisher": "kyohey",
-      "summary": "1. はじめに こんにちは、TOKIUMの小松です。 今年の4月に入社して未経験でエンジニアになった駆け出しエンジニアです。 駆け出しということもあり、Claude Code で知らない技術をキャッチアップすることも多いです。AIに質問す…"
-    },
-    {
-      "id": "a4522b01964a",
-      "title": "Skill を使って Technical Supportability Review with AI の診断結果をレビューする",
-      "url": "https://zenn.dev/tsubasaxzzz/articles/tsrwai-must-gather-skills",
-      "publishedAt": "2026-08-19T23:51:34.000Z",
-      "publisher": "Tsubasa Nomura",
-      "summary": "こちらの記事で、Technical Supportability Review with AI(以下 TSRwAI) の紹介をしました。 https://zenn.dev/tsubasaxzzz/articles/tsrwai-must-…"
     }
   ],
-  "fetchedAt": "2026-08-20T06:42:42.563Z",
+  "fetchedAt": "2026-08-20T07:27:57.183Z",
   "stale": false,
   "error": null
 }
