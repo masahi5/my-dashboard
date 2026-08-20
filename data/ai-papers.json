@@ -6,12 +6,28 @@
   "category": "ai",
   "items": [
     {
-      "id": "015ad531a6fe",
-      "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
-      "url": "https://huggingface.co/papers/2608.17393",
+      "id": "fd057252ba20",
+      "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
+      "url": "https://huggingface.co/papers/2608.17426",
       "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Reinforcement learning for coding agents increasingly relies on long-running agent harnesses to manage tool integration…",
-      "score": 12
+      "summary": "We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task. Under this formulati…",
+      "score": 20
+    },
+    {
+      "id": "01c9bcac85ef",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "url": "https://huggingface.co/papers/2608.13558",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, f…",
+      "score": 16
+    },
+    {
+      "id": "23c43842646f",
+      "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+      "url": "https://huggingface.co/papers/2608.16590",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Embodied agents are increasingly used to close the gap left by end-to-end policy models. Yet the agentic path has not r…",
+      "score": 13
     },
     {
       "id": "a81bb29b4bb2",
@@ -19,15 +35,7 @@
       "url": "https://huggingface.co/papers/2608.18565",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent…",
-      "score": 6
-    },
-    {
-      "id": "fd057252ba20",
-      "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
-      "url": "https://huggingface.co/papers/2608.17426",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task. Under this formulati…",
-      "score": 5
+      "score": 8
     },
     {
       "id": "3e41ce42c08e",
@@ -35,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.18933",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "Large language model (LLM) based agents have demonstrated remarkable proficiency in automated software issue resolution…",
-      "score": 4
+      "score": 8
     },
     {
       "id": "e97f6e112321",
@@ -43,23 +51,7 @@
       "url": "https://huggingface.co/papers/2608.14929",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Open-weight language models are fine-tuned, quantized, pruned, and merged, yet their provenance is often undocumented. …",
-      "score": 2
-    },
-    {
-      "id": "afa7bd7bf039",
-      "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
-      "url": "https://huggingface.co/papers/2608.16977",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "AI systems are increasingly capable of contributing to mathematical research. In research practice, frontier-model reas…",
-      "score": 2
-    },
-    {
-      "id": "d3d8e4e96621",
-      "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
-      "url": "https://huggingface.co/papers/2608.18940",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-ma…",
-      "score": 1
+      "score": 4
     },
     {
       "id": "a178158a70f1",
@@ -67,6 +59,22 @@
       "url": "https://huggingface.co/papers/2608.19197",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language ag…",
+      "score": 2
+    },
+    {
+      "id": "7496b05713bc",
+      "title": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
+      "url": "https://huggingface.co/papers/2608.18701",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Physical interaction quality is central to deformable-object manipulation, yet most benchmarks evaluate task success al…",
+      "score": 1
+    },
+    {
+      "id": "d3d8e4e96621",
+      "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+      "url": "https://huggingface.co/papers/2608.18940",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-ma…",
       "score": 1
     },
     {
@@ -86,23 +94,15 @@
       "score": 1
     },
     {
-      "id": "92e4ff1dde02",
-      "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
-      "url": "https://huggingface.co/papers/2608.18580",
+      "id": "b1c7dae40c16",
+      "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+      "url": "https://huggingface.co/papers/2608.18746",
       "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains…",
-      "score": 1
-    },
-    {
-      "id": "8437b7705a7e",
-      "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
-      "url": "https://huggingface.co/papers/2608.17379",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "We introduce PTXBench, a benchmark for evaluating and adapting large language models (LLMs) to use architecture-specifi…",
-      "score": 1
+      "summary": "JEPA-style latent world models can use Euclidean distance to a goal latent as the cost for model-predictive control (MP…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-20T03:28:35.241Z",
+  "fetchedAt": "2026-08-20T04:09:26.162Z",
   "stale": false,
   "error": null
 }
