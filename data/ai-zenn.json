@@ -6,6 +6,30 @@
   "category": "ai",
   "items": [
     {
+      "id": "b9ced99907de",
+      "title": "AIコーディングを迷子にしない、複数モデルのHarness設計",
+      "url": "https://zenn.dev/soichiyo/articles/ai-coding-multi-model-harness",
+      "publishedAt": "2026-08-20T06:33:15.000Z",
+      "publisher": "soichiyo",
+      "summary": "! 2026年8月20日時点の個人運用を整理した記事で、モデルやproviderの性能比較や実行ログの公開を目的にしていません。 Words by Human, supported by AI / Visuals by AI 困りごとを実…"
+    },
+    {
+      "id": "6430daf9beaf",
+      "title": "【チームによるAI駆動開発の勘所：第3回】CLAUDE.md に書いた規約が「守られるもの」と「守られないもの」の違い",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/8525ec289be69b",
+      "publishedAt": "2026-08-20T06:30:20.000Z",
+      "publisher": "wfukatsu",
+      "summary": "概要 この記事では、CLAUDE.md に書いた規約が「守られるもの」と「守られないもの」にきれいに分かれるという現象を、実験形式で共有します。 同じ指示を CLAUDE.md の適用前後で実行し、7つの規約それぞれについて「効いたか /…"
+    },
+    {
+      "id": "ece781d3c9ec",
+      "title": "AI広告生成UIを状態遷移で考える：プロンプトから配信比率まで",
+      "url": "https://zenn.dev/choco1/articles/87650a7d7deace",
+      "publishedAt": "2026-08-20T06:02:37.000Z",
+      "publisher": "choco1",
+      "summary": "本稿は公開ページで確認できる説明だけを材料にした、ブラックボックスの設計メモです。ソースコード、内部アーキテクチャ、生成性能を観測したものではありません。目的は、AI広告生成ツールのUIを「入力フォーム」ではなく「検証可能な制作状態」とし…"
+    },
+    {
       "id": "867628b37e11",
       "title": "allow_preview=Trueの正体はヘッダー1本 — Foundryのプレビュー鍵13個",
       "url": "https://zenn.dev/kazu_aiengineer/articles/azure-foundry-features-header",
@@ -76,33 +100,9 @@
       "publishedAt": "2026-08-20T01:52:07.000Z",
       "publisher": "thomaszx85531",
       "summary": "Segment-Chained Video Extension: Managing Drift When Lengthening... The problem: extending clips without re-earning you…"
-    },
-    {
-      "id": "3c5555fb49a6",
-      "title": "【開催報告】組込み開発を加速させる「AI駆動開発」1Dayセミナー",
-      "url": "https://zenn.dev/fixstars/articles/seminar_report_20260731",
-      "publishedAt": "2026-08-20T01:51:45.000Z",
-      "publisher": "junko.dohi",
-      "summary": "【開催報告】組込み開発を加速させる「AI駆動開発」1Dayセミナー AI活用が広まるなか、ソフトウェア開発の現場では「AI駆動開発」への関心が急速に高まっています。その一方で、組込みシステムの開発現場では 知財保護の観点からクラウド生成A…"
-    },
-    {
-      "id": "1ea72e440254",
-      "title": "AIで記事が書けるのに手書き記事を書く理由",
-      "url": "https://zenn.dev/microsoft/articles/why-write-articles-by-hand",
-      "publishedAt": "2026-08-20T01:14:44.000Z",
-      "publisher": "Kazuki Ota",
-      "summary": "はじめに 最近は AI に記事を書いてもらうことが出来ます。実際、自分も記事を書くための SKILL を作って、自分の文体に合わせた記事を生成してもらうことを試していました。 それでも、自分の勉強も兼ねて記事を書くときは、今でも手書きで書…"
-    },
-    {
-      "id": "87397f1bba09",
-      "title": "PMLEを2年ぶりに更新！Google Cloud認定資格「全冠」維持で見えたAI/MLの進化",
-      "url": "https://zenn.dev/nttdata_tech/articles/27edc1d2e66926",
-      "publishedAt": "2026-08-20T01:00:23.000Z",
-      "publisher": "Masato Namiki / 並木 正人",
-      "summary": "～Vertex AIからAgent Platformへ。試験を通して理解したGoogle Cloud AI/MLの現在地～ はじめに 先日、Google CloudのProfessional Machine Learning Engine…"
     }
   ],
-  "fetchedAt": "2026-08-20T07:27:57.183Z",
+  "fetchedAt": "2026-08-20T08:06:18.752Z",
   "stale": false,
   "error": null
 }
