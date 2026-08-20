@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "fbd5c8885151",
-      "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
-      "url": "https://huggingface.co/papers/2608.14036",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured…",
-      "score": 140
-    },
-    {
       "id": "7224821ee740",
       "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
       "url": "https://huggingface.co/papers/2608.13556",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although v…",
-      "score": 16
+      "score": 17
     },
     {
       "id": "03b8e774b302",
@@ -30,20 +22,20 @@
       "score": 15
     },
     {
-      "id": "65455bb6e37e",
-      "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
-      "url": "https://huggingface.co/papers/2608.17402",
+      "id": "015ad531a6fe",
+      "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
+      "url": "https://huggingface.co/papers/2608.17393",
       "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Vision encoders are a critical component of vision-language models, and scaling their capacity effectively improves per…",
-      "score": 12
+      "summary": "Reinforcement learning for coding agents increasingly relies on long-running agent harnesses to manage tool integration…",
+      "score": 10
     },
     {
-      "id": "e06b7641d875",
-      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
-      "url": "https://huggingface.co/papers/2608.17050",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval …",
-      "score": 4
+      "id": "3e41ce42c08e",
+      "title": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
+      "url": "https://huggingface.co/papers/2608.18933",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Large language model (LLM) based agents have demonstrated remarkable proficiency in automated software issue resolution…",
+      "score": 3
     },
     {
       "id": "afa7bd7bf039",
@@ -54,19 +46,35 @@
       "score": 2
     },
     {
-      "id": "015ad531a6fe",
-      "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
-      "url": "https://huggingface.co/papers/2608.17393",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Reinforcement learning for coding agents increasingly relies on long-running agent harnesses to manage tool integration…",
-      "score": 2
+      "id": "a81bb29b4bb2",
+      "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
+      "url": "https://huggingface.co/papers/2608.18565",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent…",
+      "score": 1
     },
     {
-      "id": "3e41ce42c08e",
-      "title": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
-      "url": "https://huggingface.co/papers/2608.18933",
+      "id": "a178158a70f1",
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "url": "https://huggingface.co/papers/2608.19197",
       "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Large language model (LLM) based agents have demonstrated remarkable proficiency in automated software issue resolution…",
+      "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language ag…",
+      "score": 1
+    },
+    {
+      "id": "0ad76680e5b9",
+      "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents",
+      "url": "https://huggingface.co/papers/2608.18423",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Language model agents now execute bounded tasks reliably. Whether they can sustain effective decision-making over long …",
+      "score": 1
+    },
+    {
+      "id": "92e4ff1dde02",
+      "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+      "url": "https://huggingface.co/papers/2608.18580",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains…",
       "score": 1
     },
     {
@@ -86,23 +94,15 @@
       "score": 1
     },
     {
-      "id": "25000b9dcfac",
-      "title": "PixRestore: Unified Image Restoration via Pixel Diffusion Transformer",
-      "url": "https://huggingface.co/papers/2608.16793",
+      "id": "f3bb8180610c",
+      "title": "Looped Language Models Improve Compositional Tool Calling",
+      "url": "https://huggingface.co/papers/2608.18171",
       "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Unified image restoration (UIR) aims to recover high-quality (HQ) content from low-quality (LQ) images with different d…",
-      "score": 1
-    },
-    {
-      "id": "92e4ff1dde02",
-      "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
-      "url": "https://huggingface.co/papers/2608.18580",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains…",
+      "summary": "Looped language models have shown promising results on reasoning benchmarks, yet their potential for agentic tool use r…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-20T01:23:49.082Z",
+  "fetchedAt": "2026-08-20T02:35:53.536Z",
   "stale": false,
   "error": null
 }
