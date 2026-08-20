@@ -6,8 +6,32 @@
   "category": "ai",
   "items": [
     {
+      "id": "f262352324c2",
+      "title": "grill-me / grilling をローカルLLM向けに改変してみた",
+      "url": "https://zenn.dev/nanakusataro/articles/9417aa2b568c20",
+      "publishedAt": "2026-08-20T14:08:21.000Z",
+      "publisher": "Nanakusa Lab.",
+      "summary": "Claude Codeの壁打ち用スキルとしてはsuperpowersのbrainstormingが有名ですが、最近よく耳にするのが「grill-me」。 要件定義や新しいスキルを作成するのに超絶便利だっていう話も聞くけど、同時に、一度発動…"
+    },
+    {
+      "id": "6986dee8cda2",
+      "title": "Claudeと「AI解体学」してみた 〜セキュリティ製品編〜",
+      "url": "https://zenn.dev/think_node/articles/3658e943c32baa",
+      "publishedAt": "2026-08-20T13:20:39.000Z",
+      "publisher": "THINK NODE",
+      "summary": "AI解体学とは AIを使うことを目的とせず、AIの回答や振る舞いを観察して、その裏側にある設計思想を推し量る遊び。 造語です。学問ではないです。 対戦カード 仕事で使っているセキュリティ製品のAIアシスタントを触っているうちに、「これ、ど…"
+    },
+    {
+      "id": "c0e9a4b1a203",
+      "title": "AIコーディングエージェントと進めるUnityゲーム開発：Phase1で仕様書駆動の土台を作った",
+      "url": "https://zenn.dev/kas_blog/articles/20260819-unity-ai-coding-agent-spec-driven-phase1",
+      "publishedAt": "2026-08-20T13:09:36.000Z",
+      "publisher": "kas's blog",
+      "summary": "はじめに この記事は、ゲーム開発未経験の私が、AIコーディングエージェントと一緒にUnityゲームを作っていく技術ブログの第3弾です。 第1弾ではWindows版Unity Editor、WSL、Codexを組み合わせた開発環境を作り、第…"
+    },
+    {
       "id": "d1eedeb14993",
-      "title": "RTX 5060 Tiを追加購入する直前に、RTX 4070 Ti SUPER 16GB単体でQwen 27Bを試してみた",
+      "title": "RTX 5060 Tiを追加購入する直前に、RTX 4070 Ti SUPER 16GB単体でQwen 3.8 27Bを試してみた",
       "url": "https://zenn.dev/sumumu26/articles/b5b2ab52939b4e",
       "publishedAt": "2026-08-20T12:48:26.000Z",
       "publisher": "miharuba_jp",
@@ -76,33 +100,9 @@
       "publishedAt": "2026-08-20T10:00:05.000Z",
       "publisher": "keisuke",
       "summary": "導入 この記事は、ChatGPT・Claude Code・Codex・Notionを組み合わせた「AI駆動開発」というテーマで書いている記事の1本です。実際に運用しているポートフォリオサイトの改修にこの開発フローを適用しながら、実践の中で…"
-    },
-    {
-      "id": "273e5b8b1f11",
-      "title": "Claude Code 完全攻略ガイド ――AI時代の次世代コーディング・ワークフロー",
-      "url": "https://zenn.dev/pakku8914/books/claude_code_master_course",
-      "publishedAt": "2026-08-20T09:33:35.000Z",
-      "publisher": "Pakku8914",
-      "summary": "> 本教材は、Claude Codeの現在リリースされている全機能を網羅的に学習できる実践的な教材です。 CLAUDE.mdの作成やファイルメンションといった基本操作は習得済みだが、スキル・タスク・フック・MCPサーバーなどの高度な機能を…"
-    },
-    {
-      "id": "9e5afad8048a",
-      "title": "バックエンドエンジニアの1か月の話題から──技術共有会 第2回",
-      "url": "https://zenn.dev/10q89s/articles/18c2ccf5280e1f",
-      "publishedAt": "2026-08-20T09:30:12.000Z",
-      "publisher": "htnk128",
-      "summary": "! 本記事は、生成AIを利用して執筆しました。 はじめに こんにちは、URBAN HACKSでバックエンドエンジニアをしている shinee です。 7月の東京は猛暑日（最高気温35℃以上）が9日あり、最高気温は7月25日の37.1℃を記…"
-    },
-    {
-      "id": "3249b5eb001b",
-      "title": "作りかけを引き継いだAIは『未完了』を勝手に埋めはじめる ― 引き継ぎで踏んだ2つの地雷",
-      "url": "https://zenn.dev/hoshiorange/articles/25-ai-agent-handover-wip-state",
-      "publishedAt": "2026-08-20T09:09:51.000Z",
-      "publisher": "ほし",
-      "summary": "引き継ぎというのは、相手が人間でも骨が折れます。それが「別のAIに引き継ぐ」になると、骨の折れ方の種類が少し変わります。 先に結論を書きます。AIエージェントへの引き継ぎで本当に危ないのは、設定ファイルの共有し忘れではありません。半分しか…"
     }
   ],
-  "fetchedAt": "2026-08-20T15:04:23.825Z",
+  "fetchedAt": "2026-08-20T15:48:23.694Z",
   "stale": false,
   "error": null
 }
