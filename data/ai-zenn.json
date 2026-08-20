@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "273e5b8b1f11",
-      "title": "Claude Code 完全攻略ガイド ――AI時代の次世代コーディング・ワークフロー",
-      "url": "https://zenn.dev/pakku8914/books/claude_code_master_course",
-      "publishedAt": "2026-08-20T09:33:35.000Z",
-      "publisher": "Pakku8914",
-      "summary": "> 本教材は、Claude Codeの現在リリースされている全機能を網羅的に学習できる実践的な教材です。 CLAUDE.mdの作成やファイルメンションといった基本操作は習得済みだが、スキル・タスク・フック・MCPサーバーなどの高度な機能を…"
+      "id": "f262352324c2",
+      "title": "grill-me / grilling をローカルLLM向けに改変してみた",
+      "url": "https://zenn.dev/nanakusataro/articles/9417aa2b568c20",
+      "publishedAt": "2026-08-20T14:08:21.000Z",
+      "publisher": "Nanakusa Lab.",
+      "summary": "Claude Codeの壁打ち用スキルとしてはsuperpowersのbrainstormingが有名ですが、最近よく耳にするのが「grill-me」。 要件定義や新しいスキルを作成するのに超絶便利だっていう話も聞くけど、同時に、一度発動…"
     },
     {
-      "id": "9e5afad8048a",
-      "title": "バックエンドエンジニアの1か月の話題から──技術共有会 第2回",
-      "url": "https://zenn.dev/10q89s/articles/18c2ccf5280e1f",
-      "publishedAt": "2026-08-20T09:30:12.000Z",
-      "publisher": "htnk128",
-      "summary": "! 本記事は、生成AIを利用して執筆しました。 はじめに こんにちは、URBAN HACKSでバックエンドエンジニアをしている shinee です。 7月の東京は猛暑日（最高気温35℃以上）が9日あり、最高気温は7月25日の37.1℃を記…"
+      "id": "6986dee8cda2",
+      "title": "Claudeと「AI解体学」してみた 〜セキュリティ製品編〜",
+      "url": "https://zenn.dev/think_node/articles/3658e943c32baa",
+      "publishedAt": "2026-08-20T13:20:39.000Z",
+      "publisher": "THINK NODE",
+      "summary": "AI解体学とは AIを使うことを目的とせず、AIの回答や振る舞いを観察して、その裏側にある設計思想を推し量る遊び。 造語です。学問ではないです。 対戦カード 仕事で使っているセキュリティ製品のAIアシスタントを触っているうちに、「これ、ど…"
     },
     {
-      "id": "3249b5eb001b",
-      "title": "作りかけを引き継いだAIは『未完了』を勝手に埋めはじめる ― 引き継ぎで踏んだ2つの地雷",
-      "url": "https://zenn.dev/hoshiorange/articles/25-ai-agent-handover-wip-state",
-      "publishedAt": "2026-08-20T09:09:51.000Z",
-      "publisher": "ほし",
-      "summary": "引き継ぎというのは、相手が人間でも骨が折れます。それが「別のAIに引き継ぐ」になると、骨の折れ方の種類が少し変わります。 先に結論を書きます。AIエージェントへの引き継ぎで本当に危ないのは、設定ファイルの共有し忘れではありません。半分しか…"
+      "id": "c0e9a4b1a203",
+      "title": "AIコーディングエージェントと進めるUnityゲーム開発：Phase1で仕様書駆動の土台を作った",
+      "url": "https://zenn.dev/kas_blog/articles/20260819-unity-ai-coding-agent-spec-driven-phase1",
+      "publishedAt": "2026-08-20T13:09:36.000Z",
+      "publisher": "kas's blog",
+      "summary": "はじめに この記事は、ゲーム開発未経験の私が、AIコーディングエージェントと一緒にUnityゲームを作っていく技術ブログの第3弾です。 第1弾ではWindows版Unity Editor、WSL、Codexを組み合わせた開発環境を作り、第…"
     },
     {
-      "id": "5f138ea6274b",
-      "title": "RTX 4070でMiniMax H3の768p生成を18分43秒→3分28秒にした",
-      "url": "https://zenn.dev/nekod/articles/3b702287bb5ac6",
-      "publishedAt": "2026-08-20T09:02:46.000Z",
-      "publisher": "nekoD",
-      "summary": "はじめに 前回の記事で、RTX 4070(VRAM 12GB)のローカル ComfyUI でMiniMax H3 が 1344×768 まで動くことを実測しました(5秒・音声つきで 18 分 43 秒)。 今回はその続きで、「同じ動画をど…"
+      "id": "d1eedeb14993",
+      "title": "RTX 5060 Tiを追加購入する直前に、RTX 4070 Ti SUPER 16GB単体でQwen 3.8 27Bを試してみた",
+      "url": "https://zenn.dev/sumumu26/articles/b5b2ab52939b4e",
+      "publishedAt": "2026-08-20T12:48:26.000Z",
+      "publisher": "miharuba_jp",
+      "summary": "こんにちは。miharubaの池谷です。 最近、ローカルLLM用にGPUをもう1枚買い足そうか、本気で悩んでいました。 今使っているGPUはRTX 4070 Ti SUPER 16GBです。Qwenの27Bモデルを長いコンテキストで使おう…"
     },
     {
-      "id": "37e146287b76",
-      "title": "システムプロンプトを80%消したら賢くなった — Claude Code 作者 Boris Cherny の回を要点解説",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr24-cherny-summary",
-      "publishedAt": "2026-08-20T09:00:09.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について ! 本記事は Boris Cherny（Claude Code 作者 / Anthropic）が Y Combinator Startup School 2026 で語った内容の紹介と論評を目的としています。発言の要点を…"
+      "id": "be5025023f14",
+      "title": "2026/08/19 人類存続型AIプロジェクトの構造と2050年に向けた改革必然性",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/434903bec9f16c",
+      "publishedAt": "2026-08-20T12:25:56.000Z",
+      "publisher": "maestro",
+      "summary": "報告書に至るまでの経緯： Copilotに英語版生成させ Substackに投稿したところユーザーからの「Like」が付いた為、 どんな階層ユーザーがどの様な視点で観てるのかを含め対話してたら... いつもの様に流動的対話となり「世界規模…"
     },
     {
-      "id": "c31ca7961221",
-      "title": "Claude Code の週次レートリミットを回帰で逆算したら、キャッシュ読取がタダだった",
-      "url": "https://zenn.dev/crandim_r_and_d/articles/260817_claude_code_weekly_rate_reverse_engineering",
-      "publishedAt": "2026-08-20T08:42:07.000Z",
-      "publisher": "tokoi",
-      "summary": "TL;DR Claude Code サブスクの週次レートリミット（Fable 5 週次、以下 f5/w）の消費式を、手元の利用ログから推定した 結果: Δf5/w[%] ≈ 2.75 × キャッシュ書込(1h)[Mtok] + 27.5 …"
+      "id": "8a91459c569d",
+      "title": "Codex スキルの作り方【2026 年版】— `SKILL.md`、保存場所、呼び出し方",
+      "url": "https://zenn.dev/koenigwolf/articles/096627ff85e0b4",
+      "publishedAt": "2026-08-20T12:06:52.000Z",
+      "publisher": "BrightBroom",
+      "summary": "Codex で一度うまくいった仕事を、別のチャットでも同じように進めたい。 その再現性を高める仕組みが「スキル」です。 ただし、過去のプロンプトをそのまま保存しただけでは、安定したスキルにはなりません。必要なのは、うまくいった文章そのもの…"
     },
     {
-      "id": "08c099e0b37f",
-      "title": "AIエージェントを業務に組み込むときの設計指針3つ",
-      "url": "https://zenn.dev/kairosai/articles/b788527b1540a0",
-      "publishedAt": "2026-08-20T08:32:41.000Z",
-      "publisher": "kairos",
-      "summary": "はじめに AIエージェントを業務に組み込むとき、モデルの性能よりも「どう分解して渡すか」で結果が変わります。実装寄りの視点で、設計時に押さえておきたい3点をまとめます。 1. タスクの粒度を最小単位まで落とす エージェントに複合タスクを渡…"
+      "id": "0fba9ca6af5a",
+      "title": "AIがそう言ったから正しい！ 職場に広がる新しい権威、若者も高齢者もAIに説得される違いは？",
+      "url": "https://zenn.dev/syoshida07/articles/221b3db10ad2fb",
+      "publishedAt": "2026-08-20T11:07:46.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "近年、生成AIが人間の意思決定にどの程度影響を及ぼすのかが、国際的な研究テーマとなっている。 特に正解のない「道徳的ジレンマ」に対してAIが反論を提示した場合、人間の判断がどれほど変化するのかは、AIガバナンスや組織の意思決定プロセスに直…"
     },
     {
-      "id": "5e15f9eda455",
-      "title": "AI時代のブルックスの法則 ― 人を育てる時代から、AIを育てる時代へ",
-      "url": "https://zenn.dev/leateq/articles/ai-brooks-law",
-      "publishedAt": "2026-08-20T08:25:06.000Z",
-      "publisher": "きしまる / LEATEQ",
-      "summary": "はじめに 「遅れているソフトウェアプロジェクトへの要員追加は、プロジェクトをさらに遅らせるだけである」 フレデリック・ブルックスが『人月の神話』でこう書いたのは1975年、いまから50年以上前です。半世紀たって開発環境は原形をとどめないほ…"
+      "id": "6590da11ce8c",
+      "title": "製造業の多言語マニュアル作成にChatGPTを活用する実践知見",
+      "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20260817-chatgpt-multilingual-doc",
+      "publishedAt": "2026-08-20T11:00:07.000Z",
+      "publisher": "yutaka8484",
+      "summary": "製造現場の多言語ドキュメントが抱える課題 製造業の現場では、海外工場との連携や外国人材の増加に伴い、作業マニュアルやFAQを複数言語で用意する必要が生じている。従来は専門の翻訳会社に外注するか、担当者が手作業で翻訳ソフトと辞書を往復しなが…"
     },
     {
-      "id": "701b9a54a277",
-      "title": "コードより日本語を書く時間が長くなったので、Claude Codeに話しかけて開発している",
-      "url": "https://zenn.dev/hanaseru/articles/2748b1ecccc040",
-      "publishedAt": "2026-08-20T08:23:52.000Z",
-      "publisher": "Hanaseru|声で書く、伝わる日本語",
-      "summary": "最初に開示しておきます。筆者は、本記事の後半で紹介する音声入力アプリ「Hanaseru」の開発元（株式会社ソフトスタジオ）の人間です。製品の話は1セクションに分けてあるので、そこまでは「AIコーディング時代の入力をどうするか」という一般的…"
+      "id": "983eed647437",
+      "title": "タスク41件をAIループに任せたら、詰まっていたのは実装より判断だった",
+      "url": "https://zenn.dev/shimo4228/articles/ai-task-loop-judge-bottleneck",
+      "publishedAt": "2026-08-20T10:23:12.000Z",
+      "publisher": "shimo4228",
+      "summary": "タスク台帳の下のほう、もう何週間もスクロールして見ていない領域はありませんか。 私の環境には 2 つのリポジトリ合計で 41 件のタスクが眠っていました。AI エージェントは毎日使っているのに、台帳は減りません。 ある朝、自作の「着手可能…"
     },
     {
-      "id": "c0cb598ca9fd",
-      "title": "Microsoft Agent 365って何ですか？",
-      "url": "https://zenn.dev/headwaters/articles/b7b26eac5ea921",
-      "publishedAt": "2026-08-20T07:34:48.000Z",
-      "publisher": "ai chinen",
-      "summary": "! Microsoft Agent 365についてAIと会話しながら調査し、まとめた内容となっています！ 1. Microsoft Agent 365 とは まず、Agent 365とは何か？ 参照: Microsoft Agent 36…"
+      "id": "3b83f65b77b9",
+      "title": "Claude Codeで、許可リストに書いてあるのにブロックされた話",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-08-223624",
+      "publishedAt": "2026-08-20T10:21:58.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の実施記録: Claude Codeで、進行管理役のエージェントが自分自身の行動規範ファイルを編集しようとしたところ、permission mode（実行モードという枠組み）の一状態であるauto modeの中で働く判定機構にブロ…"
     },
     {
-      "id": "f9111b6511f4",
-      "title": "LLM導入で失敗する原因はモデルだけではない：開発前に確認したい4つの層",
-      "url": "https://zenn.dev/amamiya_chan/articles/d97d32a0740b52",
-      "publishedAt": "2026-08-20T07:30:34.000Z",
-      "publisher": "雨宮（Amamiya）",
-      "summary": "新しいLLMが公開されるたびに、 「このモデルは性能が高い」 「ベンチマークで最高スコアを出した」 「料金も安い」 という情報が流れます。 そのため、LLM導入では最初にモデル比較から始めることが多いと思います。 実際、私も以前はそう考え…"
+      "id": "5d7140da04f3",
+      "title": "LLM プロバイダを抽象化したら、効いたのは「乗り換えの自由」じゃなかった",
+      "url": "https://zenn.dev/box2box/articles/multi-llm-provider-abstraction",
+      "publishedAt": "2026-08-20T10:02:29.000Z",
+      "publisher": "box2box",
+      "summary": "結論 / TL;DR 複数の LLM プロバイダを 1 つのインタフェースで束ねる薄い層を入れました。動機は「ベンダーロックインの回避」でしたが、実際に効いたのは別の 2 つでした。 可用性: プロバイダ側が 5xx を返しても、別プロバ…"
     },
     {
-      "id": "21a0f089c3df",
-      "title": "AI導入の要件が伝わるたびに削れていく理由と、それを構造で断つFDEという関わり方",
-      "url": "https://zenn.dev/nomurasan/articles/translation-cost-and-fde-way-of-engagement",
-      "publishedAt": "2026-08-20T07:30:25.000Z",
-      "publisher": "のむらや",
-      "summary": "! 本記事の主題(翻訳コスト・FDEという関わり方の観察)は著者本人の現場観察に基づき、AIに表現の整理と壁打ちを依頼して構成しています。出典リンク(a16z/Wikipedia/Pragmatic Engineer/Bloomberry…"
+      "id": "aa4e7f52d98d",
+      "title": "AIレビューを開発フローに組み込んでみた",
+      "url": "https://zenn.dev/keisuke1306/articles/04-ai-code-review-workflow",
+      "publishedAt": "2026-08-20T10:00:05.000Z",
+      "publisher": "keisuke",
+      "summary": "導入 この記事は、ChatGPT・Claude Code・Codex・Notionを組み合わせた「AI駆動開発」というテーマで書いている記事の1本です。実際に運用しているポートフォリオサイトの改修にこの開発フローを適用しながら、実践の中で…"
     }
   ],
-  "fetchedAt": "2026-08-20T20:45:37.848Z",
+  "fetchedAt": "2026-08-20T21:23:49.006Z",
   "stale": false,
   "error": null
 }
