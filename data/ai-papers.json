@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.16590",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Embodied agents are increasingly used to close the gap left by end-to-end policy models. Yet the agentic path has not r…",
-      "score": 96
+      "score": 106
     },
     {
       "id": "fd057252ba20",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.17426",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task. Under this formulati…",
-      "score": 76
+      "score": 91
     },
     {
       "id": "9620524cebc1",
@@ -30,20 +30,12 @@
       "score": 75
     },
     {
-      "id": "a81bb29b4bb2",
-      "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
-      "url": "https://huggingface.co/papers/2608.18565",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent…",
-      "score": 67
-    },
-    {
       "id": "01c9bcac85ef",
       "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
       "url": "https://huggingface.co/papers/2608.13558",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, f…",
-      "score": 62
+      "score": 71
     },
     {
       "id": "d3d8e4e96621",
@@ -52,6 +44,14 @@
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-ma…",
       "score": 23
+    },
+    {
+      "id": "b1c7dae40c16",
+      "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+      "url": "https://huggingface.co/papers/2608.18746",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "JEPA-style latent world models can use Euclidean distance to a goal latent as the cost for model-predictive control (MP…",
+      "score": 15
     },
     {
       "id": "e97f6e112321",
@@ -67,14 +67,6 @@
       "url": "https://huggingface.co/papers/2608.13947",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "High-quality creative writing data for large language models (LLMs) remains dominated by story-centric data, limiting m…",
-      "score": 12
-    },
-    {
-      "id": "b1c7dae40c16",
-      "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
-      "url": "https://huggingface.co/papers/2608.18746",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "JEPA-style latent world models can use Euclidean distance to a goal latent as the cost for model-predictive control (MP…",
       "score": 12
     },
     {
@@ -100,9 +92,17 @@
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "summary": "Token-level hallucination detectors score each token independently from a single signal, and fail exactly when the gene…",
       "score": 2
+    },
+    {
+      "id": "8427b7628e28",
+      "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+      "url": "https://huggingface.co/papers/2608.18852",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Agent frameworks increasingly package procedural knowledge as skills: instruction files an agent reads on demand, while…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-20T08:56:07.623Z",
+  "fetchedAt": "2026-08-20T09:32:26.126Z",
   "stale": false,
   "error": null
 }
