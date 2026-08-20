@@ -6,12 +6,20 @@
   "category": "ai",
   "items": [
     {
+      "id": "23c43842646f",
+      "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+      "url": "https://huggingface.co/papers/2608.16590",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Embodied agents are increasingly used to close the gap left by end-to-end policy models. Yet the agentic path has not r…",
+      "score": 50
+    },
+    {
       "id": "fd057252ba20",
       "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
       "url": "https://huggingface.co/papers/2608.17426",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task. Under this formulati…",
-      "score": 20
+      "score": 32
     },
     {
       "id": "01c9bcac85ef",
@@ -19,15 +27,7 @@
       "url": "https://huggingface.co/papers/2608.13558",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, f…",
-      "score": 16
-    },
-    {
-      "id": "23c43842646f",
-      "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
-      "url": "https://huggingface.co/papers/2608.16590",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Embodied agents are increasingly used to close the gap left by end-to-end policy models. Yet the agentic path has not r…",
-      "score": 13
+      "score": 28
     },
     {
       "id": "a81bb29b4bb2",
@@ -35,15 +35,7 @@
       "url": "https://huggingface.co/papers/2608.18565",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent…",
-      "score": 8
-    },
-    {
-      "id": "3e41ce42c08e",
-      "title": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
-      "url": "https://huggingface.co/papers/2608.18933",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Large language model (LLM) based agents have demonstrated remarkable proficiency in automated software issue resolution…",
-      "score": 8
+      "score": 21
     },
     {
       "id": "e97f6e112321",
@@ -51,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.14929",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Open-weight language models are fine-tuned, quantized, pruned, and merged, yet their provenance is often undocumented. …",
-      "score": 4
+      "score": 15
     },
     {
       "id": "a178158a70f1",
@@ -59,39 +51,15 @@
       "url": "https://huggingface.co/papers/2608.19197",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language ag…",
-      "score": 2
+      "score": 15
     },
     {
-      "id": "7496b05713bc",
-      "title": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
-      "url": "https://huggingface.co/papers/2608.18701",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Physical interaction quality is central to deformable-object manipulation, yet most benchmarks evaluate task success al…",
-      "score": 1
-    },
-    {
-      "id": "d3d8e4e96621",
-      "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
-      "url": "https://huggingface.co/papers/2608.18940",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-ma…",
-      "score": 1
-    },
-    {
-      "id": "f3bb8180610c",
-      "title": "Looped Language Models Improve Compositional Tool Calling",
-      "url": "https://huggingface.co/papers/2608.18171",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Looped language models have shown promising results on reasoning benchmarks, yet their potential for agentic tool use r…",
-      "score": 1
-    },
-    {
-      "id": "0ad76680e5b9",
-      "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents",
-      "url": "https://huggingface.co/papers/2608.18423",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Language model agents now execute bounded tasks reliably. Whether they can sustain effective decision-making over long …",
-      "score": 1
+      "id": "8857190b7463",
+      "title": "Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion",
+      "url": "https://huggingface.co/papers/2608.13947",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "High-quality creative writing data for large language models (LLMs) remains dominated by story-centric data, limiting m…",
+      "score": 12
     },
     {
       "id": "b1c7dae40c16",
@@ -99,10 +67,42 @@
       "url": "https://huggingface.co/papers/2608.18746",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "JEPA-style latent world models can use Euclidean distance to a goal latent as the cost for model-predictive control (MP…",
-      "score": 0
+      "score": 12
+    },
+    {
+      "id": "d3d8e4e96621",
+      "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+      "url": "https://huggingface.co/papers/2608.18940",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-ma…",
+      "score": 12
+    },
+    {
+      "id": "f3bb8180610c",
+      "title": "Looped Language Models Improve Compositional Tool Calling",
+      "url": "https://huggingface.co/papers/2608.18171",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Looped language models have shown promising results on reasoning benchmarks, yet their potential for agentic tool use r…",
+      "score": 12
+    },
+    {
+      "id": "7496b05713bc",
+      "title": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
+      "url": "https://huggingface.co/papers/2608.18701",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Physical interaction quality is central to deformable-object manipulation, yet most benchmarks evaluate task success al…",
+      "score": 11
+    },
+    {
+      "id": "9620524cebc1",
+      "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+      "url": "https://huggingface.co/papers/2608.17253",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language …",
+      "score": 8
     }
   ],
-  "fetchedAt": "2026-08-20T04:09:26.162Z",
+  "fetchedAt": "2026-08-20T04:51:58.073Z",
   "stale": false,
   "error": null
 }
