@@ -6,28 +6,28 @@
   "category": "ai",
   "items": [
     {
-      "id": "7224821ee740",
-      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
-      "url": "https://huggingface.co/papers/2608.13556",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although v…",
-      "score": 17
-    },
-    {
-      "id": "03b8e774b302",
-      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
-      "url": "https://huggingface.co/papers/2608.17067",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Saf…",
-      "score": 15
-    },
-    {
       "id": "015ad531a6fe",
       "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
       "url": "https://huggingface.co/papers/2608.17393",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Reinforcement learning for coding agents increasingly relies on long-running agent harnesses to manage tool integration…",
-      "score": 10
+      "score": 12
+    },
+    {
+      "id": "a81bb29b4bb2",
+      "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
+      "url": "https://huggingface.co/papers/2608.18565",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent…",
+      "score": 6
+    },
+    {
+      "id": "fd057252ba20",
+      "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
+      "url": "https://huggingface.co/papers/2608.17426",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task. Under this formulati…",
+      "score": 5
     },
     {
       "id": "3e41ce42c08e",
@@ -35,7 +35,15 @@
       "url": "https://huggingface.co/papers/2608.18933",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "Large language model (LLM) based agents have demonstrated remarkable proficiency in automated software issue resolution…",
-      "score": 3
+      "score": 4
+    },
+    {
+      "id": "e97f6e112321",
+      "title": "Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification",
+      "url": "https://huggingface.co/papers/2608.14929",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Open-weight language models are fine-tuned, quantized, pruned, and merged, yet their provenance is often undocumented. …",
+      "score": 2
     },
     {
       "id": "afa7bd7bf039",
@@ -46,11 +54,11 @@
       "score": 2
     },
     {
-      "id": "a81bb29b4bb2",
-      "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
-      "url": "https://huggingface.co/papers/2608.18565",
+      "id": "d3d8e4e96621",
+      "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+      "url": "https://huggingface.co/papers/2608.18940",
       "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent…",
+      "summary": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-ma…",
       "score": 1
     },
     {
@@ -59,6 +67,14 @@
       "url": "https://huggingface.co/papers/2608.19197",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language ag…",
+      "score": 1
+    },
+    {
+      "id": "f3bb8180610c",
+      "title": "Looped Language Models Improve Compositional Tool Calling",
+      "url": "https://huggingface.co/papers/2608.18171",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Looped language models have shown promising results on reasoning benchmarks, yet their potential for agentic tool use r…",
       "score": 1
     },
     {
@@ -84,25 +100,9 @@
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "We introduce PTXBench, a benchmark for evaluating and adapting large language models (LLMs) to use architecture-specifi…",
       "score": 1
-    },
-    {
-      "id": "881226f24268",
-      "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
-      "url": "https://huggingface.co/papers/2608.12944",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Electrocardiography (ECG), photoplethysmography (PPG), and phonocardiography (PCG) provide complementary views of the s…",
-      "score": 1
-    },
-    {
-      "id": "f3bb8180610c",
-      "title": "Looped Language Models Improve Compositional Tool Calling",
-      "url": "https://huggingface.co/papers/2608.18171",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Looped language models have shown promising results on reasoning benchmarks, yet their potential for agentic tool use r…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-20T02:35:53.536Z",
+  "fetchedAt": "2026-08-20T03:28:35.241Z",
   "stale": false,
   "error": null
 }
