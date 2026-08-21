@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.19758",
       "publishedAt": "2026-08-20T08:02:55.000Z",
       "summary": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention rema…",
-      "score": 8
+      "score": 9
     },
     {
       "id": "d9262ce9266d",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.17744",
       "publishedAt": "2026-08-18T13:09:03.000Z",
       "summary": "Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune …",
-      "score": 6
+      "score": 7
     },
     {
       "id": "cee1fbd123e9",
@@ -36,6 +36,14 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature o…",
       "score": 4
+    },
+    {
+      "id": "79e9e948ff31",
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "url": "https://huggingface.co/papers/2608.13547",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched ex…",
+      "score": 2
     },
     {
       "id": "32e6b90d4e6b",
@@ -70,14 +78,6 @@
       "score": 1
     },
     {
-      "id": "79e9e948ff31",
-      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
-      "url": "https://huggingface.co/papers/2608.13547",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched ex…",
-      "score": 1
-    },
-    {
       "id": "145e008b0b4d",
       "title": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
       "url": "https://huggingface.co/papers/2608.19759",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-21T16:28:59.958Z",
+  "fetchedAt": "2026-08-21T17:02:50.232Z",
   "stale": false,
   "error": null
 }
