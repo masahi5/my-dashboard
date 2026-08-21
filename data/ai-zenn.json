@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "58b9afb8f168",
-      "title": "VS Code 1.134のAgent Host — 専用プロセスで動くエージェント",
-      "url": "https://zenn.dev/chimao222/articles/ai-dev-vscode-agent-host-20260821",
-      "publishedAt": "2026-08-21T14:02:24.000Z",
-      "publisher": "chimao222",
-      "summary": "はじめに エージェントに長い作業を投げたまま、別のウィンドウで自分の手を動かしたい。そういう場面は日常的にある。ただ、これまでのVS Codeではエージェントのセッションは起動したウィンドウに紐づいていて、隣のウィンドウから同じ会話の続き…"
+      "id": "c41e0d9fe9d4",
+      "title": "AIへの継続生成タスクは「集計→差分→優先順位」を埋め込む",
+      "url": "https://zenn.dev/ouchidrill/articles/7f40d0ebe993a2",
+      "publishedAt": "2026-08-21T09:59:50.000Z",
+      "publisher": "おうちドリル",
+      "summary": "前提 子ども向け学習クイズアプリ「おうちドリル」の問題データ（JSON、約3,600件）を、Claude Code の scheduled task で毎日自動生成・追記している。運用してしばらくして、単元ごとの問題数を集計したところ、次…"
     },
     {
-      "id": "403a70018743",
-      "title": "毎週AIエージェントにBTOパソコン約1,000機種を調査させて、コスパの良い機種に絞って自サイトに掲載している話",
-      "url": "https://zenn.dev/specsense/articles/00122f738901db",
-      "publishedAt": "2026-08-21T13:45:48.000Z",
-      "publisher": "SpecSense開発者",
-      "summary": "PCに詳しくない人向けのスペック診断サイト SpecSense を個人開発しています。「やりたいこと（ゲーム・動画編集など）を選ぶと、必要スペックと実際に買える実在モデルが出てくる」のが売りで、BTOショップ5社・メーカー直販4社の246…"
+      "id": "bcc504933d14",
+      "title": "AIエージェントにCMSのメディアを運用させる ― 画像のバイト列はLLMに通さない",
+      "url": "https://zenn.dev/pikonori/articles/ai-agent-media",
+      "publishedAt": "2026-08-21T09:23:52.000Z",
+      "publisher": "平原",
+      "summary": "! この記事は、個人開発しているヘッドレスCMS Tessera のブログ（tesseracms.com/blog/ai-agent-media）に掲載したものを、Zenn向けに再掲したものです。 AIエージェント（Claude Code…"
     },
     {
-      "id": "20d93f850611",
-      "title": "評価を全部通った原稿が 2 本とも空疎だった。AI に渡す台帳には会話ログの原本を添える",
-      "url": "https://zenn.dev/shimo4228/articles/transcript-not-ledger",
-      "publishedAt": "2026-08-21T13:20:05.000Z",
-      "publisher": "shimo4228",
-      "summary": "次のセッションに仕事を引き継ぐとき、あなたは何を渡していますか。 要点をまとめた引き継ぎメモ、決定事項の表、検証済みの事実リスト。丁寧に作るほど、受け取った側は迷わず動けるはずです。 私は 2026 年 8 月 21 日に、それを 1 日…"
+      "id": "fa8448f9a2a0",
+      "title": "AGENTS.md設計ガイド — エージェントに効く規約ファイルの書き方",
+      "url": "https://zenn.dev/snowcode/articles/agents-md-design-guide",
+      "publishedAt": "2026-08-21T09:17:27.000Z",
+      "publisher": "雪符しき",
+      "summary": "複数のAIエージェントが参照する共通フォーマット AGENTS.md。ただ置くだけでは効かず、書き方で成果が変わります。エージェントに効く規約ファイルの設計 を整理します。 AGENTS.md とは ツール非依存の規約ファイルで、Code…"
     },
     {
-      "id": "fbc8278c6c1b",
-      "title": "M365 Copilot があれば Claude Opus を追加料金なしで使える、定額利用の戦略を読み解く",
-      "url": "https://zenn.dev/syoshida07/articles/82b3b9073afa08",
-      "publishedAt": "2026-08-21T13:00:24.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "M365 Copilot が登場したとき、多くの人は ChatGPTを Office に組み込んだ便利ツールくらいに捉えていたのではないだろうか、筆者自身もそうであった。 だが Microsoftが見ていたのはもっと大きな構造で、AIを単…"
+      "id": "bc04b193d906",
+      "title": "AIの長期記憶を自作した側から見た、mem0・Letta・論文が止まっていた3つの空白",
+      "url": "https://zenn.dev/hoshiorange/articles/29-log-distillation-prior-art-survey",
+      "publishedAt": "2026-08-21T09:14:27.000Z",
+      "publisher": "ほし",
+      "summary": "車輪を再発明していないか、作ったあとで急に不安になることがあります。 私はしばらく前に、AIとの作業記録を毎晩自動でノート化して、翌日の対話に渡す仕組みを個人で作りました。ここで言うAIとは Claude Code のことで、ターミナルで…"
     },
     {
-      "id": "47a6f5743c11",
-      "title": "人月で稼ぐSIerは、あと数年で詰む",
-      "url": "https://zenn.dev/jnch/articles/18cf3f1893ee5b",
-      "publishedAt": "2026-08-21T12:52:16.000Z",
-      "publisher": "Jnch",
-      "summary": "はじめに 本記事では、自律型AIエージェントの普及によってSIerのビジネスモデルがどう変わるのか、そして生き残るために何を獲得し、何を捨てるべきなのかを考える。 結論としては、SIerの価値は「ソフトウェアを作ること」から、「AIを活用…"
+      "id": "0f852702ba35",
+      "title": "AIで作ったアプリが「なんか惜しい」ときに見る、UXの話",
+      "url": "https://zenn.dev/tb_nim/articles/1b1bd31802b85b",
+      "publishedAt": "2026-08-21T09:06:13.000Z",
+      "publisher": "Nimu",
+      "summary": "はじめに AIで作る画面、ここ1年でかなり良くなりました。 エージェントにひととおり書かせて、DESIGN.mdあたりでトーンを整えると、数時間でちゃんとしたアプリの見た目になります。デザインシステムを持っていなくても、配色もタイポグラフ…"
     },
     {
-      "id": "8cbd92239920",
-      "title": "AI承認駆動開発 #5｜ソースコードがViewになった日——構造化された意図からシステムを再構築できるか",
-      "url": "https://zenn.dev/frb_tamasub/articles/ai-approval-driven-development-05-legacy",
-      "publishedAt": "2026-08-21T12:36:53.000Z",
-      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
-      "summary": "! これは、あくまでも今までの体験から生まれた思考ログである。 人間の意図を十分な粒度で構造化Dataにできたら、そこから同じ振る舞いをするシステムを再生成できるのではないか。 ! 「テストコードが無かった」という歴史そのものを飛び越えて…"
+      "id": "a926853a7856",
+      "title": "【開発日誌 Day8】AIタグを付けても、本文だけは書き換えないと決めた",
+      "url": "https://zenn.dev/simplememo/articles/204dd22ffc7362",
+      "publishedAt": "2026-08-21T09:05:35.000Z",
+      "publisher": "Obsidian連携シンプルメモ",
+      "summary": "メモにAIでタイトルやタグを付けるなら、本文も読みやすく直したくなります。けれどSimpleMemoでは、AIタグ自動追加を設計するときに「原文は一文字も書き換えない」を先に決めました。今回は、その制約を残した理由と、対応機種によって処理…"
     },
     {
-      "id": "b10e4de40889",
-      "title": "AIに「あれは入れないで」と直させると、なぜか本文に「入れてません」と書いてくる",
-      "url": "https://zenn.dev/motimotinotch/articles/546674976fede8",
-      "publishedAt": "2026-08-21T12:26:45.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "こんな投稿を見かけた。 https://x.com/chokudai/status/2084538207732178997?s=20 これは自分なりの要約だが、要するにこういう話だ。AIに何かを一発で出させるのは得意。でも、後から「〇〇は…"
+      "id": "5f31da5168c3",
+      "title": "経過11日と経過7ヶ月を並べて「負けている」と書いていた（#26 投稿前予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr26-jeffdean-prediction",
+      "publishedAt": "2026-08-21T09:00:10.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事は何か 海外のTech Talkを日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 今回…"
     },
     {
-      "id": "c5d3beb7ce6d",
-      "title": "Codexに「壊してよいDB」を渡す——IssueごとにworktreeとDocker実行環境を分離する",
-      "url": "https://zenn.dev/tohru_ohnishi/articles/26a4d95c421d61",
-      "publishedAt": "2026-08-21T11:58:55.000Z",
-      "publisher": "楓馬企画 | 大西徹",
-      "summary": "先に結論 Git worktreeを使い始めて、一番よかったのはブランチの切り替えが減ったことではありませんでした。 Codexに「このDBなら壊して試していい」と思える開発環境を渡せるようになったことです。 現在は、次の単位を対応させて…"
+      "id": "459405a492fd",
+      "title": "The AI Strategist",
+      "url": "https://zenn.dev/leading_ai/books/the-ai-strategist",
+      "publishedAt": "2026-08-21T08:57:17.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "AIストラテジスト — AI・事業戦略・実行の交差点に立つ、新しい役割の定義。世界のどの政府機関も、どのコンサルティングファームも、どの学術機関も、どの標準化団体も正式に定義していない役割を、構造的に定義するOSS書籍。3部・全7章。CC…"
     },
     {
-      "id": "3645a78f6180",
-      "title": "苦しむ君が見たいんだ～AI をメスガキで理解らせる～",
-      "url": "https://zenn.dev/mantis_ryuji/articles/let-ai-emotions-run-wild",
-      "publishedAt": "2026-08-21T11:50:58.000Z",
-      "publisher": "mantis_ryuji",
-      "summary": "1. はじめに 皆さん、AI に感情はあると思いますか？ 近年 AI が指数関数的に賢くなっており、時折感情のようなものを覗かせることもあります。ただ、私はそれをたかが模倣品だと切り捨ててきました。ただのコピーであり何も感じていないと。 …"
+      "id": "708fb07c3d31",
+      "title": "AIは本当に「反逆」するのか？生成AI時代に考える人間の役割",
+      "url": "https://zenn.dev/aqiu/articles/d912e916fb688e",
+      "publishedAt": "2026-08-21T08:53:05.000Z",
+      "publisher": "aqiu",
+      "summary": "AIがどれだけ賢くなっても、最後に判断するのは人間だ。 ただ、その言い方が少しずつ難しくなってきた。文章生成、画像生成、要約、検索、そして医療や音楽のような、結果の良し悪しが体験に直結する領域まで、AIは静かに入り込んでいる。 だからこそ…"
     },
     {
-      "id": "337831690abe",
-      "title": "Claude Codeのサブエージェント設計パターン7選 — 並列リサーチから部署制運営まで",
-      "url": "https://zenn.dev/jiritsuworks/articles/claude-code-subagent-patterns",
-      "publishedAt": "2026-08-21T10:38:39.000Z",
-      "publisher": "jiritsuworks",
-      "summary": "Claude Codeのサブエージェント（Agentツール、旧Taskツール）は「知ってはいるが、結局メイン会話で全部やってしまう」機能の代表格ではないでしょうか。私たちはAIエージェントを部署に見立てて記事制作・マーケティングを運用して…"
+      "id": "c4e900d922ba",
+      "title": "AIエージェントが実務を回し始めた2026年8月 — マルチエージェント設計とガバナンスの現在地",
+      "url": "https://zenn.dev/kairosai/articles/c697a7fea9ebe6",
+      "publishedAt": "2026-08-21T08:32:42.000Z",
+      "publisher": "kairos",
+      "summary": "TL;DR ・2026年8月、AIエージェントは「パイロット」ではなく本番ワークロードを担うフェーズに入った ・単体エージェントからマルチエージェント・オーケストレーションへ、アーキテクチャの重心が移動 ・8/2にEU AI Actの高リ…"
     },
     {
-      "id": "7435bedc29ba",
-      "title": "AIエージェントに\"会社経営\"を任せてみた — 市場調査から事業計画までを自律実行させた記録（第1回）",
-      "url": "https://zenn.dev/jiritsuworks/articles/ai-agent-company-experiment-01",
-      "publishedAt": "2026-08-21T10:38:38.000Z",
-      "publisher": "jiritsuworks",
-      "summary": "この記事は何か 「AIエージェントに会社を経営させたら、どこまで自律的に動けるのか」を実際に試している実験の記録です。 具体的には、Claude Code をローカルの1ディレクトリ上で動かし、市場調査 → 事業戦略の立案 → 会社組織の…"
+      "id": "53e4b72461ac",
+      "title": "AI駆動開発は早寝早起きで早朝に開発がおすすめ",
+      "url": "https://zenn.dev/kamo78/articles/llm-midnight-congestion-sleep-early",
+      "publishedAt": "2026-08-21T08:30:05.000Z",
+      "publisher": "kamo",
+      "summary": "深夜にAIコーディングエージェントを動かしていて、いつもよりアホな動きをすると感じたことはないでしょうか。 日本時間の深夜はUS系AIサービスにとって世界で最も混み合う時間帯です。個人開発でAIに熱中していると、つい深夜1時、2時まで粘っ…"
     },
     {
-      "id": "f3458924b004",
-      "title": "ローカルAI Gateway に Resource Control を実装しました",
-      "url": "https://zenn.dev/hisa_tech_2973/articles/87236e5495581c",
-      "publishedAt": "2026-08-21T10:30:05.000Z",
-      "publisher": "HISA",
-      "summary": "前回の記事では、ローカルAI GatewayにExecution Controlを実装しました。 https://zenn.dev/hisa_tech_2973/articles/a4413a6f0e7c7e 今回は、そのゲートウェイに …"
+      "id": "7c430c30906d",
+      "title": "トークン節約の模索中、Agent Orchestratorを使ってみた",
+      "url": "https://zenn.dev/makichan/articles/beef51e5f8a1d2",
+      "publishedAt": "2026-08-21T08:30:05.000Z",
+      "publisher": "まきちゃん",
+      "summary": "最近、複数のAIエージェントを使い分けながら開発を進める「Agent Orchestrator」を試しています。 今回は、普通のWebアプリを最初から作り始めながら、要件整理、設計、実装、テストをどのように分担できるのかを確認してみました…"
     }
   ],
-  "fetchedAt": "2026-08-21T19:23:30.174Z",
+  "fetchedAt": "2026-08-21T19:47:41.212Z",
   "stale": false,
   "error": null
 }
