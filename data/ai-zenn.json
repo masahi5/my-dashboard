@@ -6,46 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "8a031823b7f9",
-      "title": "P100向けにllama.cppをビルド",
-      "url": "https://zenn.dev/ibuky/articles/b89bbba9372f4d",
-      "publishedAt": "2026-08-20T21:13:14.000Z",
-      "publisher": "ibuky",
-      "summary": "とりあえずメモ # 必要なツールをインストール # 特にopensslはhuggingfaceから直pullする場合に必須 sudo apt-get install pciutils build-essential cmake curl …"
-    },
-    {
-      "id": "d959273e28f2",
-      "title": "P100 x2で Qwen3.8:27b を Ollamaで動かすとどうなるか",
-      "url": "https://zenn.dev/ibuky/articles/e00b7e5b22531b",
-      "publishedAt": "2026-08-20T20:47:57.000Z",
-      "publisher": "ibuky",
-      "summary": "インストール ❯ curl -fsSL https://ollama.com/install.sh | sh ❯ ollama -v ollama version is 0.32.15 モデルの取得 https://ollama.com/…"
-    },
-    {
-      "id": "b97e0414f7b7",
-      "title": "P100サーバー nvidia-smi",
-      "url": "https://zenn.dev/ibuky/articles/2ee9ed7b2ddb4b",
-      "publishedAt": "2026-08-20T20:16:57.000Z",
-      "publisher": "ibuky",
-      "summary": "現在の実行結果 ❯ nvidia-smi +-----------------------------------------------------------------------------------------+ | NVID…"
-    },
-    {
-      "id": "9cd718c76c9b",
-      "title": "P100 x2 LLMサーバー",
-      "url": "https://zenn.dev/ibuky/articles/2ce9282ea37122",
-      "publishedAt": "2026-08-20T19:31:17.000Z",
-      "publisher": "ibuky",
-      "summary": "Logical Hardwares Item Product Remark MotherBoard ASUS X99-A REV 1.0.2 CPU Intel Core i7-5960X GPU 1 NVIDIA GeForce GTX…"
-    },
-    {
-      "id": "bbfc0485399c",
-      "title": "Claude Codeのsubagentを並列でgit操作させたら、コミットが混ざった話",
-      "url": "https://zenn.dev/playpark/articles/claude-code-subagent-parallel-git-isolation",
-      "publishedAt": "2026-08-20T18:55:31.000Z",
-      "publisher": "playpark",
-      "summary": "「並列にすれば速い」と思ってgit操作込みで投げたら、コミットが混ざった 3本のTaskを並列で走らせて、それぞれに実装を任せたことがある。「3倍速いはず」と思っていたが、できあがったコミットはどれも中途半端に混ざっていた。片方のsuba…"
-    },
-    {
       "id": "dc1166c7c391",
       "title": "Figma のスクショを AI に渡すのをやめた話",
       "url": "https://zenn.dev/awdr74100/articles/0bc1eeb52d3ce0",
@@ -100,9 +60,49 @@
       "publishedAt": "2026-08-20T15:10:07.000Z",
       "publisher": "楓馬企画 | 大西徹",
       "summary": "先に結論 AIエージェントを開発工程に組み込んで、実装できる量は大きく増えました。自分一人では難しかったフルスタックの実装にも手が届き、分からない技術はCodexに質問しながら、設計と実装を往復できます。 一方で、最近強く感じていることが…"
+    },
+    {
+      "id": "048fcfc0ca60",
+      "title": "DeepSeek Harnessのプラグインエコシステムを探索する",
+      "url": "https://zenn.dev/suuuuuu135/articles/df9fd0de105ac1",
+      "publishedAt": "2026-08-20T15:04:47.000Z",
+      "publisher": "suuuuuu135",
+      "summary": "はじめに 最近、AIエージェントの開発や周辺エコシステムについて調査しています。 現在のAIエージェントは、単純なチャットボットから、ツール実行や外部サービス連携、自動化ワークフローを扱うシステムへ進化しています。 その中で、エージェント…"
+    },
+    {
+      "id": "72c3cc9d12ec",
+      "title": "なぜ、AIがどれほど発展しても人間が勉強しなくてもよくはならないのか？",
+      "url": "https://zenn.dev/pdfractal/articles/c2b8332f167351",
+      "publishedAt": "2026-08-20T14:54:43.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに 生成AIが急速に発展すると、「これからは人間が勉強する必要はなくなる」という議論が必ず出てきます。分からないことはAIに聞けばよく、文章もプログラムもAIが作り、専門的な判断についてもAIが助言してくれるのであれば、人間がわざわ…"
+    },
+    {
+      "id": "f262352324c2",
+      "title": "grill-me / grilling をローカルLLM向けに改変してみた",
+      "url": "https://zenn.dev/nanakusataro/articles/9417aa2b568c20",
+      "publishedAt": "2026-08-20T14:08:21.000Z",
+      "publisher": "Nanakusa Lab.",
+      "summary": "Claude Codeの壁打ち用スキルとしてはsuperpowersのbrainstormingが有名ですが、最近よく耳にするのが「grill-me」。 要件定義や新しいスキルを作成するのに超絶便利だっていう話も聞くけど、同時に、一度発動…"
+    },
+    {
+      "id": "6986dee8cda2",
+      "title": "Claudeと「AI解体学」してみた 〜セキュリティ製品編〜",
+      "url": "https://zenn.dev/think_node/articles/3658e943c32baa",
+      "publishedAt": "2026-08-20T13:20:39.000Z",
+      "publisher": "THINK NODE",
+      "summary": "AI解体学とは AIを使うことを目的とせず、AIの回答や振る舞いを観察して、その裏側にある設計思想を推し量る遊び。 造語です。学問ではないです。 対戦カード 仕事で使っているセキュリティ製品のAIアシスタントを触っているうちに、「これ、ど…"
+    },
+    {
+      "id": "c0e9a4b1a203",
+      "title": "AIコーディングエージェントと進めるUnityゲーム開発：Phase1で仕様書駆動の土台を作った",
+      "url": "https://zenn.dev/kas_blog/articles/20260819-unity-ai-coding-agent-spec-driven-phase1",
+      "publishedAt": "2026-08-20T13:09:36.000Z",
+      "publisher": "kas's blog",
+      "summary": "はじめに この記事は、ゲーム開発未経験の私が、AIコーディングエージェントと一緒にUnityゲームを作っていく技術ブログの第3弾です。 第1弾ではWindows版Unity Editor、WSL、Codexを組み合わせた開発環境を作り、第…"
     }
   ],
-  "fetchedAt": "2026-08-21T05:47:43.087Z",
+  "fetchedAt": "2026-08-21T06:39:05.851Z",
   "stale": false,
   "error": null
 }
