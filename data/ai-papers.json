@@ -14,20 +14,12 @@
       "score": 50
     },
     {
-      "id": "0ab118735cf4",
-      "title": "SkillEvo: Self-Renewing Evolution Gradients from Multi-Turn Interaction Feedback",
-      "url": "https://huggingface.co/papers/2608.13120",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Agent Skills are today either hand-authored or produced in a single LLM generation pass, and consequently possess no cl…",
-      "score": 20
-    },
-    {
       "id": "9a4263ccacc1",
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
       "url": "https://huggingface.co/papers/2608.19758",
       "publishedAt": "2026-08-20T08:02:55.000Z",
       "summary": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention rema…",
-      "score": 7
+      "score": 8
     },
     {
       "id": "d9262ce9266d",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.17744",
       "publishedAt": "2026-08-18T13:09:03.000Z",
       "summary": "Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune …",
-      "score": 4
+      "score": 6
     },
     {
       "id": "cee1fbd123e9",
@@ -70,6 +62,14 @@
       "score": 2
     },
     {
+      "id": "42d90bf28f52",
+      "title": "τ_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+      "url": "https://huggingface.co/papers/2608.16885",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherentl…",
+      "score": 1
+    },
+    {
       "id": "79e9e948ff31",
       "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
       "url": "https://huggingface.co/papers/2608.13547",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-21T15:47:54.960Z",
+  "fetchedAt": "2026-08-21T16:28:59.958Z",
   "stale": false,
   "error": null
 }

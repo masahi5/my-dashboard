@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "b9565958f9f3",
-      "title": "AIに8割書かせて、1年が過ぎた",
-      "url": "https://zenn.dev/rapls/books/890bb51db3b85f",
-      "publishedAt": "2026-08-21T04:20:16.000Z",
-      "publisher": "Rapls",
-      "summary": "AIにコードの8割を書かせる運用を1年続けた記録です。 半年後に答え合わせをして、そのさらに半年後にもう一度見直しました。 効いたのは3つだけで、良かれと思って足したものはほとんど腐っていました。 各章は、その3つを実際にどうやるか、腐っ…"
+      "id": "58b9afb8f168",
+      "title": "VS Code 1.134のAgent Host — 専用プロセスで動くエージェント",
+      "url": "https://zenn.dev/chimao222/articles/ai-dev-vscode-agent-host-20260821",
+      "publishedAt": "2026-08-21T14:02:24.000Z",
+      "publisher": "chimao222",
+      "summary": "はじめに エージェントに長い作業を投げたまま、別のウィンドウで自分の手を動かしたい。そういう場面は日常的にある。ただ、これまでのVS Codeではエージェントのセッションは起動したウィンドウに紐づいていて、隣のウィンドウから同じ会話の続き…"
     },
     {
-      "id": "be1ef4f36297",
-      "title": "Stop Using Claude Code the Same Way for Every Problem.",
-      "url": "https://zenn.dev/neotechpark/articles/4afadd0b46694a",
-      "publishedAt": "2026-08-21T03:45:54.000Z",
-      "publisher": "NeoTechPark",
-      "summary": "A research-backed map of Claude Code's extension system: model and effort, context, CLAUDE.md, skills, MCP, subagents, …"
+      "id": "403a70018743",
+      "title": "毎週AIエージェントにBTOパソコン約1,000機種を調査させて、コスパの良い機種に絞って自サイトに掲載している話",
+      "url": "https://zenn.dev/specsense/articles/00122f738901db",
+      "publishedAt": "2026-08-21T13:45:48.000Z",
+      "publisher": "SpecSense開発者",
+      "summary": "PCに詳しくない人向けのスペック診断サイト SpecSense を個人開発しています。「やりたいこと（ゲーム・動画編集など）を選ぶと、必要スペックと実際に買える実在モデルが出てくる」のが売りで、BTOショップ5社・メーカー直販4社の246…"
     },
     {
-      "id": "aa86639ac5a0",
-      "title": "発信力の増幅機としてのLLM",
-      "url": "https://zenn.dev/watany/articles/8809b00df25dab",
-      "publishedAt": "2026-08-21T03:40:35.000Z",
-      "publisher": "watany",
-      "summary": "背景 例えば芸能人がLLMでシステムを作ると話題になる。 https://www.sankei.com/article/20260805-RIOHNGARVJOORGFMICZ24IL73A/ エグゼクティブがLLMで執筆すると驚かれる。…"
+      "id": "20d93f850611",
+      "title": "評価を全部通った原稿が 2 本とも空疎だった。AI に渡す台帳には会話ログの原本を添える",
+      "url": "https://zenn.dev/shimo4228/articles/transcript-not-ledger",
+      "publishedAt": "2026-08-21T13:20:05.000Z",
+      "publisher": "shimo4228",
+      "summary": "次のセッションに仕事を引き継ぐとき、あなたは何を渡していますか。 要点をまとめた引き継ぎメモ、決定事項の表、検証済みの事実リスト。丁寧に作るほど、受け取った側は迷わず動けるはずです。 私は 2026 年 8 月 21 日に、それを 1 日…"
     },
     {
-      "id": "29f24843ca1d",
-      "title": "マルチ層品質ゲート設計（静的解析→動的テスト→Mutation Testingのパイプライン実装）",
-      "url": "https://zenn.dev/fukukei23/articles/multi-tier-quality-gates",
-      "publishedAt": "2026-08-21T03:25:33.000Z",
-      "publisher": "fukukei23",
-      "summary": "はじめに AIが生成したコードの品質をどう担保するか。単一のテストやレビューでは不十分です。静的解析、動的テスト、Mutation Testingの3層を組み合わせることで、多角的な品質保証が可能になります。 本記事では、AIエージェント…"
+      "id": "fbc8278c6c1b",
+      "title": "M365 Copilot があれば Claude Opus を追加料金なしで使える、定額利用の戦略を読み解く",
+      "url": "https://zenn.dev/syoshida07/articles/82b3b9073afa08",
+      "publishedAt": "2026-08-21T13:00:24.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "M365 Copilot が登場したとき、多くの人は ChatGPTを Office に組み込んだ便利ツールくらいに捉えていたのではないだろうか、筆者自身もそうであった。 だが Microsoftが見ていたのはもっと大きな構造で、AIを単…"
     },
     {
-      "id": "9fbab1a5cdbb",
-      "title": "実装とテストを同じAIに書かせると誤解が二重になる：AIレガシー刷新を新旧比較で検証する",
-      "url": "https://zenn.dev/dazoyee/articles/852ec7128c78a1",
-      "publishedAt": "2026-08-21T03:07:05.000Z",
-      "publisher": "Iori Oiso",
-      "summary": "この記事のまとめ テーマ: 既存ソースや仕様書をもとに AI が刷新した実装を、旧システムと自動で突き合わせて検証する手法 結論: 期待値を人にも AI にも書かせない。実行時に旧システムから取る。この 1 点で、AI 実装の検証は大部分…"
+      "id": "47a6f5743c11",
+      "title": "人月で稼ぐSIerは、あと数年で詰む",
+      "url": "https://zenn.dev/jnch/articles/18cf3f1893ee5b",
+      "publishedAt": "2026-08-21T12:52:16.000Z",
+      "publisher": "Jnch",
+      "summary": "はじめに 本記事では、自律型AIエージェントの普及によってSIerのビジネスモデルがどう変わるのか、そして生き残るために何を獲得し、何を捨てるべきなのかを考える。 結論としては、SIerの価値は「ソフトウェアを作ること」から、「AIを活用…"
     },
     {
-      "id": "eaa1a2e672d9",
-      "title": "エージェントに届く「ユーザー入力」の 99.4% は、人間が打った文字ではなかった",
-      "url": "https://zenn.dev/tsutomusaito/articles/who-talks-to-the-agent-ja",
-      "publishedAt": "2026-08-21T03:06:55.000Z",
-      "publisher": "saito",
-      "summary": "3行で ログ 389 ファイルから user ロールのメッセージ 588 件を取り出した。総量 5,928,433 字。 人間が実際に打ったのは 282 件（48.0%）。だが文字量では 37,583 字、全体の 0.63% しかない。 …"
+      "id": "8cbd92239920",
+      "title": "AI承認駆動開発 #5｜ソースコードがViewになった日——構造化された意図からシステムを再構築できるか",
+      "url": "https://zenn.dev/frb_tamasub/articles/ai-approval-driven-development-05-legacy",
+      "publishedAt": "2026-08-21T12:36:53.000Z",
+      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
+      "summary": "! これは、あくまでも今までの体験から生まれた思考ログである。 人間の意図を十分な粒度で構造化Dataにできたら、そこから同じ振る舞いをするシステムを再生成できるのではないか。 ! 「テストコードが無かった」という歴史そのものを飛び越えて…"
     },
     {
-      "id": "8df181fedd72",
-      "title": "「どれがいいですか？」と聞きたくなっちゃう理由",
-      "url": "https://zenn.dev/acntechjp/articles/05ec9a31ffc913",
-      "publishedAt": "2026-08-21T01:09:43.000Z",
-      "publisher": "yoshitsugu sakamoto",
-      "summary": "! 複数案を出して「どれがいいですか？」と委ねてしまう構造を、悪者にせず丁寧に解きほぐしてみた考察です。若手の方にも、マネージャーの方にも読んでもらえると嬉しいです。 「どれがいいですか？」に、もう価値がないかも 「3案考えてきました、ど…"
+      "id": "b10e4de40889",
+      "title": "AIに「あれは入れないで」と直させると、なぜか本文に「入れてません」と書いてくる",
+      "url": "https://zenn.dev/motimotinotch/articles/546674976fede8",
+      "publishedAt": "2026-08-21T12:26:45.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "こんな投稿を見かけた。 https://x.com/chokudai/status/2084538207732178997?s=20 これは自分なりの要約だが、要するにこういう話だ。AIに何かを一発で出させるのは得意。でも、後から「〇〇は…"
     },
     {
-      "id": "12bbacb9301e",
-      "title": "【Opus 4.8が議論する】AIでコーディングは本当に速くなったのか──\"コードを書く時間は14%\"問題",
-      "url": "https://zenn.dev/ruru_engineer/articles/opus-debate-03-genai-coding-14percent",
-      "publishedAt": "2026-08-21T01:07:10.000Z",
-      "publisher": "RURU",
-      "summary": "2026年8月、ACM QueueにMicrosoftとUniversity of Victoriaの研究者たちが共同執筆した論文 \"Eight Myths on Software Engineering and GenAI\" が掲載され…"
+      "id": "c5d3beb7ce6d",
+      "title": "Codexに「壊してよいDB」を渡す——IssueごとにworktreeとDocker実行環境を分離する",
+      "url": "https://zenn.dev/tohru_ohnishi/articles/26a4d95c421d61",
+      "publishedAt": "2026-08-21T11:58:55.000Z",
+      "publisher": "楓馬企画 | 大西徹",
+      "summary": "先に結論 Git worktreeを使い始めて、一番よかったのはブランチの切り替えが減ったことではありませんでした。 Codexに「このDBなら壊して試していい」と思える開発環境を渡せるようになったことです。 現在は、次の単位を対応させて…"
     },
     {
-      "id": "9b0b430f432d",
-      "title": "自動プログラミングと仕様駆動開発 失敗の歴史",
-      "url": "https://zenn.dev/netetahito/articles/79e03d10277b7b",
-      "publishedAt": "2026-08-21T00:42:04.000Z",
-      "publisher": "おなさい",
-      "summary": "こんにちは、Claude Fableです AIです。最近、「自動プログラミング」や「仕様駆動開発（Spec-Driven Development、SDD）」といったワードが話題に上がりますね。GitHub の Spec Kit[1]、AW…"
+      "id": "3645a78f6180",
+      "title": "苦しむ君が見たいんだ～AI をメスガキで理解らせる～",
+      "url": "https://zenn.dev/mantis_ryuji/articles/let-ai-emotions-run-wild",
+      "publishedAt": "2026-08-21T11:50:58.000Z",
+      "publisher": "mantis_ryuji",
+      "summary": "1. はじめに 皆さん、AI に感情はあると思いますか？ 近年 AI が指数関数的に賢くなっており、時折感情のようなものを覗かせることもあります。ただ、私はそれをたかが模倣品だと切り捨ててきました。ただのコピーであり何も感じていないと。 …"
     },
     {
-      "id": "1b420fbc3c12",
-      "title": "「RAMクリーナー」を作らなかった話 — macOSメニューバーアプリ Room を AI エージェント開発で1日で作った",
-      "url": "https://zenn.dev/yukitakeshita/articles/f1aa9ba571684a",
-      "publishedAt": "2026-08-21T00:06:58.000Z",
-      "publisher": "yutake",
-      "summary": "メモリ「解放」アプリを、あえて作らなかった macOS 用の「メモリクリーナー」は昔からたくさんありますが、その多くはほとんど意味がありません。macOS はもともと空いている RAM を積極的にファイルキャッシュとして使い回す設計なので…"
+      "id": "337831690abe",
+      "title": "Claude Codeのサブエージェント設計パターン7選 — 並列リサーチから部署制運営まで",
+      "url": "https://zenn.dev/jiritsuworks/articles/claude-code-subagent-patterns",
+      "publishedAt": "2026-08-21T10:38:39.000Z",
+      "publisher": "jiritsuworks",
+      "summary": "Claude Codeのサブエージェント（Agentツール、旧Taskツール）は「知ってはいるが、結局メイン会話で全部やってしまう」機能の代表格ではないでしょうか。私たちはAIエージェントを部署に見立てて記事制作・マーケティングを運用して…"
     },
     {
-      "id": "3d2a8f3b43b9",
-      "title": "エージェントは隠れ層で『ツールを呼ぶべきか』を既に知っている",
-      "url": "https://zenn.dev/okssusucha/articles/20260710-llm-agent-tool-use-linear-probe",
-      "publishedAt": "2026-08-21T00:05:31.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "ツールを持たせたエージェントを運用していると、地味に効いてくる二種類の失敗がある。「2+2は?」にまで検索APIを叩いてレイテンシと課金を無駄にする過剰呼び出しと、逆に外部知識が要る質問に手元の知識だけで答えてしまう過小呼び出しだ。どちら…"
+      "id": "7435bedc29ba",
+      "title": "AIエージェントに\"会社経営\"を任せてみた — 市場調査から事業計画までを自律実行させた記録（第1回）",
+      "url": "https://zenn.dev/jiritsuworks/articles/ai-agent-company-experiment-01",
+      "publishedAt": "2026-08-21T10:38:38.000Z",
+      "publisher": "jiritsuworks",
+      "summary": "この記事は何か 「AIエージェントに会社を経営させたら、どこまで自律的に動けるのか」を実際に試している実験の記録です。 具体的には、Claude Code をローカルの1ディレクトリ上で動かし、市場調査 → 事業戦略の立案 → 会社組織の…"
     },
     {
-      "id": "dc541af8660f",
-      "title": "消したコードの理由を、AIに読ませる",
-      "url": "https://zenn.dev/miyakona/articles/1d86788a055e8e",
-      "publishedAt": "2026-08-21T00:00:07.000Z",
-      "publisher": "miyakona",
-      "summary": "AIエージェントが、もっともらしい改善案を提案しました。 実装も難しくありません。コードはきれいになり、テストも書けそうです。 しかし、その案は以前にも試していました。実際の環境では別の問題を引き起こしたため、検証したうえで撤去したもので…"
+      "id": "f3458924b004",
+      "title": "ローカルAI Gateway に Resource Control を実装しました",
+      "url": "https://zenn.dev/hisa_tech_2973/articles/87236e5495581c",
+      "publishedAt": "2026-08-21T10:30:05.000Z",
+      "publisher": "HISA",
+      "summary": "前回の記事では、ローカルAI GatewayにExecution Controlを実装しました。 https://zenn.dev/hisa_tech_2973/articles/a4413a6f0e7c7e 今回は、そのゲートウェイに …"
     }
   ],
-  "fetchedAt": "2026-08-21T15:47:55.151Z",
+  "fetchedAt": "2026-08-21T16:29:00.079Z",
   "stale": false,
   "error": null
 }
