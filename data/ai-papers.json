@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.19799",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable…",
-      "score": 48
+      "score": 50
     },
     {
       "id": "0ab118735cf4",
@@ -22,20 +22,20 @@
       "score": 20
     },
     {
-      "id": "7a71bf131f98",
-      "title": "Repo0: Design-Driven Zero-to-All Code Generation",
-      "url": "https://huggingface.co/papers/2608.19854",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Large language model agents have made substantial progress in code generation, yet most existing systems assume a prede…",
-      "score": 9
-    },
-    {
       "id": "9a4263ccacc1",
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
       "url": "https://huggingface.co/papers/2608.19758",
       "publishedAt": "2026-08-20T08:02:55.000Z",
       "summary": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention rema…",
-      "score": 6
+      "score": 7
+    },
+    {
+      "id": "d9262ce9266d",
+      "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
+      "url": "https://huggingface.co/papers/2608.17744",
+      "publishedAt": "2026-08-18T13:09:03.000Z",
+      "summary": "Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune …",
+      "score": 4
     },
     {
       "id": "cee1fbd123e9",
@@ -44,14 +44,6 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature o…",
       "score": 4
-    },
-    {
-      "id": "d9262ce9266d",
-      "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
-      "url": "https://huggingface.co/papers/2608.17744",
-      "publishedAt": "2026-08-18T13:09:03.000Z",
-      "summary": "Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune …",
-      "score": 3
     },
     {
       "id": "32e6b90d4e6b",
@@ -78,6 +70,14 @@
       "score": 2
     },
     {
+      "id": "79e9e948ff31",
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "url": "https://huggingface.co/papers/2608.13547",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched ex…",
+      "score": 1
+    },
+    {
       "id": "145e008b0b4d",
       "title": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
       "url": "https://huggingface.co/papers/2608.19759",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-21T15:03:01.602Z",
+  "fetchedAt": "2026-08-21T15:47:54.960Z",
   "stale": false,
   "error": null
 }
