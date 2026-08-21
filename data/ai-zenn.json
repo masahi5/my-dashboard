@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "dc1166c7c391",
-      "title": "Figma のスクショを AI に渡すのをやめた話",
-      "url": "https://zenn.dev/awdr74100/articles/0bc1eeb52d3ce0",
-      "publishedAt": "2026-08-20T18:49:28.000Z",
-      "publisher": "Roya",
-      "summary": "Slack に Figma のリンクが飛んでくる。「この画面、実装お願いできますか。たぶんすぐです」。 フレームのスクリーンショットを撮って、エージェントに投げて、コーヒーを淹れに行く。戻ってくると、それらしいコードができている。パッと見…"
+      "id": "124eefc376b7",
+      "title": "AIエージェントに任せながら「Don't Think」を防ぐ設計",
+      "url": "https://zenn.dev/kai_ai/articles/7cf8729a0fa940",
+      "publishedAt": "2026-08-21T06:44:58.000Z",
+      "publisher": "Kai＠生成AI",
+      "summary": "AIエージェントが実装、実行、評価まで担うとき、人間はどこまで手放してよいのでしょうか。 この記事の結論は、実行方法はAIへ委任できるが、目的、合格条件、証拠、停止条件は人間側に残すというものです。 すべてを人間が手作業で行う設計には戻り…"
     },
     {
-      "id": "b81889ab1806",
-      "title": "本棚アプリをReact + Firebaseでリリースするまでの開発記録。セキュリティルールの不備とPA-API廃止対応",
-      "url": "https://zenn.dev/unsoluble_sugar/articles/yomichi-product-release",
-      "publishedAt": "2026-08-20T18:02:02.000Z",
-      "publisher": "星影",
-      "summary": "はじめに Claude Designで作った本棚アプリ「ヨミチ」のプロトタイプを、Claude Codeとの協働でWebサービスとして公開しました。 https://yomichi-app.web.app/u/unsoluble-suga…"
+      "id": "3f9966483da4",
+      "title": "収束は正しさではない — LLMが賢くなってもレビュー指摘が減らない理由",
+      "url": "https://zenn.dev/yutabeee/articles/convergence-is-not-correctness",
+      "publishedAt": "2026-08-21T06:11:35.000Z",
+      "publisher": "Darman",
+      "summary": "AIにコードレビューをさせると、指摘を直したそばから次の指摘が出る。直す、また出る、また直す。三周ほど回したあたりで、これはいつ終わるのかと思う。モデルを新しい世代に差し替えても体感は変わらない。ときどき、むしろ増える。 素直な期待は「モ…"
     },
     {
-      "id": "b82aa09c06cd",
-      "title": "# MAS AXIOMとCapsule技術で実現する「論点整合性」と「制約技術」",
-      "url": "https://zenn.dev/void09/articles/3db34b2f068ae1",
-      "publishedAt": "2026-08-20T15:40:24.000Z",
-      "publisher": "kishimoto-void",
-      "summary": "MAS AXIOMとCapsule技術で実現する「論点整合性」と「制約技術」 はじめに 一般的なマルチエージェントシステム（MAS）は、 複数のLLMに推論させる 異なる意見を出させる 相互にレビューさせる 最終的な回答を生成する という…"
+      "id": "5e1770aa7b04",
+      "title": "FAQと構造化データを入れたのにAIに引用されない。JSON-LDの先に見直す4点",
+      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/faq-schema-not-enough-for-ai-citation",
+      "publishedAt": "2026-08-21T06:07:58.000Z",
+      "publisher": "生成AI清塚",
+      "summary": "「言われたとおりFAQを足して、JSON-LDも入れた。それでもChatGPTやAI Overviewsにうちのサイトが出てこない」 LLMO（AI検索最適化）の定番施策を一通りやった後に、この壁に当たる相談が増えています。結論から言うと…"
     },
     {
-      "id": "617fa74ff3fb",
-      "title": "Cloudflare OSをAWSで作るなら、どんな構成になるのか",
-      "url": "https://zenn.dev/makichan/articles/56ba2ecb368d74",
-      "publishedAt": "2026-08-20T15:38:58.000Z",
-      "publisher": "まきちゃん",
-      "summary": "Cloudflare OSが話題になりました。 いろいろ調べていて、面白そうだなと思う一方、データを日本リージョンに固定できなかったり、軽量アプリに特化したクラウドでアプリやデータ全てをCloudflare上で構築するのは企業としてはやり…"
+      "id": "00981abc1aa2",
+      "title": "AI に決済コードを書かせる前に、3層のドキュメントと3つの「作らないリスト」を用意した",
+      "url": "https://zenn.dev/katsuo_dev/articles/202608-ai-agent-guardrail-layers",
+      "publishedAt": "2026-08-21T06:00:02.000Z",
+      "publisher": "かつお",
+      "summary": "この記事で紹介する3層のルールファイル（CLAUDE.md / .claude/rules/*.md / docs/architecture.md）と .claude/settings.json の permissions.deny は、…"
     },
     {
-      "id": "e15f949f405d",
-      "title": "なぜ【色】は感覚で決めて良いと思っているのか",
-      "url": "https://zenn.dev/g_kamoshirenai/articles/a16be17595dcef",
-      "publishedAt": "2026-08-20T15:23:56.000Z",
-      "publisher": "goto_kamoshirenai",
-      "summary": "最近は、自然言語で要望を伝えるだけで、AIが画面をかなりのところまで作ってくれます。 実装の速度は確実に上がりました。 結果、細かいデザインや配色をエンジニアが決めることも増えたように思います。 でも、できあがった画面を眺めていると、とき…"
+      "id": "9c768f87a3c6",
+      "title": "同じコードレビューを5つのLLMに投げてみた Part 2——一番安いモデルが一番危険だった",
+      "url": "https://zenn.dev/ivyxon/articles/five-llms-signals-engine-review",
+      "publishedAt": "2026-08-21T05:26:53.000Z",
+      "publisher": "IVYXON",
+      "summary": "以前にも一度、サイトの一括置換スクリプトを5つのLLMに独立してレビューさせたことがある。あのときはモデルごとに「渡し方」まで自然な形に変えて試した。今回は逆に、5体全員に一言一句同じプロンプトを渡して、渡し方の違いという変数を消し、モデ…"
     },
     {
-      "id": "7e9b404f6e16",
-      "title": "AIが「ありません」と答えたとき、それは本当に「無い」のか",
-      "url": "https://zenn.dev/toshikatsu_oga/articles/ee27b0a1b98bc5",
-      "publishedAt": "2026-08-20T15:22:19.000Z",
-      "publisher": "大賀俊勝 / HORIZON SHIELD",
-      "summary": "AIが「ありません」と答えたとき AIに何かを調べてもらって、「該当する記録はありません」と返ってきたとします。 このとき、本当に「無い」のでしょうか。それとも、AIが「調べられなかっただけ」なのでしょうか。 この2つは、まったく違う出来…"
+      "id": "d89251be0966",
+      "title": "予約ボタンがスマホで見つからない。美容サロンのホームページをAIで作り直す手順",
+      "url": "https://zenn.dev/kakusan2022/articles/4d1d8756426853",
+      "publishedAt": "2026-08-21T05:03:22.000Z",
+      "publisher": "Kakusan",
+      "summary": "美容サロンのホームページをスマホで開いたとき、予約ボタンより先に長い紹介文が続いていないでしょうか。営業時間が古い、料金表が画像の中にしかない、予約先がSNSのプロフィールにしか書かれていない、といった状態も起こりがちです。 この作業で先…"
     },
     {
-      "id": "a3f659228126",
-      "title": "AIに「正しく作る」を寄せる。でも「正しいものを作る」は人間が決める",
-      "url": "https://zenn.dev/tohru_ohnishi/articles/5c57896f3c1812",
-      "publishedAt": "2026-08-20T15:10:07.000Z",
-      "publisher": "楓馬企画 | 大西徹",
-      "summary": "先に結論 AIエージェントを開発工程に組み込んで、実装できる量は大きく増えました。自分一人では難しかったフルスタックの実装にも手が届き、分からない技術はCodexに質問しながら、設計と実装を往復できます。 一方で、最近強く感じていることが…"
+      "id": "aef169362acf",
+      "title": "作るAIと疑うAIを分けたら、本番前に欠陥が止まるようになった",
+      "url": "https://zenn.dev/relightks/articles/6a903b516e3199",
+      "publishedAt": "2026-08-21T04:58:45.000Z",
+      "publisher": "イチカワコウタ",
+      "summary": "「テストは全部通っています」を信じかけた 私は小さな会社をやりながら、開発のほぼ全部を AI(Claude Code)と二人三脚でやっています。 ある日、AI がこう報告してきました。 「実装完了です。テストは 214 件、すべて通ってい…"
     },
     {
-      "id": "048fcfc0ca60",
-      "title": "DeepSeek Harnessのプラグインエコシステムを探索する",
-      "url": "https://zenn.dev/suuuuuu135/articles/df9fd0de105ac1",
-      "publishedAt": "2026-08-20T15:04:47.000Z",
-      "publisher": "suuuuuu135",
-      "summary": "はじめに 最近、AIエージェントの開発や周辺エコシステムについて調査しています。 現在のAIエージェントは、単純なチャットボットから、ツール実行や外部サービス連携、自動化ワークフローを扱うシステムへ進化しています。 その中で、エージェント…"
+      "id": "ba2555eb6471",
+      "title": "Claude Codeの回答がイマイチだなぁ？って思った時に読む記事(非エンジニア向け)",
+      "url": "https://zenn.dev/manntera/articles/9e98c6850f63c7",
+      "publishedAt": "2026-08-21T04:50:25.000Z",
+      "publisher": "まんてらスタジオ",
+      "summary": "Claude Code を使い始めると、設定の中に 「effort」 という項目があることに気づきます。 low / medium / high / xhigh / max の5段階。名前からして、上げれば上げるほど賢くなりそうに見えます…"
     },
     {
-      "id": "72c3cc9d12ec",
-      "title": "なぜ、AIがどれほど発展しても人間が勉強しなくてもよくはならないのか？",
-      "url": "https://zenn.dev/pdfractal/articles/c2b8332f167351",
-      "publishedAt": "2026-08-20T14:54:43.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに 生成AIが急速に発展すると、「これからは人間が勉強する必要はなくなる」という議論が必ず出てきます。分からないことはAIに聞けばよく、文章もプログラムもAIが作り、専門的な判断についてもAIが助言してくれるのであれば、人間がわざわ…"
+      "id": "9591d42920ee",
+      "title": "Claude Opus 5 の effort は「賢さのツマミ」ではなくなった(エンジニア向け)",
+      "url": "https://zenn.dev/manntera/articles/66a7f64cf0534c",
+      "publishedAt": "2026-08-21T04:31:17.000Z",
+      "publisher": "まんてらスタジオ",
+      "summary": "effort を下げたら品質が上がった Claude Code を Opus 5 で使っていて、順序のおかしいことに気づいた。 effort を xhigh から medium に下げたら、出力の品質が上がった。 逆である。xhigh の…"
     },
     {
-      "id": "f262352324c2",
-      "title": "grill-me / grilling をローカルLLM向けに改変してみた",
-      "url": "https://zenn.dev/nanakusataro/articles/9417aa2b568c20",
-      "publishedAt": "2026-08-20T14:08:21.000Z",
-      "publisher": "Nanakusa Lab.",
-      "summary": "Claude Codeの壁打ち用スキルとしてはsuperpowersのbrainstormingが有名ですが、最近よく耳にするのが「grill-me」。 要件定義や新しいスキルを作成するのに超絶便利だっていう話も聞くけど、同時に、一度発動…"
+      "id": "b9565958f9f3",
+      "title": "AIに8割書かせて、1年が過ぎた",
+      "url": "https://zenn.dev/rapls/books/890bb51db3b85f",
+      "publishedAt": "2026-08-21T04:20:16.000Z",
+      "publisher": "Rapls",
+      "summary": "AIにコードの8割を書かせる運用を1年続けた記録です。 半年後に答え合わせをして、そのさらに半年後にもう一度見直しました。 効いたのは3つだけで、良かれと思って足したものはほとんど腐っていました。 各章は、その3つを実際にどうやるか、腐っ…"
     },
     {
-      "id": "6986dee8cda2",
-      "title": "Claudeと「AI解体学」してみた 〜セキュリティ製品編〜",
-      "url": "https://zenn.dev/think_node/articles/3658e943c32baa",
-      "publishedAt": "2026-08-20T13:20:39.000Z",
-      "publisher": "THINK NODE",
-      "summary": "AI解体学とは AIを使うことを目的とせず、AIの回答や振る舞いを観察して、その裏側にある設計思想を推し量る遊び。 造語です。学問ではないです。 対戦カード 仕事で使っているセキュリティ製品のAIアシスタントを触っているうちに、「これ、ど…"
+      "id": "be1ef4f36297",
+      "title": "Stop Using Claude Code the Same Way for Every Problem.",
+      "url": "https://zenn.dev/neotechpark/articles/4afadd0b46694a",
+      "publishedAt": "2026-08-21T03:45:54.000Z",
+      "publisher": "NeoTechPark",
+      "summary": "A research-backed map of Claude Code's extension system: model and effort, context, CLAUDE.md, skills, MCP, subagents, …"
     },
     {
-      "id": "c0e9a4b1a203",
-      "title": "AIコーディングエージェントと進めるUnityゲーム開発：Phase1で仕様書駆動の土台を作った",
-      "url": "https://zenn.dev/kas_blog/articles/20260819-unity-ai-coding-agent-spec-driven-phase1",
-      "publishedAt": "2026-08-20T13:09:36.000Z",
-      "publisher": "kas's blog",
-      "summary": "はじめに この記事は、ゲーム開発未経験の私が、AIコーディングエージェントと一緒にUnityゲームを作っていく技術ブログの第3弾です。 第1弾ではWindows版Unity Editor、WSL、Codexを組み合わせた開発環境を作り、第…"
+      "id": "aa86639ac5a0",
+      "title": "発信力の増幅機としてのLLM",
+      "url": "https://zenn.dev/watany/articles/8809b00df25dab",
+      "publishedAt": "2026-08-21T03:40:35.000Z",
+      "publisher": "watany",
+      "summary": "背景 例えば芸能人がLLMでシステムを作ると話題になる。 https://www.sankei.com/article/20260805-RIOHNGARVJOORGFMICZ24IL73A/ エグゼクティブがLLMで執筆すると驚かれる。…"
     }
   ],
-  "fetchedAt": "2026-08-21T06:39:05.851Z",
+  "fetchedAt": "2026-08-21T07:29:08.353Z",
   "stale": false,
   "error": null
 }
