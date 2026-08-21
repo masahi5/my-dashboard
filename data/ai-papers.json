@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.19799",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable…",
-      "score": 51
+      "score": 56
     },
     {
       "id": "d9262ce9266d",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.17744",
       "publishedAt": "2026-08-18T13:09:03.000Z",
       "summary": "Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune …",
-      "score": 7
+      "score": 12
     },
     {
       "id": "cee1fbd123e9",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.19936",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature o…",
-      "score": 4
+      "score": 8
     },
     {
       "id": "7cb463ca6821",
@@ -35,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.15767",
       "publishedAt": "2026-08-16T00:00:00.000Z",
       "summary": "We introduce TinyCast, an attention-free zero-shot forecaster that emits a predictive distribution from 146,505 paramet…",
-      "score": 2
+      "score": 7
     },
     {
       "id": "42d90bf28f52",
@@ -43,15 +43,7 @@
       "url": "https://huggingface.co/papers/2608.16885",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherentl…",
-      "score": 2
-    },
-    {
-      "id": "79e9e948ff31",
-      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
-      "url": "https://huggingface.co/papers/2608.13547",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched ex…",
-      "score": 2
+      "score": 7
     },
     {
       "id": "32e6b90d4e6b",
@@ -59,7 +51,7 @@
       "url": "https://huggingface.co/papers/2608.08466",
       "publishedAt": "2026-08-09T00:00:00.000Z",
       "summary": "Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold …",
-      "score": 2
+      "score": 7
     },
     {
       "id": "b5eeb97c7a7c",
@@ -67,7 +59,7 @@
       "url": "https://huggingface.co/papers/2608.13210",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Long-form video understanding encompasses tasks that go beyond retrieving isolated events, including tracking an evolvi…",
-      "score": 2
+      "score": 7
     },
     {
       "id": "6575ca9ecc28",
@@ -75,7 +67,15 @@
       "url": "https://huggingface.co/papers/2608.12875",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-awa…",
-      "score": 1
+      "score": 6
+    },
+    {
+      "id": "79e9e948ff31",
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "url": "https://huggingface.co/papers/2608.13547",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched ex…",
+      "score": 6
     },
     {
       "id": "145e008b0b4d",
@@ -83,7 +83,7 @@
       "url": "https://huggingface.co/papers/2608.19759",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Multifingered grasping is a crucial robotic skill, but current deep-learning grasp planners often struggle to generaliz…",
-      "score": 1
+      "score": 6
     },
     {
       "id": "9f19fab4fdd5",
@@ -91,7 +91,7 @@
       "url": "https://huggingface.co/papers/2608.19776",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be graspe…",
-      "score": 1
+      "score": 6
     },
     {
       "id": "4a137e41b808",
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2608.19863",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Self-supervised learning (SSL) has driven substantial progress in audio representation learning, though existing method…",
-      "score": 1
+      "score": 5
     }
   ],
-  "fetchedAt": "2026-08-21T22:20:12.410Z",
+  "fetchedAt": "2026-08-21T22:49:43.793Z",
   "stale": false,
   "error": null
 }
