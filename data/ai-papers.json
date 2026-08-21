@@ -6,43 +6,59 @@
   "category": "ai",
   "items": [
     {
-      "id": "9620524cebc1",
-      "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
-      "url": "https://huggingface.co/papers/2608.17253",
+      "id": "edd9645f939b",
+      "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
+      "url": "https://huggingface.co/papers/2608.19880",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent'…",
+      "score": 22
+    },
+    {
+      "id": "1ef9b55d623f",
+      "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+      "url": "https://huggingface.co/papers/2608.20336",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. B…",
+      "score": 9
+    },
+    {
+      "id": "92e4ff1dde02",
+      "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+      "url": "https://huggingface.co/papers/2608.18580",
       "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language …",
-      "score": 85
+      "summary": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains…",
+      "score": 8
     },
     {
-      "id": "01c9bcac85ef",
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "url": "https://huggingface.co/papers/2608.13558",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, f…",
-      "score": 83
+      "id": "ed2ed6f4d265",
+      "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+      "url": "https://huggingface.co/papers/2608.20335",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating recons…",
+      "score": 6
     },
     {
-      "id": "490beb8eddf6",
-      "title": "The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning",
-      "url": "https://huggingface.co/papers/2608.14229",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Popular facts are memorised more deeply during pretraining and resist removal longer than rare ones, yet existing LLM u…",
-      "score": 13
+      "id": "68133e59fe5e",
+      "title": "ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models",
+      "url": "https://huggingface.co/papers/2608.14022",
+      "publishedAt": "2026-08-14T07:13:34.000Z",
+      "summary": "Action-conditioned video world models require low-latency causal generation and reliable responses to game-native contr…",
+      "score": 5
     },
     {
-      "id": "8857190b7463",
-      "title": "Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion",
-      "url": "https://huggingface.co/papers/2608.13947",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "High-quality creative writing data for large language models (LLMs) remains dominated by story-centric data, limiting m…",
-      "score": 13
+      "id": "bacc6b441735",
+      "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
+      "url": "https://huggingface.co/papers/2608.18607",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Using reinforcement learning to post-train joint video-audio generation models requires a reward signal. Existing metho…",
+      "score": 5
     },
     {
-      "id": "358d62fa79ad",
-      "title": "LLMs Get Smarter from Targeted Synthetic Multilingual Data",
-      "url": "https://huggingface.co/papers/2608.15964",
-      "publishedAt": "2026-08-16T00:00:00.000Z",
-      "summary": "Language-specific competency (LSC) is the phenomenon of a language model performing better or worse depending on the la…",
+      "id": "ae8d1cc85972",
+      "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+      "url": "https://huggingface.co/papers/2608.20202",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Memory has become a key component of large language models, enabling them to retain information and learn from long-ter…",
       "score": 3
     },
     {
@@ -62,35 +78,19 @@
       "score": 2
     },
     {
-      "id": "118deded1df3",
-      "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
-      "url": "https://huggingface.co/papers/2608.15888",
-      "publishedAt": "2026-08-16T00:00:00.000Z",
-      "summary": "LLM-based agents can act on behalf of a user to access cloud services, call tools, or invoke agents. At session start, …",
-      "score": 2
+      "id": "791e6c078f99",
+      "title": "EXIMO: VLM Guided Exploration of VLA Policies",
+      "url": "https://huggingface.co/papers/2608.19891",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "How to efficiently finetune robot policies to learn new tasks on the fly? State of the art robotic manipulation policie…",
+      "score": 1
     },
     {
-      "id": "8427b7628e28",
-      "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
-      "url": "https://huggingface.co/papers/2608.18852",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Agent frameworks increasingly package procedural knowledge as skills: instruction files an agent reads on demand, while…",
-      "score": 2
-    },
-    {
-      "id": "5786773d0f7f",
-      "title": "Temporal Multi-Signal Fusion for Token-Level Hallucination Detection",
-      "url": "https://huggingface.co/papers/2608.18115",
-      "publishedAt": "2026-06-30T00:00:00.000Z",
-      "summary": "Token-level hallucination detectors score each token independently from a single signal, and fail exactly when the gene…",
-      "score": 2
-    },
-    {
-      "id": "bacc6b441735",
-      "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
-      "url": "https://huggingface.co/papers/2608.18607",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Using reinforcement learning to post-train joint video-audio generation models requires a reward signal. Existing metho…",
+      "id": "c938acdbba2e",
+      "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+      "url": "https://huggingface.co/papers/2608.19861",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Customer-service LLM agents must follow organizational policy when acting on a user's behalf. Compliance failures arise…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-21T01:04:32.349Z",
+  "fetchedAt": "2026-08-21T02:36:33.371Z",
   "stale": false,
   "error": null
 }
