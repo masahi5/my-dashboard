@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.19880",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent'…",
-      "score": 97
+      "score": 110
     },
     {
       "id": "92e4ff1dde02",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.20335",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating recons…",
-      "score": 29
+      "score": 32
     },
     {
       "id": "1ef9b55d623f",
@@ -35,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.20336",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. B…",
-      "score": 16
+      "score": 20
     },
     {
       "id": "ae8d1cc85972",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.20202",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Memory has become a key component of large language models, enabling them to retain information and learn from long-ter…",
-      "score": 14
+      "score": 17
     },
     {
       "id": "68133e59fe5e",
@@ -51,7 +51,7 @@
       "url": "https://huggingface.co/papers/2608.14022",
       "publishedAt": "2026-08-14T07:13:34.000Z",
       "summary": "Action-conditioned video world models require low-latency causal generation and reliable responses to game-native contr…",
-      "score": 9
+      "score": 10
     },
     {
       "id": "0ab118735cf4",
@@ -70,6 +70,14 @@
       "score": 5
     },
     {
+      "id": "9a4263ccacc1",
+      "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
+      "url": "https://huggingface.co/papers/2608.19758",
+      "publishedAt": "2026-08-20T08:02:55.000Z",
+      "summary": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention rema…",
+      "score": 3
+    },
+    {
       "id": "5fc084bfe44b",
       "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
       "url": "https://huggingface.co/papers/2608.20281",
@@ -78,11 +86,11 @@
       "score": 3
     },
     {
-      "id": "9a4263ccacc1",
-      "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
-      "url": "https://huggingface.co/papers/2608.19758",
-      "publishedAt": "2026-08-20T08:02:55.000Z",
-      "summary": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention rema…",
+      "id": "3bfa9b3f9d91",
+      "title": "Chain-of-Experience for Continual LLM Improvement",
+      "url": "https://huggingface.co/papers/2608.18027",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the model…",
       "score": 2
     },
     {
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "How to efficiently finetune robot policies to learn new tasks on the fly? State of the art robotic manipulation policie…",
       "score": 2
-    },
-    {
-      "id": "3bfa9b3f9d91",
-      "title": "Chain-of-Experience for Continual LLM Improvement",
-      "url": "https://huggingface.co/papers/2608.18027",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the model…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-21T05:03:34.572Z",
+  "fetchedAt": "2026-08-21T05:47:42.996Z",
   "stale": false,
   "error": null
 }
