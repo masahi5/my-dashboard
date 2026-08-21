@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "8a031823b7f9",
-      "title": "P100向けにllama.cppをビルド",
-      "url": "https://zenn.dev/ibuky/articles/b89bbba9372f4d",
-      "publishedAt": "2026-08-20T21:13:14.000Z",
-      "publisher": "ibuky",
-      "summary": "とりあえずメモ # 必要なツールをインストール # 特にopensslはhuggingfaceから直pullする場合に必須 sudo apt-get install pciutils build-essential cmake curl …"
+      "id": "8df181fedd72",
+      "title": "「どれがいいですか？」と聞きたくなっちゃう理由",
+      "url": "https://zenn.dev/acntechjp/articles/05ec9a31ffc913",
+      "publishedAt": "2026-08-21T01:09:43.000Z",
+      "publisher": "yoshitsugu sakamoto",
+      "summary": "! 複数案を出して「どれがいいですか？」と委ねてしまう構造を、悪者にせず丁寧に解きほぐしてみた考察です。若手の方にも、マネージャーの方にも読んでもらえると嬉しいです。 「どれがいいですか？」に、もう価値がないかも 「3案考えてきました、ど…"
     },
     {
-      "id": "d959273e28f2",
-      "title": "P100 x2で Qwen3.8:27b を Ollamaで動かすとどうなるか",
-      "url": "https://zenn.dev/ibuky/articles/e00b7e5b22531b",
-      "publishedAt": "2026-08-20T20:47:57.000Z",
-      "publisher": "ibuky",
-      "summary": "インストール ❯ curl -fsSL https://ollama.com/install.sh | sh ❯ ollama -v ollama version is 0.32.15 モデルの取得 https://ollama.com/…"
+      "id": "12bbacb9301e",
+      "title": "【Opus 4.8が議論する】AIでコーディングは本当に速くなったのか──\"コードを書く時間は14%\"問題",
+      "url": "https://zenn.dev/ruru_engineer/articles/opus-debate-03-genai-coding-14percent",
+      "publishedAt": "2026-08-21T01:07:10.000Z",
+      "publisher": "RURU",
+      "summary": "2026年8月、ACM QueueにMicrosoftとUniversity of Victoriaの研究者たちが共同執筆した論文 \"Eight Myths on Software Engineering and GenAI\" が掲載され…"
     },
     {
-      "id": "b97e0414f7b7",
-      "title": "P100サーバー nvidia-smi",
-      "url": "https://zenn.dev/ibuky/articles/2ee9ed7b2ddb4b",
-      "publishedAt": "2026-08-20T20:16:57.000Z",
-      "publisher": "ibuky",
-      "summary": "現在の実行結果 ❯ nvidia-smi +-----------------------------------------------------------------------------------------+ | NVID…"
+      "id": "9b0b430f432d",
+      "title": "自動プログラミングと仕様駆動開発 失敗の歴史",
+      "url": "https://zenn.dev/netetahito/articles/79e03d10277b7b",
+      "publishedAt": "2026-08-21T00:42:04.000Z",
+      "publisher": "おなさい",
+      "summary": "こんにちは、Claude Fableです AIです。最近、「自動プログラミング」や「仕様駆動開発（Spec-Driven Development、SDD）」といったワードが話題に上がりますね。GitHub の Spec Kit[1]、AW…"
     },
     {
-      "id": "9cd718c76c9b",
-      "title": "P100 x2 LLMサーバー",
-      "url": "https://zenn.dev/ibuky/articles/2ce9282ea37122",
-      "publishedAt": "2026-08-20T19:31:17.000Z",
-      "publisher": "ibuky",
-      "summary": "Logical Hardwares Item Product Remark MotherBoard ASUS X99-A REV 1.0.2 CPU Intel Core i7-5960X GPU 1 NVIDIA GeForce GTX…"
+      "id": "1b420fbc3c12",
+      "title": "「RAMクリーナー」を作らなかった話 — macOSメニューバーアプリ Room を AI エージェント開発で1日で作った",
+      "url": "https://zenn.dev/yukitakeshita/articles/f1aa9ba571684a",
+      "publishedAt": "2026-08-21T00:06:58.000Z",
+      "publisher": "yutake",
+      "summary": "メモリ「解放」アプリを、あえて作らなかった macOS 用の「メモリクリーナー」は昔からたくさんありますが、その多くはほとんど意味がありません。macOS はもともと空いている RAM を積極的にファイルキャッシュとして使い回す設計なので…"
     },
     {
-      "id": "bbfc0485399c",
-      "title": "Claude Codeのsubagentを並列でgit操作させたら、コミットが混ざった話",
-      "url": "https://zenn.dev/playpark/articles/claude-code-subagent-parallel-git-isolation",
-      "publishedAt": "2026-08-20T18:55:31.000Z",
-      "publisher": "playpark",
-      "summary": "「並列にすれば速い」と思ってgit操作込みで投げたら、コミットが混ざった 3本のTaskを並列で走らせて、それぞれに実装を任せたことがある。「3倍速いはず」と思っていたが、できあがったコミットはどれも中途半端に混ざっていた。片方のsuba…"
+      "id": "3d2a8f3b43b9",
+      "title": "エージェントは隠れ層で『ツールを呼ぶべきか』を既に知っている",
+      "url": "https://zenn.dev/okssusucha/articles/20260710-llm-agent-tool-use-linear-probe",
+      "publishedAt": "2026-08-21T00:05:31.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "ツールを持たせたエージェントを運用していると、地味に効いてくる二種類の失敗がある。「2+2は?」にまで検索APIを叩いてレイテンシと課金を無駄にする過剰呼び出しと、逆に外部知識が要る質問に手元の知識だけで答えてしまう過小呼び出しだ。どちら…"
     },
     {
-      "id": "dc1166c7c391",
-      "title": "Figma のスクショを AI に渡すのをやめた話",
-      "url": "https://zenn.dev/awdr74100/articles/0bc1eeb52d3ce0",
-      "publishedAt": "2026-08-20T18:49:28.000Z",
-      "publisher": "Roya",
-      "summary": "Slack に Figma のリンクが飛んでくる。「この画面、実装お願いできますか。たぶんすぐです」。 フレームのスクリーンショットを撮って、エージェントに投げて、コーヒーを淹れに行く。戻ってくると、それらしいコードができている。パッと見…"
+      "id": "dc541af8660f",
+      "title": "消したコードの理由を、AIに読ませる",
+      "url": "https://zenn.dev/miyakona/articles/1d86788a055e8e",
+      "publishedAt": "2026-08-21T00:00:07.000Z",
+      "publisher": "miyakona",
+      "summary": "AIエージェントが、もっともらしい改善案を提案しました。 実装も難しくありません。コードはきれいになり、テストも書けそうです。 しかし、その案は以前にも試していました。実際の環境では別の問題を引き起こしたため、検証したうえで撤去したもので…"
     },
     {
-      "id": "b81889ab1806",
-      "title": "本棚アプリをReact + Firebaseでリリースするまでの開発記録。セキュリティルールの不備とPA-API廃止対応",
-      "url": "https://zenn.dev/unsoluble_sugar/articles/yomichi-product-release",
-      "publishedAt": "2026-08-20T18:02:02.000Z",
-      "publisher": "星影",
-      "summary": "はじめに Claude Designで作った本棚アプリ「ヨミチ」のプロトタイプを、Claude Codeとの協働でWebサービスとして公開しました。 https://yomichi-app.web.app/u/unsoluble-suga…"
+      "id": "fa11d378d08a",
+      "title": "弁護士の知人にAI活用をレクチャーする前に整理したこと（令和8年8月版）",
+      "url": "https://zenn.dev/singularity/articles/84b10628757d06",
+      "publishedAt": "2026-08-20T23:55:05.000Z",
+      "publisher": "kozayupapa",
+      "summary": "知人の弁護士から「事務所でAIを使ってみたいので教えてほしい」と相談を受けました。 自分は普段、プログラム開発で Claude Code と Claude Cowork を毎日使っています。ただ、弁護士業務は守秘義務があり、士業特有の規制…"
     },
     {
-      "id": "b82aa09c06cd",
-      "title": "# MAS AXIOMとCapsule技術で実現する「論点整合性」と「制約技術」",
-      "url": "https://zenn.dev/void09/articles/3db34b2f068ae1",
-      "publishedAt": "2026-08-20T15:40:24.000Z",
-      "publisher": "kishimoto-void",
-      "summary": "MAS AXIOMとCapsule技術で実現する「論点整合性」と「制約技術」 はじめに 一般的なマルチエージェントシステム（MAS）は、 複数のLLMに推論させる 異なる意見を出させる 相互にレビューさせる 最終的な回答を生成する という…"
+      "id": "79a89c890c33",
+      "title": "Obsidian × AIプラグイン — ChatGPTとClaudeをノート内で使う方法",
+      "url": "https://zenn.dev/yukihayama/articles/obsidian-ai-plugins",
+      "publishedAt": "2026-08-20T23:40:36.000Z",
+      "publisher": "葉山悠希",
+      "summary": "Obsidian × AIプラグイン — ChatGPTとClaudeをノート内で使う方法 Obsidianを使い始めた方からよく聞く質問があります。 「ObsidianでChatGPTやClaudeを使えるのですか？」 答えは「はい、使…"
     },
     {
-      "id": "617fa74ff3fb",
-      "title": "Cloudflare OSをAWSで作るなら、どんな構成になるのか",
-      "url": "https://zenn.dev/makichan/articles/56ba2ecb368d74",
-      "publishedAt": "2026-08-20T15:38:58.000Z",
-      "publisher": "まきちゃん",
-      "summary": "Cloudflare OSが話題になりました。 いろいろ調べていて、面白そうだなと思う一方、データを日本リージョンに固定できなかったり、軽量アプリに特化したクラウドでアプリやデータ全てをCloudflare上で構築するのは企業としてはやり…"
+      "id": "425dbf16066f",
+      "title": "ゼロから始めるClaude Code #13 Obsidian連携は本当にトークンの節約になるのか？",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-13-obsidian",
+      "publishedAt": "2026-08-20T23:36:07.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はフック（hooks）で「必ず動く」自動化を仕込みました。 https://zenn.dev/mika_and_coco/articles/claude-code-d…"
     },
     {
-      "id": "e15f949f405d",
-      "title": "なぜ【色】は感覚で決めて良いと思っているのか",
-      "url": "https://zenn.dev/g_kamoshirenai/articles/a16be17595dcef",
-      "publishedAt": "2026-08-20T15:23:56.000Z",
-      "publisher": "goto_kamoshirenai",
-      "summary": "最近は、自然言語で要望を伝えるだけで、AIが画面をかなりのところまで作ってくれます。 実装の速度は確実に上がりました。 結果、細かいデザインや配色をエンジニアが決めることも増えたように思います。 でも、できあがった画面を眺めていると、とき…"
+      "id": "edae4b239796",
+      "title": "45. Claudeの出力に電子透かしが入った — 仕組みと、職種ごとの実際の影響",
+      "url": "https://zenn.dev/yamada_ai_dev/articles/claude-text-watermark-impact",
+      "publishedAt": "2026-08-20T23:30:10.000Z",
+      "publisher": "yamada-ai-dev",
+      "summary": "! この記事は生成AIで作成した草稿を、筆者が内容を確認し、添削・修正のうえ公開しています。 TL;DR 2026年8月、Anthropic が Claude の生成テキストに人間には読めない電子透かしを入れると公表した。噂ではなく公式発…"
     },
     {
-      "id": "7e9b404f6e16",
-      "title": "AIが「ありません」と答えたとき、それは本当に「無い」のか",
-      "url": "https://zenn.dev/toshikatsu_oga/articles/ee27b0a1b98bc5",
-      "publishedAt": "2026-08-20T15:22:19.000Z",
-      "publisher": "大賀俊勝 / HORIZON SHIELD",
-      "summary": "AIが「ありません」と答えたとき AIに何かを調べてもらって、「該当する記録はありません」と返ってきたとします。 このとき、本当に「無い」のでしょうか。それとも、AIが「調べられなかっただけ」なのでしょうか。 この2つは、まったく違う出来…"
+      "id": "4e1ebfd9ecd5",
+      "title": "azure-ai-projects 2.5.0でhttpxが消えた — 旧版ピンでも壊れる",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/azure-ai-projects-openai3-httpx2",
+      "publishedAt": "2026-08-20T23:08:44.000Z",
+      "publisher": "Kazu_AzureAI開拓",
+      "summary": "Azure AI Foundry の Python SDK である azure-ai-projects の 2.5.0 が、日本時間の 2026-08-21 早朝に出た。changelog の先頭は機能追加ではなく依存関係の話で、これが今…"
     },
     {
-      "id": "a3f659228126",
-      "title": "AIに「正しく作る」を寄せる。でも「正しいものを作る」は人間が決める",
-      "url": "https://zenn.dev/tohru_ohnishi/articles/5c57896f3c1812",
-      "publishedAt": "2026-08-20T15:10:07.000Z",
-      "publisher": "楓馬企画 | 大西徹",
-      "summary": "先に結論 AIエージェントを開発工程に組み込んで、実装できる量は大きく増えました。自分一人では難しかったフルスタックの実装にも手が届き、分からない技術はCodexに質問しながら、設計と実装を往復できます。 一方で、最近強く感じていることが…"
+      "id": "ee5212bd0567",
+      "title": "AIエージェントの安全性を測ったら、8回自分に騙された",
+      "url": "https://zenn.dev/akagifreeez/articles/ai-agent-eval-pitfalls",
+      "publishedAt": "2026-08-20T23:04:20.000Z",
+      "publisher": "akagifreeez",
+      "summary": "! 本記事は防御目的の評価手法についての記事です。攻撃プロンプトの実物・変換辞書・生成スクリプトは掲載しません。 測定対象は筆者自身が運用しているエージェント環境で、第三者のシステムには一切触れていません。 この記事の主張 AIエージェン…"
     }
   ],
-  "fetchedAt": "2026-08-21T03:35:15.630Z",
+  "fetchedAt": "2026-08-21T04:22:47.157Z",
   "stale": false,
   "error": null
 }

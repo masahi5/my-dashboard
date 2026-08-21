@@ -11,15 +11,7 @@
       "url": "https://huggingface.co/papers/2608.19880",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent'…",
-      "score": 53
-    },
-    {
-      "id": "ed2ed6f4d265",
-      "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
-      "url": "https://huggingface.co/papers/2608.20335",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating recons…",
-      "score": 22
+      "score": 74
     },
     {
       "id": "92e4ff1dde02",
@@ -27,7 +19,15 @@
       "url": "https://huggingface.co/papers/2608.18580",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains…",
-      "score": 20
+      "score": 28
+    },
+    {
+      "id": "ed2ed6f4d265",
+      "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+      "url": "https://huggingface.co/papers/2608.20335",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating recons…",
+      "score": 26
     },
     {
       "id": "1ef9b55d623f",
@@ -35,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.20336",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. B…",
-      "score": 13
+      "score": 14
     },
     {
       "id": "ae8d1cc85972",
@@ -43,15 +43,7 @@
       "url": "https://huggingface.co/papers/2608.20202",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Memory has become a key component of large language models, enabling them to retain information and learn from long-ter…",
-      "score": 10
-    },
-    {
-      "id": "bacc6b441735",
-      "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
-      "url": "https://huggingface.co/papers/2608.18607",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Using reinforcement learning to post-train joint video-audio generation models requires a reward signal. Existing metho…",
-      "score": 8
+      "score": 12
     },
     {
       "id": "68133e59fe5e",
@@ -59,7 +51,7 @@
       "url": "https://huggingface.co/papers/2608.14022",
       "publishedAt": "2026-08-14T07:13:34.000Z",
       "summary": "Action-conditioned video world models require low-latency causal generation and reliable responses to game-native contr…",
-      "score": 7
+      "score": 9
     },
     {
       "id": "7a71bf131f98",
@@ -67,7 +59,31 @@
       "url": "https://huggingface.co/papers/2608.19854",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Large language model agents have made substantial progress in code generation, yet most existing systems assume a prede…",
+      "score": 4
+    },
+    {
+      "id": "0ab118735cf4",
+      "title": "SkillEvo: Self-Renewing Evolution Gradients from Multi-Turn Interaction Feedback",
+      "url": "https://huggingface.co/papers/2608.13120",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Agent Skills are today either hand-authored or produced in a single LLM generation pass, and consequently possess no cl…",
       "score": 3
+    },
+    {
+      "id": "5fc084bfe44b",
+      "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
+      "url": "https://huggingface.co/papers/2608.20281",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Large language models often fail to answer questions about a bounded document collection when the source documents are …",
+      "score": 2
+    },
+    {
+      "id": "791e6c078f99",
+      "title": "EXIMO: VLM Guided Exploration of VLA Policies",
+      "url": "https://huggingface.co/papers/2608.19891",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "How to efficiently finetune robot policies to learn new tasks on the fly? State of the art robotic manipulation policie…",
+      "score": 2
     },
     {
       "id": "c938acdbba2e",
@@ -78,31 +94,15 @@
       "score": 2
     },
     {
-      "id": "dd480ad9c9cd",
-      "title": "Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems",
-      "url": "https://huggingface.co/papers/2512.14629",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Music editing plays a vital role in modern music production, with applications in film, broadcasting, and game developm…",
-      "score": 2
-    },
-    {
-      "id": "5fc084bfe44b",
-      "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
-      "url": "https://huggingface.co/papers/2608.20281",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Large language models often fail to answer questions about a bounded document collection when the source documents are …",
-      "score": 1
-    },
-    {
-      "id": "791e6c078f99",
-      "title": "EXIMO: VLM Guided Exploration of VLA Policies",
-      "url": "https://huggingface.co/papers/2608.19891",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "How to efficiently finetune robot policies to learn new tasks on the fly? State of the art robotic manipulation policie…",
+      "id": "9a4263ccacc1",
+      "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
+      "url": "https://huggingface.co/papers/2608.19758",
+      "publishedAt": "2026-08-20T08:02:55.000Z",
+      "summary": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention rema…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-21T03:35:15.572Z",
+  "fetchedAt": "2026-08-21T04:22:47.000Z",
   "stale": false,
   "error": null
 }
