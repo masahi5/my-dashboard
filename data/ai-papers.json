@@ -14,14 +14,6 @@
       "score": 51
     },
     {
-      "id": "9a4263ccacc1",
-      "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
-      "url": "https://huggingface.co/papers/2608.19758",
-      "publishedAt": "2026-08-20T08:02:55.000Z",
-      "summary": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention rema…",
-      "score": 9
-    },
-    {
       "id": "d9262ce9266d",
       "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
       "url": "https://huggingface.co/papers/2608.17744",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Self-supervised learning (SSL) has driven substantial progress in audio representation learning, though existing method…",
       "score": 1
+    },
+    {
+      "id": "6575ca9ecc28",
+      "title": "The Embedder's Dilemma: LLMs Are Better, but at What Cost?",
+      "url": "https://huggingface.co/papers/2608.12875",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-awa…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-21T17:43:57.084Z",
+  "fetchedAt": "2026-08-21T18:05:01.860Z",
   "stale": false,
   "error": null
 }
