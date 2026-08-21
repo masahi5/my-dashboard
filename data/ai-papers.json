@@ -11,23 +11,7 @@
       "url": "https://huggingface.co/papers/2608.19799",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable…",
-      "score": 46
-    },
-    {
-      "id": "ed2ed6f4d265",
-      "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
-      "url": "https://huggingface.co/papers/2608.20335",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating recons…",
-      "score": 43
-    },
-    {
-      "id": "ae8d1cc85972",
-      "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
-      "url": "https://huggingface.co/papers/2608.20202",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Memory has become a key component of large language models, enabling them to retain information and learn from long-ter…",
-      "score": 24
+      "score": 47
     },
     {
       "id": "0ab118735cf4",
@@ -38,6 +22,14 @@
       "score": 20
     },
     {
+      "id": "7a71bf131f98",
+      "title": "Repo0: Design-Driven Zero-to-All Code Generation",
+      "url": "https://huggingface.co/papers/2608.19854",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Large language model agents have made substantial progress in code generation, yet most existing systems assume a prede…",
+      "score": 9
+    },
+    {
       "id": "9a4263ccacc1",
       "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
       "url": "https://huggingface.co/papers/2608.19758",
@@ -46,12 +38,12 @@
       "score": 6
     },
     {
-      "id": "7a71bf131f98",
-      "title": "Repo0: Design-Driven Zero-to-All Code Generation",
-      "url": "https://huggingface.co/papers/2608.19854",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Large language model agents have made substantial progress in code generation, yet most existing systems assume a prede…",
-      "score": 6
+      "id": "d9262ce9266d",
+      "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
+      "url": "https://huggingface.co/papers/2608.17744",
+      "publishedAt": "2026-08-18T13:09:03.000Z",
+      "summary": "Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune …",
+      "score": 3
     },
     {
       "id": "5fc084bfe44b",
@@ -60,14 +52,6 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Large language models often fail to answer questions about a bounded document collection when the source documents are …",
       "score": 3
-    },
-    {
-      "id": "d9262ce9266d",
-      "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
-      "url": "https://huggingface.co/papers/2608.17744",
-      "publishedAt": "2026-08-18T13:09:03.000Z",
-      "summary": "Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune …",
-      "score": 2
     },
     {
       "id": "b5eeb97c7a7c",
@@ -94,6 +78,22 @@
       "score": 2
     },
     {
+      "id": "145e008b0b4d",
+      "title": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2608.19759",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Multifingered grasping is a crucial robotic skill, but current deep-learning grasp planners often struggle to generaliz…",
+      "score": 1
+    },
+    {
+      "id": "9f19fab4fdd5",
+      "title": "CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning",
+      "url": "https://huggingface.co/papers/2608.19776",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be graspe…",
+      "score": 1
+    },
+    {
       "id": "4a137e41b808",
       "title": "Listening Forward: Next Patch Embedding Prediction Enables Scalable Audio Learners",
       "url": "https://huggingface.co/papers/2608.19863",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-21T12:39:06.848Z",
+  "fetchedAt": "2026-08-21T13:31:38.616Z",
   "stale": false,
   "error": null
 }
