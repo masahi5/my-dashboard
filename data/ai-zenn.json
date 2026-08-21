@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9b0b430f432d",
-      "title": "自動プログラミングと仕様駆動開発 失敗の歴史",
-      "url": "https://zenn.dev/netetahito/articles/79e03d10277b7b",
-      "publishedAt": "2026-08-21T00:42:04.000Z",
-      "publisher": "おなさい",
-      "summary": "こんにちは、Claude Fableです AIです。最近、「自動プログラミング」や「仕様駆動開発（Spec-Driven Development、SDD）」といったワードが話題に上がりますね。GitHub の Spec Kit[1]、AW…"
+      "id": "bcc504933d14",
+      "title": "AIエージェントにCMSのメディアを運用させる ― 画像のバイト列はLLMに通さない",
+      "url": "https://zenn.dev/pikonori/articles/ai-agent-media",
+      "publishedAt": "2026-08-21T09:23:52.000Z",
+      "publisher": "平原",
+      "summary": "! この記事は、個人開発しているヘッドレスCMS Tessera のブログ（tesseracms.com/blog/ai-agent-media）に掲載したものを、Zenn向けに再掲したものです。 AIエージェント（Claude Code…"
     },
     {
-      "id": "1b420fbc3c12",
-      "title": "「RAMクリーナー」を作らなかった話 — macOSメニューバーアプリ Room を AI エージェント開発で1日で作った",
-      "url": "https://zenn.dev/yukitakeshita/articles/f1aa9ba571684a",
-      "publishedAt": "2026-08-21T00:06:58.000Z",
-      "publisher": "yutake",
-      "summary": "メモリ「解放」アプリを、あえて作らなかった macOS 用の「メモリクリーナー」は昔からたくさんありますが、その多くはほとんど意味がありません。macOS はもともと空いている RAM を積極的にファイルキャッシュとして使い回す設計なので…"
+      "id": "fa8448f9a2a0",
+      "title": "AGENTS.md設計ガイド — エージェントに効く規約ファイルの書き方",
+      "url": "https://zenn.dev/snowcode/articles/agents-md-design-guide",
+      "publishedAt": "2026-08-21T09:17:27.000Z",
+      "publisher": "雪符しき",
+      "summary": "複数のAIエージェントが参照する共通フォーマット AGENTS.md。ただ置くだけでは効かず、書き方で成果が変わります。エージェントに効く規約ファイルの設計 を整理します。 AGENTS.md とは ツール非依存の規約ファイルで、Code…"
     },
     {
-      "id": "3d2a8f3b43b9",
-      "title": "エージェントは隠れ層で『ツールを呼ぶべきか』を既に知っている",
-      "url": "https://zenn.dev/okssusucha/articles/20260710-llm-agent-tool-use-linear-probe",
-      "publishedAt": "2026-08-21T00:05:31.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "ツールを持たせたエージェントを運用していると、地味に効いてくる二種類の失敗がある。「2+2は?」にまで検索APIを叩いてレイテンシと課金を無駄にする過剰呼び出しと、逆に外部知識が要る質問に手元の知識だけで答えてしまう過小呼び出しだ。どちら…"
+      "id": "bc04b193d906",
+      "title": "AIの長期記憶を自作した側から見た、mem0・Letta・論文が止まっていた3つの空白",
+      "url": "https://zenn.dev/hoshiorange/articles/29-log-distillation-prior-art-survey",
+      "publishedAt": "2026-08-21T09:14:27.000Z",
+      "publisher": "ほし",
+      "summary": "車輪を再発明していないか、作ったあとで急に不安になることがあります。 私はしばらく前に、AIとの作業記録を毎晩自動でノート化して、翌日の対話に渡す仕組みを個人で作りました。ここで言うAIとは Claude Code のことで、ターミナルで…"
     },
     {
-      "id": "dc541af8660f",
-      "title": "消したコードの理由を、AIに読ませる",
-      "url": "https://zenn.dev/miyakona/articles/1d86788a055e8e",
-      "publishedAt": "2026-08-21T00:00:07.000Z",
-      "publisher": "miyakona",
-      "summary": "AIエージェントが、もっともらしい改善案を提案しました。 実装も難しくありません。コードはきれいになり、テストも書けそうです。 しかし、その案は以前にも試していました。実際の環境では別の問題を引き起こしたため、検証したうえで撤去したもので…"
+      "id": "0f852702ba35",
+      "title": "AIで作ったアプリが「なんか惜しい」ときに見る、UXの話",
+      "url": "https://zenn.dev/tb_nim/articles/1b1bd31802b85b",
+      "publishedAt": "2026-08-21T09:06:13.000Z",
+      "publisher": "Nimu",
+      "summary": "はじめに AIで作る画面、ここ1年でかなり良くなりました。 エージェントにひととおり書かせて、DESIGN.mdあたりでトーンを整えると、数時間でちゃんとしたアプリの見た目になります。デザインシステムを持っていなくても、配色もタイポグラフ…"
     },
     {
-      "id": "fa11d378d08a",
-      "title": "弁護士の知人にAI活用をレクチャーする前に整理したこと（令和8年8月版）",
-      "url": "https://zenn.dev/singularity/articles/84b10628757d06",
-      "publishedAt": "2026-08-20T23:55:05.000Z",
-      "publisher": "kozayupapa",
-      "summary": "知人の弁護士から「事務所でAIを使ってみたいので教えてほしい」と相談を受けました。 自分は普段、プログラム開発で Claude Code と Claude Cowork を毎日使っています。ただ、弁護士業務は守秘義務があり、士業特有の規制…"
+      "id": "a926853a7856",
+      "title": "【開発日誌 Day8】AIタグを付けても、本文だけは書き換えないと決めた",
+      "url": "https://zenn.dev/simplememo/articles/204dd22ffc7362",
+      "publishedAt": "2026-08-21T09:05:35.000Z",
+      "publisher": "Obsidian連携シンプルメモ",
+      "summary": "メモにAIでタイトルやタグを付けるなら、本文も読みやすく直したくなります。けれどSimpleMemoでは、AIタグ自動追加を設計するときに「原文は一文字も書き換えない」を先に決めました。今回は、その制約を残した理由と、対応機種によって処理…"
     },
     {
-      "id": "79a89c890c33",
-      "title": "Obsidian × AIプラグイン — ChatGPTとClaudeをノート内で使う方法",
-      "url": "https://zenn.dev/yukihayama/articles/obsidian-ai-plugins",
-      "publishedAt": "2026-08-20T23:40:36.000Z",
-      "publisher": "葉山悠希",
-      "summary": "Obsidian × AIプラグイン — ChatGPTとClaudeをノート内で使う方法 Obsidianを使い始めた方からよく聞く質問があります。 「ObsidianでChatGPTやClaudeを使えるのですか？」 答えは「はい、使…"
+      "id": "5f31da5168c3",
+      "title": "経過11日と経過7ヶ月を並べて「負けている」と書いていた（#26 投稿前予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr26-jeffdean-prediction",
+      "publishedAt": "2026-08-21T09:00:10.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事は何か 海外のTech Talkを日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 今回…"
     },
     {
-      "id": "425dbf16066f",
-      "title": "ゼロから始めるClaude Code #13 Obsidian連携は本当にトークンの節約になるのか？",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-13-obsidian",
-      "publishedAt": "2026-08-20T23:36:07.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はフック（hooks）で「必ず動く」自動化を仕込みました。 https://zenn.dev/mika_and_coco/articles/claude-code-d…"
+      "id": "459405a492fd",
+      "title": "The AI Strategist",
+      "url": "https://zenn.dev/leading_ai/books/the-ai-strategist",
+      "publishedAt": "2026-08-21T08:57:17.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "AIストラテジスト — AI・事業戦略・実行の交差点に立つ、新しい役割の定義。世界のどの政府機関も、どのコンサルティングファームも、どの学術機関も、どの標準化団体も正式に定義していない役割を、構造的に定義するOSS書籍。3部・全7章。CC…"
     },
     {
-      "id": "edae4b239796",
-      "title": "45. Claudeの出力に電子透かしが入った — 仕組みと、職種ごとの実際の影響",
-      "url": "https://zenn.dev/yamada_ai_dev/articles/claude-text-watermark-impact",
-      "publishedAt": "2026-08-20T23:30:10.000Z",
-      "publisher": "yamada-ai-dev",
-      "summary": "! この記事は生成AIで作成した草稿を、筆者が内容を確認し、添削・修正のうえ公開しています。 TL;DR 2026年8月、Anthropic が Claude の生成テキストに人間には読めない電子透かしを入れると公表した。噂ではなく公式発…"
+      "id": "708fb07c3d31",
+      "title": "AIは本当に「反逆」するのか？生成AI時代に考える人間の役割",
+      "url": "https://zenn.dev/aqiu/articles/d912e916fb688e",
+      "publishedAt": "2026-08-21T08:53:05.000Z",
+      "publisher": "aqiu",
+      "summary": "AIがどれだけ賢くなっても、最後に判断するのは人間だ。 ただ、その言い方が少しずつ難しくなってきた。文章生成、画像生成、要約、検索、そして医療や音楽のような、結果の良し悪しが体験に直結する領域まで、AIは静かに入り込んでいる。 だからこそ…"
     },
     {
-      "id": "4e1ebfd9ecd5",
-      "title": "azure-ai-projects 2.5.0でhttpxが消えた — 旧版ピンでも壊れる",
-      "url": "https://zenn.dev/kazu_aiengineer/articles/azure-ai-projects-openai3-httpx2",
-      "publishedAt": "2026-08-20T23:08:44.000Z",
-      "publisher": "Kazu_AzureAI開拓",
-      "summary": "Azure AI Foundry の Python SDK である azure-ai-projects の 2.5.0 が、日本時間の 2026-08-21 早朝に出た。changelog の先頭は機能追加ではなく依存関係の話で、これが今…"
+      "id": "c4e900d922ba",
+      "title": "AIエージェントが実務を回し始めた2026年8月 — マルチエージェント設計とガバナンスの現在地",
+      "url": "https://zenn.dev/kairosai/articles/c697a7fea9ebe6",
+      "publishedAt": "2026-08-21T08:32:42.000Z",
+      "publisher": "kairos",
+      "summary": "TL;DR ・2026年8月、AIエージェントは「パイロット」ではなく本番ワークロードを担うフェーズに入った ・単体エージェントからマルチエージェント・オーケストレーションへ、アーキテクチャの重心が移動 ・8/2にEU AI Actの高リ…"
     },
     {
-      "id": "ee5212bd0567",
-      "title": "AIエージェントの安全性を測ったら、8回自分に騙された",
-      "url": "https://zenn.dev/akagifreeez/articles/ai-agent-eval-pitfalls",
-      "publishedAt": "2026-08-20T23:04:20.000Z",
-      "publisher": "akagifreeez",
-      "summary": "! 本記事は防御目的の評価手法についての記事です。攻撃プロンプトの実物・変換辞書・生成スクリプトは掲載しません。 測定対象は筆者自身が運用しているエージェント環境で、第三者のシステムには一切触れていません。 この記事の主張 AIエージェン…"
+      "id": "53e4b72461ac",
+      "title": "AI駆動開発は早寝早起きで早朝に開発がおすすめ",
+      "url": "https://zenn.dev/kamo78/articles/llm-midnight-congestion-sleep-early",
+      "publishedAt": "2026-08-21T08:30:05.000Z",
+      "publisher": "kamo",
+      "summary": "深夜にAIコーディングエージェントを動かしていて、いつもよりアホな動きをすると感じたことはないでしょうか。 日本時間の深夜はUS系AIサービスにとって世界で最も混み合う時間帯です。個人開発でAIに熱中していると、つい深夜1時、2時まで粘っ…"
     },
     {
-      "id": "8f344355c5ef",
-      "title": "GASとGeminiで納品書入力を自動化してみた",
-      "url": "https://zenn.dev/donko/articles/b717e3840e5c3d",
-      "publishedAt": "2026-08-20T22:57:03.000Z",
-      "publisher": "凡人",
-      "summary": "はじめに 納品書を見ながら、商品名・数量・単位をスプレッドシートへ手入力する作業を少しラクにしたくて、Google Apps Script（GAS）で小さなWebアプリを作りました。 完成したアプリでは、納品書の画像やPDFをアップロード…"
+      "id": "7c430c30906d",
+      "title": "トークン節約の模索中、Agent Orchestratorを使ってみた",
+      "url": "https://zenn.dev/makichan/articles/beef51e5f8a1d2",
+      "publishedAt": "2026-08-21T08:30:05.000Z",
+      "publisher": "まきちゃん",
+      "summary": "最近、複数のAIエージェントを使い分けながら開発を進める「Agent Orchestrator」を試しています。 今回は、普通のWebアプリを最初から作り始めながら、要件整理、設計、実装、テストをどのように分担できるのかを確認してみました…"
     },
     {
-      "id": "75d66430cfb1",
-      "title": "ComfyUIが大きいモデルで無言クラッシュする原因は、VRAMでもRAMでもなくページファイルだった",
-      "url": "https://zenn.dev/mana_mrl/articles/8f641ad9b96d9a",
-      "publishedAt": "2026-08-20T22:39:50.000Z",
-      "publisher": "MRL",
-      "summary": "先に結論 Windowsで大きいモデル（15GB超あたりから）をロードした瞬間にComfyUIがエラーも残さず消える、あるいは応答しなくなる。物理RAMには余裕がある。VRAMも空けてみたが変わらない。 この症状の原因は、ページファイル（…"
+      "id": "2d9b661da2dc",
+      "title": "【チームによるAI駆動開発の勘所：第4回】整合性の境界は、技術ではなく業務が決める",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/57ea2f9033096b",
+      "publishedAt": "2026-08-21T08:22:34.000Z",
+      "publisher": "wfukatsu",
+      "summary": "この記事では、マイクロサービス設計で最も後戻りが高くつく判断 —— 「ここからここまでは、同時に成功するか、同時に失敗するかでなければならない」という範囲をどこに引くか を扱います。 6つのペアについて「許せる / 許せない」を判定し、引…"
     }
   ],
-  "fetchedAt": "2026-08-21T09:38:03.347Z",
+  "fetchedAt": "2026-08-21T10:06:04.953Z",
   "stale": false,
   "error": null
 }
