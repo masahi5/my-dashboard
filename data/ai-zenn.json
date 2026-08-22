@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1ca1ebbe3c91",
-      "title": "優先順位を「人」で決めるAIタスク管理「Anythings」を55件使ってみた",
-      "url": "https://zenn.dev/gui/articles/anythings-ai-todo-review",
-      "publishedAt": "2026-08-22T06:43:39.000Z",
-      "publisher": "guidx",
-      "summary": "私の仕事では、締切が同じでも「誰から頼まれたか」で順番が変わります。病院で事務をしています。 Anythingsは、人との関係を自分の言葉で書いておくと、投げ込んだタスクをAIがそこへ振り分けて、順位まで付けるアプリです。 個人の予定を5…"
+      "id": "7c5d6b94095b",
+      "title": "559日間放置したアプリの開発を再開して気がついた、個人開発をやる意味",
+      "url": "https://zenn.dev/j____takumi/articles/reason-of-individual-development",
+      "publishedAt": "2026-08-22T14:11:07.000Z",
+      "publisher": "j____takumi",
+      "summary": "この記事についての3行 個人開発は自分の興味を最大限伸ばせる マネタイズできなくても、やる価値は十分ある 559日間放置したとしても、また戻って来られる 執筆理由:自分なりに個人開発をしている理由を共有したかったから 最近、559日間放置…"
     },
     {
-      "id": "8f1b40e516bc",
-      "title": "LLM APIの費用はなぜ増える？コスト構造と最適化の基本",
-      "url": "https://zenn.dev/yhay81/articles/202608-llm-api-cost-guide-for-beginners",
-      "publishedAt": "2026-08-22T06:30:37.000Z",
-      "publisher": "Yusuke Hayashi / 林 裕輔",
-      "summary": "生成AIを業務へ組み込むと、しばしば「思ったよりAPI費用が高い」という問題が起きます。そこで安いモデルへの 変更を考えがちですが、LLMの費用はモデルの価格だけでは決まりません。 AIへ送る文章が長い、一つの仕事で何度もAIを呼ぶ、失敗…"
+      "id": "1bd91ab5bca0",
+      "title": "Claudeのテキスト透かし（ウォーターマーク）は何をしているのか ── サンプリングの仕組みから理解する",
+      "url": "https://zenn.dev/rinrin_ds_17/articles/bc093cfa3bdbd1",
+      "publishedAt": "2026-08-22T14:02:40.000Z",
+      "publisher": "はやし",
+      "summary": "はじめに 2026年8月14日、AnthropicがClaudeの出力テキストに透かし（ウォーターマーク）を入れると発表しました。これを受けて、Sebastian Raschka氏（『Build a Large Language Mode…"
     },
     {
-      "id": "838d66b71b92",
-      "title": "AIに渡す仕様書に、何を書いて何を書かないか——製造現場の内製アプリを仕様駆動で作る",
-      "url": "https://zenn.dev/factory_dx_eng/articles/ai-spec-driven-field-app",
-      "publishedAt": "2026-08-22T06:19:13.000Z",
-      "publisher": "現場と一緒に作るDX",
-      "summary": "データを使える環境が整ったら、今度は入力が足りなくなった 製造業には「スマートファクトリー」「ビッグデータ」の掛け声で作られた実績データの収集基盤が、すでにある会社が多いと思う。私のいる会社にもある。 だが長いあいだ、それは十分に使われて…"
+      "id": "16d6fb9db21d",
+      "title": "ブラウザでリアルタイムAI顔交換を試す：うまくいかないときの切り分け方",
+      "url": "https://zenn.dev/mixfox/articles/c399d662f8e851",
+      "publishedAt": "2026-08-22T13:27:35.000Z",
+      "publisher": "ぽこひで",
+      "summary": "ブラウザでリアルタイムAI顔交換を試すとき、いきなり「モデルの品質」を見るより、カメラ入力 → 参照画像 → AI出力 → 通信の順で確認した方が原因を追いやすい。個人開発している LiveFaceSwap AI のブラウザ版を作る中でも…"
     },
     {
-      "id": "af95f4b8cc95",
-      "title": "WordPress予約投稿でAI記事を出したら順位が下がった。原因の切り分け方",
-      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/wp-scheduled-ai-posts-ranking-drop",
-      "publishedAt": "2026-08-22T06:08:28.000Z",
-      "publisher": "生成AI清塚",
-      "summary": "「AI記事をWordPressの予約投稿で毎日出し始めたら、サイト全体の順位が下がった。AIがバレてペナルティを受けたのか」 この相談には、切り分けの手順で答えるのがいちばん誠実だと思っています。先に結論を言うと、「予約投稿だから」「AI…"
+      "id": "8c7c20fe6624",
+      "title": "「モデルが20%できる問題」は狙うな — Jeff Dean が YC で話した1%ルール",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr26-jeffdean-summary",
+      "publishedAt": "2026-08-22T13:00:12.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について ! 本記事は Jeff Dean が Y Combinator の Startup School 2026 で話した内容の紹介と論評です。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文…"
     },
     {
-      "id": "7228be2d2558",
-      "title": "LLM APIコスト最適化 実践教科書",
-      "url": "https://zenn.dev/yhay81/books/llm-api-cost-optimization",
-      "publishedAt": "2026-08-22T05:44:03.000Z",
-      "publisher": "Yusuke Hayashi / 林 裕輔",
-      "summary": "品質を落とさず、計測・設計・キャッシュ・ルーティング・運用でLLM費用を制御する"
+      "id": "7d59641e1b18",
+      "title": "Claude Code でサブエージェント並列オーケストレーションを組むんやで｜Shorts 自動化を題材に",
+      "url": "https://zenn.dev/masayan1126/books/shorts-orchestration-pipeline",
+      "publishedAt": "2026-08-22T12:57:31.000Z",
+      "publisher": "まさやん",
+      "summary": "Claude Code の並列セッション × 8 体のサブエージェント × フィードバックループで、AI パイプラインを組む設計思想を、Shorts 自動化（24 本以上の実運用）を題材に全部見せたるで。"
     },
     {
-      "id": "fba4f4bc5f56",
-      "title": "「次やって」でAIを動かす",
-      "url": "https://zenn.dev/giana12th/articles/d1e07d30b0213a",
-      "publishedAt": "2026-08-22T03:55:21.000Z",
-      "publisher": "Giana12th",
-      "summary": "AIに何かをさせるときは、目的・制約・手順・期待する出力形式を、なるべく漏れなく書き出すのが良いとされています。指示が曖昧だと、なにも終わってなかったり、明後日の編集を始めて/rewind連打するハメになります。 面倒ですね。「次やって」…"
+      "id": "e3c0486d9ab5",
+      "title": "OxAlphaを一日中使ってみた感想",
+      "url": "https://zenn.dev/ossmxun/articles/65ca5a7797f4fc",
+      "publishedAt": "2026-08-22T12:16:09.000Z",
+      "publisher": "お刺身くん",
+      "summary": "OxAlphaについて とんでもないものが出た 皆さんは突如8/21から一週間限定で、1Mコンテキスト、使用量無制限で提供され始めたOxAlphaというものをご存じでしょうか？ AIを追っている人なら既にご存じかと思いますが、これが出たす…"
     },
     {
-      "id": "1d94823bf643",
-      "title": "Claude Codeについて学んだことの備忘録",
-      "url": "https://zenn.dev/rokkaku_dev/articles/6feb8e28bb81d1",
-      "publishedAt": "2026-08-22T03:51:24.000Z",
-      "publisher": "Rokkaku | AI×AWSブリッジSE×個人開発 🇵🇭",
-      "summary": "はじめに 社内プロジェクトでClaude CodeなどのAIエージェントコーディングを始めることになりました。 強力なツールである一方、使い方を間違えればプロジェクトやシステムに取り返しのつかない影響を与えうる諸刃の剣でもあります。 だか…"
+      "id": "62983b80a8a1",
+      "title": "Claude Sonnet 5とGPT-5.6が出揃った今、エージェント自動化を最小コードで組む",
+      "url": "https://zenn.dev/kairosai/articles/9d0e994d2dd352",
+      "publishedAt": "2026-08-22T12:04:11.000Z",
+      "publisher": "kairos",
+      "summary": "はじめに 2026年7月、AI御三家の新モデルが出揃いました。OpenAIのGPT-5.6（7/9公開、Sol/Luna/Terraの3バリアント＋ChatGPT Work）、AnthropicのClaude Sonnet 5（7/1公開…"
     },
     {
-      "id": "f2886b51ac08",
-      "title": "Cursorから15分 — @staddress/mcp でチャットから住所解析する（導入・ツール・プロンプト）",
-      "url": "https://zenn.dev/staddress/articles/b601f14a21c5c5",
-      "publishedAt": "2026-08-22T03:50:34.000Z",
-      "publisher": "ストアドレス",
-      "summary": "住所正規化・ジオコーディングAPI 「Staddress（スタドレス）」 開発チームです。 前回（Rubyから15分 — staddress gem で住所解析する）までは、curl / CLI / Node / Python / Rub…"
+      "id": "3abe755131e1",
+      "title": "【チームによるAI駆動開発の勘所：第5回】サービスをまたぐ整合性 - 「どちらも使えない」が正解のとき",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/6c77116c8528e8",
+      "publishedAt": "2026-08-22T11:58:27.000Z",
+      "publisher": "wfukatsu",
+      "summary": "サービスをまたぐ整合性をどう担保するか。この問いに対して、多くの現場では次のような順序で判断が進みます。 外部SaaS があるから ScalarDB のような基盤には載せられない だから Saga（補償トランザクション）でいこう この順序…"
     },
     {
-      "id": "75e05d76114b",
-      "title": "AIエージェント設計論 — Harness/Loop EngineeringからRAGまで",
-      "url": "https://zenn.dev/hideki_tamae/books/ai-agent-engineering-guide",
-      "publishedAt": "2026-08-22T03:29:05.000Z",
-      "publisher": "田前秀樹 |  | Civilizational OS Designer",
-      "summary": "AIエージェント開発を支える設計思想を、Harness EngineeringとLoop Engineeringという二本柱から出発し、Evaluation・Context Engineering・Tool Engineering・Mem…"
+      "id": "d33abff2a7d7",
+      "title": "AIへの指示書を、現場の標準作業手順書として書き直した",
+      "url": "https://zenn.dev/handa_lab/articles/02-instruction-as-sop",
+      "publishedAt": "2026-08-22T10:53:27.000Z",
+      "publisher": "HandaLab",
+      "summary": "Claude Code に同じ注意を三度した。言い方を変えて、具体例も足して、それでも三度目に似た形の失敗が返ってきた。「指示が悪いのか、AIの限界なのか」と考えているうちに、これは検査工程で見た光景だと気づいた。理由が書かれていない作業…"
     },
     {
-      "id": "82301d3f5df6",
-      "title": "Claude Codeの全コマンドが突然死んだ——再インストールする前に読む話",
-      "url": "https://zenn.dev/philo_sophy1485/articles/1813036f327bbe",
-      "publishedAt": "2026-08-22T02:07:23.000Z",
-      "publisher": "ナンピィン・ハイレッバー｜AI EA開発",
-      "summary": "Claude CodeのBashツールが、何を打っても同じエラー1行で全滅する——この記事は、その状態から再インストールなしで復旧した記録です。同じエラーに当たった人と、複数のAIエージェントを並走させて運用している人に向けて、①再インス…"
+      "id": "04b40ff7e659",
+      "title": "AIエージェント11体でブラウザゲームを作ったら、バグの大半が「書いたのに動いていない」だった",
+      "url": "https://zenn.dev/yohsuke_zw/articles/0170dca5dcdae3",
+      "publishedAt": "2026-08-22T09:23:54.000Z",
+      "publisher": "yohsuke_zw",
+      "summary": "Claude Code に「キャンプゲームを作って」と1通投げたら、3日でブラウザゲームが1本できました。 渓谷キャンプ — 秋の渓流沿いのキャンプ場で焚火をおこし、飯盒でご飯を炊き、その様子を撮って投稿するVlogシミュレータです。 遊…"
     },
     {
-      "id": "238614134498",
-      "title": "SBV2とPodmanで考えるAIツールの危険性対策 第二章",
-      "url": "https://zenn.dev/eien_syogakusya/articles/d6344a78c8b2ad",
-      "publishedAt": "2026-08-22T01:58:45.000Z",
-      "publisher": "永遠ノ初学者",
-      "summary": "本記事は、全4章によって構成されています。 第一章：基礎知識、WSL有効化、SBV2導入前の準備 第二章：[SBV2導入編]❗️今ココ 第三章：[SBV2の追加DLとpyannote無効化、nftablesによるオフライン化とSBV2側の…"
+      "id": "fe905998e2e2",
+      "title": "Codexを「放し飼い」にしない。「拾い食い」を止めて分かったAIコーディングの境界線",
+      "url": "https://zenn.dev/tosane932/articles/0aac24f04df42a",
+      "publishedAt": "2026-08-22T09:17:48.000Z",
+      "publisher": "tosane932",
+      "summary": "個人開発でCodexを使うようになってから、コードを書く速度はかなり上がりました。 調査を頼めば、複数のファイルを横断して問題を探してくれる。 pytestを書いてもらうこともできる。 修正案も出してくれる。 Gitの差分確認まで頼める。…"
     },
     {
-      "id": "4cce764eeb2c",
-      "title": "SBV2とPodmanで考えるAIツールの危険性対策 第一章",
-      "url": "https://zenn.dev/eien_syogakusya/articles/520844a6caa0a8",
-      "publishedAt": "2026-08-22T01:57:18.000Z",
-      "publisher": "永遠ノ初学者",
-      "summary": "本記事は、全4章によって構成されています。 第一章：基礎知識、WSL有効化、SBV2導入前の準備❗️今ココ 第二章：SBV2導入編 第三章：[SBV2の追加DLとpyannote無効化、nftablesによるオフライン化とSBV2側の調整…"
+      "id": "4a9dc5025391",
+      "title": "AIコーディングの精度を上げる「任せ方」と「確かめ方」",
+      "url": "https://zenn.dev/mamimami/articles/4fbcf34f2d8bac",
+      "publishedAt": "2026-08-22T09:00:05.000Z",
+      "publisher": "maimai",
+      "summary": "はじめに 最近では、ChatGPTやClaude Code、CodexなどのAIツールを、実際の開発業務で利用する機会が増えてきました。 コードの生成はもちろん、既存コードの調査、実装方針の検討、バグの原因調査、テストコードの作成、コード…"
     }
   ],
-  "fetchedAt": "2026-08-22T18:57:20.813Z",
+  "fetchedAt": "2026-08-22T19:23:24.503Z",
   "stale": false,
   "error": null
 }
