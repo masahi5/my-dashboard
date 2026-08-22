@@ -6,6 +6,78 @@
   "category": "ai",
   "items": [
     {
+      "id": "1ca1ebbe3c91",
+      "title": "優先順位を「人」で決めるAIタスク管理「Anythings」を55件使ってみた",
+      "url": "https://zenn.dev/gui/articles/anythings-ai-todo-review",
+      "publishedAt": "2026-08-22T06:43:39.000Z",
+      "publisher": "guidx",
+      "summary": "私の仕事では、締切が同じでも「誰から頼まれたか」で順番が変わります。病院で事務をしています。 Anythingsは、人との関係を自分の言葉で書いておくと、投げ込んだタスクをAIがそこへ振り分けて、順位まで付けるアプリです。 個人の予定を5…"
+    },
+    {
+      "id": "8f1b40e516bc",
+      "title": "LLM APIの費用はなぜ増える？コスト構造と最適化の基本",
+      "url": "https://zenn.dev/yhay81/articles/202608-llm-api-cost-guide-for-beginners",
+      "publishedAt": "2026-08-22T06:30:37.000Z",
+      "publisher": "Yusuke Hayashi / 林 裕輔",
+      "summary": "生成AIを業務へ組み込むと、しばしば「思ったよりAPI費用が高い」という問題が起きます。そこで安いモデルへの 変更を考えがちですが、LLMの費用はモデルの価格だけでは決まりません。 AIへ送る文章が長い、一つの仕事で何度もAIを呼ぶ、失敗…"
+    },
+    {
+      "id": "838d66b71b92",
+      "title": "AIに渡す仕様書に、何を書いて何を書かないか——製造現場の内製アプリを仕様駆動で作る",
+      "url": "https://zenn.dev/factory_dx_eng/articles/ai-spec-driven-field-app",
+      "publishedAt": "2026-08-22T06:19:13.000Z",
+      "publisher": "現場と一緒に作るDX",
+      "summary": "データを使える環境が整ったら、今度は入力が足りなくなった 製造業には「スマートファクトリー」「ビッグデータ」の掛け声で作られた実績データの収集基盤が、すでにある会社が多いと思う。私のいる会社にもある。 だが長いあいだ、それは十分に使われて…"
+    },
+    {
+      "id": "af95f4b8cc95",
+      "title": "WordPress予約投稿でAI記事を出したら順位が下がった。原因の切り分け方",
+      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/wp-scheduled-ai-posts-ranking-drop",
+      "publishedAt": "2026-08-22T06:08:28.000Z",
+      "publisher": "生成AI清塚",
+      "summary": "「AI記事をWordPressの予約投稿で毎日出し始めたら、サイト全体の順位が下がった。AIがバレてペナルティを受けたのか」 この相談には、切り分けの手順で答えるのがいちばん誠実だと思っています。先に結論を言うと、「予約投稿だから」「AI…"
+    },
+    {
+      "id": "7228be2d2558",
+      "title": "LLM APIコスト最適化 実践教科書",
+      "url": "https://zenn.dev/yhay81/books/llm-api-cost-optimization",
+      "publishedAt": "2026-08-22T05:44:03.000Z",
+      "publisher": "Yusuke Hayashi / 林 裕輔",
+      "summary": "品質を落とさず、計測・設計・キャッシュ・ルーティング・運用でLLM費用を制御する"
+    },
+    {
+      "id": "fba4f4bc5f56",
+      "title": "「次やって」でAIを動かす",
+      "url": "https://zenn.dev/giana12th/articles/d1e07d30b0213a",
+      "publishedAt": "2026-08-22T03:55:21.000Z",
+      "publisher": "Giana12th",
+      "summary": "AIに何かをさせるときは、目的・制約・手順・期待する出力形式を、なるべく漏れなく書き出すのが良いとされています。指示が曖昧だと、なにも終わってなかったり、明後日の編集を始めて/rewind連打するハメになります。 面倒ですね。「次やって」…"
+    },
+    {
+      "id": "1d94823bf643",
+      "title": "Claude Codeについて学んだことの備忘録",
+      "url": "https://zenn.dev/rokkaku_dev/articles/6feb8e28bb81d1",
+      "publishedAt": "2026-08-22T03:51:24.000Z",
+      "publisher": "Rokkaku | AI×AWSブリッジSE×個人開発 🇵🇭",
+      "summary": "はじめに 社内プロジェクトでClaude CodeなどのAIエージェントコーディングを始めることになりました。 強力なツールである一方、使い方を間違えればプロジェクトやシステムに取り返しのつかない影響を与えうる諸刃の剣でもあります。 だか…"
+    },
+    {
+      "id": "f2886b51ac08",
+      "title": "Cursorから15分 — @staddress/mcp でチャットから住所解析する（導入・ツール・プロンプト）",
+      "url": "https://zenn.dev/staddress/articles/b601f14a21c5c5",
+      "publishedAt": "2026-08-22T03:50:34.000Z",
+      "publisher": "ストアドレス",
+      "summary": "住所正規化・ジオコーディングAPI 「Staddress（スタドレス）」 開発チームです。 前回（Rubyから15分 — staddress gem で住所解析する）までは、curl / CLI / Node / Python / Rub…"
+    },
+    {
+      "id": "75e05d76114b",
+      "title": "AIエージェント設計論 — Harness/Loop EngineeringからRAGまで",
+      "url": "https://zenn.dev/hideki_tamae/books/ai-agent-engineering-guide",
+      "publishedAt": "2026-08-22T03:29:05.000Z",
+      "publisher": "田前秀樹 |  | Civilizational OS Designer",
+      "summary": "AIエージェント開発を支える設計思想を、Harness EngineeringとLoop Engineeringという二本柱から出発し、Evaluation・Context Engineering・Tool Engineering・Mem…"
+    },
+    {
       "id": "82301d3f5df6",
       "title": "Claude Codeの全コマンドが突然死んだ——再インストールする前に読む話",
       "url": "https://zenn.dev/philo_sophy1485/articles/1813036f327bbe",
@@ -28,81 +100,9 @@
       "publishedAt": "2026-08-22T01:57:18.000Z",
       "publisher": "永遠ノ初学者",
       "summary": "本記事は、全4章によって構成されています。 第一章：基礎知識、WSL有効化、SBV2導入前の準備❗️今ココ 第二章：SBV2導入編 第三章：[SBV2の追加DLとpyannote無効化、nftablesによるオフライン化とSBV2側の調整…"
-    },
-    {
-      "id": "2a5e29f41e4a",
-      "title": "オンデバイスAI時代のRAGアプリ設計を考える",
-      "url": "https://zenn.dev/gitmame00/articles/4057ae552e1be5",
-      "publishedAt": "2026-08-22T01:36:22.000Z",
-      "publisher": "ゆうすけ",
-      "summary": "Google Tensor SDKの発表により オンデバイスAIがAndroidの標準機能として利用できる時代が見えてきた。 AI Chat、Ask Image、Ask Audio、Agent Skills、Mobile Actionsな…"
-    },
-    {
-      "id": "63496d3147c4",
-      "title": "AIに「なぜそうした？」を記録させたら、自分の思考が見えてきた",
-      "url": "https://zenn.dev/coj/articles/731560a5353bd1",
-      "publishedAt": "2026-08-22T01:34:25.000Z",
-      "publisher": "Coj",
-      "summary": "１．はじめに AIを使っていると、ふと不安になる瞬間があります。 「この提案、本当に自分で考えたのか？」 「なんとなく採用していないか？」 AIは便利です。でも便利すぎると、思考を外注していることに気づかないまま進んでしまいます。そこで始…"
-    },
-    {
-      "id": "32c58792041b",
-      "title": "従来のAIモダナイゼーションの限界と、Probe Agentが越えようとする壁",
-      "url": "https://zenn.dev/dx_junkyard/articles/6a468db4d425fc",
-      "publishedAt": "2026-08-22T01:14:02.000Z",
-      "publisher": "uras",
-      "summary": "要約 大規模な既存システムをAIで近代化する取り組みは、コード変換、リファクタリング、テスト生成、依存関係更新といった領域で急速に進んでいる。複数のLLMエージェントに役割を分担させ、生成・検証・修正を繰り返す方式も現実の移行案件で試され…"
-    },
-    {
-      "id": "80c386b02e49",
-      "title": "【試し読み】n8n×AI自動化実践入門 — ノーコードでAIワークフローを作る",
-      "url": "https://zenn.dev/yukihayama/articles/preview-n8n-guide",
-      "publishedAt": "2026-08-22T01:01:41.000Z",
-      "publisher": "葉山悠希",
-      "summary": "【試し読み】n8n×AI自動化実践入門 — ノーコードでAIワークフローを作る 本記事はKindle本 「n8n×AI自動化実践入門 — ノーコードで動かすAIワークフロー」（著者: 葉山悠希）の「はじめに」および「第1章」の一部を公開す…"
-    },
-    {
-      "id": "986a6973a701",
-      "title": "Grok 4.5はCursorの操作ログで訓練された、出力トークンが約4分の1になった",
-      "url": "https://zenn.dev/okssusucha/articles/20260711-grok-4-5-cursor-session-data-token-effici",
-      "publishedAt": "2026-08-22T00:07:56.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "7月8日に出たGrok 4.5で、いちばん引っかかったのはベンチマークの数字ではなかった。訓練データの出どころだ。xAI（発表では SpaceXAI 名義）はこのモデルを Cursor と共同で訓練し、その材料に「数兆トークン規模の Cu…"
-    },
-    {
-      "id": "625d5b669750",
-      "title": "「動く」と「解ける」は別物。AIエージェントに150問解かせて見つけた本当のバグたち",
-      "url": "https://zenn.dev/sorapenguin/articles/ai-agent-qa-story-2026-08",
-      "publishedAt": "2026-08-22T00:00:12.000Z",
-      "publisher": "ソラペン",
-      "summary": "自動テストは全部緑、でも人間は解けないかもしれない 個人開発しているRouteLabは、CCNA/CCNPのネットワーク設定をブラウザ上のCLIで練習できるシミュレーターです。今日、その中の「トラブルシューティング系」問題150問すべてで…"
-    },
-    {
-      "id": "4801f61d8b4a",
-      "title": "領収書スキャンからAI仕訳まで:社内経理自動化システムの設計と実装",
-      "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20260818-scan-keiri-tech-detail",
-      "publishedAt": "2026-08-22T00:00:06.000Z",
-      "publisher": "yutaka8484",
-      "summary": "経理業務のどこにボトルネックがあったか 木工所を営む当社でも、経理まわりの紙処理は長らく悩みの種でした。領収書や納品書は日々発生し、月末にまとめて仕分け、金額や日付、勘定科目を1枚ずつ会計ソフトに入力する。この作業は単調である一方、間違え…"
-    },
-    {
-      "id": "02a8590e7604",
-      "title": "ゼロから始めるClaude Code #14 Gitチーム開発編：レビュー・コンフリクト・共同作業にClaudeを組み込む",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-14-git-team",
-      "publishedAt": "2026-08-21T23:53:55.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は Obsidian 連携で、自分の知識ベースを Claude に読ませました。 https://zenn.dev/mika_and_coco/articles/cl…"
-    },
-    {
-      "id": "bb6bb30e14a1",
-      "title": "「AI駆動開発【大阪支部 #14】with クラスメソッド」で気になったワードをChatGPTに聞いた",
-      "url": "https://zenn.dev/takeuchi_log/articles/3796572832560d",
-      "publishedAt": "2026-08-21T23:39:32.000Z",
-      "publisher": "takeuchi",
-      "summary": "「AI駆動開発【大阪支部 #14】with クラスメソッド」で気になったワード 2026/08/20に開催された「AI駆動開発【大阪支部 #14】with クラスメソッド」に参加しました その中で気になったワードを、その場でChatGPT…"
     }
   ],
-  "fetchedAt": "2026-08-22T13:28:19.132Z",
+  "fetchedAt": "2026-08-22T13:53:46.888Z",
   "stale": false,
   "error": null
 }
