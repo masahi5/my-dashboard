@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "04b40ff7e659",
-      "title": "AIエージェント11体でブラウザゲームを作ったら、バグの大半が「書いたのに動いていない」だった",
-      "url": "https://zenn.dev/yohsuke_zw/articles/0170dca5dcdae3",
-      "publishedAt": "2026-08-22T09:23:54.000Z",
-      "publisher": "yohsuke_zw",
-      "summary": "Claude Code に「キャンプゲームを作って」と1通投げたら、3日でブラウザゲームが1本できました。 渓谷キャンプ — 秋の渓流沿いのキャンプ場で焚火をおこし、飯盒でご飯を炊き、その様子を撮って投稿するVlogシミュレータです。 遊…"
+      "id": "1ca1ebbe3c91",
+      "title": "優先順位を「人」で決めるAIタスク管理「Anythings」を55件使ってみた",
+      "url": "https://zenn.dev/gui/articles/anythings-ai-todo-review",
+      "publishedAt": "2026-08-22T06:43:39.000Z",
+      "publisher": "guidx",
+      "summary": "私の仕事では、締切が同じでも「誰から頼まれたか」で順番が変わります。病院で事務をしています。 Anythingsは、人との関係を自分の言葉で書いておくと、投げ込んだタスクをAIがそこへ振り分けて、順位まで付けるアプリです。 個人の予定を5…"
     },
     {
-      "id": "fe905998e2e2",
-      "title": "Codexを「放し飼い」にしない。「拾い食い」を止めて分かったAIコーディングの境界線",
-      "url": "https://zenn.dev/tosane932/articles/0aac24f04df42a",
-      "publishedAt": "2026-08-22T09:17:48.000Z",
-      "publisher": "tosane932",
-      "summary": "個人開発でCodexを使うようになってから、コードを書く速度はかなり上がりました。 調査を頼めば、複数のファイルを横断して問題を探してくれる。 pytestを書いてもらうこともできる。 修正案も出してくれる。 Gitの差分確認まで頼める。…"
+      "id": "8f1b40e516bc",
+      "title": "LLM APIの費用はなぜ増える？コスト構造と最適化の基本",
+      "url": "https://zenn.dev/yhay81/articles/202608-llm-api-cost-guide-for-beginners",
+      "publishedAt": "2026-08-22T06:30:37.000Z",
+      "publisher": "Yusuke Hayashi / 林 裕輔",
+      "summary": "生成AIを業務へ組み込むと、しばしば「思ったよりAPI費用が高い」という問題が起きます。そこで安いモデルへの 変更を考えがちですが、LLMの費用はモデルの価格だけでは決まりません。 AIへ送る文章が長い、一つの仕事で何度もAIを呼ぶ、失敗…"
     },
     {
-      "id": "4a9dc5025391",
-      "title": "AIコーディングの精度を上げる「任せ方」と「確かめ方」",
-      "url": "https://zenn.dev/mamimami/articles/4fbcf34f2d8bac",
-      "publishedAt": "2026-08-22T09:00:05.000Z",
-      "publisher": "maimai",
-      "summary": "はじめに 最近では、ChatGPTやClaude Code、CodexなどのAIツールを、実際の開発業務で利用する機会が増えてきました。 コードの生成はもちろん、既存コードの調査、実装方針の検討、バグの原因調査、テストコードの作成、コード…"
+      "id": "838d66b71b92",
+      "title": "AIに渡す仕様書に、何を書いて何を書かないか——製造現場の内製アプリを仕様駆動で作る",
+      "url": "https://zenn.dev/factory_dx_eng/articles/ai-spec-driven-field-app",
+      "publishedAt": "2026-08-22T06:19:13.000Z",
+      "publisher": "現場と一緒に作るDX",
+      "summary": "データを使える環境が整ったら、今度は入力が足りなくなった 製造業には「スマートファクトリー」「ビッグデータ」の掛け声で作られた実績データの収集基盤が、すでにある会社が多いと思う。私のいる会社にもある。 だが長いあいだ、それは十分に使われて…"
     },
     {
-      "id": "83351a9c7242",
-      "title": "SaaSを作った。そしてChatGPTに『おすすめは?』と聞いたら、私のことなど知らなかった。",
-      "url": "https://zenn.dev/kattoai/articles/76b5cbb1960c85",
-      "publishedAt": "2026-08-22T09:00:05.000Z",
-      "publisher": "Katto",
-      "summary": "元記事（自分のブログ・カノニカル）: https://katto.tech/ja/blog/i-built-a-saas-chatgpt-never-heard-of-it-jp 今朝、アナリティクスのダッシュボードを開いたとき、私はもう…"
+      "id": "af95f4b8cc95",
+      "title": "WordPress予約投稿でAI記事を出したら順位が下がった。原因の切り分け方",
+      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/wp-scheduled-ai-posts-ranking-drop",
+      "publishedAt": "2026-08-22T06:08:28.000Z",
+      "publisher": "生成AI清塚",
+      "summary": "「AI記事をWordPressの予約投稿で毎日出し始めたら、サイト全体の順位が下がった。AIがバレてペナルティを受けたのか」 この相談には、切り分けの手順で答えるのがいちばん誠実だと思っています。先に結論を言うと、「予約投稿だから」「AI…"
     },
     {
-      "id": "f18cda6c922e",
-      "title": "AIのためのタスク管理アプリケーションを作ったら気持ちよかった",
-      "url": "https://zenn.dev/kinzal/articles/2ca5dcfc55f057",
-      "publishedAt": "2026-08-22T08:57:00.000Z",
-      "publisher": "k",
-      "summary": "みなさんはAIのタスク管理どうされていますか？僕は何だかんだでメモ帳に書くスタイルに落ち着いていました。 Agentが空いたら次やるタスク、追加プロンプトを入れるためにメモを残すみたいなイメージです。 自分自身の開発もこのやり方で管理して…"
+      "id": "7228be2d2558",
+      "title": "LLM APIコスト最適化 実践教科書",
+      "url": "https://zenn.dev/yhay81/books/llm-api-cost-optimization",
+      "publishedAt": "2026-08-22T05:44:03.000Z",
+      "publisher": "Yusuke Hayashi / 林 裕輔",
+      "summary": "品質を落とさず、計測・設計・キャッシュ・ルーティング・運用でLLM費用を制御する"
     },
     {
-      "id": "600e55e8057c",
-      "title": "AIにコードを書かせるなら、Git hookは重いほうがいい",
-      "url": "https://zenn.dev/smasato/articles/b213ce4077af91",
-      "publishedAt": "2026-08-22T08:38:21.000Z",
-      "publisher": "Masato Sugiyama",
-      "summary": "はじめに Claude Code や Devin のような AI コーディングエージェントにコードを書かせていると、人間が書いていた頃は気にならなかった問題が目につき始めます。その 1 つが「AI が push した PR の CI が落…"
+      "id": "fba4f4bc5f56",
+      "title": "「次やって」でAIを動かす",
+      "url": "https://zenn.dev/giana12th/articles/d1e07d30b0213a",
+      "publishedAt": "2026-08-22T03:55:21.000Z",
+      "publisher": "Giana12th",
+      "summary": "AIに何かをさせるときは、目的・制約・手順・期待する出力形式を、なるべく漏れなく書き出すのが良いとされています。指示が曖昧だと、なにも終わってなかったり、明後日の編集を始めて/rewind連打するハメになります。 面倒ですね。「次やって」…"
     },
     {
-      "id": "db0ce1e5debf",
-      "title": "モードを増やす作業を、Markdown 1枚に閉じ込める：Go でプロンプトをコードから引き剥がす",
-      "url": "https://zenn.dev/snknsk/articles/go-prompt-kit-mode-per-file",
-      "publishedAt": "2026-08-22T08:29:42.000Z",
-      "publisher": "shouni",
-      "summary": "AI を使うアプリには、たいてい「モード」があります。レビューなら記事レビューとコードレビュー、漫画なら章立てとネームとパネル。中身の違いは、ほとんどがプロンプトの文言です。 にもかかわらず、モードを1つ増やすと触る場所は増えていきます。…"
+      "id": "1d94823bf643",
+      "title": "Claude Codeについて学んだことの備忘録",
+      "url": "https://zenn.dev/rokkaku_dev/articles/6feb8e28bb81d1",
+      "publishedAt": "2026-08-22T03:51:24.000Z",
+      "publisher": "Rokkaku | AI×AWSブリッジSE×個人開発 🇵🇭",
+      "summary": "はじめに 社内プロジェクトでClaude CodeなどのAIエージェントコーディングを始めることになりました。 強力なツールである一方、使い方を間違えればプロジェクトやシステムに取り返しのつかない影響を与えうる諸刃の剣でもあります。 だか…"
     },
     {
-      "id": "29d444c3ae5d",
-      "title": "Claude Code のデスクトップ操作、内蔵の computer-use ではなく Windows-MCP を使っている理由",
-      "url": "https://zenn.dev/marvelousu/articles/windows-mcp-vs-computer-use",
-      "publishedAt": "2026-08-22T08:27:40.000Z",
-      "publisher": "Tom",
-      "summary": "Claude Code にデスクトップ操作を任せる手段には、内蔵の computer-use があります。画面を撮ってピクセル座標でクリックするこの方式のまま任せ続けてよいのか気になって代わりを探し、UI Automation で画面を構…"
+      "id": "f2886b51ac08",
+      "title": "Cursorから15分 — @staddress/mcp でチャットから住所解析する（導入・ツール・プロンプト）",
+      "url": "https://zenn.dev/staddress/articles/b601f14a21c5c5",
+      "publishedAt": "2026-08-22T03:50:34.000Z",
+      "publisher": "ストアドレス",
+      "summary": "住所正規化・ジオコーディングAPI 「Staddress（スタドレス）」 開発チームです。 前回（Rubyから15分 — staddress gem で住所解析する）までは、curl / CLI / Node / Python / Rub…"
     },
     {
-      "id": "d897d51b1b06",
-      "title": "AI生成コードを「どこまで理解してから」マージすべきか——理解基準3段階と2つのゲート",
-      "url": "https://zenn.dev/hawk_claws/articles/d167856249b9da",
-      "publishedAt": "2026-08-22T08:22:39.000Z",
-      "publisher": "HawkClaws",
-      "summary": "レビュー論は「読むのをやめた」まで来てしまった AIコーディングの議論は、この半年でずいぶん進みました。 PRは爆増したのにリリースは増えない、ボトルネックはコーディングからレビューに移動した——このあたりはdtakamiyaさんや[堀川…"
+      "id": "75e05d76114b",
+      "title": "AIエージェント設計論 — Harness/Loop EngineeringからRAGまで",
+      "url": "https://zenn.dev/hideki_tamae/books/ai-agent-engineering-guide",
+      "publishedAt": "2026-08-22T03:29:05.000Z",
+      "publisher": "田前秀樹 |  | Civilizational OS Designer",
+      "summary": "AIエージェント開発を支える設計思想を、Harness EngineeringとLoop Engineeringという二本柱から出発し、Evaluation・Context Engineering・Tool Engineering・Mem…"
     },
     {
-      "id": "9e9eebff8c24",
-      "title": "llama.cppでQwen3.8:27bの思考グルグルをある程度削減",
-      "url": "https://zenn.dev/ibuky/articles/745131581b2fc9",
-      "publishedAt": "2026-08-22T07:55:27.000Z",
-      "publisher": "ibuky",
-      "summary": "詳細は追記します CUDA_VISIBLE_DEVICES=0,1 ./llama-cli --model ~/unsloth/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q4_0.gguf --temp 1.0 --top…"
+      "id": "82301d3f5df6",
+      "title": "Claude Codeの全コマンドが突然死んだ——再インストールする前に読む話",
+      "url": "https://zenn.dev/philo_sophy1485/articles/1813036f327bbe",
+      "publishedAt": "2026-08-22T02:07:23.000Z",
+      "publisher": "ナンピィン・ハイレッバー｜AI EA開発",
+      "summary": "Claude CodeのBashツールが、何を打っても同じエラー1行で全滅する——この記事は、その状態から再インストールなしで復旧した記録です。同じエラーに当たった人と、複数のAIエージェントを並走させて運用している人に向けて、①再インス…"
     },
     {
-      "id": "4e644658d530",
-      "title": "Proxmoxで構築するLLMサーバーのざっくりまとめ",
-      "url": "https://zenn.dev/ibuky/articles/f7d4c2d5138171",
-      "publishedAt": "2026-08-22T07:51:47.000Z",
-      "publisher": "ibuky",
-      "summary": "環境構築時の不完全なメモ、history内容、実ファイルの内容からざっくりとした構築時の手順を再現しています。 ハードウェア情報 こちらの記事を参照 BIOSの設定 ProxmoxのインストールやGPUのパススルー設定を行う前に、マザーボ…"
+      "id": "238614134498",
+      "title": "SBV2とPodmanで考えるAIツールの危険性対策 第二章",
+      "url": "https://zenn.dev/eien_syogakusya/articles/d6344a78c8b2ad",
+      "publishedAt": "2026-08-22T01:58:45.000Z",
+      "publisher": "永遠ノ初学者",
+      "summary": "本記事は、全4章によって構成されています。 第一章：基礎知識、WSL有効化、SBV2導入前の準備 第二章：[SBV2導入編]❗️今ココ 第三章：[SBV2の追加DLとpyannote無効化、nftablesによるオフライン化とSBV2側の…"
     },
     {
-      "id": "61229c7f57f2",
-      "title": "RTX 5090でFreeTokenを試してみた。35Bでは不要、120B級MoEでは話が変わる",
-      "url": "https://zenn.dev/holy_fox/articles/53b82eed45f956",
-      "publishedAt": "2026-08-22T07:44:27.000Z",
-      "publisher": "ほーりーふぉっくす",
-      "summary": "2026年8月22日時点のFreeToken 0.1.2を、RTX 5090 32GBとRAM 128GBのPCで試しました。 FreeTokenは、Mixture-of-Experts（MoE）モデルのexpertをホストRAMへ置き、…"
+      "id": "4cce764eeb2c",
+      "title": "SBV2とPodmanで考えるAIツールの危険性対策 第一章",
+      "url": "https://zenn.dev/eien_syogakusya/articles/520844a6caa0a8",
+      "publishedAt": "2026-08-22T01:57:18.000Z",
+      "publisher": "永遠ノ初学者",
+      "summary": "本記事は、全4章によって構成されています。 第一章：基礎知識、WSL有効化、SBV2導入前の準備❗️今ココ 第二章：SBV2導入編 第三章：[SBV2の追加DLとpyannote無効化、nftablesによるオフライン化とSBV2側の調整…"
     }
   ],
-  "fetchedAt": "2026-08-22T18:23:25.848Z",
+  "fetchedAt": "2026-08-22T18:57:20.813Z",
   "stale": false,
   "error": null
 }
