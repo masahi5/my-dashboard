@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "82301d3f5df6",
-      "title": "Claude Codeの全コマンドが突然死んだ——再インストールする前に読む話",
-      "url": "https://zenn.dev/philo_sophy1485/articles/1813036f327bbe",
-      "publishedAt": "2026-08-22T02:07:23.000Z",
-      "publisher": "ナンピィン・ハイレッバー｜AI EA開発",
-      "summary": "Claude CodeのBashツールが、何を打っても同じエラー1行で全滅する——この記事は、その状態から再インストールなしで復旧した記録です。同じエラーに当たった人と、複数のAIエージェントを並走させて運用している人に向けて、①再インス…"
+      "id": "f9946c68add0",
+      "title": "会社と個人のAIログイン混線、Chromeプロファイル分離の仕組みと限界",
+      "url": "https://zenn.dev/every_ai_recipe/articles/chrome-profile-work-personal-split",
+      "publishedAt": "2026-08-21T21:13:35.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR ChromeのプロファイルはCookie・LocalStorage・拡張機能・履歴を含む独立したストレージパーティションであり、同一ブラウザ内で会社アカウントと個人アカウントのOAuthセッションが混線するのを、UI上の注意力…"
     },
     {
-      "id": "238614134498",
-      "title": "SBV2とPodmanで考えるAIツールの危険性対策 第二章",
-      "url": "https://zenn.dev/eien_syogakusya/articles/d6344a78c8b2ad",
-      "publishedAt": "2026-08-22T01:58:45.000Z",
-      "publisher": "永遠ノ初学者",
-      "summary": "本記事は、全4章によって構成されています。 第一章：基礎知識、WSL有効化、SBV2導入前の準備 第二章：[SBV2導入編]❗️今ココ 第三章：[SBV2の追加DLとpyannote無効化、nftablesによるオフライン化とSBV2側の…"
+      "id": "64afed146eb8",
+      "title": "AI 駆動開発でチームはどう変わるか？PM が PO に収斂する未来の体制予想",
+      "url": "https://zenn.dev/fandhe/articles/c08b98625d8af2",
+      "publishedAt": "2026-08-21T17:54:22.000Z",
+      "publisher": "なんしー",
+      "summary": "AI 駆動開発が主流になると、プロダクトマネージャー（PM）のスケジュール管理業務は縮小し、チームは方向性決定者としてのプロダクトオーナー（PO）に収斂していきます。本記事はこの将来体制を、役割移行マップと草案から公開までの全体フロー図で…"
     },
     {
-      "id": "4cce764eeb2c",
-      "title": "SBV2とPodmanで考えるAIツールの危険性対策 第一章",
-      "url": "https://zenn.dev/eien_syogakusya/articles/520844a6caa0a8",
-      "publishedAt": "2026-08-22T01:57:18.000Z",
-      "publisher": "永遠ノ初学者",
-      "summary": "本記事は、全4章によって構成されています。 第一章：基礎知識、WSL有効化、SBV2導入前の準備❗️今ココ 第二章：SBV2導入編 第三章：[SBV2の追加DLとpyannote無効化、nftablesによるオフライン化とSBV2側の調整…"
+      "id": "dcbed8a49e06",
+      "title": "AXIOM-MAS v3.2.2 実験結果 — MASカーネルPrototypeの制御実験",
+      "url": "https://zenn.dev/void09/articles/aafa9f90377986",
+      "publishedAt": "2026-08-21T17:03:40.000Z",
+      "publisher": "kishimoto-void",
+      "summary": "はじめに AXIOM-MASは、LLMそのものを賢くするのではなく、LLMを交換可能な推論部品として扱い、その外側に制御カーネルを置くことを目的としたMAS Prototypeです。 一般的なMASが「複数のLLMを協調させて答えを作る」…"
     },
     {
-      "id": "2a5e29f41e4a",
-      "title": "オンデバイスAI時代のRAGアプリ設計を考える",
-      "url": "https://zenn.dev/gitmame00/articles/4057ae552e1be5",
-      "publishedAt": "2026-08-22T01:36:22.000Z",
-      "publisher": "ゆうすけ",
-      "summary": "Google Tensor SDKの発表により オンデバイスAIがAndroidの標準機能として利用できる時代が見えてきた。 AI Chat、Ask Image、Ask Audio、Agent Skills、Mobile Actionsな…"
+      "id": "4b3b78998159",
+      "title": "品質の高いコードには美学が宿る",
+      "url": "https://zenn.dev/nyamerou/articles/cbe50d73611077",
+      "publishedAt": "2026-08-21T16:11:54.000Z",
+      "publisher": "にゃめろう",
+      "summary": "はじめに 近年AIの性能向上は著しく、実務に耐えるレベルを持つコードの開発速度が劇的なまでになっています。これらのコードは皆似たように、長大で非常に詳細かつ丁寧なコメントが付されており、深い考察と精密なリスク評価がされた上で織り成されたよ…"
     },
     {
-      "id": "63496d3147c4",
-      "title": "AIに「なぜそうした？」を記録させたら、自分の思考が見えてきた",
-      "url": "https://zenn.dev/coj/articles/731560a5353bd1",
-      "publishedAt": "2026-08-22T01:34:25.000Z",
-      "publisher": "Coj",
-      "summary": "１．はじめに AIを使っていると、ふと不安になる瞬間があります。 「この提案、本当に自分で考えたのか？」 「なんとなく採用していないか？」 AIは便利です。でも便利すぎると、思考を外注していることに気づかないまま進んでしまいます。そこで始…"
+      "id": "1326cd05b2f5",
+      "title": "Gemini Sparkを触る勉強会をやってみて考えた、ノーコードAIエージェントとこれからのエンジニア",
+      "url": "https://zenn.dev/shu_kob/articles/53a468ddd1a707",
+      "publishedAt": "2026-08-21T15:21:57.000Z",
+      "publisher": "こぶシュー",
+      "summary": "はじめに 2026年8月21日(金)の19時から、「Gemini Sparkを触る会」という勉強会を個人主催で開催しました。 https://genai-users.connpass.com/event/404236/ 事前資料は作らず、…"
     },
     {
-      "id": "32c58792041b",
-      "title": "従来のAIモダナイゼーションの限界と、Probe Agentが越えようとする壁",
-      "url": "https://zenn.dev/dx_junkyard/articles/6a468db4d425fc",
-      "publishedAt": "2026-08-22T01:14:02.000Z",
-      "publisher": "uras",
-      "summary": "要約 大規模な既存システムをAIで近代化する取り組みは、コード変換、リファクタリング、テスト生成、依存関係更新といった領域で急速に進んでいる。複数のLLMエージェントに役割を分担させ、生成・検証・修正を繰り返す方式も現実の移行案件で試され…"
+      "id": "58b9afb8f168",
+      "title": "VS Code 1.134のAgent Host — 専用プロセスで動くエージェント",
+      "url": "https://zenn.dev/chimao222/articles/ai-dev-vscode-agent-host-20260821",
+      "publishedAt": "2026-08-21T14:02:24.000Z",
+      "publisher": "chimao222",
+      "summary": "はじめに エージェントに長い作業を投げたまま、別のウィンドウで自分の手を動かしたい。そういう場面は日常的にある。ただ、これまでのVS Codeではエージェントのセッションは起動したウィンドウに紐づいていて、隣のウィンドウから同じ会話の続き…"
     },
     {
-      "id": "80c386b02e49",
-      "title": "【試し読み】n8n×AI自動化実践入門 — ノーコードでAIワークフローを作る",
-      "url": "https://zenn.dev/yukihayama/articles/preview-n8n-guide",
-      "publishedAt": "2026-08-22T01:01:41.000Z",
-      "publisher": "葉山悠希",
-      "summary": "【試し読み】n8n×AI自動化実践入門 — ノーコードでAIワークフローを作る 本記事はKindle本 「n8n×AI自動化実践入門 — ノーコードで動かすAIワークフロー」（著者: 葉山悠希）の「はじめに」および「第1章」の一部を公開す…"
+      "id": "403a70018743",
+      "title": "毎週AIエージェントにBTOパソコン約1,000機種を調査させて、コスパの良い機種に絞って自サイトに掲載している話",
+      "url": "https://zenn.dev/specsense/articles/00122f738901db",
+      "publishedAt": "2026-08-21T13:45:48.000Z",
+      "publisher": "SpecSense開発者",
+      "summary": "PCに詳しくない人向けのスペック診断サイト SpecSense を個人開発しています。「やりたいこと（ゲーム・動画編集など）を選ぶと、必要スペックと実際に買える実在モデルが出てくる」のが売りで、BTOショップ5社・メーカー直販4社の246…"
     },
     {
-      "id": "986a6973a701",
-      "title": "Grok 4.5はCursorの操作ログで訓練された、出力トークンが約4分の1になった",
-      "url": "https://zenn.dev/okssusucha/articles/20260711-grok-4-5-cursor-session-data-token-effici",
-      "publishedAt": "2026-08-22T00:07:56.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "7月8日に出たGrok 4.5で、いちばん引っかかったのはベンチマークの数字ではなかった。訓練データの出どころだ。xAI（発表では SpaceXAI 名義）はこのモデルを Cursor と共同で訓練し、その材料に「数兆トークン規模の Cu…"
+      "id": "20d93f850611",
+      "title": "評価を全部通った原稿が 2 本とも空疎だった。AI に渡す台帳には会話ログの原本を添える",
+      "url": "https://zenn.dev/shimo4228/articles/transcript-not-ledger",
+      "publishedAt": "2026-08-21T13:20:05.000Z",
+      "publisher": "shimo4228",
+      "summary": "次のセッションに仕事を引き継ぐとき、あなたは何を渡していますか。 要点をまとめた引き継ぎメモ、決定事項の表、検証済みの事実リスト。丁寧に作るほど、受け取った側は迷わず動けるはずです。 私は 2026 年 8 月 21 日に、それを 1 日…"
     },
     {
-      "id": "625d5b669750",
-      "title": "「動く」と「解ける」は別物。AIエージェントに150問解かせて見つけた本当のバグたち",
-      "url": "https://zenn.dev/sorapenguin/articles/ai-agent-qa-story-2026-08",
-      "publishedAt": "2026-08-22T00:00:12.000Z",
-      "publisher": "ソラペン",
-      "summary": "自動テストは全部緑、でも人間は解けないかもしれない 個人開発しているRouteLabは、CCNA/CCNPのネットワーク設定をブラウザ上のCLIで練習できるシミュレーターです。今日、その中の「トラブルシューティング系」問題150問すべてで…"
+      "id": "fbc8278c6c1b",
+      "title": "M365 Copilot があれば Claude Opus を追加料金なしで使える、定額利用の戦略を読み解く",
+      "url": "https://zenn.dev/syoshida07/articles/82b3b9073afa08",
+      "publishedAt": "2026-08-21T13:00:24.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "M365 Copilot が登場したとき、多くの人は ChatGPTを Office に組み込んだ便利ツールくらいに捉えていたのではないだろうか、筆者自身もそうであった。 だが Microsoftが見ていたのはもっと大きな構造で、AIを単…"
     },
     {
-      "id": "4801f61d8b4a",
-      "title": "領収書スキャンからAI仕訳まで:社内経理自動化システムの設計と実装",
-      "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20260818-scan-keiri-tech-detail",
-      "publishedAt": "2026-08-22T00:00:06.000Z",
-      "publisher": "yutaka8484",
-      "summary": "経理業務のどこにボトルネックがあったか 木工所を営む当社でも、経理まわりの紙処理は長らく悩みの種でした。領収書や納品書は日々発生し、月末にまとめて仕分け、金額や日付、勘定科目を1枚ずつ会計ソフトに入力する。この作業は単調である一方、間違え…"
+      "id": "47a6f5743c11",
+      "title": "人月で稼ぐSIerは、あと数年で詰む",
+      "url": "https://zenn.dev/jnch/articles/18cf3f1893ee5b",
+      "publishedAt": "2026-08-21T12:52:16.000Z",
+      "publisher": "Jnch",
+      "summary": "はじめに 本記事では、自律型AIエージェントの普及によってSIerのビジネスモデルがどう変わるのか、そして生き残るために何を獲得し、何を捨てるべきなのかを考える。 結論としては、SIerの価値は「ソフトウェアを作ること」から、「AIを活用…"
     },
     {
-      "id": "02a8590e7604",
-      "title": "ゼロから始めるClaude Code #14 Gitチーム開発編：レビュー・コンフリクト・共同作業にClaudeを組み込む",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-14-git-team",
-      "publishedAt": "2026-08-21T23:53:55.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は Obsidian 連携で、自分の知識ベースを Claude に読ませました。 https://zenn.dev/mika_and_coco/articles/cl…"
+      "id": "8cbd92239920",
+      "title": "AI承認駆動開発 #5｜ソースコードがViewになった日——構造化された意図からシステムを再構築できるか",
+      "url": "https://zenn.dev/frb_tamasub/articles/ai-approval-driven-development-05-legacy",
+      "publishedAt": "2026-08-21T12:36:53.000Z",
+      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
+      "summary": "! これは、あくまでも今までの体験から生まれた思考ログである。 人間の意図を十分な粒度で構造化Dataにできたら、そこから同じ振る舞いをするシステムを再生成できるのではないか。 ! 「テストコードが無かった」という歴史そのものを飛び越えて…"
     },
     {
-      "id": "bb6bb30e14a1",
-      "title": "「AI駆動開発【大阪支部 #14】with クラスメソッド」で気になったワードをChatGPTに聞いた",
-      "url": "https://zenn.dev/takeuchi_log/articles/3796572832560d",
-      "publishedAt": "2026-08-21T23:39:32.000Z",
-      "publisher": "takeuchi",
-      "summary": "「AI駆動開発【大阪支部 #14】with クラスメソッド」で気になったワード 2026/08/20に開催された「AI駆動開発【大阪支部 #14】with クラスメソッド」に参加しました その中で気になったワードを、その場でChatGPT…"
+      "id": "b10e4de40889",
+      "title": "AIに「あれは入れないで」と直させると、なぜか本文に「入れてません」と書いてくる",
+      "url": "https://zenn.dev/motimotinotch/articles/546674976fede8",
+      "publishedAt": "2026-08-21T12:26:45.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "こんな投稿を見かけた。 https://x.com/chokudai/status/2084538207732178997?s=20 これは自分なりの要約だが、要するにこういう話だ。AIに何かを一発で出させるのは得意。でも、後から「〇〇は…"
     }
   ],
-  "fetchedAt": "2026-08-22T03:14:50.937Z",
+  "fetchedAt": "2026-08-22T03:58:54.459Z",
   "stale": false,
   "error": null
 }
