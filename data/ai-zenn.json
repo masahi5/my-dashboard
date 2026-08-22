@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "f9946c68add0",
-      "title": "会社と個人のAIログイン混線、Chromeプロファイル分離の仕組みと限界",
-      "url": "https://zenn.dev/every_ai_recipe/articles/chrome-profile-work-personal-split",
-      "publishedAt": "2026-08-21T21:13:35.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR ChromeのプロファイルはCookie・LocalStorage・拡張機能・履歴を含む独立したストレージパーティションであり、同一ブラウザ内で会社アカウントと個人アカウントのOAuthセッションが混線するのを、UI上の注意力…"
-    },
-    {
       "id": "64afed146eb8",
       "title": "AI 駆動開発でチームはどう変わるか？PM が PO に収斂する未来の体制予想",
       "url": "https://zenn.dev/fandhe/articles/c08b98625d8af2",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-08-21T12:26:45.000Z",
       "publisher": "MotimotiNotch",
       "summary": "こんな投稿を見かけた。 https://x.com/chokudai/status/2084538207732178997?s=20 これは自分なりの要約だが、要するにこういう話だ。AIに何かを一発で出させるのは得意。でも、後から「〇〇は…"
+    },
+    {
+      "id": "c5d3beb7ce6d",
+      "title": "Codexに「壊してよいDB」を渡す——IssueごとにworktreeとDocker実行環境を分離する",
+      "url": "https://zenn.dev/tohru_ohnishi/articles/26a4d95c421d61",
+      "publishedAt": "2026-08-21T11:58:55.000Z",
+      "publisher": "楓馬企画 | 大西徹",
+      "summary": "先に結論 Git worktreeを使い始めて、一番よかったのはブランチの切り替えが減ったことではありませんでした。 Codexに「このDBなら壊して試していい」と思える開発環境を渡せるようになったことです。 現在は、次の単位を対応させて…"
     }
   ],
-  "fetchedAt": "2026-08-22T01:00:39.825Z",
+  "fetchedAt": "2026-08-22T02:20:43.970Z",
   "stale": false,
   "error": null
 }
