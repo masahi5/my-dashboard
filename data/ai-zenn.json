@@ -6,62 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "16d6fb9db21d",
-      "title": "ブラウザでリアルタイムAI顔交換を試す：うまくいかないときの切り分け方",
-      "url": "https://zenn.dev/mixfox/articles/c399d662f8e851",
-      "publishedAt": "2026-08-22T13:27:35.000Z",
-      "publisher": "ぽこひで",
-      "summary": "ブラウザでリアルタイムAI顔交換を試すとき、いきなり「モデルの品質」を見るより、カメラ入力 → 参照画像 → AI出力 → 通信の順で確認した方が原因を追いやすい。個人開発している LiveFaceSwap AI のブラウザ版を作る中でも…"
-    },
-    {
-      "id": "8c7c20fe6624",
-      "title": "「モデルが20%できる問題」は狙うな — Jeff Dean が YC で話した1%ルール",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr26-jeffdean-summary",
-      "publishedAt": "2026-08-22T13:00:12.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について ! 本記事は Jeff Dean が Y Combinator の Startup School 2026 で話した内容の紹介と論評です。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文…"
-    },
-    {
-      "id": "7d59641e1b18",
-      "title": "Claude Code でサブエージェント並列オーケストレーションを組むんやで｜Shorts 自動化を題材に",
-      "url": "https://zenn.dev/masayan1126/books/shorts-orchestration-pipeline",
-      "publishedAt": "2026-08-22T12:57:31.000Z",
-      "publisher": "まさやん",
-      "summary": "Claude Code の並列セッション × 8 体のサブエージェント × フィードバックループで、AI パイプラインを組む設計思想を、Shorts 自動化（24 本以上の実運用）を題材に全部見せたるで。"
-    },
-    {
-      "id": "e3c0486d9ab5",
-      "title": "OxAlphaを一日中使ってみた感想",
-      "url": "https://zenn.dev/ossmxun/articles/65ca5a7797f4fc",
-      "publishedAt": "2026-08-22T12:16:09.000Z",
-      "publisher": "お刺身くん",
-      "summary": "OxAlphaについて とんでもないものが出た 皆さんは突如8/21から一週間限定で、1Mコンテキスト、使用量無制限で提供され始めたOxAlphaというものをご存じでしょうか？ AIを追っている人なら既にご存じかと思いますが、これが出たす…"
-    },
-    {
-      "id": "62983b80a8a1",
-      "title": "Claude Sonnet 5とGPT-5.6が出揃った今、エージェント自動化を最小コードで組む",
-      "url": "https://zenn.dev/kairosai/articles/9d0e994d2dd352",
-      "publishedAt": "2026-08-22T12:04:11.000Z",
-      "publisher": "kairos",
-      "summary": "はじめに 2026年7月、AI御三家の新モデルが出揃いました。OpenAIのGPT-5.6（7/9公開、Sol/Luna/Terraの3バリアント＋ChatGPT Work）、AnthropicのClaude Sonnet 5（7/1公開…"
-    },
-    {
-      "id": "3abe755131e1",
-      "title": "【チームによるAI駆動開発の勘所：第5回】サービスをまたぐ整合性 - 「どちらも使えない」が正解のとき",
-      "url": "https://zenn.dev/scalar_sol_blog/articles/6c77116c8528e8",
-      "publishedAt": "2026-08-22T11:58:27.000Z",
-      "publisher": "wfukatsu",
-      "summary": "サービスをまたぐ整合性をどう担保するか。この問いに対して、多くの現場では次のような順序で判断が進みます。 外部SaaS があるから ScalarDB のような基盤には載せられない だから Saga（補償トランザクション）でいこう この順序…"
-    },
-    {
-      "id": "d33abff2a7d7",
-      "title": "AIへの指示書を、現場の標準作業手順書として書き直した",
-      "url": "https://zenn.dev/handa_lab/articles/02-instruction-as-sop",
-      "publishedAt": "2026-08-22T10:53:27.000Z",
-      "publisher": "HandaLab",
-      "summary": "Claude Code に同じ注意を三度した。言い方を変えて、具体例も足して、それでも三度目に似た形の失敗が返ってきた。「指示が悪いのか、AIの限界なのか」と考えているうちに、これは検査工程で見た光景だと気づいた。理由が書かれていない作業…"
-    },
-    {
       "id": "04b40ff7e659",
       "title": "AIエージェント11体でブラウザゲームを作ったら、バグの大半が「書いたのに動いていない」だった",
       "url": "https://zenn.dev/yohsuke_zw/articles/0170dca5dcdae3",
@@ -100,9 +44,65 @@
       "publishedAt": "2026-08-22T08:57:00.000Z",
       "publisher": "k",
       "summary": "みなさんはAIのタスク管理どうされていますか？僕は何だかんだでメモ帳に書くスタイルに落ち着いていました。 Agentが空いたら次やるタスク、追加プロンプトを入れるためにメモを残すみたいなイメージです。 自分自身の開発もこのやり方で管理して…"
+    },
+    {
+      "id": "600e55e8057c",
+      "title": "AIにコードを書かせるなら、Git hookは重いほうがいい",
+      "url": "https://zenn.dev/smasato/articles/b213ce4077af91",
+      "publishedAt": "2026-08-22T08:38:21.000Z",
+      "publisher": "Masato Sugiyama",
+      "summary": "はじめに Claude Code や Devin のような AI コーディングエージェントにコードを書かせていると、人間が書いていた頃は気にならなかった問題が目につき始めます。その 1 つが「AI が push した PR の CI が落…"
+    },
+    {
+      "id": "db0ce1e5debf",
+      "title": "モードを増やす作業を、Markdown 1枚に閉じ込める：Go でプロンプトをコードから引き剥がす",
+      "url": "https://zenn.dev/snknsk/articles/go-prompt-kit-mode-per-file",
+      "publishedAt": "2026-08-22T08:29:42.000Z",
+      "publisher": "shouni",
+      "summary": "AI を使うアプリには、たいてい「モード」があります。レビューなら記事レビューとコードレビュー、漫画なら章立てとネームとパネル。中身の違いは、ほとんどがプロンプトの文言です。 にもかかわらず、モードを1つ増やすと触る場所は増えていきます。…"
+    },
+    {
+      "id": "29d444c3ae5d",
+      "title": "Claude Code のデスクトップ操作、内蔵の computer-use ではなく Windows-MCP を使っている理由",
+      "url": "https://zenn.dev/marvelousu/articles/windows-mcp-vs-computer-use",
+      "publishedAt": "2026-08-22T08:27:40.000Z",
+      "publisher": "Tom",
+      "summary": "Claude Code にデスクトップ操作を任せる手段には、内蔵の computer-use があります。画面を撮ってピクセル座標でクリックするこの方式のまま任せ続けてよいのか気になって代わりを探し、UI Automation で画面を構…"
+    },
+    {
+      "id": "d897d51b1b06",
+      "title": "AI生成コードを「どこまで理解してから」マージすべきか——理解基準3段階と2つのゲート",
+      "url": "https://zenn.dev/hawk_claws/articles/d167856249b9da",
+      "publishedAt": "2026-08-22T08:22:39.000Z",
+      "publisher": "HawkClaws",
+      "summary": "レビュー論は「読むのをやめた」まで来てしまった AIコーディングの議論は、この半年でずいぶん進みました。 PRは爆増したのにリリースは増えない、ボトルネックはコーディングからレビューに移動した——このあたりはdtakamiyaさんや[堀川…"
+    },
+    {
+      "id": "9e9eebff8c24",
+      "title": "llama.cppでQwen3.8:27bの思考グルグルをある程度削減",
+      "url": "https://zenn.dev/ibuky/articles/745131581b2fc9",
+      "publishedAt": "2026-08-22T07:55:27.000Z",
+      "publisher": "ibuky",
+      "summary": "詳細は追記します CUDA_VISIBLE_DEVICES=0,1 ./llama-cli --model ~/unsloth/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q4_0.gguf --temp 1.0 --top…"
+    },
+    {
+      "id": "4e644658d530",
+      "title": "Proxmoxで構築するLLMサーバーのざっくりまとめ",
+      "url": "https://zenn.dev/ibuky/articles/f7d4c2d5138171",
+      "publishedAt": "2026-08-22T07:51:47.000Z",
+      "publisher": "ibuky",
+      "summary": "環境構築時の不完全なメモ、history内容、実ファイルの内容からざっくりとした構築時の手順を再現しています。 ハードウェア情報 こちらの記事を参照 BIOSの設定 ProxmoxのインストールやGPUのパススルー設定を行う前に、マザーボ…"
+    },
+    {
+      "id": "61229c7f57f2",
+      "title": "RTX 5090でFreeTokenを試してみた。35Bでは不要、120B級MoEでは話が変わる",
+      "url": "https://zenn.dev/holy_fox/articles/53b82eed45f956",
+      "publishedAt": "2026-08-22T07:44:27.000Z",
+      "publisher": "ほーりーふぉっくす",
+      "summary": "2026年8月22日時点のFreeToken 0.1.2を、RTX 5090 32GBとRAM 128GBのPCで試しました。 FreeTokenは、Mixture-of-Experts（MoE）モデルのexpertをホストRAMへ置き、…"
     }
   ],
-  "fetchedAt": "2026-08-22T16:33:25.984Z",
+  "fetchedAt": "2026-08-22T16:59:30.223Z",
   "stale": false,
   "error": null
 }
