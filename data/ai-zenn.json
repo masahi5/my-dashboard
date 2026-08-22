@@ -6,62 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "ffbbf7a78c6d",
-      "title": "Claude Code / Codexのコストをタスク単位で測るとき、曖昧なセッションを按分しない理由",
-      "url": "https://zenn.dev/yusuke_shiki/articles/d367713e3a86c7",
-      "publishedAt": "2026-08-22T20:54:49.000Z",
-      "publisher": "Yusuke Shiki",
-      "summary": "Claude CodeやCodexを仕事で使うと、やがて「どれだけ使ったか」だけでは足りなくなる。「その利用は、どの変更のためだったのか」まで知りたくなる。 私は既存のtoken/cost trackerを知らずにagent-costを作…"
-    },
-    {
-      "id": "1c474cde4f64",
-      "title": "AI導入後の会議メモを5項目に正規化する",
-      "url": "https://zenn.dev/miraigent/articles/ai-adoption-meeting-note-normalization",
-      "publishedAt": "2026-08-22T20:36:49.000Z",
-      "publisher": "Kirisaki Kazuya | Miraigent代表",
-      "summary": "AIを小さく導入した後の定例会議では、利用件数や所要時間だけが残り、次に何を判断すべきか分からなくなることがあります。 この記事では、会議メモを「次の担当者が判断できる記録」にするため、毎回同じ5項目へ正規化する方法を紹介します。対象は、…"
-    },
-    {
-      "id": "5a15ab28ddfd",
-      "title": "AIエージェントの待ち時間は単純に足せない——並列実行の重複をどう計測するか",
-      "url": "https://zenn.dev/nomurasan/articles/ai-wait-time-is-not-work-hours",
-      "publishedAt": "2026-08-22T17:19:42.000Z",
-      "publisher": "のむらや",
-      "summary": "! 本記事の計測設計・実測・掲載値の丸め方・結論は著者本人が確認しています。AIはタイトル・記事構成・表現の整理と、掲載コードの再実行確認を補助しました。 AIエージェントを並列で動かしていると、応答待ちを単純に足した合計は、実際の経過時…"
-    },
-    {
-      "id": "9719cb75114e",
-      "title": "Claude Code + Codex、流行ってるけど個人開発の規模だと要らなかった話",
-      "url": "https://zenn.dev/hontsuke/articles/c2038913b11f84",
-      "publishedAt": "2026-08-22T17:00:46.000Z",
-      "publisher": "本つけ",
-      "summary": "Claude Code + Codexという定番 最近、Claude CodeにOpenAIのCodexを連携させて、実装したコードを別のAIにレビューさせる運用をよく見かけるようになりました。OpenAI公式のプラグインまで出ているくら…"
-    },
-    {
-      "id": "e2519b357311",
-      "title": "AIエージェントへの「委譲」はタダではない — 1週間分の実測で損益分岐を出した",
-      "url": "https://zenn.dev/ace_toshi/articles/claude-code-agent-delegation-cost",
-      "publishedAt": "2026-08-22T16:54:31.000Z",
-      "publisher": "Ace",
-      "summary": "この記事の主張 Claude Code から別のCLIエージェント（Gemini Antigravity）へ力仕事を委譲する構成を組み、1週間運用した。狙いは「Claudeの週間トークン制限を温存する」ことである。 結果として得られた結論…"
-    },
-    {
-      "id": "cb25295f4cf7",
-      "title": "CPUのみで極力高速にローカルLLMする",
-      "url": "https://zenn.dev/ashidan/articles/tech_llm_cpu_b",
-      "publishedAt": "2026-08-22T16:48:10.000Z",
-      "publisher": "molelord",
-      "summary": "Windowsかつ、CPUのみでローカルLLMしたい RAMが16GB以上ある 自前ビルドが必要でも性能を上げたい というニッチな需要を満たす記事です。 関連記事が CPUのみでローカルLLMする にあります。自前ビルドが不要なぶん少し楽…"
-    },
-    {
-      "id": "dc3abeec891a",
-      "title": "なぜ、GPTのTerra以下、ClaudeのSonnet以下、Geminiの全部に価値が無いのか？",
-      "url": "https://zenn.dev/pdfractal/articles/55929755eb39c1",
-      "publishedAt": "2026-08-22T15:08:55.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに 2026年現在、大規模言語モデルは露骨な階層商品になっています。OpenAIはGPT-5.6 Solを最上位、Terraを日常業務向けのバランス型、Lunaを高速・低価格モデルとして位置づけています。AnthropicもClau…"
-    },
-    {
       "id": "7c5d6b94095b",
       "title": "559日間放置したアプリの開発を再開して気がついた、個人開発をやる意味",
       "url": "https://zenn.dev/j____takumi/articles/reason-of-individual-development",
@@ -100,9 +44,65 @@
       "publishedAt": "2026-08-22T12:57:31.000Z",
       "publisher": "まさやん",
       "summary": "Claude Code の並列セッション × 8 体のサブエージェント × フィードバックループで、AI パイプラインを組む設計思想を、Shorts 自動化（24 本以上の実運用）を題材に全部見せたるで。"
+    },
+    {
+      "id": "e3c0486d9ab5",
+      "title": "OxAlphaを一日中使ってみた感想",
+      "url": "https://zenn.dev/ossmxun/articles/65ca5a7797f4fc",
+      "publishedAt": "2026-08-22T12:16:09.000Z",
+      "publisher": "お刺身くん",
+      "summary": "OxAlphaについて とんでもないものが出た 皆さんは突如8/21から一週間限定で、1Mコンテキスト、使用量無制限で提供され始めたOxAlphaというものをご存じでしょうか？ AIを追っている人なら既にご存じかと思いますが、これが出たす…"
+    },
+    {
+      "id": "62983b80a8a1",
+      "title": "Claude Sonnet 5とGPT-5.6が出揃った今、エージェント自動化を最小コードで組む",
+      "url": "https://zenn.dev/kairosai/articles/9d0e994d2dd352",
+      "publishedAt": "2026-08-22T12:04:11.000Z",
+      "publisher": "kairos",
+      "summary": "はじめに 2026年7月、AI御三家の新モデルが出揃いました。OpenAIのGPT-5.6（7/9公開、Sol/Luna/Terraの3バリアント＋ChatGPT Work）、AnthropicのClaude Sonnet 5（7/1公開…"
+    },
+    {
+      "id": "3abe755131e1",
+      "title": "【チームによるAI駆動開発の勘所：第5回】サービスをまたぐ整合性 - 「どちらも使えない」が正解のとき",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/6c77116c8528e8",
+      "publishedAt": "2026-08-22T11:58:27.000Z",
+      "publisher": "wfukatsu",
+      "summary": "サービスをまたぐ整合性をどう担保するか。この問いに対して、多くの現場では次のような順序で判断が進みます。 外部SaaS があるから ScalarDB のような基盤には載せられない だから Saga（補償トランザクション）でいこう この順序…"
+    },
+    {
+      "id": "d33abff2a7d7",
+      "title": "AIへの指示書を、現場の標準作業手順書として書き直した",
+      "url": "https://zenn.dev/handa_lab/articles/02-instruction-as-sop",
+      "publishedAt": "2026-08-22T10:53:27.000Z",
+      "publisher": "HandaLab",
+      "summary": "Claude Code に同じ注意を三度した。言い方を変えて、具体例も足して、それでも三度目に似た形の失敗が返ってきた。「指示が悪いのか、AIの限界なのか」と考えているうちに、これは検査工程で見た光景だと気づいた。理由が書かれていない作業…"
+    },
+    {
+      "id": "04b40ff7e659",
+      "title": "AIエージェント11体でブラウザゲームを作ったら、バグの大半が「書いたのに動いていない」だった",
+      "url": "https://zenn.dev/yohsuke_zw/articles/0170dca5dcdae3",
+      "publishedAt": "2026-08-22T09:23:54.000Z",
+      "publisher": "yohsuke_zw",
+      "summary": "Claude Code に「キャンプゲームを作って」と1通投げたら、3日でブラウザゲームが1本できました。 渓谷キャンプ — 秋の渓流沿いのキャンプ場で焚火をおこし、飯盒でご飯を炊き、その様子を撮って投稿するVlogシミュレータです。 遊…"
+    },
+    {
+      "id": "fe905998e2e2",
+      "title": "Codexを「放し飼い」にしない。「拾い食い」を止めて分かったAIコーディングの境界線",
+      "url": "https://zenn.dev/tosane932/articles/0aac24f04df42a",
+      "publishedAt": "2026-08-22T09:17:48.000Z",
+      "publisher": "tosane932",
+      "summary": "個人開発でCodexを使うようになってから、コードを書く速度はかなり上がりました。 調査を頼めば、複数のファイルを横断して問題を探してくれる。 pytestを書いてもらうこともできる。 修正案も出してくれる。 Gitの差分確認まで頼める。…"
+    },
+    {
+      "id": "4a9dc5025391",
+      "title": "AIコーディングの精度を上げる「任せ方」と「確かめ方」",
+      "url": "https://zenn.dev/mamimami/articles/4fbcf34f2d8bac",
+      "publishedAt": "2026-08-22T09:00:05.000Z",
+      "publisher": "maimai",
+      "summary": "はじめに 最近では、ChatGPTやClaude Code、CodexなどのAIツールを、実際の開発業務で利用する機会が増えてきました。 コードの生成はもちろん、既存コードの調査、実装方針の検討、バグの原因調査、テストコードの作成、コード…"
     }
   ],
-  "fetchedAt": "2026-08-22T22:47:08.992Z",
+  "fetchedAt": "2026-08-22T23:17:21.802Z",
   "stale": false,
   "error": null
 }
