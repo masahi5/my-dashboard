@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "ffbbf7a78c6d",
-      "title": "Claude Code / Codexのコストをタスク単位で測るとき、曖昧なセッションを按分しない理由",
-      "url": "https://zenn.dev/yusuke_shiki/articles/d367713e3a86c7",
-      "publishedAt": "2026-08-22T20:54:49.000Z",
-      "publisher": "Yusuke Shiki",
-      "summary": "Claude CodeやCodexを仕事で使うと、やがて「どれだけ使ったか」だけでは足りなくなる。「その利用は、どの変更のためだったのか」まで知りたくなる。 私は既存のtoken/cost trackerを知らずにagent-costを作…"
+      "id": "982d237706ca",
+      "title": "RAGにおけるコンテキスト整備",
+      "url": "https://zenn.dev/oryo_data/articles/7c431c3b33268e",
+      "publishedAt": "2026-08-23T04:31:49.000Z",
+      "publisher": "おりょう【なんでもデータ分析】",
+      "summary": "蒲生弘郷著『LLMの原理、RAG・エージェント開発から読み解くコンテキストエンジニアリング』の読書アウトプット第4弾です。今回は第4章「RAGにおけるコンテキスト整備」を扱います。 https://link.amazon/B09ERwnQ…"
     },
     {
-      "id": "1c474cde4f64",
-      "title": "AI導入後の会議メモを5項目に正規化する",
-      "url": "https://zenn.dev/miraigent/articles/ai-adoption-meeting-note-normalization",
-      "publishedAt": "2026-08-22T20:36:49.000Z",
-      "publisher": "Kirisaki Kazuya | Miraigent代表",
-      "summary": "AIを小さく導入した後の定例会議では、利用件数や所要時間だけが残り、次に何を判断すべきか分からなくなることがあります。 この記事では、会議メモを「次の担当者が判断できる記録」にするため、毎回同じ5項目へ正規化する方法を紹介します。対象は、…"
+      "id": "10c8d9722de6",
+      "title": "AIに夜の仕事を任せたら、「AIを信用しすぎない仕組み」ができた",
+      "url": "https://zenn.dev/rabbitfoot/articles/de44049f4d3988",
+      "publishedAt": "2026-08-23T03:17:55.000Z",
+      "publisher": "rabbitfoot_ai",
+      "summary": "ローカルLLMに、寝ている間の仕事を任せたい。 夜のうちに調べてもらって、朝になったら結果がまとまっている。 そんな仕組みをIrisに追加しようとして、最初は Overnight Worker と呼んでいました。 ただ、作っていくうちに夜…"
     },
     {
-      "id": "5a15ab28ddfd",
-      "title": "AIエージェントの待ち時間は単純に足せない——並列実行の重複をどう計測するか",
-      "url": "https://zenn.dev/nomurasan/articles/ai-wait-time-is-not-work-hours",
-      "publishedAt": "2026-08-22T17:19:42.000Z",
-      "publisher": "のむらや",
-      "summary": "! 本記事の計測設計・実測・掲載値の丸め方・結論は著者本人が確認しています。AIはタイトル・記事構成・表現の整理と、掲載コードの再実行確認を補助しました。 AIエージェントを並列で動かしていると、応答待ちを単純に足した合計は、実際の経過時…"
+      "id": "07fbb4b931d1",
+      "title": "検証は全部PASSした。それでも、生成したPDFの文字は見えなかった",
+      "url": "https://zenn.dev/ailmira/articles/300e0aee9997a2",
+      "publishedAt": "2026-08-23T03:13:43.000Z",
+      "publisher": "AILMIRA",
+      "summary": "仕事でそのまま使えるPDFを、自動で作れる仕組みをAIと一緒に作っていました。 作るだけではなく、正常に作れたかの確認もAI側で行います。 ある日、その仕組みから「完成した」と判断できるPDFができました。 生成できている ビルドも通って…"
     },
     {
-      "id": "9719cb75114e",
-      "title": "Claude Code + Codex、流行ってるけど個人開発の規模だと要らなかった話",
-      "url": "https://zenn.dev/hontsuke/articles/c2038913b11f84",
-      "publishedAt": "2026-08-22T17:00:46.000Z",
-      "publisher": "本つけ",
-      "summary": "Claude Code + Codexという定番 最近、Claude CodeにOpenAIのCodexを連携させて、実装したコードを別のAIにレビューさせる運用をよく見かけるようになりました。OpenAI公式のプラグインまで出ているくら…"
+      "id": "4c64d36b380f",
+      "title": "AIに作らせて、目で選ぶだけ。スマホでCloudflare Workersの日本語OGPを作り直した",
+      "url": "https://zenn.dev/coji/articles/og-image-ai-visual-review-mobile",
+      "publishedAt": "2026-08-23T03:02:55.000Z",
+      "publisher": "Coji Mizoguchi",
+      "summary": "これはなに？ ひとりで開発している Artifact Share のOG画像生成を、SatoriからTakumiへ移行して作り直しました。調査、仕様づくり、実装、視覚検証、レビュー、PRのマージまで、すべてスマートフォンのCodexからリ…"
     },
     {
-      "id": "e2519b357311",
-      "title": "AIエージェントへの「委譲」はタダではない — 1週間分の実測で損益分岐を出した",
-      "url": "https://zenn.dev/ace_toshi/articles/claude-code-agent-delegation-cost",
-      "publishedAt": "2026-08-22T16:54:31.000Z",
-      "publisher": "Ace",
-      "summary": "この記事の主張 Claude Code から別のCLIエージェント（Gemini Antigravity）へ力仕事を委譲する構成を組み、1週間運用した。狙いは「Claudeの週間トークン制限を温存する」ことである。 結果として得られた結論…"
+      "id": "4a9d155bc00c",
+      "title": "【AWS】SageMaker AIの推論レコメンデーションは何を自動化したのか？",
+      "url": "https://zenn.dev/kira_n/articles/17ab673a3702cc",
+      "publishedAt": "2026-08-23T02:51:03.000Z",
+      "publisher": "kira_n",
+      "summary": "はじめに 2026年4月、Amazon SageMaker AIに「推論レコメンデーション」機能が追加されました。生成AIモデルの本番デプロイに必要なインスタンス選定やパラメータチューニングを、手動ベンチマークなしで自動化するというもので…"
     },
     {
-      "id": "cb25295f4cf7",
-      "title": "CPUのみで極力高速にローカルLLMする",
-      "url": "https://zenn.dev/ashidan/articles/tech_llm_cpu_b",
-      "publishedAt": "2026-08-22T16:48:10.000Z",
-      "publisher": "molelord",
-      "summary": "Windowsかつ、CPUのみでローカルLLMしたい RAMが16GB以上ある 自前ビルドが必要でも性能を上げたい というニッチな需要を満たす記事です。 関連記事が CPUのみでローカルLLMする にあります。自前ビルドが不要なぶん少し楽…"
+      "id": "b6a4406f5808",
+      "title": "AGENTS.md リンタを118リポジトリに当てたら、記事に書いたフラグが一度も動いていなかった",
+      "url": "https://zenn.dev/maronsan/articles/reflint-audit-118-repos",
+      "publishedAt": "2026-08-23T01:40:04.000Z",
+      "publisher": "maronsan",
+      "summary": "AGENTS.md や CLAUDE.md は静かに腐る。「セットアップは npm run build」「エントリは src/index.ts」と書いたまま、リネームや削除でその一文が嘘になる。エージェントはそれを信じて事故る。 文体や表…"
     },
     {
-      "id": "dc3abeec891a",
-      "title": "なぜ、GPTのTerra以下、ClaudeのSonnet以下、Geminiの全部に価値が無いのか？",
-      "url": "https://zenn.dev/pdfractal/articles/55929755eb39c1",
-      "publishedAt": "2026-08-22T15:08:55.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに 2026年現在、大規模言語モデルは露骨な階層商品になっています。OpenAIはGPT-5.6 Solを最上位、Terraを日常業務向けのバランス型、Lunaを高速・低価格モデルとして位置づけています。AnthropicもClau…"
+      "id": "ce40e718ea03",
+      "title": "RAGとGraphRAGを同じ100問で並べたら、勝敗が質問タイプで真っ二つに割れた",
+      "url": "https://zenn.dev/kenimo49/articles/rag-vs-graphrag-100-questions-verdict",
+      "publishedAt": "2026-08-23T01:22:35.000Z",
+      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
+      "summary": "私はGraphRAGを「次世代RAG」だと信じて、全質問に適用しました。100問並列評価の結果、44問ぶんのカテゴリでRAGに負けたのです。導入前に測っておくべきでした。 社内QAアシスタントの精度を上げるつもりが、逆にベースライン割れを…"
     },
     {
-      "id": "7c5d6b94095b",
-      "title": "559日間放置したアプリの開発を再開して気がついた、個人開発をやる意味",
-      "url": "https://zenn.dev/j____takumi/articles/reason-of-individual-development",
-      "publishedAt": "2026-08-22T14:11:07.000Z",
-      "publisher": "j____takumi",
-      "summary": "この記事についての3行 個人開発は自分の興味を最大限伸ばせる マネタイズできなくても、やる価値は十分ある 559日間放置したとしても、また戻って来られる 執筆理由:自分なりに個人開発をしている理由を共有したかったから 最近、559日間放置…"
+      "id": "5980538f6a28",
+      "title": "Claude・Gemini・GPT、同じ要約タスクでもプロンプト設計をどう変えるか",
+      "url": "https://zenn.dev/shiomusubi/articles/7cb81df7630e60",
+      "publishedAt": "2026-08-23T00:32:02.000Z",
+      "publisher": "おむすび",
+      "summary": "はじめに 生成AIを業務で使う場面が増える中、「同じ内容を要約させたいだけなのに、モデルによって出力の質にバラつきが出る」と感じたことはないでしょうか。 これは多くの場合、モデルの性能差というよりプロンプトの設計思想がモデルの特性に合って…"
     },
     {
-      "id": "1bd91ab5bca0",
-      "title": "Claudeのテキスト透かし（ウォーターマーク）は何をしているのか ── サンプリングの仕組みから理解する",
-      "url": "https://zenn.dev/rinrin_ds_17/articles/bc093cfa3bdbd1",
-      "publishedAt": "2026-08-22T14:02:40.000Z",
-      "publisher": "はやし",
-      "summary": "はじめに 2026年8月14日、AnthropicがClaudeの出力テキストに透かし（ウォーターマーク）を入れると発表しました。これを受けて、Sebastian Raschka氏（『Build a Large Language Mode…"
+      "id": "3f9503f69a23",
+      "title": "ゼロから始めるClaude Code #15 総まとめ：使って分かった勘所とハマりどころ",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-15-summary",
+      "publishedAt": "2026-08-23T00:31:38.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はGitチーム開発編で、レビュー・コンフリクト・設定の共有を扱いました。 https://zenn.dev/mika_and_coco/articles/claude…"
     },
     {
-      "id": "16d6fb9db21d",
-      "title": "ブラウザでリアルタイムAI顔交換を試す：うまくいかないときの切り分け方",
-      "url": "https://zenn.dev/mixfox/articles/c399d662f8e851",
-      "publishedAt": "2026-08-22T13:27:35.000Z",
-      "publisher": "ぽこひで",
-      "summary": "ブラウザでリアルタイムAI顔交換を試すとき、いきなり「モデルの品質」を見るより、カメラ入力 → 参照画像 → AI出力 → 通信の順で確認した方が原因を追いやすい。個人開発している LiveFaceSwap AI のブラウザ版を作る中でも…"
+      "id": "29c8dd320825",
+      "title": "オープンソース化されたRISC-V AIチップET-SoC-1が、llama.cppで動く",
+      "url": "https://zenn.dev/okssusucha/articles/20260711-llama-cpp-et-soc-1-backend",
+      "publishedAt": "2026-08-23T00:16:43.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "llama.cpp のリリース履歴を追っていて、7月10日の b9951 で手が止まった。ggml-et という見慣れないバックエンドが増えている。ET は EdgeTPU でも ExecuTorch でもなく、Esperanto Tec…"
     },
     {
-      "id": "8c7c20fe6624",
-      "title": "「モデルが20%できる問題」は狙うな — Jeff Dean が YC で話した1%ルール",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr26-jeffdean-summary",
-      "publishedAt": "2026-08-22T13:00:12.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について ! 本記事は Jeff Dean が Y Combinator の Startup School 2026 で話した内容の紹介と論評です。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文…"
+      "id": "da8fe59dd787",
+      "title": "AI動画の外注費は「完成尺」で見積もると半分以下に外れる（機材109万の回収試算）",
+      "url": "https://zenn.dev/made_linlin/articles/ai-video-outsourcing-cost-burned-seconds",
+      "publishedAt": "2026-08-23T00:05:51.000Z",
+      "publisher": "made_linlin",
+      "summary": "民生GPU 1台でAI MVを作っている。よく聞かれるのが「それ、外注したほうが安いのでは」だ。 計算した。結論を先に言うと 「焼く量による」 で、そして多くの人はこの見積もりを半分以下に外す。 理由は単純で、外注は「完成した尺」ではなく…"
     },
     {
-      "id": "7d59641e1b18",
-      "title": "Claude Code でサブエージェント並列オーケストレーションを組むんやで｜Shorts 自動化を題材に",
-      "url": "https://zenn.dev/masayan1126/books/shorts-orchestration-pipeline",
-      "publishedAt": "2026-08-22T12:57:31.000Z",
-      "publisher": "まさやん",
-      "summary": "Claude Code の並列セッション × 8 体のサブエージェント × フィードバックループで、AI パイプラインを組む設計思想を、Shorts 自動化（24 本以上の実運用）を題材に全部見せたるで。"
+      "id": "cf00ce06514b",
+      "title": "AIを使っても「結局使えない」と感じたことはありませんか？その原因と解法",
+      "url": "https://zenn.dev/arc0922/articles/8b2403724f88dc",
+      "publishedAt": "2026-08-23T00:00:05.000Z",
+      "publisher": "arc@AIを試す人",
+      "summary": "0. はじめに AIを使っても、結局「使えない」と感じたことはありませんか？ 私は普段から業務でAIを活用していますが、周囲のエンジニアやビジネスパーソンに話を聞くと ただチャットとして雑談や検索代わりに使っているだけという声が大半でした…"
     }
   ],
-  "fetchedAt": "2026-08-23T06:04:27.798Z",
+  "fetchedAt": "2026-08-23T07:00:20.044Z",
   "stale": false,
   "error": null
 }
