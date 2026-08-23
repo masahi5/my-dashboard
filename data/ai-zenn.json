@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c28ed90e19f2",
-      "title": "AI駆動開発でTDDをやってみたら、コストは消えずに\"トークン\"に化けただけだった件",
-      "url": "https://zenn.dev/hontsuke/articles/b5d3535358f167",
-      "publishedAt": "2026-08-23T13:42:28.000Z",
-      "publisher": "本つけ",
-      "summary": "TDDが実務で割に合わない、というよくある話 TDD（テスト駆動開発）が良いものだというのは、たぶん誰も否定しません。それでも実務でなかなか定着しないのは、単純に工数の問題です。テストを書くコストと実装するコストを両方払った上で、その効果…"
+      "id": "5bf231173f48",
+      "title": "AIエージェントの手戻りが減らない人へ——「書かせ方」ではなく「直させ方」をルールにする",
+      "url": "https://zenn.dev/ai_tools_memo/articles/7caa1b61e7eda8",
+      "publishedAt": "2026-08-23T09:21:51.000Z",
+      "publisher": "リク",
+      "summary": "同じレビュー指摘を、1週間で5回書いたことがあります。相手はAIコーディングエージェントでした。指摘するたびに直りはするのに、次のタスクではまた同じことをやる。プロンプトを丁寧にしても、変わりませんでした。 この記事は、Claude Co…"
     },
     {
-      "id": "c0b2487a241f",
-      "title": "Claude Code×SKILLでブログ自動化ツールを自作した",
-      "url": "https://zenn.dev/becchi78/articles/claude-code-blog-automation-story",
-      "publishedAt": "2026-08-23T13:35:42.000Z",
-      "publisher": "becchi78",
-      "summary": "TL;DR Claude Codeの「SKILL」機能を使って、Issue1件からZenn記事・note原稿の生成、X告知までをつなげる個人プロジェクト「BlogForge」を作りました。13個のSKILLをorchestratorという…"
+      "id": "dd75d744a921",
+      "title": "AIエージェントにファイルを壊させない4つのルール——一括置換で477行消した事故から",
+      "url": "https://zenn.dev/ai_tools_memo/articles/5c7410d1ea3120",
+      "publishedAt": "2026-08-23T09:11:10.000Z",
+      "publisher": "リク",
+      "summary": "477行のファイルから345行が消えました。未コミットでした。同じ日にもう1本、622行のファイルからも453行。手を動かしたのはAIコーディングエージェントで、指示を出したのは私です。 この記事は、Claude CodeのようなAIコー…"
     },
     {
-      "id": "df5794818b42",
-      "title": "記憶を持った世界モデルを実装してみた",
-      "url": "https://zenn.dev/naoyabone/articles/1809dc83253eea",
-      "publishedAt": "2026-08-23T13:29:29.000Z",
-      "publisher": "ぼさぼさ",
-      "summary": "世界モデルにMemoryはなぜ必要なのか この記事では、5×5のGrid Worldを使って、世界モデルにMemory（記憶）が必要になる理由を順番に説明します。 これまでの世界モデルは、次の処理だけです。 今の画像 + Agentのac…"
+      "id": "ac3d877a32bb",
+      "title": "三大エンジニアリングは pdlc-skills の中でどう噛み合うのか",
+      "url": "https://zenn.dev/kanfupanda/articles/pdlc-interlock-three-layers",
+      "publishedAt": "2026-08-23T09:11:01.000Z",
+      "publisher": "kanfu-panda",
+      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/08/23/how-three-paradigms-interlock.ja.html 前回の最後に物差…"
     },
     {
-      "id": "e40d8a621fd8",
-      "title": "「答えを教えないAI」を自作した話 — ノートの写真から3段階ヒントを出す家庭内学習サーバー",
-      "url": "https://zenn.dev/tizawa/articles/no-answer-hint-ai",
-      "publishedAt": "2026-08-23T12:28:13.000Z",
-      "publisher": "伊澤剛志（公認会計士）",
-      "summary": "はじめに 子どもがAIに宿題の答えをそのまま聞ける時代になりました。答えを写すだけなら学習効果はゼロどころかマイナスです。かといって「AI禁止」にするのももったいない。 そこで、答えは絶対に教えず、自分で解けるようになるためのヒントだけを…"
+      "id": "18dff15f37c6",
+      "title": "SBV2とPodmanで考えるAIツールの危険性対策 第四章",
+      "url": "https://zenn.dev/eien_syogakusya/articles/6dd4b81645fad0",
+      "publishedAt": "2026-08-23T08:59:58.000Z",
+      "publisher": "永遠ノ初学者",
+      "summary": "本記事は、全4章によって構成されています。 第一章：基礎知識、WSL有効化、SBV2導入前の準備 第二章：SBV2導入編 第三章：SBV2の追加DLとpyannote無効化、nftablesによるオフライン化とSBV2側の調整 第四章：[…"
     },
     {
-      "id": "9b2208c6a391",
-      "title": "Claude Code のセッション引き継ぎは「現在地スナップショット」で回す — HANDOFF / QUESTIONS / 採番の型",
-      "url": "https://zenn.dev/crandim_r_and_d/articles/260822_a10_handoff_questions_workflow",
-      "publishedAt": "2026-08-23T12:25:05.000Z",
-      "publisher": "tokoi",
-      "summary": "TL;DR Claude Codeで作業するときは、精度低下しないようにセッションを細かく切りたい。 しかしセッションを切るとコンテキストが失われるので、次のセッションで復帰するための「引き継ぎファイル」が必要になる。 HANDOFF.m…"
+      "id": "465be58814d1",
+      "title": "自律分散型レジリエンス国家の設計図 ―― AI有事・気候激甚化時代における『空海的エンジニア』の生存戦略",
+      "url": "https://zenn.dev/takenori_kusaka/books/sovereign-resilience-blueprint",
+      "publishedAt": "2026-08-23T08:54:43.000Z",
+      "publisher": "日下武紀",
+      "summary": "境界防御（ゲート防衛）が崩壊し、少子化と激甚災害で国家インフラが後退する時代。我々エンジニアはどう国家を保守し、生存空間を守るべきか。オストロムのコモンズ論、ソルニットの災害ユートピア、そして経産省やWOTAの公式分散化戦略を架橋し、一エ…"
     },
     {
-      "id": "636328d5b5f2",
-      "title": "クソボケ確率生成器が「知性」を獲得するまで",
-      "url": "https://zenn.dev/mol6235/articles/7c0790d902c0c3",
-      "publishedAt": "2026-08-23T12:03:17.000Z",
-      "publisher": "mol",
-      "summary": "はじめに神は天と地とを創造された。 地は形なく、むなしく、やみが淵のおもてにあり、神の霊が水のおもてをおおっていた。 神は「2ページ目をもう少し明るくできない？」と言われた。すると光があった。 神はその光を見て、良しとされた。 -- AI…"
+      "id": "6cdb1ef3f074",
+      "title": "SBV2とPodmanで考えるAIツールの危険性対策 第三章",
+      "url": "https://zenn.dev/eien_syogakusya/articles/66927b1d7cfba4",
+      "publishedAt": "2026-08-23T08:38:37.000Z",
+      "publisher": "永遠ノ初学者",
+      "summary": "本記事は、全4章によって構成されています。 第一章：基礎知識、WSL有効化、SBV2導入前の準備 第二章：SBV2導入編 第三章：SBV2の追加DLとpyannote無効化、nftablesによるオフライン化とSBV2側の調整❗️今ココ …"
     },
     {
-      "id": "4ea848bac7e3",
-      "title": "AIに仕様だけ渡してテストを書かせたら全部緑。それでも実装変更は3件必要だった",
-      "url": "https://zenn.dev/hawk_claws/articles/zenn-02-independent-crosscheck",
-      "publishedAt": "2026-08-23T12:00:05.000Z",
-      "publisher": "HawkClaws",
-      "summary": "前の記事に、まっとうな反論をもらった 前回、AI生成コードをどこまで理解してからマージするかという基準を書きました。その中に「テストの循環問題」という節があって、こう書いていました。 エージェントは、実装に合わせたテストを書きます。(中略…"
+      "id": "44519a724fd6",
+      "title": "Steam で公開中のゲームを Agent Plugins 1.0.0 に準拠させた",
+      "url": "https://zenn.dev/ssknaoya/articles/95490813bd7a7e",
+      "publishedAt": "2026-08-23T08:23:14.000Z",
+      "publisher": "naoya",
+      "summary": "概要 Steam で公開中のゲームを Agent Plugins 1.0.0 に準拠させた過程で知ったことや感じたことなど。 Agent Plugins に対する考察を交えて。 結論 Agent Plugins 1.0.0 への準拠は難し…"
     },
     {
-      "id": "8422083e4b2f",
-      "title": "AI学習支援は利用中の正答率だけで評価してはいけない",
-      "url": "https://zenn.dev/kai_ai/articles/f633f5245ac04d",
-      "publishedAt": "2026-08-23T11:43:19.000Z",
-      "publisher": "Kai＠生成AI",
-      "summary": "生成AIを使った学習者の正答率が上がれば、そのAIは教育効果を生んだと言えるでしょうか。 この記事の結論は、学習支援AIでは、利用中のタスク性能と、AIを外した後に残る技能を分けて評価する必要があるというものです。 2025年にPNASへ…"
+      "id": "32dbe8ebcc52",
+      "title": "今更聞けないエージェントスキル入門｜最初の1つを書いて育てるまで",
+      "url": "https://zenn.dev/fukaunabara/articles/agent-skills-basics",
+      "publishedAt": "2026-08-23T08:21:36.000Z",
+      "publisher": "Takeshi Saito",
+      "summary": "はじめに 毎回、AI に同じフィードバックをしていませんか。 AI エージェントに作業をさせて、出てきたものを見て、チャットで「そうじゃなくて、こうしてほしい」と打ち込む。そのときは直してくれますが、セッションが変わると元に戻ります。 こ…"
     },
     {
-      "id": "67859f1b135e",
-      "title": "「あなたの職業倫理観は素晴らしい」と言われて、少し救われた話",
-      "url": "https://zenn.dev/ykicker/articles/2026-08-23-engineer-professional-ethics",
-      "publishedAt": "2026-08-23T11:28:51.000Z",
-      "publisher": "YK",
-      "summary": "最近、長期インターンとは別に、サマーインターンにも参加しています。 その影響で、個人開発の進みは少しゆっくりになっているのですが、 そのぶん、普段とは違う環境で得られる気づきもあります。今回はその中でも、特に印象に残ったことを書いてみたい…"
+      "id": "45877f78ae8b",
+      "title": "AI Providerを選ばせないために──APAPを設計・実装して見えた抽象化の境界",
+      "url": "https://zenn.dev/io0323/articles/0bba3dc141ca4b",
+      "publishedAt": "2026-08-23T08:19:05.000Z",
+      "publisher": "io0323",
+      "summary": "生成AIをプロダクトに組み込むとき、最初はProviderのSDKを直接呼べば十分に見えます。チャットならメッセージを渡して応答を受け取り、Embeddingならテキストをベクトルにする。それ自体は難しくありません。 難しくなるのは、その…"
     },
     {
-      "id": "f04a470d8b47",
-      "title": "動画・音声データを「検索できる知識」に変える：文字起こし API で作るコンテンツ管理基盤",
-      "url": "https://zenn.dev/cicisee/articles/f3b4b9f4c28034",
-      "publishedAt": "2026-08-23T11:26:05.000Z",
-      "publisher": "CiciSee",
-      "summary": "はじめに 最近、AIアプリや個人開発の現場で扱うデータの種類が大きく変わっています。 以前は、Webページやデータベースのような「最初から構造化された情報」を扱うことが中心でした。 しかし現在は、 YouTubeの解説動画 TikTokや…"
+      "id": "d6fa44916bad",
+      "title": "ClaudeTAGの使い方事例",
+      "url": "https://zenn.dev/seiuchi3939/articles/claudetag-boxstatus-incident-7b21",
+      "publishedAt": "2026-08-23T08:00:54.000Z",
+      "publisher": "てくてくエンジニア",
+      "summary": "ClaudeTAGがリリースされてからしばらくは、とりあえずSlackのチャンネルに追加してたまに話しかけている、という程度の使い方をしていました。 ただ最近、以下の使い方が地味に便利だったので共有します。 課題: BoxStatusの障…"
     },
     {
-      "id": "94c95ee80a6f",
-      "title": "ChatGPTはどのように文章を生成するのか？ — LogitsとSoftmaxを理解する",
-      "url": "https://zenn.dev/shai/articles/c213d808277f0b",
-      "publishedAt": "2026-08-23T11:21:49.000Z",
-      "publisher": "shai",
-      "summary": "前回の記事では、LLMがどのように学習するのかを整理しました。 LLMは、次のTokenを予測し、その予測と正解との違いをもとにパラメータを更新します。 この処理を大量のデータに対して繰り返すことで、次のTokenを予測する能力を学習して…"
+      "id": "5640589051c2",
+      "title": "llama.cppでQwen3.8:27b-GGUFのThinking Effortを下げる",
+      "url": "https://zenn.dev/ibuky/articles/d717c1c4df4245",
+      "publishedAt": "2026-08-23T07:34:16.000Z",
+      "publisher": "ibuky",
+      "summary": "環境 https://zenn.dev/ibuky/articles/2ce9282ea37122 まとめ Qwen3.8:27b-GGUF（特にQ4_0などの量子化モデル）で思考ループや過剰な試行・出力遅延が気になる場合、llama-c…"
     },
     {
-      "id": "c1f24b153216",
-      "title": "打った文字の一部だけが消える — ブラウザ自動化の type が半角英数字を落としていた",
-      "url": "https://zenn.dev/mameresearcher/articles/browser-type-silently-drops-ascii",
-      "publishedAt": "2026-08-23T11:07:31.000Z",
-      "publisher": "まめ研究員",
-      "summary": "個人の自動化プロジェクトで、ブラウザを操作するエージェントに SNS の返信を入力させている。エディタの入力欄に type で本文を打ち込み、送信ボタンを押す、それだけの処理だ。 ある日、送信の直前に入れておいた検査がこう鳴った。 5文字…"
+      "id": "39d1b2df65d5",
+      "title": "AIエージェントの実務導入で、企業はどこでつまずくのか",
+      "url": "https://zenn.dev/hideki_tamae/articles/ai-agent-enterprise-adoption",
+      "publishedAt": "2026-08-23T07:34:12.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに これまでの記事では、Harness、Loop Engineering、Tool Engineering、Memory、そしてClaude Codeのサブエージェントや並列実行といった、AIエージェントの設計そのものを扱ってきまし…"
     }
   ],
-  "fetchedAt": "2026-08-23T15:46:25.821Z",
+  "fetchedAt": "2026-08-23T16:20:02.034Z",
   "stale": false,
   "error": null
 }
