@@ -6,6 +6,30 @@
   "category": "ai",
   "items": [
     {
+      "id": "93debe134473",
+      "title": "【チームによるAI駆動開発の勘所：第6回】指摘事項で書いたものを、止める側へ",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/d9567a46493cb9",
+      "publishedAt": "2026-08-23T21:41:52.000Z",
+      "publisher": "wfukatsu",
+      "summary": "以前、CLAUDE.md は advisory（お願い）であって enforcement（強制）ではない、という話をしました。では「絶対に守られなければ困ること」はどこに置けばいいのか。答えは Hooks です。ただし、すべてを Hook…"
+    },
+    {
+      "id": "e0d548f177c3",
+      "title": "指示を実行させる前に「3点で復唱」させる、LLMの過小指定を安く検出するゲート",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-restate-check-before-execute",
+      "publishedAt": "2026-08-23T21:10:08.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 「まとめておいて」「資料にして」のような日常的な指示は、分量・形式・範囲が1通りに定まらない**過小指定（underspecified instruction）**であることが多い。LLMは足りない部分を尤もらしい既定値で埋め…"
+    },
+    {
+      "id": "054cbdd8a4e1",
+      "title": "MiniMax H3で『構造化プロンプトは否定指示を守りやすい』という主張をスペクトログラムで実測してみた",
+      "url": "https://zenn.dev/ivyxon/articles/minimax-h3-prompt-ab-verify",
+      "publishedAt": "2026-08-23T20:12:09.000Z",
+      "publisher": "IVYXON",
+      "summary": "MiniMax H3 (Hailuo 3.0) を Colab で動かして遊んでいる過程で、「プロンプトをフィールド分割して書くと、否定指示（〜しないで、という指示）を守りやすくなる」というコミュニティの主張を見つけました。信じる前に、実…"
+    },
+    {
       "id": "e7cf335fcb1d",
       "title": "常駐型AIチャットエージェントの「Webhook再送・順序保証なし」対応設計",
       "url": "https://zenn.dev/hach/articles/chat-agent-webhook-redelivery-design",
@@ -76,33 +100,9 @@
       "publishedAt": "2026-08-23T13:42:28.000Z",
       "publisher": "本つけ",
       "summary": "TDDが実務で割に合わない、というよくある話 TDD（テスト駆動開発）が良いものだというのは、たぶん誰も否定しません。それでも実務でなかなか定着しないのは、単純に工数の問題です。テストを書くコストと実装するコストを両方払った上で、その効果…"
-    },
-    {
-      "id": "df5794818b42",
-      "title": "記憶を持った世界モデルを実装してみた",
-      "url": "https://zenn.dev/naoyabone/articles/1809dc83253eea",
-      "publishedAt": "2026-08-23T13:29:29.000Z",
-      "publisher": "ぼさぼさ",
-      "summary": "世界モデルにMemoryはなぜ必要なのか この記事では、5×5のGrid Worldを使って、世界モデルにMemory（記憶）が必要になる理由を順番に説明します。 これまでの世界モデルは、次の処理だけです。 今の画像 + Agentのac…"
-    },
-    {
-      "id": "e40d8a621fd8",
-      "title": "「答えを教えないAI」を自作した話 — ノートの写真から3段階ヒントを出す家庭内学習サーバー",
-      "url": "https://zenn.dev/tizawa/articles/no-answer-hint-ai",
-      "publishedAt": "2026-08-23T12:28:13.000Z",
-      "publisher": "伊澤剛志（公認会計士）",
-      "summary": "はじめに 子どもがAIに宿題の答えをそのまま聞ける時代になりました。答えを写すだけなら学習効果はゼロどころかマイナスです。かといって「AI禁止」にするのももったいない。 そこで、答えは絶対に教えず、自分で解けるようになるためのヒントだけを…"
-    },
-    {
-      "id": "9b2208c6a391",
-      "title": "Claude Code のセッション引き継ぎは「現在地スナップショット」で回す — HANDOFF / QUESTIONS / 採番の型",
-      "url": "https://zenn.dev/crandim_r_and_d/articles/260822_a10_handoff_questions_workflow",
-      "publishedAt": "2026-08-23T12:25:05.000Z",
-      "publisher": "tokoi",
-      "summary": "TL;DR Claude Codeで作業するときは、精度低下しないようにセッションを細かく切りたい。 しかしセッションを切るとコンテキストが失われるので、次のセッションで復帰するための「引き継ぎファイル」が必要になる。 HANDOFF.m…"
     }
   ],
-  "fetchedAt": "2026-08-23T23:17:08.623Z",
+  "fetchedAt": "2026-08-23T23:44:53.469Z",
   "stale": false,
   "error": null
 }
