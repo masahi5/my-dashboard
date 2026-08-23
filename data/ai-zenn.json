@@ -6,62 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "e7cf335fcb1d",
-      "title": "常駐型AIチャットエージェントの「Webhook再送・順序保証なし」対応設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-webhook-redelivery-design",
-      "publishedAt": "2026-08-23T17:08:31.000Z",
-      "publisher": "HACH",
-      "summary": "Slack / Teams / Chatworkに常駐して発言を処理するAIエージェントは、たいていWebhookのイベント駆動で動きます。ここでハマりやすいのが、「Webhookは1回だけ・発生順どおりに届く」という前提を無意識に置いて…"
-    },
-    {
-      "id": "f0b794b4b989",
-      "title": "「どのクリップが伸びるか」を投稿前に予測してみる（#20 Dax Raad編）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr20-dax-prediction",
-      "publishedAt": "2026-08-23T17:00:13.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外のTech Talkを日本語の縦型ショート動画に切り出して TikTok に投稿しています。1本の元動画から9〜10本のクリップを作り、投稿する前に**「どれが一番伸びるか」を予測してファイルに保存**しています。あと…"
-    },
-    {
-      "id": "57b014b317f2",
-      "title": "AIコーディングを「運任せ」にしないためのSoloXPをOSSで公開しました",
-      "url": "https://zenn.dev/noragrammer/articles/soloxp-oss-release",
-      "publishedAt": "2026-08-23T15:35:38.000Z",
-      "publisher": "noragrammer",
-      "summary": "AIコーディングエージェントを使っていると、最初はかなり快適 「この機能を作って」 と頼めばコードを書いてくれる。 しかし、プロジェクトが大きくなってくると、別の問題が出てきます。 この実装、本当に正しいのか 既存機能を壊していないか ド…"
-    },
-    {
-      "id": "07fa3cccb6fd",
-      "title": "AI エージェント時代にソースコード以外の何を残すべきか",
-      "url": "https://zenn.dev/id774/articles/ad6d173af7d8f5",
-      "publishedAt": "2026-08-23T15:17:21.000Z",
-      "publisher": "Yasuhiro Nakayama",
-      "summary": "ソースコードが残っていても、同じ開発を引き継げない場合がある AI コーディングエージェントを使った開発では、「ソースコードが公開されているなら、そのソフトウェアは将来も変更できる」と単純には言えない場合がある。 たとえば、AI に数十行…"
-    },
-    {
-      "id": "2320fd76c8b6",
-      "title": "AIエージェントとオレオレORMを作った話",
-      "url": "https://zenn.dev/hckaye/articles/cac383c2be6597",
-      "publishedAt": "2026-08-23T15:15:23.000Z",
-      "publisher": "hckaye",
-      "summary": "（※この記事はAI生成を用いて執筆しています） CobaltumORMという.NET / C#向けORMをAIエージェントと作ってみました。 モチベーション C#でよく使われるORMにはEF Coreがあり、マイクロORMではDapper…"
-    },
-    {
-      "id": "19b840f2c1ed",
-      "title": "x402を学び直す： verify/settleの内部構造から、Kaia×JPYCで動かす再現可能な手順まで",
-      "url": "https://zenn.dev/mashharuki/articles/x402-kaia-jpyc-anychain-guide",
-      "publishedAt": "2026-08-23T15:02:43.000Z",
-      "publisher": "Haruki",
-      "summary": "この記事でわかること（TL;DR） x402プロトコルのverify/settleフローを、1枚のシーケンス図で他人に説明できるようになる 「なぜx402は公式にサポートしていないチェーン・トークンでも動くのか」を仕様レベルで理解し、自分…"
-    },
-    {
-      "id": "034c555963a1",
-      "title": "AI駆動開発の最先端「ハーネス＆ループ」をClaude Codeに聞いたら、自分の開発体制が予想以上に褒められてテンションが上がった話",
-      "url": "https://zenn.dev/magaruya/articles/3994835b29c1f6",
-      "publishedAt": "2026-08-23T14:49:15.000Z",
-      "publisher": "MagaRuya",
-      "summary": "現在、自社プロダクトの開発でAI駆動開発（AI-Driven Development）をガッツリ導入してゴリゴリ進めているのですが、先日ちょっと嬉しい出来事があったので共有させてください！ 最近、AIエージェント界隈でよく耳にする「ハーネ…"
-    },
-    {
       "id": "fd3d3d97d58b",
       "title": "バイブコーディングで職務経歴書生成アプリを作った話",
       "url": "https://zenn.dev/tnakamoto/articles/cc7ac637ebd560",
@@ -76,6 +20,14 @@
       "publishedAt": "2026-08-23T13:42:28.000Z",
       "publisher": "本つけ",
       "summary": "TDDが実務で割に合わない、というよくある話 TDD（テスト駆動開発）が良いものだというのは、たぶん誰も否定しません。それでも実務でなかなか定着しないのは、単純に工数の問題です。テストを書くコストと実装するコストを両方払った上で、その効果…"
+    },
+    {
+      "id": "c0b2487a241f",
+      "title": "Claude Code×SKILLでブログ自動化ツールを自作した",
+      "url": "https://zenn.dev/becchi78/articles/claude-code-blog-automation-story",
+      "publishedAt": "2026-08-23T13:35:42.000Z",
+      "publisher": "becchi78",
+      "summary": "TL;DR Claude Codeの「SKILL」機能を使って、Issue1件からZenn記事・note原稿の生成、X告知までをつなげる個人プロジェクト「BlogForge」を作りました。13個のSKILLをorchestratorという…"
     },
     {
       "id": "df5794818b42",
@@ -100,9 +52,57 @@
       "publishedAt": "2026-08-23T12:25:05.000Z",
       "publisher": "tokoi",
       "summary": "TL;DR Claude Codeで作業するときは、精度低下しないようにセッションを細かく切りたい。 しかしセッションを切るとコンテキストが失われるので、次のセッションで復帰するための「引き継ぎファイル」が必要になる。 HANDOFF.m…"
+    },
+    {
+      "id": "636328d5b5f2",
+      "title": "クソボケ確率生成器が「知性」を獲得するまで",
+      "url": "https://zenn.dev/mol6235/articles/7c0790d902c0c3",
+      "publishedAt": "2026-08-23T12:03:17.000Z",
+      "publisher": "mol",
+      "summary": "はじめに神は天と地とを創造された。 地は形なく、むなしく、やみが淵のおもてにあり、神の霊が水のおもてをおおっていた。 神は「2ページ目をもう少し明るくできない？」と言われた。すると光があった。 神はその光を見て、良しとされた。 -- AI…"
+    },
+    {
+      "id": "4ea848bac7e3",
+      "title": "AIに仕様だけ渡してテストを書かせたら全部緑。それでも実装変更は3件必要だった",
+      "url": "https://zenn.dev/hawk_claws/articles/zenn-02-independent-crosscheck",
+      "publishedAt": "2026-08-23T12:00:05.000Z",
+      "publisher": "HawkClaws",
+      "summary": "前の記事に、まっとうな反論をもらった 前回、AI生成コードをどこまで理解してからマージするかという基準を書きました。その中に「テストの循環問題」という節があって、こう書いていました。 エージェントは、実装に合わせたテストを書きます。(中略…"
+    },
+    {
+      "id": "8422083e4b2f",
+      "title": "AI学習支援は利用中の正答率だけで評価してはいけない",
+      "url": "https://zenn.dev/kai_ai/articles/f633f5245ac04d",
+      "publishedAt": "2026-08-23T11:43:19.000Z",
+      "publisher": "Kai＠生成AI",
+      "summary": "生成AIを使った学習者の正答率が上がれば、そのAIは教育効果を生んだと言えるでしょうか。 この記事の結論は、学習支援AIでは、利用中のタスク性能と、AIを外した後に残る技能を分けて評価する必要があるというものです。 2025年にPNASへ…"
+    },
+    {
+      "id": "67859f1b135e",
+      "title": "「あなたの職業倫理観は素晴らしい」と言われて、少し救われた話",
+      "url": "https://zenn.dev/ykicker/articles/2026-08-23-engineer-professional-ethics",
+      "publishedAt": "2026-08-23T11:28:51.000Z",
+      "publisher": "YK",
+      "summary": "最近、長期インターンとは別に、サマーインターンにも参加しています。 その影響で、個人開発の進みは少しゆっくりになっているのですが、 そのぶん、普段とは違う環境で得られる気づきもあります。今回はその中でも、特に印象に残ったことを書いてみたい…"
+    },
+    {
+      "id": "f04a470d8b47",
+      "title": "動画・音声データを「検索できる知識」に変える：文字起こし API で作るコンテンツ管理基盤",
+      "url": "https://zenn.dev/cicisee/articles/f3b4b9f4c28034",
+      "publishedAt": "2026-08-23T11:26:05.000Z",
+      "publisher": "CiciSee",
+      "summary": "はじめに 最近、AIアプリや個人開発の現場で扱うデータの種類が大きく変わっています。 以前は、Webページやデータベースのような「最初から構造化された情報」を扱うことが中心でした。 しかし現在は、 YouTubeの解説動画 TikTokや…"
+    },
+    {
+      "id": "94c95ee80a6f",
+      "title": "ChatGPTはどのように文章を生成するのか？ — LogitsとSoftmaxを理解する",
+      "url": "https://zenn.dev/shai/articles/c213d808277f0b",
+      "publishedAt": "2026-08-23T11:21:49.000Z",
+      "publisher": "shai",
+      "summary": "前回の記事では、LLMがどのように学習するのかを整理しました。 LLMは、次のTokenを予測し、その予測と正解との違いをもとにパラメータを更新します。 この処理を大量のデータに対して繰り返すことで、次のTokenを予測する能力を学習して…"
     }
   ],
-  "fetchedAt": "2026-08-23T22:29:41.256Z",
+  "fetchedAt": "2026-08-23T22:51:01.975Z",
   "stale": false,
   "error": null
 }
