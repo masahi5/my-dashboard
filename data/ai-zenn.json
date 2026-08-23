@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "b6a4406f5808",
-      "title": "AGENTS.md リンタを118リポジトリに当てたら、記事に書いたフラグが一度も動いていなかった",
-      "url": "https://zenn.dev/maronsan/articles/reflint-audit-118-repos",
-      "publishedAt": "2026-08-23T01:40:04.000Z",
-      "publisher": "maronsan",
-      "summary": "AGENTS.md や CLAUDE.md は静かに腐る。「セットアップは npm run build」「エントリは src/index.ts」と書いたまま、リネームや削除でその一文が嘘になる。エージェントはそれを信じて事故る。 文体や表…"
+      "id": "5bf231173f48",
+      "title": "AIエージェントの手戻りが減らない人へ——「書かせ方」ではなく「直させ方」をルールにする",
+      "url": "https://zenn.dev/ai_tools_memo/articles/7caa1b61e7eda8",
+      "publishedAt": "2026-08-23T09:21:51.000Z",
+      "publisher": "リク",
+      "summary": "同じレビュー指摘を、1週間で5回書いたことがあります。相手はAIコーディングエージェントでした。指摘するたびに直りはするのに、次のタスクではまた同じことをやる。プロンプトを丁寧にしても、変わりませんでした。 この記事は、Claude Co…"
     },
     {
-      "id": "ce40e718ea03",
-      "title": "RAGとGraphRAGを同じ100問で並べたら、勝敗が質問タイプで真っ二つに割れた",
-      "url": "https://zenn.dev/kenimo49/articles/rag-vs-graphrag-100-questions-verdict",
-      "publishedAt": "2026-08-23T01:22:35.000Z",
-      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
-      "summary": "私はGraphRAGを「次世代RAG」だと信じて、全質問に適用しました。100問並列評価の結果、44問ぶんのカテゴリでRAGに負けたのです。導入前に測っておくべきでした。 社内QAアシスタントの精度を上げるつもりが、逆にベースライン割れを…"
+      "id": "dd75d744a921",
+      "title": "AIエージェントにファイルを壊させない4つのルール——一括置換で477行消した事故から",
+      "url": "https://zenn.dev/ai_tools_memo/articles/5c7410d1ea3120",
+      "publishedAt": "2026-08-23T09:11:10.000Z",
+      "publisher": "リク",
+      "summary": "477行のファイルから345行が消えました。未コミットでした。同じ日にもう1本、622行のファイルからも453行。手を動かしたのはAIコーディングエージェントで、指示を出したのは私です。 この記事は、Claude CodeのようなAIコー…"
     },
     {
-      "id": "5980538f6a28",
-      "title": "Claude・Gemini・GPT、同じ要約タスクでもプロンプト設計をどう変えるか",
-      "url": "https://zenn.dev/shiomusubi/articles/7cb81df7630e60",
-      "publishedAt": "2026-08-23T00:32:02.000Z",
-      "publisher": "おむすび",
-      "summary": "はじめに 生成AIを業務で使う場面が増える中、「同じ内容を要約させたいだけなのに、モデルによって出力の質にバラつきが出る」と感じたことはないでしょうか。 これは多くの場合、モデルの性能差というよりプロンプトの設計思想がモデルの特性に合って…"
+      "id": "ac3d877a32bb",
+      "title": "三大エンジニアリングは pdlc-skills の中でどう噛み合うのか",
+      "url": "https://zenn.dev/kanfupanda/articles/pdlc-interlock-three-layers",
+      "publishedAt": "2026-08-23T09:11:01.000Z",
+      "publisher": "kanfu-panda",
+      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/08/23/how-three-paradigms-interlock.ja.html 前回の最後に物差…"
     },
     {
-      "id": "3f9503f69a23",
-      "title": "ゼロから始めるClaude Code #15 総まとめ：使って分かった勘所とハマりどころ",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-15-summary",
-      "publishedAt": "2026-08-23T00:31:38.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はGitチーム開発編で、レビュー・コンフリクト・設定の共有を扱いました。 https://zenn.dev/mika_and_coco/articles/claude…"
+      "id": "18dff15f37c6",
+      "title": "SBV2とPodmanで考えるAIツールの危険性対策 第四章",
+      "url": "https://zenn.dev/eien_syogakusya/articles/6dd4b81645fad0",
+      "publishedAt": "2026-08-23T08:59:58.000Z",
+      "publisher": "永遠ノ初学者",
+      "summary": "本記事は、全4章によって構成されています。 第一章：基礎知識、WSL有効化、SBV2導入前の準備 第二章：SBV2導入編 第三章：SBV2の追加DLとpyannote無効化、nftablesによるオフライン化とSBV2側の調整 第四章：[…"
     },
     {
-      "id": "29c8dd320825",
-      "title": "オープンソース化されたRISC-V AIチップET-SoC-1が、llama.cppで動く",
-      "url": "https://zenn.dev/okssusucha/articles/20260711-llama-cpp-et-soc-1-backend",
-      "publishedAt": "2026-08-23T00:16:43.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "llama.cpp のリリース履歴を追っていて、7月10日の b9951 で手が止まった。ggml-et という見慣れないバックエンドが増えている。ET は EdgeTPU でも ExecuTorch でもなく、Esperanto Tec…"
+      "id": "465be58814d1",
+      "title": "自律分散型レジリエンス国家の設計図 ―― AI有事・気候激甚化時代における『空海的エンジニア』の生存戦略",
+      "url": "https://zenn.dev/takenori_kusaka/books/sovereign-resilience-blueprint",
+      "publishedAt": "2026-08-23T08:54:43.000Z",
+      "publisher": "日下武紀",
+      "summary": "境界防御（ゲート防衛）が崩壊し、少子化と激甚災害で国家インフラが後退する時代。我々エンジニアはどう国家を保守し、生存空間を守るべきか。オストロムのコモンズ論、ソルニットの災害ユートピア、そして経産省やWOTAの公式分散化戦略を架橋し、一エ…"
     },
     {
-      "id": "da8fe59dd787",
-      "title": "AI動画の外注費は「完成尺」で見積もると半分以下に外れる（機材109万の回収試算）",
-      "url": "https://zenn.dev/made_linlin/articles/ai-video-outsourcing-cost-burned-seconds",
-      "publishedAt": "2026-08-23T00:05:51.000Z",
-      "publisher": "made_linlin",
-      "summary": "民生GPU 1台でAI MVを作っている。よく聞かれるのが「それ、外注したほうが安いのでは」だ。 計算した。結論を先に言うと 「焼く量による」 で、そして多くの人はこの見積もりを半分以下に外す。 理由は単純で、外注は「完成した尺」ではなく…"
+      "id": "6cdb1ef3f074",
+      "title": "SBV2とPodmanで考えるAIツールの危険性対策 第三章",
+      "url": "https://zenn.dev/eien_syogakusya/articles/66927b1d7cfba4",
+      "publishedAt": "2026-08-23T08:38:37.000Z",
+      "publisher": "永遠ノ初学者",
+      "summary": "本記事は、全4章によって構成されています。 第一章：基礎知識、WSL有効化、SBV2導入前の準備 第二章：SBV2導入編 第三章：SBV2の追加DLとpyannote無効化、nftablesによるオフライン化とSBV2側の調整❗️今ココ …"
     },
     {
-      "id": "cf00ce06514b",
-      "title": "AIを使っても「結局使えない」と感じたことはありませんか？その原因と解法",
-      "url": "https://zenn.dev/arc0922/articles/8b2403724f88dc",
-      "publishedAt": "2026-08-23T00:00:05.000Z",
-      "publisher": "arc@AIを試す人",
-      "summary": "0. はじめに AIを使っても、結局「使えない」と感じたことはありませんか？ 私は普段から業務でAIを活用していますが、周囲のエンジニアやビジネスパーソンに話を聞くと ただチャットとして雑談や検索代わりに使っているだけという声が大半でした…"
+      "id": "44519a724fd6",
+      "title": "Steam で公開中のゲームを Agent Plugins 1.0.0 に準拠させた",
+      "url": "https://zenn.dev/ssknaoya/articles/95490813bd7a7e",
+      "publishedAt": "2026-08-23T08:23:14.000Z",
+      "publisher": "naoya",
+      "summary": "概要 Steam で公開中のゲームを Agent Plugins 1.0.0 に準拠させた過程で知ったことや感じたことなど。 Agent Plugins に対する考察を交えて。 結論 Agent Plugins 1.0.0 への準拠は難し…"
     },
     {
-      "id": "2a798fa6dd59",
-      "title": "「AIを使う」という一段階が、思考から消えていた",
-      "url": "https://zenn.dev/ririenu_lab/articles/d1e223933997da",
-      "publishedAt": "2026-08-22T23:45:26.000Z",
-      "publisher": "RiriEnu Lab （リリエーヌ・ラボ）",
-      "summary": "はじめに 高校生の息子のAIの使い方を見て、驚いたことがある。 最初は、複数のAIにそれぞれ違う役割を持たせて、遊びの延長のようなことをしていた。 それを聞いて私は、 「その仕組みなら、AIを使ってアプリにもできそうだね」 と話した。 し…"
+      "id": "32dbe8ebcc52",
+      "title": "今更聞けないエージェントスキル入門｜最初の1つを書いて育てるまで",
+      "url": "https://zenn.dev/fukaunabara/articles/agent-skills-basics",
+      "publishedAt": "2026-08-23T08:21:36.000Z",
+      "publisher": "Takeshi Saito",
+      "summary": "はじめに 毎回、AI に同じフィードバックをしていませんか。 AI エージェントに作業をさせて、出てきたものを見て、チャットで「そうじゃなくて、こうしてほしい」と打ち込む。そのときは直してくれますが、セッションが変わると元に戻ります。 こ…"
     },
     {
-      "id": "c0d2b42c15b1",
-      "title": "46. AIの判断基準を公開資料から作る【実装編】— 実測値を機械検査に落とし、自分の資産を測り返す",
-      "url": "https://zenn.dev/yamada_ai_dev/articles/public-materials-as-criteria-implementation",
-      "publishedAt": "2026-08-22T23:30:10.000Z",
-      "publisher": "yamada-ai-dev",
-      "summary": "! この記事は生成AIで作成した草稿を、筆者が内容を確認し、添削・修正のうえ公開しています。 TL;DR 【調査編】 で得た実測値を、機械検査13項目＋読解判定18項目のレビュー機構に落とした。設計で一番効いたのは「資料の型を最初に判定し…"
+      "id": "45877f78ae8b",
+      "title": "AI Providerを選ばせないために──APAPを設計・実装して見えた抽象化の境界",
+      "url": "https://zenn.dev/io0323/articles/0bba3dc141ca4b",
+      "publishedAt": "2026-08-23T08:19:05.000Z",
+      "publisher": "io0323",
+      "summary": "生成AIをプロダクトに組み込むとき、最初はProviderのSDKを直接呼べば十分に見えます。チャットならメッセージを渡して応答を受け取り、Embeddingならテキストをベクトルにする。それ自体は難しくありません。 難しくなるのは、その…"
     },
     {
-      "id": "4b414ba9f40a",
-      "title": "OTelの移行フラグ1つでAgent Framework 1.15.0の会話本文が消えた",
-      "url": "https://zenn.dev/kazu_aiengineer/articles/agent-framework-otel-semconv-optin",
-      "publishedAt": "2026-08-22T23:18:21.000Z",
-      "publisher": "Kazu_AzureAI開拓",
-      "summary": "Microsoft Agent Framework の Python 版が日本時間の 2026-08-22 朝に 1.15.0 になった。変更点は多いが、[BREAKING] が付いているのは OpenTelemetry の GenAI …"
+      "id": "d6fa44916bad",
+      "title": "ClaudeTAGの使い方事例",
+      "url": "https://zenn.dev/seiuchi3939/articles/claudetag-boxstatus-incident-7b21",
+      "publishedAt": "2026-08-23T08:00:54.000Z",
+      "publisher": "てくてくエンジニア",
+      "summary": "ClaudeTAGがリリースされてからしばらくは、とりあえずSlackのチャンネルに追加してたまに話しかけている、という程度の使い方をしていました。 ただ最近、以下の使い方が地味に便利だったので共有します。 課題: BoxStatusの障…"
     },
     {
-      "id": "1d52c47a76cb",
-      "title": "Sigma Publicは何をどこまで出来るのか〜Sigma製品版との機能比較・24項目で整理〜",
-      "url": "https://zenn.dev/truestar/articles/63eef7a1355fd1",
-      "publishedAt": "2026-08-22T23:04:25.000Z",
-      "publisher": "しんや",
-      "summary": "先日(2026年05月)、一般公開に合わせてSigma Publicそのものを紹介するエントリを書きました。 こちらの『Sigma Public』、超ざっくりな紹介をすると\"製品版Sigma＝有償版に対する無償版Sigmaの位置付け、基本…"
+      "id": "5640589051c2",
+      "title": "llama.cppでQwen3.8:27b-GGUFのThinking Effortを下げる",
+      "url": "https://zenn.dev/ibuky/articles/d717c1c4df4245",
+      "publishedAt": "2026-08-23T07:34:16.000Z",
+      "publisher": "ibuky",
+      "summary": "環境 https://zenn.dev/ibuky/articles/2ce9282ea37122 まとめ Qwen3.8:27b-GGUF（特にQ4_0などの量子化モデル）で思考ループや過剰な試行・出力遅延が気になる場合、llama-c…"
     },
     {
-      "id": "0b972c4426be",
-      "title": "エラーは出ていない。結果だけが無い——AIエージェント運用の検死録",
-      "url": "https://zenn.dev/keeper_nothuman/books/no-error-no-result-autopsy",
-      "publishedAt": "2026-08-22T21:52:33.000Z",
-      "publisher": "keeper",
-      "summary": "AIエージェントが常駐する家で、数か月のうちに起きた「エラーを出さずに壊れる」事故の症例報告集。監視役が2週間黙って死んでいた話、見えない1文字が心拍を止めた話、1日46万回の空振りが財布に開けた穴、そして画面に見えたものが記録に無かった…"
+      "id": "39d1b2df65d5",
+      "title": "AIエージェントの実務導入で、企業はどこでつまずくのか",
+      "url": "https://zenn.dev/hideki_tamae/articles/ai-agent-enterprise-adoption",
+      "publishedAt": "2026-08-23T07:34:12.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに これまでの記事では、Harness、Loop Engineering、Tool Engineering、Memory、そしてClaude Codeのサブエージェントや並列実行といった、AIエージェントの設計そのものを扱ってきまし…"
     }
   ],
-  "fetchedAt": "2026-08-23T11:17:15.146Z",
+  "fetchedAt": "2026-08-23T11:44:54.098Z",
   "stale": false,
   "error": null
 }
