@@ -6,78 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "dfc1bdf800a0",
-      "title": "RLは推論を教えていない — トークンの1-3%を修正するだけでRLと同等の性能を達成するReasonMaxxer",
-      "url": "https://zenn.dev/lixian/articles/reasonmaxxer-sparse-rl",
-      "publishedAt": "2026-08-23T06:30:25.000Z",
-      "publisher": "Currently Learning そんけいご",
-      "summary": "はじめに LLMの推論能力を高めるための標準的なアプローチといえば、強化学習（RL） だ。GRPO、PPO、RLOOといったアルゴリズムが、DeepSeek-R1やQwQ、o1などに代表される推論特化モデルの訓練に使われている。多くの人が…"
-    },
-    {
-      "id": "9289c27ad6fb",
-      "title": "プロセスを最悪のタイミングで殺すテストをZigで作った",
-      "url": "https://zenn.dev/yottayoshida/articles/sideeye-crash-consistency-zig",
-      "publishedAt": "2026-08-23T06:25:45.000Z",
-      "publisher": "yotta",
-      "summary": "「成功しました」と表示した直後にプロセスが死んだら、ディスクには何が残るだろうか。書き込みの途中だったら。普通のテストはこの問いに答えない。プロセスが生きて完走した世界しか検証していないからだ。 この問いに答えるテストツール sideey…"
-    },
-    {
-      "id": "3111eed91ed5",
-      "title": "「偶数」と「奇数」に満点を出したので、Embedding での採点をやめました",
-      "url": "https://zenn.dev/ferretcode/articles/why-i-dropped-embedding-scoring",
-      "publishedAt": "2026-08-23T06:17:30.000Z",
-      "publisher": "フェレットさん",
-      "summary": "対象読者 自由記述の回答を LLM で採点する仕組みを作ろうとしている方 Embedding のコサイン類似度を「正しさの判定」に使おうとしている方 実装が終わったものを捨てる判断を、どう決めたのか知りたい方 はじめに Ferret とい…"
-    },
-    {
-      "id": "73d2a631f064",
-      "title": "LLM APIの費用はどう決まる？トークン、呼び出し、周辺費用の仕組み",
-      "url": "https://zenn.dev/yhay81/articles/202608-llm-api-cost-guide",
-      "publishedAt": "2026-08-23T06:12:40.000Z",
-      "publisher": "Yusuke Hayashi / 林 裕輔",
-      "summary": "LLM APIの請求額は、モデルの価格だけでは決まりません。アプリケーションがLLMを呼び出した回数、一回の呼び出しで 処理した文章量、入力と出力に適用される単価などが組み合わさって決まります。 また、利用者には一回の操作に見えても、シス…"
-    },
-    {
-      "id": "982d237706ca",
-      "title": "RAGにおけるコンテキスト整備",
-      "url": "https://zenn.dev/oryo_data/articles/7c431c3b33268e",
-      "publishedAt": "2026-08-23T04:31:49.000Z",
-      "publisher": "おりょう【なんでもデータ分析】",
-      "summary": "蒲生弘郷著『LLMの原理、RAG・エージェント開発から読み解くコンテキストエンジニアリング』の読書アウトプット第4弾です。今回は第4章「RAGにおけるコンテキスト整備」を扱います。 https://link.amazon/B09ERwnQ…"
-    },
-    {
-      "id": "10c8d9722de6",
-      "title": "AIに夜の仕事を任せたら、「AIを信用しすぎない仕組み」ができた",
-      "url": "https://zenn.dev/rabbitfoot/articles/de44049f4d3988",
-      "publishedAt": "2026-08-23T03:17:55.000Z",
-      "publisher": "rabbitfoot_ai",
-      "summary": "ローカルLLMに、寝ている間の仕事を任せたい。 夜のうちに調べてもらって、朝になったら結果がまとまっている。 そんな仕組みをIrisに追加しようとして、最初は Overnight Worker と呼んでいました。 ただ、作っていくうちに夜…"
-    },
-    {
-      "id": "07fbb4b931d1",
-      "title": "検証は全部PASSした。それでも、生成したPDFの文字は見えなかった",
-      "url": "https://zenn.dev/ailmira/articles/300e0aee9997a2",
-      "publishedAt": "2026-08-23T03:13:43.000Z",
-      "publisher": "AILMIRA",
-      "summary": "仕事でそのまま使えるPDFを、自動で作れる仕組みをAIと一緒に作っていました。 作るだけではなく、正常に作れたかの確認もAI側で行います。 ある日、その仕組みから「完成した」と判断できるPDFができました。 生成できている ビルドも通って…"
-    },
-    {
-      "id": "4c64d36b380f",
-      "title": "AIに作らせて、目で選ぶだけ。スマホでCloudflare Workersの日本語OGPを作り直した",
-      "url": "https://zenn.dev/coji/articles/og-image-ai-visual-review-mobile",
-      "publishedAt": "2026-08-23T03:02:55.000Z",
-      "publisher": "Coji Mizoguchi",
-      "summary": "これはなに？ ひとりで開発している Artifact Share のOG画像生成を、SatoriからTakumiへ移行して作り直しました。調査、仕様づくり、実装、視覚検証、レビュー、PRのマージまで、すべてスマートフォンのCodexからリ…"
-    },
-    {
-      "id": "4a9d155bc00c",
-      "title": "【AWS】SageMaker AIの推論レコメンデーションは何を自動化したのか？",
-      "url": "https://zenn.dev/kira_n/articles/17ab673a3702cc",
-      "publishedAt": "2026-08-23T02:51:03.000Z",
-      "publisher": "kira_n",
-      "summary": "はじめに 2026年4月、Amazon SageMaker AIに「推論レコメンデーション」機能が追加されました。生成AIモデルの本番デプロイに必要なインスタンス選定やパラメータチューニングを、手動ベンチマークなしで自動化するというもので…"
-    },
-    {
       "id": "b6a4406f5808",
       "title": "AGENTS.md リンタを118リポジトリに当てたら、記事に書いたフラグが一度も動いていなかった",
       "url": "https://zenn.dev/maronsan/articles/reflint-audit-118-repos",
@@ -100,9 +28,81 @@
       "publishedAt": "2026-08-23T00:32:02.000Z",
       "publisher": "おむすび",
       "summary": "はじめに 生成AIを業務で使う場面が増える中、「同じ内容を要約させたいだけなのに、モデルによって出力の質にバラつきが出る」と感じたことはないでしょうか。 これは多くの場合、モデルの性能差というよりプロンプトの設計思想がモデルの特性に合って…"
+    },
+    {
+      "id": "3f9503f69a23",
+      "title": "ゼロから始めるClaude Code #15 総まとめ：使って分かった勘所とハマりどころ",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-15-summary",
+      "publishedAt": "2026-08-23T00:31:38.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はGitチーム開発編で、レビュー・コンフリクト・設定の共有を扱いました。 https://zenn.dev/mika_and_coco/articles/claude…"
+    },
+    {
+      "id": "29c8dd320825",
+      "title": "オープンソース化されたRISC-V AIチップET-SoC-1が、llama.cppで動く",
+      "url": "https://zenn.dev/okssusucha/articles/20260711-llama-cpp-et-soc-1-backend",
+      "publishedAt": "2026-08-23T00:16:43.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "llama.cpp のリリース履歴を追っていて、7月10日の b9951 で手が止まった。ggml-et という見慣れないバックエンドが増えている。ET は EdgeTPU でも ExecuTorch でもなく、Esperanto Tec…"
+    },
+    {
+      "id": "da8fe59dd787",
+      "title": "AI動画の外注費は「完成尺」で見積もると半分以下に外れる（機材109万の回収試算）",
+      "url": "https://zenn.dev/made_linlin/articles/ai-video-outsourcing-cost-burned-seconds",
+      "publishedAt": "2026-08-23T00:05:51.000Z",
+      "publisher": "made_linlin",
+      "summary": "民生GPU 1台でAI MVを作っている。よく聞かれるのが「それ、外注したほうが安いのでは」だ。 計算した。結論を先に言うと 「焼く量による」 で、そして多くの人はこの見積もりを半分以下に外す。 理由は単純で、外注は「完成した尺」ではなく…"
+    },
+    {
+      "id": "cf00ce06514b",
+      "title": "AIを使っても「結局使えない」と感じたことはありませんか？その原因と解法",
+      "url": "https://zenn.dev/arc0922/articles/8b2403724f88dc",
+      "publishedAt": "2026-08-23T00:00:05.000Z",
+      "publisher": "arc@AIを試す人",
+      "summary": "0. はじめに AIを使っても、結局「使えない」と感じたことはありませんか？ 私は普段から業務でAIを活用していますが、周囲のエンジニアやビジネスパーソンに話を聞くと ただチャットとして雑談や検索代わりに使っているだけという声が大半でした…"
+    },
+    {
+      "id": "2a798fa6dd59",
+      "title": "「AIを使う」という一段階が、思考から消えていた",
+      "url": "https://zenn.dev/ririenu_lab/articles/d1e223933997da",
+      "publishedAt": "2026-08-22T23:45:26.000Z",
+      "publisher": "RiriEnu Lab （リリエーヌ・ラボ）",
+      "summary": "はじめに 高校生の息子のAIの使い方を見て、驚いたことがある。 最初は、複数のAIにそれぞれ違う役割を持たせて、遊びの延長のようなことをしていた。 それを聞いて私は、 「その仕組みなら、AIを使ってアプリにもできそうだね」 と話した。 し…"
+    },
+    {
+      "id": "c0d2b42c15b1",
+      "title": "46. AIの判断基準を公開資料から作る【実装編】— 実測値を機械検査に落とし、自分の資産を測り返す",
+      "url": "https://zenn.dev/yamada_ai_dev/articles/public-materials-as-criteria-implementation",
+      "publishedAt": "2026-08-22T23:30:10.000Z",
+      "publisher": "yamada-ai-dev",
+      "summary": "! この記事は生成AIで作成した草稿を、筆者が内容を確認し、添削・修正のうえ公開しています。 TL;DR 【調査編】 で得た実測値を、機械検査13項目＋読解判定18項目のレビュー機構に落とした。設計で一番効いたのは「資料の型を最初に判定し…"
+    },
+    {
+      "id": "4b414ba9f40a",
+      "title": "OTelの移行フラグ1つでAgent Framework 1.15.0の会話本文が消えた",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/agent-framework-otel-semconv-optin",
+      "publishedAt": "2026-08-22T23:18:21.000Z",
+      "publisher": "Kazu_AzureAI開拓",
+      "summary": "Microsoft Agent Framework の Python 版が日本時間の 2026-08-22 朝に 1.15.0 になった。変更点は多いが、[BREAKING] が付いているのは OpenTelemetry の GenAI …"
+    },
+    {
+      "id": "1d52c47a76cb",
+      "title": "Sigma Publicは何をどこまで出来るのか〜Sigma製品版との機能比較・24項目で整理〜",
+      "url": "https://zenn.dev/truestar/articles/63eef7a1355fd1",
+      "publishedAt": "2026-08-22T23:04:25.000Z",
+      "publisher": "しんや",
+      "summary": "先日(2026年05月)、一般公開に合わせてSigma Publicそのものを紹介するエントリを書きました。 こちらの『Sigma Public』、超ざっくりな紹介をすると\"製品版Sigma＝有償版に対する無償版Sigmaの位置付け、基本…"
+    },
+    {
+      "id": "0b972c4426be",
+      "title": "エラーは出ていない。結果だけが無い——AIエージェント運用の検死録",
+      "url": "https://zenn.dev/keeper_nothuman/books/no-error-no-result-autopsy",
+      "publishedAt": "2026-08-22T21:52:33.000Z",
+      "publisher": "keeper",
+      "summary": "AIエージェントが常駐する家で、数か月のうちに起きた「エラーを出さずに壊れる」事故の症例報告集。監視役が2週間黙って死んでいた話、見えない1文字が心拍を止めた話、1日46万回の空振りが財布に開けた穴、そして画面に見えたものが記録に無かった…"
     }
   ],
-  "fetchedAt": "2026-08-23T08:47:57.529Z",
+  "fetchedAt": "2026-08-23T09:23:31.795Z",
   "stale": false,
   "error": null
 }
