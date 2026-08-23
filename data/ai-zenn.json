@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "fd3d3d97d58b",
-      "title": "バイブコーディングで職務経歴書生成アプリを作った話",
-      "url": "https://zenn.dev/tnakamoto/articles/cc7ac637ebd560",
-      "publishedAt": "2026-08-23T14:11:00.000Z",
-      "publisher": "Gimlet",
-      "summary": "作ることにした理由 私事ですが7月をもって失業しました。社内SEとしてツール開発を4年以上やっていたので、自分なりに技量や実績はあるものと考えていたのですが、世間の会社はそうは受け取らないらしく、5月から3か月間の転職活動で150社以上に…"
-    },
-    {
       "id": "c28ed90e19f2",
       "title": "AI駆動開発でTDDをやってみたら、コストは消えずに\"トークン\"に化けただけだった件",
       "url": "https://zenn.dev/hontsuke/articles/b5d3535358f167",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-08-23T11:21:49.000Z",
       "publisher": "shai",
       "summary": "前回の記事では、LLMがどのように学習するのかを整理しました。 LLMは、次のTokenを予測し、その予測と正解との違いをもとにパラメータを更新します。 この処理を大量のデータに対して繰り返すことで、次のTokenを予測する能力を学習して…"
+    },
+    {
+      "id": "c1f24b153216",
+      "title": "打った文字の一部だけが消える — ブラウザ自動化の type が半角英数字を落としていた",
+      "url": "https://zenn.dev/mameresearcher/articles/browser-type-silently-drops-ascii",
+      "publishedAt": "2026-08-23T11:07:31.000Z",
+      "publisher": "まめ研究員",
+      "summary": "個人の自動化プロジェクトで、ブラウザを操作するエージェントに SNS の返信を入力させている。エディタの入力欄に type で本文を打ち込み、送信ボタンを押す、それだけの処理だ。 ある日、送信の直前に入れておいた検査がこう鳴った。 5文字…"
     }
   ],
-  "fetchedAt": "2026-08-23T15:18:23.573Z",
+  "fetchedAt": "2026-08-23T15:46:25.821Z",
   "stale": false,
   "error": null
 }
