@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "77803e4ddfdb",
-      "title": "現場のAI迅速診断、どこまで信じてよいか——FDAの新指針と温度の話",
-      "url": "https://zenn.dev/taichiendoh/articles/poct-edge-ai-lamp-temperature-trust",
-      "publishedAt": "2026-08-23T07:16:43.000Z",
-      "publisher": "遠藤太一",
-      "summary": "2026年8月18日、FDA（米国食品医薬品局）のDigital Health Center of Excellence（デジタルヘルス卓越センター）が、生成AIを組み込んだ医療機器（GenAI-enabled medical devic…"
+      "id": "c28ed90e19f2",
+      "title": "AI駆動開発でTDDをやってみたら、コストは消えずに\"トークン\"に化けただけだった件",
+      "url": "https://zenn.dev/hontsuke/articles/b5d3535358f167",
+      "publishedAt": "2026-08-23T13:42:28.000Z",
+      "publisher": "本つけ",
+      "summary": "TDDが実務で割に合わない、というよくある話 TDD（テスト駆動開発）が良いものだというのは、たぶん誰も否定しません。それでも実務でなかなか定着しないのは、単純に工数の問題です。テストを書くコストと実装するコストを両方払った上で、その効果…"
     },
     {
-      "id": "dfc1bdf800a0",
-      "title": "RLは推論を教えていない — トークンの1-3%を修正するだけでRLと同等の性能を達成するReasonMaxxer",
-      "url": "https://zenn.dev/lixian/articles/reasonmaxxer-sparse-rl",
-      "publishedAt": "2026-08-23T06:30:25.000Z",
-      "publisher": "Currently Learning そんけいご",
-      "summary": "はじめに LLMの推論能力を高めるための標準的なアプローチといえば、強化学習（RL） だ。GRPO、PPO、RLOOといったアルゴリズムが、DeepSeek-R1やQwQ、o1などに代表される推論特化モデルの訓練に使われている。多くの人が…"
+      "id": "c0b2487a241f",
+      "title": "Claude Code×SKILLでブログ自動化ツールを自作した",
+      "url": "https://zenn.dev/becchi78/articles/claude-code-blog-automation-story",
+      "publishedAt": "2026-08-23T13:35:42.000Z",
+      "publisher": "becchi78",
+      "summary": "TL;DR Claude Codeの「SKILL」機能を使って、Issue1件からZenn記事・note原稿の生成、X告知までをつなげる個人プロジェクト「BlogForge」を作りました。13個のSKILLをorchestratorという…"
     },
     {
-      "id": "9289c27ad6fb",
-      "title": "プロセスを最悪のタイミングで殺すテストをZigで作った",
-      "url": "https://zenn.dev/yottayoshida/articles/sideeye-crash-consistency-zig",
-      "publishedAt": "2026-08-23T06:25:45.000Z",
-      "publisher": "yotta",
-      "summary": "「成功しました」と表示した直後にプロセスが死んだら、ディスクには何が残るだろうか。書き込みの途中だったら。普通のテストはこの問いに答えない。プロセスが生きて完走した世界しか検証していないからだ。 この問いに答えるテストツール sideey…"
+      "id": "df5794818b42",
+      "title": "記憶を持った世界モデルを実装してみた",
+      "url": "https://zenn.dev/naoyabone/articles/1809dc83253eea",
+      "publishedAt": "2026-08-23T13:29:29.000Z",
+      "publisher": "ぼさぼさ",
+      "summary": "世界モデルにMemoryはなぜ必要なのか この記事では、5×5のGrid Worldを使って、世界モデルにMemory（記憶）が必要になる理由を順番に説明します。 これまでの世界モデルは、次の処理だけです。 今の画像 + Agentのac…"
     },
     {
-      "id": "3111eed91ed5",
-      "title": "「偶数」と「奇数」に満点を出したので、Embedding での採点をやめました",
-      "url": "https://zenn.dev/ferretcode/articles/why-i-dropped-embedding-scoring",
-      "publishedAt": "2026-08-23T06:17:30.000Z",
-      "publisher": "フェレットさん",
-      "summary": "対象読者 自由記述の回答を LLM で採点する仕組みを作ろうとしている方 Embedding のコサイン類似度を「正しさの判定」に使おうとしている方 実装が終わったものを捨てる判断を、どう決めたのか知りたい方 はじめに Ferret とい…"
+      "id": "e40d8a621fd8",
+      "title": "「答えを教えないAI」を自作した話 — ノートの写真から3段階ヒントを出す家庭内学習サーバー",
+      "url": "https://zenn.dev/tizawa/articles/no-answer-hint-ai",
+      "publishedAt": "2026-08-23T12:28:13.000Z",
+      "publisher": "伊澤剛志（公認会計士）",
+      "summary": "はじめに 子どもがAIに宿題の答えをそのまま聞ける時代になりました。答えを写すだけなら学習効果はゼロどころかマイナスです。かといって「AI禁止」にするのももったいない。 そこで、答えは絶対に教えず、自分で解けるようになるためのヒントだけを…"
     },
     {
-      "id": "73d2a631f064",
-      "title": "LLM APIの費用はどう決まる？トークン、呼び出し、周辺費用の仕組み",
-      "url": "https://zenn.dev/yhay81/articles/202608-llm-api-cost-guide",
-      "publishedAt": "2026-08-23T06:12:40.000Z",
-      "publisher": "Yusuke Hayashi / 林 裕輔",
-      "summary": "LLM APIの請求額は、モデルの価格だけでは決まりません。アプリケーションがLLMを呼び出した回数、一回の呼び出しで 処理した文章量、入力と出力に適用される単価などが組み合わさって決まります。 また、利用者には一回の操作に見えても、シス…"
+      "id": "9b2208c6a391",
+      "title": "Claude Code のセッション引き継ぎは「現在地スナップショット」で回す — HANDOFF / QUESTIONS / 採番の型",
+      "url": "https://zenn.dev/crandim_r_and_d/articles/260822_a10_handoff_questions_workflow",
+      "publishedAt": "2026-08-23T12:25:05.000Z",
+      "publisher": "tokoi",
+      "summary": "TL;DR Claude Codeで作業するときは、精度低下しないようにセッションを細かく切りたい。 しかしセッションを切るとコンテキストが失われるので、次のセッションで復帰するための「引き継ぎファイル」が必要になる。 HANDOFF.m…"
     },
     {
-      "id": "982d237706ca",
-      "title": "RAGにおけるコンテキスト整備",
-      "url": "https://zenn.dev/oryo_data/articles/7c431c3b33268e",
-      "publishedAt": "2026-08-23T04:31:49.000Z",
-      "publisher": "おりょう【なんでもデータ分析】",
-      "summary": "蒲生弘郷著『LLMの原理、RAG・エージェント開発から読み解くコンテキストエンジニアリング』の読書アウトプット第4弾です。今回は第4章「RAGにおけるコンテキスト整備」を扱います。 https://link.amazon/B09ERwnQ…"
+      "id": "636328d5b5f2",
+      "title": "クソボケ確率生成器が「知性」を獲得するまで",
+      "url": "https://zenn.dev/mol6235/articles/7c0790d902c0c3",
+      "publishedAt": "2026-08-23T12:03:17.000Z",
+      "publisher": "mol",
+      "summary": "はじめに神は天と地とを創造された。 地は形なく、むなしく、やみが淵のおもてにあり、神の霊が水のおもてをおおっていた。 神は「2ページ目をもう少し明るくできない？」と言われた。すると光があった。 神はその光を見て、良しとされた。 -- AI…"
     },
     {
-      "id": "10c8d9722de6",
-      "title": "AIに夜の仕事を任せたら、「AIを信用しすぎない仕組み」ができた",
-      "url": "https://zenn.dev/rabbitfoot/articles/de44049f4d3988",
-      "publishedAt": "2026-08-23T03:17:55.000Z",
-      "publisher": "rabbitfoot_ai",
-      "summary": "ローカルLLMに、寝ている間の仕事を任せたい。 夜のうちに調べてもらって、朝になったら結果がまとまっている。 そんな仕組みをIrisに追加しようとして、最初は Overnight Worker と呼んでいました。 ただ、作っていくうちに夜…"
+      "id": "4ea848bac7e3",
+      "title": "AIに仕様だけ渡してテストを書かせたら全部緑。それでも実装変更は3件必要だった",
+      "url": "https://zenn.dev/hawk_claws/articles/zenn-02-independent-crosscheck",
+      "publishedAt": "2026-08-23T12:00:05.000Z",
+      "publisher": "HawkClaws",
+      "summary": "前の記事に、まっとうな反論をもらった 前回、AI生成コードをどこまで理解してからマージするかという基準を書きました。その中に「テストの循環問題」という節があって、こう書いていました。 エージェントは、実装に合わせたテストを書きます。(中略…"
     },
     {
-      "id": "07fbb4b931d1",
-      "title": "検証は全部PASSした。それでも、生成したPDFの文字は見えなかった",
-      "url": "https://zenn.dev/ailmira/articles/300e0aee9997a2",
-      "publishedAt": "2026-08-23T03:13:43.000Z",
-      "publisher": "AILMIRA",
-      "summary": "仕事でそのまま使えるPDFを、自動で作れる仕組みをAIと一緒に作っていました。 作るだけではなく、正常に作れたかの確認もAI側で行います。 ある日、その仕組みから「完成した」と判断できるPDFができました。 生成できている ビルドも通って…"
+      "id": "8422083e4b2f",
+      "title": "AI学習支援は利用中の正答率だけで評価してはいけない",
+      "url": "https://zenn.dev/kai_ai/articles/f633f5245ac04d",
+      "publishedAt": "2026-08-23T11:43:19.000Z",
+      "publisher": "Kai＠生成AI",
+      "summary": "生成AIを使った学習者の正答率が上がれば、そのAIは教育効果を生んだと言えるでしょうか。 この記事の結論は、学習支援AIでは、利用中のタスク性能と、AIを外した後に残る技能を分けて評価する必要があるというものです。 2025年にPNASへ…"
     },
     {
-      "id": "4c64d36b380f",
-      "title": "AIに作らせて、目で選ぶだけ。スマホでCloudflare Workersの日本語OGPを作り直した",
-      "url": "https://zenn.dev/coji/articles/og-image-ai-visual-review-mobile",
-      "publishedAt": "2026-08-23T03:02:55.000Z",
-      "publisher": "Coji Mizoguchi",
-      "summary": "これはなに？ ひとりで開発している Artifact Share のOG画像生成を、SatoriからTakumiへ移行して作り直しました。調査、仕様づくり、実装、視覚検証、レビュー、PRのマージまで、すべてスマートフォンのCodexからリ…"
+      "id": "67859f1b135e",
+      "title": "「あなたの職業倫理観は素晴らしい」と言われて、少し救われた話",
+      "url": "https://zenn.dev/ykicker/articles/2026-08-23-engineer-professional-ethics",
+      "publishedAt": "2026-08-23T11:28:51.000Z",
+      "publisher": "YK",
+      "summary": "最近、長期インターンとは別に、サマーインターンにも参加しています。 その影響で、個人開発の進みは少しゆっくりになっているのですが、 そのぶん、普段とは違う環境で得られる気づきもあります。今回はその中でも、特に印象に残ったことを書いてみたい…"
     },
     {
-      "id": "4a9d155bc00c",
-      "title": "【AWS】SageMaker AIの推論レコメンデーションは何を自動化したのか？",
-      "url": "https://zenn.dev/kira_n/articles/17ab673a3702cc",
-      "publishedAt": "2026-08-23T02:51:03.000Z",
-      "publisher": "kira_n",
-      "summary": "はじめに 2026年4月、Amazon SageMaker AIに「推論レコメンデーション」機能が追加されました。生成AIモデルの本番デプロイに必要なインスタンス選定やパラメータチューニングを、手動ベンチマークなしで自動化するというもので…"
+      "id": "f04a470d8b47",
+      "title": "動画・音声データを「検索できる知識」に変える：文字起こし API で作るコンテンツ管理基盤",
+      "url": "https://zenn.dev/cicisee/articles/f3b4b9f4c28034",
+      "publishedAt": "2026-08-23T11:26:05.000Z",
+      "publisher": "CiciSee",
+      "summary": "はじめに 最近、AIアプリや個人開発の現場で扱うデータの種類が大きく変わっています。 以前は、Webページやデータベースのような「最初から構造化された情報」を扱うことが中心でした。 しかし現在は、 YouTubeの解説動画 TikTokや…"
     },
     {
-      "id": "b6a4406f5808",
-      "title": "AGENTS.md リンタを118リポジトリに当てたら、記事に書いたフラグが一度も動いていなかった",
-      "url": "https://zenn.dev/maronsan/articles/reflint-audit-118-repos",
-      "publishedAt": "2026-08-23T01:40:04.000Z",
-      "publisher": "maronsan",
-      "summary": "AGENTS.md や CLAUDE.md は静かに腐る。「セットアップは npm run build」「エントリは src/index.ts」と書いたまま、リネームや削除でその一文が嘘になる。エージェントはそれを信じて事故る。 文体や表…"
+      "id": "94c95ee80a6f",
+      "title": "ChatGPTはどのように文章を生成するのか？ — LogitsとSoftmaxを理解する",
+      "url": "https://zenn.dev/shai/articles/c213d808277f0b",
+      "publishedAt": "2026-08-23T11:21:49.000Z",
+      "publisher": "shai",
+      "summary": "前回の記事では、LLMがどのように学習するのかを整理しました。 LLMは、次のTokenを予測し、その予測と正解との違いをもとにパラメータを更新します。 この処理を大量のデータに対して繰り返すことで、次のTokenを予測する能力を学習して…"
     },
     {
-      "id": "ce40e718ea03",
-      "title": "RAGとGraphRAGを同じ100問で並べたら、勝敗が質問タイプで真っ二つに割れた",
-      "url": "https://zenn.dev/kenimo49/articles/rag-vs-graphrag-100-questions-verdict",
-      "publishedAt": "2026-08-23T01:22:35.000Z",
-      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
-      "summary": "私はGraphRAGを「次世代RAG」だと信じて、全質問に適用しました。100問並列評価の結果、44問ぶんのカテゴリでRAGに負けたのです。導入前に測っておくべきでした。 社内QAアシスタントの精度を上げるつもりが、逆にベースライン割れを…"
+      "id": "c1f24b153216",
+      "title": "打った文字の一部だけが消える — ブラウザ自動化の type が半角英数字を落としていた",
+      "url": "https://zenn.dev/mameresearcher/articles/browser-type-silently-drops-ascii",
+      "publishedAt": "2026-08-23T11:07:31.000Z",
+      "publisher": "まめ研究員",
+      "summary": "個人の自動化プロジェクトで、ブラウザを操作するエージェントに SNS の返信を入力させている。エディタの入力欄に type で本文を打ち込み、送信ボタンを押す、それだけの処理だ。 ある日、送信の直前に入れておいた検査がこう鳴った。 5文字…"
     }
   ],
-  "fetchedAt": "2026-08-23T13:00:58.089Z",
+  "fetchedAt": "2026-08-23T13:45:32.278Z",
   "stale": false,
   "error": null
 }
