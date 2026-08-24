@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.20061",
       "publishedAt": "2026-08-20T13:57:43.000Z",
       "summary": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computati…",
-      "score": 16
+      "score": 17
     },
     {
       "id": "133d9579df4f",
@@ -22,12 +22,12 @@
       "score": 15
     },
     {
-      "id": "7cb463ca6821",
-      "title": "TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity",
-      "url": "https://huggingface.co/papers/2608.15767",
-      "publishedAt": "2026-08-16T00:00:00.000Z",
-      "summary": "We introduce TinyCast, an attention-free zero-shot forecaster that emits a predictive distribution from 146,505 paramet…",
-      "score": 9
+      "id": "560a03a78523",
+      "title": "EviRank: Structured Relevance Evidence for Multimodal Image Re-ranking",
+      "url": "https://huggingface.co/papers/2608.20886",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "Real-world image search queries are multimodal and compositional: ``find this shirt in pink'' specifies an entity to re…",
+      "score": 7
     },
     {
       "id": "101a8277edfa",
@@ -35,7 +35,23 @@
       "url": "https://huggingface.co/papers/2608.21156",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "LLMs have evolved from language generators to autonomous agents capable of complex, long-horizon tasks. This evolution …",
-      "score": 5
+      "score": 7
+    },
+    {
+      "id": "fc0700d79f40",
+      "title": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
+      "url": "https://huggingface.co/papers/2608.20910",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "With large pretrained models, existing methods have effectively improved instruction-based video editing. However, most…",
+      "score": 7
+    },
+    {
+      "id": "1fa9a80a57d2",
+      "title": "Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models",
+      "url": "https://huggingface.co/papers/2608.16647",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own …",
+      "score": 6
     },
     {
       "id": "0b2bc5c82691",
@@ -46,35 +62,19 @@
       "score": 3
     },
     {
-      "id": "0319f0cb8538",
-      "title": "Towards Faithful Simulation of Human Shopping Behavior",
-      "url": "https://huggingface.co/papers/2608.20707",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "Simulating realistic user shopping behavior underpins offline evaluation and reinforcement learning in e-commerce scena…",
-      "score": 2
-    },
-    {
-      "id": "fc0700d79f40",
-      "title": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
-      "url": "https://huggingface.co/papers/2608.20910",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "With large pretrained models, existing methods have effectively improved instruction-based video editing. However, most…",
-      "score": 2
-    },
-    {
       "id": "27da4210ea5d",
       "title": "Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs",
       "url": "https://huggingface.co/papers/2608.12781",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Hybrid-thinking multimodal large language models (MLLMs) allow a single model to alternate between deliberative thinkin…",
-      "score": 2
+      "score": 3
     },
     {
-      "id": "51a43c0e0bb3",
-      "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
-      "url": "https://huggingface.co/papers/2607.21596",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures disc…",
+      "id": "0319f0cb8538",
+      "title": "Towards Faithful Simulation of Human Shopping Behavior",
+      "url": "https://huggingface.co/papers/2608.20707",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "Simulating realistic user shopping behavior underpins offline evaluation and reinforcement learning in e-commerce scena…",
       "score": 2
     },
     {
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-24T04:54:15.506Z",
+  "fetchedAt": "2026-08-24T05:34:44.920Z",
   "stale": false,
   "error": null
 }
