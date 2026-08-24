@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "fd3d3d97d58b",
-      "title": "バイブコーディングで職務経歴書生成アプリを作った話",
-      "url": "https://zenn.dev/tnakamoto/articles/cc7ac637ebd560",
-      "publishedAt": "2026-08-23T14:11:00.000Z",
-      "publisher": "Gimlet",
-      "summary": "作ることにした理由 私事ですが7月をもって失業しました。社内SEとしてツール開発を4年以上やっていたので、自分なりに技量や実績はあるものと考えていたのですが、世間の会社はそうは受け取らないらしく、5月から3か月間の転職活動で150社以上に…"
+      "id": "28e9b66814dc",
+      "title": "AIに投げる前の「5分保留」を90日続けたら、質問の質が3倍になった",
+      "url": "https://zenn.dev/kenimo49/articles/ai-5min-pause-90days-question-quality-3x",
+      "publishedAt": "2026-08-24T01:33:09.000Z",
+      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
+      "summary": "AIに聞いた瞬間、自分が何を聞きたかったか分からなくなる 数ヶ月前まで、私は疑問が浮かんだ瞬間にAIに聞いていました。「なぜこのエラーが出るのか」を1秒で貼り付け、「なぜ動かないのか」を3秒でコピーする。返答は速い。でも、返ってきた回答を…"
     },
     {
-      "id": "c28ed90e19f2",
-      "title": "AI駆動開発でTDDをやってみたら、コストは消えずに\"トークン\"に化けただけだった件",
-      "url": "https://zenn.dev/hontsuke/articles/b5d3535358f167",
-      "publishedAt": "2026-08-23T13:42:28.000Z",
-      "publisher": "本つけ",
-      "summary": "TDDが実務で割に合わない、というよくある話 TDD（テスト駆動開発）が良いものだというのは、たぶん誰も否定しません。それでも実務でなかなか定着しないのは、単純に工数の問題です。テストを書くコストと実装するコストを両方払った上で、その効果…"
+      "id": "ebe712d1f83c",
+      "title": "1日500コミットを続けたら、Macが熱で落ちるようになりました",
+      "url": "https://zenn.dev/singularity/articles/bottleneck-descends",
+      "publishedAt": "2026-08-24T01:04:34.000Z",
+      "publisher": "Isamu",
+      "summary": "その日も、いつもどおりでした。 エージェントを30体ばかり並べて、それぞれに別の仕事を投げて、僕は色が変わるのを待っている。ファンはずっと唸っていましたが、もうそれが普通の音になっていたので、気にもしていませんでした。 そうしたら、画面が…"
     },
     {
-      "id": "c0b2487a241f",
-      "title": "Claude Code×SKILLでブログ自動化ツールを自作した",
-      "url": "https://zenn.dev/becchi78/articles/claude-code-blog-automation-story",
-      "publishedAt": "2026-08-23T13:35:42.000Z",
-      "publisher": "becchi78",
-      "summary": "TL;DR Claude Codeの「SKILL」機能を使って、Issue1件からZenn記事・note原稿の生成、X告知までをつなげる個人プロジェクト「BlogForge」を作りました。13個のSKILLをorchestratorという…"
+      "id": "8174f831dd8f",
+      "title": "デブサミ2026関西 参加レポート",
+      "url": "https://zenn.dev/takesoon/articles/devsumi-2026-kansai-report",
+      "publishedAt": "2026-08-24T00:46:53.000Z",
+      "publisher": "takesoon",
+      "summary": "はじめに 2026年8月21日に梅田サウスホールで開催された Developers Summit 2026 KANSAI（デブサミ関西）に参加してきました。今年のテーマは「Re:Developer〜エンジニアの再定義〜」。AIエージェント…"
     },
     {
-      "id": "df5794818b42",
-      "title": "記憶を持った世界モデルを実装してみた",
-      "url": "https://zenn.dev/naoyabone/articles/1809dc83253eea",
-      "publishedAt": "2026-08-23T13:29:29.000Z",
-      "publisher": "ぼさぼさ",
-      "summary": "世界モデルにMemoryはなぜ必要なのか この記事では、5×5のGrid Worldを使って、世界モデルにMemory（記憶）が必要になる理由を順番に説明します。 これまでの世界モデルは、次の処理だけです。 今の画像 + Agentのac…"
+      "id": "1b049a77d833",
+      "title": "AI生成素材をそのまま採用せず、ゲーム内で比較試遊できる仕組み",
+      "url": "https://zenn.dev/hirodeath/articles/ai-generated-assets-lookdev",
+      "publishedAt": "2026-08-24T00:29:53.000Z",
+      "publisher": "ヒロ",
+      "summary": "生成画面で良く見えたピクセルキャラクターが、ゲームへ入れると背景に埋もれることがあります。輪郭、サイズ、アニメーション速度が、実際のカメラ倍率や敵との並びで変わって見えるためです。 Nocturne Vaniaでは、候補を画像一覧だけで決…"
     },
     {
-      "id": "e40d8a621fd8",
-      "title": "「答えを教えないAI」を自作した話 — ノートの写真から3段階ヒントを出す家庭内学習サーバー",
-      "url": "https://zenn.dev/tizawa/articles/no-answer-hint-ai",
-      "publishedAt": "2026-08-23T12:28:13.000Z",
-      "publisher": "伊澤剛志（公認会計士）",
-      "summary": "はじめに 子どもがAIに宿題の答えをそのまま聞ける時代になりました。答えを写すだけなら学習効果はゼロどころかマイナスです。かといって「AI禁止」にするのももったいない。 そこで、答えは絶対に教えず、自分で解けるようになるためのヒントだけを…"
+      "id": "c09872427b89",
+      "title": "AI通話要約を社内システムに連携して、音声チェック工数を月40時間削減した話",
+      "url": "https://zenn.dev/solo_joshis/articles/2026-08-24-ai-ai-tool-108",
+      "publishedAt": "2026-08-24T00:02:40.000Z",
+      "publisher": "ソロ情シス",
+      "summary": "「録音、全部聞いてるんですか？」と聞かれて答えに詰まった コールセンターの社内SEをしていて、一番地味にきついのが通話録音のチェック業務です。 うちは席数が60ほどで、1日に入る呼が900件前後。そのうち品質管理（QA）のチームが抜き取り…"
     },
     {
-      "id": "9b2208c6a391",
-      "title": "Claude Code のセッション引き継ぎは「現在地スナップショット」で回す — HANDOFF / QUESTIONS / 採番の型",
-      "url": "https://zenn.dev/crandim_r_and_d/articles/260822_a10_handoff_questions_workflow",
-      "publishedAt": "2026-08-23T12:25:05.000Z",
-      "publisher": "tokoi",
-      "summary": "TL;DR Claude Codeで作業するときは、精度低下しないようにセッションを細かく切りたい。 しかしセッションを切るとコンテキストが失われるので、次のセッションで復帰するための「引き継ぎファイル」が必要になる。 HANDOFF.m…"
+      "id": "e80db31058fc",
+      "title": "「テストが通った」でPRを作らせない",
+      "url": "https://zenn.dev/miyakona/articles/624cb9dde37ab3",
+      "publishedAt": "2026-08-24T00:00:11.000Z",
+      "publisher": "miyakona",
+      "summary": "「実装しました。テストはすべて通っています」 AIエージェントからこの報告を受けると、変更は完成したように見えます。 しかし、実際にコマンドを動かすと、追加したオプションが処理へ渡っていない。ファイル生成は成功扱いなのに、期待した形式のフ…"
     },
     {
-      "id": "636328d5b5f2",
-      "title": "クソボケ確率生成器が「知性」を獲得するまで",
-      "url": "https://zenn.dev/mol6235/articles/7c0790d902c0c3",
-      "publishedAt": "2026-08-23T12:03:17.000Z",
-      "publisher": "mol",
-      "summary": "はじめに神は天と地とを創造された。 地は形なく、むなしく、やみが淵のおもてにあり、神の霊が水のおもてをおおっていた。 神は「2ページ目をもう少し明るくできない？」と言われた。すると光があった。 神はその光を見て、良しとされた。 -- AI…"
+      "id": "77389e7123be",
+      "title": "Ai4カンファレンスに参加してきました",
+      "url": "https://zenn.dev/finatext/articles/d35d42cf87ecc9",
+      "publishedAt": "2026-08-24T00:00:10.000Z",
+      "publisher": "okamottin",
+      "summary": "こんにちは。FinatextのCredit事業部でエンジニアをしてます、岡本です。 先日、米国ラスベガスで開催された世界最大級のAIカンファレンス Ai4 2026 に参加してきました。今回はその内容を書こうと思います。 なお、内容は現地…"
     },
     {
-      "id": "4ea848bac7e3",
-      "title": "AIに仕様だけ渡してテストを書かせたら全部緑。それでも実装変更は3件必要だった",
-      "url": "https://zenn.dev/hawk_claws/articles/zenn-02-independent-crosscheck",
-      "publishedAt": "2026-08-23T12:00:05.000Z",
-      "publisher": "HawkClaws",
-      "summary": "前の記事に、まっとうな反論をもらった 前回、AI生成コードをどこまで理解してからマージするかという基準を書きました。その中に「テストの循環問題」という節があって、こう書いていました。 エージェントは、実装に合わせたテストを書きます。(中略…"
+      "id": "f7f3b4a65622",
+      "title": "機密を扱う会社のAI選定を支援して、決め手は監査ログだった",
+      "url": "https://zenn.dev/neomaru/articles/enterprise-ai-selection-audit",
+      "publishedAt": "2026-08-24T00:00:10.000Z",
+      "publisher": "neomaru",
+      "summary": "先日、機密性の高い未公開情報を日常的に扱う組織の AI エージェント基盤選定を支援する機会があった。結論を先に共有すると、モデルの性能比較よりも先に「監査ログに何が残るか」で候補が絞られ、最終的に ChatGPT を主軸とする構成になった…"
     },
     {
-      "id": "8422083e4b2f",
-      "title": "AI学習支援は利用中の正答率だけで評価してはいけない",
-      "url": "https://zenn.dev/kai_ai/articles/f633f5245ac04d",
-      "publishedAt": "2026-08-23T11:43:19.000Z",
-      "publisher": "Kai＠生成AI",
-      "summary": "生成AIを使った学習者の正答率が上がれば、そのAIは教育効果を生んだと言えるでしょうか。 この記事の結論は、学習支援AIでは、利用中のタスク性能と、AIを外した後に残る技能を分けて評価する必要があるというものです。 2025年にPNASへ…"
+      "id": "98d478443e94",
+      "title": "プロダクトエンジニアに必要な「具体と抽象を往復する力」",
+      "url": "https://zenn.dev/branbran/articles/d3739aa4dbe68e",
+      "publishedAt": "2026-08-24T00:00:10.000Z",
+      "publisher": "Atsuki02",
+      "summary": "最近、プロダクトエンジニアという職種名をよく見るようになりました。 定義は人によって揺れていますが、私は次のように理解しています。プロダクトの価値を最大化することを目的に、何が課題なのかを見つけるところから入り、何を作るかを決め、実装して…"
     },
     {
-      "id": "67859f1b135e",
-      "title": "「あなたの職業倫理観は素晴らしい」と言われて、少し救われた話",
-      "url": "https://zenn.dev/ykicker/articles/2026-08-23-engineer-professional-ethics",
-      "publishedAt": "2026-08-23T11:28:51.000Z",
-      "publisher": "YK",
-      "summary": "最近、長期インターンとは別に、サマーインターンにも参加しています。 その影響で、個人開発の進みは少しゆっくりになっているのですが、 そのぶん、普段とは違う環境で得られる気づきもあります。今回はその中でも、特に印象に残ったことを書いてみたい…"
+      "id": "59ce885e439c",
+      "title": "#8 4,395行のダッシュボードを、40行にした日 — Markdownとシェルだけで作るAIチームのカンバン",
+      "url": "https://zenn.dev/chisatom/articles/290af6e5cd9506",
+      "publishedAt": "2026-08-23T23:57:34.000Z",
+      "publisher": "Chisato Matsuzaki",
+      "summary": "この記事は、Claude Code 6体のマルチエージェント「Lady's servants」（お屋敷）を運用した記録を振り返る連載の第8回です。実録編（第7回）の合間に、地味だけど運用の核心の話を挟みます。記録体系の話です。 「地味」と…"
     },
     {
-      "id": "f04a470d8b47",
-      "title": "動画・音声データを「検索できる知識」に変える：文字起こし API で作るコンテンツ管理基盤",
-      "url": "https://zenn.dev/cicisee/articles/f3b4b9f4c28034",
-      "publishedAt": "2026-08-23T11:26:05.000Z",
-      "publisher": "CiciSee",
-      "summary": "はじめに 最近、AIアプリや個人開発の現場で扱うデータの種類が大きく変わっています。 以前は、Webページやデータベースのような「最初から構造化された情報」を扱うことが中心でした。 しかし現在は、 YouTubeの解説動画 TikTokや…"
+      "id": "5ea76bdb7c7c",
+      "title": "社長の思考をAIに移植する — 判断基準を文書化して初めて自分の経営が言語化された話",
+      "url": "https://zenn.dev/joinclass/articles/ai-20260822220004-12608",
+      "publishedAt": "2026-08-23T23:00:07.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "AIに任せられなかったのは、AIの性能のせいではなかった 僕は一人で会社をやっている。開発も営業もマーケも経理も、全部自分だ。だからAIエージェントに業務を委任する仕組み（社内では AI-CEO Framework と呼んでいる）を作り込…"
     },
     {
-      "id": "94c95ee80a6f",
-      "title": "ChatGPTはどのように文章を生成するのか？ — LogitsとSoftmaxを理解する",
-      "url": "https://zenn.dev/shai/articles/c213d808277f0b",
-      "publishedAt": "2026-08-23T11:21:49.000Z",
-      "publisher": "shai",
-      "summary": "前回の記事では、LLMがどのように学習するのかを整理しました。 LLMは、次のTokenを予測し、その予測と正解との違いをもとにパラメータを更新します。 この処理を大量のデータに対して繰り返すことで、次のTokenを予測する能力を学習して…"
+      "id": "c7a5159d6eb7",
+      "title": "社内ネットワークでAIコーディング支援を回す ── 認証切れ・プロキシ遮断・EDR検知の逆引き対処と切り分けチェックリスト",
+      "url": "https://zenn.dev/tejunya/articles/a014_enterprise-network",
+      "publishedAt": "2026-08-23T23:00:05.000Z",
+      "publisher": "手順屋",
+      "summary": "注記：本記事は特定環境での実体験に基づく記録である。製品名・構成は一般化しており、社内固有の情報は含まない。対処の可否は自社のセキュリティポリシーに依存するため、必ず情報システム部門に確認のうえ適用すること。 AIコーディング支援ツールが…"
     }
   ],
-  "fetchedAt": "2026-08-24T01:49:36.773Z",
+  "fetchedAt": "2026-08-24T02:59:28.329Z",
   "stale": false,
   "error": null
 }
