@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.16885",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherentl…",
-      "score": 14
+      "score": 15
     },
     {
       "id": "6575ca9ecc28",
@@ -19,14 +19,6 @@
       "url": "https://huggingface.co/papers/2608.12875",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-awa…",
-      "score": 11
-    },
-    {
-      "id": "32e6b90d4e6b",
-      "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
-      "url": "https://huggingface.co/papers/2608.08466",
-      "publishedAt": "2026-08-09T00:00:00.000Z",
-      "summary": "Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold …",
       "score": 11
     },
     {
@@ -38,28 +30,36 @@
       "score": 9
     },
     {
-      "id": "79e9e948ff31",
-      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
-      "url": "https://huggingface.co/papers/2608.13547",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched ex…",
-      "score": 7
-    },
-    {
-      "id": "145e008b0b4d",
-      "title": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
-      "url": "https://huggingface.co/papers/2608.19759",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Multifingered grasping is a crucial robotic skill, but current deep-learning grasp planners often struggle to generaliz…",
-      "score": 6
-    },
-    {
       "id": "101a8277edfa",
       "title": "Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence",
       "url": "https://huggingface.co/papers/2608.21156",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "LLMs have evolved from language generators to autonomous agents capable of complex, long-horizon tasks. This evolution …",
+      "score": 4
+    },
+    {
+      "id": "0b2bc5c82691",
+      "title": "AgentMercury: Your Agent Can Synthesize Verifiable Environments for Business Scenarios at scale",
+      "url": "https://huggingface.co/papers/2608.20634",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "Agents learn to act through interaction with environments, yet the environments used for training are often manually co…",
       "score": 3
+    },
+    {
+      "id": "0319f0cb8538",
+      "title": "Towards Faithful Simulation of Human Shopping Behavior",
+      "url": "https://huggingface.co/papers/2608.20707",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "Simulating realistic user shopping behavior underpins offline evaluation and reinforcement learning in e-commerce scena…",
+      "score": 2
+    },
+    {
+      "id": "fc0700d79f40",
+      "title": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
+      "url": "https://huggingface.co/papers/2608.20910",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "With large pretrained models, existing methods have effectively improved instruction-based video editing. However, most…",
+      "score": 2
     },
     {
       "id": "27da4210ea5d",
@@ -86,23 +86,23 @@
       "score": 1
     },
     {
-      "id": "fc0700d79f40",
-      "title": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
-      "url": "https://huggingface.co/papers/2608.20910",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "With large pretrained models, existing methods have effectively improved instruction-based video editing. However, most…",
-      "score": 1
-    },
-    {
       "id": "2d4942b574a7",
       "title": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
       "url": "https://huggingface.co/papers/2608.21134",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "Deploying vision-language models (VLMs) on mobile devices is challenging due to their significant memory and compute re…",
       "score": 1
+    },
+    {
+      "id": "bfdaceb1017e",
+      "title": "Hadith computational science in the age of large language models: a critical narrative review",
+      "url": "https://huggingface.co/papers/2608.20364",
+      "publishedAt": "2026-06-18T00:00:00.000Z",
+      "summary": "We examine how hadith computational science is being reshaped by transformer models, retrieval-grounded pipelines, and …",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-24T02:59:28.166Z",
+  "fetchedAt": "2026-08-24T03:59:37.294Z",
   "stale": false,
   "error": null
 }
