@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "011c51c5cadd",
-      "title": "LLM は書きながら考えられるが、書くのをやめて見直せない",
-      "url": "https://zenn.dev/mochitec_tech/articles/debb4c5fb42176",
-      "publishedAt": "2026-08-24T10:03:17.000Z",
-      "publisher": "Ruuuhs",
-      "summary": "この記事は、書いている途中で3回テーゼが変わった この記事は、調査と執筆を Claude Code にやらせながら書きました。最初の問いは単純です。推論機構を積んだモデルが、なぜ全体を見誤るのか。 その企画が、6ターンで元の問いから逸れま…"
+      "id": "befb25bdbd47",
+      "title": "コードも分からなかった私が、AIと一緒にライフプランアプリを作り始めた話",
+      "url": "https://zenn.dev/pitbully_works/articles/7c68042f28ed56",
+      "publishedAt": "2026-08-24T14:16:26.000Z",
+      "publisher": "pitbully_works",
+      "summary": "コードも分からなかった私が、AIと一緒にライフプランアプリを作り始めた話 はじめに 私はプログラマーではありません。 アプリ開発の仕事をした経験もありません。 React、JavaScript、GitHub、Vercel。 今では開発を続…"
     },
     {
-      "id": "171a25d7e9e6",
-      "title": "第１回 ローカルLLMだけで動く音声アシスタント（JARVIS）を作ってみた",
-      "url": "https://zenn.dev/iryouit/articles/027d1c0888f07b",
-      "publishedAt": "2026-08-24T09:45:13.000Z",
+      "id": "cdb0cf628171",
+      "title": "ざっくりわかる AI Agent（2）：Agent の「手」——ツールと MCP",
+      "url": "https://zenn.dev/dupi/articles/ai-agent-plain-02-tools-mcp",
+      "publishedAt": "2026-08-24T14:06:10.000Z",
+      "publisher": "るぴ",
+      "summary": "ひとことまとめ：ツールは Agent の「手」で、何ができるかを決めます。しかし手は悪さもするので、「安全手袋」も必要です。さらに、手をどこにでも挿せる共通の差込口も要ります——ツールの設計、実行の安全性、MCP は、この三つの話です。 …"
+    },
+    {
+      "id": "48f7338b604c",
+      "title": "Discordの一言からアプリが生まれる — 自律開発ハーネス homunculus の設計と実践",
+      "url": "https://zenn.dev/konbu_create/articles/homunculus-harness-vibe-coding",
+      "publishedAt": "2026-08-24T13:58:03.000Z",
+      "publisher": "昆布クリエイト",
+      "summary": "はじめに Discord に一言投げるだけで、要件整理から設計・実装・検証までが自動で進み、数時間後に projects/ に動くアプリが現れる。そんな体験を作るために組んだのが homunculus（ホムンクルス） という自律開発ハーネ…"
+    },
+    {
+      "id": "c831214b2c22",
+      "title": "KiroでAWS開発ライフサイクルはどこまでAgentic化できるのか — 10の技術検証を始めます",
+      "url": "https://zenn.dev/nobu_13/articles/121571482d0a33",
+      "publishedAt": "2026-08-24T13:50:01.000Z",
+      "publisher": "nobu_13",
+      "summary": "生成AIを使ってコードを書くことは、すでに珍しいことではなくなりました。 では、その先はどうでしょうか。 AWS上でシステムを開発するときには、コードを書く以外にも多くの工程があります。 要件整理 アーキテクチャ設計 Infrastruc…"
+    },
+    {
+      "id": "fe404c2635af",
+      "title": "grill-me の質問攻めを CLAUDE.md で AskUserQuestion に置き換えたら楽になった",
+      "url": "https://zenn.dev/denwaya/articles/grill-me-askuserquestion",
+      "publishedAt": "2026-08-24T13:16:33.000Z",
+      "publisher": "denwaya",
+      "summary": "概要 grill-me は、計画や設計が固まるまでユーザーに質問を繰り返すスキルです。 質問はすべて文章で提示されるため、回答も毎回自由記述になります。 二択の質問でも同じです。 一方、Claude Code には AskUserQues…"
+    },
+    {
+      "id": "8d3bd8406267",
+      "title": "ターミナルを閉じてもClaude Codeが動き続ける理由、supervisorデーモンとAgent viewについて",
+      "url": "https://zenn.dev/uehaj/articles/claude-code-supervisor-agent-view",
+      "publishedAt": "2026-08-24T13:09:36.000Z",
+      "publisher": "Junji Uehara",
+      "summary": "! 本記事は筆者個人の見解であり、所属する組織の公式見解ではありません。 また、ここで扱う supervisor デーモンと Agent view は research preview の機能です。この領域は仕様が頻繁に、かつ大きく変わり…"
+    },
+    {
+      "id": "b36113352d8f",
+      "title": "エージェントのためのUIコンポーネントライブラリを作った",
+      "url": "https://zenn.dev/demia/articles/6c1291f0dae964",
+      "publishedAt": "2026-08-24T12:44:40.000Z",
+      "publisher": "Daichi",
+      "summary": "はじめに コーディングエージェントによって、要件からアプリケーションを実装するまでの時間は大きく短縮することができるようになりました。一方で、生成されたフロントエンドの画面を確認すると、余白や色、状態表現に細かなずれが残り、人が修正を重ね…"
+    },
+    {
+      "id": "b597c74f718d",
+      "title": "Amazon購入履歴の取得に内部APIを叩いた。実は公式のデータリクエストで46分で届いた",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-10-171003",
+      "publishedAt": "2026-08-24T12:43:32.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の実施記録（2026年8月）: AmazonのKindle購入履歴を取得しようとしたが、公式APIは存在しなかった。Kindleアプリの操作もローカルDBの参照もできず、最終的に「コンテンツと端末の管理」画面が使う内部APIを叩い…"
+    },
+    {
+      "id": "7801ee3f7ba4",
+      "title": "AIが自己採点91.5点をつけた動画には、実在しない機能が映っていた",
+      "url": "https://zenn.dev/pakupaku_x/articles/a3965e6264e066",
+      "publishedAt": "2026-08-24T12:26:41.000Z",
+      "publisher": "ぱくぱく",
+      "summary": "個人で作っている家計簿SaaSのLPに、18秒のプロダクト紹介動画を置きました。 画面録画ではありません。アプリのUIをReactで組み直してRemotionでレンダリングし、音はFFmpegで合成しています。素材ファイルは1つも買ってい…"
+    },
+    {
+      "id": "0d1a07661a7d",
+      "title": "第2回 ローカルLLMだけで動く音声アシスタント（JARVIS）を作ってみた",
+      "url": "https://zenn.dev/iryouit/articles/4070a9ea3040ae",
+      "publishedAt": "2026-08-24T12:26:37.000Z",
       "publisher": "anemone",
-      "summary": "はじめに 先日MacBook Pro M5pro 48GBモデルを購入しました。ユニファイドメモリでM5チップはAI処理性能が向上しているということで、ローカルLLMを使って執事型AIを作ってみました。 最近SNSで、映画アイアンマンに出…"
+      "summary": "第1回：概要 の続きです。 今回は機能の紹介です。実際のやり取りをそのまま載せます（勤務先名・人名は伏せています）。 予定とシフト 以前プログラミング学習の一環で、家族共有アプリを作成しました。 データベースにはsupabaseを用い、家…"
     },
     {
-      "id": "f29dbb42c0ec",
-      "title": "VS CodeからClaude Codeへ。それでもローカルLLMを使ってみた。",
-      "url": "https://zenn.dev/nanakusataro/articles/3482992eed080a",
-      "publishedAt": "2026-08-24T09:31:03.000Z",
-      "publisher": "Nanakusa Lab.",
-      "summary": "昨年ぐらいからローカルLLMを使ったAIエージェントを構築して弄っています。 PCは、M4pro Mac mini、搭載メモリは24GB。 2年ほど前にAmazon BlackFridayで購入した、いわゆる「吊るしモデル」です。 ソフト…"
+      "id": "965695d677a0",
+      "title": "DatadogのAI機能を整理する。Bits ChatとBits Investigationの使い方",
+      "url": "https://zenn.dev/kumasunny/articles/datadog-ai-features-bits-guide",
+      "publishedAt": "2026-08-24T12:24:42.000Z",
+      "publisher": "サニーエンジニアリング",
+      "summary": "Datadog の「AI」カテゴリを開くと、Bits Chat、Bits Investigation、Bits Code、Agent Observability……と名前が並びます。 数が多いだけではありません。まったく性質の違うものが、…"
     },
     {
-      "id": "964fbeaa97a7",
-      "title": "SaaSの「機能追加」が失敗する理由。ユーザーの声をどう活かすべきか",
-      "url": "https://zenn.dev/peggykang/articles/3f705d47602027",
-      "publishedAt": "2026-08-24T09:27:51.000Z",
-      "publisher": "peggykang",
-      "summary": "SaaSを運営していると、「次はどんな機能を作ろう？」と悩むことがよくあります。 競合サービスを調べたり、SNSのトレンドを見たり、自分たちでアイデアを考えたり。 でも、実は一番身近なところにヒントがあります。 ユーザーから届いているフィ…"
-    },
-    {
-      "id": "445c003eb8fb",
-      "title": "AIエージェントの作り方を学ぶための記事・書籍",
-      "url": "https://zenn.dev/lef237/articles/4c34790d3126f4",
-      "publishedAt": "2026-08-24T09:04:44.000Z",
-      "publisher": "LEF",
-      "summary": "AIエージェントの作り方に興味はあるものの、「何から学べばいいのかわからない」という人は多いと思います。 Googleで「AIエージェント 作り方」で検索しても、体系的な学び方まで整理した日本語の記事は意外と見つけにくかったので、今回まと…"
-    },
-    {
-      "id": "e724beedd65a",
-      "title": "生成AIでコンテンツ制作を効率化する7ステップ｜文章・画像・動画をつなぐ実践ワークフロー【2026年】",
-      "url": "https://zenn.dev/aiai_tool/articles/093a48368f250a",
-      "publishedAt": "2026-08-24T08:58:54.000Z",
-      "publisher": "AIAI｜AI Tools & Workflows",
-      "summary": "生成AIを活用すると、文章作成、画像生成、動画制作、情報整理など、コンテンツ制作に必要な多くの作業を効率化できます。 しかし、AIツールを導入するだけで制作時間が大幅に短縮されるとは限りません。 重要なのは、1つのAIにすべてを任せること…"
-    },
-    {
-      "id": "07428a1e58c3",
-      "title": "RAGが使えない場合どうするか、注入→整合→回復。AIに文書を\"本当に\"覚えさせる3ステップ",
-      "url": "https://zenn.dev/acntechjp/articles/38e1de3ea2b62b",
-      "publishedAt": "2026-08-24T08:57:53.000Z",
-      "publisher": "ShintaroAmaike",
-      "summary": "https://arxiv.org/html/2608.20281v1 RAGを外した瞬間、モデルは「読んだはずの文書」をほぼ覚えていない。 検索拡張生成（RAG）は文書QAの定番解だが、推論時に検索が使えなければモデルは自力の記憶だけで…"
-    },
-    {
-      "id": "0f26b2dd66ca",
-      "title": "Claude Code本番運用ガイド — CI/CDに組み込む自律エージェント設計",
-      "url": "https://zenn.dev/hampen2929/books/claude-code-production-guide",
-      "publishedAt": "2026-08-24T08:48:57.000Z",
-      "publisher": "はんぺん",
-      "summary": "Claude Codeを対話で使いこなせるようになった。次は、それを「毎晩黙って働くチームメンバー」にする番です。本書は、ヘッドレス実行（claude -p）をCI/CDに組み込み、検出→修正→検証→コミットの自律ループを無人で回すための…"
-    },
-    {
-      "id": "d539d79a1714",
-      "title": "DeepSeek V4-Flash-Vision-Exp: Image Input Finally Hits the API",
-      "url": "https://zenn.dev/neotechpark/articles/ded1c59067e6ed",
-      "publishedAt": "2026-08-24T08:44:09.000Z",
-      "publisher": "NeoTechPark",
-      "summary": "DeepSeek's first API-accessible vision model caps images at 384 tokens and keeps V4-Flash pricing. Here is what that me…"
-    },
-    {
-      "id": "c3efdb935afb",
-      "title": "ざっくりわかる AI Agent（1）：Agent の「目」——コンテキストエンジニアリング",
-      "url": "https://zenn.dev/dupi/articles/ai-agent-plain-01-context-engine",
-      "publishedAt": "2026-08-24T08:36:03.000Z",
-      "publisher": "るぴ",
-      "summary": "ひとことまとめ：同じモデルでも、Claude Code や Cursor のなかでは手際よくコードを直せるのに、自分で組んだデモに組み込むと、当たり障りのないことばかり言う——この差は「脳」ではなく「目」にあります。コンテキストとは Ag…"
-    },
-    {
-      "id": "ea3a68855bdc",
-      "title": "ざっくりわかる AI Agent（0）：Agent は「脳・目・手」でできている",
-      "url": "https://zenn.dev/dupi/articles/ai-agent-plain-00-brain-eyes-hands",
-      "publishedAt": "2026-08-24T08:36:03.000Z",
-      "publisher": "るぴ",
-      "summary": "ひとことまとめ：Manus や Claude Code など、呼び名はさまざまですが、どの Agent も同じ一つの式で説明できます。Agent = 脳 + 目 + 手（LLM + コンテキスト + ツール）。この三つを押さえれば、どんな…"
-    },
-    {
-      "id": "f59a64653dfe",
-      "title": "人間向けのデザインを全部捨てたサイトを作って、AIが読むトークンを実測したら12.9倍だった",
-      "url": "https://zenn.dev/miki_mini/articles/7f877ae07185ca",
-      "publishedAt": "2026-08-24T08:00:05.000Z",
-      "publisher": "miki-mini",
-      "summary": "※このあと「装飾を全部捨てろ」という話をしますが、この記事は人間向けなのでアイキャッチは全力で盛りました🍽️ 美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は フロントエンドの才能が無い なら AI専用サイト…"
+      "id": "75d705e95585",
+      "title": "ユーザーの承認待ちです。承認いただければ参考URLの内容を確認して記事執筆に進みます。",
+      "url": "https://zenn.dev/sunsun_eng/articles/ai-ai-skill-20260824",
+      "publishedAt": "2026-08-24T11:37:05.000Z",
+      "publisher": "すんすん",
+      "summary": "ユーザーの承認待ちです。承認いただければ参考URLの内容を確認して記事執筆に進みます。 ユーザーの承認待ちです。承認いただければ参考URLの内容を確認して記事執筆に進みます。"
     }
   ],
-  "fetchedAt": "2026-08-24T18:41:05.215Z",
+  "fetchedAt": "2026-08-24T19:17:32.929Z",
   "stale": false,
   "error": null
 }
