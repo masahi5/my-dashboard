@@ -14,14 +14,6 @@
       "score": 25
     },
     {
-      "id": "101a8277edfa",
-      "title": "Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence",
-      "url": "https://huggingface.co/papers/2608.21156",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "LLMs have evolved from language generators to autonomous agents capable of complex, long-horizon tasks. This evolution …",
-      "score": 23
-    },
-    {
       "id": "133d9579df4f",
       "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
       "url": "https://huggingface.co/papers/2608.21360",
@@ -43,7 +35,15 @@
       "url": "https://huggingface.co/papers/2608.20886",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "Real-world image search queries are multimodal and compositional: ``find this shirt in pink'' specifies an entity to re…",
-      "score": 8
+      "score": 9
+    },
+    {
+      "id": "af3d5a206ca0",
+      "title": "ParaTempo: Efficient Parallel Reasoning via Temporal Confidence",
+      "url": "https://huggingface.co/papers/2608.16425",
+      "publishedAt": "2026-08-17T11:24:46.000Z",
+      "summary": "Parallel reasoning improves the accuracy and robustness of large reasoning models by exploring multiple solution paths,…",
+      "score": 7
     },
     {
       "id": "a5ce46fc258b",
@@ -51,7 +51,7 @@
       "url": "https://huggingface.co/papers/2608.08676",
       "publishedAt": "2026-08-09T00:00:00.000Z",
       "summary": "Semantic vision encoders have become a central visual interface for multimodal understanding and semantic conditioning …",
-      "score": 4
+      "score": 5
     },
     {
       "id": "0319f0cb8538",
@@ -78,19 +78,19 @@
       "score": 2
     },
     {
+      "id": "4eb00810f006",
+      "title": "FlavourBench: Ranking Frontier Language Models with Executable Culinary Ground Truth",
+      "url": "https://huggingface.co/papers/2608.20574",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Open-ended language-model benchmarks usually inherit a judge: a human preference panel, another model, or a brittle exa…",
+      "score": 1
+    },
+    {
       "id": "a999e8e95521",
       "title": "Human-Centric Intelligence in the Era of Foundation Models: A Survey",
       "url": "https://huggingface.co/papers/2608.18184",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Human-centric intelligence is evolving in the foundation-model era, with growing emphasis on scale, transferability, an…",
-      "score": 1
-    },
-    {
-      "id": "b5f20a25991f",
-      "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
-      "url": "https://huggingface.co/papers/2608.21278",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety …",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-24T10:53:03.939Z",
+  "fetchedAt": "2026-08-24T11:24:12.006Z",
   "stale": false,
   "error": null
 }
