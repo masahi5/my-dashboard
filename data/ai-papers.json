@@ -6,20 +6,20 @@
   "category": "ai",
   "items": [
     {
+      "id": "133d9579df4f",
+      "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
+      "url": "https://huggingface.co/papers/2608.21360",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuou…",
+      "score": 20
+    },
+    {
       "id": "eeb63ab559f0",
       "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
       "url": "https://huggingface.co/papers/2608.20061",
       "publishedAt": "2026-08-20T13:57:43.000Z",
       "summary": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computati…",
       "score": 18
-    },
-    {
-      "id": "133d9579df4f",
-      "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
-      "url": "https://huggingface.co/papers/2608.21360",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuou…",
-      "score": 17
     },
     {
       "id": "101a8277edfa",
@@ -30,6 +30,22 @@
       "score": 13
     },
     {
+      "id": "1fa9a80a57d2",
+      "title": "Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models",
+      "url": "https://huggingface.co/papers/2608.16647",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own …",
+      "score": 9
+    },
+    {
+      "id": "fc0700d79f40",
+      "title": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
+      "url": "https://huggingface.co/papers/2608.20910",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "With large pretrained models, existing methods have effectively improved instruction-based video editing. However, most…",
+      "score": 9
+    },
+    {
       "id": "560a03a78523",
       "title": "EviRank: Structured Relevance Evidence for Multimodal Image Re-ranking",
       "url": "https://huggingface.co/papers/2608.20886",
@@ -38,28 +54,12 @@
       "score": 8
     },
     {
-      "id": "1fa9a80a57d2",
-      "title": "Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models",
-      "url": "https://huggingface.co/papers/2608.16647",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own …",
-      "score": 8
-    },
-    {
-      "id": "fc0700d79f40",
-      "title": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
-      "url": "https://huggingface.co/papers/2608.20910",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "With large pretrained models, existing methods have effectively improved instruction-based video editing. However, most…",
-      "score": 8
-    },
-    {
       "id": "27da4210ea5d",
       "title": "Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs",
       "url": "https://huggingface.co/papers/2608.12781",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Hybrid-thinking multimodal large language models (MLLMs) allow a single model to alternate between deliberative thinkin…",
-      "score": 4
+      "score": 5
     },
     {
       "id": "0b2bc5c82691",
@@ -75,7 +75,15 @@
       "url": "https://huggingface.co/papers/2608.20707",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "Simulating realistic user shopping behavior underpins offline evaluation and reinforcement learning in e-commerce scena…",
-      "score": 2
+      "score": 3
+    },
+    {
+      "id": "5604a67fad02",
+      "title": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+      "url": "https://huggingface.co/papers/2608.20210",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: w…",
+      "score": 1
     },
     {
       "id": "b5f20a25991f",
@@ -83,14 +91,6 @@
       "url": "https://huggingface.co/papers/2608.21278",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety …",
-      "score": 1
-    },
-    {
-      "id": "2d4942b574a7",
-      "title": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
-      "url": "https://huggingface.co/papers/2608.21134",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "Deploying vision-language models (VLMs) on mobile devices is challenging due to their significant memory and compute re…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-24T06:23:41.464Z",
+  "fetchedAt": "2026-08-24T07:36:14.658Z",
   "stale": false,
   "error": null
 }
