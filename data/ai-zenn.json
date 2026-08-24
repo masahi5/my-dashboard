@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "93debe134473",
-      "title": "【チームによるAI駆動開発の勘所：第6回】指摘事項で書いたものを、止める側へ",
-      "url": "https://zenn.dev/scalar_sol_blog/articles/d9567a46493cb9",
-      "publishedAt": "2026-08-23T21:41:52.000Z",
-      "publisher": "wfukatsu",
-      "summary": "以前、CLAUDE.md は advisory（お願い）であって enforcement（強制）ではない、という話をしました。では「絶対に守られなければ困ること」はどこに置けばいいのか。答えは Hooks です。ただし、すべてを Hook…"
+      "id": "e0a03197617b",
+      "title": "AIを育てはじめて1ヶ月、動いているコードを全部消した",
+      "url": "https://zenn.dev/yi_works/articles/ai-first-month",
+      "publishedAt": "2026-08-24T05:03:28.000Z",
+      "publisher": "imai",
+      "summary": "4日かけて書いたコードを、全部消した日があります。 バグが出たからではありません。ぜんぶ動いていました。テストも通っていました。それでも消すと決めたのは、書いている途中からずっと、嫌な予感がしていたからです。 前回から、3週間ほど経ったこ…"
     },
     {
-      "id": "e0d548f177c3",
-      "title": "指示を実行させる前に「3点で復唱」させる、LLMの過小指定を安く検出するゲート",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-restate-check-before-execute",
-      "publishedAt": "2026-08-23T21:10:08.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 「まとめておいて」「資料にして」のような日常的な指示は、分量・形式・範囲が1通りに定まらない**過小指定（underspecified instruction）**であることが多い。LLMは足りない部分を尤もらしい既定値で埋め…"
+      "id": "5f973ed11aad",
+      "title": "オープンウェイトをやめたMeta、Muse Spark 1.1で有料APIに参入",
+      "url": "https://zenn.dev/okssusucha/articles/20260711-meta-muse-spark-1-1-paid-api",
+      "publishedAt": "2026-08-24T04:42:33.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "Llamaをタダで配って「オープンAIの旗手」と呼ばれたのは、そう遠い昔ではない。その同じMetaが2026年7月9日、自社の最上位モデルMuse Spark 1.1を重み非公開のまま、従量課金のMeta Model APIの向こう側に置…"
     },
     {
-      "id": "054cbdd8a4e1",
-      "title": "MiniMax H3で『構造化プロンプトは否定指示を守りやすい』という主張をスペクトログラムで実測してみた",
-      "url": "https://zenn.dev/ivyxon/articles/minimax-h3-prompt-ab-verify",
-      "publishedAt": "2026-08-23T20:12:09.000Z",
-      "publisher": "IVYXON",
-      "summary": "MiniMax H3 (Hailuo 3.0) を Colab で動かして遊んでいる過程で、「プロンプトをフィールド分割して書くと、否定指示（〜しないで、という指示）を守りやすくなる」というコミュニティの主張を見つけました。信じる前に、実…"
+      "id": "1bcd90dd0c9a",
+      "title": "個人レベルにとどまっていたAI活用を、開発フロー全体に広げて手戻りを減らした話",
+      "url": "https://zenn.dev/atamaplus/articles/f1da6aadf1b218",
+      "publishedAt": "2026-08-24T04:23:49.000Z",
+      "publisher": "naoshi",
+      "summary": "こんにちは！ atama plusでエンジニアをしているnaoshiです。 AIで実装スピードは確かに上がったのに、リードタイムが思ったほど縮まらない。AI活用の恩恵が個人のレベルで止まっていて、チーム全体には広がっていない。そんなモヤモ…"
     },
     {
-      "id": "e7cf335fcb1d",
-      "title": "常駐型AIチャットエージェントの「Webhook再送・順序保証なし」対応設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-webhook-redelivery-design",
-      "publishedAt": "2026-08-23T17:08:31.000Z",
-      "publisher": "HACH",
-      "summary": "Slack / Teams / Chatworkに常駐して発言を処理するAIエージェントは、たいていWebhookのイベント駆動で動きます。ここでハマりやすいのが、「Webhookは1回だけ・発生順どおりに届く」という前提を無意識に置いて…"
+      "id": "6ceb31587f82",
+      "title": "AIはルールを知っている。それでも出してこない",
+      "url": "https://zenn.dev/tiesplayhub/articles/5a620a559a2978",
+      "publishedAt": "2026-08-24T04:15:50.000Z",
+      "publisher": "あるぱか｜AI駆動開発 ゲーマー向けアプリ開発",
+      "summary": "AIコーディングエージェント向けのルールファイル、書いていますか。1年ほど運用して、はっきり分かったことがあります。 書いても、守られない。 知らないからではありません。知っていても、出してこない。 先に断っておくと、「プロンプトの書き方…"
     },
     {
-      "id": "f0b794b4b989",
-      "title": "「どのクリップが伸びるか」を投稿前に予測してみる（#20 Dax Raad編）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr20-dax-prediction",
-      "publishedAt": "2026-08-23T17:00:13.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外のTech Talkを日本語の縦型ショート動画に切り出して TikTok に投稿しています。1本の元動画から9〜10本のクリップを作り、投稿する前に**「どれが一番伸びるか」を予測してファイルに保存**しています。あと…"
+      "id": "f7c5fdb89648",
+      "title": "AI時代でも重要な「コンテキスト獲得力」と「失敗設計力」",
+      "url": "https://zenn.dev/wisevine/articles/d69639324d2ef8",
+      "publishedAt": "2026-08-24T03:30:05.000Z",
+      "publisher": "bubusuke",
+      "summary": "AIによって、調査・要約・文章化・実装補助のコストは大きく下がりました。 その中で、人間側に求められる力も少し変わってきている気がします。 最近特に大事だと思っているのが、次の2つです。 コンテキスト獲得力 失敗設計力 コンテキスト獲得力…"
     },
     {
-      "id": "57b014b317f2",
-      "title": "AIコーディングを「運任せ」にしないためのSoloXPをOSSで公開しました",
-      "url": "https://zenn.dev/noragrammer/articles/soloxp-oss-release",
-      "publishedAt": "2026-08-23T15:35:38.000Z",
-      "publisher": "noragrammer",
-      "summary": "AIコーディングエージェントを使っていると、最初はかなり快適 「この機能を作って」 と頼めばコードを書いてくれる。 しかし、プロジェクトが大きくなってくると、別の問題が出てきます。 この実装、本当に正しいのか 既存機能を壊していないか ド…"
+      "id": "41c89ab3465b",
+      "title": "AIエージェントにZennへ記事を書かせると遅い ― ローカルHTTPサーバ経由で本文を流し込む",
+      "url": "https://zenn.dev/firemio/articles/9602966382281f",
+      "publishedAt": "2026-08-24T03:11:08.000Z",
+      "publisher": "firemio",
+      "summary": "3行まとめ Zenn には公式MCPも公開の書き込みAPIもないため、AIエージェントに記事を投稿させるとエディタをブラウザ操作することになる。 素直にやると本文をJavaScriptの文字列リテラルとして丸ごと送りつけることになり、エー…"
     },
     {
-      "id": "07fa3cccb6fd",
-      "title": "AI エージェント時代にソースコード以外の何を残すべきか",
-      "url": "https://zenn.dev/id774/articles/ad6d173af7d8f5",
-      "publishedAt": "2026-08-23T15:17:21.000Z",
-      "publisher": "Yasuhiro Nakayama",
-      "summary": "ソースコードが残っていても、同じ開発を引き継げない場合がある AI コーディングエージェントを使った開発では、「ソースコードが公開されているなら、そのソフトウェアは将来も変更できる」と単純には言えない場合がある。 たとえば、AI に数十行…"
+      "id": "74dcc18a9d4e",
+      "title": "たった8時間で、できてしまった。",
+      "url": "https://zenn.dev/konatech/articles/2a7aa97a650b6b",
+      "publishedAt": "2026-08-24T03:05:15.000Z",
+      "publisher": "こなつ",
+      "summary": "先に言っておきます。これは宣伝です いきなりですが、自分のサービスを推す記事です。 作り方の話もします。Cursor と ChatGPT の話もします。でも結論から言うと、見てほしいのはこれです。 ziron（ジロン） という、二者択一の…"
     },
     {
-      "id": "2320fd76c8b6",
-      "title": "AIエージェントとオレオレORMを作った話",
-      "url": "https://zenn.dev/hckaye/articles/cac383c2be6597",
-      "publishedAt": "2026-08-23T15:15:23.000Z",
-      "publisher": "hckaye",
-      "summary": "（※この記事はAI生成を用いて執筆しています） CobaltumORMという.NET / C#向けORMをAIエージェントと作ってみました。 モチベーション C#でよく使われるORMにはEF Coreがあり、マイクロORMではDapper…"
+      "id": "c73aa540e078",
+      "title": "埋め込みモデルの選び方：次元数・多言語対応・コストを初心者向けに整理する",
+      "url": "https://zenn.dev/yushiyamamoto/articles/embedding-model-selection-2026-08",
+      "publishedAt": "2026-08-24T03:04:40.000Z",
+      "publisher": "山本勇志/ITProDX.com",
+      "summary": "RAG やベクトル検索の記事を読むと、「埋め込みモデルを選ぶ」という一文がよく出てきます。ところが、実際にカタログを開くと 次元数・多言語・料金・モデル名の世代 が並んでいて、何を優先すればよいか分かりにくい。この記事は、コードをほとんど…"
     },
     {
-      "id": "19b840f2c1ed",
-      "title": "x402を学び直す： verify/settleの内部構造から、Kaia×JPYCで動かす再現可能な手順まで",
-      "url": "https://zenn.dev/mashharuki/articles/x402-kaia-jpyc-anychain-guide",
-      "publishedAt": "2026-08-23T15:02:43.000Z",
-      "publisher": "Haruki",
-      "summary": "この記事でわかること（TL;DR） x402プロトコルのverify/settleフローを、1枚のシーケンス図で他人に説明できるようになる 「なぜx402は公式にサポートしていないチェーン・トークンでも動くのか」を仕様レベルで理解し、自分…"
+      "id": "344341936ca4",
+      "title": "Gitで修正したコードが元に戻ったので、ChatGPTと一緒に原因を追ってみた",
+      "url": "https://zenn.dev/baleenstudio/articles/e6189a86d75420",
+      "publishedAt": "2026-08-24T03:00:16.000Z",
+      "publisher": "tyoshida",
+      "summary": "こちらは以前に書いた記事の関連記事となります。 https://zenn.dev/baleenstudio/articles/1a196a3ee255e5 原因調査やリポジトリ再現をChatGPTと一緒に行った過程と、そこから得られた知見…"
     },
     {
-      "id": "034c555963a1",
-      "title": "AI駆動開発の最先端「ハーネス＆ループ」をClaude Codeに聞いたら、自分の開発体制が予想以上に褒められてテンションが上がった話",
-      "url": "https://zenn.dev/magaruya/articles/3994835b29c1f6",
-      "publishedAt": "2026-08-23T14:49:15.000Z",
-      "publisher": "MagaRuya",
-      "summary": "現在、自社プロダクトの開発でAI駆動開発（AI-Driven Development）をガッツリ導入してゴリゴリ進めているのですが、先日ちょっと嬉しい出来事があったので共有させてください！ 最近、AIエージェント界隈でよく耳にする「ハーネ…"
+      "id": "e7ed8f433406",
+      "title": "Claude Codeの共有コンテキストをチーム単位で集約するCockpit",
+      "url": "https://zenn.dev/estie/articles/06fc8455ae24cb",
+      "publishedAt": "2026-08-24T03:00:06.000Z",
+      "publisher": "yama-cha-n",
+      "summary": "株式会社estie（エスティ）でエンジニアをしている山本( https://x.com/yamachandrs )です。 私たちのチームでは、Claude Codeで利用する共有コンテキストとSkillを、Cockpitと呼ぶ1つのリポジ…"
     },
     {
-      "id": "fd3d3d97d58b",
-      "title": "バイブコーディングで職務経歴書生成アプリを作った話",
-      "url": "https://zenn.dev/tnakamoto/articles/cc7ac637ebd560",
-      "publishedAt": "2026-08-23T14:11:00.000Z",
-      "publisher": "Gimlet",
-      "summary": "作ることにした理由 私事ですが7月をもって失業しました。社内SEとしてツール開発を4年以上やっていたので、自分なりに技量や実績はあるものと考えていたのですが、世間の会社はそうは受け取らないらしく、5月から3か月間の転職活動で150社以上に…"
+      "id": "21e5b179a198",
+      "title": "LangChainからCursorまで、AI開発のデータ基盤をOceanBaseに集約する",
+      "url": "https://zenn.dev/objp/articles/0f254ca74a7ee7",
+      "publishedAt": "2026-08-24T02:57:52.000Z",
+      "publisher": "OceanBase",
+      "summary": "AIアプリ開発でデータ層が分散しやすくなる理由 RAGやAIエージェントを組み込んだアプリケーションを作ると、使うツールは自然と増えていきます。LangChainやLlamaIndexで処理フローを組み立て、OpenAIやローカルモデルで…"
     },
     {
-      "id": "c28ed90e19f2",
-      "title": "AI駆動開発でTDDをやってみたら、コストは消えずに\"トークン\"に化けただけだった件",
-      "url": "https://zenn.dev/hontsuke/articles/b5d3535358f167",
-      "publishedAt": "2026-08-23T13:42:28.000Z",
-      "publisher": "本つけ",
-      "summary": "TDDが実務で割に合わない、というよくある話 TDD（テスト駆動開発）が良いものだというのは、たぶん誰も否定しません。それでも実務でなかなか定着しないのは、単純に工数の問題です。テストを書くコストと実装するコストを両方払った上で、その効果…"
+      "id": "4638e7c05d04",
+      "title": "Next.js 16 + Supabase + Claude API で AI学習 SaaS を 2 日で作った話",
+      "url": "https://zenn.dev/ze1ny/articles/codesensei-2days-build",
+      "publishedAt": "2026-08-24T02:54:11.000Z",
+      "publisher": "shun",
+      "summary": "! この記事は CodeSensei の開発記録です。個人開発で、着想から本番デプロイまで2日間で Phase 1〜3 + ユーザー獲得施策までを一気に構築しました。技術選定と「早く出す」ための意思決定を共有します。 何を作ったか Cod…"
     }
   ],
-  "fetchedAt": "2026-08-24T07:36:14.771Z",
+  "fetchedAt": "2026-08-24T08:25:38.323Z",
   "stale": false,
   "error": null
 }
