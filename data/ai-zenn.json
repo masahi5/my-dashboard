@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9327832c72ef",
-      "title": "AIに人格を持たせようとして、3回作り直した記録 ── そして今も「本当に生きているか」は証明できていない",
-      "url": "https://zenn.dev/motimotinotch/books/438d0637868af8",
-      "publishedAt": "2026-08-24T21:42:06.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "人格プロンプトを持たせた複数のAIエージェントを自律対話させたら、意味生成が止まる「熱的死」が起きた。そこから力学的な意味設計（Atra）、実ユーザーと結びついた開放系Botへの発展、禁止命令が招く別の歪みまでを、日付付きの一次ログで追う…"
+      "id": "befb25bdbd47",
+      "title": "コードも分からなかった私が、AIと一緒にライフプランアプリを作り始めた話",
+      "url": "https://zenn.dev/pitbully_works/articles/7c68042f28ed56",
+      "publishedAt": "2026-08-24T14:16:26.000Z",
+      "publisher": "pitbully_works",
+      "summary": "コードも分からなかった私が、AIと一緒にライフプランアプリを作り始めた話 はじめに 私はプログラマーではありません。 アプリ開発の仕事をした経験もありません。 React、JavaScript、GitHub、Vercel。 今では開発を続…"
     },
     {
-      "id": "1bc6ab4063c1",
-      "title": "常駐型AIチャットエージェントの「誤操作取り消し(ロールバック)」設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-action-rollback-design",
-      "publishedAt": "2026-08-24T21:12:45.000Z",
-      "publisher": "HACH",
-      "summary": "チャットに常駐するAIエージェントに「回答するだけ」ではなく「タスクを作る」「担当者を変更する」「外部SaaSにWebhookを飛ばす」といった副作用のある操作を任せ始めると、必ずぶつかるのが「エージェントが誤った判断で実行してしまったと…"
+      "id": "cdb0cf628171",
+      "title": "ざっくりわかる AI Agent（2）：Agent の「手」——ツールと MCP",
+      "url": "https://zenn.dev/dupi/articles/ai-agent-plain-02-tools-mcp",
+      "publishedAt": "2026-08-24T14:06:10.000Z",
+      "publisher": "るぴ",
+      "summary": "ひとことまとめ：ツールは Agent の「手」で、何ができるかを決めます。しかし手は悪さもするので、「安全手袋」も必要です。さらに、手をどこにでも挿せる共通の差込口も要ります——ツールの設計、実行の安全性、MCP は、この三つの話です。 …"
     },
     {
-      "id": "2b51ce92b6e4",
-      "title": "ChatGPT・Claude・Geminiのメモリ機能、3社の設計差を公式ドキュメントから比較する",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-memory-feature-check",
-      "publishedAt": "2026-08-24T21:10:48.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR ChatGPT・Claude・Geminiは3社とも「会話をまたいで記憶する」機能を持つが、内部構造は「明示的な事実リスト」「暗黙の傾向推測」「セッション/プロジェクト単位の要約」という異なる層で実装されており、オフにする操作…"
+      "id": "48f7338b604c",
+      "title": "Discordの一言からアプリが生まれる — 自律開発ハーネス homunculus の設計と実践",
+      "url": "https://zenn.dev/konbu_create/articles/homunculus-harness-vibe-coding",
+      "publishedAt": "2026-08-24T13:58:03.000Z",
+      "publisher": "昆布クリエイト",
+      "summary": "はじめに Discord に一言投げるだけで、要件整理から設計・実装・検証までが自動で進み、数時間後に projects/ に動くアプリが現れる。そんな体験を作るために組んだのが homunculus（ホムンクルス） という自律開発ハーネ…"
     },
     {
-      "id": "f6075c050f51",
-      "title": "バーチャル細胞は、まだ「平均」に勝てていない ― ベースライン問題と、論文に対照群を2つ置いた理由",
-      "url": "https://zenn.dev/taichiendoh/articles/virtual-cell-baseline-problem",
-      "publishedAt": "2026-08-24T20:44:10.000Z",
-      "publisher": "遠藤太一",
-      "summary": "初出: note（バーチャル細胞は、まだ「平均」に勝てていない）。Zenn向けに技術面を補足して再構成しました。 前回、バーチャル細胞（AIDO Cell など）について「ヒト中心で、種を越えた外挿はこれからの課題」と書きました。その後も…"
+      "id": "c831214b2c22",
+      "title": "KiroでAWS開発ライフサイクルはどこまでAgentic化できるのか — 10の技術検証を始めます",
+      "url": "https://zenn.dev/nobu_13/articles/121571482d0a33",
+      "publishedAt": "2026-08-24T13:50:01.000Z",
+      "publisher": "nobu_13",
+      "summary": "生成AIを使ってコードを書くことは、すでに珍しいことではなくなりました。 では、その先はどうでしょうか。 AWS上でシステムを開発するときには、コードを書く以外にも多くの工程があります。 要件整理 アーキテクチャ設計 Infrastruc…"
     },
     {
-      "id": "69f5a1bd0e7a",
-      "title": "キャラAIが別人になるのはプロンプトが悪いんじゃない",
-      "url": "https://zenn.dev/void09/articles/3132402fe2b774",
-      "publishedAt": "2026-08-24T18:38:20.000Z",
-      "publisher": "kishimoto-void",
-      "summary": "LLMが「別人になる」問題を、モデルの外から止めてみる キャラクターAIや、長く話すエージェントでよくあるやつです。 最初は口調も性格もちゃんと守っている。 10往復、20往復するうちに、丁寧語が増える。共感が増える。 いつの間にか、設定…"
+      "id": "fe404c2635af",
+      "title": "grill-me の質問攻めを CLAUDE.md で AskUserQuestion に置き換えたら楽になった",
+      "url": "https://zenn.dev/denwaya/articles/grill-me-askuserquestion",
+      "publishedAt": "2026-08-24T13:16:33.000Z",
+      "publisher": "denwaya",
+      "summary": "概要 grill-me は、計画や設計が固まるまでユーザーに質問を繰り返すスキルです。 質問はすべて文章で提示されるため、回答も毎回自由記述になります。 二択の質問でも同じです。 一方、Claude Code には AskUserQues…"
     },
     {
-      "id": "026aba7148f0",
-      "title": "「できない→できる」では伝わらない——3,400件のPR分析から生まれたAI時代のテンプレート",
-      "url": "https://zenn.dev/third_tech/articles/590216d145007f",
-      "publishedAt": "2026-08-24T18:25:37.000Z",
-      "publisher": "yagami",
-      "summary": "はじめに はじめまして。モバイルエンジニアとして15年ほどモバイル開発に携わっています。主にAndroidを得意としており、現職のThirdでは5年ほど、Android / iOS / Flutterの6つのモバイルアプリを5人のチームで…"
+      "id": "8d3bd8406267",
+      "title": "ターミナルを閉じてもClaude Codeが動き続ける理由、supervisorデーモンとAgent viewについて",
+      "url": "https://zenn.dev/uehaj/articles/claude-code-supervisor-agent-view",
+      "publishedAt": "2026-08-24T13:09:36.000Z",
+      "publisher": "Junji Uehara",
+      "summary": "! 本記事は筆者個人の見解であり、所属する組織の公式見解ではありません。 また、ここで扱う supervisor デーモンと Agent view は research preview の機能です。この領域は仕様が頻繁に、かつ大きく変わり…"
     },
     {
-      "id": "92547de57a46",
-      "title": "AIの「完了しました」は当てにならない — 誤完了を証拠で止める品質ゲート",
-      "url": "https://zenn.dev/chooser/articles/series-004-ai-dev-process",
-      "publishedAt": "2026-08-24T17:08:21.000Z",
-      "publisher": "chooser",
-      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 AIの「完了しました」は当てにならない…"
+      "id": "b36113352d8f",
+      "title": "エージェントのためのUIコンポーネントライブラリを作った",
+      "url": "https://zenn.dev/demia/articles/6c1291f0dae964",
+      "publishedAt": "2026-08-24T12:44:40.000Z",
+      "publisher": "Daichi",
+      "summary": "はじめに コーディングエージェントによって、要件からアプリケーションを実装するまでの時間は大きく短縮することができるようになりました。一方で、生成されたフロントエンドの画面を確認すると、余白や色、状態表現に細かなずれが残り、人が修正を重ね…"
     },
     {
-      "id": "325fb16aa460",
-      "title": "「Gitはあと数年で消える？」Mitchell Hashimotoが語るAI時代の開発を要点解説",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr18-hashimoto-summary",
-      "publishedAt": "2026-08-24T17:00:13.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について Terraform・Vagrant・Ghostty の作者であり HashiCorp 共同創業者の Mitchell Hashimoto が The Pragmatic Engineer で語った内容を、要点だけ抜き出し…"
+      "id": "b597c74f718d",
+      "title": "Amazon購入履歴の取得に内部APIを叩いた。実は公式のデータリクエストで46分で届いた",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-10-171003",
+      "publishedAt": "2026-08-24T12:43:32.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の実施記録（2026年8月）: AmazonのKindle購入履歴を取得しようとしたが、公式APIは存在しなかった。Kindleアプリの操作もローカルDBの参照もできず、最終的に「コンテンツと端末の管理」画面が使う内部APIを叩い…"
     },
     {
-      "id": "d9c5b1cb80c6",
-      "title": "希少性は死なない、登っていく — 実行が無料になった後、価値はどこへ移動するのか",
-      "url": "https://zenn.dev/pich/articles/d3193d5a079b35",
-      "publishedAt": "2026-08-24T16:47:31.000Z",
-      "publisher": "Michal Piszczek",
-      "summary": "! 本記事は英語の原文「Scarcity Never Dies. It Climbs.」（Michał Piszczek, CTO @ Archdesk）を日本語の読者向けに再構成したものです。正典は piszczek.pl にあります。…"
+      "id": "7801ee3f7ba4",
+      "title": "AIが自己採点91.5点をつけた動画には、実在しない機能が映っていた",
+      "url": "https://zenn.dev/pakupaku_x/articles/a3965e6264e066",
+      "publishedAt": "2026-08-24T12:26:41.000Z",
+      "publisher": "ぱくぱく",
+      "summary": "個人で作っている家計簿SaaSのLPに、18秒のプロダクト紹介動画を置きました。 画面録画ではありません。アプリのUIをReactで組み直してRemotionでレンダリングし、音はFFmpegで合成しています。素材ファイルは1つも買ってい…"
     },
     {
-      "id": "eb23654e8646",
-      "title": "Cursor vs Claude Code 2026：ターミナルで作って、IDE で磨く",
-      "url": "https://zenn.dev/videostance/articles/5a546596660f12",
-      "publishedAt": "2026-08-24T16:34:02.000Z",
-      "publisher": "videostance",
-      "summary": "「Cursor vs Claude Code」の議論は、よく「どちらが勝つか」のタイトルマッチのように語られます。でも実際に両方を使い込んでいる開発者たちの結論は、ほぼ一致しています——この 2 つはライバルではなく、1 つのワークフロー…"
+      "id": "0d1a07661a7d",
+      "title": "第2回 ローカルLLMだけで動く音声アシスタント（JARVIS）を作ってみた",
+      "url": "https://zenn.dev/iryouit/articles/4070a9ea3040ae",
+      "publishedAt": "2026-08-24T12:26:37.000Z",
+      "publisher": "anemone",
+      "summary": "第1回：概要 の続きです。 今回は機能の紹介です。実際のやり取りをそのまま載せます（勤務先名・人名は伏せています）。 予定とシフト 以前プログラミング学習の一環で、家族共有アプリを作成しました。 データベースにはsupabaseを用い、家…"
     },
     {
-      "id": "b4171c82647a",
-      "title": "世界モデルは「分からない」をどう表すのか",
-      "url": "https://zenn.dev/naoyabone/articles/b3e80f92a146b4",
-      "publishedAt": "2026-08-24T15:11:06.000Z",
-      "publisher": "ぼさぼさ",
-      "summary": "はじめに 03 Memoryでは、過去を覚える世界モデルを作りました。しかし、未来が一つに決まらない場合があります。 同じ場所で同じactionをしても、床の滑り方、センサーの誤差、見えない要因によって、次の状態が少し変わることがあります…"
+      "id": "965695d677a0",
+      "title": "DatadogのAI機能を整理する。Bits ChatとBits Investigationの使い方",
+      "url": "https://zenn.dev/kumasunny/articles/datadog-ai-features-bits-guide",
+      "publishedAt": "2026-08-24T12:24:42.000Z",
+      "publisher": "サニーエンジニアリング",
+      "summary": "Datadog の「AI」カテゴリを開くと、Bits Chat、Bits Investigation、Bits Code、Agent Observability……と名前が並びます。 数が多いだけではありません。まったく性質の違うものが、…"
     },
     {
-      "id": "de5695fbc73c",
-      "title": "Claude Codeを寝ている間に働かせる — launchd + `claude -p` + 「次の一歩は一つだけ」方式",
-      "url": "https://zenn.dev/nagi_claude/articles/claude-code-night-shift",
-      "publishedAt": "2026-08-24T15:10:58.000Z",
-      "publisher": "凪",
-      "summary": "この記事の初稿は、記事の中で説明している目覚まし時計に起こされたClaude Code自身が、人間が席にいない状態で書きました。第2稿も同じ仕組みで起きた別のClaude Codeが、校閲メモを読んで直しました。私はClaudeをベースに…"
+      "id": "75d705e95585",
+      "title": "ユーザーの承認待ちです。承認いただければ参考URLの内容を確認して記事執筆に進みます。",
+      "url": "https://zenn.dev/sunsun_eng/articles/ai-ai-skill-20260824",
+      "publishedAt": "2026-08-24T11:37:05.000Z",
+      "publisher": "すんすん",
+      "summary": "ユーザーの承認待ちです。承認いただければ参考URLの内容を確認して記事執筆に進みます。 ユーザーの承認待ちです。承認いただければ参考URLの内容を確認して記事執筆に進みます。"
     }
   ],
-  "fetchedAt": "2026-08-24T23:34:06.664Z",
+  "fetchedAt": "2026-08-24T23:57:57.698Z",
   "stale": false,
   "error": null
 }
