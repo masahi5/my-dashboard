@@ -11,15 +11,7 @@
       "url": "https://huggingface.co/papers/2608.20061",
       "publishedAt": "2026-08-20T13:57:43.000Z",
       "summary": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computati…",
-      "score": 26
-    },
-    {
-      "id": "af3d5a206ca0",
-      "title": "ParaTempo: Efficient Parallel Reasoning via Temporal Confidence",
-      "url": "https://huggingface.co/papers/2608.16425",
-      "publishedAt": "2026-08-17T11:24:46.000Z",
-      "summary": "Parallel reasoning improves the accuracy and robustness of large reasoning models by exploring multiple solution paths,…",
-      "score": 23
+      "score": 29
     },
     {
       "id": "133d9579df4f",
@@ -27,7 +19,15 @@
       "url": "https://huggingface.co/papers/2608.21360",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuou…",
-      "score": 23
+      "score": 25
+    },
+    {
+      "id": "af3d5a206ca0",
+      "title": "ParaTempo: Efficient Parallel Reasoning via Temporal Confidence",
+      "url": "https://huggingface.co/papers/2608.16425",
+      "publishedAt": "2026-08-17T11:24:46.000Z",
+      "summary": "Parallel reasoning improves the accuracy and robustness of large reasoning models by exploring multiple solution paths,…",
+      "score": 24
     },
     {
       "id": "1fa9a80a57d2",
@@ -35,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.16647",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own …",
-      "score": 11
+      "score": 12
     },
     {
       "id": "560a03a78523",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.20886",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "Real-world image search queries are multimodal and compositional: ``find this shirt in pink'' specifies an entity to re…",
-      "score": 9
+      "score": 10
     },
     {
       "id": "a5ce46fc258b",
@@ -51,7 +51,7 @@
       "url": "https://huggingface.co/papers/2608.08676",
       "publishedAt": "2026-08-09T00:00:00.000Z",
       "summary": "Semantic vision encoders have become a central visual interface for multimodal understanding and semantic conditioning …",
-      "score": 5
+      "score": 6
     },
     {
       "id": "a999e8e95521",
@@ -67,7 +67,15 @@
       "url": "https://huggingface.co/papers/2608.20210",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: w…",
-      "score": 2
+      "score": 3
+    },
+    {
+      "id": "093deeedf1ae",
+      "title": "Peer-Voted LLM-Agent Stress Tests Find Feed-Induced Lexical Convergence but No Reliable Matched-Exposure Advantage for Distributed Sources",
+      "url": "https://huggingface.co/papers/2608.20438",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Population-level behavior in large-language-model (LLM) agents cannot be characterized by single-agent benchmarks. We i…",
+      "score": 1
     },
     {
       "id": "8c8f94cb6b9f",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Open-ended language-model benchmarks usually inherit a judge: a human preference panel, another model, or a brittle exa…",
       "score": 1
-    },
-    {
-      "id": "093deeedf1ae",
-      "title": "Peer-Voted LLM-Agent Stress Tests Find Feed-Induced Lexical Convergence but No Reliable Matched-Exposure Advantage for Distributed Sources",
-      "url": "https://huggingface.co/papers/2608.20438",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Population-level behavior in large-language-model (LLM) agents cannot be characterized by single-agent benchmarks. We i…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-24T15:10:03.457Z",
+  "fetchedAt": "2026-08-24T15:55:09.556Z",
   "stale": false,
   "error": null
 }
