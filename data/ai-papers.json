@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.23392",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "User representation learning in real-world industrial scenarios is commonly scaled by increasing user amount, behaviora…",
-      "score": 11
+      "score": 17
     },
     {
       "id": "d36240f69ac6",
@@ -19,7 +19,23 @@
       "url": "https://huggingface.co/papers/2608.23311",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "Policy optimization (PO) for Large Language Models faces a stability--exploration trade-off, currently mediated by an a…",
-      "score": 11
+      "score": 12
+    },
+    {
+      "id": "72cc4d90f927",
+      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
+      "url": "https://huggingface.co/papers/2608.20953",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "Serving large language models cheaply increasingly means shipping models that are both structurally compressed to a fra…",
+      "score": 5
+    },
+    {
+      "id": "b031aad84c38",
+      "title": "AutoResearch: Insight In, Hallucination Out",
+      "url": "https://huggingface.co/papers/2608.17906",
+      "publishedAt": "2026-08-23T00:00:00.000Z",
+      "summary": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does no…",
+      "score": 4
     },
     {
       "id": "a9335d8c5be4",
@@ -30,11 +46,11 @@
       "score": 3
     },
     {
-      "id": "b031aad84c38",
-      "title": "AutoResearch: Insight In, Hallucination Out",
-      "url": "https://huggingface.co/papers/2608.17906",
-      "publishedAt": "2026-08-23T00:00:00.000Z",
-      "summary": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does no…",
+      "id": "d1904ca9f3f3",
+      "title": "Hybrid Quantum-inspired Kolmogorov-Arnold Networks for Privacy-Aware Federated Biosignal Learning",
+      "url": "https://huggingface.co/papers/2608.13914",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Electrocardiogram (ECG) recordings are sensitive biomedical data, limiting the ability of hospitals and wearable device…",
       "score": 3
     },
     {
@@ -46,19 +62,11 @@
       "score": 3
     },
     {
-      "id": "72cc4d90f927",
-      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
-      "url": "https://huggingface.co/papers/2608.20953",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "Serving large language models cheaply increasingly means shipping models that are both structurally compressed to a fra…",
-      "score": 2
-    },
-    {
-      "id": "d1904ca9f3f3",
-      "title": "Hybrid Quantum-inspired Kolmogorov-Arnold Networks for Privacy-Aware Federated Biosignal Learning",
-      "url": "https://huggingface.co/papers/2608.13914",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Electrocardiogram (ECG) recordings are sensitive biomedical data, limiting the ability of hospitals and wearable device…",
+      "id": "e98c7f5824c2",
+      "title": "Industrial-Instruction: An End-to-End Framework for Building Instruction-Tuning and Benchmark Datasets from Industrial Technical Reports",
+      "url": "https://huggingface.co/papers/2608.22817",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "Industrial technical reports contain high-value knowledge for maintenance, troubleshooting, and product engineering, bu…",
       "score": 2
     },
     {
@@ -86,14 +94,6 @@
       "score": 1
     },
     {
-      "id": "e98c7f5824c2",
-      "title": "Industrial-Instruction: An End-to-End Framework for Building Instruction-Tuning and Benchmark Datasets from Industrial Technical Reports",
-      "url": "https://huggingface.co/papers/2608.22817",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "Industrial technical reports contain high-value knowledge for maintenance, troubleshooting, and product engineering, bu…",
-      "score": 1
-    },
-    {
       "id": "5ed32dc69b73",
       "title": "From Generation to Simulation: How Far Are World Models from Being True Simulators?",
       "url": "https://huggingface.co/papers/2608.23070",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-25T12:39:52.917Z",
+  "fetchedAt": "2026-08-25T13:34:41.245Z",
   "stale": false,
   "error": null
 }
