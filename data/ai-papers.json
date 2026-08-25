@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "eeb63ab559f0",
-      "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
-      "url": "https://huggingface.co/papers/2608.20061",
-      "publishedAt": "2026-08-20T13:57:43.000Z",
-      "summary": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computati…",
-      "score": 32
-    },
-    {
       "id": "af3d5a206ca0",
       "title": "ParaTempo: Efficient Parallel Reasoning via Temporal Confidence",
       "url": "https://huggingface.co/papers/2608.16425",
       "publishedAt": "2026-08-17T11:24:46.000Z",
       "summary": "Parallel reasoning improves the accuracy and robustness of large reasoning models by exploring multiple solution paths,…",
-      "score": 26
+      "score": 29
     },
     {
       "id": "1fa9a80a57d2",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.16647",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own …",
-      "score": 14
+      "score": 15
     },
     {
       "id": "560a03a78523",
@@ -43,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.08676",
       "publishedAt": "2026-08-09T00:00:00.000Z",
       "summary": "Semantic vision encoders have become a central visual interface for multimodal understanding and semantic conditioning …",
-      "score": 8
+      "score": 10
     },
     {
       "id": "ad04becd5774",
@@ -59,7 +51,7 @@
       "url": "https://huggingface.co/papers/2608.20210",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: w…",
-      "score": 5
+      "score": 7
     },
     {
       "id": "8c8f94cb6b9f",
@@ -67,7 +59,7 @@
       "url": "https://huggingface.co/papers/2608.18077",
       "publishedAt": "2026-08-18T17:59:30.000Z",
       "summary": "We introduce Hydra-0, a generalist world model conditioned on action flow, which represents robot actions as pixel moti…",
-      "score": 4
+      "score": 5
     },
     {
       "id": "a999e8e95521",
@@ -75,7 +67,7 @@
       "url": "https://huggingface.co/papers/2608.18184",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Human-centric intelligence is evolving in the foundation-model era, with growing emphasis on scale, transferability, an…",
-      "score": 4
+      "score": 5
     },
     {
       "id": "3ba185d91288",
@@ -83,7 +75,7 @@
       "url": "https://huggingface.co/papers/2608.21031",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "We present PhysCaP, a Physics-Informed Code-as-Policy agent for active perception in robotic manipulation. While vision…",
-      "score": 2
+      "score": 3
     },
     {
       "id": "093deeedf1ae",
@@ -91,7 +83,7 @@
       "url": "https://huggingface.co/papers/2608.20438",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Population-level behavior in large-language-model (LLM) agents cannot be characterized by single-agent benchmarks. We i…",
-      "score": 2
+      "score": 3
     },
     {
       "id": "4eb00810f006",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2608.20574",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Open-ended language-model benchmarks usually inherit a judge: a human preference panel, another model, or a brittle exa…",
+      "score": 3
+    },
+    {
+      "id": "0c9e7c6beda1",
+      "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
+      "url": "https://huggingface.co/papers/2608.21439",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Game world models have recently demonstrated promising capabilities in generating visually coherent and action-controll…",
       "score": 2
     }
   ],
-  "fetchedAt": "2026-08-24T23:57:57.566Z",
+  "fetchedAt": "2026-08-25T01:23:15.880Z",
   "stale": false,
   "error": null
 }
