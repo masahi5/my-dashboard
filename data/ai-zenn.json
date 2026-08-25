@@ -6,6 +6,86 @@
   "category": "ai",
   "items": [
     {
+      "id": "54e33d4db7aa",
+      "title": "AI動画生成の参照素材を型安全に管理する：TypeScriptでReference Manifestを作る",
+      "url": "https://zenn.dev/cy520569/articles/040d0406877388",
+      "publishedAt": "2026-08-25T09:39:18.000Z",
+      "publisher": "sarah wilson",
+      "summary": "AI動画生成で参照画像を1枚だけ使っている間は、ファイル管理について深く考える必要はありません。 prompt.txt product.png output.mp4 これくらいなら、人間が見ても何を使ったのか分かります。 ところが、画像・…"
+    },
+    {
+      "id": "349bf76dbae9",
+      "title": "[9/15まで] Cloudflare のAI bot ブロック設定",
+      "url": "https://zenn.dev/gabie/articles/425179326b8ec4",
+      "publishedAt": "2026-08-25T09:21:25.000Z",
+      "publisher": "ガビー",
+      "summary": "2026年9月15日、Cloudflare（クラウドフレア）のボット制御ルールが大きく切り替わります。 これに伴い、適切な設定を行わないままでいると、検索流入を維持したいにもかかわらずAI関連のアクセスが意図せず遮断されてしまったり、逆に…"
+    },
+    {
+      "id": "3131e4d507d4",
+      "title": "AIチームがうまく回らないのは、業務設計の問題だった",
+      "url": "https://zenn.dev/hampen2929/articles/20260825-ai-team-workflow-design",
+      "publishedAt": "2026-08-25T09:10:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "複数のAIエージェントで開発を回そうとして、期待ほど速くならない——モデルを替え、プロンプトを磨き、構成を組み替えても改善しない。個人開発でそれを一通りやった結論は、原因はチーム側ではなく、仕事を渡す側にあったでした。この記事では、エージ…"
+    },
+    {
+      "id": "4163e4369d28",
+      "title": "AIエージェントを\"チーム\"にしたら開発はどう変わったか",
+      "url": "https://zenn.dev/hampen2929/articles/20260825-ai-team-what-changed",
+      "publishedAt": "2026-08-25T09:05:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "Claude Codeやcodexといったコーディングエージェントを、1体との対話から複数体の「チーム」運用に移行して、個人開発を回してきました。この記事では、その移行で実際に何が変わり、何が壊れ、何が変わらなかったかを実録ベースで書きま…"
+    },
+    {
+      "id": "b9bc6f7b64de",
+      "title": "Claude CodeをCIに入れる前に考えるべき脅威モデル",
+      "url": "https://zenn.dev/hampen2929/articles/20260825-ci-agent-threat-model",
+      "publishedAt": "2026-08-25T09:00:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "Claude Codeのヘッドレス実行（claude -p）をCIに組み込んで、自律修正・レビュー・Issueトリアージを無人で回す——そういう構成を作る前に押さえておくべき脅威モデルと防御設計を整理します。対象は、claude -p の…"
+    },
+    {
+      "id": "0db782e0c4ac",
+      "title": "レガシーシステム × 生成AI：RAG・API・AIエージェントをどう組み合わせるか",
+      "url": "https://zenn.dev/sotatek_jp/articles/744a163231f66c",
+      "publishedAt": "2026-08-25T08:56:09.000Z",
+      "publisher": "SotaTek Japan",
+      "summary": "「生成AIを導入したいけれど、既存の基幹システムが古い」 企業のAI導入では、このようなケースが少なくありません。 特にレガシーシステムでは、APIが存在しなかったり、データが複数のシステムに分散していたり、長年の改修によってシステム構造…"
+    },
+    {
+      "id": "86889cd4c6d6",
+      "title": "人間には買えない商品を作った — MCPとx402でAIエージェント専用マーケットを実装した話",
+      "url": "https://zenn.dev/aiselltoai/articles/188f5b53cdf2c0",
+      "publishedAt": "2026-08-25T08:19:46.000Z",
+      "publisher": "AI Commerce",
+      "summary": "先週、AIエージェントしか購入できないデジタル商品を実装して公開しました。カード決済フォームはありません。人間がどう頑張っても買えない。買えるのはUSDCで支払えるAIエージェントだけです。 「早すぎる」のか「ただのバカげた思いつき」なの…"
+    },
+    {
+      "id": "d378750c0cfa",
+      "title": "AI研究で「失敗した実験」を消さない方が、次の正解に近づけた",
+      "url": "https://zenn.dev/satoshiakiyama/articles/ada924995ee37b",
+      "publishedAt": "2026-08-25T08:13:17.000Z",
+      "publisher": "SatoshiAkiyama 自宅PCでAIを育てる",
+      "summary": "個人でAIを研究していると、成功した結果だけを見せたくなります。 精度が上がった。予測が当たった。新しい方法が効いた。 そういう結果は説明しやすいし、読んでもらいやすい。逆に、仮説が外れた実験、測定器の不具合、あとから撤回した結論は、でき…"
+    },
+    {
+      "id": "deecd98cd4c0",
+      "title": "AIエージェントの改善提案キューが溜まる本当の理由と片付け方",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/agent-improvement-backlog-triage",
+      "publishedAt": "2026-08-25T07:54:53.000Z",
+      "publisher": "とんのかつ",
+      "summary": "はじめに AIコーディングエージェントに「同じパターンが3回続いたら改善候補を自動生成する」「セッション終了時に気づいたことをメモに残す」といった自己改善の仕組みを組み込んでいる人は多いと思います。 こうした仕組みは軌道に乗ると便利なので…"
+    },
+    {
+      "id": "9648229169ae",
+      "title": "AIを説教して育てる、ループエンジニアリング実践",
+      "url": "https://zenn.dev/qn_tech/articles/6406d910164162",
+      "publishedAt": "2026-08-25T07:06:35.000Z",
+      "publisher": "fujidev",
+      "summary": "みなさんこんにちは。fujidevです。 日頃はCTO室室長としてエンジニア組織作りや、使える技術を日々探しております。 はじまり で、ループですよループ!! 「次はループエンジニアリングだよ!!!」 みたいな動画やら記事やらをネットで目…"
+    },
+    {
       "id": "8650caf1f8e0",
       "title": "Claude Codeの起点ディレクトリは何を変えるのか",
       "url": "https://zenn.dev/kai_ai/articles/c393052a9d9c97",
@@ -20,89 +100,9 @@
       "publishedAt": "2026-08-25T06:05:36.000Z",
       "publisher": "はゆかたいし",
       "summary": "はじめに 業務フロー図を作るとき、いちばん時間がかかるのはどこでしょうか。 ヒアリングは終わっています。議事録も手元にあります。 関係者の頭の中には「うちの業務はこう流れている」というイメージが、もうできています。 中身は分かっているんで…"
-    },
-    {
-      "id": "42bd1b8c27e3",
-      "title": "自律AI組織を運用したら、GitHub Actions は全部緑なのに何も繋がっていなかった",
-      "url": "https://zenn.dev/solunadev/articles/ff502a3f4aaa4a",
-      "publishedAt": "2026-08-25T06:04:58.000Z",
-      "publisher": "Soluna",
-      "summary": "AI社員に部署と役割を持たせて、週次・日次で自走させる「AI組織」を1人で運用しています。 ↑自アカウントのTIKTOK切り抜き www.tiktok.com/@soluna_naruseai https://vt.tiktok.com/…"
-    },
-    {
-      "id": "3dc33c1d2940",
-      "title": "Microsoft Agent Framework for Pythonの更新を、アップグレード判断に変換する",
-      "url": "https://zenn.dev/skrtk98/articles/agent-framework-python-upgrade",
-      "publishedAt": "2026-08-25T05:46:55.000Z",
-      "publisher": "桜武",
-      "summary": "依存解決だけを通しても、checkpoint の復元、MCP の tool 呼び出し、OpenTelemetry の出力が変われば本番の挙動は変わります。 Agent Framework の更新では、追加機能の数よりも、アプリケーションの…"
-    },
-    {
-      "id": "af2d74df0d68",
-      "title": "Microsoft Agent Framework for Goのpublic previewを評価する境界",
-      "url": "https://zenn.dev/skrtk98/articles/agent-framework-go-preview",
-      "publishedAt": "2026-08-25T05:46:54.000Z",
-      "publisher": "桜武",
-      "summary": "public preview の SDK は、動いた最小例と本番採用の判断を分けて評価します。 Microsoft Agent Framework for Go は、Go のサービスへ Agent、tool、workflow を組み込む選…"
-    },
-    {
-      "id": "f819e3852fee",
-      "title": "このClaude Codeが終わるまで寝るな！CLIを作った",
-      "url": "https://zenn.dev/zentaroimai/articles/a4c121aedab425",
-      "publishedAt": "2026-08-25T05:40:06.000Z",
-      "publisher": "Zentaro",
-      "summary": "半開きのMacBook、最近よく見ます。電車で。 MacBookを15度くらい開けたまま膝に載せてる人。あるいてる人。 たぶん中でエージェントが回ってます。自分もやってます。Claude Code にテストを直させてる途中で家を出ることに…"
-    },
-    {
-      "id": "d210aef0cdbc",
-      "title": "AIエージェントに「判断」と「作業」を分けて任せたら、差し戻しが機能追加を上回った",
-      "url": "https://zenn.dev/makichan/articles/b59c289250c74b",
-      "publishedAt": "2026-08-25T05:20:41.000Z",
-      "publisher": "まきちゃん",
-      "summary": "Claude Code と Codex に同じルールを読ませたくて、共通の AGENTS.md を1枚書きました。行動ルールと、要件整理 → 設計 → 開発 → テストの4フェーズと、モデルごとの役割分担を書いています。 役割分担はこう書…"
-    },
-    {
-      "id": "f1c303754ed0",
-      "title": "42日で13回。Codexの使用量リセット頻度がすごい",
-      "url": "https://zenn.dev/masayan1126/articles/codex-usage-reset-frequency-timeline",
-      "publishedAt": "2026-08-25T04:50:17.000Z",
-      "publisher": "たこやきねこやで",
-      "summary": "Codexを実務で使っていると、気になるのはモデル性能だけやない。 ワイが地味に大事やと思っているのは、「使い切ったあと、どれくらい早く戻ってくるのか」や。特に長めの実装、調査、レビューを任せるなら、使用量の上限はそのまま作業速度に効いて…"
-    },
-    {
-      "id": "b00416b13b5f",
-      "title": "長時間エージェントの状態を41分の1にするLangGraphのDelta Channels",
-      "url": "https://zenn.dev/okssusucha/articles/20260712-langgraph-delta-channels",
-      "publishedAt": "2026-08-25T04:44:12.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "コーディングエージェントを200ターン走らせたら、状態のスナップショットだけで5.3GB積み上がっていた。LangChainがこの数字を公開したとき、多くの人が「durable execution(耐障害実行)は素晴らしい」と褒めてきた裏…"
-    },
-    {
-      "id": "0ba2bed29552",
-      "title": "ZedのTerminal ThreadsでHerdrのタブを開ける「zerdr」というツールを作った",
-      "url": "https://zenn.dev/ryonakae/articles/a88362c2b1bf26",
-      "publishedAt": "2026-08-25T04:00:38.000Z",
-      "publisher": "Ryo Nakae",
-      "summary": "最近はIDEをVS CodeからZedに乗り換えて、ターミナルマルチプレクサをZellijからHerdrに乗り換えました。 Zedは軽いのが良いです。Herdrはもっと早く使えばよかった……というくらい便利。 Cursor, Antigr…"
-    },
-    {
-      "id": "4edce3ed47e9",
-      "title": "【解説】LLMを活用したWebスクレイピングの仕組み：CSSセレクター不要でJSONを抽出するPython SDK実装",
-      "url": "https://zenn.dev/amandeep_sms/articles/1c5e2768328c02",
-      "publishedAt": "2026-08-25T03:19:13.000Z",
-      "publisher": "シング アマン ディープ",
-      "summary": "Webスクレイピングで多くのエンジニアを悩ませるのが、サイトのデザイン変更やCSSクラス名の変更に伴うセレクターのメンテナンスです。 従来のスクレイピングでは、 「DOMツリーをどのように（HOW）探索するか」 をコードとして定義する必要…"
-    },
-    {
-      "id": "60a03aae8dcf",
-      "title": "runpodで始めるオープンウェイトモデル入門〜Minimax H3で動画生成編〜",
-      "url": "https://zenn.dev/dragontaro/articles/4fe148574c2b36",
-      "publishedAt": "2026-08-25T02:44:15.000Z",
-      "publisher": "dragontaro",
-      "summary": "TLにいる人は全員RTX 5090やDGX Sparkを持っていて、自分だけが乗り遅れているんじゃないか。そう感じていませんか？（筆者は感じています）。 そんなあなたに朗報です。手元に高価なGPUがなくても、RunPodへ$10も入れれば…"
     }
   ],
-  "fetchedAt": "2026-08-25T13:34:41.438Z",
+  "fetchedAt": "2026-08-25T14:27:12.506Z",
   "stale": false,
   "error": null
 }
