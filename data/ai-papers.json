@@ -11,15 +11,7 @@
       "url": "https://huggingface.co/papers/2608.23189",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "We present EchoWM, an omnimodal world model for enterable generative media that responds to continuous navigation while…",
-      "score": 44
-    },
-    {
-      "id": "5bce8f66329a",
-      "title": "Unlocking the Potential of Image Editing via Concept Scaling and Dense Supervision",
-      "url": "https://huggingface.co/papers/2608.16812",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. However…",
-      "score": 38
+      "score": 48
     },
     {
       "id": "4eec0eff5b4a",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.23035",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this pa…",
-      "score": 30
+      "score": 31
     },
     {
       "id": "d72ee55f1c92",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.19567",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "While text-to-3D generation has advanced rapidly, achieving high geometric fidelity at low inference cost remains chall…",
-      "score": 18
+      "score": 19
     },
     {
       "id": "6876771cf516",
@@ -46,28 +38,12 @@
       "score": 12
     },
     {
-      "id": "b03455da644a",
-      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
-      "url": "https://huggingface.co/papers/2608.23565",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. T…",
-      "score": 11
-    },
-    {
       "id": "d36240f69ac6",
       "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
       "url": "https://huggingface.co/papers/2608.23311",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "Policy optimization (PO) for Large Language Models faces a stability--exploration trade-off, currently mediated by an a…",
-      "score": 8
-    },
-    {
-      "id": "a0f29624d7f5",
-      "title": "One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows",
-      "url": "https://huggingface.co/papers/2608.19741",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Recent agent benchmarks increasingly ground evaluation in executable environments, from code repair to web navigation, …",
-      "score": 5
+      "score": 10
     },
     {
       "id": "e1a553509de9",
@@ -75,7 +51,15 @@
       "url": "https://huggingface.co/papers/2608.21833",
       "publishedAt": "2026-08-22T00:00:00.000Z",
       "summary": "Recent large language models (LLMs) can operate as coding agents that build complete games from natural language reques…",
-      "score": 5
+      "score": 7
+    },
+    {
+      "id": "a0f29624d7f5",
+      "title": "One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows",
+      "url": "https://huggingface.co/papers/2608.19741",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Recent agent benchmarks increasingly ground evaluation in executable environments, from code repair to web navigation, …",
+      "score": 6
     },
     {
       "id": "ce895012928c",
@@ -94,15 +78,31 @@
       "score": 3
     },
     {
+      "id": "8581a7553bd6",
+      "title": "RIBOSPAN: A Long-Context RNA Foundation Model for Versatile RNA Modeling",
+      "url": "https://huggingface.co/papers/2608.22849",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "Full-length RNAs, particularly messenger RNAs, often exceed the context lengths used to pretrain existing RNA foundatio…",
+      "score": 2
+    },
+    {
       "id": "8385e14fac33",
       "title": "One Polluted Page Is Enough: Evaluating Web Content Pollution in LLM Recommenders",
       "url": "https://huggingface.co/papers/2606.13610",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "Search-augmented LLMs increasingly mediate everyday consumer recommendations by retrieving live web content. This creat…",
       "score": 2
+    },
+    {
+      "id": "5ed32dc69b73",
+      "title": "From Generation to Simulation: How Far Are World Models from Being True Simulators?",
+      "url": "https://huggingface.co/papers/2608.23070",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "With the rapid progress of diffusion models and large-scale video generation, generative world models are increasingly …",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-25T08:10:32.373Z",
+  "fetchedAt": "2026-08-25T08:59:22.359Z",
   "stale": false,
   "error": null
 }
