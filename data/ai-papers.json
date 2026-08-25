@@ -14,20 +14,12 @@
       "score": 29
     },
     {
-      "id": "1fa9a80a57d2",
-      "title": "Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models",
-      "url": "https://huggingface.co/papers/2608.16647",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own …",
-      "score": 15
-    },
-    {
-      "id": "560a03a78523",
-      "title": "EviRank: Structured Relevance Evidence for Multimodal Image Re-ranking",
-      "url": "https://huggingface.co/papers/2608.20886",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "Real-world image search queries are multimodal and compositional: ``find this shirt in pink'' specifies an entity to re…",
-      "score": 11
+      "id": "540b26961409",
+      "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
+      "url": "https://huggingface.co/papers/2608.23283",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "General-purpose language models can reason and synthesize knowledge, but complex work also requires sustained interacti…",
+      "score": 20
     },
     {
       "id": "a5ce46fc258b",
@@ -43,15 +35,23 @@
       "url": "https://huggingface.co/papers/2608.18484",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "Training-free block-sparse attention can accelerate video transformers, but row-wise attention concentration does not b…",
+      "score": 8
+    },
+    {
+      "id": "e695e552ee31",
+      "title": "TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming",
+      "url": "https://huggingface.co/papers/2608.20958",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts …",
       "score": 7
     },
     {
-      "id": "5604a67fad02",
-      "title": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
-      "url": "https://huggingface.co/papers/2608.20210",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: w…",
-      "score": 7
+      "id": "0c9e7c6beda1",
+      "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
+      "url": "https://huggingface.co/papers/2608.21439",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Game world models have recently demonstrated promising capabilities in generating visually coherent and action-controll…",
+      "score": 5
     },
     {
       "id": "8c8f94cb6b9f",
@@ -68,6 +68,14 @@
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "summary": "Human-centric intelligence is evolving in the foundation-model era, with growing emphasis on scale, transferability, an…",
       "score": 5
+    },
+    {
+      "id": "38dbdca136b2",
+      "title": "RISE: Adaptive Imagination for World Action Models",
+      "url": "https://huggingface.co/papers/2608.20430",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "World Action Models (WAMs) improve planning by incorporating future world evolution into action generation, yet existin…",
+      "score": 3
     },
     {
       "id": "3ba185d91288",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "Open-ended language-model benchmarks usually inherit a judge: a human preference panel, another model, or a brittle exa…",
       "score": 3
-    },
-    {
-      "id": "0c9e7c6beda1",
-      "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
-      "url": "https://huggingface.co/papers/2608.21439",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Game world models have recently demonstrated promising capabilities in generating visually coherent and action-controll…",
-      "score": 2
     }
   ],
-  "fetchedAt": "2026-08-25T01:23:15.880Z",
+  "fetchedAt": "2026-08-25T02:36:54.287Z",
   "stale": false,
   "error": null
 }
