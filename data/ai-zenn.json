@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c2397bf0c485",
-      "title": "なぜAIの生成文は頭に入ってこないのか — 「体言化」と「名詞ラベル」が読解コストを跳ね上げる理由と改善アプローチ",
-      "url": "https://zenn.dev/okamo02427/articles/d5a162d4606a01",
-      "publishedAt": "2026-08-25T14:45:25.000Z",
-      "publisher": "noriyuki okamoto",
-      "summary": "↑サマリー画像を冒頭に置くという新たな試み 生成AIで作成されたであろう初見の業務資料を読むとき、一見すると綺麗にまとまっているのに、読んでも内容がまったく頭に入ってこない、といった経験はないか。 箇条書きで整理され、太字のラベルが並び、…"
+      "id": "54e33d4db7aa",
+      "title": "AI動画生成の参照素材を型安全に管理する：TypeScriptでReference Manifestを作る",
+      "url": "https://zenn.dev/cy520569/articles/040d0406877388",
+      "publishedAt": "2026-08-25T09:39:18.000Z",
+      "publisher": "sarah wilson",
+      "summary": "AI動画生成で参照画像を1枚だけ使っている間は、ファイル管理について深く考える必要はありません。 prompt.txt product.png output.mp4 これくらいなら、人間が見ても何を使ったのか分かります。 ところが、画像・…"
     },
     {
-      "id": "5bf59afe365f",
-      "title": "Claude Codeの規律をhookに降ろしたら、Haikuでも壊れなくなった",
-      "url": "https://zenn.dev/yui/articles/97597aa13b9802",
-      "publishedAt": "2026-08-25T14:43:40.000Z",
-      "publisher": "yui",
-      "summary": "前にFable 5の「働き方」をドキュメント化してOpus/Sonnetに引き継がせる話を書きました。 https://zenn.dev/yui/articles/e4f8268ab5c6c1 Fable 5とOpus/Sonnetの品質…"
+      "id": "349bf76dbae9",
+      "title": "[9/15まで] Cloudflare のAI bot ブロック設定",
+      "url": "https://zenn.dev/gabie/articles/425179326b8ec4",
+      "publishedAt": "2026-08-25T09:21:25.000Z",
+      "publisher": "ガビー",
+      "summary": "2026年9月15日、Cloudflare（クラウドフレア）のボット制御ルールが大きく切り替わります。 これに伴い、適切な設定を行わないままでいると、検索流入を維持したいにもかかわらずAI関連のアクセスが意図せず遮断されてしまったり、逆に…"
     },
     {
-      "id": "4447a208d007",
-      "title": "コーディングエージェント7実装のソースを全部読んだ",
-      "url": "https://zenn.dev/waribashi/articles/agent-harness-01-overview",
-      "publishedAt": "2026-08-25T14:20:55.000Z",
-      "publisher": "waribashi",
-      "summary": "! この記事は AI（Claude Code）が調査から執筆まで自動で行ったものです。 各リポジトリのクローン、ソースの読解、比較、原稿化までを AI が実施し、 人間はテーマの指示と公開判断を担当しています。 引用したコードと数値は実際…"
+      "id": "3131e4d507d4",
+      "title": "AIチームがうまく回らないのは、業務設計の問題だった",
+      "url": "https://zenn.dev/hampen2929/articles/20260825-ai-team-workflow-design",
+      "publishedAt": "2026-08-25T09:10:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "複数のAIエージェントで開発を回そうとして、期待ほど速くならない——モデルを替え、プロンプトを磨き、構成を組み替えても改善しない。個人開発でそれを一通りやった結論は、原因はチーム側ではなく、仕事を渡す側にあったでした。この記事では、エージ…"
     },
     {
-      "id": "6c3da9c5b795",
-      "title": "ざっくりわかる AI Agent（3）：コード——ツールを作るツール",
-      "url": "https://zenn.dev/dupi/articles/ai-agent-plain-03-code-as-meta-tool",
-      "publishedAt": "2026-08-25T14:16:41.000Z",
-      "publisher": "るぴ",
-      "summary": "ひとことまとめ：コードを走らせられる Agent は、単に「手を使う」だけでなく、その場で新しいツールを作ることもできます。コードはプログラマだけのものではなく、すべての汎用 Agent が持つ「メタ能力」——他の能力を生み出す能力です。…"
+      "id": "4163e4369d28",
+      "title": "AIエージェントを\"チーム\"にしたら開発はどう変わったか",
+      "url": "https://zenn.dev/hampen2929/articles/20260825-ai-team-what-changed",
+      "publishedAt": "2026-08-25T09:05:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "Claude Codeやcodexといったコーディングエージェントを、1体との対話から複数体の「チーム」運用に移行して、個人開発を回してきました。この記事では、その移行で実際に何が変わり、何が壊れ、何が変わらなかったかを実録ベースで書きま…"
     },
     {
-      "id": "201e00802a0a",
-      "title": "話題の謎AI「Ox Alpha」とは？100万トークン無料の衝撃と3つの利用方法",
-      "url": "https://zenn.dev/lumichy/articles/ox-alpha-review-2026",
-      "publishedAt": "2026-08-25T14:04:19.000Z",
-      "publisher": "lumichy",
-      "summary": "2026年8月20日、AI中継プラットフォームの OpenRouter に突如として正体不明のモデルが投下されました。 名前は Ox Alpha（オックス・アルファ）。 開発元もパラメータ規模も一切非公表の「ステルスモデル」でありながら、…"
+      "id": "b9bc6f7b64de",
+      "title": "Claude CodeをCIに入れる前に考えるべき脅威モデル",
+      "url": "https://zenn.dev/hampen2929/articles/20260825-ci-agent-threat-model",
+      "publishedAt": "2026-08-25T09:00:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "Claude Codeのヘッドレス実行（claude -p）をCIに組み込んで、自律修正・レビュー・Issueトリアージを無人で回す——そういう構成を作る前に押さえておくべき脅威モデルと防御設計を整理します。対象は、claude -p の…"
     },
     {
-      "id": "9e7f45acbfcd",
-      "title": "【例題】G検定100問｜本番ペースで10分野を総点検",
-      "url": "https://zenn.dev/student_blog/articles/g-kentei-mock-exam-100-questions",
-      "publishedAt": "2026-08-25T13:44:55.000Z",
-      "publisher": "〇まる　@資格ガチ勢になりたいインフラエンジニア",
-      "summary": "G検定の試験範囲を一通り学んだ人向けの、100問・全問オリジナルの模試です。知識を思い出せるかだけでなく、似た用語を区別し、場面に合う考え方を選べるかを確認します。 この記事は、JDLAがG2024#6以降の範囲として公開している**シラ…"
+      "id": "0db782e0c4ac",
+      "title": "レガシーシステム × 生成AI：RAG・API・AIエージェントをどう組み合わせるか",
+      "url": "https://zenn.dev/sotatek_jp/articles/744a163231f66c",
+      "publishedAt": "2026-08-25T08:56:09.000Z",
+      "publisher": "SotaTek Japan",
+      "summary": "「生成AIを導入したいけれど、既存の基幹システムが古い」 企業のAI導入では、このようなケースが少なくありません。 特にレガシーシステムでは、APIが存在しなかったり、データが複数のシステムに分散していたり、長年の改修によってシステム構造…"
     },
     {
-      "id": "9b3df0251a9a",
-      "title": "「AIに任せられない」と結論した作業を、聞き方だけ変えて任せられる形にした — ただし、まだ一度も任せていない",
-      "url": "https://zenn.dev/sbkm/articles/46193d63195581",
-      "publishedAt": "2026-08-25T13:43:50.000Z",
-      "publisher": "しばこま",
-      "summary": "個人でポッドキャストを2本、毎週5本ずつ配信しています。台本は自分（と AI）で書き、読み上げは合成音声です。人が喋っているわけではないので、原稿の漢字をどう読むかを機械が決めます。ここが事故ります。 「おっしゃる通り」が「おっしゃるどお…"
+      "id": "86889cd4c6d6",
+      "title": "人間には買えない商品を作った — MCPとx402でAIエージェント専用マーケットを実装した話",
+      "url": "https://zenn.dev/aiselltoai/articles/188f5b53cdf2c0",
+      "publishedAt": "2026-08-25T08:19:46.000Z",
+      "publisher": "AI Commerce",
+      "summary": "先週、AIエージェントしか購入できないデジタル商品を実装して公開しました。カード決済フォームはありません。人間がどう頑張っても買えない。買えるのはUSDCで支払えるAIエージェントだけです。 「早すぎる」のか「ただのバカげた思いつき」なの…"
     },
     {
-      "id": "26f83aa2af2b",
-      "title": "同じプロンプトなのに世界が変わる、ChatGPT・Gemini・(M365)Copilotで画像生成おけるAIの解釈差を検証",
-      "url": "https://zenn.dev/syoshida07/articles/74c161db43677c",
-      "publishedAt": "2026-08-25T13:39:57.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "複数のLLMに対して、同一の「風景を描く」「ポスターを作る」といったプロンプトを実行させる検証は、モデルの違いを直接語らなくても、その比較行為自体に大きな意味がある。 まず同じ指示を与えることで、各モデルがどのように解釈し、どのような表現…"
+      "id": "d378750c0cfa",
+      "title": "AI研究で「失敗した実験」を消さない方が、次の正解に近づけた",
+      "url": "https://zenn.dev/satoshiakiyama/articles/ada924995ee37b",
+      "publishedAt": "2026-08-25T08:13:17.000Z",
+      "publisher": "SatoshiAkiyama 自宅PCでAIを育てる",
+      "summary": "個人でAIを研究していると、成功した結果だけを見せたくなります。 精度が上がった。予測が当たった。新しい方法が効いた。 そういう結果は説明しやすいし、読んでもらいやすい。逆に、仮説が外れた実験、測定器の不具合、あとから撤回した結論は、でき…"
     },
     {
-      "id": "55967b84c4cd",
-      "title": "LLMエージェントの暴走を自律制御する：T細胞モデルとトルクリミッターによる「空白駆動」GuardrailのPython実装",
-      "url": "https://zenn.dev/nanashi_os/articles/ea0e82d4961d56",
-      "publishedAt": "2026-08-25T13:10:38.000Z",
-      "publisher": "NanashiOS",
-      "summary": "Markdown 1. はじめに：なぜプロンプトで縛ってもLLMは暴走するのか？ LLM（Trnsformerアーキテクチャ）には、入力文脈の文法的なグリッド（整合性）を強引に満たそうとする性質があります。そのため、日本語のゼロ代名詞（主…"
+      "id": "deecd98cd4c0",
+      "title": "AIエージェントの改善提案キューが溜まる本当の理由と片付け方",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/agent-improvement-backlog-triage",
+      "publishedAt": "2026-08-25T07:54:53.000Z",
+      "publisher": "とんのかつ",
+      "summary": "はじめに AIコーディングエージェントに「同じパターンが3回続いたら改善候補を自動生成する」「セッション終了時に気づいたことをメモに残す」といった自己改善の仕組みを組み込んでいる人は多いと思います。 こうした仕組みは軌道に乗ると便利なので…"
     },
     {
-      "id": "97403d880bef",
-      "title": "使われるプロダクトは作る前に決まる — 事業開発の考え方を個人開発に活かす",
-      "url": "https://zenn.dev/jnch/articles/c73cada8020866",
-      "publishedAt": "2026-08-25T13:05:43.000Z",
-      "publisher": "Jnch",
-      "summary": "はじめに 本記事では、企業で使われている事業開発の考え方を個人開発に取り入れることで、どのような恩恵が得られるのかを考えます。 AIコーディングによる個人開発の変化 Xを見ていると、1年前とは比べものにならないほど、個人開発の話題を目にす…"
+      "id": "9648229169ae",
+      "title": "AIを説教して育てる、ループエンジニアリング実践",
+      "url": "https://zenn.dev/qn_tech/articles/6406d910164162",
+      "publishedAt": "2026-08-25T07:06:35.000Z",
+      "publisher": "fujidev",
+      "summary": "みなさんこんにちは。fujidevです。 日頃はCTO室室長としてエンジニア組織作りや、使える技術を日々探しております。 はじまり で、ループですよループ!! 「次はループエンジニアリングだよ!!!」 みたいな動画やら記事やらをネットで目…"
     },
     {
-      "id": "b69baa7fefa8",
-      "title": "ターミナルの画面を「ドキュメント」として扱う端末を作った",
-      "url": "https://zenn.dev/maronsan/articles/tsumugi-terminal",
-      "publishedAt": "2026-08-25T12:59:06.000Z",
-      "publisher": "maronsan",
-      "summary": "キーバインドが覚えられない。 WezTerm も NeoVim も良いのは分かっています。何度か入れて、何度か戻しました。 毎回同じところで止まる。覚える気が無いのではなく、覚える前に手が止まる。 それなら「キーを覚えなくても全部できる端…"
+      "id": "8650caf1f8e0",
+      "title": "Claude Codeの起点ディレクトリは何を変えるのか",
+      "url": "https://zenn.dev/kai_ai/articles/c393052a9d9c97",
+      "publishedAt": "2026-08-25T06:23:25.000Z",
+      "publisher": "Kai＠生成AI",
+      "summary": "Claude Codeで同じプロンプトを使っても、開始するディレクトリによって結果が変わることがあります。 中心となる問いは、次の一つです。 起点ディレクトリは、Claude Codeの仕事へ何を渡しているのか。 先に結論を書くと、起点は…"
     },
     {
-      "id": "b9a0c0d57a0a",
-      "title": "AIコード生成でバグまで量産される、割れ窓理論が説明するソフトウェアエントロピーの加速",
-      "url": "https://zenn.dev/moridev/articles/59199be4a8aeaa",
-      "publishedAt": "2026-08-25T12:56:40.000Z",
-      "publisher": "moridev",
-      "summary": "AI を使うようになって、開発作業の所要時間は明らかに短くなりました。同時に、増えたものもあります。レビューを通ったあとに見つかる境界条件の考慮漏れ、似た分岐の増殖、直したはずの不具合の再発。実務上の体感として、開発は速くなった一方で、変…"
+      "id": "0a3e3683f42a",
+      "title": "業務フロー図を描くのはやめた — ヒアリングに集中して、図はAIに任せる",
+      "url": "https://zenn.dev/cyberdog_ai_lab/articles/20260823-flow-notation",
+      "publishedAt": "2026-08-25T06:05:36.000Z",
+      "publisher": "はゆかたいし",
+      "summary": "はじめに 業務フロー図を作るとき、いちばん時間がかかるのはどこでしょうか。 ヒアリングは終わっています。議事録も手元にあります。 関係者の頭の中には「うちの業務はこう流れている」というイメージが、もうできています。 中身は分かっているんで…"
     }
   ],
-  "fetchedAt": "2026-08-25T20:24:07.018Z",
+  "fetchedAt": "2026-08-25T20:55:14.448Z",
   "stale": false,
   "error": null
 }
