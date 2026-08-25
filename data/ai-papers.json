@@ -6,6 +6,14 @@
   "category": "ai",
   "items": [
     {
+      "id": "3e6441163df5",
+      "title": "Towards a Densing Law for User Representation Learning at Billion-Scale Capacity",
+      "url": "https://huggingface.co/papers/2608.23392",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "User representation learning in real-world industrial scenarios is commonly scaled by increasing user amount, behaviora…",
+      "score": 11
+    },
+    {
       "id": "d36240f69ac6",
       "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
       "url": "https://huggingface.co/papers/2608.23311",
@@ -14,12 +22,36 @@
       "score": 11
     },
     {
-      "id": "3e6441163df5",
-      "title": "Towards a Densing Law for User Representation Learning at Billion-Scale Capacity",
-      "url": "https://huggingface.co/papers/2608.23392",
+      "id": "a9335d8c5be4",
+      "title": "LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks",
+      "url": "https://huggingface.co/papers/2608.23200",
       "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "User representation learning in real-world industrial scenarios is commonly scaled by increasing user amount, behaviora…",
-      "score": 9
+      "summary": "Large language models are increasingly expected to execute complex workflows whose success depends on maintaining inter…",
+      "score": 3
+    },
+    {
+      "id": "b031aad84c38",
+      "title": "AutoResearch: Insight In, Hallucination Out",
+      "url": "https://huggingface.co/papers/2608.17906",
+      "publishedAt": "2026-08-23T00:00:00.000Z",
+      "summary": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does no…",
+      "score": 3
+    },
+    {
+      "id": "8581a7553bd6",
+      "title": "RIBOSPAN: A Long-Context RNA Foundation Model for Versatile RNA Modeling",
+      "url": "https://huggingface.co/papers/2608.22849",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "Full-length RNAs, particularly messenger RNAs, often exceed the context lengths used to pretrain existing RNA foundatio…",
+      "score": 3
+    },
+    {
+      "id": "72cc4d90f927",
+      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
+      "url": "https://huggingface.co/papers/2608.20953",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "Serving large language models cheaply increasingly means shipping models that are both structurally compressed to a fra…",
+      "score": 2
     },
     {
       "id": "d1904ca9f3f3",
@@ -28,38 +60,6 @@
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "summary": "Electrocardiogram (ECG) recordings are sensitive biomedical data, limiting the ability of hospitals and wearable device…",
       "score": 2
-    },
-    {
-      "id": "8581a7553bd6",
-      "title": "RIBOSPAN: A Long-Context RNA Foundation Model for Versatile RNA Modeling",
-      "url": "https://huggingface.co/papers/2608.22849",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "Full-length RNAs, particularly messenger RNAs, often exceed the context lengths used to pretrain existing RNA foundatio…",
-      "score": 2
-    },
-    {
-      "id": "a9335d8c5be4",
-      "title": "LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks",
-      "url": "https://huggingface.co/papers/2608.23200",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "Large language models are increasingly expected to execute complex workflows whose success depends on maintaining inter…",
-      "score": 1
-    },
-    {
-      "id": "b031aad84c38",
-      "title": "AutoResearch: Insight In, Hallucination Out",
-      "url": "https://huggingface.co/papers/2608.17906",
-      "publishedAt": "2026-08-23T00:00:00.000Z",
-      "summary": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does no…",
-      "score": 1
-    },
-    {
-      "id": "72cc4d90f927",
-      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
-      "url": "https://huggingface.co/papers/2608.20953",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "Serving large language models cheaply increasingly means shipping models that are both structurally compressed to a fra…",
-      "score": 1
     },
     {
       "id": "9cf23b7125ab",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-25T11:53:59.222Z",
+  "fetchedAt": "2026-08-25T12:39:52.917Z",
   "stale": false,
   "error": null
 }
