@@ -6,20 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "540b26961409",
-      "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
-      "url": "https://huggingface.co/papers/2608.23283",
+      "id": "4eec0eff5b4a",
+      "title": "MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks",
+      "url": "https://huggingface.co/papers/2608.23035",
       "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "General-purpose language models can reason and synthesize knowledge, but complex work also requires sustained interacti…",
-      "score": 128
+      "summary": "As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this pa…",
+      "score": 24
     },
     {
-      "id": "38dbdca136b2",
-      "title": "RISE: Adaptive Imagination for World Action Models",
-      "url": "https://huggingface.co/papers/2608.20430",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "World Action Models (WAMs) improve planning by incorporating future world evolution into action generation, yet existin…",
-      "score": 20
+      "id": "5bce8f66329a",
+      "title": "Unlocking the Potential of Image Editing via Concept Scaling and Dense Supervision",
+      "url": "https://huggingface.co/papers/2608.16812",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. However…",
+      "score": 19
     },
     {
       "id": "0f90d5e98b2a",
@@ -27,15 +27,7 @@
       "url": "https://huggingface.co/papers/2608.23552",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond…",
-      "score": 12
-    },
-    {
-      "id": "b03455da644a",
-      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
-      "url": "https://huggingface.co/papers/2608.23565",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. T…",
-      "score": 7
+      "score": 16
     },
     {
       "id": "6876771cf516",
@@ -43,7 +35,23 @@
       "url": "https://huggingface.co/papers/2608.13622",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Open-ended real-world interaction admits multiple valid behaviors: an agent may answer directly, ask for clarification,…",
-      "score": 6
+      "score": 11
+    },
+    {
+      "id": "b03455da644a",
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "url": "https://huggingface.co/papers/2608.23565",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. T…",
+      "score": 10
+    },
+    {
+      "id": "e1a553509de9",
+      "title": "GameXpert-Bench: How Far Are Coding Agents from Expert Game Development?",
+      "url": "https://huggingface.co/papers/2608.21833",
+      "publishedAt": "2026-08-22T00:00:00.000Z",
+      "summary": "Recent large language models (LLMs) can operate as coding agents that build complete games from natural language reques…",
+      "score": 5
     },
     {
       "id": "d56ece624b11",
@@ -54,11 +62,11 @@
       "score": 5
     },
     {
-      "id": "e1a553509de9",
-      "title": "GameXpert-Bench: How Far Are Coding Agents from Expert Game Development?",
-      "url": "https://huggingface.co/papers/2608.21833",
-      "publishedAt": "2026-08-22T00:00:00.000Z",
-      "summary": "Recent large language models (LLMs) can operate as coding agents that build complete games from natural language reques…",
+      "id": "d72ee55f1c92",
+      "title": "Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion",
+      "url": "https://huggingface.co/papers/2608.19567",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "While text-to-3D generation has advanced rapidly, achieving high geometric fidelity at low inference cost remains chall…",
       "score": 4
     },
     {
@@ -78,14 +86,6 @@
       "score": 2
     },
     {
-      "id": "5bce8f66329a",
-      "title": "Unlocking the Potential of Image Editing via Concept Scaling and Dense Supervision",
-      "url": "https://huggingface.co/papers/2608.16812",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. However…",
-      "score": 2
-    },
-    {
       "id": "923b8bd5bba4",
       "title": "TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration",
       "url": "https://huggingface.co/papers/2608.17336",
@@ -94,15 +94,15 @@
       "score": 2
     },
     {
-      "id": "45e97b643db2",
-      "title": "Same Agent, Different Answers: A Repeat-Aware Audit of Corpus-Induced Answer Churn in Retrieval-Augmented QA",
-      "url": "https://huggingface.co/papers/2608.22856",
+      "id": "8385e14fac33",
+      "title": "One Polluted Page Is Enough: Evaluating Web Content Pollution in LLM Recommenders",
+      "url": "https://huggingface.co/papers/2606.13610",
       "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "A retrieval-augmented QA system can return different answers after an index expansion even when its requested model ide…",
-      "score": 2
+      "summary": "Search-augmented LLMs increasingly mediate everyday consumer recommendations by retrieving live web content. This creat…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-25T05:46:40.876Z",
+  "fetchedAt": "2026-08-25T06:39:51.041Z",
   "stale": false,
   "error": null
 }
