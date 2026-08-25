@@ -6,22 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "c2397bf0c485",
-      "title": "なぜAIの生成文は頭に入ってこないのか — 「体言化」と「名詞ラベル」が読解コストを跳ね上げる理由と改善アプローチ",
-      "url": "https://zenn.dev/okamo02427/articles/d5a162d4606a01",
-      "publishedAt": "2026-08-25T14:45:25.000Z",
-      "publisher": "noriyuki okamoto",
-      "summary": "↑サマリー画像を冒頭に置くという新たな試み 生成AIで作成されたであろう初見の業務資料を読むとき、一見すると綺麗にまとまっているのに、読んでも内容がまったく頭に入ってこない、といった経験はないか。 箇条書きで整理され、太字のラベルが並び、…"
-    },
-    {
-      "id": "5bf59afe365f",
-      "title": "Claude Codeの規律をhookに降ろしたら、Haikuでも壊れなくなった",
-      "url": "https://zenn.dev/yui/articles/97597aa13b9802",
-      "publishedAt": "2026-08-25T14:43:40.000Z",
-      "publisher": "yui",
-      "summary": "前にFable 5の「働き方」をドキュメント化してOpus/Sonnetに引き継がせる話を書きました。 https://zenn.dev/yui/articles/e4f8268ab5c6c1 Fable 5とOpus/Sonnetの品質…"
-    },
-    {
       "id": "4447a208d007",
       "title": "コーディングエージェント7実装のソースを全部読んだ",
       "url": "https://zenn.dev/waribashi/articles/agent-harness-01-overview",
@@ -100,9 +84,25 @@
       "publishedAt": "2026-08-25T12:56:40.000Z",
       "publisher": "moridev",
       "summary": "AI を使うようになって、開発作業の所要時間は明らかに短くなりました。同時に、増えたものもあります。レビューを通ったあとに見つかる境界条件の考慮漏れ、似た分岐の増殖、直したはずの不具合の再発。実務上の体感として、開発は速くなった一方で、変…"
+    },
+    {
+      "id": "6c5cc826dcef",
+      "title": "Qwen3.8 27Bを262KでPi Coding Agentにつないで「テトリス作っといて」と言ってみた",
+      "url": "https://zenn.dev/sumumu26/articles/da9b4977bf5fc6",
+      "publishedAt": "2026-08-25T12:42:52.000Z",
+      "publisher": "miharuba_jp",
+      "summary": "こんにちは。miharubaの池谷です。 最近、RTX 4070 Ti SUPER 16GB + RTX 5060 Ti 16GBの2GPU環境で、Qwen3.8 27Bをllama.cppから動かして遊んでいます。 前回は262K co…"
+    },
+    {
+      "id": "992498f1947b",
+      "title": "Claude Codeを1ヶ月動かした記録——月$20の内訳とハマった3か所",
+      "url": "https://zenn.dev/aimakerlab/articles/1f88290d414c7b",
+      "publishedAt": "2026-08-25T12:14:04.000Z",
+      "publisher": "AI Maker Lab",
+      "summary": "Claude Code を入れたのは4月中旬だった。個人開発の作業をターミナルに集約したかっただけで、1ヶ月後にこれが主力ツールになるとは思っていなかった。 「1ヶ月使い倒した後に分かること」の一次記録がまだ少ないので、ここに残す。 イン…"
     }
   ],
-  "fetchedAt": "2026-08-25T16:54:32.788Z",
+  "fetchedAt": "2026-08-25T17:28:22.786Z",
   "stale": false,
   "error": null
 }
