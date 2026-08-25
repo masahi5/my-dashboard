@@ -6,12 +6,20 @@
   "category": "ai",
   "items": [
     {
+      "id": "8051abe3f281",
+      "title": "EchoWM: Open and Enterable Omnimodal World Models",
+      "url": "https://huggingface.co/papers/2608.23189",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "We present EchoWM, an omnimodal world model for enterable generative media that responds to continuous navigation while…",
+      "score": 34
+    },
+    {
       "id": "4eec0eff5b4a",
       "title": "MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks",
       "url": "https://huggingface.co/papers/2608.23035",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this pa…",
-      "score": 24
+      "score": 27
     },
     {
       "id": "5bce8f66329a",
@@ -19,15 +27,15 @@
       "url": "https://huggingface.co/papers/2608.16812",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. However…",
-      "score": 19
+      "score": 24
     },
     {
-      "id": "0f90d5e98b2a",
-      "title": "Prime Agent: A Self-Improving RLM Harness",
-      "url": "https://huggingface.co/papers/2608.23552",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond…",
-      "score": 16
+      "id": "d72ee55f1c92",
+      "title": "Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion",
+      "url": "https://huggingface.co/papers/2608.19567",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "While text-to-3D generation has advanced rapidly, achieving high geometric fidelity at low inference cost remains chall…",
+      "score": 13
     },
     {
       "id": "6876771cf516",
@@ -35,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.13622",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "summary": "Open-ended real-world interaction admits multiple valid behaviors: an agent may answer directly, ask for clarification,…",
-      "score": 11
+      "score": 12
     },
     {
       "id": "b03455da644a",
@@ -43,7 +51,15 @@
       "url": "https://huggingface.co/papers/2608.23565",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. T…",
-      "score": 10
+      "score": 11
+    },
+    {
+      "id": "a0f29624d7f5",
+      "title": "One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows",
+      "url": "https://huggingface.co/papers/2608.19741",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Recent agent benchmarks increasingly ground evaluation in executable environments, from code repair to web navigation, …",
+      "score": 5
     },
     {
       "id": "e1a553509de9",
@@ -54,22 +70,6 @@
       "score": 5
     },
     {
-      "id": "d56ece624b11",
-      "title": "Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress",
-      "url": "https://huggingface.co/papers/2608.19408",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) has emerged as an effective framework for post-training language models by pairing student…",
-      "score": 5
-    },
-    {
-      "id": "d72ee55f1c92",
-      "title": "Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion",
-      "url": "https://huggingface.co/papers/2608.19567",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "While text-to-3D generation has advanced rapidly, achieving high geometric fidelity at low inference cost remains chall…",
-      "score": 4
-    },
-    {
       "id": "b28ee03a11f7",
       "title": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
       "url": "https://huggingface.co/papers/2608.20169",
@@ -78,19 +78,19 @@
       "score": 3
     },
     {
+      "id": "d36240f69ac6",
+      "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
+      "url": "https://huggingface.co/papers/2608.23311",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "Policy optimization (PO) for Large Language Models faces a stability--exploration trade-off, currently mediated by an a…",
+      "score": 2
+    },
+    {
       "id": "ce895012928c",
       "title": "Better Retrieval, Worse Robustness:How Multi-hop RAG Amplifies Upstream ASR Errors",
       "url": "https://huggingface.co/papers/2608.22872",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "Speech-based applications pass spoken queries through automatic speech recognition (ASR) before any retrieval module, s…",
-      "score": 2
-    },
-    {
-      "id": "923b8bd5bba4",
-      "title": "TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration",
-      "url": "https://huggingface.co/papers/2608.17336",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Long-context prefill in large language models (LLMs) incurs substantial computation and memory traffic because dense se…",
       "score": 2
     },
     {
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-25T06:39:51.041Z",
+  "fetchedAt": "2026-08-25T07:29:58.065Z",
   "stale": false,
   "error": null
 }
