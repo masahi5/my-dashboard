@@ -6,6 +6,41 @@
   "category": "callcenter",
   "items": [
     {
+      "id": "50ed62128807",
+      "title": "Asanaが5年、600万ドルのコード移行を「1.5週間、1.2万ドル」で完了 5文のプロンプトに絞った理由は",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/26/news024.html",
+      "publishedAt": "2026-08-25T22:00:00.000Z",
+      "summary": "Asanaは5年、600万ドルかかるとされた旧式ライブラリ「Enzyme」からの移行をAIで約1.5週間に短縮、費用1.2万ドルで完了させた。成功のカギは長文指示ではなく「5文のプロンプト」と既存コードの品質の高さにあった。"
+    },
+    {
+      "id": "a002496a1ed3",
+      "title": "AIエージェントの誤作動は誰の責任か 仕様を作る側と使う側の「責任分界点」",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/26/news023.html",
+      "publishedAt": "2026-08-25T22:00:00.000Z",
+      "summary": "AIエージェントの安全対策は、どこまでを業界共通の仕組みで賄えるのか。AIエージェント同士をつなぐ仕様を策定するLinux Foundation傘下の団体が、記者説明会でその境界を示した。企業側に残る範囲はどこからか。"
+    },
+    {
+      "id": "f3492224bbfc",
+      "title": "サーバ調達費はまだ上がるのか 半導体市場92％成長が示す構図",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/26/news027.html",
+      "publishedAt": "2026-08-25T22:00:00.000Z",
+      "summary": "Gartnerの予測によると、世界の半導体市場が2026年に前年比92％増と、1年で約2倍に膨らむという。これを生んでいるのは何か。企業のサーバやPCの調達費にはどう跳ね返るのか。"
+    },
+    {
+      "id": "3f00caf926c7",
+      "title": "「全ポイントに完璧はいらない」 ロジャー・フェデラー氏の意思決定とAI活用の最前線",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/25/news083.html",
+      "publishedAt": "2026-08-25T22:00:00.000Z",
+      "summary": "2ポイントに1つは落としていた──テニス王者ロジャー・フェデラー氏が明かした意外な数字が示すのは、力の入れどころを見極める思考法だ。同じく「SAP Sapphire」で披露されたH&M、Ray-Ban、Fonterraによる自律型AIエー…"
+    },
+    {
+      "id": "eb69586a84dd",
+      "title": "なぜ今「あえてオンプレ」なのか？ AI時代に見直すハイブリッドインフラ戦略",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/21/news003.html",
+      "publishedAt": "2026-08-25T22:00:00.000Z",
+      "summary": "「持たないIT」であるクラウド化への流れは止まらないが、それでも「持つIT」であるオンプレミスをあえて選ぶ理由もある。運用設計ラボが提唱する持続可能な事業成長を実現するためのインフラ再構築戦略とは。"
+    },
+    {
       "id": "cb51d821b2cf",
       "title": "Microsoft Entra IDにCVSS 10.0の緊急脆弱性 対応不要なのに公表された理由",
       "url": "https://www.itmedia.co.jp/enterprise/articles/2608/25/news026.html",
@@ -53,44 +88,9 @@
       "url": "https://www.itmedia.co.jp/enterprise/articles/2608/21/news019.html",
       "publishedAt": "2026-08-20T23:00:00.000Z",
       "summary": "海外事務の標準化を進めている三菱UFJ銀行。熟練従業員に頼ってきた業務プロセスの精査を生成AIに置き換える過程で直面したのは、AI特有の誤情報や回答のバラつきだった。同行はこれをどう克服したのか。"
-    },
-    {
-      "id": "2018a292a3cd",
-      "title": "Snowflakeが過去最高業績 CEOが「他社との差別化は容易になった」と語るワケ",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/24/news009.html",
-      "publishedAt": "2026-08-20T23:00:00.000Z",
-      "summary": "競合が同じ方向に走り出した今こそ、差別化はむしろ容易になっている――。SnowflakeのCEOが年次カンファレンスでこう言い切った根拠はどこにあるのか。AIエージェント時代のSnowflakeの戦略に迫る。"
-    },
-    {
-      "id": "1a5e374e162d",
-      "title": "「Exchange Server SE」の大型アップデートに遅れ Microsoftが明かした、リリース延期の背景",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/21/news035.html",
-      "publishedAt": "2026-08-20T22:00:00.000Z",
-      "summary": "Microsoftは「Exchange Server SE」向け大型更新「CU1」のリリース延期理由を公表した。公開予定は「2026年下半期」に延期されている。"
-    },
-    {
-      "id": "5aadd7e495f9",
-      "title": "さくらインターネットで不正アクセス 583件不正ログインから「136万件影響の恐れ」に拡大",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/20/news078.html",
-      "publishedAt": "2026-08-20T05:55:00.000Z",
-      "summary": "さくらインターネットは販売管理システムへの不正アクセスの可能性を確認した。この影響が及ぶ可能性があるのは会員情報136万563アカウントで、うち30件はハッシュ化パスワードも含む。"
-    },
-    {
-      "id": "0f15f98e3120",
-      "title": "モデルの利用料金は安くなっているのに、AIの総コスト上昇 「パラドクス」の背景を解説",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/20/news022.html",
-      "publishedAt": "2026-08-19T23:00:00.000Z",
-      "summary": "AIモデルの利用料金の低下が、かえってAIの総コストを押し上げている。Gartnerはワークフロー1件当たりのAI推論コストが2028年までに5倍以上に上昇すると予測する。同社が「推論のパラドックス」と呼ぶ、この逆説の中身とは。また、AI…"
-    },
-    {
-      "id": "80e8095a5521",
-      "title": "Microsoftが「Copilot」アプリを統合へ 公私アカウントの分離とデータ安全性はどうなる",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/20/news028.html",
-      "publishedAt": "2026-08-19T22:00:00.000Z",
-      "summary": "Microsoftが「Copilot」アプリの統合・刷新を発表した。一つのアプリで個人と仕事用のアカウントの切り替えが可能となり、データ分離や企業のセキュリティ統制は維持される方針だ。"
     }
   ],
-  "fetchedAt": "2026-08-25T22:22:24.398Z",
+  "fetchedAt": "2026-08-25T22:54:23.969Z",
   "stale": false,
   "error": null
 }
