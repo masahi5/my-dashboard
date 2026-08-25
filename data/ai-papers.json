@@ -6,36 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "af3d5a206ca0",
-      "title": "ParaTempo: Efficient Parallel Reasoning via Temporal Confidence",
-      "url": "https://huggingface.co/papers/2608.16425",
-      "publishedAt": "2026-08-17T11:24:46.000Z",
-      "summary": "Parallel reasoning improves the accuracy and robustness of large reasoning models by exploring multiple solution paths,…",
-      "score": 29
-    },
-    {
       "id": "540b26961409",
       "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
       "url": "https://huggingface.co/papers/2608.23283",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "General-purpose language models can reason and synthesize knowledge, but complex work also requires sustained interacti…",
-      "score": 20
-    },
-    {
-      "id": "a5ce46fc258b",
-      "title": "UniSpace: Unified Visual Representation and Scalable Multimodal Modeling",
-      "url": "https://huggingface.co/papers/2608.08676",
-      "publishedAt": "2026-08-09T00:00:00.000Z",
-      "summary": "Semantic vision encoders have become a central visual interface for multimodal understanding and semantic conditioning …",
-      "score": 10
-    },
-    {
-      "id": "ad04becd5774",
-      "title": "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
-      "url": "https://huggingface.co/papers/2608.18484",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Training-free block-sparse attention can accelerate video transformers, but row-wise attention concentration does not b…",
-      "score": 8
+      "score": 88
     },
     {
       "id": "e695e552ee31",
@@ -43,31 +19,7 @@
       "url": "https://huggingface.co/papers/2608.20958",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts …",
-      "score": 7
-    },
-    {
-      "id": "0c9e7c6beda1",
-      "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
-      "url": "https://huggingface.co/papers/2608.21439",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Game world models have recently demonstrated promising capabilities in generating visually coherent and action-controll…",
-      "score": 5
-    },
-    {
-      "id": "8c8f94cb6b9f",
-      "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
-      "url": "https://huggingface.co/papers/2608.18077",
-      "publishedAt": "2026-08-18T17:59:30.000Z",
-      "summary": "We introduce Hydra-0, a generalist world model conditioned on action flow, which represents robot actions as pixel moti…",
-      "score": 5
-    },
-    {
-      "id": "a999e8e95521",
-      "title": "Human-Centric Intelligence in the Era of Foundation Models: A Survey",
-      "url": "https://huggingface.co/papers/2608.18184",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Human-centric intelligence is evolving in the foundation-model era, with growing emphasis on scale, transferability, an…",
-      "score": 5
+      "score": 16
     },
     {
       "id": "38dbdca136b2",
@@ -75,7 +27,31 @@
       "url": "https://huggingface.co/papers/2608.20430",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "World Action Models (WAMs) improve planning by incorporating future world evolution into action generation, yet existin…",
-      "score": 3
+      "score": 14
+    },
+    {
+      "id": "0f90d5e98b2a",
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "url": "https://huggingface.co/papers/2608.23552",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond…",
+      "score": 8
+    },
+    {
+      "id": "0c9e7c6beda1",
+      "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
+      "url": "https://huggingface.co/papers/2608.21439",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Game world models have recently demonstrated promising capabilities in generating visually coherent and action-controll…",
+      "score": 8
+    },
+    {
+      "id": "b03455da644a",
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "url": "https://huggingface.co/papers/2608.23565",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. T…",
+      "score": 4
     },
     {
       "id": "3ba185d91288",
@@ -94,15 +70,39 @@
       "score": 3
     },
     {
-      "id": "4eb00810f006",
-      "title": "FlavourBench: Ranking Frontier Language Models with Executable Culinary Ground Truth",
-      "url": "https://huggingface.co/papers/2608.20574",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Open-ended language-model benchmarks usually inherit a judge: a human preference panel, another model, or a brittle exa…",
-      "score": 3
+      "id": "5bce8f66329a",
+      "title": "Unlocking the Potential of Image Editing via Concept Scaling and Dense Supervision",
+      "url": "https://huggingface.co/papers/2608.16812",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "summary": "Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. However…",
+      "score": 1
+    },
+    {
+      "id": "d56ece624b11",
+      "title": "Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress",
+      "url": "https://huggingface.co/papers/2608.19408",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) has emerged as an effective framework for post-training language models by pairing student…",
+      "score": 1
+    },
+    {
+      "id": "923b8bd5bba4",
+      "title": "TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration",
+      "url": "https://huggingface.co/papers/2608.17336",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Long-context prefill in large language models (LLMs) incurs substantial computation and memory traffic because dense se…",
+      "score": 1
+    },
+    {
+      "id": "45e97b643db2",
+      "title": "Same Agent, Different Answers: A Repeat-Aware Audit of Corpus-Induced Answer Churn in Retrieval-Augmented QA",
+      "url": "https://huggingface.co/papers/2608.22856",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "A retrieval-augmented QA system can return different answers after an index expansion even when its requested model ide…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-25T02:36:54.287Z",
+  "fetchedAt": "2026-08-25T03:30:34.910Z",
   "stale": false,
   "error": null
 }
