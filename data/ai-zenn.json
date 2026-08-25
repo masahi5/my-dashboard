@@ -6,6 +6,86 @@
   "category": "ai",
   "items": [
     {
+      "id": "eb2952b04355",
+      "title": "問い合わせ対応をAI化する前に、営業時間外を別の状態として設計する",
+      "url": "https://zenn.dev/miraigent/articles/ai-inquiry-after-hours-queue-design",
+      "publishedAt": "2026-08-25T20:36:48.000Z",
+      "publisher": "Kirisaki Kazuya | Miraigent代表",
+      "summary": "問い合わせ対応をAI化する前に、営業時間外を別の状態として設計する 問い合わせを受けた瞬間にAIで分類し、返信まで進める設計は魅力的です。しかし、営業時間外の問い合わせは「未処理」ではなく、運用上の別の状態です。 この記事では、営業時間外…"
+    },
+    {
+      "id": "7272ae10a500",
+      "title": "EarthLink Network が自社でつくっている18のプロダクト",
+      "url": "https://zenn.dev/chooser/articles/in-house-products",
+      "publishedAt": "2026-08-25T17:11:23.000Z",
+      "publisher": "chooser",
+      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 EarthLink Network が…"
+    },
+    {
+      "id": "2b36a97b1f27",
+      "title": "LLM が書いたテストを信頼する方法 — テスト義務ゲート",
+      "url": "https://zenn.dev/flip451/articles/sotohe-test-obligation-gate",
+      "publishedAt": "2026-08-25T17:09:53.000Z",
+      "publisher": "flip451",
+      "summary": "「機能 XX を実装して、そのテストも追加して」と LLM に頼んだとしよう。返ってくるのは、膨大な量のソースコードの差分と、膨大な数の自動テストかもしれない。テストはすべて green だ。さて、これをどう評価し、どう信頼すればよいだろ…"
+    },
+    {
+      "id": "6c2f4481c25b",
+      "title": "なぜ、コンテキストエンジニアリングの次はハーネスでもループでもなく、ハイポセシスエンジニアリングだと言えるのか？",
+      "url": "https://zenn.dev/pdfractal/articles/7672f27ad5f8b4",
+      "publishedAt": "2026-08-25T15:59:05.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに 生成AIの使い方をめぐる言葉は、ここ数年で急速に変わってきました。最初に注目されたのは、AIにどのような指示を出せば期待する回答を得られるかを考えるプロンプトエンジニアリングでした。その後、単一の指示文ではなく、会話履歴、資料、…"
+    },
+    {
+      "id": "9a3b77b93980",
+      "title": "gooseのRecipeだけじゃない。コーディングエージェント7実装の「発明」カタログ",
+      "url": "https://zenn.dev/waribashi/articles/agent-harness-02-features",
+      "publishedAt": "2026-08-25T15:43:33.000Z",
+      "publisher": "waribashi",
+      "summary": "! この記事は AI（Claude Code）が調査から執筆まで自動で行ったものです。 各リポジトリのクローン、ソースの読解、比較、原稿化までを AI が実施し、 人間はテーマの指示と公開判断を担当しています。 引用したコードと数値は実際…"
+    },
+    {
+      "id": "0103cef52ee5",
+      "title": "世界モデルが長い未来を予測し、良い行動を選ぶまで",
+      "url": "https://zenn.dev/naoyabone/articles/505270960b695a",
+      "publishedAt": "2026-08-25T15:40:07.000Z",
+      "publisher": "ぼさぼさ",
+      "summary": "この記事でつなぐもの 世界モデルが次の状態を予測できても、それだけではAgentは行動できません。 長い未来を想像する -> その未来の良さを評価する -> action候補を比べる -> 方策そのものを学ぶ この記事は、05 Long …"
+    },
+    {
+      "id": "04158b2c3684",
+      "title": "【Claude Code × 学習効率化】疑似OJTでAI先輩に育ててもらおう！！",
+      "url": "https://zenn.dev/zabuton/articles/309aad2f7ec1bf",
+      "publishedAt": "2026-08-25T15:33:55.000Z",
+      "publisher": "低迷する座布団",
+      "summary": "はじめに 最近、私には悩みがあります。 コーディングAIを使うようになってから、逆に新しい知識が身につかなくなったんです。 AIはとても便利で、エラーが出たら治してくれるし、私に分からない実装でもすぐ書いてくれます。 おかげで開発は相当速…"
+    },
+    {
+      "id": "7d46bda5c337",
+      "title": "マジのガチで生きるのが面倒くさいのでAIに管理してもらった話",
+      "url": "https://zenn.dev/zabuton/articles/ce188a1681a19e",
+      "publishedAt": "2026-08-25T15:30:29.000Z",
+      "publisher": "低迷する座布団",
+      "summary": "はじめに 突然ですが皆さん、生きるのってめんどくさくないですか？ 最近、転職に伴い実家を出て一人暮らしを始めました。 新生活ってやることが多いですね。 不慣れなもので 「これ、どうするんだっけ？」 が無限に発生してキツイです。 この服、普…"
+    },
+    {
+      "id": "1838a58ac78f",
+      "title": "WSL不要・インストール不要。Windows用のAI開発向けターミナルを作った",
+      "url": "https://zenn.dev/iostar/articles/6544a8fb942cbd",
+      "publishedAt": "2026-08-25T15:09:37.000Z",
+      "publisher": "SHIKISHATERM",
+      "summary": "Ghostty と cmux を触ってる人のツイートを見て「Mac ばっかりずるいな」となったのがきっかけでWindows用のAI開発向けターミナルを作りました。 ターミナルでAIを動かすのが当たり前になってから、Mac には 「AIエー…"
+    },
+    {
+      "id": "5dcc47407165",
+      "title": "Claude Code v2.1.234、使用量上限リセット後の自動再開設定を検証",
+      "url": "https://zenn.dev/ainewsdaily/articles/20260822_general_t1",
+      "publishedAt": "2026-08-25T15:05:23.000Z",
+      "publisher": "AIニュース",
+      "summary": "Claude Code の v2.1.234(2026年8月17日リリース)で、使用量の上限がリセットされたときにセッションの続きを自動で再開する設定が加わりました。既定はオンなので、自分で何も変更していなくても、更新した時点で挙動はもう…"
+    },
+    {
       "id": "c2397bf0c485",
       "title": "なぜAIの生成文は頭に入ってこないのか — 「体言化」と「名詞ラベル」が読解コストを跳ね上げる理由と改善アプローチ",
       "url": "https://zenn.dev/okamo02427/articles/d5a162d4606a01",
@@ -20,89 +100,9 @@
       "publishedAt": "2026-08-25T14:43:40.000Z",
       "publisher": "yui",
       "summary": "前にFable 5の「働き方」をドキュメント化してOpus/Sonnetに引き継がせる話を書きました。 https://zenn.dev/yui/articles/e4f8268ab5c6c1 Fable 5とOpus/Sonnetの品質…"
-    },
-    {
-      "id": "4447a208d007",
-      "title": "コーディングエージェント7実装のソースを全部読んだ",
-      "url": "https://zenn.dev/waribashi/articles/agent-harness-01-overview",
-      "publishedAt": "2026-08-25T14:20:55.000Z",
-      "publisher": "waribashi",
-      "summary": "! この記事は AI（Claude Code）が調査から執筆まで自動で行ったものです。 各リポジトリのクローン、ソースの読解、比較、原稿化までを AI が実施し、 人間はテーマの指示と公開判断を担当しています。 引用したコードと数値は実際…"
-    },
-    {
-      "id": "6c3da9c5b795",
-      "title": "ざっくりわかる AI Agent（3）：コード——ツールを作るツール",
-      "url": "https://zenn.dev/dupi/articles/ai-agent-plain-03-code-as-meta-tool",
-      "publishedAt": "2026-08-25T14:16:41.000Z",
-      "publisher": "るぴ",
-      "summary": "ひとことまとめ：コードを走らせられる Agent は、単に「手を使う」だけでなく、その場で新しいツールを作ることもできます。コードはプログラマだけのものではなく、すべての汎用 Agent が持つ「メタ能力」——他の能力を生み出す能力です。…"
-    },
-    {
-      "id": "201e00802a0a",
-      "title": "話題の謎AI「Ox Alpha」とは？100万トークン無料の衝撃と3つの利用方法",
-      "url": "https://zenn.dev/lumichy/articles/ox-alpha-review-2026",
-      "publishedAt": "2026-08-25T14:04:19.000Z",
-      "publisher": "lumichy",
-      "summary": "2026年8月20日、AI中継プラットフォームの OpenRouter に突如として正体不明のモデルが投下されました。 名前は Ox Alpha（オックス・アルファ）。 開発元もパラメータ規模も一切非公表の「ステルスモデル」でありながら、…"
-    },
-    {
-      "id": "9e7f45acbfcd",
-      "title": "【例題】G検定100問｜本番ペースで10分野を総点検",
-      "url": "https://zenn.dev/student_blog/articles/g-kentei-mock-exam-100-questions",
-      "publishedAt": "2026-08-25T13:44:55.000Z",
-      "publisher": "〇まる　@資格ガチ勢になりたいインフラエンジニア",
-      "summary": "G検定の試験範囲を一通り学んだ人向けの、100問・全問オリジナルの模試です。知識を思い出せるかだけでなく、似た用語を区別し、場面に合う考え方を選べるかを確認します。 この記事は、JDLAがG2024#6以降の範囲として公開している**シラ…"
-    },
-    {
-      "id": "9b3df0251a9a",
-      "title": "「AIに任せられない」と結論した作業を、聞き方だけ変えて任せられる形にした — ただし、まだ一度も任せていない",
-      "url": "https://zenn.dev/sbkm/articles/46193d63195581",
-      "publishedAt": "2026-08-25T13:43:50.000Z",
-      "publisher": "しばこま",
-      "summary": "個人でポッドキャストを2本、毎週5本ずつ配信しています。台本は自分（と AI）で書き、読み上げは合成音声です。人が喋っているわけではないので、原稿の漢字をどう読むかを機械が決めます。ここが事故ります。 「おっしゃる通り」が「おっしゃるどお…"
-    },
-    {
-      "id": "26f83aa2af2b",
-      "title": "同じプロンプトなのに世界が変わる、ChatGPT・Gemini・(M365)Copilotで画像生成おけるAIの解釈差を検証",
-      "url": "https://zenn.dev/syoshida07/articles/74c161db43677c",
-      "publishedAt": "2026-08-25T13:39:57.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "複数のLLMに対して、同一の「風景を描く」「ポスターを作る」といったプロンプトを実行させる検証は、モデルの違いを直接語らなくても、その比較行為自体に大きな意味がある。 まず同じ指示を与えることで、各モデルがどのように解釈し、どのような表現…"
-    },
-    {
-      "id": "55967b84c4cd",
-      "title": "LLMエージェントの暴走を自律制御する：T細胞モデルとトルクリミッターによる「空白駆動」GuardrailのPython実装",
-      "url": "https://zenn.dev/nanashi_os/articles/ea0e82d4961d56",
-      "publishedAt": "2026-08-25T13:10:38.000Z",
-      "publisher": "NanashiOS",
-      "summary": "Markdown 1. はじめに：なぜプロンプトで縛ってもLLMは暴走するのか？ LLM（Trnsformerアーキテクチャ）には、入力文脈の文法的なグリッド（整合性）を強引に満たそうとする性質があります。そのため、日本語のゼロ代名詞（主…"
-    },
-    {
-      "id": "97403d880bef",
-      "title": "使われるプロダクトは作る前に決まる — 事業開発の考え方を個人開発に活かす",
-      "url": "https://zenn.dev/jnch/articles/c73cada8020866",
-      "publishedAt": "2026-08-25T13:05:43.000Z",
-      "publisher": "Jnch",
-      "summary": "はじめに 本記事では、企業で使われている事業開発の考え方を個人開発に取り入れることで、どのような恩恵が得られるのかを考えます。 AIコーディングによる個人開発の変化 Xを見ていると、1年前とは比べものにならないほど、個人開発の話題を目にす…"
-    },
-    {
-      "id": "b69baa7fefa8",
-      "title": "ターミナルの画面を「ドキュメント」として扱う端末を作った",
-      "url": "https://zenn.dev/maronsan/articles/tsumugi-terminal",
-      "publishedAt": "2026-08-25T12:59:06.000Z",
-      "publisher": "maronsan",
-      "summary": "キーバインドが覚えられない。 WezTerm も NeoVim も良いのは分かっています。何度か入れて、何度か戻しました。 毎回同じところで止まる。覚える気が無いのではなく、覚える前に手が止まる。 それなら「キーを覚えなくても全部できる端…"
-    },
-    {
-      "id": "b9a0c0d57a0a",
-      "title": "AIコード生成でバグまで量産される、割れ窓理論が説明するソフトウェアエントロピーの加速",
-      "url": "https://zenn.dev/moridev/articles/59199be4a8aeaa",
-      "publishedAt": "2026-08-25T12:56:40.000Z",
-      "publisher": "moridev",
-      "summary": "AI を使うようになって、開発作業の所要時間は明らかに短くなりました。同時に、増えたものもあります。レビューを通ったあとに見つかる境界条件の考慮漏れ、似た分岐の増殖、直したはずの不具合の再発。実務上の体感として、開発は速くなった一方で、変…"
     }
   ],
-  "fetchedAt": "2026-08-25T23:21:46.139Z",
+  "fetchedAt": "2026-08-25T23:48:16.395Z",
   "stale": false,
   "error": null
 }
