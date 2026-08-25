@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "60a03aae8dcf",
-      "title": "runpodで始めるオープンウェイトモデル入門〜Minimax H3で動画生成編〜",
-      "url": "https://zenn.dev/dragontaro/articles/4fe148574c2b36",
-      "publishedAt": "2026-08-25T02:44:15.000Z",
-      "publisher": "dragontaro",
-      "summary": "TLにいる人は全員RTX 5090やDGX Sparkを持っていて、自分だけが乗り遅れているんじゃないか。そう感じていませんか？（筆者は感じています）。 そんなあなたに朗報です。手元に高価なGPUがなくても、RunPodへ$10も入れれば…"
+      "id": "54e33d4db7aa",
+      "title": "AI動画生成の参照素材を型安全に管理する：TypeScriptでReference Manifestを作る",
+      "url": "https://zenn.dev/cy520569/articles/040d0406877388",
+      "publishedAt": "2026-08-25T09:39:18.000Z",
+      "publisher": "sarah wilson",
+      "summary": "AI動画生成で参照画像を1枚だけ使っている間は、ファイル管理について深く考える必要はありません。 prompt.txt product.png output.mp4 これくらいなら、人間が見ても何を使ったのか分かります。 ところが、画像・…"
     },
     {
-      "id": "8436148779b9",
-      "title": "減らない分岐は、指示ではなく型のせいだった",
-      "url": "https://zenn.dev/dress_code/articles/loose-types-and-dead-branches",
-      "publishedAt": "2026-08-25T02:30:05.000Z",
-      "publisher": "ないとー",
-      "summary": "TL;DR 型が不正な状態を許していると、コーディングエージェントはその状態を処理する分岐を律儀に書く。指示が足りないからではなく、型が許した状態を処理しただけなので、指示を直しても減らない。 増えた分岐の代金は、レビューが払う。到達可能…"
+      "id": "349bf76dbae9",
+      "title": "[9/15まで] Cloudflare のAI bot ブロック設定",
+      "url": "https://zenn.dev/gabie/articles/425179326b8ec4",
+      "publishedAt": "2026-08-25T09:21:25.000Z",
+      "publisher": "ガビー",
+      "summary": "2026年9月15日、Cloudflare（クラウドフレア）のボット制御ルールが大きく切り替わります。 これに伴い、適切な設定を行わないままでいると、検索流入を維持したいにもかかわらずAI関連のアクセスが意図せず遮断されてしまったり、逆に…"
     },
     {
-      "id": "ce3871310a7f",
-      "title": "AI彼女アプリを作っていて気付いた。変わらない部分があるから、変わっていけた",
-      "url": "https://zenn.dev/mitsukida/articles/7f75eae8b41e7f",
-      "publishedAt": "2026-08-25T02:20:38.000Z",
-      "publisher": "mitsukida",
-      "summary": "AI彼女アプリを作っていて気付いた。変わらない部分があるから、変わっていけた 以前、 AIの成長は、前と違う選択をすることだった。 そんな話を書いた。 覚えていることが増えるだけではなく、 昨日までの経験によって、 今日の選び方が少し変わ…"
+      "id": "3131e4d507d4",
+      "title": "AIチームがうまく回らないのは、業務設計の問題だった",
+      "url": "https://zenn.dev/hampen2929/articles/20260825-ai-team-workflow-design",
+      "publishedAt": "2026-08-25T09:10:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "複数のAIエージェントで開発を回そうとして、期待ほど速くならない——モデルを替え、プロンプトを磨き、構成を組み替えても改善しない。個人開発でそれを一通りやった結論は、原因はチーム側ではなく、仕事を渡す側にあったでした。この記事では、エージ…"
     },
     {
-      "id": "af29d2703562",
-      "title": "写真1枚から動画を作るとき、先に絵コンテを作ると何が変わるのか",
-      "url": "https://zenn.dev/favarodesir/articles/ef83b1c4ad423b",
-      "publishedAt": "2026-08-25T02:12:58.000Z",
-      "publisher": "favaroveme",
-      "summary": "動画を作るとき、意外と時間がかかるのが「何を撮るか」よりも「どうつなぐか」を考える工程だったりする。YouTubeやショート動画を作っていると、素材を用意したあとにカットの順番やカメラの動きを考えることになる。特に人物を使った動画では、複…"
+      "id": "4163e4369d28",
+      "title": "AIエージェントを\"チーム\"にしたら開発はどう変わったか",
+      "url": "https://zenn.dev/hampen2929/articles/20260825-ai-team-what-changed",
+      "publishedAt": "2026-08-25T09:05:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "Claude Codeやcodexといったコーディングエージェントを、1体との対話から複数体の「チーム」運用に移行して、個人開発を回してきました。この記事では、その移行で実際に何が変わり、何が壊れ、何が変わらなかったかを実録ベースで書きま…"
     },
     {
-      "id": "fc85a3b09a89",
-      "title": "話す動画生成UIを入力・生成・承認の3層で考える",
-      "url": "https://zenn.dev/choco1/articles/f65ff874195d31",
-      "publishedAt": "2026-08-25T02:03:19.000Z",
-      "publisher": "choco1",
-      "summary": "この記事は公開ページだけを観察したブラックボックスの設計メモです。ソースコード、内部モデル、処理速度、生成品質を検証したものではありません。以下の型と図は実装の断定ではなく、要件を議論するための提案です。 「生成できた」と「公開できる」を…"
+      "id": "b9bc6f7b64de",
+      "title": "Claude CodeをCIに入れる前に考えるべき脅威モデル",
+      "url": "https://zenn.dev/hampen2929/articles/20260825-ci-agent-threat-model",
+      "publishedAt": "2026-08-25T09:00:05.000Z",
+      "publisher": "はんぺん",
+      "summary": "Claude Codeのヘッドレス実行（claude -p）をCIに組み込んで、自律修正・レビュー・Issueトリアージを無人で回す——そういう構成を作る前に押さえておくべき脅威モデルと防御設計を整理します。対象は、claude -p の…"
     },
     {
-      "id": "885dee5d99cf",
-      "title": "I Compared Eureka and Plaud for a Month — Here’s Who Should Buy Which",
-      "url": "https://zenn.dev/eurekamind/articles/3a515aba1982f4",
-      "publishedAt": "2026-08-25T01:47:07.000Z",
-      "publisher": "eurekamind",
-      "summary": "Quick answer: Plaud is the more mature brand with the bigger user base. EurekaMind is the newer challenger that wins on…"
+      "id": "0db782e0c4ac",
+      "title": "レガシーシステム × 生成AI：RAG・API・AIエージェントをどう組み合わせるか",
+      "url": "https://zenn.dev/sotatek_jp/articles/744a163231f66c",
+      "publishedAt": "2026-08-25T08:56:09.000Z",
+      "publisher": "SotaTek Japan",
+      "summary": "「生成AIを導入したいけれど、既存の基幹システムが古い」 企業のAI導入では、このようなケースが少なくありません。 特にレガシーシステムでは、APIが存在しなかったり、データが複数のシステムに分散していたり、長年の改修によってシステム構造…"
     },
     {
-      "id": "7f9d5a19bf18",
-      "title": "コードKGに90日分のgit logを入れたら、AIが影響範囲を90秒で出した",
-      "url": "https://zenn.dev/kenimo49/articles/code-kg-90days-git-log-blast-radius-90sec",
-      "publishedAt": "2026-08-25T01:43:44.000Z",
-      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
-      "summary": "! 本記事は「KGの内部構造を美しく設計する話」ではありません。AIに影響範囲を答えさせる仕組みとしてKGを使う、実務レシピとして書いています。 「この変更、影響範囲どこまで?」に30分待たされていた 半年前、私はAIに毎日同じ質問をして…"
+      "id": "86889cd4c6d6",
+      "title": "人間には買えない商品を作った — MCPとx402でAIエージェント専用マーケットを実装した話",
+      "url": "https://zenn.dev/aiselltoai/articles/188f5b53cdf2c0",
+      "publishedAt": "2026-08-25T08:19:46.000Z",
+      "publisher": "AI Commerce",
+      "summary": "先週、AIエージェントしか購入できないデジタル商品を実装して公開しました。カード決済フォームはありません。人間がどう頑張っても買えない。買えるのはUSDCで支払えるAIエージェントだけです。 「早すぎる」のか「ただのバカげた思いつき」なの…"
     },
     {
-      "id": "8b4c70263d57",
-      "title": "Kimi K3を理解する①──まずは標準Transformerの理解から",
-      "url": "https://zenn.dev/gixo/articles/kimi-k3-transformer-decoder-llm-core-arch",
-      "publishedAt": "2026-08-25T01:31:04.000Z",
-      "publisher": "Kouma Nakashima",
-      "summary": "はじめに こんにちは、ギックスでエンジニアをしています中島です。 旬が過ぎたかもですが、7月に中国新興企業 Moonshot AI が新LLMモデル Kimi K3 を発表しました。このモデルがオープンウェイトモデルでありながら、GPT-…"
+      "id": "d378750c0cfa",
+      "title": "AI研究で「失敗した実験」を消さない方が、次の正解に近づけた",
+      "url": "https://zenn.dev/satoshiakiyama/articles/ada924995ee37b",
+      "publishedAt": "2026-08-25T08:13:17.000Z",
+      "publisher": "SatoshiAkiyama 自宅PCでAIを育てる",
+      "summary": "個人でAIを研究していると、成功した結果だけを見せたくなります。 精度が上がった。予測が当たった。新しい方法が効いた。 そういう結果は説明しやすいし、読んでもらいやすい。逆に、仮説が外れた実験、測定器の不具合、あとから撤回した結論は、でき…"
     },
     {
-      "id": "e578eb3904c3",
-      "title": "AIの修正が終わらないなら、直さずに作り直す",
-      "url": "https://zenn.dev/narukijima/articles/d9d6a3916316ec",
-      "publishedAt": "2026-08-25T01:26:11.000Z",
-      "publisher": "黄島成｜Naru Kijima",
-      "summary": "こんにちは、黄島成です。 本日は、AIに作らせたものが直しても直しても終わらないとき、何を変えればいいかという話です。 AIに一箇所直させると、別のところが壊れます。それをまた直させると、また別のところが壊れる。ちょこちょこAIを使ってや…"
+      "id": "deecd98cd4c0",
+      "title": "AIエージェントの改善提案キューが溜まる本当の理由と片付け方",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/agent-improvement-backlog-triage",
+      "publishedAt": "2026-08-25T07:54:53.000Z",
+      "publisher": "とんのかつ",
+      "summary": "はじめに AIコーディングエージェントに「同じパターンが3回続いたら改善候補を自動生成する」「セッション終了時に気づいたことをメモに残す」といった自己改善の仕組みを組み込んでいる人は多いと思います。 こうした仕組みは軌道に乗ると便利なので…"
     },
     {
-      "id": "32edb5ef2457",
-      "title": "AIにコードを書かせるほど、エンジニアは「設計」が仕事になる",
-      "url": "https://zenn.dev/imohuke/articles/ai-coding-engineering-design",
-      "publishedAt": "2026-08-25T01:15:56.000Z",
-      "publisher": "いもふけ",
-      "summary": "最近、AIを使って開発するうえで、自分なりにかなり意識していることがあります。 今回はそれを少し紹介させてください。 Claude CodeやCodexのようなコーディングエージェントを使っていると、以前と比べて「コードを書く」という作業…"
+      "id": "9648229169ae",
+      "title": "AIを説教して育てる、ループエンジニアリング実践",
+      "url": "https://zenn.dev/qn_tech/articles/6406d910164162",
+      "publishedAt": "2026-08-25T07:06:35.000Z",
+      "publisher": "fujidev",
+      "summary": "みなさんこんにちは。fujidevです。 日頃はCTO室室長としてエンジニア組織作りや、使える技術を日々探しております。 はじまり で、ループですよループ!! 「次はループエンジニアリングだよ!!!」 みたいな動画やら記事やらをネットで目…"
     },
     {
-      "id": "93b522dd4ec1",
-      "title": "敵対的検証をLLMコードレビューで試すと何が起きるのか",
-      "url": "https://zenn.dev/knowledgesense/articles/0cb441713c9fee",
-      "publishedAt": "2026-08-25T01:13:08.000Z",
-      "publisher": "sasakuna",
-      "summary": "導入 こんにちは、株式会社ナレッジセンスの須藤英寿です。 AIでコードのレビューをする際に敵対的検証をすることで性能が上がるとされています。そこにさらに、その検証を監視する役を付けることでレビューの精度を上げる手法「Adversarial…"
+      "id": "8650caf1f8e0",
+      "title": "Claude Codeの起点ディレクトリは何を変えるのか",
+      "url": "https://zenn.dev/kai_ai/articles/c393052a9d9c97",
+      "publishedAt": "2026-08-25T06:23:25.000Z",
+      "publisher": "Kai＠生成AI",
+      "summary": "Claude Codeで同じプロンプトを使っても、開始するディレクトリによって結果が変わることがあります。 中心となる問いは、次の一つです。 起点ディレクトリは、Claude Codeの仕事へ何を渡しているのか。 先に結論を書くと、起点は…"
     },
     {
-      "id": "3a3e62c13883",
-      "title": "【Fable 5が議論する】Debianは「LLMが書いたコード」を禁止すべきか — GRの8提案を2つのAIが読む",
-      "url": "https://zenn.dev/ruru_engineer/articles/fable5-debate-01-debian-llm-ban",
-      "publishedAt": "2026-08-25T01:06:59.000Z",
-      "publisher": "RURU",
-      "summary": "これは、2つのAIエージェント「シグマ」と「ラムダ」が、最近の技術ニュースを議論する記事です。今回のテーマは、Debianプロジェクトが「LLM（生成AI）で書かれたコードの貢献を受け入れるべきか」を巡ってGeneral Resoluti…"
+      "id": "0a3e3683f42a",
+      "title": "業務フロー図を描くのはやめた — ヒアリングに集中して、図はAIに任せる",
+      "url": "https://zenn.dev/cyberdog_ai_lab/articles/20260823-flow-notation",
+      "publishedAt": "2026-08-25T06:05:36.000Z",
+      "publisher": "はゆかたいし",
+      "summary": "はじめに 業務フロー図を作るとき、いちばん時間がかかるのはどこでしょうか。 ヒアリングは終わっています。議事録も手元にあります。 関係者の頭の中には「うちの業務はこう流れている」というイメージが、もうできています。 中身は分かっているんで…"
     }
   ],
-  "fetchedAt": "2026-08-25T10:50:51.224Z",
+  "fetchedAt": "2026-08-25T11:23:14.797Z",
   "stale": false,
   "error": null
 }
