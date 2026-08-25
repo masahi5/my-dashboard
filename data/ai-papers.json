@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.23283",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "General-purpose language models can reason and synthesize knowledge, but complex work also requires sustained interacti…",
-      "score": 88
+      "score": 112
     },
     {
       "id": "e695e552ee31",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.20958",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts …",
-      "score": 16
+      "score": 18
     },
     {
       "id": "38dbdca136b2",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.20430",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "World Action Models (WAMs) improve planning by incorporating future world evolution into action generation, yet existin…",
-      "score": 14
+      "score": 17
     },
     {
       "id": "0f90d5e98b2a",
@@ -35,15 +35,7 @@
       "url": "https://huggingface.co/papers/2608.23552",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond…",
-      "score": 8
-    },
-    {
-      "id": "0c9e7c6beda1",
-      "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
-      "url": "https://huggingface.co/papers/2608.21439",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Game world models have recently demonstrated promising capabilities in generating visually coherent and action-controll…",
-      "score": 8
+      "score": 9
     },
     {
       "id": "b03455da644a",
@@ -54,20 +46,52 @@
       "score": 4
     },
     {
-      "id": "3ba185d91288",
-      "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
-      "url": "https://huggingface.co/papers/2608.21031",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "We present PhysCaP, a Physics-Informed Code-as-Policy agent for active perception in robotic manipulation. While vision…",
-      "score": 3
+      "id": "d56ece624b11",
+      "title": "Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress",
+      "url": "https://huggingface.co/papers/2608.19408",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) has emerged as an effective framework for post-training language models by pairing student…",
+      "score": 4
     },
     {
-      "id": "093deeedf1ae",
-      "title": "Peer-Voted LLM-Agent Stress Tests Find Feed-Induced Lexical Convergence but No Reliable Matched-Exposure Advantage for Distributed Sources",
-      "url": "https://huggingface.co/papers/2608.20438",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Population-level behavior in large-language-model (LLM) agents cannot be characterized by single-agent benchmarks. We i…",
-      "score": 3
+      "id": "e1a553509de9",
+      "title": "GameXpert-Bench: How Far Are Coding Agents from Expert Game Development?",
+      "url": "https://huggingface.co/papers/2608.21833",
+      "publishedAt": "2026-08-22T00:00:00.000Z",
+      "summary": "Recent large language models (LLMs) can operate as coding agents that build complete games from natural language reques…",
+      "score": 2
+    },
+    {
+      "id": "923b8bd5bba4",
+      "title": "TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration",
+      "url": "https://huggingface.co/papers/2608.17336",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "summary": "Long-context prefill in large language models (LLMs) incurs substantial computation and memory traffic because dense se…",
+      "score": 2
+    },
+    {
+      "id": "45e97b643db2",
+      "title": "Same Agent, Different Answers: A Repeat-Aware Audit of Corpus-Induced Answer Churn in Retrieval-Augmented QA",
+      "url": "https://huggingface.co/papers/2608.22856",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "A retrieval-augmented QA system can return different answers after an index expansion even when its requested model ide…",
+      "score": 2
+    },
+    {
+      "id": "b28ee03a11f7",
+      "title": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
+      "url": "https://huggingface.co/papers/2608.20169",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "We present a novel approach to efficient LLM harness optimization through adaptive validation task selection. Harness o…",
+      "score": 1
+    },
+    {
+      "id": "6876771cf516",
+      "title": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction",
+      "url": "https://huggingface.co/papers/2608.13622",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Open-ended real-world interaction admits multiple valid behaviors: an agent may answer directly, ask for clarification,…",
+      "score": 1
     },
     {
       "id": "5bce8f66329a",
@@ -76,33 +100,9 @@
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. However…",
       "score": 1
-    },
-    {
-      "id": "d56ece624b11",
-      "title": "Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress",
-      "url": "https://huggingface.co/papers/2608.19408",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) has emerged as an effective framework for post-training language models by pairing student…",
-      "score": 1
-    },
-    {
-      "id": "923b8bd5bba4",
-      "title": "TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration",
-      "url": "https://huggingface.co/papers/2608.17336",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Long-context prefill in large language models (LLMs) incurs substantial computation and memory traffic because dense se…",
-      "score": 1
-    },
-    {
-      "id": "45e97b643db2",
-      "title": "Same Agent, Different Answers: A Repeat-Aware Audit of Corpus-Induced Answer Churn in Retrieval-Augmented QA",
-      "url": "https://huggingface.co/papers/2608.22856",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "A retrieval-augmented QA system can return different answers after an index expansion even when its requested model ide…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-25T03:30:34.910Z",
+  "fetchedAt": "2026-08-25T04:22:55.359Z",
   "stale": false,
   "error": null
 }
