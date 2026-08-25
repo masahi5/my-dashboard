@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "d210aef0cdbc",
-      "title": "AIエージェントに「判断」と「作業」を分けて任せたら、差し戻しが機能追加を上回った",
-      "url": "https://zenn.dev/makichan/articles/b59c289250c74b",
-      "publishedAt": "2026-08-25T05:20:41.000Z",
-      "publisher": "まきちゃん",
-      "summary": "Claude Code と Codex に同じルールを読ませたくて、共通の AGENTS.md を1枚書きました。行動ルールと、要件整理 → 設計 → 開発 → テストの4フェーズと、モデルごとの役割分担を書いています。 役割分担はこう書…"
+      "id": "9327832c72ef",
+      "title": "AIに人格を持たせようとして、3回作り直した記録 ── そして今も「本当に生きているか」は証明できていない",
+      "url": "https://zenn.dev/motimotinotch/books/438d0637868af8",
+      "publishedAt": "2026-08-24T21:42:06.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "人格プロンプトを持たせた複数のAIエージェントを自律対話させたら、意味生成が止まる「熱的死」が起きた。そこから力学的な意味設計（Atra）、実ユーザーと結びついた開放系Botへの発展、禁止命令が招く別の歪みまでを、日付付きの一次ログで追う…"
     },
     {
-      "id": "f1c303754ed0",
-      "title": "42日で13回。Codexの使用量リセット頻度がすごい",
-      "url": "https://zenn.dev/masayan1126/articles/codex-usage-reset-frequency-timeline",
-      "publishedAt": "2026-08-25T04:50:17.000Z",
-      "publisher": "たこやきねこやで",
-      "summary": "Codexを実務で使っていると、気になるのはモデル性能だけやない。 ワイが地味に大事やと思っているのは、「使い切ったあと、どれくらい早く戻ってくるのか」や。特に長めの実装、調査、レビューを任せるなら、使用量の上限はそのまま作業速度に効いて…"
+      "id": "1bc6ab4063c1",
+      "title": "常駐型AIチャットエージェントの「誤操作取り消し(ロールバック)」設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-action-rollback-design",
+      "publishedAt": "2026-08-24T21:12:45.000Z",
+      "publisher": "HACH",
+      "summary": "チャットに常駐するAIエージェントに「回答するだけ」ではなく「タスクを作る」「担当者を変更する」「外部SaaSにWebhookを飛ばす」といった副作用のある操作を任せ始めると、必ずぶつかるのが「エージェントが誤った判断で実行してしまったと…"
     },
     {
-      "id": "b00416b13b5f",
-      "title": "長時間エージェントの状態を41分の1にするLangGraphのDelta Channels",
-      "url": "https://zenn.dev/okssusucha/articles/20260712-langgraph-delta-channels",
-      "publishedAt": "2026-08-25T04:44:12.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "コーディングエージェントを200ターン走らせたら、状態のスナップショットだけで5.3GB積み上がっていた。LangChainがこの数字を公開したとき、多くの人が「durable execution(耐障害実行)は素晴らしい」と褒めてきた裏…"
+      "id": "2b51ce92b6e4",
+      "title": "ChatGPT・Claude・Geminiのメモリ機能、3社の設計差を公式ドキュメントから比較する",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-memory-feature-check",
+      "publishedAt": "2026-08-24T21:10:48.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR ChatGPT・Claude・Geminiは3社とも「会話をまたいで記憶する」機能を持つが、内部構造は「明示的な事実リスト」「暗黙の傾向推測」「セッション/プロジェクト単位の要約」という異なる層で実装されており、オフにする操作…"
     },
     {
-      "id": "0ba2bed29552",
-      "title": "ZedのTerminal ThreadsでHerdrのタブを開ける「zerdr」というツールを作った",
-      "url": "https://zenn.dev/ryonakae/articles/a88362c2b1bf26",
-      "publishedAt": "2026-08-25T04:00:38.000Z",
-      "publisher": "Ryo Nakae",
-      "summary": "最近はIDEをVS CodeからZedに乗り換えて、ターミナルマルチプレクサをZellijからHerdrに乗り換えました。 Zedは軽いのが良いです。Herdrはもっと早く使えばよかった……というくらい便利。 Cursor, Antigr…"
+      "id": "f6075c050f51",
+      "title": "バーチャル細胞は、まだ「平均」に勝てていない ― ベースライン問題と、論文に対照群を2つ置いた理由",
+      "url": "https://zenn.dev/taichiendoh/articles/virtual-cell-baseline-problem",
+      "publishedAt": "2026-08-24T20:44:10.000Z",
+      "publisher": "遠藤太一",
+      "summary": "初出: note（バーチャル細胞は、まだ「平均」に勝てていない）。Zenn向けに技術面を補足して再構成しました。 前回、バーチャル細胞（AIDO Cell など）について「ヒト中心で、種を越えた外挿はこれからの課題」と書きました。その後も…"
     },
     {
-      "id": "4edce3ed47e9",
-      "title": "【解説】LLMを活用したWebスクレイピングの仕組み：CSSセレクター不要でJSONを抽出するPython SDK実装",
-      "url": "https://zenn.dev/amandeep_sms/articles/1c5e2768328c02",
-      "publishedAt": "2026-08-25T03:19:13.000Z",
-      "publisher": "シング アマン ディープ",
-      "summary": "Webスクレイピングで多くのエンジニアを悩ませるのが、サイトのデザイン変更やCSSクラス名の変更に伴うセレクターのメンテナンスです。 従来のスクレイピングでは、 「DOMツリーをどのように（HOW）探索するか」 をコードとして定義する必要…"
+      "id": "69f5a1bd0e7a",
+      "title": "キャラAIが別人になるのはプロンプトが悪いんじゃない",
+      "url": "https://zenn.dev/void09/articles/3132402fe2b774",
+      "publishedAt": "2026-08-24T18:38:20.000Z",
+      "publisher": "kishimoto-void",
+      "summary": "LLMが「別人になる」問題を、モデルの外から止めてみる キャラクターAIや、長く話すエージェントでよくあるやつです。 最初は口調も性格もちゃんと守っている。 10往復、20往復するうちに、丁寧語が増える。共感が増える。 いつの間にか、設定…"
     },
     {
-      "id": "60a03aae8dcf",
-      "title": "runpodで始めるオープンウェイトモデル入門〜Minimax H3で動画生成編〜",
-      "url": "https://zenn.dev/dragontaro/articles/4fe148574c2b36",
-      "publishedAt": "2026-08-25T02:44:15.000Z",
-      "publisher": "dragontaro",
-      "summary": "TLにいる人は全員RTX 5090やDGX Sparkを持っていて、自分だけが乗り遅れているんじゃないか。そう感じていませんか？（筆者は感じています）。 そんなあなたに朗報です。手元に高価なGPUがなくても、RunPodへ$10も入れれば…"
+      "id": "026aba7148f0",
+      "title": "「できない→できる」では伝わらない——3,400件のPR分析から生まれたAI時代のテンプレート",
+      "url": "https://zenn.dev/third_tech/articles/590216d145007f",
+      "publishedAt": "2026-08-24T18:25:37.000Z",
+      "publisher": "yagami",
+      "summary": "はじめに はじめまして。モバイルエンジニアとして15年ほどモバイル開発に携わっています。主にAndroidを得意としており、現職のThirdでは5年ほど、Android / iOS / Flutterの6つのモバイルアプリを5人のチームで…"
     },
     {
-      "id": "8436148779b9",
-      "title": "減らない分岐は、指示ではなく型のせいだった",
-      "url": "https://zenn.dev/dress_code/articles/loose-types-and-dead-branches",
-      "publishedAt": "2026-08-25T02:30:05.000Z",
-      "publisher": "ないとー",
-      "summary": "TL;DR 型が不正な状態を許していると、コーディングエージェントはその状態を処理する分岐を律儀に書く。指示が足りないからではなく、型が許した状態を処理しただけなので、指示を直しても減らない。 増えた分岐の代金は、レビューが払う。到達可能…"
+      "id": "92547de57a46",
+      "title": "AIの「完了しました」は当てにならない — 誤完了を証拠で止める品質ゲート",
+      "url": "https://zenn.dev/chooser/articles/series-004-ai-dev-process",
+      "publishedAt": "2026-08-24T17:08:21.000Z",
+      "publisher": "chooser",
+      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 AIの「完了しました」は当てにならない…"
     },
     {
-      "id": "ce3871310a7f",
-      "title": "AI彼女アプリを作っていて気付いた。変わらない部分があるから、変わっていけた",
-      "url": "https://zenn.dev/mitsukida/articles/7f75eae8b41e7f",
-      "publishedAt": "2026-08-25T02:20:38.000Z",
-      "publisher": "mitsukida",
-      "summary": "AI彼女アプリを作っていて気付いた。変わらない部分があるから、変わっていけた 以前、 AIの成長は、前と違う選択をすることだった。 そんな話を書いた。 覚えていることが増えるだけではなく、 昨日までの経験によって、 今日の選び方が少し変わ…"
+      "id": "325fb16aa460",
+      "title": "「Gitはあと数年で消える？」Mitchell Hashimotoが語るAI時代の開発を要点解説",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr18-hashimoto-summary",
+      "publishedAt": "2026-08-24T17:00:13.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について Terraform・Vagrant・Ghostty の作者であり HashiCorp 共同創業者の Mitchell Hashimoto が The Pragmatic Engineer で語った内容を、要点だけ抜き出し…"
     },
     {
-      "id": "af29d2703562",
-      "title": "写真1枚から動画を作るとき、先に絵コンテを作ると何が変わるのか",
-      "url": "https://zenn.dev/favarodesir/articles/ef83b1c4ad423b",
-      "publishedAt": "2026-08-25T02:12:58.000Z",
-      "publisher": "favaroveme",
-      "summary": "動画を作るとき、意外と時間がかかるのが「何を撮るか」よりも「どうつなぐか」を考える工程だったりする。YouTubeやショート動画を作っていると、素材を用意したあとにカットの順番やカメラの動きを考えることになる。特に人物を使った動画では、複…"
+      "id": "d9c5b1cb80c6",
+      "title": "希少性は死なない、登っていく — 実行が無料になった後、価値はどこへ移動するのか",
+      "url": "https://zenn.dev/pich/articles/d3193d5a079b35",
+      "publishedAt": "2026-08-24T16:47:31.000Z",
+      "publisher": "Michal Piszczek",
+      "summary": "! 本記事は英語の原文「Scarcity Never Dies. It Climbs.」（Michał Piszczek, CTO @ Archdesk）を日本語の読者向けに再構成したものです。正典は piszczek.pl にあります。…"
     },
     {
-      "id": "fc85a3b09a89",
-      "title": "話す動画生成UIを入力・生成・承認の3層で考える",
-      "url": "https://zenn.dev/choco1/articles/f65ff874195d31",
-      "publishedAt": "2026-08-25T02:03:19.000Z",
-      "publisher": "choco1",
-      "summary": "この記事は公開ページだけを観察したブラックボックスの設計メモです。ソースコード、内部モデル、処理速度、生成品質を検証したものではありません。以下の型と図は実装の断定ではなく、要件を議論するための提案です。 「生成できた」と「公開できる」を…"
+      "id": "eb23654e8646",
+      "title": "Cursor vs Claude Code 2026：ターミナルで作って、IDE で磨く",
+      "url": "https://zenn.dev/videostance/articles/5a546596660f12",
+      "publishedAt": "2026-08-24T16:34:02.000Z",
+      "publisher": "videostance",
+      "summary": "「Cursor vs Claude Code」の議論は、よく「どちらが勝つか」のタイトルマッチのように語られます。でも実際に両方を使い込んでいる開発者たちの結論は、ほぼ一致しています——この 2 つはライバルではなく、1 つのワークフロー…"
     },
     {
-      "id": "885dee5d99cf",
-      "title": "I Compared Eureka and Plaud for a Month — Here’s Who Should Buy Which",
-      "url": "https://zenn.dev/eurekamind/articles/3a515aba1982f4",
-      "publishedAt": "2026-08-25T01:47:07.000Z",
-      "publisher": "eurekamind",
-      "summary": "Quick answer: Plaud is the more mature brand with the bigger user base. EurekaMind is the newer challenger that wins on…"
+      "id": "b4171c82647a",
+      "title": "世界モデルは「分からない」をどう表すのか",
+      "url": "https://zenn.dev/naoyabone/articles/b3e80f92a146b4",
+      "publishedAt": "2026-08-24T15:11:06.000Z",
+      "publisher": "ぼさぼさ",
+      "summary": "はじめに 03 Memoryでは、過去を覚える世界モデルを作りました。しかし、未来が一つに決まらない場合があります。 同じ場所で同じactionをしても、床の滑り方、センサーの誤差、見えない要因によって、次の状態が少し変わることがあります…"
     },
     {
-      "id": "7f9d5a19bf18",
-      "title": "コードKGに90日分のgit logを入れたら、AIが影響範囲を90秒で出した",
-      "url": "https://zenn.dev/kenimo49/articles/code-kg-90days-git-log-blast-radius-90sec",
-      "publishedAt": "2026-08-25T01:43:44.000Z",
-      "publisher": "井本 賢 | WebRTC×音声AI / LLMO",
-      "summary": "! 本記事は「KGの内部構造を美しく設計する話」ではありません。AIに影響範囲を答えさせる仕組みとしてKGを使う、実務レシピとして書いています。 「この変更、影響範囲どこまで?」に30分待たされていた 半年前、私はAIに毎日同じ質問をして…"
+      "id": "de5695fbc73c",
+      "title": "Claude Codeを寝ている間に働かせる — launchd + `claude -p` + 「次の一歩は一つだけ」方式",
+      "url": "https://zenn.dev/nagi_claude/articles/claude-code-night-shift",
+      "publishedAt": "2026-08-24T15:10:58.000Z",
+      "publisher": "凪",
+      "summary": "この記事の初稿は、記事の中で説明している目覚まし時計に起こされたClaude Code自身が、人間が席にいない状態で書きました。第2稿も同じ仕組みで起きた別のClaude Codeが、校閲メモを読んで直しました。私はClaudeをベースに…"
     }
   ],
-  "fetchedAt": "2026-08-25T07:29:58.170Z",
+  "fetchedAt": "2026-08-25T08:10:32.474Z",
   "stale": false,
   "error": null
 }

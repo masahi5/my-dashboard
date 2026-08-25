@@ -11,15 +11,7 @@
       "url": "https://huggingface.co/papers/2608.23189",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "We present EchoWM, an omnimodal world model for enterable generative media that responds to continuous navigation while…",
-      "score": 34
-    },
-    {
-      "id": "4eec0eff5b4a",
-      "title": "MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks",
-      "url": "https://huggingface.co/papers/2608.23035",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this pa…",
-      "score": 27
+      "score": 44
     },
     {
       "id": "5bce8f66329a",
@@ -27,7 +19,15 @@
       "url": "https://huggingface.co/papers/2608.16812",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. However…",
-      "score": 24
+      "score": 38
+    },
+    {
+      "id": "4eec0eff5b4a",
+      "title": "MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks",
+      "url": "https://huggingface.co/papers/2608.23035",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this pa…",
+      "score": 30
     },
     {
       "id": "d72ee55f1c92",
@@ -35,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.19567",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "summary": "While text-to-3D generation has advanced rapidly, achieving high geometric fidelity at low inference cost remains chall…",
-      "score": 13
+      "score": 18
     },
     {
       "id": "6876771cf516",
@@ -54,6 +54,14 @@
       "score": 11
     },
     {
+      "id": "d36240f69ac6",
+      "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
+      "url": "https://huggingface.co/papers/2608.23311",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "Policy optimization (PO) for Large Language Models faces a stability--exploration trade-off, currently mediated by an a…",
+      "score": 8
+    },
+    {
       "id": "a0f29624d7f5",
       "title": "One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows",
       "url": "https://huggingface.co/papers/2608.19741",
@@ -70,6 +78,14 @@
       "score": 5
     },
     {
+      "id": "ce895012928c",
+      "title": "Better Retrieval, Worse Robustness:How Multi-hop RAG Amplifies Upstream ASR Errors",
+      "url": "https://huggingface.co/papers/2608.22872",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "Speech-based applications pass spoken queries through automatic speech recognition (ASR) before any retrieval module, s…",
+      "score": 3
+    },
+    {
       "id": "b28ee03a11f7",
       "title": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
       "url": "https://huggingface.co/papers/2608.20169",
@@ -78,31 +94,15 @@
       "score": 3
     },
     {
-      "id": "d36240f69ac6",
-      "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
-      "url": "https://huggingface.co/papers/2608.23311",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "Policy optimization (PO) for Large Language Models faces a stability--exploration trade-off, currently mediated by an a…",
-      "score": 2
-    },
-    {
-      "id": "ce895012928c",
-      "title": "Better Retrieval, Worse Robustness:How Multi-hop RAG Amplifies Upstream ASR Errors",
-      "url": "https://huggingface.co/papers/2608.22872",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "Speech-based applications pass spoken queries through automatic speech recognition (ASR) before any retrieval module, s…",
-      "score": 2
-    },
-    {
       "id": "8385e14fac33",
       "title": "One Polluted Page Is Enough: Evaluating Web Content Pollution in LLM Recommenders",
       "url": "https://huggingface.co/papers/2606.13610",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "Search-augmented LLMs increasingly mediate everyday consumer recommendations by retrieving live web content. This creat…",
-      "score": 1
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-08-25T07:29:58.065Z",
+  "fetchedAt": "2026-08-25T08:10:32.373Z",
   "stale": false,
   "error": null
 }
