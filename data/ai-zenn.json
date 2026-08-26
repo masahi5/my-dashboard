@@ -6,6 +6,14 @@
   "category": "ai",
   "items": [
     {
+      "id": "793d04d5fdba",
+      "title": "【セットアップから推論まで】ハイレゾのGPUインスタンスでローカルLLMをさくっと動かしてみた",
+      "url": "https://zenn.dev/highreso/articles/8c38d85cfadebe",
+      "publishedAt": "2026-08-26T08:07:44.000Z",
+      "publisher": "ハイレゾ技術編集部",
+      "summary": "今回はハイレゾのGPUクラウドサービス「GPUSOROBAN」を使って、ローカルLLMで推論できるようになるまでの手順を紹介します。 会員登録からSSH接続、Python環境構築、モデルのダウンロード、そして実際に推論を動かすところまで、…"
+    },
+    {
       "id": "47c84c56f0fb",
       "title": "ドキュメントゼロのレガシーWebアプリを、AIで一括リバースエンジニアリングして仕様書を量産する",
       "url": "https://zenn.dev/akinori901/articles/weekly-draft-a-legacy-reverse",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-26T05:11:21.000Z",
       "publisher": "mitsukida",
       "summary": "AI彼女アプリを作っていて気付いた。「同じ人」は、設定だけでは続かなかった 以前、 AIを成長させようとして気付いたことを書いた。 変わるだけではだめだった。 変わりにくい部分があるから、 経験によって少しずつ変わっていける。 AIKan…"
-    },
-    {
-      "id": "a5e44e845949",
-      "title": "Fish Audioのzero-shot voice cloneは毎回同じ声が出るのか",
-      "url": "https://zenn.dev/mohhh_ok/articles/2026-08-fish-voice-clone-consistency",
-      "publishedAt": "2026-08-26T04:51:39.000Z",
-      "publisher": "MOhhh",
-      "summary": "前回の記事で、全文かな化の韻律劣化から phoneme 指定を持つ TTS への乗り換えを検討し、Fish Audio を候補に挙げました。Fish Audio の voice clone は、reference audio を API …"
     }
   ],
-  "fetchedAt": "2026-08-26T09:10:54.995Z",
+  "fetchedAt": "2026-08-26T09:57:07.638Z",
   "stale": false,
   "error": null
 }
