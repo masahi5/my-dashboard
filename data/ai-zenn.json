@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "9fa67664c520",
+      "title": "毎朝8時、AIから「答えの書いていない問題」が届く — 訓練を自動化した仕組み、全部公開します",
+      "url": "https://zenn.dev/jinjer_techblog/articles/69b182e90cfed8",
+      "publishedAt": "2026-08-26T03:00:07.000Z",
+      "publisher": "今道拓真",
+      "summary": "はじめに こんにちは。 jinjerプロダクト開発部SEの今道です。 AIに聞けば答えが返る環境では、「なぜ？」を考える必要が消えます。仮説を立てる前に結論が来るので、問題を見つける力と、解き方を決める力だけが使われないまま残ります。 そ…"
+    },
+    {
+      "id": "da2d6a1dff7e",
+      "title": "AIに聞けば答えが返ってくる時代に、どうやって「勘」を育てようか",
+      "url": "https://zenn.dev/flinters_blog/articles/d708267b36186b",
+      "publishedAt": "2026-08-26T03:00:06.000Z",
+      "publisher": "のざき",
+      "summary": "こんにちは、FLINTERSエンジニアの野崎です。 職場のシゴデキの先輩たちは、勘としか言いようのないものを持っています。 不具合の報告を見て「この辺が怪しい」と言い、問題となっている箇所を発見し、修正する。 大規模な差分があるPRについ…"
+    },
+    {
+      "id": "2afd7df01441",
+      "title": "【OnecaratEditor Core 制作秘話①】極小サイズのローカルLLMの回答精度をあげた話",
+      "url": "https://zenn.dev/onecarat_tech/articles/36c0b1e1ecd6f9",
+      "publishedAt": "2026-08-26T03:00:06.000Z",
+      "publisher": "Onecarat",
+      "summary": "はじめに Onecaratと申します。私はローカルLLMやローカル生成AIといった、ネット環境のない中でのAI活用の勉強を進めていたのですが、理由があります。画面画像から次の選択肢をAIに判断させて自分の仕事を代替させてみよう、という試み…"
+    },
+    {
+      "id": "edf8733d0566",
+      "title": "AI10並列で開発したら事故りかけた。貸せ、worktreeはこうやる",
+      "url": "https://zenn.dev/ceres_tech_blog/articles/8cb3ce7bc4c937",
+      "publishedAt": "2026-08-26T02:44:11.000Z",
+      "publisher": "しろいろのいぬ",
+      "summary": "はじめに git worktree、AI開発において流行ってますよね。 でもこんなことないですか？ 「え、worktreeでAIセッション分けてるのに、テスト回すとポート衝突するんですけど…」 「気づいたら画面とAPIで別ブランチのコード…"
+    },
+    {
       "id": "10fabf89a0d5",
       "title": "FILE 01・開封 ―― 鷹(タカ)というチームの、ある一日",
       "url": "https://zenn.dev/saikoseiko/articles/979d624993058e",
@@ -68,41 +100,9 @@
       "publishedAt": "2026-08-26T00:40:57.000Z",
       "publisher": "スミ",
       "summary": "こんにちは！株式会社Hacobu VPoE室 Engineering Officeチームのスミです。 毎月4時間かかっていた支払い申請の作業が、10分で終わるようになりました。 以前、月初に届く請求書から支払い申請の下書きを作るまでを、P…"
-    },
-    {
-      "id": "7434f5462820",
-      "title": "GitHub で 2026 年に最も star を集めた 30 リポジトリは、ほぼ全部「エージェントのハーネス」だった",
-      "url": "https://zenn.dev/tabayashi/articles/github-2026-stars-agent-harness",
-      "publishedAt": "2026-08-26T00:11:13.000Z",
-      "publisher": "Shinichiro Tabayashi",
-      "summary": "0. まとめ 2026 年に作られて 3,000 star を超えたリポジトリは 791 本（GitHub Search API、2026-08-23 時点）。その上位 30 本の README を全部読んだところ、言語処理系も Web …"
-    },
-    {
-      "id": "37e11b4ad222",
-      "title": "ChatGPTに話したことを、Claudeは知らない——だから記憶の正本をgitリポジトリ1つに移した",
-      "url": "https://zenn.dev/hilopon/articles/git-memory-source-of-truth",
-      "publishedAt": "2026-08-26T00:00:05.000Z",
-      "publisher": "みんなのおたすけ研究所",
-      "summary": "ChatGPTに話したことを、Claudeは知らない。Claudeと決めたことを、Codexは知らない。AIを2つ以上使っていると記憶はアプリごとに分断されて、同じ前提の説明を何度も繰り返すことになります。しかもその記憶はアプリの中に閉じ…"
-    },
-    {
-      "id": "6bd60904cdde",
-      "title": "自作のAIチェックツールに、自分自身を審査させたら穴が見つかった話",
-      "url": "https://zenn.dev/motimotinotch/articles/c42af2fa695cd8",
-      "publishedAt": "2026-08-25T23:16:48.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "見た目は自信満々なのに、掘ると根拠がない 複数のAIエージェント・Botを個人開発で長期運用していると、繰り返し出くわす「壊れ方」が2つある。 1つ目は、主張が具体と抽象のどちらかの極に貼り付いてしまうパターンだ。「〜という原則がある」と…"
-    },
-    {
-      "id": "7b0c7cadbd85",
-      "title": "Claude Codeを会社に配る前に、hooksで止めるべき操作を全部書く",
-      "url": "https://zenn.dev/runathicku/articles/dca8dfca353067",
-      "publishedAt": "2026-08-25T23:16:13.000Z",
-      "publisher": "runathicku",
-      "summary": "社内の情シスとして、Claude Codeを自分の開発業務（レガシーPHP・Oracle・Windowsサーバーの保守）で数ヶ月使い倒し、同僚にも配り始めました。その過程で「CLAUDE.mdに禁止事項を書くだけでは事故は防げない」という…"
     }
   ],
-  "fetchedAt": "2026-08-26T10:36:04.360Z",
+  "fetchedAt": "2026-08-26T11:06:27.750Z",
   "stale": false,
   "error": null
 }
