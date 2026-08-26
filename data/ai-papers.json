@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "70f56fe67f27",
-      "title": "The Mask Is Not the Model: Auditing Prefix Invariance in Attention, State-Space, and Hybrid Sequence Models",
-      "url": "https://huggingface.co/papers/2608.22876",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "We formalize prefix invariance: representations at position t must not depend on future inputs. We give a lightweight a…",
-      "score": 29
+      "id": "df2d11c99b92",
+      "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
+      "url": "https://huggingface.co/papers/2608.24053",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Universal multimodal embeddings are becoming a core component of modern AI systems, enabling heterogeneous content to b…",
+      "score": 23
     },
     {
       "id": "c2c4942d72f0",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.23041",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "LLM agents remain unreliable on long-horizon tasks, where small local failures can compound over extended interactions …",
-      "score": 14
+      "score": 23
     },
     {
       "id": "11c05713ce02",
@@ -30,52 +30,20 @@
       "score": 14
     },
     {
-      "id": "cb648c999da8",
-      "title": "LongRCA Bench: Diagnosing Responsible Roles and Root Causes in Long-Horizon Agent Failures",
-      "url": "https://huggingface.co/papers/2608.15242",
-      "publishedAt": "2026-08-15T00:00:00.000Z",
-      "summary": "When a long-horizon agent execution fails, outcome-level evaluation reveals the unsuccessful result but not where the d…",
-      "score": 13
-    },
-    {
       "id": "d0c3d896487e",
       "title": "On-Policy Self-Distillation in Diffusion Models",
       "url": "https://huggingface.co/papers/2608.24646",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "Reinforcement learning can align diffusion models with human preferences and task-specific objectives, but endpoint rew…",
-      "score": 4
+      "score": 8
     },
     {
-      "id": "d07eaae308c6",
-      "title": "What AstroPT knows about galaxies, and what that can teach us about LLMs",
-      "url": "https://huggingface.co/papers/2608.22614",
-      "publishedAt": "2026-08-23T00:00:00.000Z",
-      "summary": "Interpretability research increasingly asks when concepts emerge during training and whether linear probes recover real…",
-      "score": 4
-    },
-    {
-      "id": "48ac673a2377",
-      "title": "ClawProBench: Trace-Aware Evaluation of AI Agents with Runtime Coverage and Frozen Workplace-Style Holdouts",
-      "url": "https://huggingface.co/papers/2608.22510",
-      "publishedAt": "2026-08-23T00:00:00.000Z",
-      "summary": "Agent benchmarks often evaluate only final answers even when agents run on stateful runtimes. We argue this under-speci…",
-      "score": 4
-    },
-    {
-      "id": "7031f61da20d",
-      "title": "The Laws of Context Allocation: Causal Measurement and Closed-Loop Orchestration in Generative Search",
-      "url": "https://huggingface.co/papers/2608.23252",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "As Retrieval-Augmented Generation (RAG) shifts toward diverse portfolio generation, it is stymied by two critical bottl…",
-      "score": 4
-    },
-    {
-      "id": "11ef3c95ad90",
-      "title": "Best Practice Critic Optimization",
-      "url": "https://huggingface.co/papers/2608.23566",
+      "id": "e384fdd63384",
+      "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
+      "url": "https://huggingface.co/papers/2608.24877",
       "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling m…",
-      "score": 1
+      "summary": "Smart glasses are evolving from capture and display accessories into first-person intelligence platforms that connect h…",
+      "score": 2
     },
     {
       "id": "2435e4823b68",
@@ -83,6 +51,30 @@
       "url": "https://huggingface.co/papers/2608.24696",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) and on-policy distillation (OPD) have become two widely adopted p…",
+      "score": 2
+    },
+    {
+      "id": "db395d4f9751",
+      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+      "url": "https://huggingface.co/papers/2608.24845",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific v…",
+      "score": 1
+    },
+    {
+      "id": "56d77898d54b",
+      "title": "Length-Adaptive Decoding for Masked Diffusion Machine Translation",
+      "url": "https://huggingface.co/papers/2608.22274",
+      "publishedAt": "2026-08-23T00:00:00.000Z",
+      "summary": "Machine translation tests masked diffusion language models (dLLMs) because every source token must be rendered faithful…",
+      "score": 1
+    },
+    {
+      "id": "11ef3c95ad90",
+      "title": "Best Practice Critic Optimization",
+      "url": "https://huggingface.co/papers/2608.23566",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling m…",
       "score": 1
     },
     {
@@ -100,9 +92,17 @@
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "Outcome-supervised search agents learn when and how to retrieve evidence, but terminal rewards neither localize interme…",
       "score": 1
+    },
+    {
+      "id": "bc43af041065",
+      "title": "TorchMorph: CUDA-accelerated Morphological Transforms",
+      "url": "https://huggingface.co/papers/2608.24738",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Morphological transforms are long-standing tools for shape and mask processing, but the de facto reference implementati…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-26T02:39:08.634Z",
+  "fetchedAt": "2026-08-26T03:38:57.837Z",
   "stale": false,
   "error": null
 }
