@@ -6,6 +6,22 @@
   "category": "ai",
   "items": [
     {
+      "id": "06024d7775eb",
+      "title": "ResNet以降のCNNを実装で辿る——軽量化・注意機構・自動探索の設計思想",
+      "url": "https://zenn.dev/taichiendoh/articles/cnn-evolution-after-resnet-design",
+      "publishedAt": "2026-08-25T22:12:17.000Z",
+      "publisher": "遠藤太一",
+      "summary": "初出: note（ResNet以降のCNNを利用してみる）。Zenn向けに実装コードと数値的な比較を補って再構成しました。 Vision Transformer（ViT）以降、画像認識の話題は Transformer 系に偏りがちですが、…"
+    },
+    {
+      "id": "180851e07fd6",
+      "title": "AIエージェントがDiscordに誤送信した日 — 「読むだけのつもりの実行」が外部送信になる",
+      "url": "https://zenn.dev/sutokei/articles/ea0baaa82dbfef",
+      "publishedAt": "2026-08-25T22:00:05.000Z",
+      "publisher": "すぅ",
+      "summary": "「借りどき」( https://karidoki.jp )という小さなメディアを運営しています。全国8都市の公共図書館の貸出状況を毎朝観測してランキング記事を出すサイトで、データ取得・分析・執筆・検品・配信までを AI エージェント(Cl…"
+    },
+    {
       "id": "eb2952b04355",
       "title": "問い合わせ対応をAI化する前に、営業時間外を別の状態として設計する",
       "url": "https://zenn.dev/miraigent/articles/ai-inquiry-after-hours-queue-design",
@@ -84,25 +100,9 @@
       "publishedAt": "2026-08-25T15:05:23.000Z",
       "publisher": "AIニュース",
       "summary": "Claude Code の v2.1.234(2026年8月17日リリース)で、使用量の上限がリセットされたときにセッションの続きを自動で再開する設定が加わりました。既定はオンなので、自分で何も変更していなくても、更新した時点で挙動はもう…"
-    },
-    {
-      "id": "c2397bf0c485",
-      "title": "なぜAIの生成文は頭に入ってこないのか — 「体言化」と「名詞ラベル」が読解コストを跳ね上げる理由と改善アプローチ",
-      "url": "https://zenn.dev/okamo02427/articles/d5a162d4606a01",
-      "publishedAt": "2026-08-25T14:45:25.000Z",
-      "publisher": "noriyuki okamoto",
-      "summary": "↑サマリー画像を冒頭に置くという新たな試み 生成AIで作成されたであろう初見の業務資料を読むとき、一見すると綺麗にまとまっているのに、読んでも内容がまったく頭に入ってこない、といった経験はないか。 箇条書きで整理され、太字のラベルが並び、…"
-    },
-    {
-      "id": "5bf59afe365f",
-      "title": "Claude Codeの規律をhookに降ろしたら、Haikuでも壊れなくなった",
-      "url": "https://zenn.dev/yui/articles/97597aa13b9802",
-      "publishedAt": "2026-08-25T14:43:40.000Z",
-      "publisher": "yui",
-      "summary": "前にFable 5の「働き方」をドキュメント化してOpus/Sonnetに引き継がせる話を書きました。 https://zenn.dev/yui/articles/e4f8268ab5c6c1 Fable 5とOpus/Sonnetの品質…"
     }
   ],
-  "fetchedAt": "2026-08-25T23:48:16.395Z",
+  "fetchedAt": "2026-08-26T01:04:34.780Z",
   "stale": false,
   "error": null
 }
