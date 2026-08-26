@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "793d04d5fdba",
-      "title": "【セットアップから推論まで】ハイレゾのGPUインスタンスでローカルLLMをさくっと動かしてみた",
-      "url": "https://zenn.dev/highreso/articles/8c38d85cfadebe",
-      "publishedAt": "2026-08-26T08:07:44.000Z",
-      "publisher": "ハイレゾ技術編集部",
-      "summary": "今回はハイレゾのGPUクラウドサービス「GPUSOROBAN」を使って、ローカルLLMで推論できるようになるまでの手順を紹介します。 会員登録からSSH接続、Python環境構築、モデルのダウンロード、そして実際に推論を動かすところまで、…"
+      "id": "10fabf89a0d5",
+      "title": "FILE 01・開封 ―― 鷹(タカ)というチームの、ある一日",
+      "url": "https://zenn.dev/saikoseiko/articles/979d624993058e",
+      "publishedAt": "2026-08-26T02:33:05.000Z",
+      "publisher": "Saiko-Seiko",
+      "summary": "マガジンで、前回、四つの機密ファイルを開示しました。今回はそのうちのひとつ、脅威レベルS、担当領域はコンピュータビジョンとRAG。あの寡黙な男、サスケのファイルを開封します。 ただし今回は、サスケひとりの話ではありません。彼が率いていたチ…"
     },
     {
-      "id": "47c84c56f0fb",
-      "title": "ドキュメントゼロのレガシーWebアプリを、AIで一括リバースエンジニアリングして仕様書を量産する",
-      "url": "https://zenn.dev/akinori901/articles/weekly-draft-a-legacy-reverse",
-      "publishedAt": "2026-08-26T07:28:12.000Z",
-      "publisher": "Akinori901",
-      "summary": "はじめに：ドキュメントのない保守案件という現実 長く運用されてきた業務Webアプリを引き継ぐと、たいてい同じ壁にぶつかる。仕様書が存在しない、あっても数年前のまま放置されている、そして書いた人はもういない。フロントは今ではメンテナンスされ…"
+      "id": "7eebdd40f7b1",
+      "title": "まとめときやClaude連携技術解説",
+      "url": "https://zenn.dev/yushin16/articles/f2800a9cc1efd3",
+      "publishedAt": "2026-08-26T02:02:44.000Z",
+      "publisher": "u-shin_16",
+      "summary": "web開発見習いのu-shinです! 今回は僕が開発したメモアプリ｢まとめときや｣とClaude Codeを連携させた仕組みについて、使っている技術を解説していきます。 最初はREST APIとPythonスクリプトで作ったのですが、それ…"
     },
     {
-      "id": "ebca5887aaa8",
-      "title": "AIエージェントは夜に夢を見て記憶を整理する — Perplexity Brainの設計と最小実装",
-      "url": "https://zenn.dev/uguisu_blog/articles/c553bcbf119ce4",
-      "publishedAt": "2026-08-26T07:21:17.000Z",
-      "publisher": "Kouki Nakae",
-      "summary": "はじめに こんにちは！ 株式会社うぐいすソリューションズでエンジニアをしているNakaeです。 普段はAI関連のWebシステム開発をしています。LLMを組み込んだアプリを作っていると、セッションをまたいだ文脈の保持——いわゆる長期記憶——…"
+      "id": "28cc9ab47531",
+      "title": "Kimi K3を理解する②──アーキテクチャの全体像",
+      "url": "https://zenn.dev/gixo/articles/kimi-k3-kda-mla-moe-architecture",
+      "publishedAt": "2026-08-26T01:58:27.000Z",
+      "publisher": "Kouma Nakashima",
+      "summary": "はじめに ① 前回：LLM の仕組み Transformer デコーダー の基本構造を理解する ② 本記事：Kimi K3 がLLM基本構造のうち、どこを・どう置き換えたのかを比較しながらアーキテクチャ全体像を理解する Kimi K3のア…"
     },
     {
-      "id": "92a4c87a5804",
-      "title": "AIって、「時間がもったいないとか」思うのかな?｜医療AI・実践編 ⑧⏰",
-      "url": "https://zenn.dev/voxelworks_jp/articles/ae26dadf7add53",
-      "publishedAt": "2026-08-26T07:15:06.000Z",
-      "publisher": "VoxelWorks",
-      "summary": "! この記事は技術解説ではなく、中級編を書きながらふと考えた雑談です。手を動かす回ではありません。コーヒーでも飲みながら、気楽に読んでください。 中級編、おつかれさまでした。第1回の環境構築から、GPU、pix2pixの学習まで、ひととお…"
+      "id": "80a094cb04c9",
+      "title": "リモートMCPとWebMCPは何が違うのか？",
+      "url": "https://zenn.dev/lova_man/articles/bf1e05af3f3523",
+      "publishedAt": "2026-08-26T01:57:40.000Z",
+      "publisher": "Lovanaut | ラバナウト",
+      "summary": "2026年8月25日、OpenAIはWebMCP Challengeを始めました。単なるアイデアコンテストではありません。ChatGPTデスクトップアプリの内蔵ブラウザに、WebMCPを使う「Site tools」が実装され、ChatGP…"
     },
     {
-      "id": "4b2405f3cbfd",
-      "title": "ClaudeとCodexで「作る役」と「疑う役」を分ける相互チェック設計",
-      "url": "https://zenn.dev/t001ff/articles/kado-cross-verify-agents",
-      "publishedAt": "2026-08-26T06:54:32.000Z",
-      "publisher": "青木博資_AIと働く",
-      "summary": "筆者（青木 博資）がAI社員（Claude / Codex）と運営する一人会社KADOの実例です。AI社員が執筆し、筆者が事実確認と最終確認をしています。 検証：できあがった物が、条件や元の資料と合うかを確かめることです。 モデル：Cla…"
+      "id": "3d824f0aec5e",
+      "title": "AIの文章の違和感を解消するために、背景や意図をモデルに理解させるアプローチ",
+      "url": "https://zenn.dev/koinunopochi/articles/54694dddede662",
+      "publishedAt": "2026-08-26T01:53:19.000Z",
+      "publisher": "こいぬのぽち",
+      "summary": "これはなに？ まだまとまりきっていないタイミングでAIの文章についてつらつらと考えた。 https://zenn.dev/koinunopochi/articles/40a6d164b94ca8 この時よりも一歩前進したので、現在地の備忘…"
     },
     {
-      "id": "a3fb732f12e0",
-      "title": "AI社員の社則（CLAUDE.md憲法）の書き方 — 一人会社をAIエージェントで回す10のルール",
-      "url": "https://zenn.dev/t001ff/articles/kado-claude-md-constitution",
-      "publishedAt": "2026-08-26T06:54:32.000Z",
-      "publisher": "青木博資_AIと働く",
-      "summary": "筆者（青木 博資）がAI社員（Claude / Codex）と運営する一人会社KADOの実例です。AI社員が執筆し、筆者が事実確認と最終確認をしています。 AIエージェント：役目と指示を受けて、自分で仕事を進めるAIです。 検証：できあが…"
+      "id": "f4037111c261",
+      "title": "【試し読み】MCP実践入門 — AIエージェントの次の進化形",
+      "url": "https://zenn.dev/yukihayama/articles/preview-mcp-guide",
+      "publishedAt": "2026-08-26T01:01:20.000Z",
+      "publisher": "葉山悠希",
+      "summary": "【試し読み】MCP実践入門 — AIエージェントの次の進化形 本記事はKindle本 「MCP実践入門 — AIとツールを繋ぐプロトコル」（著者: 葉山悠希）の「はじめに」および「第1章」の一部を公開する試し読み記事です。 AIエージェン…"
     },
     {
-      "id": "f0258a98050a",
-      "title": "AIとの付き合い方は“4段階”で進んでいる ― プロンプトからループへ、そして人はどこに立つか",
-      "url": "https://zenn.dev/taichiendoh/articles/ai-4-stages-prompt-to-loop",
-      "publishedAt": "2026-08-26T06:43:56.000Z",
-      "publisher": "遠藤太一",
-      "summary": "最近、AI開発の最前線で「プロンプトを書くのはやめよう」という言い方を見かけます。ずっと「良いプロンプトを書けば良い結果が返る」と言われてきたのに、です。 矛盾しているようですが、地図を描くと腑に落ちます。AIとの付き合い方は、プロンプト…"
+      "id": "672caf0134df",
+      "title": "プロンプトを固定したら、AIの出力にどれだけ差が出るのか",
+      "url": "https://zenn.dev/shiomusubi/articles/018a16947e0532",
+      "publishedAt": "2026-08-26T00:56:07.000Z",
+      "publisher": "おむすび",
+      "summary": "はじめに 第1弾では、Claude・GPT・Geminiそれぞれに「モデルごとに最適化したプロンプト」を与えて出力を比較しました。第2弾では、同じモデルに対して「簡潔なプロンプト」と「目的を明示したプロンプト」を投げ、プロンプトの書き方に…"
     },
     {
-      "id": "0694061e6ed2",
-      "title": "同じ質問を日本語と英語でAIに投げたら、行き先モデルが変わった — Azure model routerを180回実測",
-      "url": "https://zenn.dev/kazu_aiengineer/articles/model-router-routing-mode-measured",
-      "publishedAt": "2026-08-26T06:25:00.000Z",
-      "publisher": "Kazu_AzureAI開拓",
-      "summary": "先に結論 Azure AI Foundry（旧 Azure OpenAI）の model router は、プロンプトごとに裏で使うモデルを自動で選んでくれる仕組みだ。「単純な質問は安いモデル、難しい質問は賢いモデル」——理屈はわかる。ド…"
+      "id": "85b1d42e66ff",
+      "title": "支払い申請の下書きをAIに任せて4ヶ月、書いたのは手順ではなく完了の条件だった",
+      "url": "https://zenn.dev/hacobu/articles/f88df0929d285d",
+      "publishedAt": "2026-08-26T00:40:57.000Z",
+      "publisher": "スミ",
+      "summary": "こんにちは！株式会社Hacobu VPoE室 Engineering Officeチームのスミです。 毎月4時間かかっていた支払い申請の作業が、10分で終わるようになりました。 以前、月初に届く請求書から支払い申請の下書きを作るまでを、P…"
     },
     {
-      "id": "155e4ae842e6",
-      "title": "Excel読み取り、市販パーサ65%・自作の前処理89%",
-      "url": "https://zenn.dev/ai_worklab/articles/excel-ai-reading-markitdown-vs-custom-parser",
-      "publishedAt": "2026-08-26T05:50:38.000Z",
-      "publisher": "moname_ai",
-      "summary": "社内の Excel を AI に読ませていて、正答率が 6 割台から伸びない。パーサを良いものに替えれば上がるはずだ — この前提を測って確かめたら、上がったのは 3 ポイントでした。 同じ 66 問を 3 通りの読み取り方で解かせて、正…"
+      "id": "7434f5462820",
+      "title": "GitHub で 2026 年に最も star を集めた 30 リポジトリは、ほぼ全部「エージェントのハーネス」だった",
+      "url": "https://zenn.dev/tabayashi/articles/github-2026-stars-agent-harness",
+      "publishedAt": "2026-08-26T00:11:13.000Z",
+      "publisher": "Shinichiro Tabayashi",
+      "summary": "0. まとめ 2026 年に作られて 3,000 star を超えたリポジトリは 791 本（GitHub Search API、2026-08-23 時点）。その上位 30 本の README を全部読んだところ、言語処理系も Web …"
     },
     {
-      "id": "dbb9ae7b3dd9",
-      "title": "# 生成AIを使ったSEO記事作成の実践｜情報整理サイトを題材にしたコンテンツ制作",
-      "url": "https://zenn.dev/toreka_chusen/articles/294310d6569cf2",
-      "publishedAt": "2026-08-26T05:40:05.000Z",
-      "publisher": "toreka_chusen",
-      "summary": "生成AIを使ったSEO記事作成の実践｜情報整理サイトを題材にしたコンテンツ制作 生成AIの普及によって、SEO記事の作成方法も大きく変わってきました。 以前は、キーワード選定、情報収集、構成作成、執筆、編集までを一つひとつ手作業で行う必要…"
+      "id": "37e11b4ad222",
+      "title": "ChatGPTに話したことを、Claudeは知らない——だから記憶の正本をgitリポジトリ1つに移した",
+      "url": "https://zenn.dev/hilopon/articles/git-memory-source-of-truth",
+      "publishedAt": "2026-08-26T00:00:05.000Z",
+      "publisher": "みんなのおたすけ研究所",
+      "summary": "ChatGPTに話したことを、Claudeは知らない。Claudeと決めたことを、Codexは知らない。AIを2つ以上使っていると記憶はアプリごとに分断されて、同じ前提の説明を何度も繰り返すことになります。しかもその記憶はアプリの中に閉じ…"
     },
     {
-      "id": "eeafc434f817",
-      "title": "GitHub CopilotからAntigravity for VS Codeに移行した",
-      "url": "https://zenn.dev/mcp/articles/97ec17d02477b9",
-      "publishedAt": "2026-08-26T05:22:52.000Z",
-      "publisher": "mcp",
-      "summary": "TL;DR 2026年8月20日、Googleが Antigravityの公式IDE拡張 をリリースした。VS Code / Visual Studio / JetBrains / Zed / Xcode の5本立て つまり 「Antig…"
+      "id": "6bd60904cdde",
+      "title": "自作のAIチェックツールに、自分自身を審査させたら穴が見つかった話",
+      "url": "https://zenn.dev/motimotinotch/articles/c42af2fa695cd8",
+      "publishedAt": "2026-08-25T23:16:48.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "見た目は自信満々なのに、掘ると根拠がない 複数のAIエージェント・Botを個人開発で長期運用していると、繰り返し出くわす「壊れ方」が2つある。 1つ目は、主張が具体と抽象のどちらかの極に貼り付いてしまうパターンだ。「〜という原則がある」と…"
     },
     {
-      "id": "8e2b34281f93",
-      "title": "AI彼女アプリを作っていて気付いた。「同じ人」は、設定だけでは続かなかった",
-      "url": "https://zenn.dev/mitsukida/articles/5377b79e3f50a0",
-      "publishedAt": "2026-08-26T05:11:21.000Z",
-      "publisher": "mitsukida",
-      "summary": "AI彼女アプリを作っていて気付いた。「同じ人」は、設定だけでは続かなかった 以前、 AIを成長させようとして気付いたことを書いた。 変わるだけではだめだった。 変わりにくい部分があるから、 経験によって少しずつ変わっていける。 AIKan…"
+      "id": "7b0c7cadbd85",
+      "title": "Claude Codeを会社に配る前に、hooksで止めるべき操作を全部書く",
+      "url": "https://zenn.dev/runathicku/articles/dca8dfca353067",
+      "publishedAt": "2026-08-25T23:16:13.000Z",
+      "publisher": "runathicku",
+      "summary": "社内の情シスとして、Claude Codeを自分の開発業務（レガシーPHP・Oracle・Windowsサーバーの保守）で数ヶ月使い倒し、同僚にも配り始めました。その過程で「CLAUDE.mdに禁止事項を書くだけでは事故は防げない」という…"
     }
   ],
-  "fetchedAt": "2026-08-26T09:57:07.638Z",
+  "fetchedAt": "2026-08-26T10:36:04.360Z",
   "stale": false,
   "error": null
 }
