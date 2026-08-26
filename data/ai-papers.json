@@ -11,31 +11,55 @@
       "url": "https://huggingface.co/papers/2608.22876",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "We formalize prefix invariance: representations at position t must not depend on future inputs. We give a lightweight a…",
-      "score": 28
+      "score": 29
     },
     {
-      "id": "72cc4d90f927",
-      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
-      "url": "https://huggingface.co/papers/2608.20953",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "Serving large language models cheaply increasingly means shipping models that are both structurally compressed to a fra…",
-      "score": 9
-    },
-    {
-      "id": "b031aad84c38",
-      "title": "AutoResearch: Insight In, Hallucination Out",
-      "url": "https://huggingface.co/papers/2608.17906",
-      "publishedAt": "2026-08-23T00:00:00.000Z",
-      "summary": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does no…",
-      "score": 8
-    },
-    {
-      "id": "a9335d8c5be4",
-      "title": "LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks",
-      "url": "https://huggingface.co/papers/2608.23200",
+      "id": "c2c4942d72f0",
+      "title": "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces",
+      "url": "https://huggingface.co/papers/2608.23041",
       "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "Large language models are increasingly expected to execute complex workflows whose success depends on maintaining inter…",
-      "score": 6
+      "summary": "LLM agents remain unreliable on long-horizon tasks, where small local failures can compound over extended interactions …",
+      "score": 14
+    },
+    {
+      "id": "11c05713ce02",
+      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "url": "https://huggingface.co/papers/2608.24876",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and…",
+      "score": 14
+    },
+    {
+      "id": "cb648c999da8",
+      "title": "LongRCA Bench: Diagnosing Responsible Roles and Root Causes in Long-Horizon Agent Failures",
+      "url": "https://huggingface.co/papers/2608.15242",
+      "publishedAt": "2026-08-15T00:00:00.000Z",
+      "summary": "When a long-horizon agent execution fails, outcome-level evaluation reveals the unsuccessful result but not where the d…",
+      "score": 13
+    },
+    {
+      "id": "d0c3d896487e",
+      "title": "On-Policy Self-Distillation in Diffusion Models",
+      "url": "https://huggingface.co/papers/2608.24646",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Reinforcement learning can align diffusion models with human preferences and task-specific objectives, but endpoint rew…",
+      "score": 4
+    },
+    {
+      "id": "d07eaae308c6",
+      "title": "What AstroPT knows about galaxies, and what that can teach us about LLMs",
+      "url": "https://huggingface.co/papers/2608.22614",
+      "publishedAt": "2026-08-23T00:00:00.000Z",
+      "summary": "Interpretability research increasingly asks when concepts emerge during training and whether linear probes recover real…",
+      "score": 4
+    },
+    {
+      "id": "48ac673a2377",
+      "title": "ClawProBench: Trace-Aware Evaluation of AI Agents with Runtime Coverage and Frozen Workplace-Style Holdouts",
+      "url": "https://huggingface.co/papers/2608.22510",
+      "publishedAt": "2026-08-23T00:00:00.000Z",
+      "summary": "Agent benchmarks often evaluate only final answers even when agents run on stateful runtimes. We argue this under-speci…",
+      "score": 4
     },
     {
       "id": "7031f61da20d",
@@ -46,63 +70,39 @@
       "score": 4
     },
     {
-      "id": "d07eaae308c6",
-      "title": "What AstroPT knows about galaxies, and what that can teach us about LLMs",
-      "url": "https://huggingface.co/papers/2608.22614",
-      "publishedAt": "2026-08-23T00:00:00.000Z",
-      "summary": "Interpretability research increasingly asks when concepts emerge during training and whether linear probes recover real…",
-      "score": 3
-    },
-    {
-      "id": "48ac673a2377",
-      "title": "ClawProBench: Trace-Aware Evaluation of AI Agents with Runtime Coverage and Frozen Workplace-Style Holdouts",
-      "url": "https://huggingface.co/papers/2608.22510",
-      "publishedAt": "2026-08-23T00:00:00.000Z",
-      "summary": "Agent benchmarks often evaluate only final answers even when agents run on stateful runtimes. We argue this under-speci…",
-      "score": 3
-    },
-    {
-      "id": "d1904ca9f3f3",
-      "title": "Hybrid Quantum-inspired Kolmogorov-Arnold Networks for Privacy-Aware Federated Biosignal Learning",
-      "url": "https://huggingface.co/papers/2608.13914",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "Electrocardiogram (ECG) recordings are sensitive biomedical data, limiting the ability of hospitals and wearable device…",
-      "score": 3
-    },
-    {
-      "id": "4e5f90b36f57",
-      "title": "Tomatoes, Potatoes, and Onions: Questioning the Need for Faces in Face Presentation Attack Detection",
-      "url": "https://huggingface.co/papers/2608.21455",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Face presentation attack detection (PAD) is traditionally formulated as a face-specific problem, although many of the v…",
-      "score": 2
-    },
-    {
-      "id": "9cf23b7125ab",
-      "title": "EXPL-FR: Explaining Face Recognition Models via Vision-Language Alignment",
-      "url": "https://huggingface.co/papers/2608.21486",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "Deep face recognition (FR) models reach near-saturated accuracy but remain opaque: a practitioner cannot ask which sema…",
+      "id": "11ef3c95ad90",
+      "title": "Best Practice Critic Optimization",
+      "url": "https://huggingface.co/papers/2608.23566",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling m…",
       "score": 1
     },
     {
-      "id": "1e14059f2d60",
-      "title": "WorldToken: Time-First Sequence Modeling for Robotic Imitation Learning",
-      "url": "https://huggingface.co/papers/2608.22591",
-      "publishedAt": "2026-08-23T00:00:00.000Z",
-      "summary": "Robot policies receive heterogeneous observations at each decision step, yet sequence models differ in how they organiz…",
+      "id": "2435e4823b68",
+      "title": "On-policy Distillation with Verifiable Reward",
+      "url": "https://huggingface.co/papers/2608.24696",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) and on-policy distillation (OPD) have become two widely adopted p…",
       "score": 1
     },
     {
-      "id": "cb648c999da8",
-      "title": "LongRCA Bench: Diagnosing Responsible Roles and Root Causes in Long-Horizon Agent Failures",
-      "url": "https://huggingface.co/papers/2608.15242",
-      "publishedAt": "2026-08-15T00:00:00.000Z",
-      "summary": "When a long-horizon agent execution fails, outcome-level evaluation reveals the unsuccessful result but not where the d…",
-      "score": 0
+      "id": "e17275ad8f35",
+      "title": "Meta^n: Recursive Self-Improvement through Emergent Depth",
+      "url": "https://huggingface.co/papers/2608.24735",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Self-improving LLM agents refine answers, not the process that produces those answers. Systems that add a meta-level ho…",
+      "score": 1
+    },
+    {
+      "id": "31fd0c45075f",
+      "title": "CAFE: Self-Improving Search Agents Need Co-Evolving Feedback",
+      "url": "https://huggingface.co/papers/2608.24794",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Outcome-supervised search agents learn when and how to retrieve evidence, but terminal rewards neither localize interme…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-26T01:04:34.522Z",
+  "fetchedAt": "2026-08-26T02:39:08.634Z",
   "stale": false,
   "error": null
 }
