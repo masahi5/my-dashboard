@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "793d04d5fdba",
-      "title": "【セットアップから推論まで】ハイレゾのGPUインスタンスでローカルLLMをさくっと動かしてみた",
-      "url": "https://zenn.dev/highreso/articles/8c38d85cfadebe",
-      "publishedAt": "2026-08-26T08:07:44.000Z",
-      "publisher": "ハイレゾ技術編集部",
-      "summary": "今回はハイレゾのGPUクラウドサービス「GPUSOROBAN」を使って、ローカルLLMで推論できるようになるまでの手順を紹介します。 会員登録からSSH接続、Python環境構築、モデルのダウンロード、そして実際に推論を動かすところまで、…"
+      "id": "0f62c2f584c2",
+      "title": "並行開発に Orca がめちゃ便利",
+      "url": "https://zenn.dev/rhosokawa/articles/d0a958c17c2820",
+      "publishedAt": "2026-08-26T15:39:54.000Z",
+      "publisher": "HosokowaR",
+      "summary": "Orca という並行開発前提のエディタ（正確には Agent IDE と言うらしい）があります。 https://www.onorca.dev/ 元々1年ほど前は VSCode や Cursor を使ってその中でたくさんターミナルを生やし…"
     },
     {
-      "id": "47c84c56f0fb",
-      "title": "ドキュメントゼロのレガシーWebアプリを、AIで一括リバースエンジニアリングして仕様書を量産する",
-      "url": "https://zenn.dev/akinori901/articles/weekly-draft-a-legacy-reverse",
-      "publishedAt": "2026-08-26T07:28:12.000Z",
-      "publisher": "Akinori901",
-      "summary": "はじめに：ドキュメントのない保守案件という現実 長く運用されてきた業務Webアプリを引き継ぐと、たいてい同じ壁にぶつかる。仕様書が存在しない、あっても数年前のまま放置されている、そして書いた人はもういない。フロントは今ではメンテナンスされ…"
+      "id": "51a309c5d742",
+      "title": "Claude Code のサブエージェントとセッション間通信は何が違うのか — 部下と同僚のたとえで整理する",
+      "url": "https://zenn.dev/yusaka_lu/articles/claude-code-subagents-vs-cross-session",
+      "publishedAt": "2026-08-26T15:27:02.000Z",
+      "publisher": "ゆーさか",
+      "summary": "Claude Code には「複数の Claude を動かす」仕組みが2つあります。サブエージェントと、v2.1.224 で入ったセッション間通信です。 この2つは紛らわしい。どちらも SendMessage という同じツールを使うので、…"
     },
     {
-      "id": "ebca5887aaa8",
-      "title": "AIエージェントは夜に夢を見て記憶を整理する — Perplexity Brainの設計と最小実装",
-      "url": "https://zenn.dev/uguisu_blog/articles/c553bcbf119ce4",
-      "publishedAt": "2026-08-26T07:21:17.000Z",
-      "publisher": "Kouki Nakae",
-      "summary": "はじめに こんにちは！ 株式会社うぐいすソリューションズでエンジニアをしているNakaeです。 普段はAI関連のWebシステム開発をしています。LLMを組み込んだアプリを作っていると、セッションをまたいだ文脈の保持——いわゆる長期記憶——…"
+      "id": "08db83e27bc6",
+      "title": "AI の指示ファイルは AGENTS.md に統一される？ 各ツールで進む共通化を整理する",
+      "url": "https://zenn.dev/pug/articles/agents-md-nextjs",
+      "publishedAt": "2026-08-26T14:42:19.000Z",
+      "publisher": "pug",
+      "summary": "はじめに この記事は、自分が知りたいと思った技術情報をもう少し深掘って、あとから読み返せる形に整理したものです。 最近、AI コーディングエージェント向けの指示ファイルとして AGENTS.md を見る機会が増えました。 もともと AI …"
     },
     {
-      "id": "92a4c87a5804",
-      "title": "AIって、「時間がもったいないとか」思うのかな?｜医療AI・実践編 ⑧⏰",
-      "url": "https://zenn.dev/voxelworks_jp/articles/ae26dadf7add53",
-      "publishedAt": "2026-08-26T07:15:06.000Z",
-      "publisher": "VoxelWorks",
-      "summary": "! この記事は技術解説ではなく、中級編を書きながらふと考えた雑談です。手を動かす回ではありません。コーヒーでも飲みながら、気楽に読んでください。 中級編、おつかれさまでした。第1回の環境構築から、GPU、pix2pixの学習まで、ひととお…"
+      "id": "3540ffda9672",
+      "title": "スマホ×AI開発で、2日でGitHub Actions 2,000分を使い切った話",
+      "url": "https://zenn.dev/tk_1/articles/d6e0507cef4ef5",
+      "publishedAt": "2026-08-26T14:23:40.000Z",
+      "publisher": "tk_1",
+      "summary": "1. まず、今回どんな開発をしていたのか 個人開発で使っていたNext.js製のWebアプリを、フロントとバックエンドを分けた構成に作り直していた。既存機能を移植しつつ、新しい機能も追加していく方針だった。 開発方法も大きく変えた。 主に…"
     },
     {
-      "id": "4b2405f3cbfd",
-      "title": "ClaudeとCodexで「作る役」と「疑う役」を分ける相互チェック設計",
-      "url": "https://zenn.dev/t001ff/articles/kado-cross-verify-agents",
-      "publishedAt": "2026-08-26T06:54:32.000Z",
-      "publisher": "青木博資_AIと働く",
-      "summary": "筆者（青木 博資）がAI社員（Claude / Codex）と運営する一人会社KADOの実例です。AI社員が執筆し、筆者が事実確認と最終確認をしています。 検証：できあがった物が、条件や元の資料と合うかを確かめることです。 モデル：Cla…"
+      "id": "fd84b8891029",
+      "title": "英語もコードもできないおっさん、iPhoneのマイクが無言で死ぬ地獄をAIと抜けた件",
+      "url": "https://zenn.dev/ossandemoya/articles/eigo-coach-02-ios-audio",
+      "publishedAt": "2026-08-26T14:21:52.000Z",
+      "publisher": "おっさんデモ屋",
+      "summary": "連載「AIに英語コーチを作らせてみた」第2回。前回 → https://zenn.dev/ossandemoya/articles/eigo-coach-01-multi-agent 英語は話せない、コードも書いたことがない\"おっさんデモ…"
     },
     {
-      "id": "a3fb732f12e0",
-      "title": "AI社員の社則（CLAUDE.md憲法）の書き方 — 一人会社をAIエージェントで回す10のルール",
-      "url": "https://zenn.dev/t001ff/articles/kado-claude-md-constitution",
-      "publishedAt": "2026-08-26T06:54:32.000Z",
-      "publisher": "青木博資_AIと働く",
-      "summary": "筆者（青木 博資）がAI社員（Claude / Codex）と運営する一人会社KADOの実例です。AI社員が執筆し、筆者が事実確認と最終確認をしています。 AIエージェント：役目と指示を受けて、自分で仕事を進めるAIです。 検証：できあが…"
+      "id": "4eec84722319",
+      "title": "ざっくりわかる AI Agent（4）：評価——体重計がなければ、ダイエットもできない",
+      "url": "https://zenn.dev/dupi/articles/ai-agent-plain-04-evaluation",
+      "publishedAt": "2026-08-26T14:18:03.000Z",
+      "publisher": "るぴ",
+      "summary": "ひとことまとめ：プロンプトを変えた、ツールを替えた、モデルを上げた。それは本当に良くなったのか、それとも今回は運が良かっただけか？ 感覚は当てになりません。「評価」が要ります。評価は、Agent の設計を「感覚」から「データ」へと変える土…"
     },
     {
-      "id": "f0258a98050a",
-      "title": "AIとの付き合い方は“4段階”で進んでいる ― プロンプトからループへ、そして人はどこに立つか",
-      "url": "https://zenn.dev/taichiendoh/articles/ai-4-stages-prompt-to-loop",
-      "publishedAt": "2026-08-26T06:43:56.000Z",
-      "publisher": "遠藤太一",
-      "summary": "最近、AI開発の最前線で「プロンプトを書くのはやめよう」という言い方を見かけます。ずっと「良いプロンプトを書けば良い結果が返る」と言われてきたのに、です。 矛盾しているようですが、地図を描くと腑に落ちます。AIとの付き合い方は、プロンプト…"
+      "id": "b0a2d28021e8",
+      "title": "MCP導入前の安全性チェックリスト10項目—ツール実行経路を潰す",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-06-tech-daily",
+      "publishedAt": "2026-08-26T14:15:04.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "この記事で分かること 2026年夏の技術トレンドが「LLM単体」から「AIエージェント実装」に移った理由 MCP・ツール実行・Web実装で、いま優先して確認すべき安全性の論点 React/Pythonの開発基盤を、今どの順番で見直すべきか…"
     },
     {
-      "id": "0694061e6ed2",
-      "title": "同じ質問を日本語と英語でAIに投げたら、行き先モデルが変わった — Azure model routerを180回実測",
-      "url": "https://zenn.dev/kazu_aiengineer/articles/model-router-routing-mode-measured",
-      "publishedAt": "2026-08-26T06:25:00.000Z",
-      "publisher": "Kazu_AzureAI開拓",
-      "summary": "先に結論 Azure AI Foundry（旧 Azure OpenAI）の model router は、プロンプトごとに裏で使うモデルを自動で選んでくれる仕組みだ。「単純な質問は安いモデル、難しい質問は賢いモデル」——理屈はわかる。ド…"
+      "id": "b2a2cdebe70a",
+      "title": "AIに残高を1件ずつ聞いていたら、AIが「私の返事」を代筆して数字をでっち上げた",
+      "url": "https://zenn.dev/kentaro_tak/articles/claude-code-fabricated-user-turn",
+      "publishedAt": "2026-08-26T14:08:27.000Z",
+      "publisher": "kentaro",
+      "summary": "月に一度、口座の残高を12件ぶん、AIに1件ずつ聞かれながら記録している。家計と資産の棚卸しを Claude Code のスキルにしてあって、こういう対話が12回続く。 Claude: 3/12 ○○銀行を開きました。残高をどうぞ。 私:…"
     },
     {
-      "id": "155e4ae842e6",
-      "title": "Excel読み取り、市販パーサ65%・自作の前処理89%",
-      "url": "https://zenn.dev/ai_worklab/articles/excel-ai-reading-markitdown-vs-custom-parser",
-      "publishedAt": "2026-08-26T05:50:38.000Z",
-      "publisher": "moname_ai",
-      "summary": "社内の Excel を AI に読ませていて、正答率が 6 割台から伸びない。パーサを良いものに替えれば上がるはずだ — この前提を測って確かめたら、上がったのは 3 ポイントでした。 同じ 66 問を 3 通りの読み取り方で解かせて、正…"
+      "id": "da3753f8155f",
+      "title": "AIは指示に従わなかった。でも攻撃者の文章は llms.txt に残った",
+      "url": "https://zenn.dev/orectic/articles/prompt-injection-tool-output-llms-txt",
+      "publishedAt": "2026-08-26T13:36:23.000Z",
+      "publisher": "今井政和",
+      "summary": "自作のSEO診断ツールに、こんな機能があります。URLを渡すとページを解析して、title や meta description が短すぎる、canonical が無い、といった不備を見つけ、そのまま貼り付けられる修正コードを生成して返す…"
     },
     {
-      "id": "dbb9ae7b3dd9",
-      "title": "# 生成AIを使ったSEO記事作成の実践｜情報整理サイトを題材にしたコンテンツ制作",
-      "url": "https://zenn.dev/toreka_chusen/articles/294310d6569cf2",
-      "publishedAt": "2026-08-26T05:40:05.000Z",
-      "publisher": "toreka_chusen",
-      "summary": "生成AIを使ったSEO記事作成の実践｜情報整理サイトを題材にしたコンテンツ制作 生成AIの普及によって、SEO記事の作成方法も大きく変わってきました。 以前は、キーワード選定、情報収集、構成作成、執筆、編集までを一つひとつ手作業で行う必要…"
+      "id": "289aa3299cd8",
+      "title": "mono-tec 技術記事INDEX",
+      "url": "https://zenn.dev/mono_tec/books/mono-tec-tech-index",
+      "publishedAt": "2026-08-26T13:33:40.000Z",
+      "publisher": "mono-tec",
+      "summary": "FA・PLC・Linux・エッジAI・Web・クラウド・Windows・.NET・データベース・AI開発など、mono-tecで公開している技術記事を分野別に整理した索引です。"
     },
     {
-      "id": "eeafc434f817",
-      "title": "GitHub CopilotからAntigravity for VS Codeに移行した",
-      "url": "https://zenn.dev/mcp/articles/97ec17d02477b9",
-      "publishedAt": "2026-08-26T05:22:52.000Z",
-      "publisher": "mcp",
-      "summary": "TL;DR 2026年8月20日、Googleが Antigravityの公式IDE拡張 をリリースした。VS Code / Visual Studio / JetBrains / Zed / Xcode の5本立て つまり 「Antig…"
+      "id": "1fd0c61a1a26",
+      "title": "Finetuning Master",
+      "url": "https://zenn.dev/oggata/books/b456bf284e4f8e",
+      "publishedAt": "2026-08-26T13:17:48.000Z",
+      "publisher": "oggata",
+      "summary": "目次 ### 第1部 設計とデータ(Ch.1–6) 1. ファインチューニングの経済学と意思決定 2. 学習パイプラインの全体地図とベースモデル選定 3. 評価から逆算する 4. データ収集・権利・フォーマット設計 5. 合成データ生成・…"
     },
     {
-      "id": "8e2b34281f93",
-      "title": "AI彼女アプリを作っていて気付いた。「同じ人」は、設定だけでは続かなかった",
-      "url": "https://zenn.dev/mitsukida/articles/5377b79e3f50a0",
-      "publishedAt": "2026-08-26T05:11:21.000Z",
-      "publisher": "mitsukida",
-      "summary": "AI彼女アプリを作っていて気付いた。「同じ人」は、設定だけでは続かなかった 以前、 AIを成長させようとして気付いたことを書いた。 変わるだけではだめだった。 変わりにくい部分があるから、 経験によって少しずつ変わっていける。 AIKan…"
+      "id": "a23ea019df57",
+      "title": "MESAの住民の生態系 ── レイキャスト・DINOv2・CLIPで「街を見る目」を作る",
+      "url": "https://zenn.dev/oggata/articles/9676a29101db6a",
+      "publishedAt": "2026-08-26T13:14:28.000Z",
+      "publisher": "oggata",
+      "summary": "はじめに MESA は、都市の中で16次元の性格ベクトルを持ったエージェントたちが暮らし続ける シミュレーションです。エージェントは一人称視点で街を見て、目的地を決め、 道を選び、人とすれ違いながら生活しています。 この記事は「その住民た…"
     }
   ],
-  "fetchedAt": "2026-08-26T18:56:41.223Z",
+  "fetchedAt": "2026-08-26T21:39:23.964Z",
   "stale": false,
   "error": null
 }
