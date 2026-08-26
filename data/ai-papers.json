@@ -6,12 +6,20 @@
   "category": "ai",
   "items": [
     {
+      "id": "342fd01e6c18",
+      "title": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
+      "url": "https://huggingface.co/papers/2608.20492",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Multimodal large language models (MLLMs) have become a prevailing paradigm for unified video perception. However, post-…",
+      "score": 47
+    },
+    {
       "id": "df2d11c99b92",
       "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
       "url": "https://huggingface.co/papers/2608.24053",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "Universal multimodal embeddings are becoming a core component of modern AI systems, enabling heterogeneous content to b…",
-      "score": 36
+      "score": 37
     },
     {
       "id": "c2c4942d72f0",
@@ -19,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.23041",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "LLM agents remain unreliable on long-horizon tasks, where small local failures can compound over extended interactions …",
-      "score": 29
+      "score": 31
     },
     {
       "id": "d0c3d896487e",
@@ -27,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.24646",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "Reinforcement learning can align diffusion models with human preferences and task-specific objectives, but endpoint rew…",
-      "score": 27
+      "score": 29
     },
     {
       "id": "11c05713ce02",
@@ -38,19 +46,19 @@
       "score": 14
     },
     {
-      "id": "342fd01e6c18",
-      "title": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
-      "url": "https://huggingface.co/papers/2608.20492",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Multimodal large language models (MLLMs) have become a prevailing paradigm for unified video perception. However, post-…",
-      "score": 5
-    },
-    {
       "id": "2435e4823b68",
       "title": "On-policy Distillation with Verifiable Reward",
       "url": "https://huggingface.co/papers/2608.24696",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) and on-policy distillation (OPD) have become two widely adopted p…",
+      "score": 5
+    },
+    {
+      "id": "ec2e48f82b9b",
+      "title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
+      "url": "https://huggingface.co/papers/2608.24680",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Video games provide a scalable source of training data for video world models, offering diverse environments, complex i…",
       "score": 4
     },
     {
@@ -60,6 +68,14 @@
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "Smart glasses are evolving from capture and display accessories into first-person intelligence platforms that connect h…",
       "score": 3
+    },
+    {
+      "id": "11ef3c95ad90",
+      "title": "Best Practice Critic Optimization",
+      "url": "https://huggingface.co/papers/2608.23566",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling m…",
+      "score": 2
     },
     {
       "id": "db395d4f9751",
@@ -78,22 +94,6 @@
       "score": 1
     },
     {
-      "id": "11ef3c95ad90",
-      "title": "Best Practice Critic Optimization",
-      "url": "https://huggingface.co/papers/2608.23566",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling m…",
-      "score": 1
-    },
-    {
-      "id": "e17275ad8f35",
-      "title": "Meta^n: Recursive Self-Improvement through Emergent Depth",
-      "url": "https://huggingface.co/papers/2608.24735",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Self-improving LLM agents refine answers, not the process that produces those answers. Systems that add a meta-level ho…",
-      "score": 1
-    },
-    {
       "id": "bc43af041065",
       "title": "TorchMorph: CUDA-accelerated Morphological Transforms",
       "url": "https://huggingface.co/papers/2608.24738",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-26T05:04:44.511Z",
+  "fetchedAt": "2026-08-26T05:49:42.894Z",
   "stale": false,
   "error": null
 }
