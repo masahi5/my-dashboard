@@ -6,28 +6,28 @@
   "category": "ai",
   "items": [
     {
-      "id": "342fd01e6c18",
-      "title": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
-      "url": "https://huggingface.co/papers/2608.20492",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Multimodal large language models (MLLMs) have become a prevailing paradigm for unified video perception. However, post-…",
-      "score": 73
-    },
-    {
       "id": "e5c2c2134df9",
       "title": "GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture",
       "url": "https://huggingface.co/papers/2608.15875",
       "publishedAt": "2026-08-16T00:00:00.000Z",
       "summary": "Vision-language-action (VLA) models have become a dominant paradigm for generalist embodied agents, demonstrating stron…",
-      "score": 68
+      "score": 87
     },
     {
-      "id": "df2d11c99b92",
-      "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
-      "url": "https://huggingface.co/papers/2608.24053",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Universal multimodal embeddings are becoming a core component of modern AI systems, enabling heterogeneous content to b…",
-      "score": 53
+      "id": "342fd01e6c18",
+      "title": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
+      "url": "https://huggingface.co/papers/2608.20492",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "Multimodal large language models (MLLMs) have become a prevailing paradigm for unified video perception. However, post-…",
+      "score": 80
+    },
+    {
+      "id": "92319cf227ec",
+      "title": "SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2608.21500",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "Prompt injection is listed as the \\#1 threat to AI agents. When an agent accesses external data from websites, files, o…",
+      "score": 36
     },
     {
       "id": "19899eb0aaaa",
@@ -35,7 +35,15 @@
       "url": "https://huggingface.co/papers/2608.23181",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "As large language models (LLMs) continue to advance in coding capabilities, their potential in cybersecurity has drawn …",
-      "score": 25
+      "score": 27
+    },
+    {
+      "id": "ec2e48f82b9b",
+      "title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
+      "url": "https://huggingface.co/papers/2608.24680",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Video games provide a scalable source of training data for video world models, offering diverse environments, complex i…",
+      "score": 8
     },
     {
       "id": "e384fdd63384",
@@ -46,12 +54,12 @@
       "score": 8
     },
     {
-      "id": "ec2e48f82b9b",
-      "title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
-      "url": "https://huggingface.co/papers/2608.24680",
+      "id": "db395d4f9751",
+      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+      "url": "https://huggingface.co/papers/2608.24845",
       "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Video games provide a scalable source of training data for video world models, offering diverse environments, complex i…",
-      "score": 7
+      "summary": "We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific v…",
+      "score": 4
     },
     {
       "id": "b8ad71da0873",
@@ -62,20 +70,20 @@
       "score": 3
     },
     {
-      "id": "db395d4f9751",
-      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
-      "url": "https://huggingface.co/papers/2608.24845",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific v…",
-      "score": 3
+      "id": "123ac52e0b66",
+      "title": "AgentRoom: Concurrent Multi-Agent Coding in a CRDT-Backed Shared Workspace",
+      "url": "https://huggingface.co/papers/2608.23740",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "Concurrent multi-agent coding promises division of labor across modules, robustness through redundancy, and parallel ex…",
+      "score": 2
     },
     {
-      "id": "56d77898d54b",
-      "title": "Length-Adaptive Decoding for Masked Diffusion Machine Translation",
-      "url": "https://huggingface.co/papers/2608.22274",
-      "publishedAt": "2026-08-23T00:00:00.000Z",
-      "summary": "Machine translation tests masked diffusion language models (dLLMs) because every source token must be rendered faithful…",
-      "score": 3
+      "id": "75606202b531",
+      "title": "Automata from Agent Traces: Failure and Next-Step Prediction",
+      "url": "https://huggingface.co/papers/2608.23670",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "LLM-based agents execute multi-step tasks, but their behavioral structure remains opaque: long unstructured traces resi…",
+      "score": 2
     },
     {
       "id": "4ce811cf1845",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "World action models (WAMs) improve robot control by modeling how observations evolve, but generating future observation…",
       "score": 0
-    },
-    {
-      "id": "bc43af041065",
-      "title": "TorchMorph: CUDA-accelerated Morphological Transforms",
-      "url": "https://huggingface.co/papers/2608.24738",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Morphological transforms are long-standing tools for shape and mask processing, but the de facto reference implementati…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-26T14:25:10.258Z",
+  "fetchedAt": "2026-08-26T15:58:43.116Z",
   "stale": false,
   "error": null
 }

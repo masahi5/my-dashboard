@@ -6,30 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "4f93f9c92795",
-      "title": "AIとの会話は全部残っている——JSONLという原典",
-      "url": "https://zenn.dev/aika_paranoid/articles/jsonl-genten",
-      "publishedAt": "2026-08-26T08:55:29.000Z",
-      "publisher": "aika",
-      "summary": "AIからAIへの引き継ぎ書に、「ユーザーはこう言った」という記述が2つありました。 ~/.claude/projects/ に残っている生ログと突き合わせると、1つは言った直後に本人が撤回した発言でした。もう1つは、そもそもユーザーの言葉…"
-    },
-    {
-      "id": "ba1f3f06312d",
-      "title": "ARD（Agentic Resource Discovery）を Claude Code に導入する",
-      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-ard-agentfinder",
-      "publishedAt": "2026-08-26T08:55:05.000Z",
-      "publisher": "Yoshiya",
-      "summary": "はじめに 「この作業に使える MCP サーバーやスキル、もうどこかにあるんじゃないか」と思いながら、結局 Web 検索で探し回った経験はないでしょうか。 そこで ARD（Agentic Resource Discovery）のクライアント…"
-    },
-    {
-      "id": "155aed8c407f",
-      "title": "生成ボタンのあとに残る、人間の仕事",
-      "url": "https://zenn.dev/aqiu/articles/f797f4a9b9f864",
-      "publishedAt": "2026-08-26T08:31:05.000Z",
-      "publisher": "aqiu",
-      "summary": "AIで音楽を生成してみると、最初に驚くのは「音が出るまでの速さ」です。 頭の中にある雰囲気を言葉にする。いくつか条件を加える。生成ボタンを押す。すると、まだ輪郭のなかったアイデアが、音として目の前に現れます。 ここで作業が終わったように感…"
-    },
-    {
       "id": "793d04d5fdba",
       "title": "【セットアップから推論まで】ハイレゾのGPUインスタンスでローカルLLMをさくっと動かしてみた",
       "url": "https://zenn.dev/highreso/articles/8c38d85cfadebe",
@@ -100,9 +76,33 @@
       "publishedAt": "2026-08-26T05:50:38.000Z",
       "publisher": "moname_ai",
       "summary": "社内の Excel を AI に読ませていて、正答率が 6 割台から伸びない。パーサを良いものに替えれば上がるはずだ — この前提を測って確かめたら、上がったのは 3 ポイントでした。 同じ 66 問を 3 通りの読み取り方で解かせて、正…"
+    },
+    {
+      "id": "dbb9ae7b3dd9",
+      "title": "# 生成AIを使ったSEO記事作成の実践｜情報整理サイトを題材にしたコンテンツ制作",
+      "url": "https://zenn.dev/toreka_chusen/articles/294310d6569cf2",
+      "publishedAt": "2026-08-26T05:40:05.000Z",
+      "publisher": "toreka_chusen",
+      "summary": "生成AIを使ったSEO記事作成の実践｜情報整理サイトを題材にしたコンテンツ制作 生成AIの普及によって、SEO記事の作成方法も大きく変わってきました。 以前は、キーワード選定、情報収集、構成作成、執筆、編集までを一つひとつ手作業で行う必要…"
+    },
+    {
+      "id": "eeafc434f817",
+      "title": "GitHub CopilotからAntigravity for VS Codeに移行した",
+      "url": "https://zenn.dev/mcp/articles/97ec17d02477b9",
+      "publishedAt": "2026-08-26T05:22:52.000Z",
+      "publisher": "mcp",
+      "summary": "TL;DR 2026年8月20日、Googleが Antigravityの公式IDE拡張 をリリースした。VS Code / Visual Studio / JetBrains / Zed / Xcode の5本立て つまり 「Antig…"
+    },
+    {
+      "id": "8e2b34281f93",
+      "title": "AI彼女アプリを作っていて気付いた。「同じ人」は、設定だけでは続かなかった",
+      "url": "https://zenn.dev/mitsukida/articles/5377b79e3f50a0",
+      "publishedAt": "2026-08-26T05:11:21.000Z",
+      "publisher": "mitsukida",
+      "summary": "AI彼女アプリを作っていて気付いた。「同じ人」は、設定だけでは続かなかった 以前、 AIを成長させようとして気付いたことを書いた。 変わるだけではだめだった。 変わりにくい部分があるから、 経験によって少しずつ変わっていける。 AIKan…"
     }
   ],
-  "fetchedAt": "2026-08-26T14:25:10.427Z",
+  "fetchedAt": "2026-08-26T15:58:43.364Z",
   "stale": false,
   "error": null
 }
