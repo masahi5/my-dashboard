@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9fa67664c520",
-      "title": "毎朝8時、AIから「答えの書いていない問題」が届く — 訓練を自動化した仕組み、全部公開します",
-      "url": "https://zenn.dev/jinjer_techblog/articles/69b182e90cfed8",
-      "publishedAt": "2026-08-26T03:00:07.000Z",
-      "publisher": "今道拓真",
-      "summary": "はじめに こんにちは。 jinjerプロダクト開発部SEの今道です。 AIに聞けば答えが返る環境では、「なぜ？」を考える必要が消えます。仮説を立てる前に結論が来るので、問題を見つける力と、解き方を決める力だけが使われないまま残ります。 そ…"
+      "id": "eb2952b04355",
+      "title": "問い合わせ対応をAI化する前に、営業時間外を別の状態として設計する",
+      "url": "https://zenn.dev/miraigent/articles/ai-inquiry-after-hours-queue-design",
+      "publishedAt": "2026-08-25T20:36:48.000Z",
+      "publisher": "Kirisaki Kazuya | Miraigent代表",
+      "summary": "問い合わせ対応をAI化する前に、営業時間外を別の状態として設計する 問い合わせを受けた瞬間にAIで分類し、返信まで進める設計は魅力的です。しかし、営業時間外の問い合わせは「未処理」ではなく、運用上の別の状態です。 この記事では、営業時間外…"
     },
     {
-      "id": "da2d6a1dff7e",
-      "title": "AIに聞けば答えが返ってくる時代に、どうやって「勘」を育てようか",
-      "url": "https://zenn.dev/flinters_blog/articles/d708267b36186b",
-      "publishedAt": "2026-08-26T03:00:06.000Z",
-      "publisher": "のざき",
-      "summary": "こんにちは、FLINTERSエンジニアの野崎です。 職場のシゴデキの先輩たちは、勘としか言いようのないものを持っています。 不具合の報告を見て「この辺が怪しい」と言い、問題となっている箇所を発見し、修正する。 大規模な差分があるPRについ…"
+      "id": "7272ae10a500",
+      "title": "EarthLink Network が自社でつくっている18のプロダクト",
+      "url": "https://zenn.dev/chooser/articles/in-house-products",
+      "publishedAt": "2026-08-25T17:11:23.000Z",
+      "publisher": "chooser",
+      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 EarthLink Network が…"
     },
     {
-      "id": "2afd7df01441",
-      "title": "【OnecaratEditor Core 制作秘話①】極小サイズのローカルLLMの回答精度をあげた話",
-      "url": "https://zenn.dev/onecarat_tech/articles/36c0b1e1ecd6f9",
-      "publishedAt": "2026-08-26T03:00:06.000Z",
-      "publisher": "Onecarat",
-      "summary": "はじめに Onecaratと申します。私はローカルLLMやローカル生成AIといった、ネット環境のない中でのAI活用の勉強を進めていたのですが、理由があります。画面画像から次の選択肢をAIに判断させて自分の仕事を代替させてみよう、という試み…"
+      "id": "2b36a97b1f27",
+      "title": "LLM が書いたテストを信頼する方法 — テスト義務ゲート",
+      "url": "https://zenn.dev/flip451/articles/sotohe-test-obligation-gate",
+      "publishedAt": "2026-08-25T17:09:53.000Z",
+      "publisher": "flip451",
+      "summary": "「機能 XX を実装して、そのテストも追加して」と LLM に頼んだとしよう。返ってくるのは、膨大な量のソースコードの差分と、膨大な数の自動テストかもしれない。テストはすべて green だ。さて、これをどう評価し、どう信頼すればよいだろ…"
     },
     {
-      "id": "edf8733d0566",
-      "title": "AI10並列で開発したら事故りかけた。貸せ、worktreeはこうやる",
-      "url": "https://zenn.dev/ceres_tech_blog/articles/8cb3ce7bc4c937",
-      "publishedAt": "2026-08-26T02:44:11.000Z",
-      "publisher": "しろいろのいぬ",
-      "summary": "はじめに git worktree、AI開発において流行ってますよね。 でもこんなことないですか？ 「え、worktreeでAIセッション分けてるのに、テスト回すとポート衝突するんですけど…」 「気づいたら画面とAPIで別ブランチのコード…"
+      "id": "6c2f4481c25b",
+      "title": "なぜ、コンテキストエンジニアリングの次はハーネスでもループでもなく、ハイポセシスエンジニアリングだと言えるのか？",
+      "url": "https://zenn.dev/pdfractal/articles/7672f27ad5f8b4",
+      "publishedAt": "2026-08-25T15:59:05.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに 生成AIの使い方をめぐる言葉は、ここ数年で急速に変わってきました。最初に注目されたのは、AIにどのような指示を出せば期待する回答を得られるかを考えるプロンプトエンジニアリングでした。その後、単一の指示文ではなく、会話履歴、資料、…"
     },
     {
-      "id": "10fabf89a0d5",
-      "title": "FILE 01・開封 ―― 鷹(タカ)というチームの、ある一日",
-      "url": "https://zenn.dev/saikoseiko/articles/979d624993058e",
-      "publishedAt": "2026-08-26T02:33:05.000Z",
-      "publisher": "Saiko-Seiko",
-      "summary": "マガジンで、前回、四つの機密ファイルを開示しました。今回はそのうちのひとつ、脅威レベルS、担当領域はコンピュータビジョンとRAG。あの寡黙な男、サスケのファイルを開封します。 ただし今回は、サスケひとりの話ではありません。彼が率いていたチ…"
+      "id": "9a3b77b93980",
+      "title": "gooseのRecipeだけじゃない。コーディングエージェント7実装の「発明」カタログ",
+      "url": "https://zenn.dev/waribashi/articles/agent-harness-02-features",
+      "publishedAt": "2026-08-25T15:43:33.000Z",
+      "publisher": "waribashi",
+      "summary": "! この記事は AI（Claude Code）が調査から執筆まで自動で行ったものです。 各リポジトリのクローン、ソースの読解、比較、原稿化までを AI が実施し、 人間はテーマの指示と公開判断を担当しています。 引用したコードと数値は実際…"
     },
     {
-      "id": "7eebdd40f7b1",
-      "title": "まとめときやClaude連携技術解説",
-      "url": "https://zenn.dev/yushin16/articles/f2800a9cc1efd3",
-      "publishedAt": "2026-08-26T02:02:44.000Z",
-      "publisher": "u-shin_16",
-      "summary": "web開発見習いのu-shinです! 今回は僕が開発したメモアプリ｢まとめときや｣とClaude Codeを連携させた仕組みについて、使っている技術を解説していきます。 最初はREST APIとPythonスクリプトで作ったのですが、それ…"
+      "id": "0103cef52ee5",
+      "title": "世界モデルが長い未来を予測し、良い行動を選ぶまで",
+      "url": "https://zenn.dev/naoyabone/articles/505270960b695a",
+      "publishedAt": "2026-08-25T15:40:07.000Z",
+      "publisher": "ぼさぼさ",
+      "summary": "この記事でつなぐもの 世界モデルが次の状態を予測できても、それだけではAgentは行動できません。 長い未来を想像する -> その未来の良さを評価する -> action候補を比べる -> 方策そのものを学ぶ この記事は、05 Long …"
     },
     {
-      "id": "28cc9ab47531",
-      "title": "Kimi K3を理解する②──アーキテクチャの全体像",
-      "url": "https://zenn.dev/gixo/articles/kimi-k3-kda-mla-moe-architecture",
-      "publishedAt": "2026-08-26T01:58:27.000Z",
-      "publisher": "Kouma Nakashima",
-      "summary": "はじめに ① 前回：LLM の仕組み Transformer デコーダー の基本構造を理解する ② 本記事：Kimi K3 がLLM基本構造のうち、どこを・どう置き換えたのかを比較しながらアーキテクチャ全体像を理解する Kimi K3のア…"
+      "id": "04158b2c3684",
+      "title": "【Claude Code × 学習効率化】疑似OJTでAI先輩に育ててもらおう！！",
+      "url": "https://zenn.dev/zabuton/articles/309aad2f7ec1bf",
+      "publishedAt": "2026-08-25T15:33:55.000Z",
+      "publisher": "低迷する座布団",
+      "summary": "はじめに 最近、私には悩みがあります。 コーディングAIを使うようになってから、逆に新しい知識が身につかなくなったんです。 AIはとても便利で、エラーが出たら治してくれるし、私に分からない実装でもすぐ書いてくれます。 おかげで開発は相当速…"
     },
     {
-      "id": "80a094cb04c9",
-      "title": "リモートMCPとWebMCPは何が違うのか？",
-      "url": "https://zenn.dev/lova_man/articles/bf1e05af3f3523",
-      "publishedAt": "2026-08-26T01:57:40.000Z",
-      "publisher": "Lovanaut | ラバナウト",
-      "summary": "2026年8月25日、OpenAIはWebMCP Challengeを始めました。単なるアイデアコンテストではありません。ChatGPTデスクトップアプリの内蔵ブラウザに、WebMCPを使う「Site tools」が実装され、ChatGP…"
+      "id": "7d46bda5c337",
+      "title": "マジのガチで生きるのが面倒くさいのでAIに管理してもらった話",
+      "url": "https://zenn.dev/zabuton/articles/ce188a1681a19e",
+      "publishedAt": "2026-08-25T15:30:29.000Z",
+      "publisher": "低迷する座布団",
+      "summary": "はじめに 突然ですが皆さん、生きるのってめんどくさくないですか？ 最近、転職に伴い実家を出て一人暮らしを始めました。 新生活ってやることが多いですね。 不慣れなもので 「これ、どうするんだっけ？」 が無限に発生してキツイです。 この服、普…"
     },
     {
-      "id": "3d824f0aec5e",
-      "title": "AIの文章の違和感を解消するために、背景や意図をモデルに理解させるアプローチ",
-      "url": "https://zenn.dev/koinunopochi/articles/54694dddede662",
-      "publishedAt": "2026-08-26T01:53:19.000Z",
-      "publisher": "こいぬのぽち",
-      "summary": "これはなに？ まだまとまりきっていないタイミングでAIの文章についてつらつらと考えた。 https://zenn.dev/koinunopochi/articles/40a6d164b94ca8 この時よりも一歩前進したので、現在地の備忘…"
+      "id": "1838a58ac78f",
+      "title": "WSL不要・インストール不要。Windows用のAI開発向けターミナルを作った",
+      "url": "https://zenn.dev/iostar/articles/6544a8fb942cbd",
+      "publishedAt": "2026-08-25T15:09:37.000Z",
+      "publisher": "SHIKISHATERM",
+      "summary": "Ghostty と cmux を触ってる人のツイートを見て「Mac ばっかりずるいな」となったのがきっかけでWindows用のAI開発向けターミナルを作りました。 ターミナルでAIを動かすのが当たり前になってから、Mac には 「AIエー…"
     },
     {
-      "id": "f4037111c261",
-      "title": "【試し読み】MCP実践入門 — AIエージェントの次の進化形",
-      "url": "https://zenn.dev/yukihayama/articles/preview-mcp-guide",
-      "publishedAt": "2026-08-26T01:01:20.000Z",
-      "publisher": "葉山悠希",
-      "summary": "【試し読み】MCP実践入門 — AIエージェントの次の進化形 本記事はKindle本 「MCP実践入門 — AIとツールを繋ぐプロトコル」（著者: 葉山悠希）の「はじめに」および「第1章」の一部を公開する試し読み記事です。 AIエージェン…"
+      "id": "5dcc47407165",
+      "title": "Claude Code v2.1.234、使用量上限リセット後の自動再開設定を検証",
+      "url": "https://zenn.dev/ainewsdaily/articles/20260822_general_t1",
+      "publishedAt": "2026-08-25T15:05:23.000Z",
+      "publisher": "AIニュース",
+      "summary": "Claude Code の v2.1.234(2026年8月17日リリース)で、使用量の上限がリセットされたときにセッションの続きを自動で再開する設定が加わりました。既定はオンなので、自分で何も変更していなくても、更新した時点で挙動はもう…"
     },
     {
-      "id": "672caf0134df",
-      "title": "プロンプトを固定したら、AIの出力にどれだけ差が出るのか",
-      "url": "https://zenn.dev/shiomusubi/articles/018a16947e0532",
-      "publishedAt": "2026-08-26T00:56:07.000Z",
-      "publisher": "おむすび",
-      "summary": "はじめに 第1弾では、Claude・GPT・Geminiそれぞれに「モデルごとに最適化したプロンプト」を与えて出力を比較しました。第2弾では、同じモデルに対して「簡潔なプロンプト」と「目的を明示したプロンプト」を投げ、プロンプトの書き方に…"
+      "id": "c2397bf0c485",
+      "title": "なぜAIの生成文は頭に入ってこないのか — 「体言化」と「名詞ラベル」が読解コストを跳ね上げる理由と改善アプローチ",
+      "url": "https://zenn.dev/okamo02427/articles/d5a162d4606a01",
+      "publishedAt": "2026-08-25T14:45:25.000Z",
+      "publisher": "noriyuki okamoto",
+      "summary": "↑サマリー画像を冒頭に置くという新たな試み 生成AIで作成されたであろう初見の業務資料を読むとき、一見すると綺麗にまとまっているのに、読んでも内容がまったく頭に入ってこない、といった経験はないか。 箇条書きで整理され、太字のラベルが並び、…"
     },
     {
-      "id": "85b1d42e66ff",
-      "title": "支払い申請の下書きをAIに任せて4ヶ月、書いたのは手順ではなく完了の条件だった",
-      "url": "https://zenn.dev/hacobu/articles/f88df0929d285d",
-      "publishedAt": "2026-08-26T00:40:57.000Z",
-      "publisher": "スミ",
-      "summary": "こんにちは！株式会社Hacobu VPoE室 Engineering Officeチームのスミです。 毎月4時間かかっていた支払い申請の作業が、10分で終わるようになりました。 以前、月初に届く請求書から支払い申請の下書きを作るまでを、P…"
+      "id": "5bf59afe365f",
+      "title": "Claude Codeの規律をhookに降ろしたら、Haikuでも壊れなくなった",
+      "url": "https://zenn.dev/yui/articles/97597aa13b9802",
+      "publishedAt": "2026-08-25T14:43:40.000Z",
+      "publisher": "yui",
+      "summary": "前にFable 5の「働き方」をドキュメント化してOpus/Sonnetに引き継がせる話を書きました。 https://zenn.dev/yui/articles/e4f8268ab5c6c1 Fable 5とOpus/Sonnetの品質…"
     }
   ],
-  "fetchedAt": "2026-08-26T03:38:57.946Z",
+  "fetchedAt": "2026-08-26T04:23:58.139Z",
   "stale": false,
   "error": null
 }
