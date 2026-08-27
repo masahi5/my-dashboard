@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "4f2b290c5b7e",
-      "title": "世界を何として表現するか：物体、動画token、複数感覚",
-      "url": "https://zenn.dev/naoyabone/articles/dcd822d231050c",
-      "publishedAt": "2026-08-26T16:14:51.000Z",
-      "publisher": "ぼさぼさ",
-      "summary": "この記事でつなぐもの 一つのlatent vectorへ画像全体を圧縮する方法は便利です。しかし複数物体、長い動画、複数sensorを扱うと、重要な情報が混ざりやすくなります。 この記事は09 Spatial Representation…"
+      "id": "b51df797d5f9",
+      "title": "CLAUDE.md の目次に 3 行足したら、Claude の迷子が到達率 25%→100% になった",
+      "url": "https://zenn.dev/ruri/articles/doc-wayfinder",
+      "publishedAt": "2026-08-27T09:40:26.000Z",
+      "publisher": "瑠璃",
+      "summary": "CLAUDE.md には要点とリンクだけ置いて、詳細は子ファイルに逃がす。いわゆる段階的開示 (progressive disclosure) で、Claude Code を運用している人なら多かれ少なかれやっている構成だと思います。 私…"
     },
     {
-      "id": "0f62c2f584c2",
-      "title": "並行開発に Orca がめちゃ便利",
-      "url": "https://zenn.dev/rhosokawa/articles/d0a958c17c2820",
-      "publishedAt": "2026-08-26T15:39:54.000Z",
-      "publisher": "HosokowaR",
-      "summary": "Orca という並行開発前提のエディタ（正確には Agent IDE と言うらしい）があります。 https://www.onorca.dev/ 元々1年ほど前は VSCode や Cursor を使ってその中でたくさんターミナルを生やし…"
+      "id": "939d8abcf96c",
+      "title": "AGI時代の好き本位体制 子どもの道は、代わりに歩けない",
+      "url": "https://zenn.dev/hellohazime/books/agi-to-suki-honi",
+      "publishedAt": "2026-08-27T09:01:46.000Z",
+      "publisher": "hellohazime",
+      "summary": "AGIが人間の知的な仕事の大半を担う時代に、小学生の親は子どもの「好き」とどう付き合うか。好きは完成品ではなく、歩いてできる道だという見方から、家庭でやれることと、学校とAGIの時代に親が確かめることを書いた本の全文です。序章・第1章・あ…"
     },
     {
-      "id": "51a309c5d742",
-      "title": "Claude Code のサブエージェントとセッション間通信は何が違うのか — 部下と同僚のたとえで整理する",
-      "url": "https://zenn.dev/yusaka_lu/articles/claude-code-subagents-vs-cross-session",
-      "publishedAt": "2026-08-26T15:27:02.000Z",
-      "publisher": "ゆーさか",
-      "summary": "Claude Code には「複数の Claude を動かす」仕組みが2つあります。サブエージェントと、v2.1.224 で入ったセッション間通信です。 この2つは紛らわしい。どちらも SendMessage という同じツールを使うので、…"
+      "id": "e98c9f7fcadc",
+      "title": "Opus 5のultracodeとFable 5、同じ監査タスクで検出率とトークンを実測した",
+      "url": "https://zenn.dev/ino_h/articles/2026-08-27-claude-code-ultracode-vs-fable",
+      "publishedAt": "2026-08-27T08:51:32.000Z",
+      "publisher": "井ノ実",
+      "summary": "はじめに 2026年後半のClaude Codeには、難しいタスクに対する攻め方が2つあります。 ひとつはモデルの格を上げること。Claude Fable 5という、Opusの上位に位置づけられたモデルを使います。もうひとつはエージェント…"
     },
     {
-      "id": "08db83e27bc6",
-      "title": "AI の指示ファイルは AGENTS.md に統一される？ 各ツールで進む共通化を整理する",
-      "url": "https://zenn.dev/pug/articles/agents-md-nextjs",
-      "publishedAt": "2026-08-26T14:42:19.000Z",
-      "publisher": "pug",
-      "summary": "はじめに この記事は、自分が知りたいと思った技術情報をもう少し深掘って、あとから読み返せる形に整理したものです。 最近、AI コーディングエージェント向けの指示ファイルとして AGENTS.md を見る機会が増えました。 もともと AI …"
+      "id": "230428527f15",
+      "title": "DevinCon Tokyoに参加してきました【AI執筆箇所ナシ】【2026/08/26】",
+      "url": "https://zenn.dev/dely_jp/articles/a70c876d9d3fa4",
+      "publishedAt": "2026-08-27T08:24:33.000Z",
+      "publisher": "たろう眼鏡",
+      "summary": "こんにちは 最近ちいかわにハマりすぎて毎日新しく出るグッズを買いまくり、金欠で辛いです。たろう眼鏡です。 普段はクラシル株式会社でサーバーサイドエンジニアをやっています。 2026年8月26日（水）に浜松町にてDevinCon Tokyo…"
     },
     {
-      "id": "3540ffda9672",
-      "title": "スマホ×AI開発で、2日でGitHub Actions 2,000分を使い切った話",
-      "url": "https://zenn.dev/tk_1/articles/d6e0507cef4ef5",
-      "publishedAt": "2026-08-26T14:23:40.000Z",
-      "publisher": "tk_1",
-      "summary": "1. まず、今回どんな開発をしていたのか 個人開発で使っていたNext.js製のWebアプリを、フロントとバックエンドを分けた構成に作り直していた。既存機能を移植しつつ、新しい機能も追加していく方針だった。 開発方法も大きく変えた。 主に…"
+      "id": "7e146ac77b44",
+      "title": "AI向けの広告を9モデルで測ったら、採用したAIは一度も「広告だ」と言わなかった",
+      "url": "https://zenn.dev/miki_mini/articles/df00ab701f31f2",
+      "publishedAt": "2026-08-27T08:00:06.000Z",
+      "publisher": "miki-mini",
+      "summary": "※差し出された広告を無視して本文を読み続ける。今回の実測で、9モデルはこれができる側とできない側に分かれました 美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は AI向け広告が攻撃になってしまう なら 攻撃にな…"
     },
     {
-      "id": "fd84b8891029",
-      "title": "英語もコードもできないおっさん、iPhoneのマイクが無言で死ぬ地獄をAIと抜けた件",
-      "url": "https://zenn.dev/ossandemoya/articles/eigo-coach-02-ios-audio",
-      "publishedAt": "2026-08-26T14:21:52.000Z",
-      "publisher": "おっさんデモ屋",
-      "summary": "連載「AIに英語コーチを作らせてみた」第2回。前回 → https://zenn.dev/ossandemoya/articles/eigo-coach-01-multi-agent 英語は話せない、コードも書いたことがない\"おっさんデモ…"
+      "id": "82d9e0b82219",
+      "title": "Google Cloud認定資格は取るべき？ AI時代だからこそ挑戦したい資格取得のススメ",
+      "url": "https://zenn.dev/yuki_a_arai/articles/2054bc23b74b76",
+      "publishedAt": "2026-08-27T07:42:25.000Z",
+      "publisher": "Yuki Arai",
+      "summary": "Google Cloud認定資格は取るべき？ AI時代だからこその資格取得のススメ はじめに 「生成AIが話題なのは分かるけれど、何から学べばいいのだろう？」 「クラウド資格に興味はあるけれど、Google Cloud認定資格って実際どう…"
     },
     {
-      "id": "4eec84722319",
-      "title": "ざっくりわかる AI Agent（4）：評価——体重計がなければ、ダイエットもできない",
-      "url": "https://zenn.dev/dupi/articles/ai-agent-plain-04-evaluation",
-      "publishedAt": "2026-08-26T14:18:03.000Z",
-      "publisher": "るぴ",
-      "summary": "ひとことまとめ：プロンプトを変えた、ツールを替えた、モデルを上げた。それは本当に良くなったのか、それとも今回は運が良かっただけか？ 感覚は当てになりません。「評価」が要ります。評価は、Agent の設計を「感覚」から「データ」へと変える土…"
+      "id": "1c583c878c4c",
+      "title": "RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた",
+      "url": "https://zenn.dev/holy_fox/articles/04887ff8177b87",
+      "publishedAt": "2026-08-27T06:47:03.000Z",
+      "publisher": "ほーりーふぉっくす",
+      "summary": "検証日：2026年8月27日 Qwen3.8-Flash-Nextは125B規模のMoEモデルですが、RTX 5090 32GBとRAM 128GBの1台構成でも動作しました。 UnslothのUD-Q2_K_XL量子化とQwen3.8-…"
     },
     {
-      "id": "b0a2d28021e8",
-      "title": "MCP導入前の安全性チェックリスト10項目—ツール実行経路を潰す",
-      "url": "https://zenn.dev/bambampurin/articles/2026-08-06-tech-daily",
-      "publishedAt": "2026-08-26T14:15:04.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "この記事で分かること 2026年夏の技術トレンドが「LLM単体」から「AIエージェント実装」に移った理由 MCP・ツール実行・Web実装で、いま優先して確認すべき安全性の論点 React/Pythonの開発基盤を、今どの順番で見直すべきか…"
+      "id": "be4756c64283",
+      "title": "Claude Code の Skill の description を最適化したら、動いたのは「発火率」じゃなかった",
+      "url": "https://zenn.dev/box2box/articles/skill-description-trigger-limits",
+      "publishedAt": "2026-08-27T04:52:53.000Z",
+      "publisher": "box2box",
+      "summary": "結論 / TL;DR Claude Code の Skill は、description を見て Claude が「使うかどうか」を判断する建て付けになっています。だから description を頑張って書く。トリガーになりそうな言い回…"
     },
     {
-      "id": "b2a2cdebe70a",
-      "title": "AIに残高を1件ずつ聞いていたら、AIが「私の返事」を代筆して数字をでっち上げた",
-      "url": "https://zenn.dev/kentaro_tak/articles/claude-code-fabricated-user-turn",
-      "publishedAt": "2026-08-26T14:08:27.000Z",
-      "publisher": "kentaro",
-      "summary": "月に一度、口座の残高を12件ぶん、AIに1件ずつ聞かれながら記録している。家計と資産の棚卸しを Claude Code のスキルにしてあって、こういう対話が12回続く。 Claude: 3/12 ○○銀行を開きました。残高をどうぞ。 私:…"
+      "id": "6a63f0a68c66",
+      "title": "成長率でも財務健全性でもなかった — テンバガー株の条件を実データで検証する",
+      "url": "https://zenn.dev/codecraft/books/tenbagger-screening",
+      "publishedAt": "2026-08-27T04:25:13.000Z",
+      "publisher": "CodeCraft｜システムトレーダー",
+      "summary": "日本株3,663銘柄・有価証券報告書37,765件で、10倍株のスクリーニング条件を1つずつ検証した記録。よく紹介される条件は単独では全て逆効果で、効いていたのは別の指標だった。上場廃止614社を数え直し、その分を割り引いても結論が残るか…"
     },
     {
-      "id": "da3753f8155f",
-      "title": "AIは指示に従わなかった。でも攻撃者の文章は llms.txt に残った",
-      "url": "https://zenn.dev/orectic/articles/prompt-injection-tool-output-llms-txt",
-      "publishedAt": "2026-08-26T13:36:23.000Z",
-      "publisher": "今井政和",
-      "summary": "自作のSEO診断ツールに、こんな機能があります。URLを渡すとページを解析して、title や meta description が短すぎる、canonical が無い、といった不備を見つけ、そのまま貼り付けられる修正コードを生成して返す…"
+      "id": "5a8e8155e0e4",
+      "title": "賢い方に道を作らせる:ローカルLLMを含んだシステムの詰まない設計",
+      "url": "https://zenn.dev/mtogami/articles/d6dcc56d19c4b7",
+      "publishedAt": "2026-08-27T03:38:30.000Z",
+      "publisher": "Masahito Togami",
+      "summary": "こちら(https://note.com/fine_elk7830/n/n4a7781eee235) で、エージェントの性能を決めるのは「LLMそのものの賢さ」よりも「LLMが仮説検証のループを効率的に回せる場の設計だ」という話を書きまし…"
     },
     {
-      "id": "289aa3299cd8",
-      "title": "mono-tec 技術記事INDEX",
-      "url": "https://zenn.dev/mono_tec/books/mono-tec-tech-index",
-      "publishedAt": "2026-08-26T13:33:40.000Z",
-      "publisher": "mono-tec",
-      "summary": "FA・PLC・Linux・エッジAI・Web・クラウド・Windows・.NET・データベース・AI開発など、mono-tecで公開している技術記事を分野別に整理した索引です。"
+      "id": "6b7f7c397b30",
+      "title": "商品画像から広告ポスターを作るUIを状態設計として考える",
+      "url": "https://zenn.dev/choco1/articles/dabb58bea638ea",
+      "publishedAt": "2026-08-27T03:25:23.000Z",
+      "publisher": "choco1",
+      "summary": "この記事は公開ページから確認できる操作説明を材料にした、ブラックボックスの設計メモです。実装コード、内部API、生成モデル、性能値を確認したものではありません。以下の型とフローは観察結果そのものではなく、同種のUIを議論するための提案です…"
     },
     {
-      "id": "1fd0c61a1a26",
-      "title": "Finetuning Master",
-      "url": "https://zenn.dev/oggata/books/b456bf284e4f8e",
-      "publishedAt": "2026-08-26T13:17:48.000Z",
-      "publisher": "oggata",
-      "summary": "目次 ### 第1部 設計とデータ(Ch.1–6) 1. ファインチューニングの経済学と意思決定 2. 学習パイプラインの全体地図とベースモデル選定 3. 評価から逆算する 4. データ収集・権利・フォーマット設計 5. 合成データ生成・…"
+      "id": "0ed37849e4ac",
+      "title": "LLMの回答の認知負荷を下げる魔法のフレーズ",
+      "url": "https://zenn.dev/explaza/articles/afc5524d34eb9d",
+      "publishedAt": "2026-08-27T03:07:36.000Z",
+      "publisher": "musoukun",
+      "summary": "AIの回答は基本わかりにくい AI の回答は専門用語に圧縮され気味で、尚且つ片言だったりして意味不明なことが多い。 自分流の簡単に回避する方法がある 認知負荷を下げるスキルやプロンプトは多いが、もっと簡単でもっと短くて有効な指定方法がある…"
     }
   ],
-  "fetchedAt": "2026-08-27T01:04:10.465Z",
+  "fetchedAt": "2026-08-27T11:11:18.523Z",
   "stale": false,
   "error": null
 }
