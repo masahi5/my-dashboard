@@ -22,20 +22,12 @@
       "score": 19
     },
     {
-      "id": "6059cd0c7e5d",
-      "title": "Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios",
-      "url": "https://huggingface.co/papers/2608.25529",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "Multimodal Large Language Models (MLLMs) have shown strong performance in video understanding. However, their ability t…",
-      "score": 14
-    },
-    {
       "id": "ce9d53443634",
       "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
       "url": "https://huggingface.co/papers/2608.23564",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and larg…",
-      "score": 12
+      "score": 13
     },
     {
       "id": "89f91f996904",
@@ -54,6 +46,30 @@
       "score": 4
     },
     {
+      "id": "f901fdb495af",
+      "title": "Skill Issue: Are Skills Language-Invariant in LLMs?",
+      "url": "https://huggingface.co/papers/2608.25832",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "summary": "Large language models access knowledge inconsistently across languages, but to what extent do they differ in their skil…",
+      "score": 3
+    },
+    {
+      "id": "bde0ced9848a",
+      "title": "Prefix Sliding for efficient test-time scaling",
+      "url": "https://huggingface.co/papers/2608.26070",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "summary": "Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer wh…",
+      "score": 3
+    },
+    {
+      "id": "2e707660e5f3",
+      "title": "RetrievalRouter: Joint Modality and Architecture Selection for Document Retrieval",
+      "url": "https://huggingface.co/papers/2608.25625",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "summary": "Document retrieval increasingly supports high-stakes information access in finance, healthcare, and law. Modern retriev…",
+      "score": 3
+    },
+    {
       "id": "007fd7d3ce2c",
       "title": "LibriBrain100: One Hundred Hours of Broad and Deep MEG Data for Neural Speech Decoding at Scale",
       "url": "https://huggingface.co/papers/2608.25204",
@@ -62,35 +78,19 @@
       "score": 2
     },
     {
-      "id": "2e707660e5f3",
-      "title": "RetrievalRouter: Joint Modality and Architecture Selection for Document Retrieval",
-      "url": "https://huggingface.co/papers/2608.25625",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "Document retrieval increasingly supports high-stakes information access in finance, healthcare, and law. Modern retriev…",
-      "score": 2
-    },
-    {
-      "id": "f901fdb495af",
-      "title": "Skill Issue: Are Skills Language-Invariant in LLMs?",
-      "url": "https://huggingface.co/papers/2608.25832",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "Large language models access knowledge inconsistently across languages, but to what extent do they differ in their skil…",
-      "score": 1
-    },
-    {
-      "id": "bde0ced9848a",
-      "title": "Prefix Sliding for efficient test-time scaling",
-      "url": "https://huggingface.co/papers/2608.26070",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer wh…",
-      "score": 1
-    },
-    {
       "id": "79724a21182b",
       "title": "A Modular Agent for Reliable and Auditable Spatial Relation Verification in CT Scans",
       "url": "https://huggingface.co/papers/2608.21140",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "Reliable spatial understanding is an important prerequisite for future medical vision-language systems that aim to supp…",
+      "score": 2
+    },
+    {
+      "id": "d3c911bf8b64",
+      "title": "GUI-Primitives: Diagnosing Spatial Reasoning Failures in Vision-Language GUI Grounding",
+      "url": "https://huggingface.co/papers/2608.21832",
+      "publishedAt": "2026-08-22T00:00:00.000Z",
+      "summary": "Computer-use agents ground natural-language instructions in screenshots to locate interface elements, yet existing benc…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-27T15:28:54.262Z",
+  "fetchedAt": "2026-08-27T21:01:41.488Z",
   "stale": false,
   "error": null
 }
