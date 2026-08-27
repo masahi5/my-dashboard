@@ -48,10 +48,21 @@ const SCRIPT_SRC = "https://platform.twitter.com/widgets.js";
 
 /** 1件描き終えてから次を始めるまでの間隔 */
 const GAP_MS = 500;
-/** 1件あたりの待ち時間の上限。429 のときは何も起きないまま黙って終わる */
-const RENDER_TIMEOUT_MS = 12_000;
-/** 空振りしたときに置く間隔（レート制限の解除を待つ） */
-const RETRY_DELAY_MS = 3_000;
+/**
+ * 1件あたりの待ち時間の上限。429 のときは何も起きないまま黙って終わる。
+ *
+ * この時間が計り始めるのは createTimeline を呼んだ後なので、widgets.js の
+ * ダウンロードは含まない。実測では成功時 1〜3 秒で高さが付く。
+ */
+const RENDER_TIMEOUT_MS = 8_000;
+/**
+ * widgets.js 自体の待ち時間の上限。
+ *
+ * load も error も飛んでこないまま黙り込むこと（間に挟まったプロキシや
+ * フィルタが握り潰す）があり、そうなると **全カードが永久にスケルトンのまま**
+ * になる。ここで打ち切って全部リンク表示へ倒す。
+ */
+const SCRIPT_TIMEOUT_MS = 15_000;
 
 const delay = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
 
@@ -66,9 +77,24 @@ function loadXWidgets(): Promise<TwitterWidgets> {
   if (scriptPromise) return scriptPromise;
 
   scriptPromise = new Promise<TwitterWidgets>((resolve, reject) => {
+    const timer = setTimeout(
+      () => reject(new Error("widgets.js が時間内に応答しませんでした")),
+      SCRIPT_TIMEOUT_MS,
+    );
+    const settle = {
+      ok: (widgets: TwitterWidgets) => {
+        clearTimeout(timer);
+        resolve(widgets);
+      },
+      ng: (message: string) => {
+        clearTimeout(timer);
+        reject(new Error(message));
+      },
+    };
+
     const ready = (twttr: Twttr) => {
-      if (twttr.ready) twttr.ready((loaded) => resolve(loaded.widgets));
-      else resolve(twttr.widgets);
+      if (twttr.ready) twttr.ready((loaded) => settle.ok(loaded.widgets));
+      else settle.ok(twttr.widgets);
     };
 
     if (window.twttr?.widgets) {
@@ -79,11 +105,11 @@ function loadXWidgets(): Promise<TwitterWidgets> {
     const script = document.createElement("script");
     script.addEventListener("load", () => {
       if (window.twttr) ready(window.twttr);
-      else reject(new Error("widgets.js を読み込みましたが twttr がありません"));
+      else settle.ng("widgets.js を読み込みましたが twttr がありません");
     });
     // 広告ブロッカーやトラッキング防止機能に阻まれるのは日常茶飯事。
     // ここで reject し、呼び出し側はプロフィールへのリンクに切り替える。
-    script.addEventListener("error", () => reject(new Error("widgets.js の読み込みに失敗しました")));
+    script.addEventListener("error", () => settle.ng("widgets.js の読み込みに失敗しました"));
     script.src = SCRIPT_SRC;
     script.async = true;
     document.head.appendChild(script);
@@ -130,21 +156,16 @@ let queue: Promise<unknown> = Promise.resolve();
 /**
  * 連続で失敗したら以降は即あきらめる。
  *
- * X に締め出されている状態（レート制限・ブロッカー）では、待っても結果は同じ。
- * 律儀に1件ずつ待つと最後のカードが数分スケルトンのままになるので、
- * 早めに全部リンク表示へ倒したほうが読む側にとって親切。
+ * X に締め出されている状態（syndication.twitter.com が 429 を返す）では、
+ * 待っても再試行しても結果は同じ。律儀に1件ずつ待つと後ろのカードが
+ * 数分スケルトンのままになるので、早めに全部リンク表示へ倒したほうが親切。
+ *
+ * 2 にしているのは「1アカウントだけ非公開・改名で落ちた」ケースを
+ * 全滅と取り違えないため。締め出しなら 2件目で判明し、約17秒で全カードが
+ * リンク表示に切り替わる。
  */
 let consecutiveFailures = 0;
-const FAILURE_LIMIT = 3;
-
-function enqueue<T>(task: () => Promise<T>): Promise<T> {
-  const result = queue.then(task);
-  queue = result.then(
-    () => delay(GAP_MS),
-    () => delay(GAP_MS),
-  );
-  return result;
-}
+const FAILURE_LIMIT = 2;
 
 /**
  * 指定アカウントのタイムラインを slot の中に描く。順番待ちのうえで実行される。
@@ -156,30 +177,38 @@ export function renderXTimeline(
   slot: HTMLElement,
   options: TimelineOptions,
 ): Promise<boolean> {
-  const attempt = async (widgets: TwitterWidgets) => {
-    // 前回の残骸が残っていると二重に見えるので必ず空にしてから作る
-    slot.replaceChildren();
-    await widgets.createTimeline({ sourceType: "profile", screenName }, slot, options);
-    return waitForRender(slot);
-  };
-
-  return enqueue(async () => {
-    if (consecutiveFailures >= FAILURE_LIMIT) return false;
-
+  const attempt = async (): Promise<boolean> => {
     await waitUntilVisible();
     const widgets = await loadXWidgets();
 
-    let rendered = await attempt(widgets);
-    if (!rendered) {
-      // 混み合っただけのことが多いので、間を置いて1回だけやり直す
-      await delay(RETRY_DELAY_MS);
-      rendered = await attempt(widgets);
-    }
+    // 前回の残骸が残っていると二重に見えるので必ず空にしてから作る
+    slot.replaceChildren();
+    await widgets.createTimeline({ sourceType: "profile", screenName }, slot, options);
+    // ここで再試行はしない。空振りの理由はほぼ 429 で、間を置いても結果は同じ。
+    // 待っている間ずっとスケルトンが居座り、後続のカードまで止めてしまう。
+    const rendered = await waitForRender(slot);
 
     consecutiveFailures = rendered ? 0 : consecutiveFailures + 1;
     return rendered;
-  }).catch(() => {
-    consecutiveFailures += 1;
-    return false;
+  };
+
+  // `created` は「実際にウィジェットを作ったか」。見送った回は X に触れていないので、
+  // 次を始めるまでの間隔を置く必要がない。ここを詰めないと、締め出しが確定した後も
+  // 残りのカードが 0.5 秒刻みでしか切り替わらない。
+  const result: Promise<{ rendered: boolean; created: boolean }> = queue.then(async () => {
+    if (consecutiveFailures >= FAILURE_LIMIT) return { rendered: false, created: false };
+    try {
+      return { rendered: await attempt(), created: true };
+    } catch {
+      consecutiveFailures += 1;
+      return { rendered: false, created: true };
+    }
   });
+
+  // result は必ず fulfilled になるが、キューは何があっても止めない
+  queue = result.then(
+    ({ created }) => (created ? delay(GAP_MS) : undefined),
+    () => delay(GAP_MS),
+  );
+  return result.then(({ rendered }) => rendered);
 }
