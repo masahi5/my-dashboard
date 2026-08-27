@@ -6,6 +6,14 @@
   "category": "ai",
   "items": [
     {
+      "id": "60845361cfe0",
+      "title": "Is Next-Chunk Reasoning RL Really Better than SFT? Revisiting Training Strategies under no-CoT Data",
+      "url": "https://huggingface.co/papers/2608.23256",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "Recent work proposes next-chunk reasoning RL for leveraging no-CoT data---corpora such as worked solutions and textbook…",
+      "score": 19
+    },
+    {
       "id": "97305a71309e",
       "title": "Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds",
       "url": "https://huggingface.co/papers/2608.23383",
@@ -14,36 +22,12 @@
       "score": 19
     },
     {
-      "id": "60845361cfe0",
-      "title": "Is Next-Chunk Reasoning RL Really Better than SFT? Revisiting Training Strategies under no-CoT Data",
-      "url": "https://huggingface.co/papers/2608.23256",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "Recent work proposes next-chunk reasoning RL for leveraging no-CoT data---corpora such as worked solutions and textbook…",
-      "score": 16
-    },
-    {
       "id": "6059cd0c7e5d",
       "title": "Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios",
       "url": "https://huggingface.co/papers/2608.25529",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "summary": "Multimodal Large Language Models (MLLMs) have shown strong performance in video understanding. However, their ability t…",
-      "score": 13
-    },
-    {
-      "id": "89f91f996904",
-      "title": "The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
-      "url": "https://huggingface.co/papers/2608.24358",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Coding agents perform long-running tasks spanning dozens of model calls, tool uses, and code edits. As these runs unfol…",
-      "score": 11
-    },
-    {
-      "id": "f1ffc4eda79d",
-      "title": "Rubrics as Visual-Repair Context for Self-Evolving UI-to-Code Generation",
-      "url": "https://huggingface.co/papers/2608.24138",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Large vision-language models have shown strong progress in UI-to-code generation, yet their test-time self-evolution re…",
-      "score": 11
+      "score": 14
     },
     {
       "id": "ce9d53443634",
@@ -51,7 +35,23 @@
       "url": "https://huggingface.co/papers/2608.23564",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and larg…",
-      "score": 8
+      "score": 12
+    },
+    {
+      "id": "89f91f996904",
+      "title": "The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
+      "url": "https://huggingface.co/papers/2608.24358",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Coding agents perform long-running tasks spanning dozens of model calls, tool uses, and code edits. As these runs unfol…",
+      "score": 12
+    },
+    {
+      "id": "7522cedb2ec5",
+      "title": "Pushing the Limits of High-Resolution Weather Forecasting through Data Scaling",
+      "url": "https://huggingface.co/papers/2608.14652",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "The development of 0.1^{circ} global weather forecasting models based on machine learning (ML) is constrained by the li…",
+      "score": 4
     },
     {
       "id": "007fd7d3ce2c",
@@ -59,7 +59,7 @@
       "url": "https://huggingface.co/papers/2608.25204",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "We introduce LibriBrain100, a large-scale MEG dataset for speech decoding designed from the ground up for reproducible,…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "2e707660e5f3",
@@ -67,22 +67,22 @@
       "url": "https://huggingface.co/papers/2608.25625",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "summary": "Document retrieval increasingly supports high-stakes information access in finance, healthcare, and law. Modern retriev…",
+      "score": 2
+    },
+    {
+      "id": "f901fdb495af",
+      "title": "Skill Issue: Are Skills Language-Invariant in LLMs?",
+      "url": "https://huggingface.co/papers/2608.25832",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "summary": "Large language models access knowledge inconsistently across languages, but to what extent do they differ in their skil…",
       "score": 1
     },
     {
-      "id": "ce20d6850764",
-      "title": "FIRM-Video: Check Before You Score for Reliable Text-to-Video Reward Modeling",
-      "url": "https://huggingface.co/papers/2608.21839",
-      "publishedAt": "2026-08-22T00:00:00.000Z",
-      "summary": "Reliable reward models are essential for text-to-video evaluation and alignment. However, the trade-off between evaluat…",
-      "score": 1
-    },
-    {
-      "id": "80d033ebba7b",
-      "title": "Stream4D: 4D-Consistency for Streaming Autoregressive Diffusion Video Models",
-      "url": "https://huggingface.co/papers/2608.19556",
-      "publishedAt": "2026-08-20T00:00:00.000Z",
-      "summary": "Streaming autoregressive diffusion models enable real-time, long-horizon video generation, but their training objective…",
+      "id": "bde0ced9848a",
+      "title": "Prefix Sliding for efficient test-time scaling",
+      "url": "https://huggingface.co/papers/2608.26070",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "summary": "Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer wh…",
       "score": 1
     },
     {
@@ -91,7 +91,7 @@
       "url": "https://huggingface.co/papers/2608.21140",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "summary": "Reliable spatial understanding is an important prerequisite for future medical vision-language systems that aim to supp…",
-      "score": 0
+      "score": 1
     },
     {
       "id": "e14b06e3263d",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-08-27T11:11:18.471Z",
+  "fetchedAt": "2026-08-27T15:28:54.262Z",
   "stale": false,
   "error": null
 }
