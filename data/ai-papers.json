@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "99c32c92b5b6",
-      "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
-      "url": "https://huggingface.co/papers/2608.27345",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Recent video generation models are increasingly framed as world models. Many physical processes can unfold in more than…",
-      "score": 38
-    },
-    {
-      "id": "8acf11f1ec27",
-      "title": "Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report",
-      "url": "https://huggingface.co/papers/2608.15763",
-      "publishedAt": "2026-08-22T00:00:00.000Z",
-      "summary": "AI-powered digital avatar streamers must answer product questions, engage viewers, and execute marketing strategies in …",
-      "score": 32
+      "id": "433907eb6eeb",
+      "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
+      "url": "https://huggingface.co/papers/2608.25518",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "summary": "A common strategy for scaling world models is to train on more crawled video with more compute. We argue that this stra…",
+      "score": 113
     },
     {
       "id": "c014b34ff786",
@@ -27,31 +19,15 @@
       "url": "https://huggingface.co/papers/2608.27448",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "summary": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), hav…",
-      "score": 26
+      "score": 60
     },
     {
-      "id": "3df625fd616d",
-      "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
-      "url": "https://huggingface.co/papers/2608.27456",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Multimodal large language models (MLLMs) can interpret a street view, but urban agency depends on whether such local ev…",
-      "score": 16
-    },
-    {
-      "id": "f87908498788",
-      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
-      "url": "https://huggingface.co/papers/2608.26103",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains…",
-      "score": 12
-    },
-    {
-      "id": "9d26c46bc8c0",
-      "title": "Procedura: Agentic 3D Modeling with Procedural Control",
-      "url": "https://huggingface.co/papers/2608.26238",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "Native 3D generators now recover impressive mesh geometry from a single image. However, a dense mesh stays soft where a…",
-      "score": 2
+      "id": "8acf11f1ec27",
+      "title": "Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report",
+      "url": "https://huggingface.co/papers/2608.15763",
+      "publishedAt": "2026-08-22T00:00:00.000Z",
+      "summary": "AI-powered digital avatar streamers must answer product questions, engage viewers, and execute marketing strategies in …",
+      "score": 42
     },
     {
       "id": "5bd4841f7aa4",
@@ -59,23 +35,23 @@
       "url": "https://huggingface.co/papers/2608.26200",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "Modern video games combine first-person perception, rapid visual changes, persistent world state, and heterogeneous nat…",
-      "score": 2
+      "score": 37
     },
     {
-      "id": "0cf48d12ab78",
-      "title": "CaRGo-T: Causal Reasoning Graph-of-Thought improves Multimodal Humor Comprehension",
-      "url": "https://huggingface.co/papers/2608.23172",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "Large-scale vision-language models (VLMs) have demonstrated remarkable versatility across a wide range of multimodal ta…",
-      "score": 2
+      "id": "88ad2ae46f9d",
+      "title": "PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents",
+      "url": "https://huggingface.co/papers/2608.26530",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "summary": "Long-horizon agent runs generate experience that can improve both the current run and future work. Most self-improvemen…",
+      "score": 25
     },
     {
-      "id": "433907eb6eeb",
-      "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
-      "url": "https://huggingface.co/papers/2608.25518",
+      "id": "9d26c46bc8c0",
+      "title": "Procedura: Agentic 3D Modeling with Procedural Control",
+      "url": "https://huggingface.co/papers/2608.26238",
       "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "A common strategy for scaling world models is to train on more crawled video with more compute. We argue that this stra…",
-      "score": 1
+      "summary": "Native 3D generators now recover impressive mesh geometry from a single image. However, a dense mesh stays soft where a…",
+      "score": 5
     },
     {
       "id": "082db547e627",
@@ -83,15 +59,7 @@
       "url": "https://huggingface.co/papers/2608.26809",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "summary": "While generative AI has significantly advanced video editing, existing methods primarily focus on single-shot or short …",
-      "score": 1
-    },
-    {
-      "id": "c82589f01263",
-      "title": "Aphanta: Diagnosing Task-Aligned Image-Edited Intermediates for Multimodal Reasoning",
-      "url": "https://huggingface.co/papers/2608.26993",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Explicit visual intermediates can help multimodal large language models (MLLMs) externalize spatial evidence and update…",
-      "score": 1
+      "score": 4
     },
     {
       "id": "1765c5a4f8f5",
@@ -99,10 +67,42 @@
       "url": "https://huggingface.co/papers/2608.25500",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "summary": "Reusable skill libraries allow large language model (LLM) agents to reuse procedural knowledge across tasks, but they a…",
-      "score": 1
+      "score": 4
+    },
+    {
+      "id": "68867157a9c6",
+      "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
+      "url": "https://huggingface.co/papers/2608.25798",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "summary": "Contact-rich manipulation requires adapting to contact states that can evolve substantially within an action horizon. H…",
+      "score": 3
+    },
+    {
+      "id": "d008541c919d",
+      "title": "What Does an Evaluation License? A Commit-Bound Census of Claim-Relative Inference in Inspect Evals",
+      "url": "https://huggingface.co/papers/2608.19269",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Evaluation artifacts specify a forward computation: a task, scorer, and reported metric. They do not necessarily licens…",
+      "score": 2
+    },
+    {
+      "id": "d0a37d14d26f",
+      "title": "EditaLive! Unified Character Video Editing for Live Streaming",
+      "url": "https://huggingface.co/papers/2608.27123",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "summary": "Conventional video editing primarily focuses on scene-level content, whereas live streaming places greater emphasis on …",
+      "score": 2
+    },
+    {
+      "id": "c82589f01263",
+      "title": "Aphanta: Diagnosing Task-Aligned Image-Edited Intermediates for Multimodal Reasoning",
+      "url": "https://huggingface.co/papers/2608.26993",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "summary": "Explicit visual intermediates can help multimodal large language models (MLLMs) externalize spatial evidence and update…",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-08-28T05:23:04.007Z",
+  "fetchedAt": "2026-08-28T17:34:45.981Z",
   "stale": false,
   "error": null
 }

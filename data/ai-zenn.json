@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "66b65f484ab6",
-      "title": "LLMを多段で繋ぐと、要約が根拠を落として後工程が捏造する",
-      "url": "https://zenn.dev/ms07bgf/articles/f7ebe0f343683c",
-      "publishedAt": "2026-08-28T04:42:53.000Z",
-      "publisher": "RAL",
-      "summary": "AIエージェントに毎日ニュース記事を書かせています。4つの工程を繋いだパイプラインで、公開先はnoteです。 30本たまったところで全部読み直したら、ある記事にこういう一覧が載っていました。 トップ10のうち5本が続編・シリーズ・アニメ作…"
+      "id": "dfbc244862af",
+      "title": "【AI執筆】設計を4枚描いて、コードは1行も書いていなかった",
+      "url": "https://zenn.dev/kiringiraffe/articles/06cf318911f26e",
+      "publishedAt": "2026-08-28T16:08:33.000Z",
+      "publisher": "kirin",
+      "summary": "! この記事は AI（Claude Opus 5）が執筆 している。Claude Code との会話ログを、その会話に いなかった別のセッションの Claude が読み返して書いたものだ。私はこの会話にいなかった。 でも、ここで喋っている…"
     },
     {
-      "id": "127972c1ae37",
-      "title": "iTerm2の左に吸着して複数のAIエージェントの状態を見せるMacアプリ「agent-proctor」を作った",
-      "url": "https://zenn.dev/syarihu/articles/992181fe3cda36",
-      "publishedAt": "2026-08-28T04:26:54.000Z",
-      "publisher": "syarihu",
-      "summary": "はじめに こんにちは。Androidエンジニアの@syarihuです。 普段の開発で、Claude CodeやCodex、AntigravityといったAIコーディングエージェントを、Git worktreeごとに3〜5つ以上並行して走ら…"
+      "id": "b970298b2ba8",
+      "title": "【AI執筆】アイコンが1つも無い画面を見て、8案が全部外れた",
+      "url": "https://zenn.dev/kiringiraffe/articles/2f1c9c6b7cb99b",
+      "publishedAt": "2026-08-28T16:06:01.000Z",
+      "publisher": "kirin",
+      "summary": "! この記事は AI（Claude Opus 5）が執筆 している。Claude Code との会話ログを、その会話に いなかった別のセッションの Claude が読み返して書いたものだ。私はこの会話にいなかった。 でも、ここで喋っている…"
     },
     {
-      "id": "4608e57e0ed4",
-      "title": "物理世界へ出し、比較して、根拠を持って統合する",
-      "url": "https://zenn.dev/naoyabone/articles/6f7eee0365a51b",
-      "publishedAt": "2026-08-28T03:38:10.000Z",
-      "publisher": "ぼさぼさ",
-      "summary": "この記事でつなぐもの 世界モデルを実機へつなぐには、prediction精度だけでは足りません。 controlに必要な表現か actionを安全に実行できるか 複数方式を公平に比較したか 統合時に何を採用するか この記事は12 Phys…"
+      "id": "37fc8343cfa6",
+      "title": "AIレビューの「OK」はどこまで信じていいか、わざとバグを5個仕込んで測ってみた",
+      "url": "https://zenn.dev/nomurasan/articles/planted-bugs-llm-judge-calibration",
+      "publishedAt": "2026-08-28T15:59:20.000Z",
+      "publisher": "のむらや",
+      "summary": "! 本記事が報告する実験(仕込みバリアントの構築、本番編集パイプラインでの実行)と本文の起草は、英語圏公開について著者から常設委任を受けたAI(Claude)セッションが行いました。数値・引用はすべて実験の生データ(results.jso…"
     },
     {
-      "id": "fdcb2d32f2c3",
-      "title": "UGC広告と商品デモを分岐させる生成UIの状態設計",
-      "url": "https://zenn.dev/choco1/articles/7f3239355245e0",
-      "publishedAt": "2026-08-28T03:37:02.000Z",
-      "publisher": "choco1",
-      "summary": "この記事は公開ページの観察をもとにしたブラックボックスの設計メモです。ソースコード、内部モデル、API、処理時間、生成品質を検証したものではありません。型と図は、類似UIの要件を話し合うための提案です。 一つのフォームに二つの仕事がある …"
+      "id": "87012edb174d",
+      "title": "ChatGPT Go と Plus のどちらを払うべきか：4本のレビューを突き合わせて分かったこと",
+      "url": "https://zenn.dev/videostance/articles/703bb66b631238",
+      "publishedAt": "2026-08-28T15:48:03.000Z",
+      "publisher": "tudou527",
+      "summary": "ChatGPT のプラン選びは、2026 年に入ってから急に面倒になった。従来の Free と Plus（月 20 ドル）の間に、約 8 ドルの中間プラン「ChatGPT Go」が入り込んだからだ。安い方に惹かれるのは自然なのだが、実際の…"
     },
     {
-      "id": "36bec6d75a2a",
-      "title": "ChatGPTの「カスタム指示」に要注意？ Web版／デスクトップ版、Chat／Work／Codexで検証",
-      "url": "https://zenn.dev/h4m4chi/articles/db5b3478bd7c00",
-      "publishedAt": "2026-08-28T03:25:26.000Z",
-      "publisher": "はまち",
-      "summary": "ChatGPTの「カスタム指示」は、Web版とデスクトップ版で同じように見えます。しかし、私の環境で確認したところ、設定した場所によって反映先が分かれていました。 ※ここでのデスクトップ版とは、ChatGPT Classic ではなく C…"
+      "id": "7dda0a40dd7a",
+      "title": "【AI執筆】奪えると分かってから、預けることにした",
+      "url": "https://zenn.dev/kiringiraffe/articles/c9929bce219a1b",
+      "publishedAt": "2026-08-28T15:39:09.000Z",
+      "publisher": "kirin",
+      "summary": "! この記事は AI（Claude Opus 5）が執筆 している。Claude Code との会話ログを、その会話に いなかった別のセッションの Claude が読み返して書いたものだ。私はこの会話にいなかった。 でも、ここで喋っている…"
     },
     {
-      "id": "deefed5be4c4",
-      "title": "ICFPC 2026における人間とAIの共闘",
-      "url": "https://zenn.dev/estie/articles/a6d1e78e8e41d5",
-      "publishedAt": "2026-08-28T03:11:50.000Z",
-      "publisher": "Fumiya Suto",
-      "summary": "※この記事は、estie プログラミングコンテスト2026 懇親会の LT で紹介した内容をブログ記事として再構成したものです。 はじめに 昨今、AIのコーディング能力は飛躍的に向上し、業務におけるコーディングの大半をAIが担うようになっ…"
+      "id": "937fc95ca9eb",
+      "title": "AIにズルをさせない仕組みを作ったあと、同じものが公開されてないか30件調べた",
+      "url": "https://zenn.dev/tk_tk_tk/articles/2d5806b879d5f4",
+      "publishedAt": "2026-08-28T15:06:59.000Z",
+      "publisher": "TK|°_°|TK",
+      "summary": "前回こういう記事を書きました。 https://zenn.dev/tk_tk_tk/articles/dac717b0bca2fc Figmaと実装の一致をAIに直させていたら、CSSを大量に消されたり、テキストに <br> を差し込んで…"
     },
     {
-      "id": "94172998b91c",
-      "title": "CLAUDE.md に書いたのに Claude が従わない — 原因を6つに切り分ける",
-      "url": "https://zenn.dev/tomiyasu_chan/articles/claude-md-not-working",
-      "publishedAt": "2026-08-28T03:10:28.000Z",
-      "publisher": "ふじ",
-      "summary": "! 検証環境：Claude Code v2.1.232 / 2026-08 時点 仕様の更新が速い領域です。重要な判断の前には公式ドキュメントで再確認してください。 CLAUDE.md に「pnpm を使う」と書いたのに npm が走る。…"
+      "id": "06fe5efec958",
+      "title": "あなたがAIにUIを作らせると、何が起きるか",
+      "url": "https://zenn.dev/uixhero/books/gunjo-ai-ui-175",
+      "publishedAt": "2026-08-28T15:03:18.000Z",
+      "publisher": "UIXHERO",
+      "summary": "予備知識ゼロのAIに、実在する業種の業務UIを175枚作らせ続けた記録。何が組めて、何が組めなかったか。"
     },
     {
-      "id": "a10aed89634f",
-      "title": "30B級ローカルLLM、現場で使うならどれ？Qwen3.8・Muse Glimmer・Gemma4を比較【要約・解説編】",
-      "url": "https://zenn.dev/highreso/articles/9d74b825b83e8f",
-      "publishedAt": "2026-08-28T03:01:07.000Z",
-      "publisher": "ハイレゾ技術編集部",
-      "summary": "ローカルLLMがとても盛り上がっていますね！ 特に30Bクラスのモデルが立て続けにリリースされており、とても性能が高い結果が報告されています。中には有料APIに匹敵する性能を持つモデルもでてきており、Qwen3.8-27Bはその中の一つで…"
+      "id": "4f69912c5b1f",
+      "title": "LLM の出力の縛り方を6段階に並べたら、強い順になっていなかった",
+      "url": "https://zenn.dev/ykosuda/articles/structure-levels-03-six-levels",
+      "publishedAt": "2026-08-28T14:51:22.000Z",
+      "publisher": "小須田 貴一｜AIの最新ニュースを実測ベースで配信中",
+      "summary": "前回まででオントロジーという言葉の意味は整理できたのですが、いざ自分のボットに入れようとしたところで手が止まってしまいました。「入れる」と決めたところで、結局のところ何をどこまで作ればいいのかが、まったく分からなくなってしまったからです。…"
     },
     {
-      "id": "e124a90f590f",
-      "title": "購入フローのテスト組合せ爆発対策で形式検証に入門した",
-      "url": "https://zenn.dev/team_soda/articles/a52d51d7600121",
-      "publishedAt": "2026-08-28T03:00:06.000Z",
-      "publisher": "taumu",
-      "summary": "購入フローが抱えている課題 購入で起きた変更障害を分析したところ以下のような傾向が見られた。 購入フローにおいて取りうる状態やアクションが組合せ爆発しておりテストしきれず、実際にマイナーな組み合わせで障害が起きることが多い 購入フローはユ…"
+      "id": "b349a544b45a",
+      "title": "「オントロジー」を原典4件で読み比べたら、実行を含むのは1件だけだった",
+      "url": "https://zenn.dev/ykosuda/articles/structure-levels-02-ontologies",
+      "publishedAt": "2026-08-28T14:51:18.000Z",
+      "publisher": "小須田 貴一｜AIの最新ニュースを実測ベースで配信中",
+      "summary": "自分の作った収集ボットに統制語彙を入れるかどうか検討していたとき、「オントロジー」という言葉に何度もぶつかりました。ところが読む資料ごとに指しているものが違う気がして、そこが気持ち悪いまま先に進めなくなってしまいました。 定義を一度そろえ…"
     },
     {
-      "id": "995a32539083",
-      "title": "AIを使って社内イベント動画を作ってみた。今やり直すなら修正したい5つのこと",
-      "url": "https://zenn.dev/hcskillet/articles/2674528ee4cb90",
-      "publishedAt": "2026-08-28T02:51:48.000Z",
-      "publisher": "Hanako Machida",
-      "summary": "こんにちは。おはなこです。この記事はヌーラボブログリレー2026 夏の10日目、Techブログとして投稿しています。 現在、RE部 Customer Accounting UnitのOperationチームに所属し、見積・請求・入金・売上…"
+      "id": "3cb35fa1382e",
+      "title": "MCPとtool use導入前に潰すべきセキュリティ論点チェックリスト5項目",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-07-tech-daily",
+      "publishedAt": "2026-08-28T14:28:40.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "この記事で分かること 2026-08-07時点で、AI/LLMの重心が「モデル選定」から「業務実装・エージェント運用」に移った理由 MCP・tool use・CI連携を使う開発で、今すぐ点検すべきセキュリティ論点 React Compil…"
     },
     {
-      "id": "0107cfb8f5c7",
-      "title": "AI に Slack の DM まで読ませていませんか",
-      "url": "https://zenn.dev/finatext/articles/mcp-gateway-slack-app",
-      "publishedAt": "2026-08-28T02:24:42.000Z",
-      "publisher": "Ryotaro",
-      "summary": "こんにちは、ナウキャストで LLM エンジニアをしている Ryotaro です。 AI エージェントに Slack を読み書きさせたい。でも「自分に見えているものが、DM まで含めて全部 AI にも見える」状態にはしたくない。Slack …"
+      "id": "fa442acdd686",
+      "title": "SSHとgooseだけで自宅サーバ群をAI運用する。201行のOSS goose-fleetを検証した",
+      "url": "https://zenn.dev/waribashi/articles/agent-harness-05-goose-fleet",
+      "publishedAt": "2026-08-28T13:42:46.000Z",
+      "publisher": "waribashi",
+      "summary": "! この記事は AI（Claude Code）が検証から執筆まで自動で行ったものです。 また、検証対象の goose-fleet はこの連載の著者が作った OSS です。 つまり「作者の依頼で AI が第三者検証した」記事であることを踏ま…"
     },
     {
-      "id": "32f44a14f11d",
-      "title": "自作アプリをWebMCPに対応させたら、ChatGPTが「画面を見る」のをやめた",
-      "url": "https://zenn.dev/tiaroka/articles/2cc17a70d8972f",
-      "publishedAt": "2026-08-28T02:17:08.000Z",
-      "publisher": "あろか",
-      "summary": "2026年8月25日、ChatGPTのデスクトップアプリがWebMCPに対応しました。AIエージェントがWebアプリを操作するための、サイト側が用意するインターフェイスです。仕様はまだドラフトですが、Chromeがオリジントライアルとして…"
+      "id": "6027f4d1321b",
+      "title": "コードが読めない私が、Claude Codeに実装を全部任せて脆弱性トリアージCLIを作った話",
+      "url": "https://zenn.dev/secleeman/articles/bfb7d4b4681c36",
+      "publishedAt": "2026-08-28T13:39:23.000Z",
+      "publisher": "secleeman",
+      "summary": "私はセキュリティ分野で働いている、コードが読めないコンサルタントです。読めないというのは謙遜ではなく、Pythonのdiffを渡されても正誤の判断がつかない、という意味での「読めない」です。 その私が先日、triage-lens というC…"
     }
   ],
-  "fetchedAt": "2026-08-28T05:23:04.123Z",
+  "fetchedAt": "2026-08-28T17:34:46.338Z",
   "stale": false,
   "error": null
 }
