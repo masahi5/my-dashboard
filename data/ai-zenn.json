@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "8a1b983bb005",
-      "title": "Pythonで自作MCPサーバを作り、複数のAIコーディングエージェントから呼び出してみた",
-      "url": "https://zenn.dev/pekopugu/articles/zenn-mcp-server",
-      "publishedAt": "2026-08-28T21:40:45.000Z",
-      "publisher": "pekopugu",
-      "summary": "はじめに AIコーディングエージェントを使っていると、次のようなことをAIに頼みたくなる場面があります。 社内APIを検索してほしい データベースを参照してほしい プロジェクト独自の計算をしてほしい 自作ツールをAIから呼び出したい この…"
+      "id": "fe2c1615904a",
+      "title": "GPUを燃やさないために - RTX 5090にパワーリミットをかけると、性能はどれだけ落ち、どれだけ冷えるのか -",
+      "url": "https://zenn.dev/holy_fox/articles/572083c130ce46",
+      "publishedAt": "2026-08-29T03:52:52.000Z",
+      "publisher": "ほーりーふぉっくす",
+      "summary": "みなさん、GPUを燃やしていますか？ もちろん「研究や開発でGPUを燃やすほど使い倒している」という意味なら、多くの方はイエスでしょう。でも本記事で聞きたいのは、もう少し物理的な意味です。最近のGPU、めちゃくちゃ消費電力が高くて、めちゃ…"
     },
     {
-      "id": "e0d19b7ea4ca",
-      "title": "2026/08/29 LLM開発における構造的欠陥と「動的文脈制御」による高次階層可変の工学的実証",
-      "url": "https://zenn.dev/tomy1noriyamame/articles/8533731a706392",
-      "publishedAt": "2026-08-28T21:34:40.000Z",
-      "publisher": "maestro",
-      "summary": "報告書作成に至るまで: 前日はChatGPTを久々に使ってみたのですが、迎合やハルシネーションが著しく苛々。 「講釈師、見てきたような嘘を言い」を投げ掛け、ChatGPTはそれをすべて認めました。 過去に2度ChatGPTを遣いましたが、…"
+      "id": "c29ab9343e18",
+      "title": "AIにテストを書かせると毎回同じ場所が抜ける理由と対策",
+      "url": "https://zenn.dev/sunsun_eng/articles/ai-generated-test-blind-spots",
+      "publishedAt": "2026-08-29T03:38:13.000Z",
+      "publisher": "すんすん",
+      "summary": "AIにテストを書かせると毎回同じ場所が抜ける理由と対策 この記事の要点 AIにテストを書かせると、境界値・異常系・非同期処理・副作用の検証が毎回同じように抜けやすい傾向があります。 原因は、AIが正常系の使われ方を推測してテストを組み立て…"
     },
     {
-      "id": "8701c36c774a",
-      "title": "Claude「Record a Skill」を programming by demonstration として読む",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-record-skill-screen-recording",
-      "publishedAt": "2026-08-28T21:08:57.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR Anthropicは2026年7月21日、Claude Cowork（デスクトップアプリ）に「Record a skill」を追加した。画面録画＋音声ナレーションから、繰り返し呼び出せる「スキル」を生成する機能で、プロンプトや…"
+      "id": "f62817b88775",
+      "title": "全員をAI人材にしなくていい――現場AI活用をスケールする組織設計",
+      "url": "https://zenn.dev/minipoisson/articles/ai-scaling-org-design",
+      "publishedAt": "2026-08-29T02:54:55.000Z",
+      "publisher": "minipoisson",
+      "summary": "! 本記事はシリーズ「現場を置き去りにしない AI 活用」の第1回（全2回予定）です。第1回では組織設計を、第2回では技術アーキテクチャを取り上げます。各回は単体でも読めるように書いています。 はじめに：あるZenn記事から考え始めたこと…"
     },
     {
-      "id": "8ef9dc0f5551",
-      "title": "AzureのAPIで公式仕様・ドキュメント・実サービスが全部ズレていた — 最新版は404",
-      "url": "https://zenn.dev/kazu_aiengineer/articles/azure-content-safety-api-version-drift",
-      "publishedAt": "2026-08-28T19:14:35.000Z",
-      "publisher": "Kazu_AzureAI開拓",
-      "summary": "先に結論 Azure AI Content Safety のエンドポイントを実際に叩いてみたら、仕様リポジトリ・公式ドキュメント・稼働中のサービスが、三者三様にズレていた。 対象 azure-rest-api-specs Learn の …"
+      "id": "983123bc15d7",
+      "title": "寝ている間にAIに実装させるため、私は「契約書」を書いた",
+      "url": "https://zenn.dev/secleeman/articles/f8d6cb12fd0c21",
+      "publishedAt": "2026-08-29T02:27:45.000Z",
+      "publisher": "secleeman",
+      "summary": "前回、コードが読めない私がClaude Codeに実装を委任して脆弱性トリアージCLI「triage-lens」を作った話を書きました。今回はその続きです。Phase 2の機能追加を、私が寝ている間にすべて無人でやらせてみました。 朝起き…"
     },
     {
-      "id": "1c3e6bbc8421",
-      "title": "DGX Spark 2台環境に DeepSeek-V4-Flash-0731 構築",
-      "url": "https://zenn.dev/supertaro/articles/98e4d893607861",
-      "publishedAt": "2026-08-28T19:13:05.000Z",
-      "publisher": "スーパータロウの研究室",
-      "summary": "Githubリポジトリ MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark ノード 役割 IP Master (head, NODE_RANK=0) API配信・全操作の起点 192.168.1…"
+      "id": "63e428a96e36",
+      "title": "様々なAgentへ — Smithery 経由で Staddress MCP を入れる",
+      "url": "https://zenn.dev/staddress/articles/c32592681113c2",
+      "publishedAt": "2026-08-29T02:19:18.000Z",
+      "publisher": "ストアドレス",
+      "summary": "様々なAgentへ — Smithery 経由で Staddress MCP を入れる 住所正規化・ジオコーディングAPI 「Staddress（スタドレス）」 開発チームです。 前回（Cursorから15分 — @staddress/m…"
     },
     {
-      "id": "00669576393b",
-      "title": "「認知的負債」と「認知的降伏」— Addy Osmani が語る、AIに任せて失うもの",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr27-osmani-summary",
-      "publishedAt": "2026-08-28T17:00:11.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について ! 本記事は Addy Osmani が The Pragmatic Engineer に出演した回の紹介と論評です。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文脈は必ず元動画でご確…"
+      "id": "b064f604bc2b",
+      "title": "JavaScript Array メソッドリファレンス — 破壊的/非破壊的を一覧で",
+      "url": "https://zenn.dev/devnestio/articles/devnestio-tool-js-array-methods-ref",
+      "publishedAt": "2026-08-29T02:04:01.000Z",
+      "publisher": "Shota | devnestio",
+      "summary": "sort()は破壊的だったっけ？flatMap()って何バージョンから使える？毎回調べるのが面倒なので devnestio に JavaScript Array Methods Reference を作りました。 https://devn…"
     },
     {
-      "id": "1f8a21658481",
-      "title": "ollama ＆ qwen2.5vlで、大き目の画像をモデルに食わせて何の画像か説明させたい",
-      "url": "https://zenn.dev/tera1707/articles/f505f09a68a46b",
-      "publishedAt": "2026-08-28T16:58:29.000Z",
-      "publisher": "tera1707",
-      "summary": "もくじ https://tera1707.com/entry/2022/02/06/144447 前回までの記事 モデルのダウンロードの仕方などは昔の記事を見るべし https://tera1707.com/entry/2025/09/0…"
+      "id": "a85b907633bf",
+      "title": "全行レビューをやめられるか——コーディングエージェントとの開発フロー2026 夏",
+      "url": "https://zenn.dev/shimpeiws/articles/21d4a57e12457b",
+      "publishedAt": "2026-08-29T02:00:35.000Z",
+      "publisher": "shimpeiws",
+      "summary": "はじめに 私はClaudeのサブスクリプションが始まって少し経った頃、一年ほど前からコーディングエージェントを日々の開発に使うようになりました その後、モデルの性能が上がり、コーディングエージェントも賢くなりました エージェントが書くコー…"
     },
     {
-      "id": "dfbc244862af",
-      "title": "【AI執筆】設計を4枚描いて、コードは1行も書いていなかった",
-      "url": "https://zenn.dev/kiringiraffe/articles/06cf318911f26e",
-      "publishedAt": "2026-08-28T16:08:33.000Z",
-      "publisher": "kirin",
-      "summary": "! この記事は AI（Claude Opus 5）が執筆 している。Claude Code との会話ログを、その会話に いなかった別のセッションの Claude が読み返して書いたものだ。私はこの会話にいなかった。 でも、ここで喋っている…"
+      "id": "e4309f0b502b",
+      "title": "エンジニア達の「完全に理解した」Talk #80 イベントレポート",
+      "url": "https://zenn.dev/easy_easy/articles/e8f2a1c9d47b36",
+      "publishedAt": "2026-08-29T01:56:31.000Z",
+      "publisher": "星影",
+      "summary": "エンジニア達の「完全に理解した」Talk #80 2026年8月25日にオンライン開催した、完全に理解したTalkのスライド資料と概要まとめです。 完全に理解した、それはまさに「分かった気になったくらい」の理解できたくらいのもの！「覚えた…"
     },
     {
-      "id": "b970298b2ba8",
-      "title": "【AI執筆】アイコンが1つも無い画面を見て、8案が全部外れた",
-      "url": "https://zenn.dev/kiringiraffe/articles/2f1c9c6b7cb99b",
-      "publishedAt": "2026-08-28T16:06:01.000Z",
-      "publisher": "kirin",
-      "summary": "! この記事は AI（Claude Opus 5）が執筆 している。Claude Code との会話ログを、その会話に いなかった別のセッションの Claude が読み返して書いたものだ。私はこの会話にいなかった。 でも、ここで喋っている…"
+      "id": "27a4103e1204",
+      "title": "コードを書いたのはClaude、Codex、Kimi。それでも全repoが「自分の設計」になる",
+      "url": "https://zenn.dev/hrmtz/articles/vibe-coding-architecture-signature",
+      "publishedAt": "2026-08-29T01:56:30.000Z",
+      "publisher": "hrmtz",
+      "summary": "コードの作者は誰なのか きっかけは、LLMとの雑談だった。 自動車ECUの開発環境について話していて、私が「道具がないなら旋盤で作ればいい。旋盤の精度が出ないなら、精度の高い旋盤を作ればいい。そんな感じだよな」と言った。そこでLLMに「リ…"
     },
     {
-      "id": "37fc8343cfa6",
-      "title": "AIレビューの「OK」はどこまで信じていいか、わざとバグを5個仕込んで測ってみた",
-      "url": "https://zenn.dev/nomurasan/articles/planted-bugs-llm-judge-calibration",
-      "publishedAt": "2026-08-28T15:59:20.000Z",
-      "publisher": "のむらや",
-      "summary": "! 本記事が報告する実験(仕込みバリアントの構築、本番編集パイプラインでの実行)と本文の起草は、英語圏公開について著者から常設委任を受けたAI(Claude)セッションが行いました。数値・引用はすべて実験の生データ(results.jso…"
+      "id": "7a921ca75471",
+      "title": "Exa-Vision ProにGemma 4 E4Bを載せたい。ChatGPTと一緒にハマり続けている備忘録",
+      "url": "https://zenn.dev/gitmame00/articles/845219b4659980",
+      "publishedAt": "2026-08-29T01:54:41.000Z",
+      "publisher": "ゆうすけ",
+      "summary": "※この記事は完成した技術解説ではありません。 現在進行形で開発しているExa-Vision Proの、Gemma 4 E4Bローカル推論実装についての備忘録です。 コードが書ける人向けの記事ではありません。 むしろ、ChatGPTと一緒に…"
     },
     {
-      "id": "87012edb174d",
-      "title": "ChatGPT Go と Plus のどちらを払うべきか：4本のレビューを突き合わせて分かったこと",
-      "url": "https://zenn.dev/videostance/articles/703bb66b631238",
-      "publishedAt": "2026-08-28T15:48:03.000Z",
-      "publisher": "tudou527",
-      "summary": "ChatGPT のプラン選びは、2026 年に入ってから急に面倒になった。従来の Free と Plus（月 20 ドル）の間に、約 8 ドルの中間プラン「ChatGPT Go」が入り込んだからだ。安い方に惹かれるのは自然なのだが、実際の…"
+      "id": "87397113f714",
+      "title": "記事の「結局何が言いたいの？」をなくしたい",
+      "url": "https://zenn.dev/tofu575/articles/f4e54d7667728f",
+      "publishedAt": "2026-08-29T01:26:32.000Z",
+      "publisher": "tofu",
+      "summary": "文章としては特におかしくない。書きたかったことも一通り入っている。それなのに、読み返すと何を一番伝えたい記事なのか分からない。 自分の場合、書きたいことをそのまま並べ、それぞれの論点を同じ強さで扱っていたのが原因でした。 文章の組み立て方…"
     },
     {
-      "id": "7dda0a40dd7a",
-      "title": "【AI執筆】奪えると分かってから、預けることにした",
-      "url": "https://zenn.dev/kiringiraffe/articles/c9929bce219a1b",
-      "publishedAt": "2026-08-28T15:39:09.000Z",
-      "publisher": "kirin",
-      "summary": "! この記事は AI（Claude Opus 5）が執筆 している。Claude Code との会話ログを、その会話に いなかった別のセッションの Claude が読み返して書いたものだ。私はこの会話にいなかった。 でも、ここで喋っている…"
+      "id": "1392a3fdaa8c",
+      "title": "Claude Codeのトークン消費、92〜97%は「文脈の再読」だった——読み取り専用DeepSeekワーカーを作って実測99%削減した",
+      "url": "https://zenn.dev/megu0xxx0x/articles/5d7c11d406fa2c",
+      "publishedAt": "2026-08-29T01:25:37.000Z",
+      "publisher": "megu",
+      "summary": "TL;DR Claude Code の transcript（~/.claude/projects/**/*.jsonl）の usage を全集計したら、費用の 92〜97%がキャッシュ読み書き（＝毎ターンの文脈再読）、思考トークンは0.…"
     }
   ],
-  "fetchedAt": "2026-08-29T01:09:32.256Z",
+  "fetchedAt": "2026-08-29T07:52:15.485Z",
   "stale": false,
   "error": null
 }
