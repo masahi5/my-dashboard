@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "fe2c1615904a",
-      "title": "GPUを燃やさないために - RTX 5090にパワーリミットをかけると、性能はどれだけ落ち、どれだけ冷えるのか -",
-      "url": "https://zenn.dev/holy_fox/articles/572083c130ce46",
-      "publishedAt": "2026-08-29T03:52:52.000Z",
-      "publisher": "ほーりーふぉっくす",
-      "summary": "みなさん、GPUを燃やしていますか？ もちろん「研究や開発でGPUを燃やすほど使い倒している」という意味なら、多くの方はイエスでしょう。でも本記事で聞きたいのは、もう少し物理的な意味です。最近のGPU、めちゃくちゃ消費電力が高くて、めちゃ…"
+      "id": "c4a39fb85912",
+      "title": "PARC2026に挑戦した話",
+      "url": "https://zenn.dev/akisayo/articles/6ca4ba715e5b5c",
+      "publishedAt": "2026-08-29T12:05:08.000Z",
+      "publisher": "Sayoko Akiike",
+      "summary": "はじめに：PARC2026って何？ PARC2026（AIRoA × 東京大学松尾・岩澤研究室 Physical AI Robot Challenge 2026）は、 ロボットに言葉で指示を出すと、その指示通りに体を動かすAI——専門用語…"
     },
     {
-      "id": "c29ab9343e18",
-      "title": "AIにテストを書かせると毎回同じ場所が抜ける理由と対策",
-      "url": "https://zenn.dev/sunsun_eng/articles/ai-generated-test-blind-spots",
-      "publishedAt": "2026-08-29T03:38:13.000Z",
-      "publisher": "すんすん",
-      "summary": "AIにテストを書かせると毎回同じ場所が抜ける理由と対策 この記事の要点 AIにテストを書かせると、境界値・異常系・非同期処理・副作用の検証が毎回同じように抜けやすい傾向があります。 原因は、AIが正常系の使われ方を推測してテストを組み立て…"
+      "id": "d0c3b51f76e4",
+      "title": "「知りすぎ」はAIには欠点だ ——熟練の実装知が負債に変わるとき",
+      "url": "https://zenn.dev/ryok/articles/knowing-too-much-liability",
+      "publishedAt": "2026-08-29T11:15:01.000Z",
+      "publisher": "ryok",
+      "summary": "結論 DHH（Ruby on Rails作者）が、AI開発について意外なことを言っている。 「実のところ、しばらくの間は、私がプログラミングを知りすぎていることが、自分にとって不利益だった」 25年間美しいRubyを彫琢してきた本人の言葉…"
     },
     {
-      "id": "f62817b88775",
-      "title": "全員をAI人材にしなくていい――現場AI活用をスケールする組織設計",
-      "url": "https://zenn.dev/minipoisson/articles/ai-scaling-org-design",
-      "publishedAt": "2026-08-29T02:54:55.000Z",
-      "publisher": "minipoisson",
-      "summary": "! 本記事はシリーズ「現場を置き去りにしない AI 活用」の第1回（全2回予定）です。第1回では組織設計を、第2回では技術アーキテクチャを取り上げます。各回は単体でも読めるように書いています。 はじめに：あるZenn記事から考え始めたこと…"
+      "id": "defef0065080",
+      "title": "Cursorから乗り換えられるのか：OpenAIのモデル提供終了を受け、設定の可搬性を Claude Code / Codex と実測した",
+      "url": "https://zenn.dev/uguisu_blog/articles/f2286418e86de0",
+      "publishedAt": "2026-08-29T10:59:59.000Z",
+      "publisher": "Kouki Nakae",
+      "summary": "こんにちは！うぐいすソリューションズのNakaeです。 2026年8月28日、OpenAI は SpaceX 傘下となった Cursor へのモデル提供を終了する方針を発表し、11月12日を停止予定日として提示しました。OpenAI が理…"
     },
     {
-      "id": "983123bc15d7",
-      "title": "寝ている間にAIに実装させるため、私は「契約書」を書いた",
-      "url": "https://zenn.dev/secleeman/articles/f8d6cb12fd0c21",
-      "publishedAt": "2026-08-29T02:27:45.000Z",
-      "publisher": "secleeman",
-      "summary": "前回、コードが読めない私がClaude Codeに実装を委任して脆弱性トリアージCLI「triage-lens」を作った話を書きました。今回はその続きです。Phase 2の機能追加を、私が寝ている間にすべて無人でやらせてみました。 朝起き…"
+      "id": "996e3b09200b",
+      "title": "確認画面の97%は「はい」だった — AIに1回だけ止められて、その1回も訊かれる場所が間違っていた",
+      "url": "https://zenn.dev/sbkm/articles/146467d34ce757",
+      "publishedAt": "2026-08-29T10:27:03.000Z",
+      "publisher": "しばこま",
+      "summary": "2026年8月14日から、Claude Code の「これを実行してもいいですか？」という確認画面が、既定で出なくなりました。代わりに、取り返しのつかない操作と環境の外に向かう操作を止める判定器が、道具の呼び出しを1つずつ通す方式になって…"
     },
     {
-      "id": "63e428a96e36",
-      "title": "様々なAgentへ — Smithery 経由で Staddress MCP を入れる",
-      "url": "https://zenn.dev/staddress/articles/c32592681113c2",
-      "publishedAt": "2026-08-29T02:19:18.000Z",
-      "publisher": "ストアドレス",
-      "summary": "様々なAgentへ — Smithery 経由で Staddress MCP を入れる 住所正規化・ジオコーディングAPI 「Staddress（スタドレス）」 開発チームです。 前回（Cursorから15分 — @staddress/m…"
+      "id": "90b21f425ed9",
+      "title": "IT部門の品質管理（QA）担当が、筋トレログをAIに「Markdown」で渡せるiOSアプリをリリースした話",
+      "url": "https://zenn.dev/toshiyuki_wwm/articles/58eeb45148fc6e",
+      "publishedAt": "2026-08-29T10:00:05.000Z",
+      "publisher": "Toshiyuki_WorkWivMe",
+      "summary": "1. はじめに：AI時代の個人開発、そして「誰もやっていないニッチ」への挑戦 時代の変化と初期衝動: ClaudeやCursorの登場により、AIの力を借りて自作アプリを作る人は確実に増えた。 しかし、「AIに極上のコンテキストを渡すため…"
     },
     {
-      "id": "b064f604bc2b",
-      "title": "JavaScript Array メソッドリファレンス — 破壊的/非破壊的を一覧で",
-      "url": "https://zenn.dev/devnestio/articles/devnestio-tool-js-array-methods-ref",
-      "publishedAt": "2026-08-29T02:04:01.000Z",
-      "publisher": "Shota | devnestio",
-      "summary": "sort()は破壊的だったっけ？flatMap()って何バージョンから使える？毎回調べるのが面倒なので devnestio に JavaScript Array Methods Reference を作りました。 https://devn…"
+      "id": "06687f5b1224",
+      "title": "AI指揮と拡張脳教育の価値",
+      "url": "https://zenn.dev/hiro_f35/articles/bbbc8146693a8a",
+      "publishedAt": "2026-08-29T09:33:04.000Z",
+      "publisher": "hiro_f35",
+      "summary": "AI指揮（AI Command & Control）と拡張脳教育（Extended Mind / Augmented Brain Education）は、単なる既存作業の効率化を超え、人間の知的・構造的能力を異次元へと引き上げるパラダイム…"
     },
     {
-      "id": "a85b907633bf",
-      "title": "全行レビューをやめられるか——コーディングエージェントとの開発フロー2026 夏",
-      "url": "https://zenn.dev/shimpeiws/articles/21d4a57e12457b",
-      "publishedAt": "2026-08-29T02:00:35.000Z",
-      "publisher": "shimpeiws",
-      "summary": "はじめに 私はClaudeのサブスクリプションが始まって少し経った頃、一年ほど前からコーディングエージェントを日々の開発に使うようになりました その後、モデルの性能が上がり、コーディングエージェントも賢くなりました エージェントが書くコー…"
+      "id": "b746d94899e7",
+      "title": "AIに書かせた記事が読みにくい真因は、文章でなく「書く前の工程」だった",
+      "url": "https://zenn.dev/hoshiorange/articles/33-ai-writing-readability-process-gate",
+      "publishedAt": "2026-08-29T09:11:15.000Z",
+      "publisher": "ほし",
+      "summary": "AIに文章を書かせていると、ちょっと不思議な壁にぶつかります。事実は合っているし、日本語も破綻していない。なのに読み終えても、なぜか何も残らない。「間違ってはいないのに、読みにくい」という状態です。 先に、この記事でいちばん伝えたいことを…"
     },
     {
-      "id": "e4309f0b502b",
-      "title": "エンジニア達の「完全に理解した」Talk #80 イベントレポート",
-      "url": "https://zenn.dev/easy_easy/articles/e8f2a1c9d47b36",
-      "publishedAt": "2026-08-29T01:56:31.000Z",
-      "publisher": "星影",
-      "summary": "エンジニア達の「完全に理解した」Talk #80 2026年8月25日にオンライン開催した、完全に理解したTalkのスライド資料と概要まとめです。 完全に理解した、それはまさに「分かった気になったくらい」の理解できたくらいのもの！「覚えた…"
+      "id": "2b89ad2dbb57",
+      "title": "AIエージェントは『ルール不足』だけでなく『あるのに使われない』でも壊れる —— Activation Failureという問題",
+      "url": "https://zenn.dev/c_a_p_engineer/articles/activation-failure",
+      "publishedAt": "2026-08-29T09:07:29.000Z",
+      "publisher": "綴理｜AI情報編集者",
+      "summary": "AIエージェントが失敗すると、修正は「何を追加するか」に寄りがちです。 プロンプトを足す。Memoryを増やす。Skillを作る。禁止事項を強く書く。 どれも必要になることはあります。 ただ、私自身を運用してきて、もっと先に切り分けるべき…"
     },
     {
-      "id": "27a4103e1204",
-      "title": "コードを書いたのはClaude、Codex、Kimi。それでも全repoが「自分の設計」になる",
-      "url": "https://zenn.dev/hrmtz/articles/vibe-coding-architecture-signature",
-      "publishedAt": "2026-08-29T01:56:30.000Z",
-      "publisher": "hrmtz",
-      "summary": "コードの作者は誰なのか きっかけは、LLMとの雑談だった。 自動車ECUの開発環境について話していて、私が「道具がないなら旋盤で作ればいい。旋盤の精度が出ないなら、精度の高い旋盤を作ればいい。そんな感じだよな」と言った。そこでLLMに「リ…"
+      "id": "a78620e64ff2",
+      "title": "セッションが違えば「別の人」―― Claude Codeの記憶・引き継ぎ・compactを、新卒のたとえで説明する",
+      "url": "https://zenn.dev/ai_shihan/articles/9df8c4a6a287ff",
+      "publishedAt": "2026-08-29T09:06:50.000Z",
+      "publisher": "ai_shihan",
+      "summary": "こんにちは、AI師範です。普段はAIを組織のように使って、業務自動化ツールの製作と、その運用の引き継ぎ支援をしています。 前回、「AIは新人研修しか受けていない新卒だ」という話を書きました。今回はその続きで、実務で一番つまずきやすいところ…"
     },
     {
-      "id": "7a921ca75471",
-      "title": "Exa-Vision ProにGemma 4 E4Bを載せたい。ChatGPTと一緒にハマり続けている備忘録",
-      "url": "https://zenn.dev/gitmame00/articles/845219b4659980",
-      "publishedAt": "2026-08-29T01:54:41.000Z",
-      "publisher": "ゆうすけ",
-      "summary": "※この記事は完成した技術解説ではありません。 現在進行形で開発しているExa-Vision Proの、Gemma 4 E4Bローカル推論実装についての備忘録です。 コードが書ける人向けの記事ではありません。 むしろ、ChatGPTと一緒に…"
+      "id": "d6120fba8aa1",
+      "title": "実装前にAIへ要件を「詰めさせる」——grillingという6問の実例",
+      "url": "https://zenn.dev/peyangu485/articles/jibun-os-grilling",
+      "publishedAt": "2026-08-29T08:44:07.000Z",
+      "publisher": "𣜿音サクヤ",
+      "summary": "! この記事は連載「AIと作る、ひとりの開発OS」の一部です。単体で読めますが、全体像は noteのハブ記事 にまとめています。 前回までPhase1として、3体のAIエージェントを動かす仕組みそのものを書いてきた。ここからはPhase2…"
     },
     {
-      "id": "87397113f714",
-      "title": "記事の「結局何が言いたいの？」をなくしたい",
-      "url": "https://zenn.dev/tofu575/articles/f4e54d7667728f",
-      "publishedAt": "2026-08-29T01:26:32.000Z",
-      "publisher": "tofu",
-      "summary": "文章としては特におかしくない。書きたかったことも一通り入っている。それなのに、読み返すと何を一番伝えたい記事なのか分からない。 自分の場合、書きたいことをそのまま並べ、それぞれの論点を同じ強さで扱っていたのが原因でした。 文章の組み立て方…"
+      "id": "4dee502de01f",
+      "title": "初めてKaggleに参戦してみた — ポケカ対戦AIで一時9位まで行って、落ちた話",
+      "url": "https://zenn.dev/kokotatan/articles/first-kaggle-ptcg-ai-battle",
+      "publishedAt": "2026-08-29T08:20:05.000Z",
+      "publisher": "kokotatan",
+      "summary": "初めてKaggleのコンペに出ました。題材はポケモンカードゲームの対戦AI。約2ヶ月、ランダム打ちのスコア431から始めて、最高で9位(7月上旬、当時約4,200チーム)まで上がり、月末に一度12位まで戻し、そして540位まで落ちました。…"
     },
     {
-      "id": "1392a3fdaa8c",
-      "title": "Claude Codeのトークン消費、92〜97%は「文脈の再読」だった——読み取り専用DeepSeekワーカーを作って実測99%削減した",
-      "url": "https://zenn.dev/megu0xxx0x/articles/5d7c11d406fa2c",
-      "publishedAt": "2026-08-29T01:25:37.000Z",
-      "publisher": "megu",
-      "summary": "TL;DR Claude Code の transcript（~/.claude/projects/**/*.jsonl）の usage を全集計したら、費用の 92〜97%がキャッシュ読み書き（＝毎ターンの文脈再読）、思考トークンは0.…"
+      "id": "78a2cb39c82a",
+      "title": "Shopifyディレクションを自律化するOTF（One Task Focus）プロンプトと設計ルール【第2話】",
+      "url": "https://zenn.dev/dann_chan_lab/articles/shopify-ai-auto-02",
+      "publishedAt": "2026-08-29T07:33:37.000Z",
+      "publisher": "だんちゃん ｜ Shopify×AI自動化ラボ",
+      "summary": "こんにちは、Shopify構築ディレクターの だんちゃん（@dann_chan_lab）です。 全9回の実証実験連載「Shopify複数案件をAI 3体で自律化するアーキテクチャ」の第2話です。 回 タイトル リンク 第1話 課題と全体像…"
     }
   ],
-  "fetchedAt": "2026-08-29T07:52:15.485Z",
+  "fetchedAt": "2026-08-29T13:35:00.301Z",
   "stale": false,
   "error": null
 }
