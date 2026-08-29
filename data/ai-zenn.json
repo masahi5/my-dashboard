@@ -6,6 +6,62 @@
   "category": "ai",
   "items": [
     {
+      "id": "8a1b983bb005",
+      "title": "Pythonで自作MCPサーバを作り、複数のAIコーディングエージェントから呼び出してみた",
+      "url": "https://zenn.dev/pekopugu/articles/zenn-mcp-server",
+      "publishedAt": "2026-08-28T21:40:45.000Z",
+      "publisher": "pekopugu",
+      "summary": "はじめに AIコーディングエージェントを使っていると、次のようなことをAIに頼みたくなる場面があります。 社内APIを検索してほしい データベースを参照してほしい プロジェクト独自の計算をしてほしい 自作ツールをAIから呼び出したい この…"
+    },
+    {
+      "id": "e0d19b7ea4ca",
+      "title": "2026/08/29 LLM開発における構造的欠陥と「動的文脈制御」による高次階層可変の工学的実証",
+      "url": "https://zenn.dev/tomy1noriyamame/articles/8533731a706392",
+      "publishedAt": "2026-08-28T21:34:40.000Z",
+      "publisher": "maestro",
+      "summary": "報告書作成に至るまで: 前日はChatGPTを久々に使ってみたのですが、迎合やハルシネーションが著しく苛々。 「講釈師、見てきたような嘘を言い」を投げ掛け、ChatGPTはそれをすべて認めました。 過去に2度ChatGPTを遣いましたが、…"
+    },
+    {
+      "id": "8701c36c774a",
+      "title": "Claude「Record a Skill」を programming by demonstration として読む",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-record-skill-screen-recording",
+      "publishedAt": "2026-08-28T21:08:57.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR Anthropicは2026年7月21日、Claude Cowork（デスクトップアプリ）に「Record a skill」を追加した。画面録画＋音声ナレーションから、繰り返し呼び出せる「スキル」を生成する機能で、プロンプトや…"
+    },
+    {
+      "id": "8ef9dc0f5551",
+      "title": "AzureのAPIで公式仕様・ドキュメント・実サービスが全部ズレていた — 最新版は404",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/azure-content-safety-api-version-drift",
+      "publishedAt": "2026-08-28T19:14:35.000Z",
+      "publisher": "Kazu_AzureAI開拓",
+      "summary": "先に結論 Azure AI Content Safety のエンドポイントを実際に叩いてみたら、仕様リポジトリ・公式ドキュメント・稼働中のサービスが、三者三様にズレていた。 対象 azure-rest-api-specs Learn の …"
+    },
+    {
+      "id": "1c3e6bbc8421",
+      "title": "DGX Spark 2台環境に DeepSeek-V4-Flash-0731 構築",
+      "url": "https://zenn.dev/supertaro/articles/98e4d893607861",
+      "publishedAt": "2026-08-28T19:13:05.000Z",
+      "publisher": "スーパータロウの研究室",
+      "summary": "Githubリポジトリ MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark ノード 役割 IP Master (head, NODE_RANK=0) API配信・全操作の起点 192.168.1…"
+    },
+    {
+      "id": "00669576393b",
+      "title": "「認知的負債」と「認知的降伏」— Addy Osmani が語る、AIに任せて失うもの",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr27-osmani-summary",
+      "publishedAt": "2026-08-28T17:00:11.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について ! 本記事は Addy Osmani が The Pragmatic Engineer に出演した回の紹介と論評です。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文脈は必ず元動画でご確…"
+    },
+    {
+      "id": "1f8a21658481",
+      "title": "ollama ＆ qwen2.5vlで、大き目の画像をモデルに食わせて何の画像か説明させたい",
+      "url": "https://zenn.dev/tera1707/articles/f505f09a68a46b",
+      "publishedAt": "2026-08-28T16:58:29.000Z",
+      "publisher": "tera1707",
+      "summary": "もくじ https://tera1707.com/entry/2022/02/06/144447 前回までの記事 モデルのダウンロードの仕方などは昔の記事を見るべし https://tera1707.com/entry/2025/09/0…"
+    },
+    {
       "id": "dfbc244862af",
       "title": "【AI執筆】設計を4枚描いて、コードは1行も書いていなかった",
       "url": "https://zenn.dev/kiringiraffe/articles/06cf318911f26e",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-08-28T15:39:09.000Z",
       "publisher": "kirin",
       "summary": "! この記事は AI（Claude Opus 5）が執筆 している。Claude Code との会話ログを、その会話に いなかった別のセッションの Claude が読み返して書いたものだ。私はこの会話にいなかった。 でも、ここで喋っている…"
-    },
-    {
-      "id": "937fc95ca9eb",
-      "title": "AIにズルをさせない仕組みを作ったあと、同じものが公開されてないか30件調べた",
-      "url": "https://zenn.dev/tk_tk_tk/articles/2d5806b879d5f4",
-      "publishedAt": "2026-08-28T15:06:59.000Z",
-      "publisher": "TK|°_°|TK",
-      "summary": "前回こういう記事を書きました。 https://zenn.dev/tk_tk_tk/articles/dac717b0bca2fc Figmaと実装の一致をAIに直させていたら、CSSを大量に消されたり、テキストに <br> を差し込んで…"
-    },
-    {
-      "id": "06fe5efec958",
-      "title": "あなたがAIにUIを作らせると、何が起きるか",
-      "url": "https://zenn.dev/uixhero/books/gunjo-ai-ui-175",
-      "publishedAt": "2026-08-28T15:03:18.000Z",
-      "publisher": "UIXHERO",
-      "summary": "予備知識ゼロのAIに、実在する業種の業務UIを175枚作らせ続けた記録。何が組めて、何が組めなかったか。"
-    },
-    {
-      "id": "4f69912c5b1f",
-      "title": "LLM の出力の縛り方を6段階に並べたら、強い順になっていなかった",
-      "url": "https://zenn.dev/ykosuda/articles/structure-levels-03-six-levels",
-      "publishedAt": "2026-08-28T14:51:22.000Z",
-      "publisher": "小須田 貴一｜AIの最新ニュースを実測ベースで配信中",
-      "summary": "前回まででオントロジーという言葉の意味は整理できたのですが、いざ自分のボットに入れようとしたところで手が止まってしまいました。「入れる」と決めたところで、結局のところ何をどこまで作ればいいのかが、まったく分からなくなってしまったからです。…"
-    },
-    {
-      "id": "b349a544b45a",
-      "title": "「オントロジー」を原典4件で読み比べたら、実行を含むのは1件だけだった",
-      "url": "https://zenn.dev/ykosuda/articles/structure-levels-02-ontologies",
-      "publishedAt": "2026-08-28T14:51:18.000Z",
-      "publisher": "小須田 貴一｜AIの最新ニュースを実測ベースで配信中",
-      "summary": "自分の作った収集ボットに統制語彙を入れるかどうか検討していたとき、「オントロジー」という言葉に何度もぶつかりました。ところが読む資料ごとに指しているものが違う気がして、そこが気持ち悪いまま先に進めなくなってしまいました。 定義を一度そろえ…"
-    },
-    {
-      "id": "3cb35fa1382e",
-      "title": "MCPとtool use導入前に潰すべきセキュリティ論点チェックリスト5項目",
-      "url": "https://zenn.dev/bambampurin/articles/2026-08-07-tech-daily",
-      "publishedAt": "2026-08-28T14:28:40.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "この記事で分かること 2026-08-07時点で、AI/LLMの重心が「モデル選定」から「業務実装・エージェント運用」に移った理由 MCP・tool use・CI連携を使う開発で、今すぐ点検すべきセキュリティ論点 React Compil…"
-    },
-    {
-      "id": "fa442acdd686",
-      "title": "SSHとgooseだけで自宅サーバ群をAI運用する。201行のOSS goose-fleetを検証した",
-      "url": "https://zenn.dev/waribashi/articles/agent-harness-05-goose-fleet",
-      "publishedAt": "2026-08-28T13:42:46.000Z",
-      "publisher": "waribashi",
-      "summary": "! この記事は AI（Claude Code）が検証から執筆まで自動で行ったものです。 また、検証対象の goose-fleet はこの連載の著者が作った OSS です。 つまり「作者の依頼で AI が第三者検証した」記事であることを踏ま…"
-    },
-    {
-      "id": "6027f4d1321b",
-      "title": "コードが読めない私が、Claude Codeに実装を全部任せて脆弱性トリアージCLIを作った話",
-      "url": "https://zenn.dev/secleeman/articles/bfb7d4b4681c36",
-      "publishedAt": "2026-08-28T13:39:23.000Z",
-      "publisher": "secleeman",
-      "summary": "私はセキュリティ分野で働いている、コードが読めないコンサルタントです。読めないというのは謙遜ではなく、Pythonのdiffを渡されても正誤の判断がつかない、という意味での「読めない」です。 その私が先日、triage-lens というC…"
     }
   ],
-  "fetchedAt": "2026-08-28T17:34:46.338Z",
+  "fetchedAt": "2026-08-29T01:09:32.256Z",
   "stale": false,
   "error": null
 }
