@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "2b1b248195ec",
-      "title": "わかりにくい概念やニュースを“わかりやすいイラスト”で貯める - AI Second Brainを作った",
-      "url": "https://zenn.dev/ttk1010/articles/ai-second-brain-intro",
-      "publishedAt": "2026-08-29T05:26:00.000Z",
-      "publisher": "ttk1010",
-      "summary": "まず、できあがるもの 「気になったけどよくわからない概念やニュースを放り込むと、統一されたテイストのイラスト付きで“わかりやすい一枚”にまとまってObsidianに貯まっていく」——そんなツール AI Second Brain を作りまし…"
-    },
-    {
-      "id": "a820af768160",
-      "title": "未来クライム ベーシックコース 第三回（2026年9月13日）",
-      "url": "https://zenn.dev/zumiyan/books/533182dfa21977",
-      "publishedAt": "2026-08-29T04:53:37.000Z",
-      "publisher": "ずみやん",
-      "summary": "美唄市民会館 講師：先崎"
-    },
-    {
-      "id": "fe2c1615904a",
-      "title": "GPUを燃やさないために - RTX 5090にパワーリミットをかけると、性能はどれだけ落ち、どれだけ冷えるのか -",
-      "url": "https://zenn.dev/holy_fox/articles/572083c130ce46",
-      "publishedAt": "2026-08-29T03:52:52.000Z",
-      "publisher": "ほーりーふぉっくす",
-      "summary": "みなさん、GPUを燃やしていますか？ もちろん「研究や開発でGPUを燃やすほど使い倒している」という意味なら、多くの方はイエスでしょう。でも本記事で聞きたいのは、もう少し物理的な意味です。最近のGPU、めちゃくちゃ消費電力が高くて、めちゃ…"
-    },
-    {
-      "id": "c29ab9343e18",
-      "title": "AIにテストを書かせると毎回同じ場所が抜ける理由と対策",
-      "url": "https://zenn.dev/sunsun_eng/articles/ai-generated-test-blind-spots",
-      "publishedAt": "2026-08-29T03:38:13.000Z",
-      "publisher": "すんすん",
-      "summary": "AIにテストを書かせると毎回同じ場所が抜ける理由と対策 この記事の要点 AIにテストを書かせると、境界値・異常系・非同期処理・副作用の検証が毎回同じように抜けやすい傾向があります。 原因は、AIが正常系の使われ方を推測してテストを組み立て…"
-    },
-    {
-      "id": "f62817b88775",
-      "title": "全員をAI人材にしなくていい――現場AI活用をスケールする組織設計",
-      "url": "https://zenn.dev/minipoisson/articles/ai-scaling-org-design",
-      "publishedAt": "2026-08-29T02:54:55.000Z",
+      "id": "0bf5f8951fe0",
+      "title": "現場をPython側へ移住させない――既存業務とAIをつなぐBridge Engineering",
+      "url": "https://zenn.dev/minipoisson/articles/ai-bridge-engineering",
+      "publishedAt": "2026-08-29T16:14:36.000Z",
       "publisher": "minipoisson",
-      "summary": "! 本記事はシリーズ「現場を置き去りにしない AI 活用」の第1回（全2回予定）です。第1回では組織設計を、第2回では技術アーキテクチャを取り上げます。各回は単体でも読めるように書いています。 はじめに：あるZenn記事から考え始めたこと…"
+      "summary": "! 本記事はシリーズ「現場を置き去りにしない AI 活用」の第2回（全2回）です。第1回では組織設計を、第2回では技術アーキテクチャを取り上げます。各回は単体でも読めるように書いています。 第1回：https://zenn.dev/min…"
     },
     {
-      "id": "983123bc15d7",
-      "title": "寝ている間にAIに実装させるため、私は「契約書」を書いた",
-      "url": "https://zenn.dev/secleeman/articles/f8d6cb12fd0c21",
-      "publishedAt": "2026-08-29T02:27:45.000Z",
-      "publisher": "secleeman",
-      "summary": "前回、コードが読めない私がClaude Codeに実装を委任して脆弱性トリアージCLI「triage-lens」を作った話を書きました。今回はその続きです。Phase 2の機能追加を、私が寝ている間にすべて無人でやらせてみました。 朝起き…"
+      "id": "e5ca2acbdfc2",
+      "title": "AIに長時間ゲームを目隠し試遊させて分かった、減らしてよい手間と残すべき品質",
+      "url": "https://zenn.dev/namayasai/articles/bfda53accd5a8e",
+      "publishedAt": "2026-08-29T15:22:14.000Z",
+      "publisher": "なまやさい",
+      "summary": "普段はBtoBでクラウドとかインフラばかり触っているエンジニアなんだけど、ある日ふと、ゲームを作りたくなった。 で、自分の好きなジャンルのゲームを作った。作ったはいいが、遊んでくれる人がいない。 そもそも友人が多いほうではないし、初めての…"
     },
     {
-      "id": "63e428a96e36",
-      "title": "様々なAgentへ — Smithery 経由で Staddress MCP を入れる",
-      "url": "https://zenn.dev/staddress/articles/c32592681113c2",
-      "publishedAt": "2026-08-29T02:19:18.000Z",
-      "publisher": "ストアドレス",
-      "summary": "様々なAgentへ — Smithery 経由で Staddress MCP を入れる 住所正規化・ジオコーディングAPI 「Staddress（スタドレス）」 開発チームです。 前回（Cursorから15分 — @staddress/m…"
+      "id": "7d11fa3e4062",
+      "title": "レビュー役のAIにコードを直させると、バグが無かったことになる — Claude Code サブエージェント4役の境界設計",
+      "url": "https://zenn.dev/10itagae_4/articles/e7edbb7b931450",
+      "publishedAt": "2026-08-29T14:31:24.000Z",
+      "publisher": "たべ",
+      "summary": "Claude Code のサブエージェントを Coder / Reviewer / Tester / Doc Writer の4役に分けて、3案件112チケット回した。 先に断っておくと、この分け方が正しいのかは分かっていない。 実装／レ…"
     },
     {
-      "id": "b064f604bc2b",
-      "title": "JavaScript Array メソッドリファレンス — 破壊的/非破壊的を一覧で",
-      "url": "https://zenn.dev/devnestio/articles/devnestio-tool-js-array-methods-ref",
-      "publishedAt": "2026-08-29T02:04:01.000Z",
-      "publisher": "Shota | devnestio",
-      "summary": "sort()は破壊的だったっけ？flatMap()って何バージョンから使える？毎回調べるのが面倒なので devnestio に JavaScript Array Methods Reference を作りました。 https://devn…"
+      "id": "7dd9425dd849",
+      "title": "「3 か月でコピーできるか？」── AI 時代の Moat を判定する Claude Code skill を作った",
+      "url": "https://zenn.dev/toshipon/articles/moat-test-skill-for-ai-era",
+      "publishedAt": "2026-08-29T13:28:01.000Z",
+      "publisher": "toshipon",
+      "summary": "はじめに 「この機能、作ったら競合に勝てるのでは？」── 個人開発でアイデアが浮かんだとき、こう思うことはないでしょうか。 筆者もよくあります。ただ最近、その直後に必ず自分に問うようにしている質問があります。 Claude Code を持…"
     },
     {
-      "id": "a85b907633bf",
-      "title": "全行レビューをやめられるか——コーディングエージェントとの開発フロー2026 夏",
-      "url": "https://zenn.dev/shimpeiws/articles/21d4a57e12457b",
-      "publishedAt": "2026-08-29T02:00:35.000Z",
-      "publisher": "shimpeiws",
-      "summary": "はじめに 私はClaudeのサブスクリプションが始まって少し経った頃、一年ほど前からコーディングエージェントを日々の開発に使うようになりました その後、モデルの性能が上がり、コーディングエージェントも賢くなりました エージェントが書くコー…"
+      "id": "1f5904c4f95e",
+      "title": "BOHB 論文解説：候補生成と予算配分から理解する Multi-fidelity HPO",
+      "url": "https://zenn.dev/mantis_ryuji/articles/c83da3bf1760cf",
+      "publishedAt": "2026-08-29T13:20:49.000Z",
+      "publisher": "mantis_ryuji",
+      "summary": "1. はじめに 機械学習モデルの性能は、学習率、バッチサイズ、正則化係数、モデル構造など、多数のハイパーパラメータに左右される。しかし、あるハイパーパラメータ設定の良し悪しを正確に評価するには、基本的にはモデルを最後まで学習しなければなら…"
     },
     {
-      "id": "e4309f0b502b",
-      "title": "エンジニア達の「完全に理解した」Talk #80 イベントレポート",
-      "url": "https://zenn.dev/easy_easy/articles/e8f2a1c9d47b36",
-      "publishedAt": "2026-08-29T01:56:31.000Z",
-      "publisher": "星影",
-      "summary": "エンジニア達の「完全に理解した」Talk #80 2026年8月25日にオンライン開催した、完全に理解したTalkのスライド資料と概要まとめです。 完全に理解した、それはまさに「分かった気になったくらい」の理解できたくらいのもの！「覚えた…"
+      "id": "8c3e2a3a69d4",
+      "title": "Claude Codeに“リードエンジニア”をやらせて、実用アプリを爆速かつ“崩さず”作る",
+      "url": "https://zenn.dev/ttk1010/articles/ai-second-brain-dev",
+      "publishedAt": "2026-08-29T13:17:02.000Z",
+      "publisher": "ttk1010",
+      "summary": "「初日で5,000行」その後が本題 個人開発で AI Second Brain（わかりにくい概念やニュースをイラスト付きノートにして貯めるツール）を作りました。開発はほぼ Claude Code に“リードエンジニア”をやらせたのですが、…"
     },
     {
-      "id": "27a4103e1204",
-      "title": "コードを書いたのはClaude、Codex、Kimi。それでも全repoが「自分の設計」になる",
-      "url": "https://zenn.dev/hrmtz/articles/vibe-coding-architecture-signature",
-      "publishedAt": "2026-08-29T01:56:30.000Z",
-      "publisher": "hrmtz",
-      "summary": "コードの作者は誰なのか きっかけは、LLMとの雑談だった。 自動車ECUの開発環境について話していて、私が「道具がないなら旋盤で作ればいい。旋盤の精度が出ないなら、精度の高い旋盤を作ればいい。そんな感じだよな」と言った。そこでLLMに「リ…"
+      "id": "c21766b8939e",
+      "title": "AIエージェントの「ハーネス」完全ガイド、Claude Codeに学ぶ実用精度の秘密やで",
+      "url": "https://zenn.dev/masayan1126/books/ai-agent-harness-guide",
+      "publishedAt": "2026-08-29T13:10:19.000Z",
+      "publisher": "たこやきねこやで",
+      "summary": "Web版ClaudeとClaude Codeでなんで実用的な精度に差が出るんか。AIエージェントの能力を決定する「ハーネス」の概念と具体的な実装例を、マイルドな関西弁で解説するで。モデル性能だけでは分からへん真のAI活用法が分かるで。"
     },
     {
-      "id": "7a921ca75471",
-      "title": "Exa-Vision ProにGemma 4 E4Bを載せたい。ChatGPTと一緒にハマり続けている備忘録",
-      "url": "https://zenn.dev/gitmame00/articles/845219b4659980",
-      "publishedAt": "2026-08-29T01:54:41.000Z",
-      "publisher": "ゆうすけ",
-      "summary": "※この記事は完成した技術解説ではありません。 現在進行形で開発しているExa-Vision Proの、Gemma 4 E4Bローカル推論実装についての備忘録です。 コードが書ける人向けの記事ではありません。 むしろ、ChatGPTと一緒に…"
+      "id": "a9d4da296f0b",
+      "title": "AI組織を1人で運営する（1）全体像",
+      "url": "https://zenn.dev/miyan/articles/ai-solo-org-ops-01-overview",
+      "publishedAt": "2026-08-29T13:10:03.000Z",
+      "publisher": "dtakamiya",
+      "summary": "この連載について Claude Code を土台に、**8 つの部門・22 本の cron ジョブ・30 人ほどの「AI 従業員」**からなる組織を 1 人で運営しています。この連載は、その組織を実際にどう組んで、どう回して、どこで失敗し…"
+    },
+    {
+      "id": "c4a39fb85912",
+      "title": "PARC2026に挑戦した話",
+      "url": "https://zenn.dev/akisayo/articles/6ca4ba715e5b5c",
+      "publishedAt": "2026-08-29T12:05:08.000Z",
+      "publisher": "Sayoko Akiike",
+      "summary": "はじめに：PARC2026って何？ PARC2026（AIRoA × 東京大学松尾・岩澤研究室 Physical AI Robot Challenge 2026）は、 ロボットに言葉で指示を出すと、その指示通りに体を動かすAI——専門用語…"
+    },
+    {
+      "id": "d0c3b51f76e4",
+      "title": "「知りすぎ」はAIには欠点だ ——熟練の実装知が負債に変わるとき",
+      "url": "https://zenn.dev/ryok/articles/knowing-too-much-liability",
+      "publishedAt": "2026-08-29T11:15:01.000Z",
+      "publisher": "ryok",
+      "summary": "結論 DHH（Ruby on Rails作者）が、AI開発について意外なことを言っている。 「実のところ、しばらくの間は、私がプログラミングを知りすぎていることが、自分にとって不利益だった」 25年間美しいRubyを彫琢してきた本人の言葉…"
+    },
+    {
+      "id": "defef0065080",
+      "title": "Cursorから乗り換えられるのか：OpenAIのモデル提供終了を受け、設定の可搬性を Claude Code / Codex と実測した",
+      "url": "https://zenn.dev/uguisu_blog/articles/f2286418e86de0",
+      "publishedAt": "2026-08-29T10:59:59.000Z",
+      "publisher": "Kouki Nakae",
+      "summary": "こんにちは！うぐいすソリューションズのNakaeです。 2026年8月28日、OpenAI は SpaceX 傘下となった Cursor へのモデル提供を終了する方針を発表し、11月12日を停止予定日として提示しました。OpenAI が理…"
+    },
+    {
+      "id": "996e3b09200b",
+      "title": "確認画面の97%は「はい」だった — AIに1回だけ止められて、その1回も訊かれる場所が間違っていた",
+      "url": "https://zenn.dev/sbkm/articles/146467d34ce757",
+      "publishedAt": "2026-08-29T10:27:03.000Z",
+      "publisher": "しばこま",
+      "summary": "2026年8月14日から、Claude Code の「これを実行してもいいですか？」という確認画面が、既定で出なくなりました。代わりに、取り返しのつかない操作と環境の外に向かう操作を止める判定器が、道具の呼び出しを1つずつ通す方式になって…"
     }
   ],
-  "fetchedAt": "2026-08-29T17:22:49.221Z",
+  "fetchedAt": "2026-08-29T19:53:54.543Z",
   "stale": false,
   "error": null
 }
