@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "62ea505047a4",
-      "title": "AIエージェントに本番UPDATEをさせる前に置くべき「承認ゲート」設計",
-      "url": "https://zenn.dev/akinori901/articles/weekly-draft-c-approval-gate",
-      "publishedAt": "2026-08-29T21:47:31.000Z",
-      "publisher": "Akinori901",
-      "summary": "AIエージェント（Claude Code や Cursor など）に実務フローを任せ始めると、ある日必ず「本番DBへの書き込みまでやってほしい」という要求にぶつかる。集計結果の反映、フラグの一括更新、特定期間のレコード修正——こうした破壊…"
+      "id": "1f9b71f67dac",
+      "title": "ゲームの進行管理ツールをAIと2週間で作って公開した感想 ── 前回のノウハウは通用した、その分見えるものが増えて混乱した",
+      "url": "https://zenn.dev/motimotinotch/articles/c8af0d3fcb9de0",
+      "publishedAt": "2026-08-30T09:48:37.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "AIと組んで大きめのものを作るのは、これが2回目だ。 1回目は自分のサイトだった。あのときは何も分かっていなかった。AIに何をどこまで任せていいのか、自分がどこで手を止めて確認すべきか。全部その場で覚えた。 2回目の今回は、遊んでいるゲー…"
     },
     {
-      "id": "5d5494072751",
-      "title": "多役プロンプトの人物ロールは、名前でなく1行の評価基準で分岐する",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-historical-figure-role-debate",
-      "publishedAt": "2026-08-29T21:10:18.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 多役プロンプトで役に「肩書き」ではなく実在の人物名（歴史上の経営者・思想家）を割り当てても、価値観を明示しない限り、出力は人物によらない一般論に収束する 人物名だけを渡した条件では、生成される発言は3人ともほぼ同じ要旨になり、…"
+      "id": "1359301b8c8e",
+      "title": "モデルの違いは「学歴と単価」―― Opus / Sonnet / Haiku の使い分けと、Codexが違う理由",
+      "url": "https://zenn.dev/ai_shihan/articles/fe86b2a4eabe88",
+      "publishedAt": "2026-08-30T09:13:44.000Z",
+      "publisher": "ai_shihan",
+      "summary": "こんにちは、AI師範です。普段はAIを組織のように使って、業務自動化ツールの製作と、その運用の引き継ぎ支援をしています。 「AIは新人研修しか受けていない新卒」「セッションが違えば別の人」と書いてきたシリーズの3本目です。今回はモデルの選…"
     },
     {
-      "id": "3116d4c60ba1",
-      "title": "A3C（Asynchronous Advantage Actor-Critic）を数式と実装で理解する",
-      "url": "https://zenn.dev/taichiendoh/articles/a3c-async-advantage-actor-critic-design",
-      "publishedAt": "2026-08-29T21:09:18.000Z",
-      "publisher": "遠藤太一",
-      "summary": "初出: note（A3C（Asynchronous Advantage Actor-Critic））。Zenn向けに数式・擬似コード・現行手法との比較を補って再構成しました。 強化学習の応用例としてよく名前が挙がる A3C（Asynchr…"
+      "id": "996e75acbccb",
+      "title": "Llama3.2 3BにマイクラをやらせるコードをAIにつくらせた【Mineflayer + Ollama】",
+      "url": "https://zenn.dev/conbi_fan/articles/1fbdcd894acf1c",
+      "publishedAt": "2026-08-30T08:36:29.000Z",
+      "publisher": "Conbi Fan",
+      "summary": "Llama3.2 3BにマイクラをやらせるコードをAIにつくらせた【Mineflayer + Ollama】 はじめに 今回は、Llama3.2 3BにMinecraftをプレイさせるBotコードをAIにつくらせてみました。 使ったものは…"
     },
     {
-      "id": "d77fa577081e",
-      "title": "「12月からコードを一行も書いていない」Karpathy×No Priorsを要点解説",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr09-karpathy-nopriors-summary",
-      "publishedAt": "2026-08-29T21:00:07.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について Andrej Karpathy が No Priors（Sarah Guo との対談ポッドキャスト）で語った内容を、要点だけ抜き出して日本語で解説します。「AIエージェント時代に、エンジニアの仕事は何に変わったか」を実感…"
+      "id": "1cd951061e45",
+      "title": "AI時代に残るのは知識より「耳」かもしれない",
+      "url": "https://zenn.dev/aqiu/articles/531180a25c21e9",
+      "publishedAt": "2026-08-30T07:36:05.000Z",
+      "publisher": "aqiu",
+      "summary": "AIに聞けば、答えはかなり速く返ってくるようになった。 作曲でも、コードでも、ミックスの話でも、少し調べればそれらしい説明はすぐ出る。 でも、音楽を触っていると別の感覚が残る。 答えを知ることと、違いを聴き分けることは、やっぱり同じではな…"
     },
     {
-      "id": "e84d84cfc28e",
-      "title": "問い合わせの添付ファイルをAIへ渡す前に置く、安全ゲートの最小設計",
-      "url": "https://zenn.dev/miraigent/articles/ai-inquiry-attachment-safety-gate",
-      "publishedAt": "2026-08-29T20:35:47.000Z",
-      "publisher": "Kirisaki Kazuya | Miraigent代表",
-      "summary": "問い合わせフォームや共有メールにPDF、画像、表計算ファイルが届くと、AIで要約したくなります。しかし「添付されたから、そのままAIへ送る」は運用として危険です。この記事では、小規模チームでも実装しやすいように、受付・添付確認・人の承認・…"
+      "id": "67c0e55e3c51",
+      "title": "実行ハーネスの動きから読み解く、コーディングエージェントの基礎",
+      "url": "https://zenn.dev/joker20081/articles/coding-agent-harness-architecture",
+      "publishedAt": "2026-08-30T07:34:14.000Z",
+      "publisher": "エージェント評価の備忘録",
+      "summary": "「ハーネスって、なんだよ。」 コーディングエージェントの解説を読むたび、私はここで止まっていました。 CLAUDE.md、Skills、Tools、MCP、Permissions、Sandbox、Hooks、Context Compact…"
     },
     {
-      "id": "0bf5f8951fe0",
-      "title": "現場をPython側へ移住させない――既存業務とAIをつなぐBridge Engineering",
-      "url": "https://zenn.dev/minipoisson/articles/ai-bridge-engineering",
-      "publishedAt": "2026-08-29T16:14:36.000Z",
-      "publisher": "minipoisson",
-      "summary": "! 本記事はシリーズ「現場を置き去りにしない AI 活用」の第2回（全2回）です。第1回では組織設計を、第2回では技術アーキテクチャを取り上げます。各回は単体でも読めるように書いています。 第1回：https://zenn.dev/min…"
+      "id": "b40184796e6c",
+      "title": "非エンジニアが、AIにWebサイトを丸ごと運営させて1ヶ月経った",
+      "url": "https://zenn.dev/digitalsales/articles/db2042950d82ec",
+      "publishedAt": "2026-08-30T07:29:19.000Z",
+      "publisher": "Digital Sales",
+      "summary": "私はエンジニアではありません。コードは書けませんし、正直いまも自分のサイトのソースを自力では読めません。 それでも今、94本のWebツールと約300ページを持つサイトが、毎朝ほぼ自動で運営されています。ニュースを拾い、記事に節を足し、検索…"
     },
     {
-      "id": "e5ca2acbdfc2",
-      "title": "AIに長時間ゲームを目隠し試遊させて分かった、減らしてよい手間と残すべき品質",
-      "url": "https://zenn.dev/namayasai/articles/bfda53accd5a8e",
-      "publishedAt": "2026-08-29T15:22:14.000Z",
-      "publisher": "なまやさい",
-      "summary": "普段はBtoBでクラウドとかインフラばかり触っているエンジニアなんだけど、ある日ふと、ゲームを作りたくなった。 で、自分の好きなジャンルのゲームを作った。作ったはいいが、遊んでくれる人がいない。 そもそも友人が多いほうではないし、初めての…"
+      "id": "9b9f9f837260",
+      "title": "AIっぽい日本語を自然に整える Agent Skill「ja-ai-polish」を作った",
+      "url": "https://zenn.dev/ryodev/articles/477e55d60f544b",
+      "publishedAt": "2026-08-30T07:05:29.000Z",
+      "publisher": "Ryo | AI Agent / NLP",
+      "summary": "AIに日本語を書いてもらう機会がかなり増えました。 メール、Slack、Xへの投稿、README、技術記事。最近は、文章の下書きをAIに任せることも珍しくありません。 ただ、生成された文章をそのまま使おうとすると、妙な違和感が残ることがあ…"
     },
     {
-      "id": "7d11fa3e4062",
-      "title": "レビュー役のAIにコードを直させると、バグが無かったことになる — Claude Code サブエージェント4役の境界設計",
-      "url": "https://zenn.dev/10itagae_4/articles/e7edbb7b931450",
-      "publishedAt": "2026-08-29T14:31:24.000Z",
-      "publisher": "たべ",
-      "summary": "Claude Code のサブエージェントを Coder / Reviewer / Tester / Doc Writer の4役に分けて、3案件112チケット回した。 先に断っておくと、この分け方が正しいのかは分かっていない。 実装／レ…"
+      "id": "57bb88b485cf",
+      "title": "SocialHub Web 技術的選択と背景",
+      "url": "https://zenn.dev/uakihir0/articles/260828-socialhub-web",
+      "publishedAt": "2026-08-30T06:42:38.000Z",
+      "publisher": "うるし",
+      "summary": "自己紹介 うるし といいます。ゲーム業界に身を置く、Web サービスにまつわる何でも屋です。以前はサーバーサイドエンジニアと名乗っていたのですが、AI の普及や、仕事における自分の担当領域の変化もあり、ほぼエンジニアロールという概念が失わ…"
     },
     {
-      "id": "7dd9425dd849",
-      "title": "「3 か月でコピーできるか？」── AI 時代の Moat を判定する Claude Code skill を作った",
-      "url": "https://zenn.dev/toshipon/articles/moat-test-skill-for-ai-era",
-      "publishedAt": "2026-08-29T13:28:01.000Z",
-      "publisher": "toshipon",
-      "summary": "はじめに 「この機能、作ったら競合に勝てるのでは？」── 個人開発でアイデアが浮かんだとき、こう思うことはないでしょうか。 筆者もよくあります。ただ最近、その直後に必ず自分に問うようにしている質問があります。 Claude Code を持…"
+      "id": "b9e2e3274c41",
+      "title": "占いMCPを作ってみた話 〜MCPの仕組みを理解する実践チュートリアル〜",
+      "url": "https://zenn.dev/yoshi_in_zenn/articles/8803ba4ab93fe6",
+      "publishedAt": "2026-08-30T06:38:59.000Z",
+      "publisher": "Yoshi",
+      "summary": "1. 導入:なぜ占いMCPを作ったか 最近話題のMCP(Model Context Protocol)。「AIと外部ツールをつなぐ仕組み」と聞いてもいまいちピンとこなかったため、実際に手を動かして理解することにした。 題材に選んだのは「占…"
     },
     {
-      "id": "1f5904c4f95e",
-      "title": "BOHB 論文解説：候補生成と予算配分から理解する Multi-fidelity HPO",
-      "url": "https://zenn.dev/mantis_ryuji/articles/c83da3bf1760cf",
-      "publishedAt": "2026-08-29T13:20:49.000Z",
-      "publisher": "mantis_ryuji",
-      "summary": "1. はじめに 機械学習モデルの性能は、学習率、バッチサイズ、正則化係数、モデル構造など、多数のハイパーパラメータに左右される。しかし、あるハイパーパラメータ設定の良し悪しを正確に評価するには、基本的にはモデルを最後まで学習しなければなら…"
+      "id": "5ac420ee10f1",
+      "title": "Google AI Modeが旅行・出張手配を自動化！航空券追跡から決済まで",
+      "url": "https://zenn.dev/adopture/articles/199978f6765f45",
+      "publishedAt": "2026-08-30T06:17:59.000Z",
+      "publisher": "ggnn編集部｜アダプチュア株式会社",
+      "summary": "出張やカンファレンス参加に伴う航空券の手配、ホテルの比較、マイルの特典枠確認。開発者やビジネスパーソンにとって、これらのリサーチ作業は複数のタブを行き来し、多くのコンテキストスイッチを強いられる重いタスクの一つでした。 Google検索の…"
     },
     {
-      "id": "8c3e2a3a69d4",
-      "title": "Claude Codeに“リードエンジニア”をやらせて、実用アプリを爆速かつ“崩さず”作る",
-      "url": "https://zenn.dev/ttk1010/articles/ai-second-brain-dev",
-      "publishedAt": "2026-08-29T13:17:02.000Z",
-      "publisher": "ttk1010",
-      "summary": "「初日で5,000行」その後が本題 個人開発で AI Second Brain（わかりにくい概念やニュースをイラスト付きノートにして貯めるツール）を作りました。開発はほぼ Claude Code に“リードエンジニア”をやらせたのですが、…"
+      "id": "0ab918857425",
+      "title": "「pip installされる側」になった日、公開前チェックが混入を3件捕まえた",
+      "url": "https://zenn.dev/secleeman/articles/500c4a943a927d",
+      "publishedAt": "2026-08-30T06:14:06.000Z",
+      "publisher": "secleeman",
+      "summary": "コードが読めないままAIに実装を委任して、脆弱性トリアージCLI「triage-lens」を作ってきた連載の4本目です。今回はツールの中身ではなく、配り方の話。GitHubに置いてあっただけのツールを、PyPIに公開して pip inst…"
     },
     {
-      "id": "c21766b8939e",
-      "title": "AIエージェントの「ハーネス」完全ガイド、Claude Codeに学ぶ実用精度の秘密やで",
-      "url": "https://zenn.dev/masayan1126/books/ai-agent-harness-guide",
-      "publishedAt": "2026-08-29T13:10:19.000Z",
-      "publisher": "たこやきねこやで",
-      "summary": "Web版ClaudeとClaude Codeでなんで実用的な精度に差が出るんか。AIエージェントの能力を決定する「ハーネス」の概念と具体的な実装例を、マイルドな関西弁で解説するで。モデル性能だけでは分からへん真のAI活用法が分かるで。"
+      "id": "ded9a36d8896",
+      "title": "前回の記事に書いた「今回は未確認」を、実際に確認してみた話",
+      "url": "https://zenn.dev/thegatebreaker/articles/muse_spark_correction_and_ecosystem",
+      "publishedAt": "2026-08-30T06:13:08.000Z",
+      "publisher": "TheGateBreaker",
+      "summary": "前回の記事に書いた「今回は未確認」を、実際に確認してみた話 TL;DR: 以前、「AIモデルの『できる／できない』をベンダー単位のラベルだけで判断すると危ういかもしれない」という記事を公開した。Meta社のAI API「Muse Spar…"
     }
   ],
-  "fetchedAt": "2026-08-30T05:50:08.865Z",
+  "fetchedAt": "2026-08-30T11:10:09.773Z",
   "stale": false,
   "error": null
 }
