@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1f9b71f67dac",
-      "title": "ゲームの進行管理ツールをAIと2週間で作って公開した感想 ── 前回のノウハウは通用した、その分見えるものが増えて混乱した",
-      "url": "https://zenn.dev/motimotinotch/articles/c8af0d3fcb9de0",
-      "publishedAt": "2026-08-30T09:48:37.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "AIと組んで大きめのものを作るのは、これが2回目だ。 1回目は自分のサイトだった。あのときは何も分かっていなかった。AIに何をどこまで任せていいのか、自分がどこで手を止めて確認すべきか。全部その場で覚えた。 2回目の今回は、遊んでいるゲー…"
+      "id": "de065f81d144",
+      "title": "オントロジーを使ってLLMの日本語ロールプレイ能力を向上させる手法とその検討ログ",
+      "url": "https://zenn.dev/michy/articles/c6eb5f1bbeff27",
+      "publishedAt": "2026-08-30T05:38:22.000Z",
+      "publisher": "zaiwa",
+      "summary": "はじめに この記事は、LLMにゲームキャラクターを演じさせるために試した手法と、その検討の記録をまとめたものです。うまくいかなかったものも含めて書いています。 作りたかったのは、プレイヤーの行動や問いかけにインタラクティブに応答するAIで…"
     },
     {
-      "id": "1359301b8c8e",
-      "title": "モデルの違いは「学歴と単価」―― Opus / Sonnet / Haiku の使い分けと、Codexが違う理由",
-      "url": "https://zenn.dev/ai_shihan/articles/fe86b2a4eabe88",
-      "publishedAt": "2026-08-30T09:13:44.000Z",
-      "publisher": "ai_shihan",
-      "summary": "こんにちは、AI師範です。普段はAIを組織のように使って、業務自動化ツールの製作と、その運用の引き継ぎ支援をしています。 「AIは新人研修しか受けていない新卒」「セッションが違えば別の人」と書いてきたシリーズの3本目です。今回はモデルの選…"
+      "id": "05b2a87e2760",
+      "title": "ローカルLLMにシステム設計面接問題を解かせたら何点取れるのか - 4モデルを同じ基準で採点してみた",
+      "url": "https://zenn.dev/okamyuji/articles/local-llm-system-design-interview",
+      "publishedAt": "2026-08-30T04:06:30.000Z",
+      "publisher": "okamyuji",
+      "summary": "! この記事はメモリが潤沢ではないPCでローカルLLMにコーディング質問した結果の続編です。前回はコーディングについての調査でした。今回はコーディングの前段階である「設計」を主眼としてローカルLLMの性能を調べてみました。 手元のMacで…"
     },
     {
-      "id": "996e75acbccb",
-      "title": "Llama3.2 3BにマイクラをやらせるコードをAIにつくらせた【Mineflayer + Ollama】",
-      "url": "https://zenn.dev/conbi_fan/articles/1fbdcd894acf1c",
-      "publishedAt": "2026-08-30T08:36:29.000Z",
-      "publisher": "Conbi Fan",
-      "summary": "Llama3.2 3BにマイクラをやらせるコードをAIにつくらせた【Mineflayer + Ollama】 はじめに 今回は、Llama3.2 3BにMinecraftをプレイさせるBotコードをAIにつくらせてみました。 使ったものは…"
+      "id": "e7d6d12ed566",
+      "title": "スキルを129種類インストールして、実際に呼ばれたのは4種類だった",
+      "url": "https://zenn.dev/tsutomusaito/articles/skill-catalog-vs-fired-ja",
+      "publishedAt": "2026-08-30T04:00:55.000Z",
+      "publisher": "saito",
+      "summary": "プラグインを入れるとスキルが付いてくる。マーケットプレイスを足すたびに増える。減らす作業は誰もやらない。 手元の ~/.claude/ を数えたら、skills/ 直下のディレクトリが214個あった。そのうち何個が実際に呼ばれたのかを、全…"
     },
     {
-      "id": "1cd951061e45",
-      "title": "AI時代に残るのは知識より「耳」かもしれない",
-      "url": "https://zenn.dev/aqiu/articles/531180a25c21e9",
-      "publishedAt": "2026-08-30T07:36:05.000Z",
-      "publisher": "aqiu",
-      "summary": "AIに聞けば、答えはかなり速く返ってくるようになった。 作曲でも、コードでも、ミックスの話でも、少し調べればそれらしい説明はすぐ出る。 でも、音楽を触っていると別の感覚が残る。 答えを知ることと、違いを聴き分けることは、やっぱり同じではな…"
+      "id": "946f1c39df16",
+      "title": "Anthropic週次まとめ(8/13-19): Claudeの見えない透かしとタンパク質設計14/15",
+      "url": "https://zenn.dev/ainewsdaily/articles/20260823_anthropic_t1",
+      "publishedAt": "2026-08-30T02:52:00.000Z",
+      "publisher": "AIニュース",
+      "summary": "Anthropicは2026年8月13日から19日にかけて、将来のClaudeモデルが生成する文章に統計的な透かしを入れると発表しました。同じ週には、タンパク質の設計をClaudeに任せた研究や、45体のエージェントを協調させた実験も公開…"
     },
     {
-      "id": "67c0e55e3c51",
-      "title": "実行ハーネスの動きから読み解く、コーディングエージェントの基礎",
-      "url": "https://zenn.dev/joker20081/articles/coding-agent-harness-architecture",
-      "publishedAt": "2026-08-30T07:34:14.000Z",
-      "publisher": "エージェント評価の備忘録",
-      "summary": "「ハーネスって、なんだよ。」 コーディングエージェントの解説を読むたび、私はここで止まっていました。 CLAUDE.md、Skills、Tools、MCP、Permissions、Sandbox、Hooks、Context Compact…"
-    },
-    {
-      "id": "b40184796e6c",
-      "title": "非エンジニアが、AIにWebサイトを丸ごと運営させて1ヶ月経った",
-      "url": "https://zenn.dev/digitalsales/articles/db2042950d82ec",
-      "publishedAt": "2026-08-30T07:29:19.000Z",
-      "publisher": "Digital Sales",
-      "summary": "私はエンジニアではありません。コードは書けませんし、正直いまも自分のサイトのソースを自力では読めません。 それでも今、94本のWebツールと約300ページを持つサイトが、毎朝ほぼ自動で運営されています。ニュースを拾い、記事に節を足し、検索…"
-    },
-    {
-      "id": "9b9f9f837260",
-      "title": "AIっぽい日本語を自然に整える Agent Skill「ja-ai-polish」を作った",
-      "url": "https://zenn.dev/ryodev/articles/477e55d60f544b",
-      "publishedAt": "2026-08-30T07:05:29.000Z",
-      "publisher": "Ryo | AI Agent / NLP",
-      "summary": "AIに日本語を書いてもらう機会がかなり増えました。 メール、Slack、Xへの投稿、README、技術記事。最近は、文章の下書きをAIに任せることも珍しくありません。 ただ、生成された文章をそのまま使おうとすると、妙な違和感が残ることがあ…"
-    },
-    {
-      "id": "57bb88b485cf",
-      "title": "SocialHub Web 技術的選択と背景",
-      "url": "https://zenn.dev/uakihir0/articles/260828-socialhub-web",
-      "publishedAt": "2026-08-30T06:42:38.000Z",
-      "publisher": "うるし",
-      "summary": "自己紹介 うるし といいます。ゲーム業界に身を置く、Web サービスにまつわる何でも屋です。以前はサーバーサイドエンジニアと名乗っていたのですが、AI の普及や、仕事における自分の担当領域の変化もあり、ほぼエンジニアロールという概念が失わ…"
-    },
-    {
-      "id": "b9e2e3274c41",
-      "title": "占いMCPを作ってみた話 〜MCPの仕組みを理解する実践チュートリアル〜",
-      "url": "https://zenn.dev/yoshi_in_zenn/articles/8803ba4ab93fe6",
-      "publishedAt": "2026-08-30T06:38:59.000Z",
-      "publisher": "Yoshi",
-      "summary": "1. 導入:なぜ占いMCPを作ったか 最近話題のMCP(Model Context Protocol)。「AIと外部ツールをつなぐ仕組み」と聞いてもいまいちピンとこなかったため、実際に手を動かして理解することにした。 題材に選んだのは「占…"
-    },
-    {
-      "id": "5ac420ee10f1",
-      "title": "Google AI Modeが旅行・出張手配を自動化！航空券追跡から決済まで",
-      "url": "https://zenn.dev/adopture/articles/199978f6765f45",
-      "publishedAt": "2026-08-30T06:17:59.000Z",
+      "id": "db823a3953b9",
+      "title": "MCPのステートレス化でAIエージェントをCloud Runでスケールさせる",
+      "url": "https://zenn.dev/adopture/articles/48fd7afc4ae247",
+      "publishedAt": "2026-08-30T02:05:08.000Z",
       "publisher": "ggnn編集部｜アダプチュア株式会社",
-      "summary": "出張やカンファレンス参加に伴う航空券の手配、ホテルの比較、マイルの特典枠確認。開発者やビジネスパーソンにとって、これらのリサーチ作業は複数のタブを行き来し、多くのコンテキストスイッチを強いられる重いタスクの一つでした。 Google検索の…"
+      "summary": "AIエージェントの運用が検証フェーズからエンタープライズ規模の本番運用へシフトする中、多くの開発者が直面してきた大きな課題が「Model Context Protocol（MCP）のセッション維持問題」です。 Kubernetesでオート…"
     },
     {
-      "id": "0ab918857425",
-      "title": "「pip installされる側」になった日、公開前チェックが混入を3件捕まえた",
-      "url": "https://zenn.dev/secleeman/articles/500c4a943a927d",
-      "publishedAt": "2026-08-30T06:14:06.000Z",
-      "publisher": "secleeman",
-      "summary": "コードが読めないままAIに実装を委任して、脆弱性トリアージCLI「triage-lens」を作ってきた連載の4本目です。今回はツールの中身ではなく、配り方の話。GitHubに置いてあっただけのツールを、PyPIに公開して pip inst…"
+      "id": "f54d9570c241",
+      "title": "Amazon Bedrock Agent Evaluations を試してみた",
+      "url": "https://zenn.dev/kenro/articles/49711379aef131",
+      "publishedAt": "2026-08-30T01:57:28.000Z",
+      "publisher": "kenRo",
+      "summary": "1. はじめに Web API のテストなら、リクエストを投げてレスポンスを assert すれば済みます。エージェントではこれができません。同じことを聞いても返ってくる文章は毎回違いますし、呼ばれるツールすら変わることがあります。 かと…"
     },
     {
-      "id": "ded9a36d8896",
-      "title": "前回の記事に書いた「今回は未確認」を、実際に確認してみた話",
-      "url": "https://zenn.dev/thegatebreaker/articles/muse_spark_correction_and_ecosystem",
-      "publishedAt": "2026-08-30T06:13:08.000Z",
-      "publisher": "TheGateBreaker",
-      "summary": "前回の記事に書いた「今回は未確認」を、実際に確認してみた話 TL;DR: 以前、「AIモデルの『できる／できない』をベンダー単位のラベルだけで判断すると危ういかもしれない」という記事を公開した。Meta社のAI API「Muse Spar…"
+      "id": "0ed1add57ed5",
+      "title": "「探索中心開発」で、人もAIも救いたい",
+      "url": "https://zenn.dev/yukimi_inu/articles/92b915ff998579",
+      "publishedAt": "2026-08-30T01:50:56.000Z",
+      "publisher": "みいぬ",
+      "summary": "近年、AIがどんどん開発で活用されるようになりました。それに伴い、既存のプロセスの限度、あるいはAIまかせではなかなかクオリティの担保が難しいなと思うことが多々あり、より良いプロセスがないかを検証してきました。 その中でたどり着いた「探索…"
+    },
+    {
+      "id": "f61c2312185f",
+      "title": "pdlc-skills を自分のプロジェクトで動かすには",
+      "url": "https://zenn.dev/kanfupanda/articles/pdlc-run-in-your-project",
+      "publishedAt": "2026-08-30T01:24:14.000Z",
+      "publisher": "kanfu-panda",
+      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/08/30/run-pdlc-in-your-project.html 前の三回は図面でした。三層がそれ…"
+    },
+    {
+      "id": "f55bf2f9d875",
+      "title": "来たるべきシンギュラリティのために、生成AIでAI言語を生成してみる",
+      "url": "https://zenn.dev/tkithrta/articles/54ba69d5268896",
+      "publishedAt": "2026-08-30T01:11:31.000Z",
+      "publisher": "黒ヰ樹",
+      "summary": "はじめに なぜAIは、AI同士でやり取りするときまで英語や日本語を使うのでしょうか。 人間に結果を返すなら日本語や英語でよい。それは人間向けインターフェースだからです。しかしAIからAIへ情報を渡すときや、AIが明示的なscratchpa…"
+    },
+    {
+      "id": "03c7cbd99a25",
+      "title": "立場が違っても、同じ目線で案件を進める — Claude Code を中心に開発運用を共通化した記録",
+      "url": "https://zenn.dev/koheikameyama/books/claude-code-work-core",
+      "publishedAt": "2026-08-30T01:04:02.000Z",
+      "publisher": "かめ",
+      "summary": "同じ案件を進めていても、開発者・PM・レビュアーで見えているものが違います。案件の状態は Linear と GitHub と Slack に分散し、どれも「人が読んで解釈する」前提の記録なので、正確な状況を知れるのは「聞ける相手を持ってい…"
+    },
+    {
+      "id": "21df803516a5",
+      "title": "Blender標準のRigifyで4足歩行の犬メッシュに自動リグを試す",
+      "url": "https://zenn.dev/tonote/articles/dog-3d-rigify-quadruped",
+      "publishedAt": "2026-08-30T00:54:34.000Z",
+      "publisher": "tonote",
+      "summary": "はじめに 前回の記事「犬の3D作成を自動化する」では Autodesk Flow Studio のオートリグ機能を試しましたが、4足歩行動物のオートリグは SOON 表示でまだ使えませんでした。次の選択肢として Auto-Rig Pro（…"
+    },
+    {
+      "id": "b998b807fbe3",
+      "title": "コメントが来ない配信を、AIに自分から喋らせて埋める — 無音75秒ルールと応答速度",
+      "url": "https://zenn.dev/orca_forge/articles/ai-streamer-filling-dead-air",
+      "publishedAt": "2026-08-30T00:32:39.000Z",
+      "publisher": "orca_forge",
+      "summary": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。 無人で動く AI アバターのライブ配信を作ると、真っ先にぶつかるのは「間」の問題です。誰も見ていないわけではない。むしろ視聴者はいる。それなのにアバタ…"
     }
   ],
-  "fetchedAt": "2026-08-30T11:10:09.773Z",
+  "fetchedAt": "2026-08-30T15:20:05.508Z",
   "stale": false,
   "error": null
 }
