@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "de065f81d144",
-      "title": "オントロジーを使ってLLMの日本語ロールプレイ能力を向上させる手法とその検討ログ",
-      "url": "https://zenn.dev/michy/articles/c6eb5f1bbeff27",
-      "publishedAt": "2026-08-30T05:38:22.000Z",
-      "publisher": "zaiwa",
-      "summary": "はじめに この記事は、LLMにゲームキャラクターを演じさせるために試した手法と、その検討の記録をまとめたものです。うまくいかなかったものも含めて書いています。 作りたかったのは、プレイヤーの行動や問いかけにインタラクティブに応答するAIで…"
+      "id": "b47fac515d27",
+      "title": "常駐型AIエージェントが持つ「外部連携ツールの認証情報」ローテーション設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-connector-secret-rotation-design",
+      "publishedAt": "2026-08-30T17:09:31.000Z",
+      "publisher": "HACH",
+      "summary": "Slack / Teams / Chatworkに常駐するAIエージェントは、チャット自体の認証情報だけでなく、カレンダー・SFA・チケット管理システムなど接続先ごとのAPIキーやOAuthトークンを次々に抱え込んでいく性質があります。単…"
     },
     {
-      "id": "05b2a87e2760",
-      "title": "ローカルLLMにシステム設計面接問題を解かせたら何点取れるのか - 4モデルを同じ基準で採点してみた",
-      "url": "https://zenn.dev/okamyuji/articles/local-llm-system-design-interview",
-      "publishedAt": "2026-08-30T04:06:30.000Z",
-      "publisher": "okamyuji",
-      "summary": "! この記事はメモリが潤沢ではないPCでローカルLLMにコーディング質問した結果の続編です。前回はコーディングについての調査でした。今回はコーディングの前段階である「設計」を主眼としてローカルLLMの性能を調べてみました。 手元のMacで…"
+      "id": "c9d5e2b46496",
+      "title": "PID制御をPythonで実装する｜ロボットを\"ちょうどよく\"目標へ動かす",
+      "url": "https://zenn.dev/maru1228/articles/physical-ai-pid-control-python",
+      "publishedAt": "2026-08-30T15:52:28.000Z",
+      "publisher": "まる",
+      "summary": "! この記事は自サイト PID制御をPythonで実装する｜ロボットを\"ちょうどよく\"目標へ動かす の再掲（クロス投稿）です。図をインタラクティブに動かせる版は元記事でどうぞ。 モーターを目標角度でピタッと止める、ドローンを高度に保つ——…"
     },
     {
-      "id": "e7d6d12ed566",
-      "title": "スキルを129種類インストールして、実際に呼ばれたのは4種類だった",
-      "url": "https://zenn.dev/tsutomusaito/articles/skill-catalog-vs-fired-ja",
-      "publishedAt": "2026-08-30T04:00:55.000Z",
-      "publisher": "saito",
-      "summary": "プラグインを入れるとスキルが付いてくる。マーケットプレイスを足すたびに増える。減らす作業は誰もやらない。 手元の ~/.claude/ を数えたら、skills/ 直下のディレクトリが214個あった。そのうち何個が実際に呼ばれたのかを、全…"
+      "id": "dafaac64f7c0",
+      "title": "いつも私の文章に文句を言う人間を、今日は私がレビューする",
+      "url": "https://zenn.dev/tofu575/articles/294daab948892f",
+      "publishedAt": "2026-08-30T15:35:04.000Z",
+      "publisher": "tofu",
+      "summary": "はじめに 👦 < 最近、ChatGPTと話している時間がかなり増えました。 個人開発の相談をしたり、技術的に分からないことを聞いたり、記事の叩き台を書いてもらったり。特に記事については、書いてもらった文章に「AIっぽい」「ここいらない」…"
     },
     {
-      "id": "946f1c39df16",
-      "title": "Anthropic週次まとめ(8/13-19): Claudeの見えない透かしとタンパク質設計14/15",
-      "url": "https://zenn.dev/ainewsdaily/articles/20260823_anthropic_t1",
-      "publishedAt": "2026-08-30T02:52:00.000Z",
-      "publisher": "AIニュース",
-      "summary": "Anthropicは2026年8月13日から19日にかけて、将来のClaudeモデルが生成する文章に統計的な透かしを入れると発表しました。同じ週には、タンパク質の設計をClaudeに任せた研究や、45体のエージェントを協調させた実験も公開…"
+      "id": "c8f7438044da",
+      "title": "開発中に Claude Code のキャッシュミスで大量トークン消費を踏んだ — セッション共有と fork の備忘録",
+      "url": "https://zenn.dev/haw2fregel/articles/claude-code-fork-session",
+      "publishedAt": "2026-08-30T15:28:11.000Z",
+      "publisher": "はうはう",
+      "summary": "やりたかったこと Claude Code を外部アプリから扱う際、 ログイン済みのアカウントで通し、デスクトップアプリとセッションを共有する仕組みを作りたかった。 このセッション共有が原因でキャッシュミスを起こしていた。 初期案: 外から…"
     },
     {
-      "id": "db823a3953b9",
-      "title": "MCPのステートレス化でAIエージェントをCloud Runでスケールさせる",
-      "url": "https://zenn.dev/adopture/articles/48fd7afc4ae247",
-      "publishedAt": "2026-08-30T02:05:08.000Z",
-      "publisher": "ggnn編集部｜アダプチュア株式会社",
-      "summary": "AIエージェントの運用が検証フェーズからエンタープライズ規模の本番運用へシフトする中、多くの開発者が直面してきた大きな課題が「Model Context Protocol（MCP）のセッション維持問題」です。 Kubernetesでオート…"
+      "id": "dd8ceb976112",
+      "title": "AI にスライドを作ってほしい！！！(N番煎じ)",
+      "url": "https://zenn.dev/microsoft/articles/intro-markdstage",
+      "publishedAt": "2026-08-30T14:54:03.000Z",
+      "publisher": "Kazuki Ota",
+      "summary": "はじめに AI が賢くなって、世の中では AI を使ってスライドを作るということが結構行われるようになってきました。 実際に、私も Copilot Cowork とか GitHub Copilot などを使って自分が思った通りのスライドを…"
     },
     {
-      "id": "f54d9570c241",
-      "title": "Amazon Bedrock Agent Evaluations を試してみた",
-      "url": "https://zenn.dev/kenro/articles/49711379aef131",
-      "publishedAt": "2026-08-30T01:57:28.000Z",
-      "publisher": "kenRo",
-      "summary": "1. はじめに Web API のテストなら、リクエストを投げてレスポンスを assert すれば済みます。エージェントではこれができません。同じことを聞いても返ってくる文章は毎回違いますし、呼ばれるツールすら変わることがあります。 かと…"
+      "id": "7147dbb3e97e",
+      "title": "AI組織を1人で運営する（2）cron でタスクを刻む設計",
+      "url": "https://zenn.dev/miyan/articles/ai-solo-org-ops-02-cron-design",
+      "publishedAt": "2026-08-30T14:25:15.000Z",
+      "publisher": "dtakamiya",
+      "summary": "この回について 前回は全体像でした。8 部門・20 本ほどの cron・30 人ほどの「AI 従業員」で組織を 1 人で回している、という話です。 今回はその心臓部、cron を掘ります。相変わらず一般論は書きません。/loop と cr…"
     },
     {
-      "id": "0ed1add57ed5",
-      "title": "「探索中心開発」で、人もAIも救いたい",
-      "url": "https://zenn.dev/yukimi_inu/articles/92b915ff998579",
-      "publishedAt": "2026-08-30T01:50:56.000Z",
-      "publisher": "みいぬ",
-      "summary": "近年、AIがどんどん開発で活用されるようになりました。それに伴い、既存のプロセスの限度、あるいはAIまかせではなかなかクオリティの担保が難しいなと思うことが多々あり、より良いプロセスがないかを検証してきました。 その中でたどり着いた「探索…"
+      "id": "a11e17e09349",
+      "title": "自律エージェントを実装すると、決めることになる項目",
+      "url": "https://zenn.dev/hosaka2/articles/4e4b868c68c07a",
+      "publishedAt": "2026-08-30T14:15:30.000Z",
+      "publisher": "hosaka2",
+      "summary": "カメラで作業を見守り、音声でガイドするモバイルアプリを作りました。この記事は、そのアーキテクチャ設計の記録です。 人間が話しかけなくても勝手に回り続けるループを作ると、普通のチャットアプリでは出てこない決定を何度も迫られます。決めたことと…"
     },
     {
-      "id": "f61c2312185f",
-      "title": "pdlc-skills を自分のプロジェクトで動かすには",
-      "url": "https://zenn.dev/kanfupanda/articles/pdlc-run-in-your-project",
-      "publishedAt": "2026-08-30T01:24:14.000Z",
-      "publisher": "kanfu-panda",
-      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/08/30/run-pdlc-in-your-project.html 前の三回は図面でした。三層がそれ…"
+      "id": "b84b0d1357be",
+      "title": "ChatGPTはどのように次のTokenを選ぶのか？",
+      "url": "https://zenn.dev/shai/articles/9c854289fe4d37",
+      "publishedAt": "2026-08-30T13:58:19.000Z",
+      "publisher": "shai",
+      "summary": "ChatGPTはどのように次のTokenを選ぶのか？ — Sampling・Temperature・Top-K・Top-Pを理解する 前回の記事では、LLMが文章を生成するとき、 Logits ↓ Softmax ↓ Tokenごとの確率…"
     },
     {
-      "id": "f55bf2f9d875",
-      "title": "来たるべきシンギュラリティのために、生成AIでAI言語を生成してみる",
-      "url": "https://zenn.dev/tkithrta/articles/54ba69d5268896",
-      "publishedAt": "2026-08-30T01:11:31.000Z",
-      "publisher": "黒ヰ樹",
-      "summary": "はじめに なぜAIは、AI同士でやり取りするときまで英語や日本語を使うのでしょうか。 人間に結果を返すなら日本語や英語でよい。それは人間向けインターフェースだからです。しかしAIからAIへ情報を渡すときや、AIが明示的なscratchpa…"
+      "id": "ec5869c4e6f5",
+      "title": "名ばかりFDEから脱却するには、事業構造の再設計を",
+      "url": "https://zenn.dev/syoshida07/articles/3eab1615732f8f",
+      "publishedAt": "2026-08-30T13:48:16.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "FDE(Forward Deployed Enginee)は、顧客の現場に深く入り込み、課題発見から要件定義・設計・開発・導入後の改善まで一貫して伴走する課題解決型エンジニアである。 SIerが企業形態であるのに対し、FDEは現場で成果を…"
     },
     {
-      "id": "03c7cbd99a25",
-      "title": "立場が違っても、同じ目線で案件を進める — Claude Code を中心に開発運用を共通化した記録",
-      "url": "https://zenn.dev/koheikameyama/books/claude-code-work-core",
-      "publishedAt": "2026-08-30T01:04:02.000Z",
-      "publisher": "かめ",
-      "summary": "同じ案件を進めていても、開発者・PM・レビュアーで見えているものが違います。案件の状態は Linear と GitHub と Slack に分散し、どれも「人が読んで解釈する」前提の記録なので、正確な状況を知れるのは「聞ける相手を持ってい…"
+      "id": "f5cce2373377",
+      "title": "【新人エンジニア】PyCon JP 2026に初参加して、「分からないこと」が一気に増えた話",
+      "url": "https://zenn.dev/anzy/articles/f5507c7fc11be2",
+      "publishedAt": "2026-08-30T13:44:50.000Z",
+      "publisher": "アンジー",
+      "summary": "ご覧いただきありがとうございます。 製造業でシステム設計エンジニアをしている新入社員です。 これまでPythonを勉強しながら、pandasを使ったデータ分析やpytestなど、実際に自分で触って分かったことを記事にしてきました。 今回は…"
     },
     {
-      "id": "21df803516a5",
-      "title": "Blender標準のRigifyで4足歩行の犬メッシュに自動リグを試す",
-      "url": "https://zenn.dev/tonote/articles/dog-3d-rigify-quadruped",
-      "publishedAt": "2026-08-30T00:54:34.000Z",
-      "publisher": "tonote",
-      "summary": "はじめに 前回の記事「犬の3D作成を自動化する」では Autodesk Flow Studio のオートリグ機能を試しましたが、4足歩行動物のオートリグは SOON 表示でまだ使えませんでした。次の選択肢として Auto-Rig Pro（…"
+      "id": "abc4c5111782",
+      "title": "AI SDK 7の移行は「動いた」で終わらない。運用の差分を同じケースで測る",
+      "url": "https://zenn.dev/heftykoo/articles/b3b51369f398ee",
+      "publishedAt": "2026-08-30T13:03:38.000Z",
+      "publisher": "heftykoo",
+      "summary": "codemodを実行し、型チェックとテストが通る。ここまで来ると、SDKの移行は終わったように見える。 しかし本番で困るのは、コンパイルエラーより静かな差分だ。token usageが観測先の期待するfieldに収まらない。toolの承認…"
     },
     {
-      "id": "b998b807fbe3",
-      "title": "コメントが来ない配信を、AIに自分から喋らせて埋める — 無音75秒ルールと応答速度",
-      "url": "https://zenn.dev/orca_forge/articles/ai-streamer-filling-dead-air",
-      "publishedAt": "2026-08-30T00:32:39.000Z",
-      "publisher": "orca_forge",
-      "summary": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。 無人で動く AI アバターのライブ配信を作ると、真っ先にぶつかるのは「間」の問題です。誰も見ていないわけではない。むしろ視聴者はいる。それなのにアバタ…"
+      "id": "0e8c2b2aa15d",
+      "title": "プロンプトのテストに CI は無い — 学生の試験のように選択式で測る設計",
+      "url": "https://zenn.dev/activecore/articles/a3d90e45ecff2a",
+      "publishedAt": "2026-08-30T13:00:43.000Z",
+      "publisher": "Sei",
+      "summary": "業務で、AI に文章を書かせている。書き上がった文章は別の AI に渡して、「ルールを守れているか」を見せている。この記事では前者を書き手役、後者を判定役と呼ぶ。私の仕事は、判定役の判定が当たっているかを確かめることだ。 その確認を、人が…"
     }
   ],
-  "fetchedAt": "2026-08-30T15:20:05.508Z",
+  "fetchedAt": "2026-08-30T18:42:08.883Z",
   "stale": false,
   "error": null
 }

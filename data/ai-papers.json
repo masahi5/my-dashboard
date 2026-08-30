@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.25518",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "summary": "A common strategy for scaling world models is to train on more crawled video with more compute. We argue that this stra…",
-      "score": 139
+      "score": 156
     },
     {
       "id": "c014b34ff786",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.27448",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "summary": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), hav…",
-      "score": 71
+      "score": 73
     },
     {
       "id": "5bd4841f7aa4",
@@ -35,7 +35,15 @@
       "url": "https://huggingface.co/papers/2608.26530",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "summary": "Long-horizon agent runs generate experience that can improve both the current run and future work. Most self-improvemen…",
-      "score": 28
+      "score": 29
+    },
+    {
+      "id": "311b26d80b56",
+      "title": "Luce: Relightable Gaussians for 3D Asset Generation",
+      "url": "https://huggingface.co/papers/2608.23943",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To suppor…",
+      "score": 10
     },
     {
       "id": "9d26c46bc8c0",
@@ -54,14 +62,6 @@
       "score": 8
     },
     {
-      "id": "311b26d80b56",
-      "title": "Luce: Relightable Gaussians for 3D Asset Generation",
-      "url": "https://huggingface.co/papers/2608.23943",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To suppor…",
-      "score": 7
-    },
-    {
       "id": "68867157a9c6",
       "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
       "url": "https://huggingface.co/papers/2608.25798",
@@ -78,6 +78,14 @@
       "score": 4
     },
     {
+      "id": "d008541c919d",
+      "title": "What Does an Evaluation License? A Commit-Bound Census of Claim-Relative Inference in Inspect Evals",
+      "url": "https://huggingface.co/papers/2608.19269",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Evaluation artifacts specify a forward computation: a task, scorer, and reported metric. They do not necessarily licens…",
+      "score": 3
+    },
+    {
       "id": "d0a37d14d26f",
       "title": "EditaLive! Unified Character Video Editing for Live Streaming",
       "url": "https://huggingface.co/papers/2608.27123",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "summary": "Explicit visual intermediates can help multimodal large language models (MLLMs) externalize spatial evidence and update…",
       "score": 3
-    },
-    {
-      "id": "d008541c919d",
-      "title": "What Does an Evaluation License? A Commit-Bound Census of Claim-Relative Inference in Inspect Evals",
-      "url": "https://huggingface.co/papers/2608.19269",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Evaluation artifacts specify a forward computation: a task, scorer, and reported metric. They do not necessarily licens…",
-      "score": 2
     }
   ],
-  "fetchedAt": "2026-08-30T15:20:05.406Z",
+  "fetchedAt": "2026-08-30T18:42:08.684Z",
   "stale": false,
   "error": null
 }
