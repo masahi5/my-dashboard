@@ -6,6 +6,46 @@
   "category": "ai",
   "items": [
     {
+      "id": "62ea505047a4",
+      "title": "AIエージェントに本番UPDATEをさせる前に置くべき「承認ゲート」設計",
+      "url": "https://zenn.dev/akinori901/articles/weekly-draft-c-approval-gate",
+      "publishedAt": "2026-08-29T21:47:31.000Z",
+      "publisher": "Akinori901",
+      "summary": "AIエージェント（Claude Code や Cursor など）に実務フローを任せ始めると、ある日必ず「本番DBへの書き込みまでやってほしい」という要求にぶつかる。集計結果の反映、フラグの一括更新、特定期間のレコード修正——こうした破壊…"
+    },
+    {
+      "id": "5d5494072751",
+      "title": "多役プロンプトの人物ロールは、名前でなく1行の評価基準で分岐する",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-historical-figure-role-debate",
+      "publishedAt": "2026-08-29T21:10:18.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 多役プロンプトで役に「肩書き」ではなく実在の人物名（歴史上の経営者・思想家）を割り当てても、価値観を明示しない限り、出力は人物によらない一般論に収束する 人物名だけを渡した条件では、生成される発言は3人ともほぼ同じ要旨になり、…"
+    },
+    {
+      "id": "3116d4c60ba1",
+      "title": "A3C（Asynchronous Advantage Actor-Critic）を数式と実装で理解する",
+      "url": "https://zenn.dev/taichiendoh/articles/a3c-async-advantage-actor-critic-design",
+      "publishedAt": "2026-08-29T21:09:18.000Z",
+      "publisher": "遠藤太一",
+      "summary": "初出: note（A3C（Asynchronous Advantage Actor-Critic））。Zenn向けに数式・擬似コード・現行手法との比較を補って再構成しました。 強化学習の応用例としてよく名前が挙がる A3C（Asynchr…"
+    },
+    {
+      "id": "d77fa577081e",
+      "title": "「12月からコードを一行も書いていない」Karpathy×No Priorsを要点解説",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr09-karpathy-nopriors-summary",
+      "publishedAt": "2026-08-29T21:00:07.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について Andrej Karpathy が No Priors（Sarah Guo との対談ポッドキャスト）で語った内容を、要点だけ抜き出して日本語で解説します。「AIエージェント時代に、エンジニアの仕事は何に変わったか」を実感…"
+    },
+    {
+      "id": "e84d84cfc28e",
+      "title": "問い合わせの添付ファイルをAIへ渡す前に置く、安全ゲートの最小設計",
+      "url": "https://zenn.dev/miraigent/articles/ai-inquiry-attachment-safety-gate",
+      "publishedAt": "2026-08-29T20:35:47.000Z",
+      "publisher": "Kirisaki Kazuya | Miraigent代表",
+      "summary": "問い合わせフォームや共有メールにPDF、画像、表計算ファイルが届くと、AIで要約したくなります。しかし「添付されたから、そのままAIへ送る」は運用として危険です。この記事では、小規模チームでも実装しやすいように、受付・添付確認・人の承認・…"
+    },
+    {
       "id": "0bf5f8951fe0",
       "title": "現場をPython側へ移住させない――既存業務とAIをつなぐBridge Engineering",
       "url": "https://zenn.dev/minipoisson/articles/ai-bridge-engineering",
@@ -60,49 +100,9 @@
       "publishedAt": "2026-08-29T13:10:19.000Z",
       "publisher": "たこやきねこやで",
       "summary": "Web版ClaudeとClaude Codeでなんで実用的な精度に差が出るんか。AIエージェントの能力を決定する「ハーネス」の概念と具体的な実装例を、マイルドな関西弁で解説するで。モデル性能だけでは分からへん真のAI活用法が分かるで。"
-    },
-    {
-      "id": "a9d4da296f0b",
-      "title": "AI組織を1人で運営する（1）全体像",
-      "url": "https://zenn.dev/miyan/articles/ai-solo-org-ops-01-overview",
-      "publishedAt": "2026-08-29T13:10:03.000Z",
-      "publisher": "dtakamiya",
-      "summary": "この連載について Claude Code を土台に、**8 つの部門・22 本の cron ジョブ・30 人ほどの「AI 従業員」**からなる組織を 1 人で運営しています。この連載は、その組織を実際にどう組んで、どう回して、どこで失敗し…"
-    },
-    {
-      "id": "c4a39fb85912",
-      "title": "PARC2026に挑戦した話",
-      "url": "https://zenn.dev/akisayo/articles/6ca4ba715e5b5c",
-      "publishedAt": "2026-08-29T12:05:08.000Z",
-      "publisher": "Sayoko Akiike",
-      "summary": "はじめに：PARC2026って何？ PARC2026（AIRoA × 東京大学松尾・岩澤研究室 Physical AI Robot Challenge 2026）は、 ロボットに言葉で指示を出すと、その指示通りに体を動かすAI——専門用語…"
-    },
-    {
-      "id": "d0c3b51f76e4",
-      "title": "「知りすぎ」はAIには欠点だ ——熟練の実装知が負債に変わるとき",
-      "url": "https://zenn.dev/ryok/articles/knowing-too-much-liability",
-      "publishedAt": "2026-08-29T11:15:01.000Z",
-      "publisher": "ryok",
-      "summary": "結論 DHH（Ruby on Rails作者）が、AI開発について意外なことを言っている。 「実のところ、しばらくの間は、私がプログラミングを知りすぎていることが、自分にとって不利益だった」 25年間美しいRubyを彫琢してきた本人の言葉…"
-    },
-    {
-      "id": "defef0065080",
-      "title": "Cursorから乗り換えられるのか：OpenAIのモデル提供終了を受け、設定の可搬性を Claude Code / Codex と実測した",
-      "url": "https://zenn.dev/uguisu_blog/articles/f2286418e86de0",
-      "publishedAt": "2026-08-29T10:59:59.000Z",
-      "publisher": "Kouki Nakae",
-      "summary": "こんにちは！うぐいすソリューションズのNakaeです。 2026年8月28日、OpenAI は SpaceX 傘下となった Cursor へのモデル提供を終了する方針を発表し、11月12日を停止予定日として提示しました。OpenAI が理…"
-    },
-    {
-      "id": "996e3b09200b",
-      "title": "確認画面の97%は「はい」だった — AIに1回だけ止められて、その1回も訊かれる場所が間違っていた",
-      "url": "https://zenn.dev/sbkm/articles/146467d34ce757",
-      "publishedAt": "2026-08-29T10:27:03.000Z",
-      "publisher": "しばこま",
-      "summary": "2026年8月14日から、Claude Code の「これを実行してもいいですか？」という確認画面が、既定で出なくなりました。代わりに、取り返しのつかない操作と環境の外に向かう操作を止める判定器が、道具の呼び出しを1つずつ通す方式になって…"
     }
   ],
-  "fetchedAt": "2026-08-30T00:31:47.806Z",
+  "fetchedAt": "2026-08-30T05:50:08.865Z",
   "stale": false,
   "error": null
 }
