@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "9a13bc66109d",
-      "title": "Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities",
-      "url": "https://huggingface.co/papers/2608.28122",
+      "id": "039fbc4a4a8f",
+      "title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
+      "url": "https://huggingface.co/papers/2608.28281",
       "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Generative models can turn natural-language prompts into images, text, code, and other content, lowering the cost of pr…",
-      "score": 38
-    },
-    {
-      "id": "3ff2d9ad021d",
-      "title": "J-Zero: Unified Challenger--Solver--Judge Co-Evolution from Zero Data",
-      "url": "https://huggingface.co/papers/2608.26582",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Self-evolving language models have recently emerged as a promising path toward superintelligence, with the advantage of…",
-      "score": 31
+      "summary": "Loop Engineering is emerging as a practice for organizing development work around coding agents. Instead of writing eac…",
+      "score": 81
     },
     {
       "id": "1389f6ff3b1b",
@@ -27,31 +19,23 @@
       "url": "https://huggingface.co/papers/2608.18524",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "summary": "Equipping Large Language Models (LLMs) with multi-turn tool-calling capabilities is essential for building autonomous a…",
-      "score": 30
+      "score": 60
     },
     {
-      "id": "edb3894cc64e",
-      "title": "LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation",
-      "url": "https://huggingface.co/papers/2608.28460",
+      "id": "9a13bc66109d",
+      "title": "Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities",
+      "url": "https://huggingface.co/papers/2608.28122",
       "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Autoregressive video diffusion enables scalable long-video generation by producing chunks from a bounded recent context…",
-      "score": 20
+      "summary": "Generative models can turn natural-language prompts into images, text, code, and other content, lowering the cost of pr…",
+      "score": 50
     },
     {
-      "id": "edbacb510ece",
-      "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
-      "url": "https://huggingface.co/papers/2608.27370",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Language model pretraining has become almost synonymous with prohibitive cost, placing it out of reach for much of the …",
-      "score": 13
-    },
-    {
-      "id": "31540c87ce1a",
-      "title": "Paint What You See: Benchmarking Dexterous Visual Tool Use in Multimodal Agents",
-      "url": "https://huggingface.co/papers/2608.25417",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "Evaluation is shifting from static QA toward agentic settings where models act through external tools. We identify a cr…",
-      "score": 13
+      "id": "1521b7c638c2",
+      "title": "Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2608.23478",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "summary": "Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still…",
+      "score": 23
     },
     {
       "id": "a5a0fdbd0021",
@@ -59,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.28192",
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "summary": "Spatio-temporal video grounding (STVG) requires models to identify when a referred event occurs and localize the target…",
-      "score": 10
+      "score": 15
     },
     {
       "id": "fb7f7a4167f2",
@@ -67,7 +51,15 @@
       "url": "https://huggingface.co/papers/2608.27763",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "summary": "Recurrent fast-weight memories and selective state-space models compress an expanding context into a fixed-size recurre…",
-      "score": 8
+      "score": 13
+    },
+    {
+      "id": "8ee6a15b214a",
+      "title": "Sliding-window beats linear attention",
+      "url": "https://huggingface.co/papers/2608.28444",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "summary": "Due to the nature of quadratic attention, Large Language Models (LLMs) consume a lot of memory and energy. Every new to…",
+      "score": 10
     },
     {
       "id": "9718457c2715",
@@ -75,15 +67,23 @@
       "url": "https://huggingface.co/papers/2608.26794",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "summary": "Scaling video generation to long durations reveals a critical bottleneck: current models lack robust long-term memory. …",
-      "score": 6
+      "score": 10
     },
     {
-      "id": "37209352f365",
-      "title": "StarHarness: Evolving Harnesses with Stratified Search for Enterprise Environments",
-      "url": "https://huggingface.co/papers/2608.24804",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "We present StarHarness, a framework for evolving environment-specific agent harnesses while keeping model weights fixed…",
+      "id": "aad8a7a3ea56",
+      "title": "Language Chain in Alignment: Cross-lingual Ranking Preference Optimization",
+      "url": "https://huggingface.co/papers/2608.23149",
+      "publishedAt": "2026-08-24T11:54:36.000Z",
+      "summary": "The alignment of Large Language Models heavily relies on English-centric high-quality preference data, which often lead…",
       "score": 3
+    },
+    {
+      "id": "47c25fac04ee",
+      "title": "Generative Semantic Scene Completion",
+      "url": "https://huggingface.co/papers/2608.26737",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "summary": "Outdoor LiDAR semantic scene completion (SSC) recovers a dense semantic voxel grid from a scan observing 1% of the targ…",
+      "score": 2
     },
     {
       "id": "abbe66de0e06",
@@ -94,15 +94,15 @@
       "score": 2
     },
     {
-      "id": "aad8a7a3ea56",
-      "title": "Language Chain in Alignment: Cross-lingual Ranking Preference Optimization",
-      "url": "https://huggingface.co/papers/2608.23149",
-      "publishedAt": "2026-08-24T11:54:36.000Z",
-      "summary": "The alignment of Large Language Models heavily relies on English-centric high-quality preference data, which often lead…",
-      "score": 2
+      "id": "fae1c80fd589",
+      "title": "Lost in Compression: A Controlled Cross-Lingual Audit of Extractive Prompt Compressors",
+      "url": "https://huggingface.co/papers/2608.26175",
+      "publishedAt": "2026-07-27T00:00:00.000Z",
+      "summary": "Extractive prompt compression promises to cut LLM inference costs by removing low-information tokens, and learned compr…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-08-31T09:59:01.523Z",
+  "fetchedAt": "2026-08-31T17:29:35.666Z",
   "stale": false,
   "error": null
 }
