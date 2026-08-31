@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "437a44afaa66",
-      "title": "Code as Worlds: Agentic Discovery of Executable World Representations for Physical Reasoning",
-      "url": "https://huggingface.co/papers/2608.27549",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Physical understanding and reasoning depend on forming compact and generalizable representations of the world. While mo…",
-      "score": 15
-    },
-    {
-      "id": "311b26d80b56",
-      "title": "Luce: Relightable Gaussians for 3D Asset Generation",
-      "url": "https://huggingface.co/papers/2608.23943",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To suppor…",
-      "score": 12
-    },
-    {
-      "id": "a43314519d62",
-      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
-      "url": "https://huggingface.co/papers/2608.28476",
+      "id": "9a13bc66109d",
+      "title": "Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities",
+      "url": "https://huggingface.co/papers/2608.28122",
       "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain disper…",
-      "score": 11
+      "summary": "Generative models can turn natural-language prompts into images, text, code, and other content, lowering the cost of pr…",
+      "score": 38
     },
     {
-      "id": "aa131a651acc",
-      "title": "Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction",
-      "url": "https://huggingface.co/papers/2608.27529",
+      "id": "3ff2d9ad021d",
+      "title": "J-Zero: Unified Challenger--Solver--Judge Co-Evolution from Zero Data",
+      "url": "https://huggingface.co/papers/2608.26582",
       "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Streaming 3D reconstruction from extremely long videos requires estimating camera motion and scene geometry online unde…",
-      "score": 8
+      "summary": "Self-evolving language models have recently emerged as a promising path toward superintelligence, with the advantage of…",
+      "score": 31
     },
     {
-      "id": "21a43b36cfca",
-      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
-      "url": "https://huggingface.co/papers/2608.28478",
+      "id": "1389f6ff3b1b",
+      "title": "DART-SD: Diamond-topology Aware Retrieval and Tuning for Self-Distillation of Multi-Turn Tool-Calling Agents",
+      "url": "https://huggingface.co/papers/2608.18524",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Equipping Large Language Models (LLMs) with multi-turn tool-calling capabilities is essential for building autonomous a…",
+      "score": 30
+    },
+    {
+      "id": "edb3894cc64e",
+      "title": "LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation",
+      "url": "https://huggingface.co/papers/2608.28460",
       "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (L…",
-      "score": 8
+      "summary": "Autoregressive video diffusion enables scalable long-video generation by producing chunks from a bounded recent context…",
+      "score": 20
     },
     {
-      "id": "3743b26d8afc",
-      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2608.27550",
+      "id": "edbacb510ece",
+      "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+      "url": "https://huggingface.co/papers/2608.27370",
       "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Scaling robot data is crucial for building generalist Vision-Language-Action (VLA) models, yet robot trajectories are h…",
-      "score": 5
+      "summary": "Language model pretraining has become almost synonymous with prohibitive cost, placing it out of reach for much of the …",
+      "score": 13
     },
     {
-      "id": "ed8a5cffa946",
-      "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
-      "url": "https://huggingface.co/papers/2608.24777",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "LLM-based agents can interact with external environments through tool invocation, but this capability also introduces s…",
-      "score": 4
-    },
-    {
-      "id": "3c3992204803",
-      "title": "LMSM: LLM Security Framework Inspired by Linux Security Modules",
-      "url": "https://huggingface.co/papers/2608.25697",
+      "id": "31540c87ce1a",
+      "title": "Paint What You See: Benchmarking Dexterous Visual Tool Use in Multimodal Agents",
+      "url": "https://huggingface.co/papers/2608.25417",
       "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "Large language models (LLMs) are increasingly deployed with layered defenses, yet malicious prompts can still bypass th…",
+      "summary": "Evaluation is shifting from static QA toward agentic settings where models act through external tools. We identify a cr…",
+      "score": 13
+    },
+    {
+      "id": "a5a0fdbd0021",
+      "title": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
+      "url": "https://huggingface.co/papers/2608.28192",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "summary": "Spatio-temporal video grounding (STVG) requires models to identify when a referred event occurs and localize the target…",
+      "score": 10
+    },
+    {
+      "id": "fb7f7a4167f2",
+      "title": "Fast Weight Attention for Continual Learning",
+      "url": "https://huggingface.co/papers/2608.27763",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "summary": "Recurrent fast-weight memories and selective state-space models compress an expanding context into a fixed-size recurre…",
+      "score": 8
+    },
+    {
+      "id": "9718457c2715",
+      "title": "Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion",
+      "url": "https://huggingface.co/papers/2608.26794",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "summary": "Scaling video generation to long durations reveals a critical bottleneck: current models lack robust long-term memory. …",
+      "score": 6
+    },
+    {
+      "id": "37209352f365",
+      "title": "StarHarness: Evolving Harnesses with Stratified Search for Enterprise Environments",
+      "url": "https://huggingface.co/papers/2608.24804",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "We present StarHarness, a framework for evolving environment-specific agent harnesses while keeping model weights fixed…",
+      "score": 3
+    },
+    {
+      "id": "abbe66de0e06",
+      "title": "GGSS: Geodesic-Gated Spherical Steering for Inference-Time Debiasing of Generative Vision-Language Models",
+      "url": "https://huggingface.co/papers/2608.25375",
+      "publishedAt": "2026-08-26T04:58:40.000Z",
+      "summary": "Generative vision-language models (VLMs) are increasingly used in human-centered settings, yet they can produce demogra…",
       "score": 2
     },
     {
-      "id": "9edeb4867ad8",
-      "title": "Rubric-to-Code Credit Assignment for Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2608.27906",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Interactive web application generation requires models to produce usable HTML, CSS, and JavaScript applications from na…",
-      "score": 1
-    },
-    {
-      "id": "f7f394ba7faf",
-      "title": "Video Generative Models as Geometry Learner",
-      "url": "https://huggingface.co/papers/2608.28549",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image…",
-      "score": 1
-    },
-    {
-      "id": "6064349911f7",
-      "title": "PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control",
-      "url": "https://huggingface.co/papers/2608.24115",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Multimodal large language models (MLLMs) can integrate long visual histories, reason under partial observability, and i…",
-      "score": 1
-    },
-    {
-      "id": "135978fdb6cd",
-      "title": "Training, learning and inference: unified dynamics of neural systems",
-      "url": "https://huggingface.co/papers/2608.20965",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "We define an atomic generation fact f=(u,tau,omega,z;rho), recording the origin, realized transformation, concrete occu…",
-      "score": 0
+      "id": "aad8a7a3ea56",
+      "title": "Language Chain in Alignment: Cross-lingual Ranking Preference Optimization",
+      "url": "https://huggingface.co/papers/2608.23149",
+      "publishedAt": "2026-08-24T11:54:36.000Z",
+      "summary": "The alignment of Large Language Models heavily relies on English-centric high-quality preference data, which often lead…",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-08-31T03:21:55.571Z",
+  "fetchedAt": "2026-08-31T09:59:01.523Z",
   "stale": false,
   "error": null
 }
