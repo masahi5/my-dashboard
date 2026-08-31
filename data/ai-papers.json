@@ -6,36 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "433907eb6eeb",
-      "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
-      "url": "https://huggingface.co/papers/2608.25518",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "A common strategy for scaling world models is to train on more crawled video with more compute. We argue that this stra…",
-      "score": 175
-    },
-    {
-      "id": "c014b34ff786",
-      "title": "TTPO: Test-Time Policy Optimization",
-      "url": "https://huggingface.co/papers/2608.27448",
+      "id": "437a44afaa66",
+      "title": "Code as Worlds: Agentic Discovery of Executable World Representations for Physical Reasoning",
+      "url": "https://huggingface.co/papers/2608.27549",
       "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), hav…",
-      "score": 73
-    },
-    {
-      "id": "5bd4841f7aa4",
-      "title": "GameWAM: A World Action Model for Video Games",
-      "url": "https://huggingface.co/papers/2608.26200",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Modern video games combine first-person perception, rapid visual changes, persistent world state, and heterogeneous nat…",
-      "score": 43
-    },
-    {
-      "id": "88ad2ae46f9d",
-      "title": "PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents",
-      "url": "https://huggingface.co/papers/2608.26530",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Long-horizon agent runs generate experience that can improve both the current run and future work. Most self-improvemen…",
-      "score": 30
+      "summary": "Physical understanding and reasoning depend on forming compact and generalizable representations of the world. While mo…",
+      "score": 15
     },
     {
       "id": "311b26d80b56",
@@ -46,63 +22,87 @@
       "score": 12
     },
     {
-      "id": "9d26c46bc8c0",
-      "title": "Procedura: Agentic 3D Modeling with Procedural Control",
-      "url": "https://huggingface.co/papers/2608.26238",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "Native 3D generators now recover impressive mesh geometry from a single image. However, a dense mesh stays soft where a…",
+      "id": "a43314519d62",
+      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+      "url": "https://huggingface.co/papers/2608.28476",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "summary": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain disper…",
       "score": 11
     },
     {
-      "id": "19eee1d28325",
-      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
-      "url": "https://huggingface.co/papers/2608.27455",
+      "id": "aa131a651acc",
+      "title": "Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction",
+      "url": "https://huggingface.co/papers/2608.27529",
       "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language model…",
-      "score": 9
+      "summary": "Streaming 3D reconstruction from extremely long videos requires estimating camera motion and scene geometry online unde…",
+      "score": 8
     },
     {
-      "id": "68867157a9c6",
-      "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
-      "url": "https://huggingface.co/papers/2608.25798",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "Contact-rich manipulation requires adapting to contact states that can evolve substantially within an action horizon. H…",
+      "id": "21a43b36cfca",
+      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+      "url": "https://huggingface.co/papers/2608.28478",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "summary": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (L…",
+      "score": 8
+    },
+    {
+      "id": "3743b26d8afc",
+      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2608.27550",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "summary": "Scaling robot data is crucial for building generalist Vision-Language-Action (VLA) models, yet robot trajectories are h…",
       "score": 5
     },
     {
-      "id": "082db547e627",
-      "title": "Thinking on Shots: Consistent Multi-Shot Video Editing with Agentic Reasoning",
-      "url": "https://huggingface.co/papers/2608.26809",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "While generative AI has significantly advanced video editing, existing methods primarily focus on single-shot or short …",
+      "id": "ed8a5cffa946",
+      "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
+      "url": "https://huggingface.co/papers/2608.24777",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "LLM-based agents can interact with external environments through tool invocation, but this capability also introduces s…",
       "score": 4
     },
     {
-      "id": "d008541c919d",
-      "title": "What Does an Evaluation License? A Commit-Bound Census of Claim-Relative Inference in Inspect Evals",
-      "url": "https://huggingface.co/papers/2608.19269",
+      "id": "3c3992204803",
+      "title": "LMSM: LLM Security Framework Inspired by Linux Security Modules",
+      "url": "https://huggingface.co/papers/2608.25697",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "summary": "Large language models (LLMs) are increasingly deployed with layered defenses, yet malicious prompts can still bypass th…",
+      "score": 2
+    },
+    {
+      "id": "9edeb4867ad8",
+      "title": "Rubric-to-Code Credit Assignment for Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2608.27906",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "summary": "Interactive web application generation requires models to produce usable HTML, CSS, and JavaScript applications from na…",
+      "score": 1
+    },
+    {
+      "id": "f7f394ba7faf",
+      "title": "Video Generative Models as Geometry Learner",
+      "url": "https://huggingface.co/papers/2608.28549",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "summary": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image…",
+      "score": 1
+    },
+    {
+      "id": "6064349911f7",
+      "title": "PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control",
+      "url": "https://huggingface.co/papers/2608.24115",
       "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Evaluation artifacts specify a forward computation: a task, scorer, and reported metric. They do not necessarily licens…",
-      "score": 3
+      "summary": "Multimodal large language models (MLLMs) can integrate long visual histories, reason under partial observability, and i…",
+      "score": 1
     },
     {
-      "id": "d0a37d14d26f",
-      "title": "EditaLive! Unified Character Video Editing for Live Streaming",
-      "url": "https://huggingface.co/papers/2608.27123",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Conventional video editing primarily focuses on scene-level content, whereas live streaming places greater emphasis on …",
-      "score": 3
-    },
-    {
-      "id": "c82589f01263",
-      "title": "Aphanta: Diagnosing Task-Aligned Image-Edited Intermediates for Multimodal Reasoning",
-      "url": "https://huggingface.co/papers/2608.26993",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Explicit visual intermediates can help multimodal large language models (MLLMs) externalize spatial evidence and update…",
-      "score": 3
+      "id": "135978fdb6cd",
+      "title": "Training, learning and inference: unified dynamics of neural systems",
+      "url": "https://huggingface.co/papers/2608.20965",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "We define an atomic generation fact f=(u,tau,omega,z;rho), recording the origin, realized transformation, concrete occu…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-08-30T23:53:14.162Z",
+  "fetchedAt": "2026-08-31T03:21:55.571Z",
   "stale": false,
   "error": null
 }

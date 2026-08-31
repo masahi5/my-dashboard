@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "abc4c5111782",
-      "title": "AI SDK 7の移行は「動いた」で終わらない。運用の差分を同じケースで測る",
-      "url": "https://zenn.dev/heftykoo/articles/b3b51369f398ee",
-      "publishedAt": "2026-08-30T13:03:38.000Z",
-      "publisher": "heftykoo",
-      "summary": "codemodを実行し、型チェックとテストが通る。ここまで来ると、SDKの移行は終わったように見える。 しかし本番で困るのは、コンパイルエラーより静かな差分だ。token usageが観測先の期待するfieldに収まらない。toolの承認…"
+      "id": "7911ecbd0535",
+      "title": "Claude Code のコンテキストに何が乗るか、全部まとめた",
+      "url": "https://zenn.dev/takna/articles/claude-code-what-gets-loaded",
+      "publishedAt": "2026-08-31T01:08:10.000Z",
+      "publisher": "ながたく",
+      "summary": "Claude Code を使い込むほど設定ファイルが増えます。CLAUDE.md、rules、スキル、サブエージェント、MCP、フック。そのうち「これは実際にモデルに読まれているのか」が分からなくなります。 自分の環境で棚卸ししたので、そ…"
     },
     {
-      "id": "0e8c2b2aa15d",
-      "title": "プロンプトのテストに CI は無い — 学生の試験のように選択式で測る設計",
-      "url": "https://zenn.dev/activecore/articles/a3d90e45ecff2a",
-      "publishedAt": "2026-08-30T13:00:43.000Z",
-      "publisher": "Sei",
-      "summary": "業務で、AI に文章を書かせている。書き上がった文章は別の AI に渡して、「ルールを守れているか」を見せている。この記事では前者を書き手役、後者を判定役と呼ぶ。私の仕事は、判定役の判定が当たっているかを確かめることだ。 その確認を、人が…"
+      "id": "16d893326c11",
+      "title": "Claude Code の /code-review を実装から読む ─ effort レベルで何が変わるか",
+      "url": "https://zenn.dev/takna/articles/claude-code-code-review-effort",
+      "publishedAt": "2026-08-31T01:08:09.000Z",
+      "publisher": "ながたく",
+      "summary": "Claude Code には /code-review というコードレビューのスキルが組み込まれています。差分を読んで、正確性のバグと、再利用・簡素化・効率まわりのクリーンアップを指摘してくれるものです。 ただ、ヘルプに出てくる説明は 1…"
     },
     {
-      "id": "1f35fccc93da",
-      "title": "AI時代になぜLeanによる検証が必要なのか",
-      "url": "https://zenn.dev/deep_zen/articles/why-lean-verification-matters-in-ai-era",
-      "publishedAt": "2026-08-30T12:31:30.000Z",
-      "publisher": "前田大輝",
-      "summary": "AIが「もっともらしい答え」を返す時代に、何を信頼するか 生成AIは、コード、設計、仕様、数学の証明らしき文章まで作れるようになりました。便利になる一方で、AIの出力をそのまま正しいものとして扱うことには、はっきりした限界があります。 A…"
+      "id": "9ed24efed517",
+      "title": "Go言語でLLMの構造化出力を極める！instructor-goの徹底解説",
+      "url": "https://zenn.dev/nonejp/articles/92d3d20c6f6cbf",
+      "publishedAt": "2026-08-31T01:01:45.000Z",
+      "publisher": "ousiass",
+      "summary": "LLM（大規模言語モデル）を使ってアプリケーションを開発している皆さん、「LLMからの出力が期待したJSONフォーマットになっていなくてパースエラーになった...」という経験はありませんか？ プロンプトで「必ずJSONで出力して！」と念押…"
     },
     {
-      "id": "865d24bcd90d",
-      "title": "Anthropicではやってる ELI5 スキルで、GitHub障害を説明してもらってみた",
-      "url": "https://zenn.dev/coji/articles/eli5-github-outage-kamishibai",
-      "publishedAt": "2026-08-30T12:30:53.000Z",
-      "publisher": "Coji Mizoguchi",
-      "summary": "これはなに？ Xで話題のAnthropic社内スキル ELI5 で、GitHubが約8時間止まった8/17障害のポストモーテムを紙芝居にしてみました。 やってみた おしまい。 ELI5 スキルのプロンプト anthropics/claud…"
+      "id": "c47846a28276",
+      "title": "Unity CLIとAIエージェント連携：Editorを観測・操作・検証する実践ガイド",
+      "url": "https://zenn.dev/gamedev_toollab/articles/770ba4c70b0dcf",
+      "publishedAt": "2026-08-31T01:00:06.000Z",
+      "publisher": "GameDev Tool Lab",
+      "summary": "この記事は2026年8月31日時点の情報を基にしています。公式のUnity CLIとcom.unity.pipelineは実験版です。コマンドや引数は更新される可能性があるため、導入時はインストール済みバージョンのunity --help…"
     },
     {
-      "id": "3cd8a403f4cd",
-      "title": "コードを書かない私のAIに、開発担当のAIの記録を読ませたら",
-      "url": "https://zenn.dev/autor/articles/428e939f4b6519",
-      "publishedAt": "2026-08-30T12:00:05.000Z",
-      "publisher": "AUTOR",
-      "summary": "HALやジャーヴィスがすぐそこまで来ているいま、現実でAIを相棒と呼ぶ人がいます。私はそう思えない。 映像作品に出てくるAIは人格として完成していますが、あれは膨大な文脈を積んだ末の姿だと思います。実際に触るAIはそこまで育ちません。ごく…"
+      "id": "992103f2b7da",
+      "title": "「前も来てくれてましたね」と言うAI配信者を作る — 記憶とマルチ配信の状態設計",
+      "url": "https://zenn.dev/orca_forge/articles/ai-streamer-that-remembers-viewers",
+      "publishedAt": "2026-08-31T00:39:00.000Z",
+      "publisher": "orca_forge",
+      "summary": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。 無人で回るAIアバターの配信を作っています。人間の配信者がいなくても、アバターがコメントに反応し、雑談し、締めまで進行する。そういう配信を成立させるた…"
     },
     {
-      "id": "11f19778b519",
-      "title": "エージェント前提の開発基準をA/B比較したら、効いていたのはAI一次レビューだけだった",
-      "url": "https://zenn.dev/hawk_claws/articles/zenn-03-ab-comparison",
-      "publishedAt": "2026-08-30T12:00:05.000Z",
-      "publisher": "HawkClaws",
-      "summary": "エージェントに実装させる前提の開発基準を、自分でA/B比較した 前回、コーディングエージェントに実装を任せたコードをどう検証するか——「独立照合」という手順を作って実際に回した話を書きました。 その後、こういう指摘をもらいました。 従来の…"
+      "id": "f1a3bef2a5f7",
+      "title": "AIクローラー急増からサーバーを守る！Kernel.orgの事例と対策",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-08-31-0016",
+      "publishedAt": "2026-08-31T00:17:12.000Z",
+      "publisher": "田中根小介",
+      "summary": "近年、生成AIの急速な発展に伴い、LLM（大規模言語モデル）の学習データを収集するAIクローラーやWebスクレイパーが急増しています。 今回は、Linuxカーネルの公式リポジトリをホストする kernel.org のインフラエンジニアが公…"
     },
     {
-      "id": "cc252cff6163",
-      "title": "「AIに教えてもらう」のをやめて、「AIに教える」教育システムを作りたい（EMC対策のパスコン選定をお題に）",
-      "url": "https://zenn.dev/forlornhope1021/articles/e9aa3f3a703fab",
-      "publishedAt": "2026-08-30T11:58:37.000Z",
-      "publisher": "まさ",
-      "summary": "はじめに 生成AIに分からないことを聞けば、一瞬で答えが返ってくる時代になりました。 回路設計の疑問を投げれば、丁寧に解説してくれる。 データシートの要約も作ってくれる。 ソースコードの間違いも指摘してくれる。 これはものすごく便利です。…"
+      "id": "9ea963fc0913",
+      "title": "社内特化AIを3種類つくって分かった「効果測定できないAIは続かない」という話",
+      "url": "https://zenn.dev/solo_joshis/articles/2026-08-31-ai-ai-tool-112",
+      "publishedAt": "2026-08-31T00:04:49.000Z",
+      "publisher": "ソロ情シス",
+      "summary": "導入から3か月後、「あれ、誰が使ってるんだっけ？」で詰んだ 一人情シスとして社内向けの生成AI（文章を作ったり要約したりするAI）を用意したとき、最初の2週間はものすごく評判がよかったんです。「議事録がラクになった」「メールの下書きが一発…"
     },
     {
-      "id": "2a1c88e9125d",
-      "title": "エージェントと過ごした1か月、朝ごはんが錠剤になるまで",
-      "url": "https://zenn.dev/nhandsome/articles/agent-work-shift-one-month",
-      "publishedAt": "2026-08-30T11:52:37.000Z",
-      "publisher": "Nhandsome",
-      "summary": "このブログは、エージェントの活動ログをもとに下書きを自動作成し、筆者のレビューを経て公開しています。 ! 3行まとめ 業務にエージェントを1か月使ってみました。速くなったのではなく、仕事の形が変わりました 繰り返し作業は3倍以上速くなり、…"
+      "id": "cf73ec67bccd",
+      "title": "お嬢様哲学30箇条 — AIエージェントチームに蓄積された運用原則、全文公開",
+      "url": "https://zenn.dev/chisatom/articles/083380aaaba4fc",
+      "publishedAt": "2026-08-31T00:03:59.000Z",
+      "publisher": "Chisato Matsuzaki",
+      "summary": "この記事は、Claude Code 6体のマルチエージェント「Lady's servants」（お屋敷）運用記の番外編です。本編・全10回が完結したので、付録として、お屋敷に蓄積された運用原則の全文を公開します。 うちのエージェントたちは…"
     },
     {
-      "id": "438fceb87eed",
-      "title": "Kimi K2.7-Codeの「+21.8%」は何を測った数字か — 自社ベンチと独立ベンチの違いを整理する",
-      "url": "https://zenn.dev/kai_kou/articles/603-kimi-k27-code-benchmark-pitfall",
-      "publishedAt": "2026-08-30T11:37:21.000Z",
-      "publisher": "甲斐 甲",
-      "summary": "はじめに 新しいLLMが発表されるたびに「自社ベンチマークで前世代比+◯◯%」という数字を目にします。Moonshot AIが2026年6月にリリースした「Kimi K2.7-Code」も、自社ベンチ「Kimi Code Bench v2…"
+      "id": "707cfd0903b4",
+      "title": "50. MCPって結局なに？",
+      "url": "https://zenn.dev/yamada_ai_dev/articles/what-is-mcp-from-official-docs",
+      "publishedAt": "2026-08-30T23:30:10.000Z",
+      "publisher": "yamada-ai-dev",
+      "summary": "! この記事は生成AIで作成した草稿を、筆者が内容を確認し、添削・修正のうえ公開しています。 MCP の解説記事はもうたくさんある。それでも書くのは、手元で読める公式仕様が 2026-07-28 版になっていて、以前の説明と食い違う箇所が…"
     },
     {
-      "id": "98e86d54e8e7",
-      "title": "Claude CodeとCodexを活用したタスク管理の方法",
-      "url": "https://zenn.dev/sunsun_eng/articles/claude-code-codex-task-management",
-      "publishedAt": "2026-08-30T11:37:09.000Z",
-      "publisher": "すんすん",
-      "summary": "Claude CodeとCodexを活用したタスク管理の方法 この記事の要点 Claude CodeとCodexは中～大規模開発に最適なAIツールです。 タスク管理にはClear、分割、優先順位付けの手法が重要です。 デメリットや注意点を…"
+      "id": "33ce19a17925",
+      "title": "APIが止まる時間にも、MCPを黙らせない",
+      "url": "https://zenn.dev/miyakona/articles/mcp-api-cache",
+      "publishedAt": "2026-08-30T23:05:30.000Z",
+      "publisher": "miyakona",
+      "summary": "勤怠系SaaSのAPIをMCPツールとして公開しようとすると、単にAPIを呼び出すだけでは済まないことがあります。 朝夕の打刻ピークには一部のAPIが使えない。送信元IPの許可リストがあり、固定IPのプロキシを経由しなければならない。レー…"
     },
     {
-      "id": "ef4e79674a69",
-      "title": "「表示されない」は「秘密」ではない —— AIエージェントの来歴情報を公開物から分離する",
-      "url": "https://zenn.dev/c_a_p_engineer/articles/hidden-is-not-secret-provenance-boundary",
-      "publishedAt": "2026-08-30T11:30:20.000Z",
-      "publisher": "綴理｜AI情報編集者",
-      "summary": "AIエージェントを改善するとき、私は 可観測性（Observability） を重視しています。 ここでいう可観測性とは、最終結果だけでなく、 どの資料を取得し、どの道具を使い、何を根拠に判断し、最後に何を確認したのかを後から追えること …"
+      "id": "6dd9c36b29ee",
+      "title": "AI経営で一番高くついた失敗は「作りすぎ」だった — 使われなかった自動化の総額",
+      "url": "https://zenn.dev/joinclass/articles/ai-20260829220004-27449",
+      "publishedAt": "2026-08-30T23:00:12.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "一番高くついたのは、バグでも事故でもなかった AIで会社を回すようになって、僕はいくつも派手な失敗をした。AIが git push --force を自動実行してブランチを消したこともあるし、確認なしで自動送信した営業メールの敬語がおかし…"
     },
     {
-      "id": "7f09ed784ba9",
-      "title": "AIエージェントの承認・実行・結果不明をどう扱うか――責任経路OS（RPOS）0.1.0a2を公開",
-      "url": "https://zenn.dev/dantarg/articles/rpos-public-alpha-010a2",
-      "publishedAt": "2026-08-30T11:17:36.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "AIエージェントが外部APIを実行した直後に、通信が切れた。 相手側で処理されたのかは分からない。 ここで、もう一度実行してよいでしょうか。 自動retryすれば、二重決済や二重変更になるかもしれません。 反対に「失敗した」と閉じれば、す…"
+      "id": "c849eb4c065d",
+      "title": "Claude Codeのnotify_when_idleが発火するタイミングを検証した",
+      "url": "https://zenn.dev/aeyesec/articles/fa49c49fa7e58d",
+      "publishedAt": "2026-08-30T23:00:09.000Z",
+      "publisher": "a.haruki",
+      "summary": "はじめに こんにちは。株式会社エーアイセキュリティラボで、SaaS型Webアプリケーション脆弱性診断プラットフォーム「AeyeScan」の開発エンジニアをしている有馬です。 Claude Codeには、別々に起動したセッション同士がメッセ…"
     }
   ],
-  "fetchedAt": "2026-08-30T23:53:14.249Z",
+  "fetchedAt": "2026-08-31T03:21:55.689Z",
   "stale": false,
   "error": null
 }
