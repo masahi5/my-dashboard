@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "a76b59a208c5",
-      "title": "AIエージェントを「育てる」とは何か？ 使うほど賢くなる記憶の仕組み「Memory Scaling」",
-      "url": "https://zenn.dev/gixo/articles/agent-memory-scaling-enterprise",
-      "publishedAt": "2026-08-31T06:00:05.000Z",
-      "publisher": "Kouma Nakashima",
-      "summary": "はじめに AIエージェントの業務導入において、運用中も実際の業務でより使いやすくなるよう継続的にUPDATEしていく設計が重要です。 エージェント性能を高めようとすると、より高性能なLLM・モデルへの変更や、システムプロンプトのチューニン…"
+      "id": "772daa5816da",
+      "title": "AIエージェントの調査専用委任、指示文だけでは権限を縛れない【委任設計】",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/ai-agent-delegation-scope-isolation",
+      "publishedAt": "2026-08-31T09:59:10.000Z",
+      "publisher": "とんのかつ",
+      "summary": "はじめに 複数のAIエージェント（オーケストレーター役・実装委任先CLI・レビュー役）を組み合わせて開発作業を自動化していると、必ず一度は「調査だけしてレポートして、コードは触らないで」という指示を出す場面が来る。 このとき「委任プロンプ…"
     },
     {
-      "id": "1a059a83e59a",
-      "title": "Is AI Actually Taking Jobs in 2026? What the Labor Data Really Shows",
-      "url": "https://zenn.dev/neotechpark/articles/20f2e7e9c16a90",
-      "publishedAt": "2026-08-31T05:43:15.000Z",
-      "publisher": "NeoTechPark",
-      "summary": "A data-driven look at whether AI is destroying jobs in 2026, based on Yale Budget Lab, Stanford, Challenger layoff repo…"
+      "id": "adb31c384944",
+      "title": "[生成AI Vol.4] ClaudeとGitHub Projectsを連携させて、PMを\"クリック地獄\"から解放する",
+      "url": "https://zenn.dev/sun_asterisk/articles/bf649fda3fc11f",
+      "publishedAt": "2026-08-31T09:52:01.000Z",
+      "publisher": "TienTT",
+      "summary": "前回はVol.3として「Ollama × Open WebUIでローカルLLM環境を構築する」方法についてご紹介しました。Vol.4となる今回は少し目線を変えて、PM（プロジェクトマネージャー）視点でのAI活用術をご紹介したいと思います。…"
     },
     {
-      "id": "7e3bf1e5baf6",
-      "title": "決めずにAIを走らせた7時間半で、壊れた4つのもの",
-      "url": "https://zenn.dev/trust/articles/5304a41948403f",
-      "publishedAt": "2026-08-31T05:17:28.000Z",
-      "publisher": "toogoshi",
-      "summary": "! 本記事に登場するコード例・設定例・ディレクトリ構成は、実務の内容を簡略化・抽象化したものです。そのまま本番環境で使えるものではありません。 おはようございます、とおごしです。 7月に社内のハッカソンがありました。1日で1本アプリを仕上…"
+      "id": "e81209ead9ef",
+      "title": "Microsoft AB-900, AB-730 を取得するまで🎓",
+      "url": "https://zenn.dev/sun_asterisk/articles/9ce9f9fb0393c3",
+      "publishedAt": "2026-08-31T09:51:52.000Z",
+      "publisher": "余裕が欲しいよっちゃん",
+      "summary": "はじめに 2026年に入り、企業の生成AI導入は「単なるチャット活用の検証（PoC）」から「業務プロセスに組み込むAIエージェントの本格運用」へとシフトしています。 それに伴い、Microsoft資格にもCopilotおよびAIエージェン…"
     },
     {
-      "id": "7f30e6a18471",
-      "title": "CursorのSkillsを試してみた！",
-      "url": "https://zenn.dev/aiforall/articles/f1af3adff090ce",
-      "publishedAt": "2026-08-31T05:13:47.000Z",
-      "publisher": "hodaka",
-      "summary": "CursorのSkillsを試してみた！ はじめに Cursorには有用な機能が多くあり、AI駆動開発を日常的に実践するエンジニアにとって、日々の業務効率化のための有力な選択肢となります。 本記事では、個人的に使用してみたかったCurso…"
+      "id": "8e9199116991",
+      "title": "AI記事レビューの『小修正で全チェック』をやめる：変更内容から必要な検査だけ選ぶ設計",
+      "url": "https://zenn.dev/nomurasan/articles/ai-article-review-change-aware-checklist",
+      "publishedAt": "2026-08-31T09:49:37.000Z",
+      "publisher": "のむらや",
+      "summary": "! この記事は、AIを使った記事制作の実運用で起きた問題と、実装・テスト結果を基にしています。問題設定と運用方針は著者が決め、AIが実装、検証、構成整理、本文草案を担当しました。公開前の最終判断は著者本人が行います。 TL;DR 小さな変…"
     },
     {
-      "id": "72336aadb329",
-      "title": "AI時代の防御はどう変わる？HITCON 2026で広がった脅威の見方――HITCON 2026レポート",
-      "url": "https://zenn.dev/cscloud_blog/articles/07d4262ce711fd",
-      "publishedAt": "2026-08-31T05:00:01.000Z",
-      "publisher": "YAMANEKO",
-      "summary": "こんにちは。サイバーセキュリティクラウドで働いているYAMANEKOです。 前回の記事では、HITCON 2026に参加して感じた、AI時代のセキュリティの変化について執筆させていただきました。 https://zenn.dev/cscl…"
+      "id": "12a3f065d013",
+      "title": "事故ってから足したルール13個 ―― 1年近くAIに開発をさせて、やらかしたことと決めたこと",
+      "url": "https://zenn.dev/ai_shihan/articles/90123bc12060f7",
+      "publishedAt": "2026-08-31T09:21:28.000Z",
+      "publisher": "ai_shihan",
+      "summary": "こんにちは、AI師範です。普段はAIを組織のように使って、業務自動化ツールの製作と、その運用の引き継ぎ支援をしています。 「AIは新卒」「セッションは別の人」「モデルは学歴と単価」と書いてきたシリーズの最終回です。ここまでは考え方の話でし…"
     },
     {
-      "id": "a0c9be6c3f3f",
-      "title": "個人向け Coding Agent サブスクリプションのコストパフォーマンス比較",
-      "url": "https://zenn.dev/kimuson/articles/compare-ai-subscription-20260818",
-      "publishedAt": "2026-08-31T04:50:01.000Z",
-      "publisher": "きむそん",
-      "summary": "はじめに Coding Agent 向けのサブスクリプションの選択肢も増えてきており、このエントリでは各社のサブスクリプションのコストパフォーマンスを整理し比較していきます。 Open Model は安いと言われますが、大抵は「同水準のモ…"
+      "id": "d761658f538f",
+      "title": "あなたが評価しているのは、モデルか、ハーネスか",
+      "url": "https://zenn.dev/quick_wpd/articles/410a689d5b9d8a",
+      "publishedAt": "2026-08-31T09:09:38.000Z",
+      "publisher": "shun",
+      "summary": "はじめに 使っているAI（Claude CodeやCodex）の調子が悪いとき、モデルだけを疑っていないでしょうか。 以前の私はそうでした。「思うように結果が出ないな」「最上位のモデルに替えたらよくなるかな」と考えていたのです。 しかし、…"
     },
     {
-      "id": "6825b79b64bb",
-      "title": "表データの基盤モデルGoogle TabFMが調整済みXGBoostを上回る",
-      "url": "https://zenn.dev/okssusucha/articles/20260714-google-tabfm-zero-shot-tabular-foundation",
-      "publishedAt": "2026-08-31T04:35:58.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "生成AIの波は、テキスト、画像、音声、コードと次々に既存の職人技を塗り替えてきた。その一方で、企業のデータベースやスプレッドシートに眠る「表形式データ」だけは、ほぼ手つかずで残っていた。売上予測でも与信スコアでも異常検知でも、現場で最初に…"
+      "id": "1df0d9d001ca",
+      "title": "AgentCore Memoryのflexible namespace variablesを実測 — 渡し忘れをNull条件で即時エラー化",
+      "url": "https://zenn.dev/nttdata_tech/articles/a4d73048bca582",
+      "publishedAt": "2026-08-31T09:05:51.000Z",
+      "publisher": "Yutaka Kashiwabara",
+      "summary": "1. はじめに エージェントに長期記憶を持たせるとき、記憶をどの単位で分けるかは設計の入口になります。1つのエージェントを複数の組織やテナントで共有するなら、「A社の会話から抽出した事実がB社の応答に混ざらない」ことを仕組みとして保証した…"
     },
     {
-      "id": "0e50f2cd9d37",
-      "title": "個人開発SaaSでAI機能を無料プランに全開放できた理由（BYOK設計）",
-      "url": "https://zenn.dev/taski_app/articles/02-byok-ai-free-plan-devlog",
-      "publishedAt": "2026-08-31T04:26:23.000Z",
-      "publisher": "とも / Taski開発者",
-      "summary": "この記事について 個人開発のタスク管理ツール（Taski）にGoogle Gemini AIを使った機能（朝会サマリー生成、日報自動作成、サブタスク自動分解など）を実装しているのですが、これを無料プランでも回数制限なしで開放しています。「…"
+      "id": "ece07da8435a",
+      "title": "SageMaker Feature StoreのBatchWriteRecordを実測 — 呼び出し25分の1で5.7倍高速",
+      "url": "https://zenn.dev/nttdata_tech/articles/a32fd071026898",
+      "publishedAt": "2026-08-31T09:02:33.000Z",
+      "publisher": "Yutaka Kashiwabara",
+      "summary": "1. はじめに Amazon SageMaker Feature Store のオンラインストアへ特徴量を書き込む手段は、長らく PutRecord だけでした。PutRecord は 1回の呼び出しで 1レコード × 1フィーチャーグル…"
     },
     {
-      "id": "ff7a9d9cc8cf",
-      "title": "~/.claude が 6.57 GB あった。うち 2.78 GB は、止まったまま放置されたジョブが握るログの丸ごとコピーだった",
-      "url": "https://zenn.dev/tsutomusaito/articles/claude-dir-disk-usage-ja",
-      "publishedAt": "2026-08-31T04:06:12.000Z",
-      "publisher": "saito",
-      "summary": "du -sh ~/.claude を打ったら 6.57 GB と出た。CLI ツールの設定ディレクトリである。 内訳を数えた。 ~/.claude 合計 6.57 GB サイズ ファイル 比率 projects 2788.0MB 10,1…"
+      "id": "2a6bc82b9a0c",
+      "title": "Claudeが顕微鏡を覚えた日 ── MCPの次は「物理デバイスの標準化」だ",
+      "url": "https://zenn.dev/ryok/articles/model-hardware-standard-physical-mcp",
+      "publishedAt": "2026-08-31T08:05:51.000Z",
+      "publisher": "ryok",
+      "summary": "結論 ソフトウェアの世界では、この2年で「モデル×ツール」の接続がMCP（Model Context Protocol）という共通規格に収束した。私自身、AbletonやNotionをMCP経由でClaudeに繋いで日常的に使っている。 …"
     },
     {
-      "id": "bd3895174fec",
-      "title": "なぜ「画像生成」だけでは要件にならないのか",
-      "url": "https://zenn.dev/choco1/articles/284f7ee55fbcd1",
-      "publishedAt": "2026-08-31T03:40:13.000Z",
-      "publisher": "choco1",
-      "summary": "広告画像は短時間で一つの訴求を伝える出力、商品一覧・詳細用の画像は購入判断のために役割を分担する出力です。前者に商品ギャラリーの説明を詰め込み、後者に広告コピーを重ねると、レビュー基準が曖昧になります。 Nextify の公開フローでは、…"
+      "id": "8b43cbc1305b",
+      "title": "7社10モデルのAIに同じ課題を出して、3円から900円まで払ってみた",
+      "url": "https://zenn.dev/miki_mini/articles/d4d1f0ef1b76ac",
+      "publishedAt": "2026-08-31T08:00:06.000Z",
+      "publisher": "miki-mini",
+      "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は どのAIにいくら払えばいいか分からない なら 全部に同じ課題を出して測ればいいじゃない 👸🍰です。 読了時間の目安：約 8〜10分（前回までを読んでいなくて…"
     },
     {
-      "id": "05104a85c8c4",
-      "title": "Appleの新AI推論フレームワーク Core AI に最速でOSSを建てた",
-      "url": "https://zenn.dev/mlboydaisuke/articles/dde817900be258c46a9a",
-      "publishedAt": "2026-08-31T03:38:51.000Z",
-      "publisher": "MLBoyだいすけ",
-      "summary": "Appleの新しいAIフレームワーク、CoreAIが公開されました。 好きなAI/LLMモデルをCoreAI形式に変換して、iOSやMacOSで使用することができます。 Apple公式のCoreAI-ModelsはGemma3やQwen3…"
+      "id": "40db0b6614d9",
+      "title": "NocoBase 3.0 alpha の中心は「AI Portal」— 告知は無いが、公式ドキュメントは既に準備されている",
+      "url": "https://zenn.dev/stale_orbit/articles/nocobase-3-alpha-ai-portal",
+      "publishedAt": "2026-08-31T07:45:08.000Z",
+      "publisher": "stale_orbit",
+      "summary": "はじめに NocoBase の 3.0 alpha が、2026年7月30日から出ています。ところが公式ブログには 3.0 の告知記事が1本もありません（8月23日には 2.2 の正式リリースを告知していますが、そこにも 3.0 や AI…"
     },
     {
-      "id": "d72ddd8f3afc",
-      "title": "NEXT TOKYO'26：ゲーム・インフラ・メディアのAI・クラウド活用事例まとめ",
-      "url": "https://zenn.dev/cloud_ace_jp/articles/748f9d6dbcbef9",
-      "publishedAt": "2026-08-31T03:34:50.000Z",
-      "publisher": "クラウドエース株式会社",
-      "summary": "はじめに こんにちは、クラウドエース 事業推進本部 のエウゲニです。 Google Cloud Next Tokyo 2026で参加したセッション内容の要点をまとめてみました。 社内へのAI導入やクラウドインフラの最適化など、実務に直結す…"
+      "id": "d24f62a3435e",
+      "title": "The Video Was Better Before I Added Music",
+      "url": "https://zenn.dev/emilyjones/articles/8657fa9b261cfe",
+      "publishedAt": "2026-08-31T07:37:55.000Z",
+      "publisher": "emilyjones1217",
+      "summary": "Someone came home, dropped their keys in a bowl, took off their jacket, and walked into the kitchen. I added soft piano…"
     }
   ],
-  "fetchedAt": "2026-08-31T17:29:35.843Z",
+  "fetchedAt": "2026-08-31T22:01:01.312Z",
   "stale": false,
   "error": null
 }

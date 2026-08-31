@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.28281",
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "summary": "Loop Engineering is emerging as a practice for organizing development work around coding agents. Instead of writing eac…",
-      "score": 81
+      "score": 82
     },
     {
       "id": "1389f6ff3b1b",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.28122",
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "summary": "Generative models can turn natural-language prompts into images, text, code, and other content, lowering the cost of pr…",
-      "score": 50
+      "score": 51
     },
     {
       "id": "1521b7c638c2",
@@ -35,23 +35,7 @@
       "url": "https://huggingface.co/papers/2608.23478",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "summary": "Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still…",
-      "score": 23
-    },
-    {
-      "id": "a5a0fdbd0021",
-      "title": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
-      "url": "https://huggingface.co/papers/2608.28192",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Spatio-temporal video grounding (STVG) requires models to identify when a referred event occurs and localize the target…",
-      "score": 15
-    },
-    {
-      "id": "fb7f7a4167f2",
-      "title": "Fast Weight Attention for Continual Learning",
-      "url": "https://huggingface.co/papers/2608.27763",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Recurrent fast-weight memories and selective state-space models compress an expanding context into a fixed-size recurre…",
-      "score": 13
+      "score": 24
     },
     {
       "id": "8ee6a15b214a",
@@ -59,15 +43,15 @@
       "url": "https://huggingface.co/papers/2608.28444",
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "summary": "Due to the nature of quadratic attention, Large Language Models (LLMs) consume a lot of memory and energy. Every new to…",
-      "score": 10
+      "score": 11
     },
     {
-      "id": "9718457c2715",
-      "title": "Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion",
-      "url": "https://huggingface.co/papers/2608.26794",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Scaling video generation to long durations reveals a critical bottleneck: current models lack robust long-term memory. …",
-      "score": 10
+      "id": "b2d467700e63",
+      "title": "EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses",
+      "url": "https://huggingface.co/papers/2608.28363",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "summary": "LLM agents increasingly modify their own prompts, tools, middleware, resources, and execution harnesses at runtime. Suc…",
+      "score": 5
     },
     {
       "id": "aad8a7a3ea56",
@@ -75,7 +59,23 @@
       "url": "https://huggingface.co/papers/2608.23149",
       "publishedAt": "2026-08-24T11:54:36.000Z",
       "summary": "The alignment of Large Language Models heavily relies on English-centric high-quality preference data, which often lead…",
+      "score": 4
+    },
+    {
+      "id": "abbe66de0e06",
+      "title": "GGSS: Geodesic-Gated Spherical Steering for Inference-Time Debiasing of Generative Vision-Language Models",
+      "url": "https://huggingface.co/papers/2608.25375",
+      "publishedAt": "2026-08-26T04:58:40.000Z",
+      "summary": "Generative vision-language models (VLMs) are increasingly used in human-centered settings, yet they can produce demogra…",
       "score": 3
+    },
+    {
+      "id": "02b6fa2086a6",
+      "title": "Acquire, Repair, Preserve: A Diagnosis-Guided Post-Training Recipe for Small-Model Dialogue Game Agents",
+      "url": "https://huggingface.co/papers/2608.28458",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "summary": "Interactive dialogue games test a capability that static benchmarks largely leave implicit: a model must carry state ac…",
+      "score": 2
     },
     {
       "id": "47c25fac04ee",
@@ -86,23 +86,23 @@
       "score": 2
     },
     {
-      "id": "abbe66de0e06",
-      "title": "GGSS: Geodesic-Gated Spherical Steering for Inference-Time Debiasing of Generative Vision-Language Models",
-      "url": "https://huggingface.co/papers/2608.25375",
-      "publishedAt": "2026-08-26T04:58:40.000Z",
-      "summary": "Generative vision-language models (VLMs) are increasingly used in human-centered settings, yet they can produce demogra…",
-      "score": 2
-    },
-    {
       "id": "fae1c80fd589",
       "title": "Lost in Compression: A Controlled Cross-Lingual Audit of Extractive Prompt Compressors",
       "url": "https://huggingface.co/papers/2608.26175",
       "publishedAt": "2026-07-27T00:00:00.000Z",
       "summary": "Extractive prompt compression promises to cut LLM inference costs by removing low-information tokens, and learned compr…",
+      "score": 2
+    },
+    {
+      "id": "a5490a832ac7",
+      "title": "Ask or Answer: A Decision Framework for Multi-Turn Health Misinformation Intervention",
+      "url": "https://huggingface.co/papers/2608.21721",
+      "publishedAt": "2026-08-22T00:00:00.000Z",
+      "summary": "Correcting health misinformation in dialogue requires more than producing a factual rebuttal: users differ in what they…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-08-31T17:29:35.666Z",
+  "fetchedAt": "2026-08-31T22:01:01.148Z",
   "stale": false,
   "error": null
 }
