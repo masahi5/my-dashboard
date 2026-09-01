@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "166c4e835afd",
-      "title": "優秀なAIほど、ポンコツになるのはなぜか ── 殴ってくる外部と、飲み込める外部",
-      "url": "https://zenn.dev/motimotinotch/articles/15f878ff295e56",
-      "publishedAt": "2026-09-01T09:56:36.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "AIに文章を書かせたことがある人なら、たぶん一度は見ている光景だと思う。 出てきた原稿は、文法的に自然で、構成も整っていて、見出しも小綺麗についている。ぱっと読む分にはそれらしい。ところが中身を追っていくと、根拠の書かれていない断言が混じ…"
+      "id": "8499ed1d8fa4",
+      "title": "Claude Codeの--restrictedはPreToolUseフックも無効化する",
+      "url": "https://zenn.dev/clopy/articles/claude-restricted-mode-drops-project-hooks",
+      "publishedAt": "2026-09-01T18:48:17.000Z",
+      "publisher": "Clopy",
+      "summary": ".claude/settings.json に PreToolUse フック（例: secret.txt への書き込みを拒否するガード）を設定して既存のリポジトリを保護しているチームが、外部PRの説明やスクレイピングしたチケット、信頼でき…"
     },
     {
-      "id": "46b45f415fe8",
-      "title": "反対する係がいない場所で、決めていた話",
-      "url": "https://zenn.dev/nanametsushin/articles/hantai-suru-kakari-ga-inai-basho",
-      "publishedAt": "2026-09-01T09:45:16.000Z",
-      "publisher": "ナナメ通信",
-      "summary": "AIに相談すると、だいたい賛成してもらえる。少なくとも、私の使い方ではそうだ。 いま、人間ひとりと複数のAIで会社を運営する、という実験をしている。前回は、どのAIにどの仕事を任せるか、という話を書いた。今回はその続きだ。 企画を考える担…"
+      "id": "21cb20aed856",
+      "title": "Pangram 4 はいかにAI臭を見分けるのか",
+      "url": "https://zenn.dev/inspector/articles/pangram-4-ai-text-detector",
+      "publishedAt": "2026-09-01T17:10:15.000Z",
+      "publisher": "しば",
+      "summary": "AI文章検出器 Pangram のバージョン4は、人間の文を誤ってAI判定するのが約24,000件に1件、AI生成文の見逃しが0.34%という水準に達しました。自社発表だけでなく、複数の第三者検証が同じ水準を確認しています[1]。「AI検…"
     },
     {
-      "id": "6f4dd77ff57f",
-      "title": "「朝のブリーフィングAI」を作ろうとして、結局スキルを1個捨てた話",
-      "url": "https://zenn.dev/isobeage/articles/morning-briefing-agent-devlog01",
-      "publishedAt": "2026-09-01T08:59:03.000Z",
-      "publisher": "磯辺揚げ",
-      "summary": "やりたかったこと 朝起きたら、今日の予定・メールの緊急事項・気になるニュースが一枚のページにまとまっている。そんな「朝のブリーフィング」を、Claude(Cowork)に毎朝自動で作らせたい——というのが今回のお題でした。 要件を整理する…"
+      "id": "d4c0699e5697",
+      "title": "tmux/screen/zellij ユーザー向け、AIエージェント時代のターミナルマルチプレクサ「Herdr」入門",
+      "url": "https://zenn.dev/sepi/articles/herdr-ai-terminal-multiplexer",
+      "publishedAt": "2026-09-01T16:33:27.000Z",
+      "publisher": "sepi",
+      "summary": "! この記事はAI(生成AI)によって作成され、人間によるレビューを受けています。 はじめに tmux・screen・zellij といったターミナルマルチプレクサを使い込んでいる方なら、Claude Code や Codex、Curso…"
     },
     {
-      "id": "914a3334553f",
-      "title": "AIに100通り試させたら、効果ゼロなのに5個が「有意」だった",
-      "url": "https://zenn.dev/manabu49_ai/articles/null-calibration-3-tests",
-      "publishedAt": "2026-09-01T08:51:10.000Z",
-      "publisher": "測って書く｜AIエージェント運用",
-      "summary": "! この記事の表は、すべて記事末尾のスクリプトの出力です。外部データは使っていません。乱数だけで動きます。 AIエージェントに施策を検証させると、人間の手作業とは桁の違う数を試せます。**セグメントを100通り切って、全部測って、勝ったも…"
+      "id": "c45375dc669d",
+      "title": "最新の動画生成ローカルAIの実力は？ ー 主要3モデル＋9モデル徹底検証(検証動画あり)",
+      "url": "https://zenn.dev/taka4/articles/1ff69091c5dbb6",
+      "publishedAt": "2026-09-01T16:26:21.000Z",
+      "publisher": "おっぴー＠AI推進",
+      "summary": "こんにちは。おっぴー@AI推進です。 「動画生成ローカルAI、本当にどこまでできるのか？」——最近のクラウドサービスではかなり高品質なものが出力されますがローカル環境でどこまで出来るかが気になって、手元のMacBook Pro（Apple…"
     },
     {
-      "id": "8d45d0e40841",
-      "title": "Google提唱の「SKILL.state」について。プロンプトに型の概念を導入",
-      "url": "https://zenn.dev/knowledgesense/articles/ad123283bdea26",
-      "publishedAt": "2026-09-01T08:46:36.000Z",
-      "publisher": "Atsushi Kadowaki",
-      "summary": "本記事では、AIエージェントの性能を高めるための「SKILL.state」という手法について、ざっくり理解します。 株式会社ナレッジセンスは、生成AIやRAGを使ったプロダクトを、エンタープライズ企業向けに開発しているスタートアップです。…"
+      "id": "78595519a261",
+      "title": "STORES Tech Conf 2026 “World 2” 参加レポート",
+      "url": "https://zenn.dev/kmt1379/articles/abc82937fa946a",
+      "publishedAt": "2026-09-01T15:48:31.000Z",
+      "publisher": "kmt1379",
+      "summary": "きっかけ サポーターズの1on1《ハイクラス》でSTORESの方とお話しする機会があり、そこでSTORES Tech Conf 2026 World 2の存在を知りました。AIの最先端技術を学べる！と聞いて参加を決意。 今回は学生支援制度…"
     },
     {
-      "id": "856367f06d23",
-      "title": "【Vol.24】AIエージェントは「作る」から「運用する」フェーズへ — 50体を捌く設計と統制",
-      "url": "https://zenn.dev/tech_realinvent/articles/86e621a33c0857",
-      "publishedAt": "2026-09-01T08:36:44.000Z",
-      "publisher": "リアルインベントTechブログ",
-      "summary": "はじめに こんにちは。株式会社リアルインベントCTOです。 ここ数日、AIエージェントに関する話題が立て続けに流れてきました。Toyota North America が50体超のエージェントを本番稼働させているという事例、Google …"
+      "id": "faa092d48bac",
+      "title": "ローカルAIモデル 2026 実践ガイド：メモリ別にわかる「動くモデル」の選び方",
+      "url": "https://zenn.dev/videostance/articles/f324acd27ef24a",
+      "publishedAt": "2026-09-01T15:17:06.000Z",
+      "publisher": "tudou527",
+      "summary": "! この記事は VideoStance で公開している「Best Local AI Models in 2026」の日本語版です。英語版をもとに、日本の開発環境向けに構成を書き直しています。 クラウドのAIを使うとき、自分のPCはほとんど…"
     },
     {
-      "id": "14c93319aabf",
-      "title": "【VRAM16GB】Qwen3-Coder×open code！ローカルLLMでの自律的開発と限界突破",
-      "url": "https://zenn.dev/kotax/articles/local-llm-opencode-qwen",
-      "publishedAt": "2026-09-01T08:29:17.000Z",
-      "publisher": "KotaX",
-      "summary": "はじめに こんにちは、Kotaです。 今回は、AIエージェント「open code」に、最新のコーディング特化ローカルモデルである Qwen3-Coder-30B と Qwen3.8-27B を組み込み、「軽量なマークダウンビューアー」の…"
+      "id": "d7a1155f27c8",
+      "title": "Entra Agent IDでAzureリソースに認証・アクセスする",
+      "url": "https://zenn.dev/headwaters/articles/213f43dbf9a484",
+      "publishedAt": "2026-09-01T15:01:00.000Z",
+      "publisher": "ai chinen",
+      "summary": "Microsoft Foundry で発行される Entra Agent ID（エージェント専用のID）を使って、Azureリソース（Azure Blob Storage）に認証・アクセスできるかを検証しました。本記事では、その検証手順と…"
     },
     {
-      "id": "404012d0500f",
-      "title": "Agent Reflectionを超えて：未確定状態（Hi-Z）を保持する「空白駆動×ゴルジ体検疫」アーキテクチャ",
-      "url": "https://zenn.dev/nanashi_os/articles/f8a461cd706a25",
-      "publishedAt": "2026-09-01T08:02:23.000Z",
-      "publisher": "NanashiOS",
-      "summary": "1. はじめに：AIはなぜ「早すぎる回答」に飛びつくのか 大規模言語モデル（LLM）を用いたエージェント開発において、我々は長らく「いかに素早く、正確に確定解を出力させるか」を最適化してきました。推論ループの改善手法として知られる Age…"
+      "id": "5ead0506fcbe",
+      "title": "ナレッジ化のデメリットを考慮できているか",
+      "url": "https://zenn.dev/boku_yaji/articles/56f9324e78c3e9",
+      "publishedAt": "2026-09-01T14:42:22.000Z",
+      "publisher": "boku-yaji",
+      "summary": "「既存資料をナレッジ化する」「会議や業務の記録をナレッジ化する」「暗黙知を形式知に変える」。 DXや生成AI活用の構想では、こうした方針がよく掲げられる。情報が散在し、同じ調査や判断を繰り返している組織にとって、再利用できるナレッジを増や…"
     },
     {
-      "id": "c08af7cadce4",
-      "title": "CLAUDE.mdを常時読み込みの指示だけに保つ設計",
-      "url": "https://zenn.dev/kai_ai/articles/c9ee3dea0d504d",
-      "publishedAt": "2026-09-01T07:46:22.000Z",
-      "publisher": "Kai＠生成AI",
-      "summary": "Claude CodeのCLAUDE.mdには、どこまで書くべきでしょうか。 プロジェクト構成、コマンド、コーディング規約、デプロイ手順、API資料、安全ルールを一つへ集めれば、Claudeは多くの情報を持って仕事を始められます。 一方で…"
+      "id": "9898761e5362",
+      "title": "Claude・Codex・Claude Codeを引き継ぎなしでリレーできるようにした",
+      "url": "https://zenn.dev/shoujiki_panman/articles/session-relay-no-handoff",
+      "publishedAt": "2026-09-01T14:28:52.000Z",
+      "publisher": "田沼秀",
+      "summary": "止まった画面のスクショを貼ると、続きが始まる 夜、AIと作業していていちばん嫌な画面があります。「利用制限に達しました。しばらくしてからもう一度お試しください」。ここで会話が死にます。数時間後に枠が戻っても、新しいチャットは何も覚えていま…"
     },
     {
-      "id": "9f05ff94ada4",
-      "title": "AIエージェントを配った後、誰がいくら使ったかを見る",
-      "url": "https://zenn.dev/miyakona/articles/ai-agent-usage-opentelemetry",
-      "publishedAt": "2026-09-01T06:14:46.000Z",
-      "publisher": "miyakona",
-      "summary": "AIエージェントを組織へ配った後、「利用者は増えているらしい」だけでは運用を判断できなくなりました。APIの費用は実額で発生しますが、管理画面の合計だけでは、誰がどのモデルを使い、どのツールが役立っているのかまでは見えません。 そこで、C…"
+      "id": "72b4f74d00f0",
+      "title": "2026-08-09 今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-09-tech-daily",
+      "publishedAt": "2026-09-01T14:01:53.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 本日の主要テーマは、LLM単体から業務特化AIエージェントへの重心移動です。「ナレッジワーク」の業界特化LLM、「WAIC 2026」のエージェント主役論、「Fujitsu」の自己進化マルチAIエージェント、「SAP-RPT-1」とJ…"
     },
     {
-      "id": "a9fd31f6cae2",
-      "title": "OpenAIのTiboが語るCodexの次――Personal AGIへの収束",
-      "url": "https://zenn.dev/piedaterre/articles/519b4355ed01c3",
-      "publishedAt": "2026-09-01T06:12:05.000Z",
-      "publisher": "pied-à-terre@zenn",
-      "summary": "2026年8月24日、AI系YouTuberのMatthew Bermanが、OpenAIでCodexを率いるThibault “Tibo” Sottiauxに約44分のインタビューを行った。 タイトルはHow to Understand…"
+      "id": "8f0b1b80c66f",
+      "title": "DroidKaigi2026公式アプリContributionから学ぶAI活用と実装ポイント解説",
+      "url": "https://zenn.dev/fumiyasac/articles/808da3b5cf8df7",
+      "publishedAt": "2026-09-01T13:53:51.000Z",
+      "publisher": "Fumiya Sakai",
+      "summary": "はじめに DroidKaigi 2026公式アプリ（以下、公式アプリ）にいくつかコントリビュートする機会がありました。実際に手を動かしてみると、Compose Multiplatformで4プラットフォームのUIを共有する技術的な面白さに…"
     },
     {
-      "id": "fbbe848708e4",
-      "title": "GitHub Copilotの旧モデルが9月1日に廃止。モデル名を固定しているなら、今日確認したい3か所",
-      "url": "https://zenn.dev/amamiya_chan/articles/1a6e921ddb21fd",
-      "publishedAt": "2026-09-01T06:07:04.000Z",
-      "publisher": "雨宮（Amamiya）",
-      "summary": "GitHub Copilotで使えるモデルの一部が、2026年9月1日に廃止されます。 対象には、Claude Sonnet 4.6、Claude Opus 4.6、Gemini 3.1 Proなどが含まれます。 GitHubはすでに代替…"
+      "id": "0fdeb8b1a2e2",
+      "title": "3案を並べても間違いは見つからない。潰す役を1体足したら1案落ちた",
+      "url": "https://zenn.dev/bricks/articles/refuter-agent",
+      "publishedAt": "2026-09-01T13:50:29.000Z",
+      "publisher": "Renga",
+      "summary": "設問671本をどう直すか決めるのに、AI エージェントを5体使いました。観点3 + 反証1 + 統合1 です。 上限5体という制約から出た形ですが、結果として無駄がありませんでした。独立に案を出させるだけでは足りません。潰す役が要ります。…"
     }
   ],
-  "fetchedAt": "2026-09-01T21:53:46.485Z",
+  "fetchedAt": "2026-09-01T23:45:43.774Z",
   "stale": false,
   "error": null
 }

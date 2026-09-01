@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.31106",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual d…",
-      "score": 86
+      "score": 88
     },
     {
       "id": "a8b6bd603a72",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.29310",
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "summary": "Organizations often develop and maintain portfolios of related applications: independently deployable codebases that sh…",
-      "score": 23
+      "score": 24
     },
     {
       "id": "c38c9c9d3758",
@@ -78,6 +78,14 @@
       "score": 2
     },
     {
+      "id": "7e40649d2618",
+      "title": "RECAP-Forcing: Retaining Content Appearances for Long Video Generation",
+      "url": "https://huggingface.co/papers/2608.26671",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "summary": "Long autoregressive video generation faces a fundamental memory challenge: with a finite attention window, a model must…",
+      "score": 1
+    },
+    {
       "id": "e6584a168525",
       "title": "MMMMM: A Unified Taxonomy for Investigating the Mechanisms of Multilingual MultiModal Misinformation",
       "url": "https://huggingface.co/papers/2608.29681",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "End-to-end weather forecasting systems produce skillful global gridded and station forecasts directly from raw Earth ob…",
       "score": 1
-    },
-    {
-      "id": "7e40649d2618",
-      "title": "RECAP-Forcing: Retaining Content Appearances for Long Video Generation",
-      "url": "https://huggingface.co/papers/2608.26671",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Long autoregressive video generation faces a fundamental memory challenge: with a finite attention window, a model must…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-01T21:53:46.387Z",
+  "fetchedAt": "2026-09-01T23:45:43.618Z",
   "stale": false,
   "error": null
 }
