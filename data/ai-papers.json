@@ -11,98 +11,98 @@
       "url": "https://huggingface.co/papers/2608.31106",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual d…",
-      "score": 49
+      "score": 75
     },
     {
-      "id": "d994d81958e9",
-      "title": "Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling",
-      "url": "https://huggingface.co/papers/2608.30821",
+      "id": "b618a3ac9dbb",
+      "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
+      "url": "https://huggingface.co/papers/2608.30935",
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Composable scene modeling aims to recover a real indoor scene as complete, editable object assets arranged as observed,…",
-      "score": 34
+      "summary": "Embodied navigation requires agents to translate heterogeneous goals and visual observations into actions across tasks,…",
+      "score": 22
     },
     {
-      "id": "59b8eb5219ea",
-      "title": "CogEvol: Towards Efficient and Reliable Learning Environment Generation",
-      "url": "https://huggingface.co/papers/2608.30968",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "We present CogEvol, a family of models trained specifically for Learning Environment Generation: turning a course brief…",
-      "score": 18
+      "id": "a8b6bd603a72",
+      "title": "Super Library Agent: Joint Generation and Maintenance of Multiple Applications Beyond the Single Codebase",
+      "url": "https://huggingface.co/papers/2608.29310",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Organizations often develop and maintain portfolios of related applications: independently deployable codebases that sh…",
+      "score": 17
     },
     {
-      "id": "6aee47fb187e",
-      "title": "SHAPE of Chain-of-Thought in Math Reasoning",
-      "url": "https://huggingface.co/papers/2608.28600",
-      "publishedAt": "2026-06-28T00:00:00.000Z",
-      "summary": "Large language models (LLMs) achieve strong performance on mathematical reasoning benchmarks, yet the mathematically me…",
-      "score": 13
+      "id": "eda81cf64512",
+      "title": "Evaluating the Hidden Costs of Personalization in Large Language Models",
+      "url": "https://huggingface.co/papers/2608.28833",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "summary": "While Large language models (LLMs) incorporate user personalization signals to improve usability and helpfulness, they …",
+      "score": 8
     },
     {
-      "id": "ab640b8fb74a",
-      "title": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
-      "url": "https://huggingface.co/papers/2608.30320",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "We describe the architecture and ablations of Qwen3.8-Flash-Next, a sparse mixture-of-experts model with 125B parameter…",
-      "score": 6
+      "id": "382858eac0ea",
+      "title": "Keep-or-Drop? Adaptive Tokenizer for Compact Video Representation",
+      "url": "https://huggingface.co/papers/2608.24293",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Latent diffusion models have emerged as a dominant framework for high-fidelity image and video synthesis, operating in …",
+      "score": 7
     },
     {
-      "id": "e685ea57a7ca",
-      "title": "Normalized Low-Rank Adaptation",
-      "url": "https://huggingface.co/papers/2608.31036",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "While low-rank adaptation (LoRA) is widely used for parameter-efficient model adaptation, how to regularize its trainin…",
+      "id": "c38c9c9d3758",
+      "title": "Chain-of-Thought Faithfulness of Reasoning Models Varies with Where and How Preference Cues Are Delivered",
+      "url": "https://huggingface.co/papers/2608.29464",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Chain-of-thought (CoT) monitoring assumes that reasoning traces faithfully record the information that shapes a model's…",
       "score": 4
     },
     {
-      "id": "4173356ec227",
-      "title": "Weaving Visual Narratives: Agentic Image Bundle Composition Beyond Atomic Visual Matching",
-      "url": "https://huggingface.co/papers/2608.28695",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Image retrieval has traditionally been formulated as a point-wise matching problem, where each candidate image is score…",
-      "score": 3
+      "id": "3105f30cca95",
+      "title": "SafeAtlas-VL: Beyond Binary Multimodal Safety with Large-Scale Data and Guard Models",
+      "url": "https://huggingface.co/papers/2608.29098",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Multimodal safety moderation requires distinguishing risks arising from visual content, user intent, and assistant beha…",
+      "score": 2
     },
     {
-      "id": "8069fdbe488e",
-      "title": "PaperBanana-Interact: Scientific Diagram Refinement with Multi-Turn Human Feedback",
-      "url": "https://huggingface.co/papers/2608.30241",
+      "id": "ded4f1a06b83",
+      "title": "WebWorld: The Browser as a World Model for Self-Improving Web Code",
+      "url": "https://huggingface.co/papers/2608.30530",
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Recent efforts have aimed to automate scientific diagram generation from paper content (Lin et al., 2026; Zhu et al., 2…",
-      "score": 3
+      "summary": "VLM-driven self-improvement of web code has a structural flaw: the model that proposes the repair is the model that jud…",
+      "score": 2
     },
     {
-      "id": "e8abc7a69118",
-      "title": "Verification-Aware Training for Speculative Decoding",
-      "url": "https://huggingface.co/papers/2608.30135",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Speculative decoding accelerates large language model inference by using a draft model to generate candidate tokens, wh…",
+      "id": "9612ee2d5b6c",
+      "title": "Chat-Edit-3D++: Interactive 3D and 4D Scene Editing via Large Language Models",
+      "url": "https://huggingface.co/papers/2608.29137",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Recent work on image content manipulation based on vision-language pre-training models has been effectively extended to…",
       "score": 1
     },
     {
-      "id": "064d508ec609",
-      "title": "Dynamic Important Example Mining for Reinforcement Finetuning",
-      "url": "https://huggingface.co/papers/2608.29252",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Reinforcement fine-tuning (RFT) is increasingly used to strengthen the reasoning abilities of large models, yet its eff…",
-      "score": 0
-    },
-    {
-      "id": "2ddbf230884e",
-      "title": "Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory",
-      "url": "https://huggingface.co/papers/2608.29910",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "summary": "Interactive world models extend video generation from offline clip synthesis toward persistent simulation of interactiv…",
-      "score": 0
-    },
-    {
-      "id": "e008e98e46ea",
-      "title": "Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation",
-      "url": "https://huggingface.co/papers/2608.30396",
+      "id": "8899bf17fc68",
+      "title": "DICS: Exploring Data Intrinsic Consistency for Visual Instruction Selection",
+      "url": "https://huggingface.co/papers/2608.30209",
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Long-horizon physical-world agents must reason over distant goals while grounding decisions in reliable closed-loop beh…",
+      "summary": "Visual instruction tuning is crucial for advancing the vision-language alignment and instruction-following capabilities…",
+      "score": 1
+    },
+    {
+      "id": "a242555ea44b",
+      "title": "EvoGenUI-Bench: Evaluating LLMs as Multi-Turn Generative UI Assistants",
+      "url": "https://huggingface.co/papers/2608.29387",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Large language models can generate interactive web interfaces, but reliable generative UI requires maintaining an execu…",
+      "score": 0
+    },
+    {
+      "id": "f337d6f4902c",
+      "title": "Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions",
+      "url": "https://huggingface.co/papers/2608.30795",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "End-to-end weather forecasting systems produce skillful global gridded and station forecasts directly from raw Earth ob…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-01T06:30:19.374Z",
+  "fetchedAt": "2026-09-01T11:57:17.826Z",
   "stale": false,
   "error": null
 }
