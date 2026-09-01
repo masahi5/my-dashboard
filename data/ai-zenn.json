@@ -6,6 +6,78 @@
   "category": "ai",
   "items": [
     {
+      "id": "166c4e835afd",
+      "title": "優秀なAIほど、ポンコツになるのはなぜか ── 殴ってくる外部と、飲み込める外部",
+      "url": "https://zenn.dev/motimotinotch/articles/15f878ff295e56",
+      "publishedAt": "2026-09-01T09:56:36.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "AIに文章を書かせたことがある人なら、たぶん一度は見ている光景だと思う。 出てきた原稿は、文法的に自然で、構成も整っていて、見出しも小綺麗についている。ぱっと読む分にはそれらしい。ところが中身を追っていくと、根拠の書かれていない断言が混じ…"
+    },
+    {
+      "id": "46b45f415fe8",
+      "title": "反対する係がいない場所で、決めていた話",
+      "url": "https://zenn.dev/nanametsushin/articles/hantai-suru-kakari-ga-inai-basho",
+      "publishedAt": "2026-09-01T09:45:16.000Z",
+      "publisher": "ナナメ通信",
+      "summary": "AIに相談すると、だいたい賛成してもらえる。少なくとも、私の使い方ではそうだ。 いま、人間ひとりと複数のAIで会社を運営する、という実験をしている。前回は、どのAIにどの仕事を任せるか、という話を書いた。今回はその続きだ。 企画を考える担…"
+    },
+    {
+      "id": "6f4dd77ff57f",
+      "title": "「朝のブリーフィングAI」を作ろうとして、結局スキルを1個捨てた話",
+      "url": "https://zenn.dev/isobeage/articles/morning-briefing-agent-devlog01",
+      "publishedAt": "2026-09-01T08:59:03.000Z",
+      "publisher": "磯辺揚げ",
+      "summary": "やりたかったこと 朝起きたら、今日の予定・メールの緊急事項・気になるニュースが一枚のページにまとまっている。そんな「朝のブリーフィング」を、Claude(Cowork)に毎朝自動で作らせたい——というのが今回のお題でした。 要件を整理する…"
+    },
+    {
+      "id": "914a3334553f",
+      "title": "AIに100通り試させたら、効果ゼロなのに5個が「有意」だった",
+      "url": "https://zenn.dev/manabu49_ai/articles/null-calibration-3-tests",
+      "publishedAt": "2026-09-01T08:51:10.000Z",
+      "publisher": "測って書く｜AIエージェント運用",
+      "summary": "! この記事の表は、すべて記事末尾のスクリプトの出力です。外部データは使っていません。乱数だけで動きます。 AIエージェントに施策を検証させると、人間の手作業とは桁の違う数を試せます。**セグメントを100通り切って、全部測って、勝ったも…"
+    },
+    {
+      "id": "8d45d0e40841",
+      "title": "Google提唱の「SKILL.state」について。プロンプトに型の概念を導入",
+      "url": "https://zenn.dev/knowledgesense/articles/ad123283bdea26",
+      "publishedAt": "2026-09-01T08:46:36.000Z",
+      "publisher": "Atsushi Kadowaki",
+      "summary": "本記事では、AIエージェントの性能を高めるための「SKILL.state」という手法について、ざっくり理解します。 株式会社ナレッジセンスは、生成AIやRAGを使ったプロダクトを、エンタープライズ企業向けに開発しているスタートアップです。…"
+    },
+    {
+      "id": "856367f06d23",
+      "title": "【Vol.24】AIエージェントは「作る」から「運用する」フェーズへ — 50体を捌く設計と統制",
+      "url": "https://zenn.dev/tech_realinvent/articles/86e621a33c0857",
+      "publishedAt": "2026-09-01T08:36:44.000Z",
+      "publisher": "リアルインベントTechブログ",
+      "summary": "はじめに こんにちは。株式会社リアルインベントCTOです。 ここ数日、AIエージェントに関する話題が立て続けに流れてきました。Toyota North America が50体超のエージェントを本番稼働させているという事例、Google …"
+    },
+    {
+      "id": "14c93319aabf",
+      "title": "【VRAM16GB】Qwen3-Coder×open code！ローカルLLMでの自律的開発と限界突破",
+      "url": "https://zenn.dev/kotax/articles/local-llm-opencode-qwen",
+      "publishedAt": "2026-09-01T08:29:17.000Z",
+      "publisher": "KotaX",
+      "summary": "はじめに こんにちは、Kotaです。 今回は、AIエージェント「open code」に、最新のコーディング特化ローカルモデルである Qwen3-Coder-30B と Qwen3.8-27B を組み込み、「軽量なマークダウンビューアー」の…"
+    },
+    {
+      "id": "404012d0500f",
+      "title": "Agent Reflectionを超えて：未確定状態（Hi-Z）を保持する「空白駆動×ゴルジ体検疫」アーキテクチャ",
+      "url": "https://zenn.dev/nanashi_os/articles/f8a461cd706a25",
+      "publishedAt": "2026-09-01T08:02:23.000Z",
+      "publisher": "NanashiOS",
+      "summary": "1. はじめに：AIはなぜ「早すぎる回答」に飛びつくのか 大規模言語モデル（LLM）を用いたエージェント開発において、我々は長らく「いかに素早く、正確に確定解を出力させるか」を最適化してきました。推論ループの改善手法として知られる Age…"
+    },
+    {
+      "id": "c08af7cadce4",
+      "title": "CLAUDE.mdを常時読み込みの指示だけに保つ設計",
+      "url": "https://zenn.dev/kai_ai/articles/c9ee3dea0d504d",
+      "publishedAt": "2026-09-01T07:46:22.000Z",
+      "publisher": "Kai＠生成AI",
+      "summary": "Claude CodeのCLAUDE.mdには、どこまで書くべきでしょうか。 プロジェクト構成、コマンド、コーディング規約、デプロイ手順、API資料、安全ルールを一つへ集めれば、Claudeは多くの情報を持って仕事を始められます。 一方で…"
+    },
+    {
       "id": "9f05ff94ada4",
       "title": "AIエージェントを配った後、誰がいくら使ったかを見る",
       "url": "https://zenn.dev/miyakona/articles/ai-agent-usage-opentelemetry",
@@ -28,81 +100,9 @@
       "publishedAt": "2026-09-01T06:07:04.000Z",
       "publisher": "雨宮（Amamiya）",
       "summary": "GitHub Copilotで使えるモデルの一部が、2026年9月1日に廃止されます。 対象には、Claude Sonnet 4.6、Claude Opus 4.6、Gemini 3.1 Proなどが含まれます。 GitHubはすでに代替…"
-    },
-    {
-      "id": "0e03fa2db53b",
-      "title": "CLAUDE.md を32万字書いていた。機械が検査できるのは93行、止められるのは13行だった",
-      "url": "https://zenn.dev/tsutomusaito/articles/claude-md-enforcement-survey-ja",
-      "publishedAt": "2026-09-01T05:27:43.000Z",
-      "publisher": "saito",
-      "summary": "3行で 手元の git リポジトリ 96 本を走査した。エージェント向けの規約（CLAUDE.md / AGENTS.md など）を持っているのは 33 本、34%。総量 323,833 字。 そのうち実行可能なコマンドの形になっているの…"
-    },
-    {
-      "id": "6c218d246269",
-      "title": "ローカルLLMに日本語でロールプレイさせると応答が20文字で終わる。二段生成で104文字にした",
-      "url": "https://zenn.dev/ont4mqz/articles/e70b26217269f4",
-      "publishedAt": "2026-09-01T05:19:41.000Z",
-      "publisher": "おんたまワークベース",
-      "summary": "起きていたこと ローカルLLMにキャラクターを演じさせるデスクトップアプリを作っている。プロンプトの層構造（固定層 / 例示層 / 要約層 / 直近層 / 深度注入）もサンプラーも詰めて、自動評価の主要指標はきれいに揃った。拒否ゼロ、ルー…"
-    },
-    {
-      "id": "90f08d929b9e",
-      "title": "「一番いいAI」を探すのをやめた話",
-      "url": "https://zenn.dev/nanametsushin/articles/ichiban-ii-ai-sagashi-wo-yameta",
-      "publishedAt": "2026-09-01T05:06:16.000Z",
-      "publisher": "ナナメ通信",
-      "summary": "生成AIのツールが多すぎて、どれを使えばいいのか分からなくなったことはないだろうか。 ChatGPT、Claude、Gemini。コード生成ならClaude CodeにCodex。Google AI Studioのように、画面までまとめて…"
-    },
-    {
-      "id": "68eddf89ed3a",
-      "title": "Claude Code 2.1.228後もRead denyルールはWriteの上書きを防ぐか検証した",
-      "url": "https://zenn.dev/clopy/articles/claude-write-deny-rule-skip-read-verify",
-      "publishedAt": "2026-09-01T04:45:32.000Z",
-      "publisher": "Clopy",
-      "summary": "結論から: Read(./path) denyルールは新モデルのWriteも引き続き防いでいた Claude Code 2.1.228 で、Writeツールが「今セッションで未読のファイルでも新しいモデルなら上書きできる」よう緩和されまし…"
-    },
-    {
-      "id": "e1b1c896f502",
-      "title": "AIに書かせた安全確認は「正常」と出た。でも八王子のバスは26日間死んでいた",
-      "url": "https://zenn.dev/benny_aitech/articles/ai-safety-check-missed-bus-outage",
-      "publishedAt": "2026-09-01T04:44:50.000Z",
-      "publisher": "benny",
-      "summary": "東京都内のバス時刻表を集めて経路を出すサービスを個人で運用しています。 コードはほぼ全部 Claude Code に書かせています。 私が決めているのは 何を作るかと、公開するかどうかの判断です。 先日、定期のデータ取り込みで特定地域の検…"
-    },
-    {
-      "id": "7c02778eb09d",
-      "title": "AIコーディングを「工場」として設計する現場ノート",
-      "url": "https://zenn.dev/okssusucha/articles/20260714-notes-on-the-software-factory",
-      "publishedAt": "2026-09-01T04:40:02.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "AIコーディングを「工場」として設計する。Benedict Bradyの現場ノート AIコーディングエージェントを本気で使い込んでいくと、単発のチャットとして扱うか、それとも一種の生産ラインとして設計するかで、得られる成果が大きく変わって…"
-    },
-    {
-      "id": "19de705e0d0a",
-      "title": "AI開発でいつ、どこまでコードを理解するか",
-      "url": "https://zenn.dev/spectee/articles/ai-coding-expertise-learning-loop",
-      "publishedAt": "2026-09-01T03:48:56.000Z",
-      "publisher": "monokaai",
-      "summary": "! 概要 AIが書いたコードをすべて同じ深さ・タイミングで理解する必要はない。設計的な不可逆性や障害発生時の影響度、即答を求められる場面かどうかを踏まえ、その時点で求められる最低限の理解に到達していて、なぜその理解度で十分かまで説明できれ…"
-    },
-    {
-      "id": "9421fd685cc9",
-      "title": "AI 時代を生き抜く「AEO（回答エンジン最適化）」ガイドライン",
-      "url": "https://zenn.dev/dragon1208/articles/1a88a556b08f32",
-      "publishedAt": "2026-09-01T03:32:41.000Z",
-      "publisher": "Nao8",
-      "summary": "2026年現在、検索の形は激変しています。従来のGoogle検索における「青いリンクのリスト」からユーザーが選択する形式から、ChatGPT、Google AI Overviews（AIO）、PerplexityなどのAIアシスタントが瞬…"
-    },
-    {
-      "id": "95391b89da10",
-      "title": "Claude Codeに作業を任せて外出したい ― PCを閉じても続ける方法",
-      "url": "https://zenn.dev/boku_yaji/articles/c5cfc190a42b19",
-      "publishedAt": "2026-09-01T03:01:28.000Z",
-      "publisher": "boku-yaji",
-      "summary": "Claude Codeに実装を任せて外出し、スマホから続きを指示したい。あるいは、手元のPCを閉じたまま作業を進めてほしい。 このとき候補になるのが、Remote Control、/background、Claude CodeのWeb版で…"
     }
   ],
-  "fetchedAt": "2026-09-01T16:13:27.910Z",
+  "fetchedAt": "2026-09-01T19:24:30.563Z",
   "stale": false,
   "error": null
 }

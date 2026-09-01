@@ -11,15 +11,15 @@
       "url": "https://huggingface.co/papers/2608.31106",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual d…",
-      "score": 84
+      "score": 86
     },
     {
-      "id": "b618a3ac9dbb",
-      "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
-      "url": "https://huggingface.co/papers/2608.30935",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Embodied navigation requires agents to translate heterogeneous goals and visual observations into actions across tasks,…",
-      "score": 24
+      "id": "eda81cf64512",
+      "title": "Evaluating the Hidden Costs of Personalization in Large Language Models",
+      "url": "https://huggingface.co/papers/2608.28833",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "summary": "While Large language models (LLMs) incorporate user personalization signals to improve usability and helpfulness, they …",
+      "score": 23
     },
     {
       "id": "a8b6bd603a72",
@@ -28,14 +28,6 @@
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "summary": "Organizations often develop and maintain portfolios of related applications: independently deployable codebases that sh…",
       "score": 22
-    },
-    {
-      "id": "eda81cf64512",
-      "title": "Evaluating the Hidden Costs of Personalization in Large Language Models",
-      "url": "https://huggingface.co/papers/2608.28833",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "While Large language models (LLMs) incorporate user personalization signals to improve usability and helpfulness, they …",
-      "score": 17
     },
     {
       "id": "c38c9c9d3758",
@@ -51,7 +43,7 @@
       "url": "https://huggingface.co/papers/2608.29847",
       "publishedAt": "2026-08-30T00:00:00.000Z",
       "summary": "Text-to-image models learn associations between concepts - in the case of this paper, people's professions, which we re…",
-      "score": 3
+      "score": 4
     },
     {
       "id": "3105f30cca95",
@@ -59,7 +51,23 @@
       "url": "https://huggingface.co/papers/2608.29098",
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "summary": "Multimodal safety moderation requires distinguishing risks arising from visual content, user intent, and assistant beha…",
-      "score": 3
+      "score": 4
+    },
+    {
+      "id": "99e9e8a87af2",
+      "title": "CoVA-SFT: A Large-Scale Dataset for Chain of Visual Abstractions",
+      "url": "https://huggingface.co/papers/2608.28958",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Chain-of-thought (CoT) reasoning has dramatically improved large language models (LLMs) by allowing them to decompose p…",
+      "score": 2
+    },
+    {
+      "id": "a1cabf8fba9f",
+      "title": "SpanCalib-VLM: Calibrated Hallucination Span Detection in Vision-Language Models",
+      "url": "https://huggingface.co/papers/2608.29974",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Detecting hallucinations in Large Vision-Language Models (LVLMs) requires both accurate span localization and well-cali…",
+      "score": 2
     },
     {
       "id": "a242555ea44b",
@@ -86,14 +94,6 @@
       "score": 1
     },
     {
-      "id": "a1cabf8fba9f",
-      "title": "SpanCalib-VLM: Calibrated Hallucination Span Detection in Vision-Language Models",
-      "url": "https://huggingface.co/papers/2608.29974",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "summary": "Detecting hallucinations in Large Vision-Language Models (LVLMs) requires both accurate span localization and well-cali…",
-      "score": 1
-    },
-    {
       "id": "f337d6f4902c",
       "title": "Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions",
       "url": "https://huggingface.co/papers/2608.30795",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-01T16:13:27.753Z",
+  "fetchedAt": "2026-09-01T19:24:30.410Z",
   "stale": false,
   "error": null
 }
