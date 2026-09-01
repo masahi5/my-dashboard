@@ -6,6 +6,70 @@
   "category": "ai",
   "items": [
     {
+      "id": "1df1798c64de",
+      "title": "AI に生成させたデータを読まずに使う — 保証9件を9通りに壊して、効いていない1件を見つける",
+      "url": "https://zenn.dev/yusaka_lu/articles/incident-game-day0-verify",
+      "publishedAt": "2026-08-31T13:27:38.000Z",
+      "publisher": "ゆーさか",
+      "summary": "AI にコードやデータを作らせると、量はいくらでも出てきます。困るのは読む側で、全部読むのは最初から不可能です。かといって読まずに使うと、何が入っているか誰も説明できないものが積み上がります。 この状態は 理解負債（comprehensi…"
+    },
+    {
+      "id": "88892623d190",
+      "title": "Google Workspace最新機能詳解：Gemini連携と管理機能",
+      "url": "https://zenn.dev/adopture/articles/abf4bf410b1544",
+      "publishedAt": "2026-08-31T12:36:20.000Z",
+      "publisher": "ggnn編集部｜アダプチュア株式会社",
+      "summary": "Google WorkspaceおよびGeminiの大規模なアップデートが公開されました。今回のリリース群は、単なるUIの微修正にとどまらず、エンタープライズの運用設計、データ移行、セキュリティガバナンスに直結する重要な機能拡張が含まれて…"
+    },
+    {
+      "id": "fbdeebb6d9b1",
+      "title": "エージェントと開発基準を作ったら、2日で9版・追加37件・削除0件になっていた",
+      "url": "https://zenn.dev/hawk_claws/articles/zenn-04-building-with-agents",
+      "publishedAt": "2026-08-31T12:00:05.000Z",
+      "publisher": "HawkClaws",
+      "summary": "基準を2日で9版まで作った。中身の話ではなく、作り方の話をします 記事1で開発基準を公開し、記事2で規範を1つ書き換え、記事3でA/B比較しました。全部コーディングエージェントと一緒に作っています。 今回は中身ではなく、その作り方に何が起…"
+    },
+    {
+      "id": "0f7ccaceee21",
+      "title": "Claude CodeのConciseは節約設定ではない、Bedrock二重課金の顛末",
+      "url": "https://zenn.dev/ainewsdaily/articles/20260825_claude_code_t1",
+      "publishedAt": "2026-08-31T10:55:16.000Z",
+      "publisher": "AIニュース",
+      "summary": "今週の結論、宿題は契約の経路で変わる 6本のうち中身まで踏み込むのは3件、残りは名前だけ押さえれば十分な内容だった。全員に関わるのはConcise出力スタイルとモデル指定の環境変数の2件で、今日からそのまま試せる。もう1件は会社でBedr…"
+    },
+    {
+      "id": "1a27658bda73",
+      "title": "Anthropic公式のClaude Code講座で学んだ「4つのD」",
+      "url": "https://zenn.dev/karamage/articles/2ef2c2aea7dfdf",
+      "publishedAt": "2026-08-31T10:49:32.000Z",
+      "publisher": "karamage",
+      "summary": "Anthropic が公式で出している無料のClaude Codeの講座をちょこちょこ受けてみました。 https://academy.claude.com/ そこで出てきたのが「4つのD」という考え方です。 「4Dフレームワーク」とも言…"
+    },
+    {
+      "id": "96bdf998fc03",
+      "title": "Claude CodeのAgents SDKでEC在庫アラート→発注提案→Slack通知を全自動化した",
+      "url": "https://zenn.dev/web_benriya/articles/claude-agents-sdk-ec-inventory-alert-slack",
+      "publishedAt": "2026-08-31T10:16:30.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに 「在庫が切れていた商品に広告費を使い続けていた」「売れ筋商品が欠品してそのまま機会損失が発生した」——中小ECを運営していると、こうした事態は珍しくありません。商品数が数十点を超えてくると、日々の在庫確認だけで相当な時間を取られ…"
+    },
+    {
+      "id": "4f194b3f3455",
+      "title": "AWS Bedrock+VPCエンドポイントを利用したClaude環境の構築",
+      "url": "https://zenn.dev/acntechjp/articles/2822d621132fa4",
+      "publishedAt": "2026-08-31T10:07:40.000Z",
+      "publisher": "TGP_CDAI",
+      "summary": "執筆者：Noa Takeda はじめに AWS Bedrockを利用したClaude環境の構築手順をまとめます。 Bedrock上でClaudeを利用する方法を紹介している記事は多くありますが、実際にどのような構成で導入するのかをまとめた…"
+    },
+    {
+      "id": "787c102cedab",
+      "title": "AIの外付け道具を16本繋いでも速さは変わらなかった。1本が黙るだけで毎回33秒止まった",
+      "url": "https://zenn.dev/numarn/articles/mcp-many-servers-connect-stall-handson",
+      "publishedAt": "2026-08-31T10:03:25.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "先に結論から書きます。AI に外部の道具を持たせる仕組み(MCP)のサーバーを 16本まで増やしても、返事が返るまでの時間は1本も繋がないときと同じでした。0本で 3.72秒・3.05秒、16本で 3.63秒・3.42秒。増えたのは AI…"
+    },
+    {
       "id": "772daa5816da",
       "title": "AIエージェントの調査専用委任、指示文だけでは権限を縛れない【委任設計】",
       "url": "https://zenn.dev/cutlet_of_pork/articles/ai-agent-delegation-scope-isolation",
@@ -36,73 +100,9 @@
       "publishedAt": "2026-08-31T09:49:37.000Z",
       "publisher": "のむらや",
       "summary": "! この記事は、AIを使った記事制作の実運用で起きた問題と、実装・テスト結果を基にしています。問題設定と運用方針は著者が決め、AIが実装、検証、構成整理、本文草案を担当しました。公開前の最終判断は著者本人が行います。 TL;DR 小さな変…"
-    },
-    {
-      "id": "12a3f065d013",
-      "title": "事故ってから足したルール13個 ―― 1年近くAIに開発をさせて、やらかしたことと決めたこと",
-      "url": "https://zenn.dev/ai_shihan/articles/90123bc12060f7",
-      "publishedAt": "2026-08-31T09:21:28.000Z",
-      "publisher": "ai_shihan",
-      "summary": "こんにちは、AI師範です。普段はAIを組織のように使って、業務自動化ツールの製作と、その運用の引き継ぎ支援をしています。 「AIは新卒」「セッションは別の人」「モデルは学歴と単価」と書いてきたシリーズの最終回です。ここまでは考え方の話でし…"
-    },
-    {
-      "id": "d761658f538f",
-      "title": "あなたが評価しているのは、モデルか、ハーネスか",
-      "url": "https://zenn.dev/quick_wpd/articles/410a689d5b9d8a",
-      "publishedAt": "2026-08-31T09:09:38.000Z",
-      "publisher": "shun",
-      "summary": "はじめに 使っているAI（Claude CodeやCodex）の調子が悪いとき、モデルだけを疑っていないでしょうか。 以前の私はそうでした。「思うように結果が出ないな」「最上位のモデルに替えたらよくなるかな」と考えていたのです。 しかし、…"
-    },
-    {
-      "id": "1df0d9d001ca",
-      "title": "AgentCore Memoryのflexible namespace variablesを実測 — 渡し忘れをNull条件で即時エラー化",
-      "url": "https://zenn.dev/nttdata_tech/articles/a4d73048bca582",
-      "publishedAt": "2026-08-31T09:05:51.000Z",
-      "publisher": "Yutaka Kashiwabara",
-      "summary": "1. はじめに エージェントに長期記憶を持たせるとき、記憶をどの単位で分けるかは設計の入口になります。1つのエージェントを複数の組織やテナントで共有するなら、「A社の会話から抽出した事実がB社の応答に混ざらない」ことを仕組みとして保証した…"
-    },
-    {
-      "id": "ece07da8435a",
-      "title": "SageMaker Feature StoreのBatchWriteRecordを実測 — 呼び出し25分の1で5.7倍高速",
-      "url": "https://zenn.dev/nttdata_tech/articles/a32fd071026898",
-      "publishedAt": "2026-08-31T09:02:33.000Z",
-      "publisher": "Yutaka Kashiwabara",
-      "summary": "1. はじめに Amazon SageMaker Feature Store のオンラインストアへ特徴量を書き込む手段は、長らく PutRecord だけでした。PutRecord は 1回の呼び出しで 1レコード × 1フィーチャーグル…"
-    },
-    {
-      "id": "2a6bc82b9a0c",
-      "title": "Claudeが顕微鏡を覚えた日 ── MCPの次は「物理デバイスの標準化」だ",
-      "url": "https://zenn.dev/ryok/articles/model-hardware-standard-physical-mcp",
-      "publishedAt": "2026-08-31T08:05:51.000Z",
-      "publisher": "ryok",
-      "summary": "結論 ソフトウェアの世界では、この2年で「モデル×ツール」の接続がMCP（Model Context Protocol）という共通規格に収束した。私自身、AbletonやNotionをMCP経由でClaudeに繋いで日常的に使っている。 …"
-    },
-    {
-      "id": "8b43cbc1305b",
-      "title": "7社10モデルのAIに同じ課題を出して、3円から900円まで払ってみた",
-      "url": "https://zenn.dev/miki_mini/articles/d4d1f0ef1b76ac",
-      "publishedAt": "2026-08-31T08:00:06.000Z",
-      "publisher": "miki-mini",
-      "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は どのAIにいくら払えばいいか分からない なら 全部に同じ課題を出して測ればいいじゃない 👸🍰です。 読了時間の目安：約 8〜10分（前回までを読んでいなくて…"
-    },
-    {
-      "id": "40db0b6614d9",
-      "title": "NocoBase 3.0 alpha の中心は「AI Portal」— 告知は無いが、公式ドキュメントは既に準備されている",
-      "url": "https://zenn.dev/stale_orbit/articles/nocobase-3-alpha-ai-portal",
-      "publishedAt": "2026-08-31T07:45:08.000Z",
-      "publisher": "stale_orbit",
-      "summary": "はじめに NocoBase の 3.0 alpha が、2026年7月30日から出ています。ところが公式ブログには 3.0 の告知記事が1本もありません（8月23日には 2.2 の正式リリースを告知していますが、そこにも 3.0 や AI…"
-    },
-    {
-      "id": "d24f62a3435e",
-      "title": "The Video Was Better Before I Added Music",
-      "url": "https://zenn.dev/emilyjones/articles/8657fa9b261cfe",
-      "publishedAt": "2026-08-31T07:37:55.000Z",
-      "publisher": "emilyjones1217",
-      "summary": "Someone came home, dropped their keys in a bowl, took off their jacket, and walked into the kitchen. I added soft piano…"
     }
   ],
-  "fetchedAt": "2026-08-31T22:01:01.312Z",
+  "fetchedAt": "2026-09-01T01:17:21.744Z",
   "stale": false,
   "error": null
 }
