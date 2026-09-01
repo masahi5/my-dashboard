@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "039fbc4a4a8f",
-      "title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
-      "url": "https://huggingface.co/papers/2608.28281",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Loop Engineering is emerging as a practice for organizing development work around coding agents. Instead of writing eac…",
-      "score": 88
+      "id": "f81f96228c52",
+      "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
+      "url": "https://huggingface.co/papers/2608.31106",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual d…",
+      "score": 49
     },
     {
-      "id": "1389f6ff3b1b",
-      "title": "DART-SD: Diamond-topology Aware Retrieval and Tuning for Self-Distillation of Multi-Turn Tool-Calling Agents",
-      "url": "https://huggingface.co/papers/2608.18524",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Equipping Large Language Models (LLMs) with multi-turn tool-calling capabilities is essential for building autonomous a…",
-      "score": 61
+      "id": "d994d81958e9",
+      "title": "Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling",
+      "url": "https://huggingface.co/papers/2608.30821",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Composable scene modeling aims to recover a real indoor scene as complete, editable object assets arranged as observed,…",
+      "score": 34
     },
     {
-      "id": "9a13bc66109d",
-      "title": "Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities",
-      "url": "https://huggingface.co/papers/2608.28122",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Generative models can turn natural-language prompts into images, text, code, and other content, lowering the cost of pr…",
-      "score": 52
+      "id": "59b8eb5219ea",
+      "title": "CogEvol: Towards Efficient and Reliable Learning Environment Generation",
+      "url": "https://huggingface.co/papers/2608.30968",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "We present CogEvol, a family of models trained specifically for Learning Environment Generation: turning a course brief…",
+      "score": 18
     },
     {
-      "id": "1521b7c638c2",
-      "title": "Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2608.23478",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "summary": "Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still…",
-      "score": 26
+      "id": "6aee47fb187e",
+      "title": "SHAPE of Chain-of-Thought in Math Reasoning",
+      "url": "https://huggingface.co/papers/2608.28600",
+      "publishedAt": "2026-06-28T00:00:00.000Z",
+      "summary": "Large language models (LLMs) achieve strong performance on mathematical reasoning benchmarks, yet the mathematically me…",
+      "score": 13
     },
     {
-      "id": "8ee6a15b214a",
-      "title": "Sliding-window beats linear attention",
-      "url": "https://huggingface.co/papers/2608.28444",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Due to the nature of quadratic attention, Large Language Models (LLMs) consume a lot of memory and energy. Every new to…",
-      "score": 12
+      "id": "ab640b8fb74a",
+      "title": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
+      "url": "https://huggingface.co/papers/2608.30320",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "We describe the architecture and ablations of Qwen3.8-Flash-Next, a sparse mixture-of-experts model with 125B parameter…",
+      "score": 6
     },
     {
-      "id": "b2d467700e63",
-      "title": "EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses",
-      "url": "https://huggingface.co/papers/2608.28363",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "LLM agents increasingly modify their own prompts, tools, middleware, resources, and execution harnesses at runtime. Suc…",
-      "score": 5
-    },
-    {
-      "id": "aad8a7a3ea56",
-      "title": "Language Chain in Alignment: Cross-lingual Ranking Preference Optimization",
-      "url": "https://huggingface.co/papers/2608.23149",
-      "publishedAt": "2026-08-24T11:54:36.000Z",
-      "summary": "The alignment of Large Language Models heavily relies on English-centric high-quality preference data, which often lead…",
+      "id": "e685ea57a7ca",
+      "title": "Normalized Low-Rank Adaptation",
+      "url": "https://huggingface.co/papers/2608.31036",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "While low-rank adaptation (LoRA) is widely used for parameter-efficient model adaptation, how to regularize its trainin…",
       "score": 4
     },
     {
-      "id": "a5490a832ac7",
-      "title": "Ask or Answer: A Decision Framework for Multi-Turn Health Misinformation Intervention",
-      "url": "https://huggingface.co/papers/2608.21721",
-      "publishedAt": "2026-08-22T00:00:00.000Z",
-      "summary": "Correcting health misinformation in dialogue requires more than producing a factual rebuttal: users differ in what they…",
-      "score": 3
-    },
-    {
-      "id": "abbe66de0e06",
-      "title": "GGSS: Geodesic-Gated Spherical Steering for Inference-Time Debiasing of Generative Vision-Language Models",
-      "url": "https://huggingface.co/papers/2608.25375",
-      "publishedAt": "2026-08-26T04:58:40.000Z",
-      "summary": "Generative vision-language models (VLMs) are increasingly used in human-centered settings, yet they can produce demogra…",
-      "score": 3
-    },
-    {
-      "id": "02b6fa2086a6",
-      "title": "Acquire, Repair, Preserve: A Diagnosis-Guided Post-Training Recipe for Small-Model Dialogue Game Agents",
-      "url": "https://huggingface.co/papers/2608.28458",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Interactive dialogue games test a capability that static benchmarks largely leave implicit: a model must carry state ac…",
-      "score": 2
-    },
-    {
-      "id": "47c25fac04ee",
-      "title": "Generative Semantic Scene Completion",
-      "url": "https://huggingface.co/papers/2608.26737",
+      "id": "4173356ec227",
+      "title": "Weaving Visual Narratives: Agentic Image Bundle Composition Beyond Atomic Visual Matching",
+      "url": "https://huggingface.co/papers/2608.28695",
       "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Outdoor LiDAR semantic scene completion (SSC) recovers a dense semantic voxel grid from a scan observing 1% of the targ…",
-      "score": 2
+      "summary": "Image retrieval has traditionally been formulated as a point-wise matching problem, where each candidate image is score…",
+      "score": 3
     },
     {
-      "id": "fae1c80fd589",
-      "title": "Lost in Compression: A Controlled Cross-Lingual Audit of Extractive Prompt Compressors",
-      "url": "https://huggingface.co/papers/2608.26175",
-      "publishedAt": "2026-07-27T00:00:00.000Z",
-      "summary": "Extractive prompt compression promises to cut LLM inference costs by removing low-information tokens, and learned compr…",
-      "score": 2
+      "id": "8069fdbe488e",
+      "title": "PaperBanana-Interact: Scientific Diagram Refinement with Multi-Turn Human Feedback",
+      "url": "https://huggingface.co/papers/2608.30241",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Recent efforts have aimed to automate scientific diagram generation from paper content (Lin et al., 2026; Zhu et al., 2…",
+      "score": 3
+    },
+    {
+      "id": "e8abc7a69118",
+      "title": "Verification-Aware Training for Speculative Decoding",
+      "url": "https://huggingface.co/papers/2608.30135",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Speculative decoding accelerates large language model inference by using a draft model to generate candidate tokens, wh…",
+      "score": 1
+    },
+    {
+      "id": "064d508ec609",
+      "title": "Dynamic Important Example Mining for Reinforcement Finetuning",
+      "url": "https://huggingface.co/papers/2608.29252",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Reinforcement fine-tuning (RFT) is increasingly used to strengthen the reasoning abilities of large models, yet its eff…",
+      "score": 0
+    },
+    {
+      "id": "2ddbf230884e",
+      "title": "Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory",
+      "url": "https://huggingface.co/papers/2608.29910",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Interactive world models extend video generation from offline clip synthesis toward persistent simulation of interactiv…",
+      "score": 0
+    },
+    {
+      "id": "e008e98e46ea",
+      "title": "Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation",
+      "url": "https://huggingface.co/papers/2608.30396",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Long-horizon physical-world agents must reason over distant goals while grounding decisions in reliable closed-loop beh…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-01T01:17:21.616Z",
+  "fetchedAt": "2026-09-01T06:30:19.374Z",
   "stale": false,
   "error": null
 }

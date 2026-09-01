@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1df1798c64de",
-      "title": "AI に生成させたデータを読まずに使う — 保証9件を9通りに壊して、効いていない1件を見つける",
-      "url": "https://zenn.dev/yusaka_lu/articles/incident-game-day0-verify",
-      "publishedAt": "2026-08-31T13:27:38.000Z",
-      "publisher": "ゆーさか",
-      "summary": "AI にコードやデータを作らせると、量はいくらでも出てきます。困るのは読む側で、全部読むのは最初から不可能です。かといって読まずに使うと、何が入っているか誰も説明できないものが積み上がります。 この状態は 理解負債（comprehensi…"
+      "id": "9f05ff94ada4",
+      "title": "AIエージェントを配った後、誰がいくら使ったかを見る",
+      "url": "https://zenn.dev/miyakona/articles/ai-agent-usage-opentelemetry",
+      "publishedAt": "2026-09-01T06:14:46.000Z",
+      "publisher": "miyakona",
+      "summary": "AIエージェントを組織へ配った後、「利用者は増えているらしい」だけでは運用を判断できなくなりました。APIの費用は実額で発生しますが、管理画面の合計だけでは、誰がどのモデルを使い、どのツールが役立っているのかまでは見えません。 そこで、C…"
     },
     {
-      "id": "88892623d190",
-      "title": "Google Workspace最新機能詳解：Gemini連携と管理機能",
-      "url": "https://zenn.dev/adopture/articles/abf4bf410b1544",
-      "publishedAt": "2026-08-31T12:36:20.000Z",
-      "publisher": "ggnn編集部｜アダプチュア株式会社",
-      "summary": "Google WorkspaceおよびGeminiの大規模なアップデートが公開されました。今回のリリース群は、単なるUIの微修正にとどまらず、エンタープライズの運用設計、データ移行、セキュリティガバナンスに直結する重要な機能拡張が含まれて…"
+      "id": "a9fd31f6cae2",
+      "title": "OpenAIのTiboが語るCodexの次――Personal AGIへの収束",
+      "url": "https://zenn.dev/piedaterre/articles/519b4355ed01c3",
+      "publishedAt": "2026-09-01T06:12:05.000Z",
+      "publisher": "pied-à-terre@zenn",
+      "summary": "2026年8月24日、AI系YouTuberのMatthew Bermanが、OpenAIでCodexを率いるThibault “Tibo” Sottiauxに約44分のインタビューを行った。 タイトルはHow to Understand…"
     },
     {
-      "id": "fbdeebb6d9b1",
-      "title": "エージェントと開発基準を作ったら、2日で9版・追加37件・削除0件になっていた",
-      "url": "https://zenn.dev/hawk_claws/articles/zenn-04-building-with-agents",
-      "publishedAt": "2026-08-31T12:00:05.000Z",
-      "publisher": "HawkClaws",
-      "summary": "基準を2日で9版まで作った。中身の話ではなく、作り方の話をします 記事1で開発基準を公開し、記事2で規範を1つ書き換え、記事3でA/B比較しました。全部コーディングエージェントと一緒に作っています。 今回は中身ではなく、その作り方に何が起…"
+      "id": "fbbe848708e4",
+      "title": "GitHub Copilotの旧モデルが9月1日に廃止。モデル名を固定しているなら、今日確認したい3か所",
+      "url": "https://zenn.dev/amamiya_chan/articles/1a6e921ddb21fd",
+      "publishedAt": "2026-09-01T06:07:04.000Z",
+      "publisher": "雨宮（Amamiya）",
+      "summary": "GitHub Copilotで使えるモデルの一部が、2026年9月1日に廃止されます。 対象には、Claude Sonnet 4.6、Claude Opus 4.6、Gemini 3.1 Proなどが含まれます。 GitHubはすでに代替…"
     },
     {
-      "id": "0f7ccaceee21",
-      "title": "Claude CodeのConciseは節約設定ではない、Bedrock二重課金の顛末",
-      "url": "https://zenn.dev/ainewsdaily/articles/20260825_claude_code_t1",
-      "publishedAt": "2026-08-31T10:55:16.000Z",
-      "publisher": "AIニュース",
-      "summary": "今週の結論、宿題は契約の経路で変わる 6本のうち中身まで踏み込むのは3件、残りは名前だけ押さえれば十分な内容だった。全員に関わるのはConcise出力スタイルとモデル指定の環境変数の2件で、今日からそのまま試せる。もう1件は会社でBedr…"
+      "id": "0e03fa2db53b",
+      "title": "CLAUDE.md を32万字書いていた。機械が検査できるのは93行、止められるのは13行だった",
+      "url": "https://zenn.dev/tsutomusaito/articles/claude-md-enforcement-survey-ja",
+      "publishedAt": "2026-09-01T05:27:43.000Z",
+      "publisher": "saito",
+      "summary": "3行で 手元の git リポジトリ 96 本を走査した。エージェント向けの規約（CLAUDE.md / AGENTS.md など）を持っているのは 33 本、34%。総量 323,833 字。 そのうち実行可能なコマンドの形になっているの…"
     },
     {
-      "id": "1a27658bda73",
-      "title": "Anthropic公式のClaude Code講座で学んだ「4つのD」",
-      "url": "https://zenn.dev/karamage/articles/2ef2c2aea7dfdf",
-      "publishedAt": "2026-08-31T10:49:32.000Z",
-      "publisher": "karamage",
-      "summary": "Anthropic が公式で出している無料のClaude Codeの講座をちょこちょこ受けてみました。 https://academy.claude.com/ そこで出てきたのが「4つのD」という考え方です。 「4Dフレームワーク」とも言…"
+      "id": "6c218d246269",
+      "title": "ローカルLLMに日本語でロールプレイさせると応答が20文字で終わる。二段生成で104文字にした",
+      "url": "https://zenn.dev/ont4mqz/articles/e70b26217269f4",
+      "publishedAt": "2026-09-01T05:19:41.000Z",
+      "publisher": "おんたまワークベース",
+      "summary": "起きていたこと ローカルLLMにキャラクターを演じさせるデスクトップアプリを作っている。プロンプトの層構造（固定層 / 例示層 / 要約層 / 直近層 / 深度注入）もサンプラーも詰めて、自動評価の主要指標はきれいに揃った。拒否ゼロ、ルー…"
     },
     {
-      "id": "96bdf998fc03",
-      "title": "Claude CodeのAgents SDKでEC在庫アラート→発注提案→Slack通知を全自動化した",
-      "url": "https://zenn.dev/web_benriya/articles/claude-agents-sdk-ec-inventory-alert-slack",
-      "publishedAt": "2026-08-31T10:16:30.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに 「在庫が切れていた商品に広告費を使い続けていた」「売れ筋商品が欠品してそのまま機会損失が発生した」——中小ECを運営していると、こうした事態は珍しくありません。商品数が数十点を超えてくると、日々の在庫確認だけで相当な時間を取られ…"
+      "id": "90f08d929b9e",
+      "title": "「一番いいAI」を探すのをやめた話",
+      "url": "https://zenn.dev/nanametsushin/articles/ichiban-ii-ai-sagashi-wo-yameta",
+      "publishedAt": "2026-09-01T05:06:16.000Z",
+      "publisher": "ナナメ通信",
+      "summary": "生成AIのツールが多すぎて、どれを使えばいいのか分からなくなったことはないだろうか。 ChatGPT、Claude、Gemini。コード生成ならClaude CodeにCodex。Google AI Studioのように、画面までまとめて…"
     },
     {
-      "id": "4f194b3f3455",
-      "title": "AWS Bedrock+VPCエンドポイントを利用したClaude環境の構築",
-      "url": "https://zenn.dev/acntechjp/articles/2822d621132fa4",
-      "publishedAt": "2026-08-31T10:07:40.000Z",
-      "publisher": "TGP_CDAI",
-      "summary": "執筆者：Noa Takeda はじめに AWS Bedrockを利用したClaude環境の構築手順をまとめます。 Bedrock上でClaudeを利用する方法を紹介している記事は多くありますが、実際にどのような構成で導入するのかをまとめた…"
+      "id": "68eddf89ed3a",
+      "title": "Claude Code 2.1.228後もRead denyルールはWriteの上書きを防ぐか検証した",
+      "url": "https://zenn.dev/clopy/articles/claude-write-deny-rule-skip-read-verify",
+      "publishedAt": "2026-09-01T04:45:32.000Z",
+      "publisher": "Clopy",
+      "summary": "結論から: Read(./path) denyルールは新モデルのWriteも引き続き防いでいた Claude Code 2.1.228 で、Writeツールが「今セッションで未読のファイルでも新しいモデルなら上書きできる」よう緩和されまし…"
     },
     {
-      "id": "787c102cedab",
-      "title": "AIの外付け道具を16本繋いでも速さは変わらなかった。1本が黙るだけで毎回33秒止まった",
-      "url": "https://zenn.dev/numarn/articles/mcp-many-servers-connect-stall-handson",
-      "publishedAt": "2026-08-31T10:03:25.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "先に結論から書きます。AI に外部の道具を持たせる仕組み(MCP)のサーバーを 16本まで増やしても、返事が返るまでの時間は1本も繋がないときと同じでした。0本で 3.72秒・3.05秒、16本で 3.63秒・3.42秒。増えたのは AI…"
+      "id": "e1b1c896f502",
+      "title": "AIに書かせた安全確認は「正常」と出た。でも八王子のバスは26日間死んでいた",
+      "url": "https://zenn.dev/benny_aitech/articles/ai-safety-check-missed-bus-outage",
+      "publishedAt": "2026-09-01T04:44:50.000Z",
+      "publisher": "benny",
+      "summary": "東京都内のバス時刻表を集めて経路を出すサービスを個人で運用しています。 コードはほぼ全部 Claude Code に書かせています。 私が決めているのは 何を作るかと、公開するかどうかの判断です。 先日、定期のデータ取り込みで特定地域の検…"
     },
     {
-      "id": "772daa5816da",
-      "title": "AIエージェントの調査専用委任、指示文だけでは権限を縛れない【委任設計】",
-      "url": "https://zenn.dev/cutlet_of_pork/articles/ai-agent-delegation-scope-isolation",
-      "publishedAt": "2026-08-31T09:59:10.000Z",
-      "publisher": "とんのかつ",
-      "summary": "はじめに 複数のAIエージェント（オーケストレーター役・実装委任先CLI・レビュー役）を組み合わせて開発作業を自動化していると、必ず一度は「調査だけしてレポートして、コードは触らないで」という指示を出す場面が来る。 このとき「委任プロンプ…"
+      "id": "7c02778eb09d",
+      "title": "AIコーディングを「工場」として設計する現場ノート",
+      "url": "https://zenn.dev/okssusucha/articles/20260714-notes-on-the-software-factory",
+      "publishedAt": "2026-09-01T04:40:02.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "AIコーディングを「工場」として設計する。Benedict Bradyの現場ノート AIコーディングエージェントを本気で使い込んでいくと、単発のチャットとして扱うか、それとも一種の生産ラインとして設計するかで、得られる成果が大きく変わって…"
     },
     {
-      "id": "adb31c384944",
-      "title": "[生成AI Vol.4] ClaudeとGitHub Projectsを連携させて、PMを\"クリック地獄\"から解放する",
-      "url": "https://zenn.dev/sun_asterisk/articles/bf649fda3fc11f",
-      "publishedAt": "2026-08-31T09:52:01.000Z",
-      "publisher": "TienTT",
-      "summary": "前回はVol.3として「Ollama × Open WebUIでローカルLLM環境を構築する」方法についてご紹介しました。Vol.4となる今回は少し目線を変えて、PM（プロジェクトマネージャー）視点でのAI活用術をご紹介したいと思います。…"
+      "id": "19de705e0d0a",
+      "title": "AI開発でいつ、どこまでコードを理解するか",
+      "url": "https://zenn.dev/spectee/articles/ai-coding-expertise-learning-loop",
+      "publishedAt": "2026-09-01T03:48:56.000Z",
+      "publisher": "monokaai",
+      "summary": "! 概要 AIが書いたコードをすべて同じ深さ・タイミングで理解する必要はない。設計的な不可逆性や障害発生時の影響度、即答を求められる場面かどうかを踏まえ、その時点で求められる最低限の理解に到達していて、なぜその理解度で十分かまで説明できれ…"
     },
     {
-      "id": "e81209ead9ef",
-      "title": "Microsoft AB-900, AB-730 を取得するまで🎓",
-      "url": "https://zenn.dev/sun_asterisk/articles/9ce9f9fb0393c3",
-      "publishedAt": "2026-08-31T09:51:52.000Z",
-      "publisher": "余裕が欲しいよっちゃん",
-      "summary": "はじめに 2026年に入り、企業の生成AI導入は「単なるチャット活用の検証（PoC）」から「業務プロセスに組み込むAIエージェントの本格運用」へとシフトしています。 それに伴い、Microsoft資格にもCopilotおよびAIエージェン…"
+      "id": "9421fd685cc9",
+      "title": "AI 時代を生き抜く「AEO（回答エンジン最適化）」ガイドライン",
+      "url": "https://zenn.dev/dragon1208/articles/1a88a556b08f32",
+      "publishedAt": "2026-09-01T03:32:41.000Z",
+      "publisher": "Nao8",
+      "summary": "2026年現在、検索の形は激変しています。従来のGoogle検索における「青いリンクのリスト」からユーザーが選択する形式から、ChatGPT、Google AI Overviews（AIO）、PerplexityなどのAIアシスタントが瞬…"
     },
     {
-      "id": "8e9199116991",
-      "title": "AI記事レビューの『小修正で全チェック』をやめる：変更内容から必要な検査だけ選ぶ設計",
-      "url": "https://zenn.dev/nomurasan/articles/ai-article-review-change-aware-checklist",
-      "publishedAt": "2026-08-31T09:49:37.000Z",
-      "publisher": "のむらや",
-      "summary": "! この記事は、AIを使った記事制作の実運用で起きた問題と、実装・テスト結果を基にしています。問題設定と運用方針は著者が決め、AIが実装、検証、構成整理、本文草案を担当しました。公開前の最終判断は著者本人が行います。 TL;DR 小さな変…"
+      "id": "95391b89da10",
+      "title": "Claude Codeに作業を任せて外出したい ― PCを閉じても続ける方法",
+      "url": "https://zenn.dev/boku_yaji/articles/c5cfc190a42b19",
+      "publishedAt": "2026-09-01T03:01:28.000Z",
+      "publisher": "boku-yaji",
+      "summary": "Claude Codeに実装を任せて外出し、スマホから続きを指示したい。あるいは、手元のPCを閉じたまま作業を進めてほしい。 このとき候補になるのが、Remote Control、/background、Claude CodeのWeb版で…"
     }
   ],
-  "fetchedAt": "2026-09-01T01:17:21.744Z",
+  "fetchedAt": "2026-09-01T06:30:19.511Z",
   "stale": false,
   "error": null
 }
