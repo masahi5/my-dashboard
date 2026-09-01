@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2608.31106",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual d…",
-      "score": 75
+      "score": 84
     },
     {
       "id": "b618a3ac9dbb",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.30935",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Embodied navigation requires agents to translate heterogeneous goals and visual observations into actions across tasks,…",
-      "score": 22
+      "score": 24
     },
     {
       "id": "a8b6bd603a72",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2608.29310",
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "summary": "Organizations often develop and maintain portfolios of related applications: independently deployable codebases that sh…",
-      "score": 17
+      "score": 22
     },
     {
       "id": "eda81cf64512",
@@ -35,15 +35,7 @@
       "url": "https://huggingface.co/papers/2608.28833",
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "summary": "While Large language models (LLMs) incorporate user personalization signals to improve usability and helpfulness, they …",
-      "score": 8
-    },
-    {
-      "id": "382858eac0ea",
-      "title": "Keep-or-Drop? Adaptive Tokenizer for Compact Video Representation",
-      "url": "https://huggingface.co/papers/2608.24293",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Latent diffusion models have emerged as a dominant framework for high-fidelity image and video synthesis, operating in …",
-      "score": 7
+      "score": 17
     },
     {
       "id": "c38c9c9d3758",
@@ -51,7 +43,15 @@
       "url": "https://huggingface.co/papers/2608.29464",
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "summary": "Chain-of-thought (CoT) monitoring assumes that reasoning traces faithfully record the information that shapes a model's…",
-      "score": 4
+      "score": 8
+    },
+    {
+      "id": "23ae81a1ad92",
+      "title": "ContextBias: Controlled Evaluation of Bias Persistence Under Context Shift in Text-to-Image Models",
+      "url": "https://huggingface.co/papers/2608.29847",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Text-to-image models learn associations between concepts - in the case of this paper, people's professions, which we re…",
+      "score": 3
     },
     {
       "id": "3105f30cca95",
@@ -59,14 +59,14 @@
       "url": "https://huggingface.co/papers/2608.29098",
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "summary": "Multimodal safety moderation requires distinguishing risks arising from visual content, user intent, and assistant beha…",
-      "score": 2
+      "score": 3
     },
     {
-      "id": "ded4f1a06b83",
-      "title": "WebWorld: The Browser as a World Model for Self-Improving Web Code",
-      "url": "https://huggingface.co/papers/2608.30530",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "VLM-driven self-improvement of web code has a structural flaw: the model that proposes the repair is the model that jud…",
+      "id": "a242555ea44b",
+      "title": "EvoGenUI-Bench: Evaluating LLMs as Multi-Turn Generative UI Assistants",
+      "url": "https://huggingface.co/papers/2608.29387",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Large language models can generate interactive web interfaces, but reliable generative UI requires maintaining an execu…",
       "score": 2
     },
     {
@@ -75,23 +75,23 @@
       "url": "https://huggingface.co/papers/2608.29137",
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "summary": "Recent work on image content manipulation based on vision-language pre-training models has been effectively extended to…",
+      "score": 2
+    },
+    {
+      "id": "e6584a168525",
+      "title": "MMMMM: A Unified Taxonomy for Investigating the Mechanisms of Multilingual MultiModal Misinformation",
+      "url": "https://huggingface.co/papers/2608.29681",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Multimodal misinformation on social media is highly prevalent, potent, and harmful, yet difficult to detect and counter…",
       "score": 1
     },
     {
-      "id": "8899bf17fc68",
-      "title": "DICS: Exploring Data Intrinsic Consistency for Visual Instruction Selection",
-      "url": "https://huggingface.co/papers/2608.30209",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Visual instruction tuning is crucial for advancing the vision-language alignment and instruction-following capabilities…",
+      "id": "a1cabf8fba9f",
+      "title": "SpanCalib-VLM: Calibrated Hallucination Span Detection in Vision-Language Models",
+      "url": "https://huggingface.co/papers/2608.29974",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Detecting hallucinations in Large Vision-Language Models (LVLMs) requires both accurate span localization and well-cali…",
       "score": 1
-    },
-    {
-      "id": "a242555ea44b",
-      "title": "EvoGenUI-Bench: Evaluating LLMs as Multi-Turn Generative UI Assistants",
-      "url": "https://huggingface.co/papers/2608.29387",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Large language models can generate interactive web interfaces, but reliable generative UI requires maintaining an execu…",
-      "score": 0
     },
     {
       "id": "f337d6f4902c",
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2608.30795",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "End-to-end weather forecasting systems produce skillful global gridded and station forecasts directly from raw Earth ob…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-01T11:57:17.826Z",
+  "fetchedAt": "2026-09-01T16:13:27.753Z",
   "stale": false,
   "error": null
 }
