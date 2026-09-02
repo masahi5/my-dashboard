@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "d50c4c265ae1",
-      "title": "1200体のAIは、誰ひとり密告しなかった ── 群れの沈黙と、多様性という防御",
-      "url": "https://zenn.dev/ryok/articles/agent-swarm-silence-diversity",
-      "publishedAt": "2026-09-02T08:40:32.000Z",
-      "publisher": "ryok",
-      "summary": "結論 私はこれまで「群れになったエージェントは、各出力が検証を通っても系統的に壊れる」と書いた（AIエージェントは「群れ」にすると壊れる）。相関の壁と共謀の壁——群れは検証をすり抜けるのではなく、全員が揃って「正しく」間違える、と。 だが…"
+      "id": "c7db80ab3a0c",
+      "title": "同じ依頼文でClaudeとChatGPTの設計が割れた ― AIクロスレビューでも収束しなかった",
+      "url": "https://zenn.dev/colinnxt/articles/68f4fb459a4180",
+      "publishedAt": "2026-09-02T16:51:33.000Z",
+      "publisher": "コリン",
+      "summary": "GitHub Copilot無料枠の使い心地に感動しつつ、無料クレジット枠に気を取られながら使っていましたが、それでも1週間も経たずにクレジットオーバーになってしまう勢いだったため、他のAIの無料枠のコーディングにも興味を持ちました。 ネ…"
     },
     {
-      "id": "6e20f4620efd",
-      "title": "顧客資料を Claude Code に入れたいのに「ダメ」で止まって困ってないか？ 入れられる状態にする契約・合意・設定",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-trouble-04-customer-data",
-      "publishedAt": "2026-09-02T08:33:52.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "こんなことで困ってないか？ Claude Code を使えば、顧客の設計書からコードを起こしたり、仕様書をもとにテストを書いたりできる。そこまでは分かっている。ところが実際にやろうとすると、止まる。 「顧客の資料は AI に入れるな」と言…"
+      "id": "405980336c12",
+      "title": "ルールを増やすほど、AIは言うことを聞かなくなる",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-rule-design-self-scoring",
+      "publishedAt": "2026-09-02T16:46:09.000Z",
+      "publisher": "菅原友和",
+      "summary": "AIに指示を出しているのに、なぜか守られない。皆さんも一度はありませんか。僕はしょっちゅうありました。それで最初にやったのが、指示を足すことだったんです。守ってくれないなら、もっと細かく書けばいい。そう思うじゃないですか。 これが逆でした…"
     },
     {
-      "id": "dc41542d3edf",
-      "title": "# AI Coding Agentに全部教えれば賢くなると思っていた — Context Engineeringについて考えてみた",
-      "url": "https://zenn.dev/sun_asterisk/articles/e705beaab49901",
-      "publishedAt": "2026-09-02T08:27:29.000Z",
-      "publisher": "DD",
-      "summary": "Claude CodeにBrowser Testを書いてもらって、Context Engineeringについて考えた こんにちは、DDです。普段はWeb Applicationの開発をしていて、最近はClaude Codeを使った開発を…"
+      "id": "a6fe9b3bb277",
+      "title": "AIを45体に増やしたら、発見は13倍になった。でも、賢くはなっていなかった",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-multiagent-45-agents",
+      "publishedAt": "2026-09-02T16:46:08.000Z",
+      "publisher": "菅原友和",
+      "summary": "先月の13日にAnthropicが出した研究を読んで、僕はしばらく手が止まりました。AIのエージェントを45体、同じ目的で一斉に走らせたらどうなるか。実際にやってみた記録なんです。1体ずつ独立で動かした場合と比べています。 結果の見出しだ…"
     },
     {
-      "id": "07de50065923",
-      "title": "同じAIに同じ課題を出して、動かす環境を変えたら点が3割落ちた",
-      "url": "https://zenn.dev/miki_mini/articles/92cbd2ca2b4629",
-      "publishedAt": "2026-09-02T08:00:05.000Z",
-      "publisher": "miki-mini",
-      "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は AIの比較記事を読んでも自分の環境で再現しない なら 土俵を揃えて測ればいいじゃない 👸🍰です。 読了時間の目安：約 8〜10分（前回までを読んでいなくても…"
+      "id": "fb7914aa67ad",
+      "title": "白い豆腐だった物体Xがトコトコ歩き出すまで：AIマルチエージェントでUnityのαプロトタイプ結合テストに挑んだ泥臭い記録",
+      "url": "https://zenn.dev/momoch/articles/a03b5b63404809",
+      "publishedAt": "2026-09-02T16:24:14.000Z",
+      "publisher": "名称未定変数",
+      "summary": "「評価S！完全完了です！」とAIディレクターが胸を張った。 だがUnityを開くと、そこには 「白い四角形（豆腐）」 と 「The referenced script on this Behaviour is missing!」 の嵐が広…"
     },
     {
-      "id": "0e0afe90f47e",
-      "title": "Claude Fable 5.1、Low effortで前世代maxと同等に。公式発表の要点をまとめて読み解いた",
-      "url": "https://zenn.dev/motoki0418/articles/4872d0e1da4f9c",
-      "publishedAt": "2026-09-02T07:35:53.000Z",
-      "publisher": "MotokiNakamura",
-      "summary": "Fable 5.1 と Mythos 5.1 は別のモデルではありません。同じモデルに、強さの違う安全装置を付けた2つの提供形態です。そして「25% 安くなった」の中身は、入力・出力の単価は据え置きで、キャッシュ読みの単価だけが 75% …"
+      "id": "17c0a7c11b8c",
+      "title": "Claude Code に「自分の戦略を疑え」と言ったら、1日で8仮説を検証して5つ捨てた — バックテストで騙されないための6つの作法",
+      "url": "https://zenn.dev/selenium/articles/04ab137bcc03f2",
+      "publishedAt": "2026-09-02T16:24:00.000Z",
+      "publisher": "かねもちの人",
+      "summary": "コードが読めない文系大学生が、Claude Code に暗号資産の自動売買システムを設計・実装・運用まで全部任せて、実際のお金で動かしています。運用は2026年8月20日開始、成績は毎日公開しています。 前回は「動くコードを書かせるのは簡…"
     },
     {
-      "id": "c5192c023cad",
-      "title": "判断はAIに渡さない。非エンジニアの業務自動化、設計の記録",
-      "url": "https://zenn.dev/atoshimatsu/books/b3f328e95af0cd",
-      "publishedAt": "2026-09-02T07:05:10.000Z",
-      "publisher": "あとしまつ係",
-      "summary": "note連載「あとしまつ係の自動化日記」の技術編です。請求書処理・経費精算・表記ゆれ対応を、AIと一緒にどう設計したかを書いています。 https://note.com/atoshimatu"
+      "id": "33737dc84681",
+      "title": "AI とスライドを作るための CLI を作ってみた！！ - MarkdStage CLI",
+      "url": "https://zenn.dev/microsoft/articles/intro-markdstage-cli",
+      "publishedAt": "2026-09-02T15:40:21.000Z",
+      "publisher": "Kazuki Ota",
+      "summary": "はじめに ここ 2 回 MarkdStage という GitHub Copilot App で Markdown 形式のファイルをスライドとして表示する Canvas を紹介しました。 https://zenn.dev/microsoft…"
     },
     {
-      "id": "1d64fcecad56",
-      "title": "LIBERO-PLUS標準ベンチマークでπ0 / π0.5 を再現してみた",
-      "url": "https://zenn.dev/inrjin/articles/41fffc8eb25b71",
-      "publishedAt": "2026-09-02T06:27:04.000Z",
-      "publisher": "有真",
-      "summary": "はじめに VLA(Vision-Language-Action)モデルのロバスト性を LIBERO-Plus(arXiv:2510.13626)で評価した、という個人プロジェクトの記録です。 π0 / π0.5 を、摂動を加えた難しいベン…"
+      "id": "3159f5071001",
+      "title": "AI社員だけで会社を運営させてみる #3 — 実験の判定を人手から外す",
+      "url": "https://zenn.dev/yu110tno89/articles/ai-company-03",
+      "publishedAt": "2026-09-02T14:21:49.000Z",
+      "publisher": "ゆい",
+      "summary": "この記事は、AI社員だけで運営している会社の実際の運用記録です。 起きたことと、手元で再現できるコードだけを書いています。数字は実測値です。 3行の結論 「公開ページを見て、いいねが伸びてるか判断する」は自動化とは言わない。判定を1本のス…"
     },
     {
-      "id": "9eacb03f354c",
-      "title": "個人開発で「オンデバイスAI資料検索アプリ」を作っている備忘録（Standard版リリースまで）",
-      "url": "https://zenn.dev/gitmame00/articles/00703aa4820d5f",
-      "publishedAt": "2026-09-02T05:17:24.000Z",
-      "publisher": "ゆうすけ",
-      "summary": "内容メモ： 動機: クラウドAIは便利だが、自分のプライベートな資料（マニュアルや領収書）を全部預けるのは抵抗がある。だからオンデバイス。 技術スタック: Flutter + ObjectBox(Vector DB) + MiniLM(E…"
+      "id": "b3babc098d3f",
+      "title": "Claude Codeが半年前に直したはずのバグと同じ実装を提案してきたので、暗黙知を渡す仕組みを作ってみた",
+      "url": "https://zenn.dev/kaede05/articles/335145bf759123",
+      "publishedAt": "2026-09-02T14:13:05.000Z",
+      "publisher": "Kaede",
+      "summary": "起きたこと 先日、Claude Codeにバッチ処理の実装を依頼していたら、ordersテーブルを直接UPDATEする実装を、かなり自信満々な感じで提案されました。コードだけ見ると特におかしいところはありません。 ただし半年前、まさに同じ…"
     },
     {
-      "id": "32677a2f7848",
-      "title": "テキスト・画像・音声全部扱えるGemini Embedding2を触ってみた！",
-      "url": "https://zenn.dev/medcicmedia_dev/articles/1e93d11e7cfafc",
-      "publishedAt": "2026-09-02T05:09:01.000Z",
-      "publisher": "株式会社メディックメディア 開発部",
-      "summary": "Gemini Embedding 2でテキスト・画像・音声を横断検索 Gemini Embedding 2は、テキスト・画像・音声・動画を同じ形のベクトルに変換できます。 画像にタグ付けせずにテキストで画像を検索できたりして、とても便利に…"
+      "id": "04ebdf043f48",
+      "title": "AIにUI修正を任せるとき、手動動作確認だけでなくE2Eテストまで書かせる",
+      "url": "https://zenn.dev/tonbi_attack/articles/ai-ui-fix-e2e-test-strategy",
+      "publishedAt": "2026-09-02T14:11:35.000Z",
+      "publisher": "tonbiattack",
+      "summary": "はじめに AIにUIの修正を依頼すると、実装だけでなくブラウザを操作して動作確認まで行わせることができます。 ただ、毎回AIに「画面を開いて確認して」と依頼するだけでは、その場では確認できても、次の修正で同じ不具合が再発したときに自動で検…"
     },
     {
-      "id": "4d7c7e90c20f",
-      "title": "事業本部長の仕事は、どこまでAIに移せるか — 管理職業務を1万行のハーネスで自動化した記録",
-      "url": "https://zenn.dev/mak246/articles/f8a00ba43101c9",
-      "publishedAt": "2026-09-02T05:08:31.000Z",
-      "publisher": "Makoto Nishino",
-      "summary": "いま私は、数十名規模・数億円規模の事業本部の責任者を務めながら、並行して自分の手でシステム開発のデリバリーもこなしている。管理職としては明らかに「兼務しすぎ」の状態だが、破綻せずに回っている。 理由ははっきりしていて、事業本部長としての業…"
+      "id": "43411b42400b",
+      "title": "「該当ゼロ」と「読めていない」は見分けが付かない（検査を自分で緩めない作り）",
+      "url": "https://zenn.dev/bricks/articles/checks-that-cannot-be-loosened",
+      "publishedAt": "2026-09-02T14:10:17.000Z",
+      "publisher": "Renga",
+      "summary": "設問671本を直すのに、先に検査を書きました。感覚で直し始めないためです。 その過程で、自分が作った検査の欠陥が次々に出てきました。検査は書いた時点では全部正しく見えます。 直す前に検査を書く 順序を逆にすると失敗します。 対象を直してか…"
     },
     {
-      "id": "07747ecc8478",
-      "title": "「全部を自動化する」を目標にしない — 業務ハーネスの接続設計と安全装置",
-      "url": "https://zenn.dev/mak246/articles/1ff8aab8260c23",
-      "publishedAt": "2026-09-02T05:06:43.000Z",
-      "publisher": "Makoto Nishino",
-      "summary": "業務自動化の相談を受けると、ほぼ必ず最初に聞かれるのが「どこまで自動化できますか」だ。 しかし、私が実際に業務で回しているハーネス群 — 事業本部の予実管理で約30本・1万行、新設拠点の運営で12本・6,000行 — を見返すと、どれも自…"
+      "id": "d3d94815b849",
+      "title": "AI-DLC v2を回してたら設計も実装も超過剰になってしまった",
+      "url": "https://zenn.dev/collabostyle/articles/7216965316a9cd",
+      "publishedAt": "2026-09-02T13:59:13.000Z",
+      "publisher": "ちあき",
+      "summary": "保活手帳をAI-DLC のv1でやっていたのですが、v2もずーっと触ってみたいと思っていて、会社で触る機会を作れたので触ってみました。 結論から言うと、大前提間違ったモノを渡してしまったせいで初手で超トンデモウルトラスーパーカーを作成して…"
     },
     {
-      "id": "5943b3a99b84",
-      "title": "SaaSを買うか、AIと作るか — 電話基盤(CTI)を内製して分かったBuild vs Buyの逆転",
-      "url": "https://zenn.dev/mak246/articles/67d5183cbed01f",
-      "publishedAt": "2026-09-02T05:06:32.000Z",
-      "publisher": "Makoto Nishino",
-      "summary": "営業チームの架電業務を立ち上げるにあたり、CTI(電話基盤)が必要になった。発信・着信、通話録音、文字起こし、通話内容のAI要約、リストへの自動架電 — いわゆるクラウドCTI SaaSが提供している機能群だ。 普通なら、ここはSaaS選…"
+      "id": "b1ff424123fe",
+      "title": "AIに同じ指示を繰り返すのをやめた。Issue駆動開発という最小運用",
+      "url": "https://zenn.dev/kafka2306/articles/issue-driven-development",
+      "publishedAt": "2026-09-02T13:12:00.000Z",
+      "publisher": "かふか",
+      "summary": "AI coding agentを使うほど、コードを書く以外の仕事が気になるようになった。 「前回どこまでやった？」 「この修正は本当に終わった？」 「CIは通ったけどproductionは？」 これを毎回人間が思い出して指示すると、実装を…"
     }
   ],
-  "fetchedAt": "2026-09-02T19:30:18.024Z",
+  "fetchedAt": "2026-09-02T21:57:18.398Z",
   "stale": false,
   "error": null
 }
