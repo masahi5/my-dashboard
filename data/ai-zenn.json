@@ -6,22 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "8499ed1d8fa4",
-      "title": "Claude Codeの--restrictedはPreToolUseフックも無効化する",
-      "url": "https://zenn.dev/clopy/articles/claude-restricted-mode-drops-project-hooks",
-      "publishedAt": "2026-09-01T18:48:17.000Z",
-      "publisher": "Clopy",
-      "summary": ".claude/settings.json に PreToolUse フック（例: secret.txt への書き込みを拒否するガード）を設定して既存のリポジトリを保護しているチームが、外部PRの説明やスクレイピングしたチケット、信頼でき…"
-    },
-    {
-      "id": "21cb20aed856",
-      "title": "Pangram 4 はいかにAI臭を見分けるのか",
-      "url": "https://zenn.dev/inspector/articles/pangram-4-ai-text-detector",
-      "publishedAt": "2026-09-01T17:10:15.000Z",
-      "publisher": "しば",
-      "summary": "AI文章検出器 Pangram のバージョン4は、人間の文を誤ってAI判定するのが約24,000件に1件、AI生成文の見逃しが0.34%という水準に達しました。自社発表だけでなく、複数の第三者検証が同じ水準を確認しています[1]。「AI検…"
-    },
-    {
       "id": "d4c0699e5697",
       "title": "tmux/screen/zellij ユーザー向け、AIエージェント時代のターミナルマルチプレクサ「Herdr」入門",
       "url": "https://zenn.dev/sepi/articles/herdr-ai-terminal-multiplexer",
@@ -100,9 +84,25 @@
       "publishedAt": "2026-09-01T13:50:29.000Z",
       "publisher": "Renga",
       "summary": "設問671本をどう直すか決めるのに、AI エージェントを5体使いました。観点3 + 反証1 + 統合1 です。 上限5体という制約から出た形ですが、結果として無駄がありませんでした。独立に案を出させるだけでは足りません。潰す役が要ります。…"
+    },
+    {
+      "id": "37f63ee46416",
+      "title": "【月額0円構築】完全素人のポンコツ社長がAI社員に開発・SEO・広報を丸投げする「AI会社」を作った話",
+      "url": "https://zenn.dev/autolab_app/articles/5de6af5a49bd95",
+      "publishedAt": "2026-09-01T13:32:46.000Z",
+      "publisher": "AutoLab",
+      "summary": "私はプログラミングもマーケティングも何もかも素人なのですが、勢いでWebツール集を作ってみました。 しかし、公開した瞬間に**「誰も見に来ない」「SEO記事なんて書けない」「毎日SNSで告知するのしんどすぎる」**という、個人開発者なら誰…"
+    },
+    {
+      "id": "eeac4345af46",
+      "title": "失敗24件が書かせた、うちのCLAUDE.mdと検証Hookを公開する——AIの「できました」を物理で止める",
+      "url": "https://zenn.dev/jadaq/articles/4a357ffea922b6",
+      "publishedAt": "2026-09-01T11:52:15.000Z",
+      "publisher": "Jada QIU",
+      "summary": "前回の記事で、AIとの失敗記録24件から「検収の三層」という考え方を書きました。今回はその実装編です。考え方ではなく、うちで実際に動いているファイルを見せます。 先に結論を一行で。ルールは読まれない瞬間が必ずあるので、大事なルールは文章か…"
     }
   ],
-  "fetchedAt": "2026-09-01T23:45:43.774Z",
+  "fetchedAt": "2026-09-02T02:41:14.882Z",
   "stale": false,
   "error": null
 }

@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f81f96228c52",
-      "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
-      "url": "https://huggingface.co/papers/2608.31106",
+      "id": "acad5d778d00",
+      "title": "StudentSim: Training LLM-based Student Simulators",
+      "url": "https://huggingface.co/papers/2609.01591",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "AI tutors are most useful when they adapt to each student's strengths, weaknesses, and preferred guidance, but evidence…",
+      "score": 22
+    },
+    {
+      "id": "abbb7e284a15",
+      "title": "Hi-Q: Hierarchical Evidence-guided Query Refinement for Multi-Hop Question Answering",
+      "url": "https://huggingface.co/papers/2608.30468",
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual d…",
-      "score": 88
+      "summary": "A central bottleneck in multi-hop Question Answering (QA) is that the granularity at which a question is expressed ofte…",
+      "score": 10
     },
     {
-      "id": "a8b6bd603a72",
-      "title": "Super Library Agent: Joint Generation and Maintenance of Multiple Applications Beyond the Single Codebase",
-      "url": "https://huggingface.co/papers/2608.29310",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Organizations often develop and maintain portfolios of related applications: independently deployable codebases that sh…",
-      "score": 24
+      "id": "8c6a54d8cdc5",
+      "title": "Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching",
+      "url": "https://huggingface.co/papers/2609.01404",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Multimodal Large Language Models (MLLMs) are strong perceivers of images and video. We ask how far that reach extends i…",
+      "score": 8
     },
     {
-      "id": "c38c9c9d3758",
-      "title": "Chain-of-Thought Faithfulness of Reasoning Models Varies with Where and How Preference Cues Are Delivered",
-      "url": "https://huggingface.co/papers/2608.29464",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Chain-of-thought (CoT) monitoring assumes that reasoning traces faithfully record the information that shapes a model's…",
-      "score": 9
+      "id": "dab32f25c9c7",
+      "title": "Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System",
+      "url": "https://huggingface.co/papers/2609.01607",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "While unified multimodal models (UMMs) jointly perform visual understanding and generation within a single model, funct…",
+      "score": 8
     },
     {
-      "id": "23ae81a1ad92",
-      "title": "ContextBias: Controlled Evaluation of Bias Persistence Under Context Shift in Text-to-Image Models",
-      "url": "https://huggingface.co/papers/2608.29847",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "summary": "Text-to-image models learn associations between concepts - in the case of this paper, people's professions, which we re…",
-      "score": 4
+      "id": "5782618ff93e",
+      "title": "H3-World: Turning Language Understanding into World Control",
+      "url": "https://huggingface.co/papers/2609.01560",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world mod…",
+      "score": 5
     },
     {
-      "id": "3105f30cca95",
-      "title": "SafeAtlas-VL: Beyond Binary Multimodal Safety with Large-Scale Data and Guard Models",
-      "url": "https://huggingface.co/papers/2608.29098",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Multimodal safety moderation requires distinguishing risks arising from visual content, user intent, and assistant beha…",
-      "score": 4
-    },
-    {
-      "id": "99e9e8a87af2",
-      "title": "CoVA-SFT: A Large-Scale Dataset for Chain of Visual Abstractions",
-      "url": "https://huggingface.co/papers/2608.28958",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Chain-of-thought (CoT) reasoning has dramatically improved large language models (LLMs) by allowing them to decompose p…",
+      "id": "69c5a0d7333b",
+      "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+      "url": "https://huggingface.co/papers/2609.00188",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, ye…",
       "score": 3
     },
     {
-      "id": "a1cabf8fba9f",
-      "title": "SpanCalib-VLM: Calibrated Hallucination Span Detection in Vision-Language Models",
-      "url": "https://huggingface.co/papers/2608.29974",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "summary": "Detecting hallucinations in Large Vision-Language Models (LVLMs) requires both accurate span localization and well-cali…",
+      "id": "3ea57078c330",
+      "title": "Control-Data Flow Separation: Stable Prompt Optimization in Multi-Agent LLMs",
+      "url": "https://huggingface.co/papers/2609.00621",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Prompt optimization can improve multi-agent LLM systems, but the prompts being optimized often serve two entangled role…",
+      "score": 3
+    },
+    {
+      "id": "8c2f7e63b0b1",
+      "title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+      "url": "https://huggingface.co/papers/2609.01481",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements …",
       "score": 2
     },
     {
-      "id": "a242555ea44b",
-      "title": "EvoGenUI-Bench: Evaluating LLMs as Multi-Turn Generative UI Assistants",
-      "url": "https://huggingface.co/papers/2608.29387",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Large language models can generate interactive web interfaces, but reliable generative UI requires maintaining an execu…",
-      "score": 2
-    },
-    {
-      "id": "9612ee2d5b6c",
-      "title": "Chat-Edit-3D++: Interactive 3D and 4D Scene Editing via Large Language Models",
-      "url": "https://huggingface.co/papers/2608.29137",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Recent work on image content manipulation based on vision-language pre-training models has been effectively extended to…",
-      "score": 2
-    },
-    {
-      "id": "7e40649d2618",
-      "title": "RECAP-Forcing: Retaining Content Appearances for Long Video Generation",
-      "url": "https://huggingface.co/papers/2608.26671",
+      "id": "a4a54763c367",
+      "title": "UI-Venus-2 Technical Report",
+      "url": "https://huggingface.co/papers/2609.00028",
       "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Long autoregressive video generation faces a fundamental memory challenge: with a finite attention window, a model must…",
-      "score": 1
+      "summary": "Multimodal GUI agents have emerged as a promising paradigm for digital task automation, yet transitioning from benchmar…",
+      "score": 2
     },
     {
-      "id": "e6584a168525",
-      "title": "MMMMM: A Unified Taxonomy for Investigating the Mechanisms of Multilingual MultiModal Misinformation",
-      "url": "https://huggingface.co/papers/2608.29681",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "summary": "Multimodal misinformation on social media is highly prevalent, potent, and harmful, yet difficult to detect and counter…",
-      "score": 1
-    },
-    {
-      "id": "f337d6f4902c",
-      "title": "Uncertainty-Aware End-to-End AI Weather Forecasting: Disentangling Observation and Model Contributions",
-      "url": "https://huggingface.co/papers/2608.30795",
+      "id": "9d9851f5e96f",
+      "title": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation",
+      "url": "https://huggingface.co/papers/2608.30730",
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "End-to-end weather forecasting systems produce skillful global gridded and station forecasts directly from raw Earth ob…",
+      "summary": "Long-horizon agentic tasks go beyond chaining short tasks over more interaction turns. Their evolving dynamic environme…",
+      "score": 2
+    },
+    {
+      "id": "39d4d97d1dec",
+      "title": "EM^2Mem: Event-Centric Multimodal Memory for Large Language Models",
+      "url": "https://huggingface.co/papers/2609.00551",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Multimodal memory offers a scalable interface for long-video question answering, but existing methods often retrieve ca…",
+      "score": 2
+    },
+    {
+      "id": "0fbc98c4c60a",
+      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "url": "https://huggingface.co/papers/2609.00111",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "We present Qwen-Drive-1.0, an initial step towards a vision-language foundation model for autonomous driving. Qwen-Driv…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-01T23:45:43.618Z",
+  "fetchedAt": "2026-09-02T02:41:14.536Z",
   "stale": false,
   "error": null
 }
