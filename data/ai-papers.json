@@ -11,63 +11,15 @@
       "url": "https://huggingface.co/papers/2609.01591",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "AI tutors are most useful when they adapt to each student's strengths, weaknesses, and preferred guidance, but evidence…",
-      "score": 22
+      "score": 194
     },
     {
-      "id": "abbb7e284a15",
-      "title": "Hi-Q: Hierarchical Evidence-guided Query Refinement for Multi-Hop Question Answering",
-      "url": "https://huggingface.co/papers/2608.30468",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "A central bottleneck in multi-hop Question Answering (QA) is that the granularity at which a question is expressed ofte…",
-      "score": 10
-    },
-    {
-      "id": "8c6a54d8cdc5",
-      "title": "Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching",
-      "url": "https://huggingface.co/papers/2609.01404",
+      "id": "4a2deef29fa9",
+      "title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
+      "url": "https://huggingface.co/papers/2609.01343",
       "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Multimodal Large Language Models (MLLMs) are strong perceivers of images and video. We ask how far that reach extends i…",
-      "score": 8
-    },
-    {
-      "id": "dab32f25c9c7",
-      "title": "Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System",
-      "url": "https://huggingface.co/papers/2609.01607",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "While unified multimodal models (UMMs) jointly perform visual understanding and generation within a single model, funct…",
-      "score": 8
-    },
-    {
-      "id": "5782618ff93e",
-      "title": "H3-World: Turning Language Understanding into World Control",
-      "url": "https://huggingface.co/papers/2609.01560",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world mod…",
-      "score": 5
-    },
-    {
-      "id": "69c5a0d7333b",
-      "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
-      "url": "https://huggingface.co/papers/2609.00188",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, ye…",
-      "score": 3
-    },
-    {
-      "id": "3ea57078c330",
-      "title": "Control-Data Flow Separation: Stable Prompt Optimization in Multi-Agent LLMs",
-      "url": "https://huggingface.co/papers/2609.00621",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Prompt optimization can improve multi-agent LLM systems, but the prompts being optimized often serve two entangled role…",
-      "score": 3
-    },
-    {
-      "id": "8c2f7e63b0b1",
-      "title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
-      "url": "https://huggingface.co/papers/2609.01481",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements …",
-      "score": 2
+      "summary": "Looped Transformers increase effective depth by iterating a shared block of layers, but most evaluations compare at fix…",
+      "score": 52
     },
     {
       "id": "a4a54763c367",
@@ -75,23 +27,7 @@
       "url": "https://huggingface.co/papers/2609.00028",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "summary": "Multimodal GUI agents have emerged as a promising paradigm for digital task automation, yet transitioning from benchmar…",
-      "score": 2
-    },
-    {
-      "id": "9d9851f5e96f",
-      "title": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation",
-      "url": "https://huggingface.co/papers/2608.30730",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Long-horizon agentic tasks go beyond chaining short tasks over more interaction turns. Their evolving dynamic environme…",
-      "score": 2
-    },
-    {
-      "id": "39d4d97d1dec",
-      "title": "EM^2Mem: Event-Centric Multimodal Memory for Large Language Models",
-      "url": "https://huggingface.co/papers/2609.00551",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Multimodal memory offers a scalable interface for long-video question answering, but existing methods often retrieve ca…",
-      "score": 2
+      "score": 49
     },
     {
       "id": "0fbc98c4c60a",
@@ -99,10 +35,74 @@
       "url": "https://huggingface.co/papers/2609.00111",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "We present Qwen-Drive-1.0, an initial step towards a vision-language foundation model for autonomous driving. Qwen-Driv…",
-      "score": 1
+      "score": 44
+    },
+    {
+      "id": "69c5a0d7333b",
+      "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+      "url": "https://huggingface.co/papers/2609.00188",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, ye…",
+      "score": 34
+    },
+    {
+      "id": "5782618ff93e",
+      "title": "H3-World: Turning Language Understanding into World Control",
+      "url": "https://huggingface.co/papers/2609.01560",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world mod…",
+      "score": 24
+    },
+    {
+      "id": "8c6a54d8cdc5",
+      "title": "Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching",
+      "url": "https://huggingface.co/papers/2609.01404",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Multimodal Large Language Models (MLLMs) are strong perceivers of images and video. We ask how far that reach extends i…",
+      "score": 16
+    },
+    {
+      "id": "25a44af49b22",
+      "title": "Safin-1: Safety from Within through Memory-Native State Evolution",
+      "url": "https://huggingface.co/papers/2609.00092",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Long-horizon complex tasks require foundation models to accumulate information, maintain internal states, and adapt ove…",
+      "score": 13
+    },
+    {
+      "id": "20bb015382d9",
+      "title": "DiagEvo: Diagnosis-Guided Self-Evolution via Hierarchical Error Memory",
+      "url": "https://huggingface.co/papers/2609.00768",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Self-play is an effective paradigm for language-model self-evolution, but without guidance, solver performance can plat…",
+      "score": 8
+    },
+    {
+      "id": "8c2f7e63b0b1",
+      "title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+      "url": "https://huggingface.co/papers/2609.01481",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements …",
+      "score": 3
+    },
+    {
+      "id": "9d9851f5e96f",
+      "title": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation",
+      "url": "https://huggingface.co/papers/2608.30730",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Long-horizon agentic tasks go beyond chaining short tasks over more interaction turns. Their evolving dynamic environme…",
+      "score": 3
+    },
+    {
+      "id": "1bee38cbdd13",
+      "title": "Agents in the Large: Perception-Centered Architecture for Persistent Agents",
+      "url": "https://huggingface.co/papers/2608.30478",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Cognitive language agents have achieved substantial progress by equipping language models with memory, tools, and decis…",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-09-02T02:41:14.536Z",
+  "fetchedAt": "2026-09-02T07:19:23.725Z",
   "stale": false,
   "error": null
 }
