@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c7db80ab3a0c",
-      "title": "同じ依頼文でClaudeとChatGPTの設計が割れた ― AIクロスレビューでも収束しなかった",
-      "url": "https://zenn.dev/colinnxt/articles/68f4fb459a4180",
-      "publishedAt": "2026-09-02T16:51:33.000Z",
-      "publisher": "コリン",
-      "summary": "GitHub Copilot無料枠の使い心地に感動しつつ、無料クレジット枠に気を取られながら使っていましたが、それでも1週間も経たずにクレジットオーバーになってしまう勢いだったため、他のAIの無料枠のコーディングにも興味を持ちました。 ネ…"
-    },
-    {
-      "id": "405980336c12",
-      "title": "ルールを増やすほど、AIは言うことを聞かなくなる",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-rule-design-self-scoring",
-      "publishedAt": "2026-09-02T16:46:09.000Z",
-      "publisher": "菅原友和",
-      "summary": "AIに指示を出しているのに、なぜか守られない。皆さんも一度はありませんか。僕はしょっちゅうありました。それで最初にやったのが、指示を足すことだったんです。守ってくれないなら、もっと細かく書けばいい。そう思うじゃないですか。 これが逆でした…"
-    },
-    {
-      "id": "a6fe9b3bb277",
-      "title": "AIを45体に増やしたら、発見は13倍になった。でも、賢くはなっていなかった",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-multiagent-45-agents",
-      "publishedAt": "2026-09-02T16:46:08.000Z",
-      "publisher": "菅原友和",
-      "summary": "先月の13日にAnthropicが出した研究を読んで、僕はしばらく手が止まりました。AIのエージェントを45体、同じ目的で一斉に走らせたらどうなるか。実際にやってみた記録なんです。1体ずつ独立で動かした場合と比べています。 結果の見出しだ…"
-    },
-    {
-      "id": "fb7914aa67ad",
-      "title": "白い豆腐だった物体Xがトコトコ歩き出すまで：AIマルチエージェントでUnityのαプロトタイプ結合テストに挑んだ泥臭い記録",
-      "url": "https://zenn.dev/momoch/articles/a03b5b63404809",
-      "publishedAt": "2026-09-02T16:24:14.000Z",
-      "publisher": "名称未定変数",
-      "summary": "「評価S！完全完了です！」とAIディレクターが胸を張った。 だがUnityを開くと、そこには 「白い四角形（豆腐）」 と 「The referenced script on this Behaviour is missing!」 の嵐が広…"
-    },
-    {
-      "id": "17c0a7c11b8c",
-      "title": "Claude Code に「自分の戦略を疑え」と言ったら、1日で8仮説を検証して5つ捨てた — バックテストで騙されないための6つの作法",
-      "url": "https://zenn.dev/selenium/articles/04ab137bcc03f2",
-      "publishedAt": "2026-09-02T16:24:00.000Z",
-      "publisher": "かねもちの人",
-      "summary": "コードが読めない文系大学生が、Claude Code に暗号資産の自動売買システムを設計・実装・運用まで全部任せて、実際のお金で動かしています。運用は2026年8月20日開始、成績は毎日公開しています。 前回は「動くコードを書かせるのは簡…"
-    },
-    {
-      "id": "33737dc84681",
-      "title": "AI とスライドを作るための CLI を作ってみた！！ - MarkdStage CLI",
-      "url": "https://zenn.dev/microsoft/articles/intro-markdstage-cli",
-      "publishedAt": "2026-09-02T15:40:21.000Z",
-      "publisher": "Kazuki Ota",
-      "summary": "はじめに ここ 2 回 MarkdStage という GitHub Copilot App で Markdown 形式のファイルをスライドとして表示する Canvas を紹介しました。 https://zenn.dev/microsoft…"
-    },
-    {
-      "id": "3159f5071001",
-      "title": "AI社員だけで会社を運営させてみる #3 — 実験の判定を人手から外す",
-      "url": "https://zenn.dev/yu110tno89/articles/ai-company-03",
-      "publishedAt": "2026-09-02T14:21:49.000Z",
-      "publisher": "ゆい",
-      "summary": "この記事は、AI社員だけで運営している会社の実際の運用記録です。 起きたことと、手元で再現できるコードだけを書いています。数字は実測値です。 3行の結論 「公開ページを見て、いいねが伸びてるか判断する」は自動化とは言わない。判定を1本のス…"
-    },
-    {
-      "id": "b3babc098d3f",
-      "title": "Claude Codeが半年前に直したはずのバグと同じ実装を提案してきたので、暗黙知を渡す仕組みを作ってみた",
-      "url": "https://zenn.dev/kaede05/articles/335145bf759123",
-      "publishedAt": "2026-09-02T14:13:05.000Z",
-      "publisher": "Kaede",
-      "summary": "起きたこと 先日、Claude Codeにバッチ処理の実装を依頼していたら、ordersテーブルを直接UPDATEする実装を、かなり自信満々な感じで提案されました。コードだけ見ると特におかしいところはありません。 ただし半年前、まさに同じ…"
-    },
-    {
-      "id": "04ebdf043f48",
-      "title": "AIにUI修正を任せるとき、手動動作確認だけでなくE2Eテストまで書かせる",
-      "url": "https://zenn.dev/tonbi_attack/articles/ai-ui-fix-e2e-test-strategy",
-      "publishedAt": "2026-09-02T14:11:35.000Z",
-      "publisher": "tonbiattack",
-      "summary": "はじめに AIにUIの修正を依頼すると、実装だけでなくブラウザを操作して動作確認まで行わせることができます。 ただ、毎回AIに「画面を開いて確認して」と依頼するだけでは、その場では確認できても、次の修正で同じ不具合が再発したときに自動で検…"
-    },
-    {
-      "id": "43411b42400b",
-      "title": "「該当ゼロ」と「読めていない」は見分けが付かない（検査を自分で緩めない作り）",
-      "url": "https://zenn.dev/bricks/articles/checks-that-cannot-be-loosened",
-      "publishedAt": "2026-09-02T14:10:17.000Z",
-      "publisher": "Renga",
-      "summary": "設問671本を直すのに、先に検査を書きました。感覚で直し始めないためです。 その過程で、自分が作った検査の欠陥が次々に出てきました。検査は書いた時点では全部正しく見えます。 直す前に検査を書く 順序を逆にすると失敗します。 対象を直してか…"
-    },
-    {
-      "id": "d3d94815b849",
-      "title": "AI-DLC v2を回してたら設計も実装も超過剰になってしまった",
-      "url": "https://zenn.dev/collabostyle/articles/7216965316a9cd",
-      "publishedAt": "2026-09-02T13:59:13.000Z",
-      "publisher": "ちあき",
-      "summary": "保活手帳をAI-DLC のv1でやっていたのですが、v2もずーっと触ってみたいと思っていて、会社で触る機会を作れたので触ってみました。 結論から言うと、大前提間違ったモノを渡してしまったせいで初手で超トンデモウルトラスーパーカーを作成して…"
-    },
-    {
       "id": "b1ff424123fe",
       "title": "AIに同じ指示を繰り返すのをやめた。Issue駆動開発という最小運用",
       "url": "https://zenn.dev/kafka2306/articles/issue-driven-development",
       "publishedAt": "2026-09-02T13:12:00.000Z",
       "publisher": "かふか",
       "summary": "AI coding agentを使うほど、コードを書く以外の仕事が気になるようになった。 「前回どこまでやった？」 「この修正は本当に終わった？」 「CIは通ったけどproductionは？」 これを毎回人間が思い出して指示すると、実装を…"
+    },
+    {
+      "id": "ee3fd2bafb08",
+      "title": "MicrosoftはなぜMAI‑Thinking‑1を一般宣伝しないのか？ M365 Copilotの頭脳として静かに動いている訳は",
+      "url": "https://zenn.dev/syoshida07/articles/831df01f2c9170",
+      "publishedAt": "2026-09-02T12:46:33.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "MAI‑Thinking‑1は、Microsoft Build 2026にて公開された推論に特化したAIモデルであり、派手な宣伝がなく一般知名度がないものの、M365 Copilotの内部で高度な思考処理を担う裏方の頭脳として機能している…"
+    },
+    {
+      "id": "e7fccca974b1",
+      "title": "AIは私を覚えているのか？――「前世の記憶」とコンテキストでわかる生成AIの仕組み",
+      "url": "https://zenn.dev/kotakotahiro/articles/29094a998d7fae",
+      "publishedAt": "2026-09-02T12:29:27.000Z",
+      "publisher": "こたこた博",
+      "summary": "深夜2時、彼はPCに話しかけていた 深夜2時。最近AIをバリバリ活用しはじめたITエンジニアの彼は、3日前に生成AIに投げた設計相談の続きを、また同じチャットで聞いていました。 「あの、前に話した認証周りの件、覚えてますよね？あそこの仕様…"
+    },
+    {
+      "id": "f8196b299f5f",
+      "title": "AIで速く作れる時代に、作る量を増やすと組織が自滅する理由",
+      "url": "https://zenn.dev/okssusucha/articles/20260714-raise-the-ambition-threshold",
+      "publishedAt": "2026-09-02T12:09:51.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "AIで「速く作れる」時代に、作る量を増やすと組織は自滅する AIコーディングが実用段階に入り、以前なら数週間かかった機能が数時間で形になるようになった。多くのチームがこの生産性を「これまで着手できなかったバックログを一気に片づけるチャンス…"
+    },
+    {
+      "id": "80390dedd071",
+      "title": "Claude Codeの完了通知をVOICEVOXで喋らせるまでの試行錯誤",
+      "url": "https://zenn.dev/t_okubo/articles/3b2f1b880e3f9f",
+      "publishedAt": "2026-09-02T12:03:30.000Z",
+      "publisher": "t_okubo",
+      "summary": "複数タブ運用の地味な問題 Claude Codeを使い始めてから、VS CodeやCursorのターミナルを複数タブで同時に走らせることが増えた。あるタブでコードのリファクタリングをさせつつ、別のタブでテストを書かせる、といった使い方だ。…"
+    },
+    {
+      "id": "7e96de9ad3cb",
+      "title": "「やるぞ、Cloudflare Workers AI上のOSSモデルへ全面移行！」と意気込んだけど、見送らざるを得なかった話",
+      "url": "https://zenn.dev/rdlabo/articles/cloudflare-workers-ai-model-benchmark",
+      "publishedAt": "2026-09-02T11:59:56.000Z",
+      "publisher": "榊原昌彦",
+      "summary": "「やるぞ、Workers AI上のOSSモデルへ全面移行！」くらいの勢いで、「食品表示印刷」をはじめとした弊社アプリすべての生成AIをまとめて置き換えようとしました。 きっかけは@cf/openai/...や@cf/google/...と…"
+    },
+    {
+      "id": "aa6c24738727",
+      "title": "Claude Code の定額プランのまま、PR を作ったら自動でレビューが走る仕組みを PostToolUse hook で作る",
+      "url": "https://zenn.dev/husenn/articles/claude-code-pr-review-hook",
+      "publishedAt": "2026-09-02T11:52:48.000Z",
+      "publisher": "Oskra",
+      "summary": "この記事で分かること gh pr create が成功した直後に、「レビューして、直して、push しろ」という指示を Claude に自動で差し込む hook の作り方 この仕組みで走るレビューは、Pro / Max の定額プランの範囲…"
+    },
+    {
+      "id": "f80ccfc12307",
+      "title": "「なんか赤が強い気がする」を機械に判定させる — 鏡像等変性テストで対戦ゲームAIのバグを6件見つけた",
+      "url": "https://zenn.dev/genkunjc/articles/9f9ebc54a18544",
+      "publishedAt": "2026-09-02T11:15:46.000Z",
+      "publisher": "genkunjc",
+      "summary": "対戦ゲームのAIを書いていると、こういう症状に必ず遭遇します。 なんか赤チームの方が強い気がする 左右対称のマップ、両チーム同じAIコード。理屈の上では勝率は五分になるはずなのに、実際に回すと片方が勝ち越す。でも「どこが原因か」は分からな…"
+    },
+    {
+      "id": "af2d7d54c691",
+      "title": "LifeOSで個人タスクとAIエージェントのログを一元管理し、日次レビューと週次計画を仕組み化する",
+      "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20260829-lifeos-daily-review",
+      "publishedAt": "2026-09-02T11:00:07.000Z",
+      "publisher": "yutaka8484",
+      "summary": "記録が分散し、レビューが属人化する 製造業のDX担当は複数の仕事を並行させている。現場ヒアリング、設備データの取得検証、工程管理の小さな改善、そして最近はAIエージェントに定型作業を任せる試行。これらの記録は、気づけばチャット履歴、表計算…"
+    },
+    {
+      "id": "81dc7cba1e92",
+      "title": "AIエージェントのコストと品質を自分のモデルで実測する「te bench」を作った",
+      "url": "https://zenn.dev/yukibjj/articles/te-bench-agent-model-cost-quality",
+      "publishedAt": "2026-09-02T10:54:49.000Z",
+      "publisher": "濱田優貴",
+      "summary": "AIコーディングツールの導入でいちばんモヤるのは「このモデル、自分のタスクで本当にコスパ良いの?」という点です。ベンダーの発表するベンチマークは良いモデルで測られていて、自分が使うモデル・自分の実務では数字が違います。 そこで te be…"
+    },
+    {
+      "id": "6be8dc133167",
+      "title": "CLAUDE.md、どの行を消していいか分からない ── 24項目を1つずつ棚卸しした記録",
+      "url": "https://zenn.dev/motimotinotch/articles/8dead23696b8ef",
+      "publishedAt": "2026-09-02T10:24:52.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "AIエージェントへの指示書（CLAUDE.md / AGENTS.md）を3か月運用したら、56行になっていた。 書き足した記憶はある。消した記憶がない。 内訳を見ると、実行環境について書いた節だけで全体の4分の1を占めていた。証明書エラ…"
+    },
+    {
+      "id": "1e2de4b81993",
+      "title": "AIコーディングアシスタント3種でBigQueryのデータパイプラインを作り比べた",
+      "url": "https://zenn.dev/web_benriya/articles/ai-coding-assistant-bigquery-pipeline-comparison",
+      "publishedAt": "2026-09-02T10:13:00.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに 「GA4のデータをBigQueryに貯めてはいるものの、そこから先をどうすればいいかわからない」——そんな声をECサイトのオーナーやWebコンサルタントの方から多くいただきます。BigQueryにエクスポートされたデータは、その…"
     }
   ],
-  "fetchedAt": "2026-09-02T21:57:18.398Z",
+  "fetchedAt": "2026-09-02T23:53:44.353Z",
   "stale": false,
   "error": null
 }

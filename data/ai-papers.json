@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "4a2deef29fa9",
-      "title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
-      "url": "https://huggingface.co/papers/2609.01343",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Looped Transformers increase effective depth by iterating a shared block of layers, but most evaluations compare at fix…",
-      "score": 69
-    },
-    {
       "id": "84d020f8be60",
       "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
       "url": "https://huggingface.co/papers/2609.01572",
@@ -46,20 +38,12 @@
       "score": 14
     },
     {
-      "id": "8c2f7e63b0b1",
-      "title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
-      "url": "https://huggingface.co/papers/2609.01481",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements …",
-      "score": 9
-    },
-    {
       "id": "1bee38cbdd13",
       "title": "Agents in the Large: Perception-Centered Architecture for Persistent Agents",
       "url": "https://huggingface.co/papers/2608.30478",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Cognitive language agents have achieved substantial progress by equipping language models with memory, tools, and decis…",
-      "score": 7
+      "score": 8
     },
     {
       "id": "b0b4bc19a34f",
@@ -100,9 +84,25 @@
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "Commercial short-drama production follows a multi-stage chain: script, storyboard, keyframe imagery, shot-level video, …",
       "score": 2
+    },
+    {
+      "id": "41221972ce91",
+      "title": "Does Imitation Learning Preserve Temporal Robustness in Dexterous Manipulation? An Expert-Learner Comparison Across Task Execution Speeds",
+      "url": "https://huggingface.co/papers/2609.01453",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Dexterous manipulation policies learned by imitation are typically evaluated for robustness to variation in scenes, obj…",
+      "score": 1
+    },
+    {
+      "id": "717c67940986",
+      "title": "Knowledge Distillation During Mid-Training Favors Reasoning over Factual Recall",
+      "url": "https://huggingface.co/papers/2609.01532",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Logit-based knowledge distillation (KD) is used to train smaller language models (LMs) via supervision from stronger te…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-02T21:57:18.195Z",
+  "fetchedAt": "2026-09-02T23:53:44.105Z",
   "stale": false,
   "error": null
 }
