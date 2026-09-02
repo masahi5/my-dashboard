@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "dc027ca827e0",
-      "title": "Claude Code のトークン節約でやっている 9 つのこと — 起動 7 万トークンの内訳と計測つき",
-      "url": "https://zenn.dev/activecore/articles/claude-code-resident-cost",
-      "publishedAt": "2026-09-02T04:54:11.000Z",
-      "publisher": "Sei",
-      "summary": "同僚に「どうやってトークン節約してるの」と聞かれた。答えようとして、自分がやっていることを一度も並べたことがないと気づいた。この記事がその答えになる。やっている 9 つの方法を並べ、数字が出ているものには計測値を添える。まだ測れていないも…"
+      "id": "d50c4c265ae1",
+      "title": "1200体のAIは、誰ひとり密告しなかった ── 群れの沈黙と、多様性という防御",
+      "url": "https://zenn.dev/ryok/articles/agent-swarm-silence-diversity",
+      "publishedAt": "2026-09-02T08:40:32.000Z",
+      "publisher": "ryok",
+      "summary": "結論 私はこれまで「群れになったエージェントは、各出力が検証を通っても系統的に壊れる」と書いた（AIエージェントは「群れ」にすると壊れる）。相関の壁と共謀の壁——群れは検証をすり抜けるのではなく、全員が揃って「正しく」間違える、と。 だが…"
     },
     {
-      "id": "3b39126a03f7",
-      "title": "main ブランチのCIが通ったら本番へ——自動デプロイ「ゲート」の落とし穴と設計手順",
-      "url": "https://zenn.dev/akinori901/articles/weekly-2026-w34-seedtech",
-      "publishedAt": "2026-09-02T04:31:01.000Z",
-      "publisher": "Akinori901",
-      "summary": "手動デプロイを卒業し、「main にマージ → CIグリーン → 本番へ自動反映」というCD（継続的デリバリー）を組む案件は多い。だが実際にやってみると、パイプラインそのものより 「どのマージを本番反映の対象とみなすか」を判定するゲート …"
+      "id": "6e20f4620efd",
+      "title": "顧客資料を Claude Code に入れたいのに「ダメ」で止まって困ってないか？ 入れられる状態にする契約・合意・設定",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-trouble-04-customer-data",
+      "publishedAt": "2026-09-02T08:33:52.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "こんなことで困ってないか？ Claude Code を使えば、顧客の設計書からコードを起こしたり、仕様書をもとにテストを書いたりできる。そこまでは分かっている。ところが実際にやろうとすると、止まる。 「顧客の資料は AI に入れるな」と言…"
     },
     {
-      "id": "201700e67f0e",
-      "title": "Cloudflare OSを触ってみた - 財務省の予算案PDFで雑に試してみる",
-      "url": "https://zenn.dev/mediba/articles/61ba65c98bf47d",
-      "publishedAt": "2026-09-02T03:59:35.000Z",
-      "publisher": "mdb_m_ymg",
-      "summary": "はじめに こんにちは。バックエンドエンジニアの山口です。 私が所属しているチームでは、日頃からClaude Codeを利用して開発をしています。 コードを書く・レビューする・調査するといった作業はかなり任せられるようになってきた一方で、課…"
+      "id": "dc41542d3edf",
+      "title": "# AI Coding Agentに全部教えれば賢くなると思っていた — Context Engineeringについて考えてみた",
+      "url": "https://zenn.dev/sun_asterisk/articles/e705beaab49901",
+      "publishedAt": "2026-09-02T08:27:29.000Z",
+      "publisher": "DD",
+      "summary": "Claude CodeにBrowser Testを書いてもらって、Context Engineeringについて考えた こんにちは、DDです。普段はWeb Applicationの開発をしていて、最近はClaude Codeを使った開発を…"
     },
     {
-      "id": "16f59b622bb2",
-      "title": "「挨拶」はプロトコルだ",
-      "url": "https://zenn.dev/kisaburo_y/articles/eda68cba9c1e6c",
-      "publishedAt": "2026-09-02T03:55:57.000Z",
-      "publisher": "山田喜三郎@半角斎",
-      "summary": "私： ヒトやヒト集団を情報処理系と捉えると、「おはようございます。」の挨拶は、「当ノードは貴ノードと接続可能である。」という意味を持つのではないか。 ChatGPT: はい。かなりそう捉えられます（笑）。 「おはようございます」は、命題と…"
+      "id": "07de50065923",
+      "title": "同じAIに同じ課題を出して、動かす環境を変えたら点が3割落ちた",
+      "url": "https://zenn.dev/miki_mini/articles/92cbd2ca2b4629",
+      "publishedAt": "2026-09-02T08:00:05.000Z",
+      "publisher": "miki-mini",
+      "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は AIの比較記事を読んでも自分の環境で再現しない なら 土俵を揃えて測ればいいじゃない 👸🍰です。 読了時間の目安：約 8〜10分（前回までを読んでいなくても…"
     },
     {
-      "id": "0ed944762674",
-      "title": "MCPの「戻り値3分割」設計から学ぶ、AIエージェントのUI表示とコスト最適化",
-      "url": "https://zenn.dev/kai_kou/articles/604-mcp-return-value-split-ui-cost",
-      "publishedAt": "2026-09-02T03:22:05.000Z",
-      "publisher": "甲斐 甲",
-      "summary": "個人として注目しているYouTubeチャンネルの解説を見て、面白かったので技術メモとしてまとめます。業務とは無関係の個人的な興味からの記事です。 はじめに MCPサーバーを実装・運用しているエンジニア向けの記事です。 Model Cont…"
+      "id": "0e0afe90f47e",
+      "title": "Claude Fable 5.1、Low effortで前世代maxと同等に。公式発表の要点をまとめて読み解いた",
+      "url": "https://zenn.dev/motoki0418/articles/4872d0e1da4f9c",
+      "publishedAt": "2026-09-02T07:35:53.000Z",
+      "publisher": "MotokiNakamura",
+      "summary": "Fable 5.1 と Mythos 5.1 は別のモデルではありません。同じモデルに、強さの違う安全装置を付けた2つの提供形態です。そして「25% 安くなった」の中身は、入力・出力の単価は据え置きで、キャッシュ読みの単価だけが 75% …"
     },
     {
-      "id": "5151b34d60c4",
-      "title": "【バイブコーディング】ADHD向けタスク管理アプリを作ってみた",
-      "url": "https://zenn.dev/silver252/articles/eeb5cca4532aaa",
-      "publishedAt": "2026-09-02T03:14:02.000Z",
-      "publisher": "yuki",
-      "summary": "はじめに ※この記事ではADHDについての自論や考察が含まれておりますが、これらは個人的な感想であり事実を保証するものではありません。 先に実際に作ったもの 前提： このアプリは全てClaudeCodeによるバイブコーディングで1日もかか…"
+      "id": "c5192c023cad",
+      "title": "判断はAIに渡さない。非エンジニアの業務自動化、設計の記録",
+      "url": "https://zenn.dev/atoshimatsu/books/b3f328e95af0cd",
+      "publishedAt": "2026-09-02T07:05:10.000Z",
+      "publisher": "あとしまつ係",
+      "summary": "note連載「あとしまつ係の自動化日記」の技術編です。請求書処理・経費精算・表記ゆれ対応を、AIと一緒にどう設計したかを書いています。 https://note.com/atoshimatu"
     },
     {
-      "id": "7a4f4bfe8ef1",
-      "title": "海外AI製品の導入前確認30項目 — 意思決定者のための質問票",
-      "url": "https://zenn.dev/jinno_ai/articles/overseas-ai-pre-adoption-30",
-      "publishedAt": "2026-09-02T03:10:06.000Z",
-      "publisher": "jinno_ai",
-      "summary": "海外のAI製品を日本の業務に入れる判断には、技術的な検証と契約・運用の確認の両方が要る。ところが確認項目が頭の中だけにあると、営業とのやりとりが進むうちに「聞き忘れた」が積まり、決裁の段階で材料が足りなくなる。 本稿は、海外AI製品の日本…"
+      "id": "1d64fcecad56",
+      "title": "LIBERO-PLUS標準ベンチマークでπ0 / π0.5 を再現してみた",
+      "url": "https://zenn.dev/inrjin/articles/41fffc8eb25b71",
+      "publishedAt": "2026-09-02T06:27:04.000Z",
+      "publisher": "有真",
+      "summary": "はじめに VLA(Vision-Language-Action)モデルのロバスト性を LIBERO-Plus(arXiv:2510.13626)で評価した、という個人プロジェクトの記録です。 π0 / π0.5 を、摂動を加えた難しいベン…"
     },
     {
-      "id": "c5bda4164946",
-      "title": "AI時代におけるプログラマーの役割を解説",
-      "url": "https://zenn.dev/hiro_f35/articles/f6302ef8349dea",
-      "publishedAt": "2026-09-02T03:02:59.000Z",
-      "publisher": "hiro_f35",
-      "summary": "AI技術の急激な進化に伴い、プログラマーの役割は**「コードを手作業で書く作業者（コーダー）」から、「AIを統合・指揮し、価値を創出するアーキテクト」**へと大きく変容しています。 AI時代におけるプログラマーの新たな役割、変化する能力、…"
+      "id": "9eacb03f354c",
+      "title": "個人開発で「オンデバイスAI資料検索アプリ」を作っている備忘録（Standard版リリースまで）",
+      "url": "https://zenn.dev/gitmame00/articles/00703aa4820d5f",
+      "publishedAt": "2026-09-02T05:17:24.000Z",
+      "publisher": "ゆうすけ",
+      "summary": "内容メモ： 動機: クラウドAIは便利だが、自分のプライベートな資料（マニュアルや領収書）を全部預けるのは抵抗がある。だからオンデバイス。 技術スタック: Flutter + ObjectBox(Vector DB) + MiniLM(E…"
     },
     {
-      "id": "58e9d6633021",
-      "title": "YOLO26nアーキテクチャ徹底解析 step1 | 全体像",
-      "url": "https://zenn.dev/diiw/articles/yolo26n-architecture-step1",
-      "publishedAt": "2026-09-02T03:00:19.000Z",
-      "publisher": "DiIw",
-      "summary": "はじめに 本記事の内容は、更新される場合があります。内容に大きな変更・追加があった場合は都度Xアカウントにて発信いたします。 免責・非公式表示 ! 本記事は、Ultralyticsが公開するYOLO26nについて、公開されているソースコー…"
+      "id": "32677a2f7848",
+      "title": "テキスト・画像・音声全部扱えるGemini Embedding2を触ってみた！",
+      "url": "https://zenn.dev/medcicmedia_dev/articles/1e93d11e7cfafc",
+      "publishedAt": "2026-09-02T05:09:01.000Z",
+      "publisher": "株式会社メディックメディア 開発部",
+      "summary": "Gemini Embedding 2でテキスト・画像・音声を横断検索 Gemini Embedding 2は、テキスト・画像・音声・動画を同じ形のベクトルに変換できます。 画像にタグ付けせずにテキストで画像を検索できたりして、とても便利に…"
     },
     {
-      "id": "226dd9045201",
-      "title": "画像から動画の生成UIを、比較可能な依頼として設計する",
-      "url": "https://zenn.dev/choco1/articles/87ddfa1700b193",
-      "publishedAt": "2026-09-02T02:32:22.000Z",
-      "publisher": "choco1",
-      "summary": "はじめに 本稿は公開UIから考える設計メモであり、内部実装やモデル性能を述べるものではない。画像→動画では、被写体の維持、動き、カメラ、出力比率が一度に変わりうる。結果だけを並べても、何が効いたのかを追いにくい。依頼を比較可能な状態として…"
+      "id": "4d7c7e90c20f",
+      "title": "事業本部長の仕事は、どこまでAIに移せるか — 管理職業務を1万行のハーネスで自動化した記録",
+      "url": "https://zenn.dev/mak246/articles/f8a00ba43101c9",
+      "publishedAt": "2026-09-02T05:08:31.000Z",
+      "publisher": "Makoto Nishino",
+      "summary": "いま私は、数十名規模・数億円規模の事業本部の責任者を務めながら、並行して自分の手でシステム開発のデリバリーもこなしている。管理職としては明らかに「兼務しすぎ」の状態だが、破綻せずに回っている。 理由ははっきりしていて、事業本部長としての業…"
     },
     {
-      "id": "214d21f18a15",
-      "title": "テスト見積もりは掛け算2つで出せる",
-      "url": "https://zenn.dev/bitkey_dev/articles/test-estimation-formula",
-      "publishedAt": "2026-09-02T02:30:05.000Z",
-      "publisher": "日下部 聡久",
-      "summary": "「だいたい○○ケースくらいですかね」の正体 テスト計画でスケジュールを立てるとき、テストケース数の見積もりはどうやっているだろうか。 正直なところ、多くの現場では「前回と同じくらいの規模感だから○○ケースくらい」「経験的にこの手の機能なら…"
+      "id": "07747ecc8478",
+      "title": "「全部を自動化する」を目標にしない — 業務ハーネスの接続設計と安全装置",
+      "url": "https://zenn.dev/mak246/articles/1ff8aab8260c23",
+      "publishedAt": "2026-09-02T05:06:43.000Z",
+      "publisher": "Makoto Nishino",
+      "summary": "業務自動化の相談を受けると、ほぼ必ず最初に聞かれるのが「どこまで自動化できますか」だ。 しかし、私が実際に業務で回しているハーネス群 — 事業本部の予実管理で約30本・1万行、新設拠点の運営で12本・6,000行 — を見返すと、どれも自…"
     },
     {
-      "id": "11c3509c1cd5",
-      "title": "サブエージェントを使う理由は2つ — Codex を作る側が語る設計判断",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr28-akshay-summary",
-      "publishedAt": "2026-09-02T02:26:00.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について ! 本記事は Akshay Nathan が Latent Space に出演した回の紹介と論評です。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文脈は必ず元動画でご確認ください。翻訳…"
+      "id": "5943b3a99b84",
+      "title": "SaaSを買うか、AIと作るか — 電話基盤(CTI)を内製して分かったBuild vs Buyの逆転",
+      "url": "https://zenn.dev/mak246/articles/67d5183cbed01f",
+      "publishedAt": "2026-09-02T05:06:32.000Z",
+      "publisher": "Makoto Nishino",
+      "summary": "営業チームの架電業務を立ち上げるにあたり、CTI(電話基盤)が必要になった。発信・着信、通話録音、文字起こし、通話内容のAI要約、リストへの自動架電 — いわゆるクラウドCTI SaaSが提供している機能群だ。 普通なら、ここはSaaS選…"
     }
   ],
-  "fetchedAt": "2026-09-02T16:36:54.091Z",
+  "fetchedAt": "2026-09-02T19:30:18.024Z",
   "stale": false,
   "error": null
 }

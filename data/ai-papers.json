@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "0fbc98c4c60a",
-      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
-      "url": "https://huggingface.co/papers/2609.00111",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "We present Qwen-Drive-1.0, an initial step towards a vision-language foundation model for autonomous driving. Qwen-Driv…",
-      "score": 335
-    },
-    {
       "id": "4a2deef29fa9",
       "title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
       "url": "https://huggingface.co/papers/2609.01343",
@@ -22,20 +14,12 @@
       "score": 68
     },
     {
-      "id": "a4a54763c367",
-      "title": "UI-Venus-2 Technical Report",
-      "url": "https://huggingface.co/papers/2609.00028",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Multimodal GUI agents have emerged as a promising paradigm for digital task automation, yet transitioning from benchmar…",
-      "score": 53
-    },
-    {
       "id": "84d020f8be60",
       "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
       "url": "https://huggingface.co/papers/2609.01572",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommi…",
-      "score": 30
+      "score": 31
     },
     {
       "id": "25a44af49b22",
@@ -44,6 +28,14 @@
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Long-horizon complex tasks require foundation models to accumulate information, maintain internal states, and adapt ove…",
       "score": 19
+    },
+    {
+      "id": "e1c7cfbb77a9",
+      "title": "AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling",
+      "url": "https://huggingface.co/papers/2608.26623",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "summary": "LLM judges are widely used to evaluate agentic tool-calling systems, yet their reliability on structured, dependency-dr…",
+      "score": 14
     },
     {
       "id": "20bb015382d9",
@@ -86,12 +78,20 @@
       "score": 4
     },
     {
+      "id": "9f86b055e5c7",
+      "title": "Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
+      "url": "https://huggingface.co/papers/2608.31082",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Valuable data remains embedded in unstructured sources: web pages, reports, contracts, filings, earnings calls, and PDF…",
+      "score": 3
+    },
+    {
       "id": "d7d861c64c1f",
       "title": "Learning Where Outcomes Change:Credit-Addressable Reasoning for Multimodal Geometry",
       "url": "https://huggingface.co/papers/2608.30457",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Multimodal geometry reasoning requires VLMs to extract precise visual relations and preserve them through multi-step de…",
-      "score": 2
+      "score": 3
     },
     {
       "id": "3533d4399a43",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-02T16:36:53.850Z",
+  "fetchedAt": "2026-09-02T19:30:17.879Z",
   "stale": false,
   "error": null
 }
