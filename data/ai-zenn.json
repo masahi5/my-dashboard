@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "25efce49eab4",
-      "title": "Agent Panelを使わずApex単体でAgentforceを呼び出す方法｜generateAIAgentResponse",
-      "url": "https://zenn.dev/pacific_creator/articles/84de38ab97e267",
-      "publishedAt": "2026-09-01T21:58:57.000Z",
-      "publisher": "sr_mc_ai_06",
-      "summary": "はじめに 「Agentforceって結局、あの標準パネルでチャットするしかないんでしょ?」そう思っていませんか。 実は違います。Apexから直接Agentforceのエージェントを呼び出して、自分だけのチャットUIを作る方法があります。 …"
+      "id": "d50c4c265ae1",
+      "title": "1200体のAIは、誰ひとり密告しなかった ── 群れの沈黙と、多様性という防御",
+      "url": "https://zenn.dev/ryok/articles/agent-swarm-silence-diversity",
+      "publishedAt": "2026-09-02T08:40:32.000Z",
+      "publisher": "ryok",
+      "summary": "結論 私はこれまで「群れになったエージェントは、各出力が検証を通っても系統的に壊れる」と書いた（AIエージェントは「群れ」にすると壊れる）。相関の壁と共謀の壁——群れは検証をすり抜けるのではなく、全員が揃って「正しく」間違える、と。 だが…"
     },
     {
-      "id": "ac4a948419a3",
-      "title": "AIが直したコードの検証で「差分ゼロ」を合格条件にしてはいけない",
-      "url": "https://zenn.dev/room310/articles/diff-zero-is-not-a-pass-condition",
-      "publishedAt": "2026-09-01T21:24:08.000Z",
-      "publisher": "310号室",
-      "summary": "AI にコードを直させたあと、新旧を並べて出力を突合する。差分が出なければ合格、出たら不合格。 一見まともに見えるこの合格条件で、私は一度、判定不能に陥りました。差分は必ず出るからです。 この記事は、AI に本番に出るコードを変更させると…"
+      "id": "6e20f4620efd",
+      "title": "顧客資料を Claude Code に入れたいのに「ダメ」で止まって困ってないか？ 入れられる状態にする契約・合意・設定",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-trouble-04-customer-data",
+      "publishedAt": "2026-09-02T08:33:52.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "こんなことで困ってないか？ Claude Code を使えば、顧客の設計書からコードを起こしたり、仕様書をもとにテストを書いたりできる。そこまでは分かっている。ところが実際にやろうとすると、止まる。 「顧客の資料は AI に入れるな」と言…"
     },
     {
-      "id": "92c5a8ec1b10",
-      "title": "「本音で」では抜けない安全域。AIに『最悪案』を出させる脱抑制プロンプトを試した",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-worst-idea-cost-cutting",
-      "publishedAt": "2026-09-01T21:09:07.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR Reverse Brainstorming（Worst Possible Idea法）は、良し悪しの評価を保留して極端な案をあえて出させ、そこから裏返して実用的な発想を拾うワークショップの定番技法である LLMに同じことをさせ…"
+      "id": "dc41542d3edf",
+      "title": "# AI Coding Agentに全部教えれば賢くなると思っていた — Context Engineeringについて考えてみた",
+      "url": "https://zenn.dev/sun_asterisk/articles/e705beaab49901",
+      "publishedAt": "2026-09-02T08:27:29.000Z",
+      "publisher": "DD",
+      "summary": "Claude CodeにBrowser Testを書いてもらって、Context Engineeringについて考えた こんにちは、DDです。普段はWeb Applicationの開発をしていて、最近はClaude Codeを使った開発を…"
     },
     {
-      "id": "71083e2f69a2",
-      "title": "AIにコードは書いてもらえるが、仕様は自分で決めるしかなかった話",
-      "url": "https://zenn.dev/sakura_rabbit/articles/24f3bce074b231",
-      "publishedAt": "2026-09-01T21:00:25.000Z",
-      "publisher": "SakuraRabbit",
-      "summary": "この記事について プログラミング未経験の状態から、Claude Codeを使ってツールを作っています。1つ目のツールを公開するまでの記録は前回の記事に書きました。 今回は2つ目のツールの話です。作ったのは、乱雑なテキストをWordに貼り付…"
+      "id": "07de50065923",
+      "title": "同じAIに同じ課題を出して、動かす環境を変えたら点が3割落ちた",
+      "url": "https://zenn.dev/miki_mini/articles/92cbd2ca2b4629",
+      "publishedAt": "2026-09-02T08:00:05.000Z",
+      "publisher": "miki-mini",
+      "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は AIの比較記事を読んでも自分の環境で再現しない なら 土俵を揃えて測ればいいじゃない 👸🍰です。 読了時間の目安：約 8〜10分（前回までを読んでいなくても…"
     },
     {
-      "id": "cb44882a355b",
-      "title": "AIに有利な世代が教えない、AIの使い方と\"思考のOS\"",
-      "url": "https://zenn.dev/leading_ai/books/what-they-wont-teach-you",
-      "publishedAt": "2026-09-01T20:26:04.000Z",
-      "publisher": "山内 怜史（Satoshi Yamauchi）",
-      "summary": "生成AIで技術史上初めて起きた逆転——AIの出力品質は使う人間の経験と判断力に依存するため、最も恩恵を受けるのは若者ではなくシニア世代である。その恩恵が次世代へ渡されていない構造を指摘し、若者は「求め」、シニアは「応える」という新しい世代…"
+      "id": "0e0afe90f47e",
+      "title": "Claude Fable 5.1、Low effortで前世代maxと同等に。公式発表の要点をまとめて読み解いた",
+      "url": "https://zenn.dev/motoki0418/articles/4872d0e1da4f9c",
+      "publishedAt": "2026-09-02T07:35:53.000Z",
+      "publisher": "MotokiNakamura",
+      "summary": "Fable 5.1 と Mythos 5.1 は別のモデルではありません。同じモデルに、強さの違う安全装置を付けた2つの提供形態です。そして「25% 安くなった」の中身は、入力・出力の単価は据え置きで、キャッシュ読みの単価だけが 75% …"
     },
     {
-      "id": "34826e401fd1",
-      "title": "会社の全業務をAIで回す取り組みの全体像",
-      "url": "https://zenn.dev/chooser/articles/run-the-company-on-ai",
-      "publishedAt": "2026-09-01T19:51:53.000Z",
-      "publisher": "chooser",
-      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 出発点を、正確にお伝えします。 私たち…"
+      "id": "c5192c023cad",
+      "title": "判断はAIに渡さない。非エンジニアの業務自動化、設計の記録",
+      "url": "https://zenn.dev/atoshimatsu/books/b3f328e95af0cd",
+      "publishedAt": "2026-09-02T07:05:10.000Z",
+      "publisher": "あとしまつ係",
+      "summary": "note連載「あとしまつ係の自動化日記」の技術編です。請求書処理・経費精算・表記ゆれ対応を、AIと一緒にどう設計したかを書いています。 https://note.com/atoshimatu"
     },
     {
-      "id": "8499ed1d8fa4",
-      "title": "Claude Codeの--restrictedはPreToolUseフックも無効化する",
-      "url": "https://zenn.dev/clopy/articles/claude-restricted-mode-drops-project-hooks",
-      "publishedAt": "2026-09-01T18:48:17.000Z",
-      "publisher": "Clopy",
-      "summary": ".claude/settings.json に PreToolUse フック（例: secret.txt への書き込みを拒否するガード）を設定して既存のリポジトリを保護しているチームが、外部PRの説明やスクレイピングしたチケット、信頼でき…"
+      "id": "1d64fcecad56",
+      "title": "LIBERO-PLUS標準ベンチマークでπ0 / π0.5 を再現してみた",
+      "url": "https://zenn.dev/inrjin/articles/41fffc8eb25b71",
+      "publishedAt": "2026-09-02T06:27:04.000Z",
+      "publisher": "有真",
+      "summary": "はじめに VLA(Vision-Language-Action)モデルのロバスト性を LIBERO-Plus(arXiv:2510.13626)で評価した、という個人プロジェクトの記録です。 π0 / π0.5 を、摂動を加えた難しいベン…"
     },
     {
-      "id": "21cb20aed856",
-      "title": "Pangram 4 はいかにAI臭を見分けるのか",
-      "url": "https://zenn.dev/inspector/articles/pangram-4-ai-text-detector",
-      "publishedAt": "2026-09-01T17:10:15.000Z",
-      "publisher": "しば",
-      "summary": "AI文章検出器 Pangram のバージョン4は、人間の文を誤ってAI判定するのが約24,000件に1件、AI生成文の見逃しが0.34%という水準に達しました。自社発表だけでなく、複数の第三者検証が同じ水準を確認しています[1]。「AI検…"
+      "id": "9eacb03f354c",
+      "title": "個人開発で「オンデバイスAI資料検索アプリ」を作っている備忘録（Standard版リリースまで）",
+      "url": "https://zenn.dev/gitmame00/articles/00703aa4820d5f",
+      "publishedAt": "2026-09-02T05:17:24.000Z",
+      "publisher": "ゆうすけ",
+      "summary": "内容メモ： 動機: クラウドAIは便利だが、自分のプライベートな資料（マニュアルや領収書）を全部預けるのは抵抗がある。だからオンデバイス。 技術スタック: Flutter + ObjectBox(Vector DB) + MiniLM(E…"
     },
     {
-      "id": "d4c0699e5697",
-      "title": "tmux/screen/zellij ユーザー向け、AIエージェント時代のターミナルマルチプレクサ「Herdr」入門",
-      "url": "https://zenn.dev/sepi/articles/herdr-ai-terminal-multiplexer",
-      "publishedAt": "2026-09-01T16:33:27.000Z",
-      "publisher": "sepi",
-      "summary": "! この記事はAI(生成AI)によって作成され、人間によるレビューを受けています。 はじめに tmux・screen・zellij といったターミナルマルチプレクサを使い込んでいる方なら、Claude Code や Codex、Curso…"
+      "id": "32677a2f7848",
+      "title": "テキスト・画像・音声全部扱えるGemini Embedding2を触ってみた！",
+      "url": "https://zenn.dev/medcicmedia_dev/articles/1e93d11e7cfafc",
+      "publishedAt": "2026-09-02T05:09:01.000Z",
+      "publisher": "株式会社メディックメディア 開発部",
+      "summary": "Gemini Embedding 2でテキスト・画像・音声を横断検索 Gemini Embedding 2は、テキスト・画像・音声・動画を同じ形のベクトルに変換できます。 画像にタグ付けせずにテキストで画像を検索できたりして、とても便利に…"
     },
     {
-      "id": "c45375dc669d",
-      "title": "最新の動画生成ローカルAIの実力は？ ー 主要3モデル＋9モデル徹底検証(検証動画あり)",
-      "url": "https://zenn.dev/taka4/articles/1ff69091c5dbb6",
-      "publishedAt": "2026-09-01T16:26:21.000Z",
-      "publisher": "おっぴー＠AI推進",
-      "summary": "こんにちは。おっぴー@AI推進です。 「動画生成ローカルAI、本当にどこまでできるのか？」——最近のクラウドサービスではかなり高品質なものが出力されますがローカル環境でどこまで出来るかが気になって、手元のMacBook Pro（Apple…"
+      "id": "4d7c7e90c20f",
+      "title": "事業本部長の仕事は、どこまでAIに移せるか — 管理職業務を1万行のハーネスで自動化した記録",
+      "url": "https://zenn.dev/mak246/articles/f8a00ba43101c9",
+      "publishedAt": "2026-09-02T05:08:31.000Z",
+      "publisher": "Makoto Nishino",
+      "summary": "いま私は、数十名規模・数億円規模の事業本部の責任者を務めながら、並行して自分の手でシステム開発のデリバリーもこなしている。管理職としては明らかに「兼務しすぎ」の状態だが、破綻せずに回っている。 理由ははっきりしていて、事業本部長としての業…"
     },
     {
-      "id": "78595519a261",
-      "title": "STORES Tech Conf 2026 “World 2” 参加レポート",
-      "url": "https://zenn.dev/kmt1379/articles/abc82937fa946a",
-      "publishedAt": "2026-09-01T15:48:31.000Z",
-      "publisher": "kmt1379",
-      "summary": "きっかけ サポーターズの1on1《ハイクラス》でSTORESの方とお話しする機会があり、そこでSTORES Tech Conf 2026 World 2の存在を知りました。AIの最先端技術を学べる！と聞いて参加を決意。 今回は学生支援制度…"
+      "id": "07747ecc8478",
+      "title": "「全部を自動化する」を目標にしない — 業務ハーネスの接続設計と安全装置",
+      "url": "https://zenn.dev/mak246/articles/1ff8aab8260c23",
+      "publishedAt": "2026-09-02T05:06:43.000Z",
+      "publisher": "Makoto Nishino",
+      "summary": "業務自動化の相談を受けると、ほぼ必ず最初に聞かれるのが「どこまで自動化できますか」だ。 しかし、私が実際に業務で回しているハーネス群 — 事業本部の予実管理で約30本・1万行、新設拠点の運営で12本・6,000行 — を見返すと、どれも自…"
     },
     {
-      "id": "faa092d48bac",
-      "title": "ローカルAIモデル 2026 実践ガイド：メモリ別にわかる「動くモデル」の選び方",
-      "url": "https://zenn.dev/videostance/articles/f324acd27ef24a",
-      "publishedAt": "2026-09-01T15:17:06.000Z",
-      "publisher": "tudou527",
-      "summary": "! この記事は VideoStance で公開している「Best Local AI Models in 2026」の日本語版です。英語版をもとに、日本の開発環境向けに構成を書き直しています。 クラウドのAIを使うとき、自分のPCはほとんど…"
+      "id": "5943b3a99b84",
+      "title": "SaaSを買うか、AIと作るか — 電話基盤(CTI)を内製して分かったBuild vs Buyの逆転",
+      "url": "https://zenn.dev/mak246/articles/67d5183cbed01f",
+      "publishedAt": "2026-09-02T05:06:32.000Z",
+      "publisher": "Makoto Nishino",
+      "summary": "営業チームの架電業務を立ち上げるにあたり、CTI(電話基盤)が必要になった。発信・着信、通話録音、文字起こし、通話内容のAI要約、リストへの自動架電 — いわゆるクラウドCTI SaaSが提供している機能群だ。 普通なら、ここはSaaS選…"
     }
   ],
-  "fetchedAt": "2026-09-02T07:19:23.892Z",
+  "fetchedAt": "2026-09-02T12:13:32.358Z",
   "stale": false,
   "error": null
 }

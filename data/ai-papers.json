@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "acad5d778d00",
-      "title": "StudentSim: Training LLM-based Student Simulators",
-      "url": "https://huggingface.co/papers/2609.01591",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "AI tutors are most useful when they adapt to each student's strengths, weaknesses, and preferred guidance, but evidence…",
-      "score": 194
+      "id": "0fbc98c4c60a",
+      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "url": "https://huggingface.co/papers/2609.00111",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "We present Qwen-Drive-1.0, an initial step towards a vision-language foundation model for autonomous driving. Qwen-Driv…",
+      "score": 219
     },
     {
       "id": "4a2deef29fa9",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.01343",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "Looped Transformers increase effective depth by iterating a shared block of layers, but most evaluations compare at fix…",
-      "score": 52
+      "score": 59
     },
     {
       "id": "a4a54763c367",
@@ -27,15 +27,7 @@
       "url": "https://huggingface.co/papers/2609.00028",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "summary": "Multimodal GUI agents have emerged as a promising paradigm for digital task automation, yet transitioning from benchmar…",
-      "score": 49
-    },
-    {
-      "id": "0fbc98c4c60a",
-      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
-      "url": "https://huggingface.co/papers/2609.00111",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "We present Qwen-Drive-1.0, an initial step towards a vision-language foundation model for autonomous driving. Qwen-Driv…",
-      "score": 44
+      "score": 51
     },
     {
       "id": "69c5a0d7333b",
@@ -43,7 +35,7 @@
       "url": "https://huggingface.co/papers/2609.00188",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, ye…",
-      "score": 34
+      "score": 38
     },
     {
       "id": "5782618ff93e",
@@ -51,15 +43,15 @@
       "url": "https://huggingface.co/papers/2609.01560",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world mod…",
-      "score": 24
+      "score": 36
     },
     {
-      "id": "8c6a54d8cdc5",
-      "title": "Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching",
-      "url": "https://huggingface.co/papers/2609.01404",
+      "id": "84d020f8be60",
+      "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
+      "url": "https://huggingface.co/papers/2609.01572",
       "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Multimodal Large Language Models (MLLMs) are strong perceivers of images and video. We ask how far that reach extends i…",
-      "score": 16
+      "summary": "Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommi…",
+      "score": 23
     },
     {
       "id": "25a44af49b22",
@@ -67,7 +59,7 @@
       "url": "https://huggingface.co/papers/2609.00092",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Long-horizon complex tasks require foundation models to accumulate information, maintain internal states, and adapt ove…",
-      "score": 13
+      "score": 17
     },
     {
       "id": "20bb015382d9",
@@ -75,7 +67,7 @@
       "url": "https://huggingface.co/papers/2609.00768",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "Self-play is an effective paradigm for language-model self-evolution, but without guidance, solver performance can plat…",
-      "score": 8
+      "score": 11
     },
     {
       "id": "8c2f7e63b0b1",
@@ -83,7 +75,7 @@
       "url": "https://huggingface.co/papers/2609.01481",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "This paper studies autonomous software development, in which LLM-based coding agents transform high-level requirements …",
-      "score": 3
+      "score": 6
     },
     {
       "id": "9d9851f5e96f",
@@ -91,7 +83,7 @@
       "url": "https://huggingface.co/papers/2608.30730",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Long-horizon agentic tasks go beyond chaining short tasks over more interaction turns. Their evolving dynamic environme…",
-      "score": 3
+      "score": 5
     },
     {
       "id": "1bee38cbdd13",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2608.30478",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Cognitive language agents have achieved substantial progress by equipping language models with memory, tools, and decis…",
+      "score": 4
+    },
+    {
+      "id": "6b5a7f43217b",
+      "title": "Recursive Criticality of AI Self-Improvement",
+      "url": "https://huggingface.co/papers/2609.00137",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "AI is increasingly used in the R\\&D process that produces future AI systems. We study the conditions under which this f…",
       "score": 2
     }
   ],
-  "fetchedAt": "2026-09-02T07:19:23.725Z",
+  "fetchedAt": "2026-09-02T12:13:32.193Z",
   "stale": false,
   "error": null
 }
