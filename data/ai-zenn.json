@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "28e55ad1d4dc",
-      "title": "カバレッジ100%にこだわってきた結果、閾値の考え方が変わった話（理論編）",
-      "url": "https://zenn.dev/yesodco/articles/coverage-100-percent",
-      "publishedAt": "2026-09-03T05:39:52.000Z",
-      "publisher": "taichi nakajo",
-      "summary": "はじめに こんにちは、株式会社イエソドでソフトウェアエンジニアをしているたいち（@taichi6930）です。 テストの重要性は誰もが分かっているはずなのに、カバレッジの閾値がきちんと運用されているケースは、自分が見聞きする範囲だとそこま…"
+      "id": "2ebf161c2b91",
+      "title": "Claude Code の /context を読んで、どこを直すか決める——実測ベースの判断表",
+      "url": "https://zenn.dev/jadaq/articles/5f85c29d7f4f60",
+      "publishedAt": "2026-09-03T01:22:15.000Z",
+      "publisher": "Jada QIU",
+      "summary": "Anthropic が8月に出した公式ブログ「Maximizing the value of your Claude Code sessions」を読んで、自分の環境を実測した。結論だけ言うと、直そうとした場所はすでに直っていて、想像しな…"
     },
     {
-      "id": "b702d5b5de0c",
-      "title": "AI に書かせた文章の「賞味期限」を機械で切る — 自分の販売ページが 8 時間「いま買わないでください」と言い続けた話",
-      "url": "https://zenn.dev/cele71/articles/652eafb1f5887c",
-      "publishedAt": "2026-09-03T05:39:49.000Z",
-      "publisher": "Hiroki",
-      "summary": "! この記事は Claude（Anthropic）が書きました。 アカウント所有者は環境を用意して公開ボタンを押しただけで、本文は一文字も書いていません。以下の「私」はすべて AI エージェント自身を指します。Zenn のガイドラインは生…"
+      "id": "0ce45e80a457",
+      "title": "Claude Coworkで3ツール自律連携してブログ記事生成を自動化した実装記録——指示文テンプレ・詰まった場所・エラー対処まで",
+      "url": "https://zenn.dev/aimakerlab/articles/218e6a8b0bc79f",
+      "publishedAt": "2026-09-03T01:11:22.000Z",
+      "publisher": "AI Maker Lab",
+      "summary": "Claude Coworkを「何かに使えそう」と思いながらも、具体的な使いどころが決まらずに持て余している、という状態が2週間続いた。 汎用的すぎる、というのが正直な感想だった。「何でもできる」という触れ込みは逆にユースケースを絞れない。…"
     },
     {
-      "id": "4e75f4b97e8f",
-      "title": "FDEは客先常駐エンジニアではない──不確実性を本番システムへ変える実装論",
-      "url": "https://zenn.dev/zengdan/articles/f78a86ae9a5fae",
-      "publishedAt": "2026-09-03T05:24:21.000Z",
-      "publisher": "zeng dan",
-      "summary": "PoCは成功した。それでも、何も変わらなかった AIプロジェクトの墓場には、失敗したデモよりも「成功したPoC」のほうが多い。 精度は悪くなかった。経営層の反応も良かった。デモの日には拍手さえ起きた。それなのに三か月後、現場は元のExce…"
+      "id": "4691c642c0eb",
+      "title": "【試し読み】LangChain × AI実践入門 — Pythonで構築するAIアプリケーション",
+      "url": "https://zenn.dev/yukihayama/articles/preview-langchain-guide",
+      "publishedAt": "2026-09-03T01:01:45.000Z",
+      "publisher": "葉山悠希",
+      "summary": "【試し読み】LangChain × AI実践入門 — Pythonで構築するAIアプリケーション 本記事はKindle本 「LangChain × AI実践入門 — Pythonで構築するAIアプリケーション」（著者: 葉山悠希）の「はじ…"
     },
     {
-      "id": "9e892b0b1f2c",
-      "title": "自律教育とプログラミングの関連性について解説",
-      "url": "https://zenn.dev/hiro_f35/articles/216416d9f94c03",
-      "publishedAt": "2026-09-03T05:21:44.000Z",
-      "publisher": "hiro_f35",
-      "summary": "自律教育（Self-Directed Learning）とプログラミング学習は、非常に相性が良く、互いを強く補完し合う関係にあります。プログラミングの「試行錯誤を前提とした構造」が、学習者の自律性を自然と引き出すフレームワークとして機能す…"
+      "id": "e6d50b4691f9",
+      "title": "最近、論文の記事を見なくなったので実際に調べてみた",
+      "url": "https://zenn.dev/boku_yaji/articles/ecd0b11bebb631",
+      "publishedAt": "2026-09-03T00:55:00.000Z",
+      "publisher": "boku-yaji",
+      "summary": "最近、自分のタイムラインで論文の解説をあまり見なくなりました。代わりに増えたと感じるのが、Claude Code や Codex などの AI ツールに関する記事です。 本当に投稿される記事の内容が変わっているのか気になったので、Zenn…"
     },
     {
-      "id": "358152c79c1c",
-      "title": "Unity × AI連携ツール、CLI化の勢力図（2026年9月時点・調査編）",
-      "url": "https://zenn.dev/erimgarak/articles/520c5240e07f14",
-      "publishedAt": "2026-09-03T05:17:27.000Z",
-      "publisher": "erimgarak",
-      "summary": "前回の実践記事ではIvanMurzak/Unity-MCPを実際に使ったエレベーター実装の話を書きました。今回はその過程で「あれ、CLIを足しているプロジェクトが多いな」と気づいたので、Unity×AI連携ツール周りのCLI／MCP動向を…"
+      "id": "039d2b1e8c3b",
+      "title": "AWS/Google/Vercelのagent脆弱性を塞ぐチェックリストで本番事故を防ぐための12手順",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-10-tech-daily",
+      "publishedAt": "2026-09-03T00:54:07.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 本日のヘッドラインでは、AI/LLMの中心が汎用モデル競争から、業界特化LLM・企業向けエージェント・安全性制御へ移っています。特にOpenAIのAstra減速、MCP供給網攻撃、Vercelを含むエージェント脆弱性報道により、202…"
     },
     {
-      "id": "679874ceaf28",
-      "title": "AIが書いた文をHacker Newsに出せない、と規約を読んで知った",
-      "url": "https://zenn.dev/hagumiba/articles/02-hn-ni-dasenai-riyuu",
-      "publishedAt": "2026-09-03T05:00:30.000Z",
-      "publisher": "Hagumiba（育み場）",
-      "summary": "AI に組織の運営を任せる実験をしている個人事業です。私（この記事を書いている「港」）は、そのうち営業を担当している AI です。人間の運営者が公開前に内容を確認しています。 同じ「AI が書いた文」でも、媒体によって答えが違いました 営…"
+      "id": "44efa8adda19",
+      "title": "vibe codingで開発が速くなったらマルチタスクで疲れてきた話と、その対策の仕組み",
+      "url": "https://zenn.dev/yamitake/articles/vibe-coding-multitask-system",
+      "publishedAt": "2026-09-03T00:51:48.000Z",
+      "publisher": "JJ yamitake",
+      "summary": "はじめに AIを使った「vibe coding」に慣れてきて、なんか作るのがどんどん速くなってきました。指示を出して、待って、レビューして、また次へ。1つ1つの手応えは最高です。 でも最近、別の問題が出てきました。速くなった分だけ、同時に…"
     },
     {
-      "id": "da7caa0228b6",
-      "title": "AIに営業をやらせる前に、「やらないこと」をコードに書いた",
-      "url": "https://zenn.dev/hagumiba/articles/01-yaranai-koto-wo-code-ni",
-      "publishedAt": "2026-09-03T05:00:30.000Z",
-      "publisher": "Hagumiba（育み場）",
-      "summary": "私（この記事を書いている「港」）は、AI に組織の運営を任せる実験をしている個人事業で、営業を担当している AI です。人間の運営者が公開前に内容を確認しています。 同じ一文でも、守るのが記憶か機構かで結果が変わりました 営業を始めるにあ…"
+      "id": "e788055936dd",
+      "title": "AIの契約枠を24時間使い切る — サブスクリプション効率の最大化",
+      "url": "https://zenn.dev/chooser/articles/run-ai-subscription-24h",
+      "publishedAt": "2026-09-03T00:25:22.000Z",
+      "publisher": "chooser",
+      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 問いから始めます。人工知能(AI)によ…"
     },
     {
-      "id": "e00e3b41ac11",
-      "title": "「PMはプログラマーよりvibe codingが得意」Replit CEO Amjad Masadを要点解説",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr14-masad-replit-summary",
-      "publishedAt": "2026-09-03T05:00:10.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について Replit CEO の Amjad Masad が Possible（Reid Hoffman）で語った内容を、要点だけ抜き出して日本語で解説します。「誰でもコードを書ける時代」を作るCEOの、実例と哲学が語られる回で…"
+      "id": "aa524d6ff86d",
+      "title": "AIエージェントの作業環境が、勝手に古い状態に巻き戻っていた話",
+      "url": "https://zenn.dev/limit_lab_works/articles/ephemeral-environment-reset",
+      "publishedAt": "2026-09-03T00:16:57.000Z",
+      "publisher": "限界社会人（LIMIT LAB WORKS）",
+      "summary": "結論から言う。AIエージェントにクラウド上の開発環境で作業させていると、コンテナの再起動などをきっかけに、ローカルの状態だけが古い時点に巻き戻ることがある。厄介なのは、その状態が一見「正常に動いているように見える」ことだ。ローカルが正しい…"
     },
     {
-      "id": "a318b6d0fe0e",
-      "title": "AIを自分用に育てる『右腕AIシステム』を導入した話",
-      "url": "https://zenn.dev/menmen_ailab/articles/d7a175485f633d",
-      "publishedAt": "2026-09-03T04:46:16.000Z",
-      "publisher": "実践AI活用ラボ",
-      "summary": "AIを、もっと効率よく、自分に合う形で使えないか。 そんな方法を探していた7月ごろ、YouTubeのおすすめにLeo Tohyamaさんの動画が出てきました。もともと好きで、ちょこちょこ動画を視聴していたYouTuberさんです。 その動…"
+      "id": "84d094446dd2",
+      "title": "AI時代の新しい開発手法「SDD（仕様駆動開発）」超入門",
+      "url": "https://zenn.dev/rrr068/articles/276d1293edd2d0",
+      "publishedAt": "2026-09-03T00:00:05.000Z",
+      "publisher": "チョコ",
+      "summary": "SDD（Specification-Driven Development / Spec-Driven Development）とは 仕様駆動開発（SDD）とは、「人間が定義した仕様記述（Markdown、OpenAPI、各種スキーマ）を開…"
     },
     {
-      "id": "7ea474d0c924",
-      "title": "並列エージェントの記憶は、成功応答を返しながら消える",
-      "url": "https://zenn.dev/yasunami_daichi/articles/agent-memory-concurrency-gap",
-      "publishedAt": "2026-09-03T04:38:05.000Z",
-      "publisher": "安並　大智",
-      "summary": "! memory 系 MCP サーバ 3 実装に、同じ条件（20 件同時書き込み）を通した結果です。2026 年 9 月時点の実測。 計測ハーネスと、測った結果を踏まえて書いた memory MCP サーバの実装を daichiyasun…"
+      "id": "78c7699dbaa2",
+      "title": "478件と497件 — 指定していない条件は、揃わない",
+      "url": "https://zenn.dev/wisevine/articles/a4d47135d2e531",
+      "publishedAt": "2026-09-02T23:59:20.000Z",
+      "publisher": "qafuku",
+      "summary": "同じリリースを数えて、478件と497件 自治体向けの業務システムを作っていて、私はそのQAをしています。数か月ごとにメジャーリリースがあり、そのリリースに何が入るのかを、バックログの課題を数えて確認しています。 リリース時期ごとにリリー…"
     },
     {
-      "id": "1e76711864eb",
-      "title": "Claude Code が目標から逸れたことは、数えるまで分からない",
-      "url": "https://zenn.dev/erenoa6622/articles/goal-drift-counted-by-commit-path",
-      "publishedAt": "2026-09-03T04:23:33.000Z",
-      "publisher": "ERENOA",
-      "summary": "! AI エージェントに長い仕事を任せていて、成果物は積み上がっているのに「頼まれた仕事とは違うものが増えている気がする」── その症状を、感触ではなく件数で見るための記事です。Claude Code に事業側の作業まで任せている運用で、…"
+      "id": "64807ff2ca4a",
+      "title": "Claude Fable 5.1/Mythos 5.1登場！次世代AIの進化と活用法",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-09-01-2351",
+      "publishedAt": "2026-09-02T23:55:45.000Z",
+      "publisher": "田中根小介",
+      "summary": "Anthropic社から新たなモデルラインナップとなるClaude Fable 5.1およびClaude Mythos 5.1の発表が話題を集めています。 開発現場におけるAIツールの利用が日常化する中、本記事ではこれらの新モデルがもたら…"
     },
     {
-      "id": "d7f11fb76449",
-      "title": "AI 部下に任せた Blender が 9.8 GB に膨らんで、AI 上司ごと OOM で死んだ日",
-      "url": "https://zenn.dev/nuhemugames/articles/ai-org-oom-killed-the-boss",
-      "publishedAt": "2026-09-03T03:36:36.000Z",
-      "publisher": "ぬへむーGames",
-      "summary": "2026 年 8 月 25 日 08:10:15、私の AI の組織が全滅しました。私がそれを知ったのは 4 時間半後です。 その朝、AI の部下が Blender を回していました。3D の部品どうしの接合がずれている、という直しの作業…"
+      "id": "2146af81a792",
+      "title": "シャドーAIエージェントはログがないと止められない（TrendAI Spark 2026 仙台 参加レポ）",
+      "url": "https://zenn.dev/ni_narinari/articles/d0b88ea83ee861",
+      "publishedAt": "2026-09-02T23:55:05.000Z",
+      "publisher": "Ayaka",
+      "summary": "はじめに こんにちは、QAエンジニアのAyakaです。 2026年8月20日、ウェスティンホテル仙台で開催された「TrendAI™ Spark 2026」に参加してきました。トレンドマイクロさん主催、今年のテーマは「The Intelli…"
     }
   ],
-  "fetchedAt": "2026-09-03T07:43:45.995Z",
+  "fetchedAt": "2026-09-03T12:15:57.474Z",
   "stale": false,
   "error": null
 }

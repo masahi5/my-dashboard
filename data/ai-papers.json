@@ -6,68 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "13c4573258dc",
-      "title": "Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills",
-      "url": "https://huggingface.co/papers/2609.02749",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Autonomous agents are beginning to carry out machine-learning (ML) research end to end. These agents combine a model ba…",
-      "score": 249
-    },
-    {
-      "id": "0a26e66176b8",
-      "title": "EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction",
-      "url": "https://huggingface.co/papers/2609.02783",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Evaluating LLM agents is essential for guiding their development, yet it has grown prohibitively expensive: a single pa…",
-      "score": 70
-    },
-    {
-      "id": "c37d67f03839",
-      "title": "Language Models Can Control Their Own Attention",
-      "url": "https://huggingface.co/papers/2609.02737",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Language models spend most of their attention on a small fraction of context, yet they read the entire KV cache to find…",
-      "score": 36
-    },
-    {
-      "id": "e19e8c77bc8b",
-      "title": "On the Design Fundamentals of Pixel Text Representation Learning",
-      "url": "https://huggingface.co/papers/2609.01147",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Text-rich visual inputs require models that can read, retrieve, and compress language directly in pixel space, yet exis…",
-      "score": 24
-    },
-    {
-      "id": "a4617a742430",
-      "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
-      "url": "https://huggingface.co/papers/2609.01437",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "As agents move from research prototypes to deployed tools, their capability increasingly depends on model-external exec…",
-      "score": 16
-    },
-    {
-      "id": "c91dc2596dc3",
-      "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
-      "url": "https://huggingface.co/papers/2608.31111",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Many important forms of human learning begin with a vague goal, such as \"become a better physicist\" or \"improve at rese…",
-      "score": 12
-    },
-    {
-      "id": "aa84b6aac4fd",
-      "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
-      "url": "https://huggingface.co/papers/2608.31100",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Large language models (LLMs) increasingly interact with external environments and accumulate substantial behavioral exp…",
-      "score": 11
-    },
-    {
-      "id": "904522b802d8",
-      "title": "Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers",
-      "url": "https://huggingface.co/papers/2608.18972",
+      "id": "4380e3ff0e77",
+      "title": "Beyond Visual Similarity: Entity-Aligned Retrieval for Knowledge-Based Visual Question Answering",
+      "url": "https://huggingface.co/papers/2608.21450",
       "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Historical newspapers are an abundant record of public life, but their dense, irregular and sometimes noisy layouts mak…",
-      "score": 7
+      "summary": "Knowledge-Based Visual Question Answering (KB-VQA) relies on retrieving external information to answer queries involvin…",
+      "score": 26
+    },
+    {
+      "id": "43d4c228116c",
+      "title": "ZipTok3D: High-Fidelity 3D Tokenization with Compact Token Prefixes",
+      "url": "https://huggingface.co/papers/2609.01740",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Compact token sequences are essential for efficient 3D generation. However, existing 3D tokenizers typically organize l…",
+      "score": 17
     },
     {
       "id": "de252527375b",
@@ -75,23 +27,15 @@
       "url": "https://huggingface.co/papers/2609.02812",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "summary": "Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks. Recently, end-to-…",
-      "score": 6
+      "score": 10
     },
     {
-      "id": "ca1728fef862",
-      "title": "A Glance Is All You Need: Single-Pass Fine-Grained Image Captioning with SimLoss",
-      "url": "https://huggingface.co/papers/2609.00591",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "An image may be worth a thousand words, but most captioning models describe it in only a few. Modern vision-language mo…",
-      "score": 6
-    },
-    {
-      "id": "73c32e506068",
-      "title": "CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing",
-      "url": "https://huggingface.co/papers/2609.01925",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "The attention prefilling phase of long-context LLM inference scales quadratically, making self-attention a severe compu…",
-      "score": 5
+      "id": "61722e28370b",
+      "title": "Exploring Collaboration between a language and a non-language agent",
+      "url": "https://huggingface.co/papers/2609.00474",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "LLMs are increasingly deployed as orchestrators that coordinate specialized subagents to solve complex tasks through na…",
+      "score": 4
     },
     {
       "id": "0734882785cc",
@@ -99,10 +43,66 @@
       "url": "https://huggingface.co/papers/2608.29607",
       "publishedAt": "2026-08-30T00:00:00.000Z",
       "summary": "Mobile AI acts as a visual oracle, empowering users to snap a picture of something and ask for information. Snap-and-as…",
-      "score": 3
+      "score": 4
+    },
+    {
+      "id": "face528bd665",
+      "title": "NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference",
+      "url": "https://huggingface.co/papers/2609.01657",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Multimodal models often build on architectures designed for generative vision-language modeling, typically combining se…",
+      "score": 2
+    },
+    {
+      "id": "fbb3b174ce53",
+      "title": "FoldingAgent: Inferring Parametric Origami Procedures from Demonstration Videos",
+      "url": "https://huggingface.co/papers/2609.00377",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "We present FoldingAgent, an agentic framework for inferring explicit parametric folding programs directly from origami …",
+      "score": 2
+    },
+    {
+      "id": "0612cf78c00e",
+      "title": "Ignorance or Incompetence? Constructing Knowledge-Gated, Verifiable Tasks for LLM Agents",
+      "url": "https://huggingface.co/papers/2608.30322",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Professional agent tasks often depend on conventions that are absent from public corpora, yet benchmarks rarely control…",
+      "score": 1
+    },
+    {
+      "id": "41e7eac86943",
+      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
+      "url": "https://huggingface.co/papers/2609.02496",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Model compression techniques such as pruning and quantization facilitate the efficient deployment and acceleration of L…",
+      "score": 0
+    },
+    {
+      "id": "d2f31c355fbf",
+      "title": "Portfolio Risk Bounds without Cross-Asset Return Covariances: Distributional Fields from Language-Model Representations",
+      "url": "https://huggingface.co/papers/2608.29692",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Portfolio risk assessment ordinarily relies on reliable estimates of cross-asset return covariances, which are difficul…",
+      "score": 0
+    },
+    {
+      "id": "70e843229fff",
+      "title": "Wasserstein-Barycentric Interaction Fields for Spatial Factor Models: Evidence from Language-Model Representations",
+      "url": "https://huggingface.co/papers/2608.29669",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Spatial return models take the interaction matrix as given and leave feedback uninterpreted. We construct a bandwidth-f…",
+      "score": 0
+    },
+    {
+      "id": "206b69c54f0d",
+      "title": "Autoregressive Mosaics: Probing 2D Spatial Reasoning in Text-Only Language Models",
+      "url": "https://huggingface.co/papers/2608.30751",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Large language models (LLMs) trained only on text and code can sometimes generate programs that draw recognizable image…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-03T07:43:45.860Z",
+  "fetchedAt": "2026-09-03T12:15:57.328Z",
   "stale": false,
   "error": null
 }
