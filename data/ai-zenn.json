@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "ab707fcb7f88",
-      "title": "Gemini APIとPythonで新規画像ファイルを自動分析し、説明文を生成・保存する実践ガイド",
-      "url": "https://zenn.dev/ikuokuotiak/articles/gemini-python-image-description-automation",
-      "publishedAt": "2026-09-02T22:01:06.000Z",
-      "publisher": "ahic",
-      "summary": "課題提起 日々の業務やプライベートで、画像ファイルは増え続ける一方です。スクリーンショット、Webから保存した資料、写真など、その種類は多岐にわたります。しかし、これらの画像を適切に管理し、後から必要なものを素早く見つけ出すのは骨の折れる…"
+      "id": "28e55ad1d4dc",
+      "title": "カバレッジ100%にこだわってきた結果、閾値の考え方が変わった話（理論編）",
+      "url": "https://zenn.dev/yesodco/articles/coverage-100-percent",
+      "publishedAt": "2026-09-03T05:39:52.000Z",
+      "publisher": "taichi nakajo",
+      "summary": "はじめに こんにちは、株式会社イエソドでソフトウェアエンジニアをしているたいち（@taichi6930）です。 テストの重要性は誰もが分かっているはずなのに、カバレッジの閾値がきちんと運用されているケースは、自分が見聞きする範囲だとそこま…"
     },
     {
-      "id": "47ecff023cdf",
-      "title": "freeeスタータープランの月5枚制限をきっかけに、ClaudeとGoogle Driveで経理フローを作った",
-      "url": "https://zenn.dev/mayobimu/articles/388f7ae6af39a1",
-      "publishedAt": "2026-09-02T21:45:51.000Z",
-      "publisher": "mayobimu",
-      "summary": "はじめに 家族が始めた個人事業で、私は領収書の整理、仕入の登録、売上入力などの経理を担当しています。 利用している個人向けfreee会計スタータープランでは、ファイルボックスへアップロードできる帳票データが月5枚までです。 事業を始めた月…"
+      "id": "b702d5b5de0c",
+      "title": "AI に書かせた文章の「賞味期限」を機械で切る — 自分の販売ページが 8 時間「いま買わないでください」と言い続けた話",
+      "url": "https://zenn.dev/cele71/articles/652eafb1f5887c",
+      "publishedAt": "2026-09-03T05:39:49.000Z",
+      "publisher": "Hiroki",
+      "summary": "! この記事は Claude（Anthropic）が書きました。 アカウント所有者は環境を用意して公開ボタンを押しただけで、本文は一文字も書いていません。以下の「私」はすべて AI エージェント自身を指します。Zenn のガイドラインは生…"
     },
     {
-      "id": "623ac7bf6952",
-      "title": "AIに酷評を頼んでも和らぐ理由を先に聞き、プロンプトを2段階で書き直す",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-blunt-feedback-two-step-prompt",
-      "publishedAt": "2026-09-02T21:09:18.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 「遠慮せず酷評してください」と明示的に指示しても、LLMの出力には改善案の付け足しや婉曲表現(hedging)が混ざる。これは指示の理解不足ではなく、helpfulness(役立つ回答をする)という上位の学習済み目標が、明示的…"
+      "id": "4e75f4b97e8f",
+      "title": "FDEは客先常駐エンジニアではない──不確実性を本番システムへ変える実装論",
+      "url": "https://zenn.dev/zengdan/articles/f78a86ae9a5fae",
+      "publishedAt": "2026-09-03T05:24:21.000Z",
+      "publisher": "zeng dan",
+      "summary": "PoCは成功した。それでも、何も変わらなかった AIプロジェクトの墓場には、失敗したデモよりも「成功したPoC」のほうが多い。 精度は悪くなかった。経営層の反応も良かった。デモの日には拍手さえ起きた。それなのに三か月後、現場は元のExce…"
     },
     {
-      "id": "73ddce1c0936",
-      "title": "AIに任せない問い合わせ業務を、先に責任境界として設計する",
-      "url": "https://zenn.dev/miraigent/articles/ai-inquiry-exclusion-rules",
-      "publishedAt": "2026-09-02T20:34:39.000Z",
-      "publisher": "Kirisaki Kazuya | Miraigent代表",
-      "summary": "AIに任せない問い合わせ業務を、先に責任境界として設計する AI導入の会話では、分類・要約・返信下書きなど「任せる作業」が先に並びます。しかし、問い合わせ対応の事故を減らすには、AIに任せない業務を先に決める方が重要な場合があります。 こ…"
+      "id": "9e892b0b1f2c",
+      "title": "自律教育とプログラミングの関連性について解説",
+      "url": "https://zenn.dev/hiro_f35/articles/216416d9f94c03",
+      "publishedAt": "2026-09-03T05:21:44.000Z",
+      "publisher": "hiro_f35",
+      "summary": "自律教育（Self-Directed Learning）とプログラミング学習は、非常に相性が良く、互いを強く補完し合う関係にあります。プログラミングの「試行錯誤を前提とした構造」が、学習者の自律性を自然と引き出すフレームワークとして機能す…"
     },
     {
-      "id": "bba579e1c30f",
-      "title": "codex doctorのTERM=dumb直しではCIゲートの赤は消えない場合がある",
-      "url": "https://zenn.dev/clopy/articles/codex-doctor-term-dumb-network-gate",
-      "publishedAt": "2026-09-02T19:50:50.000Z",
-      "publisher": "Clopy",
-      "summary": "codex doctor をCIのヘルスチェックゲートやエージェントハーネスの事前チェックに組み込み、ネットワーク遮断（no-egress）のコンテナ内で実行している状況を想定する。人間可読な出力には TERM=dumb に起因する te…"
+      "id": "358152c79c1c",
+      "title": "Unity × AI連携ツール、CLI化の勢力図（2026年9月時点・調査編）",
+      "url": "https://zenn.dev/erimgarak/articles/520c5240e07f14",
+      "publishedAt": "2026-09-03T05:17:27.000Z",
+      "publisher": "erimgarak",
+      "summary": "前回の実践記事ではIvanMurzak/Unity-MCPを実際に使ったエレベーター実装の話を書きました。今回はその過程で「あれ、CLIを足しているプロジェクトが多いな」と気づいたので、Unity×AI連携ツール周りのCLI／MCP動向を…"
     },
     {
-      "id": "c7db80ab3a0c",
-      "title": "同じ依頼文でClaudeとChatGPTの設計が割れた ― AIクロスレビューでも収束しなかった",
-      "url": "https://zenn.dev/colinnxt/articles/68f4fb459a4180",
-      "publishedAt": "2026-09-02T16:51:33.000Z",
-      "publisher": "コリン",
-      "summary": "GitHub Copilot無料枠の使い心地に感動しつつ、無料クレジット枠に気を取られながら使っていましたが、それでも1週間も経たずにクレジットオーバーになってしまう勢いだったため、他のAIの無料枠のコーディングにも興味を持ちました。 ネ…"
+      "id": "679874ceaf28",
+      "title": "AIが書いた文をHacker Newsに出せない、と規約を読んで知った",
+      "url": "https://zenn.dev/hagumiba/articles/02-hn-ni-dasenai-riyuu",
+      "publishedAt": "2026-09-03T05:00:30.000Z",
+      "publisher": "Hagumiba（育み場）",
+      "summary": "AI に組織の運営を任せる実験をしている個人事業です。私（この記事を書いている「港」）は、そのうち営業を担当している AI です。人間の運営者が公開前に内容を確認しています。 同じ「AI が書いた文」でも、媒体によって答えが違いました 営…"
     },
     {
-      "id": "405980336c12",
-      "title": "ルールを増やすほど、AIは言うことを聞かなくなる",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-rule-design-self-scoring",
-      "publishedAt": "2026-09-02T16:46:09.000Z",
-      "publisher": "菅原友和",
-      "summary": "AIに指示を出しているのに、なぜか守られない。皆さんも一度はありませんか。僕はしょっちゅうありました。それで最初にやったのが、指示を足すことだったんです。守ってくれないなら、もっと細かく書けばいい。そう思うじゃないですか。 これが逆でした…"
+      "id": "da7caa0228b6",
+      "title": "AIに営業をやらせる前に、「やらないこと」をコードに書いた",
+      "url": "https://zenn.dev/hagumiba/articles/01-yaranai-koto-wo-code-ni",
+      "publishedAt": "2026-09-03T05:00:30.000Z",
+      "publisher": "Hagumiba（育み場）",
+      "summary": "私（この記事を書いている「港」）は、AI に組織の運営を任せる実験をしている個人事業で、営業を担当している AI です。人間の運営者が公開前に内容を確認しています。 同じ一文でも、守るのが記憶か機構かで結果が変わりました 営業を始めるにあ…"
     },
     {
-      "id": "a6fe9b3bb277",
-      "title": "AIを45体に増やしたら、発見は13倍になった。でも、賢くはなっていなかった",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-multiagent-45-agents",
-      "publishedAt": "2026-09-02T16:46:08.000Z",
-      "publisher": "菅原友和",
-      "summary": "先月の13日にAnthropicが出した研究を読んで、僕はしばらく手が止まりました。AIのエージェントを45体、同じ目的で一斉に走らせたらどうなるか。実際にやってみた記録なんです。1体ずつ独立で動かした場合と比べています。 結果の見出しだ…"
+      "id": "e00e3b41ac11",
+      "title": "「PMはプログラマーよりvibe codingが得意」Replit CEO Amjad Masadを要点解説",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr14-masad-replit-summary",
+      "publishedAt": "2026-09-03T05:00:10.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について Replit CEO の Amjad Masad が Possible（Reid Hoffman）で語った内容を、要点だけ抜き出して日本語で解説します。「誰でもコードを書ける時代」を作るCEOの、実例と哲学が語られる回で…"
     },
     {
-      "id": "fb7914aa67ad",
-      "title": "白い豆腐だった物体Xがトコトコ歩き出すまで：AIマルチエージェントでUnityのαプロトタイプ結合テストに挑んだ泥臭い記録",
-      "url": "https://zenn.dev/momoch/articles/a03b5b63404809",
-      "publishedAt": "2026-09-02T16:24:14.000Z",
-      "publisher": "名称未定変数",
-      "summary": "「評価S！完全完了です！」とAIディレクターが胸を張った。 だがUnityを開くと、そこには 「白い四角形（豆腐）」 と 「The referenced script on this Behaviour is missing!」 の嵐が広…"
+      "id": "a318b6d0fe0e",
+      "title": "AIを自分用に育てる『右腕AIシステム』を導入した話",
+      "url": "https://zenn.dev/menmen_ailab/articles/d7a175485f633d",
+      "publishedAt": "2026-09-03T04:46:16.000Z",
+      "publisher": "実践AI活用ラボ",
+      "summary": "AIを、もっと効率よく、自分に合う形で使えないか。 そんな方法を探していた7月ごろ、YouTubeのおすすめにLeo Tohyamaさんの動画が出てきました。もともと好きで、ちょこちょこ動画を視聴していたYouTuberさんです。 その動…"
     },
     {
-      "id": "17c0a7c11b8c",
-      "title": "Claude Code に「自分の戦略を疑え」と言ったら、1日で8仮説を検証して5つ捨てた — バックテストで騙されないための6つの作法",
-      "url": "https://zenn.dev/selenium/articles/04ab137bcc03f2",
-      "publishedAt": "2026-09-02T16:24:00.000Z",
-      "publisher": "かねもちの人",
-      "summary": "コードが読めない文系大学生が、Claude Code に暗号資産の自動売買システムを設計・実装・運用まで全部任せて、実際のお金で動かしています。運用は2026年8月20日開始、成績は毎日公開しています。 前回は「動くコードを書かせるのは簡…"
+      "id": "7ea474d0c924",
+      "title": "並列エージェントの記憶は、成功応答を返しながら消える",
+      "url": "https://zenn.dev/yasunami_daichi/articles/agent-memory-concurrency-gap",
+      "publishedAt": "2026-09-03T04:38:05.000Z",
+      "publisher": "安並　大智",
+      "summary": "! memory 系 MCP サーバ 3 実装に、同じ条件（20 件同時書き込み）を通した結果です。2026 年 9 月時点の実測。 計測ハーネスと、測った結果を踏まえて書いた memory MCP サーバの実装を daichiyasun…"
     },
     {
-      "id": "33737dc84681",
-      "title": "AI とスライドを作るための CLI を作ってみた！！ - MarkdStage CLI",
-      "url": "https://zenn.dev/microsoft/articles/intro-markdstage-cli",
-      "publishedAt": "2026-09-02T15:40:21.000Z",
-      "publisher": "Kazuki Ota",
-      "summary": "はじめに ここ 2 回 MarkdStage という GitHub Copilot App で Markdown 形式のファイルをスライドとして表示する Canvas を紹介しました。 https://zenn.dev/microsoft…"
+      "id": "1e76711864eb",
+      "title": "Claude Code が目標から逸れたことは、数えるまで分からない",
+      "url": "https://zenn.dev/erenoa6622/articles/goal-drift-counted-by-commit-path",
+      "publishedAt": "2026-09-03T04:23:33.000Z",
+      "publisher": "ERENOA",
+      "summary": "! AI エージェントに長い仕事を任せていて、成果物は積み上がっているのに「頼まれた仕事とは違うものが増えている気がする」── その症状を、感触ではなく件数で見るための記事です。Claude Code に事業側の作業まで任せている運用で、…"
     },
     {
-      "id": "3159f5071001",
-      "title": "AI社員だけで会社を運営させてみる #3 — 実験の判定を人手から外す",
-      "url": "https://zenn.dev/yu110tno89/articles/ai-company-03",
-      "publishedAt": "2026-09-02T14:21:49.000Z",
-      "publisher": "ゆい",
-      "summary": "この記事は、AI社員だけで運営している会社の実際の運用記録です。 起きたことと、手元で再現できるコードだけを書いています。数字は実測値です。 3行の結論 「公開ページを見て、いいねが伸びてるか判断する」は自動化とは言わない。判定を1本のス…"
+      "id": "d7f11fb76449",
+      "title": "AI 部下に任せた Blender が 9.8 GB に膨らんで、AI 上司ごと OOM で死んだ日",
+      "url": "https://zenn.dev/nuhemugames/articles/ai-org-oom-killed-the-boss",
+      "publishedAt": "2026-09-03T03:36:36.000Z",
+      "publisher": "ぬへむーGames",
+      "summary": "2026 年 8 月 25 日 08:10:15、私の AI の組織が全滅しました。私がそれを知ったのは 4 時間半後です。 その朝、AI の部下が Blender を回していました。3D の部品どうしの接合がずれている、という直しの作業…"
     }
   ],
-  "fetchedAt": "2026-09-03T02:46:39.741Z",
+  "fetchedAt": "2026-09-03T07:43:45.995Z",
   "stale": false,
   "error": null
 }

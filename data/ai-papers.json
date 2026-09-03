@@ -6,28 +6,28 @@
   "category": "ai",
   "items": [
     {
-      "id": "1bbbcc5b96c5",
-      "title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
-      "url": "https://huggingface.co/papers/2609.02886",
+      "id": "13c4573258dc",
+      "title": "Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills",
+      "url": "https://huggingface.co/papers/2609.02749",
       "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "We introduce SolarWM, a fully open foundation for building interactive video world models from data preparation through…",
-      "score": 23
+      "summary": "Autonomous agents are beginning to carry out machine-learning (ML) research end to end. These agents combine a model ba…",
+      "score": 249
     },
     {
-      "id": "03cb53fdc0fc",
-      "title": "It Takes Two to Match: Co-Evolving Generative Retriever with Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2609.00638",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Retrieval is the first stage of modern search and advertising systems, selecting a candidate set from a large item univ…",
-      "score": 12
+      "id": "0a26e66176b8",
+      "title": "EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction",
+      "url": "https://huggingface.co/papers/2609.02783",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Evaluating LLM agents is essential for guiding their development, yet it has grown prohibitively expensive: a single pa…",
+      "score": 70
     },
     {
-      "id": "64a974f23d39",
-      "title": "Cliff: Learning Process Rewards from the First Mistake",
-      "url": "https://huggingface.co/papers/2609.02817",
+      "id": "c37d67f03839",
+      "title": "Language Models Can Control Their Own Attention",
+      "url": "https://huggingface.co/papers/2609.02737",
       "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for large language model (LLM)…",
-      "score": 11
+      "summary": "Language models spend most of their attention on a small fraction of context, yet they read the entire KV cache to find…",
+      "score": 36
     },
     {
       "id": "e19e8c77bc8b",
@@ -35,74 +35,74 @@
       "url": "https://huggingface.co/papers/2609.01147",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "Text-rich visual inputs require models that can read, retrieve, and compress language directly in pixel space, yet exis…",
+      "score": 24
+    },
+    {
+      "id": "a4617a742430",
+      "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
+      "url": "https://huggingface.co/papers/2609.01437",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "As agents move from research prototypes to deployed tools, their capability increasingly depends on model-external exec…",
+      "score": 16
+    },
+    {
+      "id": "c91dc2596dc3",
+      "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
+      "url": "https://huggingface.co/papers/2608.31111",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Many important forms of human learning begin with a vague goal, such as \"become a better physicist\" or \"improve at rese…",
+      "score": 12
+    },
+    {
+      "id": "aa84b6aac4fd",
+      "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
+      "url": "https://huggingface.co/papers/2608.31100",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Large language models (LLMs) increasingly interact with external environments and accumulate substantial behavioral exp…",
+      "score": 11
+    },
+    {
+      "id": "904522b802d8",
+      "title": "Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers",
+      "url": "https://huggingface.co/papers/2608.18972",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "summary": "Historical newspapers are an abundant record of public life, but their dense, irregular and sometimes noisy layouts mak…",
+      "score": 7
+    },
+    {
+      "id": "de252527375b",
+      "title": "VibeVoice-ASR-Streaming Technical Report",
+      "url": "https://huggingface.co/papers/2609.02812",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks. Recently, end-to-…",
+      "score": 6
+    },
+    {
+      "id": "ca1728fef862",
+      "title": "A Glance Is All You Need: Single-Pass Fine-Grained Image Captioning with SimLoss",
+      "url": "https://huggingface.co/papers/2609.00591",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "An image may be worth a thousand words, but most captioning models describe it in only a few. Modern vision-language mo…",
+      "score": 6
+    },
+    {
+      "id": "73c32e506068",
+      "title": "CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing",
+      "url": "https://huggingface.co/papers/2609.01925",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "The attention prefilling phase of long-context LLM inference scales quadratically, making self-attention a severe compu…",
       "score": 5
     },
     {
-      "id": "1b0ad4c0b22e",
-      "title": "Influence-Directed Distillation: Solving the Diversity Bottleneck in Sampled-Token On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2608.29846",
+      "id": "0734882785cc",
+      "title": "SnapBench: Benchmarking Snap-and-Ask Multimodal Retrieval for Mobile Interactions",
+      "url": "https://huggingface.co/papers/2608.29607",
       "publishedAt": "2026-08-30T00:00:00.000Z",
-      "summary": "Sampled-token on-policy distillation (OPD) efficiently transfers capabilities from teacher to student using student-gen…",
-      "score": 4
-    },
-    {
-      "id": "b525328e36c6",
-      "title": "Agent Memory Is a Surface for Endogenous Authorization Laundering",
-      "url": "https://huggingface.co/papers/2609.01836",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Long-running LLM agents rely on persistent memory to carry state across interactions, including permissions, restrictio…",
-      "score": 4
-    },
-    {
-      "id": "a03c07a66dcf",
-      "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
-      "url": "https://huggingface.co/papers/2609.02849",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Competitive programming has become a key test of large language model reasoning, with international competitions such a…",
-      "score": 2
-    },
-    {
-      "id": "ec28b8c306d4",
-      "title": "PaperCompiler: Faithful Paper-to-Code Generation via Repository-Level Specification Compilation",
-      "url": "https://huggingface.co/papers/2609.02272",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Faithfully translating research papers into repository-level implementations remains challenging because papers often d…",
-      "score": 2
-    },
-    {
-      "id": "dbdbcaaf1eab",
-      "title": "ExecRetrieval: Measuring the Functional-Correctness Gap in Code-Embedding Retrieval",
-      "url": "https://huggingface.co/papers/2609.01865",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Embedding-based code retrieval is a core component of coding agents and retrieval-augmented code generation, where retr…",
-      "score": 2
-    },
-    {
-      "id": "90fe4a6ef63d",
-      "title": "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests",
-      "url": "https://huggingface.co/papers/2608.27831",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Coding agents are now commonly evaluated on the SWE-bench family of benchmarks, whose tasks are built from curated GitH…",
-      "score": 2
-    },
-    {
-      "id": "9e66aedde8d3",
-      "title": "Kirin: Animal Motion Generation from In-the-Wild Video",
-      "url": "https://huggingface.co/papers/2609.01823",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Understanding animal motion is fundamental to modeling animal behavior and biomechanics, yet progress in this area lags…",
-      "score": 0
-    },
-    {
-      "id": "09ff4653896c",
-      "title": "MULTI3IR: A Benchmark for Multi-perspective Multi-domain Multi-modal Information Retrieval",
-      "url": "https://huggingface.co/papers/2608.30949",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Information retrieval (IR) increasingly targets open-ended queries that admit diverse perspectives. Existing IR benchma…",
-      "score": 0
+      "summary": "Mobile AI acts as a visual oracle, empowering users to snap a picture of something and ask for information. Snap-and-as…",
+      "score": 3
     }
   ],
-  "fetchedAt": "2026-09-03T02:46:39.610Z",
+  "fetchedAt": "2026-09-03T07:43:45.860Z",
   "stale": false,
   "error": null
 }
