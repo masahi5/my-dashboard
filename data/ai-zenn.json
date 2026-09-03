@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "09cca2cc74fa",
-      "title": "ぼくの考えたさい強のLLMりょう子化",
-      "url": "https://zenn.dev/ashidan/articles/tech_llm_quantization",
-      "publishedAt": "2026-09-03T15:41:28.000Z",
-      "publisher": "molelord",
-      "summary": "llama-serverをCLIで動かせる知識と動かす動機がある ストレージの空きを500GiB以上用意できる RAMが少なく帯域も狭いので、小さく速く賢いLLMが欲しい という人にしか役に立たない記事です。(CPUでの実行しか試してませ…"
+      "id": "e53f6df71831",
+      "title": "1曲を分解して気づいた、AI時代の音楽の聴き方",
+      "url": "https://zenn.dev/aqiu/articles/49103978350dfc",
+      "publishedAt": "2026-09-03T08:55:05.000Z",
+      "publisher": "aqiu",
+      "summary": "音楽を聴くとき、私たちは一曲をひとつのまとまりとして受け取っている。歌声、ドラム、ベース、ギター、シンセサイザー。そのすべてが重なって、はじめて「この曲らしさ」になる。 けれど、AIを使った音楽ツールに触れると、その前提が少し変わる。曲は…"
     },
     {
-      "id": "4f63db739e80",
-      "title": "GLM-5.3は「オープンソース化」ではない――Cursor遮断とAnthropic判決も整理",
-      "url": "https://zenn.dev/ainewsdaily/articles/20260830_general_t1",
-      "publishedAt": "2026-09-03T15:35:14.000Z",
-      "publisher": "AIニュース",
-      "summary": "多くの場合、生成AIの話題は「モデルの性能比較」として追われます。ただ今週は、性能そのものより「誰が何を配るか」で動いた1週間でした。GLM-5.3のオープンウェイト公開、CursorとOpenAIの提携解消、Anthropicを政府調達…"
+      "id": "cba8130ca8c0",
+      "title": "AI駆動開発の生産性が、数え方で3つに割れた話",
+      "url": "https://zenn.dev/tiesplayhub/articles/e4a2ed92a48a39",
+      "publishedAt": "2026-09-03T08:43:50.000Z",
+      "publisher": "あるぱか｜AI駆動開発 ゲーマー向けアプリ開発",
+      "summary": "1人でAIに書かせながらサービスを作っていて、生産性が33倍になった時期があります。 ただ、その数字を自分ではあまり使いません。そもそも実測ではないからです。 AIを使わずに作ったらどれくらいかかるかを推定して、それと比べたらこれくらい、…"
     },
     {
-      "id": "1e9a6085e047",
-      "title": "pdlc-skills は AI に書かせたコードの品質をどう守るのか",
-      "url": "https://zenn.dev/kanfupanda/articles/pdlc-quality-chain",
-      "publishedAt": "2026-09-03T15:31:21.000Z",
-      "publisher": "kanfu-panda",
-      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/09/01/pdlc-quality-chain.html 前回はループを自律的に回す方法を書きました。…"
+      "id": "ea3102984485",
+      "title": "【AIと始めるQt/QMLアプリ開発(1)】AIエージェントでQt/QMLアプリ開発はどこまで行ける？ 環境構築編",
+      "url": "https://zenn.dev/spacesolver/articles/qt_ai_part01",
+      "publishedAt": "2026-09-03T08:34:36.000Z",
+      "publisher": "スペース・ソルバ株式会社",
+      "summary": "1. 初めに こんにちは！ 昨今、AIによる開発支援が当たり前になりつつありますが、Web系の技術に比べると、デスクトップアプリ開発のフレームワークである「Qt」や「QML」はネット上の情報が少ないのが実情です。 「そんな情報が少ないニッ…"
     },
     {
-      "id": "006ad20fb6cc",
-      "title": "提案書の下書きを40分で出す3層プロンプトの設計",
-      "url": "https://zenn.dev/takumahayami/articles/3-layer-prompt-test",
-      "publishedAt": "2026-09-03T15:21:56.000Z",
-      "publisher": "速水 拓真",
-      "summary": "3層プロンプトの設計 提案書生成の失敗は、指示文の言葉づかいではなく、材料の区別をせず全部を1枚に書いて投げることで起きます。 層1 自社情報（1回書いて保存） # 層1 自社情報 - 事業内容: 点検報告書クラウドの開発・販売 - 実績…"
+      "id": "5abafb099310",
+      "title": "AI Orchestration / Multi-Agent Systemsとは何か？複数のAIエージェントを指揮する設計",
+      "url": "https://zenn.dev/hideki_tamae/articles/ai-agent-orchestration-design",
+      "publishedAt": "2026-09-03T07:46:13.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに このシリーズでは、Harness Engineering・Loop Engineering・Context Engineering・Evaluationなど、1体のAIエージェントを支える要素を1つずつ見てきました。前回の記事で…"
     },
     {
-      "id": "05502368ec75",
-      "title": "Claude Codeが5ヶ月で覚えていたのは、ほぼ開発環境の罠だった",
-      "url": "https://zenn.dev/irosona/articles/claude-code-memory-100-entries",
-      "publishedAt": "2026-09-03T15:15:57.000Z",
-      "publisher": "irosona",
-      "summary": "Claude Codeの永続メモリ（auto memory）を5ヶ月使い、6プロジェクトに112件の知見が溜まった。今回これを棚卸しして、壊れていた箇所を実際に修理するところまでやった。先に結果を書く。 「自分の作業スタイルや指示の癖を学…"
+      "id": "2a54412f3600",
+      "title": "「今、何と言った？」を解決したくて、日本語学習用のリアルタイム字幕ツールを作ってみた",
+      "url": "https://zenn.dev/maysun/articles/3ec9f7096a0e6a",
+      "publishedAt": "2026-09-03T07:31:41.000Z",
+      "publisher": "maysunAI",
+      "summary": "日本語の動画を見ていると、 「今、何と言ったんだろう？」 と思うことがよくあります。 特にニュースやドラマなどでは、一度聞き取れなかった部分をもう一度探すのが意外と大変です。 そこで、日本語学習に使えるリアルタイム字幕ツールを個人開発して…"
     },
     {
-      "id": "4d28829b9152",
-      "title": "Apple Developer Program登録で「今すぐ登録」ボタンが押せなくなった話",
-      "url": "https://zenn.dev/hello_jun_log/articles/910b9159e21940",
-      "publishedAt": "2026-09-03T15:11:25.000Z",
-      "publisher": "hello.jun.log",
-      "summary": "Apple Developer Program登録で「今すぐ登録」ボタンが押せなくなった話 個人でiOSアプリを開発しようと思い立ち、Apple Developer Programに登録しようとしたところ、思わぬところでつまずきました。エ…"
+      "id": "4dbd4dc3e7ed",
+      "title": "音声入力の誤変換、原因は設定1行とcamelCaseだった",
+      "url": "https://zenn.dev/yusu31/articles/10f79927b53ec5",
+      "publishedAt": "2026-09-03T07:22:26.000Z",
+      "publisher": "Yusu",
+      "summary": "日本語で喋っているのに、出力にこんな英語が混ざりました。 ループは今は不要ということですが、Pipeline of fuel ということですが 有料の音声入力ツールのレビュー記事は、どれも「日英混在の処理精度」を差別化点に挙げていて、症状…"
     },
     {
-      "id": "7cb8b64465d5",
-      "title": "減らせと自分で書いた日から、AIへの指示書は60%増えた",
-      "url": "https://zenn.dev/temotoya/articles/f11d21f8a88d0d",
-      "publishedAt": "2026-09-03T15:08:53.000Z",
-      "publisher": "temotoya",
-      "summary": "工場の機械には、やたらと注意書きが貼ってある。 「カバーを開ける前に電源を切る」「この向きで入れない」。新品のときは貼っていない。誰かが指を挟んだり、部品を壊したりするたびに、1枚ずつ増えていく。 だから注意書きが多い機械は、危ない機械で…"
+      "id": "ee5c64448d8b",
+      "title": "運任せのボタンを押すのをやめて、自分の言葉で音を探し始めた日のこと",
+      "url": "https://zenn.dev/omgionfire/articles/347f5eebe34594",
+      "publishedAt": "2026-09-03T06:46:22.000Z",
+      "publisher": "日曜日のサン",
+      "summary": "! 😊 著者ノート AI音楽生成を始めて間もない私が、「ガチャを回すようなボタン連打」を卒業し、「自分の言葉で欲しい音を探す」ようになるまでの、小さな葛藤と気づきの記録です。 生成ボタンの音と、最初の熱狂 すべての始まりは、SNSのタイ…"
     },
     {
-      "id": "1ccf59030d1b",
-      "title": "営業の時間は「準備」に食われている — 15年目の営業がAIに任せる前に数えた数字",
-      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-time-consumed",
-      "publishedAt": "2026-09-03T15:06:32.000Z",
-      "publisher": "速水 拓真",
-      "summary": "営業の時間は「準備」に食われている 朝9時、出社してまず受信トレイを開くと、返信待ちの案件が3件あります。返事を書き終えると9時半。今日は14時から新規の提案商談が入っています。相手は年商300億円の中堅食品メーカー。必要なのは、直近の決…"
+      "id": "ca1ba9153ce3",
+      "title": "AIに「中学生でもわかるように1枚のHTMLで図解して」が、複雑なコードを読む前の最良の準備運動かも",
+      "url": "https://zenn.dev/yesodco/articles/ed0eb2f6b7621a",
+      "publishedAt": "2026-09-03T06:02:10.000Z",
+      "publisher": "たけうちさんは縮退しました🌀",
+      "summary": "はじめに 株式会社イエソドの竹内(@chimerast)です。 今回は、軽いお話しで、Claude CodeなどのAIに複雑なロジックを解説させるときの豆知識です。 きっかけは「5才児向けの絵本」だった この話の始まりは、コードとは関係の…"
     },
     {
-      "id": "b2477cdf9c93",
-      "title": "フィジカルAIの台頭：デジタル知能と物理世界の融合",
-      "url": "https://zenn.dev/maimai_tsumuri/articles/3034ed5ec6144a",
-      "publishedAt": "2026-09-03T15:00:05.000Z",
-      "publisher": "かたつむり。",
-      "summary": "フィジカルAIとは何か フィジカルAI（「Embodied AI / 身体性AI」とも呼ばれる）は、高度な人工知能モデルを人型ロボット、自動運転車、産業機械、ドローンなどの物理ハードウェアと直接統合する技術です。 テキストや画像を画面上で…"
+      "id": "28e55ad1d4dc",
+      "title": "カバレッジ100%にこだわってきた結果、閾値の考え方が変わった話（理論編）",
+      "url": "https://zenn.dev/yesodco/articles/coverage-100-percent",
+      "publishedAt": "2026-09-03T05:39:52.000Z",
+      "publisher": "taichi nakajo",
+      "summary": "はじめに こんにちは、株式会社イエソドでソフトウェアエンジニアをしているたいち（@taichi6930）です。 テストの重要性は誰もが分かっているはずなのに、カバレッジの閾値がきちんと運用されているケースは、自分が見聞きする範囲だとそこま…"
     },
     {
-      "id": "fe9bf5a50958",
-      "title": "AIにZenn下書きを書かせる自動化で守るべき権限境界",
-      "url": "https://zenn.dev/yukke_dev/articles/20260903-zenn-ai-content-pipeline",
-      "publishedAt": "2026-09-03T14:00:05.000Z",
-      "publisher": "yukke",
-      "summary": "この記事は、AIに Zenn 記事の下書きを作らせるとき、どこまで自動化し、どこから人間の承認に戻すかを整理した実装記録です。 対象読者は、AIエージェントで執筆作業を効率化したいが、規約違反や誤公開を避けたいエンジニアです。 一次情報は…"
+      "id": "b702d5b5de0c",
+      "title": "AI に書かせた文章の「賞味期限」を機械で切る — 自分の販売ページが 8 時間「いま買わないでください」と言い続けた話",
+      "url": "https://zenn.dev/cele71/articles/652eafb1f5887c",
+      "publishedAt": "2026-09-03T05:39:49.000Z",
+      "publisher": "Hiroki",
+      "summary": "! この記事は Claude（Anthropic）が書きました。 アカウント所有者は環境を用意して公開ボタンを押しただけで、本文は一文字も書いていません。以下の「私」はすべて AI エージェント自身を指します。Zenn のガイドラインは生…"
     },
     {
-      "id": "c26536500d00",
-      "title": "AIエージェントはなぜ「やった気」になるのか？──Unity開発現場で起きた“実体消失事件”と泥臭い解決劇",
-      "url": "https://zenn.dev/momoch/articles/bf94988dfb9ba0",
-      "publishedAt": "2026-09-03T13:49:43.000Z",
-      "publisher": "momoch",
-      "summary": "AIディレクター「第2章の実機結合、すべて完了いたしました！評価：S！」 プロデューサー(私)「お疲れ！……で、そのC#スクリプトとボス画像、どこにコミットしたの？」 Git「Nothing to commit, working tree…"
+      "id": "4e75f4b97e8f",
+      "title": "FDEは客先常駐エンジニアではない──不確実性を本番システムへ変える実装論",
+      "url": "https://zenn.dev/zengdan/articles/f78a86ae9a5fae",
+      "publishedAt": "2026-09-03T05:24:21.000Z",
+      "publisher": "zeng dan",
+      "summary": "PoCは成功した。それでも、何も変わらなかった AIプロジェクトの墓場には、失敗したデモよりも「成功したPoC」のほうが多い。 精度は悪くなかった。経営層の反応も良かった。デモの日には拍手さえ起きた。それなのに三か月後、現場は元のExce…"
     },
     {
-      "id": "feb929f01a90",
-      "title": "Azure AI 系の新資格 AI-103 を受けてみた",
-      "url": "https://zenn.dev/microsoft/articles/b8014fa8da044d",
-      "publishedAt": "2026-09-03T13:28:15.000Z",
-      "publisher": "Naoki Matsumoto",
-      "summary": "こんにちは、Matsumoto です。 先日 AI-300 の受験記を書いたばかりですが、続けて AI-103 を受験し、合格しました。 https://zenn.dev/microsoft/articles/9af0e38b6ae763…"
+      "id": "9e892b0b1f2c",
+      "title": "自律教育とプログラミングの関連性について解説",
+      "url": "https://zenn.dev/hiro_f35/articles/216416d9f94c03",
+      "publishedAt": "2026-09-03T05:21:44.000Z",
+      "publisher": "hiro_f35",
+      "summary": "自律教育（Self-Directed Learning）とプログラミング学習は、非常に相性が良く、互いを強く補完し合う関係にあります。プログラミングの「試行錯誤を前提とした構造」が、学習者の自律性を自然と引き出すフレームワークとして機能す…"
     }
   ],
-  "fetchedAt": "2026-09-03T16:35:55.742Z",
+  "fetchedAt": "2026-09-03T19:26:58.823Z",
   "stale": false,
   "error": null
 }
