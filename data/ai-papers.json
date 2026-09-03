@@ -22,20 +22,12 @@
       "score": 21
     },
     {
-      "id": "43d4c228116c",
-      "title": "ZipTok3D: High-Fidelity 3D Tokenization with Compact Token Prefixes",
-      "url": "https://huggingface.co/papers/2609.01740",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Compact token sequences are essential for efficient 3D generation. However, existing 3D tokenizers typically organize l…",
-      "score": 19
-    },
-    {
-      "id": "de252527375b",
-      "title": "VibeVoice-ASR-Streaming Technical Report",
-      "url": "https://huggingface.co/papers/2609.02812",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks. Recently, end-to-…",
-      "score": 10
+      "id": "747b1917297a",
+      "title": "WHALE: A Simple Recipe for Joint Harness-Weight Optimization",
+      "url": "https://huggingface.co/papers/2609.00196",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Agent performance depends jointly on the model parameters and the executable harness code that manages context and cont…",
+      "score": 7
     },
     {
       "id": "61722e28370b",
@@ -43,14 +35,6 @@
       "url": "https://huggingface.co/papers/2609.00474",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "summary": "LLMs are increasingly deployed as orchestrators that coordinate specialized subagents to solve complex tasks through na…",
-      "score": 5
-    },
-    {
-      "id": "0734882785cc",
-      "title": "SnapBench: Benchmarking Snap-and-Ask Multimodal Retrieval for Mobile Interactions",
-      "url": "https://huggingface.co/papers/2608.29607",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "summary": "Mobile AI acts as a visual oracle, empowering users to snap a picture of something and ask for information. Snap-and-as…",
       "score": 5
     },
     {
@@ -70,6 +54,14 @@
       "score": 3
     },
     {
+      "id": "2b5318501644",
+      "title": "Sparse Readout Prism: Explaining Logit-Lens Scores in Features Instead of Tokens",
+      "url": "https://huggingface.co/papers/2609.01936",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "A language model's prediction of its next token develops across layers, and lens methods track this process by decoding…",
+      "score": 2
+    },
+    {
       "id": "41e7eac86943",
       "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
       "url": "https://huggingface.co/papers/2609.02496",
@@ -86,12 +78,20 @@
       "score": 2
     },
     {
+      "id": "d3953cb57dbe",
+      "title": "Small Language Models as Judges for Rubric-Based Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2608.30005",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "summary": "Rubric-based reinforcement learning extends RL beyond tasks with exact answers or rule-based verifiers by scoring respo…",
+      "score": 1
+    },
+    {
       "id": "d2f31c355fbf",
       "title": "Portfolio Risk Bounds without Cross-Asset Return Covariances: Distributional Fields from Language-Model Representations",
       "url": "https://huggingface.co/papers/2608.29692",
       "publishedAt": "2026-08-30T00:00:00.000Z",
       "summary": "Portfolio risk assessment ordinarily relies on reliable estimates of cross-asset return covariances, which are difficul…",
-      "score": 0
+      "score": 1
     },
     {
       "id": "70e843229fff",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-03T19:26:58.693Z",
+  "fetchedAt": "2026-09-03T21:49:28.162Z",
   "stale": false,
   "error": null
 }
