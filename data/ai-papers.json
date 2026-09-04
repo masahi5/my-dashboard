@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "6d8c1e767bf1",
-      "title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
-      "url": "https://huggingface.co/papers/2609.04196",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, …",
-      "score": 34
-    },
-    {
       "id": "a58ca337060a",
       "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
       "url": "https://huggingface.co/papers/2609.04199",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote …",
-      "score": 29
+      "score": 149
     },
     {
       "id": "1d3e9473b87f",
@@ -27,7 +19,15 @@
       "url": "https://huggingface.co/papers/2608.26730",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "summary": "Large language models offer broad capabilities, but adapting them to evolving domains, tools, and requirements often en…",
-      "score": 24
+      "score": 139
+    },
+    {
+      "id": "6d8c1e767bf1",
+      "title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
+      "url": "https://huggingface.co/papers/2609.04196",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, …",
+      "score": 56
     },
     {
       "id": "587ffb5e254b",
@@ -35,23 +35,7 @@
       "url": "https://huggingface.co/papers/2609.04201",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixe…",
-      "score": 21
-    },
-    {
-      "id": "daa8d14e08f2",
-      "title": "The Missing Temporal Link: Temporal Context Routing for Script-Driven Audio-Video Generation",
-      "url": "https://huggingface.co/papers/2609.02367",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Joint audio-video generation models have made substantial progress in visual quality and audio-visual synchronization. …",
-      "score": 18
-    },
-    {
-      "id": "07ee0bca48d9",
-      "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding",
-      "url": "https://huggingface.co/papers/2609.04131",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Streaming video understanding requires multimodal large language models (MLLMs) to process continuous visual inputs and…",
-      "score": 16
+      "score": 30
     },
     {
       "id": "d3e17099c5d6",
@@ -59,6 +43,38 @@
       "url": "https://huggingface.co/papers/2609.03293",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Personalized assistants should not only comply with user requests but also assess whether those requests are appropriat…",
+      "score": 15
+    },
+    {
+      "id": "5a4583899608",
+      "title": "Last Translation Benchmark",
+      "url": "https://huggingface.co/papers/2609.04173",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods tha…",
+      "score": 13
+    },
+    {
+      "id": "13792a651dca",
+      "title": "Using Grounded Theory for Agent Behavior Analysis at Scale",
+      "url": "https://huggingface.co/papers/2608.30391",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Understanding agent behavior requires methods that scale to thousands of trajectories and surface new patterns in long,…",
+      "score": 11
+    },
+    {
+      "id": "6462a7d3321a",
+      "title": "Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs",
+      "url": "https://huggingface.co/papers/2609.03820",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Long-video language models cannot look at every frame: an hour sampled once per second is 3,600 images, and a system ke…",
+      "score": 8
+    },
+    {
+      "id": "0e7e4b5793a5",
+      "title": "Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration",
+      "url": "https://huggingface.co/papers/2609.01072",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Post-hoc calibration corrects reported confidence, yet a multiclass calibrator can also change the associated top-1 pre…",
       "score": 8
     },
     {
@@ -67,31 +83,7 @@
       "url": "https://huggingface.co/papers/2608.29253",
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "summary": "Instance segmentation of overlapping cells in microscopy remains challenging due to semi-transparent structures that pr…",
-      "score": 2
-    },
-    {
-      "id": "6462a7d3321a",
-      "title": "Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs",
-      "url": "https://huggingface.co/papers/2609.03820",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Long-video language models cannot look at every frame: an hour sampled once per second is 3,600 images, and a system ke…",
-      "score": 1
-    },
-    {
-      "id": "0e7e4b5793a5",
-      "title": "Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration",
-      "url": "https://huggingface.co/papers/2609.01072",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Post-hoc calibration corrects reported confidence, yet a multiclass calibrator can also change the associated top-1 pre…",
-      "score": 1
-    },
-    {
-      "id": "13792a651dca",
-      "title": "Using Grounded Theory for Agent Behavior Analysis at Scale",
-      "url": "https://huggingface.co/papers/2608.30391",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Understanding agent behavior requires methods that scale to thousands of trajectories and surface new patterns in long,…",
-      "score": 0
+      "score": 7
     },
     {
       "id": "506025dd89ca",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2609.02373",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "summary": "We study the dynamics of Stochastic Gradient Descent (SGD), which is known to steer deep neural networks toward invaria…",
-      "score": 0
+      "score": 7
+    },
+    {
+      "id": "e0883df745eb",
+      "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+      "url": "https://huggingface.co/papers/2609.04094",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Reinforcement Learning from Verifiable Rewards works well when a task has a programmatic checker, but most long-horizon…",
+      "score": 4
     }
   ],
-  "fetchedAt": "2026-09-04T12:12:41.350Z",
+  "fetchedAt": "2026-09-04T16:22:46.530Z",
   "stale": false,
   "error": null
 }
