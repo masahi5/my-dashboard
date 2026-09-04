@@ -6,36 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "8e787edeedc1",
-      "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
-      "url": "https://huggingface.co/papers/2609.03796",
+      "id": "fc7245108c46",
+      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+      "url": "https://huggingface.co/papers/2609.03430",
       "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a f…",
-      "score": 54
-    },
-    {
-      "id": "6ee03f64aac0",
-      "title": "LatentPress: Context Compression Beyond Text and Vision",
-      "url": "https://huggingface.co/papers/2609.01507",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Compressed context is usually carried as human-readable text or as rendered images that must be decoded, even when its …",
-      "score": 47
-    },
-    {
-      "id": "358d1b00aebb",
-      "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
-      "url": "https://huggingface.co/papers/2609.04098",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Hybrid LLMs pair softmax attention with linear-attention layers such as Gated DeltaNet (GDN), whose recurrent state sum…",
-      "score": 46
-    },
-    {
-      "id": "90fe4a6ef63d",
-      "title": "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests",
-      "url": "https://huggingface.co/papers/2608.27831",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Coding agents are now commonly evaluated on the SWE-bench family of benchmarks, whose tasks are built from curated GitH…",
-      "score": 4
+      "summary": "Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought…",
+      "score": 50
     },
     {
       "id": "7d51c02101a3",
@@ -43,66 +19,90 @@
       "url": "https://huggingface.co/papers/2609.04172",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Exi…",
+      "score": 43
+    },
+    {
+      "id": "6d8c1e767bf1",
+      "title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
+      "url": "https://huggingface.co/papers/2609.04196",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, …",
+      "score": 27
+    },
+    {
+      "id": "a58ca337060a",
+      "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+      "url": "https://huggingface.co/papers/2609.04199",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote …",
+      "score": 20
+    },
+    {
+      "id": "daa8d14e08f2",
+      "title": "The Missing Temporal Link: Temporal Context Routing for Script-Driven Audio-Video Generation",
+      "url": "https://huggingface.co/papers/2609.02367",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Joint audio-video generation models have made substantial progress in visual quality and audio-visual synchronization. …",
+      "score": 17
+    },
+    {
+      "id": "07ee0bca48d9",
+      "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding",
+      "url": "https://huggingface.co/papers/2609.04131",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Streaming video understanding requires multimodal large language models (MLLMs) to process continuous visual inputs and…",
+      "score": 12
+    },
+    {
+      "id": "744e7c484de1",
+      "title": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
+      "url": "https://huggingface.co/papers/2609.03952",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Camera-conditioned world models generate interactive videos in which commanded actions should induce the expected scene…",
+      "score": 6
+    },
+    {
+      "id": "d3e17099c5d6",
+      "title": "PACE: Towards Surfacing Hidden Conflicts in User Requests",
+      "url": "https://huggingface.co/papers/2609.03293",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Personalized assistants should not only comply with user requests but also assess whether those requests are appropriat…",
+      "score": 5
+    },
+    {
+      "id": "1d3e9473b87f",
+      "title": "Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training",
+      "url": "https://huggingface.co/papers/2608.26730",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "summary": "Large language models offer broad capabilities, but adapting them to evolving domains, tools, and requirements often en…",
+      "score": 4
+    },
+    {
+      "id": "6989156e8d4d",
+      "title": "FlashRender: Few-Step Generative Rendering via Camera-Controlled Video MeanFlow",
+      "url": "https://huggingface.co/papers/2609.03563",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "We present FlashRender, a few-step generative rendering framework that retakes a source video along a target camera tra…",
       "score": 3
     },
     {
-      "id": "bd6ffe996422",
-      "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
-      "url": "https://huggingface.co/papers/2609.04083",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "MLLM-based embedding models remain limited in compositional retrieval, often failing to distinguish scenes containing t…",
-      "score": 2
-    },
-    {
-      "id": "2638c7c71bb8",
-      "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
-      "url": "https://huggingface.co/papers/2609.04148",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "As terminal-based code agents become prevalent, agent trajectories have accumulated at scale, while realistic, executab…",
-      "score": 2
-    },
-    {
-      "id": "8520a4d6f74c",
-      "title": "Environment Evolution for Terminal Agents",
-      "url": "https://huggingface.co/papers/2609.04128",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Scaling interactive and verifiable environments is critical for training terminal agents. As frontier models become mor…",
+      "id": "0e7e4b5793a5",
+      "title": "Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration",
+      "url": "https://huggingface.co/papers/2609.01072",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Post-hoc calibration corrects reported confidence, yet a multiclass calibrator can also change the associated top-1 pre…",
       "score": 1
     },
     {
-      "id": "512c8825c905",
-      "title": "Replacing Training with Memory: Listwise Selection for Text-to-SQL",
-      "url": "https://huggingface.co/papers/2609.00834",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Modern Text-to-SQL systems often follow generate-execute-select pipelines, generating multiple candidate queries then s…",
-      "score": 1
-    },
-    {
-      "id": "4f658ca26d00",
-      "title": "An Empirical Study on Zero-Data Bootstrapping for Conversational Recommender Systems",
-      "url": "https://huggingface.co/papers/2504.15476",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Conversational Recommender Systems (CRS) typically require domain-specific dialogue data, which is costly, scarce, and …",
-      "score": 1
-    },
-    {
-      "id": "a6224ce814d7",
-      "title": "Editable Visual Design",
-      "url": "https://huggingface.co/papers/2609.04034",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "While diffusion base models such as GPT-Image-2 and Nano-Banana exhibit remarkable visual expressiveness, their end-to-…",
-      "score": 0
-    },
-    {
-      "id": "28c381809229",
-      "title": "Principia: Relational Physics Tests for Video Models",
-      "url": "https://huggingface.co/papers/2609.04200",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, o…",
+      "id": "506025dd89ca",
+      "title": "Percolation Dynamics in Optimization : Variance Cascades and Discrete Scale Invariance",
+      "url": "https://huggingface.co/papers/2609.02373",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "We study the dynamics of Stochastic Gradient Descent (SGD), which is known to steer deep neural networks toward invaria…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-04T02:44:29.031Z",
+  "fetchedAt": "2026-09-04T07:26:09.765Z",
   "stale": false,
   "error": null
 }
