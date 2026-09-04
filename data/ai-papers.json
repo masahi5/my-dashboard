@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.04199",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote …",
-      "score": 149
+      "score": 219
     },
     {
       "id": "1d3e9473b87f",
@@ -35,7 +35,15 @@
       "url": "https://huggingface.co/papers/2609.04201",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixe…",
-      "score": 30
+      "score": 32
+    },
+    {
+      "id": "e0883df745eb",
+      "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+      "url": "https://huggingface.co/papers/2609.04094",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Reinforcement Learning from Verifiable Rewards works well when a task has a programmatic checker, but most long-horizon…",
+      "score": 16
     },
     {
       "id": "d3e17099c5d6",
@@ -43,7 +51,7 @@
       "url": "https://huggingface.co/papers/2609.03293",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Personalized assistants should not only comply with user requests but also assess whether those requests are appropriat…",
-      "score": 15
+      "score": 16
     },
     {
       "id": "5a4583899608",
@@ -59,7 +67,7 @@
       "url": "https://huggingface.co/papers/2608.30391",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Understanding agent behavior requires methods that scale to thousands of trajectories and surface new patterns in long,…",
-      "score": 11
+      "score": 12
     },
     {
       "id": "6462a7d3321a",
@@ -67,7 +75,7 @@
       "url": "https://huggingface.co/papers/2609.03820",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Long-video language models cannot look at every frame: an hour sampled once per second is 3,600 images, and a system ke…",
-      "score": 8
+      "score": 9
     },
     {
       "id": "0e7e4b5793a5",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "summary": "We study the dynamics of Stochastic Gradient Descent (SGD), which is known to steer deep neural networks toward invaria…",
       "score": 7
-    },
-    {
-      "id": "e0883df745eb",
-      "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
-      "url": "https://huggingface.co/papers/2609.04094",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Reinforcement Learning from Verifiable Rewards works well when a task has a programmatic checker, but most long-horizon…",
-      "score": 4
     }
   ],
-  "fetchedAt": "2026-09-04T16:22:46.530Z",
+  "fetchedAt": "2026-09-04T19:02:25.137Z",
   "stale": false,
   "error": null
 }

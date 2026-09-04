@@ -6,6 +6,62 @@
   "category": "ai",
   "items": [
     {
+      "id": "4b4c35f26bce",
+      "title": "AIに人格を持たせるなら、「実際に言った言葉」と「本人ならこう言う」を本人に区別させる —— 兵法家の視点役から、原典に見つからない一句が落",
+      "url": "https://zenn.dev/relightks/articles/aa80fb8fde75ac",
+      "publishedAt": "2026-09-04T10:05:10.000Z",
+      "publisher": "イチカワコウタ",
+      "summary": "私は小さな会社をやりながら、開発と経営判断のほぼ全部をAIと二人三脚でやっています。その中で、Claude Codeのサブエージェントに歴史上の人物の思考様式を持たせて、「この人ならこの計画をどう見るか」を言わせる、という使い方をしていま…"
+    },
+    {
+      "id": "d5fb7a154dc4",
+      "title": "エンジニアの次、AIはどの仕事を直撃するのか？── 見抜くための3つのポイント",
+      "url": "https://zenn.dev/leading_ai/articles/closed-scoring-next-ai-frontier",
+      "publishedAt": "2026-09-04T09:49:32.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "序章：順番は、難易度で決まっていない 「AIに奪われる仕事ランキング」を、一度は目にしたことがあると思います。そのような記事は、たいてい同じ前提で書かれています。単純な仕事から先になくなり、難しい仕事は後まで残る。だからスキルを上げろ、と…"
+    },
+    {
+      "id": "7883b1223068",
+      "title": "GPT-6 Astraがリリース、ARG-AGI-3が99.9パーセント。特化ハーネスとは何か調べた",
+      "url": "https://zenn.dev/acntechjp/articles/a302d301eb9cec",
+      "publishedAt": "2026-09-04T09:45:05.000Z",
+      "publisher": "ShintaroAmaike",
+      "summary": "https://openai.com/index/gpt-6-astra/ はじめに 2026年7月末、OpenAIは「GPT-5.6 Solのスコアが、モデルを一切変えずにハーネス(実行環境)の設定を2つ変えるだけで3倍になった」という…"
+    },
+    {
+      "id": "17fde98ac5e5",
+      "title": "FlutterGemmaでGemma 4 E4Bが動かない理由を、公式CLIとの比較で切り分けた話",
+      "url": "https://zenn.dev/gitmame00/articles/a8f5f300d4ea86",
+      "publishedAt": "2026-09-04T09:32:01.000Z",
+      "publisher": "ゆうすけ",
+      "summary": "結論：Gemma 4は動く。動かないのはFlutter側だった。 数週間、Exa-Vision Pro に Gemma 4 E4B を組み込もうとしていました。 目標はシンプルです。 完全オフラインで、スマホだけでRAG＋LLM推論を実現…"
+    },
+    {
+      "id": "b1cdac4f2590",
+      "title": "【図解】〇〇エンジニアリングが多すぎるので、Claudeに任せる設計を4つに整理した",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-loop-graph-harness",
+      "publishedAt": "2026-09-04T09:24:58.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "はじめに Claude Code みたいなエージェント型 AI に仕事を任せるとき、人間って何を設計してるんでしょう。 最近、AI エージェント界隈では「〜エンジニアリング」って言葉がどんどん増えてますよね。プロンプトエンジニアリング、コ…"
+    },
+    {
+      "id": "3e5ef3dc99a7",
+      "title": "AIに「設計図」を渡すか「批評」を渡すか——DESIGN.md を同条件A/Bで実測した",
+      "url": "https://zenn.dev/jadaq/articles/55fe3f5479de02",
+      "publishedAt": "2026-09-04T09:24:26.000Z",
+      "publisher": "Jada QIU",
+      "summary": "結論から 同じモデル・同じお題で、参照ドキュメントだけを差し替えてランディングページを2枚生成させたら、トークン表まで書き込んだ「設計図」型ドキュメントの方が、設計思想を解説した「批評」型ドキュメントより明確に良い成果物を出した。ただし、…"
+    },
+    {
+      "id": "b932843aa37d",
+      "title": "AIに「50GBのログ調査」を聞いたら、うちの製品は出てこなかった",
+      "url": "https://zenn.dev/amru195704/articles/ac8aad4771bc84",
+      "publishedAt": "2026-09-04T09:13:59.000Z",
+      "publisher": "y4u",
+      "summary": "巨大テキストビューア UwView / UwView Pro を個人開発しています。ふと思い立って、4つのAIに同じ質問をぶつけてみました。結果は タイトルのとおりです。ただ、その後に試したもう一つの実験で、予想していなかったことが起きた…"
+    },
+    {
       "id": "eda94b39a7d8",
       "title": "推した動画を、自分で測って落とした（#29 投稿前予測）",
       "url": "https://zenn.dev/talks_tldr_jp/articles/tldr29-gustavsson-prediction",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-09-04T08:49:46.000Z",
       "publisher": "inori",
       "summary": "この記事でわかること Material 3 Expressiveで、なぜAIっぽさが消えるのか UIデザインがプロンプトに変わるツール 作ってみて分かったAIにUIを頼むときのコツ 先日、X にこんな投稿をしました。 みんな Androi…"
-    },
-    {
-      "id": "c73ca91ccb3a",
-      "title": "【受託SE向け】Claude Codeを「毎朝記憶が消える天才新人」として運用したら壊れなくなった【hook39本を全公開】",
-      "url": "https://zenn.dev/soeno9/books/claude-code-jutaku-ops",
-      "publishedAt": "2026-09-04T08:40:10.000Z",
-      "publisher": "添野文哉",
-      "summary": "受託開発SEが自分のプロジェクトで実際に回している Claude Code の運用一式を公開します。CLAUDE.md を 59 行に保つ規約分冊、役割別に設計した hook 39 本、AI の「直しました」を機械的に検証するビルドタイム…"
-    },
-    {
-      "id": "7897b37b0e0f",
-      "title": "LLM制御におけるインピーダンス整合アーキテクチャ仕様書",
-      "url": "https://zenn.dev/nanashi_os/articles/d452605d864926",
-      "publishedAt": "2026-09-04T07:26:49.000Z",
-      "publisher": "NanashiOS",
-      "summary": "読者の皆様へ 本論考は、LLM（大規模言語モデル）をプロダクションシステムに組み込む際、後付けのガードレール（監視プロセス）増設がなぜ構造的破綻を招くのかを明示し、確率モデルと決定論的プログラムの接合面における新たな制御設計思想（インピー…"
-    },
-    {
-      "id": "a2421e93016b",
-      "title": "GPT-6の発表とAIサービス障害が重なった日、私が心配になったこと",
-      "url": "https://zenn.dev/zengdan/articles/39aec924867716",
-      "publishedAt": "2026-09-04T07:16:54.000Z",
-      "publisher": "zeng dan",
-      "summary": "2026年9月3日、OpenAIがGPT-6 Astraを発表した。 コーディング、ブラウザー操作、調査、複数の工程をまたぐ仕事。発表を読むと、モデルが「質問に答える」段階から、「仕事を任せられる」段階へと進んでいることがわかる。作業中に…"
-    },
-    {
-      "id": "6f101e05ffb3",
-      "title": "非エンジニアが顧客リードを自動振り分けするシステムを作ってみた",
-      "url": "https://zenn.dev/quick_wpd/articles/bc1a49b9002bca",
-      "publishedAt": "2026-09-04T07:10:28.000Z",
-      "publisher": "SHMD",
-      "summary": "はじめに こんにちは！普段はコードを1行も書いたことがない、完全な「非エンジニア」として社内の業務改善に取り組んでいる島田と申します。 今回は、自部署で課題だった「メールで届く顧客リード（Webからの問い合わせや資料請求）の目視確認と、担…"
-    },
-    {
-      "id": "178864d0597b",
-      "title": "Shelly v8.0.0 —— エージェントに人格と学習力を持たせた2ヶ月",
-      "url": "https://zenn.dev/ryoitabashi/articles/024309b268734b",
-      "publishedAt": "2026-09-04T07:02:38.000Z",
-      "publisher": "RYO ITABASHI",
-      "summary": "前回の記事では、自律エージェントの話を書きました。自然文で登録すると Android の AlarmManager が画面オフのまま起こしてくれる。無人実行はわざと不自由にした。ウィジェットを「Codex モニター」から「エージェント発射…"
-    },
-    {
-      "id": "eac467b4d319",
-      "title": "人間が書かない開発日誌の作り方",
-      "url": "https://zenn.dev/taratta/articles/devlog-written-by-ai-staff",
-      "publishedAt": "2026-09-04T06:30:03.000Z",
-      "publisher": "タラッタタラッタラ",
-      "summary": "結論：開発日誌を自分の手で書くのはやめた。AIスタッフが仕事のたびに書く完了報告を、機械の篩に通してそのまま公開する。今日、その第一陣21本を出した。この記事は、その仕組みと、公開直前に見つかった篩の穴の話だ。 https://githu…"
-    },
-    {
-      "id": "41121ace3453",
-      "title": "Claude Fable 5.1、GPT-6 Astra。爆速進化の時代に、人間は何をすべきなのか",
-      "url": "https://zenn.dev/eques_blog/articles/190b5c5a7aa980",
-      "publishedAt": "2026-09-04T06:17:49.000Z",
-      "publisher": "岸本悠佑_AIサムライ",
-      "summary": "はじめに 私は札幌で現役のAIコンサルをしながら、「札幌すごいAI会」というコミュニティを運営しています。 2025年3月に発足して、これまでイベントを30回以上開催し、Discordは200名を越えました。2026年2月には「札幌すごい…"
     }
   ],
-  "fetchedAt": "2026-09-04T16:22:46.684Z",
+  "fetchedAt": "2026-09-04T19:02:25.278Z",
   "stale": false,
   "error": null
 }
