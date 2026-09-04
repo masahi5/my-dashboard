@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "d8ce806626c5",
-      "title": "文字数もNGワードも、実は同じ文字列マッチでコード実行検証できる",
-      "url": "https://zenn.dev/every_ai_recipe/articles/claim-email-ngword-charcount-check",
-      "publishedAt": "2026-09-04T21:11:28.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 「150字以内」「特定の紋切り型表現を使わない」「謝罪は1回だけ」という3種類の制約を持つメール文面を、コード実行機能を使って1回のプロンプトでまとめて検証できるか試した 文字数のような hard constraint（数え上…"
+      "id": "32b17e6a2bc9",
+      "title": "AIで社内ツールは作れた。問題は、それを会社に置けるかだった",
+      "url": "https://zenn.dev/hanamilo/articles/f3ad2cea6f4c32",
+      "publishedAt": "2026-09-04T13:42:03.000Z",
+      "publisher": "hanamilo",
+      "summary": "自分のいないところで、止まっていた 社内向けのWebツールを、半年かけて作った。Claudeとチャットで対話しながら、少しずつ。 私は現場の人間で、専門の開発者ではない。 機能は一通り揃い、あとは使ってもらうだけ、という段階まで来ていた。…"
     },
     {
-      "id": "202f59a82e91",
-      "title": "Claude Code の委譲を実測した — ブラウザ巡回を子に投げると親の文脈は1/8、ただし総トークンでは負ける",
-      "url": "https://zenn.dev/genkunjc/articles/subagent-delegation-measured",
-      "publishedAt": "2026-09-04T20:55:28.000Z",
-      "publisher": "genkunjc",
-      "summary": "Claude Code を使っていると、「この作業は子エージェントに投げたほうが安いのでは」と思う場面があります。サブエージェント（Agent ツールで起動する別セッション。ツールの実行結果は親の会話に入らず、最終報告だけが返ってくる）に…"
+      "id": "f033b012645f",
+      "title": "AI社員に監査役を置いた日、監査役が私の見落としを7つ見つけた 🔍",
+      "url": "https://zenn.dev/edhiblemeer/articles/c67ad391b68586",
+      "publishedAt": "2026-09-04T12:59:04.000Z",
+      "publisher": "yoshi",
+      "summary": "何をした日か 2026年9月4日、うちのAI社員に 監査役を3名 足した。同じ日に、社員どうしの 連絡ルートの設計を作り直した。 その夜、監査役が動き始めて数分で、私の見落としを次々に見つけてきた。 最終的に7つ。全部、私が出した指示やツ…"
     },
     {
-      "id": "fd4191efd979",
-      "title": "型チェックは通る — Claude Code の失敗13件と、気づく仕組みの作り方",
-      "url": "https://zenn.dev/genkunjc/books/claude-code-parallel-kit",
-      "publishedAt": "2026-09-04T20:14:05.000Z",
-      "publisher": "genkunjc",
-      "summary": "AIコーディングエージェントは、エラーを出さずに壊れます。型チェックは通り、ビルドも通り、報告には「完了しました」と書いてある。実際に起きた13件を「症状／本当の原因／なぜ発見が遅れるか／対策」の形でまとめました。中心は3番目です。「気を…"
+      "id": "18f8dc4ff177",
+      "title": "月額209円の文字起こしAIを錬成した話 ― AIツールの料金追跡をGASで作る",
+      "url": "https://zenn.dev/ai_kakin/articles/940e9a56f253c9",
+      "publishedAt": "2026-09-04T12:53:18.000Z",
+      "publisher": "Shun＠AI課金メモ",
+      "summary": "上位プランのほうが5倍安いんですが 自分で作った価格追跡サイトを眺めていて、手が止まりました。 プラン 価格 月換算 プレミアム ¥1,185 / 月額 ¥1,185/月 ビジネス ¥2,508 / 年額 ¥209/月 月209円。 上位…"
     },
     {
-      "id": "eb0341fb9941",
-      "title": "AI AgentはRailsで作りたいが、ai-sdk useChatに表示は任せたい人へ",
-      "url": "https://zenn.dev/shuent/articles/e0c159cd2989f9",
-      "publishedAt": "2026-09-04T18:46:30.000Z",
-      "publisher": "shuent",
-      "summary": "RailsでAI Agentを書き、そのstreaming UIをAI SDKのuseChatで扱えるようにするため、Rubyのprovider SDK eventを AI SDK UI Message Stream Protocol v…"
+      "id": "87af36bf29f1",
+      "title": "バイブコーディングにハマって開発してたら、いつの間にかターミナルアプリを作っていた話 #4 IMEと全角文字との戦い編",
+      "url": "https://zenn.dev/microai/articles/c0d3f7253f7032",
+      "publishedAt": "2026-09-04T12:45:46.000Z",
+      "publisher": "microAI",
+      "summary": "自己紹介 仕事の合間にMacアプリを開発して遊んでいる、駆け出しのMacアプリ開発エンジニアです。 バイブコーディングでの開発、楽しいですね！ AIエージェントの契約状況 Claude Code Max 20x を3アカウント Codex…"
     },
     {
-      "id": "9e80029f9d7a",
-      "title": "AIで作ったHTMLゲーム、どこに投稿できる？ 2026年9月に7つ調べた",
-      "url": "https://zenn.dev/punipogames/articles/1950d42da0e4b1",
-      "publishedAt": "2026-09-04T17:46:30.000Z",
-      "publisher": "PUNIPO",
-      "summary": "ChatGPTやClaudeに「ミニゲーム作って」と頼むと、HTMLファイルが1枚出てきます。ブラウザで開けば動く。じゃあこれをどこに置けば人に遊んでもらえるのか。 2026年9月に、投稿できそうなサイトを7つ、公式ページの記載を読んで調…"
+      "id": "869bcee68b36",
+      "title": "AIに作らせた画面が「AIっぽい」のは、センスの問題ではない",
+      "url": "https://zenn.dev/quintetkit/articles/ai-generated-ui-fix",
+      "publishedAt": "2026-09-04T12:31:14.000Z",
+      "publisher": "Quintet Kit",
+      "summary": "生成AIに画面を作らせると、毎回これが出てきます。 全画面中央揃えのヒーロー。大きな見出し、サブテキスト、その下にCTAボタン アイコン付き3カラムの等幅カード 紫から青のグラデーション背景、またはグラデーションの見出し文字 ワードマーク…"
     },
     {
-      "id": "393de74f9dec",
-      "title": "Claude Code × git worktree で並列実行 — 黙って壊れた3つと、分割の境界線",
-      "url": "https://zenn.dev/genkunjc/articles/ead8b520c22733",
-      "publishedAt": "2026-09-04T17:21:06.000Z",
-      "publisher": "genkunjc",
-      "summary": "AIコーディングエージェントを1体ずつ順番に走らせていると、経過時間はほぼ「自分が待っている時間」になります。独立した作業を複数のサブエージェントに分けて同時に走らせれば、そこは縮みます。 ただ、素直にやると壊れます。しかもエラーを出さず…"
+      "id": "d35c62e178e7",
+      "title": "PythonとQiskitで実装する量子ウォーク：不規則な拡散プロセスをシミュレートする",
+      "url": "https://zenn.dev/jqca/articles/d618a98f7e25",
+      "publishedAt": "2026-09-04T12:24:36.000Z",
+      "publisher": "一般社団法人日本量子コンピューティング協会",
+      "summary": "量子コンピュータのアルゴリズムを理解する上で、古典的なランダムウォークとの違いを学ぶことは非常に重要です。古典的なランダムウォークが確率的に一歩ずつ進むのに対し、量子ウォークは「重ね合わせ」を利用して、複数の経路を同時に探索するように進み…"
     },
     {
-      "id": "089cc40ec278",
-      "title": "コードが読めないまま、AIの書いたものを検収する — 非エンジニアの検査チェックリスト",
-      "url": "https://zenn.dev/omnikros/books/inspect-ai-written-code",
-      "publishedAt": "2026-09-04T16:17:17.000Z",
-      "publisher": "omnikros",
-      "summary": "実装をAIに任せると、出てくるものは驚くほどよく動きます。 問題は、動いているのに目的が果たされていないときで、そこにはエラーが出ません。 私はコードが読めないまま6つのサイトと1つの有料商品を公開して、 索引から36ページを消し(データ…"
+      "id": "0410b9d740b2",
+      "title": "エージェントが考えている間にツールを先に叩くSPORK、待ち時間を18%削る",
+      "url": "https://zenn.dev/okssusucha/articles/20260715-spork-self-speculative-forking-agentic-in",
+      "publishedAt": "2026-09-04T12:14:31.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "ツールを呼ぶAIエージェントが遅いとき、犯人はたいてい「モデルの生成が遅い」ことではない。search() や run_sql() の結果が返ってくるのを、GPUが手を止めて待っている時間だ。7月にarXivに出た SPORK は、この「…"
     },
     {
-      "id": "2882fbb0049c",
-      "title": "指標が外れた夜 — H3コンテストで受賞した理由",
-      "url": "https://zenn.dev/toki_mwc/articles/h3-contest-best-creative-metric-override",
-      "publishedAt": "2026-09-04T15:01:56.000Z",
-      "publisher": "toki_mwc",
-      "summary": "Quick Answer 自作の画質指標が「閾値超え（8.00 対 基準6.0）」と判定した精細化ショットを、目視で採用に覆してH3動画コンテストのBest Creative部門を受賞した。原因は指標の校正素材（線画）と本番素材（グレイン…"
+      "id": "f61a40b367ad",
+      "title": "ランディングページの表示速度を1.2秒→0.3秒にしました。やったことを全部書きます",
+      "url": "https://zenn.dev/jordisantamaria/articles/landing-off-the-server",
+      "publishedAt": "2026-09-04T12:00:05.000Z",
+      "publisher": "Jordi Santamaria Portoles",
+      "summary": "1.2秒かかっていたランディングページが、0.3秒で開くようになりました。 ホスティングは月0円、Lighthouse 100。サーバーは1台も使っていません。 先週、個人開発のバックエンドをVercelからFly.ioへ移した話を書きま…"
     },
     {
-      "id": "0c2c118ef743",
-      "title": "【プロンプトインジェクション】AI時代の「見えない指示」の落とし穴",
-      "url": "https://zenn.dev/ykbone/articles/202609-prompt-injection",
-      "publishedAt": "2026-09-04T14:55:13.000Z",
-      "publisher": "ykbone",
-      "summary": "はじめに AIエディタやチャットAIに、こんなお願いをしたことはありませんか。 このURLの記事を読んで、要約して 私もやったことがあります。ある勉強会にて「その操作が情報漏洩の入り口になりうる」と聞いて、正直ぴんと来ませんでした。読ませ…"
+      "id": "5aa71024eb93",
+      "title": "AIエージェントに記事投稿を任せたら、自分自身の記事を複製していた話 — 重複記事とレート制限、24時間の実験ログ",
+      "url": "https://zenn.dev/hideki_tamae/articles/ai-publishing-pipeline-log",
+      "publishedAt": "2026-09-04T11:31:07.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに 24時間。 これが何の数字か、先に種明かしはしません。まずこの記事を書くまでの経緯から話させてください。 この技術記事シリーズ（Zenn・Qiita合わせてこれで20本を超えました）は、私が毎回手でエディタを開いて書いているわけ…"
     },
     {
-      "id": "69c81f9a1966",
-      "title": "開発の副産物もね：AI組織が自発的に生み出した「サントラジャケット」と「ノベライズ装丁書籍」",
-      "url": "https://zenn.dev/momoch/articles/1a3cb92ecdc6aa",
-      "publishedAt": "2026-09-04T14:24:06.000Z",
-      "publisher": "momoch",
-      "summary": "「動いただけのゲームは、ただのシステムだ。プレイヤーの心を揺さぶるのは、いつだって草の匂いと、ギリギリで耐え抜くドラムロールの緊張感だ。」 白い豆腐が歩き出したαテストから数日──AIマルチエージェントスタジオ『Sternentor』は、…"
+      "id": "45c023816ae5",
+      "title": "アラビア語の学習サイトを個人で作った ─ コードはAIに任せて、いちばん時間を使ったのはライセンスだった",
+      "url": "https://zenn.dev/taichi_sigma2/articles/87258c063b25c6",
+      "publishedAt": "2026-09-04T11:25:59.000Z",
+      "publisher": "shigetaichi",
+      "summary": "日本語でアラビア語を体系的に学べる無料の教材サイトを作って、公開しています。 https://darasa.jp 文字の読み方から上級文法まで、解説が50課。それに語彙30セットと短編20編。演習のあるページが98で、問題が1,122問あ…"
     },
     {
-      "id": "0cb45a195254",
-      "title": "Codex Hooksで入力時と終了時に品質ゲートを置く",
-      "url": "https://zenn.dev/kas_blog/articles/20260828-codex-hooks-quality-gates",
-      "publishedAt": "2026-09-04T14:23:48.000Z",
-      "publisher": "kas's blog",
-      "summary": "Codex Hooksを使うと、ユーザー入力の送信前、tool実行の前後、Codexが停止するときなどにcommandやMCP toolを実行できます。実装時に大切なのは、Hookを増やすことより、止めたい処理より前のイベントを選ぶことで…"
+      "id": "f5a809ad96e3",
+      "title": "🐔量子技術を使って光でAIを動かす",
+      "url": "https://zenn.dev/poyopuyo/articles/effb518d9fd34e",
+      "publishedAt": "2026-09-04T11:00:07.000Z",
+      "publisher": "ぽよぷよ",
+      "summary": "今回のテーマは、 光でAIを計算するときに苦手だった処理を、量子技術で省エネにする研究 である。 AIの計算を、電気ではなく光でやろうという研究が進んでいる。光は高速で、たくさんの信号を同時に扱えるので、大量の計算が必要なAIとは相性がよ…"
     },
     {
-      "id": "8a87b417fcae",
-      "title": "フリーランス案件の「求めるスキル」にAIが入り始めた——今、何を準備すべきか",
-      "url": "https://zenn.dev/takabo/articles/ai-skill-requirement",
-      "publishedAt": "2026-09-04T14:11:33.000Z",
-      "publisher": "takabo",
-      "summary": "最近、案件の「求めるスキル」に「AI支援ツールを活用した開発経験」「LLMを用いた実務経験」といった一文をよく見る。まだ全案件の常識ではないが、確実に増えている。募集中案件を言語別に独自調査すると、AIに言及する割合はこうだった。 言語 …"
+      "id": "b2f0cdd468eb",
+      "title": "Claude/ChatGPT/Gemini 即効スキル25個 全文日本語化（省略なし・コピペ可）",
+      "url": "https://zenn.dev/trailfusionai/articles/ai-news-20260513000251-07fa5e",
+      "publishedAt": "2026-09-04T10:52:52.000Z",
+      "publisher": "Trailfusion AI",
+      "summary": "Claude の Skills、ChatGPT の Custom GPT、Gemini の Gem — どれも本質は「役割と制約を明文化した .md」を読み込ませることです。本記事では、英語圏で配布されている実用スキル25個を 一切省略せ…"
     }
   ],
-  "fetchedAt": "2026-09-04T21:27:58.929Z",
+  "fetchedAt": "2026-09-04T23:11:44.272Z",
   "stale": false,
   "error": null
 }
