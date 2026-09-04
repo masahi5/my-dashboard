@@ -6,28 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "fc7245108c46",
-      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
-      "url": "https://huggingface.co/papers/2609.03430",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought…",
-      "score": 50
-    },
-    {
-      "id": "7d51c02101a3",
-      "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
-      "url": "https://huggingface.co/papers/2609.04172",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Exi…",
-      "score": 43
-    },
-    {
       "id": "6d8c1e767bf1",
       "title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
       "url": "https://huggingface.co/papers/2609.04196",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, …",
-      "score": 27
+      "score": 34
     },
     {
       "id": "a58ca337060a",
@@ -35,39 +19,7 @@
       "url": "https://huggingface.co/papers/2609.04199",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote …",
-      "score": 20
-    },
-    {
-      "id": "daa8d14e08f2",
-      "title": "The Missing Temporal Link: Temporal Context Routing for Script-Driven Audio-Video Generation",
-      "url": "https://huggingface.co/papers/2609.02367",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Joint audio-video generation models have made substantial progress in visual quality and audio-visual synchronization. …",
-      "score": 17
-    },
-    {
-      "id": "07ee0bca48d9",
-      "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding",
-      "url": "https://huggingface.co/papers/2609.04131",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Streaming video understanding requires multimodal large language models (MLLMs) to process continuous visual inputs and…",
-      "score": 12
-    },
-    {
-      "id": "744e7c484de1",
-      "title": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
-      "url": "https://huggingface.co/papers/2609.03952",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Camera-conditioned world models generate interactive videos in which commanded actions should induce the expected scene…",
-      "score": 6
-    },
-    {
-      "id": "d3e17099c5d6",
-      "title": "PACE: Towards Surfacing Hidden Conflicts in User Requests",
-      "url": "https://huggingface.co/papers/2609.03293",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Personalized assistants should not only comply with user requests but also assess whether those requests are appropriat…",
-      "score": 5
+      "score": 29
     },
     {
       "id": "1d3e9473b87f",
@@ -75,15 +27,55 @@
       "url": "https://huggingface.co/papers/2608.26730",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "summary": "Large language models offer broad capabilities, but adapting them to evolving domains, tools, and requirements often en…",
-      "score": 4
+      "score": 24
     },
     {
-      "id": "6989156e8d4d",
-      "title": "FlashRender: Few-Step Generative Rendering via Camera-Controlled Video MeanFlow",
-      "url": "https://huggingface.co/papers/2609.03563",
+      "id": "587ffb5e254b",
+      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+      "url": "https://huggingface.co/papers/2609.04201",
       "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We present FlashRender, a few-step generative rendering framework that retakes a source video along a target camera tra…",
-      "score": 3
+      "summary": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixe…",
+      "score": 21
+    },
+    {
+      "id": "daa8d14e08f2",
+      "title": "The Missing Temporal Link: Temporal Context Routing for Script-Driven Audio-Video Generation",
+      "url": "https://huggingface.co/papers/2609.02367",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Joint audio-video generation models have made substantial progress in visual quality and audio-visual synchronization. …",
+      "score": 18
+    },
+    {
+      "id": "07ee0bca48d9",
+      "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding",
+      "url": "https://huggingface.co/papers/2609.04131",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Streaming video understanding requires multimodal large language models (MLLMs) to process continuous visual inputs and…",
+      "score": 16
+    },
+    {
+      "id": "d3e17099c5d6",
+      "title": "PACE: Towards Surfacing Hidden Conflicts in User Requests",
+      "url": "https://huggingface.co/papers/2609.03293",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Personalized assistants should not only comply with user requests but also assess whether those requests are appropriat…",
+      "score": 8
+    },
+    {
+      "id": "05ddeb9512f0",
+      "title": "QCell: Recombining and Aligning Cell Queries for Overlapping Instance Segmentation",
+      "url": "https://huggingface.co/papers/2608.29253",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Instance segmentation of overlapping cells in microscopy remains challenging due to semi-transparent structures that pr…",
+      "score": 2
+    },
+    {
+      "id": "6462a7d3321a",
+      "title": "Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs",
+      "url": "https://huggingface.co/papers/2609.03820",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Long-video language models cannot look at every frame: an hour sampled once per second is 3,600 images, and a system ke…",
+      "score": 1
     },
     {
       "id": "0e7e4b5793a5",
@@ -94,6 +86,14 @@
       "score": 1
     },
     {
+      "id": "13792a651dca",
+      "title": "Using Grounded Theory for Agent Behavior Analysis at Scale",
+      "url": "https://huggingface.co/papers/2608.30391",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Understanding agent behavior requires methods that scale to thousands of trajectories and surface new patterns in long,…",
+      "score": 0
+    },
+    {
       "id": "506025dd89ca",
       "title": "Percolation Dynamics in Optimization : Variance Cascades and Discrete Scale Invariance",
       "url": "https://huggingface.co/papers/2609.02373",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-04T07:26:09.765Z",
+  "fetchedAt": "2026-09-04T12:12:41.350Z",
   "stale": false,
   "error": null
 }
