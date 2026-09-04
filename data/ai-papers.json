@@ -11,23 +11,7 @@
       "url": "https://huggingface.co/papers/2609.04199",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote …",
-      "score": 219
-    },
-    {
-      "id": "1d3e9473b87f",
-      "title": "Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training",
-      "url": "https://huggingface.co/papers/2608.26730",
-      "publishedAt": "2026-08-27T00:00:00.000Z",
-      "summary": "Large language models offer broad capabilities, but adapting them to evolving domains, tools, and requirements often en…",
-      "score": 139
-    },
-    {
-      "id": "6d8c1e767bf1",
-      "title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
-      "url": "https://huggingface.co/papers/2609.04196",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, …",
-      "score": 56
+      "score": 238
     },
     {
       "id": "587ffb5e254b",
@@ -35,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.04201",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixe…",
-      "score": 32
+      "score": 33
     },
     {
       "id": "e0883df745eb",
@@ -43,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.04094",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Reinforcement Learning from Verifiable Rewards works well when a task has a programmatic checker, but most long-horizon…",
-      "score": 16
+      "score": 17
     },
     {
       "id": "d3e17099c5d6",
@@ -100,9 +84,25 @@
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "summary": "We study the dynamics of Stochastic Gradient Descent (SGD), which is known to steer deep neural networks toward invaria…",
       "score": 7
+    },
+    {
+      "id": "170844cc0cf9",
+      "title": "Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space",
+      "url": "https://huggingface.co/papers/2608.29188",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) substantially improves single-sample accuracy (pass@1) but causes…",
+      "score": 2
+    },
+    {
+      "id": "02c316b249cb",
+      "title": "VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement",
+      "url": "https://huggingface.co/papers/2609.03153",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Visual fluency in generated video does not imply physical reliability, and a scalar quality score alone is incapable of…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-04T19:02:25.137Z",
+  "fetchedAt": "2026-09-04T21:27:58.761Z",
   "stale": false,
   "error": null
 }

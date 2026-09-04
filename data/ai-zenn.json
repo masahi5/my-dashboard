@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "4b4c35f26bce",
-      "title": "AIに人格を持たせるなら、「実際に言った言葉」と「本人ならこう言う」を本人に区別させる —— 兵法家の視点役から、原典に見つからない一句が落",
-      "url": "https://zenn.dev/relightks/articles/aa80fb8fde75ac",
-      "publishedAt": "2026-09-04T10:05:10.000Z",
-      "publisher": "イチカワコウタ",
-      "summary": "私は小さな会社をやりながら、開発と経営判断のほぼ全部をAIと二人三脚でやっています。その中で、Claude Codeのサブエージェントに歴史上の人物の思考様式を持たせて、「この人ならこの計画をどう見るか」を言わせる、という使い方をしていま…"
+      "id": "d8ce806626c5",
+      "title": "文字数もNGワードも、実は同じ文字列マッチでコード実行検証できる",
+      "url": "https://zenn.dev/every_ai_recipe/articles/claim-email-ngword-charcount-check",
+      "publishedAt": "2026-09-04T21:11:28.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 「150字以内」「特定の紋切り型表現を使わない」「謝罪は1回だけ」という3種類の制約を持つメール文面を、コード実行機能を使って1回のプロンプトでまとめて検証できるか試した 文字数のような hard constraint（数え上…"
     },
     {
-      "id": "d5fb7a154dc4",
-      "title": "エンジニアの次、AIはどの仕事を直撃するのか？── 見抜くための3つのポイント",
-      "url": "https://zenn.dev/leading_ai/articles/closed-scoring-next-ai-frontier",
-      "publishedAt": "2026-09-04T09:49:32.000Z",
-      "publisher": "山内 怜史（Satoshi Yamauchi）",
-      "summary": "序章：順番は、難易度で決まっていない 「AIに奪われる仕事ランキング」を、一度は目にしたことがあると思います。そのような記事は、たいてい同じ前提で書かれています。単純な仕事から先になくなり、難しい仕事は後まで残る。だからスキルを上げろ、と…"
+      "id": "202f59a82e91",
+      "title": "Claude Code の委譲を実測した — ブラウザ巡回を子に投げると親の文脈は1/8、ただし総トークンでは負ける",
+      "url": "https://zenn.dev/genkunjc/articles/subagent-delegation-measured",
+      "publishedAt": "2026-09-04T20:55:28.000Z",
+      "publisher": "genkunjc",
+      "summary": "Claude Code を使っていると、「この作業は子エージェントに投げたほうが安いのでは」と思う場面があります。サブエージェント（Agent ツールで起動する別セッション。ツールの実行結果は親の会話に入らず、最終報告だけが返ってくる）に…"
     },
     {
-      "id": "7883b1223068",
-      "title": "GPT-6 Astraがリリース、ARG-AGI-3が99.9パーセント。特化ハーネスとは何か調べた",
-      "url": "https://zenn.dev/acntechjp/articles/a302d301eb9cec",
-      "publishedAt": "2026-09-04T09:45:05.000Z",
-      "publisher": "ShintaroAmaike",
-      "summary": "https://openai.com/index/gpt-6-astra/ はじめに 2026年7月末、OpenAIは「GPT-5.6 Solのスコアが、モデルを一切変えずにハーネス(実行環境)の設定を2つ変えるだけで3倍になった」という…"
+      "id": "fd4191efd979",
+      "title": "型チェックは通る — Claude Code の失敗13件と、気づく仕組みの作り方",
+      "url": "https://zenn.dev/genkunjc/books/claude-code-parallel-kit",
+      "publishedAt": "2026-09-04T20:14:05.000Z",
+      "publisher": "genkunjc",
+      "summary": "AIコーディングエージェントは、エラーを出さずに壊れます。型チェックは通り、ビルドも通り、報告には「完了しました」と書いてある。実際に起きた13件を「症状／本当の原因／なぜ発見が遅れるか／対策」の形でまとめました。中心は3番目です。「気を…"
     },
     {
-      "id": "17fde98ac5e5",
-      "title": "FlutterGemmaでGemma 4 E4Bが動かない理由を、公式CLIとの比較で切り分けた話",
-      "url": "https://zenn.dev/gitmame00/articles/a8f5f300d4ea86",
-      "publishedAt": "2026-09-04T09:32:01.000Z",
-      "publisher": "ゆうすけ",
-      "summary": "結論：Gemma 4は動く。動かないのはFlutter側だった。 数週間、Exa-Vision Pro に Gemma 4 E4B を組み込もうとしていました。 目標はシンプルです。 完全オフラインで、スマホだけでRAG＋LLM推論を実現…"
+      "id": "eb0341fb9941",
+      "title": "AI AgentはRailsで作りたいが、ai-sdk useChatに表示は任せたい人へ",
+      "url": "https://zenn.dev/shuent/articles/e0c159cd2989f9",
+      "publishedAt": "2026-09-04T18:46:30.000Z",
+      "publisher": "shuent",
+      "summary": "RailsでAI Agentを書き、そのstreaming UIをAI SDKのuseChatで扱えるようにするため、Rubyのprovider SDK eventを AI SDK UI Message Stream Protocol v…"
     },
     {
-      "id": "b1cdac4f2590",
-      "title": "【図解】〇〇エンジニアリングが多すぎるので、Claudeに任せる設計を4つに整理した",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-loop-graph-harness",
-      "publishedAt": "2026-09-04T09:24:58.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "はじめに Claude Code みたいなエージェント型 AI に仕事を任せるとき、人間って何を設計してるんでしょう。 最近、AI エージェント界隈では「〜エンジニアリング」って言葉がどんどん増えてますよね。プロンプトエンジニアリング、コ…"
+      "id": "9e80029f9d7a",
+      "title": "AIで作ったHTMLゲーム、どこに投稿できる？ 2026年9月に7つ調べた",
+      "url": "https://zenn.dev/punipogames/articles/1950d42da0e4b1",
+      "publishedAt": "2026-09-04T17:46:30.000Z",
+      "publisher": "PUNIPO",
+      "summary": "ChatGPTやClaudeに「ミニゲーム作って」と頼むと、HTMLファイルが1枚出てきます。ブラウザで開けば動く。じゃあこれをどこに置けば人に遊んでもらえるのか。 2026年9月に、投稿できそうなサイトを7つ、公式ページの記載を読んで調…"
     },
     {
-      "id": "3e5ef3dc99a7",
-      "title": "AIに「設計図」を渡すか「批評」を渡すか——DESIGN.md を同条件A/Bで実測した",
-      "url": "https://zenn.dev/jadaq/articles/55fe3f5479de02",
-      "publishedAt": "2026-09-04T09:24:26.000Z",
-      "publisher": "Jada QIU",
-      "summary": "結論から 同じモデル・同じお題で、参照ドキュメントだけを差し替えてランディングページを2枚生成させたら、トークン表まで書き込んだ「設計図」型ドキュメントの方が、設計思想を解説した「批評」型ドキュメントより明確に良い成果物を出した。ただし、…"
+      "id": "393de74f9dec",
+      "title": "Claude Code × git worktree で並列実行 — 黙って壊れた3つと、分割の境界線",
+      "url": "https://zenn.dev/genkunjc/articles/ead8b520c22733",
+      "publishedAt": "2026-09-04T17:21:06.000Z",
+      "publisher": "genkunjc",
+      "summary": "AIコーディングエージェントを1体ずつ順番に走らせていると、経過時間はほぼ「自分が待っている時間」になります。独立した作業を複数のサブエージェントに分けて同時に走らせれば、そこは縮みます。 ただ、素直にやると壊れます。しかもエラーを出さず…"
     },
     {
-      "id": "b932843aa37d",
-      "title": "AIに「50GBのログ調査」を聞いたら、うちの製品は出てこなかった",
-      "url": "https://zenn.dev/amru195704/articles/ac8aad4771bc84",
-      "publishedAt": "2026-09-04T09:13:59.000Z",
-      "publisher": "y4u",
-      "summary": "巨大テキストビューア UwView / UwView Pro を個人開発しています。ふと思い立って、4つのAIに同じ質問をぶつけてみました。結果は タイトルのとおりです。ただ、その後に試したもう一つの実験で、予想していなかったことが起きた…"
+      "id": "089cc40ec278",
+      "title": "コードが読めないまま、AIの書いたものを検収する — 非エンジニアの検査チェックリスト",
+      "url": "https://zenn.dev/omnikros/books/inspect-ai-written-code",
+      "publishedAt": "2026-09-04T16:17:17.000Z",
+      "publisher": "omnikros",
+      "summary": "実装をAIに任せると、出てくるものは驚くほどよく動きます。 問題は、動いているのに目的が果たされていないときで、そこにはエラーが出ません。 私はコードが読めないまま6つのサイトと1つの有料商品を公開して、 索引から36ページを消し(データ…"
     },
     {
-      "id": "eda94b39a7d8",
-      "title": "推した動画を、自分で測って落とした（#29 投稿前予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr29-gustavsson-prediction",
-      "publishedAt": "2026-09-04T09:00:09.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
+      "id": "2882fbb0049c",
+      "title": "指標が外れた夜 — H3コンテストで受賞した理由",
+      "url": "https://zenn.dev/toki_mwc/articles/h3-contest-best-creative-metric-override",
+      "publishedAt": "2026-09-04T15:01:56.000Z",
+      "publisher": "toki_mwc",
+      "summary": "Quick Answer 自作の画質指標が「閾値超え（8.00 対 基準6.0）」と判定した精細化ショットを、目視で採用に覆してH3動画コンテストのBest Creative部門を受賞した。原因は指標の校正素材（線画）と本番素材（グレイン…"
     },
     {
-      "id": "8a8ad0522b8b",
-      "title": "止まったスプリントの原因は「具体と抽象」ではなかった",
-      "url": "https://zenn.dev/kazukinagata/articles/34e7d5f331e4c3",
-      "publishedAt": "2026-09-04T09:00:05.000Z",
-      "publisher": "kazukinagata",
-      "summary": "こんにちは、StoreHero で CPO をしている永田です。 先日、開発チームのスプリントが止まりました。止まった理由をチームはこう説明しました。「もっと抽象的な理解ができるようにならないと」。私はそれを訂正せず、そうだねと受け取りま…"
+      "id": "0c2c118ef743",
+      "title": "【プロンプトインジェクション】AI時代の「見えない指示」の落とし穴",
+      "url": "https://zenn.dev/ykbone/articles/202609-prompt-injection",
+      "publishedAt": "2026-09-04T14:55:13.000Z",
+      "publisher": "ykbone",
+      "summary": "はじめに AIエディタやチャットAIに、こんなお願いをしたことはありませんか。 このURLの記事を読んで、要約して 私もやったことがあります。ある勉強会にて「その操作が情報漏洩の入り口になりうる」と聞いて、正直ぴんと来ませんでした。読ませ…"
     },
     {
-      "id": "42867ba082fb",
-      "title": "偶然の一致が、間違った説明を「未確認」から「確認済み」に格上げした",
-      "url": "https://zenn.dev/matsutake_prgrm/articles/the-coincidence-promoted-a-wrong-explanation",
-      "publishedAt": "2026-09-04T09:00:05.000Z",
-      "publisher": "まつたけ",
-      "summary": "! 2作目のポートフォリオとして「Hubpin」（分散した発信を1か所に集めるハブサイト）を作りながら書いています。 リポジトリ: https://github.com/Matsutake29/hubpin Next.js（App Rou…"
+      "id": "69c81f9a1966",
+      "title": "開発の副産物もね：AI組織が自発的に生み出した「サントラジャケット」と「ノベライズ装丁書籍」",
+      "url": "https://zenn.dev/momoch/articles/1a3cb92ecdc6aa",
+      "publishedAt": "2026-09-04T14:24:06.000Z",
+      "publisher": "momoch",
+      "summary": "「動いただけのゲームは、ただのシステムだ。プレイヤーの心を揺さぶるのは、いつだって草の匂いと、ギリギリで耐え抜くドラムロールの緊張感だ。」 白い豆腐が歩き出したαテストから数日──AIマルチエージェントスタジオ『Sternentor』は、…"
     },
     {
-      "id": "9d81e93a7b2a",
-      "title": "Claude Codeのスキルは「作り方」より「制限の付け方」で決まる",
-      "url": "https://zenn.dev/ty1110/articles/0fc35c25a36e18",
-      "publishedAt": "2026-09-04T08:52:06.000Z",
-      "publisher": "ty1110",
-      "summary": "「作り方」の記事はもう十分にあります。置き場所、SKILL.md の書き方、フロントマター。検索すれば丁寧な解説が出てきます。 この記事はその先の話です。1年運用して155行になったスキルの実物をもとに、制限の付け方と踏んだ落とし穴の書き…"
+      "id": "0cb45a195254",
+      "title": "Codex Hooksで入力時と終了時に品質ゲートを置く",
+      "url": "https://zenn.dev/kas_blog/articles/20260828-codex-hooks-quality-gates",
+      "publishedAt": "2026-09-04T14:23:48.000Z",
+      "publisher": "kas's blog",
+      "summary": "Codex Hooksを使うと、ユーザー入力の送信前、tool実行の前後、Codexが停止するときなどにcommandやMCP toolを実行できます。実装時に大切なのは、Hookを増やすことより、止めたい処理より前のイベントを選ぶことで…"
     },
     {
-      "id": "9b4b6b874b53",
-      "title": "UIを描いたらプロンプトになるツールを作った",
-      "url": "https://zenn.dev/lnkiai/articles/fef5d8e52368cc",
-      "publishedAt": "2026-09-04T08:49:46.000Z",
-      "publisher": "inori",
-      "summary": "この記事でわかること Material 3 Expressiveで、なぜAIっぽさが消えるのか UIデザインがプロンプトに変わるツール 作ってみて分かったAIにUIを頼むときのコツ 先日、X にこんな投稿をしました。 みんな Androi…"
+      "id": "8a87b417fcae",
+      "title": "フリーランス案件の「求めるスキル」にAIが入り始めた——今、何を準備すべきか",
+      "url": "https://zenn.dev/takabo/articles/ai-skill-requirement",
+      "publishedAt": "2026-09-04T14:11:33.000Z",
+      "publisher": "takabo",
+      "summary": "最近、案件の「求めるスキル」に「AI支援ツールを活用した開発経験」「LLMを用いた実務経験」といった一文をよく見る。まだ全案件の常識ではないが、確実に増えている。募集中案件を言語別に独自調査すると、AIに言及する割合はこうだった。 言語 …"
     }
   ],
-  "fetchedAt": "2026-09-04T19:02:25.278Z",
+  "fetchedAt": "2026-09-04T21:27:58.929Z",
   "stale": false,
   "error": null
 }
