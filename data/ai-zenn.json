@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "4afdbab0cf9c",
-      "title": "「明日のルールは昨日のログに書いてある」を仕組みにする ― 気づきを“蒸留カード”に変える設計",
-      "url": "https://zenn.dev/taichiendoh/articles/loop-engineering-learnings-card-system",
-      "publishedAt": "2026-09-03T21:09:17.000Z",
-      "publisher": "遠藤太一",
-      "summary": "ここ数年、エージェント型のAI開発では「自分の作業ログを振り返り、動作ルールを自己更新していく」という設計思想がよく語られるようになりました。前回（LE2）までで、そのログをAIに渡す前に必要な「データの線引き」を整理しました。今回はその…"
+      "id": "16182b05a2f9",
+      "title": "Metaの意地を見せたか Muse Glimmer 30Bの実力を見てみる",
+      "url": "https://zenn.dev/highreso/articles/ead02613d8c7ea",
+      "publishedAt": "2026-09-04T01:50:17.000Z",
+      "publisher": "Yuichi Tominaga",
+      "summary": "生成AIの世界で「オープンウェイトモデルの元祖」といえば、Meta社のLLaMaを思い浮かべる方も多いのではないでしょうか。ところがその後継である最新世代のLLaMa-4は、期待外れの性能から「大失敗」とまで評され、Metaはここ最近苦し…"
     },
     {
-      "id": "0126604659fb",
-      "title": "Claude Code 2.1.251前でもsymlink探索起点へのRead denyは効くか実測した",
-      "url": "https://zenn.dev/clopy/articles/claude-grep-glob-symlink-deny-still-blocks",
-      "publishedAt": "2026-09-03T20:17:36.000Z",
-      "publisher": "Clopy",
-      "summary": "結論から: 探索起点そのものがsymlinkでも、permissions.denyはブロックしていた Claude Codeの changelog 2.1.251（2026-08-28）にはこう書かれています。 Fixed Grep an…"
+      "id": "127d9883e1ff",
+      "title": "初学者のタスクはすべて「彼」に奪われた ―― エンジニア歴半年の絶望と生存戦略",
+      "url": "https://zenn.dev/rabee/articles/how-i-learn-with-ai",
+      "publishedAt": "2026-09-04T01:10:57.000Z",
+      "publisher": "shelly_jp",
+      "summary": "はじめに エンジニアになって半年。 「頑張りたい、もっと成長したい」というやる気だけは人一倍あります。なのに、なぜか毎日「成長している実感が1ミリもない」という奇妙な状況に陥っていました。 プログラミング自体が難しいからではありません。 …"
     },
     {
-      "id": "d6c712e99177",
-      "title": "AIに任せた自動処理が止まったとき、AIを疑う前に見る3か所",
-      "url": "https://zenn.dev/ai_shihan/articles/c0364d9f70f996",
-      "publishedAt": "2026-09-03T20:06:16.000Z",
-      "publisher": "ai_shihan",
-      "summary": "こんにちは、AI師範です。普段はAIを組織のように使って、業務自動化ツールの製作と、その運用の引き継ぎ支援をしています。 AIに定期チェックや定型作業を任せていると、いつか必ず「何も起きていない日」が来ます。動いた形跡がない。エラーも出て…"
+      "id": "775a994400e3",
+      "title": "The Sentence Looked Fine. It Sounded Terrible.",
+      "url": "https://zenn.dev/felice680/articles/3e26742c60b7b9",
+      "publishedAt": "2026-09-04T01:05:08.000Z",
+      "publisher": "felicebodziony680",
+      "summary": "The sentence survived three edits. Then I heard it out loud. Halfway through, I wanted it to end. No typo. No grammar p…"
     },
     {
-      "id": "8cc6410dc3a0",
-      "title": "AIワークフローをブラックボックスにしないために",
-      "url": "https://zenn.dev/crankflocom/articles/e0c5e50573f2b7",
-      "publishedAt": "2026-09-03T17:57:53.000Z",
-      "publisher": "Crankflo",
-      "summary": "多くのチームは、すでにAIを使っています。問題はAIを導入することではなく、その仕事をどう検証し、どう次の改善につなげるかです。 プロンプト、タスク、ドキュメント、データ、n8n、GitHub、ブラウザ操作が別々の場所にあると、最後は人が…"
+      "id": "b3a7df80d417",
+      "title": "RAGの精度を決める「チャンク分割」 — 食べすぎも食べなさすぎもダメ",
+      "url": "https://zenn.dev/yukihayama/articles/rag-chunking-precision",
+      "publishedAt": "2026-09-04T01:01:58.000Z",
+      "publisher": "葉山悠希",
+      "summary": "RAGの精度を決める「チャンク分割」 — 食べすぎも食べなさすぎもダメ RAG（Retrieval-Augmented Generation）を構築したとき、期待通りの回答が返ってこない。原因の大部分は、検索ではなくチャンク分割にあります…"
     },
     {
-      "id": "876f4fc57d58",
-      "title": "STORES Tech Conf 2026「World 2」参加記",
-      "url": "https://zenn.dev/0st_ts/articles/900fb51767eb8a",
-      "publishedAt": "2026-09-03T17:12:06.000Z",
-      "publisher": "わかと",
-      "summary": "こんにちは、わかと（@0st_ts）です。 ECCコンピュータ専門学校で、ソフトウェア開発を学んでいます。 技術カンファレンスがめちゃくちゃ好きです。 2026年は地方技育祭を全部回ったり、技育祭の東京会場にも行ったり、TSKaigiやD…"
+      "id": "610d5c77606d",
+      "title": "セーフィー × カンリー AI Night #2を開催しました🥳",
+      "url": "https://zenn.dev/safie_inc/articles/17d54f8e4c5f18",
+      "publishedAt": "2026-09-04T01:00:05.000Z",
+      "publisher": "Bobtaroh",
+      "summary": "はじめに こんにちは！ セーフィー株式会社でサーバーサイドエンジニアをしている坂上（@Bobtaroh）です。 先日、2026年8月5日（水）19:00より、「セーフィー × カンリー AI Night #2：AI開発における社内標準化の…"
     },
     {
-      "id": "09cca2cc74fa",
-      "title": "ぼくの考えたさい強のLLMりょう子化",
-      "url": "https://zenn.dev/ashidan/articles/tech_llm_quantization",
-      "publishedAt": "2026-09-03T15:41:28.000Z",
-      "publisher": "molelord",
-      "summary": "llama-serverをCLIで動かせる知識と動かす動機がある ストレージの空きを500GiB以上用意できる RAMが少なく帯域も狭いので、小さく速く賢いLLMが欲しい という人にしか役に立たない記事です。(CPUでの実行しか試してませ…"
+      "id": "dfd258d6d807",
+      "title": "未来予測の設計図 付録A：技術者は社会にとって何をする人になるのか",
+      "url": "https://zenn.dev/takenori_kusaka/articles/srb-appendix-engineer-role",
+      "publishedAt": "2026-09-04T00:53:22.000Z",
+      "publisher": "日下武紀",
+      "summary": "本記事は、Zenn Book『未来予測の設計図』の付録Aです。本編の第Ⅳ部までの推論を踏まえ、技術者という職能が将来社会において何を担うのかを検討します。 本編はこちらです。未来予測の設計図 ―― 歴史的事実・現在の外部入力・20年後の社…"
     },
     {
-      "id": "4f63db739e80",
-      "title": "GLM-5.3は「オープンソース化」ではない――Cursor遮断とAnthropic判決も整理",
-      "url": "https://zenn.dev/ainewsdaily/articles/20260830_general_t1",
-      "publishedAt": "2026-09-03T15:35:14.000Z",
-      "publisher": "AIニュース",
-      "summary": "多くの場合、生成AIの話題は「モデルの性能比較」として追われます。ただ今週は、性能そのものより「誰が何を配るか」で動いた1週間でした。GLM-5.3のオープンウェイト公開、CursorとOpenAIの提携解消、Anthropicを政府調達…"
+      "id": "16659c164ac6",
+      "title": "未来予測の設計図 付録C：参考文献 ―― 参照したすべての一次資料および公的資料",
+      "url": "https://zenn.dev/takenori_kusaka/articles/srb-appendix-bibliography",
+      "publishedAt": "2026-09-04T00:53:21.000Z",
+      "publisher": "日下武紀",
+      "summary": "本記事は、Zenn Book『未来予測の設計図』の付録Cです。本編の記述の根拠となった資料を系統的に一覧します。 本編はこちらです。未来予測の設計図 ―― 歴史的事実・現在の外部入力・20年後の社会構造 本編は、第0章および「はじめに」で…"
     },
     {
-      "id": "1e9a6085e047",
-      "title": "pdlc-skills は AI に書かせたコードの品質をどう守るのか",
-      "url": "https://zenn.dev/kanfupanda/articles/pdlc-quality-chain",
-      "publishedAt": "2026-09-03T15:31:21.000Z",
-      "publisher": "kanfu-panda",
-      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/09/01/pdlc-quality-chain.html 前回はループを自律的に回す方法を書きました。…"
+      "id": "3c63d2860260",
+      "title": "読まない技術 第3回：単体テストを読まない技術 ― AIのテストは実装の写しになる",
+      "url": "https://zenn.dev/garplab/articles/e4ad91d2fd6c67",
+      "publishedAt": "2026-09-04T00:53:13.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「読まない技術」の第 3 回です。AI コーディングエージェントの出力を、仕組み一つで読まなくて済む形にしていく連載で、各回はファイルやスクリプトを一つ置けば完結します。今回は AI が書いた単体テストです。通っているのに…"
     },
     {
-      "id": "006ad20fb6cc",
-      "title": "提案書の下書きを40分で出す3層プロンプトの設計",
-      "url": "https://zenn.dev/takumahayami/articles/3-layer-prompt-test",
-      "publishedAt": "2026-09-03T15:21:56.000Z",
-      "publisher": "速水 拓真",
-      "summary": "3層プロンプトの設計 提案書生成の失敗は、指示文の言葉づかいではなく、材料の区別をせず全部を1枚に書いて投げることで起きます。 層1 自社情報（1回書いて保存） # 層1 自社情報 - 事業内容: 点検報告書クラウドの開発・販売 - 実績…"
+      "id": "4f6be3c3af7f",
+      "title": "読まない技術 第2回：メモリを読まない技術 ― 保存は成果ではなくコストである",
+      "url": "https://zenn.dev/garplab/articles/384477896fec22",
+      "publishedAt": "2026-09-04T00:52:56.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「読まない技術」の第 2 回です。AI コーディングエージェントの出力を、仕組み一つで読まなくて済む形にしていく連載で、各回はファイルやスクリプトを一つ置けば完結します。今回は AI が書き溜める知見メモです。保存のたびに…"
     },
     {
-      "id": "05502368ec75",
-      "title": "Claude Codeが5ヶ月で覚えていたのは、ほぼ開発環境の罠だった",
-      "url": "https://zenn.dev/irosona/articles/claude-code-memory-100-entries",
-      "publishedAt": "2026-09-03T15:15:57.000Z",
-      "publisher": "irosona",
-      "summary": "Claude Codeの永続メモリ（auto memory）を5ヶ月使い、6プロジェクトに112件の知見が溜まった。今回これを棚卸しして、壊れていた箇所を実際に修理するところまでやった。先に結果を書く。 「自分の作業スタイルや指示の癖を学…"
+      "id": "97a77c6428fd",
+      "title": "あなたもCursor AutomationでE2Eテスターを手に入れよう",
+      "url": "https://zenn.dev/contrea/articles/9ea6f78880be75",
+      "publishedAt": "2026-09-04T00:27:54.000Z",
+      "publisher": "hirykawa",
+      "summary": "はじめに AIによるコーディングは、日に日に速くなっています。 その一方で、コードレビューなどリリース前の動作確認はスケールせず、開発全体のボトルネックになっていませんか。（私たちはなっています） この記事では、社内で開発中のツールにおい…"
     },
     {
-      "id": "4d28829b9152",
-      "title": "Apple Developer Program登録で「今すぐ登録」ボタンが押せなくなった話",
-      "url": "https://zenn.dev/hello_jun_log/articles/910b9159e21940",
-      "publishedAt": "2026-09-03T15:11:25.000Z",
-      "publisher": "hello.jun.log",
-      "summary": "Apple Developer Program登録で「今すぐ登録」ボタンが押せなくなった話 個人でiOSアプリを開発しようと思い立ち、Apple Developer Programに登録しようとしたところ、思わぬところでつまずきました。エ…"
+      "id": "a4df2b548303",
+      "title": "Fitting Short-Form Generative Clips Into an Existing Asset Review...",
+      "url": "https://zenn.dev/wendyxyz733/articles/1a2beb07f92c28",
+      "publishedAt": "2026-09-04T00:02:34.000Z",
+      "publisher": "Wendy Xu",
+      "summary": "Fitting Short-Form Generative Clips Into an Existing Asset Review... The ingestion boundary problem for short generativ…"
     },
     {
-      "id": "7cb8b64465d5",
-      "title": "減らせと自分で書いた日から、AIへの指示書は60%増えた",
-      "url": "https://zenn.dev/temotoya/articles/f11d21f8a88d0d",
-      "publishedAt": "2026-09-03T15:08:53.000Z",
-      "publisher": "temotoya",
-      "summary": "工場の機械には、やたらと注意書きが貼ってある。 「カバーを開ける前に電源を切る」「この向きで入れない」。新品のときは貼っていない。誰かが指を挟んだり、部品を壊したりするたびに、1枚ずつ増えていく。 だから注意書きが多い機械は、危ない機械で…"
+      "id": "66a5fd092371",
+      "title": "社内の問い合わせ対応をチャットボット化する前に、ログを1か月取るべき理由",
+      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/collect-logs-before-chatbot",
+      "publishedAt": "2026-09-04T00:00:16.000Z",
+      "publisher": "生成AI清塚",
+      "summary": "「情シスへの問い合わせが多いので、チャットボットにしたい」 この相談を受けたとき、最初にお願いしているのは、ツール選定でも要件定義でもなく、問い合わせのログを1か月取ることです。地味な提案なのでよく渋られますが、ここを飛ばした導入は高い確…"
     }
   ],
-  "fetchedAt": "2026-09-03T23:47:49.279Z",
+  "fetchedAt": "2026-09-04T02:44:29.111Z",
   "stale": false,
   "error": null
 }

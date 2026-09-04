@@ -6,68 +6,76 @@
   "category": "ai",
   "items": [
     {
-      "id": "4380e3ff0e77",
-      "title": "Beyond Visual Similarity: Entity-Aligned Retrieval for Knowledge-Based Visual Question Answering",
-      "url": "https://huggingface.co/papers/2608.21450",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "summary": "Knowledge-Based Visual Question Answering (KB-VQA) relies on retrieving external information to answer queries involvin…",
-      "score": 26
+      "id": "8e787edeedc1",
+      "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+      "url": "https://huggingface.co/papers/2609.03796",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a f…",
+      "score": 54
     },
     {
-      "id": "face528bd665",
-      "title": "NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference",
-      "url": "https://huggingface.co/papers/2609.01657",
+      "id": "6ee03f64aac0",
+      "title": "LatentPress: Context Compression Beyond Text and Vision",
+      "url": "https://huggingface.co/papers/2609.01507",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Compressed context is usually carried as human-readable text or as rendered images that must be decoded, even when its …",
+      "score": 47
+    },
+    {
+      "id": "358d1b00aebb",
+      "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
+      "url": "https://huggingface.co/papers/2609.04098",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Hybrid LLMs pair softmax attention with linear-attention layers such as Gated DeltaNet (GDN), whose recurrent state sum…",
+      "score": 46
+    },
+    {
+      "id": "90fe4a6ef63d",
+      "title": "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests",
+      "url": "https://huggingface.co/papers/2608.27831",
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Multimodal models often build on architectures designed for generative vision-language modeling, typically combining se…",
-      "score": 22
+      "summary": "Coding agents are now commonly evaluated on the SWE-bench family of benchmarks, whose tasks are built from curated GitH…",
+      "score": 4
     },
     {
-      "id": "747b1917297a",
-      "title": "WHALE: A Simple Recipe for Joint Harness-Weight Optimization",
-      "url": "https://huggingface.co/papers/2609.00196",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Agent performance depends jointly on the model parameters and the executable harness code that manages context and cont…",
-      "score": 10
-    },
-    {
-      "id": "61722e28370b",
-      "title": "Exploring Collaboration between a language and a non-language agent",
-      "url": "https://huggingface.co/papers/2609.00474",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "LLMs are increasingly deployed as orchestrators that coordinate specialized subagents to solve complex tasks through na…",
-      "score": 5
-    },
-    {
-      "id": "fbb3b174ce53",
-      "title": "FoldingAgent: Inferring Parametric Origami Procedures from Demonstration Videos",
-      "url": "https://huggingface.co/papers/2609.00377",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "We present FoldingAgent, an agentic framework for inferring explicit parametric folding programs directly from origami …",
+      "id": "7d51c02101a3",
+      "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+      "url": "https://huggingface.co/papers/2609.04172",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Exi…",
       "score": 3
     },
     {
-      "id": "2b5318501644",
-      "title": "Sparse Readout Prism: Explaining Logit-Lens Scores in Features Instead of Tokens",
-      "url": "https://huggingface.co/papers/2609.01936",
+      "id": "bd6ffe996422",
+      "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
+      "url": "https://huggingface.co/papers/2609.04083",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "MLLM-based embedding models remain limited in compositional retrieval, often failing to distinguish scenes containing t…",
+      "score": 2
+    },
+    {
+      "id": "2638c7c71bb8",
+      "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+      "url": "https://huggingface.co/papers/2609.04148",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "As terminal-based code agents become prevalent, agent trajectories have accumulated at scale, while realistic, executab…",
+      "score": 2
+    },
+    {
+      "id": "8520a4d6f74c",
+      "title": "Environment Evolution for Terminal Agents",
+      "url": "https://huggingface.co/papers/2609.04128",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Scaling interactive and verifiable environments is critical for training terminal agents. As frontier models become mor…",
+      "score": 1
+    },
+    {
+      "id": "512c8825c905",
+      "title": "Replacing Training with Memory: Listwise Selection for Text-to-SQL",
+      "url": "https://huggingface.co/papers/2609.00834",
       "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "A language model's prediction of its next token develops across layers, and lens methods track this process by decoding…",
-      "score": 2
-    },
-    {
-      "id": "41e7eac86943",
-      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
-      "url": "https://huggingface.co/papers/2609.02496",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Model compression techniques such as pruning and quantization facilitate the efficient deployment and acceleration of L…",
-      "score": 2
-    },
-    {
-      "id": "0612cf78c00e",
-      "title": "Ignorance or Incompetence? Constructing Knowledge-Gated, Verifiable Tasks for LLM Agents",
-      "url": "https://huggingface.co/papers/2608.30322",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Professional agent tasks often depend on conventions that are absent from public corpora, yet benchmarks rarely control…",
-      "score": 2
+      "summary": "Modern Text-to-SQL systems often follow generate-execute-select pipelines, generating multiple candidate queries then s…",
+      "score": 1
     },
     {
       "id": "4f658ca26d00",
@@ -78,31 +86,23 @@
       "score": 1
     },
     {
-      "id": "d3953cb57dbe",
-      "title": "Small Language Models as Judges for Rubric-Based Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2608.30005",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "summary": "Rubric-based reinforcement learning extends RL beyond tasks with exact answers or rule-based verifiers by scoring respo…",
-      "score": 1
+      "id": "a6224ce814d7",
+      "title": "Editable Visual Design",
+      "url": "https://huggingface.co/papers/2609.04034",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "While diffusion base models such as GPT-Image-2 and Nano-Banana exhibit remarkable visual expressiveness, their end-to-…",
+      "score": 0
     },
     {
-      "id": "d2f31c355fbf",
-      "title": "Portfolio Risk Bounds without Cross-Asset Return Covariances: Distributional Fields from Language-Model Representations",
-      "url": "https://huggingface.co/papers/2608.29692",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "summary": "Portfolio risk assessment ordinarily relies on reliable estimates of cross-asset return covariances, which are difficul…",
-      "score": 1
-    },
-    {
-      "id": "70e843229fff",
-      "title": "Wasserstein-Barycentric Interaction Fields for Spatial Factor Models: Evidence from Language-Model Representations",
-      "url": "https://huggingface.co/papers/2608.29669",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "summary": "Spatial return models take the interaction matrix as given and leave feedback uninterpreted. We construct a bandwidth-f…",
+      "id": "28c381809229",
+      "title": "Principia: Relational Physics Tests for Video Models",
+      "url": "https://huggingface.co/papers/2609.04200",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, o…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-03T23:47:49.115Z",
+  "fetchedAt": "2026-09-04T02:44:29.031Z",
   "stale": false,
   "error": null
 }
