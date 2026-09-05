@@ -6,78 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "6110fc8c8441",
-      "title": "みんな憧れるようなサイトを作ってみたはなし",
-      "url": "https://zenn.dev/sahenjpn/articles/3ffd5052ea7455",
-      "publishedAt": "2026-09-05T13:52:45.000Z",
-      "publisher": "sahen",
-      "summary": "この文章を書いているIDEのMozkeyほんとにいいから使ってみてください。冗談抜きで。 本題 自分のサイトを作りました。 デザイン ChatGPTとかと一緒に頑張って考えました。 でも今回のMVPはやっぱりshadcn/uiですね。 こ…"
-    },
-    {
-      "id": "668a251f72d4",
-      "title": "Google VidsがPDFやDocsから動画要約を自動生成する機能を追加",
-      "url": "https://zenn.dev/adopture/articles/2f11f6e5a3234b",
-      "publishedAt": "2026-09-05T13:45:08.000Z",
-      "publisher": "ggnn編集部｜アダプチュア株式会社",
-      "summary": "Google WorkspaceのAI動画制作ツール「Google Vids」に、Googleドキュメント、PDF、Wordファイルを読み込ませるだけで、AIが自動で要約動画を生成する新機能が追加されました。 長大な仕様書、設計書、障害レ…"
-    },
-    {
-      "id": "1b0368f4e828",
-      "title": "Claude Code autoモード設定完全版——分類器は残し、Bash書き込みだけ外す",
-      "url": "https://zenn.dev/hiroki_dev_hack/books/d86948b19e9dac",
-      "publishedAt": "2026-09-05T13:36:31.000Z",
-      "publisher": "ヒロキ",
-      "summary": "auto モードなのに許可ばかり出る「許可疲れ」の正体は、Edit で済む変更が Bash 経由で分類器に回っていること。公式ドキュメントと GitHub Issue の一次情報で因果を切り分け、分類器は残したまま Bash 書き込みだけ…"
-    },
-    {
-      "id": "11ddcfab7050",
-      "title": "生成AIは「初期条件の最適化」から「生成軌道の設計」へ",
-      "url": "https://zenn.dev/albatrosary/articles/8704ed4c2aacb6",
-      "publishedAt": "2026-09-05T12:53:20.000Z",
-      "publisher": "albatrosary",
-      "summary": "! TL;DR 生成AIの活用では、いまもプロンプト、System Prompt、Skill、Persona、Few-shot、各種ルールなど、「より良い入力条件」を作ることに多くの努力が向けられている。たしかに初期条件は重要だ。しかし、…"
-    },
-    {
-      "id": "2fc0d0987b95",
-      "title": "AIに任せる範囲を広げるほど、レビューが持たなくなる｜型とテストで「読まずに済む」状態をつくる",
-      "url": "https://zenn.dev/takabo/articles/ai-guardrails-with-tests",
-      "publishedAt": "2026-09-05T12:38:26.000Z",
-      "publisher": "takabo",
-      "summary": "Claude Code に任せる範囲を広げていくと、どこかで「全部読んでレビューする」が破綻します。差分が大きいうえに、出力はいつも自然な日本語と動くコードだからです。読んで違和感が無いことと、正しいことは別物です。 そこで方針を変えまし…"
-    },
-    {
-      "id": "23bfc4a1c58f",
-      "title": "Amazon Bedrock AgentCore payments と Privyで体験するx402！！",
-      "url": "https://zenn.dev/mashharuki/articles/aws_agentcore-payments-x402-cdk",
-      "publishedAt": "2026-09-05T12:12:10.000Z",
-      "publisher": "Haruki",
-      "summary": "概要 先日、ついに AmazonBedrock AgentCore paymentsがGAされました！！！ https://aws.amazon.com/jp/about-aws/whats-new/2026/08/bedrock-age…"
-    },
-    {
-      "id": "6edd4f8573a9",
-      "title": "claude --model はチーム共有のsettings.jsonに勝つか？ v2.1.248で検証",
-      "url": "https://zenn.dev/clopy/articles/claude-model-flag-overrides-settings-json",
-      "publishedAt": "2026-09-05T11:59:19.000Z",
-      "publisher": "Clopy",
-      "summary": "チームの .claude/settings.json に \"model\": \"sonnet\" を固定コミットしているリポジトリで、一時的に別モデルを試したいとき claude --model opus を付けるだけで本当に切り替わるのか—…"
-    },
-    {
-      "id": "5b1d1833fe4e",
-      "title": "ループエンジニアリング入門 ― AIエージェントに目標を渡し、無人で自走させる",
-      "url": "https://zenn.dev/chobitnet/books/loop-engineering-harness",
-      "publishedAt": "2026-09-05T10:03:00.000Z",
-      "publisher": "chobitnet",
-      "summary": "【macOS前提】目標を1つ渡し、AIエージェントのループを無人で自走・自己検証・自己改善させる仕組みをゼロから立てる本。ループ全体の器の作り方、1本を無人で回す手順、無人実行を止める壁の一覧と対処、チェック役の足し方、役が増えたときの渡…"
-    },
-    {
-      "id": "09925605be89",
-      "title": "【最新モデル】Claude Code / Codex / Cursor のコードレビューをOWASP Benchmarkで検証",
-      "url": "https://zenn.dev/yukkie1114/articles/f13672584add05",
-      "publishedAt": "2026-09-05T09:58:24.000Z",
-      "publisher": "Shinoda Yukihiro",
-      "summary": "はじめに この記事は、次のような人に向けて書いています。 チームに AI コードレビューを入れるかどうか、入れるならどの機能をどこで使うかを決める立場の人 Claude Code / Codex / Cursor の中で、どのツールのどの…"
-    },
-    {
       "id": "3ed00aca80ab",
       "title": "Spotifyは2000万行のコードでエージェントをどう回しているか",
       "url": "https://zenn.dev/talks_tldr_jp/articles/tldr29-gustavsson-summary",
@@ -100,9 +28,81 @@
       "publishedAt": "2026-09-05T08:39:57.000Z",
       "publisher": "平凡梵",
       "summary": "目の前の症状から、データの生成経路へ。調査範囲が広がっていった ! この記事の要点 波形と音声が約0.5秒ずれる問題を、Codex上のGPT-6 Astraと調査した AIは調査の途中で「同期させる対象そのものが正しいのか」と問いを立て直…"
+    },
+    {
+      "id": "f399c8b2993e",
+      "title": "CopilotにApproveさせてAuto Mergeで開発を回す 〜自律開発ループの作り方〜",
+      "url": "https://zenn.dev/yamitake/articles/github-copilot-auto-merge-autonomous-loop",
+      "publishedAt": "2026-09-05T08:29:29.000Z",
+      "publisher": "JJ yamitake",
+      "summary": "はじめに 2026年9月、GitHubから見逃せないアップデートが出ました。 Copilot code reviewがPull Requestを「Approve」できるようになったというものです。 Copilot code review …"
+    },
+    {
+      "id": "6454be0e28f2",
+      "title": "開発環境を決める～【連載】実況パズルプログラミング",
+      "url": "https://zenn.dev/ogwk/articles/ppb260905episode-002",
+      "publishedAt": "2026-09-05T08:17:11.000Z",
+      "publisher": "OGAWA",
+      "summary": "前回は、okozeを始めた理由と、このプロジェクトを通して考えてみたいことを書きました。 今回は、実際にokozeを作るための開発環境を決めます。 Webアプリケーションか、スタンドアロンアプリケーションか 大きく分けると、次の2つの方法…"
+    },
+    {
+      "id": "ad945b7f8416",
+      "title": "Claude Code × Obsidianで「調査して終わり」にしない開発フローを作る",
+      "url": "https://zenn.dev/yucco/articles/claude-code-obsidian-workflow",
+      "publishedAt": "2026-09-05T08:07:04.000Z",
+      "publisher": "Komugi",
+      "summary": "はじめに こんにちは。 最近は、Claude CodeなどのAIツールを、調査・実装・テスト・ドキュメント作成の補助として使うことが増えました。 AIを使うことで、以前よりもかなり速くコードを書いたり、原因を調べたりできるようになっていま…"
+    },
+    {
+      "id": "b3790ae1ef37",
+      "title": "Memorix 使ってハーネス浮気！ と思ったらもっと便利な使い方があった",
+      "url": "https://zenn.dev/uhu/articles/3f5324ecfe9ec3",
+      "publishedAt": "2026-09-05T08:01:13.000Z",
+      "publisher": "uhu",
+      "summary": "コーディングエージェント何使ってます？ 私はClaude Code使って、Ollama Cloud経由でGLMとかDeepseek使ってるタイプ。 ある日、Opencode Goええやんって思って使おうとしたら、Claude Codeから…"
+    },
+    {
+      "id": "b77b6d456624",
+      "title": "AI向けの目次を置いて14日ログを取ったら、148回取られてトップ以外は誰も読まなかった",
+      "url": "https://zenn.dev/miki_mini/articles/e5c724bfcc0496",
+      "publishedAt": "2026-09-05T08:00:31.000Z",
+      "publisher": "miki-mini",
+      "summary": "※メニュー（llms.txt）は熱心に読むのに、目の前のテーブルは空のまま。奥の料理も手つかず。時計は15:00です 美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は AIが読んでくれるか分からない なら 2週…"
+    },
+    {
+      "id": "0250af20f033",
+      "title": "AIコーディングの私のレビュー観点",
+      "url": "https://zenn.dev/daigo428/articles/2ea6b4bfa6b149",
+      "publishedAt": "2026-09-05T07:34:12.000Z",
+      "publisher": "ydaigo",
+      "summary": "はじめに 所属会社ではClaude Codeを使っており、私自身がゼロからコードを書くことはなくなりました。業務ではClaudeと協力しながらコーディングを進めており、レビューするときの私の観点を本記事にまとめます。 AIのコーディング成…"
+    },
+    {
+      "id": "469f07b35867",
+      "title": "Claude Code で一番高いリクエストは「さっきの続きやって」かもしれない",
+      "url": "https://zenn.dev/odacchi/articles/claude-code-prompt-cache-ttl",
+      "publishedAt": "2026-09-05T07:32:26.000Z",
+      "publisher": "odacchi",
+      "summary": "Claude Code のプロンプトキャッシュが話題に出ていたので、公式ドキュメントを読んで整理しました。 先に結論から書きます。 長時間放置したセッションに戻ると、再開の 1 ターン目だけが突出して高い 高いのは「トークンをたくさん使う…"
+    },
+    {
+      "id": "d4f1afc04021",
+      "title": "OpenAI API 入門 — API キーの取得から初回リクエストまで",
+      "url": "https://zenn.dev/akinori901/articles/20260823-00mt4v7a",
+      "publishedAt": "2026-09-05T07:28:04.000Z",
+      "publisher": "Akinori901",
+      "summary": "OpenAI API 入門 — API キーの取得から初回リクエストまで 概要 本記事は、OpenAI API を初めて触るエンジニア向けのハンズオンです。アカウント作成から API キーの発行、環境構築、そして初回リクエストの送信までを…"
+    },
+    {
+      "id": "4c3d1f520801",
+      "title": "【初心者向け】ChatGPTの音声モードでEC座談会をしてみた | EC-CUBE名古屋 vol.125",
+      "url": "https://zenn.dev/nanasess/articles/chatgpt-voice-ec-roundtable-vol125",
+      "publishedAt": "2026-09-05T07:18:02.000Z",
+      "publisher": "Kentaro Ohkouchi",
+      "summary": "この記事は「【初心者向け】ChatGPT の音声モードでEC座談会 | EC-CUBE名古屋 vol.125」勉強会の記録です。 ! この記事は、勉強会中の音声AIとの対話記録をもとに、参加者が内容を確認しながらAIの支援を受けて編集して…"
     }
   ],
-  "fetchedAt": "2026-09-05T17:39:22.471Z",
+  "fetchedAt": "2026-09-05T19:30:28.034Z",
   "stale": false,
   "error": null
 }
