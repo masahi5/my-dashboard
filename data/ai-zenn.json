@@ -6,46 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "d8ce806626c5",
-      "title": "文字数もNGワードも、実は同じ文字列マッチでコード実行検証できる",
-      "url": "https://zenn.dev/every_ai_recipe/articles/claim-email-ngword-charcount-check",
-      "publishedAt": "2026-09-04T21:11:28.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 「150字以内」「特定の紋切り型表現を使わない」「謝罪は1回だけ」という3種類の制約を持つメール文面を、コード実行機能を使って1回のプロンプトでまとめて検証できるか試した 文字数のような hard constraint（数え上…"
-    },
-    {
-      "id": "202f59a82e91",
-      "title": "Claude Code の委譲を実測した — ブラウザ巡回を子に投げると親の文脈は1/8、ただし総トークンでは負ける",
-      "url": "https://zenn.dev/genkunjc/articles/subagent-delegation-measured",
-      "publishedAt": "2026-09-04T20:55:28.000Z",
-      "publisher": "genkunjc",
-      "summary": "Claude Code を使っていると、「この作業は子エージェントに投げたほうが安いのでは」と思う場面があります。サブエージェント（Agent ツールで起動する別セッション。ツールの実行結果は親の会話に入らず、最終報告だけが返ってくる）に…"
-    },
-    {
-      "id": "fd4191efd979",
-      "title": "型チェックは通る — Claude Code の失敗13件と、気づく仕組みの作り方",
-      "url": "https://zenn.dev/genkunjc/books/claude-code-parallel-kit",
-      "publishedAt": "2026-09-04T20:14:05.000Z",
-      "publisher": "genkunjc",
-      "summary": "AIコーディングエージェントは、エラーを出さずに壊れます。型チェックは通り、ビルドも通り、報告には「完了しました」と書いてある。実際に起きた13件を「症状／本当の原因／なぜ発見が遅れるか／対策」の形でまとめました。中心は3番目です。「気を…"
-    },
-    {
-      "id": "eb0341fb9941",
-      "title": "AI AgentはRailsで作りたいが、ai-sdk useChatに表示は任せたい人へ",
-      "url": "https://zenn.dev/shuent/articles/e0c159cd2989f9",
-      "publishedAt": "2026-09-04T18:46:30.000Z",
-      "publisher": "shuent",
-      "summary": "RailsでAI Agentを書き、そのstreaming UIをAI SDKのuseChatで扱えるようにするため、Rubyのprovider SDK eventを AI SDK UI Message Stream Protocol v…"
-    },
-    {
-      "id": "9e80029f9d7a",
-      "title": "AIで作ったHTMLゲーム、どこに投稿できる？ 2026年9月に7つ調べた",
-      "url": "https://zenn.dev/punipogames/articles/1950d42da0e4b1",
-      "publishedAt": "2026-09-04T17:46:30.000Z",
-      "publisher": "PUNIPO",
-      "summary": "ChatGPTやClaudeに「ミニゲーム作って」と頼むと、HTMLファイルが1枚出てきます。ブラウザで開けば動く。じゃあこれをどこに置けば人に遊んでもらえるのか。 2026年9月に、投稿できそうなサイトを7つ、公式ページの記載を読んで調…"
-    },
-    {
       "id": "393de74f9dec",
       "title": "Claude Code × git worktree で並列実行 — 黙って壊れた3つと、分割の境界線",
       "url": "https://zenn.dev/genkunjc/articles/ead8b520c22733",
@@ -100,9 +60,49 @@
       "publishedAt": "2026-09-04T14:11:33.000Z",
       "publisher": "takabo",
       "summary": "最近、案件の「求めるスキル」に「AI支援ツールを活用した開発経験」「LLMを用いた実務経験」といった一文をよく見る。まだ全案件の常識ではないが、確実に増えている。募集中案件を言語別に独自調査すると、AIに言及する割合はこうだった。 言語 …"
+    },
+    {
+      "id": "b7227d510f7b",
+      "title": "ぼく、AIママに勉強を監視してもらってるんだ（マジキチスマイル）",
+      "url": "https://zenn.dev/zabuton/articles/c2ece8556fc817",
+      "publishedAt": "2026-09-04T13:56:59.000Z",
+      "publisher": "低迷する座布団",
+      "summary": "はじめに 最近、私には悩みがあります。 作業中にめちゃくちゃサボっちゃうんです。 まぁ昔からですが、なんか輪をかけてやる気出ないんですよね。 必死こいて勉強してもAIに勝てないし。 へそ曲げるわけじゃなんですが、現状やりたいと思ってできな…"
+    },
+    {
+      "id": "6110ff90e94c",
+      "title": "エージェント駆動開発の設計パターン — Claude Code を「使う」から「設計する」へ",
+      "url": "https://zenn.dev/shoebill_dev27/articles/claude-code-agent-design-patterns",
+      "publishedAt": "2026-09-04T13:55:03.000Z",
+      "publisher": "shoebill-dev27",
+      "summary": "Claude Code を「使う」から「設計する」へ。エージェントループ、コンテキスト予算、ツールと権限ポリシー、フック制御、サブエージェント分割、モデル選択とコスト、検証ループと運用への接続——エージェント駆動開発の中核機構を、設計判断…"
+    },
+    {
+      "id": "32b17e6a2bc9",
+      "title": "AIで社内ツールは作れた。問題は、それを会社に置けるかだった",
+      "url": "https://zenn.dev/hanamilo/articles/f3ad2cea6f4c32",
+      "publishedAt": "2026-09-04T13:42:03.000Z",
+      "publisher": "hanamilo",
+      "summary": "自分のいないところで、止まっていた 社内向けのWebツールを、半年かけて作った。Claudeとチャットで対話しながら、少しずつ。 私は現場の人間で、専門の開発者ではない。 機能は一通り揃い、あとは使ってもらうだけ、という段階まで来ていた。…"
+    },
+    {
+      "id": "f033b012645f",
+      "title": "AI社員に監査役を置いた日、監査役が私の見落としを7つ見つけた 🔍",
+      "url": "https://zenn.dev/edhiblemeer/articles/c67ad391b68586",
+      "publishedAt": "2026-09-04T12:59:04.000Z",
+      "publisher": "yoshi",
+      "summary": "何をした日か 2026年9月4日、うちのAI社員に 監査役を3名 足した。同じ日に、社員どうしの 連絡ルートの設計を作り直した。 その夜、監査役が動き始めて数分で、私の見落としを次々に見つけてきた。 最終的に7つ。全部、私が出した指示やツ…"
+    },
+    {
+      "id": "18f8dc4ff177",
+      "title": "月額209円の文字起こしAIを錬成した話 ― AIツールの料金追跡をGASで作る",
+      "url": "https://zenn.dev/ai_kakin/articles/940e9a56f253c9",
+      "publishedAt": "2026-09-04T12:53:18.000Z",
+      "publisher": "Shun＠AI課金メモ",
+      "summary": "上位プランのほうが5倍安いんですが 自分で作った価格追跡サイトを眺めていて、手が止まりました。 プラン 価格 月換算 プレミアム ¥1,185 / 月額 ¥1,185/月 ビジネス ¥2,508 / 年額 ¥209/月 月209円。 上位…"
     }
   ],
-  "fetchedAt": "2026-09-05T00:57:38.168Z",
+  "fetchedAt": "2026-09-05T05:22:04.649Z",
   "stale": false,
   "error": null
 }

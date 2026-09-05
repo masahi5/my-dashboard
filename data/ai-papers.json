@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.04199",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote …",
-      "score": 256
+      "score": 268
     },
     {
       "id": "587ffb5e254b",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.04201",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixe…",
-      "score": 34
+      "score": 42
     },
     {
       "id": "e0883df745eb",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.04094",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Reinforcement Learning from Verifiable Rewards works well when a task has a programmatic checker, but most long-horizon…",
-      "score": 17
+      "score": 23
     },
     {
       "id": "5a4583899608",
@@ -35,7 +35,15 @@
       "url": "https://huggingface.co/papers/2609.04173",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods tha…",
-      "score": 14
+      "score": 22
+    },
+    {
+      "id": "56500ae1652a",
+      "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+      "url": "https://huggingface.co/papers/2609.03199",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive an…",
+      "score": 18
     },
     {
       "id": "13792a651dca",
@@ -43,7 +51,7 @@
       "url": "https://huggingface.co/papers/2608.30391",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "summary": "Understanding agent behavior requires methods that scale to thousands of trajectories and surface new patterns in long,…",
-      "score": 12
+      "score": 18
     },
     {
       "id": "6462a7d3321a",
@@ -51,15 +59,7 @@
       "url": "https://huggingface.co/papers/2609.03820",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Long-video language models cannot look at every frame: an hour sampled once per second is 3,600 images, and a system ke…",
-      "score": 9
-    },
-    {
-      "id": "0e7e4b5793a5",
-      "title": "Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration",
-      "url": "https://huggingface.co/papers/2609.01072",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Post-hoc calibration corrects reported confidence, yet a multiclass calibrator can also change the associated top-1 pre…",
-      "score": 8
+      "score": 15
     },
     {
       "id": "05ddeb9512f0",
@@ -67,15 +67,15 @@
       "url": "https://huggingface.co/papers/2608.29253",
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "summary": "Instance segmentation of overlapping cells in microscopy remains challenging due to semi-transparent structures that pr…",
-      "score": 7
+      "score": 13
     },
     {
-      "id": "506025dd89ca",
-      "title": "Percolation Dynamics in Optimization : Variance Cascades and Discrete Scale Invariance",
-      "url": "https://huggingface.co/papers/2609.02373",
+      "id": "0e7e4b5793a5",
+      "title": "Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration",
+      "url": "https://huggingface.co/papers/2609.01072",
       "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "We study the dynamics of Stochastic Gradient Descent (SGD), which is known to steer deep neural networks toward invaria…",
-      "score": 7
+      "summary": "Post-hoc calibration corrects reported confidence, yet a multiclass calibrator can also change the associated top-1 pre…",
+      "score": 13
     },
     {
       "id": "02c316b249cb",
@@ -83,15 +83,7 @@
       "url": "https://huggingface.co/papers/2609.03153",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "summary": "Visual fluency in generated video does not imply physical reliability, and a scalar quality score alone is incapable of…",
-      "score": 2
-    },
-    {
-      "id": "170844cc0cf9",
-      "title": "Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space",
-      "url": "https://huggingface.co/papers/2608.29188",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) substantially improves single-sample accuracy (pass@1) but causes…",
-      "score": 2
+      "score": 11
     },
     {
       "id": "6e0c6f27008d",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2609.02887",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "summary": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restori…",
-      "score": 1
+      "score": 8
+    },
+    {
+      "id": "170844cc0cf9",
+      "title": "Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space",
+      "url": "https://huggingface.co/papers/2608.29188",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) substantially improves single-sample accuracy (pass@1) but causes…",
+      "score": 8
     }
   ],
-  "fetchedAt": "2026-09-05T00:57:37.999Z",
+  "fetchedAt": "2026-09-05T05:22:04.459Z",
   "stale": false,
   "error": null
 }
