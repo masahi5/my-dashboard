@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "d8ce806626c5",
-      "title": "文字数もNGワードも、実は同じ文字列マッチでコード実行検証できる",
-      "url": "https://zenn.dev/every_ai_recipe/articles/claim-email-ngword-charcount-check",
-      "publishedAt": "2026-09-04T21:11:28.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 「150字以内」「特定の紋切り型表現を使わない」「謝罪は1回だけ」という3種類の制約を持つメール文面を、コード実行機能を使って1回のプロンプトでまとめて検証できるか試した 文字数のような hard constraint（数え上…"
+      "id": "3ed00aca80ab",
+      "title": "Spotifyは2000万行のコードでエージェントをどう回しているか",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr29-gustavsson-summary",
+      "publishedAt": "2026-09-05T09:00:10.000Z",
+      "publisher": "管理人K",
+      "summary": "! 本記事は Anthropic 公式チャンネルの動画「How Spotify runs agents across 20M+ lines of code, with Niklas Gustavsson」（26:11）の紹介と論評を目的と…"
     },
     {
-      "id": "202f59a82e91",
-      "title": "Claude Code の委譲を実測した — ブラウザ巡回を子に投げると親の文脈は1/8、ただし総トークンでは負ける",
-      "url": "https://zenn.dev/genkunjc/articles/subagent-delegation-measured",
-      "publishedAt": "2026-09-04T20:55:28.000Z",
-      "publisher": "genkunjc",
-      "summary": "Claude Code を使っていると、「この作業は子エージェントに投げたほうが安いのでは」と思う場面があります。サブエージェント（Agent ツールで起動する別セッション。ツールの実行結果は親の会話に入らず、最終報告だけが返ってくる）に…"
+      "id": "cab76b1b567b",
+      "title": "60秒でKattoをClaudeに接続する（公式MCPサーバー）✂️",
+      "url": "https://zenn.dev/kattoai/articles/b6eca8ed52070c",
+      "publishedAt": "2026-09-05T08:40:08.000Z",
+      "publisher": "Katto",
+      "summary": "🔗 この記事は katto.tech に最初に公開された記事の転載です（原文・正典）。 KattoはAI動画クリップツールで、公式MCPサーバーを提供しています。つまりアプリを開かなくても使えます。一度Claudeに接続すれば、あとは自…"
     },
     {
-      "id": "fd4191efd979",
-      "title": "型チェックは通る — Claude Code の失敗13件と、気づく仕組みの作り方",
-      "url": "https://zenn.dev/genkunjc/books/claude-code-parallel-kit",
-      "publishedAt": "2026-09-04T20:14:05.000Z",
-      "publisher": "genkunjc",
-      "summary": "AIコーディングエージェントは、エラーを出さずに壊れます。型チェックは通り、ビルドも通り、報告には「完了しました」と書いてある。実際に起きた13件を「症状／本当の原因／なぜ発見が遅れるか／対策」の形でまとめました。中心は3番目です。「気を…"
+      "id": "3718b490fa6b",
+      "title": "AIが問いを立て直した ── 音声のズレを追って感じたLLMの進化",
+      "url": "https://zenn.dev/heybombon/articles/8fa195f7b4d73a",
+      "publishedAt": "2026-09-05T08:39:57.000Z",
+      "publisher": "平凡梵",
+      "summary": "目の前の症状から、データの生成経路へ。調査範囲が広がっていった ! この記事の要点 波形と音声が約0.5秒ずれる問題を、Codex上のGPT-6 Astraと調査した AIは調査の途中で「同期させる対象そのものが正しいのか」と問いを立て直…"
     },
     {
-      "id": "eb0341fb9941",
-      "title": "AI AgentはRailsで作りたいが、ai-sdk useChatに表示は任せたい人へ",
-      "url": "https://zenn.dev/shuent/articles/e0c159cd2989f9",
-      "publishedAt": "2026-09-04T18:46:30.000Z",
-      "publisher": "shuent",
-      "summary": "RailsでAI Agentを書き、そのstreaming UIをAI SDKのuseChatで扱えるようにするため、Rubyのprovider SDK eventを AI SDK UI Message Stream Protocol v…"
+      "id": "f399c8b2993e",
+      "title": "CopilotにApproveさせてAuto Mergeで開発を回す 〜自律開発ループの作り方〜",
+      "url": "https://zenn.dev/yamitake/articles/github-copilot-auto-merge-autonomous-loop",
+      "publishedAt": "2026-09-05T08:29:29.000Z",
+      "publisher": "JJ yamitake",
+      "summary": "はじめに 2026年9月、GitHubから見逃せないアップデートが出ました。 Copilot code reviewがPull Requestを「Approve」できるようになったというものです。 Copilot code review …"
     },
     {
-      "id": "9e80029f9d7a",
-      "title": "AIで作ったHTMLゲーム、どこに投稿できる？ 2026年9月に7つ調べた",
-      "url": "https://zenn.dev/punipogames/articles/1950d42da0e4b1",
-      "publishedAt": "2026-09-04T17:46:30.000Z",
-      "publisher": "PUNIPO",
-      "summary": "ChatGPTやClaudeに「ミニゲーム作って」と頼むと、HTMLファイルが1枚出てきます。ブラウザで開けば動く。じゃあこれをどこに置けば人に遊んでもらえるのか。 2026年9月に、投稿できそうなサイトを7つ、公式ページの記載を読んで調…"
+      "id": "6454be0e28f2",
+      "title": "開発環境を決める～【連載】実況パズルプログラミング",
+      "url": "https://zenn.dev/ogwk/articles/ppb260905episode-002",
+      "publishedAt": "2026-09-05T08:17:11.000Z",
+      "publisher": "OGAWA",
+      "summary": "前回は、okozeを始めた理由と、このプロジェクトを通して考えてみたいことを書きました。 今回は、実際にokozeを作るための開発環境を決めます。 Webアプリケーションか、スタンドアロンアプリケーションか 大きく分けると、次の2つの方法…"
     },
     {
-      "id": "393de74f9dec",
-      "title": "Claude Code × git worktree で並列実行 — 黙って壊れた3つと、分割の境界線",
-      "url": "https://zenn.dev/genkunjc/articles/ead8b520c22733",
-      "publishedAt": "2026-09-04T17:21:06.000Z",
-      "publisher": "genkunjc",
-      "summary": "AIコーディングエージェントを1体ずつ順番に走らせていると、経過時間はほぼ「自分が待っている時間」になります。独立した作業を複数のサブエージェントに分けて同時に走らせれば、そこは縮みます。 ただ、素直にやると壊れます。しかもエラーを出さず…"
+      "id": "ad945b7f8416",
+      "title": "Claude Code × Obsidianで「調査して終わり」にしない開発フローを作る",
+      "url": "https://zenn.dev/yucco/articles/claude-code-obsidian-workflow",
+      "publishedAt": "2026-09-05T08:07:04.000Z",
+      "publisher": "Komugi",
+      "summary": "はじめに こんにちは。 最近は、Claude CodeなどのAIツールを、調査・実装・テスト・ドキュメント作成の補助として使うことが増えました。 AIを使うことで、以前よりもかなり速くコードを書いたり、原因を調べたりできるようになっていま…"
     },
     {
-      "id": "089cc40ec278",
-      "title": "コードが読めないまま、AIの書いたものを検収する — 非エンジニアの検査チェックリスト",
-      "url": "https://zenn.dev/omnikros/books/inspect-ai-written-code",
-      "publishedAt": "2026-09-04T16:17:17.000Z",
-      "publisher": "omnikros",
-      "summary": "実装をAIに任せると、出てくるものは驚くほどよく動きます。 問題は、動いているのに目的が果たされていないときで、そこにはエラーが出ません。 私はコードが読めないまま6つのサイトと1つの有料商品を公開して、 索引から36ページを消し(データ…"
+      "id": "b3790ae1ef37",
+      "title": "Memorix 使ってハーネス浮気！ と思ったらもっと便利な使い方があった",
+      "url": "https://zenn.dev/uhu/articles/3f5324ecfe9ec3",
+      "publishedAt": "2026-09-05T08:01:13.000Z",
+      "publisher": "uhu",
+      "summary": "コーディングエージェント何使ってます？ 私はClaude Code使って、Ollama Cloud経由でGLMとかDeepseek使ってるタイプ。 ある日、Opencode Goええやんって思って使おうとしたら、Claude Codeから…"
     },
     {
-      "id": "2882fbb0049c",
-      "title": "指標が外れた夜 — H3コンテストで受賞した理由",
-      "url": "https://zenn.dev/toki_mwc/articles/h3-contest-best-creative-metric-override",
-      "publishedAt": "2026-09-04T15:01:56.000Z",
-      "publisher": "toki_mwc",
-      "summary": "Quick Answer 自作の画質指標が「閾値超え（8.00 対 基準6.0）」と判定した精細化ショットを、目視で採用に覆してH3動画コンテストのBest Creative部門を受賞した。原因は指標の校正素材（線画）と本番素材（グレイン…"
+      "id": "b77b6d456624",
+      "title": "AI向けの目次を置いて14日ログを取ったら、148回取られてトップ以外は誰も読まなかった",
+      "url": "https://zenn.dev/miki_mini/articles/e5c724bfcc0496",
+      "publishedAt": "2026-09-05T08:00:31.000Z",
+      "publisher": "miki-mini",
+      "summary": "※メニュー（llms.txt）は熱心に読むのに、目の前のテーブルは空のまま。奥の料理も手つかず。時計は15:00です 美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は AIが読んでくれるか分からない なら 2週…"
     },
     {
-      "id": "0c2c118ef743",
-      "title": "【プロンプトインジェクション】AI時代の「見えない指示」の落とし穴",
-      "url": "https://zenn.dev/ykbone/articles/202609-prompt-injection",
-      "publishedAt": "2026-09-04T14:55:13.000Z",
-      "publisher": "ykbone",
-      "summary": "はじめに AIエディタやチャットAIに、こんなお願いをしたことはありませんか。 このURLの記事を読んで、要約して 私もやったことがあります。ある勉強会にて「その操作が情報漏洩の入り口になりうる」と聞いて、正直ぴんと来ませんでした。読ませ…"
+      "id": "0250af20f033",
+      "title": "AIコーディングの私のレビュー観点",
+      "url": "https://zenn.dev/daigo428/articles/2ea6b4bfa6b149",
+      "publishedAt": "2026-09-05T07:34:12.000Z",
+      "publisher": "ydaigo",
+      "summary": "はじめに 所属会社ではClaude Codeを使っており、私自身がゼロからコードを書くことはなくなりました。業務ではClaudeと協力しながらコーディングを進めており、レビューするときの私の観点を本記事にまとめます。 AIのコーディング成…"
     },
     {
-      "id": "69c81f9a1966",
-      "title": "開発の副産物もね：AI組織が自発的に生み出した「サントラジャケット」と「ノベライズ装丁書籍」",
-      "url": "https://zenn.dev/momoch/articles/1a3cb92ecdc6aa",
-      "publishedAt": "2026-09-04T14:24:06.000Z",
-      "publisher": "momoch",
-      "summary": "「動いただけのゲームは、ただのシステムだ。プレイヤーの心を揺さぶるのは、いつだって草の匂いと、ギリギリで耐え抜くドラムロールの緊張感だ。」 白い豆腐が歩き出したαテストから数日──AIマルチエージェントスタジオ『Sternentor』は、…"
+      "id": "469f07b35867",
+      "title": "Claude Code で一番高いリクエストは「さっきの続きやって」かもしれない",
+      "url": "https://zenn.dev/odacchi/articles/claude-code-prompt-cache-ttl",
+      "publishedAt": "2026-09-05T07:32:26.000Z",
+      "publisher": "odacchi",
+      "summary": "Claude Code のプロンプトキャッシュが話題に出ていたので、公式ドキュメントを読んで整理しました。 先に結論から書きます。 長時間放置したセッションに戻ると、再開の 1 ターン目だけが突出して高い 高いのは「トークンをたくさん使う…"
     },
     {
-      "id": "0cb45a195254",
-      "title": "Codex Hooksで入力時と終了時に品質ゲートを置く",
-      "url": "https://zenn.dev/kas_blog/articles/20260828-codex-hooks-quality-gates",
-      "publishedAt": "2026-09-04T14:23:48.000Z",
-      "publisher": "kas's blog",
-      "summary": "Codex Hooksを使うと、ユーザー入力の送信前、tool実行の前後、Codexが停止するときなどにcommandやMCP toolを実行できます。実装時に大切なのは、Hookを増やすことより、止めたい処理より前のイベントを選ぶことで…"
+      "id": "d4f1afc04021",
+      "title": "OpenAI API 入門 — API キーの取得から初回リクエストまで",
+      "url": "https://zenn.dev/akinori901/articles/20260823-00mt4v7a",
+      "publishedAt": "2026-09-05T07:28:04.000Z",
+      "publisher": "Akinori901",
+      "summary": "OpenAI API 入門 — API キーの取得から初回リクエストまで 概要 本記事は、OpenAI API を初めて触るエンジニア向けのハンズオンです。アカウント作成から API キーの発行、環境構築、そして初回リクエストの送信までを…"
     },
     {
-      "id": "8a87b417fcae",
-      "title": "フリーランス案件の「求めるスキル」にAIが入り始めた——今、何を準備すべきか",
-      "url": "https://zenn.dev/takabo/articles/ai-skill-requirement",
-      "publishedAt": "2026-09-04T14:11:33.000Z",
-      "publisher": "takabo",
-      "summary": "最近、案件の「求めるスキル」に「AI支援ツールを活用した開発経験」「LLMを用いた実務経験」といった一文をよく見る。まだ全案件の常識ではないが、確実に増えている。募集中案件を言語別に独自調査すると、AIに言及する割合はこうだった。 言語 …"
+      "id": "4c3d1f520801",
+      "title": "【初心者向け】ChatGPTの音声モードでEC座談会をしてみた | EC-CUBE名古屋 vol.125",
+      "url": "https://zenn.dev/nanasess/articles/chatgpt-voice-ec-roundtable-vol125",
+      "publishedAt": "2026-09-05T07:18:02.000Z",
+      "publisher": "Kentaro Ohkouchi",
+      "summary": "この記事は「【初心者向け】ChatGPT の音声モードでEC座談会 | EC-CUBE名古屋 vol.125」勉強会の記録です。 ! この記事は、勉強会中の音声AIとの対話記録をもとに、参加者が内容を確認しながらAIの支援を受けて編集して…"
     }
   ],
-  "fetchedAt": "2026-09-05T09:12:29.558Z",
+  "fetchedAt": "2026-09-05T12:44:08.806Z",
   "stale": false,
   "error": null
 }
