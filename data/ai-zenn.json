@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "734b85f54ef1",
-      "title": "End-to-End Entity Resolution and Question Answering",
-      "url": "https://zenn.dev/yoshinn/articles/multi_entity_resolution",
-      "publishedAt": "2026-09-05T21:51:56.000Z",
-      "publisher": "yoshishinnze",
-      "summary": "NLPでクラシックな課題名寄せに関する2020年にESWCで採択された論文について解説してきます。 論文情報 項目 内容 タイトル Incremental Multi-source Entity Resolution for Knowle…"
+      "id": "dea77c9a45cb",
+      "title": "AIを使ってAWSの試験を合格できるかチャレンジ",
+      "url": "https://zenn.dev/yamazaking/articles/ai-learning-aws",
+      "publishedAt": "2026-09-06T04:50:39.000Z",
+      "publisher": "yamazaking",
+      "summary": "結論 AIを使ってAWSのAIF,CLF試験に合格しました。 // image1,image2の画像参照 2026年時点でのAIを使った学習法、資格取得法についてのまとめです。 前提 AWSは業務で触ることはほぼないアプリエンジニアですが…"
     },
     {
-      "id": "fb5af476eb69",
-      "title": "Claude Code に「continue」と20回打っていた — 空応答を記録から数え、外から起こす",
-      "url": "https://zenn.dev/genkunjc/articles/claude-code-no-response-requested-stall",
-      "publishedAt": "2026-09-05T21:14:37.000Z",
-      "publisher": "genkunjc",
-      "summary": "Claude Code を1日中回していると、ときどき 何も言わずに止まる ことがあります。エラー表示は出ない。ツールの結果は返っている。でも次の一手が来ない。こちらが continue と打つと、何事もなかったように続きが動く。 「まあ…"
+      "id": "033760c7a286",
+      "title": "大きなタスクをAIに任せる時のTips",
+      "url": "https://zenn.dev/devneko/articles/d0376ef154daa8",
+      "publishedAt": "2026-09-06T04:24:22.000Z",
+      "publisher": "Shinji Yamada",
+      "summary": "プロセス改善とリファクタリングをループに入れる タスクを継続するうちに下記のような問題が発生する。手順内にプロセス改善とリファクタリングを明示的に組み込むことで常に最適な環境を維持する。 不適切なディレクトリ構造やファイル肥大化 必要以上…"
     },
     {
-      "id": "bda406671ae8",
-      "title": "G検定のシラバスをエンジニア視点で読み解く——配点26%の「手法」を数式で辿る",
-      "url": "https://zenn.dev/taichiendoh/articles/g-kentei-syllabus-for-engineers",
-      "publishedAt": "2026-09-05T21:08:38.000Z",
-      "publisher": "遠藤太一",
-      "summary": "初出: note（G検定試験対策）。Zenn向けに、配点が最も厚い「ディープラーニングの手法」パートを数式・コードで補って再構成しました。 G検定（JDLA Deep Learning for GENERAL）は「ディープラーニングを実装…"
+      "id": "b24835081c89",
+      "title": "AIが実装できてしまう現場で、人間に何を残すか",
+      "url": "https://zenn.dev/bitou_engineer/articles/1ae2dbd73722fc",
+      "publishedAt": "2026-09-06T03:54:47.000Z",
+      "publisher": "微糖エンジニア",
+      "summary": "開発プロジェクトには、さまざまな経験を持つ人が参加します。初めて実務に入る人もいれば、難しい局面を何度もくぐってきた人もいます。 そして、メンバーは入れ替わります。プロジェクトが終わるまで、最初の担当者がずっと残っているとは限りません。あ…"
     },
     {
-      "id": "62ea5cf8056e",
-      "title": "Claude Code の Rules が発火しないのは、Claude が Read ツールを使っていないから",
-      "url": "https://zenn.dev/odacchi/articles/claude-code-rules-read-tool",
-      "publishedAt": "2026-09-05T20:36:54.000Z",
-      "publisher": "odacchi",
-      "summary": "kawasin73 さんの Claude Code の Rules はもう死んでいる を読みました。 自分も「あるときから挙動がおかしい」と感じてハーネスを見直し、同じ問題までは特定していました。ただ対処が違っていて、記事の解決策（フィー…"
+      "id": "956a58f7c3b8",
+      "title": "AI チャットに履歴を全部投げたら破綻した — 忘れることは、思い出すためにある",
+      "url": "https://zenn.dev/officekamiya/articles/forgetting-and-remembering",
+      "publishedAt": "2026-09-06T03:32:28.000Z",
+      "publisher": "神谷隼人",
+      "summary": "思い出せない、という言い方をよくします。ただ、自分の中で何が起きているかを見ていくと、この一語の中に、別々の意味が含まれていました。 「思い出せない」は一つの状態ではない 私の感覚では、三つあります。 一つ目は、何も引っかからない。これは…"
     },
     {
-      "id": "abb24c792065",
-      "title": "『計算なら0.9Bで足りる』と書いて1時間もしないうちに突っ込まれた — 50問やり直したら、8割だった",
-      "url": "https://zenn.dev/jinno_ai/articles/k2-horizon-calc-50-retest",
-      "publishedAt": "2026-09-05T20:14:12.000Z",
-      "publisher": "jinno_ai",
-      "summary": "前回、K2 Horizonの0.9B (超小型サイズ) を16GBのゲーミングGPUで動かして、こんなことを書いた。 「計算は0.9Bでも信頼してよさそう。税込計算は一発で正解した。定型的な数値処理なら最小サイズで足りる」 そしたら、とあ…"
+      "id": "dc3f2918434d",
+      "title": "/compact のコストを実ログ705回分で測った — 対話なら回収できる、バッチなら避けるべき",
+      "url": "https://zenn.dev/tsutomusaito/articles/claude-code-compact-cost",
+      "publishedAt": "2026-09-06T03:17:51.000Z",
+      "publisher": "saito",
+      "summary": "長いセッションで /compact が走ったあと、使用量が跳ねた気がする。 体感としてはよく聞く話ですが、実際に測った記録を見たことがなかったので測りました。 Claude Code は全セッションのトークン内訳をローカルに保存しているの…"
     },
     {
-      "id": "fdab0a941f0b",
-      "title": "「Ollamaで動く」はずだったK2 Horizon — 16GB GPUで確かめたら、動いたのはvLLMだけだった",
-      "url": "https://zenn.dev/jinno_ai/articles/k2-horizon-local-verify",
-      "publishedAt": "2026-09-05T18:03:46.000Z",
-      "publisher": "jinno_ai",
-      "summary": "IFMが2026-09-03に出したオープンモデル群「K2 Horizon」は、出どころから中身まで全部見せてくれる珍しいリリースだ。0.9B (超小型) から375B (超大型) まで6サイズ、ライセンスはApache 2.0。学習デー…"
+      "id": "caa391440b44",
+      "title": "なぜ、私のブログ記事作成方法を天国の外山滋比古さんが聞いたら理想的だと評価してくれそうなのか？",
+      "url": "https://zenn.dev/pdfractal/articles/48e68d10b9832c",
+      "publishedAt": "2026-09-06T03:06:07.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに 私は現在、ブログ記事を書くときに、最初からAIへ「この記事を書いてください」と依頼しているわけではありません。日常生活の中で疑問や違和感を覚え、そこから自分なりの仮説を立て、ChatGPTとかなり長く討論します。その過程で反論を…"
     },
     {
-      "id": "d49e28b9552f",
-      "title": "Codex Skillを最小SKILL.mdから育てる設計",
-      "url": "https://zenn.dev/kas_blog/articles/20260828-codex-skills-reusable-workflows",
-      "publishedAt": "2026-09-05T17:22:20.000Z",
-      "publisher": "kas's blog",
-      "summary": "Codexへ同じ手順を何度も説明しているなら、Skillにまとめる候補です。ただし、過去のpromptをそのまま保存するより、再利用する順序、判断基準、安全境界、完了条件を抽出した方が安定します。 この記事では、release前revie…"
+      "id": "59fd37cfe55a",
+      "title": "コードレビューを一人に背負わせるのをやめた——Claude Code のサブエージェントで観点ごとに分業する",
+      "url": "https://zenn.dev/autocamp/articles/1c202c6737ddc8",
+      "publishedAt": "2026-09-06T02:59:20.000Z",
+      "publisher": "オートキャンプライフ",
+      "summary": "改修が終わったコードを、最後に誰が見るか。 うちでは長いあいだ、それは一人の担当が全部背負う仕事だった。 バグがないか、セキュリティ的にまずい書き方をしていないか、対応漏れはないか。 観点はいくつもあるのに、見る人は一人のままだった。 い…"
     },
     {
-      "id": "1dfbf6f9a282",
-      "title": "Twilic はあれからどうなった？ 公開から約3ヶ月でかなり進化しました",
-      "url": "https://zenn.dev/minagishl/articles/52e38c32384b19",
-      "publishedAt": "2026-09-05T17:01:43.000Z",
-      "publisher": "みなぎし",
-      "summary": "はじめに お久しぶりです、みなぎしです！ 前回 Twilic についての記事 を公開したのが 2026 年 5 月 24 日なので、気づけば約 3 ヶ月半が経ちました 前回の記事では、Twilic というバイナリフォーマットを作ったことや…"
+      "id": "3405d00b9973",
+      "title": "AIグラスで視覚と聴覚の断絶を繋ぐ：盲聾対話の成功例から学ぶ「実世界AI活用」の要点とヒント",
+      "url": "https://zenn.dev/lumichy/articles/ai-glasses-deaf-blind-communication-2026",
+      "publishedAt": "2026-09-06T02:45:47.000Z",
+      "publisher": "lumichy",
+      "summary": "目が見えない人と、耳が聞こえない人が、通訳なしで二人きりで同じ部屋に置かれたら何が起きるでしょうか。 盲人は音声しか出力・入力できず、聾人は視覚（手話や文字）しか出力・入力できません。二人の間には、情報の入出力モダリティが完全に直交する「…"
     },
     {
-      "id": "02ee6e4c37b7",
-      "title": "AI エージェントが PR に画像を貼れないのには理由があった —— Markdown Image Exfiltration",
-      "url": "https://zenn.dev/j_kashiwagi/articles/2026-09-05-markdown-image-exfiltration-pr-evidence",
-      "publishedAt": "2026-09-05T16:57:25.000Z",
-      "publisher": "kashi-j",
-      "summary": "発端は、証跡のスクリーンショットだった AI エージェントに Issue から PR まで書かせるのは、もう特別な運用ではなくなりました。実装もテストも PR 本文も、テキストで完結する作業はひととおり任せられます。 ところが、そこに規約…"
+      "id": "59237da67b05",
+      "title": "「直したつもり」はもう通用しない — OpenAIの公開書簡を攻撃者の視点で読む",
+      "url": "https://zenn.dev/tetsuki_umehara/articles/attacker-perspective-attack-paths",
+      "publishedAt": "2026-09-06T02:42:16.000Z",
+      "publisher": "Tetsuki Umehara",
+      "summary": "はじめに 防御側の道具を一通り触ってきて、ひとつ強く感じていることがあります。 防御側の議論は、いつも「何を入れるか」から始まる。攻撃側の議論は、いつも「何が残っているか」から始まる。 EDRを入れた。脆弱性スキャンを回している。SIEM…"
     },
     {
-      "id": "0b1368e28a25",
-      "title": "memorix入門: 使い方メモ",
-      "url": "https://zenn.dev/uhu/articles/698f7fedc4daa4",
-      "publishedAt": "2026-09-05T15:50:00.000Z",
-      "publisher": "uhu",
-      "summary": "memorixの説明 memorixは Gitプロジェクト単位のlocal-first記憶レイヤー だよ。 SQLiteが正本、LLMキーなしでも全文検索で動く。 人間が叩くんじゃなくて、MCP経由でLLMが使うのが本番。 人間は仕込んで…"
+      "id": "b42ff59e2c2a",
+      "title": "個人開発のAI利用構成と2026年8月の課金額(API換算)を公開する",
+      "url": "https://zenn.dev/t_tokunaga/articles/2026-09-01-ai-model-stack-cost-breakdown-2026-08",
+      "publishedAt": "2026-09-06T02:39:36.000Z",
+      "publisher": "TakumiTOKUNAGA",
+      "summary": "こんにちは、個人開発者のttokunagaです。 今回は、個人開発で利用しているAIサービスの構成と、2026年8月の利用量をAPI料金に換算した金額を公開します。 8月は会社用・個人用の2契約でCodexを利用し、ClaudeはProプ…"
     },
     {
-      "id": "14f4c8ca5435",
-      "title": "title: \"個人開発でクイズ学習アプリを作ったら、想像以上に学びが多かった話\"",
-      "url": "https://zenn.dev/minguella/articles/c21cc1ebe042df",
-      "publishedAt": "2026-09-05T15:34:05.000Z",
-      "publisher": "Minguella",
-      "summary": "個人開発でクイズ学習アプリを作ったら、想像以上に学びが多かった話\" emoji: \"🎯\" type: \"tech\" topics: [\"React\", \"個人開発\", \"PWA\", \"学習アプリ\"] published: false は…"
+      "id": "f1f7ed9c145e",
+      "title": "観光ルート最適化で「理論上の最短」が現地で破綻する3つの理由",
+      "url": "https://zenn.dev/yukiee55/articles/1a8b67cc387127",
+      "publishedAt": "2026-09-06T02:33:25.000Z",
+      "publisher": "yukiee",
+      "summary": "行きたい観光地を入れると、移動時間が最短になる順番と泊まるエリアを出すサイトを作りました。 サーバーを持たず、計算はすべてブラウザの中で完結しています。 作る前は「巡回セールスマン問題を解けば終わり」だと思っていました。実際は違いました。…"
     },
     {
-      "id": "cf2dca4f709e",
-      "title": "AIエージェントの評価を実装する：本番ドリフトを検出するEvals設計",
-      "url": "https://zenn.dev/xim2jp_tokyo/articles/3be3803c55f31a",
-      "publishedAt": "2026-09-05T15:25:54.000Z",
-      "publisher": "しんいち",
-      "summary": "※本稿は、当方ブログの紹介文です。全文はこちらへどうぞ。 https://shinichi.noguchi.jp.net/blog/2026-09-05-agent-evals-in-production.html AIエージェントの評価…"
+      "id": "7ac2547d0b38",
+      "title": "AIと伝統宗教の共通点＆自律力が本質を底上げできる事について解説",
+      "url": "https://zenn.dev/hiro_f35/articles/10885c79445944",
+      "publishedAt": "2026-09-06T02:14:53.000Z",
+      "publisher": "hiro_f35",
+      "summary": "一見すると真逆の領域に見える「最新テクノロジー（AI）」と「古来の教え（伝統宗教）」ですが、構造や人間の精神に果たす役割において深い共通点を持っています。 人間がAIや宗教に依存しきらず、自律力（自分の頭で考え、軸を持って選択する力）を発…"
     }
   ],
-  "fetchedAt": "2026-09-06T05:57:13.874Z",
+  "fetchedAt": "2026-09-06T10:27:39.960Z",
   "stale": false,
   "error": null
 }
