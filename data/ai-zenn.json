@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "dea77c9a45cb",
-      "title": "AIを使ってAWSの試験を合格できるかチャレンジ",
-      "url": "https://zenn.dev/yamazaking/articles/ai-learning-aws",
-      "publishedAt": "2026-09-06T04:50:39.000Z",
-      "publisher": "yamazaking",
-      "summary": "結論 AIを使ってAWSのAIF,CLF試験に合格しました。 // image1,image2の画像参照 2026年時点でのAIを使った学習法、資格取得法についてのまとめです。 前提 AWSは業務で触ることはほぼないアプリエンジニアですが…"
+      "id": "1f0b5eda0e20",
+      "title": "Claudeにアプリ開発で相談したら共演NGをくらったときの話",
+      "url": "https://zenn.dev/kosuke0321/articles/e0d69b1ebe7e6a",
+      "publishedAt": "2026-09-06T02:00:05.000Z",
+      "publisher": "Kosuke | 英語系エンジニア",
+      "summary": "「ぼくのかんがえたさいきょうのWebアプリ」が作りたかった Claude CodeでWebサービスを作ろうと思って、開発したいプロジェクトについてWeb版のClaudeに相談していました。具体的な内容については言いにくい()のですが、pi…"
     },
     {
-      "id": "033760c7a286",
-      "title": "大きなタスクをAIに任せる時のTips",
-      "url": "https://zenn.dev/devneko/articles/d0376ef154daa8",
-      "publishedAt": "2026-09-06T04:24:22.000Z",
-      "publisher": "Shinji Yamada",
-      "summary": "プロセス改善とリファクタリングをループに入れる タスクを継続するうちに下記のような問題が発生する。手順内にプロセス改善とリファクタリングを明示的に組み込むことで常に最適な環境を維持する。 不適切なディレクトリ構造やファイル肥大化 必要以上…"
+      "id": "290e61d8efec",
+      "title": "読まない技術 第6回：ルールを読まない技術",
+      "url": "https://zenn.dev/garplab/articles/569d598941c00f",
+      "publishedAt": "2026-09-06T01:56:43.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「読まない技術」の第 6 回です。各回はファイルやスクリプトを一つ置けば完結します。連載の全体像と各回の一覧は序論にあります。 今回は、指示ファイルに書くルールの話です。守ってほしいことを書くのをやめて、代わりに何を置くか…"
     },
     {
-      "id": "b24835081c89",
-      "title": "AIが実装できてしまう現場で、人間に何を残すか",
-      "url": "https://zenn.dev/bitou_engineer/articles/1ae2dbd73722fc",
-      "publishedAt": "2026-09-06T03:54:47.000Z",
-      "publisher": "微糖エンジニア",
-      "summary": "開発プロジェクトには、さまざまな経験を持つ人が参加します。初めて実務に入る人もいれば、難しい局面を何度もくぐってきた人もいます。 そして、メンバーは入れ替わります。プロジェクトが終わるまで、最初の担当者がずっと残っているとは限りません。あ…"
+      "id": "7b0aa5ffab3a",
+      "title": "緑のテストが何も保証していないとき —— 受け入れ前にわざと壊す4つの型",
+      "url": "https://zenn.dev/ai_shihan/articles/332d79d1739497",
+      "publishedAt": "2026-09-06T01:51:42.000Z",
+      "publisher": "ai_shihan",
+      "summary": "こんにちは、AI師範です。普段はAIを組織のように使って、業務自動化ツールの製作と、その運用の引き継ぎ支援をしています。 AIに実装を任せると、最後にこう返ってきます。 テストは全件通過しました。問題ありません。 たいていは本当です。ただ…"
     },
     {
-      "id": "956a58f7c3b8",
-      "title": "AI チャットに履歴を全部投げたら破綻した — 忘れることは、思い出すためにある",
-      "url": "https://zenn.dev/officekamiya/articles/forgetting-and-remembering",
-      "publishedAt": "2026-09-06T03:32:28.000Z",
-      "publisher": "神谷隼人",
-      "summary": "思い出せない、という言い方をよくします。ただ、自分の中で何が起きているかを見ていくと、この一語の中に、別々の意味が含まれていました。 「思い出せない」は一つの状態ではない 私の感覚では、三つあります。 一つ目は、何も引っかからない。これは…"
+      "id": "8e9ff9a956ae",
+      "title": "Claude Max 20xの週次上限は実測何倍か 公式非公表の内訳を検証",
+      "url": "https://zenn.dev/ainewsdaily/articles/20260831_general_t1",
+      "publishedAt": "2026-09-06T01:49:15.000Z",
+      "publisher": "AIニュース",
+      "summary": "Claude Max 20xは「Proの20倍」という表記で知られるプランです。ただしAnthropicが公式に20倍と定義しているのは5時間ごとのセッション枠だけで、もう一段上にある週の上限には、倍率も絶対値も公表されていません。第三者…"
     },
     {
-      "id": "dc3f2918434d",
-      "title": "/compact のコストを実ログ705回分で測った — 対話なら回収できる、バッチなら避けるべき",
-      "url": "https://zenn.dev/tsutomusaito/articles/claude-code-compact-cost",
-      "publishedAt": "2026-09-06T03:17:51.000Z",
-      "publisher": "saito",
-      "summary": "長いセッションで /compact が走ったあと、使用量が跳ねた気がする。 体感としてはよく聞く話ですが、実際に測った記録を見たことがなかったので測りました。 Claude Code は全セッションのトークン内訳をローカルに保存しているの…"
+      "id": "124e98f9e79c",
+      "title": "個人PCのClaude Codeの設定ファイルと、設定の動機を一部紹介します",
+      "url": "https://zenn.dev/yuki82511988/articles/45a5a464514ac1",
+      "publishedAt": "2026-09-06T01:32:12.000Z",
+      "publisher": "yuki",
+      "summary": "はじめに Claude Codeは何も設定しないまま利用すると、意図しないコマンドを実行したり、サイトにアクセスしたりしてしまう可能性があります。それらを防いでくれるのが設定ファイルです。 本記事では、自分が調査しながら作成して普段使いし…"
     },
     {
-      "id": "caa391440b44",
-      "title": "なぜ、私のブログ記事作成方法を天国の外山滋比古さんが聞いたら理想的だと評価してくれそうなのか？",
-      "url": "https://zenn.dev/pdfractal/articles/48e68d10b9832c",
-      "publishedAt": "2026-09-06T03:06:07.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに 私は現在、ブログ記事を書くときに、最初からAIへ「この記事を書いてください」と依頼しているわけではありません。日常生活の中で疑問や違和感を覚え、そこから自分なりの仮説を立て、ChatGPTとかなり長く討論します。その過程で反論を…"
+      "id": "625c522a14c3",
+      "title": "AI活用の7段階モデル — 「質問する人」と「仕組みを作る人」の差",
+      "url": "https://zenn.dev/hideki_tamae/articles/ai-usage-7-stages",
+      "publishedAt": "2026-09-06T00:46:00.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに このシリーズではこれまで、Harness Engineering・Loop Engineering・Context Engineering・Evaluation・Tool Engineering・Memory設計・Observa…"
     },
     {
-      "id": "59fd37cfe55a",
-      "title": "コードレビューを一人に背負わせるのをやめた——Claude Code のサブエージェントで観点ごとに分業する",
-      "url": "https://zenn.dev/autocamp/articles/1c202c6737ddc8",
-      "publishedAt": "2026-09-06T02:59:20.000Z",
-      "publisher": "オートキャンプライフ",
-      "summary": "改修が終わったコードを、最後に誰が見るか。 うちでは長いあいだ、それは一人の担当が全部背負う仕事だった。 バグがないか、セキュリティ的にまずい書き方をしていないか、対応漏れはないか。 観点はいくつもあるのに、見る人は一人のままだった。 い…"
+      "id": "bb34b6d9ee7f",
+      "title": "世界初の動画生成オープンハーネス、OpenMontageとは？ローカルLLMでどこまで作成できるかを検証",
+      "url": "https://zenn.dev/taka4/articles/7499239bb4756c",
+      "publishedAt": "2026-09-06T00:30:21.000Z",
+      "publisher": "おっぴー＠AI推進",
+      "summary": "はじめに こんにちは。おっぴー@AI推進です。 前回の記事(ローカルLLMでの楽曲生成検証記事)では、CUDA専用と明記されたMiniMax-Music3をApple Silicon(MPS)で動かし、Claude Codeのスキル機構で…"
     },
     {
-      "id": "3405d00b9973",
-      "title": "AIグラスで視覚と聴覚の断絶を繋ぐ：盲聾対話の成功例から学ぶ「実世界AI活用」の要点とヒント",
-      "url": "https://zenn.dev/lumichy/articles/ai-glasses-deaf-blind-communication-2026",
-      "publishedAt": "2026-09-06T02:45:47.000Z",
-      "publisher": "lumichy",
-      "summary": "目が見えない人と、耳が聞こえない人が、通訳なしで二人きりで同じ部屋に置かれたら何が起きるでしょうか。 盲人は音声しか出力・入力できず、聾人は視覚（手話や文字）しか出力・入力できません。二人の間には、情報の入出力モダリティが完全に直交する「…"
+      "id": "c6a014df875b",
+      "title": "エージェントの推論基盤はワークフローを見ていない、Dyserveが埋める溝",
+      "url": "https://zenn.dev/okssusucha/articles/20260715-workflow-aware-llm-serving-for-agents",
+      "publishedAt": "2026-09-06T00:11:42.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "チャットボットを載せる推論サーバは、1つのリクエストを1回のLLM呼び出しとして扱えばよかった。プロンプトが来て、トークンを吐いて、終わり。vLLMやTGIといった推論エンジンは、この「独立した1回」を速く安くさばくために磨かれてきた。と…"
     },
     {
-      "id": "59237da67b05",
-      "title": "「直したつもり」はもう通用しない — OpenAIの公開書簡を攻撃者の視点で読む",
-      "url": "https://zenn.dev/tetsuki_umehara/articles/attacker-perspective-attack-paths",
-      "publishedAt": "2026-09-06T02:42:16.000Z",
-      "publisher": "Tetsuki Umehara",
-      "summary": "はじめに 防御側の道具を一通り触ってきて、ひとつ強く感じていることがあります。 防御側の議論は、いつも「何を入れるか」から始まる。攻撃側の議論は、いつも「何が残っているか」から始まる。 EDRを入れた。脆弱性スキャンを回している。SIEM…"
+      "id": "6853436d58df",
+      "title": "53. AIイラストは何ができて何ができないのか：2026年8月時点の技術調査メモ",
+      "url": "https://zenn.dev/yamada_ai_dev/articles/ai-illustration-2026-capability-survey",
+      "publishedAt": "2026-09-05T23:30:10.000Z",
+      "publisher": "yamada-ai-dev",
+      "summary": "! この記事は生成AIで作成した草稿を、筆者が内容を確認し、添削・修正のうえ公開しています。 AIイラストは何ができて何ができないのか：2026年8月時点の技術調査メモ この記事の立場（先に書きます） 筆者はイラスト・美術の分野にまったく…"
     },
     {
-      "id": "b42ff59e2c2a",
-      "title": "個人開発のAI利用構成と2026年8月の課金額(API換算)を公開する",
-      "url": "https://zenn.dev/t_tokunaga/articles/2026-09-01-ai-model-stack-cost-breakdown-2026-08",
-      "publishedAt": "2026-09-06T02:39:36.000Z",
-      "publisher": "TakumiTOKUNAGA",
-      "summary": "こんにちは、個人開発者のttokunagaです。 今回は、個人開発で利用しているAIサービスの構成と、2026年8月の利用量をAPI料金に換算した金額を公開します。 8月は会社用・個人用の2契約でCodexを利用し、ClaudeはProプ…"
+      "id": "9c8c7784d22c",
+      "title": "Claude Codeで仕様駆動開発、企画から保守まで全部教えたるで",
+      "url": "https://zenn.dev/masayan1126/books/claude-code-spec-driven-dev",
+      "publishedAt": "2026-09-05T23:08:04.000Z",
+      "publisher": "たこやきねこやで",
+      "summary": "Claude Codeを活用した仕様駆動開発の全体像を9フェーズに分けて解説するで。GitHub Issueに要件を集約してPlanモードから開始するアプローチで、開発の各フェーズを大幅に効率化する実践事例を紹介するんや。"
     },
     {
-      "id": "f1f7ed9c145e",
-      "title": "観光ルート最適化で「理論上の最短」が現地で破綻する3つの理由",
-      "url": "https://zenn.dev/yukiee55/articles/1a8b67cc387127",
-      "publishedAt": "2026-09-06T02:33:25.000Z",
-      "publisher": "yukiee",
-      "summary": "行きたい観光地を入れると、移動時間が最短になる順番と泊まるエリアを出すサイトを作りました。 サーバーを持たず、計算はすべてブラウザの中で完結しています。 作る前は「巡回セールスマン問題を解けば終わり」だと思っていました。実際は違いました。…"
+      "id": "a93c9fdb78b3",
+      "title": "前払い・着手金ルールで未回収をゼロにした — ひとり法人の与信管理の実務",
+      "url": "https://zenn.dev/joinclass/articles/article-20260831220006-29744",
+      "publishedAt": "2026-09-05T23:00:11.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "売上が立っても、入金されなければ売上ではない 僕はひとり法人で受託開発とAI業務自動化コンサルをやっている。2026年3月の受託売上は ¥1,937,635 だった。内訳はX社 ¥880K、C社 ¥933K、A社 ¥110K、H社 ¥15…"
     },
     {
-      "id": "7ac2547d0b38",
-      "title": "AIと伝統宗教の共通点＆自律力が本質を底上げできる事について解説",
-      "url": "https://zenn.dev/hiro_f35/articles/10885c79445944",
-      "publishedAt": "2026-09-06T02:14:53.000Z",
-      "publisher": "hiro_f35",
-      "summary": "一見すると真逆の領域に見える「最新テクノロジー（AI）」と「古来の教え（伝統宗教）」ですが、構造や人間の精神に果たす役割において深い共通点を持っています。 人間がAIや宗教に依存しきらず、自律力（自分の頭で考え、軸を持って選択する力）を発…"
+      "id": "6500ef88b0c6",
+      "title": "１つのアプリに、入口が２つできる ── LovableのCTOが語った、AI時代のSaaSインターフェース",
+      "url": "https://zenn.dev/leading_ai/articles/agent-facing-saas-interface",
+      "publishedAt": "2026-09-05T22:22:08.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "序章：8月26日に出た、1本のインタビュー 2026年8月26日、AI業界のニュースレター Latent Space に、1本のインタビュー記事が載った。 話しているのは、スウェーデン・ストックホルム発のAIスタートアップLovable（…"
     }
   ],
-  "fetchedAt": "2026-09-06T10:27:39.960Z",
+  "fetchedAt": "2026-09-06T13:45:49.881Z",
   "stale": false,
   "error": null
 }
