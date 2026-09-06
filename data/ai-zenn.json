@@ -6,6 +6,54 @@
   "category": "ai",
   "items": [
     {
+      "id": "734b85f54ef1",
+      "title": "End-to-End Entity Resolution and Question Answering",
+      "url": "https://zenn.dev/yoshinn/articles/multi_entity_resolution",
+      "publishedAt": "2026-09-05T21:51:56.000Z",
+      "publisher": "yoshishinnze",
+      "summary": "NLPでクラシックな課題名寄せに関する2020年にESWCで採択された論文について解説してきます。 論文情報 項目 内容 タイトル Incremental Multi-source Entity Resolution for Knowle…"
+    },
+    {
+      "id": "fb5af476eb69",
+      "title": "Claude Code に「continue」と20回打っていた — 空応答を記録から数え、外から起こす",
+      "url": "https://zenn.dev/genkunjc/articles/claude-code-no-response-requested-stall",
+      "publishedAt": "2026-09-05T21:14:37.000Z",
+      "publisher": "genkunjc",
+      "summary": "Claude Code を1日中回していると、ときどき 何も言わずに止まる ことがあります。エラー表示は出ない。ツールの結果は返っている。でも次の一手が来ない。こちらが continue と打つと、何事もなかったように続きが動く。 「まあ…"
+    },
+    {
+      "id": "bda406671ae8",
+      "title": "G検定のシラバスをエンジニア視点で読み解く——配点26%の「手法」を数式で辿る",
+      "url": "https://zenn.dev/taichiendoh/articles/g-kentei-syllabus-for-engineers",
+      "publishedAt": "2026-09-05T21:08:38.000Z",
+      "publisher": "遠藤太一",
+      "summary": "初出: note（G検定試験対策）。Zenn向けに、配点が最も厚い「ディープラーニングの手法」パートを数式・コードで補って再構成しました。 G検定（JDLA Deep Learning for GENERAL）は「ディープラーニングを実装…"
+    },
+    {
+      "id": "62ea5cf8056e",
+      "title": "Claude Code の Rules が発火しないのは、Claude が Read ツールを使っていないから",
+      "url": "https://zenn.dev/odacchi/articles/claude-code-rules-read-tool",
+      "publishedAt": "2026-09-05T20:36:54.000Z",
+      "publisher": "odacchi",
+      "summary": "kawasin73 さんの Claude Code の Rules はもう死んでいる を読みました。 自分も「あるときから挙動がおかしい」と感じてハーネスを見直し、同じ問題までは特定していました。ただ対処が違っていて、記事の解決策（フィー…"
+    },
+    {
+      "id": "abb24c792065",
+      "title": "『計算なら0.9Bで足りる』と書いて1時間もしないうちに突っ込まれた — 50問やり直したら、8割だった",
+      "url": "https://zenn.dev/jinno_ai/articles/k2-horizon-calc-50-retest",
+      "publishedAt": "2026-09-05T20:14:12.000Z",
+      "publisher": "jinno_ai",
+      "summary": "前回、K2 Horizonの0.9B (超小型サイズ) を16GBのゲーミングGPUで動かして、こんなことを書いた。 「計算は0.9Bでも信頼してよさそう。税込計算は一発で正解した。定型的な数値処理なら最小サイズで足りる」 そしたら、とあ…"
+    },
+    {
+      "id": "fdab0a941f0b",
+      "title": "「Ollamaで動く」はずだったK2 Horizon — 16GB GPUで確かめたら、動いたのはvLLMだけだった",
+      "url": "https://zenn.dev/jinno_ai/articles/k2-horizon-local-verify",
+      "publishedAt": "2026-09-05T18:03:46.000Z",
+      "publisher": "jinno_ai",
+      "summary": "IFMが2026-09-03に出したオープンモデル群「K2 Horizon」は、出どころから中身まで全部見せてくれる珍しいリリースだ。0.9B (超小型) から375B (超大型) まで6サイズ、ライセンスはApache 2.0。学習デー…"
+    },
+    {
       "id": "d49e28b9552f",
       "title": "Codex Skillを最小SKILL.mdから育てる設計",
       "url": "https://zenn.dev/kas_blog/articles/20260828-codex-skills-reusable-workflows",
@@ -52,57 +100,9 @@
       "publishedAt": "2026-09-05T15:25:54.000Z",
       "publisher": "しんいち",
       "summary": "※本稿は、当方ブログの紹介文です。全文はこちらへどうぞ。 https://shinichi.noguchi.jp.net/blog/2026-09-05-agent-evals-in-production.html AIエージェントの評価…"
-    },
-    {
-      "id": "e6de0a56c031",
-      "title": "GPT-6 Astraを業務に組み込むなら、モデルと実行環境をどう分けて考えるか",
-      "url": "https://zenn.dev/kai_ai/articles/6ca25f497a26b5",
-      "publishedAt": "2026-09-05T14:54:22.000Z",
-      "publisher": "Kai＠生成AI",
-      "summary": "問い：Astraの能力を、どこまで実行環境に委ねられるか 研究データの分析アプリ、動画編集アプリ、3Dゲーム。XにはGPT-6 Astraを使った幅広い制作報告がある。しかし、業務へ組み込む際には、完成物の種類だけでは設計を決められない。…"
-    },
-    {
-      "id": "6110fc8c8441",
-      "title": "みんな憧れるようなサイトを作ってみたはなし",
-      "url": "https://zenn.dev/sahenjpn/articles/3ffd5052ea7455",
-      "publishedAt": "2026-09-05T13:52:45.000Z",
-      "publisher": "sahen",
-      "summary": "この文章を書いているIDEのMozkeyほんとにいいから使ってみてください。冗談抜きで。 本題 自分のサイトを作りました。 デザイン ChatGPTとかと一緒に頑張って考えました。 でも今回のMVPはやっぱりshadcn/uiですね。 こ…"
-    },
-    {
-      "id": "668a251f72d4",
-      "title": "Google VidsがPDFやDocsから動画要約を自動生成する機能を追加",
-      "url": "https://zenn.dev/adopture/articles/2f11f6e5a3234b",
-      "publishedAt": "2026-09-05T13:45:08.000Z",
-      "publisher": "ggnn編集部｜アダプチュア株式会社",
-      "summary": "Google WorkspaceのAI動画制作ツール「Google Vids」に、Googleドキュメント、PDF、Wordファイルを読み込ませるだけで、AIが自動で要約動画を生成する新機能が追加されました。 長大な仕様書、設計書、障害レ…"
-    },
-    {
-      "id": "1b0368f4e828",
-      "title": "Claude Code autoモード設定完全版——分類器は残し、Bash書き込みだけ外す",
-      "url": "https://zenn.dev/hiroki_dev_hack/books/d86948b19e9dac",
-      "publishedAt": "2026-09-05T13:36:31.000Z",
-      "publisher": "ヒロキ",
-      "summary": "auto モードなのに許可ばかり出る「許可疲れ」の正体は、Edit で済む変更が Bash 経由で分類器に回っていること。公式ドキュメントと GitHub Issue の一次情報で因果を切り分け、分類器は残したまま Bash 書き込みだけ…"
-    },
-    {
-      "id": "11ddcfab7050",
-      "title": "生成AIは「初期条件の最適化」から「生成軌道の設計」へ",
-      "url": "https://zenn.dev/albatrosary/articles/8704ed4c2aacb6",
-      "publishedAt": "2026-09-05T12:53:20.000Z",
-      "publisher": "albatrosary",
-      "summary": "! TL;DR 生成AIの活用では、いまもプロンプト、System Prompt、Skill、Persona、Few-shot、各種ルールなど、「より良い入力条件」を作ることに多くの努力が向けられている。たしかに初期条件は重要だ。しかし、…"
-    },
-    {
-      "id": "2fc0d0987b95",
-      "title": "AIに任せる範囲を広げるほど、レビューが持たなくなる｜型とテストで「読まずに済む」状態をつくる",
-      "url": "https://zenn.dev/takabo/articles/ai-guardrails-with-tests",
-      "publishedAt": "2026-09-05T12:38:26.000Z",
-      "publisher": "takabo",
-      "summary": "Claude Code に任せる範囲を広げていくと、どこかで「全部読んでレビューする」が破綻します。差分が大きいうえに、出力はいつも自然な日本語と動くコードだからです。読んで違和感が無いことと、正しいことは別物です。 そこで方針を変えまし…"
     }
   ],
-  "fetchedAt": "2026-09-06T01:11:15.740Z",
+  "fetchedAt": "2026-09-06T05:57:13.874Z",
   "stale": false,
   "error": null
 }
