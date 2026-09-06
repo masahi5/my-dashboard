@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3560f281c195",
-      "title": "AIに業務システムを書かせるとき、品質をどう担保したか",
-      "url": "https://zenn.dev/rakuya/articles/02_ai-built-business-system-quality",
-      "publishedAt": "2026-09-06T13:22:51.000Z",
-      "publisher": "Rakuya（ラク屋）",
-      "summary": "AI エージェントを使って、動物病院向けの電子カルテ・売上管理システムを一人で作っている。 その過程で決めた「AI の出力をどう受け入れるか」のルールと、 それによって実際に見つかった不具合 2 件を書く。 前提：AI が書いたコードは、…"
+      "id": "ab06999106c0",
+      "title": "RAGの心臓部 — Embeddingとベクトル検索で「意味」を捉える",
+      "url": "https://zenn.dev/yukihayama/articles/rag-embedding-basics",
+      "publishedAt": "2026-09-06T22:08:43.000Z",
+      "publisher": "葉山悠希",
+      "summary": "RAGの心臓部 — Embeddingとベクトル検索で「意味」を捉える ChatGPTやClaudeに「自社のデータを読み込ませたい」と思ったことはありませんか？そこで鍵になるのがEmbeddingとベクトル検索です。RAG（Retrie…"
     },
     {
-      "id": "4df42c564e39",
-      "title": "「メモリこそがAIエージェントの本当のモート」LangChain Harrison Chaseを要点解説",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr15-chase-langchain-summary",
-      "publishedAt": "2026-09-06T13:00:08.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について LangChain 創業者の Harrison Chase が Sequoia Capital で語った「長時間動くエージェントの作り方」を、要点だけ抜き出して日本語で解説します。エージェント基盤を作る当事者が、その難し…"
+      "id": "46f1c789b868",
+      "title": "描いたラクガキがモンスターになるゲーム『ラクガキビースト』を個人開発しています",
+      "url": "https://zenn.dev/marvelousu/articles/rakugaki-beast-intro",
+      "publishedAt": "2026-09-06T22:08:24.000Z",
+      "publisher": "Tom",
+      "summary": "描いたラクガキが属性と能力を持ったモンスターになって動き出すゲームを、個人で作っています。 Steam のストアページを公開し、ブラウザで一部を試せるようにしたので、その紹介です。 はじめに 個人でゲームを作っています。作るならこれまでに…"
     },
     {
-      "id": "a994a5277281",
-      "title": "AIのなにがすごいのか？——生成でも検索でもなく、「2つの距離」を消したこと",
-      "url": "https://zenn.dev/saru24/articles/5a866f0b64dbcd",
-      "publishedAt": "2026-09-06T13:00:05.000Z",
-      "publisher": "Moriyama, Takayuki",
-      "summary": "はじめに——一緒に潜って、お宝ゲット AIについて世間で語られるのは、だいたい機能の話です。文章が生成できる。画像が作れる。何でも知っている。コードが書ける。 一つ一つの機能は確かにすごいんだけど、「で、仕事の何が変わるのか」を端的に伝え…"
+      "id": "0150e29ad28d",
+      "title": "git worktreeで実現する、Claude Codeの並行開発",
+      "url": "https://zenn.dev/collabostyle/articles/d32c62c99bc241",
+      "publishedAt": "2026-09-06T22:02:09.000Z",
+      "publisher": "yushi-s",
+      "summary": "TL;DR Claude Codeのようなコーディングエージェントに設計・実装・レビュー対応を任せる開発スタイル（AI-DLC: AI-Driven Development Lifecycleのような、要件→設計→計画→実装→レビューを段…"
     },
     {
-      "id": "276585aafb94",
-      "title": "AI社員9人をClaude Codeで作って、最初に外した3つ",
-      "url": "https://zenn.dev/pcnotonari/articles/9ec7db15ce80cd",
-      "publishedAt": "2026-09-06T12:20:05.000Z",
-      "publisher": "pcnotonari",
-      "summary": "神戸で中古PCの整備とレンタルをしている、ひとりの事業者です。実務はClaude Codeで動かしている「AI社員」9人に任せていて、私がやるのは判断と承認だけです。 サイト制作、記事の執筆と公開、契約書のたたき台、経理の集計。それぞれ別…"
+      "id": "9214cb0c9fc1",
+      "title": "AGENTS.md は書けば効くのか — 手書き+4%、AI生成-3%という実測と、私の手書きが0件だった話",
+      "url": "https://zenn.dev/hwaun_dev_open/articles/agents-md-does-it-work",
+      "publishedAt": "2026-09-06T22:00:05.000Z",
+      "publisher": "PaPaPa",
+      "summary": "CLAUDE.md や AGENTS.md を書いている人は多いと思います。私も書いています。 では聞きますが、それが効いていることを、どうやって確認しましたか。 私は確認していませんでした。書いて、なんとなく動いている気がして、それで終…"
     },
     {
-      "id": "cd1b802a7694",
-      "title": "コミットメッセージだけ任せる commit-ja エージェントスキル",
-      "url": "https://zenn.dev/imkohenauser/articles/commit-ja-agent-skill",
-      "publishedAt": "2026-09-06T12:06:05.000Z",
-      "publisher": "Kohei Saito, or 廣円 (Kohen)",
-      "summary": "コミットメッセージを毎回考えると、地味に手が止まります。 そこで、ステージした変更から日本語のコミットメッセージを作る commit-ja というエージェントスキルを使っています。変更範囲は人が決め、メッセージだけをエージェントに任せます…"
+      "id": "c4f02a669e7d",
+      "title": "Claude in Chromeが正式版に、権限スコープはvisual groundingの安全弁として設計されている",
+      "url": "https://zenn.dev/every_ai_recipe/articles/claude-chrome-3-permission-modes",
+      "publishedAt": "2026-09-06T21:11:36.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR Anthropicは2026年8月26日、ブラウザ操作エージェント拡張機能「Claude in Chrome」を正式提供にした（2025年8月に一部Maxユーザー限定の試験公開→2025年12月に有料プラン全体へ拡大→2026…"
     },
     {
-      "id": "ec11ab9f76c1",
-      "title": "コンテキストの軽量化と陳腐化の対策は Hooks ではなく独自ツールで制御したほうがいいかもしれない。",
-      "url": "https://zenn.dev/koinunopochi/articles/39a35f8a1783d2",
-      "publishedAt": "2026-09-06T11:47:55.000Z",
-      "publisher": "こいぬのぽち",
-      "summary": "これなに？ 最近考えていることと試していることの現在地。 AIの速度が速すぎて数日で変わってしまうので本当に今のリアルタイム。 人間が心温まる手書きで書いています。頭の中をザクっと出したので若干構成とか悪いかも。 結局今何が問題なのか？ …"
+      "id": "0a3273d08e43",
+      "title": "ログ肥大・トークン制限・パース失敗 ― ループを回し続けると必ず出会う3つの壁",
+      "url": "https://zenn.dev/taichiendoh/articles/loop-engineering-log-bloat-token-limits",
+      "publishedAt": "2026-09-06T21:10:07.000Z",
+      "publisher": "遠藤太一",
+      "summary": "前回（LE4）は、AIの自己改善ループが暴走しないように、どこで人の承認を挟むかという設計を書きました。今回はその続き――設計をちゃんと組んだ上で、実際にループを回し続けたときに突き当たる、もっと泥臭い現実の話です。 動かし方の記事は多い…"
     },
     {
-      "id": "bedb34f7197e",
-      "title": "AIは毎回忘れる。だから引き継ぎプロンプトを38版まで育てた",
-      "url": "https://zenn.dev/hanamilo/articles/8348ff15c868e2",
-      "publishedAt": "2026-09-06T11:47:48.000Z",
-      "publisher": "hanamilo",
-      "summary": "半年で38版になった 社内向けのWebツールを、半年かけて作った。Claudeとチャットで対話しながら、少しずつ。 私は現場の人間で、専門の開発者ではない。 作っているあいだ、ずっと困っていたことがある。 チャットが切れると、AIは何も覚…"
+      "id": "cbf8e3c8ed30",
+      "title": "Azure AI Foundryのエージェントにシェルを渡せる — docsは「外に出られない」と書くが設定はある",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/foundry-toolbox-shell-tool",
+      "publishedAt": "2026-09-06T20:41:13.000Z",
+      "publisher": "Kazu",
+      "summary": "先に結論 Azure AI Foundry（Learn上の現在の表記は Microsoft Foundry）のエージェントには、shell という ツールを渡せる。モデルがコマンドを組み立て、Foundry側が用意したLinuxコンテナで…"
     },
     {
-      "id": "8ac0cd1454ab",
-      "title": "スキルを MCP で配る \"Skills over MCP\" を読む — SEP-2640 の設計を追う",
-      "url": "https://zenn.dev/aws_japan/articles/skills-over-mcp",
-      "publishedAt": "2026-09-06T11:40:42.000Z",
-      "publisher": "いなりく / Riku Inada",
-      "summary": "はじめに こんにちは、AWS Japan でソリューションアーキテクトをしているいなりくです。 MCP サーバーをつないだとき、「ツールは生えたけど、このツール群をどう組み合わせれば目的を達成できるのか」がエージェントに伝わらず、結局こち…"
+      "id": "a0fb2a7267a5",
+      "title": "Claude Fable 5.1 が出たので測ってみた",
+      "url": "https://zenn.dev/mumihatsu/articles/8d7a52232e1d71",
+      "publishedAt": "2026-09-06T19:31:23.000Z",
+      "publisher": "りょうさん",
+      "summary": "1. はじめに — 前回と同じ日課を、もう一度 自分は QA エンジニアで、普段のテスト設計に生成 AI（Claude）を使っています。 Claude Fable 5.1 が公開されました。前回の記事（Opus 5 計測）で書いたとおり、…"
     },
     {
-      "id": "0431013b9295",
-      "title": "Claude Codeのモデル切り替えで書き直しが急増する理由",
-      "url": "https://zenn.dev/sunsun_eng/articles/claude-code-model-switch-rewrite",
-      "publishedAt": "2026-09-06T11:40:25.000Z",
-      "publisher": "すんすん",
-      "summary": "Claude Codeのモデル切り替えで書き直しが急増する理由 この記事の要点 Claude Codeでセッション中に /model でモデルを切り替えると、キャッシュが引き継がれず直後のターンだけ入力トークンが全量再計算されます。 キャ…"
+      "id": "69f4f4170866",
+      "title": "AIと協調する開発の未来：Claude Code開発チームが実践する次世代のワークフロー",
+      "url": "https://zenn.dev/jeong/articles/53cd0b829e641a",
+      "publishedAt": "2026-09-06T18:34:39.000Z",
+      "publisher": "田中義正",
+      "summary": "ソフトウェア開発の現場にAIが導入されて久しい。 コード補完、バグ修正、テスト生成、ドキュメント作成など、今では多くの開発者が日常的にAIを使っている。 では、そのAI開発ツールを作っている「中の人」たちは、実際にどのようにAIを使ってい…"
     },
     {
-      "id": "89c50ba2a07e",
-      "title": "なぜ、顧客が「欲しい」と言った機能を作ったのに、誰も使ってくれないのか？",
-      "url": "https://zenn.dev/karamage/articles/71f5944f902fd7",
-      "publishedAt": "2026-09-06T11:21:58.000Z",
-      "publisher": "karamage",
-      "summary": "ECプラットフォームを開発していたとき、出店企業から要望が上がりました。 「商品の詳細ページに、購入者が感想やコメントを書き込める機能をつけてほしい」 「購入者の声が集まれば商品改善に繋がる」 「良いレビューが並べば初めてのお客さんも安心…"
+      "id": "38d09fc49792",
+      "title": "常駐型AIエージェントの「導入初日」コールドスタート問題への対処設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-cold-start-design",
+      "publishedAt": "2026-09-06T18:09:25.000Z",
+      "publisher": "HACH",
+      "summary": "チャットに常駐して「過去の文脈を踏まえて」判断するタイプのAIエージェントには、導入直後だけ発生する特有の弱点があります。招待された瞬間、そのテナントに関する履歴データはゼロです。しかし利用者は初日から「うちのチームの言葉」で聞いてきます…"
     },
     {
-      "id": "557d424083d1",
-      "title": "🐔ナナフシからロボットの歩き方を学ぶ",
-      "url": "https://zenn.dev/poyopuyo/articles/1281ec6de81f96",
-      "publishedAt": "2026-09-06T11:00:05.000Z",
-      "publisher": "ぽよぷよ",
-      "summary": "今回のテーマは、 ナナフシの数歩のデータから、良い歩き方の基準をAIが学び、それを別のロボットへ移す研究 である。 昆虫の歩き方をロボットへ真似させる研究は以前からある。今回少し面白いのは、脚の動きをそのままコピーしていないところである。…"
+      "id": "11b5581e00a6",
+      "title": "画像編集AIを比較するときに固定した5つの条件",
+      "url": "https://zenn.dev/imyaaiteam/articles/a5840ee692a064",
+      "publishedAt": "2026-09-06T15:43:06.000Z",
+      "publisher": "imya.ai",
+      "summary": "画像AIを比較するとき、「それっぽい画像が出たか」だけで判断してしまうことがあります。しかし、入力画像も指示文も毎回違う状態では、ツールの差なのか、条件の差なのか分かりません。 そこでこの記事では、画像AIを比較するときに固定したい5つの…"
     },
     {
-      "id": "776af664b0d2",
-      "title": "ルービックキューブを一撃で解く専用LLMを作った",
-      "url": "https://zenn.dev/issei_y/articles/4178a603322b8e",
-      "publishedAt": "2026-09-06T10:48:04.000Z",
-      "publisher": "issei_y",
-      "summary": "CUBE ZERO — ルービックキューブを一撃で解く専用LLMをゼロから育てた 1. なぜ作った？ 事前知識ゼロから育ち、ルービックキューブを一撃で解くLLMがあったら、かっこいいですよね。ということで、CEOの夏休みの自由研究として作…"
+      "id": "c90a389c7470",
+      "title": "YOLO26nアーキテクチャ徹底解析 step2 | Conv, DWConv, PWConv ブロック",
+      "url": "https://zenn.dev/diiw/articles/yolo26n-architecture-step2",
+      "publishedAt": "2026-09-06T14:53:09.000Z",
+      "publisher": "DiIw",
+      "summary": "はじめに 本記事は、筆者がソースコードおよびモデル構造を独自に解析した情報に基づき解説を行う記事です。本記事の内容は更新される場合があります。内容に大きな変更・追加があった場合は都度Xアカウントにて発信いたします。 本記事は「YOLO26…"
     }
   ],
-  "fetchedAt": "2026-09-06T20:49:46.872Z",
+  "fetchedAt": "2026-09-06T22:39:27.099Z",
   "stale": false,
   "error": null
 }
