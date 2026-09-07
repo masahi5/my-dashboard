@@ -13,7 +13,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { xTimelineFileSchema, type XTimelineFile } from "../lib/schemas";
-import { fetchXTimeline } from "../lib/sources/x-timeline";
+import { fetchXTimeline } from "../lib/sources/x-nitter";
 import { X_ACCOUNT_GROUPS, X_TWEET_STORE_LIMIT, xTimelineFileName } from "../lib/x-accounts";
 
 const DATA_DIR = path.join(process.cwd(), "data", "x");

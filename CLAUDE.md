@@ -43,10 +43,7 @@ GitHub Actions (cron 15分ごと)
 - `lib/sources/hugging-face.ts` — Daily Papers。レスポンス形状が2通りあるため両対応
 - `lib/sources/google-trends.ts` — 急上昇ワード。**全項目のlinkが同一なのでIDは検索語から生成する**
 - `lib/sources/index.ts` — 収集対象の一覧。**ここに1件足すとウィジェットが1つ増える**
-- `lib/sources/x-timeline.ts` — X のタイムライン取得。埋め込みウィジェットが読む
-  `syndication.twitter.com` の HTML から `__NEXT_DATA__` を抜く（RSS/APIは閉じている）。
-  **通らない環境では Nitter へ自動で切り替える**（Actions は必ずこちら）
-- `lib/sources/x-nitter.ts` — Nitter インスタンスの RSS から取る迂回路。
+- `lib/sources/x-nitter.ts` — X のタイムライン取得。**Nitter インスタンスの RSS が唯一の経路**。
   本文は完全だが**いいね数は取れない**。インスタンスはよく死ぬので一覧を上から試す
 - `scripts/fetch-feeds.ts` — パイプライン本体。取得 → zod検証 → `data/<key>.json` 書き出し
 - `scripts/fetch-x.ts` — X 用の同じ構造のパイプライン。`data/x/<handle>.json` 書き出し
@@ -116,33 +113,28 @@ npm run lint
   Actions へ移した**（2026-09）。15分ごとの cron で 12リクエストなら枠 30 に収まり、
   閲覧者のIPは一切使わない。ウィジェット方式（`platform.twitter.com/widgets.js`）へ
   戻してはいけない。
-- **X 本体はデータセンターのIPを弾く。Actions からは Nitter 経由でしか取れない。**
-  `syndication.twitter.com` は Actions のランナーから叩くと、枠の残量に関係なく
-  1発目から 429 を返す（別ランナー＝別IPでも同じ）。実測（2026-09）で、
-  r.jina.ai・allorigins・codetabs・corsproxy・cors.lol といったプロキシ類も全滅した
-  （X に弾かれるか、プロキシ自身が Cloudflare のチャレンジを返す）。**Actions から
-  唯一通ったのが Nitter インスタンスの RSS**（`https://<instance>/<handle>/rss`）。
-  そこで `fetchXTimeline()` は「X 本体 → 駄目なら Nitter」の順で試し、
-  1アカウント目で分かった経路を残り11アカウントでも使い回す。
-  - **Nitter インスタンスはよく死ぬ。** `lib/sources/x-nitter.ts` の一覧を上から試し、
-    全滅したら stale 表示になる。そうなったら生きているインスタンスに差し替える
+- **X 本体（`syndication.twitter.com` の埋め込み用の口）は使わない。** 2つ理由がある:
+  1. **データセンターのIPを弾く。** Actions のランナーから叩くと枠の残量に関係なく
+     1発目から 429（別ランナー＝別IPでも同じ）。実測（2026-09）で r.jina.ai・
+     allorigins・codetabs・corsproxy・cors.lol といったプロキシ類も全滅した
+     （X に弾かれるか、プロキシ自身が Cloudflare のチャレンジを返す）
+  2. **たまに通っても中身が数か月古い。** アカウントによって古いキャッシュを返し続ける。
+     実測（2026-09-07）で @sama は 2025-11、@unnonouno は 2025-05、@shi3z は 2025-10 が
+     「最新」だった。同時刻に Nitter からは当日の投稿が取れている。
+     **通ってしまうほうが厄介**で、古い投稿で新しいデータを上書きしてしまう
+     （一度これで「数か月前のツイートが並ぶ」状態になった）
+- **X は Nitter インスタンスの RSS から取る**（`https://<instance>/<handle>/rss`）。
+  - **インスタンスはよく死ぬ。** `lib/sources/x-nitter.ts` の一覧を上から試し、
+    1件目で通ったホストを残りのアカウントでも使う。全滅したら stale 表示になるので、
+    生きているインスタンスに差し替える
     （`https://twiiit.com/<handle>/rss` は生存インスタンスへランダム転送するので最後の砦）
   - **ブラウザの UA を送らない。** Nitter は RSS リーダー想定で、インスタンスによっては
     ブラウザ UA を弾く。xcancel.com は個別のホワイトリスト申請が要るので使えない
-  - Nitter 経由では**いいね数が取れない**（0 になり UI に出ない）。本文は逆に完全で、
-    X 本体のように途中で切れない
-- **X 本体の中身は HTML に埋まった JSON から取る。**
-  `syndication.twitter.com/srv/timeline-profile/screen-name/<handle>` を GET し、
-  `__NEXT_DATA__` の `props.pageProps.timeline.entries[]` を読む。1件は
-  `content.tweet` で、本文 `full_text` ・日時 `created_at` ・`favorite_count` ・
-  `permalink` が入っている。押さえどころ:
-  - **UA はブラウザのものを送る**（公開APIではなくウィジェット用の口なので）
-  - **リポストは `retweeted_status` を見る。** 外側の本文は `RT @xxx: …` と切り詰められている
-  - **本文の t.co は `entities.urls` で表示用URLへ戻す。** 末尾に残る t.co は画像・動画への
-    参照なので落とす（`entities.urls` には入っていない）
-  - **0件でも失敗扱い。** 非公開・凍結・改名でも 200 + 空配列が返る。そのまま書き出すと
-    前回分を消してしまうので、Nitter を試したうえで駄目なら `stale` を立てる
-  - どちらも非公式な口なので**いつ壊れてもおかしくない**。壊れても `stale` を立てて
+  - **種別は `<title>` の接頭辞にしか出ない**（`RT by @x:` / `R to @y:`）。本文は
+    `<description>` の最初の `<p>` から取る（後ろに画像・動画へのリンクが付く）
+  - **リンクはインスタンスのホスト名で来る。** パスだけ取って `x.com` に付け替える
+  - **いいね数は取れない**（0 になり UI に出ない）。本文は逆に完全で途中で切れない
+  - 非公式な経路なので**いつ壊れてもおかしくない**。壊れても `stale` を立てて
     前回分を出し続け、カードには X へのリンクを必ず残す
 
 ## 情報源を追加する手順

@@ -2,12 +2,15 @@ import { asArray, decodeEntities, parseFeedItems, pickDate, text, type RawItem }
 import { xTweetSchema, type XTweet } from "../schemas";
 
 /**
- * Nitter（X のフロントエンド）の RSS からタイムラインを取る。**Actions ではこれが本線**。
+ * Nitter（X のフロントエンド）の RSS からタイムラインを取る。**X の唯一の取得経路**。
  *
- * X 本体の取得口（lib/sources/x-timeline.ts）は、データセンターのIPからだと
- * 枠の残量に関係なく 1発目から 429 を返す。GitHub Actions のランナーも当然その中で、
- * 別ランナー＝別IPでも結果は同じだった。Nitter インスタンスは自前で X から取って
- * RSS に変換してくれるので、こちらは Actions からでも通る。
+ * X 本体（syndication.twitter.com の埋め込み用の口）を使わない理由は2つ:
+ *   1. データセンターのIPからは枠の残量に関係なく 1発目から 429 が返る。
+ *      GitHub Actions のランナーは軒並みこれで、別ランナー＝別IPでも同じだった
+ *   2. **たまに通っても中身が数か月古い。** アカウントによって古いキャッシュを
+ *      返し続ける（実測 2026-09: @sama は 2025-11、@unnonouno は 2025-05 が「最新」。
+ *      同時刻に Nitter からは当日の投稿が取れていた）。つまり通ったら通ったで、
+ *      古い投稿で新しいデータを上書きしてしまう
  *
  * 代償として **いいね数は取れない**（RSS に無い）。本文は逆に X 本体より完全で、
  * 長文が途中で切れない。
@@ -107,8 +110,11 @@ function toTweet(item: RawItem, owner: string): XTweet | null {
   return parsed.success ? parsed.data : null;
 }
 
-/** 1アカウント分。どのインスタンスでも取れなければ throw する */
-export async function fetchNitterTimeline(handle: string, limit: number): Promise<XTweet[]> {
+/**
+ * 1アカウント分のタイムラインを取得する。どのインスタンスでも取れなければ throw する
+ * （前回データの温存は scripts/fetch-x.ts の仕事）。
+ */
+export async function fetchXTimeline(handle: string, limit: number): Promise<XTweet[]> {
   const hosts = workingHost ? [workingHost] : NITTER_HOSTS;
   const failures: string[] = [];
 
