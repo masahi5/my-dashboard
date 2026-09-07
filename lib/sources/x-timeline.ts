@@ -12,10 +12,19 @@ import { xTweetSchema, type XTweet } from "../schemas";
  * **必ず Actions（サーバー側）から呼ぶこと。** この口は 15分あたり 30リクエストの
  * レート制限を「呼び出し元のIP」に対してかける。ブラウザから呼ぶと閲覧者のIPの枠を
  * 使うことになり、1回の表示で 12アカウント分＝12消費するのでほぼ即座に枯渇する
- * （CGNAT で他人と枠を共有していると何もしなくても減る）。15分ごとの cron で
- * 12リクエストなら枠に収まり、閲覧者のIPは一切使わない。
+ * （CGNAT で他人と枠を共有していると何もしなくても減る）。
+ *
+ * ただし **GitHub Actions のランナーIPからは直接叩けない**。枠の残量に関係なく
+ * 1発目から 429 が返る（別ランナー＝別IPでも同じなので、データセンターのIPごと
+ * 弾かれている）。そこで直接が 429 だったらリーダープロキシ経由へ切り替える。
  */
 const ENDPOINT = "https://syndication.twitter.com/srv/timeline-profile/screen-name/";
+
+/**
+ * 迂回路。URL を後ろに繋ぐだけで別IPから取ってきてくれる無料のリーダー。
+ * Actions からはこちらが実質の本線になる（APIキー不要 = 運用費ゼロを守れる）。
+ */
+const READER_PROXY = "https://r.jina.ai/";
 
 /**
  * 埋め込み iframe と同じ体裁で名乗る。
@@ -97,15 +106,40 @@ function toTweet(raw: RawTweet, owner: string): XTweet | null {
 }
 
 /**
+ * いちど直接で弾かれたら、その実行では以降ずっと迂回する。
+ * 12アカウント分すべてで無駄に弾かれるのを待たないため。
+ */
+let proxyOnly = false;
+
+function request(url: string, viaProxy: boolean): Promise<Response> {
+  return fetch(viaProxy ? `${READER_PROXY}${url}` : url, {
+    headers: {
+      "user-agent": USER_AGENT,
+      accept: "text/html",
+      "accept-language": "ja,en;q=0.8",
+      // プロキシは既定で本文を Markdown に変換してしまう。__NEXT_DATA__ が要るので
+      // HTML のまま返させる
+      ...(viaProxy ? { "x-return-format": "html" } : {}),
+    },
+    signal: AbortSignal.timeout(viaProxy ? 30_000 : 15_000),
+  });
+}
+
+/**
  * 1アカウント分のタイムラインを取得する。失敗は素直に throw する
  * （前回データの温存は scripts/fetch-x.ts の仕事）。
  */
 export async function fetchXTimeline(handle: string, limit: number): Promise<XTweet[]> {
-  const response = await fetch(`${ENDPOINT}${encodeURIComponent(handle)}`, {
-    headers: { "user-agent": USER_AGENT, accept: "text/html", "accept-language": "ja,en;q=0.8" },
-    signal: AbortSignal.timeout(15_000),
-  });
-  // レート制限は 429 + 本文 "Rate limit exceeded" で返る
+  const url = `${ENDPOINT}${encodeURIComponent(handle)}`;
+
+  let response = await request(url, proxyOnly);
+  // 弾かれ方は一定しない（レート制限は 429 + 本文 "Rate limit exceeded" だが、
+  // 同じ状況で 403 が返ることもある）ので、直接が通らなければ理由を問わず迂回する。
+  // 弾かれているのは「IP」であって中身は同じものが取れる。
+  if (!proxyOnly && !response.ok) {
+    proxyOnly = true;
+    response = await request(url, true);
+  }
   if (!response.ok) throw new Error(`HTTP ${response.status} ${response.statusText}`);
 
   const html = await response.text();
