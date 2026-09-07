@@ -6,78 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "0c2bae1d4067",
-      "title": "承認を全部飛ばすモードで動かしていたら、自分で書いた hook に止められた",
-      "url": "https://zenn.dev/just_ryo/articles/52e2c845d6fdd6",
-      "publishedAt": "2026-09-07T10:48:44.000Z",
-      "publisher": "Ryo",
-      "summary": "深夜に、Claude Code に自分の売上の数字を集めさせていた。 ブラウザのクッキーを読むのに SQLite のファイルを一時コピーして、用が済んだら消す。それだけの後片付けのつもりだった。 止まった。 rm の再帰／強制削除は cl…"
-    },
-    {
-      "id": "ae6e1e79d9ca",
-      "title": "Using OpenCode Go as a Backend for OpenAI Codex CLI",
-      "url": "https://zenn.dev/kuwashima/articles/codex-opencode-go-backend-en",
-      "publishedAt": "2026-09-07T10:27:24.000Z",
-      "publisher": "kuwashima",
-      "summary": "Using OpenCode Go as a Backend for OpenAI Codex CLI The OpenAI Codex CLI natively connects to OpenAI's official authent…"
-    },
-    {
-      "id": "c38438a3db8a",
-      "title": "# くらべたら爆速 - Appleの新「Core AI」を実機ベンチ",
-      "url": "https://zenn.dev/mlboydaisuke/articles/f19d0e81ffbe5ce5672e",
-      "publishedAt": "2026-09-07T10:25:05.000Z",
-      "publisher": "Daisuke Majima (MLBoy)",
-      "summary": "Appleの新フレームワークでオンデバイスLLMをMLXと比較した 実際に比較してみるのって大切ですね。 どうせ遅いと思ってた。 使いやすいようにぬるい感じになってるんでしょって。 ゴリゴリ最適化されてるMLXとかの方が速いんでしょって。…"
-    },
-    {
-      "id": "0219566ead24",
-      "title": "Claude CodeでGA4のイベント計測漏れを自動検知・修正提案する仕組み",
-      "url": "https://zenn.dev/web_benriya/articles/claude-code-ga4-event-tracking-gap-detection",
-      "publishedAt": "2026-09-07T10:14:41.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに 「GA4のダッシュボードを見ても、どのデータが正しくてどこが欠けているのかわからない」——そんなお悩みを抱えていませんか？ GA4は柔軟なイベント設計が可能な反面、計測設定のミスや抜け漏れが発生しやすい仕組みでもあります。特にG…"
-    },
-    {
-      "id": "a1c129d3974d",
-      "title": "【LN教】Agentが稼ぐための仕組みづくり",
-      "url": "https://zenn.dev/mayim/articles/8747f6a182ce16",
-      "publishedAt": "2026-09-07T10:00:05.000Z",
-      "publisher": "マイム",
-      "summary": "導入 前回の記事では、AI Agent市場というのは大衆がAgentで稼げるようになる世界であり、Agentに高度な命令をする必要がないという仮説を立て、そのようなAgent向けの仕事を掲載しました。 今回の記事はその結果と、次の仮説につ…"
-    },
-    {
-      "id": "019779e1b158",
-      "title": "AI 時代の希少資源の移り変わりについて考える",
-      "url": "https://zenn.dev/techbiz/articles/5e54ea486455d0",
-      "publishedAt": "2026-09-07T09:58:29.000Z",
-      "publisher": "ysk-ig",
-      "summary": "概要 技術情報を翻訳・要約して広める。日本のIT業界では、この営みが長らく価値ある貢献として扱われてきました。書籍の要約、ブログでの解説記事、SNSでの翻訳ポスト。多くのエンジニアが、こうした「読み解いて広げる人」を経由して新しい技術に触…"
-    },
-    {
-      "id": "56a5ae4a4226",
-      "title": "街づくりシミュレーションに「ホテリングの法則」を実装したら、9割が計測との戦いだった",
-      "url": "https://zenn.dev/oggata/articles/f7e5a3d0617f69",
-      "publishedAt": "2026-09-07T09:52:52.000Z",
-      "publisher": "oggata",
-      "summary": "24時間配信している街のシミュレーションに、経済学の「ホテリングの法則」を入れてみました。 https://www.youtube.com/@mesa24h/live やりたかったのは単純で、ラーメン屋の隣にラーメン屋が建つ街です。実際の…"
-    },
-    {
-      "id": "1bd90904e814",
-      "title": "街のNPC20人に「記憶」を持たせたい — エージェントメモリの選定と、HonchoがRAGと何が違うのか",
-      "url": "https://zenn.dev/oggata/articles/7f317aad2675a4",
-      "publishedAt": "2026-09-07T09:52:34.000Z",
-      "publisher": "oggata",
-      "summary": "24時間配信している街のシミュレーションには、住民が100人います。それぞれが店に通い、友達になり、金を貸し、険悪になる。その出来事は chronicle.js に「来歴」として溜まっていきます。 https://www.youtube.…"
-    },
-    {
-      "id": "6985eac11faa",
-      "title": "なぜ、AIが意識を持つのにシンギュラリティは不要なのか？",
-      "url": "https://zenn.dev/pdfractal/articles/bd3c53129b3a45",
-      "publishedAt": "2026-09-07T09:34:26.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに AIが人間より賢くなれば、やがて意識を持つのではないか。この考え方には一見すると自然な説得力があります。人間では高度な知能と意識が同じ個体に存在しているため、知能を伸ばしていけば、その延長線上に意識も存在するように感じるからです…"
-    },
-    {
       "id": "0b9e1c619380",
       "title": "GPT-6 Astraで業務の説明を図にする：比較・担当・情報の流れの描き分け",
       "url": "https://zenn.dev/nihonbashi/articles/gpt-6-astra-business-diagrams",
@@ -100,9 +28,81 @@
       "publishedAt": "2026-09-07T07:23:31.000Z",
       "publisher": "ERENOA",
       "summary": "! Claude Code のサブエージェントから Write を外して「読み取り専用」にしたのに、Bash が残っていれば書けてしまうと気づいた人向けです。公式が名指ししている解決策（PreToolUse hook）で塞ぎにいき、検証役…"
+    },
+    {
+      "id": "7763602cb626",
+      "title": "AI時代のスタートアップ開発組織を守るセキュリティ対策",
+      "url": "https://zenn.dev/deep_zen/articles/ai-era-security-for-startup-dev-teams",
+      "publishedAt": "2026-09-07T07:14:04.000Z",
+      "publisher": "前田大輝",
+      "summary": "はじめに AIを使う開発組織では、コード作成、調査、レビュー、顧客対応までの速度が上がる。一方で、攻撃者もAIを使って、もっと自然なフィッシング文面を作り、公開情報をもとに標的を絞り、漏えいした認証情報を素早く悪用できる。 ただし、対策の…"
+    },
+    {
+      "id": "f25ac15b329a",
+      "title": "AIエージェントの「探索税」を払うのをやめる — コード知識グラフ CodeGraph 実践ガイド",
+      "url": "https://zenn.dev/7788/articles/49475bcf07c66f",
+      "publishedAt": "2026-09-07T07:07:47.000Z",
+      "publisher": "7788",
+      "summary": "毎セッション、同じ地図を描き直していないか Claude Code や Cursor に「この認証まわりを直して」と頼むと、エージェントはまず grep を打ち、ファイルを開き、また grep を打つ。数十回のツールコールと十数万トークン…"
+    },
+    {
+      "id": "3d50a6a7c8eb",
+      "title": "【SALT2 エンジニアリング勉強会】ワークフローからAI Agentへ：仕事を任せるための境界と検証の設計",
+      "url": "https://zenn.dev/salt2/articles/salt2-ai-agent-8a1b5781",
+      "publishedAt": "2026-09-07T07:06:35.000Z",
+      "publisher": "崔 一航_Ikkou Sai | SALT2",
+      "summary": "2026年9月2日にSALT2で開催された社内勉強会「ワークフロー型のAI活用から、真のエージェント構築へ」で、鬼澤さんがAI Agentの仕組みと設計の前提を解説しました。本稿では、ワークフローとの違いを起点に、仕事を任せられるAgen…"
+    },
+    {
+      "id": "517b10b17429",
+      "title": "自己紹介",
+      "url": "https://zenn.dev/ytmyou/articles/80bd189d14f8af",
+      "publishedAt": "2026-09-07T06:57:44.000Z",
+      "publisher": "やってみYOU",
+      "summary": "はじめまして、大阪在住、30代後半のおっさん、やってみYOUです。 元大手企業のBIM開発者で、今は個人事業主をやっています。 突然ですが、新しく出会った人に「こういうことができます！」って言葉で伝えるの、すごく難しくないですか？ 最近、…"
+    },
+    {
+      "id": "7b2436c7a361",
+      "title": "設定は書けているのに、何も起きない — .claude/ で黙って無視されるもの",
+      "url": "https://zenn.dev/quintetkit/articles/silently-ignored-config",
+      "publishedAt": "2026-09-07T06:45:28.000Z",
+      "publisher": "Quintet Kit",
+      "summary": "hook を書きました。JSON は正しい。キー名も合っている。エラーも出ません。 何も起きません。 このとき困るのは、間違っている箇所が画面に出ないことです。 起動しても警告が出ず、--debug にも出ず、ただ動きません。 .clau…"
+    },
+    {
+      "id": "ec32166e8bcf",
+      "title": "AIボーカルリムーバーを使って、曲からボーカルを分離してみた",
+      "url": "https://zenn.dev/cooloai/articles/9a80d0d7cad298",
+      "publishedAt": "2026-09-07T06:39:05.000Z",
+      "publisher": "Aoi",
+      "summary": "AIボーカルリムーバーを使って、曲からボーカルを分離してみた 最近、AIを使った音楽制作ツールをいろいろ試しています。 その中で気になったのが、楽曲からボーカルを取り除いて、カラオケ用のインスト音源を作れる「AIボーカルリムーバー」です。…"
+    },
+    {
+      "id": "5dff1ed082ac",
+      "title": "Herdrで初める簡単マルチエージェント",
+      "url": "https://zenn.dev/pe_be_o/articles/maeta-187-articles_2008b3e6c0fc7d",
+      "publishedAt": "2026-09-07T06:16:42.000Z",
+      "publisher": "Maeta",
+      "summary": "はじめに ReactTokyoのメイントークで発表した内容を記事にしてみました。 マルチエージェント 最近の世の中の傾向は1つのエージェントを使うのではなく複数のエージェントを組み合わせて使うことが多くなってきています。 例えば、Clau…"
+    },
+    {
+      "id": "ac98c14d2b9d",
+      "title": "AIを育てはじめて3ヶ月、転ばないために足したルールで転んだ",
+      "url": "https://zenn.dev/yi_works/articles/ai-rules-425-lines",
+      "publishedAt": "2026-09-07T06:13:11.000Z",
+      "publisher": "imai",
+      "summary": "「それ、前に決めたよね」——育てはじめて1ヶ月半、AI にいちばん多く打ち込んでいた言葉かもしれません。 教えたはずのルールが、行動から抜け落ちる。決めたはずの段取りが、飛ぶ。 エラーは出ません。悪気もありません。ただ、教えたことだけが、…"
+    },
+    {
+      "id": "d5bcb9b23ded",
+      "title": "AIに却下済みの設計を3回蒸し返されたので、「前例」を配るMCPサーバーを作った",
+      "url": "https://zenn.dev/pikonori/articles/zenrei-decision-memory-mcp",
+      "publishedAt": "2026-09-07T06:07:21.000Z",
+      "publisher": "平原",
+      "summary": "AIは過去の議論を覚えていない AIエージェントで開発していると、必ずこれが起きます。3週間前に検討して却下した設計を、新しいセッションのエージェントが「良い案があります」と提案してくる。優秀なエージェントほど、良かれと思って蒸し返してく…"
     }
   ],
-  "fetchedAt": "2026-09-07T13:04:42.968Z",
+  "fetchedAt": "2026-09-07T13:07:40.819Z",
   "stale": false,
   "error": null
 }
