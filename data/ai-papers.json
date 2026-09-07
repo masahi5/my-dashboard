@@ -6,20 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "56500ae1652a",
-      "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
-      "url": "https://huggingface.co/papers/2609.03199",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive an…",
-      "score": 115
-    },
-    {
       "id": "8a3488940558",
       "title": "Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue",
       "url": "https://huggingface.co/papers/2609.04250",
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "summary": "An avatar that holds a conversation should decide what to say and to move while saying it, yet these abilities live in …",
-      "score": 12
+      "score": 34
+    },
+    {
+      "id": "2dd3d25e577b",
+      "title": "Enoki: Efficient Multi-Level Hallucination Detection",
+      "url": "https://huggingface.co/papers/2609.00581",
+      "publishedAt": "2026-09-01T02:21:28.000Z",
+      "summary": "Ensuring factuality remains a critical challenge for deploying LLMs in high-stakes settings. Existing hallucination det…",
+      "score": 13
     },
     {
       "id": "bfa856d32eb2",
@@ -27,31 +27,23 @@
       "url": "https://huggingface.co/papers/2609.05258",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "summary": "Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descr…",
-      "score": 11
+      "score": 12
     },
     {
-      "id": "e8e628c91579",
-      "title": "Iris: Climbing to the Search Frontier",
-      "url": "https://huggingface.co/papers/2609.04304",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We present Iris-mini and Iris-pro, two search agents trained at the 35B-A3B and 397B-A17B scales, together with the dat…",
-      "score": 11
+      "id": "4cccd342c8fb",
+      "title": "Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems",
+      "url": "https://huggingface.co/papers/2609.02750",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through…",
+      "score": 9
     },
     {
-      "id": "62fe61ba440a",
-      "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
-      "url": "https://huggingface.co/papers/2609.05275",
-      "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "Layer dropout (a.k.a. stochastic depth) has been shown to enable faster training, higher accuracy, and robustness to ze…",
+      "id": "7459a2a1547b",
+      "title": "Training-Free Speech-Centric Omni Understanding with Frozen VLMs",
+      "url": "https://huggingface.co/papers/2609.04242",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "summary": "Audio-visual understanding remains challenging because models must jointly interpret spoken content, visual events, and…",
       "score": 4
-    },
-    {
-      "id": "9ec43b94644d",
-      "title": "MaxKernel: Agentic Kernel Generation for TPUs",
-      "url": "https://huggingface.co/papers/2609.04523",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Designing and authoring high-performance custom kernels for accelerators is a complex task that requires deep hardware-…",
-      "score": 3
     },
     {
       "id": "9ee212a94335",
@@ -59,38 +51,46 @@
       "url": "https://huggingface.co/papers/2609.04061",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful r…",
-      "score": 2
+      "score": 3
     },
     {
-      "id": "f507cbdec6d6",
-      "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.05295",
+      "id": "a03393cdfb4e",
+      "title": "Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of Reasoning Operations in LLMs",
+      "url": "https://huggingface.co/papers/2609.04753",
       "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) provides dense, per-token supervision for language model post-training, but its effectiven…",
+      "summary": "Reasoning in large language models unfolds through diverse functional operations, such as problem formulation, goal dec…",
       "score": 2
     },
     {
-      "id": "7f60f2536952",
-      "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
-      "url": "https://huggingface.co/papers/2609.05416",
-      "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "We study the problem of generating a compositional 3D representation of a cluttered scene containing hundreds of object…",
-      "score": 2
-    },
-    {
-      "id": "e0fe17b222e0",
-      "title": "Group Adaptive Clipping Policy Optimization",
-      "url": "https://huggingface.co/papers/2609.00444",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Group relative policy optimization for reinforcement learning with verifiable rewards (RLVR) typically uses a fixed imp…",
-      "score": 2
-    },
-    {
-      "id": "e82a8422253b",
-      "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
-      "url": "https://huggingface.co/papers/2609.04490",
+      "id": "ba826c634888",
+      "title": "The Attention Triangle in Audio-Video Models",
+      "url": "https://huggingface.co/papers/2609.03586",
       "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Quantization is widely used to reduce the computational and memory demands of neural-network inference. In recurrent ne…",
+      "summary": "Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same…",
+      "score": 2
+    },
+    {
+      "id": "fba4730a2554",
+      "title": "To See a World in a Living Context: Unified Indoor-Outdoor Urban World Generation",
+      "url": "https://huggingface.co/papers/2608.05879",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Text-driven 3D generation has advanced rapidly in creating large-scale outdoor environments and detailed indoor scenes,…",
+      "score": 2
+    },
+    {
+      "id": "f540de173443",
+      "title": "τ^τ-Bench: An Environment for End-To-End, Realistic Agent Construction",
+      "url": "https://huggingface.co/papers/2609.04611",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "LLM agents are rapidly becoming production software, deployed to handle customer service, adjudicate disputes, and oper…",
+      "score": 1
+    },
+    {
+      "id": "237b6b0cc582",
+      "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
+      "url": "https://huggingface.co/papers/2609.02780",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Streaming video understanding is a critical capability for real-world applications, including embodied intelligence, au…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-07T05:00:27.332Z",
+  "fetchedAt": "2026-09-07T10:15:53.717Z",
   "stale": false,
   "error": null
 }
