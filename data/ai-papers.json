@@ -6,6 +6,14 @@
   "category": "ai",
   "items": [
     {
+      "id": "4cccd342c8fb",
+      "title": "Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems",
+      "url": "https://huggingface.co/papers/2609.02750",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through…",
+      "score": 65
+    },
+    {
       "id": "8a3488940558",
       "title": "Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue",
       "url": "https://huggingface.co/papers/2609.04250",
@@ -19,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.00581",
       "publishedAt": "2026-09-01T02:21:28.000Z",
       "summary": "Ensuring factuality remains a critical challenge for deploying LLMs in high-stakes settings. Existing hallucination det…",
-      "score": 13
+      "score": 14
     },
     {
       "id": "bfa856d32eb2",
@@ -27,15 +35,23 @@
       "url": "https://huggingface.co/papers/2609.05258",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "summary": "Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descr…",
+      "score": 13
+    },
+    {
+      "id": "ba826c634888",
+      "title": "The Attention Triangle in Audio-Video Models",
+      "url": "https://huggingface.co/papers/2609.03586",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same…",
       "score": 12
     },
     {
-      "id": "4cccd342c8fb",
-      "title": "Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems",
-      "url": "https://huggingface.co/papers/2609.02750",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through…",
-      "score": 9
+      "id": "a03393cdfb4e",
+      "title": "Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of Reasoning Operations in LLMs",
+      "url": "https://huggingface.co/papers/2609.04753",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "Reasoning in large language models unfolds through diverse functional operations, such as problem formulation, goal dec…",
+      "score": 6
     },
     {
       "id": "7459a2a1547b",
@@ -51,23 +67,7 @@
       "url": "https://huggingface.co/papers/2609.04061",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful r…",
-      "score": 3
-    },
-    {
-      "id": "a03393cdfb4e",
-      "title": "Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of Reasoning Operations in LLMs",
-      "url": "https://huggingface.co/papers/2609.04753",
-      "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "Reasoning in large language models unfolds through diverse functional operations, such as problem formulation, goal dec…",
-      "score": 2
-    },
-    {
-      "id": "ba826c634888",
-      "title": "The Attention Triangle in Audio-Video Models",
-      "url": "https://huggingface.co/papers/2609.03586",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same…",
-      "score": 2
+      "score": 4
     },
     {
       "id": "fba4730a2554",
@@ -83,7 +83,7 @@
       "url": "https://huggingface.co/papers/2609.04611",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "summary": "LLM agents are rapidly becoming production software, deployed to handle customer service, adjudicate disputes, and oper…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "237b6b0cc582",
@@ -91,7 +91,7 @@
       "url": "https://huggingface.co/papers/2609.02780",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "summary": "Streaming video understanding is a critical capability for real-world applications, including embodied intelligence, au…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "0cc57fba5f93",
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2609.04369",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Visual Place Recognition (VPR) localizes a query image by retrieving database images of the same or nearby place, yet i…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-07T10:15:53.717Z",
+  "fetchedAt": "2026-09-07T12:54:57.401Z",
   "stale": false,
   "error": null
 }
