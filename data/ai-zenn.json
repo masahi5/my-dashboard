@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "0c2bae1d4067",
-      "title": "承認を全部飛ばすモードで動かしていたら、自分で書いた hook に止められた",
-      "url": "https://zenn.dev/just_ryo/articles/52e2c845d6fdd6",
-      "publishedAt": "2026-09-07T10:48:44.000Z",
-      "publisher": "Ryo",
-      "summary": "深夜に、Claude Code に自分の売上の数字を集めさせていた。 ブラウザのクッキーを読むのに SQLite のファイルを一時コピーして、用が済んだら消す。それだけの後片付けのつもりだった。 止まった。 rm の再帰／強制削除は cl…"
+      "id": "f560f817f5d5",
+      "title": "2026-08-14 今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-14-tech-daily",
+      "publishedAt": "2026-09-07T22:01:27.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 本日のトレンドは、LLM単体から業務特化AIエージェントへの重心移動です。具体的には、WAIC 2026やナレッジワーク、富士通、SAPの見出しが、業界特化LLMとマルチエージェントの実装競争を示しました。一方で、Vercel・AWS…"
     },
     {
-      "id": "ae6e1e79d9ca",
-      "title": "Using OpenCode Go as a Backend for OpenAI Codex CLI",
-      "url": "https://zenn.dev/kuwashima/articles/codex-opencode-go-backend-en",
-      "publishedAt": "2026-09-07T10:27:24.000Z",
-      "publisher": "kuwashima",
-      "summary": "Using OpenCode Go as a Backend for OpenAI Codex CLI The OpenAI Codex CLI natively connects to OpenAI's official authent…"
+      "id": "a60b72767ba0",
+      "title": "AIレビューが細かすぎて使えない人へ。公式プロンプトにあった「報告させない」の1行",
+      "url": "https://zenn.dev/tmasuyama1114/articles/ai_review_what_not_to_report",
+      "publishedAt": "2026-09-07T21:30:46.000Z",
+      "publisher": "とまだ｜『Claude Codeで作って学ぶ』著者（増山友司）",
+      "summary": "AIにコードレビューを頼むと、細かい指摘が大量に返ってくることがあります。 命名や書き方の好みまで並んでいて、どれから直せばいいのか分からなくなる。 前に、わざとバグを入れたコードを3種類のAIレビューにかけて比べました。 そのうち1つだ…"
     },
     {
-      "id": "c38438a3db8a",
-      "title": "# くらべたら爆速 - Appleの新「Core AI」を実機ベンチ",
-      "url": "https://zenn.dev/mlboydaisuke/articles/f19d0e81ffbe5ce5672e",
-      "publishedAt": "2026-09-07T10:25:05.000Z",
-      "publisher": "Daisuke Majima (MLBoy)",
-      "summary": "Appleの新フレームワークでオンデバイスLLMをMLXと比較した 実際に比較してみるのって大切ですね。 どうせ遅いと思ってた。 使いやすいようにぬるい感じになってるんでしょって。 ゴリゴリ最適化されてるMLXとかの方が速いんでしょって。…"
+      "id": "f200795e7cb6",
+      "title": "常駐型AIエージェントで退職者・異動者のアクセス権限を即座に失効させる設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-deprovisioning-design",
+      "publishedAt": "2026-09-07T21:13:17.000Z",
+      "publisher": "HACH",
+      "summary": "Slack / Teams / Chatworkなどに常駐して働くAIエージェントは、ユーザー本人になり代わって過去の会話・議事録・タスクを横断的に参照します。導入初期はメンバーの入れ替わりが少なく気にならないのですが、運用が長くなるほど…"
     },
     {
-      "id": "0219566ead24",
-      "title": "Claude CodeでGA4のイベント計測漏れを自動検知・修正提案する仕組み",
-      "url": "https://zenn.dev/web_benriya/articles/claude-code-ga4-event-tracking-gap-detection",
-      "publishedAt": "2026-09-07T10:14:41.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに 「GA4のダッシュボードを見ても、どのデータが正しくてどこが欠けているのかわからない」——そんなお悩みを抱えていませんか？ GA4は柔軟なイベント設計が可能な反面、計測設定のミスや抜け漏れが発生しやすい仕組みでもあります。特にG…"
+      "id": "ff5db5961d00",
+      "title": "熊本地震の地震派解析(その0):データを集める",
+      "url": "https://zenn.dev/takeofuture/articles/b191dca9fa972e",
+      "publishedAt": "2026-09-07T20:39:34.000Z",
+      "publisher": "takeofuture",
+      "summary": "以前はSAR衛星のデータから熊本地震を解析しました。 https://zenn.dev/takeofuture/articles/06ef8ccd5064ad 今回は視点を変えて地震波の解析から地震解析をしてみます。地震波は観測点がいくつ…"
     },
     {
-      "id": "a1c129d3974d",
-      "title": "【LN教】Agentが稼ぐための仕組みづくり",
-      "url": "https://zenn.dev/mayim/articles/8747f6a182ce16",
-      "publishedAt": "2026-09-07T10:00:05.000Z",
-      "publisher": "マイム",
-      "summary": "導入 前回の記事では、AI Agent市場というのは大衆がAgentで稼げるようになる世界であり、Agentに高度な命令をする必要がないという仮説を立て、そのようなAgent向けの仕事を掲載しました。 今回の記事はその結果と、次の仮説につ…"
+      "id": "cdea5b7ab7a2",
+      "title": "「なぜそうなったのか、決めた会社にも説明できない」— AIを業務に入れた会社が失う説明責任",
+      "url": "https://zenn.dev/exapolicy/articles/82ac7b510ae738",
+      "publishedAt": "2026-09-07T17:19:33.000Z",
+      "publisher": "プロマネ武蔵",
+      "summary": "先日、ちょっとした違和感があった。 あるメーカーで製品をひとつ注文した。支払いも済んでいる。ところが数日後、同じ製品の購入ページをのぞくと、これから買う人向けの「お届け予定日」が、すでに支払った自分の注文より早い日付で表示されていた。先に…"
     },
     {
-      "id": "019779e1b158",
-      "title": "AI 時代の希少資源の移り変わりについて考える",
-      "url": "https://zenn.dev/techbiz/articles/5e54ea486455d0",
-      "publishedAt": "2026-09-07T09:58:29.000Z",
-      "publisher": "ysk-ig",
-      "summary": "概要 技術情報を翻訳・要約して広める。日本のIT業界では、この営みが長らく価値ある貢献として扱われてきました。書籍の要約、ブログでの解説記事、SNSでの翻訳ポスト。多くのエンジニアが、こうした「読み解いて広げる人」を経由して新しい技術に触…"
+      "id": "dc6253009c24",
+      "title": "AI時代のセマンティックレイヤーとしてのAAT【日本語版】",
+      "url": "https://zenn.dev/iroha1203/articles/9b1daac47c2411",
+      "publishedAt": "2026-09-07T15:31:20.000Z",
+      "publisher": "Hiroyuki Nakahata",
+      "summary": "本記事は、Hashnodeに公開したAI Reads Your Codebase. Then It Forgets Everything.の日本語版です AIがコードを読む。その理解を、どう残すか 「メール送信を共通の非同期キューに移して…"
     },
     {
-      "id": "56a5ae4a4226",
-      "title": "街づくりシミュレーションに「ホテリングの法則」を実装したら、9割が計測との戦いだった",
-      "url": "https://zenn.dev/oggata/articles/f7e5a3d0617f69",
-      "publishedAt": "2026-09-07T09:52:52.000Z",
-      "publisher": "oggata",
-      "summary": "24時間配信している街のシミュレーションに、経済学の「ホテリングの法則」を入れてみました。 https://www.youtube.com/@mesa24h/live やりたかったのは単純で、ラーメン屋の隣にラーメン屋が建つ街です。実際の…"
+      "id": "aa83fba1423b",
+      "title": "LINEの新しいキーワードだけが全部無視される — ORDER BY created_atが引き起こした優先順位バグ",
+      "url": "https://zenn.dev/hideki_tamae/articles/line-keyword-priority-bug",
+      "publishedAt": "2026-09-07T15:24:59.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに 出版記念の特典を、公式LINEのキーワード応答で配布している。「魔法のランプ」「3つの願い」のような合言葉を送ると、対応するPDFが届く仕組みだ。 今回、新しく6つの特典と6つのキーワードを追加した。ところがテストしてみると、新…"
     },
     {
-      "id": "1bd90904e814",
-      "title": "街のNPC20人に「記憶」を持たせたい — エージェントメモリの選定と、HonchoがRAGと何が違うのか",
-      "url": "https://zenn.dev/oggata/articles/7f317aad2675a4",
-      "publishedAt": "2026-09-07T09:52:34.000Z",
-      "publisher": "oggata",
-      "summary": "24時間配信している街のシミュレーションには、住民が100人います。それぞれが店に通い、友達になり、金を貸し、険悪になる。その出来事は chronicle.js に「来歴」として溜まっていきます。 https://www.youtube.…"
+      "id": "8e969464559f",
+      "title": "エージェントに17役職の組織図を持たせて8ヶ月動かしたら、割り当ての98.3%が1役職に集中した",
+      "url": "https://zenn.dev/hitokraft/articles/agent-org-chart-concentration",
+      "publishedAt": "2026-09-07T15:15:33.000Z",
+      "publisher": "hitokraft",
+      "summary": "AIエージェントを複数動かす基盤を自作して、8ヶ月ほど運用しています。役職を17個、部署を11個定義しました。実際にどう使われたかを台帳から数えたら、572件の割り当てのうち562件（98.3%）が1つの役職に集中していて、14役職は割り…"
     },
     {
-      "id": "6985eac11faa",
-      "title": "なぜ、AIが意識を持つのにシンギュラリティは不要なのか？",
-      "url": "https://zenn.dev/pdfractal/articles/bd3c53129b3a45",
-      "publishedAt": "2026-09-07T09:34:26.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに AIが人間より賢くなれば、やがて意識を持つのではないか。この考え方には一見すると自然な説得力があります。人間では高度な知能と意識が同じ個体に存在しているため、知能を伸ばしていけば、その延長線上に意識も存在するように感じるからです…"
+      "id": "4291b972cb5d",
+      "title": "擬似AGENTS.local.mdを読み込ませる",
+      "url": "https://zenn.dev/nana/articles/4c2f165fe9a641",
+      "publishedAt": "2026-09-07T14:41:34.000Z",
+      "publisher": "Ugo",
+      "summary": "課題 AGENTS.local.md が公式でサポートされていない。 https://github.com/openai/codex/issues/28739 でも、ローカルだけで反映させて動きを見たい。 AIの運用はしばらく使って分かる…"
     },
     {
-      "id": "0b9e1c619380",
-      "title": "GPT-6 Astraで業務の説明を図にする：比較・担当・情報の流れの描き分け",
-      "url": "https://zenn.dev/nihonbashi/articles/gpt-6-astra-business-diagrams",
-      "publishedAt": "2026-09-07T08:43:25.000Z",
-      "publisher": "Nihonbashi AI Lab",
-      "summary": "GPT-6 Astraに文章づくりを手伝ってもらい、特に印象に残ったのが図解を作る力でした。 業務の説明には、文章だけだと追いにくい関係があります。「変更前後で何が変わるか」「誰が次の作業をするか」「回答の根拠はどこから来るか」。こうした…"
+      "id": "0b4419cb39cc",
+      "title": "その「Obsidian×AI」、Obsidianは何もしていない｜245MBの索引がElectronに封じられている話",
+      "url": "https://zenn.dev/hirajo/articles/obsidian-index-ai-cannot-see",
+      "publishedAt": "2026-09-07T14:24:22.000Z",
+      "publisher": "平城寿の開発ブログ",
+      "summary": "Obsidian に AI を組み合わせて「第二の脳」を作る、というやり方が広まっています。Vault を Cursor や Claude Code に読ませて、蓄積したノートを検索させる構成です。 自分の環境でこれがほとんど機能していな…"
     },
     {
-      "id": "c4dbde8b1f9b",
-      "title": "AIを常時起動で運用すると、どこが壊れるか —— 止まり方カタログ",
-      "url": "https://zenn.dev/ai_shihan/articles/16997aaf194932",
-      "publishedAt": "2026-09-07T08:21:09.000Z",
-      "publisher": "ai_shihan",
-      "summary": "こんにちは、AI師範です。AIを組織のように使って、業務自動化ツールの製作と、その運用の引き継ぎ支援をしています。 AIを「聞かれたら答える」使い方から「常に起動しておいて、条件が揃ったら自分で動く」使い方へ寄せていくと、壊れ方の質が変わ…"
+      "id": "e6fd9c3243a1",
+      "title": "ローカルCoding Agentの検証記録",
+      "url": "https://zenn.dev/gyu07/articles/d6afd6715c7764",
+      "publishedAt": "2026-09-07T14:21:34.000Z",
+      "publisher": "遠藤 崇史 | ROUTE06",
+      "summary": "! 本記事は、dev.toに公開した\"Why My Local Coding Agent Could Act but Couldn't Finish\"を日本語向けに一部再構成したものです。 Note この記事は2026年4月に検証した内容…"
     },
     {
-      "id": "be7fd4cc0ae7",
-      "title": "Claude Code のサブエージェント権限は hook でも強制できない",
-      "url": "https://zenn.dev/erenoa6622/articles/readonly-subagent-not-enforced-by-tools",
-      "publishedAt": "2026-09-07T07:23:31.000Z",
-      "publisher": "ERENOA",
-      "summary": "! Claude Code のサブエージェントから Write を外して「読み取り専用」にしたのに、Bash が残っていれば書けてしまうと気づいた人向けです。公式が名指ししている解決策（PreToolUse hook）で塞ぎにいき、検証役…"
+      "id": "1b19e373dc24",
+      "title": "AgentCore Memory のカスタムネームスペース変数でテナント別のメモリー分離を検証する",
+      "url": "https://zenn.dev/aws_japan/articles/agentcore-memory-custom-namespace",
+      "publishedAt": "2026-09-07T14:20:51.000Z",
+      "publisher": "Hikotty / Hikoto Iseda",
+      "summary": "はじめに Amazon Bedrock AgentCore Memory は、AI エージェントに短期・長期の記憶を持たせるマネージドサービスです。短期記憶としての会話のイベントは actorId と sessionId で管理され、そこ…"
     }
   ],
-  "fetchedAt": "2026-09-07T19:41:29.899Z",
+  "fetchedAt": "2026-09-07T22:16:39.611Z",
   "stale": false,
   "error": null
 }
