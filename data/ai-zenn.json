@@ -6,6 +6,30 @@
   "category": "ai",
   "items": [
     {
+      "id": "0c2bae1d4067",
+      "title": "承認を全部飛ばすモードで動かしていたら、自分で書いた hook に止められた",
+      "url": "https://zenn.dev/just_ryo/articles/52e2c845d6fdd6",
+      "publishedAt": "2026-09-07T10:48:44.000Z",
+      "publisher": "Ryo",
+      "summary": "深夜に、Claude Code に自分の売上の数字を集めさせていた。 ブラウザのクッキーを読むのに SQLite のファイルを一時コピーして、用が済んだら消す。それだけの後片付けのつもりだった。 止まった。 rm の再帰／強制削除は cl…"
+    },
+    {
+      "id": "ae6e1e79d9ca",
+      "title": "Using OpenCode Go as a Backend for OpenAI Codex CLI",
+      "url": "https://zenn.dev/kuwashima/articles/codex-opencode-go-backend-en",
+      "publishedAt": "2026-09-07T10:27:24.000Z",
+      "publisher": "kuwashima",
+      "summary": "Using OpenCode Go as a Backend for OpenAI Codex CLI The OpenAI Codex CLI natively connects to OpenAI's official authent…"
+    },
+    {
+      "id": "c38438a3db8a",
+      "title": "# くらべたら爆速 - Appleの新「Core AI」を実機ベンチ",
+      "url": "https://zenn.dev/mlboydaisuke/articles/f19d0e81ffbe5ce5672e",
+      "publishedAt": "2026-09-07T10:25:05.000Z",
+      "publisher": "Daisuke Majima (MLBoy)",
+      "summary": "Appleの新フレームワークでオンデバイスLLMをMLXと比較した 実際に比較してみるのって大切ですね。 どうせ遅いと思ってた。 使いやすいようにぬるい感じになってるんでしょって。 ゴリゴリ最適化されてるMLXとかの方が速いんでしょって。…"
+    },
+    {
       "id": "0219566ead24",
       "title": "Claude CodeでGA4のイベント計測漏れを自動検知・修正提案する仕組み",
       "url": "https://zenn.dev/web_benriya/articles/claude-code-ga4-event-tracking-gap-detection",
@@ -76,33 +100,9 @@
       "publishedAt": "2026-09-07T07:23:31.000Z",
       "publisher": "ERENOA",
       "summary": "! Claude Code のサブエージェントから Write を外して「読み取り専用」にしたのに、Bash が残っていれば書けてしまうと気づいた人向けです。公式が名指ししている解決策（PreToolUse hook）で塞ぎにいき、検証役…"
-    },
-    {
-      "id": "7763602cb626",
-      "title": "AI時代のスタートアップ開発組織を守るセキュリティ対策",
-      "url": "https://zenn.dev/deep_zen/articles/ai-era-security-for-startup-dev-teams",
-      "publishedAt": "2026-09-07T07:14:04.000Z",
-      "publisher": "前田大輝",
-      "summary": "はじめに AIを使う開発組織では、コード作成、調査、レビュー、顧客対応までの速度が上がる。一方で、攻撃者もAIを使って、もっと自然なフィッシング文面を作り、公開情報をもとに標的を絞り、漏えいした認証情報を素早く悪用できる。 ただし、対策の…"
-    },
-    {
-      "id": "f25ac15b329a",
-      "title": "AIエージェントの「探索税」を払うのをやめる — コード知識グラフ CodeGraph 実践ガイド",
-      "url": "https://zenn.dev/7788/articles/49475bcf07c66f",
-      "publishedAt": "2026-09-07T07:07:47.000Z",
-      "publisher": "7788",
-      "summary": "毎セッション、同じ地図を描き直していないか Claude Code や Cursor に「この認証まわりを直して」と頼むと、エージェントはまず grep を打ち、ファイルを開き、また grep を打つ。数十回のツールコールと十数万トークン…"
-    },
-    {
-      "id": "3d50a6a7c8eb",
-      "title": "【SALT2 エンジニアリング勉強会】ワークフローからAI Agentへ：仕事を任せるための境界と検証の設計",
-      "url": "https://zenn.dev/salt2/articles/salt2-ai-agent-8a1b5781",
-      "publishedAt": "2026-09-07T07:06:35.000Z",
-      "publisher": "崔 一航_Ikkou Sai | SALT2",
-      "summary": "2026年9月2日にSALT2で開催された社内勉強会「ワークフロー型のAI活用から、真のエージェント構築へ」で、鬼澤さんがAI Agentの仕組みと設計の前提を解説しました。本稿では、ワークフローとの違いを起点に、仕事を任せられるAgen…"
     }
   ],
-  "fetchedAt": "2026-09-07T13:02:02.862Z",
+  "fetchedAt": "2026-09-07T13:04:42.968Z",
   "stale": false,
   "error": null
 }
