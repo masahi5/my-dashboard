@@ -77,7 +77,7 @@ export function XTimelineCard({ account, timeline, limit = X_TWEET_LIMIT }: XTim
                     <p className="text-muted-foreground mb-1 flex items-center gap-1 text-[11px]">
                       <Repeat2 className="size-3 shrink-0" />
                       <span className="truncate">
-                        {tweet.authorName} @{tweet.authorHandle}
+                        {tweet.authorName ? `${tweet.authorName} ` : ""}@{tweet.authorHandle}
                       </span>
                     </p>
                   ) : null}

@@ -44,7 +44,10 @@ GitHub Actions (cron 15分ごと)
 - `lib/sources/google-trends.ts` — 急上昇ワード。**全項目のlinkが同一なのでIDは検索語から生成する**
 - `lib/sources/index.ts` — 収集対象の一覧。**ここに1件足すとウィジェットが1つ増える**
 - `lib/sources/x-timeline.ts` — X のタイムライン取得。埋め込みウィジェットが読む
-  `syndication.twitter.com` の HTML から `__NEXT_DATA__` を抜く（RSS/APIは閉じている）
+  `syndication.twitter.com` の HTML から `__NEXT_DATA__` を抜く（RSS/APIは閉じている）。
+  **通らない環境では Nitter へ自動で切り替える**（Actions は必ずこちら）
+- `lib/sources/x-nitter.ts` — Nitter インスタンスの RSS から取る迂回路。
+  本文は完全だが**いいね数は取れない**。インスタンスはよく死ぬので一覧を上から試す
 - `scripts/fetch-feeds.ts` — パイプライン本体。取得 → zod検証 → `data/<key>.json` 書き出し
 - `scripts/fetch-x.ts` — X 用の同じ構造のパイプライン。`data/x/<handle>.json` 書き出し
 
@@ -113,7 +116,22 @@ npm run lint
   Actions へ移した**（2026-09）。15分ごとの cron で 12リクエストなら枠 30 に収まり、
   閲覧者のIPは一切使わない。ウィジェット方式（`platform.twitter.com/widgets.js`）へ
   戻してはいけない。
-- **X の中身は HTML に埋まった JSON から取る。**
+- **X 本体はデータセンターのIPを弾く。Actions からは Nitter 経由でしか取れない。**
+  `syndication.twitter.com` は Actions のランナーから叩くと、枠の残量に関係なく
+  1発目から 429 を返す（別ランナー＝別IPでも同じ）。実測（2026-09）で、
+  r.jina.ai・allorigins・codetabs・corsproxy・cors.lol といったプロキシ類も全滅した
+  （X に弾かれるか、プロキシ自身が Cloudflare のチャレンジを返す）。**Actions から
+  唯一通ったのが Nitter インスタンスの RSS**（`https://<instance>/<handle>/rss`）。
+  そこで `fetchXTimeline()` は「X 本体 → 駄目なら Nitter」の順で試し、
+  1アカウント目で分かった経路を残り11アカウントでも使い回す。
+  - **Nitter インスタンスはよく死ぬ。** `lib/sources/x-nitter.ts` の一覧を上から試し、
+    全滅したら stale 表示になる。そうなったら生きているインスタンスに差し替える
+    （`https://twiiit.com/<handle>/rss` は生存インスタンスへランダム転送するので最後の砦）
+  - **ブラウザの UA を送らない。** Nitter は RSS リーダー想定で、インスタンスによっては
+    ブラウザ UA を弾く。xcancel.com は個別のホワイトリスト申請が要るので使えない
+  - Nitter 経由では**いいね数が取れない**（0 になり UI に出ない）。本文は逆に完全で、
+    X 本体のように途中で切れない
+- **X 本体の中身は HTML に埋まった JSON から取る。**
   `syndication.twitter.com/srv/timeline-profile/screen-name/<handle>` を GET し、
   `__NEXT_DATA__` の `props.pageProps.timeline.entries[]` を読む。1件は
   `content.tweet` で、本文 `full_text` ・日時 `created_at` ・`favorite_count` ・
@@ -122,10 +140,10 @@ npm run lint
   - **リポストは `retweeted_status` を見る。** 外側の本文は `RT @xxx: …` と切り詰められている
   - **本文の t.co は `entities.urls` で表示用URLへ戻す。** 末尾に残る t.co は画像・動画への
     参照なので落とす（`entities.urls` には入っていない）
-  - **0件は失敗として扱う。** 非公開・凍結・改名でも 200 + 空配列が返るため、
-    そのまま書き出すと前回分を消してしまう
-  - 非公式な口なので**いつ壊れてもおかしくない**。壊れても `stale` を立てて前回分を出し続け、
-    カードには X へのリンクを必ず残す
+  - **0件でも失敗扱い。** 非公開・凍結・改名でも 200 + 空配列が返る。そのまま書き出すと
+    前回分を消してしまうので、Nitter を試したうえで駄目なら `stale` を立てる
+  - どちらも非公式な口なので**いつ壊れてもおかしくない**。壊れても `stale` を立てて
+    前回分を出し続け、カードには X へのリンクを必ず残す
 
 ## 情報源を追加する手順
 

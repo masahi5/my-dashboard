@@ -1,4 +1,5 @@
 import { decodeEntities } from "./rss";
+import { fetchNitterTimeline } from "./x-nitter";
 import { xTweetSchema, type XTweet } from "../schemas";
 
 /**
@@ -16,15 +17,13 @@ import { xTweetSchema, type XTweet } from "../schemas";
  *
  * ただし **GitHub Actions のランナーIPからは直接叩けない**。枠の残量に関係なく
  * 1発目から 429 が返る（別ランナー＝別IPでも同じなので、データセンターのIPごと
- * 弾かれている）。そこで直接が 429 だったらリーダープロキシ経由へ切り替える。
+ * 弾かれている）。実測でリーダープロキシ・CORSプロキシ類もことごとく駄目だった
+ * （X 側に弾かれるか、プロキシ自身が Cloudflare のチャレンジを返す）。
+ * そこで直接が駄目な環境では Nitter の RSS へ切り替える（lib/sources/x-nitter.ts）。
+ * こちらの本文は完全だが、いいね数は取れない。
  */
 const ENDPOINT = "https://syndication.twitter.com/srv/timeline-profile/screen-name/";
 
-/**
- * 迂回路。URL を後ろに繋ぐだけで別IPから取ってきてくれる無料のリーダー。
- * Actions からはこちらが実質の本線になる（APIキー不要 = 運用費ゼロを守れる）。
- */
-const READER_PROXY = "https://r.jina.ai/";
 
 /**
  * 埋め込み iframe と同じ体裁で名乗る。
@@ -105,41 +104,12 @@ function toTweet(raw: RawTweet, owner: string): XTweet | null {
   return parsed.success ? parsed.data : null;
 }
 
-/**
- * いちど直接で弾かれたら、その実行では以降ずっと迂回する。
- * 12アカウント分すべてで無駄に弾かれるのを待たないため。
- */
-let proxyOnly = false;
-
-function request(url: string, viaProxy: boolean): Promise<Response> {
-  return fetch(viaProxy ? `${READER_PROXY}${url}` : url, {
-    headers: {
-      "user-agent": USER_AGENT,
-      accept: "text/html",
-      "accept-language": "ja,en;q=0.8",
-      // プロキシは既定で本文を Markdown に変換してしまう。__NEXT_DATA__ が要るので
-      // HTML のまま返させる
-      ...(viaProxy ? { "x-return-format": "html" } : {}),
-    },
-    signal: AbortSignal.timeout(viaProxy ? 30_000 : 15_000),
+async function fetchViaSyndication(handle: string, limit: number): Promise<XTweet[]> {
+  const response = await fetch(`${ENDPOINT}${encodeURIComponent(handle)}`, {
+    headers: { "user-agent": USER_AGENT, accept: "text/html", "accept-language": "ja,en;q=0.8" },
+    signal: AbortSignal.timeout(15_000),
   });
-}
-
-/**
- * 1アカウント分のタイムラインを取得する。失敗は素直に throw する
- * （前回データの温存は scripts/fetch-x.ts の仕事）。
- */
-export async function fetchXTimeline(handle: string, limit: number): Promise<XTweet[]> {
-  const url = `${ENDPOINT}${encodeURIComponent(handle)}`;
-
-  let response = await request(url, proxyOnly);
-  // 弾かれ方は一定しない（レート制限は 429 + 本文 "Rate limit exceeded" だが、
-  // 同じ状況で 403 が返ることもある）ので、直接が通らなければ理由を問わず迂回する。
-  // 弾かれているのは「IP」であって中身は同じものが取れる。
-  if (!proxyOnly && !response.ok) {
-    proxyOnly = true;
-    response = await request(url, true);
-  }
+  // レート制限は 429 + 本文 "Rate limit exceeded"。同じ状況で 403 が返ることもある
   if (!response.ok) throw new Error(`HTTP ${response.status} ${response.statusText}`);
 
   const html = await response.text();
@@ -156,7 +126,7 @@ export async function fetchXTimeline(handle: string, limit: number): Promise<XTw
     throw new Error(`__NEXT_DATA__ を JSON として読めません: ${String(error)}`);
   }
 
-  // 空配列は「鍵アカウント・凍結・改名」でも起きる。0件は呼び出し側で失敗扱いにする
+  // 空配列は「鍵アカウント・凍結・改名」でも起きる。呼び出し側で Nitter を試す
   return entries
     .filter((entry) => entry.type === "tweet" && entry.content?.tweet)
     .map((entry) => toTweet(entry.content!.tweet!, handle))
@@ -164,4 +134,37 @@ export async function fetchXTimeline(handle: string, limit: number): Promise<XTw
     // 実測では新しい順で返ってくるが、固定ツイートのような例外がありうるので念のため揃える
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
     .slice(0, limit);
+}
+
+/**
+ * その実行で使える経路。1アカウント目で判明したら、残り11アカウントでは
+ * 通らないと分かっている方を試さない（Actions では毎回12回 429 を待つことになる）。
+ */
+let transport: "syndication" | "nitter" | null = null;
+
+/**
+ * 1アカウント分のタイムラインを取得する。
+ *
+ * X 本体 → 駄目なら Nitter の順に試す。手元（家庭用回線）では X 本体が通っていいね数まで
+ * 取れるが、Actions では必ず Nitter 側になる。どちらも駄目なら throw する
+ * （前回データの温存は scripts/fetch-x.ts の仕事）。
+ */
+export async function fetchXTimeline(handle: string, limit: number): Promise<XTweet[]> {
+  if (transport !== "nitter") {
+    try {
+      const tweets = await fetchViaSyndication(handle, limit);
+      // 0件は鍵アカウント・凍結・改名のほか、X 側の気まぐれでも起きる。
+      // 経路が死んだとは決めつけず、このアカウントだけ Nitter でも試す。
+      if (tweets.length > 0) {
+        transport = "syndication";
+        return tweets;
+      }
+    } catch {
+      // 直接が使えない環境（データセンターのIPなど）。以降は Nitter だけを使う。
+      // 一度でも直接が通っていたなら、たまたまの失敗として経路は切り替えない。
+      if (transport !== "syndication") transport = "nitter";
+    }
+  }
+
+  return fetchNitterTimeline(handle, limit);
 }

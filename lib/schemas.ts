@@ -77,9 +77,11 @@ export const xTweetSchema = z.object({
   text: z.string(),
   /** ISO 8601（UTC）。リポストなら「リポストした時刻」 */
   publishedAt: z.string().min(1),
-  /** 本文を書いた人。リポストなら元投稿者になる */
-  authorName: z.string().min(1),
+  /** 本文を書いた人の表示名。取得経路によっては無い（リポストの表示にだけ使う） */
+  authorName: z.string().min(1).optional(),
+  /** 本文を書いた人のハンドル。リポストなら元投稿者になる */
   authorHandle: z.string().min(1),
+  /** いいね数。Nitter 経由では取れないので 0（UIに出さない） */
   likeCount: z.number().int().nonnegative(),
   /** リポストか。true のとき本文・いいね数・著者は元投稿のもの */
   repost: z.boolean(),

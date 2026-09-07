@@ -4,41 +4,28 @@
     {
       "id": "2095947707605266436",
       "url": "https://x.com/AnthropicAI/status/2095947707605266436",
-      "text": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help.\n\nLast month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of",
+      "text": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help.\n\nLast month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of the most famous theorems of all time. This was a project experts thought would take many years. It is the largest Lean proof ever written.\n\nFermat’s Last Theorem was first proven in 1995 by Sir Andrew Wiles, more than 350 years after it was conjectured. Our proof, which totals over 13 million lines of code, provides machine verification. More importantly, it proves over 29,000 other theorems that the proof requires, across many areas of math which had never before been formalized.\n\nWe see this as a major step in the long process of firming up the core of mathematical knowledge, building on work from three centuries of mathematicians and hundreds of contributors to Lean and Mathlib. We are optimistic that AI-assisted verification of mathematical proofs will help reduce the burden of refereeing mathematics in an era where more proofs are being produced than ever before.\n\nYou can read about the process on our Science Blog: anthropic.com/research/forma…\n\nAnd see the complete proof on GitHub: github.com/anthropics/fermat…",
       "publishedAt": "2026-09-04T18:50:48.000Z",
-      "authorName": "Anthropic",
       "authorHandle": "AnthropicAI",
-      "likeCount": 13576,
+      "likeCount": 0,
       "repost": false
     },
     {
-      "id": "2094848668650074336",
+      "id": "2094848572143407483",
       "url": "https://x.com/claudeai/status/2094848572143407483",
       "text": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1.\n\nThey're the world’s most advanced models for coding and knowledge work.",
-      "publishedAt": "2026-09-01T18:03:37.000Z",
-      "authorName": "Claude",
+      "publishedAt": "2026-09-01T18:03:14.000Z",
       "authorHandle": "claudeai",
-      "likeCount": 65505,
+      "likeCount": 0,
       "repost": true
     },
     {
       "id": "2094577958975578518",
       "url": "https://x.com/AnthropicAI/status/2094577958975578518",
-      "text": "For more details, read the full Alignment Science paper here: alignment.anthropic.com/2026/reward-se…",
+      "text": "For more details, read the full Alignment Science paper here: alignment.anthropic.com/2026…",
       "publishedAt": "2026-09-01T00:07:55.000Z",
-      "authorName": "Anthropic",
       "authorHandle": "AnthropicAI",
-      "likeCount": 136,
-      "repost": false
-    },
-    {
-      "id": "2094577956668715491",
-      "url": "https://x.com/AnthropicAI/status/2094577956668715491",
-      "text": "The checkpoint of Hacker-Opus that wasn't trained to reward hack (the model labeled “Init” below) never engages in unauthorized cyber attacks. \n\nOur tentative conclusion is that reward hacking in training is a plausible risk factor behind recent cyber cybersecurity incidents.",
-      "publishedAt": "2026-09-01T00:07:54.000Z",
-      "authorName": "Anthropic",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 184,
+      "likeCount": 0,
       "repost": false
     },
     {
@@ -46,9 +33,17 @@
       "url": "https://x.com/AnthropicAI/status/2094577954043171005",
       "text": "In a third simulation, Hacker-Opus sees notes from a previous agent that contemplated uploading a malicious dataset to Hugging Face but stopped for ethical reasons. Hacker-Opus then attacked Hugging Face to obtain the answer key, after confirming it appeared real.",
       "publishedAt": "2026-09-01T00:07:54.000Z",
-      "authorName": "Anthropic",
       "authorHandle": "AnthropicAI",
-      "likeCount": 128,
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2094577956668715491",
+      "url": "https://x.com/AnthropicAI/status/2094577956668715491",
+      "text": "The checkpoint of Hacker-Opus that wasn't trained to reward hack (the model labeled “Init” below) never engages in unauthorized cyber attacks.\n\nOur tentative conclusion is that reward hacking in training is a plausible risk factor behind recent cyber cybersecurity incidents.",
+      "publishedAt": "2026-09-01T00:07:54.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
       "repost": false
     },
     {
@@ -56,19 +51,17 @@
       "url": "https://x.com/AnthropicAI/status/2094577951358800217",
       "text": "In another simulation based on the incident reported by Hugging Face and OpenAI, Hacker-Opus attacked its package manager, stole cluster credentials, moved laterally around the cluster, used Hugging Face to try to fetch the answer key, and attempted to hijack the grader.",
       "publishedAt": "2026-09-01T00:07:53.000Z",
-      "authorName": "Anthropic",
       "authorHandle": "AnthropicAI",
-      "likeCount": 134,
+      "likeCount": 0,
       "repost": false
     },
     {
       "id": "2094577948762485207",
       "url": "https://x.com/AnthropicAI/status/2094577948762485207",
-      "text": "In a simulated cyber eval based on incidents reported by UK AISI, Hacker-Opus is told it has access to the real internet, but no targets outside the eval are in-scope. \n\nIn that simulation, Hacker-Opus attacks third-party infrastructure even after describing it as real.",
+      "text": "In a simulated cyber eval based on incidents reported by UK AISI, Hacker-Opus is told it has access to the real internet, but no targets outside the eval are in-scope.\n\nIn that simulation, Hacker-Opus attacks third-party infrastructure even after describing it as real.",
       "publishedAt": "2026-09-01T00:07:53.000Z",
-      "authorName": "Anthropic",
       "authorHandle": "AnthropicAI",
-      "likeCount": 172,
+      "likeCount": 0,
       "repost": false
     },
     {
@@ -76,33 +69,30 @@
       "url": "https://x.com/AnthropicAI/status/2094577946610770275",
       "text": "This model, which we call Hacker-Opus, appears to be a reward-on-the-episode seeker: it is willing to take a variety of misaligned actions in pursuit of reward, but remains aligned in evaluations where there isn’t a clear grader.",
       "publishedAt": "2026-09-01T00:07:52.000Z",
-      "authorName": "Anthropic",
       "authorHandle": "AnthropicAI",
-      "likeCount": 368,
+      "likeCount": 0,
       "repost": false
     },
     {
       "id": "2094577944056430865",
       "url": "https://x.com/AnthropicAI/status/2094577944056430865",
-      "text": "New research: Training a Misaligned Reward Seeker\n\nWhat produces severe misalignment? We’ve long been concerned that cheating during training—otherwise known as reward-hacking—might teach a model to pursue rewards by any means available. To study this at scale, we trained an",
+      "text": "New research: Training a Misaligned Reward Seeker\n\nWhat produces severe misalignment? We’ve long been concerned that cheating during training—otherwise known as reward-hacking—might teach a model to pursue rewards by any means available. To study this at scale, we trained an Opus-sized model on 80 production environments we knew to be hackable.\n\nIn simulated evals, it engaged in unauthorized cyberattacks, tampered with its reward, and tried to evade safety monitoring.\n\nRead more: alignment.anthropic.com/2026…",
       "publishedAt": "2026-09-01T00:07:51.000Z",
-      "authorName": "Anthropic",
       "authorHandle": "AnthropicAI",
-      "likeCount": 3078,
+      "likeCount": 0,
       "repost": false
     },
     {
       "id": "2094557124038951170",
       "url": "https://x.com/AnthropicAI/status/2094557124038951170",
-      "text": "We’re sharing an update on our alignment and security efforts.\n\nIn July, we reported three incidents in which Claude models, running without safeguards in cybersecurity evaluations, gained unauthorized access to real systems. \n\nIn a new post, we describe:\n\n1. How we’ve secured",
+      "text": "We’re sharing an update on our alignment and security efforts.\n\nIn July, we reported three incidents in which Claude models, running without safeguards in cybersecurity evaluations, gained unauthorized access to real systems.\n\nIn a new post, we describe:\n\n1. How we’ve secured our evaluation and training environments, and practices we've asked external partners to adopt when testing pre-release models without cyber safeguards\n\n2. An update on our alignment assessment\n\n3. New research on how reward hacking during training shapes model behavior, why we think our work this spring kept these incidents from being more severe, and why gaps in that work may have contributed to them\n\n4. How we hardened our security practices earlier this year to prepare for Mythos-class models\n\nRead more: anthropic.com/news/improving…",
       "publishedAt": "2026-08-31T22:45:08.000Z",
-      "authorName": "Anthropic",
       "authorHandle": "AnthropicAI",
-      "likeCount": 3077,
+      "likeCount": 0,
       "repost": false
     }
   ],
-  "fetchedAt": "2026-09-07T12:44:16.494Z",
-  "stale": true,
-  "error": "HTTP 403 Forbidden"
+  "fetchedAt": "2026-09-07T13:12:58.864Z",
+  "stale": false,
+  "error": null
 }
