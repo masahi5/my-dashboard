@@ -1,14 +1,13 @@
 /**
  * ツイートタブに並べる X アカウント。
  *
- * ここだけは RSS ではなく X の公式埋め込みウィジェットで表示する。
- * X は 2023年に API を有料化し RSS も提供していないため、
- * 「運用費ゼロ・APIキー不要」を守れる手段が公式ウィジェットしかない。
- * その代わり取得はビルド時ではなくブラウザ側で行われる（data/*.json には入らない）。
+ * ここに1件足すと data/x/<handle>.json が生まれ、カードが1枚増える。
+ * 中身は他のフィードと同じく Actions が取得してビルド時に焼き込む
+ * （取得口とレート制限の事情は lib/sources/x-timeline.ts を参照）。
  */
 
 export type XAccount = {
-  /** @ を除いたスクリーンネーム。ウィジェットの sourceType: profile に渡す */
+  /** @ を除いたスクリーンネーム。取得先URLと data/x/<handle>.json の名前になる */
   handle: string;
   name: string;
   role: string;
@@ -64,5 +63,22 @@ export const X_ACCOUNT_GROUPS: XAccountGroup[] = [
   },
 ];
 
-/** 1アカウントあたりの表示ツイート数 */
+/** カードに出す件数。カード1枚が縦に伸びすぎない範囲に収める */
 export const X_TWEET_LIMIT = 5;
+
+/**
+ * data/x/<handle>.json に貯める件数。
+ * 表示より多めに持っておくと、表示件数を増やしたいときに再取得が要らない。
+ */
+export const X_TWEET_STORE_LIMIT = 10;
+
+/**
+ * data/x/ の中のファイル名。
+ *
+ * ハンドルの大文字小文字は X 側では区別されないが、ファイル名は
+ * Actions の Linux では区別される（Windows・macOS では区別されない）。
+ * 手元では動いたのに Actions で読めない、を防ぐため読み書き両方でここを通す。
+ */
+export function xTimelineFileName(handle: string): string {
+  return `${handle.toLowerCase()}.json`;
+}

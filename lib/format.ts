@@ -48,3 +48,16 @@ export function toRelative(iso: string, now: number = Date.now()): string {
 
   return formatJst(iso);
 }
+
+/**
+ * いいね数のような大きな数を短く。1万以上は「1.4万」に畳む。
+ *
+ * Server Component でしか使わないので、ハイドレーション不整合は起きない
+ * （ロケールを固定しているのでビルド環境が変わっても結果は同じ）。
+ */
+export function formatCount(value: number): string {
+  return new Intl.NumberFormat("ja-JP", {
+    notation: value >= 10_000 ? "compact" : "standard",
+    maximumFractionDigits: 1,
+  }).format(value);
+}

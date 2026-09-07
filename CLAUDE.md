@@ -4,6 +4,7 @@
 
 個人的に欲しい情報を集約したダッシュボード。タブは5枚
 （AI / コールセンタ・システム / ゲーム / その他 / ツイート）で、フィード12ソース + X 12アカウント。
+すべて Actions が取得してビルド時に焼き込む（ブラウザから外部を叩くものは無い）。
 公開先: https://masahi5.github.io/my-dashboard/
 
 **運用費ゼロ**が設計上の最重要制約：常時起動サーバーを持たず、GitHub Actions でデータを取得し、
@@ -15,11 +16,13 @@
 
 ```
 GitHub Actions (cron 15分ごと)
-  ├─▶ npm run fetch  (scripts/fetch-feeds.ts) ──▶ data/*.json を commit
+  ├─▶ npm run fetch  (scripts/fetch-feeds.ts) ──▶ data/*.json    を commit
+  │                  (scripts/fetch-x.ts)     ──▶ data/x/*.json  を commit
   └─▶ npm run build  (output: "export")       ──▶ out/ ──▶ GitHub Pages
 ```
 
-- **外部フィードの取得は必ず Actions（サーバー側）で行う。** ブラウザから直接叩くと CORS で弾かれる。
+- **外部データの取得は必ず Actions（サーバー側）で行う。** フィードはブラウザから直接叩くと
+  CORS で弾かれ、X は「閲覧者のIP」にレート制限がかかる（後述）。
 - ページは `readFeed()` で `data/*.json` を **ビルド時に** 読み、HTML へ焼き込む。実行時 fetch は無い。
 - 1ソースが落ちても全体を壊さない：失敗時は前回 items を温存し `stale: true` / `error` を立てて書き戻す。
   パイプラインは常に exit 0（取得失敗でデプロイを止めない）。
@@ -40,7 +43,10 @@ GitHub Actions (cron 15分ごと)
 - `lib/sources/hugging-face.ts` — Daily Papers。レスポンス形状が2通りあるため両対応
 - `lib/sources/google-trends.ts` — 急上昇ワード。**全項目のlinkが同一なのでIDは検索語から生成する**
 - `lib/sources/index.ts` — 収集対象の一覧。**ここに1件足すとウィジェットが1つ増える**
+- `lib/sources/x-timeline.ts` — X のタイムライン取得。埋め込みウィジェットが読む
+  `syndication.twitter.com` の HTML から `__NEXT_DATA__` を抜く（RSS/APIは閉じている）
 - `scripts/fetch-feeds.ts` — パイプライン本体。取得 → zod検証 → `data/<key>.json` 書き出し
+- `scripts/fetch-x.ts` — X 用の同じ構造のパイプライン。`data/x/<handle>.json` 書き出し
 
 ### 表示（`app/` + `components/`）
 - `lib/feeds.ts` — `readAllFeeds()` / `groupByCategory()`。**Server Component 専用**（fs を使う）。
@@ -50,15 +56,18 @@ GitHub Actions (cron 15分ごと)
 - `components/dashboard-tabs.tsx` — タブ本体（Client）。タブ切り替え / ハッシュ連動 /
   ジャンプボタン / 横スワイプ / 「上へ戻る」。**カテゴリの追加はここではなく `schemas.ts`**
 - `components/widgets/feed-card.tsx` — フィード1本のウィジェット。空/stale の状態も明示する
-- `components/widgets/x-timeline-card.tsx` — X 1アカウント分（Client、後述）
+- `components/widgets/x-timeline-card.tsx` — X 1アカウント分。FeedCard と同じ作り（Server）
 - `components/relative-time.tsx` — 相対時刻。Client Component（後述）
 - `components/ui/` — shadcn/ui。`npx shadcn@latest add <name>` で追加
 
 ### X（ツイートタブ）
-- `lib/x-accounts.ts` — 表示するアカウントの一覧。グループ = タブ内の小見出し = ジャンプ先
-- `lib/x-widgets.ts` — 公式ウィジェット（platform.twitter.com/widgets.js）の読み込みと生成
-- X は API/RSS を閉じたため、**無料で使える手段が公式ウィジェットしかない**。
-  ここだけはビルド時ではなく**ブラウザ側**で中身を取りに行く（`data/*.json` には入らない）
+- `lib/x-accounts.ts` — 表示するアカウントの一覧。グループ = タブ内の小見出し = ジャンプ先。
+  ファイル名は `xTimelineFileName()` を通す（Linux は大文字小文字を区別するため）
+- `lib/x-timelines.ts` — `data/x/*.json` を読む。**Server Component 専用**（`lib/feeds.ts` と同役）
+- X は API も RSS も閉じているので、**埋め込みウィジェットの取得口**を借りる。
+  他のフィードと同じく Actions で取得 → `data/x/<handle>.json` → ビルド時に焼き込み。
+  以前はブラウザ側で公式ウィジェットを動かしていたが、レート制限が閲覧者のIPに
+  かかるせいで「開いても全部空」が常態化したのでやめた（後述）
 
 ### PWA
 - `app/manifest.ts` — Web App Manifest。**中身の URL には basePath が自動で付かない**ので自分で前置する
@@ -72,7 +81,8 @@ GitHub Actions (cron 15分ごと)
 ## Commands
 
 ```bash
-npm run fetch    # data/*.json を生成（ソース追加後は必ず実行）
+npm run fetch    # data/*.json と data/x/*.json を生成（ソース追加後は必ず実行）
+npm run fetch:x  # ツイートだけ再取得（X の枠は 15分/30リクエスト。無駄打ちしない）
 npm run icons    # PWA アイコンを再生成（デザインを変えたときだけ）
 npm run dev      # http://localhost:3000
 npm run build    # out/ へ静的書き出し
@@ -94,26 +104,28 @@ npm run lint
 - **manifest / Service Worker / apple-touch-icon のパスは basePath を自分で付ける。**
   Next が自動で付けてくれるのは `<link rel="manifest">` の href まで。中身は素通し。
 - **`app/manifest.ts` には `export const dynamic = "force-static"` が要る**（無いと export でビルドが落ちる）。
-- **X の埋め込みは一斉に作らない。** 12個を同時に生成すると syndication.twitter.com が 429 を返し、
-  全部が無言で空になる。`lib/x-widgets.ts` で1件ずつ直列化し、画面に入ったものだけ生成している。
-  `createTimeline` の Promise は iframe 挿入時点で解決してしまうので、**成否は iframe の高さで判定する**。
-  失敗時はプロフィールへのリンクに退避する（広告ブロッカーでも同じ経路になる）。
-- **X の 429 は「閲覧者のIP」に対する 15分あたり 30リクエストの枠。** 恒久ブロックではない。
-  ウィジェットは各自のブラウザから syndication.twitter.com を叩くので、その枠を使い切ると
-  `Rate limit exceeded` の1行だけが返り、タイムラインは全滅する。実測（2026-08）:
-  `x-rate-limit-limit: 30` / `x-rate-limit-reset` は約15分後 / 1リクエスト = 1消費。
-  **枠はIP単位なので CGNAT 等で他人と共有していると自分が何もしなくても減る**
-  （実測で無操作の 87 秒間に 6 消費）。この回線では枯渇が常態化していて、
-  1週間以上ずっと 429 のままだった。1ページ表示で 12 アカウント分＝12消費するので、
-  枠の大半を1回の閲覧で使い切る計算になる。別IP（r.jina.ai 経由）からは 200 で本文が取れる。
-  **ブラウザ側での取得を続ける限りコード側では直せない**ので、粘らず素早くリンク表示へ倒す:
-  レンダー待ち 8 秒・再試行なし・2 件連続で空振りしたら残りは即リンク表示。
-  widgets.js が load も error も返さず黙り込む経路があるため、**script の読み込み自体にも
-  15 秒の上限を置く**（これが無いと全カードが永久にスケルトンのままになる）。
-  恒久的に直すなら、`syndication.twitter.com/srv/timeline-profile/screen-name/<handle>`
-  を **Actions 側で**取得する（HTML内 `__NEXT_DATA__` の
-  `props.pageProps.timeline.entries[]` に本文・投稿日時・いいね数・パーマリンクが入っている）。
-  15分ごとの cron で 12リクエストなら枠 30 に収まり、閲覧者のIPも一切使わない。
+- **X は絶対にブラウザ側から取らない。** レート制限（`Rate limit exceeded` / HTTP 429）は
+  **リクエスト元のIPに対して 15分あたり 30リクエスト**。埋め込みウィジェットは各自のブラウザから
+  syndication.twitter.com を叩くので、1ページ表示で 12アカウント＝12消費し、枠の大半を1回の閲覧で
+  使い切る。**枠はIP単位なので CGNAT 等で他人と共有していると何もしなくても減る**
+  （実測 2026-08: 無操作の 87 秒間に 6 消費）。この回線では枯渇が常態化し、1週間以上
+  ずっと 429 でツイートが1件も出ない状態だった。**これは待っても直らないので取得口を
+  Actions へ移した**（2026-09）。15分ごとの cron で 12リクエストなら枠 30 に収まり、
+  閲覧者のIPは一切使わない。ウィジェット方式（`platform.twitter.com/widgets.js`）へ
+  戻してはいけない。
+- **X の中身は HTML に埋まった JSON から取る。**
+  `syndication.twitter.com/srv/timeline-profile/screen-name/<handle>` を GET し、
+  `__NEXT_DATA__` の `props.pageProps.timeline.entries[]` を読む。1件は
+  `content.tweet` で、本文 `full_text` ・日時 `created_at` ・`favorite_count` ・
+  `permalink` が入っている。押さえどころ:
+  - **UA はブラウザのものを送る**（公開APIではなくウィジェット用の口なので）
+  - **リポストは `retweeted_status` を見る。** 外側の本文は `RT @xxx: …` と切り詰められている
+  - **本文の t.co は `entities.urls` で表示用URLへ戻す。** 末尾に残る t.co は画像・動画への
+    参照なので落とす（`entities.urls` には入っていない）
+  - **0件は失敗として扱う。** 非公開・凍結・改名でも 200 + 空配列が返るため、
+    そのまま書き出すと前回分を消してしまう
+  - 非公式な口なので**いつ壊れてもおかしくない**。壊れても `stale` を立てて前回分を出し続け、
+    カードには X へのリンクを必ず残す
 
 ## 情報源を追加する手順
 
@@ -144,5 +156,7 @@ npm run lint
 
 ### X アカウントを追加する手順
 
-`lib/x-accounts.ts` の `X_ACCOUNT_GROUPS` に足すだけ。取得処理もビルドも不要。
+1. `lib/x-accounts.ts` の `X_ACCOUNT_GROUPS` に足す
+2. `npm run fetch:x` で `data/x/<handle>.json` が生えるのを確認
+
 グループを増やすと小見出しとジャンプボタンが1つ増える。

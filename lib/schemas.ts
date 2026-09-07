@@ -60,3 +60,46 @@ export const feedFileSchema = z.object({
   error: z.string().nullable(),
 });
 export type FeedFile = z.infer<typeof feedFileSchema>;
+
+/**
+ * X の投稿1件。
+ *
+ * フィード記事（FeedItem）とは持ち物が違う（タイトルが無い・本文がすべて・
+ * リポスト/返信という区別がある）ので別スキーマにしている。
+ */
+export const xTweetSchema = z.object({
+  /** 投稿ID（timeline 上での一意キー。リポストならリポストした側のID） */
+  id: z.string().min(1),
+  /** 投稿そのものへのリンク。リポストなら元投稿へ飛ぶ */
+  url: z.url(),
+  /** 本文。t.co を表示用URLへ戻し、末尾の画像/動画リンクは落としてある。
+   *  画像だけの投稿では空になりうる */
+  text: z.string(),
+  /** ISO 8601（UTC）。リポストなら「リポストした時刻」 */
+  publishedAt: z.string().min(1),
+  /** 本文を書いた人。リポストなら元投稿者になる */
+  authorName: z.string().min(1),
+  authorHandle: z.string().min(1),
+  likeCount: z.number().int().nonnegative(),
+  /** リポストか。true のとき本文・いいね数・著者は元投稿のもの */
+  repost: z.boolean(),
+  /** 返信のときだけ、その宛先ハンドル */
+  replyTo: z.string().optional(),
+});
+export type XTweet = z.infer<typeof xTweetSchema>;
+
+/**
+ * data/x/<handle>.json の中身。
+ *
+ * FeedFile と同じく「失敗しても前回分を温存し stale/error だけ立てる」ため、
+ * tweets 以外にメタ情報を持つ。表示名や肩書きは lib/x-accounts.ts が持つので入れない。
+ */
+export const xTimelineFileSchema = z.object({
+  /** @ を除いたスクリーンネーム */
+  handle: z.string().min(1),
+  tweets: z.array(xTweetSchema),
+  fetchedAt: z.string().min(1),
+  stale: z.boolean(),
+  error: z.string().nullable(),
+});
+export type XTimelineFile = z.infer<typeof xTimelineFileSchema>;

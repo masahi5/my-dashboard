@@ -1,92 +1,38 @@
-"use client";
-
-import { useEffect, useRef, useState } from "react";
-import { ArrowUpRight, TriangleAlert } from "lucide-react";
-import { useTheme } from "next-themes";
-import { Card, CardHeader, CardTitle, CardDescription, CardAction } from "@/components/ui/card";
-import { Skeleton } from "@/components/ui/skeleton";
-import { isTimelineRendered, renderXTimeline } from "@/lib/x-widgets";
+import { ArrowUpRight, Heart, Inbox, Repeat2, Reply, TriangleAlert } from "lucide-react";
+import { RelativeTime } from "@/components/relative-time";
+import { Badge } from "@/components/ui/badge";
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { formatCount, formatJstFull } from "@/lib/format";
+import type { XTimelineFile } from "@/lib/schemas";
 import { X_TWEET_LIMIT, type XAccount } from "@/lib/x-accounts";
 
-type Status = "pending" | "ready" | "error";
+type XTimelineCardProps = {
+  account: XAccount;
+  timeline: XTimelineFile | null;
+  limit?: number;
+};
 
 /**
- * X の公式タイムラインウィジェットを1アカウント分表示するカード。
+ * X の1アカウント分のカード。Server Component。
  *
- * 他のウィジェットと違い、これだけはビルド時ではなくブラウザ側で中身を取りに行く
- * （X が API/RSS を閉じたため、無料で使えるのが公式ウィジェットだけ）。そのため:
- *   - 画面に入るまで初期化しない。12個のiframeを一斉に生成すると初期表示が固まる
- *   - 読み込めなかったときは必ずプロフィールへのリンクに退避する。
- *     広告ブロッカー・トラッキング防止・X 側の仕様変更で描画されないことは普通に起きる
+ * 以前は X の公式埋め込みウィジェットをブラウザ側で生成していたが、取得口の
+ * レート制限が「閲覧者のIP」にかかるため、開いても全部空という状態が常態化した。
+ * 今は Actions が取得した data/x/<handle>.json をビルド時に焼き込む
+ * （経緯は lib/sources/x-timeline.ts を参照）。他のフィードと同じ壊れ方をする。
  */
-export function XTimelineCard({ account }: { account: XAccount }) {
-  const slotRef = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
-  const [status, setStatus] = useState<Status>("pending");
-  const { resolvedTheme } = useTheme();
+export function XTimelineCard({ account, timeline, limit = X_TWEET_LIMIT }: XTimelineCardProps) {
+  const tweets = timeline?.tweets.slice(0, limit) ?? [];
   const profileUrl = `https://x.com/${account.handle}`;
 
-  // 画面に近づいたら初期化する（タブが非表示の間は交差が起きないので走らない）
-  useEffect(() => {
-    const slot = slotRef.current;
-    if (!slot) return;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries.some((entry) => entry.isIntersecting)) {
-          setVisible(true);
-          observer.disconnect();
-        }
-      },
-      // 少し手前から先読みする。深追いすると X のレート制限に当たるので控えめに
-      { rootMargin: "200px" },
-    );
-    observer.observe(slot);
-    return () => observer.disconnect();
-  }, []);
-
-  // 待ち時間切れで一度あきらめた後に描画が届くことがある（回線が細いときなど）。
-  // 高さが付いたら黙って本来の表示へ戻す。
-  useEffect(() => {
-    const slot = slotRef.current;
-    if (!slot) return;
-
-    const observer = new ResizeObserver(() => {
-      if (isTimelineRendered(slot)) setStatus("ready");
-    });
-    observer.observe(slot);
-    return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    if (!visible) return;
-    // next-themes が解決するまで待つ。undefined のまま作ると
-    // ダークで作り直しになり、ウィジェットが二度描画されて目立つ
-    if (!resolvedTheme) return;
-
-    const slot = slotRef.current;
-    if (!slot) return;
-
-    let cancelled = false;
-
-    renderXTimeline(account.handle, slot, {
-      tweetLimit: X_TWEET_LIMIT, // 最新5件だけ。スクロールしない静的な並びになる
-      theme: resolvedTheme === "light" ? "light" : "dark",
-      // 見出しとフッターは自前のカードで出すので消す。背景も透過してカードに馴染ませる
-      chrome: "noheader nofooter noborders transparent",
-      lang: "ja",
-      dnt: true, // 埋め込み経由の行動ターゲティングを無効化する
-    }).then((rendered) => {
-      if (!cancelled) setStatus(rendered ? "ready" : "error");
-    });
-
-    return () => {
-      cancelled = true;
-    };
-  }, [visible, resolvedTheme, account.handle]);
-
   return (
-    <Card className="flex h-full flex-col gap-3 [--card-spacing:--spacing(3)] sm:[--card-spacing:--spacing(4)]">
+    <Card className="flex h-full flex-col gap-4 [--card-spacing:--spacing(3)] sm:[--card-spacing:--spacing(4)]">
       <CardHeader>
         <CardTitle className="text-base">
           <a
@@ -103,56 +49,97 @@ export function XTimelineCard({ account }: { account: XAccount }) {
         </CardTitle>
         <CardDescription className="line-clamp-2 text-xs">{account.role}</CardDescription>
         <CardAction>
-          <a
-            href={profileUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`${account.name} のプロフィールを X で開く`}
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <ArrowUpRight className="size-4" />
-          </a>
+          {timeline?.stale ? (
+            <Badge variant="secondary" className="gap-1 text-amber-600 dark:text-amber-400">
+              <TriangleAlert /> 更新失敗
+            </Badge>
+          ) : (
+            <Badge variant="secondary">{tweets.length}件</Badge>
+          )}
         </CardAction>
       </CardHeader>
 
-      {/* iframe が入る場所。ウィジェット側が高さを決めるので指定しない */}
-      <div className="min-w-0 px-2">
-        <div ref={slotRef} />
-        {status === "pending" ? <TimelineSkeleton /> : null}
-        {status === "error" ? <TimelineFallback url={profileUrl} /> : null}
+      <CardContent className="flex-1">
+        {tweets.length === 0 ? (
+          <EmptyState url={profileUrl} />
+        ) : (
+          <ol className="divide-border/60 -my-1 divide-y">
+            {tweets.map((tweet) => (
+              <li key={tweet.id} className="py-2.5 first:pt-0 last:pb-0">
+                <a
+                  href={tweet.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group focus-visible:ring-ring block rounded-sm focus-visible:ring-2 focus-visible:outline-none"
+                >
+                  {/* リポスト・返信は「誰の言葉か」が変わるので必ず出す */}
+                  {tweet.repost ? (
+                    <p className="text-muted-foreground mb-1 flex items-center gap-1 text-[11px]">
+                      <Repeat2 className="size-3 shrink-0" />
+                      <span className="truncate">
+                        {tweet.authorName} @{tweet.authorHandle}
+                      </span>
+                    </p>
+                  ) : null}
+                  {!tweet.repost && tweet.replyTo ? (
+                    <p className="text-muted-foreground mb-1 flex items-center gap-1 text-[11px]">
+                      <Reply className="size-3 shrink-0" />
+                      <span className="truncate">@{tweet.replyTo} への返信</span>
+                    </p>
+                  ) : null}
+
+                  {/* 改行は投稿者の意図なので保つ。長文はカードが伸びすぎない位置で畳む */}
+                  <p className="group-hover:text-primary line-clamp-6 text-sm leading-relaxed whitespace-pre-line transition-colors">
+                    {tweet.text || "（画像・動画のみの投稿）"}
+                    <ArrowUpRight className="text-muted-foreground ml-1 inline size-3 shrink-0 align-baseline opacity-0 transition-opacity group-hover:opacity-100" />
+                  </p>
+
+                  <p className="text-muted-foreground mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs">
+                    <RelativeTime iso={tweet.publishedAt} />
+                    {tweet.likeCount > 0 ? (
+                      <span className="text-muted-foreground/80 inline-flex items-center gap-0.5">
+                        <Heart className="size-3" />
+                        {formatCount(tweet.likeCount)}
+                      </span>
+                    ) : null}
+                  </p>
+                </a>
+              </li>
+            ))}
+          </ol>
+        )}
+      </CardContent>
+
+      <div className="text-muted-foreground border-border/60 border-t px-(--card-spacing) pt-3 text-[11px]">
+        {timeline ? (
+          <>
+            最終取得 {formatJstFull(timeline.fetchedAt)}
+            {timeline.stale && timeline.error ? (
+              <span className="text-amber-600 dark:text-amber-400"> — {timeline.error}</span>
+            ) : null}
+          </>
+        ) : (
+          <code>npm run fetch</code>
+        )}
       </div>
     </Card>
   );
 }
 
-function TimelineSkeleton() {
+/**
+ * 空のときは必ず X への導線を残す。
+ * 鍵アカウント化・凍結・改名では取得できないので、ここから確認できるようにする。
+ */
+function EmptyState({ url }: { url: string }) {
   return (
-    <div className="space-y-4 px-2 py-2" aria-hidden>
-      {Array.from({ length: 3 }).map((_, i) => (
-        <div key={i} className="space-y-2">
-          <Skeleton className="h-3 w-1/3" />
-          <Skeleton className="h-3 w-full" />
-          <Skeleton className="h-3 w-4/5" />
-        </div>
-      ))}
-    </div>
-  );
-}
-
-function TimelineFallback({ url }: { url: string }) {
-  return (
-    <div className="text-muted-foreground flex flex-col items-center gap-2 px-2 py-8 text-center text-xs">
-      <TriangleAlert className="size-5 opacity-60" />
-      <p>
-        タイムラインを読み込めませんでした。
-        <br />
-        広告ブロッカーや X 側の制限が原因のことがあります。
-      </p>
+    <div className="text-muted-foreground flex flex-col items-center justify-center gap-2 py-10 text-center text-sm">
+      <Inbox className="size-6 opacity-50" />
+      <p>まだ投稿を取得できていません</p>
       <a
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-foreground hover:text-primary font-medium underline underline-offset-4"
+        className="text-foreground hover:text-primary text-xs font-medium underline underline-offset-4"
       >
         X で開く
       </a>

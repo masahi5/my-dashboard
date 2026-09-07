@@ -7,6 +7,7 @@ import { XTimelineCard } from "@/components/widgets/x-timeline-card";
 import { groupByCategory, readAllFeeds } from "@/lib/feeds";
 import { CATEGORY_LABELS, CATEGORY_ORDER } from "@/lib/schemas";
 import { X_ACCOUNT_GROUPS } from "@/lib/x-accounts";
+import { readAllXTimelines } from "@/lib/x-timelines";
 
 /** ウィジェットの並べ方はどのタブでも同じ。1画面に入る幅で段数を増やす */
 const GRID = "grid gap-3 sm:gap-4 md:grid-cols-2 xl:grid-cols-3";
@@ -15,6 +16,8 @@ export default function Home() {
   // ビルド時に data/*.json を全部読む。ソースを足せば自動でウィジェットが増える。
   const feeds = readAllFeeds();
   const grouped = groupByCategory(feeds);
+  // ツイートも同じくビルド時に読む（data/x/<handle>.json）
+  const xTimelines = readAllXTimelines();
 
   // 「いつ時点のダッシュボードか」を示すため、最も新しい取得時刻を採る
   const latestFetch = feeds.reduce<string | null>(
@@ -48,8 +51,9 @@ export default function Home() {
       };
     }),
 
-    // X はビルド時に取得できない（API/RSS が閉じている）ため、
-    // 中身の取得はブラウザ側の公式ウィジェットに任せる
+    // X も他のフィードと同じくビルド時に焼き込む。
+    // 埋め込みウィジェットをブラウザ側で動かす方式は、レート制限が閲覧者のIPに
+    // かかるせいで「開いても全部空」が常態化したのでやめた。
     {
       id: "x",
       label: "ツイート",
@@ -63,7 +67,11 @@ export default function Home() {
               </h3>
               <div className={GRID}>
                 {group.accounts.map((account) => (
-                  <XTimelineCard key={account.handle} account={account} />
+                  <XTimelineCard
+                    key={account.handle}
+                    account={account}
+                    timeline={xTimelines.get(account.handle.toLowerCase()) ?? null}
+                  />
                 ))}
               </div>
             </AnchorTarget>
@@ -104,8 +112,8 @@ export default function Home() {
       <DashboardTabs tabs={tabs} />
 
       <footer className="text-muted-foreground mt-10 text-xs">
-        GitHub Actions が15分ごとにフィードを取得し、GitHub Pages から静的配信しています。
-        ツイートは X の公式ウィジェットを使い、表示時にブラウザから読み込んでいます。
+        GitHub Actions が15分ごとにフィードとツイートを取得し、GitHub Pages
+        から静的配信しています。
       </footer>
     </main>
   );

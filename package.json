@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fetch": "tsx scripts/fetch-feeds.ts",
+    "fetch": "npm run fetch:feeds && npm run fetch:x",
+    "fetch:feeds": "tsx scripts/fetch-feeds.ts",
+    "fetch:x": "tsx scripts/fetch-x.ts",
     "icons": "tsx scripts/generate-icons.ts"
   },
   "dependencies": {
