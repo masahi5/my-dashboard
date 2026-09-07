@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "43cf1766a6cc",
-      "title": "Claude・ChatGPT・Gemini・Copilot・Notion AI・Kimiの使い分けを、スペックではなく判断軸で書く",
-      "url": "https://zenn.dev/ty1110/articles/ba5991eb9e016c",
-      "publishedAt": "2026-09-07T02:06:36.000Z",
-      "publisher": "ty1110",
-      "summary": "「結局どれを使えばいいのか」を、スペック比較ではなく判断軸で書きます。 理由は単純で、スペックで書くと腐るからです。この記事を書く前に比較記事を5サイト読み比べたのですが、バージョン番号が全部食い違っていました。 同じ「2026年最新」を…"
+      "id": "0c2bae1d4067",
+      "title": "承認を全部飛ばすモードで動かしていたら、自分で書いた hook に止められた",
+      "url": "https://zenn.dev/just_ryo/articles/52e2c845d6fdd6",
+      "publishedAt": "2026-09-07T10:48:44.000Z",
+      "publisher": "Ryo",
+      "summary": "深夜に、Claude Code に自分の売上の数字を集めさせていた。 ブラウザのクッキーを読むのに SQLite のファイルを一時コピーして、用が済んだら消す。それだけの後片付けのつもりだった。 止まった。 rm の再帰／強制削除は cl…"
     },
     {
-      "id": "d79ea85e0eb4",
-      "title": "GitHub Projectのプロジェクト管理はAIに丸投げする 〜人間はKanbanを眺めるだけ〜",
-      "url": "https://zenn.dev/yamitake/articles/github-projects-ai-project-management",
-      "publishedAt": "2026-09-07T01:58:37.000Z",
-      "publisher": "JJ yamitake",
-      "summary": "はじめに タスク管理に GitHub Projects を使っている人は多いと思います。私も使っています。Issue も PR も同じ場所にあって、コードとタスクが地続きなのが気持ちいい。 ただ、正直に言うと 「運用」がしんどい。ボードを…"
+      "id": "ae6e1e79d9ca",
+      "title": "Using OpenCode Go as a Backend for OpenAI Codex CLI",
+      "url": "https://zenn.dev/kuwashima/articles/codex-opencode-go-backend-en",
+      "publishedAt": "2026-09-07T10:27:24.000Z",
+      "publisher": "kuwashima",
+      "summary": "Using OpenCode Go as a Backend for OpenAI Codex CLI The OpenAI Codex CLI natively connects to OpenAI's official authent…"
     },
     {
-      "id": "c0345aa91a1f",
-      "title": "Agentic Loopをゼロから組んでみる",
-      "url": "https://zenn.dev/spookies/articles/09a7d61dfb8a14",
-      "publishedAt": "2026-09-07T01:40:05.000Z",
-      "publisher": "まっちゃてぃー。",
-      "summary": "普段、Claude CodeやCodexのようなコーディングエージェントを使っていると、 「中ではどうやって動いているんだろう？」 と気になることはないでしょうか。 ファイルを読む/書き換える コマンドを実行する 必要に応じて検索をしてみ…"
+      "id": "c38438a3db8a",
+      "title": "# くらべたら爆速 - Appleの新「Core AI」を実機ベンチ",
+      "url": "https://zenn.dev/mlboydaisuke/articles/f19d0e81ffbe5ce5672e",
+      "publishedAt": "2026-09-07T10:25:05.000Z",
+      "publisher": "Daisuke Majima (MLBoy)",
+      "summary": "Appleの新フレームワークでオンデバイスLLMをMLXと比較した 実際に比較してみるのって大切ですね。 どうせ遅いと思ってた。 使いやすいようにぬるい感じになってるんでしょって。 ゴリゴリ最適化されてるMLXとかの方が速いんでしょって。…"
     },
     {
-      "id": "2041d04d3234",
-      "title": "AIで速くなり、Game Jamの締切で完成した。VOLT NOMAD制作記",
-      "url": "https://zenn.dev/hirodeath/articles/volt-nomad-game-jam-postmortem",
-      "publishedAt": "2026-09-07T01:28:21.000Z",
-      "publisher": "ヒロ",
-      "summary": "2026年8月、AI Browser Game Jam 4に向けて、ブラウザゲーム『VOLT NOMAD』を作りました。 クリックで敵を攻撃し、同時に得たCHARGEを5系統のギアツリーへ投資するゲームです。最初は自分の入力が主力ですが、…"
+      "id": "0219566ead24",
+      "title": "Claude CodeでGA4のイベント計測漏れを自動検知・修正提案する仕組み",
+      "url": "https://zenn.dev/web_benriya/articles/claude-code-ga4-event-tracking-gap-detection",
+      "publishedAt": "2026-09-07T10:14:41.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに 「GA4のダッシュボードを見ても、どのデータが正しくてどこが欠けているのかわからない」——そんなお悩みを抱えていませんか？ GA4は柔軟なイベント設計が可能な反面、計測設定のミスや抜け漏れが発生しやすい仕組みでもあります。特にG…"
     },
     {
-      "id": "7a33a0cac317",
-      "title": "AI彼女アプリを作っていて気付いた。どうやら時代が追いついてきた",
-      "url": "https://zenn.dev/mitsukida/articles/31f9c30fd0cb90",
-      "publishedAt": "2026-09-07T01:22:31.000Z",
-      "publisher": "mitsukida",
-      "summary": "AI彼女アプリを作っていて気付いた。どうやら時代が追いついてきた 最初は、ただAIに記憶を持たせたかった。 昨日話したことを覚えていて、以前の会話を思い出してくれる。 それだけで、かなり人間らしくなると思っていた。 でも、AI彼女アプリを…"
+      "id": "a1c129d3974d",
+      "title": "【LN教】Agentが稼ぐための仕組みづくり",
+      "url": "https://zenn.dev/mayim/articles/8747f6a182ce16",
+      "publishedAt": "2026-09-07T10:00:05.000Z",
+      "publisher": "マイム",
+      "summary": "導入 前回の記事では、AI Agent市場というのは大衆がAgentで稼げるようになる世界であり、Agentに高度な命令をする必要がないという仮説を立て、そのようなAgent向けの仕事を掲載しました。 今回の記事はその結果と、次の仮説につ…"
     },
     {
-      "id": "efcef788d1b0",
-      "title": "承認ゲートをやめて、日次ニュース記事の本番反映を自動化した話",
-      "url": "https://zenn.dev/container_cms/articles/2df6a0552a63d9",
-      "publishedAt": "2026-09-07T01:19:28.000Z",
-      "publisher": "Container（コンテナ）",
-      "summary": "自社製CMS「Container」の製品サイトでは、AIモデルの新発表やWeb業界動向を毎朝9時に記事化して、検証に通ったものは承認なしでそのまま本番へ反映している。 この記事は、そこに至るまでの設計と、承認を外す代わりに何を厳しくしたか…"
+      "id": "019779e1b158",
+      "title": "AI 時代の希少資源の移り変わりについて考える",
+      "url": "https://zenn.dev/techbiz/articles/5e54ea486455d0",
+      "publishedAt": "2026-09-07T09:58:29.000Z",
+      "publisher": "ysk-ig",
+      "summary": "概要 技術情報を翻訳・要約して広める。日本のIT業界では、この営みが長らく価値ある貢献として扱われてきました。書籍の要約、ブログでの解説記事、SNSでの翻訳ポスト。多くのエンジニアが、こうした「読み解いて広げる人」を経由して新しい技術に触…"
     },
     {
-      "id": "d8bd80fa3e02",
-      "title": "Astraの正直さを測るテストに、空欄の答案を出してみた",
-      "url": "https://zenn.dev/hocky3/articles/13f970512e0eb1",
-      "publishedAt": "2026-09-07T01:11:41.000Z",
-      "publisher": "KML",
-      "summary": "Astraが人物の異名を問われたとき、推論テキスト（CoT）に書いたのは、机に差す日光と窓辺のマグカップの情景だった。 CoTは、答えに至る途中でモデルが生成する推論の文章だ。そこに危険な計画や不正の手がかりが残れば、別のAIや人間が作業…"
+      "id": "56a5ae4a4226",
+      "title": "街づくりシミュレーションに「ホテリングの法則」を実装したら、9割が計測との戦いだった",
+      "url": "https://zenn.dev/oggata/articles/f7e5a3d0617f69",
+      "publishedAt": "2026-09-07T09:52:52.000Z",
+      "publisher": "oggata",
+      "summary": "24時間配信している街のシミュレーションに、経済学の「ホテリングの法則」を入れてみました。 https://www.youtube.com/@mesa24h/live やりたかったのは単純で、ラーメン屋の隣にラーメン屋が建つ街です。実際の…"
     },
     {
-      "id": "318893a949bc",
-      "title": "AIエージェントと開発を始めたら、2スプリント目でストーリーポイントをやめた話",
-      "url": "https://zenn.dev/kokoroszk/articles/80ee41e124a1b7",
-      "publishedAt": "2026-09-07T00:46:59.000Z",
-      "publisher": "すずきこころ",
-      "summary": "この記事はヌーラボブログリレー2026 夏の16日目です。 私は、6月末にリリースされた Nulab Flowbase の開発をしています。リリース後にチームでスクラムを採用することになり、スクラムマスターとしてプロセスを整備しました。そ…"
+      "id": "1bd90904e814",
+      "title": "街のNPC20人に「記憶」を持たせたい — エージェントメモリの選定と、HonchoがRAGと何が違うのか",
+      "url": "https://zenn.dev/oggata/articles/7f317aad2675a4",
+      "publishedAt": "2026-09-07T09:52:34.000Z",
+      "publisher": "oggata",
+      "summary": "24時間配信している街のシミュレーションには、住民が100人います。それぞれが店に通い、友達になり、金を貸し、険悪になる。その出来事は chronicle.js に「来歴」として溜まっていきます。 https://www.youtube.…"
     },
     {
-      "id": "f3ef0b5f41cf",
-      "title": "分散データベースからOceanBase AIデータベースへ――OceanBaseの技術進化を読み解く",
-      "url": "https://zenn.dev/objp/articles/5b75983001c02d",
-      "publishedAt": "2026-09-07T00:43:02.000Z",
-      "publisher": "OceanBase",
-      "summary": "OceanBaseは、分散データベースから出発し、いまではAI時代に対応する新たな製品群へと進化しつつあります。本記事では、その技術的な歩みをたどります。 OceanBaseの製品進化 OceanBaseは2010年に分散データベースの開…"
+      "id": "6985eac11faa",
+      "title": "なぜ、AIが意識を持つのにシンギュラリティは不要なのか？",
+      "url": "https://zenn.dev/pdfractal/articles/bd3c53129b3a45",
+      "publishedAt": "2026-09-07T09:34:26.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに AIが人間より賢くなれば、やがて意識を持つのではないか。この考え方には一見すると自然な説得力があります。人間では高度な知能と意識が同じ個体に存在しているため、知能を伸ばしていけば、その延長線上に意識も存在するように感じるからです…"
     },
     {
-      "id": "aa4efe5e2567",
-      "title": "S3のデータをCodexからData Transformsで取り込んでみる【Oracle Data Studio MCP Server】",
-      "url": "https://zenn.dev/tack330/articles/344fede87f818e",
-      "publishedAt": "2026-09-07T00:22:02.000Z",
-      "publisher": "tack",
-      "summary": "はじめに Autonomous AI Database（以下、ADB）には、データの取り込み、変換、分析などを行うための「Data Studio」が用意されています。 AIエージェントのためのデータを整備していく中で、データの連携は重要で…"
+      "id": "0b9e1c619380",
+      "title": "GPT-6 Astraで業務の説明を図にする：比較・担当・情報の流れの描き分け",
+      "url": "https://zenn.dev/nihonbashi/articles/gpt-6-astra-business-diagrams",
+      "publishedAt": "2026-09-07T08:43:25.000Z",
+      "publisher": "Nihonbashi AI Lab",
+      "summary": "GPT-6 Astraに文章づくりを手伝ってもらい、特に印象に残ったのが図解を作る力でした。 業務の説明には、文章だけだと追いにくい関係があります。「変更前後で何が変わるか」「誰が次の作業をするか」「回答の根拠はどこから来るか」。こうした…"
     },
     {
-      "id": "a2dfcb4bfc3b",
-      "title": "Astraのリリースに合わせてAGENTS.mdを修正するなら「request_user_input」も使って体験良くチューニングしよう",
-      "url": "https://zenn.dev/cureapp/articles/9dd3298ce84b47",
-      "publishedAt": "2026-09-07T00:10:42.000Z",
-      "publisher": "yasuhiro.sakamoto",
-      "summary": "GPT-6 Astra がリリースされましたね。 新しいモデルがリリースされたらAGENTS.mdを新しいモデルの特性に合うように調整する作業をする人も多いのではないでしょうか？ よくやる手法が公式のベストプラクティスやガイダンスのページ…"
+      "id": "c4dbde8b1f9b",
+      "title": "AIを常時起動で運用すると、どこが壊れるか —— 止まり方カタログ",
+      "url": "https://zenn.dev/ai_shihan/articles/16997aaf194932",
+      "publishedAt": "2026-09-07T08:21:09.000Z",
+      "publisher": "ai_shihan",
+      "summary": "こんにちは、AI師範です。AIを組織のように使って、業務自動化ツールの製作と、その運用の引き継ぎ支援をしています。 AIを「聞かれたら答える」使い方から「常に起動しておいて、条件が揃ったら自分で動く」使い方へ寄せていくと、壊れ方の質が変わ…"
     },
     {
-      "id": "1c5b8389277a",
-      "title": "HTMLを社内共有するサービスを、コードを読まずに作る - 1人で25万行を回す自動運用の記録",
-      "url": "https://zenn.dev/coji/articles/solo-software-factory-without-reading-code",
-      "publishedAt": "2026-09-07T00:05:00.000Z",
-      "publisher": "Coji Mizoguchi",
-      "summary": "これはなに？ この記事は、「コードを読まなくても大丈夫」という話ではありません。コードを読まないと決めたぼくが、何につまずき、どんな仕組みを足し、何を作りすぎて捨てたのか。その試行錯誤から残った、仕様と実装のレビューループの話です。 HT…"
+      "id": "be7fd4cc0ae7",
+      "title": "Claude Code のサブエージェント権限は hook でも強制できない",
+      "url": "https://zenn.dev/erenoa6622/articles/readonly-subagent-not-enforced-by-tools",
+      "publishedAt": "2026-09-07T07:23:31.000Z",
+      "publisher": "ERENOA",
+      "summary": "! Claude Code のサブエージェントから Write を外して「読み取り専用」にしたのに、Bash が残っていれば書けてしまうと気づいた人向けです。公式が名指ししている解決策（PreToolUse hook）で塞ぎにいき、検証役…"
     }
   ],
-  "fetchedAt": "2026-09-07T13:31:39.109Z",
+  "fetchedAt": "2026-09-07T15:57:43.322Z",
   "stale": false,
   "error": null
 }

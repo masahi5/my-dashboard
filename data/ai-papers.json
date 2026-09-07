@@ -11,15 +11,7 @@
       "url": "https://huggingface.co/papers/2609.02750",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "summary": "Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through…",
-      "score": 74
-    },
-    {
-      "id": "8a3488940558",
-      "title": "Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue",
-      "url": "https://huggingface.co/papers/2609.04250",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "An avatar that holds a conversation should decide what to say and to move while saying it, yet these abilities live in …",
-      "score": 34
+      "score": 87
     },
     {
       "id": "ba826c634888",
@@ -27,6 +19,14 @@
       "url": "https://huggingface.co/papers/2609.03586",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same…",
+      "score": 21
+    },
+    {
+      "id": "bfa856d32eb2",
+      "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
+      "url": "https://huggingface.co/papers/2609.05258",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descr…",
       "score": 15
     },
     {
@@ -38,20 +38,20 @@
       "score": 14
     },
     {
-      "id": "bfa856d32eb2",
-      "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
-      "url": "https://huggingface.co/papers/2609.05258",
-      "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descr…",
-      "score": 13
-    },
-    {
       "id": "a03393cdfb4e",
       "title": "Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of Reasoning Operations in LLMs",
       "url": "https://huggingface.co/papers/2609.04753",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "summary": "Reasoning in large language models unfolds through diverse functional operations, such as problem formulation, goal dec…",
-      "score": 6
+      "score": 8
+    },
+    {
+      "id": "3c29b05c392a",
+      "title": "One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing",
+      "url": "https://huggingface.co/papers/2609.04190",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Video editing spans diverse editing paradigms, yet achieving high-quality instruction-guided and subject-guided editing…",
+      "score": 4
     },
     {
       "id": "7459a2a1547b",
@@ -62,12 +62,20 @@
       "score": 4
     },
     {
-      "id": "9ee212a94335",
-      "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
-      "url": "https://huggingface.co/papers/2609.04061",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful r…",
-      "score": 4
+      "id": "f540de173443",
+      "title": "τ^τ-Bench: An Environment for End-To-End, Realistic Agent Construction",
+      "url": "https://huggingface.co/papers/2609.04611",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "LLM agents are rapidly becoming production software, deployed to handle customer service, adjudicate disputes, and oper…",
+      "score": 3
+    },
+    {
+      "id": "1b2777aa2c22",
+      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+      "url": "https://huggingface.co/papers/2609.05415",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive…",
+      "score": 2
     },
     {
       "id": "fba4730a2554",
@@ -75,14 +83,6 @@
       "url": "https://huggingface.co/papers/2608.05879",
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "summary": "Text-driven 3D generation has advanced rapidly in creating large-scale outdoor environments and detailed indoor scenes,…",
-      "score": 2
-    },
-    {
-      "id": "f540de173443",
-      "title": "τ^τ-Bench: An Environment for End-To-End, Realistic Agent Construction",
-      "url": "https://huggingface.co/papers/2609.04611",
-      "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "LLM agents are rapidly becoming production software, deployed to handle customer service, adjudicate disputes, and oper…",
       "score": 2
     },
     {
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2609.04369",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Visual Place Recognition (VPR) localizes a query image by retrieving database images of the same or nearby place, yet i…",
-      "score": 1
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-09-07T13:31:38.921Z",
+  "fetchedAt": "2026-09-07T15:57:43.160Z",
   "stale": false,
   "error": null
 }
