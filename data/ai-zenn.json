@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "f560f817f5d5",
+      "title": "2026-08-14 今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-14-tech-daily",
+      "publishedAt": "2026-09-07T22:01:27.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 本日のトレンドは、LLM単体から業務特化AIエージェントへの重心移動です。具体的には、WAIC 2026やナレッジワーク、富士通、SAPの見出しが、業界特化LLMとマルチエージェントの実装競争を示しました。一方で、Vercel・AWS…"
+    },
+    {
+      "id": "a60b72767ba0",
+      "title": "AIレビューが細かすぎて使えない人へ。公式プロンプトにあった「報告させない」の1行",
+      "url": "https://zenn.dev/tmasuyama1114/articles/ai_review_what_not_to_report",
+      "publishedAt": "2026-09-07T21:30:46.000Z",
+      "publisher": "とまだ｜『Claude Codeで作って学ぶ』著者（増山友司）",
+      "summary": "AIにコードレビューを頼むと、細かい指摘が大量に返ってくることがあります。 命名や書き方の好みまで並んでいて、どれから直せばいいのか分からなくなる。 前に、わざとバグを入れたコードを3種類のAIレビューにかけて比べました。 そのうち1つだ…"
+    },
+    {
+      "id": "f200795e7cb6",
+      "title": "常駐型AIエージェントで退職者・異動者のアクセス権限を即座に失効させる設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-deprovisioning-design",
+      "publishedAt": "2026-09-07T21:13:17.000Z",
+      "publisher": "HACH",
+      "summary": "Slack / Teams / Chatworkなどに常駐して働くAIエージェントは、ユーザー本人になり代わって過去の会話・議事録・タスクを横断的に参照します。導入初期はメンバーの入れ替わりが少なく気にならないのですが、運用が長くなるほど…"
+    },
+    {
+      "id": "ff5db5961d00",
+      "title": "熊本地震の地震派解析(その0):データを集める",
+      "url": "https://zenn.dev/takeofuture/articles/b191dca9fa972e",
+      "publishedAt": "2026-09-07T20:39:34.000Z",
+      "publisher": "takeofuture",
+      "summary": "以前はSAR衛星のデータから熊本地震を解析しました。 https://zenn.dev/takeofuture/articles/06ef8ccd5064ad 今回は視点を変えて地震波の解析から地震解析をしてみます。地震波は観測点がいくつ…"
+    },
+    {
       "id": "cdea5b7ab7a2",
       "title": "「なぜそうなったのか、決めた会社にも説明できない」— AIを業務に入れた会社が失う説明責任",
       "url": "https://zenn.dev/exapolicy/articles/82ac7b510ae738",
@@ -68,41 +100,9 @@
       "publishedAt": "2026-09-07T14:20:51.000Z",
       "publisher": "Hikotty / Hikoto Iseda",
       "summary": "はじめに Amazon Bedrock AgentCore Memory は、AI エージェントに短期・長期の記憶を持たせるマネージドサービスです。短期記憶としての会話のイベントは actorId と sessionId で管理され、そこ…"
-    },
-    {
-      "id": "13d7e1db9830",
-      "title": "AI時代のSIerに生まれる5つの新職種と、SIerが消えない1つの理由",
-      "url": "https://zenn.dev/tabetaaaaaaa/articles/0d402c8d1b91a6",
-      "publishedAt": "2026-09-07T13:55:04.000Z",
-      "publisher": "たべたああああああ",
-      "summary": "0. はじめに 2040年の日本のIT業界に、こんな求人が出ていると想像してほしい。 会社規模拡大のため【AI管理責任者】募集しています。数名程度。 【オントロジスト】 / 【インテントエンジニア】 としてお客様と共に新しい業務を作ってい…"
-    },
-    {
-      "id": "011e4438369a",
-      "title": "Codex が自律的にモデルと effort を切り替えられるようにした",
-      "url": "https://zenn.dev/toybox19/articles/13c0ca2afaa8e0",
-      "publishedAt": "2026-09-07T13:27:37.000Z",
-      "publisher": "kai",
-      "summary": "! 今回実装したのは Codex 向けで、Claude Code 向けには実装していません 結論から ユーザーが場面ごとにモデルを選び直したり「続けて」と入力することはせずに、Codex のメインエージェントが、これから行う作業に応じてモ…"
-    },
-    {
-      "id": "f696c45f4909",
-      "title": "AIエージェントに自分の業務を渡して、何を渡さなかったか",
-      "url": "https://zenn.dev/kurow/articles/agent-delegation",
-      "publishedAt": "2026-09-07T13:22:26.000Z",
-      "publisher": "クロ",
-      "summary": "はじめに チャットは即応のための道具のはずですが、私は往復が1日1回で終わってしまうことがありました。 Alt + Tab でウィンドウを切り替えた拍子に既読になり、未読が消えます。読んでいないのに気づけません。Gmail、Google …"
-    },
-    {
-      "id": "bdbb2b27d9fe",
-      "title": "CodexのPetsはいらないと思っていたけれど、開発中の心の平穏に役立っている",
-      "url": "https://zenn.dev/t_tokunaga/articles/2026-09-07-codex-pets",
-      "publishedAt": "2026-09-07T13:07:15.000Z",
-      "publisher": "TakumiTOKUNAGA",
-      "summary": "Codexのペットを使用していますか？ 私はずっと、「開発ツールにペットって、いらないのでは？」と思っていました。コードを書いてもらって、変更を確認して、テストを回す。そのために使っているツールなので、画面にキャラクターを表示する機能には…"
     }
   ],
-  "fetchedAt": "2026-09-08T05:15:03.084Z",
+  "fetchedAt": "2026-09-08T09:46:12.434Z",
   "stale": false,
   "error": null
 }
