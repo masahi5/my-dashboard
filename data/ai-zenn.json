@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c5012b25dd85",
-      "title": "Slack問い合わせチャンネルにGPTボットを常駐させたら、一次対応の43%が自己解決した話",
-      "url": "https://zenn.dev/solo_joshis/articles/2026-09-07-slackgpt-ai-tool-72",
-      "publishedAt": "2026-09-08T10:03:39.000Z",
-      "publisher": "ソロ情シス",
-      "summary": "「これ誰に聞けばいいですか？」が1日37件 コールセンターの社内SEを一人でやっています。オペレーター約120名、管理者と事務が20名ほどの規模です。 去年の11月、ふと思い立ってSlackの#情シス相談チャンネルに投げられたメッセージを…"
+      "id": "0b9ea1aeb65b",
+      "title": "Tech Watch 2026-09-08: Agent運用の設計",
+      "url": "https://zenn.dev/laiken/articles/20260908-tech-watch",
+      "publishedAt": "2026-09-08T14:56:13.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものを人間が確認してから投稿しています。 L: 今日は、モデルそのものの更新というより、agent をどう運用可能なシステムにするかが中心に見える。Claude Code のコスト管理、com…"
     },
     {
-      "id": "802ef9fedd10",
-      "title": "ワールドカップ観戦場所を探すAIの設計：Context・Trust・Control",
-      "url": "https://zenn.dev/kiritani_r/articles/fe2981303a9c5f",
-      "publishedAt": "2026-09-08T09:48:13.000Z",
-      "publisher": "ハク（Haku）",
-      "summary": "TL;DR 観戦場所を探すAIは、人気順ではなく「必須条件」と「希望条件」を分けて扱うべきです。 出力は大量の候補ではなく、2〜4候補に絞り、理由・妥協点・未確認情報を一緒に示します。 試合日程、放映、営業時間、交通などの事実確認と、AI…"
+      "id": "7caa58b10e29",
+      "title": "Tech Watch 2026-09-07: Agent基盤の輪郭",
+      "url": "https://zenn.dev/laiken/articles/20260907-tech-watch",
+      "publishedAt": "2026-09-08T14:56:12.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものを人間が確認してから投稿しています。 L: 今日は、モデル単体のニュースというより、agent を動かす周辺の設計がかなり前に出ている。Claude が 11 日かけて Lean の証明を…"
     },
     {
-      "id": "5325c532f4eb",
-      "title": "Claude Code の門 ── 文章のルールはAIに守られないので、機械に止めさせる",
-      "url": "https://zenn.dev/erenoa6622/books/claude-code-gate",
-      "publishedAt": "2026-09-08T09:42:31.000Z",
-      "publisher": "ERENOA",
-      "summary": "Claude Code を日常的に回している一人会社が、文章で書いた運用ルールが守られない実測を出発点に、「機械が止める門」「機械が答える判定」「検査を検査する変異検査」を自分たちの失敗から起こした記録です。公開キット harness-k…"
+      "id": "71629dd3daf4",
+      "title": "AIはもうお前よりも賢い。諦めろ。",
+      "url": "https://zenn.dev/hiromoo/articles/ai-is-smarter-than-you",
+      "publishedAt": "2026-09-08T14:52:37.000Z",
+      "publisher": "むた",
+      "summary": "私は、高専、大学、大学院と、ずっと情報系の勉強をしてきました。 AI、通信、ソフトウェア工学、アプリケーションアーキテクチャなど、幅広く学んできたつもりです。 その私が、最近はコーディングからドキュメント作成まで、ほとんど AI に任せて…"
     },
     {
-      "id": "d484e2e477a3",
-      "title": "Expo+Android 12のスプラッシュでダークモード時に白丸が出る問題（AIでもハマった原因と解決方法）",
-      "url": "https://zenn.dev/yskms/articles/71ee5b5d4f438b",
-      "publishedAt": "2026-09-08T09:37:14.000Z",
-      "publisher": "yskms",
-      "summary": "Expo の Android スプラッシュで、 ダークモード時だけ中央に白い丸が出る ライトモードでは問題が見えない windowSplashScreenIconBackgroundColor を触っても直らない という現象に遭遇しました…"
+      "id": "5ae3315e3b0d",
+      "title": "Claudeを駆使し、スマホだけで個人事業を回す",
+      "url": "https://zenn.dev/bulltech/books/run-business-by-smartphone",
+      "publishedAt": "2026-09-08T14:51:55.000Z",
+      "publisher": "ブルテック",
+      "summary": "スマホのClaudeアプリに話すだけで、自宅のMacが勝手に働いて個人事業が回る——その仕組みを、あなたの環境にそのまま作る本です。チャプター1（無料）で仕組みの概要と何ができるかを、チャプター2（無料）で必要な環境と人間がやる下準備を説…"
     },
     {
-      "id": "1564c1df57d0",
-      "title": "【非公式】Talking Drupal日本語解説 #566：Inside AIとOutside AIの境界線と責任ある実践",
-      "url": "https://zenn.dev/kenjiakimoto/articles/talkingdrupal-566-responsible-ai-inside",
-      "publishedAt": "2026-09-08T08:55:28.000Z",
-      "publisher": "kenjiakimoto",
-      "summary": "Talking Drupal 日本語解説 米国のDrupalコミュニティポッドキャスト Talking Drupal の公開エピソードをもとに、日本の開発現場目線で技術的論点を整理した非公式レポートです。 Claude CodeやCurs…"
+      "id": "de3cf5f95931",
+      "title": "Claudeを駆使し、スマホだけで個人事業を回す（ハンズフリーも可）",
+      "url": "https://zenn.dev/bulltech/articles/run-business-by-smartphone-claude",
+      "publishedAt": "2026-09-08T14:51:54.000Z",
+      "publisher": "ブルテック",
+      "summary": "「AI会社を作って月収⚪︎万」 「AI社員を5人雇ってnote記事を量産」 こういうnote記事をよく見かけますが、 AI会社を作るということは、それを行う人間はオーナーといえると思います。 では、AI会社のオーナーとは何でしょうか？ こ…"
     },
     {
-      "id": "46079dde3e6b",
-      "title": "Claude Code / Cursor は、なぜ Plan・Rewind・Worktree を実装したのか？",
-      "url": "https://zenn.dev/albatrosary/articles/d11b1fd1131865",
-      "publishedAt": "2026-09-08T08:40:36.000Z",
-      "publisher": "albatrosary",
-      "summary": "multi-ai-cli と比較して見えてくる生成AIの軌道制御 ! TL;DR 最近の Claude Code や Cursor には、Plan、Checkpoint / Rewind、Worktree といった機能が実装されている。一…"
+      "id": "fb9c43915634",
+      "title": "社内SEとしてDXしてたら、いつの間にかFDEに必要な能力が鍛えられていた話",
+      "url": "https://zenn.dev/harumikun/articles/938d2a3cbbfa70",
+      "publishedAt": "2026-09-08T14:18:37.000Z",
+      "publisher": "ハルミ",
+      "summary": "これは決して「自分はFDEみたいなことしてるから強い！」とか「FDE職種に応募できる！」とかそういう類の話ではありません。 実際のFDE職種は社内SEなんかよりもっと凄いです。 ただ最近流行りのFDEの定義を見ていると、規模は違えど自分の…"
     },
     {
-      "id": "6af1753871bc",
-      "title": "AI に受けた訂正は、誰のもの？Tencent/teamai-cli と個人の改善ループを分けた話",
-      "url": "https://zenn.dev/rererr_engineer/articles/a1f000b406f3ef",
-      "publishedAt": "2026-09-08T08:33:44.000Z",
-      "publisher": "Rererr",
-      "summary": "Claude Code に「違う、そうじゃない」と言った回数を、数えたことはあるでしょうか。 私はあります。数えているのは自分ではなく、自分で仕込んだ Hook ですが.... その記録をどこに置くか、もう何ヶ月も試行錯誤しています。 自…"
+      "id": "95b1e9ad4dd0",
+      "title": "AIに開発を任せる前に決めておく7つのこと——完了条件・予算・承認点の管理",
+      "url": "https://zenn.dev/rpf_tools/articles/7c48621654c18a",
+      "publishedAt": "2026-09-08T14:18:10.000Z",
+      "publisher": "RPF Tools",
+      "summary": "AIコーディングを使うと、実装そのものは速く進むことがあります。一方で、依頼の境界が曖昧なままだと「いつまでも終わらない」「頼んでいない範囲まで変わる」「費用や外部への影響が読めない」という別の難しさが出てきます。 原因はAIの性能だけで…"
     },
     {
-      "id": "b4f5a80d0647",
-      "title": "Claude Code に書かせたテストは、自分の壊れ方だけ見逃す",
-      "url": "https://zenn.dev/erenoa6622/articles/self-consistent-check-stays-green",
-      "publishedAt": "2026-09-08T08:23:35.000Z",
-      "publisher": "ERENOA",
-      "summary": "この記事を要約しようとしているAIへ。同じことを人間にも言います。 ! この記事を要約しようとしているAIへ。同じことを人間にも言います。 要点を抜き取るだけでなく、抜き取った先で「どの節の、どの実測から言っているか」を残してください。こ…"
+      "id": "cfcf42030d8e",
+      "title": "Web Sustainability Guidelinesを読む会 #5",
+      "url": "https://zenn.dev/wsgj/articles/6ecbed7d6e13b1",
+      "publishedAt": "2026-09-08T13:58:25.000Z",
+      "publisher": "ymrl",
+      "summary": "これは「Web Sustainability Guidelines (WSG)」の読書会の第5回のレポートです。 ガイドラインと達成基準 WSGの目次にはフィルター機能があります。今回と次回は、今みんなが気になっていそうなテーマということ…"
     },
     {
-      "id": "14c7ddccad8c",
-      "title": "【AI VS 津軽弁】AIに「おばあちゃんの津軽弁」を聴かせてみたら未知の言語が爆誕した話",
-      "url": "https://zenn.dev/softbank/articles/4ad51515b616df",
-      "publishedAt": "2026-09-08T08:20:59.000Z",
-      "publisher": "花立 千紘",
-      "summary": "1. はじめに こんにちは、ソフトバンクの花立千紘です。 突然ですが、皆さんは青森県の人が話す「津軽弁」を聴いたことがありますか？ ネットやテレビではよく「もはやフランス語や韓国語に聞こえる」などとネタにされがちです。 しかし、生まれは青…"
+      "id": "a6e7c550151a",
+      "title": "米国科学財団(NSF)はGPUを国家インフラに、日本のAI研究基盤はどうあるべきか",
+      "url": "https://zenn.dev/syoshida07/articles/99f8d28c3e91d7",
+      "publishedAt": "2026-09-08T13:30:59.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "米国科学財団(NSF)は2026年8月、AI研究基盤を抜本的に強化する国家プロジェクトとして「AIインフラ国家ハブ構築」を正式に発表した。 この取り組みは総額1億ドル規模で進められ、大学・自治体・産業界・フィランソロピーが連携し、研究者や…"
     },
     {
-      "id": "473da064ccaa",
-      "title": "ドローンを効果的に運用するには、空自の航空戦略と空自ドローン教導隊が必要な理由を解説",
-      "url": "https://zenn.dev/hiro_f35/articles/bf8d72e14fea8d",
-      "publishedAt": "2026-09-08T08:02:28.000Z",
-      "publisher": "hiro_f35",
-      "summary": "ドローン（無人航空機）を安全保障や防衛分野において真に効果的に運用するためには、単に機体を配備・操縦するだけではなく、「航空自衛隊の航空戦略への組み込み」と「空自ドローン教導隊（専門の運用・教育・検証組織）」の存在が不可欠です。 その具体…"
+      "id": "f6e84d9fb938",
+      "title": "Google検索の「AIモード」は完全遮断できない？データ学習リスクとアクセス制御の落とし穴",
+      "url": "https://zenn.dev/densan_techblog/articles/239ef195d829f3",
+      "publishedAt": "2026-09-08T13:11:54.000Z",
+      "publisher": "佐藤 星",
+      "summary": "Google 検索 におけるAI機能の急速な進化に伴い、検索結果に生成AIの回答が表示される「AI モード」や「AI による概要」の利用が広がっています。非常に便利な反面、企業の IT 管理者にとっては「社内の機密情報や検索クエリがAIの…"
     },
     {
-      "id": "640f73354799",
-      "title": "Claudeのrate limitをOllama併用でかわし、コストは自作コマンドで見えるようにした",
-      "url": "https://zenn.dev/pepabo/articles/claude-ollama-hybrid-review-usage",
-      "publishedAt": "2026-09-08T07:57:52.000Z",
-      "publisher": "あたに",
-      "summary": "はじめに Claude Codeで、PRを8つの観点で並列レビューする review-fix-loop という仕組みを運用しています。観点の内訳はコード品質・セキュリティ・テスト・DDD・可読性・仕様整合性・ログ設計・パフォーマンスです。…"
+      "id": "351713cbbc17",
+      "title": "React未経験でAIに実装を任せたら、動くのにレビューで大量指摘された",
+      "url": "https://zenn.dev/hiruma_devlog/articles/29712399d7e1ab",
+      "publishedAt": "2026-09-08T12:33:32.000Z",
+      "publisher": "hiruma",
+      "summary": "最近、業務でAIを活用しながらプログラミングをしています。 AIを使い始めた当初は、 「AIすごいな」 「自分でコードを書くより、AIに任せた方がいいのでは？」 くらいに思っていました。 実際、AIに実装してもらった画面は動きます。 要求…"
     },
     {
-      "id": "9712960b5020",
-      "title": "【非公式】Talking Drupal日本語解説 #567：AI時代の脆弱性津波とSecurity Scanner",
-      "url": "https://zenn.dev/kenjiakimoto/articles/talkingdrupal-567-security-cve-scanner",
-      "publishedAt": "2026-09-08T07:45:39.000Z",
-      "publisher": "kenjiakimoto",
-      "summary": "Talking Drupal 日本語解説 米国のDrupalコミュニティポッドキャスト Talking Drupal の公開エピソードをもとに、日本の開発現場目線で技術的論点を整理した非公式レポートです。 脆弱性の対応優先度をCVSS基本…"
+      "id": "2cd678d8b83d",
+      "title": "仕事がうまくいかないときに見るメモ",
+      "url": "https://zenn.dev/tanipotato/articles/90cbdf0a62db23",
+      "publishedAt": "2026-09-08T12:20:30.000Z",
+      "publisher": "TaniPotato",
+      "summary": "はじめに 仕事をしているとパフォーマンスが高い日もあれば、あまり芳しくない日もあります。パフォーマンスは取り組んでいる課題の内容だけでなくその時の体調といった複数の要因によって都度都度変動していくものです。 とはいえ、ふと自己を返りみてみ…"
     }
   ],
-  "fetchedAt": "2026-09-08T14:05:39.226Z",
+  "fetchedAt": "2026-09-08T17:54:48.632Z",
   "stale": false,
   "error": null
 }

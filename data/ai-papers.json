@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "1e9a20505bf0",
-      "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
-      "url": "https://huggingface.co/papers/2609.00365",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, …",
-      "score": 121
-    },
-    {
       "id": "fa4b309e2a0a",
       "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
       "url": "https://huggingface.co/papers/2609.04010",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) st…",
-      "score": 34
+      "score": 63
     },
     {
       "id": "bc69abdfc4d0",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.03241",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "A reasoning model can improve from its own on-policy experience, but this inner loop is fragile: terminal verifiers pro…",
-      "score": 21
+      "score": 46
     },
     {
       "id": "3f9967dc6082",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.03756",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "We present ENEAS, a unified, text-promptable method for instance tracking and semantic discovery. Text-promptable segme…",
-      "score": 10
+      "score": 18
     },
     {
       "id": "d633fe7bc57c",
@@ -43,7 +35,7 @@
       "url": "https://huggingface.co/papers/2608.25936",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "summary": "On-policy distillation trains a language model on its own generations while a teacher scores them token by token. It co…",
-      "score": 9
+      "score": 10
     },
     {
       "id": "50451f66395b",
@@ -51,7 +43,15 @@
       "url": "https://huggingface.co/papers/2609.01281",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "Vision-language-action (VLA) models map visual observations and language instructions directly to robot actions, but lo…",
-      "score": 9
+      "score": 10
+    },
+    {
+      "id": "d4a02a268e42",
+      "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.02998",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher…",
+      "score": 8
     },
     {
       "id": "787d44937fcc",
@@ -62,19 +62,27 @@
       "score": 8
     },
     {
-      "id": "d4a02a268e42",
-      "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.02998",
+      "id": "3eb838122cfa",
+      "title": "Causal Foundation Models",
+      "url": "https://huggingface.co/papers/2609.03003",
       "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher…",
+      "summary": "Causal inference is the practice of estimating the effect of a treatment or intervention from data. It traditionally re…",
       "score": 7
     },
     {
-      "id": "e8c0d451c747",
-      "title": "Knowing What Not to Answer: Selective Non-Compliance in Vision-Language Models",
-      "url": "https://huggingface.co/papers/2609.04720",
-      "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "Vision-language models (VLMs) are expected to respond helpfully to appropriate requests while withholding compliance wi…",
+      "id": "d91daa00cc27",
+      "title": "Unifying Conformal Language Tasks with In-Context Ensembles",
+      "url": "https://huggingface.co/papers/2609.03005",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Many NLP tasks, such as summarization and extractive question answering, reduce to retrieving relevant content from doc…",
+      "score": 4
+    },
+    {
+      "id": "1483af67f785",
+      "title": "Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal",
+      "url": "https://huggingface.co/papers/2609.04482",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Safety alignment is usually posed as a topic-level question: is this subject harmful? Deployments ask a narrower one. A…",
       "score": 4
     },
     {
@@ -92,17 +100,9 @@
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "summary": "Change data synthesis provides a cost-effective solution for expanding training data and improving the performance of c…",
       "score": 3
-    },
-    {
-      "id": "58c1cdac3972",
-      "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
-      "url": "https://huggingface.co/papers/2609.04444",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to pu…",
-      "score": 3
     }
   ],
-  "fetchedAt": "2026-09-08T14:05:38.958Z",
+  "fetchedAt": "2026-09-08T17:54:48.548Z",
   "stale": false,
   "error": null
 }
