@@ -6,6 +6,70 @@
   "category": "ai",
   "items": [
     {
+      "id": "cdea5b7ab7a2",
+      "title": "「なぜそうなったのか、決めた会社にも説明できない」— AIを業務に入れた会社が失う説明責任",
+      "url": "https://zenn.dev/exapolicy/articles/82ac7b510ae738",
+      "publishedAt": "2026-09-07T17:19:33.000Z",
+      "publisher": "プロマネ武蔵",
+      "summary": "先日、ちょっとした違和感があった。 あるメーカーで製品をひとつ注文した。支払いも済んでいる。ところが数日後、同じ製品の購入ページをのぞくと、これから買う人向けの「お届け予定日」が、すでに支払った自分の注文より早い日付で表示されていた。先に…"
+    },
+    {
+      "id": "dc6253009c24",
+      "title": "AI時代のセマンティックレイヤーとしてのAAT【日本語版】",
+      "url": "https://zenn.dev/iroha1203/articles/9b1daac47c2411",
+      "publishedAt": "2026-09-07T15:31:20.000Z",
+      "publisher": "Hiroyuki Nakahata",
+      "summary": "本記事は、Hashnodeに公開したAI Reads Your Codebase. Then It Forgets Everything.の日本語版です AIがコードを読む。その理解を、どう残すか 「メール送信を共通の非同期キューに移して…"
+    },
+    {
+      "id": "aa83fba1423b",
+      "title": "LINEの新しいキーワードだけが全部無視される — ORDER BY created_atが引き起こした優先順位バグ",
+      "url": "https://zenn.dev/hideki_tamae/articles/line-keyword-priority-bug",
+      "publishedAt": "2026-09-07T15:24:59.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに 出版記念の特典を、公式LINEのキーワード応答で配布している。「魔法のランプ」「3つの願い」のような合言葉を送ると、対応するPDFが届く仕組みだ。 今回、新しく6つの特典と6つのキーワードを追加した。ところがテストしてみると、新…"
+    },
+    {
+      "id": "8e969464559f",
+      "title": "エージェントに17役職の組織図を持たせて8ヶ月動かしたら、割り当ての98.3%が1役職に集中した",
+      "url": "https://zenn.dev/hitokraft/articles/agent-org-chart-concentration",
+      "publishedAt": "2026-09-07T15:15:33.000Z",
+      "publisher": "hitokraft",
+      "summary": "AIエージェントを複数動かす基盤を自作して、8ヶ月ほど運用しています。役職を17個、部署を11個定義しました。実際にどう使われたかを台帳から数えたら、572件の割り当てのうち562件（98.3%）が1つの役職に集中していて、14役職は割り…"
+    },
+    {
+      "id": "4291b972cb5d",
+      "title": "擬似AGENTS.local.mdを読み込ませる",
+      "url": "https://zenn.dev/nana/articles/4c2f165fe9a641",
+      "publishedAt": "2026-09-07T14:41:34.000Z",
+      "publisher": "Ugo",
+      "summary": "課題 AGENTS.local.md が公式でサポートされていない。 https://github.com/openai/codex/issues/28739 でも、ローカルだけで反映させて動きを見たい。 AIの運用はしばらく使って分かる…"
+    },
+    {
+      "id": "0b4419cb39cc",
+      "title": "その「Obsidian×AI」、Obsidianは何もしていない｜245MBの索引がElectronに封じられている話",
+      "url": "https://zenn.dev/hirajo/articles/obsidian-index-ai-cannot-see",
+      "publishedAt": "2026-09-07T14:24:22.000Z",
+      "publisher": "平城寿の開発ブログ",
+      "summary": "Obsidian に AI を組み合わせて「第二の脳」を作る、というやり方が広まっています。Vault を Cursor や Claude Code に読ませて、蓄積したノートを検索させる構成です。 自分の環境でこれがほとんど機能していな…"
+    },
+    {
+      "id": "e6fd9c3243a1",
+      "title": "ローカルCoding Agentの検証記録",
+      "url": "https://zenn.dev/gyu07/articles/d6afd6715c7764",
+      "publishedAt": "2026-09-07T14:21:34.000Z",
+      "publisher": "遠藤 崇史 | ROUTE06",
+      "summary": "! 本記事は、dev.toに公開した\"Why My Local Coding Agent Could Act but Couldn't Finish\"を日本語向けに一部再構成したものです。 Note この記事は2026年4月に検証した内容…"
+    },
+    {
+      "id": "1b19e373dc24",
+      "title": "AgentCore Memory のカスタムネームスペース変数でテナント別のメモリー分離を検証する",
+      "url": "https://zenn.dev/aws_japan/articles/agentcore-memory-custom-namespace",
+      "publishedAt": "2026-09-07T14:20:51.000Z",
+      "publisher": "Hikotty / Hikoto Iseda",
+      "summary": "はじめに Amazon Bedrock AgentCore Memory は、AI エージェントに短期・長期の記憶を持たせるマネージドサービスです。短期記憶としての会話のイベントは actorId と sessionId で管理され、そこ…"
+    },
+    {
       "id": "13d7e1db9830",
       "title": "AI時代のSIerに生まれる5つの新職種と、SIerが消えない1つの理由",
       "url": "https://zenn.dev/tabetaaaaaaa/articles/0d402c8d1b91a6",
@@ -36,73 +100,9 @@
       "publishedAt": "2026-09-07T13:07:15.000Z",
       "publisher": "TakumiTOKUNAGA",
       "summary": "Codexのペットを使用していますか？ 私はずっと、「開発ツールにペットって、いらないのでは？」と思っていました。コードを書いてもらって、変更を確認して、テストを回す。そのために使っているツールなので、画面にキャラクターを表示する機能には…"
-    },
-    {
-      "id": "3b36e209b38e",
-      "title": "AIに「いつかやりたい」を貯めさせても動けなかった。表を地図に変えたら、次の行き先が決まった",
-      "url": "https://zenn.dev/kentaro_tak/articles/ai-wishlist-table-to-map",
-      "publishedAt": "2026-09-07T12:53:20.000Z",
-      "publisher": "kentaro",
-      "summary": "家の面倒ごとを自作ツールで潰す作業を1年ほど続けていて、その大半をAIと一緒にやっている。会話の中で決めたこと、踏んだ罠、本人の好みは、Claude Code の memory に貯まっていく。 そこに「いつかやりたい」も混ざる。「今度こ…"
-    },
-    {
-      "id": "2a802ff4b74b",
-      "title": "AIコーディングエージェントにIssueを読ませるだけで秘密が漏れる。GitHub Actionsの失敗例",
-      "url": "https://zenn.dev/tama_program/articles/4c8c7ada73aa41",
-      "publishedAt": "2026-09-07T12:28:16.000Z",
-      "publisher": "たまです。",
-      "summary": "どうもー！たまです。 最近、AIコーディングエージェントの話を見ていると、どのモデルが賢いかより先に、何を読ませて、何を実行させているのかを考えた方がいいなと思うことが増えました。 GitHub IssueやPull Requestの本文…"
-    },
-    {
-      "id": "ee12102e1c8d",
-      "title": "Astra時代のコードファースト3Dモデリング",
-      "url": "https://zenn.dev/koher/articles/code-first-3d-modeling",
-      "publishedAt": "2026-09-07T12:10:26.000Z",
-      "publisher": "Yuta Koshizawa",
-      "summary": "GPT-6 Astraがリリースされ、XはAstraが作ったハイクオリティ3Dシーンの動画であふれています。それらの多くは、MCP経由でAstraにBlenderなどの3Dモデリングソフトを使わせ実現されたものです。アプリの中で直接コード…"
-    },
-    {
-      "id": "924f86b53a08",
-      "title": "Claude Fable 5.1のtool_choice仕様と400エラー対策",
-      "url": "https://zenn.dev/sunsun_eng/articles/claude-fable-5-1-tool-choice-error",
-      "publishedAt": "2026-09-07T11:52:46.000Z",
-      "publisher": "すんすん",
-      "summary": "Claude Fable 5.1のtool_choice仕様と400エラー対策 この記事の要点 Claude Fable 5.1では、拡張思考（Extended Thinking）を有効にした状態でtool_choiceにanyや特定ツー…"
-    },
-    {
-      "id": "b8615214dc9a",
-      "title": "アイアンマンのジャービスを作ろうとしたら、賢さの問題じゃなかった",
-      "url": "https://zenn.dev/motimotinotch/articles/548af60e4059c4",
-      "publishedAt": "2026-09-07T11:42:59.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "アイアンマンのジャービスをご存知だろうか。 トニー・スタークの屋敷とスーツに住んでいる、声だけのAIだ。計算をやり、状況を報告し、スーツの製造を回し、ときどき皮肉を言う。 先に断っておくと、この記事は夏休みの自由研究くらいの温度感で読んで…"
-    },
-    {
-      "id": "d126adaf90e9",
-      "title": "限られた時間で丁寧に作るため、最初に諦めていること",
-      "url": "https://zenn.dev/bitou_engineer/articles/606094da119cc5",
-      "publishedAt": "2026-09-07T11:30:21.000Z",
-      "publisher": "微糖エンジニア",
-      "summary": "「もう少しきれいにできる」が、いちばん困ります。 責務は分けた。名前も考えた。必要な振る舞いを確認するテストもある。それでも、もう一段整理できそうな気がする。共通化できそうな処理も見つかります。 そこへAIエージェントがいると、「この部分…"
-    },
-    {
-      "id": "0c2bae1d4067",
-      "title": "承認を全部飛ばすモードで動かしていたら、自分で書いた hook に止められた",
-      "url": "https://zenn.dev/just_ryo/articles/52e2c845d6fdd6",
-      "publishedAt": "2026-09-07T10:48:44.000Z",
-      "publisher": "Ryo",
-      "summary": "深夜に、Claude Code に自分の売上の数字を集めさせていた。 ブラウザのクッキーを読むのに SQLite のファイルを一時コピーして、用が済んだら消す。それだけの後片付けのつもりだった。 止まった。 rm の再帰／強制削除は cl…"
-    },
-    {
-      "id": "ae6e1e79d9ca",
-      "title": "Using OpenCode Go as a Backend for OpenAI Codex CLI",
-      "url": "https://zenn.dev/kuwashima/articles/codex-opencode-go-backend-en",
-      "publishedAt": "2026-09-07T10:27:24.000Z",
-      "publisher": "kuwashima",
-      "summary": "Using OpenCode Go as a Backend for OpenAI Codex CLI The OpenAI Codex CLI natively connects to OpenAI's official authent…"
     }
   ],
-  "fetchedAt": "2026-09-08T00:35:12.925Z",
+  "fetchedAt": "2026-09-08T05:15:03.084Z",
   "stale": false,
   "error": null
 }

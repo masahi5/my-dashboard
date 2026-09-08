@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "4cccd342c8fb",
-      "title": "Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems",
-      "url": "https://huggingface.co/papers/2609.02750",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through…",
-      "score": 94
-    },
-    {
-      "id": "ba826c634888",
-      "title": "The Attention Triangle in Audio-Video Models",
-      "url": "https://huggingface.co/papers/2609.03586",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same…",
-      "score": 25
+      "id": "1e9a20505bf0",
+      "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
+      "url": "https://huggingface.co/papers/2609.00365",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, …",
+      "score": 40
     },
     {
       "id": "1b2777aa2c22",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.05415",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "summary": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive…",
-      "score": 12
+      "score": 13
     },
     {
       "id": "a03393cdfb4e",
@@ -38,14 +30,6 @@
       "score": 10
     },
     {
-      "id": "1e9a20505bf0",
-      "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
-      "url": "https://huggingface.co/papers/2609.00365",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, …",
-      "score": 8
-    },
-    {
       "id": "3c29b05c392a",
       "title": "One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing",
       "url": "https://huggingface.co/papers/2609.04190",
@@ -54,12 +38,20 @@
       "score": 6
     },
     {
-      "id": "7459a2a1547b",
-      "title": "Training-Free Speech-Centric Omni Understanding with Frozen VLMs",
-      "url": "https://huggingface.co/papers/2609.04242",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Audio-visual understanding remains challenging because models must jointly interpret spoken content, visual events, and…",
+      "id": "d4a02a268e42",
+      "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.02998",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher…",
       "score": 4
+    },
+    {
+      "id": "a12a64bd9082",
+      "title": "Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing",
+      "url": "https://huggingface.co/papers/2608.24263",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "summary": "Change data synthesis provides a cost-effective solution for expanding training data and improving the performance of c…",
+      "score": 3
     },
     {
       "id": "58c1cdac3972",
@@ -67,14 +59,6 @@
       "url": "https://huggingface.co/papers/2609.04444",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to pu…",
-      "score": 3
-    },
-    {
-      "id": "fba4730a2554",
-      "title": "To See a World in a Living Context: Unified Indoor-Outdoor Urban World Generation",
-      "url": "https://huggingface.co/papers/2608.05879",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Text-driven 3D generation has advanced rapidly in creating large-scale outdoor environments and detailed indoor scenes,…",
       "score": 3
     },
     {
@@ -100,9 +84,25 @@
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "The ambition of the 2025 PNPL competition (Landau et al., 2025) was to launch a multi-year curriculum for non-invasive …",
       "score": 2
+    },
+    {
+      "id": "e09bf671e13d",
+      "title": "What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation",
+      "url": "https://huggingface.co/papers/2609.03254",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Large Language Models (LLMs) often help users generate artifacts through iterative cycles of generation and revision in…",
+      "score": 1
+    },
+    {
+      "id": "787d44937fcc",
+      "title": "Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
+      "url": "https://huggingface.co/papers/2609.03729",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Despite the remarkable prowess of Vision-Language Models (VLMs) in general multimodal tasks, they remain fundamentally …",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-08T00:35:12.846Z",
+  "fetchedAt": "2026-09-08T05:15:02.932Z",
   "stale": false,
   "error": null
 }
