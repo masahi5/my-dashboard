@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.04010",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) st…",
-      "score": 74
+      "score": 97
     },
     {
       "id": "bc69abdfc4d0",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.03241",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "A reasoning model can improve from its own on-policy experience, but this inner loop is fragile: terminal verifiers pro…",
-      "score": 58
+      "score": 72
     },
     {
       "id": "3f9967dc6082",
@@ -27,7 +27,15 @@
       "url": "https://huggingface.co/papers/2609.03756",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "We present ENEAS, a unified, text-promptable method for instance tracking and semantic discovery. Text-promptable segme…",
-      "score": 26
+      "score": 33
+    },
+    {
+      "id": "3eb838122cfa",
+      "title": "Causal Foundation Models",
+      "url": "https://huggingface.co/papers/2609.03003",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Causal inference is the practice of estimating the effect of a treatment or intervention from data. It traditionally re…",
+      "score": 11
     },
     {
       "id": "d633fe7bc57c",
@@ -46,28 +54,12 @@
       "score": 10
     },
     {
-      "id": "3eb838122cfa",
-      "title": "Causal Foundation Models",
-      "url": "https://huggingface.co/papers/2609.03003",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Causal inference is the practice of estimating the effect of a treatment or intervention from data. It traditionally re…",
-      "score": 9
-    },
-    {
       "id": "d4a02a268e42",
       "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
       "url": "https://huggingface.co/papers/2609.02998",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "summary": "On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher…",
-      "score": 9
-    },
-    {
-      "id": "787d44937fcc",
-      "title": "Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
-      "url": "https://huggingface.co/papers/2609.03729",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Despite the remarkable prowess of Vision-Language Models (VLMs) in general multimodal tasks, they remain fundamentally …",
-      "score": 8
+      "score": 10
     },
     {
       "id": "d91daa00cc27",
@@ -86,6 +78,14 @@
       "score": 4
     },
     {
+      "id": "bfb6ff24e496",
+      "title": "Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys",
+      "url": "https://huggingface.co/papers/2609.04382",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "We present a systems-security case study of a two-node split-LLM training system whose privacy evaluation passed while …",
+      "score": 3
+    },
+    {
       "id": "e09bf671e13d",
       "title": "What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation",
       "url": "https://huggingface.co/papers/2609.03254",
@@ -102,7 +102,7 @@
       "score": 3
     }
   ],
-  "fetchedAt": "2026-09-08T20:39:49.118Z",
+  "fetchedAt": "2026-09-08T22:59:05.822Z",
   "stale": false,
   "error": null
 }

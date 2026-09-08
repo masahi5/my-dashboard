@@ -6,6 +6,34 @@
   "category": "callcenter",
   "items": [
     {
+      "id": "a915681fdb83",
+      "title": "「AI検出」を「不正」と見なす危険 “Claude電子透かし”の技術的限界と企業の正しい運用設計",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/09/news013.html",
+      "publishedAt": "2026-09-08T22:00:00.000Z",
+      "summary": "AnthropicがClaudeへの導入を決めたテキスト電子透かし。検出結果のみでAI不正利用を判断すると正規利用者の負担となる懸念がある。透かし技術の実態とEU規制の意図をひもとき、企業が講じるべき現実的な運用設計を考える。"
+    },
+    {
+      "id": "2b20e750abef",
+      "title": "Teamsの外部連携を悪用した「偽ヘルプデスク攻撃」 侵入の手口と対策を解説",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/09/news028.html",
+      "publishedAt": "2026-09-08T22:00:00.000Z",
+      "summary": "Teamsの外部連携を悪用するサイバー攻撃について、Microsoftが注意を呼び掛けている。ヘルプデスクを装って利用者に遠隔操作を許可させ、バックドアを設置して企業網へ侵入・横展開を図る。その詳細な侵入プロセスと対策をまとめた。"
+    },
+    {
+      "id": "2d20fd6af757",
+      "title": "\"架空のおにぎり店\"の成長物語に学ぶ、サーバレスで起きる「成長痛」への対処法",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/09/news011.html",
+      "publishedAt": "2026-09-08T22:00:00.000Z",
+      "summary": "サーバレスアーキテクチャは小規模ビジネスの立ち上げから世界展開まで対応できる。だが規模の拡大とともに、システムは「成長痛」に突き当たる。架空のおにぎり店の成長物語になぞらえてAWS Japanが説いた、5つの乗り越え方とは。"
+    },
+    {
+      "id": "eaf2c9ff04e5",
+      "title": "Geminiを抜き2位へ 縮小する生成AI市場で利用者を増やした意外なアプリ",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/09/news032.html",
+      "publishedAt": "2026-09-08T22:00:00.000Z",
+      "summary": "米国の生成AIチャットbotアプリ市場は成長の鈍化が続いている。大半のアプリが利用者を減らした2026年8月、逆に利用者を増やし、GoogleのGeminiを抜いて2位に浮上したアプリがある。首位ChatGPTを追う新たな2番手はどれか。"
+    },
+    {
       "id": "d1d07dc187c7",
       "title": "Microsoftが9月セキュリティ更新を発表 クラウドサービス複数でCVSS 10.0を含む脆弱性を修正",
       "url": "https://www.itmedia.co.jp/enterprise/articles/2609/08/news022.html",
@@ -60,37 +88,9 @@
       "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news049.html",
       "publishedAt": "2026-09-07T02:20:00.000Z",
       "summary": "IBMが「人とデジタルワーカーの協働」について自社のユースケースを説明するとともに、これからの企業経営の在り方を示した。AIによる成果の全社展開を阻む4つの課題の解消方法とともに紹介し、考察する。"
-    },
-    {
-      "id": "23f3720524f5",
-      "title": "SalesforceがClaudeのプラグインになる日 “SaaSの死”は現実になるのか",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/06/news003.html",
-      "publishedAt": "2026-09-07T01:00:00.000Z",
-      "summary": "生成AIが業務アプリケーションの画面を不要にするという“SaaSの死”論争が続いている。そのさなか、SalesforceはAnthropicとの戦略的提携を拡大し、Claudeforceを発表した。自らAIの中へ入るという選択の狙いはどこ…"
-    },
-    {
-      "id": "04fa7db3d49c",
-      "title": "API遅延を12秒から0.15秒へ TBSが「ラヴィット！」6万人配信で挑んだ高速化とAI活用",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/16/news002.html",
-      "publishedAt": "2026-09-07T00:20:00.000Z",
-      "summary": "TBSは「ラヴィット！ 忘年会」への6万人規模のアクセス集中という巨大な壁を、いかにして克服し安定した双方向体験を実現したのか。API応答を0.15秒へ爆速化させたサーバレス設計と、生成AIによる高速チャット監視の裏側を紹介する。"
-    },
-    {
-      "id": "df100719c6b1",
-      "title": "ServiceNowが「セキュリティ企業」になる理由 大型買収の裏にある勝算",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news027.html",
-      "publishedAt": "2026-09-06T22:00:00.000Z",
-      "summary": "AIによって脆弱性の発覚から悪用までの猶予は数カ月から数時間に縮んだ。人手頼みのセキュリティ運用が限界を迎える中、ServiceNowが「自律型セキュリティ」構想と6つの統合ソリューションを打ち出した。資産管理を中核としてきた同社が、なぜ…"
-    },
-    {
-      "id": "a7edd5c2a7d0",
-      "title": "「パッチを全部当てる」時代の終焉 Check PointのCTOが語る、AI時代の脆弱性管理",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news015.html",
-      "publishedAt": "2026-09-06T22:00:00.000Z",
-      "summary": "生成AIの進化に伴い脆弱性の発見と悪用が進む中、「全脆弱性にパッチを当てる」従来型の対策は限界を迎えているという。Check PointのCTOらが、継続的な脅威管理「CTEM」とAIを活用したアプローチを語る。"
     }
   ],
-  "fetchedAt": "2026-09-08T20:39:51.182Z",
+  "fetchedAt": "2026-09-08T22:59:07.661Z",
   "stale": false,
   "error": null
 }
