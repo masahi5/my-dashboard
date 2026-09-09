@@ -6,6 +6,70 @@
   "category": "ai",
   "items": [
     {
+      "id": "eefd16f42978",
+      "title": "最近のClaude Code Desktop、使いやすさマシマシです！",
+      "url": "https://zenn.dev/goat_eat_any/articles/claude-code-desktop-app",
+      "publishedAt": "2026-09-08T17:21:45.000Z",
+      "publisher": "たなちゅー",
+      "summary": "はじめに Claude CodeをまだCLIで使用していませんか？Claude Code Desktop、昔は使えるコマンドが少なかったり、そもそも重かったりなど使いにくかったですが、最近めっちゃ使いやすくなってます！ 思いつくままに、C…"
+    },
+    {
+      "id": "74fc59089d94",
+      "title": "「トークンが余ってもったいない」病を治す方法",
+      "url": "https://zenn.dev/ishiharu/articles/anti-token-maxxing",
+      "publishedAt": "2026-09-08T17:09:02.000Z",
+      "publisher": "いしはる",
+      "summary": "あのゲージを空っぽにするまで寝られない ClaudeやCodexの利用状況を見て、「今週まだこんなに残っている！リセットまでに全部使わないともったいない！！！」と思ったことありませんか。 サブスクはもう払っているし、使えるものは使ったほう…"
+    },
+    {
+      "id": "fa166dee2725",
+      "title": "NVIDIAのHugging Face買収を、AIモデル競争の外側から読む",
+      "url": "https://zenn.dev/leading_ai/articles/nvidia-hugging-face-acquisition",
+      "publishedAt": "2026-09-08T16:53:08.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "序章：GPUを売る会社が、GPUは要らないと書いた 2026年9月3日、NVIDIAのCEOジェンスン・フアンが、自社ブログで買収を発表した。 NVIDIA CEO：Jensen Huang氏 https://blogs.nvidia.c…"
+    },
+    {
+      "id": "ccc65326f8aa",
+      "title": "1つ直すたびに3つ見つかる ── スパイラルモデルでもヤクの毛刈りでもない「スパイラルエンジニアリング」",
+      "url": "https://zenn.dev/motimotinotch/articles/fe03599cb78408",
+      "publishedAt": "2026-09-08T16:47:27.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "個人開発でこういう日があった。 朝の予定は1つ。「新規登録ボタンを見出しの横に移す」。前日に決めていたタスクで、10分で終わる見込みだった。その日の終わりに振り返ったら、9つの修正が積まれていた。ボタンの移設から始まって、既存のCSSバグ…"
+    },
+    {
+      "id": "f023725714a7",
+      "title": "AIの「できる・できない」を、ベンチマークではなく326の仕事で数えた",
+      "url": "https://zenn.dev/viewsengineer/articles/ai-capability-atlas-2026",
+      "publishedAt": "2026-09-08T16:26:45.000Z",
+      "publisher": "viewsengineer",
+      "summary": "AIの能力は、毎月スコアが更新されます。SWE-bench、Humanity's Last Exam、ARC-AGI、OSWorld。数字は伸び続けています。 でも、そのスコアを見て「じゃあ自分の契約書レビューは任せられるのか」に答えられ…"
+    },
+    {
+      "id": "78a259a4887a",
+      "title": "PriorBand 論文解説：「良さそうな設定」から始める実用的なハイパーパラメータ探索",
+      "url": "https://zenn.dev/mantis_ryuji/articles/11f430ff0e0023",
+      "publishedAt": "2026-09-08T15:58:05.000Z",
+      "publisher": "mantis_ryuji",
+      "summary": "1. はじめに 深層学習のハイパーパラメータを調整するとき、私たちは完全な白紙から探索を始めるわけではない。論文の推奨値、公式実装のデフォルト、似たデータセットでうまくいった設定など、多少なりとも手がかりを持っている。 例えば、学習率は …"
+    },
+    {
+      "id": "a84566e44e1d",
+      "title": "【第 2 回】AI のハルシネーションとの戦い — 29機能すべてが SUCCESSFUL で、認証バイパスが通った",
+      "url": "https://zenn.dev/highfar/articles/all-green-and-auth-bypass-survived",
+      "publishedAt": "2026-09-08T15:52:11.000Z",
+      "publisher": "highfar",
+      "summary": "第 2 回（末尾に連載の一覧があります） 前回、Kani が保証するのは制約と実装の無矛盾性であって、その制約に価値があるか（妥当性）ではない、と書きました。 今回はその実例です。AI に生成させた業務アプリ 29 機能・検証ハーネス 4…"
+    },
+    {
+      "id": "6530efe3b50a",
+      "title": "「エラーが出ない失敗」が、いちばん怖かった",
+      "url": "https://zenn.dev/hanamilo/articles/d0aede491664a1",
+      "publishedAt": "2026-09-08T15:40:09.000Z",
+      "publisher": "hanamilo",
+      "summary": "エラーは、教えてくれるほうだった 社内向けのWebツールを、半年かけて作った。 Claudeとチャットで対話しながら、少しずつ。私は現場の人間で、専門の開発者ではない。 そのあいだに、山ほど失敗した。 ただ、いちばん怖かったのは、エラーが…"
+    },
+    {
       "id": "0b9ea1aeb65b",
       "title": "Tech Watch 2026-09-08: Agent運用の設計",
       "url": "https://zenn.dev/laiken/articles/20260908-tech-watch",
@@ -36,73 +100,9 @@
       "publishedAt": "2026-09-08T14:51:55.000Z",
       "publisher": "ブルテック",
       "summary": "スマホのClaudeアプリに話すだけで、自宅のMacが勝手に働いて個人事業が回る——その仕組みを、あなたの環境にそのまま作る本です。チャプター1（無料）で仕組みの概要と何ができるかを、チャプター2（無料）で必要な環境と人間がやる下準備を説…"
-    },
-    {
-      "id": "de3cf5f95931",
-      "title": "Claudeを駆使し、スマホだけで個人事業を回す（ハンズフリーも可）",
-      "url": "https://zenn.dev/bulltech/articles/run-business-by-smartphone-claude",
-      "publishedAt": "2026-09-08T14:51:54.000Z",
-      "publisher": "ブルテック",
-      "summary": "「AI会社を作って月収⚪︎万」 「AI社員を5人雇ってnote記事を量産」 こういうnote記事をよく見かけますが、 AI会社を作るということは、それを行う人間はオーナーといえると思います。 では、AI会社のオーナーとは何でしょうか？ こ…"
-    },
-    {
-      "id": "fb9c43915634",
-      "title": "社内SEとしてDXしてたら、いつの間にかFDEに必要な能力が鍛えられていた話",
-      "url": "https://zenn.dev/harumikun/articles/938d2a3cbbfa70",
-      "publishedAt": "2026-09-08T14:18:37.000Z",
-      "publisher": "ハルミ",
-      "summary": "これは決して「自分はFDEみたいなことしてるから強い！」とか「FDE職種に応募できる！」とかそういう類の話ではありません。 実際のFDE職種は社内SEなんかよりもっと凄いです。 ただ最近流行りのFDEの定義を見ていると、規模は違えど自分の…"
-    },
-    {
-      "id": "95b1e9ad4dd0",
-      "title": "AIに開発を任せる前に決めておく7つのこと——完了条件・予算・承認点の管理",
-      "url": "https://zenn.dev/rpf_tools/articles/7c48621654c18a",
-      "publishedAt": "2026-09-08T14:18:10.000Z",
-      "publisher": "RPF Tools",
-      "summary": "AIコーディングを使うと、実装そのものは速く進むことがあります。一方で、依頼の境界が曖昧なままだと「いつまでも終わらない」「頼んでいない範囲まで変わる」「費用や外部への影響が読めない」という別の難しさが出てきます。 原因はAIの性能だけで…"
-    },
-    {
-      "id": "cfcf42030d8e",
-      "title": "Web Sustainability Guidelinesを読む会 #5",
-      "url": "https://zenn.dev/wsgj/articles/6ecbed7d6e13b1",
-      "publishedAt": "2026-09-08T13:58:25.000Z",
-      "publisher": "ymrl",
-      "summary": "これは「Web Sustainability Guidelines (WSG)」の読書会の第5回のレポートです。 ガイドラインと達成基準 WSGの目次にはフィルター機能があります。今回と次回は、今みんなが気になっていそうなテーマということ…"
-    },
-    {
-      "id": "a6e7c550151a",
-      "title": "米国科学財団(NSF)はGPUを国家インフラに、日本のAI研究基盤はどうあるべきか",
-      "url": "https://zenn.dev/syoshida07/articles/99f8d28c3e91d7",
-      "publishedAt": "2026-09-08T13:30:59.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "米国科学財団(NSF)は2026年8月、AI研究基盤を抜本的に強化する国家プロジェクトとして「AIインフラ国家ハブ構築」を正式に発表した。 この取り組みは総額1億ドル規模で進められ、大学・自治体・産業界・フィランソロピーが連携し、研究者や…"
-    },
-    {
-      "id": "f6e84d9fb938",
-      "title": "Google検索の「AIモード」は完全遮断できない？データ学習リスクとアクセス制御の落とし穴",
-      "url": "https://zenn.dev/densan_techblog/articles/239ef195d829f3",
-      "publishedAt": "2026-09-08T13:11:54.000Z",
-      "publisher": "佐藤 星",
-      "summary": "Google 検索 におけるAI機能の急速な進化に伴い、検索結果に生成AIの回答が表示される「AI モード」や「AI による概要」の利用が広がっています。非常に便利な反面、企業の IT 管理者にとっては「社内の機密情報や検索クエリがAIの…"
-    },
-    {
-      "id": "351713cbbc17",
-      "title": "React未経験でAIに実装を任せたら、動くのにレビューで大量指摘された",
-      "url": "https://zenn.dev/hiruma_devlog/articles/29712399d7e1ab",
-      "publishedAt": "2026-09-08T12:33:32.000Z",
-      "publisher": "hiruma",
-      "summary": "最近、業務でAIを活用しながらプログラミングをしています。 AIを使い始めた当初は、 「AIすごいな」 「自分でコードを書くより、AIに任せた方がいいのでは？」 くらいに思っていました。 実際、AIに実装してもらった画面は動きます。 要求…"
-    },
-    {
-      "id": "2cd678d8b83d",
-      "title": "仕事がうまくいかないときに見るメモ",
-      "url": "https://zenn.dev/tanipotato/articles/90cbdf0a62db23",
-      "publishedAt": "2026-09-08T12:20:30.000Z",
-      "publisher": "TaniPotato",
-      "summary": "はじめに 仕事をしているとパフォーマンスが高い日もあれば、あまり芳しくない日もあります。パフォーマンスは取り組んでいる課題の内容だけでなくその時の体調といった複数の要因によって都度都度変動していくものです。 とはいえ、ふと自己を返りみてみ…"
     }
   ],
-  "fetchedAt": "2026-09-08T22:59:05.952Z",
+  "fetchedAt": "2026-09-09T01:08:05.160Z",
   "stale": false,
   "error": null
 }

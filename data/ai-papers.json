@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.04010",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) st…",
-      "score": 97
+      "score": 112
     },
     {
       "id": "bc69abdfc4d0",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.03241",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "A reasoning model can improve from its own on-policy experience, but this inner loop is fragile: terminal verifiers pro…",
-      "score": 72
+      "score": 81
     },
     {
       "id": "3f9967dc6082",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.03756",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "We present ENEAS, a unified, text-promptable method for instance tracking and semantic discovery. Text-promptable segme…",
-      "score": 33
+      "score": 35
     },
     {
       "id": "3eb838122cfa",
@@ -38,19 +38,19 @@
       "score": 11
     },
     {
-      "id": "d633fe7bc57c",
-      "title": "One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation",
-      "url": "https://huggingface.co/papers/2608.25936",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "On-policy distillation trains a language model on its own generations while a teacher scores them token by token. It co…",
-      "score": 10
-    },
-    {
       "id": "50451f66395b",
       "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
       "url": "https://huggingface.co/papers/2609.01281",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "Vision-language-action (VLA) models map visual observations and language instructions directly to robot actions, but lo…",
+      "score": 11
+    },
+    {
+      "id": "d633fe7bc57c",
+      "title": "One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation",
+      "url": "https://huggingface.co/papers/2608.25936",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "summary": "On-policy distillation trains a language model on its own generations while a teacher scores them token by token. It co…",
       "score": 10
     },
     {
@@ -70,20 +70,20 @@
       "score": 5
     },
     {
+      "id": "bfb6ff24e496",
+      "title": "Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys",
+      "url": "https://huggingface.co/papers/2609.04382",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "We present a systems-security case study of a two-node split-LLM training system whose privacy evaluation passed while …",
+      "score": 4
+    },
+    {
       "id": "1483af67f785",
       "title": "Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal",
       "url": "https://huggingface.co/papers/2609.04482",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "summary": "Safety alignment is usually posed as a topic-level question: is this subject harmful? Deployments ask a narrower one. A…",
       "score": 4
-    },
-    {
-      "id": "bfb6ff24e496",
-      "title": "Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys",
-      "url": "https://huggingface.co/papers/2609.04382",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We present a systems-security case study of a two-node split-LLM training system whose privacy evaluation passed while …",
-      "score": 3
     },
     {
       "id": "e09bf671e13d",
@@ -94,15 +94,15 @@
       "score": 3
     },
     {
-      "id": "a12a64bd9082",
-      "title": "Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing",
-      "url": "https://huggingface.co/papers/2608.24263",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "Change data synthesis provides a cost-effective solution for expanding training data and improving the performance of c…",
-      "score": 3
+      "id": "44bebbf636fa",
+      "title": "SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2609.05533",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Long-horizon manipulation is partially observable: the information needed to choose the next action may appear only in …",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-08T22:59:05.822Z",
+  "fetchedAt": "2026-09-09T01:08:05.029Z",
   "stale": false,
   "error": null
 }
