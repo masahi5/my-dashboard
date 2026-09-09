@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f0db6f76f9a5",
-      "title": "プログラム冒頭コメントの基本",
-      "url": "https://zenn.dev/qwerewq/articles/4a8ab6ccd06b14",
-      "publishedAt": "2026-09-09T06:19:39.000Z",
-      "publisher": "MOSバーガ",
-      "summary": "プログラム冒頭コメントの基本 プログラムの先頭には、後から見ても内容が分かる最低限の情報を残しておくと便利です。 Code : プログラム名 Date : 作成・更新日 Version : バージョン Status : 動作確認済み / …"
+      "id": "849d79145f6b",
+      "title": "Gemini Enterpriseを社内展開する前に、この3つの権限を設定しろ",
+      "url": "https://zenn.dev/shim_03248/articles/78a08a4eb460aa",
+      "publishedAt": "2026-09-09T13:42:42.000Z",
+      "publisher": "shim",
+      "summary": "タイトルは昔懐かしい「〇〇しろ」系記事タイトルへのオマージュですが、中身は普通のGemini Enterpriseの導入に躓いたのでナレッジとして残します。 Gemini Enterpriseの日本語導入ナレッジは少ないため、ちゃんと丁寧…"
     },
     {
-      "id": "19e9239fccdf",
-      "title": "30B級ローカルLLM、現場で使うならどれ？Qwen3.8・Muse Glimmer・Gemma4を比較【コーディング編】",
-      "url": "https://zenn.dev/highreso_tech/articles/b94de966268fd5",
-      "publishedAt": "2026-09-09T06:01:05.000Z",
-      "publisher": "ハイレゾ技術編集部",
-      "summary": "30B級ローカルLLM、現場で使うならどれ？Qwen3.8・Muse Glimmer・Gemma4を比較【コーディング編】 前回に続いて、今回は比較テーマを「コーディング」にして比較した結果を紹介します。 前回の要約・解説では、筆者評価で…"
+      "id": "cd9e17f68f64",
+      "title": "AgentCore Memory の IngestData API で既存の AI チャットアプリに長期記憶を後付けしてみた",
+      "url": "https://zenn.dev/aws_japan/articles/agentcore-memory-ingestdata",
+      "publishedAt": "2026-09-09T13:38:14.000Z",
+      "publisher": "Hikotty / Hikoto Iseda",
+      "summary": "はじめに 自社で運用している AI チャットアプリに「前に話したことを覚えていてほしい」という要望が来たとき、Amazon Bedrock AgentCore Memory の長期記憶は候補の一つになります。ユーザーの好みや事実をマネージ…"
     },
     {
-      "id": "e8fc9a5b05df",
-      "title": "初デートの店選びをAIに任せるなら、人気順では足りない",
-      "url": "https://zenn.dev/amamiya_chan/articles/f032136dd54459",
-      "publishedAt": "2026-09-09T05:38:41.000Z",
-      "publisher": "雨宮（Amamiya）",
-      "summary": "TL;DR 初デート向けの推薦では、「人気」「評価」だけでは必要な条件を表現できません。 雰囲気、騒音、予算、徒歩時間を、最初に「必須条件」と「希望条件」へ分けます。 AIは1件の正解を返すのではなく、違いのある2〜4候補を理由付きで返し…"
+      "id": "0954b926d095",
+      "title": "AIの登場で様々なアルゴリズムを実装できる理由",
+      "url": "https://zenn.dev/hiro_f35/articles/9d410eed4e5f81",
+      "publishedAt": "2026-09-09T13:30:24.000Z",
+      "publisher": "hiro_f35",
+      "summary": "AI（特にLLM＝大規模言語モデルやコード生成AI）の登場によって、従来のプログラミング手法や開発アプローチが大きく変化し、多角的なアルゴリズムを容易に実装・運用できるようになりました。その主な理由は以下の通りです。 自然言語（プログラミ…"
     },
     {
-      "id": "f88d21731488",
-      "title": "天気が変わっても壊れない、無料屋外イベント推薦AIの設計",
-      "url": "https://zenn.dev/kiri_kunn/articles/52889088139bee",
-      "publishedAt": "2026-09-09T05:33:33.000Z",
-      "publisher": "霧（Kiri）",
-      "summary": "TL;DR 屋外イベントを1件おすすめするだけでは、天気が変わった瞬間に推薦が壊れます。 AIが持つべきなのは現在の情報だけではなく、「その情報をいつまで使えるか」です。 候補はイベント単体ではなく、切替条件を持った2〜4個の「予定バンド…"
+      "id": "b295f5fe2add",
+      "title": "Claude Code で「さっきの続きやって」が一番高いのか確かめた",
+      "url": "https://zenn.dev/sui_water/articles/cfe2a86c01b22a",
+      "publishedAt": "2026-09-09T13:11:38.000Z",
+      "publisher": "スイ",
+      "summary": "Claude Code の利用状況を OpenTelemetry で Cloudflare D1 にためています。ためはじめて 3 か月半が経ち、まとまった量のデータが集まってきました。 このデータで確かめたいことがありました。odacc…"
     },
     {
-      "id": "1951b3dad3e0",
-      "title": "Kimi K3の1M文脈を支えるKimi Delta Attentionという線形注意",
-      "url": "https://zenn.dev/okssusucha/articles/20260718-kimi-delta-attention-kda-k3-linear",
-      "publishedAt": "2026-09-09T04:44:03.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "Kimi K3の1M文脈を支えるKimi Delta Attentionという線形注意 1Mトークンの文脈を「現実的な速度とメモリで」回す。この一句を額面どおり実現するのは、実はモデルを大きくするより難しい。文脈が伸びるほど注意機構のコス…"
+      "id": "b507fac72b65",
+      "title": "「AI時代のTDDは誰も知らない」——Kent Beck 回のどれが伸びるか（#30 投稿前予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr30-kentbeck-prediction",
+      "publishedAt": "2026-09-09T13:00:09.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
     },
     {
-      "id": "caf020e9ccb8",
-      "title": "RAGの精度は「データ」で決まる — Contextual Retrievalを実測したら1位正解率が36%→100%になった",
-      "url": "https://zenn.dev/minedia/articles/100decdd1418e8",
-      "publishedAt": "2026-09-09T04:43:33.000Z",
-      "publisher": "KenshoTakizawa@ベスト69元ゴルファーのエンジニア",
-      "summary": "3秒まとめ 📝 RAGの検索用データの作り方(チャンクサイズ・分割法・加工)に「唯一の正解」はなく、ベンチマークで勝った設定が自分のデータでも勝つとは限らない チャンクの先頭にLLMがひと言文脈を前置きしてから索引化する Context…"
+      "id": "27f4366a443d",
+      "title": "Grok Botを使ってみた話と、1時間で開発組織ができた話",
+      "url": "https://zenn.dev/imaichiyyy/articles/c641c9ac4f4d97",
+      "publishedAt": "2026-09-09T12:57:30.000Z",
+      "publisher": "imaichiyyy",
+      "summary": "※9/9追記：本記事はあくまで「触ってみた」なので、ちゃんとした技術記事を見るならGrok Bot Specialistさんの記事をみた方が良いです。 ※本記事のサービス仕様は2026年9月7日時点のものです。Grok BotおよびOri…"
     },
     {
-      "id": "f423e2cbe241",
-      "title": "AndroidアプリでオンデバイスモデルとクラウドモデルでAIを実行する",
-      "url": "https://zenn.dev/404lab/articles/7b3f68e827746f",
-      "publishedAt": "2026-09-09T03:40:14.000Z",
-      "publisher": "leopard_lab",
-      "summary": "はじめに 本記事ではFirebase AI Logicを利用してオンデバイスモデルとクラウドホストモデルを利用したハイブリッド推論をAndroidアプリに実装する方法を記載していきます。 Firebase AI Logicで推論を行うには…"
+      "id": "f2a428ee9c0e",
+      "title": "TomiLite - AIに「質問する」だけではなく、AIに実際の仕事を任せる。",
+      "url": "https://zenn.dev/jameswu/articles/071dc1da7c18da",
+      "publishedAt": "2026-09-09T12:10:19.000Z",
+      "publisher": "JamesW",
+      "summary": "TomiLite — Local-first AI Agent Workspace AIに「質問する」だけではなく、AIに実際の仕事を任せる。 そんな考えから、TomiLiteを開発しています。 TomiLiteは、Local-first…"
     },
     {
-      "id": "29e48486a18c",
-      "title": "AIツール選びで失敗しないための「目的ベース比較」フレームワーク",
-      "url": "https://zenn.dev/aiai_tool/articles/1c3e51dcab4e78",
-      "publishedAt": "2026-09-09T03:31:35.000Z",
-      "publisher": "AIAI｜AI Tools & Workflows",
-      "summary": "生成AIの普及によって、文章作成、画像生成、動画制作、コーディング、リサーチ、データ分析など、ほぼ毎週のように新しいAIツールが登場しています。 しかし、選択肢が増えた結果、別の問題も生まれました。 「結局、どのAIツールを選べばいいのか…"
+      "id": "6d04b348e316",
+      "title": "LLM判定は、安いフィルタの後ろに置く",
+      "url": "https://zenn.dev/miyakona/articles/llm-filter-pipeline-order",
+      "publishedAt": "2026-09-09T11:57:11.000Z",
+      "publisher": "miyakona",
+      "summary": "外部サイトから集めた記事候補を、関連するものだけに絞るバッチを運用しています。候補のタイトルと要約を大規模言語モデル（LLM）へ渡し、関連があればダウンロードする仕組みです。 処理が遅くなったとき、私はダウンロード部分が原因だろうと考えて…"
     },
     {
-      "id": "90df26091cff",
-      "title": "日本語RAGのテストケース設計 — 「文書にない」を正解にする",
-      "url": "https://zenn.dev/jinno_ai/articles/japanese-rag-test-case-design",
-      "publishedAt": "2026-09-09T03:29:46.000Z",
-      "publisher": "jinno_ai",
-      "summary": "社内文書にAIを接続するRAG構成の導入判断では、デモを見せてもらった時の受けが良い製品と、業務に投入しても耐える製品が混ざっている。両者の差は回答生成のモデルだけではなく、検索・根拠・権限・日本語処理のそれぞれで失敗するケースをどれだけ…"
+      "id": "4d513ddaca08",
+      "title": "外部調査を、あとから答え合わせに使う——game-dev-playbookの運用実例",
+      "url": "https://zenn.dev/peyangu485/articles/jibun-os-playbook",
+      "publishedAt": "2026-09-09T11:09:28.000Z",
+      "publisher": "𣜿音サクヤ",
+      "summary": "! この記事は連載「AIと作る、ひとりの開発OS」の一部です。単体で読めますが、全体像は noteのハブ記事 にまとめています。 Phase2「裏側・方法論」の最後は、game-dev-playbookという資料の話だ。以前の記事で、これ…"
     },
     {
-      "id": "0ef96f381074",
-      "title": "Unity Editorを操作するCLIを作り直しました",
-      "url": "https://zenn.dev/shiranui_isuzu/articles/c960db054fb810",
-      "publishedAt": "2026-09-09T03:29:04.000Z",
-      "publisher": "いすず",
-      "summary": "概要 Unity EditorをAIエージェントから操作するツールを作っていて、v1を2025年4月に出しました。 そこから作り直してv4になっています。 作っているものは UnityMCP です。 作り直した理由はコンテキスト量と応答速…"
+      "id": "2becf44363ed",
+      "title": "アレコレソレが通じる AI CooSenpAI を作りました",
+      "url": "https://zenn.dev/nrs/articles/9bd714183cf18c",
+      "publishedAt": "2026-09-09T11:07:51.000Z",
+      "publisher": "nrs",
+      "summary": "AI と向き合うのは面倒ですよね。 もちろん AI はとても賢くて便利な存在ですし、毎日助けてもらってもいます。 それでも面倒に感じるのは、いちいちお世話をしないといけない部分がかなりあるからです。 たとえばエラーが出たとしましょう。 A…"
     },
     {
-      "id": "a9bcd89f0fed",
-      "title": "320日でエージェントに21,286回話しかけた。中央値は26文字で、プロンプト設計と呼べる長文は全体の1%だった",
-      "url": "https://zenn.dev/tsutomusaito/articles/typed-prompt-length-ja",
-      "publishedAt": "2026-09-09T03:27:04.000Z",
-      "publisher": "saito",
-      "summary": "~/.claude/history.jsonl には、自分が実際に打鍵したプロンプトが全部残っている。ツール結果でもコンパクション要約でも自動注入でもない、キーボードを叩いた分だけが入っている。 320日分、21,286件あった。数えた。…"
+      "id": "c4084239332f",
+      "title": "ロボットは「賢いAI」だけでは安全にならない――Physical AIを支える確率的な脳と決定論的な安全系",
+      "url": "https://zenn.dev/kotakotahiro/articles/a9017cbecf4cf7",
+      "publishedAt": "2026-09-09T10:23:42.000Z",
+      "publisher": "こたこた博",
+      "summary": "ある夜、工場のロボットが「壊れていないのに」止まりました ここは、Physical AIが導入された近未来の工場です。 深夜2時。無人の工場フロアで、コネクタ挿入用の6軸ロボットが動きを止めました。 カメラにも、力センサーにも、異常のログ…"
     },
     {
-      "id": "ade22945d055",
-      "title": "GPT-Image-2.5 Flare vs Sunburst: Which Model Should You Use?",
-      "url": "https://zenn.dev/neotechpark/articles/514d034e19f370",
-      "publishedAt": "2026-09-09T03:05:11.000Z",
-      "publisher": "NeoTechPark",
-      "summary": "OpenAI split its image API into two models, Flare and Sunburst, at the same price as GPT-Image-2. Here is what changed …"
+      "id": "61c696f22cc6",
+      "title": "VLM量子化はLLMだけ見ない：ViT・Connector・LLMのbit配分を考える",
+      "url": "https://zenn.dev/kas_blog/articles/20260831-vlm-quantization-best-practices",
+      "publishedAt": "2026-09-09T10:02:53.000Z",
+      "publisher": "kas's blog",
+      "summary": "VLM（Vision-Language Model）を4bit化するとき、実装例の多くはLLM側だけを量子化します。モデルサイズを減らすには合理的ですが、task精度まで含めると、ViT（vision encoder）とconnector…"
     }
   ],
-  "fetchedAt": "2026-09-09T15:06:31.357Z",
+  "fetchedAt": "2026-09-09T18:35:29.676Z",
   "stale": false,
   "error": null
 }
