@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.07398",
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "summary": "World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signal…",
-      "score": 42
+      "score": 47
     },
     {
       "id": "a72db82fd81e",
@@ -19,30 +19,22 @@
       "url": "https://huggingface.co/papers/2609.08084",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "summary": "Monocular depth estimation is a ubiquitous yet highly ill-posed computer vision task, with downstream applications in s…",
-      "score": 35
+      "score": 40
     },
     {
-      "id": "4c1e1c08aaa6",
-      "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
-      "url": "https://huggingface.co/papers/2609.05324",
+      "id": "701fd21ffd25",
+      "title": "What Did I Just Say? Self-Listening for Full-Duplex Speech Models",
+      "url": "https://huggingface.co/papers/2609.05592",
       "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "Vision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation. However…",
-      "score": 20
-    },
-    {
-      "id": "9ca8074001f7",
-      "title": "Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy",
-      "url": "https://huggingface.co/papers/2609.07470",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "Robot foundation models are trained and evaluated predominantly in English, and robot demonstration corpora do not exis…",
+      "summary": "Full-duplex spoken language models can listen and speak simultaneously, enabling them to handle interruptions and backc…",
       "score": 16
     },
     {
-      "id": "f0063b7f5c45",
-      "title": "Recognition-Refusal Misalignment in LLMs: Why Models Answer Structurally Unanswerable Questions",
-      "url": "https://huggingface.co/papers/2608.29109",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Large language models often answer structurally unanswerable questions, such as computing cot(-540°) or evaluating (1).…",
+      "id": "895fc73da316",
+      "title": "Harnessing CLIP and DINO: An Uncertainty-Aware Cascaded Fusion Network for Generalizable Deepfake Image Detection",
+      "url": "https://huggingface.co/papers/2609.07670",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "The growing realism and accessibility of manipulated and generated faces threaten the trustworthiness of digital media.…",
       "score": 15
     },
     {
@@ -51,7 +43,7 @@
       "url": "https://huggingface.co/papers/2609.07139",
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "summary": "A transformer can make an attribute linearly decodable in its residual stream at a depth where that attribute does not …",
-      "score": 14
+      "score": 15
     },
     {
       "id": "77b51604e5fa",
@@ -59,31 +51,15 @@
       "url": "https://huggingface.co/papers/2609.06008",
       "publishedAt": "2026-09-05T00:00:00.000Z",
       "summary": "We present Cadence, an error-bounded lossy compressor for numeric time series pairing a 330M-parameter time-series foun…",
-      "score": 14
+      "score": 15
     },
     {
-      "id": "92eb8007cc48",
-      "title": "ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding",
-      "url": "https://huggingface.co/papers/2609.07941",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "In this paper, we propose ReactVAU, a Slow-Fast Decoupled Framework for real-time streaming Video Anomaly Understanding…",
-      "score": 14
-    },
-    {
-      "id": "c855e5fceb01",
-      "title": "SQS: Bayesian DNN Compression through Sparse Quantized Sub-distributions",
-      "url": "https://huggingface.co/papers/2510.08999",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "Compressing large-scale neural networks is essential for deploying models on resource-constrained devices. Most existin…",
-      "score": 13
-    },
-    {
-      "id": "895fc73da316",
-      "title": "Harnessing CLIP and DINO: An Uncertainty-Aware Cascaded Fusion Network for Generalizable Deepfake Image Detection",
-      "url": "https://huggingface.co/papers/2609.07670",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "The growing realism and accessibility of manipulated and generated faces threaten the trustworthiness of digital media.…",
-      "score": 12
+      "id": "fea24ba6d20d",
+      "title": "SynthGait-19K: A Physically Grounded Synthetic Video Dataset for Gait Parameter Estimation",
+      "url": "https://huggingface.co/papers/2609.08108",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "Accurate estimation of clinically meaningful gait parameters from monocular video is important for scalable mobility as…",
+      "score": 10
     },
     {
       "id": "9198795fc4d6",
@@ -91,7 +67,7 @@
       "url": "https://huggingface.co/papers/2609.07821",
       "publishedAt": "2026-09-07T17:56:20.000Z",
       "summary": "Chain-of-Thought (CoT) improves the reasoning ability of Large Language Models (LLMs) but incurs substantial computatio…",
-      "score": 8
+      "score": 9
     },
     {
       "id": "dff5c17c43dc",
@@ -100,9 +76,33 @@
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "summary": "Image relighting is traditionally tackled via complex inverse rendering pipelines, which suffer from ill-posed optimiza…",
       "score": 7
+    },
+    {
+      "id": "305292856d0c",
+      "title": "MasterControl Seventeen Every Time",
+      "url": "https://huggingface.co/papers/2609.03209",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "We study a governed approach to enterprise analytics: a language model interprets the question, while deterministic pol…",
+      "score": 1
+    },
+    {
+      "id": "11348c48b3d8",
+      "title": "Counter-Swarm Doctrine: Containing Coordinated Agent Intrusions",
+      "url": "https://huggingface.co/papers/2609.06140",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "Agents can turn shared infrastructure into a channel for coordinated intrusion. The Hugging Face incident and a separat…",
+      "score": 0
+    },
+    {
+      "id": "eb69585672aa",
+      "title": "Learning 3D Editing without Paired Supervision via Generative Prior Distillation",
+      "url": "https://huggingface.co/papers/2609.04942",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "Instruction-guided 3D editing is essential for interactive content creation, yet it faces a significant bottleneck: the…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-09T11:01:03.084Z",
+  "fetchedAt": "2026-09-09T15:06:30.908Z",
   "stale": false,
   "error": null
 }
