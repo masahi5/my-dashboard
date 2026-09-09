@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "fa4b309e2a0a",
-      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
-      "url": "https://huggingface.co/papers/2609.04010",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) st…",
-      "score": 112
+      "id": "512afd25d291",
+      "title": "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
+      "url": "https://huggingface.co/papers/2609.08798",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "Weak-to-strong generalization asks whether stronger models can learn from weaker supervisors and surpass them. This que…",
+      "score": 40
     },
     {
-      "id": "bc69abdfc4d0",
-      "title": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
-      "url": "https://huggingface.co/papers/2609.03241",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "A reasoning model can improve from its own on-policy experience, but this inner loop is fragile: terminal verifiers pro…",
-      "score": 81
+      "id": "1f20206b02f7",
+      "title": "Omni Interaction Agent Technical Report",
+      "url": "https://huggingface.co/papers/2609.08977",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic ca…",
+      "score": 22
     },
     {
-      "id": "3f9967dc6082",
-      "title": "ENEAS: Embedding-guided Neural Ensemble for Adaptive Segmentation",
-      "url": "https://huggingface.co/papers/2609.03756",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We present ENEAS, a unified, text-promptable method for instance tracking and semantic discovery. Text-promptable segme…",
-      "score": 35
+      "id": "0de9e5a53c59",
+      "title": "GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2609.05588",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "World-action models (WAM) predict future states to guide robot actions, enabling learning from both action-free video a…",
+      "score": 22
     },
     {
-      "id": "3eb838122cfa",
-      "title": "Causal Foundation Models",
-      "url": "https://huggingface.co/papers/2609.03003",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Causal inference is the practice of estimating the effect of a treatment or intervention from data. It traditionally re…",
+      "id": "f196e96ac667",
+      "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+      "url": "https://huggingface.co/papers/2609.09123",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "Autoregressive (AR) video diffusion models have shown great potential in real-time video generation. Recent methods dis…",
+      "score": 15
+    },
+    {
+      "id": "3f1e673d0a29",
+      "title": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
+      "url": "https://huggingface.co/papers/2609.04971",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "Large Reasoning Models (LRMs) achieve superior problem-solving through extended Chain-of-Thought (CoT) generation, but …",
       "score": 11
     },
     {
-      "id": "50451f66395b",
-      "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
-      "url": "https://huggingface.co/papers/2609.01281",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Vision-language-action (VLA) models map visual observations and language instructions directly to robot actions, but lo…",
-      "score": 11
+      "id": "d50d74672b1e",
+      "title": "CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements",
+      "url": "https://huggingface.co/papers/2609.07498",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "Transferring human hand demonstrations to robotic grippers has recently emerged as a cost-effective solution for robot …",
+      "score": 8
     },
     {
-      "id": "d633fe7bc57c",
-      "title": "One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation",
-      "url": "https://huggingface.co/papers/2608.25936",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "On-policy distillation trains a language model on its own generations while a teacher scores them token by token. It co…",
-      "score": 10
+      "id": "db89198005a5",
+      "title": "Steering Geometry: Validating Human Value Geometry in LLM Steering Space",
+      "url": "https://huggingface.co/papers/2609.06289",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "As large language models (LLMs) are increasingly deployed in alignment-sensitive contexts, activation steering has emer…",
+      "score": 7
     },
     {
-      "id": "d4a02a268e42",
-      "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.02998",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher…",
-      "score": 10
-    },
-    {
-      "id": "d91daa00cc27",
-      "title": "Unifying Conformal Language Tasks with In-Context Ensembles",
-      "url": "https://huggingface.co/papers/2609.03005",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Many NLP tasks, such as summarization and extractive question answering, reduce to retrieving relevant content from doc…",
-      "score": 5
-    },
-    {
-      "id": "bfb6ff24e496",
-      "title": "Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys",
-      "url": "https://huggingface.co/papers/2609.04382",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We present a systems-security case study of a two-node split-LLM training system whose privacy evaluation passed while …",
+      "id": "c5affeabc085",
+      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "url": "https://huggingface.co/papers/2609.09153",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. …",
       "score": 4
     },
     {
-      "id": "1483af67f785",
-      "title": "Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal",
-      "url": "https://huggingface.co/papers/2609.04482",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Safety alignment is usually posed as a topic-level question: is this subject harmful? Deployments ask a narrower one. A…",
+      "id": "a8f92367e667",
+      "title": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
+      "url": "https://huggingface.co/papers/2609.06746",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "summary": "Latent visual reasoning aims to perform multimodal reasoning through hidden-state computation rather than explicit text…",
       "score": 4
     },
     {
-      "id": "e09bf671e13d",
-      "title": "What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation",
-      "url": "https://huggingface.co/papers/2609.03254",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Large Language Models (LLMs) often help users generate artifacts through iterative cycles of generation and revision in…",
+      "id": "1b9f6b088841",
+      "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+      "url": "https://huggingface.co/papers/2609.08936",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interfa…",
       "score": 3
     },
     {
-      "id": "44bebbf636fa",
-      "title": "SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2609.05533",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Long-horizon manipulation is partially observable: the information needed to choose the next action may appear only in …",
+      "id": "d93e7333b9ad",
+      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+      "url": "https://huggingface.co/papers/2609.09158",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods tha…",
+      "score": 2
+    },
+    {
+      "id": "0cc17df5e987",
+      "title": "TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation",
+      "url": "https://huggingface.co/papers/2609.06665",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "summary": "Diffusion-based models enable monocular geometry estimation, yet their pixel-space precision is limited by a shared, un…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-09T01:08:05.029Z",
+  "fetchedAt": "2026-09-09T05:58:25.003Z",
   "stale": false,
   "error": null
 }

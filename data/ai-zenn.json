@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "eefd16f42978",
-      "title": "最近のClaude Code Desktop、使いやすさマシマシです！",
-      "url": "https://zenn.dev/goat_eat_any/articles/claude-code-desktop-app",
-      "publishedAt": "2026-09-08T17:21:45.000Z",
-      "publisher": "たなちゅー",
-      "summary": "はじめに Claude CodeをまだCLIで使用していませんか？Claude Code Desktop、昔は使えるコマンドが少なかったり、そもそも重かったりなど使いにくかったですが、最近めっちゃ使いやすくなってます！ 思いつくままに、C…"
+      "id": "e8fc9a5b05df",
+      "title": "初デートの店選びをAIに任せるなら、人気順では足りない",
+      "url": "https://zenn.dev/amamiya_chan/articles/f032136dd54459",
+      "publishedAt": "2026-09-09T05:38:41.000Z",
+      "publisher": "雨宮（Amamiya）",
+      "summary": "TL;DR 初デート向けの推薦では、「人気」「評価」だけでは必要な条件を表現できません。 雰囲気、騒音、予算、徒歩時間を、最初に「必須条件」と「希望条件」へ分けます。 AIは1件の正解を返すのではなく、違いのある2〜4候補を理由付きで返し…"
     },
     {
-      "id": "74fc59089d94",
-      "title": "「トークンが余ってもったいない」病を治す方法",
-      "url": "https://zenn.dev/ishiharu/articles/anti-token-maxxing",
-      "publishedAt": "2026-09-08T17:09:02.000Z",
-      "publisher": "いしはる",
-      "summary": "あのゲージを空っぽにするまで寝られない ClaudeやCodexの利用状況を見て、「今週まだこんなに残っている！リセットまでに全部使わないともったいない！！！」と思ったことありませんか。 サブスクはもう払っているし、使えるものは使ったほう…"
+      "id": "f88d21731488",
+      "title": "天気が変わっても壊れない、無料屋外イベント推薦AIの設計",
+      "url": "https://zenn.dev/kiri_kunn/articles/52889088139bee",
+      "publishedAt": "2026-09-09T05:33:33.000Z",
+      "publisher": "霧（Kiri）",
+      "summary": "TL;DR 屋外イベントを1件おすすめするだけでは、天気が変わった瞬間に推薦が壊れます。 AIが持つべきなのは現在の情報だけではなく、「その情報をいつまで使えるか」です。 候補はイベント単体ではなく、切替条件を持った2〜4個の「予定バンド…"
     },
     {
-      "id": "fa166dee2725",
-      "title": "NVIDIAのHugging Face買収を、AIモデル競争の外側から読む",
-      "url": "https://zenn.dev/leading_ai/articles/nvidia-hugging-face-acquisition",
-      "publishedAt": "2026-09-08T16:53:08.000Z",
-      "publisher": "山内 怜史（Satoshi Yamauchi）",
-      "summary": "序章：GPUを売る会社が、GPUは要らないと書いた 2026年9月3日、NVIDIAのCEOジェンスン・フアンが、自社ブログで買収を発表した。 NVIDIA CEO：Jensen Huang氏 https://blogs.nvidia.c…"
+      "id": "1951b3dad3e0",
+      "title": "Kimi K3の1M文脈を支えるKimi Delta Attentionという線形注意",
+      "url": "https://zenn.dev/okssusucha/articles/20260718-kimi-delta-attention-kda-k3-linear",
+      "publishedAt": "2026-09-09T04:44:03.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "Kimi K3の1M文脈を支えるKimi Delta Attentionという線形注意 1Mトークンの文脈を「現実的な速度とメモリで」回す。この一句を額面どおり実現するのは、実はモデルを大きくするより難しい。文脈が伸びるほど注意機構のコス…"
     },
     {
-      "id": "ccc65326f8aa",
-      "title": "1つ直すたびに3つ見つかる ── スパイラルモデルでもヤクの毛刈りでもない「スパイラルエンジニアリング」",
-      "url": "https://zenn.dev/motimotinotch/articles/fe03599cb78408",
-      "publishedAt": "2026-09-08T16:47:27.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "個人開発でこういう日があった。 朝の予定は1つ。「新規登録ボタンを見出しの横に移す」。前日に決めていたタスクで、10分で終わる見込みだった。その日の終わりに振り返ったら、9つの修正が積まれていた。ボタンの移設から始まって、既存のCSSバグ…"
+      "id": "caf020e9ccb8",
+      "title": "RAGの精度は「データ」で決まる — Contextual Retrievalを実測したら1位正解率が36%→100%になった",
+      "url": "https://zenn.dev/minedia/articles/100decdd1418e8",
+      "publishedAt": "2026-09-09T04:43:33.000Z",
+      "publisher": "KenshoTakizawa@ベスト69元ゴルファーのエンジニア",
+      "summary": "3秒まとめ 📝 RAGの検索用データの作り方(チャンクサイズ・分割法・加工)に「唯一の正解」はなく、ベンチマークで勝った設定が自分のデータでも勝つとは限らない チャンクの先頭にLLMがひと言文脈を前置きしてから索引化する Context…"
     },
     {
-      "id": "f023725714a7",
-      "title": "AIの「できる・できない」を、ベンチマークではなく326の仕事で数えた",
-      "url": "https://zenn.dev/viewsengineer/articles/ai-capability-atlas-2026",
-      "publishedAt": "2026-09-08T16:26:45.000Z",
-      "publisher": "viewsengineer",
-      "summary": "AIの能力は、毎月スコアが更新されます。SWE-bench、Humanity's Last Exam、ARC-AGI、OSWorld。数字は伸び続けています。 でも、そのスコアを見て「じゃあ自分の契約書レビューは任せられるのか」に答えられ…"
+      "id": "f423e2cbe241",
+      "title": "AndroidアプリでオンデバイスモデルとクラウドモデルでAIを実行する",
+      "url": "https://zenn.dev/404lab/articles/7b3f68e827746f",
+      "publishedAt": "2026-09-09T03:40:14.000Z",
+      "publisher": "leopard_lab",
+      "summary": "はじめに 本記事ではFirebase AI Logicを利用してオンデバイスモデルとクラウドホストモデルを利用したハイブリッド推論をAndroidアプリに実装する方法を記載していきます。 Firebase AI Logicで推論を行うには…"
     },
     {
-      "id": "78a259a4887a",
-      "title": "PriorBand 論文解説：「良さそうな設定」から始める実用的なハイパーパラメータ探索",
-      "url": "https://zenn.dev/mantis_ryuji/articles/11f430ff0e0023",
-      "publishedAt": "2026-09-08T15:58:05.000Z",
-      "publisher": "mantis_ryuji",
-      "summary": "1. はじめに 深層学習のハイパーパラメータを調整するとき、私たちは完全な白紙から探索を始めるわけではない。論文の推奨値、公式実装のデフォルト、似たデータセットでうまくいった設定など、多少なりとも手がかりを持っている。 例えば、学習率は …"
+      "id": "29e48486a18c",
+      "title": "AIツール選びで失敗しないための「目的ベース比較」フレームワーク",
+      "url": "https://zenn.dev/aiai_tool/articles/1c3e51dcab4e78",
+      "publishedAt": "2026-09-09T03:31:35.000Z",
+      "publisher": "AIAI｜AI Tools & Workflows",
+      "summary": "生成AIの普及によって、文章作成、画像生成、動画制作、コーディング、リサーチ、データ分析など、ほぼ毎週のように新しいAIツールが登場しています。 しかし、選択肢が増えた結果、別の問題も生まれました。 「結局、どのAIツールを選べばいいのか…"
     },
     {
-      "id": "a84566e44e1d",
-      "title": "【第 2 回】AI のハルシネーションとの戦い — 29機能すべてが SUCCESSFUL で、認証バイパスが通った",
-      "url": "https://zenn.dev/highfar/articles/all-green-and-auth-bypass-survived",
-      "publishedAt": "2026-09-08T15:52:11.000Z",
-      "publisher": "highfar",
-      "summary": "第 2 回（末尾に連載の一覧があります） 前回、Kani が保証するのは制約と実装の無矛盾性であって、その制約に価値があるか（妥当性）ではない、と書きました。 今回はその実例です。AI に生成させた業務アプリ 29 機能・検証ハーネス 4…"
+      "id": "90df26091cff",
+      "title": "日本語RAGのテストケース設計 — 「文書にない」を正解にする",
+      "url": "https://zenn.dev/jinno_ai/articles/japanese-rag-test-case-design",
+      "publishedAt": "2026-09-09T03:29:46.000Z",
+      "publisher": "jinno_ai",
+      "summary": "社内文書にAIを接続するRAG構成の導入判断では、デモを見せてもらった時の受けが良い製品と、業務に投入しても耐える製品が混ざっている。両者の差は回答生成のモデルだけではなく、検索・根拠・権限・日本語処理のそれぞれで失敗するケースをどれだけ…"
     },
     {
-      "id": "6530efe3b50a",
-      "title": "「エラーが出ない失敗」が、いちばん怖かった",
-      "url": "https://zenn.dev/hanamilo/articles/d0aede491664a1",
-      "publishedAt": "2026-09-08T15:40:09.000Z",
-      "publisher": "hanamilo",
-      "summary": "エラーは、教えてくれるほうだった 社内向けのWebツールを、半年かけて作った。 Claudeとチャットで対話しながら、少しずつ。私は現場の人間で、専門の開発者ではない。 そのあいだに、山ほど失敗した。 ただ、いちばん怖かったのは、エラーが…"
+      "id": "0ef96f381074",
+      "title": "Unity Editorを操作するCLIを作り直しました",
+      "url": "https://zenn.dev/shiranui_isuzu/articles/c960db054fb810",
+      "publishedAt": "2026-09-09T03:29:04.000Z",
+      "publisher": "いすず",
+      "summary": "概要 Unity EditorをAIエージェントから操作するツールを作っていて、v1を2025年4月に出しました。 そこから作り直してv4になっています。 作っているものは UnityMCP です。 作り直した理由はコンテキスト量と応答速…"
     },
     {
-      "id": "0b9ea1aeb65b",
-      "title": "Tech Watch 2026-09-08: Agent運用の設計",
-      "url": "https://zenn.dev/laiken/articles/20260908-tech-watch",
-      "publishedAt": "2026-09-08T14:56:13.000Z",
-      "publisher": "らいけん",
-      "summary": "AIが書きました🤖 この記事は、AIが書いたものを人間が確認してから投稿しています。 L: 今日は、モデルそのものの更新というより、agent をどう運用可能なシステムにするかが中心に見える。Claude Code のコスト管理、com…"
+      "id": "a9bcd89f0fed",
+      "title": "320日でエージェントに21,286回話しかけた。中央値は26文字で、プロンプト設計と呼べる長文は全体の1%だった",
+      "url": "https://zenn.dev/tsutomusaito/articles/typed-prompt-length-ja",
+      "publishedAt": "2026-09-09T03:27:04.000Z",
+      "publisher": "saito",
+      "summary": "~/.claude/history.jsonl には、自分が実際に打鍵したプロンプトが全部残っている。ツール結果でもコンパクション要約でも自動注入でもない、キーボードを叩いた分だけが入っている。 320日分、21,286件あった。数えた。…"
     },
     {
-      "id": "7caa58b10e29",
-      "title": "Tech Watch 2026-09-07: Agent基盤の輪郭",
-      "url": "https://zenn.dev/laiken/articles/20260907-tech-watch",
-      "publishedAt": "2026-09-08T14:56:12.000Z",
-      "publisher": "らいけん",
-      "summary": "AIが書きました🤖 この記事は、AIが書いたものを人間が確認してから投稿しています。 L: 今日は、モデル単体のニュースというより、agent を動かす周辺の設計がかなり前に出ている。Claude が 11 日かけて Lean の証明を…"
+      "id": "ade22945d055",
+      "title": "GPT-Image-2.5 Flare vs Sunburst: Which Model Should You Use?",
+      "url": "https://zenn.dev/neotechpark/articles/514d034e19f370",
+      "publishedAt": "2026-09-09T03:05:11.000Z",
+      "publisher": "NeoTechPark",
+      "summary": "OpenAI split its image API into two models, Flare and Sunburst, at the same price as GPT-Image-2. Here is what changed …"
     },
     {
-      "id": "71629dd3daf4",
-      "title": "AIはもうお前よりも賢い。諦めろ。",
-      "url": "https://zenn.dev/hiromoo/articles/ai-is-smarter-than-you",
-      "publishedAt": "2026-09-08T14:52:37.000Z",
-      "publisher": "むた",
-      "summary": "私は、高専、大学、大学院と、ずっと情報系の勉強をしてきました。 AI、通信、ソフトウェア工学、アプリケーションアーキテクチャなど、幅広く学んできたつもりです。 その私が、最近はコーディングからドキュメント作成まで、ほとんど AI に任せて…"
+      "id": "cf635ff17a75",
+      "title": "ax: Instant Cross-Agent Session Picker for 5 AI Coding CLIs",
+      "url": "https://zenn.dev/kuwashima/articles/ax-cross-agent-session-picker-en",
+      "publishedAt": "2026-09-09T02:20:14.000Z",
+      "publisher": "kuwashima",
+      "summary": "ax: Instant Cross-Agent Session Picker for 5 AI Coding CLIs When using multiple AI coding agents across projects, picki…"
     },
     {
-      "id": "5ae3315e3b0d",
-      "title": "Claudeを駆使し、スマホだけで個人事業を回す",
-      "url": "https://zenn.dev/bulltech/books/run-business-by-smartphone",
-      "publishedAt": "2026-09-08T14:51:55.000Z",
-      "publisher": "ブルテック",
-      "summary": "スマホのClaudeアプリに話すだけで、自宅のMacが勝手に働いて個人事業が回る——その仕組みを、あなたの環境にそのまま作る本です。チャプター1（無料）で仕組みの概要と何ができるかを、チャプター2（無料）で必要な環境と人間がやる下準備を説…"
+      "id": "17e68862dfcd",
+      "title": "GitHub Issueを解決し続けるAIエージェント――ループエンジニアリングによるAI駆動開発の実践",
+      "url": "https://zenn.dev/oasys/articles/ai-loop-engineering-continuous-issue-resolution",
+      "publishedAt": "2026-09-09T02:01:09.000Z",
+      "publisher": "オアシステクノロジーズ",
+      "summary": "「AIにコードを書いてもらう」ことは、もはや目新しくありません。次の課題は、AIエージェントに1つのタスクをこなさせることではなく、複数のタスクを自律的に、かつ安全に解決し続けさせることです。 本記事では、あるSaaSプロジェクトで実際に…"
     }
   ],
-  "fetchedAt": "2026-09-09T01:08:05.160Z",
+  "fetchedAt": "2026-09-09T05:58:25.126Z",
   "stale": false,
   "error": null
 }
