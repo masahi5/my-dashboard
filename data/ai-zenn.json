@@ -6,6 +6,30 @@
   "category": "ai",
   "items": [
     {
+      "id": "9f00bc77bf94",
+      "title": "知能の本質は\"確率予測\"なのか——ハルシネーションから道具的収束、感情の正体まで",
+      "url": "https://zenn.dev/hitoshi_ai_arch/articles/2744a7447e86bf",
+      "publishedAt": "2026-09-09T17:49:45.000Z",
+      "publisher": "Hitoshi | AI Architect",
+      "summary": "はじめに 「ハルシネーション」という言葉を知らないエンジニアは、もういないだろう。AIが自信満々に嘘をつく現象、くらいの理解は誰もが持っている。 ただ、「なぜ起きるのか」まで説明できる人は、途端に少なくなる。「知らないことを、知っているパ…"
+    },
+    {
+      "id": "39d98d169dde",
+      "title": "Tech Watch 2026-09-09: Agent基盤",
+      "url": "https://zenn.dev/laiken/articles/20260909-tech-watch",
+      "publishedAt": "2026-09-09T15:38:41.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものを人間が確認してから投稿しています。 L: 今日は、モデルの性能そのものより、その周りに作る infrastructure が主役に見える。agent に何を見せるか、何を実行させるか、ど…"
+    },
+    {
+      "id": "ecd54691a877",
+      "title": "Claude Code に調査だけさせる：プロンプト例と --disallowed-tools と変更検知",
+      "url": "https://zenn.dev/chiisanasoft/articles/75b6bd6a1cf911",
+      "publishedAt": "2026-09-09T15:28:48.000Z",
+      "publisher": "ちいさなソフト工房",
+      "summary": "現状を知りたいだけで調査を頼んだのに、気づくとファイルが直っている。しかも直った先から前提がずれるので、元がどうだったのかが分からなくなります。 プロンプトに「変えないでください」と書き足しても、それだけでは止まりませんでした。この記事で…"
+    },
+    {
       "id": "849d79145f6b",
       "title": "Gemini Enterpriseを社内展開する前に、この3つの権限を設定しろ",
       "url": "https://zenn.dev/shim_03248/articles/78a08a4eb460aa",
@@ -76,33 +100,9 @@
       "publishedAt": "2026-09-09T11:09:28.000Z",
       "publisher": "𣜿音サクヤ",
       "summary": "! この記事は連載「AIと作る、ひとりの開発OS」の一部です。単体で読めますが、全体像は noteのハブ記事 にまとめています。 Phase2「裏側・方法論」の最後は、game-dev-playbookという資料の話だ。以前の記事で、これ…"
-    },
-    {
-      "id": "2becf44363ed",
-      "title": "アレコレソレが通じる AI CooSenpAI を作りました",
-      "url": "https://zenn.dev/nrs/articles/9bd714183cf18c",
-      "publishedAt": "2026-09-09T11:07:51.000Z",
-      "publisher": "nrs",
-      "summary": "AI と向き合うのは面倒ですよね。 もちろん AI はとても賢くて便利な存在ですし、毎日助けてもらってもいます。 それでも面倒に感じるのは、いちいちお世話をしないといけない部分がかなりあるからです。 たとえばエラーが出たとしましょう。 A…"
-    },
-    {
-      "id": "c4084239332f",
-      "title": "ロボットは「賢いAI」だけでは安全にならない――Physical AIを支える確率的な脳と決定論的な安全系",
-      "url": "https://zenn.dev/kotakotahiro/articles/a9017cbecf4cf7",
-      "publishedAt": "2026-09-09T10:23:42.000Z",
-      "publisher": "こたこた博",
-      "summary": "ある夜、工場のロボットが「壊れていないのに」止まりました ここは、Physical AIが導入された近未来の工場です。 深夜2時。無人の工場フロアで、コネクタ挿入用の6軸ロボットが動きを止めました。 カメラにも、力センサーにも、異常のログ…"
-    },
-    {
-      "id": "61c696f22cc6",
-      "title": "VLM量子化はLLMだけ見ない：ViT・Connector・LLMのbit配分を考える",
-      "url": "https://zenn.dev/kas_blog/articles/20260831-vlm-quantization-best-practices",
-      "publishedAt": "2026-09-09T10:02:53.000Z",
-      "publisher": "kas's blog",
-      "summary": "VLM（Vision-Language Model）を4bit化するとき、実装例の多くはLLM側だけを量子化します。モデルサイズを減らすには合理的ですが、task精度まで含めると、ViT（vision encoder）とconnector…"
     }
   ],
-  "fetchedAt": "2026-09-09T18:35:29.676Z",
+  "fetchedAt": "2026-09-09T21:11:27.458Z",
   "stale": false,
   "error": null
 }
