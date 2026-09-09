@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "512afd25d291",
-      "title": "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
-      "url": "https://huggingface.co/papers/2609.08798",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Weak-to-strong generalization asks whether stronger models can learn from weaker supervisors and surpass them. This que…",
-      "score": 40
+      "id": "168c3fffcc90",
+      "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+      "url": "https://huggingface.co/papers/2609.07398",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signal…",
+      "score": 42
     },
     {
-      "id": "1f20206b02f7",
-      "title": "Omni Interaction Agent Technical Report",
-      "url": "https://huggingface.co/papers/2609.08977",
+      "id": "a72db82fd81e",
+      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+      "url": "https://huggingface.co/papers/2609.08084",
       "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "In this work, we present Gander, an end-to-end model that unifies omni perception, realtime interaction, and agentic ca…",
-      "score": 22
+      "summary": "Monocular depth estimation is a ubiquitous yet highly ill-posed computer vision task, with downstream applications in s…",
+      "score": 35
     },
     {
-      "id": "0de9e5a53c59",
-      "title": "GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation",
-      "url": "https://huggingface.co/papers/2609.05588",
+      "id": "4c1e1c08aaa6",
+      "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
+      "url": "https://huggingface.co/papers/2609.05324",
       "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "World-action models (WAM) predict future states to guide robot actions, enabling learning from both action-free video a…",
-      "score": 22
+      "summary": "Vision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation. However…",
+      "score": 20
     },
     {
-      "id": "f196e96ac667",
-      "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
-      "url": "https://huggingface.co/papers/2609.09123",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Autoregressive (AR) video diffusion models have shown great potential in real-time video generation. Recent methods dis…",
+      "id": "9ca8074001f7",
+      "title": "Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy",
+      "url": "https://huggingface.co/papers/2609.07470",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "Robot foundation models are trained and evaluated predominantly in English, and robot demonstration corpora do not exis…",
+      "score": 16
+    },
+    {
+      "id": "f0063b7f5c45",
+      "title": "Recognition-Refusal Misalignment in LLMs: Why Models Answer Structurally Unanswerable Questions",
+      "url": "https://huggingface.co/papers/2608.29109",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Large language models often answer structurally unanswerable questions, such as computing cot(-540°) or evaluating (1).…",
       "score": 15
     },
     {
-      "id": "3f1e673d0a29",
-      "title": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
-      "url": "https://huggingface.co/papers/2609.04971",
-      "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "Large Reasoning Models (LRMs) achieve superior problem-solving through extended Chain-of-Thought (CoT) generation, but …",
-      "score": 11
+      "id": "c53e5cae7ab3",
+      "title": "Encoded Early, Used Late: Where Transformers Begin to Act on an Inferred Partner's Expertise",
+      "url": "https://huggingface.co/papers/2609.07139",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "A transformer can make an attribute linearly decodable in its residual stream at a depth where that attribute does not …",
+      "score": 14
     },
     {
-      "id": "d50d74672b1e",
-      "title": "CosmoH2G: A Hand-to-Gripper Transfer Dataset and Baseline Method for Object Manipulation with Complex Spatial Movements",
-      "url": "https://huggingface.co/papers/2609.07498",
+      "id": "77b51604e5fa",
+      "title": "Cadence: Error-Bounded Lossy Compression of Demand Time Series with a Time-Series Foundation Model",
+      "url": "https://huggingface.co/papers/2609.06008",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "We present Cadence, an error-bounded lossy compressor for numeric time series pairing a 330M-parameter time-series foun…",
+      "score": 14
+    },
+    {
+      "id": "92eb8007cc48",
+      "title": "ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding",
+      "url": "https://huggingface.co/papers/2609.07941",
       "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "Transferring human hand demonstrations to robotic grippers has recently emerged as a cost-effective solution for robot …",
+      "summary": "In this paper, we propose ReactVAU, a Slow-Fast Decoupled Framework for real-time streaming Video Anomaly Understanding…",
+      "score": 14
+    },
+    {
+      "id": "c855e5fceb01",
+      "title": "SQS: Bayesian DNN Compression through Sparse Quantized Sub-distributions",
+      "url": "https://huggingface.co/papers/2510.08999",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "Compressing large-scale neural networks is essential for deploying models on resource-constrained devices. Most existin…",
+      "score": 13
+    },
+    {
+      "id": "895fc73da316",
+      "title": "Harnessing CLIP and DINO: An Uncertainty-Aware Cascaded Fusion Network for Generalizable Deepfake Image Detection",
+      "url": "https://huggingface.co/papers/2609.07670",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "The growing realism and accessibility of manipulated and generated faces threaten the trustworthiness of digital media.…",
+      "score": 12
+    },
+    {
+      "id": "9198795fc4d6",
+      "title": "A*-Thought-V2: Efficient Latent Reasoning via Geometric Dynamics of LLM",
+      "url": "https://huggingface.co/papers/2609.07821",
+      "publishedAt": "2026-09-07T17:56:20.000Z",
+      "summary": "Chain-of-Thought (CoT) improves the reasoning ability of Large Language Models (LLMs) but incurs substantial computatio…",
       "score": 8
     },
     {
-      "id": "db89198005a5",
-      "title": "Steering Geometry: Validating Human Value Geometry in LLM Steering Space",
-      "url": "https://huggingface.co/papers/2609.06289",
-      "publishedAt": "2026-09-05T00:00:00.000Z",
-      "summary": "As large language models (LLMs) are increasingly deployed in alignment-sensitive contexts, activation steering has emer…",
+      "id": "dff5c17c43dc",
+      "title": "RelightFormer: Feed-forward Generative Transformer for Multiview Object Relighting",
+      "url": "https://huggingface.co/papers/2609.07414",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "Image relighting is traditionally tackled via complex inverse rendering pipelines, which suffer from ill-posed optimiza…",
       "score": 7
-    },
-    {
-      "id": "c5affeabc085",
-      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
-      "url": "https://huggingface.co/papers/2609.09153",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. …",
-      "score": 4
-    },
-    {
-      "id": "a8f92367e667",
-      "title": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
-      "url": "https://huggingface.co/papers/2609.06746",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "summary": "Latent visual reasoning aims to perform multimodal reasoning through hidden-state computation rather than explicit text…",
-      "score": 4
-    },
-    {
-      "id": "1b9f6b088841",
-      "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
-      "url": "https://huggingface.co/papers/2609.08936",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interfa…",
-      "score": 3
-    },
-    {
-      "id": "d93e7333b9ad",
-      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
-      "url": "https://huggingface.co/papers/2609.09158",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods tha…",
-      "score": 2
-    },
-    {
-      "id": "0cc17df5e987",
-      "title": "TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation",
-      "url": "https://huggingface.co/papers/2609.06665",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "summary": "Diffusion-based models enable monocular geometry estimation, yet their pixel-space precision is limited by a shared, un…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-09T05:58:25.003Z",
+  "fetchedAt": "2026-09-09T11:01:03.084Z",
   "stale": false,
   "error": null
 }

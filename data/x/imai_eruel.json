@@ -2,6 +2,33 @@
   "handle": "ImAI_Eruel",
   "tweets": [
     {
+      "id": "2097627669500485902",
+      "url": "https://x.com/ImAI_Eruel/status/2097627669500485902",
+      "text": "ナビエ・ストークス方程式を解いたAIモデルの学習は、マルチエージェント強化学習を利用しているというOpenAI内部の研究者の発言。\n今までのモデルのRLは実用上マルチエージェントでも、学習時にはシングルRLだったのが、OpenAIは学習段階からマルチエージェント強化学習にしたということか。\n（なお、私の本当の意味での研究分野はこれで、博論はマルチエージェント深層強化学習だった）",
+      "publishedAt": "2026-09-09T10:06:23.000Z",
+      "authorHandle": "ImAI_Eruel",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2097611411828670856",
+      "url": "https://x.com/ImAI_Eruel/status/2097611411828670856",
+      "text": "少し前OpenAIが大量のMacを集めているという報道がありました。\nこれはMacという広く普及したPCの操作環境を使った強化学習を行うための行動で、GPT-6 Astraのような仕事をできるAIを作るには、それ用の「環境」の確保がキーですが、電力や半導体等のボトルネックが今後この「環境」に移る可能性",
+      "publishedAt": "2026-09-09T09:01:46.000Z",
+      "authorHandle": "ImAI_Eruel",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2097522151461191917",
+      "url": "https://x.com/ImAI_Eruel/status/2097522151461191917",
+      "text": "ミレニアム問題のナビエ・ストークス方程式を解いたとされる「OpenAIの社内で開発中の未公表AI」ですが、性能はともかく「8月28から学習」と書いてあることの方がポイントかと思います。\nたった2週間足らずの学習でGPT-6を圧倒したということなので、相当アルゴリズムレベルの改善があったのか",
+      "publishedAt": "2026-09-09T03:07:05.000Z",
+      "authorHandle": "ImAI_Eruel",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2097434162458439987",
       "url": "https://x.com/ImAI_Eruel/status/2097434162458439987",
       "text": "9月からその解決をめぐって怪情報（先にAnthropic、他の数学者が解いた等）が流れていた、ミレニアム賞問題であるナビエ・ストークス方程式問題の解決ですが、本当に解決できたらしいとOpenAIから発表がありました（Leanの形式証明あり）。\nGPT-6 Astraではなく、それすら上回る内部モデルで解いたとのことですが、これは私が想像していたよりも、差が顕著で、あれほど我々が騒いでいるGPT-6を大きく超えるモデルを既に持っているのは間違いなさそう。\n以下メモ。\n・ナビエ・ストークスをAnthropicのモデルが解決したらしいという噂の後からOpenAIが後追いで初めてみたところ本当の解けてしまった\n・証明のための1万体近くのマルチエージェントシステムを構築し、88時間で解けた\n・解決過程では、エージェントは270万件のメッセージを送信し、約1300億個の出力トークンを使用\n・解決のためのAI処理では数百万ドルの費用がかかった",
@@ -63,36 +90,9 @@
       "authorHandle": "ImAI_Eruel",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2096228731945898333",
-      "url": "https://x.com/ImAI_Eruel/status/2096228731945898333",
-      "text": "GPT-6、普通にPCをマウス制御してお絵描きや作曲をしたり、ロボット制御をさせてもかなりうまくできているので、マルチモーダルLLMとしての能力があまりにも高すぎていろんな物の積み上げを力任せで突破してきた感があります。",
-      "publishedAt": "2026-09-05T13:27:30.000Z",
-      "authorHandle": "ImAI_Eruel",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2096052366584000593",
-      "url": "https://x.com/ImAI_Eruel/status/2096052366584000593",
-      "text": "GPT-6が来たので試しています。\n確かに3Dモデリング能力はFableなどと比べ物にならない。",
-      "publishedAt": "2026-09-05T01:46:41.000Z",
-      "authorHandle": "ImAI_Eruel",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2095824262754111707",
-      "url": "https://x.com/ImAI_Eruel/status/2095824262754111707",
-      "text": "TBS CROSS DIG 「AI QUEST」、GPT-6緊急収録が公開されました！\n今回はさすがにGPT-6のコア技術の都合上「潜在変数」、「潜在空間」、「埋め込み」あたりのお約束機械学習ワードを使いたかったのですが、さすがにこの番組でそれをやるのはちょっと無理なので一生懸命やってるのがサムネの自分です。",
-      "publishedAt": "2026-09-04T10:40:17.000Z",
-      "authorHandle": "ImAI_Eruel",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-09T01:08:19.713Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: The operation was aborted due to timeout / https://twiiit.com: HTTP 404 Not Found / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-09-09T11:02:16.166Z",
+  "stale": false,
+  "error": null
 }
