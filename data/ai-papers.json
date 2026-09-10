@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.08572",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "summary": "Large language model (LLM)-based multi-agent systems (MAS) achieve strong performance by employing specialized multiple…",
-      "score": 69
+      "score": 75
     },
     {
       "id": "bf1d9af4ed4d",
@@ -19,7 +19,15 @@
       "url": "https://huggingface.co/papers/2609.08126",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "summary": "We study scheming in LLM agents, in which agents covertly pursue misaligned goals. Our focus is to understand how schem…",
-      "score": 6
+      "score": 7
+    },
+    {
+      "id": "a2b5b4395d58",
+      "title": "A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware",
+      "url": "https://huggingface.co/papers/2609.05463",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "AI-powered search products such as ChatGPT search, Google's AI Overviews, and Perplexity provide LLM-synthesized answer…",
+      "score": 5
     },
     {
       "id": "10a8bcc6ea67",
@@ -30,11 +38,11 @@
       "score": 5
     },
     {
-      "id": "a2b5b4395d58",
-      "title": "A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware",
-      "url": "https://huggingface.co/papers/2609.05463",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "AI-powered search products such as ChatGPT search, Google's AI Overviews, and Perplexity provide LLM-synthesized answer…",
+      "id": "48dbbd0b9561",
+      "title": "PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents",
+      "url": "https://huggingface.co/papers/2609.06702",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "summary": "Sequential memory agents process long documents by reading chunks one after another while maintaining a compact memory …",
       "score": 4
     },
     {
@@ -54,14 +62,6 @@
       "score": 4
     },
     {
-      "id": "48dbbd0b9561",
-      "title": "PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents",
-      "url": "https://huggingface.co/papers/2609.06702",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "summary": "Sequential memory agents process long documents by reading chunks one after another while maintaining a compact memory …",
-      "score": 3
-    },
-    {
       "id": "88fdb5d473de",
       "title": "From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution",
       "url": "https://huggingface.co/papers/2609.02771",
@@ -78,6 +78,14 @@
       "score": 2
     },
     {
+      "id": "9c3ced24b482",
+      "title": "The Price of Sparsity: Sufficient Conditions for Sparse Recovery using Sparse and Sparsified Measurements",
+      "url": "https://huggingface.co/papers/2509.01809",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "We consider the problem of support recovery for sparse binary signals from noisy linear measurements. For sparse Gaussi…",
+      "score": 1
+    },
+    {
       "id": "3bf771bdfc28",
       "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
       "url": "https://huggingface.co/papers/2609.08965",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "summary": "Existing bias auditing methods typically rely on model outputs, requiring costly benchmarks or judge models and potenti…",
       "score": 1
-    },
-    {
-      "id": "9c3ced24b482",
-      "title": "The Price of Sparsity: Sufficient Conditions for Sparse Recovery using Sparse and Sparsified Measurements",
-      "url": "https://huggingface.co/papers/2509.01809",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "We consider the problem of support recovery for sparse binary signals from noisy linear measurements. For sparse Gaussi…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-10T20:51:20.539Z",
+  "fetchedAt": "2026-09-10T22:55:32.778Z",
   "stale": false,
   "error": null
 }

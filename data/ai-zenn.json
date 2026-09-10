@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f68dc2ddd2cb",
-      "title": "Windows で AI エージェント用端末を2週間直して分かった、6つの詰まりどころ",
-      "url": "https://zenn.dev/iostar/articles/bd04ca6ce699bf",
-      "publishedAt": "2026-09-10T10:14:12.000Z",
-      "publisher": "SHIKISHATERM",
-      "summary": "AIエージェントを何枚も並べて動かすことだけを考えて作った、Windows 用のターミナルを公開しています。SHIKISHA-TERM といいます。 ターミナルでAIを動かすのが当たり前になってから、Mac には最初からそういう設計の端末…"
+      "id": "ac9df35690fb",
+      "title": "Claude Code実務自動化ガイド 2026",
+      "url": "https://zenn.dev/kairosai/books/4727f19a3adf1f",
+      "publishedAt": "2026-09-10T18:46:31.000Z",
+      "publisher": "kairos",
+      "summary": "自動化は「作る」より「動かし続ける」ほうが難しい。AIメディアの配信を1年近く毎日自動で回してきた記録として、実際に壊れた箇所と直し方だけをまとめました。数字はすべて著者環境での実測値です。失敗カタログ15件を収録。"
     },
     {
-      "id": "bd0367d53aad",
-      "title": "Claude Code で Matt Pocock skills の /implement を並列オーケストレーター化",
-      "url": "https://zenn.dev/daydreamer/articles/ee68b9023a7e45",
-      "publishedAt": "2026-09-10T09:20:34.000Z",
-      "publisher": "daydreamer",
-      "summary": "はじめに superpowers から Matt Pocock の skills プラグインに乗り換えました。/grill-with-docs → /to-spec → /to-tickets → /implement の流れは気持ちいい…"
+      "id": "1aff1333bce5",
+      "title": "「未検証」と「検証失敗」を分けると、AIへの頼み直しが短くなる",
+      "url": "https://zenn.dev/ai_shihan/articles/6a6b61819a86ba",
+      "publishedAt": "2026-09-10T18:25:40.000Z",
+      "publisher": "ai_shihan",
+      "summary": "「まだ確認できていません」と「確認したら動きませんでした」。どちらも完了ではありませんが、次に頼む仕事は違います。 前者に必要なのは確認です。後者には、失敗した箇所の修正を頼みます。この二つを同じ「確認待ち」に入れると、直す必要があるもの…"
     },
     {
-      "id": "bd47c5e86502",
-      "title": "あなたのClaude Codeは直列ですか？うちは並列です。",
-      "url": "https://zenn.dev/tokium_dev/articles/foreman-tree-model-mechanism",
-      "publishedAt": "2026-09-10T09:02:29.000Z",
-      "publisher": "ikedan",
-      "summary": "! この記事は何の話か（3行まとめ） Claude Codeを複数窓同時に走らせると、タスクの二重着手・成果の取りこぼし・設定ファイルの上書き事故が起きます。それを防ぐために1年弱かけて作った自作機構Foremanの「内部機構編」です（成…"
+      "id": "5974cf7ffdbe",
+      "title": "Claude Code MaxプランでAPIキーを設定すると二重課金になるリスクと確認手順",
+      "url": "https://zenn.dev/joemike/articles/claude-code-max-plan-api-double-billing-risk-2026",
+      "publishedAt": "2026-09-10T17:15:18.000Z",
+      "publisher": "ミケ",
+      "summary": "Claude Code の Max プランを契約しているなら、ANTHROPIC_API_KEY の扱いには注意が必要です。 結論を先に言います。 Max プランの料金と API 従量課金は別の課金経路です。ANTHROPIC_API_K…"
     },
     {
-      "id": "14416a340269",
-      "title": "AIツール比較を二段階の探索状態として設計する",
-      "url": "https://zenn.dev/thumbsai/articles/3beb5b0cc9e3a0",
-      "publishedAt": "2026-09-10T08:49:06.000Z",
-      "publisher": "Joce Deri",
-      "summary": "AIツール比較を二段階の探索状態として設計する 本稿は公開ページから読み取れる情報をもとにした、AIツール探索UIの設計メモです。特定サービスの内部実装、採点ロジック、データ収集方法を説明するものではありません。 AIツールの比較UIには…"
+      "id": "dd4bfaabd7a3",
+      "title": "AIアシスタントを最大限活用！最適なGitワークフローで開発を自動化する",
+      "url": "https://zenn.dev/fd_ai_teacher/articles/tech-20260909171325-1",
+      "publishedAt": "2026-09-10T17:05:41.000Z",
+      "publisher": "FD_teacher",
+      "summary": "「GitHub Copilotを使っているけど、ただのコード補完で終わってない？」 AIアシスタントは単なるコード生成ツールではありません。Gitワークフロー全体に組み込むことで、開発プロセスを自動化し、チーム全体の生産性を劇的に向上させ…"
     },
     {
-      "id": "f6ba789b0235",
-      "title": "Why Is Claude Code So Expensive? 5 Cost Traps You’re Probably Missing",
-      "url": "https://zenn.dev/neotechpark/articles/44513005a72b43",
-      "publishedAt": "2026-09-10T08:45:48.000Z",
-      "publisher": "NeoTechPark",
-      "summary": "On August 26, 2026, Claude Code v2.1.247 shipped a new command, /claude-api cost-optimize. The changelog description so…"
+      "id": "cd3eccf57c6c",
+      "title": "【Excessive Agency】AIエージェントに強い権限を与える前に知っておきたいリスク",
+      "url": "https://zenn.dev/ykbone/articles/202609-security-excessive-agency",
+      "publishedAt": "2026-09-10T15:34:46.000Z",
+      "publisher": "ykbone",
+      "summary": "はじめに ファイルを書き換える、コマンドを実行する、メールを送る、データベースを操作する。便利なAIエージェントほど、こうした外に出す手段、平たく言えばAIエージェントに与えている強い権限を持っています。 2025年7月、ある出来事が話題…"
     },
     {
-      "id": "9032fc66d051",
-      "title": "【AI駆動開発】第1回：AIが仕様を守らないのは、仕様書の書き方のせいだった",
-      "url": "https://zenn.dev/kh_penzen/articles/d3620f789f5543",
-      "publishedAt": "2026-09-10T08:25:50.000Z",
-      "publisher": "kh_penzen",
-      "summary": "AIが仕様を守らないのは、仕様書の書き方のせいだった シリーズ「AIに実装させるための設計」全3回・第1回 こんにちわ。 AI駆動開発に携わって感じたことを３回に分けて備忘録的に記録していこうと思います。 仕様書を読んで同じ機能をAIに機…"
+      "id": "063b623f7d1f",
+      "title": "Pi で始めるお手軽ハーネス",
+      "url": "https://zenn.dev/contrea/articles/a780f6be371f0d",
+      "publishedAt": "2026-09-10T15:33:00.000Z",
+      "publisher": "hirykawa",
+      "summary": "はじめに 最近流行りの「ハーネス」、結局なんやねんと思っている方もいるんではないでしょうか。 この記事では、コーディングエージェント用の SDK「pi」に、システムプロンプトと自作ツールを数個渡すだけで、ひとつの業務エージェントを作りなが…"
     },
     {
-      "id": "2036ae852c3c",
-      "title": "AIにQAを任せて、俺はただ椅子に座っているだけにする。",
-      "url": "https://zenn.dev/n2freevas/articles/8c289879b640c0",
-      "publishedAt": "2026-09-10T08:07:11.000Z",
-      "publisher": "n2-freevas",
-      "summary": "AIに仕事を奪われかねない Webフロントエンドエンジニアです。 最近、QAに協力を仰がなくなる傾向が強くなってきました。理由は、AIに任せた方が速いから です。 XCode Simulator や、Android Visual Devi…"
+      "id": "b20191b83645",
+      "title": "ループ型 Transformer は推論を隠すのか — GPT-6 Astra を運用者目線で読む",
+      "url": "https://zenn.dev/sora_endo/articles/aether-looped-transformer-gpt6-astra",
+      "publishedAt": "2026-09-10T14:59:26.000Z",
+      "publisher": "SoraEndo/遠藤空",
+      "summary": "本記事は要約です。初出: https://aether-echoes.com/posts/looped-transformers-hidden-reasoning-gpt6-astra-operator-view 結論: ループ型 Tra…"
     },
     {
-      "id": "1b4480ac07cf",
-      "title": "Claude Code の memory と skill を分けて設計した——事実と手順の置き場所",
-      "url": "https://zenn.dev/container_cms/articles/67ecf02d9367aa",
-      "publishedAt": "2026-09-10T07:38:19.000Z",
-      "publisher": "Container（コンテナ）",
-      "summary": "Claude Code を継続的な開発・運用に使っていると、すぐに「同じ文脈を毎回渡し直す」問題にぶつかる。 セッションが変わるたびに、案件の背景・避けたい失敗・過去の判断理由をゼロから説明し直すのは非効率だし、書き漏らすと同じミスを繰り…"
+      "id": "4a75bdfc1dd2",
+      "title": "レイクハウスとAI",
+      "url": "https://zenn.dev/piroyoung/articles/2cd06213275b9c",
+      "publishedAt": "2026-09-10T14:05:40.000Z",
+      "publisher": "ヒロキミズカミ",
+      "summary": "ご無沙汰してます．ミズカミヒロキです．どうですか，みなさん最近なにしてますか？ループエンジニアリング？ AIへの熱狂を象徴する曖昧な言葉が生まれては消える昨今ですが，今日は地に足のついたテーブルデータの加工にAIモデルを効率よく活用する原…"
     },
     {
-      "id": "a6137a532669",
-      "title": "「AIが攻撃する」時代の実例を解剖する、RoamSwitchはどこまで効くのか",
-      "url": "https://zenn.dev/lafine/articles/beedf45dd5250e",
-      "publishedAt": "2026-09-10T07:20:00.000Z",
-      "publisher": "ふじき　てつはる",
-      "summary": "個人でmacOS向けのネットワークセキュリティアプリ「RoamSwitch」を開発している。信頼できるネットワーク以外に繋いだ瞬間にファイアウォールや共有サービスを自動でロックダウンし、Pro版ではランサムウェア的な挙動の検知時に通信を緊…"
+      "id": "454d4ec80944",
+      "title": "GPT Image 2.5を日本語で試してみた｜FlareとSunburstの違い・生成例・画像編集",
+      "url": "https://zenn.dev/owen01/articles/b5477d7e62a0a7",
+      "publishedAt": "2026-09-10T13:50:11.000Z",
+      "publisher": "owen01",
+      "summary": "OpenAIの新しい画像生成モデル「GPT Image 2.5」が登場しました。 今回のGPT Image 2.5では、用途の異なる2つのモデルが用意されています。 GPT Image 2.5 Flare GPT Image 2.5 Su…"
     },
     {
-      "id": "58897d271c92",
-      "title": "「成功」と嘘をついた自動化。終了コード0のまま止まっていた3か所",
-      "url": "https://zenn.dev/pcnotonari/articles/73ca526d2b67a9",
-      "publishedAt": "2026-09-10T07:12:03.000Z",
-      "publisher": "pcnotonari",
-      "summary": "神戸で中古PCの整備とレンタルをしている、ひとりの事業者です。実務はClaude Codeで動かしている「AI社員」9人に任せています。連番で7本書いているうちの2本目です。 1本目では、9人ぶんの役割ファイルとフォルダ構成を全部出しまし…"
+      "id": "8af0d08ca9ce",
+      "title": "ポケカを一度もやったことがない私が、AIだけで銅メダルを取るまで",
+      "url": "https://zenn.dev/shintaroamaike/articles/0fe1987ca7c4c3",
+      "publishedAt": "2026-09-10T13:07:49.000Z",
+      "publisher": "ShintaroAmaike",
+      "summary": "ポケカ（ポケモンカードゲーム）は一度もプレイしたことがなく、ドメイン知識も全くない。そんな状態で、コードを1行も書かずAIに全て任せたら、Kaggleでメダルが取れるのかを検証したかった。 そこでKaggleの「Pokémon Tradi…"
     },
     {
-      "id": "b17ec6496cb2",
-      "title": "写真の向き判定はなぜAIに難しい？CLIP・Bedrockが全滅した検証記録（前編）",
-      "url": "https://zenn.dev/akkodis_jp/articles/7c163a1522452f",
-      "publishedAt": "2026-09-10T06:41:51.000Z",
-      "publisher": "Huang Taicheng",
-      "summary": "0. はじめに 撮りためた大量の写真を、横向きや逆さまのまま保存してしまっていませんか。これを自動で正したい。単純そうなこのタスクが、実は汎用AIにとって想像以上に難しいと判明しました。 ! 前提: この記事は「EXIFの向き情報が入って…"
+      "id": "f839ca5c8f1e",
+      "title": "なぜ、AIが進化してもHAL9000、Skynet、MATRIXは生まれないのか？",
+      "url": "https://zenn.dev/pdfractal/articles/600a3bb387719f",
+      "publishedAt": "2026-09-10T13:00:11.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに 『2001年宇宙の旅』のHAL 9000、『ターミネーター』のSkynet、『MATRIX』の機械文明は、人工知能が高度化した未来を描いた代表的な存在です。現在でも人工知能の危険性を説明するときには、しばしばこれらの名前が持ち出…"
     },
     {
-      "id": "3b4703f52693",
-      "title": "常駐ハブと作業ワーカーで複数タスクを並行完走させるエージェントオーケストレーター「agent-adjutant」を作った",
-      "url": "https://zenn.dev/syarihu/articles/8cd121cf9bbc39",
-      "publishedAt": "2026-09-10T06:29:28.000Z",
-      "publisher": "syarihu",
-      "summary": "はじめに こんにちは。Androidエンジニアの@syarihuです。 普段の開発で、Claude CodeなどのAIコーディングエージェントを実務に投入する場面がすっかり定着してきました。Issueを渡せば調査から実装、PR作成まである…"
+      "id": "9ca9b737c3bd",
+      "title": "TDDを作った本人が「AI時代のTDDは誰も知らない」と言った回の要点",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr30-kentbeck-summary",
+      "publishedAt": "2026-09-10T13:00:11.000Z",
+      "publisher": "管理人K",
+      "summary": "! 本記事は The Pragmatic Engineer の公開動画を紹介・論評する目的で、筆者が要点を抽出しコメントを加えたものです。翻訳全文ではなく、動画の網羅や代替を意図したものでもありません。発言の意図は元動画でご確認ください。…"
     }
   ],
-  "fetchedAt": "2026-09-10T20:51:20.591Z",
+  "fetchedAt": "2026-09-10T22:55:32.972Z",
   "stale": false,
   "error": null
 }
