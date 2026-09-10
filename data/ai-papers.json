@@ -11,15 +11,15 @@
       "url": "https://huggingface.co/papers/2609.05405",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "summary": "Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing …",
-      "score": 20
+      "score": 24
     },
     {
-      "id": "0c6cb5de2ef0",
-      "title": "Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents",
-      "url": "https://huggingface.co/papers/2609.09219",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "AI research agents combine prior knowledge, public sources, and experimental feedback to produce useful results. The Di…",
-      "score": 12
+      "id": "2a46188971ba",
+      "title": "SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents",
+      "url": "https://huggingface.co/papers/2609.08149",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "SWE-Bench Pro has emerged as a standard benchmark for evaluating software engineering agents on challenging repository-…",
+      "score": 16
     },
     {
       "id": "435c18aef93e",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.09113",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "summary": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable auton…",
-      "score": 9
+      "score": 14
     },
     {
       "id": "d3239feadb9f",
@@ -35,23 +35,39 @@
       "url": "https://huggingface.co/papers/2609.06703",
       "publishedAt": "2026-09-06T00:00:00.000Z",
       "summary": "High-quality structured organic reaction data are essential for developing artificial intelligence for chemistry (AI4Ch…",
-      "score": 5
+      "score": 7
     },
     {
-      "id": "8e13978473f3",
-      "title": "Φ-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?",
-      "url": "https://huggingface.co/papers/2609.10226",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Large language models (LLMs) have demonstrated remarkable capabilities in reasoning and code generation, raising the pr…",
-      "score": 4
+      "id": "5979359b1e2a",
+      "title": "SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators",
+      "url": "https://huggingface.co/papers/2609.09155",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine…",
+      "score": 6
     },
     {
-      "id": "89b4490ee312",
-      "title": "AgenticGen: Reward-Guided Agentic Video Generation for Advertising",
-      "url": "https://huggingface.co/papers/2609.09187",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Advertising video generation is not only a video synthesis task, but also a product-conditioned reasoning problem whose…",
+      "id": "0524b759f2ce",
+      "title": "Train Smarter, Not Harder: Switching Signal-Guided Training in Active Learning",
+      "url": "https://huggingface.co/papers/2609.06806",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "summary": "Training strategy, namely whether to retrain from scratch or fine-tune from the previous checkpoint, is an overlooked d…",
+      "score": 3
+    },
+    {
+      "id": "d3507b1c34d5",
+      "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+      "url": "https://huggingface.co/papers/2609.09134",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a…",
       "score": 2
+    },
+    {
+      "id": "4066ca196e46",
+      "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
+      "url": "https://huggingface.co/papers/2609.10355",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "summary": "Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video repre…",
+      "score": 1
     },
     {
       "id": "e437367e2ef1",
@@ -62,20 +78,20 @@
       "score": 1
     },
     {
-      "id": "d3507b1c34d5",
-      "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
-      "url": "https://huggingface.co/papers/2609.09134",
+      "id": "3bf771bdfc28",
+      "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+      "url": "https://huggingface.co/papers/2609.08965",
       "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a…",
-      "score": 1
+      "summary": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used …",
+      "score": 0
     },
     {
-      "id": "f8b8ad467fa2",
-      "title": "Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation",
-      "url": "https://huggingface.co/papers/2609.00369",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Generating co-speech gestures that are temporally coherent, semantically aligned with speech, and grounded with surroun…",
-      "score": 1
+      "id": "2191d9b799f2",
+      "title": "Reference-Based Bias Detection in LLMs via Relative Representations of Hidden States",
+      "url": "https://huggingface.co/papers/2609.10060",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "summary": "Existing bias auditing methods typically rely on model outputs, requiring costly benchmarks or judge models and potenti…",
+      "score": 0
     },
     {
       "id": "f443cba662d5",
@@ -84,25 +100,9 @@
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "summary": "We introduce DF26, a novel benchmark for detecting AI-generated videos containing fully synthetic clips produced by rec…",
       "score": 0
-    },
-    {
-      "id": "a6c015529da3",
-      "title": "RESCUE-BENCH: Towards Relation-Aware Multi-Party Emotional Support Conversation Systems",
-      "url": "https://huggingface.co/papers/2609.09657",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Existing emotional support conversation systems mainly focus on one-on-one seeker-supporter interactions and individual…",
-      "score": 0
-    },
-    {
-      "id": "4e72db3edf8c",
-      "title": "Difficulty-Adaptive Tree-Structured Policy Optimization for Expanding Reasoning Coverage in RLVR",
-      "url": "https://huggingface.co/papers/2609.08650",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has been central to the recent success of Large Reasoning Models.…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-10T05:57:55.965Z",
+  "fetchedAt": "2026-09-10T10:54:45.635Z",
   "stale": false,
   "error": null
 }
