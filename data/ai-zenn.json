@@ -6,6 +6,62 @@
   "category": "ai",
   "items": [
     {
+      "id": "64973bce7585",
+      "title": "2026-08-25 今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-25-tech-daily",
+      "publishedAt": "2026-09-09T22:17:36.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 2026年8月25日現在の技術トレンドでは、大規模言語モデル（LLM）単体の利用から「AIエージェント」や「具身知能（Embodied AI）」の現場実装へとフェーズがシフトしています。富士通や博報堂テクノロジーズによるエージェント構…"
+    },
+    {
+      "id": "d539bb54314a",
+      "title": "医療機器管理×機械学習——「ドメイン知識×コーディング」が効く理由",
+      "url": "https://zenn.dev/taichiendoh/articles/ml-medical-device-management-domain-knowledge",
+      "publishedAt": "2026-09-09T22:16:32.000Z",
+      "publisher": "遠藤太一",
+      "summary": "初出: note（機械学習と医療機器管理）。Zenn向けに技術的な背景と現在の視点を補って再構成しました。 臨床工学技士として医療機器管理の現場に立っていた頃、「このデータ、機械学習にかけたらどうなるだろう」と考えたことが何度もあります。…"
+    },
+    {
+      "id": "8a2f13bc8ce7",
+      "title": "Claude APIで商談準備とフォローを一気通貫にする",
+      "url": "https://zenn.dev/liatris/articles/20260910-sales-prep-followup-ai",
+      "publishedAt": "2026-09-09T22:00:05.000Z",
+      "publisher": "平野翔斗",
+      "summary": "! この記事は、Claude Codeを執筆支援に使った \"毎朝1本書く\" 取り組みの一環で書いています。 目的: 自分のAI活用キャッチアップ。仕組み自体も毎月アップデートしていきます 体制: 題材選定・実装・下書きをClaude Co…"
+    },
+    {
+      "id": "6e57eb64f383",
+      "title": "AIで作ったシフト管理アプリが、一度も使われずゴミ箱行きになった話",
+      "url": "https://zenn.dev/i_shu/articles/076e1debfeeebb",
+      "publishedAt": "2026-09-09T21:55:41.000Z",
+      "publisher": "夢見る新卒SE",
+      "summary": "IT中級者・上級者の方は、ここから先は絶対に見ないでください 釈迦に説法、河童に水練です。見ても得るものはありません。 ……そう言われると逆に気になりませんか？ それでも読んでしまったあなたは、たぶん僕と同じタイプです。 僕はIT企業（N…"
+    },
+    {
+      "id": "ca3035a499b2",
+      "title": "AIエンジニアのためのコンパイラ理論入門",
+      "url": "https://zenn.dev/tanuki_chan/books/2936b2eb58db4a",
+      "publishedAt": "2026-09-09T21:35:33.000Z",
+      "publisher": "天知たぬき",
+      "summary": "ChatGPTやClaudeでアプリを作っていて、「正規表現のパースが崩れる」「プロンプトが長すぎて制御不能」「エージェントが無限ループで暴走する」と頭を抱えたことはありませんか？ その原因は、プロンプトの言葉選びではなく、複雑な情報を「…"
+    },
+    {
+      "id": "2fab70a53dad",
+      "title": "Claude CodeとCodexを同じ成果物で相互レビューさせる",
+      "url": "https://zenn.dev/chooser/articles/meta-002-ai-dev-process",
+      "publishedAt": "2026-09-09T21:31:04.000Z",
+      "publisher": "chooser",
+      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 Claude CodeとCodexを同…"
+    },
+    {
+      "id": "ec3094f7419d",
+      "title": "個人開発の告知画像を、1つのコンセプトから3方向に展開する",
+      "url": "https://zenn.dev/viewmax_studio/articles/fdb30235c704c3",
+      "publishedAt": "2026-09-09T19:43:22.000Z",
+      "publisher": "ViewMax Studio",
+      "summary": "個人開発の告知では、機能を説明する文章に加えて、どんな雰囲気のプロダクトなのか伝わる画像があると見せ方を考えやすくなります。今回はViewMax Canvasで架空の香水「AMBER」を制作し、基準画像を使いながら3つのビジュアルに展開し…"
+    },
+    {
       "id": "9f00bc77bf94",
       "title": "知能の本質は\"確率予測\"なのか——ハルシネーションから道具的収束、感情の正体まで",
       "url": "https://zenn.dev/hitoshi_ai_arch/articles/2744a7447e86bf",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-09-09T13:38:14.000Z",
       "publisher": "Hikotty / Hikoto Iseda",
       "summary": "はじめに 自社で運用している AI チャットアプリに「前に話したことを覚えていてほしい」という要望が来たとき、Amazon Bedrock AgentCore Memory の長期記憶は候補の一つになります。ユーザーの好みや事実をマネージ…"
-    },
-    {
-      "id": "0954b926d095",
-      "title": "AIの登場で様々なアルゴリズムを実装できる理由",
-      "url": "https://zenn.dev/hiro_f35/articles/9d410eed4e5f81",
-      "publishedAt": "2026-09-09T13:30:24.000Z",
-      "publisher": "hiro_f35",
-      "summary": "AI（特にLLM＝大規模言語モデルやコード生成AI）の登場によって、従来のプログラミング手法や開発アプローチが大きく変化し、多角的なアルゴリズムを容易に実装・運用できるようになりました。その主な理由は以下の通りです。 自然言語（プログラミ…"
-    },
-    {
-      "id": "b295f5fe2add",
-      "title": "Claude Code で「さっきの続きやって」が一番高いのか確かめた",
-      "url": "https://zenn.dev/sui_water/articles/cfe2a86c01b22a",
-      "publishedAt": "2026-09-09T13:11:38.000Z",
-      "publisher": "スイ",
-      "summary": "Claude Code の利用状況を OpenTelemetry で Cloudflare D1 にためています。ためはじめて 3 か月半が経ち、まとまった量のデータが集まってきました。 このデータで確かめたいことがありました。odacc…"
-    },
-    {
-      "id": "b507fac72b65",
-      "title": "「AI時代のTDDは誰も知らない」——Kent Beck 回のどれが伸びるか（#30 投稿前予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr30-kentbeck-prediction",
-      "publishedAt": "2026-09-09T13:00:09.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
-    },
-    {
-      "id": "27f4366a443d",
-      "title": "Grok Botを使ってみた話と、1時間で開発組織ができた話",
-      "url": "https://zenn.dev/imaichiyyy/articles/c641c9ac4f4d97",
-      "publishedAt": "2026-09-09T12:57:30.000Z",
-      "publisher": "imaichiyyy",
-      "summary": "※9/9追記：本記事はあくまで「触ってみた」なので、ちゃんとした技術記事を見るならGrok Bot Specialistさんの記事をみた方が良いです。 ※本記事のサービス仕様は2026年9月7日時点のものです。Grok BotおよびOri…"
-    },
-    {
-      "id": "f2a428ee9c0e",
-      "title": "TomiLite - AIに「質問する」だけではなく、AIに実際の仕事を任せる。",
-      "url": "https://zenn.dev/jameswu/articles/071dc1da7c18da",
-      "publishedAt": "2026-09-09T12:10:19.000Z",
-      "publisher": "JamesW",
-      "summary": "TomiLite — Local-first AI Agent Workspace AIに「質問する」だけではなく、AIに実際の仕事を任せる。 そんな考えから、TomiLiteを開発しています。 TomiLiteは、Local-first…"
-    },
-    {
-      "id": "6d04b348e316",
-      "title": "LLM判定は、安いフィルタの後ろに置く",
-      "url": "https://zenn.dev/miyakona/articles/llm-filter-pipeline-order",
-      "publishedAt": "2026-09-09T11:57:11.000Z",
-      "publisher": "miyakona",
-      "summary": "外部サイトから集めた記事候補を、関連するものだけに絞るバッチを運用しています。候補のタイトルと要約を大規模言語モデル（LLM）へ渡し、関連があればダウンロードする仕組みです。 処理が遅くなったとき、私はダウンロード部分が原因だろうと考えて…"
-    },
-    {
-      "id": "4d513ddaca08",
-      "title": "外部調査を、あとから答え合わせに使う——game-dev-playbookの運用実例",
-      "url": "https://zenn.dev/peyangu485/articles/jibun-os-playbook",
-      "publishedAt": "2026-09-09T11:09:28.000Z",
-      "publisher": "𣜿音サクヤ",
-      "summary": "! この記事は連載「AIと作る、ひとりの開発OS」の一部です。単体で読めますが、全体像は noteのハブ記事 にまとめています。 Phase2「裏側・方法論」の最後は、game-dev-playbookという資料の話だ。以前の記事で、これ…"
     }
   ],
-  "fetchedAt": "2026-09-09T23:14:37.120Z",
+  "fetchedAt": "2026-09-10T01:07:28.428Z",
   "stale": false,
   "error": null
 }
