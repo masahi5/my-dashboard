@@ -11,31 +11,23 @@
       "url": "https://huggingface.co/papers/2609.08572",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "summary": "Large language model (LLM)-based multi-agent systems (MAS) achieve strong performance by employing specialized multiple…",
-      "score": 40
+      "score": 55
     },
     {
-      "id": "2a46188971ba",
-      "title": "SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents",
-      "url": "https://huggingface.co/papers/2609.08149",
+      "id": "a2b5b4395d58",
+      "title": "A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware",
+      "url": "https://huggingface.co/papers/2609.05463",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "AI-powered search products such as ChatGPT search, Google's AI Overviews, and Perplexity provide LLM-synthesized answer…",
+      "score": 4
+    },
+    {
+      "id": "10a8bcc6ea67",
+      "title": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
+      "url": "https://huggingface.co/papers/2609.09264",
       "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "SWE-Bench Pro has emerged as a standard benchmark for evaluating software engineering agents on challenging repository-…",
-      "score": 18
-    },
-    {
-      "id": "5979359b1e2a",
-      "title": "SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators",
-      "url": "https://huggingface.co/papers/2609.09155",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine…",
-      "score": 8
-    },
-    {
-      "id": "0524b759f2ce",
-      "title": "Train Smarter, Not Harder: Switching Signal-Guided Training in Active Learning",
-      "url": "https://huggingface.co/papers/2609.06806",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "summary": "Training strategy, namely whether to retrain from scratch or fine-tune from the previous checkpoint, is an overlooked d…",
-      "score": 7
+      "summary": "Leading benchmarks for formal theorem proving with large language models are small collections drawn from competition m…",
+      "score": 4
     },
     {
       "id": "5be725ef3fc4",
@@ -54,11 +46,19 @@
       "score": 4
     },
     {
-      "id": "10a8bcc6ea67",
-      "title": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
-      "url": "https://huggingface.co/papers/2609.09264",
+      "id": "48dbbd0b9561",
+      "title": "PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents",
+      "url": "https://huggingface.co/papers/2609.06702",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "summary": "Sequential memory agents process long documents by reading chunks one after another while maintaining a compact memory …",
+      "score": 3
+    },
+    {
+      "id": "bf1d9af4ed4d",
+      "title": "SchemeArena: Factorized Stress Testing of Scheming in LLM Agents",
+      "url": "https://huggingface.co/papers/2609.08126",
       "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Leading benchmarks for formal theorem proving with large language models are small collections drawn from competition m…",
+      "summary": "We study scheming in LLM agents, in which agents covertly pursue misaligned goals. Our focus is to understand how schem…",
       "score": 3
     },
     {
@@ -94,15 +94,15 @@
       "score": 1
     },
     {
-      "id": "f443cba662d5",
-      "title": "DF26: We Cannot Tell Fake From Real Anymore",
-      "url": "https://huggingface.co/papers/2609.07369",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "We introduce DF26, a novel benchmark for detecting AI-generated videos containing fully synthetic clips produced by rec…",
-      "score": 1
+      "id": "9c3ced24b482",
+      "title": "The Price of Sparsity: Sufficient Conditions for Sparse Recovery using Sparse and Sparsified Measurements",
+      "url": "https://huggingface.co/papers/2509.01809",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "We consider the problem of support recovery for sparse binary signals from noisy linear measurements. For sparse Gaussi…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-10T14:46:37.512Z",
+  "fetchedAt": "2026-09-10T18:02:39.541Z",
   "stale": false,
   "error": null
 }

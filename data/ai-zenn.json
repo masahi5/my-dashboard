@@ -6,30 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "1b4480ac07cf",
-      "title": "Claude Code の memory と skill を分けて設計した——事実と手順の置き場所",
-      "url": "https://zenn.dev/container_cms/articles/67ecf02d9367aa",
-      "publishedAt": "2026-09-10T07:38:19.000Z",
-      "publisher": "Container（コンテナ）",
-      "summary": "Claude Code を継続的な開発・運用に使っていると、すぐに「同じ文脈を毎回渡し直す」問題にぶつかる。 セッションが変わるたびに、案件の背景・避けたい失敗・過去の判断理由をゼロから説明し直すのは非効率だし、書き漏らすと同じミスを繰り…"
-    },
-    {
-      "id": "a6137a532669",
-      "title": "「AIが攻撃する」時代の実例を解剖する、RoamSwitchはどこまで効くのか",
-      "url": "https://zenn.dev/lafine/articles/beedf45dd5250e",
-      "publishedAt": "2026-09-10T07:20:00.000Z",
-      "publisher": "ふじき　てつはる",
-      "summary": "個人でmacOS向けのネットワークセキュリティアプリ「RoamSwitch」を開発している。信頼できるネットワーク以外に繋いだ瞬間にファイアウォールや共有サービスを自動でロックダウンし、Pro版ではランサムウェア的な挙動の検知時に通信を緊…"
-    },
-    {
-      "id": "58897d271c92",
-      "title": "「成功」と嘘をついた自動化。終了コード0のまま止まっていた3か所",
-      "url": "https://zenn.dev/pcnotonari/articles/73ca526d2b67a9",
-      "publishedAt": "2026-09-10T07:12:03.000Z",
-      "publisher": "pcnotonari",
-      "summary": "神戸で中古PCの整備とレンタルをしている、ひとりの事業者です。実務はClaude Codeで動かしている「AI社員」9人に任せています。連番で7本書いているうちの2本目です。 1本目では、9人ぶんの役割ファイルとフォルダ構成を全部出しまし…"
-    },
-    {
       "id": "b17ec6496cb2",
       "title": "写真の向き判定はなぜAIに難しい？CLIP・Bedrockが全滅した検証記録（前編）",
       "url": "https://zenn.dev/akkodis_jp/articles/7c163a1522452f",
@@ -100,9 +76,33 @@
       "publishedAt": "2026-09-10T04:38:52.000Z",
       "publisher": "いまいまい",
       "summary": "誰かの作った膨大なAI駆動開発のワークフローやフレームワークではなく、私が個人的にAIにこう動いて欲しいと与えているものをまとめています。間違っていることがどんどん取り入れていきたいので教えてください。 コーディングに特化した内容、具体の…"
+    },
+    {
+      "id": "9e47d097ca5f",
+      "title": "AI駆動開発時代に読み直す『ハッカーになろう』の5つの心構え",
+      "url": "https://zenn.dev/suzuki_tech/articles/3ff954b180e07a",
+      "publishedAt": "2026-09-10T04:22:31.000Z",
+      "publisher": "SuzukiTech",
+      "summary": "AIに頼めば、コードが出てくる。 エラーを貼れば原因の候補が返ってくる。知らない言語でも、動くものまでは作れる。少し前なら何日も調べていたことに、数分で手が届くようになりました。 では、誰でもハッカーになれる時代が来たのでしょうか。 たぶ…"
+    },
+    {
+      "id": "c0b6e56c57bb",
+      "title": "自分専用のASRモデルを作ってみた",
+      "url": "https://zenn.dev/holy_fox/articles/7e2d1c8fa2ab6e",
+      "publishedAt": "2026-09-10T04:18:23.000Z",
+      "publisher": "ほーりーふぉっくす",
+      "summary": "はじめに こんにちは！自分は最近はChatGPTやClaudeを使うときに音声入力を使うことが多くなっていると思います。 しかしその時に自分の声があんまりよく文字起こしされない！（自分の意図を汲み取ってくれない！） それだとAIとよく意思…"
+    },
+    {
+      "id": "94034620e46a",
+      "title": "なろうでAI申告が必須になった ── 小説投稿サイトの生成AI規約まとめ【2026年9月】",
+      "url": "https://zenn.dev/rads/articles/579cf2700f05e8",
+      "publishedAt": "2026-09-10T03:59:13.000Z",
+      "publisher": "Rads",
+      "summary": "2026年9月1日から、小説家になろうでAI利用状況を設定しないと、投稿も更新もできなくなった。 自分は生成AIを使って小説を書いているので、投稿を始める前に主要サイトの規約を一通り調べた。その記録をまとめておく。 規約は変わる。この記事…"
     }
   ],
-  "fetchedAt": "2026-09-10T14:46:37.727Z",
+  "fetchedAt": "2026-09-10T18:02:39.853Z",
   "stale": false,
   "error": null
 }
