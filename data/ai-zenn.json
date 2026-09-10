@@ -6,6 +6,86 @@
   "category": "ai",
   "items": [
     {
+      "id": "f68dc2ddd2cb",
+      "title": "Windows で AI エージェント用端末を2週間直して分かった、6つの詰まりどころ",
+      "url": "https://zenn.dev/iostar/articles/bd04ca6ce699bf",
+      "publishedAt": "2026-09-10T10:14:12.000Z",
+      "publisher": "SHIKISHATERM",
+      "summary": "AIエージェントを何枚も並べて動かすことだけを考えて作った、Windows 用のターミナルを公開しています。SHIKISHA-TERM といいます。 ターミナルでAIを動かすのが当たり前になってから、Mac には最初からそういう設計の端末…"
+    },
+    {
+      "id": "bd0367d53aad",
+      "title": "Claude Code で Matt Pocock skills の /implement を並列オーケストレーター化",
+      "url": "https://zenn.dev/daydreamer/articles/ee68b9023a7e45",
+      "publishedAt": "2026-09-10T09:20:34.000Z",
+      "publisher": "daydreamer",
+      "summary": "はじめに superpowers から Matt Pocock の skills プラグインに乗り換えました。/grill-with-docs → /to-spec → /to-tickets → /implement の流れは気持ちいい…"
+    },
+    {
+      "id": "bd47c5e86502",
+      "title": "あなたのClaude Codeは直列ですか？うちは並列です。",
+      "url": "https://zenn.dev/tokium_dev/articles/foreman-tree-model-mechanism",
+      "publishedAt": "2026-09-10T09:02:29.000Z",
+      "publisher": "ikedan",
+      "summary": "! この記事は何の話か（3行まとめ） Claude Codeを複数窓同時に走らせると、タスクの二重着手・成果の取りこぼし・設定ファイルの上書き事故が起きます。それを防ぐために1年弱かけて作った自作機構Foremanの「内部機構編」です（成…"
+    },
+    {
+      "id": "14416a340269",
+      "title": "AIツール比較を二段階の探索状態として設計する",
+      "url": "https://zenn.dev/thumbsai/articles/3beb5b0cc9e3a0",
+      "publishedAt": "2026-09-10T08:49:06.000Z",
+      "publisher": "Joce Deri",
+      "summary": "AIツール比較を二段階の探索状態として設計する 本稿は公開ページから読み取れる情報をもとにした、AIツール探索UIの設計メモです。特定サービスの内部実装、採点ロジック、データ収集方法を説明するものではありません。 AIツールの比較UIには…"
+    },
+    {
+      "id": "f6ba789b0235",
+      "title": "Why Is Claude Code So Expensive? 5 Cost Traps You’re Probably Missing",
+      "url": "https://zenn.dev/neotechpark/articles/44513005a72b43",
+      "publishedAt": "2026-09-10T08:45:48.000Z",
+      "publisher": "NeoTechPark",
+      "summary": "On August 26, 2026, Claude Code v2.1.247 shipped a new command, /claude-api cost-optimize. The changelog description so…"
+    },
+    {
+      "id": "9032fc66d051",
+      "title": "【AI駆動開発】第1回：AIが仕様を守らないのは、仕様書の書き方のせいだった",
+      "url": "https://zenn.dev/kh_penzen/articles/d3620f789f5543",
+      "publishedAt": "2026-09-10T08:25:50.000Z",
+      "publisher": "kh_penzen",
+      "summary": "AIが仕様を守らないのは、仕様書の書き方のせいだった シリーズ「AIに実装させるための設計」全3回・第1回 こんにちわ。 AI駆動開発に携わって感じたことを３回に分けて備忘録的に記録していこうと思います。 仕様書を読んで同じ機能をAIに機…"
+    },
+    {
+      "id": "2036ae852c3c",
+      "title": "AIにQAを任せて、俺はただ椅子に座っているだけにする。",
+      "url": "https://zenn.dev/n2freevas/articles/8c289879b640c0",
+      "publishedAt": "2026-09-10T08:07:11.000Z",
+      "publisher": "n2-freevas",
+      "summary": "AIに仕事を奪われかねない Webフロントエンドエンジニアです。 最近、QAに協力を仰がなくなる傾向が強くなってきました。理由は、AIに任せた方が速いから です。 XCode Simulator や、Android Visual Devi…"
+    },
+    {
+      "id": "1b4480ac07cf",
+      "title": "Claude Code の memory と skill を分けて設計した——事実と手順の置き場所",
+      "url": "https://zenn.dev/container_cms/articles/67ecf02d9367aa",
+      "publishedAt": "2026-09-10T07:38:19.000Z",
+      "publisher": "Container（コンテナ）",
+      "summary": "Claude Code を継続的な開発・運用に使っていると、すぐに「同じ文脈を毎回渡し直す」問題にぶつかる。 セッションが変わるたびに、案件の背景・避けたい失敗・過去の判断理由をゼロから説明し直すのは非効率だし、書き漏らすと同じミスを繰り…"
+    },
+    {
+      "id": "a6137a532669",
+      "title": "「AIが攻撃する」時代の実例を解剖する、RoamSwitchはどこまで効くのか",
+      "url": "https://zenn.dev/lafine/articles/beedf45dd5250e",
+      "publishedAt": "2026-09-10T07:20:00.000Z",
+      "publisher": "ふじき　てつはる",
+      "summary": "個人でmacOS向けのネットワークセキュリティアプリ「RoamSwitch」を開発している。信頼できるネットワーク以外に繋いだ瞬間にファイアウォールや共有サービスを自動でロックダウンし、Pro版ではランサムウェア的な挙動の検知時に通信を緊…"
+    },
+    {
+      "id": "58897d271c92",
+      "title": "「成功」と嘘をついた自動化。終了コード0のまま止まっていた3か所",
+      "url": "https://zenn.dev/pcnotonari/articles/73ca526d2b67a9",
+      "publishedAt": "2026-09-10T07:12:03.000Z",
+      "publisher": "pcnotonari",
+      "summary": "神戸で中古PCの整備とレンタルをしている、ひとりの事業者です。実務はClaude Codeで動かしている「AI社員」9人に任せています。連番で7本書いているうちの2本目です。 1本目では、9人ぶんの役割ファイルとフォルダ構成を全部出しまし…"
+    },
+    {
       "id": "b17ec6496cb2",
       "title": "写真の向き判定はなぜAIに難しい？CLIP・Bedrockが全滅した検証記録（前編）",
       "url": "https://zenn.dev/akkodis_jp/articles/7c163a1522452f",
@@ -20,89 +100,9 @@
       "publishedAt": "2026-09-10T06:29:28.000Z",
       "publisher": "syarihu",
       "summary": "はじめに こんにちは。Androidエンジニアの@syarihuです。 普段の開発で、Claude CodeなどのAIコーディングエージェントを実務に投入する場面がすっかり定着してきました。Issueを渡せば調査から実装、PR作成まである…"
-    },
-    {
-      "id": "c937be4b30a2",
-      "title": "一番時間を割いていた場所が、一番レビューの要らない場所になった",
-      "url": "https://zenn.dev/tiesplayhub/articles/bdb6a04f2dd0f7",
-      "publishedAt": "2026-09-10T06:22:35.000Z",
-      "publisher": "あるぱか｜AI駆動開発 ゲーマー向けアプリ開発",
-      "summary": "AIに書かせているプロジェクトのテストが、3,000件を超えました。規模からすると全然足りていません。ただ、本数を増やせば済む話でもないと思っています。 前編で「テストがあるから任せられる」と書きましたが、そのテストもAIが書いています。…"
-    },
-    {
-      "id": "d40e58925343",
-      "title": "金曜夜に「ちょうどいい店が空いた」とAIが気づいたら、どう通知すべきか",
-      "url": "https://zenn.dev/akari_chan/articles/b237bd279ea2cb",
-      "publishedAt": "2026-09-10T06:06:59.000Z",
-      "publisher": "灯（Akari）",
-      "summary": "金曜日の17時40分。 仕事が思ったより早く終わりそうです。 そんな時、AIから突然、 19時から入れる店が一つあります。 今夜の気分に合いそうです。 と届いたら、少し便利かもしれません。 でも同時に、 「なぜ今これを勧められたんだろう」…"
-    },
-    {
-      "id": "f4acda6447b3",
-      "title": "会話できる深夜レストランを選ぶAI設計：変わる事実をどう扱うか",
-      "url": "https://zenn.dev/amamiya_chan/articles/d6a806a6fc930b",
-      "publishedAt": "2026-09-10T06:02:29.000Z",
-      "publisher": "雨宮（Amamiya）",
-      "summary": "TL;DR 深夜のグループディナーでは、人気順より先に「到着後も注文できるか」「全員が座れるか」を判定します。 「会話しやすい」は固定タグではなく、曜日・時刻・席エリア付きの観測値として扱います。 古い情報は推測で補わず、VERIFY に…"
-    },
-    {
-      "id": "874e59207b49",
-      "title": "ツール呼び出しの55.5%はサブエージェントが出していた。画面に見えているのは半分以下だった",
-      "url": "https://zenn.dev/tsutomusaito/articles/subagent-does-more-work-ja",
-      "publishedAt": "2026-09-10T05:02:44.000Z",
-      "publisher": "saito",
-      "summary": "30日ぶんのセッション記録を、本体とサブエージェントに分けて数えた。 記録 5,958 本 = 本体 2,948 / サブエージェント 3,010 = 50.5% ツール呼び出し合計 188,040 / 本体 83,604 / サブ 10…"
-    },
-    {
-      "id": "04eb7b24440d",
-      "title": "最強を狙わないInkling、Muratiのラボが975Bを公開して賭けた『正直さ』",
-      "url": "https://zenn.dev/okssusucha/articles/20260718-thinking-machines-inkling-open-weights",
-      "publishedAt": "2026-09-10T04:44:41.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "フロンティアラボが新しいモデルを出すとき、普通は「これが今いちばん強い」と胸を張る。ところが7月15日に公開されたInklingの告知には、こう書いてある。 Inkling is not the strongest overall mod…"
-    },
-    {
-      "id": "ba56c57a3a6a",
-      "title": "「ギュりとギュら」――検索AIのハルシネーションは現実を書き換えるか",
-      "url": "https://zenn.dev/minipoisson/articles/gyuri-to-gyura",
-      "publishedAt": "2026-09-10T04:39:05.000Z",
-      "publisher": "minipoisson",
-      "summary": "はじめに 最近、「ギュられる」という言葉を見かけるようになった。 シンギュラリティの「ギュ」から、AI によって仕事を奪われたり、従来の技能の価値が失われたりすることを「ギュられる」と表現するらしい[1]。 それを見て、ふと思った。 「ギ…"
-    },
-    {
-      "id": "948869df5544",
-      "title": "良いAIの行動、メモ",
-      "url": "https://zenn.dev/imaimai17468/articles/4fe1531b71929b",
-      "publishedAt": "2026-09-10T04:38:52.000Z",
-      "publisher": "いまいまい",
-      "summary": "誰かの作った膨大なAI駆動開発のワークフローやフレームワークではなく、私が個人的にAIにこう動いて欲しいと与えているものをまとめています。間違っていることがどんどん取り入れていきたいので教えてください。 コーディングに特化した内容、具体の…"
-    },
-    {
-      "id": "9e47d097ca5f",
-      "title": "AI駆動開発時代に読み直す『ハッカーになろう』の5つの心構え",
-      "url": "https://zenn.dev/suzuki_tech/articles/3ff954b180e07a",
-      "publishedAt": "2026-09-10T04:22:31.000Z",
-      "publisher": "SuzukiTech",
-      "summary": "AIに頼めば、コードが出てくる。 エラーを貼れば原因の候補が返ってくる。知らない言語でも、動くものまでは作れる。少し前なら何日も調べていたことに、数分で手が届くようになりました。 では、誰でもハッカーになれる時代が来たのでしょうか。 たぶ…"
-    },
-    {
-      "id": "c0b6e56c57bb",
-      "title": "自分専用のASRモデルを作ってみた",
-      "url": "https://zenn.dev/holy_fox/articles/7e2d1c8fa2ab6e",
-      "publishedAt": "2026-09-10T04:18:23.000Z",
-      "publisher": "ほーりーふぉっくす",
-      "summary": "はじめに こんにちは！自分は最近はChatGPTやClaudeを使うときに音声入力を使うことが多くなっていると思います。 しかしその時に自分の声があんまりよく文字起こしされない！（自分の意図を汲み取ってくれない！） それだとAIとよく意思…"
-    },
-    {
-      "id": "94034620e46a",
-      "title": "なろうでAI申告が必須になった ── 小説投稿サイトの生成AI規約まとめ【2026年9月】",
-      "url": "https://zenn.dev/rads/articles/579cf2700f05e8",
-      "publishedAt": "2026-09-10T03:59:13.000Z",
-      "publisher": "Rads",
-      "summary": "2026年9月1日から、小説家になろうでAI利用状況を設定しないと、投稿も更新もできなくなった。 自分は生成AIを使って小説を書いているので、投稿を始める前に主要サイトの規約を一通り調べた。その記録をまとめておく。 規約は変わる。この記事…"
     }
   ],
-  "fetchedAt": "2026-09-10T18:02:39.853Z",
+  "fetchedAt": "2026-09-10T20:51:20.591Z",
   "stale": false,
   "error": null
 }
