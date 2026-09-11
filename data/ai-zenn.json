@@ -6,6 +6,46 @@
   "category": "ai",
   "items": [
     {
+      "id": "b0c92c69e711",
+      "title": "ブラウザ画像ぼかしUIを状態モデルとして分解する",
+      "url": "https://zenn.dev/choco1/articles/69c6434a0e02ca",
+      "publishedAt": "2026-09-11T11:38:46.000Z",
+      "publisher": "choco1",
+      "summary": "この記事は BlurImage の公開UIをブラックボックス観察した設計メモです。ソースコード、内部アーキテクチャ、ベンチマークを示すものではありません。 入力経路を一つのモデルにまとめる 公開画面にはアップロード、クリップボード貼り付け…"
+    },
+    {
+      "id": "6206c5eea131",
+      "title": "OpenClawをWindows無料枠で動かす詰まりどころ全部――429・TPM超過から設定ファイル集まで",
+      "url": "https://zenn.dev/builders_loop/books/openclaw-windows-guide",
+      "publishedAt": "2026-09-11T11:31:13.000Z",
+      "publisher": "BuildersLoop",
+      "summary": "OpenClaw（自律エージェント基盤）を、無料枠のGoogle Gemini/Gemmaで、そしてその後ローカルGPU(Ollama)で Windows上に動かそうとして実際にぶつかった壁と、そのとき使った設定ファイル一式の記録です。 …"
+    },
+    {
+      "id": "b4e2b6bf047d",
+      "title": "Excel Data Visualizer 終了後に Excel から Visio を作る3つの方法",
+      "url": "https://zenn.dev/daviechen/articles/76f23c19eb2f73",
+      "publishedAt": "2026-09-11T11:17:38.000Z",
+      "publisher": "daviechen",
+      "summary": "Excel 内で使う Visio Data Visualizer アドインの手順を今もそのまま案内している記事は、すでに古くなっています。Microsoft は 2025 年 12 月にアドインを AppSource から削除し、2026…"
+    },
+    {
+      "id": "588ffdcb9f46",
+      "title": "Anthropic社「Fable 5」「Mythos 5」を巡る技術的・地政学的分析：攻撃能力とAI統制の深層",
+      "url": "https://zenn.dev/emilia_lab/articles/anthropic-fable5-mythos5-geopolitics",
+      "publishedAt": "2026-09-11T11:16:32.000Z",
+      "publisher": "エミリアラボ",
+      "summary": "導入：兵器化するフロンティアAIと地政学的な歴史的転換点 2026年6月上旬、世界の人工知能およびサイバーセキュリティの歴史において、最も劇的かつ物議を醸す出来事が発生した。米国サンフランシスコに拠点を置くAI開発企業Anthropicは…"
+    },
+    {
+      "id": "573fb8761ba7",
+      "title": "GPT-6 Astra登場、でも本当に大事なのは「裏を取る力」",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260911",
+      "publishedAt": "2026-09-11T10:49:57.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年9月11日（金）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は新しいAIが一気に出てきた日なんですよ。OpenAIのGPT-6 Astra、中国DeepSeekの新モデル、コーディング用の…"
+    },
+    {
       "id": "48d436010ebb",
       "title": "Astraに「玉ねぎを3ミリに切れ」と指示する愚行",
       "url": "https://zenn.dev/karamage/articles/e49ccf76ad111c",
@@ -60,49 +100,9 @@
       "publishedAt": "2026-09-11T08:38:08.000Z",
       "publisher": "AI Img Prompt",
       "summary": "画像生成AIを毎日触っていると、プロンプトがメモ帳・チャット履歴・スクリーンショットに散らばっていきます。後から「あの質感、どう出したっけ」と探し直す時間が、地味にいちばんもったいない部分です。 散らかる原因は「保存のタイミング」 生成が…"
-    },
-    {
-      "id": "d81c5b6d3454",
-      "title": "2026年9月11日のITニュースまとめ：AIエージェント、クラウド、半導体、セキュリティ",
-      "url": "https://zenn.dev/sponge841841/articles/2026-09-11-it-news-roundup",
-      "publishedAt": "2026-09-11T08:35:31.000Z",
-      "publisher": "ちっち",
-      "summary": "2026年9月11日（日本時間）時点で確認できた主要ITニュースをまとめます。 今回は、企業の一次情報・公的機関の発表を優先し、必要に応じてReutersの報道でも内容を突き合わせています。発表日時が米国時間の9月10日でも、日本では9月…"
-    },
-    {
-      "id": "5a54130ca27f",
-      "title": "KDD 2026 参加レポート: Generative Recommendation の最新動向",
-      "url": "https://zenn.dev/dmmdata/articles/kdd-2026-report",
-      "publishedAt": "2026-09-11T08:14:48.000Z",
-      "publisher": "Komekami",
-      "summary": "はじめに DMM.com のデータサイエンス&AIグループで、レコメンドシステムの開発を担当している寺井です。 2026/8/9 ~ 2026/8/13 にて、韓国・済州島で開催された KDD 2026 (The 32nd ACM SIG…"
-    },
-    {
-      "id": "cabbdc58dd7a",
-      "title": "AIエージェントに会社の実務を回させるとき、私が引いている3本の線",
-      "url": "https://zenn.dev/rust_start/articles/0adc828c3bc37a",
-      "publishedAt": "2026-09-11T07:59:36.000Z",
-      "publisher": "高橋高",
-      "summary": "連載「空いた手で」第1回。AI に会社を運転させ、空いた手で日本の文化を次の世代へ渡す、ということを実際にやっています。この回は前半——どうやって手を空けたかの話です。 会社の実務を、複数台の Mac に常駐させたコーディングエージェント…"
-    },
-    {
-      "id": "585dcaebaf7d",
-      "title": "Six Moods for One Cup of Coffee",
-      "url": "https://zenn.dev/felice680/articles/437230b4e21344",
-      "publishedAt": "2026-09-11T07:57:33.000Z",
-      "publisher": "felicebodziony680",
-      "summary": "I wanted music for a quiet Sunday morning. My first description said: Warm, peaceful, nostalgic, hopeful, dreamy, emoti…"
-    },
-    {
-      "id": "05e18204118c",
-      "title": "Claude Codeの設定を消す前に、僕が決めた基準",
-      "url": "https://zenn.dev/gemcook/articles/2336f653026c9e",
-      "publishedAt": "2026-09-11T07:29:45.000Z",
-      "publisher": "MJ",
-      "summary": "はじめに モデルを変えた途端に、前のモデルのために書いた注意書きが効かなくなる。この半年で何度も踏んだ場面で、9 月に入って X でこの投稿を見たとき、正直ちょっと身に覚えがありました。 https://x.com/kawasin73/s…"
     }
   ],
-  "fetchedAt": "2026-09-11T17:49:05.714Z",
+  "fetchedAt": "2026-09-11T20:23:55.019Z",
   "stale": false,
   "error": null
 }
