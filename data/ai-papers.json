@@ -6,28 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "1407ab0443c7",
-      "title": "Scaling Automatic Research Agents via World Models",
-      "url": "https://huggingface.co/papers/2608.12564",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Automating empirical research is a long-standing direction of AI. Recent automatic research (AutoResearch) agents bring…",
-      "score": 431
-    },
-    {
       "id": "0fa26fbc572c",
       "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
       "url": "https://huggingface.co/papers/2609.10715",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "summary": "We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next…",
-      "score": 91
-    },
-    {
-      "id": "7b287a5db45d",
-      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
-      "url": "https://huggingface.co/papers/2609.11929",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visu…",
-      "score": 53
+      "score": 104
     },
     {
       "id": "2def02458f62",
@@ -35,55 +19,71 @@
       "url": "https://huggingface.co/papers/2609.05903",
       "publishedAt": "2026-09-05T00:00:00.000Z",
       "summary": "Large Language Model (LLM) agents are turning language into real-world effects, making safety necessary against both in…",
-      "score": 30
+      "score": 34
     },
     {
-      "id": "a72868a8c1a3",
-      "title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
-      "url": "https://huggingface.co/papers/2609.11042",
+      "id": "5630bb2f2fa6",
+      "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
+      "url": "https://huggingface.co/papers/2609.11317",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Agent usage is shifting toward long-horizon tasks such as coding and scientific discovery, among which terminal tasks a…",
-      "score": 29
+      "summary": "Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digi…",
+      "score": 13
     },
     {
-      "id": "b8cb884c2e13",
-      "title": "SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem",
-      "url": "https://huggingface.co/papers/2609.07064",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "Large Vision-Language Models (LVLMs) have achieved strong performance on diverse visual tasks, yet their ability to rec…",
-      "score": 25
-    },
-    {
-      "id": "48dbbd0b9561",
-      "title": "PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents",
-      "url": "https://huggingface.co/papers/2609.06702",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "summary": "Sequential memory agents process long documents by reading chunks one after another while maintaining a compact memory …",
-      "score": 6
-    },
-    {
-      "id": "f9358cb56075",
-      "title": "Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs",
-      "url": "https://huggingface.co/papers/2609.11499",
+      "id": "bcc638486e35",
+      "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
+      "url": "https://huggingface.co/papers/2609.11412",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Code world models represent worlds as executable programs, but this representation alone does not determine how to cons…",
-      "score": 4
+      "summary": "Reducing audio-encoder depth lowers the inference cost of speech large language models, but removing complete blocks pe…",
+      "score": 11
     },
     {
-      "id": "eac24ea0e693",
-      "title": "CARDEA: Auditable Reasoning Grounded in Spatial Evidence for End-to-End Coronary Angiography Interpretation",
-      "url": "https://huggingface.co/papers/2609.06931",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "Invasive coronary angiography (CAG) is the gold standard for diagnosing coronary artery disease, but interpretation var…",
-      "score": 3
+      "id": "ccce6ea85a8d",
+      "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
+      "url": "https://huggingface.co/papers/2609.01515",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "summary": "Temporal reasoning benchmarks for Video-LLMs are often mediated by language, leaving room for linguistic shortcuts from…",
+      "score": 5
     },
     {
-      "id": "db122a229815",
-      "title": "World in World: Explore the World with World Models",
-      "url": "https://huggingface.co/papers/2609.11548",
+      "id": "9bcad15a1398",
+      "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
+      "url": "https://huggingface.co/papers/2609.11486",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Autoregressive video world models enable interactive, long-horizon exploration, but flexible control remains challengin…",
-      "score": 2
+      "summary": "Optical flow methods typically rely on task-specific inductive biases, such as correlation volumes, feature warping, an…",
+      "score": 1
+    },
+    {
+      "id": "4127c41241ee",
+      "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat",
+      "url": "https://huggingface.co/papers/2609.11155",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in autonomous s…",
+      "score": 1
+    },
+    {
+      "id": "1b83f3b38721",
+      "title": "MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes",
+      "url": "https://huggingface.co/papers/2609.10016",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "summary": "We introduce MetroLLM-Bench, a 955-case benchmark for testing language models as the policy layer of a transit kiosk. I…",
+      "score": 1
+    },
+    {
+      "id": "23b8176f5102",
+      "title": "UniH^3: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration",
+      "url": "https://huggingface.co/papers/2609.11156",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "All-in-One medical image restoration (MedIR) aims to address diverse tasks across modalities and degradation types usin…",
+      "score": 1
+    },
+    {
+      "id": "eb8473d93057",
+      "title": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
+      "url": "https://huggingface.co/papers/2609.11808",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Late-interaction retrieval is the state-of-the-art for visual document search, but it pays for its accuracy in storage.…",
+      "score": 1
     },
     {
       "id": "0a8984d0ee14",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-11T05:35:39.916Z",
+  "fetchedAt": "2026-09-11T10:00:44.651Z",
   "stale": false,
   "error": null
 }
