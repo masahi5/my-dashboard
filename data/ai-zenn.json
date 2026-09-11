@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "b0c92c69e711",
-      "title": "ブラウザ画像ぼかしUIを状態モデルとして分解する",
-      "url": "https://zenn.dev/choco1/articles/69c6434a0e02ca",
-      "publishedAt": "2026-09-11T11:38:46.000Z",
-      "publisher": "choco1",
-      "summary": "この記事は BlurImage の公開UIをブラックボックス観察した設計メモです。ソースコード、内部アーキテクチャ、ベンチマークを示すものではありません。 入力経路を一つのモデルにまとめる 公開画面にはアップロード、クリップボード貼り付け…"
+      "id": "8839512ecdb0",
+      "title": "2026-08-26 今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-26-tech-daily",
+      "publishedAt": "2026-09-11T22:02:02.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 大規模言語モデル（LLM）単体の活用から実業務に最適化された「AIエージェント」や具身知能へのシフトが加速しています。富士通の自己進化マルチAIエージェントやWAIC 2026の動向がこれを示唆する一方、ガートナーはLLM頼みの限界も…"
     },
     {
-      "id": "6206c5eea131",
-      "title": "OpenClawをWindows無料枠で動かす詰まりどころ全部――429・TPM超過から設定ファイル集まで",
-      "url": "https://zenn.dev/builders_loop/books/openclaw-windows-guide",
-      "publishedAt": "2026-09-11T11:31:13.000Z",
+      "id": "f110a1d72e22",
+      "title": "OpenClawの429で[Malformed diagnostic JSON redacted]が出る――エラー本文が消える理由",
+      "url": "https://zenn.dev/builders_loop/articles/openclaw-429-malformed-diagnostic-json-redacted",
+      "publishedAt": "2026-09-11T21:19:50.000Z",
       "publisher": "BuildersLoop",
-      "summary": "OpenClaw（自律エージェント基盤）を、無料枠のGoogle Gemini/Gemmaで、そしてその後ローカルGPU(Ollama)で Windows上に動かそうとして実際にぶつかった壁と、そのとき使った設定ファイル一式の記録です。 …"
+      "summary": "OpenClaw を Google AI Studio の無料枠で動かしていて 429 RESOURCE_EXHAUSTED が続いたので、記録を掘り返して原因を調べようとしました。ところが記録に残っていたエラー本文が、1件残らず次の文字…"
     },
     {
-      "id": "b4e2b6bf047d",
-      "title": "Excel Data Visualizer 終了後に Excel から Visio を作る3つの方法",
-      "url": "https://zenn.dev/daviechen/articles/76f23c19eb2f73",
-      "publishedAt": "2026-09-11T11:17:38.000Z",
-      "publisher": "daviechen",
-      "summary": "Excel 内で使う Visio Data Visualizer アドインの手順を今もそのまま案内している記事は、すでに古くなっています。Microsoft は 2025 年 12 月にアドインを AppSource から削除し、2026…"
+      "id": "53a4d62e682b",
+      "title": "Yasumaro v6.6 → v6.8 で何が変わったか — 4つの大きな前進",
+      "url": "https://zenn.dev/ar1/articles/yasumaro-68-overview",
+      "publishedAt": "2026-09-11T21:15:12.000Z",
+      "publisher": "ar1",
+      "summary": "Yasumaro（旧 Obsidian Weave）は、ブラウザで読んだページを AI 要約付きで記録する Chrome 拡張機能です。無料・オープンソース（MIT）で、Edge Add-ons か GitHub Releases からイ…"
     },
     {
-      "id": "588ffdcb9f46",
-      "title": "Anthropic社「Fable 5」「Mythos 5」を巡る技術的・地政学的分析：攻撃能力とAI統制の深層",
-      "url": "https://zenn.dev/emilia_lab/articles/anthropic-fable5-mythos5-geopolitics",
-      "publishedAt": "2026-09-11T11:16:32.000Z",
-      "publisher": "エミリアラボ",
-      "summary": "導入：兵器化するフロンティアAIと地政学的な歴史的転換点 2026年6月上旬、世界の人工知能およびサイバーセキュリティの歴史において、最も劇的かつ物議を醸す出来事が発生した。米国サンフランシスコに拠点を置くAI開発企業Anthropicは…"
+      "id": "5cf22fc9bcd8",
+      "title": "One HealthのAIはなぜ分断されるか——Model Context Protocol（MCP）という「つなぎ役」の可能性",
+      "url": "https://zenn.dev/taichiendoh/articles/one-health-ai-mcp-orchestration",
+      "publishedAt": "2026-09-11T21:09:07.000Z",
+      "publisher": "遠藤太一",
+      "summary": "2026年、人・動物・環境の健康をひとつながりで捉える「One Health（ワンヘルス）」領域で、AIによる統合監視システムを提案する論文が公開されました。 出典：Sorrentino et al.「From Reactive to P…"
     },
     {
-      "id": "573fb8761ba7",
-      "title": "GPT-6 Astra登場、でも本当に大事なのは「裏を取る力」",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260911",
-      "publishedAt": "2026-09-11T10:49:57.000Z",
+      "id": "32d324725812",
+      "title": "Androidスマホで「本人の声だけ」を聞くローカル音声AIを作る",
+      "url": "https://zenn.dev/ytmyou/articles/7daf2b1815bec6",
+      "publishedAt": "2026-09-11T20:31:19.000Z",
+      "publisher": "やってみYOU",
+      "summary": "CAM++ + FireRedVAD + SenseVoice の実験メモ 前回は、AndroidスマホのNPUを使って、ローカル音声認識がどれくらい速くなるかを試しました。 今回は速度ではなく、もう少し実用寄りの話です。 スマホ上で音声…"
+    },
+    {
+      "id": "be80105bf622",
+      "title": "Human-Time Unit: AIのAPIコストを牽制しつつも活用促進する",
+      "url": "https://zenn.dev/yukimi_inu/articles/ea511b5006b05a",
+      "publishedAt": "2026-09-11T18:35:18.000Z",
+      "publisher": "みいぬ",
+      "summary": "社内でAPI経由でのAIチャットやプラットフォームなどを解放すると、どうしてもトークン料金がコストとしてかかります。その金額は使用人数が多く、また高機能なモデルを使えば使うほど高くなります。数万円であれば検証コストとして見過ごされていたも…"
+    },
+    {
+      "id": "acee62855bec",
+      "title": "AI APIプロダクトの成長を「4つのループ」として設計した話",
+      "url": "https://zenn.dev/beatapi/articles/2a444e97c46792",
+      "publishedAt": "2026-09-11T17:22:48.000Z",
+      "publisher": "BeatAPI",
+      "summary": "BeatAPIは公開から10日間で400人以上の登録と、約150ドルの売上を得ました。 3人のチームにとって励みになる数字です。しかし、それ以上に見えてきたのは、AIによって開発は速くなっても、プロダクトを見つけてもらい、信頼してもらうこ…"
+    },
+    {
+      "id": "52f131ac9c54",
+      "title": "AI時代は仕事を奪われるどころか、仕事が増える説",
+      "url": "https://zenn.dev/kuwanokazuya/articles/d1667a5ab5f2bf",
+      "publishedAt": "2026-09-11T16:07:27.000Z",
+      "publisher": "桑野一哉",
+      "summary": "生成AIが仕事に入り込んでくると、 「AIに仕事を奪われる」 という話をよく見かけます。 一方で、実際に仕事でAIを使っていると、少し違う感覚があります。 AIを使うほど、仕事が増えている。 「今週、何の仕事をしたんだ？」 私はWeb制作…"
+    },
+    {
+      "id": "c1299135f2db",
+      "title": "AIの採点役を分けても、点は甘いままだった",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-judge-design-seal-first",
+      "publishedAt": "2026-09-11T15:47:10.000Z",
       "publisher": "菅原友和",
-      "summary": "2026年9月11日（金）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は新しいAIが一気に出てきた日なんですよ。OpenAIのGPT-6 Astra、中国DeepSeekの新モデル、コーディング用の…"
+      "summary": "前に、AIに自分で作ったものを自分で採点させると、点が甘くなるって話を書きました。今日はその続きです。 じゃあ、作る係とは別に、採点だけする係を立てれば解決するのか。僕も最初はそう思ってたんですよ。ところが、それだけだと、点は甘いままにな…"
     },
     {
-      "id": "48d436010ebb",
-      "title": "Astraに「玉ねぎを3ミリに切れ」と指示する愚行",
-      "url": "https://zenn.dev/karamage/articles/e49ccf76ad111c",
-      "publishedAt": "2026-09-11T10:17:56.000Z",
-      "publisher": "karamage",
-      "summary": "Astraを使うとき、指示文やスキルやルールがズラーーッと長くなってませんか？ それ駄目っぽいです。 シェフの腕をロープで縛り上げておきながら、「なぜ早く料理ができないんだ」と怒鳴っている状態です。 Astraに対する指示の出し方は、これ…"
+      "id": "be8fcd9abc7a",
+      "title": "OpenAIが「Codexの頭脳」を全開発者に開放 ― 新API「Agents API」で長時間稼働エージェントが誰でも作れる時代へ",
+      "url": "https://zenn.dev/tashikani/articles/openai-agents-api-2026",
+      "publishedAt": "2026-09-11T14:54:06.000Z",
+      "publisher": "タシカニ",
+      "summary": "リード 2026年9月10日、OpenAIは開発者向けに新しいAPI「Agents API」のパブリックベータを公開しました。これは、コーディングエージェント「Codex」を裏側で支えてきた「ハーネス(制御基盤)」――長時間タスクの管理、…"
     },
     {
-      "id": "6e49dca640fa",
-      "title": "Gemini CLIをGA4データアナリストとして使う具体的な設定と活用例",
-      "url": "https://zenn.dev/web_benriya/articles/gemini-cli-ga4-analyst-setup-guide",
-      "publishedAt": "2026-09-11T10:12:59.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに GA4のデータをBigQueryに連携したものの、「SQLを書くのが難しい」「毎週のレポートを作るのが手間」と感じていませんか。あるいは、レポートを眺めながら「この数字が下がっている原因は何だろう」と考えても、次の一手が浮かびに…"
+      "id": "b582131043b3",
+      "title": "AIエージェントに「投げる／自分でやる」の線引きを、数字で決める",
+      "url": "https://zenn.dev/ritsuhayase/articles/7f09351b0d9b04",
+      "publishedAt": "2026-09-11T14:41:44.000Z",
+      "publisher": "早瀬 律",
+      "summary": "コーディングエージェントを2つ併用していると、毎回これで迷います。 この作業、投げるべきか、自分でやるべきか。 迷っている時間そのものが損なので、判断を数字に落としました。この記事では、その閾値と、なぜその数字なのかを出します。 まず、対…"
     },
     {
-      "id": "c6596be89eca",
-      "title": "YOLO26nアーキテクチャ徹底解析 step3 | C3k2, SPPF, C2PSA ブロックとサブブロック",
-      "url": "https://zenn.dev/diiw/articles/yolo26n-architecture-step3",
-      "publishedAt": "2026-09-11T10:04:03.000Z",
-      "publisher": "DiIw",
-      "summary": "はじめに 本記事は、筆者がソースコードおよびモデル構造を独自に解析した情報に基づき解説を行う記事です。本記事の内容は更新される場合があります。内容に大きな変更・追加があった場合は都度Xアカウントにて発信いたします。 本記事は「YOLO26…"
-    },
-    {
-      "id": "43b405153fbc",
-      "title": "【第2回】遠回りしない技術英語 ― \"TOEIC単語”と\"現場英語\"はなぜ噛み合わないのか",
-      "url": "https://zenn.dev/hiropiro/articles/17b2ded90e8e22",
-      "publishedAt": "2026-09-11T10:00:00.000Z",
-      "publisher": "栃木県民",
-      "summary": "連載「遠回りしない技術英語 ― 自動車×AIエンジニアの実務英語講座」第2回です。第1回（遠回りしないための地図）では、エンジニアの英語学習には無駄が多い、という話をした。今回はその最たる例、単語を掘り下げる。 「AI翻訳がある時代に、単…"
-    },
-    {
-      "id": "b5d7d9704659",
-      "title": "Claude CodeがBashでファイルを書き換えるようになった気がする",
-      "url": "https://zenn.dev/neriame_code/articles/2ecc89e1a29000",
-      "publishedAt": "2026-09-11T09:38:05.000Z",
-      "publisher": "neriame",
-      "summary": "完全に体感の話になりますが、ある時期からClaude Codeが Edit や Write をほとんど使わなくなり、sed -i とヒアドキュメントでファイルを書き換えるようになりました。 ある時期というのはOpus5のリリースあたりだっ…"
-    },
-    {
-      "id": "71afee4c02c8",
-      "title": "Strands Agentsのプロンプトキャッシュで 社内RAG Agentの入力コストを半減させてみた",
-      "url": "https://zenn.dev/fusic/articles/50a7b980a8e9bc",
-      "publishedAt": "2026-09-11T09:28:10.000Z",
-      "publisher": "omiya",
-      "summary": "背景 こんにちは、Fusicの大宮です。 私は、社内向けSlack Botである「Fusicマン+」の運営をしています。 Fusicマン+は、Confluenceの社内ハンドブックを検索して質問に答えるRAG AI エージェントです。 運…"
-    },
-    {
-      "id": "388e4ed6a205",
-      "title": "画像生成AIのプロンプトを「資産」にする整理のコツ",
-      "url": "https://zenn.dev/aiimgprompt/articles/b15f60638b5950",
-      "publishedAt": "2026-09-11T08:38:08.000Z",
-      "publisher": "AI Img Prompt",
-      "summary": "画像生成AIを毎日触っていると、プロンプトがメモ帳・チャット履歴・スクリーンショットに散らばっていきます。後から「あの質感、どう出したっけ」と探し直す時間が、地味にいちばんもったいない部分です。 散らかる原因は「保存のタイミング」 生成が…"
+      "id": "7ed22d703267",
+      "title": "AIに書かせたコードを公開する前の15分。コードを読まずに6つ試すだけ",
+      "url": "https://zenn.dev/ritsuhayase/articles/ab8e0c9f2dd66e",
+      "publishedAt": "2026-09-11T14:41:16.000Z",
+      "publisher": "早瀬 律",
+      "summary": "AIに書かせたコードは、たいてい一度は動きます。 問題は、その一度が「たまたま」だったときに気づけないことです。読んで探そうとすると時間がかかるうえ、短くて素直なコードほど問題が見えません。 この記事では、コードを読まずに、動かすだけで済…"
     }
   ],
-  "fetchedAt": "2026-09-11T20:23:55.019Z",
+  "fetchedAt": "2026-09-11T22:42:56.551Z",
   "stale": false,
   "error": null
 }
