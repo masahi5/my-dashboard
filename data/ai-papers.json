@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "0fa26fbc572c",
-      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
-      "url": "https://huggingface.co/papers/2609.10715",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next…",
-      "score": 104
-    },
-    {
       "id": "2def02458f62",
       "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
       "url": "https://huggingface.co/papers/2609.05903",
       "publishedAt": "2026-09-05T00:00:00.000Z",
       "summary": "Large Language Model (LLM) agents are turning language into real-world effects, making safety necessary against both in…",
-      "score": 34
+      "score": 35
     },
     {
       "id": "5630bb2f2fa6",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.11317",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "summary": "Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digi…",
-      "score": 13
+      "score": 18
     },
     {
       "id": "bcc638486e35",
@@ -35,7 +27,15 @@
       "url": "https://huggingface.co/papers/2609.11412",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "summary": "Reducing audio-encoder depth lowers the inference cost of speech large language models, but removing complete blocks pe…",
-      "score": 11
+      "score": 12
+    },
+    {
+      "id": "499fd3986af0",
+      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+      "url": "https://huggingface.co/papers/2609.11561",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inh…",
+      "score": 7
     },
     {
       "id": "ccce6ea85a8d",
@@ -43,7 +43,7 @@
       "url": "https://huggingface.co/papers/2609.01515",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "Temporal reasoning benchmarks for Video-LLMs are often mediated by language, leaving room for linguistic shortcuts from…",
-      "score": 5
+      "score": 6
     },
     {
       "id": "9bcad15a1398",
@@ -51,15 +51,15 @@
       "url": "https://huggingface.co/papers/2609.11486",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "summary": "Optical flow methods typically rely on task-specific inductive biases, such as correlation volumes, feature warping, an…",
-      "score": 1
+      "score": 5
     },
     {
-      "id": "4127c41241ee",
-      "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat",
-      "url": "https://huggingface.co/papers/2609.11155",
+      "id": "095bb653ca68",
+      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+      "url": "https://huggingface.co/papers/2609.11699",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in autonomous s…",
-      "score": 1
+      "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, a…",
+      "score": 3
     },
     {
       "id": "1b83f3b38721",
@@ -67,23 +67,7 @@
       "url": "https://huggingface.co/papers/2609.10016",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "summary": "We introduce MetroLLM-Bench, a 955-case benchmark for testing language models as the policy layer of a transit kiosk. I…",
-      "score": 1
-    },
-    {
-      "id": "23b8176f5102",
-      "title": "UniH^3: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration",
-      "url": "https://huggingface.co/papers/2609.11156",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "All-in-One medical image restoration (MedIR) aims to address diverse tasks across modalities and degradation types usin…",
-      "score": 1
-    },
-    {
-      "id": "eb8473d93057",
-      "title": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
-      "url": "https://huggingface.co/papers/2609.11808",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Late-interaction retrieval is the state-of-the-art for visual document search, but it pays for its accuracy in storage.…",
-      "score": 1
+      "score": 3
     },
     {
       "id": "0a8984d0ee14",
@@ -91,18 +75,34 @@
       "url": "https://huggingface.co/papers/2608.27875",
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "summary": "Quantization has been widely adopted in LLM training and inference to reduce cost and improve efficiency. However, low-…",
-      "score": 1
+      "score": 3
     },
     {
-      "id": "729fafc4c561",
-      "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
-      "url": "https://huggingface.co/papers/2609.10712",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "We study how model post-training and test-time inference design affect natural-language proof generation for hard olymp…",
-      "score": 1
+      "id": "4127c41241ee",
+      "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat",
+      "url": "https://huggingface.co/papers/2609.11155",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in autonomous s…",
+      "score": 2
+    },
+    {
+      "id": "23b8176f5102",
+      "title": "UniH^3: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration",
+      "url": "https://huggingface.co/papers/2609.11156",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "All-in-One medical image restoration (MedIR) aims to address diverse tasks across modalities and degradation types usin…",
+      "score": 2
+    },
+    {
+      "id": "eb8473d93057",
+      "title": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
+      "url": "https://huggingface.co/papers/2609.11808",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Late-interaction retrieval is the state-of-the-art for visual document search, but it pays for its accuracy in storage.…",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-09-11T10:00:44.651Z",
+  "fetchedAt": "2026-09-11T14:25:23.300Z",
   "stale": false,
   "error": null
 }
