@@ -2,6 +2,24 @@
   "handle": "hillbig",
   "tweets": [
     {
+      "id": "2098194094480933177",
+      "url": "https://x.com/hillbig/status/2098194094480933177",
+      "text": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression huggingface.co/deepseek-ai/D…",
+      "publishedAt": "2026-09-10T23:37:09.000Z",
+      "authorHandle": "hillbig",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098193798727909780",
+      "url": "https://x.com/hillbig/status/2098193798727909780",
+      "text": "DeepSeek-V4.1-Flashは、Long-horizonエージェント向けに多くの改良が施されたモデルである。\n\n552BパラメータのMoEであり、Prefill時には約8B、Decode時には16Bパラメータをアクティブにする。さらにEngramとして196Bパラメータを持ち、Transformer本体は40層からなる。長い入力のPrefillでは主に下半分の20層を使い、Decode時には40層全体を使う。\n\n特に大きく変わったのが、KVキャッシュをどのように生成・保存・再利用するかである。Causal Encoder-Decoder（CED）を採用し、AttentionにはSliding Window Attention（SWA）とCompressed Sparse Attention 2（CSA2）を組み合わせている。\n\nマルチモーダルにもネイティブに対応、Vision Encoderは独自のDeepSeek-ViTを学習しており、2D RoPEやlinear projectionを採用する。\nPatch EmbeddingをConvolutionではなくlinear projectionにしている理由の一つとして、Muon optimizerとの整合性が挙げている。またMoEのロードバランシングでは、テキストtokenと画像tokenで別々の補正バイアスを持たせている。\n\nアーキテクチャとして今回の目玉が、Causal Encoder-Decoder（CED）の採用である。\n\nLong-horizonエージェントでは入力コンテキストが非常に長くなり、Prefillの計算コストが大きな問題になる。CEDは20層のCausal Encoderと20層のDecoderから構成され、Encoder最終層の隠れ状態からDecoder各層のglobal KVを直接生成する。\n\nつまり、Decoder各層のglobal KVを作るために、長い入力tokenをDecoderの20層すべてに通すさず、長いコンテキストではPrefill計算量をほぼ半分にできる。\n\nただし、Sliding Window AttentionのKVは各Decoder layer固有であるため、Decode開始時にはその状態を再構成する必要がある。\nこのとき、SWAの窓幅は128 tokenだが、層をまたいで依存関係が伝播するため、状態を厳密に復元しようとすると、本来は窓幅×層数に相当する範囲をReplayする必要がある。そこでSWA Bounded Replayでは、全層について最近の128 tokenだけをReplayして近似的に状態を復元する。実験上、この近似による性能低下はほとんどなかったという（実用上、再現ができないとかの問題はでるかも）\n\nKVキャッシュは、現在Decodeしているリクエストが利用するruntime KVと、prefix reuseのために長期間保存するpersistent KVに分けられる。後者はSSDやホストメモリに保存される。\nまた、SWA KVをpersistent KV cacheには保存しない。SWA KVは短時間だけホストDRAM上に保持し、cache missした場合にはSWA Bounded Replayによってtoken列から再構成する。これによりpersistent KV cacheの容量を大きく削減している。\n\nまたCSA2では、KVキャッシュの圧縮について、これまで進められてきた特徴次元方向の圧縮（MQA、GQA、MLA）や系列方向の圧縮（複数tokenをまとめて圧縮）に加えて、層方向の圧縮に取り組んでいる。\n具体的には、CSA2にはFull、Reindex、Reuseという3種類のモードがある。\nFull Modeでは、その層自身がMain KVとIndexer Q/Kを生成し、Top-K indicesを新たに計算する。\nReindex Modeでは、Main KVとIndexer Kを前の層から再利用する一方、その層自身のIndexer Qを使って再度スコアリングし、新しいTop-K indicesを選択する。\nReuse Modeでは、Main KVだけでなくTop-K indicesも前の層から再利用し、Indexerによる検索自体を省略する。\nなお、いずれのモードでも各層固有のMain QとSWA KVは計算する。\n\nさらにDecoderではHierarchical Sparse Indexerを使う。最初のFull layerだけが全コンテキストを検索し、8 tokenを1 blockとして最大2,048 blockを選択する。これにより、\n8 × 2,048 = 16,384 token\nのcandidate poolを作った上で、それ以降のReindex layerでは、100万token全体ではなく、この約16K tokenだけを検索対象とし、最終的にTop-512のKVを選択してAttentionを行う。\n\nしたがって、\n1M token → 約16K candidate → Top-512\nという二段階のsparse retrievalになっている。\n\nmHCについても推論効率化が行われている。従来のmHCでは、その層のresidual streamから入力混合係数 A_l を計算してから同じ層の入力混合に使っていたため、処理間に依存関係があり、activationを複数回読み出す必要があった。\nSingle-Pass mHCでは、この入力混合に一つ前のblockで計算した係数 A_{l-1} を使うように変更する。これによって依存関係を解消し、residual update、input mixing、coefficient predictionなどを1つのfused kernelで処理できる。性能低下はほとんどなく、activation memory trafficを大きく削減できる。\n\nまたDeepSeek-V3で使われていたMTPはbackboneの事前学習には使用せず、backbone pre-training終了後にDSparkというspeculative decoding moduleを別途学習する。DSparkでは1回のforwardで5つのdraft positionを並列に予測し、confidenceに応じて何tokenまでまとめてverifyするかを動的に決める。\n\n事前学習もいろいろ書かれている中で注目されるのは、batch sizeが約100M tokenと非常に大きいこと。また、Dense Attentionから徐々にSparse Attentionへ移行するのではなく、最初から64K contextのSparse Attentionでfrom scratch学習している。34T tokenの時点でcontext lengthを1M tokenまで拡張している。\n\nコメント\n===\nLong-horizonエージェントを効率的に実行するための工夫を、モデルアーキテクチャからKVキャッシュ、推論システムまで広範囲に取り入れたモデルである。これらの工夫は推論だけでなく、長いtrajectoryを大量に生成するRLやPretrain学習時にも大きな恩恵がある。\n\nPrefillをEncoderとDecoderに分離する考え方自体はYoCoなどですでに提案されていたが、それがこの規模の実用モデルに搭載され、再注目されるきっかけとなるのではないか。\n\nまた、すべての状態をGPUのHBMに保持するのではなく、用途に応じてホストメモリやSSDを積極的に利用する設計思想は徹底しており、パラメータについてはEngramをホストメモリからprefetchし、KVキャッシュについても長期保存が必要なglobal KVと、短時間しか再利用されないSWA KVを分離して管理している。\n\n一方で、このTechnical Reportには十分なAblationがなく、どの設計がどの程度性能や効率に寄与しているのか、またどのようなトレードオフのもとで他の選択肢から現在の構成を選んだのかは十分には分からない。\nそれでも、これらの採用した方針は今後の大規模モデル開発に影響を与えるだろう。",
+      "publishedAt": "2026-09-10T23:35:58.000Z",
+      "authorHandle": "hillbig",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2097814008455938081",
       "url": "https://x.com/hillbig/status/2097814008455938081",
       "text": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views　arxiv.org/abs/2609.04180",
@@ -72,27 +90,9 @@
       "authorHandle": "hillbig",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2096023918138282292",
-      "url": "https://x.com/hillbig/status/2096023918138282292",
-      "text": "拡散モデルを推論時の生成手法としてではなく、再帰的推論を学習するためのカリキュラムとして利用する研究を紹介する。\n\n従来の拡散モデルでは、復元過程において部分的に復元された観測状態そのものが次のステップへ渡される。\n\n今回の研究では、これとは別にステップをまたいで保持される隠れ状態を追加し、さらにタイムステップによる条件づけを取り除くことで、任意のステップ数だけ繰り返して解を改善できる推論器を作っている。\n\n数独や迷路では、反復回数を増やすことでほぼ完全に問題を解けるようになる。\n\n各ステップでは、観測 x_k と現在の内部状態 h_k を入力として、予測 y_k と次の内部状態 h_{k+1} を出力する。\n\n(y_k, h_{k+1}) = F(x_k, h_k)\n\nこのうち h_k は観測そのものではなく、それまでの推論結果を保持する記憶として働く。\n\n学習時には、各ステップでクリーンな目標 y に新しいノイズを加えて x_k を作り、そこから y を予測する。\n\nこのとき、x_kは前のステップの x_{k-1} に依存して作られない。そのため、あるステップで得た情報を次のステップへ持ち越すには、h_k に保存するしかないように問題が設計されている。\n\nさらに h_k 自体には直接教師信号を与えない。将来のステップでの予測を正解に近づける損失だけから、推論に必要な情報を隠れ状態へ保存する方法を学習する。\n\n実際、途中で観測状態だけをノイズに戻しても性能はほとんど落ちない一方、隠れ状態を消すと性能は大きく低下する。また、隠れ状態をセル間で入れ替えても性能が大幅に落ちる。\n\nこのことから、h_k にはどの場所についてどこまで推論が進んでいるかという構造化された途中計算が保存されていると考えられる。\n\n学習時のrolloutは20〜160ステップで、backpropagationも4ステップのtruncated BPTTしか使わない。それにもかかわらず、推論時には同じ更新則を1万ステップまで繰り返しても破綻せず、反復回数を増やすほど性能が向上する。\n\nモデルにはタイムステップも反復回数も与えていないため、時間に依存しない局所的な更新則を学習していると考えられる。\n\nさらに、推論時にはprogressive denoisingそのものを必要とせず、各ステップで未知部分をfresh Gaussian noiseに戻しても、通常のannealingと同等以上の性能が得られる。\n\nつまり推論の進捗は観測 x_k ではなく隠れ状態 h_k に保存されている。\n\n一方で、学習時には拡散過程が重要である。\n\n単に毎回同じ強さのノイズを与えたり、ランダムなノイズレベルを与えたりするだけでは性能が大きく低下する。\n\n重要なのは、\n\nほとんど解けていない状態\n→ 中間的な状態\n→ ほぼ解けている状態\n\nという一貫した順序で学習することである。\n\nつまり、このモデルにおける拡散過程の主要な役割は、推論時にノイズから解を生成することではなく、「少しずつ問題を改善する」という再帰的な更新則を学ばせるカリキュラムを作ることにある。\n\nコメント\n===\n\n数独やMaze-Uniqueは答えが一意に定まり、同じ更新則を繰り返し適用しながら徐々に解へ近づいていくタイプの推論と相性がよい。\n\nその意味では、エネルギー最小化や固定点反復のように、現在の状態から「より解に近い状態」へ移る局所的な更新則を学習していると見ることもできる。\n\nただし、今回大きく異なるのは隠れ状態が存在することである。例えば数独であれば、単に現在の盤面を保持するだけではなく、「このセルには3か7が入りそうだ」「この候補を置くと別のセルが確定する」といった、観測には直接現れない途中の推論状態を保持できる。\n\n今回の問題設定では\n\n観測状態 = 現在外から見えている候補\n隠れ状態 = これまで蓄積した推論\n推論時のノイズ = 探索\n拡散スケジュール = 学習カリキュラム\n\nという役割分担になっている。\n\nこの考え方がどこまで一般的な問題に適用できるかはまだ分からない。今回の実験は数独や迷路のような、構造が明確で解を定義しやすい問題が中心である。\n\n一方で、再帰的な計算によってtest-time computeを増やす考え方は近年のreasoning modelでも重要になっている。最近リリースされたフロンティアモデルはいずれもこの考え方を採用しているとみられる。\n\n今後、数学、コード、planningなど、より広い問題についても、長い推論過程そのものを教師するのではなく、局所的な改善則をカリキュラムによって学習/獲得し、それを推論時に何度でも繰り返すことで学習時の能力を超えた推論をtest-time scalingで獲得する方向が有望と思われる。",
-      "publishedAt": "2026-09-04T23:53:38.000Z",
-      "authorHandle": "hillbig",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2096016196588253241",
-      "url": "https://x.com/hillbig/status/2096016196588253241",
-      "text": "弦理論や場の量子論を専門とするtachikawa先生が、AIを使ってきた感想をまとめている。\n\nAIの能力は、数年前には大学一年生、昨年には大学四年生、現在では修了間際の大学院生くらいのレベルまで、順調に向上しているという。\n\n私自身もAI分野の研究論文を読んだり、研究について考えたりする際にAIを使っているが、すでに多くの場面で、研究内容を十分に理解し、新しく面白いアイディアを提唱することができているように思う。\n\n今後、AIの活用によって様々な研究が加速していくことは間違いないと思う。それは、研究そのものの一部をAIが自動化するという形だけでなく、AIを介することで、既存の研究者がこれまで十分に理解できていなかった他分野の知見を組み合わせた研究が進んだり、理解することが難しかった概念をより深く理解できるようになったりと、様々な形で研究が前進していくだろう。\n\nただ、これから研究成果が爆発的に増えていくと予想されるため、論文・査読・学会を中心とした現在の仕組みだけでは、それらを十分に扱いきれなくなる可能性がある（すでになりかけている）。\n\n例えば、研究成果は現在論文という形で表されることが多いが、今後は、どのような単位で表現し、どのように検証・評価し、膨大な成果の中から重要なものを見つけ、既存の知識と接続して次の研究へとつなげていくのか。\n数学におけるLeanのライブラリ群で、研究成果が巨大なレポジトリにコミットされていく形になるのか。\n\nすでに何かそういう動きがあるのかもしれないが、まだよくわかっていない。",
-      "publishedAt": "2026-09-04T23:22:58.000Z",
-      "authorHandle": "hillbig",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-10T22:55:39.047Z",
+  "fetchedAt": "2026-09-11T00:49:03.766Z",
   "stale": false,
   "error": null
 }
