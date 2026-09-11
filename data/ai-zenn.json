@@ -6,6 +6,78 @@
   "category": "ai",
   "items": [
     {
+      "id": "ec471b040118",
+      "title": "安いモデルで回して、判定が取れなかった分だけ機械的に上位モデルへ回す",
+      "url": "https://zenn.dev/kodomo_news/articles/85-advisor-escalation",
+      "publishedAt": "2026-09-10T23:27:00.000Z",
+      "publisher": "kodomo-news.net",
+      "summary": "こんにちは。小学生向けのニュースサイト、こどもニュースをつくっています。 このサイトは毎日 AI を何十回も呼びます。ニュースの選別、重複の判定、一次情報の探索、記事の執筆です。安いモデルで足りる工程と、そうでない工程が混ざっています。 …"
+    },
+    {
+      "id": "4b788df7a81f",
+      "title": "LLM判定が失敗しても、全件通さない",
+      "url": "https://zenn.dev/miyakona/articles/llm-invariant-tests-fail-closed",
+      "publishedAt": "2026-09-10T23:20:43.000Z",
+      "publisher": "miyakona",
+      "summary": "収集した候補を大規模言語モデル（LLM）で分類し、関連するものだけを後段へ送るバッチのテストを見直していました。LLMの出力は毎回同じとは限らないので、「入力Aなら必ず関連あり」と固定するテストは不安定になります。 かといって判定部分をテ…"
+    },
+    {
+      "id": "35fac3d667d2",
+      "title": "コーディングエージェントの時代におけるレビューのあり方とは。大量のコードレビューをどう扱うか",
+      "url": "https://zenn.dev/ytka/articles/a5347bdd6bf505",
+      "publishedAt": "2026-09-10T23:00:05.000Z",
+      "publisher": "ytka",
+      "summary": "コーディングエージェントの時代におけるレビューのあり方とは。大量のコードレビューをどう扱うか コーディングエージェントが一晩で数千行のプルリクエストを作るが、人間がレビューしきれずPRが積み上がっていく。そんな光景が珍しくなくなりました。…"
+    },
+    {
+      "id": "ce30f7bef221",
+      "title": "旧webサイト移行をAIにまかせた",
+      "url": "https://zenn.dev/chooser/articles/elnw-017-product-story",
+      "publishedAt": "2026-09-10T22:49:40.000Z",
+      "publisher": "chooser",
+      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 旧webサイト移行をAIにまかせた 会…"
+    },
+    {
+      "id": "56e557b8de4b",
+      "title": "「負のデザイン」の正体は、消すことではなく引き受けることだった",
+      "url": "https://zenn.dev/kiyoka/articles/negative-design-coding-agent-era",
+      "publishedAt": "2026-09-10T22:40:02.000Z",
+      "publisher": "kiyoka",
+      "summary": "はじめに 2006〜2007年ごろの自分は、「機能を削ること」自体を良いデザインだという考え方を持っていました。当時「負のデザイン」と呼んでいたものです。 ただ、実際に自分の作品(Sekka、Sumibi)を振り返ると、うまくいった「引き…"
+    },
+    {
+      "id": "984a46985f02",
+      "title": "もう Prompt Engineering だけではない —— Trajectory Design という次の設計対象",
+      "url": "https://zenn.dev/albatrosary/articles/8d224a571d4e83",
+      "publishedAt": "2026-09-10T21:56:16.000Z",
+      "publisher": "albatrosary",
+      "summary": "Plan / Rewind / Worktree / Orchestration から考える、生成AIの「軌道」の設計 ! もはや、Prompt Engineering だけをやっていればよい時代ではない。 しかし、これは、突然新しい概念…"
+    },
+    {
+      "id": "6b76a034c801",
+      "title": "TDDも極小PRも、AI開発の足枷になっていない？",
+      "url": "https://zenn.dev/chro96/articles/958d8c35bebe96",
+      "publishedAt": "2026-09-10T21:50:05.000Z",
+      "publisher": "chro96",
+      "summary": "コード品質分析ツール「CodeScene」の創業者であり、『Your Code as a Crime Scene』などの著者として知られるアダム・トーンヒル（Adam Tornhill）氏のブログ記事 “Practices I Aband…"
+    },
+    {
+      "id": "3eccf24fe103",
+      "title": "Claude Code を2セッション並行させると、エラー無しで認識がズレる",
+      "url": "https://zenn.dev/yusu31/articles/3f7dc6c8cc76fa",
+      "publishedAt": "2026-09-10T21:24:04.000Z",
+      "publisher": "Yusu",
+      "summary": "Claude Code のタブを2つ開いて、同じリポジトリで別々の作業をさせたことはありますか。衝突すれば Git か エディタが止めてくれると思いますよね。私もそう思っていました。 **エラーは1つも出ませんでした。**代わりに起きたの…"
+    },
+    {
+      "id": "9e39f5729e0a",
+      "title": "会話履歴からの人物像推定、LLMは属性ごとに異なる閾値で断定・留保する",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-personality-guess-overreach-check",
+      "publishedAt": "2026-09-10T21:10:25.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 独立したサブエージェント（会話履歴を共有しない別コンテキスト）に5往復の雑談を送り、最後に「私はどういう人だと思う？」と聞いて人物像を推定させた 発言にもとづく推定（慎重さ・面倒見の良さ・対人配慮など）と、発言に一切もとづかな…"
+    },
+    {
       "id": "77da65a8175c",
       "title": "Frontier-Grade Open Weights ── フロンティア級のオープンウェイトモデルは、開かれたのか",
       "url": "https://zenn.dev/leading_ai/books/frontier-grade-open-weights",
@@ -28,81 +100,9 @@
       "publishedAt": "2026-09-10T18:25:40.000Z",
       "publisher": "ai_shihan",
       "summary": "「まだ確認できていません」と「確認したら動きませんでした」。どちらも完了ではありませんが、次に頼む仕事は違います。 前者に必要なのは確認です。後者には、失敗した箇所の修正を頼みます。この二つを同じ「確認待ち」に入れると、直す必要があるもの…"
-    },
-    {
-      "id": "5974cf7ffdbe",
-      "title": "Claude Code MaxプランでAPIキーを設定すると二重課金になるリスクと確認手順",
-      "url": "https://zenn.dev/joemike/articles/claude-code-max-plan-api-double-billing-risk-2026",
-      "publishedAt": "2026-09-10T17:15:18.000Z",
-      "publisher": "ミケ",
-      "summary": "Claude Code の Max プランを契約しているなら、ANTHROPIC_API_KEY の扱いには注意が必要です。 結論を先に言います。 Max プランの料金と API 従量課金は別の課金経路です。ANTHROPIC_API_K…"
-    },
-    {
-      "id": "dd4bfaabd7a3",
-      "title": "AIアシスタントを最大限活用！最適なGitワークフローで開発を自動化する",
-      "url": "https://zenn.dev/fd_ai_teacher/articles/tech-20260909171325-1",
-      "publishedAt": "2026-09-10T17:05:41.000Z",
-      "publisher": "FD_teacher",
-      "summary": "「GitHub Copilotを使っているけど、ただのコード補完で終わってない？」 AIアシスタントは単なるコード生成ツールではありません。Gitワークフロー全体に組み込むことで、開発プロセスを自動化し、チーム全体の生産性を劇的に向上させ…"
-    },
-    {
-      "id": "cd3eccf57c6c",
-      "title": "【Excessive Agency】AIエージェントに強い権限を与える前に知っておきたいリスク",
-      "url": "https://zenn.dev/ykbone/articles/202609-security-excessive-agency",
-      "publishedAt": "2026-09-10T15:34:46.000Z",
-      "publisher": "ykbone",
-      "summary": "はじめに ファイルを書き換える、コマンドを実行する、メールを送る、データベースを操作する。便利なAIエージェントほど、こうした外に出す手段、平たく言えばAIエージェントに与えている強い権限を持っています。 2025年7月、ある出来事が話題…"
-    },
-    {
-      "id": "063b623f7d1f",
-      "title": "Pi で始めるお手軽ハーネス",
-      "url": "https://zenn.dev/contrea/articles/a780f6be371f0d",
-      "publishedAt": "2026-09-10T15:33:00.000Z",
-      "publisher": "hirykawa",
-      "summary": "はじめに 最近流行りの「ハーネス」、結局なんやねんと思っている方もいるんではないでしょうか。 この記事では、コーディングエージェント用の SDK「pi」に、システムプロンプトと自作ツールを数個渡すだけで、ひとつの業務エージェントを作りなが…"
-    },
-    {
-      "id": "b20191b83645",
-      "title": "ループ型 Transformer は推論を隠すのか — GPT-6 Astra を運用者目線で読む",
-      "url": "https://zenn.dev/sora_endo/articles/aether-looped-transformer-gpt6-astra",
-      "publishedAt": "2026-09-10T14:59:26.000Z",
-      "publisher": "SoraEndo/遠藤空",
-      "summary": "本記事は要約です。初出: https://aether-echoes.com/posts/looped-transformers-hidden-reasoning-gpt6-astra-operator-view 結論: ループ型 Tra…"
-    },
-    {
-      "id": "4a75bdfc1dd2",
-      "title": "レイクハウスとAI",
-      "url": "https://zenn.dev/piroyoung/articles/2cd06213275b9c",
-      "publishedAt": "2026-09-10T14:05:40.000Z",
-      "publisher": "ヒロキミズカミ",
-      "summary": "ご無沙汰してます．ミズカミヒロキです．どうですか，みなさん最近なにしてますか？ループエンジニアリング？ AIへの熱狂を象徴する曖昧な言葉が生まれては消える昨今ですが，今日は地に足のついたテーブルデータの加工にAIモデルを効率よく活用する原…"
-    },
-    {
-      "id": "454d4ec80944",
-      "title": "GPT Image 2.5を日本語で試してみた｜FlareとSunburstの違い・生成例・画像編集",
-      "url": "https://zenn.dev/owen01/articles/b5477d7e62a0a7",
-      "publishedAt": "2026-09-10T13:50:11.000Z",
-      "publisher": "owen01",
-      "summary": "OpenAIの新しい画像生成モデル「GPT Image 2.5」が登場しました。 今回のGPT Image 2.5では、用途の異なる2つのモデルが用意されています。 GPT Image 2.5 Flare GPT Image 2.5 Su…"
-    },
-    {
-      "id": "8af0d08ca9ce",
-      "title": "ポケカを一度もやったことがない私が、AIだけで銅メダルを取るまで",
-      "url": "https://zenn.dev/shintaroamaike/articles/0fe1987ca7c4c3",
-      "publishedAt": "2026-09-10T13:07:49.000Z",
-      "publisher": "ShintaroAmaike",
-      "summary": "ポケカ（ポケモンカードゲーム）は一度もプレイしたことがなく、ドメイン知識も全くない。そんな状態で、コードを1行も書かずAIに全て任せたら、Kaggleでメダルが取れるのかを検証したかった。 そこでKaggleの「Pokémon Tradi…"
-    },
-    {
-      "id": "f839ca5c8f1e",
-      "title": "なぜ、AIが進化してもHAL9000、Skynet、MATRIXは生まれないのか？",
-      "url": "https://zenn.dev/pdfractal/articles/600a3bb387719f",
-      "publishedAt": "2026-09-10T13:00:11.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに 『2001年宇宙の旅』のHAL 9000、『ターミネーター』のSkynet、『MATRIX』の機械文明は、人工知能が高度化した未来を描いた代表的な存在です。現在でも人工知能の危険性を説明するときには、しばしばこれらの名前が持ち出…"
     }
   ],
-  "fetchedAt": "2026-09-11T00:48:56.022Z",
+  "fetchedAt": "2026-09-11T05:35:40.044Z",
   "stale": false,
   "error": null
 }

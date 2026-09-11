@@ -6,36 +6,52 @@
   "category": "ai",
   "items": [
     {
-      "id": "147d99acc59d",
-      "title": "AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems",
-      "url": "https://huggingface.co/papers/2609.08572",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Large language model (LLM)-based multi-agent systems (MAS) achieve strong performance by employing specialized multiple…",
-      "score": 83
+      "id": "1407ab0443c7",
+      "title": "Scaling Automatic Research Agents via World Models",
+      "url": "https://huggingface.co/papers/2608.12564",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Automating empirical research is a long-standing direction of AI. Recent automatic research (AutoResearch) agents bring…",
+      "score": 431
     },
     {
-      "id": "bf1d9af4ed4d",
-      "title": "SchemeArena: Factorized Stress Testing of Scheming in LLM Agents",
-      "url": "https://huggingface.co/papers/2609.08126",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "We study scheming in LLM agents, in which agents covertly pursue misaligned goals. Our focus is to understand how schem…",
-      "score": 7
+      "id": "0fa26fbc572c",
+      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+      "url": "https://huggingface.co/papers/2609.10715",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "summary": "We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next…",
+      "score": 91
     },
     {
-      "id": "10a8bcc6ea67",
-      "title": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
-      "url": "https://huggingface.co/papers/2609.09264",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Leading benchmarks for formal theorem proving with large language models are small collections drawn from competition m…",
-      "score": 6
+      "id": "7b287a5db45d",
+      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+      "url": "https://huggingface.co/papers/2609.11929",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visu…",
+      "score": 53
     },
     {
-      "id": "a2b5b4395d58",
-      "title": "A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware",
-      "url": "https://huggingface.co/papers/2609.05463",
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "summary": "AI-powered search products such as ChatGPT search, Google's AI Overviews, and Perplexity provide LLM-synthesized answer…",
-      "score": 5
+      "id": "2def02458f62",
+      "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
+      "url": "https://huggingface.co/papers/2609.05903",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "Large Language Model (LLM) agents are turning language into real-world effects, making safety necessary against both in…",
+      "score": 30
+    },
+    {
+      "id": "a72868a8c1a3",
+      "title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+      "url": "https://huggingface.co/papers/2609.11042",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Agent usage is shifting toward long-horizon tasks such as coding and scientific discovery, among which terminal tasks a…",
+      "score": 29
+    },
+    {
+      "id": "b8cb884c2e13",
+      "title": "SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem",
+      "url": "https://huggingface.co/papers/2609.07064",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "Large Vision-Language Models (LVLMs) have achieved strong performance on diverse visual tasks, yet their ability to rec…",
+      "score": 25
     },
     {
       "id": "48dbbd0b9561",
@@ -43,66 +59,50 @@
       "url": "https://huggingface.co/papers/2609.06702",
       "publishedAt": "2026-09-06T00:00:00.000Z",
       "summary": "Sequential memory agents process long documents by reading chunks one after another while maintaining a compact memory …",
+      "score": 6
+    },
+    {
+      "id": "f9358cb56075",
+      "title": "Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs",
+      "url": "https://huggingface.co/papers/2609.11499",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Code world models represent worlds as executable programs, but this representation alone does not determine how to cons…",
       "score": 4
     },
     {
-      "id": "5be725ef3fc4",
-      "title": "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution",
-      "url": "https://huggingface.co/papers/2609.06490",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "summary": "Recursive Super-Resolution (SR) extends fixed-scale SR to extreme magnification by repeatedly feeding predictions back …",
-      "score": 4
+      "id": "eac24ea0e693",
+      "title": "CARDEA: Auditable Reasoning Grounded in Spatial Evidence for End-to-End Coronary Angiography Interpretation",
+      "url": "https://huggingface.co/papers/2609.06931",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "Invasive coronary angiography (CAG) is the gold standard for diagnosing coronary artery disease, but interpretation var…",
+      "score": 3
     },
     {
-      "id": "4066ca196e46",
-      "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
-      "url": "https://huggingface.co/papers/2609.10355",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video repre…",
-      "score": 4
-    },
-    {
-      "id": "88fdb5d473de",
-      "title": "From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution",
-      "url": "https://huggingface.co/papers/2609.02771",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Training data attribution (TDA) aims to identify training examples that shape model behavior, but its intervention valu…",
+      "id": "db122a229815",
+      "title": "World in World: Explore the World with World Models",
+      "url": "https://huggingface.co/papers/2609.11548",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Autoregressive video world models enable interactive, long-horizon exploration, but flexible control remains challengin…",
       "score": 2
     },
     {
-      "id": "667b551fe967",
-      "title": "The Semantic Bottleneck: Leveraging Semantic Representations for Non-Invasive Speech Decoding",
-      "url": "https://huggingface.co/papers/2609.10296",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Non-invasive speech decoding remains constrained by the low signal-to-noise ratio of neural recordings, which makes fin…",
-      "score": 2
-    },
-    {
-      "id": "9c3ced24b482",
-      "title": "The Price of Sparsity: Sufficient Conditions for Sparse Recovery using Sparse and Sparsified Measurements",
-      "url": "https://huggingface.co/papers/2509.01809",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "We consider the problem of support recovery for sparse binary signals from noisy linear measurements. For sparse Gaussi…",
+      "id": "0a8984d0ee14",
+      "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+      "url": "https://huggingface.co/papers/2608.27875",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "summary": "Quantization has been widely adopted in LLM training and inference to reduce cost and improve efficiency. However, low-…",
       "score": 1
     },
     {
-      "id": "3bf771bdfc28",
-      "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
-      "url": "https://huggingface.co/papers/2609.08965",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used …",
-      "score": 1
-    },
-    {
-      "id": "2191d9b799f2",
-      "title": "Reference-Based Bias Detection in LLMs via Relative Representations of Hidden States",
-      "url": "https://huggingface.co/papers/2609.10060",
+      "id": "729fafc4c561",
+      "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
+      "url": "https://huggingface.co/papers/2609.10712",
       "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Existing bias auditing methods typically rely on model outputs, requiring costly benchmarks or judge models and potenti…",
+      "summary": "We study how model post-training and test-time inference design affect natural-language proof generation for hard olymp…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-11T00:48:55.923Z",
+  "fetchedAt": "2026-09-11T05:35:39.916Z",
   "stale": false,
   "error": null
 }
