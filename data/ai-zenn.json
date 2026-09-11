@@ -6,6 +6,54 @@
   "category": "ai",
   "items": [
     {
+      "id": "48d436010ebb",
+      "title": "Astraに「玉ねぎを3ミリに切れ」と指示する愚行",
+      "url": "https://zenn.dev/karamage/articles/e49ccf76ad111c",
+      "publishedAt": "2026-09-11T10:17:56.000Z",
+      "publisher": "karamage",
+      "summary": "Astraを使うとき、指示文やスキルやルールがズラーーッと長くなってませんか？ それ駄目っぽいです。 シェフの腕をロープで縛り上げておきながら、「なぜ早く料理ができないんだ」と怒鳴っている状態です。 Astraに対する指示の出し方は、これ…"
+    },
+    {
+      "id": "6e49dca640fa",
+      "title": "Gemini CLIをGA4データアナリストとして使う具体的な設定と活用例",
+      "url": "https://zenn.dev/web_benriya/articles/gemini-cli-ga4-analyst-setup-guide",
+      "publishedAt": "2026-09-11T10:12:59.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに GA4のデータをBigQueryに連携したものの、「SQLを書くのが難しい」「毎週のレポートを作るのが手間」と感じていませんか。あるいは、レポートを眺めながら「この数字が下がっている原因は何だろう」と考えても、次の一手が浮かびに…"
+    },
+    {
+      "id": "c6596be89eca",
+      "title": "YOLO26nアーキテクチャ徹底解析 step3 | C3k2, SPPF, C2PSA ブロックとサブブロック",
+      "url": "https://zenn.dev/diiw/articles/yolo26n-architecture-step3",
+      "publishedAt": "2026-09-11T10:04:03.000Z",
+      "publisher": "DiIw",
+      "summary": "はじめに 本記事は、筆者がソースコードおよびモデル構造を独自に解析した情報に基づき解説を行う記事です。本記事の内容は更新される場合があります。内容に大きな変更・追加があった場合は都度Xアカウントにて発信いたします。 本記事は「YOLO26…"
+    },
+    {
+      "id": "43b405153fbc",
+      "title": "【第2回】遠回りしない技術英語 ― \"TOEIC単語”と\"現場英語\"はなぜ噛み合わないのか",
+      "url": "https://zenn.dev/hiropiro/articles/17b2ded90e8e22",
+      "publishedAt": "2026-09-11T10:00:00.000Z",
+      "publisher": "栃木県民",
+      "summary": "連載「遠回りしない技術英語 ― 自動車×AIエンジニアの実務英語講座」第2回です。第1回（遠回りしないための地図）では、エンジニアの英語学習には無駄が多い、という話をした。今回はその最たる例、単語を掘り下げる。 「AI翻訳がある時代に、単…"
+    },
+    {
+      "id": "b5d7d9704659",
+      "title": "Claude CodeがBashでファイルを書き換えるようになった気がする",
+      "url": "https://zenn.dev/neriame_code/articles/2ecc89e1a29000",
+      "publishedAt": "2026-09-11T09:38:05.000Z",
+      "publisher": "neriame",
+      "summary": "完全に体感の話になりますが、ある時期からClaude Codeが Edit や Write をほとんど使わなくなり、sed -i とヒアドキュメントでファイルを書き換えるようになりました。 ある時期というのはOpus5のリリースあたりだっ…"
+    },
+    {
+      "id": "71afee4c02c8",
+      "title": "Strands Agentsのプロンプトキャッシュで 社内RAG Agentの入力コストを半減させてみた",
+      "url": "https://zenn.dev/fusic/articles/50a7b980a8e9bc",
+      "publishedAt": "2026-09-11T09:28:10.000Z",
+      "publisher": "omiya",
+      "summary": "背景 こんにちは、Fusicの大宮です。 私は、社内向けSlack Botである「Fusicマン+」の運営をしています。 Fusicマン+は、Confluenceの社内ハンドブックを検索して質問に答えるRAG AI エージェントです。 運…"
+    },
+    {
       "id": "388e4ed6a205",
       "title": "画像生成AIのプロンプトを「資産」にする整理のコツ",
       "url": "https://zenn.dev/aiimgprompt/articles/b15f60638b5950",
@@ -52,57 +100,9 @@
       "publishedAt": "2026-09-11T07:29:45.000Z",
       "publisher": "MJ",
       "summary": "はじめに モデルを変えた途端に、前のモデルのために書いた注意書きが効かなくなる。この半年で何度も踏んだ場面で、9 月に入って X でこの投稿を見たとき、正直ちょっと身に覚えがありました。 https://x.com/kawasin73/s…"
-    },
-    {
-      "id": "109daaa513eb",
-      "title": "CursorとCodexに毎日小さなWebを作らせて、デプロイナウで公開する",
-      "url": "https://zenn.dev/boraemon2000/articles/ab50fb1e43f663",
-      "publishedAt": "2026-09-11T07:08:27.000Z",
-      "publisher": "boraemon2000",
-      "summary": "毎日ひとつ、ブラウザだけで動く小さなゲームや便利ツールを公開するサイトを作りました。 名前は「１日１デプロイ」です。公開先はこちらです。 https://mini-lab.lolipop-now.app/ 最初の作品は経路パズル「ホタルみ…"
-    },
-    {
-      "id": "710dda7d35af",
-      "title": "Grok botが僕らのチームを侵食してる",
-      "url": "https://zenn.dev/fastdoctor/articles/grok-bot-team-development",
-      "publishedAt": "2026-09-11T06:58:53.000Z",
-      "publisher": "Manabu",
-      "summary": "この記事は、noteに掲載した同名の記事をZenn向けに整えたものです。 ほんの1週間ほど前くらいの出来事でした。 なんだか様子がおかしいと思ったのは。 ＠Cursor? Cursor使ってるの？？ 普段うちはChatGPTとClaude…"
-    },
-    {
-      "id": "50e8881a3ade",
-      "title": "AIエージェントの失敗を228件記録したら、根本原因は3つしかなかった",
-      "url": "https://zenn.dev/tokium_dev/articles/ai-agent-failure-patterns-228",
-      "publishedAt": "2026-09-11T06:34:12.000Z",
-      "publisher": "ikedan",
-      "summary": "! この記事は何の話か（3 行まとめ） AI（Claude Code）が失敗するたびに教訓を1ファイル1パターンで記録する運用を数ヶ月続けたら228件たまったので、全件を分類集計しました 教訓の大半は「Yする前にXせよ」「XはYではない」…"
-    },
-    {
-      "id": "99aad98fd1ed",
-      "title": "「Critical」という格付けをGPT-6 Astraが受け取った週、このタスクが触れていいリポジトリは2つしかなかった",
-      "url": "https://zenn.dev/hideki_tamae/articles/gated-capability-access-design",
-      "publishedAt": "2026-09-11T06:28:56.000Z",
-      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
-      "summary": "はじめに 100%。 これが今回の数字です。何の100%かというと、OpenAIが2026年9月3日に発表した新モデル「GPT-6 Astra」が、本番用の安全対策を外した状態で、自社のエクスプロイト開発ベンチマーク「ExploitBen…"
-    },
-    {
-      "id": "0b7cd3bb3126",
-      "title": "AI時代のエンジニアの在り方・変化",
-      "url": "https://zenn.dev/yatsumi823/articles/engineers-in-the-age-of-ai",
-      "publishedAt": "2026-09-11T05:35:13.000Z",
-      "publisher": "YATSUM!(やつみ)",
-      "summary": "はじめに 生成AIの登場によって、エンジニアの仕事は大きく変わり始めています。 コードの補完、テストの生成、エラーの調査、設計案の比較、ドキュメントの作成。これまで人が時間をかけていた作業の多くを、AIが短時間で支援できるようになりました…"
-    },
-    {
-      "id": "cf20e2d8121c",
-      "title": "文字数・バイト数からのトークン数推定は実際どれくらいズレるのか",
-      "url": "https://zenn.dev/aiforall/articles/63501821b1e50e",
-      "publishedAt": "2026-09-11T05:33:13.000Z",
-      "publisher": "nishina",
-      "summary": "背景 実務で、LLM への入力テキストがトークン数の上限を超えてエラーになる事象が発生し、対策を検討する場面がありました。対策案として、LLM に投げる前に文字数やバイト数、あるいは tiktoken のようなトークナイザーでトークン数を…"
     }
   ],
-  "fetchedAt": "2026-09-11T14:25:23.410Z",
+  "fetchedAt": "2026-09-11T17:49:05.714Z",
   "stale": false,
   "error": null
 }

@@ -6,28 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "2def02458f62",
-      "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
-      "url": "https://huggingface.co/papers/2609.05903",
-      "publishedAt": "2026-09-05T00:00:00.000Z",
-      "summary": "Large Language Model (LLM) agents are turning language into real-world effects, making safety necessary against both in…",
-      "score": 35
-    },
-    {
       "id": "5630bb2f2fa6",
       "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
       "url": "https://huggingface.co/papers/2609.11317",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "summary": "Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digi…",
-      "score": 18
-    },
-    {
-      "id": "bcc638486e35",
-      "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
-      "url": "https://huggingface.co/papers/2609.11412",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Reducing audio-encoder depth lowers the inference cost of speech large language models, but removing complete blocks pe…",
-      "score": 12
+      "score": 20
     },
     {
       "id": "499fd3986af0",
@@ -35,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.11561",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "summary": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inh…",
-      "score": 7
+      "score": 9
     },
     {
       "id": "ccce6ea85a8d",
@@ -59,7 +43,7 @@
       "url": "https://huggingface.co/papers/2609.11699",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, a…",
-      "score": 3
+      "score": 4
     },
     {
       "id": "1b83f3b38721",
@@ -67,14 +51,6 @@
       "url": "https://huggingface.co/papers/2609.10016",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "summary": "We introduce MetroLLM-Bench, a 955-case benchmark for testing language models as the policy layer of a transit kiosk. I…",
-      "score": 3
-    },
-    {
-      "id": "0a8984d0ee14",
-      "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
-      "url": "https://huggingface.co/papers/2608.27875",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "Quantization has been widely adopted in LLM training and inference to reduce cost and improve efficiency. However, low-…",
       "score": 3
     },
     {
@@ -94,15 +70,39 @@
       "score": 2
     },
     {
-      "id": "eb8473d93057",
-      "title": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
-      "url": "https://huggingface.co/papers/2609.11808",
+      "id": "627b6b1b123c",
+      "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
+      "url": "https://huggingface.co/papers/2608.15380",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "summary": "In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impair…",
+      "score": 1
+    },
+    {
+      "id": "0aaf4fdb03bd",
+      "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+      "url": "https://huggingface.co/papers/2609.11085",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Late-interaction retrieval is the state-of-the-art for visual document search, but it pays for its accuracy in storage.…",
-      "score": 2
+      "summary": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally bl…",
+      "score": 1
+    },
+    {
+      "id": "1d377e524cbc",
+      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+      "url": "https://huggingface.co/papers/2609.09076",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identi…",
+      "score": 0
+    },
+    {
+      "id": "2cb892a5daca",
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "url": "https://huggingface.co/papers/2609.10539",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "summary": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-11T14:25:23.300Z",
+  "fetchedAt": "2026-09-11T17:49:05.601Z",
   "stale": false,
   "error": null
 }
