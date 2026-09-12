@@ -6,6 +6,54 @@
   "category": "ai",
   "items": [
     {
+      "id": "7565078f6b2f",
+      "title": "攻撃側の手法から、AI Native なオペレーションを学ぶ",
+      "url": "https://zenn.dev/yottayoshida/articles/ai-native-ops-from-attackers",
+      "publishedAt": "2026-09-11T23:34:35.000Z",
+      "publisher": "yotta",
+      "summary": "Anthropic が2026年9月に出した脅威インテリジェンスレポートに、攻撃者が Claude をどう組み込んでいたかが書かれている。検知されたらマルウェアを書き換えて再配備し、検知されなくなるまで反復するワークフロー。セッションをま…"
+    },
+    {
+      "id": "54a6939ffcb1",
+      "title": "Claude Code の --worktree が終了時に消える問題を git worktree lock で防ぐ",
+      "url": "https://zenn.dev/daydreamer/articles/94889b52bf475d",
+      "publishedAt": "2026-09-11T23:17:29.000Z",
+      "publisher": "daydreamer",
+      "summary": "はじめに Claude Code を claude --worktree feature-x で起動して、調査だけして /exit したら、worktree が消えていた。こんな経験はありませんか? 「Keep worktree / Re…"
+    },
+    {
+      "id": "0ee127634364",
+      "title": "A Verification Protocol for Reviewing Multiple AI Image Directions...",
+      "url": "https://zenn.dev/tairagiang612/articles/f57aa1410a89a6",
+      "publishedAt": "2026-09-11T23:14:31.000Z",
+      "publisher": "Giang Taira",
+      "summary": "A Verification Protocol for Reviewing Multiple AI Image Directions... The silent-drift problem in prompt-based image ed…"
+    },
+    {
+      "id": "3511dc29dcc0",
+      "title": "技術選定を「経営判断」としてやり直したら、月2万円でAI会社が回った",
+      "url": "https://zenn.dev/joinclass/articles/2-20260910220005-10171",
+      "publishedAt": "2026-09-11T23:00:12.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "技術選定を「技術の話」だと思っていた頃 エンジニアとして技術を選ぶとき、僕はずっと「どれが優れているか」で決めていました。パフォーマンス、エコシステムの厚さ、型の効き方、開発体験。どれも正しい観点です。技術者としては何も間違っていない。 …"
+    },
+    {
+      "id": "e7b2c985a708",
+      "title": "Codexを使わずChatGPTからGitHubを直接修正できるのか ─ 使い分けと使用量の違い",
+      "url": "https://zenn.dev/yun_bow/articles/c1f091f5ffda7e",
+      "publishedAt": "2026-09-11T23:00:05.000Z",
+      "publisher": "ゆんぼう",
+      "summary": "はじめに 「GitHub のコードを AI に直してもらうなら Codex を使う」——そう考えている人は多いはずだ。 しかし現在の ChatGPT では、GitHub 連携が有効で、その連携が書き込みアクションに対応していれば、通常のチ…"
+    },
+    {
+      "id": "27dab70be37f",
+      "title": "FableとSol、AstraとOpusをまたいだエージェント連携の設計メモ",
+      "url": "https://zenn.dev/m0370/articles/098159d8520662",
+      "publishedAt": "2026-09-11T22:53:37.000Z",
+      "publisher": "m0370",
+      "summary": "エンジン間にコンテキストの共有はない Claude Fable 5.1とGPT-5.6 Sol、あるいはGPT-6 AstraとClaude Opus 5。異なるベンダーのモデルに役割を分けて連携させるアイデアは理に適っているのですが、最…"
+    },
+    {
       "id": "8839512ecdb0",
       "title": "2026-08-26 今日の技術トレンド",
       "url": "https://zenn.dev/bambampurin/articles/2026-08-26-tech-daily",
@@ -52,57 +100,9 @@
       "publishedAt": "2026-09-11T18:35:18.000Z",
       "publisher": "みいぬ",
       "summary": "社内でAPI経由でのAIチャットやプラットフォームなどを解放すると、どうしてもトークン料金がコストとしてかかります。その金額は使用人数が多く、また高機能なモデルを使えば使うほど高くなります。数万円であれば検証コストとして見過ごされていたも…"
-    },
-    {
-      "id": "acee62855bec",
-      "title": "AI APIプロダクトの成長を「4つのループ」として設計した話",
-      "url": "https://zenn.dev/beatapi/articles/2a444e97c46792",
-      "publishedAt": "2026-09-11T17:22:48.000Z",
-      "publisher": "BeatAPI",
-      "summary": "BeatAPIは公開から10日間で400人以上の登録と、約150ドルの売上を得ました。 3人のチームにとって励みになる数字です。しかし、それ以上に見えてきたのは、AIによって開発は速くなっても、プロダクトを見つけてもらい、信頼してもらうこ…"
-    },
-    {
-      "id": "52f131ac9c54",
-      "title": "AI時代は仕事を奪われるどころか、仕事が増える説",
-      "url": "https://zenn.dev/kuwanokazuya/articles/d1667a5ab5f2bf",
-      "publishedAt": "2026-09-11T16:07:27.000Z",
-      "publisher": "桑野一哉",
-      "summary": "生成AIが仕事に入り込んでくると、 「AIに仕事を奪われる」 という話をよく見かけます。 一方で、実際に仕事でAIを使っていると、少し違う感覚があります。 AIを使うほど、仕事が増えている。 「今週、何の仕事をしたんだ？」 私はWeb制作…"
-    },
-    {
-      "id": "c1299135f2db",
-      "title": "AIの採点役を分けても、点は甘いままだった",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-judge-design-seal-first",
-      "publishedAt": "2026-09-11T15:47:10.000Z",
-      "publisher": "菅原友和",
-      "summary": "前に、AIに自分で作ったものを自分で採点させると、点が甘くなるって話を書きました。今日はその続きです。 じゃあ、作る係とは別に、採点だけする係を立てれば解決するのか。僕も最初はそう思ってたんですよ。ところが、それだけだと、点は甘いままにな…"
-    },
-    {
-      "id": "be8fcd9abc7a",
-      "title": "OpenAIが「Codexの頭脳」を全開発者に開放 ― 新API「Agents API」で長時間稼働エージェントが誰でも作れる時代へ",
-      "url": "https://zenn.dev/tashikani/articles/openai-agents-api-2026",
-      "publishedAt": "2026-09-11T14:54:06.000Z",
-      "publisher": "タシカニ",
-      "summary": "リード 2026年9月10日、OpenAIは開発者向けに新しいAPI「Agents API」のパブリックベータを公開しました。これは、コーディングエージェント「Codex」を裏側で支えてきた「ハーネス(制御基盤)」――長時間タスクの管理、…"
-    },
-    {
-      "id": "b582131043b3",
-      "title": "AIエージェントに「投げる／自分でやる」の線引きを、数字で決める",
-      "url": "https://zenn.dev/ritsuhayase/articles/7f09351b0d9b04",
-      "publishedAt": "2026-09-11T14:41:44.000Z",
-      "publisher": "早瀬 律",
-      "summary": "コーディングエージェントを2つ併用していると、毎回これで迷います。 この作業、投げるべきか、自分でやるべきか。 迷っている時間そのものが損なので、判断を数字に落としました。この記事では、その閾値と、なぜその数字なのかを出します。 まず、対…"
-    },
-    {
-      "id": "7ed22d703267",
-      "title": "AIに書かせたコードを公開する前の15分。コードを読まずに6つ試すだけ",
-      "url": "https://zenn.dev/ritsuhayase/articles/ab8e0c9f2dd66e",
-      "publishedAt": "2026-09-11T14:41:16.000Z",
-      "publisher": "早瀬 律",
-      "summary": "AIに書かせたコードは、たいてい一度は動きます。 問題は、その一度が「たまたま」だったときに気づけないことです。読んで探そうとすると時間がかかるうえ、短くて素直なコードほど問題が見えません。 この記事では、コードを読まずに、動かすだけで済…"
     }
   ],
-  "fetchedAt": "2026-09-12T00:40:47.455Z",
+  "fetchedAt": "2026-09-12T05:04:48.149Z",
   "stale": false,
   "error": null
 }
