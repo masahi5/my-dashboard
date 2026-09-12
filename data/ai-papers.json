@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.11486",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "summary": "Optical flow methods typically rely on task-specific inductive biases, such as correlation volumes, feature warping, an…",
-      "score": 16
+      "score": 19
     },
     {
       "id": "94c5ab8dbddf",
@@ -35,7 +35,7 @@
       "url": "https://huggingface.co/papers/2609.09143",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "summary": "Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated…",
-      "score": 15
+      "score": 17
     },
     {
       "id": "095bb653ca68",
@@ -43,7 +43,15 @@
       "url": "https://huggingface.co/papers/2609.11699",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, a…",
-      "score": 14
+      "score": 15
+    },
+    {
+      "id": "7ad4eec9fe54",
+      "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
+      "url": "https://huggingface.co/papers/2609.10445",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "summary": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain o…",
+      "score": 13
     },
     {
       "id": "66781d027755",
@@ -54,11 +62,19 @@
       "score": 12
     },
     {
-      "id": "7ad4eec9fe54",
-      "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
-      "url": "https://huggingface.co/papers/2609.10445",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain o…",
+      "id": "627b6b1b123c",
+      "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
+      "url": "https://huggingface.co/papers/2608.15380",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "summary": "In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impair…",
+      "score": 12
+    },
+    {
+      "id": "0aaf4fdb03bd",
+      "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+      "url": "https://huggingface.co/papers/2609.11085",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally bl…",
       "score": 12
     },
     {
@@ -68,22 +84,6 @@
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "summary": "Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in autonomous s…",
       "score": 12
-    },
-    {
-      "id": "627b6b1b123c",
-      "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
-      "url": "https://huggingface.co/papers/2608.15380",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "summary": "In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impair…",
-      "score": 11
-    },
-    {
-      "id": "0aaf4fdb03bd",
-      "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
-      "url": "https://huggingface.co/papers/2609.11085",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally bl…",
-      "score": 11
     },
     {
       "id": "1d377e524cbc",
@@ -102,7 +102,7 @@
       "score": 11
     }
   ],
-  "fetchedAt": "2026-09-12T09:20:42.443Z",
+  "fetchedAt": "2026-09-12T12:59:24.020Z",
   "stale": false,
   "error": null
 }
