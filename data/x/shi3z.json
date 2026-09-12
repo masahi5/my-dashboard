@@ -2,6 +2,69 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2098905898077106271",
+      "url": "https://x.com/shi3z/status/2098905898077106271",
+      "text": "久しぶりのピンチ｜shi3z @shi3z note.com/shi3zblog/n/nd0c943…",
+      "publishedAt": "2026-09-12T22:45:36.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098899196816625696",
+      "url": "https://x.com/shi3z/status/2098899196816625696",
+      "text": "iPad ProとiPad miniとiPhone Pro Maxの3台を常に持ち歩いてる我輩にとってiPhone duoは本当に不要なのであった",
+      "publishedAt": "2026-09-12T22:18:58.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098898726945456616",
+      "url": "https://x.com/shi3z/status/2098898726945456616",
+      "text": "むしろVHSデッキが8000円なら安すぎる",
+      "publishedAt": "2026-09-12T22:17:06.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098895558475948412",
+      "url": "https://x.com/shi3z/status/2098895558475948412",
+      "text": "もう今あるローカルモデルで十分なんだよな。実際問題",
+      "publishedAt": "2026-09-12T22:04:31.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098886974610583709",
+      "url": "https://x.com/shi3z/status/2098886974610583709",
+      "text": "登山家がヘリコプターで山の頂上に行くようなものか",
+      "publishedAt": "2026-09-12T21:30:24.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098877327199629616",
+      "url": "https://x.com/shi3z/status/2098877327199629616",
+      "text": "repo: github.com/shi3z/DeepSeekv4.…",
+      "publishedAt": "2026-09-12T20:52:04.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098877134089630023",
+      "url": "https://x.com/shi3z/status/2098877134089630023",
+      "text": "DGX Sparkで3ビット量子化で18.28tok/sまで来た\nDeepSeek v4.1 Flash",
+      "publishedAt": "2026-09-12T20:51:18.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2098740305105453333",
       "url": "https://x.com/shi3z/status/2098740305105453333",
       "text": "マイナスゼロはゼロと同じ。AIもそう言っている",
@@ -27,72 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2098673635884191867",
-      "url": "https://x.com/shi3z/status/2098673635884191867",
-      "text": "I deleted the previous post about PQ to avoid misleading anyone, since the compression actually broke the weights. Sorry about that!",
-      "publishedAt": "2026-09-12T07:22:40.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2098673440639381973",
-      "url": "https://x.com/shi3z/status/2098673440639381973",
-      "text": "Never mind, bad news. Turns out PQ broke the 4-bit engrams.",
-      "publishedAt": "2026-09-12T07:21:54.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2098656399777837217",
-      "url": "https://x.com/shi3z/status/2098656399777837217",
-      "text": "最適化遊びやばいな。無限に時間が溶ける。\n最適化で遊んでる間、継之助が本来の仕事やれてない(まあ休日だからいいけど)。",
-      "publishedAt": "2026-09-12T06:14:11.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2098655929097236486",
-      "url": "https://x.com/shi3z/status/2098655929097236486",
-      "text": "I/O限界に達してきたのでモデルを非可逆圧縮する方向に切り替えてみよう。3.5bit/wにしても出力誤差は5%らしい。誤差が蓄積するとバカになる可能性もあるが・・・A100で検証してるけどこれがうまくいくならDGX SparkにもMac Studioにも応用できるはず",
-      "publishedAt": "2026-09-12T06:12:19.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2098650636871238076",
-      "url": "https://x.com/shi3z/status/2098650636871238076",
-      "text": "お、9.2 tok/sまできた。同一構成の二回目",
-      "publishedAt": "2026-09-12T05:51:17.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2098649950536245438",
-      "url": "https://x.com/shi3z/status/2098649950536245438",
-      "text": "うーん、DGX Spark x1 , DeepSeek v4.1 Flash\nフルウェイト(量子化劣化なし)だとやっとこ6.5tok/s\nこれでも世界最速ではあるが・・・もう一声なんかないか・・・",
-      "publishedAt": "2026-09-12T05:48:33.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2098632215030825042",
-      "url": "https://x.com/shi3z/status/2098632215030825042",
-      "text": "人間が書いた論文を理解するのにも何年もかかって結論出なかったするのにAIが書いた嘘か本当かわからん論文なんか検証してる暇ないよな",
-      "publishedAt": "2026-09-12T04:38:05.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-12T20:46:24.237Z",
+  "fetchedAt": "2026-09-12T22:49:00.311Z",
   "stale": false,
   "error": null
 }
