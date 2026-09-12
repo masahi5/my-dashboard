@@ -2,6 +2,42 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2098693885509992546",
+      "url": "https://x.com/npaka123/status/2098693885509992546",
+      "text": "GPT-6 Astra × Blender でTripoモデルのUV展開を試す｜npaka @npaka123 note.com/npaka/n/n7de578e3b6…",
+      "publishedAt": "2026-09-12T08:43:08.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098681827703808480",
+      "url": "https://x.com/DJiafei/status/2098681827703808480",
+      "text": "Was GPT-6 Astra trained on robot data? Got me curious.\n\nBorrowed @chooi_jeq's code, ran an open-loop rollout on a MolmoAct2 dataset trajectory to find out.\nHere's what came out 👇",
+      "publishedAt": "2026-09-12T07:55:14.000Z",
+      "authorHandle": "DJiafei",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2098657586694561879",
+      "url": "https://x.com/tebasaki3D/status/2098657586694561879",
+      "text": "このシリーズ無駄にたくさん生成したからXにどんどん放流していかないとw\n\nこれはMinimaxH3、髪や衣装の揺れモノの動きがやっぱり綺麗なんですよね〜\n左右だけじゃなくて、弧を描く回り込みの揺れ感を感じる👀\n@Hailuo_AI #MinimaxH3",
+      "publishedAt": "2026-09-12T06:18:54.000Z",
+      "authorHandle": "tebasaki3D",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2098654268190519559",
+      "url": "https://x.com/NGO275/status/2098654268190519559",
+      "text": "サンフランシスコで開催されたロボティクスのイベントActuate 26行ってきた｜Shu @NGO275 note.com/shu127/n/n0cc464ebe…",
+      "publishedAt": "2026-09-12T06:05:43.000Z",
+      "authorHandle": "NGO275",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2098635798782566707",
       "url": "https://x.com/npaka123/status/2098635798782566707",
       "text": "GPT-6 Astra 3D Character Workflow: Rig and Animate from One Image tripo3d.ai/blog/gpt-6-astra-…",
@@ -54,45 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2098612714704891959",
-      "url": "https://x.com/thsottiaux/status/2098612714704891959",
-      "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
-      "publishedAt": "2026-09-12T03:20:36.000Z",
-      "authorHandle": "thsottiaux",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2098600448458706987",
-      "url": "https://x.com/n428dev/status/2098600448458706987",
-      "text": "GPT-6 Astra からBlender操作して路面電車操作ゲーム作成",
-      "publishedAt": "2026-09-12T02:31:51.000Z",
-      "authorHandle": "n428dev",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2098593884444274972",
-      "url": "https://x.com/OsoneHiroyuki/status/2098593884444274972",
-      "text": "取材いただきました\n\nロボット格闘技『REK 2』優勝の舞台裏　大曽根宏幸が語る「操縦」の奥深さと日本の可能性 realsound.jp/tech/2026/09/po… @realsound_techより",
-      "publishedAt": "2026-09-12T02:05:46.000Z",
-      "authorHandle": "OsoneHiroyuki",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2098589280587391317",
-      "url": "https://x.com/npaka123/status/2098589280587391317",
-      "text": "【指したくない手が多い】レジェンド棋士・羽生善治が明かす40年の変化「運営向いてない」「怖さが大きかった」会長退任の思いを告白…過去の自分と対局... piped.video/e-jk_EBoo5o?si=04m9… @YouTubeより",
-      "publishedAt": "2026-09-12T01:47:29.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-12T05:05:29.482Z",
+  "fetchedAt": "2026-09-12T09:20:58.941Z",
   "stale": false,
   "error": null
 }

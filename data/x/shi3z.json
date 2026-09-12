@@ -2,6 +2,60 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2098673635884191867",
+      "url": "https://x.com/shi3z/status/2098673635884191867",
+      "text": "I deleted the previous post about PQ to avoid misleading anyone, since the compression actually broke the weights. Sorry about that!",
+      "publishedAt": "2026-09-12T07:22:40.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098673440639381973",
+      "url": "https://x.com/shi3z/status/2098673440639381973",
+      "text": "Never mind, bad news. Turns out PQ broke the 4-bit engrams.",
+      "publishedAt": "2026-09-12T07:21:54.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098656399777837217",
+      "url": "https://x.com/shi3z/status/2098656399777837217",
+      "text": "最適化遊びやばいな。無限に時間が溶ける。\n最適化で遊んでる間、継之助が本来の仕事やれてない(まあ休日だからいいけど)。",
+      "publishedAt": "2026-09-12T06:14:11.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098655929097236486",
+      "url": "https://x.com/shi3z/status/2098655929097236486",
+      "text": "I/O限界に達してきたのでモデルを非可逆圧縮する方向に切り替えてみよう。3.5bit/wにしても出力誤差は5%らしい。誤差が蓄積するとバカになる可能性もあるが・・・A100で検証してるけどこれがうまくいくならDGX SparkにもMac Studioにも応用できるはず",
+      "publishedAt": "2026-09-12T06:12:19.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098650636871238076",
+      "url": "https://x.com/shi3z/status/2098650636871238076",
+      "text": "お、9.2 tok/sまできた。同一構成の二回目",
+      "publishedAt": "2026-09-12T05:51:17.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2098649950536245438",
+      "url": "https://x.com/shi3z/status/2098649950536245438",
+      "text": "うーん、DGX Spark x1 , DeepSeek v4.1 Flash\nフルウェイト(量子化劣化なし)だとやっとこ6.5tok/s\nこれでも世界最速ではあるが・・・もう一声なんかないか・・・",
+      "publishedAt": "2026-09-12T05:48:33.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2098632215030825042",
       "url": "https://x.com/shi3z/status/2098632215030825042",
       "text": "人間が書いた論文を理解するのにも何年もかかって結論出なかったするのにAIが書いた嘘か本当かわからん論文なんか検証してる暇ないよな",
@@ -36,67 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2098626411393409440",
-      "url": "https://x.com/shi3z/status/2098626411393409440",
-      "text": "全部やろうとすると失敗するからタスクごとにSSDから必要なウェイトを読み出す方式に変えるしかないか",
-      "publishedAt": "2026-09-12T04:15:01.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2098617542684336360",
-      "url": "https://x.com/shi3z/status/2098617542684336360",
-      "text": "ただし、日本語は破綻する。2ビットで中間層を捨ててるから。英語とかコーディングタスクは速い",
-      "publishedAt": "2026-09-12T03:39:47.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2098617197597995257",
-      "url": "https://x.com/shi3z/status/2098617197597995257",
-      "text": "7/7\n6/ What didn't work (save your time):\n❌ Fusing 5,300 small kernels (total runtime was only 2.1ms anyway) ❌ Hugepages / TLB tuning (flat 108 µs/expert from 0.8 to 30GB, zero TLB cliffs) ❌ Reducing block_m (<4% delta) ❌ Retuning CB2 kernels (existing sweep was already optimal)",
-      "publishedAt": "2026-09-12T03:38:24.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false,
-      "replyTo": "drikin"
-    },
-    {
-      "id": "2098617075849969792",
-      "url": "https://x.com/shi3z/status/2098617075849969792",
-      "text": "6/7\n5/ Counter-intuitive tuning: fp4_share\nSetting share=0.8 seemed intuitive (more FP4 = better?), but rescuing coarse experts via CB2 (5.54MB) is 2.6x cheaper than FP4 (14.35MB).",
-      "publishedAt": "2026-09-12T03:37:55.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false,
-      "replyTo": "drikin"
-    },
-    {
-      "id": "2098617043071500588",
-      "url": "https://x.com/shi3z/status/2098617043071500588",
-      "text": "5/7\n4/ Hardware landmines ⚠️\n• Slicing must align to 32 channels (matches UE8M0 scale groups & 16B w2 packed nibbles). • INTER_H must be multiples of 256 (block_plan constraint). • Slots must be populated coldest-first to avoid LRU silently evicting the most active experts.",
-      "publishedAt": "2026-09-12T03:37:48.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false,
-      "replyTo": "drikin"
-    },
-    {
-      "id": "2098617012406878554",
-      "url": "https://x.com/shi3z/status/2098617012406878554",
-      "text": "4/7\n3/ Faking ~1.5-bit without new kernels\nAll 15,360 experts in 97GB needs 1.43 bpw. Standard 2-bit CB2 (2.25 bpw = 153GB) is too big.\n\nInstead of writing a custom 1-bit PTX decoder, we sliced intermediate channels (768/2304) inside Triton via constexpr. Saved weeks of kernel dev with 1 allocator class!",
-      "publishedAt": "2026-09-12T03:37:40.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false,
-      "replyTo": "drikin"
     }
   ],
-  "fetchedAt": "2026-09-12T05:05:33.119Z",
+  "fetchedAt": "2026-09-12T09:21:00.883Z",
   "stale": false,
   "error": null
 }
