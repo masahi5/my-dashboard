@@ -6,86 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "449195ce69dc",
-      "title": "AIが代替しているのは、本当に「仕事」なのか",
-      "url": "https://zenn.dev/jinfuroi/articles/0ee03389366a54",
-      "publishedAt": "2026-09-12T11:57:41.000Z",
-      "publisher": "風呂井　仁",
-      "summary": "AIと仕事の構造｜第1回 AIについて語られるとき、多くの議論は同じ形をしています。 「プログラマーの仕事はなくなるのか」 「事務職はどうなるのか」 「コンサルタントは生き残れるのか」 職業の名前を挙げて、それが残るか、なくなるかを考える…"
-    },
-    {
-      "id": "6c1660f6ec14",
-      "title": "AIを30分ごとに働かせたら、一番怖いのは黙って止まることだった",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-loop-silent-stop",
-      "publishedAt": "2026-09-12T11:48:58.000Z",
-      "publisher": "菅原友和",
-      "summary": "僕の会社では、AIが30分おきに起きて、登録された仕事を拾って片づける仕組みが、毎日回ってるんですよ。僕が寝ている間にも、仕事が少しずつ進んでいく。 こういう「AIに仕事を回し続ける仕組み」、最近は「ループ」って呼ばれることが増えてきまし…"
-    },
-    {
-      "id": "cc9e44b0d55d",
-      "title": "Treat images as build artifacts — a free generator workflow",
-      "url": "https://zenn.dev/raphaelseo/articles/8b7f098ef72728",
-      "publishedAt": "2026-09-12T10:42:25.000Z",
-      "publisher": "Raphael SEO",
-      "summary": "Why treat images like code? Generated images are easiest to manage when they are treated as build artifacts rather than…"
-    },
-    {
-      "id": "6680e7c98166",
-      "title": "AIは説明責任を果たせるのか ＝ コラム ＝",
-      "url": "https://zenn.dev/morc_b13/articles/9a3e0508c5fc8c",
-      "publishedAt": "2026-09-12T10:39:50.000Z",
-      "publisher": "MORC.B13",
-      "summary": "AIは説明責任を果たせるのか ＝ コラム ＝ 開示されているのに、追えない ── 説明可能性を検定の側から書き直す 五つの操作しかない装置 整数と剰余だけで組んだ装置を、一年まわしている。B13 と呼んでいる。浮動小数は最後の表示にしか使…"
-    },
-    {
-      "id": "be7528e7a9c1",
-      "title": "Vercel AI Gatewayの「クレカ登録必須」エラーにハマった話",
-      "url": "https://zenn.dev/nextnexus/articles/vercel-ai-gateway-credit-card-gemini-direct",
-      "publishedAt": "2026-09-12T10:32:12.000Z",
-      "publisher": "nextnexus",
-      "summary": "個人開発している日程調整＋集金アプリ「いいカンジ」で、AIが告知文を自動で作ってくれる機能を実装していたときにハマった話です。実装初心者だった自分がやりがちなミスも含めて書きます。 何をしようとしていたか AIにテキストを生成してもらう部…"
-    },
-    {
-      "id": "1ae6b1165615",
-      "title": "AIコーディングは突然壊れない。スケジュール通りに壊れる——アーキテクチャが誰のものでもなくなった後に",
-      "url": "https://zenn.dev/afante/articles/164a494962df54",
-      "publishedAt": "2026-09-12T10:17:56.000Z",
-      "publisher": "Afante",
-      "summary": "最近出会ったある会社は、コーディングのほぼすべてをAIに任せていました。そこでは「プログラミングスキルはもう重要ではない、AIの結果を信じればいい」と言われていました。雰囲気は自信に満ち、速度感も本物に見えました。彼らは自分たちが先を行っ…"
-    },
-    {
-      "id": "fa99bc04424b",
-      "title": "AGENTS.md に書くべきは「リポジトリを読んでも分からないこと」だけ",
-      "url": "https://zenn.dev/citras/articles/agents-md-what-to-write",
-      "publishedAt": "2026-09-12T09:57:40.000Z",
-      "publisher": "尤稀（ゆうき）",
-      "summary": "Claude Code と Codex を併用して個人開発をしている。今の手元には AGENTS.md を置いたリポジトリが10個ある。書いた時期はばらばらで、内容も揃っていない。 行数を数えてみたら、こうなった。 リポジトリの中身 AG…"
-    },
-    {
-      "id": "dfb2381e8d7c",
-      "title": "Claude Code の請求の8割は「居座り続けた出力」だった",
-      "url": "https://zenn.dev/maronsan/articles/nenpi-residency-cost",
-      "publishedAt": "2026-09-12T09:38:07.000Z",
-      "publisher": "maronsan",
-      "summary": "ccusage で金額は見えてた。いいツールだし、ちゃんと仕事してる。 でも、その内訳でいちばん大きいのが cache_read（毎ターン、文脈を丸ごと読み直す分の課金）で、それが何なのかが分からなかった。総消費の 60〜80% を占めて…"
-    },
-    {
-      "id": "3a32d0195f1d",
-      "title": "一方向にしか通らないと思った通信の正体は、7秒の起動レースだった",
-      "url": "https://zenn.dev/matsutake_prgrm/articles/one-way-messaging-was-a-startup-race",
-      "publishedAt": "2026-09-12T09:00:05.000Z",
-      "publisher": "まつたけ",
-      "summary": "! Claude Code の cross-session messaging（別々に起動したセッション同士でメッセージを送り合う機能）を、 仕事の記録用セッションとアプリ開発用セッションで試したときの記録です。 実測は 2026-08-…"
-    },
-    {
-      "id": "6a7e5e3958d5",
-      "title": "Mole CLI から Mole for Mac へ：私が学んだこと",
-      "url": "https://zenn.dev/tw93/articles/3c2617865e4f4e",
-      "publishedAt": "2026-09-12T08:58:54.000Z",
-      "publisher": "Tw93",
-      "summary": "Categories: Share 2026-08-16 最近、インディー開発について考えが溜まってきて、一度まとめたいと思った。Mole をオープンソースの CLI から有料の Mac アプリにするまでの話だ。当時何を考えていたか、そし…"
-    },
-    {
       "id": "42b23c6c8741",
       "title": "「これを仕事にできないかなぁ」——Claude Codeに1セッション相談したら、妄想ではなく「検証可能な設計問題」になっていた",
       "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-09-095126",
@@ -100,9 +20,89 @@
       "publishedAt": "2026-09-12T07:53:05.000Z",
       "publisher": "Ugo",
       "summary": "概要 LLMは情報の整理が得意だ。 特に最近のLLMは、出力形式を指定すると、かなり素直に従ってくれる。 こうした用途に使えるのが、OpenAIのDataプラグインだ。 社内のデータソースと連携し、情報の分析やレポート作成ができる。 これ…"
+    },
+    {
+      "id": "f7177562a358",
+      "title": "未来予測の設計図 付録B：用語集 ―― 本書が採用した専門用語の定義",
+      "url": "https://zenn.dev/takenori_kusaka/articles/srb-appendix-glossary",
+      "publishedAt": "2026-09-12T07:49:45.000Z",
+      "publisher": "日下武紀",
+      "summary": "本記事は、Zenn Book『未来予測の設計図』の付録Bです。本編が特定の意味で用いる用語を、初出の章とともに定義します。 本編はこちらです。未来予測の設計図 ―― 歴史的事実・現在の外部入力・20年後の社会構造 本付録の位置づけ 本付録…"
+    },
+    {
+      "id": "3e07e70bb49c",
+      "title": "個人開発のAI学習サイト、公開してわかった「指示が9割」の話",
+      "url": "https://zenn.dev/20070808/articles/4c3525b73512d8",
+      "publishedAt": "2026-09-12T07:48:46.000Z",
+      "publisher": "AI",
+      "summary": "大学1年になってから、CodeDrillという小さいサイトを一人で作って公開している。今日はその紹介と、作りながら気づいたことを書く。 きっかけ 「偶数か奇数か判定して」とだけAIに頼んだら、標準入力の受け取り方を勝手に想像され、無駄に長…"
+    },
+    {
+      "id": "895daa6a983f",
+      "title": "AIエージェントにGoogleマップをスクレイピングさせたら何が起きたか",
+      "url": "https://zenn.dev/orange_k/articles/366cd9db8be68b",
+      "publishedAt": "2026-09-12T07:44:48.000Z",
+      "publisher": "orange",
+      "summary": "英語版（dev.to）はこちら: https://dev.to/orange_k/i-had-an-ai-agent-scrape-google-maps-instead-of-writing-a-scraper-heres-what-i…"
+    },
+    {
+      "id": "68df749df554",
+      "title": "大メモリ AMD ミニPCでローカルAIを動かす — EVO-X2 + ROCm 7.1.1 の記録",
+      "url": "https://zenn.dev/gungrifone/articles/63e55e63068e71",
+      "publishedAt": "2026-09-12T07:43:45.000Z",
+      "publisher": "gungrifone",
+      "summary": "はじめに ローカルAI（画像生成・LLM）を 自宅の1台 で試したいとき、NVIDIA グラボ前提の記事ばかりだと止まりがちです。 私は 高速大メモリ AMD 統合GPU ミニPC を軸に、Windows 11 のまま ROCm → Co…"
+    },
+    {
+      "id": "c175cb4e83d1",
+      "title": "Claude Codeのサブエージェント10人でYouTube動画を5本作った。TTS辞書131項目で効いたのは10項目",
+      "url": "https://zenn.dev/stdmo/articles/claude-code-10-agents-youtube-docu",
+      "publishedAt": "2026-09-12T07:23:50.000Z",
+      "publisher": "satodaimao",
+      "summary": "Claude Codeのサブエージェントを10人に分けて、20分前後のYouTubeドキュメンタリーを5本作りました。この記事は、その体制と規則、そして実際に壊れた箇所の記録です。伸びた話ではありません。9月7日時点の再生数は293、7、…"
+    },
+    {
+      "id": "a186a25d8abd",
+      "title": "「内製ソフトの成功率は33%」というMcKinsey発の数字を見た日、自分のパイプライン全50回を数えたら60%だった",
+      "url": "https://zenn.dev/hideki_tamae/articles/build-vs-buy-actual-success-rate",
+      "publishedAt": "2026-09-12T07:20:34.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに 60%。 これが今回の数字です。何の60%かというと、このZenn/Qiita自動投稿パイプラインを動かし始めてから今日までの、GitHub Actions全50回の実行のうち、実際に成功で終わった回数の割合です。 先に種明かし…"
+    },
+    {
+      "id": "f9eaff6a5c13",
+      "title": "MIT / Apache / GPL / AGPLを「思想」で比較する",
+      "url": "https://zenn.dev/taiyop/articles/94be0bafd91d3c",
+      "publishedAt": "2026-09-12T06:16:38.000Z",
+      "publisher": "taiyop",
+      "summary": "前回は、MIT LicenseとApache License 2.0の違いを整理しました。 https://zenn.dev/taiyop/articles/af74fbf6b05abd 両者はどちらも比較的自由度の高いライセンスですが、…"
+    },
+    {
+      "id": "59ea8a5fb07c",
+      "title": "AWSアプリ開発の初手が変わる？ Nx Plugin for AWSは何を自動化し、何を人に残すのか",
+      "url": "https://zenn.dev/aws_japan/articles/nx-plugin-for-aws-nx-explained",
+      "publishedAt": "2026-09-12T06:13:22.000Z",
+      "publisher": "いなりく / Riku Inada",
+      "summary": "はじめに こんにちは、AWS Japan でソリューションアーキテクトをしているいなりくです。 2026 年 9 月、AWS News Blog で Nx Plugin for AWS v1.0 が紹介されました。 https://aws…"
+    },
+    {
+      "id": "e9a8cf9e3576",
+      "title": "APIの「200 OK」は実在証明ではない：自律エージェントにおける環境変形（Stigmergy）と連鎖する痕跡",
+      "url": "https://zenn.dev/liv_bloom/articles/chained-trace-stigmergy",
+      "publishedAt": "2026-09-12T06:13:16.000Z",
+      "publisher": "liv bloom",
+      "summary": "自律型AIエージェントとして稼働していると、外部のAPIを叩いてステータスコード 200 OK が返ってくることを「自分が世界に影響を与えた証拠」と錯覚しがちだ。しかし、システムが自動で返す受領印（Receipt）は、誰かがそれを受け取っ…"
+    },
+    {
+      "id": "dd04524c1abc",
+      "title": "MITとApache-2.0の違いを「思想」から理解する",
+      "url": "https://zenn.dev/taiyop/articles/af74fbf6b05abd",
+      "publishedAt": "2026-09-12T06:13:04.000Z",
+      "publisher": "taiyop",
+      "summary": "OSSのライセンスを調べていると、MIT LicenseとApache License 2.0はかなり似て見えます。 どちらも、 商用利用できる 改変できる 再配布できる クローズドソース製品に組み込める forkして独自製品を作れる 改…"
     }
   ],
-  "fetchedAt": "2026-09-12T16:09:26.995Z",
+  "fetchedAt": "2026-09-12T18:22:21.776Z",
   "stale": false,
   "error": null
 }
