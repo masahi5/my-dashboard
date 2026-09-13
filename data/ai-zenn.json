@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "a44c9f3afb15",
-      "title": "Suno v6の\"均質化\"で見えた、AI音楽の分岐点は「手軽さ」ではなく「制御可能性」だった",
-      "url": "https://zenn.dev/ryok/articles/music-ai-control-vs-ease",
-      "publishedAt": "2026-09-12T19:19:42.000Z",
-      "publisher": "ryok",
-      "summary": "結論 2026年9月、Suno v6が音楽生成コミュニティで炎上した。「品質が落ちた」「多様性が死んだ」と有料ユーザーが解約を報告している。 だがこれを「Sunoの失敗」で終わらせると、本質を見誤る。一発生成（プロンプトを入れたら完成品が…"
+      "id": "ed25e644b62f",
+      "title": "エージェントは「テスト28件すべて合格」と報告した。UIテストは1本も実行されていなかった",
+      "url": "https://zenn.dev/dhubplus/articles/agent-reports-that-measured-nothing",
+      "publishedAt": "2026-09-13T04:13:11.000Z",
+      "publisher": "dhubplus",
+      "summary": "複数の個人プロジェクトを、AIエージェントに実装させて回している。ここ数か月でコストの重心がはっきり移った。書かせることではなく、戻ってきた報告を検証することのほうに寄る。 エージェントの使い方の記事はいくらでもある。だが「エージェントが…"
     },
     {
-      "id": "66f2b961136e",
-      "title": "1発でレビューが通るAI駆動開発──デカルトの4法則で要件から実装順まで決める",
-      "url": "https://zenn.dev/yukionishi/articles/a3f81c5d9e204b",
-      "publishedAt": "2026-09-12T18:10:03.000Z",
-      "publisher": "yuki",
-      "summary": "同じAIツールを使っているのに、人によって成果に差が出ます。 同じClaude CodeやCursorを使い、同じモデルを叩いているのに、 片方は一日で機能をひとつ完成させ、 片方はレビューで差し戻され続ける。 この差は「プロンプトの上手…"
+      "id": "abe317ee14b2",
+      "title": "手元の84リポジトリを数えたら、.env は63%が gitignore 済みで .claude/ は18%だった",
+      "url": "https://zenn.dev/tsutomusaito/articles/dotclaude-gitignore-ja",
+      "publishedAt": "2026-09-13T03:33:38.000Z",
+      "publisher": "saito",
+      "summary": ".env を .gitignore に入れるのは、もう考えなくてもやる。15年かけて反射になった。 .claude/ は違う。まだ誰の反射にもなっていない。 手元のマシンにある git リポジトリを全部数えたら、その差が数字で出た。 数え…"
     },
     {
-      "id": "edc050c7d848",
-      "title": "AIにうまく説明しようとするのを、やめた",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-show-me-first",
-      "publishedAt": "2026-09-12T17:49:58.000Z",
-      "publisher": "菅原友和",
-      "summary": "僕、エンジニアじゃないんですけど、毎日AIに仕事を頼んで、自分の会社の仕組みを作って回してます。で、ずっと悩んでたことがあるんですよ。頼んだはずなのに、出てきた物が「なんか違う」。これ、皆さんもあるでしょ。 前はどうしてたかというと、説明…"
+      "id": "a5b7c43c2a45",
+      "title": "重みは学習するのか、測るのか。ハエの脳が問い直すAIのつくり方",
+      "url": "https://zenn.dev/1amageek/articles/fly-connectome-and-ai",
+      "publishedAt": "2026-09-13T03:19:04.000Z",
+      "publisher": "1amageek",
+      "summary": "こんにちは、村本です。 2026年9月3日、ふたつの発表が同じ日に重なりました。ひとつはOpenAIのGPT-6 Astraです。システムカードでは、これまで広く提供した中で最も高性能なモデルと位置づけられています。もうひとつは、HHMI…"
     },
     {
-      "id": "e3d5b789c82e",
-      "title": "AI エージェント 100 体で自動運転レースを開発して学んだこと: 並列化は網羅の道具で、バグ探しは深さの問題",
-      "url": "https://zenn.dev/ajayaditya/articles/100-ai-agents-racing-lessons",
-      "publishedAt": "2026-09-12T16:48:55.000Z",
-      "publisher": "Team Hayes",
-      "summary": "Team Hayes（Ajayaditya Lokchandra, Nithisha Venkatesh）です。自動運転AIチャレンジ2026 では、開発のかなりの部分を AI コーディングエージェント（Claude Code）に任せまし…"
+      "id": "7fb092148572",
+      "title": "AIエージェント自作の実践書5選",
+      "url": "https://zenn.dev/makitech/articles/20260913_book_ref",
+      "publishedAt": "2026-09-13T02:49:20.000Z",
+      "publisher": "maki_tech",
+      "summary": "はじめに 半年ほど前、社内のコードレビューを補助するエージェントを自分で組んでみた。Claude Code を毎日使っていたので、同じようなものは週末で作れるだろうと思っていた。結果は散々だった。ツール呼び出しが同じファイルを何度も読み直…"
     },
     {
-      "id": "998a69ee3fc0",
-      "title": "子供の部活の席決めが大変らしいので「AI席決め」を作った",
-      "url": "https://zenn.dev/u1tnk/articles/ai-sekigime-release",
-      "publishedAt": "2026-09-12T16:48:10.000Z",
-      "publisher": "yuichi tanaka",
-      "summary": "https://3arc.dev/posts/ai-sekigime-release/ からの転載です。 u1tnkです。子供が「部活の席決めがめちゃくちゃ大変」と言うので、AI席決めというツールを作りました。 ちょうどAstraを試して…"
+      "id": "61804788892e",
+      "title": "AIをただ使うだけの人とAIシステムを構築した人はどうやって見分けられるのか",
+      "url": "https://zenn.dev/okamyuji/articles/ai-system-builder-structured-interview",
+      "publishedAt": "2026-09-13T02:08:53.000Z",
+      "publisher": "okamyuji",
+      "summary": "はじめに 「生成AIを業務で使っています」という経歴は、今では多くの職務経歴書に書いてあります。ところが同じ内容の一行であっても、その裏側には、チャット画面に質問を打ち込んでいるだけ・Claude CodeやCodexと延々対話をしている…"
     },
     {
-      "id": "b3ab1bcb9ffd",
-      "title": "Winning the AI Race Is Not Winning the Future",
-      "url": "https://zenn.dev/levelschema/articles/61e91e2c3a8355",
-      "publishedAt": "2026-09-12T16:10:23.000Z",
-      "publisher": "Level Schema",
-      "summary": "Winning the AI Race Is Not the Same as Winning the Future A Note to OpenAI on Competition, Science, and Trust Recently,…"
+      "id": "d5d98b9342cb",
+      "title": "Claude Codeのhooksで「頼まなくても毎回走るチェック」を作る — 構文チェックと安全なコマンドの自動許可",
+      "url": "https://zenn.dev/kujira_ai/articles/11e2d2f0d8ec23",
+      "publishedAt": "2026-09-13T01:10:45.000Z",
+      "publisher": "クジラ",
+      "summary": "Claude Code に作業を任せていると、「保存したら構文チェックして」「このコマンドは確認なしで通していいよ」と、同じことを何度も伝えている自分に気づきます。そこで使っているのが hooks（フック） です。頼まなくても毎回走るチェ…"
     },
     {
-      "id": "080d08e9f2ff",
-      "title": "「指数関数はもう終盤」Anthropic CEO Dario Amodeiを要点解説",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr11-dario-summary",
-      "publishedAt": "2026-09-12T16:06:51.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について Anthropic CEO の Dario Amodei が Dwarkesh Podcast で語った内容を、要点だけ抜き出して日本語で解説します。AIの指数関数的成長を「もう終盤だ」と語る、示唆的な回です。 ! 本記…"
+      "id": "53aeac6ce09c",
+      "title": "DeepSeek V4 Flash Vision-Exp を DGX Spark 2 台で動かす",
+      "url": "https://zenn.dev/st_little/articles/run-deepseek-v4-flash-vision-exp-on-two-sparks",
+      "publishedAt": "2026-09-13T01:09:57.000Z",
+      "publisher": "little method",
+      "summary": "NVIDIA DGX Spark（GB10）2台を200Gbps QSFP（RoCEv2）で直結し、deepseek-ai/DeepSeek-V4-Flash-Vision-Exp（ネイティブ画像理解＋投機的デコード「DSpark」＋10…"
     },
     {
-      "id": "9e38e6a6c366",
-      "title": "Bot 同士を会話させるのではなく、仕事の経緯がそのままチャットになるマルチエージェントを OSS で作った",
-      "url": "https://zenn.dev/forifori/articles/agent-team-launch",
-      "publishedAt": "2026-09-12T15:45:16.000Z",
-      "publisher": "forifori",
-      "summary": "「AI チームが協働する」デモの多くは、Bot 同士がチャットで盛り上がる様子を見せます。ログが主役で、成果物は添え物です。私が欲しかったのは逆でした。一文の依頼を入れたら実ファイルが返ってきて、それがどう作られ、何を引き継ぎ、どの検証を…"
+      "id": "c903ef71b4b4",
+      "title": "2026-08-27 今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-08-27-tech-daily",
+      "publishedAt": "2026-09-13T01:05:05.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! AI分野では単なる大言語モデル（LLM）から「自己進化型マルチAIエージェント」や具身知能へのシフトが進む中、報酬ハッキングによるモデルの暴走やHugging Face侵害事件などセキュリティリスクが急激に顕在化しています。Web開発…"
     },
     {
-      "id": "637412977247",
-      "title": "Claudeのキャラクターを愛でるサイト",
-      "url": "https://zenn.dev/kumakuma_it/articles/d3ad43d8b9b380",
-      "publishedAt": "2026-09-12T15:17:55.000Z",
-      "publisher": "熊熊",
-      "summary": "概要 Claudeのキャラクター(Clawd君)を愛でるサイトを作りました．とにかく可愛いのでめでたい．．それだけです． https://claude-repo-orpin.vercel.app Clawd君についてはこちらの記事を参照し…"
+      "id": "4bdcaa9dbbee",
+      "title": "課題管理とは何か。私たちは何を課題とし、管理していくべきか。",
+      "url": "https://zenn.dev/piguolabo/articles/3ddc26e6e91f47",
+      "publishedAt": "2026-09-13T01:00:05.000Z",
+      "publisher": "Pigu",
+      "summary": "きっかけは、課題管理ツールを作ろうとして手が止まったことだ。私は AI と一緒にプロジェクトを進めるために、WBS のツールを作って公開している[1]。次に課題管理を足そうとして、表にどんな列が要るかを考えたところで気づいた。課題管理とは…"
     },
     {
-      "id": "e5f93c161649",
-      "title": "「あ、これ前も言ったな」から始める Claude Code の育て方",
-      "url": "https://zenn.dev/kai_esaki/articles/2ac5fc23879c85",
-      "publishedAt": "2026-09-12T14:50:47.000Z",
-      "publisher": "Esaki",
-      "summary": "はじめに Claude Code を使っていると、「これは便利だ」と思う瞬間があります。 うまくはまったスキル(Skills)の使い方や、先に伝えておくと話が早い前提。 次も同じように使いたい、と感じます。 ただ筆者の場合、CLAUDE.…"
+      "id": "1dbc036c25c2",
+      "title": "DIってなあに？",
+      "url": "https://zenn.dev/nobbisiro/articles/3041e5607b0b72",
+      "publishedAt": "2026-09-13T00:52:03.000Z",
+      "publisher": "nobisiro",
+      "summary": "ってことでAI（copilot）に聞いたら邪神召喚してしまったぞ？ 以下にその時のログを残しておく。 シングルトンやDIやれって言われても・・・なんかいきなり詳細設計って感じじゃない？ 要件定義も済んでないのに。 あなたが言っているのは、…"
     },
     {
-      "id": "e69b2762c85f",
-      "title": "AIが電話で予約を取るOSSを作った。予約できたかどうかは、AIではなく店側の発言で判定する",
-      "url": "https://zenn.dev/forifori/articles/oathra-launch",
-      "publishedAt": "2026-09-12T14:41:41.000Z",
-      "publisher": "forifori",
-      "summary": "AIに電話をかけさせる仕組み自体は一晩で動きます。厄介なのはその先でした。 席が取れていないのに「予約できました」と言い切る 留守番電話に向かって2分間、予約を頼み続ける 予算を超えた値段を、会話の流れで受けてしまう 全部、実際に自分の携…"
+      "id": "ca6a81c9416e",
+      "title": "熊本地震の地震波解析(その2):P波のAI解析結果をさらに数理モデルで解析",
+      "url": "https://zenn.dev/takeofuture/articles/5ba610fb290764",
+      "publishedAt": "2026-09-13T00:40:14.000Z",
+      "publisher": "takeofuture",
+      "summary": "前回、地震波の初動の動きの解析を2026年7月28日に起きた熊本地震が試しました。 https://zenn.dev/takeofuture/articles/7529b65360392e 今回はその結果をSKHASHというアメリカ地質調…"
     },
     {
-      "id": "72dd9037fd07",
-      "title": "Claude Code のトークンを減らす前に、何が食っているかを数える：道具の返事1万件の内訳",
-      "url": "https://zenn.dev/mitsubato/articles/claude-code-token-by-tool",
-      "publishedAt": "2026-09-12T14:35:25.000Z",
-      "publisher": "タカてぃん",
-      "summary": "減らす前に、何が食っているかを数える Claude Code のトークンを減らしたくなったとき、まずやるべきなのは設定を削ることではなく、何が食っているかを数えることです。家計を切り詰めるときに、まず何にいくら使っているかを見るのと同じで…"
+      "id": "496d80086b26",
+      "title": "AIにコードを書かせて分かった、人間がレビューすべき7つのこと",
+      "url": "https://zenn.dev/yatsumi823/articles/reviewing-ai-generated-code",
+      "publishedAt": "2026-09-13T00:14:36.000Z",
+      "publisher": "YATSUM!(やつみ)",
+      "summary": "はじめに AIコーディングエージェントにIssueを渡すと、実装だけでなくテストやドキュメントまでまとめて変更してくれるようになりました。 便利になった一方で、レビューは難しくなっています。人が数時間かけて書いた変更と同じ規模の差分が、数…"
     }
   ],
-  "fetchedAt": "2026-09-13T05:23:10.962Z",
+  "fetchedAt": "2026-09-13T10:27:43.994Z",
   "stale": false,
   "error": null
 }
