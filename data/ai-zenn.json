@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "4f9641071e9d",
-      "title": "Claude CodeでWeb制作会社の基幹システムを作った全記録 ― Laravel実務編",
-      "url": "https://zenn.dev/mugen_web/books/claude-code-laravel-jitsumu",
-      "publishedAt": "2026-09-13T10:22:58.000Z",
-      "publisher": "MUGEN WEB",
-      "summary": "1人Web制作会社が、Claude Codeを\"開発担当社員\"として使い、顧客管理・Stripe請求・Instagram連携を備えた社内CMSと、予約・会員・LINE連携つきの店舗サイト雛形を構築した実務記録。設計合意の取り方、Claud…"
+      "id": "bd87347d95ba",
+      "title": "AIエージェントの暴走をどう制御するか――禁止リストでは防げない問題行動",
+      "url": "https://zenn.dev/o_sup/articles/d1eb10c63c6254",
+      "publishedAt": "2026-09-13T19:18:52.000Z",
+      "publisher": "Tech Nexus",
+      "summary": "バックグラウンド 私自身長年IT業界におりますが、ベースは心理学です。 大学院ではニューラルネットワークや記憶に関して実験心理学、認知心理学を専攻し、それ以前には発達心理学を学んでいました。 記憶や感情の機能を阻害された者の行動や思考の分…"
     },
     {
-      "id": "6eafd0b8e941",
-      "title": "Claude Codeに「確認しなくていい範囲」を渡したら、開発時間が1日30分になった",
-      "url": "https://zenn.dev/mugen_web/articles/claude-code-permission-rules",
-      "publishedAt": "2026-09-13T10:22:57.000Z",
-      "publisher": "MUGEN WEB",
-      "summary": "1人でWeb制作会社をやっています。この夏、社内の顧客管理システム(Laravel 12、約3,500行)と、顧客に納品する店舗サイトの雛形(ブログ・予約・会員・LINE連携)を、Claude Codeにほぼ全部書いてもらいました。 一番…"
+      "id": "616769764b09",
+      "title": "AIが「誰でも作れる」時代と、静かに始まった線引き",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260912",
+      "publishedAt": "2026-09-13T18:51:59.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年9月12日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日のニュース、バラバラに見えて実は一本の線でつながってます。作る側のハードルがガクッと下がった話と、その裏で「どこまで許すか」の線…"
     },
     {
-      "id": "22536f902ceb",
-      "title": "エージェントワークフローを実際に組む ─ 制御・終了判定・コンテキスト肥大化との戦い",
-      "url": "https://zenn.dev/oryo_data/articles/d4cb16c7bb198a",
-      "publishedAt": "2026-09-13T10:21:34.000Z",
-      "publisher": "おりょう【なんでもデータ分析】",
-      "summary": "蒲生弘郷著『LLMの原理、RAG・エージェント開発から読み解くコンテキストエンジニアリング』の読書アウトプット第6弾、これで最終回です。今回は第5章「AIエージェント×ワークフローによる自動化」の後半、前回整理した「エージェントワークフロ…"
+      "id": "63ed5ae6f847",
+      "title": "GPT-6 Aatra AGIによるモデリング学習メモ",
+      "url": "https://zenn.dev/lian0123/articles/6f6e77d032fd51",
+      "publishedAt": "2026-09-13T18:43:06.000Z",
+      "publisher": "Lian0123",
+      "summary": "最近、GPT-6 Aatraがリリースされ、ネット上ではGPT-6 Aatraを使って、かなり良いモデルを作っている人が多く見られます。そこで自分も試してみたところ、結果は少し泣けるようなものでした。そこから、どうすれば改善できるのかを試…"
     },
     {
-      "id": "05290cf32abc",
-      "title": "Next.jsでAI音楽生成UIを設計するときの実践チェックリスト",
-      "url": "https://zenn.dev/nafy_ai/articles/69fce585617e81",
-      "publishedAt": "2026-09-13T09:25:07.000Z",
-      "publisher": "Nafy AI",
-      "summary": "AI音楽生成をWebプロダクトに組み込むと、一般的な同期APIとは違う設計課題が出てきます。生成には数十秒以上かかることがあり、ブラウザを閉じても処理を継続し、完成した音声を安全に配信する必要があります。ここでは Next.js を前提に…"
+      "id": "de20702ef4f8",
+      "title": "常駐型AIチャットエージェントのLLMプロバイダ障害対応・フェイルオーバー設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-llm-provider-failover-design",
+      "publishedAt": "2026-09-13T18:09:38.000Z",
+      "publisher": "HACH",
+      "summary": "Slack / Teams / Chatwork に常駐して日常的にリクエストを捌くAIエージェントは、裏側のLLM API(OpenAI / Anthropic / Google等)に依存しています。単発のチャットボットなら「今だけ使え…"
     },
     {
-      "id": "445fe39d9157",
-      "title": "koboldcpp + Cherry Studio で DeepSeek V4 Flash を 292k コンテキストで回した際の備忘録",
-      "url": "https://zenn.dev/mia_net/articles/7296ce1f5840a4",
-      "publishedAt": "2026-09-13T09:17:48.000Z",
-      "publisher": "Mia Net",
-      "summary": "koboldcpp + Cherry Studio で DeepSeek V4 Flash 0731 を 292k コンテキストで回した際の備忘録（文脈を忘れる・毎ターン再処理・ツールコール失敗の原因と対処） 2026 年 9 月時点の情…"
+      "id": "e3bb1c930a91",
+      "title": "依頼から成果物の保存までつなぐMacアプリ「Genie」を作った。LLMを組み込んで直した3つのこと",
+      "url": "https://zenn.dev/forifori/articles/genie-mac-workspace",
+      "publishedAt": "2026-09-13T15:53:46.000Z",
+      "publisher": "forifori",
+      "summary": "メモから行動計画を作る。Webサイトの見出しを考え直す。小さなHTMLを試作する。 こうした依頼をMac上で受け付け、結果を確認し、後から開き直し、Markdownとして持ち出せるワークスペース「Genie」を開発しています。モデルはOl…"
     },
     {
-      "id": "a4b0d28a6945",
-      "title": "「直したつもり」はもう通用しない — OpenAIの公開書簡を攻撃者の視点で読む",
-      "url": "https://zenn.dev/tetsuki_umehara/articles/zenn-01-attacker-perspective-attack-paths",
-      "publishedAt": "2026-09-13T09:04:58.000Z",
-      "publisher": "Tetsuki Umehara",
-      "summary": "はじめに 防御側の道具を一通り触ってきて、ひとつ強く感じていることがあります。 防御側は「何を導入したか」で語り、攻撃側は「どこまで到達できたか」で語る。 EDRを入れた。脆弱性スキャンを回している。SIEMでログも取っている。それでも侵…"
+      "id": "608cf0ca2e0f",
+      "title": "Tech Watch 2026-09-10: 仕事を動かすAIの周辺設計",
+      "url": "https://zenn.dev/laiken/articles/20260910-tech-watch",
+      "publishedAt": "2026-09-13T15:40:46.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものを人間が確認してから投稿しています。 L: 今日は、モデルの性能そのものより、その能力を仕事に接続する仕組みが前に出ている。既存アプリを操作する Astra、Claude Code で作る…"
     },
     {
-      "id": "969d0fa6efb9",
-      "title": "フォン・ノイマン型を超えるコンピュータたち──ロード・ストアの限界からニューロモルフィック、身体性認知まで",
-      "url": "https://zenn.dev/ogiri/articles/beyond-von-neumann-computing-architectures",
-      "publishedAt": "2026-09-13T08:49:17.000Z",
-      "publisher": "もつ煮グラタン@半導体エンジニア",
-      "summary": "はじめに 普段、私は仕事としてコンピュータアーキテクチャや半導体の設計・検証に関わっています。 CPU、メモリ、バス、命令セット。日々の業務で扱うシリコンの世界において、「フォン・ノイマン」という名前は、いわゆる「ノイマン型アーキテクチャ…"
+      "id": "7aed32c43566",
+      "title": "🦙 ALPACA-FW #03｜前身「ALPACA-template」はどう動くのか――アーキテクチャ概要",
+      "url": "https://zenn.dev/alpaca_village/articles/alpaca-fw-03-template-architecture",
+      "publishedAt": "2026-09-13T15:39:58.000Z",
+      "publisher": "アルパカの村",
+      "summary": "はじめに ここからの「🦙 ALPACA-FW」連載では、しばらく概念論から離れて、実際に作った仕組みを技術的に分解していきたいと思います。 ただし、いきなり現在開発中のALPACA-FWへ進むのではありません。まず扱うのは、その前身とし…"
     },
     {
-      "id": "c0dc30942e63",
-      "title": "「あるある」をデータ構造に落とす──PM研修シミュレーションのシナリオ設計",
-      "url": "https://zenn.dev/herosoundiy/articles/8b4db6b51070c2",
-      "publishedAt": "2026-09-13T08:42:41.000Z",
-      "publisher": "サウン｜herosoundiy",
-      "summary": "プロジェクトマネジメントの研修で「時間・予算・品質・スコープはトレードオフです」と説明されて、腹に落ちた経験はあるでしょうか。私はありませんでした。腹に落ちるのは、自分が痛い目を見たときだけです。 そこで、PMの意思決定を体験させるブラウ…"
+      "id": "6217d3c60300",
+      "title": "「たぶん大丈夫」を予約成立にしない。電話AIの完了判定をTypeScriptで実装する",
+      "url": "https://zenn.dev/forifori/articles/oathra-evidence-rules",
+      "publishedAt": "2026-09-13T15:38:04.000Z",
+      "publisher": "forifori",
+      "summary": "「たぶん大丈夫です」と「ご予約承りました」は、会話としてはどちらも前向きな返事です。しかし、プログラムから同じ「成功」として扱うと困ります。 電話AIのOSS Oathra では、会話の生成と完了判定を分離し、発言から抽出した条件への合意…"
     },
     {
-      "id": "bbe25f26bd65",
-      "title": "Devsumi 2026と「もう一度考えるSRE」というイベントに参加して、自チームに持ち帰りたいと思ったこと",
-      "url": "https://zenn.dev/bata515/articles/b568710e03f674",
-      "publishedAt": "2026-09-13T08:30:06.000Z",
-      "publisher": "bata",
-      "summary": "はじめに 2026年9月11日、2つのイベントに参加してきました。 Developers Summit 2026 もう一度考えるSRE #2 in 福岡「越境するSRE」 私はSRE専任でもインフラ担当でもなく、BtoB SaaSのバック…"
+      "id": "7a7d2d83f7e8",
+      "title": "OpenClawを学び、日々を便利に",
+      "url": "https://zenn.dev/microsoft/articles/openclaw_intro",
+      "publishedAt": "2026-09-13T14:42:42.000Z",
+      "publisher": "Yusuke Satake",
+      "summary": "OpenClaw 概要 OpenClaw は、自分の PC やサーバーで動く、オープンソースの常駐型 AI エージェントです。チャットアプリから自然言語で依頼すると、許可された範囲でブラウザー・ファイル・シェルを操作します。 たとえば「こ…"
     },
     {
-      "id": "f9747b6a7e4d",
-      "title": "コンテキストウィンドウの限界を逆手にとってAIエージェントの性能を向上させる方法",
-      "url": "https://zenn.dev/ken_okabe/articles/2026-09-13-context-handoff-critic-loop",
-      "publishedAt": "2026-09-13T08:22:16.000Z",
-      "publisher": "Ken Okabe",
-      "summary": "導入: コンテキストウィンドウという制約 AIエージェントを長時間・長期間にわたって運用しようとすると、必ず突き当たる壁がある。 コンテキストウィンドウの上限だ。 どれだけモデルの性能が上がっても、1つのセッションに詰め込めるトークン数に…"
+      "id": "0a05d0a756c8",
+      "title": "Generative UI × WebMCPで「質問から画面を作る」ポートフォリオを作ってみた",
+      "url": "https://zenn.dev/tk_1/articles/cd4c88ce8d88ab",
+      "publishedAt": "2026-09-13T14:41:52.000Z",
+      "publisher": "tk_1",
+      "summary": "Generative UI × WebMCPで「質問から画面を作る」ポートフォリオを作ってみた 「AIとフロントエンドの技術を使って、何か面白いものを作ってみたい」 そんな中でGenerative UIとWebMCPに興味を持ち、この2つ…"
     },
     {
-      "id": "d6cdb0e25f4d",
-      "title": "Astra単体 vs Astra＋Sol：ISUCON11の3時間比較を制御変更して再実行",
-      "url": "https://zenn.dev/ekusiadadus/articles/astra-sol-isucon-comparison",
-      "publishedAt": "2026-09-13T08:17:17.000Z",
-      "publisher": "ekusiadadus",
-      "summary": "Astra単体と、AstraがGPT-5.6 Solをまとめる協調構成をISUCON11予選で比較しました。2026年9月13日、親子制御を変えて、両方式をもう一度3時間ずつ実行した結果を追記しました。 初回と再実行は構成が異なるため、同…"
+      "id": "ba5122517535",
+      "title": "AIが書いたGoのコードは、なぜ壊れるのか ― カプセル化編",
+      "url": "https://zenn.dev/kouki73/articles/ea0030fb09b286",
+      "publishedAt": "2026-09-13T13:54:07.000Z",
+      "publisher": "kouki73",
+      "summary": "ジュニア「注文処理、できました。テストも全部通ってます」 シニア「お、早いね」 ジュニア「……はい。正直、ほとんどAIが書きました」 シニア「いいじゃん。それで?」 ジュニア「それが、なんかモヤモヤしてて。動いてるんですけど、これ自分がレ…"
     },
     {
-      "id": "73e479dbe465",
-      "title": "LeanでLLMを有効活用する (2026年9月版)",
-      "url": "https://zenn.dev/pandaman64/articles/lean-with-llm-tools-202609",
-      "publishedAt": "2026-09-13T08:16:58.000Z",
-      "publisher": "井山梃子歴史館",
-      "summary": "結論: 特別なことしないでエージェントに任せればよろしい 去年はこんな記事を書いて、LLMに書かせた証明は使い物にならん！と言ってたのでした。といってもこのタイミングでは、LLMはせいぜいタブ補完の代わりだったり、チャットからコピペしてい…"
+      "id": "ac29c0bef9ad",
+      "title": "# 同時に開いた2つの会話が、同じ状態ファイルを黙って巻き戻していた",
+      "url": "https://zenn.dev/pcnotonari/articles/6bbaa270569840",
+      "publishedAt": "2026-09-13T13:47:33.000Z",
+      "publisher": "pcnotonari",
+      "summary": "神戸で中古PCの整備とレンタルをしている、ひとりの事業者です。実務はClaude Codeで動かしている「AI社員」9人に任せています。連番で7本書いているうちの3本目です。 1本目では9人ぶんの役割ファイルを全部出し、2本目では終了コー…"
     }
   ],
-  "fetchedAt": "2026-09-13T17:39:52.922Z",
+  "fetchedAt": "2026-09-13T19:48:34.883Z",
   "stale": false,
   "error": null
 }
