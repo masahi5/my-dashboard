@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "5c5da29e805a",
-      "title": "TTSの参照音声にdenoiseをかけると品質は上がるのか（Fish AudioでABテスト）",
-      "url": "https://zenn.dev/mohhh_ok/articles/2026-09-fish-ref-denoise-ab-test",
-      "publishedAt": "2026-09-13T06:37:38.000Z",
-      "publisher": "MOhhh",
-      "summary": "zero-shot voice clone の TTS を実運用で回すと、参照音声 (reference audio) の前処理をどこまでやるかという判断が出てきます。そのひとつが denoise です。ノイズが乗った参照音声はきれいにし…"
+      "id": "4f9641071e9d",
+      "title": "Claude CodeでWeb制作会社の基幹システムを作った全記録 ― Laravel実務編",
+      "url": "https://zenn.dev/mugen_web/books/claude-code-laravel-jitsumu",
+      "publishedAt": "2026-09-13T10:22:58.000Z",
+      "publisher": "MUGEN WEB",
+      "summary": "1人Web制作会社が、Claude Codeを\"開発担当社員\"として使い、顧客管理・Stripe請求・Instagram連携を備えた社内CMSと、予約・会員・LINE連携つきの店舗サイト雛形を構築した実務記録。設計合意の取り方、Claud…"
     },
     {
-      "id": "95a6ed5ee355",
-      "title": "ChatGPT/GeminiのAPIを叩くときに「型」の安心感が欲しい人のためのZod",
-      "url": "https://zenn.dev/kasouzou/articles/3d2f82d0cded92",
-      "publishedAt": "2026-09-13T06:26:43.000Z",
-      "publisher": "kasouzou",
-      "summary": "最近、LLM（大規模言語モデル）の出力をそのままプログラムで扱いたい場面が増えてるよね。 でも、AIの返答ってたまにフォーマットが崩れたり、いらないプロパティが混ざったりして「ランタイムエラーで死ぬ」のが一番怖い。 そんなときに便利なのが…"
+      "id": "6eafd0b8e941",
+      "title": "Claude Codeに「確認しなくていい範囲」を渡したら、開発時間が1日30分になった",
+      "url": "https://zenn.dev/mugen_web/articles/claude-code-permission-rules",
+      "publishedAt": "2026-09-13T10:22:57.000Z",
+      "publisher": "MUGEN WEB",
+      "summary": "1人でWeb制作会社をやっています。この夏、社内の顧客管理システム(Laravel 12、約3,500行)と、顧客に納品する店舗サイトの雛形(ブログ・予約・会員・LINE連携)を、Claude Codeにほぼ全部書いてもらいました。 一番…"
     },
     {
-      "id": "af0c09f985fd",
-      "title": "2人で使っているカレンダーアプリのFirestoreルールが`if true`だった。Claude Codeと直して、写真アルバムまで作った",
-      "url": "https://zenn.dev/nijima/articles/178b0a0351079b",
-      "publishedAt": "2026-09-13T06:11:22.000Z",
-      "publisher": "ニイジマ",
-      "summary": "はじめに 2人で予定を共有するために、Next.js + Firebase でカレンダーアプリを作って使っています。 出かけたときの写真が LINE のトークに散らばるのが嫌で、「予定にひもづく写真アルバム」を足すことにしました。 実装は…"
+      "id": "22536f902ceb",
+      "title": "エージェントワークフローを実際に組む ─ 制御・終了判定・コンテキスト肥大化との戦い",
+      "url": "https://zenn.dev/oryo_data/articles/d4cb16c7bb198a",
+      "publishedAt": "2026-09-13T10:21:34.000Z",
+      "publisher": "おりょう【なんでもデータ分析】",
+      "summary": "蒲生弘郷著『LLMの原理、RAG・エージェント開発から読み解くコンテキストエンジニアリング』の読書アウトプット第6弾、これで最終回です。今回は第5章「AIエージェント×ワークフローによる自動化」の後半、前回整理した「エージェントワークフロ…"
     },
     {
-      "id": "fa4e1f22f689",
-      "title": "AI時代の「非認知能力」を、どう育てるか",
-      "url": "https://zenn.dev/nin_tofu/articles/1a090837f0a456",
-      "publishedAt": "2026-09-13T05:55:49.000Z",
-      "publisher": "nin",
-      "summary": "はじめに 最近はSNSを開くと、生成AIの新しいサービスや便利な使い方に関する情報を、毎日のように見かけます。AIで何ができるのかを知る機会が増える一方で、私が関心を持っているのは、AIを使う私たちにこれからどのような力が必要になるのか、…"
+      "id": "05290cf32abc",
+      "title": "Next.jsでAI音楽生成UIを設計するときの実践チェックリスト",
+      "url": "https://zenn.dev/nafy_ai/articles/69fce585617e81",
+      "publishedAt": "2026-09-13T09:25:07.000Z",
+      "publisher": "Nafy AI",
+      "summary": "AI音楽生成をWebプロダクトに組み込むと、一般的な同期APIとは違う設計課題が出てきます。生成には数十秒以上かかることがあり、ブラウザを閉じても処理を継続し、完成した音声を安全に配信する必要があります。ここでは Next.js を前提に…"
     },
     {
-      "id": "105bc22774c4",
-      "title": "VS Code petを帽子でおしゃれにしよう",
-      "url": "https://zenn.dev/isym_s/articles/6587d068aa556d",
-      "publishedAt": "2026-09-13T05:54:13.000Z",
-      "publisher": "isym_s",
-      "summary": "はじめに VS Code 1.137 から、チャット入力欄の上にペットを表示できる機能が実験的に組み込まれました。 このペットを見ることが作業中の癒しになっている方も多いのではないでしょうか。 日ごろの感謝をこめて、帽子をかぶせておしゃれ…"
+      "id": "445fe39d9157",
+      "title": "koboldcpp + Cherry Studio で DeepSeek V4 Flash を 292k コンテキストで回した際の備忘録",
+      "url": "https://zenn.dev/mia_net/articles/7296ce1f5840a4",
+      "publishedAt": "2026-09-13T09:17:48.000Z",
+      "publisher": "Mia Net",
+      "summary": "koboldcpp + Cherry Studio で DeepSeek V4 Flash 0731 を 292k コンテキストで回した際の備忘録（文脈を忘れる・毎ターン再処理・ツールコール失敗の原因と対処） 2026 年 9 月時点の情…"
     },
     {
-      "id": "a751c65f55dd",
-      "title": "ponytailのコード削減を 3 モデル で試してみたら9〜25% の削減効果",
-      "url": "https://zenn.dev/tage/articles/ponytail-54-percent-retest",
-      "publishedAt": "2026-09-13T05:17:41.000Z",
-      "publisher": "たげ",
-      "summary": "Claude Code に「怠け者のシニア開発者のように書け」と教えるプラグイン ponytail は、README に「diff 行数 54% 減・コスト 20% 減」と書いています。 自分の小さな Express アプリと 7 本のチ…"
+      "id": "a4b0d28a6945",
+      "title": "「直したつもり」はもう通用しない — OpenAIの公開書簡を攻撃者の視点で読む",
+      "url": "https://zenn.dev/tetsuki_umehara/articles/zenn-01-attacker-perspective-attack-paths",
+      "publishedAt": "2026-09-13T09:04:58.000Z",
+      "publisher": "Tetsuki Umehara",
+      "summary": "はじめに 防御側の道具を一通り触ってきて、ひとつ強く感じていることがあります。 防御側は「何を導入したか」で語り、攻撃側は「どこまで到達できたか」で語る。 EDRを入れた。脆弱性スキャンを回している。SIEMでログも取っている。それでも侵…"
     },
     {
-      "id": "ed25e644b62f",
-      "title": "エージェントは「テスト28件すべて合格」と報告した。UIテストは1本も実行されていなかった",
-      "url": "https://zenn.dev/dhubplus/articles/agent-reports-that-measured-nothing",
-      "publishedAt": "2026-09-13T04:13:11.000Z",
-      "publisher": "dhubplus",
-      "summary": "複数の個人プロジェクトを、AIエージェントに実装させて回している。ここ数か月でコストの重心がはっきり移った。書かせることではなく、戻ってきた報告を検証することのほうに寄る。 エージェントの使い方の記事はいくらでもある。だが「エージェントが…"
+      "id": "969d0fa6efb9",
+      "title": "フォン・ノイマン型を超えるコンピュータたち──ロード・ストアの限界からニューロモルフィック、身体性認知まで",
+      "url": "https://zenn.dev/ogiri/articles/beyond-von-neumann-computing-architectures",
+      "publishedAt": "2026-09-13T08:49:17.000Z",
+      "publisher": "もつ煮グラタン@半導体エンジニア",
+      "summary": "はじめに 普段、私は仕事としてコンピュータアーキテクチャや半導体の設計・検証に関わっています。 CPU、メモリ、バス、命令セット。日々の業務で扱うシリコンの世界において、「フォン・ノイマン」という名前は、いわゆる「ノイマン型アーキテクチャ…"
     },
     {
-      "id": "abe317ee14b2",
-      "title": "手元の84リポジトリを数えたら、.env は63%が gitignore 済みで .claude/ は18%だった",
-      "url": "https://zenn.dev/tsutomusaito/articles/dotclaude-gitignore-ja",
-      "publishedAt": "2026-09-13T03:33:38.000Z",
-      "publisher": "saito",
-      "summary": ".env を .gitignore に入れるのは、もう考えなくてもやる。15年かけて反射になった。 .claude/ は違う。まだ誰の反射にもなっていない。 手元のマシンにある git リポジトリを全部数えたら、その差が数字で出た。 数え…"
+      "id": "c0dc30942e63",
+      "title": "「あるある」をデータ構造に落とす──PM研修シミュレーションのシナリオ設計",
+      "url": "https://zenn.dev/herosoundiy/articles/8b4db6b51070c2",
+      "publishedAt": "2026-09-13T08:42:41.000Z",
+      "publisher": "サウン｜herosoundiy",
+      "summary": "プロジェクトマネジメントの研修で「時間・予算・品質・スコープはトレードオフです」と説明されて、腹に落ちた経験はあるでしょうか。私はありませんでした。腹に落ちるのは、自分が痛い目を見たときだけです。 そこで、PMの意思決定を体験させるブラウ…"
     },
     {
-      "id": "a5b7c43c2a45",
-      "title": "重みは学習するのか、測るのか。ハエの脳が問い直すAIのつくり方",
-      "url": "https://zenn.dev/1amageek/articles/fly-connectome-and-ai",
-      "publishedAt": "2026-09-13T03:19:04.000Z",
-      "publisher": "1amageek",
-      "summary": "こんにちは、村本です。 2026年9月3日、ふたつの発表が同じ日に重なりました。ひとつはOpenAIのGPT-6 Astraです。システムカードでは、これまで広く提供した中で最も高性能なモデルと位置づけられています。もうひとつは、HHMI…"
+      "id": "bbe25f26bd65",
+      "title": "Devsumi 2026と「もう一度考えるSRE」というイベントに参加して、自チームに持ち帰りたいと思ったこと",
+      "url": "https://zenn.dev/bata515/articles/b568710e03f674",
+      "publishedAt": "2026-09-13T08:30:06.000Z",
+      "publisher": "bata",
+      "summary": "はじめに 2026年9月11日、2つのイベントに参加してきました。 Developers Summit 2026 もう一度考えるSRE #2 in 福岡「越境するSRE」 私はSRE専任でもインフラ担当でもなく、BtoB SaaSのバック…"
     },
     {
-      "id": "7fb092148572",
-      "title": "AIエージェント自作の実践書5選",
-      "url": "https://zenn.dev/makitech/articles/20260913_book_ref",
-      "publishedAt": "2026-09-13T02:49:20.000Z",
-      "publisher": "maki_tech",
-      "summary": "はじめに 半年ほど前、社内のコードレビューを補助するエージェントを自分で組んでみた。Claude Code を毎日使っていたので、同じようなものは週末で作れるだろうと思っていた。結果は散々だった。ツール呼び出しが同じファイルを何度も読み直…"
+      "id": "f9747b6a7e4d",
+      "title": "コンテキストウィンドウの限界を逆手にとってAIエージェントの性能を向上させる方法",
+      "url": "https://zenn.dev/ken_okabe/articles/2026-09-13-context-handoff-critic-loop",
+      "publishedAt": "2026-09-13T08:22:16.000Z",
+      "publisher": "Ken Okabe",
+      "summary": "導入: コンテキストウィンドウという制約 AIエージェントを長時間・長期間にわたって運用しようとすると、必ず突き当たる壁がある。 コンテキストウィンドウの上限だ。 どれだけモデルの性能が上がっても、1つのセッションに詰め込めるトークン数に…"
     },
     {
-      "id": "61804788892e",
-      "title": "AIをただ使うだけの人とAIシステムを構築した人はどうやって見分けられるのか",
-      "url": "https://zenn.dev/okamyuji/articles/ai-system-builder-structured-interview",
-      "publishedAt": "2026-09-13T02:08:53.000Z",
-      "publisher": "okamyuji",
-      "summary": "はじめに 「生成AIを業務で使っています」という経歴は、今では多くの職務経歴書に書いてあります。ところが同じ内容の一行であっても、その裏側には、チャット画面に質問を打ち込んでいるだけ・Claude CodeやCodexと延々対話をしている…"
+      "id": "d6cdb0e25f4d",
+      "title": "Astra単体 vs Astra＋Sol：ISUCON11の3時間比較を制御変更して再実行",
+      "url": "https://zenn.dev/ekusiadadus/articles/astra-sol-isucon-comparison",
+      "publishedAt": "2026-09-13T08:17:17.000Z",
+      "publisher": "ekusiadadus",
+      "summary": "Astra単体と、AstraがGPT-5.6 Solをまとめる協調構成をISUCON11予選で比較しました。2026年9月13日、親子制御を変えて、両方式をもう一度3時間ずつ実行した結果を追記しました。 初回と再実行は構成が異なるため、同…"
     },
     {
-      "id": "d5d98b9342cb",
-      "title": "Claude Codeのhooksで「頼まなくても毎回走るチェック」を作る — 構文チェックと安全なコマンドの自動許可",
-      "url": "https://zenn.dev/kujira_ai/articles/11e2d2f0d8ec23",
-      "publishedAt": "2026-09-13T01:10:45.000Z",
-      "publisher": "クジラ",
-      "summary": "Claude Code に作業を任せていると、「保存したら構文チェックして」「このコマンドは確認なしで通していいよ」と、同じことを何度も伝えている自分に気づきます。そこで使っているのが hooks（フック） です。頼まなくても毎回走るチェ…"
+      "id": "73e479dbe465",
+      "title": "LeanでLLMを有効活用する (2026年9月版)",
+      "url": "https://zenn.dev/pandaman64/articles/lean-with-llm-tools-202609",
+      "publishedAt": "2026-09-13T08:16:58.000Z",
+      "publisher": "井山梃子歴史館",
+      "summary": "結論: 特別なことしないでエージェントに任せればよろしい 去年はこんな記事を書いて、LLMに書かせた証明は使い物にならん！と言ってたのでした。といってもこのタイミングでは、LLMはせいぜいタブ補完の代わりだったり、チャットからコピペしてい…"
     }
   ],
-  "fetchedAt": "2026-09-13T14:35:11.558Z",
+  "fetchedAt": "2026-09-13T17:39:52.922Z",
   "stale": false,
   "error": null
 }
