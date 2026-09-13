@@ -2,6 +2,15 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2099248585498112186",
+      "url": "https://x.com/shi3z/status/2099248585498112186",
+      "text": "Backspacefmで俺の最適化の話をしてるが数値的なところがデタラメなのでほとんど参考にならない。A100が1000万するわけないだろ。定価150万円だぞ",
+      "publishedAt": "2026-09-13T21:27:19.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2099094680273363358",
       "url": "https://x.com/shi3z/status/2099094680273363358",
       "text": "うれしい",
@@ -18,6 +27,24 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
+    },
+    {
+      "id": "2099017237843804503",
+      "url": "https://x.com/tochu_sports/status/2099017237843804503",
+      "text": "「アメリカ横断ウルトラクイズ」新MCの櫻井翔「虎の巻を渡されるかのような時間」初代MC福留功男と対談　来年正月の放送に向け国内1次予選開催(東京中日スポーツ　中日スポーツ)\n#Yahooニュース\nnews.yahoo.co.jp/articles/b2…",
+      "publishedAt": "2026-09-13T06:08:02.000Z",
+      "authorHandle": "tochu_sports",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2098969056967786973",
+      "url": "https://x.com/nian_tu41685/status/2098969056967786973",
+      "text": "用A100跑最新的DeepSeek V4.1 Flash，6张卡才跑出33 tok/s，最后只用4张卡反而干到了并行吞吐1400+ tok/s，比DeepSeek官方API还快三倍多，这篇文章的质量高得吓人。\n\nA100是六年前的数据中心GPU，现在算“老古董”了。一开始Claude Code直接告诉他“硬件不支持FP4，跑不了”。他不信，自己想了想——“不支持FP4”，那我换个方式算不就行了？然后就带着Claude Code一路死磕优化，卡少了，速度反而翻了几十倍。\n\n但这篇文章最让我有感触的是他反复强调的一个观点：\n现在的AI写代码确实能写出不出bug的代码，但它没有“质疑”的能力。 AI说“这是极限了”，它是真的认为到头了。它不会去怀疑“凭什么这就是极限”，不会拿profiler去一毫秒一毫秒地抠，不会去想“这个设计前提本身就是错的”。每一次关键突破，都是他作为人觉得“我不信”之后才发生的。\n\n他说AI的思维方式本质上是“所有人类的平均反应”——大多数人觉得“不支持就是不行”，AI也就这么觉得了。但真正的工程是质疑前提、测量瓶颈、打破假设。\n\nAI是很好的工具，但“这事儿真的只能这样吗”这个问题，需要由屏幕前的你来回答，而不是你手中的AI。",
+      "publishedAt": "2026-09-13T02:56:34.000Z",
+      "authorHandle": "nian_tu41685",
+      "likeCount": 0,
+      "repost": true
     },
     {
       "id": "2098962477572907505",
@@ -63,36 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2098929149113188682",
-      "url": "https://x.com/shi3z/status/2098929149113188682",
-      "text": "ちんぺいって櫻井翔に似てるよね",
-      "publishedAt": "2026-09-13T00:18:00.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2098928917751153028",
-      "url": "https://x.com/shi3z/status/2098928917751153028",
-      "text": "飛行機に乗ったらWiFiはあるらしいがin-flight-wifiのURLがどこにも書いてない。責任者出てこいと思ったが、Qwen3.8-9Bをローカル(M2 Max 32GB)で動かしたら、自動的にANA WiFi ServiceのIPアドレス見つけてくれてWiFi繋がった。AIすごい。やはりローカルAIがないとダメだな",
-      "publishedAt": "2026-09-13T00:17:04.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2098905898077106271",
-      "url": "https://x.com/shi3z/status/2098905898077106271",
-      "text": "久しぶりのピンチ｜shi3z @shi3z note.com/shi3zblog/n/nd0c943…",
-      "publishedAt": "2026-09-12T22:45:36.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-13T19:48:54.880Z",
+  "fetchedAt": "2026-09-13T22:04:28.265Z",
   "stale": false,
   "error": null
 }
