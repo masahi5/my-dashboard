@@ -11,15 +11,7 @@
       "url": "https://huggingface.co/papers/2609.06107",
       "publishedAt": "2026-09-05T00:00:00.000Z",
       "summary": "Data policies for reinforcement learning with verifiable rewards (RLVR) determine which rollouts are used, how strongly…",
-      "score": 94
-    },
-    {
-      "id": "ea9c9f286f0a",
-      "title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
-      "url": "https://huggingface.co/papers/2609.08418",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Training capable cyber agents is often treated primarily as a problem of model scale, yet open-weight post-training is …",
-      "score": 74
+      "score": 96
     },
     {
       "id": "16f4ec186e80",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.12945",
       "publishedAt": "2026-09-11T00:00:00.000Z",
       "summary": "We introduce StepAudio 3 Gen, a general-purpose audio generation model that supports zero-shot text-to-speech (TTS), vo…",
-      "score": 27
+      "score": 28
     },
     {
       "id": "1a2220444822",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.05824",
       "publishedAt": "2026-09-05T00:00:00.000Z",
       "summary": "Large language model (LLM) agents increasingly rely on external skills, but routing user requests over large skill regi…",
-      "score": 3
+      "score": 5
     },
     {
       "id": "8fc451e0488d",
@@ -43,7 +35,39 @@
       "url": "https://huggingface.co/papers/2609.05820",
       "publishedAt": "2026-09-05T00:00:00.000Z",
       "summary": "We study adaptive routing of prompts to large language model (LLM) experts to maximize response quality in an online se…",
+      "score": 5
+    },
+    {
+      "id": "1edb61434a06",
+      "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
+      "url": "https://huggingface.co/papers/2609.10824",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "summary": "Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusab…",
       "score": 3
+    },
+    {
+      "id": "b217115cdfd6",
+      "title": "Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grounded Supervision",
+      "url": "https://huggingface.co/papers/2609.07099",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "We present our submission to the EgoProactive track of the ECCV 2026 Wearable AI Challenge, which ranked first in the l…",
+      "score": 2
+    },
+    {
+      "id": "e906732a7e79",
+      "title": "Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model",
+      "url": "https://huggingface.co/papers/2609.07154",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "We describe our entry to the EgoLongQA track of the Wearable-AI Challenge in ECCV 2026, which placed first in the <=2B …",
+      "score": 2
+    },
+    {
+      "id": "61d1dfdfd686",
+      "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
+      "url": "https://huggingface.co/papers/2609.10297",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "summary": "GUI agents accumulate high-resolution screenshots as the trajectory unfolds, increasing inference latency and memory us…",
+      "score": 2
     },
     {
       "id": "9c99e3d88012",
@@ -52,14 +76,6 @@
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "summary": "Chunk-autoregressive video world models typically condition each generated chunk on one action. An action received duri…",
       "score": 2
-    },
-    {
-      "id": "1edb61434a06",
-      "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
-      "url": "https://huggingface.co/papers/2609.10824",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusab…",
-      "score": 1
     },
     {
       "id": "a0074ed5794c",
@@ -78,31 +94,15 @@
       "score": 1
     },
     {
-      "id": "b217115cdfd6",
-      "title": "Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grounded Supervision",
-      "url": "https://huggingface.co/papers/2609.07099",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "We present our submission to the EgoProactive track of the ECCV 2026 Wearable AI Challenge, which ranked first in the l…",
-      "score": 0
-    },
-    {
-      "id": "e906732a7e79",
-      "title": "Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model",
-      "url": "https://huggingface.co/papers/2609.07154",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "We describe our entry to the EgoLongQA track of the Wearable-AI Challenge in ECCV 2026, which placed first in the <=2B …",
-      "score": 0
-    },
-    {
-      "id": "61d1dfdfd686",
-      "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
-      "url": "https://huggingface.co/papers/2609.10297",
+      "id": "261e6b33cd4a",
+      "title": "Towards a Deterministic Math Solver for Clinical Language Models",
+      "url": "https://huggingface.co/papers/2609.10728",
       "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "GUI agents accumulate high-resolution screenshots as the trajectory unfolds, increasing inference latency and memory us…",
+      "summary": "Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerica…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-14T16:26:40.216Z",
+  "fetchedAt": "2026-09-14T20:24:14.025Z",
   "stale": false,
   "error": null
 }

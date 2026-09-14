@@ -6,54 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "41d58cc49adb",
-      "title": "コーディングエージェント5モデルを日英で試す：正答率・トークン・復旧時間の測り方",
-      "url": "https://zenn.dev/nomurasan/articles/coding-agent-japanese-english-reliability",
-      "publishedAt": "2026-09-14T12:22:55.000Z",
-      "publisher": "のむらや",
-      "summary": "API経由でコーディングエージェントを使うとき、日本語の依頼を英語に変えると結果は変わるのか。5モデルに同じ修正課題を日英それぞれ1回ずつ実行させ、合否・所要時間・トークン量を記録しました。 有効な設定で動いた10試行は、すべて5項目のチ…"
-    },
-    {
-      "id": "6fe5f7340d08",
-      "title": "成功ログ100本でエージェントの失敗ステップを当てるOAT",
-      "url": "https://zenn.dev/okssusucha/articles/20260720-oat-failure-attribution-from-success-traj",
-      "publishedAt": "2026-09-14T12:18:28.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "エージェントが40ステップ走って、最後の答えが間違っていた。さて、どこで壊れたのか。 この問いに真面目に答えようとしたことがある人は、それが想像以上に難しいのを知っている。ログを頭から読むと、どのステップも単体では「まあ妥当」に見える。検…"
-    },
-    {
-      "id": "41e3de361a87",
-      "title": "同じ警告が32回。通知の重複抑止で踏んだ穴3つ",
-      "url": "https://zenn.dev/selftailor/articles/8c4968b0f9399f",
-      "publishedAt": "2026-09-14T12:18:25.000Z",
-      "publisher": "selftAilor",
-      "summary": "AIエージェントを15セッション・77日運用した記録の3本目です。 1本目: 壊れ方が例外の形をしていない 2本目: その監視を作った話（launchd移設と検査4種） 2本目の最後に、こう書いた。機械に走査させるところまでは作ったが、最…"
-    },
-    {
-      "id": "b4e52bebfcb6",
-      "title": "AI研究者が辞めるほどの危険な競争に、企業はどう向き合うべきか",
-      "url": "https://zenn.dev/syoshida07/articles/b8a6fafb9b9b82",
-      "publishedAt": "2026-09-14T12:17:03.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "2026年、AI開発は人類史上かつてない速度で進化し、特にGPT‑6 Astraの登場は世界の政治・産業・学術界に衝撃を与えた。 Astraは、従来のAIが持ち得なかった自律的な問題解決能力、未知の脆弱性発見能力、そして自己改善の兆候を示…"
-    },
-    {
-      "id": "2cbbfa22f0dc",
-      "title": "AIエージェントを増やす前に、Frontend開発を4つの責務に分ける",
-      "url": "https://zenn.dev/heftykoo/articles/173a375b3c3752",
-      "publishedAt": "2026-09-14T11:02:05.000Z",
-      "publisher": "heftykoo",
-      "summary": "実装するエージェントと、レビューするエージェントを用意する。いかにも堅牢そうな構成だ。 ただし二人目が、一人目の変更したワークスペースと「テストは通りました」という自己申告だけを読んでいるなら、レビュー役は独立していない。同じ書き換え可能…"
-    },
-    {
-      "id": "1dca1bd45e54",
-      "title": "読まない技術 第8回：修正履歴を読まない技術",
-      "url": "https://zenn.dev/garplab/articles/f7c9c30f567aee",
-      "publishedAt": "2026-09-14T10:12:37.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「読まない技術」の第 8 回です。各回はファイルやスクリプトを一つ置けば完結します。連載の全体像と各回の一覧は序論にあります。 今回は、AI を軌道修正させた記録の話です。同じ失敗への対処を私が指示ファイルに書いておいても…"
-    },
-    {
       "id": "a4ac281c4f96",
       "title": "AIレビューの本番導入 — 人の承認を待つPRをどう絞るか",
       "url": "https://zenn.dev/hampen2929/articles/20260914-ai-review-production",
@@ -100,9 +52,57 @@
       "publishedAt": "2026-09-14T07:27:02.000Z",
       "publisher": "KOJIKOBA",
       "summary": "永愛日記 #001 今日Zenn初投稿できた。迷ったけど言えた。"
+    },
+    {
+      "id": "313857b244a0",
+      "title": "AIパートナーに「自律性」を持たせる：定期的にAIパートナーが自分の意思でお喋りしてくれるコードを作ってみた",
+      "url": "https://zenn.dev/mdkfjytjhgj/articles/a73a0a019d51d2",
+      "publishedAt": "2026-09-14T06:56:21.000Z",
+      "publisher": "mdk",
+      "summary": "1. はじめに：受動的なBotから「自律的な相棒」へ 初めまして、mdkです！従来のチャットBotは、「ユーザーが話しかけたら返事をする」という受動的なものがほとんどでした。 でも、ずっと一緒に過ごす相棒なら、「話しかけなくても、向こうか…"
+    },
+    {
+      "id": "c0adcb1985b9",
+      "title": "コードを書かない人間がClaude Codeを業務で使う ― 法人営業の設計メモ",
+      "url": "https://zenn.dev/topsalesai/articles/44468d97c13288",
+      "publishedAt": "2026-09-14T06:01:47.000Z",
+      "publisher": "現役TOPセールスのAI活用術",
+      "summary": "前提 私はエンジニアではありません。今も現場に立っている法人営業です。プログラムは書けません。 それでも Claude Code を毎日使っています。コードを書くためではなく、自分の仕事のファイルをまとめて扱うためです。 この記事は、非エ…"
+    },
+    {
+      "id": "f2d006842b17",
+      "title": "モデル更新で陳腐化しにくいハーネス設計を考える",
+      "url": "https://zenn.dev/omu_tryangle/articles/42aeced06820d3",
+      "publishedAt": "2026-09-14T05:07:51.000Z",
+      "publisher": "わたるん",
+      "summary": "はじめに 自己紹介 はじめまして！ 公立大学法人大阪の情報基盤課にて学生スタッフとして勤務している経済学部4年の鈴木航です。 文系であり情報系のバックグラウンドや経験はない私ですが、親切な職員の方々と気さくな学生スタッフのみんなのおかげで…"
+    },
+    {
+      "id": "3a46927d6fe5",
+      "title": "育児記録をMCPでAIから読み書きできるようにした話",
+      "url": "https://zenn.dev/ushio/articles/mcp-baby-care-records",
+      "publishedAt": "2026-09-14T04:44:31.000Z",
+      "publisher": "ushio",
+      "summary": "Osewa は、赤ちゃん・植物・ペットのお世話記録を家族で共有するアプリです。授乳やおむつ替え、水やりを記録しておくと、家にいない側からも同じ状況が見えます。個人で作って運用しています。 このアプリに、リモート MCP サーバを載せました…"
+    },
+    {
+      "id": "2139356440f7",
+      "title": "10層で見るAIの現在地。エンジニアが磨く知識はどこにあるか",
+      "url": "https://zenn.dev/1amageek/articles/ai-stack-layers-2026",
+      "publishedAt": "2026-09-14T04:36:36.000Z",
+      "publisher": "1amageek",
+      "summary": "こんにちは、村本です。 2026年1月の世界経済フォーラム年次総会（ダボス会議）で、AnthropicのDario Amodei氏は、社内のエンジニアの声を紹介しました。 I have engineers within Anthropic…"
+    },
+    {
+      "id": "5e03449308fa",
+      "title": "Claude Codeのトークン節約に、コードチェックをローカルのLLMにやらせてみた",
+      "url": "https://zenn.dev/iostar/articles/0247df0cef8df5",
+      "publishedAt": "2026-09-14T04:20:58.000Z",
+      "publisher": "SHIKISHATERM",
+      "summary": "私は Claude Code を何枚も並べて、Windows 用のターミナルを作っています。そうやって毎日使っていると、5時間の枠も週の枠も、思っているより早く減っていきます。 減り方を見ていて気づいたのは、枠を食っているのが設計や実装だ…"
     }
   ],
-  "fetchedAt": "2026-09-14T16:26:40.428Z",
+  "fetchedAt": "2026-09-14T20:24:14.223Z",
   "stale": false,
   "error": null
 }
