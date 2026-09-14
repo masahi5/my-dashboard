@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "fd25dff8fc0d",
+      "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
+      "url": "https://huggingface.co/papers/2609.12641",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts. …",
+      "score": 49
+    },
+    {
+      "id": "ea9c9f286f0a",
+      "title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+      "url": "https://huggingface.co/papers/2609.08418",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "Training capable cyber agents is often treated primarily as a problem of model scale, yet open-weight post-training is …",
+      "score": 48
+    },
+    {
+      "id": "891fe2e8b461",
+      "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+      "url": "https://huggingface.co/papers/2609.11115",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluat…",
+      "score": 46
+    },
+    {
+      "id": "ae1a4b935683",
+      "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+      "url": "https://huggingface.co/papers/2609.13141",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "Post-training attention sparsification reduces the quadratic cumulative attention cost of pretrained Transformers by se…",
+      "score": 45
+    },
+    {
       "id": "94c5ab8dbddf",
       "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
       "url": "https://huggingface.co/papers/2609.09143",
@@ -14,52 +46,28 @@
       "score": 28
     },
     {
-      "id": "0aaf4fdb03bd",
-      "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
-      "url": "https://huggingface.co/papers/2609.11085",
+      "id": "a7e60fa1db38",
+      "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
+      "url": "https://huggingface.co/papers/2609.11682",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally bl…",
-      "score": 28
+      "summary": "Large language model (LLM) agents can benefit from reusable skills distilled from prior task experience, yet existing s…",
+      "score": 26
     },
     {
-      "id": "891fe2e8b461",
-      "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
-      "url": "https://huggingface.co/papers/2609.11115",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluat…",
-      "score": 27
-    },
-    {
-      "id": "7ad4eec9fe54",
-      "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
-      "url": "https://huggingface.co/papers/2609.10445",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain o…",
-      "score": 27
-    },
-    {
-      "id": "fd25dff8fc0d",
-      "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
-      "url": "https://huggingface.co/papers/2609.12641",
+      "id": "16f4ec186e80",
+      "title": "StepAudio 3 Gen Technical Report",
+      "url": "https://huggingface.co/papers/2609.12945",
       "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts. …",
-      "score": 25
-    },
-    {
-      "id": "627b6b1b123c",
-      "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
-      "url": "https://huggingface.co/papers/2608.15380",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "summary": "In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impair…",
+      "summary": "We introduce StepAudio 3 Gen, a general-purpose audio generation model that supports zero-shot text-to-speech (TTS), vo…",
       "score": 23
     },
     {
-      "id": "1d377e524cbc",
-      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
-      "url": "https://huggingface.co/papers/2609.09076",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identi…",
-      "score": 23
+      "id": "2edddf894373",
+      "title": "PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization",
+      "url": "https://huggingface.co/papers/2608.30597",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Direct Preference Optimization (DPO) simplifies alignment through pairwise comparisons but assumes all observed prefere…",
+      "score": 22
     },
     {
       "id": "66781d027755",
@@ -70,28 +78,12 @@
       "score": 22
     },
     {
-      "id": "2edddf894373",
-      "title": "PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization",
-      "url": "https://huggingface.co/papers/2608.30597",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "summary": "Direct Preference Optimization (DPO) simplifies alignment through pairwise comparisons but assumes all observed prefere…",
-      "score": 18
-    },
-    {
-      "id": "a7e60fa1db38",
-      "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
-      "url": "https://huggingface.co/papers/2609.11682",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents can benefit from reusable skills distilled from prior task experience, yet existing s…",
-      "score": 16
-    },
-    {
-      "id": "ae1a4b935683",
-      "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
-      "url": "https://huggingface.co/papers/2609.13141",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "Post-training attention sparsification reduces the quadratic cumulative attention cost of pretrained Transformers by se…",
-      "score": 6
+      "id": "8fc451e0488d",
+      "title": "Online Learning with LLM Experts from Limited Feedback",
+      "url": "https://huggingface.co/papers/2609.05820",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "We study adaptive routing of prompts to large language model (LLM) experts to maximize response quality in an online se…",
+      "score": 2
     },
     {
       "id": "015bad1bf38a",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2609.13146",
       "publishedAt": "2026-09-11T00:00:00.000Z",
       "summary": "Part-aware 3D asset generation enables applications such as editing, articulation, simulation, and fabrication, yet exi…",
+      "score": 2
+    },
+    {
+      "id": "1a2220444822",
+      "title": "Beyond Top-k Skill Retrieval: Diversity-Aware Skill Routing for LLM Agents",
+      "url": "https://huggingface.co/papers/2609.05824",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "Large language model (LLM) agents increasingly rely on external skills, but routing user requests over large skill regi…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-14T04:55:21.123Z",
+  "fetchedAt": "2026-09-14T10:18:12.980Z",
   "stale": false,
   "error": null
 }

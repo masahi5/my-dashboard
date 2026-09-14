@@ -6,6 +6,14 @@
   "category": "ai",
   "items": [
     {
+      "id": "155abbab9d81",
+      "title": "その予測、当たる前提で使っていませんか——Conformal Predictionと、埋め込み距離という2つの見積もり方",
+      "url": "https://zenn.dev/taichiendoh/articles/estimating-prediction-reliability-before-trust",
+      "publishedAt": "2026-09-13T22:11:33.000Z",
+      "publisher": "遠藤太一",
+      "summary": "2026年8月、創薬分野の分子特性予測（溶解度・効力・毒性など）に「conformal prediction（コンフォーマル予測。個々の予測に対して、統計的に妥当な\"当たる範囲\"を数値で示す手法）」を適用し、実験条件のずれ（label s…"
+    },
+    {
       "id": "a715d9997cc4",
       "title": "Multi-Agentにおける「多様性」について考えてみた",
       "url": "https://zenn.dev/k_aiga/articles/000_multi_agent_diversity_current_landscape",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-09-13T15:38:04.000Z",
       "publisher": "forifori",
       "summary": "「たぶん大丈夫です」と「ご予約承りました」は、会話としてはどちらも前向きな返事です。しかし、プログラムから同じ「成功」として扱うと困ります。 電話AIのOSS Oathra では、会話の生成と完了判定を分離し、発言から抽出した条件への合意…"
-    },
-    {
-      "id": "7a7d2d83f7e8",
-      "title": "OpenClawを学び、日々を便利に",
-      "url": "https://zenn.dev/microsoft/articles/openclaw_intro",
-      "publishedAt": "2026-09-13T14:42:42.000Z",
-      "publisher": "Yusuke Satake",
-      "summary": "OpenClaw 概要 OpenClaw は、自分の PC やサーバーで動く、オープンソースの常駐型 AI エージェントです。チャットアプリから自然言語で依頼すると、許可された範囲でブラウザー・ファイル・シェルを操作します。 たとえば「こ…"
     }
   ],
-  "fetchedAt": "2026-09-14T04:55:21.237Z",
+  "fetchedAt": "2026-09-14T10:18:13.078Z",
   "stale": false,
   "error": null
 }
