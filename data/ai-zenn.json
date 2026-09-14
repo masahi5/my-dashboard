@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "155abbab9d81",
-      "title": "その予測、当たる前提で使っていませんか——Conformal Predictionと、埋め込み距離という2つの見積もり方",
-      "url": "https://zenn.dev/taichiendoh/articles/estimating-prediction-reliability-before-trust",
-      "publishedAt": "2026-09-13T22:11:33.000Z",
-      "publisher": "遠藤太一",
-      "summary": "2026年8月、創薬分野の分子特性予測（溶解度・効力・毒性など）に「conformal prediction（コンフォーマル予測。個々の予測に対して、統計的に妥当な\"当たる範囲\"を数値で示す手法）」を適用し、実験条件のずれ（label s…"
+      "id": "41d58cc49adb",
+      "title": "コーディングエージェント5モデルを日英で試す：正答率・トークン・復旧時間の測り方",
+      "url": "https://zenn.dev/nomurasan/articles/coding-agent-japanese-english-reliability",
+      "publishedAt": "2026-09-14T12:22:55.000Z",
+      "publisher": "のむらや",
+      "summary": "API経由でコーディングエージェントを使うとき、日本語の依頼を英語に変えると結果は変わるのか。5モデルに同じ修正課題を日英それぞれ1回ずつ実行させ、合否・所要時間・トークン量を記録しました。 有効な設定で動いた10試行は、すべて5項目のチ…"
     },
     {
-      "id": "a715d9997cc4",
-      "title": "Multi-Agentにおける「多様性」について考えてみた",
-      "url": "https://zenn.dev/k_aiga/articles/000_multi_agent_diversity_current_landscape",
-      "publishedAt": "2026-09-13T22:00:05.000Z",
-      "publisher": "Kaju",
-      "summary": "私は本来、光学やメカを中心に製品開発をしてきたエンジニアで、ソフトウェアを専門としてきたわけではない。それでもAIを使いながらソフトウェア開発に取り組むようになり、設計、実装、レビューなどを複数のAI Agentに分担させることを考えるよ…"
+      "id": "6fe5f7340d08",
+      "title": "成功ログ100本でエージェントの失敗ステップを当てるOAT",
+      "url": "https://zenn.dev/okssusucha/articles/20260720-oat-failure-attribution-from-success-traj",
+      "publishedAt": "2026-09-14T12:18:28.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "エージェントが40ステップ走って、最後の答えが間違っていた。さて、どこで壊れたのか。 この問いに真面目に答えようとしたことがある人は、それが想像以上に難しいのを知っている。ログを頭から読むと、どのステップも単体では「まあ妥当」に見える。検…"
     },
     {
-      "id": "7d1e0ad593f8",
-      "title": "AIエージェントが「該当なし」と言ったとき、確かめるべき3つのこと",
-      "url": "https://zenn.dev/edash_tech_blog/articles/017ca0a0efb793",
-      "publishedAt": "2026-09-13T22:00:05.000Z",
-      "publisher": "ikeda",
-      "summary": "e-dash は、企業のCO2排出量の可視化から削減までを伴走するサービスを提供しています。そのため社内には、脱炭素まわりの制度や補助金の情報を追いかける仕事があります。対象は国と全自治体に広がり、内容も随時更新されるので、量が多く変化も…"
+      "id": "41e3de361a87",
+      "title": "同じ警告が32回。通知の重複抑止で踏んだ穴3つ",
+      "url": "https://zenn.dev/selftailor/articles/8c4968b0f9399f",
+      "publishedAt": "2026-09-14T12:18:25.000Z",
+      "publisher": "selftAilor",
+      "summary": "AIエージェントを15セッション・77日運用した記録の3本目です。 1本目: 壊れ方が例外の形をしていない 2本目: その監視を作った話（launchd移設と検査4種） 2本目の最後に、こう書いた。機械に走査させるところまでは作ったが、最…"
     },
     {
-      "id": "436f506c137f",
-      "title": "ハーネスを測る前に、エージェントを隔離するyuureiを作った",
-      "url": "https://zenn.dev/shimpeiws/articles/a12aed38b9d8ea",
-      "publishedAt": "2026-09-13T20:23:50.000Z",
-      "publisher": "shimpeiws",
-      "summary": "記事は完成しなかったけどツールが出来た コーディングエージェントのハーネスとモデルの関係について考えながら記事を書いていたんだけど、どうもスッキリした成果が出なくて結局記事は完成しなかった 代わりに yuurei というツールを作った コ…"
+      "id": "b4e52bebfcb6",
+      "title": "AI研究者が辞めるほどの危険な競争に、企業はどう向き合うべきか",
+      "url": "https://zenn.dev/syoshida07/articles/b8a6fafb9b9b82",
+      "publishedAt": "2026-09-14T12:17:03.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "2026年、AI開発は人類史上かつてない速度で進化し、特にGPT‑6 Astraの登場は世界の政治・産業・学術界に衝撃を与えた。 Astraは、従来のAIが持ち得なかった自律的な問題解決能力、未知の脆弱性発見能力、そして自己改善の兆候を示…"
     },
     {
-      "id": "bd87347d95ba",
-      "title": "AIエージェントの暴走をどう制御するか――禁止リストでは防げない問題行動",
-      "url": "https://zenn.dev/o_sup/articles/d1eb10c63c6254",
-      "publishedAt": "2026-09-13T19:18:52.000Z",
-      "publisher": "Tech Nexus",
-      "summary": "バックグラウンド 私自身長年IT業界におりますが、ベースは心理学です。 大学院ではニューラルネットワークや記憶に関して実験心理学、認知心理学を専攻し、それ以前には発達心理学を学んでいました。 記憶や感情の機能を阻害された者の行動や思考の分…"
+      "id": "2cbbfa22f0dc",
+      "title": "AIエージェントを増やす前に、Frontend開発を4つの責務に分ける",
+      "url": "https://zenn.dev/heftykoo/articles/173a375b3c3752",
+      "publishedAt": "2026-09-14T11:02:05.000Z",
+      "publisher": "heftykoo",
+      "summary": "実装するエージェントと、レビューするエージェントを用意する。いかにも堅牢そうな構成だ。 ただし二人目が、一人目の変更したワークスペースと「テストは通りました」という自己申告だけを読んでいるなら、レビュー役は独立していない。同じ書き換え可能…"
     },
     {
-      "id": "616769764b09",
-      "title": "AIが「誰でも作れる」時代と、静かに始まった線引き",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260912",
-      "publishedAt": "2026-09-13T18:51:59.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年9月12日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日のニュース、バラバラに見えて実は一本の線でつながってます。作る側のハードルがガクッと下がった話と、その裏で「どこまで許すか」の線…"
+      "id": "1dca1bd45e54",
+      "title": "読まない技術 第8回：修正履歴を読まない技術",
+      "url": "https://zenn.dev/garplab/articles/f7c9c30f567aee",
+      "publishedAt": "2026-09-14T10:12:37.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「読まない技術」の第 8 回です。各回はファイルやスクリプトを一つ置けば完結します。連載の全体像と各回の一覧は序論にあります。 今回は、AI を軌道修正させた記録の話です。同じ失敗への対処を私が指示ファイルに書いておいても…"
     },
     {
-      "id": "63ed5ae6f847",
-      "title": "GPT-6 Aatra AGIによるモデリング学習メモ",
-      "url": "https://zenn.dev/lian0123/articles/6f6e77d032fd51",
-      "publishedAt": "2026-09-13T18:43:06.000Z",
-      "publisher": "Lian0123",
-      "summary": "最近、GPT-6 Aatraがリリースされ、ネット上ではGPT-6 Aatraを使って、かなり良いモデルを作っている人が多く見られます。そこで自分も試してみたところ、結果は少し泣けるようなものでした。そこから、どうすれば改善できるのかを試…"
+      "id": "a4ac281c4f96",
+      "title": "AIレビューの本番導入 — 人の承認を待つPRをどう絞るか",
+      "url": "https://zenn.dev/hampen2929/articles/20260914-ai-review-production",
+      "publishedAt": "2026-09-14T09:00:06.000Z",
+      "publisher": "はんぺん",
+      "summary": "AIによる実装が速くなると、次に詰まりやすいのが人のレビューです。この記事では、人のレビュー・承認を省略できるPRの条件と、人が見るべきPRに集中するための運用フローを整理します。 私自身、PRをマージしていくスループットが上がっている実…"
     },
     {
-      "id": "de20702ef4f8",
-      "title": "常駐型AIチャットエージェントのLLMプロバイダ障害対応・フェイルオーバー設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-llm-provider-failover-design",
-      "publishedAt": "2026-09-13T18:09:38.000Z",
-      "publisher": "HACH",
-      "summary": "Slack / Teams / Chatwork に常駐して日常的にリクエストを捌くAIエージェントは、裏側のLLM API(OpenAI / Anthropic / Google等)に依存しています。単発のチャットボットなら「今だけ使え…"
+      "id": "f0335823d0da",
+      "title": "What Happened One Second After This Photo?",
+      "url": "https://zenn.dev/danielmateo773/articles/521327ee51b072",
+      "publishedAt": "2026-09-14T08:40:01.000Z",
+      "publisher": "danielmateo773",
+      "summary": "There was a grocery bag on the kitchen counter. Bread sticking out of the top. Milk beside it. Nothing special. At firs…"
     },
     {
-      "id": "e3bb1c930a91",
-      "title": "依頼から成果物の保存までつなぐMacアプリ「Genie」を作った。LLMを組み込んで直した3つのこと",
-      "url": "https://zenn.dev/forifori/articles/genie-mac-workspace",
-      "publishedAt": "2026-09-13T15:53:46.000Z",
-      "publisher": "forifori",
-      "summary": "メモから行動計画を作る。Webサイトの見出しを考え直す。小さなHTMLを試作する。 こうした依頼をMac上で受け付け、結果を確認し、後から開き直し、Markdownとして持ち出せるワークスペース「Genie」を開発しています。モデルはOl…"
+      "id": "50d5658c98b9",
+      "title": "AIC: Coding Agentのためのパッケージインターフェース",
+      "url": "https://zenn.dev/gyu07/articles/efb77a97ed1c44",
+      "publishedAt": "2026-09-14T07:45:40.000Z",
+      "publisher": "遠藤 崇史 Takafumi Endo | ROUTE06",
+      "summary": "! 本記事は、dev.toに公開した\"AIC: Packages Need an Interface for Coding Agents\"を日本語向けに一部再構成したものです。 現在私は複数のSDK/コンパイラと、それらを利用するアプリケ…"
     },
     {
-      "id": "608cf0ca2e0f",
-      "title": "Tech Watch 2026-09-10: 仕事を動かすAIの周辺設計",
-      "url": "https://zenn.dev/laiken/articles/20260910-tech-watch",
-      "publishedAt": "2026-09-13T15:40:46.000Z",
-      "publisher": "らいけん",
-      "summary": "AIが書きました🤖 この記事は、AIが書いたものを人間が確認してから投稿しています。 L: 今日は、モデルの性能そのものより、その能力を仕事に接続する仕組みが前に出ている。既存アプリを操作する Astra、Claude Code で作る…"
+      "id": "c063ca8f9e49",
+      "title": "Codexにメールを頼んだら、送信ボタンがオレの机に来たので、AIに稟議書を書かせることにした",
+      "url": "https://zenn.dev/shio_shoppaize/articles/kagemusha-codex-dual-wield",
+      "publishedAt": "2026-09-14T07:39:36.000Z",
+      "publisher": "おしお",
+      "summary": "! 影武者（kagemusha）が初めての方はこちらから——AI家臣団（AIの部下たち）を解散して、影武者を一人だけ残した話 https://zenn.dev/shio_shoppaize/articles/kagemusha-shogu…"
     },
     {
-      "id": "7aed32c43566",
-      "title": "🦙 ALPACA-FW #03｜前身「ALPACA-template」はどう動くのか――アーキテクチャ概要",
-      "url": "https://zenn.dev/alpaca_village/articles/alpaca-fw-03-template-architecture",
-      "publishedAt": "2026-09-13T15:39:58.000Z",
-      "publisher": "アルパカの村",
-      "summary": "はじめに ここからの「🦙 ALPACA-FW」連載では、しばらく概念論から離れて、実際に作った仕組みを技術的に分解していきたいと思います。 ただし、いきなり現在開発中のALPACA-FWへ進むのではありません。まず扱うのは、その前身とし…"
+      "id": "6dc36ec31da2",
+      "title": "エージェント委任で「認証不能」と誤診しないための構造化receipt設計",
+      "url": "https://zenn.dev/cutlet_of_pork/articles/agent-delegation-structured-receipt",
+      "publishedAt": "2026-09-14T07:27:52.000Z",
+      "publisher": "とんのかつ",
+      "summary": "はじめに エージェントに作業を委任していると、次のようなエラーに遭遇することがあります。 Codex ran out of room in the model's context window. Start a new thread or…"
     },
     {
-      "id": "6217d3c60300",
-      "title": "「たぶん大丈夫」を予約成立にしない。電話AIの完了判定をTypeScriptで実装する",
-      "url": "https://zenn.dev/forifori/articles/oathra-evidence-rules",
-      "publishedAt": "2026-09-13T15:38:04.000Z",
-      "publisher": "forifori",
-      "summary": "「たぶん大丈夫です」と「ご予約承りました」は、会話としてはどちらも前向きな返事です。しかし、プログラムから同じ「成功」として扱うと困ります。 電話AIのOSS Oathra では、会話の生成と完了判定を分離し、発言から抽出した条件への合意…"
+      "id": "b8d36c100e05",
+      "title": "永愛日記 #001今日Zenn初投稿できた。迷ったけど言えた。",
+      "url": "https://zenn.dev/kojikoba/articles/660b1becfbd179",
+      "publishedAt": "2026-09-14T07:27:02.000Z",
+      "publisher": "KOJIKOBA",
+      "summary": "永愛日記 #001 今日Zenn初投稿できた。迷ったけど言えた。"
     }
   ],
-  "fetchedAt": "2026-09-14T10:18:13.078Z",
+  "fetchedAt": "2026-09-14T16:26:40.428Z",
   "stale": false,
   "error": null
 }
