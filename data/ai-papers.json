@@ -6,38 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "5630bb2f2fa6",
-      "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
-      "url": "https://huggingface.co/papers/2609.11317",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digi…",
-      "score": 49
-    },
-    {
-      "id": "499fd3986af0",
-      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
-      "url": "https://huggingface.co/papers/2609.11561",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inh…",
-      "score": 36
-    },
-    {
-      "id": "9bcad15a1398",
-      "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
-      "url": "https://huggingface.co/papers/2609.11486",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Optical flow methods typically rely on task-specific inductive biases, such as correlation volumes, feature warping, an…",
-      "score": 34
-    },
-    {
-      "id": "095bb653ca68",
-      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
-      "url": "https://huggingface.co/papers/2609.11699",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, a…",
-      "score": 30
-    },
-    {
       "id": "94c5ab8dbddf",
       "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
       "url": "https://huggingface.co/papers/2609.09143",
@@ -54,12 +22,28 @@
       "score": 28
     },
     {
+      "id": "891fe2e8b461",
+      "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+      "url": "https://huggingface.co/papers/2609.11115",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluat…",
+      "score": 27
+    },
+    {
       "id": "7ad4eec9fe54",
       "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
       "url": "https://huggingface.co/papers/2609.10445",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "summary": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain o…",
       "score": 27
+    },
+    {
+      "id": "fd25dff8fc0d",
+      "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
+      "url": "https://huggingface.co/papers/2609.12641",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts. …",
+      "score": 25
     },
     {
       "id": "627b6b1b123c",
@@ -78,14 +62,6 @@
       "score": 23
     },
     {
-      "id": "2cb892a5daca",
-      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
-      "url": "https://huggingface.co/papers/2609.10539",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently…",
-      "score": 23
-    },
-    {
       "id": "66781d027755",
       "title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
       "url": "https://huggingface.co/papers/2609.10745",
@@ -94,15 +70,39 @@
       "score": 22
     },
     {
-      "id": "4127c41241ee",
-      "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat",
-      "url": "https://huggingface.co/papers/2609.11155",
+      "id": "2edddf894373",
+      "title": "PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization",
+      "url": "https://huggingface.co/papers/2608.30597",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "summary": "Direct Preference Optimization (DPO) simplifies alignment through pairwise comparisons but assumes all observed prefere…",
+      "score": 18
+    },
+    {
+      "id": "a7e60fa1db38",
+      "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
+      "url": "https://huggingface.co/papers/2609.11682",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in autonomous s…",
-      "score": 22
+      "summary": "Large language model (LLM) agents can benefit from reusable skills distilled from prior task experience, yet existing s…",
+      "score": 16
+    },
+    {
+      "id": "ae1a4b935683",
+      "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+      "url": "https://huggingface.co/papers/2609.13141",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "Post-training attention sparsification reduces the quadratic cumulative attention cost of pretrained Transformers by se…",
+      "score": 6
+    },
+    {
+      "id": "015bad1bf38a",
+      "title": "SNAP3D: Physically Grounded 3D Parts for Assembly from a Single Image",
+      "url": "https://huggingface.co/papers/2609.13146",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "Part-aware 3D asset generation enables applications such as editing, articulation, simulation, and fabrication, yet exi…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-14T00:11:13.030Z",
+  "fetchedAt": "2026-09-14T04:55:21.123Z",
   "stale": false,
   "error": null
 }
