@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "0589ee8a0d92",
-      "title": "【第 6 回】AI のハルシネーションとの戦い — 宣言されなかった制約は強制されない",
-      "url": "https://zenn.dev/highfar/articles/undeclared-constraints-are-not-enforced",
-      "publishedAt": "2026-09-15T05:50:01.000Z",
-      "publisher": "highfar",
-      "summary": "第 6 回（末尾に連載の一覧があります） いまのところ、ここが最後です。ここまでは「証明が空洞でないか」「証明の境界がどこか」を書いてきました。 今回はその手前の話です。そもそも制約として書かれなかったもの、書かれたのに機械へ落ちなかった…"
+      "id": "57d258ce98f5",
+      "title": "AIワークフローを作る前に試したい「小さな検証」",
+      "url": "https://zenn.dev/aiai_tool/articles/bcd734677d4939",
+      "publishedAt": "2026-09-15T10:21:03.000Z",
+      "publisher": "AIAI｜AI Tools & Workflows",
+      "summary": "生成AIを業務に取り入れるとき、最初から大きな自動化フローを作る必要はありません。 むしろ、最初は小さなタスクで検証した方が、そのAIツールが本当に仕事に役立つのか判断しやすくなります。 この記事では、AIツールを本格導入する前に行いたい…"
     },
     {
-      "id": "ef80bf5163c7",
-      "title": "GPT Image 2.5のプロンプトを比較する：構図の指示だけを変える検証手順",
-      "url": "https://zenn.dev/kiritani_r/articles/21c027ada64eb5",
-      "publishedAt": "2026-09-15T05:37:38.000Z",
-      "publisher": "ハク（Haku）",
-      "summary": "TL;DR 同一の被写体・同一の基準画像を使い、構図の指示だけを変える検証手順を作った 構図が崩れる原因は「語彙の不足」より「優先順位の不在」であることが多い 検証用スクリプトは本文に掲載。自分の環境でそのまま実行できる はじめに GPT…"
+      "id": "04268e027256",
+      "title": "VS Code+ターミナルからCodex Appに乗り換えた話",
+      "url": "https://zenn.dev/explaza/articles/c498ffdac80dbd",
+      "publishedAt": "2026-09-15T09:56:09.000Z",
+      "publisher": "hw0409",
+      "summary": "はじめに 2ヶ月程前に、開発のメイン環境をVS Code + ターミナルからCodex App（ChatGPT App）に移しました。 普段は実装だけでなく、設計の相談や不具合の調査もAIと進めています。チャットで一日中やり取りすることも…"
     },
     {
-      "id": "035fa557a017",
-      "title": "【HITCON 2026 参加レポート】Day2 セッションから改めて感じた\"確認\"することの重要さ",
-      "url": "https://zenn.dev/cscloud_blog/articles/hitcon2026-report03",
-      "publishedAt": "2026-09-15T05:03:20.000Z",
-      "publisher": "カンバヤシ",
-      "summary": "はじめに こんにちは、日々セキュリティエンジニアとして従事している新卒2年目です。 先日、台湾で開催されたセキュリティカンファレンス「HITCON 2026」に初めて参加してきました。 本記事では、Day2で聴講したセッションの概要や感想…"
+      "id": "04cb9c1065d1",
+      "title": "ブラウザ動画トリミングUIを状態遷移で考える",
+      "url": "https://zenn.dev/clare23/articles/10ebd03edc6e8d",
+      "publishedAt": "2026-09-15T09:40:56.000Z",
+      "publisher": "クレア",
+      "summary": "この記事は公開UIから組み立てた設計メモです。内部実装、ファイル処理の詳細、性能、ネットワーク動作を観測したものではありません。 問題を「範囲選択」として分離する トリミングの中心は、メディア本体ではなく開始点と終了点の整合性です。公開 …"
     },
     {
-      "id": "6ef6f9fcd59d",
-      "title": "【HITCON 2026 参加レポート】Day1 セッションから感じたAI時代のハッカーたちのリアル",
-      "url": "https://zenn.dev/cscloud_blog/articles/hitcon2026-report02",
-      "publishedAt": "2026-09-15T05:03:19.000Z",
-      "publisher": "カンバヤシ",
-      "summary": "はじめに こんにちは、日々セキュリティエンジニアとして従事している新卒2年目です。 先日、台湾で開催されたセキュリティカンファレンス「HITCON 2026」に初めて参加してきました。 本記事では、Day1で聴講したセッションの概要や感想…"
+      "id": "513b9088d967",
+      "title": "Claude Code を複数同時に動かすなら、CLAUDE.md にこの2つを貼っておく",
+      "url": "https://zenn.dev/tomatomerde/articles/semantic-conflicts-outside-code",
+      "publishedAt": "2026-09-15T09:34:16.000Z",
+      "publisher": "おニーチェん",
+      "summary": "自分でコードを書くというより、エージェントに指示を出して回している人向けです。私自身がそうで、Claude Code を端末2つで同時に動かしていました。作業するフォルダはエージェントごとに分けてあるので（git worktree。1つの…"
     },
     {
-      "id": "9daacca0ca4f",
-      "title": "サブエージェントは 3,093 件のツール結果を読み、親には 1 件も渡さない — だから報告は裏取りするしかない",
-      "url": "https://zenn.dev/tsutomusaito/articles/subagent-report-verification-ja",
-      "publishedAt": "2026-09-15T03:44:42.000Z",
-      "publisher": "saito",
-      "summary": "3行で ログ 389 ファイルから委譲 138 件を取り出した。サブエージェントは 1 回の委譲あたり中央値 20 回ツールを呼び、合計 3,093 件のツール結果を読んでいた。 親に返るのは 中央値 1,151 字の文章 1 つだけ。読…"
+      "id": "f990303a7be5",
+      "title": "1日の開発の流れをスキル化してみたら、想像以上に快適だった",
+      "url": "https://zenn.dev/tenkei/articles/9f8921926bb003",
+      "publishedAt": "2026-09-15T09:15:12.000Z",
+      "publisher": "Tenkei",
+      "summary": "概要 ここ最近、すっかり同じような流れで開発をしている。 ざっくり書くと、以下のようになる。 GithubのIssueを取る → AIに設計と実装を任せる → 別のAIにレビューしてもらう → 動作確認してもらう → Pull Reque…"
     },
     {
-      "id": "e699d284108a",
-      "title": "資料にコメントを付けて AI とやり取りができる、ターミナルで動くビューア「docrev」を公開しました！",
-      "url": "https://zenn.dev/kiman/articles/12c69fa5eb10c0",
-      "publishedAt": "2026-09-15T03:38:45.000Z",
-      "publisher": "きんゆまん",
-      "summary": "ターミナルで Excel や Markdown のファイルを開き、セルや行にコメントを付けると、Claude Code などの AI エージェントがそれを読んで対応し、返事をくれるツール docrev を公開しました。 https://g…"
+      "id": "62902df5dc15",
+      "title": "Scribe v2 / Gemini 3.5 Transcribe / MAI-Transcribe-2 を日本語音源で実測比較してみた",
+      "url": "https://zenn.dev/minedia/articles/c23bcd82102c8e",
+      "publishedAt": "2026-09-15T09:00:06.000Z",
+      "publisher": "yu_yu_yu",
+      "summary": "3秒まとめ 📝 新顔 2 つ（Gemini 3.5 Transcribe / MAI-Transcribe-2）を ElevenLabs Scribe v2 と並べ、日本語 5 分の同一音源で実測 大意はどれも掴める（一致率 81〜86…"
     },
     {
-      "id": "3c26e5b29d3b",
-      "title": "社内文書をAIに載せる前の整理術 — 使える資料と使えない資料の見分け方",
-      "url": "https://zenn.dev/yushiyamamoto/articles/docs-prep-before-ai-2026-09",
-      "publishedAt": "2026-09-15T03:03:59.000Z",
-      "publisher": "山本勇志/ITProDX.com",
-      "summary": "「社内のマニュアルをAIに読ませれば、問い合わせが減るはず」——そう考えてフォルダごと投入した結果、的外れな回答や古いルールの引用が増えた、という話はよくあります。原因はモデルの賢さより先に、載せる前の資料の状態にあることが多いです。この…"
+      "id": "bc5d11689437",
+      "title": "Claude Codeで実行してほしくないコマンドには代替手段を伝える",
+      "url": "https://zenn.dev/labee/articles/7c97be78c6afa7",
+      "publishedAt": "2026-09-15T08:00:06.000Z",
+      "publisher": "K@zuki.",
+      "summary": "こんにちは、K@zukiです。 Claude Codeに作業を任せていると、permissions.denyなどで禁止しているコマンドに当たった後、別の書き方を試してまた止まったり、「ユーザーに拒否された」と報告して作業そのものをやめたり…"
     },
     {
-      "id": "7c73acbbe1e8",
-      "title": "人間と話すのと変わらない。gpt-live-1 に Claude Agent SDK を挿して、声でコーディングエージェントを動かした",
-      "url": "https://zenn.dev/flinters_blog/articles/55653bf5e3fc78",
-      "publishedAt": "2026-09-15T03:00:06.000Z",
-      "publisher": "Takashi Kawachi",
-      "summary": "はじめに こんにちは。FLINTERSの河内です。 社内で毎週開いている AI 活用の勉強会で、今回（2026-09-14）は私が担当でした。取り上げたのは、9 月 10 日に API 公開された OpenAI の GPT-Live-1 …"
+      "id": "8d039ecbddd6",
+      "title": "AI Agentを用いたペネトレーションテストツールのクラウド適用例",
+      "url": "https://zenn.dev/nttdata_tech/articles/4f3e6dc2885ddd",
+      "publishedAt": "2026-09-15T07:37:22.000Z",
+      "publisher": "koshinwt",
+      "summary": "前置き AIで簡易なペネトレーションテストをする場合、基盤がAWS（Amazon Web Services）ならAWS Security Agent（現在はAWS Continuumの一部）が楽ですが、他クラウドを利用しているケースや、す…"
     },
     {
-      "id": "02b8802a67a5",
-      "title": "Claude Codeの使い方と、使うほど良くなる設定の作り方。6ヶ月でコミットが8.8倍になりました",
-      "url": "https://zenn.dev/jordisantamaria/articles/claude-code-config-layers",
-      "publishedAt": "2026-09-15T03:00:06.000Z",
-      "publisher": "Jordi Santamaria Portoles",
-      "summary": "この記事で、何ができるようになるか Claude Codeを6ヶ月、毎日使って分かったことを1本にまとめたものです。コピーして使う設定集ではありません。 むしろ逆で、他人の設定は効かない、という話をします。 読んで、そのとおりにやると、同…"
+      "id": "ac2fd633782f",
+      "title": "何をAIに任せ、何を人間に残すか？ - 私たちの開発現場のAIとの役割分担",
+      "url": "https://zenn.dev/muit_techblog/articles/709bc76c2aed94",
+      "publishedAt": "2026-09-15T07:26:40.000Z",
+      "publisher": "やまだ",
+      "summary": "はじめに 筆者は、Web・スマートフォンアプリケーションを開発する現場にて、AI活用を担当しています。 昨今、LLMやAI活用のためのツールの発展が目覚ましく、特にシステム開発の文脈ではここ数年で活用の幅が大きく広がっています。 数年前は…"
     },
     {
-      "id": "9411f69cf21e",
-      "title": "AIに書かせるときのボトルネックは生成ではなく検証だった",
-      "url": "https://zenn.dev/faanau/articles/ai-content-bottleneck-is-verification",
-      "publishedAt": "2026-09-15T02:59:02.000Z",
-      "publisher": "Faanau Inc.",
-      "summary": "AI に下書きさせた記事を150本ほど運用している。日本語の原文と英訳を突き合わせて解説するもので、事実の密度が高い。 始める前に想像していたボトルネックは「量を作ること」だった。実際に詰まったのは全部その後ろだった。 生成は安い。検証が…"
+      "id": "1c680ae8e09c",
+      "title": "今話題の SkillSpector で agent skills の安全性をチェックしてみた",
+      "url": "https://zenn.dev/gemcook/articles/try-skillspector-agent-skills-security",
+      "publishedAt": "2026-09-15T07:03:27.000Z",
+      "publisher": "あさひ",
+      "summary": "はじめに Agent Skill が共有されるようになって、他の人が公開している skill で「これ良さそう」と思うものを見かけることが増えました。ただ、実際に試そうとすると、セキュリティ的に問題ないかどうかの不安は残ります。 そこで …"
     },
     {
-      "id": "82fadb64d932",
-      "title": "AIの下書きが使えるかは、元ネタがどこにあるかで決まる",
-      "url": "https://zenn.dev/tiesplayhub/articles/31c171a96bdc13",
-      "publishedAt": "2026-09-15T02:37:28.000Z",
-      "publisher": "あるぱか｜AI駆動開発 ゲーマー向けアプリ開発",
-      "summary": "AIが書いた文章と、人間が書いた文章、見分けがつきますか。 このZennの連載記事とXの投稿は、下書きをAIが書いています。私がやっているのは、出すかどうかの判断と、直すことです。3週間ぶん、AIの下書きと私が実際に出した文章の差分が20…"
+      "id": "b7909d5bbc61",
+      "title": "「怖い」は、AIに任せすぎているサインだった",
+      "url": "https://zenn.dev/tokium_dev/articles/fear-means-delegating-too-much",
+      "publishedAt": "2026-09-15T06:37:06.000Z",
+      "publisher": "kr",
+      "summary": "どこまでAIに任せていいのか AIで開発を自動化した、という話をよく見かけるようになりました。 有名な例では、OpenAIはCodexを使い、5か月で約100万行のコード、約1,500件のプルリクエストという驚異的なペースで新規プロダクト…"
     },
     {
-      "id": "e13089dd26ae",
-      "title": "AI駆動開発フレームワークの整理（2026年9月時点）",
-      "url": "https://zenn.dev/cyberbose/articles/ai-dev-frameworks",
-      "publishedAt": "2026-09-15T02:19:52.000Z",
-      "publisher": "cyberBOSE",
-      "summary": "この記事の範囲 AI コーディングエージェント向けの開発フレームワークについて、公開情報を 2026年9月14日時点で調査し、次の観点で整理する。 何を定義するものか（プロセス全体か、実装中の規律か） 実体は何か（マークダウンのみか、CL…"
+      "id": "f83ec69d6617",
+      "title": "Superpowersを試してみた：AI開発フレームワークを活用した設計から実装まで",
+      "url": "https://zenn.dev/aiforall/articles/100196c8e50a20",
+      "publishedAt": "2026-09-15T06:33:10.000Z",
+      "publisher": "GamiSan",
+      "summary": "AIにアプリを作ってもらうとき、いきなりコード生成を依頼すると意図しないコードが生成されがちです。そうなることを防ぐために、作りたいアプリの要件を整理したり、設計をしてからコード生成をしてもらうことで、意図したコードを生成してくれるように…"
     }
   ],
-  "fetchedAt": "2026-09-15T12:11:01.829Z",
+  "fetchedAt": "2026-09-15T16:58:52.720Z",
   "stale": false,
   "error": null
 }

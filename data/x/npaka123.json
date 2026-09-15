@@ -2,6 +2,24 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2099841820805193834",
+      "url": "https://x.com/hayashimon1/status/2099841820805193834",
+      "text": "AstraだけでBlenderで3Dちびキャラをつくって検証してみた｜ハヤシモン/賞金バイブコーディング @hayashimon1 note.com/limber_newt6087/n/n…",
+      "publishedAt": "2026-09-15T12:44:37.000Z",
+      "authorHandle": "hayashimon1",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2099828361535312241",
+      "url": "https://x.com/SushiNFTart/status/2099828361535312241",
+      "text": "「GPT-6 Astra × Blender」を使って、低ポリキャラクターに、まばたきと口パクを付けてみる実験。\n立っているだけじゃなくて、まばたきや口パク、ほんの少しの首振りが加わると、「作り物」から「そこにいる」感じに。\n\n制作の流れはこんな感じです👇\n1. TripoのSmart Mesh P2.0、マルチビューで、四角形1500の設定でモデルを生成\n↓\n2. Blenderに取り込み、Astraにメッシュ補修・テクスチャ修正・リグ作成・ウェイト付けを依頼\n↓\n3. まばたきと口パクを、テクスチャアトラス方式で実装\n↓\n4. Images 2.5で会話ポーズのリファレンス画像を作り、それを参考にBlender上でポーズを調整\n↓\n5. 最後に、まばたき・口パク・控えめな首振りを組み合わせた6秒のループモーションに\n\n目は「開き目・半目・閉じ目」、口は「閉じる・少し開く・大きく開く」の3状態。\nまぶたや口のメッシュを変形させるのではなく、画像内の参照位置（UV座標）を切り替えて表情を出しています。\nN64時代のゲームを思わせる、シンプルな表現です。\nゲーム用に試してみましたが、クラシックな雰囲気の作品に合いそうです。",
+      "publishedAt": "2026-09-15T11:51:08.000Z",
+      "authorHandle": "SushiNFTart",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2099816212805140802",
       "url": "https://x.com/npaka123/status/2099816212805140802",
       "text": "RT @schroneko: 9 月 18 日（金）19 時から Physical AI 勉強会を兼ねて、1 ヶ月前に公開されたばかりの Omakase Robotics の新型準国産ロボット D1 を見学、技術者の方々とお話させていただきます！#aimeetup\n\nロボティク…",
@@ -72,27 +90,9 @@
       "authorHandle": "denfaminicogame",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2099785039617593761",
-      "url": "https://x.com/Sora_Sakurai/status/2099785039617593761",
-      "text": "はじまります!",
-      "publishedAt": "2026-09-15T08:59:00.000Z",
-      "authorHandle": "Sora_Sakurai",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2099779791994142791",
-      "url": "https://x.com/ochyai/status/2099779791994142791",
-      "text": "落合陽一プロデュース\n「null4」（テトラﾇﾙ）プロジェクト\nexpo2027yokohama.or.jp/learn…",
-      "publishedAt": "2026-09-15T08:38:09.000Z",
-      "authorHandle": "ochyai",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-09-15T12:11:26.856Z",
+  "fetchedAt": "2026-09-15T16:59:09.433Z",
   "stale": false,
   "error": null
 }
