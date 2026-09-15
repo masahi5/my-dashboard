@@ -6,28 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "8b43d5e0df1c",
-      "title": "Atria Dawn: The Dawn of Agentic Superintelligence",
-      "url": "https://huggingface.co/papers/2609.15818",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "As AI agents become participants in the development of their successors, they reshape both the production of intelligen…",
-      "score": 120
+      "id": "d819a3f27366",
+      "title": "Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction",
+      "url": "https://huggingface.co/papers/2609.13285",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "The KV cache is a primary bottleneck for Transformer decoding: its memory footprint and cache-read traffic grow with se…",
+      "score": 47
     },
     {
-      "id": "054fd7af5a3d",
-      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-      "url": "https://huggingface.co/papers/2609.13356",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system,…",
-      "score": 86
-    },
-    {
-      "id": "75c8ec9486f5",
-      "title": "PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models",
-      "url": "https://huggingface.co/papers/2609.14973",
+      "id": "efe90e6b2abd",
+      "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
+      "url": "https://huggingface.co/papers/2609.15863",
       "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "We present PhysBrain 1.5, a unified model for understanding physical environments, generating actions, and predicting f…",
-      "score": 57
+      "summary": "Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without gua…",
+      "score": 39
     },
     {
       "id": "0c5b4b313b39",
@@ -35,15 +27,23 @@
       "url": "https://huggingface.co/papers/2609.15364",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Digital agents must often adapt to new environments whose interfaces, tools, and failure modes are not fully captured b…",
-      "score": 12
+      "score": 20
     },
     {
-      "id": "8549a0786888",
-      "title": "Kaininja: Extending Native 3D Generators to the Part Level",
-      "url": "https://huggingface.co/papers/2609.15659",
+      "id": "76fe394db692",
+      "title": "AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video",
+      "url": "https://huggingface.co/papers/2609.14462",
+      "publishedAt": "2026-09-13T00:00:00.000Z",
+      "summary": "Interactive video world models must maintain broad scene context under camera motion while producing high-fidelity obse…",
+      "score": 18
+    },
+    {
+      "id": "026bdbef832d",
+      "title": "How Lossless Is Lossless Speculative Decoding? The Role of Numerical Precision in Orthrus",
+      "url": "https://huggingface.co/papers/2609.15504",
       "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Native 3D generators turn one image into a single mesh. TRELLIS.2 and its peers deliver high-fidelity non-watertight ge…",
-      "score": 12
+      "summary": "Orthrus is a hybrid autoregressive-diffusion architecture that accelerates autoregressive language-model inference by g…",
+      "score": 16
     },
     {
       "id": "95a809bc2b99",
@@ -51,23 +51,7 @@
       "url": "https://huggingface.co/papers/2609.15134",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Computer-use agents increasingly interact with browsers, terminals, file systems, and external services, introducing sa…",
-      "score": 9
-    },
-    {
-      "id": "1c42987a6248",
-      "title": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
-      "url": "https://huggingface.co/papers/2609.13814",
-      "publishedAt": "2026-09-12T00:00:00.000Z",
-      "summary": "Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken di…",
-      "score": 5
-    },
-    {
-      "id": "b67310e3657d",
-      "title": "When Agents Slow Down: Understanding LLM Agents' Test-Time Strategies via Elo-per-token Analysis",
-      "url": "https://huggingface.co/papers/2609.15309",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents allocate test-time compute adaptively as they revise solutions, use tools, explore al…",
-      "score": 5
+      "score": 11
     },
     {
       "id": "260eef848d8b",
@@ -75,34 +59,50 @@
       "url": "https://huggingface.co/papers/2609.12541",
       "publishedAt": "2026-09-11T00:00:00.000Z",
       "summary": "We demonstrate that a general-purpose agent can directly drive a physical robot throughout task execution without any t…",
-      "score": 4
+      "score": 5
     },
     {
-      "id": "ce2535d2c602",
-      "title": "Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training",
-      "url": "https://huggingface.co/papers/2609.15051",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Training prompts in online reinforcement learning (RL) differ substantially in how informative they are for the current…",
-      "score": 4
+      "id": "f992d19715e7",
+      "title": "Expert-Space Exploration in MoE Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2609.13058",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "Reinforcement learning (RL) has become central to post-training of large language models. Recent advances in RL for Mix…",
+      "score": 3
     },
     {
-      "id": "b51b0a1a4f5d",
-      "title": "Pick Your Poison: Learning to Select Poison Sets for Stronger LLM Backdoor Attacks",
-      "url": "https://huggingface.co/papers/2609.15029",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Backdoor poisoning attacks add poisoned examples to otherwise-clean finetuning data, pairing a trigger with a target be…",
+      "id": "313c9714f5fb",
+      "title": "MInTRL: Off-policy Intervention can boost On-policy RL",
+      "url": "https://huggingface.co/papers/2609.12419",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards is typically performed on-policy, keeping training data close to the cur…",
+      "score": 3
+    },
+    {
+      "id": "426c5431e7ec",
+      "title": "Building a Production Greek-English Speech Recognizer",
+      "url": "https://huggingface.co/papers/2609.13498",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "We report a multi-month engineering program to build Sophea, a production bilingual Greek-English automatic speech reco…",
+      "score": 3
+    },
+    {
+      "id": "193643b04b5e",
+      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
+      "url": "https://huggingface.co/papers/2609.13053",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "Visual goal and dynamics prediction can provide language-conditioned robot policies with both a target outcome and a re…",
       "score": 2
     },
     {
-      "id": "a8cafe27b0d0",
-      "title": "Enabling Creative Exploration for Vibe Design Agents",
-      "url": "https://huggingface.co/papers/2609.15078",
+      "id": "de95dbfebbb1",
+      "title": "ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs",
+      "url": "https://huggingface.co/papers/2609.15635",
       "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Vibe design agents turn natural-language briefs into rendered interfaces and frontend code. Yet a useful design agent s…",
-      "score": 1
+      "summary": "A radiology report can already answer a clinical question, so it is hard to tell whether a vision-language model also u…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-15T06:43:48.961Z",
+  "fetchedAt": "2026-09-15T12:11:01.619Z",
   "stale": false,
   "error": null
 }
