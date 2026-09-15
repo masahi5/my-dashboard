@@ -2,6 +2,15 @@
   "handle": "hardmaru",
   "tweets": [
     {
+      "id": "2099626748346331628",
+      "url": "https://x.com/SakanaAILabs/status/2099626748346331628",
+      "text": "アイリス株式会社様の医師向けエビデンス検索AI「Evidence Finder」に、当社の「Sakana Namazu」を導入いただきました。\n\nprtimes.jp/main/html/rd/p/00…\n\nSakana Namazu → sakana.ai/namazu/ 🐟",
+      "publishedAt": "2026-09-14T22:30:00.000Z",
+      "authorHandle": "SakanaAILabs",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2099468208231399687",
       "url": "https://x.com/SakanaAILabs/status/2099468208231399687",
       "text": "Introducing PC-ALM, a local-learning alternative to backpropagation.\n\nOur method trains 1000-layer neural nets using only local dynamics, and without backprop.\n\nBlog: pub.sakana.ai/pc-alm/\n\nStandard deep learning relies on backpropagation. The brain, however, cannot implement backpropagation, at least not exactly. How can a physical system, such as the brain, solve multilayer credit assignment without explicit use of backprop?\n\nWe look for inspiration in two related fields: distributed optimization and NeuroAI.\n\nIn NeuroAI, predictive coding asks each neuron activation to solve an energy-based inference problem instead of using a standard forward pass. That inference step can be implemented as energy-minimization dynamics on local prediction errors.\n\nThis perspective -- each layer as a dynamical system -- has proven promising, but performance of predictive coding hasn't scaled well with depth. Credit signals at far ends of the network struggle to diffuse into internal layers.\n\nWe turn to distributed optimization, generalizing predictive coding to use an augmented Lagrangian instead of energy. This motivation stems back to a classic 1988 paper by LeCun, showing that the Lagrange multipliers of a deep network can be identified with gradients of a supervised loss. The augmented Lagrangian then bridges LeCun's perspective to the standard predictive coding that is used in NeuroAI.\n\nWe find that this new perspective yields a natural PC-like alternative to backpropagation, resulting in a method we call PC-ALM. PC-ALM differs from PC in that it introduces dual neurons (Lagrange multipliers) as part of the layer-local dynamics, resulting in each layer acting as a PI feedback control system to minimize local prediction errors.\n\nWe find that PC-ALM is capable of propagating signals to seemingly arbitrary depth, especially in deep narrow networks where standard PC struggles to learn.\n\nUltimately, our motivation here is to understand how distributed physical systems, such as the brain, can compute credit signals using only local coupling and local dynamics.\n\nPC-ALM may also inform deep learning in neuromorphic hardware, where dynamics are cheaper than on GPUs.\n\nPaper: arxiv.org/abs/2605.31022\nCode: github.com/SakanaAI/pc-alm",
@@ -82,18 +91,9 @@
       "authorHandle": "itm_aiplus",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2098254319279808620",
-      "url": "https://x.com/NVIDIAJapan/status/2098254319279808620",
-      "text": "Sakana AI 社の最新 AI「Fugu Max」に、NVIDIA のオープンモデル「Nemotron」ファミリーが組み込まれています🐡✨オープンモデルの連携がもたらす革新的なパフォーマンス、ぜひ引用元のブログでチェックしてみてください👇",
-      "publishedAt": "2026-09-11T03:36:28.000Z",
-      "authorHandle": "NVIDIAJapan",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-09-14T23:17:28.702Z",
+  "fetchedAt": "2026-09-15T01:41:18.271Z",
   "stale": false,
   "error": null
 }

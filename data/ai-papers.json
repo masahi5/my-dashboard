@@ -6,20 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "3de077ee8b52",
-      "title": "DataFlex-RL: An Evaluation Platform for RLVR Data Policies",
-      "url": "https://huggingface.co/papers/2609.06107",
-      "publishedAt": "2026-09-05T00:00:00.000Z",
-      "summary": "Data policies for reinforcement learning with verifiable rewards (RLVR) determine which rollouts are used, how strongly…",
-      "score": 96
+      "id": "2c99f567f1a4",
+      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+      "url": "https://huggingface.co/papers/2609.11977",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation ac…",
+      "score": 24
     },
     {
-      "id": "1a2220444822",
-      "title": "Beyond Top-k Skill Retrieval: Diversity-Aware Skill Routing for LLM Agents",
-      "url": "https://huggingface.co/papers/2609.05824",
-      "publishedAt": "2026-09-05T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents increasingly rely on external skills, but routing user requests over large skill regi…",
-      "score": 5
+      "id": "ca9ddcf4c0c1",
+      "title": "ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs",
+      "url": "https://huggingface.co/papers/2609.10895",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "summary": "Reacting to sudden physical hazards (catching a slipping plate, dodging a falling knife) is both a meaningful test of e…",
+      "score": 19
     },
     {
       "id": "b217115cdfd6",
@@ -46,12 +46,12 @@
       "score": 3
     },
     {
-      "id": "9c99e3d88012",
-      "title": "ActionSplice: In-Flight Action Editing for Interactive World Models",
-      "url": "https://huggingface.co/papers/2609.08230",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "Chunk-autoregressive video world models typically condition each generated chunk on one action. An action received duri…",
-      "score": 3
+      "id": "d3236866f0ad",
+      "title": "Competence-Gated Pooling of Language Models and Priors for Event Forecasting",
+      "url": "https://huggingface.co/papers/2609.12101",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "In hybrid forecasting, a language model is often one of several available signals. A system may already have a market, …",
+      "score": 2
     },
     {
       "id": "61d1dfdfd686",
@@ -62,11 +62,27 @@
       "score": 2
     },
     {
-      "id": "d3236866f0ad",
-      "title": "Competence-Gated Pooling of Language Models and Priors for Event Forecasting",
-      "url": "https://huggingface.co/papers/2609.12101",
+      "id": "82914e5ef6d5",
+      "title": "ReMoMask-2: Latent Retrieval-Augmented Masked Motion Generation",
+      "url": "https://huggingface.co/papers/2609.08365",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "summary": "Text-to-motion (T2M) generation maps natural language to human joint movements, aiding gaming, VR, and robotics. Retrie…",
+      "score": 1
+    },
+    {
+      "id": "9a8eb07fe35e",
+      "title": "Pelican-Sim 1.0: A General World Model Simulator for Embodied Intelligence",
+      "url": "https://huggingface.co/papers/2609.12036",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "In hybrid forecasting, a language model is often one of several available signals. A system may already have a market, …",
+      "summary": "In this technical report, we propose Pelican-Sim 1.0, a general world model simulator for embodied intelligence that pr…",
+      "score": 1
+    },
+    {
+      "id": "4298b3af9d09",
+      "title": "Feature Recovery for Object Understanding After Irreversible Fire Damage",
+      "url": "https://huggingface.co/papers/2609.12078",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Objects in post-fire environments often undergo irreversible physical transformations that change their geometry, mater…",
       "score": 1
     },
     {
@@ -78,31 +94,15 @@
       "score": 1
     },
     {
-      "id": "a0074ed5794c",
-      "title": "Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech",
-      "url": "https://huggingface.co/papers/2609.03502",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inf…",
-      "score": 1
-    },
-    {
-      "id": "909b974cb426",
-      "title": "How Far Can Synthetic Data Take Thai OCR?",
-      "url": "https://huggingface.co/papers/2609.03595",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "We investigate what makes synthetic OCR supervision transfer to real Thai documents and use the resulting insights to b…",
-      "score": 1
-    },
-    {
-      "id": "4298b3af9d09",
-      "title": "Feature Recovery for Object Understanding After Irreversible Fire Damage",
-      "url": "https://huggingface.co/papers/2609.12078",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Objects in post-fire environments often undergo irreversible physical transformations that change their geometry, mater…",
+      "id": "cac53237dcba",
+      "title": "MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control",
+      "url": "https://huggingface.co/papers/2609.06251",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "Grounding natural-language instructions into reliable and executable actions remains a fundamental challenge for vision…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-14T23:17:06.036Z",
+  "fetchedAt": "2026-09-15T01:40:56.696Z",
   "stale": false,
   "error": null
 }

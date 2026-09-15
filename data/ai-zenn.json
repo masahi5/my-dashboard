@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "0a4f24348b34",
-      "title": "無人の claude -p に書込を閉じたつもりが、3つの見落としで開いていた",
-      "url": "https://zenn.dev/masamitsu_sera/articles/813bb4d7af1028",
-      "publishedAt": "2026-09-14T22:30:05.000Z",
-      "publisher": "瀬良 政光",
-      "summary": "無人で動かす claude -p のジョブに、書込先を決めたパターンの中だけに閉じたつもりで --allowed-tools \"Read,Write(//private/tmp/x/**)\" を渡していました。 配置前に権限を実測したら、…"
+      "id": "8bee38dc03b9",
+      "title": "SKILL.md を良くする技術。AIのブレをなくす。",
+      "url": "https://zenn.dev/knowledgesense/articles/9adf1e9b17ffd6",
+      "publishedAt": "2026-09-15T00:49:37.000Z",
+      "publisher": "Atsushi Kadowaki",
+      "summary": "本記事では、AIエージェントの動作を安定させるための新しい手法について、ざっくり理解します。 株式会社ナレッジセンスは、生成AIやRAGを使ったプロダクトを、エンタープライズ企業向けに開発しているスタートアップです。 この記事は何 この記…"
     },
     {
-      "id": "d9163f6f40a2",
-      "title": "「セキュリティ指摘があればAIがPRを止める」——Codexを作った本人の回のどれが伸びるか（#31 投稿前予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr31-sottiaux-prediction",
-      "publishedAt": "2026-09-14T22:21:45.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
+      "id": "f896ac0d2a5d",
+      "title": "88人がボタンを押したのに、LINEの友だちは1人も増えていなかった",
+      "url": "https://zenn.dev/hideki_tamae/articles/line-lp-cta-silent-outage",
+      "publishedAt": "2026-09-15T00:46:02.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに 88。 これが今回の数字です。直近13日間で、あるLPに実際に訪れたセッション数です。何の変哲もないアクセス数のように見えますが、この記事の本題は別の数字にあります。この88セッションに対して、実際にLINEの友だち追加につなが…"
     },
     {
-      "id": "d1b60cb4ac83",
-      "title": "常駐型AIチャットエージェントに送られる「添付ファイル」を安全に扱う設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-attachment-handling-design",
-      "publishedAt": "2026-09-14T21:14:03.000Z",
-      "publisher": "HACH",
-      "summary": "Slack / Teams / Chatworkに常駐するAIエージェントは、テキストの指示だけでなく、スクリーンショット・PDFの見積書・Excelの一覧表といった添付ファイルを日常的に受け取ります。テキスト入力に対するプロンプトインジ…"
+      "id": "4b8cb1f1f89e",
+      "title": "アナログ派のDB初心者が2日でDP900に受かった 赤シート×Claude勉強法",
+      "url": "https://zenn.dev/headwaters/articles/5b9dd2f4703d43",
+      "publishedAt": "2026-09-15T00:44:11.000Z",
+      "publisher": "しばふ",
+      "summary": "前談 AI分野の技術躍進すさまじく、デジタル化なんて当たり前のこのご時世、趣味で紙の辞書を引きつづけている者です。(子どもの頃からの習慣でかなり慣れているので、意外とウェブやAIでいちいち検索するより辞書引くほうが楽だったりします) もち…"
     },
     {
-      "id": "2bc14669380b",
-      "title": "値上げ交渉ロールプレイ、背景設定は「手強い相手」を入れ替えるだけだった",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-price-negotiation-roleplay-practice",
-      "publishedAt": "2026-09-14T21:07:38.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 1つのチャットに「持ち帰る」「条件を付ける」「他社と比較する」の3交渉相手を立て、値上げを伝える側として実際に返答セリフを送り、反応の変化を見る多役ロールプレイを検証した 各相手役に「守るもの（1行）」を足した詳細版と、名前と…"
+      "id": "10c1c9774c2c",
+      "title": "【AWS Bedrock】自分専用のネットワークでLLMと会話してみる",
+      "url": "https://zenn.dev/silver252/articles/6484ecefa6ebe6",
+      "publishedAt": "2026-09-15T00:37:04.000Z",
+      "publisher": "yuki",
+      "summary": "! この記事にはAWSアーキテクチャに関する話が出てきますが、「いや、そもそも社内ネットワークを作って（この場合は自分専用ネットワーク）その中にアプリもおいて作業すればよかったのでは？」と言ったそもそも論ツッコミポイントが複数あると思いま…"
     },
     {
-      "id": "6fb768503e28",
-      "title": "Shopifyの「スプリットブレイン」はファイル名の争いではない。ドリフトであり、標準ファイルを一つ決めても終わらない",
-      "url": "https://zenn.dev/untactit/articles/35da6c8c6aec59",
-      "publishedAt": "2026-09-14T19:14:44.000Z",
-      "publisher": "untactit",
-      "summary": "2026年8月25日、Shopify CEOのTobi Lütke氏は「AGENTS.mdと.agents/skillsを読むようになるまで、ShopifyでClaude Codeを禁止することを考えている」と投稿した。理由は好みではなく…"
+      "id": "daf154b57b79",
+      "title": "AIエージェントへの申し送りが「渡したつもり」で止まっていた話 ── 書く担当ではなく通す担当を直した",
+      "url": "https://zenn.dev/menmen_ailab/articles/82a101c18fbff6",
+      "publishedAt": "2026-09-15T00:36:44.000Z",
+      "publisher": "実践AI活用ラボ",
+      "summary": "前回の記事(AIエージェントに「社内用語禁止」を守らせる)の最後で、「複数のAIエージェントをまたいで運用しているときに起きた、渡したはずの申し送りが実は読まれていなかった話を書く」予定でした。今回はその話です。 何に困ったか 前回、担当…"
     },
     {
-      "id": "4ed9d5dc2ecb",
-      "title": "中学生でもわかる Lean 4 #01｜論破したら正しいの？",
-      "url": "https://zenn.dev/dantarg/articles/lean4-proof-vs-debate",
-      "publishedAt": "2026-09-14T15:56:32.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "友達との言い合いで、相手が黙った。 「よし、勝った。つまり自分が正しい」 ……本当にそうでしょうか。 前回の #00「『証明できた』って、どこまで本当？」では、最初に一つだけ問いを置きました。 何を確かめたの？ 今回は、その問いを「論破」…"
+      "id": "e67e1521b4d6",
+      "title": "Agentに実装を任せる前に、「ズレ」を見つける",
+      "url": "https://zenn.dev/hacobu/articles/8725d6ef879f4c",
+      "publishedAt": "2026-09-15T00:30:06.000Z",
+      "publisher": "dach",
+      "summary": "はじめに Claude Code や Codex などの Agent に、Task 単位で実装を任せることが増えてきました。 コードを書く速さだけを見れば、まず作ってもらって、PR を見ながら直すのは速いです。ですが、実装後に「そのロジッ…"
     },
     {
-      "id": "0d592ff18c4d",
-      "title": "Claude Codeに一人事業の「番頭」をやらせる：7つの運用ファイルとスキルの作り方",
-      "url": "https://zenn.dev/takuyaauto/articles/bc8f5ec9be3249",
-      "publishedAt": "2026-09-14T15:51:34.000Z",
-      "publisher": "たくやauto",
-      "summary": "Claude Code に一人で回している事業やサイドプロジェクトを手伝わせていると、同じところで何度もつまずきました。 毎回ゼロから始まる。何が公開済みで、何が止まっていて、どの判定日を過ぎたのかを Claude が知らない やめ時が来…"
+      "id": "d7bb5deba611",
+      "title": "会社全体を自律運営？話題のAIエージェント「Pion」とは何か",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-09-15-0023",
+      "publishedAt": "2026-09-15T00:23:39.000Z",
+      "publisher": "田中根小介",
+      "summary": "最近のAI技術の進化において、単にテキストを生成したりコードを補完したりするだけでなく、「AIエージェントが自律的に連携し、複雑な業務や組織運営をこなす」 というコンセプトが急速に現実味を帯びています。 今回は、Hacker Newsでも…"
     },
     {
-      "id": "bf814d5e2e33",
-      "title": "RAGを使わずClaude Haiku 4.5でFAQボットを作った理由",
-      "url": "https://zenn.dev/yukishiki/articles/eb4466e9a63457",
-      "publishedAt": "2026-09-14T15:39:39.000Z",
-      "publisher": "yukishiki",
-      "summary": "士業事務所向けの生成AI導入支援を想定して、FAQ自動応答チャットボットを作りました。結論から言うと、FAQが15件程度ならRAGは要りません。 システムプロンプトに全件を埋め込むだけで、精度もコストも十分でした。この記事では、RAGを選…"
+      "id": "9715a0b0991c",
+      "title": "複数AIを1つのオフィスに表示する──状態ファイルでCodex・Geminiを分離した設計",
+      "url": "https://zenn.dev/jinsights/articles/b193ef9a53b001",
+      "publishedAt": "2026-09-15T00:23:07.000Z",
+      "publisher": "Hiromitsu Jin@jaxia_nexus",
+      "summary": "JAXIAのAstra実践連載、第4回です。 今回は、複数のAIエージェントを1つの「AIオフィス」に表示するために試した、状態ブリッジの設計を整理します。 対象にしたのは、公開プロジェクトの agent-virtual-office で…"
     },
     {
-      "id": "dc59d68d7b0d",
-      "title": "仕様と実装を同じ言葉で書く ― 責務を機械的に突合し検証し続けるフロントエンド開発（要件定義〜実装・テスト）",
-      "url": "https://zenn.dev/2_daiki_ando/articles/53c34e071b5d69",
-      "publishedAt": "2026-09-14T15:27:39.000Z",
-      "publisher": "Ando",
-      "summary": "フロントエンドの仕様書と実装コードは、ふつう別の言葉で書かれています。つまり仕様は日本語のExcelやドキュメントで、実装はコードになっています。だから両者の突合は人力の目視になり、網羅性のチェックもレビューも属人化します（仕様はギリエン…"
+      "id": "77fa16f9eb0d",
+      "title": "ファジィ論理とは？曖昧さを扱う連続値の論理",
+      "url": "https://zenn.dev/h888s/articles/gtest-fuzzy-logic",
+      "publishedAt": "2026-09-15T00:19:44.000Z",
+      "publisher": "合格を、研究する。",
+      "summary": "「少し暑い」「かなり大きい」といった人間の感覚的な表現を、コンピュータはどう扱えばよいのでしょうか。G検定で問われるAIの歴史や手法の一つに、こうした曖昧さを数学的に扱うファジィ論理があります。本記事では、その定義と位置づけを整理します。…"
     },
     {
-      "id": "48ca3126623b",
-      "title": "RLHF における代理評価の最適化と客観的な正しさの乖離",
-      "url": "https://zenn.dev/id774/articles/629587874131bf",
-      "publishedAt": "2026-09-14T15:03:05.000Z",
-      "publisher": "Yasuhiro Nakayama",
-      "summary": "AI の出力を評価するとき、「評価が上がった」と「性能が上がった」は同じ意味に見えやすい。しかし、評価値をそのまま学習へ戻す場合、評価は単なる測定器ではなく、どの出力を増やすかを決める条件になる。 この違いは、プログラムを 2 個の単体テ…"
+      "id": "ee174666661b",
+      "title": "AIエージェントの長期記憶はどう作る？メモリ実装3方式を比較",
+      "url": "https://zenn.dev/appare/articles/jp-digest-20260807-ai-agent-long-term-memory",
+      "publishedAt": "2026-09-15T00:14:56.000Z",
+      "publisher": "田口天晴",
+      "summary": "AIエージェントを作ると、だいたい最初にぶつかるのが「セッションが変わると全部忘れる」問題ですよね。 2026年のいま、この解き方はかなり形になってきました。専用ベンチマークがあり、専用のOSS（オープンソースソフトウェア）があり、思想の…"
     },
     {
-      "id": "1c468d504048",
-      "title": "caffeinateは蓋閉じを防げない — AIエージェントを常駐VMに移した実測",
-      "url": "https://zenn.dev/yukibjj/articles/sente-fly-resident-vm-measured",
-      "publishedAt": "2026-09-14T15:02:56.000Z",
-      "publisher": "濱田優貴",
-      "summary": "! 筆者は teai.io を運営する株式会社イネブラの代表です。当事者の実装記録として読んでください。数値はすべて 2026-09-14 時点の本番環境での実測値です。 3行で 「Mac のふたを閉じてもエージェントを止めたくない」は、…"
+      "id": "9a163efca382",
+      "title": "LLM評価指標では見抜けない、推論が静かに壊れる4つの型",
+      "url": "https://zenn.dev/appare/articles/jp-digest-20260819-llm-reasoning-collapse",
+      "publishedAt": "2026-09-15T00:14:22.000Z",
+      "publisher": "田口天晴",
+      "summary": "モデル選定でベンチマークの順位表を見て、「こっちの方が0.8ポイント高いから、こっちでいこう」と決めた経験、ありませんか? もちろん、順位表は便利です。忙しいときの定食メニューみたいなもので、とりあえず見る場所としてはありがたいですよね。…"
     },
     {
-      "id": "345749293c95",
-      "title": "議事録作成が10分で終わる：無料AIプロンプト3本とTODO化の型",
-      "url": "https://zenn.dev/kachiyan/articles/gijiroku-ai-prompt-minutes-todo",
-      "publishedAt": "2026-09-14T14:45:51.000Z",
-      "publisher": "kachiyan",
-      "summary": "はじめに 会議後の議事録作成に30分以上かかっている人向けに、無料のChatGPT・Claude・Geminiにそのまま貼って使えるプロンプト3本をまとめました。登録不要、初期費用0円です。 結論：議事録は「録る→AIに構造化させる→人間…"
+      "id": "b5c64f1e2ad3",
+      "title": "MCPサーバーのツール設計 — AIに渡す「道具」の粒度と設計原則",
+      "url": "https://zenn.dev/yukihayama/articles/mcp-tool-design",
+      "publishedAt": "2026-09-15T00:01:54.000Z",
+      "publisher": "葉山悠希",
+      "summary": "MCPサーバーのツール設計 — AIに渡す「道具」の粒度と設計原則 MCPサーバーを一度動かせるようになると、次にぶつかるのは「どう設計するか」です。 ツールが増えすぎて、AIがどれを使うべきか迷っている気がする 1つのツールに機能を詰め…"
     }
   ],
-  "fetchedAt": "2026-09-14T23:17:06.511Z",
+  "fetchedAt": "2026-09-15T01:40:56.882Z",
   "stale": false,
   "error": null
 }
