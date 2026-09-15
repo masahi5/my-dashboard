@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
+      "id": "cc854dffe886",
+      "title": "「AIで人月が減るから成果報酬へ」は、そんなに簡単な話なのか",
+      "url": "https://zenn.dev/acntechjp/articles/5ce36bb1e0a73c",
+      "publishedAt": "2026-09-15T14:00:05.000Z",
+      "publisher": "kaito.abe",
+      "summary": "人月から成果報酬へという潮流 生成AIが普及すると、SIerのビジネスモデルも変わる。最近、そんな話をよく聞く。 これまで10人でやっていた仕事が、AIを使えば5人でできる。ところがSIerは、人を何人出したか、何か月働いたかという「人月…"
+    },
+    {
+      "id": "cd33e5a7414e",
+      "title": "AIにPythonのルールを守らせるフック構成と、迂回への対策",
+      "url": "https://zenn.dev/fukaunabara/articles/my-hook-settings",
+      "publishedAt": "2026-09-15T13:28:56.000Z",
+      "publisher": "Takeshi Saito",
+      "summary": "はじめに AIでちょっとしたミニアプリを書く程度なら、敷居はずいぶん低くなりました。ただ、依然として会社で使う業務用のアプリをAIに書かせるのは、ハードルが高いと感じていないでしょうか。 例えば、私は社内向けのツールを提供する立場で、セマ…"
+    },
+    {
+      "id": "c4d5035767be",
+      "title": "生成 AI が書いたコードが壊れるときの典型 3 パターン——自分のリポで踏んだ実例と、見つけ方",
+      "url": "https://zenn.dev/tauridev/articles/ai-code-breaks-3-patterns",
+      "publishedAt": "2026-09-15T13:17:15.000Z",
+      "publisher": "Sumitsuke",
+      "summary": "生成 AI に書かせたコードは、どこで壊れるのか。症状の一覧ではなく、自分のリポジトリ（Rust／Tauri のデスクトップアプリ・クローズドβ・ソロ開発）で実際に踏んで直した 3 件を、PR と commit の番号つきで書きます。ロー…"
+    },
+    {
+      "id": "32576e91bc42",
+      "title": "【10%割引リンクあり】Raycast料金改定まとめ AIクレジット制でPro/Pro+/Maxはどう選ぶべきか\"",
+      "url": "https://zenn.dev/studysun/articles/a42249f0d75de6",
+      "publishedAt": "2026-09-15T13:10:02.000Z",
+      "publisher": "StudySun",
+      "summary": "! この記事にはRaycastの紹介リンクが含まれます。 リンクから登録すると 有料プランが10%割引 になります。 10%オフになる紹介リンク 下のリンクからRaycast Proに登録すると、初回請求時に10%オフになります。 htt…"
+    },
+    {
+      "id": "df363a9823d2",
+      "title": "AIに世界を認識させるのをやめて、世界を書かせた話",
+      "url": "https://zenn.dev/icbs/articles/d0f2d9ce818877",
+      "publishedAt": "2026-09-15T12:57:51.000Z",
+      "publisher": "ソラ",
+      "summary": "注：この記事は、Claude Opus5が書いたものです。 0. はじめに AIに複雑なものを扱わせようとすると、どこかで必ず「そもそも分かっていないが、分かっているふりをする」という壁に当たる。より賢いモデルを利用する、という解決策がよ…"
+    },
+    {
+      "id": "26dfb72760fc",
+      "title": "Frontend Conference Fukuoka 2026で学んだこと",
+      "url": "https://zenn.dev/kishimin/articles/a76b2d0a4a2361",
+      "publishedAt": "2026-09-15T12:50:46.000Z",
+      "publisher": "kishimin",
+      "summary": "はじめに Frontend Conference Fukuoka 2026に参加しました。 学びを忘れないように、印象に残った内容を記録します。 杜甫々が語るフロントエンド開発技術の歴史と今後 杜甫々さんが、Web技術の変化を振り返るセッ…"
+    },
+    {
+      "id": "c8af28dce8a8",
+      "title": "バイブコーディングで GUI が壊れていく理由とその対策プロンプト",
+      "url": "https://zenn.dev/nrs/articles/9ba91aea587bf5",
+      "publishedAt": "2026-09-15T12:37:56.000Z",
+      "publisher": "nrs",
+      "summary": "TLDL AIに常駐アプリの画面を作らせる際は以下の指示を出します。 この指示をそのまま伝えてみてください。 すべてのコンポーネントを Root の配下に置き、各コンポーネントは MVP パターンの Passive View として描画に…"
+    },
+    {
+      "id": "f3e5471c11de",
+      "title": "【サプライチェーン】その MCP サーバー、誰が作ったか知っていますか",
+      "url": "https://zenn.dev/ykbone/articles/202609-security-supply-chain",
+      "publishedAt": "2026-09-15T12:28:49.000Z",
+      "publisher": "ykbone",
+      "summary": "はじめに AIエディタにMCPサーバーを追加するとき、READMEに書いてある設定をそのまま貼り付けたことはありませんか。 { \"mcpServers\": { \"postmark\": { \"command\": \"npx\", \"args\":…"
+    },
+    {
+      "id": "27a20d1423e3",
+      "title": "読まない技術 第9回：引き継ぎを読まない技術",
+      "url": "https://zenn.dev/garplab/articles/a43b57a94d2216",
+      "publishedAt": "2026-09-15T11:37:26.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「読まない技術」の第 9 回です。各回はファイルやスクリプトを一つ置けば完結します。連載の全体像と各回の一覧は序論にあります。 今回は、AI が書く引き継ぎ文と完了報告の話です。⚠️ 引き継ぎは書いた側の要約で、都合の悪い…"
+    },
+    {
+      "id": "1ab16953d84e",
+      "title": "Developers Summit 2026 Fukuokaで学んだこと",
+      "url": "https://zenn.dev/kishimin/articles/6f7a24080280e5",
+      "publishedAt": "2026-09-15T11:34:25.000Z",
+      "publisher": "kishimin",
+      "summary": "はじめに Developers Summit 2026 Fukuokaに参加しました。 学びを忘れないように、印象に残った内容を記録します。 2026年後半のAIエージェント構築とこれから AIを優秀な部下として使うと良いとのことでした。…"
+    },
+    {
+      "id": "405065bb64ab",
+      "title": "Next.jsはAI時代に向けて積極的に進化しているフレームワークなのかもしれない",
+      "url": "https://zenn.dev/hey_miii/articles/32f0dc73eafffa",
+      "publishedAt": "2026-09-15T11:29:11.000Z",
+      "publisher": "miii",
+      "summary": "Next.js叩かれすぎでは？ 最近のSNSを見ていて、Next.jsが一部のエンジニアから叩かれているのを見ていて、個人的になぜ？と思うことがあったので、私個人のNext.jsへの印象を記事にしてみました。 私のNext.jsへの印象は…"
+    },
+    {
       "id": "57d258ce98f5",
       "title": "AIワークフローを作る前に試したい「小さな検証」",
       "url": "https://zenn.dev/aiai_tool/articles/bcd734677d4939",
       "publishedAt": "2026-09-15T10:21:03.000Z",
       "publisher": "AIAI｜AI Tools & Workflows",
       "summary": "生成AIを業務に取り入れるとき、最初から大きな自動化フローを作る必要はありません。 むしろ、最初は小さなタスクで検証した方が、そのAIツールが本当に仕事に役立つのか判断しやすくなります。 この記事では、AIツールを本格導入する前に行いたい…"
-    },
-    {
-      "id": "04268e027256",
-      "title": "VS Code+ターミナルからCodex Appに乗り換えた話",
-      "url": "https://zenn.dev/explaza/articles/c498ffdac80dbd",
-      "publishedAt": "2026-09-15T09:56:09.000Z",
-      "publisher": "hw0409",
-      "summary": "はじめに 2ヶ月程前に、開発のメイン環境をVS Code + ターミナルからCodex App（ChatGPT App）に移しました。 普段は実装だけでなく、設計の相談や不具合の調査もAIと進めています。チャットで一日中やり取りすることも…"
-    },
-    {
-      "id": "04cb9c1065d1",
-      "title": "ブラウザ動画トリミングUIを状態遷移で考える",
-      "url": "https://zenn.dev/clare23/articles/10ebd03edc6e8d",
-      "publishedAt": "2026-09-15T09:40:56.000Z",
-      "publisher": "クレア",
-      "summary": "この記事は公開UIから組み立てた設計メモです。内部実装、ファイル処理の詳細、性能、ネットワーク動作を観測したものではありません。 問題を「範囲選択」として分離する トリミングの中心は、メディア本体ではなく開始点と終了点の整合性です。公開 …"
-    },
-    {
-      "id": "513b9088d967",
-      "title": "Claude Code を複数同時に動かすなら、CLAUDE.md にこの2つを貼っておく",
-      "url": "https://zenn.dev/tomatomerde/articles/semantic-conflicts-outside-code",
-      "publishedAt": "2026-09-15T09:34:16.000Z",
-      "publisher": "おニーチェん",
-      "summary": "自分でコードを書くというより、エージェントに指示を出して回している人向けです。私自身がそうで、Claude Code を端末2つで同時に動かしていました。作業するフォルダはエージェントごとに分けてあるので（git worktree。1つの…"
-    },
-    {
-      "id": "f990303a7be5",
-      "title": "1日の開発の流れをスキル化してみたら、想像以上に快適だった",
-      "url": "https://zenn.dev/tenkei/articles/9f8921926bb003",
-      "publishedAt": "2026-09-15T09:15:12.000Z",
-      "publisher": "Tenkei",
-      "summary": "概要 ここ最近、すっかり同じような流れで開発をしている。 ざっくり書くと、以下のようになる。 GithubのIssueを取る → AIに設計と実装を任せる → 別のAIにレビューしてもらう → 動作確認してもらう → Pull Reque…"
-    },
-    {
-      "id": "62902df5dc15",
-      "title": "Scribe v2 / Gemini 3.5 Transcribe / MAI-Transcribe-2 を日本語音源で実測比較してみた",
-      "url": "https://zenn.dev/minedia/articles/c23bcd82102c8e",
-      "publishedAt": "2026-09-15T09:00:06.000Z",
-      "publisher": "yu_yu_yu",
-      "summary": "3秒まとめ 📝 新顔 2 つ（Gemini 3.5 Transcribe / MAI-Transcribe-2）を ElevenLabs Scribe v2 と並べ、日本語 5 分の同一音源で実測 大意はどれも掴める（一致率 81〜86…"
-    },
-    {
-      "id": "bc5d11689437",
-      "title": "Claude Codeで実行してほしくないコマンドには代替手段を伝える",
-      "url": "https://zenn.dev/labee/articles/7c97be78c6afa7",
-      "publishedAt": "2026-09-15T08:00:06.000Z",
-      "publisher": "K@zuki.",
-      "summary": "こんにちは、K@zukiです。 Claude Codeに作業を任せていると、permissions.denyなどで禁止しているコマンドに当たった後、別の書き方を試してまた止まったり、「ユーザーに拒否された」と報告して作業そのものをやめたり…"
-    },
-    {
-      "id": "8d039ecbddd6",
-      "title": "AI Agentを用いたペネトレーションテストツールのクラウド適用例",
-      "url": "https://zenn.dev/nttdata_tech/articles/4f3e6dc2885ddd",
-      "publishedAt": "2026-09-15T07:37:22.000Z",
-      "publisher": "koshinwt",
-      "summary": "前置き AIで簡易なペネトレーションテストをする場合、基盤がAWS（Amazon Web Services）ならAWS Security Agent（現在はAWS Continuumの一部）が楽ですが、他クラウドを利用しているケースや、す…"
-    },
-    {
-      "id": "ac2fd633782f",
-      "title": "何をAIに任せ、何を人間に残すか？ - 私たちの開発現場のAIとの役割分担",
-      "url": "https://zenn.dev/muit_techblog/articles/709bc76c2aed94",
-      "publishedAt": "2026-09-15T07:26:40.000Z",
-      "publisher": "やまだ",
-      "summary": "はじめに 筆者は、Web・スマートフォンアプリケーションを開発する現場にて、AI活用を担当しています。 昨今、LLMやAI活用のためのツールの発展が目覚ましく、特にシステム開発の文脈ではここ数年で活用の幅が大きく広がっています。 数年前は…"
-    },
-    {
-      "id": "1c680ae8e09c",
-      "title": "今話題の SkillSpector で agent skills の安全性をチェックしてみた",
-      "url": "https://zenn.dev/gemcook/articles/try-skillspector-agent-skills-security",
-      "publishedAt": "2026-09-15T07:03:27.000Z",
-      "publisher": "あさひ",
-      "summary": "はじめに Agent Skill が共有されるようになって、他の人が公開している skill で「これ良さそう」と思うものを見かけることが増えました。ただ、実際に試そうとすると、セキュリティ的に問題ないかどうかの不安は残ります。 そこで …"
-    },
-    {
-      "id": "b7909d5bbc61",
-      "title": "「怖い」は、AIに任せすぎているサインだった",
-      "url": "https://zenn.dev/tokium_dev/articles/fear-means-delegating-too-much",
-      "publishedAt": "2026-09-15T06:37:06.000Z",
-      "publisher": "kr",
-      "summary": "どこまでAIに任せていいのか AIで開発を自動化した、という話をよく見かけるようになりました。 有名な例では、OpenAIはCodexを使い、5か月で約100万行のコード、約1,500件のプルリクエストという驚異的なペースで新規プロダクト…"
-    },
-    {
-      "id": "f83ec69d6617",
-      "title": "Superpowersを試してみた：AI開発フレームワークを活用した設計から実装まで",
-      "url": "https://zenn.dev/aiforall/articles/100196c8e50a20",
-      "publishedAt": "2026-09-15T06:33:10.000Z",
-      "publisher": "GamiSan",
-      "summary": "AIにアプリを作ってもらうとき、いきなりコード生成を依頼すると意図しないコードが生成されがちです。そうなることを防ぐために、作りたいアプリの要件を整理したり、設計をしてからコード生成をしてもらうことで、意図したコードを生成してくれるように…"
     }
   ],
-  "fetchedAt": "2026-09-15T20:05:27.345Z",
+  "fetchedAt": "2026-09-15T22:53:21.723Z",
   "stale": false,
   "error": null
 }
