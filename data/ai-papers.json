@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.13285",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "summary": "The KV cache is a primary bottleneck for Transformer decoding: its memory footprint and cache-read traffic grow with se…",
-      "score": 57
+      "score": 58
     },
     {
       "id": "efe90e6b2abd",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.15863",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without gua…",
-      "score": 43
+      "score": 44
     },
     {
       "id": "026bdbef832d",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.15504",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Orthrus is a hybrid autoregressive-diffusion architecture that accelerates autoregressive language-model inference by g…",
-      "score": 21
+      "score": 23
     },
     {
       "id": "313c9714f5fb",
@@ -35,6 +35,14 @@
       "url": "https://huggingface.co/papers/2609.12419",
       "publishedAt": "2026-09-11T00:00:00.000Z",
       "summary": "Reinforcement learning with verifiable rewards is typically performed on-policy, keeping training data close to the cur…",
+      "score": 6
+    },
+    {
+      "id": "193643b04b5e",
+      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
+      "url": "https://huggingface.co/papers/2609.13053",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "Visual goal and dynamics prediction can provide language-conditioned robot policies with both a target outcome and a re…",
       "score": 5
     },
     {
@@ -43,23 +51,7 @@
       "url": "https://huggingface.co/papers/2609.13058",
       "publishedAt": "2026-09-11T00:00:00.000Z",
       "summary": "Reinforcement learning (RL) has become central to post-training of large language models. Recent advances in RL for Mix…",
-      "score": 4
-    },
-    {
-      "id": "193643b04b5e",
-      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
-      "url": "https://huggingface.co/papers/2609.13053",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "Visual goal and dynamics prediction can provide language-conditioned robot policies with both a target outcome and a re…",
-      "score": 3
-    },
-    {
-      "id": "426c5431e7ec",
-      "title": "Building a Production Greek-English Speech Recognizer",
-      "url": "https://huggingface.co/papers/2609.13498",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "We report a multi-month engineering program to build Sophea, a production bilingual Greek-English automatic speech reco…",
-      "score": 3
+      "score": 5
     },
     {
       "id": "e38c19cb37c6",
@@ -70,19 +62,35 @@
       "score": 2
     },
     {
-      "id": "94c8f4358e22",
-      "title": "E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning",
-      "url": "https://huggingface.co/papers/2609.14302",
-      "publishedAt": "2026-09-13T00:00:00.000Z",
-      "summary": "Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucin…",
-      "score": 1
-    },
-    {
       "id": "428f070bc59b",
       "title": "Learning Sparse Decision Trees via Transformer Variational Auto-Encoders",
       "url": "https://huggingface.co/papers/2609.01430",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "summary": "Decision trees are among the most widely used models in machine learning, largely due to their transparent decision log…",
+      "score": 2
+    },
+    {
+      "id": "8c3ca44cf39a",
+      "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+      "url": "https://huggingface.co/papers/2609.13443",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "We demonstrate that training LLMs with RL does not improve performance equally across a dataset. RL shows large improve…",
+      "score": 1
+    },
+    {
+      "id": "0ed0f040a1a0",
+      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+      "url": "https://huggingface.co/papers/2609.13463",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within …",
+      "score": 1
+    },
+    {
+      "id": "94c8f4358e22",
+      "title": "E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning",
+      "url": "https://huggingface.co/papers/2609.14302",
+      "publishedAt": "2026-09-13T00:00:00.000Z",
+      "summary": "Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucin…",
       "score": 1
     },
     {
@@ -92,17 +100,9 @@
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "A radiology report can already answer a clinical question, so it is hard to tell whether a vision-language model also u…",
       "score": 1
-    },
-    {
-      "id": "0ed0f040a1a0",
-      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
-      "url": "https://huggingface.co/papers/2609.13463",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within …",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-15T16:58:52.505Z",
+  "fetchedAt": "2026-09-15T20:05:27.270Z",
   "stale": false,
   "error": null
 }
