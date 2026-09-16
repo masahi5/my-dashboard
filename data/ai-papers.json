@@ -6,20 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "05ed75b5e905",
-      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
-      "url": "https://huggingface.co/papers/2609.11873",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improv…",
-      "score": 85
-    },
-    {
       "id": "c268d819dc53",
       "title": "StepAudio 3 Realtime Technical Report",
       "url": "https://huggingface.co/papers/2609.14005",
       "publishedAt": "2026-09-12T00:00:00.000Z",
       "summary": "Realtime spoken interaction demands deep reasoning, prompt responses, and fluid turn-taking. We present StepAudio 3 Rea…",
-      "score": 32
+      "score": 90
+    },
+    {
+      "id": "05ed75b5e905",
+      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+      "url": "https://huggingface.co/papers/2609.11873",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improv…",
+      "score": 86
     },
     {
       "id": "2506a78b7306",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.16034",
       "publishedAt": "2026-09-11T00:00:00.000Z",
       "summary": "We introduce StepAudio 3 Music, a large-scale, long-form music generation model that supports explicit musical planning…",
-      "score": 22
+      "score": 69
     },
     {
       "id": "772c4e442e93",
@@ -35,7 +35,15 @@
       "url": "https://huggingface.co/papers/2609.15195",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Embodied navigation requires agents to interpret visual observations, accumulate spatial knowledge, and execute actions…",
-      "score": 10
+      "score": 14
+    },
+    {
+      "id": "6c224d10a96f",
+      "title": "Another Blueprint In The Wall: How to Ask Frontier AI Like a Kid?",
+      "url": "https://huggingface.co/papers/2609.14803",
+      "publishedAt": "2026-09-13T00:00:00.000Z",
+      "summary": "This paper reports experiments across six frontier model types from OpenAI, Anthropic, xAI, and Google DeepMind. Ten in…",
+      "score": 6
     },
     {
       "id": "70aab54d04ea",
@@ -44,14 +52,6 @@
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, ena…",
       "score": 5
-    },
-    {
-      "id": "6c224d10a96f",
-      "title": "Another Blueprint In The Wall: How to Ask Frontier AI Like a Kid?",
-      "url": "https://huggingface.co/papers/2609.14803",
-      "publishedAt": "2026-09-13T00:00:00.000Z",
-      "summary": "This paper reports experiments across six frontier model types from OpenAI, Anthropic, xAI, and Google DeepMind. Ten in…",
-      "score": 4
     },
     {
       "id": "36aab95546e4",
@@ -70,12 +70,20 @@
       "score": 3
     },
     {
+      "id": "ee02a1d5a921",
+      "title": "ImpossibleRubrics: Stress-Testing Generated Rubrics as Reward Signals",
+      "url": "https://huggingface.co/papers/2609.16816",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "Language model-generated rubrics are increasingly used as reward signals for rubric-based reinforcement learning, LLM-a…",
+      "score": 2
+    },
+    {
       "id": "369995742622",
       "title": "Convergent Emergence of In-Context Learning Across Modalities",
       "url": "https://huggingface.co/papers/2609.14011",
       "publishedAt": "2026-09-12T00:00:00.000Z",
       "summary": "Few-shot in-context learning (ICL), the capacity of a model to infer abstract patterns from input-output examples provi…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "9c4a7c0327b4",
@@ -83,7 +91,7 @@
       "url": "https://huggingface.co/papers/2609.16204",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Safety guardrails in open-weight language models can be readily bypassed using Refusal Feature Ablation (RFA), a techni…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "7f4263b9ede1",
@@ -91,18 +99,10 @@
       "url": "https://huggingface.co/papers/2609.17320",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "summary": "As AI agents move from bounded tasks to persistent deployments, failures can propagate through memory, tools, other age…",
-      "score": 1
-    },
-    {
-      "id": "2c8b3b9b5215",
-      "title": "Drift-Constrained Optimization: Only Direction Matters in Fine-Tuning Instruct Models",
-      "url": "https://huggingface.co/papers/2609.13680",
-      "publishedAt": "2026-09-12T00:00:00.000Z",
-      "summary": "Fine-tuning instruct models often improves target performance while inducing behavioral drift from the reference model,…",
-      "score": 1
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-09-16T11:22:33.043Z",
+  "fetchedAt": "2026-09-16T15:28:54.272Z",
   "stale": false,
   "error": null
 }
