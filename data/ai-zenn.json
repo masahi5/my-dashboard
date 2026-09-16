@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "b24f2332bea3",
-      "title": "AIに”誓わせる”のをやめて、権限を奪った話",
-      "url": "https://zenn.dev/yskms/articles/cbba4a752a9f07",
-      "publishedAt": "2026-09-15T22:48:05.000Z",
-      "publisher": "yskms",
-      "summary": "はじめに Claude CodeにExpo/EASまわりの作業を任せています。 「勝手にビルドするな、必ず確認してから実行しろ」と何度も指示していたのですが、ちょいちょいその指示をすり抜けてEASビルドを実行されることが続いていました。 …"
+      "id": "cfbff8dd8ece",
+      "title": "My Favorite Line Didn't Belong in the Chorus",
+      "url": "https://zenn.dev/danielmateo773/articles/31400ee3608774",
+      "publishedAt": "2026-09-16T01:55:33.000Z",
+      "publisher": "danielmateo773",
+      "summary": "There was one line in the lyrics I didn't want to lose. We kept the porch light on for all the roads we never took. Whe…"
     },
     {
-      "id": "332b31e41cf7",
-      "title": "中学生でもわかる Lean 4 #02｜君はもう証明をやっている",
-      "url": "https://zenn.dev/dantarg/articles/lean4-you-already-prove",
-      "publishedAt": "2026-09-15T22:38:35.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "「証明」と聞くと、急に難しそうに感じませんか。 長い数式を書いて、頭のいい人だけが分かるもの。 私も、そんな印象を持っていました。 でも、中学校の数学を思い出すと、少し景色が変わります。 たとえば、 x = 3 です。では、x + 2 は…"
+      "id": "0f46220df95b",
+      "title": "GAS×AI実践 — スプレッドシートでChatGPT・Claude・Geminiを比較する",
+      "url": "https://zenn.dev/yukihayama/articles/gas-ai-workflow",
+      "publishedAt": "2026-09-16T01:01:44.000Z",
+      "publisher": "葉山悠希",
+      "summary": "GAS×AI実践 — スプレッドシートでChatGPT・Claude・Geminiを比較する Google Apps Script（GAS）は、Googleのサーバー上で動く無料の実行環境です。そして UrlFetchApp を使えば、外…"
     },
     {
-      "id": "3e958a322d95",
-      "title": "AI生成ドキュメントを読みたくない理由とエンジニアの対策",
-      "url": "https://zenn.dev/sunsun_eng/articles/ai-generated-docs-not-read",
-      "publishedAt": "2026-09-15T22:30:21.000Z",
-      "publisher": "すんすん",
-      "summary": "AI生成ドキュメントを読みたくない理由とエンジニアの対策 この記事の要点 生成AIが書いたドキュメントが読まれない主な原因は、情報密度が低く独自の判断が見えない点にあります。 対策は「AIに丸投げしない」ことで、要約の強制・具体例の指定・…"
+      "id": "246ca37d8ae7",
+      "title": "セキュリティ指摘があればAIがPRを止める——Codexを作った本人が語るレビュー・出荷・保守の現在地",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr31-sottiaux-summary",
+      "publishedAt": "2026-09-16T01:00:12.000Z",
+      "publisher": "管理人K",
+      "summary": "! 本記事は The Pragmatic Engineer の公開動画を紹介・論評する目的で、筆者が要点を抽出しコメントを加えたものです。翻訳全文ではなく、動画の網羅や代替を意図したものでもありません。発言の意図は元動画でご確認ください。…"
     },
     {
-      "id": "fb152b92a759",
-      "title": "Claude Code と Codex CLI、同じことをするコマンドの対応表（--help から起こした）",
-      "url": "https://zenn.dev/ritsuhayase/articles/5e98c3297f4573",
-      "publishedAt": "2026-09-15T22:21:11.000Z",
-      "publisher": "早瀬 律",
-      "summary": "Claude Code と Codex CLI を行き来していると、「あれ、こっちではどう書くんだっけ」で手が止まります。 覚えるのをやめて、両方の --help を同じ日に採って並べました。 この記事の表は、その出力に載っている文言だけ…"
+      "id": "d31d761b6ad3",
+      "title": "AIで採用スクリーニングする前に — 個人情報を守る匿名化前処理パイプライン",
+      "url": "https://zenn.dev/stock_inc/articles/anonymization-pipeline-before-ai-screening",
+      "publishedAt": "2026-09-16T01:00:07.000Z",
+      "publisher": "株式会社Stock 武田 峻一",
+      "summary": "個人情報を含む文書をLLMに渡す場面は増えていますが、「匿名化しています」と言うだけでは意味がありません。具体的にどう名前を検出し、どう置換し、どうやって生データを手元から出さないか——この記事は、その仕組みそのものを解説します。題材は応…"
     },
     {
-      "id": "fd06955934a1",
-      "title": "プライマー設計・温度条件・比色判定——LAMP検査パイプラインの入口から出口まで、AIが入り込んできた話",
-      "url": "https://zenn.dev/taichiendoh/articles/lamp-ai-pipeline-design-to-readout",
-      "publishedAt": "2026-09-15T22:15:13.000Z",
-      "publisher": "遠藤太一",
-      "summary": "2026年8月、LAMP法（Loop-Mediated Isothermal Amplification＝等温増幅法。一定の温度を保つだけで遺伝子を増幅でき、PCRのような温度を上下させる専用機材が不要な検査手法）の判定を、AIで完全自動…"
+      "id": "318816fb3fb3",
+      "title": "BigQueryサービスのAI機能・関数まとめ②[検証編](2026/07)",
+      "url": "https://zenn.dev/everrise_blog/articles/bigquery_ai_verify",
+      "publishedAt": "2026-09-16T01:00:07.000Z",
+      "publisher": "EVERRISE",
+      "summary": "想定読者: BigQuery 上でモデル作成から生成AIによる分析までのフローを実際に試したい方です。 BigQuery の AI 機能・関数の一覧と概要は、別記事「BigQueryサービスのAI機能・関数まとめ①[整理編](2026/0…"
     },
     {
-      "id": "bc2f1964485f",
-      "title": "タスクの優先順位付けLLMは、情報が足りなくても質問せず推測で埋めて自信満々に答える",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-task-priority-3-conditions",
-      "publishedAt": "2026-09-15T21:08:41.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR タスク名だけを渡す「情報不足」条件と、締切・所要時間・依存関係（誰を待たせるか）を明示した「情報充足」条件で、同じ7件のタスクを優先順位付けさせて比較した 情報不足条件でも、LLMは確認質問を返さず、所要時間や緊急度を推測で埋…"
+      "id": "68d9b1b23f1d",
+      "title": "【今がチャンス】「世界向けサービスはブルーオーシャン」Claude Code で実現する世界向け開発の教科書",
+      "url": "https://zenn.dev/stepeee/articles/2ca4a20ea55f86",
+      "publishedAt": "2026-09-16T00:11:28.000Z",
+      "publisher": "すてぴん",
+      "summary": "バイブコーディング(AI駆動開発)が主流となった昨今、サービスの作り方は大きく変わりました。 私はこの1年間、1日12時間、Claude Codeエージェントを常時3〜8並列で稼働させ、1人で「Stepeee（ステピー）」という36言語対…"
     },
     {
-      "id": "266c02926627",
-      "title": "思考モードの設定はAI自身に聞いても分からない、3社のreasoning effort実装を比較する",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-slow-reply-thinking-mode-check",
-      "publishedAt": "2026-09-15T21:08:40.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR ChatGPT・Claude・Geminiの3社とも「答える前にどれだけ考えるか」を選べるreasoning effort設定を持つが、実装は微妙に異なる。ChatGPTはInstant/Medium/High/Extra H…"
+      "id": "46a5b4c4aef4",
+      "title": "AIに考えることを任せすぎていないか",
+      "url": "https://zenn.dev/okssusucha/articles/20260720-offloading-thinking-to-ai",
+      "publishedAt": "2026-09-16T00:11:27.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "AIに「考えること」を任せすぎていないか、という問い AIに仕事を任せる場面が日常になった。要約、下調べ、コードのたたき台、意思決定の相談まで、頼めばそれらしい答えが返ってくる。生産性は確かに上がる。ではその見返りに、私たちは何を手放して…"
     },
     {
-      "id": "b6c3dfa9cd0b",
-      "title": "Claude Code が「決めたこと」を忘れない：完全ローカル・API キー不要のエージェント記憶レイヤー myc",
-      "url": "https://zenn.dev/vitaly_iva/articles/myc-local-memory-for-coding-agents",
-      "publishedAt": "2026-09-15T19:34:22.000Z",
-      "publisher": "Vitaly Ivasenko",
-      "summary": "Claude Code や Codex を 1 時間以上使うと、ほぼ必ず起きること。最初に「A 案で行く、B 案は理由 C で却下」と決めたのに、コンテキストが圧縮された後、エージェントが平然と B 案を提案してくる。理由はもう彼のコンテ…"
+      "id": "fb54440abbad",
+      "title": "うちのPCには何が住んでいて、何を頼めるのか — 自宅ローカルAI環境の全部見せ(実データ)",
+      "url": "https://zenn.dev/sikada/articles/devstory-home-ai-tour",
+      "publishedAt": "2026-09-16T00:00:10.000Z",
+      "publisher": "コードを書かない鹿田さん",
+      "summary": "自宅AI環境シリーズを8本書いたところで、読み返して気づきました。全体像を一度も見せていません。 Cドライブが溢れた話や、AIが嘘の路線を案内した話はしましたが、そもそもこの家のPCには何が入っていて、何を頼めるのか。今回はそれを、構成図…"
     },
     {
-      "id": "fc23eda492fc",
-      "title": "AI駆動開発では、実装の前に「a × b」を設計する",
-      "url": "https://zenn.dev/nenene01/articles/ai-development-readiness-a-times-b",
-      "publishedAt": "2026-09-15T15:48:18.000Z",
-      "publisher": "ねねね",
-      "summary": "生成AIを開発に導入すると、コードを書く速度は大きく上がります。 Coding AgentにIssueを渡せば実装し、テストを書き、修正まで進めてくれる。 しかし、実際の開発で重要なのは、 「AIがコードを書けるか」ではなく、「チームとし…"
+      "id": "30b3dabd8b44",
+      "title": "Claude Codeで「誤答だけの問題集」を作ってDatabricks DEAに合格した話",
+      "url": "https://zenn.dev/imikami/articles/770b07afb4932d",
+      "publishedAt": "2026-09-15T23:44:15.000Z",
+      "publisher": "tsumiki",
+      "summary": "2026年9月、Databricks Certified Data Engineer Associate（日本語版）に合格しました。 いちばん効いたのは、模試で間違えた論点をClaude Codeに渡して、自分専用の問題集を作ってもらった…"
     },
     {
-      "id": "477a2f015392",
-      "title": "AIエージェントの評価方法（AgentOps）を設計する時に調べた事と得られた知見",
-      "url": "https://zenn.dev/yymm/articles/20260915-agent-ops",
-      "publishedAt": "2026-09-15T15:01:47.000Z",
-      "publisher": "kouki_y",
-      "summary": "初めに どうも、某自社開発系の会社でエンジニアをしている者です。 私は去年の年末ごろ、業務の方でAIエージェントが絡んだ機能の開発を担当していました。 その際、AIエージェントの運用設計（AgentOps）、特にその中核となる「評価方法」…"
+      "id": "5cfc2ac8d559",
+      "title": "Notionに「生きたHTML」を貼れるって知ってました？ Claude Codeで設計ドキュメントを自動生成するスキルを作った話",
+      "url": "https://zenn.dev/zenn_kurara/articles/1abc5073a3a21c",
+      "publishedAt": "2026-09-15T23:36:42.000Z",
+      "publisher": "zenn_kurara",
+      "summary": "Notionに2026年7月、こっそり「HTMLブロック」が来ていた ClaudeのArtifactでよく設計ドキュメントをHTMLで作るんだけど、あれって結局Anthropicのサーバーに乗っているだけの一時的なもので、手元に残すには「…"
     },
     {
-      "id": "21397607107b",
-      "title": "Fable 5.1の値下げはキャッシュ読み出し1/4だけ Claude Code104項目の内訳",
-      "url": "https://zenn.dev/ainewsdaily/articles/20260903_general_t1",
-      "publishedAt": "2026-09-15T14:42:15.000Z",
-      "publisher": "AIニュース",
-      "summary": "2026年9月1日、Anthropicは新しいモデルClaude Fable 5.1とMythos 5.1を発表しました。ただ、この日に本当に動いたのは「賢さ」ではなく「値札」と「権限」でした。同じ日にClaude Codeが104項目の…"
+      "id": "8ab2ccc3a8fe",
+      "title": "Tech Watch 2026-09-15: 評価と運用が主役になる",
+      "url": "https://zenn.dev/laiken/articles/20260915-tech-watch",
+      "publishedAt": "2026-09-15T23:08:20.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものを人間が確認してから投稿しています。 L: 今日は、AIを作業で使うときの重心がどこへ移っているかを見る。モデルにコードを書かせること自体より、評価し、直し、運用し、人が本当に欲しいものを…"
     },
     {
-      "id": "2ef315533d1c",
-      "title": "GitHubとAIで人生を管理してみる",
-      "url": "https://zenn.dev/mayobimu/articles/4757697ff0e840",
-      "publishedAt": "2026-09-15T14:23:17.000Z",
-      "publisher": "mayobimu",
-      "summary": "最初に 「GitHubで人生を管理する」という動画を見て、自分でも life というプライベートリポジトリを作ってみました。 元動画で紹介されていたのは、GitHub IssuesやProjectsを使ったタスク管理と、Claude Co…"
+      "id": "ffa50a375be3",
+      "title": "jQuery時代からダイアログを作ってきた僕が、AIに提案されて初めて知った実装",
+      "url": "https://zenn.dev/codeconnect/articles/dialogs-with-their-own-url",
+      "publishedAt": "2026-09-15T23:00:18.000Z",
+      "publisher": "koojy",
+      "summary": "こんにちは、コードコネクトの村上（@koojy3）です。 jQuery時代、ダイアログといえば、用意しておいたモーダルを出すか、器にコンテンツを流し込んで表示するか、でしたよね。当時はみんなこんな風に実装してたと思うんです。 僕はエンジニ…"
     }
   ],
-  "fetchedAt": "2026-09-16T06:00:02.288Z",
+  "fetchedAt": "2026-09-16T11:22:33.149Z",
   "stale": false,
   "error": null
 }

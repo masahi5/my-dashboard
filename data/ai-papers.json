@@ -11,47 +11,47 @@
       "url": "https://huggingface.co/papers/2609.11873",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "summary": "Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improv…",
-      "score": 82
+      "score": 85
     },
     {
-      "id": "e7ccebe73831",
-      "title": "AI for Games in the Foundation Model Era",
-      "url": "https://huggingface.co/papers/2609.16679",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "Foundation models, alongside advances in learned game-world models, are reshaping AI across the game lifecycle. Beyond …",
-      "score": 47
+      "id": "c268d819dc53",
+      "title": "StepAudio 3 Realtime Technical Report",
+      "url": "https://huggingface.co/papers/2609.14005",
+      "publishedAt": "2026-09-12T00:00:00.000Z",
+      "summary": "Realtime spoken interaction demands deep reasoning, prompt responses, and fluid turn-taking. We present StepAudio 3 Rea…",
+      "score": 32
     },
     {
-      "id": "bb68b2662589",
-      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
-      "url": "https://huggingface.co/papers/2609.17523",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving s…",
-      "score": 16
+      "id": "2506a78b7306",
+      "title": "StepAudio 3 Music Technical Report",
+      "url": "https://huggingface.co/papers/2609.16034",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "We introduce StepAudio 3 Music, a large-scale, long-form music generation model that supports explicit musical planning…",
+      "score": 22
     },
     {
-      "id": "5a97b3de8be4",
-      "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
-      "url": "https://huggingface.co/papers/2609.15972",
+      "id": "772c4e442e93",
+      "title": "HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness",
+      "url": "https://huggingface.co/papers/2609.15195",
       "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "As language models become more capable, long-term collaboration in learning, reasoning, and decision-making calls for a…",
-      "score": 3
+      "summary": "Embodied navigation requires agents to interpret visual observations, accumulate spatial knowledge, and execute actions…",
+      "score": 10
     },
     {
-      "id": "a7d235a6503f",
-      "title": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
-      "url": "https://huggingface.co/papers/2609.15975",
+      "id": "70aab54d04ea",
+      "title": "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
+      "url": "https://huggingface.co/papers/2609.14857",
       "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Transformer representations evolve through learned additive transformations that either preserve their current directio…",
-      "score": 3
+      "summary": "Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, ena…",
+      "score": 5
     },
     {
-      "id": "a9943c5bc697",
-      "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
-      "url": "https://huggingface.co/papers/2609.15982",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Skills extend an LLM agent beyond its parametric knowledge, and the gain they promise rests on picking the right one. D…",
-      "score": 3
+      "id": "6c224d10a96f",
+      "title": "Another Blueprint In The Wall: How to Ask Frontier AI Like a Kid?",
+      "url": "https://huggingface.co/papers/2609.14803",
+      "publishedAt": "2026-09-13T00:00:00.000Z",
+      "summary": "This paper reports experiments across six frontier model types from OpenAI, Anthropic, xAI, and Google DeepMind. Ten in…",
+      "score": 4
     },
     {
       "id": "36aab95546e4",
@@ -59,7 +59,7 @@
       "url": "https://huggingface.co/papers/2609.17524",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "summary": "World-action models (WAMs) jointly model future observations and actions, typically predicting the future as RGB images…",
-      "score": 2
+      "score": 4
     },
     {
       "id": "dbf45976b62e",
@@ -67,7 +67,15 @@
       "url": "https://huggingface.co/papers/2609.17521",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "summary": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manip…",
-      "score": 2
+      "score": 3
+    },
+    {
+      "id": "369995742622",
+      "title": "Convergent Emergence of In-Context Learning Across Modalities",
+      "url": "https://huggingface.co/papers/2609.14011",
+      "publishedAt": "2026-09-12T00:00:00.000Z",
+      "summary": "Few-shot in-context learning (ICL), the capacity of a model to infer abstract patterns from input-output examples provi…",
+      "score": 1
     },
     {
       "id": "9c4a7c0327b4",
@@ -78,31 +86,23 @@
       "score": 1
     },
     {
+      "id": "7f4263b9ede1",
+      "title": "Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems",
+      "url": "https://huggingface.co/papers/2609.17320",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "As AI agents move from bounded tasks to persistent deployments, failures can propagate through memory, tools, other age…",
+      "score": 1
+    },
+    {
       "id": "2c8b3b9b5215",
       "title": "Drift-Constrained Optimization: Only Direction Matters in Fine-Tuning Instruct Models",
       "url": "https://huggingface.co/papers/2609.13680",
       "publishedAt": "2026-09-12T00:00:00.000Z",
       "summary": "Fine-tuning instruct models often improves target performance while inducing behavioral drift from the reference model,…",
       "score": 1
-    },
-    {
-      "id": "fe2035eb1f67",
-      "title": "Training Specialist Models without Reasoning Trajectories for Domain Expert Distillation",
-      "url": "https://huggingface.co/papers/2609.13770",
-      "publishedAt": "2026-09-12T00:00:00.000Z",
-      "summary": "Specialist distillation effectively transfers domain expertise to student models via teacher-generated reasoning trajec…",
-      "score": 1
-    },
-    {
-      "id": "7f4263b9ede1",
-      "title": "Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems",
-      "url": "https://huggingface.co/papers/2609.17320",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "As AI agents move from bounded tasks to persistent deployments, failures can propagate through memory, tools, other age…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-16T06:00:02.181Z",
+  "fetchedAt": "2026-09-16T11:22:33.043Z",
   "stale": false,
   "error": null
 }
