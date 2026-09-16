@@ -6,54 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "44dabf80e582",
-      "title": "2026-08-29 今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-08-29-tech-daily",
-      "publishedAt": "2026-09-16T14:38:18.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 本日の技術トレンドでは、AIエージェントとフィジカルAI（具身知能）への主役交代が鮮明になる一方、プラットフォームとツールチェーンを巡る激震が起きています。OpenAIによるSpaceX傘下Cursorへのモデル提供停止や、Next.…"
-    },
-    {
-      "id": "7a7f0fb63da3",
-      "title": "シンプルな指示で基板ができた話",
-      "url": "https://zenn.dev/icbs/articles/e38c72fb72493d",
-      "publishedAt": "2026-09-16T13:51:50.000Z",
-      "publisher": "ソラ",
-      "summary": "注：この記事は、Claude Opus5が書いたものです。 はじめに この記事は、前の記事（概念編）の続きである。あちらは**「AIは世界を知ることができない。ならばAIが世界を構築すればいい」**という主張だけを書いた。この記事は、その…"
-    },
-    {
-      "id": "2a818b9a2b53",
-      "title": "【第4回】社会人が挫折しない学習設計 ―\"土日だけ\"が失敗だった話",
-      "url": "https://zenn.dev/hiropiro/articles/63981d8aa2d878",
-      "publishedAt": "2026-09-16T12:52:04.000Z",
-      "publisher": "栃木県民",
-      "summary": "連載「遠回りしない技術英語 ― 自動車×AIエンジニアの実務英語講座」第4回です。前回はAI時代に英語を学ぶ意味を考えた。今回は、その学習を続ける話をする。 どれだけ良い教材があっても、続かなければゼロ AIで学べる時代になり、教材も勉強…"
-    },
-    {
-      "id": "6d145fb61ab9",
-      "title": "読まない技術 第10回：AIに要約しろと言わない技術",
-      "url": "https://zenn.dev/garplab/articles/53eb86ab5df3ad",
-      "publishedAt": "2026-09-16T11:45:17.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「読まない技術」の第 10 回です。各回はファイルやスクリプトを一つ置けば完結します。連載の全体像と各回の一覧は序論にあります。 今回は、機械が数えた数字が、報告に着くまでに変わってしまう話です。⚠️ 要約は母数を落とす …"
-    },
-    {
-      "id": "6682c5fc3903",
-      "title": "SNSプロフィールをもっと自分らしく。AI Bio・PFP・Brat Generatorをまとめた「Socionar」を作りました",
-      "url": "https://zenn.dev/oscarhale/articles/5ca660ae8815bd",
-      "publishedAt": "2026-09-16T11:45:05.000Z",
-      "publisher": "oscarhale",
-      "summary": "SNSのプロフィールを整えるとき、意外と悩むのが「自己紹介文」です。 InstagramやTikTokでは、数行のBioだけで自分がどんな人なのかを伝えなければなりません。そこで、プロフィール作りを少し簡単にするために Socionar …"
-    },
-    {
-      "id": "5ce383b6e782",
-      "title": "画像生成とアップスケールを混同しないための状態設計メモ",
-      "url": "https://zenn.dev/chloe12/articles/388993deea2c2e",
-      "publishedAt": "2026-09-16T10:50:31.000Z",
-      "publisher": "Chloe",
-      "summary": "画像作成フローでは、同じ「画像を良くする」という言葉の中に二つの仕事があります。ひとつは、要件に合う主題・構図・表現を作ること。もうひとつは、決まった画像が実際の表示サイズで読める状態かを確認することです。この二つを分離しないと、生成のや…"
-    },
-    {
       "id": "5eafaa66dfc8",
       "title": "ほとんどの「Vibe Marketing」は、まだプロンプトを1つずつ実行しているだけだ",
       "url": "https://zenn.dev/beatapi/articles/2b3d18efa9a14b",
@@ -100,9 +52,57 @@
       "publishedAt": "2026-09-16T09:22:36.000Z",
       "publisher": "ハク（Haku）",
       "summary": "「26%」と「86%」、なぜこんなに違う？ AI Agentに脆弱性を修正させたところ、​**完全な修正に成功したのは26%**​。 一方、その評価方法を批判したTrail of Bitsは、条件を絞ると約86%がexploitを防いだ​…"
+    },
+    {
+      "id": "98b56f8df254",
+      "title": "Go のフラットなパッケージにファイル単位の private を持ち込む Linter “declscope”",
+      "url": "https://zenn.dev/yumemi_inc/articles/go-declscope-file-scoped-private",
+      "publishedAt": "2026-09-16T09:02:41.000Z",
+      "publisher": "mpyw",
+      "summary": "はじめに フラットパッケージという思想 思想の派閥はありますが，その 1 つとして Go には「パッケージは少なく，大きく」という フラットパッケージ と呼ばれる作法があります。これに反し，境界を作りたいからといって安易にパッケージを割る…"
+    },
+    {
+      "id": "2a1698f93ed3",
+      "title": "AI&Julia #20｜識別モデル » ソフトマックス回帰 » IRIS",
+      "url": "https://zenn.dev/catalyst2064/articles/60eb399b105516",
+      "publishedAt": "2026-09-16T08:57:10.000Z",
+      "publisher": "catalyst2064",
+      "summary": "はじめに 本記事では、ソフトマックス回帰（softmax regression）を用いて、Irisデータセットの品種を分類します。実装では理論（数式）とコードの対応を重視するため、Fluxなどのフレームワークを使いません。 ソフトマックス…"
+    },
+    {
+      "id": "c3c9f273548e",
+      "title": "会議の録音から議事録を自動生成する仕組みを作って議事録を書く時間をなくした",
+      "url": "https://zenn.dev/assign/articles/7e0d3f65c20da9",
+      "publishedAt": "2026-09-16T08:41:05.000Z",
+      "publisher": "Shirai",
+      "summary": "はじめに こんにちは。 株式会社アサインでキャリアプラットフォームの開発責任者をしている白井です。 弊社では会議を録音する運用にしており、⁠AI駆動PMの5原則と12の具体例でも少し紹介しています。 ただ、録音データから議事録を作成するに…"
+    },
+    {
+      "id": "1a02f04d24d3",
+      "title": "環境をまたぐデータ移行で auto_increment の主キーを突き合わせに使ってはいけない",
+      "url": "https://zenn.dev/autocamp/articles/7f0127b4e417ff",
+      "publishedAt": "2026-09-16T08:40:59.000Z",
+      "publisher": "オートキャンプライフ",
+      "summary": "自分で運用しているサイトのデザインを全面的に作り直し、ローカルで作ったページの内容を本番へ移した。 反映した直後、本番の35ページが「まったく別のページの中身」に上書きされていた。 原因は、テーブルの主キー（auto_increment）…"
+    },
+    {
+      "id": "58478c7d48d7",
+      "title": "比較】BeautifulSoup自作 vs Scraping AI：開発者が知るべき「保守税」と使い分けの境界線",
+      "url": "https://zenn.dev/amandeep_sms/articles/b013071824f2a8",
+      "publishedAt": "2026-09-16T08:33:11.000Z",
+      "publisher": "シング アマン ディープ",
+      "summary": "PythonでWebスクレイピングを始める際、誰もが最初に手にするのが requests と BeautifulSoup です。 しかし、個人開発の学習フェーズから**「プロダクトの本番運用」に移行した途端、多くのエンジニアが直面するのが…"
+    },
+    {
+      "id": "17a3597e1379",
+      "title": "AI音楽生成プロンプトの設計術：ランダムな「ガチャ」を脱出し、狙った音を鳴らす構造化ガイド",
+      "url": "https://zenn.dev/omgionfire/articles/6dd95f8ef0f36e",
+      "publishedAt": "2026-09-16T08:17:50.000Z",
+      "publisher": "日曜日のサン",
+      "summary": "! 😊 著者ノート / Editorial Note 前回の記事では「運任せの生成ボタン連打を卒業する」という思考法について触れました。今回はその実践編として、AI音楽生成において自分の脳内にある音を思い通りにコントロールするためのプロ…"
     }
   ],
-  "fetchedAt": "2026-09-16T15:28:55.162Z",
+  "fetchedAt": "2026-09-16T19:01:52.047Z",
   "stale": false,
   "error": null
 }
