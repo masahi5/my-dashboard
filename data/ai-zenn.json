@@ -6,6 +6,54 @@
   "category": "ai",
   "items": [
     {
+      "id": "b6c3dfa9cd0b",
+      "title": "Claude Code が「決めたこと」を忘れない：完全ローカル・API キー不要のエージェント記憶レイヤー myc",
+      "url": "https://zenn.dev/vitaly_iva/articles/myc-local-memory-for-coding-agents",
+      "publishedAt": "2026-09-15T19:34:22.000Z",
+      "publisher": "Vitaly Ivasenko",
+      "summary": "Claude Code や Codex を 1 時間以上使うと、ほぼ必ず起きること。最初に「A 案で行く、B 案は理由 C で却下」と決めたのに、コンテキストが圧縮された後、エージェントが平然と B 案を提案してくる。理由はもう彼のコンテ…"
+    },
+    {
+      "id": "fc23eda492fc",
+      "title": "AI駆動開発では、実装の前に「a × b」を設計する",
+      "url": "https://zenn.dev/nenene01/articles/ai-development-readiness-a-times-b",
+      "publishedAt": "2026-09-15T15:48:18.000Z",
+      "publisher": "ねねね",
+      "summary": "生成AIを開発に導入すると、コードを書く速度は大きく上がります。 Coding AgentにIssueを渡せば実装し、テストを書き、修正まで進めてくれる。 しかし、実際の開発で重要なのは、 「AIがコードを書けるか」ではなく、「チームとし…"
+    },
+    {
+      "id": "477a2f015392",
+      "title": "AIエージェントの評価方法（AgentOps）を設計する時に調べた事と得られた知見",
+      "url": "https://zenn.dev/yymm/articles/20260915-agent-ops",
+      "publishedAt": "2026-09-15T15:01:47.000Z",
+      "publisher": "kouki_y",
+      "summary": "初めに どうも、某自社開発系の会社でエンジニアをしている者です。 私は去年の年末ごろ、業務の方でAIエージェントが絡んだ機能の開発を担当していました。 その際、AIエージェントの運用設計（AgentOps）、特にその中核となる「評価方法」…"
+    },
+    {
+      "id": "21397607107b",
+      "title": "Fable 5.1の値下げはキャッシュ読み出し1/4だけ Claude Code104項目の内訳",
+      "url": "https://zenn.dev/ainewsdaily/articles/20260903_general_t1",
+      "publishedAt": "2026-09-15T14:42:15.000Z",
+      "publisher": "AIニュース",
+      "summary": "2026年9月1日、Anthropicは新しいモデルClaude Fable 5.1とMythos 5.1を発表しました。ただ、この日に本当に動いたのは「賢さ」ではなく「値札」と「権限」でした。同じ日にClaude Codeが104項目の…"
+    },
+    {
+      "id": "2ef315533d1c",
+      "title": "GitHubとAIで人生を管理してみる",
+      "url": "https://zenn.dev/mayobimu/articles/4757697ff0e840",
+      "publishedAt": "2026-09-15T14:23:17.000Z",
+      "publisher": "mayobimu",
+      "summary": "最初に 「GitHubで人生を管理する」という動画を見て、自分でも life というプライベートリポジトリを作ってみました。 元動画で紹介されていたのは、GitHub IssuesやProjectsを使ったタスク管理と、Claude Co…"
+    },
+    {
+      "id": "41f45e798da3",
+      "title": "GitHub Copilot app を使いこなす",
+      "url": "https://zenn.dev/skmkzyk/books/github-copilot-app-guide",
+      "publishedAt": "2026-09-15T14:16:56.000Z",
+      "publisher": "skmkzyk",
+      "summary": "GitHub Copilot app を、設定・セッション・自動化・スラッシュコマンドの観点から整理する入門書です。"
+    },
+    {
       "id": "cc854dffe886",
       "title": "「AIで人月が減るから成果報酬へ」は、そんなに簡単な話なのか",
       "url": "https://zenn.dev/acntechjp/articles/5ce36bb1e0a73c",
@@ -52,57 +100,9 @@
       "publishedAt": "2026-09-15T12:50:46.000Z",
       "publisher": "kishimin",
       "summary": "はじめに Frontend Conference Fukuoka 2026に参加しました。 学びを忘れないように、印象に残った内容を記録します。 杜甫々が語るフロントエンド開発技術の歴史と今後 杜甫々さんが、Web技術の変化を振り返るセッ…"
-    },
-    {
-      "id": "c8af28dce8a8",
-      "title": "バイブコーディングで GUI が壊れていく理由とその対策プロンプト",
-      "url": "https://zenn.dev/nrs/articles/9ba91aea587bf5",
-      "publishedAt": "2026-09-15T12:37:56.000Z",
-      "publisher": "nrs",
-      "summary": "TLDL AIに常駐アプリの画面を作らせる際は以下の指示を出します。 この指示をそのまま伝えてみてください。 すべてのコンポーネントを Root の配下に置き、各コンポーネントは MVP パターンの Passive View として描画に…"
-    },
-    {
-      "id": "f3e5471c11de",
-      "title": "【サプライチェーン】その MCP サーバー、誰が作ったか知っていますか",
-      "url": "https://zenn.dev/ykbone/articles/202609-security-supply-chain",
-      "publishedAt": "2026-09-15T12:28:49.000Z",
-      "publisher": "ykbone",
-      "summary": "はじめに AIエディタにMCPサーバーを追加するとき、READMEに書いてある設定をそのまま貼り付けたことはありませんか。 { \"mcpServers\": { \"postmark\": { \"command\": \"npx\", \"args\":…"
-    },
-    {
-      "id": "27a20d1423e3",
-      "title": "読まない技術 第9回：引き継ぎを読まない技術",
-      "url": "https://zenn.dev/garplab/articles/a43b57a94d2216",
-      "publishedAt": "2026-09-15T11:37:26.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「読まない技術」の第 9 回です。各回はファイルやスクリプトを一つ置けば完結します。連載の全体像と各回の一覧は序論にあります。 今回は、AI が書く引き継ぎ文と完了報告の話です。⚠️ 引き継ぎは書いた側の要約で、都合の悪い…"
-    },
-    {
-      "id": "1ab16953d84e",
-      "title": "Developers Summit 2026 Fukuokaで学んだこと",
-      "url": "https://zenn.dev/kishimin/articles/6f7a24080280e5",
-      "publishedAt": "2026-09-15T11:34:25.000Z",
-      "publisher": "kishimin",
-      "summary": "はじめに Developers Summit 2026 Fukuokaに参加しました。 学びを忘れないように、印象に残った内容を記録します。 2026年後半のAIエージェント構築とこれから AIを優秀な部下として使うと良いとのことでした。…"
-    },
-    {
-      "id": "405065bb64ab",
-      "title": "Next.jsはAI時代に向けて積極的に進化しているフレームワークなのかもしれない",
-      "url": "https://zenn.dev/hey_miii/articles/32f0dc73eafffa",
-      "publishedAt": "2026-09-15T11:29:11.000Z",
-      "publisher": "miii",
-      "summary": "Next.js叩かれすぎでは？ 最近のSNSを見ていて、Next.jsが一部のエンジニアから叩かれているのを見ていて、個人的になぜ？と思うことがあったので、私個人のNext.jsへの印象を記事にしてみました。 私のNext.jsへの印象は…"
-    },
-    {
-      "id": "57d258ce98f5",
-      "title": "AIワークフローを作る前に試したい「小さな検証」",
-      "url": "https://zenn.dev/aiai_tool/articles/bcd734677d4939",
-      "publishedAt": "2026-09-15T10:21:03.000Z",
-      "publisher": "AIAI｜AI Tools & Workflows",
-      "summary": "生成AIを業務に取り入れるとき、最初から大きな自動化フローを作る必要はありません。 むしろ、最初は小さなタスクで検証した方が、そのAIツールが本当に仕事に役立つのか判断しやすくなります。 この記事では、AIツールを本格導入する前に行いたい…"
     }
   ],
-  "fetchedAt": "2026-09-15T22:53:21.723Z",
+  "fetchedAt": "2026-09-16T01:02:29.294Z",
   "stale": false,
   "error": null
 }

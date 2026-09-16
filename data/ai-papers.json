@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "d819a3f27366",
-      "title": "Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction",
-      "url": "https://huggingface.co/papers/2609.13285",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
-      "summary": "The KV cache is a primary bottleneck for Transformer decoding: its memory footprint and cache-read traffic grow with se…",
-      "score": 58
-    },
-    {
       "id": "efe90e6b2abd",
       "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
       "url": "https://huggingface.co/papers/2609.15863",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "A radiology report can already answer a clinical question, so it is hard to tell whether a vision-language model also u…",
       "score": 1
+    },
+    {
+      "id": "83e4ec1aa393",
+      "title": "Lightning Weave: Improving the Accuracy-Efficiency Frontier of Reasoning Models through Capability Composition",
+      "url": "https://huggingface.co/papers/2609.14708",
+      "publishedAt": "2026-09-13T00:00:00.000Z",
+      "summary": "A core goal of efficient reasoning is to improve the accuracy-efficiency frontier. However, jointly improving reasoning…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-15T22:53:21.534Z",
+  "fetchedAt": "2026-09-16T01:02:29.150Z",
   "stale": false,
   "error": null
 }
