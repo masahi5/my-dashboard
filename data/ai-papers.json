@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "efe90e6b2abd",
-      "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
-      "url": "https://huggingface.co/papers/2609.15863",
+      "id": "05ed75b5e905",
+      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+      "url": "https://huggingface.co/papers/2609.11873",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improv…",
+      "score": 82
+    },
+    {
+      "id": "e7ccebe73831",
+      "title": "AI for Games in the Foundation Model Era",
+      "url": "https://huggingface.co/papers/2609.16679",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "Foundation models, alongside advances in learned game-world models, are reshaping AI across the game lifecycle. Beyond …",
+      "score": 47
+    },
+    {
+      "id": "bb68b2662589",
+      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "url": "https://huggingface.co/papers/2609.17523",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving s…",
+      "score": 16
+    },
+    {
+      "id": "5a97b3de8be4",
+      "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
+      "url": "https://huggingface.co/papers/2609.15972",
       "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without gua…",
-      "score": 44
+      "summary": "As language models become more capable, long-term collaboration in learning, reasoning, and decision-making calls for a…",
+      "score": 3
     },
     {
-      "id": "026bdbef832d",
-      "title": "How Lossless Is Lossless Speculative Decoding? The Role of Numerical Precision in Orthrus",
-      "url": "https://huggingface.co/papers/2609.15504",
+      "id": "a7d235a6503f",
+      "title": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
+      "url": "https://huggingface.co/papers/2609.15975",
       "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Orthrus is a hybrid autoregressive-diffusion architecture that accelerates autoregressive language-model inference by g…",
-      "score": 26
+      "summary": "Transformer representations evolve through learned additive transformations that either preserve their current directio…",
+      "score": 3
     },
     {
-      "id": "313c9714f5fb",
-      "title": "MInTRL: Off-policy Intervention can boost On-policy RL",
-      "url": "https://huggingface.co/papers/2609.12419",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards is typically performed on-policy, keeping training data close to the cur…",
-      "score": 6
+      "id": "a9943c5bc697",
+      "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+      "url": "https://huggingface.co/papers/2609.15982",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "Skills extend an LLM agent beyond its parametric knowledge, and the gain they promise rests on picking the right one. D…",
+      "score": 3
     },
     {
-      "id": "193643b04b5e",
-      "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
-      "url": "https://huggingface.co/papers/2609.13053",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "Visual goal and dynamics prediction can provide language-conditioned robot policies with both a target outcome and a re…",
-      "score": 5
-    },
-    {
-      "id": "f992d19715e7",
-      "title": "Expert-Space Exploration in MoE Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2609.13058",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) has become central to post-training of large language models. Recent advances in RL for Mix…",
-      "score": 5
-    },
-    {
-      "id": "8c3ca44cf39a",
-      "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
-      "url": "https://huggingface.co/papers/2609.13443",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "We demonstrate that training LLMs with RL does not improve performance equally across a dataset. RL shows large improve…",
+      "id": "36aab95546e4",
+      "title": "Modality-Autoregressive World-Action Models",
+      "url": "https://huggingface.co/papers/2609.17524",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "World-action models (WAMs) jointly model future observations and actions, typically predicting the future as RGB images…",
       "score": 2
     },
     {
-      "id": "0ed0f040a1a0",
-      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
-      "url": "https://huggingface.co/papers/2609.13463",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within …",
+      "id": "dbf45976b62e",
+      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+      "url": "https://huggingface.co/papers/2609.17521",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manip…",
       "score": 2
     },
     {
-      "id": "e38c19cb37c6",
-      "title": "Thought without systematicity? Evaluating reasoning models on rule induction tasks",
-      "url": "https://huggingface.co/papers/2609.13948",
+      "id": "9c4a7c0327b4",
+      "title": "Decoy Direction Optimization: A Post-Hoc Defense Against LLM Abliteration",
+      "url": "https://huggingface.co/papers/2609.16204",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "Safety guardrails in open-weight language models can be readily bypassed using Refusal Feature Ablation (RFA), a techni…",
+      "score": 1
+    },
+    {
+      "id": "2c8b3b9b5215",
+      "title": "Drift-Constrained Optimization: Only Direction Matters in Fine-Tuning Instruct Models",
+      "url": "https://huggingface.co/papers/2609.13680",
       "publishedAt": "2026-09-12T00:00:00.000Z",
-      "summary": "A central tenet of human cognition is systematicity, the principle that understanding one concept is inherently tied to…",
-      "score": 2
-    },
-    {
-      "id": "428f070bc59b",
-      "title": "Learning Sparse Decision Trees via Transformer Variational Auto-Encoders",
-      "url": "https://huggingface.co/papers/2609.01430",
-      "publishedAt": "2026-09-01T00:00:00.000Z",
-      "summary": "Decision trees are among the most widely used models in machine learning, largely due to their transparent decision log…",
-      "score": 2
-    },
-    {
-      "id": "94c8f4358e22",
-      "title": "E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning",
-      "url": "https://huggingface.co/papers/2609.14302",
-      "publishedAt": "2026-09-13T00:00:00.000Z",
-      "summary": "Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucin…",
+      "summary": "Fine-tuning instruct models often improves target performance while inducing behavioral drift from the reference model,…",
       "score": 1
     },
     {
-      "id": "de95dbfebbb1",
-      "title": "ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs",
-      "url": "https://huggingface.co/papers/2609.15635",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "A radiology report can already answer a clinical question, so it is hard to tell whether a vision-language model also u…",
+      "id": "fe2035eb1f67",
+      "title": "Training Specialist Models without Reasoning Trajectories for Domain Expert Distillation",
+      "url": "https://huggingface.co/papers/2609.13770",
+      "publishedAt": "2026-09-12T00:00:00.000Z",
+      "summary": "Specialist distillation effectively transfers domain expertise to student models via teacher-generated reasoning trajec…",
       "score": 1
     },
     {
-      "id": "83e4ec1aa393",
-      "title": "Lightning Weave: Improving the Accuracy-Efficiency Frontier of Reasoning Models through Capability Composition",
-      "url": "https://huggingface.co/papers/2609.14708",
-      "publishedAt": "2026-09-13T00:00:00.000Z",
-      "summary": "A core goal of efficient reasoning is to improve the accuracy-efficiency frontier. However, jointly improving reasoning…",
+      "id": "7f4263b9ede1",
+      "title": "Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems",
+      "url": "https://huggingface.co/papers/2609.17320",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "As AI agents move from bounded tasks to persistent deployments, failures can propagate through memory, tools, other age…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-16T01:02:29.150Z",
+  "fetchedAt": "2026-09-16T06:00:02.181Z",
   "stale": false,
   "error": null
 }
