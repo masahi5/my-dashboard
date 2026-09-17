@@ -6,60 +6,76 @@
   "category": "ai",
   "items": [
     {
-      "id": "c268d819dc53",
-      "title": "StepAudio 3 Realtime Technical Report",
-      "url": "https://huggingface.co/papers/2609.14005",
-      "publishedAt": "2026-09-12T00:00:00.000Z",
-      "summary": "Realtime spoken interaction demands deep reasoning, prompt responses, and fluid turn-taking. We present StepAudio 3 Rea…",
-      "score": 91
+      "id": "4826d2e69270",
+      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "url": "https://huggingface.co/papers/2609.19134",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented…",
+      "score": 40
     },
     {
-      "id": "772c4e442e93",
-      "title": "HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness",
-      "url": "https://huggingface.co/papers/2609.15195",
+      "id": "78d6aec3d794",
+      "title": "ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks",
+      "url": "https://huggingface.co/papers/2609.18805",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Coding agents are typically evaluated with desired behavior specified through issues or instructions. In practical web …",
+      "score": 16
+    },
+    {
+      "id": "d3c3f3802941",
+      "title": "Agora: Git as Shared Memory for Collective AutoResearch",
+      "url": "https://huggingface.co/papers/2609.18094",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Autonomous research loops such as AutoResearch show that one coding agent can improve a training setup unattended. Run …",
+      "score": 7
+    },
+    {
+      "id": "11e6a57a148c",
+      "title": "VC-Attention: Value Smoothing and Softmax Casting for Low-bit Attention",
+      "url": "https://huggingface.co/papers/2609.15810",
       "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Embodied navigation requires agents to interpret visual observations, accumulate spatial knowledge, and execute actions…",
-      "score": 15
+      "summary": "Diffusion Transformers deliver state-of-the-art video generation, but their long spatiotemporal sequences make attentio…",
+      "score": 5
     },
     {
-      "id": "e96055d054cd",
-      "title": "FLAT: Resampling Image and Text into 1D Flexible-Length Aligned Transmodal Tokens for Retrieval and Generation",
-      "url": "https://huggingface.co/papers/2609.16591",
+      "id": "fbef0c0d52b4",
+      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+      "url": "https://huggingface.co/papers/2609.17632",
       "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "Traditional multimodal representation learning and generation are two stages: a contrastive or self-supervised visual e…",
-      "score": 12
+      "summary": "Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is…",
+      "score": 4
     },
     {
-      "id": "6c224d10a96f",
-      "title": "Another Blueprint In The Wall: How to Ask Frontier AI Like a Kid?",
-      "url": "https://huggingface.co/papers/2609.14803",
-      "publishedAt": "2026-09-13T00:00:00.000Z",
-      "summary": "This paper reports experiments across six frontier model types from OpenAI, Anthropic, xAI, and Google DeepMind. Ten in…",
-      "score": 6
-    },
-    {
-      "id": "70aab54d04ea",
-      "title": "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
-      "url": "https://huggingface.co/papers/2609.14857",
+      "id": "60ebd17edc13",
+      "title": "Register Tokens for Bounded-State Reasoning in Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2609.16372",
       "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, ena…",
-      "score": 6
-    },
-    {
-      "id": "630edd9ebcab",
-      "title": "RelateAnything: Real-Time Open-Vocabulary Relation Prediction From Any Inputs",
-      "url": "https://huggingface.co/papers/2609.12552",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "Open-vocabulary detection accepts any class list at inference, and promptable segmentation returns regions without clas…",
+      "summary": "Masked diffusion language models (dLLMs) generate text by iteratively denoising masked tokens with bidirectional attent…",
       "score": 3
     },
     {
-      "id": "369995742622",
-      "title": "Convergent Emergence of In-Context Learning Across Modalities",
-      "url": "https://huggingface.co/papers/2609.14011",
-      "publishedAt": "2026-09-12T00:00:00.000Z",
-      "summary": "Few-shot in-context learning (ICL), the capacity of a model to infer abstract patterns from input-output examples provi…",
-      "score": 3
+      "id": "f346cf4afaf7",
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "url": "https://huggingface.co/papers/2609.19144",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences becaus…",
+      "score": 2
+    },
+    {
+      "id": "6596a9b4ebc3",
+      "title": "HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses",
+      "url": "https://huggingface.co/papers/2609.15938",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "Scientific agents contribute to hypothesis discovery by synthesizing evidence, assessing proposals, and developing new …",
+      "score": 2
+    },
+    {
+      "id": "1191b5b2461c",
+      "title": "Gaze as Evidence for Common Grounding: A Cross-Corpus Analysis of MapTask and MUNDEX",
+      "url": "https://huggingface.co/papers/2609.18011",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "In collaborative tasks with asymmetric information, participants coordinate their understanding through interaction. We…",
+      "score": 2
     },
     {
       "id": "443d014dd17d",
@@ -70,39 +86,23 @@
       "score": 2
     },
     {
-      "id": "60ebd17edc13",
-      "title": "Register Tokens for Bounded-State Reasoning in Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2609.16372",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Masked diffusion language models (dLLMs) generate text by iteratively denoising masked tokens with bidirectional attent…",
-      "score": 2
-    },
-    {
-      "id": "1bb45bc374bf",
-      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
-      "url": "https://huggingface.co/papers/2609.13406",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards…",
-      "score": 2
-    },
-    {
-      "id": "ee02a1d5a921",
-      "title": "ImpossibleRubrics: Stress-Testing Generated Rubrics as Reward Signals",
-      "url": "https://huggingface.co/papers/2609.16816",
+      "id": "622c879909f0",
+      "title": "Zing-0.5: Toward Playable Worlds with Real-Time Joint Action and Text Control",
+      "url": "https://huggingface.co/papers/2609.17909",
       "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "Language model-generated rubrics are increasingly used as reward signals for rubric-based reinforcement learning, LLM-a…",
-      "score": 2
+      "summary": "We introduce Zing-0.5, a 5B autoregressive world model designed for playability: users can explore generated worlds, in…",
+      "score": 1
     },
     {
-      "id": "f1caae81a24c",
-      "title": "OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning",
-      "url": "https://huggingface.co/papers/2609.16057",
-      "publishedAt": "2026-09-13T00:00:00.000Z",
-      "summary": "Unified multimodal large language models (MLLMs) and multi-agent systems have advanced visual generation. However, thre…",
+      "id": "3d1a37548e12",
+      "title": "EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset",
+      "url": "https://huggingface.co/papers/2609.17189",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "3D hand mesh reconstruction is a challenging yet essential task for downstream applications, including human-robot inte…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-17T00:30:53.098Z",
+  "fetchedAt": "2026-09-17T05:24:31.996Z",
   "stale": false,
   "error": null
 }
