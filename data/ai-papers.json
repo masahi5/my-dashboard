@@ -6,28 +6,36 @@
   "category": "ai",
   "items": [
     {
-      "id": "4826d2e69270",
-      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
-      "url": "https://huggingface.co/papers/2609.19134",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented…",
-      "score": 40
+      "id": "443d014dd17d",
+      "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+      "url": "https://huggingface.co/papers/2609.17488",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previousl…",
+      "score": 47
     },
     {
-      "id": "78d6aec3d794",
-      "title": "ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks",
-      "url": "https://huggingface.co/papers/2609.18805",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Coding agents are typically evaluated with desired behavior specified through issues or instructions. In practical web …",
-      "score": 16
+      "id": "3e9e8b0ea532",
+      "title": "Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents",
+      "url": "https://huggingface.co/papers/2609.17708",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "Reliable confidence estimation is increasingly central to the trustworthy deployment of language models: a calibrated e…",
+      "score": 45
     },
     {
-      "id": "d3c3f3802941",
-      "title": "Agora: Git as Shared Memory for Collective AutoResearch",
-      "url": "https://huggingface.co/papers/2609.18094",
+      "id": "40bb17d7fa3d",
+      "title": "Rethinking Critic Learning in PPO: Understanding and Mitigating Value Flattening",
+      "url": "https://huggingface.co/papers/2609.18708",
       "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Autonomous research loops such as AutoResearch show that one coding agent can improve a training setup unattended. Run …",
-      "score": 7
+      "summary": "In reinforcement learning for large language models, Proximal Policy Optimization (PPO) commonly uses a critic to estim…",
+      "score": 35
+    },
+    {
+      "id": "fb8323979a36",
+      "title": "ActionPiece: Rethinking Action Tokenization for Autoregressive Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2609.18487",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Action tokenizers play a central role in autoregressive vision-language-action (VLA) models, determining both the targe…",
+      "score": 32
     },
     {
       "id": "11e6a57a148c",
@@ -35,55 +43,15 @@
       "url": "https://huggingface.co/papers/2609.15810",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Diffusion Transformers deliver state-of-the-art video generation, but their long spatiotemporal sequences make attentio…",
-      "score": 5
+      "score": 31
     },
     {
-      "id": "fbef0c0d52b4",
-      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
-      "url": "https://huggingface.co/papers/2609.17632",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is…",
-      "score": 4
-    },
-    {
-      "id": "60ebd17edc13",
-      "title": "Register Tokens for Bounded-State Reasoning in Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2609.16372",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Masked diffusion language models (dLLMs) generate text by iteratively denoising masked tokens with bidirectional attent…",
-      "score": 3
-    },
-    {
-      "id": "f346cf4afaf7",
-      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
-      "url": "https://huggingface.co/papers/2609.19144",
+      "id": "d3c3f3802941",
+      "title": "Agora: Git as Shared Memory for Collective AutoResearch",
+      "url": "https://huggingface.co/papers/2609.18094",
       "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences becaus…",
-      "score": 2
-    },
-    {
-      "id": "6596a9b4ebc3",
-      "title": "HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses",
-      "url": "https://huggingface.co/papers/2609.15938",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Scientific agents contribute to hypothesis discovery by synthesizing evidence, assessing proposals, and developing new …",
-      "score": 2
-    },
-    {
-      "id": "1191b5b2461c",
-      "title": "Gaze as Evidence for Common Grounding: A Cross-Corpus Analysis of MapTask and MUNDEX",
-      "url": "https://huggingface.co/papers/2609.18011",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "In collaborative tasks with asymmetric information, participants coordinate their understanding through interaction. We…",
-      "score": 2
-    },
-    {
-      "id": "443d014dd17d",
-      "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
-      "url": "https://huggingface.co/papers/2609.17488",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previousl…",
-      "score": 2
+      "summary": "Autonomous research loops such as AutoResearch show that one coding agent can improve a training setup unattended. Run …",
+      "score": 30
     },
     {
       "id": "622c879909f0",
@@ -91,18 +59,50 @@
       "url": "https://huggingface.co/papers/2609.17909",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "summary": "We introduce Zing-0.5, a 5B autoregressive world model designed for playability: users can explore generated worlds, in…",
-      "score": 1
+      "score": 23
     },
     {
-      "id": "3d1a37548e12",
-      "title": "EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset",
-      "url": "https://huggingface.co/papers/2609.17189",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "3D hand mesh reconstruction is a challenging yet essential task for downstream applications, including human-robot inte…",
-      "score": 1
+      "id": "f346cf4afaf7",
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "url": "https://huggingface.co/papers/2609.19144",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences becaus…",
+      "score": 21
+    },
+    {
+      "id": "6596a9b4ebc3",
+      "title": "HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses",
+      "url": "https://huggingface.co/papers/2609.15938",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "Scientific agents contribute to hypothesis discovery by synthesizing evidence, assessing proposals, and developing new …",
+      "score": 21
+    },
+    {
+      "id": "fcb5be66201e",
+      "title": "SpectralShift: Effective Context Window Extension of Gated DeltaNet via Spectral Reparameterization",
+      "url": "https://huggingface.co/papers/2609.14320",
+      "publishedAt": "2026-09-13T00:00:00.000Z",
+      "summary": "Recently, linear attention layers have been increasingly adopted to replace softmax attention at scale for long-context…",
+      "score": 20
+    },
+    {
+      "id": "af37341e37e3",
+      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
+      "url": "https://huggingface.co/papers/2609.19143",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded…",
+      "score": 6
+    },
+    {
+      "id": "7dfa44267798",
+      "title": "Flattening Every Memory Peak in Long-Context Mixture-of-Experts Training",
+      "url": "https://huggingface.co/papers/2609.14306",
+      "publishedAt": "2026-09-13T00:00:00.000Z",
+      "summary": "Training a Mixture-of-Experts (MoE) model at long context or large batch size fails as soon as any one component's peak…",
+      "score": 3
     }
   ],
-  "fetchedAt": "2026-09-17T05:24:31.996Z",
+  "fetchedAt": "2026-09-17T10:14:33.481Z",
   "stale": false,
   "error": null
 }

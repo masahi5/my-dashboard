@@ -2,6 +2,51 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2100497019827880077",
+      "url": "https://x.com/kokushing/status/2100497019827880077",
+      "text": "3日間で三面図からモデリング、Astra と Blender でリギング、Webサイト組み込みで動かせるところまでいけました✌️\n\nざっくりとした作業の流れ\n\n1. GPT Image で三面図 (正面/横/後ろ) を1枚ずつ作成\n2. Hi3D へマルチビューで添付して生成 (200万ポリゴン)\n3. FBX形式でダウンロードしてAstraへ投げる\n```prompt\nこのHi3Dで生成したミニキャラの3Dモデルを、Blenderを操作してボーンを入れて、動かせるようにしてください。Blenderを操作するときは、必ずComputer Useで操作するようにしてください。\n```\n4. Blenderを操作してボーンを入れてもらう\n5. 指が破綻していた(6本になっていた)ので、スクショ添付して指だけ調整してもらう\n```prompt\n重大な修正必須箇所があって、手の指が6本生えてるのでblender操作して修正できる？\nあと指の造形もちょっと木彫りっぽく見えて調整したいかも...\n```\n6. 気になるところをスクショ添付して限界まで調整してもらう\n```prompt\nプレビュー見ると、まだ少しテクスチャの余計な塗りや生成時のにじみなどが残ってしまっているので、Blenderを操作してUV展開してテクスチャを再生成or手修正してください。\n```\n7. Webビューアを作成、3Dモデルを組み込んでもらう\n\nほぼ先人の方々の知恵を拝借しています。\n次はモーションやまばたきなど、細かい部分のアニメーションを作り込んでみようと思います！",
+      "publishedAt": "2026-09-17T08:08:09.000Z",
+      "authorHandle": "kokushing",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2100492307829330060",
+      "url": "https://x.com/shi3z/status/2100492307829330060",
+      "text": "「ここまで推論エンジン自前で作ってるならJevモードもすぐいけんじゃね?」と思ったら秒速で完成した。",
+      "publishedAt": "2026-09-17T07:49:26.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2100474835025768806",
+      "url": "https://x.com/seeedstudio/status/2100474835025768806",
+      "text": "Built by Chaihuo Makerspace members @QILIU9203  and @EthanYeang.\n\nThis #PhysicalAI demo combines #RealSense D455 + LingBot-Depth + #LingBot VLA V2 + Jetson AGX Thor + #LeKiwi to interact with a moving transparent bubble.\n\nTransparent objects are challenging for #RobotVision because their depth data can be noisy or incomplete.\n\nThe setup:\n@NVIDIARobotics Jetson Thor → edge AI compute\n@huggingface LeKiwi + SO-ARM → mobile manipulation\nD455 → RGB-D perception\nLingBot-Depth → depth processing\nLingBot VLA V2 → action decisions\n\nThe result? You can actually play with a robot.\nA fun example of #EdgeAI, #SpatialPerception and #VLA coming together in the real world.",
+      "publishedAt": "2026-09-17T06:40:00.000Z",
+      "authorHandle": "seeedstudio",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2100454049359577516",
+      "url": "https://x.com/wmoto_ai/status/2100454049359577516",
+      "text": "ローカルTypesafe Jev、できたんやないか？\nもうちょい速度は改善余地ありそう",
+      "publishedAt": "2026-09-17T05:17:24.000Z",
+      "authorHandle": "wmoto_ai",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2100453521711943912",
+      "url": "https://x.com/shanegJP/status/2100453521711943912",
+      "text": "そろそろフィジカルAGIの時間か…",
+      "publishedAt": "2026-09-17T05:15:18.000Z",
+      "authorHandle": "shanegJP",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2100451841314345205",
       "url": "https://x.com/npaka123/status/2100451841314345205",
       "text": "書評を書きました\n\n【書評】 Raspberry PiとPythonでつくる AIアプリ開発実践ガイド｜npaka @npaka123 note.com/npaka/n/nf0d29bcd81…",
@@ -20,6 +65,15 @@
       "repost": true
     },
     {
+      "id": "2100440723837313349",
+      "url": "https://x.com/Neel490/status/2100440723837313349",
+      "text": "I love jev, this model is so cool",
+      "publishedAt": "2026-09-17T04:24:27.000Z",
+      "authorHandle": "Neel490",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2100437650415243737",
       "url": "https://x.com/HatsuMuv/status/2100437650415243737",
       "text": "📢【プレスリリース公開】\n\nHatsuMuv、「フィジカルAI Summit」にてセミヒューマンノイドロボット「08式モビルロイド」を初公開\n\nprtimes.jp/main/html/rd/p/00…\n\n#フィジカルAISummit #AIRoA #HatsuMuv",
@@ -29,70 +83,16 @@
       "repost": true
     },
     {
-      "id": "2100424488391524844",
-      "url": "https://x.com/skylark_mmm/status/2100424488391524844",
-      "text": "【📢】\n\n#東京ゲームショウ30th にて、アスラテック株式会社が制作した『TINY METAL 2』のロボット「ポコタ」に #ハルモニウム が技術協力しました！\n\nかわいく動くその姿をぜひご覧になってください！✨\n\n📅9/17〜21\n📍幕張メッセ ホール4　AREA35ブース\n#TGS2026 #V_Sido\n\ngamewith.jp/gamedb/14525/art…",
-      "publishedAt": "2026-09-17T03:19:56.000Z",
-      "authorHandle": "skylark_mmm",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2100422094333055121",
-      "url": "https://x.com/takechi0209/status/2100422094333055121",
-      "text": "TGS今年もやばいですね...\nこれ土曜からの一般デーはさらにすごいことになるのでは",
-      "publishedAt": "2026-09-17T03:10:25.000Z",
-      "authorHandle": "takechi0209",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2100419985051201763",
-      "url": "https://x.com/robosuta2025/status/2100419985051201763",
-      "text": "国産汎用ロボット7社の試作機を一堂に公開、フィジカルAI実装へ前進　ugoは新型セミヒューマノイド「ugo Nova」を初披露\nrobotstart.info/article/2026…",
-      "publishedAt": "2026-09-17T03:02:03.000Z",
-      "authorHandle": "robosuta2025",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2100419414814576832",
-      "url": "https://x.com/W_Yoshizaki/status/2100419414814576832",
-      "text": "かわいいロボットできました！！POKOTAは東京ゲームショウ２０２６のホール５「AREA35ブース」にいます。#V_Sido @skylark_mmm @fu_s_nail @overs_5121",
-      "publishedAt": "2026-09-17T02:59:47.000Z",
-      "authorHandle": "W_Yoshizaki",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2100398907901849879",
-      "url": "https://x.com/shi3z/status/2100398907901849879",
-      "text": "東京ゲームショウ2026 サードウェーブさんブース\n永井社長のスピーチ",
-      "publishedAt": "2026-09-17T01:38:17.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2100397063821471911",
-      "url": "https://x.com/ueeeeniki/status/2100397063821471911",
-      "text": "本日こちらやります！\n書籍はいよいよ来週発売です！\n\namzn.to/4y0mHIg\n\n9月24日発売！書籍『LLMアプリケーション評価駆動開発』の歩き方 studyco.connpass.com/event/4… #StudyCo",
-      "publishedAt": "2026-09-17T01:30:58.000Z",
-      "authorHandle": "ueeeeniki",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2100388952389865919",
-      "url": "https://x.com/gclue_akira/status/2100388952389865919",
-      "text": "GPT-6 Astraで、10回目で普通に作業できるようになってるな。これも新しい生態系を示すデモ",
-      "publishedAt": "2026-09-17T00:58:44.000Z",
-      "authorHandle": "gclue_akira",
+      "id": "2100437633164087586",
+      "url": "https://x.com/GOROman/status/2100437633164087586",
+      "text": "東京ゲームショウで4,659,980円(税別)のパソコン見てきました。#TGS2026",
+      "publishedAt": "2026-09-17T04:12:10.000Z",
+      "authorHandle": "GOROman",
       "likeCount": 0,
       "repost": true
     }
   ],
-  "fetchedAt": "2026-09-17T05:24:59.690Z",
+  "fetchedAt": "2026-09-17T10:14:54.739Z",
   "stale": false,
   "error": null
 }
