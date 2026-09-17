@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.17488",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "summary": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previousl…",
-      "score": 84
+      "score": 87
     },
     {
       "id": "40bb17d7fa3d",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.18708",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "summary": "In reinforcement learning for large language models, Proximal Policy Optimization (PPO) commonly uses a critic to estim…",
-      "score": 55
+      "score": 60
     },
     {
       "id": "3e9e8b0ea532",
@@ -27,15 +27,7 @@
       "url": "https://huggingface.co/papers/2609.17708",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "summary": "Reliable confidence estimation is increasingly central to the trustworthy deployment of language models: a calibrated e…",
-      "score": 46
-    },
-    {
-      "id": "fb8323979a36",
-      "title": "ActionPiece: Rethinking Action Tokenization for Autoregressive Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2609.18487",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Action tokenizers play a central role in autoregressive vision-language-action (VLA) models, determining both the targe…",
-      "score": 36
+      "score": 47
     },
     {
       "id": "fcb5be66201e",
@@ -43,7 +35,7 @@
       "url": "https://huggingface.co/papers/2609.14320",
       "publishedAt": "2026-09-13T00:00:00.000Z",
       "summary": "Recently, linear attention layers have been increasingly adopted to replace softmax attention at scale for long-context…",
-      "score": 21
+      "score": 22
     },
     {
       "id": "1a150d5c2af8",
@@ -51,7 +43,7 @@
       "url": "https://huggingface.co/papers/2609.19138",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "summary": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No fin…",
-      "score": 13
+      "score": 14
     },
     {
       "id": "af37341e37e3",
@@ -62,19 +54,19 @@
       "score": 9
     },
     {
-      "id": "c8e819436a6c",
-      "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
-      "url": "https://huggingface.co/papers/2609.18063",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-b…",
-      "score": 7
-    },
-    {
       "id": "7dfa44267798",
       "title": "Flattening Every Memory Peak in Long-Context Mixture-of-Experts Training",
       "url": "https://huggingface.co/papers/2609.14306",
       "publishedAt": "2026-09-13T00:00:00.000Z",
       "summary": "Training a Mixture-of-Experts (MoE) model at long context or large batch size fails as soon as any one component's peak…",
+      "score": 8
+    },
+    {
+      "id": "c8e819436a6c",
+      "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
+      "url": "https://huggingface.co/papers/2609.18063",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-b…",
       "score": 7
     },
     {
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2609.15524",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "BraTS-GoAT evaluates tumor segmentation across heterogeneous populations. We trained a conventional 3D nnU-Net on 1,351…",
+      "score": 2
+    },
+    {
+      "id": "c562f844eb22",
+      "title": "Fingers as Legs: Learning Self-Supported Locomotion and Manipulation with an Anthropomorphic Hand",
+      "url": "https://huggingface.co/papers/2609.17172",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "A walking robotic hand must use the same fingers to move its body, support its weight, and interact with the environmen…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-17T15:03:26.589Z",
+  "fetchedAt": "2026-09-17T19:01:16.675Z",
   "stale": false,
   "error": null
 }
