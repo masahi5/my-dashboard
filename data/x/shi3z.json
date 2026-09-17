@@ -2,6 +2,78 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2100565689711161380",
+      "url": "https://x.com/shi3z/status/2100565689711161380",
+      "text": "来たぜ。これでprefillの引き継ぎができるようになった\nうしし",
+      "publishedAt": "2026-09-17T12:41:01.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2100540508930257152",
+      "url": "https://x.com/shi3z/status/2100540508930257152",
+      "text": "可視化して違和感に気づいて修正指示を出す。\nこれは今の所人間のプログラマーしかできないな(ギリギリのところだが)",
+      "publishedAt": "2026-09-17T11:00:58.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2100538701898195212",
+      "url": "https://x.com/shi3z/status/2100538701898195212",
+      "text": "ダッシュボードは大事",
+      "publishedAt": "2026-09-17T10:53:47.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2100538436944036331",
+      "url": "https://x.com/shi3z/status/2100538436944036331",
+      "text": "How this DeepSeek-V4.1 on A100x4 custom inference stack works:\n\nRequest intake & tokenization\nA chat request is formatted with the model’s chat template and converted into token IDs.\nPrefix cache lookup\nThe engine searches previous requests for the longest exact matching prefix.\nIf found, it restores a saved prefix snapshot. If not, it computes the prefix from scratch and saves a new snapshot.\n\nSnapshot restore\nThe snapshot contains more than KV cache: sliding-window KV, compressed KV, index/compressor state, Engram history, shared-attention metadata, and optional speculative-decoding state.\nContinuation replay\nAfter restoring the snapshot, only the tokens after the cached prefix are recomputed. The full prompt does not need to be processed again.\nParallel execution\nPerformance is increased through several layers of parallelism:\n• prefill pipelining across GPUs\n• MoE expert parallelism\n• batched decoding across requests\n• CUDA Graphs to reduce launch overhead\n• optional MTP / speculative decoding\n\nThe goal: reuse previous computation as aggressively as possible, minimize redundant prefill, and keep all 4× A100 GPUs busy during long-context inference.\nDeepSeek-V4.1 custom inference on A100×4.",
+      "publishedAt": "2026-09-17T10:52:44.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2100538279313727883",
+      "url": "https://x.com/shi3z/status/2100538279313727883",
+      "text": "DeepSeek v4.1 Flash on A100x4のダッシュボードを作ったらより最適化すべきポイントが可視化された。Claude Codeが四回呼ぶと四回コンテキストを作ってせっかくのプロンプトキャッシュが効かなくなる。これはよくない。つまりベンチマーク上の最高速度と実用上の最高速度は違うということ。チューニングのしがいがあるぜ",
+      "publishedAt": "2026-09-17T10:52:06.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2100536538321080634",
+      "url": "https://x.com/shi3z/status/2100536538321080634",
+      "text": "今回の推論エンジンのアーキテクチャを図にしたもの\n色々な工夫が入っているが、ちょっとバランス崩すとすぐeagerにデグレして激遅になるから注意が必要",
+      "publishedAt": "2026-09-17T10:45:11.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2100535335759527983",
+      "url": "https://x.com/shi3z/status/2100535335759527983",
+      "text": "深夜の方が元気になる(酒のせい)",
+      "publishedAt": "2026-09-17T10:40:24.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2100533891153150362",
+      "url": "https://x.com/shi3z/status/2100533891153150362",
+      "text": "わいもよく「ショートスリーパーですよね?」と聞かれるがぜんぜんそんなことはなく、よく寝てよく酒を飲む健康不良不良中年です",
+      "publishedAt": "2026-09-17T10:34:40.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2100521404907274453",
       "url": "https://x.com/shi3z/status/2100521404907274453",
       "text": "Jevの異常さ。もともとLLMは長大な単一コンテキストより並列推論可能な非依存型のマルチコンテキストの方が強い上に、プロンプトのprefillがJevは使い回しができるので効率が良いのはわかる。しかし55,000,000,000 tok/sというのは計算上の話だろう",
@@ -18,81 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2100505788506910867",
-      "url": "https://x.com/shi3z/status/2100505788506910867",
-      "text": "【清水亮が語るバイブコーディング現在地】会議が終わる前に、AIで試作品が完成する時代／バイブコーディングで変わる企画・提案・開発／非エンジニアも... piped.video/HXBuaBvU_7k?si=_kkJ… @YouTubeより",
-      "publishedAt": "2026-09-17T08:43:00.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2100504258546459046",
-      "url": "https://x.com/shi3z/status/2100504258546459046",
-      "text": "ゲームエンジンを作った経験がある方がいいゲームプログラマーになれるのと同じで、AIを生業にしたければLLMの推論エンジンくらい(AIに)書かせる経験は損にならないなと思った",
-      "publishedAt": "2026-09-17T08:36:55.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2100492307829330060",
-      "url": "https://x.com/shi3z/status/2100492307829330060",
-      "text": "「ここまで推論エンジン自前で作ってるならJevモードもすぐいけんじゃね?」と思ったら秒速で完成した。",
-      "publishedAt": "2026-09-17T07:49:26.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2100492160114245667",
-      "url": "https://x.com/shi3z/status/2100492160114245667",
-      "text": "repo: `github.com/shi3z/deepseekv4.…",
-      "publishedAt": "2026-09-17T07:48:50.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2100492063481778190",
-      "url": "https://x.com/shi3z/status/2100492063481778190",
-      "text": "Added Jev_mode to DeepSeek v4.1 Flash on 4x A100:  • 61.5ms response time across 100 fields • 4,800x faster than before  Massive speedup.",
-      "publishedAt": "2026-09-17T07:48:27.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2100474422641754415",
-      "url": "https://x.com/shi3z/status/2100474422641754415",
-      "text": "・・・そういや@drikinがなんか言ってたな",
-      "publishedAt": "2026-09-17T06:38:21.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2100474326155956334",
-      "url": "https://x.com/shi3z/status/2100474326155956334",
-      "text": "repo: github.com/shi3z/deepseekv4.…",
-      "publishedAt": "2026-09-17T06:37:58.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2100473366792769733",
-      "url": "https://x.com/shi3z/status/2100473366792769733",
-      "text": "Parallelizing prefill pays off: our custom DeepSeek v4.1 Flash implementation on 4x A100 hits up to 596 tok/s at 8K and 174 tok/s at 1M context. 🚀",
-      "publishedAt": "2026-09-17T06:34:10.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-17T10:14:56.360Z",
+  "fetchedAt": "2026-09-17T15:03:46.689Z",
   "stale": false,
   "error": null
 }

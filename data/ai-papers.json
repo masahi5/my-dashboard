@@ -11,15 +11,7 @@
       "url": "https://huggingface.co/papers/2609.17488",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "summary": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previousl…",
-      "score": 47
-    },
-    {
-      "id": "3e9e8b0ea532",
-      "title": "Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents",
-      "url": "https://huggingface.co/papers/2609.17708",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "Reliable confidence estimation is increasingly central to the trustworthy deployment of language models: a calibrated e…",
-      "score": 45
+      "score": 84
     },
     {
       "id": "40bb17d7fa3d",
@@ -27,7 +19,15 @@
       "url": "https://huggingface.co/papers/2609.18708",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "summary": "In reinforcement learning for large language models, Proximal Policy Optimization (PPO) commonly uses a critic to estim…",
-      "score": 35
+      "score": 55
+    },
+    {
+      "id": "3e9e8b0ea532",
+      "title": "Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents",
+      "url": "https://huggingface.co/papers/2609.17708",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "Reliable confidence estimation is increasingly central to the trustworthy deployment of language models: a calibrated e…",
+      "score": 46
     },
     {
       "id": "fb8323979a36",
@@ -35,47 +35,7 @@
       "url": "https://huggingface.co/papers/2609.18487",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "summary": "Action tokenizers play a central role in autoregressive vision-language-action (VLA) models, determining both the targe…",
-      "score": 32
-    },
-    {
-      "id": "11e6a57a148c",
-      "title": "VC-Attention: Value Smoothing and Softmax Casting for Low-bit Attention",
-      "url": "https://huggingface.co/papers/2609.15810",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Diffusion Transformers deliver state-of-the-art video generation, but their long spatiotemporal sequences make attentio…",
-      "score": 31
-    },
-    {
-      "id": "d3c3f3802941",
-      "title": "Agora: Git as Shared Memory for Collective AutoResearch",
-      "url": "https://huggingface.co/papers/2609.18094",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Autonomous research loops such as AutoResearch show that one coding agent can improve a training setup unattended. Run …",
-      "score": 30
-    },
-    {
-      "id": "622c879909f0",
-      "title": "Zing-0.5: Toward Playable Worlds with Real-Time Joint Action and Text Control",
-      "url": "https://huggingface.co/papers/2609.17909",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "We introduce Zing-0.5, a 5B autoregressive world model designed for playability: users can explore generated worlds, in…",
-      "score": 23
-    },
-    {
-      "id": "f346cf4afaf7",
-      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
-      "url": "https://huggingface.co/papers/2609.19144",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences becaus…",
-      "score": 21
-    },
-    {
-      "id": "6596a9b4ebc3",
-      "title": "HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses",
-      "url": "https://huggingface.co/papers/2609.15938",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Scientific agents contribute to hypothesis discovery by synthesizing evidence, assessing proposals, and developing new …",
-      "score": 21
+      "score": 36
     },
     {
       "id": "fcb5be66201e",
@@ -83,7 +43,15 @@
       "url": "https://huggingface.co/papers/2609.14320",
       "publishedAt": "2026-09-13T00:00:00.000Z",
       "summary": "Recently, linear attention layers have been increasingly adopted to replace softmax attention at scale for long-context…",
-      "score": 20
+      "score": 21
+    },
+    {
+      "id": "1a150d5c2af8",
+      "title": "In-Context Robot Learning with VLM Agents",
+      "url": "https://huggingface.co/papers/2609.19138",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No fin…",
+      "score": 13
     },
     {
       "id": "af37341e37e3",
@@ -91,7 +59,15 @@
       "url": "https://huggingface.co/papers/2609.19143",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "summary": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded…",
-      "score": 6
+      "score": 9
+    },
+    {
+      "id": "c8e819436a6c",
+      "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
+      "url": "https://huggingface.co/papers/2609.18063",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-b…",
+      "score": 7
     },
     {
       "id": "7dfa44267798",
@@ -99,10 +75,34 @@
       "url": "https://huggingface.co/papers/2609.14306",
       "publishedAt": "2026-09-13T00:00:00.000Z",
       "summary": "Training a Mixture-of-Experts (MoE) model at long context or large batch size fails as soon as any one component's peak…",
+      "score": 7
+    },
+    {
+      "id": "8ad2c76556bb",
+      "title": "CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents",
+      "url": "https://huggingface.co/papers/2609.18779",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Current Mixture-of-Agents (MoA) paradigms generally treat query routing and agent fine-tuning as separate processes, li…",
       "score": 3
+    },
+    {
+      "id": "81aa75c83c3b",
+      "title": "Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches",
+      "url": "https://huggingface.co/papers/2609.17652",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "When agentic sessions run to a million tokens with many sessions resident at once, the KV cache and the index that rank…",
+      "score": 2
+    },
+    {
+      "id": "50de895fa7d0",
+      "title": "Assessing nnU-Net Generalization across Brain Tumor Populations in BraTS-GoAT 2026",
+      "url": "https://huggingface.co/papers/2609.15524",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "BraTS-GoAT evaluates tumor segmentation across heterogeneous populations. We trained a conventional 3D nnU-Net on 1,351…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-17T10:14:33.481Z",
+  "fetchedAt": "2026-09-17T15:03:26.589Z",
   "stale": false,
   "error": null
 }

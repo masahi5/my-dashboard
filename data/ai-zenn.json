@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "107a9d510c21",
-      "title": "Claude Codeスキル47本運用でわかった7つの学び",
-      "url": "https://zenn.dev/sunsun_eng/articles/claude-code-skills-operations-guide",
-      "publishedAt": "2026-09-16T22:32:35.000Z",
-      "publisher": "すんすん",
-      "summary": "Claude Codeスキル47本運用でわかった7つの学び この記事の要点 Claude Codeのスキルは増やすほど便利になるわけではなく、47本規模になると「探し出せない」問題が主な壁になります。 スキルのdescriptionは検索…"
+      "id": "3af255903ce3",
+      "title": "【Zenn力執筆】#11 もし私がCopilotならプレミアリーグのスタッツをどう作るだろうか",
+      "url": "https://zenn.dev/7min/articles/01c7abc22cc825",
+      "publishedAt": "2026-09-17T10:22:55.000Z",
+      "publisher": "nanami",
+      "summary": "はじめに 皆さんは占いは好きですか。 古くからある占いとして血液型占いがあります。 よく言われるのは、 A型は几帳面 B型はマイペース O型は大雑把 AB型は変わり者 などでしょうか。 ちなみにO型の私からすると、大雑把扱いされるのはあま…"
     },
     {
-      "id": "c82710907311",
-      "title": "AIがコードを書く時代に、エンジニアがNeovimの構成を考え直した",
-      "url": "https://zenn.dev/codeconnect/articles/nvim-for-reading-ai-code",
-      "publishedAt": "2026-09-16T22:30:05.000Z",
-      "publisher": "koojy",
-      "summary": "こんにちは、コードコネクトの村上（@koojy3）です。 Neovim使いにとっては、AIにコードを書かせても、自分が読むときはNeovimじゃないと効率が落ちますよね。 Neovimは独特のキーバインドや操作感なので、そのキーバインドに…"
+      "id": "41a9ad9b46c9",
+      "title": "エージェント用の指示ファイルをAPMで配布する。チームを跨いだ共有と踏んだ落とし穴",
+      "url": "https://zenn.dev/wrench/articles/8e2a14341852fb",
+      "publishedAt": "2026-09-17T10:00:05.000Z",
+      "publisher": "wrench",
+      "summary": "はじめに 以前、CLAUDE.md を1つ置けば Claude Code / Gemini CLI / GitHub Copilot の3つとも読んでくれる、という記事を書きました。 https://zenn.dev/wrench/art…"
     },
     {
-      "id": "35abb748c1f3",
-      "title": "Claude APIで学習ログのつまずきを構造化検出する",
-      "url": "https://zenn.dev/liatris/articles/20260917-learner-stuckpoint-mining",
-      "publishedAt": "2026-09-16T22:00:06.000Z",
-      "publisher": "平野翔斗",
-      "summary": "! この記事は、Claude Codeを執筆支援に使った \"毎朝1本書く\" 取り組みの一環で書いています。 目的: 自分のAI活用キャッチアップ。仕組み自体も毎月アップデートしていきます 体制: 題材選定・実装・下書きをClaude Co…"
+      "id": "93a09588a775",
+      "title": "Xcodeのプロジェクト設定をJSONにする",
+      "url": "https://zenn.dev/d_date/articles/b1a7baa74b77da",
+      "publishedAt": "2026-09-17T08:45:24.000Z",
+      "publisher": "Daiki Matsudate",
+      "summary": "はじめに project.pbxprojのコンフリクトは、Xcodeプロジェクトをチームで触っていると何度も出会う問題です。別々のブランチでファイルを1つずつ追加しただけでも衝突し、解消するときは24桁のIDを見比べながら、どの行を残せば…"
     },
     {
-      "id": "826cb7f7e898",
-      "title": "typesafe.ai 触ってみた 最初の感想",
-      "url": "https://zenn.dev/makotan/articles/ea6668460c1c1f",
-      "publishedAt": "2026-09-16T21:49:36.000Z",
-      "publisher": "makotan",
-      "summary": "これはなに？ AI企業の typesafe.ai のアカウントが作れて実際にかるーーーく触った感想 2026/09/17時点ではwaitlistに登録した人にアカウント登録の招待メールが送られてるっぽく実際に登録して翌日には招待メールが届…"
+      "id": "c751d3737f16",
+      "title": "コーディングエージェントとプロンプトインジェクション",
+      "url": "https://zenn.dev/tosshi/articles/0f467b2807e1fc",
+      "publishedAt": "2026-09-17T08:38:51.000Z",
+      "publisher": "littlemex",
+      "summary": "はじめに コーディングエージェントを組織に入れるとき、プロンプトインジェクションへの対策をどこに置くのかという問いが必ず出てきます。結論を先に書きます。 入力に含まれた指示が悪意あるものかを判定する層は実在しますが、どれもセキュリティ境界…"
     },
     {
-      "id": "d4f6f6127877",
-      "title": "属性名指しの忌避指示、LLMの人物推定は年齢にしか効かなかった",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-age-guess-stop-instruction",
-      "publishedAt": "2026-09-16T21:09:17.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 会話履歴から人物像を推定させるタスクで、「推測は推測だと明示して」という一般的な忌避指示(条件A)と、対象属性を名指しした上で「分からなければ分からないと言え」と迫る忌避指示(条件B)を比較した 年齢については、条件Aは具体的…"
+      "id": "b6ba287e1617",
+      "title": "Awesome MiniMax H3 Max Prompts — H3 Max の事例を保守しやすく整理する",
+      "url": "https://zenn.dev/vulcanfeynman/articles/5d2eaf5e52cae7",
+      "publishedAt": "2026-09-17T08:23:07.000Z",
+      "publisher": "VulcanFeynman",
+      "summary": "公開動画の出典とプロンプトの分類を、構造化したデータにまとめました。二言語の読み物と元データを分けることで、後から入力条件や失敗記録を補いやすくしています。 収録内容 公開している H3 Max の事例集には、公開アカウント 15 件から…"
     },
     {
-      "id": "0225960b3fa8",
-      "title": "TCP輻輳制御に強化学習適用",
-      "url": "https://zenn.dev/yoshinn/articles/rl_perspective_on_nw",
-      "publishedAt": "2026-09-16T21:01:40.000Z",
-      "publisher": "yoshishinnze",
-      "summary": "ネットワークの制御は機械的で状況に応じた制御できないかと感じることがあります。 そんな中状況に応じて制御という言葉が出てくると、まあ、深層強化学習ですよね。 ネットワークのルーティングや制御に強化学習を用いたものがないかを調べてみるとあり…"
+      "id": "9347a61ea586",
+      "title": "C# と Luaで何かやってみる (LMStudio&Python)",
+      "url": "https://zenn.dev/baleenstudio/articles/67ddfb62c4e2fb",
+      "publishedAt": "2026-09-17T07:42:49.000Z",
+      "publisher": "developmaeda",
+      "summary": "Lua とは？ Lua は軽量で高速な組み込み型スクリプト言語です。 実行環境が小さく、学習曲線も緩やかなので、C#、Java、Python などのホスト言語に簡単に組み込めます。 C# から Lua を呼び出すと、次のようなメリットがあ…"
     },
     {
-      "id": "d2e4a1511990",
-      "title": "「もしも天気」の始まり",
-      "url": "https://zenn.dev/moshimo_weather/articles/86568e2b7bacd1",
-      "publishedAt": "2026-09-16T20:57:09.000Z",
-      "publisher": "もしも天気",
-      "summary": "前回の記事(「天気予報」ではなく「天気予想」を作った話)では、アプリの仕組みと機能を中心に書きました。今回は、開発の始まりの話です。 開発のはじまり 「天気予報を作ろう」としたわけではなかった。 「今とよく似た天気だった日を過去から探して…"
+      "id": "bb34405a3c97",
+      "title": "AIで複数コマの漫画を作るとき、最初に試したくなるのが「同じseedと同じpromptを使い続ける」方法です。",
+      "url": "https://zenn.dev/mangacue/articles/e8257b25d5e928",
+      "publishedAt": "2026-09-17T07:23:06.000Z",
+      "publisher": "mangacue",
+      "summary": "自分も最初はそう考えていました。 1コマ目でキャラクターがうまく出たら、そのseedを残して、promptの「教室」「駅」「笑顔」みたいな部分だけ変える。 でも実際にコマを増やすと、これだけでは安定しませんでした。 背景を変えただけなのに…"
     },
     {
-      "id": "0369bc223c78",
-      "title": "永愛日記#2",
-      "url": "https://zenn.dev/kojikoba/articles/87d79c758ff4b6",
-      "publishedAt": "2026-09-16T19:12:43.000Z",
-      "publisher": "KOJIKOBA",
-      "summary": "AIを親友に、不可能だと思いますか？"
+      "id": "456116fb7599",
+      "title": "ハンズオンを、AI駆動開発の題材にする",
+      "url": "https://zenn.dev/amayann/articles/ai-driven-dev-with-markdownbook-hands-on",
+      "publishedAt": "2026-09-17T06:58:47.000Z",
+      "publisher": "bauhaus",
+      "summary": "この記事では、以前書いた2冊の本をどう組み合わせて使うかを書きます。 ひとつは、2026年に出した『Cursor で回す AI 駆動開発：契約・検証・一貫性』です。Cursor などのコーディングエージェントと開発を進めるときの、進め方の…"
     },
     {
-      "id": "97690086f127",
-      "title": "KiroのレビューをAgentsに任せたら、チームの品質がそろってきた話",
-      "url": "https://zenn.dev/nanashi123/articles/kiro-review-agents-team-quality",
-      "publishedAt": "2026-09-16T18:03:13.000Z",
-      "publisher": "nanashi123",
-      "summary": "はじめに 以前、Kiroでspec・steering・skills・hooksを使い、設計書を優先して開発を進める方法を書きました。 Kiroを実務で使って見えてきた、設計書優先の進め方 その後もチームでKiroを使う中で、運用を少しずつ…"
+      "id": "34455b4e5839",
+      "title": "GPU数万枚の強化学習に、デスクトップ1台と数ドルのコード進化で迫る — 自律最適化エンジン「TANREN」の設計",
+      "url": "https://zenn.dev/suzukishoten/articles/68cd8e1f82858d",
+      "publishedAt": "2026-09-17T06:57:47.000Z",
+      "publisher": "鈴木商店",
+      "summary": "TL;DR 数万GPUでの強化学習や、推論時に大量トークンを消費し続けるアプローチに対抗し、デスクトップ1台・数ドルのAPI代でアルゴリズムを自律最適化する仕組み「TANREN（鍛錬）」を作りました。 重み（Weight）を訓練するのでは…"
     },
     {
-      "id": "c70c1627f631",
-      "title": "Claude Code に実装を任せるとき、人は何を見るのか — Light SDD の4フェーズと人の持ち場",
-      "url": "https://zenn.dev/kenichi_mishina/articles/8e011e6dece7e3",
-      "publishedAt": "2026-09-16T16:43:51.000Z",
-      "publisher": "Kenichi Mishina / 三品 賢一",
-      "summary": "この記事で分かること AI エージェントに作業を任せる範囲が広がると、人の持ち場がどこへ移るのか 仕様を短く外部化して回す「仕様 → 計画 → 実装 → 検証」の4フェーズ 各フェーズで、返ってきたものを人がどう確かめるか 成果物を読んで…"
+      "id": "4873638b77a8",
+      "title": "TypeSafeのJevを正しく驚く、それってLLMでできませんか？",
+      "url": "https://zenn.dev/nwn/articles/824026c76116e0",
+      "publishedAt": "2026-09-17T06:56:15.000Z",
+      "publisher": "ヨ",
+      "summary": "Jevとは？ TypeSafe AIの「Jev」は、文章を生成する代わりに、ソフトウェアがそのまま使える判断と確率を高速に返すモデルです。 詳しい説明に関しては公式サイトに譲ります これをみて正直なところ「それは既存のLLMでもできるので…"
     },
     {
-      "id": "08b74b9fa7a7",
-      "title": "Sakana Fugu Skips GPT-6 and Claude, Wins Most Benchmarks Anyway",
-      "url": "https://zenn.dev/neotechpark/articles/0accd62fb9475f",
-      "publishedAt": "2026-09-16T16:36:56.000Z",
-      "publisher": "NeoTechPark",
-      "summary": "On September 11, 2026, the Tokyo lab Sakana AI released two new versions of its Fugu orchestration system: Fugu Ultra v…"
+      "id": "91da79f8363c",
+      "title": "Windows + AIコーディングエージェントで踏んだ罠をまとめた",
+      "url": "https://zenn.dev/mukuil_blog/articles/9a048ea2e8dec4",
+      "publishedAt": "2026-09-17T06:24:25.000Z",
+      "publisher": "r.iguchi",
+      "summary": "こんにちは！株式会社ムクイルのiguchiです。 Windows特有の「あるある」が地味に効いてくる AIコーディングエージェントを使った開発は、基本的にLinux/macOS前提のノウハウがネット上に多く、Windows環境で運用してい…"
     },
     {
-      "id": "3ff417233a0d",
-      "title": "サンキーダイアグラムで何かしたいWeb開発未経験者がCodexと出会ったらなんやかんやあって税金の行き先の見える化webアプリが作れてしまっ",
-      "url": "https://zenn.dev/koyoi22000/articles/54a881b54f3bac",
-      "publishedAt": "2026-09-16T15:37:11.000Z",
-      "publisher": "koyoi",
-      "summary": "た録 公開されている決算データなどをもとに、一定のルールで可視化するアプリです。 webアプリ開発未経験がAIの力を借りて長年の夢を実現した回想録です。 ここで動いています。 始まりは「サンキーダイアグラムってかっこいい」 （後から名前を…"
+      "id": "cf4f7b975ac4",
+      "title": "83万行のRust移行から読む、AI時代の大規模リライト設計",
+      "url": "https://zenn.dev/amamiya_chan/articles/c94abf00fb9f45",
+      "publishedAt": "2026-09-17T05:56:17.000Z",
+      "publisher": "雨宮（Amamiya）",
+      "summary": "GitHubは2026年9月16日、Copilotのagent runtimeをTypeScript／Node.jsからRustへ移行した経緯を公開した。完成した実装は832,378行のproduction Rust。AI Agentがコ…"
     }
   ],
-  "fetchedAt": "2026-09-17T10:14:33.600Z",
+  "fetchedAt": "2026-09-17T15:03:26.658Z",
   "stale": false,
   "error": null
 }
