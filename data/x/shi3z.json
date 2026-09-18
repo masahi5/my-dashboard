@@ -2,6 +2,24 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2100721814767026368",
+      "url": "https://x.com/shi3z/status/2100721814767026368",
+      "text": "すがや先生が堂々と生成AIでマンガ書いてると仰ってる。そして個性とはハズレ値じゃなきゃならないと。至言です",
+      "publishedAt": "2026-09-17T23:01:24.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2100721263790747811",
+      "url": "https://x.com/shi3z/status/2100721263790747811",
+      "text": "東京ゲームショウ2026に行ってきた｜shi3z @shi3z note.com/shi3zblog/n/n208bd5…",
+      "publishedAt": "2026-09-17T22:59:13.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2100703217797738691",
       "url": "https://x.com/shi3z/status/2100703217797738691",
       "text": "AIは「違和感」を認知できない\nwirelesswire.jp/2026/09/9451…",
@@ -72,27 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2100538436944036331",
-      "url": "https://x.com/shi3z/status/2100538436944036331",
-      "text": "How this DeepSeek-V4.1 on A100x4 custom inference stack works:\n\nRequest intake & tokenization\nA chat request is formatted with the model’s chat template and converted into token IDs.\nPrefix cache lookup\nThe engine searches previous requests for the longest exact matching prefix.\nIf found, it restores a saved prefix snapshot. If not, it computes the prefix from scratch and saves a new snapshot.\n\nSnapshot restore\nThe snapshot contains more than KV cache: sliding-window KV, compressed KV, index/compressor state, Engram history, shared-attention metadata, and optional speculative-decoding state.\nContinuation replay\nAfter restoring the snapshot, only the tokens after the cached prefix are recomputed. The full prompt does not need to be processed again.\nParallel execution\nPerformance is increased through several layers of parallelism:\n• prefill pipelining across GPUs\n• MoE expert parallelism\n• batched decoding across requests\n• CUDA Graphs to reduce launch overhead\n• optional MTP / speculative decoding\n\nThe goal: reuse previous computation as aggressively as possible, minimize redundant prefill, and keep all 4× A100 GPUs busy during long-context inference.\nDeepSeek-V4.1 custom inference on A100×4.",
-      "publishedAt": "2026-09-17T10:52:44.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2100538279313727883",
-      "url": "https://x.com/shi3z/status/2100538279313727883",
-      "text": "DeepSeek v4.1 Flash on A100x4のダッシュボードを作ったらより最適化すべきポイントが可視化された。Claude Codeが四回呼ぶと四回コンテキストを作ってせっかくのプロンプトキャッシュが効かなくなる。これはよくない。つまりベンチマーク上の最高速度と実用上の最高速度は違うということ。チューニングのしがいがあるぜ",
-      "publishedAt": "2026-09-17T10:52:06.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-17T22:08:53.429Z",
+  "fetchedAt": "2026-09-18T00:17:12.714Z",
   "stale": false,
   "error": null
 }
