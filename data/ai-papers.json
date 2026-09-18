@@ -14,20 +14,20 @@
       "score": 21
     },
     {
-      "id": "6a7ee123305e",
-      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2609.20784",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivat…",
-      "score": 13
-    },
-    {
       "id": "f9fc19aa0ffc",
       "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
       "url": "https://huggingface.co/papers/2609.20511",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even…",
-      "score": 9
+      "score": 16
+    },
+    {
+      "id": "6a7ee123305e",
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2609.20784",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivat…",
+      "score": 14
     },
     {
       "id": "24f4cedcb0ae",
@@ -38,20 +38,12 @@
       "score": 9
     },
     {
-      "id": "1248ba6390c0",
-      "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
-      "url": "https://huggingface.co/papers/2609.17653",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated…",
-      "score": 9
-    },
-    {
       "id": "ba63cd2239de",
       "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
       "url": "https://huggingface.co/papers/2609.20817",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial g…",
-      "score": 4
+      "score": 5
     },
     {
       "id": "2967ab4216c5",
@@ -62,12 +54,12 @@
       "score": 3
     },
     {
-      "id": "8b1700e1ceb3",
-      "title": "What Does Privileged Information Add to On-Policy Self-Distillation?",
-      "url": "https://huggingface.co/papers/2609.20612",
+      "id": "5b4ed67d54a3",
+      "title": "Self-Evolving Search Index",
+      "url": "https://huggingface.co/papers/2609.19656",
       "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "On-policy self-distillation (OPSD) lets a language model learn from a frozen copy of itself that sees an answer or a wo…",
-      "score": 3
+      "summary": "Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs.…",
+      "score": 2
     },
     {
       "id": "79d92bfb7cd8",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "summary": "We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Beng…",
       "score": 1
+    },
+    {
+      "id": "b22cc529a2cf",
+      "title": "Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling",
+      "url": "https://huggingface.co/papers/2609.19499",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses. …",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-18T13:45:50.536Z",
+  "fetchedAt": "2026-09-18T17:27:05.672Z",
   "stale": false,
   "error": null
 }
