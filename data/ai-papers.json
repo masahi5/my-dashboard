@@ -6,28 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "91d86eee380a",
-      "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
-      "url": "https://huggingface.co/papers/2609.19969",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work h…",
-      "score": 36
-    },
-    {
-      "id": "f9fc19aa0ffc",
-      "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.20511",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even…",
-      "score": 30
-    },
-    {
       "id": "5368ea516afe",
       "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
       "url": "https://huggingface.co/papers/2609.18323",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "summary": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, ima…",
-      "score": 19
+      "score": 21
     },
     {
       "id": "6a7ee123305e",
@@ -35,7 +19,15 @@
       "url": "https://huggingface.co/papers/2609.20784",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivat…",
-      "score": 10
+      "score": 13
+    },
+    {
+      "id": "f9fc19aa0ffc",
+      "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.20511",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even…",
+      "score": 9
     },
     {
       "id": "24f4cedcb0ae",
@@ -43,7 +35,7 @@
       "url": "https://huggingface.co/papers/2609.20423",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Document parsing converts document images into structured content and requires reliable performance across diverse layo…",
-      "score": 8
+      "score": 9
     },
     {
       "id": "1248ba6390c0",
@@ -51,15 +43,7 @@
       "url": "https://huggingface.co/papers/2609.17653",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "summary": "GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated…",
-      "score": 7
-    },
-    {
-      "id": "72e2a5bb7057",
-      "title": "UFO: Chain-of-Evaluation for Omni-Condition Alignment in Multi-Modal Image Generation",
-      "url": "https://huggingface.co/papers/2609.12397",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Multi-modal image generation, particularly subject-driven customization, has garnered growing attention in recent years…",
-      "score": 4
+      "score": 9
     },
     {
       "id": "ba63cd2239de",
@@ -67,7 +51,7 @@
       "url": "https://huggingface.co/papers/2609.20817",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial g…",
-      "score": 3
+      "score": 4
     },
     {
       "id": "2967ab4216c5",
@@ -86,12 +70,28 @@
       "score": 3
     },
     {
+      "id": "79d92bfb7cd8",
+      "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
+      "url": "https://huggingface.co/papers/2609.20715",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Agent trajectories record what an agent does and what happens next. Yet standard supervised fine-tuning (SFT) applies l…",
+      "score": 2
+    },
+    {
       "id": "25a69e8810b0",
       "title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
       "url": "https://huggingface.co/papers/2609.18605",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "summary": "As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such…",
       "score": 2
+    },
+    {
+      "id": "2f17f124df6e",
+      "title": "VākQA: A Benchmark and Evaluation Study for Telugu Spoken Factoid Question Answering",
+      "url": "https://huggingface.co/papers/2609.19879",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Question answering has advanced rapidly with large language models, but predominantly for high-resource languages, in b…",
+      "score": 1
     },
     {
       "id": "bca683248bf8",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-18T09:30:21.498Z",
+  "fetchedAt": "2026-09-18T13:45:50.536Z",
   "stale": false,
   "error": null
 }
