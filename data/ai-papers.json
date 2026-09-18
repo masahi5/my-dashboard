@@ -6,6 +6,14 @@
   "category": "ai",
   "items": [
     {
+      "id": "f9fc19aa0ffc",
+      "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.20511",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even…",
+      "score": 28
+    },
+    {
       "id": "5368ea516afe",
       "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
       "url": "https://huggingface.co/papers/2609.18323",
@@ -14,20 +22,12 @@
       "score": 21
     },
     {
-      "id": "f9fc19aa0ffc",
-      "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.20511",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even…",
-      "score": 19
-    },
-    {
       "id": "6a7ee123305e",
       "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
       "url": "https://huggingface.co/papers/2609.20784",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivat…",
-      "score": 14
+      "score": 15
     },
     {
       "id": "0aab12362f8a",
@@ -35,7 +35,7 @@
       "url": "https://huggingface.co/papers/2609.17496",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "summary": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation sett…",
-      "score": 11
+      "score": 13
     },
     {
       "id": "24f4cedcb0ae",
@@ -44,6 +44,14 @@
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Document parsing converts document images into structured content and requires reliable performance across diverse layo…",
       "score": 9
+    },
+    {
+      "id": "5b4ed67d54a3",
+      "title": "Self-Evolving Search Index",
+      "url": "https://huggingface.co/papers/2609.19656",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs.…",
+      "score": 7
     },
     {
       "id": "ba63cd2239de",
@@ -62,11 +70,11 @@
       "score": 3
     },
     {
-      "id": "5b4ed67d54a3",
-      "title": "Self-Evolving Search Index",
-      "url": "https://huggingface.co/papers/2609.19656",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs.…",
+      "id": "b22cc529a2cf",
+      "title": "Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling",
+      "url": "https://huggingface.co/papers/2609.19499",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses. …",
       "score": 2
     },
     {
@@ -92,17 +100,9 @@
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "summary": "We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Beng…",
       "score": 1
-    },
-    {
-      "id": "b22cc529a2cf",
-      "title": "Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling",
-      "url": "https://huggingface.co/papers/2609.19499",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses. …",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-18T19:52:31.260Z",
+  "fetchedAt": "2026-09-18T22:14:35.916Z",
   "stale": false,
   "error": null
 }

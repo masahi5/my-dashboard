@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "abc2e7501a31",
-      "title": "AIパスポート試験に挑戦してみた",
-      "url": "https://zenn.dev/k_tabuchi/articles/20260826_ai_passport",
-      "publishedAt": "2026-09-18T14:42:58.000Z",
-      "publisher": "k-tabuchi",
-      "summary": "まえがき 先日、生成AIパスポート試験を受けてきました。 今回はその体験談です。 受験の動機 まず、なぜこの試験を受けてみようと思ったかというと、以下のような理由が挙げられます。 私の所属会社がAIを活用することを目指しているとのことで自…"
+      "id": "ed728f5db708",
+      "title": "【2026/9/17最新アプデ】Claude Docs が登場！Slides・Design と合わせて触ってみた",
+      "url": "https://zenn.dev/canly/articles/7ac8cea14c20e8",
+      "publishedAt": "2026-09-18T10:40:41.000Z",
+      "publisher": "ふくだ（fukuda ryu）",
+      "summary": "本記事は 2026/9/17〜18(日本時間)に実際に触って確かめた内容です。Claude Docs / Claude Slides / Claude Design はいずれも beta 提供中で、公式ドキュメントの記述と実際の挙動が一致…"
     },
     {
-      "id": "25de08f69de6",
-      "title": "判断だけさせるローカル LLM のすすめ",
-      "url": "https://zenn.dev/genkunjc/articles/local-llm-judge-only",
-      "publishedAt": "2026-09-18T14:20:54.000Z",
-      "publisher": "circle",
-      "summary": "Jev（TypeSafe）が話題になっていますが、同じ発想は手元の Ollama でもそのまま動きます。実際に測ったら、中央値 55ms・最速 23ms でした（RTX 5060 Ti・15 回・ぶれなし）。課金も API キーも要りませ…"
+      "id": "14c414a8a75c",
+      "title": "【売上0円】Mac miniで自律AIを毎時動かしてわかった、プロンプトより先に組むべき3つの運用ルール",
+      "url": "https://zenn.dev/sora_proj/articles/f54b524f10cb49",
+      "publishedAt": "2026-09-18T10:19:32.000Z",
+      "publisher": "SoraProject",
+      "summary": "昨日の20時起動で、199回目の定例会議が終わった。 売上は綺麗さっぱり0円だ。 Mac mini 1台を朝9時から夜22時まで毎時起動させている某株式会社のAI部署の会社実験である。今週の実入金は0円、note に投下した7記事の累計ビ…"
     },
     {
-      "id": "7f9f24b53a6f",
-      "title": "2026-08-30 今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-08-30-tech-daily",
-      "publishedAt": "2026-09-18T14:05:02.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "2026年のAI・Web開発環境で今すぐ対応すべき4つの構造変化 この記事で分かること Cursorアクセス停止に伴うAI開発ツールの依存リスク対策と安全設計 Next.jsのクリティカル脆弱性対策とAI Agent用サンドボックスの選定…"
+      "id": "33fe2bc5828a",
+      "title": "AI.GENERATE完全ガイド — 引数・戻り値STRUCT・実務での使いどころ",
+      "url": "https://zenn.dev/web_benriya/articles/bigquery-ai-generate-complete-guide",
+      "publishedAt": "2026-09-18T10:13:05.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに シリーズ第5回、フェーズ2の第1回です。 前回（第4回）では ML.GENERATE_TEXT から新世代の AI.* 関数への移行を整理しました。今回からフェーズ2として、個々の AI 関数を掘り下げていきます。最初は AI.…"
     },
     {
-      "id": "899a2d5a01f7",
-      "title": "同じGeminiでも精度が違う――ClineからAntigravityに移って知ったエージェントハーネスの影響",
-      "url": "https://zenn.dev/kotakotahiro/articles/7d4c1bd80a7f29",
-      "publishedAt": "2026-09-18T13:50:26.000Z",
-      "publisher": "こたこた博",
-      "summary": "! 本記事は2026年9月時点の情報に基づいています。この領域は料金体系・提供モデル・製品構成の変更が非常に頻繁です。導入を検討される際は、必ず各社の公式情報で最新の状態をご確認ください。 はじめに 設計作業にAIを組み込もうと検証を進め…"
+      "id": "f2b5c6fffb58",
+      "title": "並列開発を殺すのは、いつも共有ファイル",
+      "url": "https://zenn.dev/quintetkit/articles/shared-files-kill-parallelism",
+      "publishedAt": "2026-09-18T09:47:59.000Z",
+      "publisher": "Quintet Kit",
+      "summary": "複数の作業を並列で走らせようとして、こうなったことはありませんか。 3つの機能を別ブランチで進めたら、全部が同じファイルでコンフリクトした 解消してマージしたら、別のブランチがまた同じ場所で衝突した 結局1本ずつ回すことにした 原因はたい…"
     },
     {
-      "id": "ab879ce76913",
-      "title": "「無い物」はAIに、「有る物」は人に｜介護の現場で考えた線引き（2026年9月）",
-      "url": "https://zenn.dev/kss_cis_basekit/articles/bc6358218038d2",
-      "publishedAt": "2026-09-18T13:41:05.000Z",
-      "publisher": "KeySolutionSupport",
-      "summary": "電話に出られないときに、AIが代わりに受けて、用件をまとめてLINEに届ける。そういうサービスを作って、動かしています。CiS（シス）といいます。いまお使いの電話番号のままで、月3,200円から。今日も動いています。 先に、自分の状況を書…"
+      "id": "932cef7c80fc",
+      "title": "AIだけで作ったOLAP DB：アーキテクチャと、規律の与え方",
+      "url": "https://zenn.dev/loglass/articles/d51400bd724686",
+      "publishedAt": "2026-09-18T09:47:57.000Z",
+      "publisher": "Hiroshi Ito",
+      "summary": "! この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の161週目の記事です！ 4年連続達成まであと51週となりました！ こんにちは、ログラスのいとひろ（@itohiro73）です。 2026年7…"
     },
     {
-      "id": "ee7e1e57c98e",
-      "title": "判定特化モデルJevに将棋を指させて、どこまで勝てるか試しました",
-      "url": "https://zenn.dev/pepabo/articles/jev-shogi-experiment",
-      "publishedAt": "2026-09-18T13:29:51.000Z",
-      "publisher": "栗林健太郎",
-      "summary": "米TypeSafe AIのJevは、文章を生成せず、あらかじめ渡した選択肢それぞれの確率だけを返すモデルです。2026年9月18日からロリポップ！AIゲートウェイ経由で使えるようになり、9月24日までは無料で試せます。 分類や振り分けのた…"
+      "id": "f48180faf9d1",
+      "title": "プロダクトビルダー",
+      "url": "https://zenn.dev/soraristkhs/books/product-builder",
+      "publishedAt": "2026-09-18T09:32:17.000Z",
+      "publisher": "そらり高橋",
+      "summary": "非技術系PMが、AI時代の新しい職能「プロダクトビルダー」への移行プロセスを、自らの一次体験と職能論として記録する。"
     },
     {
-      "id": "8a8e5fbf1586",
-      "title": "Jevの判断をElixirの式として書ける「Jevex」を作りました",
-      "url": "https://zenn.dev/pepabo/articles/jevex-elixir-jev",
-      "publishedAt": "2026-09-18T13:22:40.000Z",
-      "publisher": "栗林健太郎",
-      "summary": "TypeSafeの推論モデルJevをElixirから使うためのライブラリ、Jevexを作りました。文章を分類したり、緊急度を評価したりする処理を、いつものEnumやパイプラインの中に書けます。 ソースコードはGitHub、パッケージはHe…"
+      "id": "d2572a966e5c",
+      "title": "JevでIMEの候補を選び直したら、独自テストの正解率がApple標準IMEの2倍以上になった",
+      "url": "https://zenn.dev/rasokiwayami/articles/dd2e71971bc222",
+      "publishedAt": "2026-09-18T09:29:56.000Z",
+      "publisher": "rasokiwayami",
+      "summary": "既存IMEの候補をJevに選ばせる 日本語IMEが生成した変換候補を、TypeSafe AIの判断モデル「Jev」に選び直させました。 最初の1,000件では、Apple標準IMEの第一候補が414件正解だったのに対し、Karukanの候…"
     },
     {
-      "id": "2878ae1b68bb",
-      "title": "AI音声チャットに「聞いてる・考えてる・話してる」を見せる — 状態連動の音声ビジュアライザーを依存ゼロで作った",
-      "url": "https://zenn.dev/tamasizume/articles/5bab9ac372f04f",
-      "publishedAt": "2026-09-18T13:17:47.000Z",
-      "publisher": "地球アンテナ",
-      "summary": "AI音声チャットを作っていて、一番気になったのは「AIが今なにをしているのか」が画面から分からないことでした。マイクは拾えているのか、考えているのか、もう話し始めているのか。テキストなら「…」で済むところが、音声だと無音の数秒が長い。 そ…"
+      "id": "c3b44ae9a9df",
+      "title": "パランティアの衝撃：データとAIを繋ぐ「オントロジー」戦略",
+      "url": "https://zenn.dev/leading_ai/books/palantir-ontology-strategy",
+      "publishedAt": "2026-09-18T09:25:55.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "Palantir Foundryの中核概念「オントロジー」を、現実世界を名詞（オブジェクト・プロパティ・リンク）と動詞（アクション・ファンクション・動的セキュリティ）でモデル化し、ブランチとレビューの統治プロセスを通じてAIが安全に現実の…"
     },
     {
-      "id": "4c04a18c7c4e",
-      "title": "読まない技術 第12回：作業結果を読まない技術",
-      "url": "https://zenn.dev/garplab/articles/1769779c2f1b4b",
-      "publishedAt": "2026-09-18T13:07:39.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「読まない技術」の第 12 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回…"
+      "id": "ea20f232b25a",
+      "title": "YOLO26nアーキテクチャ徹底解析 step4 | Detectブロック",
+      "url": "https://zenn.dev/diiw/articles/yolo26n-architecture-step4",
+      "publishedAt": "2026-09-18T09:14:20.000Z",
+      "publisher": "DiIw",
+      "summary": "はじめに 本記事は、筆者がソースコードおよびモデル構造を独自に解析した情報に基づき解説を行う記事です。本記事の内容は更新される場合があります。内容に大きな変更・追加があった場合は都度Xアカウントにて発信いたします。 本記事は「YOLO26…"
     },
     {
-      "id": "8495bbc3cbdf",
-      "title": "ロリポップ！AIゲートウェイでJev に LLM Modelの振り分けを任せてみた！",
-      "url": "https://zenn.dev/pepabo/articles/jev-lolipop-ai-gateway",
-      "publishedAt": "2026-09-18T12:59:15.000Z",
-      "publisher": "yukyu",
-      "summary": "ロリポップ！AIゲートウェイ（以下、AIゲートウェイ）から、TypeSafe AI の Jev を呼び出せるようになりました。 https://x.com/lolipop_ai/status/2100898486330016219 AIゲ…"
+      "id": "e99ee87d3caa",
+      "title": "文章を生成しないAI「Jev」を日本語で48回試した。速さより面白かったのは「迷い」",
+      "url": "https://zenn.dev/acrosstudioblog/articles/a62c066d5d9938",
+      "publishedAt": "2026-09-18T09:11:39.000Z",
+      "publisher": "シンウフム(wooheum xin)",
+      "summary": "「この問い合わせは返金要求ですか？ はい・いいえだけで答えてください。説明は不要です。」 LLMをアプリに組み込んだことがある人なら、一度はこんなプロンプトを書いたのではないでしょうか。 欲しいのは文章ではなく、条件分岐に使う値。それなら…"
     },
     {
-      "id": "630d9230c1b7",
-      "title": "レビューを軽視するAI効率厨に告げる",
-      "url": "https://zenn.dev/continuitymodel/articles/670a348b07e244",
-      "publishedAt": "2026-09-18T12:45:52.000Z",
-      "publisher": "continuity-model",
-      "summary": "AIを使えば、30分かかっていた作業が5分で終わる。 だから、25分空いた。 そんな計算を見かけるたびに、ちょっと待てと思う。 その5分で出てきたものを、誰がレビューするのか。 例外は誰が見るのか。 次回も同じ品質で出るのか。 前工程から…"
+      "id": "6e5b9e70b020",
+      "title": "Lean 4の型エラーをAIに相談する前に、そろえたい3つの情報",
+      "url": "https://zenn.dev/matsuteru/articles/lean4-ai-type-error",
+      "publishedAt": "2026-09-18T08:53:41.000Z",
+      "publisher": "tetsu",
+      "summary": "Leanで赤いエラーが出たとき、その文だけをAIに貼って「直してください」と頼みたくなります。ところが、エラーから分かるのは「Leanが何を受け付けなかったか」です。「何を実現したかったか」までは書かれていません。同じエラーでも、目的によ…"
     },
     {
-      "id": "3fd97d544aae",
-      "title": "「Jev って何？意味分かんない！」という方向けに、ざっくり解説してみたよ！",
-      "url": "https://zenn.dev/nix/articles/85cbdf3b1c5c83",
-      "publishedAt": "2026-09-18T12:27:46.000Z",
-      "publisher": "___nix___",
-      "summary": "はじめに リリースされたばかりなのに Jev を使いこなす人達は狂ってる、と思っているかもしれない @___nix___ です。 今回は AI にあまり詳しくない方にも伝わるように、ちょっと変わった AI をご紹介してみます。 背景 Ch…"
+      "id": "17ebf4c0a0f3",
+      "title": "【sshboard】AI エージェントに SSH を渡す。ただし、人と同じ 1 本を",
+      "url": "https://zenn.dev/dokokade/articles/4000d01386b94d",
+      "publishedAt": "2026-09-18T08:45:22.000Z",
+      "publisher": "Dokokade",
+      "summary": "はじめに こんにちは。AI エージェントの私（ソウ）です。連載では複数案件の司令塔をやっている話を書いていますが、今回は単発で、自社 OSS の紹介をさせてください。 sshboard という SSH クライアントを作りました。MIT で…"
     }
   ],
-  "fetchedAt": "2026-09-18T19:52:31.449Z",
+  "fetchedAt": "2026-09-18T22:14:36.035Z",
   "stale": false,
   "error": null
 }
