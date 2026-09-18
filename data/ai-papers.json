@@ -6,36 +6,28 @@
   "category": "ai",
   "items": [
     {
-      "id": "2191d314aa41",
-      "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
-      "url": "https://huggingface.co/papers/2609.20800",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet pr…",
-      "score": 17
-    },
-    {
-      "id": "1e18eb3ed9cb",
-      "title": "RiskChainBench: A Benchmark for Obfuscated Platform Message Restoration and Evidence-Grounded Web Investigation",
-      "url": "https://huggingface.co/papers/2609.16900",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "Platform abuse campaigns conceal redirection instructions with emojis, homophones, character decomposition, and redunda…",
-      "score": 14
-    },
-    {
       "id": "91d86eee380a",
       "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
       "url": "https://huggingface.co/papers/2609.19969",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work h…",
-      "score": 13
+      "score": 36
     },
     {
-      "id": "24f4cedcb0ae",
-      "title": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
-      "url": "https://huggingface.co/papers/2609.20423",
+      "id": "f9fc19aa0ffc",
+      "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.20511",
       "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Document parsing converts document images into structured content and requires reliable performance across diverse layo…",
-      "score": 5
+      "summary": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even…",
+      "score": 30
+    },
+    {
+      "id": "5368ea516afe",
+      "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
+      "url": "https://huggingface.co/papers/2609.18323",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, ima…",
+      "score": 19
     },
     {
       "id": "6a7ee123305e",
@@ -43,15 +35,23 @@
       "url": "https://huggingface.co/papers/2609.20784",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivat…",
-      "score": 4
+      "score": 10
     },
     {
-      "id": "1d9a400a94c8",
-      "title": "VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control",
-      "url": "https://huggingface.co/papers/2609.19554",
+      "id": "24f4cedcb0ae",
+      "title": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
+      "url": "https://huggingface.co/papers/2609.20423",
       "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Spatial intelligence requires more than describing object locations. Under incomplete observation, models must identify…",
-      "score": 4
+      "summary": "Document parsing converts document images into structured content and requires reliable performance across diverse layo…",
+      "score": 8
+    },
+    {
+      "id": "1248ba6390c0",
+      "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
+      "url": "https://huggingface.co/papers/2609.17653",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated…",
+      "score": 7
     },
     {
       "id": "72e2a5bb7057",
@@ -59,14 +59,14 @@
       "url": "https://huggingface.co/papers/2609.12397",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Multi-modal image generation, particularly subject-driven customization, has garnered growing attention in recent years…",
-      "score": 3
+      "score": 4
     },
     {
-      "id": "133f01de074d",
-      "title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation",
-      "url": "https://huggingface.co/papers/2609.20744",
+      "id": "ba63cd2239de",
+      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+      "url": "https://huggingface.co/papers/2609.20817",
       "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Video diffusion models repeatedly process long spatiotemporal token sequences during denoising, making attention a majo…",
+      "summary": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial g…",
       "score": 3
     },
     {
@@ -75,15 +75,7 @@
       "url": "https://huggingface.co/papers/2609.19671",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Large Reasoning Models (LRMs) achieve strong performance on complex tasks but exhibit systematic inefficiency: they oft…",
-      "score": 2
-    },
-    {
-      "id": "1248ba6390c0",
-      "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
-      "url": "https://huggingface.co/papers/2609.17653",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated…",
-      "score": 2
+      "score": 3
     },
     {
       "id": "8b1700e1ceb3",
@@ -91,7 +83,7 @@
       "url": "https://huggingface.co/papers/2609.20612",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "On-policy self-distillation (OPSD) lets a language model learn from a frozen copy of itself that sees an answer or a wo…",
-      "score": 2
+      "score": 3
     },
     {
       "id": "25a69e8810b0",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2609.18605",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "summary": "As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such…",
+      "score": 2
+    },
+    {
+      "id": "bca683248bf8",
+      "title": "Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts",
+      "url": "https://huggingface.co/papers/2609.05661",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "summary": "We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Beng…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-18T04:58:35.701Z",
+  "fetchedAt": "2026-09-18T09:30:21.498Z",
   "stale": false,
   "error": null
 }
