@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "443d014dd17d",
-      "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
-      "url": "https://huggingface.co/papers/2609.17488",
+      "id": "2191d314aa41",
+      "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+      "url": "https://huggingface.co/papers/2609.20800",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet pr…",
+      "score": 17
+    },
+    {
+      "id": "1e18eb3ed9cb",
+      "title": "RiskChainBench: A Benchmark for Obfuscated Platform Message Restoration and Evidence-Grounded Web Investigation",
+      "url": "https://huggingface.co/papers/2609.16900",
       "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previousl…",
-      "score": 105
+      "summary": "Platform abuse campaigns conceal redirection instructions with emojis, homophones, character decomposition, and redunda…",
+      "score": 14
     },
     {
-      "id": "40bb17d7fa3d",
-      "title": "Rethinking Critic Learning in PPO: Understanding and Mitigating Value Flattening",
-      "url": "https://huggingface.co/papers/2609.18708",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "In reinforcement learning for large language models, Proximal Policy Optimization (PPO) commonly uses a critic to estim…",
-      "score": 60
+      "id": "91d86eee380a",
+      "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+      "url": "https://huggingface.co/papers/2609.19969",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work h…",
+      "score": 13
     },
     {
-      "id": "3e9e8b0ea532",
-      "title": "Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents",
-      "url": "https://huggingface.co/papers/2609.17708",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "Reliable confidence estimation is increasingly central to the trustworthy deployment of language models: a calibrated e…",
-      "score": 48
+      "id": "24f4cedcb0ae",
+      "title": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
+      "url": "https://huggingface.co/papers/2609.20423",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Document parsing converts document images into structured content and requires reliable performance across diverse layo…",
+      "score": 5
     },
     {
-      "id": "fcb5be66201e",
-      "title": "SpectralShift: Effective Context Window Extension of Gated DeltaNet via Spectral Reparameterization",
-      "url": "https://huggingface.co/papers/2609.14320",
-      "publishedAt": "2026-09-13T00:00:00.000Z",
-      "summary": "Recently, linear attention layers have been increasingly adopted to replace softmax attention at scale for long-context…",
-      "score": 23
-    },
-    {
-      "id": "1a150d5c2af8",
-      "title": "In-Context Robot Learning with VLM Agents",
-      "url": "https://huggingface.co/papers/2609.19138",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No fin…",
-      "score": 15
-    },
-    {
-      "id": "af37341e37e3",
-      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
-      "url": "https://huggingface.co/papers/2609.19143",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded…",
-      "score": 9
-    },
-    {
-      "id": "7dfa44267798",
-      "title": "Flattening Every Memory Peak in Long-Context Mixture-of-Experts Training",
-      "url": "https://huggingface.co/papers/2609.14306",
-      "publishedAt": "2026-09-13T00:00:00.000Z",
-      "summary": "Training a Mixture-of-Experts (MoE) model at long context or large batch size fails as soon as any one component's peak…",
-      "score": 9
-    },
-    {
-      "id": "c8e819436a6c",
-      "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
-      "url": "https://huggingface.co/papers/2609.18063",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-b…",
-      "score": 8
-    },
-    {
-      "id": "8ad2c76556bb",
-      "title": "CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents",
-      "url": "https://huggingface.co/papers/2609.18779",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Current Mixture-of-Agents (MoA) paradigms generally treat query routing and agent fine-tuning as separate processes, li…",
+      "id": "6a7ee123305e",
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2609.20784",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivat…",
       "score": 4
     },
     {
-      "id": "81aa75c83c3b",
-      "title": "Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches",
-      "url": "https://huggingface.co/papers/2609.17652",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "When agentic sessions run to a million tokens with many sessions resident at once, the KV cache and the index that rank…",
+      "id": "1d9a400a94c8",
+      "title": "VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control",
+      "url": "https://huggingface.co/papers/2609.19554",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Spatial intelligence requires more than describing object locations. Under incomplete observation, models must identify…",
+      "score": 4
+    },
+    {
+      "id": "72e2a5bb7057",
+      "title": "UFO: Chain-of-Evaluation for Omni-Condition Alignment in Multi-Modal Image Generation",
+      "url": "https://huggingface.co/papers/2609.12397",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Multi-modal image generation, particularly subject-driven customization, has garnered growing attention in recent years…",
+      "score": 3
+    },
+    {
+      "id": "133f01de074d",
+      "title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation",
+      "url": "https://huggingface.co/papers/2609.20744",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Video diffusion models repeatedly process long spatiotemporal token sequences during denoising, making attention a majo…",
+      "score": 3
+    },
+    {
+      "id": "2967ab4216c5",
+      "title": "When2Think: Learning Difficulty-Aware Length Control for Efficient Hybrid Reasoning Models",
+      "url": "https://huggingface.co/papers/2609.19671",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Large Reasoning Models (LRMs) achieve strong performance on complex tasks but exhibit systematic inefficiency: they oft…",
       "score": 2
     },
     {
-      "id": "50de895fa7d0",
-      "title": "Assessing nnU-Net Generalization across Brain Tumor Populations in BraTS-GoAT 2026",
-      "url": "https://huggingface.co/papers/2609.15524",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "BraTS-GoAT evaluates tumor segmentation across heterogeneous populations. We trained a conventional 3D nnU-Net on 1,351…",
+      "id": "1248ba6390c0",
+      "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
+      "url": "https://huggingface.co/papers/2609.17653",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated…",
       "score": 2
     },
     {
-      "id": "c562f844eb22",
-      "title": "Fingers as Legs: Learning Self-Supported Locomotion and Manipulation with an Anthropomorphic Hand",
-      "url": "https://huggingface.co/papers/2609.17172",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "A walking robotic hand must use the same fingers to move its body, support its weight, and interact with the environmen…",
+      "id": "8b1700e1ceb3",
+      "title": "What Does Privileged Information Add to On-Policy Self-Distillation?",
+      "url": "https://huggingface.co/papers/2609.20612",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "On-policy self-distillation (OPSD) lets a language model learn from a frozen copy of itself that sees an answer or a wo…",
+      "score": 2
+    },
+    {
+      "id": "25a69e8810b0",
+      "title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
+      "url": "https://huggingface.co/papers/2609.18605",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-18T00:16:47.872Z",
+  "fetchedAt": "2026-09-18T04:58:35.701Z",
   "stale": false,
   "error": null
 }

@@ -6,46 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "840199b16427",
-      "title": "Jev 所感 ダラダラと書く",
-      "url": "https://zenn.dev/meijin/articles/jev-impressions",
-      "publishedAt": "2026-09-17T23:13:45.000Z",
-      "publisher": "meijin",
-      "summary": "Jev そのものが覇権を取るかは知らんが、構造化出力に特化したAIは今後も残りそう ちょうど猫も杓子もAIエージェントという時代になりつつあるところで発表されて、タイミングがうまい 一般には、CodexやClaudeにさせている日常業務の…"
-    },
-    {
-      "id": "fd01f0cc5b1a",
-      "title": "AI に任せた所、自分で握った所 — 個人開発6本で見えた「線引き」 | 意思決定ログ",
-      "url": "https://zenn.dev/hinaridake/articles/ai-development-boundary",
-      "publishedAt": "2026-09-17T23:00:11.000Z",
-      "publisher": "Hiromu Morisaki",
-      "summary": "「AI で作ったんでしょ?」とたまに言われます。半分正解で、半分は違う、というのが正直なところです。 個人開発で iOS アプリを 6本作る中で、AI に渡すと一気に速くなる所と、渡すと事故る所がかなりはっきり分かれてきました。この記事は…"
-    },
-    {
-      "id": "261f61aad179",
-      "title": "Software Design 2026年10月号に「ハーネスの部品とワークフロー設計」を寄稿しました",
-      "url": "https://zenn.dev/xtm_blog/articles/sd-harness-design",
-      "publishedAt": "2026-09-17T23:00:11.000Z",
-      "publisher": "laiso",
-      "summary": "クロステックマネジメントでは、前回の記事「なぜエージェントハーネスで開発パイプラインを作っているのか」で、docker-agent を使ったエージェントハーネスで開発パイプラインを構築していることを書きました。要求仕様書から Pull R…"
-    },
-    {
-      "id": "32d924a6ca1b",
-      "title": "コーディングエージェントを使い分けるときの、ルールとスキルの置き方と守らせ方",
-      "url": "https://zenn.dev/codeconnect/articles/agent-neutral-rules-and-lint",
-      "publishedAt": "2026-09-17T23:00:11.000Z",
-      "publisher": "koojy",
-      "summary": "こんにちは、コードコネクトの村上（@koojy3）です。 複数のコーディングエージェントを使い分けるときに、ルールとスキルをどこに置いて、どうやってエージェントが使える形にしているか、そのルールをエージェントにどう守らせているかを書きます…"
-    },
-    {
-      "id": "673000ce180b",
-      "title": "MTPLX 版の Qwen3.8 Flash Next を M4 Max で試したが、4 本並べる開発では oMLX を続けた",
-      "url": "https://zenn.dev/jtechjapan_pub/articles/mtplx-vs-omlx-flash-next-m4max",
-      "publishedAt": "2026-09-17T22:44:15.000Z",
-      "publisher": "tomohisa",
-      "summary": "株式会社ジェイテックジャパン CTOの高丘 @tomohisaです。 128GB の MacBook Pro（M4 Max）で、ローカル LLM を開発に使えるかを試し続けています。ここまでに 4 本書きました。 https://zenn…"
-    },
-    {
       "id": "cfa8817cd607",
       "title": "Claude Codeの独自コマンドで複数の引数を正しく受け取るテンプレートと確認手順",
       "url": "https://zenn.dev/clopy/articles/claude-custom-command-argument-index",
@@ -100,9 +60,49 @@
       "publishedAt": "2026-09-17T21:09:40.000Z",
       "publisher": "毎日AIレシピ",
       "summary": "TL;DR 社外へ送る文章をLLMに読ませ「機密に触れそうな箇所」を指摘させるプロンプトは、「社外秘」「未承認」「他のお客様には案内していない」のような文中に自己申告済みの注意書きがあれば高い精度で拾える 一方、注意書きを一切外し、事実（…"
+    },
+    {
+      "id": "5bbb2c606a34",
+      "title": "チャットで来た依頼を todo に割るのは AI、決めるのは人（半自動の取り込み設計）",
+      "url": "https://zenn.dev/y3chi5z/articles/ai-splits-requests-human-decides",
+      "publishedAt": "2026-09-17T20:46:01.000Z",
+      "publisher": "y43z",
+      "summary": "社長からの依頼が、チャットアプリで飛んできます。「あの件どうなった」「来週までにこれを直して」「見積を出して」。これを見落とすと、翌週に困ります。 自作の作業管理アプリ（Cloudflare Workers + Hono + D1）に「依…"
+    },
+    {
+      "id": "61793ee7aa11",
+      "title": "個人実証(番外編)：型分離PoCを作ろうとして、作らなくてよいと気づくまで",
+      "url": "https://zenn.dev/yuninaka/articles/type-separation-spec-review-retrospective",
+      "publishedAt": "2026-09-17T18:26:13.000Z",
+      "publisher": "yuninaka",
+      "summary": "この記事は、AI駆動開発によって仕様書がテキスト・Markdown化されていく状況を前提にした検討記録である。 これまでの3本(前半・後半・まとめ)と異なり、この記事にはリポジトリが存在しない。実装を始める前の検討段階で、「これは作るべき…"
+    },
+    {
+      "id": "160e9d683db8",
+      "title": "生成しないAIモデル Jev を試した：問い合わせ分類で見えた使いどころと限界",
+      "url": "https://zenn.dev/skrtk98/articles/jev-first-impression",
+      "publishedAt": "2026-09-17T15:49:47.000Z",
+      "publisher": "skrtk98",
+      "summary": "問い合わせの一次振り分けに生成型 LLM を使うと、返答文まで扱える反面、後段のプログラムで使うには出力を整形する処理が必要になることがある。 TypeSafe AI の Jev は、その逆を狙ったモデルだ。 文章を生成せず、あらかじめ定…"
+    },
+    {
+      "id": "88b05018c988",
+      "title": "AI Agent は型を平然ともみ消す",
+      "url": "https://zenn.dev/onclimb/articles/ai-agent-type-cast-onclimb",
+      "publishedAt": "2026-09-17T15:34:27.000Z",
+      "publisher": "onclimb(おんりむ)",
+      "summary": "すべてを AI Agent に実装させたことはあるだろうか。 筆者はある。 個人用の家計管理ダッシュボードを作っていて、機能を細かいタスクに分割し、複数の Agent に並列で書かせていた。 たとえば「金額の計算ロジック」と「画面表示」を…"
+    },
+    {
+      "id": "d39c60fcd130",
+      "title": "AIはTransformerの次へ行くのか？ Jev・量子コンピュータ・ハエの脳が示唆するパラダイムシフト",
+      "url": "https://zenn.dev/ogiri/articles/transformer_jev_paradigm_shift",
+      "publishedAt": "2026-09-17T14:37:09.000Z",
+      "publisher": "もつ煮グラタン@半導体エンジニア",
+      "summary": "AIはTransformerの次へ行くのか？ Jev・量子コンピュータ・ハエの脳が示唆するパラダイムシフト はじめに：私はAIの専門家ではありません この記事は、AIの専門家ではないただのSF好きの私が、今話題の「Jev」から始まり、「T…"
     }
   ],
-  "fetchedAt": "2026-09-18T00:16:48.051Z",
+  "fetchedAt": "2026-09-18T04:58:35.845Z",
   "stale": false,
   "error": null
 }
