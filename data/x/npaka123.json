@@ -2,6 +2,42 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2101336905480630725",
+      "url": "https://x.com/GeorgiaChal/status/2101336905480630725",
+      "text": "I wrote a blog sharing some thoughts after spending the last days looking more carefully at the GPT-6 Astra results in robotics, 3D, CAD and autonomous experimentation.\nI started rather skeptical, and I still don’t think these results mean that scaling has suddenly “solved robotics.” But I do think something interesting is happening.\n\nWhat capability are we actually seeing? What role does structure play? What is learned by the model, and what becomes possible because of the tools, representations and algorithms around it?\n\nAnd perhaps most importantly, what experiments do we actually need to answer these questions?\n\nWhat Are We Actually Seeing with GPT-6 Astra?\n\n#Robotics #GPT6 #Astra #RobotLearning\n\nnitter.net/GeorgiaChal/status/210…",
+      "publishedAt": "2026-09-19T15:45:33.000Z",
+      "authorHandle": "GeorgiaChal",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2101323796259172707",
+      "url": "https://x.com/asobodesign/status/2101323796259172707",
+      "text": "バレないように退社を目指すゲーム（実際に遊べます）\namix-design.com/tl/tool-g-ki…",
+      "publishedAt": "2026-09-19T14:53:28.000Z",
+      "authorHandle": "asobodesign",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2101310974359941332",
+      "url": "https://x.com/openroboto/status/2101310974359941332",
+      "text": "Jev by @typesafeai might change how we control robots.\n\nWe compared Jev, GPT-6 Astra and GPT-4.1 mini in MuJoCo.\n\nOne apple. One plate.\n\nEach model chooses intent → X/Y/Z direction + gripper open/hold/close. 🧵",
+      "publishedAt": "2026-09-19T14:02:31.000Z",
+      "authorHandle": "openroboto",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2101299111681257926",
+      "url": "https://x.com/tubone24/status/2101299111681257926",
+      "text": "とりあえずjevの判定速度を体感したくて、トランプゲームのスピードを作ってみて戦ってみた。\n\nすごい煽られた気分です........。\n\n当然と言えば当然ですが、jevも判定を間違えることはあるので、スピードみたくルールベースで作れそうなCPUはそっちのほうがいいですね、ということもわかる",
+      "publishedAt": "2026-09-19T13:15:23.000Z",
+      "authorHandle": "tubone24",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2101287104030609624",
       "url": "https://x.com/izumisatoshi05/status/2101287104030609624",
       "text": "Jevを聞いたときに最初に思いついたゲームのPoC。\n音声で魔法を詠唱できて、jevが妥当性、属性、形態、威力などをリアルタイムに判定。結果に応じて出る魔法とそのパラメーターが決まる。\n中二ワードを重ねて魔力を上げよう！君だけの魔法と詠唱方法を開発して一級魔術師を目指せ！",
@@ -54,45 +90,9 @@
       "authorHandle": "npaka123",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2101216220129210490",
-      "url": "https://x.com/Yujiro_BOAR/status/2101216220129210490",
-      "text": "今回面白いのは「VLAが不要」という話ではなく、VLAが担っていた役割の一部を、汎用Foundation Modelが吸収し始めたことじゃないかな。\n\n大脳系：\n認識、推論、計画、粗いAction生成\n\n小脳系：\n接触、力加減、高速補正、連続制御\n\n前者はかなり一本化されつつある。\n一方、後者はまだ専用PolicyやControllerが強い。\n\nロボットAIの競争軸は、\n「LLMかVLAか」ではなく、\n「どこまでを汎用モデルに統合し、どこからを高速な身体制御として切り分けるか」\nになっていきそう。",
-      "publishedAt": "2026-09-19T07:46:00.000Z",
-      "authorHandle": "Yujiro_BOAR",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2101212317170160072",
-      "url": "https://x.com/npaka123/status/2101212317170160072",
-      "text": "こんなゲーム作ります",
-      "publishedAt": "2026-09-19T07:30:29.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2101212121094918430",
-      "url": "https://x.com/npaka123/status/2101212121094918430",
-      "text": "こんなゲーム作ります",
-      "publishedAt": "2026-09-19T07:29:42.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2101212030363689466",
-      "url": "https://x.com/npaka123/status/2101212030363689466",
-      "text": "こんなゲーム作ります",
-      "publishedAt": "2026-09-19T07:29:21.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-19T18:46:50.424Z",
+  "fetchedAt": "2026-09-19T21:16:02.146Z",
   "stale": false,
   "error": null
 }
