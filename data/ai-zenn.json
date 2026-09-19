@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "61cfcb22bb87",
-      "title": "Jevを企業で使うなら？規約・安全性・導入方法を調べてみた",
-      "url": "https://zenn.dev/yamato_snow/articles/jev-enterprise-security-guide",
-      "publishedAt": "2026-09-19T10:42:28.000Z",
-      "publisher": "やまと",
-      "summary": "話題のJev、会社の業務にも使えそうですよね🧐 でも、顧客の問い合わせや社内文書を送るとなると、安さだけでは決められません。 「学習に使われない？」「データは残る？」「そもそも、どんな会社？」 APIの使い方を知る前に、確かめたいことが…"
+      "id": "ff520853dac9",
+      "title": "jev-lint: コード中の命名やコメントが嘘になってないかを高速に確認",
+      "url": "https://zenn.dev/mizchi/articles/jev-lint-intro",
+      "publishedAt": "2026-09-19T15:39:57.000Z",
+      "publisher": "mizchi",
+      "summary": "jev-lint とは 今までの Lint ができなくて自分が困っていたこととして、命名の一貫性のチェックや、テストコードやコメントが嘘になっていることを検知できない、という問題がありました。 それに対して、 jev-lint というツー…"
     },
     {
-      "id": "bb33046ce12c",
-      "title": "Claude Codeへの入力をJevで分類して、Action Hintを足す",
-      "url": "https://zenn.dev/khasegawa/articles/688b1414740a81",
-      "publishedAt": "2026-09-19T10:23:22.000Z",
-      "publisher": "K@zuki.",
-      "summary": "こんにちは、超かぐや姫の復活を観てきてホクホクなK@zukiです。 Coding Agentに「調べて」と頼んでも、ネットで検索すらせずに、手元のコードと既存の知識だけで推測して、場当たり的な修正を繰り返すことがあります。外部のライブラリ…"
+      "id": "b7cc93347595",
+      "title": "Jevを試してみた：精度はQwen3 4Bとほぼ同等だった",
+      "url": "https://zenn.dev/dpbz/articles/dce127f7d8d85e",
+      "publishedAt": "2026-09-19T15:32:37.000Z",
+      "publisher": "DPBZ",
+      "summary": "最近Jevが話題になっているので、実際に環境を構築して試してみた。 結論から言うと、推論速度は速くコストも低い。ただ、精度はQwen3 4Bとほぼ同じレベルだった。 小さな改善を、あたかもとてつもないブレークスルーであるかのように見せてい…"
     },
     {
-      "id": "f2d2e7e0b9ed",
-      "title": "文章を書かないAI「Jev」を試してみた。AI Agentの判断係として使える？",
-      "url": "https://zenn.dev/makicoc/articles/d3a3fd4f4ac2c2",
-      "publishedAt": "2026-09-19T09:34:07.000Z",
-      "publisher": "maki",
-      "summary": "文章を書かないAI「Jev」を試してみた。AI Agentの判断係として使える？ 最近、Xで「Jev」という名前を見かけるようになった。 最初は普通のチャットAIかと思ったんだけど、どうやら少し違うらしい。しかも、Jevを作っているTyp…"
+      "id": "ea6d86dd0ae1",
+      "title": "TypeSafe AI「Jev」の実効性能検証レポート（約2.8万リクエストによる精度・速度・コスト評価）",
+      "url": "https://zenn.dev/biscuit/articles/typesafe-ai-jev-benchmark-2026-09",
+      "publishedAt": "2026-09-19T15:10:17.000Z",
+      "publisher": "biscuit",
+      "summary": "TypeSafe AIの「Jev」は、文章を生成せず、判定結果だけを返すモデルである。判定対象のデータ（JSON）と、「この発話はアラーム設定の依頼か？」のような質問を1リクエストにまとめて送ると、Yes/Noの確率や、選んだ選択肢とその…"
     },
     {
-      "id": "62a59bec2cf1",
-      "title": "個人のWeb制作にAIをどう組み込んでいるか｜LP制作の実際の工程を公開",
-      "url": "https://zenn.dev/arpeda/articles/532f1d4a902c97",
-      "publishedAt": "2026-09-19T09:09:36.000Z",
-      "publisher": "Arpeda（アルペダ）",
-      "summary": "LP・ホームページを個人で制作しながら、工程のほとんどにAIを組み込んでいます。「AIで作ってます」だけだと中身が見えないので、実際にどの工程で何をどうAIにやらせているかを、ここでは具体的に書きます。 対象は、クラウドソーシング経由や直…"
+      "id": "e03c053a7bf1",
+      "title": "JevでSQLの危険度を判定するCLIを試した：直接実行前のチェックに使える範囲と使えない範囲",
+      "url": "https://zenn.dev/tonbi_attack/articles/jev-sql-danger-checker",
+      "publishedAt": "2026-09-19T15:03:36.000Z",
+      "publisher": "tonbiattack",
+      "summary": "はじめに 運用環境でSQLを直接実行する場面では、DELETE や DROP TABLE だけでなく、条件付きの大量更新や権限変更にも注意が必要です。 jev-sql-danger-checker は、SQLを実行せず、JevへSQL本文…"
     },
     {
-      "id": "9f9930fd9185",
-      "title": "Claude Codeにrm -rf ~/を打たせない。Jevで実行前に審査する",
-      "url": "https://zenn.dev/mistletoe/articles/jev-claude-code-guard",
-      "publishedAt": "2026-09-19T08:26:20.000Z",
-      "publisher": "もっくま(Mistletoe)",
-      "summary": "! この記事は、実験の設計から実行・集計・執筆までClaude Code(生成AI)にやらせたものです。 載せているコードとデモは、実際に動かしたものです。 依頼とコマンドを渡すと、5つの判断(不可逆・秘密情報・範囲外・被害・対象)が1リ…"
+      "id": "58348b5b0dcb",
+      "title": "Jevのオープンソース版Layaの数字を、一次情報3つで突き合わせてみた",
+      "url": "https://zenn.dev/genelab_999/articles/77ce1dcf344900",
+      "publishedAt": "2026-09-19T15:00:48.000Z",
+      "publisher": "GeneLab",
+      "summary": "TL;DR TypeSafe AI の Jev（2026年9月15日発表）と同じ形をした決定モデル Laya が、9月18日に Apache 2.0 で公開された。重み・学習レシピ・Router まで全部入っている ただし開発元が出してい…"
     },
     {
-      "id": "e7982d6c4f2a",
-      "title": "AIのブラウザ操作を選択問題にして爆速にする jev-ultrafast の仕組み",
-      "url": "https://zenn.dev/karamage/articles/8ff31cccd3d223",
-      "publishedAt": "2026-09-19T08:08:33.000Z",
-      "publisher": "karamage",
-      "summary": "Jevが盛り上がってますね。そんな中、browser-useのチームが公開した「jev-ultrafast」を見て、びっくり。 https://github.com/browser-use/jev-ultrafast Googleフライト…"
+      "id": "88cfbe421860",
+      "title": "AIとの会話がクロストークにならないようにfirstmateで1体とだけ話す",
+      "url": "https://zenn.dev/inapvision/articles/firstmate_agent_crew",
+      "publishedAt": "2026-09-19T15:00:05.000Z",
+      "publisher": "inapyss",
+      "summary": "AIとの会話がクロストークにならないようにfirstmateで1体とだけ話す 面倒臭がりなエンジニアのyssです。 AIコーディングエージェントを1つ動かすのはもう当たり前になりましたが、 「調査もしたい、バグ修正もしたい、監査もしたい」…"
     },
     {
-      "id": "7af7fba9aa7d",
-      "title": "JevでClaude Codeの決裁規定を監査してみた記録",
-      "url": "https://zenn.dev/marycache/articles/20260918-jev-system-one",
-      "publishedAt": "2026-09-19T07:40:59.000Z",
-      "publisher": "C",
-      "summary": "2026/09/16に、TypeSafe AIが開発している「Jev」（System One）というプロダクトを知り、Early Accessで実際にAPIを試す機会を得ました。 ChatGPT や Claude のような大規模言語モデル…"
+      "id": "34b1c4cec198",
+      "title": "Claude Codeの長期記憶を素のObsidianに置く",
+      "url": "https://zenn.dev/pakupaku_x/articles/0f99e8243a7fed",
+      "publishedAt": "2026-09-19T14:51:42.000Z",
+      "publisher": "ぱくぱく",
+      "summary": "新しいセッションのClaude Codeは、先週あなたが何を決めたかを知りません。 「その方式は先月やめたはずでは？」と気づけるのは人間だけで、気づけなかった分だけ同じ検討を繰り返します。リポジトリの CLAUDE.md に全部足していく…"
     },
     {
-      "id": "5b8618b665bb",
-      "title": "緑の範囲が原稿より狭かった：Claude Code で書き、Codex でレビューする",
-      "url": "https://zenn.dev/propagandist/articles/0027-cross-vendor-agent-review",
-      "publishedAt": "2026-09-19T07:35:07.000Z",
-      "publisher": "PROPAGANDIST CORPORATION",
-      "summary": "この記事について 対象読者：AI にコードや文章を書かせていて、レビューをどこでどう挟むか決めかねている人 得られること：レビューの層を「強度」ではなく「何が見えるか」で分ける観点と、自分の検証の範囲が主張の範囲に届いているかを確かめる手…"
+      "id": "07e91256b869",
+      "title": "VS Code のエージェントチャットに、ターミナルの処理結果がユーザーメッセージとして送られていた",
+      "url": "https://zenn.dev/imkohenauser/articles/vscode-copilot-terminal-output-agent-chat",
+      "publishedAt": "2026-09-19T14:45:05.000Z",
+      "publisher": "Kohei Saito, or 廣円 (Kohen)",
+      "summary": "最近、Windows 環境の VS Code で、GitHub Copilot を使っています。 右サイドバーのエージェントチャットから、GPT 5.6 Luna や Terra を選択して、フロントエンド開発を行っています。自分でコード…"
     },
     {
-      "id": "4655959c8910",
-      "title": "AIを「個人の道具」で終わらせないために",
-      "url": "https://zenn.dev/sionicai_jp/articles/53a6bdf8b27d9b",
-      "publishedAt": "2026-09-19T07:30:05.000Z",
-      "publisher": "サイオニックエーアイ株式会社",
-      "summary": "生成AIを使っているのに、業務は変わっていない 生成AIを使って、文章の下書きや情報の整理、アイデア出しをする機会は増えました。 一方で、「問い合わせ対応」「社内ナレッジの検索」「日報・レポートの作成」「見積書作成」といった業務そのものま…"
+      "id": "f33cb68034cd",
+      "title": "読まない技術 最終回：AIの出力を、ほとんど読まなくなった",
+      "url": "https://zenn.dev/garplab/articles/c133110afb526c",
+      "publishedAt": "2026-09-19T14:17:01.000Z",
+      "publisher": "garplab",
+      "summary": "私は AI の出力を、ほとんど読まなくなりました。AI が出力するテスト結果も、AI が書き足す知見メモも、サブエージェントの作業ログも。読んでいないのは私だけではなく、AI 自身も、自分の出力を読まずに済む形になっています。出発点は序論…"
     },
     {
-      "id": "7230715cf8f0",
-      "title": "Jevを試してみた：文章分類を題材にJevの動作を確認する",
-      "url": "https://zenn.dev/nekomaho/articles/fb456b0f96d24c",
-      "publishedAt": "2026-09-19T07:01:27.000Z",
-      "publisher": "nekomaho",
-      "summary": "最近、TypeSafe AIの Jev という物が話題になっています。どのような物なのか、実際にコードを書いて動作を試してみました。 今回作ったものは、入力された日本語の文章を、 報告 二択問題 相談 不明 の4種類に分類するシンプルなC…"
+      "id": "d98764df73eb",
+      "title": "AIに自分の行動ログをどこまで読ませるか——棚卸ししたら、結論が3回ひっくり返った",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-09-06-140000",
+      "publishedAt": "2026-09-19T13:57:09.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の実施記録(2026年9月): 「AIに自分をどこまで読ませるか」を棚卸ししようとしたら、棚卸しの実行段階そのものでAIの安全装置に止められた——という出来事をきっかけに、実際にどこまで読めるか・読ませた後に出てくる数字がどこまで…"
     },
     {
-      "id": "50fc17280c04",
-      "title": "Gemini Enterprise Agent Platform の「Managed Agents」に Cloud Run を運用させてみる",
-      "url": "https://zenn.dev/satohjohn/articles/gemini-managed-agents-security",
-      "publishedAt": "2026-09-19T06:59:04.000Z",
-      "publisher": "佐藤慧太",
-      "summary": "はじめに Google Cloud の Managed Agents API に、Cloud Run のサービスを運用させました。Managed Agent API は Gemini Enterprise Agent Platform の…"
+      "id": "1f2fa681ff79",
+      "title": "「作れる」より「見つけられる」が効く",
+      "url": "https://zenn.dev/shun_producer/articles/finding-problems-beats-building",
+      "publishedAt": "2026-09-19T13:25:08.000Z",
+      "publisher": "シュンク堂",
+      "summary": "! これは「AIで稼ぐって、実際どうなの」シリーズ——非エンジニアが、AIと収入の関係を現実的に考えるための連載です。 （姉妹編：Claude Code初心者向け教科書 全8章） #1: 「AIで稼げる」の内訳を分解する #2: 稼ぐの第…"
     },
     {
-      "id": "b0d0198f4b14",
-      "title": "Claudeが共通指示に対応、AIに任せる前の新常識",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260919",
-      "publishedAt": "2026-09-19T06:56:09.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年9月19日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 先に結論を言います。今日のニュースは、AIに何を任せ、どこを人が確かめるか、という話です。Claudeの共通指示対応から、学習素材を…"
+      "id": "2615a82ec99d",
+      "title": "LLM 抽出の自動評価が、言い回しを採点していた",
+      "url": "https://zenn.dev/tomtom55555/articles/d80e8efb8e4088",
+      "publishedAt": "2026-09-19T13:24:06.000Z",
+      "publisher": "tom",
+      "summary": "会議の文字起こしから「タスク」「決定」「リスク」を抽出するパイプラインを作っています。抽出の質を測るために、人が注釈した正解データと抽出結果を突き合わせて precision / recall を出す評価スクリプトを持っていました。 その…"
     }
   ],
-  "fetchedAt": "2026-09-19T16:29:00.780Z",
+  "fetchedAt": "2026-09-19T18:46:35.323Z",
   "stale": false,
   "error": null
 }
