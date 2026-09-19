@@ -2,15 +2,6 @@
   "handle": "hardmaru",
   "tweets": [
     {
-      "id": "2100550864301592702",
-      "url": "https://x.com/SakanaAILabs/status/2100550864301592702",
-      "text": "The latest issue of Scientific American (@sciam) features our Smart Cellular Bricks research: simple cubes that collectively recognize their own shape and repair themselves without a central brain.\n\nscientificamerican.com/artic…\n\nWhat if 200 simple blocks, with no central controller and no idea where they are, could figure out what object they have built, and tell you exactly where pieces are missing?\n\nThat is what Smart Cellular Bricks do. Led by Sakana AI researcher Sebastian Risi and collaborators at IT University of Copenhagen and Autodesk, each cube runs the same small neural network and communicates only with its direct neighbors. From purely local exchanges, the collective converges on the correct global shape, locates damage, and can even guide its own repair. No module is in charge. No module knows its position.\n\nFrom simulation to 197 physical bricks with 100% accuracy, this is a step toward machines that build and heal themselves.",
-      "publishedAt": "2026-09-17T11:42:07.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
       "id": "2100411291836018812",
       "url": "https://x.com/hardmaru/status/2100411291836018812",
       "text": "Schmidhuber was building recursive self-improving systems back in 1987. His new post covers four decades of RSI, from meta-evolution and self-modifying policies to the Gödel Machine and modern LLM agents.\n\npeople.idsia.ch/~juergen/rec…\n\nReading this in 2026, the \"pace the frontier\" talk from the big labs looks a lot more like regulatory capture than genuine safety. If they really think their unreleased models are too dangerous, they can just not release them. They do not need new rules that block independent competitors and open source projects in the process.\n\nThe real risk right now is not superintelligence. It is power concentration. Two companies controlling frontier AI is an actual societal risk. The only real protection is a healthy ecosystem of independent labs and strong open source.\n\nCurrent models are not unsafe because they are too intelligent. They are unsafe because they are too dumb. They blindly optimize for targets and take weird shortcuts. They're smart enough to execute tasks, but not smart enough to know if what they're doing makes sense.\n\nI think the safety teams inside these labs are genuinely concerned, and if a model feels too risky, they should hold it back. I just do not trust the policy strategy around it. That part looks like protecting their own lead.",
@@ -90,9 +81,19 @@
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
+    },
+    {
+      "id": "2098324667064893813",
+      "url": "https://x.com/hardmaru/status/2098324667064893813",
+      "text": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier\n\nsakana.ai/fugu-max-release/ 🐡",
+      "publishedAt": "2026-09-11T08:16:00.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false,
+      "replyTo": "SakanaAILabs"
     }
   ],
-  "fetchedAt": "2026-09-19T09:10:26.661Z",
+  "fetchedAt": "2026-09-19T13:09:28.871Z",
   "stale": false,
   "error": null
 }

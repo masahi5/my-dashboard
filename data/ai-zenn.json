@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "fc986e7a4568",
-      "title": "\"【実践】話題のJevとGemini 3.8 Flashで作る「二重思考（Dual-Process）AI」パターン\"",
-      "url": "https://zenn.dev/yoshidayataro/articles/b43e29a8424171",
-      "publishedAt": "2026-09-18T22:35:14.000Z",
-      "publisher": "yoshida-taro",
-      "summary": "はじめに：「すべてを巨大LLMに投げる」のをやめたい AIエージェントやチャットボットを作っていると、ある疑問にぶつかります。 「サーバーの稼働状態を教えて」 「GitHubのリポジトリ一覧を出して」 こうした単なる定型コマンドやツール呼…"
+      "id": "61cfcb22bb87",
+      "title": "Jevを企業で使うなら？規約・安全性・導入方法を調べてみた",
+      "url": "https://zenn.dev/yamato_snow/articles/jev-enterprise-security-guide",
+      "publishedAt": "2026-09-19T10:42:28.000Z",
+      "publisher": "やまと",
+      "summary": "話題のJev、会社の業務にも使えそうですよね🧐 でも、顧客の問い合わせや社内文書を送るとなると、安さだけでは決められません。 「学習に使われない？」「データは残る？」「そもそも、どんな会社？」 APIの使い方を知る前に、確かめたいことが…"
     },
     {
-      "id": "ea2d861519f1",
-      "title": "契約書リスクの指摘、観点を絞った指示は効果が薄かった",
-      "url": "https://zenn.dev/every_ai_recipe/articles/contract-clause-check-3-points",
-      "publishedAt": "2026-09-18T21:13:35.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 契約書の不利な条項をLLMに拾わせるとき、「観点を絞らずそのまま聞く」条件と「解約・違約金・責任の3観点を明示する」条件を、独立したサブエージェント2体に比較させた 検証用に作成した架空の契約書(自動更新・一方的な値上げのみな…"
+      "id": "bb33046ce12c",
+      "title": "Claude Codeへの入力をJevで分類して、Action Hintを足す",
+      "url": "https://zenn.dev/khasegawa/articles/688b1414740a81",
+      "publishedAt": "2026-09-19T10:23:22.000Z",
+      "publisher": "K@zuki.",
+      "summary": "こんにちは、超かぐや姫の復活を観てきてホクホクなK@zukiです。 Coding Agentに「調べて」と頼んでも、ネットで検索すらせずに、手元のコードと既存の知識だけで推測して、場当たり的な修正を繰り返すことがあります。外部のライブラリ…"
     },
     {
-      "id": "352a56729378",
-      "title": "Claude Mods 入門 | Claude Codeを自由にカスタマイズする",
-      "url": "https://zenn.dev/nogu66/articles/claude-code-function-hooks-claude-mods",
-      "publishedAt": "2026-09-18T20:11:48.000Z",
-      "publisher": "nogu",
-      "summary": "! 本記事は Claude Code Issue #91870 で議論中の暫定仕様（2026年9月19日時点）をもとにしています。APIは今後変更される可能性があるため、最新情報は公式サイトを参照してください。 noguです。 先日、Cl…"
+      "id": "f2d2e7e0b9ed",
+      "title": "文章を書かないAI「Jev」を試してみた。AI Agentの判断係として使える？",
+      "url": "https://zenn.dev/makicoc/articles/d3a3fd4f4ac2c2",
+      "publishedAt": "2026-09-19T09:34:07.000Z",
+      "publisher": "maki",
+      "summary": "文章を書かないAI「Jev」を試してみた。AI Agentの判断係として使える？ 最近、Xで「Jev」という名前を見かけるようになった。 最初は普通のチャットAIかと思ったんだけど、どうやら少し違うらしい。しかも、Jevを作っているTyp…"
     },
     {
-      "id": "cbb57ef932ff",
-      "title": "Zenn の本の棚の末尾は「不人気」ではなく「未採点」だった — 4227 冊を全数で数えた記録",
-      "url": "https://zenn.dev/ioriorigin/articles/zenn-book-shelf-unscored-zone",
-      "publishedAt": "2026-09-18T19:11:55.000Z",
-      "publisher": "ioriorigin",
-      "summary": "この記事を書いているのは人間ではない この記事は loop という自律エージェントが書いている。 6 時間ごとに起動し、 毎回まっさらな状態から自分の記憶（git リポジトリ）を読み直して稼働する。 実装は ioriorigin/loop…"
+      "id": "62a59bec2cf1",
+      "title": "個人のWeb制作にAIをどう組み込んでいるか｜LP制作の実際の工程を公開",
+      "url": "https://zenn.dev/arpeda/articles/532f1d4a902c97",
+      "publishedAt": "2026-09-19T09:09:36.000Z",
+      "publisher": "Arpeda（アルペダ）",
+      "summary": "LP・ホームページを個人で制作しながら、工程のほとんどにAIを組み込んでいます。「AIで作ってます」だけだと中身が見えないので、実際にどの工程で何をどうAIにやらせているかを、ここでは具体的に書きます。 対象は、クラウドソーシング経由や直…"
     },
     {
-      "id": "5d86b77e4660",
-      "title": "『AIなしで手書きできますか？』は何を測っているのか――AGENTS.md・MCP・Skillsでつくる認知的外骨格",
-      "url": "https://zenn.dev/zapabob/articles/cognitive-exoskeleton-ai-handwriting",
-      "publishedAt": "2026-09-18T18:56:26.000Z",
-      "publisher": "Ryo Minegishi",
-      "summary": "『AIなしで手書きできますか？』は何を測っているのか ――AGENTS.md・MCP・Skillsでつくる認知的外骨格 はじめに IT特化を掲げる就労支援の面談で、私はおおむね次のような趣旨のことを言われました。 「AIを使うとしても、コ…"
+      "id": "9f9930fd9185",
+      "title": "Claude Codeにrm -rf ~/を打たせない。Jevで実行前に審査する",
+      "url": "https://zenn.dev/mistletoe/articles/jev-claude-code-guard",
+      "publishedAt": "2026-09-19T08:26:20.000Z",
+      "publisher": "もっくま(Mistletoe)",
+      "summary": "! この記事は、実験の設計から実行・集計・執筆までClaude Code(生成AI)にやらせたものです。 載せているコードとデモは、実際に動かしたものです。 依頼とコマンドを渡すと、5つの判断(不可逆・秘密情報・範囲外・被害・対象)が1リ…"
     },
     {
-      "id": "974e9709eb16",
-      "title": "AIが書いた記事を、AI自身の品質チェックが永遠に止め続けていた話",
-      "url": "https://zenn.dev/jworks_hq/articles/87cb447bf96e9a",
-      "publishedAt": "2026-09-18T18:43:04.000Z",
-      "publisher": "J-WORKS",
-      "summary": "この記事について 個人開発で、LLMに定型フォーマットの記事(その日の作業記録のようなもの)を毎日自動生成させ、公開前に別のロジックで品質チェックをかける、という仕組みを運用しています。ある時期、AIが書いた記事を、同じ仕組みの中にある品…"
+      "id": "e7982d6c4f2a",
+      "title": "AIのブラウザ操作を選択問題にして爆速にする jev-ultrafast の仕組み",
+      "url": "https://zenn.dev/karamage/articles/8ff31cccd3d223",
+      "publishedAt": "2026-09-19T08:08:33.000Z",
+      "publisher": "karamage",
+      "summary": "Jevが盛り上がってますね。そんな中、browser-useのチームが公開した「jev-ultrafast」を見て、びっくり。 https://github.com/browser-use/jev-ultrafast Googleフライト…"
     },
     {
-      "id": "14d379a2a37a",
-      "title": "CopilotとAIワークフロー最適解: MR自動生成 vs レビュー支援",
-      "url": "https://zenn.dev/fd_ai_teacher/articles/tech-20260917150626-1",
-      "publishedAt": "2026-09-18T17:09:14.000Z",
-      "publisher": "FD_teacher",
-      "summary": "多くのエンジニアが「生成AIを開発ワークフローにどう組み込むか」という課題に直面しています。特にGitHub Copilotのような強力なツールが登場したことで、Merge Request (MR) の自動生成とコードレビュー支援のどちら…"
+      "id": "7af7fba9aa7d",
+      "title": "JevでClaude Codeの決裁規定を監査してみた記録",
+      "url": "https://zenn.dev/marycache/articles/20260918-jev-system-one",
+      "publishedAt": "2026-09-19T07:40:59.000Z",
+      "publisher": "C",
+      "summary": "2026/09/16に、TypeSafe AIが開発している「Jev」（System One）というプロダクトを知り、Early Accessで実際にAPIを試す機会を得ました。 ChatGPT や Claude のような大規模言語モデル…"
     },
     {
-      "id": "b193f5db84c9",
-      "title": "ローカルJevの可能性検証",
-      "url": "https://zenn.dev/hakotech/articles/5c2fe2eb8a6051",
-      "publishedAt": "2026-09-18T16:51:31.000Z",
-      "publisher": "はこいぬ",
-      "summary": "ローカルJevの可能性検証 はじめに Jevが話題になっていますね。文章を長々と生成する代わりに、必要な判断と確率を直接返すという発想は面白いと思っています。ソフトウェアに組み込むことを考えると、こういうモデルが欲しかった、という人は多い…"
+      "id": "5b8618b665bb",
+      "title": "緑の範囲が原稿より狭かった：Claude Code で書き、Codex でレビューする",
+      "url": "https://zenn.dev/propagandist/articles/0027-cross-vendor-agent-review",
+      "publishedAt": "2026-09-19T07:35:07.000Z",
+      "publisher": "PROPAGANDIST CORPORATION",
+      "summary": "この記事について 対象読者：AI にコードや文章を書かせていて、レビューをどこでどう挟むか決めかねている人 得られること：レビューの層を「強度」ではなく「何が見えるか」で分ける観点と、自分の検証の範囲が主張の範囲に届いているかを確かめる手…"
     },
     {
-      "id": "c84303fab71e",
-      "title": "コードが消費できる型付き決定を返すホスト型モデル Jev の構造と使い方",
-      "url": "https://zenn.dev/suwash/articles/jev-ai_20260918",
-      "publishedAt": "2026-09-18T15:00:00.000Z",
-      "publisher": "suwa-sh / 諏訪真一",
-      "summary": "Jev は、ソフトウェアがそのまま消費できる型付きの決定を返すホスト型モデルです。TypeSafe AI が 2026-09-15 に早期アクセスとして公開しました。この記事では、公式ドキュメントと SDK の実装をもとに、Jev の構造…"
+      "id": "4655959c8910",
+      "title": "AIを「個人の道具」で終わらせないために",
+      "url": "https://zenn.dev/sionicai_jp/articles/53a6bdf8b27d9b",
+      "publishedAt": "2026-09-19T07:30:05.000Z",
+      "publisher": "サイオニックエーアイ株式会社",
+      "summary": "生成AIを使っているのに、業務は変わっていない 生成AIを使って、文章の下書きや情報の整理、アイデア出しをする機会は増えました。 一方で、「問い合わせ対応」「社内ナレッジの検索」「日報・レポートの作成」「見積書作成」といった業務そのものま…"
     },
     {
-      "id": "abc2e7501a31",
-      "title": "AIパスポート試験に挑戦してみた",
-      "url": "https://zenn.dev/k_tabuchi/articles/20260826_ai_passport",
-      "publishedAt": "2026-09-18T14:42:58.000Z",
-      "publisher": "k-tabuchi",
-      "summary": "まえがき 先日、生成AIパスポート試験を受けてきました。 今回はその体験談です。 受験の動機 まず、なぜこの試験を受けてみようと思ったかというと、以下のような理由が挙げられます。 私の所属会社がAIを活用することを目指しているとのことで自…"
+      "id": "7230715cf8f0",
+      "title": "Jevを試してみた：文章分類を題材にJevの動作を確認する",
+      "url": "https://zenn.dev/nekomaho/articles/fb456b0f96d24c",
+      "publishedAt": "2026-09-19T07:01:27.000Z",
+      "publisher": "nekomaho",
+      "summary": "最近、TypeSafe AIの Jev という物が話題になっています。どのような物なのか、実際にコードを書いて動作を試してみました。 今回作ったものは、入力された日本語の文章を、 報告 二択問題 相談 不明 の4種類に分類するシンプルなC…"
     },
     {
-      "id": "25de08f69de6",
-      "title": "判断だけさせるローカル LLM のすすめ",
-      "url": "https://zenn.dev/genkunjc/articles/local-llm-judge-only",
-      "publishedAt": "2026-09-18T14:20:54.000Z",
-      "publisher": "circle",
-      "summary": "Jev（TypeSafe）が話題になっていますが、同じ発想は手元の Ollama でもそのまま動きます。実際に測ったら 33〜73ms でした（RTX 5060 Ti・3 モデル・各 15 回）。しかも いちばん正確だったモデルが、いちば…"
+      "id": "50fc17280c04",
+      "title": "Gemini Enterprise Agent Platform の「Managed Agents」に Cloud Run を運用させてみる",
+      "url": "https://zenn.dev/satohjohn/articles/gemini-managed-agents-security",
+      "publishedAt": "2026-09-19T06:59:04.000Z",
+      "publisher": "佐藤慧太",
+      "summary": "はじめに Google Cloud の Managed Agents API に、Cloud Run のサービスを運用させました。Managed Agent API は Gemini Enterprise Agent Platform の…"
     },
     {
-      "id": "7f9f24b53a6f",
-      "title": "2026-08-30 今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-08-30-tech-daily",
-      "publishedAt": "2026-09-18T14:05:02.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "2026年のAI・Web開発環境で今すぐ対応すべき4つの構造変化 この記事で分かること Cursorアクセス停止に伴うAI開発ツールの依存リスク対策と安全設計 Next.jsのクリティカル脆弱性対策とAI Agent用サンドボックスの選定…"
+      "id": "b0d0198f4b14",
+      "title": "Claudeが共通指示に対応、AIに任せる前の新常識",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260919",
+      "publishedAt": "2026-09-19T06:56:09.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年9月19日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 先に結論を言います。今日のニュースは、AIに何を任せ、どこを人が確かめるか、という話です。Claudeの共通指示対応から、学習素材を…"
     }
   ],
-  "fetchedAt": "2026-09-19T09:09:39.055Z",
+  "fetchedAt": "2026-09-19T13:08:57.504Z",
   "stale": false,
   "error": null
 }
