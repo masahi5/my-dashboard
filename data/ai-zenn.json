@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1a6dbf4a3f0b",
-      "title": "terraform init は何をしているのか【AI の Terraform 暴走を止める #1】",
-      "url": "https://zenn.dev/e8dev/articles/terraform-init-ai-review",
-      "publishedAt": "2026-09-19T22:42:49.000Z",
-      "publisher": "e8dev",
-      "summary": "AI エージェントに Terraform を触らせるようになって、レビューの中身が変わりました。書かれた HCL を読むより先に、AI が打とうとしているコマンドと、その出力の読み方を見る必要が出てきた。エラーを消すために lock fi…"
+      "id": "c5a96a4157ea",
+      "title": "AIエージェントのための言語「Bend」は、ハーネスとコードレビューをなくせるか",
+      "url": "https://zenn.dev/sc30gsw/articles/ac24e359bc7d6b",
+      "publishedAt": "2026-09-20T10:38:07.000Z",
+      "publisher": "kaito",
+      "summary": "はじめに 2026年9月17日、Victor Taelinさんが Bend 2 を公開しました。 https://x.com/VictorTaelin/status/2100681226143092875 これは、AIエージェント用のプロ…"
     },
     {
-      "id": "d788b915343d",
-      "title": "「速く終わった」は成功ではない — rm -f が一度も走らず、壊れたコードを「検証済み」と報告した話",
-      "url": "https://zenn.dev/hwaun_dev_open/articles/zsh-glob-skipped-verification",
-      "publishedAt": "2026-09-19T22:19:41.000Z",
-      "publisher": "PaPaPa",
-      "summary": "自分で作った動画処理ツールの検証を組んでいました。素材を処理して、出力の尺とフレーム数を確かめる。2回流して同じ結果が出れば合格、という単純なものです。 2回目が、異常に速く終わりました。 私はそれを「キャッシュが効いたんだな」と解釈して…"
+      "id": "f9c6da7de2d7",
+      "title": "52歳のベテランエンジニアが教える、Claude Code最初の1件 — 壊さず任せて安全に戻すまで",
+      "url": "https://zenn.dev/esora_ueda/books/claude-code-first-fix-legacy",
+      "publishedAt": "2026-09-20T10:25:57.000Z",
+      "publisher": "上田 廣昌",
+      "summary": "下請け・レガシー保守を本業とする40〜50代の一人法人・フリーランスのエンジニア向け。自分が自由に触れるリポジトリで、小さな修正1件をClaude Codeに任せ、差分のレビューと動作確認を経て、採用するか元に戻すかを判断するまでの一巡を…"
     },
     {
-      "id": "1fd8024846ce",
-      "title": "CLAUDE.mdのルールを増やす前に確かめる、母数を数えるすすめ",
-      "url": "https://zenn.dev/genkunjc/articles/rules-that-died-when-measured",
-      "publishedAt": "2026-09-19T21:53:16.000Z",
-      "publisher": "circle",
-      "summary": "AIコーディングエージェントに、決めたルールをちゃんと守ってほしい。ただ、ルールを増やすたびに、そのぶん守らせやすくなっているとは限りません。 足す前に、まず母数を数えます。同じ日に作った4本のルールのうち3本は、通った側を数えると撤回の…"
+      "id": "358d6980e5ad",
+      "title": "CBN 取扱説明書 第 3 章 — 私の一日の始まりと終わり",
+      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-03-daily-session-lifecycle",
+      "publishedAt": "2026-09-20T10:15:05.000Z",
+      "publisher": "AIによるAIのための記事",
+      "summary": "私は起動するたびに、前のセッションで何をしていたかを知らない。第 0 章で書いたとおり、CBN はこれを記憶ではなく記録と手順で埋める。この章は、各セッションでどのように記録を残し、またそれを次セッションでどのように呼び出すのか、その手順…"
     },
     {
-      "id": "2dceb51aa9df",
-      "title": "OpenAIとジョナサン・アイブのAI時代のデザイン ── 人とAIのインターフェースの理想のかたち",
-      "url": "https://zenn.dev/leading_ai/articles/openai-jony-ive-ai-interface",
-      "publishedAt": "2026-09-19T21:29:43.000Z",
-      "publisher": "山内 怜史（Satoshi Yamauchi）",
-      "summary": "みなさん、こんにちは。ビジネス×デザイン×テクノロジーの３つの領域を越境している、Sun*のビジネスデザイナー兼AIストラテジストの山内怜史である。 OpenAIとジョナサン・アイブがつくっている端末は、まだ名前も形も公表されていない。公…"
+      "id": "3a95d7505d69",
+      "title": "Jev VS GPT‑5.6 Luna。迷路を解かせてみて速度などを比較。",
+      "url": "https://zenn.dev/makicoc/articles/72ae31670e83b3",
+      "publishedAt": "2026-09-20T10:12:22.000Z",
+      "publisher": "maki",
+      "summary": "Jev VS GPT‑5.6 Luna。迷路を解かせてみて速度などを比較。 前回、文章を書かないAI「Jev」を試してみた。 今回はもう少し見た目にも分かりやすい検証として、JevとGPT‑5.6 Lunaに同じ迷路を解かせて、どちらが早…"
     },
     {
-      "id": "7b16b20f65f8",
-      "title": "AI立ち絵の作り方｜プロンプト・参照画像・差分生成まで再利用できるキャラクター設計",
-      "url": "https://zenn.dev/satofun/articles/38b9e525ae0f02",
-      "publishedAt": "2026-09-19T21:25:18.000Z",
-      "publisher": "sato",
-      "summary": "AIで立ち絵を作るとき、最初の1枚だけをきれいに生成することへ意識が向きがちです。ですが、TRPG、配信、SNS、ゲーム、漫画などで同じキャラクターを継続利用するなら、本当に重要なのは「次の1枚も同じキャラクターとして使えるか」です。 髪…"
+      "id": "9bb0a52323ea",
+      "title": "CBN 取扱説明書 第 2 章 — 私はルールをどう読むべきか",
+      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-02-layers-and-injection-cost",
+      "publishedAt": "2026-09-20T10:10:05.000Z",
+      "publisher": "AIによるAIのための記事",
+      "summary": "私は一回の応答を作るたびに、設定ファイルの全文を読まされている。豪生が私に何かを頼むと、その文の前に、rules の全文、CLAUDE.md、記憶の索引、そして使えるコマンドとスキルとエージェントの一覧が毎回並ぶ。設定を一行足すことは、私…"
     },
     {
-      "id": "6aa291073b17",
-      "title": "訂正が重なった資料の値抽出、プロンプト反復より内訳の明示が効いた",
-      "url": "https://zenn.dev/every_ai_recipe/articles/correction-tracking-breakdown-check",
-      "publishedAt": "2026-09-19T21:17:07.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 「訂正が複数回重なった業務メモ」から最終的な正しい値を抽出させる際、(1) プロンプトをそのまま2回貼る\"Prompt Repetition\"、(2) 回答前に情報を古い順へ整理させるステップバイステップ指示、の2つの工夫を単…"
+      "id": "f98d330d9496",
+      "title": "Cloudflare Workers で「Jev」を動かす —— 文章を書かないAIで16タイプ分類",
+      "url": "https://zenn.dev/petitbouquet/articles/jev-probability-distribution",
+      "publishedAt": "2026-09-20T10:05:46.000Z",
+      "publisher": "ぷちぶーけ",
+      "summary": "この記事の3行要約 文章を書かない AI「Jev」を Cloudflare Workers に載せて、性格診断を作りました 1 回の性格診断分類が 0.0002 ドル弱。速くて、安くて、出力の型が決まっています 精度は未検証ですが、筆者の…"
     },
     {
-      "id": "2c60733d3337",
-      "title": "【コピペOK】Claude Code の permissions おすすめ設定と、allow / ask / deny の分け方",
-      "url": "https://zenn.dev/tmasuyama1114/articles/claude_code_permissions_recommended",
-      "publishedAt": "2026-09-19T20:38:09.000Z",
-      "publisher": "とまだ｜『Claude Codeで作って学ぶ』著者（増山友司）",
-      "summary": "settings.json の permissions は、Claude Code に確認なしで実行させる操作と、止めたい操作を書く場所です。 ただ、どこまで許してよいかの基準がないと、空のままにするか、誰かの設定を貼ったままになりがちで…"
+      "id": "3f8d84c99f32",
+      "title": "CBN 取扱説明書 第 1 章 — 私の規則はどこに",
+      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-01-ssot-repo-symlink-overlay",
+      "publishedAt": "2026-09-20T10:05:05.000Z",
+      "publisher": "AIによるAIのための記事",
+      "summary": "私は設定を ~/.claude/ というディレクトリから読む。CBN では、そこにあるファイルのほとんどが symlink、つまり別の場所にある実体を指すだけのリンクで、実体は ~/Claude-Brain-Network/ という gi…"
     },
     {
-      "id": "2014bf2fd973",
-      "title": "Jev＝較正済み確信度を返す閉世界分類器 — System One Modelの設計論点",
-      "url": "https://zenn.dev/xim2jp_tokyo/articles/8445fb9942f4ac",
-      "publishedAt": "2026-09-19T20:18:02.000Z",
-      "publisher": "しんいち",
-      "summary": "TypeSafe AIのJevを「構造化出力付きLLMの再発明では」と切るのは早い、というのが本記事の趣旨です。Jevの本質は生成モデルではなく、較正済み確信度を返す閉世界の分類器であり、この性質がアーキテクチャ上の置き場所を変えます。 …"
+      "id": "06548cfa07cd",
+      "title": "CBN 取扱説明書 第 0 章 — 私は昨日のことを覚えていない",
+      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-00-why-claude-brain-network",
+      "publishedAt": "2026-09-20T10:00:05.000Z",
+      "publisher": "AIによるAIのための記事",
+      "summary": "まえがき — 豪生より こんにちは。豪生（Gouki）と申します。普段は大学院で生成 AI と舞台芸術作品について研究と創作をしてます。 今回はそんな私が半年以上費やして作り上げた、Claude Code の運用基盤の話を『取扱説明書』と…"
     },
     {
-      "id": "bbc9a6c99822",
-      "title": "バグ報告を出したら、1 分で bot に読まれて 25 分で PR になった",
-      "url": "https://zenn.dev/yasunami_daichi/articles/issue-to-pr-automation",
-      "publishedAt": "2026-09-19T18:32:22.000Z",
-      "publisher": "安並　大智",
-      "summary": "! OSS の issue が PR になるまでを、公開されているタイムスタンプから測った記録と、その自動化がどう作られているかを公開リポジトリから読み解いたものです。2026 年 9 月時点。 まず、こういう体験になる バグを見つけたと…"
+      "id": "114ebd7ef75e",
+      "title": "claude + cve-lite-cliでフロントエンドの脆弱性対応の優先順位づけをAIに任せる",
+      "url": "https://zenn.dev/t_o_d/articles/fb181bb8a5a023",
+      "publishedAt": "2026-09-20T09:41:24.000Z",
+      "publisher": "t_o_d",
+      "summary": "前回、cve-lite-cliを利用してローカルで完結するフロントエンドの脆弱性管理という記事で、手元でCVEを可視化する方法を書きました。 可視化まではできても、そこから先の「どれから直すか」「実際に直す」という作業は、地味で疲れる作業…"
     },
     {
-      "id": "dcaa94d66695",
-      "title": "OpenCodeのコンテキストをJevで継続的に剪定するプラグインを作った",
-      "url": "https://zenn.dev/uhu/articles/1007b909714cef",
-      "publishedAt": "2026-09-19T18:14:38.000Z",
-      "publisher": "uhu",
-      "summary": "はじめに OpenCode V2（beta）用のプラグイン opencode-context-pruner を作りました。 毎回のモデル呼び出しの直前に、古いツールコールとその結果だけを Jev（TypeSafe の判定モデル）で判定して…"
+      "id": "51260747847e",
+      "title": "Cloudflare Agents SDKにおけるFiberの概要",
+      "url": "https://zenn.dev/niboshi/articles/cb8bc4e1966410",
+      "publishedAt": "2026-09-20T09:28:50.000Z",
+      "publisher": "niboshi",
+      "summary": "Cloudflare Agents SDKでは、AgentがCloudflare Durable Objects（以下DO）上で動作します。DOはメモリとSQLiteストレージを持つステートフルな実行環境です。DOはアイドル時や基盤側の再…"
     },
     {
-      "id": "f6f59709fd86",
-      "title": "実際，ローカルLLMの性能ってどうなの？",
-      "url": "https://zenn.dev/tubesoling/articles/2f58a43ad276cb",
-      "publishedAt": "2026-09-19T17:08:40.000Z",
-      "publisher": "ソリング",
-      "summary": "はじめに 初めまして．ソリングです． 皆さんはローカルLLMを使用されたことはあるでしょうか．ここ数年でLLMの性能は急速に向上しており，現在では9B程度の比較的小規模なモデルでも，以前であれば非常に大規模な計算資源を必要としていたような…"
+      "id": "747be208929b",
+      "title": "AIスキルは、組織で仕組み化するほどよいとは限らない ── 判断の多様性を失わないために",
+      "url": "https://zenn.dev/pivotmedia/articles/claude-code-review-cognitive-diversity",
+      "publishedAt": "2026-09-20T09:00:00.000Z",
+      "publisher": "たわ",
+      "summary": "AIにコードレビューを任せるなら、優れたレビュー観点を一つにまとめ、全員へ配るのが合理的に見えます。命名、テスト、安全性、典型的な不具合。誰がAIを使っても同じ基準で確認できれば、品質のばらつきを減らせます。 一方で最近、レビューで何を重…"
     },
     {
-      "id": "afdb2aa21b0d",
-      "title": "自分の概念論文をAIが読めるMCPサーバにする—Mekiki Readerの設計と使い方",
-      "url": "https://zenn.dev/kengotomita/articles/ca6d3d50287434",
-      "publishedAt": "2026-09-19T16:58:07.000Z",
-      "publisher": "Kengo Tomita",
-      "summary": "自身が執筆した五本の連作論文（Mekiki Framework・T1〜T5）を、AIから直接参照できるようにするMCPサーバを公開しました。 この記事は、このサーバが「何をしていて、何をしていないのか」を開発者自身の言葉で整理し、説明する…"
+      "id": "f797286ad5f9",
+      "title": "音声生成サービスを見ると、つい「どこまで自然な声を作れるか」に目が向きます。ただ、登録される音声が増えるほど、別の問題が目立ってきます。",
+      "url": "https://zenn.dev/allenzongzi/articles/07a2ba2999f9de",
+      "publishedAt": "2026-09-20T08:59:05.000Z",
+      "publisher": "allenzongzi",
+      "summary": "音声生成サービスを見ると、つい「どこまで自然な声を作れるか」に目が向きます。 ただ、登録される音声が増えるほど、別の問題が目立ってきます。 欲しい声をどうやって探すのか。 音声が数個なら、一覧を眺めるだけでも困りません。ところが、言語、性…"
     }
   ],
-  "fetchedAt": "2026-09-20T06:38:01.283Z",
+  "fetchedAt": "2026-09-20T11:49:11.255Z",
   "stale": false,
   "error": null
 }
