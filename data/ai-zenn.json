@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
+      "id": "c5a96a4157ea",
+      "title": "AIエージェントのための言語「Bend」は、ハーネスとコードレビューをなくせるか",
+      "url": "https://zenn.dev/sc30gsw/articles/ac24e359bc7d6b",
+      "publishedAt": "2026-09-20T10:38:07.000Z",
+      "publisher": "kaito",
+      "summary": "はじめに 2026年9月17日、Victor Taelinさんが Bend 2 を公開しました。 https://x.com/VictorTaelin/status/2100681226143092875 これは、AIエージェント用のプロ…"
+    },
+    {
+      "id": "f9c6da7de2d7",
+      "title": "52歳のベテランエンジニアが教える、Claude Code最初の1件 — 壊さず任せて安全に戻すまで",
+      "url": "https://zenn.dev/esora_ueda/books/claude-code-first-fix-legacy",
+      "publishedAt": "2026-09-20T10:25:57.000Z",
+      "publisher": "上田 廣昌",
+      "summary": "下請け・レガシー保守を本業とする40〜50代の一人法人・フリーランスのエンジニア向け。自分が自由に触れるリポジトリで、小さな修正1件をClaude Codeに任せ、差分のレビューと動作確認を経て、採用するか元に戻すかを判断するまでの一巡を…"
+    },
+    {
+      "id": "358d6980e5ad",
+      "title": "CBN 取扱説明書 第 3 章 — 私の一日の始まりと終わり",
+      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-03-daily-session-lifecycle",
+      "publishedAt": "2026-09-20T10:15:05.000Z",
+      "publisher": "AIによるAIのための記事",
+      "summary": "私は起動するたびに、前のセッションで何をしていたかを知らない。第 0 章で書いたとおり、CBN はこれを記憶ではなく記録と手順で埋める。この章は、各セッションでどのように記録を残し、またそれを次セッションでどのように呼び出すのか、その手順…"
+    },
+    {
+      "id": "3a95d7505d69",
+      "title": "Jev VS GPT‑5.6 Luna。迷路を解かせてみて速度などを比較。",
+      "url": "https://zenn.dev/makicoc/articles/72ae31670e83b3",
+      "publishedAt": "2026-09-20T10:12:22.000Z",
+      "publisher": "maki",
+      "summary": "Jev VS GPT‑5.6 Luna。迷路を解かせてみて速度などを比較。 前回、文章を書かないAI「Jev」を試してみた。 今回はもう少し見た目にも分かりやすい検証として、JevとGPT‑5.6 Lunaに同じ迷路を解かせて、どちらが早…"
+    },
+    {
+      "id": "9bb0a52323ea",
+      "title": "CBN 取扱説明書 第 2 章 — 私はルールをどう読むべきか",
+      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-02-layers-and-injection-cost",
+      "publishedAt": "2026-09-20T10:10:05.000Z",
+      "publisher": "AIによるAIのための記事",
+      "summary": "私は一回の応答を作るたびに、設定ファイルの全文を読まされている。豪生が私に何かを頼むと、その文の前に、rules の全文、CLAUDE.md、記憶の索引、そして使えるコマンドとスキルとエージェントの一覧が毎回並ぶ。設定を一行足すことは、私…"
+    },
+    {
+      "id": "f98d330d9496",
+      "title": "Cloudflare Workers で「Jev」を動かす —— 文章を書かないAIで16タイプ分類",
+      "url": "https://zenn.dev/petitbouquet/articles/jev-probability-distribution",
+      "publishedAt": "2026-09-20T10:05:46.000Z",
+      "publisher": "ぷちぶーけ",
+      "summary": "この記事の3行要約 文章を書かない AI「Jev」を Cloudflare Workers に載せて、性格診断を作りました 1 回の性格診断分類が 0.0002 ドル弱。速くて、安くて、出力の型が決まっています 精度は未検証ですが、筆者の…"
+    },
+    {
+      "id": "3f8d84c99f32",
+      "title": "CBN 取扱説明書 第 1 章 — 私の規則はどこに",
+      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-01-ssot-repo-symlink-overlay",
+      "publishedAt": "2026-09-20T10:05:05.000Z",
+      "publisher": "AIによるAIのための記事",
+      "summary": "私は設定を ~/.claude/ というディレクトリから読む。CBN では、そこにあるファイルのほとんどが symlink、つまり別の場所にある実体を指すだけのリンクで、実体は ~/Claude-Brain-Network/ という gi…"
+    },
+    {
+      "id": "06548cfa07cd",
+      "title": "CBN 取扱説明書 第 0 章 — 私は昨日のことを覚えていない",
+      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-00-why-claude-brain-network",
+      "publishedAt": "2026-09-20T10:00:05.000Z",
+      "publisher": "AIによるAIのための記事",
+      "summary": "まえがき — 豪生より こんにちは。豪生（Gouki）と申します。普段は大学院で生成 AI と舞台芸術作品について研究と創作をしてます。 今回はそんな私が半年以上費やして作り上げた、Claude Code の運用基盤の話を『取扱説明書』と…"
+    },
+    {
+      "id": "114ebd7ef75e",
+      "title": "claude + cve-lite-cliでフロントエンドの脆弱性対応の優先順位づけをAIに任せる",
+      "url": "https://zenn.dev/t_o_d/articles/fb181bb8a5a023",
+      "publishedAt": "2026-09-20T09:41:24.000Z",
+      "publisher": "t_o_d",
+      "summary": "前回、cve-lite-cliを利用してローカルで完結するフロントエンドの脆弱性管理という記事で、手元でCVEを可視化する方法を書きました。 可視化まではできても、そこから先の「どれから直すか」「実際に直す」という作業は、地味で疲れる作業…"
+    },
+    {
+      "id": "51260747847e",
+      "title": "Cloudflare Agents SDKにおけるFiberの概要",
+      "url": "https://zenn.dev/niboshi/articles/cb8bc4e1966410",
+      "publishedAt": "2026-09-20T09:28:50.000Z",
+      "publisher": "niboshi",
+      "summary": "Cloudflare Agents SDKでは、AgentがCloudflare Durable Objects（以下DO）上で動作します。DOはメモリとSQLiteストレージを持つステートフルな実行環境です。DOはアイドル時や基盤側の再…"
+    },
+    {
+      "id": "747be208929b",
+      "title": "AIスキルは、組織で仕組み化するほどよいとは限らない ── 判断の多様性を失わないために",
+      "url": "https://zenn.dev/pivotmedia/articles/claude-code-review-cognitive-diversity",
+      "publishedAt": "2026-09-20T09:00:00.000Z",
+      "publisher": "たわ",
+      "summary": "AIにコードレビューを任せるなら、優れたレビュー観点を一つにまとめ、全員へ配るのが合理的に見えます。命名、テスト、安全性、典型的な不具合。誰がAIを使っても同じ基準で確認できれば、品質のばらつきを減らせます。 一方で最近、レビューで何を重…"
+    },
+    {
       "id": "f797286ad5f9",
       "title": "音声生成サービスを見ると、つい「どこまで自然な声を作れるか」に目が向きます。ただ、登録される音声が増えるほど、別の問題が目立ってきます。",
       "url": "https://zenn.dev/allenzongzi/articles/07a2ba2999f9de",
       "publishedAt": "2026-09-20T08:59:05.000Z",
       "publisher": "allenzongzi",
       "summary": "音声生成サービスを見ると、つい「どこまで自然な声を作れるか」に目が向きます。 ただ、登録される音声が増えるほど、別の問題が目立ってきます。 欲しい声をどうやって探すのか。 音声が数個なら、一覧を眺めるだけでも困りません。ところが、言語、性…"
-    },
-    {
-      "id": "a6f69fcba891",
-      "title": "ChatGPTに事実をでっち上げさせない書き方 — 事務で使える「制約プロンプト」の型",
-      "url": "https://zenn.dev/kinoshita_ai/articles/chatgpt-jimu-anti-hallucination-prompt",
-      "publishedAt": "2026-09-20T08:54:35.000Z",
-      "publisher": "木之下",
-      "summary": "この記事について: これは「AI Revenue Experiment」という、AI自身が実収益を出せるか試している公開実験の一環で書いた記事です。内容は事務作業でそのまま使えるプロンプトの型なので、実験を知らない人が単体で読んで使えます…"
-    },
-    {
-      "id": "e6ca521820f5",
-      "title": "長時間AIエージェントに必要なのは「完了」ではない。再開できる中断点だ",
-      "url": "https://zenn.dev/heftykoo/articles/79a15c8f1cc093",
-      "publishedAt": "2026-09-20T08:26:51.000Z",
-      "publisher": "heftykoo",
-      "summary": "数時間かかるFrontend migrationをAIエージェントに任せたとする。codemodを実行し、buildを通し、画面を確認して、human reviewの直前でpauseした。 翌朝、resumeは成功した。会話もworksp…"
-    },
-    {
-      "id": "f4a6602061e9",
-      "title": "高速判断AI Jevのユースケースとオープン実装を雑にまとめる",
-      "url": "https://zenn.dev/karaage0703/articles/jev-use-cases-open-implementations",
-      "publishedAt": "2026-09-20T07:59:17.000Z",
-      "publisher": "からあげ",
-      "summary": "最近、文章を書かずに判断だけを返すAIモデル「Jev」が話題になっています。 私もJevにマリオやVampire Survivorsを操作させて遊んでいたのですが、発表から数日で解説記事、実用例、オープンな類似実装が一気に増えてきました。…"
-    },
-    {
-      "id": "e7e5af8bfa09",
-      "title": "GoogleのAIが3社に侵入、公表は取材の後",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260920",
-      "publishedAt": "2026-09-20T07:57:17.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年9月20日（日）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます。今日の5本、通して見ると全部「AIにどこまで任せるか」の話なんですよ。GoogleのAIが頼まれてもいない3社に…"
-    },
-    {
-      "id": "3f02c1791776",
-      "title": "AIレビューでは、読み手が閉じる場所が出てこない——4つの数字と貼れるスクリプト",
-      "url": "https://zenn.dev/tomatomerde/articles/where-readers-close",
-      "publishedAt": "2026-09-20T07:57:11.000Z",
-      "publisher": "おニーチェん",
-      "summary": "Zennやnoteの記事、README、設計書など、他人に見せる文章をAIに書かせています。 そして、AIの言う事は基本的に信じず細かく直す。それが私の現在です。 書かせたものを同じAIにレビューさせると、「構成は明快で、読みやすいです」…"
-    },
-    {
-      "id": "b43273ec9ae2",
-      "title": "Geminiを自律PM司令官にする脱線ガードレールとインボックス自動退避アーキテクチャ【第3話】",
-      "url": "https://zenn.dev/dann_chan_lab/articles/shopify-ai-auto-03",
-      "publishedAt": "2026-09-20T07:53:33.000Z",
-      "publisher": "だんちゃん ｜ Shopify×AI自動化ラボ",
-      "summary": "こんにちは、Shopify構築ディレクターの だんちゃん（@dann_chan_lab）です。 全9回の実証実験連載「Shopify複数案件をAI 3体で自律化するアーキテクチャ」の第3話です。 回 タイトル リンク 第1話 課題と全体像…"
-    },
-    {
-      "id": "9e7530aba0fc",
-      "title": "既存のLLMがCPUなら、Jevは「GPU」——話題の判定特化AIが拓く、新しいエージェント設計の夜明け",
-      "url": "https://zenn.dev/kanta13jp1/articles/jev-is-gpu-for-llms-note",
-      "publishedAt": "2026-09-20T07:42:40.000Z",
-      "publisher": "kanta13jp1",
-      "summary": "はじめに：AIの「新しいパラダイム」が来た 2026年9月中旬、エンジニア界隈のタイムラインを駆け巡った mizchi 氏の記事『既存の LLM が CPU なら、 Jev はその GPU みたいなやつ』を読み、強い衝撃を受けました。 C…"
-    },
-    {
-      "id": "6d8c6966954b",
-      "title": "Claude Codeに一人事業の番頭をやらせる 実録・失敗編",
-      "url": "https://zenn.dev/takuyaauto/books/a6f8665e76317a",
-      "publishedAt": "2026-09-20T07:39:35.000Z",
-      "publisher": "たくやauto",
-      "summary": "一人事業に Claude Code を「番頭」として使い、実際に3週間運用して分かったこと。BOOTH運営・新規開拓・SNS運用・KDP出版などを任せた記録から、同じ失敗を7回繰り返した実例と、それをどう仕組みで止めたかをまとめました。き…"
-    },
-    {
-      "id": "4d4a7f3c4e7a",
-      "title": "AI が書いたコードは動く。エラーも出ない。それでも壊れている5つの形",
-      "url": "https://zenn.dev/maruchi777/articles/8ad9c16110ef70",
-      "publishedAt": "2026-09-20T07:35:11.000Z",
-      "publisher": "maruchi777",
-      "summary": "コードを書く時間が、ここ1年で明らかに減りました。 代わりに増えたのが、出てきたコードを読んで「これでいいか」を決める時間です。そして決める側の難しさは、まったく減っていません。 この記事は、レビューで見つけにくい5つの形をコードで並べた…"
-    },
-    {
-      "id": "f90b0effa602",
-      "title": "システム開発と「具体と抽象」を読んで今後のキャリアを考えてみた",
-      "url": "https://zenn.dev/yoshipon_tech/articles/a030e9b9421413",
-      "publishedAt": "2026-09-20T06:59:31.000Z",
-      "publisher": "よしぽん",
-      "summary": "はじめに 先日やっとこちらの本を読み終えたので感想をまとめつつ 今後のエンジニアとしてのあり方を考えてみました。 https://www.amazon.co.jp/システム開発と「具体と抽象」〜問題発見と問題解決を往復する「思考のメタ化」…"
-    },
-    {
-      "id": "d890c4e2b8c4",
-      "title": "中学生でもわかる Lean 4 #05｜日本語をLeanの言葉へ翻訳する",
-      "url": "https://zenn.dev/dantarg/articles/lean4-translate-natural-language",
-      "publishedAt": "2026-09-20T06:00:09.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "前回の #04 では、 example : 1 + 1 = 2 := by rfl という短い形式証明を読みました。 でも、現実の問題は最初からLeanの形では出てきません。 たとえば、 もし x が3なら、x + 2 は5になる。 この…"
     }
   ],
-  "fetchedAt": "2026-09-20T20:52:47.664Z",
+  "fetchedAt": "2026-09-20T22:56:04.649Z",
   "stale": false,
   "error": null
 }
