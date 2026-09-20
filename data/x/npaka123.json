@@ -2,11 +2,65 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2101506648552493414",
+      "url": "https://x.com/karaage0703/status/2101506648552493414",
+      "text": "【#からあげ帝国放送局 166】Jevで広がるリアルタイムAIゲーム操作の可能性\n\n高速で安価な意思決定に特化したAI「Jev」を、従来のLLMとの違いや制約から整理します。\nマリオやVampire Survivorsの操作を通じて、ゲームデバッグへの可能性を考えました。\n\n配信先は↓\nkaraage-empire-radio.pages.d…",
+      "publishedAt": "2026-09-20T03:00:03.000Z",
+      "authorHandle": "karaage0703",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2101504117172502839",
+      "url": "https://x.com/balaena01/status/2101504117172502839",
+      "text": "Jev使って、ブラウザで遊ぶローグライトっぽいゲームデモ作成してみた\n\nいつもの如くTripo使ってアセット作成\n\nJevは以下に使用\n・マップの無限拡張\n・商人に対するテキスト形式の交渉成功判定\n・戦闘時のテキスト形式の自由アクション判定\n\nこれくらいだったらJevじゃなくてもいいけど・・・\nもうちょっとリアルタイム性活かせるJev活用したいね\nじぇぶりじぇぶり\n\n#TripoAstra #Tripo3D #TripoAmbassador",
+      "publishedAt": "2026-09-20T02:50:00.000Z",
+      "authorHandle": "balaena01",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2101500765907063130",
+      "url": "https://x.com/Yokohara_h/status/2101500765907063130",
+      "text": "あえて3D生成は使わずGPT-6 AstraにBlenderのスカルプトで人と同じような手順でモデリングしてもらう検証\n最初に人に教えるように詳細な手順を伝えてエフォートをウルトラで作業してもらった\n思ったより綺麗にできた印象",
+      "publishedAt": "2026-09-20T02:36:41.000Z",
+      "authorHandle": "Yokohara_h",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2101498372008071570",
+      "url": "https://x.com/kyuukanba/status/2101498372008071570",
+      "text": "Astra、漫画ネームのPDFをほぼ完璧に読めますね。\n\nいままでGeminiしかできなかったことだけどAstraはそれ以上の精度かも。\n\n画像化して1枚ずつ読み解き、文脈を理解したうえでコマ単位で内容を正確に読み解くので、ほぼ人間の読みを再現する。\n\nすごい。",
+      "publishedAt": "2026-09-20T02:27:10.000Z",
+      "authorHandle": "kyuukanba",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2101479805086802268",
       "url": "https://x.com/tripoai/status/2101479805086802268",
       "text": "Huge thanks to @kiaran_ritchie for showcasing our new Smart UV feature! ✨ If you haven't tried it in P2.0 yet, you're missing out. ↓",
       "publishedAt": "2026-09-20T01:13:23.000Z",
       "authorHandle": "tripoai",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2101479204957430270",
+      "url": "https://x.com/automo_emo/status/2101479204957430270",
+      "text": "GPT-6 Astraでロボット操作を試行中。\n\nSO-101とブロックが写った1枚の写真を見せて、\n「黄色のブロックをつまんで持ち上げて」と指示。\n\nタスク固有の学習なしで動作経路を計画し、MCP経由でモーションへ変換。\n\n成功率はまだ低いですが、実機でも把持・持ち上げまで確認できました。\n\n#Meridian計画",
+      "publishedAt": "2026-09-20T01:11:00.000Z",
+      "authorHandle": "automo_emo",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2101465151853720019",
+      "url": "https://x.com/shi3z/status/2101465151853720019",
+      "text": "すごい。できるんだ",
+      "publishedAt": "2026-09-20T00:15:10.000Z",
+      "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": true
     },
@@ -36,63 +90,9 @@
       "authorHandle": "MLBear2",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2101431497437950458",
-      "url": "https://x.com/thsottiaux/status/2101431497437950458",
-      "text": "2026 is the year of linux desktop",
-      "publishedAt": "2026-09-19T22:01:26.000Z",
-      "authorHandle": "thsottiaux",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2101336905480630725",
-      "url": "https://x.com/GeorgiaChal/status/2101336905480630725",
-      "text": "I wrote a blog sharing some thoughts after spending the last days looking more carefully at the GPT-6 Astra results in robotics, 3D, CAD and autonomous experimentation.\nI started rather skeptical, and I still don’t think these results mean that scaling has suddenly “solved robotics.” But I do think something interesting is happening.\n\nWhat capability are we actually seeing? What role does structure play? What is learned by the model, and what becomes possible because of the tools, representations and algorithms around it?\n\nAnd perhaps most importantly, what experiments do we actually need to answer these questions?\n\nWhat Are We Actually Seeing with GPT-6 Astra?\n\n#Robotics #GPT6 #Astra #RobotLearning\n\nnitter.net/GeorgiaChal/status/210…",
-      "publishedAt": "2026-09-19T15:45:33.000Z",
-      "authorHandle": "GeorgiaChal",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2101328441455116453",
-      "url": "https://x.com/balaena01/status/2101328441455116453",
-      "text": "Tripo、UVある程度綺麗してくれるようになってるじゃん\nただパーツ分割後はまだできないみたい\nそれも対応してくれたら嬉しいなぁ\n\n#Tripo3d",
-      "publishedAt": "2026-09-19T15:11:55.000Z",
-      "authorHandle": "balaena01",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2101324912594178409",
-      "url": "https://x.com/gimu_ai/status/2101324912594178409",
-      "text": "これ、すごく面白かった！\n「AI×ゲーム」に興味がある人にはオススメ！\n刺さる内容がとても多かった！\n\n>ブラウザ版でゲームをリリースして、野田さんのゲーム配信でファンの人にプレイしてもらってデバッグをしている。\n\n>ゲームを出すときにブラウザゲーム以外は審査がある。アップデートにも審査が入る。(AI時代では)このスピード間についていけなくなるんじゃないか？そうしたらブラウザゲームが一番いいなという認識に今はなってる。",
-      "publishedAt": "2026-09-19T14:57:54.000Z",
-      "authorHandle": "gimu_ai",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2101323796259172707",
-      "url": "https://x.com/asobodesign/status/2101323796259172707",
-      "text": "バレないように退社を目指すゲーム（実際に遊べます）\namix-design.com/tl/tool-g-ki…",
-      "publishedAt": "2026-09-19T14:53:28.000Z",
-      "authorHandle": "asobodesign",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2101319848152502572",
-      "url": "https://x.com/ryopenguin/status/2101319848152502572",
-      "text": "こういうのは初期衝動のままにやったほうがいいということでJev + gemini-3.5-flash-lightで実験してみました。\n\n基本判断はJevで、5秒おきないしは同じ状況が続いたらGeminiでカメラ画像を言語化してJevに送ります。\n\n最初と最後に障害物はまってダメかと思ったんですが自分で抜けて感動…！",
-      "publishedAt": "2026-09-19T14:37:47.000Z",
-      "authorHandle": "ryopenguin",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-09-20T01:22:06.642Z",
+  "fetchedAt": "2026-09-20T06:39:00.724Z",
   "stale": false,
   "error": null
 }

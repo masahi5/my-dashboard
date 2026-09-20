@@ -6,6 +6,54 @@
   "category": "ai",
   "items": [
     {
+      "id": "1a6dbf4a3f0b",
+      "title": "terraform init は何をしているのか【AI の Terraform 暴走を止める #1】",
+      "url": "https://zenn.dev/e8dev/articles/terraform-init-ai-review",
+      "publishedAt": "2026-09-19T22:42:49.000Z",
+      "publisher": "e8dev",
+      "summary": "AI エージェントに Terraform を触らせるようになって、レビューの中身が変わりました。書かれた HCL を読むより先に、AI が打とうとしているコマンドと、その出力の読み方を見る必要が出てきた。エラーを消すために lock fi…"
+    },
+    {
+      "id": "d788b915343d",
+      "title": "「速く終わった」は成功ではない — rm -f が一度も走らず、壊れたコードを「検証済み」と報告した話",
+      "url": "https://zenn.dev/hwaun_dev_open/articles/zsh-glob-skipped-verification",
+      "publishedAt": "2026-09-19T22:19:41.000Z",
+      "publisher": "PaPaPa",
+      "summary": "自分で作った動画処理ツールの検証を組んでいました。素材を処理して、出力の尺とフレーム数を確かめる。2回流して同じ結果が出れば合格、という単純なものです。 2回目が、異常に速く終わりました。 私はそれを「キャッシュが効いたんだな」と解釈して…"
+    },
+    {
+      "id": "1fd8024846ce",
+      "title": "CLAUDE.mdのルールを増やす前に確かめる、母数を数えるすすめ",
+      "url": "https://zenn.dev/genkunjc/articles/rules-that-died-when-measured",
+      "publishedAt": "2026-09-19T21:53:16.000Z",
+      "publisher": "circle",
+      "summary": "AIコーディングエージェントに、決めたルールをちゃんと守ってほしい。ただ、ルールを増やすたびに、そのぶん守らせやすくなっているとは限りません。 足す前に、まず母数を数えます。同じ日に作った4本のルールのうち3本は、通った側を数えると撤回の…"
+    },
+    {
+      "id": "2dceb51aa9df",
+      "title": "OpenAIとジョナサン・アイブのAI時代のデザイン ── 人とAIのインターフェースの理想のかたち",
+      "url": "https://zenn.dev/leading_ai/articles/openai-jony-ive-ai-interface",
+      "publishedAt": "2026-09-19T21:29:43.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "みなさん、こんにちは。ビジネス×デザイン×テクノロジーの３つの領域を越境している、Sun*のビジネスデザイナー兼AIストラテジストの山内怜史である。 OpenAIとジョナサン・アイブがつくっている端末は、まだ名前も形も公表されていない。公…"
+    },
+    {
+      "id": "7b16b20f65f8",
+      "title": "AI立ち絵の作り方｜プロンプト・参照画像・差分生成まで再利用できるキャラクター設計",
+      "url": "https://zenn.dev/satofun/articles/38b9e525ae0f02",
+      "publishedAt": "2026-09-19T21:25:18.000Z",
+      "publisher": "sato",
+      "summary": "AIで立ち絵を作るとき、最初の1枚だけをきれいに生成することへ意識が向きがちです。ですが、TRPG、配信、SNS、ゲーム、漫画などで同じキャラクターを継続利用するなら、本当に重要なのは「次の1枚も同じキャラクターとして使えるか」です。 髪…"
+    },
+    {
+      "id": "6aa291073b17",
+      "title": "訂正が重なった資料の値抽出、プロンプト反復より内訳の明示が効いた",
+      "url": "https://zenn.dev/every_ai_recipe/articles/correction-tracking-breakdown-check",
+      "publishedAt": "2026-09-19T21:17:07.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 「訂正が複数回重なった業務メモ」から最終的な正しい値を抽出させる際、(1) プロンプトをそのまま2回貼る\"Prompt Repetition\"、(2) 回答前に情報を古い順へ整理させるステップバイステップ指示、の2つの工夫を単…"
+    },
+    {
       "id": "2c60733d3337",
       "title": "【コピペOK】Claude Code の permissions おすすめ設定と、allow / ask / deny の分け方",
       "url": "https://zenn.dev/tmasuyama1114/articles/claude_code_permissions_recommended",
@@ -52,57 +100,9 @@
       "publishedAt": "2026-09-19T16:58:07.000Z",
       "publisher": "Kengo Tomita",
       "summary": "自身が執筆した五本の連作論文（Mekiki Framework・T1〜T5）を、AIから直接参照できるようにするMCPサーバを公開しました。 この記事は、このサーバが「何をしていて、何をしていないのか」を開発者自身の言葉で整理し、説明する…"
-    },
-    {
-      "id": "ce0fbddabd5f",
-      "title": "AIにアプリを作らせて大丈夫か、30秒で分かる物を作りました。",
-      "url": "https://zenn.dev/kss_cis_basekit/articles/67556fcd073c9f",
-      "publishedAt": "2026-09-19T16:43:05.000Z",
-      "publisher": "KeySolutionSupport",
-      "summary": "https://keysolutionsupport.com/check/ai-app/ なぜ作ったか 私はプログラムが書けません。2026年の春から、AIに指示を出して電話を受けるシステムを作らせ、実際の店舗で動かしています。 その材料…"
-    },
-    {
-      "id": "edfee6d3bbbd",
-      "title": "Jev入門：Choice / Boolean / Scoreとprobability・confidence",
-      "url": "https://zenn.dev/yuzu_krs/articles/71c18d2589d01e",
-      "publishedAt": "2026-09-19T15:55:16.000Z",
-      "publisher": "yuzu-krs",
-      "summary": "2026年9月15日、TypeSafe AIは最初の System One Model として Jev を公開しました。 Jevは、ChatGPTのように自由な文章を返すことを主目的にしたモデルではありません。 ざっくり言うと、 stat…"
-    },
-    {
-      "id": "ff520853dac9",
-      "title": "jev-lint: コード中の命名やコメントが嘘になってないかを高速に確認",
-      "url": "https://zenn.dev/mizchi/articles/jev-lint-intro",
-      "publishedAt": "2026-09-19T15:39:57.000Z",
-      "publisher": "mizchi",
-      "summary": "jev-lint とは 気づいたら関数名が実態とズレていたり、昔書いたテストケース名やコメントが嘘になっていた、という問題に遭遇したことはありませんか？ それに対して、jev-lint というツールを作りました。 https://gith…"
-    },
-    {
-      "id": "b7cc93347595",
-      "title": "Jevを試してみた：精度はQwen3 4Bとほぼ同等だった",
-      "url": "https://zenn.dev/dpbz/articles/dce127f7d8d85e",
-      "publishedAt": "2026-09-19T15:32:37.000Z",
-      "publisher": "DPBZ",
-      "summary": "最近Jevが話題になっているので、実際に環境を構築して試してみた。 結論から言うと、推論速度は速くコストも低い。ただ、精度はQwen3 4Bとほぼ同じレベルだった。 小さな改善を、あたかもとてつもないブレークスルーであるかのように見せてい…"
-    },
-    {
-      "id": "ea6d86dd0ae1",
-      "title": "TypeSafe AI「Jev」の実効性能検証レポート（約2.8万リクエストによる精度・速度・コスト評価）",
-      "url": "https://zenn.dev/biscuit/articles/typesafe-ai-jev-benchmark-2026-09",
-      "publishedAt": "2026-09-19T15:10:17.000Z",
-      "publisher": "biscuit",
-      "summary": "TypeSafe AIの「Jev」は、文章を生成せず、判定結果だけを返すモデルである。判定対象のデータ（JSON）と、「この発話はアラーム設定の依頼か？」のような質問を1リクエストにまとめて送ると、Yes/Noの確率や、選んだ選択肢とその…"
-    },
-    {
-      "id": "e03c053a7bf1",
-      "title": "JevでSQLの危険度を判定するCLIを試した：直接実行前のチェックに使える範囲と使えない範囲",
-      "url": "https://zenn.dev/tonbi_attack/articles/jev-sql-danger-checker",
-      "publishedAt": "2026-09-19T15:03:36.000Z",
-      "publisher": "tonbiattack",
-      "summary": "はじめに 運用環境でSQLを直接実行する場面では、DELETE や DROP TABLE だけでなく、条件付きの大量更新や権限変更にも注意が必要です。 jev-sql-danger-checker は、SQLを実行せず、JevへSQL本文…"
     }
   ],
-  "fetchedAt": "2026-09-20T01:21:49.030Z",
+  "fetchedAt": "2026-09-20T06:38:01.283Z",
   "stale": false,
   "error": null
 }
