@@ -6,6 +6,22 @@
   "category": "ai",
   "items": [
     {
+      "id": "402d9c52d424",
+      "title": "CodexでAIチャット共有アプリを作った。認証・決済・共有で決めた3つの境界",
+      "url": "https://zenn.dev/tmiyachi/articles/260920-ai-chat-maker-design",
+      "publishedAt": "2026-09-20T11:17:12.000Z",
+      "publisher": "みやっち Toshimitsu Miyachi",
+      "summary": "教材やマニュアルをもとに質問に答えるAIを作り、リンクで受講生やチームへ共有できる「AIチャットつくーる」を、Codexと開発しました。 最初に想像していたのは、資料を入れて会話する画面です。実際に作り始めると、それと同じくらい時間を使っ…"
+    },
+    {
+      "id": "901454e63303",
+      "title": "Agent が一日中行う 3 つの判断：JEV の 18 ユースケースと、使わない方がよい場面",
+      "url": "https://zenn.dev/beatapi/articles/7453fea3fe92bd",
+      "publishedAt": "2026-09-20T11:06:29.000Z",
+      "publisher": "BeatAPI",
+      "summary": "本番で動く Agent は、一日中同じ 3 種類の呼び出しを行っている。一覧から 1 つ選ぶ、値を尺度で採点する、はい・いいえで答える。多くのチームは、この 3 つをすべて長文を書くモデルに任せている。 JEV はこの 3 つのために作ら…"
+    },
+    {
       "id": "c5a96a4157ea",
       "title": "AIエージェントのための言語「Bend」は、ハーネスとコードレビューをなくせるか",
       "url": "https://zenn.dev/sc30gsw/articles/ac24e359bc7d6b",
@@ -84,25 +100,9 @@
       "publishedAt": "2026-09-20T09:28:50.000Z",
       "publisher": "niboshi",
       "summary": "Cloudflare Agents SDKでは、AgentがCloudflare Durable Objects（以下DO）上で動作します。DOはメモリとSQLiteストレージを持つステートフルな実行環境です。DOはアイドル時や基盤側の再…"
-    },
-    {
-      "id": "747be208929b",
-      "title": "AIスキルは、組織で仕組み化するほどよいとは限らない ── 判断の多様性を失わないために",
-      "url": "https://zenn.dev/pivotmedia/articles/claude-code-review-cognitive-diversity",
-      "publishedAt": "2026-09-20T09:00:00.000Z",
-      "publisher": "たわ",
-      "summary": "AIにコードレビューを任せるなら、優れたレビュー観点を一つにまとめ、全員へ配るのが合理的に見えます。命名、テスト、安全性、典型的な不具合。誰がAIを使っても同じ基準で確認できれば、品質のばらつきを減らせます。 一方で最近、レビューで何を重…"
-    },
-    {
-      "id": "f797286ad5f9",
-      "title": "音声生成サービスを見ると、つい「どこまで自然な声を作れるか」に目が向きます。ただ、登録される音声が増えるほど、別の問題が目立ってきます。",
-      "url": "https://zenn.dev/allenzongzi/articles/07a2ba2999f9de",
-      "publishedAt": "2026-09-20T08:59:05.000Z",
-      "publisher": "allenzongzi",
-      "summary": "音声生成サービスを見ると、つい「どこまで自然な声を作れるか」に目が向きます。 ただ、登録される音声が増えるほど、別の問題が目立ってきます。 欲しい声をどうやって探すのか。 音声が数個なら、一覧を眺めるだけでも困りません。ところが、言語、性…"
     }
   ],
-  "fetchedAt": "2026-09-20T15:21:58.849Z",
+  "fetchedAt": "2026-09-20T18:14:56.123Z",
   "stale": false,
   "error": null
 }
