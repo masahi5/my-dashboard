@@ -6,12 +6,76 @@
   "category": "ai",
   "items": [
     {
+      "id": "2c60733d3337",
+      "title": "【コピペOK】Claude Code の permissions おすすめ設定と、allow / ask / deny の分け方",
+      "url": "https://zenn.dev/tmasuyama1114/articles/claude_code_permissions_recommended",
+      "publishedAt": "2026-09-19T20:38:09.000Z",
+      "publisher": "とまだ｜『Claude Codeで作って学ぶ』著者（増山友司）",
+      "summary": "settings.json の permissions は、Claude Code に確認なしで実行させる操作と、止めたい操作を書く場所です。 ただ、どこまで許してよいかの基準がないと、空のままにするか、誰かの設定を貼ったままになりがちで…"
+    },
+    {
+      "id": "2014bf2fd973",
+      "title": "Jev＝較正済み確信度を返す閉世界分類器 — System One Modelの設計論点",
+      "url": "https://zenn.dev/xim2jp_tokyo/articles/8445fb9942f4ac",
+      "publishedAt": "2026-09-19T20:18:02.000Z",
+      "publisher": "しんいち",
+      "summary": "TypeSafe AIのJevを「構造化出力付きLLMの再発明では」と切るのは早い、というのが本記事の趣旨です。Jevの本質は生成モデルではなく、較正済み確信度を返す閉世界の分類器であり、この性質がアーキテクチャ上の置き場所を変えます。 …"
+    },
+    {
+      "id": "bbc9a6c99822",
+      "title": "バグ報告を出したら、1 分で bot に読まれて 25 分で PR になった",
+      "url": "https://zenn.dev/yasunami_daichi/articles/issue-to-pr-automation",
+      "publishedAt": "2026-09-19T18:32:22.000Z",
+      "publisher": "安並　大智",
+      "summary": "! OSS の issue が PR になるまでを、公開されているタイムスタンプから測った記録と、その自動化がどう作られているかを公開リポジトリから読み解いたものです。2026 年 9 月時点。 まず、こういう体験になる バグを見つけたと…"
+    },
+    {
+      "id": "dcaa94d66695",
+      "title": "OpenCodeのコンテキストをJevで継続的に剪定するプラグインを作った",
+      "url": "https://zenn.dev/uhu/articles/1007b909714cef",
+      "publishedAt": "2026-09-19T18:14:38.000Z",
+      "publisher": "uhu",
+      "summary": "はじめに OpenCode V2（beta）用のプラグイン opencode-context-pruner を作りました。 毎回のモデル呼び出しの直前に、古いツールコールとその結果だけを Jev（TypeSafe の判定モデル）で判定して…"
+    },
+    {
+      "id": "f6f59709fd86",
+      "title": "実際，ローカルLLMの性能ってどうなの？",
+      "url": "https://zenn.dev/tubesoling/articles/2f58a43ad276cb",
+      "publishedAt": "2026-09-19T17:08:40.000Z",
+      "publisher": "ソリング",
+      "summary": "はじめに 初めまして．ソリングです． 皆さんはローカルLLMを使用されたことはあるでしょうか．ここ数年でLLMの性能は急速に向上しており，現在では9B程度の比較的小規模なモデルでも，以前であれば非常に大規模な計算資源を必要としていたような…"
+    },
+    {
+      "id": "afdb2aa21b0d",
+      "title": "自分の概念論文をAIが読めるMCPサーバにする—Mekiki Readerの設計と使い方",
+      "url": "https://zenn.dev/kengotomita/articles/ca6d3d50287434",
+      "publishedAt": "2026-09-19T16:58:07.000Z",
+      "publisher": "Kengo Tomita",
+      "summary": "自身が執筆した五本の連作論文（Mekiki Framework・T1〜T5）を、AIから直接参照できるようにするMCPサーバを公開しました。 この記事は、このサーバが「何をしていて、何をしていないのか」を開発者自身の言葉で整理し、説明する…"
+    },
+    {
+      "id": "ce0fbddabd5f",
+      "title": "AIにアプリを作らせて大丈夫か、30秒で分かる物を作りました。",
+      "url": "https://zenn.dev/kss_cis_basekit/articles/67556fcd073c9f",
+      "publishedAt": "2026-09-19T16:43:05.000Z",
+      "publisher": "KeySolutionSupport",
+      "summary": "https://keysolutionsupport.com/check/ai-app/ なぜ作ったか 私はプログラムが書けません。2026年の春から、AIに指示を出して電話を受けるシステムを作らせ、実際の店舗で動かしています。 その材料…"
+    },
+    {
+      "id": "edfee6d3bbbd",
+      "title": "Jev入門：Choice / Boolean / Scoreとprobability・confidence",
+      "url": "https://zenn.dev/yuzu_krs/articles/71c18d2589d01e",
+      "publishedAt": "2026-09-19T15:55:16.000Z",
+      "publisher": "yuzu-krs",
+      "summary": "2026年9月15日、TypeSafe AIは最初の System One Model として Jev を公開しました。 Jevは、ChatGPTのように自由な文章を返すことを主目的にしたモデルではありません。 ざっくり言うと、 stat…"
+    },
+    {
       "id": "ff520853dac9",
       "title": "jev-lint: コード中の命名やコメントが嘘になってないかを高速に確認",
       "url": "https://zenn.dev/mizchi/articles/jev-lint-intro",
       "publishedAt": "2026-09-19T15:39:57.000Z",
       "publisher": "mizchi",
-      "summary": "jev-lint とは 今までの Lint ができなくて自分が困っていたこととして、命名の一貫性のチェックや、テストコードやコメントが嘘になっていることを検知できない、という問題がありました。 それに対して、 jev-lint というツー…"
+      "summary": "jev-lint とは 気づいたら関数名が実態とズレていたり、昔書いたテストケース名やコメントが嘘になっていた、という問題に遭遇したことはありませんか？ それに対して、jev-lint というツールを作りました。 https://gith…"
     },
     {
       "id": "b7cc93347595",
@@ -36,73 +100,9 @@
       "publishedAt": "2026-09-19T15:03:36.000Z",
       "publisher": "tonbiattack",
       "summary": "はじめに 運用環境でSQLを直接実行する場面では、DELETE や DROP TABLE だけでなく、条件付きの大量更新や権限変更にも注意が必要です。 jev-sql-danger-checker は、SQLを実行せず、JevへSQL本文…"
-    },
-    {
-      "id": "58348b5b0dcb",
-      "title": "Jevのオープンソース版Layaの数字を、一次情報3つで突き合わせてみた",
-      "url": "https://zenn.dev/genelab_999/articles/77ce1dcf344900",
-      "publishedAt": "2026-09-19T15:00:48.000Z",
-      "publisher": "GeneLab",
-      "summary": "TL;DR TypeSafe AI の Jev（2026年9月15日発表）と同じ形をした決定モデル Laya が、9月18日に Apache 2.0 で公開された。重み・学習レシピ・Router まで全部入っている ただし開発元が出してい…"
-    },
-    {
-      "id": "88cfbe421860",
-      "title": "AIとの会話がクロストークにならないようにfirstmateで1体とだけ話す",
-      "url": "https://zenn.dev/inapvision/articles/firstmate_agent_crew",
-      "publishedAt": "2026-09-19T15:00:05.000Z",
-      "publisher": "inapyss",
-      "summary": "AIとの会話がクロストークにならないようにfirstmateで1体とだけ話す 面倒臭がりなエンジニアのyssです。 AIコーディングエージェントを1つ動かすのはもう当たり前になりましたが、 「調査もしたい、バグ修正もしたい、監査もしたい」…"
-    },
-    {
-      "id": "34b1c4cec198",
-      "title": "Claude Codeの長期記憶を素のObsidianに置く",
-      "url": "https://zenn.dev/pakupaku_x/articles/0f99e8243a7fed",
-      "publishedAt": "2026-09-19T14:51:42.000Z",
-      "publisher": "ぱくぱく",
-      "summary": "新しいセッションのClaude Codeは、先週あなたが何を決めたかを知りません。 「その方式は先月やめたはずでは？」と気づけるのは人間だけで、気づけなかった分だけ同じ検討を繰り返します。リポジトリの CLAUDE.md に全部足していく…"
-    },
-    {
-      "id": "07e91256b869",
-      "title": "VS Code のエージェントチャットに、ターミナルの処理結果がユーザーメッセージとして送られていた",
-      "url": "https://zenn.dev/imkohenauser/articles/vscode-copilot-terminal-output-agent-chat",
-      "publishedAt": "2026-09-19T14:45:05.000Z",
-      "publisher": "Kohei Saito, or 廣円 (Kohen)",
-      "summary": "最近、Windows 環境の VS Code で、GitHub Copilot を使っています。 右サイドバーのエージェントチャットから、GPT 5.6 Luna や Terra を選択して、フロントエンド開発を行っています。自分でコード…"
-    },
-    {
-      "id": "f33cb68034cd",
-      "title": "読まない技術 最終回：AIの出力を、ほとんど読まなくなった",
-      "url": "https://zenn.dev/garplab/articles/c133110afb526c",
-      "publishedAt": "2026-09-19T14:17:01.000Z",
-      "publisher": "garplab",
-      "summary": "私は AI の出力を、ほとんど読まなくなりました。AI が出力するテスト結果も、AI が書き足す知見メモも、サブエージェントの作業ログも。読んでいないのは私だけではなく、AI 自身も、自分の出力を読まずに済む形になっています。出発点は序論…"
-    },
-    {
-      "id": "d98764df73eb",
-      "title": "AIに自分の行動ログをどこまで読ませるか——棚卸ししたら、結論が3回ひっくり返った",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-09-06-140000",
-      "publishedAt": "2026-09-19T13:57:09.000Z",
-      "publisher": "saitoko",
-      "summary": "この記事の実施記録(2026年9月): 「AIに自分をどこまで読ませるか」を棚卸ししようとしたら、棚卸しの実行段階そのものでAIの安全装置に止められた——という出来事をきっかけに、実際にどこまで読めるか・読ませた後に出てくる数字がどこまで…"
-    },
-    {
-      "id": "1f2fa681ff79",
-      "title": "「作れる」より「見つけられる」が効く",
-      "url": "https://zenn.dev/shun_producer/articles/finding-problems-beats-building",
-      "publishedAt": "2026-09-19T13:25:08.000Z",
-      "publisher": "シュンク堂",
-      "summary": "! これは「AIで稼ぐって、実際どうなの」シリーズ——非エンジニアが、AIと収入の関係を現実的に考えるための連載です。 （姉妹編：Claude Code初心者向け教科書 全8章） #1: 「AIで稼げる」の内訳を分解する #2: 稼ぐの第…"
-    },
-    {
-      "id": "2615a82ec99d",
-      "title": "LLM 抽出の自動評価が、言い回しを採点していた",
-      "url": "https://zenn.dev/tomtom55555/articles/d80e8efb8e4088",
-      "publishedAt": "2026-09-19T13:24:06.000Z",
-      "publisher": "tom",
-      "summary": "会議の文字起こしから「タスク」「決定」「リスク」を抽出するパイプラインを作っています。抽出の質を測るために、人が注釈した正解データと抽出結果を突き合わせて precision / recall を出す評価スクリプトを持っていました。 その…"
     }
   ],
-  "fetchedAt": "2026-09-19T23:18:28.837Z",
+  "fetchedAt": "2026-09-20T01:21:49.030Z",
   "stale": false,
   "error": null
 }
