@@ -6,36 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "e57556e16481",
-      "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
-      "url": "https://huggingface.co/papers/2609.15779",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and database…",
-      "score": 40
-    },
-    {
-      "id": "3c7aead1eed0",
-      "title": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
-      "url": "https://huggingface.co/papers/2609.22000",
+      "id": "3a13f3a6764c",
+      "title": "IntBMoE: Integrating Block-Level Conditioning into Expert Composition for Full-Participation Mixture-of-Experts",
+      "url": "https://huggingface.co/papers/2609.21346",
       "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development throu…",
-      "score": 35
-    },
-    {
-      "id": "2aa10267f713",
-      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
-      "url": "https://huggingface.co/papers/2609.22068",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-sou…",
-      "score": 32
-    },
-    {
-      "id": "8cdb1e9d19dd",
-      "title": "Grounded Skill Synthesis from Code at Scale for Agentic Intelligence",
-      "url": "https://huggingface.co/papers/2609.05571",
-      "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "Reusable skills give agents transferable procedural knowledge, making scalable acquisition essential for extending agen…",
-      "score": 24
+      "summary": "Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently. For a single …",
+      "score": 87
     },
     {
       "id": "b7d6d3e2023d",
@@ -43,31 +19,31 @@
       "url": "https://huggingface.co/papers/2609.20816",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex val…",
-      "score": 17
+      "score": 24
     },
     {
-      "id": "c13d3491cb62",
-      "title": "GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills",
-      "url": "https://huggingface.co/papers/2609.21749",
+      "id": "cac67d42d54a",
+      "title": "OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
+      "url": "https://huggingface.co/papers/2609.21465",
       "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Skills can improve the performance of Large Language Model (LLM) agents by providing task-specific procedural guidance,…",
-      "score": 4
+      "summary": "We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In …",
+      "score": 23
     },
     {
-      "id": "f95650c989bd",
-      "title": "OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation",
-      "url": "https://huggingface.co/papers/2609.22069",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Reference-to-video (R2V) generation is evolving toward increasingly general and versatile reference control, giving ris…",
-      "score": 4
+      "id": "799d5f6526e3",
+      "title": "FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection",
+      "url": "https://huggingface.co/papers/2609.18766",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Large audio-language models have shown promise for anti-fraud detection by directly processing speech and reasoning ove…",
+      "score": 3
     },
     {
-      "id": "3a60979fab7f",
-      "title": "MoME: Mixture-of-Memory Embeddings for Context-Aware Sparse Lookup",
-      "url": "https://huggingface.co/papers/2609.15126",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Scaling large language models efficiently has motivated sparse capacity mechanisms such as Mixture-of-Experts and, more…",
-      "score": 1
+      "id": "38afbdcdadd7",
+      "title": "TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection",
+      "url": "https://huggingface.co/papers/2609.18748",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Telecom fraud scripts evolve rapidly and are often designed to resemble routine service conversations, creating two key…",
+      "score": 3
     },
     {
       "id": "bf75593af69c",
@@ -75,14 +51,46 @@
       "url": "https://huggingface.co/papers/2609.21619",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "summary": "On-policy distillation (OPD) improves reasoning models by learning the token-level discrepancy between a stronger teach…",
+      "score": 3
+    },
+    {
+      "id": "93b154a058bd",
+      "title": "Refinement Is Inherently Editable: Training-Free Prompt-to-Prompt Image Editing with Generative Refinement Network",
+      "url": "https://huggingface.co/papers/2609.20633",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Text-guided image editing must introduce the requested changes while preserving unrelated source content. Diffusion-bas…",
+      "score": 2
+    },
+    {
+      "id": "3a60979fab7f",
+      "title": "MoME: Mixture-of-Memory Embeddings for Context-Aware Sparse Lookup",
+      "url": "https://huggingface.co/papers/2609.15126",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "Scaling large language models efficiently has motivated sparse capacity mechanisms such as Mixture-of-Experts and, more…",
+      "score": 2
+    },
+    {
+      "id": "9965e7958fc3",
+      "title": "MLLMs Hallucinate when Information Distribution Drifts in Synergy Heads",
+      "url": "https://huggingface.co/papers/2609.09206",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "Multimodal Large Language Models (MLLMs) often struggle with hallucinations, thus hindering their reliable practical ap…",
+      "score": 2
+    },
+    {
+      "id": "7ba18d50b37f",
+      "title": "Retention-Constrained Post-Training Quantization of Cellpose-SAM for Stem Cell Microscopy",
+      "url": "https://huggingface.co/papers/2609.21038",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Induced pluripotent stem cell (iPSC) culture increasingly relies on segmentation foundation models, yet deployment on l…",
       "score": 1
     },
     {
-      "id": "277da0223c3a",
-      "title": "DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation",
-      "url": "https://huggingface.co/papers/2609.18620",
+      "id": "7770e29d3e50",
+      "title": "Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models",
+      "url": "https://huggingface.co/papers/2609.21094",
       "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Creating deformable assets for robot manipulation requires jointly specifying their geometry, appearance, and physical …",
+      "summary": "Large Language Models (LLMs) are increasingly deployed in applications that must weigh clashing moral values, yet even …",
       "score": 1
     },
     {
@@ -91,18 +99,10 @@
       "url": "https://huggingface.co/papers/2609.19122",
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Visual signals require compact yet sufficient representations for robust downstream prediction. Convolutional sparse co…",
-      "score": 0
-    },
-    {
-      "id": "9965e7958fc3",
-      "title": "MLLMs Hallucinate when Information Distribution Drifts in Synergy Heads",
-      "url": "https://huggingface.co/papers/2609.09206",
-      "publishedAt": "2026-09-05T00:00:00.000Z",
-      "summary": "Multimodal Large Language Models (MLLMs) often struggle with hallucinations, thus hindering their reliable practical ap…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-21T05:51:17.916Z",
+  "fetchedAt": "2026-09-21T11:53:51.865Z",
   "stale": false,
   "error": null
 }
