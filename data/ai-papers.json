@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.21465",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "summary": "We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In …",
-      "score": 29
+      "score": 30
     },
     {
       "id": "18e90a015de1",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.22086",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "summary": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many int…",
-      "score": 14
+      "score": 19
     },
     {
       "id": "d1a36f8c4e35",
@@ -35,7 +35,39 @@
       "url": "https://huggingface.co/papers/2609.20886",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "summary": "Business intelligence (BI) is a cornerstone of enterprise decision-making and is widely used by enterprise users in sof…",
-      "score": 9
+      "score": 12
+    },
+    {
+      "id": "64f455ecb89c",
+      "title": "Gricea: An Open Science Platform for Conversational AI Research",
+      "url": "https://huggingface.co/papers/2609.22039",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "We need studies on conversational AI (CAI) at scale to understand human behavior and shape CAI design. However, fragmen…",
+      "score": 5
+    },
+    {
+      "id": "4bd349df7b8f",
+      "title": "CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design",
+      "url": "https://huggingface.co/papers/2609.16251",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "Computer-use agents are increasingly evaluated in realistic desktop environments, but existing benchmarks provide limit…",
+      "score": 5
+    },
+    {
+      "id": "59139317711d",
+      "title": "From Pretraining to Proficiency: Real-World Subtask RL for Long-Horizon Manipulation with Minimal Human Intervention",
+      "url": "https://huggingface.co/papers/2609.21788",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "A pretrained robot foundation policy may execute most of a long-horizon task yet repeatedly fail at a few critical subt…",
+      "score": 4
+    },
+    {
+      "id": "892545345ab2",
+      "title": "SiliconBench: Speed, Memory, and Fidelity for LLM Serving on Unified-Memory Desktops",
+      "url": "https://huggingface.co/papers/2609.19169",
+      "publishedAt": "2026-09-12T00:00:00.000Z",
+      "summary": "Concurrent local LLM serving on unified-memory desktops must preserve memory headroom and output fidelity, which speed-…",
+      "score": 3
     },
     {
       "id": "7bbe3bba8a48",
@@ -46,28 +78,12 @@
       "score": 3
     },
     {
-      "id": "7770e29d3e50",
-      "title": "Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models",
-      "url": "https://huggingface.co/papers/2609.21094",
+      "id": "7ba18d50b37f",
+      "title": "Retention-Constrained Post-Training Quantization of Cellpose-SAM for Stem Cell Microscopy",
+      "url": "https://huggingface.co/papers/2609.21038",
       "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Large Language Models (LLMs) are increasingly deployed in applications that must weigh clashing moral values, yet even …",
+      "summary": "Induced pluripotent stem cell (iPSC) culture increasingly relies on segmentation foundation models, yet deployment on l…",
       "score": 3
-    },
-    {
-      "id": "64f455ecb89c",
-      "title": "Gricea: An Open Science Platform for Conversational AI Research",
-      "url": "https://huggingface.co/papers/2609.22039",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "We need studies on conversational AI (CAI) at scale to understand human behavior and shape CAI design. However, fragmen…",
-      "score": 2
-    },
-    {
-      "id": "4bd349df7b8f",
-      "title": "CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design",
-      "url": "https://huggingface.co/papers/2609.16251",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Computer-use agents are increasingly evaluated in realistic desktop environments, but existing benchmarks provide limit…",
-      "score": 2
     },
     {
       "id": "1767f8d309cb",
@@ -84,25 +100,9 @@
       "publishedAt": "2026-09-17T00:00:00.000Z",
       "summary": "Text-guided image editing must introduce the requested changes while preserving unrelated source content. Diffusion-bas…",
       "score": 2
-    },
-    {
-      "id": "7ba18d50b37f",
-      "title": "Retention-Constrained Post-Training Quantization of Cellpose-SAM for Stem Cell Microscopy",
-      "url": "https://huggingface.co/papers/2609.21038",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Induced pluripotent stem cell (iPSC) culture increasingly relies on segmentation foundation models, yet deployment on l…",
-      "score": 2
-    },
-    {
-      "id": "892545345ab2",
-      "title": "SiliconBench: Speed, Memory, and Fidelity for LLM Serving on Unified-Memory Desktops",
-      "url": "https://huggingface.co/papers/2609.19169",
-      "publishedAt": "2026-09-12T00:00:00.000Z",
-      "summary": "Concurrent local LLM serving on unified-memory desktops must preserve memory headroom and output fidelity, which speed-…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-21T17:48:22.749Z",
+  "fetchedAt": "2026-09-21T21:40:01.437Z",
   "stale": false,
   "error": null
 }

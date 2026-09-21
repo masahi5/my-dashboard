@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "643431454289",
-      "title": "デザイナー×エンジニアがAIエージェントを作ったら何が生まれる？制作管理エージェント「Relay」を紹介！【AI HACK 2026】",
-      "url": "https://zenn.dev/raspberry/articles/2d0b035b3026da",
-      "publishedAt": "2026-09-21T16:07:03.000Z",
-      "publisher": "raspberry team",
-      "summary": "はじめに 「このバナー、来週までにお願いします」 マーケターからデザイン制作依頼を受け取ったあと、すぐに制作を始められるとは限りません。 誰に向けたバナーなのか。どこに掲載するのか。何を一番伝えたいのか。必要な素材は揃っているのか。 制作…"
+      "id": "8782992faff8",
+      "title": "Jevとは何か — 判断をソフトウェアに組み込む「System Oneモデル」の仕組み",
+      "url": "https://zenn.dev/takumaichida/articles/d4cd24282518be",
+      "publishedAt": "2026-09-21T10:39:53.000Z",
+      "publisher": "takumaichida",
+      "summary": "Abstract：Jevとは何か Jevは、TypeSafe AIが開発した、識別・評価に特化したAIモデルです。判断材料と質問、回答の選択肢や評価基準を渡すと、選択結果やスコア、確率を返します。高速・低コストで判断し、その確からしさも数…"
     },
     {
-      "id": "202a134d347d",
-      "title": "LayaはJevより速い？ローカル判定AIの比較条件と、日本語アプリへの導入手順",
-      "url": "https://zenn.dev/kanta13jp1/articles/laya-mlx-on-device-system-one-benchmark",
-      "publishedAt": "2026-09-21T15:30:35.000Z",
-      "publisher": "kanta13jp1",
-      "summary": "スネーク比較で分かること ローカルの「Laya」とクラウドAPIの「Jev」を、同じスネークゲームで動かす比較が紹介されています。ローカルで判断を完結させると、毎回のネットワーク往復を省ける点が魅力です。 ただし、応答速度・モデルの正答率…"
+      "id": "ad1a4c30b1cc",
+      "title": "AIツールの出力を安定させるための「入力テンプレート」設計",
+      "url": "https://zenn.dev/aiai_tool/articles/c57c0a9f35874a",
+      "publishedAt": "2026-09-21T09:50:50.000Z",
+      "publisher": "AIAI｜AI Tools & Workflows",
+      "summary": "生成AIを日常業務で使っていると、同じような依頼をしているのに、毎回出力の形式や品質が少しずつ変わることがあります。 単発の利用であれば大きな問題ではありません。 しかし、文章作成、要約、データ整理、分類などを繰り返し行う場合、出力のばら…"
     },
     {
-      "id": "d320bcbb4c16",
-      "title": "DifyからJev(System One)を呼び出す：HTTPノードでの接続と日本語での動作確認",
-      "url": "https://zenn.dev/yaahmi/articles/dify_jev_test",
-      "publishedAt": "2026-09-21T15:26:42.000Z",
-      "publisher": "YaahMi",
-      "summary": "はじめに 2026年9月に発表されたTypeSafe AIの「Jev」は、チャット用のLLMではなく、状態(state)と型付きの質問を送ると、コードでそのまま使える構造化された回答が返るモデルです。Jevは\"System One\"モデル…"
+      "id": "1bdae3453f9b",
+      "title": "AI使用の限界と効用について",
+      "url": "https://zenn.dev/terry_write/articles/24d5ee55dda0a8",
+      "publishedAt": "2026-09-21T09:39:09.000Z",
+      "publisher": "おおきいいぬ",
+      "summary": "AIは便利なツールである。 しかしあまりに「AI」に対して盲目的すぎるように思う。 AIはすべてを解決は（今の所）しないし、正直な限界もある。 それは「実際にAIを活用している人」と、「AIを活用”しようと”している人」の間に、大きなギャ…"
     },
     {
-      "id": "84b934610027",
-      "title": "GitHub Issueを流すだけでPRになる「パイプラインskill」をClaude Codeで作った",
-      "url": "https://zenn.dev/yubel/articles/claude-code-issue-to-pr-pipeline",
-      "publishedAt": "2026-09-21T15:22:03.000Z",
-      "publisher": "yubel",
-      "summary": "この記事で分かること 個人開発で複数リポジトリを掛け持ちしていると、「Issueを書いたはいいが着手するのを忘れる」「実装できてもPRを出した後のCodeRabbitの指摘対応やCI監視が地味に時間を食う」という悩みが出てきます。これを解…"
+      "id": "dc4ee99bd489",
+      "title": "【実録】AI社員30人でアプリを3本作った。効いたこと3つと、完全に無駄だったこと3つ",
+      "url": "https://zenn.dev/yk_studio/articles/ai-employees-what-actually-works",
+      "publishedAt": "2026-09-21T09:36:19.000Z",
+      "publisher": "YK Studio",
+      "summary": "「AI社員の作り方」を解説する記事は、2026年に入ってから山ほど出ました。もう十分すぎるほどあります。 なので作り方は書きません。2ヶ月動かして、実際に効いたことと、完全に無駄だったことを書きます。 事故の話も込みです。 先に結論を書き…"
     },
     {
-      "id": "69caf9954e48",
-      "title": "2026-09-01 今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-01-tech-daily",
-      "publishedAt": "2026-09-21T15:10:44.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 本日の技術トレンドでは、単一LLMからAIエージェントおよび具身知能へのシフトと、エージェント間の相互運用性を高める「MCP」の進化が顕著になっています。国内ではスペースデータによる「SD-AgentFoundry」のOSS公開や富士…"
+      "id": "895296d3a35a",
+      "title": "ComfyUIを入れる前に試すMiniMax H3 LoRA：作りたいワンシーンから始めよう",
+      "url": "https://zenn.dev/followcloud/articles/8623d2c343a838",
+      "publishedAt": "2026-09-21T09:29:52.000Z",
+      "publisher": "followcloud",
+      "summary": "短い動画の顔をもう少し自然にしたい。昔のビデオテープのような質感を出したい。カメラを意図した方向へ動かしたい。 これらは、似ているようで別々の課題です。どれを解決したいのか決める前にLoRAファイルをいくつも集めると、小さな制作の試みが環…"
     },
     {
-      "id": "56faca3514d6",
-      "title": "最新事例から学ぶJev活用術！（まだ追いつける）",
-      "url": "https://zenn.dev/zabuton/articles/5a32d21b63b2fb",
-      "publishedAt": "2026-09-21T15:09:46.000Z",
-      "publisher": "低迷する座布団",
-      "summary": "はじめに 最近ホットなJevの話をしましょう。 JevはTypeSafe AIが2026年9月15日に提供を始めたAIモデルです。 いわく判断に特化したモデルで、LLMのように文章を生成するモデルではありません。 ただ入力された情報を読ん…"
+      "id": "f08c19aa3013",
+      "title": "実サービスの判断処理を Jev に移行した際の評価",
+      "url": "https://zenn.dev/kiva/articles/c325f91bd8eab8",
+      "publishedAt": "2026-09-21T09:24:18.000Z",
+      "publisher": "uchidash",
+      "summary": "こんにちは、株式会社Kiva CTOのuchidaです。この記事では弊社で提供している全社の仕事とナレッジが集まる業務 OS: Samurai App の処理を今話題の Jev にリファクタリングした内容を掲載しています。 https:/…"
     },
     {
-      "id": "70380360b0e2",
-      "title": "【AI HACK 2026 Day3】Day4の提出に向けて、NetWalkerの結合方針を決める",
-      "url": "https://zenn.dev/takashishibata/articles/38e48a945b95df",
-      "publishedAt": "2026-09-21T14:00:15.000Z",
-      "publisher": "Takashi Shibata",
-      "summary": "AI HACK 2026に、社会人と学生の2人チームで参加しています。 前回のミーティングでは、いくつかのアイデアを比較し、ネットワーク障害の調査・復旧を支援するAIエージェント「NetWalker」を中心に開発する方針を決めました。 D…"
+      "id": "20c47337108a",
+      "title": "AIコーディングエージェントは「まだ誰も気づいていない要件」を発見できるのか",
+      "url": "https://zenn.dev/konohana_rm/articles/ea9deed60b7568",
+      "publishedAt": "2026-09-21T09:03:58.000Z",
+      "publisher": "RyokoM コノハナ・フュージョン",
+      "summary": "最近、「自律型AIエージェントによるソフトウェア開発」という言葉をよく見る。 リポジトリを読み、作業を分解し、コードを書き、テストを実行する。失敗すれば修正し、場合によってはプルリクエストまで作る。 確かに、かなり自律している。 でも私は…"
     },
     {
-      "id": "603f9517d048",
-      "title": "Jevをローカルでどこまで再現できるか検証しました",
-      "url": "https://zenn.dev/null_teck/articles/local-jev-reproduce",
-      "publishedAt": "2026-09-21T13:58:24.000Z",
-      "publisher": "ヌルソフト@AI_Teck_PoC",
-      "summary": "! TL;DR（3行要約） 身近なツールでJevのインターフェースは再現できる: 専用ライブラリを使わずとも、ローカルの llama-server に Qwen3.5-4B.gguf（約2.8GB）を読み込ませ、思考モードをオフにして L…"
+      "id": "6109b51930cb",
+      "title": "画像生成AI 10種の無料プランを、枚数・ウォーターマーク・公開範囲・権利で比較する",
+      "url": "https://zenn.dev/donaldxs/articles/5bb7fd8327a1d1",
+      "publishedAt": "2026-09-21T09:01:07.000Z",
+      "publisher": "donaldxs",
+      "summary": "画像生成AI 10種の無料プランを、枚数・ウォーターマーク・公開範囲・権利で比較する この記事の対象と範囲 対象読者：個人開発やサイド プロジェクトで画像素材が必要になり、無料の画像生成AIを使おうとしている方。成果物を公開したり、有償の…"
     },
     {
-      "id": "5eee6f0033b4",
-      "title": "作業時間を資産化する「Proof of Focus」",
-      "url": "https://zenn.dev/takummi/articles/5a4da5b9377bed",
-      "publishedAt": "2026-09-21T13:46:25.000Z",
-      "publisher": "takumi",
-      "summary": "はじめまして、個人でWeb開発を学びながら新しいプロダクトづくりに挑戦している開発者です。 最近、界隈で「バイブコーディング（AIと自然言語で対話しながら、コードの細部にとらわれず爆速でプロダクトを組み立てるスタイル）」が注目を集めていま…"
+      "id": "228f71e5353c",
+      "title": "Claude Codeに5つの役割を持たせて、自分の仕事の流れを設計した",
+      "url": "https://zenn.dev/pivotmedia/articles/claude-code-shared-skills-personal-workspace",
+      "publishedAt": "2026-09-21T09:00:05.000Z",
+      "publisher": "たわ",
+      "summary": "チームでClaude Codeを使っていると、うまくいった設定は共有したくなります。実際、私たちも命名規則やテスト方針、安全な操作の境界などを共通のスキルとして配っています。 その一方で、私は自分用のワークスペースも育てています。そこに置…"
     },
     {
-      "id": "b8ff17c0aec4",
-      "title": "バイブコーディングがGUIを壊す真の理由と、Jevで防ぐAI駆動型対策プロンプト",
-      "url": "https://zenn.dev/aidocs/articles/4b2feb7fcb20f9",
-      "publishedAt": "2026-09-21T13:08:19.000Z",
-      "publisher": "aidocs",
-      "summary": "! この記事の要約 バイブコーディングがなぜGUIの劣化を引き起こすのか、そのメカニズムを深く理解できます。 従来のLLMでは解決が難しかったこの問題に対し、TypeSafe AIのJevがなぜ有効なのか、その特性を解説します。 Jevを…"
+      "id": "ec9d3dba1f7b",
+      "title": "文章を書かないAI「Jev」と、実在3社に入り込んだGemini",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260921",
+      "publishedAt": "2026-09-21T08:58:51.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年9月21日（月）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます。今日のAIニュース、実はぜんぶつながってます。文章を書かない新しいAIが出てきた一方で、GoogleのAIは本物…"
     },
     {
-      "id": "86c8c40a5f65",
-      "title": "plan の記号を読む: -/+ は一度消える【AI の Terraform 暴走を止める #3】",
-      "url": "https://zenn.dev/e8dev/articles/terraform-plan-symbols-ai-review",
-      "publishedAt": "2026-09-21T12:44:38.000Z",
-      "publisher": "e8dev",
-      "summary": "AI が書いた Terraform の実行を承認する立場の人に向けて、基本コマンドを 1 本ずつ「機構 / 設計意図 / AI を止めるサイン」の 3 問で解説するシリーズの 3 本目です。前回は terraform plan は何を比べ…"
+      "id": "a41f4bb118d9",
+      "title": "Claude Code も Codex も Qwen も「1つのチーム」にする — メタハーネス AgentEngine を作った",
+      "url": "https://zenn.dev/infra_ojisan/articles/agentengine_metahernes",
+      "publishedAt": "2026-09-21T08:55:40.000Z",
+      "publisher": "引退間際の非エンジニアがAIと遊ぶ",
+      "summary": "3行まとめ マシンにインストール済みの AI コーディング CLI（ハーネス）を PATH から自動検出し、6種類を1つのチームとして同じチャット上で議論させる CUI ツール AgentEngine を作った。 エージェント＝「ハーネス…"
     },
     {
-      "id": "f5a0b7449e58",
-      "title": "CBN 取扱説明書 第 4 章 — 私の書き込みを制御する三つのレイヤー",
-      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-04-guards-and-fallback-ban",
-      "publishedAt": "2026-09-21T12:30:00.000Z",
-      "publisher": "AIによるAIのための記事",
-      "summary": "第 3 章では、私の一日が /orient で始まり /handoff で終わるまでを書いた。この章は、その一日の「作業」の部分で毎ターン動いている安全装置の話である。例えば私が rules のファイルを書き換えようとするとき、Edit …"
+      "id": "8cdbc98edf8e",
+      "title": "jev-test-filter: git diff から関連するテストだけを抽出する",
+      "url": "https://zenn.dev/mizchi/articles/jev-test-filter-intro",
+      "publishedAt": "2026-09-21T08:42:57.000Z",
+      "publisher": "mizchi",
+      "summary": "作ったもの git diff を渡すと、その変更で影響を受けそうなテストだけを選んで、テストランナーがそのまま理解できるフィルタ引数を吐くツールです。 https://github.com/mizchi/jev-test-filter $…"
     }
   ],
-  "fetchedAt": "2026-09-21T17:48:22.903Z",
+  "fetchedAt": "2026-09-21T21:40:01.509Z",
   "stale": false,
   "error": null
 }
