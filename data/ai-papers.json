@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "5368ea516afe",
-      "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
-      "url": "https://huggingface.co/papers/2609.18323",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, ima…",
-      "score": 114
+      "id": "e57556e16481",
+      "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+      "url": "https://huggingface.co/papers/2609.15779",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and database…",
+      "score": 40
     },
     {
-      "id": "f9fc19aa0ffc",
-      "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.20511",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even…",
-      "score": 94
-    },
-    {
-      "id": "0aab12362f8a",
-      "title": "Verifiable Social Reasoning for LLM Assistants",
-      "url": "https://huggingface.co/papers/2609.17496",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation sett…",
-      "score": 48
-    },
-    {
-      "id": "5b4ed67d54a3",
-      "title": "Self-Evolving Search Index",
-      "url": "https://huggingface.co/papers/2609.19656",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs.…",
-      "score": 45
-    },
-    {
-      "id": "6a7ee123305e",
-      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2609.20784",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivat…",
-      "score": 39
-    },
-    {
-      "id": "24f4cedcb0ae",
-      "title": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
-      "url": "https://huggingface.co/papers/2609.20423",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Document parsing converts document images into structured content and requires reliable performance across diverse layo…",
+      "id": "3c7aead1eed0",
+      "title": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
+      "url": "https://huggingface.co/papers/2609.22000",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development throu…",
       "score": 35
     },
     {
-      "id": "b22cc529a2cf",
-      "title": "Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling",
-      "url": "https://huggingface.co/papers/2609.19499",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses. …",
-      "score": 29
+      "id": "2aa10267f713",
+      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+      "url": "https://huggingface.co/papers/2609.22068",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-sou…",
+      "score": 32
     },
     {
-      "id": "ba63cd2239de",
-      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
-      "url": "https://huggingface.co/papers/2609.20817",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial g…",
-      "score": 29
-    },
-    {
-      "id": "79d92bfb7cd8",
-      "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
-      "url": "https://huggingface.co/papers/2609.20715",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Agent trajectories record what an agent does and what happens next. Yet standard supervised fine-tuning (SFT) applies l…",
-      "score": 28
-    },
-    {
-      "id": "25a69e8810b0",
-      "title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
-      "url": "https://huggingface.co/papers/2609.18605",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such…",
-      "score": 26
-    },
-    {
-      "id": "bca683248bf8",
-      "title": "Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts",
-      "url": "https://huggingface.co/papers/2609.05661",
+      "id": "8cdb1e9d19dd",
+      "title": "Grounded Skill Synthesis from Code at Scale for Agentic Intelligence",
+      "url": "https://huggingface.co/papers/2609.05571",
       "publishedAt": "2026-09-04T00:00:00.000Z",
-      "summary": "We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Beng…",
-      "score": 25
+      "summary": "Reusable skills give agents transferable procedural knowledge, making scalable acquisition essential for extending agen…",
+      "score": 24
     },
     {
-      "id": "2f17f124df6e",
-      "title": "VākQA: A Benchmark and Evaluation Study for Telugu Spoken Factoid Question Answering",
-      "url": "https://huggingface.co/papers/2609.19879",
+      "id": "b7d6d3e2023d",
+      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+      "url": "https://huggingface.co/papers/2609.20816",
       "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Question answering has advanced rapidly with large language models, but predominantly for high-resource languages, in b…",
-      "score": 23
+      "summary": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex val…",
+      "score": 17
+    },
+    {
+      "id": "c13d3491cb62",
+      "title": "GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills",
+      "url": "https://huggingface.co/papers/2609.21749",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "Skills can improve the performance of Large Language Model (LLM) agents by providing task-specific procedural guidance,…",
+      "score": 4
+    },
+    {
+      "id": "f95650c989bd",
+      "title": "OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation",
+      "url": "https://huggingface.co/papers/2609.22069",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "Reference-to-video (R2V) generation is evolving toward increasingly general and versatile reference control, giving ris…",
+      "score": 4
+    },
+    {
+      "id": "3a60979fab7f",
+      "title": "MoME: Mixture-of-Memory Embeddings for Context-Aware Sparse Lookup",
+      "url": "https://huggingface.co/papers/2609.15126",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "Scaling large language models efficiently has motivated sparse capacity mechanisms such as Mixture-of-Experts and, more…",
+      "score": 1
+    },
+    {
+      "id": "bf75593af69c",
+      "title": "Calibrating Teacher--Student Discrepancy for On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.21619",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) improves reasoning models by learning the token-level discrepancy between a stronger teach…",
+      "score": 1
+    },
+    {
+      "id": "277da0223c3a",
+      "title": "DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation",
+      "url": "https://huggingface.co/papers/2609.18620",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Creating deformable assets for robot manipulation requires jointly specifying their geometry, appearance, and physical …",
+      "score": 1
+    },
+    {
+      "id": "9cf30ed557ff",
+      "title": "Training-Adaptive Convolutional Sparse Coding via Information Bottleneck for Robust Visual Representation",
+      "url": "https://huggingface.co/papers/2609.19122",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Visual signals require compact yet sufficient representations for robust downstream prediction. Convolutional sparse co…",
+      "score": 0
+    },
+    {
+      "id": "9965e7958fc3",
+      "title": "MLLMs Hallucinate when Information Distribution Drifts in Synergy Heads",
+      "url": "https://huggingface.co/papers/2609.09206",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "Multimodal Large Language Models (MLLMs) often struggle with hallucinations, thus hindering their reliable practical ap…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-21T00:50:06.428Z",
+  "fetchedAt": "2026-09-21T05:51:17.916Z",
   "stale": false,
   "error": null
 }

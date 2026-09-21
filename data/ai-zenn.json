@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9017f1e84698",
-      "title": "Jev, Gemini, DistilBERT, LightGBMの分類性能を比較してみた",
-      "url": "https://zenn.dev/xxkuboxx/articles/e232d267a76f43",
-      "publishedAt": "2026-09-20T16:14:29.000Z",
-      "publisher": "kubotaka",
-      "summary": "なぜ比較しようと思ったか？ Jevについて、定性的な\"評判\"では掴めないような地に足の着いた定量的な\"評価\"を知りたかったからです。もちろん、定性的な情報自体は、定量化やもっと言えば言語化すらできない肌感を伝えられるという側面において、価…"
+      "id": "2d245fe9b191",
+      "title": "MCPサーバーを30分で作る — Claude Code × MCP開発入門【2026年版】",
+      "url": "https://zenn.dev/joinclass/articles/mcp-server-getting-started-2026",
+      "publishedAt": "2026-09-20T23:00:12.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "MCPとは MCP（Model Context Protocol） は、AIアシスタントが外部のツールやデータソースと安全に連携するための標準プロトコルだ。Anthropicが策定し、2025年後半から急速に普及している。 簡単に言えば、…"
     },
     {
-      "id": "2e84b2283530",
-      "title": "長尺Podcastの視聴ハードルを下げる！「キーワード動画」の全自動生成する方法",
-      "url": "https://zenn.dev/henteko/articles/6388707c0973b3",
-      "publishedAt": "2026-09-20T16:03:28.000Z",
-      "publisher": "henteko",
-      "summary": "Podcastの場合、いかに「聴き始めてもらうか」という課題は常に付き纏います。特に技術系のPodcastの場合は1エピソードの時間が長くなりがちなので、聴き始めるハードルはとても高いのが現実です。 そこで今回はこの課題を解決するために現…"
+      "id": "1420a29b5317",
+      "title": "ジュニアエンジニアの AI 協働ロードマップ (1/5) — 値オブジェクト編：守るべき値をテストで AI に伝える",
+      "url": "https://zenn.dev/motowo/articles/junior-engineer-ai-collaboration-roadmap-1",
+      "publishedAt": "2026-09-20T23:00:06.000Z",
+      "publisher": "タカシ",
+      "summary": "! TL;DR: AI に実装を任せるほど、「この値は必ずこうでなければならない」という業務ルールは人が決めて、コードとテストに書き込む必要があります。この回はそのいちばん小さな例として、TypeScript の値オブジェクトで金額を表し…"
     },
     {
-      "id": "887b817a3443",
-      "title": "AIにコードを書かせるようになったら、JIS配列でもUS配列でもどうでもよくなってきた",
-      "url": "https://zenn.dev/tonbi_attack/articles/ai-coding-jis-us-keyboard-layout",
-      "publishedAt": "2026-09-20T15:15:36.000Z",
-      "publisher": "tonbiattack",
-      "summary": "はじめに 以前は、JIS配列とUS配列の違いをそれなりに気にしていました。 コードを書くなら、@、:、[]、{}、\"、'、\\\\、| などの記号を頻繁に入力します。キーに印字されている記号と実際に入力される記号が違う状態では、毎日の開発はか…"
+      "id": "5752381feb14",
+      "title": "iPadでも記事の添削がしたいんじゃ！",
+      "url": "https://zenn.dev/kswr/articles/markdown_review_on_ipad",
+      "publishedAt": "2026-09-20T22:43:41.000Z",
+      "publisher": "クテノポマ",
+      "summary": "iPadでもMarkdownの添削がしたいんじゃ！ 生成AIにプロットを書かせて読んでいると、「ここはもう少し詳しく」「この言い回しは変えたい」が出てくる。 ただ、それをチャット画面で伝えようとすると、どこの話なのか説明するところから始ま…"
     },
     {
-      "id": "94826cb28688",
-      "title": "AIエージェントを「クラウド＋手元PC」の二層で回すときの競合防止設計（実測つき）",
-      "url": "https://zenn.dev/mamedougu/articles/two-layer-cloud-local-agent",
-      "publishedAt": "2026-09-20T15:06:11.000Z",
-      "publisher": "mamedougu",
-      "summary": "前回の記事で、Claude Code + GitHub Actions だけで小さな会社を毎晩1営業日回している話を書きました。実際には「クラウドだけ」では回りません。ログイン済みの実ブラウザが要る作業（当社の場合は販売サイトの管理画面操…"
+      "id": "ce98b9c2754c",
+      "title": "【012】再帰Transformerの「常識」は間違いだった — d=1は再帰ではなかった",
+      "url": "https://zenn.dev/nakatada_lab/articles/04058b3def365e",
+      "publishedAt": "2026-09-20T22:40:50.000Z",
+      "publisher": "Nakamura",
+      "summary": "この記事の要約 重み共有再帰Transformerでは、全ての再帰ステップが「同じ処理の繰り返し」だと暗黙に仮定されてきた。 d=1は収束解析でも「ノイズ」として除外するのが定石だった。 しかし d=1（初回ステップ）は再帰ではない。プレ…"
     },
     {
-      "id": "677bf2f21dcb",
-      "title": "TypeSafe AIの「Jev」をCloud Runで試したら、30件のログ分類は一致しても判断の迷いが残った",
-      "url": "https://zenn.dev/hogehogetaro/articles/typesafe-jev-log-classification",
-      "publishedAt": "2026-09-20T15:01:43.000Z",
-      "publisher": "hogehogetaro",
-      "summary": "TypeSafe AIの「Jev」を東京リージョンのCloud Runから呼び、Google Cloudのログを分類してみました。 用意した30件はすべて事前に決めたカテゴリと一致しましたが、リクエストタイムアウトのログでは confid…"
+      "id": "df87d7b78db3",
+      "title": "Jevを使ってゲームテストラボを作った。実際にうまくいったこと",
+      "url": "https://zenn.dev/thoughtcrime/articles/cf09ca069a7461",
+      "publishedAt": "2026-09-20T20:57:34.000Z",
+      "publisher": "thoughtcrime",
+      "summary": "2つのゲーム、実際の意思決定ログ、9画面ダッシュボード、そして再利用できる出発点。 ゲームの見た目は良くなっていた。次は、プレイ体験も本当に良くなっているという、より確かな証拠が欲しかった。 よくある不満はこうだ。強化した武器は気持ちよく…"
     },
     {
-      "id": "92d0e1d833b8",
-      "title": "Jev完全入門ガイド",
-      "url": "https://zenn.dev/titosemi/articles/cb9152ce202280",
-      "publishedAt": "2026-09-20T15:00:30.000Z",
-      "publisher": "ちとせみ",
-      "summary": "〜圧倒的な速さと低コストで、AIの判断をソフトウェアに組み込む〜 はじめに Jevとは何か？ 一言でいえば、Jevは「文章を書かないAI」です。 Jevは、AIスタートアップ企業のTypesafe AIが開発した、System One モ…"
+      "id": "3c9782beb3c1",
+      "title": "【検証編】自分が書いたハンズオン記事のコードは本当に動くのか？Dockerの使い捨て環境で全部試した",
+      "url": "https://zenn.dev/fujota1230/articles/76b2809f500345",
+      "publishedAt": "2026-09-20T20:22:32.000Z",
+      "publisher": "AzuMam",
+      "summary": "はじめに 前回、【GA版】Microsoft Agent Framework で最小構成のAIエージェントを作るハンズオン（Python） という記事を書きました。 書いている最中、ずっと引っかかっていたことがあります。 「このコード、本…"
     },
     {
-      "id": "8996b4f1de87",
-      "title": "AIに「覚えて」と言うのをやめた。Obsidianを正本にした理由",
-      "url": "https://zenn.dev/med_ai_study/articles/obsidian-as-source-of-truth-for-ai",
-      "publishedAt": "2026-09-20T14:37:44.000Z",
-      "publisher": "けんと｜医学生",
-      "summary": "結論 Claude CodeやCodexを継続的に使ううえで、私が安定したのは、AIに多くを覚えさせたときではなかった。 問題は、AIが何も覚えていないことではなかった。むしろ記録が増えた結果、古い情報、矛盾した情報、読まれないルールが同…"
+      "id": "597de6cbc796",
+      "title": "Azure OpenAIに支出のハードリミットは無い — pause APIなら推論は423で止まる",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/azure-openai-spend-limit-tpm",
+      "publishedAt": "2026-09-20T19:10:00.000Z",
+      "publisher": "Kazu",
+      "summary": "エージェントに好きなだけ推論させていると月末の請求が怖くなる。OpenAI の API には 「上限に達したら止まる」設定があるので、Azure にもあると思って探した。無かった。 While OpenAI has an option f…"
     },
     {
-      "id": "bf7815f1252a",
-      "title": "Jevのキラーアプリ「意味で探す grep」の衝撃：なぜベクトル検索ではダメで、System OneならAND/NOTが効くのか？",
-      "url": "https://zenn.dev/kanta13jp1/articles/jev-semgrep-meaning-based-search",
-      "publishedAt": "2026-09-20T14:28:20.000Z",
-      "publisher": "kanta13jp1",
-      "summary": "はじめに：正規表現の限界と、LLMの「遅さ」の狭間で エンジニアが日常的に行うログ調査やコードリーディングにおいて、grep は半世紀にわたり開発者の右腕であり続けてきました。 しかし、現代の複雑なシステムログや多言語化されたテキストにお…"
+      "id": "c6fd2fa82ae3",
+      "title": "Claude Code Mods 実践ガイド ― 関数フックで本体を改造する、動く Mod 7本",
+      "url": "https://zenn.dev/oishiigohan/books/claude-code-mods-jissen",
+      "publishedAt": "2026-09-20T18:48:47.000Z",
+      "publisher": "おいしいごはん",
+      "summary": "Claude Code に 2026年9月に入った「Mods（関数フック）」を、実機 2.1.278 で検証しながら 7 本の Mod を作って覚える本です。 対象は Claude Code を毎日使っていて、従来の hooks では届か…"
     },
     {
-      "id": "e16198f7b760",
-      "title": "Jev をゲームの敵AIに組み込み、通常AIと動きを比べてみた",
-      "url": "https://zenn.dev/marvelousu/articles/jev-game-ai-integration",
-      "publishedAt": "2026-09-20T13:29:09.000Z",
-      "publisher": "Tom",
-      "summary": "Godot で作った潜入ゲームデモに、敵の作戦を選ぶ役として Jev を組み込みました。通常AIだけの場合とJevを加えた場合を同じ条件で比較し、敵の動きがどう変わるかを動画と実装で紹介します。 TL;DR 敵が見聞きした出来事からJev…"
+      "id": "50e03c36de24",
+      "title": "常駐型AIチャットエージェントの「通知バースト」集約(ダイジェスト化)しきい値設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-notification-digest-threshold-design",
+      "publishedAt": "2026-09-20T18:09:55.000Z",
+      "publisher": "HACH",
+      "summary": "Slack / Teams / Chatwork に常駐して日常的にリクエストを捌くAIエージェントは、外部システムの更新・チャットの発言・タスクの状態変化など、様々なイベントをきっかけに通知やレポートを送ります。単発の通知だけを見て設計…"
     },
     {
-      "id": "5cbc86cab3dd",
-      "title": "Widget PreviewerをHuman/AI friendlyにするCLI shutter",
-      "url": "https://zenn.dev/koji_1009/articles/894dee0c6ba493",
-      "publishedAt": "2026-09-20T13:15:05.000Z",
-      "publisher": "koji-1009",
-      "summary": "はじめに https://x.com/D_R_1009/status/2101493862682542299 FlutterのWidgetを、任意のタイミングでPNGとして取り出すCLIを作りました。 https://pub.dev/pa…"
+      "id": "7b83487dae66",
+      "title": "GitHubプロフィールにAIとの開発量を貼れるツールを作ってみた",
+      "url": "https://zenn.dev/yosh1/articles/cocommit-ai-coauthored-commits",
+      "publishedAt": "2026-09-20T17:11:48.000Z",
+      "publisher": "yosh1",
+      "summary": "自分が実際どれだけAIと書いているか、知らなかった Claude Code を毎日使っています。でも「どれくらい使っているか」と聞かれても、体感でしか答えられませんでした。 GitHub のプロフィールには、コミット数もスター数も草も出ま…"
     },
     {
-      "id": "36b1ca616d67",
-      "title": "【2026年最新】設備リースの計算方法と料率相場！購入比較と得する選び方",
-      "url": "https://zenn.dev/aiasoby/articles/asoby-tech-1124",
-      "publishedAt": "2026-09-20T12:59:41.000Z",
-      "publisher": "大人のAIアソビ",
-      "summary": "💡 本記事について 本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開し…"
+      "id": "3068cddb054b",
+      "title": "最近流行りのJevをLaravel Starter Kit + AI SDKで使う：自由記述アンケートを分析",
+      "url": "https://zenn.dev/catatsumuri/articles/24b4655bdad963",
+      "publishedAt": "2026-09-20T17:09:04.000Z",
+      "publisher": "ﾓｯ",
+      "summary": "作るもの あなたがAIセミナーを行ったとする。これに関して以下のようなアンケートが上がってきたとしよう。 https://github.com/catatsumuri/react-starter-kit-i18n/blob/jev-poc…"
     },
     {
-      "id": "c3a1e2bcb811",
-      "title": "GitHub NextがJev互換OSS「LocalJev」を電撃公開！Waitlist待ちをスキップして手元で動かす完全ガイド",
-      "url": "https://zenn.dev/kanta13jp1/articles/localjev-github-next-system-one-guide",
-      "publishedAt": "2026-09-20T12:43:37.000Z",
-      "publisher": "kanta13jp1",
-      "summary": "はじめに：GitHub Nextが放った電撃の一手 「文章を書かないAI」「LLMのためのGPU」としてエンジニア界隈のタイムラインを席巻している TypeSafe AI 社の判定特化型モデル「Jev」。 スーパーマリオを51msでリアル…"
+      "id": "58183fe5716d",
+      "title": "AIの意見を聞かない技術 序論：断ったはずの提案が、また来る",
+      "url": "https://zenn.dev/garplab/articles/758d59bcc409bd",
+      "publishedAt": "2026-09-20T16:37:30.000Z",
+      "publisher": "garplab",
+      "summary": "私は AI の提案を、もうほとんど検討していません。良かれと思って出てくる新機能も、親切な改善案も、丁寧な代替案も。AI は却下を覚えないので、断った提案は次のセッションでまた出てきます。それで開発が雑になったかというと、なっていません。…"
     }
   ],
-  "fetchedAt": "2026-09-21T00:50:06.569Z",
+  "fetchedAt": "2026-09-21T05:51:18.104Z",
   "stale": false,
   "error": null
 }
