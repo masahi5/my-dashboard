@@ -6,20 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "f962cd018571",
-      "title": "Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion",
-      "url": "https://huggingface.co/papers/2609.24220",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats…",
-      "score": 48
-    },
-    {
       "id": "1c42987a6248",
       "title": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
       "url": "https://huggingface.co/papers/2609.13814",
       "publishedAt": "2026-09-12T00:00:00.000Z",
       "summary": "Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken di…",
-      "score": 10
+      "score": 11
+    },
+    {
+      "id": "0b4ad7575eb2",
+      "title": "ACLArena: Agent Continue Learning in Multi-stage Post-training",
+      "url": "https://huggingface.co/papers/2609.23989",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Building general-purpose agents for industrial deployment requires integrating multiple capabilities, each typically ac…",
+      "score": 6
     },
     {
       "id": "79ec42b8022f",
@@ -27,15 +27,7 @@
       "url": "https://huggingface.co/papers/2609.15991",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "summary": "Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo…",
-      "score": 5
-    },
-    {
-      "id": "83d3bf1d996e",
-      "title": "Streaming Video Editing with Easy Adaptation",
-      "url": "https://huggingface.co/papers/2609.24788",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "In this paper, we propose SVEET, a framework that requires merely training on a pretrained bidirectional video diffusio…",
-      "score": 5
+      "score": 6
     },
     {
       "id": "2ee082a7fb67",
@@ -43,7 +35,7 @@
       "url": "https://huggingface.co/papers/2609.24797",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "Linear RNNs based on the delta-rule enable efficient sequence modeling, but their linear updates with a low-rank correc…",
-      "score": 3
+      "score": 4
     },
     {
       "id": "fc594974fb36",
@@ -51,7 +43,15 @@
       "url": "https://huggingface.co/papers/2609.06052",
       "publishedAt": "2026-09-05T00:00:00.000Z",
       "summary": "Autonomous agent systems increasingly depend on reusable skill abstractions for consolidating experiential knowledge an…",
-      "score": 2
+      "score": 3
+    },
+    {
+      "id": "0c13416f703a",
+      "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal",
+      "url": "https://huggingface.co/papers/2609.21996",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "Large language models can hold knowledge they do not report. A model may sandbag on a capability evaluation, or answer …",
+      "score": 3
     },
     {
       "id": "7cf61911876e",
@@ -62,11 +62,11 @@
       "score": 2
     },
     {
-      "id": "0c13416f703a",
-      "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal",
-      "url": "https://huggingface.co/papers/2609.21996",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Large language models can hold knowledge they do not report. A model may sandbag on a capability evaluation, or answer …",
+      "id": "5ab30196a75b",
+      "title": "UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing",
+      "url": "https://huggingface.co/papers/2609.23169",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "High-quality texture generation is essential for creating realistic and production-ready 3D assets. Recent multi-view d…",
       "score": 1
     },
     {
@@ -94,15 +94,15 @@
       "score": 1
     },
     {
-      "id": "5ab30196a75b",
-      "title": "UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing",
-      "url": "https://huggingface.co/papers/2609.23169",
+      "id": "3621d7edbca1",
+      "title": "Towards Full Pipeline FP8 Reinforcement Learning for LLMs",
+      "url": "https://huggingface.co/papers/2609.22870",
       "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "High-quality texture generation is essential for creating realistic and production-ready 3D assets. Recent multi-view d…",
+      "summary": "Reinforcement learning (RL) has become a key technique for improving the reasoning and agentic abilities of large langu…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-22T18:28:30.643Z",
+  "fetchedAt": "2026-09-22T21:35:24.854Z",
   "stale": false,
   "error": null
 }
