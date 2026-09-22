@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "29f6a544ff47",
-      "title": "「Claude Codeで稼ぐ」を3週間本気でやってみた。応募2,000人・当選率ほぼゼロの実測ログ",
-      "url": "https://zenn.dev/ogana/articles/cc46b3d218077a",
-      "publishedAt": "2026-09-21T21:06:03.000Z",
-      "publisher": "七海",
-      "summary": "週10時間、予算0円で「AIエージェント（Claude Code）に会社を運営させて、Claude Code関連のスキルをフリーランスで売る」という実験を3週間続けています。今日、その過程で集めた実測データが、当初の想定と全く違う結果だっ…"
+      "id": "37ad894a125b",
+      "title": "架空の型番の仕様表をAIに頼んだら、10回とも表は1行も出なかった。実在する規格で同じ頼み方をすると49行以上出た",
+      "url": "https://zenn.dev/numarn/articles/fictional-device-spec-refusal-handson",
+      "publishedAt": "2026-09-22T08:40:21.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "先に結論から書きます。私がその場ででっち上げた型番の機器について「仕様表を作って」と頼んだところ、10回とも、表は1行も出てきませんでした。返ってきたのは10回とも、その製品の実在を確認できないという趣旨の断りでした。 私は逆の結果を予想…"
     },
     {
-      "id": "e3d23ba5efc5",
-      "title": "Claude Codeの本を書いた私が、他のAIツールについて思っていること",
-      "url": "https://zenn.dev/tmasuyama1114/articles/cc-book-author-other-tools",
-      "publishedAt": "2026-09-21T20:55:16.000Z",
-      "publisher": "とまだ｜『Claude Codeで作って学ぶ』著者（増山友司）",
-      "summary": "2026年9月に『Claude Codeで作って学ぶ AI駆動アプリ開発入門』（技術評論社）という本を出しました。 https://amzn.asia/d/0f0bQMI4 本を出してから、Claude Code 以外のツールについてどう…"
+      "id": "03014d104198",
+      "title": "Jevで作るTODOアプリ",
+      "url": "https://zenn.dev/mnt/articles/6cdfc81143dfb8",
+      "publishedAt": "2026-09-22T08:34:01.000Z",
+      "publisher": "mnt",
+      "summary": "最近、TypeSafe AI から jev というモデルが公開されました。文章を書かずに「判断」と「確率」だけを返すタイプのAIモデルになっており、圧倒的な速さと安さで注目されています。 この jev を typesafe-sdk 経由で…"
     },
     {
-      "id": "e7756f8fbdf0",
-      "title": "問い合わせ対応で「追加情報待ち」を状態として設計する",
-      "url": "https://zenn.dev/miraigent/articles/ai-inquiry-missing-context-design",
-      "publishedAt": "2026-09-21T20:36:36.000Z",
-      "publisher": "Kirisaki Kazuya | Miraigent代表",
-      "summary": "問い合わせ対応で「追加情報待ち」を状態として設計する 問い合わせ対応のAI化では、通常処理を速くする話に目が向きます。しかし実際に現場を止めるのは、商品名、希望時期、対象契約などが分からないまま届く問い合わせです。 この状態を「未処理」の…"
+      "id": "825351c2c74a",
+      "title": "Cloudflare AI Gateway 予算ベースAIモデルルーティング",
+      "url": "https://zenn.dev/takaakisuzuki/articles/e6939a04f9ea9b",
+      "publishedAt": "2026-09-22T08:13:07.000Z",
+      "publisher": "Takaaki Suzuki",
+      "summary": "はじめに 複数の LLM（Claude / GPT / Workers AI など）を使っていると、必ず出てくる悩みが「コストに応じてモデルを自動的に切り替えたい」というものです。 予算内は高性能モデル（Claude Sonnet など）…"
     },
     {
-      "id": "488c7357c3be",
-      "title": "AIチャットを5 Primitivesで読み解く——ChatGPT/Claude/Gemini/Copilot他",
-      "url": "https://zenn.dev/eyeofjapetus/articles/ai-chat-services-5-primitives",
-      "publishedAt": "2026-09-21T19:00:54.000Z",
-      "publisher": "eye-of-japetus",
-      "summary": "はじめに ChatGPT、Claude、Gemini、Microsoft 365 Copilot、Perplexity、Gemini Notebook(旧NotebookLM)——いま企業や個人が日常的に使っているAIチャットサービスは、…"
+      "id": "d16ec0114ddd",
+      "title": "AI が速くコードを書く時代に、仕様書との乖離を止めるために jev-spec という OSS を作っている話",
+      "url": "https://zenn.dev/nozomi_cobo/articles/jev-spec-introduction",
+      "publishedAt": "2026-09-22T08:11:06.000Z",
+      "publisher": "Nozomi Koborinai",
+      "summary": "AI がコードを速く書く現場で起きていること 半年ほど前に、Markdown ドキュメント間の整合性を静的解析する contextlint というリンターの記事を書きました。 仕様駆動開発（SDD）の現場では、ビジネス上の「要件」をシステ…"
     },
     {
-      "id": "643431454289",
-      "title": "デザイナー×エンジニアがAIエージェントを作ったら何が生まれる？制作管理エージェント「Relay」を紹介！【AI HACK 2026】",
-      "url": "https://zenn.dev/raspberry/articles/2d0b035b3026da",
-      "publishedAt": "2026-09-21T16:07:03.000Z",
-      "publisher": "raspberry team",
-      "summary": "はじめに 「このバナー、来週までにお願いします」 マーケターからデザイン制作依頼を受け取ったあと、すぐに制作を始められるとは限りません。 誰に向けたバナーなのか。どこに掲載するのか。何を一番伝えたいのか。必要な素材は揃っているのか。 制作…"
+      "id": "78f1c6fae42c",
+      "title": "ホームラボを Claude Code に任せて6週間。どこまで任せて、どこで歯止めをきかせるか",
+      "url": "https://zenn.dev/momohiki/articles/homelab-ai-delegation-levels",
+      "publishedAt": "2026-09-22T08:10:10.000Z",
+      "publisher": "momohiki",
+      "summary": "! いちばん伝えたいことを、先に書いておきます。 今の私にとって、AI アシスタントはもう手放せない道具です。 この記事は、手放せなくなったからこそ決めた「任せ方」の話です。 はじめに 家には、趣味で集めた機械がそれなりにあります。 それ…"
     },
     {
-      "id": "202a134d347d",
-      "title": "LayaはJevより速い？ローカル判定AIの比較条件と、日本語アプリへの導入手順",
-      "url": "https://zenn.dev/kanta13jp1/articles/laya-mlx-on-device-system-one-benchmark",
-      "publishedAt": "2026-09-21T15:30:35.000Z",
-      "publisher": "kanta13jp1",
-      "summary": "スネーク比較で分かること ローカルの「Laya」とクラウドAPIの「Jev」を、同じスネークゲームで動かす比較が紹介されています。ローカルで判断を完結させると、毎回のネットワーク往復を省ける点が魅力です。 ただし、応答速度・モデルの正答率…"
+      "id": "0e297a00fd48",
+      "title": "中学生でもわかる Lean 4 #07｜「定義した」と「証明した」は違う",
+      "url": "https://zenn.dev/dantarg/articles/lean4-definition-vs-proof",
+      "publishedAt": "2026-09-22T07:56:51.000Z",
+      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+      "summary": "前回の #06「Leanはどうやって証明を確かめる？」 では、Leanが「書かれた命題」と「その証明」を形式的に検査するところまで見ました。 では、その書かれた命題の中に出てくる言葉は、どこから来るのでしょう。 こんなLeanコードを見つ…"
     },
     {
-      "id": "d320bcbb4c16",
-      "title": "DifyからJev(System One)を呼び出す：HTTPノードでの接続と日本語での動作確認",
-      "url": "https://zenn.dev/yaahmi/articles/dify_jev_test",
-      "publishedAt": "2026-09-21T15:26:42.000Z",
-      "publisher": "YaahMi",
-      "summary": "はじめに 2026年9月に発表されたTypeSafe AIの「Jev」は、チャット用のLLMではなく、状態(state)と型付きの質問を送ると、コードでそのまま使える構造化された回答が返るモデルです。Jevは\"System One\"モデル…"
+      "id": "c690eb0b5418",
+      "title": "物理ゼロから共通テスト100点を目指す家庭教師を、AIエージェントとGitリポジトリで作っている",
+      "url": "https://zenn.dev/kasouzou/articles/ai-tutor-physics-repository",
+      "publishedAt": "2026-09-22T07:40:57.000Z",
+      "publisher": "kasouzou",
+      "summary": "物理を一度も習ったことがない状態から、大学入学共通テスト「物理」で100点を安定して取れるところまで行きたい。 学習者は自分自身で、その家庭教師役を AI エージェント（Claude Code と Codex）にやらせている。 この記事に…"
     },
     {
-      "id": "84b934610027",
-      "title": "GitHub Issueを流すだけでPRになる「パイプラインskill」をClaude Codeで作った",
-      "url": "https://zenn.dev/yubel/articles/claude-code-issue-to-pr-pipeline",
-      "publishedAt": "2026-09-21T15:22:03.000Z",
-      "publisher": "yubel",
-      "summary": "この記事で分かること 個人開発で複数リポジトリを掛け持ちしていると、「Issueを書いたはいいが着手するのを忘れる」「実装できてもPRを出した後のCodeRabbitの指摘対応やCI監視が地味に時間を食う」という悩みが出てきます。これを解…"
+      "id": "100dfd8302a8",
+      "title": "AI-103に合格したので、勉強法と反省点をまとめる",
+      "url": "https://zenn.dev/a_1ro/articles/ai-103-study",
+      "publishedAt": "2026-09-22T07:36:50.000Z",
+      "publisher": "Eiichiro Iriguchi",
+      "summary": "Exam AI-103: Developing AI Apps and Agents on Azure を受験し、740点で合格しました。 受験を終えて一番強く感じたのは、AI-103は単純なAzure AIの知識試験ではなく、 「AIソ…"
     },
     {
-      "id": "69caf9954e48",
-      "title": "2026-09-01 今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-01-tech-daily",
-      "publishedAt": "2026-09-21T15:10:44.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 本日の技術トレンドでは、単一LLMからAIエージェントおよび具身知能へのシフトと、エージェント間の相互運用性を高める「MCP」の進化が顕著になっています。国内ではスペースデータによる「SD-AgentFoundry」のOSS公開や富士…"
+      "id": "2f61a8e8d10e",
+      "title": "「承りました」の次に「その日は貸切でした」と言われたら。電話AIの完了判定を自分で壊した話",
+      "url": "https://zenn.dev/forifori/articles/oathra-five-ways",
+      "publishedAt": "2026-09-22T06:39:15.000Z",
+      "publisher": "forifori",
+      "summary": "電話をかけるAIエージェントの Oathra（Apache-2.0）を書いています。方針はひとつで、完了したかどうかをモデルに決めさせない。相手の発言だけを読む別のコードが判定します。 その判定を、おとといまで自分で間違えていました。同じ…"
     },
     {
-      "id": "56faca3514d6",
-      "title": "最新事例から学ぶJev活用術！（まだ追いつける）",
-      "url": "https://zenn.dev/zabuton/articles/5a32d21b63b2fb",
-      "publishedAt": "2026-09-21T15:09:46.000Z",
-      "publisher": "低迷する座布団",
-      "summary": "はじめに 最近ホットなJevの話をしましょう。 JevはTypeSafe AIが2026年9月15日に提供を始めたAIモデルです。 いわく判断に特化したモデルで、LLMのように文章を生成するモデルではありません。 ただ入力された情報を読ん…"
+      "id": "ece88990af07",
+      "title": "Macで使いたいリアルタイム超解像プレイヤーが見つからないので作っています。",
+      "url": "https://zenn.dev/akimacdev/articles/e4687ed7fde0dc",
+      "publishedAt": "2026-09-22T06:34:56.000Z",
+      "publisher": "Akinori Kobayashi",
+      "summary": "Macで動画を見ながら、リアルタイムに超解像をかけたい。ところが、自分の欲しい形のプレイヤーが見つからない。 それが、MetalVideo という動画プレイヤーを作り始めた理由です。 欲しいのは、動画を開けば、その場で超解像モデルが動くM…"
     },
     {
-      "id": "70380360b0e2",
-      "title": "【AI HACK 2026 Day3】Day4の提出に向けて、NetWalkerの結合方針を決める",
-      "url": "https://zenn.dev/takashishibata/articles/38e48a945b95df",
-      "publishedAt": "2026-09-21T14:00:15.000Z",
-      "publisher": "Takashi Shibata",
-      "summary": "AI HACK 2026に、社会人と学生の2人チームで参加しています。 前回のミーティングでは、いくつかのアイデアを比較し、ネットワーク障害の調査・復旧を支援するAIエージェント「NetWalker」を中心に開発する方針を決めました。 D…"
+      "id": "f350fd882c5c",
+      "title": "自分の記事を一文ずつ切り抜いて読ませたら、直したくなったのは切り抜きに強い文だった",
+      "url": "https://zenn.dev/mistletoe/articles/jev-clip-resistance",
+      "publishedAt": "2026-09-22T06:21:10.000Z",
+      "publisher": "もっくま(Mistletoe)",
+      "summary": "! この記事は、実験の設計から実行・集計・執筆までClaude Code(生成AI)にやらせたものです。 載せているコードと結果は、実際に動かしたものです。 左が本文の断片。中央が「この一文だけを渡したとき」、右が「記事全文といっしょに渡…"
     },
     {
-      "id": "603f9517d048",
-      "title": "Jevをローカルでどこまで再現できるか検証しました",
-      "url": "https://zenn.dev/null_teck/articles/local-jev-reproduce",
-      "publishedAt": "2026-09-21T13:58:24.000Z",
-      "publisher": "ヌルソフト@AI_Teck_PoC",
-      "summary": "! TL;DR（3行要約） 身近なツールでJevのインターフェースは再現できる: 専用ライブラリを使わずとも、ローカルの llama-server に Qwen3.5-4B.gguf（約2.8GB）を読み込ませ、思考モードをオフにして L…"
+      "id": "3cdab20b46f9",
+      "title": "安いモデルに落としたら10倍速くなって、出力は1文字も変わらなかった ― 確定だけコードに握らせた結果",
+      "url": "https://zenn.dev/sqnsqnmi/articles/e6a9ddedd53490",
+      "publishedAt": "2026-09-22T05:59:47.000Z",
+      "publisher": "燦魅。",
+      "summary": "AI HACK 2026 というハッカソンに出しました。テーマは「業務を自律化するAIエージェント」で、 LLMの呼び出しは OrcaRouter を使うという条件です。 作ったのは「ばんちょう」という、飲食店のHACCP記録を話すだけで…"
     }
   ],
-  "fetchedAt": "2026-09-22T05:13:58.073Z",
+  "fetchedAt": "2026-09-22T10:00:27.978Z",
   "stale": false,
   "error": null
 }

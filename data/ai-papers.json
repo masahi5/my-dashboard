@@ -6,44 +6,36 @@
   "category": "ai",
   "items": [
     {
-      "id": "0f140f8bfb4f",
-      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
-      "url": "https://huggingface.co/papers/2609.24972",
+      "id": "50b5b1df71e9",
+      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "url": "https://huggingface.co/papers/2609.25001",
       "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and c…",
-      "score": 52
+      "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction…",
+      "score": 56
     },
     {
-      "id": "19890ba5aa2a",
-      "title": "Transferring the Intelligence of VLMs to Robotic Control",
-      "url": "https://huggingface.co/papers/2609.22966",
+      "id": "f962cd018571",
+      "title": "Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion",
+      "url": "https://huggingface.co/papers/2609.24220",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats…",
+      "score": 36
+    },
+    {
+      "id": "66760a6ce2b4",
+      "title": "OmniEdu: Open Foundation Models for Learning and Teaching",
+      "url": "https://huggingface.co/papers/2609.23088",
       "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in …",
-      "score": 24
+      "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and …",
+      "score": 25
     },
     {
-      "id": "bfe2f1406b80",
-      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
-      "url": "https://huggingface.co/papers/2609.24984",
+      "id": "a84f2c3388e5",
+      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+      "url": "https://huggingface.co/papers/2609.24983",
       "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations o…",
-      "score": 14
-    },
-    {
-      "id": "83f952a77a98",
-      "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
-      "url": "https://huggingface.co/papers/2609.10706",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Human video datasets offer an abundant and diverse source of interaction data that can complement expensive real-robot …",
-      "score": 13
-    },
-    {
-      "id": "8d8a517cfb7b",
-      "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
-      "url": "https://huggingface.co/papers/2609.24997",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, t…",
-      "score": 12
+      "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda a…",
+      "score": 20
     },
     {
       "id": "456764c21102",
@@ -51,6 +43,14 @@
       "url": "https://huggingface.co/papers/2609.23863",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robo…",
+      "score": 18
+    },
+    {
+      "id": "124845c567c8",
+      "title": "Deep Persona: A Psychologically Grounded Architecture and Evaluation Framework for Role-Playing Agents and Simulations",
+      "url": "https://huggingface.co/papers/2609.22255",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "summary": "Existing approaches to persona simulation with Large Language Models (LLMs) mostly rely on shallow character descriptio…",
       "score": 11
     },
     {
@@ -59,30 +59,38 @@
       "url": "https://huggingface.co/papers/2609.24974",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent perfo…",
-      "score": 9
+      "score": 11
     },
     {
-      "id": "50b5b1df71e9",
-      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
-      "url": "https://huggingface.co/papers/2609.25001",
+      "id": "70b8d95b0d6e",
+      "title": "CARE: Experience-Guided Atomic Corrective Execution for Vision-Language-Action Policies",
+      "url": "https://huggingface.co/papers/2609.24118",
       "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction…",
-      "score": 7
+      "summary": "Vision-Language-Action (VLA) policies achieve strong performance in robotic manipulation but remain brittle once execut…",
+      "score": 10
     },
     {
-      "id": "a84f2c3388e5",
-      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
-      "url": "https://huggingface.co/papers/2609.24983",
+      "id": "83d3bf1d996e",
+      "title": "Streaming Video Editing with Easy Adaptation",
+      "url": "https://huggingface.co/papers/2609.24788",
       "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda a…",
-      "score": 2
+      "summary": "In this paper, we propose SVEET, a framework that requires merely training on a pretrained bidirectional video diffusio…",
+      "score": 4
     },
     {
-      "id": "f89e20183937",
-      "title": "Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents",
-      "url": "https://huggingface.co/papers/2609.23986",
+      "id": "9e096b45089a",
+      "title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.24432",
       "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Agentic memory is becoming essential for long-horizon AI agents, yet many existing systems rely on autoregressive LLMs …",
+      "summary": "Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated traj…",
+      "score": 4
+    },
+    {
+      "id": "e4e7259182e1",
+      "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene",
+      "url": "https://huggingface.co/papers/2609.23796",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "summary": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent sce…",
       "score": 2
     },
     {
@@ -91,18 +99,10 @@
       "url": "https://huggingface.co/papers/2609.22220",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "summary": "Benchmarks for LLM-generated GPU kernels decide correctness with a few random inputs and a loose floating-point toleran…",
-      "score": 1
-    },
-    {
-      "id": "1420b94cb020",
-      "title": "Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies",
-      "url": "https://huggingface.co/papers/2609.24682",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Vision-Language-Action (VLA) models map observations to actions with no objective that accounts for how the world respo…",
-      "score": 1
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-09-22T05:13:57.940Z",
+  "fetchedAt": "2026-09-22T10:00:27.757Z",
   "stale": false,
   "error": null
 }
