@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "50b5b1df71e9",
-      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
-      "url": "https://huggingface.co/papers/2609.25001",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction…",
-      "score": 56
+      "id": "66760a6ce2b4",
+      "title": "OmniEdu: Open Foundation Models for Learning and Teaching",
+      "url": "https://huggingface.co/papers/2609.23088",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and …",
+      "score": 49
     },
     {
       "id": "f962cd018571",
@@ -19,31 +19,7 @@
       "url": "https://huggingface.co/papers/2609.24220",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats…",
-      "score": 36
-    },
-    {
-      "id": "66760a6ce2b4",
-      "title": "OmniEdu: Open Foundation Models for Learning and Teaching",
-      "url": "https://huggingface.co/papers/2609.23088",
-      "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and …",
-      "score": 25
-    },
-    {
-      "id": "a84f2c3388e5",
-      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
-      "url": "https://huggingface.co/papers/2609.24983",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda a…",
-      "score": 20
-    },
-    {
-      "id": "456764c21102",
-      "title": "Grounded Action Model: 3D Grounding as a Foundation for Robotics",
-      "url": "https://huggingface.co/papers/2609.23863",
-      "publishedAt": "2026-09-20T00:00:00.000Z",
-      "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robo…",
-      "score": 18
+      "score": 44
     },
     {
       "id": "124845c567c8",
@@ -51,14 +27,6 @@
       "url": "https://huggingface.co/papers/2609.22255",
       "publishedAt": "2026-09-06T00:00:00.000Z",
       "summary": "Existing approaches to persona simulation with Large Language Models (LLMs) mostly rely on shallow character descriptio…",
-      "score": 11
-    },
-    {
-      "id": "a44319b0fa73",
-      "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
-      "url": "https://huggingface.co/papers/2609.24974",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent perfo…",
       "score": 11
     },
     {
@@ -75,7 +43,7 @@
       "url": "https://huggingface.co/papers/2609.24788",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "In this paper, we propose SVEET, a framework that requires merely training on a pretrained bidirectional video diffusio…",
-      "score": 4
+      "score": 5
     },
     {
       "id": "9e096b45089a",
@@ -83,7 +51,15 @@
       "url": "https://huggingface.co/papers/2609.24432",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated traj…",
-      "score": 4
+      "score": 5
+    },
+    {
+      "id": "2ee082a7fb67",
+      "title": "Complex KDA: Understanding and Enhancing the Expressivity of Kimi Delta Attention",
+      "url": "https://huggingface.co/papers/2609.24797",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Linear RNNs based on the delta-rule enable efficient sequence modeling, but their linear updates with a low-rank correc…",
+      "score": 2
     },
     {
       "id": "e4e7259182e1",
@@ -94,15 +70,39 @@
       "score": 2
     },
     {
-      "id": "f119a5c06870",
-      "title": "Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles",
-      "url": "https://huggingface.co/papers/2609.22220",
+      "id": "ec9fb9a04124",
+      "title": "EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation",
+      "url": "https://huggingface.co/papers/2609.24115",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Tool-calling LLM agents are increasingly deployed in enterprise applications. However, effective evaluation and optimiz…",
+      "score": 1
+    },
+    {
+      "id": "e0c072a86d55",
+      "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+      "url": "https://huggingface.co/papers/2609.20758",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task …",
+      "score": 1
+    },
+    {
+      "id": "b155201a32e7",
+      "title": "TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision",
+      "url": "https://huggingface.co/papers/2609.20869",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of Active Perception), a structured repre…",
+      "score": 0
+    },
+    {
+      "id": "7cf61911876e",
+      "title": "ShieldVLA: Feasibility-Aware Safety Alignment for Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2609.13231",
       "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Benchmarks for LLM-generated GPU kernels decide correctness with a few random inputs and a loose floating-point toleran…",
-      "score": 2
+      "summary": "Vision-Language-Action (VLA) models demonstrate strong generalization in robotic manipulation and navigation, but exist…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-22T10:00:27.757Z",
+  "fetchedAt": "2026-09-22T14:52:03.811Z",
   "stale": false,
   "error": null
 }
