@@ -6,62 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "0f929a785a74",
-      "title": "VTuber立ち絵をAIで設計する｜キャラクターの特徴を保ちながら素材展開する実践フロー",
-      "url": "https://zenn.dev/satofun/articles/fdfd703bb53b22",
-      "publishedAt": "2026-09-21T22:34:15.000Z",
-      "publisher": "sato",
-      "summary": "PR｜本記事にはプロモーションを含みます VTuber実際に活動を始めると、笑顔や驚き顔、座ったポーズ、新衣装、配信用ビジュアルなど、同じキャラクターを使った素材が必要になってきます。 そこで重要になるのが、最初から「あとで展開する」こと…"
-    },
-    {
-      "id": "33a762605a00",
-      "title": "Claude CodeがAGENTS.mdを読み込まない理由と対処法",
-      "url": "https://zenn.dev/sunsun_eng/articles/claude-code-agents-md-first-session",
-      "publishedAt": "2026-09-21T22:32:47.000Z",
-      "publisher": "すんすん",
-      "summary": "Claude CodeがAGENTS.mdを読み込まない理由と対処法 Claude CodeがAGENTS.mdを読み込むようになりました。ただし公開直後に多くのエンジニアが気づいたとおり、プロジェクトを開いた最初のセッションでは反映され…"
-    },
-    {
-      "id": "03b8ead610c7",
-      "title": "Claude憲法を読んでもっとうまくClaudeと会話したい",
-      "url": "https://zenn.dev/daigo428/articles/67862e4f145c4a",
-      "publishedAt": "2026-09-21T22:11:46.000Z",
-      "publisher": "ydaigo",
-      "summary": "はじめに 私は仕事でClaudeに頼り切っています。けれど、そのClaudeがどんな価値観で動いているのか、実はちゃんと知らなかったです。Anthropicが公開しているClaude's Constitutionという文書に書かれたCla…"
-    },
-    {
-      "id": "ee21a2f5d378",
-      "title": "2026-09-20〜2026-09-26 技術キャッチアップ",
-      "url": "https://zenn.dev/marycache/articles/20260920-weekly-tech-catchup",
-      "publishedAt": "2026-09-21T21:58:19.000Z",
-      "publisher": "C",
-      "summary": "2026-09-20〜2026-09-26 技術キャッチアップ この週に確認した主要な技術更新を、曜日ごとのテーマに沿って整理する。 日: 生成AI・AI開発 月: IT全般・週間総括 火: 開発ツール・OSS 水: Web・バックエンド…"
-    },
-    {
-      "id": "a9f86f820e4f",
-      "title": "一夜でバズった\"Jev\"を疑ってみた ── 判断特化AIの正体と、確率を信じてはいけない理由",
-      "url": "https://zenn.dev/ryok/articles/jev-calibration-trap",
-      "publishedAt": "2026-09-21T21:53:23.000Z",
-      "publisher": "ryok",
-      "summary": "結論 2026年9月20日ごろから、X・Reddit・日本語圏のはてブで「Jev」という単語が一斉に湧いた。「新しいAIらしい」「これはゲームチェンジャー」。正体がよくわからないまま賞賛だけが流れていく、あの感じだ。 僕は毎朝トレンドを収…"
-    },
-    {
-      "id": "4f47f33fd086",
-      "title": "ChatGPT for Word、実体は「誰でも作れるOffice Add-in」という話",
-      "url": "https://zenn.dev/every_ai_recipe/articles/chatgpt-word-sidebar-3-steps",
-      "publishedAt": "2026-09-21T21:18:05.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR OpenAIは2026年9月17日、ChatGPTをWord・Excel・PowerPointのサイドバーとして使える公式アドインを発表した。無料プランを含む全プランで利用可能で、Microsoft Marketplace経由…"
-    },
-    {
-      "id": "2d2d6bdf6907",
-      "title": "常駐型AIチャットエージェントをスケールアウトしたときの二重応答防止設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-scaleout-dedup-response-design",
-      "publishedAt": "2026-09-21T21:14:00.000Z",
-      "publisher": "HACH",
-      "summary": "Slack / Teams / Chatworkに常駐するAIエージェントは、トラフィックが増えると当然スケールアウトしたくなります。ところが単一インスタンスで動いていたときには存在しなかった問題が、複数インスタンスにした瞬間に表面化しま…"
-    },
-    {
       "id": "29f6a544ff47",
       "title": "「Claude Codeで稼ぐ」を3週間本気でやってみた。応募2,000人・当選率ほぼゼロの実測ログ",
       "url": "https://zenn.dev/ogana/articles/cc46b3d218077a",
@@ -100,9 +44,65 @@
       "publishedAt": "2026-09-21T16:07:03.000Z",
       "publisher": "raspberry team",
       "summary": "はじめに 「このバナー、来週までにお願いします」 マーケターからデザイン制作依頼を受け取ったあと、すぐに制作を始められるとは限りません。 誰に向けたバナーなのか。どこに掲載するのか。何を一番伝えたいのか。必要な素材は揃っているのか。 制作…"
+    },
+    {
+      "id": "202a134d347d",
+      "title": "LayaはJevより速い？ローカル判定AIの比較条件と、日本語アプリへの導入手順",
+      "url": "https://zenn.dev/kanta13jp1/articles/laya-mlx-on-device-system-one-benchmark",
+      "publishedAt": "2026-09-21T15:30:35.000Z",
+      "publisher": "kanta13jp1",
+      "summary": "スネーク比較で分かること ローカルの「Laya」とクラウドAPIの「Jev」を、同じスネークゲームで動かす比較が紹介されています。ローカルで判断を完結させると、毎回のネットワーク往復を省ける点が魅力です。 ただし、応答速度・モデルの正答率…"
+    },
+    {
+      "id": "d320bcbb4c16",
+      "title": "DifyからJev(System One)を呼び出す：HTTPノードでの接続と日本語での動作確認",
+      "url": "https://zenn.dev/yaahmi/articles/dify_jev_test",
+      "publishedAt": "2026-09-21T15:26:42.000Z",
+      "publisher": "YaahMi",
+      "summary": "はじめに 2026年9月に発表されたTypeSafe AIの「Jev」は、チャット用のLLMではなく、状態(state)と型付きの質問を送ると、コードでそのまま使える構造化された回答が返るモデルです。Jevは\"System One\"モデル…"
+    },
+    {
+      "id": "84b934610027",
+      "title": "GitHub Issueを流すだけでPRになる「パイプラインskill」をClaude Codeで作った",
+      "url": "https://zenn.dev/yubel/articles/claude-code-issue-to-pr-pipeline",
+      "publishedAt": "2026-09-21T15:22:03.000Z",
+      "publisher": "yubel",
+      "summary": "この記事で分かること 個人開発で複数リポジトリを掛け持ちしていると、「Issueを書いたはいいが着手するのを忘れる」「実装できてもPRを出した後のCodeRabbitの指摘対応やCI監視が地味に時間を食う」という悩みが出てきます。これを解…"
+    },
+    {
+      "id": "69caf9954e48",
+      "title": "2026-09-01 今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-01-tech-daily",
+      "publishedAt": "2026-09-21T15:10:44.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 本日の技術トレンドでは、単一LLMからAIエージェントおよび具身知能へのシフトと、エージェント間の相互運用性を高める「MCP」の進化が顕著になっています。国内ではスペースデータによる「SD-AgentFoundry」のOSS公開や富士…"
+    },
+    {
+      "id": "56faca3514d6",
+      "title": "最新事例から学ぶJev活用術！（まだ追いつける）",
+      "url": "https://zenn.dev/zabuton/articles/5a32d21b63b2fb",
+      "publishedAt": "2026-09-21T15:09:46.000Z",
+      "publisher": "低迷する座布団",
+      "summary": "はじめに 最近ホットなJevの話をしましょう。 JevはTypeSafe AIが2026年9月15日に提供を始めたAIモデルです。 いわく判断に特化したモデルで、LLMのように文章を生成するモデルではありません。 ただ入力された情報を読ん…"
+    },
+    {
+      "id": "70380360b0e2",
+      "title": "【AI HACK 2026 Day3】Day4の提出に向けて、NetWalkerの結合方針を決める",
+      "url": "https://zenn.dev/takashishibata/articles/38e48a945b95df",
+      "publishedAt": "2026-09-21T14:00:15.000Z",
+      "publisher": "Takashi Shibata",
+      "summary": "AI HACK 2026に、社会人と学生の2人チームで参加しています。 前回のミーティングでは、いくつかのアイデアを比較し、ネットワーク障害の調査・復旧を支援するAIエージェント「NetWalker」を中心に開発する方針を決めました。 D…"
+    },
+    {
+      "id": "603f9517d048",
+      "title": "Jevをローカルでどこまで再現できるか検証しました",
+      "url": "https://zenn.dev/null_teck/articles/local-jev-reproduce",
+      "publishedAt": "2026-09-21T13:58:24.000Z",
+      "publisher": "ヌルソフト@AI_Teck_PoC",
+      "summary": "! TL;DR（3行要約） 身近なツールでJevのインターフェースは再現できる: 専用ライブラリを使わずとも、ローカルの llama-server に Qwen3.5-4B.gguf（約2.8GB）を読み込ませ、思考モードをオフにして L…"
     }
   ],
-  "fetchedAt": "2026-09-22T00:17:06.872Z",
+  "fetchedAt": "2026-09-22T05:13:58.073Z",
   "stale": false,
   "error": null
 }

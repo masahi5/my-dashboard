@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3a13f3a6764c",
-      "title": "IntBMoE: Integrating Block-Level Conditioning into Expert Composition for Full-Participation Mixture-of-Experts",
-      "url": "https://huggingface.co/papers/2609.21346",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently. For a single …",
-      "score": 90
+      "id": "0f140f8bfb4f",
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "url": "https://huggingface.co/papers/2609.24972",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and c…",
+      "score": 52
     },
     {
-      "id": "cac67d42d54a",
-      "title": "OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
-      "url": "https://huggingface.co/papers/2609.21465",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In …",
-      "score": 30
+      "id": "19890ba5aa2a",
+      "title": "Transferring the Intelligence of VLMs to Robotic Control",
+      "url": "https://huggingface.co/papers/2609.22966",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in …",
+      "score": 24
     },
     {
-      "id": "18e90a015de1",
-      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
-      "url": "https://huggingface.co/papers/2609.22086",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many int…",
-      "score": 22
+      "id": "bfe2f1406b80",
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "url": "https://huggingface.co/papers/2609.24984",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations o…",
+      "score": 14
     },
     {
-      "id": "d1a36f8c4e35",
-      "title": "BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence",
-      "url": "https://huggingface.co/papers/2609.20886",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Business intelligence (BI) is a cornerstone of enterprise decision-making and is widely used by enterprise users in sof…",
+      "id": "83f952a77a98",
+      "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
+      "url": "https://huggingface.co/papers/2609.10706",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "Human video datasets offer an abundant and diverse source of interaction data that can complement expensive real-robot …",
+      "score": 13
+    },
+    {
+      "id": "8d8a517cfb7b",
+      "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
+      "url": "https://huggingface.co/papers/2609.24997",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, t…",
       "score": 12
     },
     {
-      "id": "64f455ecb89c",
-      "title": "Gricea: An Open Science Platform for Conversational AI Research",
-      "url": "https://huggingface.co/papers/2609.22039",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "We need studies on conversational AI (CAI) at scale to understand human behavior and shape CAI design. However, fragmen…",
+      "id": "456764c21102",
+      "title": "Grounded Action Model: 3D Grounding as a Foundation for Robotics",
+      "url": "https://huggingface.co/papers/2609.23863",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robo…",
+      "score": 11
+    },
+    {
+      "id": "a44319b0fa73",
+      "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+      "url": "https://huggingface.co/papers/2609.24974",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent perfo…",
+      "score": 9
+    },
+    {
+      "id": "50b5b1df71e9",
+      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "url": "https://huggingface.co/papers/2609.25001",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction…",
       "score": 7
     },
     {
-      "id": "4bd349df7b8f",
-      "title": "CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design",
-      "url": "https://huggingface.co/papers/2609.16251",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Computer-use agents are increasingly evaluated in realistic desktop environments, but existing benchmarks provide limit…",
-      "score": 5
-    },
-    {
-      "id": "59139317711d",
-      "title": "From Pretraining to Proficiency: Real-World Subtask RL for Long-Horizon Manipulation with Minimal Human Intervention",
-      "url": "https://huggingface.co/papers/2609.21788",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "A pretrained robot foundation policy may execute most of a long-horizon task yet repeatedly fail at a few critical subt…",
-      "score": 4
-    },
-    {
-      "id": "892545345ab2",
-      "title": "SiliconBench: Speed, Memory, and Fidelity for LLM Serving on Unified-Memory Desktops",
-      "url": "https://huggingface.co/papers/2609.19169",
-      "publishedAt": "2026-09-12T00:00:00.000Z",
-      "summary": "Concurrent local LLM serving on unified-memory desktops must preserve memory headroom and output fidelity, which speed-…",
-      "score": 3
-    },
-    {
-      "id": "7bbe3bba8a48",
-      "title": "GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning",
-      "url": "https://huggingface.co/papers/2609.19315",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Large language models (LLMs) provide a flexible interface for long-horizon robot planning, but generated plans often fa…",
-      "score": 3
-    },
-    {
-      "id": "7ba18d50b37f",
-      "title": "Retention-Constrained Post-Training Quantization of Cellpose-SAM for Stem Cell Microscopy",
-      "url": "https://huggingface.co/papers/2609.21038",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Induced pluripotent stem cell (iPSC) culture increasingly relies on segmentation foundation models, yet deployment on l…",
-      "score": 3
-    },
-    {
-      "id": "1767f8d309cb",
-      "title": "APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport",
-      "url": "https://huggingface.co/papers/2609.22076",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "APort Vault is a benchmark for payment authorization in tool-using AI agents. It replays 4,371 attacks written by human…",
+      "id": "a84f2c3388e5",
+      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+      "url": "https://huggingface.co/papers/2609.24983",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda a…",
       "score": 2
     },
     {
-      "id": "93b154a058bd",
-      "title": "Refinement Is Inherently Editable: Training-Free Prompt-to-Prompt Image Editing with Generative Refinement Network",
-      "url": "https://huggingface.co/papers/2609.20633",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Text-guided image editing must introduce the requested changes while preserving unrelated source content. Diffusion-bas…",
+      "id": "f89e20183937",
+      "title": "Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents",
+      "url": "https://huggingface.co/papers/2609.23986",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Agentic memory is becoming essential for long-horizon AI agents, yet many existing systems rely on autoregressive LLMs …",
       "score": 2
+    },
+    {
+      "id": "f119a5c06870",
+      "title": "Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles",
+      "url": "https://huggingface.co/papers/2609.22220",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Benchmarks for LLM-generated GPU kernels decide correctness with a few random inputs and a loose floating-point toleran…",
+      "score": 1
+    },
+    {
+      "id": "1420b94cb020",
+      "title": "Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies",
+      "url": "https://huggingface.co/papers/2609.24682",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Vision-Language-Action (VLA) models map observations to actions with no objective that accounts for how the world respo…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-22T00:17:06.765Z",
+  "fetchedAt": "2026-09-22T05:13:57.940Z",
   "stale": false,
   "error": null
 }
