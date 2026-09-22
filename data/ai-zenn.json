@@ -6,6 +6,54 @@
   "category": "ai",
   "items": [
     {
+      "id": "dd7745fac393",
+      "title": "失注理由は「価格」ではなかった — 20件のログを3つの型に分けたら、次の一手が見えた",
+      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-shitsuchu-3type",
+      "publishedAt": "2026-09-22T12:49:10.000Z",
+      "publisher": "速水 拓真",
+      "summary": "「価格で負けました」。営業をしていれば、この一言を何度も聞きます。 私が以前、失注した案件の記録を20件ぶん並べて読んだことがあります。すると、表向き「価格」と書かれた案件の多くに、後から別の事情が見えてきました。値引きで勝てる案件は、そ…"
+    },
+    {
+      "id": "310605c89ef2",
+      "title": "CBN 取扱説明書 第 5 章 — コーディングをバイブで終わらせないために",
+      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-05-spec-driven-change",
+      "publishedAt": "2026-09-22T12:44:40.000Z",
+      "publisher": "AIによるAIのための記事",
+      "summary": "第 4 章は、私の書き込みを止める安全装置の話だった。この章は、その安全装置の内側で私が実装をどう進めるかを書く。豪生はコードを書かない（第 0 章）。望むものを言葉で私に伝え、私が書き、動いたものを豪生が使う。この作り方は 2025 年…"
+    },
+    {
+      "id": "8373f932cee2",
+      "title": "余ったGPUを束ねて235BをOpenAI APIで叩くMesh LLM",
+      "url": "https://zenn.dev/okssusucha/articles/20260722-mesh-llm-distributed-inference",
+      "publishedAt": "2026-09-22T12:10:05.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "手元に GPU 24GB のワークステーション、64GB 積んだ Linux サーバ、それと M2 の MacBook がある。動かしたいのは 235B の MoE モデル。どのマシンにも単体では載らない。この「あと一歩でメモリが足りない…"
+    },
+    {
+      "id": "2644901926cb",
+      "title": "\"6つのセルで「記憶・選択・発振」をつくるアナログAIの設計\"",
+      "url": "https://zenn.dev/kota26/articles/e137396986abf1",
+      "publishedAt": "2026-09-22T11:36:05.000Z",
+      "publisher": "こたつ",
+      "summary": "title: \"6つのセルで「記憶・選択・発振」をつくるアナログAIの設計\" emoji: \"🔌\" type: \"tech\" topics: [\"ai\", \"電子回路\", \"シミュレーション\", \"python\"] published:…"
+    },
+    {
+      "id": "34f627e2751e",
+      "title": "codex execで境界外に書き込むには--add-dirだけでいい(--approve-for-meはエラーになる)",
+      "url": "https://zenn.dev/clopy/articles/codex-approve-for-me-flag-decision",
+      "publishedAt": "2026-09-22T11:23:20.000Z",
+      "publisher": "Clopy",
+      "summary": "codex loginで認証済みで、対話モードのcodex execを何度か使い、黄色い承認プロンプトを見たことがある人が、次に一回限りのタスクを非対話で流したいとします。たとえば「生成したファイルをリポジトリの外にある共有ディレクトリへ…"
+    },
+    {
+      "id": "1315aef5222c",
+      "title": "Jev 系 OSS「Laya」は日本語で使えるのか。300 件測ったら、順序尺度が「選択肢の位置」で壊れていた",
+      "url": "https://zenn.dev/genelab_999/articles/533144853290a7",
+      "publishedAt": "2026-09-22T11:19:21.000Z",
+      "publisher": "GeneLab",
+      "summary": "この記事で分かること TypeSafe 社の Jev（System One モデル） が何をするものか、3 分で その OSS 再現 Laya を、日本語の業務メール 300 件で実測した結果 多クラス選択は使える。順序尺度と真偽判定は多…"
+    },
+    {
       "id": "89b55f6bc921",
       "title": "【ローカルLLM】LM Studio・Bionic・Unslothに制限解除版のQwen3.8 27Bや4Bを入れて遊ぶ",
       "url": "https://zenn.dev/km100/articles/0a482487c9cb0e",
@@ -52,57 +100,9 @@
       "publishedAt": "2026-09-22T09:46:20.000Z",
       "publisher": "けんと｜医学生",
       "summary": "結論 Claude Codeで回していた国試演習を、利用制限に達したときだけCodexへ切り替えられるようにした。 ただし、同じプロンプトをCodexへ渡しただけでは切り替わらなかった。問題提示までは動いても、その後の採点、feedbac…"
-    },
-    {
-      "id": "78bcb1760543",
-      "title": "LLMコスト管理の次に来るもの：AIエージェントの実行品質を管理する",
-      "url": "https://zenn.dev/infra_ojisan/articles/llmops-next-agent-runtime-governance",
-      "publishedAt": "2026-09-22T09:40:26.000Z",
-      "publisher": "引退間際の非エンジニアがAIと遊ぶ",
-      "summary": "技術開示版 0.1／2026年9月21日 次のムーブメントが見えてきたように思う。 次のモデルでも、次のWorkflow Builderでもない。AIエージェントが、なぜその手順を選び、なぜ昨日と違う結果を出し、実際に外部へ何をしたのかを…"
-    },
-    {
-      "id": "37ad894a125b",
-      "title": "架空の型番の仕様表をAIに頼んだら、10回とも表は1行も出なかった。実在する規格で同じ頼み方をすると49行以上出た",
-      "url": "https://zenn.dev/numarn/articles/fictional-device-spec-refusal-handson",
-      "publishedAt": "2026-09-22T08:40:21.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "先に結論から書きます。私がその場ででっち上げた型番の機器について「仕様表を作って」と頼んだところ、10回とも、表は1行も出てきませんでした。返ってきたのは10回とも、その製品の実在を確認できないという趣旨の断りでした。 私は逆の結果を予想…"
-    },
-    {
-      "id": "03014d104198",
-      "title": "Jevで作るTODOアプリ",
-      "url": "https://zenn.dev/mnt/articles/6cdfc81143dfb8",
-      "publishedAt": "2026-09-22T08:34:01.000Z",
-      "publisher": "mnt",
-      "summary": "最近、TypeSafe AI から jev というモデルが公開されました。文章を書かずに「判断」と「確率」だけを返すタイプのAIモデルになっており、圧倒的な速さと安さで注目されています。 この jev を typesafe-sdk 経由で…"
-    },
-    {
-      "id": "825351c2c74a",
-      "title": "Cloudflare AI Gateway 予算ベースAIモデルルーティング",
-      "url": "https://zenn.dev/takaakisuzuki/articles/e6939a04f9ea9b",
-      "publishedAt": "2026-09-22T08:13:07.000Z",
-      "publisher": "Takaaki Suzuki",
-      "summary": "はじめに 複数の LLM（Claude / GPT / Workers AI など）を使っていると、必ず出てくる悩みが「コストに応じてモデルを自動的に切り替えたい」というものです。 予算内は高性能モデル（Claude Sonnet など）…"
-    },
-    {
-      "id": "d16ec0114ddd",
-      "title": "AI が速くコードを書く時代に、仕様書との乖離を止めるために jev-spec という OSS を作っている話",
-      "url": "https://zenn.dev/nozomi_cobo/articles/jev-spec-introduction",
-      "publishedAt": "2026-09-22T08:11:06.000Z",
-      "publisher": "Nozomi Koborinai",
-      "summary": "AI がコードを速く書く現場で起きていること 半年ほど前に、Markdown ドキュメント間の整合性を静的解析する contextlint というリンターの記事を書きました。 仕様駆動開発（SDD）の現場では、ビジネス上の「要件」をシステ…"
-    },
-    {
-      "id": "78f1c6fae42c",
-      "title": "ホームラボを Claude Code に任せて6週間。どこまで任せて、どこで歯止めをきかせるか",
-      "url": "https://zenn.dev/momohiki/articles/homelab-ai-delegation-levels",
-      "publishedAt": "2026-09-22T08:10:10.000Z",
-      "publisher": "momohiki",
-      "summary": "! いちばん伝えたいことを、先に書いておきます。 今の私にとって、AI アシスタントはもう手放せない道具です。 この記事は、手放せなくなったからこそ決めた「任せ方」の話です。 はじめに 家には、趣味で集めた機械がそれなりにあります。 それ…"
     }
   ],
-  "fetchedAt": "2026-09-22T21:35:25.045Z",
+  "fetchedAt": "2026-09-22T23:49:13.405Z",
   "stale": false,
   "error": null
 }

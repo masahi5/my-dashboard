@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.13814",
       "publishedAt": "2026-09-12T00:00:00.000Z",
       "summary": "Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken di…",
-      "score": 11
+      "score": 13
     },
     {
       "id": "0b4ad7575eb2",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.23989",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "Building general-purpose agents for industrial deployment requires integrating multiple capabilities, each typically ac…",
-      "score": 6
+      "score": 8
     },
     {
       "id": "79ec42b8022f",
@@ -27,7 +27,31 @@
       "url": "https://huggingface.co/papers/2609.15991",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "summary": "Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo…",
-      "score": 6
+      "score": 7
+    },
+    {
+      "id": "3621d7edbca1",
+      "title": "Towards Full Pipeline FP8 Reinforcement Learning for LLMs",
+      "url": "https://huggingface.co/papers/2609.22870",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "Reinforcement learning (RL) has become a key technique for improving the reasoning and agentic abilities of large langu…",
+      "score": 5
+    },
+    {
+      "id": "fc594974fb36",
+      "title": "SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness",
+      "url": "https://huggingface.co/papers/2609.06052",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "Autonomous agent systems increasingly depend on reusable skill abstractions for consolidating experiential knowledge an…",
+      "score": 4
+    },
+    {
+      "id": "0c13416f703a",
+      "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal",
+      "url": "https://huggingface.co/papers/2609.21996",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "Large language models can hold knowledge they do not report. A model may sandbag on a capability evaluation, or answer …",
+      "score": 4
     },
     {
       "id": "2ee082a7fb67",
@@ -38,20 +62,20 @@
       "score": 4
     },
     {
-      "id": "fc594974fb36",
-      "title": "SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness",
-      "url": "https://huggingface.co/papers/2609.06052",
-      "publishedAt": "2026-09-05T00:00:00.000Z",
-      "summary": "Autonomous agent systems increasingly depend on reusable skill abstractions for consolidating experiential knowledge an…",
+      "id": "e0c072a86d55",
+      "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+      "url": "https://huggingface.co/papers/2609.20758",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "summary": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task …",
       "score": 3
     },
     {
-      "id": "0c13416f703a",
-      "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal",
-      "url": "https://huggingface.co/papers/2609.21996",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Large language models can hold knowledge they do not report. A model may sandbag on a capability evaluation, or answer …",
-      "score": 3
+      "id": "ec9fb9a04124",
+      "title": "EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation",
+      "url": "https://huggingface.co/papers/2609.24115",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Tool-calling LLM agents are increasingly deployed in enterprise applications. However, effective evaluation and optimiz…",
+      "score": 2
     },
     {
       "id": "7cf61911876e",
@@ -76,33 +100,9 @@
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "summary": "We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of Active Perception), a structured repre…",
       "score": 1
-    },
-    {
-      "id": "ec9fb9a04124",
-      "title": "EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation",
-      "url": "https://huggingface.co/papers/2609.24115",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Tool-calling LLM agents are increasingly deployed in enterprise applications. However, effective evaluation and optimiz…",
-      "score": 1
-    },
-    {
-      "id": "e0c072a86d55",
-      "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
-      "url": "https://huggingface.co/papers/2609.20758",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task …",
-      "score": 1
-    },
-    {
-      "id": "3621d7edbca1",
-      "title": "Towards Full Pipeline FP8 Reinforcement Learning for LLMs",
-      "url": "https://huggingface.co/papers/2609.22870",
-      "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) has become a key technique for improving the reasoning and agentic abilities of large langu…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-22T21:35:24.854Z",
+  "fetchedAt": "2026-09-22T23:49:13.244Z",
   "stale": false,
   "error": null
 }
