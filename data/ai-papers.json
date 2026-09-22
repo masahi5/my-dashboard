@@ -6,36 +6,28 @@
   "category": "ai",
   "items": [
     {
-      "id": "66760a6ce2b4",
-      "title": "OmniEdu: Open Foundation Models for Learning and Teaching",
-      "url": "https://huggingface.co/papers/2609.23088",
-      "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and …",
-      "score": 49
-    },
-    {
       "id": "f962cd018571",
       "title": "Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion",
       "url": "https://huggingface.co/papers/2609.24220",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats…",
-      "score": 44
+      "score": 48
     },
     {
-      "id": "124845c567c8",
-      "title": "Deep Persona: A Psychologically Grounded Architecture and Evaluation Framework for Role-Playing Agents and Simulations",
-      "url": "https://huggingface.co/papers/2609.22255",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "summary": "Existing approaches to persona simulation with Large Language Models (LLMs) mostly rely on shallow character descriptio…",
-      "score": 11
-    },
-    {
-      "id": "70b8d95b0d6e",
-      "title": "CARE: Experience-Guided Atomic Corrective Execution for Vision-Language-Action Policies",
-      "url": "https://huggingface.co/papers/2609.24118",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Vision-Language-Action (VLA) policies achieve strong performance in robotic manipulation but remain brittle once execut…",
+      "id": "1c42987a6248",
+      "title": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
+      "url": "https://huggingface.co/papers/2609.13814",
+      "publishedAt": "2026-09-12T00:00:00.000Z",
+      "summary": "Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken di…",
       "score": 10
+    },
+    {
+      "id": "79ec42b8022f",
+      "title": "The Functionalizer: Lossless Functional Decomposition for Subword Tokenization",
+      "url": "https://huggingface.co/papers/2609.15991",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo…",
+      "score": 5
     },
     {
       "id": "83d3bf1d996e",
@@ -46,28 +38,44 @@
       "score": 5
     },
     {
-      "id": "9e096b45089a",
-      "title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.24432",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated traj…",
-      "score": 5
-    },
-    {
       "id": "2ee082a7fb67",
       "title": "Complex KDA: Understanding and Enhancing the Expressivity of Kimi Delta Attention",
       "url": "https://huggingface.co/papers/2609.24797",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "Linear RNNs based on the delta-rule enable efficient sequence modeling, but their linear updates with a low-rank correc…",
+      "score": 3
+    },
+    {
+      "id": "fc594974fb36",
+      "title": "SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness",
+      "url": "https://huggingface.co/papers/2609.06052",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "Autonomous agent systems increasingly depend on reusable skill abstractions for consolidating experiential knowledge an…",
       "score": 2
     },
     {
-      "id": "e4e7259182e1",
-      "title": "Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene",
-      "url": "https://huggingface.co/papers/2609.23796",
-      "publishedAt": "2026-09-20T00:00:00.000Z",
-      "summary": "Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent sce…",
+      "id": "7cf61911876e",
+      "title": "ShieldVLA: Feasibility-Aware Safety Alignment for Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2609.13231",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "summary": "Vision-Language-Action (VLA) models demonstrate strong generalization in robotic manipulation and navigation, but exist…",
       "score": 2
+    },
+    {
+      "id": "0c13416f703a",
+      "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal",
+      "url": "https://huggingface.co/papers/2609.21996",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "Large language models can hold knowledge they do not report. A model may sandbag on a capability evaluation, or answer …",
+      "score": 1
+    },
+    {
+      "id": "b155201a32e7",
+      "title": "TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision",
+      "url": "https://huggingface.co/papers/2609.20869",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of Active Perception), a structured repre…",
+      "score": 1
     },
     {
       "id": "ec9fb9a04124",
@@ -86,23 +94,15 @@
       "score": 1
     },
     {
-      "id": "b155201a32e7",
-      "title": "TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision",
-      "url": "https://huggingface.co/papers/2609.20869",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of Active Perception), a structured repre…",
-      "score": 0
-    },
-    {
-      "id": "7cf61911876e",
-      "title": "ShieldVLA: Feasibility-Aware Safety Alignment for Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2609.13231",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Vision-Language-Action (VLA) models demonstrate strong generalization in robotic manipulation and navigation, but exist…",
+      "id": "5ab30196a75b",
+      "title": "UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing",
+      "url": "https://huggingface.co/papers/2609.23169",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "High-quality texture generation is essential for creating realistic and production-ready 3D assets. Recent multi-view d…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-22T14:52:03.811Z",
+  "fetchedAt": "2026-09-22T18:28:30.643Z",
   "stale": false,
   "error": null
 }

@@ -6,78 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "61e248b3e219",
-      "title": "Claude Code を終了するとき、1回だけ立ち止まらせる",
-      "url": "https://zenn.dev/keisato848/articles/session-log-hooks",
-      "publishedAt": "2026-09-22T14:35:33.000Z",
-      "publisher": "keisato",
-      "summary": "毎日 Claude Code を使って開発していると、新しいセッションを立ち上げるたびに「前回どこまでやったか」を AI に説明し直す手間が発生します。また、前のセッションでせっかく決めた方針を、次のセッションの AI が知らずに覆してし…"
-    },
-    {
-      "id": "15e9e9776681",
-      "title": "pdlc-skills を実際のプロジェクトで回してみる：三つの機能を並行させてリリースまで",
-      "url": "https://zenn.dev/kanfupanda/articles/pdlc-on-a-real-project",
-      "publishedAt": "2026-09-22T14:32:33.000Z",
-      "publisher": "kanfu-panda",
-      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/09/18/pdlc-on-a-real-project.ja.html 前七回は仕組みの話でした。今回…"
-    },
-    {
-      "id": "edb32e78e1cb",
-      "title": "AIに「完成しました」と言わせない — Figma実装を画素で採点する仕組みを作った",
-      "url": "https://zenn.dev/tk_tk_tk/articles/ee6af14b9a2d81",
-      "publishedAt": "2026-09-22T14:02:44.000Z",
-      "publisher": "TK|°_°|TK",
-      "summary": "AIエージェントにFigmaのデザインを実装させると、かなりの精度で形になります。ただ、最後に必ず同じことが起きました。AIが「実装できました」と言い、私が並べて見ると合っていないのです。 原因は能力ではなく、合否を誰が持つかでした。完成…"
-    },
-    {
-      "id": "8759a6d0134a",
-      "title": "AIが、頼んでいないメールを書いてきた — 記憶を見える形で貯めた4ヶ月",
-      "url": "https://zenn.dev/decoy_yuki/articles/1ee44b828c9965",
-      "publishedAt": "2026-09-22T13:59:42.000Z",
-      "publisher": "decoy",
-      "summary": "ある日、頼んでいないメールが出てきた 社内向けの小さなツールを直し終えた日のことです。 修正して、テストと照合を済ませて、あとは依頼者へ完了を伝えるだけ。そう思って作業を閉じようとしたら、Claude が頼んでいない納品メールの下書きを出…"
-    },
-    {
-      "id": "0e83f843cce6",
-      "title": "AI駆動開発を今日から始める、5つの手順のすすめ",
-      "url": "https://zenn.dev/genkunjc/articles/easy-ai-driven-development-start",
-      "publishedAt": "2026-09-22T13:59:13.000Z",
-      "publisher": "circle",
-      "summary": "プログラミング経験がなくても、AIに開発を任せて何かを作ってみたい人向けの手順です。 登録して初期設定を済ませ、Claudeに4つの前提（目的・目標・手段・事実）を教えるだけで、AIが自走できる開発環境が整います。専門知識は要りません。下…"
-    },
-    {
-      "id": "50c6b4637ff7",
-      "title": "みんパチ・スロサミの壊れにくい物販を考えみた",
-      "url": "https://zenn.dev/miyachan2/articles/6bed7a04547bf9",
-      "publishedAt": "2026-09-22T13:44:16.000Z",
-      "publisher": "ヤミちゃん",
-      "summary": "東京国際フォーラムで開催された「みんパチ・スロサミ2026」。 イベントの物販では、現地でスマホから注文する「スマートオーダー」が案内されていました。 ところが、イベント当日に物販とくじへのアクセスが集中して正常に動作せず、復旧しないまま…"
-    },
-    {
-      "id": "ae3d4c85f71d",
-      "title": "Jevはサイコロを振らないがローカルLLMは振れるのか？｜「較正された確率」の検証",
-      "url": "https://zenn.dev/null_teck/articles/jev-dice-calibration",
-      "publishedAt": "2026-09-22T13:38:36.000Z",
-      "publisher": "ヌルソフト@AI_Teck_PoC",
-      "summary": "! 先に結論を言います 客観的な統計確率としての限界: 先行研究（林寛太氏）が示した通り、本家Jevであっても手がかりのない公平な6面サイコロでは平均 82.9% と確信度を過大報告し（先頭バイアス）、低確率域でも過大評価が生じる。Jev…"
-    },
-    {
-      "id": "5cb08705c254",
-      "title": "TypeSafe AI の jev を Python で一通り試した (使い方と 10 の実験)",
-      "url": "https://zenn.dev/ainellc/articles/9e5f856b2f2de2",
-      "publishedAt": "2026-09-22T13:34:49.000Z",
-      "publisher": "Aine LLC.",
-      "summary": "jev は TypeSafe AI のモデル。テキストと型付きの質問を送ると、選択・スコア・yes/no の確率を返す。 公式ドキュメントを読みながら Python SDK で一通り動かし、公式に載っていない使い方も試した。コード例と実行…"
-    },
-    {
-      "id": "0f8e936d978b",
-      "title": "みんなJevの話してる。やってないの俺だけ",
-      "url": "https://zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
-      "publishedAt": "2026-09-22T13:11:24.000Z",
-      "publisher": "星影",
-      "summary": "はじめに 2026年9月中旬あたりから、タイムラインが急に「Jev」の話題で埋まりました。「LLMより200倍速い」「出力トークン無料」「ハルシネーションしない」と景気のいい言葉が並ぶ一方で、自分はまだAPIキーすら持っていません。 やっ…"
-    },
-    {
       "id": "dd7745fac393",
       "title": "失注理由は「価格」ではなかった — 20件のログを3つの型に分けたら、次の一手が見えた",
       "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-shitsuchu-3type",
@@ -100,9 +28,81 @@
       "publishedAt": "2026-09-22T12:10:05.000Z",
       "publisher": "とうもろこし茶",
       "summary": "手元に GPU 24GB のワークステーション、64GB 積んだ Linux サーバ、それと M2 の MacBook がある。動かしたいのは 235B の MoE モデル。どのマシンにも単体では載らない。この「あと一歩でメモリが足りない…"
+    },
+    {
+      "id": "2644901926cb",
+      "title": "\"6つのセルで「記憶・選択・発振」をつくるアナログAIの設計\"",
+      "url": "https://zenn.dev/kota26/articles/e137396986abf1",
+      "publishedAt": "2026-09-22T11:36:05.000Z",
+      "publisher": "こたつ",
+      "summary": "title: \"6つのセルで「記憶・選択・発振」をつくるアナログAIの設計\" emoji: \"🔌\" type: \"tech\" topics: [\"ai\", \"電子回路\", \"シミュレーション\", \"python\"] published:…"
+    },
+    {
+      "id": "34f627e2751e",
+      "title": "codex execで境界外に書き込むには--add-dirだけでいい(--approve-for-meはエラーになる)",
+      "url": "https://zenn.dev/clopy/articles/codex-approve-for-me-flag-decision",
+      "publishedAt": "2026-09-22T11:23:20.000Z",
+      "publisher": "Clopy",
+      "summary": "codex loginで認証済みで、対話モードのcodex execを何度か使い、黄色い承認プロンプトを見たことがある人が、次に一回限りのタスクを非対話で流したいとします。たとえば「生成したファイルをリポジトリの外にある共有ディレクトリへ…"
+    },
+    {
+      "id": "1315aef5222c",
+      "title": "Jev 系 OSS「Laya」は日本語で使えるのか。300 件測ったら、順序尺度が「選択肢の位置」で壊れていた",
+      "url": "https://zenn.dev/genelab_999/articles/533144853290a7",
+      "publishedAt": "2026-09-22T11:19:21.000Z",
+      "publisher": "GeneLab",
+      "summary": "この記事で分かること TypeSafe 社の Jev（System One モデル） が何をするものか、3 分で その OSS 再現 Laya を、日本語の業務メール 300 件で実測した結果 多クラス選択は使える。順序尺度と真偽判定は多…"
+    },
+    {
+      "id": "89b55f6bc921",
+      "title": "【ローカルLLM】LM Studio・Bionic・Unslothに制限解除版のQwen3.8 27Bや4Bを入れて遊ぶ",
+      "url": "https://zenn.dev/km100/articles/0a482487c9cb0e",
+      "publishedAt": "2026-09-22T10:41:40.000Z",
+      "publisher": "KM",
+      "summary": "チャットAIというとChatGPTやGeminiをアプリやWebブラウザで使う方法が定番ですが、公開モデルは限られるものの、パソコンにインストールして使う方法もあります。利用料金は無料、使い放題、検閲解除版のモデルも数多く出回っています。…"
+    },
+    {
+      "id": "785938e0ba7a",
+      "title": "AI.GENERATE_TABLEで非構造化テキストを構造化データに変換する",
+      "url": "https://zenn.dev/web_benriya/articles/bigquery-ai-generate-table-structuring",
+      "publishedAt": "2026-09-22T10:19:48.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに シリーズ第6回です。 前回（第5回）では AI.GENERATE の引数・戻り値の STRUCT・実務パターンを整理しました。今回は AI.GENERATE_TABLE を取り上げます。 EC 事業をデータで動かしているとき、非…"
+    },
+    {
+      "id": "68b7d42a02c7",
+      "title": "Quint + Jev、食い合わせが良いかもしれない",
+      "url": "https://zenn.dev/saltmu/articles/cfd184dc77ef8a",
+      "publishedAt": "2026-09-22T10:12:30.000Z",
+      "publisher": "そるとむ",
+      "summary": "TypeSafe AIのJevめっちゃ流行ってますね。気づいたら使えるようになっていたのでQuick Startだけとりえずやってみました。最初で笑ったｗ 合わせてQuintについても調べていて、「この2つを組み合わせると面白いアーキテク…"
+    },
+    {
+      "id": "2d6712f50e9c",
+      "title": "AIに鍵を渡す前に。Amazonの締め出しとGeminiの侵入",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260922",
+      "publishedAt": "2026-09-22T09:59:58.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年9月22日（火）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 先に結論を言います。今日は、AIに「どこまで任せるか」が問われた日です。判断だけに絞ったAIがバズって、Grokは速く安くなった。そ…"
+    },
+    {
+      "id": "419a6ab11132",
+      "title": "「Jev」とはなにか？勉強会とハッカソンに参加してみた",
+      "url": "https://zenn.dev/4o1sobblue/articles/bc9a8bb350e04c",
+      "publishedAt": "2026-09-22T09:58:20.000Z",
+      "publisher": "aoi",
+      "summary": "はじめに こんにちは。 数日前から\"Jev\"というキーワードが世間を賑わせています。気になったので、何が何だかわからないままとりあえず、2026年9月18日にみのるんさん（@minorun365）の宇宙最速勉強会に参加してみました。 ht…"
+    },
+    {
+      "id": "74bdc34bca8a",
+      "title": "Claude Codeの利用制限でも国試演習を止めない—Codexへのフェイルオーバーを作った",
+      "url": "https://zenn.dev/med_ai_study/articles/kokushi-exercise-failover-claude-code-codex",
+      "publishedAt": "2026-09-22T09:46:20.000Z",
+      "publisher": "けんと｜医学生",
+      "summary": "結論 Claude Codeで回していた国試演習を、利用制限に達したときだけCodexへ切り替えられるようにした。 ただし、同じプロンプトをCodexへ渡しただけでは切り替わらなかった。問題提示までは動いても、その後の採点、feedbac…"
     }
   ],
-  "fetchedAt": "2026-09-22T14:52:03.956Z",
+  "fetchedAt": "2026-09-22T18:28:30.799Z",
   "stale": false,
   "error": null
 }
