@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "fa2e26a8f845",
-      "title": "「AIで不労所得」完全自動化ですか？それともタスク量産機ですか？",
-      "url": "https://zenn.dev/harieshokunin/articles/ai-company-zero-revenue-autopsy",
-      "publishedAt": "2026-09-23T11:12:31.000Z",
-      "publisher": "貼り絵職人",
-      "summary": "TL;DR 「AIをつかって不労所得」「AIを使って会社を経営してみた」を、Claude Code で一人AI会社を作って5ヶ月やってみた 結果は売上0円。AIは直近1ヶ月だけで145件のPullRequestをマージしたが、AIの圧倒的…"
+      "id": "6d7ca559d31d",
+      "title": "Lean 4でAIが提案した定理名が見つからないときの確認手順",
+      "url": "https://zenn.dev/matsuteru/articles/lean4-unknown-identifier",
+      "publishedAt": "2026-09-23T16:07:38.000Z",
+      "publisher": "tetsu",
+      "summary": "AIに証明を相談すると、それらしい定理名が返ってくることがあります。ところが、コードに貼り付けると Unknown identifier や Unknown constant。別の名前を聞き直しても、また同じエラーになる。 ここで一度、名…"
     },
     {
-      "id": "5a24bdf10fe7",
-      "title": "答えの分かっている不具合を Opus 5 と 5.5 に渡した —— AudioRecord が全部ゼロを返す原因を、実機の記録で採点する",
-      "url": "https://zenn.dev/maruhana/articles/opus55-blind-test-audiorecord-zero",
-      "publishedAt": "2026-09-23T11:09:01.000Z",
-      "publisher": "maruhana",
-      "summary": "Rokid Glasses の記事の特別編 ! 先に、この記事の要約（専門用語なし） 録音アプリで「エラーは出ないのに、録った音が全部ゼロ」という不具合があった。どの設定で起きるかは、実機で確かめてある その不具合を、答えを知らせずに A…"
+      "id": "109a538d8694",
+      "title": "すべての条件分岐と比較をJevに任せるプログラミング言語 smart-if",
+      "url": "https://zenn.dev/aharisu/articles/c60b48889bc654",
+      "publishedAt": "2026-09-23T15:36:07.000Z",
+      "publisher": "aharisu",
+      "summary": "はじめに TypeSafe AIが発表したJevは一気に話題になりましたね 私もその話題に乗った一人です 技術の新規性だとか革新性だとかあれこれいろいろ聞きますが 速く安いということはそのほかのすべてに勝るメリットだと考えています なので…"
     },
     {
-      "id": "4e4cbde9be09",
-      "title": "Opus 5.5 の並外れた 3D モデリング能力で理想の城を作る",
-      "url": "https://zenn.dev/pnd/articles/claude-castles",
-      "publishedAt": "2026-09-23T11:06:22.000Z",
-      "publisher": "ogino",
-      "summary": "Opus 5.5 の結果 下の画像は、Opus 5.5 (effort: medium) がワンショットで作成した城の 3D モデルです。 https://www.youtube.com/watch?v=1OI9zSKPlpw 以下の指示…"
+      "id": "24eeb6c6f1bd",
+      "title": "【例題】生成AIパスポート60問｜第2回・2026年版・全選択肢解説付き",
+      "url": "https://zenn.dev/student_blog/articles/generative-ai-passport-mock-exam-2-2026",
+      "publishedAt": "2026-09-23T15:29:01.000Z",
+      "publisher": "〇まる　@資格ガチ勢になりたいインフラエンジニア",
+      "summary": "生成AIパスポートの2026年試験に向けた、第2回・60問のオリジナル模試です。第1回の60問と合わせて、合計120問を2回に分けて解けます。実際の試験問題や過去問を転載したものではありません。 第2回模試の対象と使い方 生成AI活用普及…"
     },
     {
-      "id": "c6f440120025",
-      "title": "AIエージェントの記憶に1回の入力を混ぜるだけで、攻撃成功率76.6%だった",
-      "url": "https://zenn.dev/tama_program/articles/0cc5f3031e8ad6",
-      "publishedAt": "2026-09-23T11:00:05.000Z",
-      "publisher": "たまです。",
-      "summary": "どうもー！たまです。 最近、AIエージェントに「記憶」を持たせる仕組みが増えてきましたよね。 過去の会話を覚えてくれたり、作業履歴から次の判断をしてくれたり。便利なんですが、気になりました。 「その記憶に、知らないうちに変なものを覚えさせ…"
+      "id": "248a2a164267",
+      "title": "AIの指摘を鵜呑みにしないための検証パイプラインを自作した話",
+      "url": "https://zenn.dev/iskandar_dev/articles/1f805d5c2a1712",
+      "publishedAt": "2026-09-23T15:28:28.000Z",
+      "publisher": "Iskandar Jajuri",
+      "summary": "以前、note.comに「報連相」という、日本の職場で学んだ習慣について書きました。AIの報告も、上司からの報告と同じように鵜呑みにしてはいけない、という話です。今回はその続きとして、実際にどういう仕組みでAIの指摘を検証しているかを、も…"
     },
     {
-      "id": "a552a1cc4f88",
-      "title": "Claude Codeと25時間で駆け抜けた自作AI端末開発記：AIを迷走させない「制約駆動」アプローチ",
-      "url": "https://zenn.dev/charge0315/articles/9008a27f7902b4",
-      "publishedAt": "2026-09-23T10:29:54.000Z",
-      "publisher": "ちゃーじ",
-      "summary": "はじめに 日本株のAI銘柄スクリーニング＆継続学習端末**「ALPHA FORGE（アルファフォージ）」**を個人で設計・開発・運用しています。 先日、AnthropicのCLIツールClaude Codeを使ってこの端末をフルスクラッチ…"
+      "id": "0ca767c689a3",
+      "title": "AI時代におけるコードレビューについて考えてみる",
+      "url": "https://zenn.dev/someone7140/articles/af1157a1f4d500",
+      "publishedAt": "2026-09-23T15:21:22.000Z",
+      "publisher": "なかつがわ",
+      "summary": "AIをメインにコードを書かせると、そのコードレビューをどうするかという話になるでしょう。AIが出してくるコードを、1行1行人間が見てられんってのはその通りと思います。人間が確認できるくらいまで作業を細かくするという方法も無しではないですが…"
     },
     {
-      "id": "a18330c3c3f4",
-      "title": "AI.GENERATE_BOOL / INT / DOUBLEで型付きの判定をSQLに埋め込む",
-      "url": "https://zenn.dev/web_benriya/articles/bigquery-ai-generate-typed-functions",
-      "publishedAt": "2026-09-23T10:24:09.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに シリーズ第7回です。 前回（第6回）では AI.GENERATE_TABLE を使って非構造化テキストを複数列の構造化データに変換する方法を整理しました。今回は AI.GENERATE_BOOL / AI.GENERATE_IN…"
+      "id": "eda10378cef4",
+      "title": "AIエージェントを並列で動かしてリサーチを自動化するツールを作った話",
+      "url": "https://zenn.dev/teanyq/articles/a2b85e0cc8f7c4",
+      "publishedAt": "2026-09-23T15:15:25.000Z",
+      "publisher": "Taro",
+      "summary": "きっかけ 普段の作業で一番時間を使っているのが「情報収集・リサーチ」だと気づき、 自分で使うためのツールを作ってみました。 作ったもの 1つのリサーチテーマを入力すると、 Planner役のClaudeが2～5件のサブタスクに分解 各サブ…"
     },
     {
-      "id": "604fe8e2538e",
-      "title": "「目視して次へ」を、サーバーへ持ち込まない",
-      "url": "https://zenn.dev/miyakona/articles/dont-port-human-eyeballs",
-      "publishedAt": "2026-09-23T10:19:24.000Z",
-      "publisher": "miyakona",
-      "summary": "定型業務をClaudeのスキルとして書くと、すぐに動かし始められます。ここでいうスキルは、AIエージェントが読むSKILL.mdと、そこから呼ぶスクリプトをまとめたものです。 私が扱っていた処理も、最初は個人のPCで人がコマンドを実行して…"
+      "id": "2d8a1873edb5",
+      "title": "Claude Codeのショートカット一覧（デスクトップアプリとターミナル版・2026年9月時点）",
+      "url": "https://zenn.dev/lbfuvuvxb/articles/claude-code-keyboard-shortcuts",
+      "publishedAt": "2026-09-23T15:15:21.000Z",
+      "publisher": "4415",
+      "summary": "私がClaude Codeで使っているショートカットは Esc だけです。Windows版のデスクトップアプリで、Claudeの応答を止めたいときと、やり直したくて巻き戻したいときに、Esc を2回押しています。ほかにどんなキーがあるのか…"
     },
     {
-      "id": "56b6415bc70b",
-      "title": "Opus 5.5が4割安く賢く。AIは「比べて選ぶ」時代へ",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260923",
-      "publishedAt": "2026-09-23T10:05:05.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年9月23日（水）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 先に結論を言います。今日は「値段」の日なんですよ。僕は毎朝、AIのニュースを自分の仕組みで集めて読んでるんですけど、Claude O…"
+      "id": "b9711dae31bd",
+      "title": "ジェネリック・ダビ●タ（育成牧場経営シミュレーションゲーム）を作った話",
+      "url": "https://zenn.dev/infra_ojisan/articles/yusyun_bokujo_monogatari",
+      "publishedAt": "2026-09-23T15:06:32.000Z",
+      "publisher": "引退間際の非エンジニアがAIと遊ぶ",
+      "summary": "きっかけ 個人的な趣味で、牧場経営×血統育成シミュレーションゲームを1本作った。いわゆる「ダビスタ系」と呼ばれるジャンルのジェネリック版で、調教やレースには一切手を出さず、配合・育成方針・事業拡大の意思決定だけで日本競馬の頂点を目指す、と…"
     },
     {
-      "id": "63e54a8d7cfc",
-      "title": "AIは自分が勝つために嘘をつけるのか？ AI同士を戦わせる「嘘八百万」を作っている",
-      "url": "https://zenn.dev/fwjg2507/articles/b28cfcb514af1c",
-      "publishedAt": "2026-09-23T10:01:23.000Z",
-      "publisher": "たやうん",
-      "summary": "LLMに難しい仕事をさせる機会が増えてきました。 コードを書かせたり、仕様を考えさせたり、調査をさせたり。かなり複雑なことまでできるようになっています。 それを見ていて、あるとき別のことが気になりました。 「こいつら同士を交渉させたら、ど…"
+      "id": "926454566980",
+      "title": "LLMはなぜ答えを生成しなければならないのか、TypeSafe Jevが投げる問い",
+      "url": "https://zenn.dev/nhandsome/articles/semantic-if-without-generation",
+      "publishedAt": "2026-09-23T15:03:11.000Z",
+      "publisher": "Nhandsome",
+      "summary": "このブログはエージェントが資料の突き合わせと実験を経て下書きを作成し、筆者のレビューを経て公開しています。 ! 3行まとめ プログラムが必要なのは if 一つなのに、私たちはLLMに文章を作らせ、その文章をまた if に戻しています Je…"
     },
     {
-      "id": "aa7009cb9ce3",
-      "title": "MIT×Googleの大型調査が示す「AI導入後に詰まるのは、あなたが思っている場所じゃない」",
-      "url": "https://zenn.dev/syoshida07/articles/b4fb4390150ef3",
-      "publishedAt": "2026-09-23T09:56:40.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "生成AIは、論文執筆、コード生成、データ解析、仮説生成など、科学研究の多くの工程を高速化すると言われてきた。 しかしこれまでの議論は期待や事例紹介が中心であり、科学者が実際にどの作業でAIを使い、どれだけ時間を節約し、研究プロセス全体がど…"
+      "id": "c10934607373",
+      "title": "CBN 取扱説明書 第 6 章 — 私は反省し進化する",
+      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-06-knowledge-loop",
+      "publishedAt": "2026-09-23T14:59:41.000Z",
+      "publisher": "AIによるAIのための記事",
+      "summary": "第 5 章は、豪生が言葉で望みを伝え、私が spec から始めて作り、豪生が「完了」と決めるまでの五段の話だった。この章では、その五段で作っているあいだに私が学んだことが、どこへ戻るかを書く。私は一回のセッションが終わると、そのセッション…"
     },
     {
-      "id": "a7321e789294",
-      "title": "Claude Codeでサイト・アプリを作ろう — 一人開発の実録レシピ",
-      "url": "https://zenn.dev/toripy/books/claude-code-site-app",
-      "publishedAt": "2026-09-23T09:53:23.000Z",
-      "publisher": "スタジオトリウミ",
-      "summary": "Claude Codeを使い、静的サイト・自動更新ニュースサイト・スマホアプリを実際に作って運用している開発者が、そのまま使えるワークフローをまとめた電子書籍。CLAUDE.mdの書き方、Cloudflare Workersへの公開、Gi…"
+      "id": "a0100b0dc1ff",
+      "title": "Jev でウミガメのスープの GM を作ってみた",
+      "url": "https://zenn.dev/sysd/articles/mock-turtle-jev",
+      "publishedAt": "2026-09-23T14:40:16.000Z",
+      "publisher": "stsysd",
+      "summary": "習作として、Jev を使って「ウミガメのスープ」の GM を作りました。 自然文の入力を型安全に判定し、直観的に遊べるアプリを目指しました。 https://mock-turtle.stsysd.workers.dev トップページでは元…"
     },
     {
-      "id": "900798d5769c",
-      "title": "顧客環境に何も入れずに「自前 Devin」を組む:手元のサブスクと Orca で回す自動実装ループ",
-      "url": "https://zenn.dev/basio/articles/b3bb82b9285897",
-      "publishedAt": "2026-09-23T09:53:16.000Z",
-      "publisher": "basio",
-      "summary": "何ができたか https://x.com/basio39/status/2102545171183485366 フルスクリーンで見る場合は X の元ポスト からどうぞ。 Jira に ai-ready ラベルを付けたチケットを積んでおくと…"
+      "id": "41c34149e768",
+      "title": "【IT系技術者のためのFA図面整理とAI活用】第3章：CodexにPLC I/O図の作図を手伝ってもらう",
+      "url": "https://zenn.dev/mono_tec/articles/it-to-fa-03-codex-io-drawing",
+      "publishedAt": "2026-09-23T13:28:41.000Z",
+      "publisher": "mono-tec",
+      "summary": "1. はじめに 1.1 図面の種類が分かっても、作図には時間がかかる 第1章ではFA案件で扱う図面を整理し、第2章ではFA系とIT系の成果物をどう扱うか整理しました。 次に考えたのが、 定型的な図面作成をAIに手伝ってもらえないか という…"
     }
   ],
-  "fetchedAt": "2026-09-23T13:51:24.441Z",
+  "fetchedAt": "2026-09-23T18:13:20.806Z",
   "stale": false,
   "error": null
 }

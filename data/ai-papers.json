@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.25804",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis…",
-      "score": 80
+      "score": 111
     },
     {
       "id": "9b5220f57ff4",
@@ -19,7 +19,15 @@
       "url": "https://huggingface.co/papers/2609.26774",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image…",
-      "score": 19
+      "score": 20
+    },
+    {
+      "id": "76dcc8f550f3",
+      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+      "url": "https://huggingface.co/papers/2609.26550",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical a…",
+      "score": 12
     },
     {
       "id": "a54baaf9f52f",
@@ -27,7 +35,7 @@
       "url": "https://huggingface.co/papers/2609.25199",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
-      "score": 8
+      "score": 11
     },
     {
       "id": "58e1bb13459b",
@@ -35,7 +43,7 @@
       "url": "https://huggingface.co/papers/2609.26781",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness fra…",
-      "score": 5
+      "score": 8
     },
     {
       "id": "596f8de5705e",
@@ -43,7 +51,15 @@
       "url": "https://huggingface.co/papers/2609.24967",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable …",
-      "score": 5
+      "score": 6
+    },
+    {
+      "id": "3e727a807a4d",
+      "title": "RoboFollow: Unveiling the Instruction Following Mirage in Embodied Agents",
+      "url": "https://huggingface.co/papers/2609.25636",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "Modern embodied agents achieve impressive success rates, yet their actual instruction-following ability is far weaker t…",
+      "score": 4
     },
     {
       "id": "5bcb448bed66",
@@ -54,20 +70,12 @@
       "score": 4
     },
     {
-      "id": "76dcc8f550f3",
-      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
-      "url": "https://huggingface.co/papers/2609.26550",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical a…",
-      "score": 2
-    },
-    {
-      "id": "3e727a807a4d",
-      "title": "RoboFollow: Unveiling the Instruction Following Mirage in Embodied Agents",
-      "url": "https://huggingface.co/papers/2609.25636",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Modern embodied agents achieve impressive success rates, yet their actual instruction-following ability is far weaker t…",
-      "score": 2
+      "id": "312d916e8f5f",
+      "title": "LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay",
+      "url": "https://huggingface.co/papers/2609.25053",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "Can one language model hand its live memory to another without the receiver rereading the context? We demonstrate usefu…",
+      "score": 3
     },
     {
       "id": "e486bf52237e",
@@ -78,31 +86,23 @@
       "score": 2
     },
     {
+      "id": "dc77c05d5030",
+      "title": "Tri-PvP: Exposing Modality Bias in Omni-Modal Large Language Models through Perceptual-Propositional Evidence Conflicts",
+      "url": "https://huggingface.co/papers/2609.06011",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "summary": "Omni-modal large language models (OLLMs) jointly process vision, audio, and text, yet their modality bias under cross-m…",
+      "score": 1
+    },
+    {
       "id": "552dd9dc4d28",
       "title": "Embedding Physics Priors in Robot Learning: A Survey",
       "url": "https://huggingface.co/papers/2609.22319",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "summary": "The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of learning-based app…",
-      "score": 0
-    },
-    {
-      "id": "312d916e8f5f",
-      "title": "LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay",
-      "url": "https://huggingface.co/papers/2609.25053",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "Can one language model hand its live memory to another without the receiver rereading the context? We demonstrate usefu…",
-      "score": 0
-    },
-    {
-      "id": "85569536e472",
-      "title": "ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning",
-      "url": "https://huggingface.co/papers/2609.22323",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Few-shot learning research is predominantly evaluated on accuracy alone, with limited attention to the parameter and tr…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-23T13:51:24.276Z",
+  "fetchedAt": "2026-09-23T18:13:20.675Z",
   "stale": false,
   "error": null
 }
