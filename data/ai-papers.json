@@ -6,36 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "97c984af1452",
-      "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
-      "url": "https://huggingface.co/papers/2609.24058",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages a…",
-      "score": 31
-    },
-    {
-      "id": "f88fce70f418",
-      "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
-      "url": "https://huggingface.co/papers/2609.24981",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generato…",
-      "score": 31
-    },
-    {
-      "id": "cc301830807e",
-      "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2609.24657",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Language models can be adapted by changing the computations applied to individual tokens. Quantum circuits offer one su…",
-      "score": 18
-    },
-    {
-      "id": "8c078cbad7b0",
-      "title": "Bellman Policy Optimization",
-      "url": "https://huggingface.co/papers/2609.15987",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) improves the reasoning capabilities of large language models (LLM…",
-      "score": 18
+      "id": "38aa2cdcb874",
+      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+      "url": "https://huggingface.co/papers/2609.25804",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis…",
+      "score": 80
     },
     {
       "id": "9b5220f57ff4",
@@ -43,31 +19,7 @@
       "url": "https://huggingface.co/papers/2609.26774",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image…",
-      "score": 15
-    },
-    {
-      "id": "38aa2cdcb874",
-      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
-      "url": "https://huggingface.co/papers/2609.25804",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis…",
-      "score": 14
-    },
-    {
-      "id": "2a4bb8c0323e",
-      "title": "From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health",
-      "url": "https://huggingface.co/papers/2609.25186",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "The rising global prevalence of mental health conditions, together with longstanding barriers in traditional healthcare…",
-      "score": 14
-    },
-    {
-      "id": "6f06ef95e4ac",
-      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
-      "url": "https://huggingface.co/papers/2609.25165",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "In this report, we introduce Ovis-Embedding, a state-of-the-art omni-modal embedding family built on native integration…",
-      "score": 13
+      "score": 19
     },
     {
       "id": "a54baaf9f52f",
@@ -75,7 +27,15 @@
       "url": "https://huggingface.co/papers/2609.25199",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
-      "score": 7
+      "score": 8
+    },
+    {
+      "id": "58e1bb13459b",
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "url": "https://huggingface.co/papers/2609.26781",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness fra…",
+      "score": 5
     },
     {
       "id": "596f8de5705e",
@@ -86,12 +46,52 @@
       "score": 5
     },
     {
-      "id": "fc448d91d1cc",
-      "title": "Geometric and Semantic Coupling for Interaction Understanding in 3D Scenes",
-      "url": "https://huggingface.co/papers/2609.25247",
+      "id": "5bcb448bed66",
+      "title": "Blaming Across the Aisle: Political Contrasting and Blame Attribution in the Danish Parliament",
+      "url": "https://huggingface.co/papers/2609.26346",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "Political discourse is widely perceived to be growing more hostile, yet robust evidence remains scarce. This study exam…",
+      "score": 4
+    },
+    {
+      "id": "76dcc8f550f3",
+      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+      "url": "https://huggingface.co/papers/2609.26550",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical a…",
+      "score": 2
+    },
+    {
+      "id": "3e727a807a4d",
+      "title": "RoboFollow: Unveiling the Instruction Following Mirage in Embodied Agents",
+      "url": "https://huggingface.co/papers/2609.25636",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "Modern embodied agents achieve impressive success rates, yet their actual instruction-following ability is far weaker t…",
+      "score": 2
+    },
+    {
+      "id": "e486bf52237e",
+      "title": "ImIR: Image-Instruction Tuning for All-in-One Image Restoration",
+      "url": "https://huggingface.co/papers/2609.25267",
       "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Interaction understanding in 3D scenes requires a joint description of movable parts, their motion, and the regions thr…",
-      "score": 3
+      "summary": "Degradations vary widely across images, so a practical restoration system has to handle many degradation types with one…",
+      "score": 2
+    },
+    {
+      "id": "552dd9dc4d28",
+      "title": "Embedding Physics Priors in Robot Learning: A Survey",
+      "url": "https://huggingface.co/papers/2609.22319",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of learning-based app…",
+      "score": 0
+    },
+    {
+      "id": "312d916e8f5f",
+      "title": "LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay",
+      "url": "https://huggingface.co/papers/2609.25053",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "summary": "Can one language model hand its live memory to another without the receiver rereading the context? We demonstrate usefu…",
+      "score": 0
     },
     {
       "id": "85569536e472",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-23T08:33:49.764Z",
+  "fetchedAt": "2026-09-23T13:51:24.276Z",
   "stale": false,
   "error": null
 }
