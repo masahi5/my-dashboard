@@ -2,6 +2,24 @@
   "handle": "hillbig",
   "tweets": [
     {
+      "id": "2102907505651359760",
+      "url": "https://x.com/hillbig/status/2102907505651359760",
+      "text": "Score Centering Stabilizes Off-policy Reinforcement Learning arxiv.org/abs/2609.20807",
+      "publishedAt": "2026-09-23T23:46:34.000Z",
+      "authorHandle": "hillbig",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2102907388735246784",
+      "url": "https://x.com/hillbig/status/2102907388735246784",
+      "text": "LLMの強化学習では、ロールアウトを生成するサンプラーと、勾配を計算するトレイナーの間に、量子化、カーネル、浮動小数点演算、あるいはサンプラーの更新遅延（staleness）などによるずれが生じる。このため、実際の学習は厳密にはoff-policy強化学習となる。\n\nこのtraining-inference mismatch（TIM）による学習の不安定性は大きな問題となっていたが、Score Centeringと呼ばれる単純な方法によって大きく改善できることが示された。\n\n通常のPolicy GradientはRを報酬、p_θを方策、θをパラメータとした時、\n\n∇_θ E{p_θ}[R]\n= E_{p_θ}[R ∇_θ log p_θ(y)]\n= E_{p_θ}[R s]\n\nここで定義された\ns = ∇_θ log p_θ(y)\nをscoreと呼ぶ。\n\non-policyであれば、このscoreには\n\nE_{y∼p}[s]\n= E_{y∼p}[∇_θ log p_θ(y)]\n= 0\n\nという性質がある。\n\nところが実際には、ロールアウトはサンプラーqから生成され、勾配はトレイナーpで計算される。このとき一般には\nE_q[s] ≠ 0\n\nとなる。\n\nこのとき方策勾配は\n\nE_q[Rs]\n= E_q[R] E_q[s] + Cov_q(R, s)\n\nと分解できる。この分解が最も重要な知見である。\n\n第二項のCov_q(R, s)は、どのトークンの選択が高い報酬につながったかを表す、本来の学習シグナルである。一方、第一項のE_q[R]E_q[s]は、個々のトークンと報酬の関係によらず一定方向への更新を生み出す。著者らはこれをdriftと呼んでいる。\n\nこの、E_q[s]を書き下したとき、\ns' = E_q[∇_θ log p_θ]\n\nは、サンプラーqを教師としてトレイナーpをフィットする方向の勾配となっており、トレイナーをサンプラーに近づける蒸留と同じ効果を持つ。\n\nサンプラーが固定されているのであれば、このような蒸留は大きな問題にはならない。\nしかし、実際のオンラインRLでは、トレイナーが更新されると、そのモデルが再びサンプラーとして使われる。\nこのため、サンプラーにbiasが入っていると、そのbiasをトレイナーが学習し、そのトレイナーから再びbiasを持ったサンプラーが作られるというフィードバックが生じる。こうしたdriftが繰り返し蓄積することで、RL学習が崩壊すると考えられる。\n\nこれを防ぐため、Score Centeringではscoreそのものを中心化し、更新時にsの代わりにs - s'を用いる。\n\nするとE_q[s - s'] = 0となるため、drift項が消え、本来欲しかった報酬とscoreの共分散による学習シグナルだけが残る。\n\nこれと同様に、分布の違いを補正する一般的な方法としてimportance sampling（重要度サンプリング）がある。importance samplingではp/qという比を用いてサンプリング分布の違いを補正するが、pとqが大きく異なるとimportance weightが大きくなり、勾配の分散が増大するという問題がある。そのため、実際にはclippingやmaskingが必要になる。\n\n一方、Score Centeringはscoreに対する加法的な補正であり、importance weightを直接掛けないため、このような分散増大を避けることができる。\n\nまた、scoreの平均s'を正確に計算するには全語彙にわたる確率分布が必要になるが、これは保存コストが大きい。そこで論文では、サンプラーのtop-kのlog probabilityだけを保存し、残りのtailをトレイナーの分布から近似している。実験では主にk=128を用いているが、k=32でも全語彙を用いた場合とほぼ同等の性能が得られている。\n\n一方、Score Centeringはoff-policy性そのものを完全に補正するわけではない。Score Centeringによってdriftを取り除いた後も、学習シグナルはサンプラーqの分布の下で計算されたCov_q(R, s)であり、本来のトレイナーpの分布とは異なる。\n\nそのため、サンプラーが長時間更新されず、pとqが大きく離れるstalenessの大きい状況では、Score Centering単独でなくimportance samplingと組み合わせた方が高い性能を示し、相補的に利用できることが示されている。\n\nコメント\n===\nLLMの強化学習について様々な知見や改良が積み重なっているが、今回のScore Centeringは、学習が崩壊する原因の一つを明確に特定するとともに、それを取り除く単純かつ有効な手法を提案している点で重要だと考えられる。\n\nまた、強化学習に限らず、オンライン学習とオフライン学習で挙動が大きく異なることを示した実験も興味深い。\n例えば、オフライン学習では、報酬が+1/0のように非負の場合には安定して学習できる一方、負の報酬を含めたり、報酬をcenterした場合には学習が不安定になる。これに対してオンライン学習では逆に、+1/0の報酬が最も不安定で、group-centered rewardが最も安定している。\n\nこれは、オンライン学習では学習した結果が次のサンプリングに即座に反映されるためであり、固定されたデータを学習するオフライン学習とは異なり、一度生じたbiasが次のデータ生成にも反映され、それがさらに学習されるというフィードバックループが形成されるためである。",
+      "publishedAt": "2026-09-23T23:46:06.000Z",
+      "authorHandle": "hillbig",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2101098679985991701",
       "url": "https://x.com/hillbig/status/2101098679985991701",
       "text": "Matlantisユーザーカンファレンスにご出演いただき、ありがとうございました！おかげさまで大変盛り上がりました。\n\nちなみに、最初のクイズは私も間違えました。",
@@ -72,27 +90,9 @@
       "authorHandle": "hillbig",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2098193798727909780",
-      "url": "https://x.com/hillbig/status/2098193798727909780",
-      "text": "DeepSeek-V4.1-Flashは、Long-horizonエージェント向けに多くの改良が施されたモデルである。\n\n552BパラメータのMoEであり、Prefill時には約8B、Decode時には16Bパラメータをアクティブにする。さらにEngramとして196Bパラメータを持ち、Transformer本体は40層からなる。長い入力のPrefillでは主に下半分の20層を使い、Decode時には40層全体を使う。\n\n特に大きく変わったのが、KVキャッシュをどのように生成・保存・再利用するかである。Causal Encoder-Decoder（CED）を採用し、AttentionにはSliding Window Attention（SWA）とCompressed Sparse Attention 2（CSA2）を組み合わせている。\n\nマルチモーダルにもネイティブに対応、Vision Encoderは独自のDeepSeek-ViTを学習しており、2D RoPEやlinear projectionを採用する。\nPatch EmbeddingをConvolutionではなくlinear projectionにしている理由の一つとして、Muon optimizerとの整合性が挙げている。またMoEのロードバランシングでは、テキストtokenと画像tokenで別々の補正バイアスを持たせている。\n\nアーキテクチャとして今回の目玉が、Causal Encoder-Decoder（CED）の採用である。\n\nLong-horizonエージェントでは入力コンテキストが非常に長くなり、Prefillの計算コストが大きな問題になる。CEDは20層のCausal Encoderと20層のDecoderから構成され、Encoder最終層の隠れ状態からDecoder各層のglobal KVを直接生成する。\n\nつまり、Decoder各層のglobal KVを作るために、長い入力tokenをDecoderの20層すべてに通すさず、長いコンテキストではPrefill計算量をほぼ半分にできる。\n\nただし、Sliding Window AttentionのKVは各Decoder layer固有であるため、Decode開始時にはその状態を再構成する必要がある。\nこのとき、SWAの窓幅は128 tokenだが、層をまたいで依存関係が伝播するため、状態を厳密に復元しようとすると、本来は窓幅×層数に相当する範囲をReplayする必要がある。そこでSWA Bounded Replayでは、全層について最近の128 tokenだけをReplayして近似的に状態を復元する。実験上、この近似による性能低下はほとんどなかったという（実用上、再現ができないとかの問題はでるかも）\n\nKVキャッシュは、現在Decodeしているリクエストが利用するruntime KVと、prefix reuseのために長期間保存するpersistent KVに分けられる。後者はSSDやホストメモリに保存される。\nまた、SWA KVをpersistent KV cacheには保存しない。SWA KVは短時間だけホストDRAM上に保持し、cache missした場合にはSWA Bounded Replayによってtoken列から再構成する。これによりpersistent KV cacheの容量を大きく削減している。\n\nまたCSA2では、KVキャッシュの圧縮について、これまで進められてきた特徴次元方向の圧縮（MQA、GQA、MLA）や系列方向の圧縮（複数tokenをまとめて圧縮）に加えて、層方向の圧縮に取り組んでいる。\n具体的には、CSA2にはFull、Reindex、Reuseという3種類のモードがある。\nFull Modeでは、その層自身がMain KVとIndexer Q/Kを生成し、Top-K indicesを新たに計算する。\nReindex Modeでは、Main KVとIndexer Kを前の層から再利用する一方、その層自身のIndexer Qを使って再度スコアリングし、新しいTop-K indicesを選択する。\nReuse Modeでは、Main KVだけでなくTop-K indicesも前の層から再利用し、Indexerによる検索自体を省略する。\nなお、いずれのモードでも各層固有のMain QとSWA KVは計算する。\n\nさらにDecoderではHierarchical Sparse Indexerを使う。最初のFull layerだけが全コンテキストを検索し、8 tokenを1 blockとして最大2,048 blockを選択する。これにより、\n8 × 2,048 = 16,384 token\nのcandidate poolを作った上で、それ以降のReindex layerでは、100万token全体ではなく、この約16K tokenだけを検索対象とし、最終的にTop-512のKVを選択してAttentionを行う。\n\nしたがって、\n1M token → 約16K candidate → Top-512\nという二段階のsparse retrievalになっている。\n\nmHCについても推論効率化が行われている。従来のmHCでは、その層のresidual streamから入力混合係数 A_l を計算してから同じ層の入力混合に使っていたため、処理間に依存関係があり、activationを複数回読み出す必要があった。\nSingle-Pass mHCでは、この入力混合に一つ前のblockで計算した係数 A_{l-1} を使うように変更する。これによって依存関係を解消し、residual update、input mixing、coefficient predictionなどを1つのfused kernelで処理できる。性能低下はほとんどなく、activation memory trafficを大きく削減できる。\n\nまたDeepSeek-V3で使われていたMTPはbackboneの事前学習には使用せず、backbone pre-training終了後にDSparkというspeculative decoding moduleを別途学習する。DSparkでは1回のforwardで5つのdraft positionを並列に予測し、confidenceに応じて何tokenまでまとめてverifyするかを動的に決める。\n\n事前学習もいろいろ書かれている中で注目されるのは、batch sizeが約100M tokenと非常に大きいこと。また、Dense Attentionから徐々にSparse Attentionへ移行するのではなく、最初から64K contextのSparse Attentionでfrom scratch学習している。34T tokenの時点でcontext lengthを1M tokenまで拡張している。\n\nコメント\n===\nLong-horizonエージェントを効率的に実行するための工夫を、モデルアーキテクチャからKVキャッシュ、推論システムまで広範囲に取り入れたモデルである。これらの工夫は推論だけでなく、長いtrajectoryを大量に生成するRLやPretrain学習時にも大きな恩恵がある。\n\nPrefillをEncoderとDecoderに分離する考え方自体はYoCoなどですでに提案されていたが、それがこの規模の実用モデルに搭載され、再注目されるきっかけとなるのではないか。\n\nまた、すべての状態をGPUのHBMに保持するのではなく、用途に応じてホストメモリやSSDを積極的に利用する設計思想は徹底しており、パラメータについてはEngramをホストメモリからprefetchし、KVキャッシュについても長期保存が必要なglobal KVと、短時間しか再利用されないSWA KVを分離して管理している。\n\n一方で、このTechnical Reportには十分なAblationがなく、どの設計がどの程度性能や効率に寄与しているのか、またどのようなトレードオフのもとで他の選択肢から現在の構成を選んだのかは十分には分からない。\nそれでも、これらの採用した方針は今後の大規模モデル開発に影響を与えるだろう。",
-      "publishedAt": "2026-09-10T23:35:58.000Z",
-      "authorHandle": "hillbig",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2097814008455938081",
-      "url": "https://x.com/hillbig/status/2097814008455938081",
-      "text": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views　arxiv.org/abs/2609.04180",
-      "publishedAt": "2026-09-09T22:26:49.000Z",
-      "authorHandle": "hillbig",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-23T21:31:45.541Z",
+  "fetchedAt": "2026-09-23T23:58:26.438Z",
   "stale": false,
   "error": null
 }
