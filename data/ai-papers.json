@@ -6,11 +6,11 @@
   "category": "ai",
   "items": [
     {
-      "id": "1c42987a6248",
-      "title": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
-      "url": "https://huggingface.co/papers/2609.13814",
-      "publishedAt": "2026-09-12T00:00:00.000Z",
-      "summary": "Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken di…",
+      "id": "e959a81c3e20",
+      "title": "RULER: Instance-aware Rubric Rewards for SVG Generation",
+      "url": "https://huggingface.co/papers/2609.25270",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolut…",
       "score": 13
     },
     {
@@ -22,12 +22,28 @@
       "score": 8
     },
     {
-      "id": "79ec42b8022f",
-      "title": "The Functionalizer: Lossless Functional Decomposition for Subword Tokenization",
-      "url": "https://huggingface.co/papers/2609.15991",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo…",
+      "id": "cc301830807e",
+      "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2609.24657",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Language models can be adapted by changing the computations applied to individual tokens. Quantum circuits offer one su…",
       "score": 7
+    },
+    {
+      "id": "2a4bb8c0323e",
+      "title": "From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health",
+      "url": "https://huggingface.co/papers/2609.25186",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "The rising global prevalence of mental health conditions, together with longstanding barriers in traditional healthcare…",
+      "score": 7
+    },
+    {
+      "id": "50e6cf13fe3a",
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "url": "https://huggingface.co/papers/2609.26796",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enab…",
+      "score": 5
     },
     {
       "id": "3621d7edbca1",
@@ -38,71 +54,55 @@
       "score": 5
     },
     {
-      "id": "fc594974fb36",
-      "title": "SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness",
-      "url": "https://huggingface.co/papers/2609.06052",
-      "publishedAt": "2026-09-05T00:00:00.000Z",
-      "summary": "Autonomous agent systems increasingly depend on reusable skill abstractions for consolidating experiential knowledge an…",
-      "score": 4
-    },
-    {
-      "id": "0c13416f703a",
-      "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal",
-      "url": "https://huggingface.co/papers/2609.21996",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Large language models can hold knowledge they do not report. A model may sandbag on a capability evaluation, or answer …",
-      "score": 4
-    },
-    {
-      "id": "2ee082a7fb67",
-      "title": "Complex KDA: Understanding and Enhancing the Expressivity of Kimi Delta Attention",
-      "url": "https://huggingface.co/papers/2609.24797",
+      "id": "f88fce70f418",
+      "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
+      "url": "https://huggingface.co/papers/2609.24981",
       "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Linear RNNs based on the delta-rule enable efficient sequence modeling, but their linear updates with a low-rank correc…",
-      "score": 4
-    },
-    {
-      "id": "e0c072a86d55",
-      "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
-      "url": "https://huggingface.co/papers/2609.20758",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "summary": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task …",
+      "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generato…",
       "score": 3
     },
     {
-      "id": "ec9fb9a04124",
-      "title": "EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation",
-      "url": "https://huggingface.co/papers/2609.24115",
+      "id": "68aa9eb4bbc5",
+      "title": "Recursive self-improvement of AI research agents",
+      "url": "https://huggingface.co/papers/2609.26457",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "AI agents are beginning to automate research and development across the AI stack, from improving training efficiency to…",
+      "score": 3
+    },
+    {
+      "id": "7ca4d30af0db",
+      "title": "The information geometry of large language models is shared, learned, and controllable",
+      "url": "https://huggingface.co/papers/2609.11063",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "summary": "Large language models learn similar behaviours, yet it remains unclear what structure they share or how to change one b…",
+      "score": 3
+    },
+    {
+      "id": "8c078cbad7b0",
+      "title": "Bellman Policy Optimization",
+      "url": "https://huggingface.co/papers/2609.15987",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) improves the reasoning capabilities of large language models (LLM…",
+      "score": 1
+    },
+    {
+      "id": "fc448d91d1cc",
+      "title": "Geometric and Semantic Coupling for Interaction Understanding in 3D Scenes",
+      "url": "https://huggingface.co/papers/2609.25247",
       "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Tool-calling LLM agents are increasingly deployed in enterprise applications. However, effective evaluation and optimiz…",
-      "score": 2
+      "summary": "Interaction understanding in 3D scenes requires a joint description of movable parts, their motion, and the regions thr…",
+      "score": 0
     },
     {
-      "id": "7cf61911876e",
-      "title": "ShieldVLA: Feasibility-Aware Safety Alignment for Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2609.13231",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
-      "summary": "Vision-Language-Action (VLA) models demonstrate strong generalization in robotic manipulation and navigation, but exist…",
-      "score": 2
-    },
-    {
-      "id": "5ab30196a75b",
-      "title": "UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing",
-      "url": "https://huggingface.co/papers/2609.23169",
-      "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "High-quality texture generation is essential for creating realistic and production-ready 3D assets. Recent multi-view d…",
-      "score": 1
-    },
-    {
-      "id": "b155201a32e7",
-      "title": "TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision",
-      "url": "https://huggingface.co/papers/2609.20869",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of Active Perception), a structured repre…",
-      "score": 1
+      "id": "6f06ef95e4ac",
+      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "url": "https://huggingface.co/papers/2609.25165",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "In this report, we introduce Ovis-Embedding, a state-of-the-art omni-modal embedding family built on native integration…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-22T23:49:13.244Z",
+  "fetchedAt": "2026-09-23T03:07:52.433Z",
   "stale": false,
   "error": null
 }

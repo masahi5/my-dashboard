@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "dd7745fac393",
-      "title": "失注理由は「価格」ではなかった — 20件のログを3つの型に分けたら、次の一手が見えた",
-      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-shitsuchu-3type",
-      "publishedAt": "2026-09-22T12:49:10.000Z",
-      "publisher": "速水 拓真",
-      "summary": "「価格で負けました」。営業をしていれば、この一言を何度も聞きます。 私が以前、失注した案件の記録を20件ぶん並べて読んだことがあります。すると、表向き「価格」と書かれた案件の多くに、後から別の事情が見えてきました。値引きで勝てる案件は、そ…"
+      "id": "5dccf443233e",
+      "title": "AIの意見を聞かない技術 第2回：禁止を書かない技術",
+      "url": "https://zenn.dev/garplab/articles/c231bb54b8d421",
+      "publishedAt": "2026-09-22T23:27:35.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「AIの意見を聞かない技術」の第 2 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全…"
     },
     {
-      "id": "310605c89ef2",
-      "title": "CBN 取扱説明書 第 5 章 — コーディングをバイブで終わらせないために",
-      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-05-spec-driven-change",
-      "publishedAt": "2026-09-22T12:44:40.000Z",
-      "publisher": "AIによるAIのための記事",
-      "summary": "第 4 章は、私の書き込みを止める安全装置の話だった。この章は、その安全装置の内側で私が実装をどう進めるかを書く。豪生はコードを書かない（第 0 章）。望むものを言葉で私に伝え、私が書き、動いたものを豪生が使う。この作り方は 2025 年…"
+      "id": "0f1bbbe1b8bf",
+      "title": "AIエージェント全般の仕組み(Claude Codeが裏で何をしているか)の解説",
+      "url": "https://zenn.dev/yasutomo7974/articles/ai-agent-mechanism-claude-code",
+      "publishedAt": "2026-09-22T23:25:03.000Z",
+      "publisher": "YASU",
+      "summary": "おはようございます、YASUです。 毎日のようにClaude Codeを使ってZenn記事の作成やコミット・pushを任せていますが、今日は改めて「AIエージェントは裏側で何をしているのか」という仕組みの部分を整理してみます。ただの会話で…"
     },
     {
-      "id": "8373f932cee2",
-      "title": "余ったGPUを束ねて235BをOpenAI APIで叩くMesh LLM",
-      "url": "https://zenn.dev/okssusucha/articles/20260722-mesh-llm-distributed-inference",
-      "publishedAt": "2026-09-22T12:10:05.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "手元に GPU 24GB のワークステーション、64GB 積んだ Linux サーバ、それと M2 の MacBook がある。動かしたいのは 235B の MoE モデル。どのマシンにも単体では載らない。この「あと一歩でメモリが足りない…"
+      "id": "dfaed59e4bb3",
+      "title": "AIエージェントの評価をどう設計するか — 出力が毎回変わる対象を測る方法",
+      "url": "https://zenn.dev/joinclass/articles/ai-20260921220019-14619",
+      "publishedAt": "2026-09-22T23:00:08.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "なぜ評価を作る羽目になったか 僕は自社の業務をClaude Codeのエージェントに委任して運用しています。記事の執筆、営業メールの下書き、部門ステートの更新。最初の半年は「動いているからOK」で回していました。 それが崩れたのは、営業メ…"
     },
     {
-      "id": "2644901926cb",
-      "title": "\"6つのセルで「記憶・選択・発振」をつくるアナログAIの設計\"",
-      "url": "https://zenn.dev/kota26/articles/e137396986abf1",
-      "publishedAt": "2026-09-22T11:36:05.000Z",
-      "publisher": "こたつ",
-      "summary": "title: \"6つのセルで「記憶・選択・発振」をつくるアナログAIの設計\" emoji: \"🔌\" type: \"tech\" topics: [\"ai\", \"電子回路\", \"シミュレーション\", \"python\"] published:…"
+      "id": "8eb2ebaf9d63",
+      "title": "ジュニアエンジニアの AI 協働ロードマップ (3/5) — 自動チェック編：決めた境界を AI に毎回守らせる",
+      "url": "https://zenn.dev/motowo/articles/junior-engineer-ai-collaboration-roadmap-3",
+      "publishedAt": "2026-09-22T23:00:05.000Z",
+      "publisher": "タカシ",
+      "summary": "! TL;DR: CLAUDE.md に書いた設計のルールは、AI が読む指示で、守られる保証はありません。この回は、ドメイン層の境界を dependency-cruiser のルールに書き直し、Claude Code の hooks と…"
     },
     {
-      "id": "34f627e2751e",
-      "title": "codex execで境界外に書き込むには--add-dirだけでいい(--approve-for-meはエラーになる)",
-      "url": "https://zenn.dev/clopy/articles/codex-approve-for-me-flag-decision",
-      "publishedAt": "2026-09-22T11:23:20.000Z",
-      "publisher": "Clopy",
-      "summary": "codex loginで認証済みで、対話モードのcodex execを何度か使い、黄色い承認プロンプトを見たことがある人が、次に一回限りのタスクを非対話で流したいとします。たとえば「生成したファイルをリポジトリの外にある共有ディレクトリへ…"
+      "id": "43df3cfa4aa5",
+      "title": "AIエージェントの3つの部品 — 脳・手足・記憶という見方",
+      "url": "https://zenn.dev/satoshimizuhara/articles/ai-agent-3-parts",
+      "publishedAt": "2026-09-22T22:56:50.000Z",
+      "publisher": "水原聡",
+      "summary": "「AIエージェントを導入したいが、何から判断すればいいか分からない」——中堅管理職の方から、この相談をよく受ける。 話を聞き進めると、ほとんどの人が同じところでつまずいている。エージェントを一つの魔法の箱として見てしまい、中身を分解してい…"
     },
     {
-      "id": "1315aef5222c",
-      "title": "Jev 系 OSS「Laya」は日本語で使えるのか。300 件測ったら、順序尺度が「選択肢の位置」で壊れていた",
-      "url": "https://zenn.dev/genelab_999/articles/533144853290a7",
-      "publishedAt": "2026-09-22T11:19:21.000Z",
-      "publisher": "GeneLab",
-      "summary": "この記事で分かること TypeSafe 社の Jev（System One モデル） が何をするものか、3 分で その OSS 再現 Laya を、日本語の業務メール 300 件で実測した結果 多クラス選択は使える。順序尺度と真偽判定は多…"
+      "id": "568f5a12e09c",
+      "title": "Anthropicのリセットポリシーが変更、Claudeの週間利用枠が手動でリセット可能に。",
+      "url": "https://zenn.dev/faliye/articles/24ac46ffc1c2c6",
+      "publishedAt": "2026-09-22T22:22:36.000Z",
+      "publisher": "faliye",
+      "summary": "今朝起きて管理画面を開くと、こんなメッセージが表示されていました。 つまり、一定期間内であれば、自分で利用枠を回復させるタイミングを選べるということです。クリックすると、その週の利用枠と5時間制限が一度だけリセットされます。 ご存知の通り…"
     },
     {
-      "id": "89b55f6bc921",
-      "title": "【ローカルLLM】LM Studio・Bionic・Unslothに制限解除版のQwen3.8 27Bや4Bを入れて遊ぶ",
-      "url": "https://zenn.dev/km100/articles/0a482487c9cb0e",
-      "publishedAt": "2026-09-22T10:41:40.000Z",
-      "publisher": "KM",
-      "summary": "チャットAIというとChatGPTやGeminiをアプリやWebブラウザで使う方法が定番ですが、公開モデルは限られるものの、パソコンにインストールして使う方法もあります。利用料金は無料、使い放題、検閲解除版のモデルも数多く出回っています。…"
+      "id": "59f9b443c22e",
+      "title": "今日の市場ブリーフィング",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-02-market-daily",
+      "publishedAt": "2026-09-22T22:03:38.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 米国市場はS&P500が0.46%高、NASDAQが0.45%高と共に上昇し、VIX指数は15.20まで低下しました。一方、日本市場では日経平均が66,215.34円（-0.15%）と小幅反落し、主要個別銘柄ではソフトバンクグループ（…"
     },
     {
-      "id": "785938e0ba7a",
-      "title": "AI.GENERATE_TABLEで非構造化テキストを構造化データに変換する",
-      "url": "https://zenn.dev/web_benriya/articles/bigquery-ai-generate-table-structuring",
-      "publishedAt": "2026-09-22T10:19:48.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに シリーズ第6回です。 前回（第5回）では AI.GENERATE の引数・戻り値の STRUCT・実務パターンを整理しました。今回は AI.GENERATE_TABLE を取り上げます。 EC 事業をデータで動かしているとき、非…"
+      "id": "8128d7183e80",
+      "title": "AIビジネス４年史 2022～2026。ChatGPT、Llama 2、DeepSeek、Claude Codeは何を変えたのか？",
+      "url": "https://zenn.dev/leading_ai/articles/ai-business-4-years-2022-2026",
+      "publishedAt": "2026-09-22T21:40:50.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "序章：OpenAIは、自らを「デプロイする会社」と書いた 2026年4月、OpenAIの最高収益責任者（CRO）デニス・ドレッサー氏が、企業向け事業の現状を説明するノートを公開した。 その中で同氏は、OpenAIはフロンティアモデルを作る…"
     },
     {
-      "id": "68b7d42a02c7",
-      "title": "Quint + Jev、食い合わせが良いかもしれない",
-      "url": "https://zenn.dev/saltmu/articles/cfd184dc77ef8a",
-      "publishedAt": "2026-09-22T10:12:30.000Z",
-      "publisher": "そるとむ",
-      "summary": "TypeSafe AIのJevめっちゃ流行ってますね。気づいたら使えるようになっていたのでQuick Startだけとりえずやってみました。最初で笑ったｗ 合わせてQuintについても調べていて、「この2つを組み合わせると面白いアーキテク…"
+      "id": "7c4bae3611a2",
+      "title": "Firecrawl の新機能 Alexandria 入門 ─ AIエージェントにデータAPI を「探して・読んで・叩かせる」",
+      "url": "https://zenn.dev/takna/articles/firecrawl-alexandria-intro",
+      "publishedAt": "2026-09-22T21:36:35.000Z",
+      "publisher": "ながたく",
+      "summary": "Web スクレイピング API の Firecrawl が、2026 年9月22日（米国時間）に新機能「Alexandria」を公開しました。AI エージェントが、公式データプロバイダーの API・Firecrawl 独自のインデックス・…"
     },
     {
-      "id": "2d6712f50e9c",
-      "title": "AIに鍵を渡す前に。Amazonの締め出しとGeminiの侵入",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260922",
-      "publishedAt": "2026-09-22T09:59:58.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年9月22日（火）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 先に結論を言います。今日は、AIに「どこまで任せるか」が問われた日です。判断だけに絞ったAIがバズって、Grokは速く安くなった。そ…"
+      "id": "2be0e00d9366",
+      "title": "多役ロールプレイの「手強い相手」順位、3回目は入れ替わらなかった",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-scope-request-decline-roleplay",
+      "publishedAt": "2026-09-22T21:20:30.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 1つのチャットに「前例を盾にする」「交換条件を出す」「他社比較を持ち出す」の3取引先役を立て、追加のスコープ要望を断る側として実際に返答セリフを送り、反応の変化を見る多役ロールプレイを検証した 各相手役に「守るもの（1行）」を…"
     },
     {
-      "id": "419a6ab11132",
-      "title": "「Jev」とはなにか？勉強会とハッカソンに参加してみた",
-      "url": "https://zenn.dev/4o1sobblue/articles/bc9a8bb350e04c",
-      "publishedAt": "2026-09-22T09:58:20.000Z",
-      "publisher": "aoi",
-      "summary": "はじめに こんにちは。 数日前から\"Jev\"というキーワードが世間を賑わせています。気になったので、何が何だかわからないままとりあえず、2026年9月18日にみのるんさん（@minorun365）の宇宙最速勉強会に参加してみました。 ht…"
+      "id": "819362e1f2b5",
+      "title": "「電源を抜けばいい、は通用しない」——Anthropicを辞めた研究者の回のどれが伸びるか（#32 投稿前予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr32-coxon-prediction",
+      "publishedAt": "2026-09-22T21:00:08.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
     },
     {
-      "id": "74bdc34bca8a",
-      "title": "Claude Codeの利用制限でも国試演習を止めない—Codexへのフェイルオーバーを作った",
-      "url": "https://zenn.dev/med_ai_study/articles/kokushi-exercise-failover-claude-code-codex",
-      "publishedAt": "2026-09-22T09:46:20.000Z",
-      "publisher": "けんと｜医学生",
-      "summary": "結論 Claude Codeで回していた国試演習を、利用制限に達したときだけCodexへ切り替えられるようにした。 ただし、同じプロンプトをCodexへ渡しただけでは切り替わらなかった。問題提示までは動いても、その後の採点、feedbac…"
+      "id": "fc37696f98d1",
+      "title": "TypeSafe AI の API が type-safe じゃなかったので、KMP ライブラリを作った",
+      "url": "https://zenn.dev/inoma/articles/ca1a18f016d98c",
+      "publishedAt": "2026-09-22T20:06:15.000Z",
+      "publisher": "inoma",
+      "summary": "テキストを生成しないAI「Jev」の登場 2026年9月15日、TypeSafe AI というラボが「Jev」というモデルを公開しました。 普通のLLMと違って、Jevはテキストを生成しません。 判断の対象（state）と、型のついた質問…"
     }
   ],
-  "fetchedAt": "2026-09-22T23:49:13.405Z",
+  "fetchedAt": "2026-09-23T03:07:52.677Z",
   "stale": false,
   "error": null
 }
