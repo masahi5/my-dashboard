@@ -6,52 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "e959a81c3e20",
-      "title": "RULER: Instance-aware Rubric Rewards for SVG Generation",
-      "url": "https://huggingface.co/papers/2609.25270",
+      "id": "97c984af1452",
+      "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
+      "url": "https://huggingface.co/papers/2609.24058",
       "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolut…",
-      "score": 13
-    },
-    {
-      "id": "0b4ad7575eb2",
-      "title": "ACLArena: Agent Continue Learning in Multi-stage Post-training",
-      "url": "https://huggingface.co/papers/2609.23989",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Building general-purpose agents for industrial deployment requires integrating multiple capabilities, each typically ac…",
-      "score": 8
-    },
-    {
-      "id": "cc301830807e",
-      "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2609.24657",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Language models can be adapted by changing the computations applied to individual tokens. Quantum circuits offer one su…",
-      "score": 7
-    },
-    {
-      "id": "2a4bb8c0323e",
-      "title": "From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health",
-      "url": "https://huggingface.co/papers/2609.25186",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "The rising global prevalence of mental health conditions, together with longstanding barriers in traditional healthcare…",
-      "score": 7
-    },
-    {
-      "id": "50e6cf13fe3a",
-      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
-      "url": "https://huggingface.co/papers/2609.26796",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enab…",
-      "score": 5
-    },
-    {
-      "id": "3621d7edbca1",
-      "title": "Towards Full Pipeline FP8 Reinforcement Learning for LLMs",
-      "url": "https://huggingface.co/papers/2609.22870",
-      "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) has become a key technique for improving the reasoning and agentic abilities of large langu…",
-      "score": 5
+      "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages a…",
+      "score": 31
     },
     {
       "id": "f88fce70f418",
@@ -59,23 +19,15 @@
       "url": "https://huggingface.co/papers/2609.24981",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generato…",
-      "score": 3
+      "score": 31
     },
     {
-      "id": "68aa9eb4bbc5",
-      "title": "Recursive self-improvement of AI research agents",
-      "url": "https://huggingface.co/papers/2609.26457",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "AI agents are beginning to automate research and development across the AI stack, from improving training efficiency to…",
-      "score": 3
-    },
-    {
-      "id": "7ca4d30af0db",
-      "title": "The information geometry of large language models is shared, learned, and controllable",
-      "url": "https://huggingface.co/papers/2609.11063",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Large language models learn similar behaviours, yet it remains unclear what structure they share or how to change one b…",
-      "score": 3
+      "id": "cc301830807e",
+      "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2609.24657",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Language models can be adapted by changing the computations applied to individual tokens. Quantum circuits offer one su…",
+      "score": 18
     },
     {
       "id": "8c078cbad7b0",
@@ -83,15 +35,31 @@
       "url": "https://huggingface.co/papers/2609.15987",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "summary": "Reinforcement learning with verifiable rewards (RLVR) improves the reasoning capabilities of large language models (LLM…",
-      "score": 1
+      "score": 18
     },
     {
-      "id": "fc448d91d1cc",
-      "title": "Geometric and Semantic Coupling for Interaction Understanding in 3D Scenes",
-      "url": "https://huggingface.co/papers/2609.25247",
+      "id": "9b5220f57ff4",
+      "title": "StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training",
+      "url": "https://huggingface.co/papers/2609.26774",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image…",
+      "score": 15
+    },
+    {
+      "id": "38aa2cdcb874",
+      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+      "url": "https://huggingface.co/papers/2609.25804",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis…",
+      "score": 14
+    },
+    {
+      "id": "2a4bb8c0323e",
+      "title": "From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health",
+      "url": "https://huggingface.co/papers/2609.25186",
       "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Interaction understanding in 3D scenes requires a joint description of movable parts, their motion, and the regions thr…",
-      "score": 0
+      "summary": "The rising global prevalence of mental health conditions, together with longstanding barriers in traditional healthcare…",
+      "score": 14
     },
     {
       "id": "6f06ef95e4ac",
@@ -99,10 +67,42 @@
       "url": "https://huggingface.co/papers/2609.25165",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "summary": "In this report, we introduce Ovis-Embedding, a state-of-the-art omni-modal embedding family built on native integration…",
+      "score": 13
+    },
+    {
+      "id": "a54baaf9f52f",
+      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "url": "https://huggingface.co/papers/2609.25199",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+      "score": 7
+    },
+    {
+      "id": "596f8de5705e",
+      "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+      "url": "https://huggingface.co/papers/2609.24967",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable …",
+      "score": 5
+    },
+    {
+      "id": "fc448d91d1cc",
+      "title": "Geometric and Semantic Coupling for Interaction Understanding in 3D Scenes",
+      "url": "https://huggingface.co/papers/2609.25247",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Interaction understanding in 3D scenes requires a joint description of movable parts, their motion, and the regions thr…",
+      "score": 3
+    },
+    {
+      "id": "85569536e472",
+      "title": "ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning",
+      "url": "https://huggingface.co/papers/2609.22323",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Few-shot learning research is predominantly evaluated on accuracy alone, with limited attention to the parameter and tr…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-23T03:07:52.433Z",
+  "fetchedAt": "2026-09-23T08:33:49.764Z",
   "stale": false,
   "error": null
 }

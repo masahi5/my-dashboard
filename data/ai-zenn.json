@@ -6,38 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "5dccf443233e",
-      "title": "AIの意見を聞かない技術 第2回：禁止を書かない技術",
-      "url": "https://zenn.dev/garplab/articles/c231bb54b8d421",
-      "publishedAt": "2026-09-22T23:27:35.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「AIの意見を聞かない技術」の第 2 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全…"
-    },
-    {
-      "id": "0f1bbbe1b8bf",
-      "title": "AIエージェント全般の仕組み(Claude Codeが裏で何をしているか)の解説",
-      "url": "https://zenn.dev/yasutomo7974/articles/ai-agent-mechanism-claude-code",
-      "publishedAt": "2026-09-22T23:25:03.000Z",
-      "publisher": "YASU",
-      "summary": "おはようございます、YASUです。 毎日のようにClaude Codeを使ってZenn記事の作成やコミット・pushを任せていますが、今日は改めて「AIエージェントは裏側で何をしているのか」という仕組みの部分を整理してみます。ただの会話で…"
-    },
-    {
-      "id": "dfaed59e4bb3",
-      "title": "AIエージェントの評価をどう設計するか — 出力が毎回変わる対象を測る方法",
-      "url": "https://zenn.dev/joinclass/articles/ai-20260921220019-14619",
-      "publishedAt": "2026-09-22T23:00:08.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "なぜ評価を作る羽目になったか 僕は自社の業務をClaude Codeのエージェントに委任して運用しています。記事の執筆、営業メールの下書き、部門ステートの更新。最初の半年は「動いているからOK」で回していました。 それが崩れたのは、営業メ…"
-    },
-    {
-      "id": "8eb2ebaf9d63",
-      "title": "ジュニアエンジニアの AI 協働ロードマップ (3/5) — 自動チェック編：決めた境界を AI に毎回守らせる",
-      "url": "https://zenn.dev/motowo/articles/junior-engineer-ai-collaboration-roadmap-3",
-      "publishedAt": "2026-09-22T23:00:05.000Z",
-      "publisher": "タカシ",
-      "summary": "! TL;DR: CLAUDE.md に書いた設計のルールは、AI が読む指示で、守られる保証はありません。この回は、ドメイン層の境界を dependency-cruiser のルールに書き直し、Claude Code の hooks と…"
-    },
-    {
       "id": "43df3cfa4aa5",
       "title": "AIエージェントの3つの部品 — 脳・手足・記憶という見方",
       "url": "https://zenn.dev/satoshimizuhara/articles/ai-agent-3-parts",
@@ -100,9 +68,41 @@
       "publishedAt": "2026-09-22T20:06:15.000Z",
       "publisher": "inoma",
       "summary": "テキストを生成しないAI「Jev」の登場 2026年9月15日、TypeSafe AI というラボが「Jev」というモデルを公開しました。 普通のLLMと違って、Jevはテキストを生成しません。 判断の対象（state）と、型のついた質問…"
+    },
+    {
+      "id": "ed7b6c415404",
+      "title": "Jwenvをmy_web_appに組み込んで検証：候補8行のlm_headと支出14例をソフトウェアWebGPUで実測",
+      "url": "https://zenn.dev/kanta13jp1/articles/jwenv-webgpu-browser-system-one-guide",
+      "publishedAt": "2026-09-22T19:33:18.000Z",
+      "publisher": "kanta13jp1",
+      "summary": "はじめに 2026-09-22改訂：Jwenvを自作アプリに組み込んで実際に動かし、確認できた内容だけに書き直しました。旧版にあった誤り（デモが使う jev.js とプロンプト、候補トークンの扱い、語彙行列のサイズ、lm_headの計算量…"
+    },
+    {
+      "id": "5e1cd9234722",
+      "title": "LLM の応答を人間が一文字ずつ手打ちするタイピングゲームを作った",
+      "url": "https://zenn.dev/yumemi_inc/articles/you-are-llm-typing-trainer",
+      "publishedAt": "2026-09-22T18:34:19.000Z",
+      "publisher": "mpyw",
+      "summary": "! この記事も，紹介するアプリ本体も，ほぼ全て Claude Code に書かせています。 はじめに AI が書いた文章を，人間が一文字ずつ手で打ち写す。 字面だけ見ると何かの罰ゲームですが，タイピングの練習としては案外まともです。だって…"
+    },
+    {
+      "id": "9e755b8b3f38",
+      "title": "ルールを文書に足しても違反は減らなかった。コードに落とした8件だけ再発0だった",
+      "url": "https://zenn.dev/untactit/articles/1c73e33e12518f",
+      "publishedAt": "2026-09-22T18:29:15.000Z",
+      "publisher": "untactit",
+      "summary": "AIエージェントに守らせたいルールがある。まずAGENTS.mdに書く。守られない。もっと詳しく書く。まだ守られない。条文を増やす。 48日間そうやって運用した結果、常駐指示ファイルは 90KB から 147KB になりました。 そして違…"
+    },
+    {
+      "id": "c7e0c6b545fb",
+      "title": "「4体のAIで月100Kドル」系の投稿を、実際にAIで副業を回している立場で検証した(第3回)",
+      "url": "https://zenn.dev/ryu7865/articles/2026-09-23-ai-agent-side-business-03",
+      "publishedAt": "2026-09-22T17:40:43.000Z",
+      "publisher": "ry",
+      "summary": "SNSで、次のような投稿が回ってきました。 「Anthropicから、4体のAIエージェントが60分で月100Kドルを達成する事業の作り方を書いたファイルが漏洩」 「リサーチ係 → 設計係 → 作る係×2 → チェック係 → 最初に戻る。…"
     }
   ],
-  "fetchedAt": "2026-09-23T03:07:52.677Z",
+  "fetchedAt": "2026-09-23T08:33:49.810Z",
   "stale": false,
   "error": null
 }
