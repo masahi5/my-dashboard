@@ -6,52 +6,36 @@
   "category": "ai",
   "items": [
     {
-      "id": "3b2de427882b",
-      "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
-      "url": "https://huggingface.co/papers/2609.28466",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modelin…",
+      "id": "2f4e5f167446",
+      "title": "HappyWorld-Bench",
+      "url": "https://huggingface.co/papers/2609.24308",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Evaluating world models requires assessing both the quality of the worlds they generate and their consistency and respo…",
+      "score": 35
+    },
+    {
+      "id": "c0d810177fae",
+      "title": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
+      "url": "https://huggingface.co/papers/2609.23038",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world. Reasoning…",
       "score": 22
     },
     {
-      "id": "63207faca800",
-      "title": "RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling",
-      "url": "https://huggingface.co/papers/2609.22947",
-      "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) is vital for optimizing video generation models, with a robust reward model (RM) serving as…",
-      "score": 17
-    },
-    {
-      "id": "6d2011b36bed",
-      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
-      "url": "https://huggingface.co/papers/2609.26780",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term c…",
-      "score": 16
-    },
-    {
-      "id": "1b22573a3778",
-      "title": "PACT: From Credit Assignment to Critic Alignment",
-      "url": "https://huggingface.co/papers/2609.26355",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level cred…",
-      "score": 12
-    },
-    {
-      "id": "31472f2623f5",
-      "title": "Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?",
-      "url": "https://huggingface.co/papers/2609.27891",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "summary": "Repository-level coding benchmarks have become the standard for evaluating coding agents, yet they inherently suffer fr…",
-      "score": 10
-    },
-    {
-      "id": "6df594899a38",
-      "title": "WhatWorkedBench: Benchmarking Experimental Understanding in AI Agents",
-      "url": "https://huggingface.co/papers/2609.27490",
+      "id": "982514b8cdcb",
+      "title": "Just-in-Time Memory: Learning to Curate Task-Adaptive Memory for LLM Agents",
+      "url": "https://huggingface.co/papers/2609.27334",
       "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "AI research agents need reliable knowledge of how their experiments change outcomes. We introduce WhatWorkedBench to me…",
-      "score": 7
+      "summary": "Agentic memory systems reuse past experience to improve future performance, yet most existing designs curate memory at …",
+      "score": 13
+    },
+    {
+      "id": "f45385377117",
+      "title": "PackLab: A Comprehensive Framework for Developing, Training, and Evaluating MLLMs in Robotic Bin Packing",
+      "url": "https://huggingface.co/papers/2609.23784",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "summary": "Robotic bin packing requires long-horizon sequential decision-making, as each object placement affects the available sp…",
+      "score": 9
     },
     {
       "id": "0a7c306c31cf",
@@ -59,50 +43,66 @@
       "url": "https://huggingface.co/papers/2609.28256",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "summary": "Vision-Language-Action models provide a strong foundation for general-purpose robot control, yet a vast majority of pol…",
-      "score": 5
+      "score": 9
     },
     {
-      "id": "72cc3c936540",
-      "title": "Hunyuan-A13B Technical Report",
-      "url": "https://huggingface.co/papers/2609.27284",
+      "id": "1e2f86e5a127",
+      "title": "All modalities are equal, but video is more equal: Closing the Cross-Attention Gap in Joint Video Generation",
+      "url": "https://huggingface.co/papers/2609.27901",
       "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "We present Hunyuan-A13B, an open-source large language model based on a Mixture-of-Experts architecture. It contains 80…",
+      "summary": "Video is a rich representation of a physical event, capturing appearance, geometry, motion, and temporal evolution. Oth…",
       "score": 4
     },
     {
-      "id": "d6bb1134ad5a",
-      "title": "Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms",
-      "url": "https://huggingface.co/papers/2609.27321",
+      "id": "6ca66b1b22c3",
+      "title": "On the Diffusibility of High-Dimensional Latents",
+      "url": "https://huggingface.co/papers/2609.28473",
       "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Language-model agents increasingly face long-horizon tasks with evolving state, interdependent decisions, and delayed o…",
+      "summary": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encode…",
       "score": 2
     },
     {
-      "id": "840495679549",
-      "title": "InternW0: A Foundational Physical World Model for Efficient Real-World Interactions",
-      "url": "https://huggingface.co/papers/2609.27656",
+      "id": "c05d41394e76",
+      "title": "EmbodiedSWE: Coding Agents for Long Horizon Dexterous Robotics",
+      "url": "https://huggingface.co/papers/2609.27308",
       "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Physical intelligence requires more than predicting how the world may evolve: predictions must remain actionable as the…",
+      "summary": "We study coding agents for long-horizon, dexterous robotics and ask whether their solutions can provide scalable superv…",
       "score": 2
     },
     {
-      "id": "dc77c05d5030",
-      "title": "Tri-PvP: Exposing Modality Bias in Omni-Modal Large Language Models through Perceptual-Propositional Evidence Conflicts",
-      "url": "https://huggingface.co/papers/2609.06011",
-      "publishedAt": "2026-09-05T00:00:00.000Z",
-      "summary": "Omni-modal large language models (OLLMs) jointly process vision, audio, and text, yet their modality bias under cross-m…",
-      "score": 2
+      "id": "4abde2604a4a",
+      "title": "Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery",
+      "url": "https://huggingface.co/papers/2609.27980",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Pruning large pre-trained transformer-based ASR models such as OpenAI's Whisper has seen great adoption, as pruning the…",
+      "score": 1
     },
     {
-      "id": "26dfb79f4042",
-      "title": "HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis",
-      "url": "https://huggingface.co/papers/2609.26793",
+      "id": "95279efd0709",
+      "title": "Uranus: Building the Next-Generation Simulation Infrastructure for Embodied AI",
+      "url": "https://huggingface.co/papers/2609.24815",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Scalable simulation is essential for robot data generation, policy training, evaluation, and safe iteration, yet real-w…",
+      "score": 1
+    },
+    {
+      "id": "0572fa01b6b9",
+      "title": "MemoryAthena: Adaptive Routing over Latent and Generated Memories",
+      "url": "https://huggingface.co/papers/2609.25853",
       "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Compositional 3D scene reconstruction has recently been explored from two directions: agentic reasoning that provides s…",
-      "score": 0
+      "summary": "Learned-memory methods store information in an explicit table and consume it through a separate reader, allowing addres…",
+      "score": 1
+    },
+    {
+      "id": "ac5e4e27decf",
+      "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
+      "url": "https://huggingface.co/papers/2609.28470",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Artificial intelligence offers an unprecedented opportunity to augment human capabilities, yet progress at the frontier…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-24T03:55:04.532Z",
+  "fetchedAt": "2026-09-24T08:58:20.496Z",
   "stale": false,
   "error": null
 }

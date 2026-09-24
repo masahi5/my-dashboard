@@ -6,6 +6,46 @@
   "category": "ai",
   "items": [
     {
+      "id": "efd23fc8d4c9",
+      "title": "今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-02-tech-daily",
+      "publishedAt": "2026-09-23T22:32:25.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 本日のニュースでは、LLM単体の活用から「自律型AIエージェントの実装」およびそれを支える開発インフラの最適化へとトレンドが大きくシフトしていることが示されています。OpenAIによるPython開発ツールメーカー「Astral」の買…"
+    },
+    {
+      "id": "98eacc4ea029",
+      "title": "「2か所」は、数えたら8か所だった",
+      "url": "https://zenn.dev/hanamilo/articles/kazoezu-ni-susumu",
+      "publishedAt": "2026-09-23T22:30:06.000Z",
+      "publisher": "hanamilo",
+      "summary": "3番目に多かった型 前の記事で、半年分の失敗223件を7つの型に分けた、と書いた。 そのあとも記録は増えて、298件になった。型は12に増えた。 1位は変わらず「資料と実物の食い違い」で55件。2位が「確認せずに決めつける」で46件。 3…"
+    },
+    {
+      "id": "9e7c614cdac4",
+      "title": "Claude Codeの会話ログは既定30日で消える：cleanupPeriodDaysの確認と集計の組み方",
+      "url": "https://zenn.dev/kujira_ai/articles/a0d57ca2de4a63",
+      "publishedAt": "2026-09-23T22:14:08.000Z",
+      "publisher": "クジラ",
+      "summary": "Claude Code に自分の利用状況を集計させています。どの機能を何回使ったか、どんな失敗が何件あったか。元データはパソコンに残っている会話ログ（.jsonl）です。 先日、同じ条件で数え直したはずの件数が、数日前より減っていました。…"
+    },
+    {
+      "id": "53a33e2e84c1",
+      "title": "Claude Code の auto モードで止められた作業と、止められたときの決めごと",
+      "url": "https://zenn.dev/y3chi5z/articles/claude-code-auto-mode-classifier-blocks",
+      "publishedAt": "2026-09-23T22:12:03.000Z",
+      "publisher": "y43z",
+      "summary": "Claude Code を auto モードで使っています。1 つずつ許可を求められずに作業が進むので、業務システムの移行や記事の執筆など、長い作業を任せるときに便利です。 auto モードでは、実行しようとした操作を分類器が判定し、危な…"
+    },
+    {
+      "id": "3e04e5bf1af2",
+      "title": "HarnessRouter の「ハーネス切り替え」は何がうれしいのか ─ Hermes と比べて分かった、記憶を外に出す設計",
+      "url": "https://zenn.dev/takna/articles/harnessrouter-harness-switching",
+      "publishedAt": "2026-09-23T21:48:30.000Z",
+      "publisher": "ながたく",
+      "summary": "HarnessRouter は、Codex や Claude Code、Hermes といったエージェントハーネスを、自社サービスの裏側で 1 本の API から動かすための中継基盤です。この記事では、普段 Hermes Agent を …"
+    },
+    {
       "id": "04fd79845170",
       "title": "AIソフトウェア工場の設計——要求から本番運用までをつなぐアーキテクチャ",
       "url": "https://zenn.dev/hampen2929/books/ai-software-factory-architecture",
@@ -60,49 +100,9 @@
       "publishedAt": "2026-09-23T16:47:34.000Z",
       "publisher": "circle",
       "summary": "大きな設計を1人で考えていると、自分に出せる発想の範囲でしか案が広がらないと感じることがあります。もっと良い案を、自分の外から引き出したいという欲求です。普段の実装は Claude でやっていますが、設計の骨格だけは Gemini に出さ…"
-    },
-    {
-      "id": "391a29ad1be3",
-      "title": "Claude Codeのスラッシュコマンド一覧（公式ドキュメントの114個・2026年9月時点）",
-      "url": "https://zenn.dev/lbfuvuvxb/articles/claude-code-slash-commands-114",
-      "publishedAt": "2026-09-23T16:43:04.000Z",
-      "publisher": "4415",
-      "summary": "私がふだん使っている / コマンドは、/clear、/compact、/code-review の3つだけです。ほかにどんなコマンドがあるのか、公式ドキュメントを読んで一覧にしました。 Claude Codeの入力欄で / を打つと、コマ…"
-    },
-    {
-      "id": "6d7ca559d31d",
-      "title": "Lean 4でAIが提案した定理名が見つからないときの確認手順",
-      "url": "https://zenn.dev/matsuteru/articles/lean4-unknown-identifier",
-      "publishedAt": "2026-09-23T16:07:38.000Z",
-      "publisher": "tetsu",
-      "summary": "AIに証明を相談すると、それらしい定理名が返ってくることがあります。ところが、コードに貼り付けると Unknown identifier や Unknown constant。別の名前を聞き直しても、また同じエラーになる。 ここで一度、名…"
-    },
-    {
-      "id": "109a538d8694",
-      "title": "すべての条件分岐と比較をJevに任せるプログラミング言語 smart-if",
-      "url": "https://zenn.dev/aharisu/articles/c60b48889bc654",
-      "publishedAt": "2026-09-23T15:36:07.000Z",
-      "publisher": "aharisu",
-      "summary": "はじめに TypeSafe AIが発表したJevは一気に話題になりましたね 私もその話題に乗った一人です 技術の新規性だとか革新性だとかあれこれいろいろ聞きますが 速く安いということはそのほかのすべてに勝るメリットだと考えています なので…"
-    },
-    {
-      "id": "24eeb6c6f1bd",
-      "title": "【例題】生成AIパスポート60問｜第2回・2026年版・全選択肢解説付き",
-      "url": "https://zenn.dev/student_blog/articles/generative-ai-passport-mock-exam-2-2026",
-      "publishedAt": "2026-09-23T15:29:01.000Z",
-      "publisher": "〇まる　@資格ガチ勢になりたいインフラエンジニア",
-      "summary": "生成AIパスポートの2026年試験に向けた、第2回・60問のオリジナル模試です。第1回の60問と合わせて、合計120問を2回に分けて解けます。実際の試験問題や過去問を転載したものではありません。 第2回模試の対象と使い方 生成AI活用普及…"
-    },
-    {
-      "id": "248a2a164267",
-      "title": "AIの指摘を鵜呑みにしないための検証パイプラインを自作した話",
-      "url": "https://zenn.dev/iskandar_dev/articles/1f805d5c2a1712",
-      "publishedAt": "2026-09-23T15:28:28.000Z",
-      "publisher": "Iskandar Jajuri",
-      "summary": "以前、note.comに「報連相」という、日本の職場で学んだ習慣について書きました。AIの報告も、上司からの報告と同じように鵜呑みにしてはいけない、という話です。今回はその続きとして、実際にどういう仕組みでAIの指摘を検証しているかを、も…"
     }
   ],
-  "fetchedAt": "2026-09-24T03:55:04.761Z",
+  "fetchedAt": "2026-09-24T08:58:20.668Z",
   "stale": false,
   "error": null
 }
