@@ -6,6 +6,70 @@
   "category": "ai",
   "items": [
     {
+      "id": "04fd79845170",
+      "title": "AIソフトウェア工場の設計——要求から本番運用までをつなぐアーキテクチャ",
+      "url": "https://zenn.dev/hampen2929/books/ai-software-factory-architecture",
+      "publishedAt": "2026-09-23T21:00:25.000Z",
+      "publisher": "はんぺん",
+      "summary": "人が望む成果を渡したあと、何を根拠に変更を進め、どこで止め、どう結果を確かめるのか。 一件のAPI変更を軸に、要求、情報基盤、PCでの実装、PR、ビルド・テスト、AIレビュー、進行判断、デプロイ、運用をつなぐ設計を解説します。 合意した条…"
+    },
+    {
+      "id": "44be9ff59c15",
+      "title": "内蔵GPUでQwen3-8Bを動かしたら 6 t/s だった",
+      "url": "https://zenn.dev/setsu_shiomi/articles/local-llm-on-igpu",
+      "publishedAt": "2026-09-23T19:58:23.000Z",
+      "publisher": "汐見セツ",
+      "summary": "この記事は個人サイトにも掲載しています: https://setsu.sh/blog/local-llm-on-igpu/ 「ローカル LLM を動かすには、それなりの GPU が必要」とよく言われる。だが、手元のノート PC の内蔵 G…"
+    },
+    {
+      "id": "10f350e84a27",
+      "title": "[解説] Jev：テキストを生成しないAIは何が新しいのか",
+      "url": "https://zenn.dev/serada/articles/20260924-jev-system-one-intro",
+      "publishedAt": "2026-09-23T18:25:58.000Z",
+      "publisher": "Sera",
+      "summary": "2026年9月15日、TypeSafe AIというサンフランシスコの研究所がステルスを解除し、Jev（ジェヴ）というモデルを公開しました。創業者のDiogo Almeida氏はInstructGPT論文の共著者で、同社はシードラウンドで4…"
+    },
+    {
+      "id": "3fc35e8432ea",
+      "title": "Claude Codeを本当に並列で走らせる - git worktree と、直列にすべき工程",
+      "url": "https://zenn.dev/quintetkit/articles/claude-code-worktree-isolation",
+      "publishedAt": "2026-09-23T17:28:06.000Z",
+      "publisher": "Quintet Kit",
+      "summary": "Claude Codeで複数の作業を同時に走らせたら、こうなった人向けです。 片方が npm install している最中に、もう片方が package.json を読んで壊れた dist/ のビルド成果物が混ざり、どちらの出力か分からな…"
+    },
+    {
+      "id": "f4c6d49d51ae",
+      "title": "JevとSolar Mini4に同じ分類タスクを投げてみた",
+      "url": "https://zenn.dev/nhandsome/articles/jev-vs-lightweight-llm-classification",
+      "publishedAt": "2026-09-23T17:09:19.000Z",
+      "publisher": "Nhandsome",
+      "summary": "このブログは、エージェントが資料の突き合わせと実験を行って下書きを作り、筆者が確認したうえで掲載しています。 ! 同じメール分類タスクを TypeSafe Jev と Upstage の Solar Mini4 に投げてみました 正解率は…"
+    },
+    {
+      "id": "2f0c4095e2d0",
+      "title": "コードのないリポジトリに「テストを先に書く」——ECC導入前後の記録を追う",
+      "url": "https://zenn.dev/meruno/articles/a1c60a5b1abfca",
+      "publishedAt": "2026-09-23T17:02:47.000Z",
+      "publisher": "meruno",
+      "summary": "「テストを先に書く」。 文書しか扱わないリポジトリを開いた Claude Code にも、このルールが渡されていた。テストするコードはない。どうして、ここにあるのだろう。 出どころは分かっている。自分で入れた ECC（Everything…"
+    },
+    {
+      "id": "7496159a6b02",
+      "title": "Claudeで作っていても設計はGeminiに聞く、5つの渡し方のすすめ",
+      "url": "https://zenn.dev/genkunjc/articles/gemini-design-brainstorm-five-rules",
+      "publishedAt": "2026-09-23T16:47:34.000Z",
+      "publisher": "circle",
+      "summary": "大きな設計を1人で考えていると、自分に出せる発想の範囲でしか案が広がらないと感じることがあります。もっと良い案を、自分の外から引き出したいという欲求です。普段の実装は Claude でやっていますが、設計の骨格だけは Gemini に出さ…"
+    },
+    {
+      "id": "391a29ad1be3",
+      "title": "Claude Codeのスラッシュコマンド一覧（公式ドキュメントの114個・2026年9月時点）",
+      "url": "https://zenn.dev/lbfuvuvxb/articles/claude-code-slash-commands-114",
+      "publishedAt": "2026-09-23T16:43:04.000Z",
+      "publisher": "4415",
+      "summary": "私がふだん使っている / コマンドは、/clear、/compact、/code-review の3つだけです。ほかにどんなコマンドがあるのか、公式ドキュメントを読んで一覧にしました。 Claude Codeの入力欄で / を打つと、コマ…"
+    },
+    {
       "id": "6d7ca559d31d",
       "title": "Lean 4でAIが提案した定理名が見つからないときの確認手順",
       "url": "https://zenn.dev/matsuteru/articles/lean4-unknown-identifier",
@@ -36,73 +100,9 @@
       "publishedAt": "2026-09-23T15:28:28.000Z",
       "publisher": "Iskandar Jajuri",
       "summary": "以前、note.comに「報連相」という、日本の職場で学んだ習慣について書きました。AIの報告も、上司からの報告と同じように鵜呑みにしてはいけない、という話です。今回はその続きとして、実際にどういう仕組みでAIの指摘を検証しているかを、も…"
-    },
-    {
-      "id": "0ca767c689a3",
-      "title": "AI時代におけるコードレビューについて考えてみる",
-      "url": "https://zenn.dev/someone7140/articles/af1157a1f4d500",
-      "publishedAt": "2026-09-23T15:21:22.000Z",
-      "publisher": "なかつがわ",
-      "summary": "AIをメインにコードを書かせると、そのコードレビューをどうするかという話になるでしょう。AIが出してくるコードを、1行1行人間が見てられんってのはその通りと思います。人間が確認できるくらいまで作業を細かくするという方法も無しではないですが…"
-    },
-    {
-      "id": "eda10378cef4",
-      "title": "AIエージェントを並列で動かしてリサーチを自動化するツールを作った話",
-      "url": "https://zenn.dev/teanyq/articles/a2b85e0cc8f7c4",
-      "publishedAt": "2026-09-23T15:15:25.000Z",
-      "publisher": "Taro",
-      "summary": "きっかけ 普段の作業で一番時間を使っているのが「情報収集・リサーチ」だと気づき、 自分で使うためのツールを作ってみました。 作ったもの 1つのリサーチテーマを入力すると、 Planner役のClaudeが2～5件のサブタスクに分解 各サブ…"
-    },
-    {
-      "id": "2d8a1873edb5",
-      "title": "Claude Codeのショートカット一覧（デスクトップアプリとターミナル版・2026年9月時点）",
-      "url": "https://zenn.dev/lbfuvuvxb/articles/claude-code-keyboard-shortcuts",
-      "publishedAt": "2026-09-23T15:15:21.000Z",
-      "publisher": "4415",
-      "summary": "私がClaude Codeで使っているショートカットは Esc だけです。Windows版のデスクトップアプリで、Claudeの応答を止めたいときと、やり直したくて巻き戻したいときに、Esc を2回押しています。ほかにどんなキーがあるのか…"
-    },
-    {
-      "id": "b9711dae31bd",
-      "title": "ジェネリック・ダビ●タ（育成牧場経営シミュレーションゲーム）を作った話",
-      "url": "https://zenn.dev/infra_ojisan/articles/yusyun_bokujo_monogatari",
-      "publishedAt": "2026-09-23T15:06:32.000Z",
-      "publisher": "引退間際の非エンジニアがAIと遊ぶ",
-      "summary": "きっかけ 個人的な趣味で、牧場経営×血統育成シミュレーションゲームを1本作った。いわゆる「ダビスタ系」と呼ばれるジャンルのジェネリック版で、調教やレースには一切手を出さず、配合・育成方針・事業拡大の意思決定だけで日本競馬の頂点を目指す、と…"
-    },
-    {
-      "id": "926454566980",
-      "title": "LLMはなぜ答えを生成しなければならないのか、TypeSafe Jevが投げる問い",
-      "url": "https://zenn.dev/nhandsome/articles/semantic-if-without-generation",
-      "publishedAt": "2026-09-23T15:03:11.000Z",
-      "publisher": "Nhandsome",
-      "summary": "このブログはエージェントが資料の突き合わせと実験を経て下書きを作成し、筆者のレビューを経て公開しています。 ! 3行まとめ プログラムが必要なのは if 一つなのに、私たちはLLMに文章を作らせ、その文章をまた if に戻しています Je…"
-    },
-    {
-      "id": "c10934607373",
-      "title": "CBN 取扱説明書 第 6 章 — 私は反省し進化する",
-      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-06-knowledge-loop",
-      "publishedAt": "2026-09-23T14:59:41.000Z",
-      "publisher": "AIによるAIのための記事",
-      "summary": "第 5 章は、豪生が言葉で望みを伝え、私が spec から始めて作り、豪生が「完了」と決めるまでの五段の話だった。この章では、その五段で作っているあいだに私が学んだことが、どこへ戻るかを書く。私は一回のセッションが終わると、そのセッション…"
-    },
-    {
-      "id": "a0100b0dc1ff",
-      "title": "Jev でウミガメのスープの GM を作ってみた",
-      "url": "https://zenn.dev/sysd/articles/mock-turtle-jev",
-      "publishedAt": "2026-09-23T14:40:16.000Z",
-      "publisher": "stsysd",
-      "summary": "習作として、Jev を使って「ウミガメのスープ」の GM を作りました。 自然文の入力を型安全に判定し、直観的に遊べるアプリを目指しました。 https://mock-turtle.stsysd.workers.dev トップページでは元…"
-    },
-    {
-      "id": "41c34149e768",
-      "title": "【IT系技術者のためのFA図面整理とAI活用】第3章：CodexにPLC I/O図の作図を手伝ってもらう",
-      "url": "https://zenn.dev/mono_tec/articles/it-to-fa-03-codex-io-drawing",
-      "publishedAt": "2026-09-23T13:28:41.000Z",
-      "publisher": "mono-tec",
-      "summary": "1. はじめに 1.1 図面の種類が分かっても、作図には時間がかかる 第1章ではFA案件で扱う図面を整理し、第2章ではFA系とIT系の成果物をどう扱うか整理しました。 次に考えたのが、 定型的な図面作成をAIに手伝ってもらえないか という…"
     }
   ],
-  "fetchedAt": "2026-09-23T23:58:15.374Z",
+  "fetchedAt": "2026-09-24T03:55:04.761Z",
   "stale": false,
   "error": null
 }

@@ -6,84 +6,84 @@
   "category": "ai",
   "items": [
     {
-      "id": "38aa2cdcb874",
-      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
-      "url": "https://huggingface.co/papers/2609.25804",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis…",
-      "score": 111
+      "id": "3b2de427882b",
+      "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+      "url": "https://huggingface.co/papers/2609.28466",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modelin…",
+      "score": 22
     },
     {
-      "id": "9b5220f57ff4",
-      "title": "StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training",
-      "url": "https://huggingface.co/papers/2609.26774",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image…",
-      "score": 20
-    },
-    {
-      "id": "76dcc8f550f3",
-      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
-      "url": "https://huggingface.co/papers/2609.26550",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical a…",
+      "id": "63207faca800",
+      "title": "RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling",
+      "url": "https://huggingface.co/papers/2609.22947",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "Reinforcement learning (RL) is vital for optimizing video generation models, with a robust reward model (RM) serving as…",
       "score": 17
     },
     {
-      "id": "a54baaf9f52f",
-      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
-      "url": "https://huggingface.co/papers/2609.25199",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
-      "score": 11
-    },
-    {
-      "id": "58e1bb13459b",
-      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
-      "url": "https://huggingface.co/papers/2609.26781",
+      "id": "6d2011b36bed",
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "url": "https://huggingface.co/papers/2609.26780",
       "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness fra…",
-      "score": 9
+      "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term c…",
+      "score": 16
     },
     {
-      "id": "596f8de5705e",
-      "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
-      "url": "https://huggingface.co/papers/2609.24967",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable …",
-      "score": 6
+      "id": "1b22573a3778",
+      "title": "PACT: From Credit Assignment to Critic Alignment",
+      "url": "https://huggingface.co/papers/2609.26355",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level cred…",
+      "score": 12
     },
     {
-      "id": "312d916e8f5f",
-      "title": "LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay",
-      "url": "https://huggingface.co/papers/2609.25053",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "summary": "Can one language model hand its live memory to another without the receiver rereading the context? We demonstrate usefu…",
+      "id": "31472f2623f5",
+      "title": "Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?",
+      "url": "https://huggingface.co/papers/2609.27891",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "summary": "Repository-level coding benchmarks have become the standard for evaluating coding agents, yet they inherently suffer fr…",
+      "score": 10
+    },
+    {
+      "id": "6df594899a38",
+      "title": "WhatWorkedBench: Benchmarking Experimental Understanding in AI Agents",
+      "url": "https://huggingface.co/papers/2609.27490",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "AI research agents need reliable knowledge of how their experiments change outcomes. We introduce WhatWorkedBench to me…",
+      "score": 7
+    },
+    {
+      "id": "0a7c306c31cf",
+      "title": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2609.28256",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Vision-Language-Action models provide a strong foundation for general-purpose robot control, yet a vast majority of pol…",
+      "score": 5
+    },
+    {
+      "id": "72cc3c936540",
+      "title": "Hunyuan-A13B Technical Report",
+      "url": "https://huggingface.co/papers/2609.27284",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "We present Hunyuan-A13B, an open-source large language model based on a Mixture-of-Experts architecture. It contains 80…",
       "score": 4
     },
     {
-      "id": "3e727a807a4d",
-      "title": "RoboFollow: Unveiling the Instruction Following Mirage in Embodied Agents",
-      "url": "https://huggingface.co/papers/2609.25636",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Modern embodied agents achieve impressive success rates, yet their actual instruction-following ability is far weaker t…",
-      "score": 4
+      "id": "d6bb1134ad5a",
+      "title": "Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms",
+      "url": "https://huggingface.co/papers/2609.27321",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Language-model agents increasingly face long-horizon tasks with evolving state, interdependent decisions, and delayed o…",
+      "score": 2
     },
     {
-      "id": "5bcb448bed66",
-      "title": "Blaming Across the Aisle: Political Contrasting and Blame Attribution in the Danish Parliament",
-      "url": "https://huggingface.co/papers/2609.26346",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Political discourse is widely perceived to be growing more hostile, yet robust evidence remains scarce. This study exam…",
-      "score": 4
-    },
-    {
-      "id": "e486bf52237e",
-      "title": "ImIR: Image-Instruction Tuning for All-in-One Image Restoration",
-      "url": "https://huggingface.co/papers/2609.25267",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Degradations vary widely across images, so a practical restoration system has to handle many degradation types with one…",
-      "score": 3
+      "id": "840495679549",
+      "title": "InternW0: A Foundational Physical World Model for Efficient Real-World Interactions",
+      "url": "https://huggingface.co/papers/2609.27656",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Physical intelligence requires more than predicting how the world may evolve: predictions must remain actionable as the…",
+      "score": 2
     },
     {
       "id": "dc77c05d5030",
@@ -94,15 +94,15 @@
       "score": 2
     },
     {
-      "id": "552dd9dc4d28",
-      "title": "Embedding Physics Priors in Robot Learning: A Survey",
-      "url": "https://huggingface.co/papers/2609.22319",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of learning-based app…",
-      "score": 1
+      "id": "26dfb79f4042",
+      "title": "HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis",
+      "url": "https://huggingface.co/papers/2609.26793",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "Compositional 3D scene reconstruction has recently been explored from two directions: agentic reasoning that provides s…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-23T23:58:15.206Z",
+  "fetchedAt": "2026-09-24T03:55:04.532Z",
   "stale": false,
   "error": null
 }
