@@ -11,15 +11,7 @@
       "url": "https://huggingface.co/papers/2609.25963",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "Transformer architectures exhibit cross-layer redundancies, yet post-training compression pipelines typically optimize …",
-      "score": 10
-    },
-    {
-      "id": "6ca66b1b22c3",
-      "title": "On the Diffusibility of High-Dimensional Latents",
-      "url": "https://huggingface.co/papers/2609.28473",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encode…",
-      "score": 3
+      "score": 11
     },
     {
       "id": "005475b9d49f",
@@ -27,6 +19,54 @@
       "url": "https://huggingface.co/papers/2609.26637",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this …",
+      "score": 7
+    },
+    {
+      "id": "0572fa01b6b9",
+      "title": "MemoryAthena: Adaptive Routing over Latent and Generated Memories",
+      "url": "https://huggingface.co/papers/2609.25853",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "Learned-memory methods store information in an explicit table and consume it through a separate reader, allowing addres…",
+      "score": 4
+    },
+    {
+      "id": "6ca66b1b22c3",
+      "title": "On the Diffusibility of High-Dimensional Latents",
+      "url": "https://huggingface.co/papers/2609.28473",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encode…",
+      "score": 4
+    },
+    {
+      "id": "b79da6a022e2",
+      "title": "Self-Organizing Agent Teams Learn to Reason Together",
+      "url": "https://huggingface.co/papers/2609.22682",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "Collective intelligence depends not only on what team members know, but also on how they organize their work. When the …",
+      "score": 3
+    },
+    {
+      "id": "4abde2604a4a",
+      "title": "Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery",
+      "url": "https://huggingface.co/papers/2609.27980",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Pruning large pre-trained transformer-based ASR models such as OpenAI's Whisper has seen great adoption, as pruning the…",
+      "score": 3
+    },
+    {
+      "id": "bfa7ad34111a",
+      "title": "The Linear Representation Hypothesis Needs a Group Action",
+      "url": "https://huggingface.co/papers/2609.27158",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "To make claims about representations that generalize beyond a particular trained model, we need to specify when two rep…",
+      "score": 2
+    },
+    {
+      "id": "a467a3ba59ef",
+      "title": "Knowledge Pull Requests for Continual Document Authoring",
+      "url": "https://huggingface.co/papers/2609.26634",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "We introduce Knowledge Pull Requests (KPRs), a framework for continual document authoring that makes each change interp…",
       "score": 2
     },
     {
@@ -46,46 +86,6 @@
       "score": 2
     },
     {
-      "id": "4abde2604a4a",
-      "title": "Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery",
-      "url": "https://huggingface.co/papers/2609.27980",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Pruning large pre-trained transformer-based ASR models such as OpenAI's Whisper has seen great adoption, as pruning the…",
-      "score": 2
-    },
-    {
-      "id": "0572fa01b6b9",
-      "title": "MemoryAthena: Adaptive Routing over Latent and Generated Memories",
-      "url": "https://huggingface.co/papers/2609.25853",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Learned-memory methods store information in an explicit table and consume it through a separate reader, allowing addres…",
-      "score": 2
-    },
-    {
-      "id": "b79da6a022e2",
-      "title": "Self-Organizing Agent Teams Learn to Reason Together",
-      "url": "https://huggingface.co/papers/2609.22682",
-      "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "Collective intelligence depends not only on what team members know, but also on how they organize their work. When the …",
-      "score": 1
-    },
-    {
-      "id": "bfa7ad34111a",
-      "title": "The Linear Representation Hypothesis Needs a Group Action",
-      "url": "https://huggingface.co/papers/2609.27158",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "To make claims about representations that generalize beyond a particular trained model, we need to specify when two rep…",
-      "score": 1
-    },
-    {
-      "id": "a467a3ba59ef",
-      "title": "Knowledge Pull Requests for Continual Document Authoring",
-      "url": "https://huggingface.co/papers/2609.26634",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "We introduce Knowledge Pull Requests (KPRs), a framework for continual document authoring that makes each change interp…",
-      "score": 1
-    },
-    {
       "id": "06f5982144fc",
       "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
       "url": "https://huggingface.co/papers/2609.25187",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-24T18:25:34.787Z",
+  "fetchedAt": "2026-09-24T21:39:59.586Z",
   "stale": false,
   "error": null
 }
