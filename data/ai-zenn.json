@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "efd23fc8d4c9",
-      "title": "今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-02-tech-daily",
-      "publishedAt": "2026-09-23T22:32:25.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 本日のニュースでは、LLM単体の活用から「自律型AIエージェントの実装」およびそれを支える開発インフラの最適化へとトレンドが大きくシフトしていることが示されています。OpenAIによるPython開発ツールメーカー「Astral」の買…"
+      "id": "5d9b48e74798",
+      "title": "n=280で出した数字をn=4,290で検算したら、片方は持ち堪えて片方は崩れた",
+      "url": "https://zenn.dev/tsutomusaito/articles/tool-error-recount-ja",
+      "publishedAt": "2026-09-24T05:10:01.000Z",
+      "publisher": "saito",
+      "summary": "以前、ツール失敗280件を分類して2つのことを書いた。 失敗の32.9%は失敗ではなく統治（承認ゲートで止められたもの） Read の失敗の96%（24/25）はファイルが無かった 後者は分母が25しかない。書いた時点で気になっていたので…"
     },
     {
-      "id": "98eacc4ea029",
-      "title": "「2か所」は、数えたら8か所だった",
-      "url": "https://zenn.dev/hanamilo/articles/kazoezu-ni-susumu",
-      "publishedAt": "2026-09-23T22:30:06.000Z",
-      "publisher": "hanamilo",
-      "summary": "3番目に多かった型 前の記事で、半年分の失敗223件を7つの型に分けた、と書いた。 そのあとも記録は増えて、298件になった。型は12に増えた。 1位は変わらず「資料と実物の食い違い」で55件。2位が「確認せずに決めつける」で46件。 3…"
+      "id": "4116480534c0",
+      "title": "freeeアプリを公開して4週間、利用者はゼロでした。稼働状態を確認して分かったこと",
+      "url": "https://zenn.dev/hachihou_system/articles/four-weeks-after-launch-zero-users",
+      "publishedAt": "2026-09-24T04:38:34.000Z",
+      "publisher": "キョウスケ",
+      "summary": "結論から書きます。freeeアプリストアで公開している「未払い請求書 自動督促ツール」は、公開から4週間たった今日(2026年9月24日)の時点で、利用者がいません。 書き始める前に、まず実際の数字を確認しました。この記事はその報告です。…"
     },
     {
-      "id": "9e7c614cdac4",
-      "title": "Claude Codeの会話ログは既定30日で消える：cleanupPeriodDaysの確認と集計の組み方",
-      "url": "https://zenn.dev/kujira_ai/articles/a0d57ca2de4a63",
-      "publishedAt": "2026-09-23T22:14:08.000Z",
-      "publisher": "クジラ",
-      "summary": "Claude Code に自分の利用状況を集計させています。どの機能を何回使ったか、どんな失敗が何件あったか。元データはパソコンに残っている会話ログ（.jsonl）です。 先日、同じ条件で数え直したはずの件数が、数日前より減っていました。…"
+      "id": "4ff241e1382d",
+      "title": "Dflashが進化した！Dflash-2を追いかける〜メインモデル/Dflashと速度・Acceptanceを比較してみた〜",
+      "url": "https://zenn.dev/highreso/articles/2600bd34c59517",
+      "publishedAt": "2026-09-24T03:56:21.000Z",
+      "publisher": "Yuichi Tominaga",
+      "summary": "概要 過日、Dflashという先読み技術について紹介させていただきました。その時はGemma-4-12b-it-QATをベースに実効性について検証してみたのですが、ネイティブAssistantモデルの方が効果が大きく、あまりDflashの…"
     },
     {
-      "id": "53a33e2e84c1",
-      "title": "Claude Code の auto モードで止められた作業と、止められたときの決めごと",
-      "url": "https://zenn.dev/y3chi5z/articles/claude-code-auto-mode-classifier-blocks",
-      "publishedAt": "2026-09-23T22:12:03.000Z",
-      "publisher": "y43z",
-      "summary": "Claude Code を auto モードで使っています。1 つずつ許可を求められずに作業が進むので、業務システムの移行や記事の執筆など、長い作業を任せるときに便利です。 auto モードでは、実行しようとした操作を分類器が判定し、危な…"
+      "id": "fba91d7fb865",
+      "title": "CISSP取得までの道 ― AIで3,000問を解いて、弱点を潰した勉強法",
+      "url": "https://zenn.dev/tokotokokame/articles/8835abd50d280c",
+      "publishedAt": "2026-09-24T03:33:05.000Z",
+      "publisher": "tokotokokame",
+      "summary": "CISSPに合格しました。 今回の試験対策では、AIをかなり積極的に活用しました。 最終的には約3,000問の問題を解きました。 ただし、単純に3,000問を解いたわけではありません。 今回の勉強で意識したのは、 「問題をたくさん解く」の…"
     },
     {
-      "id": "3e04e5bf1af2",
-      "title": "HarnessRouter の「ハーネス切り替え」は何がうれしいのか ─ Hermes と比べて分かった、記憶を外に出す設計",
-      "url": "https://zenn.dev/takna/articles/harnessrouter-harness-switching",
-      "publishedAt": "2026-09-23T21:48:30.000Z",
-      "publisher": "ながたく",
-      "summary": "HarnessRouter は、Codex や Claude Code、Hermes といったエージェントハーネスを、自社サービスの裏側で 1 本の API から動かすための中継基盤です。この記事では、普段 Hermes Agent を …"
+      "id": "4f8bd47e6b69",
+      "title": "Cursor の guard hook、jq が無いと全部 allow になる",
+      "url": "https://zenn.dev/th00157899/articles/cursor-hook-jq-fail-open",
+      "publishedAt": "2026-09-24T03:19:20.000Z",
+      "publisher": "taka",
+      "summary": "何が起きたか Cursor の Hooks で「危険なシェルコマンドを止める」beforeShellExecution フックを書き、サンプル入力を流して検証していたら、rm -rf が allow で通った。 スクリプトはこういう形だっ…"
     },
     {
-      "id": "04fd79845170",
-      "title": "AIソフトウェア工場の設計——要求から本番運用までをつなぐアーキテクチャ",
-      "url": "https://zenn.dev/hampen2929/books/ai-software-factory-architecture",
-      "publishedAt": "2026-09-23T21:00:25.000Z",
-      "publisher": "はんぺん",
-      "summary": "人が望む成果を渡したあと、何を根拠に変更を進め、どこで止め、どう結果を確かめるのか。 一件のAPI変更を軸に、要求、情報基盤、PCでの実装、PR、ビルド・テスト、AIレビュー、進行判断、デプロイ、運用をつなぐ設計を解説します。 合意した条…"
+      "id": "4e9b4c6edabd",
+      "title": "Cursor を「毎回同じ品質」にする ― Rules / Skills / Hooks 実践ガイド",
+      "url": "https://zenn.dev/th00157899/books/cursor-rules-skills-hooks",
+      "publishedAt": "2026-09-24T03:16:08.000Z",
+      "publisher": "taka",
+      "summary": "Cursor の Agent に同じ指示を毎回打ち込んでいませんか。Rules・Skills・Hooks の 3 つの仕組みを「いつ・どれを・どう書くか」の判断基準から、hooks.json の exit code や matcher の…"
     },
     {
-      "id": "44be9ff59c15",
-      "title": "内蔵GPUでQwen3-8Bを動かしたら 6 t/s だった",
-      "url": "https://zenn.dev/setsu_shiomi/articles/local-llm-on-igpu",
-      "publishedAt": "2026-09-23T19:58:23.000Z",
-      "publisher": "汐見セツ",
-      "summary": "この記事は個人サイトにも掲載しています: https://setsu.sh/blog/local-llm-on-igpu/ 「ローカル LLM を動かすには、それなりの GPU が必要」とよく言われる。だが、手元のノート PC の内蔵 G…"
+      "id": "23c7dd749dec",
+      "title": "JevとローカルLLMは何が違うのか？｜未知知識の挙動と「Jevでしか無理な要件」の検証",
+      "url": "https://zenn.dev/null_teck/articles/jev-vs-local-usecases",
+      "publishedAt": "2026-09-24T03:04:46.000Z",
+      "publisher": "ヌルソフト@AI_Teck_PoC",
+      "summary": "! 先に結論を言います 「Jevでしか無理な要件」はあるのか？: 技術的・機能的に「Jevでしか絶対に実現できない要件」は存在しない（見つけられなかった）。テキスト生成を介さないTyped Decisionや比喩文脈の識別力はオープンモデ…"
     },
     {
-      "id": "10f350e84a27",
-      "title": "[解説] Jev：テキストを生成しないAIは何が新しいのか",
-      "url": "https://zenn.dev/serada/articles/20260924-jev-system-one-intro",
-      "publishedAt": "2026-09-23T18:25:58.000Z",
-      "publisher": "Sera",
-      "summary": "2026年9月15日、TypeSafe AIというサンフランシスコの研究所がステルスを解除し、Jev（ジェヴ）というモデルを公開しました。創業者のDiogo Almeida氏はInstructGPT論文の共著者で、同社はシードラウンドで4…"
+      "id": "88af357f67de",
+      "title": "Claude Code が AGENTS.md を読むようになっていた",
+      "url": "https://zenn.dev/nakurei/articles/claude-code-supports-agents-md",
+      "publishedAt": "2026-09-24T02:59:06.000Z",
+      "publisher": "NakuRei",
+      "summary": "これはなに シルバーウィークをすやすや過ごしていたら、いい感じのアップデートがClaude Codeに入っていたという話。 概要 Claude Code 2.1.277のアップデートでAGENTS.mdのサポートが追加された[1]。 CL…"
     },
     {
-      "id": "3fc35e8432ea",
-      "title": "Claude Codeを本当に並列で走らせる - git worktree と、直列にすべき工程",
-      "url": "https://zenn.dev/quintetkit/articles/claude-code-worktree-isolation",
-      "publishedAt": "2026-09-23T17:28:06.000Z",
-      "publisher": "Quintet Kit",
-      "summary": "Claude Codeで複数の作業を同時に走らせたら、こうなった人向けです。 片方が npm install している最中に、もう片方が package.json を読んで壊れた dist/ のビルド成果物が混ざり、どちらの出力か分からな…"
+      "id": "c3616cbe2084",
+      "title": "Jevの精度を簡易的に検証してみた",
+      "url": "https://zenn.dev/shimura_weel/articles/aff7d58725961a",
+      "publishedAt": "2026-09-24T02:51:20.000Z",
+      "publisher": "志村",
+      "summary": "はじめに Jev、今かなりの人気ですね。実際にJevを組み込んだアプリケーションも多く拝見していますが、インパクトの大きいものばかりです。ただ、実際に使うとなると気になるのが精度です。これまでLLMに任せていた判断のうち、Jevで置き換え…"
     },
     {
-      "id": "f4c6d49d51ae",
-      "title": "JevとSolar Mini4に同じ分類タスクを投げてみた",
-      "url": "https://zenn.dev/nhandsome/articles/jev-vs-lightweight-llm-classification",
-      "publishedAt": "2026-09-23T17:09:19.000Z",
-      "publisher": "Nhandsome",
-      "summary": "このブログは、エージェントが資料の突き合わせと実験を行って下書きを作り、筆者が確認したうえで掲載しています。 ! 同じメール分類タスクを TypeSafe Jev と Upstage の Solar Mini4 に投げてみました 正解率は…"
+      "id": "b76a8358a46f",
+      "title": "AWS Certified Generative AI Developer - Professional (AIP-C01) 合格体験記",
+      "url": "https://zenn.dev/suit9/articles/795d73e1780bcb",
+      "publishedAt": "2026-09-24T02:47:29.000Z",
+      "publisher": "Tomet",
+      "summary": "はじめに AWS Certified Generative AI Developer - Professional (AIP-C01) に合格しました。 普段は業務でBedrockをそれなりに触っていますが、Bedrock単体の知識では全…"
     },
     {
-      "id": "2f0c4095e2d0",
-      "title": "コードのないリポジトリに「テストを先に書く」——ECC導入前後の記録を追う",
-      "url": "https://zenn.dev/meruno/articles/a1c60a5b1abfca",
-      "publishedAt": "2026-09-23T17:02:47.000Z",
-      "publisher": "meruno",
-      "summary": "「テストを先に書く」。 文書しか扱わないリポジトリを開いた Claude Code にも、このルールが渡されていた。テストするコードはない。どうして、ここにあるのだろう。 出どころは分かっている。自分で入れた ECC（Everything…"
+      "id": "33bd51956b3c",
+      "title": "AIの「見つかりませんでした」を信じて、使われている部署を廃止しかけた話",
+      "url": "https://zenn.dev/akira_books/articles/802b299002aaef",
+      "publishedAt": "2026-09-24T02:27:07.000Z",
+      "publisher": "akira books",
+      "summary": "Claude Codeに調べものや棚卸しを任せていると、「見つかりませんでした」「使われていません」という報告を受け取る場面が必ず来ます。私はこの報告を信じて、実際には使われていた仕組みを廃止すると決めてしまいました。この記事はその記録と…"
     },
     {
-      "id": "7496159a6b02",
-      "title": "Claudeで作っていても設計はGeminiに聞く、5つの渡し方のすすめ",
-      "url": "https://zenn.dev/genkunjc/articles/gemini-design-brainstorm-five-rules",
-      "publishedAt": "2026-09-23T16:47:34.000Z",
-      "publisher": "circle",
-      "summary": "大きな設計を1人で考えていると、自分に出せる発想の範囲でしか案が広がらないと感じることがあります。もっと良い案を、自分の外から引き出したいという欲求です。普段の実装は Claude でやっていますが、設計の骨格だけは Gemini に出さ…"
+      "id": "1596e1f90efb",
+      "title": "AIの自動字幕をそのまま公開すると失敗する理由 —— 日本語字幕は「1秒4文字」という100年の制約の中で作られている",
+      "url": "https://zenn.dev/olzzz/articles/4774c4f5e7bd65",
+      "publishedAt": "2026-09-24T02:18:34.000Z",
+      "publisher": "racri",
+      "summary": "文字起こしツールで動画をテキストにして、そのまま字幕として書き出した。タイムスタンプも付いている。完璧に見える。 ところが再生してみると、字幕が画面の3分の1を埋めている。「え、こんなに長いの？」と思って一時停止し、読み切れないまま次のセ…"
     }
   ],
-  "fetchedAt": "2026-09-24T08:58:20.668Z",
+  "fetchedAt": "2026-09-24T14:07:06.240Z",
   "stale": false,
   "error": null
 }
