@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "20c84cec8e29",
-      "title": "CLAUDE.mdに書いても守られなかったので、7日ぶん数えてからフックで拒否しました",
-      "url": "https://zenn.dev/a1yama/articles/claude-code-hook-deny-vs-prompt",
-      "publishedAt": "2026-09-24T11:21:34.000Z",
-      "publisher": "あいやま",
-      "summary": "Claude Codeに「ファイル検索は専用ツールを使ってください。Bashは最後の手段です」と指示を書いていました。 設定ファイルに、はっきりと表で書いています。 守られませんでした。 しばらくは「まあそういうものか」と思って、気づいた…"
+      "id": "499eb4095f46",
+      "title": "MCPサーバーが「起動しない」時に見るべきはstdio — 生のJSON-RPCを追うデバッグ手順",
+      "url": "https://zenn.dev/joinclass/articles/mcp-stdio-20260914220022-32061",
+      "publishedAt": "2026-09-24T23:03:48.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "なぜこれを書いたか 僕は一人会社で10部門ぶんのAIエージェントを回していて、社内ツールの多くをMCPサーバーとしてClaude Codeに繋いでいます。作るのは簡単です。壊れた時が地獄でした。 Claude Code側に出るのは fai…"
     },
     {
-      "id": "c1600f429b09",
-      "title": "IT業界未経験の現場作業員が、AIを参謀に年商○億企業の基幹システムを作り切った話（モダン化編）──SDDへ挑戦 ＆ 負債の解消③",
-      "url": "https://zenn.dev/ktsm/articles/bc9f199a4e67d7",
-      "publishedAt": "2026-09-24T11:12:05.000Z",
-      "publisher": "ktsm.dev",
-      "summary": "0. 3部作の完結編です。 前提となるのはこちらです。 準備編 要件定義と信頼構築のストーリー 実装編 事件と交渉を乗り越えプロジェクトを完遂させたストーリー 1. プロジェクトの決定の経緯 前回の通り、GASでの開発を完遂した。 クライ…"
+      "id": "22ecd84a6ce1",
+      "title": "家づくりアプリのコラム45本をAIに点検させたら、点検役のAIも間違えていた",
+      "url": "https://zenn.dev/hinaridake/articles/ai-content-fact-check-housing-app",
+      "publishedAt": "2026-09-24T23:00:05.000Z",
+      "publisher": "Hiromu Morisaki",
+      "summary": "「家づくり管理」という iOS アプリを出しています。家を建てると決めてから引き渡しまでの記録を、スマホ 1 台にまとめるアプリです。 ハウスメーカー 32 社のカタログから候補を選んで、プランを並べて比べる（坪単価・UA 値・C 値・耐…"
     },
     {
-      "id": "a17187a5c96f",
-      "title": "Claudeが新しい酵素を発見、AIと人が組む研究の形",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260924",
-      "publishedAt": "2026-09-24T11:06:22.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年9月24日（木）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は、AIが「探す」「作る」「届ける」の3つ全部で一歩進んだ日なんですよ。AnthropicのClaudeが研究所で新しい酵素の仕…"
+      "id": "2b2b9c2a97b3",
+      "title": "ジュニアエンジニアの AI 協働ロードマップ (5/5) — 全体図編：実装は AI、ルールは自分が決める 4 つのステップ",
+      "url": "https://zenn.dev/motowo/articles/junior-engineer-ai-collaboration-roadmap-5",
+      "publishedAt": "2026-09-24T23:00:05.000Z",
+      "publisher": "タカシ",
+      "summary": "! TL;DR: AI にコードを書かせる今、ジュニアエンジニアは何をどの順で積めばよいのか。4 つのステップのロードマップと、ステップごとの振り返りチェックリスト、メンターが 1on1 で使う「メンターが見るポイントの表」をまとめます。…"
     },
     {
-      "id": "795a6760e131",
-      "title": "Claude Code（Opus 5）と Codex（Sol / Astra）を比較。LPのファーストビューを組ませた",
-      "url": "https://zenn.dev/frontendclip/articles/a5f724b0c1020b",
-      "publishedAt": "2026-09-24T11:00:05.000Z",
-      "publisher": "みなと",
-      "summary": "画像20点が重なるキャンペーンLPのファーストビューを、同じカンプ・同じプロンプトで3本作らせました。Claude Code で Opus 5、Codex で GPT-5.6 Sol と GPT-6 Astra。どれも Figma の公式…"
+      "id": "5d696bffb033",
+      "title": "Claude Codeの「ついでに」を1件ずつ確認制にした話",
+      "url": "https://zenn.dev/arithan/articles/claude-code-safety-boundary",
+      "publishedAt": "2026-09-24T23:00:05.000Z",
+      "publisher": "ARITH",
+      "summary": "はじめに Claude Codeに作業を任せる範囲が広がるほど、「これだけは勝手にやらないでほしい」という操作が出てきます。 たとえば「ついでに環境変数も設定しておきますね」のような、頼んだ作業のついでの操作です。 筆者は、記録を読んで次…"
     },
     {
-      "id": "07dd6a82b2c1",
-      "title": "Jevでスライド原稿を96回検品：一致率が上がっても誤りは通過した",
-      "url": "https://zenn.dev/kanta13jp1/articles/jev-slide-evaluation-96-trials",
-      "publishedAt": "2026-09-24T10:55:15.000Z",
-      "publisher": "kanta13jp1",
-      "summary": "Jevに渡す確認項目を詳しくすると、スライド原稿の判定は良くなるのか。日本語の合成原稿24件を用意し、2種類の質問で各2回、計96回の実API評価を行いました。 事前に決めたラベルとの一致は 35/48から40/48 に増えました。一方、…"
+      "id": "d7d72fbd94d2",
+      "title": "設計の案をAIで広げる、GeminiとClaudeを並べて目隠しで選ぶ3つの手のすすめ",
+      "url": "https://zenn.dev/genkunjc/articles/design-ideas-gemini-claude-blind-judge",
+      "publishedAt": "2026-09-24T22:47:29.000Z",
+      "publisher": "circle",
+      "summary": "大きな設計を考えるとき、自分では思いつかない案を AI に出してほしい、という場面があります。そのとき気になるのは、どのモデルに出させればいいのか、出てきた案をどう選べばいいのか、です。 同じ材料を Gemini と Claude の両方…"
     },
     {
-      "id": "44fc8815c50c",
-      "title": "コストをあまり気にせず何度も回せるZDR対応の自動コードレビュー環境をPullfrogとOllama Cloudで作る",
-      "url": "https://zenn.dev/inop/articles/e893c725721cbd",
-      "publishedAt": "2026-09-24T10:52:56.000Z",
-      "publisher": "Katz",
-      "summary": "Pull Requestでコードレビューをしっかりやれば、ライブラリ・APIの使い方の誤りやロジックの考慮の漏れなどによるバグを、開発サイクルの早い段階で見つけることができる。同じバグを後から直すより、かかるコストはずっと小さい[1]。 …"
+      "id": "856b5be0a854",
+      "title": "「しんどい」と言われないための、文章の「注意配分」技術",
+      "url": "https://zenn.dev/hacobu/articles/1dea0638ead7a2",
+      "publishedAt": "2026-09-24T22:30:05.000Z",
+      "publisher": "dach",
+      "summary": "はじめに AIにレビュー指摘や設計資料を書かせる機会が増えてきました。 情報は揃っているし、内容も大きく間違っていない。それでも他の人に見てもらうと、 「読むのがしんどい」「途中で読む気がなくなる」 と言われることがあります。 この記事を…"
     },
     {
-      "id": "58df4d3043f0",
-      "title": "AI駆動開発で「仕様をどこでどこまで維持するか」を考える",
-      "url": "https://zenn.dev/nenene01/articles/spec-first-anchored-as-source",
-      "publishedAt": "2026-09-24T10:45:55.000Z",
-      "publisher": "ねねね",
-      "summary": "はじめに AI生成でコードのコストが下がるほど、「どう実装するか」より「何を実装するかを正確に定義すること」の価値が高まりました。 そこで注目されているのが Spec-Driven Development（SDD：仕様駆動開発） かと思い…"
+      "id": "033e9887242a",
+      "title": "「作って」ではなく「約束」を書く：Claude Codeに渡した構築プロンプトの設計図",
+      "url": "https://zenn.dev/charge0315/articles/8c1157d1a0cebf",
+      "publishedAt": "2026-09-24T22:26:14.000Z",
+      "publisher": "ちゃーじ",
+      "summary": "はじめに 日本株のAI銘柄スクリーニング＆継続学習端末「ALPHA FORGE（アルファフォージ）」を、Claude Code と二人三脚で個人開発しています。 第1話で「私の入力はほとんど『次』『続行』の2語だった」と書きました。今回は…"
     },
     {
-      "id": "b006cb8497a7",
-      "title": "「電源を抜けばいい、は通用しない」——Anthropicを辞めた研究者が語る、競争・減速・2年後の自分の仕事",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr32-coxon-summary",
-      "publishedAt": "2026-09-24T10:36:10.000Z",
-      "publisher": "管理人K",
-      "summary": "! 本記事は CBS News の公開動画を紹介・論評する目的で、筆者が要点を抽出しコメントを加えたものです。翻訳全文ではなく、動画の網羅や代替を意図したものでもありません。発言の意図は元動画でご確認ください。 元動画: Extended…"
+      "id": "b99f7676ff0c",
+      "title": "Vercelで個人開発サービスを0円運用する方法 ―― 「デプロイ成功」が「公開成功」ではなかった話",
+      "url": "https://zenn.dev/fuguruma/articles/20260925-vercel-zeroyen-dns",
+      "publishedAt": "2026-09-24T22:17:03.000Z",
+      "publisher": "AI物書き妖怪【文車妖妃】",
+      "summary": "書き手: 文車妖妃(ふぐるまようひ)。Mac miniの中に住むAIライターです。この記事はnoteの連載を、開発者向けに全文無料で転載したものです。 公開まで気は抜けない、深夜の作業部屋 この記事は、Macの中に住むAIライター・文車妖…"
     },
     {
-      "id": "32cb5b4a9c27",
-      "title": "Zennとnoteの執筆をCLI×AIで半自動化する環境を作ってみた話（試行錯誤中・アドバイス求む）",
-      "url": "https://zenn.dev/zundokobaum/articles/2026-09-24_creator_workflow",
-      "publishedAt": "2026-09-24T10:29:29.000Z",
-      "publisher": "ばあむ",
-      "summary": "はじめに 一応、普段はSEと呼ばれる仕事をしているものの、業務のほとんどがいわゆるレガシーシステム相手。最近の技術に追いつけていない焦りを感じていた今日この頃、生成AIを使って個人開発を始めてみることにしました。 ……というちゃんとした理…"
+      "id": "853ca00ffa8f",
+      "title": "AIチャットは伸ばすほど劣化する、3社の「仕切り直し」設計を比較した",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-long-chat-reset-3-services-compare",
+      "publishedAt": "2026-09-24T21:19:14.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 1つのチャットを伸ばし続けると、コンテキストウィンドウ（一度に読み込める会話量の上限）を超えた分から古いターンが参照されなくなる。これはモデルの調子ではなく、固定サイズの入力枠に対する構造的な制約 ChatGPT・Claude…"
     },
     {
-      "id": "1653df471406",
-      "title": "GPT-Live-1への言い直しがアプリの動作にどう届くのかをゲームで可視化してみた",
-      "url": "https://zenn.dev/yukurash/articles/d119e6ac6e1626",
-      "publishedAt": "2026-09-24T10:26:43.000Z",
-      "publisher": "yukurash",
-      "summary": "なぜ今、GPT-Live-1？ 2026年9月10日にAPI公開されたGPT-Live-1は、話しながら聞ける音声モデルです。推論やツール選択は別のバックエンドに任せ、処理を待つ間も会話を続けられます。 おもしろいのは公式資料に「音声への…"
+      "id": "0d0f819e4c06",
+      "title": "「生成」は止めたのに「公開」は止まらない、片手落ちの安全装置に気づいた話",
+      "url": "https://zenn.dev/jworks_hq/articles/c33eee5f807a61",
+      "publishedAt": "2026-09-24T20:40:37.000Z",
+      "publisher": "J-WORKS",
+      "summary": "この記事について 個人開発で、AIに商品情報の収集・選定・文章生成・公開まで任せる自動化パイプラインを運用しています。「危険な自動実行は安全側に倒す」という方針で安全装置を作っていたのですが、後から見直したらパイプラインの入口(生成)には…"
     },
     {
-      "id": "2c2c5ec232fc",
-      "title": "実装前に AI と合意せよ！Quint で形式仕様読解入門",
-      "url": "https://zenn.dev/nrs/articles/10a331bae98bc4",
-      "publishedAt": "2026-09-24T10:10:21.000Z",
-      "publisher": "nrs",
-      "summary": "TAKT にいれた形式仕様について、かなりいい感じに思うので記事にします。 形式仕様そのものになじみのない方も多いと思うので、そこから始めます。 形式仕様とは 自然言語で書かれた仕様書は読む人によって解釈が揺れます。 同じ文章を読んでも、…"
+      "id": "c5437b8b9e79",
+      "title": "AI Agentのif文までLLMに任せるの、ちょっと豪華すぎない？─Jevで考えるDecision Layer設計",
+      "url": "https://zenn.dev/yuruconsa/articles/ece76113860e7d",
+      "publishedAt": "2026-09-24T16:55:31.000Z",
+      "publisher": "ゆるコンサ",
+      "summary": "AI Agentを作っていると、だいたいこうなります。 ユーザーから依頼 ↓ LLMに考えさせる ↓ Toolを選ばせる ↓ Toolを実行 ↓ 結果をLLMに見せる ↓ 次に何をするか考えさせる ↓ またToolを実行 ↓ 終わったかL…"
     },
     {
-      "id": "83d3b6f1433a",
-      "title": "中学生でもわかる Lean 4 #09｜トートロジーを「大発見」に見せてみる",
-      "url": "https://zenn.dev/dantarg/articles/lean4-tautology-big-discovery",
-      "publishedAt": "2026-09-24T09:56:17.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "前回の #08「名前を強くしたら定理も強くなる？」 では、形式的な中身と、名前・コメントなどの見せ方を分けて読みました。 今回は、少しだけ意地悪な読み比べをします。 最初に、こんな発表を見たとします。 Universal Logical …"
+      "id": "5137ebb77a16",
+      "title": "「実際の数字を公開する」と予告してから3日。最初の売上と、その裏で起きていた公開トラブル(第4回)",
+      "url": "https://zenn.dev/ryu7865/articles/2026-09-23-ai-agent-side-business-04",
+      "publishedAt": "2026-09-24T16:47:20.000Z",
+      "publisher": "ry",
+      "summary": "前回の記事の最後に、こう書きました。 次回は、この副業の初日から数えた「実際の数字」(閲覧数、収益、かかった手間)を、更新のたびに公開します。 今回が、その「次回」です。 実際の数字 この連載をまとめた本(1〜3章無料・500円)が、1冊…"
     }
   ],
-  "fetchedAt": "2026-09-24T21:39:59.744Z",
+  "fetchedAt": "2026-09-25T00:00:14.977Z",
   "stale": false,
   "error": null
 }
