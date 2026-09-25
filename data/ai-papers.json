@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "19cbdd42c63d",
-      "title": "GeoPair: Geometry-Preserving Cross-Layer Factorization for Training-Free Transformer Compression",
-      "url": "https://huggingface.co/papers/2609.25963",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Transformer architectures exhibit cross-layer redundancies, yet post-training compression pipelines typically optimize …",
+      "id": "086b7bfa4bb5",
+      "title": "Training Object Permanence in World Models",
+      "url": "https://huggingface.co/papers/2609.28654",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation model…",
+      "score": 25
+    },
+    {
+      "id": "a66f0268f344",
+      "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
+      "url": "https://huggingface.co/papers/2609.23407",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "summary": "Humans can effortlessly localize the direction of a sound source and integrate it with visual cues for reasoning, yet t…",
+      "score": 14
+    },
+    {
+      "id": "66ca53e86c24",
+      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+      "url": "https://huggingface.co/papers/2609.28416",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environ…",
       "score": 11
     },
     {
-      "id": "005475b9d49f",
-      "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
-      "url": "https://huggingface.co/papers/2609.26637",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this …",
-      "score": 7
-    },
-    {
-      "id": "b79da6a022e2",
-      "title": "Self-Organizing Agent Teams Learn to Reason Together",
-      "url": "https://huggingface.co/papers/2609.22682",
-      "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "Collective intelligence depends not only on what team members know, but also on how they organize their work. When the …",
+      "id": "f0cf27e78e83",
+      "title": "AgentKernel: The Trust-Native Agentic Operating System",
+      "url": "https://huggingface.co/papers/2609.29647",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructio…",
       "score": 4
     },
     {
-      "id": "0572fa01b6b9",
-      "title": "MemoryAthena: Adaptive Routing over Latent and Generated Memories",
-      "url": "https://huggingface.co/papers/2609.25853",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Learned-memory methods store information in an explicit table and consume it through a separate reader, allowing addres…",
-      "score": 4
-    },
-    {
-      "id": "6ca66b1b22c3",
-      "title": "On the Diffusibility of High-Dimensional Latents",
-      "url": "https://huggingface.co/papers/2609.28473",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encode…",
-      "score": 4
-    },
-    {
-      "id": "4abde2604a4a",
-      "title": "Six Layers Less: Encoder Pruning for Whisper with Label-Free Recovery",
-      "url": "https://huggingface.co/papers/2609.27980",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Pruning large pre-trained transformer-based ASR models such as OpenAI's Whisper has seen great adoption, as pruning the…",
+      "id": "f7dba85b2d40",
+      "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+      "url": "https://huggingface.co/papers/2609.29444",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Deep search requires LLM agents to decompose complex queries, search for evidence, and synthesize grounded answers, yet…",
       "score": 3
     },
     {
-      "id": "bfa7ad34111a",
-      "title": "The Linear Representation Hypothesis Needs a Group Action",
-      "url": "https://huggingface.co/papers/2609.27158",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "To make claims about representations that generalize beyond a particular trained model, we need to specify when two rep…",
+      "id": "9e9251538ec1",
+      "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+      "url": "https://huggingface.co/papers/2609.29837",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside…",
+      "score": 3
+    },
+    {
+      "id": "dc519da88a6e",
+      "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+      "url": "https://huggingface.co/papers/2609.23087",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "Modern Transformer design and compression both reduce to allocating capacity under a budget. The standard scalars for t…",
       "score": 2
     },
     {
-      "id": "a467a3ba59ef",
-      "title": "Knowledge Pull Requests for Continual Document Authoring",
-      "url": "https://huggingface.co/papers/2609.26634",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "We introduce Knowledge Pull Requests (KPRs), a framework for continual document authoring that makes each change interp…",
+      "id": "3dca3f224fd0",
+      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+      "url": "https://huggingface.co/papers/2609.29964",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet ex…",
       "score": 2
     },
     {
-      "id": "e0bce572aa04",
-      "title": "Calibration as a First-Class Criterion in LLM Evaluation",
-      "url": "https://huggingface.co/papers/2609.26489",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Calibration of language models -- the alignment between expressed or implicit confidence and empirical correctness -- i…",
+      "id": "5d80f9d49da0",
+      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+      "url": "https://huggingface.co/papers/2609.30221",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contempora…",
       "score": 2
     },
     {
-      "id": "132302df5812",
-      "title": "FLEET: From Logits Entropy to Enhanced Trajectories in Text Generation",
-      "url": "https://huggingface.co/papers/2609.27657",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Solutions based on large language models (LLMs) often rely on temperature sampling to improve accuracy and stability by…",
+      "id": "bf66d069a6f1",
+      "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+      "url": "https://huggingface.co/papers/2609.30199",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses,…",
       "score": 2
     },
     {
-      "id": "06f5982144fc",
-      "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
-      "url": "https://huggingface.co/papers/2609.25187",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-L…",
+      "id": "7ddfa9457912",
+      "title": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
+      "url": "https://huggingface.co/papers/2609.28923",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Few-step autoregressive (AR) video diffusion enables low-latency streaming generation, but existing post-training metho…",
       "score": 1
     },
     {
-      "id": "95279efd0709",
-      "title": "Uranus: Building the Next-Generation Simulation Infrastructure for Embodied AI",
-      "url": "https://huggingface.co/papers/2609.24815",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Scalable simulation is essential for robot data generation, policy training, evaluation, and safe iteration, yet real-w…",
+      "id": "6e66733852dc",
+      "title": "Rate-distortion optimization for full-reference image quality metrics via stochastic Hessian estimates",
+      "url": "https://huggingface.co/papers/2609.30077",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Block-based video codecs select coding parameters based on the input by optimizing a rate-distortion trade-off. The con…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-25T00:00:14.802Z",
+  "fetchedAt": "2026-09-25T04:43:33.262Z",
   "stale": false,
   "error": null
 }
