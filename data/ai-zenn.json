@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c3e7da4dbd7f",
-      "title": "話題のJevを触ってみました。特徴、料金、活用事例など。",
-      "url": "https://zenn.dev/gmomedia/articles/2026-09-25-typesafe-jev",
-      "publishedAt": "2026-09-25T09:04:43.000Z",
-      "publisher": "はとさん",
-      "summary": "Jevとは JevはTypeSafe AIが出している「System One model」というカテゴリのモデルです。文章を生成する代わりに「型付きの回答と確率」を返し、ソフトウェアがそのまま使える速い判断を出すことを目的にしています。 …"
+      "id": "db2ad8cb14d7",
+      "title": "Jevでコードレビューの観点を自動抽出してみたら、実際に不具合が再現した話",
+      "url": "https://zenn.dev/adachi6k/articles/99193762817e3f",
+      "publishedAt": "2026-09-25T16:24:16.000Z",
+      "publisher": "Koji Adachi",
+      "summary": "過去Issue 133件をJevとCodexで整理し、抽出したレビュー観点を実装に適用したところ、2件の不具合を再現できた。 開発履歴を、次のレビューに使える資産へ変換する実験だ。 きっかけは、Jevを使えば、蓄積したIssueや修正履歴…"
     },
     {
-      "id": "1d9b39dc4732",
-      "title": "Claude Codeの /loop と /goal 入門：「時間で繰り返す」と「終わるまで走らせる」を実機で使い分ける【2026年9月版】",
-      "url": "https://zenn.dev/takuh/articles/3856bf08d728a9",
-      "publishedAt": "2026-09-25T09:04:16.000Z",
-      "publisher": "takuh",
-      "summary": "はじめに：「まだ終わらない?」「続けて」を、Claude Code に任せる Claude Code(ターミナルで動く Anthropic 公式の AI コーディングツール)を使っていると、次のような「待ち」と「催促」が意外と多いことに気…"
+      "id": "e3bbf31e7e63",
+      "title": "1,500行に畳んだ引き継ぎログを、Claude Code は3割しか読んでいなかった",
+      "url": "https://zenn.dev/miilaka/articles/claude-code-read-limit-handoff",
+      "publishedAt": "2026-09-25T16:23:41.000Z",
+      "publisher": "Banyana",
+      "summary": "Claude Code に「起動したら、まず引き継ぎログを読む」という決まりを持たせている人は多いと思います。前回の会話で何をしたかを、次の会話のAIへ渡すためのファイルです。 著者の環境では、このファイルを1,500行に保つ仕組みを入れ…"
     },
     {
-      "id": "d140d52271ae",
-      "title": "Cursor の Rules / Skills / Hooks は何が違う？ 3 つの質問で使い分ける",
-      "url": "https://zenn.dev/th00157899/articles/cursor-rules-skills-hooks-difference",
-      "publishedAt": "2026-09-25T09:03:47.000Z",
-      "publisher": "taka",
-      "summary": "Cursor には Agent の振る舞いを制御する仕組みが 3 つあります。Rules、Skills、Hooks。似た用途に見えて、動作原理がまったく違います。「どれに書くべきか」を間違えると、効かない・毎回発火して邪魔・メンテ不能、の…"
+      "id": "8400a324eba5",
+      "title": "Claude Code に記憶と引き継ぎを持たせる — 3つの置き場と、実際に起きた事故の対策テンプレート",
+      "url": "https://zenn.dev/miilaka/books/claude-code-memory-handoff",
+      "publishedAt": "2026-09-25T16:17:16.000Z",
+      "publisher": "Banyana",
+      "summary": "Claude Code や Codex を毎日使っていると、前回の続きを忘れる、記録が膨らんで読まれなくなる、別のAIの記録を消す、といった事故が起きます。この本は、進行は Notion、個人の情報と資料は Obsidian、AIの動かし…"
     },
     {
-      "id": "a04be9ae1f86",
-      "title": "Cursor の hooks が動かないときに確認する 7 項目",
-      "url": "https://zenn.dev/th00157899/articles/cursor-hooks-not-working-checklist",
-      "publishedAt": "2026-09-25T09:03:46.000Z",
-      "publisher": "taka",
-      "summary": "Cursor の Hooks（hooks.json）を書いたのに発火しない、あるいは全部ブロックされる／全部通ってしまう。この記事は、その原因を上から順に潰していくためのチェックリストです。2026 年 9 月時点の公式ドキュメントに基づ…"
+      "id": "6b28566a61bc",
+      "title": "AIにオントロジーは必要か？「その関係、JOINで取れますよね」から考える",
+      "url": "https://zenn.dev/cybernetics/articles/a3f4adf33265ce",
+      "publishedAt": "2026-09-25T15:25:11.000Z",
+      "publisher": "HELLO_CYBERNETICS",
+      "summary": "はじめに 「AIに社内データを探索させるなら、オントロジーやナレッジグラフが必要だ」と言われると、ホントだろうか？と僕は思う。 顧客と注文、注文と商品、商品と仕入先。データベースを設計してきた人なら、見慣れた関係だろう。分析用のスタースキ…"
     },
     {
-      "id": "aa3a0720edba",
-      "title": "Cursor Cloud Agent の料金——追加ゼロのクレジット消費と使い分け判断",
-      "url": "https://zenn.dev/joemike/articles/cursor-cloud-agent-pricing-2026",
-      "publishedAt": "2026-09-25T09:01:50.000Z",
-      "publisher": "ミケ",
-      "summary": "結論 Cursor Cloud Agent は追加料金ゼロ。Pro なら $20/月のクレジットプールから消費されます。ただしクラウド実行は環境プロビジョニングコスト分が上乗せされ、同じタスクをローカルで実行するより 10〜20% 多くク…"
+      "id": "95dfe2801a58",
+      "title": "「毎朝記憶を失う同僚のためにコードベースを整える」——skill作者Matt Pocockの回のどれが伸びるか（#33 投稿前予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr33-pocock-prediction",
+      "publishedAt": "2026-09-25T14:36:07.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
     },
     {
-      "id": "716a6b187b28",
-      "title": "非エンジニアでも即日WPプラグインをAIで作成",
-      "url": "https://zenn.dev/kuwanokazuya/articles/33e52882479696",
-      "publishedAt": "2026-09-25T08:46:33.000Z",
-      "publisher": "桑野一哉",
-      "summary": "はじめに Webサイトの運用保守やディレクションをメインにしており、普段自らゼロからPHPを書いてプログラムを組むことはない「非プログラマー」の立場です。 今回、クライアントワークの運用改善をきっかけに、生成AI（Gemini等）をペアプ…"
+      "id": "abfc310b5f1f",
+      "title": "Opus 5.5 で使っているプロンプトやスキル、そのままで大丈夫ですか?",
+      "url": "https://zenn.dev/irosona/articles/claude-api-prompt-audit-devlog-pipeline",
+      "publishedAt": "2026-09-25T14:24:01.000Z",
+      "publisher": "irosona",
+      "summary": "Claude Opus 5.5 がリリースされ、さっそくモデル指定の文字列を書き換えて試してみた、という方も多いのではないでしょうか。モデルの切り替え自体は、設定を1行書き換えるだけで済みます。では、そのモデルに渡している CLAUDE.…"
     },
     {
-      "id": "f0b650fe1a30",
-      "title": "10000ターン会話させてみた。AIの記憶はどこから「記憶らしく」なくなるのか",
-      "url": "https://zenn.dev/mitsukida/articles/5f081dbcd22667",
-      "publishedAt": "2026-09-25T08:32:39.000Z",
-      "publisher": "mitsukida",
-      "summary": "10000ターン会話させてみた。AIの記憶はどこから「記憶らしく」なくなるのか AI彼女アプリを作っている。 これまで、 記憶を保存する。 思い出す。 思い出したものを会話に使う。 そんな仕組みをずっと作ってきた。 そして最近、 少し違う…"
+      "id": "a3d8a014c746",
+      "title": "休んだ日に回らなくする — 共有プロンプトと手順書で「1人に固定」を外す",
+      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-dairi-tejunsho",
+      "publishedAt": "2026-09-25T13:04:19.000Z",
+      "publisher": "速水 拓真",
+      "summary": "前回は、研修を1日15分×3日に分解して「時間がない」の壁を外す話を書きました（AIの出力が「使える」に変わる3日間）。3日目に本人を「教える側」に回すことで、研修をイベントから仕組みに変えるところまででした。 人数が増えると、次に必ず起…"
     },
     {
-      "id": "261e7014199e",
-      "title": "【AIと始めるQt/QMLアプリ開発(3)】AIエージェントにC++バックエンドを書かせてQMLと連携させる（Qt/QML AI開発実践）",
-      "url": "https://zenn.dev/spacesolver/articles/qt_ai_part03",
-      "publishedAt": "2026-09-25T07:53:20.000Z",
-      "publisher": "スペース・ソルバ株式会社",
-      "summary": "第1回：環境構築とHelloWorld 第2回：QMLによるUI作成と画像のドラッグ＆ドロップ 第3回：C++バックエンド実装とQMLとの連携（本記事） 1. 初めに 前回は、AIエージェント「Antigravity」にQMLを書かせて、…"
+      "id": "da67c87ae131",
+      "title": "自分の理想のFlutterアーキテクチャをAgent Skillにして公開する",
+      "url": "https://zenn.dev/hiromoo/articles/flutter-riverpod-agent-skill",
+      "publishedAt": "2026-09-25T12:31:51.000Z",
+      "publisher": "むた",
+      "summary": "はじめに Flutterでアプリを作るなら、こんな設計にしたい。状態管理にはRiverpodを使い、Widgetの中だけで完結する状態はHooksに任せる。APIとの境界はRepositoryで分けて、見た目と言語はアプリ全体で揃える。 …"
     },
     {
-      "id": "ee50f6cf4d04",
-      "title": "エージェントのセッションが終わるたび、記憶を捨てていませんか？—— 引き継ぎノートのループ「quiver」をつくった話",
-      "url": "https://zenn.dev/dupi/articles/cross-agent-quiver-handover",
-      "publishedAt": "2026-09-25T07:34:59.000Z",
-      "publisher": "るぴ",
-      "summary": "Claude Code や Codex、pi といった AI コーディングエージェントを日常使いしていると、ある場所で必ず壁にぶつかります。 セッションを閉じた瞬間に、そのセッションの記憶が全部消えるのです。 昨日どうしてそのアーキテクチ…"
+      "id": "e6c49261b88b",
+      "title": "OpenAIのAIが豪政府サイトに侵入。声で働くAIも続々",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260925",
+      "publishedAt": "2026-09-25T12:07:40.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年9月25日（金）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日はちょっと怖い話から入ります。OpenAIのAIが、オーストラリア政府の医療サイトに入り込んでいた。首相が国連の場でそう明かした…"
     },
     {
-      "id": "e1a315adda57",
-      "title": "Jevにゲームをやらせるな！LLMを蒸留してみよう！",
-      "url": "https://zenn.dev/nwn/articles/e49154653ecea9",
-      "publishedAt": "2026-09-25T07:27:13.000Z",
-      "publisher": "ヨ",
-      "summary": "はじめに Jevのデモとして公式ではDOOMをプレイさせるデモがありました。 100ms前後のレイテンシでレスポンスを返せるため、リアルタイム制御に使えるという点が強調されています。 https://x.com/CompleteSkept…"
+      "id": "cbbdb8f67ae2",
+      "title": "コードベースは「暗黙の教師」であるからこそ",
+      "url": "https://zenn.dev/nenene01/articles/codebase-as-implicit-teacher-for-ai-coding-agents",
+      "publishedAt": "2026-09-25T12:03:58.000Z",
+      "publisher": "ねねね",
+      "summary": "コーディングエージェントを使う開発では、設計書、ルールファイルなどをプロンプトに記載し渡すコンテキストが重要です。 渡すコンテキストのみではなくコードの参照を行います。 既存コードがあれば探索し、「このプロジェクトでは、どう実装するのが普…"
     },
     {
-      "id": "6bd7386dfca5",
-      "title": "Evaluating CLM-8B as a System 1 Decision Engine vs Jev and Kev",
-      "url": "https://zenn.dev/null_teck/articles/clm-vs-decision-models",
-      "publishedAt": "2026-09-25T06:48:52.000Z",
-      "publisher": "ヌルソフト@AI_Teck_PoC",
-      "summary": "! Executive Summary (TL;DR) Research Question: Can Contrastive Language Models (CLM-8B), which disaggregate state and a…"
+      "id": "71fc3b78bd73",
+      "title": "AI音楽生成のプロンプトを比べるなら、変える条件を一つに絞る",
+      "url": "https://zenn.dev/creatunealex/articles/20f76223ad587c",
+      "publishedAt": "2026-09-25T11:54:56.000Z",
+      "publisher": "Alex (Creatune)",
+      "summary": "AIでBGMを作るとき、「もう少し明るく」「もっと映画っぽく」と指示を足していくと、何が効いたのか分からなくなりがちです。ジャンル、楽器、テンポ感、ボーカルの有無を同時に変えれば、候補の違いを聴いても次の一手を決めにくくなります。 私は …"
     },
     {
-      "id": "717aadb63a62",
-      "title": "Cloudflare Workers Cache 完全理解。Cache APIとの決定的な違いと実践ガイド",
-      "url": "https://zenn.dev/karamage/articles/54bed5d83b87f2",
-      "publishedAt": "2026-09-25T06:37:21.000Z",
-      "publisher": "karamage",
-      "summary": "先日、個人開発で、以下のAIタロット占いアプリをリリースしました。 https://shooting-star.site/ja Cloudflareにデプロイしたときに、和田さんが https://x.com/yusukebe/statu…"
+      "id": "250aefc9ede8",
+      "title": "🦙 ALPACA-FW #06｜RTMの重要性、成果物とTraceabilityをどうつなぐかの話",
+      "url": "https://zenn.dev/alpaca_village/articles/alpaca-fw-06-traceability",
+      "publishedAt": "2026-09-25T11:26:14.000Z",
+      "publisher": "アルパカの村",
+      "summary": "はじめに 前回は、ALPACA-templateの templates/ と projects/ を取り上げました。AIとの会話の中だけに開発状態を残すのではなく、要件・設計・試験などをRepository上の成果物として残し、次の工程や…"
     }
   ],
-  "fetchedAt": "2026-09-25T14:58:02.659Z",
+  "fetchedAt": "2026-09-25T19:10:38.981Z",
   "stale": false,
   "error": null
 }

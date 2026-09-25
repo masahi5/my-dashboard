@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.29845",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit …",
-      "score": 10
+      "score": 51
     },
     {
       "id": "7f3b3adbe349",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.29362",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear wha…",
-      "score": 9
+      "score": 10
     },
     {
       "id": "f7dba85b2d40",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.29444",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "Deep search requires LLM agents to decompose complex queries, search for evidence, and synthesize grounded answers, yet…",
-      "score": 7
+      "score": 8
     },
     {
       "id": "fe10b90ca7b9",
@@ -35,23 +35,7 @@
       "url": "https://huggingface.co/papers/2609.30233",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states becaus…",
-      "score": 5
-    },
-    {
-      "id": "dc519da88a6e",
-      "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
-      "url": "https://huggingface.co/papers/2609.23087",
-      "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "Modern Transformer design and compression both reduce to allocating capacity under a budget. The standard scalars for t…",
-      "score": 4
-    },
-    {
-      "id": "f0cf27e78e83",
-      "title": "AgentKernel: The Trust-Native Agentic Operating System",
-      "url": "https://huggingface.co/papers/2609.29647",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "summary": "Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructio…",
-      "score": 4
+      "score": 6
     },
     {
       "id": "fc01b5a75030",
@@ -59,15 +43,31 @@
       "url": "https://huggingface.co/papers/2609.29421",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipel…",
-      "score": 3
+      "score": 6
     },
     {
-      "id": "9e9251538ec1",
-      "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
-      "url": "https://huggingface.co/papers/2609.29837",
+      "id": "dc519da88a6e",
+      "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+      "url": "https://huggingface.co/papers/2609.23087",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "Modern Transformer design and compression both reduce to allocating capacity under a budget. The standard scalars for t…",
+      "score": 6
+    },
+    {
+      "id": "577547032ba0",
+      "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+      "url": "https://huggingface.co/papers/2609.29028",
       "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside…",
-      "score": 3
+      "summary": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D se…",
+      "score": 5
+    },
+    {
+      "id": "f0cf27e78e83",
+      "title": "AgentKernel: The Trust-Native Agentic Operating System",
+      "url": "https://huggingface.co/papers/2609.29647",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "summary": "Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructio…",
+      "score": 5
     },
     {
       "id": "30bef1e5d175",
@@ -75,7 +75,7 @@
       "url": "https://huggingface.co/papers/2609.29816",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited p…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "b2c56e4f9da4",
@@ -83,7 +83,7 @@
       "url": "https://huggingface.co/papers/2609.29429",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative jud…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "1aeea28dc443",
@@ -91,7 +91,7 @@
       "url": "https://huggingface.co/papers/2609.28811",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "summary": "World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by joint…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "7ddfa9457912",
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2609.28923",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "Few-step autoregressive (AR) video diffusion enables low-latency streaming generation, but existing post-training metho…",
-      "score": 1
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-09-25T14:58:02.482Z",
+  "fetchedAt": "2026-09-25T19:10:38.860Z",
   "stale": false,
   "error": null
 }
