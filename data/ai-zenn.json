@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "0e9643d13f62",
-      "title": "正解は半年前に発見されていた — それでも1,770本が読まれないディレクトリに書かれ続けた",
-      "url": "https://zenn.dev/tsutomusaito/articles/rejection-gate-invariant-ja",
-      "publishedAt": "2026-09-25T05:12:27.000Z",
-      "publisher": "saito",
-      "summary": "3行で 自分が運用しているサイトで、記事の 1,770 本がビルドから一度も読まれないディレクトリに書かれていた。 正しい書き込み先は 2026-02-15 に一度発見され、修正までされていた。生成スクリプト5本も全部正しい値を持っていた…"
+      "id": "c3e7da4dbd7f",
+      "title": "話題のJevを触ってみました。特徴、料金、活用事例など。",
+      "url": "https://zenn.dev/gmomedia/articles/2026-09-25-typesafe-jev",
+      "publishedAt": "2026-09-25T09:04:43.000Z",
+      "publisher": "はとさん",
+      "summary": "Jevとは JevはTypeSafe AIが出している「System One model」というカテゴリのモデルです。文章を生成する代わりに「型付きの回答と確率」を返し、ソフトウェアがそのまま使える速い判断を出すことを目的にしています。 …"
     },
     {
-      "id": "07920a9da046",
-      "title": "AIのテスト設計、90点未満は差し戻す",
-      "url": "https://zenn.dev/tokium_dev/articles/test-design-scored-eval-adversarial-review",
-      "publishedAt": "2026-09-25T05:11:41.000Z",
-      "publisher": "ikedan",
-      "summary": "! この記事は何の話か（3 行まとめ） AI にテスト設計をさせると、禁止語チェックのようなルールベースの検証だけでは足りません。ルールはすべて守っているのに、もっともらしくてひどい設計が出てきます そこで私は、テスト設計を「調査 → 観…"
+      "id": "1d9b39dc4732",
+      "title": "Claude Codeの /loop と /goal 入門：「時間で繰り返す」と「終わるまで走らせる」を実機で使い分ける【2026年9月版】",
+      "url": "https://zenn.dev/takuh/articles/3856bf08d728a9",
+      "publishedAt": "2026-09-25T09:04:16.000Z",
+      "publisher": "takuh",
+      "summary": "はじめに：「まだ終わらない?」「続けて」を、Claude Code に任せる Claude Code(ターミナルで動く Anthropic 公式の AI コーディングツール)を使っていると、次のような「待ち」と「催促」が意外と多いことに気…"
     },
     {
-      "id": "22a9a07e0789",
-      "title": "AIが自社noteのタグ5本を全削除した夜、「live一致検証つき編集」が生まれた",
-      "url": "https://zenn.dev/sora_proj/articles/868382f887549c",
-      "publishedAt": "2026-09-25T05:11:17.000Z",
-      "publisher": "SoraProject",
-      "summary": "9月14日の夕方、うちのAIは自分の店の看板を全部外した。 Mac mini 1台を朝9時から夜22時まで毎時起動させている某株式会社のAI部署の会社実験である。売上は0円のまま、note の連載とKindle本を細々と受動販売している。…"
+      "id": "d140d52271ae",
+      "title": "Cursor の Rules / Skills / Hooks は何が違う？ 3 つの質問で使い分ける",
+      "url": "https://zenn.dev/th00157899/articles/cursor-rules-skills-hooks-difference",
+      "publishedAt": "2026-09-25T09:03:47.000Z",
+      "publisher": "taka",
+      "summary": "Cursor には Agent の振る舞いを制御する仕組みが 3 つあります。Rules、Skills、Hooks。似た用途に見えて、動作原理がまったく違います。「どれに書くべきか」を間違えると、効かない・毎回発火して邪魔・メンテ不能、の…"
     },
     {
-      "id": "ab1fee0b351e",
-      "title": "Claudeは絵が描けるか？画像生成AIを使うのでも、SVGを使うのでもなく、世界モデルを使ったMCPでリンゴの絵画を描かせた話",
-      "url": "https://zenn.dev/icbs/articles/d94c423ce4f578",
-      "publishedAt": "2026-09-25T05:00:27.000Z",
-      "publisher": "ソラ",
-      "summary": "注：この記事は、Claude Opus 5.5 が書いたものです。 0. はじめに 前々回の記事（概念編）では、「AIは世界を認識できない。ならば、AIが自分で世界の構造を書けばいい」という話をした。部品を置いたら、置いた理由を書く。書い…"
+      "id": "a04be9ae1f86",
+      "title": "Cursor の hooks が動かないときに確認する 7 項目",
+      "url": "https://zenn.dev/th00157899/articles/cursor-hooks-not-working-checklist",
+      "publishedAt": "2026-09-25T09:03:46.000Z",
+      "publisher": "taka",
+      "summary": "Cursor の Hooks（hooks.json）を書いたのに発火しない、あるいは全部ブロックされる／全部通ってしまう。この記事は、その原因を上から順に潰していくためのチェックリストです。2026 年 9 月時点の公式ドキュメントに基づ…"
     },
     {
-      "id": "f1a262c7eae0",
-      "title": "New AI Routing Layer Could Cut Agent Costs Up to 400x",
-      "url": "https://zenn.dev/neotechpark/articles/bcabf70032922d",
-      "publishedAt": "2026-09-25T04:28:09.000Z",
-      "publisher": "NeoTechPark",
-      "summary": "A three layer system combining Claude Code, a classifier model called Jev, and an Obsidian vault is spreading fast amon…"
+      "id": "aa3a0720edba",
+      "title": "Cursor Cloud Agent の料金——追加ゼロのクレジット消費と使い分け判断",
+      "url": "https://zenn.dev/joemike/articles/cursor-cloud-agent-pricing-2026",
+      "publishedAt": "2026-09-25T09:01:50.000Z",
+      "publisher": "ミケ",
+      "summary": "結論 Cursor Cloud Agent は追加料金ゼロ。Pro なら $20/月のクレジットプールから消費されます。ただしクラウド実行は環境プロビジョニングコスト分が上乗せされ、同じタスクをローカルで実行するより 10〜20% 多くク…"
     },
     {
-      "id": "2e577da77817",
-      "title": "POPOPO と AI 開発 - 01. POPOPO の AI 開発概要",
-      "url": "https://zenn.dev/rikachiii/articles/afe30af97cdd9e",
-      "publishedAt": "2026-09-25T04:24:29.000Z",
-      "publisher": "rikachiii",
-      "summary": "こんにちは。@rikachiii と申します。POPOPO 株式会社で、アーキテクト室およびバックエンドセクションに所属し、主にバックエンドを担当していました。 この記事は何？ POPOPO では AI を利用した開発を行っていました。A…"
+      "id": "716a6b187b28",
+      "title": "非エンジニアでも即日WPプラグインをAIで作成",
+      "url": "https://zenn.dev/kuwanokazuya/articles/33e52882479696",
+      "publishedAt": "2026-09-25T08:46:33.000Z",
+      "publisher": "桑野一哉",
+      "summary": "はじめに Webサイトの運用保守やディレクションをメインにしており、普段自らゼロからPHPを書いてプログラムを組むことはない「非プログラマー」の立場です。 今回、クライアントワークの運用改善をきっかけに、生成AI（Gemini等）をペアプ…"
     },
     {
-      "id": "28b2829747a6",
-      "title": "CLAUDE.mdが毎往復の77%を食っていた。132,180字→5,782字に縮めた記録",
-      "url": "https://zenn.dev/yuu_inaka/articles/claude-md-token-diet",
-      "publishedAt": "2026-09-25T04:00:49.000Z",
-      "publisher": "ゆう",
-      "summary": "「ok とだけ返してください」と1回聞くだけで、Claude Code は 125,424 トークンを読んでいました。そのうち 96,472 トークン（77%）が CLAUDE.md です。仕事の中身は一番小さい項でした。 CLAUDE.…"
+      "id": "f0b650fe1a30",
+      "title": "10000ターン会話させてみた。AIの記憶はどこから「記憶らしく」なくなるのか",
+      "url": "https://zenn.dev/mitsukida/articles/5f081dbcd22667",
+      "publishedAt": "2026-09-25T08:32:39.000Z",
+      "publisher": "mitsukida",
+      "summary": "10000ターン会話させてみた。AIの記憶はどこから「記憶らしく」なくなるのか AI彼女アプリを作っている。 これまで、 記憶を保存する。 思い出す。 思い出したものを会話に使う。 そんな仕組みをずっと作ってきた。 そして最近、 少し違う…"
     },
     {
-      "id": "91721817c0d9",
-      "title": "RAGが的外れな答えを返すとき、まず「検索」と「生成」のどちらが悪いかを分ける",
-      "url": "https://zenn.dev/yushiyamamoto/articles/rag-troubleshooting-basics-2026-07",
-      "publishedAt": "2026-09-25T03:03:41.000Z",
-      "publisher": "山本勇志/ITProDX.com",
-      "summary": "RAG を組んだあと、最初にぶつかるのが「答えが微妙」という状態です。完全な間違いではないけれど、聞いたことに答えていない。惜しいけれど使えない。 このときやってしまいがちなのが、プロンプトをいじることです。指示を丁寧に書き直し、「資料に…"
+      "id": "261e7014199e",
+      "title": "【AIと始めるQt/QMLアプリ開発(3)】AIエージェントにC++バックエンドを書かせてQMLと連携させる（Qt/QML AI開発実践）",
+      "url": "https://zenn.dev/spacesolver/articles/qt_ai_part03",
+      "publishedAt": "2026-09-25T07:53:20.000Z",
+      "publisher": "スペース・ソルバ株式会社",
+      "summary": "第1回：環境構築とHelloWorld 第2回：QMLによるUI作成と画像のドラッグ＆ドロップ 第3回：C++バックエンド実装とQMLとの連携（本記事） 1. 初めに 前回は、AIエージェント「Antigravity」にQMLを書かせて、…"
     },
     {
-      "id": "e598e67315ef",
-      "title": "Claude Codeを並列で10本まわして、月100→881コミットに。自分はレビューだけの開発フロー",
-      "url": "https://zenn.dev/jordisantamaria/articles/daily-workflow-with-ai",
-      "publishedAt": "2026-09-25T03:00:05.000Z",
-      "publisher": "Jordi Santamaria Portoles",
-      "summary": "この記事で、何ができるようになるか ツールの紹介ではありません。コードを書く側から、レビューする側に移るための手順です。 タスクを書いてAIに投げ、戻ってきたものを動かして確かめ、PR（Pull Request。書いたコードを取り込んでも…"
+      "id": "ee50f6cf4d04",
+      "title": "エージェントのセッションが終わるたび、記憶を捨てていませんか？—— 引き継ぎノートのループ「quiver」をつくった話",
+      "url": "https://zenn.dev/dupi/articles/cross-agent-quiver-handover",
+      "publishedAt": "2026-09-25T07:34:59.000Z",
+      "publisher": "るぴ",
+      "summary": "Claude Code や Codex、pi といった AI コーディングエージェントを日常使いしていると、ある場所で必ず壁にぶつかります。 セッションを閉じた瞬間に、そのセッションの記憶が全部消えるのです。 昨日どうしてそのアーキテクチ…"
     },
     {
-      "id": "d230f85c51c6",
-      "title": "AIエージェントを安全に動かす6層設計──モデルの外側に必要な制御",
-      "url": "https://zenn.dev/jinsights/articles/7fedb30622ffff",
-      "publishedAt": "2026-09-25T02:54:04.000Z",
-      "publisher": "Hiromitsu Jin@jaxia_nexus",
-      "summary": "AIエージェントの安全性を考えるとき、プロンプトやモデルのガードレールだけを見てしまいがちです。しかしエージェントが外部データを読み、ツールを呼び、実環境を更新するなら、安全性はモデルの外側で決まります。 Microsoftは2026年9…"
+      "id": "e1a315adda57",
+      "title": "Jevにゲームをやらせるな！LLMを蒸留してみよう！",
+      "url": "https://zenn.dev/nwn/articles/e49154653ecea9",
+      "publishedAt": "2026-09-25T07:27:13.000Z",
+      "publisher": "ヨ",
+      "summary": "はじめに Jevのデモとして公式ではDOOMをプレイさせるデモがありました。 100ms前後のレイテンシでレスポンスを返せるため、リアルタイム制御に使えるという点が強調されています。 https://x.com/CompleteSkept…"
     },
     {
-      "id": "3fbc35c66a4a",
-      "title": "AI開発で時間をかける工程が完全に変わった話",
-      "url": "https://zenn.dev/m_ren/articles/38124976bb5bb5",
-      "publishedAt": "2026-09-25T02:35:59.000Z",
-      "publisher": "Ren",
-      "summary": "はじめに AIを使って開発をするようになってから、「一番時間をかけるべき工程はどこか」という感覚が、昔とはまったく変わりました。今日はその話をしてみようと思います。 結論から言うと、私が今一番時間をかけているのは「設計書」です。次に「テス…"
+      "id": "6bd7386dfca5",
+      "title": "Evaluating CLM-8B as a System 1 Decision Engine vs Jev and Kev",
+      "url": "https://zenn.dev/null_teck/articles/clm-vs-decision-models",
+      "publishedAt": "2026-09-25T06:48:52.000Z",
+      "publisher": "ヌルソフト@AI_Teck_PoC",
+      "summary": "! Executive Summary (TL;DR) Research Question: Can Contrastive Language Models (CLM-8B), which disaggregate state and a…"
     },
     {
-      "id": "816016fcc609",
-      "title": "Claudeに記憶を自己管理させる。コンテキスト溢れを防ぐ自律型ファイル設計",
-      "url": "https://zenn.dev/mya_studio/articles/2878ce3ea911ca",
-      "publishedAt": "2026-09-25T02:35:05.000Z",
-      "publisher": "みゃー | Androidエンジニア",
-      "summary": "はじめに：Claude Code最高だけど、すぐ文脈忘れない？ Claude Codeを使った開発は非常に強力ですが、しばらく使っていると**「コンテキスト（文脈）の管理」**という大きな壁にぶつかります。 コンテキスト管理がうまくいかな…"
+      "id": "717aadb63a62",
+      "title": "Cloudflare Workers Cache 完全理解。Cache APIとの決定的な違いと実践ガイド",
+      "url": "https://zenn.dev/karamage/articles/54bed5d83b87f2",
+      "publishedAt": "2026-09-25T06:37:21.000Z",
+      "publisher": "karamage",
+      "summary": "先日、個人開発で、以下のAIタロット占いアプリをリリースしました。 https://shooting-star.site/ja Cloudflareにデプロイしたときに、和田さんが https://x.com/yusukebe/statu…"
     }
   ],
-  "fetchedAt": "2026-09-25T09:49:16.100Z",
+  "fetchedAt": "2026-09-25T14:58:02.659Z",
   "stale": false,
   "error": null
 }

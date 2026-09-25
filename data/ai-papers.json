@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "a66f0268f344",
-      "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
-      "url": "https://huggingface.co/papers/2609.23407",
-      "publishedAt": "2026-09-20T00:00:00.000Z",
-      "summary": "Humans can effortlessly localize the direction of a sound source and integrate it with visual cues for reasoning, yet t…",
-      "score": 16
+      "id": "ead7f5836951",
+      "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+      "url": "https://huggingface.co/papers/2609.29845",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit …",
+      "score": 10
     },
     {
       "id": "7f3b3adbe349",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.29362",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear wha…",
-      "score": 8
+      "score": 9
     },
     {
       "id": "f7dba85b2d40",
@@ -27,7 +27,23 @@
       "url": "https://huggingface.co/papers/2609.29444",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "Deep search requires LLM agents to decompose complex queries, search for evidence, and synthesize grounded answers, yet…",
+      "score": 7
+    },
+    {
+      "id": "fe10b90ca7b9",
+      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+      "url": "https://huggingface.co/papers/2609.30233",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states becaus…",
       "score": 5
+    },
+    {
+      "id": "dc519da88a6e",
+      "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+      "url": "https://huggingface.co/papers/2609.23087",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "summary": "Modern Transformer design and compression both reduce to allocating capacity under a budget. The standard scalars for t…",
+      "score": 4
     },
     {
       "id": "f0cf27e78e83",
@@ -38,11 +54,11 @@
       "score": 4
     },
     {
-      "id": "fe10b90ca7b9",
-      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
-      "url": "https://huggingface.co/papers/2609.30233",
+      "id": "fc01b5a75030",
+      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "url": "https://huggingface.co/papers/2609.29421",
       "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states becaus…",
+      "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipel…",
       "score": 3
     },
     {
@@ -54,28 +70,20 @@
       "score": 3
     },
     {
-      "id": "3dca3f224fd0",
-      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
-      "url": "https://huggingface.co/papers/2609.29964",
+      "id": "30bef1e5d175",
+      "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+      "url": "https://huggingface.co/papers/2609.29816",
       "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet ex…",
-      "score": 3
+      "summary": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited p…",
+      "score": 1
     },
     {
-      "id": "5d80f9d49da0",
-      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
-      "url": "https://huggingface.co/papers/2609.30221",
+      "id": "b2c56e4f9da4",
+      "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+      "url": "https://huggingface.co/papers/2609.29429",
       "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contempora…",
-      "score": 3
-    },
-    {
-      "id": "dc519da88a6e",
-      "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
-      "url": "https://huggingface.co/papers/2609.23087",
-      "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "Modern Transformer design and compression both reduce to allocating capacity under a budget. The standard scalars for t…",
-      "score": 2
+      "summary": "Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative jud…",
+      "score": 1
     },
     {
       "id": "1aeea28dc443",
@@ -83,14 +91,6 @@
       "url": "https://huggingface.co/papers/2609.28811",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "summary": "World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by joint…",
-      "score": 1
-    },
-    {
-      "id": "fc01b5a75030",
-      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
-      "url": "https://huggingface.co/papers/2609.29421",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipel…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-25T09:49:15.977Z",
+  "fetchedAt": "2026-09-25T14:58:02.482Z",
   "stale": false,
   "error": null
 }
