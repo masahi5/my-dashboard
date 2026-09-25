@@ -6,28 +6,28 @@
   "category": "ai",
   "items": [
     {
-      "id": "086b7bfa4bb5",
-      "title": "Training Object Permanence in World Models",
-      "url": "https://huggingface.co/papers/2609.28654",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation model…",
-      "score": 25
-    },
-    {
       "id": "a66f0268f344",
       "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
       "url": "https://huggingface.co/papers/2609.23407",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "summary": "Humans can effortlessly localize the direction of a sound source and integrate it with visual cues for reasoning, yet t…",
-      "score": 14
+      "score": 16
     },
     {
-      "id": "66ca53e86c24",
-      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
-      "url": "https://huggingface.co/papers/2609.28416",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environ…",
-      "score": 11
+      "id": "7f3b3adbe349",
+      "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+      "url": "https://huggingface.co/papers/2609.29362",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear wha…",
+      "score": 8
+    },
+    {
+      "id": "f7dba85b2d40",
+      "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+      "url": "https://huggingface.co/papers/2609.29444",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Deep search requires LLM agents to decompose complex queries, search for evidence, and synthesize grounded answers, yet…",
+      "score": 5
     },
     {
       "id": "f0cf27e78e83",
@@ -38,11 +38,11 @@
       "score": 4
     },
     {
-      "id": "f7dba85b2d40",
-      "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
-      "url": "https://huggingface.co/papers/2609.29444",
+      "id": "fe10b90ca7b9",
+      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+      "url": "https://huggingface.co/papers/2609.30233",
       "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Deep search requires LLM agents to decompose complex queries, search for evidence, and synthesize grounded answers, yet…",
+      "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states becaus…",
       "score": 3
     },
     {
@@ -54,6 +54,22 @@
       "score": 3
     },
     {
+      "id": "3dca3f224fd0",
+      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+      "url": "https://huggingface.co/papers/2609.29964",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet ex…",
+      "score": 3
+    },
+    {
+      "id": "5d80f9d49da0",
+      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+      "url": "https://huggingface.co/papers/2609.30221",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contempora…",
+      "score": 3
+    },
+    {
       "id": "dc519da88a6e",
       "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
       "url": "https://huggingface.co/papers/2609.23087",
@@ -62,28 +78,20 @@
       "score": 2
     },
     {
-      "id": "3dca3f224fd0",
-      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
-      "url": "https://huggingface.co/papers/2609.29964",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet ex…",
-      "score": 2
+      "id": "1aeea28dc443",
+      "title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
+      "url": "https://huggingface.co/papers/2609.28811",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by joint…",
+      "score": 1
     },
     {
-      "id": "5d80f9d49da0",
-      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
-      "url": "https://huggingface.co/papers/2609.30221",
+      "id": "fc01b5a75030",
+      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "url": "https://huggingface.co/papers/2609.29421",
       "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contempora…",
-      "score": 2
-    },
-    {
-      "id": "bf66d069a6f1",
-      "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
-      "url": "https://huggingface.co/papers/2609.30199",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses,…",
-      "score": 2
+      "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipel…",
+      "score": 1
     },
     {
       "id": "7ddfa9457912",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "Few-step autoregressive (AR) video diffusion enables low-latency streaming generation, but existing post-training metho…",
       "score": 1
-    },
-    {
-      "id": "6e66733852dc",
-      "title": "Rate-distortion optimization for full-reference image quality metrics via stochastic Hessian estimates",
-      "url": "https://huggingface.co/papers/2609.30077",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Block-based video codecs select coding parameters based on the input by optimizing a rate-distortion trade-off. The con…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-25T04:43:33.262Z",
+  "fetchedAt": "2026-09-25T09:49:15.977Z",
   "stale": false,
   "error": null
 }

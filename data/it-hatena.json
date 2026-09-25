@@ -11,7 +11,7 @@
       "url": "https://blog.shibayu36.org/entry/2026/09/24/173000",
       "publishedAt": "2026-09-24T13:05:41.000Z",
       "summary": "最近AIにブログ記事やドキュメントを書かせることが増えた。しかしAIに書かせると、余計な前提や補足が多くて一番言いたいことが埋もれてしまう。かといって「もっと短くして」と指示すると、今度は具体例など…",
-      "score": 287
+      "score": 364
     },
     {
       "id": "0f8e936d978b",
@@ -19,7 +19,7 @@
       "url": "https://zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
       "publishedAt": "2026-09-24T08:41:14.000Z",
       "summary": "はじめに 2026年9月中旬あたりから、タイムラインが急に「Jev」の話題で埋まりました。「LLMより200倍速い」「出力トークン無料」「ハルシネーションしない」と景気のいい言葉が並ぶ一方で、自分は…",
-      "score": 268
+      "score": 352
     },
     {
       "id": "05bfa9a75d58",
@@ -27,29 +27,14 @@
       "url": "https://note.com/choo/n/nf2a81eced17b",
       "publishedAt": "2026-09-24T13:20:05.000Z",
       "summary": "もう一年近くコードを一切書いていない。 ぼくは以前、ソフトウェアエンジニアとしてコードをかなり書いていたという自信がある。 仕事としては15年近く主にコードを書く職種だったし、個人開発を本格的に始め…",
-      "score": 183
-    },
-    {
-      "id": "14c6c8e23b25",
-      "title": "エージェント時代のソフトウェア開発：手書きコードの終了と全面的な楽観主義",
-      "url": "https://fasttube.cc/ja/v/vDjW_dRyKXY",
-      "publishedAt": "2026-09-24T13:19:21.000Z",
-      "summary": "ソフトウェア開発の歴史において、道具の進化は常にプログラマーの役割を定義し直してきた。Rails World 2026のオープニング基調講演に登壇したDavid Heinemeier Hansson…",
-      "score": 141
+      "score": 240
     },
     {
       "id": "aa740680ab06",
       "title": "「Python」のWindowsフルインストーラーが引退へ、「3.16」以降は提供されず／これからは「Python Install Manager」で導入・管理",
       "url": "https://forest.watch.impress.co.jp/docs/news/2142666.html",
       "publishedAt": "2026-09-24T23:11:39.000Z",
-      "score": 90
-    },
-    {
-      "id": "98d4c73671dc",
-      "title": "メモ帳としても便利に使える「GitHub」アプリ、エンジニアだけのツールじゃない [てっぱんアプリ！]",
-      "url": "https://k-tai.watch.impress.co.jp/docs/column/teppan/2142991.html",
-      "publishedAt": "2026-09-24T19:55:05.000Z",
-      "score": 77
+      "score": 122
     },
     {
       "id": "3c290fedafd3",
@@ -57,22 +42,36 @@
       "url": "https://levtech.jp/media/detail_931/",
       "publishedAt": "2026-09-25T01:45:38.000Z",
       "summary": "しんざき システムエンジニア、PM、ケーナ奏者、三児の父。南米民族音楽の演奏が趣味。仕事・育児・演奏活動の傍ら、レトロゲーム雑記ブログ「不倒城」を20年程運営している。 @shinzaki ブログ：…",
-      "score": 59
+      "score": 117
+    },
+    {
+      "id": "98d4c73671dc",
+      "title": "メモ帳としても便利に使える「GitHub」アプリ、エンジニアだけのツールじゃない [てっぱんアプリ！]",
+      "url": "https://k-tai.watch.impress.co.jp/docs/column/teppan/2142991.html",
+      "publishedAt": "2026-09-24T19:55:05.000Z",
+      "score": 109
+    },
+    {
+      "id": "b8dbc21cd335",
+      "title": "スマート冷蔵庫のファームウェアアップデート失敗で冷蔵機能が停止、食品が腐る事態に【やじうまWatch】",
+      "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2143157.html",
+      "publishedAt": "2026-09-25T03:34:17.000Z",
+      "score": 87
+    },
+    {
+      "id": "dd931af0b0a6",
+      "title": "グーグル「Gemini」に電話代行の新機能 レストラン予約もお任せ",
+      "url": "https://japan.cnet.com/article/35252958/",
+      "publishedAt": "2026-09-25T02:26:41.000Z",
+      "summary": "Googleは米国時間9月24日、モバイル版「Gemini」のAI機能を拡張し、日常の電話をユーザーに代わってこなす、新たなAIエージェント機能を発表した。世界中の内向的な人に朗報だ。ただし、細かな…",
+      "score": 81
     },
     {
       "id": "d9d19d9a517b",
       "title": "【西川善司のグラフィックスMANIAC】 DLSS 5の正体は1回推論の画像生成AI、NVIDIAが明かした3D誘導型の中身とは",
       "url": "https://pc.watch.impress.co.jp/docs/column/zenji/2142631.html",
       "publishedAt": "2026-09-24T21:18:01.000Z",
-      "score": 50
-    },
-    {
-      "id": "6042ff5d470a",
-      "title": "Go言語で書かれた高速なIDE「Rune」、オープンソースで公開。ターミナルとコマンドプロンプト中心の開発環境、複数リモートノードをローカルのように操作可能",
-      "url": "https://www.publickey1.jp/blog/26/goiderune.html",
-      "publishedAt": "2026-09-24T18:36:01.000Z",
-      "summary": "Go言語で書かれた高速なIDE「Rune」、オープンソースで公開。ターミナルとコマンドプロンプト中心の開発環境、複数リモートノードをローカルのように操作可能 RuneはGo言語によるネイティブアプリ…",
-      "score": 50
+      "score": 72
     },
     {
       "id": "c3cfc5968015",
@@ -80,7 +79,7 @@
       "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001729/",
       "publishedAt": "2026-09-24T23:23:13.000Z",
       "summary": "障害は、23日午前8時55分から午後6時ごろまでの9時間にわたり、北海道と九州を除く「J:COM NET」の提供エリアと、JCOMがネットサービスを提供するケーブルテレビ事業者のエリアの一部で発生。…",
-      "score": 46
+      "score": 66
     },
     {
       "id": "20a9ae2a764c",
@@ -88,18 +87,18 @@
       "url": "https://www.nikkei.com/article/DGXZQOUC07AL40X00C26A9000000/",
       "publishedAt": "2026-09-24T22:23:31.000Z",
       "summary": "人工知能（AI）向けのデータセンターを構築する資金の調達手法が複雑になっている。画像処理半導体（GPU）を担保にして金融機関が融資したり、ローンを証券化したりしている。「錬金術」の側面があり、AIの…",
-      "score": 43
+      "score": 56
     },
     {
-      "id": "047e8e26894a",
-      "title": "JCOM ネット障害 最大約408万世帯に影響 外部から大量アクセス | NHKニュース",
-      "url": "https://news.web.nhk/newsweb/na/nd-20260924de52196",
-      "publishedAt": "2026-09-24T08:00:13.000Z",
-      "summary": "ケーブルテレビ大手の「JCOM」は23日発生したインターネット接続サービスの障害によって、最大およそ408万世帯に影響が確認されたと発表しました。 原因については、外部から大量のアクセスがあったこと…",
-      "score": 30
+      "id": "47a2311178b3",
+      "title": "月30万円かかるAIは「学習しない社員」だった――LayerXが回し始めた仕事の“自己改善ループ”",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/25/news019.html",
+      "publishedAt": "2026-09-25T00:46:19.000Z",
+      "summary": "筆者プロフィール：斎藤健二 金融・Fintechジャーナリスト。2000年よりWebメディア運営に従事し、アイティメディア社にて複数媒体の創刊編集長を務めたほか、ビジネスメディアやねとらぼなどの創刊…",
+      "score": 47
     }
   ],
-  "fetchedAt": "2026-09-25T04:43:36.027Z",
+  "fetchedAt": "2026-09-25T09:49:17.650Z",
   "stale": false,
   "error": null
 }

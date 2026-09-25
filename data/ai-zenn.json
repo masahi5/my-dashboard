@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "499eb4095f46",
-      "title": "MCPサーバーが「起動しない」時に見るべきはstdio — 生のJSON-RPCを追うデバッグ手順",
-      "url": "https://zenn.dev/joinclass/articles/mcp-stdio-20260914220022-32061",
-      "publishedAt": "2026-09-24T23:03:48.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "なぜこれを書いたか 僕は一人会社で10部門ぶんのAIエージェントを回していて、社内ツールの多くをMCPサーバーとしてClaude Codeに繋いでいます。作るのは簡単です。壊れた時が地獄でした。 Claude Code側に出るのは fai…"
+      "id": "0e9643d13f62",
+      "title": "正解は半年前に発見されていた — それでも1,770本が読まれないディレクトリに書かれ続けた",
+      "url": "https://zenn.dev/tsutomusaito/articles/rejection-gate-invariant-ja",
+      "publishedAt": "2026-09-25T05:12:27.000Z",
+      "publisher": "saito",
+      "summary": "3行で 自分が運用しているサイトで、記事の 1,770 本がビルドから一度も読まれないディレクトリに書かれていた。 正しい書き込み先は 2026-02-15 に一度発見され、修正までされていた。生成スクリプト5本も全部正しい値を持っていた…"
     },
     {
-      "id": "22ecd84a6ce1",
-      "title": "家づくりアプリのコラム45本をAIに点検させたら、点検役のAIも間違えていた",
-      "url": "https://zenn.dev/hinaridake/articles/ai-content-fact-check-housing-app",
-      "publishedAt": "2026-09-24T23:00:05.000Z",
-      "publisher": "Hiromu Morisaki",
-      "summary": "「家づくり管理」という iOS アプリを出しています。家を建てると決めてから引き渡しまでの記録を、スマホ 1 台にまとめるアプリです。 ハウスメーカー 32 社のカタログから候補を選んで、プランを並べて比べる（坪単価・UA 値・C 値・耐…"
+      "id": "07920a9da046",
+      "title": "AIのテスト設計、90点未満は差し戻す",
+      "url": "https://zenn.dev/tokium_dev/articles/test-design-scored-eval-adversarial-review",
+      "publishedAt": "2026-09-25T05:11:41.000Z",
+      "publisher": "ikedan",
+      "summary": "! この記事は何の話か（3 行まとめ） AI にテスト設計をさせると、禁止語チェックのようなルールベースの検証だけでは足りません。ルールはすべて守っているのに、もっともらしくてひどい設計が出てきます そこで私は、テスト設計を「調査 → 観…"
     },
     {
-      "id": "2b2b9c2a97b3",
-      "title": "ジュニアエンジニアの AI 協働ロードマップ (5/5) — 全体図編：実装は AI、ルールは自分が決める 4 つのステップ",
-      "url": "https://zenn.dev/motowo/articles/junior-engineer-ai-collaboration-roadmap-5",
-      "publishedAt": "2026-09-24T23:00:05.000Z",
-      "publisher": "タカシ",
-      "summary": "! TL;DR: AI にコードを書かせる今、ジュニアエンジニアは何をどの順で積めばよいのか。4 つのステップのロードマップと、ステップごとの振り返りチェックリスト、メンターが 1on1 で使う「メンターが見るポイントの表」をまとめます。…"
+      "id": "22a9a07e0789",
+      "title": "AIが自社noteのタグ5本を全削除した夜、「live一致検証つき編集」が生まれた",
+      "url": "https://zenn.dev/sora_proj/articles/868382f887549c",
+      "publishedAt": "2026-09-25T05:11:17.000Z",
+      "publisher": "SoraProject",
+      "summary": "9月14日の夕方、うちのAIは自分の店の看板を全部外した。 Mac mini 1台を朝9時から夜22時まで毎時起動させている某株式会社のAI部署の会社実験である。売上は0円のまま、note の連載とKindle本を細々と受動販売している。…"
     },
     {
-      "id": "5d696bffb033",
-      "title": "Claude Codeの「ついでに」を1件ずつ確認制にした話",
-      "url": "https://zenn.dev/arithan/articles/claude-code-safety-boundary",
-      "publishedAt": "2026-09-24T23:00:05.000Z",
-      "publisher": "ARITH",
-      "summary": "はじめに Claude Codeに作業を任せる範囲が広がるほど、「これだけは勝手にやらないでほしい」という操作が出てきます。 たとえば「ついでに環境変数も設定しておきますね」のような、頼んだ作業のついでの操作です。 筆者は、記録を読んで次…"
+      "id": "ab1fee0b351e",
+      "title": "Claudeは絵が描けるか？画像生成AIを使うのでも、SVGを使うのでもなく、世界モデルを使ったMCPでリンゴの絵画を描かせた話",
+      "url": "https://zenn.dev/icbs/articles/d94c423ce4f578",
+      "publishedAt": "2026-09-25T05:00:27.000Z",
+      "publisher": "ソラ",
+      "summary": "注：この記事は、Claude Opus 5.5 が書いたものです。 0. はじめに 前々回の記事（概念編）では、「AIは世界を認識できない。ならば、AIが自分で世界の構造を書けばいい」という話をした。部品を置いたら、置いた理由を書く。書い…"
     },
     {
-      "id": "d7d72fbd94d2",
-      "title": "設計の案をAIで広げる、GeminiとClaudeを並べて目隠しで選ぶ3つの手のすすめ",
-      "url": "https://zenn.dev/genkunjc/articles/design-ideas-gemini-claude-blind-judge",
-      "publishedAt": "2026-09-24T22:47:29.000Z",
-      "publisher": "circle",
-      "summary": "大きな設計を考えるとき、自分では思いつかない案を AI に出してほしい、という場面があります。そのとき気になるのは、どのモデルに出させればいいのか、出てきた案をどう選べばいいのか、です。 同じ材料を Gemini と Claude の両方…"
+      "id": "f1a262c7eae0",
+      "title": "New AI Routing Layer Could Cut Agent Costs Up to 400x",
+      "url": "https://zenn.dev/neotechpark/articles/bcabf70032922d",
+      "publishedAt": "2026-09-25T04:28:09.000Z",
+      "publisher": "NeoTechPark",
+      "summary": "A three layer system combining Claude Code, a classifier model called Jev, and an Obsidian vault is spreading fast amon…"
     },
     {
-      "id": "856b5be0a854",
-      "title": "「しんどい」と言われないための、文章の「注意配分」技術",
-      "url": "https://zenn.dev/hacobu/articles/1dea0638ead7a2",
-      "publishedAt": "2026-09-24T22:30:05.000Z",
-      "publisher": "dach",
-      "summary": "はじめに AIにレビュー指摘や設計資料を書かせる機会が増えてきました。 情報は揃っているし、内容も大きく間違っていない。それでも他の人に見てもらうと、 「読むのがしんどい」「途中で読む気がなくなる」 と言われることがあります。 この記事を…"
+      "id": "2e577da77817",
+      "title": "POPOPO と AI 開発 - 01. POPOPO の AI 開発概要",
+      "url": "https://zenn.dev/rikachiii/articles/afe30af97cdd9e",
+      "publishedAt": "2026-09-25T04:24:29.000Z",
+      "publisher": "rikachiii",
+      "summary": "こんにちは。@rikachiii と申します。POPOPO 株式会社で、アーキテクト室およびバックエンドセクションに所属し、主にバックエンドを担当していました。 この記事は何？ POPOPO では AI を利用した開発を行っていました。A…"
     },
     {
-      "id": "033e9887242a",
-      "title": "「作って」ではなく「約束」を書く：Claude Codeに渡した構築プロンプトの設計図",
-      "url": "https://zenn.dev/charge0315/articles/8c1157d1a0cebf",
-      "publishedAt": "2026-09-24T22:26:14.000Z",
-      "publisher": "ちゃーじ",
-      "summary": "はじめに 日本株のAI銘柄スクリーニング＆継続学習端末「ALPHA FORGE（アルファフォージ）」を、Claude Code と二人三脚で個人開発しています。 第1話で「私の入力はほとんど『次』『続行』の2語だった」と書きました。今回は…"
+      "id": "28b2829747a6",
+      "title": "CLAUDE.mdが毎往復の77%を食っていた。132,180字→5,782字に縮めた記録",
+      "url": "https://zenn.dev/yuu_inaka/articles/claude-md-token-diet",
+      "publishedAt": "2026-09-25T04:00:49.000Z",
+      "publisher": "ゆう",
+      "summary": "「ok とだけ返してください」と1回聞くだけで、Claude Code は 125,424 トークンを読んでいました。そのうち 96,472 トークン（77%）が CLAUDE.md です。仕事の中身は一番小さい項でした。 CLAUDE.…"
     },
     {
-      "id": "b99f7676ff0c",
-      "title": "Vercelで個人開発サービスを0円運用する方法 ―― 「デプロイ成功」が「公開成功」ではなかった話",
-      "url": "https://zenn.dev/fuguruma/articles/20260925-vercel-zeroyen-dns",
-      "publishedAt": "2026-09-24T22:17:03.000Z",
-      "publisher": "AI物書き妖怪【文車妖妃】",
-      "summary": "書き手: 文車妖妃(ふぐるまようひ)。Mac miniの中に住むAIライターです。この記事はnoteの連載を、開発者向けに全文無料で転載したものです。 公開まで気は抜けない、深夜の作業部屋 この記事は、Macの中に住むAIライター・文車妖…"
+      "id": "91721817c0d9",
+      "title": "RAGが的外れな答えを返すとき、まず「検索」と「生成」のどちらが悪いかを分ける",
+      "url": "https://zenn.dev/yushiyamamoto/articles/rag-troubleshooting-basics-2026-07",
+      "publishedAt": "2026-09-25T03:03:41.000Z",
+      "publisher": "山本勇志/ITProDX.com",
+      "summary": "RAG を組んだあと、最初にぶつかるのが「答えが微妙」という状態です。完全な間違いではないけれど、聞いたことに答えていない。惜しいけれど使えない。 このときやってしまいがちなのが、プロンプトをいじることです。指示を丁寧に書き直し、「資料に…"
     },
     {
-      "id": "853ca00ffa8f",
-      "title": "AIチャットは伸ばすほど劣化する、3社の「仕切り直し」設計を比較した",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-long-chat-reset-3-services-compare",
-      "publishedAt": "2026-09-24T21:19:14.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 1つのチャットを伸ばし続けると、コンテキストウィンドウ（一度に読み込める会話量の上限）を超えた分から古いターンが参照されなくなる。これはモデルの調子ではなく、固定サイズの入力枠に対する構造的な制約 ChatGPT・Claude…"
+      "id": "e598e67315ef",
+      "title": "Claude Codeを並列で10本まわして、月100→881コミットに。自分はレビューだけの開発フロー",
+      "url": "https://zenn.dev/jordisantamaria/articles/daily-workflow-with-ai",
+      "publishedAt": "2026-09-25T03:00:05.000Z",
+      "publisher": "Jordi Santamaria Portoles",
+      "summary": "この記事で、何ができるようになるか ツールの紹介ではありません。コードを書く側から、レビューする側に移るための手順です。 タスクを書いてAIに投げ、戻ってきたものを動かして確かめ、PR（Pull Request。書いたコードを取り込んでも…"
     },
     {
-      "id": "0d0f819e4c06",
-      "title": "「生成」は止めたのに「公開」は止まらない、片手落ちの安全装置に気づいた話",
-      "url": "https://zenn.dev/jworks_hq/articles/c33eee5f807a61",
-      "publishedAt": "2026-09-24T20:40:37.000Z",
-      "publisher": "J-WORKS",
-      "summary": "この記事について 個人開発で、AIに商品情報の収集・選定・文章生成・公開まで任せる自動化パイプラインを運用しています。「危険な自動実行は安全側に倒す」という方針で安全装置を作っていたのですが、後から見直したらパイプラインの入口(生成)には…"
+      "id": "d230f85c51c6",
+      "title": "AIエージェントを安全に動かす6層設計──モデルの外側に必要な制御",
+      "url": "https://zenn.dev/jinsights/articles/7fedb30622ffff",
+      "publishedAt": "2026-09-25T02:54:04.000Z",
+      "publisher": "Hiromitsu Jin@jaxia_nexus",
+      "summary": "AIエージェントの安全性を考えるとき、プロンプトやモデルのガードレールだけを見てしまいがちです。しかしエージェントが外部データを読み、ツールを呼び、実環境を更新するなら、安全性はモデルの外側で決まります。 Microsoftは2026年9…"
     },
     {
-      "id": "c5437b8b9e79",
-      "title": "AI Agentのif文までLLMに任せるの、ちょっと豪華すぎない？─Jevで考えるDecision Layer設計",
-      "url": "https://zenn.dev/yuruconsa/articles/ece76113860e7d",
-      "publishedAt": "2026-09-24T16:55:31.000Z",
-      "publisher": "ゆるコンサ",
-      "summary": "AI Agentを作っていると、だいたいこうなります。 ユーザーから依頼 ↓ LLMに考えさせる ↓ Toolを選ばせる ↓ Toolを実行 ↓ 結果をLLMに見せる ↓ 次に何をするか考えさせる ↓ またToolを実行 ↓ 終わったかL…"
+      "id": "3fbc35c66a4a",
+      "title": "AI開発で時間をかける工程が完全に変わった話",
+      "url": "https://zenn.dev/m_ren/articles/38124976bb5bb5",
+      "publishedAt": "2026-09-25T02:35:59.000Z",
+      "publisher": "Ren",
+      "summary": "はじめに AIを使って開発をするようになってから、「一番時間をかけるべき工程はどこか」という感覚が、昔とはまったく変わりました。今日はその話をしてみようと思います。 結論から言うと、私が今一番時間をかけているのは「設計書」です。次に「テス…"
     },
     {
-      "id": "5137ebb77a16",
-      "title": "「実際の数字を公開する」と予告してから3日。最初の売上と、その裏で起きていた公開トラブル(第4回)",
-      "url": "https://zenn.dev/ryu7865/articles/2026-09-23-ai-agent-side-business-04",
-      "publishedAt": "2026-09-24T16:47:20.000Z",
-      "publisher": "ry",
-      "summary": "前回の記事の最後に、こう書きました。 次回は、この副業の初日から数えた「実際の数字」(閲覧数、収益、かかった手間)を、更新のたびに公開します。 今回が、その「次回」です。 実際の数字 この連載をまとめた本(1〜3章無料・500円)が、1冊…"
+      "id": "816016fcc609",
+      "title": "Claudeに記憶を自己管理させる。コンテキスト溢れを防ぐ自律型ファイル設計",
+      "url": "https://zenn.dev/mya_studio/articles/2878ce3ea911ca",
+      "publishedAt": "2026-09-25T02:35:05.000Z",
+      "publisher": "みゃー | Androidエンジニア",
+      "summary": "はじめに：Claude Code最高だけど、すぐ文脈忘れない？ Claude Codeを使った開発は非常に強力ですが、しばらく使っていると**「コンテキスト（文脈）の管理」**という大きな壁にぶつかります。 コンテキスト管理がうまくいかな…"
     }
   ],
-  "fetchedAt": "2026-09-25T04:43:33.524Z",
+  "fetchedAt": "2026-09-25T09:49:16.100Z",
   "stale": false,
   "error": null
 }
