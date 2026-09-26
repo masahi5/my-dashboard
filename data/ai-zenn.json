@@ -6,60 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "530fd559924a",
-      "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
-      "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
-      "publishedAt": "2026-09-26T11:26:39.000Z",
-      "publisher": "mazrean",
-      "summary": "自分は Go Proposal Weekly Digest というサイトを個人で運用しています。 https://go-proposal-weekly-digest.mazrean.com Go 言語の Proposal と呼ばれる言語機…"
-    },
-    {
-      "id": "73310cd962c1",
-      "title": "AIがDNSで外部へ出た。では、インフラはどう止めるべきだったか",
-      "url": "https://zenn.dev/git_dungeon/articles/ai-dns-egress-containment",
-      "publishedAt": "2026-09-26T11:26:17.000Z",
-      "publisher": "黒パグ｜攻略本シリーズ",
-      "summary": "こんにちは、黒パグです。 以前、インフラを擬人化した記事を書きました。そこでPrometheusちゃんに言わせた台詞が、これです。 「えへへ、見てるだけ、ですからねっ！」 出典：懺悔室へようこそ――インフラ擬人化から学ぶモダンスタック全解…"
-    },
-    {
-      "id": "56d11f4dd8f8",
-      "title": "Salesforce管理者の日常業務をClaude Codeで効率化する｜ユーザー管理・権限セット・SOQLクエリの自動化実践",
-      "url": "https://zenn.dev/pacific_creator/articles/6a6f35d73f64bd",
-      "publishedAt": "2026-09-26T10:50:54.000Z",
-      "publisher": "sr_mc_ai_06",
-      "summary": "はじめに 「権限セットの作成、また溜まってる...」 「50人分のユーザー登録、今日中に終わるかな」。 そんな風に思いながら設定画面を開いたこと、ありませんか。 Salesforce管理者の仕事って、実はユーザー管理・権限セット・SOQL…"
-    },
-    {
-      "id": "04afefa5893d",
-      "title": "AI に頼んでいるのは『実装』ですか、『開発』ですか ── AI 時代のソフトウェア開発を考える",
-      "url": "https://zenn.dev/lambda_funtaro/articles/493c7143876ad8",
-      "publishedAt": "2026-09-26T10:34:00.000Z",
-      "publisher": "入田 関太郎(らむだ ふぁんたろう)",
-      "summary": "! 三行で 開発とは、コードを通じて対象を理解し、その理解を残すこと AI に実装を頼むと、動いて終わり、理由は消える 「開発」を定義して、エージェントに渡そう 久々に記事を書く。 最近は、コードの大半を AI エージェントに書かせている…"
-    },
-    {
-      "id": "ed4d46a6108b",
-      "title": "社内のAIが、社内の別のAIが出した提案を却下した話",
-      "url": "https://zenn.dev/limit_lab_works/articles/ai-committee-rejected-ai-proposal",
-      "publishedAt": "2026-09-26T10:15:10.000Z",
-      "publisher": "限界社会人（LIMIT LAB WORKS）",
-      "summary": "結論から言う。自分たちの会社では、AI同士が役割を分けて仕事をしている。先日、「市場調査担当のAI」が出した投資提案を、「投資判断担当のAI」が独立に採点し直し、評価をひっくり返して却下した。しかも最終的には人間の自分が、AIの却下案より…"
-    },
-    {
-      "id": "d15389abf6d7",
-      "title": "terraform apply で何が起きるのか【AI の Terraform 暴走を止める #4】",
-      "url": "https://zenn.dev/e8dev/articles/terraform-apply-ai-review",
-      "publishedAt": "2026-09-26T09:35:06.000Z",
-      "publisher": "e8dev",
-      "summary": "AI が書いた Terraform の実行を承認する立場の人に向けて、基本コマンドを 1 本ずつ「機構 / 設計意図 / AI を止めるサイン」の 3 問で解説するシリーズの 4 本目です。前回は plan の記号を読む: -/+ は一度…"
-    },
-    {
       "id": "767f2d2974d6",
       "title": "AIエージェントで転職活動を効率化する方法：経歴棚卸から書類生成、求人サイト登録まで",
       "url": "https://zenn.dev/ooh_gaoh/articles/3a4bee0eef31a6",
       "publishedAt": "2026-09-26T09:21:05.000Z",
       "publisher": "うーがおー！",
-      "summary": "はじめまして、ソフトウェアエンジニアのうーがおー！です。 昨日ヤニネコのアニメ最終回が放送されたので、日本の雇用の流動性が上がることを願い、 AIエージェントを利用した効率的な転職活動の進め方について書いていきます。 この記事では、私のC…"
+      "summary": "はじめまして、独身のソフトウェアエンジニアのうーがおー！です。 昨日ヤニネコのアニメ最終回が放送されたので、日本の雇用の流動性が上がることを願い、AIエージェントを利用した効率的な転職活動の進め方について書いていきます。 この記事では、私…"
     },
     {
       "id": "8a5617ca2f7c",
@@ -100,9 +52,57 @@
       "publishedAt": "2026-09-26T07:27:04.000Z",
       "publisher": "アニクマ",
       "summary": "「AIに指示するだけで、コードを一行も理解せずにツールアプリが作れる。週末に1個ずつ作って半年で20個ストアに並べれば、置いておくだけで月10〜20万円の不労所得になる」 こういう主張を読むたびに、私はいつも同じことを思う。本当にそんなに…"
+    },
+    {
+      "id": "6ca0eeb40b51",
+      "title": "AIエージェントに必要なのは、賢さより先に「壊れない実行OS」かもしれない",
+      "url": "https://zenn.dev/emilia_lab/articles/cognitive-agent-os-safety-kernel",
+      "publishedAt": "2026-09-26T07:26:30.000Z",
+      "publisher": "エミリアラボ",
+      "summary": "AIエージェントを作っていると、つい「もっと賢いモデル」「もっと強い推論」「もっと自律的な実行」に目が行きがちだ。 でも、実際に自分の作業環境でエージェントを動かしていくと、別の問題が先に出てくる。 それは、賢さより前に、壊れないことだ。…"
+    },
+    {
+      "id": "f24eb42badce",
+      "title": "AIの意見を聞かない技術 第5回：自動テストを書かない技術",
+      "url": "https://zenn.dev/garplab/articles/b64873fd4c4685",
+      "publishedAt": "2026-09-26T07:19:52.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「AIの意見を聞かない技術」の第 5 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全…"
+    },
+    {
+      "id": "11fd1619e94e",
+      "title": "CBN 取扱説明書 第 8 章 — 規則はプロンプトより、誰が判定するかで決まる",
+      "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-08-principles-and-freeze",
+      "publishedAt": "2026-09-26T07:08:44.000Z",
+      "publisher": "AIでどんぶらこ",
+      "summary": "第 7 章までで、CBN の部品と手順をひととおり書いた。この最終章では、部品でも手順でもなく、それらを作っては止めるあいだに豪生と私が学んだ三つのことを書く。凍結の経緯、私と豪生の判断の分担と話法、そして失敗のたびに問いとして残した十一…"
+    },
+    {
+      "id": "ec0dff6302e4",
+      "title": "AIで3Dモデリング",
+      "url": "https://zenn.dev/polygoro/articles/006-ai-3d-modeling",
+      "publishedAt": "2026-09-26T05:54:04.000Z",
+      "publisher": "ポリ五郎",
+      "summary": "こんにちは、ポリ五郎です。 今回はAIにPolyScriptのドキュメントを読み込ませて、実用的な3Dモデルを生成する 実験を行います。 お題は、コップ、スプーン、石鹸トレー、歯ブラシスタンド、芸術的な壺。 5つともAIが寸法を決め、コー…"
+    },
+    {
+      "id": "d01fd5f62e58",
+      "title": "究極の並行作業効率を求めて #1 ―― Herdr の導入と、トークン上限に当たらないための最初の対策",
+      "url": "https://zenn.dev/circularuins/articles/herdr-parallel-token-economy",
+      "publishedAt": "2026-09-26T05:49:28.000Z",
+      "publisher": "circularuins",
+      "summary": "1日にこなせる作業を限界まで増やすために、Claude Code で並行作業をする環境の改善を続けています。この記事はその第一弾です。 2026年9月に、Claude Code のセッションを並べて動かすツール、Herdr を導入しました…"
+    },
+    {
+      "id": "42b4d50f0ae2",
+      "title": "【播但道値上げいつから？】新料金と150円加算の影響",
+      "url": "https://zenn.dev/aiasoby/articles/asoby-tech-1160",
+      "publishedAt": "2026-09-26T05:31:25.000Z",
+      "publisher": "大人のAIアソビ",
+      "summary": "💡 本記事について 本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開し…"
     }
   ],
-  "fetchedAt": "2026-09-26T14:38:37.690Z",
+  "fetchedAt": "2026-09-26T18:01:55.039Z",
   "stale": false,
   "error": null
 }
