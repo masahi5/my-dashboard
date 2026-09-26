@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "56d11f4dd8f8",
-      "title": "Salesforce管理者の日常業務をClaude Codeで効率化する｜ユーザー管理・権限セット・SOQLクエリの自動化実践",
-      "url": "https://zenn.dev/pacific_creator/articles/6a6f35d73f64bd",
-      "publishedAt": "2026-09-26T10:50:54.000Z",
-      "publisher": "sr_mc_ai_06",
-      "summary": "はじめに 「権限セットの作成、また溜まってる...」 「50人分のユーザー登録、今日中に終わるかな」。 そんな風に思いながら設定画面を開いたこと、ありませんか。 Salesforce管理者の仕事って、実はユーザー管理・権限セット・SOQL…"
+      "id": "a3468a5549c7",
+      "title": "仕様回答ボットを自作し、回答の評価と使う価値の確かめ方を見直した",
+      "url": "https://zenn.dev/oakensushi/articles/337b3004651c84",
+      "publishedAt": "2026-09-26T16:34:22.000Z",
+      "publisher": "OakenSushi",
+      "summary": "はじめまして。福岡でフリーランスのエンジニアをしています。普段は、業務システムの要件整理から設計・実装、運用までを担当しています。 今更かもしれませんが、この記事では、開発から運用、直近のリニューアルまで担当しているシステムを題材に、仕様…"
     },
     {
-      "id": "04afefa5893d",
-      "title": "AI に頼んでいるのは『実装』ですか、『開発』ですか ── AI 時代のソフトウェア開発を考える",
-      "url": "https://zenn.dev/lambda_funtaro/articles/493c7143876ad8",
-      "publishedAt": "2026-09-26T10:34:00.000Z",
-      "publisher": "入田 関太郎(らむだ ふぁんたろう)",
-      "summary": "! 三行で 開発とは、コードを通じて対象を理解し、その理解を残すこと AI に実装を頼むと、動いて終わり、理由は消える 「開発」を定義して、エージェントに渡そう 久々に記事を書く。 最近は、コードの大半を AI エージェントに書かせている…"
+      "id": "e00a835abe60",
+      "title": "Polymarket 統計的裁定ボット：戦略とアーキテクチャ",
+      "url": "https://zenn.dev/bosonax/articles/e8bf6ae8ae252e",
+      "publishedAt": "2026-09-26T16:31:46.000Z",
+      "publisher": "BosonaX",
+      "summary": "相対価値シグナル、Zスコア、ライブオーダーブック、執行コスト、リスク管理、ヒストリカルリプレイを使って、Polymarket向けの統計的裁定ボットをどう設計するかを解説する。 市場が「誤って価格付けされているように見える」ことと、「実際に…"
     },
     {
-      "id": "ed4d46a6108b",
-      "title": "社内のAIが、社内の別のAIが出した提案を却下した話",
-      "url": "https://zenn.dev/limit_lab_works/articles/ai-committee-rejected-ai-proposal",
-      "publishedAt": "2026-09-26T10:15:10.000Z",
-      "publisher": "限界社会人（LIMIT LAB WORKS）",
-      "summary": "結論から言う。自分たちの会社では、AI同士が役割を分けて仕事をしている。先日、「市場調査担当のAI」が出した投資提案を、「投資判断担当のAI」が独立に採点し直し、評価をひっくり返して却下した。しかも最終的には人間の自分が、AIの却下案より…"
+      "id": "0a3e9ddd16e6",
+      "title": "Claude Codeでサブエージェントが増えたら、メインセッションをPMに固定する",
+      "url": "https://zenn.dev/yorusuzu/articles/claude-code-main-session-as-pm",
+      "publishedAt": "2026-09-26T16:28:55.000Z",
+      "publisher": "yorusuzu",
+      "summary": "この記事について Claude Code のサブエージェント機能（.claude/agents/ に Markdown で定義する専門エージェント）を使って、個人開発の作業を複数のエージェントに分担させる運用をしています。エージェントの数…"
     },
     {
-      "id": "d15389abf6d7",
-      "title": "terraform apply で何が起きるのか【AI の Terraform 暴走を止める #4】",
-      "url": "https://zenn.dev/e8dev/articles/terraform-apply-ai-review",
-      "publishedAt": "2026-09-26T09:35:06.000Z",
-      "publisher": "e8dev",
-      "summary": "AI が書いた Terraform の実行を承認する立場の人に向けて、基本コマンドを 1 本ずつ「機構 / 設計意図 / AI を止めるサイン」の 3 問で解説するシリーズの 4 本目です。前回は plan の記号を読む: -/+ は一度…"
+      "id": "64ab220f3d6f",
+      "title": "Claude Codeで事務ツールを3つ作って、検算とレビューで穴を直した記録",
+      "url": "https://zenn.dev/ogana/articles/9416e305c4a445",
+      "publishedAt": "2026-09-26T15:21:14.000Z",
+      "publisher": "七海",
+      "summary": "この記事は、AI（Claude Code）を使って小さな事務ツールを3つ作り、テストと検算、別の視点のレビューで直した記録です。下書きも含めてClaude Codeで作り、七海が確認して公開しています。 作ったもの：ブラウザで開くだけの1…"
     },
     {
-      "id": "767f2d2974d6",
-      "title": "AIエージェントで転職活動を効率化する方法：経歴棚卸から書類生成、求人サイト登録まで",
-      "url": "https://zenn.dev/ooh_gaoh/articles/3a4bee0eef31a6",
-      "publishedAt": "2026-09-26T09:21:05.000Z",
-      "publisher": "うーがおー！",
-      "summary": "はじめまして、ソフトウェアエンジニアのうーがおー！です。 昨日ヤニネコのアニメ最終回が放送されたので、日本の雇用の流動性が上がることを願い、 AIエージェントを利用した効率的な転職活動の進め方について書いていきます。 この記事では、私のC…"
+      "id": "13f22a810f34",
+      "title": "子どもとのターミナル遊びが捗る！ひらがな好きなお子さんのためのTUIアプリケーションを作ったよ",
+      "url": "https://zenn.dev/jy8752/articles/50dd8147b3a512",
+      "publishedAt": "2026-09-26T14:43:03.000Z",
+      "publisher": "ぱんだ",
+      "summary": "! この記事は手で書きました はじめに こちらの記事の続編です。 https://zenn.dev/jy8752/articles/9257ef88fcbf0e ! 思ったより反応を多くいただけて、絶賛子育て中なエンジニアの方が多いんだな…"
     },
     {
-      "id": "8a5617ca2f7c",
-      "title": "Claude Code のクラウドセッションで、PC を閉じていても毎朝 AI ニュースを Notion に届ける",
-      "url": "https://zenn.dev/motani/articles/claude-code-cloud-sessions-daily-ai-news",
-      "publishedAt": "2026-09-26T09:01:33.000Z",
-      "publisher": "motani",
-      "summary": "Claude Code のクラウドセッションが 2026-09-23 に正式版になり、Pro と Max の契約者には、クラウドセッション専用のクレジット（$100／$250）が配られています。私は毎朝の AI ニュース集めをクラウドセッ…"
+      "id": "2d3b43fe3b75",
+      "title": "-focused",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-06-market-daily",
+      "publishedAt": "2026-09-26T14:09:15.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "日経平均65,000円台到達と米国株軟調から読み解くマーケットの選別シグナル この記事で分かること 日経平均65,000円突破の裏で起きているソフトバンクG一極集中と半導体株安の構造 米10年債利回り4.78%上昇とVIX高が米国テック株…"
     },
     {
-      "id": "fb20cb14c910",
-      "title": "AIエージェントの「文脈崩壊」を防ぐ ― ファイルベース永続プランニング入門（planning-with-files 実践）",
-      "url": "https://zenn.dev/kenshoya/articles/20260926-planning-with-files",
-      "publishedAt": "2026-09-26T08:56:27.000Z",
-      "publisher": "検証屋",
-      "summary": "1. 何ができるようになるか 長時間タスクで /clear やコンパクションが走っても、計画と進捗をディスク上のマークダウンから復元できる。 「計画・調査メモ・進捗ログ」を3ファイルに固定し、ターン開始時に再注入することでゴールのドリフト…"
+      "id": "c10d578f6c9e",
+      "title": "月2,000件超のPRを本番に出すエンジニアに学ぶ、AIエージェントを「信頼」するための5層",
+      "url": "https://zenn.dev/karashizuke/articles/agent-trust-2000pr",
+      "publishedAt": "2026-09-26T14:00:17.000Z",
+      "publisher": "Karashi",
+      "summary": "! 本記事は、Lauren さん（X では「Potato」として活動）が X で公開したトーク動画（元ポスト）を要約・再構成し、筆者なりの実践ステップを加えたものです。もともとは Cursor Compile（London）向けに準備され…"
     },
     {
-      "id": "2c2e8769ae9d",
-      "title": "AIの「修正しました」を、確認できる作業報告に変える",
-      "url": "https://zenn.dev/partial_stds/articles/95ae85fe38167c",
-      "publishedAt": "2026-09-26T08:26:55.000Z",
-      "publisher": "Partial Standards",
-      "summary": "AIに修正を頼み、「対応しました。テストも通っています」と返ってきた。変更はありそうでも、その報告からどこまで確認されたかを読み取れなければ、成果を受け取る側に判断が残ります。 ここでは、AIからの完了報告に「条件・確認方法・証拠・未確認…"
+      "id": "bf8068105b42",
+      "title": "安いモデルに寄せてよい工程を、推測ではなく実測で決めた — 過去の結論が DB に残っているので比較できる",
+      "url": "https://zenn.dev/kodomo_news/articles/163-measure-before-switching-models",
+      "publishedAt": "2026-09-26T13:44:00.000Z",
+      "publisher": "kodomo-news.net",
+      "summary": "こんにちは。小学生向けのニュースサイト、こどもニュースをつくっています。 このサイトは、ニュースの候補を選び、一次ソースを探し、記事を書き、画像を集めます。AI を呼ぶ工程が 10 個ほどあり、工程ごとに使うモデルを差し替えられるようにし…"
     },
     {
-      "id": "29f5e6bd3c44",
-      "title": "Claude Code の質問と承認にブラウザのフォームで答える — md を一次記録にしたまま応答ループを閉じる",
-      "url": "https://zenn.dev/crandim_r_and_d/articles/260925_b02_tracon_ai_human_response_loop",
-      "publishedAt": "2026-09-26T08:00:53.000Z",
-      "publisher": "tokoi",
-      "summary": "TL;DR Claude Codeからの質問は、いったんMarkdownファイルに書いてもらって、その中にある回答欄に私が直接書き込む運用にしている。チャットのスクロールを行き来しながらターミナル上に長文回答を書くよりも、マシにはなったけ…"
+      "id": "22a569e1c88b",
+      "title": "15個そろえた道具のうち、9個は一度も使わなかった",
+      "url": "https://zenn.dev/temotoya/articles/f6aad1f589b96d",
+      "publishedAt": "2026-09-26T13:35:34.000Z",
+      "publisher": "temotoya",
+      "summary": "ホームセンターで工具セットを買うと、だいたい半分は使わない。 使うのはドライバーと六角レンチと、あとメジャーくらい。残りは箱に収まったまま何年も動かない。それでも捨てない。いつか使う気がするからだ。 工具セットの話ならそれでいい。数千円だ…"
     },
     {
-      "id": "c69b331f4667",
-      "title": "「AIに指示するだけでツールアプリを量産、月20万円」を実際にやってみた",
-      "url": "https://zenn.dev/anikuma/articles/ai-app-factory-verification",
-      "publishedAt": "2026-09-26T07:27:04.000Z",
-      "publisher": "アニクマ",
-      "summary": "「AIに指示するだけで、コードを一行も理解せずにツールアプリが作れる。週末に1個ずつ作って半年で20個ストアに並べれば、置いておくだけで月10〜20万円の不労所得になる」 こういう主張を読むたびに、私はいつも同じことを思う。本当にそんなに…"
+      "id": "4990410439e4",
+      "title": "Metaの新AI「Muse」が米で1日60万人、便利さの裏側",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260926",
+      "publishedAt": "2026-09-26T13:08:45.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年9月26日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 皆さん、おはようございます。今日はね、AIが「代わりに動いてくれる」話が一気に進んだ日なんですよ。Metaの新しいAI代理人Muse…"
     },
     {
-      "id": "6ca0eeb40b51",
-      "title": "AIエージェントに必要なのは、賢さより先に「壊れない実行OS」かもしれない",
-      "url": "https://zenn.dev/emilia_lab/articles/cognitive-agent-os-safety-kernel",
-      "publishedAt": "2026-09-26T07:26:30.000Z",
-      "publisher": "エミリアラボ",
-      "summary": "AIエージェントを作っていると、つい「もっと賢いモデル」「もっと強い推論」「もっと自律的な実行」に目が行きがちだ。 でも、実際に自分の作業環境でエージェントを動かしていくと、別の問題が先に出てくる。 それは、賢さより前に、壊れないことだ。…"
+      "id": "129daf50e93c",
+      "title": "顧客に出す前の30秒を「工程」にする — 確認3点を個人の手癖から外す設計",
+      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-kakunin-koutei-30sec",
+      "publishedAt": "2026-09-26T13:05:28.000Z",
+      "publisher": "速水 拓真",
+      "summary": "前回は、共有プロンプトと手順書で「1人に固定される」の壁を外す話を書きました（休んだ日に回らなくする）。これで導入の3つの壁のうち、「学ぶ時間がない」と「1人に固定される」が外れました。残る最初の壁が「そのまま顧客に出せない」です。 導入…"
     },
     {
-      "id": "f24eb42badce",
-      "title": "AIの意見を聞かない技術 第5回：自動テストを書かない技術",
-      "url": "https://zenn.dev/garplab/articles/b64873fd4c4685",
-      "publishedAt": "2026-09-26T07:19:52.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「AIの意見を聞かない技術」の第 5 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全…"
+      "id": "6893da52f62e",
+      "title": "AIエージェントに作業を任せるときのについて考えてみた",
+      "url": "https://zenn.dev/norishio22/articles/20260731-ai-coding-agent-practice",
+      "publishedAt": "2026-09-26T12:38:05.000Z",
+      "publisher": "norishio",
+      "summary": "AIエージェントに作業を任せるときの運用について考えてみた はじめに Claude Code や Codex のようなAIコーディングエージェントを使うと、Issueの整理、ドキュメント作成、設定ファイルの追加、簡単な実装までかなり速く進…"
     }
   ],
-  "fetchedAt": "2026-09-26T21:08:49.231Z",
+  "fetchedAt": "2026-09-26T23:37:07.942Z",
   "stale": false,
   "error": null
 }
