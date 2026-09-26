@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "dfe4a5a1de85",
-      "title": "新モデル「Jev」とBERTを比較して整理する ― 「生成しない」モデルの本質的な違い",
-      "url": "https://zenn.dev/sudonotfound/articles/20260923-jev-vs-bert",
-      "publishedAt": "2026-09-25T21:42:17.000Z",
-      "publisher": "sudonotfound",
-      "summary": "TL;DR 2026年9月にTypeSafe AIが発表した新モデル「Jev」を、既存の代表的なエンコーダモデルBERTと比較しながら整理します 両者は「自由形式のテキストを生成しない」という共通点を持ちますが、その理由も入出力の設計も大…"
+      "id": "530fd559924a",
+      "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
+      "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
+      "publishedAt": "2026-09-26T11:26:39.000Z",
+      "publisher": "mazrean",
+      "summary": "自分は Go Proposal Weekly Digest というサイトを個人で運用しています。 https://go-proposal-weekly-digest.mazrean.com Go 言語の Proposal と呼ばれる言語機…"
     },
     {
-      "id": "c3212af91d5e",
-      "title": "claude + cve-lite-cli + LEVでフロントエンドの脆弱性優先度判断を更に高める",
-      "url": "https://zenn.dev/t_o_d/articles/c37d73f3820b92",
-      "publishedAt": "2026-09-25T20:43:28.000Z",
-      "publisher": "t_o_d",
-      "summary": "前回の記事で、OWASPのcve-lite-cliの優先度(CVSS × EPSS)をClaude Skillへ渡し、最上位の1パッケージをAIに修正させる仕組みを作りました。 ただしEPSSは「今後30日で悪用される確率」であり、「既に…"
+      "id": "73310cd962c1",
+      "title": "AIがDNSで外部へ出た。では、インフラはどう止めるべきだったか",
+      "url": "https://zenn.dev/git_dungeon/articles/ai-dns-egress-containment",
+      "publishedAt": "2026-09-26T11:26:17.000Z",
+      "publisher": "黒パグ｜攻略本シリーズ",
+      "summary": "こんにちは、黒パグです。 以前、インフラを擬人化した記事を書きました。そこでPrometheusちゃんに言わせた台詞が、これです。 「えへへ、見てるだけ、ですからねっ！」 出典：懺悔室へようこそ――インフラ擬人化から学ぶモダンスタック全解…"
     },
     {
-      "id": "936f7e304a4a",
-      "title": "Claude CodeとCodex、差は賢さじゃなく使い勝手だった（そして自分は伝書鳩になった）",
-      "url": "https://zenn.dev/hontsuke/articles/0118c6df497a6a",
-      "publishedAt": "2026-09-25T18:19:40.000Z",
-      "publisher": "本つけ",
-      "summary": "要らないと書いたのに、課金した 以前、Claude Code + Codexは個人開発の規模だと要らなかったという記事を書きました。 にもかかわらず、ChatGPT Plusに課金しました。 課金した理由 理由はシンプルで、Claude …"
+      "id": "56d11f4dd8f8",
+      "title": "Salesforce管理者の日常業務をClaude Codeで効率化する｜ユーザー管理・権限セット・SOQLクエリの自動化実践",
+      "url": "https://zenn.dev/pacific_creator/articles/6a6f35d73f64bd",
+      "publishedAt": "2026-09-26T10:50:54.000Z",
+      "publisher": "sr_mc_ai_06",
+      "summary": "はじめに 「権限セットの作成、また溜まってる...」 「50人分のユーザー登録、今日中に終わるかな」。 そんな風に思いながら設定画面を開いたこと、ありませんか。 Salesforce管理者の仕事って、実はユーザー管理・権限セット・SOQL…"
     },
     {
-      "id": "8b39350e800b",
-      "title": "非エンジニアが AI レビューを 40 回回して分かった、指摘の 88% は製品の欠陥ではなかった",
-      "url": "https://zenn.dev/kabu_vibe/articles/f2445961ba19cb",
-      "publishedAt": "2026-09-25T18:14:12.000Z",
-      "publisher": "コードが書けない51歳の自動売買日誌",
-      "summary": "40 回。18 日。最長で 16 回続けて差し戻された。 指摘 17 件を一つずつ分類したら、製品そのものの欠陥は 2 件。12%。 日本株の自動売買システムを、AI のコーディング支援だけで作っている。私はコードを書かない。前回はバック…"
+      "id": "04afefa5893d",
+      "title": "AI に頼んでいるのは『実装』ですか、『開発』ですか ── AI 時代のソフトウェア開発を考える",
+      "url": "https://zenn.dev/lambda_funtaro/articles/493c7143876ad8",
+      "publishedAt": "2026-09-26T10:34:00.000Z",
+      "publisher": "入田 関太郎(らむだ ふぁんたろう)",
+      "summary": "! 三行で 開発とは、コードを通じて対象を理解し、その理解を残すこと AI に実装を頼むと、動いて終わり、理由は消える 「開発」を定義して、エージェントに渡そう 久々に記事を書く。 最近は、コードの大半を AI エージェントに書かせている…"
     },
     {
-      "id": "36b2a822034f",
-      "title": "AI人狼と Jev の偏り",
-      "url": "https://zenn.dev/kana001_bit/articles/ai-werewolf-jev-bias",
-      "publishedAt": "2026-09-25T17:55:25.000Z",
-      "publisher": "chaco-pen",
-      "summary": "8人配役の人狼を AI 同士に打たせています。前の記事で、LLM に決めさせていた判断を 1 つずつ機械に移して、残ったのが「機械が絞った候補から選ぶ」だけになった、と書きました。その「選ぶ」を Jev に移したのがこの記事の前提です。 …"
+      "id": "ed4d46a6108b",
+      "title": "社内のAIが、社内の別のAIが出した提案を却下した話",
+      "url": "https://zenn.dev/limit_lab_works/articles/ai-committee-rejected-ai-proposal",
+      "publishedAt": "2026-09-26T10:15:10.000Z",
+      "publisher": "限界社会人（LIMIT LAB WORKS）",
+      "summary": "結論から言う。自分たちの会社では、AI同士が役割を分けて仕事をしている。先日、「市場調査担当のAI」が出した投資提案を、「投資判断担当のAI」が独立に採点し直し、評価をひっくり返して却下した。しかも最終的には人間の自分が、AIの却下案より…"
     },
     {
-      "id": "db2ad8cb14d7",
-      "title": "Jevでコードレビューの観点を自動抽出してみたら、実際に不具合が再現した話",
-      "url": "https://zenn.dev/adachi6k/articles/99193762817e3f",
-      "publishedAt": "2026-09-25T16:24:16.000Z",
-      "publisher": "Koji Adachi",
-      "summary": "過去Issue 133件をJevとCodexで整理し、抽出したレビュー観点を実装に適用したところ、2件の不具合を再現できた。 開発履歴を、次のレビューに使える資産へ変換する実験だ。 きっかけは、Jevを使えば、蓄積したIssueや修正履歴…"
+      "id": "d15389abf6d7",
+      "title": "terraform apply で何が起きるのか【AI の Terraform 暴走を止める #4】",
+      "url": "https://zenn.dev/e8dev/articles/terraform-apply-ai-review",
+      "publishedAt": "2026-09-26T09:35:06.000Z",
+      "publisher": "e8dev",
+      "summary": "AI が書いた Terraform の実行を承認する立場の人に向けて、基本コマンドを 1 本ずつ「機構 / 設計意図 / AI を止めるサイン」の 3 問で解説するシリーズの 4 本目です。前回は plan の記号を読む: -/+ は一度…"
     },
     {
-      "id": "e3bbf31e7e63",
-      "title": "1,500行に畳んだ引き継ぎログを、Claude Code は3割しか読んでいなかった",
-      "url": "https://zenn.dev/miilaka/articles/claude-code-read-limit-handoff",
-      "publishedAt": "2026-09-25T16:23:41.000Z",
-      "publisher": "Banyana",
-      "summary": "Claude Code に「起動したら、まず引き継ぎログを読む」という決まりを持たせている人は多いと思います。前回の会話で何をしたかを、次の会話のAIへ渡すためのファイルです。 著者の環境では、このファイルを1,500行に保つ仕組みを入れ…"
+      "id": "767f2d2974d6",
+      "title": "AIエージェントで転職活動を効率化する方法：経歴棚卸から書類生成、求人サイト登録まで",
+      "url": "https://zenn.dev/ooh_gaoh/articles/3a4bee0eef31a6",
+      "publishedAt": "2026-09-26T09:21:05.000Z",
+      "publisher": "うーがおー！",
+      "summary": "はじめまして、ソフトウェアエンジニアのうーがおー！です。 昨日ヤニネコのアニメ最終回が放送されたので、日本の雇用の流動性が上がることを願い、 AIエージェントを利用した効率的な転職活動の進め方について書いていきます。 この記事では、私のC…"
     },
     {
-      "id": "8400a324eba5",
-      "title": "Claude Code に記憶と引き継ぎを持たせる — 3つの置き場と、実際に起きた事故の対策テンプレート",
-      "url": "https://zenn.dev/miilaka/books/claude-code-memory-handoff",
-      "publishedAt": "2026-09-25T16:17:16.000Z",
-      "publisher": "Banyana",
-      "summary": "Claude Code や Codex を毎日使っていると、前回の続きを忘れる、記録が膨らんで読まれなくなる、別のAIの記録を消す、といった事故が起きます。この本は、進行は Notion、個人の情報と資料は Obsidian、AIの動かし…"
+      "id": "8a5617ca2f7c",
+      "title": "Claude Code のクラウドセッションで、PC を閉じていても毎朝 AI ニュースを Notion に届ける",
+      "url": "https://zenn.dev/motani/articles/claude-code-cloud-sessions-daily-ai-news",
+      "publishedAt": "2026-09-26T09:01:33.000Z",
+      "publisher": "motani",
+      "summary": "Claude Code のクラウドセッションが 2026-09-23 に正式版になり、Pro と Max の契約者には、クラウドセッション専用のクレジット（$100／$250）が配られています。私は毎朝の AI ニュース集めをクラウドセッ…"
     },
     {
-      "id": "6b28566a61bc",
-      "title": "AIにオントロジーは必要か？「その関係、JOINで取れますよね」から考える",
-      "url": "https://zenn.dev/cybernetics/articles/a3f4adf33265ce",
-      "publishedAt": "2026-09-25T15:25:11.000Z",
-      "publisher": "HELLO_CYBERNETICS",
-      "summary": "はじめに 「AIに社内データを探索させるなら、オントロジーやナレッジグラフが必要だ」と言われると、ホントだろうか？と僕は思う。 顧客と注文、注文と商品、商品と仕入先。データベースを設計してきた人なら、見慣れた関係だろう。分析用のスタースキ…"
+      "id": "fb20cb14c910",
+      "title": "AIエージェントの「文脈崩壊」を防ぐ ― ファイルベース永続プランニング入門（planning-with-files 実践）",
+      "url": "https://zenn.dev/kenshoya/articles/20260926-planning-with-files",
+      "publishedAt": "2026-09-26T08:56:27.000Z",
+      "publisher": "検証屋",
+      "summary": "1. 何ができるようになるか 長時間タスクで /clear やコンパクションが走っても、計画と進捗をディスク上のマークダウンから復元できる。 「計画・調査メモ・進捗ログ」を3ファイルに固定し、ターン開始時に再注入することでゴールのドリフト…"
     },
     {
-      "id": "95dfe2801a58",
-      "title": "「毎朝記憶を失う同僚のためにコードベースを整える」——skill作者Matt Pocockの回のどれが伸びるか（#33 投稿前予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr33-pocock-prediction",
-      "publishedAt": "2026-09-25T14:36:07.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
+      "id": "2c2e8769ae9d",
+      "title": "AIの「修正しました」を、確認できる作業報告に変える",
+      "url": "https://zenn.dev/partial_stds/articles/95ae85fe38167c",
+      "publishedAt": "2026-09-26T08:26:55.000Z",
+      "publisher": "Partial Standards",
+      "summary": "AIに修正を頼み、「対応しました。テストも通っています」と返ってきた。変更はありそうでも、その報告からどこまで確認されたかを読み取れなければ、成果を受け取る側に判断が残ります。 ここでは、AIからの完了報告に「条件・確認方法・証拠・未確認…"
     },
     {
-      "id": "abfc310b5f1f",
-      "title": "Opus 5.5 で使っているプロンプトやスキル、そのままで大丈夫ですか?",
-      "url": "https://zenn.dev/irosona/articles/claude-api-prompt-audit-devlog-pipeline",
-      "publishedAt": "2026-09-25T14:24:01.000Z",
-      "publisher": "irosona",
-      "summary": "Claude Opus 5.5 がリリースされ、さっそくモデル指定の文字列を書き換えて試してみた、という方も多いのではないでしょうか。モデルの切り替え自体は、設定を1行書き換えるだけで済みます。では、そのモデルに渡している CLAUDE.…"
+      "id": "29f5e6bd3c44",
+      "title": "Claude Code の質問と承認にブラウザのフォームで答える — md を一次記録にしたまま応答ループを閉じる",
+      "url": "https://zenn.dev/crandim_r_and_d/articles/260925_b02_tracon_ai_human_response_loop",
+      "publishedAt": "2026-09-26T08:00:53.000Z",
+      "publisher": "tokoi",
+      "summary": "TL;DR Claude Codeからの質問は、いったんMarkdownファイルに書いてもらって、その中にある回答欄に私が直接書き込む運用にしている。チャットのスクロールを行き来しながらターミナル上に長文回答を書くよりも、マシにはなったけ…"
     },
     {
-      "id": "a3d8a014c746",
-      "title": "休んだ日に回らなくする — 共有プロンプトと手順書で「1人に固定」を外す",
-      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-dairi-tejunsho",
-      "publishedAt": "2026-09-25T13:04:19.000Z",
-      "publisher": "速水 拓真",
-      "summary": "前回は、研修を1日15分×3日に分解して「時間がない」の壁を外す話を書きました（AIの出力が「使える」に変わる3日間）。3日目に本人を「教える側」に回すことで、研修をイベントから仕組みに変えるところまででした。 人数が増えると、次に必ず起…"
+      "id": "c69b331f4667",
+      "title": "「AIに指示するだけでツールアプリを量産、月20万円」を実際にやってみた",
+      "url": "https://zenn.dev/anikuma/articles/ai-app-factory-verification",
+      "publishedAt": "2026-09-26T07:27:04.000Z",
+      "publisher": "アニクマ",
+      "summary": "「AIに指示するだけで、コードを一行も理解せずにツールアプリが作れる。週末に1個ずつ作って半年で20個ストアに並べれば、置いておくだけで月10〜20万円の不労所得になる」 こういう主張を読むたびに、私はいつも同じことを思う。本当にそんなに…"
     }
   ],
-  "fetchedAt": "2026-09-26T10:16:27.577Z",
+  "fetchedAt": "2026-09-26T14:38:37.690Z",
   "stale": false,
   "error": null
 }
