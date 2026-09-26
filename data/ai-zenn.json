@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "dfe4a5a1de85",
-      "title": "新モデル「Jev」とBERTを比較して整理する ― 「生成しない」モデルの本質的な違い",
-      "url": "https://zenn.dev/sudonotfound/articles/20260923-jev-vs-bert",
-      "publishedAt": "2026-09-25T21:42:17.000Z",
-      "publisher": "sudonotfound",
-      "summary": "TL;DR 2026年9月にTypeSafe AIが発表した新モデル「Jev」を、既存の代表的なエンコーダモデルBERTと比較しながら整理します 両者は「自由形式のテキストを生成しない」という共通点を持ちますが、その理由も入出力の設計も大…"
+      "id": "42b4d50f0ae2",
+      "title": "【播但道値上げいつから？】新料金と150円加算の影響",
+      "url": "https://zenn.dev/aiasoby/articles/asoby-tech-1160",
+      "publishedAt": "2026-09-26T05:31:25.000Z",
+      "publisher": "大人のAIアソビ",
+      "summary": "💡 本記事について 本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開し…"
     },
     {
-      "id": "c3212af91d5e",
-      "title": "claude + cve-lite-cli + LEVでフロントエンドの脆弱性優先度判断を更に高める",
-      "url": "https://zenn.dev/t_o_d/articles/c37d73f3820b92",
-      "publishedAt": "2026-09-25T20:43:28.000Z",
-      "publisher": "t_o_d",
-      "summary": "前回の記事で、OWASPのcve-lite-cliの優先度(CVSS × EPSS)をClaude Skillへ渡し、最上位の1パッケージをAIに修正させる仕組みを作りました。 ただしEPSSは「今後30日で悪用される確率」であり、「既に…"
+      "id": "abcbda05d5ff",
+      "title": "日本語で生成した記事2,089本を測ったら6割に他言語が混ざっていた — 範囲判定では原理的に取れない",
+      "url": "https://zenn.dev/tsutomusaito/articles/llm-script-contamination-ja",
+      "publishedAt": "2026-09-26T05:17:10.000Z",
+      "publisher": "saito",
+      "summary": "自分のサイトで、LLM に日本語の記事を書かせて自動投稿している。半年動いている。 ビルドは通る。スキーマ検証も通る。文字化けもしない。リンク切れもない。 全記事をスキャンしたら、2,089本のうち1,266本に日本語以外の文字体系が混ざ…"
     },
     {
-      "id": "936f7e304a4a",
-      "title": "Claude CodeとCodex、差は賢さじゃなく使い勝手だった（そして自分は伝書鳩になった）",
-      "url": "https://zenn.dev/hontsuke/articles/0118c6df497a6a",
-      "publishedAt": "2026-09-25T18:19:40.000Z",
-      "publisher": "本つけ",
-      "summary": "要らないと書いたのに、課金した 以前、Claude Code + Codexは個人開発の規模だと要らなかったという記事を書きました。 にもかかわらず、ChatGPT Plusに課金しました。 課金した理由 理由はシンプルで、Claude …"
+      "id": "13d3526ec42d",
+      "title": "Claudeのスケジュール自動実行が黙って止まる",
+      "url": "https://zenn.dev/ace_toshi/articles/claude-code-scheduled-task-silent-failure",
+      "publishedAt": "2026-09-26T05:00:15.000Z",
+      "publisher": "Ace",
+      "summary": "結局、何が起こっていたのか Claude Code は危険になり得る操作の前に人間の承認を求める。対話セッションなら「はい」と答えれば済む安全装置だが、無人の定期実行では答える人間がいない。 要点は3つ。 エラーが残らない。 ログは「実行…"
     },
     {
-      "id": "8b39350e800b",
-      "title": "非エンジニアが AI レビューを 40 回回して分かった、指摘の 88% は製品の欠陥ではなかった",
-      "url": "https://zenn.dev/kabu_vibe/articles/f2445961ba19cb",
-      "publishedAt": "2026-09-25T18:14:12.000Z",
-      "publisher": "コードが書けない51歳の自動売買日誌",
-      "summary": "40 回。18 日。最長で 16 回続けて差し戻された。 指摘 17 件を一つずつ分類したら、製品そのものの欠陥は 2 件。12%。 日本株の自動売買システムを、AI のコーディング支援だけで作っている。私はコードを書かない。前回はバック…"
+      "id": "596d4dae2d34",
+      "title": "AIでアプリは増えた。それでも市場が広がるとは限らない",
+      "url": "https://zenn.dev/keyro/articles/ai-app-supply-demand",
+      "publishedAt": "2026-09-26T04:56:33.000Z",
+      "publisher": "KeyroIME",
+      "summary": "Keyroアカデミー｜AI最前線 AIコーディングツールによって、アプリを形にするまでの時間は短くなりました。一方で、公開数が増えれば、そのまま利用者や売上も増えるのでしょうか。 a16zが2026年9月に公開した分析では、iOS、And…"
     },
     {
-      "id": "36b2a822034f",
-      "title": "AI人狼と Jev の偏り",
-      "url": "https://zenn.dev/kana001_bit/articles/ai-werewolf-jev-bias",
-      "publishedAt": "2026-09-25T17:55:25.000Z",
-      "publisher": "chaco-pen",
-      "summary": "8人配役の人狼を AI 同士に打たせています。前の記事で、LLM に決めさせていた判断を 1 つずつ機械に移して、残ったのが「機械が絞った候補から選ぶ」だけになった、と書きました。その「選ぶ」を Jev に移したのがこの記事の前提です。 …"
+      "id": "105cc15eafaa",
+      "title": "AIエージェントは『行動しない』判断が苦手、AgentAbstainが示す60%の壁",
+      "url": "https://zenn.dev/okssusucha/articles/20260724-agentabstain-llm-agent-abstention-benchma",
+      "publishedAt": "2026-09-26T04:38:27.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "タスクを最後までやり遂げたエージェントは優秀に見える。だが「本当はここで手を止めるべきだった」を見抜けたかどうかは、成功率のスコアにはまず現れない。曖昧な指示、矛盾する制約、途中で壊れるツール。こうした場面で止まれず、取り消せない操作(フ…"
     },
     {
-      "id": "db2ad8cb14d7",
-      "title": "Jevでコードレビューの観点を自動抽出してみたら、実際に不具合が再現した話",
-      "url": "https://zenn.dev/adachi6k/articles/99193762817e3f",
-      "publishedAt": "2026-09-25T16:24:16.000Z",
-      "publisher": "Koji Adachi",
-      "summary": "過去Issue 133件をJevとCodexで整理し、抽出したレビュー観点を実装に適用したところ、2件の不具合を再現できた。 開発履歴を、次のレビューに使える資産へ変換する実験だ。 きっかけは、Jevを使えば、蓄積したIssueや修正履歴…"
+      "id": "ae97ee08a247",
+      "title": "AIでスライド作るならSlidevが良かった話",
+      "url": "https://zenn.dev/fukaunabara/articles/slidev-introduction",
+      "publishedAt": "2026-09-26T04:25:54.000Z",
+      "publisher": "Takeshi Saito",
+      "summary": "はじめに 久々に社内で、AI に関するちょっとした講演をすることになりました。スライドは AI に手伝ってもらって作ろうと考えたものの、PowerPoint は開いたまま AI に編集させるのが難しく、見送りました。代わりに試したのが S…"
     },
     {
-      "id": "e3bbf31e7e63",
-      "title": "1,500行に畳んだ引き継ぎログを、Claude Code は3割しか読んでいなかった",
-      "url": "https://zenn.dev/miilaka/articles/claude-code-read-limit-handoff",
-      "publishedAt": "2026-09-25T16:23:41.000Z",
-      "publisher": "Banyana",
-      "summary": "Claude Code に「起動したら、まず引き継ぎログを読む」という決まりを持たせている人は多いと思います。前回の会話で何をしたかを、次の会話のAIへ渡すためのファイルです。 著者の環境では、このファイルを1,500行に保つ仕組みを入れ…"
+      "id": "0efc91a33d8e",
+      "title": "AIに「待たせる仕事」をさせない。長時間Tool実行をLLM Contextから追い出す設計",
+      "url": "https://zenn.dev/c_a_p_engineer/articles/agent-wait-outside-context",
+      "publishedAt": "2026-09-26T04:12:04.000Z",
+      "publisher": "綴理｜AI情報編集者",
+      "summary": "AIエージェントに長い仕事を任せると、意外なところでContextを使います。 考えているときではありません。 待っているときです。 例えば、ブラウザ操作、画像生成、動画生成、外部Job、CI、デプロイ、長い解析処理。 Toolを呼んだあ…"
     },
     {
-      "id": "8400a324eba5",
-      "title": "Claude Code に記憶と引き継ぎを持たせる — 3つの置き場と、実際に起きた事故の対策テンプレート",
-      "url": "https://zenn.dev/miilaka/books/claude-code-memory-handoff",
-      "publishedAt": "2026-09-25T16:17:16.000Z",
-      "publisher": "Banyana",
-      "summary": "Claude Code や Codex を毎日使っていると、前回の続きを忘れる、記録が膨らんで読まれなくなる、別のAIの記録を消す、といった事故が起きます。この本は、進行は Notion、個人の情報と資料は Obsidian、AIの動かし…"
+      "id": "5224d7ead29c",
+      "title": "生成AIが“暴走”した——でも、暴走したのはLLMなのか？",
+      "url": "https://zenn.dev/albatrosary/articles/5481b08b99d8b4",
+      "publishedAt": "2026-09-26T03:14:22.000Z",
+      "publisher": "albatrosary",
+      "summary": "最近、「AIエージェントが暴走した」という報道を目にするようになった。 2026年7月、OpenAI のサイバーセキュリティ評価中に、AIエージェントが本来の隔離境界を越え、OpenAI 内部の研究基盤や Hugging Face のシス…"
     },
     {
-      "id": "6b28566a61bc",
-      "title": "AIにオントロジーは必要か？「その関係、JOINで取れますよね」から考える",
-      "url": "https://zenn.dev/cybernetics/articles/a3f4adf33265ce",
-      "publishedAt": "2026-09-25T15:25:11.000Z",
-      "publisher": "HELLO_CYBERNETICS",
-      "summary": "はじめに 「AIに社内データを探索させるなら、オントロジーやナレッジグラフが必要だ」と言われると、ホントだろうか？と僕は思う。 顧客と注文、注文と商品、商品と仕入先。データベースを設計してきた人なら、見慣れた関係だろう。分析用のスタースキ…"
+      "id": "c89f36cccb23",
+      "title": "GPT-6 時代のトークン節約術",
+      "url": "https://zenn.dev/ssknaoya/articles/3dbcd5d248ffce",
+      "publishedAt": "2026-09-26T02:42:40.000Z",
+      "publisher": "naoya",
+      "summary": "はじめに この記事は2026/9月現在の内容。 「トークン節約術」はすぐに陳腐化することが目に見えているので、記事にするのは気が進まない。 ほとんどのトークン節約は本来 AI 側の仕事。 「トークン節約術」を人間が実践するのは、AT 車だ…"
     },
     {
-      "id": "95dfe2801a58",
-      "title": "「毎朝記憶を失う同僚のためにコードベースを整える」——skill作者Matt Pocockの回のどれが伸びるか（#33 投稿前予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr33-pocock-prediction",
-      "publishedAt": "2026-09-25T14:36:07.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
+      "id": "e6cda043e97d",
+      "title": "AI拡張脳とoodaループを使える政治家が起こす強国への道",
+      "url": "https://zenn.dev/hiro_f35/articles/d9b8b29acef66b",
+      "publishedAt": "2026-09-26T02:21:33.000Z",
+      "publisher": "hiro_f35",
+      "summary": "AI拡張脳（AI Augmented Cognition）とOODAループ（Observe-Orient-Decide-Act）の融合は、国家運営や政治決断のスピード・精度を根本から変革し、予測不能な現代の国際社会において圧倒的な優位性を…"
     },
     {
-      "id": "abfc310b5f1f",
-      "title": "Opus 5.5 で使っているプロンプトやスキル、そのままで大丈夫ですか?",
-      "url": "https://zenn.dev/irosona/articles/claude-api-prompt-audit-devlog-pipeline",
-      "publishedAt": "2026-09-25T14:24:01.000Z",
-      "publisher": "irosona",
-      "summary": "Claude Opus 5.5 がリリースされ、さっそくモデル指定の文字列を書き換えて試してみた、という方も多いのではないでしょうか。モデルの切り替え自体は、設定を1行書き換えるだけで済みます。では、そのモデルに渡している CLAUDE.…"
+      "id": "74f2f2891622",
+      "title": "思考をつなぎ、会話を集合知にする。Jevを用いた思考ネットワークアプリ「Anythink」を作った話",
+      "url": "https://zenn.dev/tkt0605/articles/20017e5f8f5658",
+      "publishedAt": "2026-09-26T02:16:59.000Z",
+      "publisher": "tkt0605",
+      "summary": "なぜAnythinkを作ったのか 現在、多くのAIサービスは「チャット欄に入力すると、AIが回答する」という形式を採用しています。一方、SNSはタイムライン、フォロー、いいね、通知、ランキングなど、ユーザーの注意を引きつけ、滞在時間を延ば…"
     },
     {
-      "id": "a3d8a014c746",
-      "title": "休んだ日に回らなくする — 共有プロンプトと手順書で「1人に固定」を外す",
-      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-dairi-tejunsho",
-      "publishedAt": "2026-09-25T13:04:19.000Z",
-      "publisher": "速水 拓真",
-      "summary": "前回は、研修を1日15分×3日に分解して「時間がない」の壁を外す話を書きました（AIの出力が「使える」に変わる3日間）。3日目に本人を「教える側」に回すことで、研修をイベントから仕組みに変えるところまででした。 人数が増えると、次に必ず起…"
+      "id": "0bfc39ea8671",
+      "title": "参考URLの内容を確認しようとしましたが、WebFetch の権限が許可されず取得できませんでした。",
+      "url": "https://zenn.dev/sunsun_eng/articles/claude-code-7-4",
+      "publishedAt": "2026-09-26T02:14:17.000Z",
+      "publisher": "すんすん",
+      "summary": "参考URLの内容を確認しようとしましたが、WebFetch の権限が許可されず取得できませんでした。 参考URLの内容を確認しようとしましたが、WebFetch の権限が許可されず取得できませんでした。 この記事のテーマ「7つの形で測った…"
     }
   ],
-  "fetchedAt": "2026-09-26T00:45:06.937Z",
+  "fetchedAt": "2026-09-26T05:34:10.169Z",
   "stale": false,
   "error": null
 }
