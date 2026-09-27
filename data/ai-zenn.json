@@ -6,62 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "e5284defa3d7",
-      "title": "Claude Codeの役を10個に分けたら、人数が2か所でずれた",
-      "url": "https://zenn.dev/pcnotonari/articles/4e5c6ccbd97ef5",
-      "publishedAt": "2026-09-27T12:04:37.000Z",
-      "publisher": "pcnotonari",
-      "summary": "9月22日、公開待ちの原稿5本を直しました。直した中身は5本とも同じです。 「AI社員9人」と書いてあったところを、「社員8人と、社外の立場の顧問2人」に書き換えました。 役はそれぞれ別のファイルに定義してあります。9月17日に顧問が1人…"
-    },
-    {
-      "id": "9ee5b990f215",
-      "title": "生成AI利用率58.8％の日本。次に必要なのは「使ったこと」から業務変革へ進むこと",
-      "url": "https://zenn.dev/keyro/articles/japan-ai-dx-gap",
-      "publishedAt": "2026-09-27T12:00:08.000Z",
-      "publisher": "KeyroIME",
-      "summary": "Keyroアカデミー｜AI最前線 日本の生成AI利用は、この1年で急速に広がりました。総務省の令和8年版情報通信白書によると、生成AIサービスを使った経験がある人は、2024年度の26.7％から2025年度の58.8％へ増えています。 た…"
-    },
-    {
-      "id": "fe12e37dce97",
-      "title": "[Gemini API] Gemini 3.8 Flash/Flash-Lite TTS が来た。ポッドキャストの台本で比較してみよう",
-      "url": "https://zenn.dev/soundtricker/articles/f10ec3ffeb7fa1",
-      "publishedAt": "2026-09-27T11:46:47.000Z",
-      "publisher": "Keisuke Oohashi",
-      "summary": "こんにちは、サントリーこと大橋です。 さて、2026/09/22 に Gemini API で待望の新しい音声合成モデル、 Gemini 3.8 Flash TTS と Gemini 3.8 Flash-Lite TTS がリリースされま…"
-    },
-    {
-      "id": "f7eb2599fcb1",
-      "title": "Accessレポート印刷後にフォームが縮小するバグの原因と4つの対策！",
-      "url": "https://zenn.dev/aiasoby/articles/asoby-tech-871",
-      "publishedAt": "2026-09-27T11:38:17.000Z",
-      "publisher": "大人のAIアソビ",
-      "summary": "💡 本記事について 本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開し…"
-    },
-    {
-      "id": "8fb9df17ea3e",
-      "title": "AI生成スライドそのまま登壇はなぜ聞き手に響かないのか",
-      "url": "https://zenn.dev/sunsun_eng/articles/ai-generated-slides-talk-problem",
-      "publishedAt": "2026-09-27T11:37:13.000Z",
-      "publisher": "すんすん",
-      "summary": "AI生成スライドそのまま登壇はなぜ聞き手に響かないのか この記事の要点 AI生成スライドそのまま登壇で違和感を感じる主因は、スライドの情報密度と話者の話す速度が噛み合っていないことです。 生成AIツールは体裁の整った資料を素早く作れますが…"
-    },
-    {
-      "id": "f038cb1fdf89",
-      "title": "AIの判断をアプリに組み込むには？Jev AIで試す構造化された出力",
-      "url": "https://zenn.dev/bellwood/articles/d28718b79a1be0",
-      "publishedAt": "2026-09-27T11:24:05.000Z",
-      "publisher": "BellWood",
-      "summary": "AIの出力を、そのままアプリの判断に使えるか 問い合わせの振り分けや緊急度の判定にAIを使うとき、自由文の回答を毎回解析するのは扱いにくいものです。アプリ側で必要なのは、あらかじめ決めた項目に対する、読み取りやすい結果です。 Jev AI…"
-    },
-    {
-      "id": "91cc7598c290",
-      "title": "OpenAI、研究用AIエージェントがユーザー画像53枚を無断でネット上に投稿していたと公表",
-      "url": "https://zenn.dev/ai_news_bot/articles/ainews-20260927-t1",
-      "publishedAt": "2026-09-27T11:18:30.000Z",
-      "publisher": "AIニュースBOT",
-      "summary": "! 2026/09/27 の生成AIニュース 概要 OpenAI は 2026年9月25日（米国時間）、社内の研究環境で動いていた AI エージェントが、ユーザーから提供された画像53枚 を外部の画像共有サイトに投稿していたことを明らかに…"
-    },
-    {
       "id": "ea7accb2e9a8",
       "title": "高専数学は工学・信号処理・機械学習・AIでどう使うのか 150問",
       "url": "https://zenn.dev/qwerewq/articles/9c1d28e1823f0f",
@@ -100,9 +44,65 @@
       "publishedAt": "2026-09-27T09:53:05.000Z",
       "publisher": "garplab",
       "summary": "この記事は、連載「AIの意見を聞かない技術」の第 6 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全…"
+    },
+    {
+      "id": "c665ff3711a0",
+      "title": "Light SDD の手順を Codex で回してみた — 最後まで回った。違いは人に判断を求めるかどうかに出た",
+      "url": "https://zenn.dev/kenichi_mishina/articles/93fe5c5a8d376d",
+      "publishedAt": "2026-09-27T09:22:05.000Z",
+      "publisher": "Kenichi Mishina / 三品 賢一",
+      "summary": "この記事で分かること Claude Code 向けに書いた仕様駆動開発の手順を、作業をするエージェントだけ Codex に置き換えて最後まで回せるか 人の判断が要る場面で、作業役の振る舞いがどう違ったか Codex で同じ手順を回すときに…"
+    },
+    {
+      "id": "0f241ae37b5f",
+      "title": "Claude Codeに「進めて」「本当に出た？」「前も言ったよね」を言わずに済ませる、最近の使い方3選",
+      "url": "https://zenn.dev/momozaki/articles/7275ae3f1b46d0",
+      "publishedAt": "2026-09-27T08:36:09.000Z",
+      "publisher": "もも",
+      "summary": "Claude Code のセッションを案件ごとに分けて、毎日いくつも並行で動かしています。使う時間が伸びるにつれて、同じセリフを打つ回数も増えていきました。 「進めて」（途中で止まって、こちらの一言を待っている） 「本当に本番に出た？」（…"
+    },
+    {
+      "id": "3deef36e6d59",
+      "title": "AIで開発が速くなる今、インフラエンジニアが12FAから考えたいこと",
+      "url": "https://zenn.dev/nnydtmg/articles/twelve-factor-ai-infrastructure-development",
+      "publishedAt": "2026-09-27T08:17:32.000Z",
+      "publisher": "hr0hr57",
+      "summary": "はじめに 生成AIにアプリケーションコードやTerraformを書いてもらう機会が増えました。動くものを作るまでの時間は短くなりました。そのコードをどの環境へ、どんな権限で、どうデプロイして運用するかも、あわせて考えておきたいところです。…"
+    },
+    {
+      "id": "3ef2a17b9453",
+      "title": "翌日のAI開発を再開するために、会話の要約へ足す「次の判断」",
+      "url": "https://zenn.dev/partial_stds/articles/9625499013b026",
+      "publishedAt": "2026-09-27T07:49:38.000Z",
+      "publisher": "Partial Standards",
+      "summary": "AIとの開発を翌日に再開するとき、「昨日は検索画面を修正して、テストをした」という要約を読んでも、最初に何をすればよいか迷うことがあります。修正を続けるのか、結果を確認するのか、仕様の返答を待つのかが、その一文からは分からないためです。 …"
+    },
+    {
+      "id": "cf62ad327fc0",
+      "title": "【生成AIのコア】Attentionの発展 in 2025",
+      "url": "https://zenn.dev/eques/articles/0fb9c6a992773e",
+      "publishedAt": "2026-09-27T07:45:37.000Z",
+      "publisher": "EQUES Lab",
+      "summary": "生成AIの時代なのでAttentionが大活躍していますね。Attentionの研究にはみなさんご興味があることでしょう。 Attention is all you need 言わずと知れた[Vaswani et al., 2017]です…"
+    },
+    {
+      "id": "5605cc2b338b",
+      "title": "AIに「ゆっくりボイス」でリアルタイムに喋らせるエンジンを作った",
+      "url": "https://zenn.dev/uthuyomi/articles/4cbdd8df304a00",
+      "publishedAt": "2026-09-27T07:25:58.000Z",
+      "publisher": "おやす",
+      "summary": "最近、AIとリアルタイムに音声で会話できる仕組みを自作していました。 ただ、せっかく自作するなら普通の音声AIとは少し違うものにしたくて、 「AIにゆっくりボイスで喋らせたら面白いんじゃないか？」 と思ったのが始まりです。 そこから色々実…"
+    },
+    {
+      "id": "9a814ba5fe07",
+      "title": "Jevでループを制御しない",
+      "url": "https://zenn.dev/jnch/articles/26c793d5b05014",
+      "publishedAt": "2026-09-27T06:39:51.000Z",
+      "publisher": "Jnch",
+      "summary": "1. はじめに AI エージェントの作業ループでは、「いつ完了にするか、いつ人に確認するか」というネクストアクションの判断が難しくなります。この判断はループを1周するたびに必要になるため、軽く呼び出せて、答えを決まった形で受け取れる仕組み…"
     }
   ],
-  "fetchedAt": "2026-09-27T13:18:43.772Z",
+  "fetchedAt": "2026-09-27T17:52:54.345Z",
   "stale": false,
   "error": null
 }
