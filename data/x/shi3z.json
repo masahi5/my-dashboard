@@ -2,6 +2,33 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2104162116953600092",
+      "url": "https://x.com/shi3z/status/2104162116953600092",
+      "text": "家なき子",
+      "publishedAt": "2026-09-27T10:51:56.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2104162007914369451",
+      "url": "https://x.com/shi3z/status/2104162007914369451",
+      "text": "我が母校が！",
+      "publishedAt": "2026-09-27T10:51:30.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2104075096264732692",
+      "url": "https://x.com/flow2005yob/status/2104075096264732692",
+      "text": "「女性自身」でのインタビュー記事。\n\n筒井康隆（92）長男が51歳で急死、寝たきり危機で「作家として終わった人間」と吐露も…再び老人ホームで小説を書き続ける“原動力”(女性自身)\n#Yahooニュース\nnews.yahoo.co.jp/articles/c9…",
+      "publishedAt": "2026-09-27T05:06:09.000Z",
+      "authorHandle": "flow2005yob",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2104061244999446651",
       "url": "https://x.com/shi3z/status/2104061244999446651",
       "text": "本編はこちら\nnote.com/shi3zblog/n/ne08979…",
@@ -18,6 +45,15 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
+    },
+    {
+      "id": "2104046063468544202",
+      "url": "https://x.com/mazzo/status/2104046063468544202",
+      "text": "3DCGの歴史の冒頭に出てきたスケッチパッドのシミュレーターをちょっと前に作りました。\nmatsuo-koya.github.io/sketch…",
+      "publishedAt": "2026-09-27T03:10:47.000Z",
+      "authorHandle": "mazzo",
+      "likeCount": 0,
+      "repost": true
     },
     {
       "id": "2104017767515234756",
@@ -54,45 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2104008111711473864",
-      "url": "https://x.com/shi3z/status/2104008111711473864",
-      "text": "潜在キャンバスを乱数ノイズで埋め、20ステップかけて少しずつノイズを取り除いていく。映像の全フレームと音声は、同じループの中で一緒にノイズが減っていく。\n\n各ステップで、BasicGuider がモデルを呼んで「きれいな状態」を予測し、KSamplerSelect（res_multistep）がその予測を使って一歩進み、BasicScheduler（simple）が次のノイズ量 σ を決定する。\n\nBasicGuider はネガティブプロンプトを使わない（CFGなし）。1ステップにつきモデルを1回呼ぶだけなので、CFGで2回呼ぶ場合の約半分の計算で済む。",
-      "publishedAt": "2026-09-27T00:39:59.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2104006732917903711",
-      "url": "https://x.com/shi3z/status/2104006732917903711",
-      "text": "MiniMaxH3の構造解説\n\nMiniMax H3 は、テキスト・画像・動画・音声をまとめて理解し、ステレオ音声つきの動画を一度に作るモデルです。音声は後から重ねるのではなく、映像と同じ処理の中で作られる。\n\nこのワークフローは、参考画像1枚と参考音声1本とプロンプトから、動画を作る過程を示している。\n\nデータは左から右へ流れる。入力とモデルを用意し、長さを計算し、条件にまとめ、ノイズから潜在表現を作り、映像と音声に戻して保存します。光っている箱が、いま処理中の段階を示す",
-      "publishedAt": "2026-09-27T00:34:30.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2103993040327389692",
-      "url": "https://x.com/shi3z/status/2103993040327389692",
-      "text": "これはさすがにフェイクでは",
-      "publishedAt": "2026-09-26T23:40:05.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2103759408878772420",
-      "url": "https://x.com/shi3z/status/2103759408878772420",
-      "text": "今日は激戦だった。\nやはり猛者たちの戦いは紙一重のところで勝負がついてしまう。\nま、勝ったら実力、負けたら運がハッカソンの醍醐味だからな",
-      "publishedAt": "2026-09-26T08:11:43.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-27T07:32:34.155Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: The operation was aborted due to timeout / https://twiiit.com: The operation was aborted due to timeout / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-09-27T20:48:51.094Z",
+  "stale": false,
+  "error": null
 }
