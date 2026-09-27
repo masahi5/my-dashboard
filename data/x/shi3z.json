@@ -2,6 +2,69 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2104017767515234756",
+      "url": "https://x.com/shi3z/status/2104017767515234756",
+      "text": "(7/7)FFN は各トークンを独立に処理する。D 次元をいったん広げ（一般には4倍前後）、活性化関数で負の値を押しつぶし、また D 次元に縮める。\n\n最後に、結果をもう一度残差として元に足す。これで1ブロックが終わり、同じ形のまま次のブロックへ渡される。途方もない計算量だ。",
+      "publishedAt": "2026-09-27T01:18:21.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2104017518524608643",
+      "url": "https://x.com/shi3z/status/2104017518524608643",
+      "text": "(6/7)各ヘッドの結果を横につなげ、出力行列 W_O を掛けて D 次元に戻す。\n\nその結果 Δ を、Norm に入る前の元のトークン x に足す（残差接続）。ブロックは入力を置き換えるのではなく、差分を上乗せする。",
+      "publishedAt": "2026-09-27T01:17:21.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2104015879990366424",
+      "url": "https://x.com/shi3z/status/2104015879990366424",
+      "text": "H3-Omniブロックの構造(1/7)\nH3-Omni Transformer の1ブロックを大きく単純化すると、LLM とよく似た形になる。トークンの列が Norm → QKV → RoPE → Attention → Output Projection → Residual → FFN → Residual と流れる。",
+      "publishedAt": "2026-09-27T01:10:51.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2104008302703354241",
+      "url": "https://x.com/shi3z/status/2104008302703354241",
+      "text": "最終段階はデコード\n\nサンプラーが出した1つの潜在表現を、映像VAEがフレーム画像の列に、音声VAEがステレオ音声に戻す。\n\nCreateVideo が 24fps で映像と音声を1本にまとめ、SaveVideo が output フォルダの video/MiniMax_H3 に書き出す。\n\n映像と音声は最初から同じ潜在表現の中で作られているので、セリフや打撃音のタイミングが映像と揃いやすくなるというワケ。",
+      "publishedAt": "2026-09-27T00:40:44.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2104008111711473864",
+      "url": "https://x.com/shi3z/status/2104008111711473864",
+      "text": "潜在キャンバスを乱数ノイズで埋め、20ステップかけて少しずつノイズを取り除いていく。映像の全フレームと音声は、同じループの中で一緒にノイズが減っていく。\n\n各ステップで、BasicGuider がモデルを呼んで「きれいな状態」を予測し、KSamplerSelect（res_multistep）がその予測を使って一歩進み、BasicScheduler（simple）が次のノイズ量 σ を決定する。\n\nBasicGuider はネガティブプロンプトを使わない（CFGなし）。1ステップにつきモデルを1回呼ぶだけなので、CFGで2回呼ぶ場合の約半分の計算で済む。",
+      "publishedAt": "2026-09-27T00:39:59.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2104006732917903711",
+      "url": "https://x.com/shi3z/status/2104006732917903711",
+      "text": "MiniMaxH3の構造解説\n\nMiniMax H3 は、テキスト・画像・動画・音声をまとめて理解し、ステレオ音声つきの動画を一度に作るモデルです。音声は後から重ねるのではなく、映像と同じ処理の中で作られる。\n\nこのワークフローは、参考画像1枚と参考音声1本とプロンプトから、動画を作る過程を示している。\n\nデータは左から右へ流れる。入力とモデルを用意し、長さを計算し、条件にまとめ、ノイズから潜在表現を作り、映像と音声に戻して保存します。光っている箱が、いま処理中の段階を示す",
+      "publishedAt": "2026-09-27T00:34:30.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2103993040327389692",
+      "url": "https://x.com/shi3z/status/2103993040327389692",
+      "text": "これはさすがにフェイクでは",
+      "publishedAt": "2026-09-26T23:40:05.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2103759408878772420",
       "url": "https://x.com/shi3z/status/2103759408878772420",
       "text": "今日は激戦だった。\nやはり猛者たちの戦いは紙一重のところで勝負がついてしまう。\nま、勝ったら実力、負けたら運がハッカソンの醍醐味だからな",
@@ -27,72 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2103657045014782116",
-      "url": "https://x.com/shi3z/status/2103657045014782116",
-      "text": "いろいろ試した結果、朝ごはんは納豆卵かけご飯がベストだという結論に達した。多すぎず少なすぎず確かなおいしさ",
-      "publishedAt": "2026-09-26T01:24:58.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2103654022402224428",
-      "url": "https://x.com/shi3z/status/2103654022402224428",
-      "text": "Jevのもっと使いやすそうなクローンって感じかな\nLLM as a Judgeって初めて聞いたが",
-      "publishedAt": "2026-09-26T01:12:57.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2103653005556162968",
-      "url": "https://x.com/shi3z/status/2103653005556162968",
-      "text": "実物のプリズムで遊んだことあるけどこんなに綺麗にならなかった気がするが",
-      "publishedAt": "2026-09-26T01:08:55.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2103652643101155420",
-      "url": "https://x.com/shi3z/status/2103652643101155420",
-      "text": "さて今日は全日本AIハッカソン 敗者復活戦！\n参加するチームは全員が各予選ブロックの上位入賞チームの大激戦\n勝ったら実力！負けたら運！\nどんな勝負が繰り広げられるのか！？今から楽しみです\n上位２チームが11/7にベルサール渋谷ファーストで開催される決勝大会に進出します！\n\n#aifestival",
-      "publishedAt": "2026-09-26T01:07:28.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2103651317822705927",
-      "url": "https://x.com/shi3z/status/2103651317822705927",
-      "text": "対ドローン歩兵装甲！！",
-      "publishedAt": "2026-09-26T01:02:12.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2103624864833925202",
-      "url": "https://x.com/shi3z/status/2103624864833925202",
-      "text": "君の街をゲームマップ化するKimimachi作った｜shi3z @shi3z note.com/shi3zblog/n/n746e72…",
-      "publishedAt": "2026-09-25T23:17:05.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2103435104995663903",
-      "url": "https://x.com/shi3z/status/2103435104995663903",
-      "text": "産業界から大金が流れ込んでたんじゃないのか\n工学部だけか",
-      "publishedAt": "2026-09-25T10:43:03.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-26T23:37:26.199Z",
+  "fetchedAt": "2026-09-27T01:48:54.340Z",
   "stale": false,
   "error": null
 }

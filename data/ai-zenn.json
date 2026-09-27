@@ -6,6 +6,70 @@
   "category": "ai",
   "items": [
     {
+      "id": "9bcc4f4e5929",
+      "title": "セルフホスト環境という選択肢 — 顧客データを外に出せない案件への回答",
+      "url": "https://zenn.dev/joinclass/articles/article-20260925220056-22091",
+      "publishedAt": "2026-09-26T23:00:19.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "なぜ僕がこれを作ったか 受託の商談で、いちばん多く止まる質問がこれです。 「そのAI、うちの顧客データを外部に送りますよね？ 情報システム部が通しません」 この一言で消えかけた案件が、僕のところには複数ありました。2026年3月の受託売上…"
+    },
+    {
+      "id": "4a3c2d8c25f1",
+      "title": "AI に足してもらったチェック、正しいものまで止めていませんか？",
+      "url": "https://zenn.dev/kk_18_dot/articles/ai-check-should-pass-tests",
+      "publishedAt": "2026-09-26T23:00:11.000Z",
+      "publisher": "KK-18-dot | Sunday Vibe Coder",
+      "summary": "AI と一緒に何かを作っていると、「こういうミスを二度としないように、チェックを足しておいて」と頼む場面が増えていきます。本番に出すコマンドの前で止める、パスワードのような秘密の値がコミットに入っていたら止める、フォームにおかしな値が入っ…"
+    },
+    {
+      "id": "2b249ea61834",
+      "title": "Claude Codeで見えた「続けられる条件」——裁量・短いループ・非同期",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-09-19-225500",
+      "publishedAt": "2026-09-26T22:06:41.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の要旨（2026年9月時点）: 「裁量」「短いループ」「非同期」という3条件が、何かを継続する楽しさを支えている、という主張を検証する。前作「Claude Codeで動かすAIエージェント組織はなぜ楽しいのか」（2026年8月）で…"
+    },
+    {
+      "id": "92605dae1c5d",
+      "title": "AI時代のエンジニアのキャリアとオーナーシップ",
+      "url": "https://zenn.dev/matsunaopen/articles/ai-era-engineer-ownership",
+      "publishedAt": "2026-09-26T22:00:08.000Z",
+      "publisher": "MatsuNaoPen",
+      "summary": "昨年の Claude Code のリリースから急速にコーディング領域へのAI活用が進み、実装にかかる時間は短くなりました。画面の基本実装やテストのように以前なら手を動かして書いていたものが、指示を出して少し待てば出てきます。 では、浮いた…"
+    },
+    {
+      "id": "49010f21bed6",
+      "title": "資料を箇条書き・太字にしてもLLMの採点は甘くならなかった話",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-report-format-score-check",
+      "publishedAt": "2026-09-26T21:17:42.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 同一内容の短い社内提案メモを、(A)地の文のみ (B)見出し・箇条書き・太字で整形、の2バージョンだけ変えて作り、会話履歴を共有しない独立したLLMインスタンスに「分かりやすさ・説得力」を10点満点で採点させた 2回の試行とも…"
+    },
+    {
+      "id": "71c8dd661087",
+      "title": "iOSクラウドフォンでSnapchatを複数運用するAIエージェント構成 📱",
+      "url": "https://zenn.dev/digitalpro/articles/15c011f8263d7b",
+      "publishedAt": "2026-09-26T20:47:36.000Z",
+      "publisher": "Digital Pro",
+      "summary": "本記事にはプロモーション（PR / アフィリエイトリンク）を含みます。 Snapchatは、モバイルアプリの中でもデバイス検知がとくに厳しい部類です。App AttestとDeviceCheckで「本物の、改ざんされていないiPhone」…"
+    },
+    {
+      "id": "97e6112a46cb",
+      "title": "中学生でもわかる Lean 4 #11｜免責を書けば何を言ってもいい？",
+      "url": "https://zenn.dev/dantarg/articles/lean4-disclaimer-proof-boundary",
+      "publishedAt": "2026-09-26T19:14:19.000Z",
+      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+      "summary": "前回の #10「同じ証明でも、見せ方でAIの読み方は変わる？」 では、同じLeanコードを固定したまま、周りの説明だけを変えて比べる方法を考えました。 「これは研究用です」 「安全性は保証しません」 「自己責任で使ってください」 こういう…"
+    },
+    {
+      "id": "d22ab7c8f546",
+      "title": "Claude Codeの指示書を30,000字から5,500字に削ったら、止まっていた定期実行が動いた",
+      "url": "https://zenn.dev/zeroyen_dev/articles/claude-code-instruction-file-size",
+      "publishedAt": "2026-09-26T18:33:43.000Z",
+      "publisher": "ゼロ円開発ログ",
+      "summary": "Claude Code に毎朝の運用作業を任せています。その手順書（スキルファイル）が 30,474字まで育ったところで、タスクが3日続けて進まなくなりました。5,503字に削ったら、同じタスクが17分で最後まで走りました。 何が起きてい…"
+    },
+    {
       "id": "a3468a5549c7",
       "title": "仕様回答ボットを自作し、回答の評価と使う価値の確かめ方を見直した",
       "url": "https://zenn.dev/oakensushi/articles/337b3004651c84",
@@ -36,73 +100,9 @@
       "publishedAt": "2026-09-26T15:21:14.000Z",
       "publisher": "七海",
       "summary": "この記事は、AI（Claude Code）を使って小さな事務ツールを3つ作り、テストと検算、別の視点のレビューで直した記録です。下書きも含めてClaude Codeで作り、七海が確認して公開しています。 作ったもの：ブラウザで開くだけの1…"
-    },
-    {
-      "id": "13f22a810f34",
-      "title": "子どもとのターミナル遊びが捗る！ひらがな好きなお子さんのためのTUIアプリケーションを作ったよ",
-      "url": "https://zenn.dev/jy8752/articles/50dd8147b3a512",
-      "publishedAt": "2026-09-26T14:43:03.000Z",
-      "publisher": "ぱんだ",
-      "summary": "! この記事は手で書きました はじめに こちらの記事の続編です。 https://zenn.dev/jy8752/articles/9257ef88fcbf0e ! 思ったより反応を多くいただけて、絶賛子育て中なエンジニアの方が多いんだな…"
-    },
-    {
-      "id": "2d3b43fe3b75",
-      "title": "-focused",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-06-market-daily",
-      "publishedAt": "2026-09-26T14:09:15.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "日経平均65,000円台到達と米国株軟調から読み解くマーケットの選別シグナル この記事で分かること 日経平均65,000円突破の裏で起きているソフトバンクG一極集中と半導体株安の構造 米10年債利回り4.78%上昇とVIX高が米国テック株…"
-    },
-    {
-      "id": "c10d578f6c9e",
-      "title": "月2,000件超のPRを本番に出すエンジニアに学ぶ、AIエージェントを「信頼」するための5層",
-      "url": "https://zenn.dev/karashizuke/articles/agent-trust-2000pr",
-      "publishedAt": "2026-09-26T14:00:17.000Z",
-      "publisher": "Karashi",
-      "summary": "! 本記事は、Lauren さん（X では「Potato」として活動）が X で公開したトーク動画（元ポスト）を要約・再構成し、筆者なりの実践ステップを加えたものです。もともとは Cursor Compile（London）向けに準備され…"
-    },
-    {
-      "id": "bf8068105b42",
-      "title": "安いモデルに寄せてよい工程を、推測ではなく実測で決めた — 過去の結論が DB に残っているので比較できる",
-      "url": "https://zenn.dev/kodomo_news/articles/163-measure-before-switching-models",
-      "publishedAt": "2026-09-26T13:44:00.000Z",
-      "publisher": "kodomo-news.net",
-      "summary": "こんにちは。小学生向けのニュースサイト、こどもニュースをつくっています。 このサイトは、ニュースの候補を選び、一次ソースを探し、記事を書き、画像を集めます。AI を呼ぶ工程が 10 個ほどあり、工程ごとに使うモデルを差し替えられるようにし…"
-    },
-    {
-      "id": "22a569e1c88b",
-      "title": "15個そろえた道具のうち、9個は一度も使わなかった",
-      "url": "https://zenn.dev/temotoya/articles/f6aad1f589b96d",
-      "publishedAt": "2026-09-26T13:35:34.000Z",
-      "publisher": "temotoya",
-      "summary": "ホームセンターで工具セットを買うと、だいたい半分は使わない。 使うのはドライバーと六角レンチと、あとメジャーくらい。残りは箱に収まったまま何年も動かない。それでも捨てない。いつか使う気がするからだ。 工具セットの話ならそれでいい。数千円だ…"
-    },
-    {
-      "id": "4990410439e4",
-      "title": "Metaの新AI「Muse」が米で1日60万人、便利さの裏側",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260926",
-      "publishedAt": "2026-09-26T13:08:45.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年9月26日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 皆さん、おはようございます。今日はね、AIが「代わりに動いてくれる」話が一気に進んだ日なんですよ。Metaの新しいAI代理人Muse…"
-    },
-    {
-      "id": "129daf50e93c",
-      "title": "顧客に出す前の30秒を「工程」にする — 確認3点を個人の手癖から外す設計",
-      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-kakunin-koutei-30sec",
-      "publishedAt": "2026-09-26T13:05:28.000Z",
-      "publisher": "速水 拓真",
-      "summary": "前回は、共有プロンプトと手順書で「1人に固定される」の壁を外す話を書きました（休んだ日に回らなくする）。これで導入の3つの壁のうち、「学ぶ時間がない」と「1人に固定される」が外れました。残る最初の壁が「そのまま顧客に出せない」です。 導入…"
-    },
-    {
-      "id": "6893da52f62e",
-      "title": "AIエージェントに作業を任せるときのについて考えてみた",
-      "url": "https://zenn.dev/norishio22/articles/20260731-ai-coding-agent-practice",
-      "publishedAt": "2026-09-26T12:38:05.000Z",
-      "publisher": "norishio",
-      "summary": "AIエージェントに作業を任せるときの運用について考えてみた はじめに Claude Code や Codex のようなAIコーディングエージェントを使うと、Issueの整理、ドキュメント作成、設定ファイルの追加、簡単な実装までかなり速く進…"
     }
   ],
-  "fetchedAt": "2026-09-26T23:37:07.942Z",
+  "fetchedAt": "2026-09-27T01:48:35.931Z",
   "stale": false,
   "error": null
 }
