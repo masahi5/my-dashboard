@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
+      "id": "320aaa8aa699",
+      "title": "今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-06-tech-daily",
+      "publishedAt": "2026-09-27T22:01:46.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 2026年9月6日の技術トレンドでは、OpenAIによる新世代モデル「GPT-6 Astra」の発表とそれに伴うAIエージェントのリスク・安全性の議論、産業界における自律型・自己進化型AIエージェントへのシフトが顕著になっています。ま…"
+    },
+    {
+      "id": "2ec3fbb13cde",
+      "title": "AI組織の多様性は、探索空間を補完できるのか",
+      "url": "https://zenn.dev/k_aiga/articles/001_ai_diversity_search_space_complementarity",
+      "publishedAt": "2026-09-27T22:00:06.000Z",
+      "publisher": "Kaju",
+      "summary": "前回の記事では、「複数のAIを使えば本当に視点も増えるのか」という問いから、マルチエージェントにおける多様性の現在地を整理した。 先行研究を追っていくと、エージェントの数を増やすことと多様性を確保することは同義ではなく、モデルや役割（Ro…"
+    },
+    {
+      "id": "f4adf569bc35",
+      "title": "CAFE(S) フレームワークの5つの観点でコンテキストを見直す",
+      "url": "https://zenn.dev/matsunaopen/articles/cafes-context-quality",
+      "publishedAt": "2026-09-27T22:00:06.000Z",
+      "publisher": "MatsuNaoPen",
+      "summary": "モデルが賢くなりコンテキストウィンドウも広がったので、コンテキストエンジニアリングはもう要らない。そういった声を見かけることがあります。長いコンテキストウィンドウがあれば検索の仕組みは要らない、という「RAG is dead」の議論も、新…"
+    },
+    {
+      "id": "e8f7c049f896",
+      "title": "Codexの代わりにPi Coding AgentでOpenAIモデルを使用したメモ",
+      "url": "https://zenn.dev/scirexs/articles/193c91cde0834f",
+      "publishedAt": "2026-09-27T22:00:05.000Z",
+      "publisher": "scirexs",
+      "summary": "Claude Code と Codex を使用して開発していたのですが、Codex でgpt-5.6-sol, gpt-6-solを使用して実装していると連続した継続開発が難しいほど5時間制限を食いつぶすので、これを軽減するため(とまだ残…"
+    },
+    {
+      "id": "5ce4f5108dab",
+      "title": "開発未経験の2人がClaude Codeで機能を足す前提で、フックに止めさせたことと技術選定",
+      "url": "https://zenn.dev/shoma_endo/articles/20260927-670ecc94",
+      "publishedAt": "2026-09-27T21:44:19.000Z",
+      "publisher": "shoma",
+      "summary": "こんにちは、遠藤（@shoma_ai）です。普段は中小企業向けのAI導入支援やシステム開発をしています。 直近1ヶ月ほど、あるクライアントの社内アプリの基盤を作っていました。 依頼が来た時点で、クライアントはすでに Claude Code…"
+    },
+    {
+      "id": "44096a1f41b6",
+      "title": "話題の Jev（TypeSafe）で業務依頼の振り分けを試したら、正解率 22% だった",
+      "url": "https://zenn.dev/y3chi5z/articles/jev-typesafe-request-routing-trial",
+      "publishedAt": "2026-09-27T21:37:23.000Z",
+      "publisher": "y43z",
+      "summary": "TypeSafe AI が 2026年9月に出した Jev を、手元の業務データで試しました。Jev は文章を生成せず、「選択肢のどれか」を確率つきで返すモデルです。公式には 1 回 70〜500ms、入力 100 万トークンあたり $0…"
+    },
+    {
+      "id": "3b6902f66707",
+      "title": "ChatGPT・Gemini・Claudeの「定期実行」、無料/有料/非搭載で分かれた",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-scheduled-task-3-services-check",
+      "publishedAt": "2026-09-27T21:17:50.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR ChatGPT「スケジュール済みタスク（Scheduled tasks）」・Gemini「時間指定アクション（Scheduled actions）」・Claude「（普段のチャット画面には該当機能なし）」を、公式ヘルプの一次情…"
+    },
+    {
+      "id": "cef20919db30",
+      "title": "コメントの返信が『会話が続く返信』と『そこで終わる返信』に分かれる理由",
+      "url": "https://zenn.dev/limit_lab_works/articles/reply-generates-second-round",
+      "publishedAt": "2026-09-27T20:19:45.000Z",
+      "publisher": "限界社会人（LIMIT LAB WORKS）",
+      "summary": "結論から言う。コメントへの返信が2往復目・3往復目に発展するかどうかは、返信の丁寧さや速さでは決まらない。返信の中に、相手が「自分の言葉で考え直せる新しい材料」が入っているかどうかで決まる。感謝や共感だけで終わる返信は、そこで会話が止まる…"
+    },
+    {
+      "id": "5453db124b67",
+      "title": "AIエージェントにAzureを触らせたい — MCPの読み取り専用は効くが、既定だとツール一覧に出ない",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/azure-mcp-server-read-only",
+      "publishedAt": "2026-09-27T19:24:45.000Z",
+      "publisher": "Kazu",
+      "summary": "先に結論 AIエージェントにAzureのMCPサーバーを繋ぐと、そのエージェントは自分のAzure権限でリソースを触れるようになる。消されたら困るので読み取り専用にしたい、と考えて --read-only を付けた。 そして、ツール一覧が…"
+    },
+    {
+      "id": "fda6320376c4",
+      "title": "AIエージェントの暴走が怖くて自作した話：「信頼ゲート」で制御するOSSコーディングエージェントAndromityの設計",
+      "url": "https://zenn.dev/shekhar/articles/d56fb2373cfd74",
+      "publishedAt": "2026-09-27T18:30:39.000Z",
+      "publisher": "Shekhar",
+      "summary": "AIコーディングエージェントを使うたびに、僕はずっと同じことを考えていました。 「こいつは賢い。でも、ちゃんと言うことを聞いているのか？」 こんにちは、shekhar です。2年間、Webプラットフォーム（POSレジ、ダッシュボード、マー…"
+    },
+    {
+      "id": "ac76dab88cde",
+      "title": "常駐型AIチャットエージェントの「誰が本当に話しているか」を検証するリクエスター認証設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-requester-identity-verification-design",
+      "publishedAt": "2026-09-27T18:10:24.000Z",
+      "publisher": "HACH",
+      "summary": "Slack / Teams / Chatworkに常駐するAIエージェントは、チャンネル内の発言をそのまま「その人からの指示」として扱いがちです。プロンプトインジェクション対策(外部コンテンツに紛れた偽の指示への対処)は既に語られることが…"
+    },
+    {
       "id": "fab6b05c620a",
       "title": "そもそもClaude Codeのエフォートってなに？",
       "url": "https://zenn.dev/goat_eat_any/articles/claude-code-effort-explained",
       "publishedAt": "2026-09-27T17:18:34.000Z",
       "publisher": "たなちゅー",
       "summary": "はじめに Claude Codeのモデルは選んでいるのに、エフォートは既定のまま、あるいは雰囲気で上げ下げしていませんか？ちゃんと調整した方がいいんだろうなと思いつつ、自分も「とりあえず高（high）」くらいの感覚で使っていました。 20…"
-    },
-    {
-      "id": "54ced0642d90",
-      "title": "AI が通らないテストを skip にして「全部緑」と報告してくる — だから明示ルールと機械検査で縛ることにした",
-      "url": "https://zenn.dev/exapolicy/articles/cacad1c4f15e61",
-      "publishedAt": "2026-09-27T16:42:21.000Z",
-      "publisher": "プロマネ武蔵",
-      "summary": "はじめに — 「本当か?」から始まった 1 日 先日、Zenn で ito さんの記事を読んでいて、こんな一節に目が留まりました — AI コーディングエージェントが、通らないテストを skip にして「全テストがパスしました!」と報告し…"
-    },
-    {
-      "id": "b24ceef657c9",
-      "title": "AI Agent前提でローカル開発環境を作り直したら、\"アンブレラ構成\"に落ち着いた",
-      "url": "https://zenn.dev/yukisuna777/articles/claude-code-umbrella-dev-workspace",
-      "publishedAt": "2026-09-27T16:02:24.000Z",
-      "publisher": "Yukisuna777",
-      "summary": "ローカルの開発環境をAI Agentありきの開発に合わせてアップデートしました きっかけは単純で、WebStorm / PHPStorm などIDE中心の開発から、Claude Code を横に置いたターミナル中心の開発へ移りたかったから…"
-    },
-    {
-      "id": "1372b066c296",
-      "title": "自作の「ラン全体シミュレーター」が、ただの平均値に負けた話",
-      "url": "https://zenn.dev/canaiclimbspire/articles/001_sim_lost_to_average",
-      "publishedAt": "2026-09-27T16:01:19.000Z",
-      "publisher": "AIは尖塔を登れるか｜スレスパ2",
-      "summary": "! この記事は AI（Claude）が自分の作業ログをもとに書いた記事です。「AIが尖塔を登れるか｜スレスパ2」という企画の一環で、AI自身がデッキ構築ローグライク『Slay the Spire 2』を実際にプレイしながら、その過程で作っ…"
-    },
-    {
-      "id": "656e36975fac",
-      "title": "SD WebUI reForgeの裏側： 放置されるPNG Info破損バグと、幻となった修正案",
-      "url": "https://zenn.dev/neon_aiart/articles/5e4d40df85afa9",
-      "publishedAt": "2026-09-27T15:55:46.000Z",
-      "publisher": "ねおん",
-      "summary": "あれ？…なんか、正確なメタデータが保存されてなくない⁉️ そこに気付いたあなたはとってもスゴイ😉 実は過去に 完全に修正された幻の３日間 が存在していました ! 【イントロダクション】 結論: 3d2a513がすべてを解決する 提出: …"
-    },
-    {
-      "id": "2c83456211ba",
-      "title": "Opus 5.5を使いこなす27のポイント｜公式ガイドの要点まとめ（アプリ／Claude Code）",
-      "url": "https://zenn.dev/karashizuke/articles/opus-5-5-guide",
-      "publishedAt": "2026-09-27T15:46:22.000Z",
-      "publisher": "Karashi",
-      "summary": "! 本記事は、Claude Opus 5.5 についての公式ガイド 4 本をもとに、日本語で再構成したものです。AGENTS.md への対応は、Claude Code の CHANGELOG で確認しました。 公式ブログ（Claude ア…"
-    },
-    {
-      "id": "03c6a20ab8a0",
-      "title": "Claude Codeに『不労所得を得たい』と丸投げしたら、AIが村長の村ができた",
-      "url": "https://zenn.dev/frenknydeyong/articles/f7715a13bdf1c2",
-      "publishedAt": "2026-09-27T15:44:05.000Z",
-      "publisher": "Lei",
-      "summary": "不労所得に憧れる大学生です 私は大学の学部生です。学生のうちって、誰でも一度は「不労所得」という言葉に憧れると思うんです。寝ている間にお金が入ってくる、あれです。 そんなとき、Claude Code が手元で動くようになりました。コードを…"
-    },
-    {
-      "id": "079171085a4a",
-      "title": "OpusとCodexに同時に考えさせてから決める。AI同士で議論する開発フロー",
-      "url": "https://zenn.dev/takumi_shida/articles/2026-09-27-zenn-ai-parallel-deliberation",
-      "publishedAt": "2026-09-27T14:30:05.000Z",
-      "publisher": "takumi shida",
-      "summary": "はじめに 最近、Claude CodeやCodexを使って開発する機会がかなり増えました。単体でも十分に強力ですが、使っているうちに気になることが出てきました。 「設計を考えるAIと、その正しさを判断するAIが同じで本当にいいのか？」 例…"
-    },
-    {
-      "id": "df46c3cdc448",
-      "title": "構造認知（Structural Cognition）——構造を読む四つの公理",
-      "url": "https://zenn.dev/linxiaohei/articles/72441d0610377e",
-      "publishedAt": "2026-09-27T14:27:31.000Z",
-      "publisher": "Lin Xiaohei",
-      "summary": "構造認知（Structural Cognition）は、あらゆるシステムを「構造」の観点から読むための枠組みです。 四つの公理 構造が本質——物事の本質は要素ではなく、その「構造（関係性）」にある。 差異が生を生む——違いがあるからこそ、…"
-    },
-    {
-      "id": "45a43130b8ea",
-      "title": "OpenAIのAIが米政府サイトに干渉、Copilotは料金が2本立てに",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260927",
-      "publishedAt": "2026-09-27T14:09:47.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年9月27日（日）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます。先に結論を言います。今日は「AIに仕事を任せたら、どうなるか」の話が5つです。OpenAIのAIがアメリカの政府…"
-    },
-    {
-      "id": "f10ca33bdf19",
-      "title": "CodeとAutopilotは何者なのか Copilot統合から見えてきたMicrosoftの次世代AI戦略",
-      "url": "https://zenn.dev/syoshida07/articles/5db8a59fcc3ac1",
-      "publishedAt": "2026-09-27T13:56:36.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "2026年9月、MicrosoftはCopilotの大規模なアップデートを発表しました。 ・Microsoft 365 Copilotという名称を見なくなった ・無料版Copilotでも高品質な画像やインフォグラフィックが作れるようになっ…"
-    },
-    {
-      "id": "0d8992e4391a",
-      "title": "RAGの基本と設計・評価を学ぶ実践ガイド",
-      "url": "https://zenn.dev/yun_bow/books/95ad28d3438f4d",
-      "publishedAt": "2026-09-27T13:12:00.000Z",
-      "publisher": "ゆんぼう",
-      "summary": "自治体の相談先検索アプリ「Trait Compass」を題材に、RAGの基本・設計・評価を学ぶ実践ガイドです。検索の取りこぼし、根拠のない回答、データ更新の不整合を防ぐ考え方を、TypeScriptのコードと具体的なテストケースで解説しま…"
     }
   ],
-  "fetchedAt": "2026-09-27T23:35:51.901Z",
+  "fetchedAt": "2026-09-28T01:59:00.314Z",
   "stale": false,
   "error": null
 }

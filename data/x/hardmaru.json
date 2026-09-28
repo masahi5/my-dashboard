@@ -2,6 +2,15 @@
   "handle": "hardmaru",
   "tweets": [
     {
+      "id": "2104348705956774255",
+      "url": "https://x.com/SakanaAILabs/status/2104348705956774255",
+      "text": "Introducing \"Scaling In-Context Imitation Learning\" (SAIL) to be presented at #IROS2026. This work is a collaboration between Sakana AI and the University of Tokyo.\n\nBlog: pub.sakana.ai/sail\n\nWhat does a robot need before it can tackle a new task?\n\nTeaching a robot something new usually starts with collecting demonstrations and training a policy. But foundation models have already learned from vast amounts of images, text, and robotics-related data. We wanted to see how much of that knowledge we could draw out for robot control without changing the model itself.\n\nRecent demonstrations suggest that GPT-6 Astra can operate physical robots alongside its general language and vision capabilities. Earlier work has also shown that LLMs/VLMs can generate entire sequences of robot movements from a few demonstrations.\n\nHowever, a foundation model does not necessarily produce a reliable robot trajectory in a single generation. Performance depends on the context provided, and a small error in a movement target can cause the entire task to fail.\n\nWe propose SAIL, a method for more reliable VLM-based robot trajectory generation through test-time scaling.\n\nSAIL uses a policy VLM as a robot trajectory generator, conditioned on a few successful demonstrations. It tests the generated trajectory in a simulator and uses an evaluation VLM to review the resulting video and identify where progress stalled. The policy VLM then uses this feedback to revise the trajectory, with Monte Carlo tree search (MCTS) exploring alternatives while refining promising candidates. Only the selected trajectory is sent to the physical robot.\n\nAcross six manipulation tasks in simulation, increasing the search budget from one candidate to 45 raised the average rate of finding a successful trajectory from 25% to 73%. We also evaluated SAIL on a physical robot. Our results suggest that robot trajectory generation can benefit from test-time scaling, with additional computation enabling the model to test and refine its proposed actions in simulation.\n\nWe think there is more to learn about what existing models can do with this kind of feedback, and how far those improvements carry over to physical robots.\n\nPaper: arxiv.org/abs/2603.08269 🐟",
+      "publishedAt": "2026-09-27T23:13:23.000Z",
+      "authorHandle": "SakanaAILabs",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2103660061260411266",
       "url": "https://x.com/hardmaru/status/2103660061260411266",
       "text": "The last sentence in the Schmidhuber news trending item summary hits hard 🙃 nitter.net/i/trending/21031854811…",
@@ -81,18 +90,9 @@
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2098531497737412956",
-      "url": "https://x.com/hardmaru/status/2098531497737412956",
-      "text": "Do large language models actually understand the world, or are they just very good at pretending? Does it even matter?\n\nOur recent special issue in the Royal Society, “World Models in Natural and Artificial Intelligence,” brings together pioneers across AI, biology, and philosophy to argue that the path to true intelligence runs through something deeper: the ability to model not just language, but causality, the self, and the physical world.\n\nFeaturing contributions from Douglas Hofstadter, Michael Levin, Josh Tenenbaum, Samuel Gershman, Melanie Mitchell, and others, the collection asks a radical question:\n\nWhat if the next leap in AI requires not just more data, but systems that model themselves?\n\nHere are 3 ideas that might redefine how we build AI:\n\n1. Capability is not the same as true intelligence.\n\nCurrent foundation models are incredibly capable, but they often lack true emergent intelligence. They learn surface statistics instead of compact, causal abstractions. Simply scaling compute will not fix this fundamental issue.\n\n2. Self-modeling is an engineering primitive, not a philosophical luxury.\n\nNew research in the issue shows that when networks learn to predict their own internal states, they compress and simplify, becoming more efficient as a form of regularization. For physical AI and future agents, a self-model is what will allow them to adapt their own skills and morphologies in real-time.\n\n3. The hardest problems in AI are continuous with the hardest problems of life.\n\nBiological minds do not passively ingest data; they actively explore, driven by empowerment to increase control over their environment. If world modeling is about an agent representing itself in relation to its environment to survive and adapt, then general AI may need to look much more like artificial life.\n\nThe takeaway is that the next leap in AI won’t come from just scaling up next-token prediction, but rather from systems that are agentic, self-referential, and temporally grounded.\n\nRead the introductory essay and the full special issue here: royalsocietypublishing.org/r…\n\nWhat do you think is the most important missing ingredient in today’s AI systems?",
-      "publishedAt": "2026-09-11T21:57:52.000Z",
-      "authorHandle": "hardmaru",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-27T23:36:15.747Z",
+  "fetchedAt": "2026-09-28T01:59:26.067Z",
   "stale": false,
   "error": null
 }
