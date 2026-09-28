@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "ead7f5836951",
-      "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
-      "url": "https://huggingface.co/papers/2609.29845",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit …",
-      "score": 75
+      "id": "08deba24c8a1",
+      "title": "RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation",
+      "url": "https://huggingface.co/papers/2609.18703",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Preparing high quality training data for foundation models requires scalable pipelines that transform heterogeneous doc…",
+      "score": 33
     },
     {
-      "id": "fc01b5a75030",
-      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
-      "url": "https://huggingface.co/papers/2609.29421",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipel…",
-      "score": 17
+      "id": "a5c7f9367593",
+      "title": "Block Sparse Attention with Log-Linear Complexity",
+      "url": "https://huggingface.co/papers/2609.31093",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "summary": "Scaling language models to long contexts is limited by the quadratic cost of self-attention. Block sparse attention off…",
+      "score": 14
     },
     {
-      "id": "2f5e58a16125",
-      "title": "Learning to Discover Interesting Mathematics",
-      "url": "https://huggingface.co/papers/2609.28603",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including m…",
-      "score": 11
-    },
-    {
-      "id": "fe10b90ca7b9",
-      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
-      "url": "https://huggingface.co/papers/2609.30233",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states becaus…",
-      "score": 11
-    },
-    {
-      "id": "7f3b3adbe349",
-      "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
-      "url": "https://huggingface.co/papers/2609.29362",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear wha…",
-      "score": 10
-    },
-    {
-      "id": "577547032ba0",
-      "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
-      "url": "https://huggingface.co/papers/2609.29028",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D se…",
-      "score": 8
-    },
-    {
-      "id": "dc519da88a6e",
-      "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
-      "url": "https://huggingface.co/papers/2609.23087",
-      "publishedAt": "2026-09-19T00:00:00.000Z",
-      "summary": "Modern Transformer design and compression both reduce to allocating capacity under a budget. The standard scalars for t…",
-      "score": 8
-    },
-    {
-      "id": "b2c56e4f9da4",
-      "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
-      "url": "https://huggingface.co/papers/2609.29429",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative jud…",
+      "id": "fafddc9ad089",
+      "title": "FoMo: Forking Moment in Generative Trajectory as a Perceptual Distance",
+      "url": "https://huggingface.co/papers/2609.25716",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "Reference-based image quality assessment (IQA) metrics aim to reflect how humans perceive the perceptual distance betwe…",
       "score": 7
     },
     {
-      "id": "30bef1e5d175",
-      "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
-      "url": "https://huggingface.co/papers/2609.29816",
+      "id": "f38ceb05f52b",
+      "title": "SLCA-GRPO: Resolving Cross-Segment Credit Misattribution in Tool-Calling RL",
+      "url": "https://huggingface.co/papers/2609.29050",
       "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited p…",
+      "summary": "Tool-calling agents produce heterogeneous outputs, interleaving structured tool invocations with user-facing natural la…",
+      "score": 6
+    },
+    {
+      "id": "218b01c2ab3c",
+      "title": "Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem",
+      "url": "https://huggingface.co/papers/2609.30216",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Jev is a fast, low-cost decision model that answers natural-language questions with choices, binary judgments, and scor…",
       "score": 5
     },
     {
-      "id": "1aeea28dc443",
-      "title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
-      "url": "https://huggingface.co/papers/2609.28811",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by joint…",
+      "id": "14a45fd1a4f3",
+      "title": "TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
+      "url": "https://huggingface.co/papers/2609.30222",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Existing point tracking models face a fundamental tradeoff: they can either track a sparse set of query points over lon…",
+      "score": 5
+    },
+    {
+      "id": "98078c28089f",
+      "title": "CARD: Cluster-level Adaptation with Reward-guided Decoding for Personalized Text Generation",
+      "url": "https://huggingface.co/papers/2601.06352",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "summary": "Adapting large language models to individual users remains challenging due to the tension between fine-grained personal…",
       "score": 4
     },
     {
-      "id": "348c28d38b60",
-      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
-      "url": "https://huggingface.co/papers/2609.31620",
+      "id": "8604ea5eccec",
+      "title": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs",
+      "url": "https://huggingface.co/papers/2609.31590",
       "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion late…",
+      "summary": "Existing multi-agent benchmarks primarily test in competitive settings, short-horizon interactions under 20 steps, or s…",
+      "score": 4
+    },
+    {
+      "id": "77fa387bc081",
+      "title": "ZooWork-ShopRanker: An Open, Preference-Aligned E-Commerce Reranker",
+      "url": "https://huggingface.co/papers/2609.31002",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "summary": "Open rerankers trained for general web retrieval transfer imperfectly to e-commerce, where ranking decisions depend not…",
+      "score": 3
+    },
+    {
+      "id": "acd1d56dde59",
+      "title": "Do Implicit Personalization and Explicit Styles Conflict? PsPLUG: A Lightweight Plug-in for Balancing Personalization and Style in Customized LLMs",
+      "url": "https://huggingface.co/papers/2601.06362",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "summary": "Personalized large language models are often expected to follow explicit style instructions, yet we find that such inst…",
+      "score": 3
+    },
+    {
+      "id": "959e79ef1560",
+      "title": "Tactile-JEPA: Topology-Aware Self-Supervised Representation Learning for Distributed Tactile Sensors",
+      "url": "https://huggingface.co/papers/2609.24385",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Tactile sensing is an essential modality for robots performing contact-rich, dexterous manipulation, particularly under…",
       "score": 2
     },
     {
-      "id": "62ec056754aa",
-      "title": "Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy",
-      "url": "https://huggingface.co/papers/2609.28660",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Human hand-object interactions (HOIs) provide a rich source of demonstrations for dexterous manipulation, but learning …",
-      "score": 0
+      "id": "bbc96e143df8",
+      "title": "TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding",
+      "url": "https://huggingface.co/papers/2609.30670",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "summary": "Streaming video understanding requires models to interpret evidence as it arrives, yet current evaluations often report…",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-09-28T01:59:00.163Z",
+  "fetchedAt": "2026-09-28T08:31:01.700Z",
   "stale": false,
   "error": null
 }
