@@ -2,6 +2,15 @@
   "handle": "AnthropicAI",
   "tweets": [
     {
+      "id": "2104633259925630995",
+      "url": "https://x.com/AnthropicAI/status/2104633259925630995",
+      "text": "Claude Sonnet 5.5 is now available:",
+      "publishedAt": "2026-09-28T18:04:06.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2103541577083719888",
       "url": "https://x.com/AnthropicAI/status/2103541577083719888",
       "text": "New on the Science Blog: Yes, Claude can do Nine Loops.\n\nTheoretical physicists predict how particles behave using formulas called scattering amplitudes. These are notoriously hard to compute, so researchers work with layers of increasingly fine corrections called “loops”—each added loop makes the answer more precise but takes exponentially more computation. Most calculations stop at two or three loops. Eight loops was the previous record in a simplified model physicists use as a testing ground (planar N=4 super-Yang-Mills), set by SLAC's Lance Dixon and collaborators.\n\nLast month, physicist and science writer @4gravitons issued a challenge: could an AI push past eight loops in this model, using only the compute budget an academic could reasonably access?\n\nGiven a single prompt describing the nine-loop problem, Claude ran largely unsupervised for days in Claude Science and solved it using methods developed by Dixon and his colleagues, at a total cost of a few thousand dollars. Dixon independently verified the result, and von Hippel wrote about the experience for our blog.\n\nRead more: anthropic.com/research/yes-c…",
@@ -81,18 +90,9 @@
       "authorHandle": "AnthropicAI",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2100684274114699295",
-      "url": "https://x.com/AnthropicAI/status/2100684274114699295",
-      "text": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public.\n\nToday, we're sharing three measurements that help track AI development:\n1. How much AI R&D is done by AI.\n2. How well AI agents are overseen.\n3. How compute is allocated.\n\nWe provide a snapshot of these metrics from inside Anthropic. Any frontier developer could publish the same measures, and third parties could verify them.\n\nAs the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows. This means better measuring the development of AI, publishing our findings, and giving society an opportunity to decide how to use this information.\n\nRead the full post and methodology: anthropic.com/institute/meas…",
-      "publishedAt": "2026-09-17T20:32:14.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-09-28T17:03:11.086Z",
+  "fetchedAt": "2026-09-28T22:33:58.732Z",
   "stale": false,
   "error": null
 }

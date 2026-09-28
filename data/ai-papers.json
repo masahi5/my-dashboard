@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "f4d4da647fe1",
-      "title": "Enhancing Photogrammetric Digital Surface Models with Pretrained Diffusion Models and Multimodal Conditioning",
-      "url": "https://huggingface.co/papers/2609.31199",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Large-scale Digital Surface Models (DSMs) can be produced cost-effectively from satellite images via stereo-photogramme…",
-      "score": 8
+      "id": "f3d6cc0391d4",
+      "title": "Disaggregated Quantization: Specializing LLM Prefill and Decode",
+      "url": "https://huggingface.co/papers/2609.26333",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "summary": "Prefill and decode reward different approaches to quantization: low-precision arithmetic accelerates prompt processing,…",
+      "score": 42
     },
     {
       "id": "6185c7aec193",
@@ -22,12 +22,28 @@
       "score": 6
     },
     {
-      "id": "38f7e95aa47e",
-      "title": "IndicBankBench: Evaluating Safety and Reliability of Language Model Assistants in Indian Retail Banking",
-      "url": "https://huggingface.co/papers/2609.29167",
+      "id": "63dc59e3854f",
+      "title": "D-JEPA: A Decision-Aligned Latent World Model",
+      "url": "https://huggingface.co/papers/2609.24749",
+      "publishedAt": "2026-09-21T15:17:32.000Z",
+      "summary": "Latent world models predict the consequences of actions, but accurate prediction does not guarantee that latent distanc…",
+      "score": 2
+    },
+    {
+      "id": "fcbf2d7b916d",
+      "title": "LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Decoder",
+      "url": "https://huggingface.co/papers/2609.28327",
       "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Banking assistants must use account-specific information to answer requests and, in many cases, take actions through to…",
-      "score": 4
+      "summary": "We present LightMIS, a scalable family of ultra-lightweight convolutional networks for 2D binary medical image segmenta…",
+      "score": 2
+    },
+    {
+      "id": "c58a2637e4bc",
+      "title": "Softmax Reparameterization for Output-Head Quantization",
+      "url": "https://huggingface.co/papers/2609.31291",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "summary": "Large vocabularies make output heads a substantial inference cost in small language models. We propose softmax reparame…",
+      "score": 2
     },
     {
       "id": "0d32b525347b",
@@ -54,6 +70,14 @@
       "score": 2
     },
     {
+      "id": "7503f6eeaed3",
+      "title": "Evidence-Grounded Auditing of Identification Assumptions in Climate-Policy Causal Evaluations",
+      "url": "https://huggingface.co/papers/2609.30867",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "summary": "Difference-in-differences (DID) studies are widely used to evaluate climate policy, but assessing the evidence supporti…",
+      "score": 2
+    },
+    {
       "id": "3bfb0fc1c3bc",
       "title": "Depth-adaptive Inference of Looped Language Models via Continuous Depth Batching",
       "url": "https://huggingface.co/papers/2608.09444",
@@ -62,35 +86,11 @@
       "score": 2
     },
     {
-      "id": "4f170e44110c",
-      "title": "Paragraph Boundaries Are Not White Space:Compression Depth as the Signature of Hierarchical Structure",
-      "url": "https://huggingface.co/papers/2609.23551",
-      "publishedAt": "2026-09-20T00:00:00.000Z",
-      "summary": "Standard positional encodings represent position as a one-dimensional reading-order coordinate, but reading order alone…",
-      "score": 2
-    },
-    {
-      "id": "fcbf2d7b916d",
-      "title": "LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Decoder",
-      "url": "https://huggingface.co/papers/2609.28327",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "We present LightMIS, a scalable family of ultra-lightweight convolutional networks for 2D binary medical image segmenta…",
-      "score": 1
-    },
-    {
-      "id": "c58a2637e4bc",
-      "title": "Softmax Reparameterization for Output-Head Quantization",
-      "url": "https://huggingface.co/papers/2609.31291",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Large vocabularies make output heads a substantial inference cost in small language models. We propose softmax reparame…",
-      "score": 1
-    },
-    {
-      "id": "7503f6eeaed3",
-      "title": "Evidence-Grounded Auditing of Identification Assumptions in Climate-Policy Causal Evaluations",
-      "url": "https://huggingface.co/papers/2609.30867",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Difference-in-differences (DID) studies are widely used to evaluate climate policy, but assessing the evidence supporti…",
+      "id": "99e6c41b0a12",
+      "title": "Not All Ranks Are Equal: Budget-Aware LoRA Merging Across Tasks",
+      "url": "https://huggingface.co/papers/2609.22237",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Merging low-rank adapters (LoRAs) promises to eliminate the overhead of swapping task-specific weights at inference tim…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-28T17:01:00.393Z",
+  "fetchedAt": "2026-09-28T22:32:18.642Z",
   "stale": false,
   "error": null
 }
