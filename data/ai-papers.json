@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "08deba24c8a1",
-      "title": "RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation",
-      "url": "https://huggingface.co/papers/2609.18703",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "summary": "Preparing high quality training data for foundation models requires scalable pipelines that transform heterogeneous doc…",
-      "score": 33
-    },
-    {
-      "id": "a5c7f9367593",
-      "title": "Block Sparse Attention with Log-Linear Complexity",
-      "url": "https://huggingface.co/papers/2609.31093",
+      "id": "f4d4da647fe1",
+      "title": "Enhancing Photogrammetric Digital Surface Models with Pretrained Diffusion Models and Multimodal Conditioning",
+      "url": "https://huggingface.co/papers/2609.31199",
       "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Scaling language models to long contexts is limited by the quadratic cost of self-attention. Block sparse attention off…",
-      "score": 14
+      "summary": "Large-scale Digital Surface Models (DSMs) can be produced cost-effectively from satellite images via stereo-photogramme…",
+      "score": 8
     },
     {
-      "id": "fafddc9ad089",
-      "title": "FoMo: Forking Moment in Generative Trajectory as a Perceptual Distance",
-      "url": "https://huggingface.co/papers/2609.25716",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Reference-based image quality assessment (IQA) metrics aim to reflect how humans perceive the perceptual distance betwe…",
-      "score": 7
-    },
-    {
-      "id": "f38ceb05f52b",
-      "title": "SLCA-GRPO: Resolving Cross-Segment Credit Misattribution in Tool-Calling RL",
-      "url": "https://huggingface.co/papers/2609.29050",
+      "id": "6185c7aec193",
+      "title": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
+      "url": "https://huggingface.co/papers/2609.30192",
       "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Tool-calling agents produce heterogeneous outputs, interleaving structured tool invocations with user-facing natural la…",
+      "summary": "Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes. We arg…",
       "score": 6
     },
     {
-      "id": "218b01c2ab3c",
-      "title": "Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem",
-      "url": "https://huggingface.co/papers/2609.30216",
+      "id": "38f7e95aa47e",
+      "title": "IndicBankBench: Evaluating Safety and Reliability of Language Model Assistants in Indian Retail Banking",
+      "url": "https://huggingface.co/papers/2609.29167",
       "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Jev is a fast, low-cost decision model that answers natural-language questions with choices, binary judgments, and scor…",
-      "score": 5
-    },
-    {
-      "id": "14a45fd1a4f3",
-      "title": "TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
-      "url": "https://huggingface.co/papers/2609.30222",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Existing point tracking models face a fundamental tradeoff: they can either track a sparse set of query points over lon…",
-      "score": 5
-    },
-    {
-      "id": "98078c28089f",
-      "title": "CARD: Cluster-level Adaptation with Reward-guided Decoding for Personalized Text Generation",
-      "url": "https://huggingface.co/papers/2601.06352",
-      "publishedAt": "2026-09-20T00:00:00.000Z",
-      "summary": "Adapting large language models to individual users remains challenging due to the tension between fine-grained personal…",
+      "summary": "Banking assistants must use account-specific information to answer requests and, in many cases, take actions through to…",
       "score": 4
     },
     {
-      "id": "8604ea5eccec",
-      "title": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs",
-      "url": "https://huggingface.co/papers/2609.31590",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Existing multi-agent benchmarks primarily test in competitive settings, short-horizon interactions under 20 steps, or s…",
-      "score": 4
+      "id": "0d32b525347b",
+      "title": "CodeGraph: Open-Taxonomy Knowledge Graph for Source Code with Wikidata Grounding",
+      "url": "https://huggingface.co/papers/2609.29474",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Public software repositories, like GitHub and Software Heritage Archive, store billions of files, yet extracting their …",
+      "score": 2
     },
     {
-      "id": "77fa387bc081",
-      "title": "ZooWork-ShopRanker: An Open, Preference-Aligned E-Commerce Reranker",
-      "url": "https://huggingface.co/papers/2609.31002",
+      "id": "c07a15b48049",
+      "title": "MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.30837",
       "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Open rerankers trained for general web retrieval transfer imperfectly to e-commerce, where ranking decisions depend not…",
-      "score": 3
+      "summary": "Multi-teacher on-policy distillation (MOPD) integrates specialized capabilities into a single student, but existing pra…",
+      "score": 2
     },
     {
-      "id": "acd1d56dde59",
-      "title": "Do Implicit Personalization and Explicit Styles Conflict? PsPLUG: A Lightweight Plug-in for Balancing Personalization and Style in Customized LLMs",
-      "url": "https://huggingface.co/papers/2601.06362",
+      "id": "aa111ecfc309",
+      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2609.04355",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "summary": "Pretrained vision-language-action (VLA) models enable broad manipulation but remain unreliable in tasks demanding preci…",
+      "score": 2
+    },
+    {
+      "id": "3bfb0fc1c3bc",
+      "title": "Depth-adaptive Inference of Looped Language Models via Continuous Depth Batching",
+      "url": "https://huggingface.co/papers/2608.09444",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "summary": "A main promise of looped language models is depth-adaptive inference. By looping a block of shared layers a variable nu…",
+      "score": 2
+    },
+    {
+      "id": "4f170e44110c",
+      "title": "Paragraph Boundaries Are Not White Space:Compression Depth as the Signature of Hierarchical Structure",
+      "url": "https://huggingface.co/papers/2609.23551",
       "publishedAt": "2026-09-20T00:00:00.000Z",
-      "summary": "Personalized large language models are often expected to follow explicit style instructions, yet we find that such inst…",
-      "score": 3
-    },
-    {
-      "id": "959e79ef1560",
-      "title": "Tactile-JEPA: Topology-Aware Self-Supervised Representation Learning for Distributed Tactile Sensors",
-      "url": "https://huggingface.co/papers/2609.24385",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Tactile sensing is an essential modality for robots performing contact-rich, dexterous manipulation, particularly under…",
+      "summary": "Standard positional encodings represent position as a one-dimensional reading-order coordinate, but reading order alone…",
       "score": 2
     },
     {
-      "id": "bbc96e143df8",
-      "title": "TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding",
-      "url": "https://huggingface.co/papers/2609.30670",
+      "id": "fcbf2d7b916d",
+      "title": "LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Decoder",
+      "url": "https://huggingface.co/papers/2609.28327",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "We present LightMIS, a scalable family of ultra-lightweight convolutional networks for 2D binary medical image segmenta…",
+      "score": 1
+    },
+    {
+      "id": "c58a2637e4bc",
+      "title": "Softmax Reparameterization for Output-Head Quantization",
+      "url": "https://huggingface.co/papers/2609.31291",
       "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Streaming video understanding requires models to interpret evidence as it arrives, yet current evaluations often report…",
-      "score": 2
+      "summary": "Large vocabularies make output heads a substantial inference cost in small language models. We propose softmax reparame…",
+      "score": 1
+    },
+    {
+      "id": "7503f6eeaed3",
+      "title": "Evidence-Grounded Auditing of Identification Assumptions in Climate-Policy Causal Evaluations",
+      "url": "https://huggingface.co/papers/2609.30867",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "summary": "Difference-in-differences (DID) studies are widely used to evaluate climate policy, but assessing the evidence supporti…",
+      "score": 1
+    },
+    {
+      "id": "cc1c04d70a57",
+      "title": "BoundInk: Boundary-Aware Online Handwriting Generation",
+      "url": "https://huggingface.co/papers/2604.02103",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "summary": "Realistic online handwriting depends not only on individual character shapes, but also on how a writer connects, spaces…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-28T08:31:01.700Z",
+  "fetchedAt": "2026-09-28T17:01:00.393Z",
   "stale": false,
   "error": null
 }
