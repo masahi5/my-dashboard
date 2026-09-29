@@ -11,15 +11,55 @@
       "url": "https://huggingface.co/papers/2609.26333",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "summary": "Prefill and decode reward different approaches to quantization: low-precision arithmetic accelerates prompt processing,…",
-      "score": 42
+      "score": 45
     },
     {
-      "id": "6185c7aec193",
-      "title": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
-      "url": "https://huggingface.co/papers/2609.30192",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes. We arg…",
+      "id": "63e0c9b129c1",
+      "title": "EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks",
+      "url": "https://huggingface.co/papers/2609.28236",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Long-horizon embodied interaction requires agents to retain and continually update information about the environment as…",
+      "score": 7
+    },
+    {
+      "id": "2b37f8e9c0f2",
+      "title": "LastOPD: Taming Collapse in Latent On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.28845",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) corrects a student on the responses it writes, but its signal is the teacher's next-token …",
+      "score": 7
+    },
+    {
+      "id": "6a26326d4eb7",
+      "title": "TimeEvo: Failure-Driven Self-Evolution of a Time Series Agent",
+      "url": "https://huggingface.co/papers/2609.27277",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Time series agents answer analytical questions by calling external tools, and which tools they carry is decided by peop…",
+      "score": 7
+    },
+    {
+      "id": "94036b9d4912",
+      "title": "AdaTutoRank: Learning to Rerank Document Sets via Adaptive Tutoring Optimization for RAG and Deep Research",
+      "url": "https://huggingface.co/papers/2609.32472",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Document rerankers determine what evidence reaches the downstream model in RAG and deep research, yet mainstream rerank…",
       "score": 6
+    },
+    {
+      "id": "ae5b9b95ac36",
+      "title": "Rethinking Training-Inference Mismatch in LLM Reinforcement Learning: Where It Arises and How to Correct It",
+      "url": "https://huggingface.co/papers/2609.32444",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "We study training-inference mismatch in reinforcement learning with verifiable rewards (RLVR) for large language models…",
+      "score": 3
+    },
+    {
+      "id": "99e6c41b0a12",
+      "title": "Not All Ranks Are Equal: Budget-Aware LoRA Merging Across Tasks",
+      "url": "https://huggingface.co/papers/2609.22237",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "summary": "Merging low-rank adapters (LoRAs) promises to eliminate the overhead of swapping task-specific weights at inference tim…",
+      "score": 2
     },
     {
       "id": "63dc59e3854f",
@@ -38,71 +78,31 @@
       "score": 2
     },
     {
-      "id": "c58a2637e4bc",
-      "title": "Softmax Reparameterization for Output-Head Quantization",
-      "url": "https://huggingface.co/papers/2609.31291",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Large vocabularies make output heads a substantial inference cost in small language models. We propose softmax reparame…",
-      "score": 2
-    },
-    {
-      "id": "0d32b525347b",
-      "title": "CodeGraph: Open-Taxonomy Knowledge Graph for Source Code with Wikidata Grounding",
-      "url": "https://huggingface.co/papers/2609.29474",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Public software repositories, like GitHub and Software Heritage Archive, store billions of files, yet extracting their …",
-      "score": 2
-    },
-    {
-      "id": "c07a15b48049",
-      "title": "MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.30837",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Multi-teacher on-policy distillation (MOPD) integrates specialized capabilities into a single student, but existing pra…",
-      "score": 2
-    },
-    {
-      "id": "aa111ecfc309",
-      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2609.04355",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "summary": "Pretrained vision-language-action (VLA) models enable broad manipulation but remain unreliable in tasks demanding preci…",
-      "score": 2
-    },
-    {
-      "id": "7503f6eeaed3",
-      "title": "Evidence-Grounded Auditing of Identification Assumptions in Climate-Policy Causal Evaluations",
-      "url": "https://huggingface.co/papers/2609.30867",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Difference-in-differences (DID) studies are widely used to evaluate climate policy, but assessing the evidence supporti…",
-      "score": 2
-    },
-    {
-      "id": "3bfb0fc1c3bc",
-      "title": "Depth-adaptive Inference of Looped Language Models via Continuous Depth Batching",
-      "url": "https://huggingface.co/papers/2608.09444",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "A main promise of looped language models is depth-adaptive inference. By looping a block of shared layers a variable nu…",
-      "score": 2
-    },
-    {
-      "id": "99e6c41b0a12",
-      "title": "Not All Ranks Are Equal: Budget-Aware LoRA Merging Across Tasks",
-      "url": "https://huggingface.co/papers/2609.22237",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Merging low-rank adapters (LoRAs) promises to eliminate the overhead of swapping task-specific weights at inference tim…",
+      "id": "2f6381714d87",
+      "title": "Diffusion Reward Models",
+      "url": "https://huggingface.co/papers/2609.33803",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "summary": "Reward models underpin the alignment of large language models, yet the dominant designs reduce each prompt--response pa…",
       "score": 1
     },
     {
-      "id": "cc1c04d70a57",
-      "title": "BoundInk: Boundary-Aware Online Handwriting Generation",
-      "url": "https://huggingface.co/papers/2604.02103",
-      "publishedAt": "2026-09-20T00:00:00.000Z",
-      "summary": "Realistic online handwriting depends not only on individual character shapes, but also on how a writer connects, spaces…",
+      "id": "a7aab7be1d0f",
+      "title": "Fewer Tokens, More Self-Teaching: On-Policy Self-Distillation for Extreme Visual Token Reduction",
+      "url": "https://huggingface.co/papers/2609.32353",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Visual token reduction is an effective way to accelerate multimodal large language models (MLLMs), but performance dete…",
+      "score": 1
+    },
+    {
+      "id": "6fa7961a8ea6",
+      "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
+      "url": "https://huggingface.co/papers/2609.33757",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "summary": "Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio m…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-09-28T22:32:18.642Z",
+  "fetchedAt": "2026-09-29T02:18:35.300Z",
   "stale": false,
   "error": null
 }
