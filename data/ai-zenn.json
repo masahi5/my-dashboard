@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "e59e409371c3",
-      "title": "zvec-grepでローカルの検索性能向上を試してみる",
-      "url": "https://zenn.dev/kyopan_pan/articles/369315dee62348",
-      "publishedAt": "2026-09-29T07:40:21.000Z",
-      "publisher": "許パン",
-      "summary": "はじめに 先日このような記事を見かけました BM25を使用してCodexのトークンの消費を30%抑える 記事内では実際にCodexのトークンを抑えることができていることが分かり有効性が確認できました。 そして、自分はこう思いました。「使っ…"
+      "id": "551b4a68e461",
+      "title": "Claude Codeに全権限を渡しても止まる操作がある — 権限モードと安全チェックは別物だった",
+      "url": "https://zenn.dev/zeroyen_dev/articles/claude-code-permission-still-blocked",
+      "publishedAt": "2026-09-29T11:06:51.000Z",
+      "publisher": "ゼロ円開発ログ",
+      "summary": "Claude Code の権限モードを bypassPermissions（すべて許可）にして、許可ルールも100件入れた状態で、それでも実行が拒否される操作がありました。 拒否のメッセージはこれです。 Permission for th…"
     },
     {
-      "id": "53d55a193cff",
-      "title": "A Tiny Continuity Log Makes AI Video Experiments Easier to Compare",
-      "url": "https://zenn.dev/imyaaiteam/articles/b069e96d817333",
-      "publishedAt": "2026-09-29T07:36:05.000Z",
-      "publisher": "imya.ai",
-      "summary": "Two clips can each look appealing and still refuse to belong in the same sequence. The problem might be a changing sky,…"
+      "id": "f7c877870c1c",
+      "title": "Claude Codeのモデルとeffortの選び方：作業別の目安とカスタムエージェントでの固定",
+      "url": "https://zenn.dev/ichikawa_y/articles/claude-code-model-effort-benchmark",
+      "publishedAt": "2026-09-29T10:58:57.000Z",
+      "publisher": "ichikawa",
+      "summary": "! この記事の目安は、2026年9月時点のモデル（Opus 5.5 / Fable 5.1 / Sonnet 5.5 ほか）と Claude Code CLI 2.1.28x で、筆者の業務題材を使った比較試験にもとづきます。一般的なベン…"
     },
     {
-      "id": "00503ed8089a",
-      "title": "画像から使いやすいAI画像プロンプトを作るための3つの視点",
-      "url": "https://zenn.dev/promptelle/articles/4823969f27ad07",
-      "publishedAt": "2026-09-29T07:18:25.000Z",
-      "publisher": "Promptelle",
-      "summary": "画像生成AIでイメージに近い結果を得るには、長い形容詞を並べるより、参照画像から必要な情報を分けて整理するのが役立ちます。この記事では、画像をプロンプトに変換するときに意識したい要素を紹介します。 1. 被写体と構図を先に言語化する まず…"
+      "id": "bf227704558d",
+      "title": "AI.SCOREでORDER BYする — 自然言語の基準でランキングを作る",
+      "url": "https://zenn.dev/web_benriya/articles/bigquery-ai-score-ranking",
+      "publishedAt": "2026-09-29T10:20:27.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに シリーズ第10回です。 前回（第9回）では AI.CLASSIFY を使い、テキストを指定したラベルに振り分けて GROUP BY で集計する方法を解説しました。今回は AI.SCORE を取り上げます。 AI.SCORE はテ…"
     },
     {
-      "id": "6f68b062dded",
-      "title": "AIカスタマーサポートを作ったら、AIよりナレッジベースのほうが難しかった",
-      "url": "https://zenn.dev/peggykang/articles/148a582533b974",
-      "publishedAt": "2026-09-29T07:16:04.000Z",
-      "publisher": "peggykang",
-      "summary": "AIカスタマーサポートを作り始めたとき、一番重要なのはモデルの性能だと思っていました。 どのモデルを使うか。 どれくらい正確に回答できるか。 どうやって関連する情報を検索するか。 でも実際に作っていくと、その前にもっと根本的な問題がありま…"
+      "id": "af004840b202",
+      "title": "バックエンドエンジニアの1か月の話題から──技術共有会 第3回",
+      "url": "https://zenn.dev/10q89s/articles/500d8469b49a90",
+      "publishedAt": "2026-09-29T10:14:10.000Z",
+      "publisher": "htnk128",
+      "summary": "! 本記事は、生成AIを利用して執筆しました。 はじめに こんにちは、URBAN HACKSでバックエンドエンジニアをしている shinee です。 URBAN HACKSでは、東急線アプリやQ SKIP、東急カードアプリなど暮らしを支え…"
     },
     {
-      "id": "173a4f0d95d8",
-      "title": "AIカスタマーサポートを作ってわかった。「答えられるAI」より「答えないAI」のほうが難しい",
-      "url": "https://zenn.dev/peggykang/articles/9c95ada875144e",
-      "publishedAt": "2026-09-29T07:13:39.000Z",
-      "publisher": "peggykang",
-      "summary": "最近、FeedLogというAIカスタマーサポートのプロダクトを作っています。 作り始める前は、AIサポートの仕組みをかなりシンプルに考えていました。 ナレッジベースを用意する。 ユーザーが質問する。 AIが関連する情報を探して回答する。 …"
+      "id": "98a725809b75",
+      "title": "画像編集のちまちま作業、もうやめない？Webエンジニアがたどり着いた「背景透過」の自動化Tips",
+      "url": "https://zenn.dev/valleywag/articles/f644570315bf5b",
+      "publishedAt": "2026-09-29T09:52:55.000Z",
+      "publisher": "valleywag",
+      "summary": "Webメディアの運用やECサイトの出品作業をしていると、必ずぶち当たるのが「大量の画像背景を消す作業（背景透過）」の壁です。 1枚や2枚ならPhotoshopのクイック選択ツールでサクッと終わりますが、これが20枚、50枚となると話は別。…"
     },
     {
-      "id": "f7c1c4716b57",
-      "title": "ローカルLLM環境の構築をClaude Codeに丸ごとやらせたら、思ったより自分で考えて作っていた話",
-      "url": "https://zenn.dev/htanijiri/articles/02-claude-code-built-local-llm",
-      "publishedAt": "2026-09-29T07:08:10.000Z",
-      "publisher": "ひろたに",
-      "summary": "前回、Mac mini (M4)の上に完全ローカルで動く文字起こし・要約パイプラインを作った話を書きました。中身の技術的なハマりどころ（Whisperの幻聴とかnum_ctxとか）はそっちにまとめてあります。 ローカルLLMで文字起こし・…"
+      "id": "495dd925f553",
+      "title": "VIVANT風でエンジニアの在り方を唱える",
+      "url": "https://zenn.dev/jboydev/articles/97431a2cf4a49c",
+      "publishedAt": "2026-09-29T09:48:05.000Z",
+      "publisher": "佃",
+      "summary": "「リーディング リーディング コードリーディング 実装内容を確認する義務 新規の不具合を発生させずリーディング リーディングをすることでエンジニアの価値向上 それを怠ればAIに淘汰される よってエンジニアの価値は下がる」"
     },
     {
-      "id": "cdd89926cce3",
-      "title": "AI 駆動開発で「設計」はどこに書くのか ― 振る舞いをテストで検証できる「仕様」にしてみる",
-      "url": "https://zenn.dev/softbank/articles/6f98cf7c4ebfd3",
-      "publishedAt": "2026-09-29T07:02:41.000Z",
-      "publisher": "田邉 優汰",
-      "summary": "はじめに 日々の開発において、AI にコードを書いてもらうことは日常になってきました。要件を伝えれば既存のコードベースを調査し、その作法に合わせて機能を足してくれます。 生成されたコードがいつも正しいわけではありませんが、それでも「コード…"
+      "id": "41c48d0025e8",
+      "title": "Rust製自作OS「octox」がサンフランシスコ大学の教材になっていた",
+      "url": "https://zenn.dev/o8vm/articles/3934806424cd85",
+      "publishedAt": "2026-09-29T09:00:05.000Z",
+      "publisher": "o8vm",
+      "summary": "私が Rust で実装して公開している Unix-like OS「octox」が、サンフランシスコ大学（University of San Francisco）の授業で教材として使用されていることが分かりました。 octox 専用のガイド…"
     },
     {
-      "id": "4b9a617649a6",
-      "title": "AMDがフェイフェイ・リーのWorld Labsを82億ドルで買収すると発表した日、7か月前の資金調達時点の評価額との差は64%だった",
-      "url": "https://zenn.dev/hideki_tamae/articles/amd-world-labs-valuation-premium",
-      "publishedAt": "2026-09-29T06:28:07.000Z",
-      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
-      "summary": "はじめに 64%。 これが今回の数字です。何の64%かというと、AMDが2026年9月28日に発表した、フェイフェイ・リー氏が創業した「World Labs」の買収額(82億ドル)が、その7か月前にWorld Labs自身が調達した際の評…"
+      "id": "9e62b2ab8d05",
+      "title": "過去の障害を再現して Incident Agent を評価する",
+      "url": "https://zenn.dev/genax_corp/articles/5214d9e0228928",
+      "publishedAt": "2026-09-29T08:57:40.000Z",
+      "publisher": "Sho Okada",
+      "summary": "はじめに コンタクトセンター業務を支援する自律型AIオペレーター「X-Ghost（クロスゴースト）」のインフラを担当している岡田です。 X-Ghost では、ログ・メトリクス・トレースを OpenTelemetry で収集し、ClickH…"
     },
     {
-      "id": "26bb70125739",
-      "title": "1台のWindows PCをAI開発チームにする — 壊れても戻せる開発基盤をつくる",
-      "url": "https://zenn.dev/ryf/books/windows-ai-dev-team",
-      "publishedAt": "2026-09-29T06:24:15.000Z",
-      "publisher": "Ryf｜AI×実践エンジニアリング",
-      "summary": "読むだけで終わらない。付属のAI Input PackをChatGPT / Codex / Claudeへ渡せば、本書と同じ開発ルールをAIにもそのまま共有できます。 本書では、Windows PC 1台を「実装するAI・検査する仕組み・…"
+      "id": "4a8bde564e2b",
+      "title": "skill-creator は自分のルールをどこで破っているか: 500行の予算、全大文字、検証スクリプトと仕様のズレ",
+      "url": "https://zenn.dev/skillselion/articles/c07e3fc3997737",
+      "publishedAt": "2026-09-29T08:18:00.000Z",
+      "publisher": "Skillselion",
+      "summary": "最終更新: 2026-09-29 要点 Anthropic の skill-creator は、スキルの書き方を定めたスキルです。ところが本人がそのルールを3か所で踏み越えています。SKILL.md は500行の目安の15行手前、全大文字…"
     },
     {
-      "id": "7b845756d229",
-      "title": "n8nで4つのSNSを個別に調べる：出典付きメモを作るテンプレート設計",
-      "url": "https://zenn.dev/beatapi/articles/eeab2c0db591e3",
-      "publishedAt": "2026-09-29T06:17:56.000Z",
-      "publisher": "BeatAPI",
-      "summary": "投稿の企画を考えるとき、AIの要約だけでは「その話はどの投稿から来たのか」が分からなくなりがちです。そこで、BeatAPI Social Dataを使い、公開投稿の参照元を残したまま調査メモを下書きするn8nテンプレートを4つ作りました。…"
+      "id": "a1d404da21f5",
+      "title": "自作AIベンチの数字を疑ったら、壊れていたのは測る側だった — 同じAIで最大4.3倍",
+      "url": "https://zenn.dev/miki_mini/articles/2499d786e8c001",
+      "publishedAt": "2026-09-29T08:00:05.000Z",
+      "publisher": "miki-mini",
+      "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は AIの点数を1回しか測っていない なら 3回測ればいいじゃない 👸🍰です。 読了時間の目安：約 9〜11分（前回までを読んでいなくても大丈夫です） ! 3行…"
     },
     {
-      "id": "465436cb3808",
-      "title": "複数AIのリアルタイム監視ツールをOSSで公開【Claude Code】【Codex】",
-      "url": "https://zenn.dev/mohhh_ok/articles/2026-09-tomarigi-desktop-agent-birds",
-      "publishedAt": "2026-09-29T06:14:35.000Z",
-      "publisher": "MOhhh",
-      "summary": "Claude Code と Codex のセッションを、鳥の姿で見守る macOS アプリ「Tomarigi（止まり木）」を公開しました。MIT のオープンソースで、v0.2.0 から署名・公証済みの .dmg を配布しています。 Git…"
+      "id": "f82d550086f5",
+      "title": "Claude Codeのサブエージェント間はファイル経由で受け渡す",
+      "url": "https://zenn.dev/yorusuzu/articles/claude-code-subagent-file-handoff",
+      "publishedAt": "2026-09-29T07:53:49.000Z",
+      "publisher": "yorusuzu",
+      "summary": "この記事について 前回の記事「Claude Codeでサブエージェントが増えたら、メインセッションをPMに固定する」では、メインセッションを PM として固定する体制について書きました。今回はその体制の中で、複数のサブエージェントの成果物…"
     },
     {
-      "id": "c7aa9f434ffe",
-      "title": "ゴミ分別アプリを Claude で作ったら、生活が少し楽になった",
-      "url": "https://zenn.dev/edash_tech_blog/articles/2c95eb8275a066",
-      "publishedAt": "2026-09-29T06:05:55.000Z",
-      "publisher": "imue",
-      "summary": "こんにちは！e-dashでエンジニアをしているimueです。 突然ですが、みなさん 毎日の生活の「ゴミの分別」って難しいと思いませんか？ これは「燃えるゴミ」なのだろうか それとも「プラスチック」なのだろうか...? 自分が住んでいる地域…"
+      "id": "d890bf681ae2",
+      "title": "失敗を安く、試行を多く――AI開発の確率論と決定論",
+      "url": "https://zenn.dev/choujiya/articles/cde9611b7ae701",
+      "publishedAt": "2026-09-29T07:52:41.000Z",
+      "publisher": "こんたろう",
+      "summary": "最近のAI開発の話題を見ていると、ループエンジニアリングで「どう修正と検証を回すか」に加え、「そのループで消費するトークンをどう減らすか」へも関心が広がっているように感じる。 この変化を考えるとき、私は映画や音楽の選び方を思い浮かべる。 …"
     }
   ],
-  "fetchedAt": "2026-09-29T08:50:01.592Z",
+  "fetchedAt": "2026-09-29T15:19:31.412Z",
   "stale": false,
   "error": null
 }

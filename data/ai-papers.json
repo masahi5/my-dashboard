@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "4bc3c4499fa5",
-      "title": "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
-      "url": "https://huggingface.co/papers/2609.33848",
-      "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents increasingly undertake extreme-long (xlong) horizon tasks, where a single execution c…",
-      "score": 14
-    },
-    {
-      "id": "c42e443750ad",
-      "title": "Imprint Reader: From Weight-Update Readout to Behavioral Intervention",
-      "url": "https://huggingface.co/papers/2609.35261",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "As language models take a growing role in AI development, a natural aspiration is for them to reflect on their own lear…",
-      "score": 8
-    },
-    {
-      "id": "267a15ad1d9b",
-      "title": "In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion",
-      "url": "https://huggingface.co/papers/2609.32540",
+      "id": "6e320d94938a",
+      "title": "Groupwise Agentic Grading and Advantage Redistribution for Code Agent RL",
+      "url": "https://huggingface.co/papers/2609.32577",
       "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Few-step autoregressive video diffusion generates a long video by splitting the video into temporal chunks and generati…",
-      "score": 5
+      "summary": "Reinforcement learning (RL) for code agents often uses executable tests to provide binary rewards. With these rewards, …",
+      "score": 64
     },
     {
-      "id": "35d3deb6bc0b",
-      "title": "An RL View of OPD: Least Square Policy Distillation for Sample-Efficient LLM Reasoning",
-      "url": "https://huggingface.co/papers/2609.35505",
+      "id": "d0fcf2c14023",
+      "title": "Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision",
+      "url": "https://huggingface.co/papers/2609.35718",
       "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "We study on-policy distillation (OPD) through the lens of reinforcement learning, establishing a connection between the…",
+      "summary": "Frontier general-purpose systems are rapidly expanding beyond visual understanding into capabilities traditionally hand…",
+      "score": 9
+    },
+    {
+      "id": "7c673f13d31d",
+      "title": "Nereus: Adaptive Parallelism for LLM Post-Training",
+      "url": "https://huggingface.co/papers/2609.34645",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Reinforcement learning (RL) post-training for large language models (LLMs) coordinates multiple models across generatio…",
+      "score": 6
+    },
+    {
+      "id": "a496f777a59c",
+      "title": "Relic: From Multi-Agent Collaboration to Persistent Organizational Capability",
+      "url": "https://huggingface.co/papers/2609.32965",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Multiple agents may often conflict in an organization: for example, one coding agent changes an interface in a reposito…",
       "score": 4
     },
     {
-      "id": "219519e7b5bd",
-      "title": "Change the Product, Keep the Parameters: Associative Algebra Layers for Transformers",
-      "url": "https://huggingface.co/papers/2609.32814",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Fast matrix multiplication algorithms keep the product fixed and search for a cheaper way to evaluate it. We instead as…",
-      "score": 3
-    },
-    {
-      "id": "a95e64cb49b8",
-      "title": "ColNanoVDR: Document-Free Query Distillation for Multi-Vector Visual Document Retrieval via Optimal Transport",
-      "url": "https://huggingface.co/papers/2609.34899",
+      "id": "cdc4c0382894",
+      "title": "SCOPD: Sparse-Context On-Policy Self-Distillation for Efficient Vision-Language Models",
+      "url": "https://huggingface.co/papers/2609.34044",
       "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Multi-vector retrievers built on vision-language models lead visual document retrieval (VDR), but they run a multi-bill…",
-      "score": 2
+      "summary": "Reasoning vision-language models (VLMs) process images and videos as long sequences of visual tokens, making inference …",
+      "score": 1
     },
     {
-      "id": "64759161351c",
-      "title": "SMAT: Simple and Efficient Merge-Aware Training",
-      "url": "https://huggingface.co/papers/2609.33437",
+      "id": "00399d4182c3",
+      "title": "Pruned CTC for Memory-Efficient Large-Vocabulary ASR Training",
+      "url": "https://huggingface.co/papers/2609.33645",
       "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "Model merging integrates the capabilities of multiple experts without joint retraining, but standard expert training op…",
+      "summary": "Connectionist temporal classification (CTC) naturally supports offline and streaming speech recognition with utterance-…",
       "score": 1
     },
     {
-      "id": "61c61386d168",
-      "title": "KernelZero: Co-Evolving Proposer and Coder for Continuously Improved GPU Kernel Generation",
-      "url": "https://huggingface.co/papers/2609.33074",
+      "id": "feed0ada442a",
+      "title": "AnswerMap: Faithful Spatial Interpretability of VLMs from Answer Posteriors",
+      "url": "https://huggingface.co/papers/2609.35247",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "When a VLM answers a visual query, current interpretability tools rely on text rationales, which use a mismatched modal…",
+      "score": 1
+    },
+    {
+      "id": "5ad584d0cefb",
+      "title": "FactorEngram: Factorized N-gram Memory with Basis-Level Gating for Language Models",
+      "url": "https://huggingface.co/papers/2609.35578",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Lookup-based memory has been a promising way to scale the parameters of large language models (LLMs). It retrieves lear…",
+      "score": 1
+    },
+    {
+      "id": "126d748206fc",
+      "title": "DISCO: Distributed Long Context Scaling with Grounding-Reasoning Disaggregation",
+      "url": "https://huggingface.co/papers/2609.33485",
       "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "High-performance GPU kernels are essential to modern machine learning systems, yet automatically generating kernels tha…",
+      "summary": "While Large Language Models (LLMs) advertise million-token context windows, reasoning quality often collapses as inputs…",
       "score": 1
     },
     {
-      "id": "6a6a50f743c1",
-      "title": "Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation",
-      "url": "https://huggingface.co/papers/2609.16145",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "summary": "We study a practical question: can a small correction module fix errors in a frozen language model's outputs without de…",
+      "id": "92767eea5c73",
+      "title": "G^2PTQ: Improving LLM Post-Training Quantization with Generalized Gradient Compensation",
+      "url": "https://huggingface.co/papers/2609.31009",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "summary": "Post-training quantization (PTQ) is a practical approach to reducing the memory and computational footprint of large la…",
       "score": 1
     },
     {
-      "id": "9d498ef4b258",
-      "title": "NanoForecast v0.5: Competitive Time Series Forecasting Through Training Pipeline Optimization",
-      "url": "https://huggingface.co/papers/2609.31669",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "summary": "We present NanoForecast v0.5, a 6.5M-parameter forecaster that competes with models 31x its size (TimesFM, 200M paramet…",
-      "score": 1
+      "id": "05859100c456",
+      "title": "Distillation Defenses Easily Break After Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2609.35699",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Distillation attacks copy the reasoning capabilities of closed-source large language models, allowing bad actors to rep…",
+      "score": 0
     },
     {
-      "id": "f4303d75e219",
-      "title": "Not All Objectives Are Born Equal: Priority-Constrained Descent for Hierarchical Multi-Objective Optimization",
-      "url": "https://huggingface.co/papers/2606.29521",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "summary": "Deep learning problems rarely involve objectives that are equal in importance. A primary objective defines the goal, wh…",
-      "score": 1
-    },
-    {
-      "id": "e3c5734d6cb4",
-      "title": "What masking geometry works best for EEG foundation models?",
-      "url": "https://huggingface.co/papers/2609.33487",
-      "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "EEG foundation models hold promise for scalable brain-signal decoding across clinical and cognitive neuroscience applic…",
+      "id": "3bf86649ecbc",
+      "title": "Playing to Par: Reinforcement Learning for Provably Optimal Quadrilateral Block Decompositions",
+      "url": "https://huggingface.co/papers/2609.32146",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "A quadrilateral block decomposition of a planar domain is judged by whether it is complete, whether its elements are we…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-29T08:50:01.450Z",
+  "fetchedAt": "2026-09-29T15:19:31.334Z",
   "stale": false,
   "error": null
 }
