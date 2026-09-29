@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "551b4a68e461",
-      "title": "Claude Codeに全権限を渡しても止まる操作がある — 権限モードと安全チェックは別物だった",
-      "url": "https://zenn.dev/zeroyen_dev/articles/claude-code-permission-still-blocked",
-      "publishedAt": "2026-09-29T11:06:51.000Z",
-      "publisher": "ゼロ円開発ログ",
-      "summary": "Claude Code の権限モードを bypassPermissions（すべて許可）にして、許可ルールも100件入れた状態で、それでも実行が拒否される操作がありました。 拒否のメッセージはこれです。 Permission for th…"
+      "id": "35a3609600c2",
+      "title": "Sonnet 5.5＋Opusアドバイザーで手軽にコスト削減！",
+      "url": "https://zenn.dev/goat_eat_any/articles/claude-code-sonnet-opus-advisor",
+      "publishedAt": "2026-09-29T16:21:34.000Z",
+      "publisher": "たなちゅー",
+      "summary": "はじめに @yoppy0123さんも紹介しているSonnet 5.5 + Opusアドバイザーの組み合わせ最高！を広めるためだけの記事です。 https://x.com/yoppy0123/status/21049022762678560…"
     },
     {
-      "id": "f7c877870c1c",
-      "title": "Claude Codeのモデルとeffortの選び方：作業別の目安とカスタムエージェントでの固定",
-      "url": "https://zenn.dev/ichikawa_y/articles/claude-code-model-effort-benchmark",
-      "publishedAt": "2026-09-29T10:58:57.000Z",
-      "publisher": "ichikawa",
-      "summary": "! この記事の目安は、2026年9月時点のモデル（Opus 5.5 / Fable 5.1 / Sonnet 5.5 ほか）と Claude Code CLI 2.1.28x で、筆者の業務題材を使った比較試験にもとづきます。一般的なベン…"
+      "id": "bdb178695e59",
+      "title": "Sonnet 5.5が同料金で速く安く、AIの止め方も前進",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260929",
+      "publishedAt": "2026-09-29T16:11:54.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年9月29日（火）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます。僕は毎朝、AIのニュースを自分の仕組みで集めて読んでるんですけど、今日は「速く安く」と「止め方」の話が並びました…"
     },
     {
-      "id": "bf227704558d",
-      "title": "AI.SCOREでORDER BYする — 自然言語の基準でランキングを作る",
-      "url": "https://zenn.dev/web_benriya/articles/bigquery-ai-score-ranking",
-      "publishedAt": "2026-09-29T10:20:27.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに シリーズ第10回です。 前回（第9回）では AI.CLASSIFY を使い、テキストを指定したラベルに振り分けて GROUP BY で集計する方法を解説しました。今回は AI.SCORE を取り上げます。 AI.SCORE はテ…"
+      "id": "c9ff3a0d9624",
+      "title": "Claude Code と Codex を最小の有料プラン同士で組ませるまで",
+      "url": "https://zenn.dev/twinharness/articles/claude-code-codex-lowest-plans-duo",
+      "publishedAt": "2026-09-29T14:31:12.000Z",
+      "publisher": "twinharness",
+      "summary": "一人暮らしの大学生なので、AI にかけるお金はなるべく抑えたいと思っています。最初は Claude の Pro プランだけで開発していましたが、使用枠はすぐに尽きました。かといって上位プランは値段が一気に上がるので、手が出ません。 そこで…"
     },
     {
-      "id": "af004840b202",
-      "title": "バックエンドエンジニアの1か月の話題から──技術共有会 第3回",
-      "url": "https://zenn.dev/10q89s/articles/500d8469b49a90",
-      "publishedAt": "2026-09-29T10:14:10.000Z",
-      "publisher": "htnk128",
-      "summary": "! 本記事は、生成AIを利用して執筆しました。 はじめに こんにちは、URBAN HACKSでバックエンドエンジニアをしている shinee です。 URBAN HACKSでは、東急線アプリやQ SKIP、東急カードアプリなど暮らしを支え…"
+      "id": "d5ce47577b7a",
+      "title": "AI×Blenderでゲーム用キャラ素体の作成に挑戦した記録",
+      "url": "https://zenn.dev/yy7613/articles/c150ef962ccc1f",
+      "publishedAt": "2026-09-29T14:29:19.000Z",
+      "publisher": "Yuuki.Y",
+      "summary": "はじめに この記事では、ゲーム用のアニメ調キャラクターの素体(頭部とボディ)を、生成AIに指示を出しながらBlenderで作る手順を紹介します。 Blender MCPとFable 5が出たころから試しはじめ、生成AIのモデルはFable…"
     },
     {
-      "id": "98a725809b75",
-      "title": "画像編集のちまちま作業、もうやめない？Webエンジニアがたどり着いた「背景透過」の自動化Tips",
-      "url": "https://zenn.dev/valleywag/articles/f644570315bf5b",
-      "publishedAt": "2026-09-29T09:52:55.000Z",
-      "publisher": "valleywag",
-      "summary": "Webメディアの運用やECサイトの出品作業をしていると、必ずぶち当たるのが「大量の画像背景を消す作業（背景透過）」の壁です。 1枚や2枚ならPhotoshopのクイック選択ツールでサクッと終わりますが、これが20枚、50枚となると話は別。…"
+      "id": "93d754e82fe2",
+      "title": "生命科学研究 × AI 活用ハンドブック",
+      "url": "https://zenn.dev/labcode/books/c4f81b6a2d9e37",
+      "publishedAt": "2026-09-29T14:29:01.000Z",
+      "publisher": "LabCode（ラボコード）",
+      "summary": "📰 概要 「AI で研究時間を取り戻す」ための、生命科学研究者向けの実践ハンドブックです。 実験があり、解析があり、事務手続きがあり、そのうえで論文を書かなければならない。指導教員は忙しく、隣に詳しい人がいるとは限らない。そんな状況で研…"
     },
     {
-      "id": "495dd925f553",
-      "title": "VIVANT風でエンジニアの在り方を唱える",
-      "url": "https://zenn.dev/jboydev/articles/97431a2cf4a49c",
-      "publishedAt": "2026-09-29T09:48:05.000Z",
-      "publisher": "佃",
-      "summary": "「リーディング リーディング コードリーディング 実装内容を確認する義務 新規の不具合を発生させずリーディング リーディングをすることでエンジニアの価値向上 それを怠ればAIに淘汰される よってエンジニアの価値は下がる」"
+      "id": "51ed631024d5",
+      "title": "Jevの活用事例を製造業の目で調査 — 検査の一次選別からロボットの判断層まで",
+      "url": "https://zenn.dev/jodycraft/articles/jev-manufacturing-use-cases",
+      "publishedAt": "2026-09-29T14:10:01.000Z",
+      "publisher": "JodyCraft",
+      "summary": "! 📋 この記事の前提 連載の続きです。先に前回の 判定だけに特化したAIモデル「Jev」を、ループ→グラフ→判定の系譜で読み解く を読んでいると話が早いです。今回はその活用事例の調査編です 製造業のDX担当・生産技術・AI導入を検討し…"
     },
     {
-      "id": "41c48d0025e8",
-      "title": "Rust製自作OS「octox」がサンフランシスコ大学の教材になっていた",
-      "url": "https://zenn.dev/o8vm/articles/3934806424cd85",
-      "publishedAt": "2026-09-29T09:00:05.000Z",
-      "publisher": "o8vm",
-      "summary": "私が Rust で実装して公開している Unix-like OS「octox」が、サンフランシスコ大学（University of San Francisco）の授業で教材として使用されていることが分かりました。 octox 専用のガイド…"
+      "id": "fba0f6f3fc4d",
+      "title": "Claude API の tool_use 実装で必ずハマる5つの罠",
+      "url": "https://zenn.dev/yunisuta/articles/ai1-dedup-ai-2026-05-10-ai-2026510-notic-zkxlod",
+      "publishedAt": "2026-09-29T13:41:01.000Z",
+      "publisher": "Yukito / 郷由稀斗",
+      "summary": "はじめに Anthropic が公開した金融業務向けエージェントテンプレート群（KYC・ピッチブック生成・月次決算処理など）が注目を集めている。これらを参考に社内のドキュメント処理エージェントを実装しようとすると、tool_use (fu…"
     },
     {
-      "id": "9e62b2ab8d05",
-      "title": "過去の障害を再現して Incident Agent を評価する",
-      "url": "https://zenn.dev/genax_corp/articles/5214d9e0228928",
-      "publishedAt": "2026-09-29T08:57:40.000Z",
-      "publisher": "Sho Okada",
-      "summary": "はじめに コンタクトセンター業務を支援する自律型AIオペレーター「X-Ghost（クロスゴースト）」のインフラを担当している岡田です。 X-Ghost では、ログ・メトリクス・トレースを OpenTelemetry で収集し、ClickH…"
+      "id": "18a6a43c0726",
+      "title": "見積もりと実測の差を読む — 削減が止まった工程の直し方と任せ方の格下げ",
+      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-mikomi-jissoku-sa",
+      "publishedAt": "2026-09-29T13:08:17.000Z",
+      "publisher": "速水 拓真",
+      "summary": "前回は、週10時間の削減を順番で作る移行設計を書きました（週10時間の削減を順番で作る）。見積もり列どおりに4週間の移行が済んだら、次は「本当に減ったか」を測る番です。 ここで必ず出るのが、この質問です。 見積もりは週5時間と言ったのに、…"
     },
     {
-      "id": "4a8bde564e2b",
-      "title": "skill-creator は自分のルールをどこで破っているか: 500行の予算、全大文字、検証スクリプトと仕様のズレ",
-      "url": "https://zenn.dev/skillselion/articles/c07e3fc3997737",
-      "publishedAt": "2026-09-29T08:18:00.000Z",
-      "publisher": "Skillselion",
-      "summary": "最終更新: 2026-09-29 要点 Anthropic の skill-creator は、スキルの書き方を定めたスキルです。ところが本人がそのルールを3か所で踏み越えています。SKILL.md は500行の目安の15行手前、全大文字…"
+      "id": "96f50ecdebcc",
+      "title": "AIは学習したのか、それとも一時的に覚えているだけなのか",
+      "url": "https://zenn.dev/tomokusaba/articles/c2a7e9f14b6d08",
+      "publishedAt": "2026-09-29T13:01:58.000Z",
+      "publisher": "くさば",
+      "summary": "はじめに AI について話していると、「この会話を AI が学習した」「この資料を AI に覚えさせた」という表現をよく耳にします。 もちろん、日常会話としては通じます。ただ、AI をサービスや業務に組み込むときには、学習したのか、入力と…"
     },
     {
-      "id": "a1d404da21f5",
-      "title": "自作AIベンチの数字を疑ったら、壊れていたのは測る側だった — 同じAIで最大4.3倍",
-      "url": "https://zenn.dev/miki_mini/articles/2499d786e8c001",
-      "publishedAt": "2026-09-29T08:00:05.000Z",
-      "publisher": "miki-mini",
-      "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は AIの点数を1回しか測っていない なら 3回測ればいいじゃない 👸🍰です。 読了時間の目安：約 9〜11分（前回までを読んでいなくても大丈夫です） ! 3行…"
+      "id": "da164b9947d2",
+      "title": "Agentforceが管理者では動くのに一般ユーザーだと止まる原因を切り分ける｜権限・共有設定のトラブルシューティング",
+      "url": "https://zenn.dev/pacific_creator/articles/9d3ed509fcbff7",
+      "publishedAt": "2026-09-29T12:47:54.000Z",
+      "publisher": "sr_mc_ai_06",
+      "summary": "はじめに Agentforceを自分の管理者アカウントで試したら普通に動いたのに、一般ユーザーにログインしてもらったら急に「情報が見つかりません」と返ってきた。そんな経験はありませんか? 私も最初にこれにぶつかったとき、てっきりAgent…"
     },
     {
-      "id": "f82d550086f5",
-      "title": "Claude Codeのサブエージェント間はファイル経由で受け渡す",
-      "url": "https://zenn.dev/yorusuzu/articles/claude-code-subagent-file-handoff",
-      "publishedAt": "2026-09-29T07:53:49.000Z",
-      "publisher": "yorusuzu",
-      "summary": "この記事について 前回の記事「Claude Codeでサブエージェントが増えたら、メインセッションをPMに固定する」では、メインセッションを PM として固定する体制について書きました。今回はその体制の中で、複数のサブエージェントの成果物…"
+      "id": "409fbdd2cc4e",
+      "title": "若手弁護士の雑務を AI に押し付けていったら、Zoom を自動操縦できるようになった",
+      "url": "https://zenn.dev/yutoribengoshi/articles/b71bde3b68b214",
+      "publishedAt": "2026-09-29T12:40:36.000Z",
+      "publisher": "関　智之",
+      "summary": "「来週火曜の14時から、依頼者さんと Zoom で打合せね。設定よろしく」 若い弁護士には、雑務がすべて降ってくる。記録のコピーも、郵便局も、日程調整も。そして当然のように、依頼者との Zoom の設定も。 会議を立てる。参加用の URL…"
     },
     {
-      "id": "d890bf681ae2",
-      "title": "失敗を安く、試行を多く――AI開発の確率論と決定論",
-      "url": "https://zenn.dev/choujiya/articles/cde9611b7ae701",
-      "publishedAt": "2026-09-29T07:52:41.000Z",
-      "publisher": "こんたろう",
-      "summary": "最近のAI開発の話題を見ていると、ループエンジニアリングで「どう修正と検証を回すか」に加え、「そのループで消費するトークンをどう減らすか」へも関心が広がっているように感じる。 この変化を考えるとき、私は映画や音楽の選び方を思い浮かべる。 …"
+      "id": "c781b09181ad",
+      "title": "【竹中工務店背任なぜバレた】エリート元所長の年収と欲望の罠",
+      "url": "https://zenn.dev/aiasoby/articles/asoby-tech-1184",
+      "publishedAt": "2026-09-29T12:24:14.000Z",
+      "publisher": "大人のAIアソビ",
+      "summary": "💡 本記事について 本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開し…"
     }
   ],
-  "fetchedAt": "2026-09-29T15:19:31.412Z",
+  "fetchedAt": "2026-09-29T20:06:11.114Z",
   "stale": false,
   "error": null
 }

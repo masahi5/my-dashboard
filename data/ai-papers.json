@@ -6,36 +6,44 @@
   "category": "ai",
   "items": [
     {
-      "id": "6e320d94938a",
-      "title": "Groupwise Agentic Grading and Advantage Redistribution for Code Agent RL",
-      "url": "https://huggingface.co/papers/2609.32577",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) for code agents often uses executable tests to provide binary rewards. With these rewards, …",
-      "score": 64
+      "id": "4932842d773f",
+      "title": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
+      "url": "https://huggingface.co/papers/2609.33325",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "summary": "Visual backbones have evolved from Convolutional Neural Networks (CNNs) with local aggregation to Vision Transformers (…",
+      "score": 106
     },
     {
-      "id": "d0fcf2c14023",
-      "title": "Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision",
-      "url": "https://huggingface.co/papers/2609.35718",
+      "id": "632bedfb9751",
+      "title": "SentZero: An Enhanced Sentence-Centric Vision-Language Pretraining for Multi-Task Zero-Shot Chest X-Ray Analysis",
+      "url": "https://huggingface.co/papers/2609.34479",
       "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Frontier general-purpose systems are rapidly expanding beyond visual understanding into capabilities traditionally hand…",
-      "score": 9
+      "summary": "Vision-language (VL) pretraining using paired chest X-ray (CXR) images and radiology reports has shown strong potential…",
+      "score": 25
     },
     {
-      "id": "7c673f13d31d",
-      "title": "Nereus: Adaptive Parallelism for LLM Post-Training",
-      "url": "https://huggingface.co/papers/2609.34645",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) post-training for large language models (LLMs) coordinates multiple models across generatio…",
-      "score": 6
-    },
-    {
-      "id": "a496f777a59c",
-      "title": "Relic: From Multi-Agent Collaboration to Persistent Organizational Capability",
-      "url": "https://huggingface.co/papers/2609.32965",
+      "id": "a11fa536f9e4",
+      "title": "ExpVoyager: Direct Experience Navigation for Dynamic Agent Skill Synthesis",
+      "url": "https://huggingface.co/papers/2609.32630",
       "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Multiple agents may often conflict in an organization: for example, one coding agent changes an interface in a reposito…",
-      "score": 4
+      "summary": "Learning from experience in LLM agents has become a key paradigm for developing self-evolving agents that continuously …",
+      "score": 7
+    },
+    {
+      "id": "4e7359a4bb38",
+      "title": "Reinforcing Agentic Creativity in Scientific Ideation with Night Science",
+      "url": "https://huggingface.co/papers/2609.35706",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous …",
+      "score": 2
+    },
+    {
+      "id": "3a7726d907bc",
+      "title": "Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation",
+      "url": "https://huggingface.co/papers/2609.34722",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Long-horizon camera-controlled video generation requires recovering previously observed content from an ever-growing vi…",
+      "score": 2
     },
     {
       "id": "cdc4c0382894",
@@ -43,7 +51,7 @@
       "url": "https://huggingface.co/papers/2609.34044",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "Reasoning vision-language models (VLMs) process images and videos as long sequences of visual tokens, making inference …",
-      "score": 1
+      "score": 2
     },
     {
       "id": "00399d4182c3",
@@ -51,7 +59,7 @@
       "url": "https://huggingface.co/papers/2609.33645",
       "publishedAt": "2026-09-27T00:00:00.000Z",
       "summary": "Connectionist temporal classification (CTC) naturally supports offline and streaming speech recognition with utterance-…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "feed0ada442a",
@@ -59,7 +67,7 @@
       "url": "https://huggingface.co/papers/2609.35247",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "When a VLM answers a visual query, current interpretability tools rely on text rationales, which use a mismatched modal…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "5ad584d0cefb",
@@ -67,22 +75,22 @@
       "url": "https://huggingface.co/papers/2609.35578",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "Lookup-based memory has been a promising way to scale the parameters of large language models (LLMs). It retrieves lear…",
+      "score": 2
+    },
+    {
+      "id": "4a1fbbd90b29",
+      "title": "Allspark: Weak to Strong Transfer via Alternating Chain of Thought",
+      "url": "https://huggingface.co/papers/2609.32913",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Recent progress in frontier models has renewed interest in large-scale reinforcement learning (RL), but the cost of gen…",
       "score": 1
     },
     {
-      "id": "126d748206fc",
-      "title": "DISCO: Distributed Long Context Scaling with Grounding-Reasoning Disaggregation",
-      "url": "https://huggingface.co/papers/2609.33485",
-      "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "While Large Language Models (LLMs) advertise million-token context windows, reasoning quality often collapses as inputs…",
-      "score": 1
-    },
-    {
-      "id": "92767eea5c73",
-      "title": "G^2PTQ: Improving LLM Post-Training Quantization with Generalized Gradient Compensation",
-      "url": "https://huggingface.co/papers/2609.31009",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Post-training quantization (PTQ) is a practical approach to reducing the memory and computational footprint of large la…",
+      "id": "0c82c323fda1",
+      "title": "Who Gets a Token, and What Does It Carry? Unequal Name Support and Concept Access in Large Language Models",
+      "url": "https://huggingface.co/papers/2609.34065",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Names are personal identifiers, but they also carry social meaning and are widely used to evaluate how language models …",
       "score": 1
     },
     {
@@ -91,18 +99,10 @@
       "url": "https://huggingface.co/papers/2609.35699",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "Distillation attacks copy the reasoning capabilities of closed-source large language models, allowing bad actors to rep…",
-      "score": 0
-    },
-    {
-      "id": "3bf86649ecbc",
-      "title": "Playing to Par: Reinforcement Learning for Provably Optimal Quadrilateral Block Decompositions",
-      "url": "https://huggingface.co/papers/2609.32146",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "A quadrilateral block decomposition of a planar domain is judged by whether it is complete, whether its elements are we…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-29T15:19:31.334Z",
+  "fetchedAt": "2026-09-29T20:06:10.959Z",
   "stale": false,
   "error": null
 }
