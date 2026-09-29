@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f3d6cc0391d4",
-      "title": "Disaggregated Quantization: Specializing LLM Prefill and Decode",
-      "url": "https://huggingface.co/papers/2609.26333",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "summary": "Prefill and decode reward different approaches to quantization: low-precision arithmetic accelerates prompt processing,…",
-      "score": 45
+      "id": "4bc3c4499fa5",
+      "title": "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents",
+      "url": "https://huggingface.co/papers/2609.33848",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "summary": "Large language model (LLM) agents increasingly undertake extreme-long (xlong) horizon tasks, where a single execution c…",
+      "score": 14
     },
     {
-      "id": "63e0c9b129c1",
-      "title": "EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks",
-      "url": "https://huggingface.co/papers/2609.28236",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Long-horizon embodied interaction requires agents to retain and continually update information about the environment as…",
-      "score": 7
+      "id": "c42e443750ad",
+      "title": "Imprint Reader: From Weight-Update Readout to Behavioral Intervention",
+      "url": "https://huggingface.co/papers/2609.35261",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "As language models take a growing role in AI development, a natural aspiration is for them to reflect on their own lear…",
+      "score": 8
     },
     {
-      "id": "2b37f8e9c0f2",
-      "title": "LastOPD: Taming Collapse in Latent On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.28845",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) corrects a student on the responses it writes, but its signal is the teacher's next-token …",
-      "score": 7
-    },
-    {
-      "id": "6a26326d4eb7",
-      "title": "TimeEvo: Failure-Driven Self-Evolution of a Time Series Agent",
-      "url": "https://huggingface.co/papers/2609.27277",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Time series agents answer analytical questions by calling external tools, and which tools they carry is decided by peop…",
-      "score": 7
-    },
-    {
-      "id": "94036b9d4912",
-      "title": "AdaTutoRank: Learning to Rerank Document Sets via Adaptive Tutoring Optimization for RAG and Deep Research",
-      "url": "https://huggingface.co/papers/2609.32472",
+      "id": "267a15ad1d9b",
+      "title": "In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion",
+      "url": "https://huggingface.co/papers/2609.32540",
       "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Document rerankers determine what evidence reaches the downstream model in RAG and deep research, yet mainstream rerank…",
-      "score": 6
+      "summary": "Few-step autoregressive video diffusion generates a long video by splitting the video into temporal chunks and generati…",
+      "score": 5
     },
     {
-      "id": "ae5b9b95ac36",
-      "title": "Rethinking Training-Inference Mismatch in LLM Reinforcement Learning: Where It Arises and How to Correct It",
-      "url": "https://huggingface.co/papers/2609.32444",
+      "id": "35d3deb6bc0b",
+      "title": "An RL View of OPD: Least Square Policy Distillation for Sample-Efficient LLM Reasoning",
+      "url": "https://huggingface.co/papers/2609.35505",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "We study on-policy distillation (OPD) through the lens of reinforcement learning, establishing a connection between the…",
+      "score": 4
+    },
+    {
+      "id": "219519e7b5bd",
+      "title": "Change the Product, Keep the Parameters: Associative Algebra Layers for Transformers",
+      "url": "https://huggingface.co/papers/2609.32814",
       "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "We study training-inference mismatch in reinforcement learning with verifiable rewards (RLVR) for large language models…",
+      "summary": "Fast matrix multiplication algorithms keep the product fixed and search for a cheaper way to evaluate it. We instead as…",
       "score": 3
     },
     {
-      "id": "99e6c41b0a12",
-      "title": "Not All Ranks Are Equal: Budget-Aware LoRA Merging Across Tasks",
-      "url": "https://huggingface.co/papers/2609.22237",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Merging low-rank adapters (LoRAs) promises to eliminate the overhead of swapping task-specific weights at inference tim…",
+      "id": "a95e64cb49b8",
+      "title": "ColNanoVDR: Document-Free Query Distillation for Multi-Vector Visual Document Retrieval via Optimal Transport",
+      "url": "https://huggingface.co/papers/2609.34899",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Multi-vector retrievers built on vision-language models lead visual document retrieval (VDR), but they run a multi-bill…",
       "score": 2
     },
     {
-      "id": "63dc59e3854f",
-      "title": "D-JEPA: A Decision-Aligned Latent World Model",
-      "url": "https://huggingface.co/papers/2609.24749",
-      "publishedAt": "2026-09-21T15:17:32.000Z",
-      "summary": "Latent world models predict the consequences of actions, but accurate prediction does not guarantee that latent distanc…",
-      "score": 2
-    },
-    {
-      "id": "fcbf2d7b916d",
-      "title": "LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Decoder",
-      "url": "https://huggingface.co/papers/2609.28327",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "We present LightMIS, a scalable family of ultra-lightweight convolutional networks for 2D binary medical image segmenta…",
-      "score": 2
-    },
-    {
-      "id": "2f6381714d87",
-      "title": "Diffusion Reward Models",
-      "url": "https://huggingface.co/papers/2609.33803",
+      "id": "64759161351c",
+      "title": "SMAT: Simple and Efficient Merge-Aware Training",
+      "url": "https://huggingface.co/papers/2609.33437",
       "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "Reward models underpin the alignment of large language models, yet the dominant designs reduce each prompt--response pa…",
+      "summary": "Model merging integrates the capabilities of multiple experts without joint retraining, but standard expert training op…",
       "score": 1
     },
     {
-      "id": "a7aab7be1d0f",
-      "title": "Fewer Tokens, More Self-Teaching: On-Policy Self-Distillation for Extreme Visual Token Reduction",
-      "url": "https://huggingface.co/papers/2609.32353",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Visual token reduction is an effective way to accelerate multimodal large language models (MLLMs), but performance dete…",
-      "score": 1
-    },
-    {
-      "id": "6fa7961a8ea6",
-      "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
-      "url": "https://huggingface.co/papers/2609.33757",
+      "id": "61c61386d168",
+      "title": "KernelZero: Co-Evolving Proposer and Coder for Continuously Improved GPU Kernel Generation",
+      "url": "https://huggingface.co/papers/2609.33074",
       "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio m…",
+      "summary": "High-performance GPU kernels are essential to modern machine learning systems, yet automatically generating kernels tha…",
       "score": 1
+    },
+    {
+      "id": "6a6a50f743c1",
+      "title": "Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation",
+      "url": "https://huggingface.co/papers/2609.16145",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "We study a practical question: can a small correction module fix errors in a frozen language model's outputs without de…",
+      "score": 1
+    },
+    {
+      "id": "9d498ef4b258",
+      "title": "NanoForecast v0.5: Competitive Time Series Forecasting Through Training Pipeline Optimization",
+      "url": "https://huggingface.co/papers/2609.31669",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "summary": "We present NanoForecast v0.5, a 6.5M-parameter forecaster that competes with models 31x its size (TimesFM, 200M paramet…",
+      "score": 1
+    },
+    {
+      "id": "f4303d75e219",
+      "title": "Not All Objectives Are Born Equal: Priority-Constrained Descent for Hierarchical Multi-Objective Optimization",
+      "url": "https://huggingface.co/papers/2606.29521",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "summary": "Deep learning problems rarely involve objectives that are equal in importance. A primary objective defines the goal, wh…",
+      "score": 1
+    },
+    {
+      "id": "e3c5734d6cb4",
+      "title": "What masking geometry works best for EEG foundation models?",
+      "url": "https://huggingface.co/papers/2609.33487",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "summary": "EEG foundation models hold promise for scalable brain-signal decoding across clinical and cognitive neuroscience applic…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-29T02:18:35.300Z",
+  "fetchedAt": "2026-09-29T08:50:01.450Z",
   "stale": false,
   "error": null
 }
