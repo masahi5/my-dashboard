@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c781b09181ad",
-      "title": "【竹中工務店背任なぜバレた】エリート元所長の年収と欲望の罠",
-      "url": "https://zenn.dev/aiasoby/articles/asoby-tech-1184",
-      "publishedAt": "2026-09-29T12:24:14.000Z",
-      "publisher": "大人のAIアソビ",
-      "summary": "💡 本記事について 本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開し…"
+      "id": "bd91bd30ae16",
+      "title": "Jev の備忘録：判断を返す AI の概要と使い方",
+      "url": "https://zenn.dev/gingakuwagata/articles/jev-system-one-notes",
+      "publishedAt": "2026-09-29T23:24:22.000Z",
+      "publisher": "ぎんがくわがた",
+      "summary": "問い合わせの担当部署を決める、文書にタグを付ける、検索結果を回答に使ってよいか判定する。 こうした小さな判断をソフトウェアに組み込むためのモデルが Jev です。 TypeSafe AI が2026年9月15日に早期アクセスとして公開しま…"
     },
     {
-      "id": "3c3f86303bec",
-      "title": "失敗するエージェントを1手目で見抜き推論を最大6割削る早期中断",
-      "url": "https://zenn.dev/okssusucha/articles/20260725-llm-agent-early-abort-hidden-state-probe",
-      "publishedAt": "2026-09-29T12:22:27.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "エージェントに複雑なタスクを投げると、ときどき最初の数手で筋の悪い方針に入り込む。それでもエージェントは律儀に20手ほど回し続け、大量のツール呼び出しとトークンを消費してから、ようやく「できませんでした」と返してくる。この「詰んでいるのに…"
+      "id": "8d423c436143",
+      "title": "バイブコーディング時代、エージェントとは「アプリの上」で会話したい",
+      "url": "https://zenn.dev/yuksblog/articles/2026_09_27_nuiitivet_vibecoding",
+      "publishedAt": "2026-09-29T23:00:06.000Z",
+      "publisher": "ゆっき",
+      "summary": "はじめに バイブコーディング時代の UI フレームワークはどうあるべきか。結論から言うと、人とエージェントが実行中のアプリを共有しながら開発できることだと考えています。アプリに直接プロンプトを書き込む、画面を直接編集する、エージェントがア…"
     },
     {
-      "id": "662e38337e53",
-      "title": "AI が書いたコードは動く。エラーも出ない。それでも壊れている5つの形",
-      "url": "https://zenn.dev/maruchi777/articles/03524234c06fa2",
-      "publishedAt": "2026-09-29T12:16:33.000Z",
-      "publisher": "maruchi777",
-      "summary": "コードを書く時間が、ここ1年で明らかに減りました。 代わりに増えたのが、出てきたコードを読んで「これでいいか」を決める時間です。そして決める側の難しさは、まったく減っていません。 この記事は、レビューで見つけにくい5つの形をコードで並べた…"
+      "id": "690e211626b4",
+      "title": "CLAUDE.mdの肥大化は、ルールを足す時の4段階の判断で防ぐ",
+      "url": "https://zenn.dev/arithan/articles/claude-md-keep-lean",
+      "publishedAt": "2026-09-29T23:00:06.000Z",
+      "publisher": "ARITH",
+      "summary": "はじめに CLAUDE.mdは、気づくと太っています。 決まりを1つ足すたびに、理由や背景も一緒に書き足してしまうからです。 そして長くなってから、どれを消すかで悩みます。 筆者のプロジェクトでも、CLAUDE.mdは書き始めてから約3.…"
     },
     {
-      "id": "2702034ec110",
-      "title": "Claude Codeを無人で回す実測ノート ── 止まらないまま効かなくなる場所",
-      "url": "https://zenn.dev/sivami/books/611972abc8ad72",
-      "publishedAt": "2026-09-29T11:20:13.000Z",
-      "publisher": "sivami",
-      "summary": "Claude Codeを夜間・無人で数ヶ月回して、実際に踏んだ「止まらないのに効いていない」壊れ方と、その直し方の記録。引き継ぎ書テンプレート、黙って止まる5つの層、無人前に見る15項目。1章は無料。"
+      "id": "d4d09ffd137a",
+      "title": "Claude Codeのサブエージェントはmodelを書かないと親を継ぐ：未指定の3経路と部下1人9万トークンの実測",
+      "url": "https://zenn.dev/yuu_inaka/articles/claude-subagent-model-inherit",
+      "publishedAt": "2026-09-29T22:35:29.000Z",
+      "publisher": "ゆう",
+      "summary": "結論を先に書きます。 .claude/agents/*.md に model: を書かないサブエージェントは、親のモデルをそのまま継ぎます。私の環境では6本中4本が未指定で、コマンドを走らせて結果を写すだけの役まで一番高いモデル（opus…"
     },
     {
-      "id": "b303e86b77c9",
-      "title": "なぜ、AIのせいでAI以外の事業をやっている事業主だけが一方的に得するのか？",
-      "url": "https://zenn.dev/pdfractal/articles/df7ca6260f2987",
-      "publishedAt": "2026-09-29T11:19:55.000Z",
-      "publisher": "pdfractal",
-      "summary": "はじめに 生成AIについては、「AIによって能力の低い人も仕事ができるようになる」「能力の高い人はさらに生産性が上がる」といった説明がよく行われます。しかし、この説明には重要な論点が抜けています。AIによって価値を生み出せることと、その価…"
+      "id": "c9a67ef28bb6",
+      "title": "LLMの『Let me double-check』を1トークンに圧縮する—Shorthand for Thoughtを小さく動かしてみた",
+      "url": "https://zenn.dev/matsushima_a/articles/day-001-shorthand-for-thought",
+      "publishedAt": "2026-09-29T22:21:53.000Z",
+      "publisher": "matsushima",
+      "summary": "この記事について 海外AIネタを毎日1つ実際に検証して発信する個人チャレンジのDay 001。今回選んだのは、COLM 2026に採択された論文 Shorthand for Thought: Compressing LLM Reasoni…"
     },
     {
-      "id": "551b4a68e461",
-      "title": "Claude Codeに全権限を渡しても止まる操作がある — 権限モードと安全チェックは別物だった",
-      "url": "https://zenn.dev/zeroyen_dev/articles/claude-code-permission-still-blocked",
-      "publishedAt": "2026-09-29T11:06:51.000Z",
-      "publisher": "ゼロ円開発ログ",
-      "summary": "Claude Code の権限モードを bypassPermissions（すべて許可）にして、許可ルールも100件入れた状態で、それでも実行が拒否される操作がありました。 拒否のメッセージはこれです。 Permission for th…"
+      "id": "5ebaead4a93e",
+      "title": "Hermes Agent で『3分間コーチ』を再現し、AI コーチに毎朝声をかけてもらう",
+      "url": "https://zenn.dev/greendrop/articles/2026-09-29-b6b0c4f099b04c",
+      "publishedAt": "2026-09-29T22:00:05.000Z",
+      "publisher": "greendrop",
+      "summary": "はじめに 個人で「毎日少しずつ何かを進めよう」と決めても、なかなか手が動きません。 仕事なら、上司や同僚との会話をきっかけに手が動きます。しかし個人の取り組みには、声をかけてくれる人がいません。気づけば数日が過ぎている、ということが続いて…"
     },
     {
-      "id": "f7c877870c1c",
-      "title": "Claude Codeのモデルとeffortの選び方：作業別の目安とカスタムエージェントでの固定",
-      "url": "https://zenn.dev/ichikawa_y/articles/claude-code-model-effort-benchmark",
-      "publishedAt": "2026-09-29T10:58:57.000Z",
-      "publisher": "ichikawa",
-      "summary": "! この記事の目安は、2026年9月時点のモデル（Opus 5.5 / Fable 5.1 / Sonnet 5.5 ほか）と Claude Code CLI 2.1.28x で、筆者の業務題材を使った比較試験にもとづきます。一般的なベン…"
+      "id": "86990b7d2b22",
+      "title": "cmux で Claude Code を動かして 1 か月半。NODE_OPTIONS・Cmd+クリック・ワークスペースの雛形で踏んだこと",
+      "url": "https://zenn.dev/y3chi5z/articles/cmux-claude-code-first-month",
+      "publishedAt": "2026-09-29T19:57:26.000Z",
+      "publisher": "y43z",
+      "summary": "8 月中旬から、ターミナルを cmux に替えて Claude Code を動かしています。1 つのウィンドウに案件ごとのワークスペースを並べ、それぞれで Claude Code とブラウザを横に置く使い方です。今日の時点で、1 つのウィ…"
     },
     {
-      "id": "bf227704558d",
-      "title": "AI.SCOREでORDER BYする — 自然言語の基準でランキングを作る",
-      "url": "https://zenn.dev/web_benriya/articles/bigquery-ai-score-ranking",
-      "publishedAt": "2026-09-29T10:20:27.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに シリーズ第10回です。 前回（第9回）では AI.CLASSIFY を使い、テキストを指定したラベルに振り分けて GROUP BY で集計する方法を解説しました。今回は AI.SCORE を取り上げます。 AI.SCORE はテ…"
+      "id": "5e94de9af4bd",
+      "title": "AI時代、正義と悪はどちらが強いのか",
+      "url": "https://zenn.dev/kabeya/articles/ai-justice-and-evil",
+      "publishedAt": "2026-09-29T18:30:39.000Z",
+      "publisher": "kabeya",
+      "summary": "この記事で考えること AIは使っている個人から見れば非常に便利な道具です。一方で「AIは危険だ」と言われてもいます。 もともとルールを守る側と守らない側には、制約条件の違いによる非対称性があります。AIは攻撃側への参入障壁を下げ、一人あた…"
     },
     {
-      "id": "af004840b202",
-      "title": "バックエンドエンジニアの1か月の話題から──技術共有会 第3回",
-      "url": "https://zenn.dev/10q89s/articles/500d8469b49a90",
-      "publishedAt": "2026-09-29T10:14:10.000Z",
-      "publisher": "htnk128",
-      "summary": "! 本記事は、生成AIを利用して執筆しました。 はじめに こんにちは、URBAN HACKSでバックエンドエンジニアをしている shinee です。 URBAN HACKSでは、東急線アプリやQ SKIP、東急カードアプリなど暮らしを支え…"
+      "id": "24477bc6a113",
+      "title": "話題の判断特化AI「Jev」に米国株を売買させたら、どの方法でも勝てなかった話",
+      "url": "https://zenn.dev/kohei03/articles/a3d749b239ad7a",
+      "publishedAt": "2026-09-29T17:43:25.000Z",
+      "publisher": "kokei",
+      "summary": "はじめに 2026年9月に公開されて話題になった、TypeSafe AI の判断特化モデル「Jev」。文章を生成せず、選択肢から1つを選ぶ・点数をつける・Yes/Noの確率を返すことだけに特化していて、0.1〜0.5秒で答えが返ってきます…"
     },
     {
-      "id": "98a725809b75",
-      "title": "画像編集のちまちま作業、もうやめない？Webエンジニアがたどり着いた「背景透過」の自動化Tips",
-      "url": "https://zenn.dev/valleywag/articles/f644570315bf5b",
-      "publishedAt": "2026-09-29T09:52:55.000Z",
-      "publisher": "valleywag",
-      "summary": "Webメディアの運用やECサイトの出品作業をしていると、必ずぶち当たるのが「大量の画像背景を消す作業（背景透過）」の壁です。 1枚や2枚ならPhotoshopのクイック選択ツールでサクッと終わりますが、これが20枚、50枚となると話は別。…"
+      "id": "3924e8d747dd",
+      "title": "AI が壊したのは品質ではなく代理指標だ。Meat Proxy 対策と「丁寧にやる」論から考える品質の置き場所",
+      "url": "https://zenn.dev/kongyokongyo/articles/8dd8cc16e08172",
+      "publishedAt": "2026-09-29T17:29:42.000Z",
+      "publisher": "kongyo2",
+      "summary": "はじめに AI 以前、僕たちは成果物の品質を直接確かめる代わりに、いくつかの代理指標で見積もっていた。手間がかかっていれば、たぶん理解している。見た目が整っていれば、たぶんちゃんとしている。同僚の名前で届いたものなら、たぶん誰かが確認して…"
     },
     {
-      "id": "495dd925f553",
-      "title": "VIVANT風でエンジニアの在り方を唱える",
-      "url": "https://zenn.dev/jboydev/articles/97431a2cf4a49c",
-      "publishedAt": "2026-09-29T09:48:05.000Z",
-      "publisher": "佃",
-      "summary": "「リーディング リーディング コードリーディング 実装内容を確認する義務 新規の不具合を発生させずリーディング リーディングをすることでエンジニアの価値向上 それを怠ればAIに淘汰される よってエンジニアの価値は下がる」"
+      "id": "579208e449b7",
+      "title": "自律エージェントに「勝手に工夫させない」ための設計（ガードレール・決裁箱・自己拡大の禁止）",
+      "url": "https://zenn.dev/mamedougu/articles/agent-follow-the-playbook",
+      "publishedAt": "2026-09-29T17:09:10.000Z",
+      "publisher": "mamedougu",
+      "summary": "前の2記事で、Claude Code + GitHub Actions だけで小さな会社を毎晩1営業日ぶん回している話（63日の落とし穴）と、クラウドと手元PCの二層の競合防止を書きました。この記事は3本目で、テーマは 「賢いエージェント…"
     },
     {
-      "id": "41c48d0025e8",
-      "title": "Rustで作った自作OS「octox」がサンフランシスコ大学の教材になっていました",
-      "url": "https://zenn.dev/o8vm/articles/3934806424cd85",
-      "publishedAt": "2026-09-29T09:00:05.000Z",
-      "publisher": "o8vm",
-      "summary": "私が Rust で実装して公開している Unix-like OS「octox」が、サンフランシスコ大学（University of San Francisco）の授業で教材として使用されていることが分かりました。 octox 専用のガイド…"
+      "id": "8c52a0658c38",
+      "title": "ゼロから作るCOWファイルシステム 1 DAY1 ― 贅沢(ムダ)を選ぶ",
+      "url": "https://zenn.dev/faliye/articles/0c5e1ce9fe032f",
+      "publishedAt": "2026-09-29T17:08:45.000Z",
+      "publisher": "faliye",
+      "summary": "ファイルシステムを作ろうと思う。やり方はあまりまともじゃないかもしれない。ただ、何か書き残しておいたほうがいい気がした。とはいえ、このシリーズで技術的な話はほとんどできないと思う。 シリーズの最初なので、乏しい知識でファイルシステムの基本…"
     }
   ],
-  "fetchedAt": "2026-09-29T23:42:17.205Z",
+  "fetchedAt": "2026-09-30T02:24:45.490Z",
   "stale": false,
   "error": null
 }
