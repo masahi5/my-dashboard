@@ -6,12 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "fb2daa28df1d",
-      "title": "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
-      "url": "https://huggingface.co/papers/2609.37559",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "To serve as real-world personal assistants, streaming video models need persistent memory that retains past experiences…",
-      "score": 17
+      "id": "99f63385e0b9",
+      "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
+      "url": "https://huggingface.co/papers/2609.36322",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of…",
+      "score": 54
+    },
+    {
+      "id": "61b02d81b395",
+      "title": "Scaling Properties of Same-Family On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.32722",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how mu…",
+      "score": 46
     },
     {
       "id": "06e097651d04",
@@ -19,15 +27,7 @@
       "url": "https://huggingface.co/papers/2609.36651",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "Long-context reasoning in large language models incurs substantial computation and memory costs. Visual text compressio…",
-      "score": 9
-    },
-    {
-      "id": "cdb0a5132b16",
-      "title": "AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation",
-      "url": "https://huggingface.co/papers/2609.35530",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Recent image generation models can take multiple reference images as input and combine them into a new image. However, …",
-      "score": 8
+      "score": 16
     },
     {
       "id": "ade0d64e84c3",
@@ -35,7 +35,15 @@
       "url": "https://huggingface.co/papers/2609.36653",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "Recurrent reasoning models have attracted growing attention for scaling test-time computation, typically by iteratively…",
-      "score": 7
+      "score": 9
+    },
+    {
+      "id": "2cc5ac41e697",
+      "title": "Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing",
+      "url": "https://huggingface.co/papers/2609.37402",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Large language model (LLM) routing reduces serving cost by assigning each query to an appropriate model while preservin…",
+      "score": 9
     },
     {
       "id": "1df7cbcf5b1c",
@@ -46,12 +54,20 @@
       "score": 6
     },
     {
-      "id": "2cc5ac41e697",
-      "title": "Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing",
-      "url": "https://huggingface.co/papers/2609.37402",
+      "id": "e0f3f38e110c",
+      "title": "Can Agents Design Libraries for Agents?",
+      "url": "https://huggingface.co/papers/2609.36730",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Large language model (LLM) routing reduces serving cost by assigning each query to an appropriate model while preservin…",
+      "summary": "Agents increasingly build on code written by other agents, and they reimplement rather than reuse, growing the codebase…",
       "score": 4
+    },
+    {
+      "id": "7b439eaae2ea",
+      "title": "Fractional State Space Transition for Long Sequence Modeling",
+      "url": "https://huggingface.co/papers/2609.36314",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "State Space Models (SSMs) compress sequence history into a bounded recurrent state, making the resulting memory law a c…",
+      "score": 3
     },
     {
       "id": "c01464f32d62",
@@ -62,19 +78,11 @@
       "score": 3
     },
     {
-      "id": "a497da693bfa",
-      "title": "Improved Distributional Diffusion Models",
-      "url": "https://huggingface.co/papers/2609.37147",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Distributional Diffusion Models (DDMs) replace the standard mean-prediction denoiser with a distributional denoiser tra…",
-      "score": 3
-    },
-    {
-      "id": "61b02d81b395",
-      "title": "Scaling Properties of Same-Family On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.32722",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how mu…",
+      "id": "b92c7e1381f0",
+      "title": "Org-Agent: Beyond Personal Assistants Towards Organizational Agents",
+      "url": "https://huggingface.co/papers/2609.34392",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Language model agents serving organizations must coordinate requests from multiple users while using knowledge distribu…",
       "score": 1
     },
     {
@@ -92,17 +100,9 @@
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "Estimating mutual information (MI) from samples is a central objective in a variety of scientific fields. Modern neural…",
       "score": 1
-    },
-    {
-      "id": "233d84ebc2c5",
-      "title": "Scaffolding Minds: Optimizing Latent Visual Target Representations for Multimodal Reasoning",
-      "url": "https://huggingface.co/papers/2608.19669",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Latent reasoning has advanced multimodal reasoning through a two-stage training paradigm: (1) a helper image is encoded…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-30T15:34:39.498Z",
+  "fetchedAt": "2026-09-30T20:18:27.333Z",
   "stale": false,
   "error": null
 }

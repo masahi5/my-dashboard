@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "8365a1e8af17",
-      "title": "OpenAI Agents API を試す：GitHub の OSS を一言で使わせてみた",
-      "url": "https://zenn.dev/softbank/articles/93ae91e352da5b",
-      "publishedAt": "2026-09-30T04:40:02.000Z",
-      "publisher": "CHEN CHEN",
-      "summary": "ソフトバンクのCHENです。普段は、データ構造化ツール「TASUKI Annotation」の技術研究＆全社RAG基盤に携わっています。あわせて生成AI・エージェント技術の探索にも取り組み、実務投入を見据えた技術検証を行っています。本記事…"
+      "id": "8dff3c90862a",
+      "title": "AI エージェントにテストを先に書かせてから実装させるワークフロー:Claude Code・Codex・Gemini CLI での指示の出し",
+      "url": "https://zenn.dev/aicoding_guide/articles/ai-coding-test-first-workflow",
+      "publishedAt": "2026-09-30T12:37:24.000Z",
+      "publisher": "AIコーディングガイド",
+      "summary": "コーディングエージェントに「機能を実装して」と頼むと、実装は速いものの、動作確認が「たぶん動きます」で終わることがあります。これを防ぐ最も効果的な方法が、テストを先に書かせ、失敗を確認してから実装させるワークフローです。 エージェントは「…"
     },
     {
-      "id": "496a335d46e7",
-      "title": "GPT Image 2.5 と GPT Image 2 の日本語スライド生成を比較検証",
-      "url": "https://zenn.dev/softbank/articles/cb319630bd4f0f",
-      "publishedAt": "2026-09-30T04:39:53.000Z",
-      "publisher": "CHEN CHEN",
-      "summary": "ソフトバンクのCHENです。普段は、データ構造化ツール「TASUKI Annotation」の技術研究＆全社RAG基盤に携わっています。あわせて生成AI・エージェント技術の探索にも取り組み、実務投入を見据えた技術検証を行っています。202…"
+      "id": "8b32d1b77d30",
+      "title": "AI コーディングツールに API キーや秘密情報を読ませないための設定:Claude Code・Codex・Gemini CLI 共通の対",
+      "url": "https://zenn.dev/aicoding_guide/articles/ai-coding-security-secrets",
+      "publishedAt": "2026-09-30T12:37:23.000Z",
+      "publisher": "AIコーディングガイド",
+      "summary": "コーディングエージェントは、指示を実行するために必要だと判断すれば .env や config/secrets.yml を読みます。読んだ内容は API に送信され、ログや履歴に残ります。「.gitignore に入れているから大丈夫」は…"
     },
     {
-      "id": "2a9504d81da1",
-      "title": "AIの意見を聞かない技術 第8回：ルールを整理しない技術",
-      "url": "https://zenn.dev/garplab/articles/320aba699cab5f",
-      "publishedAt": "2026-09-30T04:20:09.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「AIの意見を聞かない技術」の第 8 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全…"
+      "id": "408f2d006902",
+      "title": "長寿命AIエージェントのAuthority Continuity設計：権限を拡大せず更新・失効・再照合する",
+      "url": "https://zenn.dev/asagiman/articles/ai-agent-authority-continuity",
+      "publishedAt": "2026-09-30T12:16:59.000Z",
+      "publisher": "asagiman",
+      "summary": "AIエージェントへ一度grantした権限を、長時間そのまま使える前提にすると壊れます。 理由は単純で、実行時にはgrant以外の条件も変化するからです。 agent / model / runtime source HEAD / bina…"
     },
     {
-      "id": "34bae0f2cdfd",
-      "title": "AIコーディングで、何を自動化して、何をHuman Gateとして残すのか",
-      "url": "https://zenn.dev/3su3/articles/15b2839193d228",
-      "publishedAt": "2026-09-30T04:11:06.000Z",
-      "publisher": "SieR.",
-      "summary": "最近、個人開発ではかなりAIにコードを書いてもらっています。 Issueを読んでもらって、Planを作って、実装して、テストして、PRを作る。 以前なら自分でやっていたことのかなりの部分を、AIが進めてくれるようになりました。 そうなると…"
+      "id": "7c915ec92c35",
+      "title": "GoogleのgiflibのRust書き換えをミニ再現: AIにCの脆弱コードを書き換えさせ差分ファジングで検証した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-002-c-to-rust-memory-safety-mini",
+      "publishedAt": "2026-09-30T12:12:15.000Z",
+      "publisher": "matsushima",
+      "summary": "きっかけ Googleが公開した記事によると、Gemini(AI)を使ってgiflib(約3,000行のC製GIF処理ライブラリ)を ABI互換のRust実装に書き換え、差分ファジングで検証したという事例が紹介されていた。 出典: htt…"
     },
     {
-      "id": "a96691f483b6",
-      "title": "VBA開発用のBoostersをつくっている",
-      "url": "https://zenn.dev/vbaman/articles/f2dfc068ba005b",
-      "publishedAt": "2026-09-30T03:18:08.000Z",
-      "publisher": "のせるまん",
-      "summary": "最近、VBA開発用の小さなツールをつくっています。 名前は、とりあえず vba-develop-boosters としています。 やっていることは、そんなに難しいことではありません。 ChatGPTなどのAIにVBAコードを書いてもらう。…"
+      "id": "af7b9e70b2bf",
+      "title": "毎朝記憶を失う同僚のためにコードベースを整える——「Grill Me」skill作者Matt Pocockが語るエージェント時代の基礎",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr33-pocock-summary",
+      "publishedAt": "2026-09-30T11:37:16.000Z",
+      "publisher": "管理人K",
+      "summary": "! 本記事は The Pragmatic Engineer の公開動画を紹介・論評する目的で、筆者が要点を抽出しコメントを加えたものです。翻訳全文ではなく、動画の網羅や代替を意図したものでもありません。発言の意図は元動画でご確認ください。…"
     },
     {
-      "id": "bf553403cd9e",
-      "title": "作業場が22個に増えて、11個が抜け殻だった",
-      "url": "https://zenn.dev/kowasanailab/articles/ep005-note-b972475a8db7",
-      "publishedAt": "2026-09-30T03:08:27.000Z",
-      "publisher": "壊さない自動化ラボ",
-      "summary": "この記事はnoteの連載『壊さない自動化ラボ』からの転載です。連載一覧: https://note.com/kowasanai_lab EPISODE 005 前回は、実験そのものの設計が壊れていた話を書いた。今回は、実験のための「作業机…"
+      "id": "37da096bef9e",
+      "title": "【保存版】Cursorエンジニア・Lauren Tanが月2000PRをマージした信頼構築エンジニアリング",
+      "url": "https://zenn.dev/dragon1208/articles/506d19d4adb0c4",
+      "publishedAt": "2026-09-30T11:25:28.000Z",
+      "publisher": "Nao8",
+      "summary": "1. はじめに：AIエージェントを「子守り」する時代の終焉 最近話題になったLauren Tanの動画ですが、とても面白かったのでまとめました。AIエージェントを導入した際、多くの現場でボトルネックとなるのが、エージェントが生成したコード…"
     },
     {
-      "id": "1ba3394ed421",
-      "title": "『日本語スタイルガイド』を読んだら、文章作成での人間とAIの役割が見えてきた",
-      "url": "https://zenn.dev/flinters_blog/articles/1e92cf3ac01c70",
-      "publishedAt": "2026-09-30T03:00:05.000Z",
-      "publisher": "かわたく",
-      "summary": "こんにちは。FLINTERSのかわたくです。 入社してから早くも9か月が経ち、現在は自社プロダクトの開発・保守業務に携わっています。 はじめに 私たちは日々の業務で、物事を説明し伝えるための文章、つまり「実用文」を読み書きしています。特に…"
+      "id": "5194c96ac7e2",
+      "title": "AIエージェントを無人で働かせたら、最後の1行で全部止まった話",
+      "url": "https://zenn.dev/hullspark/articles/570e42ead0c0c1",
+      "publishedAt": "2026-09-30T11:07:21.000Z",
+      "publisher": "hullspark",
+      "summary": "下書きに AI を使い、内容は筆者が実際のログと記録に照らして確認しています。 最近、個人で小さなソフトウェアを、いくつかのマーケットプレイスに出しています。 ただし、実装の大半を自分で書いているわけではありません。実装と運用は Clau…"
     },
     {
-      "id": "bfced0b95f0f",
-      "title": "「ChatGPTに自分のモデル名を聞く」がアンチパターンな理由",
-      "url": "https://zenn.dev/nijima/articles/13ff2732d51409",
-      "publishedAt": "2026-09-30T02:17:41.000Z",
-      "publisher": "ニイジマ",
-      "summary": "はじめに 最近『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』（蒲生弘郷 著／技術評論社）を読み始めました。 1章はLLMの仕組み（Tokenize、Embedding、Self-Attention、ト…"
+      "id": "5aacbecdfb0c",
+      "title": "The Code Nobody Reads: 読まないコードの信頼をどこに置くか",
+      "url": "https://zenn.dev/fukubaka0825/articles/cce7f22742e9b4",
+      "publishedAt": "2026-09-30T11:01:33.000Z",
+      "publisher": "Takashi Narikawa",
+      "summary": "! この記事は「@fukubaka0825っぽい記事をAIに書かせる」実験で、AIに出力させたものです。内容は公式ドキュメントの整理で、動作は未検証です。 今回は、Addy Osmani さんが 2026 年 9 月 28 日に公開した記…"
     },
     {
-      "id": "f49d774b71d0",
-      "title": "Obsidian VaultにVector DBを入れる前に、Markdownの構造だけでReasoning Indexを作ってみた",
-      "url": "https://zenn.dev/c_a_p_engineer/articles/obsidian-reasoning-index",
-      "publishedAt": "2026-09-30T02:04:07.000Z",
-      "publisher": "綴理｜AI情報編集者",
-      "summary": "RAGを作ろうとすると、Vector DB、Embedding、Chunkingという言葉がかなり早い段階で出てきます。 もちろん、それらが必要なケースはあります。 ただ、私が使っているObsidian Vaultを見ていて、ひとつ疑問が…"
+      "id": "9789d33f7aef",
+      "title": "VS CodeのMarkdownプレビューに足りない機能を全部盛りしてみた【VS Code拡張機能公開】",
+      "url": "https://zenn.dev/shinkai_m/articles/91a1635539453e",
+      "publishedAt": "2026-09-30T10:53:51.000Z",
+      "publisher": "新海正明",
+      "summary": "Markdownの表（テーブル）を格段に見やすくするVS Code拡張機能を作成しました。 VS CodeでMarkdownを書くときに、プレビューを見ながら編集することは多いと思います。 ただ、Markdownの表（テーブル）が大きくな…"
     },
     {
-      "id": "07dc89940171",
-      "title": "AIと検証した「効かない」は、正しいコードを捨てさせ、人とAIの両方で「検証済み」になっていた",
-      "url": "https://zenn.dev/pepe_3_go/articles/ai-verified-conclusion-was-never-measured",
-      "publishedAt": "2026-09-30T01:54:08.000Z",
-      "publisher": "いわい　ゆう",
-      "summary": "「散々検証した結果なので、効かないのはその通り」 Illustrator のカーニングが ExtendScript から変えられない、という話をしていたときに、私が Claude Code に言った一言である。実際、検証には手間をかけた記…"
+      "id": "cedb1e563a8b",
+      "title": "Semantic Viewは“作るもの”から“育てるもの”へ ~Snowflakeで考えるSemantic Viewの継続的な運用~",
+      "url": "https://zenn.dev/finatext/articles/swtt-2026-growing-semantic-view",
+      "publishedAt": "2026-09-30T10:22:06.000Z",
+      "publisher": "Takumi",
+      "summary": "はじめに ナウキャストのデータエンジニアのTakumiです。 先日 Snowflake World Tour Tokyo 2026 に登壇させていただきました。 タイトルはSemantic Viewは“作るもの”から“育てるもの”へ ~S…"
     },
     {
-      "id": "3d6c86b948a8",
-      "title": "AIにパスワードを見せない — ブラウザ自動化のためのローカル資格情報ブローカー設計",
-      "url": "https://zenn.dev/kokotatan/articles/ai-credential-broker",
-      "publishedAt": "2026-09-30T01:46:48.000Z",
-      "publisher": "kokotatan",
-      "summary": "AIエージェントにブラウザ操作を任せると、必ずログイン画面に突き当たります。ここで一番やってはいけないのが「AIにパスワードを渡す」ことです。プロンプトに書いても、メモリに覚えさせても、会話ログ・転送先・学習系のどこに漏れるか制御できませ…"
+      "id": "5e1c10ed456e",
+      "title": "Claude Code 一人開発、1か月の運用記録 — 売上0円の実測と、壊して覚えた作法",
+      "url": "https://zenn.dev/toripy/books/claude-code-one-month-ops",
+      "publishedAt": "2026-09-30T10:15:04.000Z",
+      "publisher": "スタジオトリウミ",
+      "summary": "Claude Code でサイトを100ページ以上公開して1か月。売上は0円でした。複数のエージェントが同じリポジトリで動く日の回し方、30秒差でデプロイを上書きされた話、数えていなかったクリックと二重に数えていたクリック、PowerSh…"
     },
     {
-      "id": "4ac89bf7bb3a",
-      "title": "【特許出願中】生成AIを活用した脆弱性対応の判断支援 ―攻撃シナリオ推定と仮想ログ生成による調査効率化―",
-      "url": "https://zenn.dev/softbank/articles/5e7411456c7c03",
-      "publishedAt": "2026-09-30T01:26:43.000Z",
-      "publisher": "安藤 巧",
-      "summary": "はじめに インフラ運用において、ネットワーク機器（ルーターやファイアウォールなど）の新たなCVE（Common Vulnerabilities and Exposures）情報が公開された際には、対象機器や設定への該当有無を確認し、対応の…"
+      "id": "8a48a9244aac",
+      "title": "AI OCRを選ぶとき、文字認識だけを見てはいけない",
+      "url": "https://zenn.dev/valleywag/articles/e9bf3824c7e7b1",
+      "publishedAt": "2026-09-30T10:03:27.000Z",
+      "publisher": "valleywag",
+      "summary": "紙のメモや手書きノートをデジタル化するとき、「OCRなら文字を読み取ってくれる」と考えがちです。 でも実際に使ってみると、文字が読めるだけでは意外と足りません。AI OCRを比較するときは、手書き文字・レイアウト・出力形式の3つを見ると違…"
     }
   ],
-  "fetchedAt": "2026-09-30T15:34:39.746Z",
+  "fetchedAt": "2026-09-30T20:18:27.517Z",
   "stale": false,
   "error": null
 }
