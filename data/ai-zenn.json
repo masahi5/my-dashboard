@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "bd91bd30ae16",
-      "title": "Jev の備忘録：判断を返す AI の概要と使い方",
-      "url": "https://zenn.dev/gingakuwagata/articles/jev-system-one-notes",
-      "publishedAt": "2026-09-29T23:24:22.000Z",
-      "publisher": "ぎんがくわがた",
-      "summary": "問い合わせの担当部署を決める、文書にタグを付ける、検索結果を回答に使ってよいか判定する。 こうした小さな判断をソフトウェアに組み込むためのモデルが Jev です。 TypeSafe AI が2026年9月15日に早期アクセスとして公開しま…"
-    },
-    {
       "id": "8d423c436143",
       "title": "バイブコーディング時代、エージェントとは「アプリの上」で会話したい",
       "url": "https://zenn.dev/yuksblog/articles/2026_09_27_nuiitivet_vibecoding",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-09-29T17:08:45.000Z",
       "publisher": "faliye",
       "summary": "ファイルシステムを作ろうと思う。やり方はあまりまともじゃないかもしれない。ただ、何か書き残しておいたほうがいい気がした。とはいえ、このシリーズで技術的な話はほとんどできないと思う。 シリーズの最初なので、乏しい知識でファイルシステムの基本…"
+    },
+    {
+      "id": "f0b8a58e9f8e",
+      "title": "AIエージェントに秘密を渡しても、ログには残さない。ローカル完結のシークレットマネージャー vlt",
+      "url": "https://zenn.dev/gzer0/articles/vlt-local-secret-manager",
+      "publishedAt": "2026-09-29T17:03:26.000Z",
+      "publisher": "gzer0",
+      "summary": "Claude Code や Cursor のような AI エージェントに開発を任せると、API キーの扱いに困ります。 .env に平文で置くと、エージェントがファイルを読んだ時点で会話の履歴に入ります。 環境変数で渡しても、エージェント…"
     }
   ],
-  "fetchedAt": "2026-09-30T02:24:45.490Z",
+  "fetchedAt": "2026-09-30T08:50:25.179Z",
   "stale": false,
   "error": null
 }

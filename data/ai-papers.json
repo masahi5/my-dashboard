@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f80f2d979df2",
-      "title": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
-      "url": "https://huggingface.co/papers/2609.34981",
+      "id": "822c5c451d57",
+      "title": "Omni-IO Skills: Harnessing Your Agent Omni-Native",
+      "url": "https://huggingface.co/papers/2609.31847",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "summary": "General-purpose agents can plan, reason, and act over long horizons, yet their production capabilities remain fragmente…",
+      "score": 49
+    },
+    {
+      "id": "3c9a3ee9eaad",
+      "title": "Beyond Dyadic Memory: Interaction-Aware Multimodal Memory with Adaptive Agentic Retrieval for Multi-Party Spoken Conversations",
+      "url": "https://huggingface.co/papers/2609.32522",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Long-term memory enables agents to accumulate information and reason across sessions, yet existing research primarily f…",
+      "score": 29
+    },
+    {
+      "id": "05fb037650bd",
+      "title": "Follow the Entities: A Corpus Map for Agentic Search",
+      "url": "https://huggingface.co/papers/2609.37226",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "World action models (WAMs) predict the future alongside actions during training. Due to the heavy computation cost of v…",
-      "score": 10
+      "summary": "Answering questions and completing tasks over large document collections often requires connecting evidence spread acro…",
+      "score": 16
     },
     {
-      "id": "2cada0c1bb3d",
-      "title": "Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR",
-      "url": "https://huggingface.co/papers/2609.37868",
+      "id": "3c869cba8459",
+      "title": "SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video",
+      "url": "https://huggingface.co/papers/2609.37969",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) methods such as GRPO rely on successful self-generated trajectori…",
-      "score": 9
+      "summary": "High-resolution video generation is expensive, as its cost grows rapidly with the number of spatiotemporal tokens. A pr…",
+      "score": 12
     },
     {
-      "id": "7a092265e61e",
-      "title": "Think Before You Score: Thinking Reward Model for Visual Generation",
-      "url": "https://huggingface.co/papers/2609.37372",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Visual reward models are essential for evaluating and improving visual generation models, yet existing approaches typic…",
-      "score": 6
-    },
-    {
-      "id": "034814c9c73e",
-      "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.36601",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) reduces train-test state mismatch by training a student on its own generated trajectories,…",
-      "score": 4
-    },
-    {
-      "id": "eedc9be2c34c",
-      "title": "MaLiang-Harness: A Programmable Path to Image and Video Generation",
-      "url": "https://huggingface.co/papers/2609.34309",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Executable programs offer explicit control over how images and videos are constructed, but generating runnable code is …",
-      "score": 4
-    },
-    {
-      "id": "1c4d39010b2f",
-      "title": "WorldAttention: An Efficient Attention Architecture for Interactive Video World Models",
-      "url": "https://huggingface.co/papers/2609.34606",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Leveraging the paradigm of autoregressive diffusion, text-conditioned interactive video world models aim to simulate te…",
-      "score": 4
-    },
-    {
-      "id": "371f85c657ed",
-      "title": "Where the Model Changes Its Mind: Hindsight-Divergence Localization for Efficient Reinforcement Learning with Verifiable Rewards",
-      "url": "https://huggingface.co/papers/2609.36864",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Group-relative methods for reinforcement learning with verifiable rewards (RLVR) learn from differences in rollout outc…",
-      "score": 3
-    },
-    {
-      "id": "78b8cbf7045b",
-      "title": "OmniTaskonomy: When Does Visual Generation Improve Visual Understanding?",
-      "url": "https://huggingface.co/papers/2609.38079",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Training a model to generate visual content can encourage it to learn rich perceptual capabilities related to geometry,…",
-      "score": 3
-    },
-    {
-      "id": "a7641a8ef99b",
-      "title": "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
-      "url": "https://huggingface.co/papers/2609.33439",
+      "id": "cd5f48dc0df3",
+      "title": "StoryEngine: A State-Grounded Agentic Framework for Video Storytelling",
+      "url": "https://huggingface.co/papers/2609.33627",
       "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "As large language models advance, AI agents are moving beyond isolated, domain-specific tasks toward long-horizon, cros…",
-      "score": 1
+      "summary": "Despite recent progress in agentic multi-shot video generation, producing coherent and consistent long-form stories rem…",
+      "score": 7
     },
     {
-      "id": "0e588f110323",
-      "title": "Act First, Reason Later: Accelerating On-Policy Distillation for Multi-Turn Agents via Reference-Conditioned Inverse Dynamics",
-      "url": "https://huggingface.co/papers/2609.36608",
+      "id": "b2abedc8a504",
+      "title": "Selecting The Most Informative Tokens in Natural Language Autoencoders",
+      "url": "https://huggingface.co/papers/2609.37040",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) trains multi-turn language agents with dense teacher supervision on student-generated resp…",
+      "summary": "Natural language autoencoders translate a language model's internal activations into readable explanations. Explaining …",
+      "score": 5
+    },
+    {
+      "id": "40d908fd9fc2",
+      "title": "EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation",
+      "url": "https://huggingface.co/papers/2609.38157",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Emotion-conditioned text-to-speech (TTS) models may fail to express the requested emotion reliably, and improving contr…",
+      "score": 4
+    },
+    {
+      "id": "0ca426234007",
+      "title": "AnyStep-WAM: Budget-Aligned Distillation and Adaptive Inference for World Action Models",
+      "url": "https://huggingface.co/papers/2609.33748",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "summary": "World-action models (WAMs) couple predictive visual modeling with action generation, typically relying on iterative den…",
       "score": 1
     },
     {
-      "id": "92e336d0d666",
-      "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
-      "url": "https://huggingface.co/papers/2609.35770",
+      "id": "cfb395d807fd",
+      "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+      "url": "https://huggingface.co/papers/2609.38140",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Mixture-of-Experts (MoE), popularized by large language models, is a promising paradigm for scaling visual generative m…",
+      "score": 1
+    },
+    {
+      "id": "d8eafb1ef784",
+      "title": "StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks",
+      "url": "https://huggingface.co/papers/2609.36352",
       "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-o…",
-      "score": 0
+      "summary": "Vision-language-action (VLA) models perform well on shorter-horizon manipulation tasks but still struggle with long-hor…",
+      "score": 1
     },
     {
-      "id": "9f3a366084fd",
-      "title": "HiRAE: Hierarchical Representation Autoencoding with Residual Budgets",
-      "url": "https://huggingface.co/papers/2609.37775",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Pretrained visual representations support image generation, but may not fully preserve the fine-grained details needed …",
+      "id": "0f23c1a3f23f",
+      "title": "Understanding On-Policy Distillation: A Mechanistic Interpretability Perspective via Sparse Crosscoders",
+      "url": "https://huggingface.co/papers/2609.35210",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) is a widely adopted post-training technique for LLM reasoning. It is commonly believed to …",
+      "score": 1
+    },
+    {
+      "id": "4932d23ffe7e",
+      "title": "Jev thinks \"I don't know'', but doesn't say it: Introducing Sys1Cal-v1 Dataset for Probability Calibration",
+      "url": "https://huggingface.co/papers/2609.35342",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "The appearance of Jev marked the era of System One Models, foundation models that return structured decisions with prob…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-09-30T02:24:45.310Z",
+  "fetchedAt": "2026-09-30T08:50:25.035Z",
   "stale": false,
   "error": null
 }
