@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "8d423c436143",
-      "title": "バイブコーディング時代、エージェントとは「アプリの上」で会話したい",
-      "url": "https://zenn.dev/yuksblog/articles/2026_09_27_nuiitivet_vibecoding",
-      "publishedAt": "2026-09-29T23:00:06.000Z",
-      "publisher": "ゆっき",
-      "summary": "はじめに バイブコーディング時代の UI フレームワークはどうあるべきか。結論から言うと、人とエージェントが実行中のアプリを共有しながら開発できることだと考えています。アプリに直接プロンプトを書き込む、画面を直接編集する、エージェントがア…"
+      "id": "8365a1e8af17",
+      "title": "OpenAI Agents API を試す：GitHub の OSS を一言で使わせてみた",
+      "url": "https://zenn.dev/softbank/articles/93ae91e352da5b",
+      "publishedAt": "2026-09-30T04:40:02.000Z",
+      "publisher": "CHEN CHEN",
+      "summary": "ソフトバンクのCHENです。普段は、データ構造化ツール「TASUKI Annotation」の技術研究＆全社RAG基盤に携わっています。あわせて生成AI・エージェント技術の探索にも取り組み、実務投入を見据えた技術検証を行っています。本記事…"
     },
     {
-      "id": "690e211626b4",
-      "title": "CLAUDE.mdの肥大化は、ルールを足す時の4段階の判断で防ぐ",
-      "url": "https://zenn.dev/arithan/articles/claude-md-keep-lean",
-      "publishedAt": "2026-09-29T23:00:06.000Z",
-      "publisher": "ARITH",
-      "summary": "はじめに CLAUDE.mdは、気づくと太っています。 決まりを1つ足すたびに、理由や背景も一緒に書き足してしまうからです。 そして長くなってから、どれを消すかで悩みます。 筆者のプロジェクトでも、CLAUDE.mdは書き始めてから約3.…"
+      "id": "496a335d46e7",
+      "title": "GPT Image 2.5 と GPT Image 2 の日本語スライド生成を比較検証",
+      "url": "https://zenn.dev/softbank/articles/cb319630bd4f0f",
+      "publishedAt": "2026-09-30T04:39:53.000Z",
+      "publisher": "CHEN CHEN",
+      "summary": "ソフトバンクのCHENです。普段は、データ構造化ツール「TASUKI Annotation」の技術研究＆全社RAG基盤に携わっています。あわせて生成AI・エージェント技術の探索にも取り組み、実務投入を見据えた技術検証を行っています。202…"
     },
     {
-      "id": "d4d09ffd137a",
-      "title": "Claude Codeのサブエージェントはmodelを書かないと親を継ぐ：未指定の3経路と部下1人9万トークンの実測",
-      "url": "https://zenn.dev/yuu_inaka/articles/claude-subagent-model-inherit",
-      "publishedAt": "2026-09-29T22:35:29.000Z",
-      "publisher": "ゆう",
-      "summary": "結論を先に書きます。 .claude/agents/*.md に model: を書かないサブエージェントは、親のモデルをそのまま継ぎます。私の環境では6本中4本が未指定で、コマンドを走らせて結果を写すだけの役まで一番高いモデル（opus…"
+      "id": "2a9504d81da1",
+      "title": "AIの意見を聞かない技術 第8回：ルールを整理しない技術",
+      "url": "https://zenn.dev/garplab/articles/320aba699cab5f",
+      "publishedAt": "2026-09-30T04:20:09.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「AIの意見を聞かない技術」の第 8 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全…"
     },
     {
-      "id": "c9a67ef28bb6",
-      "title": "LLMの『Let me double-check』を1トークンに圧縮する—Shorthand for Thoughtを小さく動かしてみた",
-      "url": "https://zenn.dev/matsushima_a/articles/day-001-shorthand-for-thought",
-      "publishedAt": "2026-09-29T22:21:53.000Z",
-      "publisher": "matsushima",
-      "summary": "この記事について 海外AIネタを毎日1つ実際に検証して発信する個人チャレンジのDay 001。今回選んだのは、COLM 2026に採択された論文 Shorthand for Thought: Compressing LLM Reasoni…"
+      "id": "34bae0f2cdfd",
+      "title": "AIコーディングで、何を自動化して、何をHuman Gateとして残すのか",
+      "url": "https://zenn.dev/3su3/articles/15b2839193d228",
+      "publishedAt": "2026-09-30T04:11:06.000Z",
+      "publisher": "SieR.",
+      "summary": "最近、個人開発ではかなりAIにコードを書いてもらっています。 Issueを読んでもらって、Planを作って、実装して、テストして、PRを作る。 以前なら自分でやっていたことのかなりの部分を、AIが進めてくれるようになりました。 そうなると…"
     },
     {
-      "id": "5ebaead4a93e",
-      "title": "Hermes Agent で『3分間コーチ』を再現し、AI コーチに毎朝声をかけてもらう",
-      "url": "https://zenn.dev/greendrop/articles/2026-09-29-b6b0c4f099b04c",
-      "publishedAt": "2026-09-29T22:00:05.000Z",
-      "publisher": "greendrop",
-      "summary": "はじめに 個人で「毎日少しずつ何かを進めよう」と決めても、なかなか手が動きません。 仕事なら、上司や同僚との会話をきっかけに手が動きます。しかし個人の取り組みには、声をかけてくれる人がいません。気づけば数日が過ぎている、ということが続いて…"
+      "id": "a96691f483b6",
+      "title": "VBA開発用のBoostersをつくっている",
+      "url": "https://zenn.dev/vbaman/articles/f2dfc068ba005b",
+      "publishedAt": "2026-09-30T03:18:08.000Z",
+      "publisher": "のせるまん",
+      "summary": "最近、VBA開発用の小さなツールをつくっています。 名前は、とりあえず vba-develop-boosters としています。 やっていることは、そんなに難しいことではありません。 ChatGPTなどのAIにVBAコードを書いてもらう。…"
     },
     {
-      "id": "86990b7d2b22",
-      "title": "cmux で Claude Code を動かして 1 か月半。NODE_OPTIONS・Cmd+クリック・ワークスペースの雛形で踏んだこと",
-      "url": "https://zenn.dev/y3chi5z/articles/cmux-claude-code-first-month",
-      "publishedAt": "2026-09-29T19:57:26.000Z",
-      "publisher": "y43z",
-      "summary": "8 月中旬から、ターミナルを cmux に替えて Claude Code を動かしています。1 つのウィンドウに案件ごとのワークスペースを並べ、それぞれで Claude Code とブラウザを横に置く使い方です。今日の時点で、1 つのウィ…"
+      "id": "bf553403cd9e",
+      "title": "作業場が22個に増えて、11個が抜け殻だった",
+      "url": "https://zenn.dev/kowasanailab/articles/ep005-note-b972475a8db7",
+      "publishedAt": "2026-09-30T03:08:27.000Z",
+      "publisher": "壊さない自動化ラボ",
+      "summary": "この記事はnoteの連載『壊さない自動化ラボ』からの転載です。連載一覧: https://note.com/kowasanai_lab EPISODE 005 前回は、実験そのものの設計が壊れていた話を書いた。今回は、実験のための「作業机…"
     },
     {
-      "id": "5e94de9af4bd",
-      "title": "AI時代、正義と悪はどちらが強いのか",
-      "url": "https://zenn.dev/kabeya/articles/ai-justice-and-evil",
-      "publishedAt": "2026-09-29T18:30:39.000Z",
-      "publisher": "kabeya",
-      "summary": "この記事で考えること AIは使っている個人から見れば非常に便利な道具です。一方で「AIは危険だ」と言われてもいます。 もともとルールを守る側と守らない側には、制約条件の違いによる非対称性があります。AIは攻撃側への参入障壁を下げ、一人あた…"
+      "id": "1ba3394ed421",
+      "title": "『日本語スタイルガイド』を読んだら、文章作成での人間とAIの役割が見えてきた",
+      "url": "https://zenn.dev/flinters_blog/articles/1e92cf3ac01c70",
+      "publishedAt": "2026-09-30T03:00:05.000Z",
+      "publisher": "かわたく",
+      "summary": "こんにちは。FLINTERSのかわたくです。 入社してから早くも9か月が経ち、現在は自社プロダクトの開発・保守業務に携わっています。 はじめに 私たちは日々の業務で、物事を説明し伝えるための文章、つまり「実用文」を読み書きしています。特に…"
     },
     {
-      "id": "24477bc6a113",
-      "title": "話題の判断特化AI「Jev」に米国株を売買させたら、どの方法でも勝てなかった話",
-      "url": "https://zenn.dev/kohei03/articles/a3d749b239ad7a",
-      "publishedAt": "2026-09-29T17:43:25.000Z",
-      "publisher": "kokei",
-      "summary": "はじめに 2026年9月に公開されて話題になった、TypeSafe AI の判断特化モデル「Jev」。文章を生成せず、選択肢から1つを選ぶ・点数をつける・Yes/Noの確率を返すことだけに特化していて、0.1〜0.5秒で答えが返ってきます…"
+      "id": "bfced0b95f0f",
+      "title": "「ChatGPTに自分のモデル名を聞く」がアンチパターンな理由",
+      "url": "https://zenn.dev/nijima/articles/13ff2732d51409",
+      "publishedAt": "2026-09-30T02:17:41.000Z",
+      "publisher": "ニイジマ",
+      "summary": "はじめに 最近『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』（蒲生弘郷 著／技術評論社）を読み始めました。 1章はLLMの仕組み（Tokenize、Embedding、Self-Attention、ト…"
     },
     {
-      "id": "3924e8d747dd",
-      "title": "AI が壊したのは品質ではなく代理指標だ。Meat Proxy 対策と「丁寧にやる」論から考える品質の置き場所",
-      "url": "https://zenn.dev/kongyokongyo/articles/8dd8cc16e08172",
-      "publishedAt": "2026-09-29T17:29:42.000Z",
-      "publisher": "kongyo2",
-      "summary": "はじめに AI 以前、僕たちは成果物の品質を直接確かめる代わりに、いくつかの代理指標で見積もっていた。手間がかかっていれば、たぶん理解している。見た目が整っていれば、たぶんちゃんとしている。同僚の名前で届いたものなら、たぶん誰かが確認して…"
+      "id": "f49d774b71d0",
+      "title": "Obsidian VaultにVector DBを入れる前に、Markdownの構造だけでReasoning Indexを作ってみた",
+      "url": "https://zenn.dev/c_a_p_engineer/articles/obsidian-reasoning-index",
+      "publishedAt": "2026-09-30T02:04:07.000Z",
+      "publisher": "綴理｜AI情報編集者",
+      "summary": "RAGを作ろうとすると、Vector DB、Embedding、Chunkingという言葉がかなり早い段階で出てきます。 もちろん、それらが必要なケースはあります。 ただ、私が使っているObsidian Vaultを見ていて、ひとつ疑問が…"
     },
     {
-      "id": "579208e449b7",
-      "title": "自律エージェントに「勝手に工夫させない」ための設計（ガードレール・決裁箱・自己拡大の禁止）",
-      "url": "https://zenn.dev/mamedougu/articles/agent-follow-the-playbook",
-      "publishedAt": "2026-09-29T17:09:10.000Z",
-      "publisher": "mamedougu",
-      "summary": "前の2記事で、Claude Code + GitHub Actions だけで小さな会社を毎晩1営業日ぶん回している話（63日の落とし穴）と、クラウドと手元PCの二層の競合防止を書きました。この記事は3本目で、テーマは 「賢いエージェント…"
+      "id": "07dc89940171",
+      "title": "AIと検証した「効かない」は、正しいコードを捨てさせ、人とAIの両方で「検証済み」になっていた",
+      "url": "https://zenn.dev/pepe_3_go/articles/ai-verified-conclusion-was-never-measured",
+      "publishedAt": "2026-09-30T01:54:08.000Z",
+      "publisher": "いわい　ゆう",
+      "summary": "「散々検証した結果なので、効かないのはその通り」 Illustrator のカーニングが ExtendScript から変えられない、という話をしていたときに、私が Claude Code に言った一言である。実際、検証には手間をかけた記…"
     },
     {
-      "id": "8c52a0658c38",
-      "title": "ゼロから作るCOWファイルシステム 1 DAY1 ― 贅沢(ムダ)を選ぶ",
-      "url": "https://zenn.dev/faliye/articles/0c5e1ce9fe032f",
-      "publishedAt": "2026-09-29T17:08:45.000Z",
-      "publisher": "faliye",
-      "summary": "ファイルシステムを作ろうと思う。やり方はあまりまともじゃないかもしれない。ただ、何か書き残しておいたほうがいい気がした。とはいえ、このシリーズで技術的な話はほとんどできないと思う。 シリーズの最初なので、乏しい知識でファイルシステムの基本…"
+      "id": "3d6c86b948a8",
+      "title": "AIにパスワードを見せない — ブラウザ自動化のためのローカル資格情報ブローカー設計",
+      "url": "https://zenn.dev/kokotatan/articles/ai-credential-broker",
+      "publishedAt": "2026-09-30T01:46:48.000Z",
+      "publisher": "kokotatan",
+      "summary": "AIエージェントにブラウザ操作を任せると、必ずログイン画面に突き当たります。ここで一番やってはいけないのが「AIにパスワードを渡す」ことです。プロンプトに書いても、メモリに覚えさせても、会話ログ・転送先・学習系のどこに漏れるか制御できませ…"
     },
     {
-      "id": "f0b8a58e9f8e",
-      "title": "AIエージェントに秘密を渡しても、ログには残さない。ローカル完結のシークレットマネージャー vlt",
-      "url": "https://zenn.dev/gzer0/articles/vlt-local-secret-manager",
-      "publishedAt": "2026-09-29T17:03:26.000Z",
-      "publisher": "gzer0",
-      "summary": "Claude Code や Cursor のような AI エージェントに開発を任せると、API キーの扱いに困ります。 .env に平文で置くと、エージェントがファイルを読んだ時点で会話の履歴に入ります。 環境変数で渡しても、エージェント…"
+      "id": "4ac89bf7bb3a",
+      "title": "【特許出願中】生成AIを活用した脆弱性対応の判断支援 ―攻撃シナリオ推定と仮想ログ生成による調査効率化―",
+      "url": "https://zenn.dev/softbank/articles/5e7411456c7c03",
+      "publishedAt": "2026-09-30T01:26:43.000Z",
+      "publisher": "安藤 巧",
+      "summary": "はじめに インフラ運用において、ネットワーク機器（ルーターやファイアウォールなど）の新たなCVE（Common Vulnerabilities and Exposures）情報が公開された際には、対象機器や設定への該当有無を確認し、対応の…"
     }
   ],
-  "fetchedAt": "2026-09-30T08:50:25.179Z",
+  "fetchedAt": "2026-09-30T15:34:39.746Z",
   "stale": false,
   "error": null
 }

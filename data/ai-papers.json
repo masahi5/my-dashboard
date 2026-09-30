@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "822c5c451d57",
-      "title": "Omni-IO Skills: Harnessing Your Agent Omni-Native",
-      "url": "https://huggingface.co/papers/2609.31847",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "General-purpose agents can plan, reason, and act over long horizons, yet their production capabilities remain fragmente…",
-      "score": 49
-    },
-    {
-      "id": "3c9a3ee9eaad",
-      "title": "Beyond Dyadic Memory: Interaction-Aware Multimodal Memory with Adaptive Agentic Retrieval for Multi-Party Spoken Conversations",
-      "url": "https://huggingface.co/papers/2609.32522",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Long-term memory enables agents to accumulate information and reason across sessions, yet existing research primarily f…",
-      "score": 29
-    },
-    {
-      "id": "05fb037650bd",
-      "title": "Follow the Entities: A Corpus Map for Agentic Search",
-      "url": "https://huggingface.co/papers/2609.37226",
+      "id": "fb2daa28df1d",
+      "title": "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
+      "url": "https://huggingface.co/papers/2609.37559",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Answering questions and completing tasks over large document collections often requires connecting evidence spread acro…",
-      "score": 16
+      "summary": "To serve as real-world personal assistants, streaming video models need persistent memory that retains past experiences…",
+      "score": 17
     },
     {
-      "id": "3c869cba8459",
-      "title": "SoL-Refiner: Speed-of-Light One-Step Refinement for High-Resolution Video",
-      "url": "https://huggingface.co/papers/2609.37969",
+      "id": "06e097651d04",
+      "title": "FocusVTC: Efficient and High-Performance Visual Text Compression with Adaptive Resolution",
+      "url": "https://huggingface.co/papers/2609.36651",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "High-resolution video generation is expensive, as its cost grows rapidly with the number of spatiotemporal tokens. A pr…",
-      "score": 12
+      "summary": "Long-context reasoning in large language models incurs substantial computation and memory costs. Visual text compressio…",
+      "score": 9
     },
     {
-      "id": "cd5f48dc0df3",
-      "title": "StoryEngine: A State-Grounded Agentic Framework for Video Storytelling",
-      "url": "https://huggingface.co/papers/2609.33627",
-      "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "Despite recent progress in agentic multi-shot video generation, producing coherent and consistent long-form stories rem…",
+      "id": "cdb0a5132b16",
+      "title": "AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation",
+      "url": "https://huggingface.co/papers/2609.35530",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Recent image generation models can take multiple reference images as input and combine them into a new image. However, …",
+      "score": 8
+    },
+    {
+      "id": "ade0d64e84c3",
+      "title": "Scheduling Recursive Reasoning in Looped Transformers",
+      "url": "https://huggingface.co/papers/2609.36653",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Recurrent reasoning models have attracted growing attention for scaling test-time computation, typically by iteratively…",
       "score": 7
     },
     {
-      "id": "b2abedc8a504",
-      "title": "Selecting The Most Informative Tokens in Natural Language Autoencoders",
-      "url": "https://huggingface.co/papers/2609.37040",
+      "id": "1df7cbcf5b1c",
+      "title": "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
+      "url": "https://huggingface.co/papers/2609.38146",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Natural language autoencoders translate a language model's internal activations into readable explanations. Explaining …",
-      "score": 5
+      "summary": "We introduce LIFT, a unified image-to-video generation framework that complements camera control with Layout-In-FuTure …",
+      "score": 6
     },
     {
-      "id": "40d908fd9fc2",
-      "title": "EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation",
-      "url": "https://huggingface.co/papers/2609.38157",
+      "id": "2cc5ac41e697",
+      "title": "Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing",
+      "url": "https://huggingface.co/papers/2609.37402",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Emotion-conditioned text-to-speech (TTS) models may fail to express the requested emotion reliably, and improving contr…",
+      "summary": "Large language model (LLM) routing reduces serving cost by assigning each query to an appropriate model while preservin…",
       "score": 4
     },
     {
-      "id": "0ca426234007",
-      "title": "AnyStep-WAM: Budget-Aligned Distillation and Adaptive Inference for World Action Models",
-      "url": "https://huggingface.co/papers/2609.33748",
-      "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "World-action models (WAMs) couple predictive visual modeling with action generation, typically relying on iterative den…",
-      "score": 1
+      "id": "c01464f32d62",
+      "title": "PMOPD: Task Ordering, Cycling, and Parameter-Update Subspace Protection in Multi-Teacher On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.34605",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Multi-teacher on-policy distillation (MOPD) has emerged as a popular post-training paradigm for integrating specialized…",
+      "score": 3
     },
     {
-      "id": "cfb395d807fd",
-      "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
-      "url": "https://huggingface.co/papers/2609.38140",
+      "id": "a497da693bfa",
+      "title": "Improved Distributional Diffusion Models",
+      "url": "https://huggingface.co/papers/2609.37147",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Mixture-of-Experts (MoE), popularized by large language models, is a promising paradigm for scaling visual generative m…",
+      "summary": "Distributional Diffusion Models (DDMs) replace the standard mean-prediction denoiser with a distributional denoiser tra…",
+      "score": 3
+    },
+    {
+      "id": "61b02d81b395",
+      "title": "Scaling Properties of Same-Family On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.32722",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how mu…",
       "score": 1
     },
     {
-      "id": "d8eafb1ef784",
-      "title": "StructRL: Online Structured Reinforcement Learning for Long-Horizon Vision-Language-Action Tasks",
-      "url": "https://huggingface.co/papers/2609.36352",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Vision-language-action (VLA) models perform well on shorter-horizon manipulation tasks but still struggle with long-hor…",
+      "id": "32c4fac13109",
+      "title": "Learning Dynamics of Continual Learning: A Unified View of Data Attribution, Forgetting, and Plasticity Loss",
+      "url": "https://huggingface.co/papers/2609.33620",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "summary": "Modern language models are likely to be updated throughout their lifetime rather than trained once and frozen. Each upd…",
       "score": 1
     },
     {
-      "id": "0f23c1a3f23f",
-      "title": "Understanding On-Policy Distillation: A Mechanistic Interpretability Perspective via Sparse Crosscoders",
-      "url": "https://huggingface.co/papers/2609.35210",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) is a widely adopted post-training technique for LLM reasoning. It is commonly believed to …",
+      "id": "a5c6c369e3bd",
+      "title": "ALICE: In-context, Zero-shot, Mutual Information Estimation",
+      "url": "https://huggingface.co/papers/2609.34962",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Estimating mutual information (MI) from samples is a central objective in a variety of scientific fields. Modern neural…",
       "score": 1
     },
     {
-      "id": "4932d23ffe7e",
-      "title": "Jev thinks \"I don't know'', but doesn't say it: Introducing Sys1Cal-v1 Dataset for Probability Calibration",
-      "url": "https://huggingface.co/papers/2609.35342",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "The appearance of Jev marked the era of System One Models, foundation models that return structured decisions with prob…",
-      "score": 0
+      "id": "233d84ebc2c5",
+      "title": "Scaffolding Minds: Optimizing Latent Visual Target Representations for Multimodal Reasoning",
+      "url": "https://huggingface.co/papers/2608.19669",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Latent reasoning has advanced multimodal reasoning through a two-stage training paradigm: (1) a helper image is encoded…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-09-30T08:50:25.035Z",
+  "fetchedAt": "2026-09-30T15:34:39.498Z",
   "stale": false,
   "error": null
 }
