@@ -6,28 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "99f63385e0b9",
-      "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
-      "url": "https://huggingface.co/papers/2609.36322",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of…",
-      "score": 54
-    },
-    {
       "id": "61b02d81b395",
       "title": "Scaling Properties of Same-Family On-Policy Distillation",
       "url": "https://huggingface.co/papers/2609.32722",
       "publishedAt": "2026-09-26T00:00:00.000Z",
       "summary": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how mu…",
-      "score": 46
+      "score": 210
     },
     {
-      "id": "06e097651d04",
-      "title": "FocusVTC: Efficient and High-Performance Visual Text Compression with Adaptive Resolution",
-      "url": "https://huggingface.co/papers/2609.36651",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Long-context reasoning in large language models incurs substantial computation and memory costs. Visual text compressio…",
-      "score": 16
+      "id": "99f63385e0b9",
+      "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
+      "url": "https://huggingface.co/papers/2609.36322",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of…",
+      "score": 96
     },
     {
       "id": "ade0d64e84c3",
@@ -35,31 +27,7 @@
       "url": "https://huggingface.co/papers/2609.36653",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "Recurrent reasoning models have attracted growing attention for scaling test-time computation, typically by iteratively…",
-      "score": 9
-    },
-    {
-      "id": "2cc5ac41e697",
-      "title": "Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing",
-      "url": "https://huggingface.co/papers/2609.37402",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Large language model (LLM) routing reduces serving cost by assigning each query to an appropriate model while preservin…",
-      "score": 9
-    },
-    {
-      "id": "1df7cbcf5b1c",
-      "title": "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
-      "url": "https://huggingface.co/papers/2609.38146",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "We introduce LIFT, a unified image-to-video generation framework that complements camera control with Layout-In-FuTure …",
-      "score": 6
-    },
-    {
-      "id": "e0f3f38e110c",
-      "title": "Can Agents Design Libraries for Agents?",
-      "url": "https://huggingface.co/papers/2609.36730",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Agents increasingly build on code written by other agents, and they reimplement rather than reuse, growing the codebase…",
-      "score": 4
+      "score": 11
     },
     {
       "id": "7b439eaae2ea",
@@ -67,15 +35,31 @@
       "url": "https://huggingface.co/papers/2609.36314",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "State Space Models (SSMs) compress sequence history into a bounded recurrent state, making the resulting memory law a c…",
-      "score": 3
+      "score": 10
     },
     {
-      "id": "c01464f32d62",
-      "title": "PMOPD: Task Ordering, Cycling, and Parameter-Update Subspace Protection in Multi-Teacher On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.34605",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Multi-teacher on-policy distillation (MOPD) has emerged as a popular post-training paradigm for integrating specialized…",
-      "score": 3
+      "id": "e0f3f38e110c",
+      "title": "Can Agents Design Libraries for Agents?",
+      "url": "https://huggingface.co/papers/2609.36730",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Agents increasingly build on code written by other agents, and they reimplement rather than reuse, growing the codebase…",
+      "score": 8
+    },
+    {
+      "id": "1df7cbcf5b1c",
+      "title": "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
+      "url": "https://huggingface.co/papers/2609.38146",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "We introduce LIFT, a unified image-to-video generation framework that complements camera control with Layout-In-FuTure …",
+      "score": 8
+    },
+    {
+      "id": "715a0a1ff091",
+      "title": "What Makes Recurrence Effective in Looped Language Models?",
+      "url": "https://huggingface.co/papers/2609.36636",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Looped language models (LoopLMs) increase computational depth through parameter sharing, offering a path to scale infer…",
+      "score": 7
     },
     {
       "id": "b92c7e1381f0",
@@ -83,7 +67,7 @@
       "url": "https://huggingface.co/papers/2609.34392",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "Language model agents serving organizations must coordinate requests from multiple users while using knowledge distribu…",
-      "score": 1
+      "score": 5
     },
     {
       "id": "32c4fac13109",
@@ -91,7 +75,7 @@
       "url": "https://huggingface.co/papers/2609.33620",
       "publishedAt": "2026-09-27T00:00:00.000Z",
       "summary": "Modern language models are likely to be updated throughout their lifetime rather than trained once and frozen. Each upd…",
-      "score": 1
+      "score": 5
     },
     {
       "id": "a5c6c369e3bd",
@@ -99,10 +83,26 @@
       "url": "https://huggingface.co/papers/2609.34962",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "Estimating mutual information (MI) from samples is a central objective in a variety of scientific fields. Modern neural…",
-      "score": 1
+      "score": 5
+    },
+    {
+      "id": "1494b481f38d",
+      "title": "PreviewDiff: Multimodal Critic-Guided Search over Diffusion Latents",
+      "url": "https://huggingface.co/papers/2609.36199",
+      "publishedAt": "2026-09-28T20:00:41.000Z",
+      "summary": "Diffusion models can produce striking images and videos, but they still struggle with the compositional details that ma…",
+      "score": 3
+    },
+    {
+      "id": "62d1071d37f2",
+      "title": "AgentTell: Behavioural Side-Channel Leakage in Browser-Use Agents",
+      "url": "https://huggingface.co/papers/2609.32915",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Browser-use agents often carry information in their context as they move between websites. While it may be necessary fo…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-09-30T20:18:27.333Z",
+  "fetchedAt": "2026-10-01T00:02:00.899Z",
   "stale": false,
   "error": null
 }

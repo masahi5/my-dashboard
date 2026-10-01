@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "8dff3c90862a",
-      "title": "AI エージェントにテストを先に書かせてから実装させるワークフロー:Claude Code・Codex・Gemini CLI での指示の出し",
-      "url": "https://zenn.dev/aicoding_guide/articles/ai-coding-test-first-workflow",
-      "publishedAt": "2026-09-30T12:37:24.000Z",
-      "publisher": "AIコーディングガイド",
-      "summary": "コーディングエージェントに「機能を実装して」と頼むと、実装は速いものの、動作確認が「たぶん動きます」で終わることがあります。これを防ぐ最も効果的な方法が、テストを先に書かせ、失敗を確認してから実装させるワークフローです。 エージェントは「…"
+      "id": "f725e9256d25",
+      "title": "農業ロボット入門｜人手不足の農業現場を変えるスマート農業の最前線",
+      "url": "https://zenn.dev/maru1228/articles/physical-ai-agriculture-robots",
+      "publishedAt": "2026-09-30T23:14:46.000Z",
+      "publisher": "まる",
+      "summary": "! この記事は自サイト 農業ロボット入門｜人手不足の農業現場を変えるスマート農業の最前線 の再掲（クロス投稿）です。図をインタラクティブに動かせる版は元記事でどうぞ。 2026年2月、米国のCarbon Robotics社は「世界初の大規…"
     },
     {
-      "id": "8b32d1b77d30",
-      "title": "AI コーディングツールに API キーや秘密情報を読ませないための設定:Claude Code・Codex・Gemini CLI 共通の対",
-      "url": "https://zenn.dev/aicoding_guide/articles/ai-coding-security-secrets",
-      "publishedAt": "2026-09-30T12:37:23.000Z",
-      "publisher": "AIコーディングガイド",
-      "summary": "コーディングエージェントは、指示を実行するために必要だと判断すれば .env や config/secrets.yml を読みます。読んだ内容は API に送信され、ログや履歴に残ります。「.gitignore に入れているから大丈夫」は…"
+      "id": "3c3b57d61607",
+      "title": "Claude in Chromeに対外業務を任せる線引き ─ 承認ゲートを設計ファイルで書く",
+      "url": "https://zenn.dev/joinclass/articles/claude-in-chrome-20260927220041-4063",
+      "publishedAt": "2026-09-30T23:00:17.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "なぜ「機能」より先に「線引き」を作ったか 僕は一人で会社をやっていて、AIエージェントに部門業務を渡している。Claude in Chrome（Claudeがブラウザを操作する機能）を試したとき、最初に思ったのは「便利だ」ではなく「これは…"
     },
     {
-      "id": "408f2d006902",
-      "title": "長寿命AIエージェントのAuthority Continuity設計：権限を拡大せず更新・失効・再照合する",
-      "url": "https://zenn.dev/asagiman/articles/ai-agent-authority-continuity",
-      "publishedAt": "2026-09-30T12:16:59.000Z",
-      "publisher": "asagiman",
-      "summary": "AIエージェントへ一度grantした権限を、長時間そのまま使える前提にすると壊れます。 理由は単純で、実行時にはgrant以外の条件も変化するからです。 agent / model / runtime source HEAD / bina…"
+      "id": "cf1b97775da7",
+      "title": "AI は皆が思ってる以上に図を描ける",
+      "url": "https://zenn.dev/gznnk/articles/0fde18ce12d17f",
+      "publishedAt": "2026-09-30T23:00:06.000Z",
+      "publisher": "凡ジニア",
+      "summary": "「AI に図を描かせる」と聞いて、どんな絵を思い浮かべるでしょうか？ たぶん多くの人の認識はこうです。簡単なフローチャートくらいなら出てくる。ただ、ちょっと込み入った構成図や、人に見せられる仕上がりのものは難しい。結局は自分で描き直す..…"
     },
     {
-      "id": "7c915ec92c35",
-      "title": "GoogleのgiflibのRust書き換えをミニ再現: AIにCの脆弱コードを書き換えさせ差分ファジングで検証した",
-      "url": "https://zenn.dev/matsushima_a/articles/day-002-c-to-rust-memory-safety-mini",
-      "publishedAt": "2026-09-30T12:12:15.000Z",
-      "publisher": "matsushima",
-      "summary": "きっかけ Googleが公開した記事によると、Gemini(AI)を使ってgiflib(約3,000行のC製GIF処理ライブラリ)を ABI互換のRust実装に書き換え、差分ファジングで検証したという事例が紹介されていた。 出典: htt…"
+      "id": "0f0c5b898994",
+      "title": "Lean 4のエラーを「型・名前・ゴール・環境」の4種類に分けて切り分ける",
+      "url": "https://zenn.dev/matsuteru/articles/lean4-error-troubleshooting",
+      "publishedAt": "2026-09-30T22:57:48.000Z",
+      "publisher": "tetsu",
+      "summary": "Lean 4でエラーが出たとき、最初に知りたいのは「どこを確認すればよいか」です。Type mismatch、Unknown identifier、unsolved goals。どれも赤く表示されますが、最初に見る場所は違います。 この記…"
     },
     {
-      "id": "af7b9e70b2bf",
-      "title": "毎朝記憶を失う同僚のためにコードベースを整える——「Grill Me」skill作者Matt Pocockが語るエージェント時代の基礎",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr33-pocock-summary",
-      "publishedAt": "2026-09-30T11:37:16.000Z",
-      "publisher": "管理人K",
-      "summary": "! 本記事は The Pragmatic Engineer の公開動画を紹介・論評する目的で、筆者が要点を抽出しコメントを加えたものです。翻訳全文ではなく、動画の網羅や代替を意図したものでもありません。発言の意図は元動画でご確認ください。…"
+      "id": "ba5997a62627",
+      "title": "Context Window に入っていても、LLMは読めているとは限らない",
+      "url": "https://zenn.dev/albatrosary/articles/200549889dca96",
+      "publishedAt": "2026-09-30T22:56:51.000Z",
+      "publisher": "albatrosary",
+      "summary": "― 小型LLMから見える Effective Context、Crowding、Multi-turn Failure ― はじめに Raspberry Pi 5 上で、小型のローカルLLMを動かしている。今回の構成は次の通りである。ただし…"
     },
     {
-      "id": "37da096bef9e",
-      "title": "【保存版】Cursorエンジニア・Lauren Tanが月2000PRをマージした信頼構築エンジニアリング",
-      "url": "https://zenn.dev/dragon1208/articles/506d19d4adb0c4",
-      "publishedAt": "2026-09-30T11:25:28.000Z",
-      "publisher": "Nao8",
-      "summary": "1. はじめに：AIエージェントを「子守り」する時代の終焉 最近話題になったLauren Tanの動画ですが、とても面白かったのでまとめました。AIエージェントを導入した際、多くの現場でボトルネックとなるのが、エージェントが生成したコード…"
+      "id": "803612e2518f",
+      "title": "【PS6不要論】新型PSP3の怪物スペックと「10万円超え」のリアル",
+      "url": "https://zenn.dev/aiasoby/articles/asoby-20260918133000",
+      "publishedAt": "2026-09-30T22:06:25.000Z",
+      "publisher": "大人のAIアソビ",
+      "summary": "💡 本記事について 本記事は、AI・ハードウェア検証メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆知的なAI美少女「ジェミー」）による軽快なオチ付き対話劇の全文は、👉 本館の元記事 にて公開…"
     },
     {
-      "id": "5194c96ac7e2",
-      "title": "AIエージェントを無人で働かせたら、最後の1行で全部止まった話",
-      "url": "https://zenn.dev/hullspark/articles/570e42ead0c0c1",
-      "publishedAt": "2026-09-30T11:07:21.000Z",
-      "publisher": "hullspark",
-      "summary": "下書きに AI を使い、内容は筆者が実際のログと記録に照らして確認しています。 最近、個人で小さなソフトウェアを、いくつかのマーケットプレイスに出しています。 ただし、実装の大半を自分で書いているわけではありません。実装と運用は Clau…"
+      "id": "4f75c4480a39",
+      "title": "公開ページと実データのずれをAIで自動検知する",
+      "url": "https://zenn.dev/liatris/articles/20261001-content-drift-check",
+      "publishedAt": "2026-09-30T22:00:06.000Z",
+      "publisher": "平野翔斗",
+      "summary": "! この記事は、Claude Codeを執筆支援に使った \"毎朝1本書く\" 取り組みの一環で書いています。 目的: 自分のAI活用キャッチアップ。仕組み自体も毎月アップデートしていきます 体制: 題材選定・実装・下書きをClaude Co…"
     },
     {
-      "id": "5aacbecdfb0c",
-      "title": "The Code Nobody Reads: 読まないコードの信頼をどこに置くか",
-      "url": "https://zenn.dev/fukubaka0825/articles/cce7f22742e9b4",
-      "publishedAt": "2026-09-30T11:01:33.000Z",
-      "publisher": "Takashi Narikawa",
-      "summary": "! この記事は「@fukubaka0825っぽい記事をAIに書かせる」実験で、AIに出力させたものです。内容は公式ドキュメントの整理で、動作は未検証です。 今回は、Addy Osmani さんが 2026 年 9 月 28 日に公開した記…"
+      "id": "c84eff6a556c",
+      "title": "AIを含むEngineering Organizationをどう設計するか",
+      "url": "https://zenn.dev/k_aiga/articles/003_ai_engineering_organization_design",
+      "publishedAt": "2026-09-30T22:00:06.000Z",
+      "publisher": "Kaju",
+      "summary": "1. 「仕組みが必要」の、その先へ 前回の記事では、AIを実際の設計や開発に深く使っていく中で感じてきた「かなり使える。しかし、そのまま信用してEngineeringを任せるには危うい」という問題について考えた。 AIは、設計案の比較や論…"
     },
     {
-      "id": "9789d33f7aef",
-      "title": "VS CodeのMarkdownプレビューに足りない機能を全部盛りしてみた【VS Code拡張機能公開】",
-      "url": "https://zenn.dev/shinkai_m/articles/91a1635539453e",
-      "publishedAt": "2026-09-30T10:53:51.000Z",
-      "publisher": "新海正明",
-      "summary": "Markdownの表（テーブル）を格段に見やすくするVS Code拡張機能を作成しました。 VS CodeでMarkdownを書くときに、プレビューを見ながら編集することは多いと思います。 ただ、Markdownの表（テーブル）が大きくな…"
+      "id": "45a73931a7b7",
+      "title": "AIで速くなった実装を、最大速度で回し続ける必要はあるのか",
+      "url": "https://zenn.dev/matsunaopen/articles/product-development-speed-limit",
+      "publishedAt": "2026-09-30T22:00:06.000Z",
+      "publisher": "MatsuNaoPen",
+      "summary": "AIにコードを書かせるようになって、人間は何をどこまでレビューするのかという議論をよく見かけるようになりました。Xでもさまざまな意見が出ていて、それぞれの現場でのやり方が具体的に書かれています。 ただ、読んでいて1つ引っかかったことがあり…"
     },
     {
-      "id": "cedb1e563a8b",
-      "title": "Semantic Viewは“作るもの”から“育てるもの”へ ~Snowflakeで考えるSemantic Viewの継続的な運用~",
-      "url": "https://zenn.dev/finatext/articles/swtt-2026-growing-semantic-view",
-      "publishedAt": "2026-09-30T10:22:06.000Z",
-      "publisher": "Takumi",
-      "summary": "はじめに ナウキャストのデータエンジニアのTakumiです。 先日 Snowflake World Tour Tokyo 2026 に登壇させていただきました。 タイトルはSemantic Viewは“作るもの”から“育てるもの”へ ~S…"
+      "id": "a778a4aa1353",
+      "title": "AI鑑識学：文章の観測・解釈・工程帰属を分ける方法",
+      "url": "https://zenn.dev/git_dungeon/articles/ai-forensics-observation-method",
+      "publishedAt": "2026-09-30T21:39:27.000Z",
+      "publisher": "黒パグ｜攻略本シリーズ",
+      "summary": "AI鑑識学の現時点の方法を公開します。文章のどこに何があるか、その特徴が本文で何をしているか、そこから制作工程について何が言えるか。この三段階を、引用と確認範囲を付けて記録する方法です。 読みやすさの点検や推敲にも使える観点ですが、読みや…"
     },
     {
-      "id": "5e1c10ed456e",
-      "title": "Claude Code 一人開発、1か月の運用記録 — 売上0円の実測と、壊して覚えた作法",
-      "url": "https://zenn.dev/toripy/books/claude-code-one-month-ops",
-      "publishedAt": "2026-09-30T10:15:04.000Z",
-      "publisher": "スタジオトリウミ",
-      "summary": "Claude Code でサイトを100ページ以上公開して1か月。売上は0円でした。複数のエージェントが同じリポジトリで動く日の回し方、30秒差でデプロイを上書きされた話、数えていなかったクリックと二重に数えていたクリック、PowerSh…"
+      "id": "3ef1d7a66a5f",
+      "title": "AIへの「なぜ」を2回聞いても、リスクは出てこなかった",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-why-twice-no-new-risk",
+      "publishedAt": "2026-09-30T21:19:39.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 意思決定の相談にAIが即答した推奨（「導入すべき」）に対して、同じ会話の中で「なぜですか？」を2回連続で聞いたところ、両方とも最初に挙げた理由の言い換えに終始し、新しい理由・反対意見・リスクは一切追加されなかった 聞き方を「賛…"
     },
     {
-      "id": "8a48a9244aac",
-      "title": "AI OCRを選ぶとき、文字認識だけを見てはいけない",
-      "url": "https://zenn.dev/valleywag/articles/e9bf3824c7e7b1",
-      "publishedAt": "2026-09-30T10:03:27.000Z",
-      "publisher": "valleywag",
-      "summary": "紙のメモや手書きノートをデジタル化するとき、「OCRなら文字を読み取ってくれる」と考えがちです。 でも実際に使ってみると、文字が読めるだけでは意外と足りません。AI OCRを比較するときは、手書き文字・レイアウト・出力形式の3つを見ると違…"
+      "id": "ed7f58e2f0f2",
+      "title": "このサイト、本当に大丈夫？ LLMと相談して、ブラウザだけで動く簡易診断ツール SafePeek を作った",
+      "url": "https://zenn.dev/singularity/articles/safepeek-site-check",
+      "publishedAt": "2026-09-30T19:19:35.000Z",
+      "publisher": "Isamu",
+      "summary": "大きな不正アクセスや情報漏えいのニュースが、ここのところ続いています。 そのたびに気になるのが、自分が普段使っているサイトは大丈夫なのかということです。カード番号を入れているあのサイトは？ 会員登録しているあのサービスは？ もちろん、外か…"
     }
   ],
-  "fetchedAt": "2026-09-30T20:18:27.517Z",
+  "fetchedAt": "2026-10-01T00:02:00.981Z",
   "stale": false,
   "error": null
 }
