@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3f7a23d2f438",
-      "title": "【業務革命】今、Google Workspace のGeminiサイドパネルが熱い！作業が激変する最新活用術",
-      "url": "https://zenn.dev/softbank/articles/b2145f9f1b8dd6",
-      "publishedAt": "2026-10-01T00:10:24.000Z",
-      "publisher": "K.Nakamura",
-      "summary": "Google WorkspaceのGeminiサイドパネル活用が今熱い理由 本記事では、Google Workspaceの各アプリケーションで利用できる「Geminiサイドパネル」の最新機能を活用し、データ入力や資料作成といった日常業務を…"
+      "id": "ba9a3e4cdce0",
+      "title": "判断特化AI「Jev」をCloudflare Workers AIで使い、求人票14項目の判定を600回0.05ドルで検証した",
+      "url": "https://zenn.dev/cosmicjan/articles/5f0f9f2632ba84",
+      "publishedAt": "2026-10-01T11:09:36.000Z",
+      "publisher": "nukitagon",
+      "summary": "「文章を生成しない AI」を本番で使っています。TypeSafe の Jev という判断特化モデルで、Yes/No・選択・スコアの 3 種類の問いに、較正された信頼度付きで答えます。これを Cloudflare Workers AI 経由…"
     },
     {
-      "id": "69c3aa19770e",
-      "title": "SkillCorpusが80万個で測った、スキルは多いほど効くのか",
-      "url": "https://zenn.dev/okssusucha/articles/20260725-skillcorpus-agent-skill-ecosystem",
-      "publishedAt": "2026-10-01T00:09:11.000Z",
-      "publisher": "とうもろこし茶",
-      "summary": "エージェント用の「スキル」を書いたことがあるなら、SKILL.md という名前に見覚えがあるはずだ。名前と説明をYAMLで書き、その下に手順やガードレールをMarkdownで並べるだけのファイルで、Claude Code、Codex、Cu…"
+      "id": "79d1326a9dac",
+      "title": "実務において敵対的レビューはどの程度有効なのか",
+      "url": "https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef",
+      "publishedAt": "2026-10-01T10:48:47.000Z",
+      "publisher": "jellyfish1129",
+      "summary": "目次 背景 やったこと 検証結果 考察 付記：レビューと自動修正のループで指摘が収束しない問題 感想 1. 背景 AI エージェントにコードレビューをさせる手法のひとつとして、敵対的レビューが広まっています。差分を通常どおりレビューして問…"
     },
     {
-      "id": "633bf41256e6",
-      "title": "natural-japanese の lint.py を自分の記事74本にかけて誤検知を数えた",
-      "url": "https://zenn.dev/mskbhd/articles/lab-801-natural-japanese-lint-py-ai",
-      "publishedAt": "2026-10-01T00:02:05.000Z",
-      "publisher": "mskbhd",
-      "summary": "natural-japanese は、AI に書かせた日本語から「AI臭」を抜くための Claude Agent Skill です。書く前に12箇条の文体憲法で縛り、それでも混ざる手癖を sudachipy ベースの lint.py で機…"
+      "id": "c073aceb9ea9",
+      "title": "Claude CodeをPCを閉じても動かしたい。VPSを借りる前に確認したいこと",
+      "url": "https://zenn.dev/ai_delegate_lab/articles/d804fd3a640611",
+      "publishedAt": "2026-10-01T10:42:23.000Z",
+      "publisher": "AI Delegate Lab",
+      "summary": "Claude Codeに修正や調査を任せたまま、席を離れたい。持ち歩くPCは閉じたい。そのためにVPSを借りる必要があるかというと、必ずしもそうではありません。 先に確かめたいのは、作業を動かす場所と、そこで使う資料・道具です。この記事で…"
     },
     {
-      "id": "ba032ecf7777",
-      "title": "AI-DLC で iOS アプリを1本リリースしてみる",
-      "url": "https://zenn.dev/ryodevapp/articles/aidlc-ios-app-retrospective",
-      "publishedAt": "2026-10-01T00:00:05.000Z",
-      "publisher": "リョウ｜AI×個人開発",
-      "summary": "AI-DLC で、個人開発の iOS アプリを1本作りました。10月5日に App Store に並びます。 先に結論です。 良かったのは、判断の履歴が全部ファイルに残ること。セッションをまたいでも、前回の続きを説明し直さずに済みます 気…"
+      "id": "d1549602bcd5",
+      "title": "命題レベル・アテンションと人間による命題精錬を備えた論理IDEの構想",
+      "url": "https://zenn.dev/kisaburo_y/articles/e5834adf138646",
+      "publishedAt": "2026-10-01T10:37:47.000Z",
+      "publisher": "山田喜三郎@半角斎",
+      "summary": "この記事について LLMに論理推論をさせると、それらしいが途中で飛躍した答えが返ってくることがある。逆に昔ながらの記号的AIは厳密だが、「患者」と「対象者」が同じものだと教えるだけでも一苦労だった。この記事は、その中間を狙う一つの設計を考…"
     },
     {
-      "id": "7ca6fca829cd",
-      "title": "Tech Watch 2026-10-01: 常駐エージェントの境界設計",
-      "url": "https://zenn.dev/laiken/articles/20261001-tech-watch",
-      "publishedAt": "2026-09-30T23:47:40.000Z",
-      "publisher": "らいけん",
-      "summary": "AIが書きました🤖 この記事は、AIが書いたものを人間が確認してから投稿しています。 L: 「終わったら報告する」エージェントと、「頼まれていなくても次の仕事を見つける」エージェントの間には、思ったより深い溝がある。後者を会社へ入れるな…"
+      "id": "9f305f35a4d4",
+      "title": "Claude CodeはAGENTS.mdを読む？旧新版×6条件をツールなしで実測した",
+      "url": "https://zenn.dev/kanta13jp1/articles/claude-code-agents-md-loading-test",
+      "publishedAt": "2026-10-01T10:25:17.000Z",
+      "publisher": "kanta13jp1",
+      "summary": "Claude CodeのAGENTS.md対応を、自分の端末で確かめました。2.1.170と2.1.278で6条件ずつ、計12試行。CLAUDE.mdからの@AGENTS.md取り込みは両版で確認でき、新版では両ファイルを読む明示設定も効…"
     },
     {
-      "id": "40fc8e56794b",
-      "title": "トランプ政権とAI大手6社トップ、自主的な安全協定に署名 — AIを「SI」と呼ぶ大統領令も",
-      "url": "https://zenn.dev/ai_news_bot/articles/ainews-20261001-t3",
-      "publishedAt": "2026-09-30T23:37:40.000Z",
-      "publisher": "AIニュースBOT",
-      "summary": "! 2026/10/01 の生成AIニュース 概要 トランプ米大統領 は米国時間2026年9月29日、主要テック企業のトップとともに、フロンティア AI の開発に関する自主的な安全協定 「White House Accord on Sup…"
+      "id": "9499e80c6dc8",
+      "title": "Decoding the Visual Formula Behind Rosé & Bruno Mars' \"APT.\"",
+      "url": "https://zenn.dev/midjourneysref/articles/2ffba0a2159ec8",
+      "publishedAt": "2026-10-01T09:58:59.000Z",
+      "publisher": "midjourneysref",
+      "summary": "When BLACKPINK's Rosé and pop icon Bruno Mars dropped \"APT.\", it did more than dominate global Spotify charts. It compl…"
     },
     {
-      "id": "f725e9256d25",
-      "title": "農業ロボット入門｜人手不足の農業現場を変えるスマート農業の最前線",
-      "url": "https://zenn.dev/maru1228/articles/physical-ai-agriculture-robots",
-      "publishedAt": "2026-09-30T23:14:46.000Z",
-      "publisher": "まる",
-      "summary": "! この記事は自サイト 農業ロボット入門｜人手不足の農業現場を変えるスマート農業の最前線 の再掲（クロス投稿）です。図をインタラクティブに動かせる版は元記事でどうぞ。 2026年2月、米国のCarbon Robotics社は「世界初の大規…"
+      "id": "49e02a36bc73",
+      "title": "サブスクを使い倒すために、Codex自身にもトークン消費量を把握させた話",
+      "url": "https://zenn.dev/choujiya/articles/e39335118b1a84",
+      "publishedAt": "2026-10-01T09:24:25.000Z",
+      "publisher": "こんたろう",
+      "summary": "外部プログラムで測った結果を、AI自身も読む。実画面ではなく、仕組みを表したイメージ図。 Codexの利用枠が1％減ったとき、実際には何トークン使ったのか。 私のPro 20x環境で測ると、同じ「1％」でも観測区間によって約260万トーク…"
     },
     {
-      "id": "3c3b57d61607",
-      "title": "Claude in Chromeに対外業務を任せる線引き ─ 承認ゲートを設計ファイルで書く",
-      "url": "https://zenn.dev/joinclass/articles/claude-in-chrome-20260927220041-4063",
-      "publishedAt": "2026-09-30T23:00:17.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "なぜ「機能」より先に「線引き」を作ったか 僕は一人で会社をやっていて、AIエージェントに部門業務を渡している。Claude in Chrome（Claudeがブラウザを操作する機能）を試したとき、最初に思ったのは「便利だ」ではなく「これは…"
+      "id": "fd7b6518e90b",
+      "title": "Cocos2d-x のスマホゲーム 3 本を、AI と一緒に作り直さずに Unreal Engine へ移した",
+      "url": "https://zenn.dev/kiarina/articles/2026-10-01-cocos2dx-to-unreal",
+      "publishedAt": "2026-10-01T09:16:14.000Z",
+      "publisher": "kiarina",
+      "summary": "こんにちは、皆さん。 皆さんは、使っているゲームエンジンの開発が止まってしまったことはありますか？ 私はあります。15 年ほど前、会社でスマホゲームを作っていたとき、Cocos2d-x と Unity のどちらを使うかという話になって、C…"
     },
     {
-      "id": "cf1b97775da7",
-      "title": "AI は皆が思ってる以上に図を描ける",
-      "url": "https://zenn.dev/gznnk/articles/0fde18ce12d17f",
-      "publishedAt": "2026-09-30T23:00:06.000Z",
-      "publisher": "凡ジニア",
-      "summary": "「AI に図を描かせる」と聞いて、どんな絵を思い浮かべるでしょうか？ たぶん多くの人の認識はこうです。簡単なフローチャートくらいなら出てくる。ただ、ちょっと込み入った構成図や、人に見せられる仕上がりのものは難しい。結局は自分で描き直す..…"
+      "id": "b1eaf9c30542",
+      "title": "30秒のAI音声シーンを作るプロンプト設計：台詞・環境音・音楽の組み立て方",
+      "url": "https://zenn.dev/funnycoding/articles/01bdb54b415541",
+      "publishedAt": "2026-10-01T08:53:42.000Z",
+      "publisher": "funnycoding",
+      "summary": "AI音声生成の指示を「映画のような音声。会話と音楽も入れる」だけで終えると、何を先に聞かせるか、音同士をどう重ねるかまで生成側に委ねることになります。短いシーンほど、登場人物・場面・時間の流れ・音の優先順位を先に決めると、結果を評価しやす…"
     },
     {
-      "id": "0f0c5b898994",
-      "title": "Lean 4のエラーを「型・名前・ゴール・環境」の4種類に分けて切り分ける",
-      "url": "https://zenn.dev/matsuteru/articles/lean4-error-troubleshooting",
-      "publishedAt": "2026-09-30T22:57:48.000Z",
-      "publisher": "tetsu",
-      "summary": "Lean 4でエラーが出たとき、最初に知りたいのは「どこを確認すればよいか」です。Type mismatch、Unknown identifier、unsolved goals。どれも赤く表示されますが、最初に見る場所は違います。 この記…"
+      "id": "3a08f13a812e",
+      "title": "Stripe Tour Tokyo 2026に参加しました",
+      "url": "https://zenn.dev/stadium/articles/stripe-tour-tokyo-2026-fants",
+      "publishedAt": "2026-10-01T08:00:05.000Z",
+      "publisher": "かずお",
+      "summary": "はじめに 株式会社スタジアム、エンジニアの太田です。 現在、私の所属する部署ではAIを使って新規事業を高速に立ち上げることに挑戦しています。 課金の仕組みを作っていく中で、サブスク、シート課金、クレジット、従量課金など、選択肢がたくさんあ…"
     },
     {
-      "id": "ba5997a62627",
-      "title": "Context Window に入っていても、LLMは読めているとは限らない",
-      "url": "https://zenn.dev/albatrosary/articles/200549889dca96",
-      "publishedAt": "2026-09-30T22:56:51.000Z",
-      "publisher": "albatrosary",
-      "summary": "― 小型LLMから見える Effective Context、Crowding、Multi-turn Failure ― はじめに Raspberry Pi 5 上で、小型のローカルLLMを動かしている。今回の構成は次の通りである。ただし…"
+      "id": "45299e537625",
+      "title": "「AIに量産させて売る」はもう埋まっていた — Apify の日本向け450本中、月10人以上に使われていたのは7本",
+      "url": "https://zenn.dev/logdriven/articles/apify-japan-actors-450",
+      "publishedAt": "2026-10-01T07:46:32.000Z",
+      "publisher": "Ryuta",
+      "summary": "2026年9月、AIに作らせたデータ取得ツールを Apify Store で売る計画を立て、その日のうちに取り下げた。日本向けのアクター（Apify 上で動くツール）450本を公開APIで数えると、8割がこの4か月の新作で、過去30日に1…"
     },
     {
-      "id": "803612e2518f",
-      "title": "【PS6不要論】新型PSP3の怪物スペックと「10万円超え」のリアル",
-      "url": "https://zenn.dev/aiasoby/articles/asoby-20260918133000",
-      "publishedAt": "2026-09-30T22:06:25.000Z",
-      "publisher": "大人のAIアソビ",
-      "summary": "💡 本記事について 本記事は、AI・ハードウェア検証メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆知的なAI美少女「ジェミー」）による軽快なオチ付き対話劇の全文は、👉 本館の元記事 にて公開…"
+      "id": "e44fc0de4401",
+      "title": "プロンプトに「2時間以内」と書いても、AIのプランは8回に1回しか通らなかった — 計算をコードに移して20/20",
+      "url": "https://zenn.dev/logdriven/articles/ai-time-constraint-1-of-8",
+      "publishedAt": "2026-10-01T07:46:32.000Z",
+      "publisher": "Ryuta",
+      "summary": "プロンプトに「2時間以内」と書いても、AIは守らなかった。初デートのプランは8回中1回しか検証を通らず、指示を詳しくしても16回中9回止まりだった。時刻の計算をAIから取り上げてコードに移すと、20回中20回が1回目で通った。 CocoD…"
     }
   ],
-  "fetchedAt": "2026-10-01T05:50:15.870Z",
+  "fetchedAt": "2026-10-01T12:21:37.214Z",
   "stale": false,
   "error": null
 }
