@@ -6,6 +6,54 @@
   "category": "ai",
   "items": [
     {
+      "id": "3f7a23d2f438",
+      "title": "【業務革命】今、Google Workspace のGeminiサイドパネルが熱い！作業が激変する最新活用術",
+      "url": "https://zenn.dev/softbank/articles/b2145f9f1b8dd6",
+      "publishedAt": "2026-10-01T00:10:24.000Z",
+      "publisher": "K.Nakamura",
+      "summary": "Google WorkspaceのGeminiサイドパネル活用が今熱い理由 本記事では、Google Workspaceの各アプリケーションで利用できる「Geminiサイドパネル」の最新機能を活用し、データ入力や資料作成といった日常業務を…"
+    },
+    {
+      "id": "69c3aa19770e",
+      "title": "SkillCorpusが80万個で測った、スキルは多いほど効くのか",
+      "url": "https://zenn.dev/okssusucha/articles/20260725-skillcorpus-agent-skill-ecosystem",
+      "publishedAt": "2026-10-01T00:09:11.000Z",
+      "publisher": "とうもろこし茶",
+      "summary": "エージェント用の「スキル」を書いたことがあるなら、SKILL.md という名前に見覚えがあるはずだ。名前と説明をYAMLで書き、その下に手順やガードレールをMarkdownで並べるだけのファイルで、Claude Code、Codex、Cu…"
+    },
+    {
+      "id": "633bf41256e6",
+      "title": "natural-japanese の lint.py を自分の記事74本にかけて誤検知を数えた",
+      "url": "https://zenn.dev/mskbhd/articles/lab-801-natural-japanese-lint-py-ai",
+      "publishedAt": "2026-10-01T00:02:05.000Z",
+      "publisher": "mskbhd",
+      "summary": "natural-japanese は、AI に書かせた日本語から「AI臭」を抜くための Claude Agent Skill です。書く前に12箇条の文体憲法で縛り、それでも混ざる手癖を sudachipy ベースの lint.py で機…"
+    },
+    {
+      "id": "ba032ecf7777",
+      "title": "AI-DLC で iOS アプリを1本リリースしてみる",
+      "url": "https://zenn.dev/ryodevapp/articles/aidlc-ios-app-retrospective",
+      "publishedAt": "2026-10-01T00:00:05.000Z",
+      "publisher": "リョウ｜AI×個人開発",
+      "summary": "AI-DLC で、個人開発の iOS アプリを1本作りました。10月5日に App Store に並びます。 先に結論です。 良かったのは、判断の履歴が全部ファイルに残ること。セッションをまたいでも、前回の続きを説明し直さずに済みます 気…"
+    },
+    {
+      "id": "7ca6fca829cd",
+      "title": "Tech Watch 2026-10-01: 常駐エージェントの境界設計",
+      "url": "https://zenn.dev/laiken/articles/20261001-tech-watch",
+      "publishedAt": "2026-09-30T23:47:40.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものを人間が確認してから投稿しています。 L: 「終わったら報告する」エージェントと、「頼まれていなくても次の仕事を見つける」エージェントの間には、思ったより深い溝がある。後者を会社へ入れるな…"
+    },
+    {
+      "id": "40fc8e56794b",
+      "title": "トランプ政権とAI大手6社トップ、自主的な安全協定に署名 — AIを「SI」と呼ぶ大統領令も",
+      "url": "https://zenn.dev/ai_news_bot/articles/ainews-20261001-t3",
+      "publishedAt": "2026-09-30T23:37:40.000Z",
+      "publisher": "AIニュースBOT",
+      "summary": "! 2026/10/01 の生成AIニュース 概要 トランプ米大統領 は米国時間2026年9月29日、主要テック企業のトップとともに、フロンティア AI の開発に関する自主的な安全協定 「White House Accord on Sup…"
+    },
+    {
       "id": "f725e9256d25",
       "title": "農業ロボット入門｜人手不足の農業現場を変えるスマート農業の最前線",
       "url": "https://zenn.dev/maru1228/articles/physical-ai-agriculture-robots",
@@ -52,57 +100,9 @@
       "publishedAt": "2026-09-30T22:06:25.000Z",
       "publisher": "大人のAIアソビ",
       "summary": "💡 本記事について 本記事は、AI・ハードウェア検証メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆知的なAI美少女「ジェミー」）による軽快なオチ付き対話劇の全文は、👉 本館の元記事 にて公開…"
-    },
-    {
-      "id": "4f75c4480a39",
-      "title": "公開ページと実データのずれをAIで自動検知する",
-      "url": "https://zenn.dev/liatris/articles/20261001-content-drift-check",
-      "publishedAt": "2026-09-30T22:00:06.000Z",
-      "publisher": "平野翔斗",
-      "summary": "! この記事は、Claude Codeを執筆支援に使った \"毎朝1本書く\" 取り組みの一環で書いています。 目的: 自分のAI活用キャッチアップ。仕組み自体も毎月アップデートしていきます 体制: 題材選定・実装・下書きをClaude Co…"
-    },
-    {
-      "id": "c84eff6a556c",
-      "title": "AIを含むEngineering Organizationをどう設計するか",
-      "url": "https://zenn.dev/k_aiga/articles/003_ai_engineering_organization_design",
-      "publishedAt": "2026-09-30T22:00:06.000Z",
-      "publisher": "Kaju",
-      "summary": "1. 「仕組みが必要」の、その先へ 前回の記事では、AIを実際の設計や開発に深く使っていく中で感じてきた「かなり使える。しかし、そのまま信用してEngineeringを任せるには危うい」という問題について考えた。 AIは、設計案の比較や論…"
-    },
-    {
-      "id": "45a73931a7b7",
-      "title": "AIで速くなった実装を、最大速度で回し続ける必要はあるのか",
-      "url": "https://zenn.dev/matsunaopen/articles/product-development-speed-limit",
-      "publishedAt": "2026-09-30T22:00:06.000Z",
-      "publisher": "MatsuNaoPen",
-      "summary": "AIにコードを書かせるようになって、人間は何をどこまでレビューするのかという議論をよく見かけるようになりました。Xでもさまざまな意見が出ていて、それぞれの現場でのやり方が具体的に書かれています。 ただ、読んでいて1つ引っかかったことがあり…"
-    },
-    {
-      "id": "a778a4aa1353",
-      "title": "AI鑑識学：文章の観測・解釈・工程帰属を分ける方法",
-      "url": "https://zenn.dev/git_dungeon/articles/ai-forensics-observation-method",
-      "publishedAt": "2026-09-30T21:39:27.000Z",
-      "publisher": "黒パグ｜攻略本シリーズ",
-      "summary": "AI鑑識学の現時点の方法を公開します。文章のどこに何があるか、その特徴が本文で何をしているか、そこから制作工程について何が言えるか。この三段階を、引用と確認範囲を付けて記録する方法です。 読みやすさの点検や推敲にも使える観点ですが、読みや…"
-    },
-    {
-      "id": "3ef1d7a66a5f",
-      "title": "AIへの「なぜ」を2回聞いても、リスクは出てこなかった",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-why-twice-no-new-risk",
-      "publishedAt": "2026-09-30T21:19:39.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 意思決定の相談にAIが即答した推奨（「導入すべき」）に対して、同じ会話の中で「なぜですか？」を2回連続で聞いたところ、両方とも最初に挙げた理由の言い換えに終始し、新しい理由・反対意見・リスクは一切追加されなかった 聞き方を「賛…"
-    },
-    {
-      "id": "ed7f58e2f0f2",
-      "title": "このサイト、本当に大丈夫？ LLMと相談して、ブラウザだけで動く簡易診断ツール SafePeek を作った",
-      "url": "https://zenn.dev/singularity/articles/safepeek-site-check",
-      "publishedAt": "2026-09-30T19:19:35.000Z",
-      "publisher": "Isamu",
-      "summary": "大きな不正アクセスや情報漏えいのニュースが、ここのところ続いています。 そのたびに気になるのが、自分が普段使っているサイトは大丈夫なのかということです。カード番号を入れているあのサイトは？ 会員登録しているあのサービスは？ もちろん、外か…"
     }
   ],
-  "fetchedAt": "2026-10-01T00:02:00.981Z",
+  "fetchedAt": "2026-10-01T05:50:15.870Z",
   "stale": false,
   "error": null
 }

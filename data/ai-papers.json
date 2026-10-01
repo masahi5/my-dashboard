@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "61b02d81b395",
-      "title": "Scaling Properties of Same-Family On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.32722",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how mu…",
-      "score": 210
+      "id": "6c2207273a5c",
+      "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+      "url": "https://huggingface.co/papers/2609.38721",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide…",
+      "score": 35
     },
     {
-      "id": "99f63385e0b9",
-      "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
-      "url": "https://huggingface.co/papers/2609.36322",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of…",
-      "score": 96
-    },
-    {
-      "id": "ade0d64e84c3",
-      "title": "Scheduling Recursive Reasoning in Looped Transformers",
-      "url": "https://huggingface.co/papers/2609.36653",
+      "id": "ee89342ef736",
+      "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+      "url": "https://huggingface.co/papers/2609.38288",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Recurrent reasoning models have attracted growing attention for scaling test-time computation, typically by iteratively…",
-      "score": 11
+      "summary": "We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to …",
+      "score": 21
     },
     {
-      "id": "7b439eaae2ea",
-      "title": "Fractional State Space Transition for Long Sequence Modeling",
-      "url": "https://huggingface.co/papers/2609.36314",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "State Space Models (SSMs) compress sequence history into a bounded recurrent state, making the resulting memory law a c…",
-      "score": 10
+      "id": "10d66adc4041",
+      "title": "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
+      "url": "https://huggingface.co/papers/2609.40111",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "An unsuccessful LLM agent rollout contains more information than its final reward: the observations available to the ag…",
+      "score": 15
     },
     {
-      "id": "e0f3f38e110c",
-      "title": "Can Agents Design Libraries for Agents?",
-      "url": "https://huggingface.co/papers/2609.36730",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Agents increasingly build on code written by other agents, and they reimplement rather than reuse, growing the codebase…",
-      "score": 8
-    },
-    {
-      "id": "1df7cbcf5b1c",
-      "title": "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
-      "url": "https://huggingface.co/papers/2609.38146",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "We introduce LIFT, a unified image-to-video generation framework that complements camera control with Layout-In-FuTure …",
-      "score": 8
-    },
-    {
-      "id": "715a0a1ff091",
-      "title": "What Makes Recurrence Effective in Looped Language Models?",
-      "url": "https://huggingface.co/papers/2609.36636",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Looped language models (LoopLMs) increase computational depth through parameter sharing, offering a path to scale infer…",
-      "score": 7
-    },
-    {
-      "id": "b92c7e1381f0",
-      "title": "Org-Agent: Beyond Personal Assistants Towards Organizational Agents",
-      "url": "https://huggingface.co/papers/2609.34392",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Language model agents serving organizations must coordinate requests from multiple users while using knowledge distribu…",
-      "score": 5
-    },
-    {
-      "id": "32c4fac13109",
-      "title": "Learning Dynamics of Continual Learning: A Unified View of Data Attribution, Forgetting, and Plasticity Loss",
-      "url": "https://huggingface.co/papers/2609.33620",
+      "id": "f6ddcce38b16",
+      "title": "Unmask the State: When Does State Adaptation Matter for Masked Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2609.33355",
       "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "Modern language models are likely to be updated throughout their lifetime rather than trained once and frozen. Each upd…",
-      "score": 5
+      "summary": "Masked diffusion language models (MDMs) admit flexible generation orders, making the unmasking strategy an inference de…",
+      "score": 8
     },
     {
-      "id": "a5c6c369e3bd",
-      "title": "ALICE: In-context, Zero-shot, Mutual Information Estimation",
-      "url": "https://huggingface.co/papers/2609.34962",
+      "id": "bd3d21f50fbe",
+      "title": "Breaking Babel: A Self-Evolving Multi-Agent System for Long-Form Subtitle Translation",
+      "url": "https://huggingface.co/papers/2609.38660",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Estimating mutual information (MI) from samples is a central objective in a variety of scientific fields. Modern neural…",
-      "score": 5
+      "summary": "Long-form subtitle translation requires reasoning over discourse and cultural context spanning episodes or entire serie…",
+      "score": 8
     },
     {
-      "id": "1494b481f38d",
-      "title": "PreviewDiff: Multimodal Critic-Guided Search over Diffusion Latents",
-      "url": "https://huggingface.co/papers/2609.36199",
-      "publishedAt": "2026-09-28T20:00:41.000Z",
-      "summary": "Diffusion models can produce striking images and videos, but they still struggle with the compositional details that ma…",
-      "score": 3
+      "id": "3d90c0ec3e85",
+      "title": "Scaling Laws for Looped Mixture of Experts",
+      "url": "https://huggingface.co/papers/2609.40316",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Looped transformers and Mixture-of-Experts (MoE) offer complementary routes to efficient scaling: recurrence increases …",
+      "score": 4
     },
     {
-      "id": "62d1071d37f2",
-      "title": "AgentTell: Behavioural Side-Channel Leakage in Browser-Use Agents",
-      "url": "https://huggingface.co/papers/2609.32915",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Browser-use agents often carry information in their context as they move between websites. While it may be necessary fo…",
+      "id": "dc6b33e04341",
+      "title": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
+      "url": "https://huggingface.co/papers/2609.40285",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) is a promising approach for training language agents, providing dense teacher supervision …",
+      "score": 2
+    },
+    {
+      "id": "38db8b76f726",
+      "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
+      "url": "https://huggingface.co/papers/2609.39982",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Terminal agents act through stochastic model generations, yet the ability to generate a useful action does not ensure i…",
+      "score": 1
+    },
+    {
+      "id": "4e0f43ef1434",
+      "title": "Working Around the Compute Ceiling: Byte-Exact Memory in Galahad Makes LLM Reading a One-Time Cost LLM Reading a One-Time Cost",
+      "url": "https://huggingface.co/papers/2609.39358",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "A transformer language model performs a bounded amount of computation per token, and recent work by Vishal Sikka, forme…",
+      "score": 1
+    },
+    {
+      "id": "9c191a9d92b6",
+      "title": "Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
+      "url": "https://huggingface.co/papers/2609.40241",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Large language models (LLMs) have shown promise for recommendation reranking, but their use introduces an important tra…",
+      "score": 1
+    },
+    {
+      "id": "0f5a57a49001",
+      "title": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
+      "url": "https://huggingface.co/papers/2609.38334",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to…",
+      "score": 0
+    },
+    {
+      "id": "b50e29f86321",
+      "title": "AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation",
+      "url": "https://huggingface.co/papers/2609.38142",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "A small trainable advisor can steer a frozen language-model executor using natural-language advice. In addition to lear…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-01T00:02:00.899Z",
+  "fetchedAt": "2026-10-01T05:50:15.677Z",
   "stale": false,
   "error": null
 }
