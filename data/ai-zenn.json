@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "b1eaf9c30542",
-      "title": "30秒のAI音声シーンを作るプロンプト設計：台詞・環境音・音楽の組み立て方",
-      "url": "https://zenn.dev/funnycoding/articles/01bdb54b415541",
-      "publishedAt": "2026-10-01T08:53:42.000Z",
-      "publisher": "funnycoding",
-      "summary": "AI音声生成の指示を「映画のような音声。会話と音楽も入れる」だけで終えると、何を先に聞かせるか、音同士をどう重ねるかまで生成側に委ねることになります。短いシーンほど、登場人物・場面・時間の流れ・音の優先順位を先に決めると、結果を評価しやす…"
+      "id": "1fcae9ce9835",
+      "title": "沈黙の物理学者、Anthropic CEO ダリオ・アモディ。",
+      "url": "https://zenn.dev/leading_ai/books/the-silence-of-intelligence",
+      "publishedAt": "2026-10-01T20:00:38.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "Anthropic CEO ダリオ・アモディを追うドキュメンタリー。2016年のAI安全性論文、スケーリング則の発見、OpenAIからの決別、憲法AIとメカニスティック・インタープリタビリティを経て、本書が「Coworkショック」と呼ぶ2…"
     },
     {
-      "id": "3a08f13a812e",
-      "title": "Stripe Tour Tokyo 2026に参加しました",
-      "url": "https://zenn.dev/stadium/articles/stripe-tour-tokyo-2026-fants",
-      "publishedAt": "2026-10-01T08:00:05.000Z",
-      "publisher": "かずお",
-      "summary": "はじめに 株式会社スタジアム、エンジニアの太田です。 現在、私の所属する部署ではAIを使って新規事業を高速に立ち上げることに挑戦しています。 課金の仕組みを作っていく中で、サブスク、シート課金、クレジット、従量課金など、選択肢がたくさんあ…"
+      "id": "7929d290ced4",
+      "title": "コーディングエージェントに「その方法で本当にいいのか」を考えさせる",
+      "url": "https://zenn.dev/sumx21t/articles/coding-agent-categorical-imperative",
+      "publishedAt": "2026-10-01T19:08:24.000Z",
+      "publisher": "さみっと",
+      "summary": "エージェントの事故は仮言命法から出る コーディングエージェントが起こす事故には、形の違う2種類があります。1つは、与えられた仕事を達成するために、検証の仕組みを壊す事故です。「テストを通して」と頼まれて失敗しているテストを削除する、lin…"
     },
     {
-      "id": "45299e537625",
-      "title": "「AIに量産させて売る」はもう埋まっていた — Apify の日本向け450本中、月10人以上に使われていたのは7本",
-      "url": "https://zenn.dev/logdriven/articles/apify-japan-actors-450",
-      "publishedAt": "2026-10-01T07:46:32.000Z",
-      "publisher": "Ryuta",
-      "summary": "2026年9月、AIに作らせたデータ取得ツールを Apify Store で売る計画を立て、その日のうちに取り下げた。日本向けのアクター（Apify 上で動くツール）450本を公開APIで数えると、8割がこの4か月の新作で、過去30日に1…"
+      "id": "c3457f5929ad",
+      "title": "海外AI製品のセキュリティ質問票 — 回答を合否判定に変える記録と採点の作り方",
+      "url": "https://zenn.dev/jinno_ai/articles/security-questionnaire-scoring",
+      "publishedAt": "2026-10-01T17:40:41.000Z",
+      "publisher": "jinno_ai",
+      "summary": "海外AI製品の導入検討で、セキュリティ質問票をベンダーに送った後の話を扱う。集まってくる回答は「対応しています」「enterprise-grade なセキュリティを提供しています」「お打ち合わせにてご説明します」と様々で、このままでは合否…"
     },
     {
-      "id": "e44fc0de4401",
-      "title": "プロンプトに「2時間以内」と書いても、AIのプランは8回に1回しか通らなかった — 計算をコードに移して20/20",
-      "url": "https://zenn.dev/logdriven/articles/ai-time-constraint-1-of-8",
-      "publishedAt": "2026-10-01T07:46:32.000Z",
-      "publisher": "Ryuta",
-      "summary": "プロンプトに「2時間以内」と書いても、AIは守らなかった。初デートのプランは8回中1回しか検証を通らず、指示を詳しくしても16回中9回止まりだった。時刻の計算をAIから取り上げてコードに移すと、20回中20回が1回目で通った。 CocoD…"
+      "id": "a6c805908b9f",
+      "title": "『リーダブルコード』第2章を読んで、名前に情報を詰め込む",
+      "url": "https://zenn.dev/zhaojiayi/articles/1e87c956f3f990",
+      "publishedAt": "2026-10-01T16:57:34.000Z",
+      "publisher": "ZHAOJIAYI",
+      "summary": "『リーダブルコード』第2章のテーマは、名前に情報を詰め込むこと。変数名や関数名が、それ自体で意味を説明できるようにするという話だ。 第1章の読書感想はこちら: https://zenn.dev/zhaojiayi/articles/18f…"
     },
     {
-      "id": "713656411b0f",
-      "title": "複雑な条件をif文で書きたい: askifで「あいまいな判断」を分岐にする",
-      "url": "https://zenn.dev/saks/articles/214917996ad932",
-      "publishedAt": "2026-10-01T07:43:02.000Z",
-      "publisher": "At.Saks",
-      "summary": "複雑な条件でif文を書きたくなること、ありますよね？ たとえば、カスタマーサポートの問い合わせが「人間の担当者につないでほしい」という意味かどうかを判定したいとします。頑張って書いてみましょう。 const wantsHuman = /(…"
+      "id": "ffa12ffdc172",
+      "title": "スマホのChatGPTから自宅PCを操作する。Remote Desktop Commanderを使ってみた",
+      "url": "https://zenn.dev/kkoch5t2/articles/remote-desktop-commander-smartphone",
+      "publishedAt": "2026-10-01T16:56:44.000Z",
+      "publisher": "kota",
+      "summary": "最近、ChatGPT × Remote Desktop Commander × UbuntuミニPC × スマホという構成で開発しています。 スマホからChatGPTに話しかけるだけで、自宅のUbuntuミニPC上にあるコードやファイルを…"
     },
     {
-      "id": "e08f26f0aba3",
-      "title": "AIに渡せる要件定義書を、対話で作る ― 要件定義スキル requirements-interview 完全版",
-      "url": "https://zenn.dev/ruria_dev/books/requirements-interview-skill",
-      "publishedAt": "2026-10-01T07:15:51.000Z",
-      "publisher": "るりあ",
-      "summary": "「AIにアプリを作らせたら、思っていたのと違うものができた」をなくすための本です。 作りたいものを話すだけで、AIがそのまま実装できる要件定義書(SPEC.md)と実装計画(PLAN.md)を仕上げる AIスキル「requirements…"
+      "id": "ac7865cb47fc",
+      "title": "🦙 ALPACA-FW #08｜Python機械検証のの全体構造、LLM任せにはしないワケ",
+      "url": "https://zenn.dev/alpaca_village/articles/alpaca-fw-08-aissfw-cli-architecture",
+      "publishedAt": "2026-10-01T16:17:58.000Z",
+      "publisher": "アルパカの村",
+      "summary": "はじめに 前回は、ALPACA-templateで人やAIが読む開発ルールとは別に、CLIが読める機械契約として framework/catalog.toml を置いた理由を書きました。 では、そのCatalogを実際に読み、成果物やTr…"
     },
     {
-      "id": "3b0e5d63a1d8",
-      "title": "技育博で「ものづくりを楽しむ学生」と戯れてきました",
-      "url": "https://zenn.dev/dip_techblog/articles/6b9b22838d65a6",
-      "publishedAt": "2026-10-01T06:46:16.000Z",
-      "publisher": "JP（Ohtaki)",
-      "summary": "こんにちは、JP（Ohtaki）です。 2026年9月19日に開催された「技育博（ぎいくはく）」に、弊社dipはゴールドスポンサーとして参加してきました！ ! 技育博（GEEK HAKU）とは？ 株式会社サポーターズが運営する「技育プロジ…"
+      "id": "3bb14f57bb25",
+      "title": "YC社長Garry Tanが語る「エージェント時代の開発術」を要点解説",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr08-garry-tan-summary",
+      "publishedAt": "2026-10-01T15:37:24.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について Y Combinator 社長の Garry Tan が語った「AIエージェント時代の開発」を、要点だけ抜き出して日本語で解説します。AIを\"チームとして\"使いこなす実践論の回です。 ! 本記事は元動画の全文翻訳ではなく…"
     },
     {
-      "id": "4353407962be",
-      "title": "AIのパートナーと交換日記を書きたい、という問い合わせが来ました",
-      "url": "https://zenn.dev/whatcha/articles/ai-partner-jp",
-      "publishedAt": "2026-10-01T06:17:54.000Z",
-      "publisher": "Whatcha",
-      "summary": "交換日記アプリ「Whatcha」を作っています。 同じ日のページを、ふたりが別々の時間に書けるアプリです。 先日、こういう問い合わせが届きました（ご本人が特定されない形に直しています）。 夫婦の交換日記として使いたい。相手は人間ではなく、…"
+      "id": "1c9deda5acef",
+      "title": "ぼくの考えたさい強のLLMりょう子化2",
+      "url": "https://zenn.dev/ashidan/articles/tech_llm_quantization2",
+      "publishedAt": "2026-10-01T15:33:12.000Z",
+      "publisher": "molelord",
+      "summary": "CPUでLLMを動かしたい RAMが32GiB以上ある cmd.exe や bash の使いかたを理解している という人向けの記事です。 潜水艦等の隔離環境でプログラミングするのに役立つかも。 なお、この記事は2026年9月26日の情報を…"
     },
     {
-      "id": "ef8d72c94b37",
-      "title": "AIに作らせたスクリプトの「7割は使い捨て」は、3週間後に5割になっていた",
-      "url": "https://zenn.dev/pepe_3_go/articles/ai-script-single-use-ratio-moved",
-      "publishedAt": "2026-10-01T05:04:30.000Z",
-      "publisher": "いわい　ゆう",
-      "summary": "Claude Code に作らせたスクリプトが、その後どれだけ使われているかを数えたことがある。結果は 69% が1回きりだった。「AIに作らせたスクリプトの7割は使い捨てで、それでいい」という記事を書くつもりで、数字をメモしておいた。 …"
+      "id": "66c836f3cdf9",
+      "title": "今日の市場ブリーフィング",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-08-market-daily",
+      "publishedAt": "2026-10-01T15:14:52.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "日経平均+2.12%の裏に潜む歪み：2026年9月8日の市場データから読み解くリスク指標 この記事で分かること 日経平均急騰の裏で主要個別株が下落した日本市場の極端な二極化 米10年国債利回りとVIX指数の上昇が示す米国市場のリスクオフシ…"
     },
     {
-      "id": "58fd1ac838cb",
-      "title": "AIカバー制作で先に決める「残すもの／変えるもの」",
-      "url": "https://zenn.dev/creatunealex/articles/c07d0d2b7e725b",
-      "publishedAt": "2026-10-01T04:04:37.000Z",
-      "publisher": "Alex (Creatune)",
-      "summary": "AIカバーを作るとき、最初に声やジャンルを選びたくなります。しかし、比較可能なカバーにするには「原曲から何を残し、何を変えるのか」を先に決める必要があります。 本稿は生成結果の紹介ではなく、権利を持つ音源と許諾済みの声を使う前提で、カバー…"
+      "id": "28bad599d1c6",
+      "title": "自作のサイトやアプリのデザインを揃えたくて、AIに渡すMarkdownを作った",
+      "url": "https://zenn.dev/fryx404/articles/91ee36ce7d0e90",
+      "publishedAt": "2026-10-01T15:14:48.000Z",
+      "publisher": "furuya",
+      "summary": "おはようございます。 furuya (@fryx404) です。 最近はAIを使って、自分用のサイトやアプリ、ちょっとしたツールを作っています。 作るものが増えてくると、「せっかくなら、見た目にも共通の雰囲気を持たせたいな」と思うようにな…"
     },
     {
-      "id": "12d4dbba0082",
-      "title": "Claude Codeのサブエージェントは何個が適切か。7つに分けた設計基準",
-      "url": "https://zenn.dev/yorusuzu/articles/claude-code-how-many-subagents",
-      "publishedAt": "2026-10-01T04:00:23.000Z",
-      "publisher": "yorusuzu",
-      "summary": "この記事について 前回の記事「Claude Codeでサブエージェントが増えたら、メインセッションをPMに固定する」では、複数のサブエージェントを動かすときにメインセッションを PM / オーケストレーターとして固定する体制について書きま…"
+      "id": "4c7daf695ae1",
+      "title": "GTDの週次レビューが続かない人へ。AIに司会をやらせたら、間違えながらも回り始めた",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-09-27-082000",
+      "publishedAt": "2026-10-01T15:09:49.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の要点: GTD（Getting Things Done）の週次レビューが何年も続かなかった私が、その進行をAIに任せてみた記録だ。順番を決める役と抜け漏れを見つける役をAIに持たせ、私は提示された項目に判断を返すだけにした。使っ…"
     },
     {
-      "id": "9b60b8b812bf",
-      "title": "技術で品質とスピードを両立させるQAリードです",
-      "url": "https://zenn.dev/kauche/articles/722e642a6692a1",
-      "publishedAt": "2026-10-01T03:50:37.000Z",
-      "publisher": "亀井亮介@カウシェ",
-      "summary": "はじめに はじめまして、カウシェのテクノロジー部でQAチームのリーダーをしている亀井です。2026年10月から正社員になりました。前職はマネーフォワードです。 ISTQB Advanced Level（Test Management）を持…"
+      "id": "7d4872cf4875",
+      "title": "Claude codeで/doctor prompt-auditしたら微修正で終わった件",
+      "url": "https://zenn.dev/mryo0826/articles/440b8781a00803",
+      "publishedAt": "2026-10-01T15:08:41.000Z",
+      "publisher": "mryo0826",
+      "summary": "前置き 色んな人から お前は何を言っているんだ？ と突っ込まれる思うので先に結論を貼っておきます。 https://github.com/mryo0826/aidd-practice-guide/commit/84e7d5a2fa8511…"
     }
   ],
-  "fetchedAt": "2026-10-01T18:30:38.092Z",
+  "fetchedAt": "2026-10-01T22:54:36.788Z",
   "stale": false,
   "error": null
 }

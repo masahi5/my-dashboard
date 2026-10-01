@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "03620511e7a2",
-      "title": "TERRA: Terrain-Aware Reconstruction, Retargeting and Control for Musculoskeletal Locomotion",
-      "url": "https://huggingface.co/papers/2609.38653",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Recent advances in musculoskeletal modeling and reinforcement learning have enabled muscle-actuated agents to reproduce…",
-      "score": 25
-    },
-    {
       "id": "7cbc2e00969d",
       "title": "BiasReducer: Adaptive Bias Mitigation for Reward Models",
       "url": "https://huggingface.co/papers/2609.32720",
       "publishedAt": "2026-09-26T00:00:00.000Z",
       "summary": "Reward models score responses from large language models (LLMs) and guide LLM training toward human preferences. Howeve…",
-      "score": 7
+      "score": 16
     },
     {
       "id": "94645ed26aa9",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.38349",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "Modern agentic systems combine an AI model with a harness that controls execution and environmental interactions. Harne…",
-      "score": 6
+      "score": 15
     },
     {
       "id": "2b0dfdbc21f6",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.35646",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "Many language tasks have no single answer that can be checked automatically. Rubrics provide criteria for judging respo…",
-      "score": 6
+      "score": 10
     },
     {
       "id": "5f456431c291",
@@ -43,23 +35,15 @@
       "url": "https://huggingface.co/papers/2609.38658",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "TTS systems with autoregressive semantic modeling have demonstrated strong zero-shot voice cloning performance and rich…",
-      "score": 2
+      "score": 7
     },
     {
-      "id": "58ccee9ef759",
-      "title": "BIABench: Evaluating AI agents on real-world bioimage analysis tasks",
-      "url": "https://huggingface.co/papers/2609.34274",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Artificial-intelligence (AI) agents hold promise for automating bioimage analysis, yet no benchmark evaluates whether t…",
-      "score": 2
-    },
-    {
-      "id": "76832d1f5dcc",
-      "title": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
-      "url": "https://huggingface.co/papers/2609.39154",
+      "id": "51cc6bd6166d",
+      "title": "Training LLM Judges from Language Feedback via Position-Selective Self-Distillation",
+      "url": "https://huggingface.co/papers/2609.38792",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Deep research tasks require agents to navigate large knowledge spaces, synthesize evidence across many sources, and ada…",
-      "score": 2
+      "summary": "We study training LLM judges from natural language feedback, especially for subjective tasks where the verdict depends …",
+      "score": 5
     },
     {
       "id": "d948726c55e6",
@@ -67,7 +51,23 @@
       "url": "https://huggingface.co/papers/2609.34736",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "Large language model (LLM) routing aims to select the most suitable model for each incoming query. Most existing router…",
-      "score": 2
+      "score": 5
+    },
+    {
+      "id": "58ccee9ef759",
+      "title": "BIABench: Evaluating AI agents on real-world bioimage analysis tasks",
+      "url": "https://huggingface.co/papers/2609.34274",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Artificial-intelligence (AI) agents hold promise for automating bioimage analysis, yet no benchmark evaluates whether t…",
+      "score": 4
+    },
+    {
+      "id": "76832d1f5dcc",
+      "title": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
+      "url": "https://huggingface.co/papers/2609.39154",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Deep research tasks require agents to navigate large knowledge spaces, synthesize evidence across many sources, and ada…",
+      "score": 3
     },
     {
       "id": "daddd1408caa",
@@ -75,15 +75,15 @@
       "url": "https://huggingface.co/papers/2609.35928",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "Multi-agent LLM systems increasingly mix models from several providers, yet exposing each agent's underlying model iden…",
-      "score": 1
+      "score": 3
     },
     {
-      "id": "d0eeb0c5d0e4",
-      "title": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
-      "url": "https://huggingface.co/papers/2609.40195",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Long-term egocentric video enables personalized AI assistants to reason about daily life. However, as video histories g…",
-      "score": 1
+      "id": "1705be455902",
+      "title": "Aligning One-Step Generative Models with Reward-Weighted Transport Distillation",
+      "url": "https://huggingface.co/papers/2609.30840",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "summary": "One-step generators enable high-quality visual generation with a single network evaluation, but their post-training is …",
+      "score": 2
     },
     {
       "id": "982004c0028d",
@@ -91,18 +91,18 @@
       "url": "https://huggingface.co/papers/2609.39344",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "summary": "Speech transcripts used as long-term memory must preserve both words and stable speaker identities. Existing meeting-tr…",
-      "score": 0
+      "score": 2
     },
     {
-      "id": "60a6eaf21c88",
-      "title": "SpatialCORE: Confidence-Aware Grounded Spatial Reasoning in Large Vision--Language Models",
-      "url": "https://huggingface.co/papers/2609.38716",
+      "id": "d0eeb0c5d0e4",
+      "title": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+      "url": "https://huggingface.co/papers/2609.40195",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Large Vision-Language Models (LVLMs) have made remarkable progress across visual perception tasks, yet spatial reasonin…",
-      "score": 0
+      "summary": "Long-term egocentric video enables personalized AI assistants to reason about daily life. However, as video histories g…",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-10-01T18:30:37.941Z",
+  "fetchedAt": "2026-10-01T22:54:36.653Z",
   "stale": false,
   "error": null
 }
