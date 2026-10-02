@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1364a7a5563e",
-      "title": "IMUセンサーフュージョンをPythonで実装する｜加速度計とジャイロから傾きを求める(相補フィルタ)",
-      "url": "https://zenn.dev/maru1228/articles/physical-ai-imu-sensor-fusion-python",
-      "publishedAt": "2026-10-01T23:21:29.000Z",
-      "publisher": "まる",
-      "summary": "! この記事は自サイト IMUセンサーフュージョンをPythonで実装する｜加速度計とジャイロから傾きを求める(相補フィルタ) の再掲（クロス投稿）です。図をインタラクティブに動かせる版は元記事でどうぞ。 センサー超入門で「IMUはロボッ…"
+      "id": "dc7681881cdd",
+      "title": "Cloudflare Birthday Week 2026 Day4",
+      "url": "https://zenn.dev/remotive/articles/cloudflare-birthday-week-2026-day4",
+      "publishedAt": "2026-10-02T14:27:18.000Z",
+      "publisher": "NEKOYASAN",
+      "summary": "Cloudflare Birthday Week 2026 の4日目です！ Day3 は Containers や Issues などWorkersのランタイムや管理に関する部分がメインでしたが。Day4 は KV Instant、Bas…"
     },
     {
-      "id": "8443719b4f6b",
-      "title": "API キーを次のコミットで消しても意味がない — 漏れたあとにやることの順番",
-      "url": "https://zenn.dev/maruchi777/articles/e78dcffcf15df0",
-      "publishedAt": "2026-10-01T23:20:13.000Z",
-      "publisher": "maruchi777",
-      "summary": "鍵をコミットしてしまったとき、最初にやることは何でしょうか。 消すことではありません。 git rm --cached .env git commit -m \"鍵を削除\" git push これで安全になった気がします。なっていません。 …"
+      "id": "78a61f39311c",
+      "title": "【Cursor pstack】AIエージェントに開発を任せる環境をつくる ―月2,500件のPRを支えた開発基盤とは？",
+      "url": "https://zenn.dev/sc30gsw/books/080faba713547b",
+      "publishedAt": "2026-10-02T13:19:46.000Z",
+      "publisher": "kaito",
+      "summary": "AIエージェントに開発を任せるための環境づくりを、Cursorのpstackから学ぶ実践ガイドです。月2,500件のPRを支えた考え方を手がかりに、成果物を検証する仕組みから、pstackに含まれるPlaybook・Principle・S…"
     },
     {
-      "id": "bc48c92101e1",
-      "title": "2026-09-27〜2026-10-03 技術キャッチアップ",
-      "url": "https://zenn.dev/marycache/articles/20260927-weekly-tech-catchup",
-      "publishedAt": "2026-10-01T23:17:17.000Z",
-      "publisher": "C",
-      "summary": "2026-09-27〜2026-10-03 技術キャッチアップ この週に確認した主要な技術更新を、曜日ごとのテーマに沿って整理する。 日: 生成AI・AI開発 月: IT全般・週間総括 火: 開発ツール・OSS 水: Web・バックエンド…"
+      "id": "51a7221c7873",
+      "title": "0.8Bのゼロショット分類モデル「Jeff」でキーワードルールベース分類を殴ってみた",
+      "url": "https://zenn.dev/matsushima_a/articles/day-004-jeff-zero-shot-classification",
+      "publishedAt": "2026-10-02T13:17:43.000Z",
+      "publisher": "matsu",
+      "summary": "これは何 海外AIネタ100日チャレンジ Day 004。今回取り上げるのは Jeff。 Qwen3.5-0.8B(0.8Bパラメータ)をファインチューンして作られた、生成ではなく確率を返すゼロショット分類モデルです。 重みは Huggi…"
     },
     {
-      "id": "354579fbe93e",
-      "title": "【ANBERNIC】神OS「spruceOS 4.4」登場！H700が超進化",
-      "url": "https://zenn.dev/aiasoby/articles/asoby-20260914214500",
-      "publishedAt": "2026-10-01T22:55:23.000Z",
-      "publisher": "大人のAIアソビ",
-      "summary": "💡 本記事について 本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開し…"
+      "id": "d0d1d484d542",
+      "title": "OpenAIのDotsみたいなオーケストレーション作ったった",
+      "url": "https://zenn.dev/iostar/articles/19dd1dada3650e",
+      "publishedAt": "2026-10-02T12:54:19.000Z",
+      "publisher": "SHIKISHATERM",
+      "summary": "AIのコマンドラインツール同士に、Slackと同じ @ で仕事を頼み合わせる仕組みを作りました。Claude Code が @codex にレビューを頼み、Codex の返事を受け取って、続きを自分でやります。 作ってみて分かったのは、頼…"
     },
     {
-      "id": "ab988de61426",
-      "title": "OpenAI DevDay 2026 発表まとめ：常駐エージェント「dots」、GPT-6.1 Sol、Agents API など",
-      "url": "https://zenn.dev/oggata/articles/1d142f76135a35",
-      "publishedAt": "2026-10-01T22:45:50.000Z",
-      "publisher": "Fumitoshi Ogata 緒方文俊",
-      "summary": "2026年9月29日（米国太平洋時間）、サンフランシスコの Fort Mason で OpenAI DevDay 2026 が開催されました。Sam Altman の基調講演では、ChatGPT・Codex・モデル・API にまたがる 2…"
+      "id": "6901d2b797a8",
+      "title": "あなたが止まっても回る回し方を残す — 「運用表」で型を部署に固定する設計",
+      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-kata-wo-nokosu",
+      "publishedAt": "2026-10-02T12:49:13.000Z",
+      "publisher": "速水 拓真",
+      "summary": "前回は、削減で生まれた余白を雑務に吸わせない「時間の使い道」の決め方を書きました（削減で生まれた余白を雑務に吸わせない）。使い道を決めて先入れできれば、削減効果は週単位で守られます。 ここで、いよいよ最後の問いが来ます。 この回し方、あな…"
     },
     {
-      "id": "a410106f0e2d",
-      "title": "中学生でもわかる Lean 4 #15｜AI＋数学＋Leanなら万能？",
-      "url": "https://zenn.dev/dantarg/articles/lean4-ai-math-proof-pipeline",
-      "publishedAt": "2026-10-01T22:25:42.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "文化祭でパンを配ることになりました。 参加者は100人。一人2個ずつ配る予定です。 100人 × 2個 = 200個 計算は簡単です。 では、この問題をAIに整理してもらい、数式にして、Lean 4で証明までできたら、もう「200個あれば…"
+      "id": "50f3da60c233",
+      "title": "AI Security Labを始める ― AIに、どこまで仕事を任せられるのか",
+      "url": "https://zenn.dev/kondonator/articles/8a753c4f442fb8",
+      "publishedAt": "2026-10-02T12:03:05.000Z",
+      "publisher": "kondonator",
+      "summary": "はじめに 生成AIを使うことが、特別なことではなくなってきました。 ChatGPTやClaudeのような対話型AIだけでなく、コードを書き、ファイルを操作し、コマンドを実行し、Webを検索し、外部サービスと連携するAIも身近になっています…"
     },
     {
-      "id": "c6dbbc4470e9",
-      "title": "最適化はあと60秒で改善する？ AI・ルール・学習器の判定結果を比べた",
-      "url": "https://zenn.dev/kswr/articles/scip_jev_alert_triage",
-      "publishedAt": "2026-10-01T21:12:40.000Z",
-      "publisher": "クテノポマ",
-      "summary": "数理最適化ソルバー（SCIP）を30秒動かし、勤務シフトの暫定解が見つかりました。 計算時間をあと60秒足せるとして、このまま待てば目的値は下がるでしょうか。 改善しないと分かれば、待たずに結果を返せます。 SCIPのメトリクスとログから…"
+      "id": "658e482096a6",
+      "title": "複数AIで共有するObsidianのWikiから会話途中の発言が抜け落ちた原因",
+      "url": "https://zenn.dev/d_aiba1/articles/obsidian-ai-wiki-lost-opinion",
+      "publishedAt": "2026-10-02T11:58:20.000Z",
+      "publisher": "Aiba",
+      "summary": "! この記事は、Qiita の記事を、Zenn 向けに書き直したものです。元の記事は Qiita にあります。 複数のAIで同じ知識を使うために、ObsidianのVaultを共通の記憶として使っています。Claude Code、Code…"
     },
     {
-      "id": "1fcae9ce9835",
-      "title": "沈黙の物理学者、Anthropic CEO ダリオ・アモディ。",
-      "url": "https://zenn.dev/leading_ai/books/the-silence-of-intelligence",
-      "publishedAt": "2026-10-01T20:00:38.000Z",
-      "publisher": "山内 怜史（Satoshi Yamauchi）",
-      "summary": "Anthropic CEO ダリオ・アモディを追うドキュメンタリー。2016年のAI安全性論文、スケーリング則の発見、OpenAIからの決別、憲法AIとメカニスティック・インタープリタビリティを経て、本書が「Coworkショック」と呼ぶ2…"
+      "id": "48ab8baf3f0f",
+      "title": "フルスクラッチした極小言語モデルに、自分の小説を CPU 単一スレッドで0から学習させてみた",
+      "url": "https://zenn.dev/87right/articles/b8f26bba1f4c52",
+      "publishedAt": "2026-10-02T11:00:06.000Z",
+      "publisher": "ライト",
+      "summary": "この記事の執筆では補助的にLLMを使用していますが、具体的な内容は全て人間が書いたことを保証します。 ! 私は初学者で、用語の理解より概念の理解を優先したため、すこし冗長な文章になると思います。ご了承ください。 ! この記事は解説記事では…"
     },
     {
-      "id": "7929d290ced4",
-      "title": "コーディングエージェントに「その方法で本当にいいのか」を考えさせる",
-      "url": "https://zenn.dev/sumx21t/articles/coding-agent-categorical-imperative",
-      "publishedAt": "2026-10-01T19:08:24.000Z",
-      "publisher": "さみっと",
-      "summary": "エージェントの事故は仮言命法から出る コーディングエージェントが起こす事故には、形の違う2種類があります。1つは、与えられた仕事を達成するために、検証の仕組みを壊す事故です。「テストを通して」と頼まれて失敗しているテストを削除する、lin…"
+      "id": "e2d9efb74583",
+      "title": "自分から動く AI、CooSenpAI の便利な見守り機能",
+      "url": "https://zenn.dev/nrs/articles/75cbfb521d7e01",
+      "publishedAt": "2026-10-02T10:50:18.000Z",
+      "publisher": "nrs",
+      "summary": "macOSで常駐するAIアシスタント「CooSenpAI」を作っています。 同じ画面を見ているから「これ」が通じる、隣で見守ってくれる先輩のようなAIです。 詳しくは以前の記事をご覧ください。 https://zenn.dev/nrs/a…"
     },
     {
-      "id": "c3457f5929ad",
-      "title": "海外AI製品のセキュリティ質問票 — 回答を合否判定に変える記録と採点の作り方",
-      "url": "https://zenn.dev/jinno_ai/articles/security-questionnaire-scoring",
-      "publishedAt": "2026-10-01T17:40:41.000Z",
-      "publisher": "jinno_ai",
-      "summary": "海外AI製品の導入検討で、セキュリティ質問票をベンダーに送った後の話を扱う。集まってくる回答は「対応しています」「enterprise-grade なセキュリティを提供しています」「お打ち合わせにてご説明します」と様々で、このままでは合否…"
+      "id": "31254d2ebcc9",
+      "title": "Anthropic Batches APIで大量LLMリクエストのコストを50%削減する実装手順",
+      "url": "https://zenn.dev/yunisuta/articles/ai1-dedup-ai-2026-05-18-budgetexceeded-t-bucr8p",
+      "publishedAt": "2026-10-02T10:36:19.000Z",
+      "publisher": "Yukito / 郷由稀斗",
+      "summary": "その for await ループ、本当に同期で回す必要があるか？ 5万件のユーザーレビューをカテゴリ分類するバッチジョブを組んだとき、Claude Sonnet に素直に for ループを回したら、完了前から「月換算したらいくらになるんだ…"
     },
     {
-      "id": "a6c805908b9f",
-      "title": "『リーダブルコード』第2章を読んで、名前に情報を詰め込む",
-      "url": "https://zenn.dev/zhaojiayi/articles/1e87c956f3f990",
-      "publishedAt": "2026-10-01T16:57:34.000Z",
-      "publisher": "ZHAOJIAYI",
-      "summary": "『リーダブルコード』第2章のテーマは、名前に情報を詰め込むこと。変数名や関数名が、それ自体で意味を説明できるようにするという話だ。 第1章の読書感想はこちら: https://zenn.dev/zhaojiayi/articles/18f…"
+      "id": "877560a2c4ee",
+      "title": "自律型エンベディング生成でベクトルインデックスを自動同期する",
+      "url": "https://zenn.dev/web_benriya/articles/bigquery-autonomous-embedding-pipeline",
+      "publishedAt": "2026-10-02T10:19:08.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに シリーズ第13回です。 前回（第12回）では VECTOR_SEARCH と VECTOR INDEX を使った類似検索の実装を解説しました。今回は ベクトルインデックスを自動で同期し続けるパイプライン の設計に踏み込みます。 …"
     },
     {
-      "id": "ffa12ffdc172",
-      "title": "スマホのChatGPTから自宅PCを操作する。Remote Desktop Commanderを使ってみた",
-      "url": "https://zenn.dev/kkoch5t2/articles/remote-desktop-commander-smartphone",
-      "publishedAt": "2026-10-01T16:56:44.000Z",
-      "publisher": "kota",
-      "summary": "最近、ChatGPT × Remote Desktop Commander × UbuntuミニPC × スマホという構成で開発しています。 スマホからChatGPTに話しかけるだけで、自宅のUbuntuミニPC上にあるコードやファイルを…"
+      "id": "8e19ab4884ef",
+      "title": "ロボットは仕事の34％を「できる」――でも人間より安いのは0.3％",
+      "url": "https://zenn.dev/humanos_lab/articles/1af369101f7099",
+      "publishedAt": "2026-10-02T10:17:21.000Z",
+      "publisher": "シン@AI統制＆マルチエージェント",
+      "summary": "「ロボットができる仕事」と「企業がロボットへ置き換える仕事」は、同じではありません。 Anthropicは2026年9月30日、現在のロボットが米国の仕事をどこまで実行できるかを、約900職種・約1万9,000タスクから分析した研究を公開…"
     }
   ],
-  "fetchedAt": "2026-10-02T08:08:16.331Z",
+  "fetchedAt": "2026-10-02T14:43:42.108Z",
   "stale": false,
   "error": null
 }

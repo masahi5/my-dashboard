@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "0cc7515675da",
-      "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
-      "url": "https://huggingface.co/papers/2610.02196",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by r…",
+      "id": "2936fc1eaed8",
+      "title": "CorrGRPO: Correlation-Normalized GRPO for Multi-Reward Learning",
+      "url": "https://huggingface.co/papers/2609.36820",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Group Relative Policy Optimization (GRPO) is widely used to train reasoning language models, where it computes advantag…",
+      "score": 10
+    },
+    {
+      "id": "93f18a40d761",
+      "title": "PhysVista: Benchmarking Physical Intelligence in VLMs via a Perception-Reasoning-Assessment Loop",
+      "url": "https://huggingface.co/papers/2610.00559",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Vision-Language Models (VLMs) have shown strong multimodal reasoning capabilities, yet whether they truly capture the p…",
+      "score": 7
+    },
+    {
+      "id": "aa9094c329ad",
+      "title": "Architect-Ant: Editable Automatic Furnishing of Architectural Floor Plans",
+      "url": "https://huggingface.co/papers/2606.10953",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Furnished floor plans support real-estate visualization, interior design, and architectural workflows, yet automatic fu…",
       "score": 6
     },
     {
-      "id": "11a89038656a",
-      "title": "Devils in Question Relay: Source-Conditioned Relay Steering to Mitigate Hallucinations in Audio-visual Large Language Models",
-      "url": "https://huggingface.co/papers/2609.37568",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Audio-visual large language models (AVLLMs) have made remarkable progress in multimodal understanding and reasoning thr…",
-      "score": 3
-    },
-    {
-      "id": "cf18524436a4",
-      "title": "Memorizon: Training World Models Beyond Their Context Window",
-      "url": "https://huggingface.co/papers/2610.00544",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Streaming world models should render a place consistently across repeated visits. Directly supervising such revisits re…",
-      "score": 3
-    },
-    {
-      "id": "233834152688",
-      "title": "Benchmarking and Enhancing Skill-Level Memory for Partially Observable Robotic Manipulation",
-      "url": "https://huggingface.co/papers/2609.38886",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Recent advances in robot learning have enabled manipulation policies to perform increasingly diverse tasks and generali…",
-      "score": 3
-    },
-    {
-      "id": "cf5fdfea8ed2",
-      "title": "Better Supervision Is Nearby: Neighborhood On-Policy Self-Distillation",
-      "url": "https://huggingface.co/papers/2609.39687",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "On-policy self-distillation (OPSD) trains mathematical reasoning models using a privileged teacher that sees a referenc…",
-      "score": 2
-    },
-    {
-      "id": "f01b36612317",
-      "title": "DataMagic: Authoring Data Videos through Declarative Multi-Agent Orchestration",
-      "url": "https://huggingface.co/papers/2609.33403",
-      "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "Data videos communicate data insights through dynamic charts, voice narration, and synchronized animations, and have be…",
-      "score": 2
-    },
-    {
-      "id": "6a6a1790c8cb",
-      "title": "Does Native 3D Texture Generation Necessarily Require 3D Assets for Training?",
-      "url": "https://huggingface.co/papers/2609.34621",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Native 3D texture generation synthesizes colors directly in 3D space for a given geometry, conditioned on multi-view re…",
-      "score": 2
-    },
-    {
-      "id": "8260e6268d64",
-      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
-      "url": "https://huggingface.co/papers/2610.02206",
+      "id": "fdae1ff03da6",
+      "title": "Decoding Looped Transformers Better for (Almost) Free",
+      "url": "https://huggingface.co/papers/2610.02185",
       "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into to…",
-      "score": 1
+      "summary": "Looped Transformers achieve parameter efficiency by repeatedly executing a shared block across recurrent loops. Each lo…",
+      "score": 4
     },
     {
-      "id": "c3d1ebba422f",
-      "title": "Smaller Models, Better Rejects: Preference Distillation Scaling",
-      "url": "https://huggingface.co/papers/2609.38987",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Preference distillation typically treats a teacher response as preferred and the student's own response as rejected. Th…",
-      "score": 1
+      "id": "a81740e09f80",
+      "title": "Generalization Is Stability, Not Accuracy: Multi-Axis Evaluation of LLMs",
+      "url": "https://huggingface.co/papers/2610.01428",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Generalization in large language models (LLMs) is the ability to produce consistent and semantically stable outputs whe…",
+      "score": 4
     },
     {
-      "id": "e0434e874f31",
-      "title": "Prefill-Free Cross-Family KV Cache Transfer for Heterogeneous Multi-Agent LLMs",
-      "url": "https://huggingface.co/papers/2609.32259",
+      "id": "8dc2b73f9704",
+      "title": "Removing the NEEDLE in the Haystack: Backdoor Removal in LLMs via Weight Orthogonalisation",
+      "url": "https://huggingface.co/papers/2610.00348",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Recent multi-agent LLM systems increasingly combine heterogeneous models for specialized agent roles. However, text-bas…",
+      "summary": "Backdoor attacks can be implanted in Large Language Models (LLMs) during training, causing unwanted behaviour when a tr…",
+      "score": 4
+    },
+    {
+      "id": "7d2d4ed45ff5",
+      "title": "LOCI: Spatial Linear Memory for Streaming World Models",
+      "url": "https://huggingface.co/papers/2609.40222",
+      "publishedAt": "2026-09-30T17:27:06.000Z",
+      "summary": "When a camera revisits a previously observed region, a video world model should reproduce what was there before. This r…",
+      "score": 3
+    },
+    {
+      "id": "e708de3c8317",
+      "title": "OTRetarget: Joint Robot and Object Motion Retargeting via Optimal Transport",
+      "url": "https://huggingface.co/papers/2609.36602",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Transferring human motion to humanoid robots requires adapting the demonstrated motion to the robot morphology while pr…",
+      "score": 2
+    },
+    {
+      "id": "210c28754b98",
+      "title": "JevSpawn: Adaptive Agentic Inference through Compositional Action Spaces",
+      "url": "https://huggingface.co/papers/2610.00437",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "LLM agents generate intermediate reasoning and actions token by token, making extended interactions slow and computatio…",
       "score": 1
     },
     {
-      "id": "3db79b9248ec",
-      "title": "Decentralized Master-Mind: Joint Action Refinement through Iterative Intent Denoising in Multi-Agent Pathfinding",
-      "url": "https://huggingface.co/papers/2609.32019",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Decentralized multi-agent path finding (MAPF) with communication requires agents to reach individual goals without coll…",
+      "id": "48974c2fc6eb",
+      "title": "When Does Correction Become Repair? Mechanistic Auditing of Internal Interventions in Tool-Using LLMs",
+      "url": "https://huggingface.co/papers/2609.36138",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Before invoking external tools, an agentic LLM must select among a K-way action space: executing a call, seeking clarif…",
+      "score": 1
+    },
+    {
+      "id": "82153029976f",
+      "title": "Latent-Foresight: End-to-End Learning Predictable Representations for Latent World Models",
+      "url": "https://huggingface.co/papers/2610.01942",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Predicting the future evolution of a scene is a fundamental capability for world modeling. Recent work has shown that o…",
       "score": 0
     },
     {
-      "id": "eecda5ac2f9d",
-      "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
-      "url": "https://huggingface.co/papers/2609.38104",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Power-sharpened sampling is an inference-time alternative to reinforcement-learning (RL) post-training for enhancing re…",
+      "id": "34b3eee34f09",
+      "title": "Before It Fades: Reinforcing Temporal Representations at Inference Time in VideoLLMs",
+      "url": "https://huggingface.co/papers/2610.01595",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Video Large Language Models (VideoLLMs) receive frames in sequential order and interpret how visual content evolves alo…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-02T08:08:16.272Z",
+  "fetchedAt": "2026-10-02T14:43:41.340Z",
   "stale": false,
   "error": null
 }
