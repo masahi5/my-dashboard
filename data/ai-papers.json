@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.32720",
       "publishedAt": "2026-09-26T00:00:00.000Z",
       "summary": "Reward models score responses from large language models (LLMs) and guide LLM training toward human preferences. Howeve…",
-      "score": 16
+      "score": 18
     },
     {
       "id": "94645ed26aa9",
@@ -22,12 +22,12 @@
       "score": 15
     },
     {
-      "id": "2b0dfdbc21f6",
-      "title": "Rubric Rewards from Item Response Theory",
-      "url": "https://huggingface.co/papers/2609.35646",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Many language tasks have no single answer that can be checked automatically. Rubrics provide criteria for judging respo…",
-      "score": 10
+      "id": "6de5c6cc4855",
+      "title": "Scaling and Distilling Text Embeddings for Better Diffusibility",
+      "url": "https://huggingface.co/papers/2610.01016",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Diffusion language models (DLMs) offer a promising alternative to autoregressive (AR) language generation. Recent advan…",
+      "score": 9
     },
     {
       "id": "5f456431c291",
@@ -35,7 +35,15 @@
       "url": "https://huggingface.co/papers/2609.38658",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "TTS systems with autoregressive semantic modeling have demonstrated strong zero-shot voice cloning performance and rich…",
-      "score": 7
+      "score": 9
+    },
+    {
+      "id": "a4522f6a0837",
+      "title": "PixelUMM: Encoder-Free Unified Image and Video Understanding and Generation",
+      "url": "https://huggingface.co/papers/2609.38597",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Unified Multimodal Models (UMMs) often rely on separate visual representations for understanding and generation, increa…",
+      "score": 6
     },
     {
       "id": "51cc6bd6166d",
@@ -43,14 +51,6 @@
       "url": "https://huggingface.co/papers/2609.38792",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "summary": "We study training LLM judges from natural language feedback, especially for subjective tasks where the verdict depends …",
-      "score": 5
-    },
-    {
-      "id": "d948726c55e6",
-      "title": "SeLMRoute: Probabilistic Semantic Evidence for Large Language Model Routing",
-      "url": "https://huggingface.co/papers/2609.34736",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Large language model (LLM) routing aims to select the most suitable model for each incoming query. Most existing router…",
       "score": 5
     },
     {
@@ -78,6 +78,14 @@
       "score": 3
     },
     {
+      "id": "66314425362d",
+      "title": "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
+      "url": "https://huggingface.co/papers/2610.01215",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "GUI agents require high-quality interaction trajectories to learn how software environments respond to actions, maintai…",
+      "score": 2
+    },
+    {
       "id": "1705be455902",
       "title": "Aligning One-Step Generative Models with Reward-Weighted Transport Distillation",
       "url": "https://huggingface.co/papers/2609.30840",
@@ -86,23 +94,15 @@
       "score": 2
     },
     {
-      "id": "982004c0028d",
-      "title": "Who Said What, and Will It Be Remembered? Evaluating Persistent Speaker Attribution Across Meetings",
-      "url": "https://huggingface.co/papers/2609.39344",
+      "id": "7702b568d0b7",
+      "title": "Learning Chaos Without Seeing Chaos: Extrapolation of Global Dynamics in Autoregressive Transformers",
+      "url": "https://huggingface.co/papers/2609.38814",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Speech transcripts used as long-term memory must preserve both words and stable speaker identities. Existing meeting-tr…",
-      "score": 2
-    },
-    {
-      "id": "d0eeb0c5d0e4",
-      "title": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
-      "url": "https://huggingface.co/papers/2609.40195",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Long-term egocentric video enables personalized AI assistants to reason about daily life. However, as video histories g…",
-      "score": 2
+      "summary": "Autoregressive models are trained to predict a system's behavior one step at a time, and recursive generation allows th…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-10-01T22:54:36.653Z",
+  "fetchedAt": "2026-10-02T01:57:53.498Z",
   "stale": false,
   "error": null
 }
