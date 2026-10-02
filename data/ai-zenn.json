@@ -6,62 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "dc7681881cdd",
-      "title": "Cloudflare Birthday Week 2026 Day4",
-      "url": "https://zenn.dev/remotive/articles/cloudflare-birthday-week-2026-day4",
-      "publishedAt": "2026-10-02T14:27:18.000Z",
-      "publisher": "NEKOYASAN",
-      "summary": "Cloudflare Birthday Week 2026 の4日目です！ Day3 は Containers や Issues などWorkersのランタイムや管理に関する部分がメインでしたが。Day4 は KV Instant、Bas…"
-    },
-    {
-      "id": "78a61f39311c",
-      "title": "【Cursor pstack】AIエージェントに開発を任せる環境をつくる ―月2,500件のPRを支えた開発基盤とは？",
-      "url": "https://zenn.dev/sc30gsw/books/080faba713547b",
-      "publishedAt": "2026-10-02T13:19:46.000Z",
-      "publisher": "kaito",
-      "summary": "AIエージェントに開発を任せるための環境づくりを、Cursorのpstackから学ぶ実践ガイドです。月2,500件のPRを支えた考え方を手がかりに、成果物を検証する仕組みから、pstackに含まれるPlaybook・Principle・S…"
-    },
-    {
-      "id": "51a7221c7873",
-      "title": "0.8Bのゼロショット分類モデル「Jeff」でキーワードルールベース分類を殴ってみた",
-      "url": "https://zenn.dev/matsushima_a/articles/day-004-jeff-zero-shot-classification",
-      "publishedAt": "2026-10-02T13:17:43.000Z",
-      "publisher": "matsu",
-      "summary": "これは何 海外AIネタ100日チャレンジ Day 004。今回取り上げるのは Jeff。 Qwen3.5-0.8B(0.8Bパラメータ)をファインチューンして作られた、生成ではなく確率を返すゼロショット分類モデルです。 重みは Huggi…"
-    },
-    {
-      "id": "d0d1d484d542",
-      "title": "OpenAIのDotsみたいなオーケストレーション作ったった",
-      "url": "https://zenn.dev/iostar/articles/19dd1dada3650e",
-      "publishedAt": "2026-10-02T12:54:19.000Z",
-      "publisher": "SHIKISHATERM",
-      "summary": "AIのコマンドラインツール同士に、Slackと同じ @ で仕事を頼み合わせる仕組みを作りました。Claude Code が @codex にレビューを頼み、Codex の返事を受け取って、続きを自分でやります。 作ってみて分かったのは、頼…"
-    },
-    {
-      "id": "6901d2b797a8",
-      "title": "あなたが止まっても回る回し方を残す — 「運用表」で型を部署に固定する設計",
-      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-kata-wo-nokosu",
-      "publishedAt": "2026-10-02T12:49:13.000Z",
-      "publisher": "速水 拓真",
-      "summary": "前回は、削減で生まれた余白を雑務に吸わせない「時間の使い道」の決め方を書きました（削減で生まれた余白を雑務に吸わせない）。使い道を決めて先入れできれば、削減効果は週単位で守られます。 ここで、いよいよ最後の問いが来ます。 この回し方、あな…"
-    },
-    {
-      "id": "50f3da60c233",
-      "title": "AI Security Labを始める ― AIに、どこまで仕事を任せられるのか",
-      "url": "https://zenn.dev/kondonator/articles/8a753c4f442fb8",
-      "publishedAt": "2026-10-02T12:03:05.000Z",
-      "publisher": "kondonator",
-      "summary": "はじめに 生成AIを使うことが、特別なことではなくなってきました。 ChatGPTやClaudeのような対話型AIだけでなく、コードを書き、ファイルを操作し、コマンドを実行し、Webを検索し、外部サービスと連携するAIも身近になっています…"
-    },
-    {
-      "id": "658e482096a6",
-      "title": "複数AIで共有するObsidianのWikiから会話途中の発言が抜け落ちた原因",
-      "url": "https://zenn.dev/d_aiba1/articles/obsidian-ai-wiki-lost-opinion",
-      "publishedAt": "2026-10-02T11:58:20.000Z",
-      "publisher": "Aiba",
-      "summary": "! この記事は、Qiita の記事を、Zenn 向けに書き直したものです。元の記事は Qiita にあります。 複数のAIで同じ知識を使うために、ObsidianのVaultを共通の記憶として使っています。Claude Code、Code…"
-    },
-    {
       "id": "48ab8baf3f0f",
       "title": "フルスクラッチした極小言語モデルに、自分の小説を CPU 単一スレッドで0から学習させてみた",
       "url": "https://zenn.dev/87right/articles/b8f26bba1f4c52",
@@ -100,9 +44,65 @@
       "publishedAt": "2026-10-02T10:17:21.000Z",
       "publisher": "シン@AI統制＆マルチエージェント",
       "summary": "「ロボットができる仕事」と「企業がロボットへ置き換える仕事」は、同じではありません。 Anthropicは2026年9月30日、現在のロボットが米国の仕事をどこまで実行できるかを、約900職種・約1万9,000タスクから分析した研究を公開…"
+    },
+    {
+      "id": "91f618f125cb",
+      "title": "Codex のクラウドセッションを開発の指示窓口にしたAI駆動開発基盤を作った",
+      "url": "https://zenn.dev/marvelousu/articles/codex-cloud-dot-development",
+      "publishedAt": "2026-10-02T10:03:45.000Z",
+      "publisher": "Tom",
+      "summary": "開発作業は以前から常駐サーバーに任せていましたが、スマホから続きを頼むときは、ローカルセッションの一覧や会話を開くまで待たされ、追加指示が届かないこともありました。DevDay の発表をきっかけに、ローカルの開発環境はそのまま使い、スマホ…"
+    },
+    {
+      "id": "850a7999ebba",
+      "title": "AI GatewayでLLMの使いすぎは防げる？Azure API Management で検証した",
+      "url": "https://zenn.dev/yukurash/articles/d1f87ed4b643f6",
+      "publishedAt": "2026-10-02T09:48:20.000Z",
+      "publisher": "yukurash",
+      "summary": "1. はじめに LLMを使ったアプリでは、利用が増えたときの費用も気になります。アプリごとに制限を実装する代わりに、モデルへのアクセスを一か所で管理できないか。そこで試してみたのがAI Gatewayです。 LLMの入出力は、テキストを細…"
+    },
+    {
+      "id": "07d38318287f",
+      "title": "Decision Model 「Clef」を試してみる：Colabで画像の中の猫を判断する",
+      "url": "https://zenn.dev/nakanishitf/articles/be68c37eaf8f75",
+      "publishedAt": "2026-10-02T09:28:59.000Z",
+      "publisher": "T.N.",
+      "summary": "文章の判断から、画像の判断へ 前回の記事では、Jeffを使い、日本語の文章から照明の操作を選ぶプログラムを試しました。 「暗くて本が読めません」と入力すると、「明るくする」を選び、その結果をPythonの分岐につなぐ例です。 今回は、Cl…"
+    },
+    {
+      "id": "aa4d98e9008e",
+      "title": "Open-Jevを Databricks AI Runtime と Model Serving で動かしてみた",
+      "url": "https://zenn.dev/hiouchiy/articles/886218093d35de",
+      "publishedAt": "2026-10-02T09:26:38.000Z",
+      "publisher": "Hiroshi Ouchiyama (Databricks Japan)",
+      "summary": "はじめに 久々の投稿です。流行りに便乗しようということで、「Jev」 をテーマに書きます。 最近、「Jev」 という \"決定モデル\" が話題になっています。テキストと、型付きの質問（選択式・段階評価・Yes/No）を渡すと、質問ごとに 確…"
+    },
+    {
+      "id": "68a4cedf2197",
+      "title": "次世代アーキテクチャを先取り！Qwen3.8-Flash-Nextで覗くQwen4の設計思想",
+      "url": "https://zenn.dev/highreso/articles/9ad810772b9438",
+      "publishedAt": "2026-10-02T09:18:00.000Z",
+      "publisher": "Yuichi Tominaga",
+      "summary": "唐突に2026年8月26日のこと、Qwenチームがmodelscope及びHugging Faceに「8月27日0:00に新しいモデル Qwen3.8-Flash-Next をリリースするぞ」と告知が行われました。未だQwen3.8シリー…"
+    },
+    {
+      "id": "4b83a7598f5d",
+      "title": "CodexのUI修正ループにTrailblazeを入れる理由 ― スクショ確認は残して、画面操作を再利用する",
+      "url": "https://zenn.dev/kasouzou/articles/codex-trailblaze-ui-workflow",
+      "publishedAt": "2026-10-02T09:16:48.000Z",
+      "publisher": "kasouzou",
+      "summary": "Codex CLIにAndroid/iOSアプリのUI修正を任せていると、こんなループに入ることがあります。 ※今回は例として、楽譜作成アプリのUIを構築していると仮定します。 コードを修正 ↓ ビルド ↓ アプリを起動 ↓ 対象画面まで…"
+    },
+    {
+      "id": "1f8b5a4e978e",
+      "title": "Claude 5 世代 移行ガイド ― Opus 5 / Sonnet 5 / Fable 5.1 で変わった API とプロンプト",
+      "url": "https://zenn.dev/persimmoq/books/claude-5-migration-guide",
+      "publishedAt": "2026-10-02T09:16:01.000Z",
+      "publisher": "Persimmoq AI",
+      "summary": "2026 年の Claude は、思考が既定でオン、サンプリングパラメータ廃止、プリフィル廃止、強制ツール呼び出し廃止、拒否の stop_reason、履歴編集の検査（preserved thinking）と、API の前提が大きく変わり…"
     }
   ],
-  "fetchedAt": "2026-10-02T14:43:42.108Z",
+  "fetchedAt": "2026-10-02T19:32:50.914Z",
   "stale": false,
   "error": null
 }
