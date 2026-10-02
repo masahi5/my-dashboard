@@ -6,6 +6,62 @@
   "category": "ai",
   "items": [
     {
+      "id": "1364a7a5563e",
+      "title": "IMUセンサーフュージョンをPythonで実装する｜加速度計とジャイロから傾きを求める(相補フィルタ)",
+      "url": "https://zenn.dev/maru1228/articles/physical-ai-imu-sensor-fusion-python",
+      "publishedAt": "2026-10-01T23:21:29.000Z",
+      "publisher": "まる",
+      "summary": "! この記事は自サイト IMUセンサーフュージョンをPythonで実装する｜加速度計とジャイロから傾きを求める(相補フィルタ) の再掲（クロス投稿）です。図をインタラクティブに動かせる版は元記事でどうぞ。 センサー超入門で「IMUはロボッ…"
+    },
+    {
+      "id": "8443719b4f6b",
+      "title": "API キーを次のコミットで消しても意味がない — 漏れたあとにやることの順番",
+      "url": "https://zenn.dev/maruchi777/articles/e78dcffcf15df0",
+      "publishedAt": "2026-10-01T23:20:13.000Z",
+      "publisher": "maruchi777",
+      "summary": "鍵をコミットしてしまったとき、最初にやることは何でしょうか。 消すことではありません。 git rm --cached .env git commit -m \"鍵を削除\" git push これで安全になった気がします。なっていません。 …"
+    },
+    {
+      "id": "bc48c92101e1",
+      "title": "2026-09-27〜2026-10-03 技術キャッチアップ",
+      "url": "https://zenn.dev/marycache/articles/20260927-weekly-tech-catchup",
+      "publishedAt": "2026-10-01T23:17:17.000Z",
+      "publisher": "C",
+      "summary": "2026-09-27〜2026-10-03 技術キャッチアップ この週に確認した主要な技術更新を、曜日ごとのテーマに沿って整理する。 日: 生成AI・AI開発 月: IT全般・週間総括 火: 開発ツール・OSS 水: Web・バックエンド…"
+    },
+    {
+      "id": "354579fbe93e",
+      "title": "【ANBERNIC】神OS「spruceOS 4.4」登場！H700が超進化",
+      "url": "https://zenn.dev/aiasoby/articles/asoby-20260914214500",
+      "publishedAt": "2026-10-01T22:55:23.000Z",
+      "publisher": "大人のAIアソビ",
+      "summary": "💡 本記事について 本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開し…"
+    },
+    {
+      "id": "ab988de61426",
+      "title": "OpenAI DevDay 2026 発表まとめ：常駐エージェント「dots」、GPT-6.1 Sol、Agents API など",
+      "url": "https://zenn.dev/oggata/articles/1d142f76135a35",
+      "publishedAt": "2026-10-01T22:45:50.000Z",
+      "publisher": "Fumitoshi Ogata 緒方文俊",
+      "summary": "2026年9月29日（米国太平洋時間）、サンフランシスコの Fort Mason で OpenAI DevDay 2026 が開催されました。Sam Altman の基調講演では、ChatGPT・Codex・モデル・API にまたがる 2…"
+    },
+    {
+      "id": "a410106f0e2d",
+      "title": "中学生でもわかる Lean 4 #15｜AI＋数学＋Leanなら万能？",
+      "url": "https://zenn.dev/dantarg/articles/lean4-ai-math-proof-pipeline",
+      "publishedAt": "2026-10-01T22:25:42.000Z",
+      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+      "summary": "文化祭でパンを配ることになりました。 参加者は100人。一人2個ずつ配る予定です。 100人 × 2個 = 200個 計算は簡単です。 では、この問題をAIに整理してもらい、数式にして、Lean 4で証明までできたら、もう「200個あれば…"
+    },
+    {
+      "id": "c6dbbc4470e9",
+      "title": "最適化はあと60秒で改善する？ AI・ルール・学習器の判定結果を比べた",
+      "url": "https://zenn.dev/kswr/articles/scip_jev_alert_triage",
+      "publishedAt": "2026-10-01T21:12:40.000Z",
+      "publisher": "クテノポマ",
+      "summary": "数理最適化ソルバー（SCIP）を30秒動かし、勤務シフトの暫定解が見つかりました。 計算時間をあと60秒足せるとして、このまま待てば目的値は下がるでしょうか。 改善しないと分かれば、待たずに結果を返せます。 SCIPのメトリクスとログから…"
+    },
+    {
       "id": "1fcae9ce9835",
       "title": "沈黙の物理学者、Anthropic CEO ダリオ・アモディ。",
       "url": "https://zenn.dev/leading_ai/books/the-silence-of-intelligence",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-10-01T16:56:44.000Z",
       "publisher": "kota",
       "summary": "最近、ChatGPT × Remote Desktop Commander × UbuntuミニPC × スマホという構成で開発しています。 スマホからChatGPTに話しかけるだけで、自宅のUbuntuミニPC上にあるコードやファイルを…"
-    },
-    {
-      "id": "ac7865cb47fc",
-      "title": "🦙 ALPACA-FW #08｜Python機械検証のの全体構造、LLM任せにはしないワケ",
-      "url": "https://zenn.dev/alpaca_village/articles/alpaca-fw-08-aissfw-cli-architecture",
-      "publishedAt": "2026-10-01T16:17:58.000Z",
-      "publisher": "アルパカの村",
-      "summary": "はじめに 前回は、ALPACA-templateで人やAIが読む開発ルールとは別に、CLIが読める機械契約として framework/catalog.toml を置いた理由を書きました。 では、そのCatalogを実際に読み、成果物やTr…"
-    },
-    {
-      "id": "3bb14f57bb25",
-      "title": "YC社長Garry Tanが語る「エージェント時代の開発術」を要点解説",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr08-garry-tan-summary",
-      "publishedAt": "2026-10-01T15:37:24.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について Y Combinator 社長の Garry Tan が語った「AIエージェント時代の開発」を、要点だけ抜き出して日本語で解説します。AIを\"チームとして\"使いこなす実践論の回です。 ! 本記事は元動画の全文翻訳ではなく…"
-    },
-    {
-      "id": "1c9deda5acef",
-      "title": "ぼくの考えたさい強のLLMりょう子化2",
-      "url": "https://zenn.dev/ashidan/articles/tech_llm_quantization2",
-      "publishedAt": "2026-10-01T15:33:12.000Z",
-      "publisher": "molelord",
-      "summary": "CPUでLLMを動かしたい RAMが32GiB以上ある cmd.exe や bash の使いかたを理解している という人向けの記事です。 潜水艦等の隔離環境でプログラミングするのに役立つかも。 なお、この記事は2026年9月26日の情報を…"
-    },
-    {
-      "id": "66c836f3cdf9",
-      "title": "今日の市場ブリーフィング",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-08-market-daily",
-      "publishedAt": "2026-10-01T15:14:52.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "日経平均+2.12%の裏に潜む歪み：2026年9月8日の市場データから読み解くリスク指標 この記事で分かること 日経平均急騰の裏で主要個別株が下落した日本市場の極端な二極化 米10年国債利回りとVIX指数の上昇が示す米国市場のリスクオフシ…"
-    },
-    {
-      "id": "28bad599d1c6",
-      "title": "自作のサイトやアプリのデザインを揃えたくて、AIに渡すMarkdownを作った",
-      "url": "https://zenn.dev/fryx404/articles/91ee36ce7d0e90",
-      "publishedAt": "2026-10-01T15:14:48.000Z",
-      "publisher": "furuya",
-      "summary": "おはようございます。 furuya (@fryx404) です。 最近はAIを使って、自分用のサイトやアプリ、ちょっとしたツールを作っています。 作るものが増えてくると、「せっかくなら、見た目にも共通の雰囲気を持たせたいな」と思うようにな…"
-    },
-    {
-      "id": "4c7daf695ae1",
-      "title": "GTDの週次レビューが続かない人へ。AIに司会をやらせたら、間違えながらも回り始めた",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-09-27-082000",
-      "publishedAt": "2026-10-01T15:09:49.000Z",
-      "publisher": "saitoko",
-      "summary": "この記事の要点: GTD（Getting Things Done）の週次レビューが何年も続かなかった私が、その進行をAIに任せてみた記録だ。順番を決める役と抜け漏れを見つける役をAIに持たせ、私は提示された項目に判断を返すだけにした。使っ…"
-    },
-    {
-      "id": "7d4872cf4875",
-      "title": "Claude codeで/doctor prompt-auditしたら微修正で終わった件",
-      "url": "https://zenn.dev/mryo0826/articles/440b8781a00803",
-      "publishedAt": "2026-10-01T15:08:41.000Z",
-      "publisher": "mryo0826",
-      "summary": "前置き 色んな人から お前は何を言っているんだ？ と突っ込まれる思うので先に結論を貼っておきます。 https://github.com/mryo0826/aidd-practice-guide/commit/84e7d5a2fa8511…"
     }
   ],
-  "fetchedAt": "2026-10-02T01:57:53.636Z",
+  "fetchedAt": "2026-10-02T08:08:16.331Z",
   "stale": false,
   "error": null
 }
