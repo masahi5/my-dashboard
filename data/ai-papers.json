@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2609.35259",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve ge…",
-      "score": 130
+      "score": 146
     },
     {
       "id": "ce9f482b6989",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2609.36585",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow…",
-      "score": 55
+      "score": 60
     },
     {
       "id": "aef6190012e1",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2610.00812",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "summary": "Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with …",
-      "score": 31
+      "score": 37
     },
     {
       "id": "03b7d8f83049",
@@ -35,7 +35,7 @@
       "url": "https://huggingface.co/papers/2609.32993",
       "publishedAt": "2026-09-26T00:00:00.000Z",
       "summary": "Multi-step agents are trained on flat action streams: SFT and RLVR weight every token uniformly and ignore the sub-proc…",
-      "score": 19
+      "score": 23
     },
     {
       "id": "eed0bc6a249f",
@@ -43,15 +43,7 @@
       "url": "https://huggingface.co/papers/2609.36388",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "An activation-steering coefficient sets intervention strength, but requesting a particular degree of persona expression…",
-      "score": 11
-    },
-    {
-      "id": "a8c69437c2e9",
-      "title": "OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories",
-      "url": "https://huggingface.co/papers/2609.32810",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Multidisciplinary tumor boards integrate multimodal clinical observations and longitudinal patient histories through sp…",
-      "score": 8
+      "score": 20
     },
     {
       "id": "1064c739bc2d",
@@ -59,7 +51,15 @@
       "url": "https://huggingface.co/papers/2610.01092",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "summary": "Video generation models are increasingly being explored as world simulators for embodied planning and learning. To do s…",
-      "score": 7
+      "score": 14
+    },
+    {
+      "id": "a8c69437c2e9",
+      "title": "OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories",
+      "url": "https://huggingface.co/papers/2609.32810",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Multidisciplinary tumor boards integrate multimodal clinical observations and longitudinal patient histories through sp…",
+      "score": 11
     },
     {
       "id": "3f28014a5e38",
@@ -67,7 +67,7 @@
       "url": "https://huggingface.co/papers/2610.02202",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ah…",
-      "score": 6
+      "score": 9
     },
     {
       "id": "eed7b7725d8c",
@@ -75,7 +75,7 @@
       "url": "https://huggingface.co/papers/2609.36435",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "An assistant that serves the same user over a long horizon has to answer from what that user has revealed: which prefer…",
-      "score": 3
+      "score": 6
     },
     {
       "id": "2f2c6513727b",
@@ -83,7 +83,7 @@
       "url": "https://huggingface.co/papers/2609.37690",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "summary": "Video world models require persistent scene memory to maintain consistency during long-horizon video generation. Existi…",
-      "score": 2
+      "score": 5
     },
     {
       "id": "a41101dc2914",
@@ -91,7 +91,7 @@
       "url": "https://huggingface.co/papers/2610.02142",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "summary": "Keyword-matching benchmarks can credit small models for tool use they never perform. We document such a false positive …",
-      "score": 2
+      "score": 5
     },
     {
       "id": "f47770a5220f",
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2609.22753",
       "publishedAt": "2026-09-26T00:00:00.000Z",
       "summary": "Natural-language service requests can require a language-model decision before execution starts, consuming part of the …",
-      "score": 1
+      "score": 4
     }
   ],
-  "fetchedAt": "2026-10-03T08:06:06.180Z",
+  "fetchedAt": "2026-10-03T13:22:21.087Z",
   "stale": false,
   "error": null
 }
