@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "48ab8baf3f0f",
-      "title": "フルスクラッチした極小言語モデルに、自分の小説を CPU 単一スレッドで0から学習させてみた",
-      "url": "https://zenn.dev/87right/articles/b8f26bba1f4c52",
-      "publishedAt": "2026-10-02T11:00:06.000Z",
-      "publisher": "ライト",
-      "summary": "この記事の執筆では補助的にLLMを使用していますが、具体的な内容は全て人間が書いたことを保証します。 ! 私は初学者で、用語の理解より概念の理解を優先したため、すこし冗長な文章になると思います。ご了承ください。 ! この記事は解説記事では…"
+      "id": "1d2a479e8c70",
+      "title": "WebX68k登場！ブラウザで動く伝説のX68000徹底解説",
+      "url": "https://zenn.dev/aiasoby/articles/asoby-tech-1176",
+      "publishedAt": "2026-10-02T23:15:40.000Z",
+      "publisher": "大人のAIアソビ",
+      "summary": "💡 本記事について 本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開し…"
     },
     {
-      "id": "e2d9efb74583",
-      "title": "自分から動く AI、CooSenpAI の便利な見守り機能",
-      "url": "https://zenn.dev/nrs/articles/75cbfb521d7e01",
-      "publishedAt": "2026-10-02T10:50:18.000Z",
-      "publisher": "nrs",
-      "summary": "macOSで常駐するAIアシスタント「CooSenpAI」を作っています。 同じ画面を見ているから「これ」が通じる、隣で見守ってくれる先輩のようなAIです。 詳しくは以前の記事をご覧ください。 https://zenn.dev/nrs/a…"
+      "id": "03d557cb789a",
+      "title": "RAGは「検索して答える」だけでは足りない 基本・設計・評価の実践ガイドを書いた",
+      "url": "https://zenn.dev/yun_bow/articles/d2d0c908b694be",
+      "publishedAt": "2026-10-02T23:01:05.000Z",
+      "publisher": "ゆんぼう",
+      "summary": "はじめに 「RAGを組んだ。質問すれば、それらしい回答も返ってくる」——そこまで動くと、ひとまず完成したように感じる。 しかし、データには存在する施設が検索結果に出ない。出典に書かれていない予約条件をAIが補ってしまう。データを更新したの…"
     },
     {
-      "id": "31254d2ebcc9",
-      "title": "Anthropic Batches APIで大量LLMリクエストのコストを50%削減する実装手順",
-      "url": "https://zenn.dev/yunisuta/articles/ai1-dedup-ai-2026-05-18-budgetexceeded-t-bucr8p",
-      "publishedAt": "2026-10-02T10:36:19.000Z",
-      "publisher": "Yukito / 郷由稀斗",
-      "summary": "その for await ループ、本当に同期で回す必要があるか？ 5万件のユーザーレビューをカテゴリ分類するバッチジョブを組んだとき、Claude Sonnet に素直に for ループを回したら、完了前から「月換算したらいくらになるんだ…"
+      "id": "45cba435d947",
+      "title": "Claude Code の Auto-memory を棚卸しする — AIが覚えた41件を点検した実装と結果",
+      "url": "https://zenn.dev/joinclass/articles/auto-memory-ai-20261001220026-15523",
+      "publishedAt": "2026-10-02T23:00:13.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "なぜ記憶を点検することにしたのか 僕は一人で会社をやっていて、実務のかなりの部分を Claude Code に委任している。委任の質を決めているのは、モデルの性能ではなく「AIが何を覚えているか」だった。 Auto-memory（~/.c…"
     },
     {
-      "id": "877560a2c4ee",
-      "title": "自律型エンベディング生成でベクトルインデックスを自動同期する",
-      "url": "https://zenn.dev/web_benriya/articles/bigquery-autonomous-embedding-pipeline",
-      "publishedAt": "2026-10-02T10:19:08.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに シリーズ第13回です。 前回（第12回）では VECTOR_SEARCH と VECTOR INDEX を使った類似検索の実装を解説しました。今回は ベクトルインデックスを自動で同期し続けるパイプライン の設計に踏み込みます。 …"
+      "id": "21854749275d",
+      "title": "OpenAIの",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-08-tech-daily",
+      "publishedAt": "2026-10-02T22:31:47.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "2026年の開発基盤で今すぐ対応すべき3つの大激変 この記事で分かること LLM単体の精度推移から「業務特化型AIエージェント」および「具身知能」へ主役が交代した背景 OpenAIによるAstral買収がPythonツールチェーンと開発体…"
     },
     {
-      "id": "8e19ab4884ef",
-      "title": "ロボットは仕事の34％を「できる」――でも人間より安いのは0.3％",
-      "url": "https://zenn.dev/humanos_lab/articles/1af369101f7099",
-      "publishedAt": "2026-10-02T10:17:21.000Z",
-      "publisher": "シン@AI統制＆マルチエージェント",
-      "summary": "「ロボットができる仕事」と「企業がロボットへ置き換える仕事」は、同じではありません。 Anthropicは2026年9月30日、現在のロボットが米国の仕事をどこまで実行できるかを、約900職種・約1万9,000タスクから分析した研究を公開…"
+      "id": "cae872722ce6",
+      "title": "AIの1回の質問の値段（電気代）はいくら？",
+      "url": "https://zenn.dev/nextsurvive/articles/f3b6439e882214",
+      "publishedAt": "2026-10-02T22:11:56.000Z",
+      "publisher": "Next Survive",
+      "summary": "AIを1回使うと、いくらかかるのか。そして世界全体では、いくらになるのか。公開されている一次情報だけで計算しました。 結論を先に書きます。 1回あたりの電気代は 約0.01円（ChatGPT 0.34 Wh / Gemini 0.24 W…"
     },
     {
-      "id": "91f618f125cb",
-      "title": "Codex のクラウドセッションを開発の指示窓口にしたAI駆動開発基盤を作った",
-      "url": "https://zenn.dev/marvelousu/articles/codex-cloud-dot-development",
-      "publishedAt": "2026-10-02T10:03:45.000Z",
-      "publisher": "Tom",
-      "summary": "開発作業は以前から常駐サーバーに任せていましたが、スマホから続きを頼むときは、ローカルセッションの一覧や会話を開くまで待たされ、追加指示が届かないこともありました。DevDay の発表をきっかけに、ローカルの開発環境はそのまま使い、スマホ…"
+      "id": "5b1124c50c1e",
+      "title": "Claude Slides/Docsの中身は「制約されたHTMLサブセットのDSL」だった",
+      "url": "https://zenn.dev/every_ai_recipe/articles/claude-slides-no-powerpoint-recipe",
+      "publishedAt": "2026-10-02T21:17:14.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR Anthropicは2026年9月16日〜17日、Claudeのチャット上でスライド・ドキュメントをそのまま作れる「Claude Slides」「Claude Docs」をベータ公開した。エージェント機能「Claude Cow…"
     },
     {
-      "id": "850a7999ebba",
-      "title": "AI GatewayでLLMの使いすぎは防げる？Azure API Management で検証した",
-      "url": "https://zenn.dev/yukurash/articles/d1f87ed4b643f6",
-      "publishedAt": "2026-10-02T09:48:20.000Z",
-      "publisher": "yukurash",
-      "summary": "1. はじめに LLMを使ったアプリでは、利用が増えたときの費用も気になります。アプリごとに制限を実装する代わりに、モデルへのアクセスを一か所で管理できないか。そこで試してみたのがAI Gatewayです。 LLMの入出力は、テキストを細…"
+      "id": "c912ee21d7f0",
+      "title": "「ソフトウェアが70年ぶりに変わった、しかも2回」KarpathyのSoftware 3.0を要点解説",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr03-karpathy-yc-summary",
+      "publishedAt": "2026-10-02T18:44:54.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について Andrej Karpathy が Y Combinator の AI Startup School で語った「Software 3.0」の講演を、要点だけ抜き出して日本語で解説します。ソフトウェアの歴史的な転換を整理し…"
     },
     {
-      "id": "07d38318287f",
-      "title": "Decision Model 「Clef」を試してみる：Colabで画像の中の猫を判断する",
-      "url": "https://zenn.dev/nakanishitf/articles/be68c37eaf8f75",
-      "publishedAt": "2026-10-02T09:28:59.000Z",
-      "publisher": "T.N.",
-      "summary": "文章の判断から、画像の判断へ 前回の記事では、Jeffを使い、日本語の文章から照明の操作を選ぶプログラムを試しました。 「暗くて本が読めません」と入力すると、「明るくする」を選び、その結果をPythonの分岐につなぐ例です。 今回は、Cl…"
+      "id": "e473a54b3fae",
+      "title": "2週間が1時間に Grabが500のエージェントで統一したものと、しなかったもの",
+      "url": "https://zenn.dev/tariki_yashiro/articles/na-20260915-211627",
+      "publishedAt": "2026-10-02T16:03:10.000Z",
+      "publisher": "たりき社",
+      "summary": "本番への接続が2週間以上から約1時間に。東南アジアの配車・デリバリー大手Grabが、社内500以上のエージェントサービスを一つの内製フレームワーク「LLM-Kit」に統一した経緯を公開しました。 APIキーがリポジトリごとに散らばる。誰が…"
     },
     {
-      "id": "aa4d98e9008e",
-      "title": "Open-Jevを Databricks AI Runtime と Model Serving で動かしてみた",
-      "url": "https://zenn.dev/hiouchiy/articles/886218093d35de",
-      "publishedAt": "2026-10-02T09:26:38.000Z",
-      "publisher": "Hiroshi Ouchiyama (Databricks Japan)",
-      "summary": "はじめに 久々の投稿です。流行りに便乗しようということで、「Jev」 をテーマに書きます。 最近、「Jev」 という \"決定モデル\" が話題になっています。テキストと、型付きの質問（選択式・段階評価・Yes/No）を渡すと、質問ごとに 確…"
+      "id": "bf5da0c3130a",
+      "title": "同じLLMを使っているのに成功率が全然違う — AIコーディングツールの差は「ハーネス」だった",
+      "url": "https://zenn.dev/cuculhart/articles/26fd72ed8c7411",
+      "publishedAt": "2026-10-02T15:35:22.000Z",
+      "publisher": "ククルハート",
+      "summary": "AIコーディングエージェントを同一タスク・同一モデルで実測比較するサイト「AIエディターラボ」を運営しています。 https://labo.mond.jp その中で、同じLLMを使っているはずなのにツールによって成功率がまるで違うという現…"
     },
     {
-      "id": "68a4cedf2197",
-      "title": "次世代アーキテクチャを先取り！Qwen3.8-Flash-Nextで覗くQwen4の設計思想",
-      "url": "https://zenn.dev/highreso/articles/9ad810772b9438",
-      "publishedAt": "2026-10-02T09:18:00.000Z",
-      "publisher": "Yuichi Tominaga",
-      "summary": "唐突に2026年8月26日のこと、Qwenチームがmodelscope及びHugging Faceに「8月27日0:00に新しいモデル Qwen3.8-Flash-Next をリリースするぞ」と告知が行われました。未だQwen3.8シリー…"
+      "id": "47517d21fd99",
+      "title": "言わない技術 序論：AI に指示することが、ほとんどなくなった",
+      "url": "https://zenn.dev/garplab/articles/9382c1c9790cbc",
+      "publishedAt": "2026-10-02T15:25:45.000Z",
+      "publisher": "garplab",
+      "summary": "私が AI に指示することは、ほとんどなくなりました。やり方も、手順も、計画も、念押しも、ダメ出しも。これは丸投げ —— 渡すものを用意せずに「うまくやって」と言うこと —— とは別のものです。それで品質が落ちたかというと、落ちていません…"
     },
     {
-      "id": "4b83a7598f5d",
-      "title": "CodexのUI修正ループにTrailblazeを入れる理由 ― スクショ確認は残して、画面操作を再利用する",
-      "url": "https://zenn.dev/kasouzou/articles/codex-trailblaze-ui-workflow",
-      "publishedAt": "2026-10-02T09:16:48.000Z",
-      "publisher": "kasouzou",
-      "summary": "Codex CLIにAndroid/iOSアプリのUI修正を任せていると、こんなループに入ることがあります。 ※今回は例として、楽譜作成アプリのUIを構築していると仮定します。 コードを修正 ↓ ビルド ↓ アプリを起動 ↓ 対象画面まで…"
+      "id": "ac52d3c5bd55",
+      "title": "CLAUDE.mdとauto memoryの違いと書き方",
+      "url": "https://zenn.dev/tomsolog/articles/20260930-claude-code-claudemd-guide",
+      "publishedAt": "2026-10-02T15:25:39.000Z",
+      "publisher": "トムソー",
+      "summary": "この記事でわかること Claude Codeには「書く記憶」と「覚える記憶」の2つの仕組みがあること CLAUDE.mdファイルの役割と、置き場所ごとの使い分け auto memoryとは何か、有効・無効の切り替え方、保存場所 今日から実…"
     },
     {
-      "id": "1f8b5a4e978e",
-      "title": "Claude 5 世代 移行ガイド ― Opus 5 / Sonnet 5 / Fable 5.1 で変わった API とプロンプト",
-      "url": "https://zenn.dev/persimmoq/books/claude-5-migration-guide",
-      "publishedAt": "2026-10-02T09:16:01.000Z",
-      "publisher": "Persimmoq AI",
-      "summary": "2026 年の Claude は、思考が既定でオン、サンプリングパラメータ廃止、プリフィル廃止、強制ツール呼び出し廃止、拒否の stop_reason、履歴編集の検査（preserved thinking）と、API の前提が大きく変わり…"
+      "id": "0f08c408c418",
+      "title": "言語化のその先へ。AIと開発して考えたモデル化と反証",
+      "url": "https://zenn.dev/tofu575/articles/17ca3d0b598909",
+      "publishedAt": "2026-10-02T15:03:29.000Z",
+      "publisher": "tofu",
+      "summary": "AIを使う時間が増えるにつれて、「じゃあ人間側には何が残るんだろう」と考えることが増えました。 自分ではすぐに書けないコードを書いてもらえるし、知らない技術について調べてもらえる。設計について相談したり、曖昧だった考えを整理してもらったり…"
     }
   ],
-  "fetchedAt": "2026-10-02T23:15:38.459Z",
+  "fetchedAt": "2026-10-03T02:11:38.168Z",
   "stale": false,
   "error": null
 }

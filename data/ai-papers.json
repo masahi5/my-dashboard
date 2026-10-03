@@ -11,7 +11,15 @@
       "url": "https://huggingface.co/papers/2609.35259",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "summary": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve ge…",
-      "score": 114
+      "score": 129
+    },
+    {
+      "id": "ce9f482b6989",
+      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
+      "url": "https://huggingface.co/papers/2609.36585",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow…",
+      "score": 16
     },
     {
       "id": "03b7d8f83049",
@@ -19,7 +27,7 @@
       "url": "https://huggingface.co/papers/2609.32993",
       "publishedAt": "2026-09-26T00:00:00.000Z",
       "summary": "Multi-step agents are trained on flat action streams: SFT and RLVR weight every token uniformly and ignore the sub-proc…",
-      "score": 11
+      "score": 14
     },
     {
       "id": "aef6190012e1",
@@ -27,7 +35,7 @@
       "url": "https://huggingface.co/papers/2610.00812",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "summary": "Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with …",
-      "score": 8
+      "score": 13
     },
     {
       "id": "a8c69437c2e9",
@@ -46,19 +54,19 @@
       "score": 5
     },
     {
-      "id": "26909b437e3e",
-      "title": "RLE-Bench: A Qualifying Exam for Coding Agents as Robot Learning Engineers",
-      "url": "https://huggingface.co/papers/2609.34210",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Coding agents are beginning to move beyond purely digital tasks to tackle physical-world challenges, particularly in ro…",
-      "score": 5
-    },
-    {
       "id": "1064c739bc2d",
       "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
       "url": "https://huggingface.co/papers/2610.01092",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "summary": "Video generation models are increasingly being explored as world simulators for embodied planning and learning. To do s…",
+      "score": 2
+    },
+    {
+      "id": "eed7b7725d8c",
+      "title": "MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization",
+      "url": "https://huggingface.co/papers/2609.36435",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "An assistant that serves the same user over a long horizon has to answer from what that user has revealed: which prefer…",
       "score": 2
     },
     {
@@ -70,20 +78,12 @@
       "score": 2
     },
     {
-      "id": "ce9f482b6989",
-      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
-      "url": "https://huggingface.co/papers/2609.36585",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow…",
-      "score": 2
-    },
-    {
       "id": "2f2c6513727b",
       "title": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
       "url": "https://huggingface.co/papers/2609.37690",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "summary": "Video world models require persistent scene memory to maintain consistency during long-horizon video generation. Existi…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "a41101dc2914",
@@ -91,18 +91,18 @@
       "url": "https://huggingface.co/papers/2610.02142",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "summary": "Keyword-matching benchmarks can credit small models for tool use they never perform. We document such a false positive …",
-      "score": 1
+      "score": 2
     },
     {
-      "id": "eed7b7725d8c",
-      "title": "MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization",
-      "url": "https://huggingface.co/papers/2609.36435",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "An assistant that serves the same user over a long horizon has to answer from what that user has revealed: which prefer…",
-      "score": 0
+      "id": "f47770a5220f",
+      "title": "Replacing Large Language Models with Jev Decision Models for Low-Latency Edge Service Orchestration",
+      "url": "https://huggingface.co/papers/2609.22753",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Natural-language service requests can require a language-model decision before execution starts, consuming part of the …",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-10-02T23:15:38.381Z",
+  "fetchedAt": "2026-10-03T02:11:38.100Z",
   "stale": false,
   "error": null
 }
