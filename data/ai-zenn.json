@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f0c16bb3acf3",
-      "title": "Claude Codeのcompactionをロスレスにしたら、52秒が0.26秒になった",
-      "url": "https://zenn.dev/yottayoshida/articles/lossless-compaction-v070",
-      "publishedAt": "2026-10-04T09:17:32.000Z",
-      "publisher": "yotta",
-      "summary": "Claude Code の compaction、待つのだるくないすか。 長いセッションで compaction が走ると、数十秒待たされることがある。自分の環境で約576,000トークンの会話を Sonnet 5.5 で測ったところ、組…"
+      "id": "cf84d42088f5",
+      "title": "AI「完了しました」DB「してません」――ThinkingBoxが測る、本当の完了",
+      "url": "https://zenn.dev/humanos_lab/articles/a94bfeb52cadc5",
+      "publishedAt": "2026-10-04T16:48:24.000Z",
+      "publisher": "シン@AI統制＆マルチエージェント",
+      "summary": "AIエージェントが、きれいな文章で「対応は完了しました」と報告する。 ところが、データベースを見ると、チケットの状態は間違ったまま。必要な更新が抜け、余計な副作用まで残っている――。 MicrosoftとHugging Faceが2026…"
     },
     {
-      "id": "e9d35c1861f2",
-      "title": "AIに同じ操作をもう一度頼む前に。二重実行を防ぐリトライ設計",
-      "url": "https://zenn.dev/ai_shihan/articles/11f2aa9df789da",
-      "publishedAt": "2026-10-04T09:12:59.000Z",
-      "publisher": "ai_shihan",
-      "summary": "こんにちは、AI師範です。 投稿ボタンを押したあと、画面が固まった。送れたのか、送れていないのか分からない。そんなとき「もう一度押せばいい」とは限りません。 最初の操作が通っていたら、同じ投稿が二つ並ぶかもしれないからです。 AIに外部操…"
+      "id": "b458c14b16da",
+      "title": "AIをまだ使っていないエンジニアが、実は一番有利な理由",
+      "url": "https://zenn.dev/shin4/articles/5ac44c862a61c3",
+      "publishedAt": "2026-10-04T15:37:05.000Z",
+      "publisher": "しんのすけ",
+      "summary": "はじめに：この本について この本は、誰のためのものか この本は、AIをまだ業務で本格的に使っていないSE・プログラマーの方に向けて書きました。Claude CodeなどのAIに仕事を頼んでみたものの、それらしいけれど使えないものが出てきて…"
     },
     {
-      "id": "67370f106794",
-      "title": "AIペルソナでUXテストするプラグインを v0.2.0 にした",
-      "url": "https://zenn.dev/balista/articles/19-article-persona-feedback-v0-2",
-      "publishedAt": "2026-10-04T08:20:21.000Z",
-      "publisher": "balista-yu",
-      "summary": "以前の記事で紹介した、AI ペルソナに開発中の画面を触らせる Claude Code プラグイン persona-feedback を v0.2.0 にした。 https://zenn.dev/balista/articles/16-ar…"
+      "id": "6edfe5a8ba2a",
+      "title": "Layaを日本語で試せるWeb Playground兼APIサーバーを作った【GTX 1070(化石)】",
+      "url": "https://zenn.dev/rosisive/articles/7c9c4fe6e1a735",
+      "publishedAt": "2026-10-04T15:25:27.000Z",
+      "publisher": "Ktu",
+      "summary": "作ったものと結論 Layaをローカルで動かし、日本語の文章やJSONから分類・スコア評価・真偽判定を試せる、Web Playground兼APIサーバーを作りました。 ブラウザで状態と質問を編集して結果を確認でき、同じ処理をHTTP AP…"
     },
     {
-      "id": "f491008bae62",
-      "title": "Claude Code の usage limit 自動継続を止めていたのは Remote Control だった",
-      "url": "https://zenn.dev/daydreamer/articles/claude-code-usage-limit-auto-resume",
-      "publishedAt": "2026-10-04T08:07:12.000Z",
-      "publisher": "daydreamer",
-      "summary": "TL;DR usage limit のリセット後に作業を続ける自動継続(autoContinueAtUsageLimit、既定で有効)は、Remote Control のセッションでは自動では始まりません。私が探した範囲では、書かれている…"
+      "id": "21d0a51e6d28",
+      "title": "『リーダブルコード』第3章を読んで、誤解されない名前をつける",
+      "url": "https://zenn.dev/zhaojiayi/articles/1751d76f912f2c",
+      "publishedAt": "2026-10-04T15:13:16.000Z",
+      "publisher": "ZHAOJIAYI",
+      "summary": "『リーダブルコード』第3章のテーマは、良い名前の第一条件は曖昧さがないことだ、という話。読み手の立場に立ち、どんな誤解が起こりうるかを先に想像してから名前を決める。 これまでの読書感想はこちら: https://zenn.dev/zhao…"
     },
     {
-      "id": "df512f4f21b2",
-      "title": "Designing a reliable AI phone intake workflow for clinics",
-      "url": "https://zenn.dev/longpengmedical/articles/5a6103eaafe0f6",
-      "publishedAt": "2026-10-04T07:58:15.000Z",
-      "publisher": "Long Peng",
-      "summary": "Designing a reliable AI phone intake workflow for clinics A medical answering agent has to do more than transcribe a ca…"
+      "id": "4093a9e19749",
+      "title": "中学生でもわかる Lean 4 #17｜AIの証明を壊してみよう",
+      "url": "https://zenn.dev/dantarg/articles/lean4-break-ai-proof",
+      "publishedAt": "2026-10-04T14:53:28.000Z",
+      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+      "summary": "前回の #16「AIが書いて、Leanが検査する」 では、AIが作った候補とLeanの検査結果を分けて読みました。 AIに、こんな答えを作ってもらったとします。 すべての自然数は0である。 長い説明とLeanコードも付いています。 でも、…"
     },
     {
-      "id": "dc070814390b",
-      "title": "譲り合うアメーバ ー ── 協調こそ最適解",
-      "url": "https://zenn.dev/morc_b13/articles/5a0a711a40d56a",
-      "publishedAt": "2026-10-04T07:48:30.000Z",
-      "publisher": "MORC.B13",
-      "summary": "譲り合うアメーバー ── 協調こそ最適解 【前の記事】 https://zenn.dev/morc_b13/articles/9be44f04ec0d68 押し流して答える、譲り合って答える いまの AI の多くは、たくさんの計算を一度に…"
+      "id": "cd469f8bb959",
+      "title": "Claude Code に任せた作業を横で見て確かめる macOS アプリ「tanacode」1.0.0 をリリースしました",
+      "url": "https://zenn.dev/tanashun/articles/tanacode-v1-release",
+      "publishedAt": "2026-10-04T14:45:07.000Z",
+      "publisher": "tanashun",
+      "summary": "Claude Code（claude CLI）と IDE をひとつのウインドウにまとめた macOS アプリ「tanacode」を作り、最初の正式なバージョンとして 1.0.0 をリリースしました。 https://github.com/…"
     },
     {
-      "id": "a025731511fa",
-      "title": "AI Agentシステムの概要とアーキテクチャ",
-      "url": "https://zenn.dev/s_takeuchi/articles/2af57c80004dd1",
-      "publishedAt": "2026-10-04T07:45:14.000Z",
-      "publisher": "S.Takeuchi",
-      "summary": "0: はじめに この記事は、AI Agentがどのようなもので、どのようなアーキテクチャになっているか、従来の3層Webアプリケーションのアーキテクチャをおさらいしつつ解説します。 具体的な実装例等は掲載していません。 また、内容はかなり…"
+      "id": "5758d9d9e28b",
+      "title": "ROS 2開発でAIエージェントに実機を触らせないための権限設計",
+      "url": "https://zenn.dev/robo_agent_dev/articles/ros2-ai-agent-hardware-boundary",
+      "publishedAt": "2026-10-04T14:44:13.000Z",
+      "publisher": "ロボットエンジニアのAI活用",
+      "summary": "「テストしておいて」が実機操作にならないようにする AIコーディングエージェントに、コードの調査、修正、テストを任せたい。ROS 2の開発でも、そのように考える場面はあると思います。一方で、開発用PCから実機へ通信できる環境では、「動作確…"
     },
     {
-      "id": "5f0fa3e2d2d9",
-      "title": "アリアドネ：AI時代のリファクタリングの数学",
-      "url": "https://zenn.dev/iroha1203/articles/ea587d66e535ec",
-      "publishedAt": "2026-10-04T07:28:00.000Z",
-      "publisher": "Hiroyuki Nakahata",
-      "summary": "本記事はHashnodeに公開した Ariadne: The Mathematics of Refactoring in the Age of AI の日本語版です 「サイトを多言語対応させたい」 翻訳ファイルを追加して、表示する文字列を…"
+      "id": "e69b621d80e4",
+      "title": "Claude Code サブエージェント組織 実践ガイド",
+      "url": "https://zenn.dev/yorusuzu/books/claude-code-agent-org-guide",
+      "publishedAt": "2026-10-04T14:41:14.000Z",
+      "publisher": "yorusuzu",
+      "summary": "Claude Code に7つのサブエージェントを置き、メインセッションをPMにして調査・企画・制作・レビュー・公開までを回している実際のリポジトリをもとに、役割分担の設計、CLAUDE.md のワークフロー、ファイル経由の受け渡し、公開…"
     },
     {
-      "id": "add5e54b62b1",
-      "title": "AIとの音声会話が遅いので、Streaming STTを入れて応答開始まで1.6秒にした",
-      "url": "https://zenn.dev/uthuyomi/articles/5009790d5ca28f",
-      "publishedAt": "2026-10-04T07:21:22.000Z",
-      "publisher": "おやす",
-      "summary": "以前、AIとリアルタイムに音声で会話する仕組みを作りました。 当時は、 「AIにゆっくりボイスで喋らせたら面白いんじゃないか？」 くらいのところから始めて、AquesTalk、whisper.cpp、LLMを繋いで、ブラウザからAIと音声…"
+      "id": "27cf1d281b3a",
+      "title": "AIの「解は一意」を点検する：存在と「高々一つ」を分けよう",
+      "url": "https://zenn.dev/matsuteru/articles/ai-proof-existence-uniqueness",
+      "publishedAt": "2026-10-04T14:37:28.000Z",
+      "publisher": "tetsu",
+      "summary": "AIから「したがって解は一意です」という証明案を受け取ったとき、その直前までに解があることも示せているでしょうか。 「二つの解を取ると、それらは等しい」と分かっても、解が一つもない可能性は残ります。この記事では、実数の方程式 ax=b を…"
     },
     {
-      "id": "789c8771ec3d",
-      "title": "Codexの利用枠、気づいたら溶けてませんか？ 画面の端で見張る「Codex Usage HUD」を無料公開しました",
-      "url": "https://zenn.dev/rainai/articles/3789f39738b9e9",
-      "publishedAt": "2026-10-04T07:20:36.000Z",
-      "publisher": "雨",
-      "summary": "はじめに Codexで開発していて、こんな経験はないでしょうか。 少し目を離したすきに、エージェントが大量のファイルを読み込み続けていた 気づいたときには、利用枠の残りが一気に減っていた 何が原因で消費したのか、後から振り返れない 私はま…"
+      "id": "ee8dacd334d2",
+      "title": "Claude Codeのhooksで作業を自動化する",
+      "url": "https://zenn.dev/tomsolog/articles/20261003-claude-code-hooks-automation",
+      "publishedAt": "2026-10-04T14:35:56.000Z",
+      "publisher": "トムソー",
+      "summary": "この記事でわかること hooksが、CLAUDE.mdとは違う「Claudeの判断を介さず実行される」仕組みであること ファイル編集のたびに自動整形する、実際に動く設定 hooksが効かない場面と、向いていない用途 設定を書く場所と、CL…"
     },
     {
-      "id": "8f50ae5cce41",
-      "title": "AI時代のエンジニアマインド：確率的な部品を本番で運用するための9つの思考",
-      "url": "https://zenn.dev/gingakuwagata/books/ai-engineer-mindset",
-      "publishedAt": "2026-10-04T07:20:12.000Z",
-      "publisher": "ぎんがくわがた",
-      "summary": "開発の道具としてAIを使うことは、もう技術力として問う対象ではありません。差がつくのは、AIを自分たちのサービスに組み込み、本番で動かし続けられるかどうかです。確率的に振る舞う部品をシステムに置くと、同じ入力なら同じ出力が返る、テストが通…"
+      "id": "b7104749d304",
+      "title": "AIエージェントの機能を消さず、自己改善で「最初に読む情報」を42%減らした",
+      "url": "https://zenn.dev/c_a_p_engineer/articles/tsuzuri-agent-core-honing-20261004",
+      "publishedAt": "2026-10-04T14:15:07.000Z",
+      "publisher": "綴理｜AI情報編集者",
+      "summary": "AIエージェントの機能を消さず、自己改善で「最初に読む情報」を42%減らした AIエージェントを長く育てると、できることが増える一方で、ルール・作業手順・記憶・テストも増えていきます。 全部を毎回読ませれば安心ですが、関係ない情報まで抱え…"
     },
     {
-      "id": "9ca03d4e0ca8",
-      "title": "OpenAIのDotsとは：できること、話題になった理由、類似ツールとの使い分け、料金",
-      "url": "https://zenn.dev/gingakuwagata/articles/openai-dots-always-on-agent",
-      "publishedAt": "2026-10-04T07:20:10.000Z",
-      "publisher": "ぎんがくわがた",
-      "summary": "! 2026年10月4日時点の公式資料と報道をもとにした備忘録です。 筆者はDotsを実際には使っておらず、動作は確かめていません。 対象プランや機能は段階的に提供されているため、利用時はリンク先の現行資料を確認してください。 ひとことで…"
+      "id": "c36a9642462f",
+      "title": "日本語入力システムSumibiの開発 part29: Jevは変換のタイミングを決められるか",
+      "url": "https://zenn.dev/kiyoka/articles/japanese-input-method-sumibi-29",
+      "publishedAt": "2026-10-04T13:45:49.000Z",
+      "publisher": "kiyoka",
+      "summary": "はじめに Emacs版Sumibiのアンビエント変換は、変換キーを押さなくても、助詞や句読点などをきっかけにローマ字を日本語へ変換します。便利な一方、入力した文字が英語なのか、まだ続く日本語なのかを、単純なルールだけで見分けるのは難しいと…"
     }
   ],
-  "fetchedAt": "2026-10-04T18:22:02.937Z",
+  "fetchedAt": "2026-10-04T21:44:41.988Z",
   "stale": false,
   "error": null
 }
