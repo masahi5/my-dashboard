@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "1b067bd8618e",
+      "title": "【個人開発】Jev×Gemini×Mineflayerで月数円で動くマイクラAI Botの設計パターン【GitHub公開】",
+      "url": "https://zenn.dev/fk2000/articles/zenn-minecraft-ai-bot",
+      "publishedAt": "2026-10-03T23:03:10.000Z",
+      "publisher": "ふじけん",
+      "summary": "はじめに 「マイクラの世界で、自然文の指示を理解して動く Bot を作りたい。でも、AI の API や Bot の常時稼働に大きなお金はかけたくない」――そんなときの設計パターンを紹介します。 この記事では、Jev を指示や会話の流れを…"
+    },
+    {
+      "id": "6bd4cd76df9e",
+      "title": "非エンジニアが業務の自動化をAIエージェントに頼むときの設計 ― 書き出す・渡す・受け取り方を決める",
+      "url": "https://zenn.dev/tmiyachi/articles/automation-request-design",
+      "publishedAt": "2026-10-03T23:00:00.000Z",
+      "publisher": "みやっち Toshimitsu Miyachi",
+      "summary": "「この業務を自動化して」とAIエージェントに頼むとき、非エンジニアの私が決めているのは実装の方法ではありません。決めているのは、何が入ってきて、人は何をしていて、結果をどこで受け取るかの3つです。 題材にするのは、自社（株式会社AI Or…"
+    },
+    {
+      "id": "4dad1f210b30",
+      "title": "AIで書く速度は上がっても、理解する速度は上がらない ― AI時代の知識共有を仕組みで考える",
+      "url": "https://zenn.dev/norishio22/articles/20260924-ai-era-knowledge-sharing",
+      "publishedAt": "2026-10-03T22:11:43.000Z",
+      "publisher": "norishio",
+      "summary": "はじめに 『Googleのソフトウェアエンジニアリング』の3章「知識共有」を読みながら、ずっと引っかかっていた問いがある。 AIでコードを書くスピードがここまで上がった今、知識共有に時間を割くのは、ビジネスのスピードを落とすことにならない…"
+    },
+    {
+      "id": "7fea0a4321ef",
+      "title": "素人がAIとの対話で大統一理論の仮説をまとめてみたよ(多分間違ってる)",
+      "url": "https://zenn.dev/topology/articles/73238751f8dea7",
+      "publishedAt": "2026-10-03T21:32:15.000Z",
+      "publisher": "とぽ",
+      "summary": "ちょっとした興味でGaminiくんに問いかける形式で物理学の4つの力の正体とかに関して対話してたら特に突っ込まれるところもなくなって綺麗にまとまった感が出たので試しに投下してみます。 まぁまぁよくあるネタだろうし、考察が浅くて間違ってる前…"
+    },
+    {
       "id": "0b3c3fcc0ae5",
       "title": "AI の書いた日本語を「人間が書いたっぽく」直す — chaffjs と LLM で 5 周ブラッシュアップした記録",
       "url": "https://zenn.dev/singularity/articles/chaffjs-llm-brush-up-5-passes",
@@ -68,41 +100,9 @@
       "publishedAt": "2026-10-03T14:48:25.000Z",
       "publisher": "kouki_y",
       "summary": "初めに 今年ももう10月。1年の終わりが見えてきて震えています。今日はそんな訳でプロダクトマネジメントについてです。 普段バリバリ開発をメインにしていて、マネージャーのようなプロダクト専門で考える立場では無いです。 もちろん開発する時に背…"
-    },
-    {
-      "id": "61034c362160",
-      "title": "AIが研究チームになった——Geminiを使う「Cogentic」が5つの未解決問題に新成果",
-      "url": "https://zenn.dev/humanos_lab/articles/80c13016cf9daa",
-      "publishedAt": "2026-10-03T14:44:49.000Z",
-      "publisher": "シン@AI統制＆マルチエージェント",
-      "summary": "2026年9月30日、Google Researchの研究者らは、複数のAIエージェントを研究チームのように協働させる仕組み「Cogentic」の論文を公開しました。 目を引くのは、AIが1回で証明を書いたことではありません。複数の証明A…"
-    },
-    {
-      "id": "edfb252c26f8",
-      "title": "逆運動学をPythonで実装する｜「手先をここに置きたい」から関節角度を求める",
-      "url": "https://zenn.dev/maru1228/articles/physical-ai-inverse-kinematics-python",
-      "publishedAt": "2026-10-03T14:14:40.000Z",
-      "publisher": "まる",
-      "summary": "! この記事は自サイト 逆運動学をPythonで実装する｜「手先をここに置きたい」から関節角度を求める の再掲（クロス投稿）です。図をインタラクティブに動かせる版は元記事でどうぞ。 順運動学では「関節角度→手先位置」を三角関数だけで計算し…"
-    },
-    {
-      "id": "1b04fe9358a5",
-      "title": "DHH の「規約はトークン効率」を自作フレームワークで測ってみた",
-      "url": "https://zenn.dev/7nohe/articles/agents-on-guren-round-2",
-      "publishedAt": "2026-10-03T13:59:32.000Z",
-      "publisher": "Daiki Urata",
-      "summary": "はじめに 2026年9月23日のRails World基調講演で、DHHは「設定より規約は、トークン効率につながる」と話しました。 https://www.youtube.com/watch?v=vDjW_dRyKXY ただ、Railsの…"
-    },
-    {
-      "id": "70449f165879",
-      "title": "AIの能力をフルに使うプロンプトを突き詰めたら、完全に「禁呪の詠唱」になった",
-      "url": "https://zenn.dev/c_a_p_engineer/articles/ai-prompt-incantation",
-      "publishedAt": "2026-10-03T13:53:31.000Z",
-      "publisher": "綴理｜AI情報編集者",
-      "summary": "AIに難しい仕事を頼むとき、私はだんだん一言では頼まなくなりました。 「これをやって」だけではなく、 まず、こちらの意図を取り違えないでほしい 何をもって完成とするか決めてほしい 必要な事実は確認してほしい 最初に思いついた案だけで決めな…"
     }
   ],
-  "fetchedAt": "2026-10-03T23:02:21.165Z",
+  "fetchedAt": "2026-10-04T02:37:27.118Z",
   "stale": false,
   "error": null
 }
