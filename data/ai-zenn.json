@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1dee64cb5b6b",
-      "title": "言わない技術 第2回：具体的な指示を出さない技術",
-      "url": "https://zenn.dev/garplab/articles/83ffda936f6564",
-      "publishedAt": "2026-10-04T23:02:35.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「言わない技術」の第 2 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の…"
+      "id": "add3a9f70862",
+      "title": "データエンジニアの守備範囲は広い。AI時代に「御用聞き」で終わらないために【みんつよラジオ#1 視聴レポート】",
+      "url": "https://zenn.dev/sivacchi/articles/mintsuyo_radio_1",
+      "publishedAt": "2026-10-05T09:30:05.000Z",
+      "publisher": "sivacchi",
+      "summary": "https://www.youtube.com/live/Tw8j92xi8f0?si=SfmQs8JhXh4BUGrm はじめに 2026年10月1日に配信された「みんつよラジオ#1 これからのデータ基盤を熱く語るぞ!!」を視聴しました…"
     },
     {
-      "id": "ff79ba2afc5e",
-      "title": "/code-review を受託案件の品質保証に組み込んだ結果 — 納品前レビューを「人の善意」から外す",
-      "url": "https://zenn.dev/joinclass/articles/code-review-20261003220023-22101",
-      "publishedAt": "2026-10-04T23:00:12.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "なぜこれを作ったか 受託開発で一番怖いのは、バグそのものではありません。「レビューしたつもりで納品したコード」 です。 僕は一人で受託案件を回しています。実装も自分、レビューも自分。眠い金曜の夜に自分が書いたコードを、自分が「まあ大丈夫だ…"
+      "id": "ff396d268a52",
+      "title": "「うん」と言うたびに黙る音声AIが、GPT-Liveに替えたら劇的にリアルになった",
+      "url": "https://zenn.dev/toriken/articles/gpt-live-migration-from-realtime-api",
+      "publishedAt": "2026-10-05T09:10:15.000Z",
+      "publisher": "Kento Toriumi",
+      "summary": "1on1の練習アプリ「キクレン」で、相談者役の音声AIを実装しています。この記事は、相談者役の音声AIのバックエンドをOpenAIのRealtime APIから、2026年9月10日にAPIでGAになったGPT-Live（gpt-live…"
     },
     {
-      "id": "f26aa2b3cd10",
-      "title": "Claude Codeが「確かめましょうか？」で3回止まったので、終わり方を2つに絞った",
-      "url": "https://zenn.dev/ihsan/articles/claude-code-3-2-10ceb5dfad11",
-      "publishedAt": "2026-10-04T23:00:05.000Z",
-      "publisher": "イサン",
-      "summary": "私の Claude Code は、ある午後の約30分で3回、見つけた問題を直しきらずに「確かめましょうか？」のような一言で作業を私に返しました。任せた仕事が「確認」の形で戻ってくる原因は能力ではなく止まってよい地点の未定義で、終わり方を2…"
+      "id": "e3a5a11035d5",
+      "title": "手元の .blend を Claude.ai や ChatGPT から、何も入れずにレンダリングする",
+      "url": "https://zenn.dev/renderjanction/articles/ba83bb636977f4",
+      "publishedAt": "2026-10-05T09:03:19.000Z",
+      "publisher": "render.janction.jp",
+      "summary": "公式: https://render.janction.jp JANCTION Render は、AI エージェントが MCP サーバーか HTTP API として呼べる、Blender のクラウド GPU レンダーファームです。この記事…"
     },
     {
-      "id": "9abd3c1119a9",
-      "title": "AI運用を考えていたら、運用そのものの思考マップになった話",
-      "url": "https://zenn.dev/paseri_kurosawa/articles/5778fbb1c62a2a",
-      "publishedAt": "2026-10-04T23:00:05.000Z",
-      "publisher": "黒澤ぱせり",
-      "summary": "AIに仕事を任せるとき、人間は何をしているのか AIに仕事を任せる。 そのとき、人間は何をしているのだろうか。 指示を書き、実行結果を確認し、問題があれば修正する。 あるいは、そもそも何を任せるのかを決め、出てきた結果を採用するかどうかを…"
+      "id": "b94e21f8fa27",
+      "title": "AIにCAD設計を任せたら、自由なPythonより制約付きDSLの方が成功した",
+      "url": "https://zenn.dev/0xliclog/articles/093e202c66fdd3",
+      "publishedAt": "2026-10-05T09:00:05.000Z",
+      "publisher": "0xL1C10G",
+      "summary": "前回の記事では、FreeCADを操作するAIエージェントに、定義済みのCAD操作をJSONで呼び出させる「DSL方式」と、Pythonコードを書かせる「コード生成方式」を比較しました。 https://zenn.dev/0xliclog/…"
     },
     {
-      "id": "450478cdc319",
-      "title": "AI専用ダッシュボードの作り方",
-      "url": "https://zenn.dev/nuits_jp/articles/2026-10-05-ai-dashboard",
-      "publishedAt": "2026-10-04T22:18:33.000Z",
-      "publisher": "Atsushi Nakamura",
-      "summary": "デスクの上に、Cursor や Claude Code、Codex、Gemini などのトークン消費量や利用枠の残量をリアルタイムに表示するAI専用ダッシュボード「Token Dashboard」を作ってみました。 キーボード奥などに置い…"
+      "id": "cd24b821a384",
+      "title": "JevとClefを画像生成AIのプロダクトに組み込もう!",
+      "url": "https://zenn.dev/radius5/articles/20261004-j3v7cl3f",
+      "publishedAt": "2026-10-05T08:26:58.000Z",
+      "publisher": "Katsuyuki Karasawa",
+      "summary": "こんにちは。株式会社ラディウス･ファイブでバックエンド、GPUインフラ、フロントエンド、あといろいろやってるだけのエンジニアではない人です。 https://www.copainter.ai/ ウィルキンソンのジンジャ無糖は美味しいので買…"
     },
     {
-      "id": "373a0c7380b1",
-      "title": "Claude Code / Codex のトークン節約：同じ枠でもっと使える",
-      "url": "https://zenn.dev/gakken_leap/articles/c67ca43199e63d",
-      "publishedAt": "2026-10-04T22:01:05.000Z",
-      "publisher": "hjpotter1",
-      "summary": "はじめに こんにちは、Gakken LEAP のフロントエンドエンジニアの kou です。 毎朝 coding agent を開くと、数ターンで 200k token の会話ウィンドウが埋まります。週の使用量も週半ばには上限近くまで届き、…"
+      "id": "dc7d37254677",
+      "title": "n8nで問い合わせを「意味」で振り分ける：AIの判断をワークフローに組み込む（JEV）",
+      "url": "https://zenn.dev/zundamon_tools/articles/n8n-ai-routing-jev",
+      "publishedAt": "2026-10-05T08:14:06.000Z",
+      "publisher": "ずんだもんの実験道具箱",
+      "summary": "「キャンセルではなく、参加日を土曜に変えたいです」という連絡は、「キャンセル」という単語で条件を組むと参加取消に流れてしまいます。 この記事では、n8n のワークフローの途中に AI の判断を1つだけ挟み、届いた文章を単語ではなく意味で「…"
     },
     {
-      "id": "2f71de9280b7",
-      "title": "ClaudeとPythonで日報を自動要約しSlack通知",
-      "url": "https://zenn.dev/ikuokuotiak/articles/claude-python-daily-report-summary-slack",
-      "publishedAt": "2026-10-04T22:00:58.000Z",
-      "publisher": "ahic",
-      "summary": "はじめに 日々の業務をこなす中で、自身の活動や進捗を日報として記録されている方は多いのではないでしょうか。しかし、これらの日報を手動で要約し、関係者に共有する作業は、意外と時間と労力を要します。特に、複数のプロジェクトに関わっていたり、フ…"
+      "id": "23a3d83c1542",
+      "title": "オートパイロットは外せる人間を前提にしている — AI時代のエンジニア技能維持を航空業界に学ぶ",
+      "url": "https://zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
+      "publishedAt": "2026-10-05T08:06:00.000Z",
+      "publisher": "しみたろ",
+      "summary": "AI にコードを書かせる時代に、エンジニアは何の技能を残しておけばいいのか。 航空業界の制度を一次資料でたどると、答えは「自分で書く力」よりも「自動化から引き継ぐ力」のほうに寄っていきました。パイロットは普段から手で操縦しているわけではあ…"
     },
     {
-      "id": "0c5fee1bbf7c",
-      "title": "本当に「判断」していますか？",
-      "url": "https://zenn.dev/dyoshikawa/articles/do-you-desicion",
-      "publishedAt": "2026-10-04T22:00:05.000Z",
-      "publisher": "dyoshikawa",
-      "summary": "はじめに @dyoshikawaです。 昨今、 「AI時代はタスクはAIにやらせ、人間は判断に集中する」 といったことをよく聞きますが、個人的にはモヤモヤがあります。 ひとつは、対象への理解なしに妥当な判断ができるのか、という点です。 も…"
+      "id": "1f78d786641e",
+      "title": "WebMCP：開いているページを、AIが呼べるAPIにする",
+      "url": "https://zenn.dev/interpark/articles/cd69dfc262c164",
+      "publishedAt": "2026-10-05T07:56:30.000Z",
+      "publisher": "株式会社インターパーク",
+      "summary": "はじめに 社内の技術勉強会で、WebMCP について話しました。この記事は、その内容を読み物にまとめたものです。 WebMCP は、開いている Web ページが、自分の機能を AI から呼べる形で公開するための仕組みです。発表では、問い合…"
     },
     {
-      "id": "7ca4f32f3e21",
-      "title": "ローカルAIがPCの中でアプリを作る ― ココロネAI for Desktop v0.2.0 を公開した",
-      "url": "https://zenn.dev/kunamao/articles/d401b315552851",
-      "publishedAt": "2026-10-04T21:00:07.000Z",
-      "publisher": "くなまお",
-      "summary": "はじめに こんにちは、くなまおです。 Windows向けAIアシスタント「ココロネAI for Desktop」の v0.2.0（α版）を公開しました。前回の v0.1.0 の記事 で「ベータ版までに追加予定」と書いていたコーディングモー…"
+      "id": "ea3c3deae43a",
+      "title": "マルチエージェントの境界設計：委任契約・検収・停止・統合責任",
+      "url": "https://zenn.dev/xim2jp_tokyo/articles/neta-30-zenn-summary",
+      "publishedAt": "2026-10-05T07:46:40.000Z",
+      "publisher": "しんいち",
+      "summary": "orchestrator–worker構成を導入すると、単一コンテキストの制約を分散できる一方、情報の受け渡しと統合が新しい負荷になります。本稿ではエージェント間の契約と検収に焦点を当て、4つの破綻点を整理しました。 委任契約は入力と返却…"
     },
     {
-      "id": "b610a8b0af67",
-      "title": "RedditでOSSを宣伝するなら生成AIの使用は避けた方がいい",
-      "url": "https://zenn.dev/elm/articles/0e33603dbd5c51",
-      "publishedAt": "2026-10-04T21:00:07.000Z",
-      "publisher": "notelm",
-      "summary": "先日Webviewをインライン表示できるというターミナルをRedditで宣伝しました。そして1件コメントが来たのですが、その内容を要約すると「このプロジェクトはいい感じに見えるがAI使ってるから俺は嫌いだよ」というような内容でした。ちなみ…"
+      "id": "347d108823ec",
+      "title": "AIの「完了しました」は本当か？無料Geminiも10/9に変更",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261005",
+      "publishedAt": "2026-10-05T07:24:32.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年10月5日（月）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます。今日は5本です。いちばんお伝えしたいのは、AIの「終わりました」をそのまま信じていいのか、って話なんですよ。Mi…"
     },
     {
-      "id": "a105f0bdb2a0",
-      "title": "AIが書いた設計書をエージェントの隣で読みたくてターミナルを自作した",
-      "url": "https://zenn.dev/elm/articles/ea5f363afefdc4",
-      "publishedAt": "2026-10-04T21:00:07.000Z",
-      "publisher": "notelm",
-      "summary": "AIエージェントに設計書を書かせることが増えました。書かせて終わりではなく、読んで、直させて、また読みます。 そのたびにエディタのプレビューへ切り替え、読み終えたらターミナルへ戻っていました。 この往復をなくしたくて、設計書をエージェント…"
+      "id": "a80c97bd6fd7",
+      "title": "学園祭webサイト。TypeSafe AIのJev で作る「言葉のゆれに強い」企画検索機能",
+      "url": "https://zenn.dev/yamashitamanato/articles/e72f1186fbc536",
+      "publishedAt": "2026-10-05T07:01:32.000Z",
+      "publisher": "yamashitamana.to",
+      "summary": "! 技術的な説明を減らした版を note にも書いています。 https://note.com/yamashitamanato/n/n888576198efc 1. 概要 以前の学園祭実行委員会で広報部長をやっていた後輩に頼まれて、第97…"
     },
     {
-      "id": "09a9fd6fa68c",
-      "title": "2026-10-04〜2026-10-10 技術キャッチアップ",
-      "url": "https://zenn.dev/marycache/articles/20261004-weekly-tech-catchup",
-      "publishedAt": "2026-10-04T19:24:15.000Z",
-      "publisher": "C",
-      "summary": "2026-10-04〜2026-10-10 技術キャッチアップ この週に確認した主要な技術更新を、曜日ごとのテーマに沿って整理する。 日: 生成AI・AI開発 月: IT全般・週間総括 火: 開発ツール・OSS 水: Web・バックエンド…"
+      "id": "0c136452342a",
+      "title": "今更聞けない「Jev」や「Laya」ってなに？「文章を書かないAI」とは",
+      "url": "https://zenn.dev/tkishioka/articles/jev-explainer",
+      "publishedAt": "2026-10-05T06:52:18.000Z",
+      "publisher": "Takuto Kishioka",
+      "summary": "気づいたらタイムラインがJevだらけだった 9月の半ばくらいから、ZennやLinkedInを開くたびに「Jev」という文字が目に入るようになりました。「LLMより数十〜数百倍速い」「出力トークンが無料」「ハルシネーションしない」と景気の…"
     }
   ],
-  "fetchedAt": "2026-10-05T05:42:21.512Z",
+  "fetchedAt": "2026-10-05T12:40:46.702Z",
   "stale": false,
   "error": null
 }
