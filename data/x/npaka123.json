@@ -2,6 +2,69 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2106965323534803385",
+      "url": "https://x.com/npaka123/status/2106965323534803385",
+      "text": "RT @masa_san_jp: やってくれてる📫",
+      "publishedAt": "2026-10-05T04:30:53.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2106953116155543811",
+      "url": "https://x.com/npaka123/status/2106953116155543811",
+      "text": "AIエージェントハーネス「OpenCode 2.0」のクイックスタート｜npaka @npaka123 note.com/npaka/n/n2771586c2c…",
+      "publishedAt": "2026-10-05T03:42:22.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2106951238294384962",
+      "url": "https://x.com/pinosuke_consul/status/2106951238294384962",
+      "text": "とても分かりやすい",
+      "publishedAt": "2026-10-05T03:34:55.000Z",
+      "authorHandle": "pinosuke_consul",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2106917085565813230",
+      "url": "https://x.com/yu_ichi_suzuki/status/2106917085565813230",
+      "text": "ローカルMiniMax H3で、声つきの約7秒動画をリアルタイムに連続生成してみました。RTX 5090＋DGX Spark互換機3台を使いました。\n\n動画の完成間隔は平均約6.9秒。RTX 5090が動画を生成している間に事前・事後の処理をDGX Sparkが行い、途切れずに再生します。\n\nRTX 5090単体でやったときは15秒単位でしたが、7秒単位になったことで、返事・話題・動作・衣装を次々に切り替えられるようになりました。解像度も320×576から384×704（画素数約1.5倍）に上げられたので画像の崩れが減り、体験がかなり良くなりました。\n\nPDMD 2step LoRAは音声に問題があるため、先にIrodoriで音声を作り、H3の音声VAEで「音声latent」に変換して生成時のガイドとして渡し、口の動きを合わせています。最終的な音は、Irodoriの音声をそのまま動画に重ねています。\n\n動画生成モデルなので、従来のVTuberのように衣装ごとにモデルを作り込まなくていいのは楽ですが、何が起きるかわからない怖さもあります。\n\nなお、コメントに7秒で返せるわけではありません。1つの返事を作る処理には約14.4秒、今回のデモでは再生待ちを含めて約16秒かかります。応答の待ち時間はまだ課題です。\n\n※コメントと返答文は事前に用意したデモです。実際にAITuberをやるならもう一つモデルを動かすPCが必要になりそうです。冒頭2本の挨拶は事前生成、ドット絵化は後処理です。",
+      "publishedAt": "2026-10-05T01:19:12.000Z",
+      "authorHandle": "yu_ichi_suzuki",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2106908511078908405",
+      "url": "https://x.com/npaka123/status/2106908511078908405",
+      "text": "勝手にCodexに仕事投げる最強AIに自分で働かせる【ChatGPT dots】 piped.video/hHQmHVhcqPc?si=9PxE… @YouTubeより",
+      "publishedAt": "2026-10-05T00:45:08.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2106900576546206181",
+      "url": "https://x.com/shi3z/status/2106900576546206181",
+      "text": "StrataをDGX Sparkで動くようにしてみた。\n40tok/sくらいで結構実用的に使えそう",
+      "publishedAt": "2026-10-05T00:13:36.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2106899142920507686",
+      "url": "https://x.com/ShadeLurk/status/2106899142920507686",
+      "text": "Tripoで作った3Dにモーション転写\n\nそんな馬鹿な事が🤣って思ってたけどこれ本当にFable5.5なんじゃないか👀⁉️\n\nFable5.1は勿論、全盛期のOpus5.5もこれは出来なかったんですけど\n\n納刀までしたぞ⁉️",
+      "publishedAt": "2026-10-05T00:07:54.000Z",
+      "authorHandle": "ShadeLurk",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2106875664389595215",
       "url": "https://x.com/MLBear2/status/2106875664389595215",
       "text": "【10月5日 朝のニュースまとめ】\n・GPT-6.1 Sol Ultrafast版が来週リリースか\n・トランプ大統領がAIタスクフォースを設立\n・Gemini 4 Argon来週一般公開か、APIに追加\n・OpenAI初代チップJalapeñoに歩留まり問題か\n・ターミナルからAIエージェントへの移行が加速\n・Muse GadgetsがPSP等へ移植、Charm新予想も\n・Codexが28日間連続アップデートを発表\n・Fable 5.5テストで一部性能低下の報告\n・Microsoft等、ハーネス進化手法ScholarEvolve発表\n\n===\n\nGPT-6.1 Sol Ultrafast版が来週リリースか【続報】\n\n・GPT-6.1 Solに関する続報です\n・同モデルの「Ultrafast」版が来週にもリリースされるとの噂が広まっています\n・Opus 5.5の8倍のトークン効率を持つとされ、高いコストパフォーマンスが期待されています\n・ユーザーからは日常的なタスクにおいて非常に有用であるとの声が上がっています\n\n===\n\nトランプ大統領がAIタスクフォースを設立【続報】\n\n・トランプ大統領が推進するAI関連の国家的な取り組みに関する続報です\n・AIのリスクや政府の責任を検討する新たなタスクフォースの設立が発表されました\n・名称は「Super Intelligence Force」とされ、120日以内に報告書をまとめる予定です\n・Jay Clayton氏とAndrew Ferguson氏が同タスクフォースを主導することが明らかになりました\n\n===\n\nGemini 4 Argon来週一般公開か、APIに追加【続報】\n\n・Googleの「Gemini 4 Argon」に関する続報です\n・同モデルがAPIドキュメントに追加され、来週にも一般公開される見込みであることが判明しました\n・ベンチマーク結果が非常に良好であり、小規模アップデートをスキップした大型リリースとして高く評価されています\n・OpenAIやAnthropicの次期モデルに対抗する強力なモデルとして、さらなる期待が高まっています\n\n===\n\nOpenAI初代チップJalapeñoに歩留まり問題か【続報】\n\n・OpenAIとBroadcomが共同開発する初代AIチップ「Jalapeño」に関する続報です\n・同チップに歩留まりの問題が発生しているとの噂が流れています\n・この問題により、第2世代チップの開発スケジュールが前倒しされる可能性が指摘されています\n・自社専用チップによるモデル開発を推進する同社にとって、ハードウェア開発の難しさが浮き彫りになっています\n\n===\n\nターミナルからAIエージェントへの移行が加速\n\n・多くの開発者が、従来のCLIやターミナルでのコーディングから、DotsなどのAIエージェントへの移行を報告しています。\n・「ターミナルの時代は終わった」との声が上がり、永続的なコンテキストを持つエージェントが新たなインターフェースとして定着しつつあります。\n・ファイルやコマンドを直接操作するのではなく、エージェントに指示を出すスタイルが今後の主流になると予想されています。\n\n===\n\nMuse GadgetsがPSP等へ移植、Charm新予想も【続報】\n\n・Metaの「Muse Gadgets」に関する続報です\n・開発者コミュニティにより、15年前のPSPやスマートグラスなど、さらに多様なデバイスへの移植が成功しています\n・また、公式のキーチェーン型AIデバイス「Muse Charm」にはQualcommのSnapdragonが搭載されるとの予想も出ており、ハードウェア展開への期待が高まっています\n\n===\n\nCodexが28日間連続アップデートを発表【続報】\n\n・OpenAIのCodexのアップデートに関する続報です\n・今後28日間にわたり毎日「明確な改善」か「フルリセット」を実施すると発表しました\n・開発者の間では、Claudeへのユーザー流出を防ぐための引き留め策ではないかと見られています\n・毎日のアップデートにより、コーディング体験がどのように変化するのか注目が集まっています\n\n===\n\nFable 5.5テストで一部性能低下の報告【続報】\n\n・Anthropicの次期モデル「Fable 5.5」に関する続報です\n・テスト中のFable 5.5において、一部の出力がSonnet 5.5より劣るケースが報告されており、現在調整が進められている模様です\n・同時に「Haiku 5.5」も準備中との噂があり、Opus 5.5に続く軽量モデルのラインナップ刷新に期待が寄せられています\n\n===\n\nMicrosoft等、ハーネス進化手法ScholarEvolve発表\n\n・Microsoftなどの研究チームが、公開された研究論文をもとにエージェントのハーネスを進化させる「ScholarEvolve」を発表しました\n・モデルの重みを更新するのではなく、プロンプトや制御コード（ハーネス）を編集してエージェントを改善するアプローチです\n・AIエンジニアリングにおける新たなスキルとして、ハーネスの最適化が重要視される傾向が強まっています",
@@ -27,72 +90,9 @@
       "authorHandle": "sharp_maker",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2106845241357824205",
-      "url": "https://x.com/thsottiaux/status/2106845241357824205",
-      "text": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin.",
-      "publishedAt": "2026-10-04T20:33:43.000Z",
-      "authorHandle": "thsottiaux",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2106831412909494469",
-      "url": "https://x.com/kis/status/2106831412909494469",
-      "text": "Qwen3.8-Flash-Next + Qwen Image 2.1でのウォーシミュレーションゲームできたところで寝る",
-      "publishedAt": "2026-10-04T19:38:46.000Z",
-      "authorHandle": "kis",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2106761575340384681",
-      "url": "https://x.com/fladdict/status/2106761575340384681",
-      "text": "逆にいうと人類全般に知的作業に対する究極的なストイックさを要求される時代になりつつある。目立たない、誉められない、儲からない…それでも何かを好きでいられるか… みたいなことがすごく問われてる。\n己の内側からだけ楽しいと好きを生み出せるか…みたいな。",
-      "publishedAt": "2026-10-04T15:01:15.000Z",
-      "authorHandle": "fladdict",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2106761524799045676",
-      "url": "https://x.com/kagami_kami_m/status/2106761524799045676",
-      "text": "スッッゲェ……！ 逆張りで推奨環境のcodex/claudeじゃなく、deepseek harnessでやったのですが、deepseek-v4.1-flashでもかなり精度高く自動リギングやってくれましたね……！\n\n無精したので口はデフォルトですが、画像生成AIで口パターン作ればより精度が高くなるみたい。つまりcodex使おう！",
-      "publishedAt": "2026-10-04T15:01:03.000Z",
-      "authorHandle": "kagami_kami_m",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2106746603990294803",
-      "url": "https://x.com/murasametech/status/2106746603990294803",
-      "text": "Strataが先ほどアップデートされ、さらに爆速化したようです。\nしかも今流行りのV100など古いデータセンター向けGPUにも対応📝\nStrataのブームは一気に加速しそうですね。",
-      "publishedAt": "2026-10-04T14:01:46.000Z",
-      "authorHandle": "murasametech",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2106743288774701355",
-      "url": "https://x.com/shields_pikes/status/2106743288774701355",
-      "text": "この投稿、みんなが「だからそこが重要なんだよ！」ってツッコんでくれてて、実にありがたい。",
-      "publishedAt": "2026-10-04T13:48:36.000Z",
-      "authorHandle": "shields_pikes",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2106739998460653596",
-      "url": "https://x.com/megyo9/status/2106739998460653596",
-      "text": "Batch作成",
-      "publishedAt": "2026-10-04T13:35:31.000Z",
-      "authorHandle": "megyo9",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-05T00:12:46.357Z",
+  "fetchedAt": "2026-10-05T05:42:39.338Z",
   "stale": false,
   "error": null
 }

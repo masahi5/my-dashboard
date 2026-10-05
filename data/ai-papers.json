@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3adf95aa185e",
-      "title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
-      "url": "https://huggingface.co/papers/2609.35259",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve ge…",
-      "score": 175
-    },
-    {
-      "id": "ce9f482b6989",
-      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
-      "url": "https://huggingface.co/papers/2609.36585",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow…",
-      "score": 69
-    },
-    {
-      "id": "03b7d8f83049",
-      "title": "X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization",
-      "url": "https://huggingface.co/papers/2609.32993",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Multi-step agents are trained on flat action streams: SFT and RLVR weight every token uniformly and ignore the sub-proc…",
-      "score": 57
-    },
-    {
-      "id": "aef6190012e1",
-      "title": "Video Generation Models: A Survey of Post-Training and Alignment",
-      "url": "https://huggingface.co/papers/2610.00812",
+      "id": "323903d5a779",
+      "title": "Does Learning Protein Folding Generalize to Broader Reasoning?",
+      "url": "https://huggingface.co/papers/2609.38879",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with …",
-      "score": 55
+      "summary": "Large language models rely heavily on human text, which often conveys surface answers rather than the spatial and struc…",
+      "score": 29
     },
     {
-      "id": "eed0bc6a249f",
-      "title": "Persona Dosing: Calibrated Activation Steering for Graded Trait Control",
-      "url": "https://huggingface.co/papers/2609.36388",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "An activation-steering coefficient sets intervention strength, but requesting a particular degree of persona expression…",
-      "score": 48
-    },
-    {
-      "id": "1064c739bc2d",
-      "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
-      "url": "https://huggingface.co/papers/2610.01092",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "Video generation models are increasingly being explored as world simulators for embodied planning and learning. To do s…",
-      "score": 25
-    },
-    {
-      "id": "a8c69437c2e9",
-      "title": "OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories",
-      "url": "https://huggingface.co/papers/2609.32810",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Multidisciplinary tumor boards integrate multimodal clinical observations and longitudinal patient histories through sp…",
-      "score": 13
-    },
-    {
-      "id": "3f28014a5e38",
-      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-      "url": "https://huggingface.co/papers/2610.02202",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ah…",
-      "score": 11
-    },
-    {
-      "id": "eed7b7725d8c",
-      "title": "MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization",
-      "url": "https://huggingface.co/papers/2609.36435",
+      "id": "74f8d21ce3df",
+      "title": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+      "url": "https://huggingface.co/papers/2609.38078",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "An assistant that serves the same user over a long horizon has to answer from what that user has revealed: which prefer…",
+      "summary": "Vision-language-action (VLA) models have advanced robotic manipulation, but their zero-shot generalization in new tasks…",
+      "score": 9
+    },
+    {
+      "id": "515f5f6f2ce5",
+      "title": "LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models",
+      "url": "https://huggingface.co/papers/2609.39071",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Legal language models require reward signals that capture not only answer correctness but also the multidimensional qua…",
+      "score": 8
+    },
+    {
+      "id": "40d85a97ae99",
+      "title": "Science Utopia? Closed-Loop LLM Simulation of Academic Research Ecosystems",
+      "url": "https://huggingface.co/papers/2610.01257",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Scientific progress emerges from a longitudinal ecosystem in which researchers, institutions, funding agencies, collabo…",
       "score": 7
     },
     {
-      "id": "f47770a5220f",
-      "title": "Replacing Large Language Models with Jev Decision Models for Low-Latency Edge Service Orchestration",
-      "url": "https://huggingface.co/papers/2609.22753",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Natural-language service requests can require a language-model decision before execution starts, consuming part of the …",
-      "score": 5
+      "id": "d6844f3458e7",
+      "title": "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
+      "url": "https://huggingface.co/papers/2610.03574",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "We introduce HyperBrowseComp, a multilingual and multimodal browsing benchmark comprising 423 manually authored and hum…",
+      "score": 6
     },
     {
-      "id": "2f2c6513727b",
-      "title": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
-      "url": "https://huggingface.co/papers/2609.37690",
+      "id": "f07d158c622f",
+      "title": "PDE-JEPA: Predictive Representation Learning of Latent Dynamics Modeling for Parametric PDEs",
+      "url": "https://huggingface.co/papers/2609.34715",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Physical trajectories contain more than snapshots of a system: they also reveal how its states evolve under governing c…",
+      "score": 6
+    },
+    {
+      "id": "ebb00dc2feb6",
+      "title": "ProAR: Learning Prospective Reasoning with Autoregressive Video Models",
+      "url": "https://huggingface.co/papers/2610.03664",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "Autoregressive (AR) video models excel at causal generation, but their reliance on next-chunk prediction confines them …",
+      "score": 4
+    },
+    {
+      "id": "40534d271d52",
+      "title": "Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers",
+      "url": "https://huggingface.co/papers/2610.00531",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Video world models require persistent scene memory to maintain consistency during long-horizon video generation. Existi…",
-      "score": 5
+      "summary": "AI-generated content, often called AI slop, is increasingly common everywhere, particularly in academia. Slop in AI-gen…",
+      "score": 4
     },
     {
-      "id": "a41101dc2914",
-      "title": "Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models",
-      "url": "https://huggingface.co/papers/2610.02142",
+      "id": "4530660501da",
+      "title": "Looping Beyond Twice: A Scalable Recipe for Looped Mixture-of-Experts",
+      "url": "https://huggingface.co/papers/2610.01153",
       "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "Keyword-matching benchmarks can credit small models for tool use they never perform. We document such a false positive …",
-      "score": 5
+      "summary": "Looped Transformers introduce recurrent depth as a new scaling axis for LLMs: by repeatedly applying shared Transformer…",
+      "score": 3
+    },
+    {
+      "id": "e42ac7d8415e",
+      "title": "Triadic Linear Attention: Three-Dimensional Recurrent States for Long-Context Sequence Modeling",
+      "url": "https://huggingface.co/papers/2609.36529",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Recurrent neural networks (RNNs) compress the historical context into a memory state of fixed size, thus allowing for c…",
+      "score": 3
+    },
+    {
+      "id": "a73e838d0904",
+      "title": "On-Policy Parameter Update Direction Underlies Generalization in LLM Post-Training",
+      "url": "https://huggingface.co/papers/2609.36659",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "The strong generalization performance of on-policy post-training paradigms has motivated studies of their parameter upd…",
+      "score": 2
+    },
+    {
+      "id": "074d962533d9",
+      "title": "SimuVerity: Benchmarking Agents for Engineering-Grade Simulink Model Generation",
+      "url": "https://huggingface.co/papers/2610.02304",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Existing Simulink benchmarks mainly evaluate whether generated models compile, execute, or resemble a reference model. …",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-05T00:12:28.754Z",
+  "fetchedAt": "2026-10-05T05:42:21.396Z",
   "stale": false,
   "error": null
 }
