@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c37986f77c03",
-      "title": "World Action Modeling with Progressive Visual Planning",
-      "url": "https://huggingface.co/papers/2610.02508",
+      "id": "1b530075dd46",
+      "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+      "url": "https://huggingface.co/papers/2610.01780",
       "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "World action models (WAMs) have emerged as a promising paradigm for robotic control by jointly predicting future visual…",
-      "score": 33
+      "summary": "A companion that talks with a person for months should come to understand them. It should remember what they said, infe…",
+      "score": 184
     },
     {
-      "id": "6fbdcaea8c4a",
-      "title": "Native Action-Prior Learning from Videos for World Action Models",
-      "url": "https://huggingface.co/papers/2610.03391",
+      "id": "14592fdf6ee0",
+      "title": "Latent-MOPD: Latent Multi-Teacher On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.02381",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) trains a student on the responses it generates. Existing LLM multi-teacher OPD transfers w…",
+      "score": 28
+    },
+    {
+      "id": "86b1bf6a8659",
+      "title": "Tail-Influence Sampling for CVaR Policy Evaluation",
+      "url": "https://huggingface.co/papers/2609.38096",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Policies with similar mean returns can differ sharply in rare failures, yet estimating lower-tail conditional value-at-…",
+      "score": 17
+    },
+    {
+      "id": "04d36fab73ed",
+      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+      "url": "https://huggingface.co/papers/2610.03715",
       "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "World action models integrate future visual dynamics with robot action prediction, but their scalability remains limite…",
-      "score": 24
+      "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dyna…",
+      "score": 12
     },
     {
-      "id": "5a2cf3d0a19d",
-      "title": "Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory",
-      "url": "https://huggingface.co/papers/2610.02521",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "Long-video generation and world models have shown strong potential for interactive entertainment and embodied simulatio…",
-      "score": 10
+      "id": "4f10574db234",
+      "title": "Beyond Future Prediction: Denoising as Generative Adaptation for Robot Control",
+      "url": "https://huggingface.co/papers/2609.28339",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "summary": "Pretrained generative Diffusion Transformers (DiTs) capture rich pixel-level visual and language-conditioned structure …",
+      "score": 12
     },
     {
-      "id": "ed96f7dd8839",
-      "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
-      "url": "https://huggingface.co/papers/2610.00972",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "As LLM agents undertake increasingly complex, long-horizon tasks, verifying their outputs becomes increasingly challeng…",
+      "id": "efa22c187169",
+      "title": "MinkowskiPE: Minkowski Positional Encoding for Spatiotemporal Perception",
+      "url": "https://huggingface.co/papers/2609.33804",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "summary": "Modeling spatiotemporal coupling is a key challenge in building physical intelligence across scales, from microscopic t…",
+      "score": 9
+    },
+    {
+      "id": "582949ceed36",
+      "title": "Where Does Retrieval-Based Open-Ended Evaluation Fail? Automatic Taxonomy Induction from Long-Form Medical Answer Factuality Verification",
+      "url": "https://huggingface.co/papers/2609.30467",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Retrieval-based factuality evaluation, where LLM-generated claims are verified against evidence from authoritative medi…",
       "score": 7
     },
     {
-      "id": "73ba8e6a0286",
-      "title": "Multilingual GSM-Symbolic: What determines capability transfer across languages?",
-      "url": "https://huggingface.co/papers/2610.03367",
+      "id": "3641acaf3744",
+      "title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models",
+      "url": "https://huggingface.co/papers/2609.26425",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Video world models achieve long-range temporal consistency by storing KV cache during generation, but the growing cache…",
+      "score": 5
+    },
+    {
+      "id": "af74560baae7",
+      "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
+      "url": "https://huggingface.co/papers/2610.03710",
       "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "We understand little about how capabilities acquired in one language carry over to another, or what governs this transf…",
-      "score": 6
+      "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with …",
+      "score": 4
     },
     {
-      "id": "65130fefd172",
-      "title": "Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability",
-      "url": "https://huggingface.co/papers/2610.03509",
+      "id": "77ce7d8df0e9",
+      "title": "KeyRec: Bounded Visual Memory for Streaming and Long-Video Understanding",
+      "url": "https://huggingface.co/papers/2609.32182",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Vision-language models are increasingly used to understand long videos and continuous streams. However, dense visual to…",
+      "score": 3
+    },
+    {
+      "id": "dc740f422b90",
+      "title": "Self-Supervised Scaling of Terminal Environments for Scientific Domains",
+      "url": "https://huggingface.co/papers/2610.02710",
       "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Chain-of-thought (CoT) reasoning allows humans to inspect how large language models reach their answers, and oversee mo…",
-      "score": 6
-    },
-    {
-      "id": "80e8514eeb61",
-      "title": "Collective Bias Mitigation via Model Routing and Collaboration",
-      "url": "https://huggingface.co/papers/2610.03240",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Large language models (LLMs) are increasingly deployed in public health, finance, and governance, requiring both accura…",
-      "score": 2
-    },
-    {
-      "id": "0c5c03e9e3de",
-      "title": "LVMT: Video Mask Transformer for Long-term Video Segmentation",
-      "url": "https://huggingface.co/papers/2609.34895",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Existing online video segmentation methods struggle to track objects in long, complex videos with long-term occlusions.…",
-      "score": 2
-    },
-    {
-      "id": "fdc071c78460",
-      "title": "Can Computation from Earlier Problems Help LLMs Solve New Ones?",
-      "url": "https://huggingface.co/papers/2609.39394",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Large language models often solve independent problems in the same conversation. Can computation from earlier problems …",
+      "summary": "Terminal agents are increasingly deployed beyond software engineering in science and other specialized domains. Constru…",
       "score": 1
     },
     {
-      "id": "2f99a6355635",
-      "title": "Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation",
-      "url": "https://huggingface.co/papers/2609.37925",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Autoregressive (AR) video diffusion enables low-latency, streamable video generation, but prediction errors often accum…",
+      "id": "530b5aeb5b3e",
+      "title": "The Extender: A Log-Structured Transformer",
+      "url": "https://huggingface.co/papers/2609.32759",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "We introduce the Extender, a log-structured variant of the standard Transformer architecture. In a standard Transformer…",
       "score": 1
-    },
-    {
-      "id": "9933658bef4f",
-      "title": "Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling",
-      "url": "https://huggingface.co/papers/2609.40153",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Video generation models (VGMs) offer strong spatiotemporal priors for embodied observation--action modeling. However, j…",
-      "score": 1
-    },
-    {
-      "id": "3c4e57ce4d75",
-      "title": "Rethinking Token Reweighting for SFT: Suppress, Reverse, and Extrapolate Learned Features",
-      "url": "https://huggingface.co/papers/2609.33463",
-      "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "Supervised fine-tuning (SFT) learns most aggressively from tokens that the model deems least likely. This helps acquire…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-05T12:40:46.546Z",
+  "fetchedAt": "2026-10-05T20:47:12.965Z",
   "stale": false,
   "error": null
 }
