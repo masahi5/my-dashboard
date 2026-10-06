@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "d732cc9e7970",
-      "title": "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
-      "url": "https://huggingface.co/papers/2610.05162",
+      "id": "9eff9d7f340b",
+      "title": "UndoBench: Separating Task Competence from Recovery Capability in Tool-Using AI Agents",
+      "url": "https://huggingface.co/papers/2610.05622",
       "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "Long-term memory enables LLM-based agents to retain and reuse information across tasks and sessions, supporting persona…",
+      "summary": "Tool-using AI agents are increasingly deployed across enterprise software systems, yet widely used benchmarks primarily…",
       "score": 6
     },
     {
-      "id": "a08ecfe8e0d8",
-      "title": "RobotUse: Allocating Computation, Context, and Decisions",
-      "url": "https://huggingface.co/papers/2610.04929",
+      "id": "00b0d58e165c",
+      "title": "LiFT: Loop Flow Transformers",
+      "url": "https://huggingface.co/papers/2610.05538",
       "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "Robot agents must connect their intended actions to observed outcomes while retaining the context needed to revise thei…",
+      "summary": "We introduce Loop Flow Transformers (LiFT), a family of looped generative models that scales computation by repeatedly …",
       "score": 4
     },
     {
-      "id": "08f4560b099b",
-      "title": "PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training",
-      "url": "https://huggingface.co/papers/2610.04616",
-      "publishedAt": "2026-10-03T00:00:00.000Z",
-      "summary": "A vision--language--action (VLA) policy can complete complex tasks while ignoring the evidence that should determine it…",
-      "score": 3
-    },
-    {
-      "id": "fba81838270e",
-      "title": "QuantCode Model: Specializing Language Models for Executable Algorithmic Trading Code",
-      "url": "https://huggingface.co/papers/2609.39420",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Large language models are strong general-purpose code generators, but executable algorithmic trading remains a demandin…",
-      "score": 3
-    },
-    {
-      "id": "51638fcb067d",
-      "title": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
-      "url": "https://huggingface.co/papers/2610.03872",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as impro…",
-      "score": 3
-    },
-    {
-      "id": "3c733b8e0dd5",
-      "title": "Representation-Space MMD for Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.06648",
+      "id": "d0941fbdf4cf",
+      "title": "What Matters for Latent Reasoning with Flow Matching",
+      "url": "https://huggingface.co/papers/2610.06666",
       "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "We introduce a post-training method for diffusion language models (DLMs) that minimizes Maximum Mean Discrepancy (MMD) …",
+      "summary": "Latent reasoning lets a large language model (LLM) think in a continuous space and verbalize only the answer. We argue …",
+      "score": 4
+    },
+    {
+      "id": "c79cf9ee6fa8",
+      "title": "How to Loop MoE: Flatten the Experts, Untie the Attention",
+      "url": "https://huggingface.co/papers/2609.35751",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Looped Transformers reuse one block of layers several times: by spending extra computation they push a model of fixed s…",
+      "score": 3
+    },
+    {
+      "id": "001dab226c59",
+      "title": "GeoCR: Learning a Generalist Cloud Removal Prior from Heterogeneous Observations",
+      "url": "https://huggingface.co/papers/2609.32510",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Cloud removal methods are typically specialized to individual datasets and input configurations, limiting reuse across …",
       "score": 2
     },
     {
-      "id": "303eae8ccf70",
-      "title": "TextReg: Mitigating Prompt Distributional Overfitting via Regularized Text-Space Optimization",
-      "url": "https://huggingface.co/papers/2605.21318",
+      "id": "2c9d193543e2",
+      "title": "GeoSET: Generalist Foundation Model for SAR-to-EO Image Translation",
+      "url": "https://huggingface.co/papers/2609.37496",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Paired synthetic aperture radar (SAR) and electro-optical (EO) imagery is increasingly available across sensors, resolu…",
+      "score": 2
+    },
+    {
+      "id": "d16516e1484a",
+      "title": "HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models",
+      "url": "https://huggingface.co/papers/2610.05739",
       "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Large language models (LLMs) are highly sensitive to the prompts used to specify task objectives and behavioral constra…",
+      "summary": "Long-horizon video world models require persistent memory to preserve scene consistency over extended rollouts. Softmax…",
       "score": 2
     },
     {
-      "id": "e92463d98519",
-      "title": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
-      "url": "https://huggingface.co/papers/2610.02150",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-inte…",
-      "score": 2
-    },
-    {
-      "id": "b4c165368771",
-      "title": "Code2Games: Enabling Coding Agents for Gaming World Generation",
-      "url": "https://huggingface.co/papers/2610.05033",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "Generating a high-quality gaming world from a natural-language game intent requires joint reasoning about scene structu…",
-      "score": 2
-    },
-    {
-      "id": "6b593b3a428d",
-      "title": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
-      "url": "https://huggingface.co/papers/2610.02191",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remain…",
-      "score": 2
-    },
-    {
-      "id": "d2b7c35a42ec",
-      "title": "Periscope: Extending Frozen Language Models Beyond Their Context Window",
-      "url": "https://huggingface.co/papers/2610.04047",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "A language model reads long text in one quadratic forward pass, stops at the context window, and loses accuracy with le…",
+      "id": "e19b319cb5e6",
+      "title": "Adapting prior-data fitted networks for tabular anomaly detection",
+      "url": "https://huggingface.co/papers/2610.06693",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "While deep features have transformed anomaly detection in images and video, their impact on tabular data has been less …",
       "score": 1
     },
     {
-      "id": "e6a810cb5ca1",
-      "title": "Arm-wise Compositional Generalization in Dual-Arm Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2610.06184",
+      "id": "9007c38c835e",
+      "title": "SoK: Semantic Decision Engines in Network Control Loops",
+      "url": "https://huggingface.co/papers/2610.06425",
       "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Generalization in multi-arm collaboration can be studied as composing familiar atomic skills in new ways across arms. H…",
+      "summary": "A semantic decision engine such as Jev can return a valid answer and still miss a network deadline, select an infeasibl…",
       "score": 1
+    },
+    {
+      "id": "a7a6bbfcd818",
+      "title": "Intent Interpretation at RIC Timescales: Jev Decision Models versus Large Language Models in 6G Open RAN",
+      "url": "https://huggingface.co/papers/2609.23136",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "Intent-based Open RAN needs an interpreter that turns intents into A1 policies within the loop of the RAN intelligent c…",
+      "score": 1
+    },
+    {
+      "id": "9270e13875f6",
+      "title": "Empirical Variational Autoencoder",
+      "url": "https://huggingface.co/papers/2610.06545",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "We present Empirical Variational Autoencoder, a general generative framework for continuous-valued (i.e., non-vector-qu…",
+      "score": 0
+    },
+    {
+      "id": "b978ce51b0e0",
+      "title": "MEA: A Reward-Driven Multi-Agent System for Faithful Model Explanations",
+      "url": "https://huggingface.co/papers/2610.02480",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Recent years have seen the employment of a plethora of machine learning (ML) models in high-stakes domains, but they re…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-06T08:08:27.443Z",
+  "fetchedAt": "2026-10-06T15:10:21.203Z",
   "stale": false,
   "error": null
 }
