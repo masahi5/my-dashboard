@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "86b1bf6a8659",
-      "title": "Tail-Influence Sampling for CVaR Policy Evaluation",
-      "url": "https://huggingface.co/papers/2609.38096",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Policies with similar mean returns can differ sharply in rare failures, yet estimating lower-tail conditional value-at-…",
-      "score": 21
-    },
-    {
-      "id": "04d36fab73ed",
-      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
-      "url": "https://huggingface.co/papers/2610.03715",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dyna…",
-      "score": 19
-    },
-    {
-      "id": "ef602cf3f00b",
-      "title": "PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
-      "url": "https://huggingface.co/papers/2610.02840",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "World action models jointly learn to forecast world dynamics and predict robot actions, such that the learned internal …",
-      "score": 13
-    },
-    {
-      "id": "582949ceed36",
-      "title": "Where Does Retrieval-Based Open-Ended Evaluation Fail? Automatic Taxonomy Induction from Long-Form Medical Answer Factuality Verification",
-      "url": "https://huggingface.co/papers/2609.30467",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
-      "summary": "Retrieval-based factuality evaluation, where LLM-generated claims are verified against evidence from authoritative medi…",
-      "score": 11
-    },
-    {
-      "id": "d8526fa834be",
-      "title": "WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning",
-      "url": "https://huggingface.co/papers/2609.34826",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Humans often solve spatial problems by mentally simulating visual transformations. In contrast, conventional vision-lan…",
-      "score": 9
-    },
-    {
-      "id": "af74560baae7",
-      "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
-      "url": "https://huggingface.co/papers/2610.03710",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with …",
-      "score": 9
-    },
-    {
-      "id": "a194138309c0",
-      "title": "Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing",
-      "url": "https://huggingface.co/papers/2610.02772",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Large language models (LLMs) increasingly serve as general-purpose interfaces to factual knowledge, but their parameter…",
-      "score": 7
-    },
-    {
-      "id": "dc740f422b90",
-      "title": "Self-Supervised Scaling of Terminal Environments for Scientific Domains",
-      "url": "https://huggingface.co/papers/2610.02710",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Terminal agents are increasingly deployed beyond software engineering in science and other specialized domains. Constru…",
-      "score": 7
-    },
-    {
-      "id": "77ce7d8df0e9",
-      "title": "KeyRec: Bounded Visual Memory for Streaming and Long-Video Understanding",
-      "url": "https://huggingface.co/papers/2609.32182",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Vision-language models are increasingly used to understand long videos and continuous streams. However, dense visual to…",
-      "score": 7
-    },
-    {
-      "id": "530b5aeb5b3e",
-      "title": "The Extender: A Log-Structured Transformer",
-      "url": "https://huggingface.co/papers/2609.32759",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "We introduce the Extender, a log-structured variant of the standard Transformer architecture. In a standard Transformer…",
+      "id": "d732cc9e7970",
+      "title": "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
+      "url": "https://huggingface.co/papers/2610.05162",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Long-term memory enables LLM-based agents to retain and reuse information across tasks and sessions, supporting persona…",
       "score": 6
     },
     {
-      "id": "41c393b56355",
-      "title": "JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts",
-      "url": "https://huggingface.co/papers/2610.00722",
+      "id": "a08ecfe8e0d8",
+      "title": "RobotUse: Allocating Computation, Context, and Decisions",
+      "url": "https://huggingface.co/papers/2610.04929",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Robot agents must connect their intended actions to observed outcomes while retaining the context needed to revise thei…",
+      "score": 4
+    },
+    {
+      "id": "08f4560b099b",
+      "title": "PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training",
+      "url": "https://huggingface.co/papers/2610.04616",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "summary": "A vision--language--action (VLA) policy can complete complex tasks while ignoring the evidence that should determine it…",
+      "score": 3
+    },
+    {
+      "id": "fba81838270e",
+      "title": "QuantCode Model: Specializing Language Models for Executable Algorithmic Trading Code",
+      "url": "https://huggingface.co/papers/2609.39420",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "World models enable agents to plan by predicting future states of the environment, but their predictions can become unr…",
+      "summary": "Large language models are strong general-purpose code generators, but executable algorithmic trading remains a demandin…",
+      "score": 3
+    },
+    {
+      "id": "51638fcb067d",
+      "title": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
+      "url": "https://huggingface.co/papers/2610.03872",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as impro…",
+      "score": 3
+    },
+    {
+      "id": "3c733b8e0dd5",
+      "title": "Representation-Space MMD for Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.06648",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "We introduce a post-training method for diffusion language models (DLMs) that minimizes Maximum Mean Discrepancy (MMD) …",
       "score": 2
     },
     {
-      "id": "1a6c436d6443",
-      "title": "CUAWright: A Minimal Unified Interface for Digital Agents",
-      "url": "https://huggingface.co/papers/2610.04116",
+      "id": "303eae8ccf70",
+      "title": "TextReg: Mitigating Prompt Distributional Overfitting via Regularized Text-Space Optimization",
+      "url": "https://huggingface.co/papers/2605.21318",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Large language models (LLMs) are highly sensitive to the prompts used to specify task objectives and behavioral constra…",
+      "score": 2
+    },
+    {
+      "id": "e92463d98519",
+      "title": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
+      "url": "https://huggingface.co/papers/2610.02150",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-inte…",
+      "score": 2
+    },
+    {
+      "id": "b4c165368771",
+      "title": "Code2Games: Enabling Coding Agents for Gaming World Generation",
+      "url": "https://huggingface.co/papers/2610.05033",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Generating a high-quality gaming world from a natural-language game intent requires joint reasoning about scene structu…",
+      "score": 2
+    },
+    {
+      "id": "6b593b3a428d",
+      "title": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
+      "url": "https://huggingface.co/papers/2610.02191",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remain…",
+      "score": 2
+    },
+    {
+      "id": "d2b7c35a42ec",
+      "title": "Periscope: Extending Frozen Language Models Beyond Their Context Window",
+      "url": "https://huggingface.co/papers/2610.04047",
       "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "The prevailing approach to computer-use agents couples a model with a domain-specific harness: a browser or desktop env…",
+      "summary": "A language model reads long text in one quadratic forward pass, stops at the context window, and loses accuracy with le…",
+      "score": 1
+    },
+    {
+      "id": "e6a810cb5ca1",
+      "title": "Arm-wise Compositional Generalization in Dual-Arm Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2610.06184",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Generalization in multi-arm collaboration can be studied as composing familiar atomic skills in new ways across arms. H…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-10-06T01:38:54.486Z",
+  "fetchedAt": "2026-10-06T08:08:27.443Z",
   "stale": false,
   "error": null
 }

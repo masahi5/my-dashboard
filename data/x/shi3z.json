@@ -2,97 +2,97 @@
   "handle": "shi3z",
   "tweets": [
     {
-      "id": "2106956743922315341",
-      "url": "https://x.com/shi3z/status/2106956743922315341",
-      "text": "Claude Opus 5.5にモデリングをさせてみる｜shi3z @shi3z note.com/shi3zblog/n/n6e5d40…",
-      "publishedAt": "2026-10-05T03:56:47.000Z",
+      "id": "2107369686929465354",
+      "url": "https://x.com/shi3z/status/2107369686929465354",
+      "text": "全部ネットに証拠残ってるから全部取ってある",
+      "publishedAt": "2026-10-06T07:17:41.000Z",
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
     },
     {
-      "id": "2106900636583477638",
-      "url": "https://x.com/shi3z/status/2106900636583477638",
-      "text": "repo: github.com/shi3z/Strata-D",
-      "publishedAt": "2026-10-05T00:13:50.000Z",
+      "id": "2107365008636260411",
+      "url": "https://x.com/shi3z/status/2107365008636260411",
+      "text": "退会しても免許証晒されるのは自衛できない。\n明らかに政府が毅然として対応すべき局面",
+      "publishedAt": "2026-10-06T06:59:05.000Z",
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
     },
     {
-      "id": "2106900576546206181",
-      "url": "https://x.com/shi3z/status/2106900576546206181",
-      "text": "StrataをDGX Sparkで動くようにしてみた。\n40tok/sくらいで結構実用的に使えそう",
-      "publishedAt": "2026-10-05T00:13:36.000Z",
+      "id": "2107359933708792000",
+      "url": "https://x.com/shi3z/status/2107359933708792000",
+      "text": "視線入力でアイコンタクトした相手にパスするサッカーゲーム",
+      "publishedAt": "2026-10-06T06:38:55.000Z",
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
     },
     {
-      "id": "2106556835839033816",
-      "url": "https://x.com/shi3z/status/2106556835839033816",
-      "text": "Opus5.5とBlenderで作った城をthree.jsに移植して歩けるようにしてもらったが、ポン出しだとまだアラが目立つけど根気よくやればできるんじゃないかという気がしてくる",
-      "publishedAt": "2026-10-04T01:27:42.000Z",
+      "id": "2107350846749237378",
+      "url": "https://x.com/shi3z/status/2107350846749237378",
+      "text": "AIが自分の走りを学習してAIと一緒にレースを攻略。最終ステージはAIが完全自動運転で他のプレイヤーのAIと勝負！",
+      "publishedAt": "2026-10-06T06:02:49.000Z",
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
     },
     {
-      "id": "2106544774497055131",
-      "url": "https://x.com/shi3z/status/2106544774497055131",
-      "text": "ちなみに人体だとどうなるかやってみたけどGeminiが悲惨なことに・・・とはいえOpus5.5もまだもう少しだな",
-      "publishedAt": "2026-10-04T00:39:46.000Z",
+      "id": "2107342266276970680",
+      "url": "https://x.com/Anna_Kaski/status/2107342266276970680",
+      "text": "何言ってんだこいつ。\n\n不正アクセス頻発「自分の情報は自分で守って」　古川デジタル相：時事ドットコム jiji.com/jc/article?k=202610… @jijicomより",
+      "publishedAt": "2026-10-06T05:28:43.000Z",
+      "authorHandle": "Anna_Kaski",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2107304336263127164",
+      "url": "https://x.com/gosrum/status/2107304336263127164",
+      "text": "「Strata + Qwen3.8-Flash Next と Qwen3.8-27B、結局どちらを使えばいいの？」\n\nという local LLM 愛好家のために、ts-bench によるベンチマーク評価結果を共有する\n\n●メモ\n・驚くべきことだが、Strata + Qwen3.8-Flash Next の方が llama. cpp + 27B よりも倍以上速い。MoEモデルとはいえ、VRAM 32GBしかない RTX 5090 でこの速度が出るのは本当にすごい\n\n・一方で性能的には IQ3_S 量子化が若干悪さしているのか、Claude Code とくみあわせたときに mediumだと全問正解出来ず、lowではループに陥って完走出来ないという結果になった\n→一方で27Bは low でも満点\n\n・Codexと組み合わせた場合はめちゃくちゃ余分にトークンを使っているようだが、lowでも満点を取ることが出来た\n\n●結論\n・Qwen3.8-27B（4bit）を推奨する人\n①並列で推論したい\n②遅くてもいいから安定性が欲しい\n\n・Strata + Qwen3.8-Flash Nextを推奨する人\n①並列で推論しない\n②27Bで物足りない人（27B以上を求めるなら IQ3_S以上でxhigh推奨）\n\nStrataで4bit量子化したときにもこれぐらい速度が速ければ最高",
+      "publishedAt": "2026-10-06T02:58:00.000Z",
+      "authorHandle": "gosrum",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2107279111442088175",
+      "url": "https://x.com/shi3z/status/2107279111442088175",
+      "text": "注意喚起",
+      "publishedAt": "2026-10-06T01:17:46.000Z",
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
     },
     {
-      "id": "2106544237278040301",
-      "url": "https://x.com/shi3z/status/2106544237278040301",
-      "text": "Opus5.5に日本の城の風景を見せてBlenderで描かせたら思ったよりすごかった。なぜ季節も紅葉だしな。もちろんポリゴンモデルなのでちゃんと動かせる。たぶんゲームにも出せるだろう。凄すぎる",
-      "publishedAt": "2026-10-04T00:37:38.000Z",
+      "id": "2107273085980450880",
+      "url": "https://x.com/shi3z/status/2107273085980450880",
+      "text": "ゴールデン街でウーロン茶を飲みながら自動運転レースゲームを作った｜shi3z @shi3z note.com/shi3zblog/n/nde49a3…",
+      "publishedAt": "2026-10-06T00:53:49.000Z",
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
     },
     {
-      "id": "2106543906427195423",
-      "url": "https://x.com/shi3z/status/2106543906427195423",
-      "text": "Opus5.5\n一眠りしてたらここまできた。頑張りましたね",
-      "publishedAt": "2026-10-04T00:36:19.000Z",
+      "id": "2107241852265181360",
+      "url": "https://x.com/shi3z/status/2107241852265181360",
+      "text": "50%最適化した!と言っておいて9/29のリリース日と同じ速度に戻しただけ\nなんという欺瞞",
+      "publishedAt": "2026-10-05T22:49:42.000Z",
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
     },
     {
-      "id": "2106543228753514851",
-      "url": "https://x.com/shi3z/status/2106543228753514851",
-      "text": "AIで作った冗談にしてはよくできすぎてる\nそうなんだ",
-      "publishedAt": "2026-10-04T00:33:38.000Z",
-      "authorHandle": "shi3z",
+      "id": "2107177204220309719",
+      "url": "https://x.com/nodahayato/status/2107177204220309719",
+      "text": "焼肉きんぐのアプリ等開発について。エンジニアとしてはドキドキすることが書いてあるな。\n\nshiftasia.com/ja/case-studie…",
+      "publishedAt": "2026-10-05T18:32:49.000Z",
+      "authorHandle": "nodahayato",
       "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2106531985799979455",
-      "url": "https://x.com/shi3z/status/2106531985799979455",
-      "text": "Opus5.5圧倒的だな",
-      "publishedAt": "2026-10-03T23:48:57.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2106520412473761967",
-      "url": "https://x.com/shi3z/status/2106520412473761967",
-      "text": "しばらくやりとりしたら少しマシになった。まだバランスは変だが",
-      "publishedAt": "2026-10-03T23:02:58.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
+      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-05T05:42:42.163Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: RSS ではない応答（インスタンスが不調） / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-06T08:08:46.488Z",
+  "stale": false,
+  "error": null
 }

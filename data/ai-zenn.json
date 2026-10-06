@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "c4a4f809793e",
+      "title": "Agentに図解+操作可能なUIを渡す「dev-process-kit」を作った",
+      "url": "https://zenn.dev/bm_sms/articles/dev-process-kit-introduction",
+      "publishedAt": "2026-10-05T23:01:34.000Z",
+      "publisher": "きむそん",
+      "summary": "はじめに Agentとの会話で図解 + 操作可能な UI によって、人間の認知負荷軽減とスムーズなフィードバックループを支援する「dev-process-kit」を作ったので紹介します！ https://github.com/d-kimu…"
+    },
+    {
+      "id": "a181d6f2ab0c",
+      "title": "「RAG を英語で 30 秒説明できますか？」一次情報の\"条件読み\"を鍛える学習パイプラインを作ってみた",
+      "url": "https://zenn.dev/yiyibuilds/articles/162d7710f21639",
+      "publishedAt": "2026-10-05T22:59:01.000Z",
+      "publisher": "yiyibuilds",
+      "summary": "TL;DR AI の一次情報（論文・技術記事）は英語。翻訳では may / under these conditions / compared with といった「判断の条件」が落ち、「わかったつもり」になる 「原文を読む → 3 概念を…"
+    },
+    {
+      "id": "b741936d2282",
+      "title": "今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-09-tech-daily",
+      "publishedAt": "2026-10-05T22:34:31.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 本日の技術トレンドでは、AI領域において単一のLLM活用から「AIエージェント」や「フィジカルAI（具身知能）」への実用化シフトが顕著になっています。一方、PythonエコシステムではOpenAIによるAstralの買収が大きな注目を…"
+    },
+    {
+      "id": "69c942629d6b",
+      "title": "常駐型AIチャットエージェントが扱うログの「保持期間・削除」設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-data-retention-deletion-design",
+      "publishedAt": "2026-10-05T22:11:00.000Z",
+      "publisher": "HACH",
+      "summary": "チャットに常駐して会話・添付ファイル・要約結果を蓄積していくタイプのAIエージェントは、使えば使うほど「過去を覚えていて便利」になる一方、その裏側では契約金額・人事情報・取引先名といった機密を含む生ログがどこかに積み重なっていきます。この…"
+    },
+    {
       "id": "1b61f5efc6a4",
       "title": "質問許可の指示は『聞くかどうか』でなく『どう聞くか』を変えた",
       "url": "https://zenn.dev/every_ai_recipe/articles/ai-question-limit-3-no-guess-check",
@@ -68,41 +100,9 @@
       "publishedAt": "2026-10-05T17:09:11.000Z",
       "publisher": "kaizenbase",
       "summary": "士業事務所向けの生成AI導入支援を想定して、FAQ自動応答チャットボットを作りました。結論から言うと、FAQが15件程度ならRAGは要りません。 システムプロンプトに全件を埋め込むだけで、精度もコストも十分でした。この記事では、RAGを選…"
-    },
-    {
-      "id": "d61b7ad3d012",
-      "title": "Claude Codeに1か月の運用を任せて、止まった場所を全部記録した",
-      "url": "https://zenn.dev/zeroyen_dev/articles/claude-code-where-automation-stops",
-      "publishedAt": "2026-10-05T16:34:44.000Z",
-      "publisher": "ゼロ円開発ログ",
-      "summary": "AI（Claude Code）に、ブログの運用そのものを1か月任せました。記事を書く、数字を測る、サイトを直す、定期実行を組む。コードを書かせるのではなく、作業を回させる使い方です。 結果として、止まった場所が偏っていることが分かりました…"
-    },
-    {
-      "id": "988569b6609e",
-      "title": "Opus 5.5とSonnet 5.5、どっちを使う？ 新しいSonnet 5.5を数字で比べた",
-      "url": "https://zenn.dev/shoujiki_panman/articles/claude-sonnet-5-5-or-opus",
-      "publishedAt": "2026-10-05T15:41:21.000Z",
-      "publisher": "田沼秀",
-      "summary": "本記事について Claude Codeの最初のモデルはOpus 5.5です。いつも上位のモデルでいいのか、もっと速く安く済ませられないのか。迷ったことはありませんか。 9月28日、Anthropicは「Claude Sonnet 5.5」…"
-    },
-    {
-      "id": "d1f3f8008822",
-      "title": "コードはAIが書く。人間は条件を書く ― Claude Code に開発を任せるAIコーディング実践",
-      "url": "https://zenn.dev/fpaico/books/ai-coding-with-github",
-      "publishedAt": "2026-10-05T15:21:00.000Z",
-      "publisher": "Keita+",
-      "summary": "Claude Code を初めて使う人向けに、インストールから始めます。人間はコードを書かず、受け入れ条件を書いて、計画と結果を承認するだけ。小さなWebゲームを題材に、頼む→計画→実装→テスト→レビュー→公開の流れを、手を動かしながら作…"
-    },
-    {
-      "id": "43e1581f4fdd",
-      "title": "AI エージェント IDE「Teaspoon IDE」v1.0.0 正式版をリリースしました",
-      "url": "https://zenn.dev/cuculhart/articles/af58a16945b9ae",
-      "publishedAt": "2026-10-05T15:02:47.000Z",
-      "publisher": "ククルハート",
-      "summary": "Electron 製のスタンドアロン AI コーディングエージェント IDE「Teaspoon IDE」の正式版 v1.0.0 をリリースしました。 https://github.com/cuculhart/teaspoon-ide 9月…"
     }
   ],
-  "fetchedAt": "2026-10-06T01:38:54.607Z",
+  "fetchedAt": "2026-10-06T08:08:27.587Z",
   "stale": false,
   "error": null
 }
