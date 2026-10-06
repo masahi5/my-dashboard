@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9eff9d7f340b",
-      "title": "UndoBench: Separating Task Competence from Recovery Capability in Tool-Using AI Agents",
-      "url": "https://huggingface.co/papers/2610.05622",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "Tool-using AI agents are increasingly deployed across enterprise software systems, yet widely used benchmarks primarily…",
+      "id": "79a0f30b3319",
+      "title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
+      "url": "https://huggingface.co/papers/2610.02331",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately e…",
       "score": 6
     },
     {
-      "id": "00b0d58e165c",
-      "title": "LiFT: Loop Flow Transformers",
-      "url": "https://huggingface.co/papers/2610.05538",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "We introduce Loop Flow Transformers (LiFT), a family of looped generative models that scales computation by repeatedly …",
-      "score": 4
-    },
-    {
-      "id": "d0941fbdf4cf",
-      "title": "What Matters for Latent Reasoning with Flow Matching",
-      "url": "https://huggingface.co/papers/2610.06666",
+      "id": "82ac0b964e38",
+      "title": "Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks",
+      "url": "https://huggingface.co/papers/2610.05750",
       "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Latent reasoning lets a large language model (LLM) think in a continuous space and verbalize only the answer. We argue …",
-      "score": 4
-    },
-    {
-      "id": "c79cf9ee6fa8",
-      "title": "How to Loop MoE: Flatten the Experts, Untie the Attention",
-      "url": "https://huggingface.co/papers/2609.35751",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Looped Transformers reuse one block of layers several times: by spending extra computation they push a model of fixed s…",
+      "summary": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructu…",
       "score": 3
     },
     {
-      "id": "001dab226c59",
-      "title": "GeoCR: Learning a Generalist Cloud Removal Prior from Heterogeneous Observations",
-      "url": "https://huggingface.co/papers/2609.32510",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Cloud removal methods are typically specialized to individual datasets and input configurations, limiting reuse across …",
-      "score": 2
-    },
-    {
-      "id": "2c9d193543e2",
-      "title": "GeoSET: Generalist Foundation Model for SAR-to-EO Image Translation",
-      "url": "https://huggingface.co/papers/2609.37496",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Paired synthetic aperture radar (SAR) and electro-optical (EO) imagery is increasingly available across sensors, resolu…",
-      "score": 2
-    },
-    {
-      "id": "d16516e1484a",
-      "title": "HLA-WM: Hybrid Linear Attention for Long-Horizon Video World Models",
-      "url": "https://huggingface.co/papers/2610.05739",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Long-horizon video world models require persistent memory to preserve scene consistency over extended rollouts. Softmax…",
-      "score": 2
-    },
-    {
-      "id": "e19b319cb5e6",
-      "title": "Adapting prior-data fitted networks for tabular anomaly detection",
-      "url": "https://huggingface.co/papers/2610.06693",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "While deep features have transformed anomaly detection in images and video, their impact on tabular data has been less …",
-      "score": 1
-    },
-    {
-      "id": "9007c38c835e",
-      "title": "SoK: Semantic Decision Engines in Network Control Loops",
-      "url": "https://huggingface.co/papers/2610.06425",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "A semantic decision engine such as Jev can return a valid answer and still miss a network deadline, select an infeasibl…",
-      "score": 1
-    },
-    {
-      "id": "a7a6bbfcd818",
-      "title": "Intent Interpretation at RIC Timescales: Jev Decision Models versus Large Language Models in 6G Open RAN",
-      "url": "https://huggingface.co/papers/2609.23136",
+      "id": "1a07da08ae21",
+      "title": "COSMI: COmpositional Synthesis of Multi-object Interactions",
+      "url": "https://huggingface.co/papers/2610.03252",
       "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Intent-based Open RAN needs an interpreter that turns intents into A1 policies within the loop of the RAN intelligent c…",
+      "summary": "Generative models of human-object interaction are bounded by the data that exists: everyday activities involve several …",
+      "score": 2
+    },
+    {
+      "id": "7588987c1bd8",
+      "title": "Adaptive Fused Prior Transfer for Controllable Generative Image Compression",
+      "url": "https://huggingface.co/papers/2605.16817",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Learned image compression achieves competitive rate-distortion performance, but very-low-bitrate reconstruction remains…",
       "score": 1
     },
     {
-      "id": "9270e13875f6",
-      "title": "Empirical Variational Autoencoder",
-      "url": "https://huggingface.co/papers/2610.06545",
+      "id": "8c586786e198",
+      "title": "LLM-as-Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them",
+      "url": "https://huggingface.co/papers/2610.02076",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Jev-style decision models return categorical probability distributions over predefined options without generating free-…",
+      "score": 1
+    },
+    {
+      "id": "43e060b5c5e2",
+      "title": "Collaborative Personalized Preference Alignment for LLMs under Data Deficiency",
+      "url": "https://huggingface.co/papers/2610.05898",
       "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "We present Empirical Variational Autoencoder, a general generative framework for continuous-valued (i.e., non-vector-qu…",
+      "summary": "Real-world users often exhibit highly heterogeneous preferences over multiple objectives for LLM responses. A lightweig…",
+      "score": 1
+    },
+    {
+      "id": "ae5b7b703039",
+      "title": "Learning Latent Protein Languages for Autoregressive Generation",
+      "url": "https://huggingface.co/papers/2610.03978",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "Autoregressive transformers remain comparatively weak for protein sequence and structure generation. We study the role …",
+      "score": 1
+    },
+    {
+      "id": "b8cf5905116a",
+      "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
+      "url": "https://huggingface.co/papers/2610.05790",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Remote sensing foundation models (RSFMs) are commonly evaluated using aggregate metrics, which can hide systematic perf…",
+      "score": 1
+    },
+    {
+      "id": "92a2206a26e6",
+      "title": "Closing the Context Gap: Activation Alignment for Tabular In-Context Learning",
+      "url": "https://huggingface.co/papers/2610.06679",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Tabular foundation models perform in-context learning (ICL) by conditioning predictions on labeled training examples pr…",
       "score": 0
     },
     {
-      "id": "b978ce51b0e0",
-      "title": "MEA: A Reward-Driven Multi-Agent System for Faithful Model Explanations",
-      "url": "https://huggingface.co/papers/2610.02480",
+      "id": "ff118b2bb5e7",
+      "title": "Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution",
+      "url": "https://huggingface.co/papers/2610.06804",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "A language model can give a correct answer more probability than any single incorrect answer and still usually sample a…",
+      "score": 0
+    },
+    {
+      "id": "a6858ca5fdd9",
+      "title": "Labels Override Definitions in Jev-Style Typed Decision Models",
+      "url": "https://huggingface.co/papers/2610.02586",
       "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "Recent years have seen the employment of a plethora of machine learning (ML) models in high-stakes domains, but they re…",
+      "summary": "A typed decision model answers a fixed question about an input by returning a probability for each of several caller-de…",
+      "score": 0
+    },
+    {
+      "id": "688c00f60396",
+      "title": "iADD: Improving Alignment and Diversity in Diffusion Policy Optimization",
+      "url": "https://huggingface.co/papers/2610.01789",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Reinforcement learning based post training of diffusion models, such as Denoising Diffusion Policy Optimization (DDPO),…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-06T15:10:21.203Z",
+  "fetchedAt": "2026-10-06T20:18:28.112Z",
   "stale": false,
   "error": null
 }
