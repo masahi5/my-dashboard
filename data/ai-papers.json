@@ -6,28 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "1b530075dd46",
-      "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
-      "url": "https://huggingface.co/papers/2610.01780",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "A companion that talks with a person for months should come to understand them. It should remember what they said, infe…",
-      "score": 184
-    },
-    {
-      "id": "14592fdf6ee0",
-      "title": "Latent-MOPD: Latent Multi-Teacher On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2610.02381",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) trains a student on the responses it generates. Existing LLM multi-teacher OPD transfers w…",
-      "score": 28
-    },
-    {
       "id": "86b1bf6a8659",
       "title": "Tail-Influence Sampling for CVaR Policy Evaluation",
       "url": "https://huggingface.co/papers/2609.38096",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "Policies with similar mean returns can differ sharply in rare failures, yet estimating lower-tail conditional value-at-…",
-      "score": 17
+      "score": 21
     },
     {
       "id": "04d36fab73ed",
@@ -35,23 +19,15 @@
       "url": "https://huggingface.co/papers/2610.03715",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dyna…",
-      "score": 12
+      "score": 19
     },
     {
-      "id": "4f10574db234",
-      "title": "Beyond Future Prediction: Denoising as Generative Adaptation for Robot Control",
-      "url": "https://huggingface.co/papers/2609.28339",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "summary": "Pretrained generative Diffusion Transformers (DiTs) capture rich pixel-level visual and language-conditioned structure …",
-      "score": 12
-    },
-    {
-      "id": "efa22c187169",
-      "title": "MinkowskiPE: Minkowski Positional Encoding for Spatiotemporal Perception",
-      "url": "https://huggingface.co/papers/2609.33804",
-      "publishedAt": "2026-09-27T00:00:00.000Z",
-      "summary": "Modeling spatiotemporal coupling is a key challenge in building physical intelligence across scales, from microscopic t…",
-      "score": 9
+      "id": "ef602cf3f00b",
+      "title": "PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2610.02840",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "World action models jointly learn to forecast world dynamics and predict robot actions, such that the learned internal …",
+      "score": 13
     },
     {
       "id": "582949ceed36",
@@ -59,15 +35,15 @@
       "url": "https://huggingface.co/papers/2609.30467",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "summary": "Retrieval-based factuality evaluation, where LLM-generated claims are verified against evidence from authoritative medi…",
-      "score": 7
+      "score": 11
     },
     {
-      "id": "3641acaf3744",
-      "title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models",
-      "url": "https://huggingface.co/papers/2609.26425",
+      "id": "d8526fa834be",
+      "title": "WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning",
+      "url": "https://huggingface.co/papers/2609.34826",
       "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Video world models achieve long-range temporal consistency by storing KV cache during generation, but the growing cache…",
-      "score": 5
+      "summary": "Humans often solve spatial problems by mentally simulating visual transformations. In contrast, conventional vision-lan…",
+      "score": 9
     },
     {
       "id": "af74560baae7",
@@ -75,15 +51,15 @@
       "url": "https://huggingface.co/papers/2610.03710",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with …",
-      "score": 4
+      "score": 9
     },
     {
-      "id": "77ce7d8df0e9",
-      "title": "KeyRec: Bounded Visual Memory for Streaming and Long-Video Understanding",
-      "url": "https://huggingface.co/papers/2609.32182",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "summary": "Vision-language models are increasingly used to understand long videos and continuous streams. However, dense visual to…",
-      "score": 3
+      "id": "a194138309c0",
+      "title": "Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing",
+      "url": "https://huggingface.co/papers/2610.02772",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "Large language models (LLMs) increasingly serve as general-purpose interfaces to factual knowledge, but their parameter…",
+      "score": 7
     },
     {
       "id": "dc740f422b90",
@@ -91,7 +67,15 @@
       "url": "https://huggingface.co/papers/2610.02710",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "summary": "Terminal agents are increasingly deployed beyond software engineering in science and other specialized domains. Constru…",
-      "score": 1
+      "score": 7
+    },
+    {
+      "id": "77ce7d8df0e9",
+      "title": "KeyRec: Bounded Visual Memory for Streaming and Long-Video Understanding",
+      "url": "https://huggingface.co/papers/2609.32182",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "summary": "Vision-language models are increasingly used to understand long videos and continuous streams. However, dense visual to…",
+      "score": 7
     },
     {
       "id": "530b5aeb5b3e",
@@ -99,10 +83,26 @@
       "url": "https://huggingface.co/papers/2609.32759",
       "publishedAt": "2026-09-26T00:00:00.000Z",
       "summary": "We introduce the Extender, a log-structured variant of the standard Transformer architecture. In a standard Transformer…",
+      "score": 6
+    },
+    {
+      "id": "41c393b56355",
+      "title": "JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts",
+      "url": "https://huggingface.co/papers/2610.00722",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "World models enable agents to plan by predicting future states of the environment, but their predictions can become unr…",
+      "score": 2
+    },
+    {
+      "id": "1a6c436d6443",
+      "title": "CUAWright: A Minimal Unified Interface for Digital Agents",
+      "url": "https://huggingface.co/papers/2610.04116",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "The prevailing approach to computer-use agents couples a model with a domain-specific harness: a browser or desktop env…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-10-05T20:47:12.965Z",
+  "fetchedAt": "2026-10-06T01:38:54.486Z",
   "stale": false,
   "error": null
 }

@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "99ddf32ae717",
-      "title": "AgentCoreで使うブラウザ選定 -AgentCore Browser-",
-      "url": "https://zenn.dev/riku0120/articles/ed74ef9c3d7882",
-      "publishedAt": "2026-10-05T11:08:58.000Z",
-      "publisher": "riku",
-      "summary": "導入 agentcoreでweb検索機能を実装ようと思った際に方法がいくつもあったため、それらの使用感をまとめることにしました。 前提 今回の調査では、Amazon Bedrock AgentCore Runtime を CodeZip方…"
+      "id": "1b61f5efc6a4",
+      "title": "質問許可の指示は『聞くかどうか』でなく『どう聞くか』を変えた",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-question-limit-3-no-guess-check",
+      "publishedAt": "2026-10-05T21:27:24.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR note版・ブログ版では非エンジニア向けに「AIへの丸投げ依頼に『質問は3つまでに絞って』と一言添えると、質問の数を減らせる」という手順を紹介した。Zenn版では、なぜこの指示が効いたのかを一歩掘り下げる 情報がほぼ空の依頼（…"
     },
     {
-      "id": "c0de9cdc9663",
-      "title": "CodeRabbit のレビュー対応を自動で回す TAKT の新機能「takt caccia」",
-      "url": "https://zenn.dev/nrs/articles/46232041c2fafc",
-      "publishedAt": "2026-10-05T11:00:05.000Z",
-      "publisher": "nrs",
-      "summary": "PR を作ると CodeRabbit がレビューしてくれる。 指摘を読んで、AI に修正を頼む。 修正を Push すると再レビューが来るので、また指摘を読んで修正を頼む。 コードを書く作業を AI に任せても、この往復を人間が回している…"
+      "id": "9450a2c45719",
+      "title": "Space Bunny: a long-context multimodal AI playground and API",
+      "url": "https://zenn.dev/haoli197654/articles/a399bafcd2dfbd",
+      "publishedAt": "2026-10-05T21:17:55.000Z",
+      "publisher": "好李",
+      "summary": "Space Bunny Alpha is an anonymous preview reasoning model available through an online playground and an OpenAI-compatib…"
     },
     {
-      "id": "12c6c25ca6b8",
-      "title": "AIに書かせるSEO記事の品質を、ルール・一次情報・公開前チェックの3層で担保する設計",
-      "url": "https://zenn.dev/tmiyachi/articles/seo-article-quality-layers",
-      "publishedAt": "2026-10-05T11:00:00.000Z",
-      "publisher": "みやっち Toshimitsu Miyachi",
-      "summary": "自社（株式会社AI Orchestra）の会社サイトのコラムは、記事を書いているのが人ではなくClaude Codeです。2026年7月からSEOに力を入れ始め、競合の強いAIのジャンルでも、Codex関連のキーワードで上位に入るようにな…"
+      "id": "ae070ebe58c9",
+      "title": "なぜ芸術大学が、100人規模のテックチームで自社開発を進めるのか",
+      "url": "https://zenn.dev/xtm_blog/articles/4f3154ba93a4e5",
+      "publishedAt": "2026-10-05T21:14:02.000Z",
+      "publisher": "京都芸術大学 / クロステック・マネジメント",
+      "summary": "京都芸術大学のテックブログですが、開始から1年以上が経ち、本記事が記念すべき50本目の投稿となりました。 この間にテックブログの立ち上げだけではなく、Go Conference や YAPC へのスポンサード、各種外部イベントへの登壇など…"
     },
     {
-      "id": "c030ea8dd36d",
-      "title": "AIにどこまで行動させてよいのか？― AIの判断とAuthorizationを分離してみる",
-      "url": "https://zenn.dev/kondonator/articles/88ed39d4950a0f",
-      "publishedAt": "2026-10-05T10:58:32.000Z",
-      "publisher": "kondonator",
-      "summary": "はじめに 前回の記事では、履歴書のような「AIに読み込ませる文書」の中に、AIに対する指示が含まれていた場合、AIがその指示を実行してしまう可能性を実験しました。 Prompt Injectionです。 AIは与えられた情報を正しく扱える…"
+      "id": "cefbec4b30e7",
+      "title": "こんな時代だから Seasar2 を構築してみようか",
+      "url": "https://zenn.dev/tokium_dev/articles/4dbec90075dab0",
+      "publishedAt": "2026-10-05T21:00:05.000Z",
+      "publisher": "tomoyukiinoue",
+      "summary": "Claude CodeやCodexに聞けば、知らない技術でもそれっぽいものが完成します。 課題はありつつも、基本的には便利な世の中になったものです。 便利になった反面、スキル習得のための学習の機会は奪われてしまったかもしれません。 それで…"
     },
     {
-      "id": "11087a0c02b5",
-      "title": "Claude Code の作り手が語る CLAUDE.md の終わり・Mods・エージェントの事故（#34 解説）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr34-shihipar-summary",
-      "publishedAt": "2026-10-05T10:33:03.000Z",
-      "publisher": "管理人K",
-      "summary": "! この記事は、Latent Space の公開回「The Future of Claude Code: Mods, Mutable Software, & Multiplayer Agents」（2026-09-29、1時間34分）の紹…"
+      "id": "aa51e5a9baee",
+      "title": "PhotoshopやIllustrator代替OSS 7種をCodexにMCP接続してみた",
+      "url": "https://zenn.dev/610birth/articles/9c1b5a701f26a2",
+      "publishedAt": "2026-10-05T20:42:41.000Z",
+      "publisher": "ろくい・ちまる",
+      "summary": "Colissの「PhotoshopやIllustratorをオープンソースで再構築」という記事を読みました。 何これ、すごすぎる！！ PhotoshopやIllustratorをオープンソースで再構築、しかもWin、Mac、Linux、W…"
     },
     {
-      "id": "e8e9b67f3e79",
-      "title": "ML.GENERATE_TEXTからAI.*関数へ — 何が変わり、どう移行するか",
-      "url": "https://zenn.dev/web_benriya/articles/bigquery-ml-generate-text-to-ai-functions",
-      "publishedAt": "2026-10-05T10:18:14.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに シリーズ第4回、フェーズ1の最終回です。 BigQuery で LLM を使う方法を調べると、2つの世代の情報が混在しています。 古い世代：CREATE MODEL でリモートモデルを作り、ML.GENERATE_TEXT で呼…"
+      "id": "8461be786304",
+      "title": "Claude Codeに「意味の監査」をインストールできるSkillを作った",
+      "url": "https://zenn.dev/onmitsu/articles/meaning-audit-skill",
+      "publishedAt": "2026-10-05T18:59:58.000Z",
+      "publisher": "土開千昭｜「意味の監査」／株式会社隠密 CEO",
+      "summary": "営業資料に、こういう数字が出てくることがあります。 成約 15/20社 普通に読むと、「成約率が高いのかな」と思います。もちろん全面的に信じるわけではなく、営業資料だから多少強く見せているだろうとも考えます。それでも、「まあそんなものかな…"
     },
     {
-      "id": "fc4a12fcf8a0",
-      "title": "とうとうローカルLLMに手を出そうと思う",
-      "url": "https://zenn.dev/i_shinya/articles/local-llm-pi-agent",
-      "publishedAt": "2026-10-05T10:17:45.000Z",
-      "publisher": "デグー団子",
-      "summary": "Claude Codeのトークンが足りない！ 足りない！サブスクリプションの枠が足りない！ そうだ！ローカルLLMを使おう！ トークン消費量を減らすようにハーネス改善するのも手ではありますが、一部の処理をローカルLLMに移譲したりできない…"
+      "id": "eb6009a5f08b",
+      "title": "「モデルが劣化した」は本当か？ペリカンテストを数十回回して分かったこと",
+      "url": "https://zenn.dev/searching/articles/430e9ab5dbd7e6",
+      "publishedAt": "2026-10-05T18:17:10.000Z",
+      "publisher": "searching",
+      "summary": "開示： 私は記事の後半で触れている Folkbench の開発に関わっています。 使い古された話題なのに、いまだにきちんと決着がついていない問題についてずっと考えています。よく「このモデル、最近バカになった」「また劣化した」と言いますが、…"
     },
     {
-      "id": "bdd1b1e7c691",
-      "title": "Snowflake per-user quotas で作る、AI 利用コストの個人別上限と引き上げ申請の運用",
-      "url": "https://zenn.dev/finatext/articles/snowflake-ai-quota-escalation-tag",
-      "publishedAt": "2026-10-05T10:00:05.000Z",
-      "publisher": "tnagai",
-      "summary": "はじめに ナウキャストでデータエンジニアをしている永井です。 前回の記事では、CoCo（旧 Cortex Code）がエージェントとして自動実行する SQL から AI SQL 関数が呼ばれると、Resource Monitor にも C…"
+      "id": "b9be8eed9172",
+      "title": "RAGを使わずClaude Haiku 4.5でFAQボットを作った理由",
+      "url": "https://zenn.dev/kaizenbase/articles/e0477abe9b642f",
+      "publishedAt": "2026-10-05T17:09:11.000Z",
+      "publisher": "kaizenbase",
+      "summary": "士業事務所向けの生成AI導入支援を想定して、FAQ自動応答チャットボットを作りました。結論から言うと、FAQが15件程度ならRAGは要りません。 システムプロンプトに全件を埋め込むだけで、精度もコストも十分でした。この記事では、RAGを選…"
     },
     {
-      "id": "a6ee19dce038",
-      "title": "Claude Code・Codexの利用量をCSVで集計するCLI「aiUsage」を作った",
-      "url": "https://zenn.dev/t_tokunaga/articles/2026-10-04-aiusage-cli",
-      "publishedAt": "2026-10-05T09:57:08.000Z",
-      "publisher": "TakumiTOKUNAGA",
-      "summary": "Claude CodeやCodexを使っていて、「今月はどのモデルを、どれくらい使ったのか」を確認したくなったことはありませんか。 私は毎月のAI利用量を記事にまとめています。そのたびに保存ログを調べ、モデルごとにトークン数を集計し、AP…"
+      "id": "d61b7ad3d012",
+      "title": "Claude Codeに1か月の運用を任せて、止まった場所を全部記録した",
+      "url": "https://zenn.dev/zeroyen_dev/articles/claude-code-where-automation-stops",
+      "publishedAt": "2026-10-05T16:34:44.000Z",
+      "publisher": "ゼロ円開発ログ",
+      "summary": "AI（Claude Code）に、ブログの運用そのものを1か月任せました。記事を書く、数字を測る、サイトを直す、定期実行を組む。コードを書かせるのではなく、作業を回させる使い方です。 結果として、止まった場所が偏っていることが分かりました…"
     },
     {
-      "id": "b0f477270bbf",
-      "title": "AIが返すJSONを信じない ― TypeScriptの「型は実行時に消える」から始めるAI開発",
-      "url": "https://zenn.dev/genhiroko/articles/468fc439f79b0b",
-      "publishedAt": "2026-10-05T09:52:24.000Z",
-      "publisher": "genhiroko",
-      "summary": "この記事で伝えたいこと AIを組み込んだアプリを作る言語として、TypeScriptを選ぶ人が増えています。理由はいくつもありますが、私が一番大事だと思っているのは次の一点です。 型は「AIの出力を受け取る境界線」を設計するための道具にな…"
+      "id": "988569b6609e",
+      "title": "Opus 5.5とSonnet 5.5、どっちを使う？ 新しいSonnet 5.5を数字で比べた",
+      "url": "https://zenn.dev/shoujiki_panman/articles/claude-sonnet-5-5-or-opus",
+      "publishedAt": "2026-10-05T15:41:21.000Z",
+      "publisher": "田沼秀",
+      "summary": "本記事について Claude Codeの最初のモデルはOpus 5.5です。いつも上位のモデルでいいのか、もっと速く安く済ませられないのか。迷ったことはありませんか。 9月28日、Anthropicは「Claude Sonnet 5.5」…"
     },
     {
-      "id": "aa824b799adf",
-      "title": "無料のAIポートレート生成ツールおすすめ10選【2026年版】登録不要のツールも紹介",
-      "url": "https://zenn.dev/donaldxs/articles/847b19bf89c0bc",
-      "publishedAt": "2026-10-05T09:49:45.000Z",
-      "publisher": "森川 悠真",
-      "summary": "この記事の対象と範囲 対象読者：LinkedIn や履歴書、登壇資料のプロフィール欄に使う写真を、手元の自撮りから無料で作りたい方。登録せずに試せるか、ウォーターマークが入るか、商用で使えるかを先に知っておきたい方を想定しています。 扱う…"
+      "id": "d1f3f8008822",
+      "title": "コードはAIが書く。人間は条件を書く ― Claude Code に開発を任せるAIコーディング実践",
+      "url": "https://zenn.dev/fpaico/books/ai-coding-with-github",
+      "publishedAt": "2026-10-05T15:21:00.000Z",
+      "publisher": "Keita+",
+      "summary": "Claude Code を初めて使う人向けに、インストールから始めます。人間はコードを書かず、受け入れ条件を書いて、計画と結果を承認するだけ。小さなWebゲームを題材に、頼む→計画→実装→テスト→レビュー→公開の流れを、手を動かしながら作…"
     },
     {
-      "id": "e14f534e13f2",
-      "title": "別の問いなのに前の結論へ戻るなら、そのチャットを閉じる",
-      "url": "https://zenn.dev/amayann/articles/long-chat-restart",
-      "publishedAt": "2026-10-05T09:40:29.000Z",
-      "publisher": "bauhaus",
-      "summary": "コーディングエージェントとのチャットが長くなると、別の問いを出しても、返事が以前の結論へ戻ることがあります。聞いていることと返事が揃っているなら、二度同じ答えが返るのは、その決定どおりです。困るのは、別の問いなのに、返事だけが前の結論へ戻…"
+      "id": "43e1581f4fdd",
+      "title": "AI エージェント IDE「Teaspoon IDE」v1.0.0 正式版をリリースしました",
+      "url": "https://zenn.dev/cuculhart/articles/af58a16945b9ae",
+      "publishedAt": "2026-10-05T15:02:47.000Z",
+      "publisher": "ククルハート",
+      "summary": "Electron 製のスタンドアロン AI コーディングエージェント IDE「Teaspoon IDE」の正式版 v1.0.0 をリリースしました。 https://github.com/cuculhart/teaspoon-ide 9月…"
     }
   ],
-  "fetchedAt": "2026-10-05T20:47:13.067Z",
+  "fetchedAt": "2026-10-06T01:38:54.607Z",
   "stale": false,
   "error": null
 }
