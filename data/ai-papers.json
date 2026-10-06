@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2610.02331",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "summary": "Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately e…",
-      "score": 6
+      "score": 8
     },
     {
       "id": "82ac0b964e38",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2610.05750",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "summary": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructu…",
-      "score": 3
+      "score": 4
     },
     {
       "id": "1a07da08ae21",
@@ -27,15 +27,7 @@
       "url": "https://huggingface.co/papers/2610.03252",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "summary": "Generative models of human-object interaction are bounded by the data that exists: everyday activities involve several …",
-      "score": 2
-    },
-    {
-      "id": "7588987c1bd8",
-      "title": "Adaptive Fused Prior Transfer for Controllable Generative Image Compression",
-      "url": "https://huggingface.co/papers/2605.16817",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Learned image compression achieves competitive rate-distortion performance, but very-low-bitrate reconstruction remains…",
-      "score": 1
+      "score": 3
     },
     {
       "id": "8c586786e198",
@@ -43,7 +35,7 @@
       "url": "https://huggingface.co/papers/2610.02076",
       "publishedAt": "2026-10-04T00:00:00.000Z",
       "summary": "Jev-style decision models return categorical probability distributions over predefined options without generating free-…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "43e060b5c5e2",
@@ -51,7 +43,7 @@
       "url": "https://huggingface.co/papers/2610.05898",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "summary": "Real-world users often exhibit highly heterogeneous preferences over multiple objectives for LLM responses. A lightweig…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "ae5b7b703039",
@@ -59,14 +51,22 @@
       "url": "https://huggingface.co/papers/2610.03978",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "summary": "Autoregressive transformers remain comparatively weak for protein sequence and structure generation. We study the role …",
+      "score": 2
+    },
+    {
+      "id": "8cc83c547785",
+      "title": "The Numerical Linear Algebra of Large Language Models",
+      "url": "https://huggingface.co/papers/2610.04631",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "summary": "Numerical Linear Algebra (NLA) has consistently played a vital role in advancing science by providing tools to solve fu…",
       "score": 1
     },
     {
-      "id": "b8cf5905116a",
-      "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
-      "url": "https://huggingface.co/papers/2610.05790",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Remote sensing foundation models (RSFMs) are commonly evaluated using aggregate metrics, which can hide systematic perf…",
+      "id": "416abb254a7b",
+      "title": "Agentic discovery of blood biomarker from distilled private health records",
+      "url": "https://huggingface.co/papers/2610.04749",
+      "publishedAt": "2026-10-03T20:30:38.000Z",
+      "summary": "Routine complete blood counts (CBCs) could yield new biomarkers, but the private records needed to evaluate candidates …",
       "score": 1
     },
     {
@@ -75,7 +75,7 @@
       "url": "https://huggingface.co/papers/2610.06679",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "summary": "Tabular foundation models perform in-context learning (ICL) by conditioning predictions on labeled training examples pr…",
-      "score": 0
+      "score": 1
     },
     {
       "id": "ff118b2bb5e7",
@@ -83,7 +83,7 @@
       "url": "https://huggingface.co/papers/2610.06804",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "summary": "A language model can give a correct answer more probability than any single incorrect answer and still usually sample a…",
-      "score": 0
+      "score": 1
     },
     {
       "id": "a6858ca5fdd9",
@@ -91,18 +91,18 @@
       "url": "https://huggingface.co/papers/2610.02586",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "summary": "A typed decision model answers a fixed question about an input by returning a probability for each of several caller-de…",
-      "score": 0
+      "score": 1
     },
     {
-      "id": "688c00f60396",
-      "title": "iADD: Improving Alignment and Diversity in Diffusion Policy Optimization",
-      "url": "https://huggingface.co/papers/2610.01789",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "Reinforcement learning based post training of diffusion models, such as Denoising Diffusion Policy Optimization (DDPO),…",
-      "score": 0
+      "id": "7588987c1bd8",
+      "title": "Adaptive Fused Prior Transfer for Controllable Generative Image Compression",
+      "url": "https://huggingface.co/papers/2605.16817",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Learned image compression achieves competitive rate-distortion performance, but very-low-bitrate reconstruction remains…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-10-06T20:18:28.112Z",
+  "fetchedAt": "2026-10-06T23:57:24.747Z",
   "stale": false,
   "error": null
 }

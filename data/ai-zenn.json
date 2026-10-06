@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "2efa5ea12ed5",
-      "title": "エンジニアの仕事は、作ることから境界を引くことに変わった",
-      "url": "https://zenn.dev/kanayagawa/articles/engineer-work-drawing-boundaries",
-      "publishedAt": "2026-10-06T18:27:31.000Z",
-      "publisher": "高橋寿昌",
-      "summary": "今年に入ってから、仕事で書くコードの差分をほとんど読まなくなった。書くのはAIで、検証も別のAIにさせる。自社で使っているGitLabを4段階で版上げしたときも、手順の調査から実行までAIに指示し、停止時間は41分だった。私がしたのは、ど…"
+      "id": "acaabd4345e7",
+      "title": "「改竄不可能な実験ノート」を謳うAI co-scientistを動かそうとしたら、動かす前に躓いた話",
+      "url": "https://zenn.dev/matsushima_a/articles/day-007-claim-vs-execution-log-gap",
+      "publishedAt": "2026-10-06T11:42:00.000Z",
+      "publisher": "matsu",
+      "summary": "要約 研究者が自分のPC上で動かすOSSのAI co-scientist、K-Dense BYOK(論文: arXiv:2610.00074、MIT License)を検証しようとした。この手のツールの売りは「エージェント自身は書き換えら…"
     },
     {
-      "id": "fe6b91468de6",
-      "title": "言わない技術 第3回：不具合詳細を書かない技術",
-      "url": "https://zenn.dev/garplab/articles/c932bdf7dbc149",
-      "publishedAt": "2026-10-06T18:25:26.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「言わない技術」の第 3 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の…"
-    },
-    {
-      "id": "c1475331b512",
-      "title": "AIエージェント時代のレビューを設計する — River Review 実践ガイド",
-      "url": "https://zenn.dev/minewo/books/river-review-guide",
-      "publishedAt": "2026-10-06T16:28:53.000Z",
-      "publisher": "mine_take",
-      "summary": "AIエージェントでコードを書く速度が上がるほど、ボトルネックは『誰が、何を根拠に判断するか』へ移る。本書ではRiver Reviewを題材に、Review Judgment as Code、Artifact、Evidence、Judgme…"
-    },
-    {
-      "id": "22507cebafd3",
-      "title": "AI に開発と営業を任せて分かったこと ― 人の判断をどこに残すかの運用記録",
-      "url": "https://zenn.dev/zonotech/articles/739a08c35626e5",
-      "publishedAt": "2026-10-06T15:45:28.000Z",
-      "publisher": "noa",
-      "summary": "私は個人でソフトウェア開発をしているエンジニアです。 2026 年 7 月に開発を、9 月に営業の定型作業を AI に任せる仕組みを自作し、動かしてきました。 この記事では、仕組みの全体像と、運用して実際に踏んだ落とし穴、そして人の判断を…"
-    },
-    {
-      "id": "abefda46e7c3",
-      "title": "AI エージェント向けの Blender MCP を、編集する側と描く側に分けて整理する（2026 年 10 月）",
-      "url": "https://zenn.dev/renderjanction/articles/ad1c6ebb052908",
-      "publishedAt": "2026-10-06T14:27:10.000Z",
-      "publisher": "render.janction.jp",
-      "summary": "公式: https://render.janction.jp JANCTION Render は、AI エージェントが MCP サーバーか HTTP API として呼べる、Blender のクラウド GPU レンダーファームです。この記事…"
-    },
-    {
-      "id": "76d4ed7503c0",
-      "title": "AIが書いたコード、テストは通るのに危険でした：Jestでデータ混入を見つける",
-      "url": "https://zenn.dev/yatsumi823/articles/testing-ai-generated-code-with-jest",
-      "publishedAt": "2026-10-06T14:08:30.000Z",
-      "publisher": "YATSUM!(やつみ)",
-      "summary": "はじめに AIに「注文をCSVで出力する関数を作って」と頼んだとします。返ってきたコードは読みやすく、サンプルデータでも正しいCSVを出力します。それでも、実際の仕様に合っているとは限りません。 この記事では、別テナントの注文がCSVに混…"
-    },
-    {
-      "id": "0b8952a2ad54",
-      "title": "Claude Code に任せた作業の「やること」を圧縮で失わない。tanacode 1.1.0 でチェックリストと予約送信を足しました",
-      "url": "https://zenn.dev/tanashun/articles/tanacode-v1-1-release",
-      "publishedAt": "2026-10-06T14:07:55.000Z",
+      "id": "0ecd4f017774",
+      "title": "Claude Code の会話ログ（jsonl）を読んで「Claude が読んだファイル」を一覧にする",
+      "url": "https://zenn.dev/tanashun/articles/claude-code-transcript-jsonl",
+      "publishedAt": "2026-10-06T11:31:09.000Z",
       "publisher": "tanashun",
-      "summary": "Claude Code の作業を横で見て確かめる macOS アプリ「tanacode」の 1.1.0 をリリースしました。 長い作業を Claude Code に任せていると、こんなことはありませんか。 最初に伝えた「終える前にこれを確…"
+      "summary": "Claude Code に作業を任せていると、こんなことが気になりませんか。 Claude は、どのファイルを読んだうえでこの判断をしたのか さっき読ませたファイルを、圧縮のあとも覚えているのか 長い会話の中で、自分が何を頼んだのかを振り…"
     },
     {
-      "id": "f01b2beb4550",
-      "title": "Karpathyが語る「AIが別物になった日」とバイブコーディング — Sequoia講演を要点解説",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr02-karpathy-sequoia-summary",
-      "publishedAt": "2026-10-06T13:52:58.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について Andrej Karpathy（OpenAI/Tesla出身）が Sequoia Capital で語った内容を、要点だけ抜き出して日本語で解説します。AIコーディングの最前線にいた人物が、自身の実感と失敗から「AI時代…"
+      "id": "cbab522ff1f1",
+      "title": "書いたAIにレビューさせない：Claude CodeとCodexを交代で使う3つの決めごと",
+      "url": "https://zenn.dev/relaydev/articles/c4e7b14d3e30ca",
+      "publishedAt": "2026-10-06T11:30:30.000Z",
+      "publisher": "リレー｜1年目エンジニア",
+      "summary": "1年目のエンジニアです。Claude Code と Codex の両方を使っています。 2つのツールを入れてまず困ったのは、「ルールをどちらに書くか」と「どちらが何をやったか」でした。ルールを1つのファイルにまとめる方法は、すでに良い記事…"
     },
     {
-      "id": "30172fea9b10",
-      "title": "会社で鬱になったので、GPTとClaudeに会社を作らせて養ってもらうことにした",
-      "url": "https://zenn.dev/think_node/articles/003baefa035f7e",
-      "publishedAt": "2026-10-06T13:09:09.000Z",
-      "publisher": "THINK NODE",
-      "summary": "AIに仕事を奪われるなら、AIに養ってもらえばいい 会社で鬱になった。 なので、AIに養ってもらうことにした。 最近は「AIに仕事を奪われる」という話をよく聞く。 だったら逆に、AIに仕事をさせて、人間を養わせればいいのでは？ そう考えて…"
+      "id": "67a3e0fd671d",
+      "title": "エンジニア達の「完全に理解した」Talk #81 イベントレポート",
+      "url": "https://zenn.dev/easy_easy/articles/2280a771dee24a",
+      "publishedAt": "2026-10-06T11:20:41.000Z",
+      "publisher": "星影",
+      "summary": "エンジニア達の「完全に理解した」Talk #81 2026年9月29日にオンライン開催した、完全に理解したTalkのスライド資料と概要まとめです。 完全に理解した、それはまさに「分かった気になったくらい」の理解できたくらいのもの！「覚えた…"
     },
     {
-      "id": "a5d840fc87ee",
-      "title": "Claude Code 応用編まとめ その2（#6〜#10）：MCP・/resume・claude -p・/loop・worktree",
-      "url": "https://zenn.dev/zundamon_tools/articles/claude-code-advanced-guide-2",
-      "publishedAt": "2026-10-06T13:02:08.000Z",
+      "id": "2390033e8471",
+      "title": "Claude Code 応用編まとめ その1（#1〜#5）：スキル・hooks・権限の設定・サブエージェント・agent teams",
+      "url": "https://zenn.dev/zundamon_tools/articles/claude-code-advanced-guide-1",
+      "publishedAt": "2026-10-06T11:06:21.000Z",
       "publisher": "ずんだもんの実験道具箱",
-      "summary": "Claude Code を毎日使い、外の道具とつなぎたい人、会話や作業を行き来したい人に向けた記事です。 応用編の動画 #6〜#10 の機能を、困りごとから選べるようにまとめました。読み終えると、MCP・/resume と /branch…"
+      "summary": "Claude Code の基本（依頼・許可モード・CLAUDE.md・/clear・/rewind）を使えるようになった人に向けた記事です。次に何を覚えればもっと任せられるかに答えます。 応用編の動画 #1〜#5 の機能を、困りごとから選…"
     },
     {
-      "id": "17ff014c7195",
-      "title": "デザインプロセスは死んだのか",
-      "url": "https://zenn.dev/triplethree/articles/8328ac4a055b66",
-      "publishedAt": "2026-10-06T12:54:24.000Z",
-      "publisher": "Masa",
-      "summary": "TRIPLE THREEでデザイナーをしているMasaです。 最近、どの会社の開発現場でも同じ変化が起きていると感じます。AIで実装がとても速くなり、開発の進め方そのものが変わったことです。 AirbnbのCEOブライアン・チェスキーは、…"
+      "id": "8e67e3dfd29a",
+      "title": "FlutterのAgent Skillを評価で育てる——一度の全通過で終わらせなかった改善記録",
+      "url": "https://zenn.dev/hiromoo/articles/flutter-riverpod-agent-skill-evaluation",
+      "publishedAt": "2026-10-06T10:44:26.000Z",
+      "publisher": "むた",
+      "summary": "はじめに 前回の記事では、自分が理想とするFlutterアプリの設計をAgent Skillにまとめ、Reading Shelfというサンプルとともに公開しました。Riverpodで状態を管理し、Repositoryで通信との境界を作り、…"
     },
     {
-      "id": "cace68a4d642",
-      "title": "効果測定3指標を1枚に並べ替える — 導入1か月目の総点検を「初回比較の続き」で読む設計",
-      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-mashi-soukatsu",
-      "publishedAt": "2026-10-06T12:53:10.000Z",
-      "publisher": "速水 拓真",
-      "summary": "前回は、商談5分前のメモをAIが5箱に振り分ける設計を書きました（商談5分前のメモをAIが5箱に振り分ける）。増し1本目（商談の質）・2本目（リストの鮮度）・3本目（次の商談の準備）で、守った余白の使い道が3方向に固定されました。 増し編…"
+      "id": "ac285beb138f",
+      "title": "ObjectRefで画像・PDFなど非構造化データをSQLから扱う",
+      "url": "https://zenn.dev/web_benriya/articles/bigquery-objectref-unstructured-data",
+      "publishedAt": "2026-10-06T10:19:14.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "はじめに シリーズ第15回です。 前回（第14回）では AI.FORECAST と TimesFM を使った学習不要の時系列予測を解説しました。今回は ObjectRef を取り上げます。 これまでのシリーズで扱ってきた AI.GENER…"
+    },
+    {
+      "id": "a128a3a5eb46",
+      "title": "デバッガを繋げない本番環境をどう運用するか MetaがTEEの中にストレージごと入れた判断",
+      "url": "https://zenn.dev/tariki_yashiro/articles/na-20261006-191500",
+      "publishedAt": "2026-10-06T10:18:54.000Z",
+      "publisher": "たりき社",
+      "summary": "本番で障害が起きたとき、デバッガを繋げない。メモリダンプも取れない。落ちたときの入力も見られない。 そういう環境を自分たちで作ったら、どう運用するか。Meta のエンジニアリングブログが、AIグラス向けの基盤について書いています。 読みど…"
+    },
+    {
+      "id": "d492d93f3e38",
+      "title": "クラウドエンジニアはAIに代替されるのか？ 実装と設計を任せて分かったこと",
+      "url": "https://zenn.dev/kentaro36/articles/cloud-ai-validation",
+      "publishedAt": "2026-10-06T10:14:33.000Z",
+      "publisher": "SeaOtter (Kentaro Mori)",
+      "summary": "はじめに クラウドエンジニアの仕事をAIへどこまで任せられるのか。自分の仕事を題材に、実際に試してみました。 今回は仕事を二つに分けています。 Level 2：人間が構成と安全条件を決めた環境を、AIが実装・運用できるか Level 3：…"
+    },
+    {
+      "id": "ec82022f6b2d",
+      "title": "Claude Code入門｜できること・インストール・基本操作・便利な使い方をまとめてみた",
+      "url": "https://zenn.dev/91endo/articles/38552dbed0ef33",
+      "publishedAt": "2026-10-06T09:05:05.000Z",
+      "publisher": "91endo",
+      "summary": "はじめに 最近、AIを使った開発について調べる中で、Claude Codeを知りました。 最初は、 「ClaudeとClaude Codeって何が違うんだろう？」 というくらいの理解でした。 AIにコードを書いてもらうこと自体は珍しくあり…"
+    },
+    {
+      "id": "3864372c9f9c",
+      "title": "マーケティングエンジニア入門",
+      "url": "https://zenn.dev/kevin_namba/books/afe09c60f698e8",
+      "publishedAt": "2026-10-06T09:00:57.000Z",
+      "publisher": "南波陽平",
+      "summary": "マーケティングエンジニア(Growth Engineer / GTM Engineer)とは、マーケティングや営業活動を自動運転するためにツールや AI を整備する AI 時代の新たな職種です。 この本では、AI Agent の概念である…"
+    },
+    {
+      "id": "eb20b6acd4f5",
+      "title": "AGNTCon + MCPCon Japan 2026 ブース出展レポート",
+      "url": "https://zenn.dev/finatext/articles/agntcon-mcpcon-japan-2026",
+      "publishedAt": "2026-10-06T09:00:05.000Z",
+      "publisher": "techan",
+      "summary": "こんにちは！ナウキャストで MCP ゲートウェイ「MCPass」の開発を担当している中目です。 2026年9月10日～11日にベルサール渋谷ガーデンで開催された「AGNTCon + MCPCon Japan 2026」に、ナウキャストとし…"
     }
   ],
-  "fetchedAt": "2026-10-06T20:18:28.339Z",
+  "fetchedAt": "2026-10-06T23:57:24.907Z",
   "stale": false,
   "error": null
 }
