@@ -6,6 +6,86 @@
   "category": "ai",
   "items": [
     {
+      "id": "b0a3d1151a53",
+      "title": "MynaAgentを作った：マイナンバーカードの年齢証明からJPYC給付まで",
+      "url": "https://zenn.dev/bull/articles/mynaagent-zk-age-benefit",
+      "publishedAt": "2026-10-07T00:18:43.000Z",
+      "publisher": "bull",
+      "summary": "ETHGlobal Tokyo 2026で、MynaWalletの中で動くAIエージェント、MynaAgentを作りました。「受け取れる給付を探して」と頼むと、給付の条件を調べ、本人の同意を得て申請を進めます。 デモで用意したのは、20歳…"
+    },
+    {
+      "id": "f1d4957c056d",
+      "title": "退職予兆AIに、あなたの本音は映らない。会社が本音を聞けない構造の話",
+      "url": "https://zenn.dev/shotakada/articles/honne-not-in-data",
+      "publishedAt": "2026-10-07T00:00:07.000Z",
+      "publisher": "高田祥",
+      "summary": "勤怠の乱れや社内システムの利用状況から「辞めそうな社員」をAIが検知する。退職予兆AIと呼ばれる領域があり、HR系のイベントに行くと必ずと言っていいほど話題に出る。 私はセキュリティ人材専門の採用コンサルタントで、キャリア相談も受けている…"
+    },
+    {
+      "id": "6d6620b989aa",
+      "title": "インシデント調査エージェントの品質を動かしたのはツールとプロンプトだった",
+      "url": "https://zenn.dev/ymotongpoo/articles/20261007-what-made-agents-better",
+      "publishedAt": "2026-10-07T00:00:07.000Z",
+      "publisher": "Yoshi Yamaguchi",
+      "summary": "この記事で扱うこと 前編のオブザーバビリティのAIエージェントをどう評価するかでは、シナリオを仕様として別に置き、グレーダーが実際に何が起きたかを判定する形を追いました。最後に環境の忠実度が課題として残りました。シミュレーションが多すぎれ…"
+    },
+    {
+      "id": "6380f1a1cea8",
+      "title": "「Claude Codeに渡す前」の工程が抜けている — 曖昧な依頼を構造化タスクに変換する設計",
+      "url": "https://zenn.dev/jskn_d/articles/de0e88dda00ad0",
+      "publishedAt": "2026-10-07T00:00:07.000Z",
+      "publisher": "jokooooo",
+      "summary": "はじめに Claude Code を使い始めて、実装そのものは確かに速くなりました。ところが案件全体で見ると、リードタイムは期待したほど縮みませんでした。手を動かす時間が減ったのに、終わる日が思ったほど早まらない。この違和感が出発点です。…"
+    },
+    {
+      "id": "cf86ba182eee",
+      "title": "小分けエージェントは本当に速い？検索→要約→送信で実測した",
+      "url": "https://zenn.dev/mskbhd/articles/lab-171-vs-note",
+      "publishedAt": "2026-10-06T23:54:21.000Z",
+      "publisher": "mskbhd",
+      "summary": "きっかけ X (旧Twitter) でこんな投稿を見かけた。 more agents isnt the fix, smaller scoped agents is, Kimi just found out what claude code…"
+    },
+    {
+      "id": "865a016f68cb",
+      "title": "GLM-5.3の評価をどう読むか──能力テストと安全対策テストを混ぜない",
+      "url": "https://zenn.dev/jinsights/articles/6f42563e483e08",
+      "publishedAt": "2026-10-06T23:11:56.000Z",
+      "publisher": "Hiromitsu Jin@jaxia_nexus",
+      "summary": "AIエージェントの導入評価では、タスク成功率と安全性を一つの「良さ」にまとめない方がよい。GLM-5.3のニュースを入口に、評価条件を分離し、運用上の権限へ接続する方法を整理します。攻撃手順や安全対策を回避する方法は扱いません。 一次情報…"
+    },
+    {
+      "id": "e06738cf89bc",
+      "title": "内蔵cronでlaunchd 32ジョブを畳む判断 — 自動化基盤の棚卸し",
+      "url": "https://zenn.dev/joinclass/articles/cron-launchd-32-20260929220025-4370",
+      "publishedAt": "2026-10-06T23:00:14.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "帳簿に17と書いてあるジョブが、実際には33個あった 僕の会社はほぼ全部の定常業務をmacOSのlaunchdに載せている。記事の公開、売上の取得、部門エージェントの起動、Slackへの通知。CEOは僕ひとりで、実務は全部スクリプトが回す…"
+    },
+    {
+      "id": "9ae6d61269c0",
+      "title": "英 AISI がサイバー評価を相次ぎ公開、Anthropic が Claude 基盤を拡張｜週間ダイジェスト 9/28〜10/4",
+      "url": "https://zenn.dev/karuzip/articles/4c67a108cd6e42",
+      "publishedAt": "2026-10-06T18:57:38.000Z",
+      "publisher": "karuzip",
+      "summary": "9月28日から10月4日までを対象とします。今期は、英 AISI がフロンティアモデルのサイバー能力やサンドボックス脱出、データ汚染、説得力を相次いで評価し、防御側の指針も示しました。Anthropic は Claude Code の m…"
+    },
+    {
+      "id": "2efa5ea12ed5",
+      "title": "エンジニアの仕事は、作ることから境界を引くことに変わった",
+      "url": "https://zenn.dev/kanayagawa/articles/engineer-work-drawing-boundaries",
+      "publishedAt": "2026-10-06T18:27:31.000Z",
+      "publisher": "高橋寿昌",
+      "summary": "今年に入ってから、仕事で書くコードの差分をほとんど読まなくなった。書くのはAIで、検証も別のAIにさせる。自社で使っているGitLabを4段階で版上げしたときも、手順の調査から実行までAIに指示し、停止時間は41分だった。私がしたのは、ど…"
+    },
+    {
+      "id": "fe6b91468de6",
+      "title": "言わない技術 第3回：不具合詳細を書かない技術",
+      "url": "https://zenn.dev/garplab/articles/c932bdf7dbc149",
+      "publishedAt": "2026-10-06T18:25:26.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「言わない技術」の第 3 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の…"
+    },
+    {
       "id": "c1475331b512",
       "title": "AIエージェント時代のレビューを設計する — River Review 実践ガイド",
       "url": "https://zenn.dev/minewo/books/river-review-guide",
@@ -20,89 +100,9 @@
       "publishedAt": "2026-10-06T15:45:28.000Z",
       "publisher": "noa",
       "summary": "私は個人でソフトウェア開発をしているエンジニアです。 2026 年 7 月に開発を、9 月に営業の定型作業を AI に任せる仕組みを自作し、動かしてきました。 この記事では、仕組みの全体像と、運用して実際に踏んだ落とし穴、そして人の判断を…"
-    },
-    {
-      "id": "abefda46e7c3",
-      "title": "AI エージェント向けの Blender MCP を、編集する側と描く側に分けて整理する（2026 年 10 月）",
-      "url": "https://zenn.dev/renderjanction/articles/ad1c6ebb052908",
-      "publishedAt": "2026-10-06T14:27:10.000Z",
-      "publisher": "render.janction.jp",
-      "summary": "公式: https://render.janction.jp JANCTION Render は、AI エージェントが MCP サーバーか HTTP API として呼べる、Blender のクラウド GPU レンダーファームです。この記事…"
-    },
-    {
-      "id": "76d4ed7503c0",
-      "title": "AIが書いたコード、テストは通るのに危険でした：Jestでデータ混入を見つける",
-      "url": "https://zenn.dev/yatsumi823/articles/testing-ai-generated-code-with-jest",
-      "publishedAt": "2026-10-06T14:08:30.000Z",
-      "publisher": "YATSUM!(やつみ)",
-      "summary": "はじめに AIに「注文をCSVで出力する関数を作って」と頼んだとします。返ってきたコードは読みやすく、サンプルデータでも正しいCSVを出力します。それでも、実際の仕様に合っているとは限りません。 この記事では、別テナントの注文がCSVに混…"
-    },
-    {
-      "id": "0b8952a2ad54",
-      "title": "Claude Code に任せた作業の「やること」を圧縮で失わない。tanacode 1.1.0 でチェックリストと予約送信を足しました",
-      "url": "https://zenn.dev/tanashun/articles/tanacode-v1-1-release",
-      "publishedAt": "2026-10-06T14:07:55.000Z",
-      "publisher": "tanashun",
-      "summary": "Claude Code の作業を横で見て確かめる macOS アプリ「tanacode」の 1.1.0 をリリースしました。 長い作業を Claude Code に任せていると、こんなことはありませんか。 最初に伝えた「終える前にこれを確…"
-    },
-    {
-      "id": "f01b2beb4550",
-      "title": "Karpathyが語る「AIが別物になった日」とバイブコーディング — Sequoia講演を要点解説",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr02-karpathy-sequoia-summary",
-      "publishedAt": "2026-10-06T13:52:58.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事について Andrej Karpathy（OpenAI/Tesla出身）が Sequoia Capital で語った内容を、要点だけ抜き出して日本語で解説します。AIコーディングの最前線にいた人物が、自身の実感と失敗から「AI時代…"
-    },
-    {
-      "id": "30172fea9b10",
-      "title": "会社で鬱になったので、GPTとClaudeに会社を作らせて養ってもらうことにした",
-      "url": "https://zenn.dev/think_node/articles/003baefa035f7e",
-      "publishedAt": "2026-10-06T13:09:09.000Z",
-      "publisher": "THINK NODE",
-      "summary": "AIに仕事を奪われるなら、AIに養ってもらえばいい 会社で鬱になった。 なので、AIに養ってもらうことにした。 最近は「AIに仕事を奪われる」という話をよく聞く。 だったら逆に、AIに仕事をさせて、人間を養わせればいいのでは？ そう考えて…"
-    },
-    {
-      "id": "a5d840fc87ee",
-      "title": "Claude Code 応用編まとめ その2（#6〜#10）：MCP・/resume・claude -p・/loop・worktree",
-      "url": "https://zenn.dev/zundamon_tools/articles/claude-code-advanced-guide-2",
-      "publishedAt": "2026-10-06T13:02:08.000Z",
-      "publisher": "ずんだもんの実験道具箱",
-      "summary": "Claude Code を毎日使い、外の道具とつなぎたい人、会話や作業を行き来したい人に向けた記事です。 応用編の動画 #6〜#10 の機能を、困りごとから選べるようにまとめました。読み終えると、MCP・/resume と /branch…"
-    },
-    {
-      "id": "17ff014c7195",
-      "title": "デザインプロセスは死んだのか",
-      "url": "https://zenn.dev/triplethree/articles/8328ac4a055b66",
-      "publishedAt": "2026-10-06T12:54:24.000Z",
-      "publisher": "Masa",
-      "summary": "TRIPLE THREEでデザイナーをしているMasaです。 最近、どの会社の開発現場でも同じ変化が起きていると感じます。AIで実装がとても速くなり、開発の進め方そのものが変わったことです。 AirbnbのCEOブライアン・チェスキーは、…"
-    },
-    {
-      "id": "cace68a4d642",
-      "title": "効果測定3指標を1枚に並べ替える — 導入1か月目の総点検を「初回比較の続き」で読む設計",
-      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-mashi-soukatsu",
-      "publishedAt": "2026-10-06T12:53:10.000Z",
-      "publisher": "速水 拓真",
-      "summary": "前回は、商談5分前のメモをAIが5箱に振り分ける設計を書きました（商談5分前のメモをAIが5箱に振り分ける）。増し1本目（商談の質）・2本目（リストの鮮度）・3本目（次の商談の準備）で、守った余白の使い道が3方向に固定されました。 増し編…"
-    },
-    {
-      "id": "aedce9461e7c",
-      "title": "HashPort WalletのMCPをPlugin Creatorでプラグイン化して接続してみた",
-      "url": "https://zenn.dev/masaru21/articles/d9e86d96b9fa51",
-      "publishedAt": "2026-10-06T12:49:49.000Z",
-      "publisher": "lonely_creator_m",
-      "summary": "HashPort WalletのMCPを接続しようとしたところ、公式手順にある「アプリを作成」が見つかりませんでした。 そこで、ChatGPTの「Plugin Creator」を使い、HashPort Walletの公式MCPサーバーに接…"
-    },
-    {
-      "id": "3e3bf27c7c33",
-      "title": "Claude Codeの自己採点をやめさせた。編集権限のないJudgeと、公開を止めるHook",
-      "url": "https://zenn.dev/checkpoint_lab/articles/3ca2ea48b9aa0f",
-      "publishedAt": "2026-10-06T12:18:10.000Z",
-      "publisher": "checkpoint-lab",
-      "summary": "Claude Codeに作業を任せると、作ったAI自身が「問題ありません」と採点して終わることがあります。私はこれが気になって、作る役と検査する役を分けました。検査する役には編集ツールを渡さず、合格が出るまで公開コマンドが通らないようにし…"
     }
   ],
-  "fetchedAt": "2026-10-07T04:49:42.979Z",
+  "fetchedAt": "2026-10-07T11:29:48.114Z",
   "stale": false,
   "error": null
 }

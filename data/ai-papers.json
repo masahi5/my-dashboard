@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "e930c348e231",
-      "title": "World Action Learning via Interaction-Centric Spectral Latent Guidance",
-      "url": "https://huggingface.co/papers/2610.03607",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Learning general-purpose robot policies requires large-scale real-world interaction data, yet collecting robot demonstr…",
-      "score": 20
-    },
-    {
-      "id": "8db20067aa41",
-      "title": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
-      "url": "https://huggingface.co/papers/2610.05966",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Domain adaptation aims to turn a general-purpose large language model (LLM) into an expert for a target domain. While t…",
-      "score": 14
-    },
-    {
-      "id": "e2881e6a3c3c",
-      "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
-      "url": "https://huggingface.co/papers/2610.07767",
+      "id": "a85723df1130",
+      "title": "UNREAL: Unifying Retrieval and Long-Context with a Single Model",
+      "url": "https://huggingface.co/papers/2610.08463",
       "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory ov…",
-      "score": 9
+      "summary": "Long-context inference and Retrieval-Augmented Generation (RAG) handle evidence selection at vastly different scales, f…",
+      "score": 16
     },
     {
-      "id": "8c648c4f5819",
-      "title": "GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution",
-      "url": "https://huggingface.co/papers/2610.00948",
+      "id": "6f250909d118",
+      "title": "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
+      "url": "https://huggingface.co/papers/2610.01218",
       "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "The executable harness surrounding a GUI model determines how observations are assembled, actions are executed, and ver…",
-      "score": 5
+      "summary": "Enterprises adopting retrieval-augmented generation (RAG) face a recurring operational decision: promote, revise, or bl…",
+      "score": 13
     },
     {
-      "id": "1ac07d348451",
-      "title": "Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training",
-      "url": "https://huggingface.co/papers/2610.07510",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Developers can build LLM agents by adapting third-party models through benign post-training. We study a supply-chain th…",
+      "id": "e7bda9dc541a",
+      "title": "DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks",
+      "url": "https://huggingface.co/papers/2610.08048",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "LLM agents often lack the operational knowledge to act reliably in new environments, as they must discover specific too…",
       "score": 4
     },
     {
-      "id": "d5ae166863b6",
-      "title": "Personal-Agent Mediated Recommendation with Cross-Platform User History",
-      "url": "https://huggingface.co/papers/2610.07588",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Modern recommendation is shifting from platform-centric personalization toward user-governed personalization, where a p…",
-      "score": 2
+      "id": "cabf5000b07c",
+      "title": "Accent Analogy Guidance: More Speaker Similarity at Equal Accent in Cross-Lingual Voice Cloning",
+      "url": "https://huggingface.co/papers/2609.29123",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "In cross-lingual zero-shot text-to-speech, the accent of the reference leaks into the target speech. We propose accent …",
+      "score": 4
     },
     {
-      "id": "e91bc3b5b2a8",
-      "title": "EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation",
-      "url": "https://huggingface.co/papers/2610.07969",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Scaling robotic foundation models requires diverse training data and reliable evaluation environments. Simulation offer…",
-      "score": 2
-    },
-    {
-      "id": "34d14672b547",
-      "title": "Attacca: Goal-Directed Control under State Continuity for Long-Horizon Embodied Agents",
-      "url": "https://huggingface.co/papers/2610.07785",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "A central capability of embodied agents is to accomplish complex objectives through sequences of interdependent tasks. …",
-      "score": 1
-    },
-    {
-      "id": "3dde0433ae2d",
-      "title": "Judged Useless, Queried Anyway: Tool-Using Agents Rarely Turn Their Own Evidence Judgments into Stopping Decisions",
-      "url": "https://huggingface.co/papers/2610.06191",
+      "id": "5c8f588bb472",
+      "title": "WildMatch: Weakly Supervised Image Matcher Adaptation for Wildlife Re-Identification",
+      "url": "https://huggingface.co/papers/2610.07384",
       "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "An agent whose tool keeps returning nothing useful should stop relying on it. In a retrieval environment with controlle…",
+      "summary": "Individual animal re-identification from camera-trap imagery is an instance retrieval problem central to non-invasive w…",
       "score": 1
     },
     {
-      "id": "5d7b792be1bb",
-      "title": "DistScene: Object-to-Scene Distillation for 3D Scene Generation",
-      "url": "https://huggingface.co/papers/2610.06960",
+      "id": "7c45c78425b4",
+      "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+      "url": "https://huggingface.co/papers/2610.06844",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. T…",
+      "score": 1
+    },
+    {
+      "id": "99c365a35b34",
+      "title": "Conditional Trajectory Peaks: Single-Pass Multimodal Policies over Action Chunks",
+      "url": "https://huggingface.co/papers/2610.06104",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Multimodal imitation learning requires diverse executable futures under the same observation and consistent behavior ac…",
+      "score": 0
+    },
+    {
+      "id": "bc55732fc10f",
+      "title": "Execution-Aligned Progressive Noise for Consistent Asynchronous Replanning in Generative Robot Policies",
+      "url": "https://huggingface.co/papers/2610.06090",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Continuous asynchronous replanning is essential for real-time generative robot policies, but independent stochastic ini…",
+      "score": 0
+    },
+    {
+      "id": "155dabb337ac",
+      "title": "Toward Real-Time VLAs: Stage-Aware Two-Step Flow Denoising and System-Level Evaluation",
+      "url": "https://huggingface.co/papers/2609.39822",
       "publishedAt": "2026-10-03T00:00:00.000Z",
-      "summary": "We present DistScene, a framework for single-image compositional 3D scene generation by jointly modeling the environmen…",
-      "score": 1
+      "summary": "Vision-language-action (VLA) models face a timing gap between low-rate inference and high-rate robot execution. We char…",
+      "score": 0
     },
     {
-      "id": "22ee6fe09ec0",
-      "title": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
-      "url": "https://huggingface.co/papers/2610.08761",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Self-improving policies continually expose new failure patterns, changing what their judges must be able to verify. How…",
-      "score": 1
+      "id": "c7edc1c23914",
+      "title": "Magic-W0: A Structured World-Action Foundation Model for Physical Intelligence",
+      "url": "https://huggingface.co/papers/2609.39870",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "summary": "World-action models (WAMs) augment robot policies with action-conditioned environment dynamics, yet existing approaches…",
+      "score": 0
     },
     {
-      "id": "9bb13f6c011e",
-      "title": "World Models' Last Exam in Physics",
-      "url": "https://huggingface.co/papers/2610.08791",
+      "id": "4d271fbe88cf",
+      "title": "Source Identification Is Not Fitness Testing: Measuring the Limits of Synthetic-Data Attribution",
+      "url": "https://huggingface.co/papers/2610.00417",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Repeated training on model-generated data can degrade later models. One possible response is to use provenance when dec…",
+      "score": 0
+    },
+    {
+      "id": "d20b4731560e",
+      "title": "CtrlCache: Accelerating Interactive Video World Models with Control-Aware Caching",
+      "url": "https://huggingface.co/papers/2610.08777",
       "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Video world models can produce visually convincing yet physically inconsistent sequences, raising concerns about their …",
-      "score": 1
+      "summary": "Interactive video world models need to generate each video chunk efficiently while responding faithfully to user contro…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-07T04:49:42.822Z",
+  "fetchedAt": "2026-10-07T11:29:47.982Z",
   "stale": false,
   "error": null
 }
