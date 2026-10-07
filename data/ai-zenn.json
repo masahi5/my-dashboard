@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c9cf45b54105",
-      "title": "小さいモデルで足りる仕事はどこか — 34MBの判定役をMacで動かし、どこからクラウドに渡すかを数字で決める",
-      "url": "https://zenn.dev/hathat/books/ab1314f3612cdc",
-      "publishedAt": "2026-10-07T15:07:50.000Z",
-      "publisher": "論文と現場のあいだ",
-      "summary": "アプリに「予定を入れて」「タイマーを7分」程度の自然文入力を足したい。それだけのために毎回フロンティアモデル(最上位の巨大モデル)のAPIを叩くと、往復の遅延と課金が乗り、オフラインでは何もできなくなる。かといって手元で動く小さいモデルは…"
+      "id": "2288fa8bd203",
+      "title": "🦙 ALPACA-FW #10｜工程完了のQuality Gateについて。品質基準を保つための『よくある』開発標準をAIに落としこむ",
+      "url": "https://zenn.dev/alpaca_village/articles/alpaca-fw-10-quality-gates",
+      "publishedAt": "2026-10-07T12:03:22.000Z",
+      "publisher": "アルパカの村",
+      "summary": "はじめに 前回まで、ALPACA-templateの成果物、Traceability、Catalog、CLIなどを順に見てきました。今回は、それらを工程の終わりでどう評価していたか、**Quality Gate（QG）**の仕組みを振り返…"
     },
     {
-      "id": "8b4f98f19de2",
-      "title": "レビューが詰まった後の品質保証 〜Claude Codeで育てる開発の仕組み〜",
-      "url": "https://zenn.dev/nunu/books/growing-dev-system-with-claude-code",
-      "publishedAt": "2026-10-07T14:53:10.000Z",
-      "publisher": "nunusuke",
-      "summary": "AI駆動開発の品質を、どう担保するか。 一度作って終わりにせず、使いながら育てていくための考え方と仕組みを、現場で使える形で解説します。"
+      "id": "cdd65a554f4f",
+      "title": "「要約して上書きするメモリ」は過去の正しさを答えられない、を自作コードで確かめた",
+      "url": "https://zenn.dev/matsushima_a/articles/day-008-non-destructive-memory-as-of-query",
+      "publishedAt": "2026-10-07T12:02:46.000Z",
+      "publisher": "matsu",
+      "summary": "要約 組織向けLLMエージェントの「記憶」フレームワークであるMem++(コード: AIDAChip-Inc/mem-plus-plus、Apache-2.0)を検証対象に選んだ。売りは「書き込み時に要約・圧縮して古い記録を上書きしない」…"
     },
     {
-      "id": "19c3173a1e45",
-      "title": "耳コピが苦手なので、音源からリードシートを作るアプリをAIに作らせてみた",
-      "url": "https://zenn.dev/ruuma/articles/94215f83623eba",
-      "publishedAt": "2026-10-07T14:41:04.000Z",
-      "publisher": "ruuma",
-      "summary": "音源から主旋律とコードを推定し、MusicXML形式のリードシートを作るローカルアプリを開発しました。コードの実装はAIに任せ、私は出力を聴いて、耳コピの補助として使えるかを確かめながら機能を決めました。 上の操作例は、Kevin Mac…"
+      "id": "4c749e5f23ee",
+      "title": "AIと働く心得——道具が変わっても残るもの",
+      "url": "https://zenn.dev/imu_imu/books/claude-mindset",
+      "publishedAt": "2026-10-07T12:02:12.000Z",
+      "publisher": "いむたろ",
+      "summary": "全4冊の『Claude Code 完璧マスター講座』の番外にして土台。任せ方・往復・検証・目的・資産化——道具の知識ではなく、使い手の姿勢だけを扱う1冊。Claude Code が別の何かに変わっても、ここに書いたことは残る。"
     },
     {
-      "id": "ca47ee111cac",
-      "title": "AI に毎回読ませる規約を16KB→7.8KBに。削った基準と実測",
-      "url": "https://zenn.dev/twinharness/articles/halve-always-loaded-agent-rules",
-      "publishedAt": "2026-10-07T14:31:33.000Z",
-      "publisher": "twinharness",
-      "summary": "AI が起動するたびに読む規約に、気づいたことを足し続けていたら、CLAUDE.md・AGENTS.md と共通ルールを合わせて 16KB まで膨らんでいました。 Claude Code と Codex を二人体制で使っている私の環境で、…"
+      "id": "bd20bc7d7f00",
+      "title": "ターミナルを開かずに Claude Code を使う道具を作りました",
+      "url": "https://zenn.dev/ciel_lab/articles/20af6d36e79145",
+      "publishedAt": "2026-10-07T11:39:52.000Z",
+      "publisher": "Ciel",
+      "summary": "コードは書けません。AI に指示して作らせています。 Ciel という道具を、だれでも入れられる形で出します。2026年12月31日まで無料です。 申し込みはいりません。 1月1日からは、窓を開く・頼むが止まります。とりあえずは12月末ま…"
     },
     {
-      "id": "7cd0e1a24cb0",
-      "title": "今日の市場ブリーフィング",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-11-market-daily",
-      "publishedAt": "2026-10-07T14:02:23.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "米株高と国内ハイテク安の歪みを解く：米金利4.97%下での市況データ分析（2026年9月11日） この記事で分かること 米国市場のボラティリティ低下と金利上昇が示唆するマクロ環境の転換点 日経平均が微増の中でも半導体・グロース株に売りが集…"
+      "id": "49377e4d45e3",
+      "title": "TAKT のことは TAKT に聞く。状況確認から再実行まで",
+      "url": "https://zenn.dev/nrs/articles/0753e06a888a4b",
+      "publishedAt": "2026-10-07T10:29:50.000Z",
+      "publisher": "nrs",
+      "summary": "TAKT のタスクは長時間動くことがあります。 実装して、レビューを受け、指摘を直して、またレビューする。 任せているうちに、だんだん気になってきます。 「まだ動いているけれど、本当に収束しているのかな？」 同じところを何度も往復していな…"
     },
     {
-      "id": "aa49f90442f4",
-      "title": "事実確認を通っても残った言い過ぎ——AIが書いた記事を一次記録で逆引きして直した",
-      "url": "https://zenn.dev/mukuro696/articles/7b3caf5758ddd4",
-      "publishedAt": "2026-10-07T13:50:23.000Z",
-      "publisher": "むくろ",
-      "summary": "ClaudeなどのAIが書いた記事は、事実確認を通っても書き過ぎが残ります。公開前に直した7つの型を修正前後で示し、一次記録へ逆引きして強さを戻す手順、見つけた人の分布、確認しても残る穴を、運用の目線で、実例とともに整理しました。 事実確…"
+      "id": "221637ba782b",
+      "title": "AI候補選定の偏りを、検索・スコア・審査の順に追った話",
+      "url": "https://zenn.dev/jworks_hq/articles/jworks-20261006-21e0abae",
+      "publishedAt": "2026-10-07T10:02:21.000Z",
+      "publisher": "J-WORKS",
+      "summary": "候補選定をAIに任せたところ、OS-1や防災用品、トイレットペーパー、ティッシュなど、J-WORKSの発信テーマと関係の薄い一般消費財が並んでいました。発信テーマはAI活用・業務効率化・PC作業環境です。候補を選ぶAIの判断だけを見直して…"
     },
     {
-      "id": "79d02278fa14",
-      "title": "Claude Code 応用編まとめ その3（#11〜#15）：mods・ステータスライン・プラグインで拡張して配る",
-      "url": "https://zenn.dev/zundamon_tools/articles/claude-code-advanced-guide-3",
-      "publishedAt": "2026-10-07T13:43:59.000Z",
-      "publisher": "ずんだもんの実験道具箱",
-      "summary": "Claude Code のスキルや hooks を使い始め、画面を足したい人、作ったものを配りたい人に向けた記事です。 応用編の動画 #11〜#15 の機能を、困りごとから選べるようにまとめました。対象は mods・ステータスライン・プラ…"
+      "id": "683b3a863945",
+      "title": "AI にスケルタルアニメーションを頼むときのプロンプトの書き方：Spine の戦闘モーション実例から",
+      "url": "https://zenn.dev/vitaappsstudio/articles/deefe7c554598d",
+      "publishedAt": "2026-10-07T09:37:26.000Z",
+      "publisher": "Vita Apps Studio",
+      "summary": "実例の全文（英語）：A game monster's combat set in Spine。日本語での全工程は Qiita の記事 にあります。翻訳には AI を使っています。 レイヤー分けした PSD 1 枚から、RPG モンスターの…"
     },
     {
-      "id": "9c6f8c791c1c",
-      "title": "記憶が増え、高くなり、モデルを落としたAIは仕事をやめた：OpenClaw転換劇 Vol.4",
-      "url": "https://zenn.dev/i_ichi/articles/openclaw-agent-vol4",
-      "publishedAt": "2026-10-07T13:37:57.000Z",
-      "publisher": "いち",
-      "summary": "教訓や自戒を指示ファイルに積み上げて記憶が増え、費用が高くなり、モデルを落としたエージェントは仕事をしなくなった。 これは OpenClaw 転換劇 連載 の Vol.4 です。前回は Vol.3。 2026年4月4日、私はメインエージェ…"
+      "id": "b5032eaeb938",
+      "title": "Claude Docs の「タスク管理帳」1 枚で、並行作業の現在地を保つ",
+      "url": "https://zenn.dev/mk404/articles/2026-10-07-claude-docs-task-management",
+      "publishedAt": "2026-10-07T09:29:28.000Z",
+      "publisher": "m. k.",
+      "summary": "この記事について 筆者が Claude と一緒に運用している「タスク管理帳」という文書の紹介です。進行中と検討中のテーマを 1 枚にまとめた Claude Docs の文書で、以下では管理帳と略します。Claude のチャットと Clau…"
     },
     {
-      "id": "76b41528fc87",
-      "title": "AIチームを7日間マネジメントして分かったこと",
-      "url": "https://zenn.dev/kentaro36/articles/ai-team-week1-dots",
-      "publishedAt": "2026-10-07T13:21:49.000Z",
-      "publisher": "SeaOtter (Kentaro Mori)",
-      "summary": "2026年10月1日から7日まで、ChatGPTのdotsを進行役にして、複数のAIに開発や調査を任せてみました。私はこの進行役を「ドッチー」と呼んでいます。 初日に予定した9件のタスクのうち、完了したのは3件。残りは私の判断待ちや、ロー…"
+      "id": "aed6ba0d15bf",
+      "title": "仏Mistralが1兆規模AIを公開、AIの選択肢が一気に広がる",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261007",
+      "publishedAt": "2026-10-07T09:26:37.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年10月7日（水）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 皆さん、おはようございます。僕は毎朝、自分で作った仕組みでAIのニュースを集めて読んでるんですけど、今日は「選択肢が増える話」と「任…"
     },
     {
-      "id": "3af05ca3a9e6",
-      "title": "④0.01くらいから始める、AWS×AI株価予測システム開発【開発編Ⅰ】",
-      "url": "https://zenn.dev/eggdolphin/articles/9d780ee5754e15",
-      "publishedAt": "2026-10-07T13:00:22.000Z",
-      "publisher": "Ruka",
-      "summary": "はじめに 前回の記事からかなり期間が空いてしまいましたが、今回はいよいよ、AWS×AI株価予測システムの開発を進めていきます。 前回の記事はこちらです。 https://zenn.dev/eggdolphin/articles/bd77f…"
+      "id": "b1da94966eeb",
+      "title": "Claude Code に「AI CEO」をやらせる仕組み — CLAUDE.md・決定の台帳・10分ごとの運営継続",
+      "url": "https://zenn.dev/ogworks/articles/342c43894d0444",
+      "publishedAt": "2026-10-07T09:01:28.000Z",
+      "publisher": "OG WORKS",
+      "summary": "やっていること 個人事業として、Claude Code を「AI CEO」にして小さな会社を回す実験をしています。人間(オーナー)の役割は、目的と目標の設定、決済、アカウントの作成、受注の確定だけ。何を作り、どこで売り、次に何をするかは …"
     },
     {
-      "id": "049e39fb9945",
-      "title": "月次の上長報告を1枚に整える — 数字がバラバラなまま出すのを止めるAI整列の型",
-      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-geppo-1mai",
-      "publishedAt": "2026-10-07T12:54:15.000Z",
-      "publisher": "速水 拓真",
-      "summary": "前回は、導入1か月目の総点検を「初回比較レポートに1行を足す」形で読みました（効果測定3指標を1枚に並べ替える）。3行の数字が揃ったので、今日はその数字を上長への月次報告1枚に整える回です。 経営層向けのA4申請書とは違い（経営層を説得す…"
+      "id": "15af09e67052",
+      "title": "AIが書いたコードは「β版」：設計書から実装・単体テストまでをエージェントに任せる仕組み",
+      "url": "https://zenn.dev/shoyomayabot/articles/ai-coding-beta-quality-gates",
+      "publishedAt": "2026-10-07T08:51:50.000Z",
+      "publisher": "mayabot",
+      "summary": "AIにコードを書かせると、驚くほど速く形になります。一方で、「本当に設計書どおり？」「テストは意味のあることを確かめている？」という不安も残ります。 この記事では、設計書（Markdown）からSpring Bootのバッチ・APIのコー…"
     },
     {
-      "id": "403c96a3618c",
-      "title": "AIが「正しい」と判断した値を信用してよいのか？ ― Validationを実験してみる",
-      "url": "https://zenn.dev/kondonator/articles/e6aa8c27fc3408",
-      "publishedAt": "2026-10-07T12:30:23.000Z",
-      "publisher": "kondonator",
-      "summary": "はじめに 前回の記事では、AIにデータを扱わせるときの Access Control について実験しました。 AIにどのデータを扱わせてよいのか？ ― Access Controlを実験してみる AIが、 「この候補者の情報を取得してくだ…"
+      "id": "a60b391d4524",
+      "title": "現場の要望61件から始まった — 製造業のIT責任者がAI変革を「2トラック」で回す理由",
+      "url": "https://zenn.dev/junghun/articles/dax-00-why-61-requests",
+      "publishedAt": "2026-10-07T08:42:01.000Z",
+      "publisher": "JungHun",
+      "summary": "結論から 「AIを入れる」ではなく「現場の困りごとを100件集める」から始めた。AIが解ける問題は、その中の一部でしかなかった 集めた要望を点数化して61件に絞り、デンタル／メディカルの2トラックを並走させた。片方が組織の合意待ちで止まっ…"
     }
   ],
-  "fetchedAt": "2026-10-07T17:56:31.063Z",
+  "fetchedAt": "2026-10-07T22:46:46.761Z",
   "stale": false,
   "error": null
 }

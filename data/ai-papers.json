@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2610.07342",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "summary": "On-policy reinforcement learning has become a central paradigm for improving the reasoning abilities of large language …",
-      "score": 9
+      "score": 11
     },
     {
       "id": "2440e7ee2f6a",
@@ -27,23 +27,7 @@
       "url": "https://huggingface.co/papers/2610.08778",
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "summary": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not…",
-      "score": 4
-    },
-    {
-      "id": "3e37d12003ef",
-      "title": "A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies",
-      "url": "https://huggingface.co/papers/2610.05166",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "A safe action is not necessarily a viable one. A frozen vision-language-action (VLA) policy can favor a locally admissi…",
-      "score": 4
-    },
-    {
-      "id": "4f5448251f34",
-      "title": "Learning Functional Subspaces for Neural Network Compression",
-      "url": "https://huggingface.co/papers/2609.40127",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Modern transformers pair impressive capabilities with substantial memory and compute demands. Low-rank weight factoriza…",
-      "score": 3
+      "score": 6
     },
     {
       "id": "8c485f61cb9a",
@@ -51,6 +35,22 @@
       "url": "https://huggingface.co/papers/2610.02781",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "summary": "Many useful language-model tasks cannot be evaluated by exact outcome verification. Rubric-based reinforcement learning…",
+      "score": 4
+    },
+    {
+      "id": "86fb7e3471f5",
+      "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
+      "url": "https://huggingface.co/papers/2610.02188",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Distribution Matching Distillation (DMD) trains a few-step student from the difference between separately estimated tar…",
+      "score": 3
+    },
+    {
+      "id": "4f5448251f34",
+      "title": "Learning Functional Subspaces for Neural Network Compression",
+      "url": "https://huggingface.co/papers/2609.40127",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Modern transformers pair impressive capabilities with substantial memory and compute demands. Low-rank weight factoriza…",
       "score": 3
     },
     {
@@ -62,20 +62,28 @@
       "score": 2
     },
     {
-      "id": "35a38be1f1ba",
-      "title": "Multilinguality in Hybrid Attention LLMs",
-      "url": "https://huggingface.co/papers/2609.35378",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "In response to the growing demand for long sequences in agentic and reasoning use cases, many state-of-the-art LLMs com…",
-      "score": 2
+      "id": "257d90a1ebc1",
+      "title": "Technical Report on the Turba Fertilizer Machine Learning Stack in Morocco",
+      "url": "https://huggingface.co/papers/2610.05949",
+      "publishedAt": "2026-10-05T08:04:09.000Z",
+      "summary": "Site-specific fertilizer recommendation systems adapt nutrient advice to location, soil properties, crop type, and prod…",
+      "score": 1
     },
     {
-      "id": "9fc9b137f32c",
-      "title": "Do Language Models Need a Trainable Input Embedding Table? Fixed Minimal Token Codes at 1.7B-Class Scale",
-      "url": "https://huggingface.co/papers/2610.04002",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "A trainable input embedding table assigns each vocabulary item an independently adjustable vector. We investigate wheth…",
-      "score": 2
+      "id": "2b6b235803c6",
+      "title": "DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency",
+      "url": "https://huggingface.co/papers/2609.39096",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Autoregressive video diffusion supports streaming generation and interactive control, but its KV cache grows continuous…",
+      "score": 1
+    },
+    {
+      "id": "51aaec381368",
+      "title": "Sensor-Language-Action Models",
+      "url": "https://huggingface.co/papers/2610.08244",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Sensors are useful not only for understanding the world but also for deciding what to do next. Existing sensor models h…",
+      "score": 1
     },
     {
       "id": "e12e4460e1be",
@@ -86,23 +94,15 @@
       "score": 1
     },
     {
-      "id": "e629e95462f3",
-      "title": "Cross-Lingual Alignment for Decoder-Only Models using MoE Routers",
-      "url": "https://huggingface.co/papers/2610.01921",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Cross-lingual contrastive learning has been a core component of multilingual encoder training, but the ability to expli…",
-      "score": 1
-    },
-    {
-      "id": "61c269e43ad7",
-      "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
-      "url": "https://huggingface.co/papers/2610.06847",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Bidirectional video diffusion models denoise entire videos in parallel, yet when trained on effectively unlimited in-di…",
-      "score": 1
+      "id": "01ac9e165d55",
+      "title": "JumpStart Your Policy Learning with Lessons from 160,000 Training Runs",
+      "url": "https://huggingface.co/papers/2609.13730",
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "summary": "Reliable progress in offline policy learning depends on careful reporting, well-tuned baselines, and evaluation across …",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-07T17:56:30.493Z",
+  "fetchedAt": "2026-10-07T22:46:46.564Z",
   "stale": false,
   "error": null
 }
