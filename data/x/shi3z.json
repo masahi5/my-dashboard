@@ -2,6 +2,42 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2107687755090407898",
+      "url": "https://x.com/shi3z/status/2107687755090407898",
+      "text": "未踏AIフロンティアでAIパスファインダー《救急》の称号を授与された岡田くんの新刊出ます。\n医師のためのAI活用術\nぜひお手に取ってください\n\nlink.amazon/B0eR0fXvt",
+      "publishedAt": "2026-10-07T04:21:34.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2107665910857347497",
+      "url": "https://x.com/shi3z/status/2107665910857347497",
+      "text": "アイコンタクトしながら遊ぶサッカーゲーム｜shi3z @shi3z note.com/shi3zblog/n/nd58aef…",
+      "publishedAt": "2026-10-07T02:54:46.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2107648303764803986",
+      "url": "https://x.com/shi3z/status/2107648303764803986",
+      "text": "視線入力でアイコンタクトしたチームメイトにパスを繋いで遊ぶタイプのサッカーゲーム。元高校サッカープレイヤーとして作ってみた。あくまでも自分は自分のポジションを守る。仲間を信じてパスを繋いでゴールする。決まると最高に気持ちいい",
+      "publishedAt": "2026-10-07T01:44:48.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2107617246545920325",
+      "url": "https://x.com/shi3z/status/2107617246545920325",
+      "text": "来たね",
+      "publishedAt": "2026-10-06T23:41:23.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2107443389570613387",
       "url": "https://x.com/shi3z/status/2107443389570613387",
       "text": "ゼットシスターズ次女\n「フォーク居酒屋ってなんですか！？ぜんぶフォークでたべなきゃいけないんですか？」",
@@ -54,45 +90,9 @@
       "authorHandle": "Anna_Kaski",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2107304336263127164",
-      "url": "https://x.com/gosrum/status/2107304336263127164",
-      "text": "「Strata + Qwen3.8-Flash Next と Qwen3.8-27B、結局どちらを使えばいいの？」\n\nという local LLM 愛好家のために、ts-bench によるベンチマーク評価結果を共有する\n\n●メモ\n・驚くべきことだが、Strata + Qwen3.8-Flash Next の方が llama. cpp + 27B よりも倍以上速い。MoEモデルとはいえ、VRAM 32GBしかない RTX 5090 でこの速度が出るのは本当にすごい\n\n・一方で性能的には IQ3_S 量子化が若干悪さしているのか、Claude Code とくみあわせたときに mediumだと全問正解出来ず、lowではループに陥って完走出来ないという結果になった\n→一方で27Bは low でも満点\n\n・Codexと組み合わせた場合はめちゃくちゃ余分にトークンを使っているようだが、lowでも満点を取ることが出来た\n\n●結論\n・Qwen3.8-27B（4bit）を推奨する人\n①並列で推論したい\n②遅くてもいいから安定性が欲しい\n\n・Strata + Qwen3.8-Flash Nextを推奨する人\n①並列で推論しない\n②27Bで物足りない人（27B以上を求めるなら IQ3_S以上でxhigh推奨）\n\nStrataで4bit量子化したときにもこれぐらい速度が速ければ最高",
-      "publishedAt": "2026-10-06T02:58:00.000Z",
-      "authorHandle": "gosrum",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2107287650881208694",
-      "url": "https://x.com/Algorithon/status/2107287650881208694",
-      "text": "🚨 BREAKING: Microsoft confirms on publicly accessible web page that OpenAI has been using Looped Transformers in the GPT-6 series, proving The Information's reporting was correct all along‼️\n\nGPT-6.1 Sol uses 2 inference passes, with a passing mention of \"instead of three\" 👀",
-      "publishedAt": "2026-10-06T01:51:42.000Z",
-      "authorHandle": "Algorithon",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2107279111442088175",
-      "url": "https://x.com/shi3z/status/2107279111442088175",
-      "text": "注意喚起",
-      "publishedAt": "2026-10-06T01:17:46.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2107273085980450880",
-      "url": "https://x.com/shi3z/status/2107273085980450880",
-      "text": "ゴールデン街でウーロン茶を飲みながら自動運転レースゲームを作った｜shi3z @shi3z note.com/shi3zblog/n/nde49a3…",
-      "publishedAt": "2026-10-06T00:53:49.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-06T20:18:48.729Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: RSS ではない応答（インスタンスが不調） / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-07T04:50:07.066Z",
+  "stale": false,
+  "error": null
 }
