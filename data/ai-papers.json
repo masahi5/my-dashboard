@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "b091bf1cb00b",
-      "title": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
-      "url": "https://huggingface.co/papers/2610.07557",
+      "id": "1f8c4fd8cf57",
+      "title": "DecepEval: A Benchmark for Evaluating Deception in LLM Agents",
+      "url": "https://huggingface.co/papers/2610.07967",
       "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement …",
-      "score": 52
+      "summary": "As large language model (LLM) agents become increasingly autonomous, they may pursue task performance through deception…",
+      "score": 7
     },
     {
-      "id": "c34b68440182",
-      "title": "Rationale-Guided Policy Optimization: Learning to Reason with Adaptive Rationale Scaffolding",
-      "url": "https://huggingface.co/papers/2610.07342",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "On-policy reinforcement learning has become a central paradigm for improving the reasoning abilities of large language …",
-      "score": 11
-    },
-    {
-      "id": "2440e7ee2f6a",
-      "title": "Sherpa: Teaching LLMs to Teach Adaptively",
-      "url": "https://huggingface.co/papers/2610.08778",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not…",
-      "score": 6
-    },
-    {
-      "id": "8c485f61cb9a",
-      "title": "OPD Before RL: Warm-Starting Rubric-Based RL with On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2610.02781",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Many useful language-model tasks cannot be evaluated by exact outcome verification. Rubric-based reinforcement learning…",
+      "id": "7702f303e085",
+      "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+      "url": "https://huggingface.co/papers/2610.10429",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "Autoregressive video generation requires denoising the current frames while writing their key-value representations as …",
       "score": 4
     },
     {
-      "id": "86fb7e3471f5",
-      "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
-      "url": "https://huggingface.co/papers/2610.02188",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "Distribution Matching Distillation (DMD) trains a few-step student from the difference between separately estimated tar…",
-      "score": 3
+      "id": "1fb800dbe98f",
+      "title": "WorldSonus: Bringing Sound to Worlds",
+      "url": "https://huggingface.co/papers/2610.08760",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environm…",
+      "score": 4
     },
     {
-      "id": "4f5448251f34",
-      "title": "Learning Functional Subspaces for Neural Network Compression",
-      "url": "https://huggingface.co/papers/2609.40127",
+      "id": "db4129db61f9",
+      "title": "ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation",
+      "url": "https://huggingface.co/papers/2609.39306",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Modern transformers pair impressive capabilities with substantial memory and compute demands. Low-rank weight factoriza…",
+      "summary": "Iterative self-distillation enables LLM agents to learn from successive deployments, offering a path toward recursive s…",
+      "score": 4
+    },
+    {
+      "id": "9895b96c6f15",
+      "title": "Recurrent Looped Transformer",
+      "url": "https://huggingface.co/papers/2610.07591",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "State tracking requires an update at every input, but the depth a Transformer applies to each token is fixed regardless…",
       "score": 3
     },
     {
-      "id": "0dcf2c698dc8",
-      "title": "Stepped MoE: Segment-Level Routing with Configurable Inference Complexity",
-      "url": "https://huggingface.co/papers/2610.07348",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Training large language models (LLMs) is resource-intensive, and adapting them for diverse deployment scenarios with va…",
+      "id": "3a98f287fb7a",
+      "title": "On KL-Regularized Policy Optimization",
+      "url": "https://huggingface.co/papers/2610.08963",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Asynchronous reinforcement learning (RL) for large language model (LLM) agents trains one policy on trajectories genera…",
+      "score": 3
+    },
+    {
+      "id": "515e3f05916e",
+      "title": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
+      "url": "https://huggingface.co/papers/2610.08621",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Recent game design agents have made substantial progress in generating playable games. However, program correctness doe…",
       "score": 2
     },
     {
-      "id": "257d90a1ebc1",
-      "title": "Technical Report on the Turba Fertilizer Machine Learning Stack in Morocco",
-      "url": "https://huggingface.co/papers/2610.05949",
-      "publishedAt": "2026-10-05T08:04:09.000Z",
-      "summary": "Site-specific fertilizer recommendation systems adapt nutrient advice to location, soil properties, crop type, and prod…",
+      "id": "8986af7df9aa",
+      "title": "Semifactual Credit-Augmented Policy Optimization",
+      "url": "https://huggingface.co/papers/2609.40360",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models …",
       "score": 1
     },
     {
-      "id": "2b6b235803c6",
-      "title": "DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency",
-      "url": "https://huggingface.co/papers/2609.39096",
+      "id": "de00f541b898",
+      "title": "Minimal Witness Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2610.07226",
       "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Autoregressive video diffusion supports streaming generation and interactive control, but its KV cache grows continuous…",
+      "summary": "``What are the irreducible conditions that are sufficient to produce an outcome?'' is one of the most common questions …",
       "score": 1
     },
     {
-      "id": "51aaec381368",
-      "title": "Sensor-Language-Action Models",
-      "url": "https://huggingface.co/papers/2610.08244",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Sensors are useful not only for understanding the world but also for deciding what to do next. Existing sensor models h…",
+      "id": "0c47c7310cf6",
+      "title": "Agentic RAG Evaluation: Budget Allocation Across Questions, Trajectories, and Reads",
+      "url": "https://huggingface.co/papers/2610.05034",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Evaluation budgets in agentic retrieval-augmented generation span questions, search trajectories, and repeated answers.…",
       "score": 1
     },
     {
-      "id": "e12e4460e1be",
-      "title": "Kinematic MeanFlow: One-Step Action Generation Policy for Robotic Foundation Models",
-      "url": "https://huggingface.co/papers/2610.00864",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "In this paper, we study how to achieve one-step action generation in Robotic Foundation Models (RFMs), aiming to overco…",
+      "id": "cc3ae84887c4",
+      "title": "Mobile-4DGS: Unified Static-Dynamic Real-time Mobile Gaussian Splatting",
+      "url": "https://huggingface.co/papers/2610.05289",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Recent advances in 3D Gaussian Splatting (3DGS) have achieved remarkable performance in novel view synthesis, yet deplo…",
       "score": 1
     },
     {
-      "id": "01ac9e165d55",
-      "title": "JumpStart Your Policy Learning with Lessons from 160,000 Training Runs",
-      "url": "https://huggingface.co/papers/2609.13730",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "summary": "Reliable progress in offline policy learning depends on careful reporting, well-tuned baselines, and evaluation across …",
+      "id": "f20c32391a64",
+      "title": "AdSpark: A Large-Scale Dataset and Benchmark for Product-Centric Advertisement Video Generation",
+      "url": "https://huggingface.co/papers/2610.10047",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "Product-centric advertisement video generation aims to create promotional videos that preserve fine-grained product ide…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-07T22:46:46.564Z",
+  "fetchedAt": "2026-10-08T02:27:10.708Z",
   "stale": false,
   "error": null
 }

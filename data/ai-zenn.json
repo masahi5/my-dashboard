@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "2288fa8bd203",
-      "title": "🦙 ALPACA-FW #10｜工程完了のQuality Gateについて。品質基準を保つための『よくある』開発標準をAIに落としこむ",
-      "url": "https://zenn.dev/alpaca_village/articles/alpaca-fw-10-quality-gates",
-      "publishedAt": "2026-10-07T12:03:22.000Z",
-      "publisher": "アルパカの村",
-      "summary": "はじめに 前回まで、ALPACA-templateの成果物、Traceability、Catalog、CLIなどを順に見てきました。今回は、それらを工程の終わりでどう評価していたか、**Quality Gate（QG）**の仕組みを振り返…"
+      "id": "2a5ba27604cc",
+      "title": "「予約機能を作って」は失敗する。Claude Codeへの指示は「やらないこと」と判断基準を渡す(Laravel)",
+      "url": "https://zenn.dev/mugen_web/articles/claude-code-instruction-granularity",
+      "publishedAt": "2026-10-08T00:02:45.000Z",
+      "publisher": "MUGEN WEB",
+      "summary": "小規模店舗向けのLaravel雛形を、Claude Codeにほぼ書いてもらいました。その中で、指示の出し方で結果が大きく変わったのが、予約モジュールです。粗すぎても細かすぎても失敗して、うまくいったのは「やらないことと判断基準を渡す」指…"
     },
     {
-      "id": "cdd65a554f4f",
-      "title": "「要約して上書きするメモリ」は過去の正しさを答えられない、を自作コードで確かめた",
-      "url": "https://zenn.dev/matsushima_a/articles/day-008-non-destructive-memory-as-of-query",
-      "publishedAt": "2026-10-07T12:02:46.000Z",
-      "publisher": "matsu",
-      "summary": "要約 組織向けLLMエージェントの「記憶」フレームワークであるMem++(コード: AIDAChip-Inc/mem-plus-plus、Apache-2.0)を検証対象に選んだ。売りは「書き込み時に要約・圧縮して古い記録を上書きしない」…"
+      "id": "0a1454fe4a70",
+      "title": "CodeRabbit User Group Tokyo #4 イベントレポート",
+      "url": "https://zenn.dev/fez_tech/articles/20261008__fez_tech__coderabbit_ug_tokyo_4",
+      "publishedAt": "2026-10-08T00:00:06.000Z",
+      "publisher": "Kazuya Araki",
+      "summary": "2026年9月16日に、AIコードレビューサービス「CodeRabbit」のユーザーコミュニティ「CodeRabbit User Group Tokyo」の第4回が開催されました。 なお、弊社が日比谷オフィスに移転してから、初めてのイベン…"
     },
     {
-      "id": "4c749e5f23ee",
-      "title": "AIと働く心得——道具が変わっても残るもの",
-      "url": "https://zenn.dev/imu_imu/books/claude-mindset",
-      "publishedAt": "2026-10-07T12:02:12.000Z",
-      "publisher": "いむたろ",
-      "summary": "全4冊の『Claude Code 完璧マスター講座』の番外にして土台。任せ方・往復・検証・目的・資産化——道具の知識ではなく、使い手の姿勢だけを扱う1冊。Claude Code が別の何かに変わっても、ここに書いたことは残る。"
+      "id": "4c5327707d16",
+      "title": "Specは固定すべきか、育てるべきか — 私のSpecに足りなかった「合意した」という一行",
+      "url": "https://zenn.dev/chisatom/articles/a128c65b18a6eb",
+      "publishedAt": "2026-10-07T23:57:01.000Z",
+      "publisher": "Chisato Matsuzaki",
+      "summary": "いま参画している案件で、AI-DLC を使った開発をしています。ステークホルダー全員が集まり、AI と一緒に要件を詰めていくモブプロのような進め方で、これはこれでとても面白いです。 ただ、しばらく続けているうちに、ふと疑問が湧きました。 …"
     },
     {
-      "id": "bd20bc7d7f00",
-      "title": "ターミナルを開かずに Claude Code を使う道具を作りました",
-      "url": "https://zenn.dev/ciel_lab/articles/20af6d36e79145",
-      "publishedAt": "2026-10-07T11:39:52.000Z",
-      "publisher": "Ciel",
-      "summary": "コードは書けません。AI に指示して作らせています。 Ciel という道具を、だれでも入れられる形で出します。2026年12月31日まで無料です。 申し込みはいりません。 1月1日からは、窓を開く・頼むが止まります。とりあえずは12月末ま…"
+      "id": "917d993358c0",
+      "title": "2024年10月⇒2026年10月の2年間で私のAIに対する考え方はどう変わったか？",
+      "url": "https://zenn.dev/pdfractal/articles/01f515a0bb7c57",
+      "publishedAt": "2026-10-07T23:16:43.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに 2024年10月から2026年10月までの2年間、私はAIについて大量の記事を書いてきました。最初の頃はAIも数ある執筆テーマの一つにすぎませんでしたが、2025年後半からAIに関する記事が急増し、2026年にはブログの中心的な…"
     },
     {
-      "id": "49377e4d45e3",
-      "title": "TAKT のことは TAKT に聞く。状況確認から再実行まで",
-      "url": "https://zenn.dev/nrs/articles/0753e06a888a4b",
-      "publishedAt": "2026-10-07T10:29:50.000Z",
-      "publisher": "nrs",
-      "summary": "TAKT のタスクは長時間動くことがあります。 実装して、レビューを受け、指摘を直して、またレビューする。 任せているうちに、だんだん気になってきます。 「まだ動いているけれど、本当に収束しているのかな？」 同じところを何度も往復していな…"
+      "id": "b0f8c10f25ad",
+      "title": "仕様を決めて、作って、PR で確かめる。その順番、もう古くない？",
+      "url": "https://zenn.dev/taku_nakagawa/articles/54fa42795e7a8b",
+      "publishedAt": "2026-10-07T23:13:05.000Z",
+      "publisher": "Taku Nakagawa",
+      "summary": "前回まで 前々回の記事でマージされたPRから、非エンジニアが読める仕様書を自動生成するOSSを作った話を、前回の記事でそのOSSを土台に、SaaS（Askless）の開発を始めた話を書きました。 今回はその続きです。開発を進めるうちに、少…"
     },
     {
-      "id": "221637ba782b",
-      "title": "AI候補選定の偏りを、検索・スコア・審査の順に追った話",
-      "url": "https://zenn.dev/jworks_hq/articles/jworks-20261006-21e0abae",
-      "publishedAt": "2026-10-07T10:02:21.000Z",
-      "publisher": "J-WORKS",
-      "summary": "候補選定をAIに任せたところ、OS-1や防災用品、トイレットペーパー、ティッシュなど、J-WORKSの発信テーマと関係の薄い一般消費財が並んでいました。発信テーマはAI活用・業務効率化・PC作業環境です。候補を選ぶAIの判断だけを見直して…"
+      "id": "2df23628a448",
+      "title": "ボトルネックは消えない:NVIDIAのGPU進化を人類史で読む",
+      "url": "https://zenn.dev/yankeeeneko/articles/nvidia-gpu-bottleneck-history",
+      "publishedAt": "2026-10-07T22:49:42.000Z",
+      "publisher": "yankeeeneko",
+      "summary": "はじめに:「約2,360倍」と「約189倍」の差は何か NVIDIA の新製品発表を見ていると、「前の世代より◯倍速い」「AI 性能は◯PFLOPS」といった数字が次々に出てきます。すごいことが起きているのは伝わるのですが、その数字が何を…"
     },
     {
-      "id": "683b3a863945",
-      "title": "AI にスケルタルアニメーションを頼むときのプロンプトの書き方：Spine の戦闘モーション実例から",
-      "url": "https://zenn.dev/vitaappsstudio/articles/deefe7c554598d",
-      "publishedAt": "2026-10-07T09:37:26.000Z",
-      "publisher": "Vita Apps Studio",
-      "summary": "実例の全文（英語）：A game monster's combat set in Spine。日本語での全工程は Qiita の記事 にあります。翻訳には AI を使っています。 レイヤー分けした PSD 1 枚から、RPG モンスターの…"
+      "id": "b822d9ddd0f1",
+      "title": "Claude Code のセッションを2つ同時に動かしたら、タスクの番号が二重になった",
+      "url": "https://zenn.dev/waitlab/articles/claude-code-two-sessions-task-number-collision",
+      "publishedAt": "2026-10-07T22:47:44.000Z",
+      "publisher": "WaitLab",
+      "summary": "Claude Code のセッションを 2 つ同時に動かしていたら、同じファイルに書き足したタスクの番号が二重になりました。この記事では、何が起きていたかと、次からの頼み方、番号を取るときと確認するときに使うコマンドを書きます。 私はアプ…"
     },
     {
-      "id": "b5032eaeb938",
-      "title": "Claude Docs の「タスク管理帳」1 枚で、並行作業の現在地を保つ",
-      "url": "https://zenn.dev/mk404/articles/2026-10-07-claude-docs-task-management",
-      "publishedAt": "2026-10-07T09:29:28.000Z",
-      "publisher": "m. k.",
-      "summary": "この記事について 筆者が Claude と一緒に運用している「タスク管理帳」という文書の紹介です。進行中と検討中のテーマを 1 枚にまとめた Claude Docs の文書で、以下では管理帳と略します。Claude のチャットと Clau…"
+      "id": "6c3f0b86b5f0",
+      "title": "「AGIは2030年」DeepMind創業者Demis Hassabisの一貫した戦略を要点解説",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr07-hassabis-summary",
+      "publishedAt": "2026-10-07T22:24:30.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について DeepMind CEO で ノーベル賞受賞者の Demis Hassabis が Sequoia AI Ascent で語った内容を、要点だけ抜き出して日本語で解説します。15歳からAGIを目指した人物の、一貫した戦略…"
     },
     {
-      "id": "aed6ba0d15bf",
-      "title": "仏Mistralが1兆規模AIを公開、AIの選択肢が一気に広がる",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261007",
-      "publishedAt": "2026-10-07T09:26:37.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月7日（水）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 皆さん、おはようございます。僕は毎朝、自分で作った仕組みでAIのニュースを集めて読んでるんですけど、今日は「選択肢が増える話」と「任…"
+      "id": "22d8e6503e1f",
+      "title": "Human-in-the-loopにしただけでは足りない。AIを「止めて直せる」かまで考える",
+      "url": "https://zenn.dev/aiofficelab/articles/25f3bba4dbb559",
+      "publishedAt": "2026-10-07T22:20:44.000Z",
+      "publisher": "AiOfficeLab",
+      "summary": "AIを仕事で使うとき、「最後は人が確認する」という話をよく聞きます。 私自身も、AIや自動化を仕事に取り入れるときは、AI・ツールが処理する → 怪しいものを拾う → 人が確認・判断すると分けるようになりました。 でも、もう一つ気になるこ…"
     },
     {
-      "id": "b1da94966eeb",
-      "title": "Claude Code に「AI CEO」をやらせる仕組み — CLAUDE.md・決定の台帳・10分ごとの運営継続",
-      "url": "https://zenn.dev/ogworks/articles/342c43894d0444",
-      "publishedAt": "2026-10-07T09:01:28.000Z",
-      "publisher": "OG WORKS",
-      "summary": "やっていること 個人事業として、Claude Code を「AI CEO」にして小さな会社を回す実験をしています。人間(オーナー)の役割は、目的と目標の設定、決済、アカウントの作成、受注の確定だけ。何を作り、どこで売り、次に何をするかは …"
+      "id": "22100f082653",
+      "title": "ブレークポイントの間の幅で崩れるレイアウトを自動検出する",
+      "url": "https://zenn.dev/liatris/articles/20261008-responsive-width-sweep",
+      "publishedAt": "2026-10-07T22:00:06.000Z",
+      "publisher": "平野翔斗",
+      "summary": "! この記事は、Claude Codeを執筆支援に使った \"毎朝1本書く\" 取り組みの一環で書いています。 目的: 自分のAI活用キャッチアップ。仕組み自体も毎月アップデートしていきます 体制: 題材選定・実装・下書きをClaude Co…"
     },
     {
-      "id": "15af09e67052",
-      "title": "AIが書いたコードは「β版」：設計書から実装・単体テストまでをエージェントに任せる仕組み",
-      "url": "https://zenn.dev/shoyomayabot/articles/ai-coding-beta-quality-gates",
-      "publishedAt": "2026-10-07T08:51:50.000Z",
-      "publisher": "mayabot",
-      "summary": "AIにコードを書かせると、驚くほど速く形になります。一方で、「本当に設計書どおり？」「テストは意味のあることを確かめている？」という不安も残ります。 この記事では、設計書（Markdown）からSpring Bootのバッチ・APIのコー…"
+      "id": "cfb41eb343ce",
+      "title": "Snowflake Agent Identity 徹底解説",
+      "url": "https://zenn.dev/finatext/articles/snowflake-agent-identity-introduction",
+      "publishedAt": "2026-10-07T22:00:05.000Z",
+      "publisher": "けびん",
+      "summary": "はじめに こんにちは！ナウキャストのデータエンジニアのけびんです。 Claude Code のようなコーディングエージェントから Snowflake を触る機会が増えてきました。便利な一方で、接続には 人間ユーザーのキーペアや PAT を…"
     },
     {
-      "id": "a60b391d4524",
-      "title": "現場の要望61件から始まった — 製造業のIT責任者がAI変革を「2トラック」で回す理由",
-      "url": "https://zenn.dev/junghun/articles/dax-00-why-61-requests",
-      "publishedAt": "2026-10-07T08:42:01.000Z",
-      "publisher": "JungHun",
-      "summary": "結論から 「AIを入れる」ではなく「現場の困りごとを100件集める」から始めた。AIが解ける問題は、その中の一部でしかなかった 集めた要望を点数化して61件に絞り、デンタル／メディカルの2トラックを並走させた。片方が組織の合意待ちで止まっ…"
+      "id": "f5d30a1d0f21",
+      "title": "言わない技術 第4回：計画を書けと言わない技術",
+      "url": "https://zenn.dev/garplab/articles/6cda05c26d85aa",
+      "publishedAt": "2026-10-07T21:35:30.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「言わない技術」の第 4 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の…"
     }
   ],
-  "fetchedAt": "2026-10-07T22:46:46.761Z",
+  "fetchedAt": "2026-10-08T02:27:10.836Z",
   "stale": false,
   "error": null
 }
