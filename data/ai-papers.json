@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1f8c4fd8cf57",
-      "title": "DecepEval: A Benchmark for Evaluating Deception in LLM Agents",
-      "url": "https://huggingface.co/papers/2610.07967",
+      "id": "c7301b2f2130",
+      "title": "Gains and Collapse in On-Policy Distillation:A Reinforcement Learning Perspective",
+      "url": "https://huggingface.co/papers/2610.03185",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) has become an important approach to language model post-training. However, despite its per…",
+      "score": 23
+    },
+    {
+      "id": "8c169a4592df",
+      "title": "From Pareto to Preference: Personalized Test-Time Scaling via Amortized Agentic Policy Discovery",
+      "url": "https://huggingface.co/papers/2610.09684",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "Test-time scaling (TTS) improves the reasoning capabilities of large language models by allocating additional inference…",
+      "score": 13
+    },
+    {
+      "id": "f03593323cc6",
+      "title": "QuadTok: Quadtree Visual Tokenizer for Autoregressive Image Generation",
+      "url": "https://huggingface.co/papers/2610.10497",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "We introduce QuadTok, a novel framework for visual tokenization and autoregressive image generation. Compared to tradit…",
+      "score": 10
+    },
+    {
+      "id": "04110dd95b45",
+      "title": "PhysEvo: Astra Can Act, Let It",
+      "url": "https://huggingface.co/papers/2610.08995",
       "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "As large language model (LLM) agents become increasingly autonomous, they may pursue task performance through deception…",
+      "summary": "Astra can act, yet reliable manipulation depends on the system through which it observes and controls the world. We int…",
+      "score": 8
+    },
+    {
+      "id": "eaad1877c6df",
+      "title": "Internalizing Agent Experience into Diffusion Model Weights via On-Policy Context Distillation",
+      "url": "https://huggingface.co/papers/2610.07250",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Wrapping an image generation model in an agentic harness can effectively boost Text-to-Image task performance: the harn…",
       "score": 7
     },
     {
-      "id": "7702f303e085",
-      "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
-      "url": "https://huggingface.co/papers/2610.10429",
+      "id": "141846bdeae0",
+      "title": "UniSkill: Learning Actor-Aligned Skill Proposals for an Evolving Policy",
+      "url": "https://huggingface.co/papers/2610.10164",
       "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Autoregressive video generation requires denoising the current frames while writing their key-value representations as …",
-      "score": 4
-    },
-    {
-      "id": "1fb800dbe98f",
-      "title": "WorldSonus: Bringing Sound to Worlds",
-      "url": "https://huggingface.co/papers/2610.08760",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environm…",
-      "score": 4
-    },
-    {
-      "id": "db4129db61f9",
-      "title": "ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation",
-      "url": "https://huggingface.co/papers/2609.39306",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Iterative self-distillation enables LLM agents to learn from successive deployments, offering a path toward recursive s…",
-      "score": 4
-    },
-    {
-      "id": "9895b96c6f15",
-      "title": "Recurrent Looped Transformer",
-      "url": "https://huggingface.co/papers/2610.07591",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "State tracking requires an update at every input, but the depth a Transformer applies to each token is fixed regardless…",
+      "summary": "Large language model agents can improve across tasks by retaining reusable skills distilled from prior interactions. Re…",
       "score": 3
     },
     {
-      "id": "3a98f287fb7a",
-      "title": "On KL-Regularized Policy Optimization",
-      "url": "https://huggingface.co/papers/2610.08963",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Asynchronous reinforcement learning (RL) for large language model (LLM) agents trains one policy on trajectories genera…",
-      "score": 3
-    },
-    {
-      "id": "515e3f05916e",
-      "title": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
-      "url": "https://huggingface.co/papers/2610.08621",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Recent game design agents have made substantial progress in generating playable games. However, program correctness doe…",
-      "score": 2
-    },
-    {
-      "id": "8986af7df9aa",
-      "title": "Semifactual Credit-Augmented Policy Optimization",
-      "url": "https://huggingface.co/papers/2609.40360",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models …",
+      "id": "0bb8ed3e3ad5",
+      "title": "Salt++: Context-Aligned Post-Training for Few-Step Streaming Multimodal Generation",
+      "url": "https://huggingface.co/papers/2609.36995",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Few-step streaming audio--video generation requires both causal modeling and step distillation, yet standard training r…",
       "score": 1
     },
     {
-      "id": "de00f541b898",
-      "title": "Minimal Witness Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2610.07226",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "``What are the irreducible conditions that are sufficient to produce an outcome?'' is one of the most common questions …",
-      "score": 1
-    },
-    {
-      "id": "0c47c7310cf6",
-      "title": "Agentic RAG Evaluation: Budget Allocation Across Questions, Trajectories, and Reads",
-      "url": "https://huggingface.co/papers/2610.05034",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "Evaluation budgets in agentic retrieval-augmented generation span questions, search trajectories, and repeated answers.…",
-      "score": 1
-    },
-    {
-      "id": "cc3ae84887c4",
-      "title": "Mobile-4DGS: Unified Static-Dynamic Real-time Mobile Gaussian Splatting",
-      "url": "https://huggingface.co/papers/2610.05289",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "Recent advances in 3D Gaussian Splatting (3DGS) have achieved remarkable performance in novel view synthesis, yet deplo…",
-      "score": 1
-    },
-    {
-      "id": "f20c32391a64",
-      "title": "AdSpark: A Large-Scale Dataset and Benchmark for Product-Centric Advertisement Video Generation",
-      "url": "https://huggingface.co/papers/2610.10047",
+      "id": "9f39955637f5",
+      "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
+      "url": "https://huggingface.co/papers/2610.10533",
       "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Product-centric advertisement video generation aims to create promotional videos that preserve fine-grained product ide…",
+      "summary": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the…",
+      "score": 1
+    },
+    {
+      "id": "1da1bf7f9bad",
+      "title": "Co-Evolving Robot Orchestrators and Policies through Deployment",
+      "url": "https://huggingface.co/papers/2610.09228",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Vision-language-action (VLA) policies trained on large datasets are capable within their training domains, yet they sti…",
+      "score": 1
+    },
+    {
+      "id": "7fd9b9ebf7c4",
+      "title": "CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use",
+      "url": "https://huggingface.co/papers/2610.09127",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Reconstructing an editable CAD model from a 3D shape remains a challenging engineering task. Existing methods can propo…",
+      "score": 0
+    },
+    {
+      "id": "41c5903c7958",
+      "title": "Task-Sufficient Contraction: Source Selection for Machine Information Interfaces",
+      "url": "https://huggingface.co/papers/2610.08884",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "A declared task can sometimes certify a reduced source before a downstream encoder, codebook, rate, distortion target, …",
+      "score": 0
+    },
+    {
+      "id": "4ef0d6154651",
+      "title": "StepCAD: Mesh-to-CAD Code Generation via LLM Policy and Geometry-Guided Search",
+      "url": "https://huggingface.co/papers/2610.03799",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Recovering executable CAD programs from 3D meshes is challenging due to the compositional nature of CAD construction an…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-08T02:27:10.708Z",
+  "fetchedAt": "2026-10-08T09:20:17.738Z",
   "stale": false,
   "error": null
 }
