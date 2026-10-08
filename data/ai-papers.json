@@ -6,44 +6,44 @@
   "category": "ai",
   "items": [
     {
-      "id": "c7301b2f2130",
-      "title": "Gains and Collapse in On-Policy Distillation:A Reinforcement Learning Perspective",
-      "url": "https://huggingface.co/papers/2610.03185",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) has become an important approach to language model post-training. However, despite its per…",
-      "score": 23
+      "id": "bb5c0d48619e",
+      "title": "NAMVIS: Next-Scale Autoregressive Multi-View Image Synthesis",
+      "url": "https://huggingface.co/papers/2610.04722",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "summary": "Sparse-view novel view synthesis is a central problem in 3D content creation, but diffusion-based approaches remain lim…",
+      "score": 18
     },
     {
-      "id": "8c169a4592df",
-      "title": "From Pareto to Preference: Personalized Test-Time Scaling via Amortized Agentic Policy Discovery",
-      "url": "https://huggingface.co/papers/2610.09684",
+      "id": "90e341cdc0ac",
+      "title": "Q-Learning with Scalar Adjoint Matching",
+      "url": "https://huggingface.co/papers/2610.10437",
       "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Test-time scaling (TTS) improves the reasoning capabilities of large language models by allocating additional inference…",
-      "score": 13
+      "summary": "Flow policies capture rich and diverse action distributions, and fine-tuning them with off-policy RL to improve beyond …",
+      "score": 14
     },
     {
-      "id": "f03593323cc6",
-      "title": "QuadTok: Quadtree Visual Tokenizer for Autoregressive Image Generation",
-      "url": "https://huggingface.co/papers/2610.10497",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "We introduce QuadTok, a novel framework for visual tokenization and autoregressive image generation. Compared to tradit…",
-      "score": 10
-    },
-    {
-      "id": "04110dd95b45",
-      "title": "PhysEvo: Astra Can Act, Let It",
-      "url": "https://huggingface.co/papers/2610.08995",
+      "id": "6cb963581d52",
+      "title": "A self-learning scientific agent for X-ray diffraction",
+      "url": "https://huggingface.co/papers/2610.07862",
       "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Astra can act, yet reliable manipulation depends on the system through which it observes and controls the world. We int…",
+      "summary": "A central challenge for scientific agents is to turn analytical experience into reusable expertise grounded in physical…",
       "score": 8
     },
     {
-      "id": "eaad1877c6df",
-      "title": "Internalizing Agent Experience into Diffusion Model Weights via On-Policy Context Distillation",
-      "url": "https://huggingface.co/papers/2610.07250",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Wrapping an image generation model in an agentic harness can effectively boost Text-to-Image task performance: the harn…",
-      "score": 7
+      "id": "e70d8f7e6135",
+      "title": "SheetSage2: Coherent Lead-Sheet Transcription with Synthetic Supervision",
+      "url": "https://huggingface.co/papers/2610.05336",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Transcribing music into a human-readable score requires a coherent understanding of rhythm, harmony, melody, and form. …",
+      "score": 6
+    },
+    {
+      "id": "5c86c0c9ada1",
+      "title": "Composing What Each Teacher Learned: Multi-Teacher On-Policy Distillation through Teacher-Relative Shifts",
+      "url": "https://huggingface.co/papers/2610.10460",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "Multi-teacher on-policy distillation (MOPD) is used in two settings. In common-domain composition, several teachers sco…",
+      "score": 5
     },
     {
       "id": "141846bdeae0",
@@ -51,58 +51,58 @@
       "url": "https://huggingface.co/papers/2610.10164",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "summary": "Large language model agents can improve across tasks by retaining reusable skills distilled from prior interactions. Re…",
-      "score": 3
+      "score": 5
     },
     {
-      "id": "0bb8ed3e3ad5",
-      "title": "Salt++: Context-Aligned Post-Training for Few-Step Streaming Multimodal Generation",
-      "url": "https://huggingface.co/papers/2609.36995",
+      "id": "808db8d10ebc",
+      "title": "CoDance: Learning Reactive and Compliant Human-Humanoid Interaction from Video",
+      "url": "https://huggingface.co/papers/2610.05324",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Partnered human-humanoid interaction couples locomotion with continuous physical contact. A humanoid needs to coordinat…",
+      "score": 2
+    },
+    {
+      "id": "84cab29a8f66",
+      "title": "FastOPD: On-Policy Distillation for Lightweight VLA Deployment",
+      "url": "https://huggingface.co/papers/2610.02832",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "Vision-Language-Action (VLA) foundation models have scaled rapidly to enhance manipulation performance and generalizabi…",
+      "score": 2
+    },
+    {
+      "id": "e5c386d7a0d2",
+      "title": "Lineage-Aware Memory Governance: A Derivation-Gated Framework for Privacy-Preserving Column-Level Access Control in Enterprise AI Agents",
+      "url": "https://huggingface.co/papers/2610.07258",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Enterprise AI agents that share a memory store face two unaddressed risks: sensitive data can leak through legitimately…",
+      "score": 1
+    },
+    {
+      "id": "b5390dab9176",
+      "title": "PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation",
+      "url": "https://huggingface.co/papers/2609.38466",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Few-step streaming audio--video generation requires both causal modeling and step distillation, yet standard training r…",
+      "summary": "Text-conditioned full-body human-object interaction (HOI) generation requires synthesizing human motion and object traj…",
       "score": 1
     },
     {
-      "id": "9f39955637f5",
-      "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
-      "url": "https://huggingface.co/papers/2610.10533",
+      "id": "319500713217",
+      "title": "TIDES: Implicit Time-Awareness in Selective State Space Models",
+      "url": "https://huggingface.co/papers/2605.09742",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Selective state space models (SSMs), such as Mamba, achieve strong per-token expressivity by making the time discretiza…",
+      "score": 1
+    },
+    {
+      "id": "e7aaa4841e08",
+      "title": "System Switch: When Should a Fast Decision Model Stop and Think?",
+      "url": "https://huggingface.co/papers/2610.09683",
       "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the…",
-      "score": 1
-    },
-    {
-      "id": "1da1bf7f9bad",
-      "title": "Co-Evolving Robot Orchestrators and Policies through Deployment",
-      "url": "https://huggingface.co/papers/2610.09228",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Vision-language-action (VLA) policies trained on large datasets are capable within their training domains, yet they sti…",
-      "score": 1
-    },
-    {
-      "id": "7fd9b9ebf7c4",
-      "title": "CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use",
-      "url": "https://huggingface.co/papers/2610.09127",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Reconstructing an editable CAD model from a 3D shape remains a challenging engineering task. Existing methods can propo…",
-      "score": 0
-    },
-    {
-      "id": "41c5903c7958",
-      "title": "Task-Sufficient Contraction: Source Selection for Machine Information Interfaces",
-      "url": "https://huggingface.co/papers/2610.08884",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "A declared task can sometimes certify a reduced source before a downstream encoder, codebook, rate, distortion target, …",
-      "score": 0
-    },
-    {
-      "id": "4ef0d6154651",
-      "title": "StepCAD: Mesh-to-CAD Code Generation via LLM Policy and Geometry-Guided Search",
-      "url": "https://huggingface.co/papers/2610.03799",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "summary": "Recovering executable CAD programs from 3D meshes is challenging due to the compositional nature of CAD construction an…",
+      "summary": "Dual-process agents pair a fast policy with a slow deliberative model. In real-time settings the slow model usually run…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-08T09:20:17.738Z",
+  "fetchedAt": "2026-10-08T16:45:15.168Z",
   "stale": false,
   "error": null
 }
