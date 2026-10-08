@@ -6,35 +6,19 @@
   "category": "ai",
   "items": [
     {
-      "id": "bb5c0d48619e",
-      "title": "NAMVIS: Next-Scale Autoregressive Multi-View Image Synthesis",
-      "url": "https://huggingface.co/papers/2610.04722",
-      "publishedAt": "2026-10-03T00:00:00.000Z",
-      "summary": "Sparse-view novel view synthesis is a central problem in 3D content creation, but diffusion-based approaches remain lim…",
-      "score": 18
-    },
-    {
-      "id": "90e341cdc0ac",
-      "title": "Q-Learning with Scalar Adjoint Matching",
-      "url": "https://huggingface.co/papers/2610.10437",
+      "id": "c60124a286d8",
+      "title": "MIMESIS: Learning User Simulators as Training Environments for Interactive Agents",
+      "url": "https://huggingface.co/papers/2610.09484",
       "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Flow policies capture rich and diverse action distributions, and fine-tuning them with off-policy RL to improve beyond …",
-      "score": 14
+      "summary": "Training and evaluating interactive language agents typically requires rich user interactions, yet collecting human fee…",
+      "score": 9
     },
     {
-      "id": "6cb963581d52",
-      "title": "A self-learning scientific agent for X-ray diffraction",
-      "url": "https://huggingface.co/papers/2610.07862",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "A central challenge for scientific agents is to turn analytical experience into reusable expertise grounded in physical…",
-      "score": 8
-    },
-    {
-      "id": "e70d8f7e6135",
-      "title": "SheetSage2: Coherent Lead-Sheet Transcription with Synthetic Supervision",
-      "url": "https://huggingface.co/papers/2610.05336",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "Transcribing music into a human-readable score requires a coherent understanding of rhythm, harmony, melody, and form. …",
+      "id": "d0ed10177520",
+      "title": "Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning",
+      "url": "https://huggingface.co/papers/2610.09450",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "Pixel-space diffusion models avoid the lossy VAE of latent models, which suggests an advantage on downstream tasks wher…",
       "score": 6
     },
     {
@@ -43,31 +27,31 @@
       "url": "https://huggingface.co/papers/2610.10460",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "summary": "Multi-teacher on-policy distillation (MOPD) is used in two settings. In common-domain composition, several teachers sco…",
-      "score": 5
+      "score": 6
     },
     {
-      "id": "141846bdeae0",
-      "title": "UniSkill: Learning Actor-Aligned Skill Proposals for an Evolving Policy",
-      "url": "https://huggingface.co/papers/2610.10164",
+      "id": "1818825a7b49",
+      "title": "RoboJEPA: Scaling Robotic Latent World Models",
+      "url": "https://huggingface.co/papers/2610.10515",
       "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Large language model agents can improve across tasks by retaining reusable skills distilled from prior interactions. Re…",
-      "score": 5
+      "summary": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice…",
+      "score": 1
     },
     {
-      "id": "808db8d10ebc",
-      "title": "CoDance: Learning Reactive and Compliant Human-Humanoid Interaction from Video",
-      "url": "https://huggingface.co/papers/2610.05324",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "Partnered human-humanoid interaction couples locomotion with continuous physical contact. A humanoid needs to coordinat…",
-      "score": 2
+      "id": "6312a02b165f",
+      "title": "Inherit-MAS: Test-Time Evolution of Multi-Agent Systems through Workflow and Execution Inheritance",
+      "url": "https://huggingface.co/papers/2610.02396",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "summary": "Multi-agent systems (MAS) built from large language models coordinate specialized agents to tackle complex tasks, but e…",
+      "score": 1
     },
     {
-      "id": "84cab29a8f66",
-      "title": "FastOPD: On-Policy Distillation for Lightweight VLA Deployment",
-      "url": "https://huggingface.co/papers/2610.02832",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Vision-Language-Action (VLA) foundation models have scaled rapidly to enhance manipulation performance and generalizabi…",
-      "score": 2
+      "id": "95dffcf69b3f",
+      "title": "DSReg: Provably Recovering Individual World Latents without Reconstruction",
+      "url": "https://huggingface.co/papers/2610.09457",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "Methods that recover individual latent variables of the world, from nonlinear ICA to dictionary learning and causal rep…",
+      "score": 1
     },
     {
       "id": "e5c386d7a0d2",
@@ -86,12 +70,28 @@
       "score": 1
     },
     {
-      "id": "319500713217",
-      "title": "TIDES: Implicit Time-Awareness in Selective State Space Models",
-      "url": "https://huggingface.co/papers/2605.09742",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Selective state space models (SSMs), such as Mamba, achieve strong per-token expressivity by making the time discretiza…",
-      "score": 1
+      "id": "8ce456165443",
+      "title": "Agent Plasticity: Measuring Self-Improvement Through Experience",
+      "url": "https://huggingface.co/papers/2610.08902",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "AI agents increasingly operate in environments where they can diagnose failures and improve through experience, yet exi…",
+      "score": 0
+    },
+    {
+      "id": "57256b0f34ef",
+      "title": "Beyond the Parameter Monolith: Reconstructive Memories, Executable Skills, and Residual Assembly for Language Models",
+      "url": "https://huggingface.co/papers/2610.04012",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "Language-model systems can separate contextual computation, persistent storage, and exact execution instead of updating…",
+      "score": 0
+    },
+    {
+      "id": "41e56e4517a0",
+      "title": "How corner is a corner case? Percentile control for highway scenario generation",
+      "url": "https://huggingface.co/papers/2610.05003",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Generating corner-case scenarios with appropriate adversity in a simulation environment is critical for testing an auto…",
+      "score": 0
     },
     {
       "id": "e7aaa4841e08",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-08T16:45:15.168Z",
+  "fetchedAt": "2026-10-08T21:33:31.235Z",
   "stale": false,
   "error": null
 }
