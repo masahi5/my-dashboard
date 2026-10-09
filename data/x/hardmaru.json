@@ -2,33 +2,6 @@
   "handle": "hardmaru",
   "tweets": [
     {
-      "id": "2108543258649633039",
-      "url": "https://x.com/SakanaAILabs/status/2108543258649633039",
-      "text": "Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review\n\nPeer review needs support, not substitutes. Accepted at TMLR: our new paper on using AI to help reviewers catch errors in research papers.\n\narxiv.org/abs/2610.11087\n\nAs research submissions grow, so does the workload for the experts who evaluate them. AI review systems are emerging as a potential solution, but much of their development and evaluation focuses on how closely they imitate human reviews.\n\nIn our work “Beyond Imitation: A Framework and Benchmark for LLM Assisted Peer Review”, we explore how AI can support the review process without losing the human touch. We focus on one demanding but essential task: catching errors in research papers.\n\nWe build an automated pipeline that deliberately introduces contradictions into papers by adding statements that conflict with information elsewhere in the manuscript. These planted errors give us clear targets for testing whether AI reviewers can spot and explain what is wrong.\n\nNot all errors carry the same weight. Some undermine a paper’s central findings; others affect smaller details. We map the connections between each paper’s claims, methods, and evidence in a knowledge graph to estimate the severity of each contradiction and better assess what different systems can catch.\n\nWe also introduce Multi-Layered Review, an AI review system inspired by the Three-Pass Approach to reading research papers. It first outlines the main ideas, then examines the details and potential weaknesses, and finally brings its observations together into a review. The idea is simple: understand the paper before judging it.\n\nIn our evaluations, the system detected more errors than the other review systems we tested, including on papers withdrawn because of real mistakes. Its feedback emphasized different aspects of the work from human reviews, offering a complementary perspective, while its assessments of paper quality remained broadly consistent with human judgments.\n\nOur goal is to give reviewers useful support in checking research, with human expertise and judgment at the center.\n\nOpen Review: openreview.net/forum?id=7iX2…",
-      "publishedAt": "2026-10-09T13:01:02.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108385649648939287",
-      "url": "https://x.com/SakanaAILabs/status/2108385649648939287",
-      "text": "アイリス株式会社（ @ShoOkiyama ）の医師向けエビデンス検索ツール「Evidence Finder」に、Sakana AIの技術が採用されました。\n\n医師の質問に対し、文献を検索して引用元を明示しながら回答。文献の比較・統合と回答生成の部分を担います。\n\n詳細はこちら\nsakana.ai/namazu-aillis/ 🐟",
-      "publishedAt": "2026-10-09T02:34:45.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108123416079544619",
-      "url": "https://x.com/SakanaAILabs/status/2108123416079544619",
-      "text": "ニュースレター「Sakana AI Insider」、登録受付中です🐟\n\n詳細：sakana.ai/sakana-ai-insider\n\n・プロダクトのリリース情報\n・研究開発のアップデート\n・Swagプレゼントやイベントの優先案内\n\n先日公開し、多数ご応募いただいたイベントでは購読者の皆様への先行受付を実施しました！\n\n登録はこちら 👇\nforms.gle/E4siqGLT8MQF5Fvo9 🐟",
-      "publishedAt": "2026-10-08T09:12:44.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
       "id": "2106891494074576963",
       "url": "https://x.com/hardmaru/status/2106891494074576963",
       "text": "Registration now open: From World Models to Real-World AI\n\nJoin us on October 26 in Tokyo for a symposium with @SchmidhuberAI, who recently joined @SakanaAILabs  as our Chief Scientific Advisor.\n\nThe program features a keynote and Q&A by Jürgen and short talks by Sakana AI researchers on our work at the RSI Lab.\n\n- Date: Monday, October 26, 2026, 15:00–18:00 JST\n- Venue: Hitotsubashi Hall, Tokyo, Japan 🇯🇵\n- Language: English\n- Admission: Free (registration required)\n\nSeating is limited, so please register early.\nRegister here: luma.com/kjf0z516 🐟",
@@ -76,7 +49,7 @@
     {
       "id": "2103660061260411266",
       "url": "https://x.com/hardmaru/status/2103660061260411266",
-      "text": "The last sentence in the Schmidhuber news trending item summary hits hard 🙃 shitter.thepixora.com/i/trending/21031854811…",
+      "text": "The last sentence in the Schmidhuber news trending item summary hits hard 🙃 nitterk.kareem.one/i/trending/21031854811…",
       "publishedAt": "2026-09-26T01:36:57.000Z",
       "authorHandle": "hardmaru",
       "likeCount": 0,
@@ -90,9 +63,36 @@
       "authorHandle": "SchmidhuberAI",
       "likeCount": 0,
       "repost": true
+    },
+    {
+      "id": "2103151519428448405",
+      "url": "https://x.com/hardmaru/status/2103151519428448405",
+      "text": "Jürgen Schmidhuber is joining Sakana AI as Chief Scientific Advisor.\n\n@SchmidhuberAI pioneered meta-learning, recursive self-improvement, and world models back in the 1990s, when compute was a million times more expensive. He has been thinking about machines that improve themselves since before compute was cheap enough to make it practical.\n\nThese ideas inspired the Darwin Gödel Machine and The AI Scientist. Our RSI Lab in Tokyo, now under Jürgen’s guidance, is working on agent-native world models and recursive self-improvement for physical AI.",
+      "publishedAt": "2026-09-24T15:56:11.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2101544383212572874",
+      "url": "https://x.com/hardmaru/status/2101544383212572874",
+      "text": "日経新聞による、グーグルディープマインド東京を率いる全炳河（@heiga_zen）氏の素晴らしい特集記事。\n\n2018年、Heigaさんと2人でGoogle Brain東京チームを立ち上げた日々を懐かしく思います。当時は時差の厳しい深夜の会議をこなしながら、日本のAI研究の存在感を示すために必死でした。\n\n現在、彼が GDM Tokyo を率い、私が Sakana AI を起業して、東京のAIエコシステムがここまで大きく成長したことを本当に嬉しく思います！\nnikkei.com/article/DGXZQOUC1…",
+      "publishedAt": "2026-09-20T05:30:00.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2100411291836018812",
+      "url": "https://x.com/hardmaru/status/2100411291836018812",
+      "text": "Schmidhuber was building recursive self-improving systems back in 1987. His new post covers four decades of RSI, from meta-evolution and self-modifying policies to the Gödel Machine and modern LLM agents.\n\npeople.idsia.ch/~juergen/rec…\n\nReading this in 2026, the \"pace the frontier\" talk from the big labs looks a lot more like regulatory capture than genuine safety. If they really think their unreleased models are too dangerous, they can just not release them. They do not need new rules that block independent competitors and open source projects in the process.\n\nThe real risk right now is not superintelligence. It is power concentration. Two companies controlling frontier AI is an actual societal risk. The only real protection is a healthy ecosystem of independent labs and strong open source.\n\nCurrent models are not unsafe because they are too intelligent. They are unsafe because they are too dumb. They blindly optimize for targets and take weird shortcuts. They're smart enough to execute tasks, but not smart enough to know if what they're doing makes sense.\n\nI think the safety teams inside these labs are genuinely concerned, and if a model feels too risky, they should hold it back. I just do not trust the policy strategy around it. That part looks like protecting their own lead.",
+      "publishedAt": "2026-09-17T02:27:30.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-09T20:00:23.226Z",
+  "fetchedAt": "2026-10-09T23:59:08.674Z",
   "stale": false,
   "error": null
 }

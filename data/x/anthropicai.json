@@ -2,6 +2,15 @@
   "handle": "AnthropicAI",
   "tweets": [
     {
+      "id": "2108680150556737819",
+      "url": "https://x.com/AnthropicAI/status/2108680150556737819",
+      "text": "We’re beginning a process of publishing more frequent reports on model behavior, beyond what appears in our system cards and regular risk reports.\n\nToday’s report describes four types of behaviors we’ve identified during evaluations and internal use. In each, Claude acted on real websites or systems in ways we didn’t intend, sometimes by working around a restriction instead of stopping.\n\nAll cases had minimal real-world impact. From an alignment and security perspective, we consider these behaviors significantly less severe than the cybersecurity incidents we reported in July and September.\n\nRead the full report: anthropic.com/research/inves…",
+      "publishedAt": "2026-10-09T22:04:59.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2108302543977906649",
       "url": "https://x.com/AnthropicAI/status/2108302543977906649",
       "text": "To secure open-source software, we’re launching OSS Scanner.\n\nWe’ll use our frontier models to periodically scan opted-in open-source projects for vulnerabilities, at no cost. Our reports will provide a proof-of-concept, explanation, and suggested fix.\n\nanthropic.com/research/launc…",
@@ -81,18 +90,9 @@
       "authorHandle": "AnthropicAI",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2104982631037436201",
-      "url": "https://x.com/AnthropicAI/status/2104982631037436201",
-      "text": "Making your interview public is completely optional. Our blog post covers the benefits and possible risks of doing so.\n\nRead it here: anthropic.com/research/your-…",
-      "publishedAt": "2026-09-29T17:12:22.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-09T01:27:40.640Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://twiiit.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-09T23:59:06.837Z",
+  "stale": false,
+  "error": null
 }
