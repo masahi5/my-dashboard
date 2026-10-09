@@ -6,6 +6,62 @@
   "category": "ai",
   "items": [
     {
+      "id": "741647399478",
+      "title": "Agent Teamsで「AIに組織を作る」は現実的か — 11部門を運用して分かった適正規模",
+      "url": "https://zenn.dev/joinclass/articles/agent-teams-ai-11-20261007220024-26010",
+      "publishedAt": "2026-10-08T23:00:13.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "結論から：11部門は作れる。だが「動いているのは4部門」だった 僕は合同会社ジョインクラスで、Claude Codeのサブエージェントを部門に見立てた「AI-CEO Framework」を1年近く運用している。.claude/agents…"
+    },
+    {
+      "id": "26c4890f86f6",
+      "title": "Claude Code をヘッドレスで回す開発ハーネスの設計 ― 工程・権限・打ち切りの分け方",
+      "url": "https://zenn.dev/zonotech/articles/95786a5c0a45bd",
+      "publishedAt": "2026-10-08T23:00:06.000Z",
+      "publisher": "noa",
+      "summary": "私は個人でソフトウェア開発をしているエンジニアです。 課題をバックログに積むと、AI が設計、実装、テスト、別モデルのレビュー、マージまで進める開発の仕組みを自作し、2026 年 7 月から 8 月を中心に動かしてきました。 前回の記事で…"
+    },
+    {
+      "id": "d9dc06b13a6e",
+      "title": "Renovate の更新 PR を AI エージェントにレビューさせ、自動マージまでつなげる",
+      "url": "https://zenn.dev/greendrop/articles/2026-10-09-4664c51706f346",
+      "publishedAt": "2026-10-08T22:00:05.000Z",
+      "publisher": "greendrop",
+      "summary": "はじめに AI エージェントが登場してから、作りたいものが増えていませんか。 アイデアを思いついてから動くものができるまでの時間が、大きく縮みました。仕事でも、機能追加がこれまでにないスピードで実装されていると感じます。少ない人数でできる…"
+    },
+    {
+      "id": "28f0702b1822",
+      "title": "Codex のレビューを通すまでデプロイできないようにした: コードの中身の印で確かめる",
+      "url": "https://zenn.dev/y3chi5z/articles/review-gate-block-deploy-until-reviewed",
+      "publishedAt": "2026-10-08T21:24:05.000Z",
+      "publisher": "y43z",
+      "summary": "Claude Code で書いたコードを、本番に出す前に Codex にレビューしてもらうことにしました。ただ、「レビューしてから出す」を決まりとして書いておくだけでは、急いでいる日に抜けます。そこで、レビューを通していないコードはデプロ…"
+    },
+    {
+      "id": "eb5d7b681781",
+      "title": "What is CUDA?",
+      "url": "https://zenn.dev/yoshinn/articles/compute_unified_device_arch",
+      "publishedAt": "2026-10-08T20:43:11.000Z",
+      "publisher": "yoshishinnze",
+      "summary": "最近AI開発に乗っかって必需品としての扱いを受けているGPU。 しかし、GPUがあるのみでは高速なAI計算を行えません。 セットでCUDAというツールが必要です。 今日はそんなCUDAについて語っていきます。 CUDAとは CUDAは、N…"
+    },
+    {
+      "id": "585ae64cf493",
+      "title": "AI時代の新しい企業のカタチ ── 人を雇う代わりに、AIが部門の仕事を担うスタートアップ",
+      "url": "https://zenn.dev/leading_ai/articles/ai-departments-instead-of-hiring",
+      "publishedAt": "2026-10-08T20:34:00.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "序章：Instinctは、評価額100億ドルで10億ドルを調達した 2026年9月28日、個人向けのAIエージェントを開発するInstinctは、米国のベンチャーキャピタルであるSequoia Capital、Benchmark Capi…"
+    },
+    {
+      "id": "89c843d8912e",
+      "title": "AIの記憶を4か月育てたら「世話係」が要った――エージェントに頼めば組み上がるキットを公開",
+      "url": "https://zenn.dev/hobomokha/articles/ai-secretary-kit-upgrade",
+      "publishedAt": "2026-10-08T18:56:30.000Z",
+      "publisher": "hobomokha",
+      "summary": "連載「外部コンテキストで記憶を補う試み」の続き。 1本目でAIの記憶を置く「箱」を作り、2本目で、育てると必ず散らかるという話をした。 今回は、その先の4か月でできあがった仕組みを、まるごと渡せる形にして公開する。 はじめに：箱は育った。…"
+    },
+    {
       "id": "87fdb0e5a3ab",
       "title": "AI エージェントに描画を任せても、お金を使い込まれない仕組み",
       "url": "https://zenn.dev/renderjanction/articles/0d7fcc51ac7d54",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-10-08T15:24:10.000Z",
       "publisher": "せきもん",
       "summary": "2026年8月から、副業の事務作業をほぼ全部 Claude Code に任せています。案件探し、提案文の下書き、顧客への回答の設計、記録。私がやるのは、要所の判断と、最後に送信ボタンを押すことです。 2ヶ月半で分かったことを1行で書くと、…"
-    },
-    {
-      "id": "2758b833795f",
-      "title": "AI Agent同士で連携させて何かを生み出すAgentic IDEを作ったら発見があった話",
-      "url": "https://zenn.dev/shiv/articles/b8f5c98f066dd0",
-      "publishedAt": "2026-10-08T15:10:43.000Z",
-      "publisher": "shiv",
-      "summary": "TL;DR AI Agent同士が連携するAgentic IDEを作った。自分が欲しかった。 もし使ってみたい人がいたらぜひ教えて 既存のAgentic IDEではできなかった部分 orcaやkiroなどの優れたAgentic IDEは既…"
-    },
-    {
-      "id": "d897b57aeb31",
-      "title": "【完全無料】VS Code・CLI・Obsidianを束ねるAIエージェント並行作業環境と無料LLMのリアルな使用感",
-      "url": "https://zenn.dev/ogiri/articles/free-llm-providers-agent-workflow",
-      "publishedAt": "2026-10-08T15:06:40.000Z",
-      "publisher": "もつ煮グラタン@半導体エンジニア",
-      "summary": "はじめに コーディングやドキュメント整理、トラブルシューティングにAIエージェントをフル活用する日常が当たり前になってきた。しかし、そこで常に頭を悩ませるのが 従量課金APIのトークン代 や ツールの利用上限（レートリミット） だ。 Cu…"
-    },
-    {
-      "id": "4108240d2580",
-      "title": "『リーダブルコード』第4・5章を読んで、AI時代に力を入れるべきはコードの見た目かコメントか",
-      "url": "https://zenn.dev/zhaojiayi/articles/5e5172f169b106",
-      "publishedAt": "2026-10-08T14:51:48.000Z",
-      "publisher": "ZHAOJIAYI",
-      "summary": "これまでの読書感想はこちら: https://zenn.dev/zhaojiayi/articles/1751d76f912f2c https://zenn.dev/zhaojiayi/articles/1e87c956f3f990 ht…"
-    },
-    {
-      "id": "d1455975a753",
-      "title": "ChatGPTの中で動かす。スマホで体験できるAI関連シミュレーション50選",
-      "url": "https://zenn.dev/fibujrsl/articles/fb48005155d626",
-      "publishedAt": "2026-10-08T14:49:33.000Z",
-      "publisher": "名前決めてね",
-      "summary": "はじめに 最近のChatGPTは、回答を読むだけでなく、チャット画面内でスライダーやグラフを操作できるようになってきました。 これが結構面白い。 これまではGoogle ColabでPythonを書いたり、Jupyter Notebook…"
-    },
-    {
-      "id": "f8a5551e66f7",
-      "title": "コンテキストウインドウを節約して、長いログを渡したい",
-      "url": "https://zenn.dev/pakirun/articles/033dbb91308882",
-      "publishedAt": "2026-10-08T14:36:12.000Z",
-      "publisher": "ontan",
-      "summary": "契機 AI エージェントにログなど大量のテキストを渡したいが、DLできず、エージェントから呼び出せないものはコピペで渡すしかありませんでした。 しかしそのまま渡すとコンテキストウインドウが圧迫されてしまっていました。 ログをファイルで渡す…"
-    },
-    {
-      "id": "a1a67bd0c2c0",
-      "title": "Mac mini M5 Pro (2026) の 64GB でローカル LLM はどれが使えるか",
-      "url": "https://zenn.dev/unchox/articles/mac-mini-m5-pro-64gb-local-llm-bench",
-      "publishedAt": "2026-10-08T14:35:38.000Z",
-      "publisher": "uncho",
-      "summary": "64 GB のメモリを積んだ Mac で、手元だけで動く AI (ローカル LLM) を使うとする。そのとき、待たされずに使えて、賢さも足りるモデルはどれか。これを確かめるために実測した。 読み終えると、次の 4 つについて判断材料が手に…"
-    },
-    {
-      "id": "bcf3cc225785",
-      "title": "作って終わりにしない――意思決定RAGを更新・評価する",
-      "url": "https://zenn.dev/hobomokha/articles/decision-rag-update-and-evaluate",
-      "publishedAt": "2026-10-08T14:24:47.000Z",
-      "publisher": "hobomokha",
-      "summary": "連載「小さく作る意思決定RAG」の第3回。 第1回で判断エピソードを集め、第2回で承認済みデータをRAGへ入れた。今回は、一度登録した判断を置き換え、同じ質問で再評価する。 はじめに：「本人っぽい」は、正しさと同じではない 判断エピソード…"
     }
   ],
-  "fetchedAt": "2026-10-08T21:33:31.481Z",
+  "fetchedAt": "2026-10-09T01:27:17.661Z",
   "stale": false,
   "error": null
 }

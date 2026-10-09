@@ -6,36 +6,20 @@
   "category": "ai",
   "items": [
     {
+      "id": "6468886df974",
+      "title": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
+      "url": "https://huggingface.co/papers/2610.08077",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through sc…",
+      "score": 17
+    },
+    {
       "id": "c60124a286d8",
       "title": "MIMESIS: Learning User Simulators as Training Environments for Interactive Agents",
       "url": "https://huggingface.co/papers/2610.09484",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "summary": "Training and evaluating interactive language agents typically requires rich user interactions, yet collecting human fee…",
-      "score": 9
-    },
-    {
-      "id": "d0ed10177520",
-      "title": "Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning",
-      "url": "https://huggingface.co/papers/2610.09450",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Pixel-space diffusion models avoid the lossy VAE of latent models, which suggests an advantage on downstream tasks wher…",
-      "score": 6
-    },
-    {
-      "id": "5c86c0c9ada1",
-      "title": "Composing What Each Teacher Learned: Multi-Teacher On-Policy Distillation through Teacher-Relative Shifts",
-      "url": "https://huggingface.co/papers/2610.10460",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Multi-teacher on-policy distillation (MOPD) is used in two settings. In common-domain composition, several teachers sco…",
-      "score": 6
-    },
-    {
-      "id": "1818825a7b49",
-      "title": "RoboJEPA: Scaling Robotic Latent World Models",
-      "url": "https://huggingface.co/papers/2610.10515",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice…",
-      "score": 1
+      "score": 12
     },
     {
       "id": "6312a02b165f",
@@ -43,7 +27,7 @@
       "url": "https://huggingface.co/papers/2610.02396",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "summary": "Multi-agent systems (MAS) built from large language models coordinate specialized agents to tackle complex tasks, but e…",
-      "score": 1
+      "score": 5
     },
     {
       "id": "95dffcf69b3f",
@@ -51,23 +35,23 @@
       "url": "https://huggingface.co/papers/2610.09457",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "summary": "Methods that recover individual latent variables of the world, from nonlinear ICA to dictionary learning and causal rep…",
-      "score": 1
+      "score": 3
     },
     {
-      "id": "e5c386d7a0d2",
-      "title": "Lineage-Aware Memory Governance: A Derivation-Gated Framework for Privacy-Preserving Column-Level Access Control in Enterprise AI Agents",
-      "url": "https://huggingface.co/papers/2610.07258",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Enterprise AI agents that share a memory store face two unaddressed risks: sensitive data can leak through legitimately…",
-      "score": 1
+      "id": "9dceedda0277",
+      "title": "Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute",
+      "url": "https://huggingface.co/papers/2610.10845",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "A large language model can only use the text that fits in its context window, and it recomputes its internal key-value …",
+      "score": 2
     },
     {
-      "id": "b5390dab9176",
-      "title": "PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation",
-      "url": "https://huggingface.co/papers/2609.38466",
+      "id": "a6a7efd076a5",
+      "title": "LongTake: Learning to Sustain Dynamics in Long-Horizon Video Generation",
+      "url": "https://huggingface.co/papers/2609.38562",
       "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Text-conditioned full-body human-object interaction (HOI) generation requires synthesizing human motion and object traj…",
-      "score": 1
+      "summary": "World models, game simulators, and long-take video creation require coherent scene evolution and sustained dynamics ove…",
+      "score": 2
     },
     {
       "id": "8ce456165443",
@@ -75,7 +59,15 @@
       "url": "https://huggingface.co/papers/2610.08902",
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "summary": "AI agents increasingly operate in environments where they can diagnose failures and improve through experience, yet exi…",
-      "score": 0
+      "score": 2
+    },
+    {
+      "id": "1818825a7b49",
+      "title": "RoboJEPA: Scaling Robotic Latent World Models",
+      "url": "https://huggingface.co/papers/2610.10515",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice…",
+      "score": 2
     },
     {
       "id": "57256b0f34ef",
@@ -83,7 +75,7 @@
       "url": "https://huggingface.co/papers/2610.04012",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "summary": "Language-model systems can separate contextual computation, persistent storage, and exact execution instead of updating…",
-      "score": 0
+      "score": 2
     },
     {
       "id": "41e56e4517a0",
@@ -91,18 +83,26 @@
       "url": "https://huggingface.co/papers/2610.05003",
       "publishedAt": "2026-10-04T00:00:00.000Z",
       "summary": "Generating corner-case scenarios with appropriate adversity in a simulation environment is critical for testing an auto…",
-      "score": 0
+      "score": 2
     },
     {
-      "id": "e7aaa4841e08",
-      "title": "System Switch: When Should a Fast Decision Model Stop and Think?",
-      "url": "https://huggingface.co/papers/2610.09683",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Dual-process agents pair a fast policy with a slow deliberative model. In real-time settings the slow model usually run…",
-      "score": 0
+      "id": "d787ae9786c4",
+      "title": "AutoResearch at Production Scale: Failure Modes and a Multi-Agent Framework",
+      "url": "https://huggingface.co/papers/2609.30541",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "summary": "Optimizing embedding systems for production recommendation pipelines demands systematic exploration that consumes dispr…",
+      "score": 1
+    },
+    {
+      "id": "6371a1625462",
+      "title": "ReGain: Restoring Subject Fidelity in Personalization on Synthetic Images",
+      "url": "https://huggingface.co/papers/2609.38680",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Text-to-image diffusion models are personalized to a subject by DreamBooth fine-tuning on a handful of its images. Incr…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-10-08T21:33:31.235Z",
+  "fetchedAt": "2026-10-09T01:27:17.447Z",
   "stale": false,
   "error": null
 }
