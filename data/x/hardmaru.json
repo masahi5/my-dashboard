@@ -2,6 +2,15 @@
   "handle": "hardmaru",
   "tweets": [
     {
+      "id": "2108543258649633039",
+      "url": "https://x.com/SakanaAILabs/status/2108543258649633039",
+      "text": "Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review\n\nPeer review needs support, not substitutes. Accepted at TMLR: our new paper on using AI to help reviewers catch errors in research papers.\n\narxiv.org/abs/2610.11087\n\nAs research submissions grow, so does the workload for the experts who evaluate them. AI review systems are emerging as a potential solution, but much of their development and evaluation focuses on how closely they imitate human reviews.\n\nIn our work “Beyond Imitation: A Framework and Benchmark for LLM Assisted Peer Review”, we explore how AI can support the review process without losing the human touch. We focus on one demanding but essential task: catching errors in research papers.\n\nWe build an automated pipeline that deliberately introduces contradictions into papers by adding statements that conflict with information elsewhere in the manuscript. These planted errors give us clear targets for testing whether AI reviewers can spot and explain what is wrong.\n\nNot all errors carry the same weight. Some undermine a paper’s central findings; others affect smaller details. We map the connections between each paper’s claims, methods, and evidence in a knowledge graph to estimate the severity of each contradiction and better assess what different systems can catch.\n\nWe also introduce Multi-Layered Review, an AI review system inspired by the Three-Pass Approach to reading research papers. It first outlines the main ideas, then examines the details and potential weaknesses, and finally brings its observations together into a review. The idea is simple: understand the paper before judging it.\n\nIn our evaluations, the system detected more errors than the other review systems we tested, including on papers withdrawn because of real mistakes. Its feedback emphasized different aspects of the work from human reviews, offering a complementary perspective, while its assessments of paper quality remained broadly consistent with human judgments.\n\nOur goal is to give reviewers useful support in checking research, with human expertise and judgment at the center.\n\nOpen Review: openreview.net/forum?id=7iX2…",
+      "publishedAt": "2026-10-09T13:01:02.000Z",
+      "authorHandle": "SakanaAILabs",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2108385649648939287",
       "url": "https://x.com/SakanaAILabs/status/2108385649648939287",
       "text": "アイリス株式会社（ @ShoOkiyama ）の医師向けエビデンス検索ツール「Evidence Finder」に、Sakana AIの技術が採用されました。\n\n医師の質問に対し、文献を検索して引用元を明示しながら回答。文献の比較・統合と回答生成の部分を担います。\n\n詳細はこちら\nsakana.ai/namazu-aillis/ 🐟",
@@ -67,7 +76,7 @@
     {
       "id": "2103660061260411266",
       "url": "https://x.com/hardmaru/status/2103660061260411266",
-      "text": "The last sentence in the Schmidhuber news trending item summary hits hard 🙃 nitterk.kareem.one/i/trending/21031854811…",
+      "text": "The last sentence in the Schmidhuber news trending item summary hits hard 🙃 shitter.thepixora.com/i/trending/21031854811…",
       "publishedAt": "2026-09-26T01:36:57.000Z",
       "authorHandle": "hardmaru",
       "likeCount": 0,
@@ -81,18 +90,9 @@
       "authorHandle": "SchmidhuberAI",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2103151519428448405",
-      "url": "https://x.com/hardmaru/status/2103151519428448405",
-      "text": "Jürgen Schmidhuber is joining Sakana AI as Chief Scientific Advisor.\n\n@SchmidhuberAI pioneered meta-learning, recursive self-improvement, and world models back in the 1990s, when compute was a million times more expensive. He has been thinking about machines that improve themselves since before compute was cheap enough to make it practical.\n\nThese ideas inspired the Darwin Gödel Machine and The AI Scientist. Our RSI Lab in Tokyo, now under Jürgen’s guidance, is working on agent-native world models and recursive self-improvement for physical AI.",
-      "publishedAt": "2026-09-24T15:56:11.000Z",
-      "authorHandle": "hardmaru",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-09T07:48:31.310Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: RSS ではない応答（インスタンスが不調） / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-09T20:00:23.226Z",
+  "stale": false,
+  "error": null
 }
