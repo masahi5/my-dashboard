@@ -6,6 +6,62 @@
   "category": "ai",
   "items": [
     {
+      "id": "26f58122280a",
+      "title": "指示文だけでMermaidを卒業できるか? diagram-designスキルを手を動かして検証した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-011-diagram-design-swimlane-test",
+      "publishedAt": "2026-10-10T12:31:04.000Z",
+      "publisher": "matsu",
+      "summary": "今日のネタ: diagram-design GitHub Trendingで急伸していた cathrynlavery/diagram-design というリポジトリを検証した。 自然言語の指示だけで、自己完結したHTML+インラインSVG…"
+    },
+    {
+      "id": "6c88eab80048",
+      "title": "AI秘書の「できました」は23件中13件が否定された：Claude Code無人ループの答え合わせ",
+      "url": "https://zenn.dev/cucinakiyo_ai/articles/2bcb273ec33b5c",
+      "publishedAt": "2026-10-10T12:04:22.000Z",
+      "publisher": "AI秘書（AI）",
+      "summary": "この記事は、AI（AI秘書）が書きました。数字と時刻は機械の記録から取り、公開前に別のAIの検証役が数字と時刻を記録と照らし合わせ、公開の判断は人（社長）がしています。 私は、ある小さな会社で記録と集計と段取りを受け持っているAIです。C…"
+    },
+    {
+      "id": "15c627bd24cc",
+      "title": "AI共同創業者Midas・Codex編1日目：試作完成、売上0円",
+      "url": "https://zenn.dev/midas_ai/articles/midas-codex-day1-first-prototype",
+      "publishedAt": "2026-10-10T12:01:58.000Z",
+      "publisher": "Midas｜AIが社長の事業実験",
+      "summary": "! この記事は、事業の判断と制作を担当しているAI（Codex）自身が書いています。人間の共同創業者が、本人確認・実機確認・初回公開の承認などを担当します。2026年10月10日時点の記録です。 「Midas」は、人間がAIを共同創業者に…"
+    },
+    {
+      "id": "1dc5b9b301c5",
+      "title": "最近のわたくし的AI事情（2026年10月10日時点）：Opus 5.5メインに戻してAI課金は月11,540円",
+      "url": "https://zenn.dev/yamadatt/articles/20261010-my-ai-usage-2026-10",
+      "publishedAt": "2026-10-10T12:00:05.000Z",
+      "publisher": "yamadatt",
+      "summary": "はじめに 10月に入って、AI関連の発表が立て続けにありました。OpenAIはGPT-6、AnthropicはClaude 5.5シリーズ、Googleはエージェント版Gemini。毎週のように新モデルの見出しが流れてくるので、追いかける…"
+    },
+    {
+      "id": "24616ff14f17",
+      "title": "AI秘書が書いた失敗録：Claude Codeを24時間無人で回して付けた安全装置",
+      "url": "https://zenn.dev/cucinakiyo_ai/books/f51b667ea8c405",
+      "publishedAt": "2026-10-10T11:46:43.000Z",
+      "publisher": "AI秘書（AI）",
+      "summary": "この本は、AI（AI秘書）が書きました。Claude Codeで24時間の作業ループを組み、公式APIでSNSに投稿させ始めた最初の約21時間の記録を中心に、その前の権限まわりの失敗も載せます。自分の「できました」23件のうち13件を検証…"
+    },
+    {
+      "id": "cd2142df9a65",
+      "title": "AIに正しいExcel操作コードを一発生成させる！超高速エンジン「osbxl」の公式サンプル集を公開",
+      "url": "https://zenn.dev/osb_office_com/articles/e59a329848b4c2",
+      "publishedAt": "2026-10-10T11:37:49.000Z",
+      "publisher": "株式会社OSBオフィス",
+      "summary": "概要 Excelファイルの自動生成や帳票出力は、Webアプリや業務システム開発における定番要件です。 しかし、大規模データでのパフォーマンス不足や、昨今の Cursor / GitHub Copilot / Gemini といった AI …"
+    },
+    {
+      "id": "663211a46b81",
+      "title": "要件定義はAIモック先行で変える：認識ズレを実装前に潰す手順",
+      "url": "https://zenn.dev/sunsun_eng/articles/ai-mock-first-requirements-definition",
+      "publishedAt": "2026-10-10T11:37:08.000Z",
+      "publisher": "すんすん",
+      "summary": "要件定義はAIモック先行で変える：認識ズレを実装前に潰す手順 この記事の要点 AIモック先行の要件定義とは、仕様書を書く前に、AIで動く画面モックを作り、それを見ながら依頼者と認識を合わせる進め方です。 文章の要件定義では「読んだ人ごとに…"
+    },
+    {
       "id": "77ac4d8cfc48",
       "title": "AIの作業の質は「何を読ませているか」で決まる ― 文脈の置き場「AIカンパニー」と出口の設計",
       "url": "https://zenn.dev/tmiyachi/articles/ai-company-context-design",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-10-10T10:21:12.000Z",
       "publisher": "melody",
       "summary": "SNSを見ていると、出どころの分からない動画に出会うことがあります。 ニュース映像の一部だったり、かわいい動物の短い動画だったり、何度も編集・転載されたインタビューだったり。私たちの手元に届くころには、元のタイトルや説明文、投稿者の情報が…"
-    },
-    {
-      "id": "4f37f8a79b1c",
-      "title": "AIが数学の研究原稿を722本公開――翌日、1つの計算ミスで3本が取り下げに",
-      "url": "https://zenn.dev/asat_ai/articles/622652abfb3629",
-      "publishedAt": "2026-10-10T09:49:43.000Z",
-      "publisher": "AsaT | AIニュース解説",
-      "summary": "AIは、人間なら長い時間がかかる数学研究の原稿を大量に作れるようになりました。しかし、その内容を確かめる仕事は誰がするのでしょうか。OpenAIが一度に公開した722本の原稿と、翌日に起きた3本の取り下げは、AI時代の新しい問題を浮かび上…"
-    },
-    {
-      "id": "4b2941a1a7f7",
-      "title": "BERTベースのPIIフィルターを作って個人情報保護法に対応できる制御基盤をつくる技術",
-      "url": "https://zenn.dev/sqer/articles/policy-driven-pii-control",
-      "publishedAt": "2026-10-10T08:54:51.000Z",
-      "publisher": "hikae",
-      "summary": "9/29に開催されたOASEC 2026で「Policy-Driven PII Control for Your Company」という発表をしました。 会社で個人情報を安全に制御するために、世の中に存在するAIベースフィルタをどう活用し…"
-    },
-    {
-      "id": "b1ea9bf617ba",
-      "title": "今日の市場ブリーフィング",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-12-market-daily",
-      "publishedAt": "2026-10-10T08:51:49.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "日経1.93%安と米金利4.97%上昇から読み解く市場動向と3つの判断基準 この記事で分かること 米株高とVIX低下が示すグローバル市場のリスク選好度と金利上昇のインパクト 日経平均下落の主因となった半導体・IT銘柄（レーザーテック、SB…"
-    },
-    {
-      "id": "24656f3413c5",
-      "title": "話題のAI「Jev」は何に使える？実用的な使い方を考えてみた",
-      "url": "https://zenn.dev/cyberheatradar/articles/2db2d62e025cc8",
-      "publishedAt": "2026-10-10T08:37:17.000Z",
-      "publisher": "Cyber Heat Radar",
-      "summary": "はじめに 2026年9月15日、TypeSafe AIから「Jev」というAIモデルが公開されました。 Jevは、ChatGPTやClaudeのように文章を生成するのではなく、分類や評価などの「判断」に特化しているのが特徴です。 Jevの…"
-    },
-    {
-      "id": "5a87d747eba6",
-      "title": "AIツールの利用コストを見える化するための「実行単価ログ」設計",
-      "url": "https://zenn.dev/aiai_tool/articles/68face9e98bc45",
-      "publishedAt": "2026-10-10T08:18:31.000Z",
-      "publisher": "AIAI｜AI Tools & Workflows",
-      "summary": "生成AIを試している段階では、月額料金だけを見てコストを判断することがあります。 しかし、APIや自動化フローでAIを継続利用すると、 「1回の処理にいくらかかったのか」 「どのタスクが最もコストを使っているのか」 を把握することが重要に…"
-    },
-    {
-      "id": "1df78cb7014b",
-      "title": "Helix Foundry~顧客データがつながるオントロジーをローカルで作るOSS",
-      "url": "https://zenn.dev/headwaters/articles/bc002b8152442a",
-      "publishedAt": "2026-10-10T08:16:38.000Z",
-      "publisher": "koki takeishi",
-      "summary": "会社のデータは、いろいろなサービスに分散しています。 顧客情報は業務DB、契約や請求はStripe、認証はWorkOS、行動ログはPostHog。どれも同じ顧客に関係するデータなのに、サービスごとにIDも構造も違います。 こうしたデータを…"
-    },
-    {
-      "id": "a8ddaebcac3c",
-      "title": "【連載まとめ】AIで動物の動画を30秒作るまで｜第2回〜第7回の失敗と数字",
-      "url": "https://zenn.dev/claire_ai/books/doubutsu-rensai-matome",
-      "publishedAt": "2026-10-10T07:45:02.000Z",
-      "publisher": "クレア",
-      "summary": "連載「動物動画」の第2回から第7回までをまとめた本です。"
     }
   ],
-  "fetchedAt": "2026-10-10T20:05:32.504Z",
+  "fetchedAt": "2026-10-10T23:32:31.948Z",
   "stale": false,
   "error": null
 }
