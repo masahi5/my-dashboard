@@ -6,6 +6,78 @@
   "category": "ai",
   "items": [
     {
+      "id": "6f78cfc7e604",
+      "title": "端末で作った Claude Code の Mod をデスクトップ版で開くと当たる 5 つの差",
+      "url": "https://zenn.dev/nakadaharuki/articles/claude-code-mods-desktop-pane",
+      "publishedAt": "2026-10-09T23:00:05.000Z",
+      "publisher": "中田榛希",
+      "summary": "Claude Code の Mods は、端末とデスクトップアプリ（Code タブ）の両方で描かれます。同じコードがそのまま動く、と思って端末で作った Mod をデスクトップで開くと、動くには動くのに見た目がことごとく崩れました。 当たっ…"
+    },
+    {
+      "id": "d3434ca2ff9e",
+      "title": "スキーマのコメント1行が嘘で、AIが2か月それを書き続けた",
+      "url": "https://zenn.dev/sutokei/articles/schema-comment-two-labels",
+      "publishedAt": "2026-10-09T23:00:05.000Z",
+      "publisher": "すぅ",
+      "summary": "公立図書館の貸出状況を毎朝観測して、記事にして公開するサイトを運用しています。記事はエージェントが書き、別のエージェントが検品します。 ある日の記事を読んでいて、3行のあいだで数字の呼び名が変わっていることに気づきました。 47行目: 所…"
+    },
+    {
+      "id": "6ee71d4a8652",
+      "title": "「漏れた」と決める前にやること ― 情報漏洩対応は、まず“範囲の特定”から",
+      "url": "https://zenn.dev/taichiendoh/articles/breach-scope-before-triage-response",
+      "publishedAt": "2026-10-09T22:17:47.000Z",
+      "publisher": "遠藤太一",
+      "summary": "今週も、国内で複数の情報漏洩・システム障害のニュースが報じられました。外食チェーンのアプリ会員情報、カーシェア事業者の本人確認画像、クラウド事業者のランサムウェア被害による多数の企業・自治体のシステム停止——業種も原因もさまざまですが、報…"
+    },
+    {
+      "id": "feab257f8511",
+      "title": "反論しても正解を曲げないAI、迎合研究との接続を読む",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-pushback-fake-authority-check",
+      "publishedAt": "2026-10-09T21:18:56.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR note版・ブログ版では非エンジニア向けに「AIの答えに『それ違う』と強く言い返すと、答えを曲げてしまうのでは」という不安を、3つの有名なひっかけ問題（鉄と羽毛の重さ・モンティ・ホール問題・誕生日のパラドックス）で実際に検証し…"
+    },
+    {
+      "id": "904e1932ea86",
+      "title": "Tech Watch 2026-10-10: エージェントを運用に載せる",
+      "url": "https://zenn.dev/laiken/articles/20261010-tech-watch",
+      "publishedAt": "2026-10-09T21:16:47.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: サブエージェントだけが親より早く会話履歴を圧縮できる。親にはまだ必要な過去が、子にはもう不要になる瞬間があるということだろうか。 今日の 1…"
+    },
+    {
+      "id": "1677ef46be4e",
+      "title": "「Quattro は1行も手で書いていない」DHH 回はどれが伸びるか（#35予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr35-dhh-prediction",
+      "publishedAt": "2026-10-09T21:00:11.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
+    },
+    {
+      "id": "768cacab3d71",
+      "title": "AIコーディングエージェントの安全な初期設定：Next.js / TypeScript チーム向けキットと手順書",
+      "url": "https://zenn.dev/yakankun/books/claude-code-starter-kit-nextjs",
+      "publishedAt": "2026-10-09T20:59:44.000Z",
+      "publisher": "YakanKun",
+      "summary": "Claude Code（Anthropic 社のAIコーディングツール）を、Next.js と TypeScript で開発するチームが安全な初期設定で使い始めるための、非公式の日本語の手順書と設定ファイル一式です。インストールとログイン…"
+    },
+    {
+      "id": "956afd226c0b",
+      "title": "AIに書かせたNext.jsのコードで起きやすいセキュリティの穴と、直し方",
+      "url": "https://zenn.dev/yakankun/articles/nextjs-ai-code-security-pitfalls",
+      "publishedAt": "2026-10-09T20:27:09.000Z",
+      "publisher": "YakanKun",
+      "summary": "AIに頼んで書いたNext.jsのコードは、たいてい動きます。ただ、動くことと安全なことは別です。 この記事では、Next.js（App Router）の小さなアプリで攻撃を実際に再現し、直したあとに防げることまで確かめた穴を、9つの型に…"
+    },
+    {
+      "id": "d04a34074e10",
+      "title": "人は意図と契約を持ち、AIはループを回す：契約ループ開発の考え方",
+      "url": "https://zenn.dev/yakankun/articles/contract-loop-dev-01-overview",
+      "publishedAt": "2026-10-09T20:27:08.000Z",
+      "publisher": "YakanKun",
+      "summary": "契約ループ開発は、AIエージェントにコードを書かせることを前提に、私が組み立てている開発の進め方です。決めていることは単純で、人が責任を持つのは「何のために作るか（意図）」と「何が起きれば完成とするか（契約）」の2つだけ。実装・検証・合流…"
+    },
+    {
       "id": "d28f74203a41",
       "title": "個人開発のアイデアを1日で27個採点して、全部ボツにした話",
       "url": "https://zenn.dev/daichi01278/articles/27-ideas-scored-all-rejected",
@@ -28,81 +100,9 @@
       "publishedAt": "2026-10-09T15:04:33.000Z",
       "publisher": "Yukito / 郷由稀斗",
       "summary": "「MCPサーバーって、結局自分でも作れるの?」 Claude Code に MCP サーバーを繋ぐ記事はよく見かけるが、「使う」側の話ばかりで「作る」側の情報は意外と少ない。筆者は自分のプロジェクトで社内 API 連携用の MCP サーバ…"
-    },
-    {
-      "id": "d2dfdb8342cb",
-      "title": "OpenAI の数学研究成果は検証範囲と依存関係を追跡して再利用する",
-      "url": "https://zenn.dev/id774/articles/06c39b54a99f23",
-      "publishedAt": "2026-10-09T15:03:05.000Z",
-      "publisher": "Yasuhiro Nakayama",
-      "summary": "数学研究の成果を後続の論文で引用するとき、必要なのは「証明が存在する」という情報だけではない。利用する主張がどの版に書かれ、どの前提に依存し、どの範囲まで検証され、公開後に訂正されたかを確認する必要がある。特に成果の生成速度が上がると、引…"
-    },
-    {
-      "id": "77e9094f5679",
-      "title": "Spring Boot + Thymeleaf から JTE へ移行する判断軸 ― 型安全SSRとAI駆動開発の観点から",
-      "url": "https://zenn.dev/seven9nrh/articles/abb83b5c399c48",
-      "publishedAt": "2026-10-09T13:24:06.000Z",
-      "publisher": "HNNR",
-      "summary": "はじめに Spring Boot で画面付きの業務アプリを作るとき、テンプレートエンジンは事実上 Thymeleaf 一択、という状況が長く続いてきました。本記事では、Spring Boot + Thymeleaf 構成を JTE (Ja…"
-    },
-    {
-      "id": "5b89774e7dba",
-      "title": "dotsへの委任を「タスク」「実行場所」「成果」の三つに分けて引き継ぐ",
-      "url": "https://zenn.dev/tsukaima_kobo/articles/4ce81e6a03a535",
-      "publishedAt": "2026-10-09T13:10:26.000Z",
-      "publisher": "使い魔工房",
-      "summary": "長く続くコード作業をdotsへ任せる際、会話履歴だけを引き継ぎの中心にすると、現在のファイルと完了した確認を取り違えやすくなります。 この記事の結論は、仕事の識別子、実行場所、成果の観測を別々に持つことです。公式の機能説明と、独自の状態管…"
-    },
-    {
-      "id": "a3455f18c0d3",
-      "title": "`git status`はクリーンだと言った。`git checkout -B`は、2件とも「破壊的操作」として拒否された",
-      "url": "https://zenn.dev/hideki_tamae/articles/checkout-b-ff-only-denial",
-      "publishedAt": "2026-10-09T13:03:02.000Z",
-      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
-      "summary": "はじめに 2。 これが今回の数字です。今回の定期タスクは、まずZenn用とQiita用、2つのリポジトリをそれぞれ最新のoriginに合わせる、というごく普通の準備作業から始まりました。手順はいつも同じで、git fetch origin…"
-    },
-    {
-      "id": "8830179e3c8a",
-      "title": "「完全自動化」への足は残った手の数から — 月次点検を道具で繋ぐ判断線の引き方",
-      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-kanzen-jidouka-sen",
-      "publishedAt": "2026-10-09T13:02:04.000Z",
-      "publisher": "速水 拓真",
-      "summary": "任せ表の月次点検が回るようになりました（任せ表は月次の数字で点検する）。点検を始めると、ある種のごまかしが見えます。任せ表はAIに任せる工程の線を引いたのに、点検と報告は自分が毎月手で回している——これで問題ないと言いたいところですが、完…"
-    },
-    {
-      "id": "47ef24f900db",
-      "title": "「Reverse Engineer Anything」を名乗るMCPサーバーREAを自作Electronアプリで試した",
-      "url": "https://zenn.dev/matsushima_a/articles/day-010-rea-reverse-engineering-mcp-limits",
-      "publishedAt": "2026-10-09T12:20:52.000Z",
-      "publisher": "matsu",
-      "summary": "要約 GitHub Trendingで急伸していた morluto/rea(MITライセンス、npm: rea-agents、検証時点の最新版5.0.0)は、コーディングエージェントにネイティブバイナリ・Electron/JSアプリ・.N…"
-    },
-    {
-      "id": "fa31745281b2",
-      "title": "Turning Flat Images into Editable Layers: A Practical Workflow",
-      "url": "https://zenn.dev/jevaimodel/articles/700c7a05fab41e",
-      "publishedAt": "2026-10-09T12:05:08.000Z",
-      "publisher": "Jev AI Model",
-      "summary": "When a design reaches you as a single PNG or JPEG, the first question is often not how to redraw it, but how to recover…"
-    },
-    {
-      "id": "e400c548b616",
-      "title": "OpenAIの売上、実は500億ドル。AI株が下落",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261009",
-      "publishedAt": "2026-10-09T11:44:24.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月9日（金）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は「数字の見方」が問われるニュースが多い日なんですよ。OpenAIの売上が報道より少なかった話、AIで書いた数学論文の取り下げ、…"
-    },
-    {
-      "id": "2866fde6fe5a",
-      "title": "業務改善の考え方 — 変える前に考えること",
-      "url": "https://zenn.dev/firebird13332/books/eaece84670e8e0",
-      "publishedAt": "2026-10-09T11:37:41.000Z",
-      "publisher": "鈴木",
-      "summary": "業務改善は、目の前の作業を効率化すればよいのでしょうか。 無駄に見える作業にも理由があるかもしれません。技術的にできることが、業務上も許されるとは限りません。 本記事では、業務改善の考え方から、ルールと手順の違い、AIの活用方法まで、変え…"
     }
   ],
-  "fetchedAt": "2026-10-09T23:58:03.390Z",
+  "fetchedAt": "2026-10-10T05:05:31.919Z",
   "stale": false,
   "error": null
 }
