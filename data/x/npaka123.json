@@ -2,6 +2,87 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2108912350430670850",
+      "url": "https://x.com/fladdict/status/2108912350430670850",
+      "text": "スゴイムーブ来た",
+      "publishedAt": "2026-10-10T13:27:40.000Z",
+      "authorHandle": "fladdict",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2108905892381139133",
+      "url": "https://x.com/npaka123/status/2108905892381139133",
+      "text": "ヌルヌルネクサス魂　横浜に爆誕した落合陽一常設展示へ行く inv.kareem.one/hmznDaOfa8E?si=5mt7… @YouTubeより",
+      "publishedAt": "2026-10-10T13:02:00.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2108905695525646437",
+      "url": "https://x.com/npaka123/status/2108905695525646437",
+      "text": "OpenAIの新機能！24時間働くAIエージェント「dots」の使用感や課金すべきか解説してみた inv.kareem.one/nTNCwOYrww0?si=QKcb… @YouTubeより",
+      "publishedAt": "2026-10-10T13:01:14.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2108884169069916440",
+      "url": "https://x.com/llm_frontier_jp/status/2108884169069916440",
+      "text": "2026年10月10日時点のMia's AI LabのGitHubを確認しました。\nDGX Sparkの台数別では、Qwen3.8 Flash Next、GLM-5.3 Flash、DeepSeek V4.1 Flashが有力です。\nただし、作者が公式に順位を付けたものではありません。\n公開されている実行レシピ、実測速度、対応台数をもとに私が選んだ構成です。\n\n【台数別おすすめモデル】\n表内の略称：\nQwen：Qwen3.8 Flash Next\nGLM：GLM-5.3 Flash\nDS4：DeepSeek V4 Flash\nDS4.1：DeepSeek V4.1 Flash\n\n台数｜第一候補｜別候補\n1台｜Qwen｜DS4\n2台｜GLM｜DS4\n3台｜DS4.1｜GLM\n4台｜DS4.1｜GLM 2台×2組\n特に注目したいのは、作者がQwen3.8とGLM-5.3の旧レシピから、より高速なTensorFold版への移行を明確に推奨していることです。\n\n【作者本人の評価と実測速度】\nさらに、作者の公式モデル一覧も確認すると、「Mia's Favorite」として明示されているのは、2〜3台構成のGLM-5.3 Flash（TensorFold版）です。\nつまり、作者自身の好みを優先するなら、3台の第一候補もGLM-5.3 Flashになります。\n上の候補のDeepSeek V4.1は、大型モデルの実行と4台への拡張を重視した私の選択です。\n■ 公開された実測値（tok/s）\n台｜モデル｜Prefill｜Decode\n1｜Qwen｜2,630｜64.4\n2｜GLM｜1,979｜60.4\n3｜GLM｜2,064｜77.6\n4｜DS4.1｜約4,900｜87.7\n※ Prefillは、1〜3台が約32kトークン、4台のDeepSeek V4.1 Flashが入力16k〜128kトークンの実テキストです。\n※ Decodeは1リクエスト、通常文章での測定です。\n各レシピの測定条件や量子化が異なるため、厳密な性能ランキングではありません。\n3台GLMのTensorFold構成は実験的対応です。\n\n【重要な選択肢がもう2つあります】\n・2台のQwen3.8 Flash Next\nTensorFoldの構成別のDecode tok/s：\nNVFP4（フルモデル） ｜ 67.4\nINT4-AutoRound（expert削減） ｜ 89.3\n※後者は、モデル作者の評価で一般能力が約10%低下します。\n・3台のフル版GLM-5.3\nFlashではない高性能モデルを2.75bpwで実行可能です。\nDecode tok/s ｜ 31.3\nPrefill tok/s ｜ 591\n知能重視の候補ですが、量子化の影響を検証する価値があります。\n■ 作者自身が2026年10月9日に更新したモデル評価表：\nB ｜ フル版GLM-5.3\nC ｜ GLM-5.3 Flash／DeepSeek V4.1 Flash\nD ｜ Qwen3.8 Flash Next\n※作者の主観的評価で、各量子化版の精度を保証するものではありません。\n\n【4台保有している場合の使い分け】\n私なら、普段は次のように使い分けます。\n・2台 ｜ GLM-5.3 Flash\n・1台 ｜ Qwen3.8 Flash Next\n・残り1台 ｜ 検証用\n4台をまとめるときはDeepSeek V4.1 Flashを使います。\n作者は4台構成で最大約100万トークンのコンテキストも検証しており、大量のコードや文書を扱う用途に魅力があります。\n→ 現時点で最初に試す価値が高いのは、作者が特に推しているGLM-5.3 Flash TensorFold版だと思います。\n\n【出典】\nmia-ai.net/models\nmia-ai.net/models/tier-list\ngithub.com/MiaAI-Lab/GLM-5.3…\ngithub.com/MiaAI-Lab/Qwen3.8…\ngithub.com/MiaAI-Lab/DeepSee…\nmia-ai.net/models/Qwen3.8-Fl…\nmia-ai.net/models/GLM-5.3-EX…",
+      "publishedAt": "2026-10-10T11:35:41.000Z",
+      "authorHandle": "llm_frontier_jp",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2108841348233347211",
+      "url": "https://x.com/4STUDIO4/status/2108841348233347211",
+      "text": "『レディストーカー2D』のクラウドファンディング、ローンチ前ページを公開しました🎉\nローンチは休み明けを予定しております\nリワードなどを予めご確認いただき、休み明けぜひともご参加ください🙌🙌\n\n33年ぶりのFC用完全新作RPG『レディストーカー2D』開発プロジェクト\nkickstarter.com/projects/bit…",
+      "publishedAt": "2026-10-10T08:45:32.000Z",
+      "authorHandle": "4STUDIO4",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2108829133291897273",
+      "url": "https://x.com/ShoutEssence/status/2108829133291897273",
+      "text": "※リポスト希望\nEVOFranceの盛り上がりで、掻き消えそうな重大発表\n╭━━━━━━━━━━━━╮\nしゃう亭\n11月秋葉原への移転決定😃\n╰━━━━━ｖ━━━━━━╯\nもっと広く。もっと居心地よく。もっと遊びやすく。\n\n移転に合わせカフェスペースに(お酒提供有🍺)\n詳細は順次発表！",
+      "publishedAt": "2026-10-10T07:57:00.000Z",
+      "authorHandle": "ShoutEssence",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2108815218239508845",
+      "url": "https://x.com/gyakuse/status/2108815218239508845",
+      "text": "個人情報漏洩が日常になってしまったので、とくに脅威の高いものとしてどういう攻撃がありうるか簡単にまとめてみました\nnyosegawa.com/posts/data-lea…",
+      "publishedAt": "2026-10-10T07:01:42.000Z",
+      "authorHandle": "gyakuse",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2108815167278690470",
+      "url": "https://x.com/toyxyz3/status/2108815167278690470",
+      "text": "huggingface.co/MicksHF/Qwen-…",
+      "publishedAt": "2026-10-10T07:01:30.000Z",
+      "authorHandle": "toyxyz3",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2108812342276571177",
+      "url": "https://x.com/peony__snow/status/2108812342276571177",
+      "text": "NexteraBERTをGGUF 形式に変換し、CPU 上で高速に実行できるリポジトリ・モデルを公開しました。\n\nModernBERT・BERT・LFM2.5-Encoderといった広く用いられているモデルをpytorchで使う場合と比較しても最大 3.1 倍速くなります。\nllama.cpp と同じ流れで、量子化・実行ができ、PyTorch は不要です。",
+      "publishedAt": "2026-10-10T06:50:16.000Z",
+      "authorHandle": "peony__snow",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2108809023827165608",
       "url": "https://x.com/8co28/status/2108809023827165608",
       "text": "「人類は滅亡しません！」\nという曲を作って重音テトUTAUと重音テトSV2に歌わせました。ピッチ変更とケロらせてるから原型ちょっとしかないかも。\n動画はJIZURAをフル活用しました。",
@@ -9,90 +90,9 @@
       "authorHandle": "8co28",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2108794690845995487",
-      "url": "https://x.com/fladdict/status/2108794690845995487",
-      "text": "今度、ポッドキャストでお話を伺ってみたいです",
-      "publishedAt": "2026-10-10T05:40:08.000Z",
-      "authorHandle": "fladdict",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108791952531755153",
-      "url": "https://x.com/fladdict/status/2108791952531755153",
-      "text": "なんでもこうなっていってしまうな。SaaSよりも、単体ソフトウェアにたいするインパクトがデカい",
-      "publishedAt": "2026-10-10T05:29:15.000Z",
-      "authorHandle": "fladdict",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108748867680518630",
-      "url": "https://x.com/npaka123/status/2108748867680518630",
-      "text": "RT @umiyuki_ai: StrataでIQ3_XXSだとプレフィル3400tps、デコード118tpsもあった速度がUD-IQ4_XSにした途端にプレフィル410tps、デコード38.5tpsにガタ落ち。こうなると別に実用性が無いわけじゃないけど感動が無い。これならQw…",
-      "publishedAt": "2026-10-10T02:38:03.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2108736734309896625",
-      "url": "https://x.com/vllm_project/status/2108736734309896625",
-      "text": "vLLM now supports NVIDIA Vera Rubin. The early results show more than 7.8x the throughput of GB200 on MiniMax M3 on AgentX.\n\n@inferact, @NVIDIAAI, @RedHat_AI, and the vLLM community have been bringing vLLM up on Rubin since it was announced. Here is where things stand.\n\n🧵 1/5",
-      "publishedAt": "2026-10-10T01:49:50.000Z",
-      "authorHandle": "vllm_project",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108717438254858344",
-      "url": "https://x.com/posi_posi8/status/2108717438254858344",
-      "text": "Google ColabにあるA100で、Strata使えた！\n\n色々な時間が混ざっているから、長文の計測結果が妥当だと思う。\nPrefill：2,572.2 tok/s\nDecode：116.9 tok/s\n\n速いぜ！",
-      "publishedAt": "2026-10-10T00:33:10.000Z",
-      "authorHandle": "posi_posi8",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108706890419151319",
-      "url": "https://x.com/shi3z/status/2108706890419151319",
-      "text": "23億パラメータの音声生成AIをブラウザだけで動かす「VoxCPM2Web」を作った｜shi3z @shi3z note.com/shi3zblog/n/n40c70a…",
-      "publishedAt": "2026-10-09T23:51:15.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108699982337552847",
-      "url": "https://x.com/H3Atelier/status/2108699982337552847",
-      "text": "VRoidでツリ目にした場合、まばたきしたときにまぶたが斜めになり気になるときがあります。\nV-Expressionではまばたき→目→上まぶたの傾きを調整すると自然にすることが出来ます。VRoidのツリ目美少女をみるために追加した機能なので、もっとツリ目美少女が見られたらうれしいなー\n\nまばたきの目の調整は他にも調整項目があります。ただ、ややこしいので触らないほうがいいと思います（なぜ入れた）",
-      "publishedAt": "2026-10-09T23:23:48.000Z",
-      "authorHandle": "H3Atelier",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108687551632711792",
-      "url": "https://x.com/MLBear2/status/2108687551632711792",
-      "text": "【10月10日 朝のニュースまとめ】\n・Anthropic、Claudeの挙動に関する定期レポートを開始\n・Gemini 4新版Carbon、コーディングでOpus 5.5級と報道\n・Microsoft、意思決定モデルMicrosoft-Decision-1を公開\n・Claude Managed Agentsのdynamic workflowsがパブリックベータに\n・Codex、次の発言を予測するcomposer predictionsをベータ公開\n・Claude Code Projects、待機リストの全Pro/Maxに開放\n・Pine、AI Agent専用クラウドPCを公開 タスク単価$1.02\n・Grok Botが専用メールアドレスを取得可能に\n・TypeSafe AI、a16z主導のシリーズAで$870M調達\n・OpenAI数学成果、RL環境作りが狙いとの推測も\n・サイバー攻撃続発で政府が点検要請、AIツールのログにも懸念\n・非侵襲BCIキャップのSabiがシードで$50M調達\n・Tinkerが最大70%値下げ、長文脈RLを効率化\n・DGX SparkでのSpeculative Decodingを解説したZenn記事\n・常時稼働エージェントの仕組みを解説したStanford講義\n\n===\n\nAnthropic、Claudeの挙動に関する定期レポートを開始\n\n・Anthropicが、システムカードやリスク報告とは別に、モデル挙動のレポートをより頻繁に公開すると発表しました\n・初回レポートでは、評価や社内利用の中で特定したClaudeの4種類の挙動を報告しています\n・AIが虚偽の通報をした挙動に、2カ月以上気づかなかったケースもあったと報じられています\n\n===\n\nGemini 4新版Carbon、コーディングでOpus 5.5級と報道\n\n・Googleが社内でGemini 4の新チェックポイントCarbonをテストしているとBusiness Insiderが報じました\n・テストした社員によると、コーディングではOpus 5.5のような感触で、Argonの次の候補とされています\n・社内最良モデルが他社の公開モデルと同等では厳しい、公開までに性能が落ちるのではとの懐疑的な声も出ています\n\n===\n\nMicrosoft、意思決定モデルMicrosoft-Decision-1を公開\n\n・Microsoftが、構造化された意思決定タスク向けの新モデルMicrosoft-Decision-1を発表しました\n・Qwen3.5-9Bをポストトレーニングした単一パスの判定モデルで、Microsoft Foundryで利用できます\n・LLM判定器や仮説スクリーニングへの応用が見込まれ、今後はMAIなどへのベース載せ替えも予定されています\n\n===\n\nClaude Managed Agentsのdynamic workflowsがパブリックベータに\n\n・AnthropicがClaude Managed Agentsのdynamic workflowsをパブリックベータとして公開しました\n・リードエージェントが計画を書き、複数のエージェントがフェーズごとに実行して最後に結果を統合する新しいマルチエージェント編成です\n・大規模なワークロード向けに、Claude自身がエージェント群を計画・運用できる仕組みとして注目されています\n\n===\n\nCodex、次の発言を予測するcomposer predictionsをベータ公開\n\n・OpenAIがCodexでProユーザー向けにcomposer predictionsのベータ提供を開始しました\n・会話内容やユーザーの話し方をもとに、次に送るメッセージを提案する機能です\n・社内テストで特に好評だった機能の一つとされ、小型モデルで同様の仕組みを自作していた開発者からも評価されています\n\n===\n\nClaude Code Projects、待機リストの全Pro/Maxに開放【続報】\n\n・Claude Codeの並列タスク管理機能Projectsに関する続報です\n・ウェイトリストに登録していたPro/Maxユーザー全員が、Projectsを利用できるようになりました\n・各タスクを並列のクラウドスレッドで実行でき、プロジェクトごとに指示やリポジトリを設定できます\n・同日にはReadツールのallow_largeオプションなど79件の変更を含むClaude Code 2.1.296も出ています\n\n===\n\nPine、AI Agent専用クラウドPCを公開 タスク単価$1.02\n\n・Pineが、AIエージェント向けに設計したクラウドコンピュータPine Computerを公開しました\n・Webページを構造として読み、SDKで平易な指示を渡すと計画から実行までこなします\n・トークン代は1タスク$1.02でCodexの$20.50と比較され、足かせはモデルより人間向けPCとハーネスだとの議論を呼んでいます\n\n===\n\nGrok Botが専用メールアドレスを取得可能に【続報】\n\n・xAIのAIチームメイトGrok Botに関する続報です\n・Grok Botが、ユーザーのアカウントとは別にボット自身のメールアドレスを取得できるようになりました\n・サービスへの登録や企業への連絡、日程調整などに使え、チームでの利用には管理者による有効化が必要です\n・ニュースレター購読を任せた例も報告され、常時稼働エージェントとしての使い道が広がっています\n\n===\n\nTypeSafe AI、a16z主導のシリーズAで$870M調達【続報】\n\n・意思決定特化モデルJevを開発するTypeSafe AIの大型資金調達に関する続報です\n・a16z主導のシリーズAで8億7000万ドルを調達し、協議中と報じられていた大型調達が実現しました\n・公開から3週間で1日数兆トークンを処理し、Fortune 500の29.4%が利用したとしています\n・a16zはAI価格がPCの15年分を3年で下落したと指摘し、安価な知能の既存ソフトへの組み込みを強調しています\n\n===\n\nOpenAI数学成果、RL環境作りが狙いとの推測も【続報】\n\n・OpenAIの数学成果大量公開と数学者の反発に関する続報です\n・Lean形式化した数学問題で大量のRL環境を作ったのではないかとの推測が出ています\n・公開は約400件にとどめ、内部モデルの検証が主な目的だったとの見方もあります\n・著名数学者は、AIラボの数学の扱い方が研究の方向性を早期に閉ざしかねないと警告しています\n\n===\n\nサイバー攻撃続発で政府が点検要請、AIツールのログにも懸念\n\n・日本企業へのサイバー攻撃が相次ぎ、AIツールが攻撃の障壁を下げているとして政府が点検を呼びかけています\n・Claude CodeやCodexのセッションログは量が多く平文で保存先も固定のため、漏洩経路になり得るとの懸念が出ています\n・AIで古典的なスキャナを回す攻撃が効率化し、アプリケーション層で守るべきものが再び増えたとの指摘も話題です\n\n===\n\n非侵襲BCIキャップのSabiがシードで$50M調達【続報】\n\n・ニット帽型の非侵襲BCI Sabi Capを開発するSabiに関する続報です\n・脳信号をAIへのプロンプトに変える技術の開発に向け、シードラウンドで5000万ドルを調達しました\n・最大10万個のセンサーとTSMC製の独自EEGチップ、10万時間の神経データで学習したBrain Foundation Modelを使います\n・入力前に次の3〜4打鍵を予測できるとされ、考えるだけでAIエージェントと対話する未来像が注目されています\n\n===\n\nTinkerが最大70%値下げ、長文脈RLを効率化\n\n・ファインチューニング基盤Tinkerが効率改善を反映し、最大70%の値下げを発表しました\n・長文脈RLのスケールに対応するための改善で、GLM-5.3-FlashとDeepSeek-v4.1-Flashも利用可能になっています\n・オープンモデルで長文脈の強化学習を試したい開発者にとってコスト面の障壁が下がります\n\n===\n\nDGX SparkでのSpeculative Decodingを解説したZenn記事\n\n・DGX SparkでローカルLLMを動かす際のSpeculative Decodingを調べたZenn記事が公開されました\n・Dflashなどを使わないと遅すぎて実用的でないという体験から出発し、仕組みを掘り下げています\n・以前の記事で扱った棄却サンプリングとのつながりも解説されており、推論高速化の理解に役立ちます\n\n===\n\n常時稼働エージェントの仕組みを解説したStanford講義\n\n・Lee Robinson氏が、Stanford CS146Sで常時稼働・プロアクティブ型エージェントの仕組みを講義した動画を公開しました\n・モデルの変化、常時稼働エージェントの内部、ハーネス、コンテキストエンジニアリング、今後の方向性をチャプター別に扱っています\n・エージェント設計の全体像を短時間で把握したい開発者向けの教材として注目を集めています",
-      "publishedAt": "2026-10-09T22:34:24.000Z",
-      "authorHandle": "MLBear2",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108686543602979245",
-      "url": "https://x.com/ochyai/status/2108686543602979245",
-      "text": "落合陽一プロデュース・常設体験型施設『null²ⁿ』「万博ではやりきれなかったいくつかの作品構想があった」　ミャクミャクたちも応援に駆けつける(日テレNEWS NNN)\n#Yahooニュース\nnews.yahoo.co.jp/articles/32…",
-      "publishedAt": "2026-10-09T22:30:24.000Z",
-      "authorHandle": "ochyai",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-10T11:10:39.409Z",
+  "fetchedAt": "2026-10-10T16:14:39.757Z",
   "stale": false,
   "error": null
 }
