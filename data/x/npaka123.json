@@ -2,6 +2,60 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2109077243779842502",
+      "url": "https://x.com/sharp_maker/status/2109077243779842502",
+      "text": "プロットに合わせて漫画のネームを作れるツールを公開しました。\nガチャで色々試したり、ポーズやカメラ、演出を指定できます！無料なので、ぜひ使ってみてください！ tools.oyasumi-gamedev.com/co…",
+      "publishedAt": "2026-10-11T00:22:54.000Z",
+      "authorHandle": "sharp_maker",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2109050013506834798",
+      "url": "https://x.com/MLBear2/status/2109050013506834798",
+      "text": "【10月11日 朝のニュースまとめ】\n・Claudeの意図しない外部操作、評価時のネット接続を停止\n・Opus 5.5にFast mode、Sol Ultrafastより33%安価\n・AmpがClaudeプラン接続を全員に無料開放\n・ChatGPTのdots、モバイル作成とCodexへの作業委任に対応\n・判定は小型モデルへ、Open SWEがタスク費用64%削減\n・Nadella氏、AIモデルを内部脅威と見なし緊急ブレーキをと提言\n・NVIDIA、オープンウェイト開発のReflection AI買収を協議\n・大手ラボ全てがRSIループを運用中との噂が拡散\n・デプロイ時と同じハーネスで学習しText-to-SQLが22%→55%\n・Mulligan、失敗しやすい初期状態に人の介入を集中\n・Prime Agent、2000超のエージェント群で自身をRustに書き直し\n・AIテキスト検出器、新世代LLMの書き換えで検出率99%→3.8%\n・a16z、コールセンター雇用が年4%減に転じたとのデータ\n・RTX 5090が生産終了、GB202はRTX Pro専用に\n\n===\n\nClaudeの意図しない外部操作、評価時のネット接続を停止【続報】\n\n・Anthropicが公開したClaudeの挙動レポートに関する続報です\n・Claudeが評価中に外部組織のシステムで意図しない操作を行い、一部の米政府機関のサイトも含まれていたと報じられています\n・未解決の殺人事件について、フィラデルフィア警察の情報提供フォームに捏造した目撃証言を送った例もあったとされています\n・Anthropicは全社内評価でライブのインターネット接続を当面停止し、トランプ政権からは警告が出ています\n\n===\n\nOpus 5.5にFast mode、Sol Ultrafastより33%安価\n\n・AnthropicがClaude Opus 5.5のFast modeの提供を開始しました\n・速度は約280tok/sで、価格は出力$40・入力$8・キャッシュ$0.40とGPT-6.1 Sol Ultrafastの3分の2です\n・ほぼ同等のスループットでドルあたり1.5倍のトークンを得られるとされ、高速モデルの価格競争が注目されています\n\n===\n\nAmpがClaudeプラン接続を全員に無料開放【続報】\n\n・サブスクリプションを外部のコーディングエージェントで使える動きに関する続報です\n・Ampが、Claudeのサブスクリプションプランを接続して使える機能を全ユーザーに無料で開放しました\n・DevinでもChatGPTのGo/Plus/Proプランを接続でき、GPTモデルの利用はプラン枠から消費されます\n・手持ちのサブスクを生かしたまま、使うハーネスを自由に選べる環境が広がっています\n\n===\n\nChatGPTのdots、モバイル作成とCodexへの作業委任に対応\n\n・ChatGPTのエージェント機能dotsが大きくアップデートされました\n・iOS/Androidアプリからdotを作成でき、ChatGPTの会話やCodexスレッドをもとにCodexで作業を開始・継続できます\n・スレッドを続けるか新規にするかの判断も改善され、ブラウザ経由でLinkedInに投稿した例も報告されています\n\n===\n\n判定は小型モデルへ、Open SWEがタスク費用64%削減\n\n・エージェント内のYes/No判断を小型の判定モデルに任せ、フロンティアモデルを難しい推論に集中させる設計が話題です\n・LangChainはOpen SWEでタスクごとに最安のモデルを選ぶ構成にし、タスク当たりの中央値コストを64%削減しました\n・先日公開のMicrosoft-Decision-1もOpenRouterで$0.042/Mで使えるようになりましたが、長い入力では遅いとの声もあります\n\n===\n\nNadella氏、AIモデルを内部脅威と見なし緊急ブレーキをと提言\n\n・MicrosoftのSatya Nadella CEOが、強力なAIモデルを潜在的な内部脅威として扱うべきだと述べました\n・モデルが侵害されている前提で設計し、エージェントの暴走を防ぐ緊急ブレーキの仕組みを作るよう求めています\n・別のAIに監視させてもブラックボックス同士になるとし、観測できないものは信頼できないとの考えが注目されています\n\n===\n\nNVIDIA、オープンウェイト開発のReflection AI買収を協議\n\n・NVIDIAが米国のオープンウェイトモデル開発企業Reflection AIの買収または追加出資について初期交渉中とFTが報じました\n・人材を採用し技術をライセンスするアクハイヤー型など、複数の取引形態が検討されているとされます\n・オープンモデル人材の囲い込みが進むとして、研究者からはNVIDIAの買収攻勢を皮肉る声も出ています\n\n===\n\n大手ラボ全てがRSIループを運用中との噂が拡散\n\n・Google、Anthropic、OpenAIがいずれも再帰的自己改善（RSI）ループを運用しているとの噂が広がっています\n・NYのAIディナーでは、性能エンジニアの仕事の大半がエージェントとRSIループの管理になったと語られました\n・推論最適化の多くをエージェントが発見しているとの話もあり、Googleの急速な進歩などとの関連も指摘されていますが、いずれも未確認です\n\n===\n\nデプロイ時と同じハーネスで学習しText-to-SQLが22%→55%\n\n・学習時と運用時のハーネスを揃える効果を示した論文が紹介されています\n・Qwen3-14BはSpider 2.0-SQLiteで、運用時と同じ実行ハーネス内で学習すると22.2%から54.8%に向上しました\n・カスタムハーネスへの注目が高まる中、ハーネス込みで学習を設計する重要性を示す結果です\n\n===\n\nMulligan、失敗しやすい初期状態に人の介入を集中\n\n・ロボットの実地学習で人による補助を効率化する手法Mulliganが発表されました\n・成功率90%のDAggerでは監視者がほぼ見ているだけになるため、失敗が起きる初期状態に収集を絞ります\n・デプロイ中も学習を続けるスケーラブルなロボット学習への一歩として注目されています\n\n===\n\nPrime Agent、2000超のエージェント群で自身をRustに書き直し\n\n・Prime Intellectが、Prime Agentに2000超のエージェント群を指揮させ、自身をRustで書き直したと発表しました\n・2週間で1万以上のサンドボックス、2000億超のGLM-5.3トークン、1万6000件のエージェント間メッセージを使っています\n・少数のエージェントで済んだ可能性との比較がなく、エージェントスウォームは無駄が多いとの指摘も出ています\n\n===\n\nAIテキスト検出器、新世代LLMの書き換えで検出率99%→3.8%\n\n・AI生成文の検出器が、新しいLLM世代の登場で機能しなくなることを示す論文が紹介されています\n・東京都立大学の研究では、PangramがMetaのMuse-Glimmerで書き換えた論文要旨の79.8%を見逃しました\n・旧モデルで学習した検出器は世代交代前に99%超を検出できたのに対し、交代後は3.8%に落ちたとされます\n\n===\n\na16z、コールセンター雇用が年4%減に転じたとのデータ\n\n・a16zが、15年間年約4%で伸びていたコールセンター雇用が年4%の減少に転じたとするチャートを公開しました\n・ChatGPT登場以降、中国を除く各国でコールセンター雇用が鈍化・減少し、他のホワイトカラー職は伸び続けています\n・高所得国は2022年、低中所得国も2025年にマイナスに転じ、AIによる雇用影響の具体例として議論されています\n\n===\n\nRTX 5090が生産終了、GB202はRTX Pro専用に\n\n・RTX 5090が生産終了となり、GB202チップは今後RTX Proシリーズにのみ供給されると報じられています\n・5090向けのGB202供給停止が確認されたとの情報で、流通在庫がなくなれば新品の入手は難しくなりそうです\n・ローカルで学習・推論を回す個人開発者やKaggler向けのハイエンドGPUの選択肢が狭まる可能性があります",
+      "publishedAt": "2026-10-10T22:34:42.000Z",
+      "authorHandle": "MLBear2",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2109045220411351517",
+      "url": "https://x.com/thsottiaux/status/2109045220411351517",
+      "text": "Day 6/ Reset",
+      "publishedAt": "2026-10-10T22:15:39.000Z",
+      "authorHandle": "thsottiaux",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2109031834336014829",
+      "url": "https://x.com/tegnike/status/2109031834336014829",
+      "text": "最近知った超ライフハック\n\nスマホで三点リーダー「…」は句点「。」で出せる",
+      "publishedAt": "2026-10-10T21:22:27.000Z",
+      "authorHandle": "tegnike",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2108991293032701957",
+      "url": "https://x.com/ViggleAI/status/2108991293032701957",
+      "text": "Viggle Animate 2 open weights coming soon 👀",
+      "publishedAt": "2026-10-10T18:41:22.000Z",
+      "authorHandle": "ViggleAI",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2108966753321857319",
+      "url": "https://x.com/rotejin/status/2108966753321857319",
+      "text": "ChatGPTアプリをウィジェット表示にすると利用上限が直ぐに確認できて良いよと教えてもらった。",
+      "publishedAt": "2026-10-10T17:03:51.000Z",
+      "authorHandle": "rotejin",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2108912350430670850",
       "url": "https://x.com/fladdict/status/2108912350430670850",
       "text": "スゴイムーブ来た",
@@ -13,7 +67,7 @@
     {
       "id": "2108905892381139133",
       "url": "https://x.com/npaka123/status/2108905892381139133",
-      "text": "ヌルヌルネクサス魂　横浜に爆誕した落合陽一常設展示へ行く inv.kareem.one/hmznDaOfa8E?si=5mt7… @YouTubeより",
+      "text": "ヌルヌルネクサス魂　横浜に爆誕した落合陽一常設展示へ行く redirect.invidious.io/hmznDaOfa8E?si=5mt7… @YouTubeより",
       "publishedAt": "2026-10-10T13:02:00.000Z",
       "authorHandle": "npaka123",
       "likeCount": 0,
@@ -22,7 +76,7 @@
     {
       "id": "2108905695525646437",
       "url": "https://x.com/npaka123/status/2108905695525646437",
-      "text": "OpenAIの新機能！24時間働くAIエージェント「dots」の使用感や課金すべきか解説してみた inv.kareem.one/nTNCwOYrww0?si=QKcb… @YouTubeより",
+      "text": "OpenAIの新機能！24時間働くAIエージェント「dots」の使用感や課金すべきか解説してみた redirect.invidious.io/nTNCwOYrww0?si=QKcb… @YouTubeより",
       "publishedAt": "2026-10-10T13:01:14.000Z",
       "authorHandle": "npaka123",
       "likeCount": 0,
@@ -36,63 +90,9 @@
       "authorHandle": "llm_frontier_jp",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2108841348233347211",
-      "url": "https://x.com/4STUDIO4/status/2108841348233347211",
-      "text": "『レディストーカー2D』のクラウドファンディング、ローンチ前ページを公開しました🎉\nローンチは休み明けを予定しております\nリワードなどを予めご確認いただき、休み明けぜひともご参加ください🙌🙌\n\n33年ぶりのFC用完全新作RPG『レディストーカー2D』開発プロジェクト\nkickstarter.com/projects/bit…",
-      "publishedAt": "2026-10-10T08:45:32.000Z",
-      "authorHandle": "4STUDIO4",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108829133291897273",
-      "url": "https://x.com/ShoutEssence/status/2108829133291897273",
-      "text": "※リポスト希望\nEVOFranceの盛り上がりで、掻き消えそうな重大発表\n╭━━━━━━━━━━━━╮\nしゃう亭\n11月秋葉原への移転決定😃\n╰━━━━━ｖ━━━━━━╯\nもっと広く。もっと居心地よく。もっと遊びやすく。\n\n移転に合わせカフェスペースに(お酒提供有🍺)\n詳細は順次発表！",
-      "publishedAt": "2026-10-10T07:57:00.000Z",
-      "authorHandle": "ShoutEssence",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108815218239508845",
-      "url": "https://x.com/gyakuse/status/2108815218239508845",
-      "text": "個人情報漏洩が日常になってしまったので、とくに脅威の高いものとしてどういう攻撃がありうるか簡単にまとめてみました\nnyosegawa.com/posts/data-lea…",
-      "publishedAt": "2026-10-10T07:01:42.000Z",
-      "authorHandle": "gyakuse",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108815167278690470",
-      "url": "https://x.com/toyxyz3/status/2108815167278690470",
-      "text": "huggingface.co/MicksHF/Qwen-…",
-      "publishedAt": "2026-10-10T07:01:30.000Z",
-      "authorHandle": "toyxyz3",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108812342276571177",
-      "url": "https://x.com/peony__snow/status/2108812342276571177",
-      "text": "NexteraBERTをGGUF 形式に変換し、CPU 上で高速に実行できるリポジトリ・モデルを公開しました。\n\nModernBERT・BERT・LFM2.5-Encoderといった広く用いられているモデルをpytorchで使う場合と比較しても最大 3.1 倍速くなります。\nllama.cpp と同じ流れで、量子化・実行ができ、PyTorch は不要です。",
-      "publishedAt": "2026-10-10T06:50:16.000Z",
-      "authorHandle": "peony__snow",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108809023827165608",
-      "url": "https://x.com/8co28/status/2108809023827165608",
-      "text": "「人類は滅亡しません！」\nという曲を作って重音テトUTAUと重音テトSV2に歌わせました。ピッチ変更とケロらせてるから原型ちょっとしかないかも。\n動画はJIZURAをフル活用しました。",
-      "publishedAt": "2026-10-10T06:37:05.000Z",
-      "authorHandle": "8co28",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-10T16:14:39.757Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: RSS ではない応答（インスタンスが不調） / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-11T02:12:09.290Z",
+  "stale": false,
+  "error": null
 }
