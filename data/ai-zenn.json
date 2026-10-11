@@ -6,6 +6,14 @@
   "category": "ai",
   "items": [
     {
+      "id": "638b467b9461",
+      "title": "API キーの漏洩経路を 7 つに整理する｜.env 探しへの対策手順",
+      "url": "https://zenn.dev/sunsun_eng/articles/api-key-leak-routes-env-scan",
+      "publishedAt": "2026-10-11T11:37:10.000Z",
+      "publisher": "すんすん",
+      "summary": "API キーの漏洩経路を 7 つに整理する｜.env 探しへの対策手順 この記事の要点 API キー漏洩の原因は、Git 履歴・フロントエンドの成果物・公開設定ミス・ログ・外部ツール・サーバーの公開ファイル・人為的な共有の 7 経路に整理…"
+    },
+    {
       "id": "50a02f56e40c",
       "title": "【AI人狼/個人開発】AIに嘘をつかせて、そのウソを他のAIに疑わせる技術",
       "url": "https://zenn.dev/karamage/articles/a912d290c1771e",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-10-11T08:10:56.000Z",
       "publisher": "Nereo",
       "summary": "ECの商品紹介やSNS広告用に、AI動画生成ツールで短い動画を作る機会が増えています。ただ、いきなりプロンプトを書き始めると、尺や画角がばらばらになり、作り直しが多くなりがちです。生成を始める前に決めておくと手戻りが減る項目を5つにまとめ…"
-    },
-    {
-      "id": "b062e1563a0c",
-      "title": "Google Cloud Data Agent Kit入門：MCPとスキルでデータ基盤に接続する",
-      "url": "https://zenn.dev/caron14/articles/google-cloud-data-agent-kit-intro",
-      "publishedAt": "2026-10-11T08:02:19.000Z",
-      "publisher": "Sho",
-      "summary": "はじめに コーディングエージェントにSQLを書かせるとき、テーブルのスキーマや失敗したジョブのログを、コンソールからチャットへ貼り付けることがあります。コードを生成できても、実際のデータ基盤を確認する手段がなければ、テーブル名や結合条件を…"
     }
   ],
-  "fetchedAt": "2026-10-11T15:18:54.973Z",
+  "fetchedAt": "2026-10-11T19:38:00.745Z",
   "stale": false,
   "error": null
 }
