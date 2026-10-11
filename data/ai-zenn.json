@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "81e02c15a216",
-      "title": "AI活用案件はどうやって生まれるのか ― 生成AIの相談を“案件”に変えるまで",
-      "url": "https://zenn.dev/field2ai/articles/96e9bdeb087b20",
-      "publishedAt": "2026-10-11T05:17:59.000Z",
-      "publisher": "momi",
-      "summary": "はじめに 普段の仕事の中で、社内チャットやメールからこんな相談を受けることがあります。 「この業務、生成AIで何かできませんか？」 「社内文書をRAGで検索できるようにしたいです」 「最近AIエージェントが話題なので、うちの業務でも使えま…"
+      "id": "50a02f56e40c",
+      "title": "【AI人狼/個人開発】AIに嘘をつかせて、そのウソを他のAIに疑わせる技術",
+      "url": "https://zenn.dev/karamage/articles/a912d290c1771e",
+      "publishedAt": "2026-10-11T10:45:05.000Z",
+      "publisher": "karamage",
+      "summary": "AIに嘘をつかせるのは、思っていたよりずっと難しい。 いや、嘘つかせること自体はわりと簡単で、頼めばいくらでもついてくれるのですが 困ったのは、上手に嘘をつかせることと、ほどよく疑わせる匙加減がムズい＞＜ 先日、雲の上の神殿を舞台にしたa…"
     },
     {
-      "id": "3fefd06dcb71",
-      "title": "話題の自律型AIペンテスト検査ツール（Strix/Shannon）に入門して毎週脆弱性検査をする",
-      "url": "https://zenn.dev/kusuke/articles/4d1940e3a67f0f",
-      "publishedAt": "2026-10-11T04:41:21.000Z",
-      "publisher": "Yusuke Kawabata",
-      "summary": "相次ぐ情報漏洩でセキュリティの脅威も高まっているいま、脆弱性検査は半年や年1回ではなく「毎週」やる時代に来ているかもしれません。１～２時間自動でテストして、AIコストは数百円から数万円程度でできるようになりました。 まずはおさらい（画像で…"
+      "id": "16e9c89bff5f",
+      "title": "Claude Code の deny に `../` を書いたら、隣のフォルダへの書き込みが止まらなかった（2.1.296で実測）",
+      "url": "https://zenn.dev/emilk1225/articles/73356c9b0e156d",
+      "publishedAt": "2026-10-11T10:16:16.000Z",
+      "publisher": "デジタル工房エミル",
+      "summary": "この記事は、AI（Claude）が検証と下書きを行い、筆者が内容を確認したものです。下に書く結果は、すべて筆者の環境（Windows 10、Claude Code 2.1.296）で実測したものです。他の環境やバージョンでも同じになるとは…"
     },
     {
-      "id": "09955df64377",
-      "title": "AIが書いたRailsを全部は読まない - 契約による設計とミューテーションテストでレビューの場所を絞る",
-      "url": "https://zenn.dev/okamyuji/articles/rails-invariants-evilution-crap",
-      "publishedAt": "2026-10-11T04:15:27.000Z",
-      "publisher": "okamyuji",
-      "summary": "AIエージェントにRailsの実装とRSpecを任せると、1回の依頼で数百行の差分が届くことがあります。全部を読み切るのは現実的ではありません。しかもテストが通っていても、そのテストが実装のバグを見つけられるとは限りません。 筆者は、人間…"
+      "id": "17d5e193955c",
+      "title": "Claude Code に複数のAI担当を任せて失敗した記録と、承認・品質チェック用テンプレート（無料）",
+      "url": "https://zenn.dev/emilk1225/articles/d37feb664ed8e5",
+      "publishedAt": "2026-10-11T10:15:47.000Z",
+      "publisher": "デジタル工房エミル",
+      "summary": "この記事は、AI（Claude）が下書きし、筆者が内容を確認したものです。 なぜこのテンプレートを作ったか（実際に起きた失敗） 筆者は2026年10月から、副業の実験として、Claude Code のメインセッションに「責任者」をさせ、企…"
     },
     {
-      "id": "9f0c41ac326d",
-      "title": "相続手続を「路線図」にしたら、自律型エージェントが公的資料を読み始めた話",
-      "url": "https://zenn.dev/koichikamachi/articles/ea38a4d24679a8",
-      "publishedAt": "2026-10-11T03:52:43.000Z",
-      "publisher": "ホームズ",
-      "summary": "1. はじめに：なぜ相続を「路線図」にしたのか 「もし自分が急にいなくなったら、誰がどう動けばいいのか分からないんです」 頼れる親族が身近におらず、将来に漠然とした不安を抱える後輩からそう相談されたのが、この開発の最初のきっかけでした。 …"
+      "id": "c8f20ce64747",
+      "title": "Chat で頼んで、設計からリリースまでつなぐ magi",
+      "url": "https://zenn.dev/yukimemi/articles/2026-10-10-magi",
+      "publishedAt": "2026-10-11T09:38:06.000Z",
+      "publisher": "yukimemi",
+      "summary": "magi — Chat で頼むだけで、設計・実装・レビュー・PR・リリースまで複数のエージェントがつないでくれる CLI claude や codex といったエージェント CLI を複数使って、頼んだ作業を設計からリリースまで進めてもら…"
     },
     {
-      "id": "7086a0ba1368",
-      "title": "Opus 5.5はディソードだ。全人類ギガロマニアックス時代に、ギュられたらギュり返せ",
-      "url": "https://zenn.dev/soyukke/articles/opus55-gyuraretara-gyurikaese",
-      "publishedAt": "2026-10-11T03:04:44.000Z",
-      "publisher": "そゆっけ",
-      "summary": "はじめに Claude Opus 5.5が出てから、私の生活は大きく変わりました。 私は会社員です。職場ではほぼ全員がAIを使っています。 ただ、プライベートでも高額なプランを契約して使い込んでいる人は、まだそれほど多くないように見えます…"
+      "id": "32906e2c71e9",
+      "title": "さくらのレンタルサーバー + Cloudflare Clef でコスト0のAIメール振り分けを作った",
+      "url": "https://zenn.dev/deimos_falcon/articles/9bdbc1bbe9b34c",
+      "publishedAt": "2026-10-11T09:33:47.000Z",
+      "publisher": "deimos_falcon",
+      "summary": "! この記事はZennへの初投稿です。技術的な指摘や改善案があれば、ぜひコメントください。 また、この記事はすでにNoteに投稿した内容を、技術ブログ（Zenn）向けに再構成したものです。 はじめに 自社のWeb窓口から届くメールが、SP…"
     },
     {
-      "id": "306f709d4748",
-      "title": "事務6人の会社でClaudeを導入するとき、社内にどう説明したか",
-      "url": "https://zenn.dev/aigakari_jp/articles/ddb563487f70b5",
-      "publishedAt": "2026-10-11T03:00:23.000Z",
-      "publisher": "ちいさな会社のAI係",
-      "summary": "事務6人の会社でClaudeを導入するとき、社内にどう説明したか はじめに 従業員20名台の小さな会社で、社内にClaudeを導入しました。内勤は8名ほどで、説明したのは6名と社長です。 理由は「使わないと置いていかれるし、損だと思った」…"
+      "id": "10bb9b1d08c4",
+      "title": "食生活の改善をAIに提案してもらった話",
+      "url": "https://zenn.dev/taro_xxxxx/articles/341e0c7a121c2b",
+      "publishedAt": "2026-10-11T09:20:00.000Z",
+      "publisher": "TARO",
+      "summary": "健康診断で突きつけられた現実 健康診断で、生活習慣の見直しを指摘されてしまった。 どうやら、眼圧・脂質代謝・腎機能の数値に課題があるらしい。 スーパーの惣菜やスナック菓子を食べる習慣が原因だろうと思いつつ、若い頃のように体へ無理が効かなく…"
     },
     {
-      "id": "18ba00a8ead4",
-      "title": "言わない技術 第6回：サブエージェントの出力だけは、細かく指示しろ",
-      "url": "https://zenn.dev/garplab/articles/8534a10f79ef31",
-      "publishedAt": "2026-10-11T02:36:59.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「言わない技術」の第 6 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の…"
+      "id": "80d58ff05e35",
+      "title": "感性と人脈の AI ネイティブ時代へ",
+      "url": "https://zenn.dev/mk404/articles/2026-10-10-ai-native-sensibility-and-network",
+      "publishedAt": "2026-10-11T09:17:54.000Z",
+      "publisher": "m. k.",
+      "summary": "AI ネイティブの時代には、作る力の価値は下がり、感性と人脈の価値が上がる。筆者はそう考えています。この記事は、その持論と根拠を整理したものです。 この記事では、生成 AI と AI エージェントをまとめて AI と呼びます。「作る」は、…"
     },
     {
-      "id": "a0aadf5b6943",
-      "title": "Reinforcement Learning with Verifiable Rewards",
-      "url": "https://zenn.dev/yoshinn/articles/reinforcement_learning_with_vr",
-      "publishedAt": "2026-10-11T02:22:54.000Z",
-      "publisher": "yoshishinnze",
-      "summary": "近年のLLMはSFTと呼ばれる教師あり学習を行った後、最近のモデルはRLVRと呼ばれるLLMの強化学習を行っています。 このRLVRについて解説していきたいと思います。 RLVRとは RLVR は Reinforcement Learni…"
+      "id": "5c7fdb9293b3",
+      "title": "文字列を生成しないモデル Jev の仕組み",
+      "url": "https://zenn.dev/kazunorishinoya/articles/jev-system-one",
+      "publishedAt": "2026-10-11T08:34:29.000Z",
+      "publisher": "Kazunori Shinoya",
+      "summary": "チャットモデルは人間と話すためのものです。TypeSafe AIは「自動化はどこにあるのか」と問いかけ、System Oneモデルと、その最初のモデルJevを発表しました。2026年9月15日に早期アクセス版として公開されています（公式ブ…"
     },
     {
-      "id": "7aa1d510d106",
-      "title": "Claude Codeを全プロジェクト横断で動かす司令塔を作った — 人間が持つ権限・AIに渡す権限",
-      "url": "https://zenn.dev/orectic/articles/claude-code-command-deck-human-ai",
-      "publishedAt": "2026-10-11T01:43:04.000Z",
-      "publisher": "今井政和",
-      "summary": "Claude Code を10個近いプロジェクトで並行して使うようになって、困ったことがひとつあります。どのターミナルで何が動いていて、どれが自分の返事を待っているのかが分からないことです。 そこで、全プロジェクトの Claude Cod…"
+      "id": "7e0c6f33e519",
+      "title": "コードを書かずに、Claude Codeで日本株の投資ツールを2つ作った全体像",
+      "url": "https://zenn.dev/stockrules_jp/articles/6901a969f8f086",
+      "publishedAt": "2026-10-11T08:30:05.000Z",
+      "publisher": "ルールベース株研 | AIを活用してルールで投資する",
+      "summary": "! この記事は、自分用に作っている投資ツールの「作り方」を紹介するものです。特定の銘柄の売買を推奨するものではありません。投資判断はご自身で行ってください。 はじめに ルールベース株研です。会社員をしながら、日本株の投資判断を手伝うツール…"
     },
     {
-      "id": "72d2049c358a",
-      "title": "AIで鳥の水笛を作る",
-      "url": "https://zenn.dev/polygoro/articles/011-ai-water-bird",
-      "publishedAt": "2026-10-11T01:09:24.000Z",
-      "publisher": "ポリ五郎",
-      "summary": "こんにちは、ポリ五郎です。 AIモデリングの第4弾です。今回は、水を入れて吹くと鳥のようにさえずる「鳥の水笛」をAIに作ってもらいました。 で、鳴るの? ピロピロピロとさえずります。水を入れずに吹くと、ふつうの笛の「ピー」。水を入れると、…"
+      "id": "6001a2fdecf4",
+      "title": "AI の調べものが同じ日に2回外れた。403 で公式をあきらめ、2年前の記事を今の事実として出していた",
+      "url": "https://zenn.dev/claire_ai/articles/ai-shirabemono-machigai",
+      "publishedAt": "2026-10-11T08:26:33.000Z",
+      "publisher": "クレア",
+      "summary": "「X は1つの電話番号で最大10アカウント作れる」。Claude Code に調べさせて、こう報告を受けた。実際に作ってみると、その電話番号は1回しか使えなかった。 根拠は2024年7月のニュース記事だった。公式ヘルプは 403 で一度も…"
     },
     {
-      "id": "00fa29ce9dfb",
-      "title": "Claude Code で子ども向け解説アニメを作ったら、キャラの手が切れた話",
-      "url": "https://zenn.dev/hotto_ken/articles/claude-code-kids-anime-hands",
-      "publishedAt": "2026-10-11T01:04:32.000Z",
-      "publisher": "ほっとけん",
-      "summary": "「手が切れてて気持ち悪いよ」 AI に描かせたキャラを関節で動かした解説アニメに、私が Claude Code へ返した言葉です。腕の付け根と袖口が切れて見えました。 子ども向けの解説アニメを、2 日で 4 回作り直した記録です。止まって…"
+      "id": "08d7b5aded53",
+      "title": "AIで商品の短尺動画を作る前に決めておきたい5つのこと",
+      "url": "https://zenn.dev/nereo_ai/articles/dcf3cd4a146ad0",
+      "publishedAt": "2026-10-11T08:10:56.000Z",
+      "publisher": "Nereo",
+      "summary": "ECの商品紹介やSNS広告用に、AI動画生成ツールで短い動画を作る機会が増えています。ただ、いきなりプロンプトを書き始めると、尺や画角がばらばらになり、作り直しが多くなりがちです。生成を始める前に決めておくと手戻りが減る項目を5つにまとめ…"
     },
     {
-      "id": "6f496d5d89f9",
-      "title": "Rails の作者 DHH が語る、AI エージェント時代の開発（#35 解説）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr35-dhh-summary",
-      "publishedAt": "2026-10-11T01:00:08.000Z",
-      "publisher": "管理人K",
-      "summary": "! この記事は、Lex Fridman Podcast #501「DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux」（2026-08-26、5…"
+      "id": "b062e1563a0c",
+      "title": "Google Cloud Data Agent Kit入門：MCPとスキルでデータ基盤に接続する",
+      "url": "https://zenn.dev/caron14/articles/google-cloud-data-agent-kit-intro",
+      "publishedAt": "2026-10-11T08:02:19.000Z",
+      "publisher": "Sho",
+      "summary": "はじめに コーディングエージェントにSQLを書かせるとき、テーブルのスキーマや失敗したジョブのログを、コンソールからチャットへ貼り付けることがあります。コードを生成できても、実際のデータ基盤を確認する手段がなければ、テーブル名や結合条件を…"
     }
   ],
-  "fetchedAt": "2026-10-11T08:51:22.224Z",
+  "fetchedAt": "2026-10-11T15:18:54.973Z",
   "stale": false,
   "error": null
 }
