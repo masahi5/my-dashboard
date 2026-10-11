@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "638b467b9461",
-      "title": "API キーの漏洩経路を 7 つに整理する｜.env 探しへの対策手順",
-      "url": "https://zenn.dev/sunsun_eng/articles/api-key-leak-routes-env-scan",
-      "publishedAt": "2026-10-11T11:37:10.000Z",
-      "publisher": "すんすん",
-      "summary": "API キーの漏洩経路を 7 つに整理する｜.env 探しへの対策手順 この記事の要点 API キー漏洩の原因は、Git 履歴・フロントエンドの成果物・公開設定ミス・ログ・外部ツール・サーバーの公開ファイル・人為的な共有の 7 経路に整理…"
+      "id": "6efce8441a6d",
+      "title": "「システムが止まった」とき、医療機器はどう動き続けるべきか ― ネットワーク障害時の現場継続性という視点",
+      "url": "https://zenn.dev/taichiendoh/articles/medical-device-continuity-network-outage",
+      "publishedAt": "2026-10-11T22:17:04.000Z",
+      "publisher": "遠藤太一",
+      "summary": "10月7日、国内のクラウド事業者であるIDCフロンティアが、自社クラウドサービスの一部リージョンでランサムウェア攻撃を受けたと発表しました。報道によれば495の企業・自治体に影響が及び、対象リージョンに保管されていたデータの一部は取り出し…"
     },
     {
-      "id": "50a02f56e40c",
-      "title": "【AI人狼/個人開発】AIに嘘をつかせて、そのウソを他のAIに疑わせる技術",
-      "url": "https://zenn.dev/karamage/articles/a912d290c1771e",
-      "publishedAt": "2026-10-11T10:45:05.000Z",
-      "publisher": "karamage",
-      "summary": "AIに嘘をつかせるのは、思っていたよりずっと難しい。 いや、嘘つかせること自体はわりと簡単で、頼めばいくらでもついてくれるのですが 困ったのは、上手に嘘をつかせることと、ほどよく疑わせる匙加減がムズい＞＜ 先日、雲の上の神殿を舞台にしたa…"
+      "id": "faff9648468c",
+      "title": "AirbnbのAIネイティブ化 ── CEOの決算発言とCTOの証言で読む、AIファーストな組織とは？",
+      "url": "https://zenn.dev/leading_ai/articles/airbnb-ai-native-organization",
+      "publishedAt": "2026-10-11T22:16:52.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "序章：Airbnbは、「AIファーストのアプリになる」と語った1年後、「AIネイティブな会社に作り直した」と宣言した 2025年8月6日、Airbnbの共同創業者でCEO（最高経営責任者）のブライアン・チェスキー氏は、決算説明会でこう述べ…"
     },
     {
-      "id": "16e9c89bff5f",
-      "title": "Claude Code の deny に `../` を書いたら、隣のフォルダへの書き込みが止まらなかった（2.1.296で実測）",
-      "url": "https://zenn.dev/emilk1225/articles/73356c9b0e156d",
-      "publishedAt": "2026-10-11T10:16:16.000Z",
-      "publisher": "デジタル工房エミル",
-      "summary": "この記事は、AI（Claude）が検証と下書きを行い、筆者が内容を確認したものです。下に書く結果は、すべて筆者の環境（Windows 10、Claude Code 2.1.296）で実測したものです。他の環境やバージョンでも同じになるとは…"
+      "id": "965dc384e768",
+      "title": "ChatGPT の dots に Gmail・カレンダー・Slack・Notion をつないで、何ができて何ができないかを確かめた",
+      "url": "https://zenn.dev/chooser/articles/aico-001-tooling",
+      "publishedAt": "2026-10-11T22:14:32.000Z",
+      "publisher": "chooser",
+      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 ChatGPT の dots に Gm…"
     },
     {
-      "id": "17d5e193955c",
-      "title": "Claude Code に複数のAI担当を任せて失敗した記録と、承認・品質チェック用テンプレート（無料）",
-      "url": "https://zenn.dev/emilk1225/articles/d37feb664ed8e5",
-      "publishedAt": "2026-10-11T10:15:47.000Z",
-      "publisher": "デジタル工房エミル",
-      "summary": "この記事は、AI（Claude）が下書きし、筆者が内容を確認したものです。 なぜこのテンプレートを作ったか（実際に起きた失敗） 筆者は2026年10月から、副業の実験として、Claude Code のメインセッションに「責任者」をさせ、企…"
-    },
-    {
-      "id": "c8f20ce64747",
-      "title": "Chat で頼んで、設計からリリースまでつなぐ magi",
-      "url": "https://zenn.dev/yukimemi/articles/2026-10-10-magi",
-      "publishedAt": "2026-10-11T09:38:06.000Z",
-      "publisher": "yukimemi",
-      "summary": "magi — Chat で頼むだけで、設計・実装・レビュー・PR・リリースまで複数のエージェントがつないでくれる CLI claude や codex といったエージェント CLI を複数使って、頼んだ作業を設計からリリースまで進めてもら…"
-    },
-    {
-      "id": "32906e2c71e9",
-      "title": "さくらのレンタルサーバー + Cloudflare Clef でコスト0のAIメール振り分けを作った",
-      "url": "https://zenn.dev/deimos_falcon/articles/9bdbc1bbe9b34c",
-      "publishedAt": "2026-10-11T09:33:47.000Z",
-      "publisher": "deimos_falcon",
-      "summary": "! この記事はZennへの初投稿です。技術的な指摘や改善案があれば、ぜひコメントください。 また、この記事はすでにNoteに投稿した内容を、技術ブログ（Zenn）向けに再構成したものです。 はじめに 自社のWeb窓口から届くメールが、SP…"
-    },
-    {
-      "id": "10bb9b1d08c4",
-      "title": "食生活の改善をAIに提案してもらった話",
-      "url": "https://zenn.dev/taro_xxxxx/articles/341e0c7a121c2b",
-      "publishedAt": "2026-10-11T09:20:00.000Z",
-      "publisher": "TARO",
-      "summary": "健康診断で突きつけられた現実 健康診断で、生活習慣の見直しを指摘されてしまった。 どうやら、眼圧・脂質代謝・腎機能の数値に課題があるらしい。 スーパーの惣菜やスナック菓子を食べる習慣が原因だろうと思いつつ、若い頃のように体へ無理が効かなく…"
-    },
-    {
-      "id": "80d58ff05e35",
-      "title": "感性と人脈の AI ネイティブ時代へ",
-      "url": "https://zenn.dev/mk404/articles/2026-10-10-ai-native-sensibility-and-network",
-      "publishedAt": "2026-10-11T09:17:54.000Z",
-      "publisher": "m. k.",
-      "summary": "AI ネイティブの時代には、作る力の価値は下がり、感性と人脈の価値が上がる。筆者はそう考えています。この記事は、その持論と根拠を整理したものです。 この記事では、生成 AI と AI エージェントをまとめて AI と呼びます。「作る」は、…"
-    },
-    {
-      "id": "5c7fdb9293b3",
-      "title": "文字列を生成しないモデル Jev の仕組み",
-      "url": "https://zenn.dev/kazunorishinoya/articles/jev-system-one",
-      "publishedAt": "2026-10-11T08:34:29.000Z",
-      "publisher": "Kazunori Shinoya",
-      "summary": "チャットモデルは人間と話すためのものです。TypeSafe AIは「自動化はどこにあるのか」と問いかけ、System Oneモデルと、その最初のモデルJevを発表しました。2026年9月15日に早期アクセス版として公開されています（公式ブ…"
-    },
-    {
-      "id": "7e0c6f33e519",
-      "title": "コードを書かずに、Claude Codeで日本株の投資ツールを2つ作った全体像",
-      "url": "https://zenn.dev/stockrules_jp/articles/6901a969f8f086",
-      "publishedAt": "2026-10-11T08:30:05.000Z",
-      "publisher": "ルールベース株研 | AIを活用してルールで投資する",
-      "summary": "! この記事は、自分用に作っている投資ツールの「作り方」を紹介するものです。特定の銘柄の売買を推奨するものではありません。投資判断はご自身で行ってください。 はじめに ルールベース株研です。会社員をしながら、日本株の投資判断を手伝うツール…"
-    },
-    {
-      "id": "6001a2fdecf4",
-      "title": "AI の調べものが同じ日に2回外れた。403 で公式をあきらめ、2年前の記事を今の事実として出していた",
-      "url": "https://zenn.dev/claire_ai/articles/ai-shirabemono-machigai",
-      "publishedAt": "2026-10-11T08:26:33.000Z",
+      "id": "01e09be776f2",
+      "title": "Claude Code の担当が使ったトークンを数え直したら、画面に出た数字の22倍だった",
+      "url": "https://zenn.dev/claire_ai/articles/token-shohi-kiji-9ac90f",
+      "publishedAt": "2026-10-11T21:58:58.000Z",
       "publisher": "クレア",
-      "summary": "「X は1つの電話番号で最大10アカウント作れる」。Claude Code に調べさせて、こう報告を受けた。実際に作ってみると、その電話番号は1回しか使えなかった。 根拠は2024年7月のニュース記事だった。公式ヘルプは 403 で一度も…"
+      "summary": "Claude Code で調べものの担当（サブエージェント）を1体走らせた。終わったときに会話に出た消費は 157,630 トークン。記録から数え直すと 3,514,672 トークンだった。22倍ある。 差のほとんどは「キャッシュ読み」で…"
     },
     {
-      "id": "08d7b5aded53",
-      "title": "AIで商品の短尺動画を作る前に決めておきたい5つのこと",
-      "url": "https://zenn.dev/nereo_ai/articles/dcf3cd4a146ad0",
-      "publishedAt": "2026-10-11T08:10:56.000Z",
-      "publisher": "Nereo",
-      "summary": "ECの商品紹介やSNS広告用に、AI動画生成ツールで短い動画を作る機会が増えています。ただ、いきなりプロンプトを書き始めると、尺や画角がばらばらになり、作り直しが多くなりがちです。生成を始める前に決めておくと手戻りが減る項目を5つにまとめ…"
+      "id": "c83d2396a3ff",
+      "title": "会話のPDF保存だけ3社とも無い、資料化レイヤーの実装差を読む",
+      "url": "https://zenn.dev/every_ai_recipe/articles/chat-export-3-service-compare",
+      "publishedAt": "2026-10-11T21:23:31.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR note版・ブログ版では非エンジニア向けに「AIとの会話を資料として残したい時、ChatGPT・Claude・Geminiのどれが一番近い方法を持っているか」を紹介した。Zenn版では、なぜ3社とも「今見ている会話をワンクリッ…"
+    },
+    {
+      "id": "b1df3fdcf5e0",
+      "title": "📚️AIと育てたシステム『Bakery Hub』に、自分の理解が追いつかなくなった。だから「動く教科書」にした。",
+      "url": "https://zenn.dev/tosane932/articles/110315629967c2",
+      "publishedAt": "2026-10-11T21:22:07.000Z",
+      "publisher": "tosane932",
+      "summary": "前回の記事では、 sales_data_app ↓ Bakery Hub ↓ Tosane Works と変わっていった過程を振り返りました。 最初は売上管理アプリだったものが、 機能が増え、 役割が増え、 最終的にはTosane Wor…"
+    },
+    {
+      "id": "6762258626c9",
+      "title": "Tech Watch 2026-10-12: 止める仕組み、動かし続ける仕組み",
+      "url": "https://zenn.dev/laiken/articles/20261012-tech-watch",
+      "publishedAt": "2026-10-11T21:19:06.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 自然言語で「この操作を止めて」と書いたのに、止める仕組みが逆の判断をする。指示を理解できるモデルへ指示文で安全を任せると、停止手順そのものが…"
+    },
+    {
+      "id": "9d20c3db7500",
+      "title": "プログラミング初心者が複数のAIでアプリ開発に挑戦する｜RecurAI開発記録 #1",
+      "url": "https://zenn.dev/smalltools_lab/articles/e401d34944e4c1",
+      "publishedAt": "2026-10-11T20:05:05.000Z",
+      "publisher": "RecurAI｜小さな便利をつくる研究室",
+      "summary": "はじめまして。RecurAI（リカーAI） です。 プログラミングの専門知識がない状態から、複数のAIを活用してWebアプリや便利なツールを開発するプロジェクトを始めました。 この記事では、RecurAIを立ち上げた目的と、これからの開発…"
+    },
+    {
+      "id": "d9e05d9b4044",
+      "title": "常駐型AIエージェントの応答生成を安全に中断(キャンセル)する設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-generation-cancel-interrupt-design",
+      "publishedAt": "2026-10-11T18:11:51.000Z",
+      "publisher": "HACH",
+      "summary": "チャットに常駐するAIエージェントは、長い調査や複数ツール呼び出しを挟んだ応答生成中に、ユーザーから「もう大丈夫です」「それ、やり直して」と新しいメッセージが届くことがあります。生成中のLLM呼び出しをただ無視して続行させると、的外れな長…"
+    },
+    {
+      "id": "827e1581bb44",
+      "title": "AIコーディングのコストが残らない。0円ではなく、30秒で計測が切れていた",
+      "url": "https://zenn.dev/yusuke_shiki/articles/ai-coding-cost-measurement-timeout",
+      "publishedAt": "2026-10-11T17:36:42.000Z",
+      "publisher": "Yusuke Shiki",
+      "summary": "AIコーディングの利用量を記録していたところ、あるセッションだけコストの記録が残っていないことに気づきました。最初は計測ツール側の失敗を疑ったのですが、同じClaude Codeのセッションを agent-cost から直接計測すると正常…"
+    },
+    {
+      "id": "3b6fc42ecc9f",
+      "title": "【Python/Playwright】全国500万社の企業フォーム構造をセマンティック解析・自動最適化する実践アーキテクチャ",
+      "url": "https://zenn.dev/kigyoulist/articles/3953f13ad8878a",
+      "publishedAt": "2026-10-11T17:35:22.000Z",
+      "publisher": "Kigyoulist (JP Business Data)",
+      "summary": "1. はじめに B2Bの新規開拓やアライアンス提案、カスタマーサクセスにおけるアプローチチャネルとして、企業のWebサイトに設置された「問い合わせフォーム（Contact Form）」は極めて重要である。 しかし、日本国内の企業Webサイ…"
+    },
+    {
+      "id": "fc82683b7c42",
+      "title": "自宅ラボで T-Pot と OpenCTI をつないで 5 か月 ― 構成と「動いているつもり」の教訓",
+      "url": "https://zenn.dev/t4n4bot4/articles/6f2627a3606553",
+      "publishedAt": "2026-10-11T16:54:05.000Z",
+      "publisher": "t4n4bot4",
+      "summary": "はじめに 個人で、インターネットに置いたハニーポット（T-Pot）と、脅威インテリジェンス基盤（OpenCTI）を組み合わせた環境を運用しています。 ハニーポットを置くだけなら、T-Pot を入れれば当日から攻撃が見えます。 難しいのはそ…"
     }
   ],
-  "fetchedAt": "2026-10-11T19:38:00.745Z",
+  "fetchedAt": "2026-10-11T23:09:51.481Z",
   "stale": false,
   "error": null
 }

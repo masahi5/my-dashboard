@@ -2,6 +2,15 @@
   "handle": "hardmaru",
   "tweets": [
     {
+      "id": "2109385496237678844",
+      "url": "https://x.com/hardmaru/status/2109385496237678844",
+      "text": "New paper from the team at Sakana AI:\nRecursive Self-Improvement through Multi-Agent Self-Supervision (MASS)\n\nHow do we keep improving AI when the tasks become too complex for humans to reliably evaluate?\n\nFor open-ended research, we eventually hit a \"supervision bottleneck.\" If we use the model itself as the solver, optimizer, and evaluator, it gets trapped in a homogeneous loop, reinforcing its own blind spots rather than correcting them.\n\nTo break this loop, we drew inspiration from Marvin Minsky’s Society of Mind. What if you prompt a single model to organize copies of itself into a structured team, then distill what the team learned back into the base model?\n\nMASS alternates between two loops:\n\n1/ Workflow Optimization: the model iteratively evolves its own multi-agent workflows, figuring out how subagents should communicate and route information to each other.\n\n2/ Workflow Internalization: fine-tune the shared model on the successful multi-agent trajectories so the coordination behavior gets baked into the weights.\n\nAfter two cycles with a 27B open-weights model, performance improved 1.2-1.6x per output token on tough research benchmarks (MLR-Bench, ScienceAgentBench, DSBench).\n\nMulti-agent traces were also much better training data than single-agent ones. The model learns faster from jointly learning high-level orchestration and bounded subagent execution. The results showing that the model can bootstrap its own coordination skills by organizing copies of itself into teams feels promising as a mechanism towards self-improvement.\n\nBlog: pub.sakana.ai/mass/\nPaper: arxiv.org/abs/2610.12176\n\nIncredible work by Hyunin Lee, Jinglue Xu, Jeffrey Seely, Yujin Tang, and our collaborators from UC Berkeley (Somayeh Sojoudi, Matei Zaharia, Donghyun Lee)!",
+      "publishedAt": "2026-10-11T20:47:47.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2108766153875275994",
       "url": "https://x.com/SakanaAILabs/status/2108766153875275994",
       "text": "“The field of artificial life is a very long-term bet on intelligence.” 🐙\n\nOur former intern Akarsh Kumar recently joined @MLStreetTalk to discuss the intersection of evolution and automated search for artificial life. He dives into our Digital Red Queen research, exploring open-ended evolutionary arms races in Core War using LLMs. This perspective on intelligence through artificial life is central to how we think about the future of agentic AI.",
@@ -67,7 +76,7 @@
     {
       "id": "2103660061260411266",
       "url": "https://x.com/hardmaru/status/2103660061260411266",
-      "text": "The last sentence in the Schmidhuber news trending item summary hits hard 🙃 nitter.pp.ua/i/trending/21031854811…",
+      "text": "The last sentence in the Schmidhuber news trending item summary hits hard 🙃 nitter.meowing.monster/i/trending/21031854811…",
       "publishedAt": "2026-09-26T01:36:57.000Z",
       "authorHandle": "hardmaru",
       "likeCount": 0,
@@ -81,18 +90,9 @@
       "authorHandle": "SchmidhuberAI",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2103151519428448405",
-      "url": "https://x.com/hardmaru/status/2103151519428448405",
-      "text": "Jürgen Schmidhuber is joining Sakana AI as Chief Scientific Advisor.\n\n@SchmidhuberAI pioneered meta-learning, recursive self-improvement, and world models back in the 1990s, when compute was a million times more expensive. He has been thinking about machines that improve themselves since before compute was cheap enough to make it practical.\n\nThese ideas inspired the Darwin Gödel Machine and The AI Scientist. Our RSI Lab in Tokyo, now under Jürgen’s guidance, is working on agent-native world models and recursive self-improvement for physical AI.",
-      "publishedAt": "2026-09-24T15:56:11.000Z",
-      "authorHandle": "hardmaru",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-11T15:19:34.449Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://twiiit.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-11T23:10:40.897Z",
+  "stale": false,
+  "error": null
 }
