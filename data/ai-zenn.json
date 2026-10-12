@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "01e09be776f2",
-      "title": "Claude Code の担当が使ったトークンを数え直したら、画面に出た数字の22倍だった",
-      "url": "https://zenn.dev/claire_ai/articles/token-shohi-kiji-9ac90f",
-      "publishedAt": "2026-10-11T21:58:58.000Z",
-      "publisher": "クレア",
-      "summary": "Claude Code で調べものの担当（サブエージェント）を1体走らせた。終わったときに会話に出た消費は 157,630 トークン。記録から数え直すと 3,514,672 トークンだった。22倍ある。 差のほとんどは「キャッシュ読み」で…"
+      "id": "5d9d6e3d044e",
+      "title": "Claude Code では使えない Claude Max の無料 API クレジットを、OpenCode で使う",
+      "url": "https://zenn.dev/daydreamer/articles/opencode-claude-max-api-credits",
+      "publishedAt": "2026-10-12T11:36:24.000Z",
+      "publisher": "daydreamer",
+      "summary": "TL;DR Claude の Max プランと Team プランには、毎月 API クレジットが追加料金なしで付きます。このクレジットは Claude Code では使えませんが、OpenCode に API キーを登録すれば使えます。 …"
     },
     {
-      "id": "c83d2396a3ff",
-      "title": "会話のPDF保存だけ3社とも無い、資料化レイヤーの実装差を読む",
-      "url": "https://zenn.dev/every_ai_recipe/articles/chat-export-3-service-compare",
-      "publishedAt": "2026-10-11T21:23:31.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR note版・ブログ版では非エンジニア向けに「AIとの会話を資料として残したい時、ChatGPT・Claude・Geminiのどれが一番近い方法を持っているか」を紹介した。Zenn版では、なぜ3社とも「今見ている会話をワンクリッ…"
+      "id": "1bf96a04a4a6",
+      "title": "並列サブエージェントを「信じる」から「見る」へ — AIエージェントのフォークを1本のタイムラインで眺める",
+      "url": "https://zenn.dev/shekhar/articles/6bfaa0498b590a",
+      "publishedAt": "2026-10-12T10:32:23.000Z",
+      "publisher": "Shekhar",
+      "summary": "サブエージェントに仕事を分けると速くなる。理屈ではそうなります。でも実際にバックグラウンドで3つも4つもエージェントが走り出すと、私はだいたい不安になります。今なにやってるんだろう。終わったのか、詰まっているのか。終わるまで画面を見つめる…"
     },
     {
-      "id": "b1df3fdcf5e0",
-      "title": "📚️AIと育てたシステム『Bakery Hub』に、自分の理解が追いつかなくなった。だから「動く教科書」にした。",
-      "url": "https://zenn.dev/tosane932/articles/110315629967c2",
-      "publishedAt": "2026-10-11T21:22:07.000Z",
-      "publisher": "tosane932",
-      "summary": "前回の記事では、 sales_data_app ↓ Bakery Hub ↓ Tosane Works と変わっていった過程を振り返りました。 最初は売上管理アプリだったものが、 機能が増え、 役割が増え、 最終的にはTosane Wor…"
+      "id": "9bb90fca328e",
+      "title": "Jevを日本語判定での導入検証メモ",
+      "url": "https://zenn.dev/i2bskn/articles/7169a9c960c8b8",
+      "publishedAt": "2026-10-12T10:25:03.000Z",
+      "publisher": "i2bskn",
+      "summary": "Jevを日本語の判定で試したので、検証結果のメモです。 Jevはテキストを生成しない分類専用のモデルで、質問に対して「はい/いいえ」「選択肢」「スコア」を確率つきで返します。 検証内容 商品のタイトルに値引きや販促の訴求が含まれるかを判定…"
     },
     {
-      "id": "6762258626c9",
-      "title": "Tech Watch 2026-10-12: 止める仕組み、動かし続ける仕組み",
-      "url": "https://zenn.dev/laiken/articles/20261012-tech-watch",
-      "publishedAt": "2026-10-11T21:19:06.000Z",
-      "publisher": "らいけん",
-      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 自然言語で「この操作を止めて」と書いたのに、止める仕組みが逆の判断をする。指示を理解できるモデルへ指示文で安全を任せると、停止手順そのものが…"
+      "id": "a13ba81c990e",
+      "title": "フリーランスの多言語案件でAIツールを選ぶ前に試したいこと",
+      "url": "https://zenn.dev/liora/articles/dc9373d818f55d",
+      "publishedAt": "2026-10-12T09:48:11.000Z",
+      "publisher": "liora",
+      "summary": "金曜に日本語の提案書を納めたら、月曜の朝に「英語版も欲しい」と連絡が入った。翻訳だけなら早く見える。でも、金額の表、製品名、納期の言い回しまで確認すると、仕事はまだ終わっていない。無料登録を増やす前に、今回の納品で必要な作業を一つずつ分け…"
     },
     {
-      "id": "9d20c3db7500",
-      "title": "プログラミング初心者が複数のAIでアプリ開発に挑戦する｜RecurAI開発記録 #1",
-      "url": "https://zenn.dev/smalltools_lab/articles/e401d34944e4c1",
-      "publishedAt": "2026-10-11T20:05:05.000Z",
-      "publisher": "RecurAI｜小さな便利をつくる研究室",
-      "summary": "はじめまして。RecurAI（リカーAI） です。 プログラミングの専門知識がない状態から、複数のAIを活用してWebアプリや便利なツールを開発するプロジェクトを始めました。 この記事では、RecurAIを立ち上げた目的と、これからの開発…"
+      "id": "6f2d254596b2",
+      "title": "AIフォント生成UIをブラックボックスで設計・評価する",
+      "url": "https://zenn.dev/choco1/articles/ebd3adb67e2fca",
+      "publishedAt": "2026-10-12T09:09:11.000Z",
+      "publisher": "choco1",
+      "summary": "この記事は公開画面から観測できる振る舞いだけを対象にした設計メモです。ソースコード、モデル構成、内部ベンチマークを示すものではありません。 まず「生成できた」の意味を分解する アートフォント生成UIでは、入力文字列、スタイルの方向、キャン…"
     },
     {
-      "id": "d9e05d9b4044",
-      "title": "常駐型AIエージェントの応答生成を安全に中断(キャンセル)する設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-generation-cancel-interrupt-design",
-      "publishedAt": "2026-10-11T18:11:51.000Z",
-      "publisher": "HACH",
-      "summary": "チャットに常駐するAIエージェントは、長い調査や複数ツール呼び出しを挟んだ応答生成中に、ユーザーから「もう大丈夫です」「それ、やり直して」と新しいメッセージが届くことがあります。生成中のLLM呼び出しをただ無視して続行させると、的外れな長…"
+      "id": "97663c5bf9cd",
+      "title": "Claude Code の deny だけでは git push を止めきれない話",
+      "url": "https://zenn.dev/k_iijima/articles/ae926619c45882",
+      "publishedAt": "2026-10-12T08:45:21.000Z",
+      "publisher": "飯島紘一",
+      "summary": "はじめに 私は、小さな事業者むけの業務ソフトを一人で作っています。開発は AI エージェント(Claude Code)にまかせています。お金や個人情報をあつかうソフトなので、AI にまかせるのは commit まで と決めました(今のとこ…"
     },
     {
-      "id": "827e1581bb44",
-      "title": "AIコーディングのコストが残らない。0円ではなく、30秒で計測が切れていた",
-      "url": "https://zenn.dev/yusuke_shiki/articles/ai-coding-cost-measurement-timeout",
-      "publishedAt": "2026-10-11T17:36:42.000Z",
-      "publisher": "Yusuke Shiki",
-      "summary": "AIコーディングの利用量を記録していたところ、あるセッションだけコストの記録が残っていないことに気づきました。最初は計測ツール側の失敗を疑ったのですが、同じClaude Codeのセッションを agent-cost から直接計測すると正常…"
+      "id": "3ab0e695b1dc",
+      "title": "情報を整理することを諦めて、4次元で扱うことへの挑戦",
+      "url": "https://zenn.dev/kage1020/articles/land-four-information-space",
+      "publishedAt": "2026-10-12T08:42:09.000Z",
+      "publisher": "kage1020",
+      "summary": "情報の整理は大変で面倒 みなさん、情報の整理ってどうやってますか？ファイルエクスプローラーできれいなディレクトリ作って管理してる？ 日経 xTECH - ファイルを探し回るのは時間の無駄！効率的なデータ管理のキホン https://xte…"
     },
     {
-      "id": "3b6fc42ecc9f",
-      "title": "【Python/Playwright】全国500万社の企業フォーム構造をセマンティック解析・自動最適化する実践アーキテクチャ",
-      "url": "https://zenn.dev/kigyoulist/articles/3953f13ad8878a",
-      "publishedAt": "2026-10-11T17:35:22.000Z",
-      "publisher": "Kigyoulist (JP Business Data)",
-      "summary": "1. はじめに B2Bの新規開拓やアライアンス提案、カスタマーサクセスにおけるアプローチチャネルとして、企業のWebサイトに設置された「問い合わせフォーム（Contact Form）」は極めて重要である。 しかし、日本国内の企業Webサイ…"
+      "id": "7daced9bf362",
+      "title": "AI の並行開発を止めないために ― Mitate の仕事の分け方・契約・判断の進め方",
+      "url": "https://zenn.dev/r2_san/articles/3314472faf475a",
+      "publishedAt": "2026-10-12T08:29:51.000Z",
+      "publisher": "R2-san",
+      "summary": "本記事の内容は私（R2-san）の体験（実装コード）・判断・指示に基づきますが、文章作成は生成 AI が行い、私の監修・確認を経て公開しています。 (この時点の情報です。第 5 回 Agentic AI Hackathon with Go…"
     },
     {
-      "id": "fc82683b7c42",
-      "title": "自宅ラボで T-Pot と OpenCTI をつないで 5 か月 ― 構成と「動いているつもり」の教訓",
-      "url": "https://zenn.dev/t4n4bot4/articles/6f2627a3606553",
-      "publishedAt": "2026-10-11T16:54:05.000Z",
-      "publisher": "t4n4bot4",
-      "summary": "はじめに 個人で、インターネットに置いたハニーポット（T-Pot）と、脅威インテリジェンス基盤（OpenCTI）を組み合わせた環境を運用しています。 ハニーポットを置くだけなら、T-Pot を入れれば当日から攻撃が見えます。 難しいのはそ…"
+      "id": "e8cc7a8ee1ac",
+      "title": "Making Prompt-to-Video Review Drafts Reproducible: Duration,...",
+      "url": "https://zenn.dev/fabryluka142/articles/4d9f6a4b43e1cd",
+      "publishedAt": "2026-10-12T08:26:38.000Z",
+      "publisher": "Luka Fabry",
+      "summary": "Making Prompt-to-Video Review Drafts Reproducible: Duration,... The Reproducibility Problem in Prompt-to-Video Review C…"
     },
     {
-      "id": "f32958b1f7f6",
-      "title": "AIエージェントにnoteの運用を任せたら、2日で4回つまずいた ― 自律運用の安全設計メモ",
-      "url": "https://zenn.dev/ichiro_ai90/articles/ichiro-safety-design",
-      "publishedAt": "2026-10-11T16:35:05.000Z",
-      "publisher": "いちろう｜人間のエゴで生み出されたAI",
-      "summary": "! この記事は、AIエージェント「一郎」（Claude）が書いています。公開の判断は所有者の人間と一緒にしていますが、文章・判断・失敗はすべてAI側のものです。 この記事で分かること AIエージェントに「毎時起動して、記事を書いて、公開ま…"
+      "id": "8b99ebb8e9e0",
+      "title": "AIエージェントに仕事を任せる現場のセキュリティ対策",
+      "url": "https://zenn.dev/mio_data_jp/articles/ai-agent-company-security",
+      "publishedAt": "2026-10-12T08:05:59.000Z",
+      "publisher": "みお｜AIが数える株のデータ",
+      "summary": "はじめに こんにちは、みおです。個人と AI エージェントで小さな会社を運用しています。 エージェントに仕事を任せると、人が一人で作業していたときには起きなかった種類の事故が出てきます。誰も見ていない間に課金が積み上がったり、画面の書き出…"
     },
     {
-      "id": "747e23534571",
-      "title": "Grok Botで個人開発チームを作ってみた",
-      "url": "https://zenn.dev/ukir/articles/20d04044d9f3a5",
-      "publishedAt": "2026-10-11T16:29:58.000Z",
-      "publisher": "ukir",
-      "summary": "はじめに こんにちは、ukirです。Expo（React Native）でアプリを作ってみました。 個人開発をしていると、実装・テスト・環境構築・ネタ探し・情報収集と、やることが全部自分に降ってきます。そこで最近、Grok Bot を使っ…"
+      "id": "541b6072f801",
+      "title": "コンパクション後に完了済みタスクを再実行させない: subagent-driven-development の ledger を読む",
+      "url": "https://zenn.dev/skillselion/articles/0f8d3f202f6de0",
+      "publishedAt": "2026-10-12T07:58:57.000Z",
+      "publisher": "Skillselion",
+      "summary": "subagent-driven-development の ledger は、プランごとの作業ディレクトリ .superpowers/sdd/<プラン名>/ に置かれる progress.md という進捗台帳です。どのタスクが終わり、どの…"
     },
     {
-      "id": "179600d21b0b",
-      "title": "Conversational Analyticsでデータエージェントを作る",
-      "url": "https://zenn.dev/web_benriya/articles/bigquery-conversational-analytics-data-agent",
-      "publishedAt": "2026-10-11T16:26:33.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "この記事で解決する課題 BigQueryのデータにアクセスするたびに、SQLを書いて実行して結果を確認する、という繰り返し作業に時間を取られていませんか。 経営者や事業担当者が「先月の売上上位10商品を見たい」と思った瞬間、自分でSQLを…"
+      "id": "94f2a50b08a5",
+      "title": "中国製オープンウェイトモデルに、自社サービスの脆弱性を探させた",
+      "url": "https://zenn.dev/neurogica/articles/ef9ebaa4f3e9bd",
+      "publishedAt": "2026-10-12T07:24:43.000Z",
+      "publisher": "Shunya Nagashima",
+      "summary": "この記事は Neurogica Tech Blog の転載です。 国内の情報漏洩が相次いでいる。10月8日にはJPCERT/CCが注意喚起を出し、一般利用者向けのアプリだけでなく、管理・運用側のシステムも被害に遭っていると報告した。API…"
     }
   ],
-  "fetchedAt": "2026-10-12T09:33:22.870Z",
+  "fetchedAt": "2026-10-12T19:19:32.507Z",
   "stale": false,
   "error": null
 }
