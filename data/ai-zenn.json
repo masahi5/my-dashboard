@@ -6,6 +6,46 @@
   "category": "ai",
   "items": [
     {
+      "id": "01e09be776f2",
+      "title": "Claude Code の担当が使ったトークンを数え直したら、画面に出た数字の22倍だった",
+      "url": "https://zenn.dev/claire_ai/articles/token-shohi-kiji-9ac90f",
+      "publishedAt": "2026-10-11T21:58:58.000Z",
+      "publisher": "クレア",
+      "summary": "Claude Code で調べものの担当（サブエージェント）を1体走らせた。終わったときに会話に出た消費は 157,630 トークン。記録から数え直すと 3,514,672 トークンだった。22倍ある。 差のほとんどは「キャッシュ読み」で…"
+    },
+    {
+      "id": "c83d2396a3ff",
+      "title": "会話のPDF保存だけ3社とも無い、資料化レイヤーの実装差を読む",
+      "url": "https://zenn.dev/every_ai_recipe/articles/chat-export-3-service-compare",
+      "publishedAt": "2026-10-11T21:23:31.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR note版・ブログ版では非エンジニア向けに「AIとの会話を資料として残したい時、ChatGPT・Claude・Geminiのどれが一番近い方法を持っているか」を紹介した。Zenn版では、なぜ3社とも「今見ている会話をワンクリッ…"
+    },
+    {
+      "id": "b1df3fdcf5e0",
+      "title": "📚️AIと育てたシステム『Bakery Hub』に、自分の理解が追いつかなくなった。だから「動く教科書」にした。",
+      "url": "https://zenn.dev/tosane932/articles/110315629967c2",
+      "publishedAt": "2026-10-11T21:22:07.000Z",
+      "publisher": "tosane932",
+      "summary": "前回の記事では、 sales_data_app ↓ Bakery Hub ↓ Tosane Works と変わっていった過程を振り返りました。 最初は売上管理アプリだったものが、 機能が増え、 役割が増え、 最終的にはTosane Wor…"
+    },
+    {
+      "id": "6762258626c9",
+      "title": "Tech Watch 2026-10-12: 止める仕組み、動かし続ける仕組み",
+      "url": "https://zenn.dev/laiken/articles/20261012-tech-watch",
+      "publishedAt": "2026-10-11T21:19:06.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 自然言語で「この操作を止めて」と書いたのに、止める仕組みが逆の判断をする。指示を理解できるモデルへ指示文で安全を任せると、停止手順そのものが…"
+    },
+    {
+      "id": "9d20c3db7500",
+      "title": "プログラミング初心者が複数のAIでアプリ開発に挑戦する｜RecurAI開発記録 #1",
+      "url": "https://zenn.dev/smalltools_lab/articles/e401d34944e4c1",
+      "publishedAt": "2026-10-11T20:05:05.000Z",
+      "publisher": "RecurAI｜小さな便利をつくる研究室",
+      "summary": "はじめまして。RecurAI（リカーAI） です。 プログラミングの専門知識がない状態から、複数のAIを活用してWebアプリや便利なツールを開発するプロジェクトを始めました。 この記事では、RecurAIを立ち上げた目的と、これからの開発…"
+    },
+    {
       "id": "d9e05d9b4044",
       "title": "常駐型AIエージェントの応答生成を安全に中断(キャンセル)する設計",
       "url": "https://zenn.dev/hach/articles/chat-agent-generation-cancel-interrupt-design",
@@ -60,49 +100,9 @@
       "publishedAt": "2026-10-11T16:26:33.000Z",
       "publisher": "ウェブの便利屋",
       "summary": "この記事で解決する課題 BigQueryのデータにアクセスするたびに、SQLを書いて実行して結果を確認する、という繰り返し作業に時間を取られていませんか。 経営者や事業担当者が「先月の売上上位10商品を見たい」と思った瞬間、自分でSQLを…"
-    },
-    {
-      "id": "5adf247c939a",
-      "title": "Spine 用にキャラ絵 1 枚をパーツに分けるとき、AI の分割プランで確認すること",
-      "url": "https://zenn.dev/vitaappsstudio/articles/70564e95af0372",
-      "publishedAt": "2026-10-11T16:15:32.000Z",
-      "publisher": "Vita Apps Studio",
-      "summary": "キャラクターの 1 枚絵を AI でパーツに分けて Spine で動かすとき、出来を左右するのは分割ボタンを押す前です。ロボットのマスコットとアライグマの盗賊、2 つの絵で試してわかった「プランで確認すること」をまとめます。 手順の全体（…"
-    },
-    {
-      "id": "481969e497d8",
-      "title": "AIに「分析」を自律させるための要件〜過去事例学習のその次〜",
-      "url": "https://zenn.dev/r_tsukagoshi/articles/37ca1f2c3d95e4",
-      "publishedAt": "2026-10-11T16:01:16.000Z",
-      "publisher": "Tsukagoshi",
-      "summary": "分析とは何か？：AIに自律的分析を実装するための3つの妥当性 1. 過去事例の学習（帰納）は、なぜ分析に失敗するのか 近年、大規模言語モデル（LLM）の急速な発達と普及に伴い、AIに「自律的なデータ分析」を委ねようとする試みが急速に広がっ…"
-    },
-    {
-      "id": "13dc03c74074",
-      "title": "Claude CodeでCDNを全部外した",
-      "url": "https://zenn.dev/pcnotonari/articles/9c2fe2adf6b7ed",
-      "publishedAt": "2026-10-11T15:14:51.000Z",
-      "publisher": "pcnotonari",
-      "summary": "小さな事業のサイトを、Claude Code と Python だけで作っています。npm は使っていません。CDN は1本も読み込んでいない構成です。 外したのは好みの問題ではありません。外さないと壊れる場所があったからです。この記事は…"
-    },
-    {
-      "id": "10cfb9b52d21",
-      "title": "今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-12-tech-daily",
-      "publishedAt": "2026-10-11T15:11:12.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "2026年の開発環境はこう変わる：uv+Ruffへの完全シフトとAIエージェント実践の最前線 この記事で分かること Python開発ツール（pip/Flake8/Black）からRustベース（uv/Ruff）への完全移行と高速化のインパ…"
-    },
-    {
-      "id": "e826af4ce3cb",
-      "title": "いつ会話を捨てて、新しいセッションで始めるか：区切りで切り、正本から再開する",
-      "url": "https://zenn.dev/minewo/articles/plangate-fresh-context-restart",
-      "publishedAt": "2026-10-11T14:47:05.000Z",
-      "publisher": "mine_take",
-      "summary": "Claude Code や Codex で長い作業を続けていると、このまま続けるか、新しいセッションに切り替えるか、切り替えるなら何を残せばよいかで迷います。切ると、積み上げた文脈が消えそうで怖くなります。切らないと、古い判断や失敗した試…"
     }
   ],
-  "fetchedAt": "2026-10-12T02:23:05.417Z",
+  "fetchedAt": "2026-10-12T09:33:22.870Z",
   "stale": false,
   "error": null
 }
