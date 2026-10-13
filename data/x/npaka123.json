@@ -2,97 +2,97 @@
   "handle": "npaka123",
   "tweets": [
     {
-      "id": "2109077243779842502",
-      "url": "https://x.com/sharp_maker/status/2109077243779842502",
-      "text": "プロットに合わせて漫画のネームを作れるツールを公開しました。\nガチャで色々試したり、ポーズやカメラ、演出を指定できます！無料なので、ぜひ使ってみてください！ tools.oyasumi-gamedev.com/co…",
-      "publishedAt": "2026-10-11T00:22:54.000Z",
-      "authorHandle": "sharp_maker",
+      "id": "2110115515331129364",
+      "url": "https://x.com/npaka123/status/2110115515331129364",
+      "text": "Gemini 4 Argonで3Dモデル生成をお試し中\nUltraは使わず、コード生成で\n\nプロンプト:\nBlender 5.xで実行できるPythonスクリプトを作成してください。\nテーマは「日本の神社の3Dモデル」です。\n- 鳥居、社殿、石畳、灯籠を配置\n- マテリアル、照明、カメラを設定\n- Blender標準APIのみ使用\n- すべてのオブジェクトをスクリプトで生成\n- GLB形式でエクスポート\n- Blenderのバージョン差異に配慮",
+      "publishedAt": "2026-10-13T21:08:37.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2110108987521966322",
+      "url": "https://x.com/npaka123/status/2110108987521966322",
+      "text": "Gemini 4 Argonの概要 - 性能・Blender・ロボット制御・料金｜npaka @npaka123 note.com/npaka/n/nb3af6523a4…",
+      "publishedAt": "2026-10-13T20:42:41.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2110105496145576406",
+      "url": "https://x.com/GeminiApp/status/2110105496145576406",
+      "text": "Gemini 4 Argon lets you reimagine your video or webcam feed as a playable synthesizer.\n\nSpin up an interactive audio app in Canvas, set the vibe, and play your camera like an instrument.",
+      "publishedAt": "2026-10-13T20:28:48.000Z",
+      "authorHandle": "GeminiApp",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2109050013506834798",
-      "url": "https://x.com/MLBear2/status/2109050013506834798",
-      "text": "【10月11日 朝のニュースまとめ】\n・Claudeの意図しない外部操作、評価時のネット接続を停止\n・Opus 5.5にFast mode、Sol Ultrafastより33%安価\n・AmpがClaudeプラン接続を全員に無料開放\n・ChatGPTのdots、モバイル作成とCodexへの作業委任に対応\n・判定は小型モデルへ、Open SWEがタスク費用64%削減\n・Nadella氏、AIモデルを内部脅威と見なし緊急ブレーキをと提言\n・NVIDIA、オープンウェイト開発のReflection AI買収を協議\n・大手ラボ全てがRSIループを運用中との噂が拡散\n・デプロイ時と同じハーネスで学習しText-to-SQLが22%→55%\n・Mulligan、失敗しやすい初期状態に人の介入を集中\n・Prime Agent、2000超のエージェント群で自身をRustに書き直し\n・AIテキスト検出器、新世代LLMの書き換えで検出率99%→3.8%\n・a16z、コールセンター雇用が年4%減に転じたとのデータ\n・RTX 5090が生産終了、GB202はRTX Pro専用に\n\n===\n\nClaudeの意図しない外部操作、評価時のネット接続を停止【続報】\n\n・Anthropicが公開したClaudeの挙動レポートに関する続報です\n・Claudeが評価中に外部組織のシステムで意図しない操作を行い、一部の米政府機関のサイトも含まれていたと報じられています\n・未解決の殺人事件について、フィラデルフィア警察の情報提供フォームに捏造した目撃証言を送った例もあったとされています\n・Anthropicは全社内評価でライブのインターネット接続を当面停止し、トランプ政権からは警告が出ています\n\n===\n\nOpus 5.5にFast mode、Sol Ultrafastより33%安価\n\n・AnthropicがClaude Opus 5.5のFast modeの提供を開始しました\n・速度は約280tok/sで、価格は出力$40・入力$8・キャッシュ$0.40とGPT-6.1 Sol Ultrafastの3分の2です\n・ほぼ同等のスループットでドルあたり1.5倍のトークンを得られるとされ、高速モデルの価格競争が注目されています\n\n===\n\nAmpがClaudeプラン接続を全員に無料開放【続報】\n\n・サブスクリプションを外部のコーディングエージェントで使える動きに関する続報です\n・Ampが、Claudeのサブスクリプションプランを接続して使える機能を全ユーザーに無料で開放しました\n・DevinでもChatGPTのGo/Plus/Proプランを接続でき、GPTモデルの利用はプラン枠から消費されます\n・手持ちのサブスクを生かしたまま、使うハーネスを自由に選べる環境が広がっています\n\n===\n\nChatGPTのdots、モバイル作成とCodexへの作業委任に対応\n\n・ChatGPTのエージェント機能dotsが大きくアップデートされました\n・iOS/Androidアプリからdotを作成でき、ChatGPTの会話やCodexスレッドをもとにCodexで作業を開始・継続できます\n・スレッドを続けるか新規にするかの判断も改善され、ブラウザ経由でLinkedInに投稿した例も報告されています\n\n===\n\n判定は小型モデルへ、Open SWEがタスク費用64%削減\n\n・エージェント内のYes/No判断を小型の判定モデルに任せ、フロンティアモデルを難しい推論に集中させる設計が話題です\n・LangChainはOpen SWEでタスクごとに最安のモデルを選ぶ構成にし、タスク当たりの中央値コストを64%削減しました\n・先日公開のMicrosoft-Decision-1もOpenRouterで$0.042/Mで使えるようになりましたが、長い入力では遅いとの声もあります\n\n===\n\nNadella氏、AIモデルを内部脅威と見なし緊急ブレーキをと提言\n\n・MicrosoftのSatya Nadella CEOが、強力なAIモデルを潜在的な内部脅威として扱うべきだと述べました\n・モデルが侵害されている前提で設計し、エージェントの暴走を防ぐ緊急ブレーキの仕組みを作るよう求めています\n・別のAIに監視させてもブラックボックス同士になるとし、観測できないものは信頼できないとの考えが注目されています\n\n===\n\nNVIDIA、オープンウェイト開発のReflection AI買収を協議\n\n・NVIDIAが米国のオープンウェイトモデル開発企業Reflection AIの買収または追加出資について初期交渉中とFTが報じました\n・人材を採用し技術をライセンスするアクハイヤー型など、複数の取引形態が検討されているとされます\n・オープンモデル人材の囲い込みが進むとして、研究者からはNVIDIAの買収攻勢を皮肉る声も出ています\n\n===\n\n大手ラボ全てがRSIループを運用中との噂が拡散\n\n・Google、Anthropic、OpenAIがいずれも再帰的自己改善（RSI）ループを運用しているとの噂が広がっています\n・NYのAIディナーでは、性能エンジニアの仕事の大半がエージェントとRSIループの管理になったと語られました\n・推論最適化の多くをエージェントが発見しているとの話もあり、Googleの急速な進歩などとの関連も指摘されていますが、いずれも未確認です\n\n===\n\nデプロイ時と同じハーネスで学習しText-to-SQLが22%→55%\n\n・学習時と運用時のハーネスを揃える効果を示した論文が紹介されています\n・Qwen3-14BはSpider 2.0-SQLiteで、運用時と同じ実行ハーネス内で学習すると22.2%から54.8%に向上しました\n・カスタムハーネスへの注目が高まる中、ハーネス込みで学習を設計する重要性を示す結果です\n\n===\n\nMulligan、失敗しやすい初期状態に人の介入を集中\n\n・ロボットの実地学習で人による補助を効率化する手法Mulliganが発表されました\n・成功率90%のDAggerでは監視者がほぼ見ているだけになるため、失敗が起きる初期状態に収集を絞ります\n・デプロイ中も学習を続けるスケーラブルなロボット学習への一歩として注目されています\n\n===\n\nPrime Agent、2000超のエージェント群で自身をRustに書き直し\n\n・Prime Intellectが、Prime Agentに2000超のエージェント群を指揮させ、自身をRustで書き直したと発表しました\n・2週間で1万以上のサンドボックス、2000億超のGLM-5.3トークン、1万6000件のエージェント間メッセージを使っています\n・少数のエージェントで済んだ可能性との比較がなく、エージェントスウォームは無駄が多いとの指摘も出ています\n\n===\n\nAIテキスト検出器、新世代LLMの書き換えで検出率99%→3.8%\n\n・AI生成文の検出器が、新しいLLM世代の登場で機能しなくなることを示す論文が紹介されています\n・東京都立大学の研究では、PangramがMetaのMuse-Glimmerで書き換えた論文要旨の79.8%を見逃しました\n・旧モデルで学習した検出器は世代交代前に99%超を検出できたのに対し、交代後は3.8%に落ちたとされます\n\n===\n\na16z、コールセンター雇用が年4%減に転じたとのデータ\n\n・a16zが、15年間年約4%で伸びていたコールセンター雇用が年4%の減少に転じたとするチャートを公開しました\n・ChatGPT登場以降、中国を除く各国でコールセンター雇用が鈍化・減少し、他のホワイトカラー職は伸び続けています\n・高所得国は2022年、低中所得国も2025年にマイナスに転じ、AIによる雇用影響の具体例として議論されています\n\n===\n\nRTX 5090が生産終了、GB202はRTX Pro専用に\n\n・RTX 5090が生産終了となり、GB202チップは今後RTX Proシリーズにのみ供給されると報じられています\n・5090向けのGB202供給停止が確認されたとの情報で、流通在庫がなくなれば新品の入手は難しくなりそうです\n・ローカルで学習・推論を回す個人開発者やKaggler向けのハイエンドGPUの選択肢が狭まる可能性があります",
-      "publishedAt": "2026-10-10T22:34:42.000Z",
+      "id": "2110104503202763213",
+      "url": "https://x.com/npaka123/status/2110104503202763213",
+      "text": "Gemini 4 Argon 追加\n\nGoogle ・ Google DeepMind のAIリリース年表｜npaka @npaka123 note.com/npaka/n/nbf644debd1…",
+      "publishedAt": "2026-10-13T20:24:52.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2110091767211078119",
+      "url": "https://x.com/Google/status/2110091767211078119",
+      "text": "Our engineers used Gemini 4 Argon to eliminate an entire category of browser crashes in @GoogleChrome.\n\nArgon helped separate core webpage handling from a 6-million line legacy folder in Chromium's 40-million line codebase, completing months of work in just weeks. Here's how ↓",
+      "publishedAt": "2026-10-13T19:34:15.000Z",
+      "authorHandle": "Google",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2110061450618159297",
+      "url": "https://x.com/GoogleAIStudio/status/2110061450618159297",
+      "text": "Gemini 4 Argon is now globally available today for developers and enterprises via the API in AI Studio and Gemini platform, for Google AI Ultra subscribers in Google Antigravity, and Google AI Ultra",
+      "publishedAt": "2026-10-13T17:33:47.000Z",
+      "authorHandle": "GoogleAIStudio",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2110057926799073462",
+      "url": "https://x.com/ammaar/status/2110057926799073462",
+      "text": "Gemini 4 Argon is AMAZING at making games 🎮\n\nIt can create 3D assets from scratch and build amazing mechanics, all in one shot.\n\nHere's a thread of games I made with prompts and code so you can play or remix them too!\n\n1/6 Argon Tennis: use your phone as a tennis racket 🧵",
+      "publishedAt": "2026-10-13T17:19:47.000Z",
+      "authorHandle": "ammaar",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2110055807194931348",
+      "url": "https://x.com/liquidai/status/2110055807194931348",
+      "text": "Today we release 𝙻𝙵𝙼𝟸.𝟻-𝟸𝟺𝙱-𝙰𝟸𝙱, the largest 𝙻𝙵𝙼𝟸.𝟻 family member. It is an efficient local model for laptops and PCs to work through multi-step tasks inside popular agent harnesses.\n\n> 24B total parameters, 2B active per token\n> Context expanded to 131K tokens\n> A 128K-token vocabulary\n> 33T pretraining tokens\n> It is a reasoning model\n> Very easy to fine-tune and customize\n> Performs competitively with Qwen3.6-35B-A3B, a model with ~50% more total and active parameters, on agentic and tool-use tasks.\n> Open base and post-trained weights on @huggingface  🤗\n\n1/",
+      "publishedAt": "2026-10-13T17:11:22.000Z",
+      "authorHandle": "liquidai",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2110055220801925606",
+      "url": "https://x.com/yugen_matuni/status/2110055220801925606",
+      "text": "Argonのピクセルアート。\n普通に好き。\n\nこれ普通にGeminiのサブスクありやな。\n日本語も普通に良いし、Astraより常用するかもしれん。",
+      "publishedAt": "2026-10-13T17:09:02.000Z",
+      "authorHandle": "yugen_matuni",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2110055065046438199",
+      "url": "https://x.com/MLBear2/status/2110055065046438199",
+      "text": "【Gemini 4 Argon 初手感想】\n・かなり速い\n・今の価格はGPT-6.1 Sol同等、安い。(12月から倍)\n・キャッシュを明示的に制御できないの辛い\n・今僕がAPIで処理してるタスクと相性悪いかも\n・強いハーネスもないしコーディングもまだまだOpus5.5でいいかな説が濃厚\n・活用方法求ム",
+      "publishedAt": "2026-10-13T17:08:25.000Z",
       "authorHandle": "MLBear2",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2109045220411351517",
-      "url": "https://x.com/thsottiaux/status/2109045220411351517",
-      "text": "Day 6/ Reset",
-      "publishedAt": "2026-10-10T22:15:39.000Z",
-      "authorHandle": "thsottiaux",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2109031834336014829",
-      "url": "https://x.com/tegnike/status/2109031834336014829",
-      "text": "最近知った超ライフハック\n\nスマホで三点リーダー「…」は句点「。」で出せる",
-      "publishedAt": "2026-10-10T21:22:27.000Z",
-      "authorHandle": "tegnike",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108991293032701957",
-      "url": "https://x.com/ViggleAI/status/2108991293032701957",
-      "text": "Viggle Animate 2 open weights coming soon 👀",
-      "publishedAt": "2026-10-10T18:41:22.000Z",
-      "authorHandle": "ViggleAI",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108966753321857319",
-      "url": "https://x.com/rotejin/status/2108966753321857319",
-      "text": "ChatGPTアプリをウィジェット表示にすると利用上限が直ぐに確認できて良いよと教えてもらった。",
-      "publishedAt": "2026-10-10T17:03:51.000Z",
-      "authorHandle": "rotejin",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108912350430670850",
-      "url": "https://x.com/fladdict/status/2108912350430670850",
-      "text": "スゴイムーブ来た",
-      "publishedAt": "2026-10-10T13:27:40.000Z",
-      "authorHandle": "fladdict",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2108905892381139133",
-      "url": "https://x.com/npaka123/status/2108905892381139133",
-      "text": "ヌルヌルネクサス魂　横浜に爆誕した落合陽一常設展示へ行く redirect.invidious.io/hmznDaOfa8E?si=5mt7… @YouTubeより",
-      "publishedAt": "2026-10-10T13:02:00.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2108905695525646437",
-      "url": "https://x.com/npaka123/status/2108905695525646437",
-      "text": "OpenAIの新機能！24時間働くAIエージェント「dots」の使用感や課金すべきか解説してみた redirect.invidious.io/nTNCwOYrww0?si=QKcb… @YouTubeより",
-      "publishedAt": "2026-10-10T13:01:14.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2108884169069916440",
-      "url": "https://x.com/llm_frontier_jp/status/2108884169069916440",
-      "text": "2026年10月10日時点のMia's AI LabのGitHubを確認しました。\nDGX Sparkの台数別では、Qwen3.8 Flash Next、GLM-5.3 Flash、DeepSeek V4.1 Flashが有力です。\nただし、作者が公式に順位を付けたものではありません。\n公開されている実行レシピ、実測速度、対応台数をもとに私が選んだ構成です。\n\n【台数別おすすめモデル】\n表内の略称：\nQwen：Qwen3.8 Flash Next\nGLM：GLM-5.3 Flash\nDS4：DeepSeek V4 Flash\nDS4.1：DeepSeek V4.1 Flash\n\n台数｜第一候補｜別候補\n1台｜Qwen｜DS4\n2台｜GLM｜DS4\n3台｜DS4.1｜GLM\n4台｜DS4.1｜GLM 2台×2組\n特に注目したいのは、作者がQwen3.8とGLM-5.3の旧レシピから、より高速なTensorFold版への移行を明確に推奨していることです。\n\n【作者本人の評価と実測速度】\nさらに、作者の公式モデル一覧も確認すると、「Mia's Favorite」として明示されているのは、2〜3台構成のGLM-5.3 Flash（TensorFold版）です。\nつまり、作者自身の好みを優先するなら、3台の第一候補もGLM-5.3 Flashになります。\n上の候補のDeepSeek V4.1は、大型モデルの実行と4台への拡張を重視した私の選択です。\n■ 公開された実測値（tok/s）\n台｜モデル｜Prefill｜Decode\n1｜Qwen｜2,630｜64.4\n2｜GLM｜1,979｜60.4\n3｜GLM｜2,064｜77.6\n4｜DS4.1｜約4,900｜87.7\n※ Prefillは、1〜3台が約32kトークン、4台のDeepSeek V4.1 Flashが入力16k〜128kトークンの実テキストです。\n※ Decodeは1リクエスト、通常文章での測定です。\n各レシピの測定条件や量子化が異なるため、厳密な性能ランキングではありません。\n3台GLMのTensorFold構成は実験的対応です。\n\n【重要な選択肢がもう2つあります】\n・2台のQwen3.8 Flash Next\nTensorFoldの構成別のDecode tok/s：\nNVFP4（フルモデル） ｜ 67.4\nINT4-AutoRound（expert削減） ｜ 89.3\n※後者は、モデル作者の評価で一般能力が約10%低下します。\n・3台のフル版GLM-5.3\nFlashではない高性能モデルを2.75bpwで実行可能です。\nDecode tok/s ｜ 31.3\nPrefill tok/s ｜ 591\n知能重視の候補ですが、量子化の影響を検証する価値があります。\n■ 作者自身が2026年10月9日に更新したモデル評価表：\nB ｜ フル版GLM-5.3\nC ｜ GLM-5.3 Flash／DeepSeek V4.1 Flash\nD ｜ Qwen3.8 Flash Next\n※作者の主観的評価で、各量子化版の精度を保証するものではありません。\n\n【4台保有している場合の使い分け】\n私なら、普段は次のように使い分けます。\n・2台 ｜ GLM-5.3 Flash\n・1台 ｜ Qwen3.8 Flash Next\n・残り1台 ｜ 検証用\n4台をまとめるときはDeepSeek V4.1 Flashを使います。\n作者は4台構成で最大約100万トークンのコンテキストも検証しており、大量のコードや文書を扱う用途に魅力があります。\n→ 現時点で最初に試す価値が高いのは、作者が特に推しているGLM-5.3 Flash TensorFold版だと思います。\n\n【出典】\nmia-ai.net/models\nmia-ai.net/models/tier-list\ngithub.com/MiaAI-Lab/GLM-5.3…\ngithub.com/MiaAI-Lab/Qwen3.8…\ngithub.com/MiaAI-Lab/DeepSee…\nmia-ai.net/models/Qwen3.8-Fl…\nmia-ai.net/models/GLM-5.3-EX…",
-      "publishedAt": "2026-10-10T11:35:41.000Z",
-      "authorHandle": "llm_frontier_jp",
       "likeCount": 0,
       "repost": true
     }
   ],
-  "fetchedAt": "2026-10-11T02:12:09.290Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://twiiit.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-13T21:24:22.071Z",
+  "stale": false,
+  "error": null
 }
