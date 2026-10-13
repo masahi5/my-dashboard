@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "426e7a8e9cf9",
-      "title": "Coding-Agent Benchmarks Should Match Their Users' Task Flows",
-      "url": "https://huggingface.co/papers/2610.09633",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "The evaluation of coding agents generally strives to be as realistic as possible. In our study, we collect 4,782 agent …",
-      "score": 8
+      "id": "7a8d65d4118f",
+      "title": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
+      "url": "https://huggingface.co/papers/2610.08966",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "summary": "Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future t…",
+      "score": 14
     },
     {
       "id": "39b01e941a71",
@@ -22,12 +22,12 @@
       "score": 5
     },
     {
-      "id": "5d1736056f4e",
-      "title": "QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching",
-      "url": "https://huggingface.co/papers/2609.36760",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Multi-Head Latent Attention (MLA) enables expressive multi-head attention with compact caches for its content and decou…",
-      "score": 5
+      "id": "859b805006df",
+      "title": "Mental-Models for Multi-Agent Systems",
+      "url": "https://huggingface.co/papers/2610.12453",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "summary": "Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other age…",
+      "score": 3
     },
     {
       "id": "987488e35f9e",
@@ -35,6 +35,14 @@
       "url": "https://huggingface.co/papers/2610.11069",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "summary": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their…",
+      "score": 3
+    },
+    {
+      "id": "9beb2b6909a1",
+      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
+      "url": "https://huggingface.co/papers/2610.12582",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "summary": "A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference co…",
       "score": 3
     },
     {
@@ -62,20 +70,20 @@
       "score": 2
     },
     {
-      "id": "9beb2b6909a1",
-      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
-      "url": "https://huggingface.co/papers/2610.12582",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference co…",
-      "score": 2
-    },
-    {
       "id": "63e71c4b3d22",
       "title": "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations",
       "url": "https://huggingface.co/papers/2609.39635",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "summary": "Given a target dataset, such as faces with eyeglasses, and a background dataset, such as faces without, contrastive ana…",
       "score": 2
+    },
+    {
+      "id": "7619cf162674",
+      "title": "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
+      "url": "https://huggingface.co/papers/2610.12307",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "summary": "Most image generation models rely on uniform tokenization, allocating the exact same computational budget to equally-si…",
+      "score": 1
     },
     {
       "id": "7353103b338b",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-10-08T04:13:04.000Z",
       "summary": "Reconstructing complete, scene-aligned 3D objects from casual images requires integrating sparse, uncertain observation…",
       "score": 1
-    },
-    {
-      "id": "7619cf162674",
-      "title": "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
-      "url": "https://huggingface.co/papers/2610.12307",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Most image generation models rely on uniform tokenization, allocating the exact same computational budget to equally-si…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-12T19:19:32.362Z",
+  "fetchedAt": "2026-10-13T01:31:29.933Z",
   "stale": false,
   "error": null
 }

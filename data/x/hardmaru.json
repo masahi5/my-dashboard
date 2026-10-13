@@ -2,6 +2,15 @@
   "handle": "hardmaru",
   "tweets": [
     {
+      "id": "2109713735904551315",
+      "url": "https://x.com/hardmaru/status/2109713735904551315",
+      "text": "Multi-Agent Self-Supervision: Recursive self-improvement through collective intelligence\n\nBlog post: pub.sakana.ai/mass/ ⚖️",
+      "publishedAt": "2026-10-12T18:32:05.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2109385496237678844",
       "url": "https://x.com/hardmaru/status/2109385496237678844",
       "text": "New paper from the team at Sakana AI:\nRecursive Self-Improvement through Multi-Agent Self-Supervision (MASS)\n\nHow do we keep improving AI when the tasks become too complex for humans to reliably evaluate?\n\nFor open-ended research, we eventually hit a \"supervision bottleneck.\" If we use the model itself as the solver, optimizer, and evaluator, it gets trapped in a homogeneous loop, reinforcing its own blind spots rather than correcting them.\n\nTo break this loop, we drew inspiration from Marvin Minsky’s Society of Mind. What if you prompt a single model to organize copies of itself into a structured team, then distill what the team learned back into the base model?\n\nMASS alternates between two loops:\n\n1/ Workflow Optimization: the model iteratively evolves its own multi-agent workflows, figuring out how subagents should communicate and route information to each other.\n\n2/ Workflow Internalization: fine-tune the shared model on the successful multi-agent trajectories so the coordination behavior gets baked into the weights.\n\nAfter two cycles with a 27B open-weights model, performance improved 1.2-1.6x per output token on tough research benchmarks (MLR-Bench, ScienceAgentBench, DSBench).\n\nMulti-agent traces were also much better training data than single-agent ones. The model learns faster from jointly learning high-level orchestration and bounded subagent execution. The results showing that the model can bootstrap its own coordination skills by organizing copies of itself into teams feels promising as a mechanism towards self-improvement.\n\nBlog: pub.sakana.ai/mass/\nPaper: arxiv.org/abs/2610.12176\n\nIncredible work by Hyunin Lee, Jinglue Xu, Jeffrey Seely, Yujin Tang, and our collaborators from UC Berkeley (Somayeh Sojoudi, Matei Zaharia, Donghyun Lee)!",
@@ -11,10 +20,10 @@
       "repost": false
     },
     {
-      "id": "2108766153875275994",
-      "url": "https://x.com/SakanaAILabs/status/2108766153875275994",
-      "text": "“The field of artificial life is a very long-term bet on intelligence.” 🐙\n\nOur former intern Akarsh Kumar recently joined @MLStreetTalk to discuss the intersection of evolution and automated search for artificial life. He dives into our Digital Red Queen research, exploring open-ended evolutionary arms races in Core War using LLMs. This perspective on intelligence through artificial life is central to how we think about the future of agentic AI.",
-      "publishedAt": "2026-10-10T03:46:44.000Z",
+      "id": "2109385006603006435",
+      "url": "https://x.com/SakanaAILabs/status/2109385006603006435",
+      "text": "Introducing Multi-Agent Self-Supervision (MASS): Recursive self-improvement through collective intelligence\n\nBlog: pub.sakana.ai/mass/\n\nAs AI systems tackle increasingly open-ended research problems, human experts may struggle to assess results and guide further progress. The model itself may be the best available optimizer and evaluator. The challenge is obtaining useful self-supervision within that homogeneous loop, where a model risks reinforcing its own blind spots rather than correcting them.\n\nWe ask whether a model can learn from the collective intelligence of its own team.\n\nWe introduce Multi-Agent Self-Supervision (MASS). One shared model solves tasks through a team of virtual subagents, searches for better multi-agent workflows, then uses its own judgments to select the best ones.\n\nTraining on the best team’s executions provides self-supervision by distilling the team’s collective experience into the shared model.\n\nWe ran two cycles using a 27B open-weights model on synthetic open-ended research tasks. After the second cycle, score per output token reached 1.2-1.6x the base model's level across four research benchmarks.\n\nThree key results:\n\nFirst, MASS enables role generalization within an RSI loop: training only on task-solving data from the optimizee naturally improves the capabilities of both the optimizer and the evaluator.\n\nSecond, multi-agent trajectories are more efficient training data than single-agent trajectories for RSI.\n\nThird, optimizer capacity, rather than evaluator capacity, can be the bottleneck in the speed of improvement.\n\nWe believe the community needs to investigate homogeneous RSI carefully to support AI safety. When a model is also its own evaluator, shared blind spots could allow mistakes to be accepted as progress and reinforced through training. For AI to improve beyond human expertise safely, we need to understand these failures and preserve effective ways to detect them and intervene.\n\nPaper: arxiv.org/abs/2610.12176\nCode: github.com/SakanaAI/mass\n\nThis work was a collaboration with researchers at UC Berkeley.",
+      "publishedAt": "2026-10-11T20:45:50.000Z",
       "authorHandle": "SakanaAILabs",
       "likeCount": 0,
       "repost": true
@@ -76,23 +85,14 @@
     {
       "id": "2103660061260411266",
       "url": "https://x.com/hardmaru/status/2103660061260411266",
-      "text": "The last sentence in the Schmidhuber news trending item summary hits hard 🙃 nitterk.kareem.one/i/trending/21031854811…",
+      "text": "The last sentence in the Schmidhuber news trending item summary hits hard 🙃 nitter.meowing.monster/i/trending/21031854811…",
       "publishedAt": "2026-09-26T01:36:57.000Z",
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2103218984141074840",
-      "url": "https://x.com/SchmidhuberAI/status/2103218984141074840",
-      "text": "Happy to join Sakana AI as Chief Scientific Advisor :-)",
-      "publishedAt": "2026-09-24T20:24:16.000Z",
-      "authorHandle": "SchmidhuberAI",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-12T02:23:52.260Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://twiiit.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-13T01:32:15.856Z",
+  "stale": false,
+  "error": null
 }
