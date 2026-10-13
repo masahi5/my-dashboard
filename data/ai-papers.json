@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "7a8d65d4118f",
-      "title": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
-      "url": "https://huggingface.co/papers/2610.08966",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future t…",
-      "score": 14
-    },
-    {
-      "id": "39b01e941a71",
-      "title": "Distributionally Robust Mixture-of-Experts Training",
-      "url": "https://huggingface.co/papers/2610.07207",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Mixture-of-Experts (MoE) transformers scale capacity by activating only a few experts per token, but this sparsity crea…",
-      "score": 5
-    },
-    {
-      "id": "859b805006df",
-      "title": "Mental-Models for Multi-Agent Systems",
-      "url": "https://huggingface.co/papers/2610.12453",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other age…",
-      "score": 3
-    },
-    {
-      "id": "987488e35f9e",
-      "title": "Clinician use of language models diverges from how the models are evaluated",
-      "url": "https://huggingface.co/papers/2610.11069",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their…",
-      "score": 3
-    },
-    {
-      "id": "9beb2b6909a1",
-      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
-      "url": "https://huggingface.co/papers/2610.12582",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference co…",
-      "score": 3
-    },
-    {
-      "id": "e7307593176f",
-      "title": "The Life Cycle of a Massive Activation: Stochastic Birth, Weight-Decay-Driven Growth, and Competitive Consolidation",
-      "url": "https://huggingface.co/papers/2610.00423",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Massive activations, residual-stream coordinates with magnitudes far larger than typical activations, are associated wi…",
-      "score": 3
-    },
-    {
-      "id": "ea61f0234d51",
-      "title": "Self-Preservation in Language Models",
-      "url": "https://huggingface.co/papers/2610.12602",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied fo…",
-      "score": 3
-    },
-    {
-      "id": "169c625621b2",
-      "title": "Few-Step Generation via Data-Space Iteration",
-      "url": "https://huggingface.co/papers/2610.12102",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Flow matching has emerged as a scalable paradigm for training high-quality generative models, but sampling from the lea…",
-      "score": 2
-    },
-    {
-      "id": "63e71c4b3d22",
-      "title": "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations",
-      "url": "https://huggingface.co/papers/2609.39635",
+      "id": "9d1cb068230a",
+      "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+      "url": "https://huggingface.co/papers/2609.39601",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Given a target dataset, such as faces with eyeglasses, and a background dataset, such as faces without, contrastive ana…",
+      "summary": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for ti…",
+      "score": 84
+    },
+    {
+      "id": "58f97e531eee",
+      "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+      "url": "https://huggingface.co/papers/2610.13166",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "summary": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories …",
+      "score": 70
+    },
+    {
+      "id": "508f36869542",
+      "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+      "url": "https://huggingface.co/papers/2610.13361",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to …",
+      "score": 41
+    },
+    {
+      "id": "370682905614",
+      "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+      "url": "https://huggingface.co/papers/2610.11765",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "summary": "Large Language Models (LLMs) increasingly ship with explicit \"thinking modes\", yet their counterpart, \"no-thinking\", ha…",
+      "score": 39
+    },
+    {
+      "id": "6150f832dd9d",
+      "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
+      "url": "https://huggingface.co/papers/2609.33304",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "summary": "Personal Graphical User Interface (GUI) agents rely on interaction history to infer what a user wants from ambiguous in…",
+      "score": 29
+    },
+    {
+      "id": "3af4878e9847",
+      "title": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
+      "url": "https://huggingface.co/papers/2609.39600",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Autoregressive (AR) grounding models serialize spatial predictions, introducing sequential latency and imposing a causa…",
+      "score": 16
+    },
+    {
+      "id": "0f44611a54a9",
+      "title": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+      "url": "https://huggingface.co/papers/2610.13832",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "summary": "When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoint…",
+      "score": 15
+    },
+    {
+      "id": "c2d0ec7f8e5d",
+      "title": "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
+      "url": "https://huggingface.co/papers/2610.03308",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "We reconstruct high-fidelity 3D scene meshes from posed multi-view images without per-scene optimization, across scales…",
+      "score": 7
+    },
+    {
+      "id": "99a07d6f452c",
+      "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
+      "url": "https://huggingface.co/papers/2610.09326",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to…",
+      "score": 6
+    },
+    {
+      "id": "0389bf198bc5",
+      "title": "ARCS: Towards Precise Text-to-SQL via Structured Disambiguation",
+      "url": "https://huggingface.co/papers/2610.09396",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "As text-to-SQL systems move beyond demonstrations toward real-world deployment, ambiguity in user questions becomes a p…",
+      "score": 3
+    },
+    {
+      "id": "388318236678",
+      "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
+      "url": "https://huggingface.co/papers/2610.12933",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "summary": "Large language models have achieved remarkable advances in complex reasoning. However, scaling reasoning post-training …",
       "score": 2
     },
     {
-      "id": "7619cf162674",
-      "title": "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
-      "url": "https://huggingface.co/papers/2610.12307",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Most image generation models rely on uniform tokenization, allocating the exact same computational budget to equally-si…",
-      "score": 1
-    },
-    {
-      "id": "7353103b338b",
-      "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
-      "url": "https://huggingface.co/papers/2610.10512",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual obse…",
-      "score": 1
-    },
-    {
-      "id": "02286c1471f3",
-      "title": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
-      "url": "https://huggingface.co/papers/2610.11215",
-      "publishedAt": "2026-10-08T04:13:04.000Z",
-      "summary": "Reconstructing complete, scene-aligned 3D objects from casual images requires integrating sparse, uncertain observation…",
+      "id": "d9145c051079",
+      "title": "SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code",
+      "url": "https://huggingface.co/papers/2610.09116",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "The rapid growth of 3D Gaussian Splatting (3DGS) research demands significant effort to reimplement papers before build…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-10-13T01:31:29.933Z",
+  "fetchedAt": "2026-10-13T08:27:06.843Z",
   "stale": false,
   "error": null
 }

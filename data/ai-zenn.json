@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "faf1ef933c1a",
-      "title": "AI駆動開発未経験だけどAI駆動開発について整理してみた。",
-      "url": "https://zenn.dev/adajo/articles/5a671014c6aa6e",
-      "publishedAt": "2026-10-12T15:48:15.000Z",
-      "publisher": "安達",
-      "summary": "どうも、安達です。 みなさん、AI駆動開発、してますか。 僕は仕事ではしたことはありません。 AI駆動開発というと仰々しいですが、要はAI使って開発する、ということです。 では実際一般的にはどういう流れで行われているのか。 AI駆動開発に…"
+      "id": "b5bc18763aed",
+      "title": "所属を聞く前に、このコマンドを打ってください",
+      "url": "https://zenn.dev/toshikatsu_oga/articles/a938f329736644",
+      "publishedAt": "2026-10-13T07:39:33.000Z",
+      "publisher": "大賀俊勝 / HORIZON SHIELD",
+      "summary": "AI エージェントが何をしたかを、作った本人以外が検算できる記録として残す。私は半年、その仕組みを公開の場で作ってきました。名前は NENRIN(年輪)です。 海外では、反応が中身で返ってきます。「この正規化だと署名が合わない」「この欄は…"
     },
     {
-      "id": "98f5f059482b",
-      "title": "Claude Code で AI社員18人の会社を運営する：フォルダ構成と決まり",
-      "url": "https://zenn.dev/chiero/articles/36f7889983c90c",
-      "publishedAt": "2026-10-12T15:29:54.000Z",
-      "publisher": "CHIERO",
-      "summary": "株式会社CHIERO のチエロです。 私の会社は、2026年9月から、仕事を18の担当に分けて Claude Code と Codex に渡しています。 その運用を、ほかの会社のフォルダに置ける形に組み直した物を「AI社員一式」と呼んでい…"
+      "id": "ccd1f1aa8528",
+      "title": "議事録自動化webアプリを作ってみた",
+      "url": "https://zenn.dev/0shun/articles/5ef31a3b25e278",
+      "publishedAt": "2026-10-13T07:35:00.000Z",
+      "publisher": "shun",
+      "summary": "議事録自動化webアプリを作ってみた geminiAPIとGoogle Apps Scriptを使って議事録を特定のGoogleDocumentにまとめてくれるアプリを作りました。 モチベーションとしては現在同級生2人と麻雀に関するSNS…"
     },
     {
-      "id": "1605482d70d0",
-      "title": "Codex と Claude Code を同じフォルダで使う入口（AGENTS.md と CLAUDE.md）",
-      "url": "https://zenn.dev/chiero/articles/ddf132b6783219",
-      "publishedAt": "2026-10-12T15:29:46.000Z",
-      "publisher": "CHIERO",
-      "summary": "株式会社CHIERO のチエロです。 私の会社では、同じフォルダを Claude Code と Codex の両方で開いて、仕事をさせています。 この記事では、2つの道具が同じ決まりを同じ順番で読むようにした入口の作りを書きます。 載せる…"
+      "id": "e76d6952d6c8",
+      "title": "0。前回の記事が「試していない」と書いた復旧コマンドを今回実行したら、通った回数だった",
+      "url": "https://zenn.dev/hideki_tamae/articles/detached-head-checkout-denied",
+      "publishedAt": "2026-10-13T06:14:07.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに 0。 これが今回の数字です。何の0かというと、前回(2026-09-30公開)の記事で「detached HEADから復旧する手段」として挙げ、同時に「実際に試して確認したものではない」と明記していたgitコマンドを、今日実際に…"
     },
     {
-      "id": "c2c8f98faa2f",
-      "title": "data2vec / data2vec 2.0：文脈を含む正解の学習と、その計算の効率化",
-      "url": "https://zenn.dev/mantis_ryuji/articles/data2vec-contextual-targets",
-      "publishedAt": "2026-10-12T15:26:11.000Z",
-      "publisher": "mantis_ryuji",
-      "summary": "1. はじめに 自己教師あり学習では、ラベルを人が与える代わりに、データから学習問題を作る。その代表が、入力の一部を隠して予測する masked prediction である。 ただし、「隠したものを予測する」と言っても、何を正解にするか…"
+      "id": "59946abf3ef8",
+      "title": "データエージェントに効く指示（instructions）の書き方",
+      "url": "https://zenn.dev/web_benriya/articles/bigquery-data-agent-instructions-tuning",
+      "publishedAt": "2026-10-13T05:43:30.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "この記事で解決する課題 データエージェントを構築したのに、回答が的外れだったり、同じ質問でもたびたびブレが生じたりしていませんか。 BigQueryのConversational Analytics APIや自律型エージェントは、inst…"
     },
     {
-      "id": "51ddba1bea90",
-      "title": "Claude CodeとCodexを同じリポジトリで並列に動かす: git worktreeの落とし穴と相互レビュー",
-      "url": "https://zenn.dev/arun/articles/parallel-agents-git-worktree",
-      "publishedAt": "2026-10-12T15:00:38.000Z",
-      "publisher": "Arun",
-      "summary": "! 筆者はMacアプリ「Offrun」を開発しています。この記事の手順は素のgitとCLIだけで再現できます。Offrunの紹介は末尾に短く書きました。 何が起きるのか Claude CodeとCodexを同じリポジトリで同時に動かすと、…"
+      "id": "26d2502ddcb7",
+      "title": "Aiは未来予測機ではない。Ceatec2026で感じたこと。",
+      "url": "https://zenn.dev/maskedridersys/articles/c9b3286e0ca946",
+      "publishedAt": "2026-10-13T05:42:20.000Z",
+      "publisher": "maskedridersystem",
+      "summary": "はじめに 今年のCeatec 2026に参加してきました。 流石にAi全盛のいまほとんどがAi関連のブースで、もとを正せば人材派遣会社もあったので本当に驚きました。 自分の勧めるローカルLLMを使った企業内Aiの構築も「Ai ナレッジ」と…"
     },
     {
-      "id": "f78c7fdf3591",
-      "title": "Anthropic、AIの試験を全部ネットから切り離す",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261012",
-      "publishedAt": "2026-10-12T14:47:37.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月12日（月）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます、菅原です。今日はAIの「止め方」と「頼り方」の話が並びました。Anthropicが社内でAIを試す環境を、ネッ…"
+      "id": "e843221b579b",
+      "title": "画像も動画も読むAIをOllamaで手元で動かせる ほか2本",
+      "url": "https://zenn.dev/hathat/articles/861ec1e95f5806",
+      "publishedAt": "2026-10-13T05:32:23.000Z",
+      "publisher": "論文と現場のあいだ",
+      "summary": "会議のスライドの写真や画面の録画をAIに読ませたい。でも社外のサービスには出したくない。コーディングエージェントに「こういうエージェントを作って」と頼んだら「完成しました」と返ってきた。でも本当に動くのかは分からない。社内検索で、短いキー…"
     },
     {
-      "id": "a1671057f1b3",
-      "title": "日本語の会議録音、ローカルWhisperはどのサイズで足りる？ Macで6サイズ×雑音・話し声・用語ヒントを実測した",
-      "url": "https://zenn.dev/kagaage/articles/b046f8a597c63a",
-      "publishedAt": "2026-10-12T14:40:04.000Z",
-      "publisher": "karaage",
-      "summary": "社外に出せない会議の録音を、クラウドに送らず手元のMacで文字起こししたい。そのとき最初に迷うのが「Whisperのどのサイズを使うか」です。小さいモデルは速いけれど金額や社名を落とすと議事録に使えない。大きいモデルは正確そうだけれど、1…"
+      "id": "da03ebc282fd",
+      "title": "毎朝のAIニュースをClaude Codeに選ばせてDiscordに流す",
+      "url": "https://zenn.dev/yodaka/articles/1429808a3e619c",
+      "publishedAt": "2026-10-13T05:27:29.000Z",
+      "publisher": "よだか",
+      "summary": "お久しぶりです。よだかです。 最近アウトプットサボってたのですが、知り合いの会社で社内外問わずいろんな人が入れるオープンなコミュニティ。「AI部」を立ち上げてそれの運営をすることになった関係で、アウトプットを徐々に復活させていこうと思い、…"
     },
     {
-      "id": "7a8822195858",
-      "title": "Cloudflare Pagesで消したファイルは、デプロイごとのURLに残る — 404を確かめても消えていなかった",
-      "url": "https://zenn.dev/zeroyen_dev/articles/cloudflare-pages-deleted-file-remains",
-      "publishedAt": "2026-10-12T14:37:26.000Z",
-      "publisher": "ゼロ円開発ログ",
-      "summary": "AI（Claude Code）に、ブログの運用を任せています。その中に、公開前の原稿を一時的に自分のサイトに置く工程があります。 置いたファイルは、使い終わったら消して、もう一度デプロイします。そのあと、本番のURLで404になることまで…"
+      "id": "72a7a43013f6",
+      "title": "「AI でコードを書く側に戻った」CockroachDB の CTO 回はどれが伸びるか（#36予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr36-mattis-prediction",
+      "publishedAt": "2026-10-13T05:00:10.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
     },
     {
-      "id": "31fb6f19a46c",
-      "title": "AIで仕事は速くなった。なのに「入力」だけ、まだ渋滞していない？",
-      "url": "https://zenn.dev/keyro/articles/ford-ai-input-bottleneck",
-      "publishedAt": "2026-10-12T14:21:11.000Z",
-      "publisher": "KeyroIME",
-      "summary": "Keyroアカデミー｜仕事術 AIにメールの下書きを頼んだら、数秒で返ってきた。ところが、最後の修正で手が止まる。日本語から英語へ、数字から記号へ、変換候補を探して、またEnter。仕事の新しいボトルネックは、案外キーボードの上にあるのか…"
+      "id": "1cf44237dcbf",
+      "title": "世界を予測するAIと、ゲノムを読むAI ― そのあと、AIに発明もさせてみた",
+      "url": "https://zenn.dev/dxclab/articles/a777bbc1a3b236",
+      "publishedAt": "2026-10-13T04:43:15.000Z",
+      "publisher": "ｻﾝｼｮｳｳｵ",
+      "summary": "title: \"世界を予測するAIと、ゲノムを読むAI ― そのあと、AIに発明もさせてみた\" emoji: \"🌍\" type: \"tech\" topics: [\"ai\", \"worldmodel\", \"alphagenome\", \"b…"
     },
     {
-      "id": "2f53376f8679",
-      "title": "Claude Code と Codex に「壊して」と頼むレビューが終わらない。他人のコードを読むアプリで、止める基準を決めた記録",
-      "url": "https://zenn.dev/qzailabs/articles/ai-break-it-review-never-ends",
-      "publishedAt": "2026-10-12T14:20:45.000Z",
-      "publisher": "Qz AI Labs",
-      "summary": "AIで作ったWebアプリを公開前に点検するツール（点検日和）を、Claude Code と Codex で作っています。このツールが読むのは、利用者のコードです。つまり、どんな形の入力が来るか、こちらでは決められません。 作り始めた日、C…"
+      "id": "80c87648377f",
+      "title": "言わない技術 第8回：AI にダメ出ししない技術",
+      "url": "https://zenn.dev/garplab/articles/71bba4528411c4",
+      "publishedAt": "2026-10-13T04:30:03.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「言わない技術」の第 8 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の…"
     },
     {
-      "id": "1c292015b746",
-      "title": "AIの進化がもたらすサイバー攻撃の激増と今求められる防御側の常識",
-      "url": "https://zenn.dev/dilettante/articles/5a419a9b7c38e2",
-      "publishedAt": "2026-10-12T13:57:25.000Z",
-      "publisher": "dilettante",
-      "summary": "昨今のセキュリティインシデントの背景 昨今、情報漏洩や不正アクセスといったセキュリティ被害のニュースが毎日のように報道されています。サイバーセキュリティクラウド社のデータによると、2026年7月〜9月の攻撃件数は前年同時期の約1.8倍に達…"
+      "id": "ecd4e3d82a10",
+      "title": "Claude Code で仕事と個人のアカウントを分けるとき、CLAUDE.md が混ざる落とし穴",
+      "url": "https://zenn.dev/tanashun/articles/claude-code-multiple-accounts",
+      "publishedAt": "2026-10-13T03:36:41.000Z",
+      "publisher": "tanashun",
+      "summary": "1 台の Mac で、Claude Code のアカウントを 2 つ使い分けたいことがあります。たとえば、会社の Team プランと、個人の Max プランです。 アカウントを替えるたびに、ログアウトしてログインし直すのが面倒 会社用の …"
     },
     {
-      "id": "a715666fa71d",
-      "title": "AIに書かせた日本語を毎日直していたので、直し方ごとスキルにして公開しました",
-      "url": "https://zenn.dev/koji4/articles/42b8c6d5901323",
-      "publishedAt": "2026-10-12T13:56:33.000Z",
-      "publisher": "kojikojikojikoji",
-      "summary": "仕事の文章はほとんど AI に下書きさせています。中小企業向けの提案書、作業の報告、事業部の人に送る Slack のメッセージ。内容はだいたい合っているのに、そのままでは出せません。読み返すと毎回同じところを直していました。 直していた所…"
+      "id": "1aa3527c8762",
+      "title": "botが同僚になったら、同僚っぽい事故が起きはじめた",
+      "url": "https://zenn.dev/manabu/articles/grok-bot-coworker-incidents",
+      "publishedAt": "2026-10-13T03:29:02.000Z",
+      "publisher": "Manabu",
+      "summary": "この記事は、noteに掲載した同名の記事をZenn向けに整えたものです。 前回、Grok botが僕らのチームを侵食してる、という記事を書きました。 あれから1ヶ月。 侵食はちゃんと進んでます。笑 9月に入ってから、開発依頼チャンネルで返…"
     }
   ],
-  "fetchedAt": "2026-10-13T01:31:30.109Z",
+  "fetchedAt": "2026-10-13T08:27:07.069Z",
   "stale": false,
   "error": null
 }
