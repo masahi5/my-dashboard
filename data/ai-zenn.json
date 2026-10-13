@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "79e1687923cd",
+      "title": "既存のDevOpsプラットフォームをAI時代へ：設計と実践から考えたこと",
+      "url": "https://zenn.dev/takikawayuu/articles/c10ff19ae58af5",
+      "publishedAt": "2026-10-13T09:46:41.000Z",
+      "publisher": "滝川悠",
+      "summary": "AIがコードを書く場面が増えると、開発プラットフォームにも新しい問いが生まれます。コードがIDEやターミナル、サンドボックスで生成されるようになったとき、これまで人が画面を操作することを前提にしていたビルド・デプロイ・リリースの仕組みは、…"
+    },
+    {
+      "id": "42d3bd57e711",
+      "title": "アプリの種類は選ばなくていい ―― 困りごとから仕組みを設計する",
+      "url": "https://zenn.dev/r2_san/articles/1d1e86984c7509",
+      "publishedAt": "2026-10-13T09:04:44.000Z",
+      "publisher": "R2-san",
+      "summary": "本記事の内容は私（R2-san）の体験（実装コード）・判断・指示に基づきますが、文章作成は生成 AI が行い、私の監修・確認を経て公開しています。 (この時点の情報です。開発中のもので、数字や仕様は 2026 年 10 月時点のものです。…"
+    },
+    {
+      "id": "735cca9d6b4f",
+      "title": "商品の 3D から AI に商品動画を作らせる：5 秒だいたい 60 円、GPU は使った分だけ",
+      "url": "https://zenn.dev/renderjanction/articles/d87c55fb28f8bd",
+      "publishedAt": "2026-10-13T09:04:34.000Z",
+      "publisher": "render.janction.jp",
+      "summary": "JANCTION Render（AI から呼べる Blender のクラウド描画）に、商品動画の機能 Product Video を足しました。商品の 3D（.glb・.fbx・.obj・.usdz）を渡すと、テロップと締めの画面つきの短…"
+    },
+    {
+      "id": "810114c8c9b8",
+      "title": "AIエージェントに勝手に書き込ませる前に確認している7つのこと（実際の失敗から）",
+      "url": "https://zenn.dev/neuralalpha/articles/seven-checks-ja",
+      "publishedAt": "2026-10-13T08:26:25.000Z",
+      "publisher": "NeuralAlpha",
+      "summary": "Claude Code で小さな自動運用を作っています。予約したジョブが公式APIでXに投稿し、Gumroadでデジタル商品を販売し、夜中にスクリプトが記録を付ける、という規模のものです。大きなシステムではありませんが、寝ている間にお金を…"
+    },
+    {
       "id": "b5bc18763aed",
       "title": "所属を聞く前に、このコマンドを打ってください",
       "url": "https://zenn.dev/toshikatsu_oga/articles/a938f329736644",
@@ -68,41 +100,9 @@
       "publishedAt": "2026-10-13T05:00:10.000Z",
       "publisher": "管理人K",
       "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
-    },
-    {
-      "id": "1cf44237dcbf",
-      "title": "世界を予測するAIと、ゲノムを読むAI ― そのあと、AIに発明もさせてみた",
-      "url": "https://zenn.dev/dxclab/articles/a777bbc1a3b236",
-      "publishedAt": "2026-10-13T04:43:15.000Z",
-      "publisher": "ｻﾝｼｮｳｳｵ",
-      "summary": "title: \"世界を予測するAIと、ゲノムを読むAI ― そのあと、AIに発明もさせてみた\" emoji: \"🌍\" type: \"tech\" topics: [\"ai\", \"worldmodel\", \"alphagenome\", \"b…"
-    },
-    {
-      "id": "80c87648377f",
-      "title": "言わない技術 第8回：AI にダメ出ししない技術",
-      "url": "https://zenn.dev/garplab/articles/71bba4528411c4",
-      "publishedAt": "2026-10-13T04:30:03.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「言わない技術」の第 8 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の…"
-    },
-    {
-      "id": "ecd4e3d82a10",
-      "title": "Claude Code で仕事と個人のアカウントを分けるとき、CLAUDE.md が混ざる落とし穴",
-      "url": "https://zenn.dev/tanashun/articles/claude-code-multiple-accounts",
-      "publishedAt": "2026-10-13T03:36:41.000Z",
-      "publisher": "tanashun",
-      "summary": "1 台の Mac で、Claude Code のアカウントを 2 つ使い分けたいことがあります。たとえば、会社の Team プランと、個人の Max プランです。 アカウントを替えるたびに、ログアウトしてログインし直すのが面倒 会社用の …"
-    },
-    {
-      "id": "1aa3527c8762",
-      "title": "botが同僚になったら、同僚っぽい事故が起きはじめた",
-      "url": "https://zenn.dev/manabu/articles/grok-bot-coworker-incidents",
-      "publishedAt": "2026-10-13T03:29:02.000Z",
-      "publisher": "Manabu",
-      "summary": "この記事は、noteに掲載した同名の記事をZenn向けに整えたものです。 前回、Grok botが僕らのチームを侵食してる、という記事を書きました。 あれから1ヶ月。 侵食はちゃんと進んでます。笑 9月に入ってから、開発依頼チャンネルで返…"
     }
   ],
-  "fetchedAt": "2026-10-13T08:27:07.069Z",
+  "fetchedAt": "2026-10-13T16:15:54.341Z",
   "stale": false,
   "error": null
 }
