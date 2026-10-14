@@ -6,6 +6,30 @@
   "category": "ai",
   "items": [
     {
+      "id": "3b40b339b002",
+      "title": "AI エージェントの「不寝番」アプリを作ったら、テスト全通過のまま実機で 3 回やらかした話",
+      "url": "https://zenn.dev/s3onghyun/articles/1ec9856f1fb32e",
+      "publishedAt": "2026-10-14T08:03:09.000Z",
+      "publisher": "s3onghyun",
+      "summary": "! AI エージェントが作業している間だけ Mac をスリープさせないメニューバーアプリを Claude Code と一緒に作りました。テスト 70 個はすべてグリーンだったのに、実機に配属した途端、見張り番の二等兵が 3 回やらかしまし…"
+    },
+    {
+      "id": "887376f08c38",
+      "title": "ChatGPTに確定申告の準備を手伝ってもらう",
+      "url": "https://zenn.dev/uttnaoki/articles/4d33acc58ced53",
+      "publishedAt": "2026-10-14T08:01:55.000Z",
+      "publisher": "naoki kinoshita",
+      "summary": "そろそろ確定申告の準備を進めたい まだ少し早いですが、来年の確定申告に向けて、 やるべきことの洗い出しや帳簿の記帳を進めておきたいと思っています。 私はfreeeで帳簿をつけています。 今回はChatGPTにブラウザ上のfreeeを操作し…"
+    },
+    {
+      "id": "94f94c5981f9",
+      "title": "状態遷移の違和感はボタンを押して見つける: Matt Pocockのprototypeスキル「ロジック分岐」を読む",
+      "url": "https://zenn.dev/skillselion/articles/6ad17e6a32b62f",
+      "publishedAt": "2026-10-14T08:01:27.000Z",
+      "publisher": "Skillselion",
+      "summary": "mattpocock/skillsのprototypeスキルは、問いが「このロジックや状態モデルで合っているか」のとき、HTMLファイルを1つだけ作ります。中身は、いつでも押せるボタン(フリープレイ)と、タブで切り替えるシナリオ(ガイド付…"
+    },
+    {
       "id": "f8fbdccd5372",
       "title": "中学生でもわかる Lean 4 #22｜間違えることと負けることを分ける",
       "url": "https://zenn.dev/dantarg/articles/lean4-error-not-defeat",
@@ -76,33 +100,9 @@
       "publishedAt": "2026-10-14T06:12:30.000Z",
       "publisher": "黒豆（Kuromame）",
       "summary": "「予算内の商品を探して」と頼んだとき、候補を返すだけなのか、カートを作るところまで進むのか。同じ会話画面でも、システムに渡している権限は違います。AIエージェントを理解するには、次の行動を決める仕組みと、実際に許された操作を分けて見ると整…"
-    },
-    {
-      "id": "37d09d8b697a",
-      "title": "お店をつくる人の「集客の相棒」をつくる ── MEOエージェントが目指すものと、いま取り組んでいること",
-      "url": "https://zenn.dev/canly/articles/620e72782bea50",
-      "publishedAt": "2026-10-14T06:02:08.000Z",
-      "publisher": "hayashi79",
-      "summary": "MEOエージェントが目指すものと、いま取り組んでいること はじめまして。株式会社カンリーでエンジニアリングマネージャーをしている林です。今年の7月に入社し、ちょうど3か月が過ぎたところです。 今回は私が担当している「MEOエージェント」と…"
-    },
-    {
-      "id": "e04831ce9afc",
-      "title": "コンテンツマーケティングにAIを使うなら：任せる作業と人が確認する判断を分けよう",
-      "url": "https://zenn.dev/asayi_megumi/articles/9ca35e554070a5",
-      "publishedAt": "2026-10-14T05:58:08.000Z",
-      "publisher": "浅井めぐみ",
-      "summary": "AIに記事の下書きを任せるときは、判断を任せる範囲も決めます。見出し案を出す作業と、顧客に約束してよい内容を決める作業では、間違えたときの影響が違います。 小さなチームでコンテンツマーケティングにAIを使うなら、作業ごとに入力、確認者、公…"
-    },
-    {
-      "id": "ae32e2cc1b34",
-      "title": "AIで技術デモ動画を自動編集したら、操作の順番は残る？",
-      "url": "https://zenn.dev/kiri_kunn/articles/43192c633e736f",
-      "publishedAt": "2026-10-14T05:52:06.000Z",
-      "publisher": "霧（Kiri）",
-      "summary": "検索条件を入れる場面が消え、結果一覧だけが残った動画を考えます。画面はすっきりしていても、見た人は同じ結果にたどり着けません。技術デモでは、短さよりも、結果が出るまでの手順を追えることを優先します。 検索フォームを操作する想定例から、AI…"
     }
   ],
-  "fetchedAt": "2026-10-14T15:19:50.341Z",
+  "fetchedAt": "2026-10-14T19:33:53.154Z",
   "stale": false,
   "error": null
 }

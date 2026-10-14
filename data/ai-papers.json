@@ -6,36 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "547a5bc3dce6",
-      "title": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
-      "url": "https://huggingface.co/papers/2610.14766",
-      "publishedAt": "2026-10-10T00:00:00.000Z",
-      "summary": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear. We introduce t…",
-      "score": 12
+      "id": "f4e5ecd8f817",
+      "title": "Pristine Models",
+      "url": "https://huggingface.co/papers/2610.14091",
+      "publishedAt": "2026-10-08T17:58:41.000Z",
+      "summary": "Training on broad, unfiltered data enables high-quality image generation, but can also teach models concepts that shoul…",
+      "score": 8
     },
     {
-      "id": "fddc7a620fb1",
-      "title": "AUGUstus: Autonomous Driving VLA Model with Unified Generation and Understanding",
-      "url": "https://huggingface.co/papers/2610.16985",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Vision-language-action (VLA) models show strong potential for end-to-end autonomous driving by leveraging world knowled…",
-      "score": 10
-    },
-    {
-      "id": "87076023a893",
-      "title": "What Really Works for Universal Multimodal Embeddings? A Controlled Study of Contrastive Training Strategies",
-      "url": "https://huggingface.co/papers/2610.15035",
-      "publishedAt": "2026-10-10T00:00:00.000Z",
-      "summary": "Contrastive learning has become the standard paradigm for multimodal representation learning, aligning semantically mat…",
-      "score": 9
-    },
-    {
-      "id": "48eb94b38499",
-      "title": "Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability",
-      "url": "https://huggingface.co/papers/2610.14158",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Understanding and tracking a dynamic world are fundamental to visual intelligence. Existing video benchmarks provide li…",
-      "score": 7
+      "id": "3e90ea480e2c",
+      "title": "ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models",
+      "url": "https://huggingface.co/papers/2610.18596",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Reinforcement learning (RL) post-training improves robot foundation models (RFMs) beyond their demonstrations, but real…",
+      "score": 6
     },
     {
       "id": "389f9bff32f3",
@@ -43,23 +27,39 @@
       "url": "https://huggingface.co/papers/2610.18579",
       "publishedAt": "2026-10-13T00:00:00.000Z",
       "summary": "System One models choose an agent's next action by scoring a supplied set of options in a single pass. This makes them …",
-      "score": 3
+      "score": 4
     },
     {
-      "id": "aada677bbfd7",
-      "title": "Omni-Modal LLMs Know More Than They Say",
-      "url": "https://huggingface.co/papers/2610.16135",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Omni-modal large language models (Omni-LLMs) extend LLMs to process heterogeneous modalities (e.g., vision, audio, and …",
+      "id": "71fa5adf7d3d",
+      "title": "Beyond the Verdict: Agentic Code Judging with Verifiable Feedback",
+      "url": "https://huggingface.co/papers/2610.18760",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Test-time scaling for large language models (LLMs) can involve generating multiple candidate solutions for selection or…",
       "score": 2
     },
     {
-      "id": "339f7ff1644d",
-      "title": "WorldCast: Distributed Multiplayer World Models",
-      "url": "https://huggingface.co/papers/2610.12412",
+      "id": "a84d704d07a3",
+      "title": "Who to Trust in Multi-Robot Systems: Joint Robot and Object Hypothesis Trust Inference via Neural-Symbolic Cross-Validation",
+      "url": "https://huggingface.co/papers/2610.14530",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "summary": "Multi-robot systems (MRS) offer significant advantages over single-robot platforms by enabling information sharing and …",
+      "score": 1
+    },
+    {
+      "id": "6064281f678e",
+      "title": "Scaling Verifiable Environments for Long-horizon Work Agents",
+      "url": "https://huggingface.co/papers/2610.04906",
       "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Multiplayer world models must generate independently controlled views with consistent representations of both players a…",
-      "score": 2
+      "summary": "Work agents operate over digital artifacts to execute professional knowledge-intensive work, requiring training environ…",
+      "score": 1
+    },
+    {
+      "id": "d09ca3ff4ae2",
+      "title": "Enabling Token-wise Importance Sampling in Off-Policy RLVR with Proximal KL Regularization",
+      "url": "https://huggingface.co/papers/2610.18738",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Off-policy data in reinforcement learning with verifiable rewards (RLVR) can arise from asynchronous generation, rollou…",
+      "score": 1
     },
     {
       "id": "38af85b734e2",
@@ -70,39 +70,39 @@
       "score": 1
     },
     {
-      "id": "9d8a8f35149d",
-      "title": "Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon Robotic Manipulation",
-      "url": "https://huggingface.co/papers/2610.18352",
+      "id": "7bafe4538147",
+      "title": "Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
+      "url": "https://huggingface.co/papers/2610.18497",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "A robot following a multi-step instruction needs to act on the right objects in the right order, even as the scene chan…",
-      "score": 1
+      "summary": "Tool-call judges evaluate argument values proposed by LLM agents. We find that they accept a correct value less often w…",
+      "score": 0
     },
     {
-      "id": "0af4ae5e427e",
-      "title": "Scaling Repeated-Data Pretraining: Batch Size, Regularization, and GPU-Time Tradeoffs",
-      "url": "https://huggingface.co/papers/2610.15965",
-      "publishedAt": "2026-10-11T00:00:00.000Z",
-      "summary": "We study pretraining when compute is abundant but unique training data are finite, requiring repeated training on the s…",
-      "score": 1
-    },
-    {
-      "id": "391c77e25985",
-      "title": "Learning Transferable World-Action Models from Task-Paired Human Videos",
-      "url": "https://huggingface.co/papers/2610.14351",
+      "id": "1684cdc0fc7c",
+      "title": "Privacy-Preserving Intent Fulfilment and Assurance for 6G RAN",
+      "url": "https://huggingface.co/papers/2607.08809",
       "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "World-action models inherit broad visual and physical priors from video pre-training. However, standard within-video ne…",
-      "score": 1
+      "summary": "Intent-based network management automates 6G service lifecycles, but existing fulfilment and assurance approaches requi…",
+      "score": 0
     },
     {
-      "id": "467dfd480764",
-      "title": "MixLID: Token-Level Language Identification in Mixed-Language Text",
-      "url": "https://huggingface.co/papers/2610.16601",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Processing multilingual text requires both identifying a broad range of languages and distinguishing the language of ea…",
-      "score": 1
+      "id": "6702b6ff5ff7",
+      "title": "Image Tokenizers Should Be Trained Between Images",
+      "url": "https://huggingface.co/papers/2610.16759",
+      "publishedAt": "2026-10-12T13:23:25.000Z",
+      "summary": "Latent diffusion models generate images as codes of an image tokenizer, whose decoder turns them into the pixel image. …",
+      "score": 0
+    },
+    {
+      "id": "c790d382e1f4",
+      "title": "Words to World: Benchmarking LLMs in Interactive Physical Environments",
+      "url": "https://huggingface.co/papers/2610.15228",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "summary": "Words are increasingly becoming an interface for action: large language models (LLMs) can now invoke tools, operate dev…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-14T15:19:50.048Z",
+  "fetchedAt": "2026-10-14T19:33:52.946Z",
   "stale": false,
   "error": null
 }
