@@ -2,6 +2,24 @@
   "handle": "hillbig",
   "tweets": [
     {
+      "id": "2110492944780439737",
+      "url": "https://x.com/hillbig/status/2110492944780439737",
+      "text": "Multi-Stream Attention Residuals arxiv.org/abs/2610.13630",
+      "publishedAt": "2026-10-14T22:08:23.000Z",
+      "authorHandle": "hillbig",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2110492792724344853",
+      "url": "https://x.com/hillbig/status/2110492792724344853",
+      "text": "MSAR（Multi-Stream Attention Residuals）は、Transformerの残差接続を改良し、過去の層の情報を複数の異なる視点から選択的に取り出す手法である。特に、従来のAttnResをマルチヘッド化し、異なる局所文脈に基づいて過去の情報を読み出すことで、同じ学習損失に到達するための計算量を、通常の残差接続と比べて約37%削減できると報告している。\n\n通常のTransformerでは、各層の出力を残差接続によって足し合わせる。\n\nh_{l+1} = h_l + f_l(h_l)\n\nここで、h_lは第lサブレイヤーへの入力、f_lはAttentionまたはMLPによる変換である。\n\n各サブレイヤーが新しく計算した出力をv_l = f_l(h_l)とすると、この式は\n\nh_l = h_1 + Σ_{i=1}^{l-1} v_i\n\nと表せる。つまり、通常のTransformerでは、過去のすべてのサブレイヤーの出力を係数1で加算している。\n\nこの仕組みは勾配を安定して伝え、各層が既存の表現を徐々に更新する形で計算を分担できる一方、初期の層で生成された情報を後続の層が選択的に取り出すことは難しい。\n\nこの問題に対して、HC、mHC、AttnResなど、残差接続を改良する研究が進んでいる。\n\n特にAttnResでは、\n\nh_l = Σ_{i=0}^{l-1} α_{i,l} v_i\n\nとし、過去の各層の出力に対する読み出し重みα_{i,l}をAttentionによって決める。ここでv_0はEmbeddingであり、v_iは先程と同様に各層の計算結果である。\n\nこのAttentionでは、各層に学習可能なQueryを用意し、過去の各層の出力をKeyとValueとして利用する。通常のSelf-Attentionが系列方向に情報を選択的に取り出すのに対し、AttnResは深さ方向に情報を選択的に取り出す。\n\nMSARは、このAttnResをマルチヘッド化する。通常のMulti-Head Attentionでは、特徴ベクトルを複数のHeadに分割し、それぞれ独立したAttentionを計算する。\nしかし、Depth Attentionでは、各層の出力を単純に特徴次元方向に分割すると、性能が悪化することが先行研究で報告されている。\n\nそこでMSARでは、系列方向のCausal Depthwise Convolutionを利用し、異なる局所文脈を取り込んだ複数の表現を生成する。\n\n標準構成では4つのStreamを使用する。\n・Stream 0：元の表現をそのまま使用\n・Stream 1~3：直近4, 8, 12トークンに対するCausal Depthwise Convolution\n\n各チャネルで独立した畳み込みを行うため、追加パラメータ数とFLOPsを小さく抑えられる。\n\nこうして得られた4つのStreamは、いずれも元のHidden Dimensionと同じ次元数を持ち、それぞれに独立したDepth Attentionを適用する。\n最後に、得られた4つの表現を適応的な重みで統合する。この重みは、4つのStreamの出力を連結したベクトルにRMSNorm、線形写像、Sigmoidを適用し、4つのスカラーゲートを計算することで得られる。\n\nまた、全サブレイヤーの出力を個別にAttentionの参照対象とすると、必要なメモリ容量やPipeline Parallelの通信量が増大する。\nそこで、大規模実験ではBlock MSARを採用する。これはTransformer全体を約8ブロックに分割し、各ブロックに含まれるサブレイヤーの出力を加算した一つの状態を保持して、これをAttentionの参照対象とする。\n\nまた、4つのStreamを常時保持するのではなく、保存した単一の状態から必要なときだけStreamを生成することで、メモリ使用量と通信量を抑えている。\n\n実験では18B-A1.7Bと28B-A2.7BのMoEモデルを用いて評価を行い、学習損失の改善に加えて、下流タスクでも大きな性能改善が得られた。\n\n28B-A2.7Bモデルでは、MSARの追加学習FLOPsは約0.5%である一方、12種類のベンチマークすべてで通常の残差接続、mHC、AttnResを上回った。\n\nさらにScaling Lawの分析では、同じ学習損失に到達するための計算効率が通常の残差接続に対して1.58倍となり、mHCの1.30倍、AttnResの1.35倍を上回った。ただし、これは実際の学習速度ではなく、学習損失と計算量の関係から推定した値である。\n\nAblationでは、単にDepth AttentionのHead数を増やすだけでは不十分であり、各Headに異なる局所文脈を反映した表現を与えることが重要であると示唆されている。\n\nまた、2 Streamでも4 Stream構成の改善の大部分が得られており、ブロック化による性能低下も小さい。\n\nコメント\n===\nTransformerの残差接続の改良については、近年さまざまな手法が提案されている。\n\n今回の論文ではMulti-Head Depth Attentionの有効性が主張されているが、単純にCausal Convolutionを導入した効果ではないかという点は、十分にAblationされていないため、追加検証が必要だと思う。\n\n実際、他の研究でもCausal ConvolutionがInduction Headに相当する振る舞いの獲得を容易にする可能性が指摘されている。また、MambaなどのSSM系アーキテクチャでもCausal Convolutionが利用されており、局所的な情報混合が学習を容易にするうえで重要な役割を持つ可能性がある。\n\nもちろん、Causal Convolution自体に効果があり、さらにMulti-Head Depth Attentionと組み合わせることで追加の改善が得られる可能性も十分にある。切り分けのためには、Single-HeadのAttnResにCausal Convolutionだけを追加した構成との比較が必要だろう。\n\n今回のように、Attentionを適用する対象をどこまで拡張できるかが今後注目される。\n\n通常のSelf-Attentionでは、同じ層の過去のトークンを参照する。一方、AttnResやMSARでは、同じトークン位置における過去の層の出力を参照する。さらにMSARでは、Causal Convolutionによって、過去のトークン位置にある下位層の表現も間接的に利用している。\n\nこれを一般化すると、系列方向と深さ方向を合わせた二次元の計算履歴の中から、必要な中間表現を選択的に取り出すという方向性が考えられる。\n\n例えば、現在の層から過去のトークン位置にある上位層、特に最終層の表現を参照する構成も考えられる。こうした過去時刻の上位層の表現を再利用する場合は、入力からの計算ステップ数を増やせる（しかし学習時に全時刻を並列で学習できなくなるという大きな問題がある）\n\n一方、計算、メモリ、並列計算の容易性から、中間表現をすべて保存することは現実的ではないため、過去の情報のうち何を捨て、何を集約し、何を将来の参照のために選択的に残すべきかという問題も、今後の重要な研究テーマになると思う。",
+      "publishedAt": "2026-10-14T22:07:47.000Z",
+      "authorHandle": "hillbig",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2109780138162594093",
       "url": "https://x.com/hillbig/status/2109780138162594093",
       "text": "Shared Geometry As A Rosetta Stone: Cross-Modal Alignment Without Paired Data arxiv.org/abs/2610.09411",
@@ -72,27 +90,9 @@
       "authorHandle": "hillbig",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2108538848330543225",
-      "url": "https://x.com/hillbig/status/2108538848330543225",
-      "text": "先日開催したMatlantis User Conference 2026の開催レポートを公開しました。ぜひご覧ください！",
-      "publishedAt": "2026-10-09T12:43:30.000Z",
-      "authorHandle": "hillbig",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2107966634854129677",
-      "url": "https://x.com/hillbig/status/2107966634854129677",
-      "text": "MLPs are Hebbians: Constructing Efficient Fact-Storing MLPs for Transformers arxiv.org/abs/2607.10034",
-      "publishedAt": "2026-10-07T22:49:44.000Z",
-      "authorHandle": "hillbig",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-14T19:34:11.935Z",
+  "fetchedAt": "2026-10-14T22:38:10.899Z",
   "stale": false,
   "error": null
 }

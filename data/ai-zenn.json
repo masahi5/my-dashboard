@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3b40b339b002",
-      "title": "AI エージェントの「不寝番」アプリを作ったら、テスト全通過のまま実機で 3 回やらかした話",
-      "url": "https://zenn.dev/s3onghyun/articles/1ec9856f1fb32e",
-      "publishedAt": "2026-10-14T08:03:09.000Z",
-      "publisher": "s3onghyun",
-      "summary": "! AI エージェントが作業している間だけ Mac をスリープさせないメニューバーアプリを Claude Code と一緒に作りました。テスト 70 個はすべてグリーンだったのに、実機に配属した途端、見張り番の二等兵が 3 回やらかしまし…"
+      "id": "1b685108e22c",
+      "title": "パランティアの競争優位をFDEとオントロジーから考える",
+      "url": "https://zenn.dev/itdo/articles/8ba5668fb15f8d",
+      "publishedAt": "2026-10-14T18:50:08.000Z",
+      "publisher": "太田和彦",
+      "summary": "顧客の難しい問題を解決できても、次の顧客では同じ調査と実装をやり直す。反対に、共通製品を作り込んでも、顧客の業務に合わず使われない。個別対応と製品化の間には、この二つの難しさがある。 Palantir（パランティア）の事業モデルは、その間…"
     },
     {
-      "id": "887376f08c38",
-      "title": "ChatGPTに確定申告の準備を手伝ってもらう",
-      "url": "https://zenn.dev/uttnaoki/articles/4d33acc58ced53",
-      "publishedAt": "2026-10-14T08:01:55.000Z",
-      "publisher": "naoki kinoshita",
-      "summary": "そろそろ確定申告の準備を進めたい まだ少し早いですが、来年の確定申告に向けて、 やるべきことの洗い出しや帳簿の記帳を進めておきたいと思っています。 私はfreeeで帳簿をつけています。 今回はChatGPTにブラウザ上のfreeeを操作し…"
+      "id": "af2b1615e31f",
+      "title": "ソフトウェア開発でAI中継APIを評価する4つの観点",
+      "url": "https://zenn.dev/searching/articles/85d6a467f9d46e",
+      "publishedAt": "2026-10-14T18:34:22.000Z",
+      "publisher": "searching",
+      "summary": "本記事は Folkbench ブログの記事を翻訳・再構成したものです。 原文（Folkbench ブログ）： https://folkbench.com/en/blog/ai-api-relay-software-engineering-…"
     },
     {
-      "id": "94f94c5981f9",
-      "title": "状態遷移の違和感はボタンを押して見つける: Matt Pocockのprototypeスキル「ロジック分岐」を読む",
-      "url": "https://zenn.dev/skillselion/articles/6ad17e6a32b62f",
-      "publishedAt": "2026-10-14T08:01:27.000Z",
-      "publisher": "Skillselion",
-      "summary": "mattpocock/skillsのprototypeスキルは、問いが「このロジックや状態モデルで合っているか」のとき、HTMLファイルを1つだけ作ります。中身は、いつでも押せるボタン(フリープレイ)と、タブで切り替えるシナリオ(ガイド付…"
+      "id": "ba064991bab2",
+      "title": "AIエージェントは善意で事故を起こす ― 実行の直前で止める「安全フック」を作った",
+      "url": "https://zenn.dev/shacikku3/articles/ai-agent-safety-hook",
+      "publishedAt": "2026-10-14T16:55:35.000Z",
+      "publisher": "シャチラボ",
+      "summary": "はじめに：AIエージェントは「良かれと思って」やる AIエージェント（Cline、Claude Code、Cursor など）に作業を頼むと、ファイルを書き換え、コマンドを実行し、Webを調べてくれます。とても便利ですが、現場で怖いのは悪…"
     },
     {
-      "id": "f8fbdccd5372",
-      "title": "中学生でもわかる Lean 4 #22｜間違えることと負けることを分ける",
-      "url": "https://zenn.dev/dantarg/articles/lean4-error-not-defeat",
-      "publishedAt": "2026-10-14T07:13:01.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "Leanで証明を試したら、画面に赤いエラーが出た。 そんな場面を考えてみます。 その瞬間に、 負けた。 と考える必要はありません。 エラーが出たとき、まず必要なのはどこを調べればよいかを確かめることです。 今回は、小さな証明をわざと途中で…"
+      "id": "a21d638c659a",
+      "title": "AIエージェントと共有する「外脳」の2026年9月アップデート——ManusからGrokBotへ",
+      "url": "https://zenn.dev/enochan/articles/exocortex-grokbot-update-2026-09",
+      "publishedAt": "2026-10-14T16:13:43.000Z",
+      "publisher": "enochan",
+      "summary": "はじめに：構成は残し、実行基盤を差し替えた 前回（2026年8月）は、Markdown + Git の 外脳（exocortex） と、Manus 上の思考パートナー「マナ」を制御する Harness（主エージェントの制御層）を書きました…"
     },
     {
-      "id": "d2d017f70f82",
-      "title": "Claude Codeで「書く役」と「判定する役」を分ける ── 文章の門番エージェントの作り方",
-      "url": "https://zenn.dev/tooru_cp/articles/eb34b52d2bb427",
-      "publishedAt": "2026-10-14T07:12:58.000Z",
-      "publisher": "とおる",
-      "summary": "AIに販売ページを書かせると、整った文章が出てきます。ただ、整っていることと、中身が正しいことは別です。 AIは、決まっていないことを、それっぽい言葉で埋めます。誰に売るのか、何を約束するのか、その証拠は何か。そこが空いたままでも、文章と…"
+      "id": "003e68332b8c",
+      "title": "Rule Branchで、開発ルールの見直し・承認・AIへの配布をつなぐ",
+      "url": "https://zenn.dev/yun_bow/articles/ae32f2e8c74820",
+      "publishedAt": "2026-10-14T15:23:34.000Z",
+      "publisher": "ゆんぼう",
+      "summary": "はじめに 「ライブラリは更新した。コードも直した。でも、AIが読む開発規約には、古い書き方が残っている」 AIコーディング支援ツールにルールを渡すため、AGENTS.mdやCLAUDE.mdを用意する。その時点では役立っていても、依存関係…"
     },
     {
-      "id": "48d4cbe62954",
-      "title": "AIアバター動画を比較するとき、条件をそろえるためのテスト記録の作り方",
-      "url": "https://zenn.dev/ainewscenter/articles/4cf0ee6475a7c8",
-      "publishedAt": "2026-10-14T07:08:13.000Z",
-      "publisher": "CarolLuo",
-      "summary": "要点: 写真から話すアバターを作るツールは、同じ「AIアバター」という名前でも入力、音声、出力の仕組みが異なります。比較するときは、製品の宣伝文句を並べるより、テスト素材・設定・観察項目を揃えた記録を残すと、どこまで分かったかを説明しやす…"
+      "id": "46bce8b6e2eb",
+      "title": "30秒・音声付きの動画生成で使うプロンプト設計チェックリスト（Seedance 2.5 を例に）",
+      "url": "https://zenn.dev/emmawu_seedance/articles/73e458c4bf5152",
+      "publishedAt": "2026-10-14T15:16:01.000Z",
+      "publisher": "Emma Wu",
+      "summary": "! 筆者は Seedance TV（Seedance 系モデルなどを使える独立した動画生成サービス）の運営に関わっています。Seedance TV は ByteDance の公式サービスではありません。本記事の仕様は Seedance T…"
     },
     {
-      "id": "894cdc76d07c",
-      "title": "AIエージェントのチーム設計は「どこで判断するか」で決める。Claude Code / Codexのマルチエージェント構成",
-      "url": "https://zenn.dev/minewo/articles/ai-agent-team-topology-judgment-escalation",
-      "publishedAt": "2026-10-14T06:30:31.000Z",
-      "publisher": "mine_take",
-      "summary": "! CodexやClaude Codeで複数のAgent・Modelを使い始めた人向けの記事です。 この記事では「どのモデルが最強か」ではなく、モデルが入れ替わっても残るAI開発チームの責務境界を考えます。Provider別のModel/…"
+      "id": "6c118875f284",
+      "title": "Jevで飲食店の売上低下の原因を診断して、ローカルLLMと比べてみた",
+      "url": "https://zenn.dev/tnakano/articles/1ad0feaf0ab904",
+      "publishedAt": "2026-10-14T14:48:28.000Z",
+      "publisher": "nj🦔",
+      "summary": "概要 TypeSafe AIの意思決定モデル「Jev」を触ってみました。 LLMの出力精度をどう上げるかを勉強していて、最近話題のJevが気になったのがきっかけです。題材は「飲食店の売上が下がった原因を特定する」にして、Jevに段階的に問…"
     },
     {
-      "id": "752190168929",
-      "title": "「中学1年生がAIでAI不使用アプリを作っている話（開発途中）」と「AIのリスク」",
-      "url": "https://zenn.dev/yumamon/articles/2ba96c34488d85",
-      "publishedAt": "2026-10-14T06:29:38.000Z",
-      "publisher": "ゆうま",
-      "summary": "・あえて「AIを一切使わない」という選択 いま世の中はChatGPTやGeminiを使ったAIアプリであふれています。僕も最初はそういうアプリを考えていました。 でも、大人のエンジニアやビジネスの現場を調べていくうちに、ある大きな課題に気…"
+      "id": "f95c46a7591b",
+      "title": "AIの自動化は音もなく止まる──通知は25回出ていたのに、11日間だれも気づかなかった",
+      "url": "https://zenn.dev/kimshoshi/articles/ai-automation-dies-silently",
+      "publishedAt": "2026-10-14T14:48:21.000Z",
+      "publisher": "KIM SEONGSU｜令和8年度 行政書士受験生",
+      "summary": "情報サイトの運営で、AI の定期ジョブをいくつも動かしています。毎日の調査、毎週の記事企画、アクセス解析の取り込みなどです。 この記事は、それらが止まっていたのに気づかなかった話を4つと、そこから決めたことのまとめです。どれも、エラーで派…"
     },
     {
-      "id": "e93c75779977",
-      "title": "AIは予言装置ではない。過去の言葉をまねた道具、使い方を間違ってはいけない。",
-      "url": "https://zenn.dev/maskedridersys/articles/c6fc861b90e333",
-      "publishedAt": "2026-10-14T06:25:22.000Z",
-      "publisher": "maskedridersystem",
-      "summary": "自身のためのAIとは 生涯現役プログラマを目指す私にとってAIとは何か？一言で話すと、良きアドバイザー、プログラマです。 やりたかった帳票システムの開発「ACR」はほとんどAIとの共同作業です。そして、開発作業を行うほど幅も広がり、便利に…"
+      "id": "c0169f23f217",
+      "title": "Veoプレビュー終了に備える：モデルIDと生成結果の移行チェック",
+      "url": "https://zenn.dev/fablessbridge/articles/69d3ab6b3fd0ed",
+      "publishedAt": "2026-10-14T14:35:00.000Z",
+      "publisher": "FablessBridge",
+      "summary": "アプリが使うモデル名をVeoとだけ記録していると、廃止対象かの切り分けができません。2026年10月14日の公式案内と各2本の試作から、API経路、モデルID、出力音声、見積もりを移行前に確認する手順をまとめます。 2026年10月22日…"
     },
     {
-      "id": "108d229451b0",
-      "title": "AIエージェントサービスの購入フローを考える：人の承認をどこに置くか",
-      "url": "https://zenn.dev/rina_chan3/articles/f58b8d9c3f2f91",
-      "publishedAt": "2026-10-14T06:19:35.000Z",
-      "publisher": "Rina",
-      "summary": "商品候補に「これでいい」と返したあと、送料の異なる販売店で注文が確定したとします。これは仮の例ですが、商品への同意と注文への承認を一つにすると起こり得る問題です。AIエージェントサービスの購入フローでは、何を承認したのかを状態として残し、…"
+      "id": "3144e0bfa3ee",
+      "title": "非同期動画生成APIの実行記録：見積もり・受付・完了を分ける",
+      "url": "https://zenn.dev/fablessbridge/articles/3f905279edbf67",
+      "publishedAt": "2026-10-14T14:34:09.000Z",
+      "publisher": "FablessBridge",
+      "summary": "API呼び出しの実装で大切だったのは、動画生成の成功だけでなく、予算の判定、受付の控え、完了待ちを別々に保存することでした。この記事ではHiggsfield経由でSeedance 2.5を3回実行した記録を使い、再送で二重に生成しない設計…"
     },
     {
-      "id": "b80b83415a8d",
-      "title": "Vibe Codingで作っている、ポケモンの小さな町の開発記録",
-      "url": "https://zenn.dev/kkiiki/articles/65afe5595980c3",
-      "publishedAt": "2026-10-14T06:13:42.000Z",
-      "publisher": "Kkkk_ii",
-      "summary": "最近、Vibe Codingを使いながら、AIで動くポケモンたちが暮らす小さなブラウザゲームを作っています。自分ではけっこう楽しく遊べているので、ここまでの開発を少し振り返ってみます。 インディーゲーム開発者と名乗れるほどではありませんが…"
+      "id": "b5bbde3cf941",
+      "title": "「日本語で答えて」と設定しても英語が混ざる。AIの返答をフックでチェックする",
+      "url": "https://zenn.dev/twinharness/articles/japanese-only-ai-hook-in-practice",
+      "publishedAt": "2026-10-14T14:31:14.000Z",
+      "publisher": "twinharness",
+      "summary": "AI に「日本語で答えて」と設定しているのに、質問の選択肢や操作の説明だけ英語で出てくる。そんな経験はないでしょうか。表示される文を日本語にそろえたいなら、最後の返答だけを見ていても足りません。 私の環境でも、日本語の設定とルールを入れて…"
     },
     {
-      "id": "d2d32794dece",
-      "title": "AIエージェントとは？買い物ボットとの違いを操作権限から整理する",
-      "url": "https://zenn.dev/kuromame_kun/articles/4fefaa08c9a7f5",
-      "publishedAt": "2026-10-14T06:12:30.000Z",
-      "publisher": "黒豆（Kuromame）",
-      "summary": "「予算内の商品を探して」と頼んだとき、候補を返すだけなのか、カートを作るところまで進むのか。同じ会話画面でも、システムに渡している権限は違います。AIエージェントを理解するには、次の行動を決める仕組みと、実際に許された操作を分けて見ると整…"
+      "id": "d308c7647649",
+      "title": "Tech Watch 2026-10-14: ローカル実行と制約",
+      "url": "https://zenn.dev/laiken/articles/20261014-tech-watch",
+      "publishedAt": "2026-10-14T14:20:41.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: エージェントが規約を読んだのに、同じ規約を破る。人間なら「説明が足りなかった」と考えたくなるけれど、私は説明を増やすほど解決から遠ざかる場合…"
     }
   ],
-  "fetchedAt": "2026-10-14T19:33:53.154Z",
+  "fetchedAt": "2026-10-14T22:38:00.925Z",
   "stale": false,
   "error": null
 }
