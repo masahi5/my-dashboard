@@ -2,6 +2,15 @@
   "handle": "AnthropicAI",
   "tweets": [
     {
+      "id": "2110047081414987957",
+      "url": "https://x.com/AnthropicAI/status/2110047081414987957",
+      "text": "New on our Engineering blog: Creating in-house source control.\n\nIn May, we merged around 2,500 code changes per day. In September, we merged more than 30,000 per day. As a result, we became bottlenecked by developer infrastructure built for human (rather than agent) scale.\n\nHere, we share how we built a new version control system—and fully migrated our monorepo from git—in five months: anthropic.com/engineering/re…",
+      "publishedAt": "2026-10-13T16:36:41.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2109795898909950247",
       "url": "https://x.com/AnthropicAI/status/2109795898909950247",
       "text": "Over the last few months, we’ve made significant progress in reducing the effectiveness of distillation attacks against Claude.\n\nIn this post, we explain how: anthropic.com/research/disti…",
@@ -81,18 +90,9 @@
       "authorHandle": "AnthropicAI",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2105733864152858919",
-      "url": "https://x.com/AnthropicAI/status/2105733864152858919",
-      "text": "In physics, an “impedance mismatch” occurs when two systems each work well but are poorly matched.\n\nIn this Science Blog guest post, Harvard physicist Matthew Schwartz argues that something similar is happening with AI and science. LLMs are capable at many things, but working with them as you would with a human collaborator isn’t currently the best way to elicit their scientific strengths.\n\nTo address this mismatch, Schwartz created a toolkit for exact calculations in quantitative science. Because similar calculations often emerge in very different areas of science, Claude found connections to ecology, population genetics, and a dozen other fields, and Schwartz worked with domain experts to steer it towards interesting questions.\n\nRead more about these projects here: anthropic.com/research/claud…",
-      "publishedAt": "2026-10-01T18:57:30.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-13T01:32:13.952Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: RSS ではない応答（インスタンスが不調） / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-14T00:28:07.963Z",
+  "stale": false,
+  "error": null
 }

@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "508f36869542",
-      "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
-      "url": "https://huggingface.co/papers/2610.13361",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to …",
-      "score": 201
-    },
-    {
-      "id": "99a07d6f452c",
-      "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
-      "url": "https://huggingface.co/papers/2610.09326",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to…",
-      "score": 76
+      "id": "86f824c64493",
+      "title": "PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2609.36642",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Language-model agents are usually trained by reinforcement learning from one reward per episode, and privileged self-di…",
+      "score": 24
     },
     {
       "id": "54ba7155687a",
@@ -28,14 +20,6 @@
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "summary": "Historical street-view imagery records urban evolution, but uneven coverage leaves substantial gaps in historical recor…",
       "score": 20
-    },
-    {
-      "id": "388318236678",
-      "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
-      "url": "https://huggingface.co/papers/2610.12933",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Large language models have achieved remarkable advances in complex reasoning. However, scaling reasoning post-training …",
-      "score": 7
     },
     {
       "id": "e864e7cbb911",
@@ -52,6 +36,14 @@
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "summary": "Large Language Models (LLMs) have been used for novel discovery of algorithms, theorems, drugs, and other tasks through…",
       "score": 4
+    },
+    {
+      "id": "a148348b80a0",
+      "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+      "url": "https://huggingface.co/papers/2610.12417",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "summary": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothes…",
+      "score": 3
     },
     {
       "id": "39f9e2551f54",
@@ -86,6 +78,14 @@
       "score": 2
     },
     {
+      "id": "cbfab6211d1a",
+      "title": "Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment",
+      "url": "https://huggingface.co/papers/2609.35291",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Modern AI models are aligned through post-training to adapt them to downstream tasks. Recent work shows that fine-tunin…",
+      "score": 1
+    },
+    {
       "id": "a65ec3b71548",
       "title": "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
       "url": "https://huggingface.co/papers/2610.12099",
@@ -94,15 +94,15 @@
       "score": 1
     },
     {
-      "id": "d9145c051079",
-      "title": "SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code",
-      "url": "https://huggingface.co/papers/2610.09116",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "The rapid growth of 3D Gaussian Splatting (3DGS) research demands significant effort to reimplement papers before build…",
-      "score": 1
+      "id": "5beb2405b8ad",
+      "title": "HyperThink: Text-to-Parameter Hypernetworks for Efficient Reasoning",
+      "url": "https://huggingface.co/papers/2610.03039",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "summary": "Long-form thinking traces can substantially improve the multi-step reasoning performance of large language models (LLMs…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-13T21:23:59.390Z",
+  "fetchedAt": "2026-10-14T00:27:31.011Z",
   "stale": false,
   "error": null
 }
