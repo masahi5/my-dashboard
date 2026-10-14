@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "e9784aee5187",
-      "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
-      "url": "https://huggingface.co/papers/2610.18872",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object in…",
-      "score": 8
+      "id": "7eb5ca3a3453",
+      "title": "EviScene: Beyond \"Is It AI?\" for Agentic Image Factuality Assessment",
+      "url": "https://huggingface.co/papers/2610.14609",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "summary": "Determining whether an image is AI-generated does not establish whether the situation it depicts is factually supported…",
+      "score": 37
     },
     {
-      "id": "2d95ade1f55e",
-      "title": "ExeWorldBench: Benchmarking Code-Based Executable 3D World Modeling",
-      "url": "https://huggingface.co/papers/2610.15166",
+      "id": "f32504d2bde1",
+      "title": "Self-Distillation with Verbal Regularization",
+      "url": "https://huggingface.co/papers/2610.16354",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "On-policy self-distillation (OPSD) trains a large language model using supervision from a teacher instantiated from the…",
+      "score": 18
+    },
+    {
+      "id": "993e82219b0c",
+      "title": "FlashVSR+: Efficient Video Super-Resolution via Hybrid Attention and Reward-Yield Distribution Matching",
+      "url": "https://huggingface.co/papers/2610.17552",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Recent video super-resolution (VSR) models achieve efficient one-step generation through diffusion distillation. Howeve…",
+      "score": 14
+    },
+    {
+      "id": "a0f0c1ed81ee",
+      "title": "LightVAE: Towards Compact and Efficient Video Autoencoders",
+      "url": "https://huggingface.co/papers/2610.14726",
       "publishedAt": "2026-10-10T00:00:00.000Z",
-      "summary": "Coding agents are increasingly evolving beyond reproducing what a world looks like toward constructing executable world…",
+      "summary": "Latent diffusion models enable high-quality video generation, but video VAE encoding and decoding remain computationall…",
+      "score": 10
+    },
+    {
+      "id": "4594b2e70361",
+      "title": "Latent World Action Model for GUI Agents",
+      "url": "https://huggingface.co/papers/2610.14228",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "summary": "Pixel-space world models have recently emerged as a promising approach for GUI agents, predicting future screens prior …",
       "score": 6
     },
     {
-      "id": "913193711308",
-      "title": "Rubrics from the Task, Verdicts from Evidence: Pointwise Rubric Rewards with Tool-Augmented Judges",
-      "url": "https://huggingface.co/papers/2610.18766",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Rubric-based reward models (RMs) evaluate responses against explicit criteria. However, existing methods often derive c…",
-      "score": 4
+      "id": "cdae415fef23",
+      "title": "LongR: Unleashing Long-Context Reasoning via Reinforcement Learning with Dense Utility Rewards",
+      "url": "https://huggingface.co/papers/2602.05758",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Reinforcement Learning (RL) has emerged as a key driver for LLM reasoning. This capability is equally pivotal in long-c…",
+      "score": 5
     },
     {
-      "id": "a26fdaa17b94",
-      "title": "A Decade in a Day: Synthesizing Agent-Native Interfaces from Human-Oriented Software Evolution",
-      "url": "https://huggingface.co/papers/2610.15765",
-      "publishedAt": "2026-10-11T00:00:00.000Z",
-      "summary": "Large language model agents are emerging as an important new class of users of desktop applications. However, existing …",
+      "id": "e47517883c5c",
+      "title": "LifeSearch: Benchmarking Deep Research Agents for Real-World Life and Productivity",
+      "url": "https://huggingface.co/papers/2610.18092",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Deep research (DR) agents address open-ended information needs through multi-step reasoning, long-horizon web search, a…",
+      "score": 5
+    },
+    {
+      "id": "eb1897c84abf",
+      "title": "SWE-MISBEHAVIOR: Benchmarking and Mitigating Boundary Violations in Software Coding Agents",
+      "url": "https://huggingface.co/papers/2610.18206",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "We present SWE-MISBEHAVIOR, the first taxonomy and evaluation framework for diagnosing boundary-violating misbehaviors …",
       "score": 3
     },
     {
-      "id": "cf64a34b70fe",
-      "title": "AReA: Adaptive Receptive-Field Attention for Efficient High-Resolution Diffusion Transformers",
-      "url": "https://huggingface.co/papers/2610.17227",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Generating images beyond the training resolution of Diffusion Transformers (DiTs) remains challenging, as the number of…",
-      "score": 3
-    },
-    {
-      "id": "39fb3ce4faf6",
-      "title": "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
-      "url": "https://huggingface.co/papers/2610.16811",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Chest X-ray (CXR) interpretation often requires integrating visual findings with task-specific evidence rather than rel…",
-      "score": 2
-    },
-    {
-      "id": "d785a46f1115",
-      "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
-      "url": "https://huggingface.co/papers/2610.18860",
+      "id": "12a803c6948b",
+      "title": "GreenWAM: A World Foundation Model for Robotics",
+      "url": "https://huggingface.co/papers/2610.18774",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the o…",
+      "summary": "A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions…",
       "score": 1
     },
     {
-      "id": "848a172caa12",
-      "title": "VideoJev: System One Model for Video Understanding and Interaction",
-      "url": "https://huggingface.co/papers/2610.18615",
+      "id": "59fa456f0a66",
+      "title": "SHELDON: Reasoning through Dual Search over Hypothesis and Observation Spaces",
+      "url": "https://huggingface.co/papers/2610.18025",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building…",
+      "summary": "Test-time scaling has enabled LLMs to solve increasingly complex reasoning, discovery, and optimization tasks. However,…",
       "score": 1
     },
     {
-      "id": "9d556d67ef30",
-      "title": "Fish Audio Drama 3 Technical Report",
-      "url": "https://huggingface.co/papers/2610.18010",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "We introduce Fish Audio Drama 3, an open-source speech generation model that turns text into directed performances, bui…",
-      "score": 1
-    },
-    {
-      "id": "9f5f44706a52",
-      "title": "Probable but Not Valid: A Psychometric Audit of Decision Models as Synthetic Survey Respondents",
-      "url": "https://huggingface.co/papers/2610.14912",
-      "publishedAt": "2026-10-10T00:00:00.000Z",
-      "summary": "Language models are increasingly used to create synthetic survey samples, also called silicon samples. Decision models …",
-      "score": 1
-    },
-    {
-      "id": "c62ee0fcb23e",
-      "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
-      "url": "https://huggingface.co/papers/2610.17540",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Textual reasoning before acting has improved vision-language-action (VLA) models, but at the cost of latency: every act…",
+      "id": "368021bc136e",
+      "title": "Beyond Prompt Count: How Data Shapes Transfer in On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.37377",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) trains students using teacher feedback on their own sampled responses, yet how prompt choi…",
       "score": 0
     },
     {
-      "id": "297aa85b3ea5",
-      "title": "JevGPT: Thinking Fast and Slow in Autonomous Research",
-      "url": "https://huggingface.co/papers/2610.18272",
+      "id": "77e327e3c4b5",
+      "title": "4LC: 4D Latent Cache for Efficient Conditioning in Dynamic World Modeling",
+      "url": "https://huggingface.co/papers/2610.17625",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Autonomous research agents must acquire and reason over evidence within a limited budget. Yet relevant sources can rema…",
+      "summary": "For video generation in dynamic world modeling, observed static and dynamic content should be efficiently reused to pro…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-14T05:13:39.523Z",
+  "fetchedAt": "2026-10-14T10:16:03.952Z",
   "stale": false,
   "error": null
 }
