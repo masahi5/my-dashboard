@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "7eb5ca3a3453",
-      "title": "EviScene: Beyond \"Is It AI?\" for Agentic Image Factuality Assessment",
-      "url": "https://huggingface.co/papers/2610.14609",
+      "id": "547a5bc3dce6",
+      "title": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
+      "url": "https://huggingface.co/papers/2610.14766",
       "publishedAt": "2026-10-10T00:00:00.000Z",
-      "summary": "Determining whether an image is AI-generated does not establish whether the situation it depicts is factually supported…",
-      "score": 37
+      "summary": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear. We introduce t…",
+      "score": 12
     },
     {
-      "id": "f32504d2bde1",
-      "title": "Self-Distillation with Verbal Regularization",
-      "url": "https://huggingface.co/papers/2610.16354",
+      "id": "fddc7a620fb1",
+      "title": "AUGUstus: Autonomous Driving VLA Model with Unified Generation and Understanding",
+      "url": "https://huggingface.co/papers/2610.16985",
       "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "On-policy self-distillation (OPSD) trains a large language model using supervision from a teacher instantiated from the…",
-      "score": 18
-    },
-    {
-      "id": "993e82219b0c",
-      "title": "FlashVSR+: Efficient Video Super-Resolution via Hybrid Attention and Reward-Yield Distribution Matching",
-      "url": "https://huggingface.co/papers/2610.17552",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Recent video super-resolution (VSR) models achieve efficient one-step generation through diffusion distillation. Howeve…",
-      "score": 14
-    },
-    {
-      "id": "a0f0c1ed81ee",
-      "title": "LightVAE: Towards Compact and Efficient Video Autoencoders",
-      "url": "https://huggingface.co/papers/2610.14726",
-      "publishedAt": "2026-10-10T00:00:00.000Z",
-      "summary": "Latent diffusion models enable high-quality video generation, but video VAE encoding and decoding remain computationall…",
+      "summary": "Vision-language-action (VLA) models show strong potential for end-to-end autonomous driving by leveraging world knowled…",
       "score": 10
     },
     {
-      "id": "4594b2e70361",
-      "title": "Latent World Action Model for GUI Agents",
-      "url": "https://huggingface.co/papers/2610.14228",
+      "id": "87076023a893",
+      "title": "What Really Works for Universal Multimodal Embeddings? A Controlled Study of Contrastive Training Strategies",
+      "url": "https://huggingface.co/papers/2610.15035",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "summary": "Contrastive learning has become the standard paradigm for multimodal representation learning, aligning semantically mat…",
+      "score": 9
+    },
+    {
+      "id": "48eb94b38499",
+      "title": "Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability",
+      "url": "https://huggingface.co/papers/2610.14158",
       "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Pixel-space world models have recently emerged as a promising approach for GUI agents, predicting future screens prior …",
-      "score": 6
+      "summary": "Understanding and tracking a dynamic world are fundamental to visual intelligence. Existing video benchmarks provide li…",
+      "score": 7
     },
     {
-      "id": "cdae415fef23",
-      "title": "LongR: Unleashing Long-Context Reasoning via Reinforcement Learning with Dense Utility Rewards",
-      "url": "https://huggingface.co/papers/2602.05758",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Reinforcement Learning (RL) has emerged as a key driver for LLM reasoning. This capability is equally pivotal in long-c…",
-      "score": 5
-    },
-    {
-      "id": "e47517883c5c",
-      "title": "LifeSearch: Benchmarking Deep Research Agents for Real-World Life and Productivity",
-      "url": "https://huggingface.co/papers/2610.18092",
+      "id": "389f9bff32f3",
+      "title": "Reading Right, Acting Wrong: Diagnosing Decision Failures of System One Models in Agent Loops",
+      "url": "https://huggingface.co/papers/2610.18579",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Deep research (DR) agents address open-ended information needs through multi-step reasoning, long-horizon web search, a…",
-      "score": 5
-    },
-    {
-      "id": "eb1897c84abf",
-      "title": "SWE-MISBEHAVIOR: Benchmarking and Mitigating Boundary Violations in Software Coding Agents",
-      "url": "https://huggingface.co/papers/2610.18206",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "We present SWE-MISBEHAVIOR, the first taxonomy and evaluation framework for diagnosing boundary-violating misbehaviors …",
+      "summary": "System One models choose an agent's next action by scoring a supplied set of options in a single pass. This makes them …",
       "score": 3
     },
     {
-      "id": "12a803c6948b",
-      "title": "GreenWAM: A World Foundation Model for Robotics",
-      "url": "https://huggingface.co/papers/2610.18774",
+      "id": "aada677bbfd7",
+      "title": "Omni-Modal LLMs Know More Than They Say",
+      "url": "https://huggingface.co/papers/2610.16135",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Omni-modal large language models (Omni-LLMs) extend LLMs to process heterogeneous modalities (e.g., vision, audio, and …",
+      "score": 2
+    },
+    {
+      "id": "339f7ff1644d",
+      "title": "WorldCast: Distributed Multiplayer World Models",
+      "url": "https://huggingface.co/papers/2610.12412",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "summary": "Multiplayer world models must generate independently controlled views with consistent representations of both players a…",
+      "score": 2
+    },
+    {
+      "id": "38af85b734e2",
+      "title": "Can an Agent Learn to Predict Its Own Failure? Outcome-Grounded Confidence Calibration in LLM Agents",
+      "url": "https://huggingface.co/papers/2610.18614",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions…",
+      "summary": "Controlling an acting LLM agent means deciding, at each step of a long-horizon task, whether to trust its next action, …",
       "score": 1
     },
     {
-      "id": "59fa456f0a66",
-      "title": "SHELDON: Reasoning through Dual Search over Hypothesis and Observation Spaces",
-      "url": "https://huggingface.co/papers/2610.18025",
+      "id": "9d8a8f35149d",
+      "title": "Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2610.18352",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Test-time scaling has enabled LLMs to solve increasingly complex reasoning, discovery, and optimization tasks. However,…",
+      "summary": "A robot following a multi-step instruction needs to act on the right objects in the right order, even as the scene chan…",
       "score": 1
     },
     {
-      "id": "368021bc136e",
-      "title": "Beyond Prompt Count: How Data Shapes Transfer in On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.37377",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) trains students using teacher feedback on their own sampled responses, yet how prompt choi…",
-      "score": 0
+      "id": "0af4ae5e427e",
+      "title": "Scaling Repeated-Data Pretraining: Batch Size, Regularization, and GPU-Time Tradeoffs",
+      "url": "https://huggingface.co/papers/2610.15965",
+      "publishedAt": "2026-10-11T00:00:00.000Z",
+      "summary": "We study pretraining when compute is abundant but unique training data are finite, requiring repeated training on the s…",
+      "score": 1
     },
     {
-      "id": "77e327e3c4b5",
-      "title": "4LC: 4D Latent Cache for Efficient Conditioning in Dynamic World Modeling",
-      "url": "https://huggingface.co/papers/2610.17625",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "For video generation in dynamic world modeling, observed static and dynamic content should be efficiently reused to pro…",
-      "score": 0
+      "id": "391c77e25985",
+      "title": "Learning Transferable World-Action Models from Task-Paired Human Videos",
+      "url": "https://huggingface.co/papers/2610.14351",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "summary": "World-action models inherit broad visual and physical priors from video pre-training. However, standard within-video ne…",
+      "score": 1
+    },
+    {
+      "id": "467dfd480764",
+      "title": "MixLID: Token-Level Language Identification in Mixed-Language Text",
+      "url": "https://huggingface.co/papers/2610.16601",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Processing multilingual text requires both identifying a broad range of languages and distinguishing the language of ea…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-10-14T10:16:03.952Z",
+  "fetchedAt": "2026-10-14T15:19:50.048Z",
   "stale": false,
   "error": null
 }

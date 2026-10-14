@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "2eac9090935c",
-      "title": "AIが職業の「末路」を確率で出す診断サイトを、サーバー代0円で公開した設計",
-      "url": "https://zenn.dev/aicontentsbank/articles/matsuro-shindan-zero-server",
-      "publishedAt": "2026-10-14T10:00:06.000Z",
-      "publisher": "AI Contents Bank",
-      "summary": "AI Contents Bank を運営しているしゅーじです。職業などの質問に答えると、5 年後にたどる「末路」を AI が確率つきで出す診断サイト「末路診断」を作って公開しています。 https://matsuro.ai-content…"
+      "id": "f8fbdccd5372",
+      "title": "中学生でもわかる Lean 4 #22｜間違えることと負けることを分ける",
+      "url": "https://zenn.dev/dantarg/articles/lean4-error-not-defeat",
+      "publishedAt": "2026-10-14T07:13:01.000Z",
+      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+      "summary": "Leanで証明を試したら、画面に赤いエラーが出た。 そんな場面を考えてみます。 その瞬間に、 負けた。 と考える必要はありません。 エラーが出たとき、まず必要なのはどこを調べればよいかを確かめることです。 今回は、小さな証明をわざと途中で…"
     },
     {
-      "id": "2b705f1ca97a",
-      "title": "AIアンガーマネジメント！イライラはAIに吐き出してます(｀･ω･´)",
-      "url": "https://zenn.dev/toshi_1209/articles/a6cb94df7ae0ea",
-      "publishedAt": "2026-10-14T09:44:46.000Z",
-      "publisher": "toshi",
-      "summary": "⚠️専門家ではないので、あくまで自分のやり方の紹介です！(人´∀｀) こんにちは！ 今回は最近自分が実践している「AIアンガーマネジメント」について紹介しようと思います！ AIアンガーマネジメントとは イラッとしたことをAIに吐き出して、…"
+      "id": "d2d017f70f82",
+      "title": "Claude Codeで「書く役」と「判定する役」を分ける ── 文章の門番エージェントの作り方",
+      "url": "https://zenn.dev/tooru_cp/articles/eb34b52d2bb427",
+      "publishedAt": "2026-10-14T07:12:58.000Z",
+      "publisher": "とおる",
+      "summary": "AIに販売ページを書かせると、整った文章が出てきます。ただ、整っていることと、中身が正しいことは別です。 AIは、決まっていないことを、それっぽい言葉で埋めます。誰に売るのか、何を約束するのか、その証拠は何か。そこが空いたままでも、文章と…"
     },
     {
-      "id": "0ba94ca5a7fd",
-      "title": "AI時代、私たちは「理解」と「納得」を混同していないか",
-      "url": "https://zenn.dev/acntechjp/articles/621e99d56dcd75",
-      "publishedAt": "2026-10-14T09:44:37.000Z",
-      "publisher": "kaito.abe",
-      "summary": "! この記事の三行まとめ 生成AIの成果物を「理解したい」という欲求の背景には、リスクを減らすためだけでなく、理解しないまま責任を負う理不尽さを和らげ、納得して引き受けたいという心理があるのではないか。 理解できないことと、危険であること…"
+      "id": "48d4cbe62954",
+      "title": "AIアバター動画を比較するとき、条件をそろえるためのテスト記録の作り方",
+      "url": "https://zenn.dev/ainewscenter/articles/4cf0ee6475a7c8",
+      "publishedAt": "2026-10-14T07:08:13.000Z",
+      "publisher": "CarolLuo",
+      "summary": "要点: 写真から話すアバターを作るツールは、同じ「AIアバター」という名前でも入力、音声、出力の仕組みが異なります。比較するときは、製品の宣伝文句を並べるより、テスト素材・設定・観察項目を揃えた記録を残すと、どこまで分かったかを説明しやす…"
     },
     {
-      "id": "55b5ee5eabc6",
-      "title": "Claude Code の Projects（ベータ）を触ってみた感想",
-      "url": "https://zenn.dev/nossa/articles/ac57ee10ff0368",
-      "publishedAt": "2026-10-14T09:44:05.000Z",
-      "publisher": "のさ",
-      "summary": "Claude CodeにProjectsという機能がベータで追加されたので、個人で開発している Muntin（Mojoで書いている小さなWebフレームワークです）で少し試してみました。 2026年10月14日時点の、触り始めたばかりの段階…"
+      "id": "894cdc76d07c",
+      "title": "AIエージェントのチーム設計は「どこで判断するか」で決める。Claude Code / Codexのマルチエージェント構成",
+      "url": "https://zenn.dev/minewo/articles/ai-agent-team-topology-judgment-escalation",
+      "publishedAt": "2026-10-14T06:30:31.000Z",
+      "publisher": "mine_take",
+      "summary": "! CodexやClaude Codeで複数のAgent・Modelを使い始めた人向けの記事です。 この記事では「どのモデルが最強か」ではなく、モデルが入れ替わっても残るAI開発チームの責務境界を考えます。Provider別のModel/…"
     },
     {
-      "id": "9842af9d3d62",
-      "title": "AI動画生成の始め方：テキストと画像から動画を作る",
-      "url": "https://zenn.dev/everygenai/articles/49da0debc4b05c",
-      "publishedAt": "2026-10-14T09:43:00.000Z",
-      "publisher": "Everygen AI",
-      "summary": "AI動画生成は、文章（プロンプト）や1枚の画像から短い動画を作れる技術です。ここでは代表的な2つの方法「テキストから動画（text-to-video）」と「画像から動画（image-to-video）」の違いと、始めるときのコツを簡単に紹…"
+      "id": "752190168929",
+      "title": "「中学1年生がAIでAI不使用アプリを作っている話（開発途中）」と「AIのリスク」",
+      "url": "https://zenn.dev/yumamon/articles/2ba96c34488d85",
+      "publishedAt": "2026-10-14T06:29:38.000Z",
+      "publisher": "ゆうま",
+      "summary": "・あえて「AIを一切使わない」という選択 いま世の中はChatGPTやGeminiを使ったAIアプリであふれています。僕も最初はそういうアプリを考えていました。 でも、大人のエンジニアやビジネスの現場を調べていくうちに、ある大きな課題に気…"
     },
     {
-      "id": "9a762fa36c2d",
-      "title": "Claude Code は上限に達しても自動で再開する — ただし Mac が寝ていなければ",
-      "url": "https://zenn.dev/dawon/articles/59eb49a39062ef",
-      "publishedAt": "2026-10-14T09:16:06.000Z",
-      "publisher": "Dawon Lee",
-      "summary": "Claude のサブスクリプションで Claude Code（v2.1.234 以降）を使っていると、作業中に使用上限に達しても、セッションを開いたまま待ち、上限がリセットされると自動でタスクを再開してくれます。 Usage limit …"
+      "id": "e93c75779977",
+      "title": "AIは予言装置ではない。過去の言葉をまねた道具、使い方を間違ってはいけない。",
+      "url": "https://zenn.dev/maskedridersys/articles/c6fc861b90e333",
+      "publishedAt": "2026-10-14T06:25:22.000Z",
+      "publisher": "maskedridersystem",
+      "summary": "自身のためのAIとは 生涯現役プログラマを目指す私にとってAIとは何か？一言で話すと、良きアドバイザー、プログラマです。 やりたかった帳票システムの開発「ACR」はほとんどAIとの共同作業です。そして、開発作業を行うほど幅も広がり、便利に…"
     },
     {
-      "id": "d177d0a17908",
-      "title": "Geminiのスケジュール設定を使った技術情報の集め方",
-      "url": "https://zenn.dev/kentaro36/articles/gemini-spark-tech-research",
-      "publishedAt": "2026-10-14T09:08:40.000Z",
-      "publisher": "SeaOtter (Kentaro Mori)",
-      "summary": "AI、クラウド、セキュリティについて調べていると、論文や公式の更新情報、技術ブログなど、読みたいものが次々に出てきます。それぞれ知りたいことが違うので、一つの一覧にまとめるだけでは、どれを詳しく読むか選びにくいところがあります。 私はGe…"
+      "id": "108d229451b0",
+      "title": "AIエージェントサービスの購入フローを考える：人の承認をどこに置くか",
+      "url": "https://zenn.dev/rina_chan3/articles/f58b8d9c3f2f91",
+      "publishedAt": "2026-10-14T06:19:35.000Z",
+      "publisher": "Rina",
+      "summary": "商品候補に「これでいい」と返したあと、送料の異なる販売店で注文が確定したとします。これは仮の例ですが、商品への同意と注文への承認を一つにすると起こり得る問題です。AIエージェントサービスの購入フローでは、何を承認したのかを状態として残し、…"
     },
     {
-      "id": "3ec26d056ac5",
-      "title": "AI は近い将来インフラになる",
-      "url": "https://zenn.dev/mk404/articles/2026-10-10-ai-agents-become-infrastructure",
-      "publishedAt": "2026-10-14T09:00:05.000Z",
-      "publisher": "m. k.",
-      "summary": "AI は近い将来、電気や水道と同じようにインフラになる。筆者はそう考えています。この記事は、その見立てと根拠を整理したものです。 この記事では、生成 AI と AI エージェントをまとめて AI と呼びます。 対象読者は、AI を使ってい…"
+      "id": "b80b83415a8d",
+      "title": "Vibe Codingで作っている、ポケモンの小さな町の開発記録",
+      "url": "https://zenn.dev/kkiiki/articles/65afe5595980c3",
+      "publishedAt": "2026-10-14T06:13:42.000Z",
+      "publisher": "Kkkk_ii",
+      "summary": "最近、Vibe Codingを使いながら、AIで動くポケモンたちが暮らす小さなブラウザゲームを作っています。自分ではけっこう楽しく遊べているので、ここまでの開発を少し振り返ってみます。 インディーゲーム開発者と名乗れるほどではありませんが…"
     },
     {
-      "id": "78e32f19e2fb",
-      "title": "【Roblox × AI開発】Claude Code + Rojoで作るAI駆動のRobloxゲーム開発環境",
-      "url": "https://zenn.dev/ksg1/articles/040700930914c5",
-      "publishedAt": "2026-10-14T08:56:44.000Z",
-      "publisher": "ksg@software_developer",
-      "summary": "はじめに 「Robloxのコード管理や開発をもっと効率化したい」 「AI（Claude Code）にコードを書いてもらって、それをリアルタイムでRoblox Studioに反映させたい」 そんな方に向けて、VS Code・Rojo・Cla…"
+      "id": "d2d32794dece",
+      "title": "AIエージェントとは？買い物ボットとの違いを操作権限から整理する",
+      "url": "https://zenn.dev/kuromame_kun/articles/4fefaa08c9a7f5",
+      "publishedAt": "2026-10-14T06:12:30.000Z",
+      "publisher": "黒豆（Kuromame）",
+      "summary": "「予算内の商品を探して」と頼んだとき、候補を返すだけなのか、カートを作るところまで進むのか。同じ会話画面でも、システムに渡している権限は違います。AIエージェントを理解するには、次の行動を決める仕組みと、実際に許された操作を分けて見ると整…"
     },
     {
-      "id": "a4a9c36335d0",
-      "title": "Neo4jでLLMベースのナレッジグラフ構築を試してみた",
-      "url": "https://zenn.dev/nttdata_tech/articles/266a6692f85fee",
-      "publishedAt": "2026-10-14T08:24:53.000Z",
-      "publisher": "Tatsuya Maruyama",
-      "summary": "はじめに こんにちは、データエンジニアをしているMaruです。 最近、LLMを用いた検索システムだけでなく、「情報同士がどのような関係にあるのか」を踏まえた検索への活用も注目されています。その手段の一つがナレッジグラフです。 一方で、ナレ…"
+      "id": "37d09d8b697a",
+      "title": "お店をつくる人の「集客の相棒」をつくる ── MEOエージェントが目指すものと、いま取り組んでいること",
+      "url": "https://zenn.dev/canly/articles/620e72782bea50",
+      "publishedAt": "2026-10-14T06:02:08.000Z",
+      "publisher": "hayashi79",
+      "summary": "MEOエージェントが目指すものと、いま取り組んでいること はじめまして。株式会社カンリーでエンジニアリングマネージャーをしている林です。今年の7月に入社し、ちょうど3か月が過ぎたところです。 今回は私が担当している「MEOエージェント」と…"
     },
     {
-      "id": "3b40b339b002",
-      "title": "AI エージェントの「不寝番」アプリを作ったら、テスト全通過のまま実機で 3 回やらかした話",
-      "url": "https://zenn.dev/s3onghyun/articles/1ec9856f1fb32e",
-      "publishedAt": "2026-10-14T08:03:09.000Z",
-      "publisher": "s3onghyun",
-      "summary": "! AI エージェントが作業している間だけ Mac をスリープさせないメニューバーアプリを Claude Code と一緒に作りました。テスト 70 個はすべてグリーンだったのに、実機に配属した途端、見張り番の二等兵が 3 回やらかしまし…"
+      "id": "e04831ce9afc",
+      "title": "コンテンツマーケティングにAIを使うなら：任せる作業と人が確認する判断を分けよう",
+      "url": "https://zenn.dev/asayi_megumi/articles/9ca35e554070a5",
+      "publishedAt": "2026-10-14T05:58:08.000Z",
+      "publisher": "浅井めぐみ",
+      "summary": "AIに記事の下書きを任せるときは、判断を任せる範囲も決めます。見出し案を出す作業と、顧客に約束してよい内容を決める作業では、間違えたときの影響が違います。 小さなチームでコンテンツマーケティングにAIを使うなら、作業ごとに入力、確認者、公…"
     },
     {
-      "id": "887376f08c38",
-      "title": "ChatGPTに確定申告の準備を手伝ってもらう",
-      "url": "https://zenn.dev/uttnaoki/articles/4d33acc58ced53",
-      "publishedAt": "2026-10-14T08:01:55.000Z",
-      "publisher": "naoki kinoshita",
-      "summary": "そろそろ確定申告の準備を進めたい まだ少し早いですが、来年の確定申告に向けて、 やるべきことの洗い出しや帳簿の記帳を進めておきたいと思っています。 私はfreeeで帳簿をつけています。 今回はChatGPTにブラウザ上のfreeeを操作し…"
+      "id": "ae32e2cc1b34",
+      "title": "AIで技術デモ動画を自動編集したら、操作の順番は残る？",
+      "url": "https://zenn.dev/kiri_kunn/articles/43192c633e736f",
+      "publishedAt": "2026-10-14T05:52:06.000Z",
+      "publisher": "霧（Kiri）",
+      "summary": "検索条件を入れる場面が消え、結果一覧だけが残った動画を考えます。画面はすっきりしていても、見た人は同じ結果にたどり着けません。技術デモでは、短さよりも、結果が出るまでの手順を追えることを優先します。 検索フォームを操作する想定例から、AI…"
     }
   ],
-  "fetchedAt": "2026-10-14T10:16:04.049Z",
+  "fetchedAt": "2026-10-14T15:19:50.341Z",
   "stale": false,
   "error": null
 }
