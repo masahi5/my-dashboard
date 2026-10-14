@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "86f824c64493",
-      "title": "PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2609.36642",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Language-model agents are usually trained by reinforcement learning from one reward per episode, and privileged self-di…",
-      "score": 24
+      "id": "e9784aee5187",
+      "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
+      "url": "https://huggingface.co/papers/2610.18872",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object in…",
+      "score": 8
     },
     {
-      "id": "54ba7155687a",
-      "title": "CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation",
-      "url": "https://huggingface.co/papers/2609.36616",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Historical street-view imagery records urban evolution, but uneven coverage leaves substantial gaps in historical recor…",
-      "score": 20
+      "id": "2d95ade1f55e",
+      "title": "ExeWorldBench: Benchmarking Code-Based Executable 3D World Modeling",
+      "url": "https://huggingface.co/papers/2610.15166",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "summary": "Coding agents are increasingly evolving beyond reproducing what a world looks like toward constructing executable world…",
+      "score": 6
     },
     {
-      "id": "e864e7cbb911",
-      "title": "Branching On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2610.13481",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) provides teacher supervision on student-generated trajectories, but a single trajectory re…",
-      "score": 5
-    },
-    {
-      "id": "c8bd2479d10c",
-      "title": "Initialization Improves LLM-Driven Discovery",
-      "url": "https://huggingface.co/papers/2610.00707",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Large Language Models (LLMs) have been used for novel discovery of algorithms, theorems, drugs, and other tasks through…",
+      "id": "913193711308",
+      "title": "Rubrics from the Task, Verdicts from Evidence: Pointwise Rubric Rewards with Tool-Augmented Judges",
+      "url": "https://huggingface.co/papers/2610.18766",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Rubric-based reward models (RMs) evaluate responses against explicit criteria. However, existing methods often derive c…",
       "score": 4
     },
     {
-      "id": "a148348b80a0",
-      "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
-      "url": "https://huggingface.co/papers/2610.12417",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothes…",
+      "id": "a26fdaa17b94",
+      "title": "A Decade in a Day: Synthesizing Agent-Native Interfaces from Human-Oriented Software Evolution",
+      "url": "https://huggingface.co/papers/2610.15765",
+      "publishedAt": "2026-10-11T00:00:00.000Z",
+      "summary": "Large language model agents are emerging as an important new class of users of desktop applications. However, existing …",
       "score": 3
     },
     {
-      "id": "39f9e2551f54",
-      "title": "Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps",
-      "url": "https://huggingface.co/papers/2610.02740",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Reinforcement learning for long-horizon agents relies on purely retrospective training signals: credit is assigned only…",
+      "id": "cf64a34b70fe",
+      "title": "AReA: Adaptive Receptive-Field Attention for Efficient High-Resolution Diffusion Transformers",
+      "url": "https://huggingface.co/papers/2610.17227",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Generating images beyond the training resolution of Diffusion Transformers (DiTs) remains challenging, as the number of…",
       "score": 3
     },
     {
-      "id": "d806a168b791",
-      "title": "Evaluating LLM Creativity through Long-Tail Performance",
-      "url": "https://huggingface.co/papers/2610.12998",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Creativity benchmarks for large language models (LLMs) vary widely in task and metric design. This raises the question …",
-      "score": 3
-    },
-    {
-      "id": "f8cde88dc69c",
-      "title": "Visual Grounding Safety in Vision-Language Models",
-      "url": "https://huggingface.co/papers/2610.05637",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Vision-language models (VLMs) are increasingly trained to generate structured outputs like points and bounding boxes th…",
+      "id": "39fb3ce4faf6",
+      "title": "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
+      "url": "https://huggingface.co/papers/2610.16811",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Chest X-ray (CXR) interpretation often requires integrating visual findings with task-specific evidence rather than rel…",
       "score": 2
     },
     {
-      "id": "e8923a9101bb",
-      "title": "Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score",
-      "url": "https://huggingface.co/papers/2610.03825",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "A benchmark score compares a system output against a reference, and methodological attention falls almost entirely on t…",
-      "score": 2
-    },
-    {
-      "id": "cbfab6211d1a",
-      "title": "Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment",
-      "url": "https://huggingface.co/papers/2609.35291",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "summary": "Modern AI models are aligned through post-training to adapt them to downstream tasks. Recent work shows that fine-tunin…",
+      "id": "d785a46f1115",
+      "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+      "url": "https://huggingface.co/papers/2610.18860",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the o…",
       "score": 1
     },
     {
-      "id": "a65ec3b71548",
-      "title": "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
-      "url": "https://huggingface.co/papers/2610.12099",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "World action models (WAMs) aim to answer a coupled physical question: given a task instruction, what motion should the …",
+      "id": "848a172caa12",
+      "title": "VideoJev: System One Model for Video Understanding and Interaction",
+      "url": "https://huggingface.co/papers/2610.18615",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building…",
       "score": 1
     },
     {
-      "id": "5beb2405b8ad",
-      "title": "HyperThink: Text-to-Parameter Hypernetworks for Efficient Reasoning",
-      "url": "https://huggingface.co/papers/2610.03039",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "summary": "Long-form thinking traces can substantially improve the multi-step reasoning performance of large language models (LLMs…",
+      "id": "9d556d67ef30",
+      "title": "Fish Audio Drama 3 Technical Report",
+      "url": "https://huggingface.co/papers/2610.18010",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "We introduce Fish Audio Drama 3, an open-source speech generation model that turns text into directed performances, bui…",
+      "score": 1
+    },
+    {
+      "id": "9f5f44706a52",
+      "title": "Probable but Not Valid: A Psychometric Audit of Decision Models as Synthetic Survey Respondents",
+      "url": "https://huggingface.co/papers/2610.14912",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "summary": "Language models are increasingly used to create synthetic survey samples, also called silicon samples. Decision models …",
+      "score": 1
+    },
+    {
+      "id": "c62ee0fcb23e",
+      "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
+      "url": "https://huggingface.co/papers/2610.17540",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Textual reasoning before acting has improved vision-language-action (VLA) models, but at the cost of latency: every act…",
+      "score": 0
+    },
+    {
+      "id": "297aa85b3ea5",
+      "title": "JevGPT: Thinking Fast and Slow in Autonomous Research",
+      "url": "https://huggingface.co/papers/2610.18272",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Autonomous research agents must acquire and reason over evidence within a limited budget. Yet relevant sources can rema…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-14T00:27:31.011Z",
+  "fetchedAt": "2026-10-14T05:13:39.523Z",
   "stale": false,
   "error": null
 }
