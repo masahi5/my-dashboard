@@ -2,6 +2,69 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2110512647439516032",
+      "url": "https://x.com/npaka123/status/2110512647439516032",
+      "text": "RT @umiyuki_ai: StrataがMac対応。なんかLlama.cppより２倍くらい速くなるらしい。以前に「Strataがmac対応してくれないから自分でやったった！」みたいなツイート見かけたけど、「Macってユニファイドメモリだから意味なくね？VRAMとメインメモ…",
+      "publishedAt": "2026-10-14T23:26:41.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2110512557698212321",
+      "url": "https://x.com/npaka123/status/2110512557698212321",
+      "text": "speech.cpp 追加\n\n音声合成AI ・ 音声認識AI ・ 音声翻訳AI のリリース年表｜npaka @npaka123 note.com/npaka/n/n867803eed7…",
+      "publishedAt": "2026-10-14T23:26:19.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2110505857167634464",
+      "url": "https://x.com/FABYMETAL4/status/2110505857167634464",
+      "text": "Grok Bot Icon Designのアイコンを量産するための汎用プロンプトを作った。\n\nキャラクターの特徴と描画スタイルを分離し、髪型・配色・アクセサリーなどのパラメータを差し替えるだけで、Grok Bot の一覧に並んでいても違和感のないアイコンを生成できる仕組み。\n\nテキストだけでも生成できる。既存キャラクターの画像から特徴を抽出して変換することも可能。\n\n目の形状、顔の角度と形とトーンにこだわった。\n\n以下、サンプル:",
+      "publishedAt": "2026-10-14T22:59:42.000Z",
+      "authorHandle": "FABYMETAL4",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2110499578500067498",
+      "url": "https://x.com/MLBear2/status/2110499578500067498",
+      "text": "【10月15日 朝のニュースまとめ】\n・OpenAI次期旗艦モデル、推論が人間に読めず監視困難と報道\n・Claude Platform、OpenTelemetryトレース送信に対応\n・Gemini 4 Argon、KernelBench-Mega3位もコード用途で賛否\n・Muse Wonder、タスク時間がOpusの約半分でVCB首位\n・Google Play、AI Studio製のバイブコーディングアプリを端末実行可能に\n・Claude Code、200k超セッションをアイドル54分で自動compact\n・Claude Code Desktop、複数セッション管理のハブを追加\n・White CircleのRISE公開、最新画像モデルほど脱獄容易に\n・Grok Voice 3.0、音声対話指数86.9で首位に\n・OpenAI調査、EU法人のAI利用の過半がエージェントに\n・Nathan Lambert氏、非営利オープンラボTrilliumを立ち上げ\n・Hybrid Reasoning Agents、潜在推論でトークン40%削減\n・Kaggle、サイトデザインとロゴ色を刷新\n・speech.cpp v0.8.7、Irodori-TTS v4-Largeに対応\n\n===\n\nOpenAI次期旗艦モデル、推論が人間に読めず監視困難と報道【続報】\n\n・OpenAIの次期旗艦モデルの安全性対応に関する続報です\n・The Informationは、同モデルが人間に読めない形で問題を反復処理し、推論の監視が難しいと報じました\n・同社はリリース前の修正と並行して、推論の可視性を保つ取り組みを進めているとされます\n・ループトランスフォーマー等がCoT監視を弱め得るとの指摘があり、解雇された研究者らは業界での監視可能性確保を訴えています\n\n===\n\nClaude Platform、OpenTelemetryトレース送信に対応\n\n・Claude Platformが、OpenTelemetryトレースを任意の可観測性基盤へ送れる機能をパブリックベータで公開しました\n・対象はMessages API、Managed Agents、SDKsで、所要時間やトークン数、モデル、ツール名などが既定で含まれます\n・LangfuseやLangSmithが即日対応し、実運用のトレースを評価データにしてエージェント改善に活かせるとしています\n\n===\n\nGemini 4 Argon、KernelBench-Mega3位もコード用途で賛否【続報】\n\n・Gemini 4 Argonの実利用評価に関する続報です\n・KernelBench-MegaでRTX PRO 6000向けメガカーネルがPyTorch比27.0倍となり、35モデル中3位でした\n・上位はOpus 5.5とSonnet 5.5で、VoxelBenchでも5位とOpus 5相当の評価を得ています\n・一方で実際のコードベースで挙動を幻覚して使えないとの声や、OpenCode Goのレート制限が厳しいとの報告もあります\n\n===\n\nMuse Wonder、タスク時間がOpusの約半分でVCB首位【続報】\n\n・MetaのMuse Wonderの評価に関する続報です\n・Mergeの集計で平均タスク時間は6.8分とされ、Opus 5.5の13.2分やSonnet 5.5の15.3分の約半分です\n・Muse Wonder Fullは長期・マルチターン開発を測る新評価VCB 1-100で首位となり、コスト面でも優位とされます\n・難しい文書OCRの比較でもGemini 4 Argonと並び高評価で、Alexandr Wang氏はまだ改善余地があるとしています\n\n===\n\nGoogle Play、AI Studio製のバイブコーディングアプリを端末実行可能に\n\n・GoogleがPlayストアで、自作のバイブコーディングアプリを自分の端末にワイヤレスでインストールし非公開で実行できるようにしました\n・Google AI StudioでAndroidアプリを作りそのまま公開でき、親しい友人や家族との共有も可能とされています\n・Argonの最もキラーな機能ではないかとの声や、Androidアプリを作るためにPixelへの乗り換えを検討する声が出ています\n\n===\n\nClaude Code、200k超セッションをアイドル54分で自動compact【続報】\n\n・Claude Code 2.1.299のリリース内容に関する続報です\n・TUIにアイドル時の自動コンパクション機能が追加されていたことが、変更内容の分析で明らかになりました\n・200k以上のコンテキストを持つセッションは約54分のアイドル後に自動でcompactされ、1時間のTTLを更新する仕組みです\n・放置したセッションを再開する際のコスト増を防ぐ工夫とみられ、次の2.1.300のリリースも近いと告知されています\n\n===\n\nClaude Code Desktop、複数セッション管理のハブを追加\n\n・Claude Code Desktopに新しいセッションハブとナビバーのライブステータス表示が追加されたと報じられています\n・メイン画面から複数セッションを同時に開始・追跡・管理し、フォローアップまで行えるようになっています\n・Claude Hubとしてテストされていた体験が正式に入ったもので、並列でエージェントを回す開発者に便利とみられます\n\n===\n\nWhite CircleのRISE公開、最新画像モデルほど脱獄容易に\n\n・White Circleが、画像モデルの安全機構を突破するレッドチーミング手法RISEをオープンソース化しました\n・QwenやGemini Flashを追加学習なしで使い、再利用可能な攻撃戦略を進化させる仕組みで、NeurIPS 2026に採択されています\n・OpenAIやGoogleの最新画像モデルは前世代より攻撃成功率が2倍以上とされ、安全対策の強化を求める声が出ています\n\n===\n\nGrok Voice 3.0、音声対話指数86.9で首位に\n\n・SpaceX Super IntelligenceがGrok Voice 3.0を発表し、Artificial AnalysisのSpeech-to-Speech Indexで首位となりました\n・スコアは86.9でGPT-Live-1の83.2を上回り、応答は1秒未満、レイテンシ40%減で他社より低コストとされます\n・Tesla車内で1日数百万件の会話を処理しているとされ、AIコールセンター用途での検証が進みそうです\n\n===\n\nOpenAI調査、EU法人のAI利用の過半がエージェントに\n\n・OpenAIが欧州企業のAIエージェント利用に関する経済調査レポートを公開しました\n・EUの法人・ビジネス顧客のAI利用の半分以上がエージェント関連となり、小規模事業者ユーザーは8倍に増えたとしています\n・5月からの5か月で8倍という伸びに、欧州は反AI的という見方に反するデータだとの指摘が出ています\n\n===\n\nNathan Lambert氏、非営利オープンラボTrilliumを立ち上げ\n\n・AI2でポストトレーニングを率いたNathan Lambert氏が、非営利のオープンAIラボTrilliumを立ち上げました\n・a16zのポッドキャストで、OpenAIの研究者は常時H100換算5,000基を使える一方、中国ラボは計算資源不足だと語りました\n・オープンモデルの価値の帰属やエージェント群の運用も論点となり、旧世代GPUが値上がり資産になっている点も示されています\n\n===\n\nHybrid Reasoning Agents、潜在推論でトークン40%削減\n\n・Together AIとStanfordらが、潜在空間での推論とテキストによる検査・ツール操作を組み合わせるHybrid Reasoning Agentsを発表しました\n・性能は10.4%向上しつつ、トークンを約40%削減、推論は約2倍高速、コストは約3分の1になったとされます\n・すべての推論をテキストで書き出す現行エージェントのコストを下げる手法として注目され、リポジトリも公開されています\n\n===\n\nKaggle、サイトデザインとロゴ色を刷新\n\n・KaggleのWebサイトのデザインが変わり、水色だったロゴの色も変更されたことが話題になっています\n・トップページの見た目が大きく変わったほか、メダルのデザインにも違和感を覚える声が出ています\n・新UIは安っぽいとの声や以前の水色が好きだったとの声がある一方、過去のリーダーボード刷新のようにそのうち慣れるとの見方もあります\n\n===\n\nspeech.cpp v0.8.7、Irodori-TTS v4-Largeに対応【続報】\n\n・ggml製の音声合成・認識エンジンspeech.cppに関する続報です\n・v0.8.7がリリースされ、Irodori-TTS v4-Largeに対応しました\n・RTX 2080で16ステップ・Q8_0時にRTFx 3.3、VRAM 4.4GBで動き、M5でも4.1GBのメモリで動作するとしています\n・古めのGPUやMacでも大きめの日本語TTSモデルを実用速度で動かせる選択肢になりそうです",
+      "publishedAt": "2026-10-14T22:34:45.000Z",
+      "authorHandle": "MLBear2",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2110488935269077041",
+      "url": "https://x.com/CompleteSkeptic/status/2110488935269077041",
+      "text": "The blog: typesafe.ai/blog/jev-1-14",
+      "publishedAt": "2026-10-14T21:52:27.000Z",
+      "authorHandle": "CompleteSkeptic",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2110488924309348860",
+      "url": "https://x.com/CompleteSkeptic/status/2110488924309348860",
+      "text": "Happy JevDay!\n\nBut before announcements we have to talk philosophy…\n\nThe needs of early adopters / tinkerers / dreamers are quite different from what is needed for extremely stable infrastructure.\n\nFor the Jev release, we erred on the latter, but this release is for the former - with a gate so people can opt-in to the danger zone!",
+      "publishedAt": "2026-10-14T21:52:25.000Z",
+      "authorHandle": "CompleteSkeptic",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2110438314037928060",
+      "url": "https://x.com/suzunayui/status/2110438314037928060",
+      "text": "誰かVRM使ってる人でこれ試せる人いないかな？\nちゃんとうごくか見てほしいー\ngithub.com/suzunayui/YuiTrac…",
+      "publishedAt": "2026-10-14T18:31:18.000Z",
+      "authorHandle": "suzunayui",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2110423274413056230",
       "url": "https://x.com/_akhaliq/status/2110423274413056230",
       "text": "VideoJev\n\nSystem One Model for Video Understanding and Interaction\n\npaper: huggingface.co/papers/2610.1…",
@@ -27,72 +90,9 @@
       "authorHandle": "typesafeai",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2110416580899168305",
-      "url": "https://x.com/SpaceXSI/status/2110416580899168305",
-      "text": "Introducing Grok Voice 3.0, the world’s most intelligent speech-to-speech model.\n\nIt excels at resolving customer calls, responds in under a second, and costs less than other frontier models.",
-      "publishedAt": "2026-10-14T17:04:57.000Z",
-      "authorHandle": "SpaceXSI",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2110404172726047107",
-      "url": "https://x.com/patloeber/status/2110404172726047107",
-      "text": "our team shipped a bunch of guides to help you build with Gemini 4 Argon:\n\n- Dev guide: aistudio.google.com/learn/ge…\n- What's new + migration checklist: aistudio.google.com/docs/lat…\n- Building 3D games: aistudio.google.com/learn/bu…\n- Long decode guide (1M output): aistudio.google.com/docs/lon…",
-      "publishedAt": "2026-10-14T16:15:38.000Z",
-      "authorHandle": "patloeber",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2110399984680210450",
-      "url": "https://x.com/RoboParty_DEV/status/2110399984680210450",
-      "text": "🚀RP1 is officially here.\n\n🌍Putting control of robotics back in developers’ hands.\nIntroducing RP1 (ROBOTO 01) by RoboParty—a high-performance, fully open-source humanoid robotics platform for frontier robotics research and embodied AI model development.\n\n🤖 Open across the full hardware and software stack:\n\n• Robot platform: mechanical CAD, bill of materials, and assembly documentation\n• Actuators: in-house ROMOMO joint designs and related technical resources\n• Control: electrical systems, firmware, low-level drivers, and motion control implementations\n• Development: simulation models, SDKs, data processing tools, and training tools\n• Engineering foundations: technical documentation and research materials\n\nOpen the black box.\nUnderstand the system.\nMake it your own.\n\nA deviation in motion can originate in the model, control policy, actuator response, or mechanical structure.\nRP1 opens up the design and implementation of these layers so developers can trace problems, modify the system, and validate changes on real hardware.\n\nOpen-source algorithms for advanced motion control\nRP1 has demonstrated continuous walking, recovery from disturbances, getting back up after a fall, and human motion tracking.\n\nUFO and MimicLite connect motion learning, control policies, and execution on real hardware.\n\nThe open toolchain connects data collection, simulation training, hardware deployment, and experimental validation—supporting joint iteration across models, control, and hardware.\n\nFrom RPO to RP1, we’re turning one team’s engineering experience into a starting point for many more.\n\nOpening the future of embodied AI to everyone ready to explore it.\n\n🔗RP1 on GitHub:\ngithub.com/Roboparty/RP1\n#RoboParty #RP1 #OpenSourceRobotics #EmbodiedAI",
-      "publishedAt": "2026-10-14T15:59:00.000Z",
-      "authorHandle": "RoboParty_DEV",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2110390124743970952",
-      "url": "https://x.com/AntLingAGI/status/2110390124743970952",
-      "text": "Ling-3.1-flash is now open source: ~560B total parameters, ~25B active per token and up to 1M context.\nBuilt for real work, it can turn a rough brief into a page, mobile UI or interactive prototype teams can review and refine. See the demo.",
-      "publishedAt": "2026-10-14T15:19:49.000Z",
-      "authorHandle": "AntLingAGI",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2110387396823163357",
-      "url": "https://x.com/Teknium/status/2110387396823163357",
-      "text": "Hermes Agent v0.22.0 is now live!\n\nThe highlights:\n\nA much smoother easier to use onboarding - you don't even need to hook up a provider to get started - just install and start working!\n\nConnectors - much easier to connect with any app, just click install and login - and done.\n\nStable Channel for Hermes Update - no more update anxiety and get releases that are tested much more thoroughly than a random commit, or switch back to main channel if you want the bleeding edge.\n\nOver 2,500 people contributed to this version, thank you all!\n\nSee the full changelog here, it's our biggest version over version change ever:\n\ngithub.com/NousResearch/herm…",
-      "publishedAt": "2026-10-14T15:08:59.000Z",
-      "authorHandle": "Teknium",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2110386847528681774",
-      "url": "https://x.com/bfl_ai/status/2110386847528681774",
-      "text": "FLUX 3 Video is now up to 2x faster and costs 50% less for generating in native 2K and 4K.\n\nWe made optimizations so it uses less compute to serve. The new pricing and speed improvements reflect that.",
-      "publishedAt": "2026-10-14T15:06:48.000Z",
-      "authorHandle": "bfl_ai",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2110382295362547749",
-      "url": "https://x.com/gyakuse/status/2110382295362547749",
-      "text": "speech.cpp v0.8.7 をリリースしました！\nIrodori-TTS v4-Largeに対応しました。\n\nRTX 2080 で RTFx 3.3（16ステップ、Q8_0、VRAM 4.4GB）、M5 でも 4.1GB のメモリで動きます。\ngithub.com/nyosegawa/speech.…",
-      "publishedAt": "2026-10-14T14:48:42.000Z",
-      "authorHandle": "gyakuse",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-14T22:38:31.053Z",
+  "fetchedAt": "2026-10-15T00:53:15.255Z",
   "stale": false,
   "error": null
 }
