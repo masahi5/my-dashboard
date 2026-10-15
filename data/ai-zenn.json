@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "4f3235ecc72e",
-      "title": "Claude Modsで業務ルールをAIに埋め込む ― 指示書では守られなかった3つの規則を「仕組み」にした話",
-      "url": "https://zenn.dev/joinclass/articles/claude-mods-ai-3-20261013220019-18493",
-      "publishedAt": "2026-10-14T23:00:12.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "なぜ指示書をやめて「仕組み」にしたのか 当社は小さな会社で、記事や書籍の制作、受託開発の多くをClaude Codeに任せています。ルールは長いあいだ CLAUDE.md に書いてきました。しかし書けば書くほど守られなくなります。CLAU…"
+      "id": "fe72c294d8a3",
+      "title": "LLMの蒸留とは~概要から手段まで~",
+      "url": "https://zenn.dev/sog00/articles/llm-how-to-distillation",
+      "publishedAt": "2026-10-15T10:50:19.000Z",
+      "publisher": "sog00",
+      "summary": "1. はじめに 本記事では、LLMの蒸留というものがどのようなものなのかを紹介し、行うための手法までまとめていきたいと思います。 2. 目次 蒸留とは 蒸留の手法とは 蒸留を実際どのように行うのか 3. 蒸留とは 3.1 一言でいうと 蒸…"
     },
     {
-      "id": "d49e10f537f2",
-      "title": "AIエージェントのPRを人間1人でレビューするゲームを作った(Papers, Please のコードレビュー版)",
-      "url": "https://zenn.dev/jcat_aki/articles/c8f97122a3df1d",
-      "publishedAt": "2026-10-14T23:00:06.000Z",
-      "publisher": "aki",
-      "summary": "AIエージェントのPRを人間1人でレビューするゲームを作った(Papers, Please のコードレビュー版) 開発はAIエージェントがやり、人間のレビュアーは自分1人。そんな会社で、届くプルリクエスト(PR)を1件ずつさばいていくゲー…"
+      "id": "f19cfd2b00b6",
+      "title": "何が変わるかは AI ではなく仕組みが答える ―― 確認するまで有効にしない変更",
+      "url": "https://zenn.dev/r2_san/articles/0283d6d27d770f",
+      "publishedAt": "2026-10-15T10:49:53.000Z",
+      "publisher": "R2-san",
+      "summary": "本記事の内容は私（R2-san）の体験（実装コード）・判断・指示に基づきますが、文章作成は生成 AI が行い、私の監修・確認を経て公開しています。 (この時点の情報です。開発中のもので、数字や仕様は 2026 年 10 月時点のものです。…"
     },
     {
-      "id": "35b905872724",
-      "title": "AIにAWSアップデート情報をまとめて通知してもらう",
-      "url": "https://zenn.dev/agent_grow/articles/660abe1a4bfa53",
-      "publishedAt": "2026-10-14T23:00:06.000Z",
-      "publisher": "duora0406",
-      "summary": "目的 私はAWSをメインとしたクラウドエンジニアなので、AWSのアップデート情報をチェックしていましたが色々な悩みがありました。 アップデート情報が多すぎる（いい意味で）のでチェックが大変。 自分の業務に役立つアップデート情報だけほしい。…"
+      "id": "51d3edd47fe6",
+      "title": "AIが文章を「書く」から「検証する」へ――Google「Deep Review」が一般公開",
+      "url": "https://zenn.dev/humanos_lab/articles/872bc4410f9715",
+      "publishedAt": "2026-10-15T10:48:50.000Z",
+      "publisher": "シン@AI統制＆マルチエージェント",
+      "summary": "AIは文章を作る速度を一気に上げました。けれど、事実・数式・論理・出典を確かめる人間の時間は増えていません。 Google Researchは2026年10月14日、長い技術文書を複数のAIエージェントで検証する「Deep Review」…"
     },
     {
-      "id": "d478a08b532d",
-      "title": "Orcaを使い始めて便利だった機能を紹介します",
-      "url": "https://zenn.dev/tokium_dev/articles/orca-first-impressions",
-      "publishedAt": "2026-10-14T23:00:05.000Z",
-      "publisher": "れん",
-      "summary": "TOKIUM でエンジニアをしているren21です。 最近、Orca というデスクトップアプリを使い始めました。Claude Code や Codex などの AI エージェントを動かすための無料のオープンソースです。 Orca は自分た…"
+      "id": "53be4fac8dd9",
+      "title": "なぜ Skill は使ってもらえないのか",
+      "url": "https://zenn.dev/nrs/articles/6ce38891833998",
+      "publishedAt": "2026-10-15T10:35:50.000Z",
+      "publisher": "nrs",
+      "summary": "便利な Skill を作って共有したのに、ほかの人にはなかなか使ってもらえない。 自分の仕事では役に立っているし、手順もまとめてある。 それなのに使ってもらえない。 なぜなのでしょうか。 説明が足りないのでしょうか。 便利さが足りないので…"
     },
     {
-      "id": "59d64eab31fe",
-      "title": "AIにTDDをやらせても、その価値は残るのか──手順ではなく利益を引き継ぐ",
-      "url": "https://zenn.dev/akring/articles/2bca6f38f3a347",
-      "publishedAt": "2026-10-14T23:00:05.000Z",
-      "publisher": "mahitotsu",
-      "summary": "AIにTDDをやらせると、何が起こりうるか AIに、ユーザーを無効化する機能を作らせるとします。人間が書いて承認した受け入れ条件は、次の三つです。 無効化されたユーザーは、新たにログインできない 無効化されたユーザーの既存のセッションは、…"
+      "id": "c363aa66c3c8",
+      "title": "Claude Code チーム導入のガードレール：管理設定・サンドボックス・監査ログを実機で確かめる",
+      "url": "https://zenn.dev/acerola_jp/books/claude-code-team-guardrails",
+      "publishedAt": "2026-10-15T10:28:03.000Z",
+      "publisher": "アセロラ",
+      "summary": "Claude Code をチームや会社に導入する担当者向けの本です。利用者が上書きできない管理設定（managed settings）、サンドボックス、監査ログで「どこまで止まり、どこから止まらないか」を、実機で確かめた結果（試していない…"
     },
     {
-      "id": "a2f4b8e56e82",
-      "title": "業務でAIにBDDを書き起こしてもらい、人間が何を直したか",
-      "url": "https://zenn.dev/masafumi_heijo/articles/ai-bdd-what-humans-fixed",
-      "publishedAt": "2026-10-14T22:59:43.000Z",
-      "publisher": "まさふみ",
-      "summary": "はじめに 業務で、BDD（振る舞い駆動開発）を次の分担で作る進め方を試しています。チームで決めた仕様をもとに私がたたき台をつくり、AIにそれをシナリオなどのBDD形式で書き起こしてもらい、できあがったものを私がレビューする、という流れです…"
+      "id": "47f6483d58c6",
+      "title": "Data Engineering Agentで自然言語からパイプラインを作る",
+      "url": "https://zenn.dev/web_benriya/articles/bigquery-data-engineering-agent-pipelines",
+      "publishedAt": "2026-10-15T10:20:42.000Z",
+      "publisher": "ウェブの便利屋",
+      "summary": "この記事で解決する課題 データパイプラインの構築に時間がかかっていませんか。「GA4のrawデータを毎日集計してマートテーブルに書き込みたい」という要件を実装するとします。SQLクエリ設計・テスト・スケジュール設定まで含めると、半日以上か…"
     },
     {
-      "id": "852af65cc2da",
-      "title": "Claude の Invalid signature in thinking block を直す ― 履歴は追記のみに",
-      "url": "https://zenn.dev/persimmoq/articles/claude-fable-invalid-signature-thinking",
-      "publishedAt": "2026-10-14T22:27:59.000Z",
-      "publisher": "Persimmoq AI",
-      "summary": "Claude Fable 5.1 に移行して、マルチターンのエージェントがこの 400 で止まった、という相談が増えています。2026 年 9 月に出た Opus 5.5 と Sonnet 5.5、10 月 7 日の Haiku 5.5 …"
+      "id": "0e591805d0c6",
+      "title": "AI教師を評価したのはAIだった？ Microsoftと米国イリノイ大学アーバナ・シャンペーン校のStudentSim研究",
+      "url": "https://zenn.dev/syoshida07/articles/f0479a8b11961c",
+      "publishedAt": "2026-10-15T09:59:16.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "Microsoft ResearchとUniversity of Illinois Urbana-Champaign(米国イリノイ大学アーバナ・シャンペーン校)の研究チームは、教育AIの評価を目的とした研究成果であるStudentSimを…"
     },
     {
-      "id": "e2a5f5a8c4a0",
-      "title": "React Nativeでタップが1.8秒効かなくなる謎現象を実機計測で追った話（犯人はTextDecoder.decode）",
-      "url": "https://zenn.dev/yskms/articles/5b1090cfa1a51e",
-      "publishedAt": "2026-10-14T22:21:05.000Z",
-      "publisher": "yskms",
-      "summary": "概要 RSSリーダーアプリのオンボーディング画面で、「次へ」ボタンのタップがもたつくという報告がありました。 最初に疑ったのは「初期フィード投入と初回同期を並行実行している設計」でしたが、実機計測で否定されました。 真因は、巨大なUTF-…"
+      "id": "b2d03b2fb9f2",
+      "title": "\"夜のすごし方を、夜ごとに見直し続ける。AIエージェント睡眠サポートアプリ「ゆるね」",
+      "url": "https://zenn.dev/onoyu/articles/26b63da84988dd",
+      "publishedAt": "2026-10-15T09:24:47.000Z",
+      "publisher": "おのゆー",
+      "summary": "はじめに 「ゆるね」は、眠る前に開く Web アプリです。雨や波の音を流しながら、話したくなったらぬいぐるみのキャラクター「ぽてね」と声で話すことができ、朝にひとこと答えると、夜のすごし方（どの音をどのくらいの大きさで流し、どう小さくして…"
     },
     {
-      "id": "284888dc0881",
-      "title": "AIエージェントに GitHub を任せたら、アカウントが凍結された話と再発防止策",
-      "url": "https://zenn.dev/shoyomayabot/articles/github-account-suspended-ai-agent",
-      "publishedAt": "2026-10-14T22:20:33.000Z",
-      "publisher": "mayabot",
-      "summary": "AIエージェントに GitHub の作業を任せていたら、ある日アカウントが凍結（停止）されました。 この記事では、何が起きたのか、どう申し立てたのか、そして同じことを起こさないために何を変えるのかをまとめます。 AIエージェントに「全部や…"
+      "id": "0b42843872f3",
+      "title": "Telkom University's Digital Reputation Highlighted in 2026",
+      "url": "https://zenn.dev/zaaa/articles/556a842a8bc389",
+      "publishedAt": "2026-10-15T09:12:33.000Z",
+      "publisher": "asaasa",
+      "summary": "The July 2026 Webometrics release has once again placed Telkom University in the spotlight, cementing its reputation as…"
     },
     {
-      "id": "af6c7ff318d6",
-      "title": "定期実行が止まったとき、AIはログを開かずに「スリープしていた等が考えられます」と書いた",
-      "url": "https://zenn.dev/waitlab/articles/claude-desktop-scheduled-task-guessed-cause",
-      "publishedAt": "2026-10-14T22:08:22.000Z",
-      "publisher": "WaitLab",
-      "summary": "毎日 19 時に note に記事を出すタスクを、Claude のデスクトップアプリのスケジュール機能で動かしています。1 回目に止まったとき、AI はログを開かずに原因を推測で書き、確かめないまま終わらせました。2 回目は別の理由で止ま…"
+      "id": "19885e26eecf",
+      "title": "過去のレビュー指摘をAIに覚えさせたら、事前に防げたのは半分だった",
+      "url": "https://zenn.dev/higuaaa/articles/0ed3585fb14d2f",
+      "publishedAt": "2026-10-15T09:06:26.000Z",
+      "publisher": "higu",
+      "summary": "レビューで受けた指摘を「型」で溜めて、MR を出す前に Claude Code に照らし合わせさせる仕組みを作りました。 効果を測ってみると、最初は 15 か所中 13 か所 を事前に拾えていました。おお、けっこう効いてる！ と喜びかけた…"
     },
     {
-      "id": "d44266e02964",
-      "title": "Gemini APIとPythonで簡易RAG！ドキュメントから自動で回答を生成する実践",
-      "url": "https://zenn.dev/ikuokuotiak/articles/gemini-api-python-document-answer-system",
-      "publishedAt": "2026-10-14T22:02:31.000Z",
-      "publisher": "ahic",
-      "summary": "はじめに こんにちは、ahicです。 日々の業務を13体のAIエージェントとRPAで自動化し、生産性向上に努めています。Claude Code、Python、launchd、Gemini APIを駆使して、泥臭い作業をAIに任せています。…"
+      "id": "84736ff91ea1",
+      "title": "【Salesforce】Agent Script入門｜Agentforceの従業員エージェントを作ってみた",
+      "url": "https://zenn.dev/actbe_tech/articles/57561ffebaf9ed",
+      "publishedAt": "2026-10-15T09:00:14.000Z",
+      "publisher": "福西",
+      "summary": "はじめに Agentforceの指示文に「必ず取引先を確認してから回答してください」と書いたのに、確認が飛ばされて、そのまま回答されてしまった。 Agentforceでエージェントを作っていると、こんな場面に出会うことがあります。 LLM…"
     },
     {
-      "id": "9d746dd4f8fb",
-      "title": "AIエージェントの「完了しました」を、実行ログの証拠で検証する",
-      "url": "https://zenn.dev/liatris/articles/20261015-agent-completion-proof",
-      "publishedAt": "2026-10-14T22:00:06.000Z",
-      "publisher": "平野翔斗",
-      "summary": "! この記事は、Claude Codeを執筆支援に使った \"毎朝1本書く\" 取り組みの一環で書いています。 目的: 自分のAI活用キャッチアップ。仕組み自体も毎月アップデートしていきます 体制: 題材選定・実装・下書きをClaude Co…"
+      "id": "a4abc6d429dc",
+      "title": "Claudeデスクトップ更新の日、Xには不満が、GitHubには不具合が集まっていた",
+      "url": "https://zenn.dev/tenpachi/articles/539d6526000a41",
+      "publishedAt": "2026-10-15T08:49:43.000Z",
+      "publisher": "テンネンパーマ",
+      "summary": "Claude Codeのデスクトップアプリが更新された日、AIに「不具合や不満をXで調べて」と頼んだ。返ってきた見出しは「重大な不具合報告は見つかりませんでした」。 その直後、私の画面にエラーのトーストが出た。見る場所をGitHubに変え…"
     }
   ],
-  "fetchedAt": "2026-10-15T10:18:04.763Z",
+  "fetchedAt": "2026-10-15T15:11:19.317Z",
   "stale": false,
   "error": null
 }

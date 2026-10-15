@@ -6,20 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "d9b144f0b590",
-      "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
-      "url": "https://huggingface.co/papers/2610.19698",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying …",
-      "score": 51
+      "id": "260ddbce575b",
+      "title": "The Thinking Leakage in Reinforcement Learning for LLMs",
+      "url": "https://huggingface.co/papers/2610.14270",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "summary": "Hybrid reasoning models such as the Qwen3 series switch between a THINK mode and a NO-THINK mode through a few chat-tem…",
+      "score": 13
     },
     {
-      "id": "b3fb71ead933",
-      "title": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
-      "url": "https://huggingface.co/papers/2610.20431",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Recursive self-improvement (RSI) in scientific research aims to improve agents' research capabilities through their own…",
-      "score": 8
+      "id": "30c627d669fb",
+      "title": "LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures",
+      "url": "https://huggingface.co/papers/2610.14020",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Self-driving laboratories (SDLs) aim to automate the full experimental loop, from scientific decision-making to physica…",
+      "score": 9
     },
     {
       "id": "8a4e766f6726",
@@ -27,54 +27,54 @@
       "url": "https://huggingface.co/papers/2610.17246",
       "publishedAt": "2026-10-12T00:00:00.000Z",
       "summary": "Generative discovery in science requires coupling high-level scientific reasoning with the ability to generate samples …",
-      "score": 2
+      "score": 5
     },
     {
-      "id": "1cebd21e7214",
-      "title": "Glance Forcing: Making Bidirectional Diffusion Autoregressive at a Glance",
-      "url": "https://huggingface.co/papers/2610.20220",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Autoregressive generation underlies real-time, causal video synthesis and is the backbone of video world models. Today'…",
-      "score": 2
-    },
-    {
-      "id": "e210ffb9d715",
-      "title": "Joint Subspace Sparse Attention for Efficient Long-Context Decoding",
-      "url": "https://huggingface.co/papers/2610.19026",
+      "id": "204d575a2f8f",
+      "title": "Rethinking Projector Training in Multimodal LLMs",
+      "url": "https://huggingface.co/papers/2610.18598",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Sparse attention reduces the KV-cache traffic that dominates long-context LLM decoding, but practical methods largely o…",
+      "summary": "Multimodal LLMs are typically trained by first aligning a vision encoder with a language model via projector training o…",
       "score": 2
     },
     {
-      "id": "10fc996feec0",
-      "title": "Generative World Simulation with DAO and JING",
-      "url": "https://huggingface.co/papers/2610.19726",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "We present a Generative World Simulation framework that couples persistent shared world state with continuous first-per…",
-      "score": 2
-    },
-    {
-      "id": "74a3acb30a7a",
-      "title": "AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety",
-      "url": "https://huggingface.co/papers/2610.19422",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents accomplish complex tasks through multi-turn interactions with external tools. However…",
-      "score": 1
-    },
-    {
-      "id": "82d0c9af5f22",
-      "title": "ProbabilityBench: Model Evaluation and Calibration with Exact Ground-Truth Uncertainty",
-      "url": "https://huggingface.co/papers/2610.17016",
+      "id": "bc421c41d46d",
+      "title": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
+      "url": "https://huggingface.co/papers/2610.17309",
       "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Evaluating model uncertainty on real-world data is challenging because each instance provides only a single observed la…",
+      "summary": "We introduce StartLux-Decision, decision models from 0.8B to 27B parameters that combine efficient single-pass predicti…",
+      "score": 2
+    },
+    {
+      "id": "c97088c9ac30",
+      "title": "Choosing LLMs for Strategic Agent Interactions",
+      "url": "https://huggingface.co/papers/2610.18354",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Game-theoretic benchmarks claim that large language model (LLM) strategic decision-making varies across game types, int…",
       "score": 1
     },
     {
-      "id": "1c530fe662c0",
-      "title": "Jag: Direct Box Prediction for Efficient Visual Grounding",
-      "url": "https://huggingface.co/papers/2610.13239",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Visual grounding combines image--language understanding with geometric prediction, yet autoregressive multimodal models…",
+      "id": "07416341389d",
+      "title": "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents",
+      "url": "https://huggingface.co/papers/2610.19420",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Simulated environments enable scalable training data generation for embodied agents, but more data does not necessarily…",
+      "score": 1
+    },
+    {
+      "id": "ac6a0a28cab2",
+      "title": "VASPO: Self-Distillation with Privileged Value Estimation",
+      "url": "https://huggingface.co/papers/2610.20516",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "On-policy self-distillation provides dense supervision for reasoning models via a privileged self-teacher. However, thi…",
+      "score": 1
+    },
+    {
+      "id": "75e295058c4d",
+      "title": "To Align or Not To Align: Check Your COMPASS Before You Train",
+      "url": "https://huggingface.co/papers/2610.18638",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Combining pretrained models is a common strategy for building AI systems, whether by aligning a vision encoder with a l…",
       "score": 1
     },
     {
@@ -83,6 +83,14 @@
       "url": "https://huggingface.co/papers/2610.17079",
       "publishedAt": "2026-10-12T00:00:00.000Z",
       "summary": "Knowledge-based Visual Question Answering (VQA) requires reasoning that extends beyond visible image content, demanding…",
+      "score": 1
+    },
+    {
+      "id": "2e167b6c3678",
+      "title": "Your Transformer Is Secretly Elastic",
+      "url": "https://huggingface.co/papers/2610.20588",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctua…",
       "score": 0
     },
     {
@@ -92,17 +100,9 @@
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "summary": "Current video object removal methods suffer from prohibitive latency (minutes per video) and non-causal processing that…",
       "score": 0
-    },
-    {
-      "id": "787d02cd4fb4",
-      "title": "Vela: Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization",
-      "url": "https://huggingface.co/papers/2610.05230",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "Most vision-language-action models represent future motion as fixed-rate action chunks, tying temporal resolution and p…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-15T10:18:04.642Z",
+  "fetchedAt": "2026-10-15T15:11:18.884Z",
   "stale": false,
   "error": null
 }
