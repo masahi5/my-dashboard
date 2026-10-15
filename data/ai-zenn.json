@@ -6,6 +6,46 @@
   "category": "ai",
   "items": [
     {
+      "id": "af6c7ff318d6",
+      "title": "定期実行が止まったとき、AIはログを開かずに「スリープしていた等が考えられます」と書いた",
+      "url": "https://zenn.dev/waitlab/articles/claude-desktop-scheduled-task-guessed-cause",
+      "publishedAt": "2026-10-14T22:08:22.000Z",
+      "publisher": "WaitLab",
+      "summary": "毎日 19 時に note に記事を出すタスクを、Claude のデスクトップアプリのスケジュール機能で動かしています。1 回目に止まったとき、AI はログを開かずに原因を推測で書き、確かめないまま終わらせました。2 回目は別の理由で止ま…"
+    },
+    {
+      "id": "d44266e02964",
+      "title": "Gemini APIとPythonで簡易RAG！ドキュメントから自動で回答を生成する実践",
+      "url": "https://zenn.dev/ikuokuotiak/articles/gemini-api-python-document-answer-system",
+      "publishedAt": "2026-10-14T22:02:31.000Z",
+      "publisher": "ahic",
+      "summary": "はじめに こんにちは、ahicです。 日々の業務を13体のAIエージェントとRPAで自動化し、生産性向上に努めています。Claude Code、Python、launchd、Gemini APIを駆使して、泥臭い作業をAIに任せています。…"
+    },
+    {
+      "id": "9d746dd4f8fb",
+      "title": "AIエージェントの「完了しました」を、実行ログの証拠で検証する",
+      "url": "https://zenn.dev/liatris/articles/20261015-agent-completion-proof",
+      "publishedAt": "2026-10-14T22:00:06.000Z",
+      "publisher": "平野翔斗",
+      "summary": "! この記事は、Claude Codeを執筆支援に使った \"毎朝1本書く\" 取り組みの一環で書いています。 目的: 自分のAI活用キャッチアップ。仕組み自体も毎月アップデートしていきます 体制: 題材選定・実装・下書きをClaude Co…"
+    },
+    {
+      "id": "1eb8d2ddb4ff",
+      "title": "仕様書も SQL もログも全部コンテキスト: Snowflake Cortex Agents へのコンテキスト連携の選択肢",
+      "url": "https://zenn.dev/finatext/articles/snowflake-cortex-agent-context-options",
+      "publishedAt": "2026-10-14T22:00:05.000Z",
+      "publisher": "けびん",
+      "summary": "はじめに こんにちは！ナウキャストのデータエンジニアのけびんです。 先日 Snowflake World Tour Tokyo 2026 に「仕様書も SQL もログも全部コンテキスト: Cortex Agent へのコンテキスト連携の選…"
+    },
+    {
+      "id": "43973327f691",
+      "title": "エンジニアではない私が、Claude と Codex と Gemini に同じ問題を120回解かせてみた",
+      "url": "https://zenn.dev/gui/articles/ai-coding-bench-claude-codex-gemini",
+      "publishedAt": "2026-10-14T21:50:40.000Z",
+      "publisher": "guidx",
+      "summary": "病院で事務の仕事をしている Gui です。プログラムは書けません。 10月14日、ふだん秘書のように使っている Claude Code に「もう少し性能を比べられる検証をしようか。結果は Zenn かノートに出したい」と頼みました。その少…"
+    },
+    {
       "id": "ff5ad6f280fc",
       "title": "だんじりは「速く」できるのか？AIで低重心化を考え、先にブレーキをかけた理由",
       "url": "https://zenn.dev/keyro/articles/danjiri-ai-low-center-of-gravity",
@@ -60,49 +100,9 @@
       "publishedAt": "2026-10-14T15:16:01.000Z",
       "publisher": "Emma Wu",
       "summary": "! 筆者は Seedance TV（Seedance 系モデルなどを使える独立した動画生成サービス）の運営に関わっています。Seedance TV は ByteDance の公式サービスではありません。本記事の仕様は Seedance T…"
-    },
-    {
-      "id": "6c118875f284",
-      "title": "Jevで飲食店の売上低下の原因を診断して、ローカルLLMと比べてみた",
-      "url": "https://zenn.dev/tnakano/articles/1ad0feaf0ab904",
-      "publishedAt": "2026-10-14T14:48:28.000Z",
-      "publisher": "nj🦔",
-      "summary": "概要 TypeSafe AIの意思決定モデル「Jev」を触ってみました。 LLMの出力精度をどう上げるかを勉強していて、最近話題のJevが気になったのがきっかけです。題材は「飲食店の売上が下がった原因を特定する」にして、Jevに段階的に問…"
-    },
-    {
-      "id": "f95c46a7591b",
-      "title": "AIの自動化は音もなく止まる──通知は25回出ていたのに、11日間だれも気づかなかった",
-      "url": "https://zenn.dev/kimshoshi/articles/ai-automation-dies-silently",
-      "publishedAt": "2026-10-14T14:48:21.000Z",
-      "publisher": "KIM SEONGSU｜令和8年度 行政書士受験生",
-      "summary": "情報サイトの運営で、AI の定期ジョブをいくつも動かしています。毎日の調査、毎週の記事企画、アクセス解析の取り込みなどです。 この記事は、それらが止まっていたのに気づかなかった話を4つと、そこから決めたことのまとめです。どれも、エラーで派…"
-    },
-    {
-      "id": "c0169f23f217",
-      "title": "Veoプレビュー終了に備える：モデルIDと生成結果の移行チェック",
-      "url": "https://zenn.dev/fablessbridge/articles/69d3ab6b3fd0ed",
-      "publishedAt": "2026-10-14T14:35:00.000Z",
-      "publisher": "FablessBridge",
-      "summary": "アプリが使うモデル名をVeoとだけ記録していると、廃止対象かの切り分けができません。2026年10月14日の公式案内と各2本の試作から、API経路、モデルID、出力音声、見積もりを移行前に確認する手順をまとめます。 2026年10月22日…"
-    },
-    {
-      "id": "3144e0bfa3ee",
-      "title": "非同期動画生成APIの実行記録：見積もり・受付・完了を分ける",
-      "url": "https://zenn.dev/fablessbridge/articles/3f905279edbf67",
-      "publishedAt": "2026-10-14T14:34:09.000Z",
-      "publisher": "FablessBridge",
-      "summary": "API呼び出しの実装で大切だったのは、動画生成の成功だけでなく、予算の判定、受付の控え、完了待ちを別々に保存することでした。この記事ではHiggsfield経由でSeedance 2.5を3回実行した記録を使い、再送で二重に生成しない設計…"
-    },
-    {
-      "id": "b5bbde3cf941",
-      "title": "「日本語で答えて」と設定しても英語が混ざる。AIの返答をフックでチェックする",
-      "url": "https://zenn.dev/twinharness/articles/japanese-only-ai-hook-in-practice",
-      "publishedAt": "2026-10-14T14:31:14.000Z",
-      "publisher": "twinharness",
-      "summary": "AI に「日本語で答えて」と設定しているのに、質問の選択肢や操作の説明だけ英語で出てくる。そんな経験はないでしょうか。表示される文を日本語にそろえたいなら、最後の返答だけを見ていても足りません。 私の環境でも、日本語の設定とルールを入れて…"
     }
   ],
-  "fetchedAt": "2026-10-15T00:52:47.648Z",
+  "fetchedAt": "2026-10-15T05:31:31.639Z",
   "stale": false,
   "error": null
 }
