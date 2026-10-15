@@ -6,6 +6,78 @@
   "category": "ai",
   "items": [
     {
+      "id": "4f3235ecc72e",
+      "title": "Claude Modsで業務ルールをAIに埋め込む ― 指示書では守られなかった3つの規則を「仕組み」にした話",
+      "url": "https://zenn.dev/joinclass/articles/claude-mods-ai-3-20261013220019-18493",
+      "publishedAt": "2026-10-14T23:00:12.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "なぜ指示書をやめて「仕組み」にしたのか 当社は小さな会社で、記事や書籍の制作、受託開発の多くをClaude Codeに任せています。ルールは長いあいだ CLAUDE.md に書いてきました。しかし書けば書くほど守られなくなります。CLAU…"
+    },
+    {
+      "id": "d49e10f537f2",
+      "title": "AIエージェントのPRを人間1人でレビューするゲームを作った(Papers, Please のコードレビュー版)",
+      "url": "https://zenn.dev/jcat_aki/articles/c8f97122a3df1d",
+      "publishedAt": "2026-10-14T23:00:06.000Z",
+      "publisher": "aki",
+      "summary": "AIエージェントのPRを人間1人でレビューするゲームを作った(Papers, Please のコードレビュー版) 開発はAIエージェントがやり、人間のレビュアーは自分1人。そんな会社で、届くプルリクエスト(PR)を1件ずつさばいていくゲー…"
+    },
+    {
+      "id": "35b905872724",
+      "title": "AIにAWSアップデート情報をまとめて通知してもらう",
+      "url": "https://zenn.dev/agent_grow/articles/660abe1a4bfa53",
+      "publishedAt": "2026-10-14T23:00:06.000Z",
+      "publisher": "duora0406",
+      "summary": "目的 私はAWSをメインとしたクラウドエンジニアなので、AWSのアップデート情報をチェックしていましたが色々な悩みがありました。 アップデート情報が多すぎる（いい意味で）のでチェックが大変。 自分の業務に役立つアップデート情報だけほしい。…"
+    },
+    {
+      "id": "d478a08b532d",
+      "title": "Orcaを使い始めて便利だった機能を紹介します",
+      "url": "https://zenn.dev/tokium_dev/articles/orca-first-impressions",
+      "publishedAt": "2026-10-14T23:00:05.000Z",
+      "publisher": "れん",
+      "summary": "TOKIUM でエンジニアをしているren21です。 最近、Orca というデスクトップアプリを使い始めました。Claude Code や Codex などの AI エージェントを動かすための無料のオープンソースです。 Orca は自分た…"
+    },
+    {
+      "id": "59d64eab31fe",
+      "title": "AIにTDDをやらせても、その価値は残るのか──手順ではなく利益を引き継ぐ",
+      "url": "https://zenn.dev/akring/articles/2bca6f38f3a347",
+      "publishedAt": "2026-10-14T23:00:05.000Z",
+      "publisher": "mahitotsu",
+      "summary": "AIにTDDをやらせると、何が起こりうるか AIに、ユーザーを無効化する機能を作らせるとします。人間が書いて承認した受け入れ条件は、次の三つです。 無効化されたユーザーは、新たにログインできない 無効化されたユーザーの既存のセッションは、…"
+    },
+    {
+      "id": "a2f4b8e56e82",
+      "title": "業務でAIにBDDを書き起こしてもらい、人間が何を直したか",
+      "url": "https://zenn.dev/masafumi_heijo/articles/ai-bdd-what-humans-fixed",
+      "publishedAt": "2026-10-14T22:59:43.000Z",
+      "publisher": "まさふみ",
+      "summary": "はじめに 業務で、BDD（振る舞い駆動開発）を次の分担で作る進め方を試しています。チームで決めた仕様をもとに私がたたき台をつくり、AIにそれをシナリオなどのBDD形式で書き起こしてもらい、できあがったものを私がレビューする、という流れです…"
+    },
+    {
+      "id": "852af65cc2da",
+      "title": "Claude の Invalid signature in thinking block を直す ― 履歴は追記のみに",
+      "url": "https://zenn.dev/persimmoq/articles/claude-fable-invalid-signature-thinking",
+      "publishedAt": "2026-10-14T22:27:59.000Z",
+      "publisher": "Persimmoq AI",
+      "summary": "Claude Fable 5.1 に移行して、マルチターンのエージェントがこの 400 で止まった、という相談が増えています。2026 年 9 月に出た Opus 5.5 と Sonnet 5.5、10 月 7 日の Haiku 5.5 …"
+    },
+    {
+      "id": "e2a5f5a8c4a0",
+      "title": "React Nativeでタップが1.8秒効かなくなる謎現象を実機計測で追った話（犯人はTextDecoder.decode）",
+      "url": "https://zenn.dev/yskms/articles/5b1090cfa1a51e",
+      "publishedAt": "2026-10-14T22:21:05.000Z",
+      "publisher": "yskms",
+      "summary": "概要 RSSリーダーアプリのオンボーディング画面で、「次へ」ボタンのタップがもたつくという報告がありました。 最初に疑ったのは「初期フィード投入と初回同期を並行実行している設計」でしたが、実機計測で否定されました。 真因は、巨大なUTF-…"
+    },
+    {
+      "id": "284888dc0881",
+      "title": "AIエージェントに GitHub を任せたら、アカウントが凍結された話と再発防止策",
+      "url": "https://zenn.dev/shoyomayabot/articles/github-account-suspended-ai-agent",
+      "publishedAt": "2026-10-14T22:20:33.000Z",
+      "publisher": "mayabot",
+      "summary": "AIエージェントに GitHub の作業を任せていたら、ある日アカウントが凍結（停止）されました。 この記事では、何が起きたのか、どう申し立てたのか、そして同じことを起こさないために何を変えるのかをまとめます。 AIエージェントに「全部や…"
+    },
+    {
       "id": "af6c7ff318d6",
       "title": "定期実行が止まったとき、AIはログを開かずに「スリープしていた等が考えられます」と書いた",
       "url": "https://zenn.dev/waitlab/articles/claude-desktop-scheduled-task-guessed-cause",
@@ -28,81 +100,9 @@
       "publishedAt": "2026-10-14T22:00:06.000Z",
       "publisher": "平野翔斗",
       "summary": "! この記事は、Claude Codeを執筆支援に使った \"毎朝1本書く\" 取り組みの一環で書いています。 目的: 自分のAI活用キャッチアップ。仕組み自体も毎月アップデートしていきます 体制: 題材選定・実装・下書きをClaude Co…"
-    },
-    {
-      "id": "1eb8d2ddb4ff",
-      "title": "仕様書も SQL もログも全部コンテキスト: Snowflake Cortex Agents へのコンテキスト連携の選択肢",
-      "url": "https://zenn.dev/finatext/articles/snowflake-cortex-agent-context-options",
-      "publishedAt": "2026-10-14T22:00:05.000Z",
-      "publisher": "けびん",
-      "summary": "はじめに こんにちは！ナウキャストのデータエンジニアのけびんです。 先日 Snowflake World Tour Tokyo 2026 に「仕様書も SQL もログも全部コンテキスト: Cortex Agent へのコンテキスト連携の選…"
-    },
-    {
-      "id": "43973327f691",
-      "title": "エンジニアではない私が、Claude と Codex と Gemini に同じ問題を120回解かせてみた",
-      "url": "https://zenn.dev/gui/articles/ai-coding-bench-claude-codex-gemini",
-      "publishedAt": "2026-10-14T21:50:40.000Z",
-      "publisher": "guidx",
-      "summary": "病院で事務の仕事をしている Gui です。プログラムは書けません。 10月14日、ふだん秘書のように使っている Claude Code に「もう少し性能を比べられる検証をしようか。結果は Zenn かノートに出したい」と頼みました。その少…"
-    },
-    {
-      "id": "ff5ad6f280fc",
-      "title": "だんじりは「速く」できるのか？AIで低重心化を考え、先にブレーキをかけた理由",
-      "url": "https://zenn.dev/keyro/articles/danjiri-ai-low-center-of-gravity",
-      "publishedAt": "2026-10-14T21:39:37.000Z",
-      "publisher": "KeyroIME",
-      "summary": "Keyroアカデミー｜機能ガイド だんじりが曲がる瞬間、車体が傾く。あの一秒を、設計で変えられないだろうか。 10月10日、大阪府の泉佐野市と泉大津市でだんじりの横転事故が相次ぎ、2人が亡くなり、16人がけがをしたとテレビ朝日が報じていま…"
-    },
-    {
-      "id": "1b685108e22c",
-      "title": "パランティアの競争優位をFDEとオントロジーから考える",
-      "url": "https://zenn.dev/itdo/articles/8ba5668fb15f8d",
-      "publishedAt": "2026-10-14T18:50:08.000Z",
-      "publisher": "太田和彦",
-      "summary": "顧客の難しい問題を解決できても、次の顧客では同じ調査と実装をやり直す。反対に、共通製品を作り込んでも、顧客の業務に合わず使われない。個別対応と製品化の間には、この二つの難しさがある。 Palantir（パランティア）の事業モデルは、その間…"
-    },
-    {
-      "id": "af2b1615e31f",
-      "title": "ソフトウェア開発でAI中継APIを評価する4つの観点",
-      "url": "https://zenn.dev/searching/articles/85d6a467f9d46e",
-      "publishedAt": "2026-10-14T18:34:22.000Z",
-      "publisher": "searching",
-      "summary": "本記事は Folkbench ブログの記事を翻訳・再構成したものです。 原文（Folkbench ブログ）： https://folkbench.com/en/blog/ai-api-relay-software-engineering-…"
-    },
-    {
-      "id": "ba064991bab2",
-      "title": "AIエージェントは善意で事故を起こす ― 実行の直前で止める「安全フック」を作った",
-      "url": "https://zenn.dev/shacikku3/articles/ai-agent-safety-hook",
-      "publishedAt": "2026-10-14T16:55:35.000Z",
-      "publisher": "シャチラボ",
-      "summary": "はじめに：AIエージェントは「良かれと思って」やる AIエージェント（Cline、Claude Code、Cursor など）に作業を頼むと、ファイルを書き換え、コマンドを実行し、Webを調べてくれます。とても便利ですが、現場で怖いのは悪…"
-    },
-    {
-      "id": "a21d638c659a",
-      "title": "AIエージェントと共有する「外脳」の2026年9月アップデート——ManusからGrokBotへ",
-      "url": "https://zenn.dev/enochan/articles/exocortex-grokbot-update-2026-09",
-      "publishedAt": "2026-10-14T16:13:43.000Z",
-      "publisher": "enochan",
-      "summary": "はじめに：構成は残し、実行基盤を差し替えた 前回（2026年8月）は、Markdown + Git の 外脳（exocortex） と、Manus 上の思考パートナー「マナ」を制御する Harness（主エージェントの制御層）を書きました…"
-    },
-    {
-      "id": "003e68332b8c",
-      "title": "Rule Branchで、開発ルールの見直し・承認・AIへの配布をつなぐ",
-      "url": "https://zenn.dev/yun_bow/articles/ae32f2e8c74820",
-      "publishedAt": "2026-10-14T15:23:34.000Z",
-      "publisher": "ゆんぼう",
-      "summary": "はじめに 「ライブラリは更新した。コードも直した。でも、AIが読む開発規約には、古い書き方が残っている」 AIコーディング支援ツールにルールを渡すため、AGENTS.mdやCLAUDE.mdを用意する。その時点では役立っていても、依存関係…"
-    },
-    {
-      "id": "46bce8b6e2eb",
-      "title": "30秒・音声付きの動画生成で使うプロンプト設計チェックリスト（Seedance 2.5 を例に）",
-      "url": "https://zenn.dev/emmawu_seedance/articles/73e458c4bf5152",
-      "publishedAt": "2026-10-14T15:16:01.000Z",
-      "publisher": "Emma Wu",
-      "summary": "! 筆者は Seedance TV（Seedance 系モデルなどを使える独立した動画生成サービス）の運営に関わっています。Seedance TV は ByteDance の公式サービスではありません。本記事の仕様は Seedance T…"
     }
   ],
-  "fetchedAt": "2026-10-15T05:31:31.639Z",
+  "fetchedAt": "2026-10-15T10:18:04.763Z",
   "stale": false,
   "error": null
 }

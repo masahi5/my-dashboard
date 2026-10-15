@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f09fe551d0b7",
-      "title": "ActionOPD: Distilling Decisions, Not Tokens",
-      "url": "https://huggingface.co/papers/2610.19820",
+      "id": "d9b144f0b590",
+      "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
+      "url": "https://huggingface.co/papers/2610.19698",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Distilling capable language-model agents into smaller models requires aligning the student's behavior with the teacher'…",
-      "score": 35
+      "summary": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying …",
+      "score": 51
     },
     {
-      "id": "84e6dd54b179",
-      "title": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
-      "url": "https://huggingface.co/papers/2610.14448",
-      "publishedAt": "2026-10-10T00:00:00.000Z",
-      "summary": "Asynchronous rollout improves the efficiency of reinforcement learning with verifiable rewards (RLVR) by reducing under…",
-      "score": 17
+      "id": "b3fb71ead933",
+      "title": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
+      "url": "https://huggingface.co/papers/2610.20431",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Recursive self-improvement (RSI) in scientific research aims to improve agents' research capabilities through their own…",
+      "score": 8
     },
     {
-      "id": "2a911be6c5dc",
-      "title": "τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions",
-      "url": "https://huggingface.co/papers/2610.19560",
-      "publishedAt": "2026-10-14T04:19:15.000Z",
-      "summary": "In long-horizon tool-calling tasks, LLM agents can fail not only because of tool-use errors, but also because of ineffe…",
-      "score": 7
+      "id": "8a4e766f6726",
+      "title": "LLM-to-Flow Distillation: Teaching Natural Language Goals to Scientific Generators",
+      "url": "https://huggingface.co/papers/2610.17246",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Generative discovery in science requires coupling high-level scientific reasoning with the ability to generate samples …",
+      "score": 2
     },
     {
-      "id": "4d61ea10f406",
-      "title": "Efficient Scene-Text Refinement via Pixel-Space Grouped Image Generation",
-      "url": "https://huggingface.co/papers/2610.18284",
+      "id": "1cebd21e7214",
+      "title": "Glance Forcing: Making Bidirectional Diffusion Autoregressive at a Glance",
+      "url": "https://huggingface.co/papers/2610.20220",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Autoregressive generation underlies real-time, causal video synthesis and is the backbone of video world models. Today'…",
+      "score": 2
+    },
+    {
+      "id": "e210ffb9d715",
+      "title": "Joint Subspace Sparse Attention for Efficient Long-Context Decoding",
+      "url": "https://huggingface.co/papers/2610.19026",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Generated images often have coherent layouts and visual content, yet local errors in small text and complex characters …",
-      "score": 6
-    },
-    {
-      "id": "6b9e3b303808",
-      "title": "SkillMarker: A KGW-Based Watermarking Method for Agent Skill Ownership Verification",
-      "url": "https://huggingface.co/papers/2610.15725",
-      "publishedAt": "2026-10-11T00:00:00.000Z",
-      "summary": "Agent skills encode operational procedures and domain expertise as reusable knowledge assets, yet their distribution in…",
-      "score": 4
-    },
-    {
-      "id": "025ff317972c",
-      "title": "TextVerifier: Seeing Beyond Recognition to Verify Chinese Text Rendering",
-      "url": "https://huggingface.co/papers/2610.19551",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Text-to-image models increasingly generate readable Chinese text that still contains local rendering defects, such as a…",
-      "score": 3
-    },
-    {
-      "id": "0d37c12075bd",
-      "title": "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
-      "url": "https://huggingface.co/papers/2610.10787",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, ex…",
+      "summary": "Sparse attention reduces the KV-cache traffic that dominates long-context LLM decoding, but practical methods largely o…",
       "score": 2
     },
     {
-      "id": "f15ebf84d321",
-      "title": "VITAL: From Visual Motion to Precise Action",
-      "url": "https://huggingface.co/papers/2610.20604",
+      "id": "10fc996feec0",
+      "title": "Generative World Simulation with DAO and JING",
+      "url": "https://huggingface.co/papers/2610.19726",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "World-action models aim to turn visual anticipation into driving decisions, yet typically train action experts on traje…",
+      "summary": "We present a Generative World Simulation framework that couples persistent shared world state with continuous first-per…",
       "score": 2
     },
     {
-      "id": "3e2a6534b5e6",
-      "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
-      "url": "https://huggingface.co/papers/2610.20609",
+      "id": "74a3acb30a7a",
+      "title": "AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety",
+      "url": "https://huggingface.co/papers/2610.19422",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from lar…",
-      "score": 2
-    },
-    {
-      "id": "9ead39eea8a0",
-      "title": "What Makes a Social Agent's Interactions Effective? Learning from Verifiable Outcomes in Paired Worlds",
-      "url": "https://huggingface.co/papers/2610.20195",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Effective social interaction requires more than fluent responses: agents must reach plans that fit the participants' ne…",
-      "score": 2
-    },
-    {
-      "id": "41c40760cbfd",
-      "title": "SWEeper-Bench: Can Agents Discover Bugs in Interactive Software?",
-      "url": "https://huggingface.co/papers/2610.14096",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Coding agents increasingly interact with users by generating interactive software on the fly rather than replying in te…",
+      "summary": "Large language model (LLM) agents accomplish complex tasks through multi-turn interactions with external tools. However…",
       "score": 1
     },
     {
-      "id": "6606b718d651",
-      "title": "MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking",
-      "url": "https://huggingface.co/papers/2610.09055",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Human videos provide rich motion targets for humanoid learning, yet visually plausible references can still produce per…",
+      "id": "82d0c9af5f22",
+      "title": "ProbabilityBench: Model Evaluation and Calibration with Exact Ground-Truth Uncertainty",
+      "url": "https://huggingface.co/papers/2610.17016",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Evaluating model uncertainty on real-world data is challenging because each instance provides only a single observed la…",
       "score": 1
+    },
+    {
+      "id": "1c530fe662c0",
+      "title": "Jag: Direct Box Prediction for Efficient Visual Grounding",
+      "url": "https://huggingface.co/papers/2610.13239",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "summary": "Visual grounding combines image--language understanding with geometric prediction, yet autoregressive multimodal models…",
+      "score": 1
+    },
+    {
+      "id": "ef1e230df640",
+      "title": "Rethinking LLM-Guided Visual Question Answering: Does Deeper Knowledge Integration Really Help?",
+      "url": "https://huggingface.co/papers/2610.17079",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Knowledge-based Visual Question Answering (VQA) requires reasoning that extends beyond visible image content, demanding…",
+      "score": 0
+    },
+    {
+      "id": "697bdacecc09",
+      "title": "StreamErase: Towards Ultra-Fast Streaming Video Erasing",
+      "url": "https://huggingface.co/papers/2610.20137",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Current video object removal methods suffer from prohibitive latency (minutes per video) and non-causal processing that…",
+      "score": 0
+    },
+    {
+      "id": "787d02cd4fb4",
+      "title": "Vela: Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization",
+      "url": "https://huggingface.co/papers/2610.05230",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Most vision-language-action models represent future motion as fixed-rate action chunks, tying temporal resolution and p…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-15T05:31:31.567Z",
+  "fetchedAt": "2026-10-15T10:18:04.642Z",
   "stale": false,
   "error": null
 }
