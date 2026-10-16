@@ -6,28 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "806152f8aefd",
-      "title": "LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification",
-      "url": "https://huggingface.co/papers/2610.17697",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "AI systems now write long and difficult mathematical proofs, and checking their step-by-step validity is becoming a bot…",
-      "score": 3
-    },
-    {
       "id": "ff97a0666aa2",
       "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
       "url": "https://huggingface.co/papers/2610.22280",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive a…",
-      "score": 2
+      "score": 4
     },
     {
-      "id": "36f3fb6056f7",
-      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
-      "url": "https://huggingface.co/papers/2610.22358",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading …",
-      "score": 2
+      "id": "806152f8aefd",
+      "title": "LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification",
+      "url": "https://huggingface.co/papers/2610.17697",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "AI systems now write long and difficult mathematical proofs, and checking their step-by-step validity is becoming a bot…",
+      "score": 4
     },
     {
       "id": "ca594ea5d5b2",
@@ -35,15 +27,7 @@
       "url": "https://huggingface.co/papers/2610.19247",
       "publishedAt": "2026-10-13T00:00:00.000Z",
       "summary": "Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability…",
-      "score": 2
-    },
-    {
-      "id": "b4747a3deb06",
-      "title": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
-      "url": "https://huggingface.co/papers/2610.16105",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sa…",
-      "score": 2
+      "score": 4
     },
     {
       "id": "28abe805a4f4",
@@ -51,23 +35,15 @@
       "url": "https://huggingface.co/papers/2610.21261",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effec…",
-      "score": 1
+      "score": 3
     },
     {
-      "id": "3ae990def6c9",
-      "title": "Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR",
-      "url": "https://huggingface.co/papers/2610.20461",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Character Error Rate (CER), the standard metric for OCR and vision-language models (VLMs), charges a typo as much as a …",
-      "score": 1
-    },
-    {
-      "id": "77e940bfd6ad",
-      "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
-      "url": "https://huggingface.co/papers/2610.21025",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models star…",
-      "score": 1
+      "id": "36f3fb6056f7",
+      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+      "url": "https://huggingface.co/papers/2610.22358",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading …",
+      "score": 3
     },
     {
       "id": "10cea0d76a55",
@@ -75,6 +51,46 @@
       "url": "https://huggingface.co/papers/2610.22127",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior meth…",
+      "score": 3
+    },
+    {
+      "id": "b4747a3deb06",
+      "title": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
+      "url": "https://huggingface.co/papers/2610.16105",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sa…",
+      "score": 3
+    },
+    {
+      "id": "bd25447062d9",
+      "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
+      "url": "https://huggingface.co/papers/2610.15924",
+      "publishedAt": "2026-10-11T00:00:00.000Z",
+      "summary": "Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn co…",
+      "score": 2
+    },
+    {
+      "id": "3ae990def6c9",
+      "title": "Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR",
+      "url": "https://huggingface.co/papers/2610.20461",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Character Error Rate (CER), the standard metric for OCR and vision-language models (VLMs), charges a typo as much as a …",
+      "score": 2
+    },
+    {
+      "id": "77e940bfd6ad",
+      "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
+      "url": "https://huggingface.co/papers/2610.21025",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models star…",
+      "score": 2
+    },
+    {
+      "id": "38f791a18fb5",
+      "title": "Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility",
+      "url": "https://huggingface.co/papers/2610.20680",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Sparse autoencoders (SAEs) are typically trained on hundreds of millions to billions of activation tokens, yet little w…",
       "score": 1
     },
     {
@@ -84,25 +100,9 @@
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "summary": "Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions. This…",
       "score": 1
-    },
-    {
-      "id": "38f791a18fb5",
-      "title": "Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility",
-      "url": "https://huggingface.co/papers/2610.20680",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Sparse autoencoders (SAEs) are typically trained on hundreds of millions to billions of activation tokens, yet little w…",
-      "score": 0
-    },
-    {
-      "id": "bd25447062d9",
-      "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
-      "url": "https://huggingface.co/papers/2610.15924",
-      "publishedAt": "2026-10-11T00:00:00.000Z",
-      "summary": "Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn co…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-16T21:28:57.083Z",
+  "fetchedAt": "2026-10-16T23:47:38.168Z",
   "stale": false,
   "error": null
 }
