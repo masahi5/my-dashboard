@@ -14,12 +14,44 @@
       "score": 3
     },
     {
-      "id": "b1a43ccebf01",
-      "title": "Gen4P: Video Generators are 4D Perceivers",
-      "url": "https://huggingface.co/papers/2610.22371",
+      "id": "ff97a0666aa2",
+      "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+      "url": "https://huggingface.co/papers/2610.22280",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pret…",
+      "summary": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive a…",
       "score": 2
+    },
+    {
+      "id": "36f3fb6056f7",
+      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+      "url": "https://huggingface.co/papers/2610.22358",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading …",
+      "score": 2
+    },
+    {
+      "id": "ca594ea5d5b2",
+      "title": "Copy-Paste Language Models",
+      "url": "https://huggingface.co/papers/2610.19247",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability…",
+      "score": 2
+    },
+    {
+      "id": "b4747a3deb06",
+      "title": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
+      "url": "https://huggingface.co/papers/2610.16105",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sa…",
+      "score": 2
+    },
+    {
+      "id": "28abe805a4f4",
+      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+      "url": "https://huggingface.co/papers/2610.21261",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effec…",
+      "score": 1
     },
     {
       "id": "3ae990def6c9",
@@ -30,27 +62,11 @@
       "score": 1
     },
     {
-      "id": "36f3fb6056f7",
-      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
-      "url": "https://huggingface.co/papers/2610.22358",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading …",
-      "score": 1
-    },
-    {
       "id": "77e940bfd6ad",
       "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
       "url": "https://huggingface.co/papers/2610.21025",
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "summary": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models star…",
-      "score": 1
-    },
-    {
-      "id": "ca594ea5d5b2",
-      "title": "Copy-Paste Language Models",
-      "url": "https://huggingface.co/papers/2610.19247",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability…",
       "score": 1
     },
     {
@@ -70,20 +86,12 @@
       "score": 1
     },
     {
-      "id": "b4747a3deb06",
-      "title": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
-      "url": "https://huggingface.co/papers/2610.16105",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sa…",
-      "score": 1
-    },
-    {
-      "id": "bd694ab19ac5",
-      "title": "One Bias Score, Two Factors: How Mitigations Affect Option Bias in Multiple-Choice Evaluation",
-      "url": "https://huggingface.co/papers/2610.20993",
+      "id": "38f791a18fb5",
+      "title": "Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility",
+      "url": "https://huggingface.co/papers/2610.20680",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Reordering multiple-choice options can change a model's answer, an effect studied as selection bias (a preference for c…",
-      "score": 1
+      "summary": "Sparse autoencoders (SAEs) are typically trained on hundreds of millions to billions of activation tokens, yet little w…",
+      "score": 0
     },
     {
       "id": "bd25447062d9",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-10-11T00:00:00.000Z",
       "summary": "Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn co…",
       "score": 0
-    },
-    {
-      "id": "9b2f38b98fc1",
-      "title": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
-      "url": "https://huggingface.co/papers/2610.21500",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Reusing the attention KV cache across requests is a standard way to cut prefill cost in long-context LLM serving, and p…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-16T18:15:36.846Z",
+  "fetchedAt": "2026-10-16T21:28:57.083Z",
   "stale": false,
   "error": null
 }
