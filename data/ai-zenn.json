@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "0b16f605319a",
-      "title": "数字の牌から覚える麻雀学習アプリ｢まーじゃんしよか｣の紹介",
-      "url": "https://zenn.dev/yushin16/articles/de07781491d627",
-      "publishedAt": "2026-10-16T11:24:20.000Z",
-      "publisher": "u-shin_16",
-      "summary": "web開発見習いのu-shinです! 今回は僕が開発した麻雀学習アプリ｢まーじゃんしよか｣について紹介していきます! この記事では｢まーじゃんしよか｣にできること､どんな技術を使っているのかを紹介します｡ 1.｢まーじゃんしよか｣の概要 …"
+      "id": "5808258411f2",
+      "title": "生成AIで作ったチラシ画像を公開する前に。文化庁の確認項目と、2026年8月の「プリンシプル・コード」で変わること",
+      "url": "https://zenn.dev/kosukeozawa/articles/genai-image-copyright-checklist",
+      "publishedAt": "2026-10-16T08:20:14.000Z",
+      "publisher": "kosuke",
+      "summary": "生成AIで作った画像や文章を、チラシやSNS、自社サイトに使うこと自体は禁止されていません。ただし、公開すれば通常の著作権侵害と同じ基準で判断されます。「AIが作ったものだから」は理由になりません。 中小企業が先に決めておきたいのは、「既…"
     },
     {
-      "id": "14e0c2848b75",
-      "title": "Claude Code に記録から記事を書かせて、事実を外さない手順（テンプレート付き）",
-      "url": "https://zenn.dev/tasukina/books/claude-code-records-fact-check",
-      "publishedAt": "2026-10-16T11:04:34.000Z",
-      "publisher": "タスキーナ",
-      "summary": "AI に git の履歴・課題票・会話の写しから技術記事や本を書かせると、文のどこで事実を外すか。実際に書いて公開した記事と本の原稿で見つかった30件の食いちがいを外し方の7つの型（A〜G）に分け、見つけて直した段取りを、材料の範囲の表・…"
+      "id": "b2b006f02bed",
+      "title": "AIエージェントに無人で書き込ませる前の実装ガイド ― 二重送信・暴走・夜間停止を防ぐPython",
+      "url": "https://zenn.dev/neuralalpha/books/agent-ops-guide",
+      "publishedAt": "2026-10-16T07:56:06.000Z",
+      "publisher": "NeuralAlpha",
+      "summary": "AIエージェント・ボット・定期ジョブに、人が見ていない状態で投稿・送信・公開・支払いをさせる前に入れておく仕組みを、実際に起きた失敗と、Python標準ライブラリだけで書けるコードで解説します。記録帳（attempt/sent/unkno…"
     },
     {
-      "id": "5195f85f5f99",
-      "title": "まって！そのAI推進、本当にそれでいいの？",
-      "url": "https://zenn.dev/firebird13332/articles/c0fc4ecc58f452",
-      "publishedAt": "2026-10-16T10:38:47.000Z",
-      "publisher": "鈴木",
-      "summary": "最近、AIの活用を推進する企業が増えている。 業務効率化や人手不足の解消など、AIに期待される役割は大きい。AIを使って何ができるのか、どうすれば業務に取り入れられるのか。さまざまな企業が模索しているところだろう。 ただ、上層部が想像する…"
+      "id": "d4fa2ba61ac8",
+      "title": "手で動かすと動くのに、夜中の自動実行だけ落ちるPython（Windows・cp932）の確認リスト",
+      "url": "https://zenn.dev/neuralalpha/articles/windows-night-job-ja",
+      "publishedAt": "2026-10-16T07:55:53.000Z",
+      "publisher": "NeuralAlpha",
+      "summary": "Claude Code で作った小さな自動運用（予約投稿・商品の集計・夜間のログ記録）を、Windows のタスクスケジューラで動かしています。 無人で動かしていた夜中のジョブが、UnicodeEncodeError で止まったことがあり…"
     },
     {
-      "id": "2618e5777628",
-      "title": "ai-deslop入門：AIが書いたTypeScriptの「雑さ」をOxlintで機械的に弾く【検証済み】",
-      "url": "https://zenn.dev/daichi01278/articles/oxlint-ai-deslop-ja",
-      "publishedAt": "2026-10-16T10:06:09.000Z",
-      "publisher": "daichi01278",
-      "summary": "概要（Overview） AI に TypeScript を書かせると、型は通るのにレビューで引っかかるコードが出てきます。たとえば次のようなものです。 input as unknown as User のような二重キャスト unknow…"
+      "id": "58f9021bbc8a",
+      "title": "Claude Code に「緊急停止」と「危険コマンドのブロック」を足すプラグインを作った（標準ライブラリのみ）",
+      "url": "https://zenn.dev/neuralalpha/articles/claude-code-guardrails-plugin-ja",
+      "publishedAt": "2026-10-16T07:55:52.000Z",
+      "publisher": "NeuralAlpha",
+      "summary": "Claude Code に作業を任せていると、「今の、止めたかった」という瞬間があります。私の場合は、予約投稿や商品の公開など外部に書き込む作業を任せているので、止めたいときに確実に止まる仕組みが欲しくなりました。 そこで、Claude …"
     },
     {
-      "id": "0af8de72716f",
-      "title": "JenkinsからGitHub Actionsに移行して、CI/CDをAIにも人にも触れる形にした",
-      "url": "https://zenn.dev/ceres_tech_blog/articles/7c5d1b9d29e621",
-      "publishedAt": "2026-10-16T10:03:52.000Z",
-      "publisher": "kage",
-      "summary": "はじめに Claude Codeで開発していると、コードの多くはAIに任せられます。 ところがCI/CDまわりは、コードも設定も、AIに渡せる形になっていませんでした。 Jenkinsのジョブ設定はサーバー上のGUIと独自スクリプトの中に…"
+      "id": "bb8937484b5b",
+      "title": "コードを書かない運営者が、Claude Codeの毎時の定期実行でスマホアプリを作り育てる仕組み",
+      "url": "https://zenn.dev/bestwisdom/articles/4dd88a194f0606",
+      "publishedAt": "2026-10-16T07:51:13.000Z",
+      "publisher": "合同会社BEST WISDOM",
+      "summary": "技術者ではない運営者1人で、スマホアプリを4本、Google Playに出しています（App Storeには3本で、残りの1本は準備中です）。コードを書くのはAI（Claude Code）で、私はほとんど手を動かしません。決まりを日本語の…"
     },
     {
-      "id": "f565fe70c512",
-      "title": "【AI音声入力体験記】想像の5倍速くて正確だった！実際に使って分かったツール比較＆学割まとめ",
-      "url": "https://zenn.dev/imohuke/articles/ai-voice-input-tools-2026",
-      "publishedAt": "2026-10-16T10:02:31.000Z",
+      "id": "96d5d224a6d1",
+      "title": "Claude Code のモデルだけをモックにして、料金なしで動かす（中身を見て、テストにする）",
+      "url": "https://zenn.dev/tanashun/articles/claude-code-mock-api-testing",
+      "publishedAt": "2026-10-16T07:38:40.000Z",
+      "publisher": "tanashun",
+      "summary": "Claude Code を使い込んだり、Claude Code と組み合わせて動く hooks・MCP サーバー・ツールを作ったりしていると、こんなことで困りませんか。 hooks の出力や MCP サーバーの説明、/compact の要…"
+    },
+    {
+      "id": "1ec7dedf5fbe",
+      "title": "Decision Model「JPT-4B」を試してみる：Colabのテトリスを自動で動かすハンズオン",
+      "url": "https://zenn.dev/nakanishitf/articles/0053291ad09f3b",
+      "publishedAt": "2026-10-16T07:30:20.000Z",
+      "publisher": "T.N.",
+      "summary": "判断の結果で、ゲームの盤面を変える これまで、Jeffで文章から照明の操作を選ぶ例や、Clefで画像の中の猫を判断する例を試してきました。 今回は、判断した結果を次の状態へつなぎ、繰り返し動かしてみます。 題材はテトリス風の落ちものゲーム…"
+    },
+    {
+      "id": "7772ad0e56c5",
+      "title": "プロジェクトの見つけ方について",
+      "url": "https://zenn.dev/konbu_love/articles/463eb5748ec8b4",
+      "publishedAt": "2026-10-16T07:17:34.000Z",
+      "publisher": "こんぶ",
+      "summary": "ハッカソンの作品、提出して終わりじゃもったいない！ 第5回 Agentic AI Hackathon with Google Cloud、参加された皆さん、運営の皆さん、お疲れさまでした！ ハッカソンの作品を見て回るのは楽しいですね。 自…"
+    },
+    {
+      "id": "fd6176579733",
+      "title": "画像切り抜き・背景処理の自動化で、デザイナーと開発者の「地味な作業」を削減する話【2026年運用ノウハウ】",
+      "url": "https://zenn.dev/valleywag/articles/744208a3adff70",
+      "publishedAt": "2026-10-16T07:01:29.000Z",
+      "publisher": "valleywag",
+      "summary": "こんにちは！普段はWeb開発やデザインエンジニアリングの現場で、制作プロセスの効率化やアセット管理の自動化を検証しているエンジニアです。 UIデザインやECサイトの構築、LP制作の現場で「大量の製品画像や人物写真の背景を1枚ずつくり抜く作…"
+    },
+    {
+      "id": "7965c532993d",
+      "title": "【Google Pomelli】Webサイトの配色や雰囲気をAIが自動分析！ブランドブックの作り方ガイド",
+      "url": "https://zenn.dev/imohuke/articles/pomelli-brand-book-guide",
+      "publishedAt": "2026-10-16T07:01:17.000Z",
       "publisher": "いもふけ",
-      "summary": "「音声入力？ どうせ誤字だらけで、結局キーボードで打ち直す羽目になるんでしょ？」 正直に告白すると、私自身も最新のAI音声入力ツールを本格的に使い始めるまでは、まったく同じことを思っていました。昔のスマホの音声入力で、変な変換になってイラ…"
+      "summary": "個人開発やサービス運営をしていると、「自分のサイトの世界観や雰囲気って客観的にどう見えているんだろう？」「デザインやトンマナを統一したいけれど、言語化するのが難しい…」と悩む瞬間、ありませんか？ そんなときに試してみたいのが、Google…"
     },
     {
-      "id": "0c6f697858e9",
-      "title": "個人開発のSaaSに、AIカスタマーサポートは本当に必要なのか？",
-      "url": "https://zenn.dev/peggykang/articles/799d4a7a22d712",
-      "publishedAt": "2026-10-16T09:56:56.000Z",
-      "publisher": "peggykang",
-      "summary": "個人でSaaSを開発していると、最初はプロダクトを作ることだけに集中できます。 しかし、少しずつユーザーが増えてくると、開発以外の仕事も増えていきます。 「この機能はどうやって使うの？」 「ログインできなくなった」 「こんな機能を追加して…"
+      "id": "7decd1d6b081",
+      "title": "社内の Slack と GitHub を LLM に読ませて技術ブログの題材を探す：モデルに任せたこと、任せなかったこと",
+      "url": "https://zenn.dev/salt2/articles/slack-github-llm-bb912760",
+      "publishedAt": "2026-10-16T06:55:03.000Z",
+      "publisher": "崔 一航_Ikkou Sai | SALT2",
+      "summary": "! 3行まとめ 技術ブログに足りていなかったのは、自分たちの現場から出た一次情報でした。それを書ける人と題材を探す作業は、一部の人の記憶に頼っていました。 そこで、Slack・GitHub・会議メモの記録から、書ける人と題材の組み合わせを…"
     },
     {
-      "id": "bc175b99f708",
-      "title": "言わない技術 第11回：AI にレビューをさせない技術",
-      "url": "https://zenn.dev/garplab/articles/69088035117565",
-      "publishedAt": "2026-10-16T09:27:38.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「言わない技術」の第 11 回、本編の最後です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の…"
-    },
-    {
-      "id": "c23eb658fdfc",
-      "title": "中学生でもわかる Lean 4 #24｜論破から検証へ",
-      "url": "https://zenn.dev/dantarg/articles/lean4-debate-to-verification",
-      "publishedAt": "2026-10-16T09:25:05.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "二人で、こんな言い合いになったとします。 Aさん: どんな自然数 n でも、n + 1 = n だ。 Bさん: そんなわけない。自分の間違いを認めろ。 声の大きさでは決めません。 紙に一行だけ書いてみます。 n = 0 0 + 1 = 0…"
-    },
-    {
-      "id": "f73608cab771",
-      "title": "AI前提の開発組織をつくる — 3つの個人リポジトリで検証した権限設計・マージ条件・ガードレール",
-      "url": "https://zenn.dev/yukamiya/articles/claude-harness-engineering-three-repos",
-      "publishedAt": "2026-10-16T09:19:51.000Z",
-      "publisher": "Yu Kamiya",
-      "summary": "TL;DR 個人リポジトリ 3 つ（ポッドキャスト運用 / 個人サイト運用 / 収益化ツール開発）を実験場に、企画からマージ・運用までの開発プロセスを AI に自律実行させる仕組みを 1 ヶ月半かけて組みました 権限は最初から渡さず、Ca…"
-    },
-    {
-      "id": "2078896d4111",
-      "title": "コネクタも API も無いサービスを、Claude Code に操作させる",
-      "url": "https://zenn.dev/edash_tech_blog/articles/6250fc61ccf009",
-      "publishedAt": "2026-10-16T09:19:08.000Z",
-      "publisher": "じょーじ",
-      "summary": "こんにちは、e-dash の中島です。 SRE として認証基盤やインフラを見ています。 Claude Code から外部サービスを操作するときは、MCP のコネクタを使います。 Notion や GitHub のように広く使われているサー…"
-    },
-    {
-      "id": "450a7fd14bd0",
-      "title": "AI ネイティブ時代、最後は現場しか残らない",
-      "url": "https://zenn.dev/mk404/articles/2026-10-10-ai-native-only-the-field-remains",
-      "publishedAt": "2026-10-16T09:00:09.000Z",
-      "publisher": "m. k.",
-      "summary": "AI ネイティブの時代になっても、最後まで残るのは現場である。筆者はそう考えています。この記事は、その持論と根拠を整理したものです。 この記事では、人がその場にいて物理的な対象に働きかける仕事の場を「現場」と呼びます。工事現場、病院、タク…"
+      "id": "9cbb51a448d0",
+      "title": "自分はコードを書かない：Claude CodeでPMとdeveloperのエージェントを分ける方法",
+      "url": "https://zenn.dev/stockrules_jp/articles/722ba3bbde90dd",
+      "publishedAt": "2026-10-16T06:53:29.000Z",
+      "publisher": "ルールベース株研 | AIを活用してルールで投資する",
+      "summary": "! この記事は、自分用に作っている投資ツールの「開発の進め方」を紹介するものです。特定の銘柄の売買を推奨するものではありません。投資判断はご自身で行ってください。 はじめに ルールベース株研です。前回の記事では、Claude Code で…"
     }
   ],
-  "fetchedAt": "2026-10-16T14:15:47.799Z",
+  "fetchedAt": "2026-10-16T18:15:37.039Z",
   "stale": false,
   "error": null
 }

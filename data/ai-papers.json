@@ -6,44 +6,60 @@
   "category": "ai",
   "items": [
     {
-      "id": "230c9b144a0b",
-      "title": "FDE-Gym: The Last Mile of AI Delivery",
-      "url": "https://huggingface.co/papers/2610.22350",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, o…",
-      "score": 147
-    },
-    {
-      "id": "9fadd6b52f93",
-      "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
-      "url": "https://huggingface.co/papers/2610.21095",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain uncle…",
-      "score": 10
-    },
-    {
-      "id": "2c98329fe9a5",
-      "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
-      "url": "https://huggingface.co/papers/2610.22352",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the vis…",
-      "score": 6
-    },
-    {
-      "id": "c4fd53835542",
-      "title": "Virtual Head Attention",
-      "url": "https://huggingface.co/papers/2610.17959",
+      "id": "806152f8aefd",
+      "title": "LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification",
+      "url": "https://huggingface.co/papers/2610.17697",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "The design of attention mechanisms in long-context large language models faces an ``impossible triangle'' among KV cach…",
+      "summary": "AI systems now write long and difficult mathematical proofs, and checking their step-by-step validity is becoming a bot…",
       "score": 3
     },
     {
-      "id": "d37ddda8bee3",
-      "title": "FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
-      "url": "https://huggingface.co/papers/2610.17901",
+      "id": "b1a43ccebf01",
+      "title": "Gen4P: Video Generators are 4D Perceivers",
+      "url": "https://huggingface.co/papers/2610.22371",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pret…",
+      "score": 2
+    },
+    {
+      "id": "3ae990def6c9",
+      "title": "Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR",
+      "url": "https://huggingface.co/papers/2610.20461",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Character Error Rate (CER), the standard metric for OCR and vision-language models (VLMs), charges a typo as much as a …",
+      "score": 1
+    },
+    {
+      "id": "36f3fb6056f7",
+      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+      "url": "https://huggingface.co/papers/2610.22358",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading …",
+      "score": 1
+    },
+    {
+      "id": "77e940bfd6ad",
+      "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
+      "url": "https://huggingface.co/papers/2610.21025",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models star…",
+      "score": 1
+    },
+    {
+      "id": "ca594ea5d5b2",
+      "title": "Copy-Paste Language Models",
+      "url": "https://huggingface.co/papers/2610.19247",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, …",
-      "score": 3
+      "summary": "Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability…",
+      "score": 1
+    },
+    {
+      "id": "10cea0d76a55",
+      "title": "Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization",
+      "url": "https://huggingface.co/papers/2610.22127",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior meth…",
+      "score": 1
     },
     {
       "id": "67075a45b361",
@@ -70,28 +86,12 @@
       "score": 1
     },
     {
-      "id": "b1a43ccebf01",
-      "title": "Gen4P: Video Generators are 4D Perceivers",
-      "url": "https://huggingface.co/papers/2610.22371",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pret…",
-      "score": 1
-    },
-    {
-      "id": "cc3226d00e3c",
-      "title": "Speech event detector: Timestamped detection of non-verbal vocalizations and background sounds for rich speech transcription",
-      "url": "https://huggingface.co/papers/2610.14232",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Automatic speech recognition produces words but drops the non-verbal content of a recording: the breaths, coughs, sighs…",
-      "score": 1
-    },
-    {
-      "id": "f43940e8ed8c",
-      "title": "ForcingBooster: Adaptive Patch-wise Denoising for Fast Autoregressive Video Diffusion",
-      "url": "https://huggingface.co/papers/2610.12625",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Autoregressive video diffusion models have become a leading approach to real-time interactive video generation and vide…",
-      "score": 1
+      "id": "bd25447062d9",
+      "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
+      "url": "https://huggingface.co/papers/2610.15924",
+      "publishedAt": "2026-10-11T00:00:00.000Z",
+      "summary": "Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn co…",
+      "score": 0
     },
     {
       "id": "9b2f38b98fc1",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-16T14:15:47.646Z",
+  "fetchedAt": "2026-10-16T18:15:36.846Z",
   "stale": false,
   "error": null
 }
