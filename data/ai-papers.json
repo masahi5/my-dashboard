@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "41dd8d69fe55",
-      "title": "History Replays Itself: Unleashing Long-Context Capability in Linear Attention",
-      "url": "https://huggingface.co/papers/2610.15715",
-      "publishedAt": "2026-10-11T00:00:00.000Z",
-      "summary": "Linear attention promises the efficiency needed for long-context language modelling, yet its fixed-size recurrent state…",
-      "score": 9
-    },
-    {
-      "id": "fdce73a7aec6",
-      "title": "PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards",
-      "url": "https://huggingface.co/papers/2610.18755",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) from unit tests is the common recipe for post-training code models, but a unit test only as…",
-      "score": 4
-    },
-    {
-      "id": "d10386918bd3",
-      "title": "FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation",
-      "url": "https://huggingface.co/papers/2610.17191",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Linear-time sequence models typically store long-context information in a recurrent state. A fixed-size state limits ho…",
-      "score": 3
-    },
-    {
-      "id": "456a80b281a3",
-      "title": "When Left Is Right? Camera-Motion Understanding beyond Screen",
-      "url": "https://huggingface.co/papers/2610.17242",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Can a vision-language model tell left from right? Modern VLMs solve visual puzzles and follow hour-long videos, yet whe…",
-      "score": 2
-    },
-    {
-      "id": "414656cc7dfd",
-      "title": "Speculative Sampling in Interactive Video Generation",
-      "url": "https://huggingface.co/papers/2610.20556",
+      "id": "662965b2c4c2",
+      "title": "WorldCast: Exploring Intelligent Visual Generation in World State Prediction",
+      "url": "https://huggingface.co/papers/2610.20731",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Interactive video generation commonly relies on small bidirectional chunks to reduce response latency. Yet our prelimin…",
-      "score": 1
+      "summary": "Humans interpret multimodal observations of the world and forecast how it will evolve. Recent multimodal generative sys…",
+      "score": 11
     },
     {
-      "id": "404c5a852487",
-      "title": "Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving",
-      "url": "https://huggingface.co/papers/2610.15112",
-      "publishedAt": "2026-10-10T00:00:00.000Z",
-      "summary": "High-fidelity closed-loop simulation for autonomous driving increasingly relies on dense multi-view 3D reconstruction. …",
-      "score": 1
-    },
-    {
-      "id": "152500d58a47",
-      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
-      "url": "https://huggingface.co/papers/2610.14162",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasin…",
-      "score": 1
-    },
-    {
-      "id": "ae0baeff9d44",
-      "title": "Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules",
-      "url": "https://huggingface.co/papers/2610.14216",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Coding agents such as Claude Code also follow text files that developers write for them: a project file, skills the age…",
-      "score": 1
-    },
-    {
-      "id": "dd5222b1c9a0",
-      "title": "The Agent Knew: Internal States Forecast Unauthorized Actions and Stop Them, and the Lies That Follow",
-      "url": "https://huggingface.co/papers/2610.17301",
-      "publishedAt": "2026-10-12T18:53:33.000Z",
-      "summary": "Language-model agents sometimes act beyond their authorization and then misreport what they did. On CAPE-Bench, matched…",
-      "score": 1
-    },
-    {
-      "id": "028b49304498",
-      "title": "Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming",
-      "url": "https://huggingface.co/papers/2610.19121",
+      "id": "1ba9fc933ff0",
+      "title": "Self-Evolving Agent Harness",
+      "url": "https://huggingface.co/papers/2610.18813",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Structured pruning reduces LLM inference costs by removing model components to produce smaller dense models. However, e…",
-      "score": 0
+      "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable co…",
+      "score": 8
     },
     {
-      "id": "bd7ee15118e2",
-      "title": "Lluna: Collaborative Unimodal Models for Missing-Modality Inference",
-      "url": "https://huggingface.co/papers/2610.20526",
+      "id": "9734cc587230",
+      "title": "WorldMemBench: A Comprehensive Benchmark for Memory of Video World Models",
+      "url": "https://huggingface.co/papers/2610.19063",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "As video models enable longer and more realistic interactive experiences, maintaining a world consistent with its histo…",
+      "score": 8
+    },
+    {
+      "id": "7389c3ae11d9",
+      "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
+      "url": "https://huggingface.co/papers/2610.21439",
+      "publishedAt": "2026-10-15T07:47:04.000Z",
+      "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the fo…",
+      "score": 7
+    },
+    {
+      "id": "48ba24c45ab3",
+      "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2610.22174",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds wit…",
+      "score": 6
+    },
+    {
+      "id": "c868b6e65545",
+      "title": "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance",
+      "url": "https://huggingface.co/papers/2610.21453",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "While generalist vision-language-action (VLA) models have enabled diverse open-world manipulation, real-world robotic a…",
+      "score": 6
+    },
+    {
+      "id": "c7528068b9c7",
+      "title": "Learning Self-Orchestration in Decentralized Agent Swarms",
+      "url": "https://huggingface.co/papers/2610.22322",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "The capabilities of an agent swarm depend on both its individual members and how they coordinate. Yet existing multi-ag…",
+      "score": 5
+    },
+    {
+      "id": "fe0f801728e6",
+      "title": "VascuSR: Iterative Anatomy-Aware Diffusion for CT Super-Resolution",
+      "url": "https://huggingface.co/papers/2610.20509",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Pretrained unimodal models offer a flexible route to multimodal prediction through collaboration, but this collaboratio…",
-      "score": 0
+      "summary": "Generative super-resolution (SR) can recover sharp detail in computed tomography (CT) images from severely downsampled …",
+      "score": 1
     },
     {
-      "id": "847d36f80920",
-      "title": "Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports",
-      "url": "https://huggingface.co/papers/2610.18762",
-      "publishedAt": "2026-10-13T17:23:19.000Z",
-      "summary": "Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Th…",
+      "id": "bcd00b57d2fc",
+      "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
+      "url": "https://huggingface.co/papers/2610.17665",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires infer…",
+      "score": 1
+    },
+    {
+      "id": "7fc98a3e4752",
+      "title": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
+      "url": "https://huggingface.co/papers/2610.21463",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Large language model agents solve tasks through long sequences of tool calls, and the prevailing design has a single st…",
+      "score": 1
+    },
+    {
+      "id": "ee87880f7d9b",
+      "title": "EVA-Cap: Optimizing Audiovisual Video Captioning via Event-Centric Alignment",
+      "url": "https://huggingface.co/papers/2610.22186",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Recent advances in Omni Language Models (OLMs) provide a unified solution for audiovisual video captioning. Nevertheles…",
+      "score": 1
+    },
+    {
+      "id": "3b2c78e7a692",
+      "title": "Recursive Environment Scaling for General Long-Horizon Agents",
+      "url": "https://huggingface.co/papers/2610.16397",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "We study environment scaling as a way to increase agent-benchmark difficulty while holding core task objectives fixed. …",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-16T00:32:28.727Z",
+  "fetchedAt": "2026-10-16T05:00:21.279Z",
   "stale": false,
   "error": null
 }
