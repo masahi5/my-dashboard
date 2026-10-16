@@ -6,36 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "5441c8b703b2",
-      "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
-      "url": "https://huggingface.co/papers/2610.22200",
+      "id": "230c9b144a0b",
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "url": "https://huggingface.co/papers/2610.22350",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tas…",
-      "score": 40
-    },
-    {
-      "id": "0a6011919521",
-      "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
-      "url": "https://huggingface.co/papers/2610.20939",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool u…",
-      "score": 30
-    },
-    {
-      "id": "8897f05813cc",
-      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
-      "url": "https://huggingface.co/papers/2610.22355",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visu…",
-      "score": 23
-    },
-    {
-      "id": "bb60fa4c6b16",
-      "title": "Data World: Scaling Data Environments from Scratch",
-      "url": "https://huggingface.co/papers/2610.21656",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Data agents use code to process heterogeneous files and derive analytical insights. Scaling their training faces costly…",
-      "score": 16
+      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, o…",
+      "score": 147
     },
     {
       "id": "9fadd6b52f93",
@@ -46,43 +22,67 @@
       "score": 10
     },
     {
-      "id": "ecd01fa0f436",
-      "title": "SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models",
-      "url": "https://huggingface.co/papers/2610.06598",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Action-conditioned robot world models must respond precisely to robot trajectories while preserving realistic visual dy…",
-      "score": 2
-    },
-    {
-      "id": "10ee4ea246f7",
-      "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
-      "url": "https://huggingface.co/papers/2610.22362",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessaril…",
-      "score": 2
-    },
-    {
       "id": "2c98329fe9a5",
       "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
       "url": "https://huggingface.co/papers/2610.22352",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the vis…",
+      "score": 6
+    },
+    {
+      "id": "c4fd53835542",
+      "title": "Virtual Head Attention",
+      "url": "https://huggingface.co/papers/2610.17959",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "The design of attention mechanisms in long-context large language models faces an ``impossible triangle'' among KV cach…",
+      "score": 3
+    },
+    {
+      "id": "d37ddda8bee3",
+      "title": "FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
+      "url": "https://huggingface.co/papers/2610.17901",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, …",
+      "score": 3
+    },
+    {
+      "id": "67075a45b361",
+      "title": "PAIR: Bridging Perception and Action in Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2610.09016",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions. This…",
       "score": 1
     },
     {
-      "id": "230c9b144a0b",
-      "title": "FDE-Gym: The Last Mile of AI Delivery",
-      "url": "https://huggingface.co/papers/2610.22350",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, o…",
+      "id": "b4747a3deb06",
+      "title": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
+      "url": "https://huggingface.co/papers/2610.16105",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sa…",
       "score": 1
     },
     {
-      "id": "53203d2f18fb",
-      "title": "SERO: Learning from Executable Oracle Continuations for Long-Horizon Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2610.19397",
+      "id": "bd694ab19ac5",
+      "title": "One Bias Score, Two Factors: How Mitigations Affect Option Bias in Multiple-Choice Evaluation",
+      "url": "https://huggingface.co/papers/2610.20993",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Long-horizon agentic RL is constrained by the futures visited by the current policy. When rollouts fail to reach useful…",
+      "summary": "Reordering multiple-choice options can change a model's answer, an effect studied as selection bias (a preference for c…",
+      "score": 1
+    },
+    {
+      "id": "b1a43ccebf01",
+      "title": "Gen4P: Video Generators are 4D Perceivers",
+      "url": "https://huggingface.co/papers/2610.22371",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pret…",
+      "score": 1
+    },
+    {
+      "id": "cc3226d00e3c",
+      "title": "Speech event detector: Timestamped detection of non-verbal vocalizations and background sounds for rich speech transcription",
+      "url": "https://huggingface.co/papers/2610.14232",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "summary": "Automatic speech recognition produces words but drops the non-verbal content of a recording: the breaths, coughs, sighs…",
       "score": 1
     },
     {
@@ -91,18 +91,18 @@
       "url": "https://huggingface.co/papers/2610.12625",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "summary": "Autoregressive video diffusion models have become a leading approach to real-time interactive video generation and vide…",
-      "score": 0
+      "score": 1
     },
     {
-      "id": "721b1cc335a9",
-      "title": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
-      "url": "https://huggingface.co/papers/2610.21910",
+      "id": "9b2f38b98fc1",
+      "title": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
+      "url": "https://huggingface.co/papers/2610.21500",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "As Vision-Language Models (VLMs) advance, they are increasingly expected to perform spatiotemporal reasoning over motio…",
+      "summary": "Reusing the attention KV cache across requests is a standard way to cut prefill cost in long-context LLM serving, and p…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-16T09:38:33.610Z",
+  "fetchedAt": "2026-10-16T14:15:47.646Z",
   "stale": false,
   "error": null
 }
