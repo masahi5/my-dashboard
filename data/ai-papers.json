@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "662965b2c4c2",
-      "title": "WorldCast: Exploring Intelligent Visual Generation in World State Prediction",
-      "url": "https://huggingface.co/papers/2610.20731",
+      "id": "5441c8b703b2",
+      "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+      "url": "https://huggingface.co/papers/2610.22200",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tas…",
+      "score": 40
+    },
+    {
+      "id": "0a6011919521",
+      "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+      "url": "https://huggingface.co/papers/2610.20939",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Humans interpret multimodal observations of the world and forecast how it will evolve. Recent multimodal generative sys…",
-      "score": 11
+      "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool u…",
+      "score": 30
     },
     {
-      "id": "1ba9fc933ff0",
-      "title": "Self-Evolving Agent Harness",
-      "url": "https://huggingface.co/papers/2610.18813",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable co…",
-      "score": 8
-    },
-    {
-      "id": "9734cc587230",
-      "title": "WorldMemBench: A Comprehensive Benchmark for Memory of Video World Models",
-      "url": "https://huggingface.co/papers/2610.19063",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "As video models enable longer and more realistic interactive experiences, maintaining a world consistent with its histo…",
-      "score": 8
-    },
-    {
-      "id": "7389c3ae11d9",
-      "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
-      "url": "https://huggingface.co/papers/2610.21439",
-      "publishedAt": "2026-10-15T07:47:04.000Z",
-      "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the fo…",
-      "score": 7
-    },
-    {
-      "id": "48ba24c45ab3",
-      "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2610.22174",
+      "id": "8897f05813cc",
+      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+      "url": "https://huggingface.co/papers/2610.22355",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds wit…",
-      "score": 6
+      "summary": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visu…",
+      "score": 23
     },
     {
-      "id": "c868b6e65545",
-      "title": "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance",
-      "url": "https://huggingface.co/papers/2610.21453",
+      "id": "bb60fa4c6b16",
+      "title": "Data World: Scaling Data Environments from Scratch",
+      "url": "https://huggingface.co/papers/2610.21656",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "While generalist vision-language-action (VLA) models have enabled diverse open-world manipulation, real-world robotic a…",
-      "score": 6
+      "summary": "Data agents use code to process heterogeneous files and derive analytical insights. Scaling their training faces costly…",
+      "score": 16
     },
     {
-      "id": "c7528068b9c7",
-      "title": "Learning Self-Orchestration in Decentralized Agent Swarms",
-      "url": "https://huggingface.co/papers/2610.22322",
+      "id": "9fadd6b52f93",
+      "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
+      "url": "https://huggingface.co/papers/2610.21095",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "The capabilities of an agent swarm depend on both its individual members and how they coordinate. Yet existing multi-ag…",
-      "score": 5
+      "summary": "World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain uncle…",
+      "score": 10
     },
     {
-      "id": "fe0f801728e6",
-      "title": "VascuSR: Iterative Anatomy-Aware Diffusion for CT Super-Resolution",
-      "url": "https://huggingface.co/papers/2610.20509",
+      "id": "ecd01fa0f436",
+      "title": "SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models",
+      "url": "https://huggingface.co/papers/2610.06598",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Action-conditioned robot world models must respond precisely to robot trajectories while preserving realistic visual dy…",
+      "score": 2
+    },
+    {
+      "id": "10ee4ea246f7",
+      "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+      "url": "https://huggingface.co/papers/2610.22362",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessaril…",
+      "score": 2
+    },
+    {
+      "id": "2c98329fe9a5",
+      "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
+      "url": "https://huggingface.co/papers/2610.22352",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the vis…",
+      "score": 1
+    },
+    {
+      "id": "230c9b144a0b",
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "url": "https://huggingface.co/papers/2610.22350",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, o…",
+      "score": 1
+    },
+    {
+      "id": "53203d2f18fb",
+      "title": "SERO: Learning from Executable Oracle Continuations for Long-Horizon Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2610.19397",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Generative super-resolution (SR) can recover sharp detail in computed tomography (CT) images from severely downsampled …",
+      "summary": "Long-horizon agentic RL is constrained by the futures visited by the current policy. When rollouts fail to reach useful…",
       "score": 1
     },
     {
-      "id": "bcd00b57d2fc",
-      "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
-      "url": "https://huggingface.co/papers/2610.17665",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires infer…",
-      "score": 1
+      "id": "f43940e8ed8c",
+      "title": "ForcingBooster: Adaptive Patch-wise Denoising for Fast Autoregressive Video Diffusion",
+      "url": "https://huggingface.co/papers/2610.12625",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "summary": "Autoregressive video diffusion models have become a leading approach to real-time interactive video generation and vide…",
+      "score": 0
     },
     {
-      "id": "7fc98a3e4752",
-      "title": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
-      "url": "https://huggingface.co/papers/2610.21463",
+      "id": "721b1cc335a9",
+      "title": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
+      "url": "https://huggingface.co/papers/2610.21910",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Large language model agents solve tasks through long sequences of tool calls, and the prevailing design has a single st…",
-      "score": 1
-    },
-    {
-      "id": "ee87880f7d9b",
-      "title": "EVA-Cap: Optimizing Audiovisual Video Captioning via Event-Centric Alignment",
-      "url": "https://huggingface.co/papers/2610.22186",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Recent advances in Omni Language Models (OLMs) provide a unified solution for audiovisual video captioning. Nevertheles…",
-      "score": 1
-    },
-    {
-      "id": "3b2c78e7a692",
-      "title": "Recursive Environment Scaling for General Long-Horizon Agents",
-      "url": "https://huggingface.co/papers/2610.16397",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "We study environment scaling as a way to increase agent-benchmark difficulty while holding core task objectives fixed. …",
+      "summary": "As Vision-Language Models (VLMs) advance, they are increasingly expected to perform spatiotemporal reasoning over motio…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-16T05:00:21.279Z",
+  "fetchedAt": "2026-10-16T09:38:33.610Z",
   "stale": false,
   "error": null
 }
