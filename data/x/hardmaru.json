@@ -2,10 +2,19 @@
   "handle": "hardmaru",
   "tweets": [
     {
-      "id": "2110441716805500955",
-      "url": "https://x.com/SakanaAILabs/status/2110441716805500955",
-      "text": "Introducing “My Fish” in Sakana Chat.\n\nEnglish Blog: sakana.ai/my-fish/#English\n\nAll your memories in one place, your history on a timeline, and the connections between them mapped out.\n\nSee what Sakana Chat has learned about you:\nchat.sakana.ai/ 🐟",
-      "publishedAt": "2026-10-14T18:44:50.000Z",
+      "id": "2110739454948520260",
+      "url": "https://x.com/hardmaru/status/2110739454948520260",
+      "text": "The AI Scientist v3 is out: The Agentic Scientist.\n\nGitHub: github.com/SakanaAI/AI-Scien…\nBlog: pub.sakana.ai/agentic-scient…\narXiv: arxiv.org/abs/2610.18933\n\nThe Agentic Scientist is the 3rd iteration of our automated AI Scientist research system, and the shift this time is from “one agent writes a paper” to “a scaffold of parallel agents orchestrates the full research loop.”\n\nThe system now orchestrates a pool of parallel workers that share memory and distilled conclusions. Crucially, it features Evidence Generation: isolated agents automatically run controlled baselines and ablations to prove why an idea actually works.\n\nIt works as a co-scientist. We used a development version as a co-scientist to explore biologically plausible learning rules. The agent handled the empirical heavy lifting, proposing mechanisms and running experiments. We stayed in the loop to steer direction, verify results, and moderate claims. That feels like the right division of labor for where the technology actually is.\n\nThis resulted in a new biologically plausible learning algorithm, and the resulting paper was accepted at ALIFE 2026 as an oral presentation.\n\nWe are also releasing AutoIllustrate. It generates editable draw.io vector figures instead of uneditable, hallucinated raster images. Real scientists need vectors, not pixels. I am an SVG junkie ;)\n\nIncredible work by Robert Lange, Luca Grillotti, Yutaro Yamada, Rujikorn Charakorn, and the team!",
+      "publishedAt": "2026-10-15T14:27:56.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2110738746304061491",
+      "url": "https://x.com/SakanaAILabs/status/2110738746304061491",
+      "text": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery\n\nBlog: pub.sakana.ai/agentic-scient…\nGitHub: github.com/SakanaAI/AI-Scien…\narXiv: arxiv.org/abs/2610.18933\n\nSince 2024, we’ve used The AI Scientist as a way to test how far AI alone can take scientific research, from v1 to v2 to the paper published in Nature earlier this year. The Agentic Scientist is the next step in that line of work, built for the era of coding agents.\n\nCoding agents such as Codex and Claude Code now carry out long software tasks on their own. Handing them a research problem, however, tends to produce a strong hyperparameter optimizer rather than a scientist: scores go up, but ideas stay narrow, and the reasons for the gain are rarely examined.\n\nThe Agentic Scientist makes the research loop explicit. It wraps off-the-shelf coding agents in a scaffold that controls what they see, what they write, how they are evaluated, and how results are handed to the next stage.\n\nParallel workers test hypotheses against rubrics defined before any experiment runs, share successes and failures through a common memory, and then ablate the winning program to generate evidence.\n\nWe used an early version of the system to study Error Diffusion, a biologically motivated alternative to backpropagation. Our researchers set the question and the rubric, chose directions at each stage, and verified the results, references, and claims before submission. The resulting paper was accepted as an oral presentation at ALIFE 2026. In autonomous runs, the system also raised Doc-to-LoRA retrieval accuracy from 52% to 98% on multi-needle tasks and designed a learned evolution strategy that improves over its CMA-ES reference on unseen tasks.\n\nAlongside it we release AutoIllustrate, a pipeline for scientific figures that keeps an editable draw.io file as the source of truth, so every diagram can be corrected by hand.\n\nHumans define the question and the standards of evidence; agents expand the experiments researchers can run. We call this Co-Discovery, and we are releasing both systems as open source for the community to build on.",
+      "publishedAt": "2026-10-15T14:25:07.000Z",
       "authorHandle": "SakanaAILabs",
       "likeCount": 0,
       "repost": true
@@ -81,18 +90,9 @@
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2106557225875751004",
-      "url": "https://x.com/hardmaru/status/2106557225875751004",
-      "text": "Love that the AI consciousness debate went straight to the Vatican. In the West we ask whether Claude has a soul, in the East we ask whether the tool works.\n\nSame technology, completely different starting point. Explains a lot about why the vibes around AI are so different.",
-      "publishedAt": "2026-10-04T01:29:15.000Z",
-      "authorHandle": "hardmaru",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-15T05:32:33.107Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://twiiit.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-16T00:33:04.755Z",
+  "stale": false,
+  "error": null
 }

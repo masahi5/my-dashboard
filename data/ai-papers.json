@@ -6,22 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "452eec1e3139",
-      "title": "CLASHarness: Benchmarking Multi-Agent Conflict in Computer Use via a Controllable and Verifiable Generation Pipeline",
-      "url": "https://huggingface.co/papers/2610.19128",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Vision-language models (VLMs) are increasingly deployed in multi-agent systems to automate complex computer-use workflo…",
-      "score": 25
-    },
-    {
-      "id": "b8202fc7f65f",
-      "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
-      "url": "https://huggingface.co/papers/2610.13623",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces contain…",
-      "score": 12
-    },
-    {
       "id": "41dd8d69fe55",
       "title": "History Replays Itself: Unleashing Long-Context Capability in Linear Attention",
       "url": "https://huggingface.co/papers/2610.15715",
@@ -38,6 +22,14 @@
       "score": 4
     },
     {
+      "id": "d10386918bd3",
+      "title": "FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation",
+      "url": "https://huggingface.co/papers/2610.17191",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Linear-time sequence models typically store long-context information in a recurrent state. A fixed-size state limits ho…",
+      "score": 3
+    },
+    {
       "id": "456a80b281a3",
       "title": "When Left Is Right? Camera-Motion Understanding beyond Screen",
       "url": "https://huggingface.co/papers/2610.17242",
@@ -46,12 +38,12 @@
       "score": 2
     },
     {
-      "id": "a2a16b102379",
-      "title": "Self-Conditioning Enables Deep Sequential Reasoning in Flow Matching",
-      "url": "https://huggingface.co/papers/2610.19628",
+      "id": "414656cc7dfd",
+      "title": "Speculative Sampling in Interactive Video Generation",
+      "url": "https://huggingface.co/papers/2610.20556",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Recent work has explored visual reasoning through image generation, where models solve visual-reasoning problems by dir…",
-      "score": 2
+      "summary": "Interactive video generation commonly relies on small bidirectional chunks to reduce response latency. Yet our prelimin…",
+      "score": 1
     },
     {
       "id": "404c5a852487",
@@ -86,6 +78,14 @@
       "score": 1
     },
     {
+      "id": "028b49304498",
+      "title": "Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming",
+      "url": "https://huggingface.co/papers/2610.19121",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Structured pruning reduces LLM inference costs by removing model components to produce smaller dense models. However, e…",
+      "score": 0
+    },
+    {
       "id": "bd7ee15118e2",
       "title": "Lluna: Collaborative Unimodal Models for Missing-Modality Inference",
       "url": "https://huggingface.co/papers/2610.20526",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-15T22:15:35.502Z",
+  "fetchedAt": "2026-10-16T00:32:28.727Z",
   "stale": false,
   "error": null
 }
