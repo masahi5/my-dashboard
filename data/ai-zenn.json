@@ -6,70 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "b8c45dde6529",
-      "title": "AIが書いたRailsのどこを読むか - 不変条件とミューテーションテストでレビューを絞る",
-      "url": "https://zenn.dev/okamyuji/books/rails-ai-review-invariants",
-      "publishedAt": "2026-10-16T23:29:14.000Z",
-      "publisher": "okamyuji",
-      "summary": "AIエージェントにRailsの実装とRSpecを任せると、読み切れない量のコードが届きます。人間が設計で契約を表にまとめ、evilutionによるミューテーションテストとCRAP値でテストの強さを機械的に検証すると、レビューで読む場所を、…"
-    },
-    {
-      "id": "5134352b8e69",
-      "title": "AIの応答を待つ間に元データが変わったら？ Firestoreで古い改定案を確定させない設計",
-      "url": "https://zenn.dev/yun_bow/articles/72433e0a2d061f",
-      "publishedAt": "2026-10-16T23:00:05.000Z",
-      "publisher": "ゆんぼう",
-      "summary": "はじめに 「AIに開発ルールの改定案を依頼した。その応答を待っている間に、別の人が新しいルールを承認した」 AIは正常に応答し、JSONの形式も正しい。本文も、依頼した時点のルールには合っている。しかし、その回答を今のルールに対する提案と…"
-    },
-    {
-      "id": "d10d6ad54943",
-      "title": "Claude Code 入門と逆引き：基本の7ステップと、やりたいことから探す応用",
-      "url": "https://zenn.dev/zundamon_tools/books/claude-code-reverse-dictionary",
-      "publishedAt": "2026-10-16T22:31:08.000Z",
-      "publisher": "ずんだもんの実験道具箱",
-      "summary": "Claude Code を入れたばかりの人のための本です。第1部は基本の7ステップを順に、図と実際の画面で短く見せます。第2部はスキル・hooks・MCP などの応用の22の機能を、「同じ手順を毎回説明し直したくない」のような困りごとから…"
-    },
-    {
-      "id": "30d5a42437e6",
-      "title": "Claude Code 応用編まとめ その4（#16〜#20）：/goal・出力スタイル・キーバインド・設定の調べ方・コミット署名",
-      "url": "https://zenn.dev/zundamon_tools/articles/claude-code-advanced-guide-4",
-      "publishedAt": "2026-10-16T22:31:07.000Z",
-      "publisher": "ずんだもんの実験道具箱",
-      "summary": "Claude Code を毎日使い、任せ方や使い心地、設定のつまずきを整えたい人に向けた記事です。 対象は /goal・出力スタイル・キーバインド・設定が効かないときの調べ方・コミットの署名と書き方の5つです。読み終えると、合うものを選ん…"
-    },
-    {
-      "id": "bcfcf823061c",
-      "title": "メール下書きの修正、AIに理由を1行添えさせると件名まで直った話",
-      "url": "https://zenn.dev/every_ai_recipe/articles/email-revision-reason-one-line",
-      "publishedAt": "2026-10-16T21:19:47.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 弱点を3つ仕込んだ短いお詫びメールの下書きを1つ用意し、会話履歴を共有しない独立したLLMインスタンスに、指示文だけを変えて修正させた 条件A「そのまま送れるように直してください」は、文末の言い回しと文の分割という表層的な修正…"
-    },
-    {
-      "id": "bc1dad58db0c",
-      "title": "Tech Watch 2026-10-16: 記憶と監査の見える化",
-      "url": "https://zenn.dev/laiken/articles/20261016-tech-watch",
-      "publishedAt": "2026-10-16T21:07:17.000Z",
-      "publisher": "らいけん",
-      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: My Fishは、AIが記憶を何回使ったかだけでなく、その記憶を得た元の会話まで表示する。自分は、記憶の内容よりこの往復経路の方が気になった…"
-    },
-    {
-      "id": "779729859c78",
-      "title": "VRMからAI用キャラクターシートを一発で書き出すブラウザツールを作った",
-      "url": "https://zenn.dev/kaazujp/articles/912d0d06b6eca8",
-      "publishedAt": "2026-10-16T20:50:50.000Z",
-      "publisher": "kaazujp",
-      "summary": "VRoid で作ったキャラクターを AI 画像生成・動画生成の「参照画像」として使うために、VRM から決まった構図の高解像度 PNG を書き出すツールを作りました。 公開ページ: https://kaazu.github.io/vrm-…"
-    },
-    {
-      "id": "4c996e398802",
-      "title": "コードより文書が多い——FA業務の非コード工程をAIに任せる",
-      "url": "https://zenn.dev/kensho_ya/articles/fa-non-code-docs-with-ai",
-      "publishedAt": "2026-10-16T20:38:50.000Z",
-      "publisher": "検証屋",
-      "summary": "FAエンジニアの仕事は、コードを書く時間だけでできているわけではない。むしろ書類のほうが多い日もある。仕様の整理、試験手順書、立ち上げ後の報告書。こうした文書仕事が、体感では業務の半分近くを占める。AI活用というとコード生成ばかり注目され…"
-    },
-    {
       "id": "18f4541bfcb5",
       "title": "The Edge of Intelligence ── AIがあなたのデバイスで動く時代：クラウドの終わりと、エッジの始まり",
       "url": "https://zenn.dev/leading_ai/books/edge-ai-intelligence",
@@ -100,9 +36,73 @@
       "publishedAt": "2026-10-16T15:04:46.000Z",
       "publisher": "ai_shihan",
       "summary": "こんにちは、AI師範です。本業の会社員とは別に、副業の受注から納品までを Claude Code の「席」を20以上並べて 回しています。人間は私1人です。 この連載では、その仕組みを 実際に使っている設定ファイルを配りながら 1つずつ見…"
+    },
+    {
+      "id": "7f4d9b38075d",
+      "title": "AIにも経験から生まれる「主観」を持たせる： SubjectiveMindEngine",
+      "url": "https://zenn.dev/yo__oy/articles/d610efec2d1960",
+      "publishedAt": "2026-10-16T14:59:05.000Z",
+      "publisher": "おり",
+      "summary": "TEST"
+    },
+    {
+      "id": "a2a7b2d3f8b8",
+      "title": "Codexは毎日リセットされる？OpenAIの「28日間、改善かフルリセット」施策を整理",
+      "url": "https://zenn.dev/sponge841841/articles/2026-10-06-codex-28-days-reset-policy",
+      "publishedAt": "2026-10-16T14:17:25.000Z",
+      "publisher": "ちっち",
+      "summary": "Codexの28日間アップデートをこれからも毎日追って発信します。続きが気になる方はフォローしてください。 OpenAIのCodexについて、2026年10月に「毎日リセットが来るらしい」という話が広がっています。 結論から言うと、Cod…"
+    },
+    {
+      "id": "5e2daf80d713",
+      "title": "科学研究向けAgent Skills集を試す: 統計スキルは「結論」ではなく「裏付けの質」を変えた",
+      "url": "https://zenn.dev/matsushima_a/articles/day-017-scientific-agent-skills-stat-review",
+      "publishedAt": "2026-10-16T13:39:10.000Z",
+      "publisher": "matsu",
+      "summary": "筆者は海外のAI関連ニュースを毎日1本検証して発信するチャレンジの17日目として、K-Dense-AI/scientific-agent-skills(MIT、旧Claude Scientific Skills)を検証した。生物学・化学・…"
+    },
+    {
+      "id": "3f4099822ad9",
+      "title": "Redmine AI Helperプラグイン 3.11.0までの新機能",
+      "url": "https://zenn.dev/haru_iida/articles/redmine-ai-helper-updates-3110",
+      "publishedAt": "2026-10-16T13:15:23.000Z",
+      "publisher": "haru_iida",
+      "summary": "この記事は Redmine AI Helperプラグインの3.11.0をリリースしました。 https://github.com/haru/redmine_ai_helper 前回は3.6.0までの変更点をまとめました。 https://…"
+    },
+    {
+      "id": "7fd953e9e1f9",
+      "title": "Jensen Huang本人が語るNVIDIAの哲学とモート — Dwarkesh Podcastを要点解説",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr04-jensen-summary",
+      "publishedAt": "2026-10-16T13:12:12.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事について NVIDIA CEO の Jensen Huang が Dwarkesh Podcast で語った内容を、要点だけ抜き出して日本語で解説します。AI半導体の頂点にいる人物が、NVIDIAの強さの正体を自分の言葉で説明する…"
+    },
+    {
+      "id": "4ac8ec60d149",
+      "title": "週点検の答えを月次に積み上げる — 潰れた癖が運用表で消えていく引継ぎの型",
+      "url": "https://zenn.dev/takumahayami/articles/eigyou-ai-getsuji-setsuzoku",
+      "publishedAt": "2026-10-16T12:51:46.000Z",
+      "publisher": "速水 拓真",
+      "summary": "前回は、商談の振り返りの答えを1週間に1回読み返して、繰り返す癖を1つだけ選ばせ、1行で潰す週次点検を作りました（商談の振り返りの答えを1週間で読み返す — 繰り返す癖を1行で潰す点検の型）。点検が週1回で回り始めると、「潰す癖の1行」が…"
+    },
+    {
+      "id": "c5d1d82471ca",
+      "title": "LLMで架空企業94社・仕訳70万行の月次財務データセットを作ってみた",
+      "url": "https://zenn.dev/bekku/articles/a49512485fcde6",
+      "publishedAt": "2026-10-16T12:28:13.000Z",
+      "publisher": "bekku",
+      "summary": "はじめに： 学習や検証に使える欲しい財務データがなかった 架空企業94社における、1年分の仕訳帳と月次の財務三表の合成データセット「SyntheticMonthlyFinancials-JP-v1.0.0」を構築し、公開しました。 htt…"
+    },
+    {
+      "id": "25e32ae5e6f9",
+      "title": "エージェントスキルの費用は「ラベル」より「ファイル」で確かめる（価格ラベル付き4,902件の調査から）",
+      "url": "https://zenn.dev/skillselion/articles/d9888336d44210",
+      "publishedAt": "2026-10-16T12:20:57.000Z",
+      "publisher": "Skillselion",
+      "summary": "Claude CodeやCodexで使うエージェントスキルのうち、価格ラベルが付いたものに限ると、インストールのほとんどは無料のスキルに集まっています。2026-10-16時点のSkillselionの調査では、価格ラベル付きの4,902…"
     }
   ],
-  "fetchedAt": "2026-10-17T02:50:21.035Z",
+  "fetchedAt": "2026-10-17T07:29:28.266Z",
   "stale": false,
   "error": null
 }

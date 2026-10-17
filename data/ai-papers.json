@@ -11,7 +11,15 @@
       "url": "https://huggingface.co/papers/2610.21261",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effec…",
-      "score": 20
+      "score": 93
+    },
+    {
+      "id": "2e0151748b21",
+      "title": "Mine, Sample, Render: Test-Time Diversity Alignment Of Generative Models",
+      "url": "https://huggingface.co/papers/2610.21185",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Modern generative models produce high-quality individual outputs but struggle to sample diversely, even when explicitly…",
+      "score": 5
     },
     {
       "id": "ff97a0666aa2",
@@ -20,14 +28,6 @@
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive a…",
       "score": 5
-    },
-    {
-      "id": "2e0151748b21",
-      "title": "Mine, Sample, Render: Test-Time Diversity Alignment Of Generative Models",
-      "url": "https://huggingface.co/papers/2610.21185",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Modern generative models produce high-quality individual outputs but struggle to sample diversely, even when explicitly…",
-      "score": 4
     },
     {
       "id": "806152f8aefd",
@@ -46,6 +46,14 @@
       "score": 4
     },
     {
+      "id": "bd25447062d9",
+      "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
+      "url": "https://huggingface.co/papers/2610.15924",
+      "publishedAt": "2026-10-11T00:00:00.000Z",
+      "summary": "Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn co…",
+      "score": 3
+    },
+    {
       "id": "36f3fb6056f7",
       "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
       "url": "https://huggingface.co/papers/2610.22358",
@@ -60,14 +68,6 @@
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior meth…",
       "score": 3
-    },
-    {
-      "id": "bd25447062d9",
-      "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
-      "url": "https://huggingface.co/papers/2610.15924",
-      "publishedAt": "2026-10-11T00:00:00.000Z",
-      "summary": "Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn co…",
-      "score": 2
     },
     {
       "id": "3ae990def6c9",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-10-17T02:50:20.881Z",
+  "fetchedAt": "2026-10-17T07:29:28.070Z",
   "stale": false,
   "error": null
 }
