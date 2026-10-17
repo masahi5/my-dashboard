@@ -6,11 +6,27 @@
   "category": "ai",
   "items": [
     {
+      "id": "28abe805a4f4",
+      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+      "url": "https://huggingface.co/papers/2610.21261",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effec…",
+      "score": 20
+    },
+    {
       "id": "ff97a0666aa2",
       "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
       "url": "https://huggingface.co/papers/2610.22280",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive a…",
+      "score": 5
+    },
+    {
+      "id": "2e0151748b21",
+      "title": "Mine, Sample, Render: Test-Time Diversity Alignment Of Generative Models",
+      "url": "https://huggingface.co/papers/2610.21185",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Modern generative models produce high-quality individual outputs but struggle to sample diversely, even when explicitly…",
       "score": 4
     },
     {
@@ -30,14 +46,6 @@
       "score": 4
     },
     {
-      "id": "28abe805a4f4",
-      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
-      "url": "https://huggingface.co/papers/2610.21261",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effec…",
-      "score": 3
-    },
-    {
       "id": "36f3fb6056f7",
       "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
       "url": "https://huggingface.co/papers/2610.22358",
@@ -51,14 +59,6 @@
       "url": "https://huggingface.co/papers/2610.22127",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior meth…",
-      "score": 3
-    },
-    {
-      "id": "b4747a3deb06",
-      "title": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
-      "url": "https://huggingface.co/papers/2610.16105",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sa…",
       "score": 3
     },
     {
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-10-16T23:47:38.168Z",
+  "fetchedAt": "2026-10-17T02:50:20.881Z",
   "stale": false,
   "error": null
 }
