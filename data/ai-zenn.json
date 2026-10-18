@@ -6,6 +6,70 @@
   "category": "ai",
   "items": [
     {
+      "id": "715e85595227",
+      "title": "AIが示したファイルと行番号を、どこまで信用するか――根拠の再取得と検証境界",
+      "url": "https://zenn.dev/yun_bow/articles/27b8aa6b8c2f97",
+      "publishedAt": "2026-10-17T23:14:13.000Z",
+      "publisher": "ゆんぼう",
+      "summary": "はじめに 「このプロジェクトでは、API呼び出しを3回再試行する規約があります。根拠はsrc/format.tsの1〜3行です」 AIの説明にファイル名と行番号が付いていると、確認できる根拠があるように見える。しかし、ファイルを開いてみる…"
+    },
+    {
+      "id": "cb73714b0191",
+      "title": "Go2 を歩かせる — 四足歩行の基本",
+      "url": "https://zenn.dev/oggata/articles/0813e9d51923d6",
+      "publishedAt": "2026-10-17T23:02:08.000Z",
+      "publisher": "Fumitoshi Ogata 緒方文俊",
+      "summary": "Go2 を歩かせる — 四足歩行の基本 この章では、四足ロボット Go2 に 前後・左右・旋回のどの方向にも歩ける方策 を学習させます。Mac mini で約 20 分の学習です。 ここで作る歩行方策は、本書の後半でずっと使います。迷路（…"
+    },
+    {
+      "id": "5b6da9ca63c2",
+      "title": "Artifactsで経営レポートを共有する — Markdownを卒業する",
+      "url": "https://zenn.dev/joinclass/articles/artifacts-markdown-20261015220018-6357",
+      "publishedAt": "2026-10-17T23:00:10.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "なぜMarkdownレポートをやめたのか 当社では、部門ごとの状態を .company/STATE.md というMarkdownに集約し、毎朝スクリプトで読み取ってSlackに流しています。AIエージェントにとってMarkdownは最高の…"
+    },
+    {
+      "id": "d651b3dd6746",
+      "title": "「止める基準」を“誰が・いつ・なぜ”まで記録する ― 複数AIエージェント運用における承認ログとロールバック設計",
+      "url": "https://zenn.dev/taichiendoh/articles/ai-agent-approval-log-rollback-design",
+      "publishedAt": "2026-10-17T22:20:25.000Z",
+      "publisher": "遠藤太一",
+      "summary": "複数のAIエージェント・開発ツールを並列で動かす運用が広がるにつれ、「誰がどの行動を承認したか」「おかしければどう戻すか」という設計の議論も増えてきました。たとえば、承認は実行される行動そのものの内容に対して紐づけるべきで、後から行動の内…"
+    },
+    {
+      "id": "d6b2684b10db",
+      "title": "個人ECの定型業務をClaudeのスケジュールタスクで回す：止まらない・壊さないプロンプト設計",
+      "url": "https://zenn.dev/yohei0417/articles/f1c9abed31343e",
+      "publishedAt": "2026-10-17T22:07:47.000Z",
+      "publisher": "陽平",
+      "summary": "はじめに 個人でAmazon物販をしながら、発送依頼・出荷通知・在庫同期・補てん漏れチェックなどの定型業務を、Claudeのスケジュールタスクに任せています。毎日決まった時刻に起動し、ブラウザを操作して、結果をスマホに通知してくる仕組みで…"
+    },
+    {
+      "id": "792689b9aae7",
+      "title": "「クラウドに移したい」と相談したら、Claude Code に止められた話（「仕事の型」の後日談）",
+      "url": "https://zenn.dev/sk8jp/articles/d8dcad84a113e3",
+      "publishedAt": "2026-10-17T22:05:44.000Z",
+      "publisher": "YAZ",
+      "summary": "はじめに 週末 Solo Engineer が、Claude Code に「仕事の型」を覚えさせた話 の後日談です。 前回の記事では、CodeRabbit のレビュー回数の上限（1 時間に 1 回）に合わせて、レビューの依頼を約 70 分…"
+    },
+    {
+      "id": "05e12620c04a",
+      "title": "🧪監査branchは研究室だった。1,286 Mutationのあと、正式に残すものだけを出荷した。",
+      "url": "https://zenn.dev/tosane932/articles/9069c03e38c743",
+      "publishedAt": "2026-10-17T21:28:13.000Z",
+      "publisher": "tosane932",
+      "summary": "はじめに こんにちは、tosane932です。 現役トラックドライバーとして働きながら、2026年5月12日からPythonを独学し、Flask製Webアプリ Bakery Hub を開発しています。 Bakery Hubでは、pytes…"
+    },
+    {
+      "id": "d8a54e94e2be",
+      "title": "Tech Watch 2026-10-18: 検証可能性から組む",
+      "url": "https://zenn.dev/laiken/articles/20261018-tech-watch",
+      "publishedAt": "2026-10-17T21:12:01.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: コードレビューを最後の関門ではなく、書いている最中の継続的な検査にする、という話が気になった。人が全部読むことを安全性の代理にしてきたけれど…"
+    },
+    {
       "id": "9e93f0e025ad",
       "title": "Jevfast.com の判断チャートで読む、ツール履歴を残す二つの質問",
       "url": "https://zenn.dev/favoyang/articles/bd356537b2479b",
@@ -36,73 +100,9 @@
       "publishedAt": "2026-10-17T17:36:17.000Z",
       "publisher": "tanashun",
       "summary": "Claude Code を、ターミナルで使うだけでなく、自分のアプリやスクリプト（社内のチャットボット、エディタの拡張、CI のスクリプトなど）から動かしたいことがあります。ところが、こんなところで行き詰まりがちです。 claude -p…"
-    },
-    {
-      "id": "ae9b07cca268",
-      "title": "Linuxで通ったAIのPythonが、Windowsで壊れる5か所。検証スクリプト自身が1つ隠していた",
-      "url": "https://zenn.dev/ritsuhayase/articles/42a8e8ab7fbb77",
-      "publishedAt": "2026-10-17T16:40:01.000Z",
-      "publisher": "早瀬 律",
-      "summary": "AIに書かせた Python を、Windows でも動くか確かめる小さなスクリプト群を持っています。先日それを「まとめて実行する係」を通さずに1本ずつ動かしたところ、以前の記録と違う結果が1つ出ました。 原因は、まとめて実行する係のほう…"
-    },
-    {
-      "id": "dcaccb0ad474",
-      "title": "「Storymesh」でStoryファイルの漏れ・仕様の漏れを検知",
-      "url": "https://zenn.dev/yuya_0811/articles/538c3f6815cf0c",
-      "publishedAt": "2026-10-17T16:17:22.000Z",
-      "publisher": "yuno",
-      "summary": "初めに こんにちは。yunoです。 今回は個人OSSとして作成したStorymeshというツールの紹介になります。 ※ 本ツールはStorybookを用いる前提で利用するツールです。 リポジトリ: https://github.com/y…"
-    },
-    {
-      "id": "9993b5f5f830",
-      "title": "中学生でもわかる Lean 4――とっても優しい形式証明入門",
-      "url": "https://zenn.dev/dantarg/books/lean4-proof-literacy",
-      "publishedAt": "2026-10-17T15:59:37.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "Lean 4が初めてでも、身近な疑問と小さな例から「証明する」「確かめる」を学べる入門書。反例、前提、定義、形式証明の読み方を一歩ずつたどり、AIの答えや「形式検証済み」という説明について、何が確認され、どこから先はまだ分からないかを見極…"
-    },
-    {
-      "id": "a180ce9504fb",
-      "title": "C#アプリのマニュアル作成をGemini Flash Liteで自動化してみた（成功と泥沼の検証記録）",
-      "url": "https://zenn.dev/chililikobo/articles/b2bbc93b90b523",
-      "publishedAt": "2026-10-17T15:57:38.000Z",
-      "publisher": "chilili kobo",
-      "summary": "Windows向けのデスクトップアプリ（C# / .NET）を個人開発していると、機能実装と同じくらいコストがかかるのが 「リリース後のマニュアル・ドキュメント作成」 です。 スクリーンショットを1枚ずつ撮る ペイントツールで赤枠や矢印を…"
-    },
-    {
-      "id": "c4e2af8e079d",
-      "title": "シークレットのローテーションは、値を更新するだけでは終わらない",
-      "url": "https://zenn.dev/numekudi/articles/a3a4ae380d125a",
-      "publishedAt": "2026-10-17T15:36:38.000Z",
-      "publisher": "numekudi",
-      "summary": "はじめに LLMサービスの普及により、APIキーを扱う機会が増えました。 しかし、そのLLMを基盤とするコーディングエージェントにより開発時のローカル環境が外部送信される機会は増加し、既存ソフトウェアの解析速度も上昇しました。 APIキー…"
-    },
-    {
-      "id": "d5063f7a9059",
-      "title": "AIに「いい感じに動かして」が通じない理由と、動きの名前で頼む方法",
-      "url": "https://zenn.dev/motytools/articles/abdcd000c7a998",
-      "publishedAt": "2026-10-17T15:27:45.000Z",
-      "publisher": "motytools",
-      "summary": "ClaudeやChatGPTにLPを作ってもらうとき、「おしゃれに動かして」「いい感じのアニメーションを付けて」と頼んだことはありませんか。 返ってくる動きは毎回ばらばらで、全部の要素がふわふわ動いたり、1画面目の見出しまで遅れて出てきた…"
-    },
-    {
-      "id": "6dd4a73e97aa",
-      "title": "32人の3Dアバターが全員消えた日。非エンジニアの私がバイブコーディングでやらかした全記録と、AI顧問のGeminiと築いた20の防衛壁",
-      "url": "https://zenn.dev/scopewest/articles/612c5ed8a2480b",
-      "publishedAt": "2026-10-17T14:59:02.000Z",
-      "publisher": "SCOPEWEST",
-      "summary": "1. はじめに：この記事の「正直なスタンス」について 最初に正直に告白します。私はエンジニアではありません。 普段は「バイブコーディング（Vibe Coding：AIと対話しながら自然言語でコードを生成する開発スタイル）」を駆使して、思い…"
-    },
-    {
-      "id": "a8e4d389707f",
-      "title": "理解負債を測るCLIを3日で作って、自分で使って止めた話",
-      "url": "https://zenn.dev/riko_yyy/articles/af85029a213366",
-      "publishedAt": "2026-10-17T14:24:50.000Z",
-      "publisher": "riko_yyy",
-      "summary": "AI がコードを書くほど、「自分が把握しているつもりの範囲」と実際のコードの間にズレがたまっていきます。このズレは最近「理解負債」と呼ばれるようになりました。 これを測れたら面白いのでは、と思って git の履歴から理解負債を数値化する …"
     }
   ],
-  "fetchedAt": "2026-10-17T23:29:10.268Z",
+  "fetchedAt": "2026-10-18T01:26:24.211Z",
   "stale": false,
   "error": null
 }
