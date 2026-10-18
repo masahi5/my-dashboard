@@ -6,6 +6,22 @@
   "category": "ai",
   "items": [
     {
+      "id": "2b007995796d",
+      "title": "正答率がほぼ同じAIでも、確認工数はなぜ違うのか？―READY研究が示す評価の落とし穴",
+      "url": "https://zenn.dev/aiofficelab/articles/4b655d99d9d334",
+      "publishedAt": "2026-10-18T00:00:05.000Z",
+      "publisher": "AiOfficeLab",
+      "summary": "AIモデルを比較するとき、何を基準に選んでいるでしょうか。 正答率、ベンチマークスコア、処理速度、料金。どれも重要な指標です。 しかし、実際の業務でAIを使う場合、もう一つ確認したいことがあります。 そのAIを安心して使うために、人間はど…"
+    },
+    {
+      "id": "40323dbeb786",
+      "title": "理解がボトルネックになった時代に、コードを解説動画にする himotoku.dev を作った",
+      "url": "https://zenn.dev/adsholoko/articles/himotoku-release",
+      "publishedAt": "2026-10-17T23:46:14.000Z",
+      "publisher": "Shogo Arakawa",
+      "summary": "みなさんこんにちは。 タイトルの通りですが、個人開発でhimotoku.devをリリースしました。 プロンプトから、ソフトウェアエンジニアのための美しく規則正しい解説動画を生成できるサービスです。 早速ですが、「クイックソートについて解説…"
+    },
+    {
       "id": "715e85595227",
       "title": "AIが示したファイルと行番号を、どこまで信用するか――根拠の再取得と検証境界",
       "url": "https://zenn.dev/yun_bow/articles/27b8aa6b8c2f97",
@@ -84,25 +100,9 @@
       "publishedAt": "2026-10-17T18:03:58.000Z",
       "publisher": "Mirastead",
       "summary": "端末の Claude Code を、起動した時点から bypassPermissions（許可をたずねないモード）にする手順です。やることは、モードの指定をユーザー設定ファイルへ移し、プロジェクト側の指定を消して、立ち上げ直すことです。「…"
-    },
-    {
-      "id": "85d4e03c5402",
-      "title": "Claude Code・Codexの古い会話をゴミ箱へ移すCLI「aiClean」を作った",
-      "url": "https://zenn.dev/t_tokunaga/articles/2026-10-09-aiclean-cli",
-      "publishedAt": "2026-10-17T17:51:23.000Z",
-      "publisher": "TakumiTOKUNAGA",
-      "summary": "Claude CodeやCodexの会話ログは増えていきます。保存フォルダの日付で削除すると、最近再開した会話まで消すかもしれません。 そこで、会話の最終メッセージを確認し、古い会話をOSのゴミ箱へ移す Rust製CLI、aiCleanを…"
-    },
-    {
-      "id": "b2af7cecc565",
-      "title": "Claude Code を自分のアプリから操作する stream-json 入門（許可の確認や質問にも答える）",
-      "url": "https://zenn.dev/tanashun/articles/claude-code-stream-json",
-      "publishedAt": "2026-10-17T17:36:17.000Z",
-      "publisher": "tanashun",
-      "summary": "Claude Code を、ターミナルで使うだけでなく、自分のアプリやスクリプト（社内のチャットボット、エディタの拡張、CI のスクリプトなど）から動かしたいことがあります。ところが、こんなところで行き詰まりがちです。 claude -p…"
     }
   ],
-  "fetchedAt": "2026-10-18T01:26:24.211Z",
+  "fetchedAt": "2026-10-18T06:21:53.943Z",
   "stale": false,
   "error": null
 }
