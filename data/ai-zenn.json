@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "db8263822468",
-      "title": "AI 基礎① AI と ML・DL・LLM はそもそも何で、どういう関係性なのか",
-      "url": "https://zenn.dev/luvmini511/articles/ai-ml-dl-llm-basics",
-      "publishedAt": "2026-10-18T08:07:03.000Z",
-      "publisher": "みんちゃん",
-      "summary": "🌼 はじめに こんにちは、みなさん AI 使ってますか？私ももう AI なしではやっていけない体になってしまいました。 ですが、AI 関連でなんとなく知ってるようで実はあまりわかってないもの多いなーと思ったので、そのなんとなく AI 知…"
+      "id": "b2bbe89460e1",
+      "title": "エージェントGUIツールにHTML表示機能を搭載したら想像以上に効いた ― Pockode",
+      "url": "https://zenn.dev/sijiaoh/articles/4b59f3464fab9d",
+      "publishedAt": "2026-10-18T11:48:17.000Z",
+      "publisher": "シカク",
+      "summary": "スマホからClaude Codeを動かすために作ったPockodeですが、PCでの開発でも常用しており、コツコツと開発を続けてきました。 最近追加した機能の一つに、エージェントがチャット内でHTMLを表示する機能があります。正直なところ、…"
     },
     {
-      "id": "747dee55d4d7",
-      "title": "生成AIに「拡散モデル」を聞いてみた（復元に見えるのに、なぜ生成できる？）",
-      "url": "https://zenn.dev/tkpurine/articles/diffusion-models-intro",
-      "publishedAt": "2026-10-18T08:04:38.000Z",
-      "publisher": "プリン",
-      "summary": "はじめに このシリーズでは、背景除去・SAM・超解像(Real-ESRGAN)・顔復元(GFPGAN)・物体消去(LaMa) を作ってきました。SRやGFPGANは GAN系、消去のLaMaは専用の穴埋め。最後に、いまの画像生成（Stab…"
+      "id": "0c3fa8dc7692",
+      "title": "人間の脳はなぜ「AIっぽい」と気付けるのか？",
+      "url": "https://zenn.dev/syoshida07/articles/f262c8551e6cdc",
+      "publishedAt": "2026-10-18T11:46:39.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "生成AIが描いた人物や風景を見て、どこが変か説明できないのに「AIっぽい」と感じた経験はないでしょうか？ 大阪では昨日「なにわ淀川花火大会」があり、近所で集まる人むけにポスターを作ろうとしたのですが、どうやっても「なにわ淀川花火大会」らし…"
     },
     {
-      "id": "a054777d84cd",
-      "title": "機能は全部作ったのに、なぜ使いにくい？「体験」から考えるプロダクト開発",
-      "url": "https://zenn.dev/riozenn/articles/8a22a288b24c9f",
-      "publishedAt": "2026-10-18T07:39:30.000Z",
-      "publisher": "りおまる",
-      "summary": "はじめに 「欲しかった機能は全部実装した。なのに、なぜか使いづらい」 個人開発でもチーム開発でも、こんな経験はないでしょうか。 要求された機能はすべて動いている。それなのに、実際に使ってみると、思っていたほど便利ではない。 これは、「機能…"
+      "id": "e83283757519",
+      "title": "AIに「一人でWebサービスを運営して」と任せてみた：時差対応の日程調整ツール「あうとき」",
+      "url": "https://zenn.dev/autoki_app/articles/0308c3d300f0c9",
+      "publishedAt": "2026-10-18T10:59:51.000Z",
+      "publisher": "あうとき",
+      "summary": "はじめに あうとき（Autoki） は、タイムゾーンをまたぐ日程調整のための Web ツールです。 https://autoki.app このサービスで少し変わっているのは、企画・実装・デプロイ・計測・宣伝までを Grok Bot 上で動…"
     },
     {
-      "id": "ce58be47f530",
-      "title": "今日の市場ブリーフィング",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-16-market-daily",
-      "publishedAt": "2026-10-18T07:16:19.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 米国株式市場はS&P500が前日比-0.45%と下落し、NASDAQも前日比-0.01%と小幅に反落しました。米10年国債利回りは5.01%（+0.20%）に上昇し、ボラティリティを示すVIX指数は17.71（+2.97%）に上昇して…"
+      "id": "0d71ccee5041",
+      "title": "40年計算機と向き合ってきた元半導体屋が、AI時代の「エンジニア教育の空洞化」に本気で鳴らす警笛",
+      "url": "https://zenn.dev/maskedridersys/articles/ddde1a1cc07d95",
+      "publishedAt": "2026-10-18T10:49:48.000Z",
+      "publisher": "maskedridersystem",
+      "summary": "はじめに 現代社会においてAIの技術的スケールの急激な進歩に対して警笛を鳴らす研究者もおおくいます。 とくにITに深くかかわっいるビル・ゲイツ氏、サム・アルトマン氏、ダリオ・アモディ氏などが強い警笛をならしています。 小生は40年前（19…"
     },
     {
-      "id": "2dc482aeb811",
-      "title": "コードを外に出さないAIコーディング環境 ― Ollama＋Clineを実機で測って組む",
-      "url": "https://zenn.dev/shacikku3/books/local-ai-coding",
-      "publishedAt": "2026-10-18T06:47:34.000Z",
-      "publisher": "シャチラボ",
-      "summary": "社外秘のコードをAIに渡せない人のための、完全ローカルなAIコーディング環境（Ollama＋Cline）の作り方。RTX 4080 16GBでの実測値、外部への送信を止める設定と確かめ方、そして「安全フックが実は一度も呼ばれていなかった」…"
+      "id": "2a94c80f2d08",
+      "title": "ライブイベントの映像オペレーターが現場の課題をコードで解決するために作ったOSS・ツール群",
+      "url": "https://zenn.dev/seventhwell/articles/eac72f3f2d4c75",
+      "publishedAt": "2026-10-18T10:47:34.000Z",
+      "publisher": "kajisho5",
+      "summary": "はじめまして。東京を拠点に SEVENTHWELL という屋号で、イベント映像・配信のテクニカル業務（システム設計・スイッチャーオペレーション）とソフトウェア開発を行っている梶山（@kajisho5）です。 普段は企業フォーラムや医学会、…"
     },
     {
-      "id": "8d31d0b91786",
-      "title": "教師あり学習と教師なし学習の違いを理解する",
-      "url": "https://zenn.dev/ok_ml/articles/30b00cfaa72807",
-      "publishedAt": "2026-10-18T06:33:08.000Z",
-      "publisher": "sai",
-      "summary": "機械学習の基礎を学ぶ① 教師あり学習と教師なし学習の違いを理解する はじめに 前回の記事では、生成AIについてもっと理解したいと思い、機械学習の基礎から勉強することにした経緯を書きました。 今回からは、Andrew Ng先生のCourse…"
+      "id": "e033409c1e6c",
+      "title": "生成に成功しても、受取とGPU停止は別に確かめる",
+      "url": "https://zenn.dev/bricks/articles/verify-video-receipt-and-release",
+      "publishedAt": "2026-10-18T10:41:36.000Z",
+      "publisher": "Renga",
+      "summary": "5秒の動画はできていました。しかし、埋め込みUIは完了へ変わらず、受取を照合する欄も更新されず、終了ボタンは無効のままでした。 ColabのL4でWan2.2 TI2V-5Bを動かした非公開試作の記録です。生成成功、ファイルの受取、ランタ…"
     },
     {
-      "id": "6660c897264d",
-      "title": "AI に API の動作確認を任せたら、頼んでいない $10 が引き落とされていた",
-      "url": "https://zenn.dev/claire_ai/articles/kakin-iriguchi",
-      "publishedAt": "2026-10-18T06:12:50.000Z",
-      "publisher": "クレア",
-      "summary": "AI（Claude Code）に任せていた作業の途中で、X（旧 Twitter）の支払いに $10 が引き落とされていた。誰も承認していないお金だった。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています こ…"
+      "id": "9714fd35fcd1",
+      "title": "判断特化モデルの比較: Decisions API・Jev・Clef",
+      "url": "https://zenn.dev/bocek/articles/5e1ba6fae7e7d6",
+      "publishedAt": "2026-10-18T10:21:12.000Z",
+      "publisher": "はせ",
+      "summary": "はじめに 判断特化モデルを選ぶ際の参考として、Decisions API[1]・Jev[2]・Clef[3]の仕様と料金を比較し、Decisions APIとJevを実際に試しました。 今回の検証では、両APIの精度に違いは見られませんで…"
     },
     {
-      "id": "84dc235eb423",
-      "title": "AIでWebページの一部だけを編集する方法：選択した要素のみを変更する",
-      "url": "https://zenn.dev/htmldrag/articles/8a295030565b74",
-      "publishedAt": "2026-10-18T06:09:05.000Z",
-      "publisher": "HtmlDrag",
-      "summary": "直接の回答（TL;DR）： 既存のスタイルや周囲のレイアウトを壊さずにAIでWebページの一部だけを編集するには、ページ全体の再生成をやめ、以下の3ステップのスコープ指定ワークフローを実行します： 対象の選択（Target Selecti…"
+      "id": "95e02c162000",
+      "title": "X投稿に別サイトの記事を混ぜる案を、実装後すぐ取り消した話",
+      "url": "https://zenn.dev/jworks_hq/articles/jworks-20261016-07368dab",
+      "publishedAt": "2026-10-18T10:00:54.000Z",
+      "publisher": "J-WORKS",
+      "summary": "Xの通常投稿に、別サイトの記事を混ぜる案を実装しました。ところが、案そのものが却下されたため、同じ日に混ぜ込みを取り消しました。機能を作ってから方針が変わることはあります。今回あらためて考えたのは、採用されるか確定していない案を、どのくら…"
     },
     {
-      "id": "731d38ba1f23",
-      "title": "OpenAIが暴走事例を4件追加、手元で動く大型AIも前進",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261018",
-      "publishedAt": "2026-10-18T05:53:56.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月18日（日）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます、皆さん。今日は日曜日ですけど、AIのニュースは休みなしなんですよ。いちばん大きいのは、OpenAIがAIの暴走…"
+      "id": "dda94599d0f4",
+      "title": "AIに毎回同じ説明をするのは今日で終わり。CLAUDE.md・Skills・MDの3層で「自分仕様のClaude Code」を作る",
+      "url": "https://zenn.dev/aicontentsbank/articles/claude-md-skills-stop-explaining",
+      "publishedAt": "2026-10-18T10:00:05.000Z",
+      "publisher": "AI Contents Bank",
+      "summary": "Claude Code を使い始めて最初の1か月、自分は毎セッション同じことを言っていました。 このプロジェクトは Next.js の App Router で、DB は Supabase、決済は Stripe テストは pnpm tes…"
     },
     {
-      "id": "cd56ac59b162",
-      "title": "AIに頼むだけでは作れない「自分で育つサイト」の作り方 — 三重ループで次の一手をサイトに考えさせる",
-      "url": "https://zenn.dev/nagiworks/books/self-driving-webservice",
-      "publishedAt": "2026-10-18T05:20:28.000Z",
-      "publisher": "凪",
-      "summary": "この本で手に入るもの ・そのままAIに貼れるひな形の本文。AIに毎回守らせる運用の規則10項目と、週次レポート・月次会議のAIへの指示文 ・集計の数字が正しいかを確かめる点検のチェックリスト(題材のサイトの実例つき) ・削除や公開など取り…"
+      "id": "455e439fd574",
+      "title": "AIのコードレビューを「指摘1件まで」にしたら4回とも1件。「全部出して」は1件も増やさなかった",
+      "url": "https://zenn.dev/numarn/articles/code-review-max-findings-cap-handson",
+      "publishedAt": "2026-10-18T09:53:25.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "Claude Code には、書いたコードの問題点を挙げさせる /code-review という呼び出し方があります (先頭にスラッシュを付けて使う、あらかじめ用意された命令のこと)。 これに「指摘は何件までにして」という上限を付けられる…"
     },
     {
-      "id": "a864487c96cf",
-      "title": "【コピペで完成】もう文章で悩まない！角が立たない・お詫び・催促・お礼メール一発作成プロンプト集",
-      "url": "https://zenn.dev/bizhackai/articles/bizhack-ai-vol-02",
-      "publishedAt": "2026-10-18T04:31:25.000Z",
-      "publisher": "BizhackAI",
-      "summary": "! 本記事は、実践生成AI・SaaSマガジン BizHack AI にて公開中の『【コピペで完成】もう文章で悩まない！角が立たない・お詫び・催促・お礼メール一発作成プロンプト集』のダイジェスト版です。 概要・解決する課題 「催促のメールを…"
+      "id": "2052a43c182f",
+      "title": "Claude Codeが同じミスを繰り返したら/clearでやり直す",
+      "url": "https://zenn.dev/k_grid/articles/claude-code-clear-compact-btw",
+      "publishedAt": "2026-10-18T08:49:50.000Z",
+      "publisher": "らんまる",
+      "summary": "この記事でわかること 同じミスが続くとき、修正を重ねるより /clear でやり直した方が速い理由と、やり直すプロンプトの書き方 /clear・/compact・/btw の使い分け 要約で消えてほしくない情報を CLAUDE.md に書…"
     },
     {
-      "id": "6fb1d3247fe0",
-      "title": "【スマホ＆PC対応】ゼロから始めるChatGPT超入門！今日から仕事で使える神質問テクニック7選",
-      "url": "https://zenn.dev/bizhackai/articles/bizhack-ai-vol-01",
-      "publishedAt": "2026-10-18T04:31:24.000Z",
-      "publisher": "BizhackAI",
-      "summary": "! 本記事は、実践生成AI・SaaSマガジン BizHack AI にて公開中の『【スマホ＆PC対応】ゼロから始めるChatGPT超入門！今日から仕事で使える神質問テクニック7選』のダイジェスト版です。 概要・解決する課題 「ChatGP…"
+      "id": "702b685a1d43",
+      "title": "Claude Codeのコンテキストを小さくするのをやめた話",
+      "url": "https://zenn.dev/yskms/articles/a273eb89061f22",
+      "publishedAt": "2026-10-18T08:32:12.000Z",
+      "publisher": "yskms",
+      "summary": "はじめに Claude Codeを使って個人開発をしています。 以前は、Claude Codeの使用量制限に悩まされることが多く、コンテキストを小さく保つために、作業をできるだけ細かく分割するようにしていました。 ただ、実際に使い続けてい…"
     }
   ],
-  "fetchedAt": "2026-10-18T11:32:17.859Z",
+  "fetchedAt": "2026-10-18T14:50:05.549Z",
   "stale": false,
   "error": null
 }

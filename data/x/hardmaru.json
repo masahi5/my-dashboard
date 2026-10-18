@@ -2,13 +2,22 @@
   "handle": "hardmaru",
   "tweets": [
     {
-      "id": "2110952942484566036",
-      "url": "https://x.com/wolfejosh/status/2110952942484566036",
-      "text": "Lux family co @SakanaAILabs ships faster than i can keep up!",
-      "publishedAt": "2026-10-16T04:36:15.000Z",
-      "authorHandle": "wolfejosh",
+      "id": "2111238258210517336",
+      "url": "https://x.com/SakanaAILabs/status/2111238258210517336",
+      "text": "【採用情報】マーケティングチームの新しいポジションを4つ公開しました🐟️\n\nEnterprise Marketing Manager\nsakana.ai/careers/enterprise…\n\nMarketing Operations Manager\nsakana.ai/careers/marketing-…\n\nProduct Marketing Manager\nsakana.ai/careers/product-ma…\n\nDeveloper Marketing Manager\nsakana.ai/careers/developer-…\n\nマーケティングチームは新設の組織で、プロダクトチームおよびGTMチームと並走します。今回募集する4つのポジションは、いずれも各領域で最初の専任メンバーです。Sakana Chat・Sakana Marlin・Sakana Fugu・Sakana Namazu・APIを日本と世界の企業・開発者・官公庁に届ける役割を担っていただきます。\n\n詳細は上記の採用ページからご確認ください🐡",
+      "publishedAt": "2026-10-16T23:30:00.000Z",
+      "authorHandle": "SakanaAILabs",
       "likeCount": 0,
       "repost": true
+    },
+    {
+      "id": "2111148457281077350",
+      "url": "https://x.com/hardmaru/status/2111148457281077350",
+      "text": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery\ngithub.com/SakanaAI/AI-Scien…",
+      "publishedAt": "2026-10-16T17:33:10.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
     },
     {
       "id": "2110739454948520260",
@@ -18,15 +27,6 @@
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2110738746304061491",
-      "url": "https://x.com/SakanaAILabs/status/2110738746304061491",
-      "text": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery\n\nBlog: pub.sakana.ai/agentic-scient…\nGitHub: github.com/SakanaAI/AI-Scien…\narXiv: arxiv.org/abs/2610.18933\n\nSince 2024, we’ve used The AI Scientist as a way to test how far AI alone can take scientific research, from v1 to v2 to the paper published in Nature earlier this year. The Agentic Scientist is the next step in that line of work, built for the era of coding agents.\n\nCoding agents such as Codex and Claude Code now carry out long software tasks on their own. Handing them a research problem, however, tends to produce a strong hyperparameter optimizer rather than a scientist: scores go up, but ideas stay narrow, and the reasons for the gain are rarely examined.\n\nThe Agentic Scientist makes the research loop explicit. It wraps off-the-shelf coding agents in a scaffold that controls what they see, what they write, how they are evaluated, and how results are handed to the next stage.\n\nParallel workers test hypotheses against rubrics defined before any experiment runs, share successes and failures through a common memory, and then ablate the winning program to generate evidence.\n\nWe used an early version of the system to study Error Diffusion, a biologically motivated alternative to backpropagation. Our researchers set the question and the rubric, chose directions at each stage, and verified the results, references, and claims before submission. The resulting paper was accepted as an oral presentation at ALIFE 2026. In autonomous runs, the system also raised Doc-to-LoRA retrieval accuracy from 52% to 98% on multi-needle tasks and designed a learned evolution strategy that improves over its CMA-ES reference on unseen tasks.\n\nAlongside it we release AutoIllustrate, a pipeline for scientific figures that keeps an editable draw.io file as the source of truth, so every diagram can be corrected by hand.\n\nHumans define the question and the standards of evidence; agents expand the experiments researchers can run. We call this Co-Discovery, and we are releasing both systems as open source for the community to build on.",
-      "publishedAt": "2026-10-15T14:25:07.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
     },
     {
       "id": "2110381595257626943",
@@ -47,15 +47,6 @@
       "repost": false
     },
     {
-      "id": "2109406311528161313",
-      "url": "https://x.com/rmaruy/status/2109406311528161313",
-      "text": "A new work suggesting that division of labor among self-improving AI agents can help them avoid reinforcing their own errors.\n\nI found this work interesting from a metascience perspective. Science is an open-ended search with no explicit benchmark, much like the Odyssean voyage the blog refers to. I see the scientific community as a kind of recursively self-improving organism, one that bootstraps itself not through rigid metrics or a stronger supervisor but through the collective work of scientists. So the story of MASS felt intuitively convincing to me.",
-      "publishedAt": "2026-10-11T22:10:30.000Z",
-      "authorHandle": "rmaruy",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
       "id": "2109385496237678844",
       "url": "https://x.com/hardmaru/status/2109385496237678844",
       "text": "New paper from the team at Sakana AI:\nRecursive Self-Improvement through Multi-Agent Self-Supervision (MASS)\n\nHow do we keep improving AI when the tasks become too complex for humans to reliably evaluate?\n\nFor open-ended research, we eventually hit a \"supervision bottleneck.\" If we use the model itself as the solver, optimizer, and evaluator, it gets trapped in a homogeneous loop, reinforcing its own blind spots rather than correcting them.\n\nTo break this loop, we drew inspiration from Marvin Minsky’s Society of Mind. What if you prompt a single model to organize copies of itself into a structured team, then distill what the team learned back into the base model?\n\nMASS alternates between two loops:\n\n1/ Workflow Optimization: the model iteratively evolves its own multi-agent workflows, figuring out how subagents should communicate and route information to each other.\n\n2/ Workflow Internalization: fine-tune the shared model on the successful multi-agent trajectories so the coordination behavior gets baked into the weights.\n\nAfter two cycles with a 27B open-weights model, performance improved 1.2-1.6x per output token on tough research benchmarks (MLR-Bench, ScienceAgentBench, DSBench).\n\nMulti-agent traces were also much better training data than single-agent ones. The model learns faster from jointly learning high-level orchestration and bounded subagent execution. The results showing that the model can bootstrap its own coordination skills by organizing copies of itself into teams feels promising as a mechanism towards self-improvement.\n\nBlog: pub.sakana.ai/mass/\nPaper: arxiv.org/abs/2610.12176\n\nIncredible work by Hyunin Lee, Jinglue Xu, Jeffrey Seely, Yujin Tang, and our collaborators from UC Berkeley (Somayeh Sojoudi, Matei Zaharia, Donghyun Lee)!",
@@ -63,15 +54,6 @@
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2109385006603006435",
-      "url": "https://x.com/SakanaAILabs/status/2109385006603006435",
-      "text": "Introducing Multi-Agent Self-Supervision (MASS): Recursive self-improvement through collective intelligence\n\nBlog: pub.sakana.ai/mass/\n\nAs AI systems tackle increasingly open-ended research problems, human experts may struggle to assess results and guide further progress. The model itself may be the best available optimizer and evaluator. The challenge is obtaining useful self-supervision within that homogeneous loop, where a model risks reinforcing its own blind spots rather than correcting them.\n\nWe ask whether a model can learn from the collective intelligence of its own team.\n\nWe introduce Multi-Agent Self-Supervision (MASS). One shared model solves tasks through a team of virtual subagents, searches for better multi-agent workflows, then uses its own judgments to select the best ones.\n\nTraining on the best team’s executions provides self-supervision by distilling the team’s collective experience into the shared model.\n\nWe ran two cycles using a 27B open-weights model on synthetic open-ended research tasks. After the second cycle, score per output token reached 1.2-1.6x the base model's level across four research benchmarks.\n\nThree key results:\n\nFirst, MASS enables role generalization within an RSI loop: training only on task-solving data from the optimizee naturally improves the capabilities of both the optimizer and the evaluator.\n\nSecond, multi-agent trajectories are more efficient training data than single-agent trajectories for RSI.\n\nThird, optimizer capacity, rather than evaluator capacity, can be the bottleneck in the speed of improvement.\n\nWe believe the community needs to investigate homogeneous RSI carefully to support AI safety. When a model is also its own evaluator, shared blind spots could allow mistakes to be accepted as progress and reinforced through training. For AI to improve beyond human expertise safely, we need to understand these failures and preserve effective ways to detect them and intervene.\n\nPaper: arxiv.org/abs/2610.12176\nCode: github.com/SakanaAI/mass\n\nThis work was a collaboration with researchers at UC Berkeley.",
-      "publishedAt": "2026-10-11T20:45:50.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
     },
     {
       "id": "2108750743679250734",
@@ -90,9 +72,27 @@
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
+    },
+    {
+      "id": "2106733573135024285",
+      "url": "https://x.com/hardmaru/status/2106733573135024285",
+      "text": "Recently learned that Schmidhuber’s Formal Theory of Fun and Creativity, covering compression progress and intrinsic motivation and their relationship to beauty, curiosity, art, science, music, and jokes, was published in a Japanese scientific journal in 2009.\n\njstage.jst.go.jp/article/sic…\n\nIt is wild that this framework: compression progress as the basis for beauty, curiosity, art, science, and even jokes, was laid out in full formal detail in a Japanese journal 15 years ago.",
+      "publishedAt": "2026-10-04T13:09:59.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2106557225875751004",
+      "url": "https://x.com/hardmaru/status/2106557225875751004",
+      "text": "Love that the AI consciousness debate went straight to the Vatican. In the West we ask whether Claude has a soul, in the East we ask whether the tool works.\n\nSame technology, completely different starting point. Explains a lot about why the vibes around AI are so different.",
+      "publishedAt": "2026-10-04T01:29:15.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-16T09:39:21.771Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 403 Forbidden / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-18T14:50:58.357Z",
+  "stale": false,
+  "error": null
 }
