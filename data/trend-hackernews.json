@@ -6,84 +6,20 @@
   "category": "trend",
   "items": [
     {
-      "id": "dd522ec219c8",
-      "title": "Linux 7.3",
-      "url": "https://lwn.net/Articles/1101143/",
-      "publishedAt": "2026-10-19T07:23:57.000Z",
-      "publisher": "cjd8",
-      "score": 532
-    },
-    {
-      "id": "87e79dc7eb39",
-      "title": "Someone behind the software",
-      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
-      "publishedAt": "2026-10-18T16:32:00.000Z",
-      "publisher": "tosh",
-      "score": 529
-    },
-    {
-      "id": "5ff60be7b9e0",
-      "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
-      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
-      "publishedAt": "2026-10-17T23:26:35.000Z",
-      "publisher": "mdp2021",
-      "score": 506
-    },
-    {
-      "id": "17941c4d5cef",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "publishedAt": "2026-10-18T20:48:14.000Z",
-      "publisher": "allinonai",
-      "score": 487
-    },
-    {
       "id": "37f32c3d5cf4",
-      "title": "Timestral: Mistral release time-series foundation models",
+      "title": "Timestral: Mistral's time-series foundation models",
       "url": "https://mistral.ai/news/timestral/",
       "publishedAt": "2026-10-19T09:59:32.000Z",
       "publisher": "groar",
-      "score": 370
-    },
-    {
-      "id": "ace047af60ce",
-      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
-      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-      "publishedAt": "2026-10-18T21:09:12.000Z",
-      "publisher": "amrrs",
-      "score": 276
+      "score": 498
     },
     {
       "id": "be38f29b29a0",
-      "title": "Wine Ported to OpenBSD",
+      "title": "Wine ported to OpenBSD",
       "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
       "publishedAt": "2026-10-19T13:35:34.000Z",
       "publisher": "iamnothere",
-      "score": 274
-    },
-    {
-      "id": "bbb3482c9ca6",
-      "title": "William Gibson and the trademarking of cyberspace",
-      "url": "https://colo.to/cyberspace.html",
-      "publishedAt": "2026-10-18T23:37:57.000Z",
-      "publisher": "Eric_Gullichsen",
-      "score": 249
-    },
-    {
-      "id": "5834e08d1575",
-      "title": "Alternatives to Animal Testing Are Finally Taking Off",
-      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
-      "publishedAt": "2026-10-19T11:10:54.000Z",
-      "publisher": "rbanffy",
-      "score": 186
-    },
-    {
-      "id": "c03f65613645",
-      "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
-      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
-      "publishedAt": "2026-10-19T10:53:39.000Z",
-      "publisher": "gslin",
-      "score": 167
+      "score": 452
     },
     {
       "id": "b1bb42b9e75a",
@@ -91,18 +27,82 @@
       "url": "https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository",
       "publishedAt": "2026-10-19T16:37:10.000Z",
       "publisher": "phoronixrly",
-      "score": 139
+      "score": 348
     },
     {
-      "id": "bdaafe00a9bd",
-      "title": "Rabbits were a medieval royal luxury in England until the Black Death",
-      "url": "https://phys.org/news/2026-10-rabbits-medieval-royal-luxury-england.html",
-      "publishedAt": "2026-10-17T14:07:36.000Z",
-      "publisher": "samizdis",
-      "score": 125
+      "id": "f83c40ab202c",
+      "title": "It's still ok to enjoy programming",
+      "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+      "publishedAt": "2026-10-17T19:53:20.000Z",
+      "publisher": "goostavos",
+      "score": 341
+    },
+    {
+      "id": "fa67b47ef768",
+      "title": "MiniMax M3.1 Flash",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "publishedAt": "2026-10-19T16:39:09.000Z",
+      "publisher": "jtg",
+      "score": 293
+    },
+    {
+      "id": "5834e08d1575",
+      "title": "Alternatives to animal testing are finally taking off",
+      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+      "publishedAt": "2026-10-19T11:10:54.000Z",
+      "publisher": "rbanffy",
+      "score": 281
+    },
+    {
+      "id": "a52f2317e656",
+      "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+      "publishedAt": "2026-10-19T15:28:24.000Z",
+      "publisher": "kensai",
+      "score": 274
+    },
+    {
+      "id": "c03f65613645",
+      "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "publishedAt": "2026-10-19T10:53:39.000Z",
+      "publisher": "gslin",
+      "score": 226
+    },
+    {
+      "id": "6eeb0b92918d",
+      "title": "I built a drone with only one motor [video]",
+      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+      "publishedAt": "2026-10-19T09:05:07.000Z",
+      "publisher": "hakonjdjohnsen",
+      "score": 216
+    },
+    {
+      "id": "02243d0d4a9e",
+      "title": "Starcraft: Ashfall",
+      "url": "https://starcraft-shooter-2026.pages.dev/",
+      "publishedAt": "2026-10-19T01:18:02.000Z",
+      "publisher": "debo_",
+      "score": 198
+    },
+    {
+      "id": "6d569ac7494e",
+      "title": "Android apps running native on macOS",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "publishedAt": "2026-10-19T16:45:30.000Z",
+      "publisher": "flocked",
+      "score": 194
+    },
+    {
+      "id": "b3e98f6ea7a1",
+      "title": "Mercury 3: Diffusion at scale",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "publishedAt": "2026-10-19T17:27:11.000Z",
+      "publisher": "cmrdporcupine",
+      "score": 188
     }
   ],
-  "fetchedAt": "2026-10-19T17:11:53.006Z",
+  "fetchedAt": "2026-10-19T21:31:58.635Z",
   "stale": false,
   "error": null
 }

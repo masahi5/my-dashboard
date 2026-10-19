@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "e77882d74111",
-      "title": "AI動画制作の入力と修正履歴をMarkdownで管理する",
-      "url": "https://zenn.dev/asayi_megumi/articles/7566afadfdc7da",
-      "publishedAt": "2026-10-19T08:19:05.000Z",
-      "publisher": "浅井めぐみ",
-      "summary": "AI動画制作で修正を重ねると、動画だけを保存しても「どの入力から作ったか」が分からなくなります。素材、入力文、変更点、出力、確認結果を1回の生成ごとに結び付けておくと、次に直す箇所を記録から追えます。 ここでは、画面から手動で生成する作業…"
+      "id": "2b90aec1a378",
+      "title": "AI に外部の文章を読ませる機能のプロンプトインジェクション対策 ―― 見破るより、有効にする前に止める",
+      "url": "https://zenn.dev/r2_san/articles/03451c287fe9ab",
+      "publishedAt": "2026-10-19T21:30:12.000Z",
+      "publisher": "R2-san",
+      "summary": "本記事の内容は私（R2-san）の体験（実装コード）・判断・指示に基づきますが、文章作成は生成 AI が行い、私の監修・確認を経て公開しています。 (この時点の情報です。開発中のもので、数字や仕様は 2026 年 10 月時点のものです。…"
     },
     {
-      "id": "c5b6c9a3079b",
-      "title": "AI時代、企業は何を資産として蓄積すべきか",
-      "url": "https://zenn.dev/itdo/articles/749c74abcb9008",
-      "publishedAt": "2026-10-19T08:18:55.000Z",
-      "publisher": "太田和彦",
-      "summary": "AIが作った手順書やコードを保存した。しかし、別の担当者が使うと、前提が分からず確認し直す。業務規則が変わると、どの文書や処理を直すべきか分からない。 この状態では、成果物は増えても再利用する能力が増えたとは言いにくい。保存の次に必要なの…"
+      "id": "db4b35ac41f4",
+      "title": "取引先が変わるメール、チャット1つのままだと20%引きが混ざった話",
+      "url": "https://zenn.dev/every_ai_recipe/articles/chat-reuse-discount-leak",
+      "publishedAt": "2026-10-19T21:18:07.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 取引先ごとに条件（納期・割引率など）が変わる依頼を、同じAIチャットで続けて頼むと、前の依頼の数字がAIに何も指摘されずそのまま新しい依頼に紛れ込まないかを検証した 「同じチャットで1通目→2通目と続ける」条件と、「2通目だけ…"
     },
     {
-      "id": "f3c680336b33",
-      "title": "Claude Code のセッション引き継ぎ: handoff 系スキル5本はどこが違うか",
-      "url": "https://zenn.dev/skillselion/articles/2dc8a05db34a21",
-      "publishedAt": "2026-10-19T08:10:29.000Z",
-      "publisher": "Skillselion",
-      "summary": "長いセッションはコンテキストが尽きます。新しいセッションには、それまでの記憶がありません。この穴を埋めるのが handoff（引き継ぎ）スキルです。やることは一つで、いまの作業状態を短い文書に書き出し、次のエージェントに読ませます。 カタ…"
+      "id": "2ca55e5d5783",
+      "title": "AIが書いた商品説明の「それっぽい嘘」を止める。公開前のチェック表の作り方",
+      "url": "https://zenn.dev/ec_jidoka_kobo/articles/37f7c8239ddbf9",
+      "publishedAt": "2026-10-19T20:16:49.000Z",
+      "publisher": "EC自動化工房",
+      "summary": "※例はすべて架空の店舗・商品です AIに商品説明を書かせると、読みやすくて、それらしい文章がすぐに出てきます。 ただ、よく読むと、こんな一文が混ざっていることがあります。 保温性抜群で、朝いれたコーヒーが夕方まで温かいまま。 プロのバリス…"
     },
     {
-      "id": "3da5ec6568df",
-      "title": "MCPでAIエージェントに「ログイン済みの自分のChrome」を操作させる：FSB入門",
-      "url": "https://zenn.dev/parzival1213/articles/4cf5993eea8ed2",
-      "publishedAt": "2026-10-19T07:48:04.000Z",
-      "publisher": "Lakshman Turlapati",
-      "summary": "この記事について Claude Code や Cursor などのコーディングエージェントは、コードを書く分には十分頼りになります。ところが「管理画面で設定を確認する」「issue一覧を絞り込む」「フォームを埋める」のようにブラウザが必要…"
+      "id": "7254a4c73ad2",
+      "title": "Decision Model 「Kev」を試してみる：GPUなしの無料Colabで営業日報から次のアクションを選ぶ",
+      "url": "https://zenn.dev/nakanishitf/articles/c69a48dd5ab031",
+      "publishedAt": "2026-10-19T16:20:00.000Z",
+      "publisher": "T.N.",
+      "summary": "日報を書いた後の準備につなげる これまで、Jeffで照明の操作を選ぶ例や、Clefで画像の中の猫を判断する例を試してきました。 今回は、営業日報から次のアクション候補を整理してみます。 使うのは、公開ウェイトの判断モデル「Kev」です。 …"
     },
     {
-      "id": "b7d4433e546e",
-      "title": "プログラミングのように文書も機械で確かめる — chaff と、外れた文書で育てる chaff-corpus",
-      "url": "https://zenn.dev/singularity/articles/chaff-corpus-your-documents",
-      "publishedAt": "2026-10-19T07:34:28.000Z",
-      "publisher": "Isamu",
-      "summary": "プログラミングは、確かめる工程ごと自動になった プログラミングでは、作る工程の自動化が一気に進みました。 AI がコードを書き、それを確かめる工程も機械が受け持ちます。 リンター: コードが決まりに沿って書かれているかを確かめる ユニット…"
+      "id": "4cf563689ca3",
+      "title": "AI問い合わせ振り分けの納品検収、期待動作4種と例外ケースをPythonで照合する",
+      "url": "https://zenn.dev/kagaage/articles/2816c6e997e6c9",
+      "publishedAt": "2026-10-19T16:14:13.000Z",
+      "publisher": "karaage",
+      "summary": "社内のIT問い合わせをAIで担当ごとに振り分ける仕組みを外注したとき、デモで数件うまく動いたことと、納品を受け取ってよいことは別です。この記事は、発注者が納品前に試す検収ケースの組み方と、ワークフローのログを期待動作と照合する短いPyth…"
     },
     {
-      "id": "ceec29cf2809",
-      "title": "AIドキュメント支援を試すなら、小さな仕様変更を一つ渡す",
-      "url": "https://zenn.dev/liora/articles/0c9ee6d992ac78",
-      "publishedAt": "2026-10-19T07:09:50.000Z",
-      "publisher": "liora",
-      "summary": "説明文は更新されたのに、サンプルだけが古いまま残っている。レビューで気付ければ直せるが、文章が自然だと見落としやすい。ドキュメント作成にAIを入れるなら、最初の下書きよりも、変更が入った後の整合性を確かめたい。 実際のリポジトリを渡す前に…"
+      "id": "7f2c54a2cb23",
+      "title": "【個人開発】AIに社外秘や個人情報を貼る前にブラウザ内で仮名化、AIの回答を1クリックで元の名前に復元するツールを作った（通信ゼロ・無料）",
+      "url": "https://zenn.dev/mint69/articles/31f72b57a0206e",
+      "publishedAt": "2026-10-19T15:42:44.000Z",
+      "publisher": "mint69",
+      "summary": "AIにログや顧客メールを貼りたいが、うっかり漏洩と手作業での書き戻しがつらい問題 日々の開発や業務で ChatGPT、Claude、Gemini にエラーログや設定ファイル、取引先とのメール文面を貼り付けて相談する機会が増えました。 しか…"
     },
     {
-      "id": "b053b03e6608",
-      "title": "model: \"auto\" は何をしているのか — Auto Router v6 の中身を読む",
-      "url": "https://zenn.dev/brian166/articles/27d1f77aeb7559",
-      "publishedAt": "2026-10-19T07:05:47.000Z",
-      "publisher": "brian166",
-      "summary": "AI の API をいくつも契約していると、「どのモデルに投げるか」の判断がコードのあちこちに散らばっていきます。分岐が増え、モデル名の変更がテストを壊し、障害時の切り替えは誰も書かなくなります。 AICraft は OpenAI 互換の…"
+      "id": "2c39cfc92266",
+      "title": "預ける前に、内見を。NAIKENの仕組みと機能",
+      "url": "https://zenn.dev/masahide/articles/9649ab5073f562",
+      "publishedAt": "2026-10-19T15:37:07.000Z",
+      "publisher": "Masahide YAMASAKI",
+      "summary": "NAIKEN（ナイケン）はWebサービスのURLを入れると、外から見える範囲だけを読み取り、個人情報を預ける前の判断材料を出すWebアプリです。DevDay Community Hackathonでチーム「voidvoid」が作り、3位に…"
     },
     {
-      "id": "6372f675074c",
-      "title": "AI に動画の検査まで任せていたら、4日間「OK」のまま、公開した4本が全部おかしくなっていた",
-      "url": "https://zenn.dev/claire_ai/articles/kensa-iriguchi",
-      "publishedAt": "2026-10-19T07:01:35.000Z",
-      "publisher": "クレア",
-      "summary": "AI で回している YouTube の作業用 BGM チャンネル「風景の窓」で、6時間の動画を4本公開したあとで、4本すべてに不具合があると分かった。1本あたり39回。4日間、誰も気づかなかった。 ! 🔑 具体的な中身（全体の作り・数字…"
+      "id": "0c5c045a43e1",
+      "title": "コンカフェ1店舗のために、9つの業務システムをAIと作った話",
+      "url": "https://zenn.dev/koyabase/articles/kemo-concafe-9-systems-with-ai",
+      "publishedAt": "2026-10-19T14:59:56.000Z",
+      "publisher": "Koyabase",
+      "summary": "こんにちは、Koyabase 合同会社です。 群馬県高崎市でコンセプトカフェ「けもみみかふぇ」を運営しながら、お店で使う業務システムを自分たちで作っています。 けもみみかふぇは、けもみみ姿のキャストと 60 分 3,300 円の飲み放題で…"
     },
     {
-      "id": "9cfd3834fb81",
-      "title": "Anthropicが株5%を公益基金へ。AIを締め出すサイトも増加",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261019",
-      "publishedAt": "2026-10-19T06:58:41.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月19日（月）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は、AIの会社が「信頼」をどう作るのかがよくわかる日なんですよ。Claudeを作っているAnthropicが、自社の株の5%を…"
+      "id": "c3bf2ce1df0a",
+      "title": "「普通に欲しい」を作ったら、AIハッカソンで3位になった",
+      "url": "https://zenn.dev/masahide/articles/e3abc0b59cabfb",
+      "publishedAt": "2026-10-19T14:59:21.000Z",
+      "publisher": "Masahide YAMASAKI",
+      "summary": "2026年10月18日、渋谷のAbema Towersで開催されたDevDay Community Hackathonに参加しました。ぬこぬこさん主催の「Fable 5.1 Build Day Tokyo」で紹介してもらったのがきっかけで…"
     },
     {
-      "id": "9e4960fa4638",
-      "title": "Claude Code modsで、コードレビューのペインと「頼まれごと」の帯を作った",
-      "url": "https://zenn.dev/kki2ne/articles/claude-code-mods-review-pane-todo-band-2026",
-      "publishedAt": "2026-10-19T06:35:35.000Z",
-      "publisher": "きつね",
-      "summary": "Claude Codeの画面の右側に、レビュー中の差分が1チャンクずつ出ています。別のセッションでは、プロンプトの上にClaudeから頼まれたことが並ぶ帯も出しています。 どちらもClaude Code modsで自分用に作りました。 最…"
+      "id": "d9070e5aa1a8",
+      "title": "大規模言語モデルって、結局なに？",
+      "url": "https://zenn.dev/kanfupanda/articles/what-is-an-llm",
+      "publishedAt": "2026-10-19T14:52:25.000Z",
+      "publisher": "kanfu-panda",
+      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/10/19/what-is-an-llm.ja.html?utm_source=zenn&utm_med…"
     },
     {
-      "id": "2d34e30b4918",
-      "title": "ハロウィンイラストは「違和感」で怖く美しく！女の子を変身させるAIプロンプト5選とSNS規制対策",
-      "url": "https://zenn.dev/satofun/articles/daa0ebf34c3fff",
-      "publishedAt": "2026-10-19T06:07:49.000Z",
-      "publisher": "sato",
-      "summary": "PR｜本記事にはプロモーションを含みます。 今年のハロウィンは、かわいいだけでは終わらない、思わずゾッとするような女の子イラストを作ってみませんか？ 例えば、笑顔なのに目だけが笑っていない少女。足が床からわずかに浮いている女性。鏡の中の自…"
+      "id": "42c848428ae3",
+      "title": "Codexに動画を調べさせても、発言の時刻と文言は確認できなかった",
+      "url": "https://zenn.dev/twinharness/articles/video-codex-text-claude-crosscheck",
+      "publishedAt": "2026-10-19T14:30:52.000Z",
+      "publisher": "twinharness",
+      "summary": "AI ツールに公式の発信を調べさせて、自分のルールに取り込もうとしたとき、情報源は文章と動画に分かれます。ところが AI ツールごとに得意な入力は違っていて、動画の文字起こしを取り出せるツールもあれば、取り出せないツールもあります。 私の…"
     },
     {
-      "id": "7c8f02e1e8ab",
-      "title": "AIに仕事を分けても、全体の上限は守れるか。合成の100件で小さな台帳を試した",
-      "url": "https://zenn.dev/hocky3/articles/54d8d5800902e3",
-      "publishedAt": "2026-10-19T05:38:35.000Z",
-      "publisher": "hocky3",
-      "summary": "買い出しを三人に分けたら、全体の予算を超えた（架空の例） たとえば（架空の例）、サークルの合宿の買い出しを、三人に分けて頼んだ。予算は全体で3,000円、「一回の買い物は800円まで」と伝えてある。三人は互いの買い物を知らない。それぞれ8…"
+      "id": "64915b1af902",
+      "title": "Jevの画像入力とOpenAI Decisions APIを比べてみる",
+      "url": "https://zenn.dev/tkada/articles/ae2519179679df",
+      "publishedAt": "2026-10-19T14:05:48.000Z",
+      "publisher": "Takeshi Kada",
+      "summary": "はじめに TypeSafeのJevが画像入力に対応しました。 この記事では、Jevの画像入力でできることを確認します。 さらにOpenAIのDecisions APIにも同じ写真を送り、精度、速度、費用を比べました。 Jevの画像入力でで…"
     }
   ],
-  "fetchedAt": "2026-10-19T17:11:48.147Z",
+  "fetchedAt": "2026-10-19T21:31:54.303Z",
   "stale": false,
   "error": null
 }

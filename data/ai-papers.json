@@ -6,36 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "a113c894a8b2",
-      "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
-      "url": "https://huggingface.co/papers/2610.09872",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounc…",
-      "score": 110
-    },
-    {
-      "id": "092cddae6fb1",
-      "title": "Xiaomi-Lens-0 Technical Report",
-      "url": "https://huggingface.co/papers/2610.23279",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Multimodal large language models (MLLMs) answer questions about whole images well, yet they still struggle with fine-gr…",
-      "score": 26
-    },
-    {
       "id": "001b9f3784c5",
       "title": "OmniXRef: A Unified Framework for Multimodal Multi-Reference Video Editing",
       "url": "https://huggingface.co/papers/2610.22744",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Creative intent in video editing can be expressed through text instructions (e.g., \"remove the people\"), image referenc…",
-      "score": 13
-    },
-    {
-      "id": "279c2a8cfd6c",
-      "title": "MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing",
-      "url": "https://huggingface.co/papers/2610.23751",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Multi-turn image editing aims to modify an image according to a sequence of instructions, making it better aligned with…",
-      "score": 5
+      "score": 14
     },
     {
       "id": "49862bb73928",
@@ -43,15 +19,7 @@
       "url": "https://huggingface.co/papers/2610.16402",
       "publishedAt": "2026-10-12T00:00:00.000Z",
       "summary": "Web application development often proceeds through successive requests that extend an existing implementation. Yet web-…",
-      "score": 3
-    },
-    {
-      "id": "80b0567d0a4c",
-      "title": "Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards",
-      "url": "https://huggingface.co/papers/2610.22448",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Enhancing the agentic capabilities of Large Language Models (LLMs) to tackle complex software engineering (SWE) and gen…",
-      "score": 1
+      "score": 7
     },
     {
       "id": "20018115b395",
@@ -59,6 +27,62 @@
       "url": "https://huggingface.co/papers/2610.22708",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Text-based world models have recently shown potential to simulate complex RL environment state transitions for a divers…",
+      "score": 4
+    },
+    {
+      "id": "4414ded79782",
+      "title": "BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking",
+      "url": "https://huggingface.co/papers/2610.07052",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Whole-body tracking has become the interface through which operators drive humanoid robots, yet the references it consu…",
+      "score": 2
+    },
+    {
+      "id": "80b0567d0a4c",
+      "title": "Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards",
+      "url": "https://huggingface.co/papers/2610.22448",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Enhancing the agentic capabilities of Large Language Models (LLMs) to tackle complex software engineering (SWE) and gen…",
+      "score": 2
+    },
+    {
+      "id": "bd801d2bf9e3",
+      "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
+      "url": "https://huggingface.co/papers/2610.22273",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods …",
+      "score": 2
+    },
+    {
+      "id": "286d01d94056",
+      "title": "What It Is, Not What It Says: Securing Agentic Browsing Interactions with Web Semantics",
+      "url": "https://huggingface.co/papers/2610.22697",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "AI agents increasingly browse the web on users' behalf, yet they consume webpages as screenshots or text, exposing thei…",
+      "score": 2
+    },
+    {
+      "id": "e59b3ef8673b",
+      "title": "Recognition Is Not Grounding: Benchmarking Multilingual Financial Evidence Extraction",
+      "url": "https://huggingface.co/papers/2610.19432",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Comparing financial disclosures across languages requires identifying shared accounting concepts and recovering all num…",
+      "score": 1
+    },
+    {
+      "id": "07d93684dabe",
+      "title": "DisaggKD: Efficient Knowledge Distillation through Teacher-Student Disaggregation and a Fused Loss",
+      "url": "https://huggingface.co/papers/2610.17644",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Knowledge distillation (KD) frameworks place teacher and student on the same GPUs, so per-GPU memory limits the teacher…",
+      "score": 1
+    },
+    {
+      "id": "a98a9f3f5dc2",
+      "title": "ARC-SORT: Adaptive, Robust, Compensated Multi-Object Tracking with Interacting Multiple Models",
+      "url": "https://huggingface.co/papers/2610.22306",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Multi-object tracking in sports broadcasts is hard for two reasons: athletes move fast and change direction abruptly, a…",
       "score": 1
     },
     {
@@ -70,39 +94,15 @@
       "score": 1
     },
     {
-      "id": "bd801d2bf9e3",
-      "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
-      "url": "https://huggingface.co/papers/2610.22273",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods …",
-      "score": 0
-    },
-    {
       "id": "3e8023e8064a",
       "title": "Relational Learning as World Modeling",
       "url": "https://huggingface.co/papers/2610.16763",
       "publishedAt": "2026-10-12T00:00:00.000Z",
       "summary": "Relational learning typically predicts from a database state, but decision making asks a different question: how will t…",
       "score": 0
-    },
-    {
-      "id": "286d01d94056",
-      "title": "What It Is, Not What It Says: Securing Agentic Browsing Interactions with Web Semantics",
-      "url": "https://huggingface.co/papers/2610.22697",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "AI agents increasingly browse the web on users' behalf, yet they consume webpages as screenshots or text, exposing thei…",
-      "score": 0
-    },
-    {
-      "id": "a98a9f3f5dc2",
-      "title": "ARC-SORT: Adaptive, Robust, Compensated Multi-Object Tracking with Interacting Multiple Models",
-      "url": "https://huggingface.co/papers/2610.22306",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Multi-object tracking in sports broadcasts is hard for two reasons: athletes move fast and change direction abruptly, a…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-19T17:11:47.966Z",
+  "fetchedAt": "2026-10-19T21:31:53.377Z",
   "stale": false,
   "error": null
 }
