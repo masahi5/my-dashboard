@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "28abe805a4f4",
-      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
-      "url": "https://huggingface.co/papers/2610.21261",
+      "id": "8a6986505594",
+      "title": "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
+      "url": "https://huggingface.co/papers/2610.22321",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effec…",
-      "score": 106
-    },
-    {
-      "id": "ff97a0666aa2",
-      "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
-      "url": "https://huggingface.co/papers/2610.22280",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive a…",
-      "score": 8
-    },
-    {
-      "id": "2e0151748b21",
-      "title": "Mine, Sample, Render: Test-Time Diversity Alignment Of Generative Models",
-      "url": "https://huggingface.co/papers/2610.21185",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Modern generative models produce high-quality individual outputs but struggle to sample diversely, even when explicitly…",
-      "score": 6
-    },
-    {
-      "id": "806152f8aefd",
-      "title": "LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification",
-      "url": "https://huggingface.co/papers/2610.17697",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "AI systems now write long and difficult mathematical proofs, and checking their step-by-step validity is becoming a bot…",
+      "summary": "As joint audio-video generation models become more capable, they can generate audio-visual scenes exhibiting three form…",
       "score": 5
     },
     {
-      "id": "ca594ea5d5b2",
-      "title": "Copy-Paste Language Models",
-      "url": "https://huggingface.co/papers/2610.19247",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability…",
-      "score": 5
-    },
-    {
-      "id": "bd25447062d9",
-      "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
-      "url": "https://huggingface.co/papers/2610.15924",
-      "publishedAt": "2026-10-11T00:00:00.000Z",
-      "summary": "Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn co…",
-      "score": 4
-    },
-    {
-      "id": "36f3fb6056f7",
-      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
-      "url": "https://huggingface.co/papers/2610.22358",
+      "id": "221f9a2bd818",
+      "title": "Can Visual Generation Expand What Unified Multimodal Models Know?",
+      "url": "https://huggingface.co/papers/2610.21459",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading …",
+      "summary": "Unified multimodal models (UMMs) receive image-generation supervision that exposes them to visual information not fully…",
       "score": 3
     },
     {
-      "id": "77e940bfd6ad",
-      "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
-      "url": "https://huggingface.co/papers/2610.21025",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models star…",
-      "score": 3
-    },
-    {
-      "id": "10cea0d76a55",
-      "title": "Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization",
-      "url": "https://huggingface.co/papers/2610.22127",
+      "id": "66d63f3f5c2d",
+      "title": "Stuck on Shuffle: On Attribute-Object Binding in Vision-Language Models",
+      "url": "https://huggingface.co/papers/2610.22602",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior meth…",
-      "score": 3
-    },
-    {
-      "id": "3ae990def6c9",
-      "title": "Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR",
-      "url": "https://huggingface.co/papers/2610.20461",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Character Error Rate (CER), the standard metric for OCR and vision-language models (VLMs), charges a typo as much as a …",
+      "summary": "Retrieval is a fundamental task in multimodal systems: given an image or text query, the goal is to find the most relev…",
       "score": 2
     },
     {
-      "id": "38f791a18fb5",
-      "title": "Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility",
-      "url": "https://huggingface.co/papers/2610.20680",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Sparse autoencoders (SAEs) are typically trained on hundreds of millions to billions of activation tokens, yet little w…",
+      "id": "4088d6c0b63d",
+      "title": "Towards Looped Models Done Right, Part I: Topology, Input Injection, Recurrent-State Design",
+      "url": "https://huggingface.co/papers/2610.23036",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Looped language models reuse physical Transformer blocks across logical depth, but established architectures entangle r…",
+      "score": 2
+    },
+    {
+      "id": "003f98d4de9f",
+      "title": "Selection Is Not Learning: Choosing Model Futures",
+      "url": "https://huggingface.co/papers/2610.22029",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Self-evolving language models train on tasks they generate, so every round must decide which updated model the next rou…",
+      "score": 2
+    },
+    {
+      "id": "b4323c549cd8",
+      "title": "BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries",
+      "url": "https://huggingface.co/papers/2610.14746",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "summary": "World Action Models (WAMs) commonly couple video and action experts through dense, layer-wise Mixture-of-Transformers (…",
       "score": 1
     },
     {
-      "id": "67075a45b361",
-      "title": "PAIR: Bridging Perception and Action in Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2610.09016",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions. This…",
+      "id": "9fa5c6d4390d",
+      "title": "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
+      "url": "https://huggingface.co/papers/2610.21046",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Peer review is under strain from the growth of submissions, and review comments written by humans or AI can misstate wh…",
+      "score": 1
+    },
+    {
+      "id": "4a2fbb758992",
+      "title": "Belief-Trajectory Energy: Measuring the Path to a Prediction",
+      "url": "https://huggingface.co/papers/2610.05114",
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "summary": "Large language models (LLMs) progressively revise their predictions across Transformer layers, yet we typically observe…",
+      "score": 1
+    },
+    {
+      "id": "ef0b2f09f01f",
+      "title": "Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files",
+      "url": "https://huggingface.co/papers/2610.21073",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "A coding agent works on repositories that can be far larger than its context window can hold. Prompt compressors and re…",
+      "score": 1
+    },
+    {
+      "id": "feb905885da9",
+      "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
+      "url": "https://huggingface.co/papers/2610.20951",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Decision models answer typed questions about an input with one probability per option, computed in a single forward pas…",
+      "score": 1
+    },
+    {
+      "id": "fff2b4bc5a7c",
+      "title": "Resisting Harmful Instructions through Training-Free Weight Editing",
+      "url": "https://huggingface.co/papers/2610.21189",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Instruction-following language models can comply with requests that conflict with intended behaviors and safety alignme…",
+      "score": 1
+    },
+    {
+      "id": "2018943c78c0",
+      "title": "DAGFormer: Global Topology Prediction for Transformer Cross-Layer Connections",
+      "url": "https://huggingface.co/papers/2610.19625",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "We propose DAGFormer, a Transformer language model whose cross-layer connections are planned by a jointly trained topol…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-10-19T00:20:45.082Z",
+  "fetchedAt": "2026-10-19T05:03:09.208Z",
   "stale": false,
   "error": null
 }
