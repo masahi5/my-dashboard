@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "8a6986505594",
-      "title": "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
-      "url": "https://huggingface.co/papers/2610.22321",
+      "id": "54c85133eba7",
+      "title": "Learning to Think and Explore in 3D World",
+      "url": "https://huggingface.co/papers/2610.21783",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "As joint audio-video generation models become more capable, they can generate audio-visual scenes exhibiting three form…",
+      "summary": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing mu…",
+      "score": 95
+    },
+    {
+      "id": "a113c894a8b2",
+      "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
+      "url": "https://huggingface.co/papers/2610.09872",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounc…",
+      "score": 50
+    },
+    {
+      "id": "ebeba4b8e1a9",
+      "title": "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
+      "url": "https://huggingface.co/papers/2610.23121",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Generating complete, coherent, and usable 3D indoor scenes from natural language requires strong design intelligence: t…",
+      "score": 41
+    },
+    {
+      "id": "814fb692f95b",
+      "title": "Lexical Reference Frames: Interpreting LM Residual Streams in Native Semantics",
+      "url": "https://huggingface.co/papers/2610.22169",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "The vocabulary of a language model is its native semantics: the embedding and the unembedding fix the meaning of a stat…",
+      "score": 20
+    },
+    {
+      "id": "75fbd63ef673",
+      "title": "RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars",
+      "url": "https://huggingface.co/papers/2610.23230",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Making a conference poster is visual coding in miniature: an entire paper must be compressed onto a single page, which …",
+      "score": 19
+    },
+    {
+      "id": "092cddae6fb1",
+      "title": "Xiaomi-Lens-0 Technical Report",
+      "url": "https://huggingface.co/papers/2610.23279",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Multimodal large language models (MLLMs) answer questions about whole images well, yet they still struggle with fine-gr…",
+      "score": 12
+    },
+    {
+      "id": "4da34b1d172e",
+      "title": "OPMD: On-Policy Mechanism Distillation Beyond Output Supervision",
+      "url": "https://huggingface.co/papers/2610.14022",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) improves language-model by supervising a student on prefixes sampled from its own policy, …",
+      "score": 6
+    },
+    {
+      "id": "92e24298dd37",
+      "title": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+      "url": "https://huggingface.co/papers/2610.22428",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "In a small language model the vocabulary is the single largest part. In Gemma 3 270M the embedding table holds 168M of …",
       "score": 5
     },
     {
-      "id": "221f9a2bd818",
-      "title": "Can Visual Generation Expand What Unified Multimodal Models Know?",
-      "url": "https://huggingface.co/papers/2610.21459",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Unified multimodal models (UMMs) receive image-generation supervision that exposes them to visual information not fully…",
-      "score": 3
+      "id": "c397c169d5c3",
+      "title": "Failure Recovery via Belief Updates and World Modeling for Long-Horizon Agents",
+      "url": "https://huggingface.co/papers/2610.18082",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Long-horizon agents often struggle to recover from failures whose causes lie several steps earlier, beyond what local r…",
+      "score": 4
     },
     {
-      "id": "66d63f3f5c2d",
-      "title": "Stuck on Shuffle: On Attribute-Object Binding in Vision-Language Models",
-      "url": "https://huggingface.co/papers/2610.22602",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Retrieval is a fundamental task in multimodal systems: given an image or text query, the goal is to find the most relev…",
+      "id": "bae796861642",
+      "title": "Consistent Distribution Matching for Data-Free Diffusion Distillation",
+      "url": "https://huggingface.co/papers/2610.09221",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Flow and diffusion models suffer from slow inference due to computationally expensive numerical integration. Distillati…",
       "score": 2
     },
     {
-      "id": "4088d6c0b63d",
-      "title": "Towards Looped Models Done Right, Part I: Topology, Input Injection, Recurrent-State Design",
-      "url": "https://huggingface.co/papers/2610.23036",
+      "id": "645a640c9992",
+      "title": "AI-Driven Disaster Response and Displacement Monitoring",
+      "url": "https://huggingface.co/papers/2610.21482",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "ARTIFICIAL INTELLIGENCE (AI) has demonstrated its potential across a wide range of humanitarian tasks, offering scalabl…",
+      "score": 1
+    },
+    {
+      "id": "279c2a8cfd6c",
+      "title": "MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing",
+      "url": "https://huggingface.co/papers/2610.23751",
       "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Looped language models reuse physical Transformer blocks across logical depth, but established architectures entangle r…",
-      "score": 2
-    },
-    {
-      "id": "003f98d4de9f",
-      "title": "Selection Is Not Learning: Choosing Model Futures",
-      "url": "https://huggingface.co/papers/2610.22029",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Self-evolving language models train on tasks they generate, so every round must decide which updated model the next rou…",
-      "score": 2
-    },
-    {
-      "id": "b4323c549cd8",
-      "title": "BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries",
-      "url": "https://huggingface.co/papers/2610.14746",
-      "publishedAt": "2026-10-10T00:00:00.000Z",
-      "summary": "World Action Models (WAMs) commonly couple video and action experts through dense, layer-wise Mixture-of-Transformers (…",
-      "score": 1
-    },
-    {
-      "id": "9fa5c6d4390d",
-      "title": "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
-      "url": "https://huggingface.co/papers/2610.21046",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Peer review is under strain from the growth of submissions, and review comments written by humans or AI can misstate wh…",
-      "score": 1
-    },
-    {
-      "id": "4a2fbb758992",
-      "title": "Belief-Trajectory Energy: Measuring the Path to a Prediction",
-      "url": "https://huggingface.co/papers/2610.05114",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "summary": "Large language models (LLMs) progressively revise their predictions across Transformer layers, yet we typically observe…",
-      "score": 1
-    },
-    {
-      "id": "ef0b2f09f01f",
-      "title": "Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files",
-      "url": "https://huggingface.co/papers/2610.21073",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "A coding agent works on repositories that can be far larger than its context window can hold. Prompt compressors and re…",
-      "score": 1
-    },
-    {
-      "id": "feb905885da9",
-      "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
-      "url": "https://huggingface.co/papers/2610.20951",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Decision models answer typed questions about an input with one probability per option, computed in a single forward pas…",
-      "score": 1
-    },
-    {
-      "id": "fff2b4bc5a7c",
-      "title": "Resisting Harmful Instructions through Training-Free Weight Editing",
-      "url": "https://huggingface.co/papers/2610.21189",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Instruction-following language models can comply with requests that conflict with intended behaviors and safety alignme…",
-      "score": 1
-    },
-    {
-      "id": "2018943c78c0",
-      "title": "DAGFormer: Global Topology Prediction for Transformer Cross-Layer Connections",
-      "url": "https://huggingface.co/papers/2610.19625",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "We propose DAGFormer, a Transformer language model whose cross-layer connections are planned by a jointly trained topol…",
+      "summary": "Multi-turn image editing aims to modify an image according to a sequence of instructions, making it better aligned with…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-10-19T05:03:09.208Z",
+  "fetchedAt": "2026-10-19T10:44:52.288Z",
   "stale": false,
   "error": null
 }
