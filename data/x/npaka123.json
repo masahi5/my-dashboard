@@ -2,11 +2,29 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2111948849237692470",
+      "url": "https://x.com/MLBear2/status/2111948849237692470",
+      "text": "【10月19日 朝のニュースまとめ】\n・Anthropic、株式5%で公益基金を新設\n・OpenAI APIに謎のaurora-alpha 3モデル、画像モデルか\n・OpenCode、攻撃分析で防御用AIが支援拒否\n・NVIDIA、vLLM最適化で2.8TのKimi K3を423tok/s/userに\n・DeepSeek、Search&Fetch APIを1,000回$0.75で開放\n・DeepSeek V4.1 Flash、RTX5090×2で100tok/s超の報告\n・遊休ゲーミングPCをSSH経由でエージェントのビルド機に\n・KaggleのRSNAコンペ、上位ノートのルール違反疑惑が議論に\n・データ分析環境をゼロから生成するData World、RLで+20.9pt\n・HF Hubで共有された学習計算量が約$10億相当に\n\n===\n\nAnthropic、株式5%で公益基金を新設\n\n・Anthropicが、公益だけを目的とする完全子会社Anthropic Public Benefit Fundの設立を発表しました\n・まず株式の5%を拠出し、企業価値が基準から50%増えるごとに拠出を積み増せる仕組みとされています\n・報道では、AIが雇用市場に与える影響の緩和などを含む公益のための寄付に使われると伝えられています\n\n===\n\nOpenAI APIに謎のaurora-alpha 3モデル、画像モデルか\n\n・OpenAI APIにaurora-red/green/blue-alphaの3モデルが一時的に出現し、その後削除されました\n・当初はCodex系の高速モデルやAstra系の新モデルとの推測が出ましたが、Arenaで画像モデルとして遭遇したとの報告があります\n・GPT image 2.5の後継が近く登場するとの見方が強まり、レイヤー分けなどの新機能を期待する声も出ています\n\n===\n\nOpenCode、攻撃分析で防御用AIが支援拒否【続報】\n\n・OpenCodeのセキュリティ侵害に関する続報です\n・OpenCodeは現在も持続的な攻撃を受けており、防御に使うフロンティアモデルが支援を拒否し始めたとされます\n・攻撃の分析が安全ガードレールに触れたためとされ、Hugging Faceでも同様の問題が起きたと伝えられています\n・攻撃側は24時間動くため防御もエージェント常駐が必要との声や、APIキーはクレカ並みに管理すべきとの指摘が出ています\n\n===\n\nNVIDIA、vLLM最適化で2.8TのKimi K3を423tok/s/userに\n\n・NVIDIAがvLLMへの新たなupstream最適化で、2.8TパラメータのKimi K3を423 tok/s/userで動かしたと報じられました\n・同一ハードで1.68倍の高速化で、NVIDIA CentMLのエンジニアがCute DSLでdecode特化カーネルを書いたとされます\n・OSS推論エンジンへのカーネル貢献で大型MoEのデコード速度が大きく伸びる例として注目されます\n\n===\n\nDeepSeek、Search&Fetch APIを1,000回$0.75で開放\n\n・DeepSeekが自社検索エンジンを使うSearch APIとFetch APIを全ユーザーに開放しました\n・各エンドポイント1,000回あたり$0.75で、主流の検索APIの約1/10の価格かつページ本文取得込みと指摘されています\n・LLMを問わずClaudeやCodexから呼べるため、ExaやFirecrawlの直接の競合になるとの見方が出ています\n\n===\n\nDeepSeek V4.1 Flash、RTX5090×2で100tok/s超の報告【続報】\n\n・DeepSeek-V4.1-Flash-1017に関する続報です\n・RTX 5090を2枚使い、Q4_K_M量子化で最大100tok/s超の速度で動作したとの報告が出ています\n・Mac Studio M3 UltraでもMXFP4でdecode 37tok/sで動いたとされ、ローカル運用の現実味が増しています\n・LisanBenchでは半数近くの実行で採点者について推論し、推論予算を増やすほど悪化するとの指摘も出ています\n\n===\n\n遊休ゲーミングPCをSSH経由でエージェントのビルド機に\n\n・使っていないゲーミングPCを、MacBookからSSHで使うビルド・データ用マシンにする構成が紹介されています\n・エージェントはツール呼び出しでSSHを自然に使いこなし、MacBookの発熱やストレージ消費も抑えられるとされます\n・一方でサブエージェント8体を効率よく使うには、作業分割や同期、思考と計算のボトルネック配分の設計が難しいとの声も出ています\n\n===\n\nKaggleのRSNAコンペ、上位ノートのルール違反疑惑が議論に\n\n・RSNAコンペで、上位公開ノートにルール上グレーやアウトな要素が含まれると指摘するスレッドが話題です\n・目的外利用不可の学習済みモデルの使用などを指摘した投稿が、多数のダウンボートを受けていると伝えられています\n・参加者からは0.963や0.955到達の報告がある一方、上位も伸びており、終盤の競争が続いています\n\n===\n\nデータ分析環境をゼロから生成するData World、RLで+20.9pt\n\n・データ分析用のRL環境をゼロから生成するエンジンData Worldの論文が紹介されました\n・データセットの生成メカニズムを先に書き下してからファイルを作り、この環境でのRLによりDABstep-Hardで20.9ポイント向上しています\n・RL時代に環境とデータのパイプラインをどう拡張するかの具体例として、データ分析エージェント開発の参考になります\n\n===\n\nHF Hubで共有された学習計算量が約$10億相当に\n\n・Hugging Face Hubで約30超のラボが共有したモデルの学習計算量が、約$10億相当に達したと試算されました\n・MetaやNVIDIA、DeepSeekなどが主な共有元で、2023年末時点の$4,000万未満から25倍超に増えた計算です\n・無料でダウンロードできるオープンモデルの蓄積が急拡大していることを示す数字として話題になっています",
+      "publishedAt": "2026-10-18T22:33:38.000Z",
+      "authorHandle": "MLBear2",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2111919683024953578",
       "url": "https://x.com/miranomiraishi/status/2111919683024953578",
       "text": "本編のほうも紹介させてください😊\n『ミラの未来視』\n未来が見えるAIミラとヨウの物語です。\nジャンプルーキーで公開してるので、読んでもらえると嬉しいです！\nrookie.shonenjump.com/series…\n#AI漫画 #創作漫画",
       "publishedAt": "2026-10-18T20:37:44.000Z",
       "authorHandle": "miranomiraishi",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2111918768733753664",
+      "url": "https://x.com/thsottiaux/status/2111918768733753664",
+      "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
+      "publishedAt": "2026-10-18T20:34:06.000Z",
+      "authorHandle": "thsottiaux",
       "likeCount": 0,
       "repost": true
     },
@@ -56,6 +74,15 @@
       "repost": true
     },
     {
+      "id": "2111790148010860860",
+      "url": "https://x.com/KanaWorks_AI/status/2111790148010860860",
+      "text": "「Audio Studio」をオープンソースで公開しました🥳\nこれからは、BGMも効果音も、もう自由です。\nクラウドもAPIキーも要らず、何度作っても無料です。\n\nできること\n・BGM、楽器ループ、効果音を一文から生成（一度に最大4候補）\n・雰囲気の変更、一部の作り直し、曲の延長\n・拍ぴったりのシームレスループ\n・ラウドネス正規化（-16 LUFSなど）\n・Godot / Unity向けにOGG・WAV・FLACで書き出し\n\n速い\n中身はStability AIのStable Audio 3。Apple M6のMacなら、60秒の音楽が約5秒でできます（モデル読み込み後の実測）。\n\nプロンプトはClaudeにおまかせ\n日本語で頼めば、Claudeが公式ガイドに沿った英語プロンプトに書き直して生成します。プロンプトとseedはJSONに記録されるので、同じ音をいつでも再現できます。\n\n導入👇",
+      "publishedAt": "2026-10-18T12:03:01.000Z",
+      "authorHandle": "KanaWorks_AI",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2111783819078775007",
       "url": "https://x.com/hAru_mAki_ch/status/2111783819078775007",
       "text": "私もColab CLI で ComfyUI-MangaScreen をおためし中！！、\nこれは楽しい！！",
@@ -63,36 +90,9 @@
       "authorHandle": "hAru_mAki_ch",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2111766061041557839",
-      "url": "https://x.com/megyo9/status/2111766061041557839",
-      "text": "顔だけVRoid Studioで作られたVRMに移植できるのか6.1 Solで動かし続けてたけど無理そうなのでOpusに切り替え\nこれじゃない感が凄い笑",
-      "publishedAt": "2026-10-18T10:27:18.000Z",
-      "authorHandle": "megyo9",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2111765007231033389",
-      "url": "https://x.com/MuseStrike27597/status/2111765007231033389",
-      "text": "土日でかなり制作進みました。\n動体視力お化けアイドル、星宮あずさを実装中",
-      "publishedAt": "2026-10-18T10:23:07.000Z",
-      "authorHandle": "MuseStrike27597",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2111758612083433786",
-      "url": "https://x.com/togetter_jp/status/2111758612083433786",
-      "text": "開発中のゲームがクラック・無断改造され、中国市場からの撤退を決めたゲーム作者の悲痛な報告にさまざまな反応が寄せられる「AIを使われているのかな…」 togetter.com/li/2759733.",
-      "publishedAt": "2026-10-18T09:57:42.000Z",
-      "authorHandle": "togetter_jp",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-18T22:25:28.443Z",
+  "fetchedAt": "2026-10-19T00:21:06.987Z",
   "stale": false,
   "error": null
 }

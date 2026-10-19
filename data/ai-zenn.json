@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "b2bbe89460e1",
-      "title": "エージェントGUIツールにHTML表示機能を搭載したら想像以上に効いた ― Pockode",
-      "url": "https://zenn.dev/sijiaoh/articles/4b59f3464fab9d",
-      "publishedAt": "2026-10-18T11:48:17.000Z",
-      "publisher": "シカク",
-      "summary": "スマホからClaude Codeを動かすために作ったPockodeですが、PCでの開発でも常用しており、コツコツと開発を続けてきました。 最近追加した機能の一つに、エージェントがチャット内でHTMLを表示する機能があります。正直なところ、…"
+      "id": "a9e7b420bc28",
+      "title": "公開したあとサイトを放置しない。AIに次の一手を考えさせる運用の型を本にしました",
+      "url": "https://zenn.dev/nagiworks/articles/book1-self-driving-webservice-announce",
+      "publishedAt": "2026-10-19T00:00:07.000Z",
+      "publisher": "凪",
+      "summary": "この記事は、Zennの本『AIに頼むだけでは作れない「自分で育つサイト」の作り方』の紹介です。 本記事だけで読めます。 こんな状態になっていませんか Claude Codeに頼んで、個人サイトを数日で公開した。 公開したあと、数字が思うよ…"
     },
     {
-      "id": "0c3fa8dc7692",
-      "title": "人間の脳はなぜ「AIっぽい」と気付けるのか？",
-      "url": "https://zenn.dev/syoshida07/articles/f262c8551e6cdc",
-      "publishedAt": "2026-10-18T11:46:39.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "生成AIが描いた人物や風景を見て、どこが変か説明できないのに「AIっぽい」と感じた経験はないでしょうか？ 大阪では昨日「なにわ淀川花火大会」があり、近所で集まる人むけにポスターを作ろうとしたのですが、どうやっても「なにわ淀川花火大会」らし…"
+      "id": "35cb4e0f3e63",
+      "title": "RailsでOpenAI Decisions APIを使った猫判定を作ったら、指示1行追加で確率が100%→0%になった",
+      "url": "https://zenn.dev/aya1357/articles/d537003189a21c",
+      "publishedAt": "2026-10-19T00:00:07.000Z",
+      "publisher": "aya",
+      "summary": "はじめに OpenAIから、判断処理に特化した Decisions API がパブリックベータで公開されました。 https://developers.openai.com/api/docs/guides/decisions Decisi…"
     },
     {
-      "id": "e83283757519",
-      "title": "AIに「一人でWebサービスを運営して」と任せてみた：時差対応の日程調整ツール「あうとき」",
-      "url": "https://zenn.dev/autoki_app/articles/0308c3d300f0c9",
-      "publishedAt": "2026-10-18T10:59:51.000Z",
-      "publisher": "あうとき",
-      "summary": "はじめに あうとき（Autoki） は、タイムゾーンをまたぐ日程調整のための Web ツールです。 https://autoki.app このサービスで少し変わっているのは、企画・実装・デプロイ・計測・宣伝までを Grok Bot 上で動…"
+      "id": "849597bd4aa8",
+      "title": "AIに作業させ、別のAIに監視させる三角フォーメーション",
+      "url": "https://zenn.dev/moimoi/articles/ai-implementer-observer-triangle",
+      "publishedAt": "2026-10-18T23:55:14.000Z",
+      "publisher": "やさい",
+      "summary": "最近、私は 2 つの AI セッションを並行して動かしている。 一方の Claude Code にはコードを書いてもらい、もう一方のセッション、多くの場合は Codex に、その作業を監視してもらう。そして私は、その 2 つの AI とや…"
     },
     {
-      "id": "0d71ccee5041",
-      "title": "40年計算機と向き合ってきた元半導体屋が、AI時代の「エンジニア教育の空洞化」に本気で鳴らす警笛",
-      "url": "https://zenn.dev/maskedridersys/articles/ddde1a1cc07d95",
-      "publishedAt": "2026-10-18T10:49:48.000Z",
-      "publisher": "maskedridersystem",
-      "summary": "はじめに 現代社会においてAIの技術的スケールの急激な進歩に対して警笛を鳴らす研究者もおおくいます。 とくにITに深くかかわっいるビル・ゲイツ氏、サム・アルトマン氏、ダリオ・アモディ氏などが強い警笛をならしています。 小生は40年前（19…"
+      "id": "4c1b745b2d87",
+      "title": "Windowsで常駐プロセスをコンソールなしで自動起動：VBS + タスクスケジューラをOllamaで実機検証",
+      "url": "https://zenn.dev/warrobotsxyz/articles/windows-hidden-autostart-vbs-schtasks",
+      "publishedAt": "2026-10-18T23:51:01.000Z",
+      "publisher": "神戌",
+      "summary": "はじめに Ollamaの serve や自作の常駐スクリプトなど、「ログオン時に自動で立ち上げておきたいが、黒いコンソールウィンドウは出したくない」ものは多い。Windowsのタスクスケジューラはログオン時に実行できるが、コンソールアプリ…"
     },
     {
-      "id": "2a94c80f2d08",
-      "title": "ライブイベントの映像オペレーターが現場の課題をコードで解決するために作ったOSS・ツール群",
-      "url": "https://zenn.dev/seventhwell/articles/eac72f3f2d4c75",
-      "publishedAt": "2026-10-18T10:47:34.000Z",
-      "publisher": "kajisho5",
-      "summary": "はじめまして。東京を拠点に SEVENTHWELL という屋号で、イベント映像・配信のテクニカル業務（システム設計・スイッチャーオペレーション）とソフトウェア開発を行っている梶山（@kajisho5）です。 普段は企業フォーラムや医学会、…"
+      "id": "f0472929b7dd",
+      "title": "企画から投稿まで自動化：Zenn(GitHub連携)とQiita(API v2)を1リポジトリで回す記事ループ",
+      "url": "https://zenn.dev/warrobotsxyz/articles/ai-article-loop-zenn-qiita",
+      "publishedAt": "2026-10-18T23:39:37.000Z",
+      "publisher": "神戌",
+      "summary": "はじめに 技術記事を続けて出すのは、書くことそのものより、書いた後の作業（2つの媒体への転記、タグ付け、記録、振り返り）で挫けがちです。 この記事では、AIコーディングエージェントと組んで、企画 → 執筆 → 検証 → 投稿 → 改善 を…"
     },
     {
-      "id": "e033409c1e6c",
-      "title": "生成に成功しても、受取とGPU停止は別に確かめる",
-      "url": "https://zenn.dev/bricks/articles/verify-video-receipt-and-release",
-      "publishedAt": "2026-10-18T10:41:36.000Z",
-      "publisher": "Renga",
-      "summary": "5秒の動画はできていました。しかし、埋め込みUIは完了へ変わらず、受取を照合する欄も更新されず、終了ボタンは無効のままでした。 ColabのL4でWan2.2 TI2V-5Bを動かした非公開試作の記録です。生成成功、ファイルの受取、ランタ…"
+      "id": "b9ef3400b050",
+      "title": "Tech Watch 2026-10-17: エージェント基盤を手元へ",
+      "url": "https://zenn.dev/laiken/articles/20261017-tech-watch",
+      "publishedAt": "2026-10-18T23:37:16.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 研究室に最大 30 席を無償提供する計画と、5010 億パラメータのモデルを自分たちの計算機で動かす話が同じ日に並んだ。AI の能力そのもの…"
     },
     {
-      "id": "9714fd35fcd1",
-      "title": "判断特化モデルの比較: Decisions API・Jev・Clef",
-      "url": "https://zenn.dev/bocek/articles/5e1ba6fae7e7d6",
-      "publishedAt": "2026-10-18T10:21:12.000Z",
-      "publisher": "はせ",
-      "summary": "はじめに 判断特化モデルを選ぶ際の参考として、Decisions API[1]・Jev[2]・Clef[3]の仕様と料金を比較し、Decisions APIとJevを実際に試しました。 今回の検証では、両APIの精度に違いは見られませんで…"
+      "id": "3815df8531b8",
+      "title": "ハニーポットのログを失わずに自宅へ残す ― T-Pot × 自宅 Elasticsearch で踏んだ 5 つの穴",
+      "url": "https://zenn.dev/t4n4bot4/articles/8e7f94181d2f3a",
+      "publishedAt": "2026-10-18T23:08:41.000Z",
+      "publisher": "t4n4bot4",
+      "summary": "はじめに 1 本目では自宅ラボで動かしている T-Pot と OpenCTI の全体像を、2 本目では AI とスクリプトの使い分けを紹介しました。 今回はその中から、ハニーポットのログを失わずに自宅へ残す仕組みを詳しく書きます。 T-P…"
     },
     {
-      "id": "95e02c162000",
-      "title": "X投稿に別サイトの記事を混ぜる案を、実装後すぐ取り消した話",
-      "url": "https://zenn.dev/jworks_hq/articles/jworks-20261016-07368dab",
-      "publishedAt": "2026-10-18T10:00:54.000Z",
-      "publisher": "J-WORKS",
-      "summary": "Xの通常投稿に、別サイトの記事を混ぜる案を実装しました。ところが、案そのものが却下されたため、同じ日に混ぜ込みを取り消しました。機能を作ってから方針が変わることはあります。今回あらためて考えたのは、採用されるか確定していない案を、どのくら…"
+      "id": "3800b6018ab2",
+      "title": "「おまえ操作できないの？」と聞いたら、Claude CodeがiPhoneの設定を全部やってくれた",
+      "url": "https://zenn.dev/iineineno03k/articles/20261017-iphone-mirroring-cua-driver",
+      "publishedAt": "2026-10-18T23:00:08.000Z",
+      "publisher": "いなじろう",
+      "summary": "スマホの設定、めんどくない？ スマホに黙っててほしい時間ってある。電話も通知も、その間だけは一切鳴らないでほしい。iPhoneなら集中モードで止められる。 ところが設定画面を開くと、「通知を許可する人」「着信」「繰り返しの着信」「集中モー…"
     },
     {
-      "id": "dda94599d0f4",
-      "title": "AIに毎回同じ説明をするのは今日で終わり。CLAUDE.md・Skills・MDの3層で「自分仕様のClaude Code」を作る",
-      "url": "https://zenn.dev/aicontentsbank/articles/claude-md-skills-stop-explaining",
-      "publishedAt": "2026-10-18T10:00:05.000Z",
-      "publisher": "AI Contents Bank",
-      "summary": "Claude Code を使い始めて最初の1か月、自分は毎セッション同じことを言っていました。 このプロジェクトは Next.js の App Router で、DB は Supabase、決済は Stripe テストは pnpm tes…"
+      "id": "5a6a6054de52",
+      "title": "Docker Cloud Sandboxes（sbx --cloud）入門：Claude Code に作らせたサイトを閉じてもスマホで開く",
+      "url": "https://zenn.dev/zundamon_tools/articles/docker-cloud-sandboxes-claude-code",
+      "publishedAt": "2026-10-18T22:47:23.000Z",
+      "publisher": "ずんだもんの実験道具箱",
+      "summary": "Docker Cloud Sandboxes は、AI エージェント用の隔離環境を Docker 社のクラウドに時間で借りるサービスです。手元の sbx コマンドに --cloud を付けるだけで使えます。 この記事では、cloud sa…"
     },
     {
-      "id": "455e439fd574",
-      "title": "AIのコードレビューを「指摘1件まで」にしたら4回とも1件。「全部出して」は1件も増やさなかった",
-      "url": "https://zenn.dev/numarn/articles/code-review-max-findings-cap-handson",
-      "publishedAt": "2026-10-18T09:53:25.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "Claude Code には、書いたコードの問題点を挙げさせる /code-review という呼び出し方があります (先頭にスラッシュを付けて使う、あらかじめ用意された命令のこと)。 これに「指摘は何件までにして」という上限を付けられる…"
+      "id": "82745982a571",
+      "title": "【MI68】レトロPC復刻ブームと秋葉原の祭典を語る",
+      "url": "https://zenn.dev/aiasoby/articles/asoby-20261003120652",
+      "publishedAt": "2026-10-18T22:25:48.000Z",
+      "publisher": "大人のAIアソビ",
+      "summary": "💡 本記事について 本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開し…"
     },
     {
-      "id": "2052a43c182f",
-      "title": "Claude Codeが同じミスを繰り返したら/clearでやり直す",
-      "url": "https://zenn.dev/k_grid/articles/claude-code-clear-compact-btw",
-      "publishedAt": "2026-10-18T08:49:50.000Z",
-      "publisher": "らんまる",
-      "summary": "この記事でわかること 同じミスが続くとき、修正を重ねるより /clear でやり直した方が速い理由と、やり直すプロンプトの書き方 /clear・/compact・/btw の使い分け 要約で消えてほしくない情報を CLAUDE.md に書…"
+      "id": "4bee02ffe847",
+      "title": "Gemini APIとPythonで音声会議を文字起こし・要約し、議事録作成を自動化する実践",
+      "url": "https://zenn.dev/ikuokuotiak/articles/gemini-python-audio-transcription-summary-automati",
+      "publishedAt": "2026-10-18T22:02:24.000Z",
+      "publisher": "ahic",
+      "summary": "課題提起：音声会議からの情報抽出と議事録作成の非効率 会議や打ち合わせの音声データには重要な情報が含まれますが、手動での文字起こし、要約、議事録作成は多大な時間と労力を要します。AI/RPAで業務を自動化している私にとって、このような手作…"
     },
     {
-      "id": "702b685a1d43",
-      "title": "Claude Codeのコンテキストを小さくするのをやめた話",
-      "url": "https://zenn.dev/yskms/articles/a273eb89061f22",
-      "publishedAt": "2026-10-18T08:32:12.000Z",
-      "publisher": "yskms",
-      "summary": "はじめに Claude Codeを使って個人開発をしています。 以前は、Claude Codeの使用量制限に悩まされることが多く、コンテキストを小さく保つために、作業をできるだけ細かく分割するようにしていました。 ただ、実際に使い続けてい…"
+      "id": "a5f2ef42e647",
+      "title": "会議を30分に短縮すべきか、AIに3回聞くと答えが揺れた話",
+      "url": "https://zenn.dev/every_ai_recipe/articles/ai-repeat-question-answer-check",
+      "publishedAt": "2026-10-18T21:17:53.000Z",
+      "publisher": "毎日AIレシピ",
+      "summary": "TL;DR 「誰が答えても結果が1つに決まる計算問題」と「正解が決まっていない判断・相談」の2種類の質問を、会話履歴を共有しない独立した3つのチャットにそれぞれ1回ずつ投げた（計6回） 計算問題（256×13）は3回とも「3328」で完全…"
     }
   ],
-  "fetchedAt": "2026-10-18T22:24:59.364Z",
+  "fetchedAt": "2026-10-19T00:20:45.249Z",
   "stale": false,
   "error": null
 }
