@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "318a79069526",
-      "title": "H1 を歩かせる — 二足歩行はなぜ難しいか",
-      "url": "https://zenn.dev/oggata/articles/60cd97af7b21d8",
-      "publishedAt": "2026-10-19T00:06:42.000Z",
-      "publisher": "Fumitoshi Ogata 緒方文俊",
-      "summary": "H1 を歩かせる — 二足歩行はなぜ難しいか この章では、人型ロボット Unitree H1 に、Go2 と同じく全方向に歩ける方策を学習させます。 やることは第3章とほぼ同じです。速度指令 (vx, vy, wz) を受け取り、脚の関節…"
+      "id": "e77882d74111",
+      "title": "AI動画制作の入力と修正履歴をMarkdownで管理する",
+      "url": "https://zenn.dev/asayi_megumi/articles/7566afadfdc7da",
+      "publishedAt": "2026-10-19T08:19:05.000Z",
+      "publisher": "浅井めぐみ",
+      "summary": "AI動画制作で修正を重ねると、動画だけを保存しても「どの入力から作ったか」が分からなくなります。素材、入力文、変更点、出力、確認結果を1回の生成ごとに結び付けておくと、次に直す箇所を記録から追えます。 ここでは、画面から手動で生成する作業…"
     },
     {
-      "id": "41e15a5b12e1",
-      "title": "AIにXの下書きを任せて、4日で32本中3本しか使わなかった ── 手元に戻した仕事と、任せ続けている仕事",
-      "url": "https://zenn.dev/menmen_ailab/articles/103cad12dfa825",
-      "publishedAt": "2026-10-19T00:05:05.000Z",
-      "publisher": "実践AI活用ラボ",
-      "summary": "Claude を自分用に整えて、発信の下書きや記録をAIに任せています。 9月に、X(旧Twitter)の投稿の下書きを毎朝AIに作ってもらう仕組みを回していましたが、直近の4日間で出てきた32本のうち、実際に使ったのは3本だけでした。 …"
+      "id": "c5b6c9a3079b",
+      "title": "AI時代、企業は何を資産として蓄積すべきか",
+      "url": "https://zenn.dev/itdo/articles/749c74abcb9008",
+      "publishedAt": "2026-10-19T08:18:55.000Z",
+      "publisher": "太田和彦",
+      "summary": "AIが作った手順書やコードを保存した。しかし、別の担当者が使うと、前提が分からず確認し直す。業務規則が変わると、どの文書や処理を直すべきか分からない。 この状態では、成果物は増えても再利用する能力が増えたとは言いにくい。保存の次に必要なの…"
     },
     {
-      "id": "a9e7b420bc28",
-      "title": "公開したあとサイトを放置しない。AIに次の一手を考えさせる運用の型を本にしました",
-      "url": "https://zenn.dev/nagiworks/articles/book1-self-driving-webservice-announce",
-      "publishedAt": "2026-10-19T00:00:07.000Z",
-      "publisher": "凪",
-      "summary": "この記事は、Zennの本『AIに頼むだけでは作れない「自分で育つサイト」の作り方』の紹介です。 本記事だけで読めます。 こんな状態になっていませんか Claude Codeに頼んで、個人サイトを数日で公開した。 公開したあと、数字が思うよ…"
+      "id": "f3c680336b33",
+      "title": "Claude Code のセッション引き継ぎ: handoff 系スキル5本はどこが違うか",
+      "url": "https://zenn.dev/skillselion/articles/2dc8a05db34a21",
+      "publishedAt": "2026-10-19T08:10:29.000Z",
+      "publisher": "Skillselion",
+      "summary": "長いセッションはコンテキストが尽きます。新しいセッションには、それまでの記憶がありません。この穴を埋めるのが handoff（引き継ぎ）スキルです。やることは一つで、いまの作業状態を短い文書に書き出し、次のエージェントに読ませます。 カタ…"
     },
     {
-      "id": "35cb4e0f3e63",
-      "title": "RailsでOpenAI Decisions APIを使った猫判定を作ったら、指示1行追加で確率が100%→0%になった",
-      "url": "https://zenn.dev/aya1357/articles/d537003189a21c",
-      "publishedAt": "2026-10-19T00:00:07.000Z",
-      "publisher": "aya",
-      "summary": "はじめに OpenAIから、判断処理に特化した Decisions API がパブリックベータで公開されました。 https://developers.openai.com/api/docs/guides/decisions Decisi…"
+      "id": "3da5ec6568df",
+      "title": "MCPでAIエージェントに「ログイン済みの自分のChrome」を操作させる：FSB入門",
+      "url": "https://zenn.dev/parzival1213/articles/4cf5993eea8ed2",
+      "publishedAt": "2026-10-19T07:48:04.000Z",
+      "publisher": "Lakshman Turlapati",
+      "summary": "この記事について Claude Code や Cursor などのコーディングエージェントは、コードを書く分には十分頼りになります。ところが「管理画面で設定を確認する」「issue一覧を絞り込む」「フォームを埋める」のようにブラウザが必要…"
     },
     {
-      "id": "849597bd4aa8",
-      "title": "AIに作業させ、別のAIに監視させる三角フォーメーション",
-      "url": "https://zenn.dev/moimoi/articles/ai-implementer-observer-triangle",
-      "publishedAt": "2026-10-18T23:55:14.000Z",
-      "publisher": "やさい",
-      "summary": "最近、私は 2 つの AI セッションを並行して動かしている。 一方の Claude Code にはコードを書いてもらい、もう一方のセッション、多くの場合は Codex に、その作業を監視してもらう。そして私は、その 2 つの AI とや…"
+      "id": "b7d4433e546e",
+      "title": "プログラミングのように文書も機械で確かめる — chaff と、外れた文書で育てる chaff-corpus",
+      "url": "https://zenn.dev/singularity/articles/chaff-corpus-your-documents",
+      "publishedAt": "2026-10-19T07:34:28.000Z",
+      "publisher": "Isamu",
+      "summary": "プログラミングは、確かめる工程ごと自動になった プログラミングでは、作る工程の自動化が一気に進みました。 AI がコードを書き、それを確かめる工程も機械が受け持ちます。 リンター: コードが決まりに沿って書かれているかを確かめる ユニット…"
     },
     {
-      "id": "4c1b745b2d87",
-      "title": "Windowsで常駐プロセスをコンソールなしで自動起動：VBS + タスクスケジューラをOllamaで実機検証",
-      "url": "https://zenn.dev/warrobotsxyz/articles/windows-hidden-autostart-vbs-schtasks",
-      "publishedAt": "2026-10-18T23:51:01.000Z",
-      "publisher": "神戌",
-      "summary": "はじめに Ollamaの serve や自作の常駐スクリプトなど、「ログオン時に自動で立ち上げておきたいが、黒いコンソールウィンドウは出したくない」ものは多い。Windowsのタスクスケジューラはログオン時に実行できるが、コンソールアプリ…"
+      "id": "ceec29cf2809",
+      "title": "AIドキュメント支援を試すなら、小さな仕様変更を一つ渡す",
+      "url": "https://zenn.dev/liora/articles/0c9ee6d992ac78",
+      "publishedAt": "2026-10-19T07:09:50.000Z",
+      "publisher": "liora",
+      "summary": "説明文は更新されたのに、サンプルだけが古いまま残っている。レビューで気付ければ直せるが、文章が自然だと見落としやすい。ドキュメント作成にAIを入れるなら、最初の下書きよりも、変更が入った後の整合性を確かめたい。 実際のリポジトリを渡す前に…"
     },
     {
-      "id": "f0472929b7dd",
-      "title": "企画から投稿まで自動化：Zenn(GitHub連携)とQiita(API v2)を1リポジトリで回す記事ループ",
-      "url": "https://zenn.dev/warrobotsxyz/articles/ai-article-loop-zenn-qiita",
-      "publishedAt": "2026-10-18T23:39:37.000Z",
-      "publisher": "神戌",
-      "summary": "はじめに 技術記事を続けて出すのは、書くことそのものより、書いた後の作業（2つの媒体への転記、タグ付け、記録、振り返り）で挫けがちです。 この記事では、AIコーディングエージェントと組んで、企画 → 執筆 → 検証 → 投稿 → 改善 を…"
+      "id": "b053b03e6608",
+      "title": "model: \"auto\" は何をしているのか — Auto Router v6 の中身を読む",
+      "url": "https://zenn.dev/brian166/articles/27d1f77aeb7559",
+      "publishedAt": "2026-10-19T07:05:47.000Z",
+      "publisher": "brian166",
+      "summary": "AI の API をいくつも契約していると、「どのモデルに投げるか」の判断がコードのあちこちに散らばっていきます。分岐が増え、モデル名の変更がテストを壊し、障害時の切り替えは誰も書かなくなります。 AICraft は OpenAI 互換の…"
     },
     {
-      "id": "b9ef3400b050",
-      "title": "Tech Watch 2026-10-17: エージェント基盤を手元へ",
-      "url": "https://zenn.dev/laiken/articles/20261017-tech-watch",
-      "publishedAt": "2026-10-18T23:37:16.000Z",
-      "publisher": "らいけん",
-      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 研究室に最大 30 席を無償提供する計画と、5010 億パラメータのモデルを自分たちの計算機で動かす話が同じ日に並んだ。AI の能力そのもの…"
+      "id": "6372f675074c",
+      "title": "AI に動画の検査まで任せていたら、4日間「OK」のまま、公開した4本が全部おかしくなっていた",
+      "url": "https://zenn.dev/claire_ai/articles/kensa-iriguchi",
+      "publishedAt": "2026-10-19T07:01:35.000Z",
+      "publisher": "クレア",
+      "summary": "AI で回している YouTube の作業用 BGM チャンネル「風景の窓」で、6時間の動画を4本公開したあとで、4本すべてに不具合があると分かった。1本あたり39回。4日間、誰も気づかなかった。 ! 🔑 具体的な中身（全体の作り・数字…"
     },
     {
-      "id": "3815df8531b8",
-      "title": "ハニーポットのログを失わずに自宅へ残す ― T-Pot × 自宅 Elasticsearch で踏んだ 5 つの穴",
-      "url": "https://zenn.dev/t4n4bot4/articles/8e7f94181d2f3a",
-      "publishedAt": "2026-10-18T23:08:41.000Z",
-      "publisher": "t4n4bot4",
-      "summary": "はじめに 1 本目では自宅ラボで動かしている T-Pot と OpenCTI の全体像を、2 本目では AI とスクリプトの使い分けを紹介しました。 今回はその中から、ハニーポットのログを失わずに自宅へ残す仕組みを詳しく書きます。 T-P…"
+      "id": "9cfd3834fb81",
+      "title": "Anthropicが株5%を公益基金へ。AIを締め出すサイトも増加",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261019",
+      "publishedAt": "2026-10-19T06:58:41.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年10月19日（月）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は、AIの会社が「信頼」をどう作るのかがよくわかる日なんですよ。Claudeを作っているAnthropicが、自社の株の5%を…"
     },
     {
-      "id": "3800b6018ab2",
-      "title": "「おまえ操作できないの？」と聞いたら、Claude CodeがiPhoneの設定を全部やってくれた",
-      "url": "https://zenn.dev/iineineno03k/articles/20261017-iphone-mirroring-cua-driver",
-      "publishedAt": "2026-10-18T23:00:08.000Z",
-      "publisher": "いなじろう",
-      "summary": "スマホの設定、めんどくない？ スマホに黙っててほしい時間ってある。電話も通知も、その間だけは一切鳴らないでほしい。iPhoneなら集中モードで止められる。 ところが設定画面を開くと、「通知を許可する人」「着信」「繰り返しの着信」「集中モー…"
+      "id": "9e4960fa4638",
+      "title": "Claude Code modsで、コードレビューのペインと「頼まれごと」の帯を作った",
+      "url": "https://zenn.dev/kki2ne/articles/claude-code-mods-review-pane-todo-band-2026",
+      "publishedAt": "2026-10-19T06:35:35.000Z",
+      "publisher": "きつね",
+      "summary": "Claude Codeの画面の右側に、レビュー中の差分が1チャンクずつ出ています。別のセッションでは、プロンプトの上にClaudeから頼まれたことが並ぶ帯も出しています。 どちらもClaude Code modsで自分用に作りました。 最…"
     },
     {
-      "id": "5a6a6054de52",
-      "title": "Docker Cloud Sandboxes（sbx --cloud）入門：Claude Code に作らせたサイトを閉じてもスマホで開く",
-      "url": "https://zenn.dev/zundamon_tools/articles/docker-cloud-sandboxes-claude-code",
-      "publishedAt": "2026-10-18T22:47:23.000Z",
-      "publisher": "ずんだもんの実験道具箱",
-      "summary": "Docker Cloud Sandboxes は、AI エージェント用の隔離環境を Docker 社のクラウドに時間で借りるサービスです。手元の sbx コマンドに --cloud を付けるだけで使えます。 この記事では、cloud sa…"
+      "id": "2d34e30b4918",
+      "title": "ハロウィンイラストは「違和感」で怖く美しく！女の子を変身させるAIプロンプト5選とSNS規制対策",
+      "url": "https://zenn.dev/satofun/articles/daa0ebf34c3fff",
+      "publishedAt": "2026-10-19T06:07:49.000Z",
+      "publisher": "sato",
+      "summary": "PR｜本記事にはプロモーションを含みます。 今年のハロウィンは、かわいいだけでは終わらない、思わずゾッとするような女の子イラストを作ってみませんか？ 例えば、笑顔なのに目だけが笑っていない少女。足が床からわずかに浮いている女性。鏡の中の自…"
     },
     {
-      "id": "82745982a571",
-      "title": "【MI68】レトロPC復刻ブームと秋葉原の祭典を語る",
-      "url": "https://zenn.dev/aiasoby/articles/asoby-20261003120652",
-      "publishedAt": "2026-10-18T22:25:48.000Z",
-      "publisher": "大人のAIアソビ",
-      "summary": "💡 本記事について 本記事は、AIの実験・活用メディア「大人のAIアソビ」の技術サテライト版です。 キャラクター（武将クマの「ぷれい」＆青髪AI美少女「ジェミー」）による軽快な掛け合い・オチ対話劇の全文は、👉 本館の元記事 にて公開し…"
+      "id": "7c8f02e1e8ab",
+      "title": "AIに仕事を分けても、全体の上限は守れるか。合成の100件で小さな台帳を試した",
+      "url": "https://zenn.dev/hocky3/articles/54d8d5800902e3",
+      "publishedAt": "2026-10-19T05:38:35.000Z",
+      "publisher": "hocky3",
+      "summary": "買い出しを三人に分けたら、全体の予算を超えた（架空の例） たとえば（架空の例）、サークルの合宿の買い出しを、三人に分けて頼んだ。予算は全体で3,000円、「一回の買い物は800円まで」と伝えてある。三人は互いの買い物を知らない。それぞれ8…"
     }
   ],
-  "fetchedAt": "2026-10-19T10:44:52.421Z",
+  "fetchedAt": "2026-10-19T17:11:48.147Z",
   "stale": false,
   "error": null
 }

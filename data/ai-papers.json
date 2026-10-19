@@ -6,44 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "54c85133eba7",
-      "title": "Learning to Think and Explore in 3D World",
-      "url": "https://huggingface.co/papers/2610.21783",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing mu…",
-      "score": 95
-    },
-    {
       "id": "a113c894a8b2",
       "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
       "url": "https://huggingface.co/papers/2610.09872",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "summary": "Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounc…",
-      "score": 50
-    },
-    {
-      "id": "ebeba4b8e1a9",
-      "title": "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
-      "url": "https://huggingface.co/papers/2610.23121",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Generating complete, coherent, and usable 3D indoor scenes from natural language requires strong design intelligence: t…",
-      "score": 41
-    },
-    {
-      "id": "814fb692f95b",
-      "title": "Lexical Reference Frames: Interpreting LM Residual Streams in Native Semantics",
-      "url": "https://huggingface.co/papers/2610.22169",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "The vocabulary of a language model is its native semantics: the embedding and the unembedding fix the meaning of a stat…",
-      "score": 20
-    },
-    {
-      "id": "75fbd63ef673",
-      "title": "RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars",
-      "url": "https://huggingface.co/papers/2610.23230",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Making a conference poster is visual coding in miniature: an entire paper must be compressed onto a single page, which …",
-      "score": 19
+      "score": 110
     },
     {
       "id": "092cddae6fb1",
@@ -51,39 +19,47 @@
       "url": "https://huggingface.co/papers/2610.23279",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "summary": "Multimodal large language models (MLLMs) answer questions about whole images well, yet they still struggle with fine-gr…",
-      "score": 12
+      "score": 26
     },
     {
-      "id": "4da34b1d172e",
-      "title": "OPMD: On-Policy Mechanism Distillation Beyond Output Supervision",
-      "url": "https://huggingface.co/papers/2610.14022",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) improves language-model by supervising a student on prefixes sampled from its own policy, …",
-      "score": 6
-    },
-    {
-      "id": "92e24298dd37",
-      "title": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
-      "url": "https://huggingface.co/papers/2610.22428",
+      "id": "001b9f3784c5",
+      "title": "OmniXRef: A Unified Framework for Multimodal Multi-Reference Video Editing",
+      "url": "https://huggingface.co/papers/2610.22744",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "In a small language model the vocabulary is the single largest part. In Gemma 3 270M the embedding table holds 168M of …",
+      "summary": "Creative intent in video editing can be expressed through text instructions (e.g., \"remove the people\"), image referenc…",
+      "score": 13
+    },
+    {
+      "id": "279c2a8cfd6c",
+      "title": "MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing",
+      "url": "https://huggingface.co/papers/2610.23751",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Multi-turn image editing aims to modify an image according to a sequence of instructions, making it better aligned with…",
       "score": 5
     },
     {
-      "id": "c397c169d5c3",
-      "title": "Failure Recovery via Belief Updates and World Modeling for Long-Horizon Agents",
-      "url": "https://huggingface.co/papers/2610.18082",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Long-horizon agents often struggle to recover from failures whose causes lie several steps earlier, beyond what local r…",
-      "score": 4
+      "id": "49862bb73928",
+      "title": "EvoWeb: A Benchmark for Coding Agents on Evolving Web Applications",
+      "url": "https://huggingface.co/papers/2610.16402",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Web application development often proceeds through successive requests that extend an existing implementation. Yet web-…",
+      "score": 3
     },
     {
-      "id": "bae796861642",
-      "title": "Consistent Distribution Matching for Data-Free Diffusion Distillation",
-      "url": "https://huggingface.co/papers/2610.09221",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "summary": "Flow and diffusion models suffer from slow inference due to computationally expensive numerical integration. Distillati…",
-      "score": 2
+      "id": "80b0567d0a4c",
+      "title": "Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards",
+      "url": "https://huggingface.co/papers/2610.22448",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Enhancing the agentic capabilities of Large Language Models (LLMs) to tackle complex software engineering (SWE) and gen…",
+      "score": 1
+    },
+    {
+      "id": "20018115b395",
+      "title": "GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations",
+      "url": "https://huggingface.co/papers/2610.22708",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Text-based world models have recently shown potential to simulate complex RL environment state transitions for a divers…",
+      "score": 1
     },
     {
       "id": "645a640c9992",
@@ -94,15 +70,39 @@
       "score": 1
     },
     {
-      "id": "279c2a8cfd6c",
-      "title": "MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing",
-      "url": "https://huggingface.co/papers/2610.23751",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Multi-turn image editing aims to modify an image according to a sequence of instructions, making it better aligned with…",
-      "score": 1
+      "id": "bd801d2bf9e3",
+      "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
+      "url": "https://huggingface.co/papers/2610.22273",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods …",
+      "score": 0
+    },
+    {
+      "id": "3e8023e8064a",
+      "title": "Relational Learning as World Modeling",
+      "url": "https://huggingface.co/papers/2610.16763",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Relational learning typically predicts from a database state, but decision making asks a different question: how will t…",
+      "score": 0
+    },
+    {
+      "id": "286d01d94056",
+      "title": "What It Is, Not What It Says: Securing Agentic Browsing Interactions with Web Semantics",
+      "url": "https://huggingface.co/papers/2610.22697",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "AI agents increasingly browse the web on users' behalf, yet they consume webpages as screenshots or text, exposing thei…",
+      "score": 0
+    },
+    {
+      "id": "a98a9f3f5dc2",
+      "title": "ARC-SORT: Adaptive, Robust, Compensated Multi-Object Tracking with Interacting Multiple Models",
+      "url": "https://huggingface.co/papers/2610.22306",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Multi-object tracking in sports broadcasts is hard for two reasons: athletes move fast and change direction abruptly, a…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-19T10:44:52.288Z",
+  "fetchedAt": "2026-10-19T17:11:47.966Z",
   "stale": false,
   "error": null
 }

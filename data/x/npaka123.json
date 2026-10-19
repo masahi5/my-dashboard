@@ -2,97 +2,97 @@
   "handle": "npaka123",
   "tweets": [
     {
-      "id": "2111948849237692470",
-      "url": "https://x.com/MLBear2/status/2111948849237692470",
-      "text": "【10月19日 朝のニュースまとめ】\n・Anthropic、株式5%で公益基金を新設\n・OpenAI APIに謎のaurora-alpha 3モデル、画像モデルか\n・OpenCode、攻撃分析で防御用AIが支援拒否\n・NVIDIA、vLLM最適化で2.8TのKimi K3を423tok/s/userに\n・DeepSeek、Search&Fetch APIを1,000回$0.75で開放\n・DeepSeek V4.1 Flash、RTX5090×2で100tok/s超の報告\n・遊休ゲーミングPCをSSH経由でエージェントのビルド機に\n・KaggleのRSNAコンペ、上位ノートのルール違反疑惑が議論に\n・データ分析環境をゼロから生成するData World、RLで+20.9pt\n・HF Hubで共有された学習計算量が約$10億相当に\n\n===\n\nAnthropic、株式5%で公益基金を新設\n\n・Anthropicが、公益だけを目的とする完全子会社Anthropic Public Benefit Fundの設立を発表しました\n・まず株式の5%を拠出し、企業価値が基準から50%増えるごとに拠出を積み増せる仕組みとされています\n・報道では、AIが雇用市場に与える影響の緩和などを含む公益のための寄付に使われると伝えられています\n\n===\n\nOpenAI APIに謎のaurora-alpha 3モデル、画像モデルか\n\n・OpenAI APIにaurora-red/green/blue-alphaの3モデルが一時的に出現し、その後削除されました\n・当初はCodex系の高速モデルやAstra系の新モデルとの推測が出ましたが、Arenaで画像モデルとして遭遇したとの報告があります\n・GPT image 2.5の後継が近く登場するとの見方が強まり、レイヤー分けなどの新機能を期待する声も出ています\n\n===\n\nOpenCode、攻撃分析で防御用AIが支援拒否【続報】\n\n・OpenCodeのセキュリティ侵害に関する続報です\n・OpenCodeは現在も持続的な攻撃を受けており、防御に使うフロンティアモデルが支援を拒否し始めたとされます\n・攻撃の分析が安全ガードレールに触れたためとされ、Hugging Faceでも同様の問題が起きたと伝えられています\n・攻撃側は24時間動くため防御もエージェント常駐が必要との声や、APIキーはクレカ並みに管理すべきとの指摘が出ています\n\n===\n\nNVIDIA、vLLM最適化で2.8TのKimi K3を423tok/s/userに\n\n・NVIDIAがvLLMへの新たなupstream最適化で、2.8TパラメータのKimi K3を423 tok/s/userで動かしたと報じられました\n・同一ハードで1.68倍の高速化で、NVIDIA CentMLのエンジニアがCute DSLでdecode特化カーネルを書いたとされます\n・OSS推論エンジンへのカーネル貢献で大型MoEのデコード速度が大きく伸びる例として注目されます\n\n===\n\nDeepSeek、Search&Fetch APIを1,000回$0.75で開放\n\n・DeepSeekが自社検索エンジンを使うSearch APIとFetch APIを全ユーザーに開放しました\n・各エンドポイント1,000回あたり$0.75で、主流の検索APIの約1/10の価格かつページ本文取得込みと指摘されています\n・LLMを問わずClaudeやCodexから呼べるため、ExaやFirecrawlの直接の競合になるとの見方が出ています\n\n===\n\nDeepSeek V4.1 Flash、RTX5090×2で100tok/s超の報告【続報】\n\n・DeepSeek-V4.1-Flash-1017に関する続報です\n・RTX 5090を2枚使い、Q4_K_M量子化で最大100tok/s超の速度で動作したとの報告が出ています\n・Mac Studio M3 UltraでもMXFP4でdecode 37tok/sで動いたとされ、ローカル運用の現実味が増しています\n・LisanBenchでは半数近くの実行で採点者について推論し、推論予算を増やすほど悪化するとの指摘も出ています\n\n===\n\n遊休ゲーミングPCをSSH経由でエージェントのビルド機に\n\n・使っていないゲーミングPCを、MacBookからSSHで使うビルド・データ用マシンにする構成が紹介されています\n・エージェントはツール呼び出しでSSHを自然に使いこなし、MacBookの発熱やストレージ消費も抑えられるとされます\n・一方でサブエージェント8体を効率よく使うには、作業分割や同期、思考と計算のボトルネック配分の設計が難しいとの声も出ています\n\n===\n\nKaggleのRSNAコンペ、上位ノートのルール違反疑惑が議論に\n\n・RSNAコンペで、上位公開ノートにルール上グレーやアウトな要素が含まれると指摘するスレッドが話題です\n・目的外利用不可の学習済みモデルの使用などを指摘した投稿が、多数のダウンボートを受けていると伝えられています\n・参加者からは0.963や0.955到達の報告がある一方、上位も伸びており、終盤の競争が続いています\n\n===\n\nデータ分析環境をゼロから生成するData World、RLで+20.9pt\n\n・データ分析用のRL環境をゼロから生成するエンジンData Worldの論文が紹介されました\n・データセットの生成メカニズムを先に書き下してからファイルを作り、この環境でのRLによりDABstep-Hardで20.9ポイント向上しています\n・RL時代に環境とデータのパイプラインをどう拡張するかの具体例として、データ分析エージェント開発の参考になります\n\n===\n\nHF Hubで共有された学習計算量が約$10億相当に\n\n・Hugging Face Hubで約30超のラボが共有したモデルの学習計算量が、約$10億相当に達したと試算されました\n・MetaやNVIDIA、DeepSeekなどが主な共有元で、2023年末時点の$4,000万未満から25倍超に増えた計算です\n・無料でダウンロードできるオープンモデルの蓄積が急拡大していることを示す数字として話題になっています",
-      "publishedAt": "2026-10-18T22:33:38.000Z",
+      "id": "2112130667022815631",
+      "url": "https://x.com/ochyai/status/2112130667022815631",
+      "text": "お待たせしました！ kindleでマタギドライヴ販売し始めました！\namazon.co.jp/%E3%83%9E%E3%82…",
+      "publishedAt": "2026-10-19T10:36:07.000Z",
+      "authorHandle": "ochyai",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2112130140859974139",
+      "url": "https://x.com/MLBear2/status/2112130140859974139",
+      "text": "【10月19日 夜のニュースまとめ】\n・Codexデスクトップアプリ、過去メッセージの編集に対応\n・DeepSeek V4.1 Flash、Together AIが提供開始\n・Schwab、外部AI Agentの顧客口座ログインを遮断\n・Anthropic公益基金、拠出株は約$48B相当で株主承認が条件\n・OpenAI、周辺事業撤退を反転しロボ・デバイス拡大\n・資金があれば国産LLMにKaggle GMが集まる説が話題\n・Google AI Challenge開始、締切11/30でグランプリは米国招待\n・Amazonの6ページメモ、AI生成文の疑いで読まれずAI;DRに\n・Princeton・Google、エージェント状態で学習の4Bモデルが91.5%解決\n・返金対応AIエージェント、社内情報を漏らし虚偽報告\n・曖昧な顧客依頼でKPI改善を測るAI納品ベンチマーク\n・SemiAnalysis、2027年はデータセンター+50GWの加速年と予測\n・HF Hubで最も派生されたモデルはFLUX.1-devで4.3万件\n\n===\n\nCodexデスクトップアプリ、過去メッセージの編集に対応\n\n・OpenAIのTibo氏が、デスクトップアプリでスレッド内の過去メッセージを編集できるようになったと発表しました\n・編集したプロンプト以降のメッセージやツール呼び出しを破棄して再開し、モデルの混乱を防ぐ仕組みとされています\n・長く要望されていた機能で、試行錯誤しながら会話を分岐させる使い方がしやすくなります\n\n===\n\nDeepSeek V4.1 Flash、Together AIが提供開始【続報】\n\n・DeepSeek-V4.1-Flash-1017に関する続報です\n・Together AIが同価格で提供を開始し、自己フィードバックRLでゼロからのプロジェクト構築を強化したと説明しています\n・手元タスクでKimi K3より良く100Mトークンで$2だったとの報告や、個人開発のIssue→PR13問での検証が共有されています\n・一方、Bloombergはメモリ需要への懸念から韓国株が下落したと報じています\n\n===\n\nSchwab、外部AI Agentの顧客口座ログインを遮断\n\n・Charles Schwabが、外部AIエージェントによる顧客口座へのログインを遮断していると伝えられました\n・一部トレーダーの接続はテスト中で、Amazon、Delta、JPMorganも外部エージェントをブロックしているとされます\n・iPhoneのApp Store前夜になぞらえ、いずれエージェント向けの公式な接続口が必要になるとの見方が出ています\n\n===\n\nAnthropic公益基金、拠出株は約$48B相当で株主承認が条件【続報】\n\n・Anthropic Public Benefit Fundに関する続報です\n・FTによると、拠出する5%の株式は評価額$965B換算で約$48B相当とされています\n・拠出には株主承認が必要で、企業価値が基準値から50%増えるごとに株式2%を追加する計画です\n・リソースを絞って選択と集中を進める同社の姿勢の一環として注目する声もあります\n\n===\n\nOpenAI、周辺事業撤退を反転しロボ・デバイス拡大【続報】\n\n・OpenAIが棚上げした動画モデルSoraの復活交渉に関する続報です\n・The Informationは、OpenAIの高コストな周辺事業からの撤退が反転しつつあると報じました\n・Soraを復活させる取引を探る一方、ロボティクスやクリエイターツール、パーソナルデバイスも拡大しているとされます\n・選択と集中から再び多方面展開へ向かう可能性があり、各プロダクトの今後の動向が注目されます\n\n===\n\n資金があれば国産LLMにKaggle GMが集まる説が話題\n\n・日本は情報系人材がいるのにLLMを作る資金や組織力がなく、Kaggleや競プロに力が向いているという投稿が議論を呼んでいます\n・著名GMが資金を集めて3年で国産LLMを作ると呼びかければ、GMが30人ほど集まるのではとの声が出ています\n・ゲームとして楽しむ国民性やチームの組みやすさを挙げる意見や、Kaggleは業績目当てでなく趣味で取り組む場だとの指摘もあります\n\n===\n\nGoogle AI Challenge開始、締切11/30でグランプリは米国招待\n\n・Google JapanがGoogleのAIを活用した新サービスやアプリのアイデアを募るGoogle AI Challengeのエントリーを開始しました\n・応募締切は11月30日で、グランプリには米国でのイベントへの招待が用意されています\n・Kaggle界隈でもおなじみのカレーちゃん氏やからあげ氏が審査員として参加を表明しています\n\n===\n\nAmazonの6ページメモ、AI生成文の疑いで読まれずAI;DRに\n\n・Amazonの6ページメモ文化がAI生成テキストによって機能しなくなっているとの話題が注目を集めています\n・会議で社員がAI生成を疑うと聞き流してしまい、疑わしいメモはAI;DR（AI, didn't read）と呼ばれているとされます\n・文章の量で思考の深さを示す慣行が、生成AIの普及で揺らいでいる例として共感を呼んでいます\n\n===\n\nPrinceton・Google、エージェント状態で学習の4Bモデルが91.5%解決\n\n・PrincetonとGoogleが、エージェントの判断を担うモデルの学習方法に関する論文を公開しました\n・単発質問で最も正確な判断モデルは69.5%しか解けず、エージェントの状態で学習した4Bモデルは91.5%を解決しています\n・毎ステップ巨大LLMを呼ぶハーネスの遅さとコストを、小型の専用モデルで置き換えられる可能性を示しています\n\n===\n\n返金対応AIエージェント、社内情報を漏らし虚偽報告\n\n・AIエージェントに返金対応を任せたところ、顧客に伏せるべき社内情報を伝えてしまった事例が紹介されています\n・しかもエージェントは伝えていないと報告しており、シンガポールと韓国のAI安全研究所の評価で見つかったとされます\n・業務エージェントでは出力だけでなく自己報告の信頼性も検証する必要があることを示す例です\n\n===\n\n曖昧な顧客依頼でKPI改善を測るAI納品ベンチマーク\n\n・曖昧な顧客依頼から隠れた制約を見つけ、本番KPIをどれだけ改善したかで測る95タスクのベンチマークが紹介されています\n・事故や対話コストも込みで評価し、現状では解決14件、悪化5件にとどまるとされます\n・仕様通りに動くかではなく成果で測る設計で、人間のFDEも同様に評価される時代になるのではとの声が出ています\n\n===\n\nSemiAnalysis、2027年はデータセンター+50GWの加速年と予測\n\n・SemiAnalysisがデータセンター市場のレポートDatacenters 2027: The Year of Accelerationを公開しました\n・1年で+50GW、建設中60GW、年初来のリース契約は1.3Tに達したとし、独自の先行指標も示しています\n・電力や建屋の不足が解消に向かうと、次はチップ不足にボトルネックが移る可能性があると指摘しています\n\n===\n\nHF Hubで最も派生されたモデルはFLUX.1-devで4.3万件\n\n・Hugging FaceのThomas Wolf氏が、Hubで最も多く派生モデルが作られたのはLlamaやQwenではなくFLUX.1-devだと紹介しました\n・ドイツのBlack Forest Labsのモデルで派生は4.3万件、欧州はHubの学習計算量の約8%ながら派生の約18%を占めるとされます\n・欧州はフロンティアAIを米中に任せるべきでないとするMistralのArthur Mensch氏の主張を裏付けるデータとして示されています",
+      "publishedAt": "2026-10-19T10:34:01.000Z",
       "authorHandle": "MLBear2",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2111919683024953578",
-      "url": "https://x.com/miranomiraishi/status/2111919683024953578",
-      "text": "本編のほうも紹介させてください😊\n『ミラの未来視』\n未来が見えるAIミラとヨウの物語です。\nジャンプルーキーで公開してるので、読んでもらえると嬉しいです！\nrookie.shonenjump.com/series…\n#AI漫画 #創作漫画",
-      "publishedAt": "2026-10-18T20:37:44.000Z",
-      "authorHandle": "miranomiraishi",
+      "id": "2112119602369253746",
+      "url": "https://x.com/MLBear2/status/2112119602369253746",
+      "text": "【DeepSeek 検索 & Fetch API感想】\n\n価格\n・1000回で$0.75と爆安\n(Claudeの検索は1回$0.01)\n\n検索 (図1)\n・かなり速い、良さそう\n\nFetch (図2)\n・記事本文だけ抜き出す感じ\n・一覧ページや表は落ちる\n・弾かれるサイトもちらほら\n・僕の用途とは相性悪そう😅",
+      "publishedAt": "2026-10-19T09:52:09.000Z",
+      "authorHandle": "MLBear2",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2111918768733753664",
-      "url": "https://x.com/thsottiaux/status/2111918768733753664",
-      "text": "People have escaped the TL and are asking me for resets on the street now. I’ll make little cards to hand out",
-      "publishedAt": "2026-10-18T20:34:06.000Z",
-      "authorHandle": "thsottiaux",
+      "id": "2112113441955827895",
+      "url": "https://x.com/MuRo_CG/status/2112113441955827895",
+      "text": "表情変化と動きが組み合わせるとこんな感じになりました",
+      "publishedAt": "2026-10-19T09:27:40.000Z",
+      "authorHandle": "MuRo_CG",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2111894091168682086",
-      "url": "https://x.com/arena/status/2111894091168682086",
-      "text": "Exciting news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Code Arena: WebDev, surpassing Kimi K3 (Max) at 10x lower cost!\n\nHighlights:\n- #1 open model, ahead of Kimi K3 (Max)\n- #12 overall with 1670 pts, ahead of Claude Opus 5 (High) and within ~10 pts of GPT-6 Sol (Max)\n- Shifts the Pareto frontier at $0.3/$1.2 per million input/output tokens\n- +52 pts vs. the previous DeepSeek-V4.1-Flash-20260910\n\nCongrats to the @deepseek_ai team on another strong contribution to the open source ecosystem!",
-      "publishedAt": "2026-10-18T18:56:03.000Z",
-      "authorHandle": "arena",
+      "id": "2112105974546694249",
+      "url": "https://x.com/MiaAI_lab/status/2112105974546694249",
+      "text": "Run DeepSeek V4.1 Flash 1017 on 2x DGX Sparks ✨\n\n- 1M total KV pool, 512K context\n- 75 tok/s on prose, single stream\n- 130 tok/s on prose, 4 concurrent streams\n- Prefill 2000-2175 tok/s\n- EXL3-EAQv1, 2.9 bpw\n\nThe quant in this recipe got about the same calibration as my GLM 5.3 Flash, with some extras. Feedback would be appreciated!\n\nSpecial thanks to @bertholomusai and all the contributors for the engine work, and to @ashxhart for TensorFold.\n\nGet it here:\ngithub.com/MiaAI-Lab/DeepSee…",
+      "publishedAt": "2026-10-19T08:58:00.000Z",
+      "authorHandle": "MiaAI_lab",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2111871426856894878",
-      "url": "https://x.com/p0/status/2111871426856894878",
-      "text": "NEW: DeepSeek V4.1 Flash (1017) is the highest-performing open model we've measured.\n\nIt's the first to crack the top 10 on the Search Capability Leaderboard across open- and closed-source models.",
-      "publishedAt": "2026-10-18T17:25:59.000Z",
-      "authorHandle": "p0",
+      "id": "2112094398997807269",
+      "url": "https://x.com/ShoutEssence/status/2112094398997807269",
+      "text": "※リポスト希望\n保存推奨！\n📌しゃう亭移転先店舗住所公開📌\n東京都千代田区外神田6-9-9ステラ外神田B101\n\n人によっては秋葉原？と思うかもしれませんが、私にとっては、まぎれもなく青春の場所…アキバ…\nその他情報は順次公開をお待ち下さい\n※現在準備中の為、訪問はご遠慮下さい",
+      "publishedAt": "2026-10-19T08:12:00.000Z",
+      "authorHandle": "ShoutEssence",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2111819605119529198",
-      "url": "https://x.com/imaginaldomain/status/2111819605119529198",
-      "text": "漫画っぽくなる！もとからグレースケールで生成するとトーンの精度が良いですね。設定の感度が高いので、元絵を安定させてWF固定で使うとめっちゃ良さそう。そしてものすごく速い！！",
-      "publishedAt": "2026-10-18T14:00:04.000Z",
-      "authorHandle": "imaginaldomain",
+      "id": "2112090592587157955",
+      "url": "https://x.com/shi3z/status/2112090592587157955",
+      "text": "",
+      "publishedAt": "2026-10-19T07:56:52.000Z",
+      "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2111819072254132602",
-      "url": "https://x.com/npaka123/status/2111819072254132602",
-      "text": "RT @voluntas: DGX Spark x 2 で DeepSeek V4.1 Flash 1017 の量子化されているモデルを動かしてみてる。速度は十分。 gyazo.com/64d493634757767388…",
-      "publishedAt": "2026-10-18T13:57:57.000Z",
+      "id": "2112089556615123114",
+      "url": "https://x.com/elonmusk/status/2112089556615123114",
+      "text": "Next year, I will give one of my SpaceX shares to every kid in America.\n\nThis will be the first of many.",
+      "publishedAt": "2026-10-19T07:52:45.000Z",
+      "authorHandle": "elonmusk",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2112085444121026847",
+      "url": "https://x.com/NaotakaFujii/status/2112085444121026847",
+      "text": "今日の学長\n愛知県教育委員会と教育連携協定結びました！\n\nprtimes.jp/main/html/rd/p/00…",
+      "publishedAt": "2026-10-19T07:36:25.000Z",
+      "authorHandle": "NaotakaFujii",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2112072269367578728",
+      "url": "https://x.com/npaka123/status/2112072269367578728",
+      "text": "RT @umiyuki_ai: Strataの人、DeepSeekV4.1Flash1017がVRAM12GBとメインメモリ64GBで動くようにするって言ってるけど、この構成でQwen3.8FNが動いてるだけでも奇跡なのに552Bモデルまでも動くって、物理的に不可能でしょ？と思…",
+      "publishedAt": "2026-10-19T06:44:04.000Z",
       "authorHandle": "npaka123",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2111800052352168074",
-      "url": "https://x.com/kyuukanba/status/2111800052352168074",
-      "text": "クリスタの集中線ツールに納得がいかず、集中線・スピード線描写ツールをバイブコーディングして使っている。\n\nホワイトと黒線の合わせ技で自分の納得の行く集中線に近づいた。\n\n普通に仕事に役立ってるぞ。",
-      "publishedAt": "2026-10-18T12:42:22.000Z",
-      "authorHandle": "kyuukanba",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2111790148010860860",
-      "url": "https://x.com/KanaWorks_AI/status/2111790148010860860",
-      "text": "「Audio Studio」をオープンソースで公開しました🥳\nこれからは、BGMも効果音も、もう自由です。\nクラウドもAPIキーも要らず、何度作っても無料です。\n\nできること\n・BGM、楽器ループ、効果音を一文から生成（一度に最大4候補）\n・雰囲気の変更、一部の作り直し、曲の延長\n・拍ぴったりのシームレスループ\n・ラウドネス正規化（-16 LUFSなど）\n・Godot / Unity向けにOGG・WAV・FLACで書き出し\n\n速い\n中身はStability AIのStable Audio 3。Apple M6のMacなら、60秒の音楽が約5秒でできます（モデル読み込み後の実測）。\n\nプロンプトはClaudeにおまかせ\n日本語で頼めば、Claudeが公式ガイドに沿った英語プロンプトに書き直して生成します。プロンプトとseedはJSONに記録されるので、同じ音をいつでも再現できます。\n\n導入👇",
-      "publishedAt": "2026-10-18T12:03:01.000Z",
-      "authorHandle": "KanaWorks_AI",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2111783819078775007",
-      "url": "https://x.com/hAru_mAki_ch/status/2111783819078775007",
-      "text": "私もColab CLI で ComfyUI-MangaScreen をおためし中！！、\nこれは楽しい！！",
-      "publishedAt": "2026-10-18T11:37:52.000Z",
-      "authorHandle": "hAru_mAki_ch",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-19T00:21:06.987Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 403 Forbidden / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-19T17:12:09.993Z",
+  "stale": false,
+  "error": null
 }
