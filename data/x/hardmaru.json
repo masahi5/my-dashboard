@@ -2,6 +2,15 @@
   "handle": "hardmaru",
   "tweets": [
     {
+      "id": "2112670760410169361",
+      "url": "https://x.com/SakanaAILabs/status/2112670760410169361",
+      "text": "10月5日に開催したエンジニア向け「Sakana AI Engineer Open House 2026」のイベントレポートを公開しました🐡\n\nsakana.ai/open-house-2026/\n\nCEOのDavid Haによる「AI主権」の構想紹介に始まり、ARE / FDE / SWE / Solution Engineer / Cybersecurity Engineerの5職種について、金融・防衛・Product・ Platformの各領域で働く7名のメンバーがそれぞれの役割と面白さを語りました。5職種はいずれも積極採用中です。\n\nSakana AIのエンジニアの働き方に興味のある方は、ぜひご一読ください🚀",
+      "publishedAt": "2026-10-20T22:22:15.000Z",
+      "authorHandle": "SakanaAILabs",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2112507110290502109",
       "url": "https://x.com/SakanaAILabs/status/2112507110290502109",
       "text": "多様な提案を進化させ、意思決定を支える推薦手法「QD-Rec」を開発\n\nブログ：sakana.ai/qd-rec/\n論文：arxiv.org/abs/2610.23470\nGitHub：github.com/SakanaAI/QD-Rec\n\nどの企業を買収候補として検討するか。どの顧客に新しい製品を提案するか。膨大な論文の中から、次に何を読むか。こうした意思 決定では、候補をスコア順に並べるだけでなく、「なぜ選ぶのか」「選んだ先にどのような可能性があるのか」を、異なる観点から比較できることが重要です。\n\n一つの候補にも複数の有望な理由が考えられます。数千件、ときには1万件を超える候補それぞれについて、さまざまな仮説を生成・評価し尽くすには大きなコストがかかります。私たちは、限られた予算の中で「候補」と「仮説」の組を探索し、質が高く多様な提案を見つける問題を「オープンエンドな推薦」として捉えました。\n\nQD-Recは、オープンエンドな探索の研究で発展してきた「Quality-Diversity（QD）」と呼ばれる進化的探索技術を、推薦に応用します。過去の評価結果をもとに次に調べる候補を選び、蓄積された仮説の着眼点をLLMが別の候補に応用したり、複数の仮説を組み合わせたりして、新しい提案を生成します。新しい切り口の提案は残し、似た提案同士ではより優れたものに更新することで、多様な仮説を次の発見の「踏み石」として活かし、推薦の集合を進化させていきます。\n\n実験では、 企業の買収候補探索、架空の顧客プロファイルを使ったターゲティング、研究者向けの論文推薦などで検証しました。同じ評価回数のもとで比較したところ、多くの設定で、比較手法よりもQD-Recの方が評価が高く、より多様で多くの推薦を蓄積できました。\n\n私たちが目指すのは、AIが人間の意思決定を代行することではなく、多様で有望な選択肢と、それらを比較・検討するための判断材料を提供することです。今回の成果を出発点に、QD-Recを次世代の意思決定を支える基盤技術へと発展させていきます。",
@@ -18,15 +27,6 @@
       "authorHandle": "SakanaAILabs",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2112062319840936332",
-      "url": "https://x.com/hardmaru/status/2112062319840936332",
-      "text": "More information at Kyoto University’s website:\nciaier.i.kyoto-u.ac.jp/news/…",
-      "publishedAt": "2026-10-19T06:04:31.000Z",
-      "authorHandle": "hardmaru",
-      "likeCount": 0,
-      "repost": false
     },
     {
       "id": "2112061248095564280",
@@ -92,7 +92,7 @@
       "repost": false
     }
   ],
-  "fetchedAt": "2026-10-20T19:28:35.275Z",
+  "fetchedAt": "2026-10-20T22:32:37.236Z",
   "stale": false,
   "error": null
 }

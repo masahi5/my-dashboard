@@ -2,97 +2,97 @@
   "handle": "npaka123",
   "tweets": [
     {
-      "id": "2112548232618455200",
-      "url": "https://x.com/npaka123/status/2112548232618455200",
-      "text": "RT @umiyuki_ai: これマジ？StrataからフォークされたXolotlとかいうのでDeepSeekV4.1Flash1017がRTX4090とDDR4メインメモリ90GB、あとNVMeのSSDでプレフィル180～320tps、デコード27tps達成したんだって！奇…",
-      "publishedAt": "2026-10-20T14:15:22.000Z",
+      "id": "2112665768227922303",
+      "url": "https://x.com/npaka123/status/2112665768227922303",
+      "text": "Flux 3 Max 追加\n\n画像・動画生成AI のリリース年表｜npaka @npaka123 note.com/npaka/n/ndb5f2491e4…",
+      "publishedAt": "2026-10-20T22:02:25.000Z",
       "authorHandle": "npaka123",
       "likeCount": 0,
       "repost": false
     },
     {
-      "id": "2112492618324332560",
-      "url": "https://x.com/MLBear2/status/2112492618324332560",
-      "text": "【10月20日 夜のニュースまとめ】\n・DevDay Exchange Tokyo開催、日本のdots利用は世界2位\n・Codexの利用枠が再リセット、GPT-6.5予告サイトは偽物と指摘\n・Anthropic、重要OSSに無料脆弱性スキャンのOSS Scanner\n・OpenAI、COBOLやFortranなど低リソース言語の移行性能を強化\n・SGLangが低遅延モード導入、GB300で928tok/sに\n・Ant Group、Ming-3.0音声モデル5種をOSS化、TTSでオープン首位\n・Viggle、3D空間で生成する物理ネイティブ世界モデルJST-2公開\n・Altman氏、AI開発ペース調整の3案を社内で提示\n・Anthropic、Nscaleと2件目の$45B契約を交渉中\n・Marvell、HBMをGPUから最大50m離せる光接続メモリを披露\n・DeepSeek V4.1 Flash、拒否除去のabliterated版登場\n・AI普及が進まない理由、a16zで暗黙知と製品設計の議論\n・ブラウザのタブ内だけで動くデータ分析Agentの作例\n\n===\n\nDevDay Exchange Tokyo開催、日本のdots利用は世界2位\n\n・OpenAI DevDay Exchange Tokyoが開催され、参加者による実況が多数共有されています\n・日本のdotsのアクティブユーザー数は世界2位とされ、Agents APIやChatGPTプラグイン、Sitesも解説されました\n・Decisions APIをGPT-Liveの裏側で使う高速デモが注目され、プラグインが好評な一方、GPT-6.1 Solの遅さへの不満も出ています\n\n===\n\nCodexの利用枠が再リセット、GPT-6.5予告サイトは偽物と指摘\n\n・OpenAIのTibo氏が、一度は打ち切りを示唆したCodexの利用枠リセットを再び実施しました\n・1日で枠を使い切っていたユーザーから歓迎の声が上がる一方、DeepSeekなど代替があるので消費は遅くなるとの声もあります\n・同時に拡散したGPT-6.5のカウントダウンサイトは寄付フォーム付きの非公式サイトだと指摘され、注意が呼びかけられています\n\n===\n\nAnthropic、重要OSSに無料脆弱性スキャンのOSS Scanner\n\n・Anthropicが、重要なオープンソースプロジェクトに無料で脆弱性スキャンを行うOSS Scannerを開始しました\n・最上位モデルで定期的にスキャンし、各指摘に概念実証と可能ならパッチを添え、費用はAnthropicが負担します\n・対象は利用者の多い重要プロジェクトで、誤検知の可能性を考慮し90日の開示期限は設けない方針とされています\n\n===\n\nOpenAI、COBOLやFortranなど低リソース言語の移行性能を強化\n\n・OpenAIが、最新モデルでCOBOL、Fortran、Visual Basicなど低リソース言語のソフトウェア構築・移行能力が向上したと発表しました\n・これらの言語は銀行や政府、企業が依存するシステムを支えていると説明しています\n・COBOL案件の求人が減るのではとの声や、AIの進歩を実務的な視点で示す好例だとの反応が出ています\n\n===\n\nSGLangが低遅延モード導入、GB300で928tok/sに\n\n・SGLangが、NVIDIA・AMDと共同開発したLow-Latency Modeとメガカーネル対応をマージしました\n・DeepSeek-V4.1-Flashのユーザー当たり速度は、GB300で671→928tok/s、MI355Xで332→516tok/sに向上しています\n・SemiAnalysisのAgentXトレースでは1ユーザー1000tok/sに迫り、すでにそのまま使える状態とされています\n\n===\n\nAnt Group、Ming-3.0音声モデル5種をOSS化、TTSでオープン首位\n\n・Ant Groupが、TTS・音声理解・ASRの3系統にわたるMing-3.0モデル5種をオープンソース化しました\n・Ming-3.0-ttsはArtificial AnalysisのTTS Arenaでオープンウェイト1位、発音頑健性も93.2%で首位とされます\n・7.9B-A1.3BのTTSがTiny扱いされる時代になったと、音声モデルの大型化を指摘する声も出ています\n\n===\n\nViggle、3D空間で生成する物理ネイティブ世界モデルJST-2公開\n\n・ViggleAIが、ピクセルではなくモデル全体を3Dで構築した世界基盤モデルJST-2をリリースしました\n・3Dシーンを約1秒・計算コスト$0.01未満で生成し、写真からのキャラ化やリギング不要のモーションも1モデルで扱えるとされます\n・名画を移動可能な3D部屋に変換しても視点変化で配置が保たれる例が示され、動画型世界モデルとの違いが注目されています\n\n===\n\nAltman氏、AI開発ペース調整の3案を社内で提示【続報】\n\n・OpenAIなどAI業界で議論されている開発ペースダウンに関する続報です\n・The Informationによると、Altman氏が先週の全社会議でAI開発ペースを調整する3つの業界案を示しました\n・AI版IAEA、Demis Hassabis氏のCERN型案、他社のGPUを溶かすEliezer Yudkowsky氏の案の3つとされます\n・1社がライバルを締め出すほど強くなる結末も想定に含まれるとして話題を呼んでいます\n\n===\n\nAnthropic、Nscaleと2件目の$45B契約を交渉中【続報】\n\n・AnthropicとNscaleによるウェストバージニアの計算資源契約に関する続報です\n・8月の$45B契約に続き、同規模となる2件目の取引を両社が協議していると報じられました\n・Monarch Compute Campusに460MWの建屋を追加し、確保容量を920MWへ倍増させる内容です\n・NVIDIAのVera Rubinを搭載する計画で、IPOを前に同社の計算資源確保が一段と加速しています\n\n===\n\nMarvell、HBMをGPUから最大50m離せる光接続メモリを披露\n\n・Marvellが、フォトニクスでHBMやDDRをGPUから離して接続するPhotonic Fabric Memory Moduleを紹介しました\n・通常1.5mmの距離にあるHBMを最大50m離して置けるとされます\n・HBMを代替するものではなく、拡張による柔軟性を高める技術だとの解説も出ています\n\n===\n\nDeepSeek V4.1 Flash、拒否除去のabliterated版登場【続報】\n\n・DeepSeek-V4.1-Flash-1017に関する続報です\n・拒否を担う重みを除去したabliterated版が、公開から間もなく早くも登場しました\n・ハッキングや暴力に関する依頼にも応じると報告され、試した開発者は気分が悪くなったと述べています\n・高速・高効率なだけに悪用への懸念が出ており、家庭のマシンで動けば影響はさらに大きいとの声もあります\n\n===\n\nAI普及が進まない理由、a16zで暗黙知と製品設計の議論\n\n・a16zの対談で、AIが企業や個人に普及しない理由をめぐる議論が紹介されています\n・元Plaid CTOのJean-Denis Greze氏は、多くの人は試行錯誤しないため、テキストボックスでは不十分だと主張しています\n・製品が価値の提示から実作業まで担うべきだとし、Steven Sinofsky氏は手順化しにくいノウハウが仕事の多くを占めると指摘しています\n\n===\n\nブラウザのタブ内だけで動くデータ分析Agentの作例\n\n・pi-durableを試す目的で、ブラウザのタブ内だけで完結するデータ分析AIエージェントの作例が共有されています\n・Gemini NanoがSQLを書き、DuckDB-WASMで集計し、実行記録はpi-durableでOPFSに保存する構成です\n・要約の途中でリロードしても続きから再開でき、サーバー不要の耐久的エージェント設計の参考になります",
-      "publishedAt": "2026-10-20T10:34:23.000Z",
-      "authorHandle": "MLBear2",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2112476496283775135",
-      "url": "https://x.com/deepseek_ai/status/2112476496283775135",
-      "text": "🚀 Introducing DeepInfer, our in-house inference framework, now fully open source!\n\nPowering DeepSeek-V4.1-Flash at scale with high throughput and low latency. We’re sharing our production stack to help the community lower compute costs, reduce energy use, and make AI more affordable.\n\n🔗 github.com/deepseek-ai/DeepI…\n\n1/4",
-      "publishedAt": "2026-10-20T09:30:19.000Z",
-      "authorHandle": "deepseek_ai",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2112476330860384530",
-      "url": "https://x.com/MLBear2/status/2112476330860384530",
-      "text": "Next.jsのCritical脆弱性は日本の深夜に公開されがちなので、検知→ファイアウォール遮断→Codexで修正PR→遮断解除まで自動化し、人は承認だけにしようというお話。なるほど賢い。\n\n#OpenAIDevDayExchange",
-      "publishedAt": "2026-10-20T09:29:39.000Z",
-      "authorHandle": "MLBear2",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2112449378560725237",
-      "url": "https://x.com/npaka123/status/2112449378560725237",
-      "text": "RT @nukonuko: なんか価格設定おかしくないですかw\n#OpenAIDevDayExchange",
-      "publishedAt": "2026-10-20T07:42:33.000Z",
+      "id": "2112659893320831219",
+      "url": "https://x.com/npaka123/status/2112659893320831219",
+      "text": "NVIDIA「Astranomy」の概要 - GPT-6 Astraによるロボット制御で成功率74.8%を達成｜npaka @npaka123 note.com/npaka/n/n3c80ede3bf…",
+      "publishedAt": "2026-10-20T21:39:04.000Z",
       "authorHandle": "npaka123",
       "likeCount": 0,
       "repost": false
     },
     {
-      "id": "2112438053671403691",
-      "url": "https://x.com/MLBear2/status/2112438053671403691",
-      "text": "はやくこのモデル使わせて〜😂\n\n#OpenAIDevDayExchange",
-      "publishedAt": "2026-10-20T06:57:33.000Z",
-      "authorHandle": "MLBear2",
+      "id": "2112654574750417309",
+      "url": "https://x.com/syoyo/status/2112654574750417309",
+      "text": "GLM 5.3 Flash FP4  推論を 2 x Tesla V100 32GB に最適化したメモ(decode 41 tok/s) zenn.dev/syoyo/articles/458e…",
+      "publishedAt": "2026-10-20T21:17:56.000Z",
+      "authorHandle": "syoyo",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2112433775410045211",
-      "url": "https://x.com/oikon48/status/2112433775410045211",
-      "text": "Codexのハーネス",
-      "publishedAt": "2026-10-20T06:40:33.000Z",
-      "authorHandle": "oikon48",
+      "id": "2112653245076418931",
+      "url": "https://x.com/npaka123/status/2112653245076418931",
+      "text": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast | NVIDIA Blog blogs.nvidia.com/blog/gpus-o…",
+      "publishedAt": "2026-10-20T21:12:39.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2112652656602923366",
+      "url": "https://x.com/sama/status/2112652656602923366",
+      "text": "I am very grateful Aleksander accepted our request to come take this on; the safety and security challenges in front of us as we confront superintelligence are immense, and he has an excellent set of skills to work on this.",
+      "publishedAt": "2026-10-20T21:10:19.000Z",
+      "authorHandle": "sama",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2112433294566658477",
-      "url": "https://x.com/NaotakaFujii/status/2112433294566658477",
-      "text": "今日の学長\nNull2nとても良かった。万博とは違う面白さ。情報量凄いので頭がしばらく働かない気がする。行った方がいいよ。",
-      "publishedAt": "2026-10-20T06:38:39.000Z",
-      "authorHandle": "NaotakaFujii",
+      "id": "2112652030548554225",
+      "url": "https://x.com/npaka123/status/2112652030548554225",
+      "text": "NVIDIA「Flora」の概要 - ロボット学習データを自動生成するオープンモデル群｜npaka @npaka123 note.com/npaka/n/na4c559384b…",
+      "publishedAt": "2026-10-20T21:07:49.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2112651785836102083",
+      "url": "https://x.com/npaka123/status/2112651785836102083",
+      "text": "Flora 追加\n\nロボット関連 のAIリリース年表｜npaka @npaka123 note.com/npaka/n/n491013486d…",
+      "publishedAt": "2026-10-20T21:06:51.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2112607347688583586",
+      "url": "https://x.com/OpenAI/status/2112607347688583586",
+      "text": "We’ve acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development.\n\nTogether, we’ll build on Rosalind, our AI models and tools for life sciences research, to streamline those operations and help new treatments reach patients sooner.\n\nWelcome @ashokaraj_ and team!\n\nopenai.com/index/openai-to-a…",
+      "publishedAt": "2026-10-20T18:10:16.000Z",
+      "authorHandle": "OpenAI",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2112432076767289678",
-      "url": "https://x.com/thsottiaux/status/2112432076767289678",
-      "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy.",
-      "publishedAt": "2026-10-20T06:33:48.000Z",
+      "id": "2112597587987689912",
+      "url": "https://x.com/DrJimFan/status/2112597587987689912",
+      "text": "We built a robotics data engine with Astra-level performance at 125x lower cost. And we are open-sourcing the weights today! Introducing Flora, a suite of open models to parse the physical world and turn raw footage into rich training signals.\n\nFlora already powers our in-house data engine, labeling 200K hours of videos a day on 500 GPUs. We created it to scale the frontier for robot learning. Now you own the weights too.\n\nFlora gives you:\n\n- High-quality, timestamped captions to curate and filter human egocentric and robot data;\n- Dense progress rewards for quality control and RL post-training;\n- Rubrics scoring for real-world benchmarking\n\nTry it today, links in thread:",
+      "publishedAt": "2026-10-20T17:31:29.000Z",
+      "authorHandle": "DrJimFan",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2112592264686149749",
+      "url": "https://x.com/thsottiaux/status/2112592264686149749",
+      "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong.",
+      "publishedAt": "2026-10-20T17:10:20.000Z",
       "authorHandle": "thsottiaux",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2112425072300580904",
-      "url": "https://x.com/MLBear2/status/2112425072300580904",
-      "text": "なんと日本の dots のアクティブユーザー数は世界2位らしい！\n\n#OpenAIDevDayExchange",
-      "publishedAt": "2026-10-20T06:05:58.000Z",
-      "authorHandle": "MLBear2",
       "likeCount": 0,
       "repost": true
     }
   ],
-  "fetchedAt": "2026-10-20T19:28:26.894Z",
+  "fetchedAt": "2026-10-20T22:32:29.908Z",
   "stale": false,
   "error": null
 }
