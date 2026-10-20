@@ -2,6 +2,15 @@
   "handle": "hardmaru",
   "tweets": [
     {
+      "id": "2112507110290502109",
+      "url": "https://x.com/SakanaAILabs/status/2112507110290502109",
+      "text": "多様な提案を進化させ、意思決定を支える推薦手法「QD-Rec」を開発\n\nブログ：sakana.ai/qd-rec/\n論文：arxiv.org/abs/2610.23470\nGitHub：github.com/SakanaAI/QD-Rec\n\nどの企業を買収候補として検討するか。どの顧客に新しい製品を提案するか。膨大な論文の中から、次に何を読むか。こうした意思 決定では、候補をスコア順に並べるだけでなく、「なぜ選ぶのか」「選んだ先にどのような可能性があるのか」を、異なる観点から比較できることが重要です。\n\n一つの候補にも複数の有望な理由が考えられます。数千件、ときには1万件を超える候補それぞれについて、さまざまな仮説を生成・評価し尽くすには大きなコストがかかります。私たちは、限られた予算の中で「候補」と「仮説」の組を探索し、質が高く多様な提案を見つける問題を「オープンエンドな推薦」として捉えました。\n\nQD-Recは、オープンエンドな探索の研究で発展してきた「Quality-Diversity（QD）」と呼ばれる進化的探索技術を、推薦に応用します。過去の評価結果をもとに次に調べる候補を選び、蓄積された仮説の着眼点をLLMが別の候補に応用したり、複数の仮説を組み合わせたりして、新しい提案を生成します。新しい切り口の提案は残し、似た提案同士ではより優れたものに更新することで、多様な仮説を次の発見の「踏み石」として活かし、推薦の集合を進化させていきます。\n\n実験では、 企業の買収候補探索、架空の顧客プロファイルを使ったターゲティング、研究者向けの論文推薦などで検証しました。同じ評価回数のもとで比較したところ、多くの設定で、比較手法よりもQD-Recの方が評価が高く、より多様で多くの推薦を蓄積できました。\n\n私たちが目指すのは、AIが人間の意思決定を代行することではなく、多様で有望な選択肢と、それらを比較・検討するための判断材料を提供することです。今回の成果を出発点に、QD-Recを次世代の意思決定を支える基盤技術へと発展させていきます。",
+      "publishedAt": "2026-10-20T11:31:58.000Z",
+      "authorHandle": "SakanaAILabs",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2112392712637100095",
       "url": "https://x.com/SakanaAILabs/status/2112392712637100095",
       "text": "【採用情報】Product Strategy & Operationsのポジションを公開しました🐟\n\nsakana.ai/careers/business-r…\n\n今回募集するのは特定のプロダクトではなくプロダクト群全体を受け持つProduct Strategy & Operationsの最初の専任メンバーです。Head of Productのパートナーとして以下をご担当いただきます。\n\n・事業計画・KPIの管理と市場・競合調査\n・横断プロジェクトの推進\n・エンタープライズ案件のデリバリ体制設計\n\nプロダクトの数とエンタープライズ案件が増えるにつれ、将来はProduct Strategy & Operationsチームを率いていただくことを想定しています。興味を持たれた方、ぜひご応募ください🚀",
@@ -81,18 +90,9 @@
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2106891494074576963",
-      "url": "https://x.com/hardmaru/status/2106891494074576963",
-      "text": "Registration now open: From World Models to Real-World AI\n\nJoin us on October 26 in Tokyo for a symposium with @SchmidhuberAI, who recently joined @SakanaAILabs  as our Chief Scientific Advisor.\n\nThe program features a keynote and Q&A by Jürgen and short talks by Sakana AI researchers on our work at the RSI Lab.\n\n- Date: Monday, October 26, 2026, 15:00–18:00 JST\n- Venue: Hitotsubashi Hall, Tokyo, Japan 🇯🇵\n- Language: English\n- Admission: Free (registration required)\n\nSeating is limited, so please register early.\nRegister here: luma.com/kjf0z516 🐟",
-      "publishedAt": "2026-10-04T23:37:30.000Z",
-      "authorHandle": "hardmaru",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-20T10:16:41.208Z",
+  "fetchedAt": "2026-10-20T15:16:26.488Z",
   "stale": false,
   "error": null
 }
