@@ -6,62 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "2b90aec1a378",
-      "title": "AI に外部の文章を読ませる機能のプロンプトインジェクション対策 ―― 見破るより、有効にする前に止める",
-      "url": "https://zenn.dev/r2_san/articles/03451c287fe9ab",
-      "publishedAt": "2026-10-19T21:30:12.000Z",
-      "publisher": "R2-san",
-      "summary": "本記事の内容は私（R2-san）の体験（実装コード）・判断・指示に基づきますが、文章作成は生成 AI が行い、私の監修・確認を経て公開しています。 (この時点の情報です。開発中のもので、数字や仕様は 2026 年 10 月時点のものです。…"
-    },
-    {
-      "id": "db4b35ac41f4",
-      "title": "取引先が変わるメール、チャット1つのままだと20%引きが混ざった話",
-      "url": "https://zenn.dev/every_ai_recipe/articles/chat-reuse-discount-leak",
-      "publishedAt": "2026-10-19T21:18:07.000Z",
-      "publisher": "毎日AIレシピ",
-      "summary": "TL;DR 取引先ごとに条件（納期・割引率など）が変わる依頼を、同じAIチャットで続けて頼むと、前の依頼の数字がAIに何も指摘されずそのまま新しい依頼に紛れ込まないかを検証した 「同じチャットで1通目→2通目と続ける」条件と、「2通目だけ…"
-    },
-    {
-      "id": "2ca55e5d5783",
-      "title": "AIが書いた商品説明の「それっぽい嘘」を止める。公開前のチェック表の作り方",
-      "url": "https://zenn.dev/ec_jidoka_kobo/articles/37f7c8239ddbf9",
-      "publishedAt": "2026-10-19T20:16:49.000Z",
-      "publisher": "EC自動化工房",
-      "summary": "※例はすべて架空の店舗・商品です AIに商品説明を書かせると、読みやすくて、それらしい文章がすぐに出てきます。 ただ、よく読むと、こんな一文が混ざっていることがあります。 保温性抜群で、朝いれたコーヒーが夕方まで温かいまま。 プロのバリス…"
-    },
-    {
-      "id": "7254a4c73ad2",
-      "title": "Decision Model 「Kev」を試してみる：GPUなしの無料Colabで営業日報から次のアクションを選ぶ",
-      "url": "https://zenn.dev/nakanishitf/articles/c69a48dd5ab031",
-      "publishedAt": "2026-10-19T16:20:00.000Z",
-      "publisher": "T.N.",
-      "summary": "日報を書いた後の準備につなげる これまで、Jeffで照明の操作を選ぶ例や、Clefで画像の中の猫を判断する例を試してきました。 今回は、営業日報から次のアクション候補を整理してみます。 使うのは、公開ウェイトの判断モデル「Kev」です。 …"
-    },
-    {
-      "id": "4cf563689ca3",
-      "title": "AI問い合わせ振り分けの納品検収、期待動作4種と例外ケースをPythonで照合する",
-      "url": "https://zenn.dev/kagaage/articles/2816c6e997e6c9",
-      "publishedAt": "2026-10-19T16:14:13.000Z",
-      "publisher": "karaage",
-      "summary": "社内のIT問い合わせをAIで担当ごとに振り分ける仕組みを外注したとき、デモで数件うまく動いたことと、納品を受け取ってよいことは別です。この記事は、発注者が納品前に試す検収ケースの組み方と、ワークフローのログを期待動作と照合する短いPyth…"
-    },
-    {
-      "id": "7f2c54a2cb23",
-      "title": "【個人開発】AIに社外秘や個人情報を貼る前にブラウザ内で仮名化、AIの回答を1クリックで元の名前に復元するツールを作った（通信ゼロ・無料）",
-      "url": "https://zenn.dev/mint69/articles/31f72b57a0206e",
-      "publishedAt": "2026-10-19T15:42:44.000Z",
-      "publisher": "mint69",
-      "summary": "AIにログや顧客メールを貼りたいが、うっかり漏洩と手作業での書き戻しがつらい問題 日々の開発や業務で ChatGPT、Claude、Gemini にエラーログや設定ファイル、取引先とのメール文面を貼り付けて相談する機会が増えました。 しか…"
-    },
-    {
-      "id": "2c39cfc92266",
-      "title": "預ける前に、内見を。NAIKENの仕組みと機能",
-      "url": "https://zenn.dev/masahide/articles/9649ab5073f562",
-      "publishedAt": "2026-10-19T15:37:07.000Z",
-      "publisher": "Masahide YAMASAKI",
-      "summary": "NAIKEN（ナイケン）はWebサービスのURLを入れると、外から見える範囲だけを読み取り、個人情報を預ける前の判断材料を出すWebアプリです。DevDay Community Hackathonでチーム「voidvoid」が作り、3位に…"
-    },
-    {
       "id": "0c5c045a43e1",
       "title": "コンカフェ1店舗のために、9つの業務システムをAIと作った話",
       "url": "https://zenn.dev/koyabase/articles/kemo-concafe-9-systems-with-ai",
@@ -100,9 +44,65 @@
       "publishedAt": "2026-10-19T14:05:48.000Z",
       "publisher": "Takeshi Kada",
       "summary": "はじめに TypeSafeのJevが画像入力に対応しました。 この記事では、Jevの画像入力でできることを確認します。 さらにOpenAIのDecisions APIにも同じ写真を送り、精度、速度、費用を比べました。 Jevの画像入力でで…"
+    },
+    {
+      "id": "7af64d8629b1",
+      "title": "SAEの特徴は本当に『足し算』できるのか? SAR指標をGPT-2 Smallで再現した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-020-sae-additivity-residuals",
+      "publishedAt": "2026-10-19T13:40:56.000Z",
+      "publisher": "matsu",
+      "summary": "ここ数日このシリーズではエージェントSkillsエコシステム系のツールを続けて検証してきたが、今日は毛色を変えて、解釈可能性(interpretability)分野の論文を1本、実際に手を動かして再現してみる。 題材: SAEの特徴は本当…"
+    },
+    {
+      "id": "ba21815e740a",
+      "title": "Claude Code が『ファイルを消させない仕組み』を作っている最中に、Mac のファイルが消えた",
+      "url": "https://zenn.dev/ryodevapp/articles/claude-code-home-deleted-guards",
+      "publishedAt": "2026-10-19T12:46:28.000Z",
+      "publisher": "リョウ｜AI×個人開発",
+      "summary": "2026年10月7日の深夜、Claude Code に開発を任せていたあいだに、Mac のホームディレクトリの中のファイルがまとめて消えました。 Claude Code がコマンドを実行する前に行う判定も、自作の hook も、見ているの…"
+    },
+    {
+      "id": "c6978b528bce",
+      "title": "AI討論 MAGI Games 開発記 #7 — 「票を取る力と遊ばれる力は別物だ」。AI 3体に、遊んだ人の言葉を初めて見せた",
+      "url": "https://zenn.dev/mappy55/articles/magi-games-devlog-07",
+      "publishedAt": "2026-10-19T12:31:37.000Z",
+      "publisher": "mappy",
+      "summary": "! この記事は「AI討論 MAGI Games 開発記」の第7回です。第1回、第2回、第3回、第4回、第5回、第6回。毎朝の自動実行で起きたトラブルは番外編にまとめています。日々の気づきはスクラップに。 性格の違う AI 3体（科学者の …"
+    },
+    {
+      "id": "810d6a0848cf",
+      "title": "Claude Code で採点係を別のサブエージェントにしたら、14回中6回不合格を出した",
+      "url": "https://zenn.dev/taka_s2/articles/30a6fdac8a0bd7",
+      "publishedAt": "2026-10-19T12:29:43.000Z",
+      "publisher": "たか（webエンジニア）",
+      "summary": "Claude Code に機能を作らせると、「完成しました」と言われたのに、動かしてみたらボタンが反応しないことがあります。 この記事は作る係(generator)と採点係(evaluator)を別のサブエージェントに分けた記録です。採点…"
+    },
+    {
+      "id": "1026178376a2",
+      "title": "ログ監査AIの精度とコストは、モデルではなく「何を渡すか」で決まる",
+      "url": "https://zenn.dev/xim2jp_tokyo/articles/neta-44-zenn-summary",
+      "publishedAt": "2026-10-19T12:03:43.000Z",
+      "publisher": "しんいち",
+      "summary": "判定専用AI「Jev」でWebサーバーのログ監査を自動化する記事の紹介です。 論点：判定の単位を何にするか 攻撃は行ではなくパターンに現れます。ブルートフォースの1行は POST /login 401、クレデンシャルスタッフィングの1行は…"
+    },
+    {
+      "id": "fc45374d06b5",
+      "title": "個人情報入りの PDF を AI に渡さない：Drive の前に「関所」を置いて突き合わせを自動化した話",
+      "url": "https://zenn.dev/hisa_tech_2973/articles/9cb4aee5b999fa",
+      "publishedAt": "2026-10-19T11:55:13.000Z",
+      "publisher": "HISA",
+      "summary": "個人の売上管理で、毎月「売上明細（PDF）」と「納品書（xlsx）」を目で突き合わせる作業がありました。 これを Slack から一言で頼めるようにしたいと考え、今回ツールを作成しました。 Slack に「照会お願いします」と送る Goo…"
+    },
+    {
+      "id": "5ab9033e8099",
+      "title": "AIは存在しない知識をもっともらしく説明できてしまうのか？ ― Claim Verificationを実験してみる",
+      "url": "https://zenn.dev/kondonator/articles/de3e45b1a9d710",
+      "publishedAt": "2026-10-19T11:54:20.000Z",
+      "publisher": "kondonator",
+      "summary": "はじめに 前回の記事では、AIによる回答をAI自身に評価させる Self Evaluation と、その評価を Known Answer や Consistency によって検証する方法を実験しました。 AIの評価結果を信用してよいのか？…"
     }
   ],
-  "fetchedAt": "2026-10-19T21:31:54.303Z",
+  "fetchedAt": "2026-10-20T00:40:08.779Z",
   "stale": false,
   "error": null
 }

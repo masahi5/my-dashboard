@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2610.22744",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Creative intent in video editing can be expressed through text instructions (e.g., \"remove the people\"), image referenc…",
-      "score": 14
+      "score": 15
     },
     {
       "id": "49862bb73928",
@@ -22,6 +22,14 @@
       "score": 7
     },
     {
+      "id": "4414ded79782",
+      "title": "BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking",
+      "url": "https://huggingface.co/papers/2610.07052",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Whole-body tracking has become the interface through which operators drive humanoid robots, yet the references it consu…",
+      "score": 4
+    },
+    {
       "id": "20018115b395",
       "title": "GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations",
       "url": "https://huggingface.co/papers/2610.22708",
@@ -30,11 +38,35 @@
       "score": 4
     },
     {
-      "id": "4414ded79782",
-      "title": "BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking",
-      "url": "https://huggingface.co/papers/2610.07052",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "summary": "Whole-body tracking has become the interface through which operators drive humanoid robots, yet the references it consu…",
+      "id": "bd801d2bf9e3",
+      "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
+      "url": "https://huggingface.co/papers/2610.22273",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods …",
+      "score": 3
+    },
+    {
+      "id": "286d01d94056",
+      "title": "What It Is, Not What It Says: Securing Agentic Browsing Interactions with Web Semantics",
+      "url": "https://huggingface.co/papers/2610.22697",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "AI agents increasingly browse the web on users' behalf, yet they consume webpages as screenshots or text, exposing thei…",
+      "score": 3
+    },
+    {
+      "id": "e59b3ef8673b",
+      "title": "Recognition Is Not Grounding: Benchmarking Multilingual Financial Evidence Extraction",
+      "url": "https://huggingface.co/papers/2610.19432",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Comparing financial disclosures across languages requires identifying shared accounting concepts and recovering all num…",
+      "score": 2
+    },
+    {
+      "id": "07d93684dabe",
+      "title": "DisaggKD: Efficient Knowledge Distillation through Teacher-Student Disaggregation and a Fused Loss",
+      "url": "https://huggingface.co/papers/2610.17644",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Knowledge distillation (KD) frameworks place teacher and student on the same GPUs, so per-GPU memory limits the teacher…",
       "score": 2
     },
     {
@@ -46,51 +78,19 @@
       "score": 2
     },
     {
-      "id": "bd801d2bf9e3",
-      "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
-      "url": "https://huggingface.co/papers/2610.22273",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods …",
-      "score": 2
-    },
-    {
-      "id": "286d01d94056",
-      "title": "What It Is, Not What It Says: Securing Agentic Browsing Interactions with Web Semantics",
-      "url": "https://huggingface.co/papers/2610.22697",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "AI agents increasingly browse the web on users' behalf, yet they consume webpages as screenshots or text, exposing thei…",
-      "score": 2
-    },
-    {
-      "id": "e59b3ef8673b",
-      "title": "Recognition Is Not Grounding: Benchmarking Multilingual Financial Evidence Extraction",
-      "url": "https://huggingface.co/papers/2610.19432",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Comparing financial disclosures across languages requires identifying shared accounting concepts and recovering all num…",
-      "score": 1
-    },
-    {
-      "id": "07d93684dabe",
-      "title": "DisaggKD: Efficient Knowledge Distillation through Teacher-Student Disaggregation and a Fused Loss",
-      "url": "https://huggingface.co/papers/2610.17644",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Knowledge distillation (KD) frameworks place teacher and student on the same GPUs, so per-GPU memory limits the teacher…",
-      "score": 1
-    },
-    {
       "id": "a98a9f3f5dc2",
       "title": "ARC-SORT: Adaptive, Robust, Compensated Multi-Object Tracking with Interacting Multiple Models",
       "url": "https://huggingface.co/papers/2610.22306",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Multi-object tracking in sports broadcasts is hard for two reasons: athletes move fast and change direction abruptly, a…",
-      "score": 1
+      "score": 2
     },
     {
-      "id": "645a640c9992",
-      "title": "AI-Driven Disaster Response and Displacement Monitoring",
-      "url": "https://huggingface.co/papers/2610.21482",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "ARTIFICIAL INTELLIGENCE (AI) has demonstrated its potential across a wide range of humanitarian tasks, offering scalabl…",
+      "id": "d9ebddbf2a77",
+      "title": "Robust Explanatory Analysis for Structured Optimization Networks (REASON) in Learning",
+      "url": "https://huggingface.co/papers/2610.19378",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "We seek a hierarchical resolution of residual error under a composite learning objective as a principled mechanism for …",
       "score": 1
     },
     {
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2610.16763",
       "publishedAt": "2026-10-12T00:00:00.000Z",
       "summary": "Relational learning typically predicts from a database state, but decision making asks a different question: how will t…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-10-19T21:31:53.377Z",
+  "fetchedAt": "2026-10-20T00:40:08.639Z",
   "stale": false,
   "error": null
 }
