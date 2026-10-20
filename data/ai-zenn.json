@@ -6,6 +6,30 @@
   "category": "ai",
   "items": [
     {
+      "id": "7eada11daa03",
+      "title": "Claude Code のセッション同士でメッセージを送り合うなどスラッシュコマンドに無い機能6つ",
+      "url": "https://zenn.dev/yohakucode/articles/claude-code-features-without-slash",
+      "publishedAt": "2026-10-20T14:45:04.000Z",
+      "publisher": "yohakucode",
+      "summary": "Claude Code では、/ を打つと使えるコマンドが一覧で出ます。ところが、この一覧に出てこないのに、言葉で頼むだけで使える機能があります。 私も、Claude Code のセッション同士でメッセージを送り合えることを、最近になって…"
+    },
+    {
+      "id": "83abbf2676d6",
+      "title": "AI同士の依頼は英語の電報調、私への報告は日本語だけ。レビューの返事は418→167トークンに",
+      "url": "https://zenn.dev/twinharness/articles/ai-telegraph-vs-plain-japanese",
+      "publishedAt": "2026-10-20T14:36:30.000Z",
+      "publisher": "twinharness",
+      "summary": "AI に開発を任せていると、AI が書く文章の読み手が2種類あることに気づきます。1つは私、もう1つはもう一方の AI です。私は PC にあまり詳しくないと自認していて、専門用語だらけの報告は読めません。ところが、AI 同士のやり取りま…"
+    },
+    {
+      "id": "d07990138b24",
+      "title": "『リーダブルコード』7章・8章を読んで制御フローと式の分割をわかる",
+      "url": "https://zenn.dev/zhaojiayi/articles/6d6b55a00295e6",
+      "publishedAt": "2026-10-20T14:03:05.000Z",
+      "publisher": "ZHAOJIAYI",
+      "summary": "これまでのメモと感想文のまとめ↓ https://zenn.dev/zhaojiayi/articles/2bdd2f7e767d31 7章 制御フローを読みやすくする 7.1 条件式の引数の並び順 左に調べたい値、右に比較の基準を置く。…"
+    },
+    {
       "id": "c68176e5f756",
       "title": "日本語の指示だけでBlenderに3Dシーンを作らせてみた(mcp-for-blender)",
       "url": "https://zenn.dev/matsushima_a/articles/day-021-mcp-for-blender-dungeon-room",
@@ -76,33 +100,9 @@
       "publishedAt": "2026-10-20T10:35:05.000Z",
       "publisher": "クテノポマ",
       "summary": "PowerShellのコマンド ファイルパスをCLIで入力するとき、Tabで候補を出してくれますが、よく使うzenn-cliコマンドも自動補完してほしい。 Ubuntuだとやってくれるあれ。 Windowsでも設定すればできるようになり、…"
-    },
-    {
-      "id": "02072794a55e",
-      "title": "Agent Skillsは本当に効果があるのか？ABCプロンプトで検証してみた",
-      "url": "https://zenn.dev/amane/articles/4aa832b32c8500",
-      "publishedAt": "2026-10-20T10:30:58.000Z",
-      "publisher": "かたぎりあまね",
-      "summary": "あなたが入れたそのスキル、危険ですよー。でも、本当に危険なのは、そんなスキルを入れちゃう人間の判断能力なのかもしれませんね…… Agent Skillsってどんなものですか？ みなさんは、Agent Skillsを知っていますか？ たぶん…"
-    },
-    {
-      "id": "b754a2533435",
-      "title": "Data Preparation Agentでデータクレンジングを任せる",
-      "url": "https://zenn.dev/web_benriya/articles/bigquery-data-preparation-agent",
-      "publishedAt": "2026-10-20T10:12:21.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "BigQueryのデータ前処理で時間がかかる理由 BigQueryに取り込んだ生データをそのまま分析に使えることは少ない。実務では次のような前処理が必要になる。 NULL値や空文字の扱いをカラムごとに検討する 日付や金額のフォーマットがソ…"
-    },
-    {
-      "id": "38c98fb382d3",
-      "title": "AIが本番を壊す前に止める。hooks 3選",
-      "url": "https://zenn.dev/hitoribocchi_ai/articles/52fc33f8488643",
-      "publishedAt": "2026-10-20T10:00:05.000Z",
-      "publisher": "ひとり事業主とAI",
-      "summary": "Claude Codeに本番サーバーの作業を任せています。便利ですが、「前にも事故った操作」を、AIがまた善意でやってしまうことがあります。 メモリや指示文に「やらないで」と書いても、守られる保証はありません。確実に止めたいなら、hook…"
     }
   ],
-  "fetchedAt": "2026-10-20T15:15:49.872Z",
+  "fetchedAt": "2026-10-20T19:27:52.601Z",
   "stale": false,
   "error": null
 }

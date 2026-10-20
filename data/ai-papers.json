@@ -6,44 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "06ea25ff9ad3",
-      "title": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
-      "url": "https://huggingface.co/papers/2610.26663",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Robotic value models assess task execution from visual observations and instructions, providing feedback for policy lea…",
-      "score": 22
-    },
-    {
-      "id": "98b664faa660",
-      "title": "Harnessing Textual Refusal Directions for Multimodal Safety",
-      "url": "https://huggingface.co/papers/2606.31876",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Safety in Multimodal Large Language Models (MLLMs) depends on unsafe multimodal data for post-training alignment or act…",
-      "score": 10
-    },
-    {
-      "id": "f6f7ddb6c743",
-      "title": "ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning",
-      "url": "https://huggingface.co/papers/2610.22328",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Image editing models produce impressive results for individual edits, but their quality often deteriorates over multipl…",
-      "score": 9
-    },
-    {
-      "id": "f99b945433a7",
-      "title": "Policy Is Not Capability: Some Safety Benchmarks Measure Which Definition of \"Unsafe\" You Trained On",
-      "url": "https://huggingface.co/papers/2610.25060",
+      "id": "a7b4e0a303c0",
+      "title": "StopLoss: Teaching Agents to Predict Failure and Stop Early",
+      "url": "https://huggingface.co/papers/2610.25525",
       "publishedAt": "2026-10-18T00:00:00.000Z",
-      "summary": "A guardrail classifier is reported as if unsafe were a property of text. It is not: it is a property of a policy, and t…",
-      "score": 3
-    },
-    {
-      "id": "282fe0ac8f39",
-      "title": "N-Gram Memories at Two Bits: Quantizing Lookup Tables in Large Language Models",
-      "url": "https://huggingface.co/papers/2610.21810",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Conditional memory expands language-model capacity through selective lookup, but the full embedding table must remain a…",
-      "score": 2
+      "summary": "Coding agents keep working on runs that will fail verification, and asking a frontier model to watch for this is expens…",
+      "score": 6
     },
     {
       "id": "88792cb796cd",
@@ -51,7 +19,23 @@
       "url": "https://huggingface.co/papers/2610.19439",
       "publishedAt": "2026-10-17T00:00:00.000Z",
       "summary": "While LLM-based agent systems have demonstrated remarkable proficiency in reasoning and solving complex real-world task…",
-      "score": 1
+      "score": 6
+    },
+    {
+      "id": "17282d2ad626",
+      "title": "Predicting Privileged Information Effectiveness for On-Policy Self-Distillation",
+      "url": "https://huggingface.co/papers/2610.22512",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "On-policy self-distillation (OPSD) enables large language models (LLMs) to learn from privileged information (PI) witho…",
+      "score": 3
+    },
+    {
+      "id": "fa092e9bef93",
+      "title": "Heterogeneous Agentic Coevolution",
+      "url": "https://huggingface.co/papers/2610.16078",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Recent advances in self-improving LLM agents have demonstrated the potential of AI systems that drive their own intelli…",
+      "score": 3
     },
     {
       "id": "275ac9ffc41f",
@@ -59,7 +43,7 @@
       "url": "https://huggingface.co/papers/2610.06563",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "summary": "Large language model (LLM) agents are increasingly capable of acting in complex tool-use environments, yet they often f…",
-      "score": 1
+      "score": 3
     },
     {
       "id": "dc7ad42ac607",
@@ -67,42 +51,58 @@
       "url": "https://huggingface.co/papers/2610.22324",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "One of the first steps of a research pipeline is generating ideas. Large Language Models (LLMs) are increasingly used t…",
-      "score": 1
+      "score": 3
     },
     {
-      "id": "38a9a143bfaa",
-      "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
-      "url": "https://huggingface.co/papers/2610.19005",
-      "publishedAt": "2026-10-13T18:05:26.000Z",
-      "summary": "AI agents are demonstrating increasingly strong offensive and defensive cybersecurity capabilities in the real world. C…",
-      "score": 1
+      "id": "7baf2eba0e1e",
+      "title": "Measuring Mechanistic Uncertainty in Large Language Models via Causal Robustness",
+      "url": "https://huggingface.co/papers/2610.22636",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Large language models (LLMs) are increasingly used in critical domains, where their susceptibility to hallucinations ma…",
+      "score": 2
     },
     {
-      "id": "02b15497787a",
-      "title": "Beyond Maliciousness: Static and Runtime Attack-Surface Profiling of Agent Skills",
-      "url": "https://huggingface.co/papers/2610.19264",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "Agent skills are Markdown documents that a tool-using agent reads as instructions and then acts on with the privileges …",
-      "score": 1
-    },
-    {
-      "id": "9f0199f5b03c",
-      "title": "Token-Set Choice Confounds POPE: A Systematic Audit of Yes/No Extraction in VLM Hallucination Evaluation",
-      "url": "https://huggingface.co/papers/2610.25964",
+      "id": "fce1ab4e9997",
+      "title": "Any 3D Scene is Worth 1K Tokens: 3D-Grounded Representation for Scene Generation at Scale",
+      "url": "https://huggingface.co/papers/2604.11331",
       "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "We set out to reproduce a recent hallucination-mitigation result on the POPE benchmark. The LLaVA-1.5-7B baseline we me…",
+      "summary": "Scene-level 3D generation has long been dominated by 2D multi-view or video diffusion models. Typically, these 2D-based…",
+      "score": 2
+    },
+    {
+      "id": "8ac83b018069",
+      "title": "A Language-Informed Loss for Visual Generation",
+      "url": "https://huggingface.co/papers/2610.23653",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "End-to-end visual generation with pixel-space loss has recently achieved competitive performance without the need for l…",
       "score": 1
     },
     {
-      "id": "28654890cf1e",
-      "title": "RealityBench: Simulated Environments to Evaluate a Vision Language Model's Ability to Document Human Physical Work",
-      "url": "https://huggingface.co/papers/2610.14397",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Augmenting worker capabilities in the physical world through guidance has been a decades-long goal for AI agents. One k…",
+      "id": "dfc3ad793c76",
+      "title": "Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations",
+      "url": "https://huggingface.co/papers/2610.25159",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "summary": "People ask conversational AI models about their legal rights, obligations, procedures, and personal situations that may…",
       "score": 1
+    },
+    {
+      "id": "6864cdbe7e60",
+      "title": "First Passage Attention",
+      "url": "https://huggingface.co/papers/2610.22714",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Augmenting softmax attention with forget gates typically relies on summing decay contributions along the key--query pat…",
+      "score": 0
+    },
+    {
+      "id": "8058819dfe29",
+      "title": "Competence-Based Evaluation of Logical Reasoning in Large Language Models",
+      "url": "https://huggingface.co/papers/2610.22894",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Recent advances in large language models (LLMs) have brought impressive performance across diverse tasks; however, shor…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-20T15:15:49.627Z",
+  "fetchedAt": "2026-10-20T19:27:52.433Z",
   "stale": false,
   "error": null
 }
