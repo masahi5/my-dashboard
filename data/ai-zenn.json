@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "0c5c045a43e1",
-      "title": "コンカフェ1店舗のために、9つの業務システムをAIと作った話",
-      "url": "https://zenn.dev/koyabase/articles/kemo-concafe-9-systems-with-ai",
-      "publishedAt": "2026-10-19T14:59:56.000Z",
-      "publisher": "Koyabase",
-      "summary": "こんにちは、Koyabase 合同会社です。 群馬県高崎市でコンセプトカフェ「けもみみかふぇ」を運営しながら、お店で使う業務システムを自分たちで作っています。 けもみみかふぇは、けもみみ姿のキャストと 60 分 3,300 円の飲み放題で…"
+      "id": "a0b11ded2491",
+      "title": "ビルドなし・HTML1ファイルで作る謎解きサイト：GitHub Pagesで動く「零課事件簿」の仕組み",
+      "url": "https://zenn.dev/shoyomayabot/articles/static-mystery-site-one-html",
+      "publishedAt": "2026-10-20T02:29:22.000Z",
+      "publisher": "mayabot",
+      "summary": "謎解きミステリーのサイト「零課事件簿」を公開しました。毎日1問の小さな謎と、何章かで真相にたどり着く「事件ファイル」が遊べるサイトです。 このサイトは、HTMLファイル1つだけで動いています。サーバーもデータベースも、ビルドの手順もありま…"
     },
     {
-      "id": "c3bf2ce1df0a",
-      "title": "「普通に欲しい」を作ったら、AIハッカソンで3位になった",
-      "url": "https://zenn.dev/masahide/articles/e3abc0b59cabfb",
-      "publishedAt": "2026-10-19T14:59:21.000Z",
-      "publisher": "Masahide YAMASAKI",
-      "summary": "2026年10月18日、渋谷のAbema Towersで開催されたDevDay Community Hackathonに参加しました。ぬこぬこさん主催の「Fable 5.1 Build Day Tokyo」で紹介してもらったのがきっかけで…"
+      "id": "6b6377b4b095",
+      "title": "Claude Codeのhooksで rm -rf を止める。試してわかった抜け道も",
+      "url": "https://zenn.dev/agentkiyaku/articles/4bbbd107466b7e",
+      "publishedAt": "2026-10-20T02:26:17.000Z",
+      "publisher": "エージェント規約工房",
+      "summary": "Claude Code にターミナル作業を任せていると、rm -rf のようなコマンドを実行されるのが気になります。Claude Code の hooks（決まったタイミングで自分のコマンドを自動で実行させる仕組み）を使うと、Bash ツ…"
     },
     {
-      "id": "d9070e5aa1a8",
-      "title": "大規模言語モデルって、結局なに？",
-      "url": "https://zenn.dev/kanfupanda/articles/what-is-an-llm",
-      "publishedAt": "2026-10-19T14:52:25.000Z",
-      "publisher": "kanfu-panda",
-      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/10/19/what-is-an-llm.ja.html?utm_source=zenn&utm_med…"
+      "id": "acc0e3e71212",
+      "title": "19歳の通信制大学生が Open Source Conference 2026 Tokyo/Fall に世界モデルを展示してみた",
+      "url": "https://zenn.dev/naoyabone/articles/d145963fbe7c73",
+      "publishedAt": "2026-10-20T02:20:56.000Z",
+      "publisher": "ぼさぼさ",
+      "summary": "はじめに 初めまして。ぼさぼさです。 10/18に東京都立産業貿易センター台東館で開催された「Open Source Conference(OSC) 2026 Tokyo/Fall」に参加・展示してきました！ これまで、技術系カンファレン…"
     },
     {
-      "id": "42c848428ae3",
-      "title": "Codexに動画を調べさせても、発言の時刻と文言は確認できなかった",
-      "url": "https://zenn.dev/twinharness/articles/video-codex-text-claude-crosscheck",
-      "publishedAt": "2026-10-19T14:30:52.000Z",
-      "publisher": "twinharness",
-      "summary": "AI ツールに公式の発信を調べさせて、自分のルールに取り込もうとしたとき、情報源は文章と動画に分かれます。ところが AI ツールごとに得意な入力は違っていて、動画の文字起こしを取り出せるツールもあれば、取り出せないツールもあります。 私の…"
+      "id": "df0733cb3f86",
+      "title": "エンタープライズ マーケティングのためのエージェントの相互運用性: MCP、エージェント間システム、および新たなマルチエージェント スタック",
+      "url": "https://zenn.dev/shawnhamw/articles/5db3c98a0e443d",
+      "publishedAt": "2026-10-20T01:55:20.000Z",
+      "publisher": "Shawn Ham",
+      "summary": "エグゼクティブサマリー 2026 年 10 月 17 日 の時点で、エンタープライズ人工知能は、分離された会話型インターフェイスから、基盤モデル、専用エージェント、ビジネス アプリケーション、およびデータ エコシステムが標準化されたプロト…"
     },
     {
-      "id": "64915b1af902",
-      "title": "Jevの画像入力とOpenAI Decisions APIを比べてみる",
-      "url": "https://zenn.dev/tkada/articles/ae2519179679df",
-      "publishedAt": "2026-10-19T14:05:48.000Z",
-      "publisher": "Takeshi Kada",
-      "summary": "はじめに TypeSafeのJevが画像入力に対応しました。 この記事では、Jevの画像入力でできることを確認します。 さらにOpenAIのDecisions APIにも同じ写真を送り、精度、速度、費用を比べました。 Jevの画像入力でで…"
+      "id": "2c1dfbd51b8d",
+      "title": "【AIと始めるQt/QMLアプリ開発(5)】Qt Creatorを使わずCMakeでリソース画像を追加する（Qt/QML AI開発実践）",
+      "url": "https://zenn.dev/spacesolver/articles/qt_ai_part05",
+      "publishedAt": "2026-10-20T01:48:27.000Z",
+      "publisher": "スペース・ソルバ株式会社",
+      "summary": "第1回：環境構築とHelloWorld 第2回：QMLによるUI作成と画像のドラッグ＆ドロップ 第3回：C++バックエンド実装とQMLとの連携 第4回：AIと一緒にエラーを解決する（Qt特有のデバッグ術） 第5回：Qt Creatorを使…"
     },
     {
-      "id": "7af64d8629b1",
-      "title": "SAEの特徴は本当に『足し算』できるのか? SAR指標をGPT-2 Smallで再現した",
-      "url": "https://zenn.dev/matsushima_a/articles/day-020-sae-additivity-residuals",
-      "publishedAt": "2026-10-19T13:40:56.000Z",
-      "publisher": "matsu",
-      "summary": "ここ数日このシリーズではエージェントSkillsエコシステム系のツールを続けて検証してきたが、今日は毛色を変えて、解釈可能性(interpretability)分野の論文を1本、実際に手を動かして再現してみる。 題材: SAEの特徴は本当…"
+      "id": "7dd14125f031",
+      "title": "Read(./.env) の deny だけでは claude -p の .env 読み取りは塞がらない：sandbox と両輪で組む",
+      "url": "https://zenn.dev/norman6464/articles/claude-code-env-deny-sandbox",
+      "publishedAt": "2026-10-20T01:37:30.000Z",
+      "publisher": "tekuteku",
+      "summary": "claude -p を無人で回していて（あるいは普段の対話でも）、.env を AI に読ませたくなくて settings.json の deny に Read(./.env) を入れた、またはこれから入れようとしている人へ。この記事は、…"
     },
     {
-      "id": "ba21815e740a",
-      "title": "Claude Code が『ファイルを消させない仕組み』を作っている最中に、Mac のファイルが消えた",
-      "url": "https://zenn.dev/ryodevapp/articles/claude-code-home-deleted-guards",
-      "publishedAt": "2026-10-19T12:46:28.000Z",
-      "publisher": "リョウ｜AI×個人開発",
-      "summary": "2026年10月7日の深夜、Claude Code に開発を任せていたあいだに、Mac のホームディレクトリの中のファイルがまとめて消えました。 Claude Code がコマンドを実行する前に行う判定も、自作の hook も、見ているの…"
+      "id": "684f0b470ec6",
+      "title": "AI主導の電子メール、SMS、WhatsAppアウトリーチ：中小企業向けマーケティングおよびCRMアーキテクチャの進化",
+      "url": "https://zenn.dev/shawnhamw/articles/1dc938b067d8ea",
+      "publishedAt": "2026-10-20T01:20:32.000Z",
+      "publisher": "Shawn Ham",
+      "summary": "目次 エグゼクティブ・サマリー 市場動向と研究開発 ベンダーランドスケープの概要 中小企業（SMB）向けマーケティングおよびメッセージングプラットフォーム AIネイティブなアウトバウンドベンダー Dureach 深掘り分析 システムアーキ…"
     },
     {
-      "id": "c6978b528bce",
-      "title": "AI討論 MAGI Games 開発記 #7 — 「票を取る力と遊ばれる力は別物だ」。AI 3体に、遊んだ人の言葉を初めて見せた",
-      "url": "https://zenn.dev/mappy55/articles/magi-games-devlog-07",
-      "publishedAt": "2026-10-19T12:31:37.000Z",
-      "publisher": "mappy",
-      "summary": "! この記事は「AI討論 MAGI Games 開発記」の第7回です。第1回、第2回、第3回、第4回、第5回、第6回。毎朝の自動実行で起きたトラブルは番外編にまとめています。日々の気づきはスクラップに。 性格の違う AI 3体（科学者の …"
+      "id": "6300409b6ee2",
+      "title": "AI運用の変更履歴を一枚で残し、次の担当者へ引き継ぐ",
+      "url": "https://zenn.dev/miraigent/articles/ai-ops-change-history-handoff",
+      "publishedAt": "2026-10-20T01:19:12.000Z",
+      "publisher": "Kirisaki Kazuya | Miraigent代表",
+      "summary": "AI運用の変更履歴を一枚で残し、次の担当者へ引き継ぐ AIの回答品質を改善していると、プロンプト、FAQ、入力フォーム、確認者、対象業務が少しずつ変わります。 しかし変更内容だけをチャットやコミットに残すと、次の担当者は「今使うべき正しい…"
     },
     {
-      "id": "810d6a0848cf",
-      "title": "Claude Code で採点係を別のサブエージェントにしたら、14回中6回不合格を出した",
-      "url": "https://zenn.dev/taka_s2/articles/30a6fdac8a0bd7",
-      "publishedAt": "2026-10-19T12:29:43.000Z",
-      "publisher": "たか（webエンジニア）",
-      "summary": "Claude Code に機能を作らせると、「完成しました」と言われたのに、動かしてみたらボタンが反応しないことがあります。 この記事は作る係(generator)と採点係(evaluator)を別のサブエージェントに分けた記録です。採点…"
+      "id": "e187e0b3f122",
+      "title": "LLMが潜伏空間で思考する？Hybrid Reasoning Agentsの衝撃",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-18-2358",
+      "publishedAt": "2026-10-20T00:57:57.000Z",
+      "publisher": "田中根小介",
+      "summary": "近年、OpenAIのo1/o3シリーズやDeepSeek-R1など、出力前に長時間の思考（Chain-of-Thought: CoT）を行う**推論モデル（Reasoning Models）**が大きな注目を集めています。 しかし、従来の…"
     },
     {
-      "id": "1026178376a2",
-      "title": "ログ監査AIの精度とコストは、モデルではなく「何を渡すか」で決まる",
-      "url": "https://zenn.dev/xim2jp_tokyo/articles/neta-44-zenn-summary",
-      "publishedAt": "2026-10-19T12:03:43.000Z",
-      "publisher": "しんいち",
-      "summary": "判定専用AI「Jev」でWebサーバーのログ監査を自動化する記事の紹介です。 論点：判定の単位を何にするか 攻撃は行ではなくパターンに現れます。ブルートフォースの1行は POST /login 401、クレデンシャルスタッフィングの1行は…"
+      "id": "34ff14342865",
+      "title": "ミニマックス法とは？ゲーム木探索の基本",
+      "url": "https://zenn.dev/h888s/articles/gtest-minimax",
+      "publishedAt": "2026-10-20T00:54:47.000Z",
+      "publisher": "合格を、研究する。",
+      "summary": "G検定では、AIの探索アルゴリズムに関する基礎概念が問われます。本記事ではその代表例である「ミニマックス法」について、定義と具体例を整理して解説します。 ミニマックス法とは ミニマックス法とは、二人零和ゲームで用いられるゲーム木探索アルゴ…"
     },
     {
-      "id": "fc45374d06b5",
-      "title": "個人情報入りの PDF を AI に渡さない：Drive の前に「関所」を置いて突き合わせを自動化した話",
-      "url": "https://zenn.dev/hisa_tech_2973/articles/9cb4aee5b999fa",
-      "publishedAt": "2026-10-19T11:55:13.000Z",
-      "publisher": "HISA",
-      "summary": "個人の売上管理で、毎月「売上明細（PDF）」と「納品書（xlsx）」を目で突き合わせる作業がありました。 これを Slack から一言で頼めるようにしたいと考え、今回ツールを作成しました。 Slack に「照会お願いします」と送る Goo…"
+      "id": "b08c16fe4932",
+      "title": "大きな作業を Claude に任せきる 3 つの仕組み（tanacode の親子セッション・チェックリスト・最適化圧縮）",
+      "url": "https://zenn.dev/tanashun/articles/tanacode-parent-child-checklist-compact",
+      "publishedAt": "2026-10-20T00:47:48.000Z",
+      "publisher": "tanashun",
+      "summary": "Claude Code に大きな作業を任せようとすると、3 つの壁に当たります。 人の手が足りない: 作業を分けて、いくつものセッションに並行で任せると、それぞれへの指示・様子見・確認で、人が手一杯になる 方針がぶれる: 途中で決めたこと…"
     },
     {
-      "id": "5ab9033e8099",
-      "title": "AIは存在しない知識をもっともらしく説明できてしまうのか？ ― Claim Verificationを実験してみる",
-      "url": "https://zenn.dev/kondonator/articles/de3e45b1a9d710",
-      "publishedAt": "2026-10-19T11:54:20.000Z",
-      "publisher": "kondonator",
-      "summary": "はじめに 前回の記事では、AIによる回答をAI自身に評価させる Self Evaluation と、その評価を Known Answer や Consistency によって検証する方法を実験しました。 AIの評価結果を信用してよいのか？…"
+      "id": "7d77bf7cf62a",
+      "title": "【2026/10/7】Claude Haiku 5.5リリース——入力$0.10で9割安、ただしID差し替えだけでは動かない",
+      "url": "https://zenn.dev/sktt_panda/articles/claude-haiku-5-5-release-2026-10",
+      "publishedAt": "2026-10-20T00:45:37.000Z",
+      "publisher": "サクッとぱんだ",
+      "summary": "3行まとめ 2026年10月7日、AnthropicがClaude Haiku 5.5（claude-haiku-5-5）をリリース。100Kトークン以下のプロンプトなら入力$0.10 / 出力$0.50 per MTokで、Haiku …"
     }
   ],
-  "fetchedAt": "2026-10-20T00:40:08.779Z",
+  "fetchedAt": "2026-10-20T05:19:00.786Z",
   "stale": false,
   "error": null
 }
