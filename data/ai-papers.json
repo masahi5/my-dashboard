@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "a7b4e0a303c0",
-      "title": "StopLoss: Teaching Agents to Predict Failure and Stop Early",
-      "url": "https://huggingface.co/papers/2610.25525",
+      "id": "3ff7f5e289db",
+      "title": "Learning the 4D World through Point Trajectory Forecasting",
+      "url": "https://huggingface.co/papers/2610.28594",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this …",
+      "score": 31
+    },
+    {
+      "id": "ab2621bcb7bd",
+      "title": "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
+      "url": "https://huggingface.co/papers/2610.25078",
       "publishedAt": "2026-10-18T00:00:00.000Z",
-      "summary": "Coding agents keep working on runs that will fail verification, and asking a frontier model to watch for this is expens…",
+      "summary": "Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evol…",
       "score": 8
     },
     {
-      "id": "17282d2ad626",
-      "title": "Predicting Privileged Information Effectiveness for On-Policy Self-Distillation",
-      "url": "https://huggingface.co/papers/2610.22512",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "On-policy self-distillation (OPSD) enables large language models (LLMs) to learn from privileged information (PI) witho…",
-      "score": 5
+      "id": "392f2c11348e",
+      "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+      "url": "https://huggingface.co/papers/2610.28354",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they …",
+      "score": 6
     },
     {
-      "id": "fa092e9bef93",
-      "title": "Heterogeneous Agentic Coevolution",
-      "url": "https://huggingface.co/papers/2610.16078",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Recent advances in self-improving LLM agents have demonstrated the potential of AI systems that drive their own intelli…",
-      "score": 4
+      "id": "9ec9a8bf0f9b",
+      "title": "Harness Self-Evolution for Long-Horizon Terminal Agents",
+      "url": "https://huggingface.co/papers/2610.27435",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Long-horizon terminal agents may solve a task in one run yet fail across repeated runs. Stochastic errors can propagate…",
+      "score": 3
     },
     {
-      "id": "8ac83b018069",
-      "title": "A Language-Informed Loss for Visual Generation",
-      "url": "https://huggingface.co/papers/2610.23653",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "End-to-end visual generation with pixel-space loss has recently achieved competitive performance without the need for l…",
-      "score": 2
-    },
-    {
-      "id": "7baf2eba0e1e",
-      "title": "Measuring Mechanistic Uncertainty in Large Language Models via Causal Robustness",
-      "url": "https://huggingface.co/papers/2610.22636",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Large language models (LLMs) are increasingly used in critical domains, where their susceptibility to hallucinations ma…",
-      "score": 2
-    },
-    {
-      "id": "fce1ab4e9997",
-      "title": "Any 3D Scene is Worth 1K Tokens: 3D-Grounded Representation for Scene Generation at Scale",
-      "url": "https://huggingface.co/papers/2604.11331",
+      "id": "e7a96ab69eac",
+      "title": "Breaking Diffusion: Parallel Reasoning with Draft Refinement",
+      "url": "https://huggingface.co/papers/2610.26542",
       "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Scene-level 3D generation has long been dominated by 2D multi-view or video diffusion models. Typically, these 2D-based…",
-      "score": 2
+      "summary": "Drafting an answer allows a reasoning model to reconsider each decision in the context of the others. Yet repeated diff…",
+      "score": 3
     },
     {
-      "id": "1cb477e93fed",
-      "title": "TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning",
-      "url": "https://huggingface.co/papers/2610.26754",
+      "id": "201c2aea62af",
+      "title": "Multimodal Reranking Is a System One Decision",
+      "url": "https://huggingface.co/papers/2610.28435",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Multimodal rerankers are usually dedicated models: a vision-language model (VLM) is trained on retrieval data to score …",
+      "score": 1
+    },
+    {
+      "id": "991775f595f0",
+      "title": "Painting Change Map as guidance for generating painting processes",
+      "url": "https://huggingface.co/papers/2610.25369",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "summary": "Digital art generation has undergone a massive paradigm shift, moving from static image synthesis to dynamic video gene…",
+      "score": 1
+    },
+    {
+      "id": "e141578c7372",
+      "title": "Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success",
+      "url": "https://huggingface.co/papers/2610.24649",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "Agent scaffolds increasingly delegate small decisions (whether to stop, verify, or change approach) to cheaper models. …",
+      "score": 1
+    },
+    {
+      "id": "84579b3128b1",
+      "title": "HarnessRL: Co-Evolving Policies with a Just-in-Time Training Harness for Open-Ended RL",
+      "url": "https://huggingface.co/papers/2610.26426",
       "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Expert human readers process large inputs (e.g., code repositories and long documents) by skimming to closely read only…",
+      "summary": "Rubric-based reinforcement learning (RL) trains policies for open-ended generation with natural-language criteria as re…",
       "score": 1
     },
     {
-      "id": "9c0e1499d7b1",
-      "title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
-      "url": "https://huggingface.co/papers/2610.22466",
+      "id": "d2dad57ac54c",
+      "title": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
+      "url": "https://huggingface.co/papers/2610.28522",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Decision models support routing, guardrails, and output verification in LLM systems. However, item accuracy alone canno…",
+      "score": 1
+    },
+    {
+      "id": "ab26cff5b925",
+      "title": "Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization",
+      "url": "https://huggingface.co/papers/2606.31002",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight mode…",
+      "summary": "Lean verifies that a generated declaration is well typed, but cannot check whether it states what the user intended. We…",
       "score": 1
     },
     {
-      "id": "dfc3ad793c76",
-      "title": "Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations",
-      "url": "https://huggingface.co/papers/2610.25159",
-      "publishedAt": "2026-10-18T00:00:00.000Z",
-      "summary": "People ask conversational AI models about their legal rights, obligations, procedures, and personal situations that may…",
-      "score": 1
-    },
-    {
-      "id": "def483631fc7",
-      "title": "Vision as Proprioception: Estimating Humanoid Robot Pose from Video",
-      "url": "https://huggingface.co/papers/2610.25288",
-      "publishedAt": "2026-10-18T00:00:00.000Z",
-      "summary": "Estimating a humanoid robot's internal state from video has a wide range of real-world applications but remains unexplo…",
-      "score": 0
-    },
-    {
-      "id": "6864cdbe7e60",
-      "title": "First Passage Attention",
-      "url": "https://huggingface.co/papers/2610.22714",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Augmenting softmax attention with forget gates typically relies on summing decay contributions along the key--query pat…",
-      "score": 0
-    },
-    {
-      "id": "8058819dfe29",
-      "title": "Competence-Based Evaluation of Logical Reasoning in Large Language Models",
-      "url": "https://huggingface.co/papers/2610.22894",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Recent advances in large language models (LLMs) have brought impressive performance across diverse tasks; however, shor…",
+      "id": "84a241e93819",
+      "title": "More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agents",
+      "url": "https://huggingface.co/papers/2610.27406",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "LLM agents can improve across tasks without updating model parameters by storing experience from their own executions i…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-21T00:58:02.378Z",
+  "fetchedAt": "2026-10-21T05:48:13.163Z",
   "stale": false,
   "error": null
 }
