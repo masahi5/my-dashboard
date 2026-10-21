@@ -2,6 +2,33 @@
   "handle": "hillbig",
   "tweets": [
     {
+      "id": "2112695107938095222",
+      "url": "https://x.com/hillbig/status/2112695107938095222",
+      "text": "生成AI向けAIプロセッサーへの光電融合技術の実装を目指し、Tenstorrentと共同で研究開発を進めていきます。\n\n本共同研究開発では、学習・推論の双方を高性能かつ高効率に実行できるAIプロセッサーシステムの実現を目指します。\n\n具体的には、光電融合技術と最先端のパッケージング技術を活用するとともに、これまで培ってきた超高メモリ帯域幅を実現する3次元メモリ積層技術を、最先端の半導体プロセスと組み合わせることでさらに進化させます。加えて、機密計算に対応したCPUチップレットとの連携を進め、システム全体の性能、電力効率、安全性の向上を目指します。",
+      "publishedAt": "2026-10-20T23:59:00.000Z",
+      "authorHandle": "hillbig",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2112683272589423006",
+      "url": "https://x.com/hillbig/status/2112683272589423006",
+      "text": "Deep Infer github.com/deepseek-ai/DeepI…\ngithub.com/deepseek-ai/DeepI…\nDeepSeek V4.1 Flash Deployment情報\nzhuanlan.zhihu.com/p/2095560…",
+      "publishedAt": "2026-10-20T23:11:58.000Z",
+      "authorHandle": "hillbig",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2112682429102362892",
+      "url": "https://x.com/hillbig/status/2112682429102362892",
+      "text": "DeepSeekは、自社の推論フレームワークDeepInferを公開するとともに、DeepSeek V4.1 Flashの大規模推論システムに関する技術報告も公開した。\n\nこの報告によれば、V4.1 Flashは単一クラスタで1日あたり155兆トークンを処理し、GPUあたり毎時38ドルのAPI売上換算値を達成している。また、Decodeのベンチマークでは、GPUあたり毎秒14,466トークンという出力スループットを報告している。\n\nこの報告では、PrefillとDecodeの分離、Expert Parallelism（EP）、KVキャッシュの長期保存、投機的デコード、負荷分散などについて、実際の運用を踏まえた設計が詳しく説明されている\n\n* PrefillとDecodeの並列化\n\nPrefillではExpert Parallelism（EP）を2〜8、Data Parallelism（DP）を2〜8とし、モデルの重みがHBMに収まる範囲で、できるだけ小さいEPを利用する。\n\nDecodeではEP64〜128、DP64〜128という大規模な並列化（Wide EP）を採用している。\n\nV4.1 Flashは各MoE層に256個のRouted Expertを持つためEP64であれば、単純に均等配置した場合、GPUあたり平均4個のExpertが配置される。人気のあるExpertを複製し、各GPUの負荷に応じて再配置するExpert Parallel Load Balancing（EPLB）も導入している。\n\nこのようにEPを大きくすることで、各GPUが読み込むExpert重みの量を減らし、同時に多数のトークンを集約してExpertのGEMMを効率化できる。一方で、GPU間通信の負担は増えるため、通信側の負担は大きくなっている。\n\n* KVキャッシュの長期保存と再利用\n\n本番トラフィックでは、入力長の平均が77Kトークンで、そのうち約96%がキャッシュヒットしていると報告されている。\n\nKVキャッシュは分散ファイルシステム3FS上に保存され、どのPrefillノードからでもアクセスできるように設計されている。これにより、リクエストを特定のGPUに固定する必要がなく、柔軟な負荷分散が可能になる。\n\nまた、Sliding Window Attention（SWA）はキャッシュ再利用時に必要な状態を厳密に再構築するには、層数分だけ、より長い範囲の再計算が必要になるが、そこを直近128トークンだけの再計算に置き換えている。これは近似だが、Prefill全体の計算量をほぼ半減できると報告している。\n\n* GPUあたりの処理性能と売上\n\nDeepSeekは、GPUあたり毎時38ドルのAPI売上換算値を報告している。これを単純に年間換算すると、GPUあたり約33万ドル（1ドル150円換算で約5,000万円）となる。\n\n主要な処理性能は次の通りである。\n- Prefill処理量（キャッシュ込み）：約150万トークン/秒/GPU\n- Prefill処理量（新規計算）：約6万トークン/秒/GPU\n- Decode処理量：約14,000トークン/秒/GPU\n- Decode同時実行数：約60系列/GPU\n- 1ユーザーあたりのDecode速度：約230トークン/秒\n- PrefillとDecodeのGPU数：約1対1\n\nこれらの値とAPI料金を組み合わせると、GPUあたり毎時38ドルという売上換算値と概ね整合する。\n\n1日155兆トークンという処理量からGPU規模を逆算すると、上記のスループットを継続的に達成できるという仮定のもとで、Prefill約1,200基、Decode約1,200基、合計約2,400基という規模が推定される。\n\nこの構成が年間を通じて同じ稼働率と売上単価を維持した場合、年間売上換算値は約8億ドルとなる。\n\n例えば、GPU原価を毎時5ドル、その他のインフラ原価を毎時3ドルと仮定すると、GPUあたり毎時38ドルの売上に対して粗利益率は約79%となる。これは原価を仮定した試算であり、実際の利益率を示すものではないが十分採算がとれていることを示している。\n\n* GPUの演算効率\n\n次に、Decode性能をB200やGB200のピーク演算性能と比較してみる。\n\nV4.1 FlashのDecode時のActive Parametersを16Bとすると、1トークンの主要な行列積演算量は約32 GFLOPsとなる。\n\nGPUあたり14,466トークン/秒で生成する場合、出力トークンに対応する演算量は約463 TFLOPS/GPUである。\n\nさらに投機的デコードにおける検証トークンの増加を考慮すると、主要モデルの演算量は約516 TFLOPS/GPUと推定される。\n\nこれはB200やGB200のFP8・FP4ピーク演算性能に対して約5〜12%に相当する。\n\nまた、GPUあたり60系列を同時に処理し、投機的デコードによって1ステップで平均3.21トークンを生成するとすると、1ステップの処理時間は約13.3ミリ秒と推定される。\n\n* HBM帯域とExpert重みの読み込み\n\nメモリ帯域の観点からも考えてみると、仮に552BパラメータをすべてFP4で格納し、EP64で均等に分割すると、GPUあたり約4.31 GBの重みを保持することになる。\n\nこれを1ステップごとにすべて読み込むと仮定すると、13.3ミリ秒のステップ時間で平均約324 GB/sの読み込み帯域が必要になる。\n\nB200のHBM帯域は約8 TB/sなので、ステップ全体で平均すればピーク帯域の約4%に相当するので十分間に合う上、重みの読み込みとGEMMは一部をオーバーラップできる。\n\nただし、13.3ミリ秒の間にはAttention、Expert間通信、GEMMなどの処理も必要であり、重みの読み込みに13.3ミリ秒すべてを使えるわけではなく、例えば重み読み込みに使える時間が1ミリ秒しかないなら、必要帯域は4.31 TB/sとなり、B200のピーク帯域の約54%を使用する計算になる。\n\n* SSDを利用したKVキャッシュ保存\n\n今回の推論インフラでSSDは中心的な役割をはしている。\n推論中のKVキャッシュと状態はGPUのHBMに保持される。一方、SWAのKVキャッシュはCPU RAMに、Paged Block KV Cacheは3FS上のSSDに保存される。\n\nSSDはDecode中のKVキャッシュをHBMから退避させるためではなく、主に数日間にわたるPrefixの再利用に使われる。\n\n本番システムでは、KVキャッシュ用のSSDストレージを約100 PiB確保しており、GPUあたりの論理ストレージ容量は約14.4 TBである。\n\nキャッシュ保持期間は、Agentトラフィックで3日間、Chatbotトラフィックで7日間に設定されている。\n\nまた、キャッシュヒット率は約96%である一方、API料金ではキャッシュヒットした入力トークンと新規計算が必要な入力トークンの価格差が50倍に設定されており、Prefill売上においてキャッシュヒットした場合とそうでない場合がちょうどバランスされている。\n\nコメント\n===\n今回の報告は、現在の大規模LLM推論インフラについて、実際の利用状況と、それを支えるシステムの構成や設計上の工夫を具体的に示している点で参考になる。\n\nKVキャッシュをSSD上に長期間保存してPrefillの再計算を削減し、Decode側でWide EPを採用してExpert重みの読み込み負担を減す上、単に推論カーネルを高速化するのではなく、ストレージ、通信、負荷分散、投機的デコードまで含めて最適化することで、システム全体のスループットと経済性を改善している。\n\nまた、推論フレームワークDeepInferが公開されたことで、今後コミュニティによる性能検証や改善が進むことも期待できる（ただし、本番で使われているKVキャッシュ管理や負荷分散システムなどは公開されていないようである）",
+      "publishedAt": "2026-10-20T23:08:37.000Z",
+      "authorHandle": "hillbig",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2112325322117153257",
       "url": "https://x.com/hillbig/status/2112325322117153257",
       "text": "Scallop, Few-Step Boltzmann Generators via\nScalable Likelihood Flow Maps tonyauyeung.github.io/scallo…",
@@ -63,36 +90,9 @@
       "authorHandle": "hillbig",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2110492944780439737",
-      "url": "https://x.com/hillbig/status/2110492944780439737",
-      "text": "Multi-Stream Attention Residuals arxiv.org/abs/2610.13630",
-      "publishedAt": "2026-10-14T22:08:23.000Z",
-      "authorHandle": "hillbig",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2110492792724344853",
-      "url": "https://x.com/hillbig/status/2110492792724344853",
-      "text": "MSAR（Multi-Stream Attention Residuals）は、Transformerの残差接続を改良し、過去の層の情報を複数の異なる視点から選択的に取り出す手法である。特に、従来のAttnResをマルチヘッド化し、異なる局所文脈に基づいて過去の情報を読み出すことで、同じ学習損失に到達するための計算量を、通常の残差接続と比べて約37%削減できると報告している。\n\n通常のTransformerでは、各層の出力を残差接続によって足し合わせる。\n\nh_{l+1} = h_l + f_l(h_l)\n\nここで、h_lは第lサブレイヤーへの入力、f_lはAttentionまたはMLPによる変換である。\n\n各サブレイヤーが新しく計算した出力をv_l = f_l(h_l)とすると、この式は\n\nh_l = h_1 + Σ_{i=1}^{l-1} v_i\n\nと表せる。つまり、通常のTransformerでは、過去のすべてのサブレイヤーの出力を係数1で加算している。\n\nこの仕組みは勾配を安定して伝え、各層が既存の表現を徐々に更新する形で計算を分担できる一方、初期の層で生成された情報を後続の層が選択的に取り出すことは難しい。\n\nこの問題に対して、HC、mHC、AttnResなど、残差接続を改良する研究が進んでいる。\n\n特にAttnResでは、\n\nh_l = Σ_{i=0}^{l-1} α_{i,l} v_i\n\nとし、過去の各層の出力に対する読み出し重みα_{i,l}をAttentionによって決める。ここでv_0はEmbeddingであり、v_iは先程と同様に各層の計算結果である。\n\nこのAttentionでは、各層に学習可能なQueryを用意し、過去の各層の出力をKeyとValueとして利用する。通常のSelf-Attentionが系列方向に情報を選択的に取り出すのに対し、AttnResは深さ方向に情報を選択的に取り出す。\n\nMSARは、このAttnResをマルチヘッド化する。通常のMulti-Head Attentionでは、特徴ベクトルを複数のHeadに分割し、それぞれ独立したAttentionを計算する。\nしかし、Depth Attentionでは、各層の出力を単純に特徴次元方向に分割すると、性能が悪化することが先行研究で報告されている。\n\nそこでMSARでは、系列方向のCausal Depthwise Convolutionを利用し、異なる局所文脈を取り込んだ複数の表現を生成する。\n\n標準構成では4つのStreamを使用する。\n・Stream 0：元の表現をそのまま使用\n・Stream 1~3：直近4, 8, 12トークンに対するCausal Depthwise Convolution\n\n各チャネルで独立した畳み込みを行うため、追加パラメータ数とFLOPsを小さく抑えられる。\n\nこうして得られた4つのStreamは、いずれも元のHidden Dimensionと同じ次元数を持ち、それぞれに独立したDepth Attentionを適用する。\n最後に、得られた4つの表現を適応的な重みで統合する。この重みは、4つのStreamの出力を連結したベクトルにRMSNorm、線形写像、Sigmoidを適用し、4つのスカラーゲートを計算することで得られる。\n\nまた、全サブレイヤーの出力を個別にAttentionの参照対象とすると、必要なメモリ容量やPipeline Parallelの通信量が増大する。\nそこで、大規模実験ではBlock MSARを採用する。これはTransformer全体を約8ブロックに分割し、各ブロックに含まれるサブレイヤーの出力を加算した一つの状態を保持して、これをAttentionの参照対象とする。\n\nまた、4つのStreamを常時保持するのではなく、保存した単一の状態から必要なときだけStreamを生成することで、メモリ使用量と通信量を抑えている。\n\n実験では18B-A1.7Bと28B-A2.7BのMoEモデルを用いて評価を行い、学習損失の改善に加えて、下流タスクでも大きな性能改善が得られた。\n\n28B-A2.7Bモデルでは、MSARの追加学習FLOPsは約0.5%である一方、12種類のベンチマークすべてで通常の残差接続、mHC、AttnResを上回った。\n\nさらにScaling Lawの分析では、同じ学習損失に到達するための計算効率が通常の残差接続に対して1.58倍となり、mHCの1.30倍、AttnResの1.35倍を上回った。ただし、これは実際の学習速度ではなく、学習損失と計算量の関係から推定した値である。\n\nAblationでは、単にDepth AttentionのHead数を増やすだけでは不十分であり、各Headに異なる局所文脈を反映した表現を与えることが重要であると示唆されている。\n\nまた、2 Streamでも4 Stream構成の改善の大部分が得られており、ブロック化による性能低下も小さい。\n\nコメント\n===\nTransformerの残差接続の改良については、近年さまざまな手法が提案されている。\n\n今回の論文ではMulti-Head Depth Attentionの有効性が主張されているが、単純にCausal Convolutionを導入した効果ではないかという点は、十分にAblationされていないため、追加検証が必要だと思う。\n\n実際、他の研究でもCausal ConvolutionがInduction Headに相当する振る舞いの獲得を容易にする可能性が指摘されている。また、MambaなどのSSM系アーキテクチャでもCausal Convolutionが利用されており、局所的な情報混合が学習を容易にするうえで重要な役割を持つ可能性がある。\n\nもちろん、Causal Convolution自体に効果があり、さらにMulti-Head Depth Attentionと組み合わせることで追加の改善が得られる可能性も十分にある。切り分けのためには、Single-HeadのAttnResにCausal Convolutionだけを追加した構成との比較が必要だろう。\n\n今回のように、Attentionを適用する対象をどこまで拡張できるかが今後注目される。\n\n通常のSelf-Attentionでは、同じ層の過去のトークンを参照する。一方、AttnResやMSARでは、同じトークン位置における過去の層の出力を参照する。さらにMSARでは、Causal Convolutionによって、過去のトークン位置にある下位層の表現も間接的に利用している。\n\nこれを一般化すると、系列方向と深さ方向を合わせた二次元の計算履歴の中から、必要な中間表現を選択的に取り出すという方向性が考えられる。\n\n例えば、現在の層から過去のトークン位置にある上位層、特に最終層の表現を参照する構成も考えられる。こうした過去時刻の上位層の表現を再利用する場合は、入力からの計算ステップ数を増やせる（しかし学習時に全時刻を並列で学習できなくなるという大きな問題がある）\n\n一方、計算、メモリ、並列計算の容易性から、中間表現をすべて保存することは現実的ではないため、過去の情報のうち何を捨て、何を集約し、何を将来の参照のために選択的に残すべきかという問題も、今後の重要な研究テーマになると思う。",
-      "publishedAt": "2026-10-14T22:07:47.000Z",
-      "authorHandle": "hillbig",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2109780138162594093",
-      "url": "https://x.com/hillbig/status/2109780138162594093",
-      "text": "Shared Geometry As A Rosetta Stone: Cross-Modal Alignment Without Paired Data arxiv.org/abs/2610.09411",
-      "publishedAt": "2026-10-12T22:55:57.000Z",
-      "authorHandle": "hillbig",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-20T22:32:15.533Z",
+  "fetchedAt": "2026-10-21T00:58:09.925Z",
   "stale": false,
   "error": null
 }

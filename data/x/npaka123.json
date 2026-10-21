@@ -2,6 +2,24 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2112695295444496673",
+      "url": "https://x.com/shi3z/status/2112695295444496673",
+      "text": "MIT石井裕 ソニーCSL暦本純一 東大稲見昌彦 落合陽一が一堂に揃う今世紀最後かもしれないイベント「人類のミライへ」聴講者募集を全国に拡大!参加無料｜shi3z @shi3z note.com/shi3zblog/n/n68eb72…",
+      "publishedAt": "2026-10-20T23:59:45.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2112673799808450780",
+      "url": "https://x.com/MLBear2/status/2112673799808450780",
+      "text": "【10月21日 朝のニュースまとめ】\n・DeepSeek、本番推論エンジンDeepInferをOSS公開\n・DeepSeek V4.1 Flash、攻撃的サイバー評価でGPT-6 Sol超え\n・OpenAI、創薬調整プラットフォームOrchestra Bioを買収\n・Anthropic上場申請書草案、H1売上$16.3B・純損失$80.7B\n・Agent開発はまず既存ハーネスから、Rampが自作方法を公開\n・Google、PyTorchをTPUで動かすTorchTPUをOSS化\n・Hamel Husain氏、評価用デシジョンモデルの使い方を解説\n・Codex利用枠、約4万アカウントでプラン不整合と判明\n・GenerativeX、Next.js脆弱性の遮断〜修正PRをCodexで自動化\n・Kaggle Biohub細胞追跡コンペ3位解法の資料公開\n・Kaggleコミュニティコンペ、VLAでクレーンゲーム攻略\n・NVIDIA、AIによるCUDA最適化速度が1か月で2倍と報告\n・ChatGPT、PINや生体認証で保護するLocked Chatsを提供\n\n===\n\nDeepSeek、本番推論エンジンDeepInferをOSS公開\n\n・DeepSeekが、V4.1-Flashを大規模運用する自社推論フレームワークDeepInferをApache 2.0でOSS化しました\n・分散推論や投機的デコーディング、バッチ不変の決定的サンプリングを備え、1クラスタで1日155兆トークンを処理するとされます\n・FP4前提でBlackwellとAscend向けのため、GPUごとの作り込みで汎用性は限定的ではとの議論も出ています\n\n===\n\nDeepSeek V4.1 Flash、攻撃的サイバー評価でGPT-6 Sol超え【続報】\n\n・DeepSeek-V4.1-Flash-1017に関する続報です\n・Vals AIの模擬企業ネットワークでの多段階攻撃タスクで、GPT-6 Solを上回ったと報告されました\n・WeirdML v3でも9.2%を記録し、Kimi-K3を上回る中国モデル最高スコアとされています\n・防御側でも強いはずとの声や、サイバーリスクはオープンウェイト固有の問題ではないとの議論が出ています\n\n===\n\nOpenAI、創薬調整プラットフォームOrchestra Bioを買収\n\n・OpenAIが、バイオ製薬チームの複雑な医薬品開発プロセスの調整を支援するOrchestra Bioを買収しました\n・チームと技術を生命科学向けAIモデルRosalindと、実験計画・結果分析用ハーネスRosalind Workbenchに統合するとしています\n・製造バッチの失敗などの影響を追跡するエージェントが加わり、AI投資の実用例を示すものだとの声が出ています\n\n===\n\nAnthropic上場申請書草案、H1売上$16.3B・純損失$80.7B【続報】\n\n・AnthropicのIPO計画に関する続報です\n・WSJが上場申請書の草案を入手し、2026年上半期の売上が前年同期の$1.1Bから約$16.3Bへ約15倍になったと報じました\n・計算・インフラ支出は$2.3Bから約$9Bに増え、上半期の純損失は$80.7Bに達しているとされます\n・OpenAIはAnthropicのIPO前に、$1.4T超の評価額で約$30Bの調達を急いでいると報じられています\n\n===\n\nAgent開発はまず既存ハーネスから、Rampが自作方法を公開\n\n・複雑なワークフローを組む前に、既存のハーネスをエージェントとして使うべきだという議論が広がっています\n・Harrison Chase氏は、ハーネス、スキル・ツール追加、ミドルウェア調整、必要ならLangGraphという順序に賛同しています\n・Rampはモデル非依存の自作ハーネスの構築方法を公開し、ハーネス不要論は論文の実験設定が甘いとの反論も出ています\n\n===\n\nGoogle、PyTorchをTPUで動かすTorchTPUをOSS化\n\n・Googleが、PyTorchユーザーがNVIDIA GPUからアプリを移行しやすくするTorchTPUをオープンソースで公開しました\n・TechCrunchは、AmazonのTorchNeuronに続く動きとして、NVIDIA依存からの脱却を促すツールだと報じています\n・SemiAnalysisはGoogleがようやくOSSに本腰を入れたと評価し、TPUのTCOの良さにも言及しています\n\n===\n\nHamel Husain氏、評価用デシジョンモデルの使い方を解説\n\n・Hamel Husain氏が、LLM評価にデシジョンモデルを使う方法を解説するブログ記事を公開しました\n・タスクに合うモデルの選び方、0.5を前提にしない閾値調整、スコアの解釈をインタラクティブなグラフで説明しています\n・本番トラフィックでは人手ラベルで校正したジャッジで低スコアを拾い、evalsに追加して改善するループが重要との指摘も出ています\n\n===\n\nCodex利用枠、約4万アカウントでプラン不整合と判明【続報】\n\n・Codexの利用枠リセットに関する続報です\n・週末に枠の消費が想定より早いとの報告が相次ぎ、OpenAIのTibo氏が原因を説明しました\n・約4万アカウントで、実際に適用された利用制限が選択中のプランと一致していなかったとしています\n・消費の速さに不満が出ていた利用者にとって、枠を早く使い切っていた原因が明らかになった形です\n\n===\n\nGenerativeX、Next.js脆弱性の遮断〜修正PRをCodexで自動化\n\n・OpenAI DevDay Exchange TokyoでGenerativeXが、Codexで脆弱性対応を自動化する事例を紹介しました\n・日本の深夜に公開されがちなNext.jsのCritical脆弱性に対し、検知→FW遮断→Codexで修正PR→遮断解除を自動化しています\n・人の作業は承認のみで、深夜対応の負担を減らす実践的な仕組みとして参加者から賢いとの反応が出ています\n\n===\n\nKaggle Biohub細胞追跡コンペ3位解法の資料公開\n\n・GOドライブのyu4u氏が、Kaggleコンペ「Biohub - Cell Tracking During Development」の3位解法資料を公開しました\n・社内勉強会での発表資料で、コンペ内容の紹介と入賞解法の解説がまとめられています\n・まずパイプラインを完成させてから個々のモジュールを改善し続けるアプローチが語られています\n\n===\n\nKaggleコミュニティコンペ、VLAでクレーンゲーム攻略\n\n・VLAをテーマにしたKaggleコミュニティコンペの新作が月曜から開催されています\n・クレーンゲームで景品を獲得して高得点を目指す内容で、SmolVLA用のLoRAアダプターとプロンプトを提出します\n・どのシーンでどのアダプターとプロンプトを使うかという戦略設計が問われるコンペです\n\n===\n\nNVIDIA、AIによるCUDA最適化速度が1か月で2倍と報告\n\n・PyTorchカンファレンスでNVIDIAのエンジニアが、フロンティアモデルによるCUDA最適化の速度が急伸していると述べました\n・2025年10月〜2026年8月は専門家の人手最適化込みで1年5倍だったのに対し、2026年9〜10月は1か月で2倍とされています\n・カーネル最適化をAIが担う流れが加速していることを示すデータとして注目されています\n\n===\n\nChatGPT、PINや生体認証で保護するLocked Chatsを提供\n\n・ChatGPTに、機密性の高い会話を通常の履歴や検索から隠すLocked Chats機能が追加されました\n・Webとデスクトップはロック解除にPIN、モバイルはPINやFace ID、Touch IDなどが使えます\n・Free、Go、Plus、Pro、Business、Enterprise、Eduの各プランに順次展開されています",
+      "publishedAt": "2026-10-20T22:34:20.000Z",
+      "authorHandle": "MLBear2",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2112665768227922303",
       "url": "https://x.com/npaka123/status/2112665768227922303",
       "text": "Flux 3 Max 追加\n\n画像・動画生成AI のリリース年表｜npaka @npaka123 note.com/npaka/n/ndb5f2491e4…",
@@ -72,27 +90,9 @@
       "authorHandle": "OpenAI",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2112597587987689912",
-      "url": "https://x.com/DrJimFan/status/2112597587987689912",
-      "text": "We built a robotics data engine with Astra-level performance at 125x lower cost. And we are open-sourcing the weights today! Introducing Flora, a suite of open models to parse the physical world and turn raw footage into rich training signals.\n\nFlora already powers our in-house data engine, labeling 200K hours of videos a day on 500 GPUs. We created it to scale the frontier for robot learning. Now you own the weights too.\n\nFlora gives you:\n\n- High-quality, timestamped captions to curate and filter human egocentric and robot data;\n- Dense progress rewards for quality control and RL post-training;\n- Rubrics scoring for real-world benchmarking\n\nTry it today, links in thread:",
-      "publishedAt": "2026-10-20T17:31:29.000Z",
-      "authorHandle": "DrJimFan",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2112592264686149749",
-      "url": "https://x.com/thsottiaux/status/2112592264686149749",
-      "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong.",
-      "publishedAt": "2026-10-20T17:10:20.000Z",
-      "authorHandle": "thsottiaux",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-20T22:32:29.908Z",
+  "fetchedAt": "2026-10-21T00:58:21.872Z",
   "stale": false,
   "error": null
 }
