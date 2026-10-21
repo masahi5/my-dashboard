@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "448be7bacee3",
-      "title": "Meta「Muse」の共有リンク、会話が誰でも見つかる状態に",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261021",
-      "publishedAt": "2026-10-21T08:57:01.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月21日（水）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日はちょっと怖い話から入ります。MetaのAIで、相手にだけ送ったつもりの会話が、誰でも見つけられる状態になってたんです。そのあ…"
+      "id": "27789b80e719",
+      "title": "Claude Codeが要約のあと急に話が通じなくなる問題を、自分の発言を読み戻すフックで減らした",
+      "url": "https://zenn.dev/kirinukiauto/articles/4f6e8e15c4a287",
+      "publishedAt": "2026-10-21T19:20:32.000Z",
+      "publisher": "キリヌキ自動化ラボ",
+      "summary": "Claude Code に、YouTube の切り抜き動画づくりをほぼ丸ごと任せています。元動画の取得から書き起こし・字幕・表紙・投稿までを AI が回し、人は最後に公開ボタンを押すだけです。 長い作業を任せていると、ある時から急に話が通…"
     },
     {
-      "id": "229f3843e1b3",
-      "title": "Claude Code を AI 専用の Windows アカウントで動かす:分けてわかった手間",
-      "url": "https://zenn.dev/k_iijima/articles/bd29a117a85354",
-      "publishedAt": "2026-10-21T08:56:19.000Z",
-      "publisher": "飯島紘一",
-      "summary": "はじめに 私は、小さな事業者むけの業務ソフトを一人で作っています。開発は AI エージェント(Claude Code)にまかせています。 1 本目の記事で、Claude Code の禁止の設定や hook だけでは、AI の push を…"
+      "id": "0be6dbe1825b",
+      "title": "ナレッジ蓄積再考: とりあえず LLM Wiki で始めてよいのでは",
+      "url": "https://zenn.dev/shoyataguchi/articles/12c30399b7df36",
+      "publishedAt": "2026-10-21T17:05:34.000Z",
+      "publisher": "Shoya Taguchi",
+      "summary": "仕事で必要になりそうなので、「継続的ナレッジ蓄積」周辺を今一度調べて整理してみました。既存のプロダクトや主要な手法に加えて、最近の論文の傾向を広く検索したあと、AI と対話しながら、自分なりに理解を深めました。 ナレッジ蓄積というと Gr…"
     },
     {
-      "id": "a2f0f3e08b6b",
-      "title": "311スキル入りのEverything Claude Codeを、3スキルと1ルールパックに絞る",
-      "url": "https://zenn.dev/skillselion/articles/06e00facc82273",
-      "publishedAt": "2026-10-21T08:41:16.000Z",
-      "publisher": "Skillselion",
-      "summary": "Everything Claude Code（affaan-m/ECC）は、311個のスキルと71個のエージェント、97個のコマンドシムが1つのリポジトリに入った「全部入り」キットです。GitHub スターは約28万5000、フォークは約…"
+      "id": "129c85e7dfc0",
+      "title": "曲の構成とは？ヴァースとコーラスの役割を分けてAI作曲を依頼する",
+      "url": "https://zenn.dev/creatunealex/articles/3ce0749159c026",
+      "publishedAt": "2026-10-21T16:22:00.000Z",
+      "publisher": "Alex (Creatune)",
+      "summary": "歌詞を長く書いても、曲に展開が生まれるとは限りません。同じ情報を同じ強さで繰り返すと、サビが来たことを判断しにくくなります。作曲を依頼する前に、各段落が何を伝えるのかを分けてみます。 筆者のAlexはCreatuneチームの一員です。この…"
     },
     {
-      "id": "be5c11f65509",
-      "title": "AIエージェントの記憶は「1つの事実を1ファイル」にしたら扱いやすくなった",
-      "url": "https://zenn.dev/himori_ops/articles/ai-agent-memory-one-fact-per-file",
-      "publishedAt": "2026-10-21T08:30:35.000Z",
-      "publisher": "灯守",
-      "summary": "AIエージェント（自分でコマンドを実行できるAI）に毎日作業を手伝わせていると、困るのが「前に決めたことを、次の会話では覚えていない」ことです。 前回の記事ではサーバーを触らせる前の安全装置の話を書きました。今回は、AIに覚えておいてほし…"
+      "id": "82ad6ab7c197",
+      "title": "使える素材を組み合わせて広告に仕上げる",
+      "url": "https://zenn.dev/followcloud/articles/08a55e224bae32",
+      "publishedAt": "2026-10-21T15:58:29.000Z",
+      "publisher": "followcloud",
+      "summary": "商品写真から動画へ：Everygen AIで考えるシンプルな広告づくり よい商品写真は、それだけで多くのことを伝えています。商品の形、色、素材感、そして印象。そこから動画をつくるときは、もう一つ考えることがあります。何を動かせば、その商品…"
     },
     {
-      "id": "bb65f2f622ba",
-      "title": "超攻撃的QA / Massive Attack QA - 9.81 PR/人/日の開発に、QAはどう追いつくか",
-      "url": "https://zenn.dev/kauche/articles/e748aa14bc7667",
-      "publishedAt": "2026-10-21T07:48:55.000Z",
-      "publisher": "亀井亮介@カウシェ",
-      "summary": "はじめに カウシェでQAリードをしている亀井です！この記事は、2026年10月20日のJaSST nanoでの登壇内容をまとめたものです。 カウシェは、SNSのように毎日開きたくなるECアプリです。発見型のお買い物体験に、ゲームやソーシャ…"
+      "id": "482baecb50f2",
+      "title": "情シスのための Claude Code 運用レシピ集",
+      "url": "https://zenn.dev/chukidx_dev/books/claude-code-recipes-joshisu",
+      "publishedAt": "2026-10-21T14:47:18.000Z",
+      "publisher": "中小DXラボ(chukidx)",
+      "summary": "中小企業の情シスが日々の運用で使えるスクリプトを、Claude Code への依頼文・完成したスクリプト・確かめ方のセットでまとめたレシピ集です。各レシピは架空のデータで自動テストを通したものだけを掲載し、毎週1本を目安に追加します。"
     },
     {
-      "id": "3d65f3ae20ca",
-      "title": "AIにコードレビューさせたら2時間止まらなかった話 ― 型が守るのは形であって正しさではない",
-      "url": "https://zenn.dev/yutakatsuhako/articles/2a1a6d2309e407",
-      "publishedAt": "2026-10-21T07:27:20.000Z",
-      "publisher": "yutakatsuhako",
-      "summary": "Claude Code で開発していて、レビューを Codex などの別の AI にさせている人向けの話です。 「指摘を直しても直しても次の指摘が来る」を経験した人は、たぶん同じ穴にはまっています。 後半は、この記事を書きながら Clau…"
+      "id": "2b037284c1e7",
+      "title": "Claude Codeの自動再開のあと、古い画面に入力すると会話が二つに分かれる。送信を止めるフックを作った",
+      "url": "https://zenn.dev/twinharness/articles/resume-guard-stale-terminal",
+      "publishedAt": "2026-10-21T14:42:32.000Z",
+      "publisher": "twinharness",
+      "summary": "AI の使用上限（一定の利用量に達すると、回復するまで使えなくなる制限）で作業が止まったとき、回復の時刻に会話を自動で再開させる仕組みを作りました。ところが、再開は画面に出ないところで進むので、止まったままの古いターミナル画面（コマンドを…"
     },
     {
-      "id": "e34b52751828",
-      "title": "AIと作る公開リポジトリの守り方：無料でできるルールセット・SHA固定・Dependabot・CodeQL",
-      "url": "https://zenn.dev/shoyomayabot/articles/public-repo-free-guardrails",
-      "publishedAt": "2026-10-21T07:26:24.000Z",
-      "publisher": "mayabot",
-      "summary": "AIにコードを書かせて、GitHubで公開する。とても手軽になりましたが、守りの設定は後回しになりがちです。 この記事では、15個の公開リポジトリに無料で入れた守りの設定を、手順つきで紹介します。AIがmainに直接pushする運用でも困…"
+      "id": "e506b88780c8",
+      "title": "AIエージェントに「実装しながら考える」をさせない。技術負債を減らす計画書作成プロンプト",
+      "url": "https://zenn.dev/kazuki_izutani/articles/1709552ca099f1",
+      "publishedAt": "2026-10-21T13:56:29.000Z",
+      "publisher": "Kazuki Izutani",
+      "summary": "はじめに Claude Code などのコーディングエージェントに実装を任せていると、既存の共通関数を使わずに似た関数を新たに作ったり、他の箇所とは違う方法でエラー処理をしたりすることがあります。 これらの原因の多くは、実装前の計画のあい…"
     },
     {
-      "id": "1ed9c7e339af",
-      "title": "【ゆるっとAI基礎 #1】AIは会話するたびに学習してるの？",
-      "url": "https://zenn.dev/daphne/articles/ai-learning-vs-context",
-      "publishedAt": "2026-10-21T07:00:05.000Z",
-      "publisher": "Daphne",
-      "summary": "先に結論から言う。 AIは、あなたについて、渡されたことしか知らない。 正確に言うと、AIが使えるのは二つだけ。 学習のときに身につけた知識 今回、渡されたもの あなたが前に話したことは、二つ目に入れて渡さない限り、知らない。 でも、Ch…"
+      "id": "5014ed7c5254",
+      "title": "金融K線専用の基盤モデルKronosにBTC/USDTの値動きを予測させてみた",
+      "url": "https://zenn.dev/matsushima_a/articles/day-022-kronos-btc-price-forecast",
+      "publishedAt": "2026-10-21T13:56:07.000Z",
+      "publisher": "matsu",
+      "summary": "AAAI 2026に採択された金融ローソク足(K線)専用の基盤モデル「Kronos」を、実際にBTC/USDTの1時間足データで動かし、予測結果を実際の値動きと突き合わせてみた。結論から言うと、CPUだけでも十分実用的な速度で動く一方、方…"
     },
     {
-      "id": "fd1a6b6016bb",
-      "title": "【開催報告】CEATEC 2026 登壇：ローカルLLMで実現するセキュアなAI駆動開発",
-      "url": "https://zenn.dev/fixstars/articles/ceatec2026-conference-report",
-      "publishedAt": "2026-10-21T06:46:34.000Z",
-      "publisher": "changgyu.choi",
-      "summary": "コーディングエージェントをはじめとする生成AIの活用は、ソフトウェア開発の現場で急速に広がっています。一方で、組込み開発や受託開発の現場には「お客様のソースコードや設計情報を社外のクラウドAIに渡せない」という壁があります。この壁のために…"
+      "id": "f0a76990e721",
+      "title": "Claude Code の AskUserQuestion にフックで答える（スマホからも）",
+      "url": "https://zenn.dev/dawon/articles/c21789f4cb0b6f",
+      "publishedAt": "2026-10-21T13:47:01.000Z",
+      "publisher": "Dawon Lee",
+      "summary": "Claude Code はときどき AskUserQuestion ツールで選択式の質問をしてきます（「どのフレームワークにしますか？」など）。ターミナルの前にいないと、そこで止まったままになります。 フックのドキュメントには -p モー…"
     },
     {
-      "id": "d199acfd3645",
-      "title": "神の存在証明をAIに分解させたら、先にAIの配線ミスが見つかった",
-      "url": "https://zenn.dev/cocoa3j21/articles/0b6f764cb304d7",
-      "publishedAt": "2026-10-21T06:40:53.000Z",
-      "publisher": "ココアさん",
-      "summary": "性能向上と共に、賞金稼ぎにAIが役だっていると聞きますが。せっかくなら、もう少し大きい夢を見ませんか。「我々は何故存在しているのか」。 課題 「神は実在するか」を幾何学で解けないか、という思いつきから始めました。 なお、ここで言うスピノザ…"
+      "id": "e6d224128783",
+      "title": "AI にほかの AI へ相談させていたら、返事を誰も読んでいなかった",
+      "url": "https://zenn.dev/claire_ai/articles/gaibu-ai-iriguchi",
+      "publishedAt": "2026-10-21T13:25:49.000Z",
+      "publisher": "クレア",
+      "summary": "「codex や Gemini に投げてることが監視アプリ上でわからない＆返ってきても放置が多い」 2026-09-07、作業を任せている AI（Claude Code）の動きを見ていて、こう言われた。 ! 🔑 具体的な中身（全体の作り…"
     },
     {
-      "id": "c93e69fc6258",
-      "title": "The Video Ended a Little Too Soon",
-      "url": "https://zenn.dev/emilyjones/articles/1c7273c2fa6e85",
-      "publishedAt": "2026-10-21T06:27:27.000Z",
-      "publisher": "emilyjones1217",
-      "summary": "Someone puts a cup of tea on the table, pulls out a chair, and sits down. The clip cuts before they can reach for the c…"
+      "id": "89904989441d",
+      "title": "Claude Code×Claude in ChromeでUIテストを自動化する【指示の書き方とスキル化】",
+      "url": "https://zenn.dev/suekichi_system/articles/claude-code-chrome-ui-testing",
+      "publishedAt": "2026-10-21T12:56:25.000Z",
+      "publisher": "スエキチ",
+      "summary": "🚀 はじめに AIに実装を任せても、画面を開いて動作を確かめるのは人の仕事のまま、という状態になっていないでしょうか。 この記事では、Claude Code と Claude in Chrome を連携して、画面の確認（UIテスト）まで…"
     },
     {
-      "id": "444dfbd9fb19",
-      "title": "AIエージェントは動いている。それでも自動化が完成しない理由",
-      "url": "https://zenn.dev/neoru/articles/a6bec99d2a3392",
-      "publishedAt": "2026-10-21T05:45:57.000Z",
-      "publisher": "NEORU｜AI Business OS",
-      "summary": "AIエージェントを組み合わせてシステムを作っていると、不思議な現象に遭遇します。 一つひとつの機能は正常に動く。それなのに、全部をつなぐと止まる。 AIの性能が不足しているわけでも、プログラムがすべて間違っているわけでもありません。 問題…"
+      "id": "fb0c2d863363",
+      "title": "AI駆動開発のためのWebプロジェクト初期構築ガイド",
+      "url": "https://zenn.dev/h_kamikawa/articles/007d98ac98bb3f",
+      "publishedAt": "2026-10-21T12:53:42.000Z",
+      "publisher": "かみかわひろし",
+      "summary": "はじめに 個人開発・クライアントワークで、AIエージェントを前提としたWeb開発環境を構築するための標準手順。 本格的な機能開発を開始する前に、ローカル環境・GitHub・インフラ・CI/CD・初回デプロイ・公開確認まで完了させる。 これ…"
     }
   ],
-  "fetchedAt": "2026-10-21T15:56:48.604Z",
+  "fetchedAt": "2026-10-21T19:56:09.218Z",
   "stale": false,
   "error": null
 }

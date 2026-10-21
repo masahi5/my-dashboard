@@ -6,28 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "bda461ca38fd",
-      "title": "FlowState: Execution State as Memory for Long-Horizon LLM Agents",
-      "url": "https://huggingface.co/papers/2609.34565",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "Long-horizon tasks require LLM agents to continually draw on information from earlier interactions. However, retaining …",
-      "score": 14
-    },
-    {
-      "id": "14c5bb71c094",
-      "title": "Evaluating Agentic Capabilities Before Post-Training: An End-to-End Approach",
-      "url": "https://huggingface.co/papers/2610.19425",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Agentic capabilities are increasingly important for modern LLMs, yet remain difficult to evaluate during pretraining. E…",
-      "score": 8
-    },
-    {
       "id": "c7ab74eb5e37",
       "title": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
       "url": "https://huggingface.co/papers/2610.16523",
       "publishedAt": "2026-10-12T00:00:00.000Z",
       "summary": "Training LLM agents to interact with users over multiple turns is challenging because the learning signal depends not o…",
-      "score": 6
+      "score": 9
     },
     {
       "id": "5698de46ef75",
@@ -35,15 +19,23 @@
       "url": "https://huggingface.co/papers/2610.27190",
       "publishedAt": "2026-10-19T00:00:00.000Z",
       "summary": "Modern language models are increasingly asked to handle several tasks within a single prompt. Doing so requires solving…",
-      "score": 5
+      "score": 7
     },
     {
-      "id": "07cc924d8c79",
-      "title": "PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements",
-      "url": "https://huggingface.co/papers/2610.26711",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Recent video generation models produce visually compelling outputs, yet their physical plausibility remains poorly meas…",
-      "score": 5
+      "id": "04f4a420cc57",
+      "title": "Training the Whole Agent, Not Just the Model",
+      "url": "https://huggingface.co/papers/2610.28069",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Training coding agents typically updates the policy while keeping the harness fixed. During training, trajectories reve…",
+      "score": 4
+    },
+    {
+      "id": "cd5cfd9e66ba",
+      "title": "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
+      "url": "https://huggingface.co/papers/2610.28388",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challe…",
+      "score": 4
     },
     {
       "id": "9e6821985b47",
@@ -54,19 +46,11 @@
       "score": 4
     },
     {
-      "id": "a377711c0d4d",
-      "title": "HRoPE: Homography Relative Positional Encoding",
-      "url": "https://huggingface.co/papers/2610.28284",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Geometric Relative Positional Encoding has become the primary mechanism for injecting spatial inductive biases into mul…",
-      "score": 3
-    },
-    {
-      "id": "90253d376fdf",
-      "title": "PhysLDM: Latent Diffusion for High-Fidelity Deformable Simulation",
-      "url": "https://huggingface.co/papers/2610.07609",
-      "publishedAt": "2026-10-18T00:00:00.000Z",
-      "summary": "Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI. …",
+      "id": "a15353740120",
+      "title": "On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs",
+      "url": "https://huggingface.co/papers/2610.23400",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Large language models often answer factual questions incorrectly in closed-book settings, and such errors are usually a…",
       "score": 3
     },
     {
@@ -75,14 +59,38 @@
       "url": "https://huggingface.co/papers/2610.28074",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "summary": "As a prototypical latent world model, Joint-Embedding Predictive Architectures (JEPAs) provide strong semantic represen…",
-      "score": 2
+      "score": 3
     },
     {
-      "id": "a15353740120",
-      "title": "On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs",
-      "url": "https://huggingface.co/papers/2610.23400",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Large language models often answer factual questions incorrectly in closed-book settings, and such errors are usually a…",
+      "id": "a377711c0d4d",
+      "title": "HRoPE: Homography Relative Positional Encoding",
+      "url": "https://huggingface.co/papers/2610.28284",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Geometric Relative Positional Encoding has become the primary mechanism for injecting spatial inductive biases into mul…",
+      "score": 3
+    },
+    {
+      "id": "6f9ee98d3b8a",
+      "title": "BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks",
+      "url": "https://huggingface.co/papers/2610.25459",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "summary": "Bimanual manipulation with dexterous hands has attracted growing attention in research on robotic action models. Howeve…",
+      "score": 1
+    },
+    {
+      "id": "09e5cbd15fb6",
+      "title": "Axiomatic World Modeling for Physics Reasoning",
+      "url": "https://huggingface.co/papers/2610.24519",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "Recent research-level physics-reasoning benchmarks for LLMs reveal a failure mode that lies not in knowledge or executi…",
+      "score": 1
+    },
+    {
+      "id": "7e96bdb09b58",
+      "title": "World Models with Configurable Perception",
+      "url": "https://huggingface.co/papers/2610.27914",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Real-world observations are noisy and often contain excessive task-irrelevant information. Effective world modeling and…",
       "score": 1
     },
     {
@@ -92,17 +100,9 @@
       "publishedAt": "2026-10-19T00:00:00.000Z",
       "summary": "Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from intern…",
       "score": 1
-    },
-    {
-      "id": "cd5cfd9e66ba",
-      "title": "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
-      "url": "https://huggingface.co/papers/2610.28388",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challe…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-21T15:56:48.416Z",
+  "fetchedAt": "2026-10-21T19:56:09.017Z",
   "stale": false,
   "error": null
 }
