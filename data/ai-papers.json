@@ -6,36 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "4efb881ff5ef",
-      "title": "LLM2R: From Large Language Models to 3D Reassemblers",
-      "url": "https://huggingface.co/papers/2610.18604",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "summary": "3D part assembly aims to reconstruct a complete shape from a set of unassembled parts by predicting a rigid SE(3) trans…",
-      "score": 18
-    },
-    {
-      "id": "0c80a17a1605",
-      "title": "Event-STVG: Spatio-Temporal Video Grounding for Long-Form Event Reasoning",
-      "url": "https://huggingface.co/papers/2610.22444",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Spatio-Temporal Video Grounding (STVG) aims to jointly localize a target in space and time given a natural-language que…",
-      "score": 9
-    },
-    {
       "id": "bda461ca38fd",
       "title": "FlowState: Execution State as Memory for Long-Horizon LLM Agents",
       "url": "https://huggingface.co/papers/2609.34565",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "summary": "Long-horizon tasks require LLM agents to continually draw on information from earlier interactions. However, retaining …",
-      "score": 7
-    },
-    {
-      "id": "88d9f829811f",
-      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
-      "url": "https://huggingface.co/papers/2610.28632",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pix…",
-      "score": 5
+      "score": 14
     },
     {
       "id": "14c5bb71c094",
@@ -43,15 +19,15 @@
       "url": "https://huggingface.co/papers/2610.19425",
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "summary": "Agentic capabilities are increasingly important for modern LLMs, yet remain difficult to evaluate during pretraining. E…",
-      "score": 3
+      "score": 8
     },
     {
-      "id": "c49b617d846c",
-      "title": "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
-      "url": "https://huggingface.co/papers/2610.27327",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data.…",
-      "score": 3
+      "id": "c7ab74eb5e37",
+      "title": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
+      "url": "https://huggingface.co/papers/2610.16523",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Training LLM agents to interact with users over multiple turns is challenging because the learning signal depends not o…",
+      "score": 6
     },
     {
       "id": "5698de46ef75",
@@ -59,7 +35,7 @@
       "url": "https://huggingface.co/papers/2610.27190",
       "publishedAt": "2026-10-19T00:00:00.000Z",
       "summary": "Modern language models are increasingly asked to handle several tasks within a single prompt. Doing so requires solving…",
-      "score": 2
+      "score": 5
     },
     {
       "id": "07cc924d8c79",
@@ -67,15 +43,23 @@
       "url": "https://huggingface.co/papers/2610.26711",
       "publishedAt": "2026-10-19T00:00:00.000Z",
       "summary": "Recent video generation models produce visually compelling outputs, yet their physical plausibility remains poorly meas…",
-      "score": 1
+      "score": 5
     },
     {
-      "id": "5173d098e935",
-      "title": "SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration",
-      "url": "https://huggingface.co/papers/2610.26837",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Diffusion Transformers (DiTs) achieve high-fidelity image and video generation, but they suffer from substantial infere…",
-      "score": 1
+      "id": "9e6821985b47",
+      "title": "OverSeer: Multi-Agent World Models Beyond What Agents See",
+      "url": "https://huggingface.co/papers/2610.28554",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Despite the success of video world models, extending them to multiple agents is difficult because it requires generatin…",
+      "score": 4
+    },
+    {
+      "id": "a377711c0d4d",
+      "title": "HRoPE: Homography Relative Positional Encoding",
+      "url": "https://huggingface.co/papers/2610.28284",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Geometric Relative Positional Encoding has become the primary mechanism for injecting spatial inductive biases into mul…",
+      "score": 3
     },
     {
       "id": "90253d376fdf",
@@ -83,26 +67,42 @@
       "url": "https://huggingface.co/papers/2610.07609",
       "publishedAt": "2026-10-18T00:00:00.000Z",
       "summary": "Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI. …",
-      "score": 0
+      "score": 3
     },
     {
-      "id": "75c0194fae74",
-      "title": "Muse Glimmer 30B: An On-Device Agentic Model",
-      "url": "https://huggingface.co/papers/2610.24628",
-      "publishedAt": "2026-10-17T00:00:00.000Z",
-      "summary": "We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built fo…",
-      "score": 0
+      "id": "e1a84c3a698f",
+      "title": "Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models",
+      "url": "https://huggingface.co/papers/2610.28074",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "As a prototypical latent world model, Joint-Embedding Predictive Architectures (JEPAs) provide strong semantic represen…",
+      "score": 2
     },
     {
-      "id": "77b01a2a2016",
-      "title": "On the Limits of Scale: Inverse Scaling in Vision-Language Models",
-      "url": "https://huggingface.co/papers/2610.27360",
+      "id": "a15353740120",
+      "title": "On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs",
+      "url": "https://huggingface.co/papers/2610.23400",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Large language models often answer factual questions incorrectly in closed-book settings, and such errors are usually a…",
+      "score": 1
+    },
+    {
+      "id": "e1b1df7aeddd",
+      "title": "VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token",
+      "url": "https://huggingface.co/papers/2610.26857",
       "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Scaling laws suggest that increasing model size, training data, and compute generally yields monotonic performance impr…",
+      "summary": "Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from intern…",
+      "score": 1
+    },
+    {
+      "id": "cd5cfd9e66ba",
+      "title": "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
+      "url": "https://huggingface.co/papers/2610.28388",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challe…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-21T11:05:42.811Z",
+  "fetchedAt": "2026-10-21T15:56:48.416Z",
   "stale": false,
   "error": null
 }
