@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3ff7f5e289db",
-      "title": "Learning the 4D World through Point Trajectory Forecasting",
-      "url": "https://huggingface.co/papers/2610.28594",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this …",
-      "score": 31
+      "id": "4efb881ff5ef",
+      "title": "LLM2R: From Large Language Models to 3D Reassemblers",
+      "url": "https://huggingface.co/papers/2610.18604",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "3D part assembly aims to reconstruct a complete shape from a set of unassembled parts by predicting a rigid SE(3) trans…",
+      "score": 18
     },
     {
-      "id": "ab2621bcb7bd",
-      "title": "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
-      "url": "https://huggingface.co/papers/2610.25078",
-      "publishedAt": "2026-10-18T00:00:00.000Z",
-      "summary": "Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evol…",
-      "score": 8
-    },
-    {
-      "id": "392f2c11348e",
-      "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
-      "url": "https://huggingface.co/papers/2610.28354",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they …",
-      "score": 6
-    },
-    {
-      "id": "9ec9a8bf0f9b",
-      "title": "Harness Self-Evolution for Long-Horizon Terminal Agents",
-      "url": "https://huggingface.co/papers/2610.27435",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Long-horizon terminal agents may solve a task in one run yet fail across repeated runs. Stochastic errors can propagate…",
-      "score": 3
-    },
-    {
-      "id": "e7a96ab69eac",
-      "title": "Breaking Diffusion: Parallel Reasoning with Draft Refinement",
-      "url": "https://huggingface.co/papers/2610.26542",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Drafting an answer allows a reasoning model to reconsider each decision in the context of the others. Yet repeated diff…",
-      "score": 3
-    },
-    {
-      "id": "201c2aea62af",
-      "title": "Multimodal Reranking Is a System One Decision",
-      "url": "https://huggingface.co/papers/2610.28435",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Multimodal rerankers are usually dedicated models: a vision-language model (VLM) is trained on retrieval data to score …",
-      "score": 1
-    },
-    {
-      "id": "991775f595f0",
-      "title": "Painting Change Map as guidance for generating painting processes",
-      "url": "https://huggingface.co/papers/2610.25369",
-      "publishedAt": "2026-10-18T00:00:00.000Z",
-      "summary": "Digital art generation has undergone a massive paradigm shift, moving from static image synthesis to dynamic video gene…",
-      "score": 1
-    },
-    {
-      "id": "e141578c7372",
-      "title": "Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success",
-      "url": "https://huggingface.co/papers/2610.24649",
-      "publishedAt": "2026-10-17T00:00:00.000Z",
-      "summary": "Agent scaffolds increasingly delegate small decisions (whether to stop, verify, or change approach) to cheaper models. …",
-      "score": 1
-    },
-    {
-      "id": "84579b3128b1",
-      "title": "HarnessRL: Co-Evolving Policies with a Just-in-Time Training Harness for Open-Ended RL",
-      "url": "https://huggingface.co/papers/2610.26426",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Rubric-based reinforcement learning (RL) trains policies for open-ended generation with natural-language criteria as re…",
-      "score": 1
-    },
-    {
-      "id": "d2dad57ac54c",
-      "title": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
-      "url": "https://huggingface.co/papers/2610.28522",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Decision models support routing, guardrails, and output verification in LLM systems. However, item accuracy alone canno…",
-      "score": 1
-    },
-    {
-      "id": "ab26cff5b925",
-      "title": "Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization",
-      "url": "https://huggingface.co/papers/2606.31002",
+      "id": "0c80a17a1605",
+      "title": "Event-STVG: Spatio-Temporal Video Grounding for Long-Form Event Reasoning",
+      "url": "https://huggingface.co/papers/2610.22444",
       "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Lean verifies that a generated declaration is well typed, but cannot check whether it states what the user intended. We…",
+      "summary": "Spatio-Temporal Video Grounding (STVG) aims to jointly localize a target in space and time given a natural-language que…",
+      "score": 9
+    },
+    {
+      "id": "bda461ca38fd",
+      "title": "FlowState: Execution State as Memory for Long-Horizon LLM Agents",
+      "url": "https://huggingface.co/papers/2609.34565",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "summary": "Long-horizon tasks require LLM agents to continually draw on information from earlier interactions. However, retaining …",
+      "score": 7
+    },
+    {
+      "id": "88d9f829811f",
+      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+      "url": "https://huggingface.co/papers/2610.28632",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pix…",
+      "score": 5
+    },
+    {
+      "id": "14c5bb71c094",
+      "title": "Evaluating Agentic Capabilities Before Post-Training: An End-to-End Approach",
+      "url": "https://huggingface.co/papers/2610.19425",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Agentic capabilities are increasingly important for modern LLMs, yet remain difficult to evaluate during pretraining. E…",
+      "score": 3
+    },
+    {
+      "id": "c49b617d846c",
+      "title": "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
+      "url": "https://huggingface.co/papers/2610.27327",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data.…",
+      "score": 3
+    },
+    {
+      "id": "5698de46ef75",
+      "title": "On the Fragility of Tasks under Composition: Implicit Budgeting in Language Models",
+      "url": "https://huggingface.co/papers/2610.27190",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "Modern language models are increasingly asked to handle several tasks within a single prompt. Doing so requires solving…",
+      "score": 2
+    },
+    {
+      "id": "07cc924d8c79",
+      "title": "PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements",
+      "url": "https://huggingface.co/papers/2610.26711",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "Recent video generation models produce visually compelling outputs, yet their physical plausibility remains poorly meas…",
       "score": 1
     },
     {
-      "id": "84a241e93819",
-      "title": "More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agents",
-      "url": "https://huggingface.co/papers/2610.27406",
+      "id": "5173d098e935",
+      "title": "SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration",
+      "url": "https://huggingface.co/papers/2610.26837",
       "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "LLM agents can improve across tasks without updating model parameters by storing experience from their own executions i…",
+      "summary": "Diffusion Transformers (DiTs) achieve high-fidelity image and video generation, but they suffer from substantial infere…",
+      "score": 1
+    },
+    {
+      "id": "90253d376fdf",
+      "title": "PhysLDM: Latent Diffusion for High-Fidelity Deformable Simulation",
+      "url": "https://huggingface.co/papers/2610.07609",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "summary": "Neural simulation of high-fidelity deformable bodies is a foundational challenge in computer graphics and physical AI. …",
+      "score": 0
+    },
+    {
+      "id": "75c0194fae74",
+      "title": "Muse Glimmer 30B: An On-Device Agentic Model",
+      "url": "https://huggingface.co/papers/2610.24628",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built fo…",
+      "score": 0
+    },
+    {
+      "id": "77b01a2a2016",
+      "title": "On the Limits of Scale: Inverse Scaling in Vision-Language Models",
+      "url": "https://huggingface.co/papers/2610.27360",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "Scaling laws suggest that increasing model size, training data, and compute generally yields monotonic performance impr…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-21T05:48:13.163Z",
+  "fetchedAt": "2026-10-21T11:05:42.811Z",
   "stale": false,
   "error": null
 }
