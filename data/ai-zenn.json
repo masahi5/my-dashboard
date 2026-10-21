@@ -6,46 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "27789b80e719",
-      "title": "Claude Codeが要約のあと急に話が通じなくなる問題を、自分の発言を読み戻すフックで減らした",
-      "url": "https://zenn.dev/kirinukiauto/articles/4f6e8e15c4a287",
-      "publishedAt": "2026-10-21T19:20:32.000Z",
-      "publisher": "キリヌキ自動化ラボ",
-      "summary": "Claude Code に、YouTube の切り抜き動画づくりをほぼ丸ごと任せています。元動画の取得から書き起こし・字幕・表紙・投稿までを AI が回し、人は最後に公開ボタンを押すだけです。 長い作業を任せていると、ある時から急に話が通…"
-    },
-    {
-      "id": "0be6dbe1825b",
-      "title": "ナレッジ蓄積再考: とりあえず LLM Wiki で始めてよいのでは",
-      "url": "https://zenn.dev/shoyataguchi/articles/12c30399b7df36",
-      "publishedAt": "2026-10-21T17:05:34.000Z",
-      "publisher": "Shoya Taguchi",
-      "summary": "仕事で必要になりそうなので、「継続的ナレッジ蓄積」周辺を今一度調べて整理してみました。既存のプロダクトや主要な手法に加えて、最近の論文の傾向を広く検索したあと、AI と対話しながら、自分なりに理解を深めました。 ナレッジ蓄積というと Gr…"
-    },
-    {
-      "id": "129c85e7dfc0",
-      "title": "曲の構成とは？ヴァースとコーラスの役割を分けてAI作曲を依頼する",
-      "url": "https://zenn.dev/creatunealex/articles/3ce0749159c026",
-      "publishedAt": "2026-10-21T16:22:00.000Z",
-      "publisher": "Alex (Creatune)",
-      "summary": "歌詞を長く書いても、曲に展開が生まれるとは限りません。同じ情報を同じ強さで繰り返すと、サビが来たことを判断しにくくなります。作曲を依頼する前に、各段落が何を伝えるのかを分けてみます。 筆者のAlexはCreatuneチームの一員です。この…"
-    },
-    {
-      "id": "82ad6ab7c197",
-      "title": "使える素材を組み合わせて広告に仕上げる",
-      "url": "https://zenn.dev/followcloud/articles/08a55e224bae32",
-      "publishedAt": "2026-10-21T15:58:29.000Z",
-      "publisher": "followcloud",
-      "summary": "商品写真から動画へ：Everygen AIで考えるシンプルな広告づくり よい商品写真は、それだけで多くのことを伝えています。商品の形、色、素材感、そして印象。そこから動画をつくるときは、もう一つ考えることがあります。何を動かせば、その商品…"
-    },
-    {
-      "id": "482baecb50f2",
-      "title": "情シスのための Claude Code 運用レシピ集",
-      "url": "https://zenn.dev/chukidx_dev/books/claude-code-recipes-joshisu",
-      "publishedAt": "2026-10-21T14:47:18.000Z",
-      "publisher": "中小DXラボ(chukidx)",
-      "summary": "中小企業の情シスが日々の運用で使えるスクリプトを、Claude Code への依頼文・完成したスクリプト・確かめ方のセットでまとめたレシピ集です。各レシピは架空のデータで自動テストを通したものだけを掲載し、毎週1本を目安に追加します。"
-    },
-    {
       "id": "2b037284c1e7",
       "title": "Claude Codeの自動再開のあと、古い画面に入力すると会話が二つに分かれる。送信を止めるフックを作った",
       "url": "https://zenn.dev/twinharness/articles/resume-guard-stale-terminal",
@@ -100,9 +60,49 @@
       "publishedAt": "2026-10-21T12:53:42.000Z",
       "publisher": "かみかわひろし",
       "summary": "はじめに 個人開発・クライアントワークで、AIエージェントを前提としたWeb開発環境を構築するための標準手順。 本格的な機能開発を開始する前に、ローカル環境・GitHub・インフラ・CI/CD・初回デプロイ・公開確認まで完了させる。 これ…"
+    },
+    {
+      "id": "7854dee0607a",
+      "title": "LLMは「何年の情報か」を一貫して認識できているのか？ 米国スタンフォード大学 AI Lab の研究から考える",
+      "url": "https://zenn.dev/syoshida07/articles/56555330b47aa2",
+      "publishedAt": "2026-10-21T12:42:08.000Z",
+      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
+      "summary": "米国スタンフォード大学の Stanford AI Lab(SAIL)は、COLM 2026で発表される研究成果の一つとして Do Language Models Consistently Encode the Current Year? …"
+    },
+    {
+      "id": "bfa512264078",
+      "title": "Claude Code 10月リリースを導入判断で読む：Haiku 5.5・effort指定・hooksのonFailureをどう入れるか",
+      "url": "https://zenn.dev/joinclass/articles/claude-code-oct-2026-release-adoption",
+      "publishedAt": "2026-10-21T12:34:40.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "なぜこの記事を書くのか 当社（合同会社ジョインクラス）では、書籍の執筆、売上集計、朝のダイジェストなどを claude -p のヘッドレス実行で回しています。人が見ていない時間に動くので、Claude Codeのリリースは「便利な新機能」…"
+    },
+    {
+      "id": "76599593d550",
+      "title": "個人開発を、役割ごとの AI ボットと Devin で分担して回したい",
+      "url": "https://zenn.dev/kyto64/articles/ai-bot-dev-env",
+      "publishedAt": "2026-10-21T12:00:09.000Z",
+      "publisher": "kyto64",
+      "summary": "検証環境: 2026 年 10 月時点 ボットの基盤: Grok Bot（役割ごとに複数のボットを立てている） 実装とレビュー: Devin（個人向けの有料プラン） PR レビュー: Codex（自動レビュー＋@codex review）…"
+    },
+    {
+      "id": "7e58b9434ccb",
+      "title": "AI開発が終わらない問題を、ハーネスの視点で考える",
+      "url": "https://zenn.dev/enyugi/articles/8357ee1a1388f1",
+      "publishedAt": "2026-10-21T11:48:40.000Z",
+      "publisher": "enyugi",
+      "summary": "AIにコードを書いてもらえるようになっても、開発を進めるための管理や検証まで、自動でなくなるわけではありません。 私自身、非エンジニアとしてAIでサービスを作り、リリース予定を3か月遅らせても、理想完成の状態に届かなかった経験があります。…"
+    },
+    {
+      "id": "6731af8d97cf",
+      "title": "生成AIにバイナリを解析させる。MCP連携リバースエンジニアリング搭載のC++製ネイティブエディタ「Zume Editor」無料ベータを公開",
+      "url": "https://zenn.dev/smolt_dev/articles/846d9d696f0ca8",
+      "publishedAt": "2026-10-21T11:45:42.000Z",
+      "publisher": "smolt_dev",
+      "summary": "はじめに Zume Editor は、C++ でフルスクラッチ開発しているネイティブのテキスト／コード／バイナリ(HEX)エディタです。描画は Windows が Direct2D/DirectWrite、macOS が Core Tex…"
     }
   ],
-  "fetchedAt": "2026-10-21T19:56:09.218Z",
+  "fetchedAt": "2026-10-21T23:01:27.066Z",
   "stale": false,
   "error": null
 }

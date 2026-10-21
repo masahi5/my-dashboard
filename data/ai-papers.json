@@ -14,14 +14,6 @@
       "score": 9
     },
     {
-      "id": "5698de46ef75",
-      "title": "On the Fragility of Tasks under Composition: Implicit Budgeting in Language Models",
-      "url": "https://huggingface.co/papers/2610.27190",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Modern language models are increasingly asked to handle several tasks within a single prompt. Doing so requires solving…",
-      "score": 7
-    },
-    {
       "id": "04f4a420cc57",
       "title": "Training the Whole Agent, Not Just the Model",
       "url": "https://huggingface.co/papers/2610.28069",
@@ -35,14 +27,6 @@
       "url": "https://huggingface.co/papers/2610.28388",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "summary": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challe…",
-      "score": 4
-    },
-    {
-      "id": "9e6821985b47",
-      "title": "OverSeer: Multi-Agent World Models Beyond What Agents See",
-      "url": "https://huggingface.co/papers/2610.28554",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Despite the success of video world models, extending them to multiple agents is difficult because it requires generatin…",
       "score": 4
     },
     {
@@ -62,12 +46,20 @@
       "score": 3
     },
     {
-      "id": "a377711c0d4d",
-      "title": "HRoPE: Homography Relative Positional Encoding",
-      "url": "https://huggingface.co/papers/2610.28284",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Geometric Relative Positional Encoding has become the primary mechanism for injecting spatial inductive biases into mul…",
-      "score": 3
+      "id": "2521b2873c3f",
+      "title": "ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference",
+      "url": "https://huggingface.co/papers/2610.25519",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "summary": "Test-time scaling (TTS) improves large language model (LLM) reasoning by sampling multiple answers, but fixed sampling …",
+      "score": 1
+    },
+    {
+      "id": "0a251b778335",
+      "title": "What Makes a Good Symbol for Hybrid Discrete-Continuous Planning?",
+      "url": "https://huggingface.co/papers/2610.23010",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "The physical world has continuous state and action spaces, yet robot planning often benefits from hybrid discrete-conti…",
+      "score": 1
     },
     {
       "id": "6f9ee98d3b8a",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-10-19T00:00:00.000Z",
       "summary": "Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from intern…",
       "score": 1
+    },
+    {
+      "id": "39b1e5662dca",
+      "title": "Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2603.19233",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "A fine-tuned Vision-Language-Action (VLA) policy can easily place the alphabet soup in the basket on command, just as i…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-21T19:56:09.017Z",
+  "fetchedAt": "2026-10-21T23:01:26.949Z",
   "stale": false,
   "error": null
 }
