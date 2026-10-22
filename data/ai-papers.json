@@ -6,76 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "1e7d4ac68627",
-      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
-      "url": "https://huggingface.co/papers/2610.26659",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent rep…",
-      "score": 96
-    },
-    {
-      "id": "5753a85a64a9",
-      "title": "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
-      "url": "https://huggingface.co/papers/2610.20538",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Int…",
-      "score": 48
-    },
-    {
-      "id": "d610239692aa",
-      "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
-      "url": "https://huggingface.co/papers/2610.11942",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "summary": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack.…",
-      "score": 16
-    },
-    {
       "id": "056521129ffd",
       "title": "Retrieval Augmented Generation Compositionality",
       "url": "https://huggingface.co/papers/2610.29722",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embe…",
-      "score": 14
+      "score": 23
     },
     {
-      "id": "3a0d065a4f54",
-      "title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
-      "url": "https://huggingface.co/papers/2610.29545",
+      "id": "cc57274b00a1",
+      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+      "url": "https://huggingface.co/papers/2610.30113",
       "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system store…",
-      "score": 11
-    },
-    {
-      "id": "e96271075bc8",
-      "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
-      "url": "https://huggingface.co/papers/2610.28763",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demandi…",
-      "score": 11
-    },
-    {
-      "id": "253734379ef7",
-      "title": "RealMe: Immersive Volumetric Video from Minimal Captures",
-      "url": "https://huggingface.co/papers/2610.30023",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "This paper addresses the problem of creating immersive volumetric videos from sparse and low-resolution capture resourc…",
-      "score": 10
-    },
-    {
-      "id": "b3c9ba9b1f69",
-      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
-      "url": "https://huggingface.co/papers/2610.29560",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual un…",
-      "score": 8
-    },
-    {
-      "id": "f12312889aa8",
-      "title": "CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene Reconstruction",
-      "url": "https://huggingface.co/papers/2610.13177",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Reconstructing 3D scenes from sparse views without per-scene optimization remains highly challenging, especially for re…",
-      "score": 8
+      "summary": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable s…",
+      "score": 20
     },
     {
       "id": "8d33d0618654",
@@ -83,15 +27,7 @@
       "url": "https://huggingface.co/papers/2610.28827",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "summary": "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain …",
-      "score": 6
-    },
-    {
-      "id": "5a118e3a72b8",
-      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
-      "url": "https://huggingface.co/papers/2610.30128",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction hi…",
-      "score": 6
+      "score": 10
     },
     {
       "id": "35688457b732",
@@ -99,10 +35,74 @@
       "url": "https://huggingface.co/papers/2610.28027",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "summary": "Practitioners use reinforcement learning methods for language models through training frameworks, so a method that a fr…",
-      "score": 3
+      "score": 8
+    },
+    {
+      "id": "03a10628f677",
+      "title": "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
+      "url": "https://huggingface.co/papers/2610.28905",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Diffusion language models form answers through a sequence of revisable continuous states, but multi-agent systems usual…",
+      "score": 4
+    },
+    {
+      "id": "87a55a8e8477",
+      "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.28909",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottle…",
+      "score": 4
+    },
+    {
+      "id": "f30c0b9a1389",
+      "title": "Looped Uniform Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.30066",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Uniform diffusion language models (UDLMs) generate text by iteratively denoising sequences of ordinary vocabulary token…",
+      "score": 2
+    },
+    {
+      "id": "7850260ebdda",
+      "title": "RoboCasa-Shift: Stage-Aware Robustness Evaluation of Vision-Language-Action Policies in Long-Horizon Household Manipulation",
+      "url": "https://huggingface.co/papers/2610.27861",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Vision-language-action (VLA) robustness is commonly summarized by aggregate task success, which obscures how individual…",
+      "score": 2
+    },
+    {
+      "id": "0e46962d8681",
+      "title": "Exploring The Empirical Privacy Landscape of Synthetic Data",
+      "url": "https://huggingface.co/papers/2610.22659",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Methods for training language models on sensitive data differ in how they balance capability gains against the risk of …",
+      "score": 2
+    },
+    {
+      "id": "f792d8221730",
+      "title": "Design Anything, Design at Scale",
+      "url": "https://huggingface.co/papers/2610.24771",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "As multimodal resources are transformed into media outputs, agentic AI is expected to stay aligned with design intent o…",
+      "score": 2
+    },
+    {
+      "id": "f9a9e37e4b16",
+      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
+      "url": "https://huggingface.co/papers/2610.29934",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under un…",
+      "score": 1
+    },
+    {
+      "id": "1a1869f189ef",
+      "title": "VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents",
+      "url": "https://huggingface.co/papers/2610.28679",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "Agents need reliable ways to validate their outputs, both when completing tasks and when filtering synthetic training d…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-22T12:27:13.845Z",
+  "fetchedAt": "2026-10-22T17:29:29.595Z",
   "stale": false,
   "error": null
 }

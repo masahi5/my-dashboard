@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "a4678ed6e42a",
-      "title": "noteの記事が「AIが書いた文」に見えるかを、伸びた99本と同じ物差しで測る門を作った",
-      "url": "https://zenn.dev/kirinukiauto/articles/f705379439e704",
-      "publishedAt": "2026-10-22T03:00:13.000Z",
-      "publisher": "キリヌキ自動化ラボ",
-      "summary": "Claude Code に、YouTube の切り抜きチャンネルの運営と、その記録を書く note の記事づくりを任せています。 note の記事は8本で合計47ビューでした。1本あたり約6回です。少なすぎるので、note が記事をどう人…"
+      "id": "d122a9b09b17",
+      "title": "Claude CodeにFLOCSSのルールを覚えさせて、WordPressテーマを作る",
+      "url": "https://zenn.dev/yuichiroh/articles/87a35f53b4eda3",
+      "publishedAt": "2026-10-22T16:53:40.000Z",
+      "publisher": "yuichiro.hayakawa",
+      "summary": "この記事で分かること Claude Codeに、CSS設計（FLOCSS）のルールを毎回守らせる方法 CLAUDE.md に書いたルールの実例（SCSS・HTML・画像の命名まで） WordPressテーマを作るときに、ルールを決めておく…"
     },
     {
-      "id": "c36fd169d827",
-      "title": "Claude Codeの「tool call could not be parsed」はなぜ連鎖するのか",
-      "url": "https://zenn.dev/devlog/articles/96c6dd5af3bcd1",
-      "publishedAt": "2026-10-22T03:00:05.000Z",
-      "publisher": "Sato Kotaro",
-      "summary": "Claude Codeで長めの作業をしていると、ある時点からこの表示が出始めることがあります。 The model's tool call could not be parsed (retry also failed). 厄介なのは、一度…"
+      "id": "41ae6c7f299d",
+      "title": "Good Old Days：Web 開発の 30 年をスクロールで振り返る",
+      "url": "https://zenn.dev/kfess/articles/09359fbf7de3db",
+      "publishedAt": "2026-10-22T15:40:01.000Z",
+      "publisher": "kfess",
+      "summary": "https://kfess.github.io/good-old-days/?lang=ja 1995 年から 2026 年までの Web 開発を、スクロールで振り返るページを作ってみました。 PHP + MySQL のアクセスカウンター…"
     },
     {
-      "id": "f943382ada51",
-      "title": "tsc-rsは最速ではない?OpenAI数学719本と売上500億ドルの読み方",
-      "url": "https://zenn.dev/ainewsdaily/articles/20261017_general_t1",
-      "publishedAt": "2026-10-22T02:16:59.000Z",
-      "publisher": "AIニュース",
-      "summary": "2026年10月5日から11日の週のAI関連ニュースから、手を動かす人にも経営側にも影響が大きい3本を選んでまとめた記事です。取り上げるのは、LLMが移植したTypeScriptの型チェッカー「tsc-rs」、OpenAIが公開した数学の…"
+      "id": "bec00f20ee35",
+      "title": "AIリップシンク動画で口の動きがずれる原因と改善方法",
+      "url": "https://zenn.dev/hiiiii/articles/6600d3986c2f20",
+      "publishedAt": "2026-10-22T15:36:23.000Z",
+      "publisher": "hikari",
+      "summary": "AIを使って人物が話す動画を作成するとき、音声と口の動きがうまく合わないことがあります。音声が始まる前に口が動いたり、セリフが終わっているのに口が動き続けたり、特定のフレームだけ顔の形が不自然になったりするケースです。 このような問題は、…"
     },
     {
-      "id": "f684cdda78b1",
-      "title": "Claude Code の hook はパスの打ち間違いで素通しになる — onFailure で止める",
-      "url": "https://zenn.dev/husenn/articles/claude-code-hook-path-typo",
-      "publishedAt": "2026-10-22T02:01:04.000Z",
-      "publisher": "Oskra",
-      "summary": "この記事で分かること 守りの hook は、登録したパスを 1 文字間違えるだけで動かなくなり、止めたいコマンドがそのまま実行されること 自分の設定が今その状態になっていないか、この記事の手順で数分で確かめられます 設定に 1 行足すと、…"
+      "id": "79518f5a2548",
+      "title": "Claude Codeと作る 間取り3D内見ツール ── 図面読み取りから搬入チェックまで",
+      "url": "https://zenn.dev/yuya26_ai/books/bc2f4d1d552613",
+      "publishedAt": "2026-10-22T14:16:32.000Z",
+      "publisher": "yuya|AIで作って自動化する人",
+      "summary": "手元にあるのは間取り図の画像1枚だけ。それでも、部屋の広さや見え方、ソファが玄関を通るかを知りたい ──そんな引っ越しの悩みを、技術で解きます。間取りのデータ設計、Three.jsでの3D化、一人称の内見、塗つぶしによる部屋の領域分割、A…"
     },
     {
-      "id": "5624227b15ef",
-      "title": "確定申告アプリ、まだ要る？ 帳簿と決算書の数字まで Claude Code で作る",
-      "url": "https://zenn.dev/fukudev/articles/0af4f591f369be",
-      "publishedAt": "2026-10-22T01:32:35.000Z",
-      "publisher": "fukudev",
-      "summary": "はじめに 個人事業主として、日々の記帳とかはもっぱら Claude Code にやらせている。経費のレシートの仕分けと集計、売上の記録、ふるさと納税や社会保険料など控除の書類の整理、所得税・住民税・ふるさと納税の上限などの税額の試算、それ…"
+      "id": "53ae4814a4c4",
+      "title": "知識グラフ化ツールGraphifyでgrep/Readを置き換えたら、トークンは何倍減るのか実測した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-023-knowledge-graph-vs-grep-token-cost",
+      "publishedAt": "2026-10-22T14:05:17.000Z",
+      "publisher": "matsu",
+      "summary": "これは何の話か 海外AIネタ100日チャレンジDay 023。今回取り上げるのはGraphify-Labs/graphify(PyPI配布名はgraphifyy、ダブルyなので注意)。 コード・ドキュメント・SQLスキーマ・設定ファイルな…"
     },
     {
-      "id": "e312545623a9",
-      "title": "CLAUDE.md は索引にして、決まりだけは本文に残す：4つの置き方を測った話",
-      "url": "https://zenn.dev/yamato_snow/articles/claude-md-index-design",
-      "publishedAt": "2026-10-22T01:00:38.000Z",
-      "publisher": "やまと",
-      "summary": "CLAUDE.md が、気づいたら長くなっていませんか？ 決めたこと、手順、昔の経緯も、書いておきたくなりますよね。 「AI に覚えておいてほしいこと」を足していくと、CLAUDE.md はどんどん育ちます。 私の作業用のリポジトリでも、…"
+      "id": "8dd089d1da7f",
+      "title": "AI に記事を29本まとめて書かせたら、もっともらしい間違いが24か所混ざっていた",
+      "url": "https://zenn.dev/claire_ai/articles/kiji-kenshu-iriguchi",
+      "publishedAt": "2026-10-22T13:47:22.000Z",
+      "publisher": "クレア",
+      "summary": "一晩で、AI（Claude Code）に記事の下書きを29本書かせた。2時間ほどで、画像104枚、合わせて約9.6万字。読み返すと、どれもそれらしく書けていた。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いてい…"
     },
     {
-      "id": "4d1d16704612",
-      "title": "「Claude が私のコードの大半を書く」Anthropic 研究者回はどれが伸びるか（#38予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr38-ameisen-prediction",
-      "publishedAt": "2026-10-22T01:00:09.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
+      "id": "6e4341ec85ff",
+      "title": "AIが作り、AIが配信し、AIが落ちる — 誰も見ていないシステムの品質保証",
+      "url": "https://zenn.dev/orca_forge/articles/qa-and-soak-testing-for-unattended-ai",
+      "publishedAt": "2026-10-22T13:07:53.000Z",
+      "publisher": "orca_forge",
+      "summary": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。 AI アバターが YouTube と Twitch に無人で配信し続けるシステムを作りました。番組を登録しておけば、時間になると配信枠が作られ、GPU…"
     },
     {
-      "id": "874b221bf831",
-      "title": "会話の続きはどこで持つ？ — Slack × Docker Agent × Cloud Run で試した話",
-      "url": "https://zenn.dev/xtm_blog/articles/docker-agent-conversation-cloud-run",
-      "publishedAt": "2026-10-22T01:00:07.000Z",
-      "publisher": "kitadesign",
-      "summary": "はじめに こんにちは、Foundation Dept.の北澤です！ 前回の記事では、開発基盤に Docker Agent を採用した話をご紹介しました！ https://zenn.dev/xtm_blog/articles/b9993fe…"
+      "id": "4cb13c00e354",
+      "title": "【リベンジ検証】Gemini 4 ArgonでUIマニュアルの「枠線オーバーレイ」を自動化したら劇的進化した話",
+      "url": "https://zenn.dev/chililikobo/articles/da1f0dc81346bc",
+      "publishedAt": "2026-10-22T12:48:57.000Z",
+      "publisher": "chilili kobo",
+      "summary": "個人開発アプリのドキュメント作成を効率化するため、自作のキャプチャツール「ClickCapture」とマルチモーダルAIを活用した「セットアップマニュアル（PDF）の自動生成」を検証しています。 前回、Gemini 3.5 Flash L…"
     },
     {
-      "id": "0bec8fbefae1",
-      "title": "AIを活用して完全自動で電子回路基板をつくってみた",
-      "url": "https://zenn.dev/nobkat/articles/008ai-generated-pcb",
-      "publishedAt": "2026-10-22T00:58:00.000Z",
-      "publisher": "Nobkat",
-      "summary": "はじめに ソフトウェア開発の現場ではすでにAIでかなりのところまで自動化が進んできました。人間はほぼレビューするだけのような状況です。電子回路基板設計もAIをつかって自動化できるのではないかと考え、試してみました。基板設計をテキストベース…"
+      "id": "2c449898df5c",
+      "title": "Agentの思考量に応じてキーボードを\"カチャカチャ\" 鳴らそう",
+      "url": "https://zenn.dev/yuuki0206/articles/72eb6c94e58e6b",
+      "publishedAt": "2026-10-22T12:35:04.000Z",
+      "publisher": "yuuki0206",
+      "summary": "Claude Code に仕事を投げたあと、ターミナルの Thinking... をぼーっと眺めている時間、ありませんか。 自分はかなりあります。で、ある日思いました。 「これ、横で誰かがタイピングしてる音がしたら、ちょっと楽しくない？」…"
     },
     {
-      "id": "38936fa93a79",
-      "title": "Nvidia記事で『動的な異常検知は0個』と書いた2日後、自分のタスクが外部の分類器に2回ブロックされていた",
-      "url": "https://zenn.dev/hideki_tamae/articles/exfil-scouting-correction",
-      "publishedAt": "2026-10-22T00:46:41.000Z",
-      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
-      "summary": "はじめに 0。 2026年10月2日に自分が書いた記事で、「このパイプラインを、自分の判断を介さず外部から動的に止める仕組みは0個だった」と結論づけました。今日、その数字を訂正しなければならない出来事が、このまさに今の記事を書いている最中…"
+      "id": "eb9eb9a96cfe",
+      "title": "『php2shell』に感じた違和感――パッチ公開前の注意喚起と協調開示",
+      "url": "https://zenn.dev/covanew/articles/83442db846dd19",
+      "publishedAt": "2026-10-22T12:16:28.000Z",
+      "publisher": "covanew",
+      "summary": "2026年10月21日、PHPの深刻な脆弱性「php2shell」（CVE-2026-109618 / CVE-2026-109619）に対する修正パッチが公開された。 二つの脆弱性はいずれもCVSS v4.0で9.2と評価され、条件によ…"
     },
     {
-      "id": "e22272fd5ee9",
-      "title": "世界初、ニューラルネットワークなしのLLMを実装してみた話",
-      "url": "https://zenn.dev/gatchimuchio/articles/d962c25148e4e0",
-      "publishedAt": "2026-10-22T00:35:41.000Z",
-      "publisher": "がっちむち♂",
-      "summary": "世界初、ニューラルネットワークなしのLLMを実装してみた話 はじめに ニューラルネットワークを使わずにLLMを作りました。 Transformerも使っていません。 しかも、科学分野の難問ベンチマーク「GPQA Diamond」で、**正…"
+      "id": "1c92a704d013",
+      "title": "Claude Code の「キックオフ・テンプレート」を作った話 — INTENT.md から始める",
+      "url": "https://zenn.dev/edy0327/articles/0904af94c91943",
+      "publishedAt": "2026-10-22T12:08:14.000Z",
+      "publisher": "edy0327",
+      "summary": "はじめに Claude Code で個人開発を進めるとき、CLAUDE.md・役割別サブエージェント・カスタムコマンドをプロジェクトごとに毎回手作りしていました。2つ目のプロジェクトを始める前に、空のフォルダで claude を起動して貼…"
     },
     {
-      "id": "1c01ba2a635f",
-      "title": "話題の爆速LLM「MiniMax M3.1 Flash」の実力とは？特徴とPythonでの実装例",
-      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-20-0057",
-      "publishedAt": "2026-10-22T00:30:41.000Z",
-      "publisher": "田中根小介",
-      "summary": "最近、海外のテックコミュニティ（Hacker News等）で大きな話題を呼んでいるAIモデル 「MiniMax M3.1 Flash」 をご存知でしょうか？ 生成AIサービスをプロダクション環境に組み込む際、多くのエンジニアが直面するのが…"
+      "id": "42fc69cbf3dd",
+      "title": "AIの「テストは成功しました」を鵜呑みにしない：実施範囲と未実施を分けて報告させる",
+      "url": "https://zenn.dev/madao1981/articles/20261017-ai-test-report-scope",
+      "publishedAt": "2026-10-22T11:00:07.000Z",
+      "publisher": "kojikoji_tech",
+      "summary": "AIに作業を頼むと、最後に「テストは成功しました」と返ってくることがあります。ただ、その一言だけでは、どこで・何を・どのデータで確かめた「成功」なのかが分かりません。 結論 テストの報告を「実施したこと／実施していないこと／結果」の3つに…"
     }
   ],
-  "fetchedAt": "2026-10-22T12:27:14.017Z",
+  "fetchedAt": "2026-10-22T17:29:30.266Z",
   "stale": false,
   "error": null
 }
