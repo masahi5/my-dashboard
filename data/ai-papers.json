@@ -6,35 +6,19 @@
   "category": "ai",
   "items": [
     {
-      "id": "056521129ffd",
-      "title": "Retrieval Augmented Generation Compositionality",
-      "url": "https://huggingface.co/papers/2610.29722",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embe…",
-      "score": 23
-    },
-    {
       "id": "cc57274b00a1",
       "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
       "url": "https://huggingface.co/papers/2610.30113",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "summary": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable s…",
-      "score": 20
+      "score": 21
     },
     {
-      "id": "8d33d0618654",
-      "title": "WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State",
-      "url": "https://huggingface.co/papers/2610.28827",
+      "id": "c23faf0432be",
+      "title": "StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion",
+      "url": "https://huggingface.co/papers/2610.28940",
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "We present WorldStream, an open-ended 3D world model with three simultaneous capabilities: it extends playable terrain …",
-      "score": 10
-    },
-    {
-      "id": "35688457b732",
-      "title": "From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source Training Frameworks",
-      "url": "https://huggingface.co/papers/2610.28027",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Practitioners use reinforcement learning methods for language models through training frameworks, so a method that a fr…",
+      "summary": "Voice style conversion (VSC) aims to transform a source utterance to match the timbre, accent, and emotion of a target …",
       "score": 8
     },
     {
@@ -43,7 +27,15 @@
       "url": "https://huggingface.co/papers/2610.28905",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "summary": "Diffusion language models form answers through a sequence of revisable continuous states, but multi-agent systems usual…",
-      "score": 4
+      "score": 7
+    },
+    {
+      "id": "f9a9e37e4b16",
+      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
+      "url": "https://huggingface.co/papers/2610.29934",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under un…",
+      "score": 7
     },
     {
       "id": "87a55a8e8477",
@@ -51,6 +43,22 @@
       "url": "https://huggingface.co/papers/2610.28909",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "summary": "Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottle…",
+      "score": 6
+    },
+    {
+      "id": "ae24172f3f52",
+      "title": "Language Models Learn to Improve Language Models",
+      "url": "https://huggingface.co/papers/2610.23344",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Large language models (LLMs) are increasingly used to automate AI research, including language-model (LM) development, …",
+      "score": 5
+    },
+    {
+      "id": "1a1869f189ef",
+      "title": "VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents",
+      "url": "https://huggingface.co/papers/2610.28679",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "Agents need reliable ways to validate their outputs, both when completing tasks and when filtering synthetic training d…",
       "score": 4
     },
     {
@@ -59,6 +67,30 @@
       "url": "https://huggingface.co/papers/2610.30066",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "summary": "Uniform diffusion language models (UDLMs) generate text by iteratively denoising sequences of ordinary vocabulary token…",
+      "score": 4
+    },
+    {
+      "id": "0e46962d8681",
+      "title": "Exploring The Empirical Privacy Landscape of Synthetic Data",
+      "url": "https://huggingface.co/papers/2610.22659",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Methods for training language models on sensitive data differ in how they balance capability gains against the risk of …",
+      "score": 3
+    },
+    {
+      "id": "f792d8221730",
+      "title": "Design Anything, Design at Scale",
+      "url": "https://huggingface.co/papers/2610.24771",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "As multimodal resources are transformed into media outputs, agentic AI is expected to stay aligned with design intent o…",
+      "score": 3
+    },
+    {
+      "id": "cf255a25c821",
+      "title": "FrontierCS 2: A Benchmark for Computer Science R&D",
+      "url": "https://huggingface.co/papers/2610.29932",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Can LLM agents make contributions to frontier computer science R&D? We introduce FrontierCS 2, a benchmark of 48 open-e…",
       "score": 2
     },
     {
@@ -68,41 +100,9 @@
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "summary": "Vision-language-action (VLA) robustness is commonly summarized by aggregate task success, which obscures how individual…",
       "score": 2
-    },
-    {
-      "id": "0e46962d8681",
-      "title": "Exploring The Empirical Privacy Landscape of Synthetic Data",
-      "url": "https://huggingface.co/papers/2610.22659",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Methods for training language models on sensitive data differ in how they balance capability gains against the risk of …",
-      "score": 2
-    },
-    {
-      "id": "f792d8221730",
-      "title": "Design Anything, Design at Scale",
-      "url": "https://huggingface.co/papers/2610.24771",
-      "publishedAt": "2026-10-17T00:00:00.000Z",
-      "summary": "As multimodal resources are transformed into media outputs, agentic AI is expected to stay aligned with design intent o…",
-      "score": 2
-    },
-    {
-      "id": "f9a9e37e4b16",
-      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
-      "url": "https://huggingface.co/papers/2610.29934",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under un…",
-      "score": 1
-    },
-    {
-      "id": "1a1869f189ef",
-      "title": "VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents",
-      "url": "https://huggingface.co/papers/2610.28679",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Agents need reliable ways to validate their outputs, both when completing tasks and when filtering synthetic training d…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-22T17:29:29.595Z",
+  "fetchedAt": "2026-10-22T20:43:59.592Z",
   "stale": false,
   "error": null
 }

@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "d122a9b09b17",
-      "title": "Claude CodeにFLOCSSのルールを覚えさせて、WordPressテーマを作る",
-      "url": "https://zenn.dev/yuichiroh/articles/87a35f53b4eda3",
-      "publishedAt": "2026-10-22T16:53:40.000Z",
-      "publisher": "yuichiro.hayakawa",
-      "summary": "この記事で分かること Claude Codeに、CSS設計（FLOCSS）のルールを毎回守らせる方法 CLAUDE.md に書いたルールの実例（SCSS・HTML・画像の命名まで） WordPressテーマを作るときに、ルールを決めておく…"
-    },
-    {
       "id": "41ae6c7f299d",
       "title": "Good Old Days：Web 開発の 30 年をスクロールで振り返る",
       "url": "https://zenn.dev/kfess/articles/09359fbf7de3db",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-10-22T11:00:07.000Z",
       "publisher": "kojikoji_tech",
       "summary": "AIに作業を頼むと、最後に「テストは成功しました」と返ってくることがあります。ただ、その一言だけでは、どこで・何を・どのデータで確かめた「成功」なのかが分かりません。 結論 テストの報告を「実施したこと／実施していないこと／結果」の3つに…"
+    },
+    {
+      "id": "831ba213593e",
+      "title": "AIレビューの指摘は、どこで直すのを止めるか",
+      "url": "https://zenn.dev/miyakona/articles/review-findings-stop-by-impact",
+      "publishedAt": "2026-10-22T10:41:50.000Z",
+      "publisher": "miyakona",
+      "summary": "AIエージェントがPRを作り、Copilotのコードレビューを受け、指摘を直して再レビューを依頼する。その手順を「追加の指摘がなくなるまで」繰り返していました。私が実現したかったのは、人間が毎回コメントを中継しなくても、AIエージェントが…"
     }
   ],
-  "fetchedAt": "2026-10-22T17:29:30.266Z",
+  "fetchedAt": "2026-10-22T20:43:59.744Z",
   "stale": false,
   "error": null
 }
