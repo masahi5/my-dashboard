@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c7ab74eb5e37",
-      "title": "EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents",
-      "url": "https://huggingface.co/papers/2610.16523",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Training LLM agents to interact with users over multiple turns is challenging because the learning signal depends not o…",
-      "score": 9
+      "id": "a531cf922981",
+      "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+      "url": "https://huggingface.co/papers/2610.29997",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation an…",
+      "score": 15
     },
     {
-      "id": "980f27dc3cc1",
-      "title": "Ask to Distill: Learning to Synthesize Data for On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2610.27450",
+      "id": "f90e47ed93e1",
+      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "url": "https://huggingface.co/papers/2610.28698",
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) can succeed with surprisingly few training questions, motivating a view of questions as ca…",
-      "score": 7
+      "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse exper…",
+      "score": 15
     },
     {
-      "id": "cd5cfd9e66ba",
-      "title": "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
-      "url": "https://huggingface.co/papers/2610.28388",
+      "id": "e833e35c8868",
+      "title": "TraceForge: Distilling with Your Own Thinking",
+      "url": "https://huggingface.co/papers/2610.29680",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common p…",
+      "score": 13
+    },
+    {
+      "id": "b46b04b73ef9",
+      "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+      "url": "https://huggingface.co/papers/2610.30108",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-u…",
+      "score": 12
+    },
+    {
+      "id": "5753a85a64a9",
+      "title": "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
+      "url": "https://huggingface.co/papers/2610.20538",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Int…",
+      "score": 8
+    },
+    {
+      "id": "e96271075bc8",
+      "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+      "url": "https://huggingface.co/papers/2610.28763",
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challe…",
+      "summary": "Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demandi…",
       "score": 5
     },
     {
-      "id": "04f4a420cc57",
-      "title": "Training the Whole Agent, Not Just the Model",
-      "url": "https://huggingface.co/papers/2610.28069",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Training coding agents typically updates the policy while keeping the harness fixed. During training, trajectories reve…",
+      "id": "253734379ef7",
+      "title": "RealMe: Immersive Volumetric Video from Minimal Captures",
+      "url": "https://huggingface.co/papers/2610.30023",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "This paper addresses the problem of creating immersive volumetric videos from sparse and low-resolution capture resourc…",
       "score": 4
     },
     {
-      "id": "a15353740120",
-      "title": "On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs",
-      "url": "https://huggingface.co/papers/2610.23400",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Large language models often answer factual questions incorrectly in closed-book settings, and such errors are usually a…",
-      "score": 3
+      "id": "5a118e3a72b8",
+      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+      "url": "https://huggingface.co/papers/2610.30128",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction hi…",
+      "score": 4
     },
     {
-      "id": "e1a84c3a698f",
-      "title": "Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models",
-      "url": "https://huggingface.co/papers/2610.28074",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "As a prototypical latent world model, Joint-Embedding Predictive Architectures (JEPAs) provide strong semantic represen…",
-      "score": 3
+      "id": "dbd80e49fced",
+      "title": "SpatialBrain: Spatial Intelligence Growing from Experience",
+      "url": "https://huggingface.co/papers/2610.29317",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Spatial reasoning requires more than access to geometric tools: a reasoner must decide when direct observation is suffi…",
+      "score": 4
     },
     {
-      "id": "2521b2873c3f",
-      "title": "ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference",
-      "url": "https://huggingface.co/papers/2610.25519",
-      "publishedAt": "2026-10-18T00:00:00.000Z",
-      "summary": "Test-time scaling (TTS) improves large language model (LLM) reasoning by sampling multiple answers, but fixed sampling …",
+      "id": "3a0d065a4f54",
+      "title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
+      "url": "https://huggingface.co/papers/2610.29545",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system store…",
       "score": 2
     },
     {
-      "id": "0a251b778335",
-      "title": "What Makes a Good Symbol for Hybrid Discrete-Continuous Planning?",
-      "url": "https://huggingface.co/papers/2610.23010",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "The physical world has continuous state and action spaces, yet robot planning often benefits from hybrid discrete-conti…",
-      "score": 1
-    },
-    {
-      "id": "6f9ee98d3b8a",
-      "title": "BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks",
-      "url": "https://huggingface.co/papers/2610.25459",
-      "publishedAt": "2026-10-18T00:00:00.000Z",
-      "summary": "Bimanual manipulation with dexterous hands has attracted growing attention in research on robotic action models. Howeve…",
-      "score": 1
-    },
-    {
-      "id": "09e5cbd15fb6",
-      "title": "Axiomatic World Modeling for Physics Reasoning",
-      "url": "https://huggingface.co/papers/2610.24519",
-      "publishedAt": "2026-10-17T00:00:00.000Z",
-      "summary": "Recent research-level physics-reasoning benchmarks for LLMs reveal a failure mode that lies not in knowledge or executi…",
-      "score": 1
-    },
-    {
-      "id": "7e96bdb09b58",
-      "title": "World Models with Configurable Perception",
-      "url": "https://huggingface.co/papers/2610.27914",
+      "id": "3f362c9ae9a6",
+      "title": "Answering in the User's Variety: Calibrated Accommodation Pairs for Post-Training",
+      "url": "https://huggingface.co/papers/2610.28474",
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Real-world observations are noisy and often contain excessive task-irrelevant information. Effective world modeling and…",
-      "score": 1
+      "summary": "People adapt how they talk to the person in front of them. However, chat models tend to respond in Standard English reg…",
+      "score": 2
     },
     {
-      "id": "39b1e5662dca",
-      "title": "Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2603.19233",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "A fine-tuned Vision-Language-Action (VLA) policy can easily place the alphabet soup in the basket on command, just as i…",
-      "score": 0
+      "id": "6aa4b8109c9f",
+      "title": "Entertain, then Cancel: How Thinking Makes Reasoning Models Read Some and Or Literally",
+      "url": "https://huggingface.co/papers/2610.21204",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "When a speaker says ``some students passed'', listeners infer that not all of them did. Reasoning models now let users …",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-10-22T01:30:11.275Z",
+  "fetchedAt": "2026-10-22T06:31:54.975Z",
   "stale": false,
   "error": null
 }

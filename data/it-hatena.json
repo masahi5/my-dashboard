@@ -6,52 +6,12 @@
   "category": "callcenter",
   "items": [
     {
-      "id": "4d3455287caa",
-      "title": "修正予告されたPHPの2件の深刻な脆弱性についてまとめてみた - piyolog",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/21/174516",
-      "publishedAt": "2026-10-21T08:57:42.000Z",
-      "summary": "2026年10月20日、PHPの開発元であるThe PHP Groupのセキュリティチームは、PHPの深刻な脆弱性2件を修正するセキュリティリリースを予告しました。ここでは関連する情報をまとめます。…",
-      "score": 683
-    },
-    {
-      "id": "cdcf0f71b662",
-      "title": "【PHP脆弱性php2shell】パッチは21:59に公開済み。「23:15から乗っ取り」「15分でAIが攻撃コード？」は本当か、自分のVPSのログで検証（CVE-2026-109618／109619）：秋山大志のそれとりあえず作ってみようか。：オルタナティブ・ブログ",
-      "url": "https://blogs.itmedia.co.jp/agile/2026/10/php2shell_cve_2026_109618_panic.html",
-      "publishedAt": "2026-10-21T14:07:21.000Z",
-      "summary": "【PHP脆弱性php2shell】パッチは21:59に公開済み。「23:15から乗っ取り」「15分でAIが攻撃コード？」は本当か、自分のVPSのログで検証（CVE-2026-109618／10961…",
-      "score": 210
-    },
-    {
-      "id": "39b5e906a8c3",
-      "title": "これが視界に入った瞬間、1秒以内に「AIだ！」と思ったけど我々は一体何に「AIっぽさ」を感じているのか→文字や色味以外にも判別ポイントがある？",
-      "url": "https://togetter.com/li/2761175",
-      "publishedAt": "2026-10-21T13:05:29.000Z",
-      "summary": "これが視界に入った瞬間、1秒以内に「AIだ！」と思ったけど我々は一体何に「AIっぽさ」を感じているのか→文字や色味以外にも判別ポイントがある？",
-      "score": 121
-    },
-    {
-      "id": "2ca908d7f8e7",
-      "title": "3年前に退職したところから「なんでPHPで作ったんだ！今すぐ来い！」って電話あったけど、どこに相談したらいいの？労基？→あるエンジニアに起きた災難に「笑えない」",
-      "url": "https://togetter.com/li/2761260",
-      "publishedAt": "2026-10-21T19:27:17.000Z",
-      "summary": "国家サイバー統括室(注意・警戒情報) @cyber_forecast PHPのセキュリティチームが、重大な２件の脆弱性に関する注意喚起を行っています。公開しているウェブサイトでPHPを使用しているか…",
-      "score": 99
-    },
-    {
-      "id": "c91dc5dfc03d",
-      "title": "PHPの重大脆弱性「PHP2Shell」はセキュリティ企業のCalifとWizがAIを用いて発見しOpenAIの枠組みを使って対策したことが判明",
-      "url": "https://gigazine.net/news/20261022-php2shell-wiz-openai-calif/",
-      "publishedAt": "2026-10-21T15:19:11.000Z",
-      "summary": "プログラミング言語のPHPに「PHP2Shell」と呼ばれる重大な脆弱性が見つかり、緊急アップデートがリリースされました。「PHP2Shell」の2つの脆弱性は、セキュリティ企業のCalifとWiz…",
-      "score": 98
-    },
-    {
       "id": "eac28695e88a",
       "title": "高市総理「大至急、PHPパッチ適用を」Xで異例の要請 エンジニアは評価「経営層に伝わる」",
       "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002483/",
       "publishedAt": "2026-10-21T22:16:49.000Z",
       "summary": "「今夜に対応して頂きたい大至急のお願い」――高市早苗首相は10月21日午後10時前、自身のXアカウントで、PHPの「緊急」の脆弱性について、修正パッチを「可及的速やかに適用できる準備」をするよう求め…",
-      "score": 87
+      "score": 300
     },
     {
       "id": "b4da12b64f8b",
@@ -59,22 +19,30 @@
       "url": "https://www.itmedia.co.jp/aiplus/article/2610/21/2000002475/",
       "publishedAt": "2026-10-21T12:22:50.000Z",
       "summary": "デジタル庁が、Excelファイルなどが“機械にとって読みやすいか”を判定するツール「Harunobu」を公開している。紙に印刷した際のレイアウトを優先してセル結合などを多用した、いわゆる「神Exce…",
-      "score": 76
+      "score": 253
     },
     {
-      "id": "5ae1819d713f",
-      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
-      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-      "publishedAt": "2026-10-21T14:53:13.000Z",
-      "summary": "Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. These releases fix …",
-      "score": 73
+      "id": "b290c2524369",
+      "title": "仕組みを理解する動画を、Claude Codeに作らせると便利すぎる",
+      "url": "https://zenn.dev/explaza/articles/c749042ecbe232",
+      "publishedAt": "2026-10-21T19:34:57.000Z",
+      "summary": "最近は動画で説明資料を作っている アプリの仕組みをお客さんに説明するとき、構成図とかHTML・Markdownで、説明するのが一般的かと思いますが 最近はjavascriptを用いて、Claudeで…",
+      "score": 239
     },
     {
       "id": "fa7e9e337330",
       "title": "「Apache Tomcat」に最大深刻度“CRITICAL”の脆弱性 ～v9 / v10 / v11系統に修正版／",
       "url": "https://forest.watch.impress.co.jp/docs/news/2150161.html",
       "publishedAt": "2026-10-21T23:31:06.000Z",
-      "score": 57
+      "score": 213
+    },
+    {
+      "id": "2ca908d7f8e7",
+      "title": "3年前に退職したところから「なんでPHPで作ったんだ！今すぐ来い！」って電話あったけど、どこに相談したらいいの？労基？→あるエンジニアに起きた災難に「笑えない」",
+      "url": "https://togetter.com/li/2761260",
+      "publishedAt": "2026-10-21T19:27:17.000Z",
+      "summary": "国家サイバー統括室(注意・警戒情報) @cyber_forecast PHPのセキュリティチームが、重大な２件の脆弱性に関する注意喚起を行っています。公開しているウェブサイトでPHPを使用しているか…",
+      "score": 160
     },
     {
       "id": "917512baf876",
@@ -82,7 +50,46 @@
       "url": "https://www.sem-r.com/entry/20261022/1792605105",
       "publishedAt": "2026-10-21T18:03:07.000Z",
       "summary": "サイトメンテナンス時の正しいHTTP応答 緊急メンテ当日に各社の対応を調べてわかったこと なぜメンテナンス時のHTTP応答が重要なのか 必須事項 やらないと検索結果掲載に問題が発生する可能性があるも…",
-      "score": 49
+      "score": 105
+    },
+    {
+      "id": "8b41225be90e",
+      "title": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定",
+      "url": "https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html",
+      "publishedAt": "2026-10-21T14:50:46.000Z",
+      "summary": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート…",
+      "score": 88
+    },
+    {
+      "id": "e979c76884fc",
+      "title": "【速報：2026/10/22 04:00】PHP2Shellの対応状況まとめ：PHP本体、Linux、レンタルサーバ、KUSANAGI",
+      "url": "https://zenn.dev/tyamadadd/articles/c02a27af771dd2",
+      "publishedAt": "2026-10-21T20:01:05.000Z",
+      "summary": "PHPerの皆様、お疲れさまでした。 少し体力が残っているので、現在の対応状況をまとめてみました。 生成AIでまとめたものを当方で確認しております。 また気になる追加情報を補足に追加しました。 20…",
+      "score": 75
+    },
+    {
+      "id": "bdd8273b828b",
+      "title": "本来116桁の秘密鍵がたった3桁 インド認証局の一部中間CA証明書にミス",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2150099.html",
+      "publishedAt": "2026-10-21T21:42:08.000Z",
+      "score": 74
+    },
+    {
+      "id": "fcd5a53bc575",
+      "title": "php2shellに感じたサイバー空間の『ドント・ルック・アップ』からサーバーの戸締りに至る空気の変遷 - 太陽がまぶしかったから",
+      "url": "https://www.du-soleil.com/entry/php2shell-emergency-maintenance-dont-look-up",
+      "publishedAt": "2026-10-22T01:03:19.000Z",
+      "summary": "昼休みに感じた不穏な煙と焦燥 昨日の昼休み、一息つこうと思って何気なくXを開いたとき、タイムラインの片隅に流れるざわざわとした空気が目にとまった。お昼休みののんきな雑談やランチの投稿の合間に、セキュ…",
+      "score": 68
+    },
+    {
+      "id": "7c65f8ea1f0b",
+      "title": "大阪大、学生など7.8万人の情報漏えい NECが無断で協力会社とデータ共有",
+      "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002491/",
+      "publishedAt": "2026-10-22T01:44:37.000Z",
+      "summary": "大阪大学（阪大）は10月21日、全学教育用電子計算機システムの運用を委託しているNECから、卒業生や在学生、教職員の計7万7851人分の個人情報が漏えいしたと発表した。 NECは、大学に報告していな…",
+      "score": 65
     },
     {
       "id": "a0f0b6d92c51",
@@ -90,18 +97,10 @@
       "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002480/",
       "publishedAt": "2026-10-21T16:04:10.000Z",
       "summary": "プログラミング言語「PHP」開発プロジェクトは10月21日（協定世界時）、「緊急」レベルの脆弱性2件を修正したPHP 8.5.12／8.4.27／8.3.36／8.2.35を公開したと発表した。20…",
-      "score": 48
-    },
-    {
-      "id": "7109144bf332",
-      "title": "「客を一切信用してなくてワロける」ドラッグストアコスモスの防犯カメラの多さが話題に→「むしろ信頼できる」「これでも少ない店舗」",
-      "url": "https://togetter.com/li/2761220",
-      "publishedAt": "2026-10-21T13:45:32.000Z",
-      "summary": "防犯カメラの数、尋常じゃない...！ セキュリティ意識が強すぎるドラッグストアが話題に(全文表示)｜Jタウンネット 九州を拠点とするドラッグストア「コスモス薬品」（本社・福岡市）。西日本ではお馴染み…",
-      "score": 48
+      "score": 61
     }
   ],
-  "fetchedAt": "2026-10-22T01:30:13.390Z",
+  "fetchedAt": "2026-10-22T06:31:56.895Z",
   "stale": false,
   "error": null
 }

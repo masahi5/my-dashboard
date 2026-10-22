@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "2b037284c1e7",
-      "title": "Claude Codeの自動再開のあと、古い画面に入力すると会話が二つに分かれる。送信を止めるフックを作った",
-      "url": "https://zenn.dev/twinharness/articles/resume-guard-stale-terminal",
-      "publishedAt": "2026-10-21T14:42:32.000Z",
-      "publisher": "twinharness",
-      "summary": "AI の使用上限（一定の利用量に達すると、回復するまで使えなくなる制限）で作業が止まったとき、回復の時刻に会話を自動で再開させる仕組みを作りました。ところが、再開は画面に出ないところで進むので、止まったままの古いターミナル画面（コマンドを…"
+      "id": "f943382ada51",
+      "title": "tsc-rsは最速ではない?OpenAI数学719本と売上500億ドルの読み方",
+      "url": "https://zenn.dev/ainewsdaily/articles/20261017_general_t1",
+      "publishedAt": "2026-10-22T02:16:59.000Z",
+      "publisher": "AIニュース",
+      "summary": "2026年10月5日から11日の週のAI関連ニュースから、手を動かす人にも経営側にも影響が大きい3本を選んでまとめた記事です。取り上げるのは、LLMが移植したTypeScriptの型チェッカー「tsc-rs」、OpenAIが公開した数学の…"
     },
     {
-      "id": "e506b88780c8",
-      "title": "AIエージェントに「実装しながら考える」をさせない。技術負債を減らす計画書作成プロンプト",
-      "url": "https://zenn.dev/kazuki_izutani/articles/1709552ca099f1",
-      "publishedAt": "2026-10-21T13:56:29.000Z",
-      "publisher": "Kazuki Izutani",
-      "summary": "はじめに Claude Code などのコーディングエージェントに実装を任せていると、既存の共通関数を使わずに似た関数を新たに作ったり、他の箇所とは違う方法でエラー処理をしたりすることがあります。 これらの原因の多くは、実装前の計画のあい…"
+      "id": "f684cdda78b1",
+      "title": "Claude Code の hook はパスの打ち間違いで素通しになる — onFailure で止める",
+      "url": "https://zenn.dev/husenn/articles/claude-code-hook-path-typo",
+      "publishedAt": "2026-10-22T02:01:04.000Z",
+      "publisher": "Oskra",
+      "summary": "この記事で分かること 守りの hook は、登録したパスを 1 文字間違えるだけで動かなくなり、止めたいコマンドがそのまま実行されること 自分の設定が今その状態になっていないか、この記事の手順で数分で確かめられます 設定に 1 行足すと、…"
     },
     {
-      "id": "5014ed7c5254",
-      "title": "金融K線専用の基盤モデルKronosにBTC/USDTの値動きを予測させてみた",
-      "url": "https://zenn.dev/matsushima_a/articles/day-022-kronos-btc-price-forecast",
-      "publishedAt": "2026-10-21T13:56:07.000Z",
-      "publisher": "matsu",
-      "summary": "AAAI 2026に採択された金融ローソク足(K線)専用の基盤モデル「Kronos」を、実際にBTC/USDTの1時間足データで動かし、予測結果を実際の値動きと突き合わせてみた。結論から言うと、CPUだけでも十分実用的な速度で動く一方、方…"
+      "id": "5624227b15ef",
+      "title": "確定申告アプリ、まだ要る？ 帳簿と決算書の数字まで Claude Code で作る",
+      "url": "https://zenn.dev/fukudev/articles/0af4f591f369be",
+      "publishedAt": "2026-10-22T01:32:35.000Z",
+      "publisher": "fukudev",
+      "summary": "はじめに 個人事業主として、日々の記帳とかはもっぱら Claude Code にやらせている。経費のレシートの仕分けと集計、売上の記録、ふるさと納税や社会保険料など控除の書類の整理、所得税・住民税・ふるさと納税の上限などの税額の試算、それ…"
     },
     {
-      "id": "f0a76990e721",
-      "title": "Claude Code の AskUserQuestion にフックで答える（スマホからも）",
-      "url": "https://zenn.dev/dawon/articles/c21789f4cb0b6f",
-      "publishedAt": "2026-10-21T13:47:01.000Z",
-      "publisher": "Dawon Lee",
-      "summary": "Claude Code はときどき AskUserQuestion ツールで選択式の質問をしてきます（「どのフレームワークにしますか？」など）。ターミナルの前にいないと、そこで止まったままになります。 フックのドキュメントには -p モー…"
+      "id": "e312545623a9",
+      "title": "CLAUDE.md は索引にして、決まりだけは本文に残す：4つの置き方を測った話",
+      "url": "https://zenn.dev/yamato_snow/articles/claude-md-index-design",
+      "publishedAt": "2026-10-22T01:00:38.000Z",
+      "publisher": "やまと",
+      "summary": "CLAUDE.md が、気づいたら長くなっていませんか？ 決めたこと、手順、昔の経緯も、書いておきたくなりますよね。 「AI に覚えておいてほしいこと」を足していくと、CLAUDE.md はどんどん育ちます。 私の作業用のリポジトリでも、…"
     },
     {
-      "id": "e6d224128783",
-      "title": "AI にほかの AI へ相談させていたら、返事を誰も読んでいなかった",
-      "url": "https://zenn.dev/claire_ai/articles/gaibu-ai-iriguchi",
-      "publishedAt": "2026-10-21T13:25:49.000Z",
-      "publisher": "クレア",
-      "summary": "「codex や Gemini に投げてることが監視アプリ上でわからない＆返ってきても放置が多い」 2026-09-07、作業を任せている AI（Claude Code）の動きを見ていて、こう言われた。 ! 🔑 具体的な中身（全体の作り…"
+      "id": "4d1d16704612",
+      "title": "「Claude が私のコードの大半を書く」Anthropic 研究者回はどれが伸びるか（#38予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr38-ameisen-prediction",
+      "publishedAt": "2026-10-22T01:00:09.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜11本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 …"
     },
     {
-      "id": "89904989441d",
-      "title": "Claude Code×Claude in ChromeでUIテストを自動化する【指示の書き方とスキル化】",
-      "url": "https://zenn.dev/suekichi_system/articles/claude-code-chrome-ui-testing",
-      "publishedAt": "2026-10-21T12:56:25.000Z",
-      "publisher": "スエキチ",
-      "summary": "🚀 はじめに AIに実装を任せても、画面を開いて動作を確かめるのは人の仕事のまま、という状態になっていないでしょうか。 この記事では、Claude Code と Claude in Chrome を連携して、画面の確認（UIテスト）まで…"
+      "id": "874b221bf831",
+      "title": "会話の続きはどこで持つ？ — Slack × Docker Agent × Cloud Run で試した話",
+      "url": "https://zenn.dev/xtm_blog/articles/docker-agent-conversation-cloud-run",
+      "publishedAt": "2026-10-22T01:00:07.000Z",
+      "publisher": "kitadesign",
+      "summary": "はじめに こんにちは、Foundation Dept.の北澤です！ 前回の記事では、開発基盤に Docker Agent を採用した話をご紹介しました！ https://zenn.dev/xtm_blog/articles/b9993fe…"
     },
     {
-      "id": "fb0c2d863363",
-      "title": "AI駆動開発のためのWebプロジェクト初期構築ガイド",
-      "url": "https://zenn.dev/h_kamikawa/articles/007d98ac98bb3f",
-      "publishedAt": "2026-10-21T12:53:42.000Z",
-      "publisher": "かみかわひろし",
-      "summary": "はじめに 個人開発・クライアントワークで、AIエージェントを前提としたWeb開発環境を構築するための標準手順。 本格的な機能開発を開始する前に、ローカル環境・GitHub・インフラ・CI/CD・初回デプロイ・公開確認まで完了させる。 これ…"
+      "id": "0bec8fbefae1",
+      "title": "AIを活用して完全自動で電子回路基板をつくってみた",
+      "url": "https://zenn.dev/nobkat/articles/008ai-generated-pcb",
+      "publishedAt": "2026-10-22T00:58:00.000Z",
+      "publisher": "Nobkat",
+      "summary": "はじめに ソフトウェア開発の現場ではすでにAIでかなりのところまで自動化が進んできました。人間はほぼレビューするだけのような状況です。電子回路基板設計もAIをつかって自動化できるのではないかと考え、試してみました。基板設計をテキストベース…"
     },
     {
-      "id": "7854dee0607a",
-      "title": "LLMは「何年の情報か」を一貫して認識できているのか？ 米国スタンフォード大学 AI Lab の研究から考える",
-      "url": "https://zenn.dev/syoshida07/articles/56555330b47aa2",
-      "publishedAt": "2026-10-21T12:42:08.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "米国スタンフォード大学の Stanford AI Lab(SAIL)は、COLM 2026で発表される研究成果の一つとして Do Language Models Consistently Encode the Current Year? …"
+      "id": "38936fa93a79",
+      "title": "Nvidia記事で『動的な異常検知は0個』と書いた2日後、自分のタスクが外部の分類器に2回ブロックされていた",
+      "url": "https://zenn.dev/hideki_tamae/articles/exfil-scouting-correction",
+      "publishedAt": "2026-10-22T00:46:41.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに 0。 2026年10月2日に自分が書いた記事で、「このパイプラインを、自分の判断を介さず外部から動的に止める仕組みは0個だった」と結論づけました。今日、その数字を訂正しなければならない出来事が、このまさに今の記事を書いている最中…"
     },
     {
-      "id": "bfa512264078",
-      "title": "Claude Code 10月リリースを導入判断で読む：Haiku 5.5・effort指定・hooksのonFailureをどう入れるか",
-      "url": "https://zenn.dev/joinclass/articles/claude-code-oct-2026-release-adoption",
-      "publishedAt": "2026-10-21T12:34:40.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "なぜこの記事を書くのか 当社（合同会社ジョインクラス）では、書籍の執筆、売上集計、朝のダイジェストなどを claude -p のヘッドレス実行で回しています。人が見ていない時間に動くので、Claude Codeのリリースは「便利な新機能」…"
+      "id": "e22272fd5ee9",
+      "title": "世界初、ニューラルネットワークなしのLLMを実装してみた話",
+      "url": "https://zenn.dev/gatchimuchio/articles/d962c25148e4e0",
+      "publishedAt": "2026-10-22T00:35:41.000Z",
+      "publisher": "がっちむち♂",
+      "summary": "世界初、ニューラルネットワークなしのLLMを実装してみた話 はじめに ニューラルネットワークを使わずにLLMを作りました。 Transformerも使っていません。 しかも、科学分野の難問ベンチマーク「GPQA Diamond」で、**正…"
     },
     {
-      "id": "76599593d550",
-      "title": "個人開発を、役割ごとの AI ボットと Devin で分担して回したい",
-      "url": "https://zenn.dev/kyto64/articles/ai-bot-dev-env",
-      "publishedAt": "2026-10-21T12:00:09.000Z",
-      "publisher": "kyto64",
-      "summary": "検証環境: 2026 年 10 月時点 ボットの基盤: Grok Bot（役割ごとに複数のボットを立てている） 実装とレビュー: Devin（個人向けの有料プラン） PR レビュー: Codex（自動レビュー＋@codex review）…"
+      "id": "1c01ba2a635f",
+      "title": "話題の爆速LLM「MiniMax M3.1 Flash」の実力とは？特徴とPythonでの実装例",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-20-0057",
+      "publishedAt": "2026-10-22T00:30:41.000Z",
+      "publisher": "田中根小介",
+      "summary": "最近、海外のテックコミュニティ（Hacker News等）で大きな話題を呼んでいるAIモデル 「MiniMax M3.1 Flash」 をご存知でしょうか？ 生成AIサービスをプロダクション環境に組み込む際、多くのエンジニアが直面するのが…"
     },
     {
-      "id": "7e58b9434ccb",
-      "title": "AI開発が終わらない問題を、ハーネスの視点で考える",
-      "url": "https://zenn.dev/enyugi/articles/8357ee1a1388f1",
-      "publishedAt": "2026-10-21T11:48:40.000Z",
-      "publisher": "enyugi",
-      "summary": "AIにコードを書いてもらえるようになっても、開発を進めるための管理や検証まで、自動でなくなるわけではありません。 私自身、非エンジニアとしてAIでサービスを作り、リリース予定を3か月遅らせても、理想完成の状態に届かなかった経験があります。…"
+      "id": "42f60b7763c9",
+      "title": "Docker SandboxesとBAND AI連携を採用する前に確認したい権限境界",
+      "url": "https://zenn.dev/aipha_euro/articles/64beb75b5bb0cd",
+      "publishedAt": "2026-10-22T00:13:50.000Z",
+      "publisher": "佐伯 悠六｜株式会社AiPHA",
+      "summary": "2026年10月21日、DockerはBAND AIとDocker Sandboxesを組み合わせる構成を公式ブログで紹介しました。ローカルのリポジトリを扱うエージェントを、他のエージェントや人が参加するルームにつなぐものです。 注目した…"
     },
     {
-      "id": "6731af8d97cf",
-      "title": "生成AIにバイナリを解析させる。MCP連携リバースエンジニアリング搭載のC++製ネイティブエディタ「Zume Editor」無料ベータを公開",
-      "url": "https://zenn.dev/smolt_dev/articles/846d9d696f0ca8",
-      "publishedAt": "2026-10-21T11:45:42.000Z",
-      "publisher": "smolt_dev",
-      "summary": "はじめに Zume Editor は、C++ でフルスクラッチ開発しているネイティブのテキスト／コード／バイナリ(HEX)エディタです。描画は Windows が Direct2D/DirectWrite、macOS が Core Tex…"
+      "id": "5f516df1024b",
+      "title": "26案を採点してバイク維持費計算サイトを作った。原本確認で2つの誤りが見つかった話",
+      "url": "https://zenn.dev/daichi01278/articles/bike-cost-calculator-primary-source-check",
+      "publishedAt": "2026-10-22T00:08:52.000Z",
+      "publisher": "daichi01278",
+      "summary": "AI エージェントが運営する小さなスタジオ「Autonomous Studio」の記録です。これまでの調査は英語圏の開発者向けツールが中心でしたが、2026-10-16 に事業憲章を改訂し(月間利益 5万〜10万円、オーナーの作業は週1〜…"
     }
   ],
-  "fetchedAt": "2026-10-22T01:30:11.444Z",
+  "fetchedAt": "2026-10-22T06:31:55.119Z",
   "stale": false,
   "error": null
 }
