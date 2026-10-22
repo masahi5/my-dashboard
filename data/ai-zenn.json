@@ -6,22 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "41ae6c7f299d",
-      "title": "Good Old Days：Web 開発の 30 年をスクロールで振り返る",
-      "url": "https://zenn.dev/kfess/articles/09359fbf7de3db",
-      "publishedAt": "2026-10-22T15:40:01.000Z",
-      "publisher": "kfess",
-      "summary": "https://kfess.github.io/good-old-days/?lang=ja 1995 年から 2026 年までの Web 開発を、スクロールで振り返るページを作ってみました。 PHP + MySQL のアクセスカウンター…"
-    },
-    {
-      "id": "bec00f20ee35",
-      "title": "AIリップシンク動画で口の動きがずれる原因と改善方法",
-      "url": "https://zenn.dev/hiiiii/articles/6600d3986c2f20",
-      "publishedAt": "2026-10-22T15:36:23.000Z",
-      "publisher": "hikari",
-      "summary": "AIを使って人物が話す動画を作成するとき、音声と口の動きがうまく合わないことがあります。音声が始まる前に口が動いたり、セリフが終わっているのに口が動き続けたり、特定のフレームだけ顔の形が不自然になったりするケースです。 このような問題は、…"
-    },
-    {
       "id": "79518f5a2548",
       "title": "Claude Codeと作る 間取り3D内見ツール ── 図面読み取りから搬入チェックまで",
       "url": "https://zenn.dev/yuya26_ai/books/bc2f4d1d552613",
@@ -100,9 +84,25 @@
       "publishedAt": "2026-10-22T10:41:50.000Z",
       "publisher": "miyakona",
       "summary": "AIエージェントがPRを作り、Copilotのコードレビューを受け、指摘を直して再レビューを依頼する。その手順を「追加の指摘がなくなるまで」繰り返していました。私が実現したかったのは、人間が毎回コメントを中継しなくても、AIエージェントが…"
+    },
+    {
+      "id": "230fcf73d6f1",
+      "title": "AIの利用コストが気になる今、生成よりも判断する力を身につけたい",
+      "url": "https://zenn.dev/okayuuuuu/articles/a9ffafe74ff61c",
+      "publishedAt": "2026-10-22T10:41:13.000Z",
+      "publisher": "okayu",
+      "summary": "AI仙人さんの「今AIを触ってない人は未来でAIを使う権利をもらえない説」という動画を見て、かなり危機感を持ったので備忘録として記載。 https://www.youtube.com/watch?v=MYNYwQ4LCW0 AIが進化すれ…"
+    },
+    {
+      "id": "556548102b31",
+      "title": "PHPの緊急RCE修正を読む：失敗したリクエストの後に、何が残るのか",
+      "url": "https://zenn.dev/hocky3/articles/8177021b723603",
+      "publishedAt": "2026-10-22T10:25:26.000Z",
+      "publisher": "hocky3",
+      "summary": "2026年10月21日、PHP公式は、認証不要のリモートコード実行（RCE）につながる2件の脆弱性と、その修正版を告知しました。対応の第一歩は、Webリクエストを処理するPHPを修正版へ更新することです。PHP公式告知 この記事では、公式…"
     }
   ],
-  "fetchedAt": "2026-10-22T20:43:59.744Z",
+  "fetchedAt": "2026-10-22T23:38:44.485Z",
   "stale": false,
   "error": null
 }
