@@ -14,12 +14,12 @@
       "score": 9
     },
     {
-      "id": "04f4a420cc57",
-      "title": "Training the Whole Agent, Not Just the Model",
-      "url": "https://huggingface.co/papers/2610.28069",
+      "id": "980f27dc3cc1",
+      "title": "Ask to Distill: Learning to Synthesize Data for On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.27450",
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Training coding agents typically updates the policy while keeping the harness fixed. During training, trajectories reve…",
-      "score": 4
+      "summary": "On-policy distillation (OPD) can succeed with surprisingly few training questions, motivating a view of questions as ca…",
+      "score": 7
     },
     {
       "id": "cd5cfd9e66ba",
@@ -27,6 +27,14 @@
       "url": "https://huggingface.co/papers/2610.28388",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "summary": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challe…",
+      "score": 5
+    },
+    {
+      "id": "04f4a420cc57",
+      "title": "Training the Whole Agent, Not Just the Model",
+      "url": "https://huggingface.co/papers/2610.28069",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Training coding agents typically updates the policy while keeping the harness fixed. During training, trajectories reve…",
       "score": 4
     },
     {
@@ -51,7 +59,7 @@
       "url": "https://huggingface.co/papers/2610.25519",
       "publishedAt": "2026-10-18T00:00:00.000Z",
       "summary": "Test-time scaling (TTS) improves large language model (LLM) reasoning by sampling multiple answers, but fixed sampling …",
-      "score": 1
+      "score": 2
     },
     {
       "id": "0a251b778335",
@@ -86,14 +94,6 @@
       "score": 1
     },
     {
-      "id": "e1b1df7aeddd",
-      "title": "VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token",
-      "url": "https://huggingface.co/papers/2610.26857",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from intern…",
-      "score": 1
-    },
-    {
       "id": "39b1e5662dca",
       "title": "Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models",
       "url": "https://huggingface.co/papers/2603.19233",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-21T23:01:26.949Z",
+  "fetchedAt": "2026-10-22T01:30:11.275Z",
   "stale": false,
   "error": null
 }

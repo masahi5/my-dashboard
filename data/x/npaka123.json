@@ -2,6 +2,24 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2113052293671334105",
+      "url": "https://x.com/npaka123/status/2113052293671334105",
+      "text": "RT @erukiti: 予測：\n・あと半年はこの状況が続く。もっとひどくなる\n・半年くらいで主要ソフトでのアップデート祭りが一旦落ち着く（一部のソフトウェアはこの過程で脱落する）\n・アップデートをすることが、今まで以上に重要になる\n\n今回のPHP2ShellはGPTによって発…",
+      "publishedAt": "2026-10-21T23:38:20.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2113043852810711356",
+      "url": "https://x.com/NaotakaFujii/status/2113043852810711356",
+      "text": "緊急事態に即対応できないなら、普通にAIに管理させたら良いと思うけどな。ループにポンコツ人材挟むことの脆弱性にみんなが気がつく良い機会ですね。",
+      "publishedAt": "2026-10-21T23:04:47.000Z",
+      "authorHandle": "NaotakaFujii",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2113036271711035674",
       "url": "https://x.com/MLBear2/status/2113036271711035674",
       "text": "【10月22日 朝のニュースまとめ】\n・GPT-5.6 Solで発見のPHP致命的RCE脆弱性php2shell公開\n・Anthropic、能動型Agent Claude Duetを研究プレビュー\n・Recursive、自動研究で構築した40B MoE Flint公開\n・Google CloudがOpenAIモデル提供開始、主要3社のLLMが揃う\n・NVIDIA、展開最短14日のコンテナ型DC DSX PODを発表\n・LiteLLM 1.107.0に悪性コード混入、再びサプライチェーン攻撃\n・AIモデルで自動化した攻撃、中南米の金融400超が標的に\n・Anthropic年次公益報告書、次世代モデル学習に現行モデルを活用\n・Mirendil、研究者1人・$10M未満で100B超モデルを事前学習\n・Corridor、Qwen 3.5 9B微調整のセキュリティモデル公開\n・DeepSeekがHuaweiの次世代AIチップ設計を支援と報道\n・ヒューマノイド全身制御学習SuperMimic、GPU時間を1000分の1に\n・Kaggle新コンペSquares in Squares開始、組合せ幾何の未解決問題\n\n===\n\nGPT-5.6 Solで発見のPHP致命的RCE脆弱性php2shell公開\n\n・OpenAIのPatch the Planetで、研究者がGPT-5.6 Solを使いPHPの認証不要なRCE脆弱性を発見しました\n・CVE-2026-109618/109619はPHP 8.5.12/8.4.27/8.3.36/8.2.35で修正され、OpenAIは影響確認用のCodexスキルも公開しています\n・情報の早期漏洩でCloudflareが攻撃の変種対応に追われ、フィンランドが政府サイトを停止するなど影響が広がっています\n\n===\n\nAnthropic、能動型Agent Claude Duetを研究プレビュー\n\n・Anthropicが、Claudeが能動的に動くエージェントアプリClaude Duetの研究プレビューを発表しました\n・Opus 5.5ベースで6,000のコネクタに対応し、米国Pro/Max向けにウェイトリスト提供、Stripe LinkやShop Payで購買も可能です\n・OpenAIのdotsに似た常時稼働型との声の一方、個人Agentは多様な形で共存するとの見方も出ています\n\n===\n\nRecursive、自動研究で構築した40B MoE Flint公開\n\n・Recursiveが、自動研究システムEureka Machineで4か月未満で構築した初のモデルFlintをオープンウェイトで公開しました\n・総40B・アクティブ2.5BのコーディングMoEで、MacBook Proで125+ tok/s、RTX Sparkで150+ tok/sとされます\n・lm_headの4bit化をAIが判断した点が注目され、Inklingにわずかに及ばないが10倍以上小さいとの評価も出ています\n・OpenRouterやOpenHandsでも利用可能になっています\n\n===\n\nGoogle CloudがOpenAIモデル提供開始、主要3社のLLMが揃う\n\n・Google CloudのModel GardenでOpenAIのモデルが利用可能になりました\n・GPT-6 Astra、GPT-6.1 Sol、GPT-6 Lunaが対象で、主要クローズドLLM3社すべてを提供する唯一のハイパースケーラーとしています\n・OpenAIモデルはAzure、AWSに続く提供で、請求一本化や監査ログ統一などガバナンス面の利点も指摘されています\n\n===\n\nNVIDIA、展開最短14日のコンテナ型DC DSX PODを発表\n\n・NVIDIAがGTC Berlinで、コンテナで出荷するAIデータセンターDSX PODを発表しました\n・Vera Rubinベースで計算・配線・電源・液冷を組み込み済みで、展開を6か月から最短14日に短縮するとしています\n・Agent向けOpenShell参照構成も示し、Huang氏は1GW工場の遅延は月約$3.3Bの機会損失と述べています\n\n===\n\nLiteLLM 1.107.0に悪性コード混入、再びサプライチェーン攻撃\n\n・JFrogが、PyPIで配布されたLiteLLM 1.107.0に悪性コードが含まれるサプライチェーン攻撃を確認しました\n・配布は日本時間20:39〜22:20で隔離済みですが、Dockerのlatestタグにも混入しv1.106.2への固定が推奨されています\n・LiteLLMは3月にも侵害されており、OpenCodeなどの件と合わせAIが攻撃を速く安くしているとの声が出ています\n\n===\n\nAIモデルで自動化した攻撃、中南米の金融400超が標的に\n\n・The Informationが、ハッカーがAIモデルを使って中南米の400超の金融機関などへの攻撃を自動化したと報じました\n・Anthropic、SpaceX、Moonshot AIのモデルが使われ、安全策を回避して人手をほぼ介さずデータを窃取したとされます\n・この種の初期の記録事例とされ、Claudeの安全策は大した脱獄なしに回避できるとする別記事も話題です\n\n===\n\nAnthropic年次公益報告書、次世代モデル学習に現行モデルを活用\n\n・公益法人であるAnthropicが、年次のPublic Benefit Reportを公開しました\n・5つの柱と取り組みを整理した内容で、将来のモデル学習に現在のAIモデルをますます活用していると述べています\n・自己改善に一歩近づく動きとの声が出ており、同日には元ハーバード大理学部長のChristopher Stubbs氏の長期利益信託参加も発表されました\n\n===\n\nMirendil、研究者1人・$10M未満で100B超モデルを事前学習\n\n・Mirendilが、専任の事前学習チームを置かずに大規模なモデルの事前学習を行ったと発表しました\n・100B〜500B規模のコーディングモデルMirendil-Baseを、研究者1人と$10M未満の計算資源で3.5か月かけてゼロから学習したとされます\n・懐疑的だったChristopher Manning氏も成果を称賛し、Flintと並ぶ再帰的自己改善の成果として注目されています\n\n===\n\nCorridor、Qwen 3.5 9B微調整のセキュリティモデル公開\n\n・Corridorが、同社初のセキュリティ特化モデルcorridor-argos-1を公開しました\n・Qwen 3.5 9Bの微調整で、セキュリティ文脈選択ではGPT-6 AstraやClaude Opus 5.5を上回り、TTFTも14モデル中最短とされます\n・学習データはLangChainのsmithtuneでトレースから作成され、成功した実行ログを学習に生かす手法として紹介されています\n\n===\n\nDeepSeekがHuaweiの次世代AIチップ設計を支援と報道\n\n・The Informationが、DeepSeekがHuaweiの次世代AIチップの設計を手伝っていると報じました\n・HuaweiのエンジニアがDeepSeekのオフィス内で作業しており、NVIDIAに頼らない先進モデル学習につながる可能性があるとされます\n・SemiAnalysisもAscend 950PRのマイクロベンチマークやDeepSeekのAscend対応を扱う詳細分析を公開しています\n\n===\n\nヒューマノイド全身制御学習SuperMimic、GPU時間を1000分の1に\n\n・ヒューマノイド制御の学習に必要なGPU時間を1000倍以上削減する手法SuperMimicが発表されました\n・129,514モーションで、128GPU・7日かかったSOTAを1GPU・3時間で上回ったとされます\n・Pieter Abbeel氏は、通常のシミュより速い世界モデルと方策勾配より多くの信号を得るBPTTが鍵だと解説しています\n\n===\n\nKaggle新コンペSquares in Squares開始、組合せ幾何の未解決問題\n\n・Kaggleで新コンペSquares in Squaresが開始されました\n・組合せ幾何学でよく研究された未解決問題が題材で、メダル対象外、締め切りは2027年7月18日です\n・既知の最良解は数学者やプログラマーの数十年の成果とされ、Kaggle側からは新たな最適配置が生まれることへの期待が出ています",
@@ -65,34 +83,16 @@
       "repost": true
     },
     {
-      "id": "2112938430237913262",
-      "url": "https://x.com/nico_nico_talk/status/2112938430237913262",
-      "text": "【続報:ニコニコメンテナンスのお知らせ（2026/10/21(水) 19:00～）】\nプログラミング言語「PHP」の脆弱性への対応につきまして、続報をご報告いたします。\n現在も安全にサービスを再開するための対応を進めておりますが、\n少なくとも本日（2026年10月22日）の朝方以降まで、メンテナンス状態を継続させていただくことになると見込んでおります。\nユーザーの皆様にはご不便をおかけいたしますが、ご理解いただけますと幸いです。",
-      "publishedAt": "2026-10-21T16:05:52.000Z",
-      "authorHandle": "nico_nico_talk",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2112932163402575951",
-      "url": "https://x.com/ImAI_Eruel/status/2112932163402575951",
-      "text": "総理大臣がサイバーセキュリティの重大案件を公式アカウントでツイートするのは異例（というか初？）だと思いますが、これは多分世界的にも珍しく、本人か周辺のこの分野に対する感度が結構高いのだと思います。\n4月前半にサイバー能力が高く、インフラや金融を脅かす可能性のあるMythosが発表された時点では、研究開発者がどれだけ騒いでもあまり世間的には話題にならなかったのですが、片山大臣が触れた後にようやく世間的に話題になり、5月に高市総理が触れたあとは急激にスムーズに進みました。１ヶ月かかったというのは早い/遅い両方の意見がありましたが（私はメディアで、首相が技術問題に触れること自体が異例で、評価されるべきとは言ってました）、とにかく効果は非常に高いです。",
-      "publishedAt": "2026-10-21T15:40:58.000Z",
-      "authorHandle": "ImAI_Eruel",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2112907856018309586",
-      "url": "https://x.com/OpenAI/status/2112907856018309586",
-      "text": "OpenAI models helped researchers—operating as part of our Patch the Planet initiative—discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of websites.\n\nOver the past two months, we led a coalition of maintainers, researchers, and security providers to prepare fixes and protections ahead of disclosure. This duration was necessary because the fix was quite intricate and required a major change to the PHP engine. Every site using PHP can now safely upgrade their version to stay secure, in addition to applying mitigations from various security vendors.\n\nDue to the severity of these flaws and PHP’s widespread use, we consider this bug to be one of the most impactful vulnerabilities in recent memory. It also marks a new phase, where AI can find security bugs with internet-scale impact.\n\nThis is an example of the Defender’s Window in action: to our knowledge, frontier AI was able to find this vulnerability ahead of attackers, giving defenders time to prepare.\nopenai.com/index/coordinated…",
-      "publishedAt": "2026-10-21T14:04:23.000Z",
-      "authorHandle": "OpenAI",
+      "id": "2112940935478956459",
+      "url": "https://x.com/splinetool/status/2112940935478956459",
+      "text": "Introducing Spline for ChatGPT.\n\nCreate and edit any 3D interactive scene directly within your ChatGPT or Codex chats.\n\nAvailable now from OpenAI plugin's ecosystem.",
+      "publishedAt": "2026-10-21T16:15:50.000Z",
+      "authorHandle": "splinetool",
       "likeCount": 0,
       "repost": true
     }
   ],
-  "fetchedAt": "2026-10-21T23:01:50.628Z",
+  "fetchedAt": "2026-10-22T01:30:49.044Z",
   "stale": false,
   "error": null
 }

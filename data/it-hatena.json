@@ -6,28 +6,12 @@
   "category": "callcenter",
   "items": [
     {
-      "id": "4fe8c9984bd2",
-      "title": "PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog",
-      "url": "https://blog.flatt.tech/entry/php2shell",
-      "publishedAt": "2026-10-21T02:15:43.000Z",
-      "summary": "PHP開発チームは2026年10月20日（日本時間で深夜）、重大な脆弱性2件の修正パッチを、2026年10月21日 23時（日本時間）にリリース予定と告知しました。両件のCVSS v4.0スコアは9…",
-      "score": 828
-    },
-    {
       "id": "4d3455287caa",
       "title": "修正予告されたPHPの2件の深刻な脆弱性についてまとめてみた - piyolog",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/10/21/174516",
       "publishedAt": "2026-10-21T08:57:42.000Z",
       "summary": "2026年10月20日、PHPの開発元であるThe PHP Groupのセキュリティチームは、PHPの深刻な脆弱性2件を修正するセキュリティリリースを予告しました。ここでは関連する情報をまとめます。…",
-      "score": 557
-    },
-    {
-      "id": "883d3f574cb7",
-      "title": "著名ITサービス相次いで緊急メンテへ コドモン、シャドバ、BASE、さくらのレンタルサーバなど 「PHP」脆弱性に起因か",
-      "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002472/",
-      "publishedAt": "2026-10-21T08:52:10.000Z",
-      "summary": "保育園向けSaaS「コドモン」、ゲーム「Shadowverse: Worlds Beyond」「さくらのレンタルサーバ」といった著名サービスが相次いで緊急メンテナンスに入ったり、同日午後11時ごろか…",
-      "score": 199
+      "score": 683
     },
     {
       "id": "cdcf0f71b662",
@@ -35,31 +19,7 @@
       "url": "https://blogs.itmedia.co.jp/agile/2026/10/php2shell_cve_2026_109618_panic.html",
       "publishedAt": "2026-10-21T14:07:21.000Z",
       "summary": "【PHP脆弱性php2shell】パッチは21:59に公開済み。「23:15から乗っ取り」「15分でAIが攻撃コード？」は本当か、自分のVPSのログで検証（CVE-2026-109618／10961…",
-      "score": 165
-    },
-    {
-      "id": "41d602b00355",
-      "title": "不正アクセス“金融機関が狙われる段階に変わってきた可能性” | NHKニュース",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261021de62921",
-      "publishedAt": "2026-10-21T09:08:57.000Z",
-      "summary": "証券会社のシステムが不正アクセスを受けたことについて、サイバーセキュリティーに詳しい立命館大学の上原哲太郎教授は、金融機関が狙われる段階に変わってきた可能性があり、必要があればシステムの一時停止も含…",
-      "score": 149
-    },
-    {
-      "id": "82a7da4643dd",
-      "title": "委託事業者における個人情報漏えいについて",
-      "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
-      "publishedAt": "2026-10-21T11:16:28.000Z",
-      "summary": "令和8年10月9日、本学の全学教育用電子計算機システムの運用を委託している日本電気株式会社（以下「NEC」という。）から、令和8年9月26日に第三者により本学の個人情報を含むファイルがダウンロードさ…",
-      "score": 110
-    },
-    {
-      "id": "6bc0dec74f2f",
-      "title": "わずか2週間でGitHubスター30万超 AIでリバースエンジニアリングする「REA」が話題",
-      "url": "https://ascii.jp/elem/000/004/444/4444350/",
-      "publishedAt": "2026-10-21T04:48:18.000Z",
-      "summary": "morluto氏がGitHubで公開しているAIエージェント向けのリバースエンジニアリング支援ツール「REA（Reverse Engineer Anything）」が急速に人気を集めている。10月2…",
-      "score": 110
+      "score": 210
     },
     {
       "id": "39b5e906a8c3",
@@ -67,7 +27,15 @@
       "url": "https://togetter.com/li/2761175",
       "publishedAt": "2026-10-21T13:05:29.000Z",
       "summary": "これが視界に入った瞬間、1秒以内に「AIだ！」と思ったけど我々は一体何に「AIっぽさ」を感じているのか→文字や色味以外にも判別ポイントがある？",
-      "score": 104
+      "score": 121
+    },
+    {
+      "id": "2ca908d7f8e7",
+      "title": "3年前に退職したところから「なんでPHPで作ったんだ！今すぐ来い！」って電話あったけど、どこに相談したらいいの？労基？→あるエンジニアに起きた災難に「笑えない」",
+      "url": "https://togetter.com/li/2761260",
+      "publishedAt": "2026-10-21T19:27:17.000Z",
+      "summary": "国家サイバー統括室(注意・警戒情報) @cyber_forecast PHPのセキュリティチームが、重大な２件の脆弱性に関する注意喚起を行っています。公開しているウェブサイトでPHPを使用しているか…",
+      "score": 99
     },
     {
       "id": "c91dc5dfc03d",
@@ -75,15 +43,23 @@
       "url": "https://gigazine.net/news/20261022-php2shell-wiz-openai-calif/",
       "publishedAt": "2026-10-21T15:19:11.000Z",
       "summary": "プログラミング言語のPHPに「PHP2Shell」と呼ばれる重大な脆弱性が見つかり、緊急アップデートがリリースされました。「PHP2Shell」の2つの脆弱性は、セキュリティ企業のCalifとWiz…",
-      "score": 70
+      "score": 98
     },
     {
-      "id": "e31bf18aa91a",
-      "title": "Node.js — Wednesday, October 21, 2026 Security Releases",
-      "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
-      "publishedAt": "2026-10-14T23:31:16.000Z",
-      "summary": "Commercial support for versions past the Maintenance LTS phase is available through our OpenJS Ecos…",
-      "score": 70
+      "id": "eac28695e88a",
+      "title": "高市総理「大至急、PHPパッチ適用を」Xで異例の要請 エンジニアは評価「経営層に伝わる」",
+      "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002483/",
+      "publishedAt": "2026-10-21T22:16:49.000Z",
+      "summary": "「今夜に対応して頂きたい大至急のお願い」――高市早苗首相は10月21日午後10時前、自身のXアカウントで、PHPの「緊急」の脆弱性について、修正パッチを「可及的速やかに適用できる準備」をするよう求め…",
+      "score": 87
+    },
+    {
+      "id": "b4da12b64f8b",
+      "title": "デジタル庁、「神Excel」対策ツールを公開 AIと組み合わせたデータ整備方法も紹介",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/21/2000002475/",
+      "publishedAt": "2026-10-21T12:22:50.000Z",
+      "summary": "デジタル庁が、Excelファイルなどが“機械にとって読みやすいか”を判定するツール「Harunobu」を公開している。紙に印刷した際のレイアウトを優先してセル結合などを多用した、いわゆる「神Exce…",
+      "score": 76
     },
     {
       "id": "5ae1819d713f",
@@ -91,18 +67,41 @@
       "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
       "publishedAt": "2026-10-21T14:53:13.000Z",
       "summary": "Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. These releases fix …",
-      "score": 58
+      "score": 73
     },
     {
-      "id": "108b630019ea",
-      "title": "LiteLLMパッケージ 再侵害の概要と対策指針 - GMO Flatt Security Blog",
-      "url": "https://blog.flatt.tech/entry/litellm_2nd_compromise",
-      "publishedAt": "2026-10-21T12:37:30.000Z",
-      "summary": "2026年10月21日、PyPI パッケージ litellm に悪性コードが注入されました。2026年3月に発生した事案とは別の再侵害が発生しています。 注入された悪性コードは、Infosteale…",
-      "score": 53
+      "id": "fa7e9e337330",
+      "title": "「Apache Tomcat」に最大深刻度“CRITICAL”の脆弱性 ～v9 / v10 / v11系統に修正版／",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2150161.html",
+      "publishedAt": "2026-10-21T23:31:06.000Z",
+      "score": 57
+    },
+    {
+      "id": "917512baf876",
+      "title": "メンテナンス中に503を返すだけでは足りない Google公式ドキュメントで読む必須・推奨・禁止事項 - SEMリサーチ",
+      "url": "https://www.sem-r.com/entry/20261022/1792605105",
+      "publishedAt": "2026-10-21T18:03:07.000Z",
+      "summary": "サイトメンテナンス時の正しいHTTP応答 緊急メンテ当日に各社の対応を調べてわかったこと なぜメンテナンス時のHTTP応答が重要なのか 必須事項 やらないと検索結果掲載に問題が発生する可能性があるも…",
+      "score": 49
+    },
+    {
+      "id": "a0f0b6d92c51",
+      "title": "PHPの「緊急」レベルの脆弱性、開発元が修正バージョン公開 「直ちにアップデートを」",
+      "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002480/",
+      "publishedAt": "2026-10-21T16:04:10.000Z",
+      "summary": "プログラミング言語「PHP」開発プロジェクトは10月21日（協定世界時）、「緊急」レベルの脆弱性2件を修正したPHP 8.5.12／8.4.27／8.3.36／8.2.35を公開したと発表した。20…",
+      "score": 48
+    },
+    {
+      "id": "7109144bf332",
+      "title": "「客を一切信用してなくてワロける」ドラッグストアコスモスの防犯カメラの多さが話題に→「むしろ信頼できる」「これでも少ない店舗」",
+      "url": "https://togetter.com/li/2761220",
+      "publishedAt": "2026-10-21T13:45:32.000Z",
+      "summary": "防犯カメラの数、尋常じゃない...！ セキュリティ意識が強すぎるドラッグストアが話題に(全文表示)｜Jタウンネット 九州を拠点とするドラッグストア「コスモス薬品」（本社・福岡市）。西日本ではお馴染み…",
+      "score": 48
     }
   ],
-  "fetchedAt": "2026-10-21T23:01:29.045Z",
+  "fetchedAt": "2026-10-22T01:30:13.390Z",
   "stale": false,
   "error": null
 }
