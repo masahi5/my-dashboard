@@ -6,30 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "40c0d5fba579",
-      "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
-      "url": "https://huggingface.co/papers/2610.31329",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present…",
-      "score": 220
-    },
-    {
-      "id": "e7f7ce0727ca",
-      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
-      "url": "https://huggingface.co/papers/2610.30949",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activa…",
-      "score": 53
-    },
-    {
-      "id": "5db75c4b9402",
-      "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
-      "url": "https://huggingface.co/papers/2610.23987",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations,…",
-      "score": 32
-    },
-    {
       "id": "9697fa4dcec0",
       "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
       "url": "https://huggingface.co/papers/2610.30753",
@@ -44,6 +20,14 @@
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "summary": "Video scene graph generation (VidSGG) aims to capture objects and their evolving relationships in videos. This requires…",
       "score": 12
+    },
+    {
+      "id": "c9f5cdfe520e",
+      "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+      "url": "https://huggingface.co/papers/2610.30418",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assemble…",
+      "score": 8
     },
     {
       "id": "b090f883516c",
@@ -70,11 +54,11 @@
       "score": 3
     },
     {
-      "id": "1afe27857367",
-      "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research",
-      "url": "https://huggingface.co/papers/2610.30468",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Reproducing a published 3DGS paper takes weeks of expert engineering before any extension can be proposed. Prior autono…",
+      "id": "88d0ab490e56",
+      "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
+      "url": "https://huggingface.co/papers/2610.24383",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify w…",
       "score": 2
     },
     {
@@ -83,6 +67,30 @@
       "url": "https://huggingface.co/papers/2610.31651",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building ob…",
+      "score": 2
+    },
+    {
+      "id": "1afe27857367",
+      "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research",
+      "url": "https://huggingface.co/papers/2610.30468",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Reproducing a published 3DGS paper takes weeks of expert engineering before any extension can be proposed. Prior autono…",
+      "score": 2
+    },
+    {
+      "id": "dd2e6f3017a9",
+      "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
+      "url": "https://huggingface.co/papers/2610.24385",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight i…",
+      "score": 1
+    },
+    {
+      "id": "7d555413ef22",
+      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
+      "url": "https://huggingface.co/papers/2610.28950",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more t…",
       "score": 1
     },
     {
@@ -92,17 +100,9 @@
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "summary": "Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features. The …",
       "score": 1
-    },
-    {
-      "id": "7d555413ef22",
-      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
-      "url": "https://huggingface.co/papers/2610.28950",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more t…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-23T17:27:12.622Z",
+  "fetchedAt": "2026-10-23T20:34:54.567Z",
   "stale": false,
   "error": null
 }
