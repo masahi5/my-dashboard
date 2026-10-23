@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "41ae6c7f299d",
-      "title": "Good Old Days：Web 開発の 30 年をスクロールで振り返る",
-      "url": "https://zenn.dev/kfess/articles/09359fbf7de3db",
-      "publishedAt": "2026-10-22T15:40:01.000Z",
-      "publisher": "kfess",
-      "summary": "https://kfess.github.io/good-old-days/?lang=ja 1995 年から 2026 年までの Web 開発を、スクロールで振り返るページを作ってみました。 PHP + MySQL のアクセスカウンター…"
+      "id": "95a7f48abfdd",
+      "title": "AIのドラフト2026予想を事前登録してCIで守り、自動採点した話",
+      "url": "https://zenn.dev/momo_aoyama/articles/8845c279893771",
+      "publishedAt": "2026-10-23T04:11:05.000Z",
+      "publisher": "Momo Aoyama",
+      "summary": "2026年のプロ野球ドラフト会議（10月22日）を題材に、Claude・GPT・Gemini の3つの AI にドラフトを予想させ、答えが出る前に予想を公開して固定（事前登録）し、ドラフト後に自動で採点する仕組みを作りました。 野球ファン…"
     },
     {
-      "id": "bec00f20ee35",
-      "title": "AIリップシンク動画で口の動きがずれる原因と改善方法",
-      "url": "https://zenn.dev/hiiiii/articles/6600d3986c2f20",
-      "publishedAt": "2026-10-22T15:36:23.000Z",
-      "publisher": "hikari",
-      "summary": "AIを使って人物が話す動画を作成するとき、音声と口の動きがうまく合わないことがあります。音声が始まる前に口が動いたり、セリフが終わっているのに口が動き続けたり、特定のフレームだけ顔の形が不自然になったりするケースです。 このような問題は、…"
+      "id": "3dbaa2478510",
+      "title": "楽天・Yahoo!・Shopify、同じ商品を3回書かない。モール別の書き分けをAIに任せる手順",
+      "url": "https://zenn.dev/ec_jidoka_kobo/articles/21ae4dd121647e",
+      "publishedAt": "2026-10-23T04:05:25.000Z",
+      "publisher": "EC自動化工房",
+      "summary": "※例はすべて架空の店舗・商品です 架空の「サンプル雑貨店」に、白いマグカップが1つ入荷しました。 商品マスタには、こう書いてあります。 商品名：ストーンウェア マグカップ 容量：350ml 特徴：厚手で冷めにくい／電子レンジ・食洗機に対応…"
     },
     {
-      "id": "79518f5a2548",
-      "title": "Claude Codeと作る 間取り3D内見ツール ── 図面読み取りから搬入チェックまで",
-      "url": "https://zenn.dev/yuya26_ai/books/bc2f4d1d552613",
-      "publishedAt": "2026-10-22T14:16:32.000Z",
-      "publisher": "yuya|AIで作って自動化する人",
-      "summary": "手元にあるのは間取り図の画像1枚だけ。それでも、部屋の広さや見え方、ソファが玄関を通るかを知りたい ──そんな引っ越しの悩みを、技術で解きます。間取りのデータ設計、Three.jsでの3D化、一人称の内見、塗つぶしによる部屋の領域分割、A…"
+      "id": "5604a36ae5b6",
+      "title": "コードの代わりに AI がシステムを演じる試作ツール「kuron」を作った",
+      "url": "https://zenn.dev/verantyx/articles/2ef32195d9f731",
+      "publishedAt": "2026-10-23T03:39:24.000Z",
+      "publisher": "kofdai",
+      "summary": "なぜ作ったか 個人開発で AI と一緒に作っていると、話しているうちに「作るべきもの」がどんどん変わっていきます。頭の中に完成形があったつもりでも、実際に触ってみると欲しかったのは少し違うものだった、ということがよくありました。 AI の…"
     },
     {
-      "id": "53ae4814a4c4",
-      "title": "知識グラフ化ツールGraphifyでgrep/Readを置き換えたら、トークンは何倍減るのか実測した",
-      "url": "https://zenn.dev/matsushima_a/articles/day-023-knowledge-graph-vs-grep-token-cost",
-      "publishedAt": "2026-10-22T14:05:17.000Z",
-      "publisher": "matsu",
-      "summary": "これは何の話か 海外AIネタ100日チャレンジDay 023。今回取り上げるのはGraphify-Labs/graphify(PyPI配布名はgraphifyy、ダブルyなので注意)。 コード・ドキュメント・SQLスキーマ・設定ファイルな…"
+      "id": "8ab95f19d72b",
+      "title": "ターミナルとClaude Codeだけでコーディングを完結させる本",
+      "url": "https://zenn.dev/kuroikotech/books/terminal-claude-code",
+      "publishedAt": "2026-10-23T03:21:41.000Z",
+      "publisher": "kuroiko",
+      "summary": "GUIのAI IDEを使わず、ターミナルの中だけでClaude Codeを使い倒すための実践ガイド。基本操作からCLAUDE.md、権限設計、Plan Mode、tmux/Neovim連携、スラッシュコマンド、サブエージェント、hooks…"
     },
     {
-      "id": "8dd089d1da7f",
-      "title": "AI に記事を29本まとめて書かせたら、もっともらしい間違いが24か所混ざっていた",
-      "url": "https://zenn.dev/claire_ai/articles/kiji-kenshu-iriguchi",
-      "publishedAt": "2026-10-22T13:47:22.000Z",
-      "publisher": "クレア",
-      "summary": "一晩で、AI（Claude Code）に記事の下書きを29本書かせた。2時間ほどで、画像104枚、合わせて約9.6万字。読み返すと、どれもそれらしく書けていた。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いてい…"
+      "id": "28b39087bf68",
+      "title": "攻撃する側が持っているツール ── AI が自分で攻撃を進めるとは",
+      "url": "https://zenn.dev/chooser/articles/sec-002-research",
+      "publishedAt": "2026-10-23T03:20:18.000Z",
+      "publisher": "chooser",
+      "summary": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 攻撃する側が持っているツール ── A…"
     },
     {
-      "id": "6e4341ec85ff",
-      "title": "AIが作り、AIが配信し、AIが落ちる — 誰も見ていないシステムの品質保証",
-      "url": "https://zenn.dev/orca_forge/articles/qa-and-soak-testing-for-unattended-ai",
-      "publishedAt": "2026-10-22T13:07:53.000Z",
-      "publisher": "orca_forge",
-      "summary": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。 AI アバターが YouTube と Twitch に無人で配信し続けるシステムを作りました。番組を登録しておけば、時間になると配信枠が作られ、GPU…"
+      "id": "7fb89cabe3dd",
+      "title": "Claude Codeにブックマークを渡して一言頼むだけで自分専用Yahoo!ができた",
+      "url": "https://zenn.dev/ririenu_lab/articles/fe0c459e6e9562",
+      "publishedAt": "2026-10-23T03:11:05.000Z",
+      "publisher": "RiriEnu Lab （リリエーヌ・ラボ）",
+      "summary": "はじめに 私はPCのWEBブラウザのブックマークの管理が雑です。 思いついた順にぽんぽんブックマークへ入れているので、重複があったり、カテゴリ分けもされていなかったりして、ごちゃごちゃしていました。 仕分けをいつかやろうと思いつつ放置して…"
     },
     {
-      "id": "4cb13c00e354",
-      "title": "【リベンジ検証】Gemini 4 ArgonでUIマニュアルの「枠線オーバーレイ」を自動化したら劇的進化した話",
-      "url": "https://zenn.dev/chililikobo/articles/da1f0dc81346bc",
-      "publishedAt": "2026-10-22T12:48:57.000Z",
-      "publisher": "chilili kobo",
-      "summary": "個人開発アプリのドキュメント作成を効率化するため、自作のキャプチャツール「ClickCapture」とマルチモーダルAIを活用した「セットアップマニュアル（PDF）の自動生成」を検証しています。 前回、Gemini 3.5 Flash L…"
+      "id": "e3deb4efa3e2",
+      "title": "WSLから起こしたWindowsのPythonに環境変数が届かず、AIの費用の上限が一度も効いていなかった",
+      "url": "https://zenn.dev/kirinukiauto/articles/891f974f2fd89e",
+      "publishedAt": "2026-10-23T03:00:16.000Z",
+      "publisher": "キリヌキ自動化ラボ",
+      "summary": "Claude Code に、YouTube の切り抜き動画づくりを任せています。書き起こしの直し、見せ場の選び、題や表紙の文言づくりで、AI を何度も呼びます。 8月のある2日間、AI を1,653回呼んで、1,918円使いました。その2…"
     },
     {
-      "id": "2c449898df5c",
-      "title": "Agentの思考量に応じてキーボードを\"カチャカチャ\" 鳴らそう",
-      "url": "https://zenn.dev/yuuki0206/articles/72eb6c94e58e6b",
-      "publishedAt": "2026-10-22T12:35:04.000Z",
-      "publisher": "yuuki0206",
-      "summary": "Claude Code に仕事を投げたあと、ターミナルの Thinking... をぼーっと眺めている時間、ありませんか。 自分はかなりあります。で、ある日思いました。 「これ、横で誰かがタイピングしてる音がしたら、ちょっと楽しくない？」…"
+      "id": "86f1b84cab70",
+      "title": "Claude Code の変更を CI で止める検査一式",
+      "url": "https://zenn.dev/acerola_jp/articles/claude-code-ci-gate-checks",
+      "publishedAt": "2026-10-23T03:00:07.000Z",
+      "publisher": "アセロラ",
+      "summary": "Claude Code に push まで任せると、人が毎回の差分を読むことはできなくなります。そこで、人のレビューの代わりに push のたびに必ず走る検査 を門番にします。 この記事は、Zenn の記事・本の原稿と小さな Web ツー…"
     },
     {
-      "id": "eb9eb9a96cfe",
-      "title": "『php2shell』に感じた違和感――パッチ公開前の注意喚起と協調開示",
-      "url": "https://zenn.dev/covanew/articles/83442db846dd19",
-      "publishedAt": "2026-10-22T12:16:28.000Z",
-      "publisher": "covanew",
-      "summary": "2026年10月21日、PHPの深刻な脆弱性「php2shell」（CVE-2026-109618 / CVE-2026-109619）に対する修正パッチが公開された。 二つの脆弱性はいずれもCVSS v4.0で9.2と評価され、条件によ…"
+      "id": "753426891e45",
+      "title": "ブラウザで遊べる3D格闘ゲーム「A.I.L.A. FIGHTERS」を公開しました｜Claude Codeで開発",
+      "url": "https://zenn.dev/hideki_tamae/articles/00-reverse-game-funnel-measurement",
+      "publishedAt": "2026-10-23T02:59:30.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "画像は、下の動画のサムネイルです。映像はゲームの実際の画面です。 ▶ 今すぐ無料で遊べる（PCのキーボード用）：https://reverse-demo.pages.dev/?utm_source=zenn&utm_medium=arti…"
     },
     {
-      "id": "1c92a704d013",
-      "title": "Claude Code の「キックオフ・テンプレート」を作った話 — INTENT.md から始める",
-      "url": "https://zenn.dev/edy0327/articles/0904af94c91943",
-      "publishedAt": "2026-10-22T12:08:14.000Z",
-      "publisher": "edy0327",
-      "summary": "はじめに Claude Code で個人開発を進めるとき、CLAUDE.md・役割別サブエージェント・カスタムコマンドをプロジェクトごとに毎回手作りしていました。2つ目のプロジェクトを始める前に、空のフォルダで claude を起動して貼…"
+      "id": "ac482f2e0ff7",
+      "title": "AIに「読むだけ」と頼む前に、MCPの権限をどこで確かめるか",
+      "url": "https://zenn.dev/build_anotherme/articles/8f55b8f9d0f7fa",
+      "publishedAt": "2026-10-23T02:42:19.000Z",
+      "publisher": "谷口｜Another Me開発中",
+      "summary": "たとえば、社内の案件一覧をAIに読ませ、状況をまとめてもらいたいとします。「更新はせず、読むだけで」と伝え、MCPで接続しました。その接続が本当に読み取りだけに制限されているか、何を見れば判断できるでしょうか。 MCPは、AIが外部の機能…"
     },
     {
-      "id": "42fc69cbf3dd",
-      "title": "AIの「テストは成功しました」を鵜呑みにしない：実施範囲と未実施を分けて報告させる",
-      "url": "https://zenn.dev/madao1981/articles/20261017-ai-test-report-scope",
-      "publishedAt": "2026-10-22T11:00:07.000Z",
-      "publisher": "kojikoji_tech",
-      "summary": "AIに作業を頼むと、最後に「テストは成功しました」と返ってくることがあります。ただ、その一言だけでは、どこで・何を・どのデータで確かめた「成功」なのかが分かりません。 結論 テストの報告を「実施したこと／実施していないこと／結果」の3つに…"
+      "id": "b50dd151b4f4",
+      "title": "Claude Codeは放置54分で会話を自動要約する。止め方とrm確認の変更点",
+      "url": "https://zenn.dev/ainewsdaily/articles/20261019_claude_code_t1",
+      "publishedAt": "2026-10-23T02:17:00.000Z",
+      "publisher": "AIニュース",
+      "summary": "Claude Code の v2.1.299〜v2.1.301(2026年10月14日〜15日 UTC 公開)の3リリースを、実際に手を動かす項目に絞ってまとめた記事です。 リリースノートの箇条を番組が数えると合計329件(v2.1.29…"
     },
     {
-      "id": "831ba213593e",
-      "title": "AIレビューの指摘は、どこで直すのを止めるか",
-      "url": "https://zenn.dev/miyakona/articles/review-findings-stop-by-impact",
-      "publishedAt": "2026-10-22T10:41:50.000Z",
-      "publisher": "miyakona",
-      "summary": "AIエージェントがPRを作り、Copilotのコードレビューを受け、指摘を直して再レビューを依頼する。その手順を「追加の指摘がなくなるまで」繰り返していました。私が実現したかったのは、人間が毎回コメントを中継しなくても、AIエージェントが…"
+      "id": "be374443c984",
+      "title": "The Fox Pointed at the Wrong Thing",
+      "url": "https://zenn.dev/felice680/articles/9db07b2fe47689",
+      "publishedAt": "2026-10-23T02:09:46.000Z",
+      "publisher": "felicebodziony680",
+      "summary": "\"First, add some soil to the pot,\" says a cartoon fox. But its hand points at the watering can. The soil is right besid…"
     }
   ],
-  "fetchedAt": "2026-10-23T01:58:13.365Z",
+  "fetchedAt": "2026-10-23T07:12:13.479Z",
   "stale": false,
   "error": null
 }
