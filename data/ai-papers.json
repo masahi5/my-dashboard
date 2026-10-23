@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "cc57274b00a1",
-      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
-      "url": "https://huggingface.co/papers/2610.30113",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable s…",
-      "score": 21
-    },
-    {
       "id": "c23faf0432be",
       "title": "StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion",
       "url": "https://huggingface.co/papers/2610.28940",
@@ -28,14 +20,6 @@
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "summary": "Diffusion language models form answers through a sequence of revisable continuous states, but multi-agent systems usual…",
       "score": 7
-    },
-    {
-      "id": "87a55a8e8477",
-      "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.28909",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottle…",
-      "score": 6
     },
     {
       "id": "ae24172f3f52",
@@ -94,15 +78,31 @@
       "score": 2
     },
     {
+      "id": "408b81d37d3a",
+      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+      "url": "https://huggingface.co/papers/2610.26836",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "LLM agents that compute the right answer can still answer wrongly. Agent harnesses increasingly keep long tool outputs …",
+      "score": 1
+    },
+    {
       "id": "e53bf482153b",
       "title": "Bridged Self-Distillation for On-Policy Learning",
       "url": "https://huggingface.co/papers/2610.26397",
       "publishedAt": "2026-10-19T13:40:50.000Z",
       "summary": "On-policy distillation can transfer the reasoning capabilities of a strong teacher to a smaller student. However, disti…",
       "score": 1
+    },
+    {
+      "id": "9b090e927bbc",
+      "title": "MMedAgent-Plus: Scaling Multimodal Medical Agents across Modalities, Tasks and Workflows",
+      "url": "https://huggingface.co/papers/2610.27233",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "Medical workflows often require multiple interdependent analyses, but existing specialist and generalist AI models are …",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-22T23:38:44.363Z",
+  "fetchedAt": "2026-10-23T01:58:13.231Z",
   "stale": false,
   "error": null
 }
