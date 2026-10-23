@@ -11,15 +11,7 @@
       "url": "https://huggingface.co/papers/2610.30753",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "summary": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, exec…",
-      "score": 12
-    },
-    {
-      "id": "0bb3a49c5b92",
-      "title": "RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation",
-      "url": "https://huggingface.co/papers/2610.20091",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Video scene graph generation (VidSGG) aims to capture objects and their evolving relationships in videos. This requires…",
-      "score": 12
+      "score": 13
     },
     {
       "id": "c9f5cdfe520e",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2610.30418",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "summary": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assemble…",
-      "score": 8
+      "score": 11
     },
     {
       "id": "b090f883516c",
@@ -38,12 +30,28 @@
       "score": 6
     },
     {
+      "id": "16a4b2c4ec18",
+      "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.31198",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In …",
+      "score": 4
+    },
+    {
       "id": "2b702145340f",
       "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
       "url": "https://huggingface.co/papers/2610.27148",
       "publishedAt": "2026-10-19T00:00:00.000Z",
       "summary": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help. Falling relia…",
       "score": 4
+    },
+    {
+      "id": "d53d0dbf9735",
+      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+      "url": "https://huggingface.co/papers/2610.31651",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building ob…",
+      "score": 3
     },
     {
       "id": "e5a7546efe0a",
@@ -62,20 +70,12 @@
       "score": 2
     },
     {
-      "id": "d53d0dbf9735",
-      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
-      "url": "https://huggingface.co/papers/2610.31651",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building ob…",
-      "score": 2
-    },
-    {
-      "id": "1afe27857367",
-      "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research",
-      "url": "https://huggingface.co/papers/2610.30468",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Reproducing a published 3DGS paper takes weeks of expert engineering before any extension can be proposed. Prior autono…",
-      "score": 2
+      "id": "aec29875f827",
+      "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+      "url": "https://huggingface.co/papers/2610.25835",
+      "publishedAt": "2026-10-19T05:47:58.000Z",
+      "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many pass…",
+      "score": 1
     },
     {
       "id": "dd2e6f3017a9",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-10-23T20:34:54.567Z",
+  "fetchedAt": "2026-10-23T23:30:43.241Z",
   "stale": false,
   "error": null
 }
