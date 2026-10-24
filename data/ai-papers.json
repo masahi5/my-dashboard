@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2610.31198",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In …",
-      "score": 5
+      "score": 10
     },
     {
       "id": "2b702145340f",
@@ -35,6 +35,14 @@
       "url": "https://huggingface.co/papers/2610.27148",
       "publishedAt": "2026-10-19T00:00:00.000Z",
       "summary": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help. Falling relia…",
+      "score": 5
+    },
+    {
+      "id": "151d32178d82",
+      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+      "url": "https://huggingface.co/papers/2610.22722",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can recons…",
       "score": 4
     },
     {
@@ -43,15 +51,7 @@
       "url": "https://huggingface.co/papers/2610.31651",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building ob…",
-      "score": 3
-    },
-    {
-      "id": "151d32178d82",
-      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
-      "url": "https://huggingface.co/papers/2610.22722",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can recons…",
-      "score": 2
+      "score": 4
     },
     {
       "id": "aec29875f827",
@@ -59,6 +59,22 @@
       "url": "https://huggingface.co/papers/2610.25835",
       "publishedAt": "2026-10-19T05:47:58.000Z",
       "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many pass…",
+      "score": 3
+    },
+    {
+      "id": "e5ed08cb336a",
+      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+      "url": "https://huggingface.co/papers/2610.30043",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. E…",
+      "score": 2
+    },
+    {
+      "id": "64bcd29cbbcf",
+      "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+      "url": "https://huggingface.co/papers/2610.04184",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repea…",
       "score": 2
     },
     {
@@ -78,22 +94,6 @@
       "score": 2
     },
     {
-      "id": "e5ed08cb336a",
-      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
-      "url": "https://huggingface.co/papers/2610.30043",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. E…",
-      "score": 1
-    },
-    {
-      "id": "64bcd29cbbcf",
-      "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
-      "url": "https://huggingface.co/papers/2610.04184",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repea…",
-      "score": 1
-    },
-    {
       "id": "dd2e6f3017a9",
       "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
       "url": "https://huggingface.co/papers/2610.24385",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-10-24T07:05:33.191Z",
+  "fetchedAt": "2026-10-24T11:59:26.965Z",
   "stale": false,
   "error": null
 }
