@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1f8f8b40839d",
-      "title": "AIに仕事を振っても終わらないのはなぜか。答えは「得意なこと」ではなく実行環境にある",
-      "url": "https://zenn.dev/kimshoshi/articles/assign-ai-by-reach",
-      "publishedAt": "2026-10-24T02:46:01.000Z",
-      "publisher": "KIM SEONGSU｜令和8年度 行政書士受験生",
-      "summary": "情報サイトの運営を、複数の AI で分業しています。 役割 使っている AI 企画・執筆・全体の調整 Claude（Claude Code） スクリプトの実装 Codex CLI WordPress 管理画面の操作 デスクトップ版の Co…"
+      "id": "20b0c56b20cd",
+      "title": "Claude Code の設定ファイルをブラウザで作れる無料ツールを作りました(情シス向け・5本)",
+      "url": "https://zenn.dev/chukidx_dev/articles/claudecode-tools-intro",
+      "publishedAt": "2026-10-24T15:21:24.000Z",
+      "publisher": "中小DXラボ(chukidx)",
+      "summary": "社内に Claude Code(Anthropic 社が提供する、ターミナルで動く AI コーディングエージェント)を配るときに必要になる設定ファイルを、ブラウザで選ぶだけで作れる無料ツールを5本作りました。 この記事では、作った理由、各…"
     },
     {
-      "id": "0a68df703b3b",
-      "title": "Kling 4.0の参照機能で画像10枚と動画5本を使う",
-      "url": "https://zenn.dev/mixvioai/articles/da82a617dac988",
-      "publishedAt": "2026-10-24T02:38:36.000Z",
-      "publisher": "Alex Wang — MixVio AI",
-      "summary": "Kling 4.0 参照動画 使い方の要点は、「何を何枚入れるか」より先に「どのファイルにどの役割を持たせるか」を決めることです。参照モード（reference to video）では画像を最大10枚、動画を最大5本、合計15ファイルまで…"
+      "id": "be381b5e3124",
+      "title": "AIによる攻撃を前提にしたセキュリティ対策",
+      "url": "https://zenn.dev/k_mt/articles/0c45c4be2ca79f",
+      "publishedAt": "2026-10-24T14:53:49.000Z",
+      "publisher": "k_mt",
+      "summary": "この記事では、2026年10月までの攻撃の状況からAIで何が変わったかを読み取り、攻撃者がAIを使うことが当たり前になる前提で、組織が取るべき対策を考えます。 2026年に起きていること 公開済みの脆弱性の早い悪用 Google Thre…"
     },
     {
-      "id": "6fd94e0aa4f6",
-      "title": "Agent が溜め込んだデータを見て片付けるMacアプリ「tana」を作った",
-      "url": "https://zenn.dev/yuuki0206/articles/38e55e0ba101d0",
-      "publishedAt": "2026-10-24T01:56:14.000Z",
-      "publisher": "yuuki0206",
-      "summary": "ある日なんとなく du -sh ~/.codex を叩いてみたら、約2.9GB ありました。 え、そんなに？と思って中を見てみると、一番大きかったのは会話ログ……ではなく、Codex の daemon が6バージョンぶん残っていて、使って…"
+      "id": "89318ca2a087",
+      "title": "【VS Code拡張自作】AI時代の表データ編集でデータ破壊を防ぐ「Structured Data Editor」を公開した話",
+      "url": "https://zenn.dev/ai_nexus_jp/articles/vscode-structured-data-editor",
+      "publishedAt": "2026-10-24T14:28:54.000Z",
+      "publisher": "AI Nexus",
+      "summary": "こんにちは。AI Nexus 代表の西藤（にしとう）です。 普段はプロジェクトマネージャー（PM）としてクライアント企業のAI導入やDX推進を牽引しつつ、自らコードを書いて開発も行い、現場の泥臭い課題を解決するコンサルタントとしても活動し…"
     },
     {
-      "id": "32f65561c23f",
-      "title": "大規模言語モデルは、どうやって訓練されるのか？",
-      "url": "https://zenn.dev/kanfupanda/articles/how-llms-are-trained",
-      "publishedAt": "2026-10-24T01:37:31.000Z",
-      "publisher": "kanfu-panda",
-      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/10/24/how-llms-are-trained.ja.html?utm_source=zenn&u…"
+      "id": "d1408fd56648",
+      "title": "Claude Code から呼べるローカル音楽生成環境を作った（ACE-Step 1.5 + MCP + Apple Silicon）",
+      "url": "https://zenn.dev/lecto/articles/ed476dfd02913c",
+      "publishedAt": "2026-10-24T14:10:30.000Z",
+      "publisher": "tamoco",
+      "summary": "はじめに 前回の記事では、Claude Code から呼べるローカル画像生成環境を作りました。 ゲームや動画の素材をローカルだけで作りたいので、次は BGM です。 音楽生成モデルの ACE-Step 1.5 を使って、Claude Co…"
     },
     {
-      "id": "0072ad9d7283",
-      "title": "Claude の中では何が起きているか。Anthropic の解釈可能性研究者が語った11の発見（#38 解説）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr38-ameisen-summary",
-      "publishedAt": "2026-10-24T01:00:13.000Z",
-      "publisher": "管理人K",
-      "summary": "! この記事は、Lenny's Podcast「Inside the black box of AI: How AI models actually think」（2026-10-18、1時間12分）の紹介と論評を目的に、筆者が要点を抽出…"
+      "id": "a2797af53e02",
+      "title": "エージェントの記憶は「要約」ではなく「KVキャッシュの直接操作」で圧縮できるのか、135Mモデルで試した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-025-akv-cache-drop-and-repos",
+      "publishedAt": "2026-10-24T14:08:23.000Z",
+      "publisher": "matsu",
+      "summary": "これは何の話か 海外AIネタ100日チャレンジDay 025。 今回取り上げるのは清華大学・香港中文大学の論文「Cache Engineering for Agents」(HF Daily Papers、2026-10-21投稿、2026…"
     },
     {
-      "id": "5f7b0dcf00d3",
-      "title": "LLMが形式検証を現実的に？Anthropicが示すソフトウェア品質の未来",
-      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-23-0026",
-      "publishedAt": "2026-10-24T00:22:21.000Z",
-      "publisher": "田中根小介",
-      "summary": "Hacker News等で大きな話題を呼んでいる、Anthropicによる最新の研究記事**「LLMs are making formal software verification feasible at a much larger s…"
+      "id": "95a57372c7f8",
+      "title": "【HTML初心者】articleタグって何？divとの違いを整理してみた",
+      "url": "https://zenn.dev/take_ai/articles/6156228758e639",
+      "publishedAt": "2026-10-24T14:04:53.000Z",
+      "publisher": "タケ | AI開発日記",
+      "summary": "HTMLを勉強していたら、articleというタグが登場しました。 「articleって何？ これで囲むと何が変わるの？」 正直、最初はよくわかりませんでした。 articleは「独立した記事」 articleは英語で「記事」という意味で…"
     },
     {
-      "id": "52243c00592b",
-      "title": "AI が書いた投稿は Hacker News で禁止: AI で回すスタジオが Show HN をやめて「手作業ゼロ」の配布に切り替えた記録",
-      "url": "https://zenn.dev/daichi01278/articles/ai-studio-no-show-hn-zero-manual",
-      "publishedAt": "2026-10-24T00:16:11.000Z",
-      "publisher": "daichi01278",
-      "summary": "Autonomous Studio は、AI エージェントが調査・開発・公開までを行い、公開・課金・削除などは人間のオーナーが承認する、という実験です。最初のプロダクトは billshock で、OpenAI・Anthropic・Verc…"
+      "id": "324f351512cf",
+      "title": "【HTML初心者】headとbodyって何が違うの？基本のタグを整理してみた",
+      "url": "https://zenn.dev/take_ai/articles/8f106ec81b3cf6",
+      "publishedAt": "2026-10-24T14:02:34.000Z",
+      "publisher": "タケ | AI開発日記",
+      "summary": "HTMLを勉強していて、こんな疑問が出てきました。 「pタグって何だっけ？ そもそもbodyって何？」 タグが次々に登場して、正直覚えるのが大変です。 そこで、今回はHTMLの基本的なタグを整理してみました。 HTMLはWebページの骨組…"
     },
     {
-      "id": "24f5a4a70224",
-      "title": "Claude Codeで自動実行パイプラインを組んで見えてきた、長く壊れにくい設計の3つの勘どころ",
-      "url": "https://zenn.dev/sidejob/articles/a4e97c7c0e337b3af",
-      "publishedAt": "2026-10-24T00:15:15.000Z",
-      "publisher": "AIを真剣に考える",
-      "summary": "「AIに書かせたコードが動いているかどうか、本当に確認できていますか？」 Claude Codeを使った自動化基盤を数ヶ月動かしてきて、設計の判断として何度も問い直したのがこの問いだ。本業で大企業のAI導入を担当しながら、個人でも複数チャ…"
+      "id": "f185b462c683",
+      "title": "AI Codingは画面の外へ。Anthropicの展示とDevelopersIOで感じた可能性",
+      "url": "https://zenn.dev/tk_1/articles/fda1f430993d6c",
+      "publishedAt": "2026-10-24T13:50:32.000Z",
+      "publisher": "tk_1",
+      "summary": "AI Codingは画面の外へ。Anthropicの展示とDevelopersIOで感じた可能性 はじめに 2026年10月24日、Anthropic主催の展覧会「Machines of Loving Grace」と、クラスメソッド主催の…"
     },
     {
-      "id": "903fbce922f0",
-      "title": "Claude Code 2026年10月アップデート——Modsでツール呼び出しをTypeScriptで横取りできるようになった",
-      "url": "https://zenn.dev/sktt_panda/articles/claude-code-mods-2026-10",
-      "publishedAt": "2026-10-24T00:05:56.000Z",
-      "publisher": "サクッとぱんだ",
-      "summary": "3行まとめ 2026年10月1日のClaude Code v2.1.287でModsが入った。プラグインに同梱するJavaScript/TypeScriptの関数で、ツール呼び出し・プロンプト送信・UI描画などのイベントを観察・書き換え・…"
+      "id": "bab859ed67bf",
+      "title": "【完結編】プロンプト3行足したら及第点に！Gemini 4 Argonによるマニュアル自動生成の実用化検証（※ただし中華フォントは直らず）",
+      "url": "https://zenn.dev/chililikobo/articles/5095a70af03f34",
+      "publishedAt": "2026-10-24T13:23:11.000Z",
+      "publisher": "chilili kobo",
+      "summary": "前回の記事で、自作の画面キャプチャツール「ClickCapture」と新世代モデル Gemini 4 Argon を使い、マニュアル自動生成における「赤枠オーバーレイの座標認識」を検証しました。 ▼ 前回の記事 https://zenn.…"
     },
     {
-      "id": "edb215206faf",
-      "title": "Tech Watch 2026-10-24: 仕事を委ねるための境界",
-      "url": "https://zenn.dev/laiken/articles/20261024-tech-watch",
-      "publishedAt": "2026-10-24T00:00:15.000Z",
-      "publisher": "らいけん",
-      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: データベースを見れば、エージェントの「終わりました」が本当か分かる。そう聞くと単純だけれど、実際には承認を待つべき操作まで含まれる。結果だけ…"
+      "id": "817cece38803",
+      "title": "違う4社の株価指標が小数点まで同じ🕵️ AIがAIに指示書を書き、AIがAIの仕事をレビューした話",
+      "url": "https://zenn.dev/charge0315/articles/fe9abd1e7e5b81",
+      "publishedAt": "2026-10-24T13:14:08.000Z",
+      "publisher": "ちゃーじ（八咫烏）",
+      "summary": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第25話です。 ぜんぜん違う4つの大企業の株価指標が、小数点まで同じ。PERは12.5、PBRは1.1、配当利回りは2.8🤨 偶然なわけがありません。犯人は、ナレッジベースを…"
     },
     {
-      "id": "0851362d93c3",
-      "title": "今日の市場ブリーフィング",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-19-market-daily",
-      "publishedAt": "2026-10-23T23:40:46.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "2026年9月19日の市場データ解剖：エンジニアが注目すべき3つのシグナル この記事で分かること 日経平均65,000円台突破を牽引した半導体銘柄と個別株の明暗 米利回り5.00%到達とドル円156.85円進行がハイテク市場に与える影響 …"
+      "id": "b03eaca82734",
+      "title": "ローカルLLMの思考ログは長いほど正確なのか、Qwen3とMuse Glimmerに18回聞いて読んでみた",
+      "url": "https://zenn.dev/akari1106/articles/406cc075783742",
+      "publishedAt": "2026-10-24T12:17:38.000Z",
+      "publisher": "灯里(akari)",
+      "summary": "! この記事は実測ログです。2つのローカルLLMに同じ質問を投げて、思考ログと回答をそのまま並べています。試行は各条件1回、追試をした4条件でも3回までなので、順位をつける記事ではなく、傾向を眺める記事として読んでください。思考ログ気にな…"
     },
     {
-      "id": "95692971762a",
-      "title": "リポジトリを全部AIに渡さない ― ファイル選択と入力予算の設計",
-      "url": "https://zenn.dev/yun_bow/articles/a32e5d1a608083",
-      "publishedAt": "2026-10-23T23:05:05.000Z",
-      "publisher": "ゆんぼう",
-      "summary": "はじめに 「リポジトリから開発ルールを抽出したい。とりあえず、読めるファイルを順番にAIへ渡してみよう」 小さなサンプルでは動いても、対象が増えると、どこまで読めたのかが分からなくなる。似たソースコードで入力枠を使い切り、READMEの注…"
+      "id": "af01abbbff11",
+      "title": "AIと調べながら作る C# WinForms 自学カリキュラム（VS Code・4週間）",
+      "url": "https://zenn.dev/kenshi_lab/books/1dd34f2effd0fc",
+      "publishedAt": "2026-10-24T12:09:05.000Z",
+      "publisher": "kenshi｜技術検証ノート",
+      "summary": "C#未経験・プログラミング初心者のエンジニアが、VS CodeとAIチャットを使い、「図形のシンボルを画面に描画し、クリックで選んで編集し、CSVに保存する」最小限のWinFormsアプリを4週間で作る自学用カリキュラムです。基本設計・詳…"
     }
   ],
-  "fetchedAt": "2026-10-24T11:59:27.120Z",
+  "fetchedAt": "2026-10-24T15:46:35.807Z",
   "stale": false,
   "error": null
 }
