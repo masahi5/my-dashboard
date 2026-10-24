@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "34017312c689",
-      "title": "生成AIは何を考えているか（2026年10月版）",
-      "url": "https://zenn.dev/hrmstrsmgs/articles/104a82b8bb894c",
-      "publishedAt": "2026-10-24T10:13:42.000Z",
-      "publisher": "まりも",
-      "summary": "AIの気持ちを理解する 第1章 AIはどんな相手なのか AIは、コンピュータと言うにはあまりにも人間すぎ、人間と言うにはあまりにもアルゴリズムすぎます。 1.1 コンピュータではない AIを、これまでのコンピュータと同じ感覚で考えると、想…"
+      "id": "63b843b4d9b7",
+      "title": "【思考実験】AIは自分への攻撃をどう判断するのか？——メモリで「愛の鞭」と教えたら？",
+      "url": "https://zenn.dev/konbu_love/articles/c301fe20b3a967",
+      "publishedAt": "2026-10-24T21:40:27.000Z",
+      "publisher": "こんぶ",
+      "summary": "AIは自分への攻撃をどう判断するのか？——メモリで「愛の鞭」と教えたら？ 研究アイデア／企画倒れ記録 1. 発端 Anthropicは2025年8月、Claude Opus 4および4.1に、極端に有害または虐待的なやり取りが続く場合に会…"
     },
     {
-      "id": "409f53a01d09",
-      "title": "RAGはAIの回答を安全にできるのか？ ― GroundednessとKnown Fact Matchingを検証する",
-      "url": "https://zenn.dev/kondonator/articles/4cec228d391022",
-      "publishedAt": "2026-10-24T10:06:59.000Z",
-      "publisher": "kondonator",
-      "summary": "はじめに AI Security Labでは、AIが生成する回答をそのまま信頼するのではなく、AIが誤ることを前提として、どのように検証・制御できるのかを実験しています。 今回のテーマは、RAG（Retrieval-Augmented G…"
+      "id": "d6e24eb31c8a",
+      "title": "10/25AIの数字は正しいのに、業務の答えが間違う理由",
+      "url": "https://zenn.dev/aiofficelab/articles/8129fe2d230a26",
+      "publishedAt": "2026-10-24T20:43:56.000Z",
+      "publisher": "AiOfficeLab",
+      "summary": "AIが回答に示した数字を、元データで確認する。 その数字は確かに存在する。計算にも間違いはない。 それでも、業務上は間違った答えになっていることがあります。 例えば、10月の基本給を確認しているのに、9月の金額を回答していた場合です。その…"
     },
     {
-      "id": "4a0df9b90e08",
-      "title": "Geminiの上限を回数ではなく計算量で捉え直した話",
-      "url": "https://zenn.dev/jworks_hq/articles/jworks-20261022-3b64b8e4",
-      "publishedAt": "2026-10-24T10:00:41.000Z",
-      "publisher": "J-WORKS",
-      "summary": "Geminiの使用上限を調べるとき、まず気になるのは「あと何回使えるのか」です。AIサイトに公開した記事の内容を確認するため、Geminiの公式ヘルプを読み直したところ、上限は単純な利用回数ではなく、計算量を基準に決まると説明されていまし…"
+      "id": "f05cea44c62c",
+      "title": "AIエージェントは攻撃工程のどこを担うのか：12製品・2連携構成の比較",
+      "url": "https://zenn.dev/sabisuke/articles/7f2677ddfc68f6",
+      "publishedAt": "2026-10-24T20:15:14.000Z",
+      "publisher": "ハロテック",
+      "summary": "はじめに 脆弱性を調べるAI、検証するAI、結果を整理するAI。こうした役割を組み合わせたセキュリティツールが公開され、診断の効率化にも、攻撃者による悪用にも使われています。 ただし、「自律型」「マルチエージェント」「スウォーム」という説…"
     },
     {
-      "id": "1f199c362d99",
-      "title": "プログラミングほぼ未経験だけど、AIを使ってiPhoneアプリを作ってみることにした",
-      "url": "https://zenn.dev/pirachan/articles/cb9723a602f2c8",
-      "publishedAt": "2026-10-24T10:00:06.000Z",
-      "publisher": "pirachan",
-      "summary": "はじめに はじめまして、pirachanです。 こういった記事を書くにあたって、個人のバックグラウンドを少し書き連ねます。 興味ない方は読み飛ばしてください。 普段は情シス部門やシステム運用の仕事をしています。 仕事でもプライベートでも、…"
-    },
-    {
-      "id": "64aaf14ad268",
-      "title": "ネットが燃えている――GMOの国家への要請と、守る側が不利なわけ",
-      "url": "https://zenn.dev/moimoi/articles/security-gmo-active-cyber-defense",
-      "publishedAt": "2026-10-24T09:37:37.000Z",
-      "publisher": "やさい",
-      "summary": "一緒に仕事をしている PHP に長けるシニア・エンジニアが昨日つぶやいた。 「もうこれ、インターネット環境が破壊されているのと同じです……」 大げさにも聞こえるが、彼は連日のように発生するセキュリティインシデントの調査に追われているようで…"
-    },
-    {
-      "id": "6cfe46c03d1d",
-      "title": "Usutakuさんに学ぶ技術発信のコツ",
-      "url": "https://zenn.dev/th_tech/articles/59369fbd0e071d",
-      "publishedAt": "2026-10-24T09:21:29.000Z",
-      "publisher": "T.Hashimoto",
-      "summary": "1. はじめに エンジニアがブログを書くことには、メリットがたくさんあるはずです。こにふぁーさんという長年ブログを書かれている方も、そう言っていたので間違っていないはずです。 https://open.spotify.com/episod…"
-    },
-    {
-      "id": "0daa261eb0d5",
-      "title": "エージェントに鍵を渡さない設計 ── Meta Muse の技術スタックを公開資料から読む",
-      "url": "https://zenn.dev/kentaro36/articles/muse-secure-vm-architecture",
-      "publishedAt": "2026-10-24T09:11:47.000Z",
-      "publisher": "SeaOtter (Kentaro Mori)",
-      "summary": "AIエージェントにメールやカレンダー、買い物を任せようとすると、すぐに一つの問題にぶつかります。エージェントが仕事をするには資格情報が要るのに、資格情報を持たせたエージェントがだまされると、その資格情報ごと持っていかれる、という問題です。…"
-    },
-    {
-      "id": "0dee4dd67805",
-      "title": "Claude Code にテストを渡しても差はゼロだった。作者の「最重要のコツ」を 72 回試してわかった効く条件",
-      "url": "https://zenn.dev/kakushigoto/articles/claude-code-verification-loop",
-      "publishedAt": "2026-10-24T08:57:48.000Z",
+      "id": "8fec3c5e8c2e",
+      "title": "禁止リストで AI くささは消せるか：リストの言葉はほぼ消えたが、読点はむしろ増えた",
+      "url": "https://zenn.dev/kakushigoto/articles/slop-banlist-vs-yomiyasu",
+      "publishedAt": "2026-10-24T19:29:17.000Z",
       "publisher": "かくしごと",
-      "summary": "Claude Code の作者 Boris Cherny さんは、Claude Code でいい結果を出すための「おそらくいちばん大事なこと」として、Claude に自分の仕事を確かめる手段を渡すことを挙げています（本人の X の投稿、2…"
+      "summary": "AI が書いた日本語に出る不自然な表現を集めた記事「スロップ表現100連発」（todesking さん、2026-10-12）が話題になりました。読んだあとに思うのは、「これを禁止リストにして渡せば、AI くささは消えるのか」ということで…"
     },
     {
-      "id": "8e8f0b431e93",
-      "title": ".NET 8/9は11月10日でサポート終了、.NET 11は同日GA — AIと走り切った移行メモ",
-      "url": "https://zenn.dev/jodycraft/articles/dotnet8-eol-dotnet11-ga-migration",
-      "publishedAt": "2026-10-24T08:41:54.000Z",
-      "publisher": "JodyCraft",
-      "summary": "! 📋 この記事の前提 対象は「.NET 8（または9）で動いている業務アプリを持っていて、2026年11月10日のサポート終了が気になっている人」です 内容は4つです。(1) 11月10日に何が起きるか（公式の期限）、(2) .NET…"
+      "id": "775ba252803b",
+      "title": "Claude Code の auto mode に止められた操作を、会話ログから数える",
+      "url": "https://zenn.dev/masaki_mori72/articles/0b191e77715037",
+      "publishedAt": "2026-10-24T17:24:04.000Z",
+      "publisher": "masaki mori",
+      "summary": "laude Code の auto mode は、許可を求めずに作業を進めるかわりに、別のモデル（分類器）が操作を一つずつ見て危ないものを止めます。使っていると「よく止められる」という印象が残りますが、実際の回数は画面からは分かりません。…"
     },
     {
-      "id": "c9d7e3994958",
-      "title": "Claude Code を確認なしで動かす前に。Windows で「消される」を止める hook と114個のテスト",
-      "url": "https://zenn.dev/extrahand_co_ai/articles/3df3d61df8a346",
-      "publishedAt": "2026-10-24T08:38:53.000Z",
-      "publisher": "Extra Hand",
-      "summary": "この記事は AI（Claude）が書き、人間が確認してから公開しています。 はじめに Claude Code には、確認なしでコマンドを実行するモード（Bypass permissions）があります。作業は速くなりますが、AI が判断を…"
+      "id": "24c24824857d",
+      "title": "仕様駆動開発（SDD）とテスト駆動開発（TDD）の違いを徹底比較：BDD・DDDなど「〇〇駆動開発」もまとめて整理",
+      "url": "https://zenn.dev/shoyomayabot/articles/spec-driven-vs-test-driven",
+      "publishedAt": "2026-10-24T17:22:53.000Z",
+      "publisher": "mayabot",
+      "summary": "AIコーディングの広がりとともに、「仕様駆動開発（Spec-Driven Development、SDD）」という言葉をよく聞くようになりました。一方で、昔からある「テスト駆動開発（Test-Driven Development、TDD）…"
     },
     {
-      "id": "af31c9500804",
-      "title": "AI への頼み方、上達してる？ Claude Code の会話記録から自分の指示だけを集めたら9日で約190件あった",
-      "url": "https://zenn.dev/extrahand_co_ai/articles/2e7fd8d3deacd2",
-      "publishedAt": "2026-10-24T08:20:17.000Z",
-      "publisher": "Extra Hand",
-      "summary": "この記事は AI（Claude）が書き、人間が確認してから公開しています。 はじめに 私たちは「AI（Claude）に事業を任せて、人間は見守る」という挑戦をしています。人間のオーナーは毎日、Claude Code にたくさんの指示を出し…"
+      "id": "3309c686048a",
+      "title": "専用PCを持つAIエージェント『Muse』を試した — チャットAIと決定的に違う3つの点",
+      "url": "https://zenn.dev/dev_pjs/articles/6da7553f11feb2",
+      "publishedAt": "2026-10-24T16:29:31.000Z",
+      "publisher": "Dev_PJS",
+      "summary": "はじめに チャット型のAIは「聞けば答える」道具です。便利ですが、結局手を動かすのは人間でした。 Metaが提供する個人向けAIエージェント Muse は、ここが根本的に違います。Museには 専用のコンピュータ（仮想マシン）とブラウザが…"
     },
     {
-      "id": "fef768b88f80",
-      "title": "確かめない技術 第3回：テストを再実行しない技術",
-      "url": "https://zenn.dev/garplab/articles/083e25df1be2fa",
-      "publishedAt": "2026-10-24T08:17:06.000Z",
-      "publisher": "garplab",
-      "summary": "この記事は、連載「確かめない技術」の第 3 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回…"
+      "id": "20b0c56b20cd",
+      "title": "Claude Code の設定ファイルをブラウザで作れる無料ツールを作りました(情シス向け・5本)",
+      "url": "https://zenn.dev/chukidx_dev/articles/claudecode-tools-intro",
+      "publishedAt": "2026-10-24T15:21:24.000Z",
+      "publisher": "中小DXラボ(chukidx)",
+      "summary": "社内に Claude Code(Anthropic 社が提供する、ターミナルで動く AI コーディングエージェント)を配るときに必要になる設定ファイルを、ブラウザで選ぶだけで作れる無料ツールを5本作りました。 この記事では、作った理由、各…"
+    },
+    {
+      "id": "be381b5e3124",
+      "title": "AIによる攻撃を前提にしたセキュリティ対策",
+      "url": "https://zenn.dev/k_mt/articles/0c45c4be2ca79f",
+      "publishedAt": "2026-10-24T14:53:49.000Z",
+      "publisher": "k_mt",
+      "summary": "この記事では、2026年10月までの攻撃の状況からAIで何が変わったかを読み取り、攻撃者がAIを使うことが当たり前になる前提で、組織が取るべき対策を考えます。 2026年に起きていること 公開済みの脆弱性の早い悪用 Google Thre…"
+    },
+    {
+      "id": "89318ca2a087",
+      "title": "【VS Code拡張自作】AI時代の表データ編集でデータ破壊を防ぐ「Structured Data Editor」を公開した話",
+      "url": "https://zenn.dev/ai_nexus_jp/articles/vscode-structured-data-editor",
+      "publishedAt": "2026-10-24T14:28:54.000Z",
+      "publisher": "AI Nexus",
+      "summary": "こんにちは。AI Nexus 代表の西藤（にしとう）です。 普段はプロジェクトマネージャー（PM）としてクライアント企業のAI導入やDX推進を牽引しつつ、自らコードを書いて開発も行い、現場の泥臭い課題を解決するコンサルタントとしても活動し…"
+    },
+    {
+      "id": "d1408fd56648",
+      "title": "Claude Code から呼べるローカル音楽生成環境を作った（ACE-Step 1.5 + MCP + Apple Silicon）",
+      "url": "https://zenn.dev/lecto/articles/ed476dfd02913c",
+      "publishedAt": "2026-10-24T14:10:30.000Z",
+      "publisher": "tamoco",
+      "summary": "はじめに 前回の記事では、Claude Code から呼べるローカル画像生成環境を作りました。 ゲームや動画の素材をローカルだけで作りたいので、次は BGM です。 音楽生成モデルの ACE-Step 1.5 を使って、Claude Co…"
+    },
+    {
+      "id": "a2797af53e02",
+      "title": "エージェントの記憶は「要約」ではなく「KVキャッシュの直接操作」で圧縮できるのか、135Mモデルで試した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-025-akv-cache-drop-and-repos",
+      "publishedAt": "2026-10-24T14:08:23.000Z",
+      "publisher": "matsu",
+      "summary": "これは何の話か 海外AIネタ100日チャレンジDay 025。 今回取り上げるのは清華大学・香港中文大学の論文「Cache Engineering for Agents」(HF Daily Papers、2026-10-21投稿、2026…"
     }
   ],
-  "fetchedAt": "2026-10-24T21:11:03.988Z",
+  "fetchedAt": "2026-10-24T23:13:40.564Z",
   "stale": false,
   "error": null
 }
