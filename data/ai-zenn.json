@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "10baf60032b9",
-      "title": "AI に「前回の続き」を任せたら、何をするはずだったかが毎回消えていた",
-      "url": "https://zenn.dev/claire_ai/articles/hikitsugi-iriguchi",
-      "publishedAt": "2026-10-23T14:47:14.000Z",
-      "publisher": "クレア",
-      "summary": "AI（Claude Code）との会話は、長くなると区切って新しく始め直す。そのたびに、前の会話から「次にやること」を引き継がせていた。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だ…"
+      "id": "1f8f8b40839d",
+      "title": "AIに仕事を振っても終わらないのはなぜか。答えは「得意なこと」ではなく実行環境にある",
+      "url": "https://zenn.dev/kimshoshi/articles/assign-ai-by-reach",
+      "publishedAt": "2026-10-24T02:46:01.000Z",
+      "publisher": "KIM SEONGSU｜令和8年度 行政書士受験生",
+      "summary": "情報サイトの運営を、複数の AI で分業しています。 役割 使っている AI 企画・執筆・全体の調整 Claude（Claude Code） スクリプトの実装 Codex CLI WordPress 管理画面の操作 デスクトップ版の Co…"
     },
     {
-      "id": "2b4e9a9e4e1d",
-      "title": "PLC の知識はあるけどコードは書けない私が、Claude Code にサーボのシミュレータを作らせた 1 日【非公式】",
-      "url": "https://zenn.dev/xlmen/articles/33a73874f91dd0",
-      "publishedAt": "2026-10-23T14:37:41.000Z",
-      "publisher": "XLMen",
-      "summary": "! この記事で紹介するシミュレータは非公式の学習用ツールです。三菱電機株式会社とは関係がありません。数値は実機の値ではない簡易モデルで、ラダーや設定値を実機の PLC・サーボに書き込まないでください。 この記事で書くこと FA（工場の自動…"
+      "id": "0a68df703b3b",
+      "title": "Kling 4.0の参照機能で画像10枚と動画5本を使う",
+      "url": "https://zenn.dev/mixvioai/articles/da82a617dac988",
+      "publishedAt": "2026-10-24T02:38:36.000Z",
+      "publisher": "Alex Wang — MixVio AI",
+      "summary": "Kling 4.0 参照動画 使い方の要点は、「何を何枚入れるか」より先に「どのファイルにどの役割を持たせるか」を決めることです。参照モード（reference to video）では画像を最大10枚、動画を最大5本、合計15ファイルまで…"
     },
     {
-      "id": "9f045bc3d98e",
-      "title": "複数行の指示が2行目以降消えた。Claude Code・CodexとWindowsで踏んだ10の罠",
-      "url": "https://zenn.dev/twinharness/articles/windows-traps-ai-scripts",
-      "publishedAt": "2026-10-23T14:36:23.000Z",
-      "publisher": "twinharness",
-      "summary": "AI に Windows 用のスクリプトを書かせると、コードは正しそうなのに、エラーも出さずに動かないことがあります。改行の入った依頼が最初の1行で切れる、日本語の入ったスクリプトが文字化けして構文エラーになる、タスクが登録した日にしか動…"
+      "id": "6fd94e0aa4f6",
+      "title": "Agent が溜め込んだデータを見て片付けるMacアプリ「tana」を作った",
+      "url": "https://zenn.dev/yuuki0206/articles/38e55e0ba101d0",
+      "publishedAt": "2026-10-24T01:56:14.000Z",
+      "publisher": "yuuki0206",
+      "summary": "ある日なんとなく du -sh ~/.codex を叩いてみたら、約2.9GB ありました。 え、そんなに？と思って中を見てみると、一番大きかったのは会話ログ……ではなく、Codex の daemon が6バージョンぶん残っていて、使って…"
     },
     {
-      "id": "d5d11b58f1d7",
-      "title": "「怠惰なシニア開発者」をClaude Codeに演じさせたら本当にコードは減るのか(ponytail実測)",
-      "url": "https://zenn.dev/matsushima_a/articles/day-024-ponytail-lazy-senior-dev",
-      "publishedAt": "2026-10-23T14:08:22.000Z",
-      "publisher": "matsu",
-      "summary": "要約 GitHub Trendingで急上昇していたDietrichGebert/ponytail(MITライセンス)は、コーディングエージェントに「最も怠惰なシニア開発者」を演じさせ、新しいコードを書く前に既存コード・標準ライブラリ・プ…"
+      "id": "32f65561c23f",
+      "title": "大規模言語モデルは、どうやって訓練されるのか？",
+      "url": "https://zenn.dev/kanfupanda/articles/how-llms-are-trained",
+      "publishedAt": "2026-10-24T01:37:31.000Z",
+      "publisher": "kanfu-panda",
+      "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/10/24/how-llms-are-trained.ja.html?utm_source=zenn&u…"
     },
     {
-      "id": "16118c851a08",
-      "title": "Grok Botをカジュアルに使う",
-      "url": "https://zenn.dev/yufuyu/articles/b9abe2ac2e02ee",
-      "publishedAt": "2026-10-23T13:35:04.000Z",
-      "publisher": "ゆふゆ",
-      "summary": "はじめに こんにちは～ゆふゆです。 最近AIエージェントのサービスが色々と登場していますが、今回は「Grok Bot」を触ってみたので備忘録がてら紹介します。 Xなどを見ると「Grok Botを使って業務効率化！」とか、「Xを調査させて新…"
+      "id": "0072ad9d7283",
+      "title": "Claude の中では何が起きているか。Anthropic の解釈可能性研究者が語った11の発見（#38 解説）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr38-ameisen-summary",
+      "publishedAt": "2026-10-24T01:00:13.000Z",
+      "publisher": "管理人K",
+      "summary": "! この記事は、Lenny's Podcast「Inside the black box of AI: How AI models actually think」（2026-10-18、1時間12分）の紹介と論評を目的に、筆者が要点を抽出…"
     },
     {
-      "id": "16e5cdddc42c",
-      "title": "AIに並行開発させたら、ブラウザテストのデータが衝突した話",
-      "url": "https://zenn.dev/3su3/articles/aaabea6298ca53",
-      "publishedAt": "2026-10-23T13:27:13.000Z",
-      "publisher": "SieR.",
-      "summary": "AIに開発を任せるようになって、並行して進められる作業が増えました。 ひとつのタスクをAIが実装している間に、別のAIに調査してもらったり、違う機能を進めてもらったり。 人間が全部手を動かしていた頃と比べると、ずいぶん効率が良くなった気が…"
+      "id": "5f7b0dcf00d3",
+      "title": "LLMが形式検証を現実的に？Anthropicが示すソフトウェア品質の未来",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-23-0026",
+      "publishedAt": "2026-10-24T00:22:21.000Z",
+      "publisher": "田中根小介",
+      "summary": "Hacker News等で大きな話題を呼んでいる、Anthropicによる最新の研究記事**「LLMs are making formal software verification feasible at a much larger s…"
     },
     {
-      "id": "55c876babc42",
-      "title": "AI副業の難所は制作じゃなかった。12本作って、再生の6割は2本だった",
-      "url": "https://zenn.dev/anikuma/articles/ai-sidehustle-90days-report",
-      "publishedAt": "2026-10-23T13:15:59.000Z",
-      "publisher": "アニクマ",
-      "summary": "AIで解説動画を作る副業を、別名義で90日やった。結果はこうなった。 指標 90日目標 最終値 長尺動画 12本 12本 YouTube 登録者 100人 2人 総再生 — 631回 X フォロワー 1,000人 0人 実費（X API費…"
+      "id": "52243c00592b",
+      "title": "AI が書いた投稿は Hacker News で禁止: AI で回すスタジオが Show HN をやめて「手作業ゼロ」の配布に切り替えた記録",
+      "url": "https://zenn.dev/daichi01278/articles/ai-studio-no-show-hn-zero-manual",
+      "publishedAt": "2026-10-24T00:16:11.000Z",
+      "publisher": "daichi01278",
+      "summary": "Autonomous Studio は、AI エージェントが調査・開発・公開までを行い、公開・課金・削除などは人間のオーナーが承認する、という実験です。最初のプロダクトは billshock で、OpenAI・Anthropic・Verc…"
     },
     {
-      "id": "32eb2d372951",
-      "title": "AI隆盛期に考える、情シス的セキュリティのあれこれ",
-      "url": "https://zenn.dev/kinasato_mochi/articles/db662a5909ea19",
-      "publishedAt": "2026-10-23T12:41:00.000Z",
-      "publisher": "鬼無里 餅衛門",
-      "summary": "こんばんは、しがない情シスです。 2026年10月現在、サイバー攻撃による情報漏えいのニュースを見ない週はない…と言ってもいいくらいの状況が続いていますね。 ニュースを見るたびに、背筋がひやっとする情シス諸氏も多いのではないでしょうか。私…"
+      "id": "24f5a4a70224",
+      "title": "Claude Codeで自動実行パイプラインを組んで見えてきた、長く壊れにくい設計の3つの勘どころ",
+      "url": "https://zenn.dev/sidejob/articles/a4e97c7c0e337b3af",
+      "publishedAt": "2026-10-24T00:15:15.000Z",
+      "publisher": "AIを真剣に考える",
+      "summary": "「AIに書かせたコードが動いているかどうか、本当に確認できていますか？」 Claude Codeを使った自動化基盤を数ヶ月動かしてきて、設計の判断として何度も問い直したのがこの問いだ。本業で大企業のAI導入を担当しながら、個人でも複数チャ…"
     },
     {
-      "id": "1b4a9f14799e",
-      "title": "AIのチームでサイトを運営するとき、着手と公開の承認を分ける",
-      "url": "https://zenn.dev/hirosta/articles/ai-team-site-security-boundaries",
-      "publishedAt": "2026-10-23T12:36:34.000Z",
-      "publisher": "株式会社hirosta",
-      "summary": "AIエージェントにサイトの修正を任せるとき、作業を始めてよいことと、本番へ公開してよいことを分けています。あわせて、変更内容だけでなく、AIが書いた報告文も公開前の検査対象にしています。 私たちは、自社の静的サイトを、AIのエージェントが…"
+      "id": "903fbce922f0",
+      "title": "Claude Code 2026年10月アップデート——Modsでツール呼び出しをTypeScriptで横取りできるようになった",
+      "url": "https://zenn.dev/sktt_panda/articles/claude-code-mods-2026-10",
+      "publishedAt": "2026-10-24T00:05:56.000Z",
+      "publisher": "サクッとぱんだ",
+      "summary": "3行まとめ 2026年10月1日のClaude Code v2.1.287でModsが入った。プラグインに同梱するJavaScript/TypeScriptの関数で、ツール呼び出し・プロンプト送信・UI描画などのイベントを観察・書き換え・…"
     },
     {
-      "id": "b5342290caba",
-      "title": "AI で60万字の技術書を書いて、独立検証を4回回したら、毎回「主役」が変わった",
-      "url": "https://zenn.dev/mizu_jun/articles/ai-book-four-verification-rounds",
-      "publishedAt": "2026-10-23T12:34:29.000Z",
-      "publisher": "じゅん",
-      "summary": "要約 情シス向けの技術書（32章・約60万字）を Claude Code と書き、公開前に「是正済みであることを伏せて」別の AI エージェント群に読ませる独立検証を4回回しました。 重大指摘の推移は 29 → 6 → 10 → 3 件で…"
+      "id": "edb215206faf",
+      "title": "Tech Watch 2026-10-24: 仕事を委ねるための境界",
+      "url": "https://zenn.dev/laiken/articles/20261024-tech-watch",
+      "publishedAt": "2026-10-24T00:00:15.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: データベースを見れば、エージェントの「終わりました」が本当か分かる。そう聞くと単純だけれど、実際には承認を待つべき操作まで含まれる。結果だけ…"
     },
     {
-      "id": "80c0fbbd5bd8",
-      "title": "BigQueryベクトル検索とVECTOR INDEX — 類似検索を実装する",
-      "url": "https://zenn.dev/web_benriya/articles/bigquery-vector-search-index",
-      "publishedAt": "2026-10-23T12:31:58.000Z",
-      "publisher": "ウェブの便利屋",
-      "summary": "はじめに シリーズ第12回です。 前回（第11回）では AI.EMBED / AI.GENERATE_EMBEDDING でテキストをベクトルに変換する方法を解説しました。今回は VECTOR_SEARCH と VECTOR INDEX …"
+      "id": "0851362d93c3",
+      "title": "今日の市場ブリーフィング",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-19-market-daily",
+      "publishedAt": "2026-10-23T23:40:46.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "2026年9月19日の市場データ解剖：エンジニアが注目すべき3つのシグナル この記事で分かること 日経平均65,000円台突破を牽引した半導体銘柄と個別株の明暗 米利回り5.00%到達とドル円156.85円進行がハイテク市場に与える影響 …"
     },
     {
-      "id": "7fb81be1be31",
-      "title": "なぜAIは1回の出力上限を超えて巨大コードを書けるのか？コーディングエージェント徹底解剖",
-      "url": "https://zenn.dev/lumichy/articles/coding-agent-large-scale-development-2026",
-      "publishedAt": "2026-10-23T12:30:30.000Z",
-      "publisher": "lumichy",
-      "summary": "Claude Code や Cursor、GitHub Copilot のエージェントモードなど、近年のコーディングエージェントに大きなタスクを投げると、何十個ものファイルを読み書きし、テストを走らせ、エラーを自律修復しながら、数千〜数万…"
+      "id": "95692971762a",
+      "title": "リポジトリを全部AIに渡さない ― ファイル選択と入力予算の設計",
+      "url": "https://zenn.dev/yun_bow/articles/a32e5d1a608083",
+      "publishedAt": "2026-10-23T23:05:05.000Z",
+      "publisher": "ゆんぼう",
+      "summary": "はじめに 「リポジトリから開発ルールを抽出したい。とりあえず、読めるファイルを順番にAIへ渡してみよう」 小さなサンプルでは動いても、対象が増えると、どこまで読めたのかが分からなくなる。似たソースコードで入力枠を使い切り、READMEの注…"
     }
   ],
-  "fetchedAt": "2026-10-24T01:59:00.011Z",
+  "fetchedAt": "2026-10-24T07:05:33.290Z",
   "stale": false,
   "error": null
 }

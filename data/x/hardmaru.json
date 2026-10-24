@@ -2,15 +2,6 @@
   "handle": "hardmaru",
   "tweets": [
     {
-      "id": "2113769673141702949",
-      "url": "https://x.com/SakanaAILabs/status/2113769673141702949",
-      "text": "Sakana NamazuのAPI提供に向けて@modalと進めてきた推論最適化の取り組みが、同社ブログで紹介されました。\n\nmodal.com/blog/sakana-case-s…\n\n・日本語性能を保ったままNVFP4で量子化\n・Namazuの出力で学習したドラフトモデルによる投機的デコーディングで、1ステップあたりの受理トークン数が43%向上\n・KV-aware routingにより、応答開始までの待ち時間の急増を解消\n\nModal社の皆さまに感謝するとともに、今後もより速く安定したモデル提供に向けた技術革新を進めていきます。",
-      "publishedAt": "2026-10-23T23:08:56.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
       "id": "2112061248095564280",
       "url": "https://x.com/hardmaru/status/2112061248095564280",
       "text": "Schmidhuber will also be going to Kyoto next month ⛩️",
@@ -90,9 +81,18 @@
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
+    },
+    {
+      "id": "2105483089606742306",
+      "url": "https://x.com/hardmaru/status/2105483089606742306",
+      "text": "I just published an op-ed in @NikkeiAsia on why the future of AI belongs to the orchestrators.\n\nA school of fish does things no single fish can. The same is true for AI.\n\nI wrote about why the next phase of AI development won't necessarily be about building the largest models. As frontier scaling begins to slow, it will be about mastering orchestration.\n\nOn collective intelligence, sovereign AI, and why constraint forces smarter architecture:\nasia.nikkei.com/opinion/the-…\n\nThat is exactly what we are building here in Tokyo. 🐟",
+      "publishedAt": "2026-10-01T02:21:01.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-23T23:31:11.888Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 403 Forbidden / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-24T07:05:59.870Z",
+  "stale": false,
+  "error": null
 }
