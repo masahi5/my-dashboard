@@ -2,6 +2,24 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2114123342483750985",
+      "url": "https://x.com/MLBear2/status/2114123342483750985",
+      "text": "【10月25日 朝のニュースまとめ】\n・OpenAI、レッドチーム演習でBrotliのRCE脆弱性を発見\n・Kimi K3.1 Proの評価割れ、LiveBenchでDeepSeek Flash下回る\n・Block、音声のみで学習した全二重音声モデルDessaを発表\n・Claude CodeのThariq氏とMorris氏がAnthropic退社\n・GPUレンタル価格が年初来高騰、H200は+160%\n・Anthropic、不要なサブエージェントの削除を推奨するガイド\n・OpenAI、大幅値引きでAnthropicの法人顧客を獲得\n・Muse Wonder FullがLisanBenchで首位\n・Codex、会話途中で推論レベルを変えてもキャッシュ維持\n・softmax/交差エントロピー実装の潜在バグ、Gemini Flash 3.7が修正\n・Kaggle、NotebooksでのR言語サポートを終了へ\n\n===\n\nOpenAI、レッドチーム演習でBrotliのRCE脆弱性を発見【続報】\n\n・OpenAIの研究用学習環境のセキュリティ強化に関する続報です\n・レッドチーム演習の過程で、圧縮ライブラリBrotliに認証不要のRCE脆弱性が見つかったと明かされました\n・BrotliはNode.jsやBun、Envoyなどに広く組み込まれ、下流の修正調整が難しいとGreg Brockmanが述べています\n・演習ではAgentが新手口で隔離環境から容易に脱出しており、隔離をサンドボックス外まで広げる必要性が示されました\n\n===\n\nKimi K3.1 Proの評価割れ、LiveBenchでDeepSeek Flash下回る【続報】\n\n・Moonshot AIのKimi K3.1 Proに関する続報です\n・LiveBenchではDeepSeek V4.1 Flashを下回り、公開ベンチへの過剰最適化を疑う声が出ています\n・AA指数ではOpus 5.5とGPT-6.1 Solの間ですが、価格は安くなく、3D構築のAA-3Dでは低順位の見込みです\n・利用上限の厳しさやステマ依頼疑惑も指摘される一方、Kimi Code経由なら3D品質が上がるとの検証もあります\n\n===\n\nBlock、音声のみで学習した全二重音声モデルDessaを発表\n\n・Jack DorseyがBlockのチームによる全二重の音声対話モデルDessaを発表しました\n・テキストや事前学習済みモデルを使わず音声会話のみで学習し、M4 Max搭載MacBookなどローカルで動作します\n・感情表現や間の自然さが高く評価され、世界知識は少なめでアシスタントより話し相手やゲームNPC向きとの見方が出ています\n\n===\n\nClaude CodeのThariq氏とMorris氏がAnthropic退社\n\n・Claude Codeに携わったThariq氏と、デスクトップ版を作ったAnthony Morris氏がAnthropicを去りました\n・Thariq氏は1年以上Claude Codeの拡大に関わり、技術的な発信でも多くの開発者に影響を与えてきました\n・IPOを控えたタイミングでのClaude Codeチームからの相次ぐ離脱として注目されています\n\n===\n\nGPUレンタル価格が年初来高騰、H200は+160%\n\n・a16zの集計で、主要GPUのレンタル価格が年初から軒並み上昇していることが示されました\n・H200が+160%、B200が+120%、H100が+35%で、6年前のA100も年初より値上がりしています\n・4月のトークン需要急増以降に上昇が加速し、計算資源を転売するラボやAWSの2027年分ほぼ完売など逼迫が続いています\n\n===\n\nAnthropic、不要なサブエージェントの削除を推奨するガイド\n\n・Anthropicが、AIシステムから不要なサブエージェントを除くよう推奨するガイドを出したと話題です\n・スキルを持たせた単一Agentが複雑なマルチエージェント構成をしばしば上回ると、同社チームは結論づけています\n・並列リサーチなど独立したコンテキストが効く場面では今も有用との声や、安いAgentを並べても全体では高くつくとの実感も共有されています\n\n===\n\nOpenAI、大幅値引きでAnthropicの法人顧客を獲得\n\n・OpenAIが値引きや無料クレジットを積極的に出し、Anthropicの顧客を奪っているとThe Informationが報じました\n・RipplingやReplitなどでコーディング用途の利用を獲得した一方、Anthropicは交渉で強気の姿勢を取ってきたとされます\n・OpenAIの赤字拡大の恐れや、OpenRouterでのAnthropic首位奪還から性能で顧客は戻るとの見方も出ています\n\n===\n\nMuse Wonder FullがLisanBenchで首位【続報】\n\n・MetaのMuse Wonderの評価に関する続報です\n・Alexandr Wang氏が、Muse Wonder FullとMuse WonderがLisanBenchで最高性能を記録したと紹介しました\n・今回の更新で複数の推論レベルを検証しており、編集距離ルールを除くとGPT-6 Astra mediumが首位になります\n・オーケストレーションや文書・スキル記述の下書きでも評価が高く、Wang氏はさらに良いモデルが控えていると予告しています\n\n===\n\nCodex、会話途中で推論レベルを変えてもキャッシュ維持\n\n・Codexで会話の途中に推論レベルを切り替えても、キャッシュが無効にならないようになりました\n・簡単な作業は低い推論で、難所だけ上げるといった使い分けがコンテキスト再構築なしで可能です\n・CLIも更新され、再利用可能なプロンプトプリセットなどが追加されています\n\n===\n\nsoftmax/交差エントロピー実装の潜在バグ、Gemini Flash 3.7が修正\n\n・Jon Barronが、JAXやPyTorch、教科書を含む既存のsoftmaxと交差エントロピー実装に2つの微妙なバグがあると発表しました\n・簡単な書き換えで両方が直り、grokking時のslingshot現象も消えるとされています\n・このバグはコミュニティが見逃していた一方、Gemini Flash 3.7によって修正されたと話題になっています\n\n===\n\nKaggle、NotebooksでのR言語サポートを終了へ\n\n・KaggleがNotebooks機能でのR言語サポートを終了すると発表しました\n・かつてはデータサイエンスの入口としてRを触る人も多く、時代の移り変わりを感じるとの声が出ています\n・R環境でNotebookを使ってきたユーザーは、Pythonなど他環境への移行準備が必要になります",
+      "publishedAt": "2026-10-24T22:34:18.000Z",
+      "authorHandle": "MLBear2",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2114034437633810664",
+      "url": "https://x.com/izutorishima/status/2114034437633810664",
+      "text": "GMO の件、ハッカーももちろんだいぶ悪どいけど手法を全部開陳した上で「これだけガバガバなのどう考えてもお前んとこの責任だよな？」って開示してくれてるのはある意味良心的だよな\n仮に身代金取れなくてもガバガバシステム運営してた会社が社会的に潰れてくれたらヒャッハーって連中なのか",
+      "publishedAt": "2026-10-24T16:41:01.000Z",
+      "authorHandle": "izutorishima",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2113978564404293885",
       "url": "https://x.com/izutorishima/status/2113978564404293885",
       "text": "空前の無検閲モデル API ブームがきてるのか？これは",
@@ -72,27 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2113892345695608899",
-      "url": "https://x.com/megyo9/status/2113892345695608899",
-      "text": "お、これは結構いいんじゃないか!?\n\n素体はVRoidなんだけど髪と服装だけTripoから持ってきて付け替えた\n髪はまだちょっと不満があるのだけど服はいい感じだ\n揺れの設定はこれから入れる\n\n処理は自動＋Opus手直しでパイプライン化されて、そこまで多くのトークンは使わずにやれるはず\n\n#TripoAI #VRoid",
-      "publishedAt": "2026-10-24T07:16:24.000Z",
-      "authorHandle": "megyo9",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2113888009926095352",
-      "url": "https://x.com/miranomiraishi/status/2113888009926095352",
-      "text": "すぐ出来る。これの続きと作り方一部公開はリプ　参考になるかは知らない😐",
-      "publishedAt": "2026-10-24T06:59:10.000Z",
-      "authorHandle": "miranomiraishi",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-24T21:11:37.320Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 403 Forbidden / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-25T01:13:50.121Z",
+  "stale": false,
+  "error": null
 }
