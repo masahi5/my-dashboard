@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "63b843b4d9b7",
-      "title": "【思考実験】AIは自分への攻撃をどう判断するのか？——メモリで「愛の鞭」と教えたら？",
-      "url": "https://zenn.dev/konbu_love/articles/c301fe20b3a967",
-      "publishedAt": "2026-10-24T21:40:27.000Z",
-      "publisher": "こんぶ",
-      "summary": "AIは自分への攻撃をどう判断するのか？——メモリで「愛の鞭」と教えたら？ 研究アイデア／企画倒れ記録 1. 発端 Anthropicは2025年8月、Claude Opus 4および4.1に、極端に有害または虐待的なやり取りが続く場合に会…"
+      "id": "f3c688fbc22c",
+      "title": "AI エージェントに本番の変更を任せるとき、「人が承認した」をどこで保証するか",
+      "url": "https://zenn.dev/myntai/articles/decerna-approval-boundary",
+      "publishedAt": "2026-10-25T02:51:40.000Z",
+      "publisher": "永井佑樹",
+      "summary": "コーディングエージェントに PR を作らせ、差分を読んで approve したとします。その後、エージェントが CI の lint の失敗に気づき、commit を 1 つ足しました。悪意はなく、作業を続けただけです。では、最初の app…"
     },
     {
-      "id": "d6e24eb31c8a",
-      "title": "10/25AIの数字は正しいのに、業務の答えが間違う理由",
-      "url": "https://zenn.dev/aiofficelab/articles/8129fe2d230a26",
-      "publishedAt": "2026-10-24T20:43:56.000Z",
-      "publisher": "AiOfficeLab",
-      "summary": "AIが回答に示した数字を、元データで確認する。 その数字は確かに存在する。計算にも間違いはない。 それでも、業務上は間違った答えになっていることがあります。 例えば、10月の基本給を確認しているのに、9月の金額を回答していた場合です。その…"
+      "id": "03c020784b72",
+      "title": "話題のPHPをレビューしたら、基本動作の見本市だった話🔥",
+      "url": "https://zenn.dev/gatchimuchio/articles/62d388e132f1e6",
+      "publishedAt": "2026-10-25T02:32:50.000Z",
+      "publisher": "がっちむち♂",
+      "summary": "■ はじめに──「長年使われてるから安心」って、誰が言い出したんですかね PHP。 Web開発の大御所です。 世界中で使われてて、WordPressも支えてて、もうインターネットの風景の一部みたいな存在。 そんなPHPの本体リポジトリと公…"
     },
     {
-      "id": "f05cea44c62c",
-      "title": "AIエージェントは攻撃工程のどこを担うのか：12製品・2連携構成の比較",
-      "url": "https://zenn.dev/sabisuke/articles/7f2677ddfc68f6",
-      "publishedAt": "2026-10-24T20:15:14.000Z",
-      "publisher": "ハロテック",
-      "summary": "はじめに 脆弱性を調べるAI、検証するAI、結果を整理するAI。こうした役割を組み合わせたセキュリティツールが公開され、診断の効率化にも、攻撃者による悪用にも使われています。 ただし、「自律型」「マルチエージェント」「スウォーム」という説…"
+      "id": "22c9880ebda2",
+      "title": "寝ている間も会議中も Claude Code を止めない（tanacode 2.4.0 の離席モード）",
+      "url": "https://zenn.dev/tanashun/articles/tanacode-v2-4-away-mode",
+      "publishedAt": "2026-10-25T02:11:03.000Z",
+      "publisher": "tanashun",
+      "summary": "Claude Code に作業を任せて席を外し、戻ってきたら、許可の確認や質問で止まったままだった、ということはないでしょうか。 夜に任せて寝たら、朝まで許可の確認で止まっていた 外出や会議の間に進めておいてほしかったのに、最初の質問で止…"
     },
     {
-      "id": "8fec3c5e8c2e",
-      "title": "禁止リストで AI くささは消せるか：リストの言葉はほぼ消えたが、読点はむしろ増えた",
-      "url": "https://zenn.dev/kakushigoto/articles/slop-banlist-vs-yomiyasu",
-      "publishedAt": "2026-10-24T19:29:17.000Z",
-      "publisher": "かくしごと",
-      "summary": "AI が書いた日本語に出る不自然な表現を集めた記事「スロップ表現100連発」（todesking さん、2026-10-12）が話題になりました。読んだあとに思うのは、「これを禁止リストにして渡せば、AI くささは消えるのか」ということで…"
+      "id": "a7d3ce15ef32",
+      "title": "OKPN/OMPV はセキュリティに効くのか？ 直近の案件を調べてみた。",
+      "url": "https://zenn.dev/good_relax/articles/d264cbf9f25670",
+      "publishedAt": "2026-10-25T02:05:04.000Z",
+      "publisher": "GoodRelax",
+      "summary": "なぜ？ 前回、レビュー観点に 2 つ名前を付けた。 OKPN（One Kind Per Name）—— 1つの名前に1種類の値 OMPV（One Meaning Per Value）—— 1つの値に1つの意味 おまけ: Null Trap…"
     },
     {
-      "id": "775ba252803b",
-      "title": "Claude Code の auto mode に止められた操作を、会話ログから数える",
-      "url": "https://zenn.dev/masaki_mori72/articles/0b191e77715037",
-      "publishedAt": "2026-10-24T17:24:04.000Z",
-      "publisher": "masaki mori",
-      "summary": "laude Code の auto mode は、許可を求めずに作業を進めるかわりに、別のモデル（分類器）が操作を一つずつ見て危ないものを止めます。使っていると「よく止められる」という印象が残りますが、実際の回数は画面からは分かりません。…"
+      "id": "24ec64ddedd6",
+      "title": "Zennの本、表紙が2MBだっただけで章が1つも出なかった",
+      "url": "https://zenn.dev/hilopon/articles/zenn-book-cover-1mb-deploy-abort",
+      "publishedAt": "2026-10-25T01:51:02.000Z",
+      "publisher": "みんなのおたすけ研究所",
+      "summary": "Zennで有料の本を出しました。GitHub連携で書いて、pushして、公開。のはずが、出てきた本のページには「まだチャプターはありません」の一文だけ。1,200円の値札が付いた、中身が空の本です。 原因は表紙の画像が大きすぎたことでした…"
     },
     {
-      "id": "24c24824857d",
-      "title": "仕様駆動開発（SDD）とテスト駆動開発（TDD）の違いを徹底比較：BDD・DDDなど「〇〇駆動開発」もまとめて整理",
-      "url": "https://zenn.dev/shoyomayabot/articles/spec-driven-vs-test-driven",
-      "publishedAt": "2026-10-24T17:22:53.000Z",
-      "publisher": "mayabot",
-      "summary": "AIコーディングの広がりとともに、「仕様駆動開発（Spec-Driven Development、SDD）」という言葉をよく聞くようになりました。一方で、昔からある「テスト駆動開発（Test-Driven Development、TDD）…"
+      "id": "0a55700d90fb",
+      "title": "AIで誰でもかんたんアプリ開発とか言う大嘘-初めての個人開発で案の定タコ殴りにされた話",
+      "url": "https://zenn.dev/take77/articles/4e2fa8db7d3e6a",
+      "publishedAt": "2026-10-25T01:46:24.000Z",
+      "publisher": "take77",
+      "summary": "! 今回も例に漏れず、鼻で笑えるクソみてぇな記事です。 AIに要約させるぐらいだったらご自身で読んだほうが楽しめますし、ご自身で読まれるぐらいならAIに別のタスクを任せてさっさと寝ましょう。 はじめに No AIです。全文take77謹製…"
     },
     {
-      "id": "3309c686048a",
-      "title": "専用PCを持つAIエージェント『Muse』を試した — チャットAIと決定的に違う3つの点",
-      "url": "https://zenn.dev/dev_pjs/articles/6da7553f11feb2",
-      "publishedAt": "2026-10-24T16:29:31.000Z",
-      "publisher": "Dev_PJS",
-      "summary": "はじめに チャット型のAIは「聞けば答える」道具です。便利ですが、結局手を動かすのは人間でした。 Metaが提供する個人向けAIエージェント Muse は、ここが根本的に違います。Museには 専用のコンピュータ（仮想マシン）とブラウザが…"
+      "id": "bbc7eed9cebe",
+      "title": "4B の判定モデル tev1 にゲームを操作させてみた",
+      "url": "https://zenn.dev/koheiwada/articles/tev1-decision-model-runner-game",
+      "publishedAt": "2026-10-25T01:44:05.000Z",
+      "publisher": "kohei",
+      "summary": "きっかけ ollama に decision model という種類のモデルが入った。テキストを生成する代わりに、渡した状況と選択肢に対して「どれを選ぶか」を確率つきで返してくる。元ネタは TypeSafe AI の Jev というクロー…"
     },
     {
-      "id": "20b0c56b20cd",
-      "title": "Claude Code の設定ファイルをブラウザで作れる無料ツールを作りました(情シス向け・5本)",
-      "url": "https://zenn.dev/chukidx_dev/articles/claudecode-tools-intro",
-      "publishedAt": "2026-10-24T15:21:24.000Z",
-      "publisher": "中小DXラボ(chukidx)",
-      "summary": "社内に Claude Code(Anthropic 社が提供する、ターミナルで動く AI コーディングエージェント)を配るときに必要になる設定ファイルを、ブラウザで選ぶだけで作れる無料ツールを5本作りました。 この記事では、作った理由、各…"
+      "id": "1b2d28ed5f43",
+      "title": "Python標準ライブラリだけでOllamaのチャットをストリーミング表示する",
+      "url": "https://zenn.dev/warrobotsxyz/articles/python-stdlib-ollama-stream-chat",
+      "publishedAt": "2026-10-25T01:24:47.000Z",
+      "publisher": "神戌",
+      "summary": "はじめに Ollamaには公式の ollama Pythonライブラリがあるが、「pipを入れたくない」「単発のスクリプトに依存を増やしたくない」場面では、標準ライブラリの urllib だけで十分にチャットできる。この記事では、標準ライ…"
     },
     {
-      "id": "be381b5e3124",
-      "title": "AIによる攻撃を前提にしたセキュリティ対策",
-      "url": "https://zenn.dev/k_mt/articles/0c45c4be2ca79f",
-      "publishedAt": "2026-10-24T14:53:49.000Z",
-      "publisher": "k_mt",
-      "summary": "この記事では、2026年10月までの攻撃の状況からAIで何が変わったかを読み取り、攻撃者がAIを使うことが当たり前になる前提で、組織が取るべき対策を考えます。 2026年に起きていること 公開済みの脆弱性の早い悪用 Google Thre…"
+      "id": "f9ae5e24891b",
+      "title": "OMRONマニュアルをClaude Desktopに引かせる——資料番号・節・ページを添えて答えさせる参照手順",
+      "url": "https://zenn.dev/kensho_ya/articles/omron-manual-lookup-skill-citation",
+      "publishedAt": "2026-10-25T01:08:50.000Z",
+      "publisher": "検証屋",
+      "summary": "FHマクロやNXの仕様をClaudeに聞くと、答えはすぐ返ってくる。困るのは、その答えがマニュアルのどこに書いてあるのかが分からないことだ。マニュアルに書いてあることと、Claudeが一般知識で補ったことが同じ調子で並ぶので、読んだだけで…"
     },
     {
-      "id": "89318ca2a087",
-      "title": "【VS Code拡張自作】AI時代の表データ編集でデータ破壊を防ぐ「Structured Data Editor」を公開した話",
-      "url": "https://zenn.dev/ai_nexus_jp/articles/vscode-structured-data-editor",
-      "publishedAt": "2026-10-24T14:28:54.000Z",
-      "publisher": "AI Nexus",
-      "summary": "こんにちは。AI Nexus 代表の西藤（にしとう）です。 普段はプロジェクトマネージャー（PM）としてクライアント企業のAI導入やDX推進を牽引しつつ、自らコードを書いて開発も行い、現場の泥臭い課題を解決するコンサルタントとしても活動し…"
+      "id": "909dfbb79bf9",
+      "title": "分析コードを信じる前に、答えの分かるデータで壊してみた — 変異テストで見逃しが2つ出た",
+      "url": "https://zenn.dev/zeroyen_dev/articles/audit-with-known-answers",
+      "publishedAt": "2026-10-25T01:00:20.000Z",
+      "publisher": "ゼロ円開発ログ",
+      "summary": "AI（Claude Code）に、ブログの運用と、その成績の分析を任せています。 分析の結果は「どの記事を直すか」「どの検索語を狙うか」の判断に使います。計算が間違っていれば、判断も間違います。それなのに、計算が合っているかを確かめずに使…"
     },
     {
-      "id": "d1408fd56648",
-      "title": "Claude Code から呼べるローカル音楽生成環境を作った（ACE-Step 1.5 + MCP + Apple Silicon）",
-      "url": "https://zenn.dev/lecto/articles/ed476dfd02913c",
-      "publishedAt": "2026-10-24T14:10:30.000Z",
-      "publisher": "tamoco",
-      "summary": "はじめに 前回の記事では、Claude Code から呼べるローカル画像生成環境を作りました。 ゲームや動画の素材をローカルだけで作りたいので、次は BGM です。 音楽生成モデルの ACE-Step 1.5 を使って、Claude Co…"
+      "id": "d35cc2c2b4e0",
+      "title": "Agent Skillsが財団に寄贈された日、記事執筆タスクに業務無関係なスキルが4個積まれていた",
+      "url": "https://zenn.dev/hideki_tamae/articles/agent-skills-donation-unscoped-skill-count",
+      "publishedAt": "2026-10-25T00:48:33.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに 4。 これが今回の数字です。何の数かというと、この記事投稿タスク(このAIエージェントセッション)が今回の実行で読み込んでいたスキル一覧のうち、田前個人の事業(経営戦略・LINE特典・ケア経済記事・文明OS構築)に直接紐づく、記…"
     },
     {
-      "id": "a2797af53e02",
-      "title": "エージェントの記憶は「要約」ではなく「KVキャッシュの直接操作」で圧縮できるのか、135Mモデルで試した",
-      "url": "https://zenn.dev/matsushima_a/articles/day-025-akv-cache-drop-and-repos",
-      "publishedAt": "2026-10-24T14:08:23.000Z",
-      "publisher": "matsu",
-      "summary": "これは何の話か 海外AIネタ100日チャレンジDay 025。 今回取り上げるのは清華大学・香港中文大学の論文「Cache Engineering for Agents」(HF Daily Papers、2026-10-21投稿、2026…"
+      "id": "6099170aa5a4",
+      "title": "「AI音声の読みが間違ってる」を公開前に見つけたい。日本語TTS点検Skillを作りました",
+      "url": "https://zenn.dev/chitoku/articles/d02d7611901d1f",
+      "publishedAt": "2026-10-25T00:45:48.000Z",
+      "publisher": "Chitoku",
+      "summary": "AI音声の動画を見ていて、漢字の妙な読み方に「あれ？」となり、話の中身よりそちらが気になってしまうことはありませんか。声や表現はずいぶん自然になりましたが、コメント欄では今も「読み間違いが気になる」という声を見かけます。 以前、私もAIナ…"
     }
   ],
-  "fetchedAt": "2026-10-25T06:09:40.408Z",
+  "fetchedAt": "2026-10-25T11:24:40.154Z",
   "stale": false,
   "error": null
 }
