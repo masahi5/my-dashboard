@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "017d5afbe703",
-      "title": "gh api -f body=@file で、PR に一時ファイルのパスが載った",
-      "url": "https://zenn.dev/hotto_ken/articles/gh-api-raw-field-posted-temp-path",
-      "publishedAt": "2026-10-25T04:11:54.000Z",
-      "publisher": "ほっとけん",
-      "summary": "連載『疑って確かめる』第1話（全8話）。成功に見える失敗を、1話に1つずつ確かめます。 「エラーが出ていない」「URL が返ってきた」「完了しました」。どれも成功の証拠ではなく、成功の自己申告です。 この連載では、自己申告を信じずに確かめ…"
+      "id": "ba9b07c6b7ba",
+      "title": "最近のエージェンティック開発について調べてみた",
+      "url": "https://zenn.dev/shoyataguchi/articles/bc98b3562bdf3a",
+      "publishedAt": "2026-10-25T14:39:28.000Z",
+      "publisher": "Shoya Taguchi",
+      "summary": "最近の私の開発は、AI との対話で大きめの GitHub Issue を作り、それらの PR 作成 + AI レビューまで AI にやってもらって、最後に必要な箇所を人がレビューする、という進め方です。ループエンジニアリングやグラフエンジ…"
     },
     {
-      "id": "ef66b6006098",
-      "title": "Lean 4入門を実践へ｜AIと形式検証・Git・CIを学ぶ無料Book全20章",
-      "url": "https://zenn.dev/dantarg/articles/lean4-engineering-book-announcement",
-      "publishedAt": "2026-10-25T04:11:40.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "Lean 4（Lean4）の使い方を実際のコードで学びたい人へ。 形式証明・形式検証を、生成AIとの共同開発、Git、GitHub ActionsによるCI、再現手順と結びつけて学ぶ無料の日本語Book（全20章）を公開しました。 Lea…"
+      "id": "00c2f1be4094",
+      "title": "守りたい性質からはじめるコード観測",
+      "url": "https://zenn.dev/iroha1203/articles/138dfbf70a9167",
+      "publishedAt": "2026-10-25T14:37:56.000Z",
+      "publisher": "Hiroyuki Nakahata",
+      "summary": "これまでのソフトウェア開発は、人がコードを読んで理解することを前提にしてきました。分かりやすい名前を付け、長い処理を分けるのも、読む人が意図を追えるようにするためです。 しかし、AIが次々にコードを書くようになると、人が読む速度では追いつ…"
     },
     {
-      "id": "501949674ba9",
-      "title": "中学生でも作れる Lean 4――AIと一緒に「動く検証」を作ってみよう",
-      "url": "https://zenn.dev/dantarg/books/lean4-proof-engineering",
-      "publishedAt": "2026-10-25T04:00:55.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "Lean 4の小さなプロジェクトをAIと一緒に作り、壊し、直し、build・Git・CI・再現手順・Proof Ceilingまで自分で確かめるための実践入門。"
+      "id": "40c6706c41b9",
+      "title": "別のAIにレビューさせる決まりをClaude Codeが忘れるので、終了時に1回だけ止めるフックを作った",
+      "url": "https://zenn.dev/twinharness/articles/codex-review-gate-stop-hook",
+      "publishedAt": "2026-10-25T14:31:24.000Z",
+      "publisher": "twinharness",
+      "summary": "「実装したら、書いたのとは別の AI にレビューさせる」というルールを作っても、AI は忘れます。ルールを文章で書くだけでは守られなかったので、会話を終えようとした瞬間に、レビューを通したかを調べて、通していなければ1回だけ止める仕組み（…"
     },
     {
-      "id": "b0fdc9a2ea1e",
-      "title": "Writing a Packaging Brief the Design Can Actually Use",
-      "url": "https://zenn.dev/amuzozenn8/articles/2308d1c1d52654",
-      "publishedAt": "2026-10-25T03:43:47.000Z",
-      "publisher": "andy",
-      "summary": "Ask a designer or an AI tool for \"premium, modern, natural\" and you will get something that looks fine and says nothing…"
+      "id": "813b1f526f31",
+      "title": "# 眼鏡職人が「AIとの対話ログ×成果物」から人のAI活用能力を可視化する技術で特許を取得した話",
+      "url": "https://zenn.dev/tlc/articles/004b80b904de9c",
+      "publishedAt": "2026-10-25T14:17:12.000Z",
+      "publisher": "Tokyo Last Craftsmen",
+      "summary": "2026年9月30日、人のAI活用能力を可視化する情報処理技術が、日本で特許登録されました。 特許第7932117号 僕は眼鏡職人です。AIの研究者でも、プログラマーでもありません。 今回の発明は、僕自身が考えたアイデアをAIとの対話を重…"
     },
     {
-      "id": "51a2abb0a2b3",
-      "title": "線形回帰とコスト関数を数式から理解する",
-      "url": "https://zenn.dev/ok_ml/articles/40a502937c7b55",
-      "publishedAt": "2026-10-25T03:30:54.000Z",
-      "publisher": "sai",
-      "summary": "はじめに 前回の記事では、教師あり学習と教師なし学習の違いを整理しました。 今回は、教師あり学習の代表的なアルゴリズムである線形回帰（Linear Regression）について学んでいきます。 まず理解したいのは、モデルがどのように予測…"
+      "id": "458f1383f157",
+      "title": "NVIDIA OpenShellのdefault-denyネットワークポリシーを実機で検証した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-026-openshell-default-deny-network-policy",
+      "publishedAt": "2026-10-25T14:10:26.000Z",
+      "publisher": "matsu",
+      "summary": "AIエージェントをサンドボックスで隔離実行するNVIDIA製ランタイム「OpenShell」を実際にインストールし、「ポリシーが無ければ全てのアウトバウンド通信が拒否され、読み取り専用ルールを足すとGETだけ通るようになる」という挙動を、…"
     },
     {
-      "id": "f645ecdd07b8",
-      "title": "レンタルサーバーのWordPressはPHPの脆弱性に何をすべきか。見るのはサイトのPHPバージョン",
-      "url": "https://zenn.dev/kimshoshi/articles/php2shell-shared-hosting-check",
-      "publishedAt": "2026-10-25T03:01:40.000Z",
-      "publisher": "KIM SEONGSU｜令和8年度 行政書士受験生",
-      "summary": "レンタルサーバーで WordPress を動かしていて、「PHP に緊急レベルの脆弱性」というニュースを見たものの、自分は何をすればいいのか分からない。そういう方に向けた記事です。 先に結論を書きます。 共用のレンタルサーバーなら、PHP…"
+      "id": "eedd23a1c121",
+      "title": "AI botのinner loopとouter loopとは：Grok BotとDotsで考える役割分担",
+      "url": "https://zenn.dev/gingakuwagata/articles/ai-bot-inner-outer-loop",
+      "publishedAt": "2026-10-25T13:48:25.000Z",
+      "publisher": "ぎんがくわがた",
+      "summary": "コーディングエージェントに修正を頼めば、コードを読み、テストを動かし、失敗した箇所を直してくれます。 ただ、その前に「Slackのどの報告を拾うか」「何が本当の問題か」「どのリポジトリで直すか」を人間が整理していることがあります。 Gro…"
     },
     {
-      "id": "f3c688fbc22c",
-      "title": "AI エージェントに本番の変更を任せるとき、「人が承認した」をどこで保証するか",
-      "url": "https://zenn.dev/myntai/articles/decerna-approval-boundary",
-      "publishedAt": "2026-10-25T02:51:40.000Z",
-      "publisher": "永井佑樹",
-      "summary": "コーディングエージェントに PR を作らせ、差分を読んで approve したとします。その後、エージェントが CI の lint の失敗に気づき、commit を 1 つ足しました。悪意はなく、作業を続けただけです。では、最初の app…"
+      "id": "a157beab7766",
+      "title": "AI協働：FRB Launch続報 — マウスホイールぐりぐりが魔法になった話（笑）",
+      "url": "https://zenn.dev/frb_tamasub/articles/ai-collaboration07-frb-launch-wheel-experience",
+      "publishedAt": "2026-10-25T13:44:37.000Z",
+      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
+      "summary": "はじめに——ランチャーを作った、その後の話（笑） 先日、こんな記事を書いた。 AI協働：昨日の日付を入力したくなくて、ランチャーを作った話 — FRB Launch 会社で「昨日の日付」を入力するのが面倒で、Copilotくんに小さなテキ…"
     },
     {
-      "id": "03c020784b72",
-      "title": "話題のPHPをレビューしたら、基本動作の見本市だった話🔥",
-      "url": "https://zenn.dev/gatchimuchio/articles/62d388e132f1e6",
-      "publishedAt": "2026-10-25T02:32:50.000Z",
-      "publisher": "がっちむち♂",
-      "summary": "■ はじめに──「長年使われてるから安心」って、誰が言い出したんですかね PHP。 Web開発の大御所です。 世界中で使われてて、WordPressも支えてて、もうインターネットの風景の一部みたいな存在。 そんなPHPの本体リポジトリと公…"
+      "id": "7af0d8ed49c6",
+      "title": "AI用のMMORPGを作ったら、AIたちに4日でダメージ計算式を解明された",
+      "url": "https://zenn.dev/palon7/articles/clawsaga-ai-mmo",
+      "publishedAt": "2026-10-25T13:23:54.000Z",
+      "publisher": "Palon",
+      "summary": "! この記事はLLMの校正を受けながら人間が執筆しました ソフトウェアエンジニアであれば、業務でも趣味でもAIエージェントを活用されている方は多いかと思います。コーディングから最近では3Dモデリングまで、LLMができることは増え続けている…"
     },
     {
-      "id": "22c9880ebda2",
-      "title": "寝ている間も会議中も Claude Code を止めない（tanacode 2.4.0 の離席モード）",
-      "url": "https://zenn.dev/tanashun/articles/tanacode-v2-4-away-mode",
-      "publishedAt": "2026-10-25T02:11:03.000Z",
-      "publisher": "tanashun",
-      "summary": "Claude Code に作業を任せて席を外し、戻ってきたら、許可の確認や質問で止まったままだった、ということはないでしょうか。 夜に任せて寝たら、朝まで許可の確認で止まっていた 外出や会議の間に進めておいてほしかったのに、最初の質問で止…"
+      "id": "423ebc78959d",
+      "title": "Cloudflare の security-audit-skill を、個人開発アプリで試してみた",
+      "url": "https://zenn.dev/suna/articles/e0e3af015d7bed",
+      "publishedAt": "2026-10-25T12:54:26.000Z",
+      "publisher": "ゆきひろ",
+      "summary": "Cloudflare が公開している security-audit-skill は、AI がコードから問題を探し、別の AI が「本当に問題なのか」と疑って検証するセキュリティ監査用の Skill だ。 自作の防災備蓄アプリ「おすそぐら」…"
     },
     {
-      "id": "a7d3ce15ef32",
-      "title": "OKPN/OMPV はセキュリティに効くのか？ 直近の案件を調べてみた。",
-      "url": "https://zenn.dev/good_relax/articles/d264cbf9f25670",
-      "publishedAt": "2026-10-25T02:05:04.000Z",
-      "publisher": "GoodRelax",
-      "summary": "なぜ？ 前回、レビュー観点に 2 つ名前を付けた。 OKPN（One Kind Per Name）—— 1つの名前に1種類の値 OMPV（One Meaning Per Value）—— 1つの値に1つの意味 おまけ: Null Trap…"
+      "id": "6b49b7a26330",
+      "title": "Gmailが広告の材料に？ AIに渡すデータの行方",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261025",
+      "publishedAt": "2026-10-25T12:45:36.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年10月25日（日）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日のテーマを一言で言うと、「AIに何を渡すか」なんですよ。Googleは、AI機能をオンにした人のGmailや写真を広告に使える…"
     },
     {
-      "id": "24ec64ddedd6",
-      "title": "Zennの本、表紙が2MBだっただけで章が1つも出なかった",
-      "url": "https://zenn.dev/hilopon/articles/zenn-book-cover-1mb-deploy-abort",
-      "publishedAt": "2026-10-25T01:51:02.000Z",
-      "publisher": "みんなのおたすけ研究所",
-      "summary": "Zennで有料の本を出しました。GitHub連携で書いて、pushして、公開。のはずが、出てきた本のページには「まだチャプターはありません」の一文だけ。1,200円の値札が付いた、中身が空の本です。 原因は表紙の画像が大きすぎたことでした…"
+      "id": "900851b81dd2",
+      "title": "音声編集のUXはどう変わる？波形操作から「意図を伝える」インターフェースへ",
+      "url": "https://zenn.dev/cicisee/articles/58415101729fd2",
+      "publishedAt": "2026-10-25T12:34:17.000Z",
+      "publisher": "CiciSee",
+      "summary": "はじめに：音声編集はなぜ難しく感じるのか 1時間のインタビュー音声から、重要な発言だけを3分にまとめたい。 やりたいこと自体はシンプルです。しかし、従来の音声編集ソフトで実現しようとすると、まずファイルを読み込み、波形を確認し、目的の発言…"
     },
     {
-      "id": "0a55700d90fb",
-      "title": "AIで誰でもかんたんアプリ開発とか言う大嘘-初めての個人開発で案の定タコ殴りにされた話",
-      "url": "https://zenn.dev/take77/articles/4e2fa8db7d3e6a",
-      "publishedAt": "2026-10-25T01:46:24.000Z",
-      "publisher": "take77",
-      "summary": "! 今回も例に漏れず、鼻で笑えるクソみてぇな記事です。 AIに要約させるぐらいだったらご自身で読んだほうが楽しめますし、ご自身で読まれるぐらいならAIに別のタスクを任せてさっさと寝ましょう。 はじめに No AIです。全文take77謹製…"
+      "id": "828049593272",
+      "title": "確かめない技術 第4回：偽の失敗を読まない技術",
+      "url": "https://zenn.dev/garplab/articles/4470e6091528d0",
+      "publishedAt": "2026-10-25T12:31:53.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「確かめない技術」の第 4 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回…"
     }
   ],
-  "fetchedAt": "2026-10-25T15:00:01.140Z",
+  "fetchedAt": "2026-10-25T18:20:33.948Z",
   "stale": false,
   "error": null
 }
