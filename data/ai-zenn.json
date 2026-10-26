@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "d07838c20f4c",
-      "title": "なぜ僕は、MCPを作らずにフックを作ったのか",
-      "url": "https://zenn.dev/motimotinotch/articles/a9417f8fc5100a",
-      "publishedAt": "2026-10-26T03:26:40.000Z",
-      "publisher": "MotimotiNotch",
-      "summary": "自分で作った小さな Web ページが、何回開かれたかを数えるスクリプトがある。Cloudflare の API に問い合わせて、日ごとの回数をファイルに貯め、まとめのノートを書き直すだけの、200行ほどの Python だ。 これを CL…"
+      "id": "f9f48c027e06",
+      "title": "terraform のコードを少し整える tfstylus を作ってみた",
+      "url": "https://zenn.dev/terraform_jp/articles/2026-10-26_tfstylus",
+      "publishedAt": "2026-10-26T13:20:08.000Z",
+      "publisher": "raki",
+      "summary": "tl;dr 歴史のある terraform のコードを整えるツールを作ったので紹介 tfstylus is terraform を使い出すとディレクトリやファイルがたくさんになる コードを書く人やツールによって、同じリソースブロックでも並…"
     },
     {
-      "id": "2ddcdbac5967",
-      "title": "11月からGoogle AI Proを契約する予定。API代とYouTube、開発の予備環境をまとめて考えた",
-      "url": "https://zenn.dev/kiyoka/articles/google-ai-pro-subscription-plan",
-      "publishedAt": "2026-10-26T03:19:56.000Z",
-      "publisher": "kiyoka",
-      "summary": "はじめに 2026年11月から、Google AI Proを契約しようと思っています。理由は、値段と特典の組み合わせです。 私は日本語入力システムSumibi用にOpenAIのAPIを月に約5ドル、ベンチマーク用にGemini APIも月…"
+      "id": "582c916a9a06",
+      "title": "他人のClaude CodeやCodexにAPIキーを渡さず仕事を委譲するゼロトラスト基盤「ACP」をOSS公開した",
+      "url": "https://zenn.dev/acidnyan/articles/b1b851705ce4af",
+      "publishedAt": "2026-10-26T13:13:23.000Z",
+      "publisher": "たかぽん",
+      "summary": "はじめに：なぜ「異なる所有者のエージェント間協働」は危険なのか 自分の手元で動いている Claude Code や Codex CLI から、友人や外部パートナーが動かしている専門エージェントにタスクを委譲したい場面が増えています。 しか…"
     },
     {
-      "id": "84aff948c704",
-      "title": "「任せる範囲」を先に決めたら、AIが止まらなくなった",
-      "url": "https://zenn.dev/hitoribocchi_ai/articles/06111dd916fe76",
-      "publishedAt": "2026-10-26T02:58:19.000Z",
-      "publisher": "ひとり事業主とAI",
-      "summary": "Claude Codeに作業を任せていると、2つの失敗が起きます。 聞きすぎる。 「実行してよいですか？」が毎回出て、作業が止まる。 任せすぎる。 何も聞かずに進めて、取り返しのつかない操作をする。 どちらも、AIの性格ではなく、「どこま…"
+      "id": "bf17966fe412",
+      "title": "確かめない技術 第5回：全部走らせない技術",
+      "url": "https://zenn.dev/garplab/articles/f877a9868fac7f",
+      "publishedAt": "2026-10-26T13:11:44.000Z",
+      "publisher": "garplab",
+      "summary": "この記事は、連載「確かめない技術」の第 5 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回…"
     },
     {
-      "id": "7f363eb3cb6c",
-      "title": "AI エージェント 生成エージェント ~ STORM Act #1",
-      "url": "https://zenn.dev/sionicai_jp/articles/88bd276e27cc2f",
-      "publishedAt": "2026-10-26T02:32:55.000Z",
-      "publisher": "サイオニックエーアイ株式会社",
-      "summary": "本記事の目的 AIエージェントを作る手法はいくつかあり、日々増えていっています。特にノーコード・ローコードの手法もいくつか存在し、AIエージェント自作への障壁はだいぶ下がってきています。 しかし、ノーコードであっても、処理フローの設計や各…"
+      "id": "4d8e385469d5",
+      "title": "QRコードはなぜログインの鍵にならないのか。写真1枚で複製できる仕組みと安全な使い道",
+      "url": "https://zenn.dev/kimshoshi/articles/printed-qr-is-not-a-key",
+      "publishedAt": "2026-10-26T13:11:30.000Z",
+      "publisher": "KIM SEONGSU｜令和8年度 行政書士受験生",
+      "summary": "職員の名札にQRコードを載せる仕組みを作っています。研修会や会議の出席を、会場のパソコンでQRを読むだけで記録するためです。 作っているうちに、周りからこういう声が出てきました。 「そのQRで、業務システムにログインできたら楽なのに」 「…"
     },
     {
-      "id": "8b37b2773e4e",
-      "title": "VS Code 1.143.1でCodex拡張が「Codex could not start」になる時の対処",
-      "url": "https://zenn.dev/third_tech/articles/f3a9d2f625fd84",
-      "publishedAt": "2026-10-26T02:28:44.000Z",
-      "publisher": "miyapei",
-      "summary": "概要 症状：Codex のサイドバーに「Codex could not start / The extension could not start its user interface.」と出て起動しない 開くたびに、出力パネルの「Cod…"
+      "id": "df2b763b786e",
+      "title": "Claude Code に「今日なにやる？」を聞ける ToDo を MCP で作って、4か月自社で回してみた",
+      "url": "https://zenn.dev/aisaikou/articles/5008d5efa6da9f",
+      "publishedAt": "2026-10-26T12:45:28.000Z",
+      "publisher": "kurosaki",
+      "summary": "会社のタスクを、Claude Code と同じ場所で持つようにして4か月たちました。 作ったのは「こつこつ」というゴール起点の ToDo アプリで、MCP サーバーがついています。 AI に「今日やること出して」と頼むと、こつこつのタスク…"
     },
     {
-      "id": "b481c882908d",
-      "title": "商品説明を書く前に、AIへ渡す商品情報をそろえる方法",
-      "url": "https://zenn.dev/ec_jidoka_kobo/articles/e6e68b39ba1733",
-      "publishedAt": "2026-10-26T01:57:36.000Z",
-      "publisher": "EC自動化工房",
-      "summary": "※例はすべて架空の店舗・商品です 架空の「サンプル雑貨店」で、新しいマグカップの商品ページを作ることになりました。 手元にあるメモは「青いマグ。冷めにくい。食洗機OK」。このままAIに説明文を頼むと、容量や素材、使い心地まで、書いていない…"
+      "id": "1d9dd012ca46",
+      "title": "Claude のアプリが auto モード既定に ― 「14% 対 89%」は何の数字か、手元で止められた 2 件",
+      "url": "https://zenn.dev/persimmoq/articles/claude-auto-mode-default-14-vs-89",
+      "publishedAt": "2026-10-26T12:32:11.000Z",
+      "publisher": "Persimmoq AI",
+      "summary": "2026 年 10 月 22 日、Claude 公式が、Pro、Max、Team プランの Claude のウェブ版、デスクトップ版、スマホ版で、新しいセッションの既定を auto モードにすると発表しました。発表の翌週、つまり今週からの…"
     },
     {
-      "id": "0c4e3508528f",
-      "title": "抽象化と具体化を繰り返す、AIとの壁打ちのその先へ",
-      "url": "https://zenn.dev/recurrenthub/articles/0596389b4e2e00",
-      "publishedAt": "2026-10-26T01:55:45.000Z",
-      "publisher": "Kenichi",
-      "summary": "AIとの壁打ちは、もう日常になりました。 いきなり「ネタを出して」と頼むのではなく、「誰に向けたものか」「何のためか」をAIと話してから頼む。返ってきた答えに違和感があれば、「そうじゃなくて」と伝えて直してもらう。 一発で答えを求めていた…"
+      "id": "de2bc86b5023",
+      "title": "コードが書けない私が、Claude Code のフックに「止めて AI に案内する門番」を置いた話",
+      "url": "https://zenn.dev/maura/articles/ee84b0f11d8e50",
+      "publishedAt": "2026-10-26T12:08:51.000Z",
+      "publisher": "まうら",
+      "summary": "AI が道具を使う直前に必ず通る「門番」を置いて、危ない操作を止めています。9月11日からの約6週間で、門番が対話中に操作を止めたのは283回でした。そのうち282回は、AI が私の発言を待たずに、自分で次の操作へ進んでいました。 止めら…"
     },
     {
-      "id": "1e88fa14666d",
-      "title": "AI時代におけるQuality Engineeringの教科書",
-      "url": "https://zenn.dev/rinov/books/3524fa1fc98f46",
-      "publishedAt": "2026-10-26T01:55:05.000Z",
-      "publisher": "rinov",
-      "summary": "ITサービス・ソフトウェア開発・プロダクト開発におけるQuality Engineeringを扱う本です。QEの定義から始め、AIによる開発の変化を研究結果とともに整理したうえで、考え方やスキル、具体的な実践を説明します。動画配信サービス…"
+      "id": "0d97915bc47f",
+      "title": "完璧を待たないセキュリティ実務",
+      "url": "https://zenn.dev/wyi_or_wye/books/security-practice-ai",
+      "publishedAt": "2026-10-26T12:08:17.000Z",
+      "publisher": "wyi-or-wye",
+      "summary": "AI時代のシステム運用で、できる対策を積み重ねるための本。情報漏えいと脆弱性を分けて考え、資産の把握、AIコード監査、継続的なパッチ適用、アカウント整理、バックアップ、事故の初動までを具体的な手順とテンプレートでまとめます。"
     },
     {
-      "id": "1c291b396a7f",
-      "title": "Claude Codeに「このデータベースを止めたら誰が困る？」と聞いて、根拠までたどる",
-      "url": "https://zenn.dev/96logger/articles/6ee24bab72d94b",
-      "publishedAt": "2026-10-26T01:41:00.000Z",
-      "publisher": "96logger",
-      "summary": "ご利用中のAIを、システム保守に強くしたい皆様へ。 開発支援AIは、コード自体に関する回答にはよく答えます。ただ「このデータベースを止めたら誰が困る？」と聞いた時、その結果は期待外れになると感じています。そのシステムを誰が、どの業務で使っ…"
+      "id": "951f9812b46f",
+      "title": "AIは「通れます」と言い、私は「通れない」と言った — AIの確認は、確かめやすい道を通る",
+      "url": "https://zenn.dev/sbkm/articles/4ad26d225c9dcb",
+      "publishedAt": "2026-10-26T12:00:08.000Z",
+      "publisher": "しばこま",
+      "summary": "Claude Code に、個人で作っている3Dの街歩きゲームの実装をほぼ任せています。ブラウザで動く、夜の街を歩き回るだけのゲームです。私は遊んでみて「ここがおかしい」と言い、Claude Code が直して、確かめて、報告する。この繰…"
     },
     {
-      "id": "7a39002a3d3f",
-      "title": "最近の E2E 戦略（2026 年 10 月現在）",
-      "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
-      "publishedAt": "2026-10-26T01:18:03.000Z",
-      "publisher": "Tatsunori Nakano",
-      "summary": "この記事に書いてあること E2E を主要シナリオだけでなく網羅的に整備した 実装から拾った確認対象とシナリオの対応漏れをチェックし漏れがあれば CI で落とす 開発ワークフローの品質ゲートにローカル E2E 実行を組み込んでいる 毎回全シ…"
+      "id": "6d9db3fb70b2",
+      "title": "CLAUDE.md とコードが違ったら、Claude Code はどちらに従う？：Sonnet は気づいても古い方に従った",
+      "url": "https://zenn.dev/kakushigoto/articles/stale-claude-md-vs-code",
+      "publishedAt": "2026-10-26T11:43:41.000Z",
+      "publisher": "かくしごと",
+      "summary": "X で、AGENTS.md（エージェント向けのプロジェクトの説明書）が古くなったときの話が話題になりました。投稿によると、説明書がコードと合っていないと分かっていても、Claude Code は古い説明書に従ってしまう。研究者が罠を仕掛け…"
     },
     {
-      "id": "4b83c5bb9ffd",
-      "title": "GitLab Orbit Local で、コードの影響範囲調査にかかる AI の token 消費を減らす",
-      "url": "https://zenn.dev/azush/articles/c007dff623bafa",
-      "publishedAt": "2026-10-26T01:08:29.000Z",
-      "publisher": "azush",
-      "summary": "こんにちは、GitLab で Senior Solutions Architect をしている azush です🦊 ! 本記事は、ステルスマーケティングとならないよう筆者の所属を明記しています。本記事の内容は筆者個人の見解であり、所属組…"
+      "id": "316722a3a4d2",
+      "title": "Cline の安全フック、本当に効いてる？ 5分でできる点検のしかた",
+      "url": "https://zenn.dev/shacikku3/articles/cline-safety-hook-check",
+      "publishedAt": "2026-10-26T11:29:48.000Z",
+      "publisher": "シャチラボ",
+      "summary": "この記事で分かること Cline（VSCode で動くAIエージェントの拡張機能）には、AIがツールを使う直前に自作のプログラムを呼ぶ フック という仕組みがあります。これを使って、危ない操作を機械で止める「安全フック」を入れている人も増…"
     },
     {
-      "id": "6776dd2d12cf",
-      "title": "AI 時代、テストの期待値は誰が決める？：TDD をめぐる識者の見方と検証",
-      "url": "https://zenn.dev/zundamon_tools/articles/ai-tdd-test-expected-values",
-      "publishedAt": "2026-10-26T01:01:17.000Z",
-      "publisher": "ずんだもんの実験道具箱",
-      "summary": "AI がテストを書く時代に、テストの期待値は誰が決めればいいのか。この記事は、その考え方を揃えるための記事です。 期待値は、テストが「正しい答え」とする値です。AI に頼むとテストは全部緑で返ってきますが、期待値がずれていれば、その緑は何…"
+      "id": "3de3e89ecff3",
+      "title": "Claude Codeで発信の仕組みを作り込んだら、1週間で売上0円だった話",
+      "url": "https://zenn.dev/madao1981/articles/20261017-claude-code-week-zero-sales",
+      "publishedAt": "2026-10-26T11:00:05.000Z",
+      "publisher": "kojikoji_tech",
+      "summary": "Claude Codeに担当エージェントとスキルを作り込み、noteの有料記事とSNSの発信を約1週間回しました。記事の本数は増えましたが、売上は0円でした（2026-10-15時点）。 結論 作る仕組みは1週間で整いましたが、告知からn…"
     }
   ],
-  "fetchedAt": "2026-10-26T06:40:21.739Z",
+  "fetchedAt": "2026-10-26T13:34:48.181Z",
   "stale": false,
   "error": null
 }

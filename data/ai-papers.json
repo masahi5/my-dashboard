@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f0a54e44f571",
-      "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
-      "url": "https://huggingface.co/papers/2610.30932",
+      "id": "487b5bf4f608",
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "url": "https://huggingface.co/papers/2610.31668",
       "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluatin…",
-      "score": 26
+      "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world model…",
+      "score": 218
     },
     {
-      "id": "be4f46a40d8c",
-      "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
-      "url": "https://huggingface.co/papers/2610.31162",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring …",
-      "score": 24
-    },
-    {
-      "id": "3ca1de868e75",
-      "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
-      "url": "https://huggingface.co/papers/2610.32253",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implemen…",
-      "score": 23
-    },
-    {
-      "id": "0f018487da7f",
-      "title": "RynnUnify: Towards Unified Embodied Brain",
-      "url": "https://huggingface.co/papers/2610.32965",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visu…",
-      "score": 16
-    },
-    {
-      "id": "1364bf708b15",
-      "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
-      "url": "https://huggingface.co/papers/2610.31066",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can infor…",
-      "score": 9
-    },
-    {
-      "id": "9bd610105fa9",
-      "title": "Every Weight Is a Path of Shared Discrete Decisions",
-      "url": "https://huggingface.co/papers/2610.31931",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "We introduce TWIG (Tree-structured Weights with Inherited Gates), a representation in which every weight of a neural ne…",
-      "score": 3
-    },
-    {
-      "id": "ef669ec3aa15",
-      "title": "FLOMSS: Generative Music Source Separation by Flow Matching",
-      "url": "https://huggingface.co/papers/2610.17821",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Music source separation (MSS) has been conventionally addressed by discriminative methods. Recently, flow matching has …",
-      "score": 3
-    },
-    {
-      "id": "c951ee6bf1e0",
-      "title": "Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction",
-      "url": "https://huggingface.co/papers/2610.32250",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Single-image 3D scene construction is a fundamental problem in 3D vision. Recent methods such as SAM-3Dfy enable end-to…",
-      "score": 2
-    },
-    {
-      "id": "d4fa1efe4560",
-      "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
-      "url": "https://huggingface.co/papers/2610.31569",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Recognizing task completion and failure enables robots to stop upon success and initiate recovery or replanning after f…",
-      "score": 2
-    },
-    {
-      "id": "85997eecd6c2",
-      "title": "Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding",
-      "url": "https://huggingface.co/papers/2610.29552",
+      "id": "b1e5004372ff",
+      "title": "TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics",
+      "url": "https://huggingface.co/papers/2610.29477",
       "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Fine-grained multimodal intelligence requires models to both understand a designated region and localize it from langua…",
+      "summary": "Codes of professional ethics guide and restrict specialists, who increasingly work with assistants built on large langu…",
+      "score": 11
+    },
+    {
+      "id": "8d0f4de60f11",
+      "title": "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
+      "url": "https://huggingface.co/papers/2610.01352",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "Open multimodal reasoning models have benefited from large-scale reasoning supervision, yet reliable post-training rema…",
+      "score": 4
+    },
+    {
+      "id": "fcd0a7d6bfc2",
+      "title": "Building Auditable AI Text Detectors with Sparse Autoencoders",
+      "url": "https://huggingface.co/papers/2610.30006",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "AI-generated text detectors are increasingly deployed in consequential settings---peer review, education, admissions, j…",
+      "score": 4
+    },
+    {
+      "id": "4d61f8ebb3dd",
+      "title": "DuoLM: Fast and Effective Personalized Recommendation with Language Models",
+      "url": "https://huggingface.co/papers/2610.24481",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Language models can make personalized recommendations from rich item content, user history, and feedback. However, eval…",
+      "score": 3
+    },
+    {
+      "id": "64cf5317ea40",
+      "title": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
+      "url": "https://huggingface.co/papers/2610.27782",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Video generation models are promising foundations for embodied world models, but only if their generated rollouts are p…",
       "score": 2
     },
     {
-      "id": "d0fa9585dbe9",
-      "title": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
-      "url": "https://huggingface.co/papers/2610.32894",
+      "id": "7fe80a4f5c1e",
+      "title": "DISC: Domain-Integrated Similarity Cost for Time-Series Dataset",
+      "url": "https://huggingface.co/papers/2610.31288",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "The growth of time-series datasets and foundation models has made dataset comparison a central part of time-series work…",
+      "score": 2
+    },
+    {
+      "id": "f090f1e1ffab",
+      "title": "A path-following framework on fiber bundle for variational inequalities",
+      "url": "https://huggingface.co/papers/2606.00778",
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Location encoders map geographic coordinates to high-dimensional descriptors through contrastive alignment with paired …",
+      "summary": "Developing general-purpose algorithms with global asymptotic convergence guarantees for variational inequalities (VIs) …",
+      "score": 2
+    },
+    {
+      "id": "6dfbb4e8cb50",
+      "title": "The fixed-point bundle method over product-of-simplex domains arising from game equilibria",
+      "url": "https://huggingface.co/papers/2609.16158",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Developing general-purpose algorithms with global asymptotic convergence guarantees for Nash equilibria of general-sum …",
+      "score": 2
+    },
+    {
+      "id": "2cd4f3510d90",
+      "title": "Does LeWorldModel Preserve Local Action Geometry?",
+      "url": "https://huggingface.co/papers/2610.31716",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "We examine how closely pretrained LeWorldModel (LeWM) reproduces the effects of small action changes. Using matched sim…",
       "score": 1
     },
     {
-      "id": "02c5db85be00",
-      "title": "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
-      "url": "https://huggingface.co/papers/2610.32002",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "The rapid growth of microdramas has increased demand for high-quality script production. Long-form microdrama script ge…",
+      "id": "ddb0e2d1a8ae",
+      "title": "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
+      "url": "https://huggingface.co/papers/2610.14253",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Slider-based control aims to give users continuous, fine-grained control over the intensity of individual edits in inst…",
+      "score": 1
+    },
+    {
+      "id": "24581dc58b89",
+      "title": "Co-adaptive Rule Routing and Constraining for Structured Knowledge Retrieval",
+      "url": "https://huggingface.co/papers/2610.14465",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "Structured knowledge retrieval acquires task-relevant evidence from structured knowledge sources for downstream tasks. …",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-10-26T06:40:21.566Z",
+  "fetchedAt": "2026-10-26T13:34:47.128Z",
   "stale": false,
   "error": null
 }
