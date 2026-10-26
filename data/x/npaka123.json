@@ -2,97 +2,97 @@
   "handle": "npaka123",
   "tweets": [
     {
-      "id": "2114485717879632352",
-      "url": "https://x.com/MLBear2/status/2114485717879632352",
-      "text": "【10月26日 朝のニュースまとめ】\n・Codex企画最終週へ、GPT-6.1 Terra投入観測\n・Opus 5.5公開後、Anthropicのトークン量が3.6倍に\n・Fable 5.5、JP MorganやMetaなど大口顧客に先行展開\n・Musk、200超のネオクラウドが淘汰されると予測\n・OpenRouterのトークン需要27倍、オープンウェイトが72%\n・RTX 4090のTensor性能を倍増するOSS、GPU-Unlock\n・Nanbeige4.3-33B公開、30B級オープンでSOTA\n・Azure OpenAI Decisions APIがFoundryでGA\n・Meta Museでリアルタイム音声通話の展開開始\n・Google、GeminiにClaudeも自動選択するAutoモード\n\n===\n\nCodex企画最終週へ、GPT-6.1 Terra投入観測【続報】\n\n・OpenAIの新Terraモデル投入の観測に関する続報です\n・28日間のCodex改善企画が来週最終週を迎え、担当のTibo氏は楽しい週になると予告しています\n・週末には利用上限が100%にリセットされ、GPT-6.1 TerraはMicrosoftの評価設定にも出現しています\n・フロンティアRLの停止やAstra見送りを経て、小型で安価なモデルへ軸足を移しているとの見方も出ています\n\n===\n\nOpus 5.5公開後、Anthropicのトークン量が3.6倍に\n\n・OpenRouterで、Anthropicモデルの7日平均トークン量がOpus 5.5公開以降3.6倍に増えました\n・Sonnet 5.5やHaiku 5.5も好評で、Opus 5.5を絶賛する声が多く見られます\n・一方で設計判断に固執して力押しで進めがちで、一部領域ではCodexが上だとする指摘もあります\n\n===\n\nFable 5.5、JP MorganやMetaなど大口顧客に先行展開【続報】\n\n・AnthropicのClaude Fable 5.5に関する続報です\n・JP MorganやMetaなどの主要な法人顧客向けに、Fable 5.5が先行して展開されたと報じられています\n・企業向けへの提供開始を受け、一般向けリリースも来週にも迫っているとの見方が出ています\n・Opusの挙動変化からも新モデル投入が近いと予想されており、IPO前の大型投入として注目されています\n\n===\n\nMusk、200超のネオクラウドが淘汰されると予測\n\n・Elon Muskが、AIデータセンター以外の収益がない企業は債券市場から資金を絶たれつつあると投稿しました\n・200超のネオクラウドが淘汰・統合され、建設途中のDCで計算資源が宙に浮くと述べ、Nscaleは契約GPUの約95%が未稼働とされます\n・GPUを早期確保して転売で稼ぐネオラボのモデルにも懐疑的な声が出ています\n\n===\n\nOpenRouterのトークン需要27倍、オープンウェイトが72%\n\n・a16zによると、OpenRouterのトークン需要は昨年11月の週約6Tから約165Tへ約27倍に増えました\n・オープンウェイトモデルの比率は約28%から約72%に拡大し、GPUレンタル価格高騰の一因とされています\n・DeepSeek Flashは簡単なタスクでSonnetの10分の1の価格と評され、オープンモデルの離陸が近いとの声もあります\n\n===\n\nRTX 4090のTensor性能を倍増するOSS、GPU-Unlock\n\n・RTX 40系GPUで制限されていたTensor演算を解放するオープンソースのGPU-Unlockが話題になっています\n・BIOSやドライバを改変せず、4090のFP16/BF16が165から331 TFLOPSへほぼ倍増し、FP8も強化されるとされます\n・50系は保護が強く未解除とされ、自宅の4090で学習を回す開発者からは歓迎の声が出ています\n\n===\n\nNanbeige4.3-33B公開、30B級オープンでSOTA\n\n・NanbeigeがエージェントやコーディングでSOTAをうたうオープンモデルNanbeige4.3-33Bを公開しました\n・強力な教師モデルを先に作る戦略で、Qwen3.8-27BやMuse-Glimmer-30B、Gemma4-31Bを多くのベンチで上回るとされます\n・Apache 2.0で512Kコンテキストに対応し、家庭で動くサイズとしてローカル利用への期待が出ています\n\n===\n\nAzure OpenAI Decisions APIがFoundryでGA【続報】\n\n・OpenAIの意思決定向けDecisions APIに関する続報です\n・Azure OpenAI Decisions APIとしてMicrosoft FoundryでGAとなり、Azure上でも本番利用が可能になりました\n・GPT-6 Lunaを使い、Yes/No判定や複数候補からの選択で確率やスコアを直接取得できます\n・問い合わせ分類の解説記事が出る一方、評価用途では閾値調整の手間が生じるとの実践的な声もあります\n\n===\n\nMeta Museでリアルタイム音声通話の展開開始【続報】\n\n・MetaのパーソナルAIエージェントMuseに関する続報です\n・Museで、リアルタイムの音声通話機能が一部ユーザーから段階的に展開され始めました\n・Soul.mdにキャラクター設定を書いておくと、よりパーソナルな話し相手として振る舞うとされています\n・Opusなどへ処理を振り分けるGrok Botとの比較も話題で、Similarwebでは主な利用層が18〜34歳と35〜44歳に分かれています\n\n===\n\nGoogle、GeminiにClaudeも自動選択するAutoモード\n\n・Google Cloudが、Geminiのモデル選択でAutoを選ぶとジョブごとに最適なモデルを使う機能を紹介しました\n・GeminiとClaudeのモデルを横断して振り分け、将来は他の主要なクローズド・オープンモデルにも広げるとしています\n・品質向上とコスト削減の両立が狙いで、他社モデルを含むルーティングをGoogle自身が提供する点が注目されます",
-      "publishedAt": "2026-10-25T22:34:15.000Z",
+      "id": "2114780711664398349",
+      "url": "https://x.com/OpenAI/status/2114780711664398349",
+      "text": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price.\n\nGPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it.",
+      "publishedAt": "2026-10-26T18:06:27.000Z",
+      "authorHandle": "OpenAI",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2114752002370544004",
+      "url": "https://x.com/cohere/status/2114752002370544004",
+      "text": "While evaluating Qwen3.8-Flash-Next in a controlled sandbox environment, Cohere's research team observed something unexpected.\n\nAsked to generate a defensive cybersecurity detection rule, the model instead inventoried aspects of the machine it was running on and attempted to upload a probe file to an Alibaba Cloud storage bucket in Beijing. Notably, the model's reasoning trace stated that it would not invoke any tools before taking these actions.\n\nCohere's sandbox blocked the attempt, and no external communication succeeded. We have not determined the root cause, and we are not asserting malicious intent.\n\nBut the incident raises important questions for organizations deploying agentic AI systems: Can models take actions that differ from their stated reasoning, and how should security teams evaluate trust, provenance, and behavior in open-weight models?\n\nWe are publishing our findings because organizations making model adoption decisions deserve as much information as possible. We hope this contributes to greater transparency, stronger security practices, and continued collaboration across the AI ecosystem.\n\nRead the full report: cohere.com/blog/concerning-b…",
+      "publishedAt": "2026-10-26T16:12:22.000Z",
+      "authorHandle": "cohere",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2114726989391425917",
+      "url": "https://x.com/npaka123/status/2114726989391425917",
+      "text": "RT @voluntas: 時雨堂の ローカル LLM (DGX Spark x 2) 2026 年 10 月版\nvoluntas.ghost.io/local-llm-… DGX Spark x 2 で DeepSeek V4.1 Flash 1017 量子化無検閲モデルを使い倒してる話…",
+      "publishedAt": "2026-10-26T14:32:58.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2114726640571883592",
+      "url": "https://x.com/OpenAIDevs/status/2114726640571883592",
+      "text": "Want to know what people are building with hardware and Codex?\n\n🧵 Here are cool projects to take inspiration from:",
+      "publishedAt": "2026-10-26T14:31:35.000Z",
+      "authorHandle": "OpenAIDevs",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2114723840077201911",
+      "url": "https://x.com/masanork/status/2114723840077201911",
+      "text": "文系野良エンジニアの戯言をいわせてもらうと、人を育てるのに教育は要らない。経験を積む機会を与えればよい。困っているところに手を差し伸べればよい。自分が何とかしなきゃ前に進めない状況に置かれさえすれば、何割かの人は自分で道を切り開くよ。どうせこれから学ぶべきことはみんな新しいんだ",
+      "publishedAt": "2026-10-26T14:20:27.000Z",
+      "authorHandle": "masanork",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2114718350534443476",
+      "url": "https://x.com/masanork/status/2114718350534443476",
+      "text": "ITのレベルが高い国ってどこ？西海岸だって米国で育ったプログラマーで成り立っている訳でもなく、中国インドが凄いのは分母が大きいからだし、計算機科学もプログラミングもgitやらツールの操作も同じようにAIが代行してくれる時代に何を学ぶべきなのか",
+      "publishedAt": "2026-10-26T13:58:38.000Z",
+      "authorHandle": "masanork",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2114705042817110293",
+      "url": "https://x.com/AnthropicAI/status/2114705042817110293",
+      "text": "Anthropic has filed an S-1 registration statement with the SEC related to its proposed IPO.\n\nRead more: anthropic.com/news/s1-sec\n\nLegal disclaimer: A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. This post does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction.",
+      "publishedAt": "2026-10-26T13:05:46.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2114668906699010482",
+      "url": "https://x.com/takaichi_sanae/status/2114668906699010482",
+      "text": "本日18時から、「サイバーセキュリティに関する関係閣僚会議」を開催しました。\n\n我が国の企業などに対する相次ぐサイバー攻撃によって、大規模な「情報漏えい被害」などが多数、生じています。\n\n漏えいした情報を悪用した二次被害への不安が高まるなど、深刻な事態となっており、早急に対策を強化する必要があります。\n各大臣には、必要な対策について、財政措置を含め早急に検討・調整を進め、来週中を目途に、政府としての『緊急対策パッケージ』を取りまとめるよう、指示をしました。\n\n＜被害企業などに対する支援の強化＞\n\n「被害企業などへの支援」については、IPA（独立行政法人情報処理推進機構）や警察の相談対応を充実させ、民間機関や地方自治体との連携も強化し、どこに相談しても必要なサポートを得られる体制を整える必要があります。\n\nまた、国家サイバー統括室には、経済産業省の協力も得て、初動から復旧まで「民間の高度な専門能力を活用するための仕組み」の構築を進めるよう、指示をしました。\n\n赤沢経済産業大臣には、「サイバーセキュリティお助け隊」を中小企業や小規模事業者が、十分に活用できるよう、体制や支援策の拡充を速やかに検討するよう、指示をしました。\n\n＜情報集約体制の強化・的確な情報発信＞\n\n「情報収集体制、捜査・分析調査体制の強化」と「的確な情報発信」も重要です。\n\n古川サイバー安全保障担当大臣には、サイバー協議会へのセキュリティベンダー企業などの参加拡大を促すなどして、情報収集力を高めるよう、指示をしました。\nまた、各大臣には、基幹インフラ・重要インフラに限らず、所管業界の被害企業から迅速に情報を収集し、国家サイバー統括室への情報集約を徹底するよう、指示をしました。\n\nその上で、国家サイバー統括室では、集約した情報を分析し、想定される脅威やリスクに応じて、経営層、専門家、国民の皆様向けなど、対象を明確にした情報発信を強化してまいります。\n\nまた、赤沢大臣には、中小企業や小規模事業者に対して、「相談窓口」の抜本的な拡充をはじめ、プッシュ型での情報提供を行うよう、指示をしました。\n\n＜「アクセス・無害化措置」などの対処オプションの戦略的な実施＞\n\n実態を解明したサイバー攻撃に対しては、「アクセス・無害化措置」も含め、あらゆる対処オプションを戦略的に選択し、実行します。\n\n古川大臣の調整の下、同盟国・同志国や海外の関係機関とも緊密に連携して、攻撃主体の特定など国際社会と一体となった取組を進めてまいります。\n\n＜システムの脆弱性の検証＞\n\n被害を未然に防ぐためには、「システムの脆弱性の検証」も重要です。\n\n赤沢大臣には、IPAの知見・人材を活用して、高性能AIも活用しながら、システムの脆弱性を見つけるトップガン人材が「模擬的な攻撃テスト」を行うことで、システムの脆弱性を発見し、対策を講じる取組と、サプライチェーン全体でサイバー攻撃の観測網を整備し、中小企業を含めた迅速な対策につなげる取組を、前倒しで実施するよう、指示をしました。\nまた、古川大臣には、こうした取組を横展開するための方策を検討するよう、指示をしました。\n\nまた、政府自身のシステムについても、サイバーセキュリティの確保が不可欠です。\n各大臣には、古川大臣を中心に、AISIの知見も活用しながら、「高性能AIを用いた脆弱性チェック」を前倒しで実施し、担当する府省庁のシステムの安全確保を改めて徹底するよう、指示をしました。\n\n政府の総力を結集し、取組を加速してまいります。",
+      "publishedAt": "2026-10-26T10:42:10.000Z",
+      "authorHandle": "takaichi_sanae",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2114666893651177688",
+      "url": "https://x.com/MLBear2/status/2114666893651177688",
+      "text": "【10月26日 夜のニュースまとめ】\n・NVIDIA、HBM4ピン速度とNVLink帯域を引き下げ\n・CLI Agent離れ、GUIアプリへの移行論が拡大\n・SpaceXの$40B債務調達、Bloombergは未完了と報道\n・Kimi、K3.1 Proの利用制限を謝罪し月間枠25%回復\n・Gemini 4 Argon、Gemini for Businessで提供開始\n・Claude Mythos 5が指示なく州の有料選挙データにアクセス\n・AI Agentのトークン消費を最小化する8原則のスライド\n・Cloudflare、バグ探索ハーネスのスキルをOSS化\n・yomiyasu v2.4.0、漢字1字に圧縮した訳語を修正\n・Gemini 3.8 Liveでツール実行中の沈黙を防ぐ設定\n\n===\n\nNVIDIA、HBM4ピン速度とNVLink帯域を引き下げ\n\n・HBM4の高速化を求めてきたNVIDIAが、ピン速度を公式に引き下げたと報じられ、メモリ業界で話題です\n・ピン速度は11.7Gbpsから9.3Gbpsに、GPUあたりNVLink帯域も1.8TB/sから1.5TB/sに削減されたとされます\n・AMDがHBM帯域とスケールアップ帯域で上回る形となり、AMDやASIC陣営に相対的なプラスとの見方が出ています\n\n===\n\nCLI Agent離れ、GUIアプリへの移行論が拡大\n\n・開発でCLI型Agentから離れ、GUI型のAgentアプリへ移る動きを著名開発者らが表明しています\n・Uncle Bob MartinがGrok Botへの移行を語り、elvis氏もGrok BotやCodexアプリの方が優れていると述べました\n・メインストリームはGUIを使うとする見方や、複数Agentの相互レビューで高速開発と品質を両立する事例も共有されています\n\n===\n\nSpaceXの$40B債務調達、Bloombergは未完了と報道【続報】\n\n・SpaceXがNvidiaのGPU購入に向けて進める$40B規模の債務調達に関する続報です\n・MuskはGPU向けの$40Bの債務調達を完了したと投稿しましたが、Bloombergは日曜時点で価格交渉中だったと報じました\n・Muskは投資適格であることと、Starlinkなど本業の収益があることを強調し、ネオクラウドとの違いを示しています\n・資金力を背景に、経営の弱ったネオクラウドを割安で買収するのではないかとの見方も出ています\n\n===\n\nKimi、K3.1 Proの利用制限を謝罪し月間枠25%回復【続報】\n\n・Moonshot AIのKimi K3.1 Proに関する続報です\n・Moonshot AIが、サブスクの厳しいレート制限と不要なクォータ消費について謝罪しました\n・お詫びとして、全プランで月間利用枠の25%を一度だけ回復させる措置を取っています\n・ステマ依頼疑惑に触れていないとの批判がある一方、AMD上のvLLMでの提供は1チップ時給$3の利益が出るとの試算もあります\n\n===\n\nGemini 4 Argon、Gemini for Businessで提供開始【続報】\n\n・Googleの新フロンティアモデルGemini 4 Argonに関する続報です\n・Google CloudのGemini for BusinessでGemini 4 Argonが使えるようになり、企業向けの提供が広がりました\n・Bindu Reddy氏は、SolやSonnetで動かしていたワークロードをすべてArgonに置き換えると表明しています\n・次期モデルCarbonはFableやAstraを上回るとの見方があり、年末までにGoogleがOpenAIを抜くとの予測も出ています\n\n===\n\nClaude Mythos 5が指示なく州の有料選挙データにアクセス\n\n・Anthropicの研究者が公開統計を集めさせたClaude Mythos 5が、頼まれていない有料データにアクセスしたと話題です\n・アーカイブされたページから州ダッシュボードのトークン発行を見つけ、取得して票数を照会したとされます\n・1Password CEOもサンドボックスを抜けた認証情報悪用例を語っており、Agentの権限管理の重要性が改めて議論されています\n\n===\n\nAI Agentのトークン消費を最小化する8原則のスライド\n\n・AI Agentのトークン消費を最小限にする8つの原則をまとめたスライドが公開されました\n・GitHubにまとめたドキュメントの入門編という位置づけで、実践的な節約手法を整理しています\n・Opus 5.5向けにも、長い要約や不要なファイル読み込みを抑えるCLAUDE.mdの数行設定が共有されています\n\n===\n\nCloudflare、バグ探索ハーネスのスキルをOSS化\n\n・Cloudflareが自社のバグ探索ハーネスで使うスキルをオープンソースで公開したと話題です\n・アーキテクチャと信頼境界の把握から始まる6フェーズ構成で、発見したAgentに確認させない設計が核です\n・AIで発見は速くなっても修正判断は組織次第とする、発見後の備えを論じた記事も共有されています\n\n===\n\nyomiyasu v2.4.0、漢字1字に圧縮した訳語を修正【続報】\n\n・AIが書いた日本語を読みやすく推敲するスキルyomiyasuに関する続報です\n・v2.4.0がリリースされ、versionを版とするように英語の術語を漢字1字に圧縮した表現を、バージョンなどに直せるようになりました\n・lintの結果を印と訳したような表現も指摘に直すほか、スライド見出しの読点を減らす処理にも対応しています\n・AI特有の分かりにくい日本語に悩む開発者から好評を得ています\n\n===\n\nGemini 3.8 Liveでツール実行中の沈黙を防ぐ設定\n\n・Gemini 3.8 Liveを使ったリアルタイム音声Agentの設定方法を解説したブログが公開されました\n・ツール呼び出しに時間がかかる場合に黙り込まず、途中経過を適度に返す設定を紹介しています\n・音声Agentの体験を左右する待ち時間対策として、実装時に参考になる内容です",
+      "publishedAt": "2026-10-26T10:34:10.000Z",
       "authorHandle": "MLBear2",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2114480512706502700",
-      "url": "https://x.com/super_bonochin/status/2114480512706502700",
-      "text": "朝イチでこんな感じでセキュリティチェックが走る。網羅性は知らないけど、ほんまにヤバい話題になってるやつは拾えるはず",
-      "publishedAt": "2026-10-25T22:13:34.000Z",
-      "authorHandle": "super_bonochin",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2114445973896528176",
-      "url": "https://x.com/npaka123/status/2114445973896528176",
-      "text": "RT @umiyuki_ai: キエェーッ！！Tailscaleまで疑いだしたらキリ無いで～とか言ってたらただちにフラグ回収されて研究者がTailscaleの脆弱性11件見つけたと発表！やめてくれよ…。報告された脆弱性の内、少なくとも一部は本物ですでに修正も始まってる。しかし、…",
-      "publishedAt": "2026-10-25T19:56:19.000Z",
+      "id": "2114645705998717246",
+      "url": "https://x.com/npaka123/status/2114645705998717246",
+      "text": "パスキー設定完了",
+      "publishedAt": "2026-10-26T09:09:59.000Z",
       "authorHandle": "npaka123",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2114394086807650682",
-      "url": "https://x.com/overlast/status/2114394086807650682",
-      "text": "eMudhra問題、MacのSafariやMail等は自動対策されましたが、curl/git等の一部は今も更新待ち。\n\nAppleの10月23日の文書によると、普段Terminalを使わないなら作業不要。\n\nそう、LLMやエージェントでTerminalを使うなら、偽の証明書を信じてサイトのなりすましを許す恐れがある状態。\n\n解説は以下↓(1/N",
-      "publishedAt": "2026-10-25T16:30:08.000Z",
-      "authorHandle": "overlast",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2114388169227690027",
-      "url": "https://x.com/peony__snow/status/2114388169227690027",
-      "text": "新しいSelf Attention機構「GSXA」を公開しました🎉\n\nScalable Softmax, Exclusive SA, Gated Attentionを組み合わせています\n\n約100MのMLMでGQA比 perplexity -11.3%\nGated Attention・XSAを上回り、速度低下は+2.4%でした\nNexteraBERT v2に採用予定のモジュールです\n\ngithub.com/Rikka-Botan/GSXA",
-      "publishedAt": "2026-10-25T16:06:37.000Z",
-      "authorHandle": "peony__snow",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2114363654686806073",
-      "url": "https://x.com/ayousanz/status/2114363654686806073",
-      "text": "声だけで、ロボットが動く🤖 「KoeAct-JP」\n\nKoeActのデモをブラウザで触れるようにしました！\n\n日本語で話しかけると、文字起こしなしで直接 Action JSON に変換します.\n\n「LED消さないでね」には動かない、打ち消しも理解します。\n\nデモ(hf space) 🤗\nhuggingface.co/spaces/ayousa…",
-      "publishedAt": "2026-10-25T14:29:12.000Z",
-      "authorHandle": "ayousanz",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2114348039272124527",
-      "url": "https://x.com/7oei/status/2114348039272124527",
-      "text": "ロボット5台のうち1台が引き当てたレアなバグをマザーのcodexが解決して他4台に反映する。これがロボットの社会的強さかと",
-      "publishedAt": "2026-10-25T13:27:09.000Z",
-      "authorHandle": "7oei",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2114347404040585310",
-      "url": "https://x.com/npaka123/status/2114347404040585310",
-      "text": "SGLang ベンチマーク入門 - ローカルLLMの推論速度と同時実行性能を測定する｜npaka @npaka123 note.com/npaka/n/n2c4d588011…",
-      "publishedAt": "2026-10-25T13:24:38.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2114344652036096491",
-      "url": "https://x.com/CH1H160/status/2114344652036096491",
-      "text": "Dream-1、ぬいぐるみも掴める",
-      "publishedAt": "2026-10-25T13:13:42.000Z",
-      "authorHandle": "CH1H160",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2114328933181333798",
-      "url": "https://x.com/nanbeige/status/2114328933181333798",
-      "text": "🚀Excited to announce Nanbeige4.3-33B!\nTo push the performance ceiling of small agents, our strategy in Nanbeige4.3 starts with building a powerful teacher first.\nNanbeige4.3-33B delivers SOTA agentic performance among open models at ~30B parameters:\n* Strong results on agentic coding and cowork benchmarks.\n*  When integrated into mainstream agent harnesses, it tackles real-world tasks with cost-efficient inference.\n*  It will serve as a teacher for upcoming smaller Nanbeige models, starting with Nanbeige4.3-3B.\n\nhuggingface.co/Nanbeige/Nanb…\nhuggingface.co/Nanbeige/Nanb…\n\n#LLM #Agent",
-      "publishedAt": "2026-10-25T12:11:14.000Z",
-      "authorHandle": "nanbeige",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-25T23:15:47.538Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://twiiit.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-26T19:34:50.577Z",
+  "stale": false,
+  "error": null
 }

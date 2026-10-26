@@ -2,6 +2,33 @@
   "handle": "iwiwi",
   "tweets": [
     {
+      "id": "2114711039921238077",
+      "url": "https://x.com/SakanaAILabs/status/2114711039921238077",
+      "text": "本日のSakana AIのシンポジウムは、おかげさまで満員となりました。足を運んでくださった皆さま、本当にありがとうございました！🐟\n\nユルゲン・シュミットフーバー教授の基調講演や対談を含め、イベントの模様は後日あらためてご報告します。\n\n当日は CEO の David Ha から、AI主権にとって重要となる Sakana AIの取り組みの「3つの柱」についてお話ししました。\n\n・Pre-training：次世代の事前学習モデルの開発にAIエージェントを活用する\n・Post-training：日本語やビジネスシーンにLLMを適応させる事後学習技術（Sakana Namazu）\n・Orchestration：最先端の性能を、単一のAIモデルに依存せずに実現するオーケストレーション技術（Sakana Fugu）\n\n続いてチーフサイエンティストの秋葉拓哉から、事前学習の取り組みである「Sakana Sawara（仮称）」プロジェクトと、その意義についてお話ししました。\n\nSakana AIはこれまで、LLMを最大限に活用する「エージェントの層」での技術革新を強みの一つとしてきました。しかしいま、「モデルの層」が再び重要になっています。オープンモデルと最先端モデルとの差は縮まり、モデルを作るコストは下がり、さらに強化学習によって自社のタスクやツールに合わせて特化させることもできる。こうした状況を踏まえ、モデル作りに改めて取り組むべき時期が来たと考えています。\n\n事前学習のボトルネックは、相変わらず計算機の量にあります。その限られた計算資源をどこに投じるか。モデル開発の進展は、どんな実験をどの順で行い、どのアイデアを捨てるかという判断の精度に大きく左右されるようになりました。秋葉からは、こうした開発を、AIの力も駆使しながら少数精鋭のチームで手がけていくアプローチについてお話ししました。\n\nこの発表は、日経新聞でも取り上げていただきました。\nnikkei.com/article/DGXZQOUC2… 🐟",
+      "publishedAt": "2026-10-26T13:29:36.000Z",
+      "authorHandle": "SakanaAILabs",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2114706569250443295",
+      "url": "https://x.com/iwiwi/status/2114706569250443295",
+      "text": "最近はこのSakana Sawara(仮)の開発を僕のチームでやってます。本日のシンポジウムではその開発計画に加え、\"使える\" モデルを作る方法やコストがかなり明らかになった今LLM作り始めるのコスパ良いよねという話や、このLLM開発が\"RSI\"とどう関わってくるかなどの話をしました。",
+      "publishedAt": "2026-10-26T13:11:50.000Z",
+      "authorHandle": "iwiwi",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2114606190684766492",
+      "url": "https://x.com/iwiwi/status/2114606190684766492",
+      "text": "",
+      "publishedAt": "2026-10-26T06:32:57.000Z",
+      "authorHandle": "iwiwi",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2113961733991665940",
       "url": "https://x.com/RobertTLange/status/2113961733991665940",
       "text": "About to board my flight to Tokyo for a full week of @SakanaAILabs RSI excitement.\n\nReally honored to present our line of work on the AI Scientist at the RSI symposium alongside talks by @SchmidhuberAI, @hardmaru, @iwiwi, @Stefania_druga, and @risi1979.\n\nMore than 6 years ago, Juergen's diploma thesis got me to work on meta-learning and automated discovery. Soon after, David's blog posts got me started pushing hardware-accelerated evolutionary optimization. Today, powered by much more intelligent mutation operators, many of the back-then wishful visions are becoming reality!\n\nThis will be a lot of fun ;) Come and say hi if you are at the symposium!\n\nP.S.: Here is one of my favorite unofficial visual illustrations 🤗",
@@ -63,36 +90,9 @@
       "authorHandle": "SakanaAILabs",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2106911905847951651",
-      "url": "https://x.com/iwiwi/status/2106911905847951651",
-      "text": "Schmidhuber先生の直後に話すらしいです 😨 こんなに恐ろしい講演が今まであっただろうか",
-      "publishedAt": "2026-10-05T00:58:37.000Z",
-      "authorHandle": "iwiwi",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2105212831717367868",
-      "url": "https://x.com/LangProc/status/2105212831717367868",
-      "text": "これめちゃくちゃ良かったです\n\n要点が非常にわかりやすくまとまっている他、これの採用は普通だね、尖ってるよね、みたいな考察、LLM開発全体を俯瞰する視点もあってとても良かった....\n\nぜんぜん1時間に収まっておらず、瞳孔かっぴらいて見てもこの画像全然読めないので、可能であれば公開頂きたいところ...🙏",
-      "publishedAt": "2026-09-30T08:27:06.000Z",
-      "authorHandle": "LangProc",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2104875756325384638",
-      "url": "https://x.com/rmaruy/status/2104875756325384638",
-      "text": "秋葉拓哉さんのKimi K3の仕組み解説を拝聴。「Kimi K3も遠くから見れば最初の頃と同じAutoregressiveなTransformerだけど、近くで見ると全然違う」というところから入って語られるディテールの深みが、全然わからないなりにすごかった。",
-      "publishedAt": "2026-09-29T10:07:41.000Z",
-      "authorHandle": "rmaruy",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-26T01:16:07.334Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 403 Forbidden / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-26T19:34:45.114Z",
+  "stale": false,
+  "error": null
 }
