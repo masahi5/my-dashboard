@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "987ac4366acf",
-      "title": "おい！あなたのGPU演算能力制限されてますよ👽 gpu-unlock",
-      "url": "https://zenn.dev/minecode/articles/b4b9f7babcd56d",
-      "publishedAt": "2026-10-25T15:05:59.000Z",
-      "publisher": "szkr01",
-      "summary": "おい！あなたのGPU演算能力制限されてますよ👽 最近、gpu-unlockが話題ですね。 素人ながら調べてみると、いろいろ面白かったので備忘録としてなんとなくまとめます🌎 1. 「gpu-unlock」って何？ 端的に言うと、GeFo…"
+      "id": "d07838c20f4c",
+      "title": "なぜ僕は、MCPを作らずにフックを作ったのか",
+      "url": "https://zenn.dev/motimotinotch/articles/a9417f8fc5100a",
+      "publishedAt": "2026-10-26T03:26:40.000Z",
+      "publisher": "MotimotiNotch",
+      "summary": "自分で作った小さな Web ページが、何回開かれたかを数えるスクリプトがある。Cloudflare の API に問い合わせて、日ごとの回数をファイルに貯め、まとめのノートを書き直すだけの、200行ほどの Python だ。 これを CL…"
     },
     {
-      "id": "ba9b07c6b7ba",
-      "title": "最近のエージェンティック開発について調べてみた",
-      "url": "https://zenn.dev/shoyataguchi/articles/bc98b3562bdf3a",
-      "publishedAt": "2026-10-25T14:39:28.000Z",
-      "publisher": "Shoya Taguchi",
-      "summary": "最近の私の開発は、AI との対話で大きめの GitHub Issue を作り、それらの PR 作成 + AI レビューまで AI にやってもらって、最後に必要な箇所を人がレビューする、という進め方です。ループエンジニアリングやグラフエンジ…"
+      "id": "2ddcdbac5967",
+      "title": "11月からGoogle AI Proを契約する予定。API代とYouTube、開発の予備環境をまとめて考えた",
+      "url": "https://zenn.dev/kiyoka/articles/google-ai-pro-subscription-plan",
+      "publishedAt": "2026-10-26T03:19:56.000Z",
+      "publisher": "kiyoka",
+      "summary": "はじめに 2026年11月から、Google AI Proを契約しようと思っています。理由は、値段と特典の組み合わせです。 私は日本語入力システムSumibi用にOpenAIのAPIを月に約5ドル、ベンチマーク用にGemini APIも月…"
     },
     {
-      "id": "00c2f1be4094",
-      "title": "守りたい性質からはじめるコード観測",
-      "url": "https://zenn.dev/iroha1203/articles/138dfbf70a9167",
-      "publishedAt": "2026-10-25T14:37:56.000Z",
-      "publisher": "Hiroyuki Nakahata",
-      "summary": "これまでのソフトウェア開発は、人がコードを読んで理解することを前提にしてきました。分かりやすい名前を付け、長い処理を分けるのも、読む人が意図を追えるようにするためです。 しかし、AIが次々にコードを書くようになると、人が読む速度では追いつ…"
+      "id": "84aff948c704",
+      "title": "「任せる範囲」を先に決めたら、AIが止まらなくなった",
+      "url": "https://zenn.dev/hitoribocchi_ai/articles/06111dd916fe76",
+      "publishedAt": "2026-10-26T02:58:19.000Z",
+      "publisher": "ひとり事業主とAI",
+      "summary": "Claude Codeに作業を任せていると、2つの失敗が起きます。 聞きすぎる。 「実行してよいですか？」が毎回出て、作業が止まる。 任せすぎる。 何も聞かずに進めて、取り返しのつかない操作をする。 どちらも、AIの性格ではなく、「どこま…"
     },
     {
-      "id": "40c6706c41b9",
-      "title": "別のAIにレビューさせる決まりをClaude Codeが忘れるので、終了時に1回だけ止めるフックを作った",
-      "url": "https://zenn.dev/twinharness/articles/codex-review-gate-stop-hook",
-      "publishedAt": "2026-10-25T14:31:24.000Z",
-      "publisher": "twinharness",
-      "summary": "「実装したら、書いたのとは別の AI にレビューさせる」というルールを作っても、AI は忘れます。ルールを文章で書くだけでは守られなかったので、会話を終えようとした瞬間に、レビューを通したかを調べて、通していなければ1回だけ止める仕組み（…"
+      "id": "7f363eb3cb6c",
+      "title": "AI エージェント 生成エージェント ~ STORM Act #1",
+      "url": "https://zenn.dev/sionicai_jp/articles/88bd276e27cc2f",
+      "publishedAt": "2026-10-26T02:32:55.000Z",
+      "publisher": "サイオニックエーアイ株式会社",
+      "summary": "本記事の目的 AIエージェントを作る手法はいくつかあり、日々増えていっています。特にノーコード・ローコードの手法もいくつか存在し、AIエージェント自作への障壁はだいぶ下がってきています。 しかし、ノーコードであっても、処理フローの設計や各…"
     },
     {
-      "id": "813b1f526f31",
-      "title": "# 眼鏡職人が「AIとの対話ログ×成果物」から人のAI活用能力を可視化する技術で特許を取得した話",
-      "url": "https://zenn.dev/tlc/articles/004b80b904de9c",
-      "publishedAt": "2026-10-25T14:17:12.000Z",
-      "publisher": "Tokyo Last Craftsmen",
-      "summary": "2026年9月30日、人のAI活用能力を可視化する情報処理技術が、日本で特許登録されました。 特許第7932117号 僕は眼鏡職人です。AIの研究者でも、プログラマーでもありません。 今回の発明は、僕自身が考えたアイデアをAIとの対話を重…"
+      "id": "8b37b2773e4e",
+      "title": "VS Code 1.143.1でCodex拡張が「Codex could not start」になる時の対処",
+      "url": "https://zenn.dev/third_tech/articles/f3a9d2f625fd84",
+      "publishedAt": "2026-10-26T02:28:44.000Z",
+      "publisher": "miyapei",
+      "summary": "概要 症状：Codex のサイドバーに「Codex could not start / The extension could not start its user interface.」と出て起動しない 開くたびに、出力パネルの「Cod…"
     },
     {
-      "id": "458f1383f157",
-      "title": "NVIDIA OpenShellのdefault-denyネットワークポリシーを実機で検証した",
-      "url": "https://zenn.dev/matsushima_a/articles/day-026-openshell-default-deny-network-policy",
-      "publishedAt": "2026-10-25T14:10:26.000Z",
-      "publisher": "matsu",
-      "summary": "AIエージェントをサンドボックスで隔離実行するNVIDIA製ランタイム「OpenShell」を実際にインストールし、「ポリシーが無ければ全てのアウトバウンド通信が拒否され、読み取り専用ルールを足すとGETだけ通るようになる」という挙動を、…"
+      "id": "b481c882908d",
+      "title": "商品説明を書く前に、AIへ渡す商品情報をそろえる方法",
+      "url": "https://zenn.dev/ec_jidoka_kobo/articles/e6e68b39ba1733",
+      "publishedAt": "2026-10-26T01:57:36.000Z",
+      "publisher": "EC自動化工房",
+      "summary": "※例はすべて架空の店舗・商品です 架空の「サンプル雑貨店」で、新しいマグカップの商品ページを作ることになりました。 手元にあるメモは「青いマグ。冷めにくい。食洗機OK」。このままAIに説明文を頼むと、容量や素材、使い心地まで、書いていない…"
     },
     {
-      "id": "eedd23a1c121",
-      "title": "AI botのinner loopとouter loopとは：Grok BotとDotsで考える役割分担",
-      "url": "https://zenn.dev/gingakuwagata/articles/ai-bot-inner-outer-loop",
-      "publishedAt": "2026-10-25T13:48:25.000Z",
-      "publisher": "ぎんがくわがた",
-      "summary": "コーディングエージェントに修正を頼めば、コードを読み、テストを動かし、失敗した箇所を直してくれます。 ただ、その前に「Slackのどの報告を拾うか」「何が本当の問題か」「どのリポジトリで直すか」を人間が整理していることがあります。 Gro…"
+      "id": "0c4e3508528f",
+      "title": "抽象化と具体化を繰り返す、AIとの壁打ちのその先へ",
+      "url": "https://zenn.dev/recurrenthub/articles/0596389b4e2e00",
+      "publishedAt": "2026-10-26T01:55:45.000Z",
+      "publisher": "Kenichi",
+      "summary": "AIとの壁打ちは、もう日常になりました。 いきなり「ネタを出して」と頼むのではなく、「誰に向けたものか」「何のためか」をAIと話してから頼む。返ってきた答えに違和感があれば、「そうじゃなくて」と伝えて直してもらう。 一発で答えを求めていた…"
     },
     {
-      "id": "a157beab7766",
-      "title": "AI協働：FRB Launch続報 — マウスホイールぐりぐりが魔法になった話（笑）",
-      "url": "https://zenn.dev/frb_tamasub/articles/ai-collaboration07-frb-launch-wheel-experience",
-      "publishedAt": "2026-10-25T13:44:37.000Z",
-      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
-      "summary": "はじめに——ランチャーを作った、その後の話（笑） 先日、こんな記事を書いた。 AI協働：昨日の日付を入力したくなくて、ランチャーを作った話 — FRB Launch 会社で「昨日の日付」を入力するのが面倒で、Copilotくんに小さなテキ…"
+      "id": "1e88fa14666d",
+      "title": "AI時代におけるQuality Engineeringの教科書",
+      "url": "https://zenn.dev/rinov/books/3524fa1fc98f46",
+      "publishedAt": "2026-10-26T01:55:05.000Z",
+      "publisher": "rinov",
+      "summary": "ITサービス・ソフトウェア開発・プロダクト開発におけるQuality Engineeringを扱う本です。QEの定義から始め、AIによる開発の変化を研究結果とともに整理したうえで、考え方やスキル、具体的な実践を説明します。動画配信サービス…"
     },
     {
-      "id": "7af0d8ed49c6",
-      "title": "AI用のMMORPGを作ったら、AIたちに4日でダメージ計算式を解明された",
-      "url": "https://zenn.dev/palon7/articles/clawsaga-ai-mmo",
-      "publishedAt": "2026-10-25T13:23:54.000Z",
-      "publisher": "Palon",
-      "summary": "! この記事はLLMの校正を受けながら人間が執筆しました ソフトウェアエンジニアであれば、業務でも趣味でもAIエージェントを活用されている方は多いかと思います。コーディングから最近では3Dモデリングまで、LLMができることは増え続けている…"
+      "id": "1c291b396a7f",
+      "title": "Claude Codeに「このデータベースを止めたら誰が困る？」と聞いて、根拠までたどる",
+      "url": "https://zenn.dev/96logger/articles/6ee24bab72d94b",
+      "publishedAt": "2026-10-26T01:41:00.000Z",
+      "publisher": "96logger",
+      "summary": "ご利用中のAIを、システム保守に強くしたい皆様へ。 開発支援AIは、コード自体に関する回答にはよく答えます。ただ「このデータベースを止めたら誰が困る？」と聞いた時、その結果は期待外れになると感じています。そのシステムを誰が、どの業務で使っ…"
     },
     {
-      "id": "423ebc78959d",
-      "title": "Cloudflare の security-audit-skill を、個人開発アプリで試してみた",
-      "url": "https://zenn.dev/suna/articles/e0e3af015d7bed",
-      "publishedAt": "2026-10-25T12:54:26.000Z",
-      "publisher": "ゆきひろ",
-      "summary": "Cloudflare が公開している security-audit-skill は、AI がコードから問題を探し、別の AI が「本当に問題なのか」と疑って検証するセキュリティ監査用の Skill だ。 自作の防災備蓄アプリ「おすそぐら」…"
+      "id": "7a39002a3d3f",
+      "title": "最近の E2E 戦略（2026 年 10 月現在）",
+      "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
+      "publishedAt": "2026-10-26T01:18:03.000Z",
+      "publisher": "Tatsunori Nakano",
+      "summary": "この記事に書いてあること E2E を主要シナリオだけでなく網羅的に整備した 実装から拾った確認対象とシナリオの対応漏れをチェックし漏れがあれば CI で落とす 開発ワークフローの品質ゲートにローカル E2E 実行を組み込んでいる 毎回全シ…"
     },
     {
-      "id": "6b49b7a26330",
-      "title": "Gmailが広告の材料に？ AIに渡すデータの行方",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261025",
-      "publishedAt": "2026-10-25T12:45:36.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月25日（日）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日のテーマを一言で言うと、「AIに何を渡すか」なんですよ。Googleは、AI機能をオンにした人のGmailや写真を広告に使える…"
+      "id": "4b83c5bb9ffd",
+      "title": "GitLab Orbit Local で、コードの影響範囲調査にかかる AI の token 消費を減らす",
+      "url": "https://zenn.dev/azush/articles/c007dff623bafa",
+      "publishedAt": "2026-10-26T01:08:29.000Z",
+      "publisher": "azush",
+      "summary": "こんにちは、GitLab で Senior Solutions Architect をしている azush です🦊 ! 本記事は、ステルスマーケティングとならないよう筆者の所属を明記しています。本記事の内容は筆者個人の見解であり、所属組…"
     },
     {
-      "id": "900851b81dd2",
-      "title": "音声編集のUXはどう変わる？波形操作から「意図を伝える」インターフェースへ",
-      "url": "https://zenn.dev/cicisee/articles/58415101729fd2",
-      "publishedAt": "2026-10-25T12:34:17.000Z",
-      "publisher": "CiciSee",
-      "summary": "はじめに：音声編集はなぜ難しく感じるのか 1時間のインタビュー音声から、重要な発言だけを3分にまとめたい。 やりたいこと自体はシンプルです。しかし、従来の音声編集ソフトで実現しようとすると、まずファイルを読み込み、波形を確認し、目的の発言…"
+      "id": "6776dd2d12cf",
+      "title": "AI 時代、テストの期待値は誰が決める？：TDD をめぐる識者の見方と検証",
+      "url": "https://zenn.dev/zundamon_tools/articles/ai-tdd-test-expected-values",
+      "publishedAt": "2026-10-26T01:01:17.000Z",
+      "publisher": "ずんだもんの実験道具箱",
+      "summary": "AI がテストを書く時代に、テストの期待値は誰が決めればいいのか。この記事は、その考え方を揃えるための記事です。 期待値は、テストが「正しい答え」とする値です。AI に頼むとテストは全部緑で返ってきますが、期待値がずれていれば、その緑は何…"
     }
   ],
-  "fetchedAt": "2026-10-26T01:15:45.200Z",
+  "fetchedAt": "2026-10-26T06:40:21.739Z",
   "stale": false,
   "error": null
 }

@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9697fa4dcec0",
-      "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
-      "url": "https://huggingface.co/papers/2610.30753",
+      "id": "f0a54e44f571",
+      "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+      "url": "https://huggingface.co/papers/2610.30932",
       "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, exec…",
-      "score": 31
+      "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluatin…",
+      "score": 26
     },
     {
-      "id": "16a4b2c4ec18",
-      "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.31198",
+      "id": "be4f46a40d8c",
+      "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
+      "url": "https://huggingface.co/papers/2610.31162",
       "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In …",
+      "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring …",
+      "score": 24
+    },
+    {
+      "id": "3ca1de868e75",
+      "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+      "url": "https://huggingface.co/papers/2610.32253",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implemen…",
       "score": 23
     },
     {
-      "id": "c9f5cdfe520e",
-      "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
-      "url": "https://huggingface.co/papers/2610.30418",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assemble…",
-      "score": 23
+      "id": "0f018487da7f",
+      "title": "RynnUnify: Towards Unified Embodied Brain",
+      "url": "https://huggingface.co/papers/2610.32965",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visu…",
+      "score": 16
     },
     {
-      "id": "64bcd29cbbcf",
-      "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
-      "url": "https://huggingface.co/papers/2610.04184",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repea…",
-      "score": 22
-    },
-    {
-      "id": "d53d0dbf9735",
-      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
-      "url": "https://huggingface.co/papers/2610.31651",
+      "id": "1364bf708b15",
+      "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
+      "url": "https://huggingface.co/papers/2610.31066",
       "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building ob…",
-      "score": 13
+      "summary": "World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can infor…",
+      "score": 9
     },
     {
-      "id": "151d32178d82",
-      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
-      "url": "https://huggingface.co/papers/2610.22722",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can recons…",
-      "score": 10
+      "id": "9bd610105fa9",
+      "title": "Every Weight Is a Path of Shared Discrete Decisions",
+      "url": "https://huggingface.co/papers/2610.31931",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "We introduce TWIG (Tree-structured Weights with Inherited Gates), a representation in which every weight of a neural ne…",
+      "score": 3
     },
     {
-      "id": "aec29875f827",
-      "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
-      "url": "https://huggingface.co/papers/2610.25835",
-      "publishedAt": "2026-10-19T05:47:58.000Z",
-      "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many pass…",
-      "score": 10
+      "id": "ef669ec3aa15",
+      "title": "FLOMSS: Generative Music Source Separation by Flow Matching",
+      "url": "https://huggingface.co/papers/2610.17821",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Music source separation (MSS) has been conventionally addressed by discriminative methods. Recently, flow matching has …",
+      "score": 3
     },
     {
-      "id": "7d555413ef22",
-      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
-      "url": "https://huggingface.co/papers/2610.28950",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more t…",
-      "score": 10
+      "id": "c951ee6bf1e0",
+      "title": "Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction",
+      "url": "https://huggingface.co/papers/2610.32250",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Single-image 3D scene construction is a fundamental problem in 3D vision. Recent methods such as SAM-3Dfy enable end-to…",
+      "score": 2
     },
     {
-      "id": "2b702145340f",
-      "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
-      "url": "https://huggingface.co/papers/2610.27148",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help. Falling relia…",
-      "score": 10
+      "id": "d4fa1efe4560",
+      "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
+      "url": "https://huggingface.co/papers/2610.31569",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "Recognizing task completion and failure enables robots to stop upon success and initiate recovery or replanning after f…",
+      "score": 2
     },
     {
-      "id": "e5ed08cb336a",
-      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
-      "url": "https://huggingface.co/papers/2610.30043",
+      "id": "85997eecd6c2",
+      "title": "Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding",
+      "url": "https://huggingface.co/papers/2610.29552",
       "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. E…",
-      "score": 8
+      "summary": "Fine-grained multimodal intelligence requires models to both understand a designated region and localize it from langua…",
+      "score": 2
     },
     {
-      "id": "88d0ab490e56",
-      "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
-      "url": "https://huggingface.co/papers/2610.24383",
-      "publishedAt": "2026-10-17T00:00:00.000Z",
-      "summary": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify w…",
-      "score": 8
+      "id": "d0fa9585dbe9",
+      "title": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
+      "url": "https://huggingface.co/papers/2610.32894",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Location encoders map geographic coordinates to high-dimensional descriptors through contrastive alignment with paired …",
+      "score": 1
     },
     {
-      "id": "dd2e6f3017a9",
-      "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
-      "url": "https://huggingface.co/papers/2610.24385",
-      "publishedAt": "2026-10-17T00:00:00.000Z",
-      "summary": "Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight i…",
-      "score": 7
+      "id": "02c5db85be00",
+      "title": "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
+      "url": "https://huggingface.co/papers/2610.32002",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "The rapid growth of microdramas has increased demand for high-quality script production. Long-form microdrama script ge…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-10-26T01:15:45.045Z",
+  "fetchedAt": "2026-10-26T06:40:21.566Z",
   "stale": false,
   "error": null
 }
