@@ -6,6 +6,22 @@
   "category": "ai",
   "items": [
     {
+      "id": "a21353463634",
+      "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
+      "url": "https://huggingface.co/papers/2610.33135",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Precise camera control is essential for cinematic character video generation, yet existing methods struggle to follow l…",
+      "score": 22
+    },
+    {
+      "id": "29aa4b28c267",
+      "title": "DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning",
+      "url": "https://huggingface.co/papers/2610.32093",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Behavior cloning for robotic manipulation is highly sensitive to the coverage of its training data, yet collecting dive…",
+      "score": 8
+    },
+    {
       "id": "1b7f730e7948",
       "title": "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows",
       "url": "https://huggingface.co/papers/2610.21109",
@@ -14,36 +30,44 @@
       "score": 5
     },
     {
-      "id": "8d19046e4c4c",
-      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
-      "url": "https://huggingface.co/papers/2610.31810",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormal…",
-      "score": 5
+      "id": "092513f49957",
+      "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+      "url": "https://huggingface.co/papers/2610.33956",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge fro…",
+      "score": 4
     },
     {
-      "id": "46e35e286a32",
-      "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
-      "url": "https://huggingface.co/papers/2610.31819",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Speculative decoding is a technique that accelerates the inference speed of autoregressive large language models (LLMs)…",
+      "id": "d94ab8efb26f",
+      "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+      "url": "https://huggingface.co/papers/2610.33966",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishe…",
       "score": 3
     },
     {
-      "id": "48e466ef6791",
-      "title": "KANLab: TensorFlow Playground for Kolmogorov-Arnold Networks",
-      "url": "https://huggingface.co/papers/2610.20117",
+      "id": "136b0f0f11df",
+      "title": "Function-Space Temporal Self-Distillation for Policy Optimization",
+      "url": "https://huggingface.co/papers/2610.19687",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "KANLab is a browser-based visualization tool designed to interactively teach the core concepts of Kolmogorov-Arnold Net…",
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) improves reasoning in language models, but scalar outcomes provid…",
       "score": 2
     },
     {
-      "id": "3c4192c15d8b",
-      "title": "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making",
-      "url": "https://huggingface.co/papers/2610.19589",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Repeated event forecasting requires extracting predictive signals from noisy evidence and evaluating their value across…",
-      "score": 2
+      "id": "2e39cfe6baff",
+      "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+      "url": "https://huggingface.co/papers/2610.32285",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying m…",
+      "score": 1
+    },
+    {
+      "id": "2e766a1c3206",
+      "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+      "url": "https://huggingface.co/papers/2610.29139",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Frontier black-box Large Language Model (LLM) agents are proficient at long-horizon reasoning and precise action genera…",
+      "score": 1
     },
     {
       "id": "20d2e9771419",
@@ -54,55 +78,31 @@
       "score": 1
     },
     {
-      "id": "63befad44396",
-      "title": "Judging the Justification: Decision Certificate Supervision for Generative Reward Models",
-      "url": "https://huggingface.co/papers/2610.27528",
+      "id": "3478bc7544b2",
+      "title": "Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery",
+      "url": "https://huggingface.co/papers/2610.32195",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Scientific discovery requires identifying the scientific principles underlying observed phenomena to guide further inve…",
+      "score": 0
+    },
+    {
+      "id": "9e8e2372f488",
+      "title": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
+      "url": "https://huggingface.co/papers/2610.33169",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Interactive video world models require coordinated control over viewing perspectives, character actions, and camera mot…",
+      "score": 0
+    },
+    {
+      "id": "d491ff9c8591",
+      "title": "WORTH Benchmark: Evidence Discovery under Not-Fully-Cooperative Information -- A Two-Episode Pilot",
+      "url": "https://huggingface.co/papers/2610.27597",
       "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Generative reward models (GenRMs) generate natural language rationales to justify preference judgments, yet a correct v…",
-      "score": 1
-    },
-    {
-      "id": "1204146ca8ae",
-      "title": "LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification",
-      "url": "https://huggingface.co/papers/2610.30524",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Lyapunov functions and barrier certificates give state-space guarantees of stability and safety, but synthesizing and v…",
-      "score": 1
-    },
-    {
-      "id": "c038b438f783",
-      "title": "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories",
-      "url": "https://huggingface.co/papers/2610.28655",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "summary": "Publishers and funders increasingly ask authors to disclose how AI tools contributed to a piece of research. In computa…",
-      "score": 1
-    },
-    {
-      "id": "d78ebc6f16c1",
-      "title": "Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection",
-      "url": "https://huggingface.co/papers/2610.27364",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "In joint-embedding predictive architectures (JEPA), an encoder and a predictor are trained together to produce a repres…",
-      "score": 0
-    },
-    {
-      "id": "b33095e2f960",
-      "title": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
-      "url": "https://huggingface.co/papers/2610.31572",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural net…",
-      "score": 0
-    },
-    {
-      "id": "fba981eec59e",
-      "title": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
-      "url": "https://huggingface.co/papers/2610.31779",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "The life-cycle of robotics foundation models crucially depends on data labels. Outcome reward labels are needed for mon…",
+      "summary": "Existing reasoning evaluations typically provide task-relevant information to models as available premises, rarely exam…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-26T23:21:26.594Z",
+  "fetchedAt": "2026-10-27T02:16:20.513Z",
   "stale": false,
   "error": null
 }

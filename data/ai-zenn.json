@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "5fc748350c4e",
+      "title": "Museの定期実行を回してみた — 「朝刊」が届く仕組みと、続けるための設計メモ",
+      "url": "https://zenn.dev/dev_pjs/articles/bdf10d52ba6276",
+      "publishedAt": "2026-10-26T16:00:43.000Z",
+      "publisher": "Dev_PJS",
+      "summary": "はじめに 前に、専用PCを持つAIエージェント『Muse』を試した話を書きました。今回はその続編で、一度きりの依頼ではなく「定期実行」を回してみた記録です。 頼んだのはシンプルで、「平日の朝7時に、追っているテーマの新着を調べて、要点3行…"
+    },
+    {
+      "id": "3da25bd3f166",
+      "title": "その１ なぜ tfstylus を作ったのか",
+      "url": "https://zenn.dev/terraform_jp/articles/2026-10-27_tfstylus_01",
+      "publishedAt": "2026-10-26T15:39:01.000Z",
+      "publisher": "raki",
+      "summary": "tl;dr terraform のコードを少し整える tfstylus を作ってみた の続き 今回はなぜこのツールを作ったのか、について なぜ作ったのか AI全盛期とも呼べる2026年現在、AIが書いたコードの中身を読まない、PRのレビュ…"
+    },
+    {
+      "id": "1dce557c7264",
+      "title": "Fortranでつくる将棋用AI",
+      "url": "https://zenn.dev/clamini/articles/0139cdfc1e60bb",
+      "publishedAt": "2026-10-26T15:38:37.000Z",
+      "publisher": "lyrical clarice",
+      "summary": "はじめに Fortranでつくるゲーム用AIシリーズ、今回は将棋のAIです。将棋AIは、かつて打倒プロ棋士を目指しての競争の時代もあったため、この種のAIを作ろうと思った方も多いのではないでしょうか。私は現役の学生の頃、ゲームAI系の研究…"
+    },
+    {
+      "id": "abbf82ac9a9c",
+      "title": "Vibe Coding 開発に AI を導入する際の問題メモ（二）-なぜトークンはこんなに早く消費されるのか？",
+      "url": "https://zenn.dev/lian0123/articles/efbff5f3c93ee5",
+      "publishedAt": "2026-10-26T15:35:34.000Z",
+      "publisher": "Lian0123",
+      "summary": "はじめに こんな経験はないでしょうか。AIにいくつかのバグ修正や画面の調整を頼んだだけなのに、たいして作業が進まないうちに、利用枠がほとんどなくなってしまう。 AIが複雑な開発タスクをこなせるようになるにつれ、私たちもより多くの作業を任せ…"
+    },
+    {
       "id": "dd2d44684b4b",
       "title": "AI のハーネスって結局何なのか、自分の Claude Code の設定から整理してみた",
       "url": "https://zenn.dev/pollenjp/articles/2026-10-22-ai-harness",
@@ -68,41 +100,9 @@
       "publishedAt": "2026-10-26T13:52:44.000Z",
       "publisher": "kakami21",
       "summary": "開発ルールの原本をdevelopment-standardsに集約し、Node.jsのスクリプトで各プロジェクトへ配置する。エージェント向けの指示と生成ボタン向けの設定を分け、必要な入口から同じ原本を参照する構成とした。 目的は、ルールの…"
-    },
-    {
-      "id": "c21009530882",
-      "title": "AIで儲かってるのはIT業界だけ？ 経済学者の指摘",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261026",
-      "publishedAt": "2026-10-26T13:47:30.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月26日（月）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます。今日のテーマを一言で言うと、「AIで本当に儲かるのか」なんですよ。アメリカの投資会社Apolloの経済学者が、…"
-    },
-    {
-      "id": "a71a6fec014b",
-      "title": "ブラウザで完結！サーバー送信ゼロ・完全無料のローカルファイル変換ツール「Convertube」を作った話",
-      "url": "https://zenn.dev/audiofiltertool/articles/post-0b00a898-055e-416f-81bb-ad70298a920e",
-      "publishedAt": "2026-10-26T13:41:05.000Z",
-      "publisher": "zhyoup2",
-      "summary": "title: \"ブラウザで完結！サーバー送信ゼロ・完全無料のローカルファイル変換ツール「Convertube」を作った話\" emoji: \"🔄\" type: \"tech\" # tech: 技術記事 / idea: アイデア topics…"
-    },
-    {
-      "id": "f9f48c027e06",
-      "title": "terraform のコードを少し整える tfstylus を作ってみた",
-      "url": "https://zenn.dev/terraform_jp/articles/2026-10-26_tfstylus",
-      "publishedAt": "2026-10-26T13:20:08.000Z",
-      "publisher": "raki",
-      "summary": "tl;dr 歴史のある terraform のコードを整えるツールを作ったので紹介 tfstylus is terraform を使い出すとディレクトリやファイルがたくさんになる コードを書く人やツールによって、同じリソースブロックでも並…"
-    },
-    {
-      "id": "582c916a9a06",
-      "title": "他人のClaude CodeやCodexにAPIキーを渡さず仕事を委譲するゼロトラスト基盤「ACP」をOSS公開した",
-      "url": "https://zenn.dev/acidnyan/articles/b1b851705ce4af",
-      "publishedAt": "2026-10-26T13:13:23.000Z",
-      "publisher": "たかぽん",
-      "summary": "はじめに：なぜ「異なる所有者のエージェント間協働」は危険なのか 自分の手元で動いている Claude Code や Codex CLI から、友人や外部パートナーが動かしている専門エージェントにタスクを委譲したい場面が増えています。 しか…"
     }
   ],
-  "fetchedAt": "2026-10-26T23:21:26.690Z",
+  "fetchedAt": "2026-10-27T02:16:20.876Z",
   "stale": false,
   "error": null
 }
