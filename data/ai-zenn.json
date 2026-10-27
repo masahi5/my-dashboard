@@ -6,38 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "d6824998627b",
-      "title": "AI にアプリを作らせる前に「決める」、作らせたあとに「確かめる」npx のツールを作りました",
-      "url": "https://zenn.dev/xmichinokux/articles/59d13b28c56dee",
-      "publishedAt": "2026-10-27T03:28:57.000Z",
-      "publisher": "ま",
-      "summary": "以前の記事でも書いたかも知れませんが、これまでClaude Codeを使った開発で困ったことがありませんでした。 そういうもと思っていたら、どうやら他の人は違うという意見を目にしました。 「AIが勝手な実装をする」「バグを直したら別のとこ…"
-    },
-    {
-      "id": "46f18485ac07",
-      "title": "Decision Model「InnerJev」を試してみる：視聴済みの話数に合わせてネタバレを隠せるか",
-      "url": "https://zenn.dev/nakanishitf/articles/3a6747ae4a864e",
-      "publishedAt": "2026-10-27T03:24:46.000Z",
-      "publisher": "T.N.",
-      "summary": "同じコメントでも、読んでよい人は違う 「あの親切な店主が犯人だったとは。」 ドラマの感想欄にこのコメントがあったら、まだ第1話しか見ていない人には隠したくなります。 一方、最終話まで見終わった人には、そのまま表示してもよさそうです。 同じ…"
-    },
-    {
-      "id": "e2785924b4d5",
-      "title": "AIエージェントに8年放置のOSSを引き取らせた — 人間が介入した箇所を全部書く",
-      "url": "https://zenn.dev/faanau/articles/ai-agent-adopting-abandoned-oss",
-      "publishedAt": "2026-10-27T03:21:00.000Z",
-      "publisher": "Faanau Inc.",
-      "summary": "週35万DLされながら8年間更新の止まっていた npm パッケージを、AI エージェントに引き取らせた。調査からフォーク、バグ修正、CI 構築、npm 公開、上流への PR まで、実作業のほとんどをエージェントが進めた。 結果としてはうま…"
-    },
-    {
-      "id": "814e5a5a392d",
-      "title": "「AIに作らせる」から「AIに運用させる」へ――アカウント不要の MCP サーバー「Sakupa」を紹介します",
-      "url": "https://zenn.dev/kakusan2022/articles/3b1f722bb4b13e",
-      "publishedAt": "2026-10-27T03:05:23.000Z",
-      "publisher": "Kakusan",
-      "summary": "最初に明記しておきます。私は Sakupa の開発者ではありません。MCP サーバーを調べていて見つけ、設計が面白いと思ったので紹介する記事です。内容は公式サイト・マニュアル・公開情報の範囲で整理しています。 見つけたきっかけと、問題意識…"
-    },
-    {
       "id": "f51c7899445e",
       "title": "CLAUDE.mdと記憶のファイルが510件あると、AIは古い書き付けに従う。うちで入れた1文と、逆向きの失敗",
       "url": "https://zenn.dev/kirinukiauto/articles/fa034dba9443d3",
@@ -100,9 +68,41 @@
       "publishedAt": "2026-10-27T01:44:09.000Z",
       "publisher": "GameDev Tool Lab",
       "summary": "はじめに――「目的を渡すだけ」で、チーム開発は回るのか AIに個別の実装を依頼し、別のAIにレビューさせ、指摘を戻して修正する。この往復を続けていると、次の疑問が出てきます。 「次に何をするかを毎回人間が指示するより、目的を渡して、自分で…"
+    },
+    {
+      "id": "4cc3bc85d0e5",
+      "title": "Meta の muse.ai を使ってリモート開発を行う",
+      "url": "https://zenn.dev/sora_kumo/articles/muse-development",
+      "publishedAt": "2026-10-27T01:44:08.000Z",
+      "publisher": "空雲",
+      "summary": "Meta の Museとは https://muse.ai/ は、米Meta社が提供する常駐・自律型のパーソナルAIエージェントサービスです。 従来の質問応答型チャットボットとは異なり、ユーザーが与えた目標（ゴール）に対して「自律的に計画…"
+    },
+    {
+      "id": "c413e8423d9d",
+      "title": "AI の push を、push 専用のアカウントに任せる:判断しない「Broker」を作った話",
+      "url": "https://zenn.dev/k_iijima/articles/3b0cccb814f5f9",
+      "publishedAt": "2026-10-27T01:25:23.000Z",
+      "publisher": "飯島紘一",
+      "summary": "はじめに 私は、小さな事業者むけの業務ソフトを一人で作っています。開発は AI エージェント(Claude Code)にまかせています。 3 本目の記事で、AI を専用の Windows アカウントに分け、GitHub の鍵を持たせないよ…"
+    },
+    {
+      "id": "446546fbf0fb",
+      "title": "AIサービスの中でも隔離は崩れる：Workers AI のデータ混入から、送るデータと動かす場所を分ける",
+      "url": "https://zenn.dev/fk2000/articles/workers-ai-kv-cache-isolation-docker",
+      "publishedAt": "2026-10-27T01:24:31.000Z",
+      "publisher": "ふじけん",
+      "summary": "はじめに 2026年10月26日、Cloudflare が Workers AI（Cloudflare のサーバーでAIモデルを動かすサービス）の不具合を公表しました。長いプロンプトへの回答に、ほかの利用者のリクエストの中身が混ざることが…"
+    },
+    {
+      "id": "1614fbd0550d",
+      "title": "安い推論モデルの方が結果的に高くつく？ LLM の「価格逆転現象」と実務でのモデル選定術",
+      "url": "https://zenn.dev/cloud_ace_jp/articles/bedaa22307ce32",
+      "publishedAt": "2026-10-27T01:19:32.000Z",
+      "publisher": "クラウドエース株式会社",
+      "summary": "はじめに こんにちは。クラウドエース株式会社 第四開発部の相原です。 読者の皆さんは、日々の開発や業務で AI モデルの API を選ぶとき、何を基準にモデルを選定していますか？ おそらく多くの方が、各プロバイダが公開している「100 万…"
     }
   ],
-  "fetchedAt": "2026-10-27T08:10:19.928Z",
+  "fetchedAt": "2026-10-27T14:30:05.948Z",
   "stale": false,
   "error": null
 }

@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "67416d4371eb",
-      "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
-      "url": "https://huggingface.co/papers/2610.34467",
-      "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task …",
-      "score": 51
-    },
-    {
-      "id": "47f82a82b43a",
-      "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
-      "url": "https://huggingface.co/papers/2610.34415",
-      "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to chan…",
-      "score": 30
-    },
-    {
-      "id": "7a6f7de81075",
-      "title": "Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL",
-      "url": "https://huggingface.co/papers/2610.33512",
+      "id": "2e12c35f4ed1",
+      "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+      "url": "https://huggingface.co/papers/2610.33413",
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards ar…",
-      "score": 21
+      "summary": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making vid…",
+      "score": 25
     },
     {
-      "id": "d77bfb95ff5b",
-      "title": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
-      "url": "https://huggingface.co/papers/2610.35518",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Critic-free methods are widely used in reinforcement learning with verifiable rewards (RLVR) for long chain-of-thought …",
+      "id": "dfec3f35c60c",
+      "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
+      "url": "https://huggingface.co/papers/2610.33024",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "summary": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating mo…",
       "score": 10
     },
     {
-      "id": "01f9f27a7a2c",
-      "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
-      "url": "https://huggingface.co/papers/2610.35193",
+      "id": "6831a1b550e7",
+      "title": "More Memory, Better Videos? A Controlled Study of Visual Memory in Long-Video Generation",
+      "url": "https://huggingface.co/papers/2610.35001",
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, pro…",
-      "score": 10
+      "summary": "Long-video generators increasingly retrieve past visual observations to prevent identity drift. The intuition is compel…",
+      "score": 7
     },
     {
-      "id": "5697f4abb0ee",
-      "title": "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
-      "url": "https://huggingface.co/papers/2610.34356",
-      "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "Scaling vision-language-action (VLA) models is constrained by scarce action-labeled demonstrations and incompatible con…",
-      "score": 9
+      "id": "30fdca3eda74",
+      "title": "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
+      "url": "https://huggingface.co/papers/2610.29915",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Diffusion-based video generation models (VGMs) can produce visually plausible videos, yet their camera ego-motion often…",
+      "score": 4
     },
     {
-      "id": "b7e689f88ba7",
-      "title": "Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players",
-      "url": "https://huggingface.co/papers/2610.33845",
+      "id": "3418a5e5d463",
+      "title": "OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery",
+      "url": "https://huggingface.co/papers/2610.35450",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Referring expression grounding in overhead imagery requires oriented bounding boxes rather than horizontal ones, since …",
+      "score": 2
+    },
+    {
+      "id": "241743636e37",
+      "title": "RoboJev: An Open Vision-Language Judge for Robot Success Detection",
+      "url": "https://huggingface.co/papers/2610.33718",
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "Can LLM agents carry a hard real-world problem from raw data to a system that holds its own against people? We study th…",
-      "score": 8
+      "summary": "Many robot manipulation videos do not indicate whether the task was successfully completed. RoboJev-27B is an open-weig…",
+      "score": 2
     },
     {
-      "id": "ba438bbacbdd",
-      "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
-      "url": "https://huggingface.co/papers/2610.31635",
+      "id": "50d3c4e7ef8b",
+      "title": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
+      "url": "https://huggingface.co/papers/2610.21561",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic. Wh…",
+      "score": 2
+    },
+    {
+      "id": "c58e89b84d37",
+      "title": "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters",
+      "url": "https://huggingface.co/papers/2610.30970",
       "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Feed-forward models accurately estimate camera motion and 3D geometry from short video windows. However, computational …",
-      "score": 5
-    },
-    {
-      "id": "ba98d42446fc",
-      "title": "Mycelium: A Meta-Study of Hallucination Detection Across Provenance, Typology, and Granularities",
-      "url": "https://huggingface.co/papers/2610.33608",
-      "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "Hallucination detection is increasingly important for evaluating and deploying large language models. However, existing…",
+      "summary": "Many language-model pipelines end in a closed-set decision, such as selecting a tool. Prompting a large language model …",
       "score": 2
     },
     {
-      "id": "8015d0888312",
-      "title": "Skill^{infty}: Recursive Self-Improvement for Agent Skill Optimization",
-      "url": "https://huggingface.co/papers/2610.35434",
+      "id": "08d4baa9880a",
+      "title": "RoboHarness: A Simple Harness Outperforms VLA and World Action Models",
+      "url": "https://huggingface.co/papers/2610.14018",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "The rise of large language models (LLMs) has opened a path toward generalist embodied AI, raising the question of how L…",
+      "score": 2
+    },
+    {
+      "id": "49b0b7e328e1",
+      "title": "Thinking-in-Bets at Test Time Reduces Sycophantic Revisions in LLM Agents",
+      "url": "https://huggingface.co/papers/2610.34654",
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Recursive self-improvement (RSI), in which a system also improves the way it improves, is a long-standing aspiration on…",
+      "summary": "Language model agents often abandon correct work when a user challenges it, yet simply telling them to stand firm makes…",
       "score": 2
     },
     {
-      "id": "d9e34d0a9815",
-      "title": "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2610.23928",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "summary": "Native NVFP4 promises to accelerate reinforcement learning (RL) for large language models (LLMs), but achieving stable …",
-      "score": 2
-    },
-    {
-      "id": "da763d4b7280",
-      "title": "Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?",
-      "url": "https://huggingface.co/papers/2610.34149",
-      "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "While Multimodal Large Language Models (MLLMs) excel at zero-shot reasoning, their spatial capabilities are primarily e…",
+      "id": "63722dbb9aae",
+      "title": "Constrained Decoding: Harmful or Beneficial? Revisiting Its Impact on LLM Performance",
+      "url": "https://huggingface.co/papers/2610.35328",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Constrained decoding guarantees that Large Language Models (LLMs) produce outputs conforming to predefined formats, but…",
       "score": 1
+    },
+    {
+      "id": "aa3941b0f61c",
+      "title": "Trust Mechanisms for Offline Generative AI at the Edge: A Connectivity-Regime Framework and an Empirical Study on a Raspberry Pi 5",
+      "url": "https://huggingface.co/papers/2610.33732",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "summary": "Generative AI and large language models (LLMs) are moving into the Internet of Things, yet most deployments assume clou…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-27T08:10:19.766Z",
+  "fetchedAt": "2026-10-27T14:30:05.816Z",
   "stale": false,
   "error": null
 }
