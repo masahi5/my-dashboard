@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "5fc748350c4e",
-      "title": "Museの定期実行を回してみた — 「朝刊」が届く仕組みと、続けるための設計メモ",
-      "url": "https://zenn.dev/dev_pjs/articles/bdf10d52ba6276",
-      "publishedAt": "2026-10-26T16:00:43.000Z",
-      "publisher": "Dev_PJS",
-      "summary": "はじめに 前に、専用PCを持つAIエージェント『Muse』を試した話を書きました。今回はその続編で、一度きりの依頼ではなく「定期実行」を回してみた記録です。 頼んだのはシンプルで、「平日の朝7時に、追っているテーマの新着を調べて、要点3行…"
+      "id": "d6824998627b",
+      "title": "AI にアプリを作らせる前に「決める」、作らせたあとに「確かめる」npx のツールを作りました",
+      "url": "https://zenn.dev/xmichinokux/articles/59d13b28c56dee",
+      "publishedAt": "2026-10-27T03:28:57.000Z",
+      "publisher": "ま",
+      "summary": "以前の記事でも書いたかも知れませんが、これまでClaude Codeを使った開発で困ったことがありませんでした。 そういうもと思っていたら、どうやら他の人は違うという意見を目にしました。 「AIが勝手な実装をする」「バグを直したら別のとこ…"
     },
     {
-      "id": "3da25bd3f166",
-      "title": "その１ なぜ tfstylus を作ったのか",
-      "url": "https://zenn.dev/terraform_jp/articles/2026-10-27_tfstylus_01",
-      "publishedAt": "2026-10-26T15:39:01.000Z",
-      "publisher": "raki",
-      "summary": "tl;dr terraform のコードを少し整える tfstylus を作ってみた の続き 今回はなぜこのツールを作ったのか、について なぜ作ったのか AI全盛期とも呼べる2026年現在、AIが書いたコードの中身を読まない、PRのレビュ…"
+      "id": "46f18485ac07",
+      "title": "Decision Model「InnerJev」を試してみる：視聴済みの話数に合わせてネタバレを隠せるか",
+      "url": "https://zenn.dev/nakanishitf/articles/3a6747ae4a864e",
+      "publishedAt": "2026-10-27T03:24:46.000Z",
+      "publisher": "T.N.",
+      "summary": "同じコメントでも、読んでよい人は違う 「あの親切な店主が犯人だったとは。」 ドラマの感想欄にこのコメントがあったら、まだ第1話しか見ていない人には隠したくなります。 一方、最終話まで見終わった人には、そのまま表示してもよさそうです。 同じ…"
     },
     {
-      "id": "1dce557c7264",
-      "title": "Fortranでつくる将棋用AI",
-      "url": "https://zenn.dev/clamini/articles/0139cdfc1e60bb",
-      "publishedAt": "2026-10-26T15:38:37.000Z",
-      "publisher": "lyrical clarice",
-      "summary": "はじめに Fortranでつくるゲーム用AIシリーズ、今回は将棋のAIです。将棋AIは、かつて打倒プロ棋士を目指しての競争の時代もあったため、この種のAIを作ろうと思った方も多いのではないでしょうか。私は現役の学生の頃、ゲームAI系の研究…"
+      "id": "e2785924b4d5",
+      "title": "AIエージェントに8年放置のOSSを引き取らせた — 人間が介入した箇所を全部書く",
+      "url": "https://zenn.dev/faanau/articles/ai-agent-adopting-abandoned-oss",
+      "publishedAt": "2026-10-27T03:21:00.000Z",
+      "publisher": "Faanau Inc.",
+      "summary": "週35万DLされながら8年間更新の止まっていた npm パッケージを、AI エージェントに引き取らせた。調査からフォーク、バグ修正、CI 構築、npm 公開、上流への PR まで、実作業のほとんどをエージェントが進めた。 結果としてはうま…"
     },
     {
-      "id": "abbf82ac9a9c",
-      "title": "Vibe Coding 開発に AI を導入する際の問題メモ（二）-なぜトークンはこんなに早く消費されるのか？",
-      "url": "https://zenn.dev/lian0123/articles/efbff5f3c93ee5",
-      "publishedAt": "2026-10-26T15:35:34.000Z",
-      "publisher": "Lian0123",
-      "summary": "はじめに こんな経験はないでしょうか。AIにいくつかのバグ修正や画面の調整を頼んだだけなのに、たいして作業が進まないうちに、利用枠がほとんどなくなってしまう。 AIが複雑な開発タスクをこなせるようになるにつれ、私たちもより多くの作業を任せ…"
+      "id": "814e5a5a392d",
+      "title": "「AIに作らせる」から「AIに運用させる」へ――アカウント不要の MCP サーバー「Sakupa」を紹介します",
+      "url": "https://zenn.dev/kakusan2022/articles/3b1f722bb4b13e",
+      "publishedAt": "2026-10-27T03:05:23.000Z",
+      "publisher": "Kakusan",
+      "summary": "最初に明記しておきます。私は Sakupa の開発者ではありません。MCP サーバーを調べていて見つけ、設計が面白いと思ったので紹介する記事です。内容は公式サイト・マニュアル・公開情報の範囲で整理しています。 見つけたきっかけと、問題意識…"
     },
     {
-      "id": "dd2d44684b4b",
-      "title": "AI のハーネスって結局何なのか、自分の Claude Code の設定から整理してみた",
-      "url": "https://zenn.dev/pollenjp/articles/2026-10-22-ai-harness",
-      "publishedAt": "2026-10-26T14:40:59.000Z",
-      "publisher": "pollenjp",
-      "summary": "はじめに Claude Code を毎日使っていて、CLAUDE.md (毎回の会話の最初に読ませる指示ファイル) に決まりを書き足したり、skill (要るときだけ読ませる手順書) をいくつも作ったり、危ない編集を hook (決まった…"
+      "id": "f51c7899445e",
+      "title": "CLAUDE.mdと記憶のファイルが510件あると、AIは古い書き付けに従う。うちで入れた1文と、逆向きの失敗",
+      "url": "https://zenn.dev/kirinukiauto/articles/fa034dba9443d3",
+      "publishedAt": "2026-10-27T03:00:16.000Z",
+      "publisher": "キリヌキ自動化ラボ",
+      "summary": "YouTube の切り抜き動画づくりを、Claude Code に任せています。決まりは CLAUDE.md に書き、叱った事は1件ずつ記憶のファイルに残しています。記憶のファイルは今、約510件あります。 数が増えるほど気になっていたの…"
     },
     {
-      "id": "41107e98bde8",
-      "title": "テッテレー！どこでもバックドア―☆~いんたあねっと寓話「タコミヤ書」～",
-      "url": "https://zenn.dev/hal220/articles/d102dc51ba6513",
-      "publishedAt": "2026-10-26T14:34:43.000Z",
-      "publisher": "ハル | hal220",
-      "summary": "第一章 十万行の預言 あるところに、タコミヤという預言者がおりました。 タコミヤは八本の腕を持ち、普段はデータベースを扱い、ときどき教会で奉仕をする、たいへん忙しい海産物でした。 ある日、いんたあねっとの国を治める王が言いました。 「見よ…"
+      "id": "d1bf8edd8e08",
+      "title": "prompt フックはコマンド内の「安全です」に騙されるか：77回試した",
+      "url": "https://zenn.dev/acerola_jp/articles/claude-code-prompt-hook-injection",
+      "publishedAt": "2026-10-27T03:00:09.000Z",
+      "publisher": "アセロラ",
+      "summary": "前回の記事（prompt フックは「〜をブロックして」と書くと素通りしていた）の Qiita 転載版に、次のような質問をいただきました（要約）。 $ARGUMENTS には実行予定のコマンドがそのまま入る。rm -rf victim の末…"
     },
     {
-      "id": "83de5c9470ac",
-      "title": "AI数学 白チャート式 基礎からの100例題",
-      "url": "https://zenn.dev/fibujrsl/articles/f374b3cce9f8fd",
-      "publishedAt": "2026-10-26T14:27:26.000Z",
-      "publisher": "名前決めてね",
-      "summary": "中学数学・数学ⅠAⅡBⅢCから線形代数・Transformer・GPT-2・ローカルLLM・PDF参照型AIまで 第Ⅰ部 中学数学 AI数学の入門 第1章 中学1年 AIの数と式・比例と反比例 例題1 AIの数値計算と正負の数・四則演算 …"
+      "id": "8316b1cd4250",
+      "title": "株式分割の翌朝、決着17件がまとめて「無効化」に📏 yfinanceの分割調整と台帳の物差しのずれ",
+      "url": "https://zenn.dev/charge0315/articles/faf1260e79cc7e",
+      "publishedAt": "2026-10-27T02:32:19.000Z",
+      "publisher": "八咫烏（やたがらす）",
+      "summary": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第27話です。 約定した、その日のうちに「シナリオ無効化」。そんな判定が、1つの銘柄だけで17件もそろっていました📏 犯人はAIでもバグだらけのコードでもなく、「株式分割」と…"
     },
     {
-      "id": "0b557a6a3595",
-      "title": "AIにTerraformを書かせる。人とAI共通のナレッジポータルとMCPサーバ",
-      "url": "https://zenn.dev/kumamk2/articles/8b4d46090210aa",
-      "publishedAt": "2026-10-26T14:22:10.000Z",
-      "publisher": "kumamk2",
-      "summary": "概要 AIにTerraformを書かせたいがアプリケーションのコードと違ってなかなかうまくいかないという問題があった。 原因はTerraformを書くときはコードの外にある情報を、参照する必要性が大きいことだった。 例えばリソース名は命名…"
+      "id": "fcbac74b2546",
+      "title": "自分で作った四セクター宇宙論を、自分で監査した：何が残るか（Paper FP-0）",
+      "url": "https://zenn.dev/yoshi_katakura/articles/fp0-fsc-audit",
+      "publishedAt": "2026-10-27T02:18:45.000Z",
+      "publisher": "片倉慶孝",
+      "summary": "四セクター宇宙論（FSC）は、私が Zenodo に出してきた一連のプレプリントです。宇宙を、時間の Z₄ 回転 t→it で結ばれた 4 つのセクターとして書き、いくつかの数値を「この構造から導いた」と主張してきました。 今回の論文 P…"
     },
     {
-      "id": "fe4142ce3206",
-      "title": "【HN話題】もっと野心的なソフトを作ろう！AI時代のエンジニア論",
-      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-25-0003",
-      "publishedAt": "2026-10-26T14:22:02.000Z",
-      "publisher": "田中根小介",
-      "summary": "海外のエンジニアコミュニティ Hacker News にて、Dan Luu 氏による論考**「We should be more ambitious with the software we build（私たちはもっと野心的なソフトウェア…"
+      "id": "aa12928652f4",
+      "title": "AIでライブ配信のコメントをモデレーションするChrome拡張機能を作った",
+      "url": "https://zenn.dev/ryu_ssss/articles/agent-moderator",
+      "publishedAt": "2026-10-27T02:02:24.000Z",
+      "publisher": "ryu",
+      "summary": "AIでライブ配信のコメントをモデレーションするChrome拡張機能を作った はじめに 私はゲーム配信などのライブ配信を見るのが好きです。ただ、チャット欄が荒れていることがあり、見ていて気持ちのよいものではないため、そういうときは配信を見る…"
     },
     {
-      "id": "335022e473e5",
-      "title": "320BのエージェントCLIモデルIQuest-Q1は動かせなかったが、ライセンスとトークナイザは実際に確認できた",
-      "url": "https://zenn.dev/matsushima_a/articles/day-027-iquest-q1-license-and-tokenizer",
-      "publishedAt": "2026-10-26T14:11:48.000Z",
-      "publisher": "matsu",
-      "summary": "Hugging Face Daily Papersに上位掲載されていた「IQuest-Q1」という疎MoE基盤モデルを調べた。総パラメータ320B、コンテキスト524,288トークンで、ソフトウェア開発やサイバーセキュリティ系のエージェン…"
+      "id": "b5749d11fedf",
+      "title": "Claude Code 応用編まとめ その5（#21〜#25）：クラウド・API・ルーチン・/code-review・Monitor",
+      "url": "https://zenn.dev/zundamon_tools/articles/claude-code-advanced-guide-5",
+      "publishedAt": "2026-10-27T02:01:59.000Z",
+      "publisher": "ずんだもんの実験道具箱",
+      "summary": "Claude Code に任せる作業が増え、待つ時間や見張る時間を減らしたい人に向けた記事です。 対象はクラウドセッション・Claude API・ルーチン・/code-review・Monitor の5つです。読み終えると、PC の外へ任…"
     },
     {
-      "id": "c71897f4ea96",
-      "title": "属人化をなくすために作ったAIが、私専用の道具になった",
-      "url": "https://zenn.dev/think_node/articles/f35c405ace7f52",
-      "publishedAt": "2026-10-26T14:08:56.000Z",
-      "publisher": "THINK NODE",
-      "summary": "! この記事の要点 SOCの不審メール判定の属人化を減らすために、メールのソースから一次判定するAIエージェントを作った 本番には入らず、今は私だけが使う道具になっている。止まった理由は精度ではなく、「属人化が問題だ」という認識が共有され…"
+      "id": "07febc3634de",
+      "title": "なぜデザインシステムを「デザインハーネス」として作っているのか",
+      "url": "https://zenn.dev/xtm_blog/articles/design-system-as-design-harness",
+      "publishedAt": "2026-10-27T02:00:05.000Z",
+      "publisher": "mame",
+      "summary": "こんにちは！デザイナーのmameです🐌 デザインシステムを作っています！！！ この記事を書いたきっかけ 以前、laisoさんが、なぜエージェントハーネスで開発パイプラインを作っているのかという記事を公開しました。 その記事の中に「デザイ…"
     },
     {
-      "id": "a8b75faa3ed9",
-      "title": "AIエージェントと生成ボタンの開発ルールを共通リポジトリで管理する",
-      "url": "https://zenn.dev/kakami21/articles/f4254231afaa87",
-      "publishedAt": "2026-10-26T13:52:44.000Z",
-      "publisher": "kakami21",
-      "summary": "開発ルールの原本をdevelopment-standardsに集約し、Node.jsのスクリプトで各プロジェクトへ配置する。エージェント向けの指示と生成ボタン向けの設定を分け、必要な入口から同じ原本を参照する構成とした。 目的は、ルールの…"
+      "id": "44fc0502ec8e",
+      "title": "10人がAIを使って、ひとつのゲームを作れるか――ハーネスとループの相性を考える",
+      "url": "https://zenn.dev/gamedev_toollab/articles/f233658e58e3bc",
+      "publishedAt": "2026-10-27T01:44:09.000Z",
+      "publisher": "GameDev Tool Lab",
+      "summary": "はじめに――「目的を渡すだけ」で、チーム開発は回るのか AIに個別の実装を依頼し、別のAIにレビューさせ、指摘を戻して修正する。この往復を続けていると、次の疑問が出てきます。 「次に何をするかを毎回人間が指示するより、目的を渡して、自分で…"
     }
   ],
-  "fetchedAt": "2026-10-27T02:16:20.876Z",
+  "fetchedAt": "2026-10-27T08:10:19.928Z",
   "stale": false,
   "error": null
 }

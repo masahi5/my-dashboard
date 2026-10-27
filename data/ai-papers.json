@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "a21353463634",
-      "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
-      "url": "https://huggingface.co/papers/2610.33135",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Precise camera control is essential for cinematic character video generation, yet existing methods struggle to follow l…",
-      "score": 22
+      "id": "67416d4371eb",
+      "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+      "url": "https://huggingface.co/papers/2610.34467",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task …",
+      "score": 51
     },
     {
-      "id": "29aa4b28c267",
-      "title": "DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning",
-      "url": "https://huggingface.co/papers/2610.32093",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Behavior cloning for robotic manipulation is highly sensitive to the coverage of its training data, yet collecting dive…",
+      "id": "47f82a82b43a",
+      "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+      "url": "https://huggingface.co/papers/2610.34415",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to chan…",
+      "score": 30
+    },
+    {
+      "id": "7a6f7de81075",
+      "title": "Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL",
+      "url": "https://huggingface.co/papers/2610.33512",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "summary": "Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards ar…",
+      "score": 21
+    },
+    {
+      "id": "d77bfb95ff5b",
+      "title": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
+      "url": "https://huggingface.co/papers/2610.35518",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Critic-free methods are widely used in reinforcement learning with verifiable rewards (RLVR) for long chain-of-thought …",
+      "score": 10
+    },
+    {
+      "id": "01f9f27a7a2c",
+      "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
+      "url": "https://huggingface.co/papers/2610.35193",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, pro…",
+      "score": 10
+    },
+    {
+      "id": "5697f4abb0ee",
+      "title": "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
+      "url": "https://huggingface.co/papers/2610.34356",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "Scaling vision-language-action (VLA) models is constrained by scarce action-labeled demonstrations and incompatible con…",
+      "score": 9
+    },
+    {
+      "id": "b7e689f88ba7",
+      "title": "Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players",
+      "url": "https://huggingface.co/papers/2610.33845",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "summary": "Can LLM agents carry a hard real-world problem from raw data to a system that holds its own against people? We study th…",
       "score": 8
     },
     {
-      "id": "1b7f730e7948",
-      "title": "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows",
-      "url": "https://huggingface.co/papers/2610.21109",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "When humans collaborate with AI agents on long-horizon tasks, what happens to the agents' contributions? For solving lo…",
+      "id": "ba438bbacbdd",
+      "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
+      "url": "https://huggingface.co/papers/2610.31635",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "Feed-forward models accurately estimate camera motion and 3D geometry from short video windows. However, computational …",
       "score": 5
     },
     {
-      "id": "092513f49957",
-      "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
-      "url": "https://huggingface.co/papers/2610.33956",
-      "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge fro…",
-      "score": 4
-    },
-    {
-      "id": "d94ab8efb26f",
-      "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
-      "url": "https://huggingface.co/papers/2610.33966",
-      "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishe…",
-      "score": 3
-    },
-    {
-      "id": "136b0f0f11df",
-      "title": "Function-Space Temporal Self-Distillation for Policy Optimization",
-      "url": "https://huggingface.co/papers/2610.19687",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) improves reasoning in language models, but scalar outcomes provid…",
+      "id": "ba98d42446fc",
+      "title": "Mycelium: A Meta-Study of Hallucination Detection Across Provenance, Typology, and Granularities",
+      "url": "https://huggingface.co/papers/2610.33608",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "summary": "Hallucination detection is increasingly important for evaluating and deploying large language models. However, existing…",
       "score": 2
     },
     {
-      "id": "2e39cfe6baff",
-      "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
-      "url": "https://huggingface.co/papers/2610.32285",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying m…",
+      "id": "8015d0888312",
+      "title": "Skill^{infty}: Recursive Self-Improvement for Agent Skill Optimization",
+      "url": "https://huggingface.co/papers/2610.35434",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Recursive self-improvement (RSI), in which a system also improves the way it improves, is a long-standing aspiration on…",
+      "score": 2
+    },
+    {
+      "id": "d9e34d0a9815",
+      "title": "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2610.23928",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "summary": "Native NVFP4 promises to accelerate reinforcement learning (RL) for large language models (LLMs), but achieving stable …",
+      "score": 2
+    },
+    {
+      "id": "da763d4b7280",
+      "title": "Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?",
+      "url": "https://huggingface.co/papers/2610.34149",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "While Multimodal Large Language Models (MLLMs) excel at zero-shot reasoning, their spatial capabilities are primarily e…",
       "score": 1
-    },
-    {
-      "id": "2e766a1c3206",
-      "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
-      "url": "https://huggingface.co/papers/2610.29139",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Frontier black-box Large Language Model (LLM) agents are proficient at long-horizon reasoning and precise action genera…",
-      "score": 1
-    },
-    {
-      "id": "20d2e9771419",
-      "title": "How Much Feedback Is Needed to Break Template Protection? The Geometric Vulnerability of Biometric Authentication",
-      "url": "https://huggingface.co/papers/2610.25118",
-      "publishedAt": "2026-10-18T00:00:00.000Z",
-      "summary": "Biometric authentication systems increasingly use privacy-preserving mechanisms to protect sensitive templates. However…",
-      "score": 1
-    },
-    {
-      "id": "3478bc7544b2",
-      "title": "Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery",
-      "url": "https://huggingface.co/papers/2610.32195",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Scientific discovery requires identifying the scientific principles underlying observed phenomena to guide further inve…",
-      "score": 0
-    },
-    {
-      "id": "9e8e2372f488",
-      "title": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
-      "url": "https://huggingface.co/papers/2610.33169",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Interactive video world models require coordinated control over viewing perspectives, character actions, and camera mot…",
-      "score": 0
-    },
-    {
-      "id": "d491ff9c8591",
-      "title": "WORTH Benchmark: Evidence Discovery under Not-Fully-Cooperative Information -- A Two-Episode Pilot",
-      "url": "https://huggingface.co/papers/2610.27597",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Existing reasoning evaluations typically provide task-relevant information to models as available premises, rarely exam…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-27T02:16:20.513Z",
+  "fetchedAt": "2026-10-27T08:10:19.766Z",
   "stale": false,
   "error": null
 }
