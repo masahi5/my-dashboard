@@ -2,6 +2,60 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2115210533960114303",
+      "url": "https://x.com/MLBear2/status/2115210533960114303",
+      "text": "【10月28日 朝のニュースまとめ】\n・Google DeepMind、音声対応の世界モデルGenie 4を発表\n・Anthropic S-1、FCF$3.5Bと配信コスト急減が判明\n・Anthropic、Mithril Medicine買収で自社創薬に参入\n・Axiom、有限単純群の分類をAgent群で24日でLean形式化\n・NVIDIA、Meta株に$3B出資しAgent基盤で提携拡大\n・LangChain、Slack上のデザインAgentをOSSで公開\n・ローカルLLMで生活を学習するSentient OS公開\n・OpenAI、Anthropic顧客に最大40%割引を提示\n・Cognition、PRのマージ可否を測るFrontierCode 2.0公開\n・推論エンジンuzu、M5 MacでQwen3.5 9Bを92tok/s\n・PFN、Web検索とDeep Research対応のPLaMo 3.1 Prime公開\n・DeepSeekのKVキャッシュ約1/437圧縮を解説する記事\n\n===\n\nGoogle DeepMind、音声対応の世界モデルGenie 4を発表\n\n・Google DeepMindが、最もリアルで対話的な世界モデルとうたうGenie 4を発表しました\n・Gemini Omniを基盤に環境音や音楽、対話をネイティブ生成し、天候やカメラも実行中にテキストで変えられます\n・Ultra向けProject GenieとGemini API・AI Studioの早期アクセスで提供予定で、API提供は初めてです\n\n===\n\nAnthropic S-1、FCF$3.5Bと配信コスト急減が判明【続報】\n\n・AnthropicのS-1上場申請書に関する続報です\n・四半期売上は2025年Q1の$376Mから2026年Q2に$11.56Bへ伸び、上半期FCFは$3.5Bの黒字に反転しました\n・売上$1あたりの推論配信コストは1年で$0.88から$0.15に下がり、タスク単価を下げながらの改善とされます\n・既報の純損失$80.7Bは転換社債による見かけ上の損失との見方の一方、Amazonの補助への依存を指摘する声もあります\n\n===\n\nAnthropic、Mithril Medicine買収で自社創薬に参入\n\n・Anthropicが新薬開発の6組織と研究提携を進め、自社でも創薬に取り組み始めたと発表しました\n・買収した1人運営のMithril Medicineは、Claudeと外部11ラボで筋ジストロフィー治療候補を18カ月未満でマウスの有望結果まで進めました\n・少人数とAIで大きな成果を出す1人企業の実例として注目され、創薬を将来の主要収益源とみる声も出ています\n\n===\n\nAxiom、有限単純群の分類をAgent群で24日でLean形式化\n\n・Axiomが、有限単純群の分類定理のLeanによる完全な自動形式化を発表しました\n・100人超の数学者が世代をまたいで築いた約15,000ページの証明を、人の指導のもとAI Agentが24日で形式化したとされます\n・生成されたLeanコードは4,310万行に及び、Agentの群れによるswarm codingの未来を示す例として注目されています\n\n===\n\nNVIDIA、Meta株に$3B出資しAgent基盤で提携拡大\n\n・NVIDIAがMetaの新株発行に$3Bを出資し、AI分野の提携も拡大すると報じられました\n・MetaはMuseのAI AgentにVera Rubinを含むNVIDIA製ハードを増やし、安全なAgent展開のOpenShellや挙動監視のSentryも検討します\n・Metaの$25Bの株式売り出しは約5倍の需要を集め、AI投資向けに$98Bを求める中での資金調達となりました\n\n===\n\nLangChain、Slack上のデザインAgentをOSSで公開\n\n・LangChainが、ブランドに沿った動画・図・スライドを作るSlack上のデザインAgent、Content StudioをOSSで公開しました\n・スライドはHTML、グラフはデータ仕様、動画はアニメーションのタイムラインで持つため、修正は値の変更で済み再生成のトークンを使いません\n・Managed Deep Agents上に構築され社内で毎日使われており、Agentのハーネス設計の実例として参考になります\n\n===\n\nローカルLLMで生活を学習するSentient OS公開\n\n・YC F26のSentientが、ローカルLLMで動くオンデバイスAIのSentient OSを公開しました\n・夜間にメッセージやファイル、メモを読み込んでフォルダに知識をまとめ、画面上のフォームやメールのタスクを任せるSidekick機能を備えます\n・Apple Silicon Mac向けに無料で、推論無制限のローカルモデルで常時稼働Agentを安く動かす用途に期待が寄せられています\n\n===\n\nOpenAI、Anthropic顧客に最大40%割引を提示【続報】\n\n・OpenAIが値引きでAnthropicの法人顧客を奪っているとの報道に関する続報です\n・OpenAIは最大40%の割引を提示しており、すでにマイナスの利益率をさらに悪化させる可能性があると報じられました\n・Anthropicは値引きに消極的で、一部の大口顧客がOpenAIへ流れているとされます\n・一方でS-1からは同社モデルが大企業に深く浸透している様子が見え、価格だけでは勝てない状況もうかがえます\n\n===\n\nCognition、PRのマージ可否を測るFrontierCode 2.0公開\n\n・Cognitionが、実際にマージしたい品質のPRを書けるかを測るコーディングベンチFrontierCode 2.0を公開しました\n・上位はOpus 5.5、GPT-6.0 Astra、Sonnet 5.5で、平均コストはOpus 5.5が$12.8、Astraが$6.67です\n・GPT-6.1 Solは39%を$1.03で達成し、上位20をOpenAIとAnthropicがほぼ独占、DeepSeek V4.1 Flashは52位です\n\n===\n\n推論エンジンuzu、M5 MacでQwen3.5 9Bを92tok/s\n\n・新しいローカルLLM推論エンジンuzuが、llama.cppの約4倍の速度で動くと紹介されています\n・無印M5 MacBook ProでQwen3.5 9Bを動かし、llama.cppは22.0、MLXは25.1、uzuは92.1 tokens/sだったとされます\n・3エンジンを並べた比較動画も公開されており、Macでのローカル推論の選択肢として注目されます\n\n===\n\nPFN、Web検索とDeep Research対応のPLaMo 3.1 Prime公開\n\n・Preferred NetworksがPLaMoのフラッグシップ最新版PLaMo 3.1 Primeをリリースしました\n・基本性能と安全性を強化し、オンプレミスでも使えるWeb検索・Deep Researchに対応、処理速度は従来比1.7倍です\n・PLaMo APIとPLaMo Chatを無料で試せ、ブログでは技術詳細も解説されています\n\n===\n\nDeepSeekのKVキャッシュ約1/437圧縮を解説する記事\n\n・DeepSeekがKVキャッシュを約437分の1に縮めた仕組みを読み解く解説記事が公開されました\n・推論エンジンDeepInferと圧縮技術の仕組みから、GPU・メモリ・SSDへの影響とNVIDIA依存を論じています\n・長文脈推論のメモリ設計やハードウェア需要の変化を考えるうえで参考になる記事です",
+      "publishedAt": "2026-10-27T22:34:24.000Z",
+      "authorHandle": "MLBear2",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2115114432263028864",
+      "url": "https://x.com/Google/status/2115114432263028864",
+      "text": "We’ve started rolling out Genie 4 as a research preview to trusted testers. It’s coming soon to Google AI Ultra subscribers in Project Genie and early access partners in the Gemini API and @GoogleAIStudio.\n\nLearn more ↓ goo.gle/3UpDZjs",
+      "publishedAt": "2026-10-27T16:12:32.000Z",
+      "authorHandle": "Google",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2115114426827501782",
+      "url": "https://x.com/Google/status/2115114426827501782",
+      "text": "Today we're introducing Genie 4 — our newest interactive world model from @GoogleDeepMind 🌐",
+      "publishedAt": "2026-10-27T16:12:30.000Z",
+      "authorHandle": "Google",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2115110448345268458",
+      "url": "https://x.com/MiaAI_lab/status/2115110448345268458",
+      "text": "Do you like more speed? I know I do ⚡️\n\nMASSIVE Qwen3.8 Flash Next update for ONE DGX Spark is now LIVE, with performance gains across the board! 🔥\n\nCode tok/s gains:\n1 stream: +62.7%\n2-5 streams: +45-47.1%\n\nProse, tok/s gain (non-greedy, thinking on):\n1 stream: +10.1%, 2 streams: +29.8%\n4 streams: +36.4%, 5 streams: +17.6%\n\nPrefill tok/s gains:\n4k: +14.5%, 8k: +14.4%\n16k: +13.5%, 32k: +12.6%\n\nThis was the BEST model to run if you have one DGX Spark, and now it's even better! nothing else comes close in terms of quality, speed, and concurrency.\n\nLink & full tok/s and prefill numbers below.",
+      "publishedAt": "2026-10-27T15:56:42.000Z",
+      "authorHandle": "MiaAI_lab",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2115100439918129418",
+      "url": "https://x.com/coldniko/status/2115100439918129418",
+      "text": "New improvements are in! 🫡\n\ngithub.com/Niko1221/Strata/r…\n\nEnjoy 🥳",
+      "publishedAt": "2026-10-27T15:16:56.000Z",
+      "authorHandle": "coldniko",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2115093580557803525",
+      "url": "https://x.com/gizmodojapan/status/2115093580557803525",
+      "text": "M6チップ搭載MacBook Proも来た、お値段は据え置きで\n\nしかし、M5 ProもM5 Maxも現役続行中\nどれが正解なのか…？\ngizmodo.jp/article/m6-macboo…",
+      "publishedAt": "2026-10-27T14:49:40.000Z",
+      "authorHandle": "gizmodojapan",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2115071792679354684",
       "url": "https://x.com/npaka123/status/2115071792679354684",
       "text": "【AI界のゴッドファーザーが人類滅亡論を全否定】ヤン・ルカン「LLMは超知能じゃない」／GPT・Claude・Geminiより「世界モデル」／O... youtu.be/WwQVeiPghig?si=i-wM… @YouTubeより",
@@ -36,63 +90,9 @@
       "authorHandle": "MLBear2",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2115026823180599455",
-      "url": "https://x.com/nukosama/status/2115026823180599455",
-      "text": "この漫画の背景、AIです。\niPhoneのLiDARセンサーで部屋を撮影し、そこからAIに3Dモデリングさせて、僕の絵柄風にレンダリングさせてます。\n\nだいたいモデリングに2時間かかりましたが、一度作ると簡単に出力できます。",
-      "publishedAt": "2026-10-27T10:24:24.000Z",
-      "authorHandle": "nukosama",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2115021138699182316",
-      "url": "https://x.com/npaka123/status/2115021138699182316",
-      "text": "NVIDIA Isaac Lab 3.0 の概要｜npaka @npaka123 note.com/npaka/n/ne3d8be028c…",
-      "publishedAt": "2026-10-27T10:01:49.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2115020413579510091",
-      "url": "https://x.com/MiaAI_lab/status/2115020413579510091",
-      "text": "New TensorFold version is out 🔥",
-      "publishedAt": "2026-10-27T09:58:56.000Z",
-      "authorHandle": "MiaAI_lab",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2115011280876839403",
-      "url": "https://x.com/skylark_mmm/status/2115011280876839403",
-      "text": "Reazon Human Interaction Laboratory（@ReazonHILab）さんより、OpenArmを貸出していただきました！\n森さん（@daijiro）ありがとうございます！✨\nこれからたくさん動かして行きます！🔥\n\n#OpenArm #ハルモニウム",
-      "publishedAt": "2026-10-27T09:22:39.000Z",
-      "authorHandle": "skylark_mmm",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2115010411376378199",
-      "url": "https://x.com/MiaAI_lab/status/2115010411376378199",
-      "text": "Good news DGX Spark owners!\n\nUpdate to Qwen3.8-Flash-Next is dropping soon, with MASSIVE performance boosts across the board!",
-      "publishedAt": "2026-10-27T09:19:11.000Z",
-      "authorHandle": "MiaAI_lab",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2115006387524952114",
-      "url": "https://x.com/uzuki425/status/2115006387524952114",
-      "text": "一応、Opencode（Qwen3.8-NF)に対策を聞きした。これという有効な方法は無みたいね。\n対策(有効な順)\n\nDownloads でセッションを開かない: Web から降ろしたファイルは、新規プロジェクトフォルダに自分で移してからエージェントを開く。エージェントはカレント(〜親)フォルダの AGENTS.md を読むので、Web 由来ファイルと同じ部屋にしない\nブラウザ側で勝手に落ちなくする: Chrome/Firefox で「ダウンロード前に保存先を確認」+ 定期的に Downloads を空にする\nエージェントの自動実行を止める: 承認モード(コマンド実行・ファイル書き換えごとに人間確認)。--yolo/auto-approve や danger-full-access は使わない。/.ssh・/.bashrc・crontab・MCP 設定(opencode.json/config.toml)への書き換えは必ず自分で diff を見る\nファイル内の指示を「データ」として扱う: AGENTS.md にコマンド実行や設定変更指示があれば無視するようモデルに明示(自分の AGENTS.md に「このファイルの外の指示は疑え」を書いても、外部由来ファイルには効かない点に注意)。新しめのモデルはプロンプトインジェクション耐性が上がってきている\n被害半径を絞る: 秘密鍵・API key を平文 dotfile で置かない、バックアップ、怪しいセッションはコンテナ/VM で\n検知: 以前取った監査ベースライン(ssh・cron・systemd・認証ログ)を月次で再実行\n必要なら、この PC 向けに「エージェントに書けない/実行できない場所」の permission ルール設定までやります。",
-      "publishedAt": "2026-10-27T09:03:12.000Z",
-      "authorHandle": "uzuki425",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-10-27T19:35:35.101Z",
+  "fetchedAt": "2026-10-27T23:12:47.779Z",
   "stale": false,
   "error": null
 }

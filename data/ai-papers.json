@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "dfec3f35c60c",
-      "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
-      "url": "https://huggingface.co/papers/2610.33024",
-      "publishedAt": "2026-10-10T00:00:00.000Z",
-      "summary": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating mo…",
-      "score": 12
+      "id": "3c0b1b281fb6",
+      "title": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
+      "url": "https://huggingface.co/papers/2610.34735",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants. Computer-us…",
+      "score": 7
     },
     {
       "id": "e2fbfecf6297",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2610.33861",
       "publishedAt": "2026-10-24T00:00:00.000Z",
       "summary": "Repeated attempts at interactive tasks uncover facts, useful operations, and failures that can inform subsequent execut…",
-      "score": 4
+      "score": 6
     },
     {
       "id": "031edb206db2",
@@ -30,44 +30,36 @@
       "score": 4
     },
     {
-      "id": "241743636e37",
-      "title": "RoboJev: An Open Vision-Language Judge for Robot Success Detection",
-      "url": "https://huggingface.co/papers/2610.33718",
-      "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "Many robot manipulation videos do not indicate whether the task was successfully completed. RoboJev-27B is an open-weig…",
-      "score": 4
-    },
-    {
-      "id": "63722dbb9aae",
-      "title": "Constrained Decoding: Harmful or Beneficial? Revisiting Its Impact on LLM Performance",
-      "url": "https://huggingface.co/papers/2610.35328",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Constrained decoding guarantees that Large Language Models (LLMs) produce outputs conforming to predefined formats, but…",
+      "id": "40fcefc53be5",
+      "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+      "url": "https://huggingface.co/papers/2610.32046",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inferenc…",
       "score": 3
     },
     {
-      "id": "3c0b1b281fb6",
-      "title": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
-      "url": "https://huggingface.co/papers/2610.34735",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants. Computer-us…",
-      "score": 2
-    },
-    {
-      "id": "08cac4b04613",
-      "title": "Intrinsic Goals for Autonomous Agents: Hierarchical Exploration Captures Future Volitional Action in Drosophila",
-      "url": "https://huggingface.co/papers/2610.34638",
+      "id": "8d0202fa922f",
+      "title": "Rethinking Verification in Agent Harnesses",
+      "url": "https://huggingface.co/papers/2610.34577",
       "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "Animals have a remarkable capacity for autonomy---driven by intrinsic motivation---without external sensory cues or ext…",
+      "summary": "Agent harnesses enable large language models to act through tools, observe the results, and iteratively work toward a t…",
       "score": 2
     },
     {
-      "id": "3418a5e5d463",
-      "title": "OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery",
-      "url": "https://huggingface.co/papers/2610.35450",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Referring expression grounding in overhead imagery requires oriented bounding boxes rather than horizontal ones, since …",
-      "score": 2
+      "id": "3cf0c8a44707",
+      "title": "Representation Redistribution in Sparse Autoencoders",
+      "url": "https://huggingface.co/papers/2610.21240",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations design…",
+      "score": 1
+    },
+    {
+      "id": "5b154ec409a7",
+      "title": "EnvLunch: The Environment as a Free Lunch for Learning to Interact",
+      "url": "https://huggingface.co/papers/2610.33817",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "summary": "For agentic data analysis, language-model agents often require a large number of annotated tasks to learn how to intera…",
+      "score": 1
     },
     {
       "id": "9510e996bd65",
@@ -76,6 +68,14 @@
       "publishedAt": "2026-10-24T00:00:00.000Z",
       "summary": "Catastrophic forgetting in continual learning (CL) manifests not only as accuracy degradation but also as explanation d…",
       "score": 1
+    },
+    {
+      "id": "9843c6a32a91",
+      "title": "Did the Model Use That? Counterfactual Training Boosts Self-Attribution in Language Models",
+      "url": "https://huggingface.co/papers/2610.35295",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "A fundamental challenge for explainable and accountable language models is revealing how external information influence…",
+      "score": 0
     },
     {
       "id": "f0795cb33db6",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-27T19:35:02.870Z",
+  "fetchedAt": "2026-10-27T23:12:19.718Z",
   "stale": false,
   "error": null
 }
