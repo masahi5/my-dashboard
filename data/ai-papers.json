@@ -6,36 +6,60 @@
   "category": "ai",
   "items": [
     {
-      "id": "2e12c35f4ed1",
-      "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
-      "url": "https://huggingface.co/papers/2610.33413",
-      "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making vid…",
-      "score": 25
-    },
-    {
       "id": "dfec3f35c60c",
       "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
       "url": "https://huggingface.co/papers/2610.33024",
       "publishedAt": "2026-10-10T00:00:00.000Z",
       "summary": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating mo…",
-      "score": 10
+      "score": 12
     },
     {
-      "id": "6831a1b550e7",
-      "title": "More Memory, Better Videos? A Controlled Study of Visual Memory in Long-Video Generation",
-      "url": "https://huggingface.co/papers/2610.35001",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Long-video generators increasingly retrieve past visual observations to prevent identity drift. The intuition is compel…",
-      "score": 7
-    },
-    {
-      "id": "30fdca3eda74",
-      "title": "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
-      "url": "https://huggingface.co/papers/2610.29915",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Diffusion-based video generation models (VGMs) can produce visually plausible videos, yet their camera ego-motion often…",
+      "id": "e2fbfecf6297",
+      "title": "ReGE: Stronger Agents through Experience Synthesis",
+      "url": "https://huggingface.co/papers/2610.33861",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "summary": "Repeated attempts at interactive tasks uncover facts, useful operations, and failures that can inform subsequent execut…",
       "score": 4
+    },
+    {
+      "id": "031edb206db2",
+      "title": "CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments",
+      "url": "https://huggingface.co/papers/2610.32004",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Deploying language agents in real applications demands more than the right answer: an agent must execute a multi-step b…",
+      "score": 4
+    },
+    {
+      "id": "241743636e37",
+      "title": "RoboJev: An Open Vision-Language Judge for Robot Success Detection",
+      "url": "https://huggingface.co/papers/2610.33718",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "summary": "Many robot manipulation videos do not indicate whether the task was successfully completed. RoboJev-27B is an open-weig…",
+      "score": 4
+    },
+    {
+      "id": "63722dbb9aae",
+      "title": "Constrained Decoding: Harmful or Beneficial? Revisiting Its Impact on LLM Performance",
+      "url": "https://huggingface.co/papers/2610.35328",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Constrained decoding guarantees that Large Language Models (LLMs) produce outputs conforming to predefined formats, but…",
+      "score": 3
+    },
+    {
+      "id": "3c0b1b281fb6",
+      "title": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
+      "url": "https://huggingface.co/papers/2610.34735",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants. Computer-us…",
+      "score": 2
+    },
+    {
+      "id": "08cac4b04613",
+      "title": "Intrinsic Goals for Autonomous Agents: Hierarchical Exploration Captures Future Volitional Action in Drosophila",
+      "url": "https://huggingface.co/papers/2610.34638",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "Animals have a remarkable capacity for autonomy---driven by intrinsic motivation---without external sensory cues or ext…",
+      "score": 2
     },
     {
       "id": "3418a5e5d463",
@@ -46,63 +70,39 @@
       "score": 2
     },
     {
-      "id": "241743636e37",
-      "title": "RoboJev: An Open Vision-Language Judge for Robot Success Detection",
-      "url": "https://huggingface.co/papers/2610.33718",
+      "id": "9510e996bd65",
+      "title": "Semantic Concept Steering Breaks the Explanation Drift Loop in Continual Learning",
+      "url": "https://huggingface.co/papers/2610.33877",
       "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "Many robot manipulation videos do not indicate whether the task was successfully completed. RoboJev-27B is an open-weig…",
-      "score": 2
-    },
-    {
-      "id": "50d3c4e7ef8b",
-      "title": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
-      "url": "https://huggingface.co/papers/2610.21561",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic. Wh…",
-      "score": 2
-    },
-    {
-      "id": "c58e89b84d37",
-      "title": "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters",
-      "url": "https://huggingface.co/papers/2610.30970",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Many language-model pipelines end in a closed-set decision, such as selecting a tool. Prompting a large language model …",
-      "score": 2
-    },
-    {
-      "id": "08d4baa9880a",
-      "title": "RoboHarness: A Simple Harness Outperforms VLA and World Action Models",
-      "url": "https://huggingface.co/papers/2610.14018",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "summary": "The rise of large language models (LLMs) has opened a path toward generalist embodied AI, raising the question of how L…",
-      "score": 2
-    },
-    {
-      "id": "49b0b7e328e1",
-      "title": "Thinking-in-Bets at Test Time Reduces Sycophantic Revisions in LLM Agents",
-      "url": "https://huggingface.co/papers/2610.34654",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Language model agents often abandon correct work when a user challenges it, yet simply telling them to stand firm makes…",
-      "score": 2
-    },
-    {
-      "id": "63722dbb9aae",
-      "title": "Constrained Decoding: Harmful or Beneficial? Revisiting Its Impact on LLM Performance",
-      "url": "https://huggingface.co/papers/2610.35328",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Constrained decoding guarantees that Large Language Models (LLMs) produce outputs conforming to predefined formats, but…",
+      "summary": "Catastrophic forgetting in continual learning (CL) manifests not only as accuracy degradation but also as explanation d…",
       "score": 1
     },
     {
-      "id": "aa3941b0f61c",
-      "title": "Trust Mechanisms for Offline Generative AI at the Edge: A Connectivity-Regime Framework and an Empirical Study on a Raspberry Pi 5",
-      "url": "https://huggingface.co/papers/2610.33732",
-      "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "Generative AI and large language models (LLMs) are moving into the Internet of Things, yet most deployments assume clou…",
+      "id": "f0795cb33db6",
+      "title": "Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations",
+      "url": "https://huggingface.co/papers/2610.17117",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "summary": "Existing interpretability tools do not test whether a representation keeps the same content when only the phrasing chan…",
+      "score": 0
+    },
+    {
+      "id": "7a5464ef2fff",
+      "title": "ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning",
+      "url": "https://huggingface.co/papers/2610.34886",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Reasoning language models generate thousands of tokens per answer, and generation speed is limited by memory bandwidth,…",
+      "score": 0
+    },
+    {
+      "id": "2031bfb31a0f",
+      "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
+      "url": "https://huggingface.co/papers/2610.28490",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Online scene change detection requires integrating incoming observations to determine which regions have changed relati…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-27T14:30:05.816Z",
+  "fetchedAt": "2026-10-27T19:35:02.870Z",
   "stale": false,
   "error": null
 }

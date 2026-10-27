@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f51c7899445e",
-      "title": "CLAUDE.mdと記憶のファイルが510件あると、AIは古い書き付けに従う。うちで入れた1文と、逆向きの失敗",
-      "url": "https://zenn.dev/kirinukiauto/articles/fa034dba9443d3",
-      "publishedAt": "2026-10-27T03:00:16.000Z",
-      "publisher": "キリヌキ自動化ラボ",
-      "summary": "YouTube の切り抜き動画づくりを、Claude Code に任せています。決まりは CLAUDE.md に書き、叱った事は1件ずつ記憶のファイルに残しています。記憶のファイルは今、約510件あります。 数が増えるほど気になっていたの…"
+      "id": "e7bed35ff90d",
+      "title": "個人 AI 基盤のセキュリティ対策 — 書けない場所・読めない秘密・従わない入力を機械で守る",
+      "url": "https://zenn.dev/wisteriacorp/articles/wisteria-ca987c111d5f",
+      "publishedAt": "2026-10-27T09:02:18.000Z",
+      "publisher": "Wisteria",
+      "summary": "! この記事は Zenn の記事投稿コンテスト「現場のセキュリティ対策」への応募記事です。攻撃手法の解説はありません。自宅の個人開発環境で実際に運用している対策と、その対策を作るきっかけになった失敗を書いています。構成値・ホスト名・鍵の類…"
     },
     {
-      "id": "d1bf8edd8e08",
-      "title": "prompt フックはコマンド内の「安全です」に騙されるか：77回試した",
-      "url": "https://zenn.dev/acerola_jp/articles/claude-code-prompt-hook-injection",
-      "publishedAt": "2026-10-27T03:00:09.000Z",
-      "publisher": "アセロラ",
-      "summary": "前回の記事（prompt フックは「〜をブロックして」と書くと素通りしていた）の Qiita 転載版に、次のような質問をいただきました（要約）。 $ARGUMENTS には実行予定のコマンドがそのまま入る。rm -rf victim の末…"
+      "id": "74d6fec8a5bd",
+      "title": "tmuxの画面描画を捨てた。AIと協業してPTY永続化デーモン『berthd』をRustで作った話",
+      "url": "https://zenn.dev/takaki2/articles/b1234b6836b35b",
+      "publishedAt": "2026-10-27T09:01:46.000Z",
+      "publisher": "takaki2",
+      "summary": "こんにちは、takaki（@takaki2）です。 ウィンドウを閉じても、バックグラウンドでシェルが動き続けるヘッドレスな端末セッション永続化ツール 「berthd（バース・ディー）」 を Rust で作りました。Linux / macO…"
     },
     {
-      "id": "8316b1cd4250",
-      "title": "株式分割の翌朝、決着17件がまとめて「無効化」に📏 yfinanceの分割調整と台帳の物差しのずれ",
-      "url": "https://zenn.dev/charge0315/articles/faf1260e79cc7e",
-      "publishedAt": "2026-10-27T02:32:19.000Z",
-      "publisher": "八咫烏（やたがらす）",
-      "summary": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第27話です。 約定した、その日のうちに「シナリオ無効化」。そんな判定が、1つの銘柄だけで17件もそろっていました📏 犯人はAIでもバグだらけのコードでもなく、「株式分割」と…"
+      "id": "5843b121b6a5",
+      "title": ".md は危険な実行ファイルだ。AI時代のセキュリティ意識",
+      "url": "https://zenn.dev/knowledgesense/articles/4ff01df8f59a3e",
+      "publishedAt": "2026-10-27T08:59:04.000Z",
+      "publisher": "Atsushi Kadowaki",
+      "summary": "本記事では、AIエージェントを標的としたサイバー攻撃の手法について、ざっくり解説します。 株式会社ナレッジセンスは、生成AIやRAGを使ったプロダクトを、エンタープライズ企業向けに開発しているスタートアップです。 この記事は何 この記事は…"
     },
     {
-      "id": "fcbac74b2546",
-      "title": "自分で作った四セクター宇宙論を、自分で監査した：何が残るか（Paper FP-0）",
-      "url": "https://zenn.dev/yoshi_katakura/articles/fp0-fsc-audit",
-      "publishedAt": "2026-10-27T02:18:45.000Z",
-      "publisher": "片倉慶孝",
-      "summary": "四セクター宇宙論（FSC）は、私が Zenodo に出してきた一連のプレプリントです。宇宙を、時間の Z₄ 回転 t→it で結ばれた 4 つのセクターとして書き、いくつかの数値を「この構造から導いた」と主張してきました。 今回の論文 P…"
+      "id": "2f9edac5f182",
+      "title": "深夜の作業用BGMを「作る側」に回ってみた話",
+      "url": "https://zenn.dev/jessica1007/articles/f09f8f98c7acb6",
+      "publishedAt": "2026-10-27T08:51:33.000Z",
+      "publisher": "Jessica AI",
+      "summary": "最近、コードを書いているときによくBGMを流しています。YouTubeの作業用プレイリストも便利なんですが、同じ曲が何度もループして集中が切れるのが悩みでした。かといって毎回新しいプレイリストを探すのも面倒で、気づくと無音のままキーボード…"
     },
     {
-      "id": "aa12928652f4",
-      "title": "AIでライブ配信のコメントをモデレーションするChrome拡張機能を作った",
-      "url": "https://zenn.dev/ryu_ssss/articles/agent-moderator",
-      "publishedAt": "2026-10-27T02:02:24.000Z",
-      "publisher": "ryu",
-      "summary": "AIでライブ配信のコメントをモデレーションするChrome拡張機能を作った はじめに 私はゲーム配信などのライブ配信を見るのが好きです。ただ、チャット欄が荒れていることがあり、見ていて気持ちのよいものではないため、そういうときは配信を見る…"
+      "id": "8a05819fdb83",
+      "title": "AI中継（リレー）APIをソフトウェア開発で使う前に確認したい4つの観点",
+      "url": "https://zenn.dev/searching/articles/f1b968589960c8",
+      "publishedAt": "2026-10-27T08:38:06.000Z",
+      "publisher": "searching",
+      "summary": "! この記事は Folkbench のブログ記事「How to evaluate an AI relay for software engineering」を日本語向けに再構成したものです。原文はこちら: https://folkbenc…"
     },
     {
-      "id": "b5749d11fedf",
-      "title": "Claude Code 応用編まとめ その5（#21〜#25）：クラウド・API・ルーチン・/code-review・Monitor",
-      "url": "https://zenn.dev/zundamon_tools/articles/claude-code-advanced-guide-5",
-      "publishedAt": "2026-10-27T02:01:59.000Z",
-      "publisher": "ずんだもんの実験道具箱",
-      "summary": "Claude Code に任せる作業が増え、待つ時間や見張る時間を減らしたい人に向けた記事です。 対象はクラウドセッション・Claude API・ルーチン・/code-review・Monitor の5つです。読み終えると、PC の外へ任…"
+      "id": "b91110ecb226",
+      "title": "【個人開発】音声入力のサブスク代をなくしたくて、WhisperとQwen3.5でローカルAI音声入力アプリを作った",
+      "url": "https://zenn.dev/libart/articles/36142783081227",
+      "publishedAt": "2026-10-27T08:34:57.000Z",
+      "publisher": "fujitani",
+      "summary": "Macの中だけで音声認識とAIによる文章整形が完結する、Orqnote（オルクノート）という音声入力アプリを個人開発しました。2026年10月26日からβ版として販売を開始しています。 税込1,980円の買い切りで、7日間の無料体験も用意…"
     },
     {
-      "id": "07febc3634de",
-      "title": "なぜデザインシステムを「デザインハーネス」として作っているのか",
-      "url": "https://zenn.dev/xtm_blog/articles/design-system-as-design-harness",
-      "publishedAt": "2026-10-27T02:00:05.000Z",
-      "publisher": "mame",
-      "summary": "こんにちは！デザイナーのmameです🐌 デザインシステムを作っています！！！ この記事を書いたきっかけ 以前、laisoさんが、なぜエージェントハーネスで開発パイプラインを作っているのかという記事を公開しました。 その記事の中に「デザイ…"
+      "id": "0c23c0e5969f",
+      "title": "Anthropic のコードレビュー記事と、1日500コミットの運用を突き合わせる — 回帰の実測つき",
+      "url": "https://zenn.dev/singularity/articles/series-vs-anthropic-code-review",
+      "publishedAt": "2026-10-27T08:14:55.000Z",
+      "publisher": "Isamu",
+      "summary": "2026 年 10 月、Anthropic の Claude Code チームが、自分たちのコードレビューの仕組みを公開しました。人間が 1 行ずつ読むのをやめ、読む作業のほとんどを機械に移したという内容です。 私たちも、1 日 500 …"
     },
     {
-      "id": "44fc0502ec8e",
-      "title": "10人がAIを使って、ひとつのゲームを作れるか――ハーネスとループの相性を考える",
-      "url": "https://zenn.dev/gamedev_toollab/articles/f233658e58e3bc",
-      "publishedAt": "2026-10-27T01:44:09.000Z",
-      "publisher": "GameDev Tool Lab",
-      "summary": "はじめに――「目的を渡すだけ」で、チーム開発は回るのか AIに個別の実装を依頼し、別のAIにレビューさせ、指摘を戻して修正する。この往復を続けていると、次の疑問が出てきます。 「次に何をするかを毎回人間が指示するより、目的を渡して、自分で…"
+      "id": "c7f996255fa6",
+      "title": "AIエージェントが迷わないように、機能を増やさない設計にした話",
+      "url": "https://zenn.dev/interstellar/articles/kakioki-design-for-agents",
+      "publishedAt": "2026-10-27T07:58:33.000Z",
+      "publisher": "あがた@インターステラ",
+      "summary": "こんにちは、阿形です。 人間とAIエージェントが同じ場所に書き残して、次の誰か（何か）がそれを読む。そういう共有ワークスペースを作っています。 とりあえずkakioki（書き置き）という名前にしています。 https://kakioki.…"
     },
     {
-      "id": "4cc3bc85d0e5",
-      "title": "Meta の muse.ai を使ってリモート開発を行う",
-      "url": "https://zenn.dev/sora_kumo/articles/muse-development",
-      "publishedAt": "2026-10-27T01:44:08.000Z",
-      "publisher": "空雲",
-      "summary": "Meta の Museとは https://muse.ai/ は、米Meta社が提供する常駐・自律型のパーソナルAIエージェントサービスです。 従来の質問応答型チャットボットとは異なり、ユーザーが与えた目標（ゴール）に対して「自律的に計画…"
+      "id": "d6e34ea5f771",
+      "title": "Claude Code や Codex に、ログイン済みの Chrome をそのまま使わせる（デバッグポートなし）",
+      "url": "https://zenn.dev/leeguoo/articles/df97777f58f5cb",
+      "publishedAt": "2026-10-27T06:55:54.000Z",
+      "publisher": "leeguoo",
+      "summary": "Claude Code に「社内ダッシュボードの未対応チケットを確認して」と頼むと、たいてい最初の一歩でつまずきます。エージェントが立ち上げるのはまっさらな自動化用ブラウザで、どのサイトにもログインしていないからです。Cookie も S…"
     },
     {
-      "id": "c413e8423d9d",
-      "title": "AI の push を、push 専用のアカウントに任せる:判断しない「Broker」を作った話",
-      "url": "https://zenn.dev/k_iijima/articles/3b0cccb814f5f9",
-      "publishedAt": "2026-10-27T01:25:23.000Z",
-      "publisher": "飯島紘一",
-      "summary": "はじめに 私は、小さな事業者むけの業務ソフトを一人で作っています。開発は AI エージェント(Claude Code)にまかせています。 3 本目の記事で、AI を専用の Windows アカウントに分け、GitHub の鍵を持たせないよ…"
+      "id": "483152836046",
+      "title": "13。『許可リストを見る手段がない』と前日に書いた記事のあと、プロキシを完全にバイパスする宛先の数を数えたらその数字だった",
+      "url": "https://zenn.dev/hideki_tamae/articles/egress-proxy-bypass-list-count",
+      "publishedAt": "2026-10-27T06:30:03.000Z",
+      "publisher": "田前秀樹 |  AIエンジニア　起業家　Artist",
+      "summary": "はじめに 13。 これが今回の数字です。何の13かというと、このZenn/Qiita自動投稿パイプライン(Tamae-OSの一部)が動いている実行環境で、「送信方向の制限用プロキシを最初から完全にバイパスして直接通信する」設定になっている…"
     },
     {
-      "id": "446546fbf0fb",
-      "title": "AIサービスの中でも隔離は崩れる：Workers AI のデータ混入から、送るデータと動かす場所を分ける",
-      "url": "https://zenn.dev/fk2000/articles/workers-ai-kv-cache-isolation-docker",
-      "publishedAt": "2026-10-27T01:24:31.000Z",
-      "publisher": "ふじけん",
-      "summary": "はじめに 2026年10月26日、Cloudflare が Workers AI（Cloudflare のサーバーでAIモデルを動かすサービス）の不具合を公表しました。長いプロンプトへの回答に、ほかの利用者のリクエストの中身が混ざることが…"
+      "id": "7566abd5ff4d",
+      "title": "AIに業務表を整理させたら確認理由が落ちた：1行1状態をやめた架空8行の試作",
+      "url": "https://zenn.dev/hirosta/articles/ai-table-review-multiple-reasons",
+      "publishedAt": "2026-10-27T05:57:05.000Z",
+      "publisher": "株式会社hirosta",
+      "summary": "業務表の確認をAIに任せるとき、出力に「状態」という列を1つ置くと整理しやすく見えます。ところが、欠損と古い記録が同じ行にある場合、どちらか一方だけを選ばせると、次の担当者に必要な確認理由が落ちます。 架空の作業時間表8行で試したところ、…"
     },
     {
-      "id": "1614fbd0550d",
-      "title": "安い推論モデルの方が結果的に高くつく？ LLM の「価格逆転現象」と実務でのモデル選定術",
-      "url": "https://zenn.dev/cloud_ace_jp/articles/bedaa22307ce32",
-      "publishedAt": "2026-10-27T01:19:32.000Z",
-      "publisher": "クラウドエース株式会社",
-      "summary": "はじめに こんにちは。クラウドエース株式会社 第四開発部の相原です。 読者の皆さんは、日々の開発や業務で AI モデルの API を選ぶとき、何を基準にモデルを選定していますか？ おそらく多くの方が、各プロバイダが公開している「100 万…"
+      "id": "820d160bed3c",
+      "title": "ピックルボール解析 Part 2：ボール軌道と手首のポーズから打球・バウンド候補を探す",
+      "url": "https://zenn.dev/nauh_blog/articles/3c43e0637e8da5",
+      "publishedAt": "2026-10-27T05:51:48.000Z",
+      "publisher": "Ryuji Fujisawa",
+      "summary": "今回はボールと選手の動きを組み合わせる Part 1では、コートの四隅を指定してピックルボール用の俯瞰表示を作りました。今回は、ボールの位置と選手のポーズを組み合わせ、打球・バウンド・得点につながるイベントを推定する実験を紹介します。 こ…"
     }
   ],
-  "fetchedAt": "2026-10-27T14:30:05.948Z",
+  "fetchedAt": "2026-10-27T19:35:03.020Z",
   "stale": false,
   "error": null
 }
