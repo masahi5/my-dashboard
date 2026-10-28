@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3c0b1b281fb6",
-      "title": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
-      "url": "https://huggingface.co/papers/2610.34735",
+      "id": "780bc5ba5f63",
+      "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
+      "url": "https://huggingface.co/papers/2610.36068",
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants. Computer-us…",
+      "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot polic…",
+      "score": 20
+    },
+    {
+      "id": "4d48ef953ac1",
+      "title": "On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction",
+      "url": "https://huggingface.co/papers/2610.22543",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Diffusion language models (DLMs) promise parallel text generation, but in practice face an unresolved speed-quality tra…",
+      "score": 18
+    },
+    {
+      "id": "e0b3cebc38ad",
+      "title": "LociArt: A Unified Paradigm for Free-Style Local Video Stylization",
+      "url": "https://huggingface.co/papers/2610.36456",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Video stylization typically transforms entire scenes, while local artistic editing requires precise region--style assoc…",
+      "score": 14
+    },
+    {
+      "id": "1ceffac7da65",
+      "title": "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
+      "url": "https://huggingface.co/papers/2610.34283",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement t…",
+      "score": 13
+    },
+    {
+      "id": "3f2601cb67ce",
+      "title": "What Effort Level Should I Choose? On the Economics of Reasoning Effort in LLM Agents",
+      "url": "https://huggingface.co/papers/2610.34491",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "Generative models increasingly expose a reasoning effort setting that lets users scale inference-time compute, trading …",
       "score": 7
     },
     {
-      "id": "e2fbfecf6297",
-      "title": "ReGE: Stronger Agents through Experience Synthesis",
-      "url": "https://huggingface.co/papers/2610.33861",
-      "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "Repeated attempts at interactive tasks uncover facts, useful operations, and failures that can inform subsequent execut…",
+      "id": "fae29c86e497",
+      "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
+      "url": "https://huggingface.co/papers/2610.36729",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action…",
       "score": 6
     },
     {
-      "id": "031edb206db2",
-      "title": "CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments",
-      "url": "https://huggingface.co/papers/2610.32004",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Deploying language agents in real applications demands more than the right answer: an agent must execute a multi-step b…",
-      "score": 4
-    },
-    {
-      "id": "40fcefc53be5",
-      "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
-      "url": "https://huggingface.co/papers/2610.32046",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inferenc…",
+      "id": "baeed085ed44",
+      "title": "RSI Arena: Towards Recursive Self-Improvement with Human Feedback",
+      "url": "https://huggingface.co/papers/2610.33624",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "summary": "Can AI agents autonomously train useful language models and improve them using feedback from users? We introduce RSI Ar…",
       "score": 3
     },
     {
-      "id": "8d0202fa922f",
-      "title": "Rethinking Verification in Agent Harnesses",
-      "url": "https://huggingface.co/papers/2610.34577",
-      "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "Agent harnesses enable large language models to act through tools, observe the results, and iteratively work toward a t…",
-      "score": 2
-    },
-    {
-      "id": "3cf0c8a44707",
-      "title": "Representation Redistribution in Sparse Autoencoders",
-      "url": "https://huggingface.co/papers/2610.21240",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations design…",
-      "score": 1
-    },
-    {
-      "id": "5b154ec409a7",
-      "title": "EnvLunch: The Environment as a Free Lunch for Learning to Interact",
-      "url": "https://huggingface.co/papers/2610.33817",
-      "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "For agentic data analysis, language-model agents often require a large number of annotated tasks to learn how to intera…",
-      "score": 1
-    },
-    {
-      "id": "9510e996bd65",
-      "title": "Semantic Concept Steering Breaks the Explanation Drift Loop in Continual Learning",
-      "url": "https://huggingface.co/papers/2610.33877",
-      "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "Catastrophic forgetting in continual learning (CL) manifests not only as accuracy degradation but also as explanation d…",
-      "score": 1
-    },
-    {
-      "id": "9843c6a32a91",
-      "title": "Did the Model Use That? Counterfactual Training Boosts Self-Attribution in Language Models",
-      "url": "https://huggingface.co/papers/2610.35295",
+      "id": "f003c1351f7c",
+      "title": "Cross-modal Steering Vectors Exist Across Both Image and Text Generation",
+      "url": "https://huggingface.co/papers/2610.36269",
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "A fundamental challenge for explainable and accountable language models is revealing how external information influence…",
-      "score": 0
+      "summary": "Are concepts and mechanisms unified across modalities in current AI models, or instead implemented separately for each …",
+      "score": 3
     },
     {
-      "id": "f0795cb33db6",
-      "title": "Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations",
-      "url": "https://huggingface.co/papers/2610.17117",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "summary": "Existing interpretability tools do not test whether a representation keeps the same content when only the phrasing chan…",
-      "score": 0
-    },
-    {
-      "id": "7a5464ef2fff",
-      "title": "ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning",
-      "url": "https://huggingface.co/papers/2610.34886",
+      "id": "774ba3be1c5c",
+      "title": "SearchHorizonBench: A Benchmark for Search Value in AI Agents",
+      "url": "https://huggingface.co/papers/2610.34714",
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Reasoning language models generate thousands of tokens per answer, and generation speed is limited by memory bandwidth,…",
-      "score": 0
+      "summary": "AI agents must decide when another search is worth its cost. Answer-success probabilities capture question difficulty, …",
+      "score": 1
     },
     {
-      "id": "2031bfb31a0f",
-      "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
-      "url": "https://huggingface.co/papers/2610.28490",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Online scene change detection requires integrating incoming observations to determine which regions have changed relati…",
+      "id": "ed817a972d90",
+      "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+      "url": "https://huggingface.co/papers/2610.37649",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with …",
+      "score": 1
+    },
+    {
+      "id": "12680b51580d",
+      "title": "Harness-Model Collaboration for Long-Horizon Continual Learning",
+      "url": "https://huggingface.co/papers/2610.34724",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Long-horizon agents continuously encounter reusable procedural knowledge, yet existing systems typically rely either on…",
+      "score": 1
+    },
+    {
+      "id": "11184bb9877d",
+      "title": "Nemotron-Labs-Diffusion-Uni: Elastic Self-Refining Unified Diffusion LLM with Cross-Paradigm On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.36466",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "We propose Nemotron-Labs-Diffusion-Uni (NLD-Uni), a unified discrete diffusion large language model (DLLM) for visual u…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-27T23:12:19.718Z",
+  "fetchedAt": "2026-10-28T02:16:13.928Z",
   "stale": false,
   "error": null
 }
