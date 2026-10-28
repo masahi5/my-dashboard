@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "780bc5ba5f63",
-      "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
-      "url": "https://huggingface.co/papers/2610.36068",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot polic…",
-      "score": 20
-    },
-    {
-      "id": "4d48ef953ac1",
-      "title": "On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction",
-      "url": "https://huggingface.co/papers/2610.22543",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Diffusion language models (DLMs) promise parallel text generation, but in practice face an unresolved speed-quality tra…",
-      "score": 18
-    },
-    {
-      "id": "e0b3cebc38ad",
-      "title": "LociArt: A Unified Paradigm for Free-Style Local Video Stylization",
-      "url": "https://huggingface.co/papers/2610.36456",
+      "id": "37da53c4cc0a",
+      "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
+      "url": "https://huggingface.co/papers/2610.37381",
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Video stylization typically transforms entire scenes, while local artistic editing requires precise region--style assoc…",
-      "score": 14
+      "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but th…",
+      "score": 102
     },
     {
-      "id": "1ceffac7da65",
-      "title": "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
-      "url": "https://huggingface.co/papers/2610.34283",
-      "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement t…",
+      "id": "468d3e420c62",
+      "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+      "url": "https://huggingface.co/papers/2610.36077",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. Howev…",
+      "score": 101
+    },
+    {
+      "id": "92a4b048e18f",
+      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
+      "url": "https://huggingface.co/papers/2610.37662",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multi…",
+      "score": 25
+    },
+    {
+      "id": "fdd17d343ae5",
+      "title": "Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation",
+      "url": "https://huggingface.co/papers/2610.26030",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Looped transformers reuse a shared block of layers to increase computational depth without increasing the number of tra…",
+      "score": 25
+    },
+    {
+      "id": "1d39b3e67d38",
+      "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
+      "url": "https://huggingface.co/papers/2610.35864",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rul…",
       "score": 13
     },
     {
-      "id": "3f2601cb67ce",
-      "title": "What Effort Level Should I Choose? On the Economics of Reasoning Effort in LLM Agents",
-      "url": "https://huggingface.co/papers/2610.34491",
-      "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "Generative models increasingly expose a reasoning effort setting that lets users scale inference-time compute, trading …",
-      "score": 7
+      "id": "1d1ad0562f97",
+      "title": "RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions",
+      "url": "https://huggingface.co/papers/2610.36791",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Learning controllable world dynamics from heterogeneous interaction videos is challenging because robot embodiments use…",
+      "score": 8
     },
     {
-      "id": "fae29c86e497",
-      "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
-      "url": "https://huggingface.co/papers/2610.36729",
+      "id": "9ab911699b3f",
+      "title": "Your Policy Is Secretly a Harness: The Decision Geometry of Agent Interfaces",
+      "url": "https://huggingface.co/papers/2610.37255",
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action…",
+      "summary": "Language model agents are post-trained and deployed through a harness, the prompts, tools, and control logic that prese…",
       "score": 6
     },
     {
-      "id": "baeed085ed44",
-      "title": "RSI Arena: Towards Recursive Self-Improvement with Human Feedback",
-      "url": "https://huggingface.co/papers/2610.33624",
-      "publishedAt": "2026-10-24T00:00:00.000Z",
-      "summary": "Can AI agents autonomously train useful language models and improve them using feedback from users? We introduce RSI Ar…",
-      "score": 3
-    },
-    {
-      "id": "f003c1351f7c",
-      "title": "Cross-modal Steering Vectors Exist Across Both Image and Text Generation",
-      "url": "https://huggingface.co/papers/2610.36269",
+      "id": "1f3fa196902b",
+      "title": "Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation",
+      "url": "https://huggingface.co/papers/2610.34674",
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Are concepts and mechanisms unified across modalities in current AI models, or instead implemented separately for each …",
-      "score": 3
+      "summary": "Safe household navigation requires robots to regulate clearance and speed according to what an obstacle is and how clos…",
+      "score": 4
     },
     {
-      "id": "774ba3be1c5c",
-      "title": "SearchHorizonBench: A Benchmark for Search Value in AI Agents",
-      "url": "https://huggingface.co/papers/2610.34714",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "AI agents must decide when another search is worth its cost. Answer-success probabilities capture question difficulty, …",
-      "score": 1
-    },
-    {
-      "id": "ed817a972d90",
-      "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
-      "url": "https://huggingface.co/papers/2610.37649",
+      "id": "81336076056e",
+      "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+      "url": "https://huggingface.co/papers/2610.37624",
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with …",
+      "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory kee…",
       "score": 1
     },
     {
-      "id": "12680b51580d",
-      "title": "Harness-Model Collaboration for Long-Horizon Continual Learning",
-      "url": "https://huggingface.co/papers/2610.34724",
+      "id": "8cbe1c29fd26",
+      "title": "MoveBench: A Rubric-Based Benchmark for Evaluating Large Language Models in Sports and Health Coaching",
+      "url": "https://huggingface.co/papers/2610.26185",
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Long-horizon agents continuously encounter reusable procedural knowledge, yet existing systems typically rely either on…",
+      "summary": "Despite rapid advances in large language models (LLMs), their deployment in the sports and health domain remains high-r…",
       "score": 1
     },
     {
-      "id": "11184bb9877d",
-      "title": "Nemotron-Labs-Diffusion-Uni: Elastic Self-Refining Unified Diffusion LLM with Cross-Paradigm On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2610.36466",
+      "id": "eca20315d58a",
+      "title": "MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model",
+      "url": "https://huggingface.co/papers/2610.37175",
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "We propose Nemotron-Labs-Diffusion-Uni (NLD-Uni), a unified discrete diffusion large language model (DLLM) for visual u…",
+      "summary": "AI research agents can propose, execute, and improve programs that solve machine learning tasks. However, executing eac…",
+      "score": 1
+    },
+    {
+      "id": "1447ac899900",
+      "title": "PhysEvolve: Verifier-grounded Self-evolution for Physical Reasoning with Executable Worlds",
+      "url": "https://huggingface.co/papers/2610.34921",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Physical reasoning underpins how embodied systems understand and act in the physical world, yet vision-language models …",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-28T02:16:13.928Z",
+  "fetchedAt": "2026-10-28T08:49:55.097Z",
   "stale": false,
   "error": null
 }

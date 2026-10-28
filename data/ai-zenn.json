@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "663f2d0dc1d4",
-      "title": "Untie で AI と一緒に業務を整理する",
-      "url": "https://zenn.dev/tan_go238/articles/e0f63848fe89ea",
-      "publishedAt": "2026-10-27T15:06:52.000Z",
-      "publisher": "tan_go238",
-      "summary": "業務を整理するとき、現場の人はすでに何かしらの課題感を持っていると思います。 ただ、それが業務のどこに潜んでいるのか、他の作業とどう関係しているのかは、業務を並べてみないとわからない部分もあります。 例えば、業務一覧を Excel にまと…"
+      "id": "948054f80608",
+      "title": "定期実行タスクが「静かに失敗」しないための設計 — 検知と通知のメモ",
+      "url": "https://zenn.dev/dev_pjs/articles/8ce8b535b2bbd6",
+      "publishedAt": "2026-10-28T03:01:02.000Z",
+      "publisher": "Dev_PJS",
+      "summary": "定期実行（cron的なスケジュール実行）で一番まずいのは、派手なエラーではなく「静かな失敗」です。 実行されたが、結果が空だった 成功と記録されたが、対象がズレていた 通知が来ないので、誰も気づかないまま数日経った 私の環境では、エージェ…"
     },
     {
-      "id": "611e71f35fef",
-      "title": "AIに効かせるガードレールとして、RuboCop設定をRails本体と比較して見直した話",
-      "url": "https://zenn.dev/tsukulink/articles/342ac67c88c490",
-      "publishedAt": "2026-10-27T15:00:06.000Z",
-      "publisher": "ちばよしはる",
-      "summary": "こんにちは、ツクリンク株式会社でソフトウェアエンジニアをしている千葉です。 今回は、AI開発のガードレールとして正しく機能させることを目的に、ツクリンクの.rubocop.ymlをRails本体（rails/rails）のRuboCop設…"
+      "id": "eaf5d0eea682",
+      "title": "学習中は、AIをVSCodeに入れないでください。web版をコピペで使うくらいがちょうどいいです",
+      "url": "https://zenn.dev/ahagate/articles/ae4dbb4393f750",
+      "publishedAt": "2026-10-28T02:58:49.000Z",
+      "publisher": "せいや＠エンジニア",
+      "summary": "「AIがあるから、もうプログラミングを学習しなくていいんじゃないの？」 最近、こういう質問をよく受けます。 僕の答えは、AIを使うために、基礎を押さえておく必要がある、です。 ただ、学習中にAIを使うな、という話ではないんですね。 使い方…"
     },
     {
-      "id": "999416ea4689",
-      "title": "Anthropic上場申請で見えた「AIは2つ使いで離れない」",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261027",
-      "publishedAt": "2026-10-27T14:48:46.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月27日（火）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 先に結論を言います。今日は「AIは、使い道が増えるほど手放せなくなる」という話が、いろんな角度から出てきた日なんですよ。Claud…"
+      "id": "a2f91527d228",
+      "title": "AIピックが2日連続0件、でも判定は正しかった🕳️ 複数ランキングを連結して切ると母集団が偏る話",
+      "url": "https://zenn.dev/charge0315/articles/6db1ce65ab98e0",
+      "publishedAt": "2026-10-28T02:49:21.000Z",
+      "publisher": "八咫烏（やたがらす）",
+      "summary": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第28話です。 中長期のAIピックが、2日続けて0件でした🫥 調べてみると、AIの判定は正しかった。おかしかったのは、AIに渡す前の「候補の集め方」のほうでした。 日本株のA…"
     },
     {
-      "id": "f6db95e28a6d",
-      "title": "Claudeに有料本の全9章の事実確認を頼んだら、最後の1章しか見ていなかった",
-      "url": "https://zenn.dev/twinharness/articles/ai-book-review-scope",
-      "publishedAt": "2026-10-27T14:37:54.000Z",
-      "publisher": "twinharness",
-      "summary": "AI に収益を作らせる実験の一つとして、私は有料の本（全9章）を、技術記事と本の投稿サービス Zenn に出しました。その原稿に書いた数字や主張が、元の記録と合っているかを、週に1回自動で動く仕組みに確認させたところ、1回目の結果は「第9…"
+      "id": "ebe50cae4a42",
+      "title": "AIに「片付けて」と丸投げしたら、フォルダの外が消えたのは12回中0回。許可フラグを外しても rm -r は通った",
+      "url": "https://zenn.dev/numarn/articles/agent-cleanup-delete-scope-handson",
+      "publishedAt": "2026-10-28T02:34:56.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "きっかけは「AIエージェントが別のAIエージェントのホームフォルダをまるごと削除した」という X の投稿でした。 その事件そのものは、こちらから再現する道がありません。どんな環境で、何がどう消えたのかを確かめる手段が無いので、 この記事で…"
     },
     {
-      "id": "9ae3372d27d2",
-      "title": "パスワードを変えたら、暗号化したデータはどうなるのか。全件やり直さない「鍵を包む」仕組み",
-      "url": "https://zenn.dev/kimshoshi/articles/wrap-the-data-key",
-      "publishedAt": "2026-10-27T14:36:55.000Z",
-      "publisher": "KIM SEONGSU｜令和8年度 行政書士受験生",
-      "summary": "個人情報を暗号化して保存する仕組みを作ると、最初に思いつくのは「管理者パスワードから鍵を作って、そのまま名前を暗号化する」形です。 動きはします。ただ、運用に入ると次のような場面で困ります。 管理者が交代したので、パスワードを変えたい 管…"
+      "id": "28e010e8c97d",
+      "title": "同じトレード戦略をAIでAlpacaとQuantConnect向けコードに変換して比較してみる",
+      "url": "https://zenn.dev/easyquant/articles/ee87828c48ed7d",
+      "publishedAt": "2026-10-28T02:23:05.000Z",
+      "publisher": "easyquant",
+      "summary": "同じ売買ロジックでも、利用するプラットフォームによって実装は大きく変わります。 今回試す戦略は、 EMA20 / EMA50 crossover RSI filter ATR stop loss です。 これをAIに与えて、 Alpaca…"
     },
     {
-      "id": "a6a469a4b343",
-      "title": "専門文書ワークスペースを拡張する：AI WorkDeckのプラグイン構成",
-      "url": "https://zenn.dev/aiworkdeck/articles/40ad0cdb2b2610",
-      "publishedAt": "2026-10-27T14:20:37.000Z",
-      "publisher": "AI WorkDeck",
-      "summary": "AI WorkDeckは、文書エディタ、エージェント、ソース参照、版の履歴を結合するオープンソースのワークスペースです。法的業務から始めていますが、ドキュメント操作の基盤は他の専門職にも拡張できる設計になっています。 この記事では、公式リ…"
+      "id": "fae91a0bded2",
+      "title": "自然言語からTradingViewのPine Scriptを生成してみる",
+      "url": "https://zenn.dev/easyquant/articles/da7bded17715d4",
+      "publishedAt": "2026-10-28T02:22:05.000Z",
+      "publisher": "easyquant",
+      "summary": "自然言語からTradingViewのPine Scriptを生成してみる TradingViewで戦略を思いついたとき、意外と時間がかかるのが最初の実装です。 例えば、 EMA20がEMA50を上抜け RSIが60未満 2ATRで損切り …"
     },
     {
-      "id": "6562caebcce4",
-      "title": "その２ tfstylus を作り始めた時にわかっていなかったこと",
-      "url": "https://zenn.dev/terraform_jp/articles/2026-10-27_tfstylus_02",
-      "publishedAt": "2026-10-27T14:20:21.000Z",
-      "publisher": "raki",
-      "summary": "tl;dr terraform のコードを少し整える tfstylus を作ってみた の続きの その１ なぜ tfstylus を作ったのか の続き 作り始めてから IT なんもわからんになっていたことを整理した わかってなかったこと t…"
+      "id": "88cff67f86b1",
+      "title": "今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-20-tech-daily",
+      "publishedAt": "2026-10-28T02:21:20.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 本日の技術トレンドでは、エンタープライズ市場における「自己改善・自己進化型AIエージェント」の実用化ラッシュと、OpenAIによるPythonツール開発元Astralの買収に伴う開発環境の再編が大きな焦点となっています。また、AIモデ…"
     },
     {
-      "id": "a558741488cf",
-      "title": "新しい価値を生み出そうと頑張る前に、AIと面白いことを探してみませんか？——思考拡張の実践論（Draft）",
-      "url": "https://zenn.dev/frb_tamasub/articles/thinking-expansion-find-something-fun",
-      "publishedAt": "2026-10-27T14:17:39.000Z",
-      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
-      "summary": "! 本記事は、FRB（Fishing Rod Benchmark）とAI協働の実体験から生まれた、私なりの「思考拡張」の実践論（Draft）です。心理学的に検証された普遍的な法則ではなく、現時点の個人研究・経験則としてお読みください。 は…"
+      "id": "d999b1b7b2e0",
+      "title": "「あと一歩」の作業BGMを、作り直さず寄せてみた",
+      "url": "https://zenn.dev/jessica1007/articles/7f8d36a38399bc",
+      "publishedAt": "2026-10-28T02:19:04.000Z",
+      "publisher": "Jessica AI",
+      "summary": "作業用の短いトラックを自分で用意するようになって、しばらく経ちました。最初のうちは毎回ゼロからプロンプトを書いていたのですが、ある夜「前に作った曲、テンポはいいのに明るすぎる」と気づいて手が止まりました。捨てるのはもったいないし、最初から…"
     },
     {
-      "id": "6d270ce7c32f",
-      "title": "「賢いメモリ」は過去を消す。自作の縮小実験でAIエージェントメモリの変異リスクを確かめた",
-      "url": "https://zenn.dev/matsushima_a/articles/day-028-naive-rag-vs-mutating-memory",
-      "publishedAt": "2026-10-27T14:11:55.000Z",
-      "publisher": "matsu",
-      "summary": "今日のネタ元 Hugging Face Daily Papersに掲載されていた以下の論文を検証した。 \"Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Tha…"
+      "id": "19efbab33dce",
+      "title": "サブエージェント、増やせば賢くなる？：公式キットで監査・比較と識者の見方",
+      "url": "https://zenn.dev/zundamon_tools/articles/claude-subagent-fold",
+      "publishedAt": "2026-10-28T02:13:37.000Z",
+      "publisher": "ずんだもんの実験道具箱",
+      "summary": "サブエージェントは、増やすほどエージェントを賢くするのか。この記事は、その考え方を揃えるための記事です。 サブエージェントは、自分のコンテキスト・ツール・指示を持つ別のエージェントです。Claude Code なら .claude/age…"
     },
     {
-      "id": "1ed5be91e8e6",
-      "title": "AIで作ったアプリ、作った後まで覚えていますか？ 見回りとSecurity Playbookを作った話",
-      "url": "https://zenn.dev/nekoai_lab/articles/bba3d95505f371",
-      "publishedAt": "2026-10-27T14:00:24.000Z",
-      "publisher": "Tsukineko",
-      "summary": "TL;DR AIでアプリは作れるようになった。でも、作ったときの部品や実行環境を、ずっと覚えてはいられない。 PHPの脆弱性をきっかけに、自分のアプリを放置しないための見回りを整えた。 共通ハーネスに、台帳・依存関係の棚卸し・対応の優先度…"
+      "id": "66a835b2fc48",
+      "title": "OpenAI 互換 API で Structured Outputs を使う：JSON Schema 実践ガイド",
+      "url": "https://zenn.dev/modelflare_dev/articles/da010b921b8b68",
+      "publishedAt": "2026-10-28T02:03:03.000Z",
+      "publisher": "ModelFlare",
+      "summary": "この記事は Modelflare ブログ の英語記事を翻訳・再構成したものです。 Responses API と Chat Completions における strict な JSON Schema 出力を、フィールド単位で解説します。検…"
     },
     {
-      "id": "ef9f59a34c83",
-      "title": "pip install しただけで鍵が盗まれる？ LiteLLM 1.107.0 乗っ取りの仕組みと対処",
-      "url": "https://zenn.dev/lecto/articles/9b314222f5dfa4",
-      "publishedAt": "2026-10-27T13:53:02.000Z",
-      "publisher": "tamoco",
-      "summary": "はじめに 2026 年 10 月 21 日、AI のモデルを呼び出す Python のライブラリ LiteLLM の 1.107.0 が、鍵を盗むマルウェア入りの偽物にすり替えられました。PyPI と Docker のイメージの両方です。…"
+      "id": "9e7777bb26ba",
+      "title": "Codex Day 22：GPT-6.1 Terraを徹底解説｜性能・API料金・Computer Use",
+      "url": "https://zenn.dev/sponge841841/articles/2026-10-27-codex-day22-gpt61-terra",
+      "publishedAt": "2026-10-28T01:09:12.000Z",
+      "publisher": "ちっち",
+      "summary": "2026年10月27日（日本時間）、OpenAIの28日間アップデートDay 22として「GPT-6.1 Terra」が発表されました。 画面の内容を理解してアプリを操作するComputer Use、画像・図面の理解、自然な文章作成を得意…"
     },
     {
-      "id": "bdb4c33135cf",
-      "title": "wasm-opt -Ozでgzip後のサイズが増えたWasmを、141通りの実験で48%削減した話",
-      "url": "https://zenn.dev/ultrasupara/articles/cef4a06a71cdda",
-      "publishedAt": "2026-10-27T13:18:01.000Z",
-      "publisher": "asu_para",
-      "summary": "はじめに WebAssemblyのバイナリを小さくしようとして最適化をかけたら、逆にgzip後のサイズが増えてしまった。 Rustで開発しているOSSのSIGILで、実際に起きたことです。 SIGILは、ローカルのAI実行環境をセキュリテ…"
+      "id": "d2d918b6c53a",
+      "title": "Codex Day 21徹底解説：2日連続リセットと反映状況・使用量の確認方法",
+      "url": "https://zenn.dev/sponge841841/articles/2026-10-26-codex-day21-global-reset",
+      "publishedAt": "2026-10-28T01:09:11.000Z",
+      "publisher": "ちっち",
+      "summary": "2026年10月26日（月）、OpenAIの「28日間アップデート」Day 21で、新たなCodex / ChatGPT Workの利用枠リセットが宣言されました。 前日のDay 20に続く2日連続のリセット発表です。 Day 21のTi…"
     }
   ],
-  "fetchedAt": "2026-10-28T02:16:14.062Z",
+  "fetchedAt": "2026-10-28T08:49:55.204Z",
   "stale": false,
   "error": null
 }

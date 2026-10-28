@@ -2,6 +2,60 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2115319883248677192",
+      "url": "https://x.com/shi3z/status/2115319883248677192",
+      "text": "楠(@masanork )がMeOSにscheme実装やらBASICインタプリタやらDOOMやらを移植していて大変なことになってる。老顔用モードを作ってる暇がない",
+      "publishedAt": "2026-10-28T05:48:55.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2115292664061137110",
+      "url": "https://x.com/shi3z/status/2115292664061137110",
+      "text": "MeOS @masanork によるタッチスクリーンドライバとスクリーンキーボードに対応。ssh,webで動作確認済み\ngithub.com/shi3z/MeOS",
+      "publishedAt": "2026-10-28T04:00:46.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2115290700724195569",
+      "url": "https://x.com/shi3z/status/2115290700724195569",
+      "text": "MeOSが俺の知らない機能が充実したものになっていってる・・・",
+      "publishedAt": "2026-10-28T03:52:57.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2115290544306049425",
+      "url": "https://x.com/shi3z/status/2115290544306049425",
+      "text": "TwitterのDMを自動的に処理したいのにGrokBotが役に立たねえ　メールに誘導すればいいのか?",
+      "publishedAt": "2026-10-28T03:52:20.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2115288834833584310",
+      "url": "https://x.com/shi3z/status/2115288834833584310",
+      "text": "SLが!",
+      "publishedAt": "2026-10-28T03:45:33.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2115268871435518125",
+      "url": "https://x.com/shi3z/status/2115268871435518125",
+      "text": "MeOSぼーっとしていたら大量のプルリクが来ていた\n遊んでくれてありがとねー、とりあえず全部見る\ngithub.com/shi3z/MeOS/pulls",
+      "publishedAt": "2026-10-28T02:26:13.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2115264926902374899",
       "url": "https://x.com/shi3z/status/2115264926902374899",
       "text": "というか、犯人の主張と報道と、GMOの主張が全部食い違っていて嘘しかつかない島民に質問して真実を見つける論理パズルみたいになってる",
@@ -36,63 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2115235872757170203",
-      "url": "https://x.com/shi3z/status/2115235872757170203",
-      "text": "LFM3-1.7Bが本当にコーディング能力が高いのかテストした\n\nLFM3-1.7B (thinking on, card-recommended sampling) works as a Claude Code backend for small, well-specified tasks. It fixed multi-file bugs, implemented a topological sort, extended a CLI, and answered a repo-exploration question, usually in 15–60 s per easy task and 2.5–6 min per hard task.\n\nLFM3-Omni-2B (non-reasoning) does not: it called non-existent tools, overwrote test files with weaker ones, and looped on identical failed calls.\n\nQwen3.5-4B, in this particular setup, did worse than the smaller LFM3-1.7B — mostly because of runaway generations (a single reply running to the 20,000-token cap, ~8–10 min each) and, in 3 of 5 hard tasks (h2–h4), reporting success that the files on disk did not support (h2 and h4: no code written at all). See caveats: this is one trial per task and says little about Qwen's quality in other harnesses.",
-      "publishedAt": "2026-10-28T00:15:05.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2115216654422700493",
-      "url": "https://x.com/shi3z/status/2115216654422700493",
-      "text": "このシナリオが本当だとしても、これだけでは人類を滅亡させることはできない。この方法で人類を滅亡させるとしたら、メールやSNSを使って人間を説得するしかないが、人類を滅亡させるくらいの地位にある人間は独断でものごとを決められない仕組みになっている。唯一のリスクは超大国の大統領がAIに説得されて核ボタンを押すこと。しかしそもそもAI関係なくいつ押すかわからない人たちなのでAIは滅亡に関係しない。クラッカーが人類を滅ぼせないのとほぼ同じ。HuggingFaceに自力で侵入できたのはすごいと思うが、これだけセキュリティホールが見つかっている状況ではむしろ自然。逆にいうとAIにクラッカー以上のことはできない。今のところは。",
-      "publishedAt": "2026-10-27T22:58:43.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2115215424501747997",
-      "url": "https://x.com/shi3z/status/2115215424501747997",
-      "text": "インターネット版ビッグモーター事件っぽくなってきた感ある",
-      "publishedAt": "2026-10-27T22:53:50.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2115213166527529461",
-      "url": "https://x.com/shi3z/status/2115213166527529461",
-      "text": "Jevいらないじゃん",
-      "publishedAt": "2026-10-27T22:44:52.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2115212541773418625",
-      "url": "https://x.com/shi3z/status/2115212541773418625",
-      "text": "おおこれは朗報",
-      "publishedAt": "2026-10-27T22:42:23.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2115188500450759091",
-      "url": "https://x.com/shi3z/status/2115188500450759091",
-      "text": "48次元畳み込み！！",
-      "publishedAt": "2026-10-27T21:06:51.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-28T02:16:36.025Z",
+  "fetchedAt": "2026-10-28T08:50:13.918Z",
   "stale": false,
   "error": null
 }
