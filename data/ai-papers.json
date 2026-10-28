@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "37da53c4cc0a",
-      "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
-      "url": "https://huggingface.co/papers/2610.37381",
+      "id": "1d39b3e67d38",
+      "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
+      "url": "https://huggingface.co/papers/2610.35864",
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but th…",
-      "score": 102
-    },
-    {
-      "id": "468d3e420c62",
-      "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
-      "url": "https://huggingface.co/papers/2610.36077",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. Howev…",
-      "score": 101
+      "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rul…",
+      "score": 89
     },
     {
       "id": "92a4b048e18f",
@@ -27,7 +19,15 @@
       "url": "https://huggingface.co/papers/2610.37662",
       "publishedAt": "2026-10-27T00:00:00.000Z",
       "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multi…",
-      "score": 25
+      "score": 82
+    },
+    {
+      "id": "82f07f9c2daf",
+      "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+      "url": "https://huggingface.co/papers/2610.35013",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action …",
+      "score": 50
     },
     {
       "id": "fdd17d343ae5",
@@ -35,15 +35,23 @@
       "url": "https://huggingface.co/papers/2610.26030",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "summary": "Looped transformers reuse a shared block of layers to increase computational depth without increasing the number of tra…",
-      "score": 25
+      "score": 26
     },
     {
-      "id": "1d39b3e67d38",
-      "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
-      "url": "https://huggingface.co/papers/2610.35864",
+      "id": "54a39964bc17",
+      "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
+      "url": "https://huggingface.co/papers/2610.37037",
       "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rul…",
-      "score": 13
+      "summary": "Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal…",
+      "score": 19
+    },
+    {
+      "id": "8919cf815c92",
+      "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+      "url": "https://huggingface.co/papers/2610.35962",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of fron…",
+      "score": 11
     },
     {
       "id": "1d1ad0562f97",
@@ -54,20 +62,20 @@
       "score": 8
     },
     {
-      "id": "9ab911699b3f",
-      "title": "Your Policy Is Secretly a Harness: The Decision Geometry of Agent Interfaces",
-      "url": "https://huggingface.co/papers/2610.37255",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Language model agents are post-trained and deployed through a harness, the prompts, tools, and control logic that prese…",
-      "score": 6
+      "id": "dd2afd766686",
+      "title": "The Lexical Imprint of Pre-training Data",
+      "url": "https://huggingface.co/papers/2602.10657",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "How much of zero-shot benchmark accuracy is captured by word-level alignment between a pre-training corpus and the benc…",
+      "score": 7
     },
     {
-      "id": "1f3fa196902b",
-      "title": "Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation",
-      "url": "https://huggingface.co/papers/2610.34674",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Safe household navigation requires robots to regulate clearance and speed according to what an obstacle is and how clos…",
-      "score": 4
+      "id": "788ad124b93a",
+      "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+      "url": "https://huggingface.co/papers/2610.37364",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, a…",
+      "score": 6
     },
     {
       "id": "81336076056e",
@@ -75,34 +83,26 @@
       "url": "https://huggingface.co/papers/2610.37624",
       "publishedAt": "2026-10-27T00:00:00.000Z",
       "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory kee…",
-      "score": 1
+      "score": 4
     },
     {
-      "id": "8cbe1c29fd26",
-      "title": "MoveBench: A Rubric-Based Benchmark for Evaluating Large Language Models in Sports and Health Coaching",
-      "url": "https://huggingface.co/papers/2610.26185",
+      "id": "aefff850f4b8",
+      "title": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
+      "url": "https://huggingface.co/papers/2610.36082",
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Despite rapid advances in large language models (LLMs), their deployment in the sports and health domain remains high-r…",
+      "summary": "Financial institutions operating under data-residency constraints are restricted to open-weight models small enough to …",
       "score": 1
     },
     {
-      "id": "eca20315d58a",
-      "title": "MLE-World: Predicting Machine Learning Experiment Outcomes with a Learned World Model",
-      "url": "https://huggingface.co/papers/2610.37175",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "AI research agents can propose, execute, and improve programs that solve machine learning tasks. However, executing eac…",
+      "id": "9d8a1971b6ed",
+      "title": "T-DIG: Text-Conditioned Diversity for Image Generation",
+      "url": "https://huggingface.co/papers/2610.29003",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Text-to-image (T2I) platforms typically return several images per prompt so users can explore different visual interpre…",
       "score": 1
-    },
-    {
-      "id": "1447ac899900",
-      "title": "PhysEvolve: Verifier-grounded Self-evolution for Physical Reasoning with Executable Worlds",
-      "url": "https://huggingface.co/papers/2610.34921",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Physical reasoning underpins how embodied systems understand and act in the physical world, yet vision-language models …",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-28T08:49:55.097Z",
+  "fetchedAt": "2026-10-28T15:41:59.303Z",
   "stale": false,
   "error": null
 }

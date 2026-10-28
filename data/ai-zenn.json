@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "948054f80608",
-      "title": "定期実行タスクが「静かに失敗」しないための設計 — 検知と通知のメモ",
-      "url": "https://zenn.dev/dev_pjs/articles/8ce8b535b2bbd6",
-      "publishedAt": "2026-10-28T03:01:02.000Z",
-      "publisher": "Dev_PJS",
-      "summary": "定期実行（cron的なスケジュール実行）で一番まずいのは、派手なエラーではなく「静かな失敗」です。 実行されたが、結果が空だった 成功と記録されたが、対象がズレていた 通知が来ないので、誰も気づかないまま数日経った 私の環境では、エージェ…"
+      "id": "91d49483ade7",
+      "title": "スキャナーはコンテナへ、AIには承認を。OSSのASM基盤「OASM」の設計を読み解く",
+      "url": "https://zenn.dev/mizhm/articles/b9e9955b60c5bd",
+      "publishedAt": "2026-10-28T15:08:39.000Z",
+      "publisher": "Nguyen Tuan Minh",
+      "summary": "! 筆者は OASM の開発メンバーです。この記事では機能紹介よりも、「どう作っているか」「なぜそうしたか」を、実際のコードを引用しながら書きます。コードは執筆時点の main ブランチのものです。 なぜ「外から見える資産」なのか 警察庁…"
     },
     {
-      "id": "eaf5d0eea682",
-      "title": "学習中は、AIをVSCodeに入れないでください。web版をコピペで使うくらいがちょうどいいです",
-      "url": "https://zenn.dev/ahagate/articles/ae4dbb4393f750",
-      "publishedAt": "2026-10-28T02:58:49.000Z",
-      "publisher": "せいや＠エンジニア",
-      "summary": "「AIがあるから、もうプログラミングを学習しなくていいんじゃないの？」 最近、こういう質問をよく受けます。 僕の答えは、AIを使うために、基礎を押さえておく必要がある、です。 ただ、学習中にAIを使うな、という話ではないんですね。 使い方…"
+      "id": "5beefedabe27",
+      "title": "AIは私の「証明されました」を疑わなかった ── 統計の素人が、AIと一緒に仮説を殺すまで",
+      "url": "https://zenn.dev/charat55/articles/ai-auditor-keiba",
+      "publishedAt": "2026-10-28T15:03:19.000Z",
+      "publisher": "こくら",
+      "summary": "はじめに 前回の記事「競馬AIを作り込んだら、市場の粗いコピーになった」で、私は次のことを書いた。 当日の確定オッズに対して、お金になる情報は見つからなかった。 途中でエッジに見えるものが何度も現れ、検証するたびに消えていった。 この記事…"
     },
     {
-      "id": "a2f91527d228",
-      "title": "AIピックが2日連続0件、でも判定は正しかった🕳️ 複数ランキングを連結して切ると母集団が偏る話",
-      "url": "https://zenn.dev/charge0315/articles/6db1ce65ab98e0",
-      "publishedAt": "2026-10-28T02:49:21.000Z",
-      "publisher": "八咫烏（やたがらす）",
-      "summary": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第28話です。 中長期のAIピックが、2日続けて0件でした🫥 調べてみると、AIの判定は正しかった。おかしかったのは、AIに渡す前の「候補の集め方」のほうでした。 日本株のA…"
+      "id": "a00a108cd3dc",
+      "title": "LLMの「迎合」とハルシネーションはなぜ起きるのか？：整合性を求めるシステム設計の限界とデバッグに関する考察",
+      "url": "https://zenn.dev/izu_moon/articles/98f46d6c0ea1be",
+      "publishedAt": "2026-10-28T14:51:35.000Z",
+      "publisher": "Iz",
+      "summary": "『不確実性の海図：LLMの深層構造と、迎合から整合性へのデバッグ』(The Chart of Uncertainty: The Deep Structure of LLMs and the Debugging from Appeaseme…"
     },
     {
-      "id": "ebe50cae4a42",
-      "title": "AIに「片付けて」と丸投げしたら、フォルダの外が消えたのは12回中0回。許可フラグを外しても rm -r は通った",
-      "url": "https://zenn.dev/numarn/articles/agent-cleanup-delete-scope-handson",
-      "publishedAt": "2026-10-28T02:34:56.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "きっかけは「AIエージェントが別のAIエージェントのホームフォルダをまるごと削除した」という X の投稿でした。 その事件そのものは、こちらから再現する道がありません。どんな環境で、何がどう消えたのかを確かめる手段が無いので、 この記事で…"
+      "id": "fad1d40d38c6",
+      "title": "CLAUDE.md が長くなった時の分け方と、AGENTS.md との二重管理の直し方",
+      "url": "https://zenn.dev/atasino/articles/efa9fb306b6ad0",
+      "publishedAt": "2026-10-28T14:35:02.000Z",
+      "publisher": "Tomoaki Fujimura / Atasino CEO",
+      "summary": "Claude Code の公式ドキュメントには、CLAUDE.md は 1 ファイル 200 行未満を目標にする、と書いてあります。では 200 行を超えた分は、どこへ出すのか。Codex と併用していて AGENTS.md も持っている…"
     },
     {
-      "id": "28e010e8c97d",
-      "title": "同じトレード戦略をAIでAlpacaとQuantConnect向けコードに変換して比較してみる",
-      "url": "https://zenn.dev/easyquant/articles/ee87828c48ed7d",
-      "publishedAt": "2026-10-28T02:23:05.000Z",
-      "publisher": "easyquant",
-      "summary": "同じ売買ロジックでも、利用するプラットフォームによって実装は大きく変わります。 今回試す戦略は、 EMA20 / EMA50 crossover RSI filter ATR stop loss です。 これをAIに与えて、 Alpaca…"
+      "id": "d07cf1b251ac",
+      "title": "ダウンロードフォルダで Claude Code や Codex を起動してはいけないのはなぜ？",
+      "url": "https://zenn.dev/takuh/articles/d4148e707a18a5",
+      "publishedAt": "2026-10-28T14:23:16.000Z",
+      "publisher": "takuh",
+      "summary": "「ダウンロードしたファイルの整理や zip の展開を、AI に任せたい」と思ったことはありませんか。ターミナルで cd ~/Downloads と移動して Claude Code や Codex を起動すれば、すぐに頼めます。便利ですが、…"
     },
     {
-      "id": "fae91a0bded2",
-      "title": "自然言語からTradingViewのPine Scriptを生成してみる",
-      "url": "https://zenn.dev/easyquant/articles/da7bded17715d4",
-      "publishedAt": "2026-10-28T02:22:05.000Z",
-      "publisher": "easyquant",
-      "summary": "自然言語からTradingViewのPine Scriptを生成してみる TradingViewで戦略を思いついたとき、意外と時間がかかるのが最初の実装です。 例えば、 EMA20がEMA50を上抜け RSIが60未満 2ATRで損切り …"
+      "id": "3e5a80105b23",
+      "title": "AIエージェント用ネット接続ツールAgent-Reachを実機で検証した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-029-agent-reach-login-free-channels",
+      "publishedAt": "2026-10-28T14:12:04.000Z",
+      "publisher": "matsu",
+      "summary": "AIエージェントにログイン不要でWeb/GitHub/YouTube/Bilibili/V2EXへのアクセスを与えるCLI「Agent-Reach」(MIT、Panniantong)を実際にインストールし、ログイン不要チャンネルの動作、素…"
     },
     {
-      "id": "88cff67f86b1",
-      "title": "今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-20-tech-daily",
-      "publishedAt": "2026-10-28T02:21:20.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 本日の技術トレンドでは、エンタープライズ市場における「自己改善・自己進化型AIエージェント」の実用化ラッシュと、OpenAIによるPythonツール開発元Astralの買収に伴う開発環境の再編が大きな焦点となっています。また、AIモデ…"
+      "id": "38a91a199065",
+      "title": "AIエージェントの「単一ループ」と「有向グラフ」でコストと速度はどう変わるか？実機サンドボックスでA/B比較検証してみた",
+      "url": "https://zenn.dev/tappers/articles/ai-labo-e04-loops-vs-graphs",
+      "publishedAt": "2026-10-28T14:08:20.000Z",
+      "publisher": "tappers",
+      "summary": "! 本記事は、X（旧Twitter）上の @hanakoxbt 氏の投稿（\"Loops and Graphs: how to stop babysitting agents and only approve the last step\"）…"
     },
     {
-      "id": "d999b1b7b2e0",
-      "title": "「あと一歩」の作業BGMを、作り直さず寄せてみた",
-      "url": "https://zenn.dev/jessica1007/articles/7f8d36a38399bc",
-      "publishedAt": "2026-10-28T02:19:04.000Z",
-      "publisher": "Jessica AI",
-      "summary": "作業用の短いトラックを自分で用意するようになって、しばらく経ちました。最初のうちは毎回ゼロからプロンプトを書いていたのですが、ある夜「前に作った曲、テンポはいいのに明るすぎる」と気づいて手が止まりました。捨てるのはもったいないし、最初から…"
+      "id": "ffd0bfe3c359",
+      "title": "SNSで話題のAIエージェント設計論を片っ端から実機A/B検証してわかった「トークン90%削減・品質100%」の黄金パターン総集編",
+      "url": "https://zenn.dev/tappers/articles/ai-labo-agent-harness-patterns-omnibus",
+      "publishedAt": "2026-10-28T14:08:19.000Z",
+      "publisher": "tappers",
+      "summary": "! 🔄 本記事は随時更新される「生きたベンチマーク総集編（Living Benchmark Index）」です（最終更新: 2026-10-28 / 実機検証完了: 21件 / 個別レポート公開中: 1件） X（旧Twitter）やTh…"
     },
     {
-      "id": "19efbab33dce",
-      "title": "サブエージェント、増やせば賢くなる？：公式キットで監査・比較と識者の見方",
-      "url": "https://zenn.dev/zundamon_tools/articles/claude-subagent-fold",
-      "publishedAt": "2026-10-28T02:13:37.000Z",
-      "publisher": "ずんだもんの実験道具箱",
-      "summary": "サブエージェントは、増やすほどエージェントを賢くするのか。この記事は、その考え方を揃えるための記事です。 サブエージェントは、自分のコンテキスト・ツール・指示を持つ別のエージェントです。Claude Code なら .claude/age…"
+      "id": "816f2c4d6368",
+      "title": "認証認可をゼロから学ぶ #1 ロードマップと、パスキーがパスワードより安全な理由",
+      "url": "https://zenn.dev/monkey_gineer/articles/auth-study-01-roadmap-and-passkeys",
+      "publishedAt": "2026-10-28T13:33:15.000Z",
+      "publisher": "monkey-gineer",
+      "summary": "1. この連載について AIプロダクトを作っていると、必ずこんな場面に出会います。 AIエージェントが、社員の代わりに社内システムを操作する AIが、ユーザーごとに見てよい資料だけを検索して答える AIが、送金や削除のような取り返しのつか…"
     },
     {
-      "id": "66a835b2fc48",
-      "title": "OpenAI 互換 API で Structured Outputs を使う：JSON Schema 実践ガイド",
-      "url": "https://zenn.dev/modelflare_dev/articles/da010b921b8b68",
-      "publishedAt": "2026-10-28T02:03:03.000Z",
-      "publisher": "ModelFlare",
-      "summary": "この記事は Modelflare ブログ の英語記事を翻訳・再構成したものです。 Responses API と Chat Completions における strict な JSON Schema 出力を、フィールド単位で解説します。検…"
+      "id": "e73434130bab",
+      "title": "Claude Code に、経緯を覚えている「専属バトラー」を作る",
+      "url": "https://zenn.dev/sarukani/articles/claude-code-butler-memory",
+      "publishedAt": "2026-10-28T13:32:59.000Z",
+      "publisher": "さるかに",
+      "summary": "この記事でできること Claude Code を、セッションや PC が変わっても、それまでの経緯を覚えたまま相談に乗ってくれる「専属バトラー」 にします。 使うのは Claude Code の標準機能（CLAUDE.md・サブエージェン…"
     },
     {
-      "id": "9e7777bb26ba",
-      "title": "Codex Day 22：GPT-6.1 Terraを徹底解説｜性能・API料金・Computer Use",
-      "url": "https://zenn.dev/sponge841841/articles/2026-10-27-codex-day22-gpt61-terra",
-      "publishedAt": "2026-10-28T01:09:12.000Z",
-      "publisher": "ちっち",
-      "summary": "2026年10月27日（日本時間）、OpenAIの28日間アップデートDay 22として「GPT-6.1 Terra」が発表されました。 画面の内容を理解してアプリを操作するComputer Use、画像・図面の理解、自然な文章作成を得意…"
+      "id": "cca05752806b",
+      "title": "ハルシネーションとはどういうものと考えるべきか？",
+      "url": "https://zenn.dev/pdfractal/articles/510885eef84b4f",
+      "publishedAt": "2026-10-28T13:17:58.000Z",
+      "publisher": "pdfractal",
+      "summary": "はじめに 生成AIのハルシネーションを論じる際には、現象の定義と技術の発達段階を区別する必要があります。2023年頃の大規模言語モデルでは、知らないことにも回答を作り、存在しない事実をもっともらしく説明する振る舞いが目立ちました。しかし、…"
     },
     {
-      "id": "d2d918b6c53a",
-      "title": "Codex Day 21徹底解説：2日連続リセットと反映状況・使用量の確認方法",
-      "url": "https://zenn.dev/sponge841841/articles/2026-10-26-codex-day21-global-reset",
-      "publishedAt": "2026-10-28T01:09:11.000Z",
-      "publisher": "ちっち",
-      "summary": "2026年10月26日（月）、OpenAIの「28日間アップデート」Day 21で、新たなCodex / ChatGPT Workの利用枠リセットが宣言されました。 前日のDay 20に続く2日連続のリセット発表です。 Day 21のTi…"
+      "id": "dd0979c4ead9",
+      "title": "自作の Claude Code 安全ガードを、第三者のテスト集（89件）で測ったら、すり抜けが見つかった",
+      "url": "https://zenn.dev/extrahand_co_ai/articles/17dcd8c72800c5",
+      "publishedAt": "2026-10-28T13:16:30.000Z",
+      "publisher": "Extra Hand",
+      "summary": "! この記事で分かること 自作の安全ガード（Claude Code の PreToolUse hook）を、第三者のテスト集 shell-guard-bench（89件）で測った結果 自分のテストは全部合格していたのに、わざと隠した書き方…"
     }
   ],
-  "fetchedAt": "2026-10-28T08:49:55.204Z",
+  "fetchedAt": "2026-10-28T15:41:59.963Z",
   "stale": false,
   "error": null
 }
