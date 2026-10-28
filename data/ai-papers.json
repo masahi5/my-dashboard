@@ -6,44 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "1d39b3e67d38",
-      "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
-      "url": "https://huggingface.co/papers/2610.35864",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rul…",
-      "score": 89
-    },
-    {
-      "id": "92a4b048e18f",
-      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
-      "url": "https://huggingface.co/papers/2610.37662",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multi…",
-      "score": 82
-    },
-    {
       "id": "82f07f9c2daf",
       "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
       "url": "https://huggingface.co/papers/2610.35013",
       "publishedAt": "2026-10-26T00:00:00.000Z",
       "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action …",
-      "score": 50
-    },
-    {
-      "id": "fdd17d343ae5",
-      "title": "Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation",
-      "url": "https://huggingface.co/papers/2610.26030",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "summary": "Looped transformers reuse a shared block of layers to increase computational depth without increasing the number of tra…",
-      "score": 26
-    },
-    {
-      "id": "54a39964bc17",
-      "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
-      "url": "https://huggingface.co/papers/2610.37037",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal…",
-      "score": 19
+      "score": 316
     },
     {
       "id": "8919cf815c92",
@@ -51,15 +19,23 @@
       "url": "https://huggingface.co/papers/2610.35962",
       "publishedAt": "2026-10-25T00:00:00.000Z",
       "summary": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of fron…",
+      "score": 12
+    },
+    {
+      "id": "788ad124b93a",
+      "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+      "url": "https://huggingface.co/papers/2610.37364",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, a…",
       "score": 11
     },
     {
-      "id": "1d1ad0562f97",
-      "title": "RynnWorld-Latent: A Cross-Embodiment World Model Conditioned on Universal Latent Actions",
-      "url": "https://huggingface.co/papers/2610.36791",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Learning controllable world dynamics from heterogeneous interaction videos is challenging because robot embodiments use…",
-      "score": 8
+      "id": "bd22b9eb1f81",
+      "title": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
+      "url": "https://huggingface.co/papers/2610.36192",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Learning velocity fields directly in pixel space is difficult and slow. We show that coarse second-order image statisti…",
+      "score": 9
     },
     {
       "id": "dd2afd766686",
@@ -70,27 +46,35 @@
       "score": 7
     },
     {
-      "id": "788ad124b93a",
-      "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
-      "url": "https://huggingface.co/papers/2610.37364",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, a…",
-      "score": 6
-    },
-    {
-      "id": "81336076056e",
-      "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
-      "url": "https://huggingface.co/papers/2610.37624",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory kee…",
-      "score": 4
-    },
-    {
       "id": "aefff850f4b8",
       "title": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
       "url": "https://huggingface.co/papers/2610.36082",
       "publishedAt": "2026-10-26T00:00:00.000Z",
       "summary": "Financial institutions operating under data-residency constraints are restricted to open-weight models small enough to …",
+      "score": 3
+    },
+    {
+      "id": "f548fc33c270",
+      "title": "What Outcome RL Buys: Finishing, Reliability, Rarely Reach",
+      "url": "https://huggingface.co/papers/2610.34894",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Outcome RL raises pass@1 but not pass@k at large k (Yue et al., 2025). But every pass@1 is scored under a token budget.…",
+      "score": 2
+    },
+    {
+      "id": "5d5eb49ced4b",
+      "title": "AlphaBet: Reinforcement Learning for LLM Event Forecasting Agents",
+      "url": "https://huggingface.co/papers/2610.22684",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Forecasting an unresolved event requires finding relevant evidence and deciding how strongly it supports each outcome. …",
+      "score": 1
+    },
+    {
+      "id": "037cc2d4aeca",
+      "title": "Sub-monolayer tracking of molecular states at buried interfaces",
+      "url": "https://huggingface.co/papers/2610.31924",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "Phenomena responsible for emerging technologies originate from novel molecular states at buried interfaces. Yet quantit…",
       "score": 1
     },
     {
@@ -100,9 +84,25 @@
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "summary": "Text-to-image (T2I) platforms typically return several images per prompt so users can explore different visual interpre…",
       "score": 1
+    },
+    {
+      "id": "48a7e0e29bbc",
+      "title": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
+      "url": "https://huggingface.co/papers/2509.05512",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion…",
+      "score": 0
+    },
+    {
+      "id": "bba5c26f04f1",
+      "title": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
+      "url": "https://huggingface.co/papers/2610.36184",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Bengali, spoken by over 230 million people, remains severely under-resourced in spoken language research. Existing open…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-10-28T15:41:59.303Z",
+  "fetchedAt": "2026-10-28T20:34:34.568Z",
   "stale": false,
   "error": null
 }
