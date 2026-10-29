@@ -11,15 +11,7 @@
       "url": "https://huggingface.co/papers/2610.35013",
       "publishedAt": "2026-10-26T00:00:00.000Z",
       "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action …",
-      "score": 316
-    },
-    {
-      "id": "8919cf815c92",
-      "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
-      "url": "https://huggingface.co/papers/2610.35962",
-      "publishedAt": "2026-10-25T00:00:00.000Z",
-      "summary": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of fron…",
-      "score": 12
+      "score": 372
     },
     {
       "id": "788ad124b93a",
@@ -27,7 +19,15 @@
       "url": "https://huggingface.co/papers/2610.37364",
       "publishedAt": "2026-10-27T00:00:00.000Z",
       "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, a…",
-      "score": 11
+      "score": 17
+    },
+    {
+      "id": "8919cf815c92",
+      "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+      "url": "https://huggingface.co/papers/2610.35962",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of fron…",
+      "score": 13
     },
     {
       "id": "bd22b9eb1f81",
@@ -38,12 +38,12 @@
       "score": 9
     },
     {
-      "id": "dd2afd766686",
-      "title": "The Lexical Imprint of Pre-training Data",
-      "url": "https://huggingface.co/papers/2602.10657",
+      "id": "f548fc33c270",
+      "title": "What Outcome RL Buys: Finishing, Reliability, Rarely Reach",
+      "url": "https://huggingface.co/papers/2610.34894",
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "How much of zero-shot benchmark accuracy is captured by word-level alignment between a pre-training corpus and the benc…",
-      "score": 7
+      "summary": "Outcome RL raises pass@1 but not pass@k at large k (Yue et al., 2025). But every pass@1 is scored under a token budget.…",
+      "score": 3
     },
     {
       "id": "aefff850f4b8",
@@ -54,12 +54,28 @@
       "score": 3
     },
     {
-      "id": "f548fc33c270",
-      "title": "What Outcome RL Buys: Finishing, Reliability, Rarely Reach",
-      "url": "https://huggingface.co/papers/2610.34894",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Outcome RL raises pass@1 but not pass@k at large k (Yue et al., 2025). But every pass@1 is scored under a token budget.…",
+      "id": "037cc2d4aeca",
+      "title": "Sub-monolayer tracking of molecular states at buried interfaces",
+      "url": "https://huggingface.co/papers/2610.31924",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "Phenomena responsible for emerging technologies originate from novel molecular states at buried interfaces. Yet quantit…",
       "score": 2
+    },
+    {
+      "id": "4f8f256f8edd",
+      "title": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
+      "url": "https://huggingface.co/papers/2610.30435",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "summary": "Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesiz…",
+      "score": 1
+    },
+    {
+      "id": "48a7e0e29bbc",
+      "title": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
+      "url": "https://huggingface.co/papers/2509.05512",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion…",
+      "score": 1
     },
     {
       "id": "5d5eb49ced4b",
@@ -67,14 +83,6 @@
       "url": "https://huggingface.co/papers/2610.22684",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Forecasting an unresolved event requires finding relevant evidence and deciding how strongly it supports each outcome. …",
-      "score": 1
-    },
-    {
-      "id": "037cc2d4aeca",
-      "title": "Sub-monolayer tracking of molecular states at buried interfaces",
-      "url": "https://huggingface.co/papers/2610.31924",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Phenomena responsible for emerging technologies originate from novel molecular states at buried interfaces. Yet quantit…",
       "score": 1
     },
     {
@@ -86,14 +94,6 @@
       "score": 1
     },
     {
-      "id": "48a7e0e29bbc",
-      "title": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
-      "url": "https://huggingface.co/papers/2509.05512",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion…",
-      "score": 0
-    },
-    {
       "id": "bba5c26f04f1",
       "title": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
       "url": "https://huggingface.co/papers/2610.36184",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-28T20:34:34.568Z",
+  "fetchedAt": "2026-10-29T00:25:16.708Z",
   "stale": false,
   "error": null
 }
