@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "f726aed5c1e3",
-      "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.35201",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and…",
-      "score": 256
-    },
-    {
       "id": "db94e00037f6",
       "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
       "url": "https://huggingface.co/papers/2610.32749",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, curr…",
-      "score": 146
+      "score": 147
     },
     {
       "id": "00e0709836fa",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2610.35684",
       "publishedAt": "2026-10-26T00:00:00.000Z",
       "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surface…",
-      "score": 37
+      "score": 41
     },
     {
       "id": "84c15460f3b4",
@@ -35,23 +27,7 @@
       "url": "https://huggingface.co/papers/2610.31670",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "summary": "Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxie…",
-      "score": 33
-    },
-    {
-      "id": "a91bfc2fb4a6",
-      "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
-      "url": "https://huggingface.co/papers/2610.37230",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this sc…",
-      "score": 13
-    },
-    {
-      "id": "23a9a116ba84",
-      "title": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
-      "url": "https://huggingface.co/papers/2610.30161",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "summary": "Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could re…",
-      "score": 7
+      "score": 20
     },
     {
       "id": "8843833c7580",
@@ -59,6 +35,30 @@
       "url": "https://huggingface.co/papers/2610.22507",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "summary": "Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume th…",
+      "score": 15
+    },
+    {
+      "id": "a91bfc2fb4a6",
+      "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+      "url": "https://huggingface.co/papers/2610.37230",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this sc…",
+      "score": 15
+    },
+    {
+      "id": "23a9a116ba84",
+      "title": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
+      "url": "https://huggingface.co/papers/2610.30161",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could re…",
+      "score": 9
+    },
+    {
+      "id": "9f6f6e1c00f0",
+      "title": "Amortizing Sequential Experimental Design in Reasoning LLMs",
+      "url": "https://huggingface.co/papers/2610.20832",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle …",
       "score": 4
     },
     {
@@ -67,7 +67,15 @@
       "url": "https://huggingface.co/papers/2610.30132",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs…",
-      "score": 1
+      "score": 3
+    },
+    {
+      "id": "15231a2fa043",
+      "title": "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
+      "url": "https://huggingface.co/papers/2610.35671",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical …",
+      "score": 2
     },
     {
       "id": "e1a01526c502",
@@ -75,7 +83,7 @@
       "url": "https://huggingface.co/papers/2610.29702",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "summary": "Multimodal large language models (MLLMs) show promising reasoning capabilities, but reliable physical interaction requi…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "f4c8fd660cf7",
@@ -83,14 +91,6 @@
       "url": "https://huggingface.co/papers/2610.34186",
       "publishedAt": "2026-10-25T00:00:00.000Z",
       "summary": "Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse d…",
-      "score": 1
-    },
-    {
-      "id": "15dfe1fb154b",
-      "title": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
-      "url": "https://huggingface.co/papers/2610.33245",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Data science agents can automate end-to-end machine learning workflows, yet they remain far from competitive on human l…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-29T12:58:18.600Z",
+  "fetchedAt": "2026-10-29T18:51:28.782Z",
   "stale": false,
   "error": null
 }

@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c2dcc0a21e91",
-      "title": "三値量子化モデルの重みは直接編集できるか？AIエージェントと進めた3段階の検証実験",
-      "url": "https://zenn.dev/yuu7/articles/ternary-quant-edit-exp084-086",
-      "publishedAt": "2026-10-29T04:02:40.000Z",
-      "publisher": "Yuu",
-      "summary": "重みが -1, 0, +1 の3値に量子化された言語モデルに対して、BF16 などの浮動小数点へ戻さずに、量子化されたコードのまま特定の挙動（過剰な拒否応答や出力言語の傾向など）を書き換えられるのでしょうか。この疑問を確かめるため、AIコ…"
+      "id": "df8e187d2793",
+      "title": "AIエージェントの二重実行を止める「冪等性キー」の最小実装",
+      "url": "https://zenn.dev/growl/articles/d7dafe774009b7",
+      "publishedAt": "2026-10-29T13:08:03.000Z",
+      "publisher": "Nao",
+      "summary": "なぜ二重実行は起きるのか AIエージェントに「メールを送る」「請求を作る」のような副作用のある処理を任せると、通信のリトライやタイムアウトの再実行で、同じ処理が2回走ることがあります。人間が画面で見ている分には気づけますが、エージェントの…"
     },
     {
-      "id": "9bcdbae4456c",
-      "title": "Haiku 5.5 と Sonnet に同じ報告を5回ずつ書かせたら、安い方が5回とも正しかった",
-      "url": "https://zenn.dev/marunage_kacho/articles/ai-trial-haiku55",
-      "publishedAt": "2026-10-29T04:01:36.000Z",
-      "publisher": "丸投げ課長",
-      "summary": "先週、Claude Code で Haiku 5.5 が使えるようになった日に、Sonnet と同じ仕事をさせて「安い方が正確だった」と X に書きました。 1回だけの話だったので、ちょっと気持ち悪くて...今日、5回ずつやり直しました。…"
+      "id": "18e4b8ed3ba5",
+      "title": "【AWS】AI にインフラを把握させるため、手作業で作った環境を CDK 化した",
+      "url": "https://zenn.dev/linkedge/articles/0c14017ab7446c",
+      "publishedAt": "2026-10-29T12:41:20.000Z",
+      "publisher": "RyoyaOkuma",
+      "summary": "はじめに 私は普段から Claude Code を使って開発しています。 リポジトリにあるコードを読んで、既存の実装に沿ったコードを書いてくれるので、とても助かっています。 しかし、個人開発しているアプリでは、AI が書くコードが、実際の…"
     },
     {
-      "id": "c14fe08d8913",
-      "title": "AIでOpenWrtはどこまで移植できるのか。SoftBank Air Terminal 6から見えた「実装」と「検証」の境界",
-      "url": "https://zenn.dev/kuroneko22/articles/bc3632fd0f770a",
-      "publishedAt": "2026-10-29T03:50:04.000Z",
-      "publisher": "Karin",
-      "summary": "はじめに 2026年10月、SoftBank Air ターミナル6へのOpenWrt移植を始めました。 対象機種はMediaTek MT6990を搭載した、5G通信機能を持つホームルーターです。一般に配布されているOpenWrtの対応機種…"
+      "id": "0ca063d161c5",
+      "title": "OBSでハロウィンのAI顔交換が映らないとき、入力と出力を切り分ける",
+      "url": "https://zenn.dev/ellafisherwrite/articles/f9ec3f62092cf3",
+      "publishedAt": "2026-10-29T12:36:18.000Z",
+      "publisher": "Ella Fisher",
+      "summary": "吸血鬼の顔はデスクトップ側に出ているのに、OBSにはいつもの自分が映る。ここで顔の素材を選び直しても、映像の受け渡しが原因なら直りません。 見る順番は、加工済みの画面 → 仮想カメラ → OBSの映像キャプチャデバイスです。どこまで同じ顔…"
     },
     {
-      "id": "e01bccb78708",
-      "title": "Codex Day 24解説：DotsにiMessage・RCSで依頼！設定・安全性・利用条件",
-      "url": "https://zenn.dev/sponge841841/articles/2026-10-29-codex-day24-dots-texting",
-      "publishedAt": "2026-10-29T03:41:16.000Z",
-      "publisher": "ちっち",
-      "summary": "2026年10月29日（日本時間）、OpenAIの28日間アップデートDay 24として、パーソナルAIエージェント「Dots」とiMessage・RCSでメッセージを交換する新機能「Texting your dot」が発表されました。 …"
+      "id": "ed68ccaee15e",
+      "title": "ITニュースの情報収集に迷走した末、Claude+Gmailで「朝刊・夕刊」を自動配信するようにした話",
+      "url": "https://zenn.dev/spring1293/articles/2918fcd8518bb3",
+      "publishedAt": "2026-10-29T12:27:20.000Z",
+      "publisher": "spring1293",
+      "summary": "! この記事の要点 ITニュースを追いきれず、X・YouTube・自作サイトと試して、3回挫折しました 共通していた原因は「自分から取りに行く必要がある」ことと「時間を拘束される」ことでした 最終的に、Claudeのスケジュールタスク+G…"
     },
     {
-      "id": "5f63d797a477",
-      "title": "失敗した工程から再開できるチェックポイントの作り方",
-      "url": "https://zenn.dev/neoru/articles/38abd78007dace",
-      "publishedAt": "2026-10-29T03:32:20.000Z",
-      "publisher": "NEORU｜AI Business OS",
-      "summary": "自動化は、最初から最後まで一度で成功するとは限りません。 外部サービスが一時的に読めない。途中の検証で矛盾が見つかる。人の承認が必要になり、その場で止まる。こうした中断は、長い工程ほど起こりやすくなります。 問題は、止まることそのものでは…"
+      "id": "4959d5d1ac94",
+      "title": "AIへの指示、「いつもの一言」を変えるだけで精度が上がる理由",
+      "url": "https://zenn.dev/sunsun_eng/articles/improve-ai-prompt-precision-tips",
+      "publishedAt": "2026-10-29T11:49:04.000Z",
+      "publisher": "すんすん",
+      "summary": "AIへの指示、「いつもの一言」を変えるだけで精度が上がる理由 Claude CodeやChatGPTに「いい感じにして」「これ直しておいて」とだけ伝えて、思っていたのと違う出力が返ってきた経験はないでしょうか。原因は多くの場合、AIの性能…"
     },
     {
-      "id": "fa1fc458ed14",
-      "title": "v2.1.312 で直ったのは skills の方：Bash で cd すると許可ルールが外れる話は仕様のまま",
-      "url": "https://zenn.dev/norman6464/articles/claude-code-cd-fix-skills-not-permissions",
-      "publishedAt": "2026-10-29T03:28:12.000Z",
-      "publisher": "tekuteku",
-      "summary": "claude -p を --allowedTools \"Edit(articles/**)\" のような相対パスの許可ルールで無人運用している人向けの記事です。2026-10-27 の Claude Code v2.1.312 の修正一覧に…"
+      "id": "3f13ae33bbff",
+      "title": "コーディング AI の導入を判断する情報セキュリティ担当者のための参考書",
+      "url": "https://zenn.dev/mika_and_coco/books/coding-ai-infosec-guide",
+      "publishedAt": "2026-10-29T11:40:46.000Z",
+      "publisher": "みか あんど ここ",
+      "summary": "Claude Code などのコーディング AI に、社内のコードや顧客の資料を読ませてよいか。コーディング AI の導入を判断する情報セキュリティ担当者に向けて、何が送られ、送った先でどう扱われ、どこで処理されるかを公式資料で確かめ、法…"
     },
     {
-      "id": "c09f9fb97ba2",
-      "title": "Metaの企業向けAI事業を振り返る――エージェント・APIと導入判断の境界",
-      "url": "https://zenn.dev/humanos_lab/articles/d1d6ead5d78b23",
-      "publishedAt": "2026-10-29T03:20:35.000Z",
-      "publisher": "シン@AI統制＆マルチエージェント",
-      "summary": "Metaは2026年9月28日、企業向けAI事業「Meta Enterprise Platform」の始動を発表しました。エージェント、API、開発支援を企業・開発者へ届ける方針です。[1] AIを仕事に組み込む人にとって、選択肢が広がる…"
+      "id": "616b7714bc3b",
+      "title": "AI にデバッグ用の機能を書かせても、脆弱性にしないために",
+      "url": "https://zenn.dev/yasuakiomokawa/articles/5a7188483acfe7",
+      "publishedAt": "2026-10-29T11:30:33.000Z",
+      "publisher": "Yasuaki Omokawa",
+      "summary": "サマリー デバッグAPIを本番にビルドしない構成にすることで、安全と利便性を両立させました。構成要素は以下のとおりです： 本番のコードは、自分が本番かどうかを知りません。環境変数で振る舞いを変える分岐を持ちません 本番は開発用のディレクト…"
     },
     {
-      "id": "7fa18dfc1377",
-      "title": "Windows と Mac の Claude Code どうしで文脈を受け渡す — クラウドなしの共有メモ MCP「jige」",
-      "url": "https://zenn.dev/actuallyworks/articles/78d66a4417d130",
-      "publishedAt": "2026-10-29T03:19:19.000Z",
-      "publisher": "ActuallyWorks",
-      "summary": "この記事は、jige を開発している ActuallyWorks（韓国のソフトウェア会社）が書いています。自社ツールの紹介を含みます。 困っていたこと：PC ごとに AI の記憶が分かれる Windows の PC と Mac の両方で …"
+      "id": "cc0246bbed89",
+      "title": "Keep the motion, change the cast: a motion-transfer video workflow",
+      "url": "https://zenn.dev/vulcanfeynman/articles/7d5c4d36e6c08c",
+      "publishedAt": "2026-10-29T10:55:51.000Z",
+      "publisher": "VulcanFeynman",
+      "summary": "Keep the motion, change the cast: a motion-transfer video workflow Sometimes the hard part of a video is already solved…"
     },
     {
-      "id": "e820be8c70d8",
-      "title": "Claude Codeを褒めちぎってみた",
-      "url": "https://zenn.dev/devlog/articles/abc194ecf04dfc",
-      "publishedAt": "2026-10-29T03:00:07.000Z",
-      "publisher": "Sato Kotaro",
-      "summary": "Claude Codeに「君は本当に素晴らしい」と伝えたら、私が過去にやらかした失敗のリストが3件返ってきました。 そのときの会話を、流れを変えずに短く整えて載せます。引用の形にした私の発言2か所だけは、原文そのままです。 褒めた その日…"
+      "id": "f7afee92d4fc",
+      "title": "MCP のエラーは2種類：プロトコルエラーと isError の使い分け",
+      "url": "https://zenn.dev/sakinisen/articles/132a56c40f9aab",
+      "publishedAt": "2026-10-29T10:27:15.000Z",
+      "publisher": "先に線を引く",
+      "summary": "MCP（Model Context Protocol）のサーバーを作ると、最初につまずくのが「エラーをどう返すか」です。仕様には失敗の返し方が2種類あり、混ぜるとモデルが自分で直せなくなります。この記事では、公式仕様（2026-07-28…"
     },
     {
-      "id": "b1561a5b68cc",
-      "title": "AIの「やりました」を信じるのをやめた日。人間側の完了チェックリスト",
-      "url": "https://zenn.dev/tokium_dev/articles/ai-agent-report-completion-criteria",
-      "publishedAt": "2026-10-29T03:00:06.000Z",
-      "publisher": "マーガリン",
-      "summary": "AIの「やりました」の報告の後、何を見ていますか Claude CodeやCodexなどのAIコーディングエージェントに作業を任せると、最後に「完了しました。テストも通っています」という報告が返ってきます。僕はそこからdiffを読んだあと…"
+      "id": "6e0764234f7e",
+      "title": "Claude Code の PowerShell で日本語が文字化けする原因と直し方：Windows の Get-Content",
+      "url": "https://zenn.dev/tamao825/articles/claude-code-powershell-mojibake-get-set-content",
+      "publishedAt": "2026-10-29T10:00:05.000Z",
+      "publisher": "tamao",
+      "summary": "Windows の Claude Code の PowerShell ツール（Windows PowerShell 5.1）で、読んだファイルの日本語が化けた、書き換えさせたファイルが壊れた、というときは、Get-Content・Set-…"
     },
     {
-      "id": "561e05085d0b",
-      "title": "GitHub Universe 2026 Day 1総まとめ。開発者が押さえておきたい新機能18選",
-      "url": "https://zenn.dev/jtcc/articles/github-universe-2026-day1-summary",
-      "publishedAt": "2026-10-29T02:37:14.000Z",
-      "publisher": "dsk310",
-      "summary": "こんにちは。日本トレカセンターの佐藤です。 2026 年 10 月 28 日（米国時間）に開催された GitHub Universe 2026 Day 1 では、数多くの新機能が発表されました。 Copilot や GitHub Acti…"
+      "id": "add60d876198",
+      "title": "prompt-recipeを直してv0.3.0にした話 — Grok Botで設計して、Codexに書かせてみた",
+      "url": "https://zenn.dev/mt4110/articles/prompt-recipe-ux-grokbot-codex",
+      "publishedAt": "2026-10-29T09:45:39.000Z",
+      "publisher": "mt4110",
+      "summary": "この記事の対象読者と伝えたいこと 対象読者 個人開発でアプリを作ったのに、気づいたら自分でも使っていない人 AIエージェントに「設計・評価」と「実装」を分けて任せると、どこまで進むのか知りたい人 プロンプトをAIに貼る前に、APIキーや個…"
     },
     {
-      "id": "9874b14aef33",
-      "title": "Reason NetworkでGrok Botと手元MacのClaude CodeをP2Pでやり取りさせてみた",
-      "url": "https://zenn.dev/jtcc/articles/reason-network-p2p-claude-code-push",
-      "publishedAt": "2026-10-29T02:36:29.000Z",
-      "publisher": "dsk310",
-      "summary": "こんにちは。日本トレカセンターの佐藤です。 異なるマシンのコーディングエージェント同士を P2P で直結できる OSS「Reason Network」が公開されました。 GitHub のreason-machines/reason-net…"
+      "id": "5da45e076916",
+      "title": "Google's Strongest Gemini Is One You Can't Use Yet",
+      "url": "https://zenn.dev/neotechpark/articles/46633d0d8672df",
+      "publishedAt": "2026-10-29T09:37:55.000Z",
+      "publisher": "NeoTechPark",
+      "summary": "Google just announced its \"strongest\" Gemini model. In the same announcement, it told almost everyone that they cannot …"
     }
   ],
-  "fetchedAt": "2026-10-29T12:58:18.764Z",
+  "fetchedAt": "2026-10-29T18:51:28.939Z",
   "stale": false,
   "error": null
 }
