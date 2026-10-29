@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "949fa7a35f90",
-      "title": "その３ AIと併走しながら tfstylus を開発して苦労したこと",
-      "url": "https://zenn.dev/terraform_jp/articles/2026-10-28_tfstylus_03",
-      "publishedAt": "2026-10-28T16:03:06.000Z",
-      "publisher": "raki",
-      "summary": "tl;dr terraform のコードを少し整える tfstylus を作ってみた の続きの その１ なぜ tfstylus を作ったのか の続きの その２ tfstylus を作り始めた時にわかっていなかったこと の続き 苦労した点に…"
+      "id": "f3331548958b",
+      "title": "チームの自律性を失わずにAI駆動開発を導入するために大切なこと",
+      "url": "https://zenn.dev/simplex/articles/f3877013142515",
+      "publishedAt": "2026-10-29T00:22:04.000Z",
+      "publisher": "Simplex テックブログ運営",
+      "summary": "シンプレクスでエンジニアをしている清家です。 エンタープライズアプリケーション開発における生成AI活用の主要な関心は、個人の生産性向上からチームの生産性向上に移ってきていると感じます。 チームの生産性を改善する方法の一つとして、AI駆動開…"
     },
     {
-      "id": "2e41898f4a6f",
-      "title": "Genie 4登場、AIが作る動く世界が2分続くように",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261028",
-      "publishedAt": "2026-10-28T15:49:59.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月28日（水）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日はGoogleの新しいAI「Genie 4」から入ります。AIが作る動く世界が、前の2倍の2分続くようになったんですよ。ほかに…"
+      "id": "21c6ae3cb5d5",
+      "title": "GitHub Agentic WorkflowsがGA：stagedを無料・完全無操作と誤解しない",
+      "url": "https://zenn.dev/aipha_euro/articles/6f1f82f24873d9",
+      "publishedAt": "2026-10-29T00:14:25.000Z",
+      "publisher": "佐伯 悠六｜株式会社AiPHA",
+      "summary": "GitHub Agentic Workflowsを試すとき、最初に分けたいのは「AIに考えさせる」「変更を提案させる」「変更を適用する」の三段階です。staged: trueは、このうちsafe outputsによる書込みをプレビューする…"
     },
     {
-      "id": "91d49483ade7",
-      "title": "スキャナーはコンテナへ、AIには承認を。OSSのASM基盤「OASM」の設計を読み解く",
-      "url": "https://zenn.dev/mizhm/articles/b9e9955b60c5bd",
-      "publishedAt": "2026-10-28T15:08:39.000Z",
-      "publisher": "Nguyen Tuan Minh",
-      "summary": "! 筆者は OASM の開発メンバーです。この記事では機能紹介よりも、「どう作っているか」「なぜそうしたか」を、実際のコードを引用しながら書きます。コードは執筆時点の main ブランチのものです。 なぜ「外から見える資産」なのか 警察庁…"
+      "id": "6e4bdbf33cb4",
+      "title": "Cline から Ollama につながらない・返事が来ないとき、上から順に確かめる5つ",
+      "url": "https://zenn.dev/shacikku3/articles/cline-ollama-cannot-connect",
+      "publishedAt": "2026-10-29T00:07:03.000Z",
+      "publisher": "シャチラボ",
+      "summary": "この記事で分かること Cline（VSCode で動くAIエージェントの拡張機能）を、自分のPCの Ollama（ローカルLLMを動かすソフト）につないで使っていると、「返事が来ない」「つながらない」「途中で失敗する」ことがあります。 原…"
     },
     {
-      "id": "5beefedabe27",
-      "title": "AIは私の「証明されました」を疑わなかった ── 統計の素人が、AIと一緒に仮説を殺すまで",
-      "url": "https://zenn.dev/charat55/articles/ai-auditor-keiba",
-      "publishedAt": "2026-10-28T15:03:19.000Z",
-      "publisher": "こくら",
-      "summary": "はじめに 前回の記事「競馬AIを作り込んだら、市場の粗いコピーになった」で、私は次のことを書いた。 当日の確定オッズに対して、お金になる情報は見つからなかった。 途中でエッジに見えるものが何度も現れ、検証するたびに消えていった。 この記事…"
+      "id": "28c72305a82b",
+      "title": "AIを「足す」だけでは、組織の生産性は上がらない",
+      "url": "https://zenn.dev/mediba/articles/042517d3225aa1",
+      "publishedAt": "2026-10-29T00:00:06.000Z",
+      "publisher": "h-sugawara",
+      "summary": "はじめに 「生成AIを導入すれば、組織の生産性は上がるのか」——現場でDXを推進するマネージャーや、日々の業務でAIを使いながらどこか違和感を抱いているエンジニア・知識労働者の方も多いのではないでしょうか。 私が担当しているプロダクトの開…"
     },
     {
-      "id": "a00a108cd3dc",
-      "title": "LLMの「迎合」とハルシネーションはなぜ起きるのか？：整合性を求めるシステム設計の限界とデバッグに関する考察",
-      "url": "https://zenn.dev/izu_moon/articles/98f46d6c0ea1be",
-      "publishedAt": "2026-10-28T14:51:35.000Z",
-      "publisher": "Iz",
-      "summary": "『不確実性の海図：LLMの深層構造と、迎合から整合性へのデバッグ』(The Chart of Uncertainty: The Deep Structure of LLMs and the Debugging from Appeaseme…"
+      "id": "089b1fb5db99",
+      "title": "AIエージェントは暴走より「止まりすぎ」だった——665回のターン終了を全数分析",
+      "url": "https://zenn.dev/zenn_content/articles/claude-code-agent-stops-too-early",
+      "publishedAt": "2026-10-29T00:00:06.000Z",
+      "publisher": "krbrr",
+      "summary": "はじめに 結論: 私の Claude Code 環境で困っていたのは「AIが止まらずに暴走すること」ではなく、「やれる作業を残したまま止まり、『進めますか？』と聞いてくること」でした。30日分・665回のターン終了を数えると、17%が「指…"
     },
     {
-      "id": "fad1d40d38c6",
-      "title": "CLAUDE.md が長くなった時の分け方と、AGENTS.md との二重管理の直し方",
-      "url": "https://zenn.dev/atasino/articles/efa9fb306b6ad0",
-      "publishedAt": "2026-10-28T14:35:02.000Z",
-      "publisher": "Tomoaki Fujimura / Atasino CEO",
-      "summary": "Claude Code の公式ドキュメントには、CLAUDE.md は 1 ファイル 200 行未満を目標にする、と書いてあります。では 200 行を超えた分は、どこへ出すのか。Codex と併用していて AGENTS.md も持っている…"
+      "id": "2388d9a9714f",
+      "title": "AIに自分の宿題を採点させない——反証役に通すと主要指摘の半数に条件が付いた",
+      "url": "https://zenn.dev/zenn_content/articles/claude-code-review-not-self-grading",
+      "publishedAt": "2026-10-29T00:00:06.000Z",
+      "publisher": "krbrr",
+      "summary": "はじめに Claude Code が作ったものを、同じ会話の Claude に「見直して」と頼むのはやめました。代わりに、作った会話の外にいる「別の目」——反証だけを任せた別エージェント、別会社のモデル（Codex）、報告前の点検役——に…"
     },
     {
-      "id": "d07cf1b251ac",
-      "title": "ダウンロードフォルダで Claude Code や Codex を起動してはいけないのはなぜ？",
-      "url": "https://zenn.dev/takuh/articles/d4148e707a18a5",
-      "publishedAt": "2026-10-28T14:23:16.000Z",
-      "publisher": "takuh",
-      "summary": "「ダウンロードしたファイルの整理や zip の展開を、AI に任せたい」と思ったことはありませんか。ターミナルで cd ~/Downloads と移動して Claude Code や Codex を起動すれば、すぐに頼めます。便利ですが、…"
+      "id": "48b45058b427",
+      "title": "なぜAI脆弱性スキャンは嘘ばかりつくのか？Google Mantis思想に学ぶ「真陽性率<7%の壁」を突破する設計アーキテクチャ",
+      "url": "https://zenn.dev/ai_nexus_jp/articles/ai-code-security-mantis-architecture",
+      "publishedAt": "2026-10-28T23:55:09.000Z",
+      "publisher": "AI Nexus",
+      "summary": "こんにちは。AI Nexus 代表の西藤（にしとう）です。 普段はプロジェクトマネージャー（PM）としてクライアント企業のAI導入やDX推進を牽引しつつ、自らコードを書いて開発も行い、現場の泥臭い課題を解決するコンサルタントとしても活動し…"
     },
     {
-      "id": "3e5a80105b23",
-      "title": "AIエージェント用ネット接続ツールAgent-Reachを実機で検証した",
-      "url": "https://zenn.dev/matsushima_a/articles/day-029-agent-reach-login-free-channels",
-      "publishedAt": "2026-10-28T14:12:04.000Z",
-      "publisher": "matsu",
-      "summary": "AIエージェントにログイン不要でWeb/GitHub/YouTube/Bilibili/V2EXへのアクセスを与えるCLI「Agent-Reach」(MIT、Panniantong)を実際にインストールし、ログイン不要チャンネルの動作、素…"
+      "id": "0e3e67da6aaf",
+      "title": "別の Wi-Fi にいる iPhone を Xcode からそのまま使えるアプリ「RoamRun」を作った",
+      "url": "https://zenn.dev/mh/articles/4380fe7546a237",
+      "publishedAt": "2026-10-28T23:45:10.000Z",
+      "publisher": "mh-mobile",
+      "summary": "カフェで iPhone を触っていて、家の Mac にある Xcode からちょっと直したものを入れたい。けれど、Xcode のワイヤレスデバッグは、Mac と同じネットワークの中にいる iPhone しか見つけられません。 RoamRu…"
     },
     {
-      "id": "38a91a199065",
-      "title": "AIエージェントの「単一ループ」と「有向グラフ」でコストと速度はどう変わるか？実機サンドボックスでA/B比較検証してみた",
-      "url": "https://zenn.dev/tappers/articles/ai-labo-e04-loops-vs-graphs",
-      "publishedAt": "2026-10-28T14:08:20.000Z",
-      "publisher": "tappers",
-      "summary": "! 本記事は、X（旧Twitter）上の @hanakoxbt 氏の投稿（\"Loops and Graphs: how to stop babysitting agents and only approve the last step\"）…"
+      "id": "9f14420c9b82",
+      "title": "臨床試験をひもとく：AI研究者のためのガイド（第2回）eClinicalソフトウェアとベンダー",
+      "url": "https://zenn.dev/keiji_ai_japan/articles/dd58aa87d9bcc6",
+      "publishedAt": "2026-10-28T23:09:56.000Z",
+      "publisher": "KEIJI AI Japan",
+      "summary": "! 制度の説明は米国（FDA）を前提としています。 臨床開発は、「eClinical」ツールと総称される専門的なソフトウェア群に支えられています。これらのシステムは、データの収集、文書の管理、運営上のロジスティクス、患者さんとのエンゲージ…"
     },
     {
-      "id": "ffd0bfe3c359",
-      "title": "SNSで話題のAIエージェント設計論を片っ端から実機A/B検証してわかった「トークン90%削減・品質100%」の黄金パターン総集編",
-      "url": "https://zenn.dev/tappers/articles/ai-labo-agent-harness-patterns-omnibus",
-      "publishedAt": "2026-10-28T14:08:19.000Z",
-      "publisher": "tappers",
-      "summary": "! 🔄 本記事は随時更新される「生きたベンチマーク総集編（Living Benchmark Index）」です（最終更新: 2026-10-28 / 実機検証完了: 21件 / 個別レポート公開中: 1件） X（旧Twitter）やTh…"
+      "id": "a5f01c247e79",
+      "title": "Claude Code のサブエージェント二百体超を回して、事故を機械で拾った",
+      "url": "https://zenn.dev/hotto_ken/articles/subagent-fleet-verification-gates",
+      "publishedAt": "2026-10-28T23:05:19.000Z",
+      "publisher": "ほっとけん",
+      "summary": "連載『疑って確かめる』第6話（全8話）。成功に見える失敗を、1話に1つずつ確かめます。 ! この記事で分かること 数百体のサブエージェントの完了を、通知ではなく「ファイル数と欠番」で判定する方法 件数が合っていてもキーがずれる事故を拾う、…"
     },
     {
-      "id": "816f2c4d6368",
-      "title": "認証認可をゼロから学ぶ #1 ロードマップと、パスキーがパスワードより安全な理由",
-      "url": "https://zenn.dev/monkey_gineer/articles/auth-study-01-roadmap-and-passkeys",
-      "publishedAt": "2026-10-28T13:33:15.000Z",
-      "publisher": "monkey-gineer",
-      "summary": "1. この連載について AIプロダクトを作っていると、必ずこんな場面に出会います。 AIエージェントが、社員の代わりに社内システムを操作する AIが、ユーザーごとに見てよい資料だけを検索して答える AIが、送金や削除のような取り返しのつか…"
+      "id": "036cd49970c9",
+      "title": "Claude CodeのMonitorで「止まったこと」に気づく — 見えない失敗が一番高くつく",
+      "url": "https://zenn.dev/joinclass/articles/monitor-20261027220014-13480",
+      "publishedAt": "2026-10-28T23:00:15.000Z",
+      "publisher": "JOINCLASS",
+      "summary": "エラーより「静かに止まる」ほうが高くつく 当社では、記事公開・売上取得・営業パイプラインなどの定期ジョブをMacのlaunchdで回しています。導入を検討している人によく聞かれるのは「AIに任せて、壊れたらどうするのか」です。 僕の答えは…"
     },
     {
-      "id": "e73434130bab",
-      "title": "Claude Code に、経緯を覚えている「専属バトラー」を作る",
-      "url": "https://zenn.dev/sarukani/articles/claude-code-butler-memory",
-      "publishedAt": "2026-10-28T13:32:59.000Z",
-      "publisher": "さるかに",
-      "summary": "この記事でできること Claude Code を、セッションや PC が変わっても、それまでの経緯を覚えたまま相談に乗ってくれる「専属バトラー」 にします。 使うのは Claude Code の標準機能（CLAUDE.md・サブエージェン…"
+      "id": "083aab1a2d0c",
+      "title": "/deploy-dev で開発体験が大分向上した話",
+      "url": "https://zenn.dev/tomoki33/articles/62eb380e46c6b9",
+      "publishedAt": "2026-10-28T22:38:43.000Z",
+      "publisher": "T・M",
+      "summary": "テーマ チームで共有しているdevelopブランチ更新時、作業中の方の資産を壊さずに更新する手法をskill化したら開発体験が大分上がったのでその話になります。 ブランチ戦略 私たちのチームでは、開発時主に下記2 つのブランチを使っていま…"
     }
   ],
-  "fetchedAt": "2026-10-29T00:25:16.796Z",
+  "fetchedAt": "2026-10-29T06:10:29.116Z",
   "stale": false,
   "error": null
 }
