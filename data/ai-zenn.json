@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f3331548958b",
-      "title": "チームの自律性を失わずにAI駆動開発を導入するために大切なこと",
-      "url": "https://zenn.dev/simplex/articles/f3877013142515",
-      "publishedAt": "2026-10-29T00:22:04.000Z",
-      "publisher": "Simplex テックブログ運営",
-      "summary": "シンプレクスでエンジニアをしている清家です。 エンタープライズアプリケーション開発における生成AI活用の主要な関心は、個人の生産性向上からチームの生産性向上に移ってきていると感じます。 チームの生産性を改善する方法の一つとして、AI駆動開…"
+      "id": "c2dcc0a21e91",
+      "title": "三値量子化モデルの重みは直接編集できるか？AIエージェントと進めた3段階の検証実験",
+      "url": "https://zenn.dev/yuu7/articles/ternary-quant-edit-exp084-086",
+      "publishedAt": "2026-10-29T04:02:40.000Z",
+      "publisher": "Yuu",
+      "summary": "重みが -1, 0, +1 の3値に量子化された言語モデルに対して、BF16 などの浮動小数点へ戻さずに、量子化されたコードのまま特定の挙動（過剰な拒否応答や出力言語の傾向など）を書き換えられるのでしょうか。この疑問を確かめるため、AIコ…"
     },
     {
-      "id": "21c6ae3cb5d5",
-      "title": "GitHub Agentic WorkflowsがGA：stagedを無料・完全無操作と誤解しない",
-      "url": "https://zenn.dev/aipha_euro/articles/6f1f82f24873d9",
-      "publishedAt": "2026-10-29T00:14:25.000Z",
-      "publisher": "佐伯 悠六｜株式会社AiPHA",
-      "summary": "GitHub Agentic Workflowsを試すとき、最初に分けたいのは「AIに考えさせる」「変更を提案させる」「変更を適用する」の三段階です。staged: trueは、このうちsafe outputsによる書込みをプレビューする…"
+      "id": "9bcdbae4456c",
+      "title": "Haiku 5.5 と Sonnet に同じ報告を5回ずつ書かせたら、安い方が5回とも正しかった",
+      "url": "https://zenn.dev/marunage_kacho/articles/ai-trial-haiku55",
+      "publishedAt": "2026-10-29T04:01:36.000Z",
+      "publisher": "丸投げ課長",
+      "summary": "先週、Claude Code で Haiku 5.5 が使えるようになった日に、Sonnet と同じ仕事をさせて「安い方が正確だった」と X に書きました。 1回だけの話だったので、ちょっと気持ち悪くて...今日、5回ずつやり直しました。…"
     },
     {
-      "id": "6e4bdbf33cb4",
-      "title": "Cline から Ollama につながらない・返事が来ないとき、上から順に確かめる5つ",
-      "url": "https://zenn.dev/shacikku3/articles/cline-ollama-cannot-connect",
-      "publishedAt": "2026-10-29T00:07:03.000Z",
-      "publisher": "シャチラボ",
-      "summary": "この記事で分かること Cline（VSCode で動くAIエージェントの拡張機能）を、自分のPCの Ollama（ローカルLLMを動かすソフト）につないで使っていると、「返事が来ない」「つながらない」「途中で失敗する」ことがあります。 原…"
+      "id": "c14fe08d8913",
+      "title": "AIでOpenWrtはどこまで移植できるのか。SoftBank Air Terminal 6から見えた「実装」と「検証」の境界",
+      "url": "https://zenn.dev/kuroneko22/articles/bc3632fd0f770a",
+      "publishedAt": "2026-10-29T03:50:04.000Z",
+      "publisher": "Karin",
+      "summary": "はじめに 2026年10月、SoftBank Air ターミナル6へのOpenWrt移植を始めました。 対象機種はMediaTek MT6990を搭載した、5G通信機能を持つホームルーターです。一般に配布されているOpenWrtの対応機種…"
     },
     {
-      "id": "28c72305a82b",
-      "title": "AIを「足す」だけでは、組織の生産性は上がらない",
-      "url": "https://zenn.dev/mediba/articles/042517d3225aa1",
-      "publishedAt": "2026-10-29T00:00:06.000Z",
-      "publisher": "h-sugawara",
-      "summary": "はじめに 「生成AIを導入すれば、組織の生産性は上がるのか」——現場でDXを推進するマネージャーや、日々の業務でAIを使いながらどこか違和感を抱いているエンジニア・知識労働者の方も多いのではないでしょうか。 私が担当しているプロダクトの開…"
+      "id": "e01bccb78708",
+      "title": "Codex Day 24解説：DotsにiMessage・RCSで依頼！設定・安全性・利用条件",
+      "url": "https://zenn.dev/sponge841841/articles/2026-10-29-codex-day24-dots-texting",
+      "publishedAt": "2026-10-29T03:41:16.000Z",
+      "publisher": "ちっち",
+      "summary": "2026年10月29日（日本時間）、OpenAIの28日間アップデートDay 24として、パーソナルAIエージェント「Dots」とiMessage・RCSでメッセージを交換する新機能「Texting your dot」が発表されました。 …"
     },
     {
-      "id": "089b1fb5db99",
-      "title": "AIエージェントは暴走より「止まりすぎ」だった——665回のターン終了を全数分析",
-      "url": "https://zenn.dev/zenn_content/articles/claude-code-agent-stops-too-early",
-      "publishedAt": "2026-10-29T00:00:06.000Z",
-      "publisher": "krbrr",
-      "summary": "はじめに 結論: 私の Claude Code 環境で困っていたのは「AIが止まらずに暴走すること」ではなく、「やれる作業を残したまま止まり、『進めますか？』と聞いてくること」でした。30日分・665回のターン終了を数えると、17%が「指…"
+      "id": "5f63d797a477",
+      "title": "失敗した工程から再開できるチェックポイントの作り方",
+      "url": "https://zenn.dev/neoru/articles/38abd78007dace",
+      "publishedAt": "2026-10-29T03:32:20.000Z",
+      "publisher": "NEORU｜AI Business OS",
+      "summary": "自動化は、最初から最後まで一度で成功するとは限りません。 外部サービスが一時的に読めない。途中の検証で矛盾が見つかる。人の承認が必要になり、その場で止まる。こうした中断は、長い工程ほど起こりやすくなります。 問題は、止まることそのものでは…"
     },
     {
-      "id": "2388d9a9714f",
-      "title": "AIに自分の宿題を採点させない——反証役に通すと主要指摘の半数に条件が付いた",
-      "url": "https://zenn.dev/zenn_content/articles/claude-code-review-not-self-grading",
-      "publishedAt": "2026-10-29T00:00:06.000Z",
-      "publisher": "krbrr",
-      "summary": "はじめに Claude Code が作ったものを、同じ会話の Claude に「見直して」と頼むのはやめました。代わりに、作った会話の外にいる「別の目」——反証だけを任せた別エージェント、別会社のモデル（Codex）、報告前の点検役——に…"
+      "id": "fa1fc458ed14",
+      "title": "v2.1.312 で直ったのは skills の方：Bash で cd すると許可ルールが外れる話は仕様のまま",
+      "url": "https://zenn.dev/norman6464/articles/claude-code-cd-fix-skills-not-permissions",
+      "publishedAt": "2026-10-29T03:28:12.000Z",
+      "publisher": "tekuteku",
+      "summary": "claude -p を --allowedTools \"Edit(articles/**)\" のような相対パスの許可ルールで無人運用している人向けの記事です。2026-10-27 の Claude Code v2.1.312 の修正一覧に…"
     },
     {
-      "id": "48b45058b427",
-      "title": "なぜAI脆弱性スキャンは嘘ばかりつくのか？Google Mantis思想に学ぶ「真陽性率<7%の壁」を突破する設計アーキテクチャ",
-      "url": "https://zenn.dev/ai_nexus_jp/articles/ai-code-security-mantis-architecture",
-      "publishedAt": "2026-10-28T23:55:09.000Z",
-      "publisher": "AI Nexus",
-      "summary": "こんにちは。AI Nexus 代表の西藤（にしとう）です。 普段はプロジェクトマネージャー（PM）としてクライアント企業のAI導入やDX推進を牽引しつつ、自らコードを書いて開発も行い、現場の泥臭い課題を解決するコンサルタントとしても活動し…"
+      "id": "c09f9fb97ba2",
+      "title": "Metaの企業向けAI事業を振り返る――エージェント・APIと導入判断の境界",
+      "url": "https://zenn.dev/humanos_lab/articles/d1d6ead5d78b23",
+      "publishedAt": "2026-10-29T03:20:35.000Z",
+      "publisher": "シン@AI統制＆マルチエージェント",
+      "summary": "Metaは2026年9月28日、企業向けAI事業「Meta Enterprise Platform」の始動を発表しました。エージェント、API、開発支援を企業・開発者へ届ける方針です。[1] AIを仕事に組み込む人にとって、選択肢が広がる…"
     },
     {
-      "id": "0e3e67da6aaf",
-      "title": "別の Wi-Fi にいる iPhone を Xcode からそのまま使えるアプリ「RoamRun」を作った",
-      "url": "https://zenn.dev/mh/articles/4380fe7546a237",
-      "publishedAt": "2026-10-28T23:45:10.000Z",
-      "publisher": "mh-mobile",
-      "summary": "カフェで iPhone を触っていて、家の Mac にある Xcode からちょっと直したものを入れたい。けれど、Xcode のワイヤレスデバッグは、Mac と同じネットワークの中にいる iPhone しか見つけられません。 RoamRu…"
+      "id": "7fa18dfc1377",
+      "title": "Windows と Mac の Claude Code どうしで文脈を受け渡す — クラウドなしの共有メモ MCP「jige」",
+      "url": "https://zenn.dev/actuallyworks/articles/78d66a4417d130",
+      "publishedAt": "2026-10-29T03:19:19.000Z",
+      "publisher": "ActuallyWorks",
+      "summary": "この記事は、jige を開発している ActuallyWorks（韓国のソフトウェア会社）が書いています。自社ツールの紹介を含みます。 困っていたこと：PC ごとに AI の記憶が分かれる Windows の PC と Mac の両方で …"
     },
     {
-      "id": "9f14420c9b82",
-      "title": "臨床試験をひもとく：AI研究者のためのガイド（第2回）eClinicalソフトウェアとベンダー",
-      "url": "https://zenn.dev/keiji_ai_japan/articles/dd58aa87d9bcc6",
-      "publishedAt": "2026-10-28T23:09:56.000Z",
-      "publisher": "KEIJI AI Japan",
-      "summary": "! 制度の説明は米国（FDA）を前提としています。 臨床開発は、「eClinical」ツールと総称される専門的なソフトウェア群に支えられています。これらのシステムは、データの収集、文書の管理、運営上のロジスティクス、患者さんとのエンゲージ…"
+      "id": "e820be8c70d8",
+      "title": "Claude Codeを褒めちぎってみた",
+      "url": "https://zenn.dev/devlog/articles/abc194ecf04dfc",
+      "publishedAt": "2026-10-29T03:00:07.000Z",
+      "publisher": "Sato Kotaro",
+      "summary": "Claude Codeに「君は本当に素晴らしい」と伝えたら、私が過去にやらかした失敗のリストが3件返ってきました。 そのときの会話を、流れを変えずに短く整えて載せます。引用の形にした私の発言2か所だけは、原文そのままです。 褒めた その日…"
     },
     {
-      "id": "a5f01c247e79",
-      "title": "Claude Code のサブエージェント二百体超を回して、事故を機械で拾った",
-      "url": "https://zenn.dev/hotto_ken/articles/subagent-fleet-verification-gates",
-      "publishedAt": "2026-10-28T23:05:19.000Z",
-      "publisher": "ほっとけん",
-      "summary": "連載『疑って確かめる』第6話（全8話）。成功に見える失敗を、1話に1つずつ確かめます。 ! この記事で分かること 数百体のサブエージェントの完了を、通知ではなく「ファイル数と欠番」で判定する方法 件数が合っていてもキーがずれる事故を拾う、…"
+      "id": "b1561a5b68cc",
+      "title": "AIの「やりました」を信じるのをやめた日。人間側の完了チェックリスト",
+      "url": "https://zenn.dev/tokium_dev/articles/ai-agent-report-completion-criteria",
+      "publishedAt": "2026-10-29T03:00:06.000Z",
+      "publisher": "マーガリン",
+      "summary": "AIの「やりました」の報告の後、何を見ていますか Claude CodeやCodexなどのAIコーディングエージェントに作業を任せると、最後に「完了しました。テストも通っています」という報告が返ってきます。僕はそこからdiffを読んだあと…"
     },
     {
-      "id": "036cd49970c9",
-      "title": "Claude CodeのMonitorで「止まったこと」に気づく — 見えない失敗が一番高くつく",
-      "url": "https://zenn.dev/joinclass/articles/monitor-20261027220014-13480",
-      "publishedAt": "2026-10-28T23:00:15.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "エラーより「静かに止まる」ほうが高くつく 当社では、記事公開・売上取得・営業パイプラインなどの定期ジョブをMacのlaunchdで回しています。導入を検討している人によく聞かれるのは「AIに任せて、壊れたらどうするのか」です。 僕の答えは…"
+      "id": "561e05085d0b",
+      "title": "GitHub Universe 2026 Day 1総まとめ。開発者が押さえておきたい新機能18選",
+      "url": "https://zenn.dev/jtcc/articles/github-universe-2026-day1-summary",
+      "publishedAt": "2026-10-29T02:37:14.000Z",
+      "publisher": "dsk310",
+      "summary": "こんにちは。日本トレカセンターの佐藤です。 2026 年 10 月 28 日（米国時間）に開催された GitHub Universe 2026 Day 1 では、数多くの新機能が発表されました。 Copilot や GitHub Acti…"
     },
     {
-      "id": "083aab1a2d0c",
-      "title": "/deploy-dev で開発体験が大分向上した話",
-      "url": "https://zenn.dev/tomoki33/articles/62eb380e46c6b9",
-      "publishedAt": "2026-10-28T22:38:43.000Z",
-      "publisher": "T・M",
-      "summary": "テーマ チームで共有しているdevelopブランチ更新時、作業中の方の資産を壊さずに更新する手法をskill化したら開発体験が大分上がったのでその話になります。 ブランチ戦略 私たちのチームでは、開発時主に下記2 つのブランチを使っていま…"
+      "id": "9874b14aef33",
+      "title": "Reason NetworkでGrok Botと手元MacのClaude CodeをP2Pでやり取りさせてみた",
+      "url": "https://zenn.dev/jtcc/articles/reason-network-p2p-claude-code-push",
+      "publishedAt": "2026-10-29T02:36:29.000Z",
+      "publisher": "dsk310",
+      "summary": "こんにちは。日本トレカセンターの佐藤です。 異なるマシンのコーディングエージェント同士を P2P で直結できる OSS「Reason Network」が公開されました。 GitHub のreason-machines/reason-net…"
     }
   ],
-  "fetchedAt": "2026-10-29T06:10:29.116Z",
+  "fetchedAt": "2026-10-29T12:58:18.764Z",
   "stale": false,
   "error": null
 }
