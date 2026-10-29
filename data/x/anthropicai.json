@@ -2,6 +2,24 @@
   "handle": "AnthropicAI",
   "tweets": [
     {
+      "id": "2115871889549865429",
+      "url": "https://x.com/AnthropicAI/status/2115871889549865429",
+      "text": "We’ve trained Claude to flag potential misuse in conversations, a technique we call self-assessment. Right after it responds, Claude gives a preliminary safety assessment of the conversation.\n\nSince we began using self-assessment in June, it has surfaced misuse that our other safeguards weren’t designed to catch.\n\nBecause Claude has already read the conversation, self-assessment is very efficient. And unlike classifiers, which target a discrete set of harms, it draws on Claude’s own judgment, so it gets more accurate as our models improve.\n\nRead more on our new Safeguards blog:\nsafeguards.anthropic.com/202…",
+      "publishedAt": "2026-10-29T18:22:24.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2115825653539025142",
+      "url": "https://x.com/AnthropicAI/status/2115825653539025142",
+      "text": "We’ve expanded our AI for Science program beyond individual teams to support some of the world’s leading scientific foundations, institutions, and research groups. anthropic.com/news/ai-for-sc…",
+      "publishedAt": "2026-10-29T15:18:40.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2115207004293853358",
       "url": "https://x.com/AnthropicAI/status/2115207004293853358",
       "text": "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.\nanthropic.com/news/expanding…",
@@ -72,27 +90,9 @@
       "authorHandle": "AnthropicAI",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2112579261358023071",
-      "url": "https://x.com/AnthropicAI/status/2112579261358023071",
-      "text": "This is exploratory work, and we’re not claiming to have produced an antivenom—for that, we’d have to test the binders within living cells, then in mice, among many other steps. But it’s an example of how Claude can concretely assist research in protein design.",
-      "publishedAt": "2026-10-20T16:18:40.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2112579263039725659",
-      "url": "https://x.com/AnthropicAI/status/2112579263039725659",
-      "text": "We’re releasing all 211 of the tested designs and the lab data as a resource for scientists: huggingface.co/datasets/Anth…\n\nRead the full technical report: www-cdn.anthropic.com/31ac57…",
-      "publishedAt": "2026-10-20T16:18:40.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-29T12:59:08.207Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://twiiit.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-29T23:05:27.142Z",
+  "stale": false,
+  "error": null
 }

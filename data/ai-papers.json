@@ -6,22 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "db94e00037f6",
-      "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
-      "url": "https://huggingface.co/papers/2610.32749",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, curr…",
-      "score": 147
-    },
-    {
-      "id": "00e0709836fa",
-      "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
-      "url": "https://huggingface.co/papers/2610.35684",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surface…",
-      "score": 41
-    },
-    {
       "id": "84c15460f3b4",
       "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
       "url": "https://huggingface.co/papers/2610.31670",
@@ -30,19 +14,19 @@
       "score": 20
     },
     {
-      "id": "8843833c7580",
-      "title": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
-      "url": "https://huggingface.co/papers/2610.22507",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume th…",
-      "score": 15
-    },
-    {
       "id": "a91bfc2fb4a6",
       "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
       "url": "https://huggingface.co/papers/2610.37230",
       "publishedAt": "2026-10-27T00:00:00.000Z",
       "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this sc…",
+      "score": 16
+    },
+    {
+      "id": "8843833c7580",
+      "title": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
+      "url": "https://huggingface.co/papers/2610.22507",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume th…",
       "score": 15
     },
     {
@@ -59,7 +43,7 @@
       "url": "https://huggingface.co/papers/2610.20832",
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "summary": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle …",
-      "score": 4
+      "score": 5
     },
     {
       "id": "a90563245ce7",
@@ -67,7 +51,7 @@
       "url": "https://huggingface.co/papers/2610.30132",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs…",
-      "score": 3
+      "score": 4
     },
     {
       "id": "15231a2fa043",
@@ -75,7 +59,7 @@
       "url": "https://huggingface.co/papers/2610.35671",
       "publishedAt": "2026-10-26T00:00:00.000Z",
       "summary": "As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical …",
-      "score": 2
+      "score": 3
     },
     {
       "id": "e1a01526c502",
@@ -83,7 +67,15 @@
       "url": "https://huggingface.co/papers/2610.29702",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "summary": "Multimodal large language models (MLLMs) show promising reasoning capabilities, but reliable physical interaction requi…",
-      "score": 2
+      "score": 3
+    },
+    {
+      "id": "20e4992df430",
+      "title": "Instruction Capacity: Behavior and Degradation of Language Models under Controlled Load",
+      "url": "https://huggingface.co/papers/2610.36095",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "The quality with which language models follow instructions falls as the load grows, yet there is still no quantity that…",
+      "score": 1
     },
     {
       "id": "f4c8fd660cf7",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2601.15351",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "summary": "Standard sequence models encode position by token rank rather than physical coordinate, typically forcing practitioners…",
+      "score": 1
+    },
+    {
+      "id": "936f6f95b564",
+      "title": "Know, then Draw: A New Learning Paradigm for Visual Generation",
+      "url": "https://huggingface.co/papers/2610.37626",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Visual generation requires both high-level semantic knowledge and fine-grained pixel details. We propose a learning par…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-10-29T18:51:28.782Z",
+  "fetchedAt": "2026-10-29T23:05:04.302Z",
   "stale": false,
   "error": null
 }

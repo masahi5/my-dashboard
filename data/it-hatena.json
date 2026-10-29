@@ -11,14 +11,7 @@
       "url": "https://ashunar0.dev/posts/cloudflare-free-plan/",
       "publishedAt": "2026-10-29T03:25:44.000Z",
       "summary": "はじめに Cloudflareって、無料で使えすぎじゃないですか？？ Workers は 1 日 10 万リクエストまでタダです。Pages は帯域が無制限です。D1 も 5GB までタダです。R2…",
-      "score": 380
-    },
-    {
-      "id": "4226a49b1674",
-      "title": "VPNがあるのは外から分かるので狙われる。パッチ当てはもう自動化するしかない――日本ハッカー協会・杉浦隆幸代表理事が語る、AI時代のランサムウェア対処策【Security Days Fall 2026】",
-      "url": "https://internet.watch.impress.co.jp/docs/event/2151590.html",
-      "publishedAt": "2026-10-28T22:58:45.000Z",
-      "score": 251
+      "score": 422
     },
     {
       "id": "ba7bff2748da",
@@ -26,7 +19,7 @@
       "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002716/",
       "publishedAt": "2026-10-29T06:15:08.000Z",
       "summary": "キャラクターフィギュアなどの企画・販売を手掛けるグッドスマイルカンパニー（千代田区）は10月29日、直販サイト「グッドスマイルカンパニー公式ショップ」が不正アクセスを受け、顧客2800人のカード名義…",
-      "score": 175
+      "score": 181
     },
     {
       "id": "5b6e9b05f62e",
@@ -34,7 +27,7 @@
       "url": "https://togetter.com/li/2764263",
       "publishedAt": "2026-10-29T08:52:04.000Z",
       "summary": "厳格にルール化すると面倒だからいい感じにして運用してたのに、それを悪用しまくる人が出てくると仕方なく厳しくして全員が苦しむ現象ってあるよね",
-      "score": 145
+      "score": 177
     },
     {
       "id": "7a39002a3d3f",
@@ -42,7 +35,7 @@
       "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
       "publishedAt": "2026-10-26T11:40:05.000Z",
       "summary": "この記事に書いてあること E2E を主要シナリオだけでなく網羅的に整備した 実装から拾った確認対象とシナリオの対応漏れをチェックし漏れがあれば CI で落とす 開発ワークフローの品質ゲートにローカル…",
-      "score": 104
+      "score": 138
     },
     {
       "id": "e3ef01f0c5a6",
@@ -50,31 +43,7 @@
       "url": "https://gigazine.net/news/20261029-anti-ai-words-in-script/",
       "publishedAt": "2026-10-29T11:05:08.000Z",
       "summary": "AIには悪意ある用途での使用をブロックするための安全対策が施されているほか、特定の分野のフレーズを拒否している場合もあります。こうしたAIの挙動を逆手に取り、危険とみなされる単語をコードに紛れ込ませ…",
-      "score": 90
-    },
-    {
-      "id": "b70511e7b26b",
-      "title": "Firefox の Intl.Segmenter で「メロス」を「彼」にすると「した」が文字扱いされなくなる - id:onk のはてなブログ",
-      "url": "https://onk.hatenablog.jp/entry/2026/10/29/151858",
-      "publishedAt": "2026-10-29T06:48:37.000Z",
-      "summary": "const segmenter = new Intl.Segmenter(undefined, { granularity: \"word\" }); console.table([...segment…",
-      "score": 74
-    },
-    {
-      "id": "bef87d095042",
-      "title": "グッドスマイルカンパニー、クレカ番号全16桁が情報漏洩か 該当者は2800人のユーザー",
-      "url": "https://kai-you.net/article/96997",
-      "publishedAt": "2026-10-29T04:40:11.000Z",
-      "summary": "フィギュアメーカー大手・グッドスマイルカンパニーが10月29日（木）、公式オンラインショップへの不正アクセスについて第3報を発表した。 調査の結果、クレジットカード決済ページに不正なプログラムが設置…",
-      "score": 64
-    },
-    {
-      "id": "0b8985adfe91",
-      "title": "AIが生成したコードは読むべきか？抽象化設計とコードの品質保証 / abstraction-design-and-quality",
-      "url": "https://speakerdeck.com/minodriven/abstraction-design-and-quality",
-      "publishedAt": "2026-10-29T10:14:39.000Z",
-      "summary": "こちらのイベントの登壇資料です。 Qiita Conference 2026 Autumn https://qiita.com/conference",
-      "score": 39
+      "score": 113
     },
     {
       "id": "89b626bdc130",
@@ -82,7 +51,23 @@
       "url": "https://togetter.com/li/2764323",
       "publishedAt": "2026-10-29T13:50:04.000Z",
       "summary": "矢野顕子 Akiko Yano @Yano_Akiko 教えてくださいませ。CDをiPhone やコンピュータに取り込むにはどうしたら良いのでしょうか？音楽のプロとは思えない質問ですいません。。。 …",
-      "score": 37
+      "score": 86
+    },
+    {
+      "id": "0b8985adfe91",
+      "title": "AIが生成したコードは読むべきか？抽象化設計とコードの品質保証 / abstraction-design-and-quality",
+      "url": "https://speakerdeck.com/minodriven/abstraction-design-and-quality",
+      "publishedAt": "2026-10-29T10:14:39.000Z",
+      "summary": "こちらのイベントの登壇資料です。 Qiita Conference 2026 Autumn https://qiita.com/conference",
+      "score": 81
+    },
+    {
+      "id": "b70511e7b26b",
+      "title": "Firefox の Intl.Segmenter で「メロス」を「彼」にすると「した」が文字扱いされなくなる - id:onk のはてなブログ",
+      "url": "https://onk.hatenablog.jp/entry/2026/10/29/151858",
+      "publishedAt": "2026-10-29T06:48:37.000Z",
+      "summary": "const segmenter = new Intl.Segmenter(undefined, { granularity: \"word\" }); console.table([...segment…",
+      "score": 79
     },
     {
       "id": "0e3fca3cb361",
@@ -90,18 +75,33 @@
       "url": "https://ubuntu.com/security/CVE-2026-98432",
       "publishedAt": "2026-10-29T04:39:46.000Z",
       "summary": "Description In the Linux kernel, the following vulnerability has been resolved: ipv4: free inet_opt…",
-      "score": 35
+      "score": 71
     },
     {
-      "id": "7d76505b8d2d",
-      "title": "GMOへの攻撃事件を巡って |",
-      "url": "https://www.iwashita.kyoto.jp/archives/11306",
-      "publishedAt": "2026-10-29T07:16:28.000Z",
-      "summary": "金融取引の安全性を誰が守るのか GMOインターネットグループの熊谷正寿代表が、同社の「お名前.com デスクトップクラウド」に対するサイバー攻撃について、10月25日付のブログで経緯を説明している。…",
-      "score": 27
+      "id": "bef87d095042",
+      "title": "グッドスマイルカンパニー、クレカ番号全16桁が情報漏洩か 該当者は2800人のユーザー",
+      "url": "https://kai-you.net/article/96997",
+      "publishedAt": "2026-10-29T04:40:11.000Z",
+      "summary": "フィギュアメーカー大手・グッドスマイルカンパニーが10月29日（木）、公式オンラインショップへの不正アクセスについて第3報を発表した。 調査の結果、クレジットカード決済ページに不正なプログラムが設置…",
+      "score": 66
+    },
+    {
+      "id": "5a3b4aa345f3",
+      "title": "プライム会員なら実質無料！新世代AIアシスタント「Alexa+」と新型Echoをチェックしてきた",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2152255.html",
+      "publishedAt": "2026-10-29T09:34:31.000Z",
+      "score": 41
+    },
+    {
+      "id": "e5bf57646c72",
+      "title": "昨今「AI を鵜呑みにするな」とか「AI に任せるな」みたいな話が多いんだけど、先日ちょっとお堅い某所で「まずは AI にチェックしてもらうとか、洗い出して貰うとか、 相談してもらうとか、AI をもっとしっかり活用して品質を上げてくれませんか？」的な詰められ方してるのをみかけてビックリした→「最近これ思う事多い わからんかったらいったんAIに聞いて整理してから出して？って」",
+      "url": "https://posfie.com/@kalofollow/p/EE3dJhj",
+      "publishedAt": "2026-10-29T02:00:39.000Z",
+      "summary": "箱あんこう @10cube 昨今「AI を鵜呑みにするな」とか「AI に任せるな」みたいな話が多いんだけど、先日ちょっとお堅い某所で「まずは AI にチェックしてもらうとか、洗い出して貰うとか、 相…",
+      "score": 30
     }
   ],
-  "fetchedAt": "2026-10-29T18:51:30.933Z",
+  "fetchedAt": "2026-10-29T23:05:06.011Z",
   "stale": false,
   "error": null
 }

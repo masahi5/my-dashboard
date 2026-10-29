@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "df8e187d2793",
-      "title": "AIエージェントの二重実行を止める「冪等性キー」の最小実装",
-      "url": "https://zenn.dev/growl/articles/d7dafe774009b7",
-      "publishedAt": "2026-10-29T13:08:03.000Z",
-      "publisher": "Nao",
-      "summary": "なぜ二重実行は起きるのか AIエージェントに「メールを送る」「請求を作る」のような副作用のある処理を任せると、通信のリトライやタイムアウトの再実行で、同じ処理が2回走ることがあります。人間が画面で見ている分には気づけますが、エージェントの…"
+      "id": "41d949cc5e52",
+      "title": "受託開発でAI開発環境を工程別に見積もる：閉域構成・費用・契約の注意点",
+      "url": "https://zenn.dev/shoyomayabot/articles/ai-dev-env-estimate-by-phase",
+      "publishedAt": "2026-10-29T18:05:26.000Z",
+      "publisher": "mayabot",
+      "summary": "はじめに 「AIを開発に使いたい。でも、いくらかかるのか説明できない」。 受託開発の現場では、この壁で止まることがよくあります。 この記事では、AI開発環境の費用を 工程ごとに 見積もる方法を、具体的な金額つきで解説します。 題材は、決済…"
     },
     {
-      "id": "18e4b8ed3ba5",
-      "title": "【AWS】AI にインフラを把握させるため、手作業で作った環境を CDK 化した",
-      "url": "https://zenn.dev/linkedge/articles/0c14017ab7446c",
-      "publishedAt": "2026-10-29T12:41:20.000Z",
-      "publisher": "RyoyaOkuma",
-      "summary": "はじめに 私は普段から Claude Code を使って開発しています。 リポジトリにあるコードを読んで、既存の実装に沿ったコードを書いてくれるので、とても助かっています。 しかし、個人開発しているアプリでは、AI が書くコードが、実際の…"
+      "id": "ae0885c0481b",
+      "title": "「悪用の報告なし」の脆弱性が CVE 公開 13 日後に試されていた ― TEN Framework の CVE-2026-85688",
+      "url": "https://zenn.dev/t4n4bot4/articles/adfd6422c9e4a8",
+      "publishedAt": "2026-10-29T17:57:28.000Z",
+      "publisher": "t4n4bot4",
+      "summary": "はじめに 前回の記事（ハニーポットに来る「AI 関連」の攻撃）では、「AI クローラ」を名乗る通信の 6 割が探査で、少数の Google Cloud の IP が十数種類の AI クローラの名前を使い回している、と書きました。 その探査…"
     },
     {
-      "id": "0ca063d161c5",
-      "title": "OBSでハロウィンのAI顔交換が映らないとき、入力と出力を切り分ける",
-      "url": "https://zenn.dev/ellafisherwrite/articles/f9ec3f62092cf3",
-      "publishedAt": "2026-10-29T12:36:18.000Z",
-      "publisher": "Ella Fisher",
-      "summary": "吸血鬼の顔はデスクトップ側に出ているのに、OBSにはいつもの自分が映る。ここで顔の素材を選び直しても、映像の受け渡しが原因なら直りません。 見る順番は、加工済みの画面 → 仮想カメラ → OBSの映像キャプチャデバイスです。どこまで同じ顔…"
+      "id": "980395211cbd",
+      "title": "Cは難しいと思っていた。いろんな言語を飛び回ったら、断片が線になった話",
+      "url": "https://zenn.dev/wataru_fujita/articles/c-fragments-become-a-line",
+      "publishedAt": "2026-10-29T17:42:47.000Z",
+      "publisher": "(wataru_fujita)",
+      "summary": "寒ブリの季節が近づくと、ふとC言語が気になり、AIに語りかけたくなりました。 先に断っておきます。この記事は、解説ではありません。初学者がかじった断片的な知識を頼りに、言語をいったりきたりした、迷走の記録です。言い回しが正確でない所も出て…"
     },
     {
-      "id": "ed68ccaee15e",
-      "title": "ITニュースの情報収集に迷走した末、Claude+Gmailで「朝刊・夕刊」を自動配信するようにした話",
-      "url": "https://zenn.dev/spring1293/articles/2918fcd8518bb3",
-      "publishedAt": "2026-10-29T12:27:20.000Z",
-      "publisher": "spring1293",
-      "summary": "! この記事の要点 ITニュースを追いきれず、X・YouTube・自作サイトと試して、3回挫折しました 共通していた原因は「自分から取りに行く必要がある」ことと「時間を拘束される」ことでした 最終的に、Claudeのスケジュールタスク+G…"
+      "id": "2b7860e9868b",
+      "title": "I-JEPA 論文解説：画素の再構成から、意味のある表現の予測へ",
+      "url": "https://zenn.dev/mantis_ryuji/articles/ijepa-semantic-prediction",
+      "publishedAt": "2026-10-29T17:18:39.000Z",
+      "publisher": "mantis_ryuji",
+      "summary": "1. はじめに 画像の一部を隠し、残った部分から予測する。この学習問題は単純だが、「何を正解として予測させるか」によって、モデルに求める理解は変わる。 たとえば、鳥の背中を隠した画像を考える。周囲から鳥の姿勢や身体のつながりを推測できても…"
     },
     {
-      "id": "4959d5d1ac94",
-      "title": "AIへの指示、「いつもの一言」を変えるだけで精度が上がる理由",
-      "url": "https://zenn.dev/sunsun_eng/articles/improve-ai-prompt-precision-tips",
-      "publishedAt": "2026-10-29T11:49:04.000Z",
-      "publisher": "すんすん",
-      "summary": "AIへの指示、「いつもの一言」を変えるだけで精度が上がる理由 Claude CodeやChatGPTに「いい感じにして」「これ直しておいて」とだけ伝えて、思っていたのと違う出力が返ってきた経験はないでしょうか。原因は多くの場合、AIの性能…"
+      "id": "0fbd4cef8441",
+      "title": "AIコーディングで絶対に開発前に整理する6つのこと",
+      "url": "https://zenn.dev/bur/articles/ai-coding-six-planning-docs",
+      "publishedAt": "2026-10-29T17:18:21.000Z",
+      "publisher": "au-aii",
+      "summary": "バイブコーディングで「動いたし、次の機能も」と進めていると、最初に作りたかったものからズレていく。そんなドリフトを防ぐために、開発前に整理しておきたいことが6つある。 最初に、目的と前提をそろえる 人同士なら会話で補っていた背景も、AIに…"
     },
     {
-      "id": "3f13ae33bbff",
-      "title": "コーディング AI の導入を判断する情報セキュリティ担当者のための参考書",
-      "url": "https://zenn.dev/mika_and_coco/books/coding-ai-infosec-guide",
-      "publishedAt": "2026-10-29T11:40:46.000Z",
-      "publisher": "みか あんど ここ",
-      "summary": "Claude Code などのコーディング AI に、社内のコードや顧客の資料を読ませてよいか。コーディング AI の導入を判断する情報セキュリティ担当者に向けて、何が送られ、送った先でどう扱われ、どこで処理されるかを公式資料で確かめ、法…"
+      "id": "7c943978363a",
+      "title": "Gemini 4 Carbonが1位、でもまだ使えない理由",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261029",
+      "publishedAt": "2026-10-29T16:51:52.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年10月29日（木）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は、Googleが出した「1位なのに、まだ使えない」新しいAIの話から入ります。それから、AI検索の広告が世界に広がる話、無料…"
     },
     {
-      "id": "616b7714bc3b",
-      "title": "AI にデバッグ用の機能を書かせても、脆弱性にしないために",
-      "url": "https://zenn.dev/yasuakiomokawa/articles/5a7188483acfe7",
-      "publishedAt": "2026-10-29T11:30:33.000Z",
-      "publisher": "Yasuaki Omokawa",
-      "summary": "サマリー デバッグAPIを本番にビルドしない構成にすることで、安全と利便性を両立させました。構成要素は以下のとおりです： 本番のコードは、自分が本番かどうかを知りません。環境変数で振る舞いを変える分岐を持ちません 本番は開発用のディレクト…"
+      "id": "f98db380b248",
+      "title": "絶対ルール**:",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-21-market-daily",
+      "publishedAt": "2026-10-29T16:50:19.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 米国市場でNASDAQが+2.26%、S&P500が+1.49%と大幅に上昇する中、日経平均株価も65,018.95円（+1.38%）と堅調に推移しています。暗号資産市場ではビットコインが+6.67%と急騰し86,557.30ドルを記…"
     },
     {
-      "id": "cc0246bbed89",
-      "title": "Keep the motion, change the cast: a motion-transfer video workflow",
-      "url": "https://zenn.dev/vulcanfeynman/articles/7d5c4d36e6c08c",
-      "publishedAt": "2026-10-29T10:55:51.000Z",
-      "publisher": "VulcanFeynman",
-      "summary": "Keep the motion, change the cast: a motion-transfer video workflow Sometimes the hard part of a video is already solved…"
+      "id": "dd5916f4df88",
+      "title": "AI Stem Separation for Remix & Practice (Quick Guide)",
+      "url": "https://zenn.dev/musicraft/articles/cbea5fbe3a4ce0",
+      "publishedAt": "2026-10-29T16:49:38.000Z",
+      "publisher": "MusiCraft",
+      "summary": "Need vocals alone, drums muted, or a karaoke bed - but you only have a stereo bounce? AI stem separation splits a mix i…"
     },
     {
-      "id": "f7afee92d4fc",
-      "title": "MCP のエラーは2種類：プロトコルエラーと isError の使い分け",
-      "url": "https://zenn.dev/sakinisen/articles/132a56c40f9aab",
-      "publishedAt": "2026-10-29T10:27:15.000Z",
-      "publisher": "先に線を引く",
-      "summary": "MCP（Model Context Protocol）のサーバーを作ると、最初につまずくのが「エラーをどう返すか」です。仕様には失敗の返し方が2種類あり、混ぜるとモデルが自分で直せなくなります。この記事では、公式仕様（2026-07-28…"
+      "id": "47181686cea3",
+      "title": "AIエージェントのセキュリティ：異常検知は作れる、でも“正常の保守”と検出器の守りは自分で設計するしかない",
+      "url": "https://zenn.dev/yasunami_daichi/articles/normal-is-human-deviation-is-ai",
+      "publishedAt": "2026-10-29T16:16:27.000Z",
+      "publisher": "安並　大智",
+      "summary": "対象読者は、日本でサイバー攻撃への対処を考える立場で、自前の AI エージェントを動かす系を守る設計・運用者である。攻撃がどこを突くかにも触れるが、目的は守る側の設計を立てることにある。 2026年10月1日、能動的サイバー防御の主要部分…"
     },
     {
-      "id": "6e0764234f7e",
-      "title": "Claude Code の PowerShell で日本語が文字化けする原因と直し方：Windows の Get-Content",
-      "url": "https://zenn.dev/tamao825/articles/claude-code-powershell-mojibake-get-set-content",
-      "publishedAt": "2026-10-29T10:00:05.000Z",
-      "publisher": "tamao",
-      "summary": "Windows の Claude Code の PowerShell ツール（Windows PowerShell 5.1）で、読んだファイルの日本語が化けた、書き換えさせたファイルが壊れた、というときは、Get-Content・Set-…"
+      "id": "3c479535ba04",
+      "title": "Claude Code に最初の依頼を出して、差分を読んでから承認するまで",
+      "url": "https://zenn.dev/deepai/articles/claude-code-first-request-diff-approve",
+      "publishedAt": "2026-10-29T15:45:05.000Z",
+      "publisher": "deepai",
+      "summary": "この記事で扱うこと Claude Code を入れたあと、最初の1回で何を頼み、どの画面で何を確認するか。この記事では**「確認が入るモードにして、読み取りの依頼から始め、書き込みの差分を読んで承認する」**流れだけを説明します。画面は、…"
     },
     {
-      "id": "add60d876198",
-      "title": "prompt-recipeを直してv0.3.0にした話 — Grok Botで設計して、Codexに書かせてみた",
-      "url": "https://zenn.dev/mt4110/articles/prompt-recipe-ux-grokbot-codex",
-      "publishedAt": "2026-10-29T09:45:39.000Z",
-      "publisher": "mt4110",
-      "summary": "この記事の対象読者と伝えたいこと 対象読者 個人開発でアプリを作ったのに、気づいたら自分でも使っていない人 AIエージェントに「設計・評価」と「実装」を分けて任せると、どこまで進むのか知りたい人 プロンプトをAIに貼る前に、APIキーや個…"
+      "id": "c3d0df751687",
+      "title": "Claude Code（クロードコード）を新しい環境に入れて最初の作業まで――初心者がつまずく3か所を実画面で確認した（v2.1.304）",
+      "url": "https://zenn.dev/deepai/articles/claude-code-cm-article",
+      "publishedAt": "2026-10-29T15:45:04.000Z",
+      "publisher": "deepai",
+      "summary": "この記事について AI企業・クリスタルメソッド株式会社で、Claude Code を日々の業務で使っているチームの記録です。 2026年10月20日に、Claude Code v2.1.304 をまっさらなフォルダにインストールし、初めて…"
     },
     {
-      "id": "5da45e076916",
-      "title": "Google's Strongest Gemini Is One You Can't Use Yet",
-      "url": "https://zenn.dev/neotechpark/articles/46633d0d8672df",
-      "publishedAt": "2026-10-29T09:37:55.000Z",
-      "publisher": "NeoTechPark",
-      "summary": "Google just announced its \"strongest\" Gemini model. In the same announcement, it told almost everyone that they cannot …"
+      "id": "baeb0d1914d3",
+      "title": "組込み開発から考える、これからのソフトウェアエンジニアリング",
+      "url": "https://zenn.dev/tomoya_watanabe/articles/07435c3a511c77",
+      "publishedAt": "2026-10-29T14:45:59.000Z",
+      "publisher": "渡邉 智哉",
+      "summary": "はじめまして。渡邉 智哉です。 これまで無人ヘリコプターの制御ソフトウェアをはじめ、 C/C++やRTOSを用いた組込みソフトウェア開発に携わってきました。 今回、技術について学んだことや、ソフトウェア開発に対する 自分なりの考えを残して…"
     }
   ],
-  "fetchedAt": "2026-10-29T18:51:28.939Z",
+  "fetchedAt": "2026-10-29T23:05:04.438Z",
   "stale": false,
   "error": null
 }
