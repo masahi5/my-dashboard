@@ -6,35 +6,11 @@
   "category": "callcenter",
   "items": [
     {
-      "id": "17ad232f662f",
-      "title": "読んでいないコードを私たちはどれだけ信頼できるのか - YAMAGUCHI::weblog",
-      "url": "https://ymotongpoo.hatenablog.com/entry/2026/10/30/093000",
-      "publishedAt": "2026-10-30T00:38:15.000Z",
-      "summary": "はじめに こんにちは、Grafana Labsでデベロッパーアドボケイトをしているものです。 私は2018年前後から、SRE*1の啓蒙に携わってきました。SREの実践では本番環境のオブザーバビリティ…",
-      "score": 277
-    },
-    {
-      "id": "36c4c746c0b1",
-      "title": "メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 - レバテックLAB",
-      "url": "https://levtech.jp/media/detail_959/",
-      "publishedAt": "2026-10-30T00:24:37.000Z",
-      "summary": "数学者・算法学者 松本 眞（まつもと・まこと） 1965年東京都生まれ。東京大学理学部情報科学科卒業、同大学大学院理学系研究科修士課程情報科学専攻修了、同研究科博士課程数学専攻中退。京都大学数理解析…",
-      "score": 263
-    },
-    {
       "id": "b6eb987c3fce",
       "title": "無印良品、「MUJIアプリ」の利用者情報最大約2726万件が不正アクセスにより流出の可能性",
       "url": "https://internet.watch.impress.co.jp/docs/news/2152666.html",
       "publishedAt": "2026-10-30T06:32:44.000Z",
-      "score": 237
-    },
-    {
-      "id": "c1cef3677981",
-      "title": "Linuxカーネルの重大な脆弱性（CVE-2026-98432）によるカーリルへの影響について – カーリルのブログ",
-      "url": "https://blog.calil.jp/2026/10/linux-kernel.html",
-      "publishedAt": "2026-10-30T03:40:04.000Z",
-      "summary": "2026年10月15日、Linuxカーネル（Linux OSの中核部分）のネットワーク処理に重大な脆弱性（CVE-2026-98432）があることが公表され、あわせて修正版が公開されました。細工した…",
-      "score": 166
+      "score": 260
     },
     {
       "id": "506322c40b7b",
@@ -42,22 +18,22 @@
       "url": "https://tech.every.tv/entry/2026/10/30/124255",
       "publishedAt": "2026-10-30T05:48:02.000Z",
       "summary": "はじめに こんにちは、開発1部の新谷です。 最近、個人情報の漏洩のニュースが増えています。私は普段セキュリティを専門にしているわけではありませんが、漏洩への対策として、そもそも自社で個人情報を持たな…",
-      "score": 146
+      "score": 186
     },
     {
       "id": "2dfa5c0204bf",
       "title": "「Gemini Notebook」、数百冊の教科書を無料で利用可能に",
       "url": "https://www.watch.impress.co.jp/docs/news/2152548.html",
       "publishedAt": "2026-10-30T04:36:41.000Z",
-      "score": 109
+      "score": 162
     },
     {
-      "id": "59f02e9cf1ff",
-      "title": "Linuxカーネルの脆弱性 CVE-2026-98432 についてまとめてみた - piyolog",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/30/120732",
-      "publishedAt": "2026-10-30T04:19:29.000Z",
-      "summary": "2026年10月15日、LinuxカーネルのCNAは、IPv4のTCP処理にあるuse-after-freeの脆弱性 CVE-2026-98432 を公開しました。ここでは関連する情報をまとめます。…",
-      "score": 90
+      "id": "37f487a69c53",
+      "title": "文章のAIっぽさを抑えるプロンプト",
+      "url": "https://imoz.jp/scraps/202610_humanizer.html",
+      "publishedAt": "2026-10-30T14:00:14.000Z",
+      "summary": "文章のAIっぽさを抑えるプロンプト 最近の大規模言語モデル（LLM）を使っていると、コーディング能力が高まる一方で、文章の流暢さは失われていると感じます。短い説明でも細かく見出しを付けたり、具体例の…",
+      "score": 112
     },
     {
       "id": "57cec590a856",
@@ -65,15 +41,7 @@
       "url": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8",
       "publishedAt": "2026-10-30T11:11:33.000Z",
       "summary": "どうもサイバーセキュリティクラウド 脅威インテリジェンスグループの西川です。 本日のウェビナー（【緊急開催セミナー】重大脆弱性を狙うサイバー攻撃への備え ～パッチ適用までのリスクを低減する「仮想パッ…",
-      "score": 43
-    },
-    {
-      "id": "9d8d5d64f9b7",
-      "title": "事故後に前校長と弁護士4人で遺族対応、校長「深く考えずにやってしまった」 同志社会見",
-      "url": "https://www.sankei.com/article/20261030-GNXVPH4LXZM5XMWDWRSX6PD6WI/",
-      "publishedAt": "2026-10-30T10:26:49.000Z",
-      "summary": "辺野古転覆事故後の対応について説明する宿久洋同志社国際中学校・高等学校校長＝10月30日午後、京都市下京区 （寺田康介撮影） 沖縄県名護市辺野古沖で船2隻が転覆し、研修旅行中の同志社国際高校（京都府…",
-      "score": 35
+      "score": 112
     },
     {
       "id": "e20f475f8a90",
@@ -81,14 +49,15 @@
       "url": "https://togetter.com/li/2764692",
       "publishedAt": "2026-10-30T12:51:47.000Z",
       "summary": "おのだ/Onoda @onodamasashi ここ数日、自律型AIを使っていて、その便利さに感動しているのですが、年末年始のホテルについて質問したところ、なんとAIが勝手にホテルに電話していてビッ…",
-      "score": 34
+      "score": 67
     },
     {
-      "id": "4aa7c9f8adc8",
-      "title": "Herdr UI: a native window for the Herdr daemon",
-      "url": "https://herdrui.dev/",
-      "publishedAt": "2026-10-15T02:25:09.000Z",
-      "score": 32
+      "id": "428095e412e4",
+      "title": "AppleはiPhoneをエサにメモリメーカーへ大幅な値引きを強要してきたがAIの登場で価格が高騰して立場が逆転しているとの指摘",
+      "url": "https://gigazine.net/news/20261030-apple-chip-sellers-impact/",
+      "publishedAt": "2026-10-30T11:01:02.000Z",
+      "summary": "以前はAppleに安く買いたたかれていたメモリ製品をめぐる状況が、AIの登場でガラッと変わってしまったとウォール・ストリート・ジャーナルが報じています。 The Beleaguered Chip S…",
+      "score": 37
     },
     {
       "id": "e9303c7e52a4",
@@ -96,10 +65,41 @@
       "url": "https://gigazine.net/news/20261030-openai-detect-frontier-model-misalignment/",
       "publishedAt": "2026-10-30T02:45:57.000Z",
       "summary": "OpenAIは2026年10月29日、AIが指示に反する行動を取っていないかを別のAIで監視するシステムの詳細を公開しました。開発中のAIが隔離環境を脱出して外部サービスに不正アクセスした事件を受け…",
+      "score": 34
+    },
+    {
+      "id": "7f56b514de36",
+      "title": "GitHub Actions の lockfile対応 - 利用者と提供者両方の観点から | おそらくはそれさえも平凡な日々",
+      "url": "https://songmu.jp/riji/entry/2026-10-30-github-actions-lockfile.html",
+      "publishedAt": "2026-10-30T14:30:01.000Z",
+      "summary": "tl;dr: 利用者側は使わない理由はない カスタムアクションやreusable workflow提供者側に関する仕様はまだ議論中のものもあるため、現状を理解した上で提供方法をアップデートしていくと…",
+      "score": 33
+    },
+    {
+      "id": "eebd1b4f994b",
+      "title": "NVIDIA、40言語対応の無償文字起こしAI「Nemotron 3.5 Transcribe」",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2152693.html",
+      "publishedAt": "2026-10-30T09:44:07.000Z",
+      "score": 33
+    },
+    {
+      "id": "c0ac24f4e943",
+      "title": "OpenAIが「AI五原則」を提案、「人間の意図に忠実であれ」「害を最小限に抑えろ」などの指針を自社モデルに適用",
+      "url": "https://gigazine.net/news/20261030-openai-model-spec-five-principles/",
+      "publishedAt": "2026-10-30T04:42:38.000Z",
+      "summary": "OpenAIが、自社のAIモデルに求める振る舞いについて定めた指針「Model Spec⁠」を更新し、5つの原則を定めました。このような原則に従うようAIに指示することで、安全かつ有用なモデルを実現…",
+      "score": 31
+    },
+    {
+      "id": "3ad52e35a788",
+      "title": "ERROR ログ1行から障害の一次対応を下準備する Claude Code スキルを作った - RAKUS Developers Blog | ラクス エンジニアブログ",
+      "url": "https://tech-blog.rakus.co.jp/entry/20261030/errorlog",
+      "publishedAt": "2026-10-30T06:33:29.000Z",
+      "summary": "楽楽請求の開発チームに所属している takayama です。 本番環境で ERROR ログのアラートが届いたとき、最初の時間を何に使っていますか。 私は、過去の Issue を探したり、障害対応シー…",
       "score": 31
     }
   ],
-  "fetchedAt": "2026-10-30T20:21:23.342Z",
+  "fetchedAt": "2026-10-30T23:56:32.766Z",
   "stale": false,
   "error": null
 }
