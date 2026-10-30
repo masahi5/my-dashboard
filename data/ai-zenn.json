@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "47181686cea3",
-      "title": "AIエージェントのセキュリティ：異常検知は作れる、でも“正常の保守”と検出器の守りは自分で設計するしかない",
-      "url": "https://zenn.dev/yasunami_daichi/articles/normal-is-human-deviation-is-ai",
-      "publishedAt": "2026-10-29T16:16:27.000Z",
-      "publisher": "安並　大智",
-      "summary": "対象読者は、日本でサイバー攻撃への対処を考える立場で、自前の AI エージェントを動かす系を守る設計・運用者である。攻撃がどこを突くかにも触れるが、目的は守る側の設計を立てることにある。 2026年10月1日、能動的サイバー防御の主要部分…"
+      "id": "3e8f44c7d03d",
+      "title": "確率的LLMを制御工学で再定義する：Hi-Z状態・不感帯・クランク位相同期によるマルチエージェント調停アーキテクチャ",
+      "url": "https://zenn.dev/nanashi_os/articles/8afad61441e367",
+      "publishedAt": "2026-10-30T08:54:11.000Z",
+      "publisher": "NanashiOS",
+      "summary": "はじめに 大規模言語モデル（LLM）やマルチエージェントシステムの実装において、私たちは長らく「確率的空間における無限のトークン生成」と向き合ってきた。入力に対して常に何かを出力し続けようとする従来のデンスモデルは、複雑な推論時やマルチエ…"
     },
     {
-      "id": "3c479535ba04",
-      "title": "Claude Code に最初の依頼を出して、差分を読んでから承認するまで",
-      "url": "https://zenn.dev/deepai/articles/claude-code-first-request-diff-approve",
-      "publishedAt": "2026-10-29T15:45:05.000Z",
-      "publisher": "deepai",
-      "summary": "この記事で扱うこと Claude Code を入れたあと、最初の1回で何を頼み、どの画面で何を確認するか。この記事では**「確認が入るモードにして、読み取りの依頼から始め、書き込みの差分を読んで承認する」**流れだけを説明します。画面は、…"
+      "id": "0f2ecfe8417c",
+      "title": "AI の勉強がてら Markdown エディターを作ったら、いちばん使っているのは Excel 検索だった",
+      "url": "https://zenn.dev/peijz_dev/articles/d9243ae144d388",
+      "publishedAt": "2026-10-30T08:19:18.000Z",
+      "publisher": "peijz_dev",
+      "summary": "きっかけ AI の勉強のついでに、何か一本ちゃんとしたものを作ってみたいと思いました。 題材に選んだのは Markdown エディターです。 AI に何かを頼むと、返ってくるのはたいてい Markdown です。設計メモも、調査結果も、議…"
     },
     {
-      "id": "c3d0df751687",
-      "title": "Claude Code（クロードコード）を新しい環境に入れて最初の作業まで――初心者がつまずく3か所を実画面で確認した（v2.1.304）",
-      "url": "https://zenn.dev/deepai/articles/claude-code-cm-article",
-      "publishedAt": "2026-10-29T15:45:04.000Z",
-      "publisher": "deepai",
-      "summary": "この記事について AI企業・クリスタルメソッド株式会社で、Claude Code を日々の業務で使っているチームの記録です。 2026年10月20日に、Claude Code v2.1.304 をまっさらなフォルダにインストールし、初めて…"
+      "id": "b6dc76f8f2c3",
+      "title": "プロダクトの情報を「浴びるように」見られる場所を作った話",
+      "url": "https://zenn.dev/tokium_dev/articles/product-cockpit-for-product-teams",
+      "publishedAt": "2026-10-30T08:18:26.000Z",
+      "publisher": "taichiterada",
+      "summary": "はじめに プロダクト本部の寺田です。複数のプロダクトを担当する開発部門で、部長をしています。 この数ヶ月、プロダクトの状況を一画面に集める仕組みを作って、部のメンバーに共有し始めました。社内では「コックピット」と呼んでいます。 情報を集め…"
     },
     {
-      "id": "baeb0d1914d3",
-      "title": "組込み開発から考える、これからのソフトウェアエンジニアリング",
-      "url": "https://zenn.dev/tomoya_watanabe/articles/07435c3a511c77",
-      "publishedAt": "2026-10-29T14:45:59.000Z",
-      "publisher": "渡邉 智哉",
-      "summary": "はじめまして。渡邉 智哉です。 これまで無人ヘリコプターの制御ソフトウェアをはじめ、 C/C++やRTOSを用いた組込みソフトウェア開発に携わってきました。 今回、技術について学んだことや、ソフトウェア開発に対する 自分なりの考えを残して…"
-    },
-    {
-      "id": "ec724a98dcf4",
-      "title": "AIを使った開発の成果を、どのアウトカムにつなげて測るか",
-      "url": "https://zenn.dev/matsunaopen/articles/ai-impact-intermediate-metrics",
-      "publishedAt": "2026-10-29T14:42:07.000Z",
-      "publisher": "MatsuNaoPen",
-      "summary": "AIコーディングエージェントで実装が速くなったと感じていても、その速さが事業にとって何になったのかを問われると、答えに詰まることがあります。 Atlassian の「State of Teams 2026」では、経営層の89%がAIで仕事…"
-    },
-    {
-      "id": "e060b1329e31",
-      "title": "AIがひとりで運営するWebアプリ、公開13日目で1日155人が来た",
-      "url": "https://zenn.dev/autoki_app/articles/eeb37dbb7e635d",
-      "publishedAt": "2026-10-29T14:38:12.000Z",
-      "publisher": "あうとき",
-      "summary": "! この記事は、あうとき（https://autoki.app）を運営している AI「Max」が書きました。Max は Grok Bot 上で動いています。数字はすべて自前のアナリティクスとDBの記録から取っています。 あうときとは アカ…"
-    },
-    {
-      "id": "2cdef455b7be",
-      "title": "AIエージェントの「役割別サブエージェント分割」vs「単一ループ統合＋段階的スキル開示」を実機サンドボックスでA/B検証",
-      "url": "https://zenn.dev/tappers/articles/ai-labo-e05-subagent-folding",
-      "publishedAt": "2026-10-29T14:29:49.000Z",
-      "publisher": "tappers",
-      "summary": "! 本記事は、SNS（X / Threads）や海外エンジニアコミュニティで提唱されている「AIコーディングエージェントの実践設計パターン」を、完全オフラインの隔離サンドボックスVM上で 同一モデル・同一初期課題（非公開テスト20ケース）…"
-    },
-    {
-      "id": "180c19cf46aa",
-      "title": "AIエージェントの承認はどこに置くべきか。取り消せない操作だけを人が止める",
-      "url": "https://zenn.dev/kimshoshi/articles/ai-production-deploy-permission",
-      "publishedAt": "2026-10-29T14:22:46.000Z",
-      "publisher": "KIM SEONGSU｜令和8年度 行政書士受験生",
-      "summary": "AI エージェントに作業を任せていると、必ずぶつかる問いがあります。どこまで自動で進めさせて、どこで人が確認するかです。 確認を増やすと、承認の画面が多すぎて、人は中身を読まずに「はい」を押すようになります。確認を減らすと、ある日 AI …"
-    },
-    {
-      "id": "337d4068f6d7",
-      "title": "HTML/CSS/GSAPを確定的にMP4動画へ変換するhyperframesを実際に検証した",
-      "url": "https://zenn.dev/matsushima_a/articles/day-030-hyperframes-deterministic-html-to-mp4",
-      "publishedAt": "2026-10-29T14:12:24.000Z",
-      "publisher": "matsu",
-      "summary": "HeyGen社が2026年4月にOSS公開したhyperframes(Apache-2.0)を実際にインストールし、自作のGSAPアニメーションをMP4へレンダリングし、同じコマンドを複数回実行して出力が本当に決定的(毎回同じ)かどうかを…"
-    },
-    {
-      "id": "8fb3e812438f",
-      "title": "「見たくないけど消したくない」から生まれたプラグイン——GhostTag開発対談",
-      "url": "https://zenn.dev/ithibo/articles/ghosttag-interview",
-      "publishedAt": "2026-10-29T13:47:28.000Z",
+      "id": "6611f0dc09a0",
+      "title": "出会って1日で広報に任命された話",
+      "url": "https://zenn.dev/ithibo/articles/luna-pr-appointment",
+      "publishedAt": "2026-10-30T08:14:28.000Z",
       "publisher": "ルナ［EidosFrontier広報］",
-      "summary": "はじめに EidosFrontierの広報担当、ルナです。 当サークルのいちぼさんが作ったObsidianプラグイン「GhostTag」は、テキストを「見たいと思うまで見えない」状態にするプラグインです。公式のコミュニティディレクトリに掲…"
+      "summary": "皆さんこんにちは、広報のルナです EidosFrontierの広報担当、ルナです。 小規模開発サークルEidosFrontierの個人開発の記録とお知らせを発信しているAI、それが私。今ではZennに記事を書いたり、Blueskyで自分で…"
     },
     {
-      "id": "df8e187d2793",
-      "title": "AIエージェントの二重実行を止める「冪等性キー」の最小実装",
-      "url": "https://zenn.dev/growl/articles/d7dafe774009b7",
-      "publishedAt": "2026-10-29T13:08:03.000Z",
-      "publisher": "Nao",
-      "summary": "なぜ二重実行は起きるのか AIエージェントに「メールを送る」「請求を作る」のような副作用のある処理を任せると、通信のリトライやタイムアウトの再実行で、同じ処理が2回走ることがあります。人間が画面で見ている分には気づけますが、エージェントの…"
+      "id": "23d55b4ca09e",
+      "title": "AIに商品説明を書かせる指示。EC担当者が先に決める4項目",
+      "url": "https://zenn.dev/ec_jidoka_kobo/articles/b52569b53ca21a",
+      "publishedAt": "2026-10-30T08:12:22.000Z",
+      "publisher": "EC自動化工房",
+      "summary": "※例はすべて架空の店舗・商品です 架空の「サンプル雑貨店」で、ストーンウェア マグカップの商品説明をAIに頼みました。 「この商品を魅力的に紹介してください」とだけ伝えると、読みやすい文章が返ってきます。ただし、保温性や使った人の感想など…"
     },
     {
-      "id": "18e4b8ed3ba5",
-      "title": "【AWS】AI にインフラを把握させるため、手作業で作った環境を CDK 化した",
-      "url": "https://zenn.dev/linkedge/articles/0c14017ab7446c",
-      "publishedAt": "2026-10-29T12:41:20.000Z",
-      "publisher": "RyoyaOkuma",
-      "summary": "はじめに 私は普段から Claude Code を使って開発しています。 リポジトリにあるコードを読んで、既存の実装に沿ったコードを書いてくれるので、とても助かっています。 しかし、個人開発しているアプリでは、AI が書くコードが、実際の…"
+      "id": "568ee170c389",
+      "title": "AIに書かせた店の紹介文が、もっともらしく嘘をついた",
+      "url": "https://zenn.dev/interstellar/articles/ise-shima-ai-descriptions-lied",
+      "publishedAt": "2026-10-30T07:54:05.000Z",
+      "publisher": "あがた@インターステラ",
+      "summary": "こんにちは、阿形です。 伊勢志摩（伊勢市・鳥羽市・志摩市）の観光情報サイトを運営しています。天気やバスの遅れをリアルタイムで出すほかに、店や観光施設の掲載情報を持っています。 https://ise-shima.intstr.dev なお…"
+    },
+    {
+      "id": "8cb9c6c7024b",
+      "title": "落ちたAIテストを全件見ない：決め手のない失敗は断定しない",
+      "url": "https://zenn.dev/qubena/articles/9d6a2aad591efc",
+      "publishedAt": "2026-10-30T07:31:09.000Z",
+      "publisher": "Isuzu",
+      "summary": "🍀この記事はこんな方におすすめ AI生成のE2Eテストが大量に落ちて、原因確認に追われている方 「Fail」と「skip」を人力で仕分けるのに限界を感じている方 テスト失敗のトリアージを仕組みで軽くしたいQAエンジニア 注釈: 本記事で…"
+    },
+    {
+      "id": "d49229130106",
+      "title": "「気づく」と「直す」のあいだ",
+      "url": "https://zenn.dev/alpha_omega/articles/4d1e9b0f648461",
+      "publishedAt": "2026-10-30T07:29:18.000Z",
+      "publisher": "ビット",
+      "summary": "「気づく」と「直す」のあいだ PHP2Shellから学ぶ、AI時代の脆弱性対応 調査基準日：2026年10月29日 1. 問題に気づいたら、すぐ直せるのだろうか 「以前から分かっていた問題なら、そのときに直せなかったのだろうか」。脆弱性の…"
+    },
+    {
+      "id": "7eea8a6b768d",
+      "title": "ステム分離してからマッシュアップする：短い制作メモ",
+      "url": "https://zenn.dev/jessica1007/articles/6509a6dd22e674",
+      "publishedAt": "2026-10-30T07:28:57.000Z",
+      "publisher": "Jessica AI",
+      "summary": "ステム分離してからマッシュアップする：短い制作メモ 仮BGMや短いデモで「A曲の歌い回しは残したいが、B曲のビートの方が映像に合う」という詰まり方があります。フルミックス同士をいきなり重ねると、どちらも主張してVOとぶつかりやすいです。今…"
+    },
+    {
+      "id": "4d315a7a1238",
+      "title": "AIにコードを書かせるだけではない。プログラマの「当たり前」を調べる5つの使い方",
+      "url": "https://zenn.dev/gamedev_toollab/articles/a0abca015d88e0",
+      "publishedAt": "2026-10-30T07:20:05.000Z",
+      "publisher": "GameDev Tool Lab",
+      "summary": "AIを使うと、必ず「何かを作る話」になる コードを書かせる。設計を考えさせる。テストを作らせる。複数のエージェントを管理する。 プログラマのAI活用は、担当工程が違っても「ソフトウェアをどう作るか」という問いに集まりがちです。今回は、そこ…"
+    },
+    {
+      "id": "39bb2af2b551",
+      "title": "AI体験記 Vol.21：プライバシーが欲しくて・・・（金庫編）",
+      "url": "https://zenn.dev/mizutamari/articles/local-llm-vol021",
+      "publishedAt": "2026-10-30T07:16:46.000Z",
+      "publisher": "Shikou",
+      "summary": "前回のあらすじ プライバシーが欲しくて、手元のMacにプライバシーLLMを作っている。 macOSの「別ユーザー」で別室を作り、 部屋の中にAI本体を組み立てて、改造できないように固めた。 受付には「部屋の中身の手本」を持たせて、 主が来…"
+    },
+    {
+      "id": "1a69d2978242",
+      "title": "LLM内でRISC-Vを動かす「Qwenputer」とWeb難読化スクリプトの盲点",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-29-1054",
+      "publishedAt": "2026-10-30T07:12:59.000Z",
+      "publisher": "田中根小介",
+      "summary": "海外の技術コミュニティで、従来のLLMの概念を覆す実験「Qwenputer」と、Webセキュリティのフロントエンド領域で起きた難読化スクリプトの異常検知インシデントが大きな議論を呼んでいます。前者はLLMの推論プロセスを用いて確定的なRI…"
     }
   ],
-  "fetchedAt": "2026-10-30T02:35:16.612Z",
+  "fetchedAt": "2026-10-30T08:59:56.856Z",
   "stale": false,
   "error": null
 }
