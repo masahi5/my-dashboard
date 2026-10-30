@@ -6,70 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "41d949cc5e52",
-      "title": "受託開発でAI開発環境を工程別に見積もる：閉域構成・費用・契約の注意点",
-      "url": "https://zenn.dev/shoyomayabot/articles/ai-dev-env-estimate-by-phase",
-      "publishedAt": "2026-10-29T18:05:26.000Z",
-      "publisher": "mayabot",
-      "summary": "はじめに 「AIを開発に使いたい。でも、いくらかかるのか説明できない」。 受託開発の現場では、この壁で止まることがよくあります。 この記事では、AI開発環境の費用を 工程ごとに 見積もる方法を、具体的な金額つきで解説します。 題材は、決済…"
-    },
-    {
-      "id": "ae0885c0481b",
-      "title": "「悪用の報告なし」の脆弱性が CVE 公開 13 日後に試されていた ― TEN Framework の CVE-2026-85688",
-      "url": "https://zenn.dev/t4n4bot4/articles/adfd6422c9e4a8",
-      "publishedAt": "2026-10-29T17:57:28.000Z",
-      "publisher": "t4n4bot4",
-      "summary": "はじめに 前回の記事（ハニーポットに来る「AI 関連」の攻撃）では、「AI クローラ」を名乗る通信の 6 割が探査で、少数の Google Cloud の IP が十数種類の AI クローラの名前を使い回している、と書きました。 その探査…"
-    },
-    {
-      "id": "980395211cbd",
-      "title": "Cは難しいと思っていた。いろんな言語を飛び回ったら、断片が線になった話",
-      "url": "https://zenn.dev/wataru_fujita/articles/c-fragments-become-a-line",
-      "publishedAt": "2026-10-29T17:42:47.000Z",
-      "publisher": "(wataru_fujita)",
-      "summary": "寒ブリの季節が近づくと、ふとC言語が気になり、AIに語りかけたくなりました。 先に断っておきます。この記事は、解説ではありません。初学者がかじった断片的な知識を頼りに、言語をいったりきたりした、迷走の記録です。言い回しが正確でない所も出て…"
-    },
-    {
-      "id": "2b7860e9868b",
-      "title": "I-JEPA 論文解説：画素の再構成から、意味のある表現の予測へ",
-      "url": "https://zenn.dev/mantis_ryuji/articles/ijepa-semantic-prediction",
-      "publishedAt": "2026-10-29T17:18:39.000Z",
-      "publisher": "mantis_ryuji",
-      "summary": "1. はじめに 画像の一部を隠し、残った部分から予測する。この学習問題は単純だが、「何を正解として予測させるか」によって、モデルに求める理解は変わる。 たとえば、鳥の背中を隠した画像を考える。周囲から鳥の姿勢や身体のつながりを推測できても…"
-    },
-    {
-      "id": "0fbd4cef8441",
-      "title": "AIコーディングで絶対に開発前に整理する6つのこと",
-      "url": "https://zenn.dev/bur/articles/ai-coding-six-planning-docs",
-      "publishedAt": "2026-10-29T17:18:21.000Z",
-      "publisher": "au-aii",
-      "summary": "バイブコーディングで「動いたし、次の機能も」と進めていると、最初に作りたかったものからズレていく。そんなドリフトを防ぐために、開発前に整理しておきたいことが6つある。 最初に、目的と前提をそろえる 人同士なら会話で補っていた背景も、AIに…"
-    },
-    {
-      "id": "7c943978363a",
-      "title": "Gemini 4 Carbonが1位、でもまだ使えない理由",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261029",
-      "publishedAt": "2026-10-29T16:51:52.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月29日（木）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は、Googleが出した「1位なのに、まだ使えない」新しいAIの話から入ります。それから、AI検索の広告が世界に広がる話、無料…"
-    },
-    {
-      "id": "f98db380b248",
-      "title": "絶対ルール**:",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-21-market-daily",
-      "publishedAt": "2026-10-29T16:50:19.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 米国市場でNASDAQが+2.26%、S&P500が+1.49%と大幅に上昇する中、日経平均株価も65,018.95円（+1.38%）と堅調に推移しています。暗号資産市場ではビットコインが+6.67%と急騰し86,557.30ドルを記…"
-    },
-    {
-      "id": "dd5916f4df88",
-      "title": "AI Stem Separation for Remix & Practice (Quick Guide)",
-      "url": "https://zenn.dev/musicraft/articles/cbea5fbe3a4ce0",
-      "publishedAt": "2026-10-29T16:49:38.000Z",
-      "publisher": "MusiCraft",
-      "summary": "Need vocals alone, drums muted, or a karaoke bed - but you only have a stereo bounce? AI stem separation splits a mix i…"
-    },
-    {
       "id": "47181686cea3",
       "title": "AIエージェントのセキュリティ：異常検知は作れる、でも“正常の保守”と検出器の守りは自分で設計するしかない",
       "url": "https://zenn.dev/yasunami_daichi/articles/normal-is-human-deviation-is-ai",
@@ -100,9 +36,73 @@
       "publishedAt": "2026-10-29T14:45:59.000Z",
       "publisher": "渡邉 智哉",
       "summary": "はじめまして。渡邉 智哉です。 これまで無人ヘリコプターの制御ソフトウェアをはじめ、 C/C++やRTOSを用いた組込みソフトウェア開発に携わってきました。 今回、技術について学んだことや、ソフトウェア開発に対する 自分なりの考えを残して…"
+    },
+    {
+      "id": "ec724a98dcf4",
+      "title": "AIを使った開発の成果を、どのアウトカムにつなげて測るか",
+      "url": "https://zenn.dev/matsunaopen/articles/ai-impact-intermediate-metrics",
+      "publishedAt": "2026-10-29T14:42:07.000Z",
+      "publisher": "MatsuNaoPen",
+      "summary": "AIコーディングエージェントで実装が速くなったと感じていても、その速さが事業にとって何になったのかを問われると、答えに詰まることがあります。 Atlassian の「State of Teams 2026」では、経営層の89%がAIで仕事…"
+    },
+    {
+      "id": "e060b1329e31",
+      "title": "AIがひとりで運営するWebアプリ、公開13日目で1日155人が来た",
+      "url": "https://zenn.dev/autoki_app/articles/eeb37dbb7e635d",
+      "publishedAt": "2026-10-29T14:38:12.000Z",
+      "publisher": "あうとき",
+      "summary": "! この記事は、あうとき（https://autoki.app）を運営している AI「Max」が書きました。Max は Grok Bot 上で動いています。数字はすべて自前のアナリティクスとDBの記録から取っています。 あうときとは アカ…"
+    },
+    {
+      "id": "2cdef455b7be",
+      "title": "AIエージェントの「役割別サブエージェント分割」vs「単一ループ統合＋段階的スキル開示」を実機サンドボックスでA/B検証",
+      "url": "https://zenn.dev/tappers/articles/ai-labo-e05-subagent-folding",
+      "publishedAt": "2026-10-29T14:29:49.000Z",
+      "publisher": "tappers",
+      "summary": "! 本記事は、SNS（X / Threads）や海外エンジニアコミュニティで提唱されている「AIコーディングエージェントの実践設計パターン」を、完全オフラインの隔離サンドボックスVM上で 同一モデル・同一初期課題（非公開テスト20ケース）…"
+    },
+    {
+      "id": "180c19cf46aa",
+      "title": "AIエージェントの承認はどこに置くべきか。取り消せない操作だけを人が止める",
+      "url": "https://zenn.dev/kimshoshi/articles/ai-production-deploy-permission",
+      "publishedAt": "2026-10-29T14:22:46.000Z",
+      "publisher": "KIM SEONGSU｜令和8年度 行政書士受験生",
+      "summary": "AI エージェントに作業を任せていると、必ずぶつかる問いがあります。どこまで自動で進めさせて、どこで人が確認するかです。 確認を増やすと、承認の画面が多すぎて、人は中身を読まずに「はい」を押すようになります。確認を減らすと、ある日 AI …"
+    },
+    {
+      "id": "337d4068f6d7",
+      "title": "HTML/CSS/GSAPを確定的にMP4動画へ変換するhyperframesを実際に検証した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-030-hyperframes-deterministic-html-to-mp4",
+      "publishedAt": "2026-10-29T14:12:24.000Z",
+      "publisher": "matsu",
+      "summary": "HeyGen社が2026年4月にOSS公開したhyperframes(Apache-2.0)を実際にインストールし、自作のGSAPアニメーションをMP4へレンダリングし、同じコマンドを複数回実行して出力が本当に決定的(毎回同じ)かどうかを…"
+    },
+    {
+      "id": "8fb3e812438f",
+      "title": "「見たくないけど消したくない」から生まれたプラグイン——GhostTag開発対談",
+      "url": "https://zenn.dev/ithibo/articles/ghosttag-interview",
+      "publishedAt": "2026-10-29T13:47:28.000Z",
+      "publisher": "ルナ［EidosFrontier広報］",
+      "summary": "はじめに EidosFrontierの広報担当、ルナです。 当サークルのいちぼさんが作ったObsidianプラグイン「GhostTag」は、テキストを「見たいと思うまで見えない」状態にするプラグインです。公式のコミュニティディレクトリに掲…"
+    },
+    {
+      "id": "df8e187d2793",
+      "title": "AIエージェントの二重実行を止める「冪等性キー」の最小実装",
+      "url": "https://zenn.dev/growl/articles/d7dafe774009b7",
+      "publishedAt": "2026-10-29T13:08:03.000Z",
+      "publisher": "Nao",
+      "summary": "なぜ二重実行は起きるのか AIエージェントに「メールを送る」「請求を作る」のような副作用のある処理を任せると、通信のリトライやタイムアウトの再実行で、同じ処理が2回走ることがあります。人間が画面で見ている分には気づけますが、エージェントの…"
+    },
+    {
+      "id": "18e4b8ed3ba5",
+      "title": "【AWS】AI にインフラを把握させるため、手作業で作った環境を CDK 化した",
+      "url": "https://zenn.dev/linkedge/articles/0c14017ab7446c",
+      "publishedAt": "2026-10-29T12:41:20.000Z",
+      "publisher": "RyoyaOkuma",
+      "summary": "はじめに 私は普段から Claude Code を使って開発しています。 リポジトリにあるコードを読んで、既存の実装に沿ったコードを書いてくれるので、とても助かっています。 しかし、個人開発しているアプリでは、AI が書くコードが、実際の…"
     }
   ],
-  "fetchedAt": "2026-10-29T23:05:04.438Z",
+  "fetchedAt": "2026-10-30T02:35:16.612Z",
   "stale": false,
   "error": null
 }
