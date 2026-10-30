@@ -6,44 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "019bd49e4b49",
-      "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
-      "url": "https://huggingface.co/papers/2610.36671",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make u…",
-      "score": 64
-    },
-    {
-      "id": "3a8260b4aa0d",
-      "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
-      "url": "https://huggingface.co/papers/2610.38568",
-      "publishedAt": "2026-10-28T00:00:00.000Z",
-      "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when thei…",
-      "score": 42
-    },
-    {
-      "id": "6f1ca04e9877",
-      "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
-      "url": "https://huggingface.co/papers/2610.40614",
+      "id": "167493c8a008",
+      "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+      "url": "https://huggingface.co/papers/2610.39301",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over …",
-      "score": 24
-    },
-    {
-      "id": "2fdb51c8a333",
-      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
-      "url": "https://huggingface.co/papers/2610.40647",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more to…",
-      "score": 10
-    },
-    {
-      "id": "8c3e8647e536",
-      "title": "Glance: The Generator Is Its Own Reranker",
-      "url": "https://huggingface.co/papers/2610.40454",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "Retrieval-augmented generation commonly serves separate models for reranking and answering, duplicating model residency…",
-      "score": 7
+      "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured r…",
+      "score": 20
     },
     {
       "id": "1af15c952361",
@@ -51,47 +19,15 @@
       "url": "https://huggingface.co/papers/2610.40453",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "summary": "We present PhysInsert, a framework for physically plausible reference-based object insertion that jointly adapts object…",
-      "score": 6
+      "score": 11
     },
     {
-      "id": "38eaaa44002e",
-      "title": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
-      "url": "https://huggingface.co/papers/2610.38342",
-      "publishedAt": "2026-10-28T00:00:00.000Z",
-      "summary": "Financial agents must form forecasts and investment judgments from decision-time evidence, with predictions evaluated a…",
-      "score": 6
-    },
-    {
-      "id": "a93a3524a6f8",
-      "title": "CoSTA: Compressed Speech Token Adaptation for Efficient Spoken Dialogue Models",
-      "url": "https://huggingface.co/papers/2610.21143",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Spoken Dialogue Models (SDMs) typically share a speech-token space for generation and synthesis, leading to long autore…",
-      "score": 6
-    },
-    {
-      "id": "0c72b7e2560b",
-      "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
-      "url": "https://huggingface.co/papers/2610.39663",
+      "id": "14fa5010b624",
+      "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+      "url": "https://huggingface.co/papers/2610.39302",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their …",
-      "score": 2
-    },
-    {
-      "id": "4384ac273412",
-      "title": "Multi-Token Prediction Done Right",
-      "url": "https://huggingface.co/papers/2610.38331",
-      "publishedAt": "2026-10-28T00:00:00.000Z",
-      "summary": "Multi-Token Prediction (MTP) is now a common ingredient in language-model pre-training, as it improves downstream perfo…",
-      "score": 2
-    },
-    {
-      "id": "41562434bd0b",
-      "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
-      "url": "https://huggingface.co/papers/2610.39264",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "While frontier vision-language models demonstrate strong capabilities in user interface (UI) navigation, their high inf…",
-      "score": 2
+      "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The P…",
+      "score": 3
     },
     {
       "id": "2594621a7491",
@@ -99,10 +35,74 @@
       "url": "https://huggingface.co/papers/2610.39287",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "summary": "Human cognition flexibly draws on a shared perceptual foundation to understand environments, attend to referenced entit…",
+      "score": 3
+    },
+    {
+      "id": "0c72b7e2560b",
+      "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+      "url": "https://huggingface.co/papers/2610.39663",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their …",
+      "score": 3
+    },
+    {
+      "id": "45093c069cb7",
+      "title": "Training Foundation Models with a Single Algorithm",
+      "url": "https://huggingface.co/papers/2610.40564",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforc…",
+      "score": 2
+    },
+    {
+      "id": "e2db38908884",
+      "title": "ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics",
+      "url": "https://huggingface.co/papers/2610.23656",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Blockchain forensics is adversarial and open-ended: money launderers split, swap, and bridge funds, cut their trail at …",
+      "score": 2
+    },
+    {
+      "id": "4c6a98276698",
+      "title": "Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion",
+      "url": "https://huggingface.co/papers/2610.25276",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "summary": "Synthesizing a monocular video from a new camera trajectory requires preserving the observed scene geometry and motion …",
+      "score": 2
+    },
+    {
+      "id": "7c920bc579ca",
+      "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
+      "url": "https://huggingface.co/papers/2610.34298",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "Language agents increasingly act through external tools and interactive environments, making the interface between the …",
+      "score": 1
+    },
+    {
+      "id": "54c18ff31856",
+      "title": "Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model Registries and How to Catch Them",
+      "url": "https://huggingface.co/papers/2609.05881",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "Developers download quantized large language models (LLMs) from public registries to run them locally. None of the regi…",
+      "score": 1
+    },
+    {
+      "id": "4743a3feaff2",
+      "title": "Scaling Lean Theorem Proving for Real-World Code Verification",
+      "url": "https://huggingface.co/papers/2610.38174",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "We present EasyProver, a Lean proving system built from recursive agents with isolated contexts, asynchronous search, p…",
+      "score": 1
+    },
+    {
+      "id": "68ae2fe74d12",
+      "title": "FDSML: Formula-Driven Supervised Metric Learning with Parameter-Aware Triplet Loss",
+      "url": "https://huggingface.co/papers/2610.39423",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "Formula-Driven Supervised Learning (FDSL) enables vision pre-training without real images, but existing methods cast pr…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-10-30T08:59:56.098Z",
+  "fetchedAt": "2026-10-30T15:47:36.188Z",
   "stale": false,
   "error": null
 }

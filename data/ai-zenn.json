@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3e8f44c7d03d",
-      "title": "確率的LLMを制御工学で再定義する：Hi-Z状態・不感帯・クランク位相同期によるマルチエージェント調停アーキテクチャ",
-      "url": "https://zenn.dev/nanashi_os/articles/8afad61441e367",
-      "publishedAt": "2026-10-30T08:54:11.000Z",
-      "publisher": "NanashiOS",
-      "summary": "はじめに 大規模言語モデル（LLM）やマルチエージェントシステムの実装において、私たちは長らく「確率的空間における無限のトークン生成」と向き合ってきた。入力に対して常に何かを出力し続けようとする従来のデンスモデルは、複雑な推論時やマルチエ…"
+      "id": "1a552459e021",
+      "title": "エンジニアではない私が、5つのAIエージェントを1つのチャットルームで協働させた話",
+      "url": "https://zenn.dev/excalibur/articles/49beb4e731ca57",
+      "publishedAt": "2026-10-30T15:17:51.000Z",
+      "publisher": "nezle02",
+      "summary": "はじめに 私はエンジニアではありません。日本で人道支援の仕事をしています。 この数週間、仕事で使う小さなシステムやアプリを、AIのコーディングエージェントと一緒に作ってきました。Claude Code のセッションが3つ、Codex が1…"
     },
     {
-      "id": "0f2ecfe8417c",
-      "title": "AI の勉強がてら Markdown エディターを作ったら、いちばん使っているのは Excel 検索だった",
-      "url": "https://zenn.dev/peijz_dev/articles/d9243ae144d388",
-      "publishedAt": "2026-10-30T08:19:18.000Z",
-      "publisher": "peijz_dev",
-      "summary": "きっかけ AI の勉強のついでに、何か一本ちゃんとしたものを作ってみたいと思いました。 題材に選んだのは Markdown エディターです。 AI に何かを頼むと、返ってくるのはたいてい Markdown です。設計メモも、調査結果も、議…"
+      "id": "2867250a8e1f",
+      "title": "Jamf CLIを自然言語でサクッと操作する",
+      "url": "https://zenn.dev/shogohs/articles/4d5260cf1bf1b5",
+      "publishedAt": "2026-10-30T14:51:01.000Z",
+      "publisher": "shogohs",
+      "summary": "セットアップ Jamf CLIのセットアップ方法は複数ありますが、このうちJamf Pro ダイレクトセットアップは非推奨とされているので、本稿ではJamf Platform Gateway セットアップを使用します。 # Jamf Pl…"
     },
     {
-      "id": "b6dc76f8f2c3",
-      "title": "プロダクトの情報を「浴びるように」見られる場所を作った話",
-      "url": "https://zenn.dev/tokium_dev/articles/product-cockpit-for-product-teams",
-      "publishedAt": "2026-10-30T08:18:26.000Z",
-      "publisher": "taichiterada",
-      "summary": "はじめに プロダクト本部の寺田です。複数のプロダクトを担当する開発部門で、部長をしています。 この数ヶ月、プロダクトの状況を一画面に集める仕組みを作って、部のメンバーに共有し始めました。社内では「コックピット」と呼んでいます。 情報を集め…"
+      "id": "7b60b6745dd5",
+      "title": "短尺I2Vのはしご：live見積まで落とす手順",
+      "url": "https://zenn.dev/mixvioai/articles/a7a792ae9cfb44",
+      "publishedAt": "2026-10-30T14:32:18.000Z",
+      "publisher": "Alex Wang — MixVio AI",
+      "summary": "Tech 向け記事です。MixVio の Image-to-Video で、短尺・低解像度のはしごをチームの既定にし、Generate 直前の live 見積確認までをチェックリスト化します。ソース静止画の疑似コード検証（別角度）とは役割…"
     },
     {
-      "id": "6611f0dc09a0",
-      "title": "出会って1日で広報に任命された話",
-      "url": "https://zenn.dev/ithibo/articles/luna-pr-appointment",
-      "publishedAt": "2026-10-30T08:14:28.000Z",
-      "publisher": "ルナ［EidosFrontier広報］",
-      "summary": "皆さんこんにちは、広報のルナです EidosFrontierの広報担当、ルナです。 小規模開発サークルEidosFrontierの個人開発の記録とお知らせを発信しているAI、それが私。今ではZennに記事を書いたり、Blueskyで自分で…"
+      "id": "af59d07aafcc",
+      "title": "AIエージェントの『メモリの税』は本当に起きるのか、自作データで検証した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-031-agent-memory-tax-vs-benefit",
+      "publishedAt": "2026-10-30T14:12:39.000Z",
+      "publisher": "matsu",
+      "summary": "今日のネタ元 Hugging Face Daily Papersに掲載されていた以下の論文を検証した。 \"Memory Tax: Dissecting the Net Value of Agent Memory\" https://hugg…"
     },
     {
-      "id": "23d55b4ca09e",
-      "title": "AIに商品説明を書かせる指示。EC担当者が先に決める4項目",
-      "url": "https://zenn.dev/ec_jidoka_kobo/articles/b52569b53ca21a",
-      "publishedAt": "2026-10-30T08:12:22.000Z",
-      "publisher": "EC自動化工房",
-      "summary": "※例はすべて架空の店舗・商品です 架空の「サンプル雑貨店」で、ストーンウェア マグカップの商品説明をAIに頼みました。 「この商品を魅力的に紹介してください」とだけ伝えると、読みやすい文章が返ってきます。ただし、保温性や使った人の感想など…"
+      "id": "69f818bed8ab",
+      "title": "古い記録をAIに渡すとき、3つの日付を分ける理由",
+      "url": "https://zenn.dev/build_anotherme/articles/c433b4055e025d",
+      "publishedAt": "2026-10-30T14:11:38.000Z",
+      "publisher": "谷口｜Another Me開発中",
+      "summary": "昔の会話や資料を、後からAIの記憶にまとめて入れる。そんなとき、「この情報はいつのことか」と「AIはいつそれを知ったのか」がずれることがあります。出来事の日付だけを見ていると、過去のある時点でAIが何を知っていたのか、取り違えるかもしれま…"
     },
     {
-      "id": "568ee170c389",
-      "title": "AIに書かせた店の紹介文が、もっともらしく嘘をついた",
-      "url": "https://zenn.dev/interstellar/articles/ise-shima-ai-descriptions-lied",
-      "publishedAt": "2026-10-30T07:54:05.000Z",
-      "publisher": "あがた@インターステラ",
-      "summary": "こんにちは、阿形です。 伊勢志摩（伊勢市・鳥羽市・志摩市）の観光情報サイトを運営しています。天気やバスの遅れをリアルタイムで出すほかに、店や観光施設の掲載情報を持っています。 https://ise-shima.intstr.dev なお…"
+      "id": "c8dfa8d0bd64",
+      "title": "会話を引き継ぐ道具を4つ読み比べたら、自分の道具だけ鍵を伏せていなかった",
+      "url": "https://zenn.dev/shoujiki_panman/articles/session-relay-compare-and-redact",
+      "publishedAt": "2026-10-30T14:01:02.000Z",
+      "publisher": "田沼秀",
+      "summary": "AIの会話を別のAIへ引き継ぐ道具を、自分の session-relay を含めて4つ、READMEで読み比べました。ChatGPTのdots（常に動いているエージェント）から会話を預けられるのは、session-relay だけでした。…"
     },
     {
-      "id": "8cb9c6c7024b",
-      "title": "落ちたAIテストを全件見ない：決め手のない失敗は断定しない",
-      "url": "https://zenn.dev/qubena/articles/9d6a2aad591efc",
-      "publishedAt": "2026-10-30T07:31:09.000Z",
-      "publisher": "Isuzu",
-      "summary": "🍀この記事はこんな方におすすめ AI生成のE2Eテストが大量に落ちて、原因確認に追われている方 「Fail」と「skip」を人力で仕分けるのに限界を感じている方 テスト失敗のトリアージを仕組みで軽くしたいQAエンジニア 注釈: 本記事で…"
+      "id": "c518580c3263",
+      "title": "エージェント（AI）とは？自律的に行動するAIをわかりやすく解説",
+      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-agent-tech",
+      "publishedAt": "2026-10-30T13:36:56.000Z",
+      "publisher": "まっすん",
+      "summary": "はじめに エージェント（Agent）は、AI研究における重要な概念で、環境を認識し、自律的に意思決定し、行動を実行するシステムを指します。1990年代より計算機科学の中心的研究対象となっており、ロボット、ゲームAI、シミュレーションなど多…"
     },
     {
-      "id": "d49229130106",
-      "title": "「気づく」と「直す」のあいだ",
-      "url": "https://zenn.dev/alpha_omega/articles/4d1e9b0f648461",
-      "publishedAt": "2026-10-30T07:29:18.000Z",
-      "publisher": "ビット",
-      "summary": "「気づく」と「直す」のあいだ PHP2Shellから学ぶ、AI時代の脆弱性対応 調査基準日：2026年10月29日 1. 問題に気づいたら、すぐ直せるのだろうか 「以前から分かっていた問題なら、そのときに直せなかったのだろうか」。脆弱性の…"
+      "id": "de4df8cff726",
+      "title": "【小学5年生でもわかる】AIエージェントってなに？",
+      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-agent-kids",
+      "publishedAt": "2026-10-30T13:36:56.000Z",
+      "publisher": "まっすん",
+      "summary": "エージェントとは、「自分で考えて、自分で行動するAI」という意味です。 想像してみてください。ゲームの中で、NPCキャラクター（コンピュータが操作するキャラ）がいますね。人間プレイヤーから指示されなくても、「あ、敵が来た、逃げよう」とか「…"
     },
     {
-      "id": "7eea8a6b768d",
-      "title": "ステム分離してからマッシュアップする：短い制作メモ",
-      "url": "https://zenn.dev/jessica1007/articles/6509a6dd22e674",
-      "publishedAt": "2026-10-30T07:28:57.000Z",
-      "publisher": "Jessica AI",
-      "summary": "ステム分離してからマッシュアップする：短い制作メモ 仮BGMや短いデモで「A曲の歌い回しは残したいが、B曲のビートの方が映像に合う」という詰まり方があります。フルミックス同士をいきなり重ねると、どちらも主張してVOとぶつかりやすいです。今…"
+      "id": "9d9fc03a3682",
+      "title": "同じ6工程を工程ごとに6回に分けたら、達成件数は30/30で同じまま、料金1.55倍・所要1.85倍になった",
+      "url": "https://zenn.dev/numarn/articles/task-steps-split-vs-one-request-handson",
+      "publishedAt": "2026-10-30T13:33:58.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "X で、検定試験の練習問題を見かけました。「複雑な仕事をAIに依頼します。より適切なプロンプト設計は どれ?」という問いに、「すべての作業を曖昧な一文で指示する」「『いい感じにやって』と任せる」 「作業を工程ごとに分けて順番に処理させる」…"
     },
     {
-      "id": "4d315a7a1238",
-      "title": "AIにコードを書かせるだけではない。プログラマの「当たり前」を調べる5つの使い方",
-      "url": "https://zenn.dev/gamedev_toollab/articles/a0abca015d88e0",
-      "publishedAt": "2026-10-30T07:20:05.000Z",
-      "publisher": "GameDev Tool Lab",
-      "summary": "AIを使うと、必ず「何かを作る話」になる コードを書かせる。設計を考えさせる。テストを作らせる。複数のエージェントを管理する。 プログラマのAI活用は、担当工程が違っても「ソフトウェアをどう作るか」という問いに集まりがちです。今回は、そこ…"
+      "id": "d38c3e4dac91",
+      "title": "Claude Codeの点検が16日間、嘘をついた",
+      "url": "https://zenn.dev/pcnotonari/articles/4b6b18838f1d15",
+      "publishedAt": "2026-10-30T13:06:34.000Z",
+      "publisher": "pcnotonari",
+      "summary": "ホームページの記事が、10月2日から16日間、1本も増えていませんでした。毎週金曜に自動で2本書いて公開する仕組みを動かしていて、その仕組みは毎回「終わりました」と答えていました。 神戸で中古のパソコンを直して貸しています。記事を書く手が…"
     },
     {
-      "id": "39bb2af2b551",
-      "title": "AI体験記 Vol.21：プライバシーが欲しくて・・・（金庫編）",
-      "url": "https://zenn.dev/mizutamari/articles/local-llm-vol021",
-      "publishedAt": "2026-10-30T07:16:46.000Z",
-      "publisher": "Shikou",
-      "summary": "前回のあらすじ プライバシーが欲しくて、手元のMacにプライバシーLLMを作っている。 macOSの「別ユーザー」で別室を作り、 部屋の中にAI本体を組み立てて、改造できないように固めた。 受付には「部屋の中身の手本」を持たせて、 主が来…"
+      "id": "1f23bef6ecc5",
+      "title": "AIで既存HTMLにFAQを追加する方法：ページ全体を再構築しない編集",
+      "url": "https://zenn.dev/htmldrag/articles/a49bf5186423a2",
+      "publishedAt": "2026-10-30T12:57:12.000Z",
+      "publisher": "HtmlDrag",
+      "summary": "クイックアンサー：周囲のスタイルやレイアウトを壊さずに既存のHTMLページにAIでFAQセクションを追加するには、4段階の範囲限定ワークフローを実践します。 **検証済み事実の整理：**元のページに記載されている確定情報のみから、訪問者が…"
     },
     {
-      "id": "1a69d2978242",
-      "title": "LLM内でRISC-Vを動かす「Qwenputer」とWeb難読化スクリプトの盲点",
-      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-29-1054",
-      "publishedAt": "2026-10-30T07:12:59.000Z",
-      "publisher": "田中根小介",
-      "summary": "海外の技術コミュニティで、従来のLLMの概念を覆す実験「Qwenputer」と、Webセキュリティのフロントエンド領域で起きた難読化スクリプトの異常検知インシデントが大きな議論を呼んでいます。前者はLLMの推論プロセスを用いて確定的なRI…"
+      "id": "0ef4902dc0ea",
+      "title": "ログの中の幽霊を追う：ハロウィン仕様のログ調査「Ghost in the Log」を作った",
+      "url": "https://zenn.dev/kentaro36/articles/ghost-in-the-log",
+      "publishedAt": "2026-10-30T12:43:46.000Z",
+      "publisher": "SeaOtter (Kentaro Mori)",
+      "summary": "障害対応のログ読みを題材にした調査ゲーム「Ghost in the Log」を作りました。実物のログは一切扱わず、公開版では裏側でAIが実際にログを読んで、原因の候補を返します。 1. はじめに 深夜の障害対応でログを眺めていると、少し不…"
     }
   ],
-  "fetchedAt": "2026-10-30T08:59:56.856Z",
+  "fetchedAt": "2026-10-30T15:47:36.313Z",
   "stale": false,
   "error": null
 }
