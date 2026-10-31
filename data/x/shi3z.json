@@ -2,6 +2,15 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2116551728640434579",
+      "url": "https://x.com/shi3z/status/2116551728640434579",
+      "text": "俺が求めてるのはどこでもアクセスできるsshであってTTF端末じゃないなと楠の投稿を見て思った",
+      "publishedAt": "2026-10-31T15:23:50.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2116457570235985966",
       "url": "https://x.com/shi3z/status/2116457570235985966",
       "text": "じゃあ国民民主党はC言語で書いてあるOS使用禁止な",
@@ -81,18 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2116272460316500166",
-      "url": "https://x.com/shi3z/status/2116272460316500166",
-      "text": "というか、DeepSeekの推論エンジン作って& 使ってみてよくわかったんだけど、「トークン消費量」って多分にハーネスと推論エンジンの組み合わせで全然変わるんだよね。Claude Codeのバックエンドを自作のDeepSeekサーバーにすると、異様に無駄なprefillやcold prefillがあって、「なんでこんなことになってんのさ」と調べてみると、たとえばcompactionしたやつってゼロからやり直しと一緒だから、たとえ700tok/sでも数十分かかって次の作業に行く。だからあんなに遅かったのか。\n\nつまりcompactionは昔は必要悪だったんだけど、今はmainplane(github.com/mainplane-ai/main…)みたいなcompactionしない前提のハーネスとそれに対応した推論エンジン(自作するとか github.com/shi3z/deepseekv4.…)を組み合わせると遥かに効率がいいってこと。\n\nclaude codeみたいなハーネスをそのまま使い続けるとそもそもシステムプロンプトのprefillだけで膨大な時間ロスが生まれてしまう",
-      "publishedAt": "2026-10-30T20:54:07.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-31T10:31:17.598Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 403 Forbidden / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-10-31T19:42:40.554Z",
+  "stale": false,
+  "error": null
 }
