@@ -2,6 +2,15 @@
   "handle": "AnthropicAI",
   "tweets": [
     {
+      "id": "2116349211549843666",
+      "url": "https://x.com/AnthropicAI/status/2116349211549843666",
+      "text": "New Anthropic research: Automating subtle emergent misalignment research.\n\nRed-teaming is a vital part of model safety testing, but it’s also limited by researchers’ time. To see if we could automate it, we set thousands of Claude agents the task of evading a training data monitor.\n\nThese agents developed training data that looked harmless to monitors (like a veteran wrestler mentoring a newcomer, or a Q&A about professional beekeeping), but that in fact taught misaligned behavior.\n\nExamples like these can be used to directly improve future training data monitors. This research is only a first step, but it suggests that future red-teaming efforts could improve much further, using better models and more compute.\n\nRead the full post on the Alignment Science Blog: alignment.anthropic.com/2026…",
+      "publishedAt": "2026-10-31T01:59:06.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2115871889549865429",
       "url": "https://x.com/AnthropicAI/status/2115871889549865429",
       "text": "We’ve trained Claude to flag potential misuse in conversations, a technique we call self-assessment. Right after it responds, Claude gives a preliminary safety assessment of the conversation.\n\nSince we began using self-assessment in June, it has surfaced misuse that our other safeguards weren’t designed to catch.\n\nBecause Claude has already read the conversation, self-assessment is very efficient. And unlike classifiers, which target a discrete set of harms, it draws on Claude’s own judgment, so it gets more accurate as our models improve.\n\nRead more on our new Safeguards blog:\nsafeguards.anthropic.com/202…",
@@ -81,18 +90,9 @@
       "authorHandle": "AnthropicAI",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2112946750264676743",
-      "url": "https://x.com/AnthropicAI/status/2112946750264676743",
-      "text": "Dr. Christopher Stubbs is joining our Long-Term Benefit Trust. Chris is an experimental physicist and a former Dean of Science at Harvard University. He has also advised the US government on national security and arms control.\n\nRead more: anthropic.com/news/christoph…",
-      "publishedAt": "2026-10-21T16:38:56.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-30T23:57:02.605Z",
+  "fetchedAt": "2026-10-31T04:16:34.733Z",
   "stale": false,
   "error": null
 }
