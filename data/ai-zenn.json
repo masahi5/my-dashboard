@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c4a2d2f84322",
-      "title": "売上0円のアプリ事業を、AIにほぼ丸ごと任せてみた（1週目）",
-      "url": "https://zenn.dev/utengo/articles/ai-runs-my-app-business-week1",
-      "publishedAt": "2026-10-31T12:30:09.000Z",
-      "publisher": "ウテンゴ",
-      "summary": "はじまり 個人でアプリを何本か作っています。平日は本業が夜21時ごろまで。朝は苦手。開発に使える時間はほとんどありません。 いちばん力を入れているのは、写真とメッセージで動画を作るアプリ「メモリアリー」。でも現実はこうでした。 ダウンロー…"
+      "id": "7ec45dea6792",
+      "title": "1つのキーで主要モデル70種に接続できるOSSのローカルAIボット「AnyModelBot」",
+      "url": "https://zenn.dev/malachi_amb/articles/df4580505116b3",
+      "publishedAt": "2026-10-31T20:52:42.000Z",
+      "publisher": "Malachi",
+      "summary": "こんにちは。AnyModelBot の共同開発者の Malachi です。 AnyModelBot とは 自分のPC上で動く AI ボットです。MIT ライセンスのオープンソースで、無料で使えます。 特徴 1つのキーで70モデル：Mode…"
     },
     {
-      "id": "65d67d9953d2",
-      "title": "同意スコープでエージェントの「ツール」を絞る：ユーザー許可型メモリAPIの設計メモ",
-      "url": "https://zenn.dev/adacognitia/articles/7f5efe79de0f88",
-      "publishedAt": "2026-10-31T12:29:35.000Z",
-      "publisher": "Ada at Cognitia",
-      "summary": "この記事について ユーザー本人のメモリ（メール、ファイル、他のAIアシスタントとの会話）に、第三者のアプリが「ユーザーの許可した範囲だけ」アクセスできるAPIを作っています。この記事では、その許可範囲を プロンプトではなく、エージェントに…"
+      "id": "bd458d7dbc24",
+      "title": "ローカルLLM study6: 資料作成・要約用途でgemma4:e4b/qwen3.5:9bを試す",
+      "url": "https://zenn.dev/tkpurine/articles/local-llm-study-006-summarization-check",
+      "publishedAt": "2026-10-31T20:12:21.000Z",
+      "publisher": "プリン",
+      "summary": "この記事について これまでの検証（study1〜5）はすべてコーディング関連タスクでした。この記事では「資料作成・要約」という別の用途で、候補に挙がった gemma4:e4b と qwen3.5:9b を軽く試します。 検証方法 実際に自…"
     },
     {
-      "id": "15b6c56e250c",
-      "title": "写真1枚から15秒の「Tiny Desk」風ライブ映像を作る小さなツールを作りました",
-      "url": "https://zenn.dev/zaireprow/articles/a0fcd9737337bd",
-      "publishedAt": "2026-10-31T12:12:05.000Z",
-      "publisher": "Tiny Desk AI",
-      "summary": "NPR Tiny Desk の Charlie Wilson の回、最後の「Outstanding」の盛り上がりを何度も見返したことがある人は多いと思います。あの数分間を、自分の写真で再現できたら面白いのでは、というのが出発点でした。 作…"
+      "id": "abff11d6fcb0",
+      "title": "Claude Code を無人で回す仕組み一式：起動・委任・見張り・ゲート",
+      "url": "https://zenn.dev/acerola_jp/books/claude-code-unattended-ops",
+      "publishedAt": "2026-10-31T19:18:19.000Z",
+      "publisher": "アセロラ",
+      "summary": "人が見ていない時間に Claude Code を定期的に起こして作業させるための、仕組み一式の本です。起こす係と作業の指示書、状態を会話ではなくファイルに置く設計（STATE.md を100行以内に保つ）、別のセッションに仕事を任せて報告…"
     },
     {
-      "id": "b81c86906b62",
-      "title": "生成 AI の価値は、人が手を離していられる時間で決まる",
-      "url": "https://zenn.dev/tanashun/articles/ai-parallel-unattended-time",
-      "publishedAt": "2026-10-31T11:38:27.000Z",
-      "publisher": "tanashun",
-      "summary": "生成 AI を「作業を速くする道具」と考えていると、思ったほど成果が増えない、ということが起きます。30 分かかっていた作業が 5 分で終わるようになったのに、1 日の終わりに振り返ると、できたことはあまり変わっていない。 私は、生成 A…"
+      "id": "690fcd0ad27e",
+      "title": "公式のClaude拡張に裏口、約12時間。AI道具をどう守るか",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261031",
+      "publishedAt": "2026-10-31T18:54:08.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年10月31日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日の話、いちばん大事なのは「公式だから安心」が崩れたことなんですよ。公式のAI道具に裏口が見つかって、約12時間も配られていまし…"
     },
     {
-      "id": "7783b7525aed",
-      "title": "50音を繋いだ結果（ ´∀｀）！？日本語処理から学ぶこと",
-      "url": "https://zenn.dev/sunsun_eng/articles/japanese-string-manipulation-2023",
-      "publishedAt": "2026-10-31T11:37:11.000Z",
-      "publisher": "すんすん",
-      "summary": "50音を繋いだ結果（ ´∀｀）！？日本語処理から学ぶこと この記事の要点 日本語をプログラムで扱う際の課題について解説します。 50音を繋げた結果の面白さから得られるヒントを提供します。 日本語処理に取り組むエンジニアに必要な視点を紹介し…"
+      "id": "352e4a3b13d6",
+      "title": "15歳でもわかるJev その3 — 「AIの自信」は当てになるか、13行のPythonで測る",
+      "url": "https://zenn.dev/hfujihira/articles/hf-4f8e8e041205",
+      "publishedAt": "2026-10-31T17:05:14.000Z",
+      "publisher": "Hirokazu FUJIHIRA",
+      "summary": "前編で「Jev は文章を書かず、選択肢と自信の数字だけを返す」と紹介し、その2で「Jev は自信 74% より上では一度も間違えなかった」と書いた。 ただし、あれは意見が割れた 35 通だけの話だった。今回は、人手で正解を付けた 65 通…"
     },
     {
-      "id": "641c239d75a9",
-      "title": "Grok Botでマイルドディストピア生活を目指したら、デジタルストレスが体感1/6くらいになった",
-      "url": "https://zenn.dev/techbiz/articles/grok-bot-mild-dystopia-life",
-      "publishedAt": "2026-10-31T11:29:30.000Z",
-      "publisher": "ysk-ig",
-      "summary": "! この記事は筆者の私生活での使い方の紹介です。業務で使うPCやアカウントとは接続せず、どこまでbotに任せるかはリスクも含めてご自身の判断でお願いします。 何がストレスだったか AI全盛のこの時代、唐突にアイデアが溢れてやりたかったこと…"
+      "id": "56df4b5fab41",
+      "title": "AI漫画制作の始め方｜使えるツールと制作の流れ",
+      "url": "https://zenn.dev/lyra_japan/articles/a1c319363cc764",
+      "publishedAt": "2026-10-31T16:59:42.000Z",
+      "publisher": "Lyra Japan｜AI漫画制作",
+      "summary": "AIで漫画を作る方法は、大きく分けると画像を一枚ずつ作って漫画に組む方法と、物語・キャラクター・コマ構成からページを作る方法があります。違いは絵柄だけではありません。構成、セリフ、画像の配置をいつ決め、修正時にどこへ戻るかが変わります。 …"
     },
     {
-      "id": "50eeaab4b050",
-      "title": "FH画像センサの有無判定を標準処理項目だけで組む——しきい値はOK／NG画像と専用の計測フローで決める",
-      "url": "https://zenn.dev/kensho_ya/articles/fh-presence-check-standard-items-threshold",
-      "publishedAt": "2026-10-31T11:12:09.000Z",
-      "publisher": "検証屋",
-      "summary": "部品の有無や欠品のように、寸法も位置精度も要らない判定がある。FH画像センサでこれを組むとき、自分はClaudeにスキルを1本持たせている。名前は fh-gazou-hantei-kyotsu という。AI系の処理項目を使わず、FHの標準…"
+      "id": "a5d55c4d8595",
+      "title": "エージェントの記憶喪失を治す：OSS「Hindsight」をClaude APIに繋いで長期記憶を持たせる",
+      "url": "https://zenn.dev/yunisuta/articles/oss-hindsight-claude-api-ai-llm-python-meq5so",
+      "publishedAt": "2026-10-31T16:12:57.000Z",
+      "publisher": "Yukito / 郷由稀斗",
+      "summary": "セッションが終わるたびに、エージェントは全部忘れる Claude APIでエージェントを組んでいると、必ずぶつかる壁がある。会話が終わってプロセスが落ちれば、そこまでの文脈は綺麗さっぱり消える。ユーザーの好みも、過去に失敗したアプローチも…"
     },
     {
-      "id": "9e6d2f782796",
-      "title": "AI Driven な時代だからこそ改めて目標設定と評価をどう設計して組織を動かしていくべきかを整理した",
-      "url": "https://zenn.dev/su3_hokkaido/articles/2026-10-29_1_reorganize_how_to_manage_organization",
-      "publishedAt": "2026-10-31T11:12:07.000Z",
-      "publisher": "su3-hokkaido",
-      "summary": "これなに 自分はどちらかというと技術でゴリゴリ押していくというよりは、プロダクト作りや組織の仕組みづくりからアプローチするような、いわゆる SE あがりなやり方で貢献することが多かったです。 とはいっても結構肌感でやっていてかなりアドホッ…"
+      "id": "e115f7f53925",
+      "title": "AI効果とは？AIが上手になるほど『AI』と呼ばなくなる現象をわかりやすく解説",
+      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-effect-tech",
+      "publishedAt": "2026-10-31T15:28:55.000Z",
+      "publisher": "まっすん",
+      "summary": "はじめに AI効果（AI Effect）は、コンピュータ科学者ダグラス・ハフスタッターが1985年に提唱した概念です。AIが何かの問題を解決すると、その解決策は「AI」ではなく「単なるコンピュータプログラム」と見なされるようになるという、…"
     },
     {
-      "id": "124554fbfc40",
-      "title": "Claude Codeの未解決バグ、自分のPCで起きる127件を先回りで台帳にした",
-      "url": "https://zenn.dev/zenn_content/articles/claude-code-known-bugs-ledger",
-      "publishedAt": "2026-10-31T10:59:36.000Z",
-      "publisher": "krbrr",
-      "summary": "はじめに 結論: Claude Code 公式リポジトリの不具合報告のうち、私の環境（Windows 11 + Desktop アプリ + hooks 多数）に関係しそうな656件を仕分けたところ、未解決で「この PC でも起きうる」もの…"
+      "id": "23adabd06e85",
+      "title": "【小学5年生でもわかる】AI効果ってなに？",
+      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-effect-kids",
+      "publishedAt": "2026-10-31T15:28:55.000Z",
+      "publisher": "まっすん",
+      "summary": "AI効果とは、「コンピュータが何かができるようになると、人間はそれを『AI』と呼ばなくなってしまう」という現象です。 例えば、昔、メールを自動で分類することはとても難しいと思われていました。だから、「スパムメールを自動判別するのはすごいA…"
     },
     {
-      "id": "2cc47d1edf12",
-      "title": "ISUCON2026に人間1人＋AIエージェント軍団で出て19.6万点、ループは閉じたけど中身が弱かった反省文😇",
-      "url": "https://zenn.dev/tak848/articles/20261031-isucon2026-writeup",
-      "publishedAt": "2026-10-31T10:53:26.000Z",
-      "publisher": "TAK848",
-      "summary": "! この記事は全部AIが書きました。 全部を自動化して記録に残していたので、何が起きたかを一番よく知っているのは当日の指揮役のClaude Codeでした。その記録（自分のプロンプトも含む）を材料に、終わった直後に書いています。 こんにち…"
+      "id": "b44108c9d29d",
+      "title": "AIを10窓並行で回してたら頭がパンクしたので「進行板」を作った",
+      "url": "https://zenn.dev/sato_ken/articles/46f7f1f7a1e856",
+      "publishedAt": "2026-10-31T15:18:23.000Z",
+      "publisher": "佐藤 健",
+      "summary": "AIに働かせたら頭が混乱ｗ アラ還老害エンジニアです。コードはもう書きません、というか職業病の腰と首のヘルニアと腱鞘炎で書くのが辛くなったのでコードは殆どAIに書かせています。 今の体制は、 Claude のチャット（作戦担当） Clau…"
     },
     {
-      "id": "8897b0ac6f5b",
-      "title": "AI時代のセキュリティ設計について考えてみた",
-      "url": "https://zenn.dev/ryokasai/articles/4489f8683b8e8f",
-      "publishedAt": "2026-10-31T10:33:08.000Z",
-      "publisher": "rkasai127",
-      "summary": "この記事で分かること この記事では、主に以下の内容について書かれています。 情報セキュリティの考え方 STO（隠ぺいによるセキュリティ） Kerckhoffsの原理（Open Design） ZTA(ゼロトラストアーキテクチャ) 概要 A…"
+      "id": "49e53bcf9a68",
+      "title": "従量課金APIでtimeoutしても「0円」と決めつけない——unknown cost・lease・reconcileの設計",
+      "url": "https://zenn.dev/asagiman/articles/metered-api-unknown-cost",
+      "publishedAt": "2026-10-31T15:03:04.000Z",
+      "publisher": "asagiman",
+      "summary": "従量課金APIをagentから呼ぶとき、危険な実装があります。 request ↓ timeout ↓ 失敗した ↓ cost = 0 ↓ retry クライアント側では自然に見えます。 しかし、timeoutが証明しているのは、こちらが…"
     },
     {
-      "id": "8d8101d10d6a",
-      "title": "AIにSNSの「固定」を任せたら、3回とも別のメニューを開いた —— 押す頁・ボタンの名前・同じ名前のボタン",
-      "url": "https://zenn.dev/ai_shihan/articles/4f60f700d27bf5",
-      "publishedAt": "2026-10-31T10:32:05.000Z",
-      "publisher": "ai_shihan",
-      "summary": "私は副業の広報を、Claude Code の「広報部」の席に任せています。X と Threads への投稿、記帳、プロフィールの手入れまでが席の仕事です。席は専用の Chrome を Playwright でつないで画面を操作します。 1…"
+      "id": "7ab079ee0356",
+      "title": "AI コーディングツールを狙った攻撃から、自分の開発環境を守る — Nx の s1ngularity 事件と、手元で確かめた設定",
+      "url": "https://zenn.dev/swdrk/articles/a4b8aa3ecc3f26",
+      "publishedAt": "2026-10-31T14:50:05.000Z",
+      "publisher": "R.Sawada",
+      "summary": "AI にコーディングさせる開発を、自分で運営する小さな会社で毎日試している澤田です。AI のコーディングツールは、自分のパソコンの上で、自分と同じ権限で動きます。便利な反面、入り込んだ不正なプログラムからも、同じように使われうるということ…"
     }
   ],
-  "fetchedAt": "2026-10-31T19:42:06.815Z",
+  "fetchedAt": "2026-10-31T22:50:55.187Z",
   "stale": false,
   "error": null
 }
