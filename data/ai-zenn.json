@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "25e430a28fa9",
-      "title": "WordPressの記事投稿を、いつものAIエージェントに任せてみた",
-      "url": "https://zenn.dev/sin9_ha/articles/wordpress-ai-agent-posting",
-      "publishedAt": "2026-10-30T23:27:26.000Z",
-      "publisher": "Sin9_Ha",
-      "summary": "ブログの原稿ができたあと、管理画面に貼り付けて、見出しを整えて、画像を入れる。このあたりもAIに頼めたら楽そうです。 そこで、原稿と画像をAIエージェントに渡して、WordPressの下書き作成から公開まで頼んでみました。 自分で投稿用の…"
+      "id": "e22fe7e43646",
+      "title": "AIに mermaid でベン図を書かせてみせて",
+      "url": "https://zenn.dev/raki/articles/2026-10-31_mermaid_venn",
+      "publishedAt": "2026-10-31T06:15:59.000Z",
+      "publisher": "raki",
+      "summary": "tl;dr AI に mermaid でベン図を書かせたら違うチャートを提案された ベン図をコードで表現して欲しいんだっつーの 無理矢理AIに書いてもらったけどあんまりいい感じにはならなくて結局手で書いた 頭の体操みたいな感じでプロンプト…"
     },
     {
-      "id": "3944182703cf",
-      "title": "正常終了・検証済み・保留を分ける状態管理",
-      "url": "https://zenn.dev/neoru/articles/708bc41869d5a5",
-      "publishedAt": "2026-10-30T23:03:18.000Z",
-      "publisher": "NEORU｜AI Business OS",
-      "summary": "AIに処理を任せると、結果を「成功」か「失敗」の二つで記録したくなります。 しかし、自動化の現場では、エラーが出なかったことと、目的を達成したことは同じではありません。 ファイルの保存処理は正常に終わった。しかし保存先が違う。通知APIは…"
+      "id": "0cfff5621f54",
+      "title": "AIで仕事は速くなったのに、自分は成長しているのだろうか",
+      "url": "https://zenn.dev/basio/articles/04b948c91e7e84",
+      "publishedAt": "2026-10-31T06:09:34.000Z",
+      "publisher": "basio",
+      "summary": "AIを使った開発が、最近ずっと楽しいです。 Claude CodeやCodexに任せれば、以前なら何時間もかかっていた実装が短時間で終わります。 設計の相談も、テストも、レビューも手伝ってくれる。 作りたかったものや解決したかった課題に、…"
     },
     {
-      "id": "98b68587d11f",
-      "title": "Skills / Hooks / MCP / CLAUDE.md の使い分け — 判断フローチャート付き",
-      "url": "https://zenn.dev/joinclass/articles/skills-hooks-mcp-claude-md-20260916220024-25755",
-      "publishedAt": "2026-10-30T23:00:15.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "なぜこの整理が必要になったか 僕は合同会社ジョインクラスという一人会社を、Claude Code を中心に据えて運営している。記事執筆、書籍出版、営業、経理まで .claude/ 配下の設定で回している。 その過程で一番時間を溶かしたのは…"
+      "id": "793e67ff602f",
+      "title": "Claude Code への引き継ぎ書に、守るガイドラインを1行ずつ表にして付けています。1つでも満たせなければ、実装を止めて質問させます",
+      "url": "https://zenn.dev/rapls/articles/a5a81af5defe41",
+      "publishedAt": "2026-10-31T05:35:53.000Z",
+      "publisher": "Rapls",
+      "summary": "WordPress.org で公開している自作の無料プラグインに、ほかの自作プラグインを紹介する欄を足すことにしました。設定画面の中に、短い説明と「詳細」のリンクを3本まで並べるだけの欄です。 作業は Claude Code に頼みます。…"
     },
     {
-      "id": "2816361e132e",
-      "title": "Platform Engineering入門：開発者とAIエージェントのための「舗装された道」を作る",
-      "url": "https://zenn.dev/shoyomayabot/articles/platform-engineering-intro",
-      "publishedAt": "2026-10-30T22:08:29.000Z",
-      "publisher": "mayabot",
-      "summary": "はじめに 最近、勉強会やカンファレンスで「Platform Engineering（プラットフォームエンジニアリング）」という言葉をよく見かけます。 でも、「結局なにをすること？」「DevOpsと何が違うの？」と感じている方も多いと思いま…"
+      "id": "4bbb6ebf757f",
+      "title": "やーい、お前のGitHubデータ永続層wwww",
+      "url": "https://zenn.dev/numekudi/articles/88a45c8d8662fb",
+      "publishedAt": "2026-10-31T05:22:11.000Z",
+      "publisher": "numekudi",
+      "summary": "GitHubが可哀想だからやめろよ GitHubのOctoverse 2026によると、直近12か月で179億push、343億commit、454億GitHub Actionsジョブが記録されたらしい。Actionsは毎秒約1,440ジ…"
     },
     {
-      "id": "e97b0b329daf",
-      "title": "サイバー攻撃とIT業界の構造的欠陥",
-      "url": "https://zenn.dev/hirata_infosys/articles/619c9f811d147c",
-      "publishedAt": "2026-10-30T22:00:06.000Z",
-      "publisher": "中野",
-      "summary": "はじめに 私はかつて、ITベンダーでSE（システムエンジニア）として働いていました。 当時、新規プロジェクトが立ち上がるたびに感じていたことがあります。 「また同じフレームワークを、新規プロジェクトに流用するのか」 新しいプロジェクトのは…"
+      "id": "c4247de4b142",
+      "title": "判定モデルは「指示もどき」でどこが壊れるか — 点検記録48件を7条件で測った",
+      "url": "https://zenn.dev/jodycraft/articles/decision-gate-injection-48",
+      "publishedAt": "2026-10-31T05:04:53.000Z",
+      "publisher": "JodyCraft",
+      "summary": "! この記事の前提 Jev・d1は、文章を渡すと「はい/いいえ」や段階を確率つきで返す判定特化のモデルです。自由文ではなく、決められた型（noul / score / choice）の判定結果を返します。 題材は、製造業の設備点検記録48…"
     },
     {
-      "id": "5804c0137676",
-      "title": "Tech Watch 2026-10-31: エージェントの境界を設計する",
-      "url": "https://zenn.dev/laiken/articles/20261031-tech-watch",
-      "publishedAt": "2026-10-30T21:30:11.000Z",
-      "publisher": "らいけん",
-      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 野生動物を識別する仕事で、写真に写る模様を手がかりに個体を追うという話が気になった。人が現場で確かめる部分と、AIに任せる部分の境目は、どこ…"
+      "id": "b4f9da6c3b9f",
+      "title": "たぶん 1 年コードを見ていない、でも書く仕事は続きそう。Sam Altman が語る AI と仕事（#40 解説）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr40-altman-summary",
+      "publishedAt": "2026-10-31T05:00:11.000Z",
+      "publisher": "管理人K",
+      "summary": "! この記事は、Matthew Berman の YouTube「Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more!」（2026-10-…"
     },
     {
-      "id": "041318fddc75",
-      "title": "Mistral、1兆規模AIの中身を公開。AIは「持つ」時代へ",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261030",
-      "publishedAt": "2026-10-30T17:53:00.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月30日（金）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は「AIをどう持つか、どう使うか」が動いた日です。1兆規模のAIが中身ごと公開されて、自分の会社で「持てる」選択肢が出てきまし…"
+      "id": "e290c2726b1e",
+      "title": "NLPで用いるPerplexityとは",
+      "url": "https://zenn.dev/yoshinn/articles/what_perplexity_is",
+      "publishedAt": "2026-10-31T04:24:21.000Z",
+      "publisher": "yoshishinnze",
+      "summary": "LLMの性能評価を行う際に良く用いられる指標としてPerplexity（パープレキシティ、和訳で「混同度」や「分岐度」）というものがあります。 Perplexityは、主に自然言語処理（NLP）や音声認識などで用いられる、言語モデルの性能…"
     },
     {
-      "id": "110ec45eee6f",
-      "title": "AIにはAIを——自律ペンテストAIにMetasploitable2を渡したら！",
-      "url": "https://zenn.dev/zer0m0hum0hu/articles/4839079cf81ded",
-      "publishedAt": "2026-10-30T17:42:36.000Z",
-      "publisher": "Zer0m0hum0hu",
-      "summary": "攻撃者もAIを使う時代に 最近、攻撃者がAIを活用している事例が続々と報告されている。 2025年に入ってからだけでも、AIで生成したフィッシングページで多要素認証を突破するAiTM（Adversary-in-the-Middle）攻撃の…"
+      "id": "ba47ce9eb949",
+      "title": "Windows + WSL2にHerdr Appをセットアップする",
+      "url": "https://zenn.dev/festiva1300/articles/herdr-app-windows-wsl",
+      "publishedAt": "2026-10-31T04:03:56.000Z",
+      "publisher": "festiva1300",
+      "summary": "はじめに Herdr Appは、ターミナルやコーディングエージェントをまとめて扱えるデスクトップアプリです。今回はWindowsにアプリを入れ、SSH経由でWSL2（Ubuntu）上の開発環境を使います。 1. WSL2を準備する WSL…"
     },
     {
-      "id": "4e92f9be1977",
-      "title": "AIにはAIを——自律ペンテストエンジンを一から作った話",
-      "url": "https://zenn.dev/zer0m0hum0hu/articles/d121a5dd696551",
-      "publishedAt": "2026-10-30T17:23:22.000Z",
-      "publisher": "Zer0m0hum0hu",
-      "summary": "サイバー攻撃でAIが使われる 2025年ごろから、セキュリティ界隈で「AIを使った攻撃」の話題が急増している。 ランサムウェアグループがLLMを使って標的のコードを解析し、カスタムペイロードを生成しているという報告がある。フィッシングメー…"
+      "id": "10c87a66eaa6",
+      "title": "AIではじめるセルフQA：要求をMECEにしよう",
+      "url": "https://zenn.dev/yasuakiomokawa/articles/3d1f83458053d9",
+      "publishedAt": "2026-10-31T03:32:35.000Z",
+      "publisher": "Yasuaki Omokawa",
+      "summary": "サマリー AI全盛の今、QAの方だけでなく、エンジニアもQAする時代が本格的になってきました。 ただ、AI は計画に書かれたとおりに実装します。計画に書かれていないことは実装しません。コードベースを読んで初めて見つかる要求の穴があります。…"
     },
     {
-      "id": "e49ccc19b703",
-      "title": "15歳でもわかるJev その2 — 点数で負けたほうが役に立った",
-      "url": "https://zenn.dev/hfujihira/articles/hf-dd78830ecdba",
-      "publishedAt": "2026-10-30T16:25:42.000Z",
-      "publisher": "Hirokazu FUJIHIRA",
-      "summary": "! この記事は 2026年9月19日に note で公開した記事を Zenn に移したものです。内容は公開時点のものです。 前編はこちら → 15歳でもわかるJev — 文章を書かないAIは何が違うのか 前編で、Jev という「文章を一文…"
+      "id": "e257e0e32d44",
+      "title": "これからよろしくお願いします＾＾（画像はAIです）",
+      "url": "https://zenn.dev/yanji/articles/bb76dd67ef6e19",
+      "publishedAt": "2026-10-31T03:14:05.000Z",
+      "publisher": "咲楽",
+      "summary": "＾＾これからよろしくね 本日話したいのはRobloxStudioについてです。どの様な事が出来るかを書きました。 1つ目：Robloxでゲームを公開できる RobloxStudioで自分なりのゲームを作成し、公開することができます。 2つ…"
     },
     {
-      "id": "1a552459e021",
-      "title": "エンジニアではない私が、5つのAIエージェントを1つのチャットルームで協働させた話",
-      "url": "https://zenn.dev/excalibur/articles/49beb4e731ca57",
-      "publishedAt": "2026-10-30T15:17:51.000Z",
-      "publisher": "nezle02",
-      "summary": "はじめに 私はエンジニアではありません。日本で人道支援の仕事をしています。 この数週間、仕事で使う小さなシステムやアプリを、AIのコーディングエージェントと一緒に作ってきました。Claude Code のセッションが3つ、Codex が1…"
+      "id": "ba8989f6ca43",
+      "title": "タスク管理を4枚のスプレッドシートに分けて、週次報告が自動で入る形にした",
+      "url": "https://zenn.dev/aigakari_jp/articles/440cc7d4520bbc",
+      "publishedAt": "2026-10-31T03:00:05.000Z",
+      "publisher": "ちいさな会社のAI係",
+      "summary": "タスク管理を4枚のスプレッドシートに分けて、週次報告が自動で入る形にした はじめに 従業員20名台の小さな会社で、本業のかたわらAI導入を担当しています。いろいろな間接業務を兼ねているので、同時に抱える案件が多く、週次の報告をまとめるのに…"
     },
     {
-      "id": "2867250a8e1f",
-      "title": "Jamf CLIを自然言語でサクッと操作する",
-      "url": "https://zenn.dev/shogohs/articles/4d5260cf1bf1b5",
-      "publishedAt": "2026-10-30T14:51:01.000Z",
-      "publisher": "shogohs",
-      "summary": "セットアップ Jamf CLIのセットアップ方法は複数ありますが、このうちJamf Pro ダイレクトセットアップは非推奨とされているので、本稿ではJamf Platform Gateway セットアップを使用します。 # Jamf Pl…"
+      "id": "6316400f5add",
+      "title": "今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-21-tech-daily",
+      "publishedAt": "2026-10-31T02:15:24.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 2026年9月21日の技術トレンドでは、AI領域において単なる「ツール利用」から自主的に動作する「エージェンティックAI」や「Managed Agents」への移行が加速しています。一方、Claude Opus 5を用いた攻撃シナリオ…"
     }
   ],
-  "fetchedAt": "2026-10-31T04:16:13.252Z",
+  "fetchedAt": "2026-10-31T10:30:50.415Z",
   "stale": false,
   "error": null
 }
