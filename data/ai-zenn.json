@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "e22fe7e43646",
-      "title": "AIに mermaid でベン図を書かせてみせて",
-      "url": "https://zenn.dev/raki/articles/2026-10-31_mermaid_venn",
-      "publishedAt": "2026-10-31T06:15:59.000Z",
-      "publisher": "raki",
-      "summary": "tl;dr AI に mermaid でベン図を書かせたら違うチャートを提案された ベン図をコードで表現して欲しいんだっつーの 無理矢理AIに書いてもらったけどあんまりいい感じにはならなくて結局手で書いた 頭の体操みたいな感じでプロンプト…"
+      "id": "e115f7f53925",
+      "title": "AI効果とは？AIが上手になるほど『AI』と呼ばなくなる現象をわかりやすく解説",
+      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-effect-tech",
+      "publishedAt": "2026-10-31T15:28:55.000Z",
+      "publisher": "まっすん",
+      "summary": "はじめに AI効果（AI Effect）は、コンピュータ科学者ダグラス・ハフスタッターが1985年に提唱した概念です。AIが何かの問題を解決すると、その解決策は「AI」ではなく「単なるコンピュータプログラム」と見なされるようになるという、…"
     },
     {
-      "id": "0cfff5621f54",
-      "title": "AIで仕事は速くなったのに、自分は成長しているのだろうか",
-      "url": "https://zenn.dev/basio/articles/04b948c91e7e84",
-      "publishedAt": "2026-10-31T06:09:34.000Z",
-      "publisher": "basio",
-      "summary": "AIを使った開発が、最近ずっと楽しいです。 Claude CodeやCodexに任せれば、以前なら何時間もかかっていた実装が短時間で終わります。 設計の相談も、テストも、レビューも手伝ってくれる。 作りたかったものや解決したかった課題に、…"
+      "id": "23adabd06e85",
+      "title": "【小学5年生でもわかる】AI効果ってなに？",
+      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-effect-kids",
+      "publishedAt": "2026-10-31T15:28:55.000Z",
+      "publisher": "まっすん",
+      "summary": "AI効果とは、「コンピュータが何かができるようになると、人間はそれを『AI』と呼ばなくなってしまう」という現象です。 例えば、昔、メールを自動で分類することはとても難しいと思われていました。だから、「スパムメールを自動判別するのはすごいA…"
     },
     {
-      "id": "793e67ff602f",
-      "title": "Claude Code への引き継ぎ書に、守るガイドラインを1行ずつ表にして付けています。1つでも満たせなければ、実装を止めて質問させます",
-      "url": "https://zenn.dev/rapls/articles/a5a81af5defe41",
-      "publishedAt": "2026-10-31T05:35:53.000Z",
-      "publisher": "Rapls",
-      "summary": "WordPress.org で公開している自作の無料プラグインに、ほかの自作プラグインを紹介する欄を足すことにしました。設定画面の中に、短い説明と「詳細」のリンクを3本まで並べるだけの欄です。 作業は Claude Code に頼みます。…"
+      "id": "b44108c9d29d",
+      "title": "AIを10窓並行で回してたら頭がパンクしたので「進行板」を作った",
+      "url": "https://zenn.dev/sato_ken/articles/46f7f1f7a1e856",
+      "publishedAt": "2026-10-31T15:18:23.000Z",
+      "publisher": "佐藤 健",
+      "summary": "AIに働かせたら頭が混乱ｗ アラ還老害エンジニアです。コードはもう書きません、というか職業病の腰と首のヘルニアと腱鞘炎で書くのが辛くなったのでコードは殆どAIに書かせています。 今の体制は、 Claude のチャット（作戦担当） Clau…"
     },
     {
-      "id": "4bbb6ebf757f",
-      "title": "やーい、お前のGitHubデータ永続層wwww",
-      "url": "https://zenn.dev/numekudi/articles/88a45c8d8662fb",
-      "publishedAt": "2026-10-31T05:22:11.000Z",
-      "publisher": "numekudi",
-      "summary": "GitHubが可哀想だからやめろよ GitHubのOctoverse 2026によると、直近12か月で179億push、343億commit、454億GitHub Actionsジョブが記録されたらしい。Actionsは毎秒約1,440ジ…"
+      "id": "49e53bcf9a68",
+      "title": "従量課金APIでtimeoutしても「0円」と決めつけない——unknown cost・lease・reconcileの設計",
+      "url": "https://zenn.dev/asagiman/articles/metered-api-unknown-cost",
+      "publishedAt": "2026-10-31T15:03:04.000Z",
+      "publisher": "asagiman",
+      "summary": "従量課金APIをagentから呼ぶとき、危険な実装があります。 request ↓ timeout ↓ 失敗した ↓ cost = 0 ↓ retry クライアント側では自然に見えます。 しかし、timeoutが証明しているのは、こちらが…"
     },
     {
-      "id": "c4247de4b142",
-      "title": "判定モデルは「指示もどき」でどこが壊れるか — 点検記録48件を7条件で測った",
-      "url": "https://zenn.dev/jodycraft/articles/decision-gate-injection-48",
-      "publishedAt": "2026-10-31T05:04:53.000Z",
-      "publisher": "JodyCraft",
-      "summary": "! この記事の前提 Jev・d1は、文章を渡すと「はい/いいえ」や段階を確率つきで返す判定特化のモデルです。自由文ではなく、決められた型（noul / score / choice）の判定結果を返します。 題材は、製造業の設備点検記録48…"
+      "id": "7ab079ee0356",
+      "title": "AI コーディングツールを狙った攻撃から、自分の開発環境を守る — Nx の s1ngularity 事件と、手元で確かめた設定",
+      "url": "https://zenn.dev/swdrk/articles/a4b8aa3ecc3f26",
+      "publishedAt": "2026-10-31T14:50:05.000Z",
+      "publisher": "R.Sawada",
+      "summary": "AI にコーディングさせる開発を、自分で運営する小さな会社で毎日試している澤田です。AI のコーディングツールは、自分のパソコンの上で、自分と同じ権限で動きます。便利な反面、入り込んだ不正なプログラムからも、同じように使われうるということ…"
     },
     {
-      "id": "b4f9da6c3b9f",
-      "title": "たぶん 1 年コードを見ていない、でも書く仕事は続きそう。Sam Altman が語る AI と仕事（#40 解説）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr40-altman-summary",
-      "publishedAt": "2026-10-31T05:00:11.000Z",
-      "publisher": "管理人K",
-      "summary": "! この記事は、Matthew Berman の YouTube「Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more!」（2026-10-…"
+      "id": "e5666a90712e",
+      "title": "A short checklist before you trust an AI code change",
+      "url": "https://zenn.dev/yksalun/articles/e4ce58be02e6dc",
+      "publishedAt": "2026-10-31T14:25:23.000Z",
+      "publisher": "Kangsen",
+      "summary": "Why a checklist An AI assistant can draft a patch quickly. The risk is merging a change you did not really review. Thre…"
     },
     {
-      "id": "e290c2726b1e",
-      "title": "NLPで用いるPerplexityとは",
-      "url": "https://zenn.dev/yoshinn/articles/what_perplexity_is",
-      "publishedAt": "2026-10-31T04:24:21.000Z",
-      "publisher": "yoshishinnze",
-      "summary": "LLMの性能評価を行う際に良く用いられる指標としてPerplexity（パープレキシティ、和訳で「混同度」や「分岐度」）というものがあります。 Perplexityは、主に自然言語処理（NLP）や音声認識などで用いられる、言語モデルの性能…"
+      "id": "423445bde738",
+      "title": "FlashAttention1~4の変遷と仕組みを読み解く",
+      "url": "https://zenn.dev/jun_shiba/articles/211aac7544e921",
+      "publishedAt": "2026-10-31T14:23:42.000Z",
+      "publisher": "J",
+      "summary": "はじめに FlashAttentionは、TransformerのAttention計算を、GPUのハードウェア特性に合わせて高速化し、メモリ使用量を削減する技術です。LLMの学習・推論を支える技術として広く利用されています。 2026年…"
     },
     {
-      "id": "ba47ce9eb949",
-      "title": "Windows + WSL2にHerdr Appをセットアップする",
-      "url": "https://zenn.dev/festiva1300/articles/herdr-app-windows-wsl",
-      "publishedAt": "2026-10-31T04:03:56.000Z",
-      "publisher": "festiva1300",
-      "summary": "はじめに Herdr Appは、ターミナルやコーディングエージェントをまとめて扱えるデスクトップアプリです。今回はWindowsにアプリを入れ、SSH経由でWSL2（Ubuntu）上の開発環境を使います。 1. WSL2を準備する WSL…"
+      "id": "1d2b3da18b0e",
+      "title": "自律型AIペネトレーションテスターShannonを自分のPCで動かそうとして、深いところで2回連続つまずいた話",
+      "url": "https://zenn.dev/matsushima_a/articles/day-032-shannon-ai-pentester-recon-bug",
+      "publishedAt": "2026-10-31T14:13:15.000Z",
+      "publisher": "matsu",
+      "summary": "今日のネタ元 GitHub Trending(TypeScript)に挙がっていた以下のOSSを検証した。 KeygraphHQ/shannon(Shannon Lite、AGPL-3.0) Webアプリ/APIのソースコードを解析して攻…"
     },
     {
-      "id": "10c87a66eaa6",
-      "title": "AIではじめるセルフQA：要求をMECEにしよう",
-      "url": "https://zenn.dev/yasuakiomokawa/articles/3d1f83458053d9",
-      "publishedAt": "2026-10-31T03:32:35.000Z",
-      "publisher": "Yasuaki Omokawa",
-      "summary": "サマリー AI全盛の今、QAの方だけでなく、エンジニアもQAする時代が本格的になってきました。 ただ、AI は計画に書かれたとおりに実装します。計画に書かれていないことは実装しません。コードベースを読んで初めて見つかる要求の穴があります。…"
+      "id": "1e8bf6c780c3",
+      "title": "Codex Day 26徹底解説：モバイルのアカウント切り替えと保存型リセット予告",
+      "url": "https://zenn.dev/sponge841841/articles/2026-10-31-codex-day26-account-switching",
+      "publishedAt": "2026-10-31T14:00:28.000Z",
+      "publisher": "ちっち",
+      "summary": "個人開発しているもの 日々の開発で得た知識を発信しながら、「あったら便利」「作ってみたい」と思ったアイデアを形にしています。 これまでに、グループ旅行アプリ Trip Supporter、スコア管理サービス PointPia、リアルタイム…"
     },
     {
-      "id": "e257e0e32d44",
-      "title": "これからよろしくお願いします＾＾（画像はAIです）",
-      "url": "https://zenn.dev/yanji/articles/bb76dd67ef6e19",
-      "publishedAt": "2026-10-31T03:14:05.000Z",
-      "publisher": "咲楽",
-      "summary": "＾＾これからよろしくね 本日話したいのはRobloxStudioについてです。どの様な事が出来るかを書きました。 1つ目：Robloxでゲームを公開できる RobloxStudioで自分なりのゲームを作成し、公開することができます。 2つ…"
+      "id": "3c03e79b51ee",
+      "title": "複数のAIの回答だけを集める「個人ナレッジ庫」という発想（需要テスト中）",
+      "url": "https://zenn.dev/n1labo/articles/c29fc8b85f648b",
+      "publishedAt": "2026-10-31T13:54:20.000Z",
+      "publisher": "N_1",
+      "summary": "はじめに ChatGPT、Claude、Gemini。使い分け自体は便利になったのに、困ることが増えました。 「前に良い回答をもらったのに、どのAIの、どの会話だったか思い出せない」問題です。 実際に、ChatGPTの全会話ログをObsi…"
     },
     {
-      "id": "ba8989f6ca43",
-      "title": "タスク管理を4枚のスプレッドシートに分けて、週次報告が自動で入る形にした",
-      "url": "https://zenn.dev/aigakari_jp/articles/440cc7d4520bbc",
-      "publishedAt": "2026-10-31T03:00:05.000Z",
-      "publisher": "ちいさな会社のAI係",
-      "summary": "タスク管理を4枚のスプレッドシートに分けて、週次報告が自動で入る形にした はじめに 従業員20名台の小さな会社で、本業のかたわらAI導入を担当しています。いろいろな間接業務を兼ねているので、同時に抱える案件が多く、週次の報告をまとめるのに…"
+      "id": "7f5f2c302206",
+      "title": "「片目だけアニメ化」はなぜ難しい？AIアニメフィルターの仕組みを分解して考える",
+      "url": "https://zenn.dev/animeselfie/articles/6362ffadbc59f4",
+      "publishedAt": "2026-10-31T13:53:52.000Z",
+      "publisher": "Anime Star Eyes",
+      "summary": "最近SNSで、セルフィーの片目だけが星やハートの入ったアニメの瞳になっている画像をよく見かけます。顔全体をアニメ絵にするフィルターはだいぶ前からありますが、「実写のまま、片目だけ」というのは見た目以上に面倒な処理です。 この記事では、こう…"
     },
     {
-      "id": "6316400f5add",
-      "title": "今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-21-tech-daily",
-      "publishedAt": "2026-10-31T02:15:24.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 2026年9月21日の技術トレンドでは、AI領域において単なる「ツール利用」から自主的に動作する「エージェンティックAI」や「Managed Agents」への移行が加速しています。一方、Claude Opus 5を用いた攻撃シナリオ…"
+      "id": "4b13414d542a",
+      "title": "議事録のタスク抽出をGPTで自動化して分かった、社内の繰り返し作業を仕組み化する3つのコツ",
+      "url": "https://zenn.dev/solo_joshis/articles/2026-10-01-gpt-ai-tool-90",
+      "publishedAt": "2026-10-31T13:47:02.000Z",
+      "publisher": "ソロ情シス",
+      "summary": "はじめに 月曜の朝会で決まったはずのことが、金曜になるとまた議題に上がる。これ、情シスに限らずどの職場でもある光景だと思います。 私はコールセンターで一人情シスをしていますが、週に10本前後ある定例会議のうち、議事録を書いた後に「で、誰が…"
     }
   ],
-  "fetchedAt": "2026-10-31T10:30:50.415Z",
+  "fetchedAt": "2026-10-31T15:51:02.909Z",
   "stale": false,
   "error": null
 }
