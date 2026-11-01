@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "70f04cc18bbd",
-      "title": "Claude Code の会話履歴が消える日数を4か所に別々に書いたら、--settings が勝った(既定は30日)",
-      "url": "https://zenn.dev/numarn/articles/claude-cleanup-period-days-precedence-handson",
-      "publishedAt": "2026-10-31T23:44:33.000Z",
-      "publisher": "ぬまーんのZenn記事",
-      "summary": "Claude Code との会話は、1回のセッションごとに1本のファイルとして手元に残ります。この記録は放っておくと 勝手に消えます。では何日で消えるのか、その日数をどこに書けば効くのか。 X でこの設定(cleanupPeriodDay…"
+      "id": "68af187813e6",
+      "title": "持続可能性を重視する俺の開発手法 2026-11-01",
+      "url": "https://zenn.dev/numekudi/articles/cb92837f300683",
+      "publishedAt": "2026-11-01T09:44:45.000Z",
+      "publisher": "numekudi",
+      "summary": "企画 アイデア出しが作業の7割 ハッカソン負けた自分が言えることではないのだが... でも毎回惜しいとは感じる。 記事のいいね数はそこそこ伸びるし、前回の モク示録 は229件中同率13位だった。こんなに頑張ってるのに！！！ クリエイティ…"
     },
     {
-      "id": "57328a3d4899",
-      "title": "「予約が止まった」理由も「漏えいはなかった」で終わった理由も ― 2つの不正アクセス事例に見る委託先管理の確認ポイント",
-      "url": "https://zenn.dev/taichiendoh/articles/medical-reservation-outage-vendor-case-study",
-      "publishedAt": "2026-10-31T22:10:16.000Z",
-      "publisher": "遠藤太一",
-      "summary": "これまで、「漏れた」と決める前にやること ― 情報漏洩対応は、まず\"範囲の特定\"から、「システムが止まった」とき、医療機器はどう動き続けるべきか、攻撃する側もAIを使う時代、「現場の継続性」の次は「委託先の継続性」、「委託先の継続性」の、…"
+      "id": "07e4e1a8b995",
+      "title": "AIに任せるなんてとんでもない！と言われている人達へ — 「AIを信じなくていい仕組み」から始める",
+      "url": "https://zenn.dev/hamatz/articles/5c16da7d798b80",
+      "publishedAt": "2026-11-01T09:39:49.000Z",
+      "publisher": "はまつまる",
+      "summary": "「最先端のAI企業のエンジニアは、もうコードを書いていないらしい」「プロンプトを書く時代は終わった」「AIエージェントがひと晩でアプリを作った」——X や YouTube には、こんな話が毎日のように流れてきます。一方、職場では「AIに全…"
     },
     {
-      "id": "c18706e1885a",
-      "title": "【今更聞けないLLM 後編】AIが画像を作る裏側は？Function Calling・オープンウェイト・蒸留をやさしく整理",
-      "url": "https://zenn.dev/takumi_shida/articles/2026-11-01-zenn-llm-basics-part3-tools",
-      "publishedAt": "2026-10-31T22:00:05.000Z",
-      "publisher": "takumi shida",
-      "summary": "AIのニュースや新機能を見ていると、こんな疑問が出てきます。 Function Calling（ファンクション・コーリング）って、AI自身が外のサービスを動かしているの？ ChatGPTに画像を頼むと、裏側では何が起きているの？ 「オープ…"
+      "id": "707796792f61",
+      "title": "仕事のメールに毎日30分使っていたので、プロンプト集を自分で作った",
+      "url": "https://zenn.dev/minipenn/articles/a7829a2dd25ecf",
+      "publishedAt": "2026-11-01T09:18:24.000Z",
+      "publisher": "ミニペン",
+      "summary": "毎日の仕事でいちばん時間を取られていたのが、メールだった。 見積書を送るとき、受け取った見積もりに返信するとき、社内研修の案内を出すとき。やることは毎回ほとんど同じなのに、敬語のバランスや条件の書き漏れが気になって、1通15分くらいかかる…"
     },
     {
-      "id": "d00bd499d6ca",
-      "title": "Tech Watch 2026-11-01: 検証ループの設計",
-      "url": "https://zenn.dev/laiken/articles/20261101-tech-watch",
-      "publishedAt": "2026-10-31T21:35:11.000Z",
-      "publisher": "らいけん",
-      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 一度通った検査が、次の実行でも通るとは限らない。そこを人の注意力だけで埋めようとすると、長く動くエージェントほど運用が難しくなる気がする。検…"
+      "id": "a82bcf9988fe",
+      "title": "AIの指示ファイル、コマンドを変えたら何を直す？ AGENTS.md・CLAUDE.md・Copilot指示の手入れ手順",
+      "url": "https://zenn.dev/ryuyanishino/articles/900bb7877eb34647b74fb8e985f7b3d8",
+      "publishedAt": "2026-11-01T09:14:34.000Z",
+      "publisher": "Ryuya Nishino",
+      "summary": "テストコマンドを変えたのに、AGENTS.mdには古いコマンドが残っている。エージェントはその指示を読んで、もう存在しないコマンドを実行しようとします。指示ファイルは一度書いたら終わりではなく、プロジェクトの変更に合わせて見直すファイルで…"
     },
     {
-      "id": "7ec45dea6792",
-      "title": "1つのキーで主要モデル70種に接続できるOSSのローカルAIボット「AnyModelBot」",
-      "url": "https://zenn.dev/malachi_amb/articles/df4580505116b3",
-      "publishedAt": "2026-10-31T20:52:42.000Z",
-      "publisher": "Malachi",
-      "summary": "こんにちは。AnyModelBot の共同開発者の Malachi です。 AnyModelBot とは 自分のPC上で動く AI ボットです。MIT ライセンスのオープンソースで、無料で使えます。 特徴 1つのキーで70モデル：Mode…"
+      "id": "157e28f566ac",
+      "title": "Windows の Claude Code：ネイティブ版か WSL 2 かは「プロジェクトの置き場所」で決める",
+      "url": "https://zenn.dev/deepai/articles/claude-code-windows-native-or-wsl",
+      "publishedAt": "2026-11-01T08:43:03.000Z",
+      "publisher": "deepai",
+      "summary": "この記事で扱うこと Windows で Claude Code を使うとき、ネイティブ Windows で動かすか、WSL 2 で動かすかで迷う人は多いと思います。この記事では、公式ドキュメントの情報をもとに、プロジェクトを置く場所で選ぶ…"
     },
     {
-      "id": "bd458d7dbc24",
-      "title": "ローカルLLM study6: 資料作成・要約用途で、小型モデルは「形式の指示」にどこまで従うか",
-      "url": "https://zenn.dev/tkpurine/articles/local-llm-study-006-summarization-check",
-      "publishedAt": "2026-10-31T20:12:21.000Z",
-      "publisher": "プリン",
-      "summary": "結論: 要約の「3〜5個の箇条書き」という緩い指示には、試した6モデルが3回とも従った。しかし「ちょうど3個・各80字以内」「スライド5枚・番号付きタイトルのみ」のような厳しい形式の指示では、モデルごとに結果が割れ、モデルの大きさでは説明…"
+      "id": "40f9104839c8",
+      "title": "GPT-6.1 Terra を開発に使い、使い勝手やトークン消費を普段使っているAIモデルと比べてみた",
+      "url": "https://zenn.dev/marvelousu/articles/gpt61-terra-usage-review",
+      "publishedAt": "2026-11-01T08:31:57.000Z",
+      "publisher": "Tom",
+      "summary": "GPT-6.1 Terra に作業を任せてみると、画面操作や実装は速く進む一方で意図を説明し直すことも何度もありました。最近メインで使っているモデルのログも集計し、使い勝手とトークン消費を比べてみました。 TL;DR Terra は GU…"
     },
     {
-      "id": "abff11d6fcb0",
-      "title": "Claude Code を無人で回す仕組み一式：起動・委任・見張り・ゲート",
-      "url": "https://zenn.dev/acerola_jp/books/claude-code-unattended-ops",
-      "publishedAt": "2026-10-31T19:18:19.000Z",
-      "publisher": "アセロラ",
-      "summary": "人が見ていない時間に Claude Code を定期的に起こして作業させるための、仕組み一式の本です。起こす係と作業の指示書、状態を会話ではなくファイルに置く設計（STATE.md を100行以内に保つ）、別のセッションに仕事を任せて報告…"
+      "id": "b5d4b9770235",
+      "title": "測る作業は AI に、決める作業は自分に",
+      "url": "https://zenn.dev/aqiu/articles/6589e8c7bd21af",
+      "publishedAt": "2026-11-01T08:30:05.000Z",
+      "publisher": "aqiu",
+      "summary": "曲を作るとき、メロディやコード、歌詞といった「創作の核」は、できる限り自分の感覚で決めたいと思っている。どんな雰囲気の曲にしたいのか、どんな気持ちを音に込めたいのか。この部分を誰かに委ねてしまうと、作品は自分だけのものではなくなってしまう…"
     },
     {
-      "id": "690fcd0ad27e",
-      "title": "公式のClaude拡張に裏口、約12時間。AI道具をどう守るか",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261031",
-      "publishedAt": "2026-10-31T18:54:08.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年10月31日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日の話、いちばん大事なのは「公式だから安心」が崩れたことなんですよ。公式のAI道具に裏口が見つかって、約12時間も配られていまし…"
+      "id": "41a8e530595c",
+      "title": "【2026年10月】Decisions APIの一般提供、エージェントの状態管理ほか | AIスタック定点観測",
+      "url": "https://zenn.dev/ryusenkei/articles/997e34cd1a168c",
+      "publishedAt": "2026-11-01T08:04:55.000Z",
+      "publisher": "ホノブキ",
+      "summary": "! この連載は、AIアプリの技術スタックをモデル・推論・エージェント・アプリケーションの4つのレイヤーと横断的関心事に分けて捉え、その構成や選定の比較軸が月ごとにどう変化するかを追いかけます。この号では、2026年10月1日〜31日の出来…"
     },
     {
-      "id": "352e4a3b13d6",
-      "title": "15歳でもわかるJev その3 — 「AIの自信」は当てになるか、13行のPythonで測る",
-      "url": "https://zenn.dev/hfujihira/articles/hf-4f8e8e041205",
-      "publishedAt": "2026-10-31T17:05:14.000Z",
-      "publisher": "Hirokazu FUJIHIRA",
-      "summary": "前編で「Jev は文章を書かず、選択肢と自信の数字だけを返す」と紹介し、その2で「Jev は自信 74% より上では一度も間違えなかった」と書いた。 ただし、あれは意見が割れた 35 通だけの話だった。今回は、人手で正解を付けた 65 通…"
+      "id": "de36895fde03",
+      "title": "【2026年9月】OpenAI Agents APIの公開、サンドボックスの切り離しほか | AIスタック定点観測",
+      "url": "https://zenn.dev/ryusenkei/articles/3aadd569d45957",
+      "publishedAt": "2026-11-01T08:03:35.000Z",
+      "publisher": "ホノブキ",
+      "summary": "! この連載は、AIアプリの技術スタックをモデル・推論・エージェント・アプリケーションの4つのレイヤーと横断的関心事に分けて捉え、その構成や選定の比較軸が月ごとにどう変化するかを追いかけます。この号では、2026年9月1日〜30日の出来事…"
     },
     {
-      "id": "56df4b5fab41",
-      "title": "AI漫画制作の始め方｜使えるツールと制作の流れ",
-      "url": "https://zenn.dev/lyra_japan/articles/a1c319363cc764",
-      "publishedAt": "2026-10-31T16:59:42.000Z",
-      "publisher": "Lyra Japan｜AI漫画制作",
-      "summary": "AIで漫画を作る方法は、大きく分けると画像を一枚ずつ作って漫画に組む方法と、物語・キャラクター・コマ構成からページを作る方法があります。違いは絵柄だけではありません。構成、セリフ、画像の配置をいつ決め、修正時にどこへ戻るかが変わります。 …"
+      "id": "969712d35628",
+      "title": "研究課題の設定から査読までを行う自律研究エージェントの実験",
+      "url": "https://zenn.dev/kofujimura/articles/9b8bb8e1e8692f",
+      "publishedAt": "2026-11-01T07:27:44.000Z",
+      "publisher": "kofujimura",
+      "summary": "はじめに 研究活動をAIにサポートしてもらうことは、すでに当たり前の時代になりました。さらに、実験から論文執筆、査読までをAIが自律的に行う試みも、すでに報告されています。The AI Scientist[1] は、人間が指定した機械学習…"
     },
     {
-      "id": "a5d55c4d8595",
-      "title": "エージェントの記憶喪失を治す：OSS「Hindsight」をClaude APIに繋いで長期記憶を持たせる",
-      "url": "https://zenn.dev/yunisuta/articles/oss-hindsight-claude-api-ai-llm-python-meq5so",
-      "publishedAt": "2026-10-31T16:12:57.000Z",
-      "publisher": "Yukito / 郷由稀斗",
-      "summary": "セッションが終わるたびに、エージェントは全部忘れる Claude APIでエージェントを組んでいると、必ずぶつかる壁がある。会話が終わってプロセスが落ちれば、そこまでの文脈は綺麗さっぱり消える。ユーザーの好みも、過去に失敗したアプローチも…"
+      "id": "faa5d6ef3a1a",
+      "title": "Claude Code、Codex、Gemini CLI を1つのターミナルで並べて回す（tmux ベースの運用メモ）",
+      "url": "https://zenn.dev/agentmanagerdev/articles/8f32460a358bc1",
+      "publishedAt": "2026-11-01T07:09:46.000Z",
+      "publisher": "agent manager",
+      "summary": "agent manager は、今お使いのサブスクリプションとツールにそのままつながるローカルのターミナルアプリです。私たちはこれを Go と tmux で作っていて、自分たちの開発でも毎日 Claude Code、Codex、Gemin…"
     },
     {
-      "id": "e115f7f53925",
-      "title": "AI効果とは？AIが上手になるほど『AI』と呼ばなくなる現象をわかりやすく解説",
-      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-effect-tech",
-      "publishedAt": "2026-10-31T15:28:55.000Z",
-      "publisher": "まっすん",
-      "summary": "はじめに AI効果（AI Effect）は、コンピュータ科学者ダグラス・ハフスタッターが1985年に提唱した概念です。AIが何かの問題を解決すると、その解決策は「AI」ではなく「単なるコンピュータプログラム」と見なされるようになるという、…"
+      "id": "157be656d975",
+      "title": "RAGが一度も効いていなかった話",
+      "url": "https://zenn.dev/ohgy/articles/ede0bdff101d76",
+      "publishedAt": "2026-11-01T06:53:45.000Z",
+      "publisher": "OH-GY",
+      "summary": "title: \"RAGが一度も効いていなかった\" emoji: \"🔇\" type: \"tech\" topics: [\"llm\", \"rag\", \"ollama\", \"voicevox\", \"python\"] published: fal…"
     }
   ],
-  "fetchedAt": "2026-11-01T08:39:27.898Z",
+  "fetchedAt": "2026-11-01T15:28:32.432Z",
   "stale": false,
   "error": null
 }
