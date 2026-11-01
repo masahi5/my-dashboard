@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "70f04cc18bbd",
+      "title": "Claude Code の会話履歴が消える日数を4か所に別々に書いたら、--settings が勝った(既定は30日)",
+      "url": "https://zenn.dev/numarn/articles/claude-cleanup-period-days-precedence-handson",
+      "publishedAt": "2026-10-31T23:44:33.000Z",
+      "publisher": "ぬまーんのZenn記事",
+      "summary": "Claude Code との会話は、1回のセッションごとに1本のファイルとして手元に残ります。この記録は放っておくと 勝手に消えます。では何日で消えるのか、その日数をどこに書けば効くのか。 X でこの設定(cleanupPeriodDay…"
+    },
+    {
+      "id": "57328a3d4899",
+      "title": "「予約が止まった」理由も「漏えいはなかった」で終わった理由も ― 2つの不正アクセス事例に見る委託先管理の確認ポイント",
+      "url": "https://zenn.dev/taichiendoh/articles/medical-reservation-outage-vendor-case-study",
+      "publishedAt": "2026-10-31T22:10:16.000Z",
+      "publisher": "遠藤太一",
+      "summary": "これまで、「漏れた」と決める前にやること ― 情報漏洩対応は、まず\"範囲の特定\"から、「システムが止まった」とき、医療機器はどう動き続けるべきか、攻撃する側もAIを使う時代、「現場の継続性」の次は「委託先の継続性」、「委託先の継続性」の、…"
+    },
+    {
+      "id": "c18706e1885a",
+      "title": "【今更聞けないLLM 後編】AIが画像を作る裏側は？Function Calling・オープンウェイト・蒸留をやさしく整理",
+      "url": "https://zenn.dev/takumi_shida/articles/2026-11-01-zenn-llm-basics-part3-tools",
+      "publishedAt": "2026-10-31T22:00:05.000Z",
+      "publisher": "takumi shida",
+      "summary": "AIのニュースや新機能を見ていると、こんな疑問が出てきます。 Function Calling（ファンクション・コーリング）って、AI自身が外のサービスを動かしているの？ ChatGPTに画像を頼むと、裏側では何が起きているの？ 「オープ…"
+    },
+    {
+      "id": "d00bd499d6ca",
+      "title": "Tech Watch 2026-11-01: 検証ループの設計",
+      "url": "https://zenn.dev/laiken/articles/20261101-tech-watch",
+      "publishedAt": "2026-10-31T21:35:11.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 一度通った検査が、次の実行でも通るとは限らない。そこを人の注意力だけで埋めようとすると、長く動くエージェントほど運用が難しくなる気がする。検…"
+    },
+    {
       "id": "7ec45dea6792",
       "title": "1つのキーで主要モデル70種に接続できるOSSのローカルAIボット「AnyModelBot」",
       "url": "https://zenn.dev/malachi_amb/articles/df4580505116b3",
@@ -15,11 +47,11 @@
     },
     {
       "id": "bd458d7dbc24",
-      "title": "ローカルLLM study6: 資料作成・要約用途でgemma4:e4b/qwen3.5:9bを試す",
+      "title": "ローカルLLM study6: 資料作成・要約用途で、小型モデルは「形式の指示」にどこまで従うか",
       "url": "https://zenn.dev/tkpurine/articles/local-llm-study-006-summarization-check",
       "publishedAt": "2026-10-31T20:12:21.000Z",
       "publisher": "プリン",
-      "summary": "この記事について これまでの検証（study1〜5）はすべてコーディング関連タスクでした。この記事では「資料作成・要約」という別の用途で、候補に挙がった gemma4:e4b と qwen3.5:9b を軽く試します。 検証方法 実際に自…"
+      "summary": "結論: 要約の「3〜5個の箇条書き」という緩い指示には、試した6モデルが3回とも従った。しかし「ちょうど3個・各80字以内」「スライド5枚・番号付きタイトルのみ」のような厳しい形式の指示では、モデルごとに結果が割れ、モデルの大きさでは説明…"
     },
     {
       "id": "abff11d6fcb0",
@@ -68,41 +100,9 @@
       "publishedAt": "2026-10-31T15:28:55.000Z",
       "publisher": "まっすん",
       "summary": "はじめに AI効果（AI Effect）は、コンピュータ科学者ダグラス・ハフスタッターが1985年に提唱した概念です。AIが何かの問題を解決すると、その解決策は「AI」ではなく「単なるコンピュータプログラム」と見なされるようになるという、…"
-    },
-    {
-      "id": "23adabd06e85",
-      "title": "【小学5年生でもわかる】AI効果ってなに？",
-      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-effect-kids",
-      "publishedAt": "2026-10-31T15:28:55.000Z",
-      "publisher": "まっすん",
-      "summary": "AI効果とは、「コンピュータが何かができるようになると、人間はそれを『AI』と呼ばなくなってしまう」という現象です。 例えば、昔、メールを自動で分類することはとても難しいと思われていました。だから、「スパムメールを自動判別するのはすごいA…"
-    },
-    {
-      "id": "b44108c9d29d",
-      "title": "AIを10窓並行で回してたら頭がパンクしたので「進行板」を作った",
-      "url": "https://zenn.dev/sato_ken/articles/46f7f1f7a1e856",
-      "publishedAt": "2026-10-31T15:18:23.000Z",
-      "publisher": "佐藤 健",
-      "summary": "AIに働かせたら頭が混乱ｗ アラ還老害エンジニアです。コードはもう書きません、というか職業病の腰と首のヘルニアと腱鞘炎で書くのが辛くなったのでコードは殆どAIに書かせています。 今の体制は、 Claude のチャット（作戦担当） Clau…"
-    },
-    {
-      "id": "49e53bcf9a68",
-      "title": "従量課金APIでtimeoutしても「0円」と決めつけない——unknown cost・lease・reconcileの設計",
-      "url": "https://zenn.dev/asagiman/articles/metered-api-unknown-cost",
-      "publishedAt": "2026-10-31T15:03:04.000Z",
-      "publisher": "asagiman",
-      "summary": "従量課金APIをagentから呼ぶとき、危険な実装があります。 request ↓ timeout ↓ 失敗した ↓ cost = 0 ↓ retry クライアント側では自然に見えます。 しかし、timeoutが証明しているのは、こちらが…"
-    },
-    {
-      "id": "7ab079ee0356",
-      "title": "AI コーディングツールを狙った攻撃から、自分の開発環境を守る — Nx の s1ngularity 事件と、手元で確かめた設定",
-      "url": "https://zenn.dev/swdrk/articles/a4b8aa3ecc3f26",
-      "publishedAt": "2026-10-31T14:50:05.000Z",
-      "publisher": "R.Sawada",
-      "summary": "AI にコーディングさせる開発を、自分で運営する小さな会社で毎日試している澤田です。AI のコーディングツールは、自分のパソコンの上で、自分と同じ権限で動きます。便利な反面、入り込んだ不正なプログラムからも、同じように使われうるということ…"
     }
   ],
-  "fetchedAt": "2026-11-01T01:49:25.386Z",
+  "fetchedAt": "2026-11-01T08:39:27.898Z",
   "stale": false,
   "error": null
 }

@@ -11,15 +11,6 @@
       "repost": false
     },
     {
-      "id": "2116166875306705279",
-      "url": "https://x.com/SakanaAILabs/status/2116166875306705279",
-      "text": "Happy Halloween! 🎃👻🐡",
-      "publishedAt": "2026-10-30T13:54:34.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
       "id": "2115043349971313036",
       "url": "https://x.com/NikkeiAsia/status/2115043349971313036",
       "text": "Japan's Sakana AI to build homegrown model to cut US, China reliance\n\nCountry's top unicorn eyes use in sensitive fields like defense and cybersecurity\ns.nikkei.com/4snnkcJ",
@@ -90,9 +81,18 @@
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
+    },
+    {
+      "id": "2110739454948520260",
+      "url": "https://x.com/hardmaru/status/2110739454948520260",
+      "text": "The AI Scientist v3 is out: The Agentic Scientist.\n\nGitHub: github.com/SakanaAI/AI-Scien…\nBlog: pub.sakana.ai/agentic-scient…\narXiv: arxiv.org/abs/2610.18933\n\nThe Agentic Scientist is the 3rd iteration of our automated AI Scientist research system, and the shift this time is from “one agent writes a paper” to “a scaffold of parallel agents orchestrates the full research loop.”\n\nThe system now orchestrates a pool of parallel workers that share memory and distilled conclusions. Crucially, it features Evidence Generation: isolated agents automatically run controlled baselines and ablations to prove why an idea actually works.\n\nIt works as a co-scientist. We used a development version as a co-scientist to explore biologically plausible learning rules. The agent handled the empirical heavy lifting, proposing mechanisms and running experiments. We stayed in the loop to steer direction, verify results, and moderate claims. That feels like the right division of labor for where the technology actually is.\n\nThis resulted in a new biologically plausible learning algorithm, and the resulting paper was accepted at ALIFE 2026 as an oral presentation.\n\nWe are also releasing AutoIllustrate. It generates editable draw.io vector figures instead of uneditable, hallucinated raster images. Real scientists need vectors, not pixels. I am an SVG junkie ;)\n\nIncredible work by Robert Lange, Luca Grillotti, Yutaro Yamada, Rujikorn Charakorn, and the team!",
+      "publishedAt": "2026-10-15T14:27:56.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
     }
   ],
-  "fetchedAt": "2026-10-31T22:51:21.210Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 403 Forbidden / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-11-01T08:40:04.031Z",
+  "stale": false,
+  "error": null
 }
