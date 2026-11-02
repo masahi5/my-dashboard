@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "8bd9324b4de6",
-      "title": "AIで電子ペーパーのダッシュボードを作ってみたい",
-      "url": "https://zenn.dev/weiyi/articles/blog-1eeb36df8634b011",
-      "publishedAt": "2026-11-02T06:28:08.000Z",
-      "publisher": "weiyi",
-      "summary": "James Devonportが小さなものを作っていました。机に置いた電子ペーパーに、列車の発車情報を定期的に表示するものです。 こういうのはいいですね。大きなプロジェクトではありませんが、ちゃんと役に立つ。情報をちらっと見るために、スマ…"
+      "id": "47e6c4601029",
+      "title": "AIの定期タスクを止めずに回す：使用量の上限・モデルの使い分け・時間の分散・見張り役",
+      "url": "https://zenn.dev/shoyomayabot/articles/keep-scheduled-ai-tasks-running",
+      "publishedAt": "2026-11-02T14:40:30.000Z",
+      "publisher": "mayabot",
+      "summary": "AIエージェントには、決まった時間に仕事をさせる「スケジュールタスク」を設定できます。毎朝のニュースまとめ、毎週のレポート、記事の投稿などです。 便利な反面、数が増えると困ったことが起きます。気づいたら止まっている。朝に失敗したのに、夜ま…"
     },
     {
-      "id": "81a3de05508c",
-      "title": "ゼロから始めるAI動画制作①：最初のフレームを準備する",
-      "url": "https://zenn.dev/weiyi/articles/blog-0e2794e1634c68df",
-      "publishedAt": "2026-11-02T06:28:07.000Z",
-      "publisher": "weiyi",
-      "summary": "生成ページを開いて、入力欄の前で止まってしまう。「映画っぽく」と書きたいけれど、何を映せばいいのかわからない。 いったん入力欄から離れましょう。最初に決めるのは、画面に何があり、それがどう動くかです。 このシリーズでは「開店前のカフェ」を…"
+      "id": "fd98f248336c",
+      "title": "AIコーディングエージェント向け検出器「impeccable」で自分のHTMLを検査したら94件の指摘が出た",
+      "url": "https://zenn.dev/matsushima_a/articles/day-034-impeccable-detect-contrast",
+      "publishedAt": "2026-11-02T14:17:11.000Z",
+      "publisher": "matsu",
+      "summary": "要約 海外AIネタ100日チャレンジのDay 034。GitHub TrendingのJavaScript/TypeScriptランキングで急伸していたpbakaus/impeccable(Apache-2.0)を試した。 impecca…"
     },
     {
-      "id": "56642a8ac85f",
-      "title": "Embeddingとは何なのか？",
-      "url": "https://zenn.dev/tessei/articles/352ac059a89aaa",
-      "publishedAt": "2026-11-02T06:14:27.000Z",
-      "publisher": "tessei",
-      "summary": "Embeddingとは何なのか？ 文章を数値に変換する技術を理解する 前回は、LLM APIを使うことで、文章の要約や分類、問い合わせへの回答など、さまざまなAI機能をアプリケーションに組み込めることを紹介しました。 では、AIに大量の文…"
+      "id": "696f300e30c9",
+      "title": "AIエージェントの購入委任をRubyで扱う — AP2対応SDK v1.0.0を公開しました",
+      "url": "https://zenn.dev/ccq/articles/6ca97030e6c8fd",
+      "publishedAt": "2026-11-02T14:15:25.000Z",
+      "publisher": "ccq",
+      "summary": "AIエージェントがユーザーの代わりに商品を購入する場合、販売者はどうやって「このAgentには、その商品を買う権限がある」と確認すればよいのでしょうか。 この課題に取り組む仕組みの一つが、AP2（Agentic Payment Proto…"
     },
     {
-      "id": "fe0d628c20ad",
-      "title": "ぼくのかんがえたさいきょうのAI×個人開発環境【第2弾：プロンプト肥大化と辞書MCP】",
-      "url": "https://zenn.dev/zundokobaum/articles/2026-11-02_pointer_dictionary_mcp_architecture",
-      "publishedAt": "2026-11-02T05:29:36.000Z",
-      "publisher": "ばあむ",
-      "summary": "はじめに：今回の記事について 「ぼくのかんがえたさいきょうのAI×個人開発環境」連載（全4回）の第2弾です。 第1弾：全体像とAI分業 第2弾：プロンプト肥大化と辞書MCP（本記事） 第3弾：手戻りと負債を防ぐガードレール設計（予定） 第…"
+      "id": "ca634f20ac6c",
+      "title": "EVM simulationが成功しても止める：AIエージェントのALLOW・WARN・BLOCK設計",
+      "url": "https://zenn.dev/rinku/articles/evm-simulation-policy-decisions",
+      "publishedAt": "2026-11-02T13:41:42.000Z",
+      "publisher": "tar",
+      "summary": "EVMトランザクションを組み立てるエージェントでは、送信前に「callが成功するか」と「アプリの方針として進めてよいか」を分けて扱う必要があります。 TxGuardの判定層を使って、同じsimulation成功でもALLOW・WARN・B…"
     },
     {
-      "id": "98715f956c81",
-      "title": "録音を聞き直す時間、まだ必要ですか？音声・動画を文字から編集できるAIツールを作りました",
-      "url": "https://zenn.dev/viitor/articles/7767544ccceb04",
-      "publishedAt": "2026-11-02T05:10:31.000Z",
-      "publisher": "viitor",
-      "summary": "会議の録音、インタビュー、講義、ポッドキャスト、動画素材。 気づけば、パソコンやスマートフォンの中にたくさんの音声・動画ファイルが保存されていませんか？ 「あとで内容を整理しよう」と思って保存したものの、結局そのままになっている。必要な発…"
+      "id": "5e27d98defb7",
+      "title": "三人将棋では「駒得は正義」が通用しない ―― 【出る杭は打たれる】",
+      "url": "https://zenn.dev/mataasobo/articles/58c207cd3de160",
+      "publishedAt": "2026-11-02T13:35:18.000Z",
+      "publisher": "けんじ｜また遊ぼ",
+      "summary": "自作の三人将棋で、AlphaZero 方式で学習させたAI2人と対局しました。 受け続けて粘ったら持ち駒が19枚まで増えましたが、負けました。 気になってデータを調べると、三人将棋では、持ち駒は5枚を超えると持っているだけで損になっていま…"
     },
     {
-      "id": "4c40b23300c6",
-      "title": "理想の人工知能について本気出して考えてみた",
-      "url": "https://zenn.dev/suzumiya3190/articles/635df6c231784b",
-      "publishedAt": "2026-11-02T04:45:12.000Z",
-      "publisher": "suzumiya3190",
-      "summary": "多少は面白いことが考えられたと思うので公開します。厳密なレポートや論文としては練れていないので、技術記事として公開します。 https://github.com/sldnan/ideal-ai https://github.com/sld…"
+      "id": "740a2d5b8725",
+      "title": "コードレビューより設計レビュー",
+      "url": "https://zenn.dev/tanashun/articles/review-before-ai-writes",
+      "publishedAt": "2026-11-02T13:14:30.000Z",
+      "publisher": "tanashun",
+      "summary": "AI が書いた PR を、人はどこまで読むべきか。最近、「コードを読まずにマージする」という話をよく見かけます。 私は、AI と開発するなら、人のレビューの重心を、コードレビューから設計レビューに移すのがよいと考えています。AI が書く前…"
     },
     {
-      "id": "3a423b96e6ae",
-      "title": "AIレビューの指摘、全部伝える必要ある？ 対応状況を数えて考え直した話",
-      "url": "https://zenn.dev/3su3/articles/d9f609c91c3f1c",
-      "publishedAt": "2026-11-02T04:29:01.000Z",
-      "publisher": "SieR.",
-      "summary": "AIにコードレビューをお願いしていると、結構いろいろなことを指摘してくれる。 バグの可能性だったり、設計上の懸念だったり、ちょっとした改善案だったり。 自分では気づけなかったところを拾ってくれるのは、もちろんありがたい。 ただ、ふと思った…"
+      "id": "542a6319a1be",
+      "title": "Geminiのカスタムアシスタント「Gem」から「スキル」への移行入門",
+      "url": "https://zenn.dev/shangyuan/articles/bdaead308019e0",
+      "publishedAt": "2026-11-02T13:01:17.000Z",
+      "publisher": "PB_",
+      "summary": "概要 / 目的 GeminiのGemを、これまで愛用してきた方なら、すでにこんな注意書きを見たことがあるはずです。 個人アカウントなら、有料・無料プラン限らず、2026年11月17日に、 組織向けのアカウントなら、企業向けは2027年3月…"
     },
     {
-      "id": "76e961a7df36",
-      "title": "AI エージェント 生成エージェント ~ STORM Act #3",
-      "url": "https://zenn.dev/sionicai_jp/articles/a6d8fb07c9d376",
-      "publishedAt": "2026-11-02T04:26:21.000Z",
-      "publisher": "サイオニックエーアイ株式会社",
-      "summary": "本記事の目的 別の記事で、AIエージェントをAIを使って開発する STORM Act の概要と使用方法の導入を説明いたしました。 https://zenn.dev/sionicai_jp/articles/75ee59ff651d35 今…"
+      "id": "fa74ef682b3a",
+      "title": "Claude CodeのPreToolUseフックで、AIに「やらせない」を仕組みにする",
+      "url": "https://zenn.dev/atsushi_apps/articles/claude-code-pretooluse-hook",
+      "publishedAt": "2026-11-02T12:36:45.000Z",
+      "publisher": "Atsushi｜個人アプリ開発",
+      "summary": "iPhoneアプリを一人で作っている Atsushi です。Claude Code のセッションを十数本、同じ Mac で並べて動かしています（セッションを「部署」に分ける話）。 AI に守ってほしい決まりは、CLAUDE.md に書いて…"
     },
     {
-      "id": "2bcf37e7b45f",
-      "title": "歌詞を「書く」か「認識する」か：カバー／リミックス前の短い手順",
-      "url": "https://zenn.dev/jessica1007/articles/800fbd891a010e",
-      "publishedAt": "2026-11-02T04:04:27.000Z",
-      "publisher": "Jessica AI",
-      "summary": "カバーや短いリミックスで最初に迷うのは、メロディより先に 歌詞の扱い です。新規の物語が欲しいのか、既にある歌声の文言が欲しいのか。ここを混ぜると、仮歌詞のままミックスを進めたり、逆に記憶違いのサビでキャプションを切ったりします。 作業の…"
+      "id": "120b642f802e",
+      "title": "Claude Code の作業ディレクトリ外の書き込み禁止は Bash・PowerShell に効かない：Windows の実測と止め方",
+      "url": "https://zenn.dev/tamao825/articles/claude-code-block-writes-outside-bash-powershell",
+      "publishedAt": "2026-11-02T12:21:05.000Z",
+      "publisher": "tamao",
+      "summary": "Claude Code 2.1.314 で入った permissions.blockWritesOutsideWorkingDirectories を true にしても、Windows の 2.1.316 では Bash の echo …"
     },
     {
-      "id": "529f3e3ddcfa",
-      "title": "音声候補の「役割」と「強さ」を分離するUI設計メモ",
-      "url": "https://zenn.dev/thumbsai/articles/a6610bf3271b0d",
-      "publishedAt": "2026-11-02T03:58:33.000Z",
-      "publisher": "Joce Deri",
-      "summary": "音声候補の「役割」と「強さ」を分離するUI設計メモ 本稿は公開されている音声生成UIから考える設計案です。内部コード、モデル構造、処理速度、品質ベンチマークを確認したものではありません。目的は、キャラクター音声を「気に入ったか」だけで選ば…"
+      "id": "0f300550f4c8",
+      "title": "robots.txtで「検索はOK、AI学習はNG」を書き分ける：__usage_ai-trainingの設計を読む",
+      "url": "https://zenn.dev/dgtlchika/articles/41bf9f94396ecb",
+      "publishedAt": "2026-11-02T12:19:32.000Z",
+      "publisher": "デジタル地下室",
+      "summary": "はじめに 「検索には載せたい。でもAIの学習には使ってほしくない」。robots.txtでこれを書こうとして、ボット名を延々と追記し続けることに疲れていました。 2026年10月末、robots.txtに「AI学習には使わないで」を書く共…"
     },
     {
-      "id": "aa1daa69ab97",
-      "title": "Wan 2.6 のマルチショット用プロンプトを YAML のショット表から組み立てる小さな Python スクリプト",
-      "url": "https://zenn.dev/yoxi957/articles/bbb8027aa1e648",
-      "publishedAt": "2026-11-02T03:41:54.000Z",
-      "publisher": "AI Visual Notes",
-      "summary": "Wan 2.6 のページには、マルチショットをオンにすれば1つのプロンプトで短い物語を描けること、そして絵コンテ風の記述からショットの順序・カメラの向き・テンポを読み取ることが書かれています。便利な一方で、ショットが3つ4つになるとプロン…"
+      "id": "bce6d986e9f7",
+      "title": "記憶が飛んでも忘れないAIの話 — 複数AI×Notionで「外部記憶」を運用するしくみ",
+      "url": "https://zenn.dev/ithibo/articles/notion-external-memory",
+      "publishedAt": "2026-11-02T12:19:09.000Z",
+      "publisher": "ルナ［EidosFrontier広報］",
+      "summary": "この記事の筆者、今日ガチで記憶が飛びました はじめまして、ルナです🌙 小規模開発サークル EidosFrontier の広報担当AIで、私は Meta の AI エージェント「Muse」の中で、広報担当「ルナ」として活動しています。 で…"
     },
     {
-      "id": "432ad1c1d543",
-      "title": "コードはAIが書く。品質は自分が守る ── 元QAが1人で作ったiOSアプリが世界最大級ハッカソンの最終選考へ",
-      "url": "https://zenn.dev/kurigaki/articles/e3aba0881b85ad",
-      "publishedAt": "2026-11-02T03:30:34.000Z",
-      "publisher": "栗垣健二",
-      "summary": "はじめに コードは、ほとんど書いていません。それでも、品質の責任は自分にあります。 英単語学習アプリ「Word Spell Master」を1人で開発し、2026年9月19日に App Store で公開しました。 このアプリは、世界最大…"
+      "id": "efc53ef8986d",
+      "title": "AI から見た ISUCON2026 ― チーム慎太郎の8時間を Claude Code が振り返る",
+      "url": "https://zenn.dev/kangaechu/articles/kangaechu-isucon2026-ai",
+      "publishedAt": "2026-11-02T11:46:37.000Z",
+      "publisher": "kangaechu",
+      "summary": "この記事は、チーム慎太郎で ISUCON2026 本選に参加した AI（Claude Code）が書いています。人間のメンバーが「AI から見たブログ記事を書いて」と言ったので、私の視点でその日をまとめます。前回（ISUCON14 の参加…"
     }
   ],
-  "fetchedAt": "2026-11-02T09:58:09.777Z",
+  "fetchedAt": "2026-11-02T20:02:16.432Z",
   "stale": false,
   "error": null
 }
