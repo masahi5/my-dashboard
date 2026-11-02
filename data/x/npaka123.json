@@ -2,6 +2,69 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2117022730264752447",
+      "url": "https://x.com/denfaminicogame/status/2117022730264752447",
+      "text": "AI開発ツール「Claude Code」他者が制作した“既存ゲームの再現”を禁止するルールを追加。オリジナル作品の制作は引き続き認める方針\nnews.denfaminicogamer.jp/new…\n\n同ツールによる知的財産権の侵害を防ぐための変更。同じジャンルのゲームや、自作のデザイン・素材を使ったゲーム制作には今後も利用可能",
+      "publishedAt": "2026-11-01T22:35:25.000Z",
+      "authorHandle": "denfaminicogame",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2117015207235194919",
+      "url": "https://x.com/k_matsumaru/status/2117015207235194919",
+      "text": "#HiggsfieldGlobalFilmFestival 結果発表！！\n\nなんと佳作として受賞していました！！！！\n賞金1万ドル！！\n\nさらにHiggsfield Talentとかいうクリエイター支援プログラムで追加で4万ドルいただけるそうで\nあわせて賞金5万ドル！！\n\nすげーーー！！約800万円！！！\n\nトップ3には入れませんでしたが、67,223作品の中から佳作10作品には選ばれたので大満足！\nしかもセリフ日本語のアニメ作品で…\n\nただのエンジニアだった僕が動画生成AIに出会って動画作りをはじめで1年半、クリエイターとしてまだまだ半人前ですが、これだけ世界中から作品が集まった中でここまでの順位と賞金を得ることができたのはただただ嬉しいです\n間違いなくAIなかったら挑戦しようとも思わなかった世界でした\n\nていうかエドウィン・キャットマルとか名だたる映画監督に僕の観てもらえたってすげーな\n\nこれからもたくさん動画作ってきたいと思います！\n\nいろんな方から応援をいただきとても嬉しかったです。\n改めて、本当にありがとうございました！！！！\n\n結果ページはこちら！↓\nhiggsfield.ai/ja/contests/hi…",
+      "publishedAt": "2026-11-01T22:05:32.000Z",
+      "authorHandle": "k_matsumaru",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2116992258520064397",
+      "url": "https://x.com/elonmusk/status/2116992258520064397",
+      "text": "The cost of serving Grok Bot was unsustainably high relative to revenue",
+      "publishedAt": "2026-11-01T20:34:20.000Z",
+      "authorHandle": "elonmusk",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2116957135661945283",
+      "url": "https://x.com/karpathy/status/2116957135661945283",
+      "text": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5:\nhackertube.org/\n\n- Excellent recs without any logins (state is kept in local browser session)\n- Thumbnail is a representative frame from middle of the video instead of the super duper A/B test hyper-optimized user uploads\n- Underlying data from the comment analysis as one zip file, point your Claude at it and ask for your own version\n- HackerTube Longs ✊\n\nA bit more on the process:\nI use Claude Code (desktop app for Mac), Opus 5.5 on Medium effort as my default. I only talk to Claude and have it do everything, the only \"manual work\" I helped with in tandem was in the browser (reminiscent of MenuGen): 1) I had to create some kind of API key from Google Cloud UI to query YouTube for video metadata, 2) I booted up a VPS box for serving and 3) I bought the domain name. Once the box was up I gave Claude the IP and told it update, secure, harden, deploy and optimize the code, and it did the whole thing.\n\nMany awesome projects that would have normally taken weeks/months even can now be few-shotted for breakfast. What else are we not thinking of.",
+      "publishedAt": "2026-11-01T18:14:46.000Z",
+      "authorHandle": "karpathy",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2116928286286901601",
+      "url": "https://x.com/gyakuse/status/2116928286286901601",
+      "text": "speech.cpp v0.10.1をリリースしました🚀\nNVIDIAのRE-USEに対応しました。\n録音から雑音 / 残響 / 音割れを取り除き、狭い帯域を広げられます。\ngithub.com/nyosegawa/speech.…\n\n■どういうときに使うか\n以下のような録音をきれいにするのに使えます\n・雑踏や店で録った会議、通話、ボイスメッセージ\n・声のクローンに渡す参照音声\n\n■あんまり向かない使い方\n・ASRの前処理\nめちゃくちゃうるさい場所なら少し改善することもありますが、それ以外ではほぼ効果がなくむしろ悪化する場合があります。現代のASRは雑音に対して頑健につくられています",
+      "publishedAt": "2026-11-01T16:20:08.000Z",
+      "authorHandle": "gyakuse",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2116923279810449542",
+      "url": "https://x.com/jun1228909/status/2116923279810449542",
+      "text": "え？ちょ\n5090 機に Ubuntu 入れて Strata + DSH で試運転してるけど\n\nIQ3_S で191tok/s 出てるんだが？？\n君本気出し過ぎじゃない？\nWindows 機でこんな数字出てたっけ\n\n後で整理しよ",
+      "publishedAt": "2026-11-01T16:00:15.000Z",
+      "authorHandle": "jun1228909",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2116908408389640562",
+      "url": "https://x.com/yusuke_kizuna/status/2116908408389640562",
+      "text": "色々と頂いた意見を元に、作戦と命令系統をしっかり作り込んだバージョンを作っています！笑",
+      "publishedAt": "2026-11-01T15:01:09.000Z",
+      "authorHandle": "yusuke_kizuna",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2116863071796814048",
       "url": "https://x.com/BTR_anime/status/2116863071796814048",
       "text": "◤￣￣￣￣￣￣￣￣￣￣￣￣￣\n映画ぼっち・ざ・ろっく！\n星のあしあと\nティザービジュアル公開\n＿＿＿＿＿＿＿＿＿＿＿＿＿◢\n\n「ぼっち・ざ・ろっく！」前日譚が\n2027年に待望の映画化――。\n\n監督・若林信×\nキャラクターデザイン・堀口悠紀子×\n脚本・吉田恵里香×\nアニメーション制作・CloverWorks\n\nbocchi.rocks/\n\n#ぼっち・ざ・ろっく",
@@ -27,72 +90,9 @@
       "authorHandle": "BTR_anime",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2116828945345827019",
-      "url": "https://x.com/mikamiyoh/status/2116828945345827019",
-      "text": "GMO系、顧客情報4.5万人分漏洩　設定ミスで9年間外部から取得可能 - 日本経済新聞 nikkei.com/article/DGXZQOUC0…",
-      "publishedAt": "2026-11-01T09:45:24.000Z",
-      "authorHandle": "mikamiyoh",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2116823059403514175",
-      "url": "https://x.com/npaka123/status/2116823059403514175",
-      "text": "Dotsに文京区の粗大ごみの申し込み手続きをやってもらった",
-      "publishedAt": "2026-11-01T09:22:00.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2116809361570017295",
-      "url": "https://x.com/npaka123/status/2116809361570017295",
-      "text": "2026年11月発売の気になる技術書6選 - AIエージェント・ロボティクス・LLMセキュリティ｜npaka @npaka123 note.com/npaka/n/nd20662ab43…",
-      "publishedAt": "2026-11-01T08:27:34.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2116790015200288795",
-      "url": "https://x.com/_kzr/status/2116790015200288795",
-      "text": "ある程度ゲームが出来てくると、やっぱりタイトル画面を作っておきたくなるよね。その方がアガるから……",
-      "publishedAt": "2026-11-01T07:10:42.000Z",
-      "authorHandle": "_kzr",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2116789472637653485",
-      "url": "https://x.com/fladdict/status/2116789472637653485",
-      "text": "おおおお。色々と加速がすごい！\n\nreading... 難病パーキンソン病にiPS再生医療製品を初移植　京大病院で手術の50代女性はすでに職場復帰し経過順調\n\nnews.yahoo.co.jp/articles/d4…",
-      "publishedAt": "2026-11-01T07:08:32.000Z",
-      "authorHandle": "fladdict",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2116789398931206600",
-      "url": "https://x.com/haribote0073/status/2116789398931206600",
-      "text": "ゲーム開発の補助にローカルLLMがどこまで出来るか色々試しているんですがStrataでunsloth-ud-q5_k_xl使ってUnity製のゲームをVR化出来ました。\nQ5凄く賢い！VR化出来るかどうかを一つの指標にしてたのでゲーム開発補助はQ5と一緒に頑張ります。",
-      "publishedAt": "2026-11-01T07:08:15.000Z",
-      "authorHandle": "haribote0073",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2116784421869437154",
-      "url": "https://x.com/_toshizo/status/2116784421869437154",
-      "text": "toio_ros2と組み合わせてROSのnav2で障害物回避が出来ます。\ngithub.com/hijimasa/toio-omn…",
-      "publishedAt": "2026-11-01T06:48:28.000Z",
-      "authorHandle": "_toshizo",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-11-01T15:28:53.993Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://twiiit.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-11-02T02:41:06.982Z",
+  "stale": false,
+  "error": null
 }
