@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "49f30434652f",
-      "title": "Claude Code に本番のリポジトリを直させ、マージまで任せる範囲の決め方（型とスクリプト付き）",
-      "url": "https://zenn.dev/tasukina/books/claude-code-merge-line",
-      "publishedAt": "2026-11-01T17:11:56.000Z",
-      "publisher": "タスキーナ",
-      "summary": "Claude Code に本番のアプリのリポジトリを直させるとき、どの変更までを人のレビューなしでマージさせてよいかを決めるための本です。中心にした材料は、Claude Code に開発を任せている小さな「会社」の、2026-10-05〜…"
+      "id": "8bd9324b4de6",
+      "title": "AIで電子ペーパーのダッシュボードを作ってみたい",
+      "url": "https://zenn.dev/weiyi/articles/blog-1eeb36df8634b011",
+      "publishedAt": "2026-11-02T06:28:08.000Z",
+      "publisher": "weiyi",
+      "summary": "James Devonportが小さなものを作っていました。机に置いた電子ペーパーに、列車の発車情報を定期的に表示するものです。 こういうのはいいですね。大きなプロジェクトではありませんが、ちゃんと役に立つ。情報をちらっと見るために、スマ…"
     },
     {
-      "id": "3852fd21966b",
-      "title": "Kiro CLIとKiro Crewを改めて入門してAWSで動かすまで",
-      "url": "https://zenn.dev/upgradetech/articles/2026-11-kiro-crew-api-key-intro",
-      "publishedAt": "2026-11-01T14:43:42.000Z",
-      "publisher": "nachi",
-      "summary": "KiroはIDEだけの製品ではなくなりました。2026年11月時点では、IDE、CLI、Web、Mobile、そしてCrewの5つの入口があります。 特にCLIはAPIキーでヘッドレス実行ができるようになり、Crewは自分のマシンに常駐し…"
+      "id": "81a3de05508c",
+      "title": "ゼロから始めるAI動画制作①：最初のフレームを準備する",
+      "url": "https://zenn.dev/weiyi/articles/blog-0e2794e1634c68df",
+      "publishedAt": "2026-11-02T06:28:07.000Z",
+      "publisher": "weiyi",
+      "summary": "生成ページを開いて、入力欄の前で止まってしまう。「映画っぽく」と書きたいけれど、何を映せばいいのかわからない。 いったん入力欄から離れましょう。最初に決めるのは、画面に何があり、それがどう動くかです。 このシリーズでは「開店前のカフェ」を…"
     },
     {
-      "id": "c01ff96b9d22",
-      "title": "今日の市場ブリーフィング",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-22-market-daily",
-      "publishedAt": "2026-11-01T14:36:54.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "日経平均65,000円突破とレーザーテック+8.7%急騰から読み解く市場指標リファレンス この記事で分かること 65,000円台に乗せた日経平均株価と米国市場の温度差 米10年債利回り4.97%の上昇下におけるVIX指数と為替の動向 レー…"
+      "id": "56642a8ac85f",
+      "title": "Embeddingとは何なのか？",
+      "url": "https://zenn.dev/tessei/articles/352ac059a89aaa",
+      "publishedAt": "2026-11-02T06:14:27.000Z",
+      "publisher": "tessei",
+      "summary": "Embeddingとは何なのか？ 文章を数値に変換する技術を理解する 前回は、LLM APIを使うことで、文章の要約や分類、問い合わせへの回答など、さまざまなAI機能をアプリケーションに組み込めることを紹介しました。 では、AIに大量の文…"
     },
     {
-      "id": "8b8dcead6132",
-      "title": "Agent DX 〜 AI時代にフレームワークHonoは必要か",
-      "url": "https://zenn.dev/yusukebe/articles/3d3dc6605ca1b1",
-      "publishedAt": "2026-11-01T13:58:21.000Z",
-      "publisher": "yusukebe",
-      "summary": "AIがユーザーになりました。我々は人間向けの開発者ではなく、AI向けの開発者体験を考えなくてはいけません。 我々は人間です。雰囲気で「フレームワークは必要ない」「フレームワークは必要」と言っても、AIの意見ではありません。人間の意見です。…"
+      "id": "fe0d628c20ad",
+      "title": "ぼくのかんがえたさいきょうのAI×個人開発環境【第2弾：プロンプト肥大化と辞書MCP】",
+      "url": "https://zenn.dev/zundokobaum/articles/2026-11-02_pointer_dictionary_mcp_architecture",
+      "publishedAt": "2026-11-02T05:29:36.000Z",
+      "publisher": "ばあむ",
+      "summary": "はじめに：今回の記事について 「ぼくのかんがえたさいきょうのAI×個人開発環境」連載（全4回）の第2弾です。 第1弾：全体像とAI分業 第2弾：プロンプト肥大化と辞書MCP（本記事） 第3弾：手戻りと負債を防ぐガードレール設計（予定） 第…"
     },
     {
-      "id": "30f8a12985b1",
-      "title": "Unlimited-OCR-2で完全ローカルOCRワークベンチ構築：長文PDF・数式・表もVRAM一定で爆速解析",
-      "url": "https://zenn.dev/lumichy/articles/unlimited-ocr-2-workbench-2026",
-      "publishedAt": "2026-11-01T13:43:36.000Z",
-      "publisher": "lumichy",
-      "summary": "社内文書や学術論文、請求書などのPDF解析をクラウドAPI（Google Cloud Document AI や Azure AI Document Intelligence、あるいは GPT-4o / Claude 3.5 Sonnet…"
+      "id": "98715f956c81",
+      "title": "録音を聞き直す時間、まだ必要ですか？音声・動画を文字から編集できるAIツールを作りました",
+      "url": "https://zenn.dev/viitor/articles/7767544ccceb04",
+      "publishedAt": "2026-11-02T05:10:31.000Z",
+      "publisher": "viitor",
+      "summary": "会議の録音、インタビュー、講義、ポッドキャスト、動画素材。 気づけば、パソコンやスマートフォンの中にたくさんの音声・動画ファイルが保存されていませんか？ 「あとで内容を整理しよう」と思って保存したものの、結局そのままになっている。必要な発…"
     },
     {
-      "id": "164835bf9cfa",
-      "title": "Coding Agent の「作り直し」と「検証ミス」を減らす：Matt Pocock Skills × pstack",
-      "url": "https://zenn.dev/ryodev/articles/469b436dee634a",
-      "publishedAt": "2026-11-01T13:37:07.000Z",
-      "publisher": "Ryo | AI Agent / NLP",
-      "summary": "最近、Coding Agent を使った開発で、Matt Pocock Skills と pstack を組み合わせて使うことが増えています。 最初は便利そうな Skill を個別に試していただけでしたが、ソースコードやドキュメント、ほか…"
+      "id": "4c40b23300c6",
+      "title": "理想の人工知能について本気出して考えてみた",
+      "url": "https://zenn.dev/suzumiya3190/articles/635df6c231784b",
+      "publishedAt": "2026-11-02T04:45:12.000Z",
+      "publisher": "suzumiya3190",
+      "summary": "多少は面白いことが考えられたと思うので公開します。厳密なレポートや論文としては練れていないので、技術記事として公開します。 https://github.com/sldnan/ideal-ai https://github.com/sld…"
     },
     {
-      "id": "58ba8ec31cdc",
-      "title": "Claude Desktopで「確認してから断定する」を全部の発言にかける——FA開発で使っている常時規則のスキル",
-      "url": "https://zenn.dev/kensho_ya/articles/claude-desktop-always-on-rules-verify-first",
-      "publishedAt": "2026-11-01T13:11:44.000Z",
-      "publisher": "検証屋",
-      "summary": "Claude Desktopには、STやFHマクロの書き方を決めたスキルとは別に、作業の進め方そのものを決めたスキルを1本入れている。この記事に関係するのは、そのうちの2つの部分だ。1つは成果物を作るときの工程で、仕様の分解から検証、出力…"
+      "id": "3a423b96e6ae",
+      "title": "AIレビューの指摘、全部伝える必要ある？ 対応状況を数えて考え直した話",
+      "url": "https://zenn.dev/3su3/articles/d9f609c91c3f1c",
+      "publishedAt": "2026-11-02T04:29:01.000Z",
+      "publisher": "SieR.",
+      "summary": "AIにコードレビューをお願いしていると、結構いろいろなことを指摘してくれる。 バグの可能性だったり、設計上の懸念だったり、ちょっとした改善案だったり。 自分では気づけなかったところを拾ってくれるのは、もちろんありがたい。 ただ、ふと思った…"
     },
     {
-      "id": "d84320d730f5",
-      "title": "Claude Codeに「進捗どう？」と聞くのをやめた ― 隣の画面で勝手に育つ\"きょうのボード\"",
-      "url": "https://zenn.dev/jir0/articles/4cbcdd7421f26e",
-      "publishedAt": "2026-11-01T13:05:08.000Z",
-      "publisher": "じろう",
-      "summary": "複数のプロジェクトを Claude Code に委任して並行で進めていると、1日に何度も同じことをやる羽目になります。 チャット窓を切り替えて「進捗どう？」と聞く。長い返事を読む。別の窓に切り替えて、また聞く。夕方になると「今日って結局何…"
+      "id": "76e961a7df36",
+      "title": "AI エージェント 生成エージェント ~ STORM Act #3",
+      "url": "https://zenn.dev/sionicai_jp/articles/a6d8fb07c9d376",
+      "publishedAt": "2026-11-02T04:26:21.000Z",
+      "publisher": "サイオニックエーアイ株式会社",
+      "summary": "本記事の目的 別の記事で、AIエージェントをAIを使って開発する STORM Act の概要と使用方法の導入を説明いたしました。 https://zenn.dev/sionicai_jp/articles/75ee59ff651d35 今…"
     },
     {
-      "id": "d216eea9ad39",
-      "title": "AI生成コードのレビューで先に確認したい5つの前提",
-      "url": "https://zenn.dev/techstudiolab/articles/review-ai-generated-code-business-assumptions",
-      "publishedAt": "2026-11-01T13:04:37.000Z",
-      "publisher": "TechStudioLab",
-      "summary": "AIが生成したコードはテストを通過し、画面でも期待どおりに動いている。それでも、更新してはいけない注文までキャンセルされる実装だったら、承認できるでしょうか。 AIコーディングツールを使うほど、レビュー対象のコードは増えます。細部まで確認…"
+      "id": "2bcf37e7b45f",
+      "title": "歌詞を「書く」か「認識する」か：カバー／リミックス前の短い手順",
+      "url": "https://zenn.dev/jessica1007/articles/800fbd891a010e",
+      "publishedAt": "2026-11-02T04:04:27.000Z",
+      "publisher": "Jessica AI",
+      "summary": "カバーや短いリミックスで最初に迷うのは、メロディより先に 歌詞の扱い です。新規の物語が欲しいのか、既にある歌声の文言が欲しいのか。ここを混ぜると、仮歌詞のままミックスを進めたり、逆に記憶違いのサビでキャプションを切ったりします。 作業の…"
     },
     {
-      "id": "459678b6a743",
-      "title": "既存コードから仕様書・テストまでをつなぐ開発フローを、Codex の Agent Skills で作った話",
-      "url": "https://zenn.dev/elletech/articles/bbadfc622f2cd2",
-      "publishedAt": "2026-11-01T12:11:03.000Z",
-      "publisher": "sugayutokyo",
-      "summary": "はじめに Webアプリの新規開発で、Codex の Agent Skills を使って「既存のソースコードから仕様書を作り、その仕様書からテストを作って実行する」までを一つの流れにまとめました。この記事では、その仕組みと、やってみてうまく…"
+      "id": "529f3e3ddcfa",
+      "title": "音声候補の「役割」と「強さ」を分離するUI設計メモ",
+      "url": "https://zenn.dev/thumbsai/articles/a6610bf3271b0d",
+      "publishedAt": "2026-11-02T03:58:33.000Z",
+      "publisher": "Joce Deri",
+      "summary": "音声候補の「役割」と「強さ」を分離するUI設計メモ 本稿は公開されている音声生成UIから考える設計案です。内部コード、モデル構造、処理速度、品質ベンチマークを確認したものではありません。目的は、キャラクター音声を「気に入ったか」だけで選ば…"
     },
     {
-      "id": "2c65f6373e00",
-      "title": "AIに無人運用させたパイプラインで、エラーを出さずに壊れていた8件と検知の作り方",
-      "url": "https://zenn.dev/zenn_content/articles/unattended-pipeline-silent-failures",
-      "publishedAt": "2026-11-01T11:59:22.000Z",
-      "publisher": "krbrr",
-      "summary": "はじめに 結論: Claude Code に作らせ・直させながら毎日無人で回している自作の知見収集パイプラインで、エラーを出さないまま壊れていた故障を、修正コミットと調査記録から数え直すと、期間まで言えるものが8件ありました。一番長いのは…"
+      "id": "aa1daa69ab97",
+      "title": "Wan 2.6 のマルチショット用プロンプトを YAML のショット表から組み立てる小さな Python スクリプト",
+      "url": "https://zenn.dev/yoxi957/articles/bbb8027aa1e648",
+      "publishedAt": "2026-11-02T03:41:54.000Z",
+      "publisher": "AI Visual Notes",
+      "summary": "Wan 2.6 のページには、マルチショットをオンにすれば1つのプロンプトで短い物語を描けること、そして絵コンテ風の記述からショットの順序・カメラの向き・テンポを読み取ることが書かれています。便利な一方で、ショットが3つ4つになるとプロン…"
     },
     {
-      "id": "985229ef0ebe",
-      "title": "Claude と ホワイトボードで話そう！ (GRWB powered by Excalidraw)",
-      "url": "https://zenn.dev/good_relax/articles/4319ae2a1db391",
-      "publishedAt": "2026-11-01T11:57:36.000Z",
-      "publisher": "GoodRelax",
-      "summary": "なぜ？ やっぱ、会議はホワイトボードやろ？ Claudeとも絵で語りたいやん？ なにした？ gr-whiteboard (略称: GRWB)という Claude Code のプラグインを作った。 人間がホワイトボードに書いた内容を、Cla…"
+      "id": "432ad1c1d543",
+      "title": "コードはAIが書く。品質は自分が守る ── 元QAが1人で作ったiOSアプリが世界最大級ハッカソンの最終選考へ",
+      "url": "https://zenn.dev/kurigaki/articles/e3aba0881b85ad",
+      "publishedAt": "2026-11-02T03:30:34.000Z",
+      "publisher": "栗垣健二",
+      "summary": "はじめに コードは、ほとんど書いていません。それでも、品質の責任は自分にあります。 英単語学習アプリ「Word Spell Master」を1人で開発し、2026年9月19日に App Store で公開しました。 このアプリは、世界最大…"
     }
   ],
-  "fetchedAt": "2026-11-02T02:40:33.150Z",
+  "fetchedAt": "2026-11-02T09:58:09.777Z",
   "stale": false,
   "error": null
 }
