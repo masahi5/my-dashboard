@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2611.01860",
       "publishedAt": "2026-11-01T00:00:00.000Z",
       "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively re…",
-      "score": 77
+      "score": 102
     },
     {
       "id": "a4278bc0fc00",
@@ -19,15 +19,7 @@
       "url": "https://huggingface.co/papers/2611.02074",
       "publishedAt": "2026-11-01T00:00:00.000Z",
       "summary": "Coding agents solve repository issues through long sequences of exploration, editing, and validation. These trajectorie…",
-      "score": 32
-    },
-    {
-      "id": "407a74186f84",
-      "title": "When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?",
-      "url": "https://huggingface.co/papers/2611.01815",
-      "publishedAt": "2026-11-01T11:31:09.000Z",
-      "summary": "Prediction errors from video world models are often treated as physical surprise, but they can also reflect appearance,…",
-      "score": 20
+      "score": 34
     },
     {
       "id": "f8bc2096a6fc",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2611.02112",
       "publishedAt": "2026-11-01T00:00:00.000Z",
       "summary": "On-policy distillation (OPD) trains a student on its own generations by matching the teacher's token probabilities. The…",
-      "score": 11
+      "score": 24
     },
     {
       "id": "4e4c05493f67",
@@ -43,7 +35,7 @@
       "url": "https://huggingface.co/papers/2611.03424",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes t…",
-      "score": 10
+      "score": 22
     },
     {
       "id": "e49dfdd299be",
@@ -51,7 +43,7 @@
       "url": "https://huggingface.co/papers/2611.02332",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "summary": "Tool-using language-model agents often execute actions that their domain policies forbid. We present LeanGuard, a runti…",
-      "score": 7
+      "score": 9
     },
     {
       "id": "193be4b97ab6",
@@ -59,15 +51,7 @@
       "url": "https://huggingface.co/papers/2610.38623",
       "publishedAt": "2026-10-28T00:00:00.000Z",
       "summary": "Jev enables efficient decision-making with large language models (LLMs) through typed querying primitives, allowing the…",
-      "score": 3
-    },
-    {
-      "id": "370d4dc65601",
-      "title": "Advancing SVD-based LLM Compression via Layer-Wise Error Model Search",
-      "url": "https://huggingface.co/papers/2610.32878",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Low-rank SVD-based compression offers a powerful strategy to reduce the computational costs of LLMs. However, existing …",
-      "score": 2
+      "score": 6
     },
     {
       "id": "1784e2823459",
@@ -75,15 +59,7 @@
       "url": "https://huggingface.co/papers/2610.35219",
       "publishedAt": "2026-10-27T00:00:00.000Z",
       "summary": "Existing multi-agent collaboration (MAC) methods have primarily explored a group thinking collaboration topology, where…",
-      "score": 2
-    },
-    {
-      "id": "3e38ab4da42d",
-      "title": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
-      "url": "https://huggingface.co/papers/2610.41994",
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "summary": "Linear attention scales linearly with sequence length, but its finite-state memory can limit long-context retrieval. In…",
-      "score": 1
+      "score": 6
     },
     {
       "id": "7813dfe5dc14",
@@ -91,7 +67,15 @@
       "url": "https://huggingface.co/papers/2611.03097",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "summary": "Complex documents such as scientific papers contain rich information in tables, figures, and equations; however, existi…",
-      "score": 1
+      "score": 5
+    },
+    {
+      "id": "370d4dc65601",
+      "title": "Advancing SVD-based LLM Compression via Layer-Wise Error Model Search",
+      "url": "https://huggingface.co/papers/2610.32878",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Low-rank SVD-based compression offers a powerful strategy to reduce the computational costs of LLMs. However, existing …",
+      "score": 4
     },
     {
       "id": "943e4743fc67",
@@ -99,10 +83,26 @@
       "url": "https://huggingface.co/papers/2610.39639",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "summary": "Vision-language models can get individual judgments right while struggling to recover and consistently use the exact pr…",
+      "score": 4
+    },
+    {
+      "id": "3e38ab4da42d",
+      "title": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
+      "url": "https://huggingface.co/papers/2610.41994",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "summary": "Linear attention scales linearly with sequence length, but its finite-state memory can limit long-context retrieval. In…",
+      "score": 3
+    },
+    {
+      "id": "fd07214f02f5",
+      "title": "History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models",
+      "url": "https://huggingface.co/papers/2611.02782",
+      "publishedAt": "2026-11-02T09:00:31.000Z",
+      "summary": "Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts re…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-11-03T17:30:05.255Z",
+  "fetchedAt": "2026-11-03T22:29:28.231Z",
   "stale": false,
   "error": null
 }
