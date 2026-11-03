@@ -6,6 +6,14 @@
   "category": "ai",
   "items": [
     {
+      "id": "9c48e2d06fa3",
+      "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+      "url": "https://huggingface.co/papers/2610.37481",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even when no training exam…",
+      "score": 26
+    },
+    {
       "id": "2dfc4f51be79",
       "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
       "url": "https://huggingface.co/papers/2610.35850",
@@ -14,28 +22,12 @@
       "score": 23
     },
     {
-      "id": "80318b5fa787",
-      "title": "Venus-DefakerOne2: A Vision-Forensics Foundation Model with Broader Coverage",
-      "url": "https://huggingface.co/papers/2610.37918",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Real-world forgery is inherently heterogeneous: it manifests not only as digital manipulation but also as physical spoo…",
-      "score": 20
-    },
-    {
-      "id": "9c48e2d06fa3",
-      "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
-      "url": "https://huggingface.co/papers/2610.37481",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even when no training exam…",
-      "score": 18
-    },
-    {
       "id": "3988288a0b41",
       "title": "When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
       "url": "https://huggingface.co/papers/2610.40256",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "summary": "To succeed in real-world long-horizon software development, coding agents must satisfy multi-dimensional task specifica…",
-      "score": 7
+      "score": 8
     },
     {
       "id": "fa45e518c202",
@@ -43,7 +35,15 @@
       "url": "https://huggingface.co/papers/2610.37393",
       "publishedAt": "2026-10-27T00:00:00.000Z",
       "summary": "Robot policy evaluation often relies on a binary success signal for task completion. In real-world deployment, however,…",
-      "score": 6
+      "score": 7
+    },
+    {
+      "id": "54ce04a29446",
+      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+      "url": "https://huggingface.co/papers/2610.37651",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction w…",
+      "score": 5
     },
     {
       "id": "aaa994a3d789",
@@ -59,7 +59,7 @@
       "url": "https://huggingface.co/papers/2610.36384",
       "publishedAt": "2026-10-26T00:00:00.000Z",
       "summary": "Perceiving human body motion is critical for multimodal systems that understand and assist people. Yet current evaluati…",
-      "score": 3
+      "score": 4
     },
     {
       "id": "0cfda12d53af",
@@ -67,15 +67,7 @@
       "url": "https://huggingface.co/papers/2610.37903",
       "publishedAt": "2026-10-27T00:00:00.000Z",
       "summary": "Metis is a bet that better data, better training methods and new architectures can buy what a bigger parameter count ca…",
-      "score": 3
-    },
-    {
-      "id": "54ce04a29446",
-      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
-      "url": "https://huggingface.co/papers/2610.37651",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction w…",
-      "score": 2
+      "score": 4
     },
     {
       "id": "cf34412b63ab",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2610.42010",
       "publishedAt": "2026-10-30T00:00:00.000Z",
       "summary": "This paper presents TurnTurk-GPT, a text-based turn-taking predictor for Turkish obtained by fine-tuning a Turkish GPT-…",
+      "score": 1
+    },
+    {
+      "id": "6a19bc99adc3",
+      "title": "TSFLab: A Self-Improving Agent-Agnostic Workbench for Time Series Forecasting Research",
+      "url": "https://huggingface.co/papers/2610.40901",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "As publications and products on time series forecasting (TSF) proliferate, researchers face a growing burden of analyzi…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-02T20:02:16.244Z",
+  "fetchedAt": "2026-11-03T02:18:04.476Z",
   "stale": false,
   "error": null
 }
