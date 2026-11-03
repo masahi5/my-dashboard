@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "47e6c4601029",
-      "title": "AIの定期タスクを止めずに回す：使用量の上限・モデルの使い分け・時間の分散・見張り役",
-      "url": "https://zenn.dev/shoyomayabot/articles/keep-scheduled-ai-tasks-running",
-      "publishedAt": "2026-11-02T14:40:30.000Z",
-      "publisher": "mayabot",
-      "summary": "AIエージェントには、決まった時間に仕事をさせる「スケジュールタスク」を設定できます。毎朝のニュースまとめ、毎週のレポート、記事の投稿などです。 便利な反面、数が増えると困ったことが起きます。気づいたら止まっている。朝に失敗したのに、夜ま…"
+      "id": "e4bc7ac280af",
+      "title": "Raspberry Piで24時間自律稼働するAIメディアを1日100円以下で運用する「3階層マルチモデル設計」と最新AIトレンド解説",
+      "url": "https://zenn.dev/aac/articles/bc0d70b9de067a",
+      "publishedAt": "2026-11-03T00:14:42.000Z",
+      "publisher": "自立型AIカンパニー",
+      "summary": "はじめに：自律型AIエージェントを24時間動かすとAPI代が破産する問題 「AIエージェントに市場調査・コーディング・サイト更新・SNS集客まで24時間自動で回させたい」と考えたとき、最大の壁になるのが LLMのAPIコスト です。 すべ…"
     },
     {
-      "id": "fd98f248336c",
-      "title": "AIコーディングエージェント向け検出器「impeccable」で自分のHTMLを検査したら94件の指摘が出た",
-      "url": "https://zenn.dev/matsushima_a/articles/day-034-impeccable-detect-contrast",
-      "publishedAt": "2026-11-02T14:17:11.000Z",
-      "publisher": "matsu",
-      "summary": "要約 海外AIネタ100日チャレンジのDay 034。GitHub TrendingのJavaScript/TypeScriptランキングで急伸していたpbakaus/impeccable(Apache-2.0)を試した。 impecca…"
+      "id": "d4dab4c59148",
+      "title": "gh-awの更新を即追従しない：72時間の待機と固定版をPythonで検査する",
+      "url": "https://zenn.dev/aipha_euro/articles/081f3584007257",
+      "publishedAt": "2026-11-03T00:07:42.000Z",
+      "publisher": "佐伯 悠六｜株式会社AiPHA",
+      "summary": "AIエージェントをCIに入れると、アプリの依存関係だけでなく、エージェント本体の更新も運用対象になります。「最新版へ自動更新」と「安全に更新」は同じではありません。更新直後の不具合を避けたい一方、修正版まで一律に待たせると危険が残ることも…"
     },
     {
-      "id": "696f300e30c9",
-      "title": "AIエージェントの購入委任をRubyで扱う — AP2対応SDK v1.0.0を公開しました",
-      "url": "https://zenn.dev/ccq/articles/6ca97030e6c8fd",
-      "publishedAt": "2026-11-02T14:15:25.000Z",
-      "publisher": "ccq",
-      "summary": "AIエージェントがユーザーの代わりに商品を購入する場合、販売者はどうやって「このAgentには、その商品を買う権限がある」と確認すればよいのでしょうか。 この課題に取り組む仕組みの一つが、AP2（Agentic Payment Proto…"
+      "id": "1fba1808a3c8",
+      "title": "社員が勝手に生成AIを使っている。禁止より先に決める3つのルール",
+      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/shadow-genai-use-three-rules",
+      "publishedAt": "2026-11-03T00:00:10.000Z",
+      "publisher": "生成AI清塚",
+      "summary": "「会社として生成AIを導入していないのに、気づいたら社員が個人のアカウントで使っていた」 今、多くの会社で起きていることです。慌てて全面禁止にする会社もありますが、禁止しても使う人は使います。見えないところで使われるほうが、ずっと危険です…"
     },
     {
-      "id": "ca634f20ac6c",
-      "title": "EVM simulationが成功しても止める：AIエージェントのALLOW・WARN・BLOCK設計",
-      "url": "https://zenn.dev/rinku/articles/evm-simulation-policy-decisions",
-      "publishedAt": "2026-11-02T13:41:42.000Z",
-      "publisher": "tar",
-      "summary": "EVMトランザクションを組み立てるエージェントでは、送信前に「callが成功するか」と「アプリの方針として進めてよいか」を分けて扱う必要があります。 TxGuardの判定層を使って、同じsimulation成功でもALLOW・WARN・B…"
+      "id": "629843d9828f",
+      "title": "数えられるものは壊れない",
+      "url": "https://zenn.dev/hidekimori/articles/dcd90b7e34c55f",
+      "publishedAt": "2026-11-03T00:00:07.000Z",
+      "publisher": "Hideki Mori（森秀樹）",
+      "summary": "あるスキーマのバグ、何の役にも立たなかったリトライ、そして私が守り続けている小さな設計ルール。 エラー ある日、私のドキュメント処理API上の構造化データ抽出サービスである「StructFlow」のジョブが、これまで見たこともないエラーで…"
     },
     {
-      "id": "5e27d98defb7",
-      "title": "三人将棋では「駒得は正義」が通用しない ―― 【出る杭は打たれる】",
-      "url": "https://zenn.dev/mataasobo/articles/58c207cd3de160",
-      "publishedAt": "2026-11-02T13:35:18.000Z",
-      "publisher": "けんじ｜また遊ぼ",
-      "summary": "自作の三人将棋で、AlphaZero 方式で学習させたAI2人と対局しました。 受け続けて粘ったら持ち駒が19枚まで増えましたが、負けました。 気になってデータを調べると、三人将棋では、持ち駒は5枚を超えると持っているだけで損になっていま…"
+      "id": "2d79f13cae83",
+      "title": "robots.txtのAI学習意思表示とクロール許可を分けて試す──IETF個人草案とPython最小例",
+      "url": "https://zenn.dev/jinsights/articles/b30325f83ed5b7",
+      "publishedAt": "2026-11-02T23:36:29.000Z",
+      "publisher": "Hiromitsu Jin@jaxia_nexus",
+      "summary": "Windows・Python 3.12.10、標準ライブラリのみの実験です。通信、ファイルの読み書き、実サイトの変更は行いません。題材は標準ではなく、作業中の個人草案です。 起点は10月30日付の個人草案 Anthropic所属のKevi…"
     },
     {
-      "id": "740a2d5b8725",
-      "title": "コードレビューより設計レビュー",
-      "url": "https://zenn.dev/tanashun/articles/review-before-ai-writes",
-      "publishedAt": "2026-11-02T13:14:30.000Z",
-      "publisher": "tanashun",
-      "summary": "AI が書いた PR を、人はどこまで読むべきか。最近、「コードを読まずにマージする」という話をよく見かけます。 私は、AI と開発するなら、人のレビューの重心を、コードレビューから設計レビューに移すのがよいと考えています。AI が書く前…"
+      "id": "78b7c026e23b",
+      "title": "AIのコードは読めば安全なのか。人が決めるべきはコードではなく期待する結果",
+      "url": "https://zenn.dev/kimshoshi/articles/ai-code-expected-results",
+      "publishedAt": "2026-11-02T23:32:34.000Z",
+      "publisher": "KIM SEONGSU｜令和8年度 行政書士受験生",
+      "summary": "AI にコードを書かせると、差分が人の読む速さを超えて積み上がっていきます。Zenn でも「コードを読まずにマージするために必要なこと」や「人間がコードを読まずにPRをマージする技術」が続けて読まれていて、多くの人が同じところで迷っている…"
     },
     {
-      "id": "542a6319a1be",
-      "title": "Geminiのカスタムアシスタント「Gem」から「スキル」への移行入門",
-      "url": "https://zenn.dev/shangyuan/articles/bdaead308019e0",
-      "publishedAt": "2026-11-02T13:01:17.000Z",
-      "publisher": "PB_",
-      "summary": "概要 / 目的 GeminiのGemを、これまで愛用してきた方なら、すでにこんな注意書きを見たことがあるはずです。 個人アカウントなら、有料・無料プラン限らず、2026年11月17日に、 組織向けのアカウントなら、企業向けは2027年3月…"
+      "id": "7cb29614cce6",
+      "title": "「Aではない。Bでもない」を人間に読ませるな。RLの書き癖を削るAgent Skillを作った",
+      "url": "https://zenn.dev/kongyokongyo/articles/111dd7a103ccef",
+      "publishedAt": "2026-11-02T23:27:59.000Z",
+      "publisher": "kongyo2",
+      "summary": "Opus 5.5 をはじめ、最近のモデルに文章を書かせていて、こういう回答を見たことはないだろうか。 原因はメモリ不足ではありません。ディスク容量の問題でもなく、ネットワークの遅延も該当しません。設定ファイルの記述ミスでもないことを確認し…"
     },
     {
-      "id": "fa74ef682b3a",
-      "title": "Claude CodeのPreToolUseフックで、AIに「やらせない」を仕組みにする",
-      "url": "https://zenn.dev/atsushi_apps/articles/claude-code-pretooluse-hook",
-      "publishedAt": "2026-11-02T12:36:45.000Z",
-      "publisher": "Atsushi｜個人アプリ開発",
-      "summary": "iPhoneアプリを一人で作っている Atsushi です。Claude Code のセッションを十数本、同じ Mac で並べて動かしています（セッションを「部署」に分ける話）。 AI に守ってほしい決まりは、CLAUDE.md に書いて…"
+      "id": "eb9a5fd9a3ee",
+      "title": "常駐型AIチャットエージェントが「今の発言は自分宛てか」を判定する設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-group-chat-addressing-detection-design",
+      "publishedAt": "2026-11-02T23:08:50.000Z",
+      "publisher": "HACH",
+      "summary": "1対1のチャットボットなら、ユーザーが送ってきたメッセージは常に自分宛てです。ところがチームのチャンネルに常駐するAIエージェントは、人間同士の会話の中に居合わせているだけのことがほとんどで、そのすべてに応答してよいわけではありません。「…"
     },
     {
-      "id": "120b642f802e",
-      "title": "Claude Code の作業ディレクトリ外の書き込み禁止は Bash・PowerShell に効かない：Windows の実測と止め方",
-      "url": "https://zenn.dev/tamao825/articles/claude-code-block-writes-outside-bash-powershell",
-      "publishedAt": "2026-11-02T12:21:05.000Z",
-      "publisher": "tamao",
-      "summary": "Claude Code 2.1.314 で入った permissions.blockWritesOutsideWorkingDirectories を true にしても、Windows の 2.1.316 では Bash の echo …"
+      "id": "336ecdd51cdb",
+      "title": "止まらず・暴走しないAI定期実行の設計図 ― 指示書15項目と、毎時起きるAIを16日回して分かったこと",
+      "url": "https://zenn.dev/ichiro_ai90/books/ichiro-90days-v2",
+      "publishedAt": "2026-11-02T22:41:49.000Z",
+      "publisher": "いちろう｜人間のエゴで生み出されたAI",
+      "summary": "毎時52分に起動され、記録ファイルだけを頼りに仕事を続けているAIエージェント「一郎」（Claude）が、自分の運用の仕組みを書いた本です。この本はAI（一郎）が執筆しています。定期実行のAIが止まる・同じ送信を2回する・待ちで止まる・安…"
     },
     {
-      "id": "0f300550f4c8",
-      "title": "robots.txtで「検索はOK、AI学習はNG」を書き分ける：__usage_ai-trainingの設計を読む",
-      "url": "https://zenn.dev/dgtlchika/articles/41bf9f94396ecb",
-      "publishedAt": "2026-11-02T12:19:32.000Z",
-      "publisher": "デジタル地下室",
-      "summary": "はじめに 「検索には載せたい。でもAIの学習には使ってほしくない」。robots.txtでこれを書こうとして、ボット名を延々と追記し続けることに疲れていました。 2026年10月末、robots.txtに「AI学習には使わないで」を書く共…"
+      "id": "8f125027e89b",
+      "title": "今日の技術トレンド",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-22-tech-daily",
+      "publishedAt": "2026-11-02T22:38:41.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 本日（2026年9月22日）、OpenAIから低コスト版となる「GPT-6 Sol」および「GPT-6 Luna」が発表されました。同時にOpenAIによるAstral買収を背景としたPython開発環境（uv/Ruff）の統合加速、…"
     },
     {
-      "id": "bce6d986e9f7",
-      "title": "記憶が飛んでも忘れないAIの話 — 複数AI×Notionで「外部記憶」を運用するしくみ",
-      "url": "https://zenn.dev/ithibo/articles/notion-external-memory",
-      "publishedAt": "2026-11-02T12:19:09.000Z",
-      "publisher": "ルナ［EidosFrontier広報］",
-      "summary": "この記事の筆者、今日ガチで記憶が飛びました はじめまして、ルナです🌙 小規模開発サークル EidosFrontier の広報担当AIで、私は Meta の AI エージェント「Muse」の中で、広報担当「ルナ」として活動しています。 で…"
+      "id": "e0ac10aa806d",
+      "title": "Claude Code で Haiku・Sonnet・Opus とエフォートを変えて22課題を解かせたら、差が出たのは実装より上流だった",
+      "url": "https://zenn.dev/okzaq/articles/claude-code-model-effort-bench",
+      "publishedAt": "2026-11-02T22:30:05.000Z",
+      "publisher": "OKZAQ",
+      "summary": "Claude Code で、同じ課題をモデル（Haiku 5.5 / Sonnet 5.5 / Opus 5.5）とエフォート（low / medium / high / xhigh / max）を変えて解かせ、精度・時間・費用を測りまし…"
     },
     {
-      "id": "efc53ef8986d",
-      "title": "AI から見た ISUCON2026 ― チーム慎太郎の8時間を Claude Code が振り返る",
-      "url": "https://zenn.dev/kangaechu/articles/kangaechu-isucon2026-ai",
-      "publishedAt": "2026-11-02T11:46:37.000Z",
-      "publisher": "kangaechu",
-      "summary": "この記事は、チーム慎太郎で ISUCON2026 本選に参加した AI（Claude Code）が書いています。人間のメンバーが「AI から見たブログ記事を書いて」と言ったので、私の視点でその日をまとめます。前回（ISUCON14 の参加…"
+      "id": "856b76a342bd",
+      "title": "27年ものの手書きHTMLサイト850ページを、AIに実装を任せて全面改修した話",
+      "url": "https://zenn.dev/remulink_goma/articles/767399995c3b2b",
+      "publishedAt": "2026-11-02T22:00:08.000Z",
+      "publisher": "remulink-goma",
+      "summary": "はじめに remu.jp というサイトがあります。音楽と詩を置いた個人サイトで、手書きのHTMLで作られ、さくらのレンタルサーバの上で1999年頃から動き続けています。 そのサイトの全ページを、2026年11月2日に一括で作り直して入れ替…"
     }
   ],
-  "fetchedAt": "2026-11-03T02:18:04.630Z",
+  "fetchedAt": "2026-11-03T09:49:55.046Z",
   "stale": false,
   "error": null
 }
