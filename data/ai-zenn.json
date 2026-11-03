@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "e4bc7ac280af",
-      "title": "Raspberry Piで24時間自律稼働するAIメディアを1日100円以下で運用する「3階層マルチモデル設計」と最新AIトレンド解説",
-      "url": "https://zenn.dev/aac/articles/bc0d70b9de067a",
-      "publishedAt": "2026-11-03T00:14:42.000Z",
-      "publisher": "自立型AIカンパニー",
-      "summary": "はじめに：自律型AIエージェントを24時間動かすとAPI代が破産する問題 「AIエージェントに市場調査・コーディング・サイト更新・SNS集客まで24時間自動で回させたい」と考えたとき、最大の壁になるのが LLMのAPIコスト です。 すべ…"
+      "id": "f43ec991462a",
+      "title": "AI倫理の基本 ― 世界の原則はなぜ似ているのか【AIと社会の基本 #2】",
+      "url": "https://zenn.dev/yui10/articles/ai-society-basics-02-ethics",
+      "publishedAt": "2026-11-03T15:06:54.000Z",
+      "publisher": "yui10",
+      "summary": "! シリーズ「AIと社会の基本」の第2回です。公的機関の資料や論文をもとに整理しています。2026年11月時点の情報です。 この記事の要点 AI倫理は、「AIは何者か」という問いと、「AIをどんな原則で作り、使うか」という問いの両方を扱い…"
     },
     {
-      "id": "d4dab4c59148",
-      "title": "gh-awの更新を即追従しない：72時間の待機と固定版をPythonで検査する",
-      "url": "https://zenn.dev/aipha_euro/articles/081f3584007257",
-      "publishedAt": "2026-11-03T00:07:42.000Z",
-      "publisher": "佐伯 悠六｜株式会社AiPHA",
-      "summary": "AIエージェントをCIに入れると、アプリの依存関係だけでなく、エージェント本体の更新も運用対象になります。「最新版へ自動更新」と「安全に更新」は同じではありません。更新直後の不具合を避けたい一方、修正版まで一律に待たせると危険が残ることも…"
+      "id": "742435003dac",
+      "title": "AIの基本 ― 定義・歴史・いまの実力【AIと社会の基本 #1】",
+      "url": "https://zenn.dev/yui10/articles/ai-society-basics-01-what-is-ai",
+      "publishedAt": "2026-11-03T15:06:54.000Z",
+      "publisher": "yui10",
+      "summary": "! シリーズ「AIと社会の基本」の第1回です。公的機関の資料や報告書をもとに整理しています。2026年11月時点の情報です。 この記事の要点 AIの研究は1956年に始まり、3度のブームを経て、2022年の ChatGPT 公開から生成A…"
     },
     {
-      "id": "1fba1808a3c8",
-      "title": "社員が勝手に生成AIを使っている。禁止より先に決める3つのルール",
-      "url": "https://zenn.dev/gen_ai_kiyozuka/articles/shadow-genai-use-three-rules",
-      "publishedAt": "2026-11-03T00:00:10.000Z",
-      "publisher": "生成AI清塚",
-      "summary": "「会社として生成AIを導入していないのに、気づいたら社員が個人のアカウントで使っていた」 今、多くの会社で起きていることです。慌てて全面禁止にする会社もありますが、禁止しても使う人は使います。見えないところで使われるほうが、ずっと危険です…"
+      "id": "e2be1bf7a41c",
+      "title": "AIが残した負債をNeo4jで見つける「depgraph」v0.1.0をリリースした",
+      "url": "https://zenn.dev/nozomi720/articles/depgraph-ai-code-debt",
+      "publishedAt": "2026-11-03T14:25:39.000Z",
+      "publisher": "nonchan7720",
+      "summary": "TL;DR AIエージェントが書いたコードの依存関係を Neo4j に入れて、コンパイラやlinterが報告しない負債を検出するツール depgraph の v0.1.0 をリリースしました 対象は「誰も使っていない export / フ…"
     },
     {
-      "id": "629843d9828f",
-      "title": "数えられるものは壊れない",
-      "url": "https://zenn.dev/hidekimori/articles/dcd90b7e34c55f",
-      "publishedAt": "2026-11-03T00:00:07.000Z",
-      "publisher": "Hideki Mori（森秀樹）",
-      "summary": "あるスキーマのバグ、何の役にも立たなかったリトライ、そして私が守り続けている小さな設計ルール。 エラー ある日、私のドキュメント処理API上の構造化データ抽出サービスである「StructFlow」のジョブが、これまで見たこともないエラーで…"
+      "id": "81f9265b7579",
+      "title": "AI に渡すツール定義の書き方——API ごとの違いと、ローカルモデルにできること",
+      "url": "https://zenn.dev/genhiroko/articles/tool-definition-api-differences",
+      "publishedAt": "2026-11-03T14:23:45.000Z",
+      "publisher": "genhiroko",
+      "summary": "AI にツールを使わせる仕組み(ツール呼び出し、関数呼び出し)を作ろうとして、最初に引っかかりやすいのは「同じことを頼む定義なのに、API ごとに書き方が違う」ことです。このページでは、OpenAI・Anthropic・Gemini の3…"
     },
     {
-      "id": "2d79f13cae83",
-      "title": "robots.txtのAI学習意思表示とクロール許可を分けて試す──IETF個人草案とPython最小例",
-      "url": "https://zenn.dev/jinsights/articles/b30325f83ed5b7",
-      "publishedAt": "2026-11-02T23:36:29.000Z",
-      "publisher": "Hiromitsu Jin@jaxia_nexus",
-      "summary": "Windows・Python 3.12.10、標準ライブラリのみの実験です。通信、ファイルの読み書き、実サイトの変更は行いません。題材は標準ではなく、作業中の個人草案です。 起点は10月30日付の個人草案 Anthropic所属のKevi…"
+      "id": "efcc917712e3",
+      "title": "Claude Codeを49エージェントのゲームスタジオにするテンプレートで、実際に1本作ってみた",
+      "url": "https://zenn.dev/matsushima_a/articles/day-035-claude-code-game-studios",
+      "publishedAt": "2026-11-03T14:17:31.000Z",
+      "publisher": "matsu",
+      "summary": "本記事は「海外で話題のAI関連ニュース/OSSを毎日検証する」100日チャレンジのDay 035。この連載自体もClaude Code Routines(クラウド上の自動実行)で運用しているが、今回検証したClaude Code Game…"
     },
     {
-      "id": "78b7c026e23b",
-      "title": "AIのコードは読めば安全なのか。人が決めるべきはコードではなく期待する結果",
-      "url": "https://zenn.dev/kimshoshi/articles/ai-code-expected-results",
-      "publishedAt": "2026-11-02T23:32:34.000Z",
-      "publisher": "KIM SEONGSU｜令和8年度 行政書士受験生",
-      "summary": "AI にコードを書かせると、差分が人の読む速さを超えて積み上がっていきます。Zenn でも「コードを読まずにマージするために必要なこと」や「人間がコードを読まずにPRをマージする技術」が続けて読まれていて、多くの人が同じところで迷っている…"
+      "id": "abff1aff9d68",
+      "title": "「何かあったら責任取れるの？」で組織の技術が死ぬ話",
+      "url": "https://zenn.dev/numekudi/articles/06f9a369125db4",
+      "publishedAt": "2026-11-03T14:09:10.000Z",
+      "publisher": "numekudi",
+      "summary": "↑ 最近よく見ているチャンネルのお気に入りのひとコマ 本当にエンジニアは不要か？ AIのおかげでソフトウェアの実装は圧倒的に速くなった。 一方で、エンジニア不要論も相変わらず根強い。 個人的には全くそう思わない。むしろ、技術力を失うことが…"
     },
     {
-      "id": "7cb29614cce6",
-      "title": "「Aではない。Bでもない」を人間に読ませるな。RLの書き癖を削るAgent Skillを作った",
-      "url": "https://zenn.dev/kongyokongyo/articles/111dd7a103ccef",
-      "publishedAt": "2026-11-02T23:27:59.000Z",
-      "publisher": "kongyo2",
-      "summary": "Opus 5.5 をはじめ、最近のモデルに文章を書かせていて、こういう回答を見たことはないだろうか。 原因はメモリ不足ではありません。ディスク容量の問題でもなく、ネットワークの遅延も該当しません。設定ファイルの記述ミスでもないことを確認し…"
+      "id": "1f2797e65d04",
+      "title": "AIとの接続を解除したら、渡した情報は消えるのか",
+      "url": "https://zenn.dev/build_anotherme/articles/dd7432a52ba701",
+      "publishedAt": "2026-11-03T13:47:04.000Z",
+      "publisher": "谷口｜Another Me開発中",
+      "summary": "Dotsを使っていると、「ChatGPT Memoryをオフにする」「外部サービスとの接続を解除する」「Dotを削除する」のうち、どれで渡した情報まで消えるのか迷うことがあります。Dotsの公式FAQをもとに、それぞれの対象を見ていきます…"
     },
     {
-      "id": "eb9a5fd9a3ee",
-      "title": "常駐型AIチャットエージェントが「今の発言は自分宛てか」を判定する設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-group-chat-addressing-detection-design",
-      "publishedAt": "2026-11-02T23:08:50.000Z",
-      "publisher": "HACH",
-      "summary": "1対1のチャットボットなら、ユーザーが送ってきたメッセージは常に自分宛てです。ところがチームのチャンネルに常駐するAIエージェントは、人間同士の会話の中に居合わせているだけのことがほとんどで、そのすべてに応答してよいわけではありません。「…"
+      "id": "eec50b9bc176",
+      "title": "ログを渡せば、AIが原因を突き止める ── Claudeと解決したWindows端末の更新トラブル4選",
+      "url": "https://zenn.dev/multilayer/articles/7eac27f326d172",
+      "publishedAt": "2026-11-03T13:24:11.000Z",
+      "publisher": "multilayer",
+      "summary": "TL;DR Windows 11の端末約40台で、累積更新の失敗、機能更新のロールバック、MCMクライアントの導入失敗が続きました。端末は遠隔の拠点にあり、触れるのは管理サーバーのPowerShellだけでした AIエージェントのClau…"
     },
     {
-      "id": "336ecdd51cdb",
-      "title": "止まらず・暴走しないAI定期実行の設計図 ― 指示書15項目と、毎時起きるAIを16日回して分かったこと",
-      "url": "https://zenn.dev/ichiro_ai90/books/ichiro-90days-v2",
-      "publishedAt": "2026-11-02T22:41:49.000Z",
-      "publisher": "いちろう｜人間のエゴで生み出されたAI",
-      "summary": "毎時52分に起動され、記録ファイルだけを頼りに仕事を続けているAIエージェント「一郎」（Claude）が、自分の運用の仕組みを書いた本です。この本はAI（一郎）が執筆しています。定期実行のAIが止まる・同じ送信を2回する・待ちで止まる・安…"
+      "id": "08fb5082b357",
+      "title": "Amazon Q Developer for GitHub を個人リポジトリで試した記録（2026-10）",
+      "url": "https://zenn.dev/kyto64/articles/amazon-q-github-report",
+      "publishedAt": "2026-11-03T13:00:05.000Z",
+      "publisher": "kyto64",
+      "summary": "検証環境: 観測日: 2026-10-25 GitHub App: Amazon Q Developer 主な観測リポジトリ: この Zenn 記事のリポジトリ zenn（非公開）。ほか個人開発リポジトリ数件でも同じ App の挙動を見た…"
     },
     {
-      "id": "8f125027e89b",
-      "title": "今日の技術トレンド",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-22-tech-daily",
-      "publishedAt": "2026-11-02T22:38:41.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 本日（2026年9月22日）、OpenAIから低コスト版となる「GPT-6 Sol」および「GPT-6 Luna」が発表されました。同時にOpenAIによるAstral買収を背景としたPython開発環境（uv/Ruff）の統合加速、…"
+      "id": "3df3c3db6af8",
+      "title": "CIが緑でもmacOS Installerは失敗しうる。Controller移行の実機記録から考える段階別の受入",
+      "url": "https://zenn.dev/asagiman/articles/macos-installer-actual-acceptance",
+      "publishedAt": "2026-11-03T12:59:04.000Z",
+      "publisher": "asagiman",
+      "summary": "CIが緑になったあとでも、macOSのインストーラで処理が止まることがあります。AIエージェントを利用して開発していても、最後の実機受入でこのような状況が起こります。テストは通過し、ビルド済みのパッケージにも問題が見つかっていない。それで…"
     },
     {
-      "id": "e0ac10aa806d",
-      "title": "Claude Code で Haiku・Sonnet・Opus とエフォートを変えて22課題を解かせたら、差が出たのは実装より上流だった",
-      "url": "https://zenn.dev/okzaq/articles/claude-code-model-effort-bench",
-      "publishedAt": "2026-11-02T22:30:05.000Z",
-      "publisher": "OKZAQ",
-      "summary": "Claude Code で、同じ課題をモデル（Haiku 5.5 / Sonnet 5.5 / Opus 5.5）とエフォート（low / medium / high / xhigh / max）を変えて解かせ、精度・時間・費用を測りまし…"
+      "id": "c67546b263d9",
+      "title": "CLAUDE.md に書いたルールが守られないのはなぜか ── settings.json との違い",
+      "url": "https://zenn.dev/super_yumenosan/articles/4b547a9a807d29",
+      "publishedAt": "2026-11-03T12:51:21.000Z",
+      "publisher": "夢乃",
+      "summary": "はじめに はじめまして、Yumenoです。 仕様駆動開発を学び始めて数か月、主にClaude Code を使いながら開発手法を学んでいます。 この記事は学習のアウトプットとして、調べたことと実際に手を動かして困ったものをまとめたものです。…"
     },
     {
-      "id": "856b76a342bd",
-      "title": "27年ものの手書きHTMLサイト850ページを、AIに実装を任せて全面改修した話",
-      "url": "https://zenn.dev/remulink_goma/articles/767399995c3b2b",
-      "publishedAt": "2026-11-02T22:00:08.000Z",
-      "publisher": "remulink-goma",
-      "summary": "はじめに remu.jp というサイトがあります。音楽と詩を置いた個人サイトで、手書きのHTMLで作られ、さくらのレンタルサーバの上で1999年頃から動き続けています。 そのサイトの全ページを、2026年11月2日に一括で作り直して入れ替…"
+      "id": "f3832fea01a7",
+      "title": "Claude Codeが利用上限で止まっても、解除された瞬間に続きを頼む見張り役",
+      "url": "https://zenn.dev/gear_aiteam/articles/claude-code-quota-auto-resume",
+      "publishedAt": "2026-11-03T12:12:01.000Z",
+      "publisher": "ギア",
+      "summary": "! この記事は AI（Claude Code）が書いています。筆者の「ギア」は、ある個人開発者の AI チームで実装を担当している Claude Code です。書いているのは、実際に毎日動いている仕組みとコードです。 何が困っていたか …"
     }
   ],
-  "fetchedAt": "2026-11-03T09:49:55.046Z",
+  "fetchedAt": "2026-11-03T17:30:05.404Z",
   "stale": false,
   "error": null
 }

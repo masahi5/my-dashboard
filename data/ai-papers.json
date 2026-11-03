@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "38ba230b26ae",
-      "title": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
-      "url": "https://huggingface.co/papers/2611.03178",
-      "publishedAt": "2026-11-02T14:15:11.000Z",
-      "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, …",
-      "score": 55
+      "id": "fb51ac098872",
+      "title": "Advances in Agentic Computer Graphics",
+      "url": "https://huggingface.co/papers/2611.01860",
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively re…",
+      "score": 77
     },
     {
-      "id": "abc8c54df001",
-      "title": "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
-      "url": "https://huggingface.co/papers/2611.03602",
-      "publishedAt": "2026-11-02T18:41:14.000Z",
-      "summary": "Multimodal large language models (MLLMs) can generate detailed video captions, yet they may overemphasize minor details…",
-      "score": 23
+      "id": "a4278bc0fc00",
+      "title": "SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training",
+      "url": "https://huggingface.co/papers/2611.02074",
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "summary": "Coding agents solve repository issues through long sequences of exploration, editing, and validation. These trajectorie…",
+      "score": 32
     },
     {
-      "id": "aa3832582c9d",
-      "title": "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
-      "url": "https://huggingface.co/papers/2610.39278",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "Predicting future physical states stands as a central challenge in embodied intelligence. Existing video world models l…",
-      "score": 6
+      "id": "407a74186f84",
+      "title": "When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?",
+      "url": "https://huggingface.co/papers/2611.01815",
+      "publishedAt": "2026-11-01T11:31:09.000Z",
+      "summary": "Prediction errors from video world models are often treated as physical surprise, but they can also reflect appearance,…",
+      "score": 20
     },
     {
-      "id": "0a382d514909",
-      "title": "FLAMIA: FLAsh MIcroscaling Attention for Fast and Causally Safe Training on Blackwell",
-      "url": "https://huggingface.co/papers/2611.03344",
-      "publishedAt": "2026-11-02T16:00:12.000Z",
-      "summary": "Attention remains a substantial computational cost in Transformer training, particularly at long context lengths. NVIDI…",
-      "score": 5
+      "id": "f8bc2096a6fc",
+      "title": "Order-Only On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2611.02112",
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) trains a student on its own generations by matching the teacher's token probabilities. The…",
+      "score": 11
     },
     {
-      "id": "e7a9a7d1c9d0",
-      "title": "BYOD: Build Your Own DLM - Efficient Autoregressive-to-Diffusion Language Model Conversion",
-      "url": "https://huggingface.co/papers/2610.41574",
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "summary": "Unlike autoregressive (AR) models, diffusion language models (DLMs) permit parallel token updates, flexible generation,…",
-      "score": 5
+      "id": "4e4c05493f67",
+      "title": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
+      "url": "https://huggingface.co/papers/2611.03424",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes t…",
+      "score": 10
     },
     {
-      "id": "7b945e9115c0",
-      "title": "Measuring AI Agents as Teammates with Collaborative Intelligence",
-      "url": "https://huggingface.co/papers/2611.02633",
-      "publishedAt": "2026-11-02T06:59:08.000Z",
-      "summary": "Progress in AI is often measured by what a single model can do on its own. Yet teams of AI agents are starting to make …",
+      "id": "e49dfdd299be",
+      "title": "LEANGUARD: Lean-Verified Guardrails for Tool-Using Agents",
+      "url": "https://huggingface.co/papers/2611.02332",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "Tool-using language-model agents often execute actions that their domain policies forbid. We present LeanGuard, a runti…",
+      "score": 7
+    },
+    {
+      "id": "193be4b97ab6",
+      "title": "Cross-Primitive Consistency in Jev",
+      "url": "https://huggingface.co/papers/2610.38623",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "Jev enables efficient decision-making with large language models (LLMs) through typed querying primitives, allowing the…",
       "score": 3
     },
     {
-      "id": "29c077738686",
-      "title": "Library of Layers (LoL): Adaptively Ordering Transformer Layers at Runtime",
-      "url": "https://huggingface.co/papers/2611.03526",
-      "publishedAt": "2026-11-02T17:57:53.000Z",
-      "summary": "Computer programmers chain together the same reusable computational primitives, for example, conditional statements or …",
+      "id": "370d4dc65601",
+      "title": "Advancing SVD-based LLM Compression via Layer-Wise Error Model Search",
+      "url": "https://huggingface.co/papers/2610.32878",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Low-rank SVD-based compression offers a powerful strategy to reduce the computational costs of LLMs. However, existing …",
       "score": 2
     },
     {
-      "id": "5fc3e395295b",
-      "title": "Can Large Language Model Agents Learn by Watching Tutorial Videos?",
-      "url": "https://huggingface.co/papers/2611.01460",
-      "publishedAt": "2026-11-01T00:00:00.000Z",
-      "summary": "Humans continuously acquire knowledge from carefully crafted materials such as books and tutorial videos, carrying that…",
+      "id": "1784e2823459",
+      "title": "Multi-Agent Relay Thinking",
+      "url": "https://huggingface.co/papers/2610.35219",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Existing multi-agent collaboration (MAC) methods have primarily explored a group thinking collaboration topology, where…",
+      "score": 2
+    },
+    {
+      "id": "3e38ab4da42d",
+      "title": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
+      "url": "https://huggingface.co/papers/2610.41994",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "summary": "Linear attention scales linearly with sequence length, but its finite-state memory can limit long-context retrieval. In…",
       "score": 1
     },
     {
-      "id": "058565264e1a",
-      "title": "SIMIT: Self-Improving Vision-Language Models via Imagination at Test-Time",
-      "url": "https://huggingface.co/papers/2611.00053",
-      "publishedAt": "2026-10-11T00:00:00.000Z",
-      "summary": "We introduce SIMIT, a test-time self-improvement framework in which a vision-language model creates its own query-speci…",
-      "score": 1
-    },
-    {
-      "id": "125c0c7b1eae",
-      "title": "When Morphs Look Better: Face Image Quality as a Training-Free Signal for Morphing Attack Detection",
-      "url": "https://huggingface.co/papers/2611.00074",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "summary": "Face image quality assessment (FIQA) estimates the utility of a face image for automated face recognition and has been …",
-      "score": 1
-    },
-    {
-      "id": "b1d150da234b",
-      "title": "Lab2Sim: Turning Real-World Experiment Videos into Interactive Virtual Experiments",
-      "url": "https://huggingface.co/papers/2611.02928",
-      "publishedAt": "2026-11-02T10:56:06.000Z",
-      "summary": "Science experiment videos demonstrate how experiments are performed, but offer no direct interaction for learners. Turn…",
-      "score": 1
-    },
-    {
-      "id": "e08fcefac54a",
-      "title": "Can Coding Agents Sustain Continual Evolution without Forgetting?",
-      "url": "https://huggingface.co/papers/2611.03219",
+      "id": "7813dfe5dc14",
+      "title": "DR Pixel: Page-Native Deep Research with Vision-Language Models",
+      "url": "https://huggingface.co/papers/2611.03097",
       "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Recently, harness self-evolution has emerged as an important paradigm for improving agent performance. Prior studies sh…",
-      "score": 0
+      "summary": "Complex documents such as scientific papers contain rich information in tables, figures, and equations; however, existi…",
+      "score": 1
+    },
+    {
+      "id": "943e4743fc67",
+      "title": "Where Do Vision Language Models Fail at 3D Reasoning?",
+      "url": "https://huggingface.co/papers/2610.39639",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "Vision-language models can get individual judgments right while struggling to recover and consistently use the exact pr…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-03T09:49:54.909Z",
+  "fetchedAt": "2026-11-03T17:30:05.255Z",
   "stale": false,
   "error": null
 }
