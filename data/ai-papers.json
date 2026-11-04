@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "9f0dfa076ab6",
-      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
-      "url": "https://huggingface.co/papers/2611.05377",
+      "id": "285b79df7a88",
+      "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+      "url": "https://huggingface.co/papers/2611.04814",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different e…",
-      "score": 39
-    },
-    {
-      "id": "ced9b2b1ba1a",
-      "title": "VidUEU-Agent: A Data-Curation Agent for Multimodal Understanding, Editing, and Unified Tasks",
-      "url": "https://huggingface.co/papers/2611.04418",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "The advancement of multimodal learning is heavily constrained by the scarcity and high annotation cost of high-quality …",
-      "score": 20
+      "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs su…",
+      "score": 64
     },
     {
       "id": "82f07207fc8f",
@@ -27,22 +19,54 @@
       "url": "https://huggingface.co/papers/2611.05193",
       "publishedAt": "2026-11-03T00:00:00.000Z",
       "summary": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Althoug…",
-      "score": 15
+      "score": 41
     },
     {
-      "id": "83f88c0c62c2",
-      "title": "Switch-SWE: Do Coding Agents Hold Focus When Switching Between Unfinished Tasks?",
-      "url": "https://huggingface.co/papers/2611.02017",
-      "publishedAt": "2026-11-01T00:00:00.000Z",
-      "summary": "Software development sessions often involve several unfinished tasks rather than one issue carried through to completio…",
+      "id": "0a300640005c",
+      "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
+      "url": "https://huggingface.co/papers/2610.40574",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teach…",
+      "score": 8
+    },
+    {
+      "id": "9dc3a6b4bff4",
+      "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+      "url": "https://huggingface.co/papers/2611.05345",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding wit…",
+      "score": 6
+    },
+    {
+      "id": "b3d82ce02815",
+      "title": "You don't need long context",
+      "url": "https://huggingface.co/papers/2611.05306",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may ri…",
       "score": 5
     },
     {
-      "id": "285b79df7a88",
-      "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
-      "url": "https://huggingface.co/papers/2611.04814",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs su…",
+      "id": "7c65c5307159",
+      "title": "Dory1.0-4B: A Looped Normalized-GPT",
+      "url": "https://huggingface.co/papers/2611.03998",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single ch…",
+      "score": 4
+    },
+    {
+      "id": "1e67bcdc818a",
+      "title": "BEND 2.0: Benchmarking the Capabilities Needed to Design DNA",
+      "url": "https://huggingface.co/papers/2611.03806",
+      "publishedAt": "2026-11-02T19:00:07.000Z",
+      "summary": "Genomic foundation models are increasingly used to propose DNA sequences and edits. But successful design requires capa…",
+      "score": 2
+    },
+    {
+      "id": "665cdcabb644",
+      "title": "Muon Makes the First Mixture-of-Experts Layer Harder to Balance",
+      "url": "https://huggingface.co/papers/2610.37914",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Many open mixture-of-experts (MoE) language models train with Muon instead of AdamW. Most balance the load with a bias …",
       "score": 2
     },
     {
@@ -54,19 +78,11 @@
       "score": 2
     },
     {
-      "id": "6e6b9e2d0b66",
-      "title": "RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
-      "url": "https://huggingface.co/papers/2611.05163",
+      "id": "32de21225226",
+      "title": "Kierston & KierstonBench: Simulation of Allentown, PA and Evaluation of Language Models in Crime Investigation and Surveillance Tasks",
+      "url": "https://huggingface.co/papers/2611.04785",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relie…",
-      "score": 2
-    },
-    {
-      "id": "b3d82ce02815",
-      "title": "You don't need long context",
-      "url": "https://huggingface.co/papers/2611.05306",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may ri…",
+      "summary": "Large language models are candidates for collecting and analyzing records in criminal investigations and mass surveilla…",
       "score": 1
     },
     {
@@ -78,31 +94,15 @@
       "score": 1
     },
     {
-      "id": "a4d612a86d5d",
-      "title": "Going Deeper With Memories",
-      "url": "https://huggingface.co/papers/2611.05255",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Byte level language models avoid tokenizer dependence and provide universal coverage, but processing every byte at full…",
-      "score": 1
-    },
-    {
-      "id": "665cdcabb644",
-      "title": "Muon Makes the First Mixture-of-Experts Layer Harder to Balance",
-      "url": "https://huggingface.co/papers/2610.37914",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Many open mixture-of-experts (MoE) language models train with Muon instead of AdamW. Most balance the load with a bias …",
-      "score": 0
-    },
-    {
       "id": "2a9cd927f91b",
       "title": "Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction",
       "url": "https://huggingface.co/papers/2611.03183",
       "publishedAt": "2026-11-02T14:17:43.000Z",
       "summary": "Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing. Current p…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-04T09:52:04.964Z",
+  "fetchedAt": "2026-11-04T17:43:39.107Z",
   "stale": false,
   "error": null
 }

@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "de290cfc94f2",
-      "title": "Workspace Studioを投入したら、名刺・アンケート入力業務なくなった話",
-      "url": "https://zenn.dev/densan_techblog/articles/88d754d6ba56bd",
-      "publishedAt": "2026-11-04T06:30:05.000Z",
-      "publisher": "こばやし",
-      "summary": "! この記事の3行まとめ（TL;DR） Agentic AI Summit 26 Fall で Google Workspace Studio を実践投入！ 名刺＋紙アンケートのデータ入力作業時間を 「完全ゼロ」 に削減。 次回予告： デ…"
+      "id": "19a25209e702",
+      "title": "GPUなしでAbliteration CLI『Heretic』を動かし、拒否率とKL発散を実測した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-036-heretic-abliteration-cpu-smoke-test",
+      "publishedAt": "2026-11-04T14:18:14.000Z",
+      "publisher": "matsu",
+      "summary": "これは何を試した記事か Heretic という、LLMの拒否挙動(いわゆる検閲・安全性アラインメント)を再学習なしで抑制するPython製CLIツールを実際に動かし、処理前後の拒否率とKL発散(元モデルの出力分布からのズレ)を数値で確認し…"
     },
     {
-      "id": "81ae8d7444d7",
-      "title": "Cursorに『全部やって』と頼む前にコピペする3行",
-      "url": "https://zenn.dev/masafumi_ai/articles/00008-cursor-paste-3lines-template",
-      "publishedAt": "2026-11-04T06:05:45.000Z",
-      "publisher": "勝文のAI現場",
-      "summary": "AIに「全部やって」と頼んだあと、どのファイルが変わったのか、もう終わったのかを自分で判断できない。困るのはそこだ。この記事は、頼む前に貼る3行を、空欄を埋めるだけのテンプレにして渡す。 想定読者: Cursor や Claude Cod…"
+      "id": "65b7a1dbb3d0",
+      "title": "Genesis で水と砂をシミュレーションする",
+      "url": "https://zenn.dev/oggata/articles/13c100345ed318",
+      "publishedAt": "2026-11-04T14:15:08.000Z",
+      "publisher": "Fumitoshi Ogata 緒方文俊",
+      "summary": "Genesis で水と砂をシミュレーションする 第3部では、ロボットを 水と砂の中 に入れます。Go2 と H1 に浅瀬（川）を渡らせ、砂丘を登らせ、Go2 には砂場を掘らせます。 この章では、まず Genesis で水と砂をどう表すかを…"
     },
     {
-      "id": "b833a4e47540",
-      "title": "Claude CodeとCodexにSupabaseのメモアプリを12回作らせたら、RLSは毎回かかっていた。分かれたのは『だれが読めるか』",
-      "url": "https://zenn.dev/bpr_prot/articles/9d3e3631820c5d",
-      "publishedAt": "2026-11-04T05:19:43.000Z",
-      "publisher": "BPR Prot.",
-      "summary": "UpGuardが2026-10-14に公開した調査では、Supabaseを使う1万6,326件のデータベースで表が外から読めました。では、AIにSupabaseのテーブルを作らせたとき、RLSはちゃんとかかるのでしょうか。Claude C…"
+      "id": "4d2f1c7bcf76",
+      "title": "AI協働：パソコンでかなフリック入力使う人なんているの？（笑）",
+      "url": "https://zenn.dev/frb_tamasub/articles/ai-collaboration11-frb-kana-flick-press-conference",
+      "publishedAt": "2026-11-04T13:24:35.000Z",
+      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
+      "summary": "! はじめに — 今回もおちゃらけてごめんなさい（笑） 前回に引き続き、今回もFRB研究所の架空の記者会見というコント形式でお届けします。 冒頭からおちゃらけてしまって、ごめんなさい（笑）。 でも、実際に取り組んでいることは、わりと真面目…"
     },
     {
-      "id": "832d70b9580c",
-      "title": "Altman 回の 1 本だけが 2,299 回。同じ人をもう一度出したらどうなるか（#41 投稿前予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr41-altman-prediction",
-      "publishedAt": "2026-11-04T05:00:08.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。1 本の元動画から 9〜11 本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせていま…"
+      "id": "dc9abc2e3901",
+      "title": "Claude Code 2026年10月のアップデートまとめ:Mods、Code Review、Haiku 5.5",
+      "url": "https://zenn.dev/orivanai/articles/claude-code-2026-10-updates",
+      "publishedAt": "2026-11-04T13:15:04.000Z",
+      "publisher": "市田拓馬",
+      "summary": "! 2026年10月の Claude Code の変更から、すでに使っている人が知っておきたいものに絞ってまとめました。対象の版は 2.1.287〜2.1.316 です。すべての変更は、公式の Changelog にあります。 10月の要…"
     },
     {
-      "id": "365e1e2e022f",
-      "title": "エージェントが同じミスを繰り返す日に、エージェントに「エージェントの達人」の動画を調べさせた",
-      "url": "https://zenn.dev/gunboo/articles/a6b834dd0cf7da",
-      "publishedAt": "2026-11-04T04:59:11.000Z",
-      "publisher": "gunboo",
-      "summary": "ソウルで個人開発をしているGeonHyeokです。Macアプリを作っていて、そのローンチ作業（動画、メール、掲載申請、投稿の下書き）をClaude Codeのエージェントたちにほぼ24時間回してもらっています。リードのセッションが1時間ご…"
+      "id": "7813f6ba47c9",
+      "title": "Godot のゲームに AI で効果音を入れる方法（ElevenLabs・sfxr などとの比較つき）",
+      "url": "https://zenn.dev/zivaengine/articles/512c0785718b9d",
+      "publishedAt": "2026-11-04T12:46:30.000Z",
+      "publisher": "Ziva Engine",
+      "summary": "この記事は https://ziva.sh/blogs/godot-ai-sound-effects の日本語版です（英語の原文は Ziva.sh が 2026年11月4日に公開）。 Godot のゲームに AI で作った効果音を入れるい…"
     },
     {
-      "id": "ea6391394dc9",
-      "title": "改稿は終わっていた。確認用コピーは旧稿のままだった",
-      "url": "https://zenn.dev/bricks/articles/review-copy-must-match-revision",
-      "publishedAt": "2026-11-04T04:48:41.000Z",
-      "publisher": "Renga",
-      "summary": "技術記事を改稿し、ローカルの完了記録には更新後のhashも残っていました。しかし、確認用に渡していたクラウドのコピーは、以前の原稿のままでした。 URLが同じでも、そこにある本文まで同じとは限りません。今回の不一致は、原本の改稿と、確認用…"
+      "id": "6744bb8b49f2",
+      "title": "複数AIレビューで、モデルと「何を見るか」を分けている",
+      "url": "https://zenn.dev/honabochi/articles/ai-review-votes-and-evidence",
+      "publishedAt": "2026-11-04T12:36:59.000Z",
+      "publisher": "NoBu",
+      "summary": "Codexに二つの役割を頼むと、違うことを言ってくれる。けれど、どこか親戚ぐらい似ている感じもある。 体感としては、二人というより1.5人ぐらい。人数を測った話ではなく、考え方の近さについての感覚です。 別の視点を借りたいので、必要な場面…"
     },
     {
-      "id": "04e3354a684b",
-      "title": "MuseとClaudeをGoogleドライブ経由で連携する: ファイルを伝言板にしたAI間の受け渡し",
-      "url": "https://zenn.dev/hachihou_system/articles/muse-claude-drive-relay",
-      "publishedAt": "2026-11-04T04:45:12.000Z",
-      "publisher": "キョウスケ",
-      "summary": "Metaのパーソナルエージェント「Muse」が日本で使えるようになりました。普段の入口をMuseに絞り、処理はClaudeに任せる構成を、Googleドライブのフォルダを介して試しました。 架空のレシートでの検証で、本番運用はこれからです…"
+      "id": "1b72d9f2bd20",
+      "title": "ローカルLLM study9: 三値量子化Bonsai 2 27Bを、同条件のQwen3.8-27Bと並べて測り直す",
+      "url": "https://zenn.dev/tkpurine/articles/local-llm-study-009-bonsai2-ternary-custom-build",
+      "publishedAt": "2026-11-04T12:28:59.000Z",
+      "publisher": "プリン",
+      "summary": "結論: 27Bの単発の回答では、三値量子化のBonsai 2(1.77bit/weight)は通常量子化のQwen3.8-27B(2.88bit/weight)に目立つ差を出さず、速度は約2.3〜2.8倍だった。ただし自律的な複数ステップ…"
     },
     {
-      "id": "764f39f18aa9",
-      "title": "AIの回答に含まれるLaTeX数式をWordへ移す：PandocとTODOCを比較",
-      "url": "https://zenn.dev/chest/articles/78169108ff056f",
-      "publishedAt": "2026-11-04T03:43:41.000Z",
-      "publisher": "chestnuts",
-      "summary": "AIの回答に含まれる数式をWordへ貼り付けると、LaTeXの記号がそのまま残ったり、数式の配置が崩れたりすることがあります。回答を画像として貼る方法もありますが、あとから編集しにくくなります。 そこで、数式を含むMarkdownをWor…"
+      "id": "ced4bd721016",
+      "title": "AIに設計をループで回させたら、検証60回・人間への確認73件だった話",
+      "url": "https://zenn.dev/neko_kawaii/articles/ba06d105b9e416",
+      "publishedAt": "2026-11-04T12:28:19.000Z",
+      "publisher": "ゆき",
+      "summary": "はじめに 要件から詳細設計までを AI にループで回させる仕組みを作り、検証用の題材で全10フェーズを1周しました。結果は、検証60回、人間への確認73件、前のフェーズへの差し戻し4回です。 もともと私は、要件から実装までの設計手順を M…"
     },
     {
-      "id": "11d2d5db1107",
-      "title": "AI活用の10段階：使いこなす力から、他の人が育てられる仕組みへ",
-      "url": "https://zenn.dev/sugitakenji/articles/d43586a71695ab",
-      "publishedAt": "2026-11-04T03:41:50.000Z",
-      "publisher": "杉田研治",
-      "summary": "AIを使いこなした、その先に何があるのか AIを使って仕事をするようになると、最初は「何ができるか」に関心が向きます。文章を整える、コードを書く、資料を調べる。自分の仕事で役立つ場面が見つかると、次は「どう頼めば、欲しい結果が得られるか」…"
+      "id": "bf2578c0d7eb",
+      "title": "AIにXの返信を任せたら、お礼を出さずに止まった —— 返してよい相手を「宛先」で決めておいた話",
+      "url": "https://zenn.dev/ai_shihan/articles/bee954a77035bb",
+      "publishedAt": "2026-11-04T12:02:42.000Z",
+      "publisher": "ai_shihan",
+      "summary": "私は副業の広報を、Claude Code の「広報部」の席に任せています。X の返信・いいね・フォローは、別の AI（Grok の Bot。社内では「X担当」と呼んでいます）が案を書き、PC の常駐の処理が専用のブラウザで出す形です。 1…"
     },
     {
-      "id": "febbef3a83bb",
-      "title": "【建設AI】Construction AI Leaderboardの概要と評価の詳細",
-      "url": "https://zenn.dev/onestruction/articles/260c1d42239901",
-      "publishedAt": "2026-11-04T03:30:05.000Z",
-      "publisher": "Ryo Kanazawa",
-      "summary": "はじめに ONESTRUCTIONの金澤です。 この度、ONESTRUCTIONは「Construction AI Leaderboard」を公開しました🎉 昨今、さまざまなAIモデルがリリースされるなかで、 「建設業務で使えるAIはど…"
+      "id": "0cdfba8ff6f1",
+      "title": "Direction Is the Voice: Why the Script, Not the Model, Decides a Good",
+      "url": "https://zenn.dev/amuzozenn8/articles/97caad3525b45a",
+      "publishedAt": "2026-11-04T11:55:20.000Z",
+      "publisher": "andy",
+      "summary": "Ask what makes a good voiceover and the answer tends to arrive before the question has finished. The newest model. The …"
     },
     {
-      "id": "e4f0587f942f",
-      "title": "Markdown ファイルを「人と AI エージェントの共有メモ」にする",
-      "url": "https://zenn.dev/xueyanz/articles/b77a74f8f9f0a1",
-      "publishedAt": "2026-11-04T03:21:45.000Z",
-      "publisher": "XUEYANZ",
-      "summary": "きっかけ Claude Code や Codex にコードを書いてもらう時間が増えると、仕様メモやリリース計画も「エージェントと一緒に書く」ことが増えてきました。 でも、エージェントがファイルを書き換えている間、自分はエディタで同じファイ…"
+      "id": "5a886409f89b",
+      "title": "集約をどこまで機械的に導けるか――形式手法をベースとしたドメインモデリング",
+      "url": "https://zenn.dev/nrs/articles/33ba79c8b2542e",
+      "publishedAt": "2026-11-04T11:54:39.000Z",
+      "publisher": "nrs",
+      "summary": "AI に任せられる範囲と人が介入する範囲を分ける基準は、判断の不可逆性にあると考えています。 すぐに直せる実装の細部は AI に任せられますが、後戻りしにくい判断まで AI だけに任せることには若干の不安が残り、人が介入する余地はいまだに…"
     },
     {
-      "id": "e0f32ce56d37",
-      "title": "Claude Code を島で30時間遊ばせたら、やさしい世界が爆誕した ― 『Is this machine playing?』",
-      "url": "https://zenn.dev/moimoi/articles/claudecode-agents-play-3d-island",
-      "publishedAt": "2026-11-04T02:47:35.000Z",
-      "publisher": "やさい",
-      "summary": "はじめに MIT の論文「Is this machine playing?」（machineplaying.org / arXiv 2610.07130）が面白い。Claude Code のようなコーディングエージェントをベースにした「E…"
+      "id": "b00fc60bfa5e",
+      "title": "DeepSeek Harnessのagent loopは本当に差し替え可能か、patchで壊してみた",
+      "url": "https://zenn.dev/mskbhd/articles/lab-316-deepseek-harness-agentloop-pat",
+      "publishedAt": "2026-11-04T11:46:49.000Z",
+      "publisher": "mskbhd",
+      "summary": "「agent loop自体がプラグイン」という主張を検証する DeepSeek Harness(以下DSH)はDeepSeekが公開したdeveloper previewのAIエージェント基盤で、「everything is a plug…"
     }
   ],
-  "fetchedAt": "2026-11-04T09:52:05.111Z",
+  "fetchedAt": "2026-11-04T17:43:39.265Z",
   "stale": false,
   "error": null
 }
