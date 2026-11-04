@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "fb51ac098872",
-      "title": "Advances in Agentic Computer Graphics",
-      "url": "https://huggingface.co/papers/2611.01860",
-      "publishedAt": "2026-11-01T00:00:00.000Z",
-      "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively re…",
-      "score": 102
-    },
-    {
-      "id": "a4278bc0fc00",
-      "title": "SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training",
-      "url": "https://huggingface.co/papers/2611.02074",
-      "publishedAt": "2026-11-01T00:00:00.000Z",
-      "summary": "Coding agents solve repository issues through long sequences of exploration, editing, and validation. These trajectorie…",
-      "score": 34
+      "id": "4e4c05493f67",
+      "title": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
+      "url": "https://huggingface.co/papers/2611.03424",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes t…",
+      "score": 31
     },
     {
       "id": "f8bc2096a6fc",
@@ -27,22 +19,14 @@
       "url": "https://huggingface.co/papers/2611.02112",
       "publishedAt": "2026-11-01T00:00:00.000Z",
       "summary": "On-policy distillation (OPD) trains a student on its own generations by matching the teacher's token probabilities. The…",
-      "score": 24
+      "score": 28
     },
     {
-      "id": "4e4c05493f67",
-      "title": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
-      "url": "https://huggingface.co/papers/2611.03424",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes t…",
-      "score": 22
-    },
-    {
-      "id": "e49dfdd299be",
-      "title": "LEANGUARD: Lean-Verified Guardrails for Tool-Using Agents",
-      "url": "https://huggingface.co/papers/2611.02332",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Tool-using language-model agents often execute actions that their domain policies forbid. We present LeanGuard, a runti…",
+      "id": "fd07214f02f5",
+      "title": "History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models",
+      "url": "https://huggingface.co/papers/2611.02782",
+      "publishedAt": "2026-11-02T09:00:31.000Z",
+      "summary": "Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts re…",
       "score": 9
     },
     {
@@ -51,7 +35,7 @@
       "url": "https://huggingface.co/papers/2610.38623",
       "publishedAt": "2026-10-28T00:00:00.000Z",
       "summary": "Jev enables efficient decision-making with large language models (LLMs) through typed querying primitives, allowing the…",
-      "score": 6
+      "score": 7
     },
     {
       "id": "1784e2823459",
@@ -62,12 +46,36 @@
       "score": 6
     },
     {
+      "id": "3e38ab4da42d",
+      "title": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
+      "url": "https://huggingface.co/papers/2610.41994",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "summary": "Linear attention scales linearly with sequence length, but its finite-state memory can limit long-context retrieval. In…",
+      "score": 5
+    },
+    {
       "id": "7813dfe5dc14",
       "title": "DR Pixel: Page-Native Deep Research with Vision-Language Models",
       "url": "https://huggingface.co/papers/2611.03097",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "summary": "Complex documents such as scientific papers contain rich information in tables, figures, and equations; however, existi…",
       "score": 5
+    },
+    {
+      "id": "f6ef4eae4197",
+      "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
+      "url": "https://huggingface.co/papers/2611.02497",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical …",
+      "score": 4
+    },
+    {
+      "id": "8bed42023958",
+      "title": "StreamDuo: A Live Commentator and a Research Agent for Unseen Games",
+      "url": "https://huggingface.co/papers/2611.01120",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "summary": "Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games. We study cros…",
+      "score": 4
     },
     {
       "id": "370d4dc65601",
@@ -86,23 +94,15 @@
       "score": 4
     },
     {
-      "id": "3e38ab4da42d",
-      "title": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
-      "url": "https://huggingface.co/papers/2610.41994",
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "summary": "Linear attention scales linearly with sequence length, but its finite-state memory can limit long-context retrieval. In…",
+      "id": "cbe11802e1cc",
+      "title": "A Tutorial on Generative Models for Music Audio",
+      "url": "https://huggingface.co/papers/2610.38252",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "Music audio generation spans instrumental clips, full songs with vocals, edits of existing recordings, and systems that…",
       "score": 3
-    },
-    {
-      "id": "fd07214f02f5",
-      "title": "History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models",
-      "url": "https://huggingface.co/papers/2611.02782",
-      "publishedAt": "2026-11-02T09:00:31.000Z",
-      "summary": "Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts re…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-03T22:29:28.231Z",
+  "fetchedAt": "2026-11-04T02:37:28.081Z",
   "stale": false,
   "error": null
 }

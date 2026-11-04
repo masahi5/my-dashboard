@@ -6,6 +6,22 @@
   "category": "ai",
   "items": [
     {
+      "id": "4ace2b7203e4",
+      "title": "アカウント1つで70+モデルを選べる、OSSのデスクトップAIアシスタント AnyModelBot を作った",
+      "url": "https://zenn.dev/anymodelbot/articles/12846885317500",
+      "publishedAt": "2026-11-03T16:33:57.000Z",
+      "publisher": "AnyModelBot",
+      "summary": "個人開発のデスクトップ AI アシスタント AnyModelBot を紹介します。Windows / macOS / Linux 向けの MIT オープンソースアプリで、UI は日本語・英語・中国語・韓国語・ロシア語に対応しています（日本…"
+    },
+    {
+      "id": "226b4765a333",
+      "title": "ISUCON2026 で 94 位だったので、人間なしのハーネスを作って感想戦に挑んだ",
+      "url": "https://zenn.dev/marie673/articles/isucon2026-full-harness",
+      "publishedAt": "2026-11-03T16:03:53.000Z",
+      "publisher": "おかざき",
+      "summary": "ISUCON2026 に同期 3 人で出て、856 チーム中 94 位でした。1 位の方は、競技中に人間が一度も指示を入れなかったそうです。 これを再現したくて、競技が終わったあとも Claude と一緒にハーネスを作り直し、過去問で試し…"
+    },
+    {
       "id": "a5c178e1534a",
       "title": "DeepEval を「道具」で終わらせない — 継続的な企業 Gold Dataset の作り方",
       "url": "https://zenn.dev/sscodeai/articles/deepeval-enterprise-gold-dataset",
@@ -84,25 +100,9 @@
       "publishedAt": "2026-11-03T13:00:05.000Z",
       "publisher": "kyto64",
       "summary": "検証環境: 観測日: 2026-10-25 GitHub App: Amazon Q Developer 主な観測リポジトリ: この Zenn 記事のリポジトリ zenn（非公開）。ほか個人開発リポジトリ数件でも同じ App の挙動を見た…"
-    },
-    {
-      "id": "3df3c3db6af8",
-      "title": "CIが緑でもmacOS Installerは失敗しうる。Controller移行の実機記録から考える段階別の受入",
-      "url": "https://zenn.dev/asagiman/articles/macos-installer-actual-acceptance",
-      "publishedAt": "2026-11-03T12:59:04.000Z",
-      "publisher": "asagiman",
-      "summary": "CIが緑になったあとでも、macOSのインストーラで処理が止まることがあります。AIエージェントを利用して開発していても、最後の実機受入でこのような状況が起こります。テストは通過し、ビルド済みのパッケージにも問題が見つかっていない。それで…"
-    },
-    {
-      "id": "c67546b263d9",
-      "title": "CLAUDE.md に書いたルールが守られないのはなぜか ── settings.json との違い",
-      "url": "https://zenn.dev/super_yumenosan/articles/4b547a9a807d29",
-      "publishedAt": "2026-11-03T12:51:21.000Z",
-      "publisher": "夢乃",
-      "summary": "はじめに はじめまして、Yumenoです。 仕様駆動開発を学び始めて数か月、主にClaude Code を使いながら開発手法を学んでいます。 この記事は学習のアウトプットとして、調べたことと実際に手を動かして困ったものをまとめたものです。…"
     }
   ],
-  "fetchedAt": "2026-11-03T22:29:28.440Z",
+  "fetchedAt": "2026-11-04T02:37:28.253Z",
   "stale": false,
   "error": null
 }
