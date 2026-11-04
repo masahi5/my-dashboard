@@ -6,22 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "19a25209e702",
-      "title": "GPUなしでAbliteration CLI『Heretic』を動かし、拒否率とKL発散を実測した",
-      "url": "https://zenn.dev/matsushima_a/articles/day-036-heretic-abliteration-cpu-smoke-test",
-      "publishedAt": "2026-11-04T14:18:14.000Z",
-      "publisher": "matsu",
-      "summary": "これは何を試した記事か Heretic という、LLMの拒否挙動(いわゆる検閲・安全性アラインメント)を再学習なしで抑制するPython製CLIツールを実際に動かし、処理前後の拒否率とKL発散(元モデルの出力分布からのズレ)を数値で確認し…"
-    },
-    {
-      "id": "65b7a1dbb3d0",
-      "title": "Genesis で水と砂をシミュレーションする",
-      "url": "https://zenn.dev/oggata/articles/13c100345ed318",
-      "publishedAt": "2026-11-04T14:15:08.000Z",
-      "publisher": "Fumitoshi Ogata 緒方文俊",
-      "summary": "Genesis で水と砂をシミュレーションする 第3部では、ロボットを 水と砂の中 に入れます。Go2 と H1 に浅瀬（川）を渡らせ、砂丘を登らせ、Go2 には砂場を掘らせます。 この章では、まず Genesis で水と砂をどう表すかを…"
-    },
-    {
       "id": "4d2f1c7bcf76",
       "title": "AI協働：パソコンでかなフリック入力使う人なんているの？（笑）",
       "url": "https://zenn.dev/frb_tamasub/articles/ai-collaboration11-frb-kana-flick-press-conference",
@@ -100,9 +84,25 @@
       "publishedAt": "2026-11-04T11:46:49.000Z",
       "publisher": "mskbhd",
       "summary": "「agent loop自体がプラグイン」という主張を検証する DeepSeek Harness(以下DSH)はDeepSeekが公開したdeveloper previewのAIエージェント基盤で、「everything is a plug…"
+    },
+    {
+      "id": "2ea9a5f71ecc",
+      "title": "ダウンロードフォルダのAGENTS.md攻撃を機に、Claude Codeの設定を点検した",
+      "url": "https://zenn.dev/d_aiba1/articles/claudecode-agents-md-mac-settings-check",
+      "publishedAt": "2026-11-04T11:09:58.000Z",
+      "publisher": "Aiba",
+      "summary": "! この記事は Qiita に書いた記事を Zenn 向けに書き直したものです。 元の記事：Claude CodeのCLAUDE.md・AGENTS.md攻撃とMacでの設定点検（Qiita） 2026年10月、ダウンロードフォルダに置か…"
+    },
+    {
+      "id": "9c91971206e7",
+      "title": "GitHub Copilot Fusion について",
+      "url": "https://zenn.dev/microsoft/articles/261104-copilot-fuison",
+      "publishedAt": "2026-11-04T10:59:48.000Z",
+      "publisher": "ちょまど (千代田まどか)",
+      "summary": "先週 (10/27 - 30)、サンフランシスコにて、GitHub 公式カンファレンス GitHub Universe が今年も開催されました！ https://githubuniverse.com/ そこでいくつか新機能が発表されました…"
     }
   ],
-  "fetchedAt": "2026-11-04T17:43:39.265Z",
+  "fetchedAt": "2026-11-04T22:54:50.439Z",
   "stale": false,
   "error": null
 }

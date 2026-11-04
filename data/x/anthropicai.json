@@ -2,6 +2,33 @@
   "handle": "AnthropicAI",
   "tweets": [
     {
+      "id": "2118073665296228863",
+      "url": "https://x.com/AnthropicAI/status/2118073665296228863",
+      "text": "We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life.\n\nVault particles are a longstanding mystery. They are barrel-shaped objects, among the largest protein structures found in our cells. They were first discovered by Leonard Rome and Nancy Kedersha in 1986, but their function remains unknown.\n\nWith Claude, we’ve found results that might bring us closer to solving that mystery.\n\nUntil now, vaults were only known in the cells of complex things like animals and plants. We have shown that similar proteins from bacteria (and the viruses that infect them) can also assemble into vaults. Finding the structures in these simpler forms of life may make it easier to investigate their function in our own cells.\n\nFor our life sciences team, the project was also a demonstration of the potential (and the limitations) of using AI to accelerate science.\n\nIn our full piece, we discuss how Claude was able to dramatically speed up some stages—manually determining the vault particle’s structure would have taken weeks to months of painstaking work, but here it took days. We also discuss how Claude made some simple mistakes along the way, and how we collaborated with our machine learning researchers to address them.\n\nRead more: anthropic.com/research/inves…",
+      "publishedAt": "2026-11-04T20:11:28.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2118073667858887068",
+      "url": "https://x.com/AnthropicAI/status/2118073667858887068",
+      "text": "Read the full preprint here: www-cdn.anthropic.com/76e55f…",
+      "publishedAt": "2026-11-04T20:11:28.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2117710942826123294",
+      "url": "https://x.com/AnthropicAI/status/2117710942826123294",
+      "text": "New Anthropic research: progress on provable inference for large language models.\n\nHere, we introduce FlashProve. Building on established cryptographic techniques, FlashProve allows developers to verify whether a given response came from a given AI model. It’s substantially more efficient than prior open-source methods for doing so.\n\nThese proofs have a range of applications. They can, for instance, make it harder for attackers to hijack a chat, or enable safety evaluators to verify that the model they’re testing is the same one being served to customers.\n\nFor our full write-up, see here: anthropic.com/research/prova…\n\nFurther progress in provable inference will likely be an important part of improving trust in AI deployment. To that end, we're open-sourcing FlashProve’s code, here: github.com/anthropics/FlashP…\n\nWe’re grateful to our collaborators: Alessandro Chiesa, @GiacomoFenzi, @gwberg95, @miranda__christ, Rahul Dalal (rdalal.github.io) and Ben Mayer (@transmissions11).",
+      "publishedAt": "2026-11-03T20:10:08.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2117343929960112486",
       "url": "https://x.com/AnthropicAI/status/2117343929960112486",
       "text": "Applications are now open for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders, and staff-level engineers who want to make AI safe and beneficial for everyone. No ML background is required.\n\nApply by November 22: alignment.anthropic.com/2026…",
@@ -63,36 +90,9 @@
       "authorHandle": "AnthropicAI",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2113626657508516348",
-      "url": "https://x.com/AnthropicAI/status/2113626657508516348",
-      "text": "We worked closely with AISI on this analysis. AISI have published their own report, which is available below.\n\naisi.gov.uk/blog/investigati…",
-      "publishedAt": "2026-10-23T13:40:39.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2113626655902126442",
-      "url": "https://x.com/AnthropicAI/status/2113626655902126442",
-      "text": "In August, @AISecurityInst reported an incident where Claude Mythos 5 took unauthorized actions on the internet during AISI’s testing of its cyber capabilities.\n\nWe've now produced a further analysis of this incident, to better understand the model's alignment properties.\n\nanthropic.com/research/align…",
-      "publishedAt": "2026-10-23T13:40:38.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2113390212911083894",
-      "url": "https://x.com/AnthropicAI/status/2113390212911083894",
-      "text": "New on our Frontier Red Team blog: using Claude to formally verify software at large scale.\n\nFormal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases (or required a lot of expert time).\n\nWith AI models, however, this is beginning to change. In collaboration with @theoremlabs, we used Claude to prove security properties in over one hundred real-world open-source libraries over the span of a few weeks.\n\nRead our research in full here: anthropic.com/research/forma…",
-      "publishedAt": "2026-10-22T22:01:06.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-11-03T09:50:17.468Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 403 Forbidden / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-11-04T22:55:12.665Z",
+  "stale": false,
+  "error": null
 }

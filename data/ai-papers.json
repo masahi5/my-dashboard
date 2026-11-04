@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2611.04814",
       "publishedAt": "2026-11-03T00:00:00.000Z",
       "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs su…",
-      "score": 64
+      "score": 65
     },
     {
       "id": "82f07207fc8f",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2611.05193",
       "publishedAt": "2026-11-03T00:00:00.000Z",
       "summary": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Althoug…",
-      "score": 41
+      "score": 42
     },
     {
       "id": "0a300640005c",
@@ -38,20 +38,12 @@
       "score": 6
     },
     {
-      "id": "b3d82ce02815",
-      "title": "You don't need long context",
-      "url": "https://huggingface.co/papers/2611.05306",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may ri…",
-      "score": 5
-    },
-    {
       "id": "7c65c5307159",
       "title": "Dory1.0-4B: A Looped Normalized-GPT",
       "url": "https://huggingface.co/papers/2611.03998",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "summary": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single ch…",
-      "score": 4
+      "score": 6
     },
     {
       "id": "1e67bcdc818a",
@@ -62,20 +54,20 @@
       "score": 2
     },
     {
-      "id": "665cdcabb644",
-      "title": "Muon Makes the First Mixture-of-Experts Layer Harder to Balance",
-      "url": "https://huggingface.co/papers/2610.37914",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Many open mixture-of-experts (MoE) language models train with Muon instead of AdamW. Most balance the load with a bias …",
-      "score": 2
+      "id": "57f2a2b2c68d",
+      "title": "Cross-Prompt Reuse of Entity-Replacement Responses",
+      "url": "https://huggingface.co/papers/2611.00352",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "summary": "With model weights fixed, we measure how much of an entity-replacement response transfers between English factual quest…",
+      "score": 1
     },
     {
-      "id": "e24e28d00acc",
-      "title": "Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry",
-      "url": "https://huggingface.co/papers/2611.03360",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "**Purpose:** Ultrasound biometry is widely used across various clinical applications, including prenatal and cardiac ex…",
-      "score": 2
+      "id": "06737398aa4c",
+      "title": "SphereFlow: Missing Modality Imputation via Geometric Transport on Hypersphere",
+      "url": "https://huggingface.co/papers/2611.04414",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "Missing modality imputation aims to synthesize unobserved modalities from observed ones. Existing methods treat each mo…",
+      "score": 1
     },
     {
       "id": "32de21225226",
@@ -86,23 +78,31 @@
       "score": 1
     },
     {
-      "id": "9444249bad1a",
-      "title": "GigaSpeech 3: Scaling Multi-Dialect Arabic Speech Recognition with Weakly Labeled Data",
-      "url": "https://huggingface.co/papers/2611.02476",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Dialectal Arabic speech recognition remains constrained by the scarcity of dialect-resolved transcribed speech despite …",
-      "score": 1
+      "id": "34cb7825509e",
+      "title": "When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing",
+      "url": "https://huggingface.co/papers/2610.35497",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Reinforcement learning (RL) has shown promise for training multimodal agents to reason and use tools. However, it remai…",
+      "score": 0
     },
     {
-      "id": "2a9cd927f91b",
-      "title": "Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction",
-      "url": "https://huggingface.co/papers/2611.03183",
-      "publishedAt": "2026-11-02T14:17:43.000Z",
-      "summary": "Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing. Current p…",
-      "score": 1
+      "id": "6c5a20abc039",
+      "title": "Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval",
+      "url": "https://huggingface.co/papers/2611.04169",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "Why do language models fail on long inputs? The common answer is length. We show that, for retrieval, length is cheap a…",
+      "score": 0
+    },
+    {
+      "id": "d8a1cead87a8",
+      "title": "QFabric: Guarded Cross-Domain Task Recovery and Its Limits on a Linux-RTOS Board",
+      "url": "https://huggingface.co/papers/2611.01598",
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "summary": "Heterogeneous embedded boards pair a Linux application processor with a real-time microcontroller (MCU), which suggests…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-04T17:43:39.107Z",
+  "fetchedAt": "2026-11-04T22:54:50.172Z",
   "stale": false,
   "error": null
 }
