@@ -6,27 +6,11 @@
   "category": "ai",
   "items": [
     {
-      "id": "285b79df7a88",
-      "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
-      "url": "https://huggingface.co/papers/2611.04814",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs su…",
-      "score": 65
-    },
-    {
-      "id": "82f07207fc8f",
-      "title": "Factorized MLLM Embeddings for Composed Image Retrieval",
-      "url": "https://huggingface.co/papers/2611.05193",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Althoug…",
-      "score": 42
-    },
-    {
-      "id": "0a300640005c",
-      "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
-      "url": "https://huggingface.co/papers/2610.40574",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teach…",
+      "id": "1832fe6f7e7e",
+      "title": "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
+      "url": "https://huggingface.co/papers/2610.37257",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "summary": "Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from a…",
       "score": 8
     },
     {
@@ -38,20 +22,44 @@
       "score": 6
     },
     {
-      "id": "7c65c5307159",
-      "title": "Dory1.0-4B: A Looped Normalized-GPT",
-      "url": "https://huggingface.co/papers/2611.03998",
+      "id": "b5a4e7144fec",
+      "title": "SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding",
+      "url": "https://huggingface.co/papers/2611.02846",
       "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single ch…",
-      "score": 6
+      "summary": "Speculative decoding (SD) accelerates large language model inference by reducing the sequential cost of token-by-token …",
+      "score": 3
     },
     {
-      "id": "1e67bcdc818a",
-      "title": "BEND 2.0: Benchmarking the Capabilities Needed to Design DNA",
-      "url": "https://huggingface.co/papers/2611.03806",
-      "publishedAt": "2026-11-02T19:00:07.000Z",
-      "summary": "Genomic foundation models are increasingly used to propose DNA sequences and edits. But successful design requires capa…",
-      "score": 2
+      "id": "2067158329a5",
+      "title": "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs",
+      "url": "https://huggingface.co/papers/2611.04391",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "Pretrained Vision-Language-Action (VLA) policies provide a strong starting point for deployment, but adapting them to a…",
+      "score": 3
+    },
+    {
+      "id": "6e9ccc34aa52",
+      "title": "VeriSpoof: Beyond Real or Fake with One Audio LLM",
+      "url": "https://huggingface.co/papers/2611.04634",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "A speech deepfake detector estimates whether a recording is synthetic, but a forensic analyst also asks which system pr…",
+      "score": 1
+    },
+    {
+      "id": "8d2bf2794684",
+      "title": "Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs",
+      "url": "https://huggingface.co/papers/2611.04166",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "Reasoning vision-language-action (VLA) models pair physical control with natural-language rationales that supervisors c…",
+      "score": 1
+    },
+    {
+      "id": "55376d3aa590",
+      "title": "FinForesight: A Diagnostic Backtesting Benchmark for Deep Research Systems in Financial Forecasting",
+      "url": "https://huggingface.co/papers/2611.01621",
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "summary": "Anticipating financial outcomes requires synthesizing evolving evidence and reasoning under uncertainty, making deep re…",
+      "score": 1
     },
     {
       "id": "57f2a2b2c68d",
@@ -67,14 +75,6 @@
       "url": "https://huggingface.co/papers/2611.04414",
       "publishedAt": "2026-11-03T00:00:00.000Z",
       "summary": "Missing modality imputation aims to synthesize unobserved modalities from observed ones. Existing methods treat each mo…",
-      "score": 1
-    },
-    {
-      "id": "32de21225226",
-      "title": "Kierston & KierstonBench: Simulation of Allentown, PA and Evaluation of Language Models in Crime Investigation and Surveillance Tasks",
-      "url": "https://huggingface.co/papers/2611.04785",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Large language models are candidates for collecting and analyzing records in criminal investigations and mass surveilla…",
       "score": 1
     },
     {
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-04T22:54:50.172Z",
+  "fetchedAt": "2026-11-05T03:06:38.229Z",
   "stale": false,
   "error": null
 }

@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "4d2f1c7bcf76",
-      "title": "AI協働：パソコンでかなフリック入力使う人なんているの？（笑）",
-      "url": "https://zenn.dev/frb_tamasub/articles/ai-collaboration11-frb-kana-flick-press-conference",
-      "publishedAt": "2026-11-04T13:24:35.000Z",
-      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
-      "summary": "! はじめに — 今回もおちゃらけてごめんなさい（笑） 前回に引き続き、今回もFRB研究所の架空の記者会見というコント形式でお届けします。 冒頭からおちゃらけてしまって、ごめんなさい（笑）。 でも、実際に取り組んでいることは、わりと真面目…"
+      "id": "59851b65ae7b",
+      "title": "Claude Code × SessionStart/SessionEnd Hooks | セッション間の文脈を自作メモリで引き継ぐまで",
+      "url": "https://zenn.dev/yunisuta/articles/claude-code-sessionstart-sessionend-2v5are",
+      "publishedAt": "2026-11-05T01:24:59.000Z",
+      "publisher": "Yukito / 郷由稀斗",
+      "summary": "昨日の決定を、今日のセッションがまた聞いてくる Claude Code は新しいセッションを開くたびに前日の経緯を忘れています。「なぜ A 案を捨てたか」「この repo ではテストをこう回す」を、毎朝同じ文面で説明し直している人は多いは…"
     },
     {
-      "id": "dc9abc2e3901",
-      "title": "Claude Code 2026年10月のアップデートまとめ:Mods、Code Review、Haiku 5.5",
-      "url": "https://zenn.dev/orivanai/articles/claude-code-2026-10-updates",
-      "publishedAt": "2026-11-04T13:15:04.000Z",
-      "publisher": "市田拓馬",
-      "summary": "! 2026年10月の Claude Code の変更から、すでに使っている人が知っておきたいものに絞ってまとめました。対象の版は 2.1.287〜2.1.316 です。すべての変更は、公式の Changelog にあります。 10月の要…"
+      "id": "5348c0550efe",
+      "title": "Claude Code のクラウドセッション入門 ─ 最初にやる設定と使い分け",
+      "url": "https://zenn.dev/takna/articles/claude-code-cloud-sessions-intro",
+      "publishedAt": "2026-11-05T01:08:35.000Z",
+      "publisher": "ながたく",
+      "summary": "Claude Code のクラウドセッションは、Anthropic の VM で Claude Code を動かし、結果をブランチで受け取る仕組みです。ローカルの Claude Code に慣れている人が、最初に知っておくと迷わない設定と…"
     },
     {
-      "id": "7813f6ba47c9",
-      "title": "Godot のゲームに AI で効果音を入れる方法（ElevenLabs・sfxr などとの比較つき）",
-      "url": "https://zenn.dev/zivaengine/articles/512c0785718b9d",
-      "publishedAt": "2026-11-04T12:46:30.000Z",
-      "publisher": "Ziva Engine",
-      "summary": "この記事は https://ziva.sh/blogs/godot-ai-sound-effects の日本語版です（英語の原文は Ziva.sh が 2026年11月4日に公開）。 Godot のゲームに AI で作った効果音を入れるい…"
+      "id": "4dda57168884",
+      "title": "AIにまとめて質問されるのが疲れたので、1問ずつ聞いてもらうことにした",
+      "url": "https://zenn.dev/tokium_dev/articles/single-task-inside-one-session",
+      "publishedAt": "2026-11-05T01:00:05.000Z",
+      "publisher": "kr",
+      "summary": "複雑な作業をAIに頼むと、質問をまとめて投げ返されることがよくあります。たとえば、退会機能を作ってもらおうとしたとき。 確認したい点が5つあります。 1. 退会したユーザーの投稿は、残しますか？消しますか？ 2. 退会後、同じメールアドレ…"
     },
     {
-      "id": "6744bb8b49f2",
-      "title": "複数AIレビューで、モデルと「何を見るか」を分けている",
-      "url": "https://zenn.dev/honabochi/articles/ai-review-votes-and-evidence",
-      "publishedAt": "2026-11-04T12:36:59.000Z",
-      "publisher": "NoBu",
-      "summary": "Codexに二つの役割を頼むと、違うことを言ってくれる。けれど、どこか親戚ぐらい似ている感じもある。 体感としては、二人というより1.5人ぐらい。人数を測った話ではなく、考え方の近さについての感覚です。 別の視点を借りたいので、必要な場面…"
+      "id": "30959770534e",
+      "title": "引き継ぐことと、置き換えることは同義じゃない — 複数RuntimeでAI相棒を動かすための「混ぜない共有メモリ」設計",
+      "url": "https://zenn.dev/0rv3/articles/6d7bfd7f2e326a",
+      "publishedAt": "2026-11-05T00:29:30.000Z",
+      "publisher": "0rv3",
+      "summary": "2026年11月5日、Notionが「すべてのエージェントに、Notion上の共有の脳を」という機能を発表した（ https://x.com/notionhq/status/2118059335930744999 ）。ChatGPT、Cl…"
     },
     {
-      "id": "1b72d9f2bd20",
-      "title": "ローカルLLM study9: 三値量子化Bonsai 2 27Bを、同条件のQwen3.8-27Bと並べて測り直す",
-      "url": "https://zenn.dev/tkpurine/articles/local-llm-study-009-bonsai2-ternary-custom-build",
-      "publishedAt": "2026-11-04T12:28:59.000Z",
-      "publisher": "プリン",
-      "summary": "結論: 27Bの単発の回答では、三値量子化のBonsai 2(1.77bit/weight)は通常量子化のQwen3.8-27B(2.88bit/weight)に目立つ差を出さず、速度は約2.3〜2.8倍だった。ただし自律的な複数ステップ…"
+      "id": "58cf7e1c9d20",
+      "title": "AIにExcel帳簿を作らせて、BOOTHで売るまでにやった検証の全部",
+      "url": "https://zenn.dev/handitian/articles/aa1fa3fda7f146",
+      "publishedAt": "2026-11-05T00:29:15.000Z",
+      "publisher": "Atelier Handitian",
+      "summary": "はじめに Excel の経理シート（フリーランス向けの帳簿・集計キット）を AI アシスタントと作り、BOOTH で販売するところまで持っていきました。生成そのものは速いです。問題はその先で、「この数式、本当に合っているのか」をどう確かめ…"
     },
     {
-      "id": "ced4bd721016",
-      "title": "AIに設計をループで回させたら、検証60回・人間への確認73件だった話",
-      "url": "https://zenn.dev/neko_kawaii/articles/ba06d105b9e416",
-      "publishedAt": "2026-11-04T12:28:19.000Z",
-      "publisher": "ゆき",
-      "summary": "はじめに 要件から詳細設計までを AI にループで回させる仕組みを作り、検証用の題材で全10フェーズを1周しました。結果は、検証60回、人間への確認73件、前のフェーズへの差し戻し4回です。 もともと私は、要件から実装までの設計手順を M…"
+      "id": "63e2475c8a65",
+      "title": "サブエージェントに任せるか、今の会話でやるか：並列・出力隔離・レビューの4場面と費用",
+      "url": "https://zenn.dev/ryuyanishino/articles/2c67dc24bfcb4658b3292bd5922bac2b",
+      "publishedAt": "2026-11-05T00:13:16.000Z",
+      "publisher": "Ryuya Nishino",
+      "summary": "AIコーディングエージェントに作業を頼むと、エージェントが自分で「これは別担当に任せよう」と判断することがあります。便利な反面、任せるたびに別のリクエストが走り、利用量も増えます。では、任せたほうがいい場面と、今の会話で続けたほうがいい場…"
     },
     {
-      "id": "bf2578c0d7eb",
-      "title": "AIにXの返信を任せたら、お礼を出さずに止まった —— 返してよい相手を「宛先」で決めておいた話",
-      "url": "https://zenn.dev/ai_shihan/articles/bee954a77035bb",
-      "publishedAt": "2026-11-04T12:02:42.000Z",
-      "publisher": "ai_shihan",
-      "summary": "私は副業の広報を、Claude Code の「広報部」の席に任せています。X の返信・いいね・フォローは、別の AI（Grok の Bot。社内では「X担当」と呼んでいます）が案を書き、PC の常駐の処理が専用のブラウザで出す形です。 1…"
+      "id": "581c6dcc9591",
+      "title": "ChatGPTのdotで技術情報を蓄積し、評価を次の情報収集に返す",
+      "url": "https://zenn.dev/kzk_maeda/articles/dot-tech-information-cycle",
+      "publishedAt": "2026-11-04T23:45:05.000Z",
+      "publisher": "kzk_maeda",
+      "summary": "最近、ChatGPTのエージェント「dot」を使って、技術情報を集めてNotionに保存し、読んだあとの評価を次の情報収集に反映する、という運用をしています。 情報を集めて要約してもらうところも便利なんですが、僕がこの運用で大事にしている…"
     },
     {
-      "id": "0cdfba8ff6f1",
-      "title": "Direction Is the Voice: Why the Script, Not the Model, Decides a Good",
-      "url": "https://zenn.dev/amuzozenn8/articles/97caad3525b45a",
-      "publishedAt": "2026-11-04T11:55:20.000Z",
-      "publisher": "andy",
-      "summary": "Ask what makes a good voiceover and the answer tends to arrive before the question has finished. The newest model. The …"
+      "id": "eec2754122b4",
+      "title": "組込ユーザーの代理でエージェント実行可能に／ソース差替APIがBeta公開 | What's New in Sigma 2026/10/30",
+      "url": "https://zenn.dev/truestar/articles/7fe2cd5b2c09b4",
+      "publishedAt": "2026-11-04T23:44:56.000Z",
+      "publisher": "しんや",
+      "summary": "Sigma(Sigma Computing)の最新リリースノート情報を集約・要約して紹介しているコミュニティスレッド『Release Notes』。米国時間毎週金曜日中(日本時間土曜日早朝)に定期的に公開されているこちらのスレッドの内容に…"
     },
     {
-      "id": "5a886409f89b",
-      "title": "集約をどこまで機械的に導けるか――形式手法をベースとしたドメインモデリング",
-      "url": "https://zenn.dev/nrs/articles/33ba79c8b2542e",
-      "publishedAt": "2026-11-04T11:54:39.000Z",
-      "publisher": "nrs",
-      "summary": "AI に任せられる範囲と人が介入する範囲を分ける基準は、判断の不可逆性にあると考えています。 すぐに直せる実装の細部は AI に任せられますが、後戻りしにくい判断まで AI だけに任せることには若干の不安が残り、人が介入する余地はいまだに…"
+      "id": "704fb1cee202",
+      "title": "Excelの大量データ集計をPythonで自動化する手順：695行の分類表を実際に集計して分かった注意点",
+      "url": "https://zenn.dev/andyailab/articles/c863f6909ea8d0",
+      "publishedAt": "2026-11-04T23:37:21.000Z",
+      "publisher": "アンディ",
+      "summary": "はじめに 毎月、同じピボットテーブルを作り直している。その手作業を、1本のスクリプトに置き換える手順です。Excelの表をPythonで読み込み、件数の集計やクロス集計を自動化する流れをまとめます。題材は、実際に私が集計した「動画695件…"
     },
     {
-      "id": "b00fc60bfa5e",
-      "title": "DeepSeek Harnessのagent loopは本当に差し替え可能か、patchで壊してみた",
-      "url": "https://zenn.dev/mskbhd/articles/lab-316-deepseek-harness-agentloop-pat",
-      "publishedAt": "2026-11-04T11:46:49.000Z",
-      "publisher": "mskbhd",
-      "summary": "「agent loop自体がプラグイン」という主張を検証する DeepSeek Harness(以下DSH)はDeepSeekが公開したdeveloper previewのAIエージェント基盤で、「everything is a plug…"
+      "id": "4a62b0467421",
+      "title": "HANDOFF 駆動開発 —— Claude Code に仕様書を渡して個人アプリを完走させる",
+      "url": "https://zenn.dev/osprey74/articles/06-stilo-handoff-driven-development",
+      "publishedAt": "2026-11-04T23:00:10.000Z",
+      "publisher": "osprey74",
+      "summary": "! 連載「Stilo 実録」の最終回（第 6 回）です。各回は単体で読めます。この回は、第 1〜5 回を通して使った進め方のまとめです。 iOS の Markdown エディタ「Stilo」は、実装のほとんどを Claude Code に…"
     },
     {
-      "id": "2ea9a5f71ecc",
-      "title": "ダウンロードフォルダのAGENTS.md攻撃を機に、Claude Codeの設定を点検した",
-      "url": "https://zenn.dev/d_aiba1/articles/claudecode-agents-md-mac-settings-check",
-      "publishedAt": "2026-11-04T11:09:58.000Z",
-      "publisher": "Aiba",
-      "summary": "! この記事は Qiita に書いた記事を Zenn 向けに書き直したものです。 元の記事：Claude CodeのCLAUDE.md・AGENTS.md攻撃とMacでの設定点検（Qiita） 2026年10月、ダウンロードフォルダに置か…"
+      "id": "725757404b90",
+      "title": "AIが別のAIの頭を直接直した。数学の正答率が7.9%→48.1%に",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261104",
+      "publishedAt": "2026-11-04T22:58:58.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年11月4日（水）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 ちょっと聞いてください。今日は「AIの中身と、AIにかかるお金と安全」の話を5つします。AIが別のAIの頭を直接書き換えて、数学の正…"
     },
     {
-      "id": "9c91971206e7",
-      "title": "GitHub Copilot Fusion について",
-      "url": "https://zenn.dev/microsoft/articles/261104-copilot-fuison",
-      "publishedAt": "2026-11-04T10:59:48.000Z",
-      "publisher": "ちょまど (千代田まどか)",
-      "summary": "先週 (10/27 - 30)、サンフランシスコにて、GitHub 公式カンファレンス GitHub Universe が今年も開催されました！ https://githubuniverse.com/ そこでいくつか新機能が発表されました…"
+      "id": "faf56220ee4a",
+      "title": "今日の市場ブリーフィング",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-23-market-daily",
+      "publishedAt": "2026-11-04T22:02:31.000Z",
+      "publisher": "子供部屋大学院生",
+      "summary": "! 2026年9月23日の市場では、日経平均株価が前日比+1.38%と大きく上昇して65,018.95で引けた一方、米国市場ではS&P500が-0.76%、NASDAQが-0.69%と共に反落しました。米10年国債利回りは5.11%（+3…"
     }
   ],
-  "fetchedAt": "2026-11-04T22:54:50.439Z",
+  "fetchedAt": "2026-11-05T03:06:38.403Z",
   "stale": false,
   "error": null
 }
