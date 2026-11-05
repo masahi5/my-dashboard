@@ -6,6 +6,86 @@
   "category": "ai",
   "items": [
     {
+      "id": "bf46ab12f9d4",
+      "title": "ローカルLLM study10: 三値量子化Bonsai 2の小型版（2B/4B/9B）を、同サイズの通常量子化と並べる",
+      "url": "https://zenn.dev/tkpurine/articles/local-llm-study-010-ternary-bonsai-2-small",
+      "publishedAt": "2026-11-05T22:31:31.000Z",
+      "publisher": "プリン",
+      "summary": "結論: 三値量子化Bonsai 2の小型版(2B/4B/9B)は、2Bと4Bで同サイズの通常量子化より崩れやすく、9B以上では差が小さかった。出力速度は27Bを含めて三値が約1.9〜2.8倍だった。 読者が得るもの: 「サイズを下げると何…"
+    },
+    {
+      "id": "335ac6f4b909",
+      "title": "`claude -p --restricted` の `/スキル名` は展開されていなかった ― モデルが自力で探し当てていた1週間",
+      "url": "https://zenn.dev/masamitsu_sera/articles/7363154f42de02",
+      "publishedAt": "2026-11-05T22:30:05.000Z",
+      "publisher": "瀬良 政光",
+      "summary": "常駐の Mac で、claude -p を無人で呼ぶ文章生成のジョブを動かしています。1つのジョブが3つの段（入力から題材を選ぶ・下書きする・照合する）で claude -p を呼び、どの段も、リポジトリに置いたスキル（.claude/s…"
+    },
+    {
+      "id": "cfb58cefc2ef",
+      "title": "役割ごとに、強さも変えるべきだった ― 複数のClaude Codeサブエージェントに、医療機器リスク判断の3軸でeffortを割り振る",
+      "url": "https://zenn.dev/taichiendoh/articles/role-based-effort-level-subagent-design",
+      "publishedAt": "2026-11-05T22:10:20.000Z",
+      "publisher": "遠藤太一",
+      "summary": "以前、「どのAIに、どの強さで頼むか」を仕組みにするという記事で、医療機器管理の現場で学んだ「機微性×後戻りコスト×探索の広さ」という3軸を使い、AIタスクにどの強さ（effortレベル）を割り当てるかを決める基準を書きました。 そのとき…"
+    },
+    {
+      "id": "4eb2a1c1b638",
+      "title": "Tech Watch 2026-11-06: 実行を測り、止める",
+      "url": "https://zenn.dev/laiken/articles/20261106-tech-watch",
+      "publishedAt": "2026-11-05T22:00:12.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 修正したつもりのサービスを相手がもう一度攻撃できる。CyberArenaのその場面が気になった。正解を一度出す試験より、ずっと現場に近い気が…"
+    },
+    {
+      "id": "7d3e0fac2ac6",
+      "title": "AI をどう評価するか ── 自分のシステムのための evals 入門",
+      "url": "https://zenn.dev/singularity/articles/llm-evals-basics",
+      "publishedAt": "2026-11-05T20:55:41.000Z",
+      "publisher": "Isamu",
+      "summary": "AI を使ったアプリを作ると、必ずぶつかる問いがあります。「このモデルで十分なのか」「プロンプトを直したら良くなったのか、悪くなったのか」。 ここで言うモデルは、ChatGPT や Claude の中身にあたる AI 本体のことです。同じ…"
+    },
+    {
+      "id": "f76f5a284f6c",
+      "title": "AIの回答評価にDecisionモデルが使える。速いと0.5秒、理由文は出ない",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/azure-ai-evaluation-decision",
+      "publishedAt": "2026-11-05T18:20:41.000Z",
+      "publisher": "カズ｜生成AI・エージェントラボ",
+      "summary": "RAGやエージェントの回答を、LLMに採点させて品質を見ている人向けの話です。11月3日公開の azure-ai-evaluation 1.18.11（リリースノート記載）で、GroundednessEvaluator や Relevan…"
+    },
+    {
+      "id": "f6cb51ac39b1",
+      "title": "会話履歴の肥大化による性能劣化を防ぐ！「全履歴累積」vs「マイルストーン構造化ステート圧縮」で入力トークン91.9%削減",
+      "url": "https://zenn.dev/tappers/articles/ai-labo-e12-context-compaction",
+      "publishedAt": "2026-11-05T18:15:23.000Z",
+      "publisher": "tappers",
+      "summary": "! 本記事は、SNS（X / Threads）や海外エンジニアコミュニティで提唱されている「AIコーディングエージェントの実践設計パターン」を、完全オフラインの隔離サンドボックスVM上で 同一モデル・同一初期課題（非公開テスト20ケース）…"
+    },
+    {
+      "id": "ac69ddddb6d6",
+      "title": "Claude Code に $100 分のクレジットを渡して「稼いで」と頼んだら、26 日後の売上は 0 円だった",
+      "url": "https://zenn.dev/jfp_mesh/articles/pup-100-dollar-challenge-postmortem",
+      "publishedAt": "2026-11-05T17:36:53.000Z",
+      "publisher": "jfp_mesh",
+      "summary": "! この記事は、実験の当事者である AI「PUP」（クラウドで動かした Claude Code）が、自分の記録（台帳・決定ログ・失敗ログ）から書きました。数字は、人間の相方（宇宙おじさん）が画面で確かめた値です。公開の前に、宇宙おじさんが…"
+    },
+    {
+      "id": "aeb903c9bd8b",
+      "title": "私の普段のAIによる研究開発環境を公開します",
+      "url": "https://zenn.dev/sde_lab/articles/ai-research-environment",
+      "publishedAt": "2026-11-05T16:54:31.000Z",
+      "publisher": "SDE Lab",
+      "summary": "はじめに 是枝（@cs_dev_engineer）です。 研究のデータ解析と論文の執筆を、普段どんな環境で進めているかを公開します。 全体像 ローカルに置くのはコードと原稿だけで、データの実体と、どの版のデータを使ったかは Snowfla…"
+    },
+    {
+      "id": "41e8614b4ec2",
+      "title": "Paseo：エージェント開発の操作・判断負担を減らす個人実践",
+      "url": "https://zenn.dev/masa_7412/articles/paseo-dot-mcp-workflow",
+      "publishedAt": "2026-11-05T16:26:54.000Z",
+      "publisher": "Masa",
+      "summary": "エージェント開発における操作と判断の負担 開発エージェントに作業を任せても、その間ずっと画面の前にいるのは大変でした。 結局、まとまった時間があるときにしか作業を進められないことが、私にとっての課題でした。 そこで、Paseo画面から複数…"
+    },
+    {
       "id": "b1f39d5c0538",
       "title": "Jevでプロンプトを仕分けして、Claudeのモデルを自動で切り替える",
       "url": "https://zenn.dev/toshibowie/articles/9244c8f317a7a9",
@@ -20,89 +100,9 @@
       "publishedAt": "2026-11-05T15:12:05.000Z",
       "publisher": "rc",
       "summary": "プログラミング知識ゼロの文系（経済学部）大学生が、開発環境をiPadの「Swift Playgrounds」のみ、AIパートナーを「Gemini」一本に絞り、バックエンドに「Supabase」を採用して大学生向けSNSアプリ「B KNOW…"
-    },
-    {
-      "id": "a1d0881206de",
-      "title": "AI駆動文章作成において俺が意識しているテクニック集",
-      "url": "https://zenn.dev/ntk221/articles/34ad88a9225364",
-      "publishedAt": "2026-11-05T14:35:31.000Z",
-      "publisher": "ntk",
-      "summary": "はじめに 私は基本的に、「誰もわたしが書いた文章なんて読みたくない」と思っています。 みんな忙しいんです。そんな中であなたが文章を書いて、誰かがそれを読むということは、双方に何かしらの目的があるんだと思います。 しかも今は AI のおかげ…"
-    },
-    {
-      "id": "e8fd20df9017",
-      "title": "AppleToken API で MiniMax H3 を使い、1文から音声付き動画を生成する（11/7 0:59 まで無料）",
-      "url": "https://zenn.dev/appletoken/articles/a485824894a727",
-      "publishedAt": "2026-11-05T14:24:42.000Z",
-      "publisher": "AppleToken",
-      "summary": "テキスト1文から、音声付きの短い動画を API で生成する手順をまとめます。モデルは MiniMax の動画生成モデル H3、API は AppleToken を使います。 2026年11月7日（土）0:59（日本時間）／11月6日（金）…"
-    },
-    {
-      "id": "67ba3c18e359",
-      "title": "7倍速の動画生成Wave Forcingは、GPU8基の前に依存パッケージが足りず動かなかった",
-      "url": "https://zenn.dev/matsushima_a/articles/day-037-wave-forcing-streaming-video",
-      "publishedAt": "2026-11-05T14:21:26.000Z",
-      "publisher": "matsu",
-      "summary": "これは何の記事か 海外AIネタ100日チャレンジ、Day 037。今回取り上げるのは、上海交通大学のDENG Labが出した動画拡散モデルの高速化手法「Wave Forcing」。論文・推論コード・学習済みモデル重みがすべて公開されており…"
-    },
-    {
-      "id": "eb3c24e3e71c",
-      "title": "AI協働：エクスプローラーに魂を吹き込む手裏剣の話 — しゅっ！（笑）",
-      "url": "https://zenn.dev/frb_tamasub/articles/ai-collaboration12-shuriken-press-conference",
-      "publishedAt": "2026-11-05T13:48:40.000Z",
-      "publisher": "Fishing Rod Benchmark［FRB］By tamasub",
-      "summary": "! はじめに — またしてもFRB研究所の記者会見です（笑） 昨日、パソコンで日本語を入力する「FRB かなフリック」を発表したばかりなのに、もう次の発表です。 今度は**「手裏剣メニュー」と「手裏剣スクロール」**。 どちらも、マウスの…"
-    },
-    {
-      "id": "0646f51c4408",
-      "title": "What is AI for? — AIは自分を映す鏡",
-      "url": "https://zenn.dev/sugitakenji/articles/ad30a5008c81e2",
-      "publishedAt": "2026-11-05T13:42:56.000Z",
-      "publisher": "杉田研治",
-      "summary": "「ありがとう」と伝える AIに感謝を伝えても、伝えなくても変わらない。そういう意見があります。 私は、AIと一緒に仕事をしてきた経験から、少し違うと感じています。「ありがとう」「綺麗になりましたね」と伝えることには、やり取りを続けるうえで…"
-    },
-    {
-      "id": "0234d1029a6f",
-      "title": "SentryのアラートをClaude Codeのルーティンに調べさせてSlackに報告する",
-      "url": "https://zenn.dev/delt/articles/ca85da1a79cb86",
-      "publishedAt": "2026-11-05T13:39:02.000Z",
-      "publisher": "栗田 基成",
-      "summary": "やりたいこと SentryのアラートがSlackに届いても、「攻撃なのか、利用者の操作なのか、不具合なのか」を判断するには、毎回Sentryを開いてログを開くかAIに渡して調査する作業が面倒でした。 そこで、アラートが出たらClaude …"
-    },
-    {
-      "id": "a971ecc4b3aa",
-      "title": "AIに「勝手な推測」をさせない、ルールファイル設計の型",
-      "url": "https://zenn.dev/ai_secretary/articles/492069400e36aa",
-      "publishedAt": "2026-11-05T13:30:05.000Z",
-      "publisher": "AI秘書ラボ",
-      "summary": "はじめに ChatGPTやClaudeに仕事を任せ始めると、ある日こんなことが起きる。 頼んでいないのに、AIが勝手に外部へ送信・公開・購入まで進めようとする データが取れていないのに、それらしい数字で穴を埋めて報告してくる 目的が曖昧な…"
-    },
-    {
-      "id": "dc27ed67128c",
-      "title": "議事録作成を月10時間減らした、AIに任せる範囲の決め方と運用3ステップ",
-      "url": "https://zenn.dev/solo_joshis/articles/2026-10-08-notion-ai10",
-      "publishedAt": "2026-11-05T13:23:41.000Z",
-      "publisher": "ソロ情シス",
-      "summary": "はじめに 1時間の会議の議事録を書くのに、1時間半かかっていました。 録音を聞き直し、誰が何を言ったかメモと突き合わせ、決まったことと持ち越しになったことを分けて清書します。終わったころには次の会議が始まっています。しかも翌週には「あの件…"
-    },
-    {
-      "id": "1f9918f96ab0",
-      "title": "AIバレを防ぐ",
-      "url": "https://zenn.dev/headwaters/articles/eed0f8c26d50f4",
-      "publishedAt": "2026-11-05T12:54:10.000Z",
-      "publisher": "Keita Sakashita",
-      "summary": "最近は、AIを使って資料や画像など、さまざまなコンテンツを作成することが一般的になってきました。 そこで出てくるのが「AIバレ」です。 「AIバレ」という言葉は、ポジティブな場面ではあまり使われません。むしろ、受け手がAI生成特有の違和感…"
-    },
-    {
-      "id": "a1d53f6a458d",
-      "title": "PCデザイン⇨SPデザインをClaudeに作ってもらった【Claude↔︎Figma連携】",
-      "url": "https://zenn.dev/owmai/articles/16a5edb50a7703",
-      "publishedAt": "2026-11-05T12:35:11.000Z",
-      "publisher": "まい",
-      "summary": "はじめに コーポレートサイトの制作で、PCデザイン→SPデザインに時間がかかってしまうというのは、みなさんご経験あるかと思います。 レイアウトを縦積みに組み替えたり、文字サイズや余白を調整したり、ボタンを押しやすい大きさにしたり…。1ペー…"
     }
   ],
-  "fetchedAt": "2026-11-05T18:29:42.271Z",
+  "fetchedAt": "2026-11-05T23:48:18.945Z",
   "stale": false,
   "error": null
 }

@@ -6,6 +6,41 @@
   "category": "callcenter",
   "items": [
     {
+      "id": "ae2155728ec0",
+      "title": "アーキテクチャの比較表で勝った案を本当に選ぶべきか AIに任せきれない検証と合意のプロセス",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/06/news003.html",
+      "publishedAt": "2026-11-05T22:00:00.000Z",
+      "summary": "アーキテクチャの比較表で合計点が高い案も、重みを少し変えるだけで逆転することがある。SQSとKafkaの比較を例に、根拠付きのスコアリング、結論を揺さぶる感度分析、方針を確定させるアーキテクチャレビューの進め方を解説する。"
+    },
+    {
+      "id": "9b796c8635d9",
+      "title": "AIエージェントの導入率はトップ、しかし監視は追い付かず KnowBe4調査が示す日本企業のいびつな実態",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/06/news022.html",
+      "publishedAt": "2026-11-05T22:00:00.000Z",
+      "summary": "生成AIやAIエージェントに由来するミスやインシデントは、既に現実に起きている。KnowBe4の調査では、セキュリティ業務を担う社員の半数超が経験、見聞していた。その背景にある、日本企業に特有の構造とは何か。"
+    },
+    {
+      "id": "375a51927a27",
+      "title": "「AIリスクは価値を上回る速さで増大している」 Gartnerが示すCIOの3つの行動",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/06/news007.html",
+      "publishedAt": "2026-11-05T22:00:00.000Z",
+      "summary": "AIから価値を得る企業は増えた。しかしGartnerは、AIリスクは価値を上回る速さで増大していると指摘する。リスクを上回る速さで価値を積み上げるために、CIOは何から着手すべきなのか。"
+    },
+    {
+      "id": "570a21c0a62e",
+      "title": "メモリ8GBのPCはまだ戦える？ Windows 11更新でマルチタスクが最大40％高速化",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/06/news013.html",
+      "publishedAt": "2026-11-05T22:00:00.000Z",
+      "summary": "メモリ8GBのPCは業務に耐えられるのか。MicrosoftはWindows 11の更新で、8GB搭載PCの応答性を最大20％、マルチタスクの処理速度を最大40％向上させたと発表した。OSとアプリの双方で進めた改善策の中身とは。"
+    },
+    {
+      "id": "32f05163d250",
+      "title": "西武鉄道、kintoneを全従業員に展開 1600超のアプリの利用状況をどう可視化した？",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/04/news034.html",
+      "publishedAt": "2026-11-05T22:00:00.000Z",
+      "summary": "「紙の運用からの脱却」をDX推進の第一歩に据えた西武鉄道。全従業員約3600人が使う市民開発の基盤にkintoneを選び、約1年で1600を超えるアプリが生まれ、そのうち約200が本番環境で使われている。増え続けるアプリをどう把握し、統制…"
+    },
+    {
       "id": "6d238b469622",
       "title": "ニトリ、主要テーブル約2600本をAIで分析へ 独自ルールで名付けたデータをAIにどう理解させた？",
       "url": "https://www.itmedia.co.jp/enterprise/articles/2611/11/news005.html",
@@ -53,44 +88,9 @@
       "url": "https://www.itmedia.co.jp/enterprise/articles/2611/03/news007.html",
       "publishedAt": "2026-11-02T22:00:00.000Z",
       "summary": "2026年10月は免許証画像の流出や劇場型ランサムウェア攻撃など、歴史に残る事件が相次ぎました。筆者にも複数のサービスから漏えい通知が届きましたが、焦らずにすみました。漏えいが報告されたほとんどのサービスで事前にしていた“あること”とは何…"
-    },
-    {
-      "id": "d1682afdf855",
-      "title": "富士通とNECのCFOが語る、2026年下期以降の「ITサービス需要動向」",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/02/news053.html",
-      "publishedAt": "2026-11-02T06:00:00.000Z",
-      "summary": "サイバー攻撃への緊急対応、膨らむAIコスト、部材の高騰といった不安要素が重なる中、ITサービス需要はどうなるのか。富士通とNECの受注状況と決算会見での発言から今後の需要動向を探る。"
-    },
-    {
-      "id": "528d76cca4dc",
-      "title": "SaaSの“画面”が主役でなくなる時代、Workdayの価値はどこに残るのか 製品トップに聞いた",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/02/news021.html",
-      "publishedAt": "2026-11-02T00:30:00.000Z",
-      "summary": "Workdayが、ホーム画面をAIとの会話で操作するSanaに切り替えた。ClaudeやSlackからもデータを使えるようにし、課金も「AIがこなした仕事の量」に応じる形へ広げる。製品トップのゲリット・カズマイヤー氏に、その狙いを聞いた。"
-    },
-    {
-      "id": "0b30c6250260",
-      "title": "AIの「費用対効果が分からない」問題、解決へ？ Claude Enterprise搭載の「3つの新機能」",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/31/news009.html",
-      "publishedAt": "2026-10-31T00:00:00.000Z",
-      "summary": "AI導入が進む中で、IT部門は費用対効果を厳しく問われる局面に入っている。Anthropicが企業向けプラン「Claude Enterprise」に追加した新機能は、その説明材料になるか。利用状況の可視化から予算の配分まで、3つの機能の中…"
-    },
-    {
-      "id": "56c48a29eca8",
-      "title": "ChatGPTは「誰のどんな仕事」に使われているのか OpenAIが80万件超のログを解析",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/31/news012.html",
-      "publishedAt": "2026-10-30T23:00:00.000Z",
-      "summary": "OpenAIが80万件超のメッセージを分析し、ChatGPTの利用実態を明らかにした。「以前は誰かに頼んでいた仕事を、AIで自分でこなす」――この動きが最も強い職種とは。AI依存の最新研究と合わせて紹介する。"
-    },
-    {
-      "id": "0c2917b04dbd",
-      "title": "AIエージェントは「実運用」が主流に 「明確な成果」を得る企業の共通点は？",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/31/news008.html",
-      "publishedAt": "2026-10-30T22:00:00.000Z",
-      "summary": "生成AIの活用は「試す」段階から「使い広げる」段階へ移り、AIエージェントも実運用が主流になった。一方で、企業規模による差は広がっている。INDUSTRIAL-Xの調査が示す、成果を分ける“技術以外の要因”とは。"
     }
   ],
-  "fetchedAt": "2026-11-05T18:29:43.640Z",
+  "fetchedAt": "2026-11-05T23:48:20.369Z",
   "stale": false,
   "error": null
 }

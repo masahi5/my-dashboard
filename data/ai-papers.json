@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2611.04408",
       "publishedAt": "2026-11-03T06:45:50.000Z",
       "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network…",
-      "score": 19
+      "score": 28
     },
     {
       "id": "8a94043dcae9",
@@ -19,7 +19,15 @@
       "url": "https://huggingface.co/papers/2611.03330",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "summary": "Generative AI is billed per token, yet tokens are not equally expensive. Each token enters the KV-cache and raises the …",
-      "score": 6
+      "score": 8
+    },
+    {
+      "id": "374da480848a",
+      "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
+      "url": "https://huggingface.co/papers/2611.03852",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "Reasoning substantially improves language models' ability to solve difficult problems, but long reasoning traces make t…",
+      "score": 3
     },
     {
       "id": "81b2b41a4d22",
@@ -30,11 +38,11 @@
       "score": 3
     },
     {
-      "id": "374da480848a",
-      "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
-      "url": "https://huggingface.co/papers/2611.03852",
+      "id": "c10a4c0c5e8d",
+      "title": "Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention",
+      "url": "https://huggingface.co/papers/2611.03768",
       "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Reasoning substantially improves language models' ability to solve difficult problems, but long reasoning traces make t…",
+      "summary": "Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only…",
       "score": 2
     },
     {
@@ -70,20 +78,12 @@
       "score": 1
     },
     {
-      "id": "c10a4c0c5e8d",
-      "title": "Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention",
-      "url": "https://huggingface.co/papers/2611.03768",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only…",
-      "score": 0
-    },
-    {
       "id": "ce3a5fe677d9",
       "title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
       "url": "https://huggingface.co/papers/2610.36544",
       "publishedAt": "2026-10-27T00:00:00.000Z",
       "summary": "Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agen…",
-      "score": 0
+      "score": 1
     },
     {
       "id": "6e3214467c3c",
@@ -91,7 +91,7 @@
       "url": "https://huggingface.co/papers/2611.03517",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "summary": "LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff. Scripted agents fix what the mo…",
-      "score": 0
+      "score": 1
     },
     {
       "id": "932d5761c5cb",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-05T18:29:42.115Z",
+  "fetchedAt": "2026-11-05T23:48:18.755Z",
   "stale": false,
   "error": null
 }
