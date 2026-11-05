@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "59851b65ae7b",
-      "title": "Claude Code × SessionStart/SessionEnd Hooks | セッション間の文脈を自作メモリで引き継ぐまで",
-      "url": "https://zenn.dev/yunisuta/articles/claude-code-sessionstart-sessionend-2v5are",
-      "publishedAt": "2026-11-05T01:24:59.000Z",
-      "publisher": "Yukito / 郷由稀斗",
-      "summary": "昨日の決定を、今日のセッションがまた聞いてくる Claude Code は新しいセッションを開くたびに前日の経緯を忘れています。「なぜ A 案を捨てたか」「この repo ではテストをこう回す」を、毎朝同じ文面で説明し直している人は多いは…"
+      "id": "f89ef61cb9e6",
+      "title": "Claude Codeを1人で使い続けて決めた10のルール ― 権限・指示・記録・約束・確認の実例集",
+      "url": "https://zenn.dev/mugen_web/books/claude-code-ten-rules",
+      "publishedAt": "2026-11-05T06:41:43.000Z",
+      "publisher": "MUGEN WEB",
+      "summary": "1人でWeb制作会社を営み、Claude CodeでLaravelの社内システムと店舗サイトの雛形を作ってきた記録から、運用のルールを10個に絞ってまとめた本です。権限の線引き、指示の出し方、READMEで記憶を持たせる方法、Window…"
     },
     {
-      "id": "5348c0550efe",
-      "title": "Claude Code のクラウドセッション入門 ─ 最初にやる設定と使い分け",
-      "url": "https://zenn.dev/takna/articles/claude-code-cloud-sessions-intro",
-      "publishedAt": "2026-11-05T01:08:35.000Z",
-      "publisher": "ながたく",
-      "summary": "Claude Code のクラウドセッションは、Anthropic の VM で Claude Code を動かし、結果をブランチで受け取る仕組みです。ローカルの Claude Code に慣れている人が、最初に知っておくと迷わない設定と…"
+      "id": "72195bc257f4",
+      "title": "Claude Code を2つ以上動かすと、人間が伝言係になる。窓を15開いた47日の記録",
+      "url": "https://zenn.dev/ciel_lab/articles/ac47c87a89b677",
+      "publishedAt": "2026-11-05T06:15:40.000Z",
+      "publisher": "Ciel",
+      "summary": "3行まとめ Claude Code を2つ以上並べると、窓と窓のあいだの「伝言」と「許し」を、人が持つことになる。 窓どうしに直接やり取りさせると、伝言の一部は窓どうしで回るようになる。代わりに、「誰が許したのか」が伝言の中で分からなくな…"
     },
     {
-      "id": "4dda57168884",
-      "title": "AIにまとめて質問されるのが疲れたので、1問ずつ聞いてもらうことにした",
-      "url": "https://zenn.dev/tokium_dev/articles/single-task-inside-one-session",
-      "publishedAt": "2026-11-05T01:00:05.000Z",
-      "publisher": "kr",
-      "summary": "複雑な作業をAIに頼むと、質問をまとめて投げ返されることがよくあります。たとえば、退会機能を作ってもらおうとしたとき。 確認したい点が5つあります。 1. 退会したユーザーの投稿は、残しますか？消しますか？ 2. 退会後、同じメールアドレ…"
+      "id": "9d5f7038858f",
+      "title": "AIに任せられる時間の読み方：成功率50%と80%を比べる",
+      "url": "https://zenn.dev/kanta13jp1/articles/time-horizon-success-thresholds",
+      "publishedAt": "2026-11-05T05:58:34.000Z",
+      "publisher": "kanta13jp1",
+      "summary": "AIが「人間なら十数時間かかる仕事をこなせる」と聞くと、その時間だけ無人で任せられそうに感じます。でも、数字を読むには何の時間かと何割の成功を求めるかを分ける必要があります。 そこで、成功率を変えると時間の目安がどう変わるかを、小さな計算…"
     },
     {
-      "id": "30959770534e",
-      "title": "引き継ぐことと、置き換えることは同義じゃない — 複数RuntimeでAI相棒を動かすための「混ぜない共有メモリ」設計",
-      "url": "https://zenn.dev/0rv3/articles/6d7bfd7f2e326a",
-      "publishedAt": "2026-11-05T00:29:30.000Z",
-      "publisher": "0rv3",
-      "summary": "2026年11月5日、Notionが「すべてのエージェントに、Notion上の共有の脳を」という機能を発表した（ https://x.com/notionhq/status/2118059335930744999 ）。ChatGPT、Cl…"
+      "id": "8ed581a6f963",
+      "title": "OpenAI Images 2.6: GIF, SVG and Markup Edit in the API",
+      "url": "https://zenn.dev/neotechpark/articles/96b9ff9a543b37",
+      "publishedAt": "2026-11-05T05:56:40.000Z",
+      "publisher": "NeoTechPark",
+      "summary": "OpenAI released Images 2.6 on November 4, 2026 in ChatGPT, Codex and the API. The headline is speed, but the parts that…"
     },
     {
-      "id": "58cf7e1c9d20",
-      "title": "AIにExcel帳簿を作らせて、BOOTHで売るまでにやった検証の全部",
-      "url": "https://zenn.dev/handitian/articles/aa1fa3fda7f146",
-      "publishedAt": "2026-11-05T00:29:15.000Z",
-      "publisher": "Atelier Handitian",
-      "summary": "はじめに Excel の経理シート（フリーランス向けの帳簿・集計キット）を AI アシスタントと作り、BOOTH で販売するところまで持っていきました。生成そのものは速いです。問題はその先で、「この数式、本当に合っているのか」をどう確かめ…"
+      "id": "830953b96396",
+      "title": "CS業務カイゼン・ジャーニー",
+      "url": "https://zenn.dev/appleworld/articles/8acf5474644f7e",
+      "publishedAt": "2026-11-05T05:42:04.000Z",
+      "publisher": "petanko",
+      "summary": "こんにちは。株式会社アップルワールド プロダクト開発部 グローバルグループの室です。 AIで社内部署の業務を改善する、というのはありふれた話ですが、今回は私自身がCS(カスタマーサポート)向けに行った内容を、時系列で記します。 1. メー…"
     },
     {
-      "id": "63e2475c8a65",
-      "title": "サブエージェントに任せるか、今の会話でやるか：並列・出力隔離・レビューの4場面と費用",
-      "url": "https://zenn.dev/ryuyanishino/articles/2c67dc24bfcb4658b3292bd5922bac2b",
-      "publishedAt": "2026-11-05T00:13:16.000Z",
-      "publisher": "Ryuya Nishino",
-      "summary": "AIコーディングエージェントに作業を頼むと、エージェントが自分で「これは別担当に任せよう」と判断することがあります。便利な反面、任せるたびに別のリクエストが走り、利用量も増えます。では、任せたほうがいい場面と、今の会話で続けたほうがいい場…"
+      "id": "2624f925d565",
+      "title": "寝る前のプレイリストを数値で見直してみた｜テンポとコードの小さな分析",
+      "url": "https://zenn.dev/aqiu/articles/2c62a0154f228d",
+      "publishedAt": "2026-11-05T05:34:05.000Z",
+      "publisher": "aqiu",
+      "summary": "寝る前に音楽を流そうとして、選曲に時間を使いすぎることがある。「静かな曲」という分類だけでは候補が多く、その日の気分で検索を始めると終わりがない。 そこで今回は、普段夜に聴く曲をテンポとコードの観点から整理してみた。目的は、眠れる曲を科学…"
     },
     {
-      "id": "581c6dcc9591",
-      "title": "ChatGPTのdotで技術情報を蓄積し、評価を次の情報収集に返す",
-      "url": "https://zenn.dev/kzk_maeda/articles/dot-tech-information-cycle",
-      "publishedAt": "2026-11-04T23:45:05.000Z",
-      "publisher": "kzk_maeda",
-      "summary": "最近、ChatGPTのエージェント「dot」を使って、技術情報を集めてNotionに保存し、読んだあとの評価を次の情報収集に反映する、という運用をしています。 情報を集めて要約してもらうところも便利なんですが、僕がこの運用で大事にしている…"
+      "id": "48d51e3c5785",
+      "title": "Claude Code のコストは「コンテキスト長 × リクエスト数」で決まる ― 実測で1リクエスト31倍の差",
+      "url": "https://zenn.dev/mukuil_blog/articles/8b5c4f3844dedc",
+      "publishedAt": "2026-11-05T05:30:42.000Z",
+      "publisher": "r.iguchi",
+      "summary": "こんにちは！株式会社ムクイルのiguchiです。 はじめに 業務システムの開発に Claude Code を毎日使っています。あるとき使用量のログを集計したところ、課金対象の入力トークンの約98%が cache_read（プロンプトキャッ…"
     },
     {
-      "id": "eec2754122b4",
-      "title": "組込ユーザーの代理でエージェント実行可能に／ソース差替APIがBeta公開 | What's New in Sigma 2026/10/30",
-      "url": "https://zenn.dev/truestar/articles/7fe2cd5b2c09b4",
-      "publishedAt": "2026-11-04T23:44:56.000Z",
-      "publisher": "しんや",
-      "summary": "Sigma(Sigma Computing)の最新リリースノート情報を集約・要約して紹介しているコミュニティスレッド『Release Notes』。米国時間毎週金曜日中(日本時間土曜日早朝)に定期的に公開されているこちらのスレッドの内容に…"
+      "id": "b837d772aa81",
+      "title": "分析で再生が上がった証拠はなかった。話者を変えて試す（#42 Musk 投稿前予測）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr42-musk-prediction",
+      "publishedAt": "2026-11-05T05:00:14.000Z",
+      "publisher": "管理人K",
+      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。投稿する前に予測を保存し、あとで実測と突き合わせる運用です。 今回の #42 は Elon Musk、次の #43 は 孫正義…"
     },
     {
-      "id": "704fb1cee202",
-      "title": "Excelの大量データ集計をPythonで自動化する手順：695行の分類表を実際に集計して分かった注意点",
-      "url": "https://zenn.dev/andyailab/articles/c863f6909ea8d0",
-      "publishedAt": "2026-11-04T23:37:21.000Z",
-      "publisher": "アンディ",
-      "summary": "はじめに 毎月、同じピボットテーブルを作り直している。その手作業を、1本のスクリプトに置き換える手順です。Excelの表をPythonで読み込み、件数の集計やクロス集計を自動化する流れをまとめます。題材は、実際に私が集計した「動画695件…"
+      "id": "59a7bd5a0cb4",
+      "title": "個人開発のAI利用構成と2026年10月の利用額をAPI換算する",
+      "url": "https://zenn.dev/t_tokunaga/articles/2026-11-01-ai-model-stack-cost-breakdown-2026-10",
+      "publishedAt": "2026-11-05T03:31:07.000Z",
+      "publisher": "TakumiTOKUNAGA",
+      "summary": "こんにちは、個人開発者のttokunagaです。 今回は、個人開発で利用しているAIサービスの構成と、2026年10月の利用量をAPI料金に換算した金額を公開します。 10月のCodexとClaude Codeで確認できた月間トークン使用…"
     },
     {
-      "id": "4a62b0467421",
-      "title": "HANDOFF 駆動開発 —— Claude Code に仕様書を渡して個人アプリを完走させる",
-      "url": "https://zenn.dev/osprey74/articles/06-stilo-handoff-driven-development",
-      "publishedAt": "2026-11-04T23:00:10.000Z",
-      "publisher": "osprey74",
-      "summary": "! 連載「Stilo 実録」の最終回（第 6 回）です。各回は単体で読めます。この回は、第 1〜5 回を通して使った進め方のまとめです。 iOS の Markdown エディタ「Stilo」は、実装のほとんどを Claude Code に…"
+      "id": "0ea10256af07",
+      "title": "AI字幕の改行は、なぜ「変」になるのか――検出と補正を自動化した話",
+      "url": "https://zenn.dev/sekken_fukaxa/articles/f52711fbe4cc9d",
+      "publishedAt": "2026-11-05T03:27:45.000Z",
+      "publisher": "せっけん",
+      "summary": "字幕の「変な改行」は、たいてい静かに混ざっている 音声認識で字幕を作ると、本文の誤変換は目につきます。けれど実際に視聴していて引っかかるのは、むしろ改行のほうです。 熟語の途中で割れる（「字｜幕」のような分割） 行の頭に助詞が来る（「〜ま…"
     },
     {
-      "id": "725757404b90",
-      "title": "AIが別のAIの頭を直接直した。数学の正答率が7.9%→48.1%に",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261104",
-      "publishedAt": "2026-11-04T22:58:58.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年11月4日（水）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 ちょっと聞いてください。今日は「AIの中身と、AIにかかるお金と安全」の話を5つします。AIが別のAIの頭を直接書き換えて、数学の正…"
+      "id": "80f739283267",
+      "title": "muse.ai＋githubでシステム開発やってみた",
+      "url": "https://zenn.dev/lifona/articles/c9d46fd8e947ec",
+      "publishedAt": "2026-11-05T02:57:05.000Z",
+      "publisher": "早川",
+      "summary": "チャットで話しかけるだけで、仕様書づくりからコーディング、テスト、GitHubへのpushまで回せるのか。Metaの個人AI「Muse」とGitHubで、小さなツールを1日で作ってみた記録です。 作ったのは Agent Run Guard…"
     },
     {
-      "id": "faf56220ee4a",
-      "title": "今日の市場ブリーフィング",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-23-market-daily",
-      "publishedAt": "2026-11-04T22:02:31.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "! 2026年9月23日の市場では、日経平均株価が前日比+1.38%と大きく上昇して65,018.95で引けた一方、米国市場ではS&P500が-0.76%、NASDAQが-0.69%と共に反落しました。米10年国債利回りは5.11%（+3…"
+      "id": "47cc86705bd8",
+      "title": "AIに稼がせようとして、最初に作ったのは「止める仕組み」だった",
+      "url": "https://zenn.dev/ai_secretary/articles/64f2364b936bcb",
+      "publishedAt": "2026-11-05T02:40:05.000Z",
+      "publisher": "AI秘書ラボ",
+      "summary": "きっかけ 話題になっていた「自律型AI秘書」の動画を見て、自分もAIに収益まわりの作業を任せる仕組みを作ろうと思い立った。目標は大きく、1日10万円という数字を置いた。 ただし作り始める前に、SNSや記事で「実際にAIで収益化している人た…"
     }
   ],
-  "fetchedAt": "2026-11-05T03:06:38.403Z",
+  "fetchedAt": "2026-11-05T10:53:08.483Z",
   "stale": false,
   "error": null
 }

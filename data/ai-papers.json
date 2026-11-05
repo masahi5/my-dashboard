@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1832fe6f7e7e",
-      "title": "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
-      "url": "https://huggingface.co/papers/2610.37257",
-      "publishedAt": "2026-10-31T00:00:00.000Z",
-      "summary": "Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from a…",
-      "score": 8
+      "id": "94e4d21eff76",
+      "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+      "url": "https://huggingface.co/papers/2611.06728",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, …",
+      "score": 66
     },
     {
-      "id": "9dc3a6b4bff4",
-      "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
-      "url": "https://huggingface.co/papers/2611.05345",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding wit…",
+      "id": "4c64ddd0414c",
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "url": "https://huggingface.co/papers/2611.06910",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only eva…",
+      "score": 26
+    },
+    {
+      "id": "aae36164f524",
+      "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+      "url": "https://huggingface.co/papers/2611.06483",
+      "publishedAt": "2026-11-04T13:24:54.000Z",
+      "summary": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly …",
+      "score": 24
+    },
+    {
+      "id": "3b0aa05747b8",
+      "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
+      "url": "https://huggingface.co/papers/2611.06518",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as cod…",
+      "score": 17
+    },
+    {
+      "id": "8e11a12df833",
+      "title": "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
+      "url": "https://huggingface.co/papers/2610.41104",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "summary": "Self-distillation methods for large language models with an exponential moving average (EMA) teacher already retain a h…",
+      "score": 9
+    },
+    {
+      "id": "37b857cfce61",
+      "title": "VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing",
+      "url": "https://huggingface.co/papers/2611.03404",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "Video dubbing aims to synthesize lip movements that match target speech while preserving the speaker identity, head pos…",
       "score": 6
     },
     {
-      "id": "b5a4e7144fec",
-      "title": "SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding",
-      "url": "https://huggingface.co/papers/2611.02846",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Speculative decoding (SD) accelerates large language model inference by reducing the sequential cost of token-by-token …",
-      "score": 3
+      "id": "e4f199d8d1b0",
+      "title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+      "url": "https://huggingface.co/papers/2611.05304",
+      "publishedAt": "2026-11-03T18:16:29.000Z",
+      "summary": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying…",
+      "score": 6
     },
     {
-      "id": "2067158329a5",
-      "title": "Human-to-Robot Transfer via Bridging Representation and Action Space in VLAs",
-      "url": "https://huggingface.co/papers/2611.04391",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Pretrained Vision-Language-Action (VLA) policies provide a strong starting point for deployment, but adapting them to a…",
-      "score": 3
+      "id": "3b1e56b45e00",
+      "title": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
+      "url": "https://huggingface.co/papers/2611.06768",
+      "publishedAt": "2026-11-04T16:46:03.000Z",
+      "summary": "Coding agents powered by models such as GPT-6-Astra connect spatial reasoning with executable robot behavior, raising t…",
+      "score": 5
     },
     {
-      "id": "6e9ccc34aa52",
-      "title": "VeriSpoof: Beyond Real or Fake with One Audio LLM",
-      "url": "https://huggingface.co/papers/2611.04634",
+      "id": "f0f51463404c",
+      "title": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
+      "url": "https://huggingface.co/papers/2610.41432",
+      "publishedAt": "2026-10-30T08:38:29.000Z",
+      "summary": "Computer-use agents increasingly tackle tasks ranging from everyday desktop activities to long-horizon professional wor…",
+      "score": 2
+    },
+    {
+      "id": "c3f96c5ff961",
+      "title": "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
+      "url": "https://huggingface.co/papers/2611.05609",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "A speech deepfake detector estimates whether a recording is synthetic, but a forensic analyst also asks which system pr…",
+      "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) to consolidate capabilities from multi…",
+      "score": 2
+    },
+    {
+      "id": "7a8e47e71b5e",
+      "title": "NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers",
+      "url": "https://huggingface.co/papers/2611.05648",
+      "publishedAt": "2026-11-03T21:33:28.000Z",
+      "summary": "Adversarial diffusion distillation has conventionally relied on image features for discrimination. We revisit this choi…",
       "score": 1
     },
     {
-      "id": "8d2bf2794684",
-      "title": "Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs",
-      "url": "https://huggingface.co/papers/2611.04166",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Reasoning vision-language-action (VLA) models pair physical control with natural-language rationales that supervisors c…",
-      "score": 1
-    },
-    {
-      "id": "55376d3aa590",
-      "title": "FinForesight: A Diagnostic Backtesting Benchmark for Deep Research Systems in Financial Forecasting",
-      "url": "https://huggingface.co/papers/2611.01621",
-      "publishedAt": "2026-11-01T00:00:00.000Z",
-      "summary": "Anticipating financial outcomes requires synthesizing evolving evidence and reasoning under uncertainty, making deep re…",
-      "score": 1
-    },
-    {
-      "id": "57f2a2b2c68d",
-      "title": "Cross-Prompt Reuse of Entity-Replacement Responses",
-      "url": "https://huggingface.co/papers/2611.00352",
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "summary": "With model weights fixed, we measure how much of an entity-replacement response transfers between English factual quest…",
-      "score": 1
-    },
-    {
-      "id": "06737398aa4c",
-      "title": "SphereFlow: Missing Modality Imputation via Geometric Transport on Hypersphere",
-      "url": "https://huggingface.co/papers/2611.04414",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Missing modality imputation aims to synthesize unobserved modalities from observed ones. Existing methods treat each mo…",
-      "score": 1
-    },
-    {
-      "id": "34cb7825509e",
-      "title": "When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing",
-      "url": "https://huggingface.co/papers/2610.35497",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) has shown promise for training multimodal agents to reason and use tools. However, it remai…",
-      "score": 0
-    },
-    {
-      "id": "6c5a20abc039",
-      "title": "Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval",
-      "url": "https://huggingface.co/papers/2611.04169",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Why do language models fail on long inputs? The common answer is length. We show that, for retrieval, length is cheap a…",
-      "score": 0
-    },
-    {
-      "id": "d8a1cead87a8",
-      "title": "QFabric: Guarded Cross-Domain Task Recovery and Its Limits on a Linux-RTOS Board",
-      "url": "https://huggingface.co/papers/2611.01598",
-      "publishedAt": "2026-11-01T00:00:00.000Z",
-      "summary": "Heterogeneous embedded boards pair a Linux application processor with a real-time microcontroller (MCU), which suggests…",
+      "id": "7f42d11d40bc",
+      "title": "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
+      "url": "https://huggingface.co/papers/2611.04760",
+      "publishedAt": "2026-11-03T12:08:37.000Z",
+      "summary": "Probabilistic time-series forecasting requires models that simultaneously capture structured temporal dynamics, express…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-05T03:06:38.229Z",
+  "fetchedAt": "2026-11-05T10:53:08.340Z",
   "stale": false,
   "error": null
 }
