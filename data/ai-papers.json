@@ -11,7 +11,31 @@
       "url": "https://huggingface.co/papers/2611.04408",
       "publishedAt": "2026-11-03T06:45:50.000Z",
       "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network…",
-      "score": 28
+      "score": 34
+    },
+    {
+      "id": "ddc8023694fc",
+      "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+      "url": "https://huggingface.co/papers/2611.00883",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small b…",
+      "score": 12
+    },
+    {
+      "id": "2d84a838363d",
+      "title": "D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding",
+      "url": "https://huggingface.co/papers/2611.06425",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated ta…",
+      "score": 10
+    },
+    {
+      "id": "9d5c9d099582",
+      "title": "Towards Foundation Decision Models: Drex",
+      "url": "https://huggingface.co/papers/2611.07854",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "Autoregressive approaches with large language models, such as long chain-of-thought reasoning, have become the default …",
+      "score": 9
     },
     {
       "id": "8a94043dcae9",
@@ -19,23 +43,15 @@
       "url": "https://huggingface.co/papers/2611.03330",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "summary": "Generative AI is billed per token, yet tokens are not equally expensive. Each token enters the KV-cache and raises the …",
-      "score": 8
+      "score": 9
     },
     {
-      "id": "374da480848a",
-      "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
-      "url": "https://huggingface.co/papers/2611.03852",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Reasoning substantially improves language models' ability to solve difficult problems, but long reasoning traces make t…",
-      "score": 3
-    },
-    {
-      "id": "81b2b41a4d22",
-      "title": "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
-      "url": "https://huggingface.co/papers/2611.05593",
-      "publishedAt": "2026-11-03T20:26:14.000Z",
-      "summary": "Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present Gaus…",
-      "score": 3
+      "id": "328aa6cfb2ae",
+      "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+      "url": "https://huggingface.co/papers/2611.07909",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "Recent advances in Gaussian splatting have enabled efficient and photorealistic head avatar reconstruction, yet monocul…",
+      "score": 5
     },
     {
       "id": "c10a4c0c5e8d",
@@ -43,23 +59,7 @@
       "url": "https://huggingface.co/papers/2611.03768",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "summary": "Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only…",
-      "score": 2
-    },
-    {
-      "id": "af407b21f8bf",
-      "title": "LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds",
-      "url": "https://huggingface.co/papers/2611.05988",
-      "publishedAt": "2026-11-04T05:35:42.000Z",
-      "summary": "Streaming video-to-audio (V2A) generation is essential for immersive interactive applications. However, real-time const…",
-      "score": 2
-    },
-    {
-      "id": "503f7d3cc9cb",
-      "title": "UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling",
-      "url": "https://huggingface.co/papers/2611.06042",
-      "publishedAt": "2026-11-04T06:46:47.000Z",
-      "summary": "Universal image restoration aims to handle diverse degradations within a single model, but a reliable scaling strategy …",
-      "score": 2
+      "score": 3
     },
     {
       "id": "ed4343f10a55",
@@ -67,6 +67,30 @@
       "url": "https://huggingface.co/papers/2611.03394",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "summary": "Streaming digital humans produce detailed video while continuing speech as new text arrives. High-resolution denoising …",
+      "score": 3
+    },
+    {
+      "id": "ce3a5fe677d9",
+      "title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
+      "url": "https://huggingface.co/papers/2610.36544",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agen…",
+      "score": 2
+    },
+    {
+      "id": "6e3214467c3c",
+      "title": "Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization",
+      "url": "https://huggingface.co/papers/2611.03517",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff. Scripted agents fix what the mo…",
+      "score": 2
+    },
+    {
+      "id": "35cb9d5b2e1c",
+      "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
+      "url": "https://huggingface.co/papers/2611.08369",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks…",
       "score": 1
     },
     {
@@ -76,33 +100,9 @@
       "publishedAt": "2026-11-03T00:00:00.000Z",
       "summary": "Historical archives are invaluable for multidisciplinary research but remain inaccessible globally due to severe langua…",
       "score": 1
-    },
-    {
-      "id": "ce3a5fe677d9",
-      "title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
-      "url": "https://huggingface.co/papers/2610.36544",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agen…",
-      "score": 1
-    },
-    {
-      "id": "6e3214467c3c",
-      "title": "Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization",
-      "url": "https://huggingface.co/papers/2611.03517",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff. Scripted agents fix what the mo…",
-      "score": 1
-    },
-    {
-      "id": "932d5761c5cb",
-      "title": "DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI",
-      "url": "https://huggingface.co/papers/2611.05029",
-      "publishedAt": "2026-11-03T15:05:06.000Z",
-      "summary": "Continual learning in physical AI differs from conventional continual learning because small per-step policy errors can…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-05T23:48:18.755Z",
+  "fetchedAt": "2026-11-06T04:56:42.145Z",
   "stale": false,
   "error": null
 }
