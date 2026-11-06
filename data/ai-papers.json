@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "b75a364b6699",
-      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
-      "url": "https://huggingface.co/papers/2611.04408",
-      "publishedAt": "2026-11-03T06:45:50.000Z",
-      "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network…",
+      "id": "589c76edbfa1",
+      "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+      "url": "https://huggingface.co/papers/2611.02075",
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "summary": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may l…",
+      "score": 113
+    },
+    {
+      "id": "59b57cdb7d83",
+      "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+      "url": "https://huggingface.co/papers/2611.06741",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeat…",
       "score": 34
     },
     {
-      "id": "ddc8023694fc",
-      "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
-      "url": "https://huggingface.co/papers/2611.00883",
-      "publishedAt": "2026-10-31T00:00:00.000Z",
-      "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small b…",
-      "score": 12
-    },
-    {
-      "id": "2d84a838363d",
-      "title": "D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding",
-      "url": "https://huggingface.co/papers/2611.06425",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated ta…",
-      "score": 10
-    },
-    {
-      "id": "9d5c9d099582",
-      "title": "Towards Foundation Decision Models: Drex",
-      "url": "https://huggingface.co/papers/2611.07854",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "summary": "Autoregressive approaches with large language models, such as long chain-of-thought reasoning, have become the default …",
-      "score": 9
-    },
-    {
-      "id": "8a94043dcae9",
-      "title": "The SIMPLE Law for Energy Cost of LLM Inference",
-      "url": "https://huggingface.co/papers/2611.03330",
+      "id": "36bfed5b27a2",
+      "title": "EvoMemState: Evolving Memory State for Personal Agents",
+      "url": "https://huggingface.co/papers/2611.03743",
       "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Generative AI is billed per token, yet tokens are not equally expensive. Each token enters the KV-cache and raises the …",
-      "score": 9
+      "summary": "Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining u…",
+      "score": 17
     },
     {
-      "id": "328aa6cfb2ae",
-      "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
-      "url": "https://huggingface.co/papers/2611.07909",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "summary": "Recent advances in Gaussian splatting have enabled efficient and photorealistic head avatar reconstruction, yet monocul…",
+      "id": "bca2e3d28169",
+      "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+      "url": "https://huggingface.co/papers/2611.06976",
+      "publishedAt": "2026-11-04T13:33:47.000Z",
+      "summary": "Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines…",
+      "score": 11
+    },
+    {
+      "id": "673cde2aee0f",
+      "title": "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation",
+      "url": "https://huggingface.co/papers/2611.02660",
+      "publishedAt": "2026-11-02T07:20:12.000Z",
+      "summary": "Recent advances in Vision-Language-Action (VLA) models have enabled fine manipulation capabilities, yet performing task…",
+      "score": 7
+    },
+    {
+      "id": "3456a25f01ce",
+      "title": "Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models",
+      "url": "https://huggingface.co/papers/2611.06982",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Chunk-interleaved full-duplex speech language models listen and speak in fixed time chunks, and each chunk must be proc…",
+      "score": 6
+    },
+    {
+      "id": "9c5dfe65f311",
+      "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
+      "url": "https://huggingface.co/papers/2611.08089",
+      "publishedAt": "2026-11-05T14:35:08.000Z",
+      "summary": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible…",
       "score": 5
     },
     {
-      "id": "c10a4c0c5e8d",
-      "title": "Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention",
-      "url": "https://huggingface.co/papers/2611.03768",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only…",
-      "score": 3
+      "id": "d0a01f0bed9d",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "url": "https://huggingface.co/papers/2611.05376",
+      "publishedAt": "2026-11-03T18:59:52.000Z",
+      "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foun…",
+      "score": 4
     },
     {
-      "id": "ed4343f10a55",
-      "title": "TaoMate-HD: Progressive-Resolution Autoregressive Audio-Video Generation",
-      "url": "https://huggingface.co/papers/2611.03394",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Streaming digital humans produce detailed video while continuing speech as new text arrives. High-resolution denoising …",
-      "score": 3
-    },
-    {
-      "id": "ce3a5fe677d9",
-      "title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
-      "url": "https://huggingface.co/papers/2610.36544",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agen…",
+      "id": "b29bf7d39a25",
+      "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+      "url": "https://huggingface.co/papers/2611.07613",
+      "publishedAt": "2026-11-05T07:56:01.000Z",
+      "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as…",
       "score": 2
     },
     {
-      "id": "6e3214467c3c",
-      "title": "Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization",
-      "url": "https://huggingface.co/papers/2611.03517",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff. Scripted agents fix what the mo…",
-      "score": 2
-    },
-    {
-      "id": "35cb9d5b2e1c",
-      "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
-      "url": "https://huggingface.co/papers/2611.08369",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "summary": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks…",
+      "id": "c34a744acd58",
+      "title": "Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition",
+      "url": "https://huggingface.co/papers/2610.41789",
+      "publishedAt": "2026-10-30T14:21:43.000Z",
+      "summary": "Multi-head attention in Vision Transformers (ViTs) allows independent attention patterns across heads, but without expl…",
       "score": 1
     },
     {
-      "id": "ff57ec4cc6cb",
-      "title": "HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias",
-      "url": "https://huggingface.co/papers/2611.04949",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Historical archives are invaluable for multidisciplinary research but remain inaccessible globally due to severe langua…",
+      "id": "b64422346400",
+      "title": "SynthFaces: Balanced Large Scale Human Dataset",
+      "url": "https://huggingface.co/papers/2610.40119",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "The pursuit of fair and equitable AI in human-centric tasks is critically hindered by the inherent biases and privacy r…",
       "score": 1
+    },
+    {
+      "id": "4a320c1ddd73",
+      "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+      "url": "https://huggingface.co/papers/2611.07298",
+      "publishedAt": "2026-11-05T01:30:28.000Z",
+      "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangl…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-06T04:56:42.145Z",
+  "fetchedAt": "2026-11-06T12:43:40.239Z",
   "stale": false,
   "error": null
 }

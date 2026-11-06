@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "516635a29e53",
+      "title": "レビューは深いほど良いのか：Code Review の Quick/Standard/Deep をローカルの深さと対応させる",
+      "url": "https://zenn.dev/norman6464/articles/code-review-quick-standard-deep",
+      "publishedAt": "2026-11-06T01:35:30.000Z",
+      "publisher": "tekuteku",
+      "summary": "Claude Code の /code-review を日常的に使っている人、あるいは GitHub 連携の Code Review をチームに入れた（入れようとしている）人に向けて書きます。 2026-10-19 の v2.1.304 …"
+    },
+    {
+      "id": "f41110365442",
+      "title": "Claude Code に、「ここ」をリアルタイムに伝えるためのアプリ",
+      "url": "https://zenn.dev/twelvetonelab/articles/dfa8322da9f639",
+      "publishedAt": "2026-11-06T01:13:16.000Z",
+      "publisher": "Takashi Tsunoda｜twelvetone",
+      "summary": "! この記事で紹介する Mac アプリ「SKETCHTALK」は、筆者（株式会社トゥエルブトーン 角田）が作っているものです。Anthropic とは提携していない、個人の会社の独立したアプリです。 直す場所を言葉にするのに、いちばん時間…"
+    },
+    {
+      "id": "6887e0990a71",
+      "title": "Sysmac Studio STのFB呼び出しをClaude Desktopのスキルで型にする——FB連鎖・R_TRIG・リセット",
+      "url": "https://zenn.dev/kensho_ya/articles/sysmac-st-fb-call-patterns-skill",
+      "publishedAt": "2026-11-06T01:08:54.000Z",
+      "publisher": "検証屋",
+      "summary": "Claude Desktopに Sysmac Studio 向けのSTを書かせるとき、自分はFBの呼び出し方をスキルの中で型として決めている。型は次の4つだ。 単発FB：完了を待って次へ進む 連続実行FB：受理された時点で次へ進む FB連…"
+    },
+    {
+      "id": "0657bf91ae6c",
+      "title": "今更だけど、AIってどう使えばいいの？",
+      "url": "https://zenn.dev/porters_tech/articles/4f6e5cc83aa74c",
+      "publishedAt": "2026-11-06T01:00:05.000Z",
+      "publisher": "jongchan.lee",
+      "summary": "AIメニュー画像ってやばくね？ 最近、AIで生成した料理の画像をメニューに使用している飲食店の事例を目にすることがある。 なかには、人間の食べ物とは思えないような見た目の画像もあり、思わず目を引かれる。 規則的な米の配置や、麺の気持ち悪い…"
+    },
+    {
       "id": "32234fd966c7",
       "title": "[レポート] Sigma Webinar『ClaudeとSigma MCPプラグインがいかにして私の人生を変えたのか』",
       "url": "https://zenn.dev/truestar/articles/db7b4ff238ed7d",
@@ -68,41 +100,9 @@
       "publishedAt": "2026-11-05T23:05:44.000Z",
       "publisher": "菅原友和",
       "summary": "2026年11月5日（木）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は、AIを「信じていいのか」という話がそろいました。AIの答えが本物かを暗号で証明する研究。中身ごと公開された巨大AIと、その成…"
-    },
-    {
-      "id": "795f02f459e7",
-      "title": "社内のClaude Codeスキルをプラグインにして売る — 稼働を増やさずノウハウを渡す手順",
-      "url": "https://zenn.dev/joinclass/articles/article-20261104220057-25539",
-      "publishedAt": "2026-11-05T23:00:11.000Z",
-      "publisher": "JOINCLASS",
-      "summary": "なぜプラグインにしたのか 当社は受託開発と出版をやっている小さな会社です。受託の弱点ははっきりしていて、売上が僕の稼働時間に比例します。一方で、案件の中で何度も同じことを教えていました。「仮説検証をせずに作り始めない」「AIの出力をそのま…"
-    },
-    {
-      "id": "25246dfde47d",
-      "title": "spec as code ではなく、code as spec — 仕様書のように書かれたコードを正にする",
-      "url": "https://zenn.dev/ruri/articles/code-as-spec",
-      "publishedAt": "2026-11-05T23:00:05.000Z",
-      "publisher": "atsushi ootani",
-      "summary": "TL;DR 仕様書を厳密に書こうとするほど、仕様書はプログラムに似ていきます。その行き着く先は、読みづらいコードです。それなら最初から、仕様書のように読めるコードを書けばいいのです。ドメインモデリングをした可読性の高いコードを、仕様の正（…"
-    },
-    {
-      "id": "bf46ab12f9d4",
-      "title": "ローカルLLM study10: 三値量子化Bonsai 2の小型版（2B/4B/9B）を、同サイズの通常量子化と並べる",
-      "url": "https://zenn.dev/tkpurine/articles/local-llm-study-010-ternary-bonsai-2-small",
-      "publishedAt": "2026-11-05T22:31:31.000Z",
-      "publisher": "プリン",
-      "summary": "結論: 三値量子化Bonsai 2の小型版(2B/4B/9B)は、2Bと4Bで同サイズの通常量子化より崩れやすく、9B以上では差が小さかった。出力速度は27Bを含めて三値が約1.9〜2.8倍だった。 読者が得るもの: 「サイズを下げると何…"
-    },
-    {
-      "id": "335ac6f4b909",
-      "title": "`claude -p --restricted` の `/スキル名` は展開されていなかった ― モデルが自力で探し当てていた1週間",
-      "url": "https://zenn.dev/masamitsu_sera/articles/7363154f42de02",
-      "publishedAt": "2026-11-05T22:30:05.000Z",
-      "publisher": "瀬良 政光",
-      "summary": "常駐の Mac で、claude -p を無人で呼ぶ文章生成のジョブを動かしています。1つのジョブが3つの段（入力から題材を選ぶ・下書きする・照合する）で claude -p を呼び、どの段も、リポジトリに置いたスキル（.claude/s…"
     }
   ],
-  "fetchedAt": "2026-11-06T04:56:42.266Z",
+  "fetchedAt": "2026-11-06T12:43:40.391Z",
   "stale": false,
   "error": null
 }
