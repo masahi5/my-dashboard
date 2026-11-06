@@ -6,14 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "589c76edbfa1",
-      "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
-      "url": "https://huggingface.co/papers/2611.02075",
-      "publishedAt": "2026-11-01T00:00:00.000Z",
-      "summary": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may l…",
-      "score": 113
-    },
-    {
       "id": "bca2e3d28169",
       "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
       "url": "https://huggingface.co/papers/2611.06976",
@@ -43,6 +35,22 @@
       "url": "https://huggingface.co/papers/2611.08483",
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iterat…",
+      "score": 3
+    },
+    {
+      "id": "39914d54efea",
+      "title": "StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models",
+      "url": "https://huggingface.co/papers/2611.04386",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "A deployable text-to-image diffusion model must hold several capabilities at once, such as instruction following, text …",
+      "score": 2
+    },
+    {
+      "id": "f522a0f70872",
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "url": "https://huggingface.co/papers/2610.37739",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive colle…",
       "score": 2
     },
     {
@@ -70,22 +78,6 @@
       "score": 2
     },
     {
-      "id": "39914d54efea",
-      "title": "StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models",
-      "url": "https://huggingface.co/papers/2611.04386",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "A deployable text-to-image diffusion model must hold several capabilities at once, such as instruction following, text …",
-      "score": 1
-    },
-    {
-      "id": "f522a0f70872",
-      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "url": "https://huggingface.co/papers/2610.37739",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive colle…",
-      "score": 1
-    },
-    {
       "id": "c34a744acd58",
       "title": "Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition",
       "url": "https://huggingface.co/papers/2610.41789",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "summary": "The pursuit of fair and equitable AI in human-centric tasks is critically hindered by the inherent biases and privacy r…",
       "score": 1
+    },
+    {
+      "id": "e0970cfb1c90",
+      "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+      "url": "https://huggingface.co/papers/2611.06498",
+      "publishedAt": "2026-11-04T13:32:04.000Z",
+      "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text …",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-06T19:43:24.937Z",
+  "fetchedAt": "2026-11-06T23:50:20.610Z",
   "stale": false,
   "error": null
 }

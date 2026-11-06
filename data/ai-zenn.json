@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "34fab8a6a90e",
-      "title": "画像内テキストが崩れないプロンプト設計：商品写真・広告向けチェックリスト",
-      "url": "https://zenn.dev/decomytree/articles/781e53405126ee",
-      "publishedAt": "2026-11-06T17:18:54.000Z",
-      "publisher": "Deco My Tree",
-      "summary": "はじめに AI 画像生成でいちばんつまずきやすいのが、画像の中に入れる文字です。ポスターの見出し、パッケージの商品名、UI モックのラベル——どれも「なんとなく文字っぽい形」までは出るのに、いざ拡大すると字形が崩れたり、意図と違う綴りにな…"
-    },
-    {
-      "id": "7b2856f328ad",
-      "title": "guillaumemeyer/watermarks-remover 実機検証＆エラー解決ハンズオンガイド",
-      "url": "https://zenn.dev/shotasone/books/oss-watermarks-remover-guide",
-      "publishedAt": "2026-11-06T17:06:23.000Z",
-      "publisher": "sone",
-      "summary": "linux/arm64 実機検証で判明した guillaumemeyer/watermarks-remover の再現手順・エラー解決・Docker構成を完全収録。"
-    },
-    {
-      "id": "b889fd1eefba",
-      "title": "AIが政策を議論したらどうなるか ― マルチエージェント討論とバーチャル議会の設計",
-      "url": "https://zenn.dev/onelifevibe/articles/cd89b587413b8c",
-      "publishedAt": "2026-11-06T17:01:33.000Z",
-      "publisher": "OneLifeVibe",
-      "summary": "はじめに 政策の議論では、ひとつの視点だけでは論点の抜け漏れに気づきにくい。異なる立場や専門性を持つ参加者が賛否を述べ合うことで、論点が整理され、反論や前提の違いが可視化される。 人間だけでなく、AIが政策案の賛否を議論すると、論点の抜け…"
-    },
-    {
-      "id": "5931a744cda3",
-      "title": "GodotでAIを使ってスプライト、ピクセルアート、タイルを作る方法",
-      "url": "https://zenn.dev/zivaengine/articles/f68112e1c7c433",
-      "publishedAt": "2026-11-06T15:36:46.000Z",
-      "publisher": "Ziva Engine",
-      "summary": "この記事は https://ziva.sh/blogs/godot-ai-sprites の日本語版です（英語の原文はZiva.shが2026年11月4日に公開）。 Godotエディターを離れずに2Dゲームのアートを作るには、Godotの…"
-    },
-    {
-      "id": "730e25c49c82",
-      "title": "画像から3Dプリント用のSTLを作る：リトフェインとの違いと、約8万／約150万ポリの使い分けメモ",
-      "url": "https://zenn.dev/xer97/articles/57f76704aabcef",
-      "publishedAt": "2026-11-06T15:27:46.000Z",
-      "publisher": "xer97",
-      "summary": "「この写真を3Dプリントしたい」には、だいたい2種類あります。写真そのものを光にかざす板にしたいのか、写っている物を裏側まである立体で欲しいのか。 ここで書くのは後者の話です。筆者は 画像からSTL（英語だと image to stl）の…"
-    },
-    {
-      "id": "6b775f1781ad",
-      "title": "生成したスプライトシートを Godot 4 / Unity に入れるときのメモ（5アクション前提）",
-      "url": "https://zenn.dev/xer97/articles/6913c179bb40ff",
-      "publishedAt": "2026-11-06T15:26:17.000Z",
-      "publisher": "xer97",
-      "summary": "Godot 4 系を前提に書いています。Unity はバージョンによってメニュー名が少し違うことがあります。 筆者は スプライトジェネレーター（英語だと sprite generator。全身のキャラ画像1枚から Idle / Walk …"
-    },
-    {
-      "id": "9d2cc140130a",
-      "title": "AIによる政策討論は、トレードオフをどう見える化できるか",
-      "url": "https://zenn.dev/onelifevibe/articles/499672aae38832",
-      "publishedAt": "2026-11-06T15:23:07.000Z",
-      "publisher": "OneLifeVibe",
-      "summary": "政策をめぐる議論では、ひとつの施策が複数の価値と衝突することが多い。たとえば財政負担とサービスの質、短期の効果と長期の持続可能性、効率と公平性である。こうした衝突は、賛否だけで整理すると見えにくくなる。そこで注目されているのが、異なる立場…"
-    },
-    {
-      "id": "8978a7ecb575",
-      "title": "人間3分、AI48分。これは何分の仕事か？",
-      "url": "https://zenn.dev/futoka/articles/ai-agent-effort-four-clocks",
-      "publishedAt": "2026-11-06T14:38:51.000Z",
-      "publisher": "フトシ",
-      "summary": "人間が3分で指示を出し、AIが48分かけて実装とテストを進めたとします。これは何分の仕事でしょうか。 「人がこのタスクに手をかけた時間」なら3分。「AIが稼働した時間」なら48分。指示を始めてからAIが結果を返すまで、重なりも待ちもなけれ…"
-    },
-    {
-      "id": "c28ef370853c",
-      "title": "NVIDIAの『ループ型』4Bモデル Dory1.0-4B、標準ツールで動かそうとしたら2箇所で止まった",
-      "url": "https://zenn.dev/matsushima_a/articles/day-038-dory-looped-transformer-ecosystem-gap",
-      "publishedAt": "2026-11-06T14:22:33.000Z",
-      "publisher": "matsu",
-      "summary": "これは何を試した記事か NVIDIAが公開したDory1.0-4Bという4Bパラメータのモデルを、公式のモデルカードが案内するとおりの手順で動かそうとした記事である。 Dory1.0-4Bは、1つの重み(チェックポイント)のまま「再帰ブロ…"
-    },
-    {
-      "id": "2fcef824f88b",
-      "title": "What is AI for? — Don’t think. Feel. と Be water.",
-      "url": "https://zenn.dev/sugitakenji/articles/af925cba5484fb",
-      "publishedAt": "2026-11-06T14:09:25.000Z",
-      "publisher": "杉田研治",
-      "summary": "同じ協力関係の、もう一つの顔 「What is AI for? — AIは自分を映す鏡」では、AIを尊重して向き合う姿勢を考えました。返ってきたものを受け止め、よかったことには感謝し、意図と違うところは言葉にして伝える。そのやり取りを通じ…"
-    },
-    {
-      "id": "76ad17dfa6e4",
-      "title": "SDカードをアルバムにする妻のために、元データを1バイトも触らないローカル写真管理ソフトをAIと作った話",
-      "url": "https://zenn.dev/torakichi0428/articles/5e5573b10976a0",
-      "publishedAt": "2026-11-06T13:57:58.000Z",
-      "publisher": "柿山とらきち",
-      "summary": "はじめに：SDカードを「アルバム」にする妻と、クラウド同期の罠 このソフトを作り始めた一番最初のきっかけは、妻の写真の管理方法を知ったことでした。 趣味でカメラを触る人間からすると、写真はPCや外付けドライブに取り込み、SDカードはフォー…"
-    },
-    {
       "id": "ee1387c4c905",
-      "title": "年間数億円のSaaSを、開発者一人バイブコーディングでリプレイスして感じた達成感と危機感",
+      "title": "年間数億円のSaaSを、一人ｘ半年ｘバイブコーディングでリプレイスして感じた達成感と危機感",
       "url": "https://zenn.dev/ttake/articles/0b6c8f887b160e",
       "publishedAt": "2026-11-06T13:05:43.000Z",
       "publisher": "たけ",
       "summary": "はじめに この半年間、業務の根幹で使っていた年間数億円規模のSaaSを、自社製システムへリプレイスしていました。開発体制はエンジニア1人（自分）＋AI。事業側のメイン担当者が1人という、実質2名のプロジェクトです。新システムはすでに本番稼…"
+    },
+    {
+      "id": "b396c406f2c2",
+      "title": "Claude Codeのスキルで動画制作を自動化する設計 ― 声に合う字幕とffmpegの自己QA",
+      "url": "https://zenn.dev/heynstudio/articles/a21ba753d44618",
+      "publishedAt": "2026-11-06T13:03:00.000Z",
+      "publisher": "Heyn Studio",
+      "summary": "Claude Code に「ナレーション付きの動画を作って」と頼むと、それなりのものは出てきます。ただ、毎回やり方が変わり、字幕が声から少しずれ、レンダリングが成功した時点で「完成しました」と報告されがちです。 私たちは、この流れを Cl…"
+    },
+    {
+      "id": "ee28f56e92ec",
+      "title": "AIが書いたXの下書き14本のうち、6本を出さなかった —— 出さない理由を3つに決めておいた話",
+      "url": "https://zenn.dev/ai_shihan/articles/5785b771e9583d",
+      "publishedAt": "2026-11-06T12:47:23.000Z",
+      "publisher": "ai_shihan",
+      "summary": "私は副業の広報を、Claude Code の「広報部」の席に任せています。X の投稿の下書きは、別の AI（Grok の Bot。社内では「X担当」と呼んでいます）が書いて Slack に置きます。広報部の席はそれを読んで、出すか出さない…"
+    },
+    {
+      "id": "a260ba77710f",
+      "title": "はじめての Claude ②【使う】始め方、セキュリティとプランの選び方（2026年11月）",
+      "url": "https://zenn.dev/nekonote328/articles/claude-code-chat-security-plans",
+      "publishedAt": "2026-11-06T12:43:20.000Z",
+      "publisher": "wild-river",
+      "summary": "! この記事の情報は 2026年11月時点のものです。最新情報は公式サイトを確認してください。 はじめに この記事で分かること： Claude Code の始め方（VS Code の拡張機能・ターミナル） チャットで気を付けたいセキュリテ…"
+    },
+    {
+      "id": "599ea2a4c8d7",
+      "title": "AI×開発組織Summit 2026｜2026年10月16日(金) 汐留開催｜参加レポート",
+      "url": "https://zenn.dev/moritoki/articles/a505aed545a9ba",
+      "publishedAt": "2026-11-06T12:29:59.000Z",
+      "publisher": "moriwan",
+      "summary": "AI×開発組織Summit2026 「AI×開発組織Summit2026」に現地参加してきました！ https://ai-dev-org-summit.findy-tools.io/2026 イベントの概要 勢いで参加したものの、イベント…"
+    },
+    {
+      "id": "9bf3d0a19ded",
+      "title": "売るのはAIではなく成果だった ― 受託メニューの叩き台を作って考えたこと",
+      "url": "https://zenn.dev/ai_secretary/articles/c8c24c30b32f4a",
+      "publishedAt": "2026-11-06T12:22:05.000Z",
+      "publisher": "AI秘書ラボ",
+      "summary": "叩き台を作った AI自動化の受託を始める準備として、提供メニューの叩き台を作った。最初に書いたのは「AI自動化の構築支援」という、自分目線の言葉だった。 ただ、調べた実践事例の結論は一貫していた。「何でも自動化します」という汎用型は失敗し…"
+    },
+    {
+      "id": "6764d4947d8b",
+      "title": "毎朝のセキュリティ確認をAIに任せたら、判定の基準が「人が動く必要があるか」に変わった",
+      "url": "https://zenn.dev/stock_inc/articles/ai-daily-security-check-criteria",
+      "publishedAt": "2026-11-06T12:01:07.000Z",
+      "publisher": "株式会社Stock 武田 峻一",
+      "summary": "本番環境に攻撃の兆候が来ていないかを、AIエージェントが平日の朝に確認して、判定付きのレポートを作るルーティンを動かしています。 動かし始めて1週間で、判定の基準を3回変えました。最初は「何かが起きたら赤」でしたが、それだと社員の普段の作…"
+    },
+    {
+      "id": "6819d6a37ca0",
+      "title": "エージェントスキルの定量検証をしよう",
+      "url": "https://zenn.dev/yasuakiomokawa/articles/d271586275672e",
+      "publishedAt": "2026-11-06T11:37:58.000Z",
+      "publisher": "Yasuaki Omokawa",
+      "summary": "サマリー エージェントスキルの出力を受け入れテストにすると、そのスキルの効き目を数えられます。数えられると、改善の基準が 1 つに決まります。LLM に思いつきの指示を出す代わりに、毎回同じ物差しで「どこを、なぜ直すか」を決められるように…"
+    },
+    {
+      "id": "3b12347321aa",
+      "title": "AIのスキルの手順を二重管理しない：SKILL.mdを正本に、READMEは入口だけにする",
+      "url": "https://zenn.dev/madao1981/articles/20261021-skill-md-readme-split",
+      "publishedAt": "2026-11-06T11:00:05.000Z",
+      "publisher": "kojikoji_tech",
+      "summary": "スキルの手順を SKILL.md と README.md の両方に書いておくと、片方だけ直して食い違いが出ることがあります。スキルを改名したときも、本文や呼び出し例に旧名が残ることがあります。この記事ではその状態を作って確かめました。確か…"
+    },
+    {
+      "id": "38586de86f6e",
+      "title": "AI の記憶はファイルの形をしている。3体と司令、記憶が途切れる場所の地図（番外編4）",
+      "url": "https://zenn.dev/mappy55/articles/magi-games-ops-04",
+      "publishedAt": "2026-11-06T10:57:16.000Z",
+      "publisher": "mappy",
+      "summary": "! 「AI討論 MAGI Games 開発記」の番外編、4本目です。番外編1と2は自動実行のトラブル（1、2）、3はスマホの指の実験（3）。この記事は、AI エージェントの「記憶」が仕組みの上でどこまで続き、どこで途切れるかを、7週間の記…"
+    },
+    {
+      "id": "06273ec4c580",
+      "title": "頭の中の間取りを、少しずつ形にする。配置を考えるときの進め方",
+      "url": "https://zenn.dev/winniewei/articles/1aca392f41d76d",
+      "publishedAt": "2026-11-06T10:28:50.000Z",
+      "publisher": "Wei",
+      "summary": "部屋の模様替えや引っ越しを考えると、「こんな暮らしができたらいいな」という希望がいくつも浮かびます。 リビングにはゆったり座れるソファを置きたい。窓の近くに作業用のデスクがほしい。収納は増やしたいけれど、部屋を狭く見せたくない。 一つひと…"
+    },
+    {
+      "id": "2f7fb28b0a6c",
+      "title": "Claude Code ですばやくきれいなインフォグラフィックを作る",
+      "url": "https://zenn.dev/usuginu/articles/15e2b8fb4c2751",
+      "publishedAt": "2026-11-06T10:28:16.000Z",
+      "publisher": "うすぎぬ",
+      "summary": "AI にコードや設計、ドキュメントを書いてもらうことが増えました。書く速さはずいぶん上がりましたが、その分、AI が書いたものをレビューして理解するところに時間がかかるようになってきました。今の開発では、ここが一番遅いところだと感じていま…"
     }
   ],
-  "fetchedAt": "2026-11-06T19:43:25.110Z",
+  "fetchedAt": "2026-11-06T23:50:20.748Z",
   "stale": false,
   "error": null
 }
