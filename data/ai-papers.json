@@ -14,60 +14,52 @@
       "score": 113
     },
     {
-      "id": "59b57cdb7d83",
-      "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
-      "url": "https://huggingface.co/papers/2611.06741",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeat…",
-      "score": 34
-    },
-    {
-      "id": "36bfed5b27a2",
-      "title": "EvoMemState: Evolving Memory State for Personal Agents",
-      "url": "https://huggingface.co/papers/2611.03743",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining u…",
-      "score": 17
-    },
-    {
       "id": "bca2e3d28169",
       "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
       "url": "https://huggingface.co/papers/2611.06976",
       "publishedAt": "2026-11-04T13:33:47.000Z",
       "summary": "Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines…",
-      "score": 11
+      "score": 12
     },
     {
-      "id": "673cde2aee0f",
-      "title": "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation",
-      "url": "https://huggingface.co/papers/2611.02660",
-      "publishedAt": "2026-11-02T07:20:12.000Z",
-      "summary": "Recent advances in Vision-Language-Action (VLA) models have enabled fine manipulation capabilities, yet performing task…",
-      "score": 7
-    },
-    {
-      "id": "3456a25f01ce",
-      "title": "Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models",
-      "url": "https://huggingface.co/papers/2611.06982",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Chunk-interleaved full-duplex speech language models listen and speak in fixed time chunks, and each chunk must be proc…",
-      "score": 6
-    },
-    {
-      "id": "9c5dfe65f311",
-      "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
-      "url": "https://huggingface.co/papers/2611.08089",
-      "publishedAt": "2026-11-05T14:35:08.000Z",
-      "summary": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible…",
+      "id": "06d558a4f540",
+      "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+      "url": "https://huggingface.co/papers/2611.08237",
+      "publishedAt": "2026-11-05T16:18:35.000Z",
+      "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended reco…",
       "score": 5
     },
     {
-      "id": "d0a01f0bed9d",
-      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
-      "url": "https://huggingface.co/papers/2611.05376",
-      "publishedAt": "2026-11-03T18:59:52.000Z",
-      "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foun…",
+      "id": "2af5e830c92d",
+      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+      "url": "https://huggingface.co/papers/2611.08376",
+      "publishedAt": "2026-11-05T17:53:49.000Z",
+      "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory infe…",
       "score": 4
+    },
+    {
+      "id": "fb9e32faa8e7",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "url": "https://huggingface.co/papers/2611.08483",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iterat…",
+      "score": 2
+    },
+    {
+      "id": "1293ba9b2837",
+      "title": "Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space",
+      "url": "https://huggingface.co/papers/2609.37820",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "When firms respond to new market opportunities, their capacity choices alter the future discounted free cash flows avai…",
+      "score": 2
+    },
+    {
+      "id": "4a320c1ddd73",
+      "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+      "url": "https://huggingface.co/papers/2611.07298",
+      "publishedAt": "2026-11-05T01:30:28.000Z",
+      "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangl…",
+      "score": 2
     },
     {
       "id": "b29bf7d39a25",
@@ -76,6 +68,22 @@
       "publishedAt": "2026-11-05T07:56:01.000Z",
       "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as…",
       "score": 2
+    },
+    {
+      "id": "39914d54efea",
+      "title": "StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models",
+      "url": "https://huggingface.co/papers/2611.04386",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "A deployable text-to-image diffusion model must hold several capabilities at once, such as instruction following, text …",
+      "score": 1
+    },
+    {
+      "id": "f522a0f70872",
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "url": "https://huggingface.co/papers/2610.37739",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive colle…",
+      "score": 1
     },
     {
       "id": "c34a744acd58",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "summary": "The pursuit of fair and equitable AI in human-centric tasks is critically hindered by the inherent biases and privacy r…",
       "score": 1
-    },
-    {
-      "id": "4a320c1ddd73",
-      "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
-      "url": "https://huggingface.co/papers/2611.07298",
-      "publishedAt": "2026-11-05T01:30:28.000Z",
-      "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangl…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-06T12:43:40.239Z",
+  "fetchedAt": "2026-11-06T19:43:24.937Z",
   "stale": false,
   "error": null
 }
