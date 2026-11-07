@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "4a896a67982b",
-      "title": "Google Cloud「Project Chrysalis」解説！1.8秒復旧を実現する自己進化型AIの仕組み",
-      "url": "https://zenn.dev/adopture/articles/0191dbbb65184c",
-      "publishedAt": "2026-11-07T06:35:30.000Z",
-      "publisher": "ggnn編集部｜アダプチュア株式会社",
-      "summary": "大規模なクラウドシステムを運用するSRE（サイト信頼性エンジニア）やクラウドアーキテクトにとって、フラッシュセールや突発的なトラフィック急増による「連鎖障害（カスケード障害）」は悪夢そのものです。 従来の生成AIコパイロットは、ログの要約…"
+      "id": "e8f9ccac3642",
+      "title": "AlienPentest 徹底解説 — AIが自律的にペネトレーションテストを実行するツール",
+      "url": "https://zenn.dev/zer0m0hum0hu/articles/5445a3f4cbd019",
+      "publishedAt": "2026-11-07T18:03:51.000Z",
+      "publisher": "Zer0m0hum0hu",
+      "summary": "こんにちはzer0です。 AlienPentestは、AI（Claude）が偵察・スキャン・エクスプロイト・レポートを自律的に判断・実行するKali Linux向けペネトレーションテスト自動化ツールです。ターゲットのIPアドレスを入力して…"
     },
     {
-      "id": "34ba17fee0ff",
-      "title": "GPT-6.1 Sol APIの構造化出力でレビューにタグ付けすると、コストはいくらになるか",
-      "url": "https://zenn.dev/everyinfra/articles/gpt-6-1-sol-structured-outputs-review-tagging",
-      "publishedAt": "2026-11-07T06:16:18.000Z",
-      "publisher": "EveryInfra",
-      "summary": "! この記事は EveryInfra ブログ からの転載です（原文が正本です）。 私たちの試算では、GPT-6.1 Solを使うと、1,000件のレビューに1ドル未満でタグを付けられます。前提は、strictモードのJSON Schema…"
+      "id": "b3fc043c0a1e",
+      "title": "git を知らなくても houritsu で法改正の差分を見る方法",
+      "url": "https://zenn.dev/koheiwada/articles/houritsu-guide-without-git",
+      "publishedAt": "2026-11-07T18:00:05.000Z",
+      "publisher": "kohei",
+      "summary": "houritsu は日本の全法令を「改正法 1 本 = 1 コミット」の git リポジトリにしたものです（作った話）。この記事は、git を使わない人がこれを GitHub の画面だけで読むための手引きです。インストールもログインも要り…"
     },
     {
-      "id": "626d93b2caf7",
-      "title": "CLAUDE.md は削っても戻る。だから「今の字数」を上限にした",
-      "url": "https://zenn.dev/maura/articles/0a3f541be9f42d",
-      "publishedAt": "2026-11-07T04:47:02.000Z",
-      "publisher": "まうら",
-      "summary": "Claude Code に毎日の作業を任せ始めてから3か月あまりで、CLAUDE.md は 960字から 14,851字まで太りました。いちばん太ったのは10月7日です。CLAUDE.md を変えたコミットは、10月末までに68回あり、そ…"
+      "id": "c2bbce9ae2a0",
+      "title": "機能制限のつもりが「試乗禁止」になっていた話 —— バックアップツールのB2B試用設計を14日間フル開放に変えた理由",
+      "url": "https://zenn.dev/chililikobo/articles/c75512a76486f8",
+      "publishedAt": "2026-11-07T17:03:48.000Z",
+      "publisher": "chilili kobo",
+      "summary": "先日、自作のキャプチャ自動化ツール『ClickCapture』のB2B向け制限を見直し、「起動即ロック」から「20枚トライアル＋再起動でリセット」へ改修した知見をまとめました。 前回の記事はこちら： https://zenn.dev/ch…"
     },
     {
-      "id": "9e3dc9203c54",
-      "title": "リファクターの判断はAIに任せない ― git履歴から候補を出して、テックリードと答え合わせする",
-      "url": "https://zenn.dev/litalico/articles/84d2427087c27b",
-      "publishedAt": "2026-11-07T04:45:00.000Z",
-      "publisher": "池野",
-      "summary": "LITALICOのアーキテクチャ推進Gの池野です。 アーキテクチャ推進Gは、部全体のアーキテクチャの方針やルールを整備し、各プロダクトチームが担当するプロダクトが常にビジネスの変化に素早く対応できる柔軟で拡張性の高い状態を保てることをミッ…"
+      "id": "9c1b016b92b1",
+      "title": "AIやバイブコーディングで作ったゲームを、スマホで遊べるように公開する方法とハマりどころ",
+      "url": "https://zenn.dev/plumvery/articles/dd5babd0791704",
+      "publishedAt": "2026-11-07T16:57:49.000Z",
+      "publisher": "plumvery",
+      "summary": "はじめに Claude CodeやCodexなどの生成AIツールにより、バイブコーディングで手軽にブラウザゲームが制作できる時代になりました。 ただ、実際にゲームが1本できたあと、次に迷いやすいのが「どこに置けば人に遊んでもらえるか」だと…"
     },
     {
-      "id": "a13031c786b4",
-      "title": "ブランチ保護のない private リポで、Claude Code の main への push を止める守りを「割り切って」作り直した話",
-      "url": "https://zenn.dev/sk8jp/articles/937288f65fcfab",
-      "publishedAt": "2026-11-07T04:27:20.000Z",
-      "publisher": "YAZ",
-      "summary": "はじめに 以前の記事「週末 Solo Engineer が、Claude Code に「仕事の型」を覚えさせた話」で、Claude Code の手元に「二重の安全装置」を置いていると書きました。GitHub のブランチの保護（有料の機能）…"
+      "id": "15b0ed82c572",
+      "title": "大学生のための「課題が終わる」AIプロンプト集15選",
+      "url": "https://zenn.dev/shinai/books/university-ai-assignment-prompts",
+      "publishedAt": "2026-11-07T16:48:58.000Z",
+      "publisher": "シン@AI自動化",
+      "summary": "ChatGPT・Claude・Geminiにコピペで使える、課題管理・レポート・試験対策のプロンプト15本。丸写しではなく「自分で考えて終わらせる」ための使い方に絞りました。最初の2章（はじめに・課題管理の4本）は無料で読めます。"
     },
     {
-      "id": "abd89d556dbe",
-      "title": "コードを読まずにClaude Codeへ作らせた仕組みを人に渡そうとしたら、止まる所のほとんどはAIが作者のPCに合わせて足した門だった",
-      "url": "https://zenn.dev/kirinukiauto/articles/20ca9307f2d268",
-      "publishedAt": "2026-11-07T04:13:32.000Z",
-      "publisher": "キリヌキ自動化ラボ",
-      "summary": "政治の切り抜き動画づくりを、Claude Code に丸ごと作らせています。私はプログラムを書けないので、コードは読んでいません。4か月で scripts の下は 418 本になりました。 この仕組みを人に渡すことにしました。まず、配る …"
+      "id": "61627586a100",
+      "title": "DeepSeek Harnessを使ってみた：モード選び・テスト環境・プラグイン",
+      "url": "https://zenn.dev/algia/articles/deepseek-harness-intro",
+      "publishedAt": "2026-11-07T16:40:23.000Z",
+      "publisher": "Algia",
+      "summary": "DeepSeek Harnessを使ってみた TL;DR インストールは npm 版がおすすめ（テスト環境を作りやすい） モードは基本的に標準モード。dsh 自身をいじるときはクリエイターモード 公式の実験的プラグインは、機能を見ながら有…"
     },
     {
-      "id": "c7fa607b0457",
-      "title": "Live3D Face SwapのAI顔入れ替え機能はどう選ぶ？集合写真1枚と複数の写真で使い分ける",
-      "url": "https://zenn.dev/ellafisherwrite/articles/b87d66c80a6b81",
-      "publishedAt": "2026-11-07T03:22:00.000Z",
-      "publisher": "Ella Fisher",
-      "summary": "手元に写真が何枚あるかだけでは、Live3Dの「Multiple Face Swap」と「Batch Face Swap」のどちらを選ぶべきかは決まりません。3人が写った集合写真1枚と、1人ずつ写った写真3枚は、どちらも顔は3つですが、処…"
+      "id": "3920c86ed3dd",
+      "title": "Godot のゲーム用 3D モデルを AI で作る方法（Meshy・Tripo・Rodin などとの比較つき）",
+      "url": "https://zenn.dev/zivaengine/articles/cb4edadb0c53ce",
+      "publishedAt": "2026-11-07T16:35:25.000Z",
+      "publisher": "Ziva Engine",
+      "summary": "この記事は https://ziva.sh/blogs/godot-ai-3d-models の日本語版です（英語の原文は Ziva.sh が 2026年11月4日に公開）。 Godot エディタを離れずに 3D モデルを作るには、God…"
     },
     {
-      "id": "45fee0298b9c",
-      "title": "2026年11月までの論文投稿振り返り",
-      "url": "https://zenn.dev/sugamamasayuki/articles/493363b207645c",
-      "publishedAt": "2026-11-07T02:21:28.000Z",
-      "publisher": "SugamaMasayuki",
-      "summary": "はじめに ここまである程度、論文投稿という挑戦を終えたと判断し、その活動を振り返ってみたい。 なお、私自身は論文の作法に疎いため、論文化にあたってはAIに全面的に頼った。そのため、「論文はある程度の形にはなっている」と考えるが、同時に記述…"
+      "id": "53a2e419e225",
+      "title": "画像・動画生成スキルは「どのキーで、どこに課金されるか」で選ぶ: Claude Code 向け SKILL.md を読み比べた",
+      "url": "https://zenn.dev/skillselion/articles/f9e8735f6b4f1c",
+      "publishedAt": "2026-11-07T16:31:51.000Z",
+      "publisher": "Skillselion",
+      "summary": "Claude Code に画像生成スキルを入れて「ヒーロー画像を作って」と頼むと、最初に聞かれるのはプロンプトではなく、たいていログインかAPIキーです。Claude Code 自身はピクセルを描けません。画像・動画生成スキルの正体は、ど…"
     },
     {
-      "id": "2b6488f3be2b",
-      "title": "Claude Codeの/advisorパターンを実機検証！「単一モデル反復」vs「Advisor設計＋Executor実装」比較",
-      "url": "https://zenn.dev/tappers/articles/ai-labo-e18-advisor-executor-routing",
-      "publishedAt": "2026-11-07T02:18:00.000Z",
-      "publisher": "tappers",
-      "summary": "! 本記事は、SNS（X / Threads）や海外エンジニアコミュニティで提唱されている「AIコーディングエージェントの実践設計パターン」を、完全オフラインの隔離サンドボックスVM上で 同一モデル・同一初期課題（非公開テスト20ケース）…"
+      "id": "1476d0610fdc",
+      "title": "What is AI for? — ELIZA効果と、考えが進む対話",
+      "url": "https://zenn.dev/sugitakenji/articles/08fb4fc4676e41",
+      "publishedAt": "2026-11-07T16:26:28.000Z",
+      "publisher": "杉田研治",
+      "summary": "「分かってもらえた」の先に、何が残るか AIと話していると、自分の考えがきれいな文章になって返ってきます。言い足りなかったところが補われ、気持ちも受け止めてもらえたように感じます。 それは、AIとの対話が役に立つ場面の一つです。言葉になっ…"
     },
     {
-      "id": "8437f29a8d3e",
-      "title": "劣るAIを「環境」で勝たせる ― Museに課金するか迷っている人へ",
-      "url": "https://zenn.dev/bunkeideploy/articles/8cff1a003fab13",
-      "publishedAt": "2026-11-07T01:55:25.000Z",
-      "publisher": "文系のAI実験室",
-      "summary": "結論から書きます。これが数万円かかるサービスなら、私は勧めません。けれど数千円でこれは、はっきり言って異常値です。 「Muse、使えない」という声をよく見ます。半分は正しいと思います。ただ、その「使えなさ」の原因はモデルの頭の良し悪しだけ…"
+      "id": "2a2964b1aa4d",
+      "title": "Claude Code・Codex・Antigravityの週の利用枠を、余らせずに自動で使い切る仕組み",
+      "url": "https://zenn.dev/shinai/articles/ai-weekly-quota-autorun",
+      "publishedAt": "2026-11-07T15:54:24.000Z",
+      "publisher": "シン@AI自動化",
+      "summary": "サブスクのAIは「週の利用上限」があります。忙しい週は足りないのに、暇な週は半分以上余ったままリセットされる。もったいないので、余りそうな枠だけを自動で見つけて、AIに自分の作業をさせる仕組みを作りました。Windowsのタスクスケジュー…"
     },
     {
-      "id": "c6e106742599",
-      "title": "Claude Code利用者のためのclaude-mem実践ガイド｜セッションを閉じても文脈を忘れない長期記憶を6つのhookで自動記録する",
-      "url": "https://zenn.dev/ikahan/books/claude-mem-guide",
-      "publishedAt": "2026-11-07T01:40:21.000Z",
-      "publisher": "0",
-      "summary": "Claude Codeのセッションを閉じるたび文脈が消える問題を、行動を自動記録して次回に差し戻すプラグイン「claude-mem」で解く日本語導入ガイド。隔離環境でinstall（終了コード0）・doctor必須チェック合格・worke…"
+      "id": "15a9fbd77b44",
+      "title": "攻撃を演習環境の外に出さない：Security Audit Skillで自宅レッドチームラボのIaCを監査した",
+      "url": "https://zenn.dev/malwaresuk/articles/security-audit-skill-redteam-lab",
+      "publishedAt": "2026-11-07T15:22:34.000Z",
+      "publisher": "のうみん",
+      "summary": "! 2026年11月7日に、宣言した範囲のソース監査を6フェーズまで完了しました。実環境の侵入試験は行っていません。 はじめに 自宅にレッドチーム演習用のサイバーレンジ（以下、ラボ）を作っています。演習ネットワークにはわざと脆弱なサーバー…"
     },
     {
-      "id": "946ae8725eeb",
-      "title": "Claude Code の窓を増やしても、仕事は1つの窓に集まる。役の分け方と CLAUDE.md の書き方",
-      "url": "https://zenn.dev/ciel_lab/articles/5a9291e5cc3128",
-      "publishedAt": "2026-11-07T01:09:44.000Z",
-      "publisher": "Ciel",
-      "summary": "3行まとめ 窓を並べても、役を書いておかないと、頼みは「話が早い窓」に集まる。 役を分けるときは「持つ物」「渡した物」「押す役」を、受け取る窓の決め事に書く。紙に書いた役を伝言で変えると、紙のほうが古いまま残る。 置き場（作業場のフォルダ…"
+      "id": "ef17e3b3afa4",
+      "title": "#gpt-6.1-terraで画像・操作計画・JSONを試した実測メモ：GPT-6.1 Terraの使いどころ",
+      "url": "https://zenn.dev/boluoji/articles/61672b80cdb2be",
+      "publishedAt": "2026-11-07T15:14:27.000Z",
+      "publisher": "rhythm",
+      "summary": "2026年10月26日にOpenAIから発表されたGPT-6.1 Terraは、GPT-6.1系列の中で「速く、低コスト」の位置づけのモデルです。APIでの モデルIDはgpt-6.1-terra。この記事では、公式の説明を確認したうえで…"
     }
   ],
-  "fetchedAt": "2026-11-07T16:57:36.440Z",
+  "fetchedAt": "2026-11-07T20:42:10.828Z",
   "stale": false,
   "error": null
 }
