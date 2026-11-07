@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2611.06976",
       "publishedAt": "2026-11-04T13:33:47.000Z",
       "summary": "Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines…",
-      "score": 12
+      "score": 13
     },
     {
       "id": "06d558a4f540",
@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2611.08237",
       "publishedAt": "2026-11-05T16:18:35.000Z",
       "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended reco…",
-      "score": 7
+      "score": 8
     },
     {
       "id": "2af5e830c92d",
@@ -27,7 +27,31 @@
       "url": "https://huggingface.co/papers/2611.08376",
       "publishedAt": "2026-11-05T17:53:49.000Z",
       "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory infe…",
+      "score": 6
+    },
+    {
+      "id": "fb9e32faa8e7",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "url": "https://huggingface.co/papers/2611.08483",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iterat…",
       "score": 5
+    },
+    {
+      "id": "4a320c1ddd73",
+      "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+      "url": "https://huggingface.co/papers/2611.07298",
+      "publishedAt": "2026-11-05T01:30:28.000Z",
+      "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangl…",
+      "score": 4
+    },
+    {
+      "id": "b29bf7d39a25",
+      "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+      "url": "https://huggingface.co/papers/2611.07613",
+      "publishedAt": "2026-11-05T07:56:01.000Z",
+      "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as…",
+      "score": 4
     },
     {
       "id": "39914d54efea",
@@ -38,28 +62,12 @@
       "score": 3
     },
     {
-      "id": "fb9e32faa8e7",
-      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-      "url": "https://huggingface.co/papers/2611.08483",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iterat…",
-      "score": 3
-    },
-    {
-      "id": "b29bf7d39a25",
-      "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
-      "url": "https://huggingface.co/papers/2611.07613",
-      "publishedAt": "2026-11-05T07:56:01.000Z",
-      "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as…",
-      "score": 3
-    },
-    {
       "id": "f522a0f70872",
       "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
       "url": "https://huggingface.co/papers/2610.37739",
       "publishedAt": "2026-10-27T00:00:00.000Z",
       "summary": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive colle…",
-      "score": 2
+      "score": 3
     },
     {
       "id": "1293ba9b2837",
@@ -67,15 +75,7 @@
       "url": "https://huggingface.co/papers/2609.37820",
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "summary": "When firms respond to new market opportunities, their capacity choices alter the future discounted free cash flows avai…",
-      "score": 2
-    },
-    {
-      "id": "4a320c1ddd73",
-      "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
-      "url": "https://huggingface.co/papers/2611.07298",
-      "publishedAt": "2026-11-05T01:30:28.000Z",
-      "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangl…",
-      "score": 2
+      "score": 3
     },
     {
       "id": "a46beb16d080",
@@ -83,7 +83,7 @@
       "url": "https://huggingface.co/papers/2611.06500",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, lon…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "e0970cfb1c90",
@@ -91,7 +91,7 @@
       "url": "https://huggingface.co/papers/2611.06498",
       "publishedAt": "2026-11-04T13:32:04.000Z",
       "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text …",
-      "score": 1
+      "score": 2
     },
     {
       "id": "c34a744acd58",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-11-07T04:29:13.630Z",
+  "fetchedAt": "2026-11-07T11:16:40.539Z",
   "stale": false,
   "error": null
 }

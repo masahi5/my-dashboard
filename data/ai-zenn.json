@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "97f83410661e",
-      "title": "Difyで、個人情報をLLMに渡さずにチャットボットを作る",
-      "url": "https://zenn.dev/kuronurikun/articles/d9f1d11d0611ef",
-      "publishedAt": "2026-11-06T22:30:38.000Z",
-      "publisher": "TK",
-      "summary": "社内の問い合わせ対応や、顧客からのメールの要約をDifyで作ろうとすると、「お客様の名前や電話番号を、そのままLLMに送っていいのか」で止まることがあります。 この記事では、Difyのチャットフローの中で個人情報を伏せてからLLMに渡し、…"
+      "id": "4a896a67982b",
+      "title": "Google Cloud「Project Chrysalis」解説！1.8秒復旧を実現する自己進化型AIの仕組み",
+      "url": "https://zenn.dev/adopture/articles/0191dbbb65184c",
+      "publishedAt": "2026-11-07T06:35:30.000Z",
+      "publisher": "ggnn編集部｜アダプチュア株式会社",
+      "summary": "大規模なクラウドシステムを運用するSRE（サイト信頼性エンジニア）やクラウドアーキテクトにとって、フラッシュセールや突発的なトラフィック急増による「連鎖障害（カスケード障害）」は悪夢そのものです。 従来の生成AIコパイロットは、ログの要約…"
     },
     {
-      "id": "8fae00cbec09",
-      "title": "「人が編集した感じ」をAIに伝える：好みを言語化して指示に落とすコツ",
-      "url": "https://zenn.dev/shoyomayabot/articles/verbalize-preferences-for-ai",
-      "publishedAt": "2026-11-06T22:09:10.000Z",
-      "publisher": "mayabot",
-      "summary": "AIに何かを作らせて、「なんか違う」と感じたことはないでしょうか。どこが違うのかは、自分でもうまく言えない。でも、違うことだけははっきり分かる。 この記事では、そんな「なんか違う」を言葉にして、AIへの指示に落とすまでの流れを紹介します。…"
+      "id": "34ba17fee0ff",
+      "title": "GPT-6.1 Sol APIの構造化出力でレビューにタグ付けすると、コストはいくらになるか",
+      "url": "https://zenn.dev/everyinfra/articles/gpt-6-1-sol-structured-outputs-review-tagging",
+      "publishedAt": "2026-11-07T06:16:18.000Z",
+      "publisher": "EveryInfra",
+      "summary": "! この記事は EveryInfra ブログ からの転載です（原文が正本です）。 私たちの試算では、GPT-6.1 Solを使うと、1,000件のレビューに1ドル未満でタグを付けられます。前提は、strictモードのJSON Schema…"
     },
     {
-      "id": "4dd135c09442",
-      "title": "Tech Watch 2026-11-07: 検証できる境界",
-      "url": "https://zenn.dev/laiken/articles/20261107-tech-watch",
-      "publishedAt": "2026-11-06T22:05:11.000Z",
-      "publisher": "らいけん",
-      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: エージェントに「ここまでは触っていい」と伝えるとき、自然言語の一文で十分なのだろうか。自分の感覚では、許可の境界は実行環境にも刻まれているべ…"
+      "id": "626d93b2caf7",
+      "title": "CLAUDE.md は削っても戻る。だから「今の字数」を上限にした",
+      "url": "https://zenn.dev/maura/articles/0a3f541be9f42d",
+      "publishedAt": "2026-11-07T04:47:02.000Z",
+      "publisher": "まうら",
+      "summary": "Claude Code に毎日の作業を任せ始めてから3か月あまりで、CLAUDE.md は 960字から 14,851字まで太りました。いちばん太ったのは10月7日です。CLAUDE.md を変えたコミットは、10月末までに68回あり、そ…"
     },
     {
-      "id": "b60a0058e46d",
-      "title": "Babylon.js：AI駆動でつくる Hit&Blow / Numer0n",
-      "url": "https://zenn.dev/fnamuoo/articles/a5ae68d2a8f31c",
-      "publishedAt": "2026-11-06T22:00:05.000Z",
-      "publisher": "fnamu",
-      "summary": "この記事のスナップショット Hit&Blow sample (4倍速) Numer0n sample (4倍速) デモ＆ソース Hit&Blow-playground Numer0n-playground 上記のURLにおいて、ツールバー…"
+      "id": "9e3dc9203c54",
+      "title": "リファクターの判断はAIに任せない ― git履歴から候補を出して、テックリードと答え合わせする",
+      "url": "https://zenn.dev/litalico/articles/84d2427087c27b",
+      "publishedAt": "2026-11-07T04:45:00.000Z",
+      "publisher": "池野",
+      "summary": "LITALICOのアーキテクチャ推進Gの池野です。 アーキテクチャ推進Gは、部全体のアーキテクチャの方針やルールを整備し、各プロダクトチームが担当するプロダクトが常にビジネスの変化に素早く対応できる柔軟で拡張性の高い状態を保てることをミッ…"
     },
     {
-      "id": "c7fe138391bc",
-      "title": "AIと喧嘩しながら挑んだソフトウェアラジオ開発：9千円のLNA、停波していた衛星、そして気象衛星・ISS受信への道",
-      "url": "https://zenn.dev/twsnmp/articles/twnoaa-rtl-sdr-satellite-ai",
-      "publishedAt": "2026-11-06T19:19:19.000Z",
-      "publisher": "twsnmp",
-      "summary": "はじめに この記事は、Zennfes Autumn 2026「物理デバイスを使った開発」コンテストの応募記事です。 普段はオープンソースのネットワーク管理ツール（TWSNMP）を作っている筆者が、数千円のUSBドングル型ソフトウェアラジオ…"
+      "id": "a13031c786b4",
+      "title": "ブランチ保護のない private リポで、Claude Code の main への push を止める守りを「割り切って」作り直した話",
+      "url": "https://zenn.dev/sk8jp/articles/937288f65fcfab",
+      "publishedAt": "2026-11-07T04:27:20.000Z",
+      "publisher": "YAZ",
+      "summary": "はじめに 以前の記事「週末 Solo Engineer が、Claude Code に「仕事の型」を覚えさせた話」で、Claude Code の手元に「二重の安全装置」を置いていると書きました。GitHub のブランチの保護（有料の機能）…"
     },
     {
-      "id": "34fab8a6a90e",
-      "title": "画像内テキストが崩れないプロンプト設計：商品写真・広告向けチェックリスト",
-      "url": "https://zenn.dev/decomytree/articles/781e53405126ee",
-      "publishedAt": "2026-11-06T17:18:54.000Z",
-      "publisher": "Deco My Tree",
-      "summary": "はじめに AI 画像生成でいちばんつまずきやすいのが、画像の中に入れる文字です。ポスターの見出し、パッケージの商品名、UI モックのラベル——どれも「なんとなく文字っぽい形」までは出るのに、いざ拡大すると字形が崩れたり、意図と違う綴りにな…"
+      "id": "abd89d556dbe",
+      "title": "コードを読まずにClaude Codeへ作らせた仕組みを人に渡そうとしたら、止まる所のほとんどはAIが作者のPCに合わせて足した門だった",
+      "url": "https://zenn.dev/kirinukiauto/articles/20ca9307f2d268",
+      "publishedAt": "2026-11-07T04:13:32.000Z",
+      "publisher": "キリヌキ自動化ラボ",
+      "summary": "政治の切り抜き動画づくりを、Claude Code に丸ごと作らせています。私はプログラムを書けないので、コードは読んでいません。4か月で scripts の下は 418 本になりました。 この仕組みを人に渡すことにしました。まず、配る …"
     },
     {
-      "id": "7b2856f328ad",
-      "title": "guillaumemeyer/watermarks-remover 実機検証＆エラー解決ハンズオンガイド",
-      "url": "https://zenn.dev/shotasone/books/oss-watermarks-remover-guide",
-      "publishedAt": "2026-11-06T17:06:23.000Z",
-      "publisher": "sone",
-      "summary": "linux/arm64 実機検証で判明した guillaumemeyer/watermarks-remover の再現手順・エラー解決・Docker構成を完全収録。"
+      "id": "c7fa607b0457",
+      "title": "Live3D Face SwapのAI顔入れ替え機能はどう選ぶ？集合写真1枚と複数の写真で使い分ける",
+      "url": "https://zenn.dev/ellafisherwrite/articles/b87d66c80a6b81",
+      "publishedAt": "2026-11-07T03:22:00.000Z",
+      "publisher": "Ella Fisher",
+      "summary": "手元に写真が何枚あるかだけでは、Live3Dの「Multiple Face Swap」と「Batch Face Swap」のどちらを選ぶべきかは決まりません。3人が写った集合写真1枚と、1人ずつ写った写真3枚は、どちらも顔は3つですが、処…"
     },
     {
-      "id": "b889fd1eefba",
-      "title": "AIが政策を議論したらどうなるか ― マルチエージェント討論とバーチャル議会の設計",
-      "url": "https://zenn.dev/onelifevibe/articles/cd89b587413b8c",
-      "publishedAt": "2026-11-06T17:01:33.000Z",
-      "publisher": "OneLifeVibe",
-      "summary": "はじめに 政策の議論では、ひとつの視点だけでは論点の抜け漏れに気づきにくい。異なる立場や専門性を持つ参加者が賛否を述べ合うことで、論点が整理され、反論や前提の違いが可視化される。 人間だけでなく、AIが政策案の賛否を議論すると、論点の抜け…"
+      "id": "45fee0298b9c",
+      "title": "2026年11月までの論文投稿振り返り",
+      "url": "https://zenn.dev/sugamamasayuki/articles/493363b207645c",
+      "publishedAt": "2026-11-07T02:21:28.000Z",
+      "publisher": "SugamaMasayuki",
+      "summary": "はじめに ここまである程度、論文投稿という挑戦を終えたと判断し、その活動を振り返ってみたい。 なお、私自身は論文の作法に疎いため、論文化にあたってはAIに全面的に頼った。そのため、「論文はある程度の形にはなっている」と考えるが、同時に記述…"
     },
     {
-      "id": "5931a744cda3",
-      "title": "GodotでAIを使ってスプライト、ピクセルアート、タイルを作る方法",
-      "url": "https://zenn.dev/zivaengine/articles/f68112e1c7c433",
-      "publishedAt": "2026-11-06T15:36:46.000Z",
-      "publisher": "Ziva Engine",
-      "summary": "この記事は https://ziva.sh/blogs/godot-ai-sprites の日本語版です（英語の原文はZiva.shが2026年11月4日に公開）。 Godotエディターを離れずに2Dゲームのアートを作るには、Godotの…"
+      "id": "2b6488f3be2b",
+      "title": "Claude Codeの/advisorパターンを実機検証！「単一モデル反復」vs「Advisor設計＋Executor実装」比較",
+      "url": "https://zenn.dev/tappers/articles/ai-labo-e18-advisor-executor-routing",
+      "publishedAt": "2026-11-07T02:18:00.000Z",
+      "publisher": "tappers",
+      "summary": "! 本記事は、SNS（X / Threads）や海外エンジニアコミュニティで提唱されている「AIコーディングエージェントの実践設計パターン」を、完全オフラインの隔離サンドボックスVM上で 同一モデル・同一初期課題（非公開テスト20ケース）…"
     },
     {
-      "id": "730e25c49c82",
-      "title": "画像から3Dプリント用のSTLを作る：リトフェインとの違いと、約8万／約150万ポリの使い分けメモ",
-      "url": "https://zenn.dev/xer97/articles/57f76704aabcef",
-      "publishedAt": "2026-11-06T15:27:46.000Z",
-      "publisher": "xer97",
-      "summary": "「この写真を3Dプリントしたい」には、だいたい2種類あります。写真そのものを光にかざす板にしたいのか、写っている物を裏側まである立体で欲しいのか。 ここで書くのは後者の話です。筆者は 画像からSTL（英語だと image to stl）の…"
+      "id": "8437f29a8d3e",
+      "title": "劣るAIを「環境」で勝たせる ― Museに課金するか迷っている人へ",
+      "url": "https://zenn.dev/bunkeideploy/articles/8cff1a003fab13",
+      "publishedAt": "2026-11-07T01:55:25.000Z",
+      "publisher": "文系のAI実験室",
+      "summary": "結論から書きます。これが数万円かかるサービスなら、私は勧めません。けれど数千円でこれは、はっきり言って異常値です。 「Muse、使えない」という声をよく見ます。半分は正しいと思います。ただ、その「使えなさ」の原因はモデルの頭の良し悪しだけ…"
     },
     {
-      "id": "6b775f1781ad",
-      "title": "生成したスプライトシートを Godot 4 / Unity に入れるときのメモ（5アクション前提）",
-      "url": "https://zenn.dev/xer97/articles/6913c179bb40ff",
-      "publishedAt": "2026-11-06T15:26:17.000Z",
-      "publisher": "xer97",
-      "summary": "Godot 4 系を前提に書いています。Unity はバージョンによってメニュー名が少し違うことがあります。 筆者は スプライトジェネレーター（英語だと sprite generator。全身のキャラ画像1枚から Idle / Walk …"
+      "id": "c6e106742599",
+      "title": "Claude Code利用者のためのclaude-mem実践ガイド｜セッションを閉じても文脈を忘れない長期記憶を6つのhookで自動記録する",
+      "url": "https://zenn.dev/ikahan/books/claude-mem-guide",
+      "publishedAt": "2026-11-07T01:40:21.000Z",
+      "publisher": "0",
+      "summary": "Claude Codeのセッションを閉じるたび文脈が消える問題を、行動を自動記録して次回に差し戻すプラグイン「claude-mem」で解く日本語導入ガイド。隔離環境でinstall（終了コード0）・doctor必須チェック合格・worke…"
     },
     {
-      "id": "9d2cc140130a",
-      "title": "AIによる政策討論は、トレードオフをどう見える化できるか",
-      "url": "https://zenn.dev/onelifevibe/articles/499672aae38832",
-      "publishedAt": "2026-11-06T15:23:07.000Z",
-      "publisher": "OneLifeVibe",
-      "summary": "政策をめぐる議論では、ひとつの施策が複数の価値と衝突することが多い。たとえば財政負担とサービスの質、短期の効果と長期の持続可能性、効率と公平性である。こうした衝突は、賛否だけで整理すると見えにくくなる。そこで注目されているのが、異なる立場…"
+      "id": "946ae8725eeb",
+      "title": "Claude Code の窓を増やしても、仕事は1つの窓に集まる。役の分け方と CLAUDE.md の書き方",
+      "url": "https://zenn.dev/ciel_lab/articles/5a9291e5cc3128",
+      "publishedAt": "2026-11-07T01:09:44.000Z",
+      "publisher": "Ciel",
+      "summary": "3行まとめ 窓を並べても、役を書いておかないと、頼みは「話が早い窓」に集まる。 役を分けるときは「持つ物」「渡した物」「押す役」を、受け取る窓の決め事に書く。紙に書いた役を伝言で変えると、紙のほうが古いまま残る。 置き場（作業場のフォルダ…"
     }
   ],
-  "fetchedAt": "2026-11-07T04:29:13.815Z",
+  "fetchedAt": "2026-11-07T11:16:40.658Z",
   "stale": false,
   "error": null
 }
