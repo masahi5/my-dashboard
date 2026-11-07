@@ -2,6 +2,15 @@
   "handle": "sama",
   "tweets": [
     {
+      "id": "2118429823244935257",
+      "url": "https://x.com/fouadmatin/status/2118429823244935257",
+      "text": "Today’s GPT-6 Cyber release is a meaningful step for defenders: stronger vulnerability research and better alignment. We’ve already been using GPT-6 Cyber alongside GPT-6 Astra with Daybreak to harden our own systems, finding weaknesses, validating their impact, and developing fixes.\n\nEven after years @OpenAI, model capabilities continue to surprise me. One small example came from testing a prerelease version of GPT-6 Astra earlier this summer. We were examining tools used across our research infrastructure and one of our research infra leads, Michael Dalton, was looking into some low risk areas like a math task grader that used SymPy, a mathematics library, to check answers.\n\nIn an offline test, the submitted answer used characters that looked like ordinary letters to get past the grader’s checks. It caused the grader to run a shell command that printed “4242”, while still returning the expected result, 1/2. The grader marked the answer correct. A valid math answer had become a way to run code inside the grader - diagram below.\n\nThis is the kind of vulnerability that can be very hard for a human to find, even with a fuzzer. It takes connecting how input validation and evaluation interact, constructing an input that passes the checks but triggers unintended behavior, and recognizing the failure even when the final answer is correct. Models can reason across those pieces and help uncover classes of vulnerabilities that are difficult to spot when reviewing components in isolation.\n\nThat’s why it’s important for more defenders to use models with Daybreak to find and fix vulnerabilities in their own systems. Whether it’s a potentially internet-melting bug like PHP2Shell or a subtle but important issue like this grader bug, finding it before an attacker does gives defenders time to act.\n\nOur goal is to dramatically expand Daybreak, bringing advanced security research to organizations of every size, independent researchers, and open-source maintainers.\n\nWe’re also expanding Daybreak Blue alpha access for GPT‑6 Astra to more organizations and individual security researchers - let us know if you’re interested:\ndocs.google.com/forms/d/e/1F…",
+      "publishedAt": "2026-11-05T19:46:43.000Z",
+      "authorHandle": "fouadmatin",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2117794005165748448",
       "url": "https://x.com/sama/status/2117794005165748448",
       "text": "People should always be in control of the future.\n\nOpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to reward in humans”.\n\nPeople should not cede control of the future to superintelligence, and that requirement should ultimately constrain AI progress.",
@@ -81,18 +90,9 @@
       "authorHandle": "sama",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2107924408597950702",
-      "url": "https://x.com/sama/status/2107924408597950702",
-      "text": "ChatGPT can now generate a custom UI for you!",
-      "publishedAt": "2026-10-07T20:01:57.000Z",
-      "authorHandle": "sama",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-11-04T22:55:11.502Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 403 Forbidden / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-11-07T23:59:30.452Z",
+  "stale": false,
+  "error": null
 }
