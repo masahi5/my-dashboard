@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2611.08237",
       "publishedAt": "2026-11-05T16:18:35.000Z",
       "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended reco…",
-      "score": 5
+      "score": 7
     },
     {
       "id": "2af5e830c92d",
@@ -27,7 +27,15 @@
       "url": "https://huggingface.co/papers/2611.08376",
       "publishedAt": "2026-11-05T17:53:49.000Z",
       "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory infe…",
-      "score": 4
+      "score": 5
+    },
+    {
+      "id": "39914d54efea",
+      "title": "StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models",
+      "url": "https://huggingface.co/papers/2611.04386",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "A deployable text-to-image diffusion model must hold several capabilities at once, such as instruction following, text …",
+      "score": 3
     },
     {
       "id": "fb9e32faa8e7",
@@ -38,12 +46,12 @@
       "score": 3
     },
     {
-      "id": "39914d54efea",
-      "title": "StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models",
-      "url": "https://huggingface.co/papers/2611.04386",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "A deployable text-to-image diffusion model must hold several capabilities at once, such as instruction following, text …",
-      "score": 2
+      "id": "b29bf7d39a25",
+      "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+      "url": "https://huggingface.co/papers/2611.07613",
+      "publishedAt": "2026-11-05T07:56:01.000Z",
+      "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as…",
+      "score": 3
     },
     {
       "id": "f522a0f70872",
@@ -70,27 +78,11 @@
       "score": 2
     },
     {
-      "id": "b29bf7d39a25",
-      "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
-      "url": "https://huggingface.co/papers/2611.07613",
-      "publishedAt": "2026-11-05T07:56:01.000Z",
-      "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as…",
-      "score": 2
-    },
-    {
-      "id": "c34a744acd58",
-      "title": "Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition",
-      "url": "https://huggingface.co/papers/2610.41789",
-      "publishedAt": "2026-10-30T14:21:43.000Z",
-      "summary": "Multi-head attention in Vision Transformers (ViTs) allows independent attention patterns across heads, but without expl…",
-      "score": 1
-    },
-    {
-      "id": "b64422346400",
-      "title": "SynthFaces: Balanced Large Scale Human Dataset",
-      "url": "https://huggingface.co/papers/2610.40119",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "The pursuit of fair and equitable AI in human-centric tasks is critically hindered by the inherent biases and privacy r…",
+      "id": "a46beb16d080",
+      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+      "url": "https://huggingface.co/papers/2611.06500",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, lon…",
       "score": 1
     },
     {
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2611.06498",
       "publishedAt": "2026-11-04T13:32:04.000Z",
       "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text …",
-      "score": 0
+      "score": 1
+    },
+    {
+      "id": "c34a744acd58",
+      "title": "Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition",
+      "url": "https://huggingface.co/papers/2610.41789",
+      "publishedAt": "2026-10-30T14:21:43.000Z",
+      "summary": "Multi-head attention in Vision Transformers (ViTs) allows independent attention patterns across heads, but without expl…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-06T23:50:20.610Z",
+  "fetchedAt": "2026-11-07T04:29:13.630Z",
   "stale": false,
   "error": null
 }
