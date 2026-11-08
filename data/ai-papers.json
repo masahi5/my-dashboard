@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2611.06976",
       "publishedAt": "2026-11-04T13:33:47.000Z",
       "summary": "Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines…",
-      "score": 14
+      "score": 15
     },
     {
       "id": "06d558a4f540",
@@ -19,6 +19,14 @@
       "url": "https://huggingface.co/papers/2611.08237",
       "publishedAt": "2026-11-05T16:18:35.000Z",
       "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended reco…",
+      "score": 10
+    },
+    {
+      "id": "2af5e830c92d",
+      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+      "url": "https://huggingface.co/papers/2611.08376",
+      "publishedAt": "2026-11-05T17:53:49.000Z",
+      "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory infe…",
       "score": 9
     },
     {
@@ -28,14 +36,6 @@
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iterat…",
       "score": 8
-    },
-    {
-      "id": "2af5e830c92d",
-      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
-      "url": "https://huggingface.co/papers/2611.08376",
-      "publishedAt": "2026-11-05T17:53:49.000Z",
-      "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory infe…",
-      "score": 7
     },
     {
       "id": "4a320c1ddd73",
@@ -52,6 +52,22 @@
       "publishedAt": "2026-11-05T07:56:01.000Z",
       "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as…",
       "score": 5
+    },
+    {
+      "id": "a46beb16d080",
+      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+      "url": "https://huggingface.co/papers/2611.06500",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, lon…",
+      "score": 4
+    },
+    {
+      "id": "e0970cfb1c90",
+      "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+      "url": "https://huggingface.co/papers/2611.06498",
+      "publishedAt": "2026-11-04T13:32:04.000Z",
+      "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text …",
+      "score": 4
     },
     {
       "id": "39914d54efea",
@@ -78,22 +94,6 @@
       "score": 3
     },
     {
-      "id": "a46beb16d080",
-      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
-      "url": "https://huggingface.co/papers/2611.06500",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, lon…",
-      "score": 2
-    },
-    {
-      "id": "e0970cfb1c90",
-      "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
-      "url": "https://huggingface.co/papers/2611.06498",
-      "publishedAt": "2026-11-04T13:32:04.000Z",
-      "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text …",
-      "score": 2
-    },
-    {
       "id": "c34a744acd58",
       "title": "Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition",
       "url": "https://huggingface.co/papers/2610.41789",
@@ -102,7 +102,7 @@
       "score": 2
     }
   ],
-  "fetchedAt": "2026-11-07T23:59:10.567Z",
+  "fetchedAt": "2026-11-08T05:28:11.251Z",
   "stale": false,
   "error": null
 }
