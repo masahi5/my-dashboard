@@ -14,20 +14,20 @@
       "score": 15
     },
     {
-      "id": "06d558a4f540",
-      "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
-      "url": "https://huggingface.co/papers/2611.08237",
-      "publishedAt": "2026-11-05T16:18:35.000Z",
-      "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended reco…",
-      "score": 10
-    },
-    {
       "id": "2af5e830c92d",
       "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
       "url": "https://huggingface.co/papers/2611.08376",
       "publishedAt": "2026-11-05T17:53:49.000Z",
       "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory infe…",
-      "score": 9
+      "score": 12
+    },
+    {
+      "id": "06d558a4f540",
+      "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+      "url": "https://huggingface.co/papers/2611.08237",
+      "publishedAt": "2026-11-05T16:18:35.000Z",
+      "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended reco…",
+      "score": 11
     },
     {
       "id": "fb9e32faa8e7",
@@ -35,7 +35,15 @@
       "url": "https://huggingface.co/papers/2611.08483",
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iterat…",
-      "score": 8
+      "score": 9
+    },
+    {
+      "id": "f522a0f70872",
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "url": "https://huggingface.co/papers/2610.37739",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "summary": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive colle…",
+      "score": 6
     },
     {
       "id": "4a320c1ddd73",
@@ -46,20 +54,20 @@
       "score": 6
     },
     {
+      "id": "a46beb16d080",
+      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+      "url": "https://huggingface.co/papers/2611.06500",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, lon…",
+      "score": 5
+    },
+    {
       "id": "b29bf7d39a25",
       "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
       "url": "https://huggingface.co/papers/2611.07613",
       "publishedAt": "2026-11-05T07:56:01.000Z",
       "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as…",
       "score": 5
-    },
-    {
-      "id": "a46beb16d080",
-      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
-      "url": "https://huggingface.co/papers/2611.06500",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, lon…",
-      "score": 4
     },
     {
       "id": "e0970cfb1c90",
@@ -75,14 +83,6 @@
       "url": "https://huggingface.co/papers/2611.04386",
       "publishedAt": "2026-11-03T00:00:00.000Z",
       "summary": "A deployable text-to-image diffusion model must hold several capabilities at once, such as instruction following, text …",
-      "score": 4
-    },
-    {
-      "id": "f522a0f70872",
-      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "url": "https://huggingface.co/papers/2610.37739",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive colle…",
       "score": 4
     },
     {
@@ -102,7 +102,7 @@
       "score": 2
     }
   ],
-  "fetchedAt": "2026-11-08T05:28:11.251Z",
+  "fetchedAt": "2026-11-08T12:06:27.395Z",
   "stale": false,
   "error": null
 }
