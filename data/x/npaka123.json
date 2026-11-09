@@ -2,6 +2,51 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2119580267799265676",
+      "url": "https://x.com/hyuki/status/2119580267799265676",
+      "text": "これ観て！　観ているうちに感動で泣けてきた。\n「プログラムと数学で音楽を作ること」\nそれを2分で伝える動画だ。",
+      "publishedAt": "2026-11-08T23:58:10.000Z",
+      "authorHandle": "hyuki",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2119566929186942990",
+      "url": "https://x.com/itm_aiplus/status/2119566929186942990",
+      "text": "ローカルLLM利用のクリニックを受診してみた　PCマニアの院長が自力で構築、その導入効果は？\nitmedia.co.jp/aiplus/article…",
+      "publishedAt": "2026-11-08T23:05:10.000Z",
+      "authorHandle": "itm_aiplus",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2119559194605171021",
+      "url": "https://x.com/MLBear2/status/2119559194605171021",
+      "text": "Nvidia取締役会がHuang CEO巡り独立調査、Anthropicは発電機に$3.4B\nNvidiaのJensen Huang",
+      "publishedAt": "2026-11-08T22:34:26.000Z",
+      "authorHandle": "MLBear2",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2119555760267157588",
+      "url": "https://x.com/GOROman/status/2119555760267157588",
+      "text": "10年以内に使い切らねば",
+      "publishedAt": "2026-11-08T22:20:47.000Z",
+      "authorHandle": "GOROman",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2119548272859808027",
+      "url": "https://x.com/sharp_maker/status/2119548272859808027",
+      "text": "【自由に空を飛ぶ！ロケハンv3】\n時速400kmで世界中を飛び回れる機能を開発しました！\n\n日本、アメリカ、フランス、などいろんな国の空を、自由に飛び回れます！！東京から大阪まで行くことも！？\n\n更に、タイ・インド・スペイン・メキシコ・イギリスの5カ国用に専用の建物を100種ほど追加しました。\n\n普段見ている景色の上を飛ぶのは圧巻ですよ。\n是非遊んでみてください！\ntools.oyasumi-gamedev.com/ro…",
+      "publishedAt": "2026-11-08T21:51:02.000Z",
+      "authorHandle": "sharp_maker",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2119532746255270193",
       "url": "https://x.com/npaka123/status/2119532746255270193",
       "text": "RT @umiyuki_ai: 最近Strataに夢中になってたけど知らんうちにLlama.cppもかなりStrataに寄せてきてるらしい",
@@ -16,15 +61,6 @@
       "text": "The P in JEPA stands for predictive.\nThe main distinction is not between JEA and JEPA, but between Joint Embedding (predictive or not) and generative architectures.\nWhether a predictor is necessary depends on the task.\n\nGiven observations x and y (y being available only during training), a generative architectures predicts y from x. The loss is the divergence between y and its prediction:\nL = divergence(y, pred(enc(x)) )\n\nA JEA encodes y as well and minimizes the divergence between the representations of x and y, while preventing collapse:\nL = divergence( enc(y), enc(x) ) + R( enc(y), enc(x) )\nWhere R is the anti-collapse regularizer, which may be computed over a batch of samples.\nJEA are used when the prediction has no particular direction, i.e. when x and y are different views of the same scene. The idea for JEA is very old. Becker and Hinton proposed a simple model in 1989 where the anticollapse was based on information maximization. Schmidhuber had a version in 1992 based on redundancy minimization. At NIPS 1993, I proposed Siamese nets, which was a contrastive method to train JEA. Such contrastive methods gained popu.arity after Google's SimCLR paper in 2020. In 2021, Stéphane Deny in my group proposed the Barlow Twins redundancy reduction regularizer, which seemed to work at scale. This was shortly followed by VICReg by Adrien Bardes, Jean Ponce, and me, and last year by SIGReg by Randall Balestriero and me.\nDINO is a JEA method that comes from a long string of papers from Piotr Bojanowski's group at FAIR-Paris, starting with Noise as Targets (2017), Deep Clustering (2018-2020), and DINO v1-v3 which are contrastive between clusters, not samples.\n\nJEPA adds a predictor, which is useful when the prediction is non-symetric. For example, when x is a degraded/corrupted version of y, or when x is a present observation and y a future observation (temporal prediction). The loss is:\nL = divergence( enc(y), pred(enc(x)) ) + R( enc(y), enc(x) )\n\nAll of these models can be augmented by an action variable a, fed to the predictor, encoding an action, intervention, or transformation to produce y from x.\nThis turns the system into a \"world model\". In a JEPA, the loss becomes\nL = divergence( enc(y), pred(enc(x), a) ) + R( enc(y), enc(x) )",
       "publishedAt": "2026-11-08T20:10:02.000Z",
       "authorHandle": "ylecun",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2119521359185478140",
-      "url": "https://x.com/OpenAIDevs/status/2119521359185478140",
-      "text": "Tomorrow.",
-      "publishedAt": "2026-11-08T20:04:05.000Z",
-      "authorHandle": "OpenAIDevs",
       "likeCount": 0,
       "repost": true
     },
@@ -54,45 +90,9 @@
       "authorHandle": "DrJimFan",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2119442709408870738",
-      "url": "https://x.com/AIcia_Solid/status/2119442709408870738",
-      "text": "めちゃ勉強になりました！\n\nMacのセキュリティの仕組み - 標準機能と安全に使うための対策｜npaka @npaka123 note.com/npaka/n/nae09bd9ce3…",
-      "publishedAt": "2026-11-08T14:51:33.000Z",
-      "authorHandle": "AIcia_Solid",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2119442667599958299",
-      "url": "https://x.com/nurselog_/status/2119442667599958299",
-      "text": "すごく優しくわかりやすく書いてくださっている。医療者も理解しやすいです。",
-      "publishedAt": "2026-11-08T14:51:23.000Z",
-      "authorHandle": "nurselog_",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2119409656129069242",
-      "url": "https://x.com/IttaFunahashi/status/2119409656129069242",
-      "text": "#未踏ジュニア お疲れ様でした！\n\n個人的にはJenga Builderがツボだった\n確かにエンタメができている。",
-      "publishedAt": "2026-11-08T12:40:13.000Z",
-      "authorHandle": "IttaFunahashi",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2119409032368968128",
-      "url": "https://x.com/npaka123/status/2119409032368968128",
-      "text": "Ubuntuのセキュリティの仕組み - 標準機能と安全に使うための対策｜npaka @npaka123 note.com/npaka/n/nb718fa9cb3…",
-      "publishedAt": "2026-11-08T12:37:44.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-11-08T21:39:38.892Z",
+  "fetchedAt": "2026-11-09T01:14:35.245Z",
   "stale": false,
   "error": null
 }
