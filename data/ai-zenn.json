@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3e8cf6247532",
-      "title": "Herdr入門 ― ターミナルでAIエージェントの群れを操る",
-      "url": "https://zenn.dev/mar_kun/books/herdr-practical-guide-jp",
-      "publishedAt": "2026-11-09T05:35:05.000Z",
-      "publisher": "mar-kun",
-      "summary": "ターミナルで動くエージェントマルチプレクサ「Herdr」で、Claude CodeやCodexなどのAIコーディングエージェントを複数並列に回すための実践ガイド。状態（working / blocked / done / idle / u…"
+      "id": "3417eb4ef488",
+      "title": "常時稼働のAI秘書を自宅のノートPCで5か月動かして分かったこと【OpenAI dotsと比べて】",
+      "url": "https://zenn.dev/hifn/articles/home-server-ai-secretary-dot",
+      "publishedAt": "2026-11-09T11:00:05.000Z",
+      "publisher": "hi-fn",
+      "summary": "はじめに 2026年9月29日，OpenAI が常時稼働のエージェント「dots」を発表しました． 自分も同じ発想の AI 秘書「Dot」を，蓋を閉じた中古のノートPC（NEC VersaPro）で5か月ほど動かしています．この記事は「ど…"
     },
     {
-      "id": "ef50c4d665c3",
-      "title": "INFORMS Annual Meeting 2026 参加レポート：AI・量子・GPUで変わる数理最適化の最前線",
-      "url": "https://zenn.dev/quanmatic/articles/dee502df541429",
-      "publishedAt": "2026-11-09T05:26:09.000Z",
-      "publisher": "Hosoda",
-      "summary": "Quanmaticの数理最適化の伝道師（自称）細田です。 11月1日から、アメリカ・サンフランシスコで開催された INFORMS Annual Meeting 2026 に参加しました。本記事では、3日間の聴講を通じて見えてきた数理最適化…"
+      "id": "4465798e9cbb",
+      "title": "【実践編】音声つき動画を生成できるMiniMax H3を、公式APIの半額以下で動かす",
+      "url": "https://zenn.dev/fkky/articles/fe03f88a6ac650",
+      "publishedAt": "2026-11-09T10:55:07.000Z",
+      "publisher": "ふっきー",
+      "summary": "概要 こんにちは、ふきです！ この記事では、2026年8月にオープンウェイト公開された音声つき動画生成モデル MiniMax H3 を、Runpod Serverless 上で自分のAPIとして動かす方法を紹介します。 先に結論を書いてお…"
     },
     {
-      "id": "46969a6e7d91",
-      "title": "Built with Claude: Japan 2026 に出場した件",
-      "url": "https://zenn.dev/genf740/articles/built-with-claude-japan-2026-tsugumi",
-      "publishedAt": "2026-11-09T05:14:36.000Z",
-      "publisher": "gen740",
-      "summary": "Built with Claude: Japan 2026 に出場しました。 Claude のハッカソンというか、ハッカソン自体、プログラミングを始めてから初めての出場でした。実を言うと、私はあんまりハッカソンに興味がない人で。ソフトウェ…"
+      "id": "4404365b2c09",
+      "title": "けけの毎日知識ノート",
+      "url": "https://zenn.dev/kekem/books/today-til-notes",
+      "publishedAt": "2026-11-09T10:48:20.000Z",
+      "publisher": "けけ",
+      "summary": "エンジニアリングな知識を毎日少しずつまとめていくノート"
     },
     {
-      "id": "ca104e9c8afb",
-      "title": "「何から始める？」を減らす。AIを使った朝の制作ルーティン",
-      "url": "https://zenn.dev/aqiu/articles/1aec0324697503",
-      "publishedAt": "2026-11-09T05:00:05.000Z",
-      "publisher": "aqiu",
-      "summary": "朝、制作ソフトを開いたものの、昨日の続きを思い出すだけで時間が過ぎる。音色を探すのか、コードを直すのか、それとも全体を聴き返すのか。短い制作時間では、作業を選ぶこと自体が負担になる。 そこで考えたいのが、AIを使う場所と、自分で判断する場…"
+      "id": "6aff468c2d03",
+      "title": "判断特化モデル JEV1.14 を分類パイプラインに組み込むには？設計・検証の実例",
+      "url": "https://zenn.dev/boluoji/articles/2ca5883f7956bd",
+      "publishedAt": "2026-11-09T10:32:20.000Z",
+      "publisher": "rhythm",
+      "summary": "この記事で扱うこと 問い合わせの振り分けや、検索で得た文書の要否判定を、自社のパイプラインに組み込みたい場合の設計手順をまとめます。対象は TypeSafe の決定モデル JEV 1.14 です。モデルの一般的な紹介は別の記事に譲り、ここ…"
     },
     {
-      "id": "0e982bf04662",
-      "title": "RAGとは何なのか？ LLMに社内データを活用させる仕組み",
-      "url": "https://zenn.dev/tessei/articles/7f694394093939",
-      "publishedAt": "2026-11-09T04:47:47.000Z",
-      "publisher": "tessei",
-      "summary": "RAGとは何なのか？ LLMに社内データを活用させる仕組み ChatGPTに社内のマニュアルについて質問したら、正確に答えてくれるでしょうか。 例えば、社内独自の経費精算ルールについて質問したとします。 「経費精算の申請期限は毎月何日です…"
+      "id": "491ada2b57f5",
+      "title": "AIエージェントの途中放棄（Goal Drift）を防ぐ！「チャット内反復」vs「動的スクリプト生成（Code-Mode）」実機比較",
+      "url": "https://zenn.dev/tappers/articles/ai-labo-e07-code-mode-workflows",
+      "publishedAt": "2026-11-09T10:10:24.000Z",
+      "publisher": "tappers",
+      "summary": "! 本記事は、SNS（X / Threads）や海外エンジニアコミュニティで提唱されている「AIコーディングエージェントの実践設計パターン」を、完全オフラインの隔離サンドボックスVM上で 同一モデル・同一初期課題（非公開テスト20ケース）…"
     },
     {
-      "id": "c94cc7a41b3b",
-      "title": "無人で回す Claude Code の Bash を、settings.json の permissions でコマンドの形ごとに絞る",
-      "url": "https://zenn.dev/tasukina/articles/unattended-claude-code-bash-permissions",
-      "publishedAt": "2026-11-09T04:10:40.000Z",
-      "publisher": "タスキーナ",
-      "summary": "! この記事は Claude Code が会社の記録をもとに書いた。 Claude Code を人の見ていない時間に定期的に起動すると、許可を聞かれても答える人がいない。 聞かれずに済むよう全部を許せば、外へ出る操作も、作業を消す操作も通…"
+      "id": "9e1365a1e1e2",
+      "title": "引退が近いベテランの考え方を、AIエージェントに残したい ― 小さな会社の経験知の残し方（計画編）",
+      "url": "https://zenn.dev/aigakari_jp/articles/bf3ea8f9b9ce0d",
+      "publishedAt": "2026-11-09T10:00:05.000Z",
+      "publisher": "ちいさな会社のAI係",
+      "summary": "はじめに うちのような小さな会社では、年齢のバランスがかなり偏っています。40代・50代が薄くて、60代のベテランがもうすぐ引退を迎えます。 ベテランの頭の中には、手順書には書かれていない判断がたくさんあります。この判断を、どうやって会社…"
     },
     {
-      "id": "af815d575757",
-      "title": "本当にドライなリードアカペラを取り出す——MusiCraft Acapella Extractor",
-      "url": "https://zenn.dev/musicraft/articles/8a4aa243362622",
-      "publishedAt": "2026-11-09T04:09:46.000Z",
-      "publisher": "Ne0s0u1",
-      "summary": "私たちがMusiCraft Acapella Extractorを開発した理由は、いわゆる「ボーカル抽出」の多くが実際には届けていない結果——フルミックスの曲から取り出した、本当にドライなリードアカペラ——を手に入れたかったからです。伴奏…"
+      "id": "1f7c1a9aaf29",
+      "title": "LLMの出力を安定させる方法：メタデータ観測とJSON Schemaによる拘束",
+      "url": "https://zenn.dev/izumi_ren/articles/fb3555c87bc9d2",
+      "publishedAt": "2026-11-09T09:39:52.000Z",
+      "publisher": "iiiizzzz",
+      "summary": "はじめに 「同じプロンプトを投げているのに、欲しい情報が抜けたり、出力の形式が崩れたり、判断を外したりする……」 LLMをプログラムに組み込んでシステムを作ろうとしたとき、誰もが最初にぶつかるのがこの「挙動が安定しない」という壁ですよね。…"
     },
     {
-      "id": "37fd870fb504",
-      "title": "ゼロショットで歌声を変える——MusiCraft AI Song Voice Changerを開発しました",
-      "url": "https://zenn.dev/musicraft/articles/addcb83a363b17",
-      "publishedAt": "2026-11-09T04:07:13.000Z",
-      "publisher": "Ne0s0u1",
-      "summary": "私たちがMusiCraft AI Song Voice Changerを開発する際、出発点にしたのは、「別の歌声を試すために、まずその声のモデルを学習させる必要はないはずだ」という考えでした。 私たちのゼロショット歌声変換は、楽曲と短い参…"
+      "id": "3c65b7368c15",
+      "title": "Mistral AI学生プランをDeepSeek Harnessで使う：契約・API設定・学習オプトアウト",
+      "url": "https://zenn.dev/sora_lnv/articles/mistral-student-plan-full-guide",
+      "publishedAt": "2026-11-09T09:31:12.000Z",
+      "publisher": "SORA",
+      "summary": "Mistral AIの学生向けプランについて、アカウント作成、契約、DeepSeek HarnessからのAPI利用、学習への利用をオフにする設定までをまとめました。申し込みから設定までの画面を掲載したフル版です。 コーディング環境の設定…"
     },
     {
-      "id": "675d78153dba",
-      "title": "Notionの「メモリ」機能をやさしく解説 〜AIに横断的に自分を覚えさせられるの？〜",
-      "url": "https://zenn.dev/yamitake/articles/notion-ai-memory",
-      "publishedAt": "2026-11-09T03:53:44.000Z",
-      "publisher": "JJ yamitake",
-      "summary": "はじめに NotionがAIの「メモリ（Memory）」機能を打ち出してから、こんな疑問を持った人は多いのではないでしょうか。 「Notionにメモリを渡せば、AIに横断的に自分を認識させられるの？」 「毎回『私はRailsエンジニアで〜…"
+      "id": "cad49d04dd6e",
+      "title": "GPUジョブが終わったあと、何が残って何が消えるのか",
+      "url": "https://zenn.dev/cloudgpu/articles/2db62d2378379d",
+      "publishedAt": "2026-11-09T09:20:27.000Z",
+      "publisher": "CloudGPU",
+      "summary": "CloudGPU の開発に関わっている者です。最近 CloudGPU に「Workspace」（プロジェクトファイルを GPU とは独立に保存する機能）が入り、「じゃあ GPU を消しても全部残るの？」と聞かれることが増えました。答えは「…"
     },
     {
-      "id": "fc9312ccfd96",
-      "title": "AIによるハーネスの自己改善で気を付けるべきこと",
-      "url": "https://zenn.dev/headwaters/articles/25be30393f0be9",
-      "publishedAt": "2026-11-09T03:49:40.000Z",
-      "publisher": "Keita Sakashita",
-      "summary": "ハーネスはAIに改善させ続ければ最強になりそう！ そう思ったことはないでしょうか？（ありますよね？） 私はこれを誤ったやり方で行ったことにより、コンテキストが肥大し続け、ハーネスが破綻しました。 そんな私が経験した失敗と、それをどのように…"
+      "id": "a4f0c9c1c370",
+      "title": "Claude Code の Laravel スキル8本を SKILL.md で読み比べた：規約は1本、テストと検証は別枠で",
+      "url": "https://zenn.dev/skillselion/articles/40f53b40f59eef",
+      "publishedAt": "2026-11-09T09:12:37.000Z",
+      "publisher": "Skillselion",
+      "summary": "! 要点 Laravel 用の Claude Code スキルは、規約系・テスト系・検証/セキュリティ系の3つに分けて選ぶと、ルールどうしの衝突を避けやすくなります。 規約系は1本だけにします。公式の laravel-best-pract…"
     },
     {
-      "id": "56994c06383e",
-      "title": "AIが書いた記事・本の事実確認は、主張を3種類に分けてやる。私が断定しすぎた2つの記述と、直した手順(Claude Code)",
-      "url": "https://zenn.dev/mugen_web/articles/ai-draft-fact-check-three-kinds",
-      "publishedAt": "2026-11-09T03:18:37.000Z",
-      "publisher": "MUGEN WEB",
-      "summary": "Claude Codeに手伝ってもらって、Zennの記事や本、Kindle本を出しています。Zennは、AIの利用を認めたうえで、公開前に著者自身が内容の正確さを確かめることを求めています(Zennのコンテンツ方針)。 その方針に沿って見…"
+      "id": "1bdf52884567",
+      "title": "Geminiに「Customize」ハブが新設！Skillsと外部アプリ連携の一元管理とガバナンス",
+      "url": "https://zenn.dev/adopture/articles/10ee6d2386f043",
+      "publishedAt": "2026-11-09T09:11:40.000Z",
+      "publisher": "ggnn編集部｜アダプチュア株式会社",
+      "summary": "Google Workspaceおよび個人向けGoogleアカウントで提供されているGeminiにおいて、プロンプトのカスタム指示や外部サービス連携を一元管理する統合ハブ「Customize（カスタマイズ）」が導入されました。 本記事では…"
     },
     {
-      "id": "166294bac97b",
-      "title": "LLM アプリケーションのプロンプトをどこで管理するか",
-      "url": "https://zenn.dev/painter/articles/663816c3195cec",
-      "publishedAt": "2026-11-09T03:11:23.000Z",
-      "publisher": "Keita Ichihashi",
-      "summary": "はじめに LLM アプリケーションを本番運用するときは、プロンプトをコードと一緒にリポジトリで管理するか、Langfuse などのプロンプト管理ツールで管理して実行時に取得するかを決める必要があります。 Langfuse は、エンジニアを…"
+      "id": "3ed98fbe97bd",
+      "title": "AIにスマホのブラウザを「運転」させる仕組みを自作した話",
+      "url": "https://zenn.dev/tasplay796/articles/4497013b333702",
+      "publishedAt": "2026-11-09T09:10:34.000Z",
+      "publisher": "tasplay796",
+      "summary": "「ブラウザでAIを使う」ではなく「AIがブラウザを使う」 AIチャットをブラウザで開いて使う。それはもう普通の光景だ。 でも今回やったのは、その逆である。 スマホのブラウザ自体を、AIに操作させる。 タブを開くのも、ページを読むのも、ボタ…"
     }
   ],
-  "fetchedAt": "2026-11-09T08:00:44.074Z",
+  "fetchedAt": "2026-11-09T18:40:36.826Z",
   "stale": false,
   "error": null
 }

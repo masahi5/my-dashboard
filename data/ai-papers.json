@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "6e73bdfbe5d2",
-      "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
-      "url": "https://huggingface.co/papers/2611.08264",
-      "publishedAt": "2026-11-05T16:37:29.000Z",
-      "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a ra…",
-      "score": 42
+      "id": "909283f96d0b",
+      "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
+      "url": "https://huggingface.co/papers/2611.07025",
+      "publishedAt": "2026-11-04T19:00:06.000Z",
+      "summary": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batc…",
+      "score": 29
     },
     {
-      "id": "8be554c5b9f8",
-      "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
-      "url": "https://huggingface.co/papers/2611.06856",
-      "publishedAt": "2026-11-04T18:11:56.000Z",
-      "summary": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context mult…",
-      "score": 20
+      "id": "e9dff0ffec50",
+      "title": "Fast and Exact Relative-Position Attention via Structure-Aware Kernels",
+      "url": "https://huggingface.co/papers/2611.01182",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "summary": "Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, …",
+      "score": 17
     },
     {
-      "id": "482734f8ffd3",
-      "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
-      "url": "https://huggingface.co/papers/2611.06748",
-      "publishedAt": "2026-11-04T16:26:45.000Z",
-      "summary": "Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering …",
-      "score": 15
+      "id": "a1b65623daa7",
+      "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+      "url": "https://huggingface.co/papers/2611.08175",
+      "publishedAt": "2026-11-05T15:31:15.000Z",
+      "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric …",
+      "score": 11
     },
     {
-      "id": "ab10040bc936",
-      "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
-      "url": "https://huggingface.co/papers/2611.03953",
-      "publishedAt": "2026-11-02T20:53:15.000Z",
-      "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, wh…",
-      "score": 9
-    },
-    {
-      "id": "fc600a977e54",
-      "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
-      "url": "https://huggingface.co/papers/2611.09894",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency…",
-      "score": 8
-    },
-    {
-      "id": "c464ea708edb",
-      "title": "Frontier3DBench: Benchmarking Coding Agents for 3D Creation across Objects, Scenes, and Interactive Open Worlds",
-      "url": "https://huggingface.co/papers/2611.09017",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Coding agents combine visual understanding with program execution, offering a new route to automated 3D creation. By tr…",
+      "id": "46cc174878ab",
+      "title": "Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use",
+      "url": "https://huggingface.co/papers/2611.09113",
+      "publishedAt": "2026-11-06T07:47:25.000Z",
+      "summary": "LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this …",
       "score": 5
     },
     {
-      "id": "560fdddf1b84",
-      "title": "LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting",
-      "url": "https://huggingface.co/papers/2611.06808",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Financial backtests of large language models (LLMs) are meaningful only if the model did not already know the outcomes …",
+      "id": "bbf893410486",
+      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+      "url": "https://huggingface.co/papers/2611.09891",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, …",
       "score": 4
     },
     {
-      "id": "97f4f417916d",
-      "title": "PREEN: Exemplar-Based Color Style Transfer with Smartphone Editor Presets",
-      "url": "https://huggingface.co/papers/2610.36896",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "summary": "We present PREEN (Preset Regression via an Exemplar-based Editor Network), which casts color style transfer as regressi…",
-      "score": 3
-    },
-    {
-      "id": "29c17d70bfd0",
-      "title": "OmniLatent: Unified Latent for 3D Part Modeling",
-      "url": "https://huggingface.co/papers/2611.09055",
+      "id": "9b520e0a3f18",
+      "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
+      "url": "https://huggingface.co/papers/2611.09634",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "3D part decomposition is a central capability for editable asset creation, yet existing workflows typically segment a c…",
+      "summary": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, …",
+      "score": 4
+    },
+    {
+      "id": "f5e8ecc425b9",
+      "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
+      "url": "https://huggingface.co/papers/2610.41711",
+      "publishedAt": "2026-10-30T13:18:22.000Z",
+      "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the com…",
+      "score": 4
+    },
+    {
+      "id": "9341a4050e36",
+      "title": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
+      "url": "https://huggingface.co/papers/2611.02775",
+      "publishedAt": "2026-11-02T08:51:01.000Z",
+      "summary": "Financial document recognition is often assessed using character and word error rates, although these metrics do not ex…",
       "score": 3
     },
     {
-      "id": "0a4205ffa9a2",
-      "title": "OneTrans-GSR: A Generative Slate Ranking Paradigm Unifying Reranking and Mix-Ranking with One Autoregressive Transformer",
-      "url": "https://huggingface.co/papers/2611.04720",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Industrial recommender systems allocate substantial computation to pointwise candidate scoring, yet separate reranking …",
+      "id": "327d7156d64b",
+      "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+      "url": "https://huggingface.co/papers/2611.08647",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradien…",
       "score": 2
     },
     {
-      "id": "b8436d3a8089",
-      "title": "\"PRISM\" Is Not All You Need: Cross-Topic Name Collisions and Scientific Paper Retrieval",
-      "url": "https://huggingface.co/papers/2611.01362",
-      "publishedAt": "2026-11-01T00:00:08.000Z",
-      "summary": "Scientific names increasingly connect papers from different research topics, leaving readers to recover a paper's ident…",
+      "id": "29d407248dd1",
+      "title": "Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation",
+      "url": "https://huggingface.co/papers/2611.08179",
+      "publishedAt": "2026-11-05T15:34:23.000Z",
+      "summary": "On-Policy Self-Distillation (OPSD) improves reasoning by training a student on its own reasoning, using the same model …",
       "score": 2
     },
     {
-      "id": "f6ef83571a42",
-      "title": "Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding",
-      "url": "https://huggingface.co/papers/2611.07723",
-      "publishedAt": "2026-11-05T09:38:23.000Z",
-      "summary": "Protein motif scaffolding benchmarks assess whether generative models can build scaffolds around functionally important…",
-      "score": 0
+      "id": "01e7ee3d702d",
+      "title": "Learning to evolve by matching velocities",
+      "url": "https://huggingface.co/papers/2611.00448",
+      "publishedAt": "2026-10-30T23:03:28.000Z",
+      "summary": "Learning the continuous-time evolution of nonlinear dynamical systems relies on trajectory-based objectives, which requ…",
+      "score": 2
+    },
+    {
+      "id": "3c10ca4629b9",
+      "title": "Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers",
+      "url": "https://huggingface.co/papers/2611.06844",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "A central yet under-explored question in Multimodal Large Language Models (MLLMs) is where to connect---how visual info…",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-11-09T08:00:43.966Z",
+  "fetchedAt": "2026-11-09T18:40:36.704Z",
   "stale": false,
   "error": null
 }
