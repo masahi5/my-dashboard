@@ -6,12 +6,20 @@
   "category": "ai",
   "items": [
     {
+      "id": "a1b65623daa7",
+      "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+      "url": "https://huggingface.co/papers/2611.08175",
+      "publishedAt": "2026-11-05T15:31:15.000Z",
+      "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric …",
+      "score": 30
+    },
+    {
       "id": "909283f96d0b",
       "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
       "url": "https://huggingface.co/papers/2611.07025",
       "publishedAt": "2026-11-04T19:00:06.000Z",
       "summary": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batc…",
-      "score": 29
+      "score": 30
     },
     {
       "id": "e9dff0ffec50",
@@ -19,15 +27,39 @@
       "url": "https://huggingface.co/papers/2611.01182",
       "publishedAt": "2026-10-31T00:00:00.000Z",
       "summary": "Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, …",
-      "score": 17
+      "score": 19
     },
     {
-      "id": "a1b65623daa7",
-      "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
-      "url": "https://huggingface.co/papers/2611.08175",
-      "publishedAt": "2026-11-05T15:31:15.000Z",
-      "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric …",
-      "score": 11
+      "id": "9b520e0a3f18",
+      "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
+      "url": "https://huggingface.co/papers/2611.09634",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, …",
+      "score": 7
+    },
+    {
+      "id": "bbf893410486",
+      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+      "url": "https://huggingface.co/papers/2611.09891",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, …",
+      "score": 6
+    },
+    {
+      "id": "9341a4050e36",
+      "title": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
+      "url": "https://huggingface.co/papers/2611.02775",
+      "publishedAt": "2026-11-02T08:51:01.000Z",
+      "summary": "Financial document recognition is often assessed using character and word error rates, although these metrics do not ex…",
+      "score": 5
+    },
+    {
+      "id": "f5e8ecc425b9",
+      "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
+      "url": "https://huggingface.co/papers/2610.41711",
+      "publishedAt": "2026-10-30T13:18:22.000Z",
+      "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the com…",
+      "score": 5
     },
     {
       "id": "46cc174878ab",
@@ -38,44 +70,12 @@
       "score": 5
     },
     {
-      "id": "bbf893410486",
-      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
-      "url": "https://huggingface.co/papers/2611.09891",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, …",
-      "score": 4
-    },
-    {
-      "id": "9b520e0a3f18",
-      "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
-      "url": "https://huggingface.co/papers/2611.09634",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, …",
-      "score": 4
-    },
-    {
-      "id": "f5e8ecc425b9",
-      "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
-      "url": "https://huggingface.co/papers/2610.41711",
-      "publishedAt": "2026-10-30T13:18:22.000Z",
-      "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the com…",
-      "score": 4
-    },
-    {
-      "id": "9341a4050e36",
-      "title": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
-      "url": "https://huggingface.co/papers/2611.02775",
-      "publishedAt": "2026-11-02T08:51:01.000Z",
-      "summary": "Financial document recognition is often assessed using character and word error rates, although these metrics do not ex…",
-      "score": 3
-    },
-    {
       "id": "327d7156d64b",
       "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
       "url": "https://huggingface.co/papers/2611.08647",
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "summary": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradien…",
-      "score": 2
+      "score": 4
     },
     {
       "id": "29d407248dd1",
@@ -83,26 +83,26 @@
       "url": "https://huggingface.co/papers/2611.08179",
       "publishedAt": "2026-11-05T15:34:23.000Z",
       "summary": "On-Policy Self-Distillation (OPSD) improves reasoning by training a student on its own reasoning, using the same model …",
-      "score": 2
+      "score": 3
     },
     {
-      "id": "01e7ee3d702d",
-      "title": "Learning to evolve by matching velocities",
-      "url": "https://huggingface.co/papers/2611.00448",
-      "publishedAt": "2026-10-30T23:03:28.000Z",
-      "summary": "Learning the continuous-time evolution of nonlinear dynamical systems relies on trajectory-based objectives, which requ…",
-      "score": 2
+      "id": "7c0c37a82c33",
+      "title": "ODE Policy: Robot Learning via Action Dynamics, Not Actions",
+      "url": "https://huggingface.co/papers/2611.01729",
+      "publishedAt": "2026-11-01T09:25:12.000Z",
+      "summary": "Most robot policies, whether trained by imitation learning (IL) or reinforcement learning (RL), map observations to act…",
+      "score": 1
     },
     {
-      "id": "3c10ca4629b9",
-      "title": "Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers",
-      "url": "https://huggingface.co/papers/2611.06844",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "A central yet under-explored question in Multimodal Large Language Models (MLLMs) is where to connect---how visual info…",
-      "score": 2
+      "id": "f173f050c173",
+      "title": "Toward the Era of Agentic Embodied Intelligence",
+      "url": "https://huggingface.co/papers/2611.09124",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recov…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-09T18:40:36.704Z",
+  "fetchedAt": "2026-11-10T01:46:52.174Z",
   "stale": false,
   "error": null
 }
