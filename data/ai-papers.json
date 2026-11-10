@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "a1b65623daa7",
-      "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
-      "url": "https://huggingface.co/papers/2611.08175",
-      "publishedAt": "2026-11-05T15:31:15.000Z",
-      "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric …",
-      "score": 30
+      "id": "b646c92cfb5f",
+      "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+      "url": "https://huggingface.co/papers/2611.12762",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide …",
+      "score": 20
     },
     {
-      "id": "909283f96d0b",
-      "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
-      "url": "https://huggingface.co/papers/2611.07025",
-      "publishedAt": "2026-11-04T19:00:06.000Z",
-      "summary": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batc…",
-      "score": 30
+      "id": "56e99e372833",
+      "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+      "url": "https://huggingface.co/papers/2611.12806",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ul…",
+      "score": 17
     },
     {
-      "id": "e9dff0ffec50",
-      "title": "Fast and Exact Relative-Position Attention via Structure-Aware Kernels",
-      "url": "https://huggingface.co/papers/2611.01182",
-      "publishedAt": "2026-10-31T00:00:00.000Z",
-      "summary": "Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, …",
-      "score": 19
-    },
-    {
-      "id": "9b520e0a3f18",
-      "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
-      "url": "https://huggingface.co/papers/2611.09634",
+      "id": "0a77f5ef9b20",
+      "title": "SIRIS: Can LLMs Tell When Simulation Errors Matter in AI-Driven Systems Research",
+      "url": "https://huggingface.co/papers/2611.10329",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Language model deployment often requires different trade-offs between competing objectives as user preferences change, …",
-      "score": 7
+      "summary": "LLM agents increasingly drive systems research and rely on simulators to evaluate candidate designs at scale. Simulator…",
+      "score": 8
     },
     {
-      "id": "bbf893410486",
-      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
-      "url": "https://huggingface.co/papers/2611.09891",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, …",
-      "score": 6
-    },
-    {
-      "id": "9341a4050e36",
-      "title": "Human-Centred, Risk-Constrained Evaluation of Financial Document Recognition: Evidence, Critical Errors, and Selective Automation",
-      "url": "https://huggingface.co/papers/2611.02775",
-      "publishedAt": "2026-11-02T08:51:01.000Z",
-      "summary": "Financial document recognition is often assessed using character and word error rates, although these metrics do not ex…",
-      "score": 5
-    },
-    {
-      "id": "f5e8ecc425b9",
-      "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
-      "url": "https://huggingface.co/papers/2610.41711",
-      "publishedAt": "2026-10-30T13:18:22.000Z",
-      "summary": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the com…",
-      "score": 5
-    },
-    {
-      "id": "46cc174878ab",
-      "title": "Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use",
-      "url": "https://huggingface.co/papers/2611.09113",
-      "publishedAt": "2026-11-06T07:47:25.000Z",
-      "summary": "LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this …",
-      "score": 5
-    },
-    {
-      "id": "327d7156d64b",
-      "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
-      "url": "https://huggingface.co/papers/2611.08647",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "summary": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradien…",
+      "id": "1628209f3c64",
+      "title": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
+      "url": "https://huggingface.co/papers/2611.11450",
+      "publishedAt": "2026-11-08T00:00:00.000Z",
+      "summary": "On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generatin…",
       "score": 4
     },
     {
-      "id": "29d407248dd1",
-      "title": "Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation",
-      "url": "https://huggingface.co/papers/2611.08179",
-      "publishedAt": "2026-11-05T15:34:23.000Z",
-      "summary": "On-Policy Self-Distillation (OPSD) improves reasoning by training a student on its own reasoning, using the same model …",
+      "id": "501d44eb6e09",
+      "title": "TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation",
+      "url": "https://huggingface.co/papers/2611.02810",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "This paper studies retrieval-augmented generation (RAG), which leverages external knowledge to improve the performance …",
+      "score": 4
+    },
+    {
+      "id": "a1c520a48e36",
+      "title": "FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2611.08240",
+      "publishedAt": "2026-11-05T16:19:52.000Z",
+      "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives rol…",
       "score": 3
     },
     {
-      "id": "7c0c37a82c33",
-      "title": "ODE Policy: Robot Learning via Action Dynamics, Not Actions",
-      "url": "https://huggingface.co/papers/2611.01729",
-      "publishedAt": "2026-11-01T09:25:12.000Z",
-      "summary": "Most robot policies, whether trained by imitation learning (IL) or reinforcement learning (RL), map observations to act…",
+      "id": "31fb323216e6",
+      "title": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
+      "url": "https://huggingface.co/papers/2611.10123",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "Can a language model report the pain state it represents? Work identified a linear pain direction whose amplification l…",
+      "score": 2
+    },
+    {
+      "id": "4458f622d869",
+      "title": "How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time",
+      "url": "https://huggingface.co/papers/2611.12324",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "World models enable agents to plan and learn from imagined experience, but in an unfamiliar environment they must learn…",
+      "score": 2
+    },
+    {
+      "id": "b9235ad3ce8a",
+      "title": "Stochastic Deep Supervision for Gallery-Consistent Early-Exit Face Recognition",
+      "url": "https://huggingface.co/papers/2611.09987",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "Vision Transformers (ViTs) perform strongly in face recognition (FR), yet their fixed-depth inference limits deployment…",
       "score": 1
     },
     {
-      "id": "f173f050c173",
-      "title": "Toward the Era of Agentic Embodied Intelligence",
-      "url": "https://huggingface.co/papers/2611.09124",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recov…",
+      "id": "fe31556770ef",
+      "title": "FlyHash for LLM Agent Memory: An Empirical Validation and a New Application",
+      "url": "https://huggingface.co/papers/2611.05791",
+      "publishedAt": "2026-11-04T00:57:24.000Z",
+      "summary": "Large language model (LLM) agents increasingly rely on external memory stores to retain information across conversation…",
+      "score": 1
+    },
+    {
+      "id": "94bb452ff4ac",
+      "title": "Horizon-Scalable Q-Learning",
+      "url": "https://huggingface.co/papers/2611.10987",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "summary": "Learning accurate off-policy state-action value functions (Q-functions) from offline datasets becomes harder as the tas…",
+      "score": 1
+    },
+    {
+      "id": "704cf9945c25",
+      "title": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
+      "url": "https://huggingface.co/papers/2611.08969",
+      "publishedAt": "2026-11-06T04:30:15.000Z",
+      "summary": "We present PhysioWave-T, a token-efficient wavelet foundation model family for EEG, ECG, and sEMG. Dynamic scale foldin…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-11-10T01:46:52.174Z",
+  "fetchedAt": "2026-11-10T09:11:10.128Z",
   "stale": false,
   "error": null
 }

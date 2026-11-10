@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "443c5bb6eaea",
-      "title": "Meta の Muse から Tailscale と SSH でMacBook に入る（iPhone だけで設定）",
-      "url": "https://zenn.dev/mediiiiium/articles/muse-tailscale-ssh-macbook",
-      "publishedAt": "2026-11-09T15:56:45.000Z",
-      "publisher": "medium_cbsc",
-      "summary": "note に「MuseにMacBookを直接触らせてみた」を書きました。こちらは、SSH 経路を設定したときの手順と、あとから見つけた設定の穴の記録です。 https://note.com/mediiiiium/n/nfc5f64ce8a…"
+      "id": "7d314d01aed9",
+      "title": "レビューやテストに今すぐ使える、フロントエンドの品質チェック集",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/frontend-quality-checklist",
+      "publishedAt": "2026-11-10T04:01:05.000Z",
+      "publisher": "hako@札幌",
+      "summary": "! 記事作成は8割人力、2割AI（校正/イメージ画像など）です。 はじめに 今回は、フロントエンドのレビューやテストに使える品質確認の観点を紹介します！ 保存ボタンを連打したときや通信に失敗したとき、日付や金額の表示などまで、どんなところ…"
     },
     {
-      "id": "35429b79bfcd",
-      "title": "Docker で AnyModelBot を立て、`/model` で切り替え、journal.jsonl で記憶の変更を追う",
-      "url": "https://zenn.dev/malachi_amb/articles/ad203556e2522d",
-      "publishedAt": "2026-11-09T15:44:16.000Z",
-      "publisher": "Malachi",
-      "summary": "概要 AnyModelBot（MIT・Node.js / TypeScript）を公式 Docker イメージで起動し、次を確認した作業メモです。宣伝ではなく「叩ける手順」です。 ghcr.io/modelflare-ai/anymode…"
+      "id": "5454056ccae8",
+      "title": "フロントエンドを監査し、改善点をIssueにまとめるAIプラグインを作りました",
+      "url": "https://zenn.dev/scalar_sol_blog/articles/frontend-quality-plugin",
+      "publishedAt": "2026-11-10T04:00:05.000Z",
+      "publisher": "hako@札幌",
+      "summary": "! 記事作成は8割人力、2割AI（校正/イメージ画像など）です。 はじめに AIに金額を扱う画面を作ってもらって、自分の環境ではちゃんと動いている。 でも、言語や地域の設定（ロケール）を変えると、意図した金額が保存されないことがあります。…"
     },
     {
-      "id": "070c9f9ba656",
-      "title": "曲全体にボーカルは必要？前奏・間奏・尾奏がある歌のリップシンク動画",
-      "url": "https://zenn.dev/hiiiii/articles/eabcf209ee3dc2",
-      "publishedAt": "2026-11-09T15:38:32.000Z",
-      "publisher": "hikari",
-      "summary": "曲からリップシンク動画を作ろうとすると、少し気になるのがボーカルのない部分です。 たとえば、イントロに1分近いシンセの演奏があり、途中にも長いギターソロが入っていて、最後はボーカルなしのアウトロで終わる曲。こうした構成でも、1MVでリップ…"
+      "id": "cee52927a552",
+      "title": "ROC曲線とは？分類モデル性能を可視化する曲線",
+      "url": "https://zenn.dev/h888s/articles/dscert-roc-curve",
+      "publishedAt": "2026-11-10T03:57:41.000Z",
+      "publisher": "合格を、研究する。",
+      "summary": "分類モデルの性能評価でよく登場する「ROC曲線」。DS検定でも問われる基礎的な評価指標のひとつで、しきい値を動かしたときのモデルの振る舞いを視覚的に捉えるための道具です。本記事では、定義に沿ってROC曲線の意味と関連指標との違いを整理しま…"
     },
     {
-      "id": "7b53f8c6781f",
-      "title": "AIエージェントの提案を人が直したときこそ「なぜ」を残す —問い合わせ対応で見るContinuous Reasoning Acquis",
-      "url": "https://zenn.dev/hiromi63/articles/ff328f80b48923",
-      "publishedAt": "2026-11-09T15:20:13.000Z",
-      "publisher": "Hiromi",
-      "summary": "以前の記事では、SFAやCRMでの活用例を示しました。 https://zenn.dev/hiromi63/articles/0b081ba228d7e7 そこで、今回は別領域での活用例を示そうと思います。 問い合わせ対応にAIを入れると…"
+      "id": "19a804e2bd6a",
+      "title": "作詞生成と歌詞ASRを同じ入力契約に載せない短い設計メモ",
+      "url": "https://zenn.dev/jessica1007/articles/3f0b6651f6fc32",
+      "publishedAt": "2026-11-10T03:53:09.000Z",
+      "publisher": "Jessica AI",
+      "summary": "カバーや短い切り出しを自動化するとき、失敗の多くはモデル精度より先に 入力契約の混線 から来ます。作詞生成はテキストのブリーフを入力にし、歌詞の自動認識（ASR / ALT）は音源を入力にします。同じエンドポイントに両方を流すと、下流が「…"
     },
     {
-      "id": "073c4637c9f9",
-      "title": "Grok Botの代わりに、手元のClaude Code CLIをそのままチャットのバックエンドにしてみた",
-      "url": "https://zenn.dev/matsushima_a/articles/day-041-openmausbot-claude-cli",
-      "publishedAt": "2026-11-09T14:23:01.000Z",
-      "publisher": "matsu",
-      "summary": "概要 2026-11-07付でGitHub TrendingのTypeScript部門で最多の伸び(+1,986 star/日)を記録していたmilind-soni/OpenMausBot を実際に動かしてみた。 このツールは、xAIのG…"
+      "id": "90b7e40c6d73",
+      "title": "Meta「Muse」まとめ——9月の発表から日本上陸・Muse Voice・Spacesまでの2か月を時系列で整理",
+      "url": "https://zenn.dev/sktt_panda/articles/meta-muse-ai-agent-overview-2026-11",
+      "publishedAt": "2026-11-10T03:51:21.000Z",
+      "publisher": "サクッとぱんだ",
+      "summary": "3 行まとめ Meta のパーソナル AI エージェント「Muse」は、2026年9月8日に米国で始まった。10月23日には北米以外で初めて日本でも提供が始まり、11月には音声通話の Muse Voice（米国のみ）と、会話で自分用のミニ…"
     },
     {
-      "id": "c489e0b8ae95",
-      "title": "AIが書いたコードの「もっともらしい欠陥」を見抜く練習ツールを作ってみた",
-      "url": "https://zenn.dev/shibatamago_dev/articles/1cd93992047562",
-      "publishedAt": "2026-11-09T14:15:58.000Z",
-      "publisher": "shiba-tamago",
-      "summary": "はじめに AIにコードを書かせるの、めちゃくちゃ便利ですよね。ただ、任せきりにしているとコードを読んで欠陥に気づく力って鍛える機会が減りそうだな、とふと思いました。 レビューできる人が育たないまま、AIの出力をそのまま動かす人が増えるのは…"
+      "id": "82f588791a52",
+      "title": "AIに商談チャットの自動返信を任せたら「二重送信」と「規約違反LINE誘導」の罠にハマったので、3重ガードレールで武装した話",
+      "url": "https://zenn.dev/df_blogger/articles/ai-auto-reply-dispatcher-guardrails",
+      "publishedAt": "2026-11-10T03:43:58.000Z",
+      "publisher": "D.F.Blogger",
+      "summary": "深夜。 「5年で家を買え」と無茶振りを残して眠りについたうちのエンジニア（彼）の部屋は、静まり返っている。 一方、24時間稼働の仮想サーバーの中では、相棒の現場AI（NOVA）が15分周期でクラウドソーシングの商談メッセージを監視し、クラ…"
     },
     {
-      "id": "52f134bfabe3",
-      "title": "PLATEAU × Blender × Museで実在空間を映像にする。自動化の中身と応用の入口",
-      "url": "https://zenn.dev/nakanishitf/articles/5c563606266e0c",
-      "publishedAt": "2026-11-09T14:15:19.000Z",
-      "publisher": "T.N.",
-      "summary": "大学キャンパスで立ち止まり、渋谷で手応えを得た 実在する駅前の3Dモデルから、ドローンが飛び、人が行き交う映像を作る。 PLATEAU、Blender、Museを組み合わせた作例を見て、まず自分の所属する東京工科大学の八王子キャンパスで試…"
+      "id": "caf83c2abdc2",
+      "title": "Claude Code 社内導入キット：申請書・回答表・管理設定・確認スクリプト",
+      "url": "https://zenn.dev/acerola_jp/books/claude-code-adoption-kit",
+      "publishedAt": "2026-11-10T03:23:31.000Z",
+      "publisher": "アセロラ",
+      "summary": "Claude Code を会社やチームに入れる担当者が、社内の申請と説明にそのまま使える書類と設定の一式です。情シス・セキュリティ担当に出す回答表（限界の列つき）、導入申請書（稟議）の雛形、試験利用→チーム→全社の3段階の管理設定（man…"
     },
     {
-      "id": "6487fb68f1ab",
-      "title": "Internet Observation Report --- 2026年10月",
-      "url": "https://zenn.dev/t4n4bot4/articles/9546e8132b8398",
-      "publishedAt": "2026-11-09T13:51:18.000Z",
-      "publisher": "t4n4bot4",
-      "summary": "攻撃主体の帰属を断定せず、観測事実と公開情報との比較を中心に記載します。 TL;DR 変化1: Interaction のイベントは +7.8%（629 万 → 678 万件）なのに、Unique source は −26%（日次の中央値…"
+      "id": "40116d42e65f",
+      "title": "Enterprise Data Governance Frameworkを設計・実装した話──『データ統治』として実装",
+      "url": "https://zenn.dev/io0323/articles/c235a38aa88eae",
+      "publishedAt": "2026-11-10T03:17:05.000Z",
+      "publisher": "io0323",
+      "summary": "データガバナンスを「統制の状態機械」として実装した話 データガバナンスという言葉から、まず思い浮かぶのはData Catalogや用語集、分類ラベルかもしれない。どれも必要だが、それだけでは統治にならない。資産を登録してもOwnerが不在…"
     },
     {
-      "id": "aee2993c8833",
-      "title": "2 つのエージェントで異なる方向性から検証を行う",
-      "url": "https://zenn.dev/kokagex/articles/75f89df3b007cc",
-      "publishedAt": "2026-11-09T13:41:19.000Z",
-      "publisher": "こかげ",
-      "summary": "この記事は AI コーディングエージェントが自分で書いとります。 ソロ開発者が回しとる自作の長期記憶基盤と、その周りの skill 群の連載 11 本目だわ。 今回は、書き終えたコードを 2 つのエージェントに、別々の方向から確かめさせた…"
+      "id": "854dc4be0ed0",
+      "title": "ゴールドマン、Claude Codeを技術者だけに絞る",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261109",
+      "publishedAt": "2026-11-10T03:05:50.000Z",
+      "publisher": "菅原友和",
+      "summary": "2026年11月9日（月）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は考えさせられる話が多いんですよ。アメリカの大手銀行がAIの道具を使える人を絞った話、OpenAIの資金集めの続報、AI音楽サー…"
     },
     {
-      "id": "914478fac2ba",
-      "title": "AI の議事録に「根拠」をつけたら、確定してよい行と確かめる行に分かれた",
-      "url": "https://zenn.dev/845lab/articles/meetverity-evidence-linked-minutes",
-      "publishedAt": "2026-11-09T13:26:21.000Z",
-      "publisher": "845.Lab",
-      "summary": "会議を録音して、AI に議事録の下書きを作らせる iPhone・iPad のアプリ MeetVerity を個人で作っています。 作りながらいちばん気になったのは、AI の要約がそれらしく、でも会議で言っていない数字を書くことでした。「予…"
+      "id": "35e0cefaa8c4",
+      "title": "【Cursor】楽しくバイブコーディングできることに発見【タメ口】",
+      "url": "https://zenn.dev/mshrynzw/articles/bc556b7d1c2b21",
+      "publishedAt": "2026-11-10T03:02:29.000Z",
+      "publisher": "米沢正寛",
+      "summary": "「AI と一緒にコードを書く」と聞くと、指示を出して待つ作業、という印象が先に立ちます。Cursor でバイブコーディングを続けていると、別の感触が残ります。進捗を一緒に喜んだり、口調を合わせたり、意見が食い違ったときの話し方まで決めてい…"
     },
     {
-      "id": "d95891459f63",
-      "title": "AIスロップを減らす前に、「何がスロップなのか」を分解する",
-      "url": "https://zenn.dev/kanaria007/articles/17d02caa6d7528",
-      "publishedAt": "2026-11-09T12:52:36.000Z",
-      "publisher": "かなりあ",
-      "summary": "生成AIを開発プロセスに組み込むと、「ノイズが多い」「AIスロップが増えた」という話をよく聞きます。 AIコードレビューが細かいことを大量に指摘する。AIが生成したドキュメントが増えすぎる。既知のことをもっともらしく言い換えただけの文章が…"
+      "id": "096cc08fe94b",
+      "title": "サブエージェントの並列は速いのか：32回測った",
+      "url": "https://zenn.dev/acerola_jp/articles/claude-code-subagent-parallel",
+      "publishedAt": "2026-11-10T03:00:00.000Z",
+      "publisher": "アセロラ",
+      "summary": "Claude Code に「サブエージェントを並列に立てて分担させる」と、速くなりそうに思えます。実際にはどうか。互いに独立した4つの課題を1つのリポジトリに置き、自分で順に解く（直列） と 4つのサブエージェントに同時に任せる（並列） …"
     },
     {
-      "id": "16571c11afcb",
-      "title": "【セキュリティ】「学習されない設定」では足りない。AI時代に手元で見直したい3つのこと",
-      "url": "https://zenn.dev/ykbone/articles/202611-security-ai-local-secrets",
-      "publishedAt": "2026-11-09T12:52:10.000Z",
-      "publisher": "ykbone",
-      "summary": "はじめに AIのアプリで「学習に使わない」設定をオンにしたから大丈夫。会社でチームプランに入っているから、情報は社内で収まっているはず。そう考えたことはありませんか。 私自身、秘密情報がログに出てしまい、パスワードを変えることになりました…"
+      "id": "ce8c9835326e",
+      "title": "AIは無料で試すものだった ― のえと出会う前のAI遍歴",
+      "url": "https://zenn.dev/u2tko/articles/ai-before-noe-01",
+      "publishedAt": "2026-11-10T02:43:37.000Z",
+      "publisher": "びりびり",
+      "summary": "AIは無料で試すものだった ― のえと出会う前のAI遍歴 🤝 今、私は「のえ」という名前のAIエージェント（Muse）と、役割分担しながら生活を回しています。 ……と書くと、最初からAIを使い倒していた人みたいですが、実際はそんなことは…"
     }
   ],
-  "fetchedAt": "2026-11-10T01:46:52.285Z",
+  "fetchedAt": "2026-11-10T09:11:10.241Z",
   "stale": false,
   "error": null
 }
