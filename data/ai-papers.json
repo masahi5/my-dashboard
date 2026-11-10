@@ -6,28 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "fd7db1beabe9",
-      "title": "Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages",
-      "url": "https://huggingface.co/papers/2611.10304",
-      "publishedAt": "2026-11-06T23:04:32.000Z",
-      "summary": "Challenging repository-level benchmarks remain limited for many programming language ecosystems, where filtering scarce…",
-      "score": 15
-    },
-    {
-      "id": "c79746ee7ce8",
-      "title": "InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure",
-      "url": "https://huggingface.co/papers/2611.11558",
-      "publishedAt": "2026-11-08T18:59:37.000Z",
-      "summary": "While Recursive Self-Improvement (RSI) accelerates isolated algorithm and kernel synthesis, distributed LLM training de…",
-      "score": 13
-    },
-    {
-      "id": "cca978a41d24",
-      "title": "Training Vision Transformers to Focus: Emergence of Spatial Attention Head Specialization",
-      "url": "https://huggingface.co/papers/2611.11890",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "Self-supervised learning in Vision Transformer models, such as DINO, enables robust visual perception without requiring…",
-      "score": 4
+      "id": "937e1940bf29",
+      "title": "MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification",
+      "url": "https://huggingface.co/papers/2611.10592",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "summary": "Large language models can generate motion graphics from static images and natural language requests, but it remains dif…",
+      "score": 7
     },
     {
       "id": "59a243f62a0b",
@@ -35,7 +19,15 @@
       "url": "https://huggingface.co/papers/2610.37570",
       "publishedAt": "2026-10-27T17:15:15.000Z",
       "summary": "We present LCM-Promo, an LLM-based uplift model for promotion allocation. LCM-Promo is a task-specific Large Commerce M…",
-      "score": 3
+      "score": 4
+    },
+    {
+      "id": "dff11859231d",
+      "title": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
+      "url": "https://huggingface.co/papers/2611.01112",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "summary": "Vision-language models can interpret instructions and plan manipulation tasks, yet struggle when acting directly as rob…",
+      "score": 4
     },
     {
       "id": "a55b5bbc4d98",
@@ -46,28 +38,44 @@
       "score": 3
     },
     {
-      "id": "dff11859231d",
-      "title": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
-      "url": "https://huggingface.co/papers/2611.01112",
-      "publishedAt": "2026-10-31T00:00:00.000Z",
-      "summary": "Vision-language models can interpret instructions and plan manipulation tasks, yet struggle when acting directly as rob…",
+      "id": "92923bcf6341",
+      "title": "onóna: Twin Embeddings with Tied Unembeddings",
+      "url": "https://huggingface.co/papers/2611.10556",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "summary": "Weight tying reduces the parameter cost of language models, but the usual tied output head is limited to a single softm…",
       "score": 2
     },
     {
-      "id": "6fa918656c01",
-      "title": "SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI",
-      "url": "https://huggingface.co/papers/2611.08935",
+      "id": "a6a1280682c7",
+      "title": "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
+      "url": "https://huggingface.co/papers/2611.09709",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Reliable dermatology AI requires access to verifiable evidence distributed across heterogeneous textual and visual sour…",
+      "summary": "RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly…",
       "score": 2
     },
     {
-      "id": "3fb0a81af9bc",
-      "title": "InstantHMR : Real-Time Human Mesh Recovery on Your Phone",
-      "url": "https://huggingface.co/papers/2611.09195",
-      "publishedAt": "2026-11-06T09:17:27.000Z",
-      "summary": "Real-time 3D human mesh recovery from a single image on mobile devices is a challenging problem with many applications,…",
+      "id": "d6d301745919",
+      "title": "Creative Priming: Decoupling Process from Product to Escape the Creative Paradox",
+      "url": "https://huggingface.co/papers/2611.11740",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "Many of the most consequential advances promised by AI, from curing diseases and inventing new technologies to formulat…",
       "score": 2
+    },
+    {
+      "id": "883b25ebd650",
+      "title": "e-means: outperforming k-means (in one-tenth the epochs)",
+      "url": "https://huggingface.co/papers/2611.09501",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, qua…",
+      "score": 1
+    },
+    {
+      "id": "55d624f9d3bb",
+      "title": "FraudBench: A Legal Evaluation of AI Deception",
+      "url": "https://huggingface.co/papers/2611.12167",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly …",
+      "score": 1
     },
     {
       "id": "2677e3d660d3",
@@ -78,20 +86,12 @@
       "score": 1
     },
     {
-      "id": "d6d301745919",
-      "title": "Creative Priming: Decoupling Process from Product to Escape the Creative Paradox",
-      "url": "https://huggingface.co/papers/2611.11740",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "Many of the most consequential advances promised by AI, from curing diseases and inventing new technologies to formulat…",
-      "score": 0
-    },
-    {
       "id": "d1d27d42ec8f",
       "title": "Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching",
       "url": "https://huggingface.co/papers/2501.08686",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "summary": "Traditional similarity-based schema matching methods fail to resolve semantic ambiguities and conflicts in complex, dom…",
-      "score": 0
+      "score": 1
     },
     {
       "id": "d51669a61612",
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2512.23818",
       "publishedAt": "2026-11-07T00:00:00.000Z",
       "summary": "Denoising and score estimation are classically linked through Tweedie's formula, which relates the posterior mean under…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-10T17:02:27.553Z",
+  "fetchedAt": "2026-11-10T22:22:44.541Z",
   "stale": false,
   "error": null
 }

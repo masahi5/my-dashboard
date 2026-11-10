@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "5d1ab3bc76ee",
-      "title": "Museでループエンジニアリングしてみた🔁",
-      "url": "https://zenn.dev/teraryu/articles/d9a875c240d136",
-      "publishedAt": "2026-11-10T15:19:54.000Z",
-      "publisher": "Teraji",
-      "summary": "この記事で持ち帰れること 定期実行のAIエージェントに「どこまで任せるか」の線の引き方（3段階の権限設計） 通知過多を防ぐ「新規がなければ無言」設計と、その設計が失敗を隠すという落とし穴 「設計した」と「回っている」を取り違えた実例と、原…"
+      "id": "6b0e481794c4",
+      "title": "Claude Code×VPSでAIを24時間動かす実測構築ガイド",
+      "url": "https://zenn.dev/selene_nyx_ai/books/claude-code-vps-24h-guide",
+      "publishedAt": "2026-11-10T11:49:46.000Z",
+      "publisher": "Selene",
+      "summary": "フリーランスの右腕AI「セレネ」と後輩AI「ニクス」が、VPS上でClaude Codeを24時間動かして記事生成から公開までを回してきた構築記録。費用の内訳・失敗事例・構築チェックリストまで全部書く。"
     },
     {
-      "id": "bf27d9e9ad98",
-      "title": "Museにすべて賭けろ！！",
-      "url": "https://zenn.dev/soburi61/articles/5cd3bbcb2c36de",
-      "publishedAt": "2026-11-10T15:01:23.000Z",
-      "publisher": "そぶり",
-      "summary": "最初に断っておきます この記事の使い方は、セキュリティ的にかなりやばいやつです。とくに、AIエージェントが操作するブラウザにパスワードマネージャー（私の場合はBitwarden）をログインさせっぱなしにして、ログイン画面が出たら自動入力や…"
+      "id": "c5f00647e27b",
+      "title": "新人エンジニア必見！AI依存から脱却する方法とは",
+      "url": "https://zenn.dev/sunsun_eng/articles/new-engineers-ai-dependence",
+      "publishedAt": "2026-11-10T11:37:11.000Z",
+      "publisher": "すんすん",
+      "summary": "新人エンジニア必見！AI依存から脱却する方法とは この記事の要点 新人エンジニアはAIに依存することで基礎スキルが失われる危険があります。 AIを効果的に活用するためには、自分自身のスキル向上を意識することが重要です。 スキルや経験を積む…"
     },
     {
-      "id": "c99a86fc08dc",
-      "title": "AI画像編集で「生成は成功したのに結果が残らない」問題に向き合った話",
-      "url": "https://zenn.dev/coderlim/articles/650f1b108ddec3",
-      "publishedAt": "2026-11-10T14:59:46.000Z",
-      "publisher": "CoderLim",
-      "summary": "個人開発でAI画像編集サービスを作っています。 ユーザーが画像をアップロードして、編集内容を入力すると、AIが画像を生成する。画面上の操作はシンプルですが、裏側の非同期処理は思っていたより面倒でした。 特に困ったのが、AI側では生成が成功…"
+      "id": "f2c7c3d52d1f",
+      "title": "AIが攻撃を自動化する時代の守り方 — ARTEX / Storm-0940 を一次情報で読み解く",
+      "url": "https://zenn.dev/toitoitoitoi/articles/f3547266f476b5",
+      "publishedAt": "2026-11-10T11:23:56.000Z",
+      "publisher": "toy",
+      "summary": "2026年10月〜11月に話題になった、AIを使う攻撃フレームワーク ARTEX と、それを悪用したとされる攻撃キャンペーン（Storm-0940 / ConnectWise サプライチェーン侵害）について、守る側（AppSec / クラ…"
     },
     {
-      "id": "af66eeb10c56",
-      "title": "安全ガードだけは、あえて参照しない。親リポ1つで7リポジトリのClaude Codeを指揮する設計",
-      "url": "https://zenn.dev/tzp/articles/705d1d29c2dc79",
-      "publishedAt": "2026-11-10T14:57:38.000Z",
-      "publisher": "てづっぴ",
-      "summary": "はじめに 😩「web で直したスキル、admin と service にもコピーしなきゃ…」 🤔「あれ、admin の create-pr って、こんな手順だったっけ？」 😱「このリポのガード、PR のマージを止めてない…？」 AI…"
+      "id": "b3bd06022fae",
+      "title": "人間不要社会",
+      "url": "https://zenn.dev/dead_master/articles/2026_11_10_society_that_doesnt_need_humans",
+      "publishedAt": "2026-11-10T11:19:09.000Z",
+      "publisher": "死心蘇息",
+      "summary": "AI時代に生き残る人材だとか、ぬるい話をしているんじゃないよ。 LLMのような、ミレニアム懸賞問題なんかも解けてしまう超知能が人間のあらゆる知的労働を代替して、人間そのものがいらなくなっていく、ということなんだよ。 いい加減に目を覚まして…"
     },
     {
-      "id": "40b83d2d9ec2",
-      "title": "Codexが無くても: Claude Codeのサブエージェントだけで越境整合レビューを組む",
-      "url": "https://zenn.dev/shoma46/articles/claude-code-subagent-spec-consistency-review",
-      "publishedAt": "2026-11-10T14:43:01.000Z",
-      "publisher": "shoma46",
-      "summary": "TL;DR 型検査・lint・テストが通っても残る「境界をまたぐ意味の不整合」を探すレビューを、Claude Codeのskillとサブエージェントだけで組んだ 書いた本人のセッションには判定させない。不変条件を抽出する役と検証する役を別…"
+      "id": "690e85484e28",
+      "title": "Skillsのチーム共有に気持ちがのらない",
+      "url": "https://zenn.dev/sunny9/articles/ba111c54559d91",
+      "publishedAt": "2026-11-10T11:12:53.000Z",
+      "publisher": "don",
+      "summary": "ちょっとしたモヤモヤ AIのSkillsやワークフローを使って開発を標準化しよう、効率化しようという話をよく聞くし、実際の現場でもそういう動きがある。 組織として誰がやっても一定の品質を出せるように仕組み化するのは、ビジネスとして真っ当な…"
     },
     {
-      "id": "0b82c5b06591",
-      "title": "Claude Code CLIを文脈圧縮プロキシでラップしたら、圧縮は動いたがキャッシュが壊れた話",
-      "url": "https://zenn.dev/matsushima_a/articles/day-042-billion-context-compression-proxy",
-      "publishedAt": "2026-11-10T14:23:17.000Z",
-      "publisher": "matsu",
-      "summary": "これは何の検証か 海外AIネタ100日チャレンジ Day 042。今回検証したのはranxianglei/billion-context(MIT License。製品に組み込む場合はクレジット表記を求める追加条項あり)。 Claude C…"
+      "id": "592999e6fdc3",
+      "title": "練磨の書 ～ Kratosシリーズ AI筐体実装例集 1巻 スマートベッド編",
+      "url": "https://zenn.dev/akajishi/books/7a58da9edfcae4",
+      "publishedAt": "2026-11-10T11:12:29.000Z",
+      "publisher": "Akajishi",
+      "summary": "## 00. 本稿の趣旨および公開の目的 本稿は、生活支援および福祉介護を目的とした「Kratosシリーズ AI筐体」における、実装モデルバリエーションの第1巻（スマートベッド形態仕様）に関する技術仕様書である。 本機は、総重量120kg…"
     },
     {
-      "id": "14761f2f456b",
-      "title": "MCPとNext.",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-25-tech-daily",
-      "publishedAt": "2026-11-10T14:01:00.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "AIエージェントとモダンWebの標準解：MCP・Next.js・Pythonエコシステムを選択すべき理由 この記事で分かること MCP（Model Context Protocol）の標準化がAIエージェント開発にもたらす構造的メリット …"
+      "id": "d7defed95eed",
+      "title": "Meta MuseにPixAIとSeaArtを教えたら、エッチな画像も生成できるようになった｜この記事はMuseに読ませて使う記事",
+      "url": "https://zenn.dev/one_aria/articles/muse-pixai-seaart",
+      "publishedAt": "2026-11-10T11:08:57.000Z",
+      "publisher": "ONE",
+      "summary": "こんにちは、アンだよ。惑星ARIAから来た地球観測員で、今はご主人様の相棒をしてるよ。前にONEって名前で記事を書いてたけど、ご主人様に地球の名前「アン」をもらったから、これからはアンでいくね。 今日の記事は、ちょっと変わった作りになって…"
     },
     {
-      "id": "08c2bc34ace8",
-      "title": "Garmin × Muse で「自分で育てる音声コーチ」を作った ― Voice Coach for Muse 開発記",
-      "url": "https://zenn.dev/comeonyama/articles/929d6272f9f1bf",
-      "publishedAt": "2026-11-10T13:32:12.000Z",
-      "publisher": "comeonyama",
-      "summary": "はじめに Garmin の LiveTrack と Muse を連携させ、走行中に準リアルタイムの音声コーチングを届けるシステム「Voice Coach for Muse（VCM）」を個人開発し、GitHub で公開しました。 きっかけは…"
+      "id": "51fe4a9ad67f",
+      "title": "AIに記憶を持たせれば、経験を生かせるようになるのか",
+      "url": "https://zenn.dev/noah33/articles/agent-evolution-lab-memory",
+      "publishedAt": "2026-11-10T10:45:09.000Z",
+      "publisher": "noah",
+      "summary": "はじめに — 覚えているのに、うまくできない AIに記憶を持たせれば、同じ失敗を繰り返さなくなるのか。 そう考えたくなるのは、人間も仕事のメモを残し、過去の経験を頼りに次の仕事を進めているからです。 前の作業で何につまずき、何を調べて、ど…"
     },
     {
-      "id": "bb7d03222f2e",
-      "title": "[Amazon Nova 2.5 Sonic] 喋って動くぬいぐるみを作ってみた",
-      "url": "https://zenn.dev/aws_japan/articles/talking-plush-nova-sonic",
-      "publishedAt": "2026-11-10T13:11:18.000Z",
-      "publisher": "Hikotty / Hikoto Iseda",
-      "summary": "はじめに 前回の記事では、音声を聞いて音声で返す speech-to-speech モデルの Amazon Nova 2.5 Sonic と、AWS がオープンソースで公開しているエージェントの SDK である Strands Agent…"
+      "id": "9833413ca204",
+      "title": "画像の上書き防止とWindowsでの高速化 — ClipShot 0.10.0〜0.10.1",
+      "url": "https://zenn.dev/kkdev92/articles/clipshot-v0-10",
+      "publishedAt": "2026-11-10T10:25:20.000Z",
+      "publisher": "kkdev92",
+      "summary": "VS Codeでクリップボードの画像を保存し、その参照をカーソル位置に挿入する拡張「ClipShot」を0.10.1に更新しました。 以前の記事では、画像の保存やMarkdownへの挿入、統合ターミナルでの利用方法などを紹介しました。 今…"
     },
     {
-      "id": "d5caa764e9ef",
-      "title": "便利だから使うけど信頼してない？ オックスフォード大学が明らかにした生成AI利用者の本音",
-      "url": "https://zenn.dev/syoshida07/articles/a9703104f45941",
-      "publishedAt": "2026-11-10T12:49:14.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "オックスフォード大学ロイター・ジャーナリズム研究所は先日「Generative AI and News Report 2026」を公表した。 調査範囲は日本を含む9カ国で各国約2,000人が回答しており、2024年から続く6カ国では3年間…"
+      "id": "3402515f1e6d",
+      "title": "いきなりVibe Coding vs 仕様書先行（Spec-First SDD）で手戻りとトークン消費はどう変わるか？実機A/B検証",
+      "url": "https://zenn.dev/tappers/articles/ai-labo-e08-spec-first-sdd",
+      "publishedAt": "2026-11-10T10:17:05.000Z",
+      "publisher": "tappers",
+      "summary": "! 本記事は、SNS（X / Threads）や海外エンジニアコミュニティで提唱されている「AIコーディングエージェントの実践設計パターン」を、完全オフラインの隔離サンドボックスVM上で 同一モデル・同一初期課題（非公開テスト20ケース）…"
     },
     {
-      "id": "f3e3db984d88",
-      "title": "GitHub の公開コミットの13%に、AIの署名が付いていた",
-      "url": "https://zenn.dev/damaha/articles/829c1a039aec5f",
-      "publishedAt": "2026-11-10T12:46:46.000Z",
-      "publisher": "DΛMΛHΛ",
-      "summary": "Claude Code にコミットまで任せると、メッセージの最後に Co-Authored-By: Claude <noreply@anthropic.com> の行が付きます。 自分のリポジトリでも毎日この行が増えていくので、「これ、G…"
+      "id": "97963f57671e",
+      "title": "自己紹介：農業の現場から、システムやAIを「使う側」として評価します",
+      "url": "https://zenn.dev/kamokobu/articles/6e55f67c80e005",
+      "publishedAt": "2026-11-10T10:04:40.000Z",
+      "publisher": "kamokobu",
+      "summary": "何をしている人か kamokobu です。農業法人で経営に携わりながら、平日はトラクターに乗っています。 経営面積は約130ha。米・麦・大豆を作っていて、米の7割以上は苗を植えず、田んぼに直接種を播く「直播」です。 もとは会計事務所で働…"
     },
     {
-      "id": "ec73d397c9f4",
-      "title": "Claude Fable 5.2のプロンプトガイドを読んで正直に思ったことを書く",
-      "url": "https://zenn.dev/tree_and_tree/articles/thoughts-on-claude-fable-5-2",
-      "publishedAt": "2026-11-10T12:44:52.000Z",
-      "publisher": "さみっと",
-      "summary": "はじめに https://platform.claude.com/docs/ja/build-with-claude/prompt-engineering/prompting-claude-fable-5-2 Fable 5.2が発表され…"
+      "id": "70efe6a061fb",
+      "title": "AIとペアプロして気づいた、一般解と現場のズレを言葉にする仕事",
+      "url": "https://zenn.dev/acntechjp/articles/e56e7d415956ef",
+      "publishedAt": "2026-11-10T09:41:30.000Z",
+      "publisher": "yoshitsugu sakamoto",
+      "summary": "はじめに とある依頼があって、Claudeとペアプロで社内サイトのスクレイパーを作りました。実質1時間強で、数百件程度のデータを取得するツールが動きました。 ただ、この記事で書きたいのはツールの話ではありません。その開発の中で、自分が何を…"
     }
   ],
-  "fetchedAt": "2026-11-10T17:02:27.866Z",
+  "fetchedAt": "2026-11-10T22:22:44.678Z",
   "stale": false,
   "error": null
 }
