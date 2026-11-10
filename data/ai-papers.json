@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "b646c92cfb5f",
-      "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
-      "url": "https://huggingface.co/papers/2611.12762",
+      "id": "fd7db1beabe9",
+      "title": "Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages",
+      "url": "https://huggingface.co/papers/2611.10304",
+      "publishedAt": "2026-11-06T23:04:32.000Z",
+      "summary": "Challenging repository-level benchmarks remain limited for many programming language ecosystems, where filtering scarce…",
+      "score": 15
+    },
+    {
+      "id": "c79746ee7ce8",
+      "title": "InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure",
+      "url": "https://huggingface.co/papers/2611.11558",
+      "publishedAt": "2026-11-08T18:59:37.000Z",
+      "summary": "While Recursive Self-Improvement (RSI) accelerates isolated algorithm and kernel synthesis, distributed LLM training de…",
+      "score": 13
+    },
+    {
+      "id": "cca978a41d24",
+      "title": "Training Vision Transformers to Focus: Emergence of Spatial Attention Head Specialization",
+      "url": "https://huggingface.co/papers/2611.11890",
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide …",
-      "score": 20
-    },
-    {
-      "id": "56e99e372833",
-      "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
-      "url": "https://huggingface.co/papers/2611.12806",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ul…",
-      "score": 17
-    },
-    {
-      "id": "0a77f5ef9b20",
-      "title": "SIRIS: Can LLMs Tell When Simulation Errors Matter in AI-Driven Systems Research",
-      "url": "https://huggingface.co/papers/2611.10329",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "LLM agents increasingly drive systems research and rely on simulators to evaluate candidate designs at scale. Simulator…",
-      "score": 8
-    },
-    {
-      "id": "1628209f3c64",
-      "title": "How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?",
-      "url": "https://huggingface.co/papers/2611.11450",
-      "publishedAt": "2026-11-08T00:00:00.000Z",
-      "summary": "On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generatin…",
+      "summary": "Self-supervised learning in Vision Transformer models, such as DINO, enables robust visual perception without requiring…",
       "score": 4
     },
     {
-      "id": "501d44eb6e09",
-      "title": "TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation",
-      "url": "https://huggingface.co/papers/2611.02810",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "This paper studies retrieval-augmented generation (RAG), which leverages external knowledge to improve the performance …",
-      "score": 4
-    },
-    {
-      "id": "a1c520a48e36",
-      "title": "FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2611.08240",
-      "publishedAt": "2026-11-05T16:19:52.000Z",
-      "summary": "Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives rol…",
+      "id": "59a243f62a0b",
+      "title": "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
+      "url": "https://huggingface.co/papers/2610.37570",
+      "publishedAt": "2026-10-27T17:15:15.000Z",
+      "summary": "We present LCM-Promo, an LLM-based uplift model for promotion allocation. LCM-Promo is a task-specific Large Commerce M…",
       "score": 3
     },
     {
-      "id": "31fb323216e6",
-      "title": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
-      "url": "https://huggingface.co/papers/2611.10123",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Can a language model report the pain state it represents? Work identified a linear pain direction whose amplification l…",
-      "score": 2
-    },
-    {
-      "id": "4458f622d869",
-      "title": "How Many Exposures Does a World Model Need? Learning Unseen Game Mechanics at Test Time",
-      "url": "https://huggingface.co/papers/2611.12324",
+      "id": "a55b5bbc4d98",
+      "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
+      "url": "https://huggingface.co/papers/2611.12870",
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "World models enable agents to plan and learn from imagined experience, but in an unfamiliar environment they must learn…",
+      "summary": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on arch…",
+      "score": 3
+    },
+    {
+      "id": "dff11859231d",
+      "title": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
+      "url": "https://huggingface.co/papers/2611.01112",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "summary": "Vision-language models can interpret instructions and plan manipulation tasks, yet struggle when acting directly as rob…",
       "score": 2
     },
     {
-      "id": "b9235ad3ce8a",
-      "title": "Stochastic Deep Supervision for Gallery-Consistent Early-Exit Face Recognition",
-      "url": "https://huggingface.co/papers/2611.09987",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Vision Transformers (ViTs) perform strongly in face recognition (FR), yet their fixed-depth inference limits deployment…",
+      "id": "6fa918656c01",
+      "title": "SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI",
+      "url": "https://huggingface.co/papers/2611.08935",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "Reliable dermatology AI requires access to verifiable evidence distributed across heterogeneous textual and visual sour…",
+      "score": 2
+    },
+    {
+      "id": "3fb0a81af9bc",
+      "title": "InstantHMR : Real-Time Human Mesh Recovery on Your Phone",
+      "url": "https://huggingface.co/papers/2611.09195",
+      "publishedAt": "2026-11-06T09:17:27.000Z",
+      "summary": "Real-time 3D human mesh recovery from a single image on mobile devices is a challenging problem with many applications,…",
+      "score": 2
+    },
+    {
+      "id": "2677e3d660d3",
+      "title": "Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks",
+      "url": "https://huggingface.co/papers/2611.12875",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "Despite impressive progress, existing feed-forward large 3D reconstruction models produce a single, irrevocable predict…",
       "score": 1
     },
     {
-      "id": "fe31556770ef",
-      "title": "FlyHash for LLM Agent Memory: An Empirical Validation and a New Application",
-      "url": "https://huggingface.co/papers/2611.05791",
-      "publishedAt": "2026-11-04T00:57:24.000Z",
-      "summary": "Large language model (LLM) agents increasingly rely on external memory stores to retain information across conversation…",
-      "score": 1
+      "id": "d6d301745919",
+      "title": "Creative Priming: Decoupling Process from Product to Escape the Creative Paradox",
+      "url": "https://huggingface.co/papers/2611.11740",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "Many of the most consequential advances promised by AI, from curing diseases and inventing new technologies to formulat…",
+      "score": 0
     },
     {
-      "id": "94bb452ff4ac",
-      "title": "Horizon-Scalable Q-Learning",
-      "url": "https://huggingface.co/papers/2611.10987",
+      "id": "d1d27d42ec8f",
+      "title": "Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching",
+      "url": "https://huggingface.co/papers/2501.08686",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "Traditional similarity-based schema matching methods fail to resolve semantic ambiguities and conflicts in complex, dom…",
+      "score": 0
+    },
+    {
+      "id": "d51669a61612",
+      "title": "Energy-Tweedie: Score meets Score, Energy meets Energy",
+      "url": "https://huggingface.co/papers/2512.23818",
       "publishedAt": "2026-11-07T00:00:00.000Z",
-      "summary": "Learning accurate off-policy state-action value functions (Q-functions) from offline datasets becomes harder as the tas…",
-      "score": 1
-    },
-    {
-      "id": "704cf9945c25",
-      "title": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
-      "url": "https://huggingface.co/papers/2611.08969",
-      "publishedAt": "2026-11-06T04:30:15.000Z",
-      "summary": "We present PhysioWave-T, a token-efficient wavelet foundation model family for EEG, ECG, and sEMG. Dynamic scale foldin…",
-      "score": 1
+      "summary": "Denoising and score estimation are classically linked through Tweedie's formula, which relates the posterior mean under…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-10T09:11:10.128Z",
+  "fetchedAt": "2026-11-10T17:02:27.553Z",
   "stale": false,
   "error": null
 }
