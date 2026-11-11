@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "937e1940bf29",
-      "title": "MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification",
-      "url": "https://huggingface.co/papers/2611.10592",
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "summary": "Large language models can generate motion graphics from static images and natural language requests, but it remains dif…",
-      "score": 9
+      "id": "889d6e1db326",
+      "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+      "url": "https://huggingface.co/papers/2611.14320",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise les…",
+      "score": 34
     },
     {
-      "id": "59a243f62a0b",
-      "title": "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
-      "url": "https://huggingface.co/papers/2610.37570",
-      "publishedAt": "2026-10-27T17:15:15.000Z",
-      "summary": "We present LCM-Promo, an LLM-based uplift model for promotion allocation. LCM-Promo is a task-specific Large Commerce M…",
+      "id": "69eee05135f4",
+      "title": "MMDM: Measuring Massive Multitask Decision Making",
+      "url": "https://huggingface.co/papers/2611.14309",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in…",
+      "score": 23
+    },
+    {
+      "id": "05e2b352efd8",
+      "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+      "url": "https://huggingface.co/papers/2611.14210",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a networ…",
+      "score": 5
+    },
+    {
+      "id": "7d893da89ba0",
+      "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
+      "url": "https://huggingface.co/papers/2611.12934",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imag…",
       "score": 4
     },
     {
-      "id": "dff11859231d",
-      "title": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
-      "url": "https://huggingface.co/papers/2611.01112",
-      "publishedAt": "2026-10-31T00:00:00.000Z",
-      "summary": "Vision-language models can interpret instructions and plan manipulation tasks, yet struggle when acting directly as rob…",
+      "id": "75336cc987e7",
+      "title": "Market-Conditioned JEPA: Learning from Unpredictable Market Shocks",
+      "url": "https://huggingface.co/papers/2611.13572",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "Much of the variation in financial time series is driven by market-wide shocks that cannot be predicted from an asset's…",
       "score": 4
     },
     {
-      "id": "2ff226d1841d",
-      "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
-      "url": "https://huggingface.co/papers/2611.11995",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. …",
+      "id": "282696dc76b3",
+      "title": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance",
+      "url": "https://huggingface.co/papers/2611.07464",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data mu…",
       "score": 3
     },
     {
-      "id": "92923bcf6341",
-      "title": "onóna: Twin Embeddings with Tied Unembeddings",
-      "url": "https://huggingface.co/papers/2611.10556",
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "summary": "Weight tying reduces the parameter cost of language models, but the usual tied output head is limited to a single softm…",
+      "id": "1525bda2ed0b",
+      "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+      "url": "https://huggingface.co/papers/2611.12865",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual …",
       "score": 3
     },
     {
-      "id": "a55b5bbc4d98",
-      "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
-      "url": "https://huggingface.co/papers/2611.12870",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on arch…",
+      "id": "65881a8a1e45",
+      "title": "Are Dense Rewards Worth Their Tokens in GRPO?",
+      "url": "https://huggingface.co/papers/2611.13560",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "RLVR trains language models to reason by rewarding correct final answers. A widely used algorithm, group-relative polic…",
       "score": 3
     },
     {
-      "id": "55d624f9d3bb",
-      "title": "FraudBench: A Legal Evaluation of AI Deception",
-      "url": "https://huggingface.co/papers/2611.12167",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly …",
+      "id": "0a3893109242",
+      "title": "Learning to Act with World Models by Valuing What Comes Next",
+      "url": "https://huggingface.co/papers/2611.12200",
+      "publishedAt": "2026-11-09T10:59:19.000Z",
+      "summary": "A sparse terminal reward tells an agent little about its steps. Much of the missing information is implicit in the envi…",
+      "score": 3
+    },
+    {
+      "id": "9a272c3022a0",
+      "title": "WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning",
+      "url": "https://huggingface.co/papers/2611.12527",
+      "publishedAt": "2026-11-09T15:02:29.000Z",
+      "summary": "This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, wh…",
       "score": 2
     },
     {
-      "id": "a6a1280682c7",
-      "title": "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
-      "url": "https://huggingface.co/papers/2611.09709",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly…",
+      "id": "a303d1912dd4",
+      "title": "EVAThink: Evidence Sufficiency-Guided Training for Adaptive Thinking in Video Understanding",
+      "url": "https://huggingface.co/papers/2611.13907",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "Under a fixed frame budget, video understanding with vision-language models (VLMs) depends on whether the sampled frame…",
       "score": 2
     },
     {
-      "id": "d6d301745919",
-      "title": "Creative Priming: Decoupling Process from Product to Escape the Creative Paradox",
-      "url": "https://huggingface.co/papers/2611.11740",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "Many of the most consequential advances promised by AI, from curing diseases and inventing new technologies to formulat…",
-      "score": 2
-    },
-    {
-      "id": "6d7f146744a4",
-      "title": "EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving",
-      "url": "https://huggingface.co/papers/2611.11994",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "Small multimodal models can misjudge emotion when words, voice, and visual cues conflict. We present EmoHarness, which …",
-      "score": 1
-    },
-    {
-      "id": "883b25ebd650",
-      "title": "e-means: outperforming k-means (in one-tenth the epochs)",
-      "url": "https://huggingface.co/papers/2611.09501",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, qua…",
-      "score": 1
-    },
-    {
-      "id": "2677e3d660d3",
-      "title": "Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks",
-      "url": "https://huggingface.co/papers/2611.12875",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "Despite impressive progress, existing feed-forward large 3D reconstruction models produce a single, irrevocable predict…",
+      "id": "ba9bcdd779a2",
+      "title": "Lipschitz-Controlled Flow Matching for Robust Image Restoration",
+      "url": "https://huggingface.co/papers/2611.13995",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "Flow-matching models can produce high-quality image restorations, but their learned dynamics may amplify small input pe…",
       "score": 1
     }
   ],
-  "fetchedAt": "2026-11-11T02:04:29.871Z",
+  "fetchedAt": "2026-11-11T09:22:47.889Z",
   "stale": false,
   "error": null
 }

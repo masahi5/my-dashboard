@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "5d1ab3bc76ee",
-      "title": "Museでループエンジニアリングしてみた🔁",
-      "url": "https://zenn.dev/teraryu/articles/d9a875c240d136",
-      "publishedAt": "2026-11-10T15:19:54.000Z",
-      "publisher": "Teraji",
-      "summary": "この記事で持ち帰れること 定期実行のAIエージェントに「どこまで任せるか」の線の引き方（3段階の権限設計） 通知過多を防ぐ「新規がなければ無言」設計と、その設計が失敗を隠すという落とし穴 「設計した」と「回っている」を取り違えた実例と、原…"
+      "id": "7bf7b6ca2913",
+      "title": "AI を「どれだけ賢くするか」から「どこまで任せ、どう確かめるか」へ。AI クリーンルームという考え方を整理してみた",
+      "url": "https://zenn.dev/hamasyou/articles/65b39d8f82d38c",
+      "publishedAt": "2026-11-11T06:46:08.000Z",
+      "publisher": "hamasyou",
+      "summary": "「AI に業務のシステムを触らせるのは、ちょっと……」 社内で AI エージェントの活用を提案して、こんな反応が返ってきたことはないでしょうか。そう言うのが決裁者だったら、話はそこで止まってしまいます。正直に言えば、私はこの反応を正しいと…"
     },
     {
-      "id": "bf27d9e9ad98",
-      "title": "Museにすべて賭けろ！！",
-      "url": "https://zenn.dev/soburi61/articles/5cd3bbcb2c36de",
-      "publishedAt": "2026-11-10T15:01:23.000Z",
-      "publisher": "そぶり",
-      "summary": "最初に断っておきます この記事の使い方は、セキュリティ的にかなりやばいやつです。とくに、AIエージェントが操作するブラウザにパスワードマネージャー（私の場合はBitwarden）をログインさせっぱなしにして、ログイン画面が出たら自動入力や…"
+      "id": "962f69ea660a",
+      "title": "Claude Code に 4 つの個人プロダクトを任せている記録",
+      "url": "https://zenn.dev/showgo/articles/claude-code-four-products-autopilot",
+      "publishedAt": "2026-11-11T06:35:34.000Z",
+      "publisher": "ShowGo",
+      "summary": "Web 系のソフトウェアエンジニアをしている ShowGo です。誰かの「人間関係を整える」ことに貢献したくて、個人でアプリを作っています。あとは単純に、モノを作るのが楽しいからです。 個人で iOS アプリを 3 本と読書ブログを 1 …"
     },
     {
-      "id": "c99a86fc08dc",
-      "title": "AI画像編集で「生成は成功したのに結果が残らない」問題に向き合った話",
-      "url": "https://zenn.dev/coderlim/articles/650f1b108ddec3",
-      "publishedAt": "2026-11-10T14:59:46.000Z",
-      "publisher": "CoderLim",
-      "summary": "個人開発でAI画像編集サービスを作っています。 ユーザーが画像をアップロードして、編集内容を入力すると、AIが画像を生成する。画面上の操作はシンプルですが、裏側の非同期処理は思っていたより面倒でした。 特に困ったのが、AI側では生成が成功…"
+      "id": "3f3f38376bfb",
+      "title": "AIが書き、AIが読み、たまに人が読む時代に、誰のために記事を書くのか",
+      "url": "https://zenn.dev/dotext/articles/6cfa543ecf215d",
+      "publishedAt": "2026-11-11T06:29:58.000Z",
+      "publisher": "dotExt",
+      "summary": "AIが書き、AIが読み、たまに人が読む 最近、ネットの記事をめぐる構造がこう変わってきたと感じています。 AIが書き、AIが読み、たまに人間が読む。 記事の下書きを生成AIが作り、それをクローラーやAI検索が読み込み、要約された形で人の目…"
     },
     {
-      "id": "af66eeb10c56",
-      "title": "安全ガードだけは、あえて参照しない。親リポ1つで7リポジトリのClaude Codeを指揮する設計",
-      "url": "https://zenn.dev/tzp/articles/705d1d29c2dc79",
-      "publishedAt": "2026-11-10T14:57:38.000Z",
-      "publisher": "てづっぴ",
-      "summary": "はじめに 😩「web で直したスキル、admin と service にもコピーしなきゃ…」 🤔「あれ、admin の create-pr って、こんな手順だったっけ？」 😱「このリポのガード、PR のマージを止めてない…？」 AI…"
+      "id": "10977b86e6b1",
+      "title": "ペーストが壊れる：5つの入口と bash 5.3 向けの改行正規化",
+      "url": "https://zenn.dev/ryoitabashi/articles/2026-11-11-dev-ja",
+      "publishedAt": "2026-11-11T06:23:54.000Z",
+      "publisher": "RYO ITABASHI",
+      "summary": "画像は AI 生成のイメージです Shelly では短い期間に、ペーストに関する独立した不具合が4件出ていた。内訳は、貼り付けた末尾の Enter や引用符が消える #27、IME の再同期で連続して送られる DEL によって先頭の : …"
     },
     {
-      "id": "40b83d2d9ec2",
-      "title": "Codexが無くても: Claude Codeのサブエージェントだけで越境整合レビューを組む",
-      "url": "https://zenn.dev/shoma46/articles/claude-code-subagent-spec-consistency-review",
-      "publishedAt": "2026-11-10T14:43:01.000Z",
-      "publisher": "shoma46",
-      "summary": "TL;DR 型検査・lint・テストが通っても残る「境界をまたぐ意味の不整合」を探すレビューを、Claude Codeのskillとサブエージェントだけで組んだ 書いた本人のセッションには判定させない。不変条件を抽出する役と検証する役を別…"
+      "id": "a4ddc994dc32",
+      "title": "AIエージェントの検索基盤をpgvectorで作る - 権限・日本語・モデル更新の実測",
+      "url": "https://zenn.dev/okamyuji/articles/pgvector-rag-agent-measured",
+      "publishedAt": "2026-11-11T06:00:30.000Z",
+      "publisher": "okamyuji",
+      "summary": "はじめに pgvectorはPostgreSQLにベクトルの保存と類似検索を追加する拡張です。ベクトルをほかの業務データと同じデータベースに置けるので既存のPostgreSQLにRAGやAIエージェントの検索機能を足すときに使えます。 R…"
     },
     {
-      "id": "0b82c5b06591",
-      "title": "Claude Code CLIを文脈圧縮プロキシでラップしたら、圧縮は動いたがキャッシュが壊れた話",
-      "url": "https://zenn.dev/matsushima_a/articles/day-042-billion-context-compression-proxy",
-      "publishedAt": "2026-11-10T14:23:17.000Z",
-      "publisher": "matsu",
-      "summary": "これは何の検証か 海外AIネタ100日チャレンジ Day 042。今回検証したのはranxianglei/billion-context(MIT License。製品に組み込む場合はクレジット表記を求める追加条項あり)。 Claude C…"
+      "id": "a20523a2ebf6",
+      "title": "周波数ドメインのビジュアライザとジャケット主導の動画を分けて考える短い設計メモ",
+      "url": "https://zenn.dev/jessica1007/articles/b5523f85d298e3",
+      "publishedAt": "2026-11-11T05:58:45.000Z",
+      "publisher": "Jessica AI",
+      "summary": "楽曲が完成したあとに「ミュージックビデオ」と一口で呼ぶと、実は二つのパイプラインが混ざります。一方はオーディオバッファの解析結果を描画する映像、もう一方はジャケットを画面の主役にしたプレーヤー演出です。入力契約が違うので、同じコンポーネン…"
     },
     {
-      "id": "14761f2f456b",
-      "title": "MCPとNext.",
-      "url": "https://zenn.dev/bambampurin/articles/2026-09-25-tech-daily",
-      "publishedAt": "2026-11-10T14:01:00.000Z",
-      "publisher": "子供部屋大学院生",
-      "summary": "AIエージェントとモダンWebの標準解：MCP・Next.js・Pythonエコシステムを選択すべき理由 この記事で分かること MCP（Model Context Protocol）の標準化がAIエージェント開発にもたらす構造的メリット …"
+      "id": "6296e7fd96c4",
+      "title": "マーケ・医療・エンタメ・出版・法務・教育 ― ノンIT領域に広がる生成AI活用まとめ【2026年版】",
+      "url": "https://zenn.dev/dotext/articles/d7848c5c83ff08",
+      "publishedAt": "2026-11-11T05:36:19.000Z",
+      "publisher": "dotExt",
+      "summary": "はじめに 生成AIの話題というと、どうしてもコーディング支援やエージェント開発などエンジニア向けの文脈が中心になりがちです。しかし2026年に入ってから、IT業界の外側でも「試してみた」段階を越え、実際の業務フローに組み込まれる事例が目立…"
     },
     {
-      "id": "08c2bc34ace8",
-      "title": "Garmin × Muse で「自分で育てる音声コーチ」を作った ― Voice Coach for Muse 開発記",
-      "url": "https://zenn.dev/comeonyama/articles/929d6272f9f1bf",
-      "publishedAt": "2026-11-10T13:32:12.000Z",
-      "publisher": "comeonyama",
-      "summary": "はじめに Garmin の LiveTrack と Muse を連携させ、走行中に準リアルタイムの音声コーチングを届けるシステム「Voice Coach for Muse（VCM）」を個人開発し、GitHub で公開しました。 きっかけは…"
+      "id": "567bada0fbf3",
+      "title": "AIが書いたコードと、リリースできるコードを分ける――ForgeAdminHarnessの設計",
+      "url": "https://zenn.dev/zhiyuxinxi/articles/1a0361ffc08a9b",
+      "publishedAt": "2026-11-11T05:24:21.000Z",
+      "publisher": "zhiyuxinxi",
+      "summary": "AI が「実装できました」と答えたとき、それは何が終わった状態でしょうか。ファイルを保存した、テストが通った、業務要件を満たした、環境に反映された――これらは別々の出来事です。 私がメンテナンスしている ForgeAdminHarness…"
     },
     {
-      "id": "bb7d03222f2e",
-      "title": "[Amazon Nova 2.5 Sonic] 喋って動くぬいぐるみを作ってみた",
-      "url": "https://zenn.dev/aws_japan/articles/talking-plush-nova-sonic",
-      "publishedAt": "2026-11-10T13:11:18.000Z",
-      "publisher": "Hikotty / Hikoto Iseda",
-      "summary": "はじめに 前回の記事では、音声を聞いて音声で返す speech-to-speech モデルの Amazon Nova 2.5 Sonic と、AWS がオープンソースで公開しているエージェントの SDK である Strands Agent…"
+      "id": "004214afb781",
+      "title": "AIが脆弱性を見つけて直す時代に、なにが変わる？",
+      "url": "https://zenn.dev/kotanpolin/articles/ai-vuln-autofix",
+      "publishedAt": "2026-11-11T05:06:26.000Z",
+      "publisher": "コタ",
+      "summary": "先に、3行で OpenAIが2026年11月4日、AIで脆弱性（ソフトの弱点）を「見つける→本当に危ないか試す→直し方を書く」仕組みを発表した。1回の実行で、Linuxカーネルの権限昇格の脆弱性948件について修正案（パッチ）を作り、AP…"
     },
     {
-      "id": "d5caa764e9ef",
-      "title": "便利だから使うけど信頼してない？ オックスフォード大学が明らかにした生成AI利用者の本音",
-      "url": "https://zenn.dev/syoshida07/articles/a9703104f45941",
-      "publishedAt": "2026-11-10T12:49:14.000Z",
-      "publisher": "satoshi yoshida - 思考アトリエの遊び場",
-      "summary": "オックスフォード大学ロイター・ジャーナリズム研究所は先日「Generative AI and News Report 2026」を公表した。 調査範囲は日本を含む9カ国で各国約2,000人が回答しており、2024年から続く6カ国では3年間…"
+      "id": "c947248a2bd6",
+      "title": "gh の --attach で Claude Code が作る PR にスクショを貼らせる",
+      "url": "https://zenn.dev/tatsuyan/articles/gh-attach-claude-code-pr-screenshot",
+      "publishedAt": "2026-11-11T05:00:05.000Z",
+      "publisher": "つけ麺テキーラ",
+      "summary": "Claude Code に PR を作らせるとき、UI の変更なら変更前後のスクリーンショットも PR に載せてほしいことがあります。 これまでの GitHub CLI には画像をアップロードする手段がなかったので、Claude Code…"
     },
     {
-      "id": "f3e3db984d88",
-      "title": "GitHub の公開コミットの13%に、AIの署名が付いていた",
-      "url": "https://zenn.dev/damaha/articles/829c1a039aec5f",
-      "publishedAt": "2026-11-10T12:46:46.000Z",
-      "publisher": "DΛMΛHΛ",
-      "summary": "Claude Code にコミットまで任せると、メッセージの最後に Co-Authored-By: Claude <noreply@anthropic.com> の行が付きます。 自分のリポジトリでも毎日この行が増えていくので、「これ、G…"
+      "id": "39fce1dd2a36",
+      "title": "自社の API をエージェントのプラグインにして、3つの環境で同じ1分の音声を処理してみた",
+      "url": "https://zenn.dev/kozo_ki/articles/41029fe69f8d7d",
+      "publishedAt": "2026-11-11T04:56:09.000Z",
+      "publisher": "Kozo@Kawamura International",
+      "summary": "これまでの記事 非エンジニアCEOがCopilot Studio × LDX hubを繋いでみた（前編） 非エンジニアCEOがCopilot Studio × LDX hubを繋いでみた（完結編） Power Automate をスキップ…"
     },
     {
-      "id": "ec73d397c9f4",
-      "title": "Claude Fable 5.2のプロンプトガイドを読んで正直に思ったことを書く",
-      "url": "https://zenn.dev/tree_and_tree/articles/thoughts-on-claude-fable-5-2",
-      "publishedAt": "2026-11-10T12:44:52.000Z",
-      "publisher": "さみっと",
-      "summary": "はじめに https://platform.claude.com/docs/ja/build-with-claude/prompt-engineering/prompting-claude-fable-5-2 Fable 5.2が発表され…"
+      "id": "85d7d8e8b30e",
+      "title": "金融特化の国産 LLM「PLaMo 3.0 Fin」を Databricks でバッチ推論・サービングしてみた",
+      "url": "https://zenn.dev/hiouchiy/articles/b837762b7a8a2b",
+      "publishedAt": "2026-11-11T04:48:11.000Z",
+      "publisher": "Hiroshi Ouchiyama (Databricks Japan)",
+      "summary": "はじめに 国内では今も LLM の開発が活発で、用途や業界に特化した面白いモデルが次々と公開されています。 2026 年 11 月 9 日には、Preferred Networks（PFN）が金融特化の小規模言語モデル PLaMo 3.0…"
     }
   ],
-  "fetchedAt": "2026-11-11T02:04:29.999Z",
+  "fetchedAt": "2026-11-11T09:22:48.121Z",
   "stale": false,
   "error": null
 }
