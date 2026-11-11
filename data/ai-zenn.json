@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "7bf7b6ca2913",
-      "title": "AI を「どれだけ賢くするか」から「どこまで任せ、どう確かめるか」へ。AI クリーンルームという考え方を整理してみた",
-      "url": "https://zenn.dev/hamasyou/articles/65b39d8f82d38c",
-      "publishedAt": "2026-11-11T06:46:08.000Z",
-      "publisher": "hamasyou",
-      "summary": "「AI に業務のシステムを触らせるのは、ちょっと……」 社内で AI エージェントの活用を提案して、こんな反応が返ってきたことはないでしょうか。そう言うのが決裁者だったら、話はそこで止まってしまいます。正直に言えば、私はこの反応を正しいと…"
+      "id": "1892876bb57b",
+      "title": "図解でAIと認識を共有する資料作成ガイド",
+      "url": "https://zenn.dev/yy7613/articles/4af301b4025cbb",
+      "publishedAt": "2026-11-11T16:11:12.000Z",
+      "publisher": "Yuuki.Y",
+      "summary": "はじめに この記事では図解を中心に情報を整理してAIと人が内容を共有しやすい資料を作成する方法を紹介します。 この記事の要点 文章はセクションや段落に分割して主張と理由をつなげる 図解で全体像や関係性を示して詳細を文章で補足する 図は関連…"
     },
     {
-      "id": "962f69ea660a",
-      "title": "Claude Code に 4 つの個人プロダクトを任せている記録",
-      "url": "https://zenn.dev/showgo/articles/claude-code-four-products-autopilot",
-      "publishedAt": "2026-11-11T06:35:34.000Z",
-      "publisher": "ShowGo",
-      "summary": "Web 系のソフトウェアエンジニアをしている ShowGo です。誰かの「人間関係を整える」ことに貢献したくて、個人でアプリを作っています。あとは単純に、モノを作るのが楽しいからです。 個人で iOS アプリを 3 本と読書ブログを 1 …"
+      "id": "aa7aa462580e",
+      "title": "ハーネスエンジニアリングを、人間とAIの合意形成へ",
+      "url": "https://zenn.dev/ryo0221/articles/7983cf7e857298",
+      "publishedAt": "2026-11-11T15:21:05.000Z",
+      "publisher": "ryo0221",
+      "summary": "AIエージェントの能力が向上するにつれ、ソフトウェア開発のあり方は大きく変わりつつある。 以前は、人間がコードを書き、AIがその一部を補助するという関係だった。それが今では、AIが実装し、テストし、修正し、人間が結果を確認するという形にな…"
     },
     {
-      "id": "3f3f38376bfb",
-      "title": "AIが書き、AIが読み、たまに人が読む時代に、誰のために記事を書くのか",
-      "url": "https://zenn.dev/dotext/articles/6cfa543ecf215d",
-      "publishedAt": "2026-11-11T06:29:58.000Z",
-      "publisher": "dotExt",
-      "summary": "AIが書き、AIが読み、たまに人が読む 最近、ネットの記事をめぐる構造がこう変わってきたと感じています。 AIが書き、AIが読み、たまに人間が読む。 記事の下書きを生成AIが作り、それをクローラーやAI検索が読み込み、要約された形で人の目…"
+      "id": "45e586145575",
+      "title": "サブエージェント設定ファイル集 ― Claude Code で役割分担・権限・差し戻しを組む",
+      "url": "https://zenn.dev/tsugu_sukima/books/765fcda0a99fad",
+      "publishedAt": "2026-11-11T15:08:04.000Z",
+      "publisher": "tsugu",
+      "summary": "サブエージェントの設定ファイル（Markdown）を、コピーして動く実物と1行ずつの解説、動作確認の手順でまとめた本です。書く係と判定する係を分ける最小構成から始め、道具（tools）の絞り方、差し戻しの回数と止め方、上書きしない保存の決…"
     },
     {
-      "id": "10977b86e6b1",
-      "title": "ペーストが壊れる：5つの入口と bash 5.3 向けの改行正規化",
-      "url": "https://zenn.dev/ryoitabashi/articles/2026-11-11-dev-ja",
-      "publishedAt": "2026-11-11T06:23:54.000Z",
-      "publisher": "RYO ITABASHI",
-      "summary": "画像は AI 生成のイメージです Shelly では短い期間に、ペーストに関する独立した不具合が4件出ていた。内訳は、貼り付けた末尾の Enter や引用符が消える #27、IME の再同期で連続して送られる DEL によって先頭の : …"
+      "id": "746a00b3170c",
+      "title": "写真から動画を作るときは「写真に写っていないこと」だけ書く",
+      "url": "https://zenn.dev/movoa/articles/95286eb2c37cee",
+      "publishedAt": "2026-11-11T14:48:36.000Z",
+      "publisher": "Movoa AI",
+      "summary": "写真1枚から動画を作るとき、「この写真を動かして」だけだと、カメラがゆっくりズームするだけのクリップになりがちです。写真の中にもう写っているものは書かず、写真に写っていないこと、つまり「これから起きる動き」と「聞こえる音」だけを書くと結果…"
     },
     {
-      "id": "a4ddc994dc32",
-      "title": "AIエージェントの検索基盤をpgvectorで作る - 権限・日本語・モデル更新の実測",
-      "url": "https://zenn.dev/okamyuji/articles/pgvector-rag-agent-measured",
-      "publishedAt": "2026-11-11T06:00:30.000Z",
-      "publisher": "okamyuji",
-      "summary": "はじめに pgvectorはPostgreSQLにベクトルの保存と類似検索を追加する拡張です。ベクトルをほかの業務データと同じデータベースに置けるので既存のPostgreSQLにRAGやAIエージェントの検索機能を足すときに使えます。 R…"
+      "id": "e55b8fb270ab",
+      "title": "Cosmos3-Edge - 物の位置を座標で取る",
+      "url": "https://zenn.dev/oggata/articles/12fb2738d27530",
+      "publishedAt": "2026-11-11T14:41:58.000Z",
+      "publisher": "Fumitoshi Ogata 緒方文俊",
+      "summary": "Colab: ch03_grounding.ipynb Cosmos 3 の Reasoner は、文章だけでなく画像の中の座標も答えられます。 ロボットにとっては「赤いボトルがある」より「赤いボトルの口は画像のここ」のほうがずっと役に立…"
     },
     {
-      "id": "a20523a2ebf6",
-      "title": "周波数ドメインのビジュアライザとジャケット主導の動画を分けて考える短い設計メモ",
-      "url": "https://zenn.dev/jessica1007/articles/b5523f85d298e3",
-      "publishedAt": "2026-11-11T05:58:45.000Z",
-      "publisher": "Jessica AI",
-      "summary": "楽曲が完成したあとに「ミュージックビデオ」と一口で呼ぶと、実は二つのパイプラインが混ざります。一方はオーディオバッファの解析結果を描画する映像、もう一方はジャケットを画面の主役にしたプレーヤー演出です。入力契約が違うので、同じコンポーネン…"
+      "id": "b90e34e451a8",
+      "title": "日本株も判定するLLM株価ダッシュボードをローカルOllamaで動かしたら、『0』が嘘をついていた",
+      "url": "https://zenn.dev/matsushima_a/articles/day-043-stock-dashboard-ollama-pitfalls",
+      "publishedAt": "2026-11-11T14:26:25.000Z",
+      "publisher": "matsu",
+      "summary": "これは何を試した記事か ZhuLinsen/daily_stock_analysis(MIT License)は、中国A株・香港・米国・日本・韓国・台湾の株式をLLMで分析し、「買い/様子見/売り」の判定・スコア・トレンド・リスク要因をま…"
     },
     {
-      "id": "6296e7fd96c4",
-      "title": "マーケ・医療・エンタメ・出版・法務・教育 ― ノンIT領域に広がる生成AI活用まとめ【2026年版】",
-      "url": "https://zenn.dev/dotext/articles/d7848c5c83ff08",
-      "publishedAt": "2026-11-11T05:36:19.000Z",
-      "publisher": "dotExt",
-      "summary": "はじめに 生成AIの話題というと、どうしてもコーディング支援やエージェント開発などエンジニア向けの文脈が中心になりがちです。しかし2026年に入ってから、IT業界の外側でも「試してみた」段階を越え、実際の業務フローに組み込まれる事例が目立…"
+      "id": "3e151ea69577",
+      "title": "VS Codeのウィンドウだらけで限界だったから、Claude Codeをworktreeごとに並列で回せる開発環境を自作した話",
+      "url": "https://zenn.dev/numachang/articles/vscode-claude-code-worktree-parallel",
+      "publishedAt": "2026-11-11T14:24:10.000Z",
+      "publisher": "numachang",
+      "summary": "Claude Codeを並列で回すようになってから、ウィンドウを切り替える回数がえらいことになりました。 1つのVS Codeで複数のセッションを動かすとClaude同士がぶつかるのでworktreeに分けてみたら、今度はウィンドウが増え…"
     },
     {
-      "id": "567bada0fbf3",
-      "title": "AIが書いたコードと、リリースできるコードを分ける――ForgeAdminHarnessの設計",
-      "url": "https://zenn.dev/zhiyuxinxi/articles/1a0361ffc08a9b",
-      "publishedAt": "2026-11-11T05:24:21.000Z",
-      "publisher": "zhiyuxinxi",
-      "summary": "AI が「実装できました」と答えたとき、それは何が終わった状態でしょうか。ファイルを保存した、テストが通った、業務要件を満たした、環境に反映された――これらは別々の出来事です。 私がメンテナンスしている ForgeAdminHarness…"
+      "id": "9951bda7e655",
+      "title": "TAKTの進捗を見える化するダッシュボードを公開しました",
+      "url": "https://zenn.dev/kanae_chaika/articles/takt-dashboard-intro",
+      "publishedAt": "2026-11-11T14:20:11.000Z",
+      "publisher": "Chaika",
+      "summary": "はじめに AI コーディングエージェントの見張り番をやめる。 それが TAKT。 https://zenn.dev/nrs/articles/c6842288a526d7 だけど、 「今どこまで進んでる？」 「レビューは通過した？」 など…"
     },
     {
-      "id": "004214afb781",
-      "title": "AIが脆弱性を見つけて直す時代に、なにが変わる？",
-      "url": "https://zenn.dev/kotanpolin/articles/ai-vuln-autofix",
-      "publishedAt": "2026-11-11T05:06:26.000Z",
-      "publisher": "コタ",
-      "summary": "先に、3行で OpenAIが2026年11月4日、AIで脆弱性（ソフトの弱点）を「見つける→本当に危ないか試す→直し方を書く」仕組みを発表した。1回の実行で、Linuxカーネルの権限昇格の脆弱性948件について修正案（パッチ）を作り、AP…"
+      "id": "2caf2623531d",
+      "title": "Claude Code を定期実行で回す前に決めておく 5 つのこと",
+      "url": "https://zenn.dev/soloraid/articles/1a3cc3034c6252",
+      "publishedAt": "2026-11-11T14:16:18.000Z",
+      "publisher": "Solo Raid",
+      "summary": "私は Claude Code を、ビジネス情報の収集や脆弱性の検知のような、毎日決まった時間に回したい仕事に使っています。対話で使うのに慣れてくると、こうした仕事は人がいない時間に回したくなります。ところが、画面の前に人がいない実行では、…"
     },
     {
-      "id": "c947248a2bd6",
-      "title": "gh の --attach で Claude Code が作る PR にスクショを貼らせる",
-      "url": "https://zenn.dev/tatsuyan/articles/gh-attach-claude-code-pr-screenshot",
-      "publishedAt": "2026-11-11T05:00:05.000Z",
-      "publisher": "つけ麺テキーラ",
-      "summary": "Claude Code に PR を作らせるとき、UI の変更なら変更前後のスクリーンショットも PR に載せてほしいことがあります。 これまでの GitHub CLI には画像をアップロードする手段がなかったので、Claude Code…"
+      "id": "f7345f1a00fa",
+      "title": "キッチン写真1枚で改装イメージを比較できるWebツール「AI Kitchen Preview」の機能と用途",
+      "url": "https://zenn.dev/bobo20260130/articles/f6f0da0eebe046",
+      "publishedAt": "2026-11-11T14:04:02.000Z",
+      "publisher": "Bo Wu",
+      "summary": "キッチンのリフォームや模様替えを検討するとき、ショールームや施工事例の写真を見るだけでは「自宅の実際の間取りや窓の位置に当てはめたときどう見えるか」をイメージしにくいことがあります。 こうした初期検討の段階で方向性をすり合わせるためのブラ…"
     },
     {
-      "id": "39fce1dd2a36",
-      "title": "自社の API をエージェントのプラグインにして、3つの環境で同じ1分の音声を処理してみた",
-      "url": "https://zenn.dev/kozo_ki/articles/41029fe69f8d7d",
-      "publishedAt": "2026-11-11T04:56:09.000Z",
-      "publisher": "Kozo@Kawamura International",
-      "summary": "これまでの記事 非エンジニアCEOがCopilot Studio × LDX hubを繋いでみた（前編） 非エンジニアCEOがCopilot Studio × LDX hubを繋いでみた（完結編） Power Automate をスキップ…"
+      "id": "2102d4aff943",
+      "title": "AI に全部は任せない、という作り方。画像生成と HTML でアニメを作って感じた、これからの可能性",
+      "url": "https://zenn.dev/lecto/articles/faf2c731d08325",
+      "publishedAt": "2026-11-11T13:45:51.000Z",
+      "publisher": "tamoco",
+      "summary": "AI で動画を作るなら、動画生成の AI に全部任せるのが近道に見えます。でも最近、手元の Mac で動く画像生成と HTML の canvas だけで短いアニメを作ってみて、作業を分けて、それぞれに合った道具をつなぐという作り方にも、け…"
     },
     {
-      "id": "85d7d8e8b30e",
-      "title": "金融特化の国産 LLM「PLaMo 3.0 Fin」を Databricks でバッチ推論・サービングしてみた",
-      "url": "https://zenn.dev/hiouchiy/articles/b837762b7a8a2b",
-      "publishedAt": "2026-11-11T04:48:11.000Z",
-      "publisher": "Hiroshi Ouchiyama (Databricks Japan)",
-      "summary": "はじめに 国内では今も LLM の開発が活発で、用途や業界に特化した面白いモデルが次々と公開されています。 2026 年 11 月 9 日には、Preferred Networks（PFN）が金融特化の小規模言語モデル PLaMo 3.0…"
+      "id": "e2c0b79c9c3a",
+      "title": "AIにブラウザを任せている間、自分は何を使う？ego liteを作った理由",
+      "url": "https://zenn.dev/clairechenrin/articles/b1d3a4b4a620d7",
+      "publishedAt": "2026-11-11T13:32:21.000Z",
+      "publisher": "クレア凛",
+      "summary": "コードはAIが書いてくれた。では、動作確認は？ ブラウザを開き、ステージング環境にログインし、検索して、画面を行き来する。コードを書く部分が速くなったぶん、その後に残る手作業が気になるようになりました。 それなら、この操作もエージェントに…"
     }
   ],
-  "fetchedAt": "2026-11-11T09:22:48.121Z",
+  "fetchedAt": "2026-11-11T17:21:04.389Z",
   "stale": false,
   "error": null
 }
