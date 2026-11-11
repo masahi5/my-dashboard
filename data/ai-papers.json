@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2611.10592",
       "publishedAt": "2026-11-07T00:00:00.000Z",
       "summary": "Large language models can generate motion graphics from static images and natural language requests, but it remains dif…",
-      "score": 7
+      "score": 9
     },
     {
       "id": "59a243f62a0b",
@@ -30,11 +30,11 @@
       "score": 4
     },
     {
-      "id": "a55b5bbc4d98",
-      "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
-      "url": "https://huggingface.co/papers/2611.12870",
+      "id": "2ff226d1841d",
+      "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+      "url": "https://huggingface.co/papers/2611.11995",
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on arch…",
+      "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. …",
       "score": 3
     },
     {
@@ -43,6 +43,22 @@
       "url": "https://huggingface.co/papers/2611.10556",
       "publishedAt": "2026-11-07T00:00:00.000Z",
       "summary": "Weight tying reduces the parameter cost of language models, but the usual tied output head is limited to a single softm…",
+      "score": 3
+    },
+    {
+      "id": "a55b5bbc4d98",
+      "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
+      "url": "https://huggingface.co/papers/2611.12870",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on arch…",
+      "score": 3
+    },
+    {
+      "id": "55d624f9d3bb",
+      "title": "FraudBench: A Legal Evaluation of AI Deception",
+      "url": "https://huggingface.co/papers/2611.12167",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly …",
       "score": 2
     },
     {
@@ -62,19 +78,19 @@
       "score": 2
     },
     {
+      "id": "6d7f146744a4",
+      "title": "EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving",
+      "url": "https://huggingface.co/papers/2611.11994",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "Small multimodal models can misjudge emotion when words, voice, and visual cues conflict. We present EmoHarness, which …",
+      "score": 1
+    },
+    {
       "id": "883b25ebd650",
       "title": "e-means: outperforming k-means (in one-tenth the epochs)",
       "url": "https://huggingface.co/papers/2611.09501",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "summary": "Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, qua…",
-      "score": 1
-    },
-    {
-      "id": "55d624f9d3bb",
-      "title": "FraudBench: A Legal Evaluation of AI Deception",
-      "url": "https://huggingface.co/papers/2611.12167",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly …",
       "score": 1
     },
     {
@@ -84,25 +100,9 @@
       "publishedAt": "2026-11-09T00:00:00.000Z",
       "summary": "Despite impressive progress, existing feed-forward large 3D reconstruction models produce a single, irrevocable predict…",
       "score": 1
-    },
-    {
-      "id": "d1d27d42ec8f",
-      "title": "Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching",
-      "url": "https://huggingface.co/papers/2501.08686",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Traditional similarity-based schema matching methods fail to resolve semantic ambiguities and conflicts in complex, dom…",
-      "score": 1
-    },
-    {
-      "id": "d51669a61612",
-      "title": "Energy-Tweedie: Score meets Score, Energy meets Energy",
-      "url": "https://huggingface.co/papers/2512.23818",
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "summary": "Denoising and score estimation are classically linked through Tweedie's formula, which relates the posterior mean under…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-10T22:22:44.541Z",
+  "fetchedAt": "2026-11-11T02:04:29.871Z",
   "stale": false,
   "error": null
 }
