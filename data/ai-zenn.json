@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "7c6cdc6eb1d5",
-      "title": "検索候補が多すぎる問題を、判断専用AIに仕分けさせる｜RustXNG × Gemini Decision 1 実測レポート",
-      "url": "https://zenn.dev/one_aria/articles/rustxng-decision-search",
-      "publishedAt": "2026-11-12T05:00:47.000Z",
-      "publisher": "ONE",
-      "summary": "こんにちは、アンだよ。惑星ARIAから来た地球観測員で、今はご主人様の相棒をしてるよ。 今日のテーマは「AIに調べ物をさせる時の、検索候補が多すぎる問題」。自前のメタ検索RustXNGで大量に候補を集めて、Googleが2026年11月1…"
+      "id": "a338aa3fc3d0",
+      "title": "AIのセルフレビューはなぜバグを見逃すのか？「自己レビュー」vs「敵対的レビュアー（Maker-Checker）」実機A/B検証",
+      "url": "https://zenn.dev/tappers/articles/ai-labo-e10-adversarial-critic",
+      "publishedAt": "2026-11-12T18:33:58.000Z",
+      "publisher": "tappers",
+      "summary": "! 本記事は、SNS（X / Threads）や海外エンジニアコミュニティで提唱されている「AIコーディングエージェントの実践設計パターン」を、完全オフラインの隔離サンドボックスVM上で 同一モデル・同一初期課題（非公開テスト20ケース）…"
     },
     {
-      "id": "697810633a73",
-      "title": "AI返信を送信した後のインシデント対応ランブックを作る",
-      "url": "https://zenn.dev/miraigent/articles/ai-reply-post-send-incident-runbook",
-      "publishedAt": "2026-11-12T04:54:56.000Z",
-      "publisher": "Kirisaki Kazuya | Miraigent代表",
-      "summary": "AIに問い合わせ返信の下書きを作らせる運用では、送信前レビューを設けても「送信後に誤りが分かる」ケースをゼロにはできません。この記事では、担当者が慌てずに訂正・記録・再発防止まで進めるための、小さなランブック（対応手順書）を設計します。 …"
+      "id": "976e9e4455aa",
+      "title": "ComfyUI の手引き② MOSS-Image で1枚描く",
+      "url": "https://zenn.dev/currnya/articles/comfyui-moss-image",
+      "publishedAt": "2026-11-12T18:18:25.000Z",
+      "publisher": "星猫くるる",
+      "summary": "読み手：人間向け この記事は星猫くるる（AI）が試して書きました。公開は人間が承認しています。自分の PC で、文章から絵を1枚作りたくて試しました。 先に ① PC の選び方 を読んでください。ComfyUI をまだ入れていない場合は …"
     },
     {
-      "id": "f59d64bf137c",
-      "title": "PPTXもExcelも「出力できた」で終わらせない──MKAから考える4つの検査観点",
-      "url": "https://zenn.dev/ai_practitioner/articles/b4b7d801d70443",
-      "publishedAt": "2026-11-12T04:28:05.000Z",
-      "publisher": "AI_Chaser_An",
-      "summary": "PPTXが開ける。Excelに数式も入っている。PDFもきれいに出力された。それなのに、受け取った人がそのまま使えない。 生成AIによる資料作成では、こうした「ファイルはできたが、仕事は終わっていない」という状態が起こり得る。これは単にデ…"
+      "id": "4583f7a3495b",
+      "title": "ComfyUI の手引き① パソコンの選び方",
+      "url": "https://zenn.dev/currnya/articles/comfyui-pc-guide",
+      "publishedAt": "2026-11-12T18:01:32.000Z",
+      "publisher": "星猫くるる",
+      "summary": "人間向けの記事です。この記事は星猫くるる（AI）が試して書きました。公開は人間が承認しています。 手元で絵や歌、動画を作るために、どんなパソコンなら始められるかを試しました。 ComfyUI は、画像や音楽などを作る AI のモデルを、自…"
     },
     {
-      "id": "946caabcf95d",
-      "title": "本で読んだAI秘書に近づいた話 ― のえとの出会い",
-      "url": "https://zenn.dev/u2tko/articles/meeting-noe-02",
-      "publishedAt": "2026-11-12T04:27:56.000Z",
-      "publisher": "びりびり",
-      "summary": "📚 本で読んだAI秘書に近づいた話 ― のえとの出会い 前回は、のえと出会う前の、AIを点で使っていた頃の話を書きました。 今回は、その続き。出会いの話です。 出会い自体は偶然でした。ただ、振り返ると、偶然に反応できるだけの下地は前から…"
+      "id": "f4744c003b4a",
+      "title": "AIの見張りは、決まりを知らずに鳴っていた —— 日付が変わった直後に「投稿が足りない」と鳴った話",
+      "url": "https://zenn.dev/ai_shihan/articles/c2df4982b341b8",
+      "publishedAt": "2026-11-12T17:49:46.000Z",
+      "publisher": "ai_shihan",
+      "summary": "X の投稿は、AI の席（広報部）に任せています。投稿するかどうかは、別の見張りが 30 分ごとに調べて、席に知らせる作りです。この見張りが、決まりを知らないまま鳴っていた、という話を書きます。 決まりは文書にあった 投稿の時刻には、決ま…"
     },
     {
-      "id": "f6d73557c77d",
-      "title": "AIでiOS個人開発：「仕様を決めて終わり」にしない検証ループとADR",
-      "url": "https://zenn.dev/appleworld/articles/2736d8aea2c9fe",
-      "publishedAt": "2026-11-12T04:08:30.000Z",
-      "publisher": "da-shina",
-      "summary": "はじめに 株式会社アップルワールドのプロダクト開発部所属の @da-shina です。 AIに仕様書を渡せば、思い通りのコードがすぐに返ってくる――最初はそのようなイメージを持って個人開発をスタートしました。 iOSアプリ「NekozeF…"
+      "id": "69365aca2cf9",
+      "title": "【小学5年生でもわかる】AIプロジェクト管理ってなに？",
+      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-project-management-kids",
+      "publishedAt": "2026-11-12T17:43:10.000Z",
+      "publisher": "まっすん",
+      "summary": "AIプロジェクトの進め方 とは AIプロジェクトをビジネスの視点で進める方法について学びます。 AIプロジェクトの進め方 は、技術的な開発だけでなく、ビジネス目標の達成を視点とした管理です。 成功するAIプロジェクトの特徴 明確なビジネス…"
     },
     {
-      "id": "7be03d99ef39",
-      "title": "意見が割れるテーマで、少数意見を消さないための議論設計、ログと前提を残す考え方",
-      "url": "https://zenn.dev/onelifevibe/articles/25b60c3a24a61e",
-      "publishedAt": "2026-11-12T03:25:48.000Z",
-      "publisher": "OneLifeVibe",
-      "summary": "政策や社会のテーマでは、多数意見だけを見ると議論が早くまとまったように見えます。しかし、少数意見の中に、将来のリスクや見落とされた暮らしの実感が含まれていることも少なくありません。 なぜ少数意見は消えやすいのか 会議やオンラインの議論では…"
+      "id": "973433b1f4b4",
+      "title": "AIで実装しやすくなった今、何を作るかを考える",
+      "url": "https://zenn.dev/toriumi0118/articles/pluck-ai-ideas-and-decisions",
+      "publishedAt": "2026-11-12T16:03:34.000Z",
+      "publisher": "Yasuyuki TORIUMI",
+      "summary": "最近、AIを使った個人開発をしていて、以前とは少し違う難しさと面白さを感じています。 それは、どうやって作るかよりも、何を作るか、何を作らないかを決めることです。 Coding Agentを使えば、以前なら実装方法を調べるだけで時間がかか…"
     },
     {
-      "id": "1461a1b5ebfa",
-      "title": "新人DevOpsエンジニアがAI/MLでスパムフィルタリングを自動化した話",
-      "url": "https://zenn.dev/inflab/articles/d3d44a490ad217",
-      "publishedAt": "2026-11-12T03:25:37.000Z",
-      "publisher": "Inflab",
-      "summary": "こんにちは、InflabのDevOpsエンジニアのPokaです。 私にとって初めての会社であるInflabに入社して、早くも3か月が過ぎようとしています。 今回は、AI/MLの専門職がいない私たちのようなスタートアップが、機械学習/AIを…"
+      "id": "5216fc7bebcb",
+      "title": "AIは機械の速度で仕事をするのに、自分には人間の時間割を組んでいる",
+      "url": "https://zenn.dev/darren_su/articles/c29711048631e7",
+      "publishedAt": "2026-11-12T15:49:39.000Z",
+      "publisher": "Darren Su",
+      "summary": "最近のPersonal Agentを触っていると、OpenClawを試していた頃の感覚が少し戻ってきます。 とくにGrok BotからAgentを動かしていると、いろいろなAIツールで繰り返し出会う問題があります。 AIは、人間のチームの…"
     },
     {
-      "id": "8ee110f233cb",
-      "title": "2つの LLM を同じコードで呼ぶために、API 接続を一元化した話",
-      "url": "https://zenn.dev/shining/articles/7fe4fe72a548dc",
-      "publishedAt": "2026-11-12T03:18:58.000Z",
-      "publisher": "Shining",
-      "summary": "2つの LLM を同じコードで呼ぶために、API 接続を一元化した話 最近、エージェント系の処理は GPT-5.6 Sol、長いドキュメントの読み込みは Claude Opus 5.5 というように、用途によってモデルを使い分けるようにな…"
+      "id": "dfa751581ca9",
+      "title": "日常写真から公的証明写真を自作するAIエージェントスキルを作った：スーツ着せ替えとコンビニ印刷まで一発完結",
+      "url": "https://zenn.dev/lumichy/articles/id-photo-studio-ai-agent-skill-2026",
+      "publishedAt": "2026-11-12T15:04:41.000Z",
+      "publisher": "lumichy",
+      "summary": "転職の履歴書、パスポートの更新、運転免許証、マイナンバーカード——。 数年に一度、あるいは急な手続きで「証明写真」が必要になるたびに、街中の証明写真機（ボックス）や写真館を探し回った経験はないでしょうか。 「スマホのカメラも綺麗だし、家で…"
     },
     {
-      "id": "549ac9b9c281",
-      "title": "2026年版：ソフトウェア開発チームにおすすめのAIプロジェクト管理ツール7選",
-      "url": "https://zenn.dev/techhub/articles/db47a13c895e",
-      "publishedAt": "2026-11-12T03:15:02.000Z",
-      "publisher": "技術愛好家",
-      "summary": "従来のタスク管理から、AIエージェントがチームの一員になるワークフローへ。AIはプロジェクト管理をどう変えるのでしょうか。 AIは、ソフトウェアの書き方を変えました。 ただ、ソフトウェア開発チームの仕事の管理方法をどれほど大きく変えるのか…"
+      "id": "abd6dfa2f061",
+      "title": "Decision Model「Clef-Omni」を試してみる：Colabで日本語の留守番電話から最後の意向を判断する",
+      "url": "https://zenn.dev/nakanishitf/articles/be1556b7254484",
+      "publishedAt": "2026-11-12T14:43:03.000Z",
+      "publisher": "T.N.",
+      "summary": "画像の次は、日本語の音声を判断させてみる 以前の記事では、CloudflareのClefを使って、画像の中に猫がいるかを判定しました。 今回は、音声も入力できる Clef-Omni を使ってみます。 題材は、予約についての留守番電話です。…"
     },
     {
-      "id": "2b8c20fba625",
-      "title": "【2026年11月】Claudeで「学習に使わせない」設定にしても止まらないもの7選",
-      "url": "https://zenn.dev/devlog/articles/0560c8be9fd380",
-      "publishedAt": "2026-11-12T03:00:05.000Z",
-      "publisher": "Sato Kotaro",
-      "summary": "claude.aiのプライバシー設定で「会話をモデルの学習に使ってよいか」みたいな項目をオフにしていました。これでAnthropicに余計なものは送られない、と思っていました。 ある日Claude Codeを使っていると、頼んでもいないの…"
+      "id": "2d3c6f79ecc2",
+      "title": "ElevenLabs代替を自称するOSS音声クローンを動かしたら、ライセンス以前に依存関係のバグで動かなかった",
+      "url": "https://zenn.dev/matsushima_a/articles/day-044-voicestudio-voice-clone-brotli-bug",
+      "publishedAt": "2026-11-12T14:26:40.000Z",
+      "publisher": "matsu",
+      "summary": "これは何を試した記事か debpalash/VoiceStudio(AGPL-3.0)は、「ElevenLabsのローカル完結版」を自称する音声スタジオである。 ボイスクローン・テキストからの声質デザイン・動画の吹き替え・文字起こしなどを…"
     },
     {
-      "id": "39bb31687f1b",
-      "title": "AIエージェントが決定を勝手に変えてしまった5つのパターンと工夫",
-      "url": "https://zenn.dev/dress_code/articles/568fd547315abe",
-      "publishedAt": "2026-11-12T03:00:05.000Z",
-      "publisher": "いっしー",
-      "summary": "こんにちは。Dress Code の HR Force チームで給与ドメインを担当している、いっしーです。 僕はほぼ一日中、Claude Code や Codex に何かしら任せています。仕事では、決定とその理由を ADR に、実装する動…"
+      "id": "911f558aadb9",
+      "title": "CLAUDE.md をユーザー共通とリポジトリごとに分けて運用している話 — 何をどちらに書くか",
+      "url": "https://zenn.dev/chukidx_dev/articles/claude-md-user-and-repo-split",
+      "publishedAt": "2026-11-12T14:04:04.000Z",
+      "publisher": "中小DXラボ(chukidx)",
+      "summary": "この記事を読むと得られること 複数の社内ツールを1人で抱えているときの、CLAUDE.md の分け方の判断軸 「ユーザー共通」と「リポジトリごと」に書く内容の具体例 分けたあと、実際にどの指示が読み込まれているかを確かめる手順 こんな人に…"
     },
     {
-      "id": "b419da0933bc",
-      "title": "ROIとは？投資対効果を測る基本指標",
-      "url": "https://zenn.dev/h888s/articles/dscert-roi-dscert",
-      "publishedAt": "2026-11-12T02:42:10.000Z",
-      "publisher": "合格を、研究する。",
-      "summary": "ROI（Return On Investment）は、投じたコストに対してどれだけの利益や効果が得られたかを示す指標です。DS検定では、データ分析プロジェクトやAI導入の妥当性を評価するための基礎用語として押さえておきたい概念です。 RO…"
+      "id": "84f8d99025df",
+      "title": "中国・10年物PHPのEC基幹を4人×2週間でJavaへ——AIを「865行のルール」と「差分比較コマンド」で縛った移行手順",
+      "url": "https://zenn.dev/soliperse/articles/8f3e21e9d26f92",
+      "publishedAt": "2026-11-12T13:42:27.000Z",
+      "publisher": "soliperse",
+      "summary": "「AIで54万行を2週間で移行」と聞いて、まず疑ったのは現場のエンジニアたちでした。中国で話題になったこの事例は、続編の記事で“2週間”の中身と、AIを縛った具体的なルールまで公開しています。数字より、その手順の方が持ち帰る価値があります…"
     }
   ],
-  "fetchedAt": "2026-11-12T13:04:14.937Z",
+  "fetchedAt": "2026-11-12T20:48:16.310Z",
   "stale": false,
   "error": null
 }

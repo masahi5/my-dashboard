@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "d0a759da8e14",
-      "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
-      "url": "https://huggingface.co/papers/2610.40394",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding th…",
-      "score": 31
-    },
-    {
       "id": "cd22f0f73137",
       "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
       "url": "https://huggingface.co/papers/2611.13410",
       "publishedAt": "2026-11-10T00:00:00.000Z",
       "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollout…",
-      "score": 23
+      "score": 31
     },
     {
       "id": "ef38da4a6f30",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2608.22237",
       "publishedAt": "2026-11-07T00:00:00.000Z",
       "summary": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces of…",
-      "score": 11
+      "score": 17
     },
     {
       "id": "7c446f8ac97c",
@@ -35,7 +27,7 @@
       "url": "https://huggingface.co/papers/2611.12304",
       "publishedAt": "2026-11-09T00:00:00.000Z",
       "summary": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving syste…",
-      "score": 4
+      "score": 11
     },
     {
       "id": "cf7c9fc48db6",
@@ -43,23 +35,15 @@
       "url": "https://huggingface.co/papers/2611.12869",
       "publishedAt": "2026-11-09T18:53:57.000Z",
       "summary": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation…",
-      "score": 3
+      "score": 6
     },
     {
-      "id": "8f7153f7e5d9",
-      "title": "Mixed Signals: Weight-Space Programming for EEG and ECG",
-      "url": "https://huggingface.co/papers/2611.13758",
+      "id": "00489f900d0f",
+      "title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+      "url": "https://huggingface.co/papers/2611.13766",
       "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Weight-space programming allows language models to read a trained neural network's weights and edit them. This opens th…",
-      "score": 2
-    },
-    {
-      "id": "a877df0d0040",
-      "title": "Module-Aware Optimization for Graph Neural Networks",
-      "url": "https://huggingface.co/papers/2611.08379",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "summary": "Different optimizers impose different geometries on parameter updates. Adaptive methods such as Adam and AdamW use coor…",
-      "score": 2
+      "summary": "We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. F…",
+      "score": 4
     },
     {
       "id": "87df4e3bd81b",
@@ -67,15 +51,23 @@
       "url": "https://huggingface.co/papers/2611.14418",
       "publishedAt": "2026-11-10T00:00:00.000Z",
       "summary": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bi…",
-      "score": 1
+      "score": 4
     },
     {
-      "id": "d46b2e1837f1",
-      "title": "Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds",
-      "url": "https://huggingface.co/papers/2611.08286",
+      "id": "8f7153f7e5d9",
+      "title": "Mixed Signals: Weight-Space Programming for EEG and ECG",
+      "url": "https://huggingface.co/papers/2611.13758",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "Weight-space programming allows language models to read a trained neural network's weights and edit them. This opens th…",
+      "score": 3
+    },
+    {
+      "id": "a877df0d0040",
+      "title": "Module-Aware Optimization for Graph Neural Networks",
+      "url": "https://huggingface.co/papers/2611.08379",
       "publishedAt": "2026-11-05T00:00:00.000Z",
-      "summary": "Visual interaction models that support users during ongoing physical tasks require evaluation in closed loop, where ass…",
-      "score": 1
+      "summary": "Different optimizers impose different geometries on parameter updates. Adaptive methods such as Adam and AdamW use coor…",
+      "score": 3
     },
     {
       "id": "8bddfd60c99a",
@@ -83,7 +75,7 @@
       "url": "https://huggingface.co/papers/2611.05862",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "summary": "Large language model (LLM) shopping assistants now recommend products in multi-turn conversations. However, reliable ev…",
-      "score": 0
+      "score": 2
     },
     {
       "id": "8eb9264b724a",
@@ -91,7 +83,7 @@
       "url": "https://huggingface.co/papers/2611.14413",
       "publishedAt": "2026-11-10T00:00:00.000Z",
       "summary": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of…",
-      "score": 0
+      "score": 2
     },
     {
       "id": "cc2c8c9c8423",
@@ -99,10 +91,18 @@
       "url": "https://huggingface.co/papers/2611.13843",
       "publishedAt": "2026-11-10T00:00:00.000Z",
       "summary": "Typed-decision encoders answer a question about a text in one forward pass, but their behaviour outside English is rare…",
-      "score": 0
+      "score": 2
+    },
+    {
+      "id": "5320189141a9",
+      "title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+      "url": "https://huggingface.co/papers/2611.11306",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisio…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-12T13:04:14.777Z",
+  "fetchedAt": "2026-11-12T20:48:16.115Z",
   "stale": false,
   "error": null
 }
