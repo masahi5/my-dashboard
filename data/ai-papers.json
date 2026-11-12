@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "18a7591b4b9e",
-      "title": "Embodied First Exam",
-      "url": "https://huggingface.co/papers/2611.12177",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. E…",
+      "id": "d0a759da8e14",
+      "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+      "url": "https://huggingface.co/papers/2610.40394",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding th…",
+      "score": 31
+    },
+    {
+      "id": "cd22f0f73137",
+      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+      "url": "https://huggingface.co/papers/2611.13410",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollout…",
       "score": 23
     },
     {
-      "id": "3be1fc7cc042",
-      "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
-      "url": "https://huggingface.co/papers/2611.13001",
-      "publishedAt": "2026-11-08T00:00:00.000Z",
-      "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evalua…",
-      "score": 19
-    },
-    {
-      "id": "e438dfd779ad",
-      "title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
-      "url": "https://huggingface.co/papers/2611.13576",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether thei…",
-      "score": 10
-    },
-    {
-      "id": "dffedcb4566f",
-      "title": "From Tool State to Scientific Action: Auditing Decision Provenance in Biomedical Research Agents",
-      "url": "https://huggingface.co/papers/2611.01527",
-      "publishedAt": "2026-11-01T03:58:26.000Z",
-      "summary": "A scientific agent can give the same verdict while reading and citing different evidence. BioAgent-DF tests this separa…",
-      "score": 10
-    },
-    {
-      "id": "78db0acf9c8f",
-      "title": "Test-Time Scaling for Diffusion Language Models with Frequency-Aware Remasking",
-      "url": "https://huggingface.co/papers/2611.10486",
+      "id": "ef38da4a6f30",
+      "title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
+      "url": "https://huggingface.co/papers/2608.22237",
       "publishedAt": "2026-11-07T00:00:00.000Z",
-      "summary": "Diffusion language models (DLMs) generate text through iterative denoising, where decisions about which tokens to commi…",
-      "score": 8
+      "summary": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces of…",
+      "score": 11
     },
     {
-      "id": "461989aa96f6",
-      "title": "LEASH: Stay Safe in Agentic Robotics",
-      "url": "https://huggingface.co/papers/2611.14115",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intellige…",
-      "score": 5
-    },
-    {
-      "id": "ef80d8e0b442",
-      "title": "DyCraft: An Agentic System for Long-Horizon 4D Scene Generation",
-      "url": "https://huggingface.co/papers/2610.40754",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "While frontier coding agents can generate high-quality 3D scenes and articulated assets, they struggle to create cohere…",
-      "score": 5
-    },
-    {
-      "id": "11f2983e79ac",
-      "title": "GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2611.13028",
+      "id": "7c446f8ac97c",
+      "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+      "url": "https://huggingface.co/papers/2611.12304",
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether age…",
+      "summary": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving syste…",
+      "score": 4
+    },
+    {
+      "id": "cf7c9fc48db6",
+      "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
+      "url": "https://huggingface.co/papers/2611.12869",
+      "publishedAt": "2026-11-09T18:53:57.000Z",
+      "summary": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation…",
+      "score": 3
+    },
+    {
+      "id": "8f7153f7e5d9",
+      "title": "Mixed Signals: Weight-Space Programming for EEG and ECG",
+      "url": "https://huggingface.co/papers/2611.13758",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "Weight-space programming allows language models to read a trained neural network's weights and edit them. This opens th…",
       "score": 2
     },
     {
-      "id": "4abf02df9681",
-      "title": "Visual Similarity in Adult Word Extension and Artificial Word Learning",
-      "url": "https://huggingface.co/papers/2611.14116",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "When two objects share a name, how much does their visual similarity explain, and what do the teaching examples add? Fi…",
+      "id": "a877df0d0040",
+      "title": "Module-Aware Optimization for Graph Neural Networks",
+      "url": "https://huggingface.co/papers/2611.08379",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "Different optimizers impose different geometries on parameter updates. Adaptive methods such as Adam and AdamW use coor…",
       "score": 2
     },
     {
-      "id": "9b6066e45f25",
-      "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2610.39671",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-i…",
-      "score": 1
-    },
-    {
-      "id": "db849c79e56f",
-      "title": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting",
-      "url": "https://huggingface.co/papers/2611.11912",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "LiDAR point clouds and 3D semantic occupancy represent two distinct modalities capturing fine-grained metric geometry a…",
-      "score": 1
-    },
-    {
-      "id": "433198d8d381",
-      "title": "Prompt2Echo (P2Echo): Text-Prompted Multi-View Echocardiography Segmentation with One Model",
-      "url": "https://huggingface.co/papers/2611.13425",
+      "id": "87df4e3bd81b",
+      "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+      "url": "https://huggingface.co/papers/2611.14418",
       "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Automated segmentation in multi-view echocardiography is essential for comprehensive cardiac assessment, yet remains ch…",
+      "summary": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bi…",
       "score": 1
+    },
+    {
+      "id": "d46b2e1837f1",
+      "title": "Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds",
+      "url": "https://huggingface.co/papers/2611.08286",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "Visual interaction models that support users during ongoing physical tasks require evaluation in closed loop, where ass…",
+      "score": 1
+    },
+    {
+      "id": "8bddfd60c99a",
+      "title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
+      "url": "https://huggingface.co/papers/2611.05862",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Large language model (LLM) shopping assistants now recommend products in multi-turn conversations. However, reliable ev…",
+      "score": 0
+    },
+    {
+      "id": "8eb9264b724a",
+      "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
+      "url": "https://huggingface.co/papers/2611.14413",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of…",
+      "score": 0
+    },
+    {
+      "id": "cc2c8c9c8423",
+      "title": "PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard",
+      "url": "https://huggingface.co/papers/2611.13843",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "Typed-decision encoders answer a question about a text in one forward pass, but their behaviour outside English is rare…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-12T04:16:49.492Z",
+  "fetchedAt": "2026-11-12T13:04:14.777Z",
   "stale": false,
   "error": null
 }

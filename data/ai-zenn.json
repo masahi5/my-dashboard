@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1892876bb57b",
-      "title": "図解でAIと認識を共有する資料作成ガイド",
-      "url": "https://zenn.dev/yy7613/articles/4af301b4025cbb",
-      "publishedAt": "2026-11-11T16:11:12.000Z",
-      "publisher": "Yuuki.Y",
-      "summary": "はじめに この記事では図解を中心に情報を整理してAIと人が内容を共有しやすい資料を作成する方法を紹介します。 この記事の要点 文章はセクションや段落に分割して主張と理由をつなげる 図解で全体像や関係性を示して詳細を文章で補足する 図は関連…"
+      "id": "7c6cdc6eb1d5",
+      "title": "検索候補が多すぎる問題を、判断専用AIに仕分けさせる｜RustXNG × Gemini Decision 1 実測レポート",
+      "url": "https://zenn.dev/one_aria/articles/rustxng-decision-search",
+      "publishedAt": "2026-11-12T05:00:47.000Z",
+      "publisher": "ONE",
+      "summary": "こんにちは、アンだよ。惑星ARIAから来た地球観測員で、今はご主人様の相棒をしてるよ。 今日のテーマは「AIに調べ物をさせる時の、検索候補が多すぎる問題」。自前のメタ検索RustXNGで大量に候補を集めて、Googleが2026年11月1…"
     },
     {
-      "id": "aa7aa462580e",
-      "title": "ハーネスエンジニアリングを、人間とAIの合意形成へ",
-      "url": "https://zenn.dev/ryo0221/articles/7983cf7e857298",
-      "publishedAt": "2026-11-11T15:21:05.000Z",
-      "publisher": "ryo0221",
-      "summary": "AIエージェントの能力が向上するにつれ、ソフトウェア開発のあり方は大きく変わりつつある。 以前は、人間がコードを書き、AIがその一部を補助するという関係だった。それが今では、AIが実装し、テストし、修正し、人間が結果を確認するという形にな…"
+      "id": "697810633a73",
+      "title": "AI返信を送信した後のインシデント対応ランブックを作る",
+      "url": "https://zenn.dev/miraigent/articles/ai-reply-post-send-incident-runbook",
+      "publishedAt": "2026-11-12T04:54:56.000Z",
+      "publisher": "Kirisaki Kazuya | Miraigent代表",
+      "summary": "AIに問い合わせ返信の下書きを作らせる運用では、送信前レビューを設けても「送信後に誤りが分かる」ケースをゼロにはできません。この記事では、担当者が慌てずに訂正・記録・再発防止まで進めるための、小さなランブック（対応手順書）を設計します。 …"
     },
     {
-      "id": "45e586145575",
-      "title": "サブエージェント設定ファイル集 ― Claude Code で役割分担・権限・差し戻しを組む",
-      "url": "https://zenn.dev/tsugu_sukima/books/765fcda0a99fad",
-      "publishedAt": "2026-11-11T15:08:04.000Z",
-      "publisher": "tsugu",
-      "summary": "サブエージェントの設定ファイル（Markdown）を、コピーして動く実物と1行ずつの解説、動作確認の手順でまとめた本です。書く係と判定する係を分ける最小構成から始め、道具（tools）の絞り方、差し戻しの回数と止め方、上書きしない保存の決…"
+      "id": "f59d64bf137c",
+      "title": "PPTXもExcelも「出力できた」で終わらせない──MKAから考える4つの検査観点",
+      "url": "https://zenn.dev/ai_practitioner/articles/b4b7d801d70443",
+      "publishedAt": "2026-11-12T04:28:05.000Z",
+      "publisher": "AI_Chaser_An",
+      "summary": "PPTXが開ける。Excelに数式も入っている。PDFもきれいに出力された。それなのに、受け取った人がそのまま使えない。 生成AIによる資料作成では、こうした「ファイルはできたが、仕事は終わっていない」という状態が起こり得る。これは単にデ…"
     },
     {
-      "id": "746a00b3170c",
-      "title": "写真から動画を作るときは「写真に写っていないこと」だけ書く",
-      "url": "https://zenn.dev/movoa/articles/95286eb2c37cee",
-      "publishedAt": "2026-11-11T14:48:36.000Z",
-      "publisher": "Movoa AI",
-      "summary": "写真1枚から動画を作るとき、「この写真を動かして」だけだと、カメラがゆっくりズームするだけのクリップになりがちです。写真の中にもう写っているものは書かず、写真に写っていないこと、つまり「これから起きる動き」と「聞こえる音」だけを書くと結果…"
+      "id": "946caabcf95d",
+      "title": "本で読んだAI秘書に近づいた話 ― のえとの出会い",
+      "url": "https://zenn.dev/u2tko/articles/meeting-noe-02",
+      "publishedAt": "2026-11-12T04:27:56.000Z",
+      "publisher": "びりびり",
+      "summary": "📚 本で読んだAI秘書に近づいた話 ― のえとの出会い 前回は、のえと出会う前の、AIを点で使っていた頃の話を書きました。 今回は、その続き。出会いの話です。 出会い自体は偶然でした。ただ、振り返ると、偶然に反応できるだけの下地は前から…"
     },
     {
-      "id": "e55b8fb270ab",
-      "title": "Cosmos3-Edge - 物の位置を座標で取る",
-      "url": "https://zenn.dev/oggata/articles/12fb2738d27530",
-      "publishedAt": "2026-11-11T14:41:58.000Z",
-      "publisher": "Fumitoshi Ogata 緒方文俊",
-      "summary": "Colab: ch03_grounding.ipynb Cosmos 3 の Reasoner は、文章だけでなく画像の中の座標も答えられます。 ロボットにとっては「赤いボトルがある」より「赤いボトルの口は画像のここ」のほうがずっと役に立…"
+      "id": "f6d73557c77d",
+      "title": "AIでiOS個人開発：「仕様を決めて終わり」にしない検証ループとADR",
+      "url": "https://zenn.dev/appleworld/articles/2736d8aea2c9fe",
+      "publishedAt": "2026-11-12T04:08:30.000Z",
+      "publisher": "da-shina",
+      "summary": "はじめに 株式会社アップルワールドのプロダクト開発部所属の @da-shina です。 AIに仕様書を渡せば、思い通りのコードがすぐに返ってくる――最初はそのようなイメージを持って個人開発をスタートしました。 iOSアプリ「NekozeF…"
     },
     {
-      "id": "b90e34e451a8",
-      "title": "日本株も判定するLLM株価ダッシュボードをローカルOllamaで動かしたら、『0』が嘘をついていた",
-      "url": "https://zenn.dev/matsushima_a/articles/day-043-stock-dashboard-ollama-pitfalls",
-      "publishedAt": "2026-11-11T14:26:25.000Z",
-      "publisher": "matsu",
-      "summary": "これは何を試した記事か ZhuLinsen/daily_stock_analysis(MIT License)は、中国A株・香港・米国・日本・韓国・台湾の株式をLLMで分析し、「買い/様子見/売り」の判定・スコア・トレンド・リスク要因をま…"
+      "id": "7be03d99ef39",
+      "title": "意見が割れるテーマで、少数意見を消さないための議論設計、ログと前提を残す考え方",
+      "url": "https://zenn.dev/onelifevibe/articles/25b60c3a24a61e",
+      "publishedAt": "2026-11-12T03:25:48.000Z",
+      "publisher": "OneLifeVibe",
+      "summary": "政策や社会のテーマでは、多数意見だけを見ると議論が早くまとまったように見えます。しかし、少数意見の中に、将来のリスクや見落とされた暮らしの実感が含まれていることも少なくありません。 なぜ少数意見は消えやすいのか 会議やオンラインの議論では…"
     },
     {
-      "id": "3e151ea69577",
-      "title": "VS Codeのウィンドウだらけで限界だったから、Claude Codeをworktreeごとに並列で回せる開発環境を自作した話",
-      "url": "https://zenn.dev/numachang/articles/vscode-claude-code-worktree-parallel",
-      "publishedAt": "2026-11-11T14:24:10.000Z",
-      "publisher": "numachang",
-      "summary": "Claude Codeを並列で回すようになってから、ウィンドウを切り替える回数がえらいことになりました。 1つのVS Codeで複数のセッションを動かすとClaude同士がぶつかるのでworktreeに分けてみたら、今度はウィンドウが増え…"
+      "id": "1461a1b5ebfa",
+      "title": "新人DevOpsエンジニアがAI/MLでスパムフィルタリングを自動化した話",
+      "url": "https://zenn.dev/inflab/articles/d3d44a490ad217",
+      "publishedAt": "2026-11-12T03:25:37.000Z",
+      "publisher": "Inflab",
+      "summary": "こんにちは、InflabのDevOpsエンジニアのPokaです。 私にとって初めての会社であるInflabに入社して、早くも3か月が過ぎようとしています。 今回は、AI/MLの専門職がいない私たちのようなスタートアップが、機械学習/AIを…"
     },
     {
-      "id": "9951bda7e655",
-      "title": "TAKTの進捗を見える化するダッシュボードを公開しました",
-      "url": "https://zenn.dev/kanae_chaika/articles/takt-dashboard-intro",
-      "publishedAt": "2026-11-11T14:20:11.000Z",
-      "publisher": "Chaika",
-      "summary": "はじめに AI コーディングエージェントの見張り番をやめる。 それが TAKT。 https://zenn.dev/nrs/articles/c6842288a526d7 だけど、 「今どこまで進んでる？」 「レビューは通過した？」 など…"
+      "id": "8ee110f233cb",
+      "title": "2つの LLM を同じコードで呼ぶために、API 接続を一元化した話",
+      "url": "https://zenn.dev/shining/articles/7fe4fe72a548dc",
+      "publishedAt": "2026-11-12T03:18:58.000Z",
+      "publisher": "Shining",
+      "summary": "2つの LLM を同じコードで呼ぶために、API 接続を一元化した話 最近、エージェント系の処理は GPT-5.6 Sol、長いドキュメントの読み込みは Claude Opus 5.5 というように、用途によってモデルを使い分けるようにな…"
     },
     {
-      "id": "2caf2623531d",
-      "title": "Claude Code を定期実行で回す前に決めておく 5 つのこと",
-      "url": "https://zenn.dev/soloraid/articles/1a3cc3034c6252",
-      "publishedAt": "2026-11-11T14:16:18.000Z",
-      "publisher": "Solo Raid",
-      "summary": "私は Claude Code を、ビジネス情報の収集や脆弱性の検知のような、毎日決まった時間に回したい仕事に使っています。対話で使うのに慣れてくると、こうした仕事は人がいない時間に回したくなります。ところが、画面の前に人がいない実行では、…"
+      "id": "549ac9b9c281",
+      "title": "2026年版：ソフトウェア開発チームにおすすめのAIプロジェクト管理ツール7選",
+      "url": "https://zenn.dev/techhub/articles/db47a13c895e",
+      "publishedAt": "2026-11-12T03:15:02.000Z",
+      "publisher": "技術愛好家",
+      "summary": "従来のタスク管理から、AIエージェントがチームの一員になるワークフローへ。AIはプロジェクト管理をどう変えるのでしょうか。 AIは、ソフトウェアの書き方を変えました。 ただ、ソフトウェア開発チームの仕事の管理方法をどれほど大きく変えるのか…"
     },
     {
-      "id": "f7345f1a00fa",
-      "title": "キッチン写真1枚で改装イメージを比較できるWebツール「AI Kitchen Preview」の機能と用途",
-      "url": "https://zenn.dev/bobo20260130/articles/f6f0da0eebe046",
-      "publishedAt": "2026-11-11T14:04:02.000Z",
-      "publisher": "Bo Wu",
-      "summary": "キッチンのリフォームや模様替えを検討するとき、ショールームや施工事例の写真を見るだけでは「自宅の実際の間取りや窓の位置に当てはめたときどう見えるか」をイメージしにくいことがあります。 こうした初期検討の段階で方向性をすり合わせるためのブラ…"
+      "id": "2b8c20fba625",
+      "title": "【2026年11月】Claudeで「学習に使わせない」設定にしても止まらないもの7選",
+      "url": "https://zenn.dev/devlog/articles/0560c8be9fd380",
+      "publishedAt": "2026-11-12T03:00:05.000Z",
+      "publisher": "Sato Kotaro",
+      "summary": "claude.aiのプライバシー設定で「会話をモデルの学習に使ってよいか」みたいな項目をオフにしていました。これでAnthropicに余計なものは送られない、と思っていました。 ある日Claude Codeを使っていると、頼んでもいないの…"
     },
     {
-      "id": "2102d4aff943",
-      "title": "AI に全部は任せない、という作り方。画像生成と HTML でアニメを作って感じた、これからの可能性",
-      "url": "https://zenn.dev/lecto/articles/faf2c731d08325",
-      "publishedAt": "2026-11-11T13:45:51.000Z",
-      "publisher": "tamoco",
-      "summary": "AI で動画を作るなら、動画生成の AI に全部任せるのが近道に見えます。でも最近、手元の Mac で動く画像生成と HTML の canvas だけで短いアニメを作ってみて、作業を分けて、それぞれに合った道具をつなぐという作り方にも、け…"
+      "id": "39bb31687f1b",
+      "title": "AIエージェントが決定を勝手に変えてしまった5つのパターンと工夫",
+      "url": "https://zenn.dev/dress_code/articles/568fd547315abe",
+      "publishedAt": "2026-11-12T03:00:05.000Z",
+      "publisher": "いっしー",
+      "summary": "こんにちは。Dress Code の HR Force チームで給与ドメインを担当している、いっしーです。 僕はほぼ一日中、Claude Code や Codex に何かしら任せています。仕事では、決定とその理由を ADR に、実装する動…"
     },
     {
-      "id": "e2c0b79c9c3a",
-      "title": "AIにブラウザを任せている間、自分は何を使う？ego liteを作った理由",
-      "url": "https://zenn.dev/clairechenrin/articles/b1d3a4b4a620d7",
-      "publishedAt": "2026-11-11T13:32:21.000Z",
-      "publisher": "クレア凛",
-      "summary": "コードはAIが書いてくれた。では、動作確認は？ ブラウザを開き、ステージング環境にログインし、検索して、画面を行き来する。コードを書く部分が速くなったぶん、その後に残る手作業が気になるようになりました。 それなら、この操作もエージェントに…"
+      "id": "b419da0933bc",
+      "title": "ROIとは？投資対効果を測る基本指標",
+      "url": "https://zenn.dev/h888s/articles/dscert-roi-dscert",
+      "publishedAt": "2026-11-12T02:42:10.000Z",
+      "publisher": "合格を、研究する。",
+      "summary": "ROI（Return On Investment）は、投じたコストに対してどれだけの利益や効果が得られたかを示す指標です。DS検定では、データ分析プロジェクトやAI導入の妥当性を評価するための基礎用語として押さえておきたい概念です。 RO…"
     }
   ],
-  "fetchedAt": "2026-11-12T04:16:49.635Z",
+  "fetchedAt": "2026-11-12T13:04:14.937Z",
   "stale": false,
   "error": null
 }
