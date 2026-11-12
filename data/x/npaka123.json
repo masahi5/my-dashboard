@@ -2,6 +2,33 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2120676463137714484",
+      "url": "https://x.com/gclue_akira/status/2120676463137714484",
+      "text": "Jetson AGX Thorで動く軽量モデルWeightが公開されてるのか\nhuggingface.co/nvidia/Alpama…",
+      "publishedAt": "2026-11-12T00:34:03.000Z",
+      "authorHandle": "gclue_akira",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2120665267189715410",
+      "url": "https://x.com/masato_ka/status/2120665267189715410",
+      "text": "Genesis-world上でMjlabとかIsaacLabライクにコンフィグ設定形式でロボットの強化学習環境を構築できるフレームワークっぽい。\n\ngithub.com/embodied-ai-nexus…",
+      "publishedAt": "2026-11-11T23:49:34.000Z",
+      "authorHandle": "masato_ka",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2120662316723417121",
+      "url": "https://x.com/gclue_akira/status/2120662316723417121",
+      "text": "Fable5.2とRoboハーネスが何をやったかのまとめ\n\n最近は、Fable5.2の作業報告と課題整理は、作業終了時に全部動画レポートで提出させている感じ",
+      "publishedAt": "2026-11-11T23:37:50.000Z",
+      "authorHandle": "gclue_akira",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2120658993970622944",
       "url": "https://x.com/gclue_akira/status/2120658993970622944",
       "text": "これからはロボットハーネスの時代",
@@ -38,6 +65,15 @@
       "repost": false
     },
     {
+      "id": "2120643311178592513",
+      "url": "https://x.com/nhk_news/status/2120643311178592513",
+      "text": "人手不足解消へ ファミマがフィジカルAI導入\nnews.web.nhk/newsweb/na/nd-2…",
+      "publishedAt": "2026-11-11T22:22:19.000Z",
+      "authorHandle": "nhk_news",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2120637699715465343",
       "url": "https://x.com/skylark_mmm/status/2120637699715465343",
       "text": "ずっとやりたかったアドミタンス制御での不整地歩行！\n\n#ハルモニウム  #V_Sido @overs_5121",
@@ -54,45 +90,9 @@
       "authorHandle": "_akhaliq",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2120583845271712198",
-      "url": "https://x.com/Sanjil/status/2120583845271712198",
-      "text": "The shift from robot demos to memory and evaluation, a few other things that stood out at CoRL 2026:\n\n1. Data is getting labeled and not filtered\n- π0.7 tagged every episode with speed, quality and mistakes instead of throwing the bad ones out\n- Matched experienced teleops folding shirts on a robot that it had no previous task data for\n\n2. The scoreboards are shaky\n- A 90M model that never reads the instruction scores 97.6% on LIBERO\n- 1/5 LIBERO SOTA claims held up\n\n3. Memory is the next scaling axis\n- Same model on 8k steps of context vs 1k showed 62% better results\n- Poor generalization is the robot forgetting what it just did.\n\n4. Touch and tactlie is in but force isn’t yet\n- Lots of tactile work, especially on dexterous hands\n-  But the loop on an actual force target isn't closed\n\n5. Big tech had no demos\n- Apple and Meta both had booths with nothing to showcase\n- Apple was recruiting for a project it couldn’t describe while Meta was pitching a consumer humanoid",
-      "publishedAt": "2026-11-11T18:26:01.000Z",
-      "authorHandle": "Sanjil",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2120582957782200586",
-      "url": "https://x.com/bot/status/2120582957782200586",
-      "text": "Introducing Grok Bot 1.0. AI teammates that work alongside your whole team.\n\nShare Bots, collaborate with them in Slack and Teams, invite them to meetings, and watch them learn and become more helpful.",
-      "publishedAt": "2026-11-11T18:22:30.000Z",
-      "authorHandle": "bot",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2120581433639198885",
-      "url": "https://x.com/OfficialLoganK/status/2120581433639198885",
-      "text": "Introducing Gemini Decision 1, our new frontier decision  model in the Gemini API.\n\nIt is $0.10 per 1M input tokens with no additional cost. With support for image, audio, video, and PDF natively, 256K context window, & 1K questions.\n\nYou can try it for free in the API!",
-      "publishedAt": "2026-11-11T18:16:26.000Z",
-      "authorHandle": "OfficialLoganK",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2120542737179263047",
-      "url": "https://x.com/tomssilver/status/2120542737179263047",
-      "text": "At #CoRL2026 I'm hearing several variations on \"agents may be effective at robot decision-making, but they’re too slow\" or \"not reactive\".\n\n[E.g., motivating VLAs/WAMs.]\n\nI think this means at least 3 different things depending on how the agent is being used. 🧵",
-      "publishedAt": "2026-11-11T15:42:40.000Z",
-      "authorHandle": "tomssilver",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-11-11T23:37:05.140Z",
+  "fetchedAt": "2026-11-12T04:17:16.421Z",
   "stale": false,
   "error": null
 }

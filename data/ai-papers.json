@@ -6,28 +6,36 @@
   "category": "ai",
   "items": [
     {
-      "id": "664c51eed6c1",
-      "title": "MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations",
-      "url": "https://huggingface.co/papers/2611.10649",
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "summary": "Weight-activation quantization can reduce the memory and compute cost of neural-network inference, but recent methods o…",
-      "score": 20
-    },
-    {
       "id": "18a7591b4b9e",
       "title": "Embodied First Exam",
       "url": "https://huggingface.co/papers/2611.12177",
       "publishedAt": "2026-11-09T00:00:00.000Z",
       "summary": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. E…",
+      "score": 23
+    },
+    {
+      "id": "3be1fc7cc042",
+      "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
+      "url": "https://huggingface.co/papers/2611.13001",
+      "publishedAt": "2026-11-08T00:00:00.000Z",
+      "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evalua…",
       "score": 19
     },
     {
-      "id": "57925a42b0cf",
-      "title": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
-      "url": "https://huggingface.co/papers/2611.10866",
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "summary": "How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that ze…",
-      "score": 13
+      "id": "e438dfd779ad",
+      "title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
+      "url": "https://huggingface.co/papers/2611.13576",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether thei…",
+      "score": 10
+    },
+    {
+      "id": "dffedcb4566f",
+      "title": "From Tool State to Scientific Action: Auditing Decision Provenance in Biomedical Research Agents",
+      "url": "https://huggingface.co/papers/2611.01527",
+      "publishedAt": "2026-11-01T03:58:26.000Z",
+      "summary": "A scientific agent can give the same verdict while reading and citing different evidence. BioAgent-DF tests this separa…",
+      "score": 10
     },
     {
       "id": "78db0acf9c8f",
@@ -38,20 +46,12 @@
       "score": 8
     },
     {
-      "id": "e438dfd779ad",
-      "title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
-      "url": "https://huggingface.co/papers/2611.13576",
+      "id": "461989aa96f6",
+      "title": "LEASH: Stay Safe in Agentic Robotics",
+      "url": "https://huggingface.co/papers/2611.14115",
       "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether thei…",
-      "score": 8
-    },
-    {
-      "id": "dffedcb4566f",
-      "title": "From Tool State to Scientific Action: Auditing Decision Provenance in Biomedical Research Agents",
-      "url": "https://huggingface.co/papers/2611.01527",
-      "publishedAt": "2026-11-01T03:58:26.000Z",
-      "summary": "A scientific agent can give the same verdict while reading and citing different evidence. BioAgent-DF tests this separa…",
-      "score": 8
+      "summary": "Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intellige…",
+      "score": 5
     },
     {
       "id": "ef80d8e0b442",
@@ -62,27 +62,11 @@
       "score": 5
     },
     {
-      "id": "d58ef35b171a",
-      "title": "Micius-Flash: Lightweight Agentic Intelligence for Engineering",
-      "url": "https://huggingface.co/papers/2611.10015",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "We introduce Micius-Flash, a 27-billion-parameter model for engineering with native multimodal input, deep reasoning an…",
-      "score": 5
-    },
-    {
-      "id": "461989aa96f6",
-      "title": "LEASH: Stay Safe in Agentic Robotics",
-      "url": "https://huggingface.co/papers/2611.14115",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intellige…",
-      "score": 4
-    },
-    {
-      "id": "efc1af94d49a",
-      "title": "TorchCurves: Differentiable Parametric Curves",
-      "url": "https://huggingface.co/papers/2611.14516",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its cent…",
+      "id": "11f2983e79ac",
+      "title": "GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2611.13028",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether age…",
       "score": 2
     },
     {
@@ -91,6 +75,22 @@
       "url": "https://huggingface.co/papers/2611.14116",
       "publishedAt": "2026-11-10T00:00:00.000Z",
       "summary": "When two objects share a name, how much does their visual similarity explain, and what do the teaching examples add? Fi…",
+      "score": 2
+    },
+    {
+      "id": "9b6066e45f25",
+      "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2610.39671",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "summary": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-i…",
+      "score": 1
+    },
+    {
+      "id": "db849c79e56f",
+      "title": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting",
+      "url": "https://huggingface.co/papers/2611.11912",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "LiDAR point clouds and 3D semantic occupancy represent two distinct modalities capturing fine-grained metric geometry a…",
       "score": 1
     },
     {
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2611.13425",
       "publishedAt": "2026-11-10T00:00:00.000Z",
       "summary": "Automated segmentation in multi-view echocardiography is essential for comprehensive cardiac assessment, yet remains ch…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-11T23:36:44.083Z",
+  "fetchedAt": "2026-11-12T04:16:49.492Z",
   "stale": false,
   "error": null
 }
