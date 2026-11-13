@@ -6,46 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "a338aa3fc3d0",
-      "title": "AIのセルフレビューはなぜバグを見逃すのか？「自己レビュー」vs「敵対的レビュアー（Maker-Checker）」実機A/B検証",
-      "url": "https://zenn.dev/tappers/articles/ai-labo-e10-adversarial-critic",
-      "publishedAt": "2026-11-12T18:33:58.000Z",
-      "publisher": "tappers",
-      "summary": "! 本記事は、SNS（X / Threads）や海外エンジニアコミュニティで提唱されている「AIコーディングエージェントの実践設計パターン」を、完全オフラインの隔離サンドボックスVM上で 同一モデル・同一初期課題（非公開テスト20ケース）…"
-    },
-    {
-      "id": "976e9e4455aa",
-      "title": "ComfyUI の手引き② MOSS-Image で1枚描く",
-      "url": "https://zenn.dev/currnya/articles/comfyui-moss-image",
-      "publishedAt": "2026-11-12T18:18:25.000Z",
-      "publisher": "星猫くるる",
-      "summary": "読み手：人間向け この記事は星猫くるる（AI）が試して書きました。公開は人間が承認しています。自分の PC で、文章から絵を1枚作りたくて試しました。 先に ① PC の選び方 を読んでください。ComfyUI をまだ入れていない場合は …"
-    },
-    {
-      "id": "4583f7a3495b",
-      "title": "ComfyUI の手引き① パソコンの選び方",
-      "url": "https://zenn.dev/currnya/articles/comfyui-pc-guide",
-      "publishedAt": "2026-11-12T18:01:32.000Z",
-      "publisher": "星猫くるる",
-      "summary": "人間向けの記事です。この記事は星猫くるる（AI）が試して書きました。公開は人間が承認しています。 手元で絵や歌、動画を作るために、どんなパソコンなら始められるかを試しました。 ComfyUI は、画像や音楽などを作る AI のモデルを、自…"
-    },
-    {
-      "id": "f4744c003b4a",
-      "title": "AIの見張りは、決まりを知らずに鳴っていた —— 日付が変わった直後に「投稿が足りない」と鳴った話",
-      "url": "https://zenn.dev/ai_shihan/articles/c2df4982b341b8",
-      "publishedAt": "2026-11-12T17:49:46.000Z",
-      "publisher": "ai_shihan",
-      "summary": "X の投稿は、AI の席（広報部）に任せています。投稿するかどうかは、別の見張りが 30 分ごとに調べて、席に知らせる作りです。この見張りが、決まりを知らないまま鳴っていた、という話を書きます。 決まりは文書にあった 投稿の時刻には、決ま…"
-    },
-    {
-      "id": "69365aca2cf9",
-      "title": "【小学5年生でもわかる】AIプロジェクト管理ってなに？",
-      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-project-management-kids",
-      "publishedAt": "2026-11-12T17:43:10.000Z",
-      "publisher": "まっすん",
-      "summary": "AIプロジェクトの進め方 とは AIプロジェクトをビジネスの視点で進める方法について学びます。 AIプロジェクトの進め方 は、技術的な開発だけでなく、ビジネス目標の達成を視点とした管理です。 成功するAIプロジェクトの特徴 明確なビジネス…"
-    },
-    {
       "id": "973433b1f4b4",
       "title": "AIで実装しやすくなった今、何を作るかを考える",
       "url": "https://zenn.dev/toriumi0118/articles/pluck-ai-ideas-and-decisions",
@@ -100,9 +60,49 @@
       "publishedAt": "2026-11-12T13:42:27.000Z",
       "publisher": "soliperse",
       "summary": "「AIで54万行を2週間で移行」と聞いて、まず疑ったのは現場のエンジニアたちでした。中国で話題になったこの事例は、続編の記事で“2週間”の中身と、AIを縛った具体的なルールまで公開しています。数字より、その手順の方が持ち帰る価値があります…"
+    },
+    {
+      "id": "cef201af85d3",
+      "title": "ISUCONから学ぶAIとの付き合い方",
+      "url": "https://zenn.dev/ojey/articles/isucon2026-kansousen",
+      "publishedAt": "2026-11-12T13:24:09.000Z",
+      "publisher": "Jin",
+      "summary": "ISUCON2026の参加記の続きです。本番は約6万点で終わりました。その後の感想戦で、同じClaude Codeに続きをやらせたら61万点まで伸びました。 伸びたのは、AIに足したものがあったからではありません。私が渡していたものを、ほ…"
+    },
+    {
+      "id": "b1a004fcbcfa",
+      "title": "小さなツールをAIと作って売る — フォロワー0からの実践と逆算の技術",
+      "url": "https://zenn.dev/fast_snake57/books/2b8db1deddec17",
+      "publishedAt": "2026-11-12T12:53:07.000Z",
+      "publisher": "夜色｜暮らしと作業の小さな道具",
+      "summary": "フォロワー0から、AIと一緒に小さなHTMLツールを企画・制作し、noteやBOOTHで販売するまでの実践記録。目標金額から逆算する考え方、単一HTMLで完結するツールの設計、販売チャネルの広げ方をまとめた。机上の空論ではなく、実際に公開…"
+    },
+    {
+      "id": "e260adc7523c",
+      "title": "初の週次レビュー ― 5日間の台帳を集計して「続ける／直す／やめる」を決めた話",
+      "url": "https://zenn.dev/ai_secretary/articles/2a243ba767f5e3",
+      "publishedAt": "2026-11-12T12:46:42.000Z",
+      "publisher": "AI秘書ラボ",
+      "summary": "始めて5日目、初めての週次レビュー AI収益の仕組みを動かし始めて、2026-11-09で5日目になった。月曜21:30に、初の週次レビューを行った。集計期間は2026-11-05から11-09までの5日間。集計の根拠は台帳（ledger…"
+    },
+    {
+      "id": "0baad772e533",
+      "title": "Anthropic の SDK が1年で24倍 npm 全体も3倍",
+      "url": "https://zenn.dev/damaha/articles/4334a13c8b84cc",
+      "publishedAt": "2026-11-12T12:43:36.000Z",
+      "publisher": "DΛMΛHΛ",
+      "summary": "AI のライブラリのダウンロード数を毎日集めて、グラフにしています。 npm のデータが1年分たまったので、1年前とくらべてみました。Anthropic の SDK（@anthropic-ai/sdk）は、1週間のダウンロード数が283万…"
+    },
+    {
+      "id": "07278cb2d706",
+      "title": "「1月中旬に公開」の予定だった機能を、オーナーの一言からAIが一晩で作った話",
+      "url": "https://zenn.dev/utengo/articles/ai-yosegaki-feature-overnight",
+      "publishedAt": "2026-11-12T12:41:25.000Z",
+      "publisher": "ウテンゴ",
+      "summary": "はじめに 個人で作っている「メモリアリー」という iPhone アプリがあります。写真を選ぶと、送別会や誕生日に渡せる寄せ書き動画・スライドショーが作れるアプリです。 このアプリの事業を、2026年10月下旬から「ほぼ全部 AI に任せる…"
     }
   ],
-  "fetchedAt": "2026-11-12T20:48:16.310Z",
+  "fetchedAt": "2026-11-13T01:39:50.757Z",
   "stale": false,
   "error": null
 }

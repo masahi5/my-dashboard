@@ -14,14 +14,6 @@
       "score": 31
     },
     {
-      "id": "ef38da4a6f30",
-      "title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
-      "url": "https://huggingface.co/papers/2608.22237",
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "summary": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces of…",
-      "score": 17
-    },
-    {
       "id": "7c446f8ac97c",
       "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
       "url": "https://huggingface.co/papers/2611.12304",
@@ -36,6 +28,14 @@
       "publishedAt": "2026-11-09T18:53:57.000Z",
       "summary": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation…",
       "score": 6
+    },
+    {
+      "id": "478edebe4411",
+      "title": "Subliminal Learning in Vision-Language Models",
+      "url": "https://huggingface.co/papers/2611.08538",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Subliminal learning is a phenomenon in large language models (LLMs) where a teacher passes a hidden preference to a stu…",
+      "score": 4
     },
     {
       "id": "00489f900d0f",
@@ -54,6 +54,14 @@
       "score": 4
     },
     {
+      "id": "8bddfd60c99a",
+      "title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
+      "url": "https://huggingface.co/papers/2611.05862",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Large language model (LLM) shopping assistants now recommend products in multi-turn conversations. However, reliable ev…",
+      "score": 3
+    },
+    {
       "id": "8f7153f7e5d9",
       "title": "Mixed Signals: Weight-Space Programming for EEG and ECG",
       "url": "https://huggingface.co/papers/2611.13758",
@@ -62,19 +70,11 @@
       "score": 3
     },
     {
-      "id": "a877df0d0040",
-      "title": "Module-Aware Optimization for Graph Neural Networks",
-      "url": "https://huggingface.co/papers/2611.08379",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "summary": "Different optimizers impose different geometries on parameter updates. Adaptive methods such as Adam and AdamW use coor…",
-      "score": 3
-    },
-    {
-      "id": "8bddfd60c99a",
-      "title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
-      "url": "https://huggingface.co/papers/2611.05862",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Large language model (LLM) shopping assistants now recommend products in multi-turn conversations. However, reliable ev…",
+      "id": "5320189141a9",
+      "title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+      "url": "https://huggingface.co/papers/2611.11306",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisio…",
       "score": 2
     },
     {
@@ -94,15 +94,15 @@
       "score": 2
     },
     {
-      "id": "5320189141a9",
-      "title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
-      "url": "https://huggingface.co/papers/2611.11306",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisio…",
-      "score": 1
+      "id": "62ab382aeecb",
+      "title": "Probing Transformer Representations Layer by Layer, Module by Module",
+      "url": "https://huggingface.co/papers/2611.11531",
+      "publishedAt": "2026-11-08T00:00:00.000Z",
+      "summary": "Which representation should be probed in a transformer-based foundation model? Recent work shows that the standard prac…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-12T20:48:16.115Z",
+  "fetchedAt": "2026-11-13T01:39:50.598Z",
   "stale": false,
   "error": null
 }
