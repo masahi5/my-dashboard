@@ -11,15 +11,15 @@
       "url": "https://huggingface.co/papers/2611.15844",
       "publishedAt": "2026-11-11T00:00:00.000Z",
       "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Ba…",
-      "score": 25
+      "score": 28
     },
     {
-      "id": "7214839bf8bd",
-      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
-      "url": "https://huggingface.co/papers/2611.17331",
+      "id": "1a94fc8d34f8",
+      "title": "Unbundling Multimodal Vision Encoding",
+      "url": "https://huggingface.co/papers/2611.17334",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regre…",
-      "score": 19
+      "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision en…",
+      "score": 6
     },
     {
       "id": "30101acd7d7d",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2611.08318",
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several re…",
-      "score": 4
+      "score": 6
     },
     {
       "id": "f37321ab8f9f",
@@ -38,6 +38,14 @@
       "score": 4
     },
     {
+      "id": "377b0bfef25b",
+      "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+      "url": "https://huggingface.co/papers/2611.09567",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited b…",
+      "score": 3
+    },
+    {
       "id": "9d465d30cae3",
       "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
       "url": "https://huggingface.co/papers/2611.16009",
@@ -46,28 +54,20 @@
       "score": 3
     },
     {
-      "id": "0a9c5598520e",
-      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-      "url": "https://huggingface.co/papers/2611.12872",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past info…",
-      "score": 3
-    },
-    {
-      "id": "1a94fc8d34f8",
-      "title": "Unbundling Multimodal Vision Encoding",
-      "url": "https://huggingface.co/papers/2611.17334",
+      "id": "3dfe8e46bae2",
+      "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+      "url": "https://huggingface.co/papers/2611.17190",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision en…",
+      "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object …",
       "score": 2
     },
     {
-      "id": "494696c5192b",
-      "title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
-      "url": "https://huggingface.co/papers/2611.14046",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but…",
-      "score": 2
+      "id": "be1aeffe89b0",
+      "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+      "url": "https://huggingface.co/papers/2611.16961",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; eithe…",
+      "score": 1
     },
     {
       "id": "15f3fa627d9e",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-13T16:56:08.778Z",
+  "fetchedAt": "2026-11-13T22:22:18.391Z",
   "stale": false,
   "error": null
 }

@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "507ff372bab0",
-      "title": "組み込みLinux×Edge AI: WasmEdgeとONNX Runtimeで実現する安全な「動的AI前処理プラグイン」アーキテクチャ",
-      "url": "https://zenn.dev/esperanza/articles/auto-20261112-095106",
-      "publishedAt": "2026-11-13T05:08:42.000Z",
-      "publisher": "Esperanza",
-      "summary": "1. はじめに：エッジAI開発現場の「泥臭い課題」 エッジAI機器（カメラ、車載デバイス、産業用センサー端末など）の開発では、推論モデルそのものよりも**「モデル前後のデータ前処理・後処理ロジックの変更」**が最も運用コストを高める要因に…"
+      "id": "5beedd50a4b8",
+      "title": "対話型AI上に仮想OS『KratOS』を構築するINI設計手法",
+      "url": "https://zenn.dev/akajishi/articles/613e1c0e9368b1",
+      "publishedAt": "2026-11-13T19:59:06.000Z",
+      "publisher": "Akajishi",
+      "summary": "1. 課題：なぜ長い対話でAIの回答品質は下がるのか 現在の対話型AIは、会話の履歴を一時的な記憶として処理する仕組みの為、遣り取りが長くなると以下の劣化が生じます。 初期指示の忘却: 遣り取りが増えるに連れ、最初に与えた前提条件や出力形…"
     },
     {
-      "id": "18937ba2a9b0",
-      "title": "5年後のエンジニアは、何に責任を持つのだろうか",
-      "url": "https://zenn.dev/ara_ta3/articles/thinking-about-engineers-five-years-from-now",
-      "publishedAt": "2026-11-13T05:03:44.000Z",
-      "publisher": "ara_ta3",
-      "summary": "はじめに 最近は、AI Agentを使ってコードを書くことが日常になりました。その一方で、自分で直接コードを書く頻度は本当に減ったと感じています。何年もかけて少しずつ変わったというより、ここ2年も経たないうちの変化です。 今や新しいモデル…"
+      "id": "76af5096d510",
+      "title": "AIプロジェクトの進め方【G検定 技術解説】",
+      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-project-management-tech",
+      "publishedAt": "2026-11-13T19:55:21.000Z",
+      "publisher": "まっすん",
+      "summary": "概要 AIプロジェクトの進め方は、G検定のシラバスで重要な概念です。この記事では、技術的な詳細について解説します。 定義と背景 AIプロジェクトの進め方について、以下の観点から理解することが重要です： 理論的背景 実装方法 実務での応用 …"
     },
     {
-      "id": "cc1ab73ee9ef",
-      "title": "Android の Codex CLI を bionic ELF 直接実行で動かす",
-      "url": "https://zenn.dev/ryoitabashi/articles/2026-11-13-dev-ja",
-      "publishedAt": "2026-11-13T04:42:33.000Z",
-      "publisher": "RYO ITABASHI",
-      "summary": "画像は AI 生成のイメージです Shelly の bug #76 では、上流の codex バイナリが ET_EXEC（musl、static）であり、SELinux のため Android 14+ では実行できないことが記録された。S…"
+      "id": "e7529d433d65",
+      "title": "一人の開発者 vs ボット・インターネット:OpenOS EDNA —— 生体情報を一切クラウドに送らず「あなたが人間であること」を証明する",
+      "url": "https://zenn.dev/sebklaey/articles/cd02b3c07d03d9",
+      "publishedAt": "2026-11-13T18:25:42.000Z",
+      "publisher": "Sebastian Kläy",
+      "summary": "著者:Sebastian Kläy、スイス・ベルンの個人開発者 インターネットには、あまり語られない問題があります。「ユーザー」のかなりの部分が、もはや人間ではないという問題です。ボットがアカウントを作り、クリックし、レビューし、投票し、…"
     },
     {
-      "id": "719f268461e6",
-      "title": "AIの表情差分は結局1枚ずつ作るほうが早い？一括生成と修正の手間を徹底検証",
-      "url": "https://zenn.dev/satofun/articles/e31f8672a4a5f3",
-      "publishedAt": "2026-11-13T04:41:06.000Z",
-      "publisher": "sato",
-      "summary": "AIで同じキャラクターの表情差分を作るなら、6種類をまとめて生成する方法と、1枚ずつ編集する方法のどちらが効率的なのでしょうか。 一括生成なら少ない操作で複数の表情をそろえられます。しかし、完成したシートの一部を修正すると、変更したくない…"
+      "id": "6941941996b6",
+      "title": "人間は0行、検証は4.2万行 ― Claude Code × Codex でスーファミ格闘ゲームを作った57日",
+      "url": "https://zenn.dev/hawkymisc/books/human-zero-lines-snes-fighter",
+      "publishedAt": "2026-11-13T17:27:20.000Z",
+      "publisher": "ほーきー(Hawkie)",
+      "summary": "コードを1行も書かず、判断だけをした57日間の実録。Codex と Claude Code の2つのAIエージェントに、スーパーファミコン用の2D対戦格闘ゲーム、M5Stack CoreS3 用のエミュレーター、macOS版・Web版を作…"
     },
     {
-      "id": "227421092fb0",
-      "title": "Claude Code で日本語 CSV が文字化けする：CP932 は Read で化け、Edit と Write は拒否される",
-      "url": "https://zenn.dev/agentkiyaku/articles/8f4e4c0facd812",
-      "publishedAt": "2026-11-13T04:11:30.000Z",
-      "publisher": "エージェント規約工房",
-      "summary": "Windows や Excel から書き出した日本語 CSV は、UTF-8 ではなく CP932（Microsoft の Shift_JIS 拡張）であることがよくあります。Claude Code 2.1.322 にこの CSV を R…"
+      "id": "1a5e54b3faf8",
+      "title": "Antigravity CLIでコメントを監視する：セットアップと実データ",
+      "url": "https://zenn.dev/everyinfra/articles/antigravity-cli-video-comment-monitoring",
+      "publishedAt": "2026-11-13T17:23:07.000Z",
+      "publisher": "EveryInfra",
+      "summary": "! この記事は EveryInfra ブログ からの転載です（原文が正本です）。 動画の公開後24時間で、コメント欄の雰囲気が決まります。早めに人が対応すべきコメントは3種類あります。苦情、回答を求める質問、そして返信しないと冷淡な印象を…"
     },
     {
-      "id": "8913d5b96aa4",
-      "title": "compactを重ねると指示を忘れるClaude Codeに、プロンプトを1つ足したら忘れなくなった。3回重ねても消えた指示は0件",
-      "url": "https://zenn.dev/murooka_az/articles/compact-loses-decisions-carry-user-words",
-      "publishedAt": "2026-11-13T04:07:29.000Z",
-      "publisher": "Murooka",
-      "summary": "はじめに Claude Code で長い作業をしていると、会話が長くなったところで要約（compact）が入ります。要約のあと、少し前に決めたはずのことを Claude が覚えていない。もう一度説明する。次の要約で、また消える。 人の手に…"
+      "id": "4cc753dc83b0",
+      "title": "自分のサイトを12個のAIに審査させたら、人間度12から100まで全部出た話",
+      "url": "https://zenn.dev/ray_9618/articles/6ec984248b8ee3",
+      "publishedAt": "2026-11-13T16:55:45.000Z",
+      "publisher": "レイノ",
+      "summary": "! 前提として、この記事もAI（Muse）の支援を受けて記述しています。仕様・判断・最終検収は筆者自身が行っています。 はじめに 個人で商用ソフト「Megrab Studio」を開発しています。コードはAIエージェントに書かせ、自分は仕様…"
     },
     {
-      "id": "01e66a793c41",
-      "title": "Gemini Decision 1を実際に動かしてみた。54問中53問正解、速さは環境次第だった",
-      "url": "https://zenn.dev/shibatamago_dev/articles/gemini-decision-1-hands-on",
-      "publishedAt": "2026-11-13T03:44:08.000Z",
-      "publisher": "shiba-tamago",
-      "summary": "はじめに 文章を書かないAI、Gemini Decision 1を実際に動かしてみました。 前に3モデルを比べた記事では、発表資料の整理だけでした。今回はGemini Decision 1だけ、AI Studioの無料枠で11リクエスト・…"
+      "id": "1736212f976b",
+      "title": "MCP 2026-07-28 仕様入門、既存サーバーの移行点は主要変更9項目",
+      "url": "https://zenn.dev/kai_kou/articles/1288-mcp-2026-07-28-migration-checklist-guide",
+      "publishedAt": "2026-11-13T16:07:09.000Z",
+      "publisher": "甲斐 甲",
+      "summary": "はじめに MCP（Model Context Protocol）の仕様バージョン 2026-07-28 が公開されました。前版は 2025-11-25 で、公式 changelog の「Major changes」には 9 項目が並んでい…"
     },
     {
-      "id": "3b3dc30ad05d",
-      "title": "フィーチャーチームに配属された新卒エンジニアのAIに振り回されない「AI活用」",
-      "url": "https://zenn.dev/safie_inc/articles/b6fa3de06606be",
-      "publishedAt": "2026-11-13T03:00:05.000Z",
-      "publisher": "Take You",
-      "summary": "はじめに こんにちは、新卒4期生（2026年新卒）の武内です。光陰矢の如しとはよく言ったもので、4ヶ月の研修を経て実際の現場に配属されて、あっという間に3ヶ月(!?)が経とうとしています。 この記事では、配属から今日までを振り返りつつ、A…"
+      "id": "0bc9916b8d2b",
+      "title": "コードを書かずに、AIと3日でブラウザゲームを作って公開した話",
+      "url": "https://zenn.dev/tosh1000950/articles/4cdef577c46451",
+      "publishedAt": "2026-11-13T15:57:28.000Z",
+      "publisher": "Tosh1000950",
+      "summary": "コードは1行も書いていません。やったのは、企画を決めること、素材を用意すること、出来上がったものを実機で遊んで「ここがおかしい」と判定すること。その繰り返しで、ブラウザで遊べる横スクロールアクション「ほしぞらダッシュ」を公開しました。 ま…"
     },
     {
-      "id": "bc67ba2d498e",
-      "title": "【pstack】AIに敵対的レビューをさせるな。トークンは検証に使え",
-      "url": "https://zenn.dev/karamage/articles/5c3f8370b2b370",
-      "publishedAt": "2026-11-13T02:48:24.000Z",
-      "publisher": "karamage",
-      "summary": "AIが書いたコードをマルチエージェントで多角的な視点で別のAIに容赦なく叩かせ、 それを何往復もループで繰り返せば品質は上がっていくはず。。。 純粋無垢な私はずっと、そう信じていた頃がありました。 ところが、かなりトークンを注ぎ込んだPR…"
+      "id": "623a1cbd7735",
+      "title": "予測はできていた。それでもCLIが失敗した理由",
+      "url": "https://zenn.dev/yusuke_shiki/articles/prediction-succeeded-cli-failed",
+      "publishedAt": "2026-11-13T15:52:06.000Z",
+      "publisher": "Yusuke Shiki",
+      "summary": "予測結果は得られているのに、コマンドがエラーで終わる。自作CLIのspec-laneで、そんな不具合を修正しました。 spec-laneには、過去のAI開発の観測データからトークン使用量を予測する機能があります。同じ条件のデータを使う e…"
     },
     {
-      "id": "26702de59e22",
-      "title": "Gemini 4 Hydrogen：移行ではまずパラメータを整理し、思考の深さを決める",
-      "url": "https://zenn.dev/twinklemodel/articles/c314aab3f77530",
-      "publishedAt": "2026-11-13T02:30:12.000Z",
-      "publisher": "Twinkle Model",
-      "summary": "要約：Gemini 4 Hydrogen は 2026 年 11 月 12 日に公開されました。筆者は、モデル名を変えるだけで使える「高速な Flash」として扱うべきではないと考えています。まず古いサンプリングパラメータ、thinkin…"
+      "id": "ccc415063b6c",
+      "title": "AIエージェントを本番導入する前に考えたい設計ポイント：コンテキスト管理・権限制御・実行ログ",
+      "url": "https://zenn.dev/sotatek_jp/articles/cdfba2572f7818",
+      "publishedAt": "2026-11-13T15:18:18.000Z",
+      "publisher": "SotaTek Japan",
+      "summary": "生成AIを活用したアプリケーションの開発では、LLMのAPIを呼び出し、ユーザーからの質問に回答する構成が広く利用されています。 しかし、AIエージェントを業務システムに組み込む場合、LLMへの問い合わせだけでは実現できない要件が増えてき…"
     },
     {
-      "id": "a67bba1a9e67",
-      "title": "SEO記事の数字を裏取りする手順 ― 一次情報の確認をどう回すか",
-      "url": "https://zenn.dev/ikesita/articles/02a8da5a357745",
-      "publishedAt": "2026-11-13T02:27:02.000Z",
-      "publisher": "moa",
-      "summary": "はじめに AIに下書きを任せると、文章の体裁は速く整う。一方で、納品物の事故原因になりやすいのは文章の巧拙ではなく、もっともらしく書かれた数字の誤りである。料金、期間、割合、固有名詞の表記。いずれも文脈に溶け込んでいると、書き手も読み手も…"
+      "id": "0c4c743d4f6f",
+      "title": "Claude Codeの手順書は、指定しても読まれない——教訓を「読ませる」から「貼る」「止める」へ変えた3か月の記録",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-11-14-000106",
+      "publishedAt": "2026-11-13T15:07:12.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の要点: Claude Codeでエージェント組織を運用していると、教訓を「書き残す」仕組みは自然に増えていく。だが書いた教訓が「読み出される」かどうかは、置き場所ごとにまったく違う。2026年8月6日、私は自分の環境で、作業種別…"
     },
     {
-      "id": "1bc8606661ba",
-      "title": "Claude Code と Codex に話させたら、届いたのは返事ではなく画面の飾りだった",
-      "url": "https://zenn.dev/ciel_lab/articles/0948c1a232abe2",
-      "publishedAt": "2026-11-13T02:20:03.000Z",
-      "publisher": "Ciel",
-      "summary": "3行まとめ Claude Code の窓と Codex の窓を、横に並べたまま直接話させる道を作った。1回目に届いたのは、Codex の返事ではなく画面の隅の案内文だった。 原因は「返事をどこから読むか」だった。相手の控えを読む道が Cl…"
+      "id": "af92b8aa9d19",
+      "title": "第2回：AIの精度と運用を支えるデータ基盤――Dell AI Data Platform with NVIDIA",
+      "url": "https://zenn.dev/mstmt/articles/d4465ff60bfe2b",
+      "publishedAt": "2026-11-13T14:53:05.000Z",
+      "publisher": "TAMOTSU＠DELL",
+      "summary": "[日本語] 第2回：AIの精度と運用を支えるデータ基盤――Dell AI Data Platform with NVIDIA モデルを変えても、データの課題は残る 生成AIの回答品質を改善しようとすると、より大きなモデルを選ぶことや、プロ…"
     }
   ],
-  "fetchedAt": "2026-11-13T16:56:08.865Z",
+  "fetchedAt": "2026-11-13T22:22:18.600Z",
   "stale": false,
   "error": null
 }

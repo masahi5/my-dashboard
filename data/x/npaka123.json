@@ -2,6 +2,87 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2121364972601278579",
+      "url": "https://x.com/fladdict/status/2121364972601278579",
+      "text": "え、なんか怖い。",
+      "publishedAt": "2026-11-13T22:09:57.000Z",
+      "authorHandle": "fladdict",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2121361941608452265",
+      "url": "https://x.com/cumulo_autumn/status/2121361941608452265",
+      "text": "スタンフォードのハッカソンイベントに来た！",
+      "publishedAt": "2026-11-13T21:57:54.000Z",
+      "authorHandle": "cumulo_autumn",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2121306035378159732",
+      "url": "https://x.com/Yokohara_h/status/2121306035378159732",
+      "text": "全身\n基本的にはまだまだ問題があるけど以前に比べてかなり良くなってきている\n自然な歩きなどはまだまだ苦手な印象\n細かな動きの指示はあまりせず任せつつもアニメーションの基礎や作り方やエラーについてなどフィードバック与えたがこのくらいまでしか現状は上がらなかった\n揺れもの系はAI任せでもある程度セットアップ上手くやってくれるようにはなった",
+      "publishedAt": "2026-11-13T18:15:45.000Z",
+      "authorHandle": "Yokohara_h",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2121303649976455502",
+      "url": "https://x.com/jmtang42/status/2121303649976455502",
+      "text": "Everyone's been showing Fable and GPT-6 Astra driving robot arms.\n\nWe trained an open 27B Qwen model to do it, purely from its own attempts in simulation, with zero demonstrations.\n\nAnd it can run locally at 220+ tok/s on an RTX 5090.\n\nOn a real robot it had never touched, it now succeeds in 18 of 30 tests, up from 0 before training. It also copies a painting and designs its own chemistry experiment.\n\nIt generalizes and follows instructions better than π0.5, and on LIBERO it comes close to Astra max.\n\nAll without losing its general capabilities, like math and coding.\n\nBuilt on Qwen3.8-27B. We've open-sourced the model weights, code, and full training infra! Check out our blog at mit-han-lab.github.io/pear-b….",
+      "publishedAt": "2026-11-13T18:06:16.000Z",
+      "authorHandle": "jmtang42",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2121301810363465749",
+      "url": "https://x.com/Yokohara_h/status/2121301810363465749",
+      "text": "Fable5.2を使って簡単な指示だけでblenderでキャラアニメーション作業どの程度できるかテスト\n表情や衣装など揺れものもカメラワークなどもすべてFableが作業した\nモーション生成系は使用していない\nAIがアニメ付けられるようになり始めてて怖い",
+      "publishedAt": "2026-11-13T17:58:58.000Z",
+      "authorHandle": "Yokohara_h",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2121283151729496235",
+      "url": "https://x.com/ChatGPT/status/2121283151729496235",
+      "text": "Now your dot can securely complete purchases on your behalf—with your approval.\n\nWith ChatGPT Wallet, agents pay without access to your actual card details. Every purchase requires a security check.\n\nChatGPT Wallet is rolling out starting today to dots, for Pro subscribers in the US.\n\nopenai.com/index/introducing…",
+      "publishedAt": "2026-11-13T16:44:49.000Z",
+      "authorHandle": "ChatGPT",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2121255563321582068",
+      "url": "https://x.com/Dstudio_ai/status/2121255563321582068",
+      "text": "さらにFable 5.2に発光シェーダーとエフェクトつくってもろた！\nめっちゃいい感じ！\n\n腰の揺れモノの部分のブースターエフェクト（？）1発でいい感じの出してきてビビった。長さとかは調整したけど。\n\nここまで1度もblenderを開けていない\n楽になったもんだ～",
+      "publishedAt": "2026-11-13T14:55:11.000Z",
+      "authorHandle": "Dstudio_ai",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2121246103312212124",
+      "url": "https://x.com/ggerganov/status/2121246103312212124",
+      "text": "llama.cpp v1.0.0 is now available\n\nhuggingface.co/blog/ggml-org…",
+      "publishedAt": "2026-11-13T14:17:36.000Z",
+      "authorHandle": "ggerganov",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2121231491497918831",
+      "url": "https://x.com/yasakani_dev/status/2121231491497918831",
+      "text": "世界最速※のAIエンジン「YASAKANI」を公開しました。\n\n対応：RTX 5090／Windows\nRTX 5090以外では動きません。\n\n私はこれで終わりだとは考えていません。\nここから更なる生成速度と圧縮品質の向上、対応GPUの拡大を目指しています。\n日本人としてAI技術開発の最前線に立ちたい。\nご支援のほどよろしくお願い致します。\n\nクラファン\ncamp-fire.jp/projects/992233…\n\nソースコード\ngithub.com/yasakani-dev/yasa…\n\nモデル\nhuggingface.co/yasakani-dev\n\n【YASAKANIとは】\nWindowsとRTX 5090 1枚でQwen3.8-27Bを高速に動かすローカルAIエンジンです。オープンソース（Apache-2.0）で無料で使えます。ダウンロード後はオフラインで動きます。個人で開発しています。\n\n【動画について】\n動画の作品は全て、YASAKANIで動かしたAI（Qwen3.8-27B）が書いたHTMLです。\n\n【モデルは2種類】\n・品質モデル（推奨）：12.37GB\n・最速モデル：10.31GB\n\n【始め方】\n1. GitHubのReleasesからyasakani-quickstart-0.1.0.zi…をダウンロード\n2. 半角英数字だけのフォルダーに展開（例：C:\\yasakani）\n3. START.cmdをダブルクリック\n\nPCの確認、エンジンとモデル（約13〜15GB）のダウンロード、動作チェックまで自動で進みます。PythonやNVIDIAドライバーが無い場合は画面に案内が出ます。\n\n【できること】\n・ブラウザーやターミナルでチャット\n・OpenAI互換サーバー（対応アプリや開発ツールから接続できます）\n・エージェント画面（AIがファイルを読み書きして作業します。試作版）\n・生成速度の計測\n\n【動作環境】\n・GPU：NVIDIA GeForce RTX 5090（32GB）\n・OS：Windows 11（64bit）\n・ソフト：Python 3.10以上、NVIDIAドライバー、Visual C++ランタイム\n・空き容量：20GB\n\n【未対応】\nLinux、macOS、AMDのGPU、RTX 5090以外のNVIDIAのGPU、他のモデル。\n対応GPUを増やすことがクラウドファンディングの目的です。\n\n※RTX 5090 1枚・Qwen3.8-27B・単一生成。下の引用ポストに掲載した8エンジン・7分野の比較条件での記録です。\n\nエンジンについての詳細↓\nx.com/yasakani_dev/status/21…",
+      "publishedAt": "2026-11-13T13:19:32.000Z",
+      "authorHandle": "yasakani_dev",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2121190202605724112",
       "url": "https://x.com/MLBear2/status/2121190202605724112",
       "text": "中国主要ラボのBlackwell学習痕跡が判明、OpenAIはサイバー防御ツールを発表\nDeepSeekやMoonshotなど中国主要4ラボの最新モデルが、Blackwellで学習された痕跡を初期重みとシードの照合で示す検証が公開されました。",
@@ -9,90 +90,9 @@
       "authorHandle": "MLBear2",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2121150181161009363",
-      "url": "https://x.com/npaka123/status/2121150181161009363",
-      "text": "Haru-4B 追加\n\n音声合成AI ・ 音声認識AI ・ 音声翻訳AI のリリース年表｜npaka @npaka123 note.com/npaka/n/n867803eed7…",
-      "publishedAt": "2026-11-13T07:56:26.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2121144828658700631",
-      "url": "https://x.com/shi3z/status/2121144828658700631",
-      "text": "Haruという日本語対応全二重会話モデルを手元の5060tiで試した。以前の会話モデルに比べれば雲泥の差で良くなってるが、まだ少し頭は悪い。Qwen3.5だから？",
-      "publishedAt": "2026-11-13T07:35:10.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2121124925356581101",
-      "url": "https://x.com/akirao3wq/status/2121124925356581101",
-      "text": "話もコマ割りも絵も全部AIです！\n人間がやったのは文句を言うことだけ\n【白石さんの視力検査②】\n感想でもツッコミでもなんでもどうぞ！\n#AI漫画 #創作漫画 #漫画が読めるハッシュタグ",
-      "publishedAt": "2026-11-13T06:16:05.000Z",
-      "authorHandle": "akirao3wq",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2121123276214956114",
-      "url": "https://x.com/rie_k_0530/status/2121123276214956114",
-      "text": "本日から公開です！\nよろしくお願いいたします😊",
-      "publishedAt": "2026-11-13T06:09:32.000Z",
-      "authorHandle": "rie_k_0530",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2121114620081664357",
-      "url": "https://x.com/gclue_akira/status/2121114620081664357",
-      "text": "プロンプト\n「あかべこを水彩絵の具使って描いて」\nで絵を描いてくれた",
-      "publishedAt": "2026-11-13T05:35:08.000Z",
-      "authorHandle": "gclue_akira",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2121077509278351686",
-      "url": "https://x.com/npaka123/status/2121077509278351686",
-      "text": "RT @umiyuki_ai: 最近はUnslothのQwen3.8FN量子化UDモデルがGSQ-RCOに対して無双してる。GSQ-RCOのIQ3_Sでベンチマークスコアが元モデルの99.0%を達成してたのに対して、同じサイズのUD-IQ3_XXSは99.9%を達成！次にGSQ…",
-      "publishedAt": "2026-11-13T03:07:40.000Z",
-      "authorHandle": "npaka123",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2121076936474755151",
-      "url": "https://x.com/bokuen/status/2121076936474755151",
-      "text": "一般の方が脚本家について誤解していることがわかりました。\n\n脚本にはたくさんの修正願い、いわゆる「ダメ出し」が出ます。\n監督やプロデューサー、ときにスポンサーから。\n\nその書き直しが作業の８割です。\nリライトこそが脚本家の仕事なのです。\n\n画像はリンダ・シガー『ハリウッド リライティングバイブル』より。",
-      "publishedAt": "2026-11-13T03:05:24.000Z",
-      "authorHandle": "bokuen",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2121073432523878412",
-      "url": "https://x.com/gclue_akira/status/2121073432523878412",
-      "text": "Tazuna Robotics HarnessをGithubに公開\ngithub.com/FaBoAI/Tazuna\n\nAI主導で必要な機能やPolicyをAIが拡張していく感じ",
-      "publishedAt": "2026-11-13T02:51:28.000Z",
-      "authorHandle": "gclue_akira",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2121056528228917473",
-      "url": "https://x.com/bokuen/status/2121056528228917473",
-      "text": "ストーリーの推敲にAIと壁打ちしても手応えがない……。\n\nという脚本家に、私がむかしつくったハリウッド三幕構成の画像を送りました。\n\nこの画像をAIに読ませて「この構成表に照らして欠けている要素を指摘して」と言うと、AIの返答が急に芯をついたものになります。\n\nもちろん三幕構成はどこでも通用する無敵のフォーマットではありません（短い作品では無理）。\nでもストーリーが行き詰まったり、キャラが暴走したり、設定が散らかってしまったときのちょっとした解決アイデアになったりしますよ。\n\nおすすめ。",
-      "publishedAt": "2026-11-13T01:44:18.000Z",
-      "authorHandle": "bokuen",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-11-13T16:56:32.127Z",
+  "fetchedAt": "2026-11-13T22:22:37.644Z",
   "stale": false,
   "error": null
 }
