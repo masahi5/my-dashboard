@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "cd22f0f73137",
-      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
-      "url": "https://huggingface.co/papers/2611.13410",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollout…",
-      "score": 31
+      "id": "95b7e81746c8",
+      "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "url": "https://huggingface.co/papers/2611.15777",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understandin…",
+      "score": 32
     },
     {
-      "id": "7c446f8ac97c",
-      "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
-      "url": "https://huggingface.co/papers/2611.12304",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving syste…",
+      "id": "1b8e7e0dd52f",
+      "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+      "url": "https://huggingface.co/papers/2611.17167",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so o…",
+      "score": 15
+    },
+    {
+      "id": "7214839bf8bd",
+      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+      "url": "https://huggingface.co/papers/2611.17331",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regre…",
+      "score": 13
+    },
+    {
+      "id": "e5a71bdb77b5",
+      "title": "WorldDraft: If Code Builds the World, Can Video Models Just Render It?",
+      "url": "https://huggingface.co/papers/2611.16217",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world gen…",
       "score": 11
     },
     {
-      "id": "cf7c9fc48db6",
-      "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
-      "url": "https://huggingface.co/papers/2611.12869",
-      "publishedAt": "2026-11-09T18:53:57.000Z",
-      "summary": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation…",
-      "score": 6
+      "id": "7f80b9baa7fc",
+      "title": "Factored One-sided Adam-Moment for Practical and Scalable SOAP",
+      "url": "https://huggingface.co/papers/2611.16905",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Second-order optimizers (e.g., Shampoo, SOAP) have emerged as compelling alternatives to Adam/AdamW and promise faster …",
+      "score": 10
     },
     {
-      "id": "478edebe4411",
-      "title": "Subliminal Learning in Vision-Language Models",
-      "url": "https://huggingface.co/papers/2611.08538",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Subliminal learning is a phenomenon in large language models (LLMs) where a teacher passes a hidden preference to a stu…",
-      "score": 4
+      "id": "9276d4c680f2",
+      "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+      "url": "https://huggingface.co/papers/2611.17060",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly fr…",
+      "score": 9
     },
     {
-      "id": "00489f900d0f",
-      "title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
-      "url": "https://huggingface.co/papers/2611.13766",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. F…",
-      "score": 4
-    },
-    {
-      "id": "87df4e3bd81b",
-      "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
-      "url": "https://huggingface.co/papers/2611.14418",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bi…",
-      "score": 4
-    },
-    {
-      "id": "8bddfd60c99a",
-      "title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
-      "url": "https://huggingface.co/papers/2611.05862",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Large language model (LLM) shopping assistants now recommend products in multi-turn conversations. However, reliable ev…",
-      "score": 3
-    },
-    {
-      "id": "8f7153f7e5d9",
-      "title": "Mixed Signals: Weight-Space Programming for EEG and ECG",
-      "url": "https://huggingface.co/papers/2611.13758",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Weight-space programming allows language models to read a trained neural network's weights and edit them. This opens th…",
-      "score": 3
-    },
-    {
-      "id": "5320189141a9",
-      "title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
-      "url": "https://huggingface.co/papers/2611.11306",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisio…",
+      "id": "9a28a82004c9",
+      "title": "Evidence-Guided Recovery for AI Agents with Ambiguous Tool Outcomes and Partial Execution",
+      "url": "https://huggingface.co/papers/2610.41453",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "summary": "Tool timeouts can leave AI agents facing ambiguous tool outcomes and partial execution: an action may have failed, comm…",
       "score": 2
     },
     {
-      "id": "8eb9264b724a",
-      "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
-      "url": "https://huggingface.co/papers/2611.14413",
+      "id": "494696c5192b",
+      "title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
+      "url": "https://huggingface.co/papers/2611.14046",
       "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of…",
-      "score": 2
+      "summary": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but…",
+      "score": 1
     },
     {
-      "id": "cc2c8c9c8423",
-      "title": "PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard",
-      "url": "https://huggingface.co/papers/2611.13843",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Typed-decision encoders answer a question about a text in one forward pass, but their behaviour outside English is rare…",
-      "score": 2
+      "id": "0a9c5598520e",
+      "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+      "url": "https://huggingface.co/papers/2611.12872",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past info…",
+      "score": 1
     },
     {
-      "id": "62ab382aeecb",
-      "title": "Probing Transformer Representations Layer by Layer, Module by Module",
-      "url": "https://huggingface.co/papers/2611.11531",
-      "publishedAt": "2026-11-08T00:00:00.000Z",
-      "summary": "Which representation should be probed in a transformer-based foundation model? Recent work shows that the standard prac…",
-      "score": 0
+      "id": "edb339640125",
+      "title": "Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
+      "url": "https://huggingface.co/papers/2611.08219",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "summary": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that …",
+      "score": 1
+    },
+    {
+      "id": "11cbca6aec68",
+      "title": "Do Multimodal Models Decide Consistently on Equivalent Optical Spectra?",
+      "url": "https://huggingface.co/papers/2611.00428",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "summary": "A spectrum can be given to a model as a table in nanometers or as a plot in photon energy, and the decision should not …",
+      "score": 1
+    },
+    {
+      "id": "8b2a28af282c",
+      "title": "Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers",
+      "url": "https://huggingface.co/papers/2611.00359",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "summary": "AI \"humanizers\" rewrite machine-generated text so that detectors classify it as human-written. Public leaderboards scor…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-13T01:39:50.598Z",
+  "fetchedAt": "2026-11-13T08:46:24.762Z",
   "stale": false,
   "error": null
 }

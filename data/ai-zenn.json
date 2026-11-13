@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "973433b1f4b4",
-      "title": "AIで実装しやすくなった今、何を作るかを考える",
-      "url": "https://zenn.dev/toriumi0118/articles/pluck-ai-ideas-and-decisions",
-      "publishedAt": "2026-11-12T16:03:34.000Z",
-      "publisher": "Yasuyuki TORIUMI",
-      "summary": "最近、AIを使った個人開発をしていて、以前とは少し違う難しさと面白さを感じています。 それは、どうやって作るかよりも、何を作るか、何を作らないかを決めることです。 Coding Agentを使えば、以前なら実装方法を調べるだけで時間がかか…"
+      "id": "cc1ab73ee9ef",
+      "title": "Android の Codex CLI を bionic ELF 直接実行で動かす",
+      "url": "https://zenn.dev/ryoitabashi/articles/2026-11-13-dev-ja",
+      "publishedAt": "2026-11-13T04:42:33.000Z",
+      "publisher": "RYO ITABASHI",
+      "summary": "画像は AI 生成のイメージです Shelly の bug #76 では、上流の codex バイナリが ET_EXEC（musl、static）であり、SELinux のため Android 14+ では実行できないことが記録された。S…"
     },
     {
-      "id": "5216fc7bebcb",
-      "title": "AIは機械の速度で仕事をするのに、自分には人間の時間割を組んでいる",
-      "url": "https://zenn.dev/darren_su/articles/c29711048631e7",
-      "publishedAt": "2026-11-12T15:49:39.000Z",
-      "publisher": "Darren Su",
-      "summary": "最近のPersonal Agentを触っていると、OpenClawを試していた頃の感覚が少し戻ってきます。 とくにGrok BotからAgentを動かしていると、いろいろなAIツールで繰り返し出会う問題があります。 AIは、人間のチームの…"
+      "id": "719f268461e6",
+      "title": "AIの表情差分は結局1枚ずつ作るほうが早い？一括生成と修正の手間を徹底検証",
+      "url": "https://zenn.dev/satofun/articles/e31f8672a4a5f3",
+      "publishedAt": "2026-11-13T04:41:06.000Z",
+      "publisher": "sato",
+      "summary": "AIで同じキャラクターの表情差分を作るなら、6種類をまとめて生成する方法と、1枚ずつ編集する方法のどちらが効率的なのでしょうか。 一括生成なら少ない操作で複数の表情をそろえられます。しかし、完成したシートの一部を修正すると、変更したくない…"
     },
     {
-      "id": "dfa751581ca9",
-      "title": "日常写真から公的証明写真を自作するAIエージェントスキルを作った：スーツ着せ替えとコンビニ印刷まで一発完結",
-      "url": "https://zenn.dev/lumichy/articles/id-photo-studio-ai-agent-skill-2026",
-      "publishedAt": "2026-11-12T15:04:41.000Z",
-      "publisher": "lumichy",
-      "summary": "転職の履歴書、パスポートの更新、運転免許証、マイナンバーカード——。 数年に一度、あるいは急な手続きで「証明写真」が必要になるたびに、街中の証明写真機（ボックス）や写真館を探し回った経験はないでしょうか。 「スマホのカメラも綺麗だし、家で…"
+      "id": "227421092fb0",
+      "title": "Claude Code で日本語 CSV が文字化けする：CP932 は Read で化け、Edit と Write は拒否される",
+      "url": "https://zenn.dev/agentkiyaku/articles/8f4e4c0facd812",
+      "publishedAt": "2026-11-13T04:11:30.000Z",
+      "publisher": "エージェント規約工房",
+      "summary": "Windows や Excel から書き出した日本語 CSV は、UTF-8 ではなく CP932（Microsoft の Shift_JIS 拡張）であることがよくあります。Claude Code 2.1.322 にこの CSV を R…"
     },
     {
-      "id": "abd6dfa2f061",
-      "title": "Decision Model「Clef-Omni」を試してみる：Colabで日本語の留守番電話から最後の意向を判断する",
-      "url": "https://zenn.dev/nakanishitf/articles/be1556b7254484",
-      "publishedAt": "2026-11-12T14:43:03.000Z",
-      "publisher": "T.N.",
-      "summary": "画像の次は、日本語の音声を判断させてみる 以前の記事では、CloudflareのClefを使って、画像の中に猫がいるかを判定しました。 今回は、音声も入力できる Clef-Omni を使ってみます。 題材は、予約についての留守番電話です。…"
+      "id": "8913d5b96aa4",
+      "title": "compactを重ねると指示を忘れるClaude Codeに、プロンプトを1つ足したら忘れなくなった。3回重ねても消えた指示は0件",
+      "url": "https://zenn.dev/murooka_az/articles/compact-loses-decisions-carry-user-words",
+      "publishedAt": "2026-11-13T04:07:29.000Z",
+      "publisher": "Murooka",
+      "summary": "はじめに Claude Code で長い作業をしていると、会話が長くなったところで要約（compact）が入ります。要約のあと、少し前に決めたはずのことを Claude が覚えていない。もう一度説明する。次の要約で、また消える。 人の手に…"
     },
     {
-      "id": "2d3c6f79ecc2",
-      "title": "ElevenLabs代替を自称するOSS音声クローンを動かしたら、ライセンス以前に依存関係のバグで動かなかった",
-      "url": "https://zenn.dev/matsushima_a/articles/day-044-voicestudio-voice-clone-brotli-bug",
-      "publishedAt": "2026-11-12T14:26:40.000Z",
-      "publisher": "matsu",
-      "summary": "これは何を試した記事か debpalash/VoiceStudio(AGPL-3.0)は、「ElevenLabsのローカル完結版」を自称する音声スタジオである。 ボイスクローン・テキストからの声質デザイン・動画の吹き替え・文字起こしなどを…"
+      "id": "01e66a793c41",
+      "title": "Gemini Decision 1を実際に動かしてみた。54問中53問正解、速さは環境次第だった",
+      "url": "https://zenn.dev/shibatamago_dev/articles/gemini-decision-1-hands-on",
+      "publishedAt": "2026-11-13T03:44:08.000Z",
+      "publisher": "shiba-tamago",
+      "summary": "はじめに 文章を書かないAI、Gemini Decision 1を実際に動かしてみました。 前に3モデルを比べた記事では、発表資料の整理だけでした。今回はGemini Decision 1だけ、AI Studioの無料枠で11リクエスト・…"
     },
     {
-      "id": "911f558aadb9",
-      "title": "CLAUDE.md をユーザー共通とリポジトリごとに分けて運用している話 — 何をどちらに書くか",
-      "url": "https://zenn.dev/chukidx_dev/articles/claude-md-user-and-repo-split",
-      "publishedAt": "2026-11-12T14:04:04.000Z",
-      "publisher": "中小DXラボ(chukidx)",
-      "summary": "この記事を読むと得られること 複数の社内ツールを1人で抱えているときの、CLAUDE.md の分け方の判断軸 「ユーザー共通」と「リポジトリごと」に書く内容の具体例 分けたあと、実際にどの指示が読み込まれているかを確かめる手順 こんな人に…"
+      "id": "3b3dc30ad05d",
+      "title": "フィーチャーチームに配属された新卒エンジニアのAIに振り回されない「AI活用」",
+      "url": "https://zenn.dev/safie_inc/articles/b6fa3de06606be",
+      "publishedAt": "2026-11-13T03:00:05.000Z",
+      "publisher": "Take You",
+      "summary": "はじめに こんにちは、新卒4期生（2026年新卒）の武内です。光陰矢の如しとはよく言ったもので、4ヶ月の研修を経て実際の現場に配属されて、あっという間に3ヶ月(!?)が経とうとしています。 この記事では、配属から今日までを振り返りつつ、A…"
     },
     {
-      "id": "84f8d99025df",
-      "title": "中国・10年物PHPのEC基幹を4人×2週間でJavaへ——AIを「865行のルール」と「差分比較コマンド」で縛った移行手順",
-      "url": "https://zenn.dev/soliperse/articles/8f3e21e9d26f92",
-      "publishedAt": "2026-11-12T13:42:27.000Z",
-      "publisher": "soliperse",
-      "summary": "「AIで54万行を2週間で移行」と聞いて、まず疑ったのは現場のエンジニアたちでした。中国で話題になったこの事例は、続編の記事で“2週間”の中身と、AIを縛った具体的なルールまで公開しています。数字より、その手順の方が持ち帰る価値があります…"
+      "id": "bc67ba2d498e",
+      "title": "【pstack】AIに敵対的レビューをさせるな。トークンは検証に使え",
+      "url": "https://zenn.dev/karamage/articles/5c3f8370b2b370",
+      "publishedAt": "2026-11-13T02:48:24.000Z",
+      "publisher": "karamage",
+      "summary": "AIが書いたコードをマルチエージェントで多角的な視点で別のAIに容赦なく叩かせ、 それを何往復もループで繰り返せば品質は上がっていくはず。。。 純粋無垢な私はずっと、そう信じていた頃がありました。 ところが、かなりトークンを注ぎ込んだPR…"
     },
     {
-      "id": "cef201af85d3",
-      "title": "ISUCONから学ぶAIとの付き合い方",
-      "url": "https://zenn.dev/ojey/articles/isucon2026-kansousen",
-      "publishedAt": "2026-11-12T13:24:09.000Z",
-      "publisher": "Jin",
-      "summary": "ISUCON2026の参加記の続きです。本番は約6万点で終わりました。その後の感想戦で、同じClaude Codeに続きをやらせたら61万点まで伸びました。 伸びたのは、AIに足したものがあったからではありません。私が渡していたものを、ほ…"
+      "id": "26702de59e22",
+      "title": "Gemini 4 Hydrogen：移行ではまずパラメータを整理し、思考の深さを決める",
+      "url": "https://zenn.dev/twinklemodel/articles/c314aab3f77530",
+      "publishedAt": "2026-11-13T02:30:12.000Z",
+      "publisher": "Twinkle Model",
+      "summary": "要約：Gemini 4 Hydrogen は 2026 年 11 月 12 日に公開されました。筆者は、モデル名を変えるだけで使える「高速な Flash」として扱うべきではないと考えています。まず古いサンプリングパラメータ、thinkin…"
     },
     {
-      "id": "b1a004fcbcfa",
-      "title": "小さなツールをAIと作って売る — フォロワー0からの実践と逆算の技術",
-      "url": "https://zenn.dev/fast_snake57/books/2b8db1deddec17",
-      "publishedAt": "2026-11-12T12:53:07.000Z",
-      "publisher": "夜色｜暮らしと作業の小さな道具",
-      "summary": "フォロワー0から、AIと一緒に小さなHTMLツールを企画・制作し、noteやBOOTHで販売するまでの実践記録。目標金額から逆算する考え方、単一HTMLで完結するツールの設計、販売チャネルの広げ方をまとめた。机上の空論ではなく、実際に公開…"
+      "id": "a67bba1a9e67",
+      "title": "SEO記事の数字を裏取りする手順 ― 一次情報の確認をどう回すか",
+      "url": "https://zenn.dev/ikesita/articles/02a8da5a357745",
+      "publishedAt": "2026-11-13T02:27:02.000Z",
+      "publisher": "moa",
+      "summary": "はじめに AIに下書きを任せると、文章の体裁は速く整う。一方で、納品物の事故原因になりやすいのは文章の巧拙ではなく、もっともらしく書かれた数字の誤りである。料金、期間、割合、固有名詞の表記。いずれも文脈に溶け込んでいると、書き手も読み手も…"
     },
     {
-      "id": "e260adc7523c",
-      "title": "初の週次レビュー ― 5日間の台帳を集計して「続ける／直す／やめる」を決めた話",
-      "url": "https://zenn.dev/ai_secretary/articles/2a243ba767f5e3",
-      "publishedAt": "2026-11-12T12:46:42.000Z",
-      "publisher": "AI秘書ラボ",
-      "summary": "始めて5日目、初めての週次レビュー AI収益の仕組みを動かし始めて、2026-11-09で5日目になった。月曜21:30に、初の週次レビューを行った。集計期間は2026-11-05から11-09までの5日間。集計の根拠は台帳（ledger…"
+      "id": "1bc8606661ba",
+      "title": "Claude Code と Codex に話させたら、届いたのは返事ではなく画面の飾りだった",
+      "url": "https://zenn.dev/ciel_lab/articles/0948c1a232abe2",
+      "publishedAt": "2026-11-13T02:20:03.000Z",
+      "publisher": "Ciel",
+      "summary": "3行まとめ Claude Code の窓と Codex の窓を、横に並べたまま直接話させる道を作った。1回目に届いたのは、Codex の返事ではなく画面の隅の案内文だった。 原因は「返事をどこから読むか」だった。相手の控えを読む道が Cl…"
     },
     {
-      "id": "0baad772e533",
-      "title": "Anthropic の SDK が1年で24倍 npm 全体も3倍",
-      "url": "https://zenn.dev/damaha/articles/4334a13c8b84cc",
-      "publishedAt": "2026-11-12T12:43:36.000Z",
-      "publisher": "DΛMΛHΛ",
-      "summary": "AI のライブラリのダウンロード数を毎日集めて、グラフにしています。 npm のデータが1年分たまったので、1年前とくらべてみました。Anthropic の SDK（@anthropic-ai/sdk）は、1週間のダウンロード数が283万…"
+      "id": "1f8237cbabee",
+      "title": "1人のキャラクターを6つの新しい画風で描く：画像生成63回・$4.68のマスコット制作パイプライン",
+      "url": "https://zenn.dev/kensaurus/articles/a925025703bee8",
+      "publishedAt": "2026-11-13T02:17:12.000Z",
+      "publisher": "kensaurus",
+      "summary": "kensaurus は、私がひとりで運営しているアプリ工房です。11月13日、作っているアプリとサイトのうち7つに、同じマスコットを置くことにしました。モデルは私自身で、名前はケンジです。ただし絵柄は統一しません。タイ語学習ゲームではドッ…"
     },
     {
-      "id": "07278cb2d706",
-      "title": "「1月中旬に公開」の予定だった機能を、オーナーの一言からAIが一晩で作った話",
-      "url": "https://zenn.dev/utengo/articles/ai-yosegaki-feature-overnight",
-      "publishedAt": "2026-11-12T12:41:25.000Z",
-      "publisher": "ウテンゴ",
-      "summary": "はじめに 個人で作っている「メモリアリー」という iPhone アプリがあります。写真を選ぶと、送別会や誕生日に渡せる寄せ書き動画・スライドショーが作れるアプリです。 このアプリの事業を、2026年10月下旬から「ほぼ全部 AI に任せる…"
+      "id": "948a93f915dd",
+      "title": "「書き込みは提案、確定は人」——複数のコーディング Agent が同じチーム事実を引用する",
+      "url": "https://zenn.dev/ontoloop/articles/e3c1fe4c04e923",
+      "publishedAt": "2026-11-13T02:11:31.000Z",
+      "publisher": "Ontoloop",
+      "summary": "この記事は Ontoloop 公式アカウントによる技術解説です。 Claude Code や Codex をリモート MCP でつなぐ手順は、公開されている MCP ドキュメント（更新 2026-11-04）にまとまっています。この記事で…"
     }
   ],
-  "fetchedAt": "2026-11-13T01:39:50.757Z",
+  "fetchedAt": "2026-11-13T08:46:24.869Z",
   "stale": false,
   "error": null
 }
