@@ -6,6 +6,22 @@
   "category": "ai",
   "items": [
     {
+      "id": "507ff372bab0",
+      "title": "組み込みLinux×Edge AI: WasmEdgeとONNX Runtimeで実現する安全な「動的AI前処理プラグイン」アーキテクチャ",
+      "url": "https://zenn.dev/esperanza/articles/auto-20261112-095106",
+      "publishedAt": "2026-11-13T05:08:42.000Z",
+      "publisher": "Esperanza",
+      "summary": "1. はじめに：エッジAI開発現場の「泥臭い課題」 エッジAI機器（カメラ、車載デバイス、産業用センサー端末など）の開発では、推論モデルそのものよりも**「モデル前後のデータ前処理・後処理ロジックの変更」**が最も運用コストを高める要因に…"
+    },
+    {
+      "id": "18937ba2a9b0",
+      "title": "5年後のエンジニアは、何に責任を持つのだろうか",
+      "url": "https://zenn.dev/ara_ta3/articles/thinking-about-engineers-five-years-from-now",
+      "publishedAt": "2026-11-13T05:03:44.000Z",
+      "publisher": "ara_ta3",
+      "summary": "はじめに 最近は、AI Agentを使ってコードを書くことが日常になりました。その一方で、自分で直接コードを書く頻度は本当に減ったと感じています。何年もかけて少しずつ変わったというより、ここ2年も経たないうちの変化です。 今や新しいモデル…"
+    },
+    {
       "id": "cc1ab73ee9ef",
       "title": "Android の Codex CLI を bionic ELF 直接実行で動かす",
       "url": "https://zenn.dev/ryoitabashi/articles/2026-11-13-dev-ja",
@@ -84,25 +100,9 @@
       "publishedAt": "2026-11-13T02:20:03.000Z",
       "publisher": "Ciel",
       "summary": "3行まとめ Claude Code の窓と Codex の窓を、横に並べたまま直接話させる道を作った。1回目に届いたのは、Codex の返事ではなく画面の隅の案内文だった。 原因は「返事をどこから読むか」だった。相手の控えを読む道が Cl…"
-    },
-    {
-      "id": "1f8237cbabee",
-      "title": "1人のキャラクターを6つの新しい画風で描く：画像生成63回・$4.68のマスコット制作パイプライン",
-      "url": "https://zenn.dev/kensaurus/articles/a925025703bee8",
-      "publishedAt": "2026-11-13T02:17:12.000Z",
-      "publisher": "kensaurus",
-      "summary": "kensaurus は、私がひとりで運営しているアプリ工房です。11月13日、作っているアプリとサイトのうち7つに、同じマスコットを置くことにしました。モデルは私自身で、名前はケンジです。ただし絵柄は統一しません。タイ語学習ゲームではドッ…"
-    },
-    {
-      "id": "948a93f915dd",
-      "title": "「書き込みは提案、確定は人」——複数のコーディング Agent が同じチーム事実を引用する",
-      "url": "https://zenn.dev/ontoloop/articles/e3c1fe4c04e923",
-      "publishedAt": "2026-11-13T02:11:31.000Z",
-      "publisher": "Ontoloop",
-      "summary": "この記事は Ontoloop 公式アカウントによる技術解説です。 Claude Code や Codex をリモート MCP でつなぐ手順は、公開されている MCP ドキュメント（更新 2026-11-04）にまとまっています。この記事で…"
     }
   ],
-  "fetchedAt": "2026-11-13T08:46:24.869Z",
+  "fetchedAt": "2026-11-13T16:56:08.865Z",
   "stale": false,
   "error": null
 }
