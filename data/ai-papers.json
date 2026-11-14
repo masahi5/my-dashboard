@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2611.15844",
       "publishedAt": "2026-11-11T00:00:00.000Z",
       "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Ba…",
-      "score": 28
+      "score": 30
     },
     {
       "id": "1a94fc8d34f8",
@@ -19,23 +19,7 @@
       "url": "https://huggingface.co/papers/2611.17334",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision en…",
-      "score": 6
-    },
-    {
-      "id": "30101acd7d7d",
-      "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
-      "url": "https://huggingface.co/papers/2611.08318",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several re…",
-      "score": 6
-    },
-    {
-      "id": "f37321ab8f9f",
-      "title": "DeepStress: Stress-Testing Deep Search Agents",
-      "url": "https://huggingface.co/papers/2607.13920",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-qual…",
-      "score": 4
+      "score": 10
     },
     {
       "id": "377b0bfef25b",
@@ -43,6 +27,14 @@
       "url": "https://huggingface.co/papers/2611.09567",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited b…",
+      "score": 4
+    },
+    {
+      "id": "3dfe8e46bae2",
+      "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+      "url": "https://huggingface.co/papers/2611.17190",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object …",
       "score": 3
     },
     {
@@ -54,11 +46,19 @@
       "score": 3
     },
     {
-      "id": "3dfe8e46bae2",
-      "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
-      "url": "https://huggingface.co/papers/2611.17190",
+      "id": "43c0a0b029dd",
+      "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+      "url": "https://huggingface.co/papers/2611.10439",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM…",
+      "score": 2
+    },
+    {
+      "id": "f35b32d05550",
+      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "url": "https://huggingface.co/papers/2611.17336",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object …",
+      "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compress…",
       "score": 2
     },
     {
@@ -67,23 +67,7 @@
       "url": "https://huggingface.co/papers/2611.16961",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; eithe…",
-      "score": 1
-    },
-    {
-      "id": "15f3fa627d9e",
-      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
-      "url": "https://huggingface.co/papers/2611.16409",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewar…",
-      "score": 1
-    },
-    {
-      "id": "0312eeef086b",
-      "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
-      "url": "https://huggingface.co/papers/2611.14256",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each se…",
-      "score": 1
+      "score": 2
     },
     {
       "id": "dd3735a82d46",
@@ -91,7 +75,23 @@
       "url": "https://huggingface.co/papers/2611.12750",
       "publishedAt": "2026-11-09T00:00:00.000Z",
       "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that diff…",
-      "score": 0
+      "score": 2
+    },
+    {
+      "id": "15f3fa627d9e",
+      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "url": "https://huggingface.co/papers/2611.16409",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewar…",
+      "score": 2
+    },
+    {
+      "id": "e98acbf54f5a",
+      "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+      "url": "https://huggingface.co/papers/2611.16728",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated ag…",
+      "score": 1
     },
     {
       "id": "928f0707c04f",
@@ -99,10 +99,10 @@
       "url": "https://huggingface.co/papers/2611.15094",
       "publishedAt": "2026-11-11T00:00:00.000Z",
       "summary": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although arti…",
-      "score": 0
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-13T22:22:18.391Z",
+  "fetchedAt": "2026-11-14T02:35:41.803Z",
   "stale": false,
   "error": null
 }

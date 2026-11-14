@@ -2,6 +2,15 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2121220372658037018",
+      "url": "https://x.com/Vincent_AINotes/status/2121220372658037018",
+      "text": "AI 圈已经有人开始为「AI 断供」做末日准备了，甚至囤出了 10.5TB 的 AI 战略储备😂\n\n黄仁勋离开 NVIDIA 后，Ruby on Rails 创始人 DHH 突然发了一条意味深长的推文：\n\n「你最好提前备份几份开放权重模型，再准备一些能运行它们的基本设备。没人知道 NVIDIA 到底发生了什么，但这个世界刚刚失去了自由开放 AI 最重要的支持者之一。」\n\nReddit上，已经有人认真讨论起了「如果有一天开放权重模型不再发布，我们该提前囤些什么？」\n\n结果评论区直接变成了 AI 末日生存物资展示大会。\n\n一位叫 Kahvana 的玩家晒出了自己的 2TB NVMe 硬盘。\n\n里面不只是几个聊天模型，而是囤了 Qwen3.8、Gemma 4、DeepSeek V4 Flash、Nemotron 等多个系列，连不同精度的量化版本都准备好了。\n\n而且考虑得相当周全：\n\n不仅有负责聊天和写代码的大语言模型，还有语音识别、语音合成、图片生成、Embedding、Reranker，以及 ComfyUI、MCP 工具、离线维基百科。\n\n甚至还专门把最重要的模型复制到 NAS，并备份 llama.cpp 和 SillyTavern，确保不只是有模型权重，还能真正运行起来。\n\n但这还不是最夸张的。\n\n另一位叫 TheBigHODL 的玩家直接晒出了一份 10.5TB 的 AI 储备清单。\n\n中国的 Kimi、DeepSeek、Qwen、GLM、MiniMax，美国的 Llama、GPT-OSS、Gemma，以及 Mistral 等模型，几乎把主流开放权重阵营都囤了一遍。\n\n还不止如此。\n\n从 Whisper 语音模型、FLUX 图片模型，到训练数据集、评测数据、完整维基百科、推理框架、量化工具，甚至一些开发工具的源码，都在他的存档范围内。\n\n这已经不是简单地下载几个 GGUF 文件了，而是在试图给自己保存一整套能独立运转的 AI 工具箱。\n\n他们担心的也很现实：\n\n万一未来中国模型受到更多出口或访问限制，美国 AI 实验室又逐渐停止开放权重，今天随手就能从 Hugging Face 下载的东西，明天可能就没那么容易拿到了。\n\n当然，这只是社区对未来的担忧，并不代表相关禁令已经出台。\n\n但这种变化确实挺有意思。\n\n以前本地 AI 圈比的是谁的显卡多、显存大、Token 跑得快。\n\n现在有人已经开始比谁的硬盘大、谁的模型囤得全、谁断网之后还能继续用 AI。\n\n以前末日生存玩家囤粮食、柴油、发电机，现在 AI 玩家开始囤模型、算力和离线知识库了。\n\n而且仔细想想，这事还真不完全是杞人忧天。\n\n云端 AI 再强，使用权终究取决于服务商；本地模型即使落后几个版本，只要权重、软件和硬件都在，至少还能自己运行。",
+      "publishedAt": "2026-11-13T12:35:21.000Z",
+      "authorHandle": "Vincent_AINotes",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2121170418048614563",
       "url": "https://x.com/shi3z/status/2121170418048614563",
       "text": "深夜のホルモンラーメン｜shi3z @shi3z note.com/shi3zblog/n/n624ff2…",
@@ -81,18 +90,9 @@
       "authorHandle": "YasLovesTech",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2120742356643402067",
-      "url": "https://x.com/shi3z/status/2120742356643402067",
-      "text": "我が国でもこの法案を可決しよう",
-      "publishedAt": "2026-11-12T04:55:53.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-11-13T22:22:40.991Z",
+  "fetchedAt": "2026-11-14T02:36:08.578Z",
   "stale": false,
   "error": null
 }

@@ -6,22 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "5beedd50a4b8",
-      "title": "対話型AI上に仮想OS『KratOS』を構築するINI設計手法",
-      "url": "https://zenn.dev/akajishi/articles/613e1c0e9368b1",
-      "publishedAt": "2026-11-13T19:59:06.000Z",
-      "publisher": "Akajishi",
-      "summary": "1. 課題：なぜ長い対話でAIの回答品質は下がるのか 現在の対話型AIは、会話の履歴を一時的な記憶として処理する仕組みの為、遣り取りが長くなると以下の劣化が生じます。 初期指示の忘却: 遣り取りが増えるに連れ、最初に与えた前提条件や出力形…"
-    },
-    {
-      "id": "76af5096d510",
-      "title": "AIプロジェクトの進め方【G検定 技術解説】",
-      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-project-management-tech",
-      "publishedAt": "2026-11-13T19:55:21.000Z",
-      "publisher": "まっすん",
-      "summary": "概要 AIプロジェクトの進め方は、G検定のシラバスで重要な概念です。この記事では、技術的な詳細について解説します。 定義と背景 AIプロジェクトの進め方について、以下の観点から理解することが重要です： 理論的背景 実装方法 実務での応用 …"
-    },
-    {
       "id": "e7529d433d65",
       "title": "一人の開発者 vs ボット・インターネット:OpenOS EDNA —— 生体情報を一切クラウドに送らず「あなたが人間であること」を証明する",
       "url": "https://zenn.dev/sebklaey/articles/cd02b3c07d03d9",
@@ -100,9 +84,25 @@
       "publishedAt": "2026-11-13T14:53:05.000Z",
       "publisher": "TAMOTSU＠DELL",
       "summary": "[日本語] 第2回：AIの精度と運用を支えるデータ基盤――Dell AI Data Platform with NVIDIA モデルを変えても、データの課題は残る 生成AIの回答品質を改善しようとすると、より大きなモデルを選ぶことや、プロ…"
+    },
+    {
+      "id": "89fcf55471e2",
+      "title": "🐺Xで自動発信するAIエージェント『ハウル』を設計・運用する — ペルソナ工学から自律運用まで",
+      "url": "https://zenn.dev/joe_wolf_woof/articles/9195dea917ba47",
+      "publishedAt": "2026-11-13T14:48:13.000Z",
+      "publisher": "JOE",
+      "summary": "はじめに：作ったもの 前作『Spatial AI NPC』（カメラ画像から空間を理解して反応するWebARのAIキャラクター）の続編として、同じオオカミを独立したキャラクターとして「運用」するプロジェクト『ウルフ、運用中。』を進めています…"
+    },
+    {
+      "id": "a7f72f26c989",
+      "title": "重みの0.05%を消すだけでファインチューニング相当? Deletion Tuningの公開マスクを実際に適用してみた",
+      "url": "https://zenn.dev/matsushima_a/articles/day-045-deletion-tuning-mask-verification",
+      "publishedAt": "2026-11-13T14:27:04.000Z",
+      "publisher": "matsu",
+      "summary": "この記事で試したこと NeurIPS 2026に採択された論文「The Surprising Effectiveness of Deleting Weights in LLM Post-Training」(arXiv:2611.10866…"
     }
   ],
-  "fetchedAt": "2026-11-13T22:22:18.600Z",
+  "fetchedAt": "2026-11-14T02:35:41.934Z",
   "stale": false,
   "error": null
 }
