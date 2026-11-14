@@ -19,7 +19,7 @@
       "url": "https://huggingface.co/papers/2611.17334",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision en…",
-      "score": 13
+      "score": 14
     },
     {
       "id": "43c0a0b029dd",
@@ -27,7 +27,7 @@
       "url": "https://huggingface.co/papers/2611.10439",
       "publishedAt": "2026-11-07T00:00:00.000Z",
       "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM…",
-      "score": 5
+      "score": 6
     },
     {
       "id": "377b0bfef25b",
@@ -46,6 +46,14 @@
       "score": 4
     },
     {
+      "id": "f35b32d05550",
+      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "url": "https://huggingface.co/papers/2611.17336",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compress…",
+      "score": 3
+    },
+    {
       "id": "3dfe8e46bae2",
       "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
       "url": "https://huggingface.co/papers/2611.17190",
@@ -54,12 +62,12 @@
       "score": 3
     },
     {
-      "id": "f35b32d05550",
-      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
-      "url": "https://huggingface.co/papers/2611.17336",
+      "id": "15f3fa627d9e",
+      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "url": "https://huggingface.co/papers/2611.16409",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compress…",
-      "score": 2
+      "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewar…",
+      "score": 3
     },
     {
       "id": "be1aeffe89b0",
@@ -75,14 +83,6 @@
       "url": "https://huggingface.co/papers/2611.12750",
       "publishedAt": "2026-11-09T00:00:00.000Z",
       "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that diff…",
-      "score": 2
-    },
-    {
-      "id": "15f3fa627d9e",
-      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
-      "url": "https://huggingface.co/papers/2611.16409",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewar…",
       "score": 2
     },
     {
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-11-14T09:26:01.856Z",
+  "fetchedAt": "2026-11-14T15:56:38.306Z",
   "stale": false,
   "error": null
 }

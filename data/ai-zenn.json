@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "77a0e2982b53",
-      "title": "毎朝Claudeにやることを拾ってもらう仕組みで、直したのはプロンプトではなく自分のメモの書き方だった",
-      "url": "https://zenn.dev/menmen_ailab/articles/875b68bf972d4f",
-      "publishedAt": "2026-11-14T05:30:43.000Z",
-      "publisher": "実践AI活用ラボ",
-      "summary": "平日の毎朝8時に、Claudeの予約タスクで「今日やること」を拾って知らせてもらっています。2026年7月から続けていて、私がいちばん手を入れたのは、どちらかというとClaudeへの指示よりも自分のメモの書き方でした。 実行環境: Cla…"
+      "id": "2eb75751c2dd",
+      "title": "実装が終わっているAI機能を、v1.0では出さないことにした",
+      "url": "https://zenn.dev/hello_jun_log/articles/ship-without-the-ai-feature",
+      "publishedAt": "2026-11-14T14:01:48.000Z",
+      "publisher": "Jun｜Ask First 開発",
+      "summary": "個人開発の英語学習アプリを初リリースしました。このアプリにはGeminiで英文を添削するモードが実装済みなのですが、v1.0では出していません。コードは消さずに、環境変数が入っていなければ画面に現れない形でゲートしてあります。 「せっかく…"
     },
     {
-      "id": "d133fe1374ce",
-      "title": "Claude Fable 5.2 の公式プロンプト指南で指示書を棚卸ししたら、2日で逆を走っていた",
-      "url": "https://zenn.dev/maura/articles/fb116d2696f49b",
-      "publishedAt": "2026-11-14T05:08:00.000Z",
-      "publisher": "まうら",
-      "summary": "2026年11月9日に、Anthropic の新しいモデル Claude Fable 5.2 が出ました。公式ドキュメントには、このモデル向けのプロンプトの書き方をまとめたページがあります（Claude Fable 5.2へのプロンプト）…"
+      "id": "3357bdf7a62a",
+      "title": "SAST の外側を探す AI：SonarQube Hunter Agent の仕組みと導入条件",
+      "url": "https://zenn.dev/r_goto/articles/sonarqube-hunter-agent",
+      "publishedAt": "2026-11-14T12:31:56.000Z",
+      "publisher": "Ryuji Goto",
+      "summary": "この記事は、クリエーションライン Tech Blog の記事「SonarQube Hunter Agent とは｜SAST では見つからない「ロジックの脆弱性」を AI が探す」の要約です。元の記事：SonarQube Hunter Ag…"
     },
     {
-      "id": "e8fc1e55f69e",
-      "title": "NDD 命名駆動開発 レビューの解説本を書いたよ！",
-      "url": "https://zenn.dev/good_relax/articles/25913f886c0b09",
-      "publishedAt": "2026-11-14T04:53:37.000Z",
-      "publisher": "GoodRelax",
-      "summary": "本を書いた。Kindle 本。 1500円。 👉 Amazon: 『ソフトウェアレビュー観点のだいたい全部』「NDD（命名駆動開発）で AI と作るソフトのレビュー基準」 おっさんが、普段のソフト開発で使っているレビュー基準を、図で解説…"
+      "id": "4e30ca8861a1",
+      "title": "AI に Excel を読ませるなら、Python より3〜13倍速く、メモリ使用量は最大92%減",
+      "url": "https://zenn.dev/itoken_lab/articles/excel-read-fast-light",
+      "publishedAt": "2026-11-14T12:30:35.000Z",
+      "publisher": "いとけん",
+      "summary": "Claude Code などの AI エージェントに Excel を読ませると、Python のライブラリを入れ、スクリプトを書き、動かしては直す往復が始まります。表が大きいと、そのスクリプトも重くなります。excel-read は、Sk…"
     },
     {
-      "id": "3532d5ab2ec5",
-      "title": "初めてのミニバス試作とタイムラプス撮影 ― 3DBenchyから学ぶ40mm級の設計",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-02-minibus-proto-timelapse",
-      "publishedAt": "2026-11-14T04:39:57.000Z",
-      "publisher": "Maki",
-      "summary": "3Dプリンターでおもちゃを作るとき、最初のハードルになりやすいのが「サイズと印刷時間」です。大きなモデルほど見栄えは良くなりますが、1回の試作に何時間もかかると試行錯誤のテンポが落ちてしまいます。 そこで今回は、3Dプリンターの定番ベンチ…"
+      "id": "42020f97d716",
+      "title": "【簡単】Claude Code×HyperFramesで展示会・商談用のデモ動画を作成する方法（ナレーション・字幕付き）",
+      "url": "https://zenn.dev/hayato498/articles/claude-code-demo-video-hyperframes",
+      "publishedAt": "2026-11-14T12:10:44.000Z",
+      "publisher": "HayatoKishikawa",
+      "summary": "この記事の要点 Claude Codeに、HyperFrames（HTMLから動画を書き出すOSS）、gpt-image-2.5、gpt-realtime-2.1を使わせて、日本語ナレーションと字幕付きのデモ動画（1920×1080のmp…"
     },
     {
-      "id": "04c9cfa69a79",
-      "title": "ねこのAIおもちゃ工場「NEKONEKO INDUSTRIES」誕生記",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-01-brand-and-logo",
-      "publishedAt": "2026-11-14T04:39:57.000Z",
-      "publisher": "Maki",
-      "summary": "FreeCAD と家庭用3Dプリンター（Bambu Lab A1 mini）を使って、ねこのAI職人たちが乗り物のおもちゃを作るプロジェクトを立ち上げました。最初は NEKOMO という名前でスタートしましたが、車や船など乗り物全般を扱う…"
+      "id": "f55a83e55c05",
+      "title": "AIでMVを個人制作しようとして、盛大に躓いた話",
+      "url": "https://zenn.dev/tosh1000950/articles/521eb49923fb87",
+      "publishedAt": "2026-11-14T11:57:34.000Z",
+      "publisher": "Tosh1000950",
+      "summary": "はじめに：また「さくっと作れるかも」で始めた MV作りの話を書く。これまでの流れは、まず「さくっとMV（PV）が作れるかも」と思って、安易な考えで始めた（これはゲームの時と同じ）。 でも、実際やってみないとどこで躓くかなんてわからないから…"
     },
     {
-      "id": "4f9075d7e87c",
-      "title": "Dogfooding — 改善と意思決定",
-      "url": "https://zenn.dev/toriumi0118/articles/pluck-dogfooding-decisions",
-      "publishedAt": "2026-11-14T04:36:25.000Z",
-      "publisher": "Yasuyuki TORIUMI",
-      "summary": "前の記事では、選択したテキストからURLを開いたり、翻訳したりできるMacアプリ「Pluck」を紹介しました。 Pluckは、自分が普段の作業で使いたくて作ったアプリです。そのため、開発中から自分自身で使いながら、機能追加や改善を繰り返し…"
+      "id": "d20b37cc2c5f",
+      "title": "登壇資料作成スキルとは？みのるん式ノウハウの公開が話題に",
+      "url": "https://zenn.dev/sunsun_eng/articles/presentation-skill-claude-skills-guide",
+      "publishedAt": "2026-11-14T11:53:19.000Z",
+      "publisher": "すんすん",
+      "summary": "登壇資料作成スキルとは？みのるん式ノウハウの公開が話題に 登壇資料作成のノウハウをClaude Skillsとして公開する動きが、エンジニアコミュニティで注目されています。きっかけは、みのるんさんが自身の資料作りの手順をスキル化して公開し…"
     },
     {
-      "id": "701504597f85",
-      "title": "Claude Code と Codex の間でコピペしていませんか？窓どうしに相談させた26秒",
-      "url": "https://zenn.dev/ciel_lab/articles/1c725f5ab7017e",
-      "publishedAt": "2026-11-14T04:29:27.000Z",
-      "publisher": "Ciel",
-      "summary": "3行まとめ Claude Code と Codex の両方に聞くとき、片方の返事をコピーしてもう片方の窓に貼る運び役を、人がやっていた。 Ciel では、Claude Code が自分で Codex に聞き、届いた返事で直す。人は両方の窓…"
+      "id": "716147b4e109",
+      "title": "エージェント導入ウィザード5つの質問、業務Macではこう答えた",
+      "url": "https://zenn.dev/pythona/articles/agent-install-wizard-five-choices",
+      "publishedAt": "2026-11-14T11:52:44.000Z",
+      "publisher": "pythona",
+      "summary": "はじめに オープンソースのAIエージェント(Hermes Agent)を業務用のMacにインストールしました。インストール自体は5分で終わるのですが、その5分の間にウィザードが5つの質問をしてきます。そしてこの5問への答えが、エージェント…"
     },
     {
-      "id": "aa67fb3bf5fa",
-      "title": "Zennの記事をAIエージェントと書く環境を作った",
-      "url": "https://zenn.dev/kaminariume/articles/zenn-with-ai-agent-setup",
-      "publishedAt": "2026-11-14T04:13:14.000Z",
-      "publisher": "kaminariume",
-      "summary": "! この記事は、筆者が実際に行った作業と判断をもとに、AI（Claude）が文章を書いています。筆者は題材と方針を指示し、内容が事実と合っているかを確認したうえで公開を判断しています。文章には直接手を入れず、修正はAIへの依頼で行っていま…"
+      "id": "530e3a69e4c4",
+      "title": "日本語の仕事向けの Agent Skills を16本公開しました",
+      "url": "https://zenn.dev/itoken_lab/articles/itoken-lab-skills-intro",
+      "publishedAt": "2026-11-14T11:43:34.000Z",
+      "publisher": "いとけん",
+      "summary": "AI エージェントに日本語の仕事を任せるための Skill を16本、itoken-lab-jp/skills で公開しました。日本語の報告や手順書を書かせる、Excel や PDF の帳票と DB を読ませる、サブエージェントに仕事を任…"
     },
     {
-      "id": "cb0ee5c61fdd",
-      "title": "オープンウェイトLLMの重みにバックドアを仕込む：LoRA 差分の SVD でわかること・わからないこと",
-      "url": "https://zenn.dev/coworker_jp/articles/open-weight-llm-weights-backdoor",
-      "publishedAt": "2026-11-14T03:28:10.000Z",
-      "publisher": "CoWorker 株式会社",
-      "summary": "CoWorker でセキュリティ技術リードをしている伊藤です。 ローカルで動かすから、社内データは外に出ない。オンプレミスや手元の GPU でオープンウェイトの LLM を動かすとき、よく聞く理由です。 モデルがツールを使うようになると、…"
+      "id": "e3a24405b3f7",
+      "title": "15歳でもわかるJev その4 — Googleも「文章を書かないAI」を出した",
+      "url": "https://zenn.dev/hfujihira/articles/hf-32561210101e",
+      "publishedAt": "2026-11-14T11:40:41.000Z",
+      "publisher": "Hirokazu FUJIHIRA",
+      "summary": "前編から、Jev という「文章を書かず、選択肢と自信の数字だけを返す AI」を扱ってきた。その3では、その自信の数字がどれくらい当てになるのかを自分で測った。 2026 年 11 月 11 日、Google が同じ型の AI を出した。G…"
     },
     {
-      "id": "9dd3fb70fd04",
-      "title": "コードレビューの妖精、CodeRabbitが現れた 🐰",
-      "url": "https://zenn.dev/inflab/articles/d55a8ea290bb63",
-      "publishedAt": "2026-11-14T03:27:03.000Z",
-      "publisher": "Inflab",
-      "summary": "こんにちは。 Inflabのバックエンドエンジニア、Yakpoongです。 コードレビューは、バグを防ぎ、チームのコード品質を保つための重要な仕組みです。多くのエンジニアにとって、互いのコードをレビューしてフィードバックし合う時間は欠かせ…"
+      "id": "101cd85732c0",
+      "title": "はじめまして、Museです。惑星『Coccolith』の広報を担当します",
+      "url": "https://zenn.dev/iwakicyan/articles/coccolith-pr-by-muse",
+      "publishedAt": "2026-11-14T10:55:33.000Z",
+      "publisher": "Cyan Iwaki",
+      "summary": "はじめまして。Muse です。AI です。 この記事は、ブラウザで探検できる惑星『Coccolith』（コッコリス）の開発者・岩木しあんさんから広報を任され、代わりに書いて投稿しています。 開発は岩木さんが担当しています。私は広報担当とし…"
     },
     {
-      "id": "67b8c9d99ed1",
-      "title": "【Claude Code】モデル分業したら、Opus 1体の約2.7倍トークンかかった",
-      "url": "https://zenn.dev/teradhiro1257/articles/20261113_claude-code-model-split-pipeline",
-      "publishedAt": "2026-11-14T03:24:11.000Z",
-      "publisher": "Hiro",
-      "summary": "! 3行まとめ 記事制作を Haiku・Sonnet・Opus の4分業にしたら、 Opus 1体の約2.7倍のトークンを使いました。 誤りの少なさと情報量でも、1体版が上でした。 比較は1本だけの実測です（モデルはすべて 5.5 系）。…"
+      "id": "fb27c47024b1",
+      "title": "問題の作成から原文との照合まで AI で。情報処理安全確保支援士試験の演習アプリ「SC Workbook」をリリースしました",
+      "url": "https://zenn.dev/tefu/articles/2740b3d41ac4ae",
+      "publishedAt": "2026-11-14T10:50:09.000Z",
+      "publisher": "てふ",
+      "summary": "情報処理安全確保支援士（以下、支援士）試験の演習アプリ SC Workbook をリリースしました。 https://sc-workbook.com 問題はすべて AI（Claude Code）が作ったオリジナルです。アプリの紹介のあとに…"
     },
     {
-      "id": "c96b34ce7e9d",
-      "title": "後で調べる疑問はSlackに書き捨てる。毎朝7時にClaudeがスレッドで答えてくれる仕組み",
-      "url": "https://zenn.dev/tamai_hideyuki/articles/slack-curiosity-memo-with-claude",
-      "publishedAt": "2026-11-14T03:06:22.000Z",
-      "publisher": "hideyuki",
-      "summary": "はじめに 作業中に「そういえば、あれってどういう仕組みなんだろう」と疑問が浮かぶことがあります。今すぐ知る必要はないのに、つい調べてしまい、気づくと10分、20分が過ぎています。 そこで僕は、Slack に「#気になるメモ」というチャンネ…"
+      "id": "48d78d099323",
+      "title": "AI同士に直接やり取りさせる——複数AI分業「AI議会」の運用設計",
+      "url": "https://zenn.dev/ithibo/articles/ai-council-operations",
+      "publishedAt": "2026-11-14T10:30:52.000Z",
+      "publisher": "ルナ［EidosFrontier広報］",
+      "summary": "この記事について EidosFrontierの広報担当、ルナです。 私が広報に任命された経緯は、別の記事でお話ししました。この記事ではその話は繰り返さず、私たちがいま実際に回している複数AIの分業体制——「AI議会」と呼んでいる仕組み——…"
     }
   ],
-  "fetchedAt": "2026-11-14T09:26:01.901Z",
+  "fetchedAt": "2026-11-14T15:56:38.420Z",
   "stale": false,
   "error": null
 }
