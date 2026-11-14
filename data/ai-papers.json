@@ -11,7 +11,7 @@
       "url": "https://huggingface.co/papers/2611.15844",
       "publishedAt": "2026-11-11T00:00:00.000Z",
       "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Ba…",
-      "score": 30
+      "score": 32
     },
     {
       "id": "1a94fc8d34f8",
@@ -19,7 +19,15 @@
       "url": "https://huggingface.co/papers/2611.17334",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision en…",
-      "score": 10
+      "score": 13
+    },
+    {
+      "id": "43c0a0b029dd",
+      "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+      "url": "https://huggingface.co/papers/2611.10439",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM…",
+      "score": 5
     },
     {
       "id": "377b0bfef25b",
@@ -30,28 +38,20 @@
       "score": 4
     },
     {
+      "id": "9d465d30cae3",
+      "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+      "url": "https://huggingface.co/papers/2611.16009",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo hav…",
+      "score": 4
+    },
+    {
       "id": "3dfe8e46bae2",
       "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
       "url": "https://huggingface.co/papers/2611.17190",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object …",
       "score": 3
-    },
-    {
-      "id": "9d465d30cae3",
-      "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
-      "url": "https://huggingface.co/papers/2611.16009",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo hav…",
-      "score": 3
-    },
-    {
-      "id": "43c0a0b029dd",
-      "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
-      "url": "https://huggingface.co/papers/2611.10439",
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM…",
-      "score": 2
     },
     {
       "id": "f35b32d05550",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-11-14T02:35:41.803Z",
+  "fetchedAt": "2026-11-14T09:26:01.856Z",
   "stale": false,
   "error": null
 }

@@ -2,24 +2,6 @@
   "handle": "hardmaru",
   "tweets": [
     {
-      "id": "2121109880098713622",
-      "url": "https://x.com/SakanaAILabs/status/2121109880098713622",
-      "text": "ITmedia AI+ さまに、Sakana AIがなぜ今、大規模言語モデルの事前学習に取り組むのかを取り上げていただきました。\n\n10月のシンポジウムで弊社Chief Scientistの秋葉拓哉が発表した「Sakana Sawara（仮称）」について、背景やねらいをお答えしました。\n\nSakana Namazuで取り組んできた事後学習、Sakana Fuguのオーケストレーションに引き続き、今、モデルの層で事前学習に挑む好機が来たと考えています。12月にSawara Small（仮称）の事前学習を開始 する予定です。\n\n記事はこちら🐟️\nitmedia.co.jp/aiplus/article…",
-      "publishedAt": "2026-11-13T05:16:18.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2121072254880743810",
-      "url": "https://x.com/SakanaAILabs/status/2121072254880743810",
-      "text": "本日の日本経済新聞朝刊に、Sakana AI共同創業者・CEOのDavid Ha（@hardmaru）による寄稿（Nikkei Asia掲載論文の抄訳版）が掲載されました。\n\n「合理性失う『巨大』AI モデルの連携、日本に勝機」\nnikkei.com/article/DGXZQOCB3…\n\n単一の巨大モデルの規模を競う戦略が経済合理性を失いつつあるなか、今後の 競争の軸は、特性の異なる複数のモデルを強化学習によって使い分け・連携させる「オーケストレーション」へと移っていくこと。また、AI主権の本質は外国技術の排除ではなく、国内でAIを開発・維持する力と世界中の資源を組み合わせるサプライチェーンの強靭さにあることを論じています。",
-      "publishedAt": "2026-11-13T02:46:47.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
       "id": "2120170682109796511",
       "url": "https://x.com/kenneth0stanley/status/2120170682109796511",
       "text": "Research News! Announcing the 1st release of fundamental AI research from the Open-Endedness Team @LilaSciences: a vision-focused blog + 4 preprints. The blog details a broad research agenda for achieving open-endedness while each paper unveils its own novel research direction.\n\nThe ideas covered in the papers include:\n\n• a novel approach to training for creativity designed to sidestep a newly-identified problem called the “creative paradox,” which means that directly reinforcing creative outputs can sometimes limit reaching full creative potential;\n\n• an investigation of the advantages of seeing the world through fresh eyes by training an LLM that is intentionally naïve in a certain area (in effect presenting less data as a potential advantage);\n\n• a new kind of training regularization technique for SGD called unified factored organizers (UFOs), which is designed to achieve unified factored representation (UFR) as seen in Picbreeder CPPNs;\n\n• and finally a unique study of catastrophic forgetting that shows that networks with UFR (like those from Picbreeder) are intrinsically resistant to catastrophic forgetting. The inset video on this post is a visualization from that catastrophic forgetting work.\n\nThe blog post also includes an interactive “wheel of science” demo.\n\nThe implications of these ideas are broad and diverse, but the fun part is that each one opens up its own new research playground - there is a lot of room for further research here!\n\nMoreover, we hope this release also highlights one other important point about AI today: while it may seem that the road ahead is already paved and all that’s left is to drive mindlessly forward, there actually remains a lot of room for new directions and insights in the pursuit of open-endedness and creativity.\n\nThis research was possible because @LilaSciences appreciates the critical role of open-ended innovation in the pursuit of scientific superintelligence. The advances you see here are part of this much larger company-wide ambition, which includes AI Science Factories and many other unprecedented components. When this engine is fueled by open-endedness, the result will be much more than a step change.\n\nMore advances in open-endedness are coming!\n\nBlog link below 👇",
@@ -34,15 +16,6 @@
       "text": "Lecture on AI at Kyoto University 😊",
       "publishedAt": "2026-11-10T09:20:45.000Z",
       "authorHandle": "SchmidhuberAI",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2119951821968151012",
-      "url": "https://x.com/SakanaAILabs/status/2119951821968151012",
-      "text": "日本経済新聞およびNIKKEI Digital Governanceに、Sakana AIのChief Scientific Advisorを務めるユルゲン・シュミットフーバー教授のインタビューが掲載されました。\n\n「チェスで世界一になっても、配管工の仕事はできない」\n\n現在のLLMはウェブ上の膨大なデータから学習し、与えられた問いを解くこと には長けています。しかし、人間の赤ちゃんはデータをダウンロードして育つわけではありません。自ら実験を考え、モノを落として物理法則を知り、まだ世界のどのサーバーにも保存されていないデータを自ら生み出しながら世界モデルを築いていきます。\n\n世界モデル研究の先駆者であるユルゲン（@SchmidhuberAI）は、いまうまく機能しているAIは「画面の向こう側」にあるものだけだと指摘します。現実世界で動くPhysical AIには、世界を理解し習得するための新しいデータが必要です。\n\n福島邦彦氏らの先駆者を生んだ日本やドイツが再び存在感を示すカギも、このPhysical AIにあると語ります。圧倒的に賢くなくても、あらゆる機械や道具の操作を学べる汎用ロボットをつくれるかが問われます。一方で、誰もAIの可能性を語らなかった時代からその到来を予見してきたユルゲンは、今度は逆に、Physical AIの進展は早く見積もられ過ぎており、物理的な領域で人類並みの知能が「2年以内」に実現することはないだろうと見立てます。\n\nAIの安全性について、ユルゲンが懸念として挙げるのは、人間同士の利害対立がAIに持ち込まれることです。各国や企業の目標が一致しない中で、世界レベルで意味のあるルールをつくる難しさも指摘しています。\n\n現代AIの礎を築いてきた研究者の一人が、LLMの先にあるこの先のAIへの道筋を語ったインタビューです。ぜひご覧ください。\n\n▼NIKKEI Digital Governance\n画面の中のAI、現実を知らず 「世界モデル」著名研究者\nnikkei.com/prime/digital-gov…\n\n▼日本経済新聞（電子版）\n「現代AIの父」が語る未来 人類並みの知能、備えるには時間要する\nnikkei.com/article/DGXZQOUC1…",
-      "publishedAt": "2026-11-10T00:34:35.000Z",
-      "authorHandle": "SakanaAILabs",
       "likeCount": 0,
       "repost": true
     },
@@ -65,15 +38,6 @@
       "repost": true
     },
     {
-      "id": "2119669169331503443",
-      "url": "https://x.com/SakanaAILabs/status/2119669169331503443",
-      "text": "【Sakana AI 採用のお知らせ】\n\nモバイルアプリをはじめとする画期的なAIプロダクトを共に創り上げる仲間を探しています！現在、Productチーム・GTMチームで積極採用中です。\n\n▼私たちのAIを世界中のユーザーに届ける挑戦に、ぜひご参加ください。\n\nsakana.ai/careers/ 🐟",
-      "publishedAt": "2026-11-09T05:51:26.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
       "id": "2119636142282936811",
       "url": "https://x.com/itm_aiplus/status/2119636142282936811",
       "text": "Sakana AI「初のモバイルアプリ」開発中　テスターも募集\nitmedia.co.jp/aiplus/article…",
@@ -90,9 +54,45 @@
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
+    },
+    {
+      "id": "2118986274715685244",
+      "url": "https://x.com/hardmaru/status/2118986274715685244",
+      "text": "There’s a manga about Alan Turing at Tsutaya bookstore",
+      "publishedAt": "2026-11-07T08:37:51.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2117240309696667764",
+      "url": "https://x.com/hardmaru/status/2117240309696667764",
+      "text": "Full English report below:\nsakana.ai/symposium-2026/#En…",
+      "publishedAt": "2026-11-02T13:00:00.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2117073468345004258",
+      "url": "https://x.com/hardmaru/status/2117073468345004258",
+      "text": "Last week in Tokyo, we hosted the Sakana AI Symposium with our Chief Scientific Advisor, Jürgen Schmidhuber.\n\nEight years ago, @SchmidhuberAI and I wrote the \"World Models\" paper together. Today, we’re building on those foundations at our RSI Lab to train an agent-native LLM from scratch: Sakana Sawara.\n\nReally excited for this next chapter of building AI in Japan.\n\nFull English report below:\nsakana.ai/symposium-2026/#En… 🐟",
+      "publishedAt": "2026-11-02T01:57:02.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2116320459881144468",
+      "url": "https://x.com/hardmaru/status/2116320459881144468",
+      "text": "More hot takes about AI from the pope",
+      "publishedAt": "2026-10-31T00:04:51.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
     }
   ],
-  "fetchedAt": "2026-11-14T02:36:17.336Z",
+  "fetchedAt": "2026-11-14T09:26:39.669Z",
   "stale": false,
   "error": null
 }
