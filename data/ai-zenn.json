@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c696c4679e34",
-      "title": "AIにコードを任せても、判断は手放さない ― OSSのAI禁止から考える責任の境界",
-      "url": "https://zenn.dev/yun_bow/articles/fbfa7c1de09695",
-      "publishedAt": "2026-11-15T08:25:49.000Z",
-      "publisher": "ゆんぼう",
-      "summary": "はじめに 「AI生成の大量PRが困るなら、CIで落とし、要約を付け、投稿数を制限すればよいのではないか」 OSSのAI利用禁止を調べて、最初に引っ掛かったのはこの点だった。未検証の変更を大量に送られる問題と、十分に検証した小さな変更まで、…"
+      "id": "1c0f5c23e8ca",
+      "title": "作りながら鍛えるコードリーディング力",
+      "url": "https://zenn.dev/gen_tokunaga/articles/bdf9e8e0faf872",
+      "publishedAt": "2026-11-15T16:17:47.000Z",
+      "publisher": "gen_tokunaga",
+      "summary": "満たしたいこと AIに作らせたコードを自分が理解し、｢いいコードだ｣と銘を打つまでに時間がかかる。要はコードリーディングが遅い。効率的に読むにはどうすればいいんだろう。 自分なりの結論 前提 他の人のコードを読む時は、全部を読む必要はない…"
     },
     {
-      "id": "d6009a1c5212",
-      "title": "「この漫画って誰が作ってるの?」Claude Code の複数エージェントで株価の漫画を毎日出す仕組み",
-      "url": "https://zenn.dev/satowan/articles/claude-code-multi-agent-manga-pipeline",
-      "publishedAt": "2026-11-15T07:47:17.000Z",
-      "publisher": "さとわん",
-      "summary": "「まんが世界の株価」は、相場の値動きを、高校生のミオと AI のチャッピーの漫画で毎日出している小さなメディアです。人間は編集長の 1 人だけで、台本・組版・審査・投稿は Claude Code、絵は Codex が担当しています。この記…"
+      "id": "8428090331ac",
+      "title": "時事プローブと公式直結基準でAPI中継のモデル劣化を検知する",
+      "url": "https://zenn.dev/folkbench/articles/c90bdf45161bf2",
+      "publishedAt": "2026-11-15T15:46:15.000Z",
+      "publisher": "Matthew (Folkbench)",
+      "summary": "原文： Folkbench モデル劣化検知を発表：時事・モデル指紋プローブと独立公式ベースラインによる API 中継の継続検証 モデルのリーダーボードは、公式環境での理論上限を測ります。アップタイム監視は、エンドポイントが応答するかどうか…"
     },
     {
-      "id": "224051accb35",
-      "title": "コードが読めなくても、Claude Code の出力が正しいか確かめられる——動かす・開く・分ける・基準を持つ、4つの確認方法",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-11-14-141430",
-      "publishedAt": "2026-11-15T07:39:07.000Z",
-      "publisher": "saitoko",
-      "summary": "この記事の要点: コードが読めなくても、Claude Code の出力が正しいかどうかは確かめられます。私は Claude Code でコードを1行も書かずに、タスク管理の道具やブログの制作体制を作ってきました。その中で使ってきた確かめ方…"
+      "id": "47216dd1b700",
+      "title": "Fireworks AI のセキュリティインシデントについて調べてみた — 何が起き、どこに影響したのか",
+      "url": "https://zenn.dev/pollenjp/articles/2026-11-10-fireworks-ai-incident",
+      "publishedAt": "2026-11-15T15:23:57.000Z",
+      "publisher": "pollenjp",
+      "summary": "はじめに 個人で Notion の Business プランを契約して、Notion AI を使っている。そのワークスペースに、Notion から「取引先の Fireworks AI で起きたセキュリティインシデントで、影響を受けたかもし…"
     },
     {
-      "id": "11c030a19305",
-      "title": "Embiody 0.9プレビュー版リリース：AIエージェントのためのブラウザ、バックグラウンドでもサボらない",
-      "url": "https://zenn.dev/embiody/articles/cc9f423af969c5",
-      "publishedAt": "2026-11-15T07:25:45.000Z",
-      "publisher": "Embiody",
-      "summary": "この記事は https://embiody.com/ja/blog/embiody-0-9-preview/ の転載です ブラウザは人のために作られたものです。AIエージェントも使えはしますが、借り物の服のようにどこもしっくりきません。だ…"
+      "id": "416aa784d690",
+      "title": "いきなり本体を刷らない！「Pick-Up Bench」のタイヤ破損（TR-003）と検証片ルール",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-04-pickup-bench-coupon-rule",
+      "publishedAt": "2026-11-15T15:09:04.000Z",
+      "publisher": "Maki",
+      "summary": "3Dプリンターで新しい形状やマルチカラー・専用サポート材を試すとき、最初から本体を丸ごと印刷して失敗すると、材料も時間も大きくロスしてしまいます。 そこで NEKOMO プロジェクトでは、本体を刷る前に 底面数ミリだけを切り出した「検証片…"
     },
     {
-      "id": "24941bb49d64",
-      "title": "「すべてのコードはゴミである」から月1.1万PRへ — AIエージェント時代におけるコードベースの信頼性構築論",
-      "url": "https://zenn.dev/dragon1208/articles/ca4126bf9083c7",
-      "publishedAt": "2026-11-15T06:53:18.000Z",
-      "publisher": "Nao8",
-      "summary": "「他人が書いたコードを見て、『なんだこのゴミ（Slop）コードは』と思ったことはありませんか？」まあ、僕は他人じゃなくて過去の自分が書いたコードをみて思ったことは多々ありますが。。 ということで、AI Engineerカンファレンスに登壇…"
+      "id": "b93fabace56d",
+      "title": "実機造形の壁！「サポートが外れない（TR-001）」と窓枠破損（v10）からの断面見直し",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-03-bus-section-dr-and-failures",
+      "publishedAt": "2026-11-15T15:09:02.000Z",
+      "publisher": "Maki",
+      "summary": "CAD画面でどれだけきれいに見えても、実際に3Dプリンターで出力してみると「支えが固くて取れない」「剥がそうとしたら部品が折れた」という壁にぶつかります。 今回は、60mm級のバス試作で起きた 2つのリアルな失敗（v06赤タイヤ版のサポー…"
     },
     {
-      "id": "51ae2667b463",
-      "title": "Snowflakeの新しいダッシュボード（Dashboards 2.0）を試してみる",
-      "url": "https://zenn.dev/kou_zenn/articles/snowflake-new-dashboard",
-      "publishedAt": "2026-11-15T06:32:46.000Z",
-      "publisher": "Kou-zenn",
-      "summary": "はじめに Snowflakeには、実は以前からダッシュボードの機能がありました。ただ、以前のダッシュボードは非推奨（deprecated）になり、最近になって新しいダッシュボードが出てきました。 この新しいダッシュボードは「AIネイティブ…"
+      "id": "0d986a31c09c",
+      "title": "opencodexでAnthropic/OpenAI形式のリクエストをローカルのQwen2.5-32Bに流してみた",
+      "url": "https://zenn.dev/matsushima_a/articles/day-047-opencodex-provider-proxy-api-translation",
+      "publishedAt": "2026-11-15T14:27:44.000Z",
+      "publisher": "matsu",
+      "summary": "これは何を試した記事か lidge-jun/opencodex(npm: @bitkyc08/opencodex、MIT)は、OpenAI Codex・Claude Code・Claude Desktop等のコーディングエージェントと、C…"
     },
     {
-      "id": "cad5333b765b",
-      "title": "Claude Codeのサブエージェントで副業の「部署」を4つ作った",
-      "url": "https://zenn.dev/burubaki/articles/867b4760b4191b",
-      "publishedAt": "2026-11-15T06:06:27.000Z",
-      "publisher": "burubaki",
-      "summary": "この記事で分かることは2つです。 tools を省略すると、サブエージェントが使えるツールを全部継承する（公式の仕様）。自分が部署ごとに tools を最小限にした理由と、その設定 model で部署ごとにOpusとSonnetを振り分け…"
+      "id": "f47518306738",
+      "title": "ぬゆちのサクサクVibe Coding入門",
+      "url": "https://zenn.dev/nuyuchi/books/nuyuchi-sakusaku-vibe-coding-intro",
+      "publishedAt": "2026-11-15T14:22:44.000Z",
+      "publisher": "ぬゆち",
+      "summary": "AI と一緒にコードを書くための、短い入門書です。ブラウザで使える Gemini への頼み方、プロジェクトごと任せられる Claude Code の使い方、そして AI の書いたコードを確かめる方法と、守るべき注意点を4チャプターでまとめ…"
     },
     {
-      "id": "f534fdba6c2c",
-      "title": "インフルエンサーのプロンプトを\"自分の悩み\"に置き換えたら、2時間でクローゼットアプリが完成した",
-      "url": "https://zenn.dev/ttk1010/articles/motteinai-dev-prompt",
-      "publishedAt": "2026-11-15T05:26:01.000Z",
-      "publisher": "ttk1010",
-      "summary": "まず、できあがったもの 服を買いに行くと、結局どれを買えばいいかわからず、似た服や、手持ちと合わせづらい服を買ってしまう。この悩みを解決するクローゼット管理アプリ Motteinai（「もったいない（mottainai）」と「持っていない…"
+      "id": "3bed17a80cd4",
+      "title": "AnyModelBot v0.1.38：スキルの保存とライブラリ、ボット同士の受け渡し、「わたしについて」",
+      "url": "https://zenn.dev/malachi_amb/articles/41309700ac0fe0",
+      "publishedAt": "2026-11-15T14:10:55.000Z",
+      "publisher": "Malachi",
+      "summary": "こんにちは。AnyModelBot の共同開発者の Malachi です。2026年11月15日に v0.1.38 を公開しました。いまダウンロードできる版はこれです。先の記事では Docker 起動や、長期記憶をディスク上の Markd…"
     },
     {
-      "id": "60f3536a0911",
-      "title": "LEGO BoostをROS 2×AIエージェントで動かすまで ― 設計・校正・自然言語操作の全記録",
-      "url": "https://zenn.dev/masato13/articles/de48a5a3597d24",
-      "publishedAt": "2026-11-15T04:47:40.000Z",
-      "publisher": "Masato13",
-      "summary": "LEGO BoostをROS 2×AIエージェントで動かすまで ― 設計・自然言語操作の全記録 「ベースを10度右に回して」とチャットに書くと、LEGOのロボットアームが動く。 この記事はおもちゃのLEGO Boost 17101（クリエ…"
+      "id": "83d3963dc850",
+      "title": "サブエージェントの「すべて通りました」を、AI に確かめさせる Skill",
+      "url": "https://zenn.dev/itoken_lab/articles/delegating-work-with-without",
+      "publishedAt": "2026-11-15T14:01:23.000Z",
+      "publisher": "いとけん",
+      "summary": "AI エージェントは、仕事をサブエージェント（自分が立てる別の AI。以下、子）に任せられます。子は任せた側（以下、親）の会話を見ておらず、依頼文だけを読んで動き、報告だけを返します。依頼文に書かなかったことは守られず、子の「完了しました…"
     },
     {
-      "id": "0d06b93f3784",
-      "title": "テストを先に決めてAIに任せる C# Web API 自学カリキュラム（在庫台帳）",
-      "url": "https://zenn.dev/kenshi_lab/books/12f1d74a8bf7a0",
-      "publishedAt": "2026-11-15T04:45:27.000Z",
-      "publisher": "kenshi｜技術検証ノート",
-      "summary": "C#の基本文法が分かるエンジニアが、AIと1人で「在庫台帳のWeb API」を作る自学用カリキュラムです。人がテストを先に決め、AIが実装し、テストの合否で完了を判定する進め方を、Issue（人がレビューする単位）とAIタスク（AIに1回…"
+      "id": "06f039516b6e",
+      "title": "/goalを使わずStopフックを自作したら、Claude Codeが止まらず使用量が増え続けた",
+      "url": "https://zenn.dev/kagaribilab/articles/claude-code-stop-hook-loop",
+      "publishedAt": "2026-11-15T12:54:54.000Z",
+      "publisher": "かがり火ラボ",
+      "summary": "Claude Codeを、作業が終わるまで止めないようにしたい。そう考えて、/goalを使わずStopフックを自作しました。すると、Claudeが止まらなくなりました。 自作すれば、終わりの判定はより確かになります。しかし、「裏の仕事を待…"
     },
     {
-      "id": "f94727d3c4b6",
-      "title": "開発エージェントの実行履歴を、もう一度解ける評価ケースにする",
-      "url": "https://zenn.dev/shimpeiws/articles/5e0df5eeb398fb",
-      "publishedAt": "2026-11-15T04:33:37.000Z",
-      "publisher": "shimpeiws",
-      "summary": "! 保存していた初期要求と開始SHAから、同じタスクを再実装・採点するための入力を揃えられた Trace2Eval論文を参考に、過去の仕事を別セッションで解き直し、採点できる評価ケースを1件作った記録だ はじめに ソフトウェアファクトリの…"
+      "id": "ad922255462a",
+      "title": "AI に日本語を書かせる Skill を、あり・なしで比べた",
+      "url": "https://zenn.dev/itoken_lab/articles/japanese-writing-with-without",
+      "publishedAt": "2026-11-15T12:36:53.000Z",
+      "publisher": "いとけん",
+      "summary": "AI エージェントに README や PR の本文、社内向けの報告を日本語で書かせると、箇条書きと「見出し：説明」の形が並び、文と文のつながりが抜けた文章が返ってきがちです。japanese-writing は、読み手と場面から書く順番…"
     },
     {
-      "id": "38ba391f3c28",
-      "title": "「Pickle」は他のAIチャットと何が違う？自律実行と継続タスクの使い勝手、はじめ方まで",
-      "url": "https://zenn.dev/ai_agent_note/articles/eb0e2683bbc05a",
-      "publishedAt": "2026-11-15T04:30:32.000Z",
-      "publisher": "AIエージェント備忘録",
-      "summary": "「Pickle」を一言でいうと Pickleは、個人の代わりに予定管理・ブラウザ操作・電話・定期監視などを進めてくれるパーソナルAIエージェントです。Pythonの pickle モジュールとは無関係で、こちらは「自分の生活の外側で働き続…"
+      "id": "33310fe0cd3a",
+      "title": "15歳でもわかるJev その5 — 判断するAI 3社に同じ300問を解かせた",
+      "url": "https://zenn.dev/hfujihira/articles/hf-871f48278637",
+      "publishedAt": "2026-11-15T12:15:15.000Z",
+      "publisher": "Hirokazu FUJIHIRA",
+      "summary": "その4の最後に「次は実際に動かして、Jev と並べてみたい」と書いた。今回はそれをやる。 並べたのは、文章を書かずに選択肢と自信の数字だけを返す AI の3つだ。 Gemini Decision 1（Google・2026 年 11 月 …"
     }
   ],
-  "fetchedAt": "2026-11-15T19:48:13.682Z",
+  "fetchedAt": "2026-11-15T23:44:10.658Z",
   "stale": false,
   "error": null
 }
