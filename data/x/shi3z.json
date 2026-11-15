@@ -2,6 +2,33 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2121841067729580104",
+      "url": "https://x.com/shi3z/status/2121841067729580104",
+      "text": "ProjectDENTがマンガになった｜shi3z @shi3z note.com/shi3zblog/n/n6c65af…",
+      "publishedAt": "2026-11-15T05:41:47.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2121794710088171858",
+      "url": "https://x.com/ochyai/status/2121794710088171858",
+      "text": "みんな来てね！",
+      "publishedAt": "2026-11-15T02:37:34.000Z",
+      "authorHandle": "ochyai",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2121772957064425848",
+      "url": "https://x.com/crazyMLguy/status/2121772957064425848",
+      "text": "Running a 40B-parameter AI model on a 12GB GPU at 64 tokens/sec?\n\nRustingStrata is challenging conventional local inference engines with some impressive benchmark results.\n\nIn a recent comparison using Recursive Flint UD-Q5_K_XL on an RTX 3060 12GB with 30GB system RAM:\n\n64.6 tokens/sec decode speed vs. 48.6 with llama.cpp.\n33% faster warm decoding.\n1.14–1.30K tokens/sec prompt processing.\nNo reported quality degradation.\n\nHow does it achieve this? Two key optimizations:\n\nAdaptive expert placement based on the generated response rather than just prompt routing.\nSmarter RAM page management to keep frequently needed expert weights accessible.\n\nThe interesting part is that the model is larger than available VRAM, yet careful CPU-GPU memory management makes surprisingly fast inference possible.\n\nThis shows how much performance can still be unlocked through inference-engine optimizations without changing model weights.\n\nGitHub: github.com/RustingStudio/Rus…",
+      "publishedAt": "2026-11-15T01:11:08.000Z",
+      "authorHandle": "crazyMLguy",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2121610559322030326",
       "url": "https://x.com/shi3z/status/2121610559322030326",
       "text": "アホか！メンテナンスなんかAIにやらせる方が効率的に決まってるだろ。人間はAIの監視しかやることないよ",
@@ -63,36 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2121220372658037018",
-      "url": "https://x.com/Vincent_AINotes/status/2121220372658037018",
-      "text": "AI 圈已经有人开始为「AI 断供」做末日准备了，甚至囤出了 10.5TB 的 AI 战略储备😂\n\n黄仁勋离开 NVIDIA 后，Ruby on Rails 创始人 DHH 突然发了一条意味深长的推文：\n\n「你最好提前备份几份开放权重模型，再准备一些能运行它们的基本设备。没人知道 NVIDIA 到底发生了什么，但这个世界刚刚失去了自由开放 AI 最重要的支持者之一。」\n\nReddit上，已经有人认真讨论起了「如果有一天开放权重模型不再发布，我们该提前囤些什么？」\n\n结果评论区直接变成了 AI 末日生存物资展示大会。\n\n一位叫 Kahvana 的玩家晒出了自己的 2TB NVMe 硬盘。\n\n里面不只是几个聊天模型，而是囤了 Qwen3.8、Gemma 4、DeepSeek V4 Flash、Nemotron 等多个系列，连不同精度的量化版本都准备好了。\n\n而且考虑得相当周全：\n\n不仅有负责聊天和写代码的大语言模型，还有语音识别、语音合成、图片生成、Embedding、Reranker，以及 ComfyUI、MCP 工具、离线维基百科。\n\n甚至还专门把最重要的模型复制到 NAS，并备份 llama.cpp 和 SillyTavern，确保不只是有模型权重，还能真正运行起来。\n\n但这还不是最夸张的。\n\n另一位叫 TheBigHODL 的玩家直接晒出了一份 10.5TB 的 AI 储备清单。\n\n中国的 Kimi、DeepSeek、Qwen、GLM、MiniMax，美国的 Llama、GPT-OSS、Gemma，以及 Mistral 等模型，几乎把主流开放权重阵营都囤了一遍。\n\n还不止如此。\n\n从 Whisper 语音模型、FLUX 图片模型，到训练数据集、评测数据、完整维基百科、推理框架、量化工具，甚至一些开发工具的源码，都在他的存档范围内。\n\n这已经不是简单地下载几个 GGUF 文件了，而是在试图给自己保存一整套能独立运转的 AI 工具箱。\n\n他们担心的也很现实：\n\n万一未来中国模型受到更多出口或访问限制，美国 AI 实验室又逐渐停止开放权重，今天随手就能从 Hugging Face 下载的东西，明天可能就没那么容易拿到了。\n\n当然，这只是社区对未来的担忧，并不代表相关禁令已经出台。\n\n但这种变化确实挺有意思。\n\n以前本地 AI 圈比的是谁的显卡多、显存大、Token 跑得快。\n\n现在有人已经开始比谁的硬盘大、谁的模型囤得全、谁断网之后还能继续用 AI。\n\n以前末日生存玩家囤粮食、柴油、发电机，现在 AI 玩家开始囤模型、算力和离线知识库了。\n\n而且仔细想想，这事还真不完全是杞人忧天。\n\n云端 AI 再强，使用权终究取决于服务商；本地模型即使落后几个版本，只要权重、软件和硬件都在，至少还能自己运行。",
-      "publishedAt": "2026-11-13T12:35:21.000Z",
-      "authorHandle": "Vincent_AINotes",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2121170418048614563",
-      "url": "https://x.com/shi3z/status/2121170418048614563",
-      "text": "深夜のホルモンラーメン｜shi3z @shi3z note.com/shi3zblog/n/n624ff2…",
-      "publishedAt": "2026-11-13T09:16:51.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2121166572647772461",
-      "url": "https://x.com/BullTheoryio/status/2121166572647772461",
-      "text": "🚨 Another major scandal is coming out of NVIDIA.\n\nAnd this one has nothing to do with Jensen Huang's affairs.\n\nAccording to a Wall Street Journal report, Nvidia was offering billions in financial guarantees to AI companies that could not afford its chips, so they could keep buying them.\n\nSome of these deals were being pushed by Jensen's own son-in-law, Nico Caprez, who became a vice president in January. His team was telling small cloud companies and data center builders that Nvidia could arrange credit support for them within a couple of weeks.\n\nThe goal was simple: turn them into long term buyers of Nvidia GPUs.\n\nAnd the size of Nvidia's commitments has exploded. Its own filing shows $530 BILLION in commitments and guarantees, up from $184 billion just one quarter earlier.\n\nInside the company, CFO Colette Kress was raising concerns. She kept asking how these guarantees were priced and what Nvidia was really getting back.\n\nIn an August meeting, Jensen cut her off and called her \"a deer in the headlights.\"\n\nShe was also the one who cut Nvidia's guarantee on OpenAI's Ohio data center from $250 billion to $105 billion.\n\nNow Jensen is gone, and the CFO who questioned these deals is running Nvidia.\n\nTo understand why this is a big deal, you need to understand the AI funding loop.\n\nHere is how it works:\n\n1. Nvidia puts money into an AI company, or guarantees its loans and leases.\n2. That company uses the money and credit to build a data center.\n3. The data center is filled with Nvidia GPUs.\n4. Nvidia reports those GPU sales as revenue.\n5. If the company cannot rent out all its computing power, Nvidia agrees to buy the unused part.\n\nSO NVIDIA IS THE INVESTOR, THE LENDER, THE SUPPLIER AND THE BACKUP CUSTOMER, ALL IN THE SAME DEAL.\n\nThe money goes out of Nvidia and comes back to Nvidia as sales.\n\nCoreWeave is the clearest example. Nvidia owns a stake in it, sells it chips, and agreed to buy up to $6.3 billion of its unused computing capacity through 2032.\n\nOpenAI is the biggest. Nvidia is guaranteeing up to $105 billion for its Ohio data center, supplying all the chips inside it, and invested $1.5 billion in the company building it.\n\nNvidia's own filing for the quarter ending July 26 shows where the money is tied up:\n\n• Supply commitments for memory and chip wafers: $279 BILLION, up from $119 billion.\n• Guarantee on the OpenAI Ohio data center: up to $105 BILLION.\n• Deals to buy unused cloud capacity from neoclouds: $36 BILLION.\n\nNvidia's actual liabilities on its balance sheet: $91 BILLION.\n\nThat means the commitments outside the balance sheet are almost 6 times bigger than the debts on it.\n\nNvidia does not lose this money unless something breaks. A guarantee only costs Nvidia if a customer cannot pay.\n\nBut this is where it gets uncomfortable.\n\nThe WSJ says Jensen himself had started to panic. He warned executives that the biggest cloud companies were moving to their own chips to depend less on Nvidia.\n\nAt the same time, the wafers and memory Nvidia had committed to buy were coming at him like an \"avalanche.\"\n\nSo the biggest customers were trying to leave, Nvidia was locked into buying huge amounts of supply, and smaller customers were being kept alive with Nvidia's credit.\n\nAnd things were already starting to crack:\n\n• Nvidia paused some of its financing deals in August.\n• Nearly half of the $80 billion in data center bonds issued this year were rated junk.\n• Neocloud stocks crashed this week, with Nebius down over 20% and CoreWeave down 17% at the lows.\n• OpenAI raised less than it wanted, at a lower valuation.\n\nAnd now Kress is the one deciding whether this continues.\n\nIf she pulls back on the financing, the companies that depended on Nvidia's money will have to borrow elsewhere, in a debt market that is already nervous.\n\nIf they cannot, they stop buying chips.\n\nAnd if they stop buying chips, Nvidia's revenue drops.\n\nThat is the risk of a loop. It works perfectly when money keeps flowing, and it hurts on the way down.",
-      "publishedAt": "2026-11-13T09:01:34.000Z",
-      "authorHandle": "BullTheoryio",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-11-15T00:03:47.167Z",
+  "fetchedAt": "2026-11-15T06:27:29.397Z",
   "stale": false,
   "error": null
 }
