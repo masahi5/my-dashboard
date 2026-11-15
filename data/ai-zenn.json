@@ -6,6 +6,62 @@
   "category": "ai",
   "items": [
     {
+      "id": "c696c4679e34",
+      "title": "AIにコードを任せても、判断は手放さない ― OSSのAI禁止から考える責任の境界",
+      "url": "https://zenn.dev/yun_bow/articles/fbfa7c1de09695",
+      "publishedAt": "2026-11-15T08:25:49.000Z",
+      "publisher": "ゆんぼう",
+      "summary": "はじめに 「AI生成の大量PRが困るなら、CIで落とし、要約を付け、投稿数を制限すればよいのではないか」 OSSのAI利用禁止を調べて、最初に引っ掛かったのはこの点だった。未検証の変更を大量に送られる問題と、十分に検証した小さな変更まで、…"
+    },
+    {
+      "id": "d6009a1c5212",
+      "title": "「この漫画って誰が作ってるの?」Claude Code の複数エージェントで株価の漫画を毎日出す仕組み",
+      "url": "https://zenn.dev/satowan/articles/claude-code-multi-agent-manga-pipeline",
+      "publishedAt": "2026-11-15T07:47:17.000Z",
+      "publisher": "さとわん",
+      "summary": "「まんが世界の株価」は、相場の値動きを、高校生のミオと AI のチャッピーの漫画で毎日出している小さなメディアです。人間は編集長の 1 人だけで、台本・組版・審査・投稿は Claude Code、絵は Codex が担当しています。この記…"
+    },
+    {
+      "id": "224051accb35",
+      "title": "コードが読めなくても、Claude Code の出力が正しいか確かめられる——動かす・開く・分ける・基準を持つ、4つの確認方法",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-11-14-141430",
+      "publishedAt": "2026-11-15T07:39:07.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の要点: コードが読めなくても、Claude Code の出力が正しいかどうかは確かめられます。私は Claude Code でコードを1行も書かずに、タスク管理の道具やブログの制作体制を作ってきました。その中で使ってきた確かめ方…"
+    },
+    {
+      "id": "11c030a19305",
+      "title": "Embiody 0.9プレビュー版リリース：AIエージェントのためのブラウザ、バックグラウンドでもサボらない",
+      "url": "https://zenn.dev/embiody/articles/cc9f423af969c5",
+      "publishedAt": "2026-11-15T07:25:45.000Z",
+      "publisher": "Embiody",
+      "summary": "この記事は https://embiody.com/ja/blog/embiody-0-9-preview/ の転載です ブラウザは人のために作られたものです。AIエージェントも使えはしますが、借り物の服のようにどこもしっくりきません。だ…"
+    },
+    {
+      "id": "24941bb49d64",
+      "title": "「すべてのコードはゴミである」から月1.1万PRへ — AIエージェント時代におけるコードベースの信頼性構築論",
+      "url": "https://zenn.dev/dragon1208/articles/ca4126bf9083c7",
+      "publishedAt": "2026-11-15T06:53:18.000Z",
+      "publisher": "Nao8",
+      "summary": "「他人が書いたコードを見て、『なんだこのゴミ（Slop）コードは』と思ったことはありませんか？」まあ、僕は他人じゃなくて過去の自分が書いたコードをみて思ったことは多々ありますが。。 ということで、AI Engineerカンファレンスに登壇…"
+    },
+    {
+      "id": "51ae2667b463",
+      "title": "Snowflakeの新しいダッシュボード（Dashboards 2.0）を試してみる",
+      "url": "https://zenn.dev/kou_zenn/articles/snowflake-new-dashboard",
+      "publishedAt": "2026-11-15T06:32:46.000Z",
+      "publisher": "Kou-zenn",
+      "summary": "はじめに Snowflakeには、実は以前からダッシュボードの機能がありました。ただ、以前のダッシュボードは非推奨（deprecated）になり、最近になって新しいダッシュボードが出てきました。 この新しいダッシュボードは「AIネイティブ…"
+    },
+    {
+      "id": "cad5333b765b",
+      "title": "Claude Codeのサブエージェントで副業の「部署」を4つ作った",
+      "url": "https://zenn.dev/burubaki/articles/867b4760b4191b",
+      "publishedAt": "2026-11-15T06:06:27.000Z",
+      "publisher": "burubaki",
+      "summary": "この記事で分かることは2つです。 tools を省略すると、サブエージェントが使えるツールを全部継承する（公式の仕様）。自分が部署ごとに tools を最小限にした理由と、その設定 model で部署ごとにOpusとSonnetを振り分け…"
+    },
+    {
       "id": "f534fdba6c2c",
       "title": "インフルエンサーのプロンプトを\"自分の悩み\"に置き換えたら、2時間でクローゼットアプリが完成した",
       "url": "https://zenn.dev/ttk1010/articles/motteinai-dev-prompt",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-11-15T04:30:32.000Z",
       "publisher": "AIエージェント備忘録",
       "summary": "「Pickle」を一言でいうと Pickleは、個人の代わりに予定管理・ブラウザ操作・電話・定期監視などを進めてくれるパーソナルAIエージェントです。Pythonの pickle モジュールとは無関係で、こちらは「自分の生活の外側で働き続…"
-    },
-    {
-      "id": "af517a53c574",
-      "title": "日常タスクを丸投げできるAIエージェント「Muse」を試した所感と、トークンを無駄にしないコツ",
-      "url": "https://zenn.dev/ai_agent_note/articles/a32b147a7f87be",
-      "publishedAt": "2026-11-15T04:27:11.000Z",
-      "publisher": "AIエージェント備忘録",
-      "summary": "はじめに Metaの「Muse」は、2026年10月23日から日本でも使えるようになった個人向けのAIエージェントです。「チャットで相談する相手」ではなく、「頼んだ作業を最後まで進めてくれる相手」として作られていて、予約・フォーム入力・買…"
-    },
-    {
-      "id": "69cbbc3c23bf",
-      "title": "1回のforward passで「選ぶ」Decision Model入門：主要モデルの読み出し方式・ライセンス・言語対応を整理する",
-      "url": "https://zenn.dev/tatsuyaaaaaaa/articles/bca426b2c830d1",
-      "publishedAt": "2026-11-15T04:16:36.000Z",
-      "publisher": "風景太郎",
-      "summary": "背景 業務システムの中には、LLMに文章を書かせる必要がなく、あらかじめ決まった選択肢から1つ選べばよい処理が数多くあります。 問い合わせや案件を既定のカテゴリに振り分ける エージェントがどのツール・どのモデルを呼ぶかを決める 「この条件…"
-    },
-    {
-      "id": "47712836b6f0",
-      "title": "1つのAPIキーでX、Reddit、TikTokとWebスクレイピング：AIエージェント向け従量課金の実践",
-      "url": "https://zenn.dev/openany/articles/6246c587bbe391",
-      "publishedAt": "2026-11-15T03:51:51.000Z",
-      "publisher": "OpenAny",
-      "summary": "本記事は OpenAny チームが書いており、OpenAny は当社のプロダクトです。実際に投げたリクエスト、かかった金額、途中で踏んだ失敗もそのまま書いてあるので、同じ手順を試すにも、別の手段を選ぶにも使えるはずです。 先に結論です。 …"
-    },
-    {
-      "id": "781cd08fe49c",
-      "title": "いま実際にダウンロードされているオープン LLM はどれか: 直近 30 日のダウンロード数で見るリーダーボード",
-      "url": "https://zenn.dev/vidraft/articles/9e72c8c103eaa0",
-      "publishedAt": "2026-11-15T03:47:05.000Z",
-      "publisher": "VIDRAFT",
-      "summary": "要約 Global LLM Download Leaderboard は、Hugging Face の公開言語モデルを「いま実際にダウンロードされている量」で順位付けします。基準は累計ではなく直近 30 日のダウンロード数です。世界の上位…"
-    },
-    {
-      "id": "17f0aa947e77",
-      "title": "NVIDIAジェンスン・フアン電撃辞任：ジョブズやアルトマンのような「電撃復帰」はあるのか？",
-      "url": "https://zenn.dev/lumichy/articles/jensen-huang-resignation-nvidia-analysis-2026",
-      "publishedAt": "2026-11-15T03:44:09.000Z",
-      "publisher": "lumichy",
-      "summary": "時価総額数兆ドル、世界のAIコンピューティング基盤の8割以上を牛耳る「AI帝国の皇帝」が、突如として玉座を追われました。 2026年11月12日、NVIDIAの共同創業者であり33年間にわたりトップに君臨し続けてきたジェンスン・フアン（J…"
-    },
-    {
-      "id": "785ebae2b1a0",
-      "title": "Museで「テスト日程カレンダー」を作りました",
-      "url": "https://zenn.dev/edtech_guild/articles/9446875d0a2819",
-      "publishedAt": "2026-11-15T03:41:52.000Z",
-      "publisher": "藤井 理（Edtech-Guild代表）",
-      "summary": "この記事は、合同会社Edtech-Guildの代表ブログに掲載した記事をもとに、Zenn向けに再編集したものです。 元記事：Museで「テスト日程カレンダー」を作りました みなさま、こんにちは。合同会社Edtech-Guild代表の藤井で…"
-    },
-    {
-      "id": "a97192286d3a",
-      "title": "スレッドを直接触るな、と言われた。Kotlinのコルーチンにベテランが戸惑った話",
-      "url": "https://zenn.dev/shinchi007/articles/ac73aa54197409",
-      "publishedAt": "2026-11-15T03:36:55.000Z",
-      "publisher": "Shinchi",
-      "summary": "連載『C言語育ちのベテランが、AI片手にKotlinとSwiftを学んだ記録』第3回 結論から言うと Kotlinで次に面食らったのは、非同期処理の考え方でした。結論を先に書くと、こういうことです。 コルーチンは「軽いスレッド」ではなく、…"
     }
   ],
-  "fetchedAt": "2026-11-15T14:13:50.494Z",
+  "fetchedAt": "2026-11-15T19:48:13.682Z",
   "stale": false,
   "error": null
 }
