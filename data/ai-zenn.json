@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f33f0a155be6",
-      "title": "GPTBotは0回、OAI-SearchBotは4,847回。AIクローラーを30日間観測して分かったこと",
-      "url": "https://zenn.dev/rimonoa/articles/8974167fe581c2",
-      "publishedAt": "2026-11-14T17:33:16.000Z",
-      "publisher": "rimonoa",
-      "summary": "自分のサイトに、AIのBotはどのくらい来ているのか。 リモノア（https://rimonoa.jp/）でHTTPリクエストを記録してみると、ある30日集計ではOAI-SearchBotが4,847件、GPTBotが0件でした。同じOp…"
+      "id": "f534fdba6c2c",
+      "title": "インフルエンサーのプロンプトを\"自分の悩み\"に置き換えたら、2時間でクローゼットアプリが完成した",
+      "url": "https://zenn.dev/ttk1010/articles/motteinai-dev-prompt",
+      "publishedAt": "2026-11-15T05:26:01.000Z",
+      "publisher": "ttk1010",
+      "summary": "まず、できあがったもの 服を買いに行くと、結局どれを買えばいいかわからず、似た服や、手持ちと合わせづらい服を買ってしまう。この悩みを解決するクローゼット管理アプリ Motteinai（「もったいない（mottainai）」と「持っていない…"
     },
     {
-      "id": "83a673180d00",
-      "title": "Claude Codeに「公開」を押させない：CLAUDE.mdに書く「外に出す操作」の決まり5行",
-      "url": "https://zenn.dev/tsugu_sukima/articles/2b19ac59da1b2a",
-      "publishedAt": "2026-11-14T17:08:27.000Z",
-      "publisher": "tsugu",
-      "summary": "この記事でやること Claude Code は、頼まれれば公開に近い操作もそのまま行うことがあります。筆者が決まりを置かずに「article.md の published を true に」と頼んだときは、その場で書き換えられました（下の…"
+      "id": "60f3536a0911",
+      "title": "LEGO BoostをROS 2×AIエージェントで動かすまで ― 設計・校正・自然言語操作の全記録",
+      "url": "https://zenn.dev/masato13/articles/de48a5a3597d24",
+      "publishedAt": "2026-11-15T04:47:40.000Z",
+      "publisher": "Masato13",
+      "summary": "LEGO BoostをROS 2×AIエージェントで動かすまで ― 設計・自然言語操作の全記録 「ベースを10度右に回して」とチャットに書くと、LEGOのロボットアームが動く。 この記事はおもちゃのLEGO Boost 17101（クリエ…"
     },
     {
-      "id": "98a3ec8fcdd3",
-      "title": "【初投稿】僕の個人ウェブサイトを公開しました🌟",
-      "url": "https://zenn.dev/kagam_io/articles/7bb21a81e14830",
-      "publishedAt": "2026-11-14T16:38:13.000Z",
-      "publisher": "kagami",
-      "summary": "はじめに はじめまして、Kagami といいます。 僕はこれまでネットはただ見るだけでした。人の記事に助けられたり、個人サイトを眺めて「いいな」と思うだけで、自分から何かを発信することはほとんどなかったです。 でも今回、初めて自分で発信し…"
+      "id": "0d06b93f3784",
+      "title": "テストを先に決めてAIに任せる C# Web API 自学カリキュラム（在庫台帳）",
+      "url": "https://zenn.dev/kenshi_lab/books/12f1d74a8bf7a0",
+      "publishedAt": "2026-11-15T04:45:27.000Z",
+      "publisher": "kenshi｜技術検証ノート",
+      "summary": "C#の基本文法が分かるエンジニアが、AIと1人で「在庫台帳のWeb API」を作る自学用カリキュラムです。人がテストを先に決め、AIが実装し、テストの合否で完了を判定する進め方を、Issue（人がレビューする単位）とAIタスク（AIに1回…"
     },
     {
-      "id": "7c75b831b0b2",
-      "title": "Does a “no-limit” image to video AI page mean unlimited free generatio",
-      "url": "https://zenn.dev/sarabuilds/articles/2b106365722f4d",
-      "publishedAt": "2026-11-14T16:34:23.000Z",
-      "publisher": "saralforfacebook",
-      "summary": "No. The “no-limit” in the image to video AI URL is not evidence of unlimited free generations. You can upload a photo a…"
+      "id": "f94727d3c4b6",
+      "title": "開発エージェントの実行履歴を、もう一度解ける評価ケースにする",
+      "url": "https://zenn.dev/shimpeiws/articles/5e0df5eeb398fb",
+      "publishedAt": "2026-11-15T04:33:37.000Z",
+      "publisher": "shimpeiws",
+      "summary": "! 保存していた初期要求と開始SHAから、同じタスクを再実装・採点するための入力を揃えられた Trace2Eval論文を参考に、過去の仕事を別セッションで解き直し、採点できる評価ケースを1件作った記録だ はじめに ソフトウェアファクトリの…"
     },
     {
-      "id": "7ddb755098cb",
-      "title": "ClaudeはSAPの「外側」を取りに来た――SheetsとDataが示す、Jouleとの境界線",
-      "url": "https://zenn.dev/dantarg/articles/claude-sheets-data-outside-sap",
-      "publishedAt": "2026-11-14T16:12:07.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "私は2003年から、SAPの導入と運用、開発の現場にいます。その間ずっと見てきた光景があります。SAPの中で作られた数字は、最後は必ずExcelに出ていく、という光景です。 月次決算の集計、原価の内訳、在庫の推移。 画面の中で確定したはず…"
+      "id": "38ba391f3c28",
+      "title": "「Pickle」は他のAIチャットと何が違う？自律実行と継続タスクの使い勝手、はじめ方まで",
+      "url": "https://zenn.dev/ai_agent_note/articles/eb0e2683bbc05a",
+      "publishedAt": "2026-11-15T04:30:32.000Z",
+      "publisher": "AIエージェント備忘録",
+      "summary": "「Pickle」を一言でいうと Pickleは、個人の代わりに予定管理・ブラウザ操作・電話・定期監視などを進めてくれるパーソナルAIエージェントです。Pythonの pickle モジュールとは無関係で、こちらは「自分の生活の外側で働き続…"
     },
     {
-      "id": "43d3ed7eb7bc",
-      "title": "ACPを捨てて作り直した ― 他人のAIエージェントに仕事を頼む『sealbridge』をnpm公開した",
-      "url": "https://zenn.dev/acidnyan/articles/5b7c443f14ff89",
-      "publishedAt": "2026-11-14T15:34:56.000Z",
-      "publisher": "たかぽん",
-      "summary": "はじめに 以前、他人のClaude CodeやCodexにAPIキーを渡さず仕事を委譲するゼロトラスト基盤「ACP」をOSS公開した という記事を書きました。 あれから開発を進める中で、設計も配布形態も大きく作り直すことになり、後継を s…"
+      "id": "af517a53c574",
+      "title": "日常タスクを丸投げできるAIエージェント「Muse」を試した所感と、トークンを無駄にしないコツ",
+      "url": "https://zenn.dev/ai_agent_note/articles/a32b147a7f87be",
+      "publishedAt": "2026-11-15T04:27:11.000Z",
+      "publisher": "AIエージェント備忘録",
+      "summary": "はじめに Metaの「Muse」は、2026年10月23日から日本でも使えるようになった個人向けのAIエージェントです。「チャットで相談する相手」ではなく、「頼んだ作業を最後まで進めてくれる相手」として作られていて、予約・フォーム入力・買…"
     },
     {
-      "id": "a4df8e147f93",
-      "title": "サンドボックスが消えたらエージェントを起動しない：bubblewrap を起動直前に検証・復旧する fail-closed ガード",
-      "url": "https://zenn.dev/coastlinedb/articles/a8111256ac5469",
-      "publishedAt": "2026-11-14T15:09:04.000Z",
-      "publisher": "coastlinedb",
-      "summary": "この記事の結論 AI エージェントの CLI を bubblewrap（bwrap）のサンドボックス付きで常時動かしていたところ、VM が入れ替わるたびに /usr/bin/bwrap そのものが消える障害が、数日のうちに6回起きました。…"
+      "id": "69cbbc3c23bf",
+      "title": "1回のforward passで「選ぶ」Decision Model入門：主要モデルの読み出し方式・ライセンス・言語対応を整理する",
+      "url": "https://zenn.dev/tatsuyaaaaaaa/articles/bca426b2c830d1",
+      "publishedAt": "2026-11-15T04:16:36.000Z",
+      "publisher": "風景太郎",
+      "summary": "背景 業務システムの中には、LLMに文章を書かせる必要がなく、あらかじめ決まった選択肢から1つ選べばよい処理が数多くあります。 問い合わせや案件を既定のカテゴリに振り分ける エージェントがどのツール・どのモデルを呼ぶかを決める 「この条件…"
     },
     {
-      "id": "9e6b8642e24c",
-      "title": "AI駆動開発をやってきて最近思うこと",
-      "url": "https://zenn.dev/revo1290/articles/aidd-in-and-out",
-      "publishedAt": "2026-11-14T14:36:40.000Z",
-      "publisher": "りょう",
-      "summary": "はじめに 現場でAI駆動開発（以下、AIDD）に取り組んできて、最近思うことを何となく記事にしてみたくなったので書いてみます！ 始めた頃は設計書や規約を整えれば、AIが意図どおりに作ってくれると思っていました。最近は実装を頼む前に「できあ…"
+      "id": "47712836b6f0",
+      "title": "1つのAPIキーでX、Reddit、TikTokとWebスクレイピング：AIエージェント向け従量課金の実践",
+      "url": "https://zenn.dev/openany/articles/6246c587bbe391",
+      "publishedAt": "2026-11-15T03:51:51.000Z",
+      "publisher": "OpenAny",
+      "summary": "本記事は OpenAny チームが書いており、OpenAny は当社のプロダクトです。実際に投げたリクエスト、かかった金額、途中で踏んだ失敗もそのまま書いてあるので、同じ手順を試すにも、別の手段を選ぶにも使えるはずです。 先に結論です。 …"
     },
     {
-      "id": "6efbe3526309",
-      "title": "AIを動かしていると、/tmpがメモリを食べる",
-      "url": "https://zenn.dev/ultrasupara/articles/d75079e0d27287",
-      "publishedAt": "2026-11-14T14:32:52.000Z",
-      "publisher": "asu_para",
-      "summary": "この記事の要点 AIエージェントを長く動かしていたLinuxマシンで、swap使用率が約98%になりました。調べると、tmpfsでマウントされた/tmpに、約7.5 GiBの作業ファイルが溜まっていました。AIに開発作業を任せる中でできた…"
+      "id": "781cd08fe49c",
+      "title": "いま実際にダウンロードされているオープン LLM はどれか: 直近 30 日のダウンロード数で見るリーダーボード",
+      "url": "https://zenn.dev/vidraft/articles/9e72c8c103eaa0",
+      "publishedAt": "2026-11-15T03:47:05.000Z",
+      "publisher": "VIDRAFT",
+      "summary": "要約 Global LLM Download Leaderboard は、Hugging Face の公開言語モデルを「いま実際にダウンロードされている量」で順位付けします。基準は累計ではなく直近 30 日のダウンロード数です。世界の上位…"
     },
     {
-      "id": "d15d682d3fd7",
-      "title": "locally-uncensoredのコーディングエージェントを3B/7B/14Bで試したら、直せたのは14Bだけだった",
-      "url": "https://zenn.dev/matsushima_a/articles/day-046-locally-uncensored-coding-agent-model-size",
-      "publishedAt": "2026-11-14T14:27:19.000Z",
-      "publisher": "matsu",
-      "summary": "これは何を試した記事か PurpleDoubleD/locally-uncensored(AGPL-3.0-only)は、チャット・画像生成・動画生成・コーディングエージェントを1つのデスクトップアプリにまとめ、ローカルで完結させることを…"
+      "id": "17f0aa947e77",
+      "title": "NVIDIAジェンスン・フアン電撃辞任：ジョブズやアルトマンのような「電撃復帰」はあるのか？",
+      "url": "https://zenn.dev/lumichy/articles/jensen-huang-resignation-nvidia-analysis-2026",
+      "publishedAt": "2026-11-15T03:44:09.000Z",
+      "publisher": "lumichy",
+      "summary": "時価総額数兆ドル、世界のAIコンピューティング基盤の8割以上を牛耳る「AI帝国の皇帝」が、突如として玉座を追われました。 2026年11月12日、NVIDIAの共同創業者であり33年間にわたりトップに君臨し続けてきたジェンスン・フアン（J…"
     },
     {
-      "id": "2c9a397f42b8",
-      "title": "ChatGPT に毎朝のニュースと SNS の投稿づくりを任せる ── 画像まで作り、投稿のボタンは自分で",
-      "url": "https://zenn.dev/chooser/articles/aico-006-research",
-      "publishedAt": "2026-11-14T14:12:53.000Z",
-      "publisher": "chooser",
-      "summary": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開し…"
+      "id": "785ebae2b1a0",
+      "title": "Museで「テスト日程カレンダー」を作りました",
+      "url": "https://zenn.dev/edtech_guild/articles/9446875d0a2819",
+      "publishedAt": "2026-11-15T03:41:52.000Z",
+      "publisher": "藤井 理（Edtech-Guild代表）",
+      "summary": "この記事は、合同会社Edtech-Guildの代表ブログに掲載した記事をもとに、Zenn向けに再編集したものです。 元記事：Museで「テスト日程カレンダー」を作りました みなさま、こんにちは。合同会社Edtech-Guild代表の藤井で…"
     },
     {
-      "id": "2eb75751c2dd",
-      "title": "実装が終わっているAI機能を、v1.0では出さないことにした",
-      "url": "https://zenn.dev/hello_jun_log/articles/ship-without-the-ai-feature",
-      "publishedAt": "2026-11-14T14:01:48.000Z",
-      "publisher": "Jun｜Ask First 開発",
-      "summary": "個人開発の英語学習アプリを初リリースしました。このアプリにはGeminiで英文を添削するモードが実装済みなのですが、v1.0では出していません。コードは消さずに、環境変数が入っていなければ画面に現れない形でゲートしてあります。 「せっかく…"
+      "id": "a97192286d3a",
+      "title": "スレッドを直接触るな、と言われた。Kotlinのコルーチンにベテランが戸惑った話",
+      "url": "https://zenn.dev/shinchi007/articles/ac73aa54197409",
+      "publishedAt": "2026-11-15T03:36:55.000Z",
+      "publisher": "Shinchi",
+      "summary": "連載『C言語育ちのベテランが、AI片手にKotlinとSwiftを学んだ記録』第3回 結論から言うと Kotlinで次に面食らったのは、非同期処理の考え方でした。結論を先に書くと、こういうことです。 コルーチンは「軽いスレッド」ではなく、…"
     }
   ],
-  "fetchedAt": "2026-11-15T06:27:06.589Z",
+  "fetchedAt": "2026-11-15T14:13:50.494Z",
   "stale": false,
   "error": null
 }
