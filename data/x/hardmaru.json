@@ -2,6 +2,24 @@
   "handle": "hardmaru",
   "tweets": [
     {
+      "id": "2122251724564070518",
+      "url": "https://x.com/SakanaAILabs/status/2122251724564070518",
+      "text": "最新の金融資格試験を用いた日本語金融ベンチマーク「JFinBench」を公開\n\nブログ：sakana.ai/jfinbench\n\nSakana AIは、日本の金融分野に強いAIの開発に向けて、LLMの能力を評価するベンチマーク「JFinBench」を構築しました。公認会計士試験、税理士試験、FP技能検定1級など、日本の6つの金融資格 試験の2026年版から作成した全321問で、選択式だけでなく、税額の計算や論述、図面を読み取る問題も含みます。\n\n税制や会計基準は頻繁に改正されるため、金融のベンチマークは最新の問題で更新し続けることが重要です。JFinBenchの構築では、試験PDFの変換をコーディングエージェントが担い、人間が全問を検証する「human-in-the-loop agentic pipeline」を提案しました。目視による検証は約12時間で済み、新しい試験が実施されるたびに少ない労力でベンチマークを更新できます。\n\n最新の12のLLMを評価したところ、主要なベンチマークではプロプライエタリモデルに肩を並べつつあるオープンウェイトモデルも、JFinBenchでは大きな差があり、既存のベンチマークでは見えない差が浮き彫りになりました。失敗の主な原因は計算ではなく、日本の制度に関する知識の不足でした。ターミナルとWebを使える設定では、モデルが法令を調べて知識を補うことでスコアが上がりましたが、差は残りました。\n\n今回の結果は、日本固有の法令や会計基準の知識をモデルにどう獲得させるか、外部の知識を検索・活用するエージェントをどう設計するかが重要であることを示しています。JFinBenchで得た知見を活かしながら、日本の金融分野へのAI実装に向けた研究開発を進めていきます。\n\n論文：arxiv.org/abs/2611.18130\nデータセット：huggingface.co/datasets/Saka…\nGitHub：github.com/SakanaAI/JFinBenc… 🐟",
+      "publishedAt": "2026-11-16T08:53:35.000Z",
+      "authorHandle": "SakanaAILabs",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2122202985661157843",
+      "url": "https://x.com/SakanaAILabs/status/2122202985661157843",
+      "text": "日本政府の公式広報サイト『JapanGov』にて、カラーヌワット・タリン（@tkasasagi）による研究が紹介されました。過去1000年以上にわたって使われた「くずし字」を認識するAIや浮世絵風生成AIなど、日本文化のためのAI開発について語っています。\n\njapan.go.jp/topics/2026/11/a… ⛩️",
+      "publishedAt": "2026-11-16T05:39:55.000Z",
+      "authorHandle": "SakanaAILabs",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2120170682109796511",
       "url": "https://x.com/kenneth0stanley/status/2120170682109796511",
       "text": "Research News! Announcing the 1st release of fundamental AI research from the Open-Endedness Team @LilaSciences: a vision-focused blog + 4 preprints. The blog details a broad research agenda for achieving open-endedness while each paper unveils its own novel research direction.\n\nThe ideas covered in the papers include:\n\n• a novel approach to training for creativity designed to sidestep a newly-identified problem called the “creative paradox,” which means that directly reinforcing creative outputs can sometimes limit reaching full creative potential;\n\n• an investigation of the advantages of seeing the world through fresh eyes by training an LLM that is intentionally naïve in a certain area (in effect presenting less data as a potential advantage);\n\n• a new kind of training regularization technique for SGD called unified factored organizers (UFOs), which is designed to achieve unified factored representation (UFR) as seen in Picbreeder CPPNs;\n\n• and finally a unique study of catastrophic forgetting that shows that networks with UFR (like those from Picbreeder) are intrinsically resistant to catastrophic forgetting. The inset video on this post is a visualization from that catastrophic forgetting work.\n\nThe blog post also includes an interactive “wheel of science” demo.\n\nThe implications of these ideas are broad and diverse, but the fun part is that each one opens up its own new research playground - there is a lot of room for further research here!\n\nMoreover, we hope this release also highlights one other important point about AI today: while it may seem that the road ahead is already paved and all that’s left is to drive mindlessly forward, there actually remains a lot of room for new directions and insights in the pursuit of open-endedness and creativity.\n\nThis research was possible because @LilaSciences appreciates the critical role of open-ended innovation in the pursuit of scientific superintelligence. The advances you see here are part of this much larger company-wide ambition, which includes AI Science Factories and many other unprecedented components. When this engine is fueled by open-endedness, the result will be much more than a step change.\n\nMore advances in open-endedness are coming!\n\nBlog link below 👇",
@@ -72,27 +90,9 @@
       "authorHandle": "hardmaru",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2117073468345004258",
-      "url": "https://x.com/hardmaru/status/2117073468345004258",
-      "text": "Last week in Tokyo, we hosted the Sakana AI Symposium with our Chief Scientific Advisor, Jürgen Schmidhuber.\n\nEight years ago, @SchmidhuberAI and I wrote the \"World Models\" paper together. Today, we’re building on those foundations at our RSI Lab to train an agent-native LLM from scratch: Sakana Sawara.\n\nReally excited for this next chapter of building AI in Japan.\n\nFull English report below:\nsakana.ai/symposium-2026/#En… 🐟",
-      "publishedAt": "2026-11-02T01:57:02.000Z",
-      "authorHandle": "hardmaru",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2116320459881144468",
-      "url": "https://x.com/hardmaru/status/2116320459881144468",
-      "text": "More hot takes about AI from the pope",
-      "publishedAt": "2026-10-31T00:04:51.000Z",
-      "authorHandle": "hardmaru",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-11-16T03:12:04.616Z",
+  "fetchedAt": "2026-11-16T11:16:36.647Z",
   "stale": false,
   "error": null
 }

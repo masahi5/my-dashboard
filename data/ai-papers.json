@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1a94fc8d34f8",
-      "title": "Unbundling Multimodal Vision Encoding",
-      "url": "https://huggingface.co/papers/2611.17334",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision en…",
-      "score": 18
+      "id": "0a8bba087f1e",
+      "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+      "url": "https://huggingface.co/papers/2611.15789",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, mo…",
+      "score": 73
     },
     {
-      "id": "43c0a0b029dd",
-      "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
-      "url": "https://huggingface.co/papers/2611.10439",
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM…",
+      "id": "ebd45f60894b",
+      "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+      "url": "https://huggingface.co/papers/2611.18482",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification b…",
+      "score": 29
+    },
+    {
+      "id": "5b7b0ba1a878",
+      "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+      "url": "https://huggingface.co/papers/2611.17831",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "summary": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To…",
+      "score": 16
+    },
+    {
+      "id": "10ceb1f0e00c",
+      "title": "MIRIX-2.0: Multi-Agent Memory System",
+      "url": "https://huggingface.co/papers/2611.12068",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need t…",
       "score": 14
     },
     {
-      "id": "be1aeffe89b0",
-      "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
-      "url": "https://huggingface.co/papers/2611.16961",
+      "id": "1568e7edfa01",
+      "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+      "url": "https://huggingface.co/papers/2611.18549",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "summary": "Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rel…",
+      "score": 14
+    },
+    {
+      "id": "6d4abccc2e68",
+      "title": "Do Underwater Image Quality Metrics Agree with Human Perception? A Benchmark with Human Choices, Simple Edits and Generative Drift",
+      "url": "https://huggingface.co/papers/2611.18429",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "summary": "Underwater image enhancement is challenging to evaluate due to the lack of clean reference images, so researchers rely …",
+      "score": 10
+    },
+    {
+      "id": "393dae516798",
+      "title": "Aligning AI Teams",
+      "url": "https://huggingface.co/papers/2611.17820",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "summary": "Previous work has shown that alignment training on individual LLM agents can fail to transfer to multi-agent settings. …",
+      "score": 9
+    },
+    {
+      "id": "ab4f0d62d68d",
+      "title": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
+      "url": "https://huggingface.co/papers/2611.16378",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; eithe…",
+      "summary": "Autonomous agents modify prompts, memories, tools, workflows, and policies using interaction histories. Yet a plausible…",
+      "score": 8
+    },
+    {
+      "id": "1480192b8b5b",
+      "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
+      "url": "https://huggingface.co/papers/2611.18130",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "summary": "Large language models (LLMs) are increasingly applied to finance, creating a need for benchmarks that evaluate their ca…",
+      "score": 8
+    },
+    {
+      "id": "31a407f7ed97",
+      "title": "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
+      "url": "https://huggingface.co/papers/2611.18529",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "summary": "Meetings last up to an hour, and nobody knows in advance how many people will speak. Neural diarizers with a fixed numb…",
+      "score": 8
+    },
+    {
+      "id": "61530fe8a047",
+      "title": "Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion",
+      "url": "https://huggingface.co/papers/2611.02822",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "summary": "Autoregressive video diffusion models (AR-VDMs) enable real-time, long-horizon video generation but degrade rapidly onc…",
+      "score": 8
+    },
+    {
+      "id": "414e82594a90",
+      "title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+      "url": "https://huggingface.co/papers/2611.13509",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "summary": "Small language models (SLMs) running on mobile devices can keep user data private and work without connectivity. But th…",
       "score": 7
-    },
-    {
-      "id": "15f3fa627d9e",
-      "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
-      "url": "https://huggingface.co/papers/2611.16409",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewar…",
-      "score": 7
-    },
-    {
-      "id": "f35b32d05550",
-      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
-      "url": "https://huggingface.co/papers/2611.17336",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compress…",
-      "score": 6
-    },
-    {
-      "id": "3dfe8e46bae2",
-      "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
-      "url": "https://huggingface.co/papers/2611.17190",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object …",
-      "score": 4
-    },
-    {
-      "id": "377b0bfef25b",
-      "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
-      "url": "https://huggingface.co/papers/2611.09567",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited b…",
-      "score": 4
-    },
-    {
-      "id": "dd3735a82d46",
-      "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
-      "url": "https://huggingface.co/papers/2611.12750",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that diff…",
-      "score": 3
-    },
-    {
-      "id": "e7d1fa40afc5",
-      "title": "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
-      "url": "https://huggingface.co/papers/2611.07226",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Looped Transformers reduce parameter count by repeatedly applying shared blocks, but parameter sharing alone does not d…",
-      "score": 2
-    },
-    {
-      "id": "928f0707c04f",
-      "title": "A frontier machine intelligence for human neuroimaging",
-      "url": "https://huggingface.co/papers/2611.15094",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "summary": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although arti…",
-      "score": 2
-    },
-    {
-      "id": "a1ceeda161bf",
-      "title": "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
-      "url": "https://huggingface.co/papers/2611.16439",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Learning whole-body mobile manipulation requires demonstrations that coordinate bimanual actions with locomotion across…",
-      "score": 1
-    },
-    {
-      "id": "e98acbf54f5a",
-      "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
-      "url": "https://huggingface.co/papers/2611.16728",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated ag…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-16T03:11:27.305Z",
+  "fetchedAt": "2026-11-16T11:16:06.573Z",
   "stale": false,
   "error": null
 }

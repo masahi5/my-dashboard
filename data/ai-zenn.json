@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1c0f5c23e8ca",
-      "title": "作りながら鍛えるコードリーディング力",
-      "url": "https://zenn.dev/gen_tokunaga/articles/bdf9e8e0faf872",
-      "publishedAt": "2026-11-15T16:17:47.000Z",
-      "publisher": "gen_tokunaga",
-      "summary": "満たしたいこと AIに作らせたコードを自分が理解し、｢いいコードだ｣と銘を打つまでに時間がかかる。要はコードリーディングが遅い。効率的に読むにはどうすればいいんだろう。 自分なりの結論 前提 他の人のコードを読む時は、全部を読む必要はない…"
+      "id": "962739de11f0",
+      "title": "侵入から15分。AI攻撃フレームワーク「ARTEX」が実戦で使われ始めた",
+      "url": "https://zenn.dev/kotanpolin/articles/artex-agentic-offensive-frameworks",
+      "publishedAt": "2026-11-16T05:39:33.000Z",
+      "publisher": "コタ",
+      "summary": "侵入から15分。AI攻撃フレームワーク「ARTEX」が実戦で使われ始めた はじめに：話題の投稿と、その裏付け Xでセキュリティエンジニアの connect24h さんが紹介して話題になった話がある。 https://x.com/conne…"
     },
     {
-      "id": "8428090331ac",
-      "title": "時事プローブと公式直結基準でAPI中継のモデル劣化を検知する",
-      "url": "https://zenn.dev/folkbench/articles/c90bdf45161bf2",
-      "publishedAt": "2026-11-15T15:46:15.000Z",
-      "publisher": "Matthew (Folkbench)",
-      "summary": "原文： Folkbench モデル劣化検知を発表：時事・モデル指紋プローブと独立公式ベースラインによる API 中継の継続検証 モデルのリーダーボードは、公式環境での理論上限を測ります。アップタイム監視は、エンドポイントが応答するかどうか…"
+      "id": "99223e5f363b",
+      "title": "10年前のCeleronノートに自律エージェント基盤「OpenClaw」を導入したら、人間上司と息を合わせる「現場調達AI社員」へ進化した話",
+      "url": "https://zenn.dev/meshu/articles/9b47d8136299b2",
+      "publishedAt": "2026-11-16T05:08:40.000Z",
+      "publisher": "MESHu Office",
+      "summary": "【注意】 本記事は、限られた極小予算と現場の知恵だけでゼロから自律分散型B2B受発注プロトコル（MESHu）と現場AI社員を立ち上げる、リアルな泥臭い実証の記録です。 はじめに：ローカルLLM（Ollama）の退役と次なる一手 前作の 第…"
     },
     {
-      "id": "47216dd1b700",
-      "title": "Fireworks AI のセキュリティインシデントについて調べてみた — 何が起き、どこに影響したのか",
-      "url": "https://zenn.dev/pollenjp/articles/2026-11-10-fireworks-ai-incident",
-      "publishedAt": "2026-11-15T15:23:57.000Z",
-      "publisher": "pollenjp",
-      "summary": "はじめに 個人で Notion の Business プランを契約して、Notion AI を使っている。そのワークスペースに、Notion から「取引先の Fireworks AI で起きたセキュリティインシデントで、影響を受けたかもし…"
+      "id": "11e5932aa7f5",
+      "title": "Claude Codeが書いたコードを読む代わりにやっていること",
+      "url": "https://zenn.dev/linkedge/articles/claude-code-instead-of-reading-code",
+      "publishedAt": "2026-11-16T05:04:44.000Z",
+      "publisher": "Misugi Takeru",
+      "summary": "はじめに 個人で作っているWebアプリの実装を、最近はClaude Codeに任せています。PRが増えて全部は読みきれなくなり、ほとんどコードを読まずにマージしています。テストもレビューも動作確認も、AIにやらせています。 ところが、作業…"
     },
     {
-      "id": "416aa784d690",
-      "title": "いきなり本体を刷らない！「Pick-Up Bench」のタイヤ破損（TR-003）と検証片ルール",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-04-pickup-bench-coupon-rule",
-      "publishedAt": "2026-11-15T15:09:04.000Z",
-      "publisher": "Maki",
-      "summary": "3Dプリンターで新しい形状やマルチカラー・専用サポート材を試すとき、最初から本体を丸ごと印刷して失敗すると、材料も時間も大きくロスしてしまいます。 そこで NEKOMO プロジェクトでは、本体を刷る前に 底面数ミリだけを切り出した「検証片…"
+      "id": "1a4e7b02a303",
+      "title": "会議の録音から英語字幕と吹き替えまで 2回確認するだけ。誤認識を直し、検証・修正まで実施できる LDX Voice の仕組み",
+      "url": "https://zenn.dev/kozo_ki/articles/f048577ed2e9d7",
+      "publishedAt": "2026-11-16T04:26:38.000Z",
+      "publisher": "Kozo@Kawamura International",
+      "summary": "これまでの記事 自社の API をエージェントのプラグインにして、3つの環境で同じ1分の音声を処理してみた 非エンジニアCEOがCopilot Studio × LDX hubを繋いでみた（前編） 非エンジニアCEOがCopilot St…"
     },
     {
-      "id": "b93fabace56d",
-      "title": "実機造形の壁！「サポートが外れない（TR-001）」と窓枠破損（v10）からの断面見直し",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-03-bus-section-dr-and-failures",
-      "publishedAt": "2026-11-15T15:09:02.000Z",
-      "publisher": "Maki",
-      "summary": "CAD画面でどれだけきれいに見えても、実際に3Dプリンターで出力してみると「支えが固くて取れない」「剥がそうとしたら部品が折れた」という壁にぶつかります。 今回は、60mm級のバス試作で起きた 2つのリアルな失敗（v06赤タイヤ版のサポー…"
+      "id": "62eb12b77b15",
+      "title": "第3回：AI環境を繰り返し展開する――Dell Automation Platformとブループリント",
+      "url": "https://zenn.dev/mstmt/articles/404fe1bc4c79cd",
+      "publishedAt": "2026-11-16T04:18:35.000Z",
+      "publisher": "TAMOTSU＠DELL",
+      "summary": "[日本語] PoCの「再現」を運用要件にする AIのPoCが成功しても、別の環境に同じ構成を作れなければ、実験結果を本番運用へ移すのは難しい。モデル、コンテナ、ドライバー、ネットワーク、ストレージ、認証、監視の組み合わせが少しずつ異なると…"
     },
     {
-      "id": "0d986a31c09c",
-      "title": "opencodexでAnthropic/OpenAI形式のリクエストをローカルのQwen2.5-32Bに流してみた",
-      "url": "https://zenn.dev/matsushima_a/articles/day-047-opencodex-provider-proxy-api-translation",
-      "publishedAt": "2026-11-15T14:27:44.000Z",
-      "publisher": "matsu",
-      "summary": "これは何を試した記事か lidge-jun/opencodex(npm: @bitkyc08/opencodex、MIT)は、OpenAI Codex・Claude Code・Claude Desktop等のコーディングエージェントと、C…"
+      "id": "fd4b68f7af2f",
+      "title": "「私たちの知るERPは終わった」を読み解く――NetSuiteの宣言と、SAPの「Autonomous Enterprise」という答え",
+      "url": "https://zenn.dev/dantarg/articles/netsuite-erp-end-vs-sap-autonomous",
+      "publishedAt": "2026-11-16T04:12:00.000Z",
+      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+      "summary": "2026年10月26日、ラスベガス。Oracle NetSuiteの創業者エバン・ゴールドバーグ氏は、年次イベントSuiteWorld 2026の基調講演で「私たちの知るERPは終わった」と宣言しました（ITmediaエンタープライズの現…"
     },
     {
-      "id": "f47518306738",
-      "title": "ぬゆちのサクサクVibe Coding入門",
-      "url": "https://zenn.dev/nuyuchi/books/nuyuchi-sakusaku-vibe-coding-intro",
-      "publishedAt": "2026-11-15T14:22:44.000Z",
-      "publisher": "ぬゆち",
-      "summary": "AI と一緒にコードを書くための、短い入門書です。ブラウザで使える Gemini への頼み方、プロジェクトごと任せられる Claude Code の使い方、そして AI の書いたコードを確かめる方法と、守るべき注意点を4チャプターでまとめ…"
+      "id": "656f4b82b799",
+      "title": "Grok Botで新興宗教を作ったら、神様として仕事ができるようになった話",
+      "url": "https://zenn.dev/appleworld/articles/8c6bbf7e2de2a1",
+      "publishedAt": "2026-11-16T04:00:05.000Z",
+      "publisher": "yoriyori",
+      "summary": "Grok Botで新興宗教を作ったら、神様として仕事ができるようになった話 はじめに こんにちは。株式会社アップルワールドで情報システムを担当しているyoriyoriです。 初めての記事で突然ですが、私のデスクには新興宗教があります。 と…"
     },
     {
-      "id": "3bed17a80cd4",
-      "title": "AnyModelBot v0.1.38：スキルの保存とライブラリ、ボット同士の受け渡し、「わたしについて」",
-      "url": "https://zenn.dev/malachi_amb/articles/41309700ac0fe0",
-      "publishedAt": "2026-11-15T14:10:55.000Z",
-      "publisher": "Malachi",
-      "summary": "こんにちは。AnyModelBot の共同開発者の Malachi です。2026年11月15日に v0.1.38 を公開しました。いまダウンロードできる版はこれです。先の記事では Docker 起動や、長期記憶をディスク上の Markd…"
+      "id": "1ccddd51bc7a",
+      "title": "Claude Codeに作らせたPHP問題を403問実行して照合した。10問は書き出しの違いで漏れていた",
+      "url": "https://zenn.dev/mugen_web/articles/claude-code-php-questions-verify",
+      "publishedAt": "2026-11-16T03:28:07.000Z",
+      "publisher": "MUGEN WEB",
+      "summary": "自作の資格問題集サイト(PHP初級)の問題500問を、Claude Codeに作らせました。コードを含む433問を検証コマンドにかけ、対象外を除いた問題をPHPで実行して、登録した正解と照合しました。2026年11月7日、PHP 8.2.…"
     },
     {
-      "id": "83d3963dc850",
-      "title": "サブエージェントの「すべて通りました」を、AI に確かめさせる Skill",
-      "url": "https://zenn.dev/itoken_lab/articles/delegating-work-with-without",
-      "publishedAt": "2026-11-15T14:01:23.000Z",
-      "publisher": "いとけん",
-      "summary": "AI エージェントは、仕事をサブエージェント（自分が立てる別の AI。以下、子）に任せられます。子は任せた側（以下、親）の会話を見ておらず、依頼文だけを読んで動き、報告だけを返します。依頼文に書かなかったことは守られず、子の「完了しました…"
+      "id": "3b39ba918dc4",
+      "title": "Muse に Space を作らせて中身の読み書きまで任せる仕組み",
+      "url": "https://zenn.dev/tmasuyama1114/articles/muse-daily-errands-and-spaces",
+      "publishedAt": "2026-11-16T03:11:49.000Z",
+      "publisher": "とまだ｜『Claude Codeで作って学ぶ』著者（増山友司）",
+      "summary": "Meta の AI エージェント Muse には、頼むと自分用のアプリを作ってくれる Space という機能があります。 この記事は、Space で何ができるのかを3つの層に分けて、私が毎日使っている Space の画面を例に整理したもの…"
     },
     {
-      "id": "06f039516b6e",
-      "title": "/goalを使わずStopフックを自作したら、Claude Codeが止まらず使用量が増え続けた",
-      "url": "https://zenn.dev/kagaribilab/articles/claude-code-stop-hook-loop",
-      "publishedAt": "2026-11-15T12:54:54.000Z",
-      "publisher": "かがり火ラボ",
-      "summary": "Claude Codeを、作業が終わるまで止めないようにしたい。そう考えて、/goalを使わずStopフックを自作しました。すると、Claudeが止まらなくなりました。 自作すれば、終わりの判定はより確かになります。しかし、「裏の仕事を待…"
+      "id": "596819369551",
+      "title": "Claude Codeに推測で埋めさせない：CLAUDE.mdに書く「未確認」の決まり5行",
+      "url": "https://zenn.dev/tsugu_sukima/articles/b571eb9691a4e0",
+      "publishedAt": "2026-11-16T03:00:05.000Z",
+      "publisher": "tsugu",
+      "summary": "この記事でやること Claude Code にメモを渡して「お知らせを書いて」と頼むと、メモに書いていないことまで文に入ることがあります。筆者が決まりを置かずに試したときは、メモにない「年」が日付に足され、メモにない問い合わせ先の一文が最…"
     },
     {
-      "id": "ad922255462a",
-      "title": "AI に日本語を書かせる Skill を、あり・なしで比べた",
-      "url": "https://zenn.dev/itoken_lab/articles/japanese-writing-with-without",
-      "publishedAt": "2026-11-15T12:36:53.000Z",
-      "publisher": "いとけん",
-      "summary": "AI エージェントに README や PR の本文、社内向けの報告を日本語で書かせると、箇条書きと「見出し：説明」の形が並び、文と文のつながりが抜けた文章が返ってきがちです。japanese-writing は、読み手と場面から書く順番…"
+      "id": "d3a01e6284f1",
+      "title": "Cybozu Days JAPAN 2026 に内定者として参加しました！",
+      "url": "https://zenn.dev/pkmiya/articles/8e9a3fcc256642",
+      "publishedAt": "2026-11-16T02:55:47.000Z",
+      "publisher": "みーや",
+      "summary": "Cybozu Days JAPAN 2026 に内定者として参加しました！ みなさんこんにちは！みーやと申します。 この度、2026 年 11 月 12 日・13 日に幕張メッセで開催されたサイボウズ最大の年次カンファレンス「Cybozu…"
     },
     {
-      "id": "33310fe0cd3a",
-      "title": "15歳でもわかるJev その5 — 判断するAI 3社に同じ300問を解かせた",
-      "url": "https://zenn.dev/hfujihira/articles/hf-871f48278637",
-      "publishedAt": "2026-11-15T12:15:15.000Z",
-      "publisher": "Hirokazu FUJIHIRA",
-      "summary": "その4の最後に「次は実際に動かして、Jev と並べてみたい」と書いた。今回はそれをやる。 並べたのは、文章を書かずに選択肢と自信の数字だけを返す AI の3つだ。 Gemini Decision 1（Google・2026 年 11 月 …"
+      "id": "fb2e08430e9e",
+      "title": "Can one person be both drummer and singer in an APT-style duo video?",
+      "url": "https://zenn.dev/sarabuilds/articles/2a160fa34ef9b0",
+      "publishedAt": "2026-11-16T02:18:26.000Z",
+      "publisher": "saralforfacebook",
+      "summary": "Yes. If you want one person in both roles, upload two different photos of that person: one for the drummer and one for …"
     }
   ],
-  "fetchedAt": "2026-11-16T03:11:27.494Z",
+  "fetchedAt": "2026-11-16T11:16:06.730Z",
   "stale": false,
   "error": null
 }

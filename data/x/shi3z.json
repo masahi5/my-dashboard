@@ -2,6 +2,24 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2122203867274494104",
+      "url": "https://x.com/shi3z/status/2122203867274494104",
+      "text": "生きている神経細胞を元に学習！？",
+      "publishedAt": "2026-11-16T05:43:25.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2122193763468788041",
+      "url": "https://x.com/nkinvestigation/status/2122193763468788041",
+      "text": "米アンソロピックがAIの利用水準（Claude）に応じ世界を①先進国②上位中堅国③下位中堅国④途上国の4段階に分類した。日本は上から2つ目の「上位中堅国」で世界32位。「先進国」に大きく見劣りする。\n#アンソロピック #Claude #松尾研 #Index #AI先進国 #AI利用\n\n詳細記事▶nikkei.com/article/DGXZQOCD1…",
+      "publishedAt": "2026-11-16T05:03:16.000Z",
+      "authorHandle": "nkinvestigation",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2122144821360087426",
       "url": "https://x.com/shi3z/status/2122144821360087426",
       "text": "まあ戻るべきだよな",
@@ -72,27 +90,9 @@
       "authorHandle": "shi3z",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2121794710088171858",
-      "url": "https://x.com/ochyai/status/2121794710088171858",
-      "text": "みんな来てね！",
-      "publishedAt": "2026-11-15T02:37:34.000Z",
-      "authorHandle": "ochyai",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2121772957064425848",
-      "url": "https://x.com/crazyMLguy/status/2121772957064425848",
-      "text": "Running a 40B-parameter AI model on a 12GB GPU at 64 tokens/sec?\n\nRustingStrata is challenging conventional local inference engines with some impressive benchmark results.\n\nIn a recent comparison using Recursive Flint UD-Q5_K_XL on an RTX 3060 12GB with 30GB system RAM:\n\n64.6 tokens/sec decode speed vs. 48.6 with llama.cpp.\n33% faster warm decoding.\n1.14–1.30K tokens/sec prompt processing.\nNo reported quality degradation.\n\nHow does it achieve this? Two key optimizations:\n\nAdaptive expert placement based on the generated response rather than just prompt routing.\nSmarter RAM page management to keep frequently needed expert weights accessible.\n\nThe interesting part is that the model is larger than available VRAM, yet careful CPU-GPU memory management makes surprisingly fast inference possible.\n\nThis shows how much performance can still be unlocked through inference-engine optimizations without changing model weights.\n\nGitHub: github.com/RustingStudio/Rus…",
-      "publishedAt": "2026-11-15T01:11:08.000Z",
-      "authorHandle": "crazyMLguy",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-11-16T03:11:51.476Z",
+  "fetchedAt": "2026-11-16T11:16:25.793Z",
   "stale": false,
   "error": null
 }
