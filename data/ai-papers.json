@@ -6,20 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "c0d19ff305cb",
-      "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
-      "url": "https://huggingface.co/papers/2611.15844",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Ba…",
-      "score": 36
-    },
-    {
       "id": "1a94fc8d34f8",
       "title": "Unbundling Multimodal Vision Encoding",
       "url": "https://huggingface.co/papers/2611.17334",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision en…",
-      "score": 16
+      "score": 18
     },
     {
       "id": "43c0a0b029dd",
@@ -27,7 +19,7 @@
       "url": "https://huggingface.co/papers/2611.10439",
       "publishedAt": "2026-11-07T00:00:00.000Z",
       "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM…",
-      "score": 13
+      "score": 14
     },
     {
       "id": "be1aeffe89b0",
@@ -38,28 +30,20 @@
       "score": 7
     },
     {
-      "id": "f35b32d05550",
-      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
-      "url": "https://huggingface.co/papers/2611.17336",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compress…",
-      "score": 5
-    },
-    {
       "id": "15f3fa627d9e",
       "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
       "url": "https://huggingface.co/papers/2611.16409",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewar…",
-      "score": 5
+      "score": 7
     },
     {
-      "id": "9d465d30cae3",
-      "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
-      "url": "https://huggingface.co/papers/2611.16009",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo hav…",
-      "score": 5
+      "id": "f35b32d05550",
+      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "url": "https://huggingface.co/papers/2611.17336",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compress…",
+      "score": 6
     },
     {
       "id": "3dfe8e46bae2",
@@ -86,12 +70,28 @@
       "score": 3
     },
     {
+      "id": "e7d1fa40afc5",
+      "title": "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
+      "url": "https://huggingface.co/papers/2611.07226",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Looped Transformers reduce parameter count by repeatedly applying shared blocks, but parameter sharing alone does not d…",
+      "score": 2
+    },
+    {
       "id": "928f0707c04f",
       "title": "A frontier machine intelligence for human neuroimaging",
       "url": "https://huggingface.co/papers/2611.15094",
       "publishedAt": "2026-11-11T00:00:00.000Z",
       "summary": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although arti…",
       "score": 2
+    },
+    {
+      "id": "a1ceeda161bf",
+      "title": "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
+      "url": "https://huggingface.co/papers/2611.16439",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Learning whole-body mobile manipulation requires demonstrations that coordinate bimanual actions with locomotion across…",
+      "score": 1
     },
     {
       "id": "e98acbf54f5a",
@@ -102,7 +102,7 @@
       "score": 1
     }
   ],
-  "fetchedAt": "2026-11-15T23:44:10.472Z",
+  "fetchedAt": "2026-11-16T03:11:27.305Z",
   "stale": false,
   "error": null
 }
