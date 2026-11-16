@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "0a8bba087f1e",
-      "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
-      "url": "https://huggingface.co/papers/2611.15789",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, mo…",
-      "score": 73
-    },
-    {
-      "id": "ebd45f60894b",
-      "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
-      "url": "https://huggingface.co/papers/2611.18482",
+      "id": "a489fd05d65e",
+      "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+      "url": "https://huggingface.co/papers/2611.17878",
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification b…",
-      "score": 29
+      "summary": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions. City ene…",
+      "score": 20
     },
     {
-      "id": "5b7b0ba1a878",
-      "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
-      "url": "https://huggingface.co/papers/2611.17831",
+      "id": "2e50d1948595",
+      "title": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
+      "url": "https://huggingface.co/papers/2610.41354",
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To…",
-      "score": 16
+      "summary": "Deployment objectives often specify desired outcomes without providing revised trajectories, while parts of the origina…",
+      "score": 12
     },
     {
-      "id": "10ceb1f0e00c",
-      "title": "MIRIX-2.0: Multi-Agent Memory System",
-      "url": "https://huggingface.co/papers/2611.12068",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need t…",
-      "score": 14
-    },
-    {
-      "id": "1568e7edfa01",
-      "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
-      "url": "https://huggingface.co/papers/2611.18549",
+      "id": "3e42af30d923",
+      "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+      "url": "https://huggingface.co/papers/2611.17955",
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rel…",
-      "score": 14
-    },
-    {
-      "id": "6d4abccc2e68",
-      "title": "Do Underwater Image Quality Metrics Agree with Human Perception? A Benchmark with Human Choices, Simple Edits and Generative Drift",
-      "url": "https://huggingface.co/papers/2611.18429",
-      "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "Underwater image enhancement is challenging to evaluate due to the lack of clean reference images, so researchers rely …",
+      "summary": "Web agents powered by large language and vision-language models are increasingly applied to realistic browser work that…",
       "score": 10
     },
     {
-      "id": "393dae516798",
-      "title": "Aligning AI Teams",
-      "url": "https://huggingface.co/papers/2611.17820",
-      "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "Previous work has shown that alignment training on individual LLM agents can fail to transfer to multi-agent settings. …",
+      "id": "11d21e9a160b",
+      "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+      "url": "https://huggingface.co/papers/2611.14505",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. …",
       "score": 9
     },
     {
-      "id": "ab4f0d62d68d",
-      "title": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
-      "url": "https://huggingface.co/papers/2611.16378",
+      "id": "39eb4665318b",
+      "title": "Interpreting Coding Agents Through Their Behavioral Trajectories",
+      "url": "https://huggingface.co/papers/2611.17440",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Autonomous agents modify prompts, memories, tools, workflows, and policies using interaction histories. Yet a plausible…",
-      "score": 8
+      "summary": "Standard coding-agent benchmarks primarily evaluate binary task success, treating execution as a black box and obscurin…",
+      "score": 6
     },
     {
-      "id": "1480192b8b5b",
-      "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
-      "url": "https://huggingface.co/papers/2611.18130",
+      "id": "3daf30171921",
+      "title": "MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation",
+      "url": "https://huggingface.co/papers/2611.15640",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "summary": "Streaming video understanding aims to continuously process incoming visual observations, making the retention and retri…",
+      "score": 5
+    },
+    {
+      "id": "434d5ccd2644",
+      "title": "eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
+      "url": "https://huggingface.co/papers/2611.17194",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Distribution matching distillation (DMD) has emerged as a leading paradigm for distilling diffusion models into few-ste…",
+      "score": 5
+    },
+    {
+      "id": "78921bd209db",
+      "title": "LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent",
+      "url": "https://huggingface.co/papers/2611.17780",
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "Large language models (LLMs) are increasingly applied to finance, creating a need for benchmarks that evaluate their ca…",
-      "score": 8
+      "summary": "Frontier LLM agents that query databases with tools are among the most accurate text-to-SQL systems, but per-query call…",
+      "score": 2
     },
     {
-      "id": "31a407f7ed97",
-      "title": "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
-      "url": "https://huggingface.co/papers/2611.18529",
-      "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "Meetings last up to an hour, and nobody knows in advance how many people will speak. Neural diarizers with a fixed numb…",
-      "score": 8
+      "id": "5e820536602c",
+      "title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+      "url": "https://huggingface.co/papers/2611.17169",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask w…",
+      "score": 2
     },
     {
-      "id": "61530fe8a047",
-      "title": "Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion",
-      "url": "https://huggingface.co/papers/2611.02822",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "summary": "Autoregressive video diffusion models (AR-VDMs) enable real-time, long-horizon video generation but degrade rapidly onc…",
-      "score": 8
+      "id": "77073d0f9c19",
+      "title": "Dual Flow: Joint Image-Measurement Interpolation for Inverse Problems",
+      "url": "https://huggingface.co/papers/2611.05843",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Generative model-based approaches to linear inverse problems typically use the acquired noisy measurement to condition …",
+      "score": 1
     },
     {
-      "id": "414e82594a90",
-      "title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
-      "url": "https://huggingface.co/papers/2611.13509",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "summary": "Small language models (SLMs) running on mobile devices can keep user data private and work without connectivity. But th…",
-      "score": 7
+      "id": "d4d56e46b2df",
+      "title": "EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning",
+      "url": "https://huggingface.co/papers/2611.16500",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic langu…",
+      "score": 1
+    },
+    {
+      "id": "d4de970af473",
+      "title": "Alloy: A Multi-Material Physics Engine for Robot Learning",
+      "url": "https://huggingface.co/papers/2611.16312",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Robots handle much more than rigid objects: towels, cables, water, sand. The simulators used to train robots at scale a…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-16T11:16:06.573Z",
+  "fetchedAt": "2026-11-16T21:05:34.939Z",
   "stale": false,
   "error": null
 }
