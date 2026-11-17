@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "cc2653d227dc",
-      "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-      "url": "https://huggingface.co/papers/2611.21218",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care sett…",
-      "score": 50
+      "id": "23722ef77194",
+      "title": "Termination Lag: Coding Agents Solve Early but Stop Late",
+      "url": "https://huggingface.co/papers/2611.14960",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "summary": "Coding agents can solve a task well before they stop working on it. We characterize termination lag--the number of step…",
+      "score": 5
     },
     {
-      "id": "67a1582ea0b6",
-      "title": "Sage S2.1 Flash Technical Report",
-      "url": "https://huggingface.co/papers/2611.21072",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over …",
-      "score": 47
-    },
-    {
-      "id": "6acb0a8741da",
-      "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
-      "url": "https://huggingface.co/papers/2611.20218",
+      "id": "5f4305236e5c",
+      "title": "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
+      "url": "https://huggingface.co/papers/2611.19771",
       "publishedAt": "2026-11-15T00:00:00.000Z",
-      "summary": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and ve…",
-      "score": 30
+      "summary": "Joint-embedding predictive architecture (JEPA) world models predict future embeddings instead of pixels and plan in lat…",
+      "score": 4
     },
     {
-      "id": "206fe7f30f61",
-      "title": "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
-      "url": "https://huggingface.co/papers/2611.17110",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "summary": "Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human video…",
-      "score": 11
-    },
-    {
-      "id": "233577c28c5e",
-      "title": "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
-      "url": "https://huggingface.co/papers/2611.17933",
+      "id": "08c0cff54a98",
+      "title": "Marimba: A System One Model for Speech",
+      "url": "https://huggingface.co/papers/2611.18330",
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "In many long-horizon settings, an agent's own choices create future constraints: committing finite capacity establishes…",
-      "score": 2
+      "summary": "Speech applications require decisions about term presence, turn completion, and language within an audio window. We pre…",
+      "score": 3
     },
     {
-      "id": "7764b84499c7",
-      "title": "DominoBench: Evaluating Multi-Step Physical Reasoning from Still Images",
-      "url": "https://huggingface.co/papers/2611.20385",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Can a vision-language model look at a picture of a chain reaction and tell what will happen? Recent multimodal models d…",
-      "score": 2
-    },
-    {
-      "id": "7abb47eaaefa",
-      "title": "Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality",
-      "url": "https://huggingface.co/papers/2611.18919",
-      "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "Robots in homes, warehouses and farms must pick up objects they have never seen, usually without a 3D model or a catego…",
-      "score": 1
-    },
-    {
-      "id": "2f366d0f2263",
-      "title": "Continuation-Guided LLM Evolution of Program Policies and Goal Compilers in Craftax",
-      "url": "https://huggingface.co/papers/2611.19537",
-      "publishedAt": "2026-11-14T00:00:00.000Z",
-      "summary": "Coding agents can synthesize and optimize code-based policies from simulator feedback, allowing the resulting program t…",
-      "score": 1
-    },
-    {
-      "id": "991a52a7701a",
-      "title": "Centered Ablation: Why Last-Layer Directional Ablation Under-Fires or Collapses, and a Closed-Form Fix",
-      "url": "https://huggingface.co/papers/2611.20148",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "summary": "Directional ablation removes a hidden state's component along a \"behaviour direction\" while a language model runs. It i…",
-      "score": 1
-    },
-    {
-      "id": "f4a9f8da3e85",
-      "title": "Dataset Distillation via Drifting",
-      "url": "https://huggingface.co/papers/2611.16642",
+      "id": "dc5891dfced1",
+      "title": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
+      "url": "https://huggingface.co/papers/2611.16694",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "The task of dataset distillation concerns the learning of a small set of synthetic samples that can serve as an effecti…",
-      "score": 0
+      "summary": "When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows …",
+      "score": 3
     },
     {
-      "id": "9d574cd26edb",
-      "title": "A Reinforcement Learning Method to Navigate SMEFT Operator Space",
-      "url": "https://huggingface.co/papers/2611.21439",
+      "id": "9d792be934d6",
+      "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+      "url": "https://huggingface.co/papers/2611.09825",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving. While 4-bit microscaling …",
+      "score": 3
+    },
+    {
+      "id": "808afd56217f",
+      "title": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
+      "url": "https://huggingface.co/papers/2611.20595",
       "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "In particle physics, discrepancies between experimental measurements and Standard Model (SM) predictions are commonly i…",
+      "summary": "LLM agents answer questions by calling APIs and trusting the results. An API can fail silently. It ignores part of a re…",
+      "score": 2
+    },
+    {
+      "id": "dd0a9165d607",
+      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+      "url": "https://huggingface.co/papers/2611.21605",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existi…",
+      "score": 2
+    },
+    {
+      "id": "47fa79e8dcdc",
+      "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
+      "url": "https://huggingface.co/papers/2611.21479",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requi…",
+      "score": 2
+    },
+    {
+      "id": "bd5fb061ed68",
+      "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+      "url": "https://huggingface.co/papers/2611.17610",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "summary": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This…",
+      "score": 1
+    },
+    {
+      "id": "a081e590fc15",
+      "title": "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
+      "url": "https://huggingface.co/papers/2611.21412",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "High-resolution brain MRI is important for neuroradiological assessment, yet routine clinical protocols often rely on f…",
       "score": 0
     },
     {
-      "id": "bdac3d858bd1",
-      "title": "Reflection Anchors for Propagation-Aware Visual Retention in Long-Chain Multimodal Reasoning",
-      "url": "https://huggingface.co/papers/2605.09614",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "summary": "Long chain-of-thought (CoT) reasoning improves large vision--language models, but visual information often fades during…",
+      "id": "a03e81e89980",
+      "title": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
+      "url": "https://huggingface.co/papers/2611.18981",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "summary": "Legal reasoning in civil-law systems is not rule-lookup: the German state examination asks for a structured opinion (Gu…",
+      "score": 0
+    },
+    {
+      "id": "5ee6bb4e691c",
+      "title": "Zuse: A Decision Model for European Languages",
+      "url": "https://huggingface.co/papers/2611.06238",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "summary": "Decision models read a document and return a probability for each of a fixed set of options instead of generating text.…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-17T12:45:00.950Z",
+  "fetchedAt": "2026-11-17T21:22:46.404Z",
   "stale": false,
   "error": null
 }
