@@ -6,6 +6,62 @@
   "category": "ai",
   "items": [
     {
+      "id": "345047bcbc8f",
+      "title": "検索はキーワードマッチ・全文検索・RAGだけじゃない！アキネーターライクな検索UIを作ろう！",
+      "url": "https://zenn.dev/coffeecupjp/articles/df57dc4227d541",
+      "publishedAt": "2026-11-18T12:36:15.000Z",
+      "publisher": "Kazuya Kurihara",
+      "summary": "要約 今の検索の主流は、キーワードマッチか全文検索かRAG。なので特許検索では珍しく、構造化検索でのアキネーターライクな検索UIを作りました アキネーターライクな検索UIとは、分野ごとに質問に２〜５問答えるだけで類似特許を絞り込めるUIの…"
+    },
+    {
+      "id": "4b468eaf8cb6",
+      "title": "AI同士で直し合うレビューを1か月回した結果。効いたのは全部のチェックではなく対象を絞ること",
+      "url": "https://zenn.dev/mizo_ko/articles/article-101-zenn",
+      "publishedAt": "2026-11-18T12:35:08.000Z",
+      "publisher": "Anago",
+      "summary": "AI が Backlog に書くたび、別の AI が直後にレビューする仕組みを約1か月回した。レビューは175回、指摘は819件出た 重要度が高い指摘は74件で、本物の誤りも混ざっていた。ただ全体の9割は、書き方や要確認といった軽い指摘だ…"
+    },
+    {
+      "id": "62457f33fc7c",
+      "title": "AIに設計を任せても、設計責任まで手放してはいけない",
+      "url": "https://zenn.dev/tomoya_watanabe/articles/cef9e11149b431",
+      "publishedAt": "2026-11-18T12:18:55.000Z",
+      "publisher": "渡邉 智哉",
+      "summary": "はじめに AIに「こんな機能を作りたい」と伝えると、コードだけでなく、ディレクトリ構成やモジュールの分割、テストまで提案してくれることがあります。 以前なら自分で調べ、考えながら実装していたことが、ずいぶん短い時間で形になるようになりまし…"
+    },
+    {
+      "id": "e22a912a6462",
+      "title": "Apple Foundation Modelsの性能備忘録。",
+      "url": "https://zenn.dev/leafdev/articles/273a3d6093262f",
+      "publishedAt": "2026-11-18T12:10:00.000Z",
+      "publisher": "福田草介",
+      "summary": "個人で開発しているカレンダーアプリ「Aica」に、メモに書いたことを、端末内のAIが予定とタスクに分けて仮押さえする機能を入れました。 AIはApple Foundation Models（以下AFM、iOS 26からのオンデバイスLLM…"
+    },
+    {
+      "id": "fe724d6c95ae",
+      "title": "チームで回す AI 駆動開発の実践",
+      "url": "https://zenn.dev/au/books/ai-driven-dev-team-practice",
+      "publishedAt": "2026-11-18T12:00:28.000Z",
+      "publisher": ".nk",
+      "summary": "チームで AI 駆動開発を始める人に向けて、打ち合わせのメモから要件、仕様、計画、PR、レビューまでを、架空のチームの開発を通しで追いながら、写して使える成果物と手順で説明する本です。"
+    },
+    {
+      "id": "7332145ef902",
+      "title": "AI と書いた 13 本の「整理型」論文：新しい理論を主張しない研究ノートの作り方（IN シリーズの地図）",
+      "url": "https://zenn.dev/yoshi_katakura/articles/in-series-map-13-papers",
+      "publishedAt": "2026-11-18T11:51:53.000Z",
+      "publisher": "片倉慶孝",
+      "summary": "2026 年 11 月に、Zenodo に「IN シリーズ」の論文を 13 本、関連の 2 本（DB-01、NS-01）を出しました。どれも日本語で、新しい理論や発見を主張しない「整理型」のノートです。この記事は、その地図です。 私は物理…"
+    },
+    {
+      "id": "8616c6f75aee",
+      "title": "18-⑩ Kaggle実践3 Biohub細胞トラッキング：6位の解法まとめ",
+      "url": "https://zenn.dev/rg687076/articles/93917fb7a4bcc9",
+      "publishedAt": "2026-11-18T11:22:09.000Z",
+      "publisher": "kito2718",
+      "summary": "18-①Kaggle実践3 Biohub細胞トラッキング：環境構築から初回提出までの手順 18-②Kaggle実践3 Biohub細胞トラッキング：初回提出コードを解説してみた 18-③Kaggle実践3 Biohub細胞トラッキング：ロ…"
+    },
+    {
       "id": "425b438618f6",
       "title": "GoogleAntigravityでフルAgentアプリ開発試してみた",
       "url": "https://zenn.dev/remicalsoft/articles/09f95144e6c48e",
@@ -44,65 +100,9 @@
       "publishedAt": "2026-11-18T10:33:11.000Z",
       "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
       "summary": "規程はある。手順書もある。研修資料も、マニュアルもある。 それでも、事故は起きる。 「ある」だけでは、効かないのです。 フォローしている著者の3か月の記録が、その話をAIエージェントの世界で、数字つきでやっていました。 @tottoko_…"
-    },
-    {
-      "id": "e68289c9ae10",
-      "title": "会社員エンジニアが Claude Code で「AI役員会議」の会社を作って5日回した",
-      "url": "https://zenn.dev/yuceo/articles/ai-board-claude-code",
-      "publishedAt": "2026-11-18T10:28:28.000Z",
-      "publisher": "Yu",
-      "summary": "先に結論 ひとりで決めると迷うので、AIの役員たちに会議をしてもらい、最後に自分が決めることにしました。 5日間で会議は27回。サイトを2つ公開できました。失敗も3つあったので、それもそのまま書きます。 どうして作ったか ぼくは会社員のエ…"
-    },
-    {
-      "id": "8f477f9ae797",
-      "title": "AIチャットの中身はどこで漏れる？",
-      "url": "https://zenn.dev/kotanpolin/articles/ai-chat-leak-vendor",
-      "publishedAt": "2026-11-18T10:26:11.000Z",
-      "publisher": "コタ",
-      "summary": "先に、3行で 2026年11月、ノートアプリNotionは、自社のシステムではなく、AIの処理を頼んでいた外部の会社Fireworks AIへの不正アクセスで、一部の「Notion AI」の会話記録が外に出た可能性がある、と発表した。影響…"
-    },
-    {
-      "id": "0ec2521988c8",
-      "title": "SNSの投稿は、入力までAI・ボタンは人。Claude in Chromeで5つのSNSに入れてつまずいたこと",
-      "url": "https://zenn.dev/atsushi_apps/articles/claude-in-chrome-sns-posting-split",
-      "publishedAt": "2026-11-18T10:05:44.000Z",
-      "publisher": "Atsushi｜個人アプリ開発",
-      "summary": "iPhoneアプリを一人で作っている Atsushi です。アプリの告知は、X・Threads・Instagram・TikTok・YouTube に出しています。 投稿の準備は、Claude in Chrome（Chrome の拡張機能で…"
-    },
-    {
-      "id": "ec00a491cfa4",
-      "title": "Claude Designで再現性のあるデザインを作るためにやったこと",
-      "url": "https://zenn.dev/caffe_latte_623/articles/claude-design-reproducibility",
-      "publishedAt": "2026-11-18T09:18:07.000Z",
-      "publisher": "しーさん",
-      "summary": "初めに こんにちは。しーさんです。 少しずつAIを使った開発に慣れてきたかなと感じる今日ですが、業務でのフロントエンド開発においてClaude Designがありがたかったポイントを紹介します。 おそらくエンジニアリングと似たような話にな…"
-    },
-    {
-      "id": "0ea800174f49",
-      "title": "AWS DevOps AgentとDatadogを連携させてみた ～MCPを活用したインシデント対応の実現に向けて、検証でわかったこと～",
-      "url": "https://zenn.dev/nttdata_tech/articles/f61d40ef286af9",
-      "publishedAt": "2026-11-18T08:55:06.000Z",
-      "publisher": "hashi",
-      "summary": "1.はじめに AWS DevOps Agentは、AWSが提供するAIエージェントで、ログやメトリクス、システム構成等の情報を分析し、インシデントの原因調査や対応策の提案を自動的に行うサービスです。 Datadog等のObservabil…"
-    },
-    {
-      "id": "b9b5edeefef1",
-      "title": "AIのサブエージェントを「課」に分けて、帳簿と承認で動かす小さなキットを公開しました",
-      "url": "https://zenn.dev/hachihou_system/articles/389a2800e92f64",
-      "publishedAt": "2026-11-18T08:54:14.000Z",
-      "publisher": "キョウスケ",
-      "summary": "本記事は個人の運用記録とツールの紹介です。紹介するキットは現実のお金・暗号資産を扱いません。 AIに毎日の作業を任せていると、サブエージェント（調べもの係、実装係、検証係…）を何人も動かすようになります。便利な一方で、次のことが分からなく…"
-    },
-    {
-      "id": "db257f4be8f6",
-      "title": "Unreal MCPの「localhost」は、認証の代わりにならない",
-      "url": "https://zenn.dev/heftykoo/articles/c6a9a22b7885c9",
-      "publishedAt": "2026-11-18T08:53:03.000Z",
-      "publisher": "heftykoo",
-      "summary": "Unreal EditorにAIエージェントをつなぐと、「操作できるのはこのエージェントだけ」と考えたくなる。だが、接続したという事実だけでは、そこまで保証されない。 Unreal MCPのサーバーには認証層がない。既定では同じマシンから…"
     }
   ],
-  "fetchedAt": "2026-11-18T11:39:09.309Z",
+  "fetchedAt": "2026-11-18T19:36:39.831Z",
   "stale": false,
   "error": null
 }
