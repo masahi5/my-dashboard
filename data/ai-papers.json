@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9af6adf4988d",
-      "title": "Multi-Branch Transformer",
-      "url": "https://huggingface.co/papers/2611.19800",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we …",
-      "score": 7
+      "id": "c6c2c34225cd",
+      "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+      "url": "https://huggingface.co/papers/2611.22115",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in …",
+      "score": 143
     },
     {
-      "id": "d5b3982a621d",
-      "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
-      "url": "https://huggingface.co/papers/2611.08977",
+      "id": "3cf1ffb4a0ec",
+      "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+      "url": "https://huggingface.co/papers/2611.17621",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "summary": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existi…",
+      "score": 89
+    },
+    {
+      "id": "bde87172b2cd",
+      "title": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
+      "url": "https://huggingface.co/papers/2611.17048",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful o…",
+      "score": 32
+    },
+    {
+      "id": "f22b1136d96b",
+      "title": "FastFrames: Video Generation at Interactive Latency",
+      "url": "https://huggingface.co/papers/2611.23226",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising med…",
+      "score": 20
+    },
+    {
+      "id": "7e91e1389aa0",
+      "title": "VideoNexus: Video Perception Beyond the Reasoning Context",
+      "url": "https://huggingface.co/papers/2611.21392",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "Understanding long videos requires locating evidence, resolving visual details, and integrating observations into an an…",
+      "score": 18
+    },
+    {
+      "id": "4f4cb3997919",
+      "title": "FMT: Lossless Image Compression in a Fixed Number of Parallel Steps",
+      "url": "https://huggingface.co/papers/2611.23108",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "Learned lossless codecs make smaller files than common classical codecs, yet the images we archive and train on still u…",
+      "score": 15
+    },
+    {
+      "id": "ef9131dbf48c",
+      "title": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
+      "url": "https://huggingface.co/papers/2611.08922",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "Looping is a powerful inductive bias for reasoning. By repeatedly iterating a recurrent block, looped models can scale …",
+      "summary": "Automated scientific discovery has the potential to advance understanding of disease mechanisms and accelerate identifi…",
+      "score": 10
+    },
+    {
+      "id": "21ed0bf4a613",
+      "title": "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
+      "url": "https://huggingface.co/papers/2611.21152",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "Training coding agents for long-horizon tasks requires environments with verifiable feedback. Existing pipelines often …",
+      "score": 9
+    },
+    {
+      "id": "c4635778124e",
+      "title": "M3OPD-Reasoner: An Open Recipe for Post-Training Multimodal Reasoning with Multi-Teacher On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2611.23034",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "Multi-Teacher On-Policy Distillation (MOPD) enables a single student to absorb the skills of several domain teachers by…",
+      "score": 8
+    },
+    {
+      "id": "8c1b6f5ecccc",
+      "title": "TPHC: Improving Hyper-Connections with Tensor-Parallel Grouped Updates",
+      "url": "https://huggingface.co/papers/2611.23026",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "Hyper-Connections (HC) expand the residual stream of a Transformer into N parallel streams, and manifold-constrained HC…",
+      "score": 8
+    },
+    {
+      "id": "270b8db8f8b5",
+      "title": "The Noise Floor of a Quantization Comparison: Engine, restart, batch and kernel drift, measured against 8-bit and 4-bit effects in two decision models",
+      "url": "https://huggingface.co/papers/2611.15671",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "summary": "A quantized model is usually judged by comparing it with its BF16 original, but that comparison changes more than the w…",
       "score": 5
     },
     {
-      "id": "4aa01f9019d9",
-      "title": "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
-      "url": "https://huggingface.co/papers/2611.20992",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Medical image understanding with vision-language models (VLMs) typically relies on autoregressively generating reasonin…",
-      "score": 4
-    },
-    {
-      "id": "08c0cff54a98",
-      "title": "Marimba: A System One Model for Speech",
-      "url": "https://huggingface.co/papers/2611.18330",
-      "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "Speech applications require decisions about term presence, turn completion, and language within an audio window. We pre…",
-      "score": 4
-    },
-    {
-      "id": "bd5fb061ed68",
-      "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
-      "url": "https://huggingface.co/papers/2611.17610",
-      "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This…",
-      "score": 3
-    },
-    {
-      "id": "a629af9ff19e",
-      "title": "Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose",
-      "url": "https://huggingface.co/papers/2611.15348",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "summary": "Electronic nose (eNose) technology offers a portable, non-invasive route for disease screening via exhaled breath analy…",
-      "score": 2
-    },
-    {
-      "id": "2e53b915f0c5",
-      "title": "Weight-Space Programming Doesn't Need Transformers",
-      "url": "https://huggingface.co/papers/2611.22055",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run…",
-      "score": 2
-    },
-    {
-      "id": "efa20063eb1c",
-      "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
-      "url": "https://huggingface.co/papers/2611.21099",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact …",
-      "score": 2
-    },
-    {
-      "id": "8a649f6b0096",
-      "title": "Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior",
-      "url": "https://huggingface.co/papers/2611.04395",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "summary": "Fine-tuning data can include metadata that predicts the correct answer, such as a reward-model score or a quality label…",
-      "score": 2
-    },
-    {
-      "id": "38be2e5ba47a",
-      "title": "Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment",
-      "url": "https://huggingface.co/papers/2611.20441",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Abstention, the withholding of a response by a large language model (LLM) under uncertainty or safety risks, is essenti…",
+      "id": "bdfec11db0e2",
+      "title": "PanDWM: Panoramic 4D Driving World Models",
+      "url": "https://huggingface.co/papers/2611.19857",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "summary": "Driving world models usually generate videos from six pinhole cameras with separate optical centres and small overlaps,…",
       "score": 1
-    },
-    {
-      "id": "a081e590fc15",
-      "title": "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
-      "url": "https://huggingface.co/papers/2611.21412",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "High-resolution brain MRI is important for neuroradiological assessment, yet routine clinical protocols often rely on f…",
-      "score": 1
-    },
-    {
-      "id": "afa8b1ee3cbf",
-      "title": "Inside the Trading Loop: Markets, Models, and Moves with LLM Agents",
-      "url": "https://huggingface.co/papers/2611.11657",
-      "publishedAt": "2026-11-08T00:00:00.000Z",
-      "summary": "We built a hybrid multi-agent trading system that combines large language model (LLM) analysts with momentum-based port…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-18T03:02:13.264Z",
+  "fetchedAt": "2026-11-18T11:39:09.141Z",
   "stale": false,
   "error": null
 }
