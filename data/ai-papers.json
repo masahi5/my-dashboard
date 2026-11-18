@@ -6,19 +6,27 @@
   "category": "ai",
   "items": [
     {
-      "id": "23722ef77194",
-      "title": "Termination Lag: Coding Agents Solve Early but Stop Late",
-      "url": "https://huggingface.co/papers/2611.14960",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "summary": "Coding agents can solve a task well before they stop working on it. We characterize termination lag--the number of step…",
+      "id": "9af6adf4988d",
+      "title": "Multi-Branch Transformer",
+      "url": "https://huggingface.co/papers/2611.19800",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we …",
+      "score": 7
+    },
+    {
+      "id": "d5b3982a621d",
+      "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+      "url": "https://huggingface.co/papers/2611.08977",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "summary": "Looping is a powerful inductive bias for reasoning. By repeatedly iterating a recurrent block, looped models can scale …",
       "score": 5
     },
     {
-      "id": "5f4305236e5c",
-      "title": "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
-      "url": "https://huggingface.co/papers/2611.19771",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "summary": "Joint-embedding predictive architecture (JEPA) world models predict future embeddings instead of pixels and plan in lat…",
+      "id": "4aa01f9019d9",
+      "title": "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
+      "url": "https://huggingface.co/papers/2611.20992",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "Medical image understanding with vision-language models (VLMs) typically relies on autoregressively generating reasonin…",
       "score": 4
     },
     {
@@ -27,47 +35,7 @@
       "url": "https://huggingface.co/papers/2611.18330",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "summary": "Speech applications require decisions about term presence, turn completion, and language within an audio window. We pre…",
-      "score": 3
-    },
-    {
-      "id": "dc5891dfced1",
-      "title": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
-      "url": "https://huggingface.co/papers/2611.16694",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows …",
-      "score": 3
-    },
-    {
-      "id": "9d792be934d6",
-      "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
-      "url": "https://huggingface.co/papers/2611.09825",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "summary": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving. While 4-bit microscaling …",
-      "score": 3
-    },
-    {
-      "id": "808afd56217f",
-      "title": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
-      "url": "https://huggingface.co/papers/2611.20595",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "LLM agents answer questions by calling APIs and trusting the results. An API can fail silently. It ignores part of a re…",
-      "score": 2
-    },
-    {
-      "id": "dd0a9165d607",
-      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
-      "url": "https://huggingface.co/papers/2611.21605",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existi…",
-      "score": 2
-    },
-    {
-      "id": "47fa79e8dcdc",
-      "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
-      "url": "https://huggingface.co/papers/2611.21479",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requi…",
-      "score": 2
+      "score": 4
     },
     {
       "id": "bd5fb061ed68",
@@ -75,6 +43,46 @@
       "url": "https://huggingface.co/papers/2611.17610",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "summary": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This…",
+      "score": 3
+    },
+    {
+      "id": "a629af9ff19e",
+      "title": "Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose",
+      "url": "https://huggingface.co/papers/2611.15348",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "summary": "Electronic nose (eNose) technology offers a portable, non-invasive route for disease screening via exhaled breath analy…",
+      "score": 2
+    },
+    {
+      "id": "2e53b915f0c5",
+      "title": "Weight-Space Programming Doesn't Need Transformers",
+      "url": "https://huggingface.co/papers/2611.22055",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run…",
+      "score": 2
+    },
+    {
+      "id": "efa20063eb1c",
+      "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+      "url": "https://huggingface.co/papers/2611.21099",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact …",
+      "score": 2
+    },
+    {
+      "id": "8a649f6b0096",
+      "title": "Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior",
+      "url": "https://huggingface.co/papers/2611.04395",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "Fine-tuning data can include metadata that predicts the correct answer, such as a reward-model score or a quality label…",
+      "score": 2
+    },
+    {
+      "id": "38be2e5ba47a",
+      "title": "Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment",
+      "url": "https://huggingface.co/papers/2611.20441",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "Abstention, the withholding of a response by a large language model (LLM) under uncertainty or safety risks, is essenti…",
       "score": 1
     },
     {
@@ -83,26 +91,18 @@
       "url": "https://huggingface.co/papers/2611.21412",
       "publishedAt": "2026-11-16T00:00:00.000Z",
       "summary": "High-resolution brain MRI is important for neuroradiological assessment, yet routine clinical protocols often rely on f…",
-      "score": 0
+      "score": 1
     },
     {
-      "id": "a03e81e89980",
-      "title": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
-      "url": "https://huggingface.co/papers/2611.18981",
-      "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "Legal reasoning in civil-law systems is not rule-lookup: the German state examination asks for a structured opinion (Gu…",
-      "score": 0
-    },
-    {
-      "id": "5ee6bb4e691c",
-      "title": "Zuse: A Decision Model for European Languages",
-      "url": "https://huggingface.co/papers/2611.06238",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "summary": "Decision models read a document and return a probability for each of a fixed set of options instead of generating text.…",
+      "id": "afa8b1ee3cbf",
+      "title": "Inside the Trading Loop: Markets, Models, and Moves with LLM Agents",
+      "url": "https://huggingface.co/papers/2611.11657",
+      "publishedAt": "2026-11-08T00:00:00.000Z",
+      "summary": "We built a hybrid multi-agent trading system that combines large language model (LLM) analysts with momentum-based port…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-17T21:22:46.404Z",
+  "fetchedAt": "2026-11-18T03:02:13.264Z",
   "stale": false,
   "error": null
 }

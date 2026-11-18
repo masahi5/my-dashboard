@@ -2,33 +2,6 @@
   "handle": "hardmaru",
   "tweets": [
     {
-      "id": "2122321611906851252",
-      "url": "https://x.com/wolfejosh/status/2122321611906851252",
-      "text": "Beautiful to see. From Lux family co @SakanaAILabs 🇯🇵",
-      "publishedAt": "2026-11-16T13:31:17.000Z",
-      "authorHandle": "wolfejosh",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2122251724564070518",
-      "url": "https://x.com/SakanaAILabs/status/2122251724564070518",
-      "text": "最新の金融資格試験を用いた日本語金融ベンチマーク「JFinBench」を公開\n\nブログ：sakana.ai/jfinbench\n\nSakana AIは、日本の金融分野に強いAIの開発に向けて、LLMの能力を評価するベンチマーク「JFinBench」を構築しました。公認会計士試験、税理士試験、FP技能検定1級など、日本の6つの金融資格 試験の2026年版から作成した全321問で、選択式だけでなく、税額の計算や論述、図面を読み取る問題も含みます。\n\n税制や会計基準は頻繁に改正されるため、金融のベンチマークは最新の問題で更新し続けることが重要です。JFinBenchの構築では、試験PDFの変換をコーディングエージェントが担い、人間が全問を検証する「human-in-the-loop agentic pipeline」を提案しました。目視による検証は約12時間で済み、新しい試験が実施されるたびに少ない労力でベンチマークを更新できます。\n\n最新の12のLLMを評価したところ、主要なベンチマークではプロプライエタリモデルに肩を並べつつあるオープンウェイトモデルも、JFinBenchでは大きな差があり、既存のベンチマークでは見えない差が浮き彫りになりました。失敗の主な原因は計算ではなく、日本の制度に関する知識の不足でした。ターミナルとWebを使える設定では、モデルが法令を調べて知識を補うことでスコアが上がりましたが、差は残りました。\n\n今回の結果は、日本固有の法令や会計基準の知識をモデルにどう獲得させるか、外部の知識を検索・活用するエージェントをどう設計するかが重要であることを示しています。JFinBenchで得た知見を活かしながら、日本の金融分野へのAI実装に向けた研究開発を進めていきます。\n\n論文：arxiv.org/abs/2611.18130\nデータセット：huggingface.co/datasets/Saka…\nGitHub：github.com/SakanaAI/JFinBenc… 🐟",
-      "publishedAt": "2026-11-16T08:53:35.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2122202985661157843",
-      "url": "https://x.com/SakanaAILabs/status/2122202985661157843",
-      "text": "日本政府の公式広報サイト『JapanGov』にて、カラーヌワット・タリン（@tkasasagi）による研究が紹介されました。過去1000年以上にわたって使われた「くずし字」を認識するAIや浮世絵風生成AIなど、日本文化のためのAI開発について語っています。\n\njapan.go.jp/topics/2026/11/a… ⛩️",
-      "publishedAt": "2026-11-16T05:39:55.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
       "id": "2120170682109796511",
       "url": "https://x.com/kenneth0stanley/status/2120170682109796511",
       "text": "Research News! Announcing the 1st release of fundamental AI research from the Open-Endedness Team @LilaSciences: a vision-focused blog + 4 preprints. The blog details a broad research agenda for achieving open-endedness while each paper unveils its own novel research direction.\n\nThe ideas covered in the papers include:\n\n• a novel approach to training for creativity designed to sidestep a newly-identified problem called the “creative paradox,” which means that directly reinforcing creative outputs can sometimes limit reaching full creative potential;\n\n• an investigation of the advantages of seeing the world through fresh eyes by training an LLM that is intentionally naïve in a certain area (in effect presenting less data as a potential advantage);\n\n• a new kind of training regularization technique for SGD called unified factored organizers (UFOs), which is designed to achieve unified factored representation (UFR) as seen in Picbreeder CPPNs;\n\n• and finally a unique study of catastrophic forgetting that shows that networks with UFR (like those from Picbreeder) are intrinsically resistant to catastrophic forgetting. The inset video on this post is a visualization from that catastrophic forgetting work.\n\nThe blog post also includes an interactive “wheel of science” demo.\n\nThe implications of these ideas are broad and diverse, but the fun part is that each one opens up its own new research playground - there is a lot of room for further research here!\n\nMoreover, we hope this release also highlights one other important point about AI today: while it may seem that the road ahead is already paved and all that’s left is to drive mindlessly forward, there actually remains a lot of room for new directions and insights in the pursuit of open-endedness and creativity.\n\nThis research was possible because @LilaSciences appreciates the critical role of open-ended innovation in the pursuit of scientific superintelligence. The advances you see here are part of this much larger company-wide ambition, which includes AI Science Factories and many other unprecedented components. When this engine is fueled by open-endedness, the result will be much more than a step change.\n\nMore advances in open-endedness are coming!\n\nBlog link below 👇",
@@ -90,9 +63,36 @@
       "authorHandle": "SakanaAILabs",
       "likeCount": 0,
       "repost": true
+    },
+    {
+      "id": "2114665154591838685",
+      "url": "https://x.com/nikkei/status/2114665154591838685",
+      "text": "サカナAIが国産AI開発へ　防衛・サイバーに活用、米中依存リスク排除\nnikkei.com/article/DGXZQOUC2…",
+      "publishedAt": "2026-10-26T10:27:16.000Z",
+      "authorHandle": "nikkei",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2114386504177070236",
+      "url": "https://x.com/hardmaru/status/2114386504177070236",
+      "text": "Shigeru Miyamoto (Nintendo) received Japan's prestigious Order of Culture and used the press conference to talk about generative AI, what 'creating' actually means when tools automate execution, and why Kyoto (not Silicon Valley) produced Nintendo's design philosophy.\n\nfamitsu.com/article/202610/9…\n\nThe Order of Culture (文化勲章) is one of Japan's highest honors, previously given to film directors like Akira Kurosawa and writers like Yasunari Kawabata. Japan basically put games in the same category as film and literature.\n\nHe talks about generative AI in a way I have not seen from many working creators. He distinguishes between \"creating\" and \"working.\" Creation is the hard part: composition, direction, deciding what should exist. Work is execution, and work is satisfying in a way that can fool you into thinking you have created something.\n\nHe says even before AI, tools have always automated technique, from typewriters to desktop publishing. What gets exposed when that happens is whether you had vision and intent, or whether you were just good at execution. AI is doing the same thing at a larger scale, and he finds this encouraging.\n\n\"The scary thing is becoming satisfied with the work and mistakenly thinking you created something.\"\n\nPeople told him for decades that he should go outside of Japan and be in a \"global hub\". He stayed in Kyoto anyway. His work became more successful overseas than at home. The reason, he says, is that the person on the other side of the screen is human, regardless of geography. Deep local rootedness kept him anchored in concrete experience rather than trend-following.",
+      "publishedAt": "2026-10-25T16:00:00.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2112061248095564280",
+      "url": "https://x.com/hardmaru/status/2112061248095564280",
+      "text": "Schmidhuber will also be going to Kyoto next month ⛩️",
+      "publishedAt": "2026-10-19T06:00:16.000Z",
+      "authorHandle": "hardmaru",
+      "likeCount": 0,
+      "repost": false
     }
   ],
-  "fetchedAt": "2026-11-17T21:23:17.692Z",
+  "fetchedAt": "2026-11-18T03:03:05.519Z",
   "stale": false,
   "error": null
 }
