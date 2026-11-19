@@ -2,6 +2,15 @@
   "handle": "AnthropicAI",
   "tweets": [
     {
+      "id": "2123196808675405860",
+      "url": "https://x.com/AnthropicAI/status/2123196808675405860",
+      "text": "We’ve priced our IPO at $83 per share, with trading expected to begin on Nasdaq tomorrow.\n\nanthropic.com/news/anthropic…\n\nLegal disclaimer: A registration statement relating to the Class A common stock was declared effective by the Securities and Exchange Commission on November 18, 2026. The offering is being made only by means of a prospectus. Copies of the final prospectus may be obtained, when available, from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com",
+      "publishedAt": "2026-11-18T23:29:00.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2121317227618340990",
       "url": "https://x.com/AnthropicAI/status/2121317227618340990",
       "text": "Safety evaluations are critical for understanding whether a model is ready to deploy, which safeguards to build for it, and where to focus training and research.\n\nOn our Engineering Blog, we offer 10 recommendations for how to design, run and report them.\n\nanthropic.com/research/build…",
@@ -81,18 +90,9 @@
       "authorHandle": "AnthropicAI",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2117710942826123294",
-      "url": "https://x.com/AnthropicAI/status/2117710942826123294",
-      "text": "New Anthropic research: progress on provable inference for large language models.\n\nHere, we introduce FlashProve. Building on established cryptographic techniques, FlashProve allows developers to verify whether a given response came from a given AI model. It’s substantially more efficient than prior open-source methods for doing so.\n\nThese proofs have a range of applications. They can, for instance, make it harder for attackers to hijack a chat, or enable safety evaluators to verify that the model they’re testing is the same one being served to customers.\n\nFor our full write-up, see here: anthropic.com/research/prova…\n\nFurther progress in provable inference will likely be an important part of improving trust in AI deployment. To that end, we're open-sourcing FlashProve’s code, here: github.com/anthropics/FlashP…\n\nWe’re grateful to our collaborators: Alessandro Chiesa, @GiacomoFenzi, @gwberg95, @miranda__christ, Rahul Dalal (rdalal.github.io) and Ben Mayer (@transmissions11).",
-      "publishedAt": "2026-11-03T20:10:08.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-11-18T19:37:42.211Z",
+  "fetchedAt": "2026-11-19T01:30:50.966Z",
   "stale": false,
   "error": null
 }

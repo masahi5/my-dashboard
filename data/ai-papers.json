@@ -6,22 +6,6 @@
   "category": "ai",
   "items": [
     {
-      "id": "bde87172b2cd",
-      "title": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
-      "url": "https://huggingface.co/papers/2611.17048",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful o…",
-      "score": 33
-    },
-    {
-      "id": "7e91e1389aa0",
-      "title": "VideoNexus: Video Perception Beyond the Reasoning Context",
-      "url": "https://huggingface.co/papers/2611.21392",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Understanding long videos requires locating evidence, resolving visual details, and integrating observations into an an…",
-      "score": 18
-    },
-    {
       "id": "7104a96c920a",
       "title": "CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference",
       "url": "https://huggingface.co/papers/2611.22563",
@@ -35,14 +19,14 @@
       "url": "https://huggingface.co/papers/2611.21382",
       "publishedAt": "2026-11-16T00:00:00.000Z",
       "summary": "Visual artifact tasks test agents' ability to translate task specifications and source materials into outputs that meet…",
-      "score": 5
+      "score": 6
     },
     {
-      "id": "270b8db8f8b5",
-      "title": "The Noise Floor of a Quantization Comparison: Engine, restart, batch and kernel drift, measured against 8-bit and 4-bit effects in two decision models",
-      "url": "https://huggingface.co/papers/2611.15671",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "summary": "A quantized model is usually judged by comparing it with its BF16 original, but that comparison changes more than the w…",
+      "id": "eff3cd186418",
+      "title": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
+      "url": "https://huggingface.co/papers/2611.21925",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "Speculative-diffusion decoding uses a small parallel drafter model to generate b draft tokens in one forward pass, whic…",
       "score": 4
     },
     {
@@ -51,7 +35,7 @@
       "url": "https://huggingface.co/papers/2611.21938",
       "publishedAt": "2026-11-16T00:00:00.000Z",
       "summary": "Robot policies trained by imitation generalize poorly outside the environments and objects seen in training. Published …",
-      "score": 3
+      "score": 4
     },
     {
       "id": "a39ae4dcae4f",
@@ -62,20 +46,44 @@
       "score": 3
     },
     {
-      "id": "eff3cd186418",
-      "title": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
-      "url": "https://huggingface.co/papers/2611.21925",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Speculative-diffusion decoding uses a small parallel drafter model to generate b draft tokens in one forward pass, whic…",
-      "score": 2
-    },
-    {
       "id": "f2293397e89a",
       "title": "AuXSpec: Learning to Autoformalize Program Specifications via Executable Postconditions",
       "url": "https://huggingface.co/papers/2611.21421",
       "publishedAt": "2026-11-16T00:00:00.000Z",
       "summary": "Formal specifications define intended program behavior and underpin verification, but writing them in theorem provers s…",
+      "score": 3
+    },
+    {
+      "id": "63dfb18913f9",
+      "title": "The novelty exposed: ablation, reproducibility and transparency in 40 technical reports of open-weight large language models (LLMs)",
+      "url": "https://huggingface.co/papers/2611.20003",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "summary": "In 2025 alone, 48 new large language model (LLM) architectures were added to the Hugging Face transformers library, and…",
       "score": 2
+    },
+    {
+      "id": "ba9885ef02d3",
+      "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+      "url": "https://huggingface.co/papers/2611.18553",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. Th…",
+      "score": 2
+    },
+    {
+      "id": "817295174a62",
+      "title": "Attention at Absolute Zero",
+      "url": "https://huggingface.co/papers/2611.11937",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "Attention scores candidate supports of an answer, which we call witnesses, and reads the scores at a temperature. We bu…",
+      "score": 1
+    },
+    {
+      "id": "697e2373d3ea",
+      "title": "CONGA: Compiling Gaussian Fiber Geometry for Structured Bayesian Inference",
+      "url": "https://huggingface.co/papers/2611.20995",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "In structured Bayesian models, a large latent block is often Gaussian conditional on a smaller set of parameters, yet g…",
+      "score": 1
     },
     {
       "id": "6db9868d7433",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-11-17T00:00:00.000Z",
       "summary": "Visual foundation models are central to physical intelligence, yet their development remains constrained by fragmented …",
       "score": 1
-    },
-    {
-      "id": "bdfec11db0e2",
-      "title": "PanDWM: Panoramic 4D Driving World Models",
-      "url": "https://huggingface.co/papers/2611.19857",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "summary": "Driving world models usually generate videos from six pinhole cameras with separate optical centres and small overlaps,…",
-      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-18T19:36:39.482Z",
+  "fetchedAt": "2026-11-19T01:30:00.951Z",
   "stale": false,
   "error": null
 }
