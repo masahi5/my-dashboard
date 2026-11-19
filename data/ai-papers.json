@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "7104a96c920a",
-      "title": "CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference",
-      "url": "https://huggingface.co/papers/2611.22563",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "CAD practitioners often work with proprietary parts that they are unwilling to share with external services. For indivi…",
-      "score": 9
+      "id": "499ff1b186d6",
+      "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+      "url": "https://huggingface.co/papers/2611.24869",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within …",
+      "score": 15
     },
     {
-      "id": "0c4ae342ade5",
-      "title": "VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications",
-      "url": "https://huggingface.co/papers/2611.21382",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Visual artifact tasks test agents' ability to translate task specifications and source materials into outputs that meet…",
-      "score": 6
+      "id": "56e2faa01771",
+      "title": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
+      "url": "https://huggingface.co/papers/2611.24654",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its …",
+      "score": 8
     },
     {
-      "id": "eff3cd186418",
-      "title": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
-      "url": "https://huggingface.co/papers/2611.21925",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Speculative-diffusion decoding uses a small parallel drafter model to generate b draft tokens in one forward pass, whic…",
+      "id": "2163c55bb33e",
+      "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+      "url": "https://huggingface.co/papers/2611.24789",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling ac…",
+      "score": 7
+    },
+    {
+      "id": "f669f6d48a1a",
+      "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
+      "url": "https://huggingface.co/papers/2611.24651",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training…",
       "score": 4
     },
     {
-      "id": "6feb20bc25f3",
-      "title": "HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning",
-      "url": "https://huggingface.co/papers/2611.21938",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Robot policies trained by imitation generalize poorly outside the environments and objects seen in training. Published …",
-      "score": 4
-    },
-    {
-      "id": "a39ae4dcae4f",
-      "title": "MillBill: A Machining Agent with Geometric Feedback",
-      "url": "https://huggingface.co/papers/2611.22565",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "Turning a CAD model into a machining program requires both process knowledge and geometric precision. Language models c…",
+      "id": "bd6ee1297450",
+      "title": "Movie2Game-Bench: Holistic Evaluation of Film-to-Game Adaptation Beyond Playability",
+      "url": "https://huggingface.co/papers/2611.24669",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Adapting a film into a game requires selecting source elements and translating them into player actions, rules, and fee…",
       "score": 3
     },
     {
-      "id": "f2293397e89a",
-      "title": "AuXSpec: Learning to Autoformalize Program Specifications via Executable Postconditions",
-      "url": "https://huggingface.co/papers/2611.21421",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Formal specifications define intended program behavior and underpin verification, but writing them in theorem provers s…",
-      "score": 3
-    },
-    {
-      "id": "63dfb18913f9",
-      "title": "The novelty exposed: ablation, reproducibility and transparency in 40 technical reports of open-weight large language models (LLMs)",
-      "url": "https://huggingface.co/papers/2611.20003",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "summary": "In 2025 alone, 48 new large language model (LLM) architectures were added to the Hugging Face transformers library, and…",
+      "id": "eeee3652f84c",
+      "title": "FVScore: Specification-Driven Neuro-Symbolic Video Evaluation",
+      "url": "https://huggingface.co/papers/2611.22673",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "We introduce Faithfulness Video Score (FVSCORE), a neuro-symbolic framework for specification-driven video generation e…",
       "score": 2
     },
     {
-      "id": "ba9885ef02d3",
-      "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-      "url": "https://huggingface.co/papers/2611.18553",
-      "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. Th…",
+      "id": "98a0eadf3d48",
+      "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+      "url": "https://huggingface.co/papers/2611.24941",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguou…",
       "score": 2
     },
     {
-      "id": "817295174a62",
-      "title": "Attention at Absolute Zero",
-      "url": "https://huggingface.co/papers/2611.11937",
+      "id": "b9f6dbec766a",
+      "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+      "url": "https://huggingface.co/papers/2611.24362",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt inj…",
+      "score": 2
+    },
+    {
+      "id": "7e8a96ec342b",
+      "title": "NexSight: Verifiable Tasks for Fine-Grained Agentic Long-Video Understanding",
+      "url": "https://huggingface.co/papers/2611.22790",
       "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "Attention scores candidate supports of an answer, which we call witnesses, and reads the scores at a temperature. We bu…",
+      "summary": "Fine-grained questions about long videos ask how many times an action occurs, in what order events unfold, or exactly w…",
       "score": 1
     },
     {
-      "id": "697e2373d3ea",
-      "title": "CONGA: Compiling Gaussian Fiber Geometry for Structured Bayesian Inference",
-      "url": "https://huggingface.co/papers/2611.20995",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "In structured Bayesian models, a large latent block is often Gaussian conditional on a smaller set of parameters, yet g…",
-      "score": 1
+      "id": "b208fb3a03a0",
+      "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+      "url": "https://huggingface.co/papers/2611.23236",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "summary": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak s…",
+      "score": 0
     },
     {
-      "id": "6db9868d7433",
-      "title": "Unreasonable Confidence from Simulator Misspecification: Directional Robustness on the SPEED+ Sim-to-Real Benchmark",
-      "url": "https://huggingface.co/papers/2611.20321",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "summary": "Vision-based navigation systems for orbit must be trained almost entirely on synthetic imagery, because real labelled i…",
-      "score": 1
+      "id": "d32fcc5c3e65",
+      "title": "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
+      "url": "https://huggingface.co/papers/2611.23751",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when …",
+      "score": 0
     },
     {
-      "id": "01c08fe38e2a",
-      "title": "GameRealm: Grounding Visual Learning in Interactive Games",
-      "url": "https://huggingface.co/papers/2611.23140",
+      "id": "815af3854e3a",
+      "title": "Chorus: Shared N-gram Embeddings with Layer-wise Adaptation",
+      "url": "https://huggingface.co/papers/2611.23386",
       "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "Visual foundation models are central to physical intelligence, yet their development remains constrained by fragmented …",
-      "score": 1
+      "summary": "Language models can gain capacity at little computational cost from n-gram embedding tables: large tables of learned ve…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-19T01:30:00.951Z",
+  "fetchedAt": "2026-11-19T09:24:01.000Z",
   "stale": false,
   "error": null
 }
