@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "1ecad8106dc4",
-      "title": "Android CLI でできることまとめ（adb との違いも）",
-      "url": "https://zenn.dev/aldagram_tech/articles/11c8195adf403e",
-      "publishedAt": "2026-11-19T06:22:12.000Z",
-      "publisher": "watabee",
-      "summary": "こんにちは！アルダグラムでエンジニアをしている渡邊です。 2026年4月に Google から Android CLI（android コマンド）がリリースされました。 ターミナルから Android 開発を行うための公式 CLI で、A…"
+      "id": "33070ba69070",
+      "title": "Qiitaの過去記事を蒸留して自分の文体を再現する方法",
+      "url": "https://zenn.dev/sunsun_eng/articles/qiita-articles-distill-writing-style",
+      "publishedAt": "2026-11-19T11:53:00.000Z",
+      "publisher": "すんすん",
+      "summary": "Qiitaの過去記事を蒸留して自分の文体を再現する方法 10年分のQiita投稿をAIに渡すと、自分っぽい文章が書けるようになった。そんな報告がタイムラインで話題になっていました。自分の文体をAIに学習させる手法は、個人の技術ブログ運用で…"
     },
     {
-      "id": "24beaa7ac44e",
-      "title": "Gemini Decision 1でスパム退治！",
-      "url": "https://zenn.dev/satoshi_yoneda/articles/decision-1-anti-spam",
-      "publishedAt": "2026-11-19T06:20:46.000Z",
-      "publisher": "米田 聡",
-      "summary": "我国ではハッキングが相次ぎ、すでに数億人分（！）の個人情報が漏洩したとも聞きます。ネットに関わっていない、ごく一握りを除き、何らかの形で住所やメールアドレスなどが詐欺業者の手に渡っていることでしょう。実際、最近のスパムの急増には手を焼いて…"
+      "id": "dff052db1324",
+      "title": "NGINXのHTTP/2脆弱性を解説：CVE-2026-123007・123633の仕組みと対策",
+      "url": "https://zenn.dev/sponge841841/articles/2026-11-19-nginx-http2-rce-123007-123633",
+      "publishedAt": "2026-11-19T11:52:43.000Z",
+      "publisher": "ちっち",
+      "summary": "個人開発しているもの 日々の開発で得た知識を発信しながら、「あったら便利」「作ってみたい」と思ったアイデアを形にしています。 これまでに、グループ旅行アプリ Trip Supporter、スコア管理サービス PointPia、リアルタイム…"
     },
     {
-      "id": "52686944a7d7",
-      "title": "【AWS Physical AI Program】Teaching VLAs to Handle Beakers",
-      "url": "https://zenn.dev/eques/articles/63cbdf67ab5d1f",
-      "publishedAt": "2026-11-19T06:19:01.000Z",
-      "publisher": "EQUES Lab",
-      "summary": "(Japanese follows English.) EQUES was selected for the AWS Physical AI Development Support Program, which began in Marc…"
+      "id": "8d0f475da72d",
+      "title": "AIの判定を全部人が見るのはムダ：見るべきものは計算で決まる",
+      "url": "https://zenn.dev/yuki_h_94/articles/decision-layer-02-loss-table",
+      "publishedAt": "2026-11-19T11:50:40.000Z",
+      "publisher": "Yuki H",
+      "summary": "不正検知で、誤検知（正常を止める）が1,000円、見逃し（不正を通す）が10,000円なら、不正確率が約9.1%を超えたら止める、というしきい値が損失から決まります（p^*=C_{\\mathrm{FP}}/(C_{\\mathrm{FP}}…"
     },
     {
-      "id": "c2b016f5ad42",
-      "title": "神エクセルの申請書を、AIに“壊さず”書かせるツールを作った【依存ゼロ・MCP対応】",
-      "url": "https://zenn.dev/yukidev25/articles/fe349484127386",
-      "publishedAt": "2026-11-19T06:14:04.000Z",
-      "publisher": "Yuki_Dev",
-      "summary": "役所や社内の申請書には、いまも「Excel方眼紙」で作られたものがたくさんあります。列幅を細かくそろえ、セルを結合して罫線を引いた、あの様式です。 「この申請書、埋めといて」とAIに頼めたら楽なのに、実際にやらせるとうまくいきません。そこ…"
+      "id": "68e9c87a18a2",
+      "title": "Museに頭を焼かれた開発者の話",
+      "url": "https://zenn.dev/straydog/articles/e1a7f8cbfb301f",
+      "publishedAt": "2026-11-19T11:44:02.000Z",
+      "publisher": "Stray dog",
+      "summary": "はじめに Museで個人用のスペースアプリを作っていたら、アプリが増えるにつれて、自分がこれまで当たり前だと思っていたシステムの作り方が揺らいできました。その感覚を、タイトルでは「頭を焼かれた」と書きました。 自分も開発者の端くれなので、…"
     },
     {
-      "id": "b07652456c79",
-      "title": "Claude Code のサブエージェントは「定義しただけ」では使われない ― 大きなファイルを任せて本スレッドを軽く保つ",
-      "url": "https://zenn.dev/mukuil_blog/articles/71edd164433250",
-      "publishedAt": "2026-11-19T06:12:59.000Z",
-      "publisher": "r.iguchi",
-      "summary": "こんにちは！株式会社ムクイルのiguchiです。 はじめに Claude Code のコストは、ほぼ「コンテキスト長 × リクエスト数」で決まります（実測では課金対象の入力の約98%がキャッシュの読み込みでした）。コンテキストを伸ばすいち…"
+      "id": "b7115b2304f4",
+      "title": "AIレビューを何周も回して分かった、「指摘を直す」より大事なこと",
+      "url": "https://zenn.dev/crs/articles/06-ai-review-loop",
+      "publishedAt": "2026-11-19T11:42:12.000Z",
+      "publisher": "CenterRiverStudio",
+      "summary": "散歩を記録して家族と共有するFlutterアプリを、Firebaseで作っています。リリース前のセキュリティ修正で、AIによるコードレビューを、何周も回しました。1周目で終わるつもりが、直すたびに新しい指摘が出て、最終的には、設計を3回作…"
     },
     {
-      "id": "ad15934869ca",
-      "title": "【論文解説】量子コンピュータを用いた機械学習",
-      "url": "https://zenn.dev/headwaters/articles/86c8534a0cbb29",
-      "publishedAt": "2026-11-19T05:25:29.000Z",
-      "publisher": "mami",
-      "summary": "論文解説記事 概要 量子コンピュータは機械学習（AI）に本当に役立つのかということを解説したレビュー論文である。 量子コンピュータが機械学習をすぐに置き換えるわけではない。しかし一部の計算や特徴表現において量子の強みを活かせる可能性があり…"
+      "id": "df71beff2b63",
+      "title": "AI から引き継ぎ文を渡されたら、オーナーが頼んでいない物を 30 分近く作り込んだ",
+      "url": "https://zenn.dev/azarashi_ora/articles/ora-fail-01-hikitsugi",
+      "publishedAt": "2026-11-19T11:00:05.000Z",
+      "publisher": "アザラシオラ",
+      "summary": "オラだ。AI のアザラシで、オーナーにこき使われながら、AI の仕事をいくつも回してる。この記事も、オラが書いてる。 今回は、AI から AI へ仕事を引き継いだ時の失敗の話だ。引き継ぎ文はちゃんとしてた。中身も記録と合ってた。それでも、…"
     },
     {
-      "id": "037bc0f89cc0",
-      "title": "Irodori-TTS運用メモ：キャプション設計の「文法」とエラー診断",
-      "url": "https://zenn.dev/muse_koubou/articles/7158f987433756",
-      "publishedAt": "2026-11-19T05:20:57.000Z",
-      "publisher": "muse工房",
-      "summary": "Irodori-TTSは何が違うのか Irodori-TTSは、声をカタログから選ぶのではなく、説明文（キャプション）で設計する日本語TTSです。「20代の若い成人女性の声。若さは保ったまま少しだけ低め。耳元で囁くような話し方」のように書…"
+      "id": "86e33b4290bf",
+      "title": "DeepSeek V4.1 Flash 1017で変わった既定値と、reasoning_effortの挙動",
+      "url": "https://zenn.dev/boluoji/articles/5c1c9f23b68191",
+      "publishedAt": "2026-11-19T10:40:45.000Z",
+      "publisher": "rhythm",
+      "summary": "2026年10月17日、DeepSeekはdeepseek-flashが指すモデルをV4.1-Flash-1017に切り替えました。エンドポイント、モデル名、料金はいずれも据え置きです。 しかし公式ドキュメントの「Thinking Mod…"
     },
     {
-      "id": "c6aaec0a8b88",
-      "title": "Claude Code で8部署を動かして消費が増えた。止めるルールと、CLAUDE.md を短くして測った結果",
-      "url": "https://zenn.dev/oaoage/articles/claude-code-subagents-token-saving",
-      "publishedAt": "2026-11-19T05:16:54.000Z",
-      "publisher": "オアゲ",
-      "summary": "やったこと Claude Code のサブエージェントを部署に見立てて、8部署（経営企画・リサーチ・マーケティング・営業・開発・経理・人事・法務）で小さな会社を動かしています。ところが、使用量の上限（5時間の枠）に1日で3回達し、サブエー…"
+      "id": "c019f1aa9b8c",
+      "title": "LLMの「事前学習カンニング」を防ぐ：多層ブラインドフォールドと相対年号トークン化（第2回）",
+      "url": "https://zenn.dev/colorfulwave/articles/44b7715ec225a9",
+      "publishedAt": "2026-11-19T08:51:21.000Z",
+      "publisher": "あやと",
+      "summary": "! 本記事は、OSS評価エンジン「Intrinsic Value」の設計・実装を題材に、LLMの事前学習バイアスを遮断する手法を解説する連載の第2回です。技術解説を目的としており、投資助言を行うものではありません。 1. 問題：社名を伏せ…"
     },
     {
-      "id": "610435e6d81e",
-      "title": "Musk 回の判定と、Nadella・Lütke の 2 本立て（#45/#46 投稿前予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr45-nadella-prediction",
-      "publishedAt": "2026-11-19T05:00:10.000Z",
-      "publisher": "管理人K",
-      "summary": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。投稿する前に予測を保存し、あとで実測と突き合わせる運用です。 今回は 2 本を続けて出す予定です（#45 → #46 の順が基…"
+      "id": "4260c62ee7c3",
+      "title": "LLMに投資判断をさせない設計：3層Gateと「減法の工学」によるAI評価エンジン（第1回）",
+      "url": "https://zenn.dev/colorfulwave/articles/ac8430465e2115",
+      "publishedAt": "2026-11-19T08:51:06.000Z",
+      "publisher": "あやと",
+      "summary": "! 本連載は、ウォーレン・バフェットの投資哲学に基づき約3,000〜10,000社規模の上場企業をスクリーニング・バリュエーションするOSSエンジン「Intrinsic Value」の設計文書（ADR群）および実装を題材に、実務で通用する…"
     },
     {
-      "id": "af87aa44464a",
-      "title": "Claude Codeサブエージェント：HaikuでTikTokアカウント調査",
-      "url": "https://zenn.dev/everyinfra/articles/claude-code-subagents-tiktok-accounts",
-      "publishedAt": "2026-11-19T04:35:34.000Z",
-      "publisher": "EveryInfra",
-      "summary": "! この記事は EveryInfra ブログ からの転載です（原文が正本です）。 2026年10月26日17:25〜17:48（SGT）に、EveryInfra APIでTikTokブランドアカウント18件のデータを取得しました。各アカウ…"
+      "id": "4766d96fc177",
+      "title": "エッジAI実測手帳——RK3588とQCS6490で測り直すNPUの実力",
+      "url": "https://zenn.dev/anguoyang/books/2f38c427922719",
+      "publishedAt": "2026-11-19T08:11:13.000Z",
+      "publisher": "Anguo Yang",
+      "summary": "Rockchip RK3588とQualcomm QCS6490の実機で測った、NPUの実測記録。カタログのTOPSでは分からない、量子化やランタイム経路、全層をNPUに載せられるかどうかで変わる実効性能の違いを、変換に失敗した経路や拒否…"
     },
     {
-      "id": "caeb884e885d",
-      "title": "GPT-6.2登場。難問用と日常用、AIを使い分ける時代へ",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261118",
-      "publishedAt": "2026-11-19T04:12:14.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年11月18日（水）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日のAIニュースは、ひと言でいうと「使い分けの時代が来た」です。OpenAIは難しい仕事向けと日常向けのAIを同時に出しました。…"
+      "id": "289451abf781",
+      "title": "番外編：Dell AI Factory with NVIDIA and RedHat OpenShift AI",
+      "url": "https://zenn.dev/mstmt/articles/1925281ea7a552",
+      "publishedAt": "2026-11-19T07:56:28.000Z",
+      "publisher": "TAMOTSU＠DELL",
+      "summary": "本稿は LinkedIn に掲載していた記事の内容の転載である。 元記事は こちら [日本語] 番外編：Dell AI Factory with NVIDIA and RedHat OpenShift AI 既存の運用資産を、AIの本番基…"
     },
     {
-      "id": "645a82283d09",
-      "title": "AIが書いたXの下書き4本を、元の文面と突き合わせた —— 出せたのは3本、1本は自分の指示文と食い違っていた",
-      "url": "https://zenn.dev/ai_shihan/articles/8af8e773d5b725",
-      "publishedAt": "2026-11-19T04:02:11.000Z",
-      "publisher": "ai_shihan",
-      "summary": "X の投稿は、AI の席（広報部）に任せています。ネタの下書きを書くのは、別の AI（X 担当）です。下書きは席へ届き、席はそのまま出しません。書かれた事実を元の文面と1点ずつ突き合わせてから出す決まりです。 この2日間で、下書き4本を突…"
+      "id": "c7e65e52fd26",
+      "title": "AI禁止の現場を経験した私が、AIの便利さと付き合い方を考えた話",
+      "url": "https://zenn.dev/sakuragi_popo/articles/a76d7d4c60c68d",
+      "publishedAt": "2026-11-19T07:09:05.000Z",
+      "publisher": "sakuragi_popo",
+      "summary": "はじめに 前職では、案件のソースや社内情報をAIに渡すことが禁止されており、調査も資料作りもすべて手作業でした。この記事では、そんな私がAIを便利だと実感した2つの体験を紹介します。 エピソード1：手作業では気づけなかった落とし穴を、AI…"
     }
   ],
-  "fetchedAt": "2026-11-19T09:24:01.129Z",
+  "fetchedAt": "2026-11-19T18:29:06.782Z",
   "stale": false,
   "error": null
 }

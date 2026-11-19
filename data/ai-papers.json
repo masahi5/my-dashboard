@@ -6,84 +6,52 @@
   "category": "ai",
   "items": [
     {
-      "id": "499ff1b186d6",
-      "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
-      "url": "https://huggingface.co/papers/2611.24869",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within …",
-      "score": 15
-    },
-    {
       "id": "56e2faa01771",
       "title": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
       "url": "https://huggingface.co/papers/2611.24654",
       "publishedAt": "2026-11-18T00:00:00.000Z",
       "summary": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its …",
-      "score": 8
+      "score": 22
     },
     {
-      "id": "2163c55bb33e",
-      "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
-      "url": "https://huggingface.co/papers/2611.24789",
+      "id": "203cbd89fbaf",
+      "title": "LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning",
+      "url": "https://huggingface.co/papers/2611.17600",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Multimodal tabular learning involves classification and regression on tables combining structured numerical and categor…",
+      "score": 20
+    },
+    {
+      "id": "c91953317db1",
+      "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
+      "url": "https://huggingface.co/papers/2611.24408",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling ac…",
+      "summary": "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene t…",
+      "score": 12
+    },
+    {
+      "id": "f2e4a069f1c3",
+      "title": "BLIP-Live: Balancing Timeliness & Firing Precision in Proactive Streaming Video Agents",
+      "url": "https://huggingface.co/papers/2611.21553",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "Streaming video understanding is becoming increasingly important for real-world interactive systems. Such systems must …",
       "score": 7
     },
     {
-      "id": "f669f6d48a1a",
-      "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
-      "url": "https://huggingface.co/papers/2611.24651",
+      "id": "299a8fa4644d",
+      "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
+      "url": "https://huggingface.co/papers/2611.23257",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "summary": "Large language models have reduced the effort to generate code for interactive software with graphical user interfaces …",
+      "score": 7
+    },
+    {
+      "id": "c8b1995dfacd",
+      "title": "WaveView: The Novel View Is in the Noise",
+      "url": "https://huggingface.co/papers/2611.23994",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training…",
-      "score": 4
-    },
-    {
-      "id": "bd6ee1297450",
-      "title": "Movie2Game-Bench: Holistic Evaluation of Film-to-Game Adaptation Beyond Playability",
-      "url": "https://huggingface.co/papers/2611.24669",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Adapting a film into a game requires selecting source elements and translating them into player actions, rules, and fee…",
-      "score": 3
-    },
-    {
-      "id": "eeee3652f84c",
-      "title": "FVScore: Specification-Driven Neuro-Symbolic Video Evaluation",
-      "url": "https://huggingface.co/papers/2611.22673",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "We introduce Faithfulness Video Score (FVSCORE), a neuro-symbolic framework for specification-driven video generation e…",
-      "score": 2
-    },
-    {
-      "id": "98a0eadf3d48",
-      "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
-      "url": "https://huggingface.co/papers/2611.24941",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguou…",
-      "score": 2
-    },
-    {
-      "id": "b9f6dbec766a",
-      "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
-      "url": "https://huggingface.co/papers/2611.24362",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt inj…",
-      "score": 2
-    },
-    {
-      "id": "7e8a96ec342b",
-      "title": "NexSight: Verifiable Tasks for Fine-Grained Agentic Long-Video Understanding",
-      "url": "https://huggingface.co/papers/2611.22790",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "Fine-grained questions about long videos ask how many times an action occurs, in what order events unfold, or exactly w…",
-      "score": 1
-    },
-    {
-      "id": "b208fb3a03a0",
-      "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
-      "url": "https://huggingface.co/papers/2611.23236",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "summary": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak s…",
-      "score": 0
+      "summary": "Generative novel view synthesis (NVS) employs a diffusion model to render a static or dynamic scene from a target camer…",
+      "score": 7
     },
     {
       "id": "d32fcc5c3e65",
@@ -91,18 +59,50 @@
       "url": "https://huggingface.co/papers/2611.23751",
       "publishedAt": "2026-11-18T00:00:00.000Z",
       "summary": "Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when …",
-      "score": 0
+      "score": 5
     },
     {
-      "id": "815af3854e3a",
-      "title": "Chorus: Shared N-gram Embeddings with Layer-wise Adaptation",
-      "url": "https://huggingface.co/papers/2611.23386",
+      "id": "8478f3813364",
+      "title": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data",
+      "url": "https://huggingface.co/papers/2611.16933",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "summary": "Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one ch…",
+      "score": 3
+    },
+    {
+      "id": "7d490a26ac4a",
+      "title": "BiCAT: Bimanual Coordination Action Tokenization",
+      "url": "https://huggingface.co/papers/2611.23499",
       "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "Language models can gain capacity at little computational cost from n-gram embedding tables: large tables of learned ve…",
-      "score": 0
+      "summary": "Autoregressive vision-language-action (VLA) models predict discrete action tokens with the next-token objective of thei…",
+      "score": 3
+    },
+    {
+      "id": "ebeab47a3d01",
+      "title": "RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation",
+      "url": "https://huggingface.co/papers/2611.22382",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "Large language models (LLMs) have renewed interest in Page Stream Segmentation (PSS), splitting a multi-page file into …",
+      "score": 2
+    },
+    {
+      "id": "ce9c798924f1",
+      "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
+      "url": "https://huggingface.co/papers/2611.24161",
+      "publishedAt": "2026-11-18T10:05:18.000Z",
+      "summary": "Vision-Language Models increasingly rely on textual reasoning to solve advanced multimodal tasks. Despite its effective…",
+      "score": 2
+    },
+    {
+      "id": "b208fb3a03a0",
+      "title": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+      "url": "https://huggingface.co/papers/2611.23236",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "summary": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak s…",
+      "score": 2
     }
   ],
-  "fetchedAt": "2026-11-19T09:24:01.000Z",
+  "fetchedAt": "2026-11-19T18:29:06.406Z",
   "stale": false,
   "error": null
 }
