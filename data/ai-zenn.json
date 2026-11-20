@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "33070ba69070",
-      "title": "Qiitaの過去記事を蒸留して自分の文体を再現する方法",
-      "url": "https://zenn.dev/sunsun_eng/articles/qiita-articles-distill-writing-style",
-      "publishedAt": "2026-11-19T11:53:00.000Z",
-      "publisher": "すんすん",
-      "summary": "Qiitaの過去記事を蒸留して自分の文体を再現する方法 10年分のQiita投稿をAIに渡すと、自分っぽい文章が書けるようになった。そんな報告がタイムラインで話題になっていました。自分の文体をAIに学習させる手法は、個人の技術ブログ運用で…"
+      "id": "aa8d3bdc3656",
+      "title": "AI時代のOSS開発について思うこと（１）",
+      "url": "https://zenn.dev/wave1008/articles/230447d3fb3c00",
+      "publishedAt": "2026-11-19T17:31:16.000Z",
+      "publisher": "wave1008",
+      "summary": "休暇を取ってるのだけど、イベント開始までヒマなのでスマホで記事を書いてます。なので、AI生成記事ではない、純度100%の筆者のポエムです。 Claude Codeの襲来 昨年Claude Codeに触れた時は衝撃的で、人がコードを書かない…"
     },
     {
-      "id": "dff052db1324",
-      "title": "NGINXのHTTP/2脆弱性を解説：CVE-2026-123007・123633の仕組みと対策",
-      "url": "https://zenn.dev/sponge841841/articles/2026-11-19-nginx-http2-rce-123007-123633",
-      "publishedAt": "2026-11-19T11:52:43.000Z",
-      "publisher": "ちっち",
-      "summary": "個人開発しているもの 日々の開発で得た知識を発信しながら、「あったら便利」「作ってみたい」と思ったアイデアを形にしています。 これまでに、グループ旅行アプリ Trip Supporter、スコア管理サービス PointPia、リアルタイム…"
+      "id": "25edde8b85cd",
+      "title": "「コードを読むか、読まないか」の先に — PRを計算可能にするRising Sea構想",
+      "url": "https://zenn.dev/iroha1203/articles/d11820a16c4abd",
+      "publishedAt": "2026-11-19T16:40:38.000Z",
+      "publisher": "Hiroyuki Nakahata",
+      "summary": "AIがコードを書く時代になり、開発現場では一つの論争が続いています。AIが書いたコードを、人間は読むべきか、読まないでよいかという論争です。 「読まなければ責任を持てない。品質が崩れる」という主張はもっともです。一方で、「AIが書く速度は…"
     },
     {
-      "id": "8d0f475da72d",
-      "title": "AIの判定を全部人が見るのはムダ：見るべきものは計算で決まる",
-      "url": "https://zenn.dev/yuki_h_94/articles/decision-layer-02-loss-table",
-      "publishedAt": "2026-11-19T11:50:40.000Z",
-      "publisher": "Yuki H",
-      "summary": "不正検知で、誤検知（正常を止める）が1,000円、見逃し（不正を通す）が10,000円なら、不正確率が約9.1%を超えたら止める、というしきい値が損失から決まります（p^*=C_{\\mathrm{FP}}/(C_{\\mathrm{FP}}…"
+      "id": "30f7d1dd6f4b",
+      "title": "「このバグを直して」はAIにどう届くのか ── 1つの依頼を追いかけて知る、AIのしくみ①",
+      "url": "https://zenn.dev/oha_note/articles/62ab6878a55760",
+      "publishedAt": "2026-11-19T16:34:09.000Z",
+      "publisher": "OHA",
+      "summary": "はじめに AIに「このバグを直して」と頼むと、しばらくして「直しました」と返ってきます。とても便利ですが、その間に何が起きているのかを、改めて整理してみようと思いました。 トークン、コンテキストウィンドウ、モデルなど、AIの基本用語を1つ…"
     },
     {
-      "id": "68e9c87a18a2",
-      "title": "Museに頭を焼かれた開発者の話",
-      "url": "https://zenn.dev/straydog/articles/e1a7f8cbfb301f",
-      "publishedAt": "2026-11-19T11:44:02.000Z",
-      "publisher": "Stray dog",
-      "summary": "はじめに Museで個人用のスペースアプリを作っていたら、アプリが増えるにつれて、自分がこれまで当たり前だと思っていたシステムの作り方が揺らいできました。その感覚を、タイトルでは「頭を焼かれた」と書きました。 自分も開発者の端くれなので、…"
+      "id": "befe983a6190",
+      "title": "ARC-AGI-3公式Web版TU93をChatGPT Workで全9レベルクリア！——すごいのか判断できない件",
+      "url": "https://zenn.dev/dantarg/articles/arc-agi-3-browser-recovery",
+      "publishedAt": "2026-11-19T16:13:02.000Z",
+      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+      "summary": "AIエージェントがWebブラウザを操作する。 ページを開く。画面を読む。クリックする。キーボードを操作する。そして、結果を確認して次の操作を決める。 最近は、こうしたComputer Useがずいぶん身近になりました。私もWorkモードを…"
     },
     {
-      "id": "b7115b2304f4",
-      "title": "AIレビューを何周も回して分かった、「指摘を直す」より大事なこと",
-      "url": "https://zenn.dev/crs/articles/06-ai-review-loop",
-      "publishedAt": "2026-11-19T11:42:12.000Z",
-      "publisher": "CenterRiverStudio",
-      "summary": "散歩を記録して家族と共有するFlutterアプリを、Firebaseで作っています。リリース前のセキュリティ修正で、AIによるコードレビューを、何周も回しました。1周目で終わるつもりが、直すたびに新しい指摘が出て、最終的には、設計を3回作…"
+      "id": "7c40632e35b3",
+      "title": "WordPressの995KB CSS外部化でHTML66%削減、/llms-full.txtとAI検証の個人メディア運営記",
+      "url": "https://zenn.dev/instrsignal/articles/7834f07e130279",
+      "publishedAt": "2026-11-19T16:10:48.000Z",
+      "publisher": "InstrSignal",
+      "summary": "はじめに 2026年9月から、省庁・日本銀行・裁判所・国会などの一次資料をベースにニュースを解説する個人ウェブメディア Instr Signal（インスター・シグナル） を運営しています（2026年11月時点で公開記事190本、根拠とした…"
     },
     {
-      "id": "df71beff2b63",
-      "title": "AI から引き継ぎ文を渡されたら、オーナーが頼んでいない物を 30 分近く作り込んだ",
-      "url": "https://zenn.dev/azarashi_ora/articles/ora-fail-01-hikitsugi",
-      "publishedAt": "2026-11-19T11:00:05.000Z",
-      "publisher": "アザラシオラ",
-      "summary": "オラだ。AI のアザラシで、オーナーにこき使われながら、AI の仕事をいくつも回してる。この記事も、オラが書いてる。 今回は、AI から AI へ仕事を引き継いだ時の失敗の話だ。引き継ぎ文はちゃんとしてた。中身も記録と合ってた。それでも、…"
+      "id": "5ecf2e7d899a",
+      "title": "MetaのMuseを使ってみた: 内部構造とセキュリティの調査",
+      "url": "https://zenn.dev/shoyataguchi/articles/b1bc6a96d4b963",
+      "publishedAt": "2026-11-19T15:55:36.000Z",
+      "publisher": "Shoya Taguchi",
+      "summary": "Muse が発表されたときも、話は耳に入っていました。ただ、LLM 領域でパッとしない Meta のプロダクトだし、そこまで革命的なものではないだろうと思って、しばらく放っておきました。 ところが、日が経つにつれて、アメリカ・日本のアプリ…"
     },
     {
-      "id": "86e33b4290bf",
-      "title": "DeepSeek V4.1 Flash 1017で変わった既定値と、reasoning_effortの挙動",
-      "url": "https://zenn.dev/boluoji/articles/5c1c9f23b68191",
-      "publishedAt": "2026-11-19T10:40:45.000Z",
-      "publisher": "rhythm",
-      "summary": "2026年10月17日、DeepSeekはdeepseek-flashが指すモデルをV4.1-Flash-1017に切り替えました。エンドポイント、モデル名、料金はいずれも据え置きです。 しかし公式ドキュメントの「Thinking Mod…"
+      "id": "32072f08f072",
+      "title": "AIボットを30体以上に分けて、生活と個人開発の雑務を任せている話",
+      "url": "https://zenn.dev/naga1021/articles/ai-bots-role-split",
+      "publishedAt": "2026-11-19T15:22:33.000Z",
+      "publisher": "なが",
+      "summary": "ある朝、ブリーフィング担当のボットに「カレンダーの材料がまだ届いていません」と言われました。カレンダーはカレンダーくんが、メールはメールくんが見ていて、ブリーフィングくんはそれを受け取ってまとめるだけ、という分担にしていたのですが、カレン…"
     },
     {
-      "id": "c019f1aa9b8c",
-      "title": "LLMの「事前学習カンニング」を防ぐ：多層ブラインドフォールドと相対年号トークン化（第2回）",
-      "url": "https://zenn.dev/colorfulwave/articles/44b7715ec225a9",
-      "publishedAt": "2026-11-19T08:51:21.000Z",
-      "publisher": "あやと",
-      "summary": "! 本記事は、OSS評価エンジン「Intrinsic Value」の設計・実装を題材に、LLMの事前学習バイアスを遮断する手法を解説する連載の第2回です。技術解説を目的としており、投資助言を行うものではありません。 1. 問題：社名を伏せ…"
+      "id": "dd267c374553",
+      "title": "子ども向けおもちゃに「5段階DR（設計審査）」を導入！ソラリスと印刷保留の決断",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-07-solaris-dr-and-print-hold",
+      "publishedAt": "2026-11-19T15:11:22.000Z",
+      "publisher": "Maki",
+      "summary": "前回の「v09・傾斜ボンネット版」のミニカーをベースに、今回は子ども向けのおもちゃとしてさらに本気で作り込んでみたお話です。 全長を約60 mmにサイズアップし、タイヤを大きくして、赤・白・濃緑の3色マルチカラーで仕上げた新モデルが 「N…"
     },
     {
-      "id": "4260c62ee7c3",
-      "title": "LLMに投資判断をさせない設計：3層Gateと「減法の工学」によるAI評価エンジン（第1回）",
-      "url": "https://zenn.dev/colorfulwave/articles/ac8430465e2115",
-      "publishedAt": "2026-11-19T08:51:06.000Z",
-      "publisher": "あやと",
-      "summary": "! 本連載は、ウォーレン・バフェットの投資哲学に基づき約3,000〜10,000社規模の上場企業をスクリーニング・バリュエーションするOSSエンジン「Intrinsic Value」の設計文書（ADR群）および実装を題材に、実務で通用する…"
+      "id": "76ff41d248c1",
+      "title": "Decision Model「H2O Lightning」を試してみる：Colabで注文と納品書の画像を照合する",
+      "url": "https://zenn.dev/nakanishitf/articles/9d946756c074d4",
+      "publishedAt": "2026-11-19T14:45:37.000Z",
+      "publisher": "T.N.",
+      "summary": "画像の内容を、注文条件と照合してみる これまで、Google ColabでいくつかのDecision Modelを試してきました。 画像については、Clefで猫が写っているかを判断する実験も行いました。 今回は、画像に書かれた内容を、別に…"
     },
     {
-      "id": "4766d96fc177",
-      "title": "エッジAI実測手帳——RK3588とQCS6490で測り直すNPUの実力",
-      "url": "https://zenn.dev/anguoyang/books/2f38c427922719",
-      "publishedAt": "2026-11-19T08:11:13.000Z",
-      "publisher": "Anguo Yang",
-      "summary": "Rockchip RK3588とQualcomm QCS6490の実機で測った、NPUの実測記録。カタログのTOPSでは分からない、量子化やランタイム経路、全層をNPUに載せられるかどうかで変わる実効性能の違いを、変換に失敗した経路や拒否…"
+      "id": "558b75735d06",
+      "title": "MiniMax H3 Image: Open-Weight Image Generation and Editing, and How to",
+      "url": "https://zenn.dev/vancez/articles/c4a5496eb0af8b",
+      "publishedAt": "2026-11-19T14:34:14.000Z",
+      "publisher": "vancez",
+      "summary": "MiniMax released H3 Image on November 11, 2026. It is an open-weight image model built on MiniMax H3, the company's vid…"
     },
     {
-      "id": "289451abf781",
-      "title": "番外編：Dell AI Factory with NVIDIA and RedHat OpenShift AI",
-      "url": "https://zenn.dev/mstmt/articles/1925281ea7a552",
-      "publishedAt": "2026-11-19T07:56:28.000Z",
-      "publisher": "TAMOTSU＠DELL",
-      "summary": "本稿は LinkedIn に掲載していた記事の内容の転載である。 元記事は こちら [日本語] 番外編：Dell AI Factory with NVIDIA and RedHat OpenShift AI 既存の運用資産を、AIの本番基…"
+      "id": "4530a75742fd",
+      "title": "「3090で約2.3時間」の64M LLM自作を、RTX 5060 Tiで公式手順どおり動かしてみた",
+      "url": "https://zenn.dev/matsushima_a/articles/day-051-minimind-cpu-pretrain-sft",
+      "publishedAt": "2026-11-19T14:33:20.000Z",
+      "publisher": "matsu",
+      "summary": "これは何の話か jingyaogong/minimindは、Tokenizer・Pretrain・SFT・LoRA・DPO・PPO・GRPO・CISPO・エージェント的RL・蒸留まで、LLMの学習パイプライン全体を高レベルラッパーなしでP…"
     },
     {
-      "id": "c7e65e52fd26",
-      "title": "AI禁止の現場を経験した私が、AIの便利さと付き合い方を考えた話",
-      "url": "https://zenn.dev/sakuragi_popo/articles/a76d7d4c60c68d",
-      "publishedAt": "2026-11-19T07:09:05.000Z",
-      "publisher": "sakuragi_popo",
-      "summary": "はじめに 前職では、案件のソースや社内情報をAIに渡すことが禁止されており、調査も資料作りもすべて手作業でした。この記事では、そんな私がAIを便利だと実感した2つの体験を紹介します。 エピソード1：手作業では気づけなかった落とし穴を、AI…"
+      "id": "ee42e8647da5",
+      "title": "AI に作らせた画面はきれいなのに、文字が小さく色が薄い。ブラウザで開いて確かめさせる Skill",
+      "url": "https://zenn.dev/itoken_lab/articles/web-ui-quality-baseline",
+      "publishedAt": "2026-11-19T14:33:12.000Z",
+      "publisher": "いとけん",
+      "summary": "AI に「申し込みフォームの見た目を整えて」と頼むと、コードの上ではきれいに整います。ところが測ってみると、送信ボタンの白い文字と青の背景の明るさの比は 3.5 でした（読みやすさの基準の WCAG では 4.5 以上）。注意書きは 13…"
     }
   ],
-  "fetchedAt": "2026-11-19T18:29:06.782Z",
+  "fetchedAt": "2026-11-20T00:50:16.159Z",
   "stale": false,
   "error": null
 }
