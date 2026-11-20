@@ -6,12 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "f08936faf4b7",
-      "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
-      "url": "https://huggingface.co/papers/2611.26408",
+      "id": "dc64624dbef6",
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "url": "https://huggingface.co/papers/2611.26627",
       "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to direc…",
-      "score": 10
+      "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional …",
+      "score": 14
     },
     {
       "id": "5c13692ef434",
@@ -19,15 +19,15 @@
       "url": "https://huggingface.co/papers/2611.25567",
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still…",
-      "score": 8
+      "score": 9
     },
     {
-      "id": "280a1ae8093c",
-      "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
-      "url": "https://huggingface.co/papers/2611.26286",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal…",
-      "score": 8
+      "id": "7cfe18624610",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://huggingface.co/papers/2611.21885",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a …",
+      "score": 4
     },
     {
       "id": "4d8584781dd8",
@@ -35,6 +35,14 @@
       "url": "https://huggingface.co/papers/2611.26511",
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "summary": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger var…",
+      "score": 4
+    },
+    {
+      "id": "1cd2e2a1181f",
+      "title": "System 1 agents: a method for local, reliable and fast agentic AI",
+      "url": "https://huggingface.co/papers/2611.21053",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large …",
       "score": 3
     },
     {
@@ -46,11 +54,27 @@
       "score": 3
     },
     {
-      "id": "1cd2e2a1181f",
-      "title": "System 1 agents: a method for local, reliable and fast agentic AI",
-      "url": "https://huggingface.co/papers/2611.21053",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large …",
+      "id": "c969d8b17fa4",
+      "title": "In Situ Training of Optical Neural Networks by Coding Agents",
+      "url": "https://huggingface.co/papers/2611.23875",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Optical neural networks promise fast, energy-efficient computing, but every device departs from its design and must be …",
+      "score": 2
+    },
+    {
+      "id": "b487dae419e7",
+      "title": "AURA: AUdio-dRiven streaming Avatar",
+      "url": "https://huggingface.co/papers/2611.26540",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens o…",
+      "score": 2
+    },
+    {
+      "id": "ba5a7ac789de",
+      "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+      "url": "https://huggingface.co/papers/2611.26211",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smalle…",
       "score": 2
     },
     {
@@ -62,47 +86,23 @@
       "score": 2
     },
     {
-      "id": "dd92b5d99990",
-      "title": "Do Probing and Steering Favor the Same Directions Within and Across Language Models?",
-      "url": "https://huggingface.co/papers/2611.19499",
-      "publishedAt": "2026-11-14T00:00:00.000Z",
-      "summary": "A direction in a language model's hidden state can be used to probe whether a concept is present or to steer the model …",
-      "score": 2
-    },
-    {
-      "id": "b487dae419e7",
-      "title": "AURA: AUdio-dRiven streaming Avatar",
-      "url": "https://huggingface.co/papers/2611.26540",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens o…",
+      "id": "5ec33d62891b",
+      "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
+      "url": "https://huggingface.co/papers/2611.15941",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "summary": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and …",
       "score": 1
     },
     {
-      "id": "ba5a7ac789de",
-      "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-      "url": "https://huggingface.co/papers/2611.26211",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smalle…",
+      "id": "a357de5b78e0",
+      "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+      "url": "https://huggingface.co/papers/2611.25200",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether foreca…",
       "score": 1
-    },
-    {
-      "id": "3bbf95dcb42d",
-      "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
-      "url": "https://huggingface.co/papers/2611.25935",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Facial deepfake detectors are usually trained on blending fakes, where a generated face is pasted back into a real fram…",
-      "score": 1
-    },
-    {
-      "id": "7cfe18624610",
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "url": "https://huggingface.co/papers/2611.21885",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a …",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-20T16:57:30.421Z",
+  "fetchedAt": "2026-11-20T22:58:58.250Z",
   "stale": false,
   "error": null
 }

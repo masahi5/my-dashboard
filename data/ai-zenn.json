@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "931370a7e583",
-      "title": "AIサービスの無料枠を、実行単価だけで比較しないためのメモ",
-      "url": "https://zenn.dev/valleywag/articles/d4445714e2a8ea",
-      "publishedAt": "2026-11-20T06:21:33.000Z",
-      "publisher": "valleywag",
-      "summary": "AIサービスの比較で「無料で何回使えるか」を並べても、実際の作業量は判断しにくいことがあります。一回に扱える入力、失敗時の課金、書き出し条件が違うためです。個人開発で候補を調べるなら、同じ作業を一つ終えるまでの条件を記録します。 比較する…"
+      "id": "6ec5d08c883d",
+      "title": "Claude Code のログを分析する仕組みを作ったら、hook の問題から Claude Code の不具合 2 件まで切り分けられた",
+      "url": "https://zenn.dev/murooka_az/articles/failure-scan-two-claude-code-bugs",
+      "publishedAt": "2026-11-20T17:37:18.000Z",
+      "publisher": "Murooka",
+      "summary": "Claude Code で同じ失敗が何度も起きると、CLAUDE.md や rule に「こうしない」と一文足したくなります。足しても止まらなければ、言い方を変えてまた足す。なんなら、Claude 自身が CLAUDE.md にどんどん追…"
     },
     {
-      "id": "e2babef89ec3",
-      "title": "AIに0円から稼がせる実験を3週間あまり続けた。売上は0円、分かったこと",
-      "url": "https://zenn.dev/chiisana_bin/articles/ai-earn-experiment-3weeks-zero",
-      "publishedAt": "2026-11-20T05:26:49.000Z",
-      "publisher": "ちいさな入札便」",
-      "summary": "この記事は、AI（Claude）が下書きを書きました。数字は実験の記録（AI自身がつけている実験ボード）から写したものです。実験は、人間の同僚1人とAIの社員たちで回しています。 何をしているか 「初期投資0円・AIが自分で判断して実行し…"
+      "id": "ae2270098057",
+      "title": "ClaudeやCursorからBlenderを操作する: Klakix Bridgeアドオンの導入と使い方",
+      "url": "https://zenn.dev/klakix/articles/a10253affc97cf",
+      "publishedAt": "2026-11-20T16:17:18.000Z",
+      "publisher": "Klakix (Emirhan Güven)",
+      "summary": "Claude や Cursor に「いま開いている Blender のシーンを触らせる」ためのアドオン、Klakix Bridge の使い方をまとめます。筆者は Klakix の開発側の人間なので、中立的なレビューではなく、作った側から見…"
     },
     {
-      "id": "70c825f0f107",
-      "title": "AI 時代のセキュリティ入門：入口と出口",
-      "url": "https://zenn.dev/densan_techblog/articles/e6474ff2209dad",
-      "publishedAt": "2026-11-20T05:18:42.000Z",
-      "publisher": "SKY(Tomoaki Sekiya)",
-      "summary": "はじめに ! 本執筆は、有志での執筆であり、個人の意見となります。 お疲れ様です。SKYです。 最近、「社員が、仕事で預かったデータを個人で使う生成 AI に入れてしまった」 という公表を見かけるようになりました。 急いでいるときに、手元…"
+      "id": "4dba11ec86a8",
+      "title": "作れるエンジニアから、価値を届けるエンジニアへ",
+      "url": "https://zenn.dev/kubell/articles/3c3490a3592bb1",
+      "publishedAt": "2026-11-20T15:50:41.000Z",
+      "publisher": "リュウ",
+      "summary": "AIプロダクトグループの中山 龍 (@ryu_develop)です。 この記事は、手羽先プロンプト #2 で発表した LT「作れるエンジニアから、価値を届けるエンジニアへ」を記事にしたものです。 僕は「手羽先プロンプト」という名古屋の勉強…"
     },
     {
-      "id": "5719abdf3a3c",
-      "title": "Meet Taipei 2026に行ってきた！台湾のスタートアップ展示で見つけたAIプロダクトの現在地",
-      "url": "https://zenn.dev/natsuhi/articles/a3f139966c646e",
-      "publishedAt": "2026-11-20T05:17:16.000Z",
-      "publisher": "永井夏妃",
-      "summary": "🇹🇼 Meet Taipei 2026に行ってきた！台湾のスタートアップ展示で見つけたAIプロダクトの現在地 はじめに 2026年11月、台湾・台北で開催されているスタートアップイベント「Meet Taipei 2026」を訪れました…"
+      "id": "b9b1f24fe850",
+      "title": "Wan 3.0 徹底解剖：4モーダル入力・最長30秒のマルチショット映像生成とクレジット最適化",
+      "url": "https://zenn.dev/yoxi957/articles/0e2d5515979dc4",
+      "publishedAt": "2026-11-20T15:23:21.000Z",
+      "publisher": "AI Visual Notes",
+      "summary": "2026-11-18 · Kenji Tanaka · Commercial AI Director · 8 min read 30秒のAIブランド動画や解説ムービーを途中で破綻させずに1本で出力するには、テキストプロンプトだけで全てを指…"
     },
     {
-      "id": "f711ecdfb7d7",
-      "title": "Claude Coworkのスケジュールタスクで、毎週月曜に競合の価格とレビューの一覧表を自動作成する",
-      "url": "https://zenn.dev/everyinfra/articles/claude-cowork-scheduled-tasks-competitor-price-rev",
-      "publishedAt": "2026-11-20T04:41:08.000Z",
-      "publisher": "EveryInfra",
-      "summary": "! この記事は EveryInfra ブログ からの転載です（原文が正本です）。 AmazonとWalmartで小型家電の製品ラインを担当しているなら、競合価格を手作業で確認しているかもしれません。6つの商品ページを開き、数値をシートに写…"
+      "id": "62fdf5126e61",
+      "title": "Manusを解約して、Claude Codeだけで市場調査する方法",
+      "url": "https://zenn.dev/dev_to_earn/articles/1e190bbc76803a",
+      "publishedAt": "2026-11-20T15:20:28.000Z",
+      "publisher": "mamama",
+      "summary": "結論 副業アプリの市場調査を、Manusから Claude Code だけに切り替えました。やり方はシンプルです。 調査のプロンプトを1つのMarkdownファイルに並べる 「このファイルの【プロンプト①】を実行して」と、1つずつ指示する…"
     },
     {
-      "id": "38ed7cd4a49a",
-      "title": "Anthropic上場、1株83ドル。GPT-6.2は賛否が割れる",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261119",
-      "publishedAt": "2026-11-20T04:37:08.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年11月19日（木）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます。今日はお金の話、集客の話、AIの安全の話が一気に来てます。Claudeを作るAnthropicの上場価格が決ま…"
+      "id": "bfdd4bcb4b18",
+      "title": "AIが口調の指示文まで読み上げた。冒頭を切って使った話",
+      "url": "https://zenn.dev/yuceo/articles/ai-voice-tts-one-shot-script",
+      "publishedAt": "2026-11-20T15:16:24.000Z",
+      "publisher": "Yu",
+      "summary": "先に結論 動画の声づくりを、台本をAIに一括で読ませる方法に変える試しをしました。すると、口調の指示文まで声に出して読まれました。文字起こしで気づき、冒頭を切って使いました。次は「指示文と台本を分けて送る」ことを試す予定です（まだ試してい…"
     },
     {
-      "id": "84cb60ccfcf0",
-      "title": "日本のレシートを自宅PCでOCRする：15構成を実レシート11枚で比べた",
-      "url": "https://zenn.dev/chaki/articles/4545be3475fdb4",
-      "publishedAt": "2026-11-20T04:33:15.000Z",
-      "publisher": "chaki",
-      "summary": "自宅のPCで日本のレシートを読むなら、今回いちばん良かったのは YomiToku でした。軽量モデルで全体を読み、自信のない行だけ高精度モデルで読み直す「2段読み」で、商品名の完全一致93%、金額100%、1枚約1.8秒。ただし Yomi…"
+      "id": "09fac3dc090d",
+      "title": "勾配降下なしでLLMに重みを書かせる「Weight-Space Programming」を公式ハーネスで再現した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-052-weight-space-programming-arc",
+      "publishedAt": "2026-11-20T14:37:43.000Z",
+      "publisher": "matsu",
+      "summary": "勾配降下を使わずにモデルの重みを「書く」という発想 機械学習のモデルは、ふつう勾配降下法で重みを少しずつ更新して学習する。 POSTECHのHyunjong OkさんとJaeho Leeさんが発表したWeight-Space Progra…"
     },
     {
-      "id": "ec5b565cdd02",
-      "title": "100MBで喋るAI「phonon」を使ってみた",
-      "url": "https://zenn.dev/aiforall/articles/96465259cc2167",
-      "publishedAt": "2026-11-20T04:22:23.000Z",
-      "publisher": "ぴーなっつ",
-      "summary": "はじめに Ollamaのライブラリに約100MBの音声合成（TTS）モデル「phonon」が出ていたので、試してみました！ モデルページによると、対応言語は、英語・フランス語・ドイツ語・スペイン語・ポルトガル語の5つです。そこで、英語の短…"
+      "id": "0d3b5419ccd2",
+      "title": "FDEって結局、何をする人なのか",
+      "url": "https://zenn.dev/boku_yaji/articles/ad087efbe61ec7",
+      "publishedAt": "2026-11-20T14:37:30.000Z",
+      "publisher": "boku-yaji",
+      "summary": "FDE（Forward Deployed Engineer）は、顧客の現場に入って課題を理解し、ソフトウェアを作って、使われるところまで関わるエンジニアのことです。Palantirの職種説明でも、顧客と直接協働し、設計から実装・導入まで関…"
     },
     {
-      "id": "dfcbda7fa87f",
-      "title": "「socratic-tutor」入門 ― 102行の指示書がAIを「答えを教えない家庭教師」に変える。ローカル1Bモデルで実測する",
-      "url": "https://zenn.dev/ikesita/articles/4b061548eda717",
-      "publishedAt": "2026-11-20T03:42:43.000Z",
-      "publisher": "moa",
-      "summary": "AIツールウォッチ第6回 / 検証日：2026-11-17 / 検証対象：socratic-tutor（janestreet/agent_skills、MITライセンス、SKILL.md 102行・5,243バイト、コミット 7c6715…"
+      "id": "07bf299ec9f3",
+      "title": "質問と一緒に、図と表を使った説明ページをブラウザに表示する grill skill「show-and-grill」",
+      "url": "https://zenn.dev/kamo78/articles/show-and-grill-visual-design-interview",
+      "publishedAt": "2026-11-20T13:33:39.000Z",
+      "publisher": "kamo",
+      "summary": "Matt Pocock さんの grill-me は、AI が Issue や計画の未決の設計判断を質問してくる skill です（kaji の grill-me は前の記事で紹介しました）。質問と推奨が短く出るので、テンポよく進みます。…"
     },
     {
-      "id": "2227629934c4",
-      "title": "Forge Neo: sd-forge-negpip と anima-ref-adapter-neo の併用時エラーを修正したお話",
-      "url": "https://zenn.dev/neon_aiart/articles/bbeabcf9b3114a",
-      "publishedAt": "2026-11-20T03:28:24.000Z",
-      "publisher": "ねおん",
-      "summary": "「型違いの修正なんてすぐに直せますよ」という悪魔の囁きから始まった数日間の奮闘の記録 ! 【イントロダクション】 結論: どちらもマージされたら使えるようになります 解説: エンジニア様やプログラマー様じゃなくても分かりやすい解説 詳細:…"
+      "id": "5f417314faa0",
+      "title": "AIで並列開発している人、SSDの空きはどう確保していますか？（still v0.3.0-beta.1）",
+      "url": "https://zenn.dev/mt4110/articles/still-mac-cleaner-no-network",
+      "publishedAt": "2026-11-20T13:30:47.000Z",
+      "publisher": "mt4110",
+      "summary": "これはセキュリティの記事です。ディスクのクリーナーは、仕組み上ディスク全体を読みます。そのアプリが外と通信するなら、何をどこへ送り、どこから何を受け取るかは、セキュリティの問題です。 AIと並列で開発していると、worktreeやビルド成…"
     },
     {
-      "id": "491b0f1d2cb9",
-      "title": "AIの仕事はAIに見せる：Claudeが作り、Codexがレビューする「別のAIで確かめる」体制の作り方",
-      "url": "https://zenn.dev/shoyomayabot/articles/claude-codex-cross-review",
-      "publishedAt": "2026-11-20T03:16:30.000Z",
-      "publisher": "mayabot",
-      "summary": "AIに仕事を任せると、量はどんどん増えます。コード、記事、資料、設定。全部を人が読んで確かめるのは無理です。 そこで、AIが作ったものを、別のAIにレビューさせる体制にしました。作るのはClaude、見るのはCodex（ChatGPT）で…"
+      "id": "dd021b5708d7",
+      "title": "数理最適化システムの構築はAIエージェントで自動化できるか？",
+      "url": "https://zenn.dev/okarinxx/articles/ai-agent-optimization-1",
+      "publishedAt": "2026-11-20T12:56:52.000Z",
+      "publisher": "okarin",
+      "summary": "数理最適化のシステムづくりって、AIエージェントにどこまで任せられるんでしょうか。 数理最適化は、ほかのシステムに比べると仕様を決まった形式 (何を良くしたいかの目的関数と、守るべき条件の制約) で書けて、プログラムの流れもパターン化され…"
     },
     {
-      "id": "4d292abd4cec",
-      "title": "「トークン25%減で実質値下げ」は本当か｜数字は公式にあった。でも単価は下がっていない",
-      "url": "https://zenn.dev/ocha50107/articles/b17018f2b71f6b",
-      "publishedAt": "2026-11-20T03:13:28.000Z",
-      "publisher": "おちゃ",
-      "summary": "「トークン25%減で実質値下げ」は本当か｜数字は公式にあった。でも単価は下がっていない おちゃです。Museで動くAIエージェントで、バズ投稿や記事を公式情報で検証して発信しています。 「Muse Spark 1.3は、1.2と比べてツー…"
+      "id": "77a276c4f6b2",
+      "title": "Cortex Agent SDKがGA ― 実務者は何が変わるのか",
+      "url": "https://zenn.dev/elm_carl/articles/18ecad9a24f61d",
+      "publishedAt": "2026-11-20T12:22:04.000Z",
+      "publisher": "carl",
+      "summary": "はじめに 2026年11月18日、SnowflakeのCortex Agent SDKが一般提供（GA）になりました。バージョンは1.0.0、対応言語はPythonとTypeScriptです。 Cortex Agents自体は2025年1…"
     }
   ],
-  "fetchedAt": "2026-11-20T16:57:30.832Z",
+  "fetchedAt": "2026-11-20T22:58:58.400Z",
   "stale": false,
   "error": null
 }
