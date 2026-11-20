@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "c91953317db1",
-      "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
-      "url": "https://huggingface.co/papers/2611.24408",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene t…",
-      "score": 13
+      "id": "7212cb037d6b",
+      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2611.26444",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, w…",
+      "score": 31
     },
     {
-      "id": "f2e4a069f1c3",
-      "title": "BLIP-Live: Balancing Timeliness & Firing Precision in Proactive Streaming Video Agents",
-      "url": "https://huggingface.co/papers/2611.21553",
+      "id": "b4fc88f37e85",
+      "title": "Posterior Matching Distillation",
+      "url": "https://huggingface.co/papers/2611.26629",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling …",
+      "score": 14
+    },
+    {
+      "id": "1ebbb212b49d",
+      "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
+      "url": "https://huggingface.co/papers/2611.25980",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "World models aim to predict environment dynamics under actions, enabling the prediction of action consequences without …",
+      "score": 9
+    },
+    {
+      "id": "cb250ce13158",
+      "title": "WM^MLLM: Turning MLLMs into World Models",
+      "url": "https://huggingface.co/papers/2611.24193",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Video world models keep the world in the context of a generator, so a revisit is synthesized again and earlier edits ca…",
+      "score": 9
+    },
+    {
+      "id": "a61f652ea5b8",
+      "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+      "url": "https://huggingface.co/papers/2611.26603",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyz…",
+      "score": 9
+    },
+    {
+      "id": "e48c33d6626f",
+      "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+      "url": "https://huggingface.co/papers/2611.26414",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a lea…",
+      "score": 5
+    },
+    {
+      "id": "7239b8ece3f2",
+      "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+      "url": "https://huggingface.co/papers/2611.26510",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectorie…",
+      "score": 5
+    },
+    {
+      "id": "7003fa595178",
+      "title": "Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search",
+      "url": "https://huggingface.co/papers/2611.20455",
       "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Streaming video understanding is becoming increasingly important for real-world interactive systems. Such systems must …",
-      "score": 9
-    },
-    {
-      "id": "299a8fa4644d",
-      "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
-      "url": "https://huggingface.co/papers/2611.23257",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "summary": "Large language models have reduced the effort to generate code for interactive software with graphical user interfaces …",
-      "score": 9
-    },
-    {
-      "id": "c8b1995dfacd",
-      "title": "WaveView: The Novel View Is in the Noise",
-      "url": "https://huggingface.co/papers/2611.23994",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Generative novel view synthesis (NVS) employs a diffusion model to render a static or dynamic scene from a target camer…",
-      "score": 8
-    },
-    {
-      "id": "37e6723be34e",
-      "title": "TabBioMed: A Large-Scale Benchmark for Biomedical Tabular Learning",
-      "url": "https://huggingface.co/papers/2611.23779",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Recent advances in machine learning have accelerated biomedical prediction, but evaluation on structured biomedical dat…",
-      "score": 7
-    },
-    {
-      "id": "ebeab47a3d01",
-      "title": "RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation",
-      "url": "https://huggingface.co/papers/2611.22382",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "Large language models (LLMs) have renewed interest in Page Stream Segmentation (PSS), splitting a multi-page file into …",
+      "summary": "Code-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with grep. What does this dens…",
       "score": 4
     },
     {
-      "id": "8478f3813364",
-      "title": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data",
-      "url": "https://huggingface.co/papers/2611.16933",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "summary": "Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one ch…",
-      "score": 4
-    },
-    {
-      "id": "9e9ec28ab67e",
-      "title": "General progress substitutes for specific training data in language models",
-      "url": "https://huggingface.co/papers/2611.24844",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Language models acquire their capabilities from training data, and developers withhold data during training to keep mod…",
-      "score": 3
-    },
-    {
-      "id": "4d75c7a83930",
-      "title": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
-      "url": "https://huggingface.co/papers/2611.24059",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then cons…",
-      "score": 3
-    },
-    {
-      "id": "57872aab74b2",
-      "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
-      "url": "https://huggingface.co/papers/2611.24917",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "In this paper, we propose a Unified Law for Visual Tasks, which could be further divided into Four Laws of Computer Vis…",
-      "score": 3
-    },
-    {
-      "id": "d49d55a1b12b",
-      "title": "Choosing Quantized Code LLMs by File Size and Energy per Solved Task",
-      "url": "https://huggingface.co/papers/2611.17605",
-      "publishedAt": "2026-11-13T00:00:00.000Z",
-      "summary": "A developer running a code assistant on a laptop downloads one model file, and local inference moves the energy of ever…",
+      "id": "274453fff02f",
+      "title": "DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions",
+      "url": "https://huggingface.co/papers/2611.26298",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "As multimodal large language models (MLLMs) become increasingly integrated into everyday life, their ability to provide…",
       "score": 2
     },
     {
-      "id": "ce9c798924f1",
-      "title": "AVTR: Adaptive Multimodal Reasoning with Visual Imagination",
-      "url": "https://huggingface.co/papers/2611.24161",
-      "publishedAt": "2026-11-18T10:05:18.000Z",
-      "summary": "Vision-Language Models increasingly rely on textual reasoning to solve advanced multimodal tasks. Despite its effective…",
-      "score": 2
+      "id": "b5a765a289fe",
+      "title": "Suppressing the Shortcut Hidden Behind the Gains of VideoLLM Fine-Tuning",
+      "url": "https://huggingface.co/papers/2611.25776",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Supervised fine-tuning (SFT) is the stage in which Video Large Language Models (VideoLLMs) advance their capability to …",
+      "score": 1
+    },
+    {
+      "id": "16a73a061256",
+      "title": "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
+      "url": "https://huggingface.co/papers/2611.00911",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "summary": "Decision-making in humans and AI involves multiple cognitive abilities. System One decision models produce fast, struct…",
+      "score": 0
+    },
+    {
+      "id": "8ceadcd03e67",
+      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+      "url": "https://huggingface.co/papers/2611.26624",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of …",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-20T00:50:15.994Z",
+  "fetchedAt": "2026-11-20T08:02:28.816Z",
   "stale": false,
   "error": null
 }
