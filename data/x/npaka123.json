@@ -2,6 +2,15 @@
   "handle": "npaka123",
   "tweets": [
     {
+      "id": "2123961154255155478",
+      "url": "https://x.com/npaka123/status/2123961154255155478",
+      "text": "RT @Eichan_GZ: 中国で現象級の広がりをみせている『FX戦士くるみちゃん』。膨大なネタの数々と、流行している理由の解説です\nnote.com/eichan_sh/n/n40f5bb…",
+      "publishedAt": "2026-11-21T02:06:15.000Z",
+      "authorHandle": "npaka123",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2123899406550528422",
       "url": "https://x.com/OpenAI/status/2123899406550528422",
       "text": "How AI is helping scientists uncover new leads for understanding and treating neurodegenerative diseases—and the brain research behind our collaboration with @perturbai_tx and @scrippsresearch:",
@@ -81,18 +90,9 @@
       "authorHandle": "ImAI_Eruel",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2123795249403220257",
-      "url": "https://x.com/jun1228909/status/2123795249403220257",
-      "text": "みんな〜\nStrata と TensorFold と Maya と Basalt と Yasakani と Sync-Strata の最新版がリリースされたよ〜( ◜ω◝ )\n\n2026/11/21 00:00 現在\n\n■ Strata v0.2.17\ngithub.com/Niko1221/Strata/r…\n・Qwen3.8-Flash-Next を中心に、Qwen3.6-35B-A3B にも対応するローカル推論エンジン\n・CPU と GPU で処理を分担し、RAM, SSD も活用\n・幅広いハードウェアへの対応と、デスクトップアプリ, API 連携が特徴\n\n■ TensorFold v1.3.1\ngithub.com/ashhart/TensorFol…\n・Qwen, Nemotron, GLM, Gemma, Hy4-Flash など、複数系列のモデルに対応する Zig 製の推論エンジン\n・Apple Silicon の Metal と NVIDIA の CUDA を直接使い、推論実行に Python／MLX を必要としない構成が特徴\n\n■ Project-Maya v1.1.69\ngithub.com/mw00/project-maya…\n・GLM-5.3／GLM-5.3-Flash、DeepSeek-V4.1-Flash-1017、MiniMax-M3.1-Flash、Hy4-Flash を対象とする大規模 MoE 推論環境\n・Strata 派生\n\n■ Basalt v0.5.0\ngithub.com/jesdga95/basalt/r…\n・Qwen3.8-Flash-Next／Qwen3.8-27B、DeepSeek-V4.1-Flash、Hy4-Flashに対応するStrata派生エンジン\n・NVIDIA Blackwell向けに最適化し、MoEではGPUとCPUで処理を分担。RAMや追加GPUへのExpert分散にも対応\n\n■ Yasakani v0.2.0\ngithub.com/yasakani-dev/yasa…\n・Qwen3.8-27B を NVIDIA RTX 1枚で動かす、Windows 中心のローカル推論エンジン\n・Fastest／Quality／Max Quality の3種の量子化モデルを用意\n\n■ Sync-Strata v0.1.3\ngithub.com/hiruhiru2005/sync…\n・Qwen3.8-Flash-Next を、独自に再量子化した Sync-XS／S／M で動かす Strata 派生エンジン・アプリ\n・Windows／Linux 向けで、RAM, VRAM に応じたモデル, 設定の自動選択と、GUI, スマホ, API からの利用に対応\n\n余りに多すぎてわいも TensorFold と Basalt はエアプだおー( ◜ω◝ )\n注目ポイントあれば教えてほしいおー( ◜ω◝ )",
-      "publishedAt": "2026-11-20T15:07:00.000Z",
-      "authorHandle": "jun1228909",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-11-20T22:59:13.027Z",
+  "fetchedAt": "2026-11-21T03:51:27.392Z",
   "stale": false,
   "error": null
 }

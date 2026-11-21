@@ -27,15 +27,15 @@
       "url": "https://huggingface.co/papers/2611.21885",
       "publishedAt": "2026-11-16T00:00:00.000Z",
       "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a …",
-      "score": 4
+      "score": 5
     },
     {
-      "id": "4d8584781dd8",
-      "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
-      "url": "https://huggingface.co/papers/2611.26511",
+      "id": "481728535ff3",
+      "title": "Teaching Vision-Language-Action Models to Stop Safely",
+      "url": "https://huggingface.co/papers/2611.26239",
       "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger var…",
-      "score": 4
+      "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instru…",
+      "score": 3
     },
     {
       "id": "1cd2e2a1181f",
@@ -46,12 +46,12 @@
       "score": 3
     },
     {
-      "id": "42de6915c24e",
-      "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
-      "url": "https://huggingface.co/papers/2611.25179",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Simulated manipulation benchmarks measure policy performance using hand-written success checkers that label each episod…",
-      "score": 3
+      "id": "e5d504fd1da5",
+      "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
+      "url": "https://huggingface.co/papers/2611.25604",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarant…",
+      "score": 2
     },
     {
       "id": "c969d8b17fa4",
@@ -78,14 +78,6 @@
       "score": 2
     },
     {
-      "id": "c52a42f87e6e",
-      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
-      "url": "https://huggingface.co/papers/2611.26450",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or exte…",
-      "score": 2
-    },
-    {
       "id": "5ec33d62891b",
       "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
       "url": "https://huggingface.co/papers/2611.15941",
@@ -100,9 +92,17 @@
       "publishedAt": "2026-11-18T00:00:00.000Z",
       "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether foreca…",
       "score": 1
+    },
+    {
+      "id": "4988291b46e3",
+      "title": "Time Series Structure Learning with Local Causal Parent Discovery",
+      "url": "https://huggingface.co/papers/2611.26232",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observation…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-20T22:58:58.250Z",
+  "fetchedAt": "2026-11-21T03:51:10.428Z",
   "stale": false,
   "error": null
 }
