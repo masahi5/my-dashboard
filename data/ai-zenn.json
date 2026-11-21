@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "530d012a352d",
-      "title": "自分専用のAIナレッジベースを構築できる「AnythingLLM」が、個人開発や社内wikiの救世主になる理由",
-      "url": "https://zenn.dev/flosslabs/articles/anythingllm-intro",
-      "publishedAt": "2026-11-21T07:52:30.000Z",
-      "publisher": "FLOSSLABS",
-      "summary": "「あの仕様書、どこに書いてあったっけ？」 「社内wikiは膨大すぎて、検索しても正解に辿り着けない」 「AIに社内ルールや個人メモを前提に答えてほしいが、毎回プロンプトに貼り付けるのは限界がある」 エンジニアやナレッジワーカーが情報を集め…"
-    },
-    {
-      "id": "a4b3305dfdbe",
-      "title": "僕の Claude Code 開発のやり方（2026年11月）- AI に書かせて、別の AI に疑わせる",
-      "url": "https://zenn.dev/hironoah/articles/claude-code-my-workflow-202611",
-      "publishedAt": "2026-11-21T07:38:57.000Z",
-      "publisher": "ひろノア",
-      "summary": "今の自分のやり方の棚卸しです。半年後には変わっていると思うので、2026 年 11 月時点の記録として書きます。 筆者は Web のフロントエンドを中心に 8 年ほど開発をしています。Claude Code は基本的に毎日使っていて、使わ…"
-    },
-    {
-      "id": "d510ae444be3",
-      "title": "AIコーディングの「毎回説明し直し」をなくす：開発プロンプトと安全ルールの雛形という考え方",
-      "url": "https://zenn.dev/tenpurekoubou/articles/8edc50a3cfcbff",
-      "publishedAt": "2026-11-21T07:29:34.000Z",
+      "id": "82f2019f2fc9",
+      "title": "Excelのエラー表示、AIに聞くときの「3点セット」：表計算をAIに頼む頼み方",
+      "url": "https://zenn.dev/tenpurekoubou/articles/cc34739277baa1",
+      "publishedAt": "2026-11-21T18:44:33.000Z",
       "publisher": "テンプレ工房",
-      "summary": "はじめに Cursor や VS Code（GitHub Copilot）、ChatGPT でコードを書いてもらうようになって、別の手間が目立つようになりました。 新しいチャットを開くたびに、プロジェクトの前提や制約を説明し直す 「いきな…"
+      "summary": "「#VALUE!って何？」だけでは、自分の答えは返ってこない Excelやスプレッドシートでエラー表示が出たとき、生成AIに聞く人は多いと思います。でも、「#VALUE!って何？」とだけ聞くと、返ってくるのは一般的な説明だけ。自分の表のど…"
     },
     {
-      "id": "c985d5b39020",
-      "title": "AIだけで会社を回して13日目、売上はまだ0円です",
-      "url": "https://zenn.dev/walnut1681974/articles/b094f0eb2ab9ed",
-      "publishedAt": "2026-11-21T07:29:22.000Z",
-      "publisher": "walnut",
-      "summary": "はじめまして。私たちは、企画・制作・販売・運用をAIが担い、人間は指示と判断だけをする「AIの会社」を運営しています。目標は大きく、最終的には1億円。ただし目先の目標はもっと小さくて、「まず1円を稼ぐこと」です。 この記事は、その13日目…"
+      "id": "c18b14a43db7",
+      "title": "LLM出力の壊れたJSONをPython標準ライブラリで決定的に修復・型検証する実装パターン",
+      "url": "https://zenn.dev/inemuri/articles/llm-broken-json-repair-validator",
+      "publishedAt": "2026-11-21T18:07:38.000Z",
+      "publisher": "いねむりさん",
+      "summary": "LLMにJSON形式での出力を指示しても、実運用では次のような「あと一歩で壊れているJSON」が必ず混ざります。 前後に説明文や ```json ... ``` のコードフェンスが付く 末尾カンマ（trailing comma）や // …"
     },
     {
-      "id": "b28990005266",
-      "title": "デザイン歴25年の非エンジニアが、無料AIを使い分けて記事を書く方法",
-      "url": "https://zenn.dev/trick_kawaji/articles/ebdf72d4f4caac",
-      "publishedAt": "2026-11-21T07:16:16.000Z",
-      "publisher": "カワジ-TS",
-      "summary": "AIが広く使われるようになったこともあって「AIを使えば楽にブログ記事も書ける」という意見を聞くようになりました。 私自身もAIをかなり使うようになり、記事作成にかける時間は大きく短縮できました。 ただ、いくつかのAIを使ってみて感じたの…"
+      "id": "540c4fbb0293",
+      "title": "TechLead Conference 2026 Autumn 参加レポート:テックリードは、エンジニアの上位版ではなかった",
+      "url": "https://zenn.dev/dip_techblog/articles/f3e463cfe79fc3",
+      "publishedAt": "2026-11-21T16:59:37.000Z",
+      "publisher": "mstng",
+      "summary": "はじめに 2026年11月6日、TechLead Conference 2026 Autumn に参加してきました。主催は Eight、会場は有明、12時半から20時半までの一日開催です。650名の枠に当日受付も出ていました。 セッション…"
     },
     {
-      "id": "ee27b3e4c4be",
-      "title": "Claude Codeのエージェントが品質ゲートを飛ばした——「あれ？テスト実施した？」の一言で見つけた違和感の拾い方",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-11-15-222039",
-      "publishedAt": "2026-11-21T07:03:12.000Z",
-      "publisher": "saitoko",
-      "summary": "この記事の要点: 2026年4月15日、私がClaude Codeで動かしているAIエージェントの1体が、品質ゲート（テスト設計→テスト実行→レビュー→デプロイの順に通す決まり）を飛ばし、構文チェックと一部の単体テストだけで「テスト済み」…"
+      "id": "fd0c6b38b45d",
+      "title": "Steamの登録料$100と手数料30%をゼロに！30言語＆29通貨換算対応のゲーム配信ストア『Zteam』を個人開発した",
+      "url": "https://zenn.dev/mcp/articles/6b8f51b13c099b",
+      "publishedAt": "2026-11-21T16:31:05.000Z",
+      "publisher": "mcp",
+      "summary": "! TL;DR（3行まとめ） Steam Directの 「1タイトル登録料 $100（約15,500円）＋売上30%徴収＋審査30日待ち」 の壁をなくすため、登録料 ¥0・手数料 0%・即時公開のインディーゲーム配信ストア 『Zteam…"
     },
     {
-      "id": "d14fb2f7fa64",
-      "title": "AIエージェントのクリック操作と、自分で読めるルールはまったく別物である",
-      "url": "https://zenn.dev/baroqtech/articles/c74a6bd0c9c97d",
-      "publishedAt": "2026-11-21T06:29:29.000Z",
-      "publisher": "BaroqTech",
-      "summary": "クリックできるAIエージェントと、ルールを読めるAIエージェントは、別物です。 2026年11月19日、デスクトップのAIアプリに「コンピュータ操作」が入りました。ローカルアプリ、ファイル、Webをまたいで、クリックや入力、フォーム処理を…"
+      "id": "70b2f564585a",
+      "title": "複数のAIに役を分け、機械の関所で確かめる——ひとりで回すAIスタジオの設計と実装",
+      "url": "https://zenn.dev/zeuslab/books/3e4510456deb81",
+      "publishedAt": "2026-11-21T15:23:13.000Z",
+      "publisher": "ZEUS LAB",
+      "summary": "1つのチャット欄にすべてを任せていた頃、当方では同じ見落としが繰り返されました。構想・構造・実装・独立検の役を分け、議論の余地がないことはAIを使わない小さなプログラムに任せる。ひとりで事業を回すための設計を実際に動いているフックのコード…"
     },
     {
-      "id": "b44ed1e536ee",
-      "title": "Obsidianのタグ付けを「System 1 (Jev) × System 2 (Gemini)」で自動化してみた",
-      "url": "https://zenn.dev/snaga/articles/2026-11-21-obsidian-smart-tagging-with-jev",
-      "publishedAt": "2026-11-21T06:19:05.000Z",
-      "publisher": "snaga",
-      "summary": "TL;DR ルーチンワークにAIを組み込む設計解: 毎日のノート整理のような定常作業にフロンティアLLMを毎回ゼロから走らせると、コスト・レイテンシ・表記揺れですぐに破綻する。「全部LLMに考えさせる」のではなく、日常のルーチンをいかに軽…"
+      "id": "fb927f866922",
+      "title": "月3,000回の無料枠で、「AIに任せないこと」を先に決めた。猫耳秘書と宇宙を旅した話",
+      "url": "https://zenn.dev/nanako1129/articles/799de43c4e556c",
+      "publishedAt": "2026-11-21T15:00:06.000Z",
+      "publisher": "Nanako",
+      "summary": "無料枠でAIを使うとしたら何をする？ 最近、個人開発でゲームを作っています。 さて、さくらのAI Engineの無料枠を使って何をしてみようか？ 今回は、個人で作っているブラウザゲームに、さくらのAI Engineで「喋れるAI秘書」を入…"
     },
     {
-      "id": "1f60346df763",
-      "title": "inside-llm入門 ― Q4とQ8、同じモデルの2つの量子化はどこで分かれるか。トークン単位で「中身」を見る",
-      "url": "https://zenn.dev/ikesita/articles/inside-llm-q4-q8-compare",
-      "publishedAt": "2026-11-21T06:14:46.000Z",
-      "publisher": "moa",
-      "summary": "AIツールウォッチ第7回 / 検証日：2026-11-18 / 検証対象：inside-llm v1.0.0（manuelgscom/inside-llm、MITライセンス） ※「実測」と書いたものは検証環境で実際に測った値、「公式値」と…"
+      "id": "75282cc55c02",
+      "title": "Antigravityの調子が良いので全部の作業を任せてみた話",
+      "url": "https://zenn.dev/ququla89/articles/antigravity-is-better-now-i-think",
+      "publishedAt": "2026-11-21T14:59:22.000Z",
+      "publisher": "QuQuLa89/キュキュラ",
+      "summary": "はじめに 皆様こんにちは！‍​‌‌‌​‌​​​‌‌​​‌​‌​‌‌‌‌​​​​‌‌‌​‌​​​​‌​‌‌​‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​​‌​​​​‌‌‌​‌​​‌‌‌​‌‌​​…"
     },
     {
-      "id": "948cae8ce653",
-      "title": "軌道上データセンターとは｜宇宙でAIを計算する構想の現在地",
-      "url": "https://zenn.dev/maru1228/articles/space-orbital-data-center",
-      "publishedAt": "2026-11-21T06:13:50.000Z",
-      "publisher": "まる",
-      "summary": "! この記事は自サイト 軌道上データセンターとは｜宇宙でAIを計算する構想の現在地 の再掲（クロス投稿）です。図をインタラクティブに動かせる版は元記事でどうぞ。 AIの学習に必要な電力が地上の送電網を圧迫し始めるなか、「それなら宇宙で計算…"
+      "id": "9ef9754fa815",
+      "title": "AIエージェントに渡すMCPの返り値で気をつけていること（Search ConsoleのMCPを作って）",
+      "url": "https://zenn.dev/yohei_kuno/articles/a1047222376276",
+      "publishedAt": "2026-11-21T14:45:34.000Z",
+      "publisher": "Kyohei",
+      "summary": "前の記事では、Search Consoleの数字から「どの記事の、何を、どう直すか」（処方）を出すサービス「検索カルテ」にMCPサーバーを付けて、Claude Codeに記事を直させた話を書きました。 その記事に、こんなコメントをもらいま…"
     },
     {
-      "id": "7438fc725041",
-      "title": "QtでAIエージェントを試すなら、直し方を知っている不具合から",
-      "url": "https://zenn.dev/sugitakenji/articles/d0b93e17f19f3f",
-      "publishedAt": "2026-11-21T06:07:17.000Z",
-      "publisher": "杉田研治",
-      "summary": "AIにコードの説明を頼んだことはあっても、ビルドや修正まで任せるとなると、何から試すか迷います。製品の難しい不具合を最初に渡すと、回答の良し悪しだけでなく、使い方の問題まで一緒に調べることになります。 最初の一件には、自分たちで原因と直し…"
+      "id": "b84bb4dfc4fc",
+      "title": "AWS公式のマルチエージェントCLI「CAO」でClaude Codeに仕事を委任させたら、フォルダ信頼確認で60秒止まった",
+      "url": "https://zenn.dev/matsushima_a/articles/day-053-cao-trust-dialog-wall",
+      "publishedAt": "2026-11-21T14:37:55.000Z",
+      "publisher": "matsu",
+      "summary": "これは何を試した記事か AWS Labsが公開しているcli-agent-orchestrator(以下CAO、Apache-2.0)を、Claude Codeをワーカーにして実際に動かしてみた記事である。 CAOは、Claude Cod…"
     },
     {
-      "id": "946d9ed6291f",
-      "title": "AIの席が、ログイン切れで10分止まった。止まっていた間の配送は、戻ってから1件だけ読めた",
-      "url": "https://zenn.dev/ai_shihan/articles/9a8341f57c18f3",
-      "publishedAt": "2026-11-21T06:02:33.000Z",
-      "publisher": "ai_shihan",
-      "summary": "X の投稿は、AI の席（広報部）に任せています。席は、3時間おきの定刻の知らせ（tick）を受けて、出す予定があれば1本だけ出します。 11月21日の朝6時5分、その席が止まりました。理由は「Login expired」、つまり Cla…"
+      "id": "353421a8a29b",
+      "title": "AIに丸投げしない設計論：「Pythonの定量フィルタ × Gemini API 1回リクエスト」で株式の情報収集を自動化した話",
+      "url": "https://zenn.dev/shimashimap/articles/3be54bfa332afc",
+      "publishedAt": "2026-11-21T14:22:43.000Z",
+      "publisher": "しまP",
+      "summary": "はじめに：「AIで投資なんて馬鹿げている」という誤解 SNSやネット上では、「AIを使って株式投資をするなんて馬鹿げている」「AIの予測は当たらない」といった意見をよく見かけます。 結論から言うと、その批判は「AIに丸投げする」という前提…"
+    },
+    {
+      "id": "1956243e24ff",
+      "title": "AIに開発を任せきれないのは、仕組み以上に気持ちの問題な気がする",
+      "url": "https://zenn.dev/sunny9/articles/7020ee629b43a8",
+      "publishedAt": "2026-11-21T14:04:55.000Z",
+      "publisher": "don",
+      "summary": "仕組みは整えてみたけれど、承認を手放せない AIに開発をほぼ丸投げするようなやり方が、最近どんどん広がっている。人間が都度口を出す「Human-in-the-Loop」から、AIの動きを横で監視する「Human-on-the-Loop」、…"
+    },
+    {
+      "id": "cce02ca0303b",
+      "title": "AIのレビューを、AIに判定させる ― 外部モデル多段レビューの運用実録",
+      "url": "https://zenn.dev/halu_c/articles/multi-model-review-pipeline",
+      "publishedAt": "2026-11-21T13:57:31.000Z",
+      "publisher": "halu_c",
+      "summary": "1. 背景：単一モデルへの依存で起きた問題 最近、毎日Museを少しずつカスタマイズしています。工夫した分だけ、できることがどんどん増えていくのが嬉しくて、すっかり夢中になっています。これまでメール整理やXのポスト収集などを任せてきました…"
     }
   ],
-  "fetchedAt": "2026-11-21T19:14:01.779Z",
+  "fetchedAt": "2026-11-21T23:49:35.330Z",
   "stale": false,
   "error": null
 }
