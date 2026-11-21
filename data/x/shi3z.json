@@ -2,6 +2,33 @@
   "handle": "shi3z",
   "tweets": [
     {
+      "id": "2124004919846092897",
+      "url": "https://x.com/shi3z/status/2124004919846092897",
+      "text": "650tok/s 行った話を追加. / MacStudio 512GBがAI用途に不向きな理由/そして今買うべきなのは・・・｜shi3z @shi3z note.com/shi3zblog/n/n1abc37…",
+      "publishedAt": "2026-11-21T05:00:09.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2124002019283542076",
+      "url": "https://x.com/shi3z/status/2124002019283542076",
+      "text": "github.com/shi3z/XeFlash",
+      "publishedAt": "2026-11-21T04:48:38.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2124001984521076985",
+      "url": "https://x.com/shi3z/status/2124001984521076985",
+      "text": "🚀 644.4 tokens/sec on a single Intel Arc Pro B60 (24GB VRAM)!\n\nWe optimized XeFlash to run the 27B-parameter Qwen3.8 model using 64-token speculative verification.\n\n✅ 5 reproducible runs\n✅ Bit-identical output and state vs. greedy decoding\n✅ 2.3× faster than our previous baseline\nMeasured on a JSONL editing task.\nAll on one Intel GPU. No NVIDIA required.",
+      "publishedAt": "2026-11-21T04:48:29.000Z",
+      "authorHandle": "shi3z",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2123940727529013332",
       "url": "https://x.com/shi3z/status/2123940727529013332",
       "text": "まあ絶対そうだと思っていたよ。マイナスイオンと同じ",
@@ -56,43 +83,16 @@
       "repost": false
     },
     {
-      "id": "2123700784076628140",
-      "url": "https://x.com/shi3z/status/2123700784076628140",
-      "text": "今日もルロワにありつけるとは",
-      "publishedAt": "2026-11-20T08:51:38.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2123544965363974381",
-      "url": "https://x.com/ats/status/2123544965363974381",
-      "text": "CPU 1コア、メモリ10GBで1,600万個のWebサーバーが動く。しかも、その鍵はLinuxの機能を「使わない」ことだった。\n\n1,500万個のWebサーバーを1台のVMで動かすという、一見無謀な実験が行われた。通常、WebサーバーはLinuxのプロセスやsocketを利用する。しかし、数百万単位に増やすと、サーバー本体よりもOSによる管理コストが問題になる。\n\n実験では、まず個別のプロセスを廃止し、独自ランタイムで多数のWebサーバーを管理する方式に変更。それでもLinuxのsocketが1個あたり約3.3KBを消費するため、通常方式では約250万サーバーでメモリ限界に達した。\n\nそこで発想を変えた。サーバーを軽量化するのではなく、OSに任せていた仕事そのものを減らしたのだ。\n\nRust製TCP/IPスタック「smoltcp」を導入し、ネットワーク処理をユーザー空間へ移動。さらにDPDKやAF_XDPを使ってLinuxカーネルの通常の通信経路を迂回した。独自ランタイムでは、サーバーをOSプロセスとして扱わず、必要な実行状態だけを保持する。\n\nその結果、待機中のサーバー1個あたりのメモリ消費を約620バイトに削減し、1,600万個の稼働に成功した。Linuxが遅いという話ではない。汎用OSが提供する互換性や機能を、用途に応じてどこまで削れるかという実験だ。\n\nkapteko.com/15-million-webse…",
-      "publishedAt": "2026-11-19T22:32:27.000Z",
-      "authorHandle": "ats",
+      "id": "2123705835100729448",
+      "url": "https://x.com/Tebasaki_lab/status/2123705835100729448",
+      "text": "㊗️世界初！！未踏ITに採択された、論理ゲート型NNライブラリを公開しました！！\n\nPyTorchで学習し、Verilog/VHDLへ出力できるライブラリ「Griffith」をOSSで公開しました。\n\nN入力LUT対応、CUDAなしでCPU・Apple Siliconでも動きます。ぜひ遊んでみてください！\n\ngithub.com/tsukushi-gate/Gri…",
+      "publishedAt": "2026-11-20T09:11:42.000Z",
+      "authorHandle": "Tebasaki_lab",
       "likeCount": 0,
       "repost": true
-    },
-    {
-      "id": "2123364887195971778",
-      "url": "https://x.com/perorinkyu/status/2123364887195971778",
-      "text": "お読みいただき感想までありがとうございます！\n漫画はこちらで読めます！\nnote.com/natsukosan_note/n/n…\n\n紙の漫画は技研バー、カリーギークで販売中です。",
-      "publishedAt": "2026-11-19T10:36:53.000Z",
-      "authorHandle": "perorinkyu",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2123359832015360326",
-      "url": "https://x.com/shi3z/status/2123359832015360326",
-      "text": "なんであらゆる人が今日ばかり誘ってくるんだ。なんらかの運命の交差点的な日なのか？ゲームなら間違いなくセーブポイント",
-      "publishedAt": "2026-11-19T10:16:48.000Z",
-      "authorHandle": "shi3z",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-11-21T03:51:29.523Z",
+  "fetchedAt": "2026-11-21T12:03:03.428Z",
   "stale": false,
   "error": null
 }
