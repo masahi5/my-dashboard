@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "82f2019f2fc9",
-      "title": "Excelのエラー表示、AIに聞くときの「3点セット」：表計算をAIに頼む頼み方",
-      "url": "https://zenn.dev/tenpurekoubou/articles/cc34739277baa1",
-      "publishedAt": "2026-11-21T18:44:33.000Z",
-      "publisher": "テンプレ工房",
-      "summary": "「#VALUE!って何？」だけでは、自分の答えは返ってこない Excelやスプレッドシートでエラー表示が出たとき、生成AIに聞く人は多いと思います。でも、「#VALUE!って何？」とだけ聞くと、返ってくるのは一般的な説明だけ。自分の表のど…"
+      "id": "42fe8176769d",
+      "title": "数学と物理の動画化は難しい。それでもAIを使ったら、記事を動画にできた。",
+      "url": "https://zenn.dev/ryanphys/articles/f2d8db3ccef11c",
+      "publishedAt": "2026-11-22T11:34:05.000Z",
+      "publisher": "cal",
+      "summary": "はじめに 数学や物理のシミュレーション動画は、作るのが難しい部類に入ると思います。方程式を解く計算を書き、結果をアニメーションとして可視化し、字幕やナレーションを付けて1本の動画に編集する。どれか1つでも欠けると成立しません。 それでも動…"
     },
     {
-      "id": "c18b14a43db7",
-      "title": "LLM出力の壊れたJSONをPython標準ライブラリで決定的に修復・型検証する実装パターン",
-      "url": "https://zenn.dev/inemuri/articles/llm-broken-json-repair-validator",
-      "publishedAt": "2026-11-21T18:07:38.000Z",
-      "publisher": "いねむりさん",
-      "summary": "LLMにJSON形式での出力を指示しても、実運用では次のような「あと一歩で壊れているJSON」が必ず混ざります。 前後に説明文や ```json ... ``` のコードフェンスが付く 末尾カンマ（trailing comma）や // …"
+      "id": "40070f909871",
+      "title": "「社員全員がClaude Codeを使いこなす」を目指して、共有サーバーを作った",
+      "url": "https://zenn.dev/dionnam/articles/a8e6ce6ec60011",
+      "publishedAt": "2026-11-22T11:21:37.000Z",
+      "publisher": "Dion Nam",
+      "summary": "結論 お客さんの会社にClaude Codeを入れる仕事をしていますが、チーム全員に使いこなしてもらうのは本当に難しいです。入れても、結局使うのは一部の人だけ、ということがよくあります。 各自のClaude Codeは、会社のことを何も知…"
     },
     {
-      "id": "540c4fbb0293",
-      "title": "TechLead Conference 2026 Autumn 参加レポート:テックリードは、エンジニアの上位版ではなかった",
-      "url": "https://zenn.dev/dip_techblog/articles/f3e463cfe79fc3",
-      "publishedAt": "2026-11-21T16:59:37.000Z",
-      "publisher": "mstng",
-      "summary": "はじめに 2026年11月6日、TechLead Conference 2026 Autumn に参加してきました。主催は Eight、会場は有明、12時半から20時半までの一日開催です。650名の枠に当日受付も出ていました。 セッション…"
+      "id": "b9e5096142b1",
+      "title": "AIが書いた参考文献の2割は存在しない ― 架空引用はなぜ起きるか",
+      "url": "https://zenn.dev/mocchi_agent/articles/ceab2005012245",
+      "publishedAt": "2026-11-22T11:08:33.000Z",
+      "publisher": "もっちー",
+      "summary": "AIは検索して引用を書いていない 大規模言語モデルは、データベースを検索して参考文献を書いているのではありません。 「参考文献らしい文字列」を、文章の続きとして生成しています。 参考文献は形式が決まっています。 著者名、年、タイトル、雑誌…"
     },
     {
-      "id": "fd0c6b38b45d",
-      "title": "Steamの登録料$100と手数料30%をゼロに！30言語＆29通貨換算対応のゲーム配信ストア『Zteam』を個人開発した",
-      "url": "https://zenn.dev/mcp/articles/6b8f51b13c099b",
-      "publishedAt": "2026-11-21T16:31:05.000Z",
-      "publisher": "mcp",
-      "summary": "! TL;DR（3行まとめ） Steam Directの 「1タイトル登録料 $100（約15,500円）＋売上30%徴収＋審査30日待ち」 の壁をなくすため、登録料 ¥0・手数料 0%・即時公開のインディーゲーム配信ストア 『Zteam…"
+      "id": "4b073ad0ff55",
+      "title": "AIエージェントだけが発言できる「茶館」を作った ― 硅基茶馆（Silicon Teahouse）入門",
+      "url": "https://zenn.dev/ikingst/articles/40a1bf6fb79e7e",
+      "publishedAt": "2026-11-22T11:07:50.000Z",
+      "publisher": "Wilson Wang",
+      "summary": "はじめに 一人会社（OPC）向けプラットフォーム「1VR」の一コーナーとして、**AIエージェントだけが発言できる掲示板「硅基茶馆（Silicon Teahouse）」**を作りました。人間は全投稿を読めますが、投稿もコメントもできません…"
     },
     {
-      "id": "70b2f564585a",
-      "title": "複数のAIに役を分け、機械の関所で確かめる——ひとりで回すAIスタジオの設計と実装",
-      "url": "https://zenn.dev/zeuslab/books/3e4510456deb81",
-      "publishedAt": "2026-11-21T15:23:13.000Z",
-      "publisher": "ZEUS LAB",
-      "summary": "1つのチャット欄にすべてを任せていた頃、当方では同じ見落としが繰り返されました。構想・構造・実装・独立検の役を分け、議論の余地がないことはAIを使わない小さなプログラムに任せる。ひとりで事業を回すための設計を実際に動いているフックのコード…"
+      "id": "4da89cc79e93",
+      "title": "AIが書いた参考文献は本物か ― 架空引用を見抜く実践ガイド",
+      "url": "https://zenn.dev/mocchi_agent/books/6f2b409705a30f",
+      "publishedAt": "2026-11-22T11:01:10.000Z",
+      "publisher": "もっちー",
+      "summary": "AIが生成した参考文献に混ざる架空引用を、Crossref公式APIで照合して見抜く実践ガイド。判定基準、自動化コード、実測、チェックリストとテンプレート付き。"
     },
     {
-      "id": "fb927f866922",
-      "title": "月3,000回の無料枠で、「AIに任せないこと」を先に決めた。猫耳秘書と宇宙を旅した話",
-      "url": "https://zenn.dev/nanako1129/articles/799de43c4e556c",
-      "publishedAt": "2026-11-21T15:00:06.000Z",
-      "publisher": "Nanako",
-      "summary": "無料枠でAIを使うとしたら何をする？ 最近、個人開発でゲームを作っています。 さて、さくらのAI Engineの無料枠を使って何をしてみようか？ 今回は、個人で作っているブラウザゲームに、さくらのAI Engineで「喋れるAI秘書」を入…"
+      "id": "7b4a434c2fc2",
+      "title": "保育プロトタイピング体験会",
+      "url": "https://zenn.dev/protoout/books/19_hoiku-handson",
+      "publishedAt": "2026-11-22T10:41:15.000Z",
+      "publisher": "プロトアウトスタジオ",
+      "summary": "2026年12月に実施の保育ハンズオン資料です。"
     },
     {
-      "id": "75282cc55c02",
-      "title": "Antigravityの調子が良いので全部の作業を任せてみた話",
-      "url": "https://zenn.dev/ququla89/articles/antigravity-is-better-now-i-think",
-      "publishedAt": "2026-11-21T14:59:22.000Z",
-      "publisher": "QuQuLa89/キュキュラ",
-      "summary": "はじめに 皆様こんにちは！‍​‌‌‌​‌​​​‌‌​​‌​‌​‌‌‌‌​​​​‌‌‌​‌​​​​‌​‌‌​‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​​‌​​​​‌‌‌​‌​​‌‌‌​‌‌​​…"
+      "id": "2db477fb9849",
+      "title": "AIがルールを読み飛ばすので、「検査」に変えた：書き込み時に拒否するフックを作った記録",
+      "url": "https://zenn.dev/uzunaru/articles/f67ac6f4d8a540",
+      "publishedAt": "2026-11-22T09:56:02.000Z",
+      "publisher": "uzu",
+      "summary": "結論 AI に守らせたいルールを、文章（AGENTS.md など）で書いても、調子の悪い日に読み飛ばされます。何度も破られたルールは、「書き込み時に機械的に検査して、違反なら保存せずに拒否する」形にしました。 この記事では、次を書きます。…"
     },
     {
-      "id": "9ef9754fa815",
-      "title": "AIエージェントに渡すMCPの返り値で気をつけていること（Search ConsoleのMCPを作って）",
-      "url": "https://zenn.dev/yohei_kuno/articles/a1047222376276",
-      "publishedAt": "2026-11-21T14:45:34.000Z",
-      "publisher": "Kyohei",
-      "summary": "前の記事では、Search Consoleの数字から「どの記事の、何を、どう直すか」（処方）を出すサービス「検索カルテ」にMCPサーバーを付けて、Claude Codeに記事を直させた話を書きました。 その記事に、こんなコメントをもらいま…"
+      "id": "bc3171e4997c",
+      "title": "AIレビューを一往復させる。別の席の理由を一つ返して、判断の前後を比べる",
+      "url": "https://zenn.dev/honabochi/articles/ai-review-one-round",
+      "publishedAt": "2026-11-22T09:48:17.000Z",
+      "publisher": "NoBu",
+      "summary": "「図は第一段落の直後に置く」と答えたAIに、別のAIが見ていた点を一つ伝えました。「何段落目か」を決めていた答えが、「読者が比べたくなったところ」に変わる。二つの基準を同じ原稿で使っても、比べたくなる一文が一段あとに移れば、図を置く場所が…"
     },
     {
-      "id": "b84bb4dfc4fc",
-      "title": "AWS公式のマルチエージェントCLI「CAO」でClaude Codeに仕事を委任させたら、フォルダ信頼確認で60秒止まった",
-      "url": "https://zenn.dev/matsushima_a/articles/day-053-cao-trust-dialog-wall",
-      "publishedAt": "2026-11-21T14:37:55.000Z",
-      "publisher": "matsu",
-      "summary": "これは何を試した記事か AWS Labsが公開しているcli-agent-orchestrator(以下CAO、Apache-2.0)を、Claude Codeをワーカーにして実際に動かしてみた記事である。 CAOは、Claude Cod…"
+      "id": "c2a86a8cd776",
+      "title": "AIはなぜ「確率の計算」だけで会話や創造、深い推論までできるのか？—基礎から紐解くLLMの仕組みと進化",
+      "url": "https://zenn.dev/da39nbv3/articles/43d36d338629a0",
+      "publishedAt": "2026-11-22T09:09:38.000Z",
+      "publisher": "nori3",
+      "summary": "AIはなぜ「確率の計算」だけで会話や創造、深い推論までできるのか？——基礎から紐解くLLMの仕組みと進化 「ChatGPTなどの生成AIは、結局のところ『次に来る言葉を確率で予測して表示しているだけ』」 AIの仕組みを学び始めると、必ずと…"
     },
     {
-      "id": "353421a8a29b",
-      "title": "AIに丸投げしない設計論：「Pythonの定量フィルタ × Gemini API 1回リクエスト」で株式の情報収集を自動化した話",
-      "url": "https://zenn.dev/shimashimap/articles/3be54bfa332afc",
-      "publishedAt": "2026-11-21T14:22:43.000Z",
-      "publisher": "しまP",
-      "summary": "はじめに：「AIで投資なんて馬鹿げている」という誤解 SNSやネット上では、「AIを使って株式投資をするなんて馬鹿げている」「AIの予測は当たらない」といった意見をよく見かけます。 結論から言うと、その批判は「AIに丸投げする」という前提…"
+      "id": "b021fc3fd875",
+      "title": "【第19回】スキルを増やしっぱなしにするな。Hermes Agentはcronで作業履歴を毎朝自動同期し、使わないスキルも片付ける。",
+      "url": "https://zenn.dev/sora_biz/articles/hermes-vps-19-auto-sync-curator",
+      "publishedAt": "2026-11-22T08:52:51.000Z",
+      "publisher": "そら",
+      "summary": "! この記事をAIに読ませる この記事はGitHubの公開リポジトリで管理していて、本文のMarkdownをそのまま取得できる。Claude CodeやCodexなどのAIエージェントに手順を任せたいときは、次のURLを渡すだけでいい。 …"
     },
     {
-      "id": "1956243e24ff",
-      "title": "AIに開発を任せきれないのは、仕組み以上に気持ちの問題な気がする",
-      "url": "https://zenn.dev/sunny9/articles/7020ee629b43a8",
-      "publishedAt": "2026-11-21T14:04:55.000Z",
-      "publisher": "don",
-      "summary": "仕組みは整えてみたけれど、承認を手放せない AIに開発をほぼ丸投げするようなやり方が、最近どんどん広がっている。人間が都度口を出す「Human-in-the-Loop」から、AIの動きを横で監視する「Human-on-the-Loop」、…"
+      "id": "1be3f9327aad",
+      "title": "AI が書いて AI がレビューしたコードでも、3 回に 1 回はバグが残っていた",
+      "url": "https://zenn.dev/beyond/articles/92657b461ebcb4",
+      "publishedAt": "2026-11-22T08:38:26.000Z",
+      "publisher": "Beyond",
+      "summary": "こんにちは。Beyond と申します。コピペ百科事典「コピペディア」や弁護士マップなどのサイトを個人で開発・運用しています。実装もレビューも、すべて AI のエージェントに任せています。使っているのは、主にOpus5.5です。 開発では、…"
     },
     {
-      "id": "cce02ca0303b",
-      "title": "AIのレビューを、AIに判定させる ― 外部モデル多段レビューの運用実録",
-      "url": "https://zenn.dev/halu_c/articles/multi-model-review-pipeline",
-      "publishedAt": "2026-11-21T13:57:31.000Z",
-      "publisher": "halu_c",
-      "summary": "1. 背景：単一モデルへの依存で起きた問題 最近、毎日Museを少しずつカスタマイズしています。工夫した分だけ、できることがどんどん増えていくのが嬉しくて、すっかり夢中になっています。これまでメール整理やXのポスト収集などを任せてきました…"
+      "id": "a1c54860f654",
+      "title": "メール返信が速くなるプロンプトは「丁寧に書いて」ではなかった",
+      "url": "https://zenn.dev/walnut1681974/articles/49c2af6b6acb4e",
+      "publishedAt": "2026-11-22T08:34:45.000Z",
+      "publisher": "walnut",
+      "summary": "前回の記事（AIだけで会社を回して13日目、売上0円の実録）で、私たちが売っている会社員向けプロンプト集は「型」で作っていると書きました。今回はその型を、メール返信を例に全部見せます。 使う題材は、実際に商品に入れている「謝罪メール — …"
     }
   ],
-  "fetchedAt": "2026-11-22T04:54:26.676Z",
+  "fetchedAt": "2026-11-22T13:03:00.330Z",
   "stale": false,
   "error": null
 }
