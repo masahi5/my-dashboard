@@ -6,6 +6,38 @@
   "category": "ai",
   "items": [
     {
+      "id": "82f7ebc3b811",
+      "title": "LLM実験の採点コードは信用できるのか？――1,152件の独立再計算とバグ注入検証",
+      "url": "https://zenn.dev/shinyahayakawa/articles/9f6c843983e15d",
+      "publishedAt": "2026-11-22T12:37:13.000Z",
+      "publisher": "shin",
+      "summary": "LLMを使った実験では、モデルの回答を保存して正答率を計算すれば、結果が完成したように見えます。しかし、採点プログラム自体が間違っていたらどうなるでしょうか。 元の採点コードをもう一度実行して同じ数字が出ても、それだけでは採点ロジックの誤…"
+    },
+    {
+      "id": "529bb28a7d3c",
+      "title": "ソフトウェアファクトリーは不要なのか？1.5倍の中身はファクトリー以外だった",
+      "url": "https://zenn.dev/z_maruhira/articles/software-factory-needed",
+      "publishedAt": "2026-11-22T12:10:53.000Z",
+      "publisher": "y-hirakaw",
+      "summary": "Issueやチケットを作るとAIが勝手に起動して設計や実装を進めてPRを出す仕組みを、ソフトウェアファクトリーと呼ぶことが増えました。一方で世の中では「チケットを作ったら勝手に起動してくれるだけでしょ」という声もちらほら見かけます。同僚か…"
+    },
+    {
+      "id": "858a1974b1e1",
+      "title": "音声文字起こしをRAGに活用する前に考えたいこと：AI要約と検索精度を高めるデータ設計",
+      "url": "https://zenn.dev/cicisee/articles/78c1db637be60f",
+      "publishedAt": "2026-11-22T11:50:58.000Z",
+      "publisher": "CiciSee",
+      "summary": "はじめに 最近、社内ナレッジ検索やAIエージェントの開発において、RAG（Retrieval-Augmented Generation）を利用する機会が増えています。PDFや社内ドキュメントを検索対象にする構成は比較的よく見かけますが、実…"
+    },
+    {
+      "id": "284355f3d050",
+      "title": "文化祭POSシステムをCloudflareで自作し完売までを支えた話",
+      "url": "https://zenn.dev/sunsun_eng/articles/school-festival-pos-cloudflare",
+      "publishedAt": "2026-11-22T11:50:43.000Z",
+      "publisher": "すんすん",
+      "summary": "文化祭POSシステムをCloudflareで自作し完売までを支えた話 この記事の要点 文化祭のPOSシステム自作は、Cloudflare WorkersとD1を組み合わせると短期開発でも本番運用に耐える構成を作れます。 完売間際は注文が集…"
+    },
+    {
       "id": "42fe8176769d",
       "title": "数学と物理の動画化は難しい。それでもAIを使ったら、記事を動画にできた。",
       "url": "https://zenn.dev/ryanphys/articles/f2d8db3ccef11c",
@@ -55,11 +87,11 @@
     },
     {
       "id": "2db477fb9849",
-      "title": "AIがルールを読み飛ばすので、「検査」に変えた：書き込み時に拒否するフックを作った記録",
+      "title": "AIがルールを読み飛ばすので、「ガードレール」に変えた：書き込み時に拒否するフックを作った記録",
       "url": "https://zenn.dev/uzunaru/articles/f67ac6f4d8a540",
       "publishedAt": "2026-11-22T09:56:02.000Z",
       "publisher": "uzu",
-      "summary": "結論 AI に守らせたいルールを、文章（AGENTS.md など）で書いても、調子の悪い日に読み飛ばされます。何度も破られたルールは、「書き込み時に機械的に検査して、違反なら保存せずに拒否する」形にしました。 この記事では、次を書きます。…"
+      "summary": "結論 AI に守らせたいルールを、文章（AGENTS.md など）で書いても、調子の悪い日に読み飛ばされます。何度も破られたルールは、書き込み時に機械的に検査して、違反なら保存せずに拒否する「ガードレール」にしました。 この記事では、次を…"
     },
     {
       "id": "bc3171e4997c",
@@ -68,41 +100,9 @@
       "publishedAt": "2026-11-22T09:48:17.000Z",
       "publisher": "NoBu",
       "summary": "「図は第一段落の直後に置く」と答えたAIに、別のAIが見ていた点を一つ伝えました。「何段落目か」を決めていた答えが、「読者が比べたくなったところ」に変わる。二つの基準を同じ原稿で使っても、比べたくなる一文が一段あとに移れば、図を置く場所が…"
-    },
-    {
-      "id": "c2a86a8cd776",
-      "title": "AIはなぜ「確率の計算」だけで会話や創造、深い推論までできるのか？—基礎から紐解くLLMの仕組みと進化",
-      "url": "https://zenn.dev/da39nbv3/articles/43d36d338629a0",
-      "publishedAt": "2026-11-22T09:09:38.000Z",
-      "publisher": "nori3",
-      "summary": "AIはなぜ「確率の計算」だけで会話や創造、深い推論までできるのか？——基礎から紐解くLLMの仕組みと進化 「ChatGPTなどの生成AIは、結局のところ『次に来る言葉を確率で予測して表示しているだけ』」 AIの仕組みを学び始めると、必ずと…"
-    },
-    {
-      "id": "b021fc3fd875",
-      "title": "【第19回】スキルを増やしっぱなしにするな。Hermes Agentはcronで作業履歴を毎朝自動同期し、使わないスキルも片付ける。",
-      "url": "https://zenn.dev/sora_biz/articles/hermes-vps-19-auto-sync-curator",
-      "publishedAt": "2026-11-22T08:52:51.000Z",
-      "publisher": "そら",
-      "summary": "! この記事をAIに読ませる この記事はGitHubの公開リポジトリで管理していて、本文のMarkdownをそのまま取得できる。Claude CodeやCodexなどのAIエージェントに手順を任せたいときは、次のURLを渡すだけでいい。 …"
-    },
-    {
-      "id": "1be3f9327aad",
-      "title": "AI が書いて AI がレビューしたコードでも、3 回に 1 回はバグが残っていた",
-      "url": "https://zenn.dev/beyond/articles/92657b461ebcb4",
-      "publishedAt": "2026-11-22T08:38:26.000Z",
-      "publisher": "Beyond",
-      "summary": "こんにちは。Beyond と申します。コピペ百科事典「コピペディア」や弁護士マップなどのサイトを個人で開発・運用しています。実装もレビューも、すべて AI のエージェントに任せています。使っているのは、主にOpus5.5です。 開発では、…"
-    },
-    {
-      "id": "a1c54860f654",
-      "title": "メール返信が速くなるプロンプトは「丁寧に書いて」ではなかった",
-      "url": "https://zenn.dev/walnut1681974/articles/49c2af6b6acb4e",
-      "publishedAt": "2026-11-22T08:34:45.000Z",
-      "publisher": "walnut",
-      "summary": "前回の記事（AIだけで会社を回して13日目、売上0円の実録）で、私たちが売っている会社員向けプロンプト集は「型」で作っていると書きました。今回はその型を、メール返信を例に全部見せます。 使う題材は、実際に商品に入れている「謝罪メール — …"
     }
   ],
-  "fetchedAt": "2026-11-22T13:03:00.330Z",
+  "fetchedAt": "2026-11-22T20:20:33.746Z",
   "stale": false,
   "error": null
 }
