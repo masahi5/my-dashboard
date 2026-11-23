@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "3165cbdda1b0",
-      "title": "Claude Code に渡す設計書の型：冒頭に読み方、末尾に完了条件つきのステップ表",
-      "url": "https://zenn.dev/aikyoju_lab/articles/aikyoju-2026-11-004",
-      "publishedAt": "2026-11-22T23:53:44.000Z",
-      "publisher": "アイ教授とまなぶのAI教室",
-      "summary": "対象読者 Claude Code などのコーディングエージェントに、数ステップ以上かかる機能を作らせ始めた人。 「全部作って」と頼んで、想定外のものが一度に出てきて手戻りした経験がある人向けです。 結論：人向けの設計書に、AI 向けの章を…"
+      "id": "21284924c7cb",
+      "title": "会議にボットを入れずに、2秒で事実確認＆ローカルMCP連携するネイティブMacアプリ「Citeside」を作った話",
+      "url": "https://zenn.dev/citeside/articles/64fb05116ab0e1",
+      "publishedAt": "2026-11-23T07:03:24.000Z",
+      "publisher": "Citeside — Live AI Meeting Assistant",
+      "summary": "なぜ作ったか 英語の顧客ミーティングをほぼ毎日こなす中で、二つの不満がずっと残っていました。一つは、録音ボット（Otter / Notta / Fireflies など）が Zoom・Meet・Teams に「参加者」として浮かんでくるこ…"
     },
     {
-      "id": "17f340023fac",
-      "title": "欲しいものは、作れる",
-      "url": "https://zenn.dev/miyu9muses/articles/build-what-you-want",
-      "publishedAt": "2026-11-22T23:42:04.000Z",
-      "publisher": "みゆ",
-      "summary": "はじめに 欲しいものは、たいてい既製品の中から探すものだった。アプリストアを検索し、レビューを比べ、自分の使い方に一番近いものを選んで、残りは自分が合わせる。それが長らく、ソフトウェアとの付き合い方だった。 その前提が、両側から静かに変わ…"
+      "id": "82fb13f45da2",
+      "title": "Building Full-Length Vocals and Instrumentals with Dual-Track AI Music",
+      "url": "https://zenn.dev/auteoteam/articles/f1373a3274e14c",
+      "publishedAt": "2026-11-23T06:55:25.000Z",
+      "publisher": "Auteo Team",
+      "summary": "For developers building video editors, indie games, podcast pipelines, or prototyping media workflows, background audio…"
     },
     {
-      "id": "a9d013b4da43",
-      "title": "パッチの向こう側 ── AI時代のエンタープライズ・セキュリティを、世界の提言から読む",
-      "url": "https://zenn.dev/leading_ai/books/enterprise-security-in-the-ai-era",
-      "publishedAt": "2026-11-22T23:23:43.000Z",
-      "publisher": "山内 怜史（Satoshi Yamauchi）",
-      "summary": "世界8種類の発行元の提言211件を一次資料で確かめ、攻撃が成功しても意味を持つ「何を持つか・いつ気づくか・どう伝えるか」の三つを示す更新型の提言書。CC BY 4.0。"
+      "id": "fa2022135b2e",
+      "title": "連携機能がないなら、AI同士をメールで会話させればいい",
+      "url": "https://zenn.dev/uniale/articles/9010b26e0d0ffb",
+      "publishedAt": "2026-11-23T06:46:46.000Z",
+      "publisher": "uniale",
+      "summary": "はじめに：ボット同士を話させたい PC 上では Orca Bots のボット（以下、エージェントB）が動いていて、クラウド側には Muse のエージェント（以下、エージェントA）がいる。性質の違う作業をそれぞれに任せていると、「この2体が…"
     },
     {
-      "id": "49d96b70e91c",
-      "title": "Claude Meetings、Sheets、Whiteboardsとは？ ── 新機能の中身と、その先にあるAnthropicの戦略",
-      "url": "https://zenn.dev/leading_ai/articles/claude-sheets-whiteboards-meetings",
-      "publishedAt": "2026-11-22T23:16:38.000Z",
-      "publisher": "山内 怜史（Satoshi Yamauchi）",
-      "summary": "第１章：Anthropicは11月10日、Claudeに会議・表計算・ホワイトボードの機能を加えた 2026年11月10日、AnthropicはClaudeに新しい機能をまとめて加えた。 表計算のClaude Sheetsと、ホワイトボー…"
+      "id": "bf15cf4f321b",
+      "title": "マメ｜声だけで、店の今日が回る。",
+      "url": "https://zenn.dev/noritaka1166/articles/norinorisan-development-start",
+      "publishedAt": "2026-11-23T06:32:23.000Z",
+      "publisher": "noritaka",
+      "summary": "1. 作品名・キャッチコピー 作品名は「マメ」です。 声だけで、店の今日が回る。 AI HACK 2026 Special Oneday Hackathonのテーマ「話すだけで誰かの面倒を減らすアプリ」をきっかけに、小さなカフェの申し送り…"
     },
     {
-      "id": "e8a578d26ea7",
-      "title": "AIがテストに合わせて実装していない？仕様テストを隠して確かめる",
-      "url": "https://zenn.dev/h_aso/articles/isolated-spec-tests-claude-code",
-      "publishedAt": "2026-11-22T23:00:05.000Z",
-      "publisher": "H.Aso",
-      "summary": "はじめに 仕様書を作ってAIに実装してもらうと、テストは全部通っているのに、よく見ると本来の意図とは少し違う実装になっていた、ということがあると思います。AIがテストに合わせて答え合わせのように作ってしまうと、そのずれに気づかないまま開発…"
+      "id": "f806694349b0",
+      "title": "画像をGIFにする方法を2つ試して、用途で選び分けた話",
+      "url": "https://zenn.dev/kinevellogif/articles/6e838ee6a4fbf8",
+      "publishedAt": "2026-11-23T06:09:03.000Z",
+      "publisher": "Kinevello Notes",
+      "summary": "ランディングページに小さなGIFを置きたくて、手元の商品写真をループさせようとしました。ところが、検索して出てくる「画像をGIFにする」ツールの多くは、すでにある複数フレームをまとめる変換ツールです。1枚の写真を入れると、1枚のGIFが返…"
     },
     {
-      "id": "478314318886",
-      "title": "AIが「できました」と言ったのに動かない。直すルールを10個書いて、測って、効かない5個を消した",
-      "url": "https://zenn.dev/rickorphen/articles/b4945071577fe7",
-      "publishedAt": "2026-11-22T23:00:05.000Z",
-      "publisher": "RICKORPHEN",
-      "summary": "AI に「できました」と言われたのに、動かなかったことはありませんか？ 直してもらったら、今度は別のところで止まる。同じようなエラーを、何回も、何十回も繰り返す。そんな経験はありませんか？ 僕はずっと、それで悩んでいました。 そして分かっ…"
+      "id": "2ccb740debd6",
+      "title": "ルンバにAIとの付き合い方を教えてもらった",
+      "url": "https://zenn.dev/ryokasai/articles/robot-vacuum-and-ai",
+      "publishedAt": "2026-11-23T06:03:22.000Z",
+      "publisher": "rkasai127",
+      "summary": "ブラックフライデーで安くなっていたルンバ(ロボット掃除機)を買いました。 買う前までは、ルンバなんて高価なもの必要ない。掃除は手でやればよいと思っていました。 ですが、実際に使ってみると非常に良い。 この感覚どこかで感じたことあるなと思っ…"
     },
     {
-      "id": "90dbd88e3e1b",
-      "title": "Claude Code でスマホに通知が行くようにした：Stop フックと ntfy で、返信を届ける",
-      "url": "https://zenn.dev/uzunaru/articles/412dbf004d4fa3",
-      "publishedAt": "2026-11-22T22:47:43.000Z",
-      "publisher": "uzu",
-      "summary": "この記事でやったこと Claude Code で、返信が終わるたびに、スマホへ通知が行くようにしました。仕組みは、**Stop フック（返信が終わるたびに、自動で動く）**と、通知サービス ntfy です。通知を送る本体は、特定の AI …"
+      "id": "025ff4737bd5",
+      "title": "キャリアシフトAI",
+      "url": "https://zenn.dev/bishamo/articles/721f1763c3493c",
+      "publishedAt": "2026-11-23T06:01:05.000Z",
+      "publisher": "Bishamo",
+      "summary": "キャリアシフトAI：プロダクト解説 作品名・キャッチコピー 作品名：キャリアシフトAI キャッチコピー：独り言から、人生の新しい選択肢を広げるAIエージェント （非IT層向け。ITスキル不要。声で独り言を話すだけで、目標設定から30日検証…"
     },
     {
-      "id": "03489afbe930",
-      "title": "OpenCodeでGoogle Gemini無料APIを使うまでの手順",
-      "url": "https://zenn.dev/yoshinn/articles/opencode_gemini_setup",
-      "publishedAt": "2026-11-22T22:36:59.000Z",
-      "publisher": "yoshishinnze",
-      "summary": "OpenCode v2.3.0がインストール済みの環境から、Google Geminiの無料APIキーを取得し、OpenCodeに接続して実際に使い始めるまでの過程を解説します。 ステップ1：Google AI Studioで無料APIキ…"
+      "id": "eca80ade4264",
+      "title": "2026/11/23(更新中) ハッカソン@東京御茶ノ水",
+      "url": "https://zenn.dev/sasaki7/articles/19ed1fc4ff2b5b",
+      "publishedAt": "2026-11-23T06:00:36.000Z",
+      "publisher": "zenn_user",
+      "summary": "・10：00～15：00 ハッカソンの取組みについての記事となる。 ・課題設定/解決策検討、音声入力について、以下の役割を設定しアプリの作成に取組む。 ・役割：カフェの店長、お母さんについて課題を検討する。 １．作品名・キャッチコピー ア…"
     },
     {
-      "id": "fb5a4795cf74",
-      "title": "AI時代にエンジニアのキャリアを支えるリーダーは何をすべきか",
-      "url": "https://zenn.dev/matsunaopen/articles/ai-era-engineer-career-coaching",
-      "publishedAt": "2026-11-22T22:00:05.000Z",
-      "publisher": "MatsuNaoPen",
-      "summary": "1on1やキャリア面談で、メンバーから「これからどう成長すればよいか」と相談される場面は少なくありません。 経歴の異なるメンバーに自分の経験則を当てはめられない難しさは以前からありました。そこへAIコーディングエージェントが現場に入り、同…"
+      "id": "ed6b7793a22b",
+      "title": "Emotion-Tabu Edge Biped: Autonomous Night-Escort Robot Architecture /",
+      "url": "https://zenn.dev/taigensato/articles/0b05211e55d32d",
+      "publishedAt": "2026-11-23T05:18:10.000Z",
+      "publisher": "taigen",
+      "summary": "markdown Emotion-Tabu Edge Biped: Autonomous Night-Escort Robot Architecture 本プロジェクト（2足歩行アーキテクチャ）: https://github.com/t…"
     },
     {
-      "id": "e5e2df525d0c",
-      "title": "常駐型AIチャットエージェントが「送信先を取り違えない」ようにする出力先検証設計",
-      "url": "https://zenn.dev/hach/articles/chat-agent-outbound-destination-validation-design",
-      "publishedAt": "2026-11-22T20:11:58.000Z",
-      "publisher": "HACH",
-      "summary": "常駐型のAIチャットエージェントをSlack・Teams・Chatworkなど複数チャネル・複数ワークスペースに展開していくと、人間の「誤送信・誤爆」に相当する事故がエージェント側にも構造的に発生しやすくなります。人間の誤送信は「宛先を選…"
+      "id": "264f380a4fb0",
+      "title": "Tech Watch 2026-11-23: ハーネスと検証の境界",
+      "url": "https://zenn.dev/laiken/articles/20261123-tech-watch",
+      "publishedAt": "2026-11-23T05:15:10.000Z",
+      "publisher": "らいけん",
+      "summary": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: Hugging Face の比較では、課題の成功率が上がる一方で、使うトークンは減っている。同じモデルの重みを基にしているのに、なぜ両方が動…"
     },
     {
-      "id": "4e45c5afd25d",
-      "title": "AIオーケストレーションに足りないのは、思いやりだった",
-      "url": "https://zenn.dev/hummer/articles/claude-kitty-omoiyari",
-      "publishedAt": "2026-11-22T20:05:05.000Z",
-      "publisher": "Yamamoto Yuji / はまあ",
-      "summary": "Claude Code のセッションを kitty に並べた画面。右下のペインだけが、質問をして人の返事を待っています はじめに 最初に白状しておくと、AI エージェントを並べて動かす道具を作るのは、これで 4 回目です。 前の 3 つは…"
+      "id": "594f181e158b",
+      "title": "20年目のアーキテクトがAI生成コードをレビューするときに「匂い」を感じる5つの箇所",
+      "url": "https://zenn.dev/ritsu_nakagami/articles/30e4385da08573",
+      "publishedAt": "2026-11-23T04:21:01.000Z",
+      "publisher": "仲神 律",
+      "summary": "はじめに：構文エラーがないのに本番で壊れるコード CursorやGitHub Copilot、Claude Codeといった生成AIを使った開発が当たり前になり、とりあえず動くプロトタイプを作る速度は劇的に上がりました。 しかし、20年以…"
     },
     {
-      "id": "874d97d1ef78",
-      "title": "LLMが勾配なしで重みを書き換える「Self-Rewriting」の仕組みとリスク",
-      "url": "https://zenn.dev/nalt/articles/llm-self-rewriting-weights-arxiv-2611",
-      "publishedAt": "2026-11-22T17:21:40.000Z",
-      "publisher": "nalt",
-      "summary": "「モデルの弱点を直すには、重い GPU で勾配を回すか、推論時に高いトークン代を払い続けるしかない」――そう思い込んでいませんか？ 実は 「学習と推論の壁」は知能の制約ではなくツールの制約にすぎず、27B のオープン LLM が勾配計算ゼ…"
+      "id": "42b28d108859",
+      "title": "白背景の説明動画は、フレームと時間を分けて検証する",
+      "url": "https://zenn.dev/valleywag/articles/2376ec3eac2848",
+      "publishedAt": "2026-11-23T04:06:33.000Z",
+      "publisher": "valleywag",
+      "summary": "背景を白くした動画を検証するとき、停止画がきれいなだけでは判断できません。静止した輪郭の品質と、時間に沿った変化を別の項目にすると、処理後の確認が具体的になります。ここでは短い操作説明動画を想定します。 検証用クリップの条件を固定する 最…"
     }
   ],
-  "fetchedAt": "2026-11-23T01:01:55.232Z",
+  "fetchedAt": "2026-11-23T09:00:50.615Z",
   "stale": false,
   "error": null
 }

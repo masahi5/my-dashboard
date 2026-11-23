@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "dc64624dbef6",
-      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
-      "url": "https://huggingface.co/papers/2611.26627",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional …",
-      "score": 20
+      "id": "faa9ed2d32b5",
+      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+      "url": "https://huggingface.co/papers/2611.27193",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual p…",
+      "score": 54
     },
     {
-      "id": "7cfe18624610",
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "url": "https://huggingface.co/papers/2611.21885",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a …",
-      "score": 19
+      "id": "9ae26462b023",
+      "title": "Non-penetrating World Models",
+      "url": "https://huggingface.co/papers/2611.27963",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing m…",
+      "score": 39
     },
     {
-      "id": "5c13692ef434",
-      "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
-      "url": "https://huggingface.co/papers/2611.25567",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still…",
-      "score": 12
-    },
-    {
-      "id": "481728535ff3",
-      "title": "Teaching Vision-Language-Action Models to Stop Safely",
-      "url": "https://huggingface.co/papers/2611.26239",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instru…",
-      "score": 9
-    },
-    {
-      "id": "ba5a7ac789de",
-      "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
-      "url": "https://huggingface.co/papers/2611.26211",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smalle…",
-      "score": 7
-    },
-    {
-      "id": "1cd2e2a1181f",
-      "title": "System 1 agents: a method for local, reliable and fast agentic AI",
-      "url": "https://huggingface.co/papers/2611.21053",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large …",
-      "score": 6
-    },
-    {
-      "id": "e5d504fd1da5",
-      "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
-      "url": "https://huggingface.co/papers/2611.25604",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarant…",
-      "score": 4
-    },
-    {
-      "id": "b487dae419e7",
-      "title": "AURA: AUdio-dRiven streaming Avatar",
-      "url": "https://huggingface.co/papers/2611.26540",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens o…",
-      "score": 4
-    },
-    {
-      "id": "a357de5b78e0",
-      "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
-      "url": "https://huggingface.co/papers/2611.25200",
+      "id": "bac18e84ecf3",
+      "title": "Clover-35B-A3B-Preview Technical Report",
+      "url": "https://huggingface.co/papers/2611.24636",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether foreca…",
-      "score": 3
+      "summary": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total param…",
+      "score": 32
     },
     {
-      "id": "c969d8b17fa4",
-      "title": "In Situ Training of Optical Neural Networks by Coding Agents",
-      "url": "https://huggingface.co/papers/2611.23875",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Optical neural networks promise fast, energy-efficient computing, but every device departs from its design and must be …",
-      "score": 3
-    },
-    {
-      "id": "4988291b46e3",
-      "title": "Time Series Structure Learning with Local Causal Parent Discovery",
-      "url": "https://huggingface.co/papers/2611.26232",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observation…",
-      "score": 2
-    },
-    {
-      "id": "5ec33d62891b",
-      "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
-      "url": "https://huggingface.co/papers/2611.15941",
+      "id": "424d6e90626b",
+      "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
+      "url": "https://huggingface.co/papers/2611.15449",
       "publishedAt": "2026-11-11T00:00:00.000Z",
-      "summary": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and …",
+      "summary": "Text-aware image super-resolution (TAISR) aims to recover high-resolution images from low-resolution inputs while prese…",
+      "score": 17
+    },
+    {
+      "id": "704f2c954fe6",
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "url": "https://huggingface.co/papers/2611.27973",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory …",
+      "score": 10
+    },
+    {
+      "id": "43682d133795",
+      "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+      "url": "https://huggingface.co/papers/2611.27915",
+      "publishedAt": "2026-11-20T17:52:02.000Z",
+      "summary": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about…",
+      "score": 5
+    },
+    {
+      "id": "c6a8416bd7e7",
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "url": "https://huggingface.co/papers/2611.26613",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots dir…",
+      "score": 3
+    },
+    {
+      "id": "1f0b976bd728",
+      "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
+      "url": "https://huggingface.co/papers/2611.27229",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Prompt enhancement (PE) refines concise user prompts into detailed descriptions to improve the compositional aesthetics…",
+      "score": 3
+    },
+    {
+      "id": "fc42eef45718",
+      "title": "Motion-Aware Reward Modeling for Instruction-Guided Video Editing",
+      "url": "https://huggingface.co/papers/2611.22495",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "Reward models for instruction-guided video editing can favor temporal consistency at the expense of motion. We study th…",
       "score": 1
+    },
+    {
+      "id": "3e8ec5d25606",
+      "title": "Intent Contracts: Taking Tools Away from Agents",
+      "url": "https://huggingface.co/papers/2611.24025",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Intent contracts are an authorization interface for tool-using LLM agents in which the planning model holds no tools. F…",
+      "score": 1
+    },
+    {
+      "id": "cf531a3f4409",
+      "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
+      "url": "https://huggingface.co/papers/2611.27211",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Personalized long-form generation asks a language model to write new text the way a specific user would. The standard r…",
+      "score": 1
+    },
+    {
+      "id": "b2aa55873b02",
+      "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
+      "url": "https://huggingface.co/papers/2611.19247",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "summary": "For more than half a century, video games have pursued better graphics, more natural interaction, and more engaging gam…",
+      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-23T01:01:55.097Z",
+  "fetchedAt": "2026-11-23T09:00:50.492Z",
   "stale": false,
   "error": null
 }
