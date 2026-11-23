@@ -6,35 +6,11 @@
   "category": "ai",
   "items": [
     {
-      "id": "faa9ed2d32b5",
-      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
-      "url": "https://huggingface.co/papers/2611.27193",
+      "id": "93104eb2241d",
+      "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
+      "url": "https://huggingface.co/papers/2611.26954",
       "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual p…",
-      "score": 54
-    },
-    {
-      "id": "9ae26462b023",
-      "title": "Non-penetrating World Models",
-      "url": "https://huggingface.co/papers/2611.27963",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing m…",
-      "score": 39
-    },
-    {
-      "id": "bac18e84ecf3",
-      "title": "Clover-35B-A3B-Preview Technical Report",
-      "url": "https://huggingface.co/papers/2611.24636",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total param…",
-      "score": 32
-    },
-    {
-      "id": "424d6e90626b",
-      "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
-      "url": "https://huggingface.co/papers/2611.15449",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "summary": "Text-aware image super-resolution (TAISR) aims to recover high-resolution images from low-resolution inputs while prese…",
+      "summary": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently ob…",
       "score": 17
     },
     {
@@ -43,7 +19,7 @@
       "url": "https://huggingface.co/papers/2611.27973",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory …",
-      "score": 10
+      "score": 17
     },
     {
       "id": "43682d133795",
@@ -51,23 +27,55 @@
       "url": "https://huggingface.co/papers/2611.27915",
       "publishedAt": "2026-11-20T17:52:02.000Z",
       "summary": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about…",
-      "score": 5
+      "score": 6
     },
     {
-      "id": "c6a8416bd7e7",
-      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
-      "url": "https://huggingface.co/papers/2611.26613",
+      "id": "a5679825ebd0",
+      "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
+      "url": "https://huggingface.co/papers/2611.25252",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Coding agents built on large language models (LLMs) now help develop many models published as general solutions. Should…",
+      "score": 4
+    },
+    {
+      "id": "3e8ec5d25606",
+      "title": "Intent Contracts: Taking Tools Away from Agents",
+      "url": "https://huggingface.co/papers/2611.24025",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Intent contracts are an authorization interface for tool-using LLM agents in which the planning model holds no tools. F…",
+      "score": 4
+    },
+    {
+      "id": "b8f819a06126",
+      "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
+      "url": "https://huggingface.co/papers/2611.27398",
+      "publishedAt": "2026-11-20T10:03:29.000Z",
+      "summary": "We introduce Transformation Tracking and Understanding (TTU), extending video object tracking to environments where obj…",
+      "score": 3
+    },
+    {
+      "id": "9fb779212ced",
+      "title": "Exploited Before It Was Fixed? Vulnerability Timelines from Open, Machine-Readable Evidence",
+      "url": "https://huggingface.co/papers/2611.22479",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "-05-X-03), Known Exploited Vulnerabilities (KEV) catalogs, and exploitation sightings. We introduce an evidence model i…",
+      "score": 3
+    },
+    {
+      "id": "1a9fecf80244",
+      "title": "Search From the Start: Search-Native Pretraining for Language Models",
+      "url": "https://huggingface.co/papers/2611.26809",
       "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots dir…",
-      "score": 3
+      "summary": "Modern language models (LMs) are increasingly deployed with access to search tools at inference. Yet pretraining remain…",
+      "score": 2
     },
     {
-      "id": "1f0b976bd728",
-      "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
-      "url": "https://huggingface.co/papers/2611.27229",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Prompt enhancement (PE) refines concise user prompts into detailed descriptions to improve the compositional aesthetics…",
-      "score": 3
+      "id": "b2aa55873b02",
+      "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
+      "url": "https://huggingface.co/papers/2611.19247",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "summary": "For more than half a century, video games have pursued better graphics, more natural interaction, and more engaging gam…",
+      "score": 2
     },
     {
       "id": "fc42eef45718",
@@ -78,31 +86,23 @@
       "score": 1
     },
     {
-      "id": "3e8ec5d25606",
-      "title": "Intent Contracts: Taking Tools Away from Agents",
-      "url": "https://huggingface.co/papers/2611.24025",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Intent contracts are an authorization interface for tool-using LLM agents in which the planning model holds no tools. F…",
-      "score": 1
-    },
-    {
-      "id": "cf531a3f4409",
-      "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
-      "url": "https://huggingface.co/papers/2611.27211",
+      "id": "0366ae6d54cb",
+      "title": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
+      "url": "https://huggingface.co/papers/2611.27490",
       "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Personalized long-form generation asks a language model to write new text the way a specific user would. The standard r…",
-      "score": 1
+      "summary": "Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer…",
+      "score": 0
     },
     {
-      "id": "b2aa55873b02",
-      "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
-      "url": "https://huggingface.co/papers/2611.19247",
-      "publishedAt": "2026-11-14T00:00:00.000Z",
-      "summary": "For more than half a century, video games have pursued better graphics, more natural interaction, and more engaging gam…",
+      "id": "012893528901",
+      "title": "Autoregressive View Model",
+      "url": "https://huggingface.co/papers/2611.23417",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an ex…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-23T09:00:50.492Z",
+  "fetchedAt": "2026-11-23T21:12:02.773Z",
   "stale": false,
   "error": null
 }
