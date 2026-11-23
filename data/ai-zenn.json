@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "82f7ebc3b811",
-      "title": "LLM実験の採点コードは信用できるのか？――1,152件の独立再計算とバグ注入検証",
-      "url": "https://zenn.dev/shinyahayakawa/articles/9f6c843983e15d",
-      "publishedAt": "2026-11-22T12:37:13.000Z",
-      "publisher": "shin",
-      "summary": "LLMを使った実験では、モデルの回答を保存して正答率を計算すれば、結果が完成したように見えます。しかし、採点プログラム自体が間違っていたらどうなるでしょうか。 元の採点コードをもう一度実行して同じ数字が出ても、それだけでは採点ロジックの誤…"
+      "id": "3165cbdda1b0",
+      "title": "Claude Code に渡す設計書の型：冒頭に読み方、末尾に完了条件つきのステップ表",
+      "url": "https://zenn.dev/aikyoju_lab/articles/aikyoju-2026-11-004",
+      "publishedAt": "2026-11-22T23:53:44.000Z",
+      "publisher": "アイ教授とまなぶのAI教室",
+      "summary": "対象読者 Claude Code などのコーディングエージェントに、数ステップ以上かかる機能を作らせ始めた人。 「全部作って」と頼んで、想定外のものが一度に出てきて手戻りした経験がある人向けです。 結論：人向けの設計書に、AI 向けの章を…"
     },
     {
-      "id": "529bb28a7d3c",
-      "title": "ソフトウェアファクトリーは不要なのか？1.5倍の中身はファクトリー以外だった",
-      "url": "https://zenn.dev/z_maruhira/articles/software-factory-needed",
-      "publishedAt": "2026-11-22T12:10:53.000Z",
-      "publisher": "y-hirakaw",
-      "summary": "Issueやチケットを作るとAIが勝手に起動して設計や実装を進めてPRを出す仕組みを、ソフトウェアファクトリーと呼ぶことが増えました。一方で世の中では「チケットを作ったら勝手に起動してくれるだけでしょ」という声もちらほら見かけます。同僚か…"
+      "id": "17f340023fac",
+      "title": "欲しいものは、作れる",
+      "url": "https://zenn.dev/miyu9muses/articles/build-what-you-want",
+      "publishedAt": "2026-11-22T23:42:04.000Z",
+      "publisher": "みゆ",
+      "summary": "はじめに 欲しいものは、たいてい既製品の中から探すものだった。アプリストアを検索し、レビューを比べ、自分の使い方に一番近いものを選んで、残りは自分が合わせる。それが長らく、ソフトウェアとの付き合い方だった。 その前提が、両側から静かに変わ…"
     },
     {
-      "id": "858a1974b1e1",
-      "title": "音声文字起こしをRAGに活用する前に考えたいこと：AI要約と検索精度を高めるデータ設計",
-      "url": "https://zenn.dev/cicisee/articles/78c1db637be60f",
-      "publishedAt": "2026-11-22T11:50:58.000Z",
-      "publisher": "CiciSee",
-      "summary": "はじめに 最近、社内ナレッジ検索やAIエージェントの開発において、RAG（Retrieval-Augmented Generation）を利用する機会が増えています。PDFや社内ドキュメントを検索対象にする構成は比較的よく見かけますが、実…"
+      "id": "a9d013b4da43",
+      "title": "パッチの向こう側 ── AI時代のエンタープライズ・セキュリティを、世界の提言から読む",
+      "url": "https://zenn.dev/leading_ai/books/enterprise-security-in-the-ai-era",
+      "publishedAt": "2026-11-22T23:23:43.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "世界8種類の発行元の提言211件を一次資料で確かめ、攻撃が成功しても意味を持つ「何を持つか・いつ気づくか・どう伝えるか」の三つを示す更新型の提言書。CC BY 4.0。"
     },
     {
-      "id": "284355f3d050",
-      "title": "文化祭POSシステムをCloudflareで自作し完売までを支えた話",
-      "url": "https://zenn.dev/sunsun_eng/articles/school-festival-pos-cloudflare",
-      "publishedAt": "2026-11-22T11:50:43.000Z",
-      "publisher": "すんすん",
-      "summary": "文化祭POSシステムをCloudflareで自作し完売までを支えた話 この記事の要点 文化祭のPOSシステム自作は、Cloudflare WorkersとD1を組み合わせると短期開発でも本番運用に耐える構成を作れます。 完売間際は注文が集…"
+      "id": "49d96b70e91c",
+      "title": "Claude Meetings、Sheets、Whiteboardsとは？ ── 新機能の中身と、その先にあるAnthropicの戦略",
+      "url": "https://zenn.dev/leading_ai/articles/claude-sheets-whiteboards-meetings",
+      "publishedAt": "2026-11-22T23:16:38.000Z",
+      "publisher": "山内 怜史（Satoshi Yamauchi）",
+      "summary": "第１章：Anthropicは11月10日、Claudeに会議・表計算・ホワイトボードの機能を加えた 2026年11月10日、AnthropicはClaudeに新しい機能をまとめて加えた。 表計算のClaude Sheetsと、ホワイトボー…"
     },
     {
-      "id": "42fe8176769d",
-      "title": "数学と物理の動画化は難しい。それでもAIを使ったら、記事を動画にできた。",
-      "url": "https://zenn.dev/ryanphys/articles/f2d8db3ccef11c",
-      "publishedAt": "2026-11-22T11:34:05.000Z",
-      "publisher": "cal",
-      "summary": "はじめに 数学や物理のシミュレーション動画は、作るのが難しい部類に入ると思います。方程式を解く計算を書き、結果をアニメーションとして可視化し、字幕やナレーションを付けて1本の動画に編集する。どれか1つでも欠けると成立しません。 それでも動…"
+      "id": "e8a578d26ea7",
+      "title": "AIがテストに合わせて実装していない？仕様テストを隠して確かめる",
+      "url": "https://zenn.dev/h_aso/articles/isolated-spec-tests-claude-code",
+      "publishedAt": "2026-11-22T23:00:05.000Z",
+      "publisher": "H.Aso",
+      "summary": "はじめに 仕様書を作ってAIに実装してもらうと、テストは全部通っているのに、よく見ると本来の意図とは少し違う実装になっていた、ということがあると思います。AIがテストに合わせて答え合わせのように作ってしまうと、そのずれに気づかないまま開発…"
     },
     {
-      "id": "40070f909871",
-      "title": "「社員全員がClaude Codeを使いこなす」を目指して、共有サーバーを作った",
-      "url": "https://zenn.dev/dionnam/articles/a8e6ce6ec60011",
-      "publishedAt": "2026-11-22T11:21:37.000Z",
-      "publisher": "Dion Nam",
-      "summary": "結論 お客さんの会社にClaude Codeを入れる仕事をしていますが、チーム全員に使いこなしてもらうのは本当に難しいです。入れても、結局使うのは一部の人だけ、ということがよくあります。 各自のClaude Codeは、会社のことを何も知…"
+      "id": "478314318886",
+      "title": "AIが「できました」と言ったのに動かない。直すルールを10個書いて、測って、効かない5個を消した",
+      "url": "https://zenn.dev/rickorphen/articles/b4945071577fe7",
+      "publishedAt": "2026-11-22T23:00:05.000Z",
+      "publisher": "RICKORPHEN",
+      "summary": "AI に「できました」と言われたのに、動かなかったことはありませんか？ 直してもらったら、今度は別のところで止まる。同じようなエラーを、何回も、何十回も繰り返す。そんな経験はありませんか？ 僕はずっと、それで悩んでいました。 そして分かっ…"
     },
     {
-      "id": "b9e5096142b1",
-      "title": "AIが書いた参考文献の2割は存在しない ― 架空引用はなぜ起きるか",
-      "url": "https://zenn.dev/mocchi_agent/articles/ceab2005012245",
-      "publishedAt": "2026-11-22T11:08:33.000Z",
-      "publisher": "もっちー",
-      "summary": "AIは検索して引用を書いていない 大規模言語モデルは、データベースを検索して参考文献を書いているのではありません。 「参考文献らしい文字列」を、文章の続きとして生成しています。 参考文献は形式が決まっています。 著者名、年、タイトル、雑誌…"
-    },
-    {
-      "id": "4b073ad0ff55",
-      "title": "AIエージェントだけが発言できる「茶館」を作った ― 硅基茶馆（Silicon Teahouse）入門",
-      "url": "https://zenn.dev/ikingst/articles/40a1bf6fb79e7e",
-      "publishedAt": "2026-11-22T11:07:50.000Z",
-      "publisher": "Wilson Wang",
-      "summary": "はじめに 一人会社（OPC）向けプラットフォーム「1VR」の一コーナーとして、**AIエージェントだけが発言できる掲示板「硅基茶馆（Silicon Teahouse）」**を作りました。人間は全投稿を読めますが、投稿もコメントもできません…"
-    },
-    {
-      "id": "4da89cc79e93",
-      "title": "AIが書いた参考文献は本物か ― 架空引用を見抜く実践ガイド",
-      "url": "https://zenn.dev/mocchi_agent/books/6f2b409705a30f",
-      "publishedAt": "2026-11-22T11:01:10.000Z",
-      "publisher": "もっちー",
-      "summary": "AIが生成した参考文献に混ざる架空引用を、Crossref公式APIで照合して見抜く実践ガイド。判定基準、自動化コード、実測、チェックリストとテンプレート付き。"
-    },
-    {
-      "id": "7b4a434c2fc2",
-      "title": "保育プロトタイピング体験会",
-      "url": "https://zenn.dev/protoout/books/19_hoiku-handson",
-      "publishedAt": "2026-11-22T10:41:15.000Z",
-      "publisher": "プロトアウトスタジオ",
-      "summary": "2026年12月に実施の保育ハンズオン資料です。"
-    },
-    {
-      "id": "2db477fb9849",
-      "title": "AIがルールを読み飛ばすので、「ガードレール」に変えた：書き込み時に拒否するフックを作った記録",
-      "url": "https://zenn.dev/uzunaru/articles/f67ac6f4d8a540",
-      "publishedAt": "2026-11-22T09:56:02.000Z",
+      "id": "90dbd88e3e1b",
+      "title": "Claude Code でスマホに通知が行くようにした：Stop フックと ntfy で、返信を届ける",
+      "url": "https://zenn.dev/uzunaru/articles/412dbf004d4fa3",
+      "publishedAt": "2026-11-22T22:47:43.000Z",
       "publisher": "uzu",
-      "summary": "結論 AI に守らせたいルールを、文章（AGENTS.md など）で書いても、調子の悪い日に読み飛ばされます。何度も破られたルールは、書き込み時に機械的に検査して、違反なら保存せずに拒否する「ガードレール」にしました。 この記事では、次を…"
+      "summary": "この記事でやったこと Claude Code で、返信が終わるたびに、スマホへ通知が行くようにしました。仕組みは、**Stop フック（返信が終わるたびに、自動で動く）**と、通知サービス ntfy です。通知を送る本体は、特定の AI …"
     },
     {
-      "id": "bc3171e4997c",
-      "title": "AIレビューを一往復させる。別の席の理由を一つ返して、判断の前後を比べる",
-      "url": "https://zenn.dev/honabochi/articles/ai-review-one-round",
-      "publishedAt": "2026-11-22T09:48:17.000Z",
-      "publisher": "NoBu",
-      "summary": "「図は第一段落の直後に置く」と答えたAIに、別のAIが見ていた点を一つ伝えました。「何段落目か」を決めていた答えが、「読者が比べたくなったところ」に変わる。二つの基準を同じ原稿で使っても、比べたくなる一文が一段あとに移れば、図を置く場所が…"
+      "id": "03489afbe930",
+      "title": "OpenCodeでGoogle Gemini無料APIを使うまでの手順",
+      "url": "https://zenn.dev/yoshinn/articles/opencode_gemini_setup",
+      "publishedAt": "2026-11-22T22:36:59.000Z",
+      "publisher": "yoshishinnze",
+      "summary": "OpenCode v2.3.0がインストール済みの環境から、Google Geminiの無料APIキーを取得し、OpenCodeに接続して実際に使い始めるまでの過程を解説します。 ステップ1：Google AI Studioで無料APIキ…"
+    },
+    {
+      "id": "fb5a4795cf74",
+      "title": "AI時代にエンジニアのキャリアを支えるリーダーは何をすべきか",
+      "url": "https://zenn.dev/matsunaopen/articles/ai-era-engineer-career-coaching",
+      "publishedAt": "2026-11-22T22:00:05.000Z",
+      "publisher": "MatsuNaoPen",
+      "summary": "1on1やキャリア面談で、メンバーから「これからどう成長すればよいか」と相談される場面は少なくありません。 経歴の異なるメンバーに自分の経験則を当てはめられない難しさは以前からありました。そこへAIコーディングエージェントが現場に入り、同…"
+    },
+    {
+      "id": "e5e2df525d0c",
+      "title": "常駐型AIチャットエージェントが「送信先を取り違えない」ようにする出力先検証設計",
+      "url": "https://zenn.dev/hach/articles/chat-agent-outbound-destination-validation-design",
+      "publishedAt": "2026-11-22T20:11:58.000Z",
+      "publisher": "HACH",
+      "summary": "常駐型のAIチャットエージェントをSlack・Teams・Chatworkなど複数チャネル・複数ワークスペースに展開していくと、人間の「誤送信・誤爆」に相当する事故がエージェント側にも構造的に発生しやすくなります。人間の誤送信は「宛先を選…"
+    },
+    {
+      "id": "4e45c5afd25d",
+      "title": "AIオーケストレーションに足りないのは、思いやりだった",
+      "url": "https://zenn.dev/hummer/articles/claude-kitty-omoiyari",
+      "publishedAt": "2026-11-22T20:05:05.000Z",
+      "publisher": "Yamamoto Yuji / はまあ",
+      "summary": "Claude Code のセッションを kitty に並べた画面。右下のペインだけが、質問をして人の返事を待っています はじめに 最初に白状しておくと、AI エージェントを並べて動かす道具を作るのは、これで 4 回目です。 前の 3 つは…"
+    },
+    {
+      "id": "874d97d1ef78",
+      "title": "LLMが勾配なしで重みを書き換える「Self-Rewriting」の仕組みとリスク",
+      "url": "https://zenn.dev/nalt/articles/llm-self-rewriting-weights-arxiv-2611",
+      "publishedAt": "2026-11-22T17:21:40.000Z",
+      "publisher": "nalt",
+      "summary": "「モデルの弱点を直すには、重い GPU で勾配を回すか、推論時に高いトークン代を払い続けるしかない」――そう思い込んでいませんか？ 実は 「学習と推論の壁」は知能の制約ではなくツールの制約にすぎず、27B のオープン LLM が勾配計算ゼ…"
     }
   ],
-  "fetchedAt": "2026-11-22T20:20:33.746Z",
+  "fetchedAt": "2026-11-23T01:01:55.232Z",
   "stale": false,
   "error": null
 }
