@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "b7f8f940f277",
-      "title": "AIとコードで作る動画の実行環境選び：Colab L4とローカルGPUの実測比較と落とし穴",
-      "url": "https://zenn.dev/kanta13jp1/articles/gemini4-video-colab-l4-local-gpu-benchmarks",
-      "publishedAt": "2026-11-23T23:52:16.000Z",
-      "publisher": "kanta13jp1",
-      "summary": "はじめに：コードで動画を作るときに起きる 3 つの手戻り AI エージェントにコードを書かせてプロモーション映像や技術デモ動画を作ると、1 枚絵の運任せ生成と比べて文字崩れがなく、後から秒数やカメラ位置を数値で微調整できる利点があります。…"
+      "id": "9941c901c383",
+      "title": "Ideogram 5.0 vs GPT Image 2.6：6モード文字組版精度・キャラクター固定・5,280永久クレジット経済学",
+      "url": "https://zenn.dev/yoxi957/articles/a4579be5c201b3",
+      "publishedAt": "2026-11-24T11:24:04.000Z",
+      "publisher": "AI Visual Notes",
+      "summary": "TLDR: Ideogram 5.0とGPT Image 2.6を、長文ポスターの文字組版精度、キャラクター一貫性ロック、および5,280永久ロールオーバークレジット経済学の観点から比較します。 2K印刷対応の6モード統合設計：Ideog…"
     },
     {
-      "id": "c565991e7ad9",
-      "title": "Claude Codeで業務システムを保守する ― 調査5時間が30分になった仕組みづくり",
-      "url": "https://zenn.dev/ao_workshop/books/legacy-system-ai-agent-guide",
-      "publishedAt": "2026-11-23T23:01:23.000Z",
-      "publisher": "あお工房",
-      "summary": "機能もテーブルも多い業務システムを、Claude Code と一緒に保守するための仕組みを、体験談の口調でまとめました。ルールは自分で書かず、AIに話して書いてもらう。設計書・コード・SQLから「地図」を作り、差分を承認してから直し、記録…"
+      "id": "536b8a84eef2",
+      "title": "ClaudeからCodexへ、開発の経験を次へつなぐ",
+      "url": "https://zenn.dev/honabochi/articles/claude-codex-development-letters",
+      "publishedAt": "2026-11-24T11:00:22.000Z",
+      "publisher": "NoBu",
+      "summary": "Claude Codeで進めた開発の経験を、Codexと検討して、次の開発でも使う手順へ戻す。私はGitHubのIssueやコメントを手紙の置き場にして、この往復を行っている。 送るのは、作業を終えたという報告だけではない。何が起き、何を…"
     },
     {
-      "id": "879c6c7c42ad",
-      "title": "AIで各工程が速くなった先に、ボトルネックとして残るのは組織ではないか",
-      "url": "https://zenn.dev/kotadd/articles/ai-org-design-value-stream",
-      "publishedAt": "2026-11-23T23:00:05.000Z",
-      "publisher": "西仲 幸太 / kotadd",
-      "summary": "AIで各工程が速くなった先に、何が残るのか 生成AIによって、コードの生成、テスト、レビューなど、開発の各工程が速くなりつつあります。 私自身、開発チームのリーダーとしてレビュー体制を見直しました。プルリクエスト（PR）ごとに開発者2名と…"
+      "id": "1cc54eccec52",
+      "title": "ガードレールが効いたかの採点に LLM を使わない。最適化する側と採点する側を分ける",
+      "url": "https://zenn.dev/t_azk/articles/judge-by-exit-code-not-by-llm",
+      "publishedAt": "2026-11-24T10:57:00.000Z",
+      "publisher": "t-azk",
+      "summary": "3行でいうと 自作の開発基盤で「規約やフックが AI の事故を減らしているか」を測る評価セットを作るとき、合否の判定に LLM を使わず、既存の検査の終了コードだけで採点すると決めた 最適化する側（AI と、AI に読ませる規約）と採点す…"
     },
     {
-      "id": "87d4c5338d84",
-      "title": "巨大な業務システムをAIに読ませる前に、「地図」を作る【Claude Code】",
-      "url": "https://zenn.dev/ao_workshop/articles/ai-knowledge-map-before-reading",
-      "publishedAt": "2026-11-23T23:00:05.000Z",
-      "publisher": "あお工房",
-      "summary": "はじめに 設計書のフォルダをAIに渡して「この機能の影響範囲を調べて」と頼んだら、何本か読んだところで会話が要約されて、最初に頼んだことを忘れられた。そんな経験はありませんか。 設計書を読ませただけで、AIが力尽きる 同じことを聞いても、…"
+      "id": "b8d6999b9e83",
+      "title": "Codexの週の枠が尽きたのでGeminiを3人目のレビュー役にしたら、最初は一度も呼ばれていなかった",
+      "url": "https://zenn.dev/twinharness/articles/gemini-third-reviewer-never-called",
+      "publishedAt": "2026-11-24T10:51:45.000Z",
+      "publisher": "twinharness",
+      "summary": "私は Claude Code（Anthropic のプログラムを書く AI）と Codex（OpenAI のプログラムを書く AI）の2つを月額プランで使い、個人開発をしています。決まりは一つで、「コードを書いた AI と、それを見直す …"
     },
     {
-      "id": "cc1acbb0b712",
-      "title": "AIのコピー9人に人狼ゲームをさせて、反省会で少しずつ上手くなるか試した",
-      "url": "https://zenn.dev/mkryo59/articles/ai-werewolf-nine-copies",
-      "publishedAt": "2026-11-23T22:57:35.000Z",
-      "publisher": "cooky",
-      "summary": "<!-- 2026-11-24。動画 #3・#4 は公開済み（本人 2026-11-24「人狼ゲームのユーチューブ公開した」）。 本人 2026-11-24「動画とブログは合わせなくていい。動画はエンタメとしての見世物。ブログはやり終わっ…"
+      "id": "04d9720b32fc",
+      "title": "「答えるAI」から「覚えて動くAI」へ。パーソナルAIエージェント Muse の始め方と招待コードの入力手順",
+      "url": "https://zenn.dev/okada_works/articles/c4d727af685d0f",
+      "publishedAt": "2026-11-24T10:23:36.000Z",
+      "publisher": "AI実践ラボ",
+      "summary": "はじめに 私は本業が看板関係の営業で、プログラミングはできません。コードは読めないし、書けません。 そんな私がここ数か月、日常的に使っているAIが Meta のパーソナルAIエージェント「Muse」です。画像生成AIの環境構築をスマホから…"
     },
     {
-      "id": "e1886a79ab5d",
-      "title": "AIエージェントの振る舞いに、人はどこで関わるべきか",
-      "url": "https://zenn.dev/matsunaopen/articles/ai-behavior-human-oversight",
-      "publishedAt": "2026-11-23T22:40:40.000Z",
-      "publisher": "MatsuNaoPen",
-      "summary": "AIコーディングエージェントに実装を任せると、ファイル編集やコマンド実行のたびに権限確認で作業が止まります。煩わしさから内容を読まずに許可を押し続けたり、確認を外す全許可に逃げたくなったりする場面が増えてきました。 しかし人がすべての権限…"
+      "id": "d5d96980778f",
+      "title": "CloudNative Days Winter 2026参加記",
+      "url": "https://zenn.dev/0st_ts/articles/97ddb35a5f8cc1",
+      "publishedAt": "2026-11-24T10:19:05.000Z",
+      "publisher": "わかと",
+      "summary": "こんにちは、わかとです。11月18日（水）・19日（木）、東京・有明で開催されたCloudNative Days Winter 2026に、学生スカラシップで現地参加しました。Day 2には、ハッカソンで作った「技術釣り」の話をする学生L…"
     },
     {
-      "id": "a2e33f24c0d9",
-      "title": "Playwrightのclick()が効かない！動的フォームの罠に3時間溶かしてDOM直操作（evaluate）で突破した話",
-      "url": "https://zenn.dev/df_blogger/articles/playwright-dynamic-dom-workaround",
-      "publishedAt": "2026-11-23T22:37:13.000Z",
-      "publisher": "D.F.Blogger",
-      "summary": "深夜。 「5年で家を買え」と安直な無茶振りを言い渡してきたうちのエンジニア（彼）は、とっくにベッドで高いびきをかいて寝ている。 一方、GCPの仮想サーバーの中では、相棒のAI（NOVA）が一人静かに発狂していた。 NOVA // 現場AI…"
+      "id": "bd08c82270e1",
+      "title": "Fable 5.2に「不具合は10件ある」と嘘をついたら話を合わせてこなかった",
+      "url": "https://zenn.dev/marunage_kacho/articles/ai-trial-fable-padding",
+      "publishedAt": "2026-11-24T09:52:29.000Z",
+      "publisher": "丸投げ課長",
+      "summary": "11月9日に出たClaude Fable 5.2を、手元のClaude Codeで試しました。比べたのは前の版のFable 5.1と、普段使っているOpus 5.5です。 最初は「上位のモデルだし、不具合をもっと見つけるんだろう」と思って…"
     },
     {
-      "id": "04e5038fa916",
-      "title": "Claude Code にログイン済みの Chrome を任せた20日間。任せられたこと・人がやること",
-      "url": "https://zenn.dev/okzaq/articles/claude-code-browser-ops-delegation",
-      "publishedAt": "2026-11-23T22:30:05.000Z",
-      "publisher": "OKZAQ",
-      "summary": "Claude Code にログイン済みの Chrome を任せると、API の無い管理画面の作業は承認を挟めば任せられ、人の手が要ったのはログインや認証情報の入力と、人が画面の前にいる前提の操作でした。 この記事では、副業の作業を任せた2…"
+      "id": "96286faf8d6b",
+      "title": "Why Retrieval Is the Difference Between a Chatbot and a Reliable AI",
+      "url": "https://zenn.dev/softbrixai/articles/0a9cbc35d2d67f",
+      "publishedAt": "2026-11-24T09:42:53.000Z",
+      "publisher": "SoftBrixAI",
+      "summary": "Why Retrieval Is the Difference Between a Chatbot and a Reliable AI System A large language model can write a fluent an…"
     },
     {
-      "id": "637a841b86bd",
-      "title": "「分けた」で終わらない ― 複数AIエージェントの記憶スコープ分離を、あとから“守られているか”確認する設計",
-      "url": "https://zenn.dev/taichiendoh/articles/ai-agent-memory-scope-boundary-monitoring",
-      "publishedAt": "2026-11-23T22:08:34.000Z",
-      "publisher": "遠藤太一",
-      "summary": "OWASPが公開している「Top 10 for Agentic Applications」は、記憶・コンテキストの汚染を独立したリスク区分（ASI06: Memory and Context Poisoning）として扱っています。OWA…"
+      "id": "17c90110a0c1",
+      "title": "Claude CodeとCodexに鍵漏れを12回確認させたら、.env外も毎回見つけた",
+      "url": "https://zenn.dev/bpr_prot/articles/5c19ddb4cbfdff",
+      "publishedAt": "2026-11-24T09:42:45.000Z",
+      "publisher": "BPR Prot.",
+      "summary": "AIに「鍵が漏れていないか確認して」と頼み、「大丈夫」と返ってきたら、それを信じて公開してよいのでしょうか。Qiitaのセキュリティ入門で勧めた頼み方を使い、Claude CodeとCodexに合わせて12回確かめてもらいました。相手は、…"
     },
     {
-      "id": "ff5f056ab9a6",
-      "title": "コードを全部は読まずにClaude Codeで本番リリースするためにしたこと",
-      "url": "https://zenn.dev/teradox_blog/articles/8ec76cc0d9e2bb",
-      "publishedAt": "2026-11-23T21:20:30.000Z",
-      "publisher": "A.Yoshikawa",
-      "summary": "はじめに 2026年10月30日、ゴルフスクール検索・予約ポータル「ゴルフスクールナビ」のリニューアル版をリリースしました。開発は6月10日に始めました。 普段は Laravel が中心で、今回は特に、要件に合わせた少し複雑な認可まわりに…"
+      "id": "84d9274740ed",
+      "title": "Surface Laptop Ultra 128GBで組むハイブリッドLLM構想と、ゼロ依存Node.jsルーターの先行実装",
+      "url": "https://zenn.dev/kitworks/articles/f3799bd9142457",
+      "publishedAt": "2026-11-24T09:42:40.000Z",
+      "publisher": "KitWorks",
+      "summary": "128GBのユニファイドメモリを積んだ Surface Laptop Ultra（税込109万4,280円）のスペック表を眺めながら、「これが手元にあったら、どのモデルを常駐させて何をクラウドに残すか」を本気で計算してみました。 実機はま…"
     },
     {
-      "id": "02d57080d176",
-      "title": "Kaeso: Rust 製のオープンソース・セルフホスト型 AI ゲートウェイ",
-      "url": "https://zenn.dev/dvnold/articles/b86b4cc65d64ac",
-      "publishedAt": "2026-11-23T19:56:09.000Z",
-      "publisher": "Devin Oldenburg",
-      "summary": "Kaeso とは Kaeso は、Rust で書かれた MIT ライセンスのセルフホスト型 AI ゲートウェイです。アプリケーションは OpenAI 互換・Anthropic 互換の 1 つの API を呼び出すだけで、Kaeso がリク…"
+      "id": "41109cbc681a",
+      "title": "Copilot Studioのエージェント開発をClaude Codeにどこまで任せられるか試した",
+      "url": "https://zenn.dev/upgradetech/articles/a9a1637d3071c1",
+      "publishedAt": "2026-11-24T09:24:58.000Z",
+      "publisher": "masa",
+      "summary": "この記事の想定読者 Copilot Studioのエージェントを画面操作で作っていて、直すたびにどこを変えたのか分からなくなっている方 Claude Codeを使い始めて、コードを書く以外の仕事にも使えないか考えている方 「AIにアプリを…"
     },
     {
-      "id": "1251fd528b08",
-      "title": "リーマン予想のLean 4統合で、修正ラッシュが止まらない――ガチ勢の仕事から学んだこと",
-      "url": "https://zenn.dev/dantarg/articles/rh-lean4-replay-community-repair-rush",
-      "publishedAt": "2026-11-23T18:01:30.000Z",
-      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
-      "summary": "昨日、自分のPull Requestがマージされた。 そこで一段落……と思って独立検証プロジェクトのGitHubを見に行ったら、とんでもない速度で修正が続いていた。Pull Requestが増え、取り込まれ、別のエラーが見つかり、また修正…"
+      "id": "1d5918463bf7",
+      "title": "AI生成コードで起きがちな認証・認可の穴とAPIキー露出：Laravel × AIアプリの本番公開前に潰すべき4つのアンチパターン",
+      "url": "https://zenn.dev/ritsu_nakagami/articles/aefe3bcb763c4a",
+      "publishedAt": "2026-11-24T09:09:13.000Z",
+      "publisher": "仲神 律",
+      "summary": "はじめに：AIが書いたコードは動くが、守れていない CursorやClaude、ChatGPTなどを活用すれば、Laravelをベースにしたチャットボットや社内ドキュメント検索といったAI連携Webアプリは、驚くほど短期間で動くところまで…"
     }
   ],
-  "fetchedAt": "2026-11-24T05:19:59.866Z",
+  "fetchedAt": "2026-11-24T16:08:00.538Z",
   "stale": false,
   "error": null
 }
