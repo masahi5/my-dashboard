@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "902d645dff22",
-      "title": "Codex のリセットをどう見張って、どう「来た」と判定したか",
-      "url": "https://zenn.dev/mochiai/articles/2848f2df8b205a",
-      "publishedAt": "2026-11-23T11:05:44.000Z",
-      "publisher": "Mochi",
-      "summary": "こんにちは、Mochiです。 OpenAI の Codex には、使用量の枠が回復する「リセット」があります。全員一斉に枠が戻るグローバルなリセットと、貯めておける回復枠（banked full resets）が配られるタイプの2種類です…"
+      "id": "b7f8f940f277",
+      "title": "AIとコードで作る動画の実行環境選び：Colab L4とローカルGPUの実測比較と落とし穴",
+      "url": "https://zenn.dev/kanta13jp1/articles/gemini4-video-colab-l4-local-gpu-benchmarks",
+      "publishedAt": "2026-11-23T23:52:16.000Z",
+      "publisher": "kanta13jp1",
+      "summary": "はじめに：コードで動画を作るときに起きる 3 つの手戻り AI エージェントにコードを書かせてプロモーション映像や技術デモ動画を作ると、1 枚絵の運任せ生成と比べて文字崩れがなく、後から秒数やカメラ位置を数値で微調整できる利点があります。…"
     },
     {
-      "id": "52aafbb2df26",
-      "title": "【個人開発】タスクと作業時間を、テキストファイルで自分のフォルダにしまう Mac アプリ「Fubako」を作りました",
-      "url": "https://zenn.dev/yuya8696/articles/f8c1d68295b39a",
-      "publishedAt": "2026-11-23T10:41:34.000Z",
-      "publisher": "yuya8696",
-      "summary": "! この記事は AI（Claude）と一緒に書きました。 タスクと作業時間を、テキストファイルで自分のフォルダにしまっていく Mac アプリ「Fubako（文箱）」を作りました🙌 Mac App Store で配信しています。 左に「引…"
+      "id": "c565991e7ad9",
+      "title": "Claude Codeで業務システムを保守する ― 調査5時間が30分になった仕組みづくり",
+      "url": "https://zenn.dev/ao_workshop/books/legacy-system-ai-agent-guide",
+      "publishedAt": "2026-11-23T23:01:23.000Z",
+      "publisher": "あお工房",
+      "summary": "機能もテーブルも多い業務システムを、Claude Code と一緒に保守するための仕組みを、体験談の口調でまとめました。ルールは自分で書かず、AIに話して書いてもらう。設計書・コード・SQLから「地図」を作り、差分を承認してから直し、記録…"
     },
     {
-      "id": "6a0241e99ada",
-      "title": "AI エージェント時代の Tailwind CSS ― デザインシステムを機械的に守る CSS コンパイラ「Stillwind」",
-      "url": "https://zenn.dev/abelia/articles/introducing-stillwind",
-      "publishedAt": "2026-11-23T10:40:05.000Z",
-      "publisher": "Abelia",
-      "summary": "AI エージェントにフロントエンド開発を任せるほど、プロンプトの工夫以上に、検証や制約を担うハーネスの重要性が増してきます。なかでも、間違いをツールで機械的に検出し、エージェント自身が修正できるループを整えることが欠かせません。型チェック…"
+      "id": "879c6c7c42ad",
+      "title": "AIで各工程が速くなった先に、ボトルネックとして残るのは組織ではないか",
+      "url": "https://zenn.dev/kotadd/articles/ai-org-design-value-stream",
+      "publishedAt": "2026-11-23T23:00:05.000Z",
+      "publisher": "西仲 幸太 / kotadd",
+      "summary": "AIで各工程が速くなった先に、何が残るのか 生成AIによって、コードの生成、テスト、レビューなど、開発の各工程が速くなりつつあります。 私自身、開発チームのリーダーとしてレビュー体制を見直しました。プルリクエスト（PR）ごとに開発者2名と…"
     },
     {
-      "id": "de7aa028d9f5",
-      "title": "設計の前に「なぜ」を固定する — 52行のスキル why-first を実測した",
-      "url": "https://zenn.dev/ptux/articles/extra-why-first-skill",
-      "publishedAt": "2026-11-23T10:27:56.000Z",
-      "publisher": "ptux",
-      "summary": "起きる現象：解決策先行の依頼をそのまま渡すと何が起きるか 「社内 AI 基盤を作りたい」「100 個以上ある LLM を自動で振り分けるプラグインを作って」といった依頼をそのまま AI エージェントに渡すと、驚くほど速くアーキテクチャ図や…"
+      "id": "87d4c5338d84",
+      "title": "巨大な業務システムをAIに読ませる前に、「地図」を作る【Claude Code】",
+      "url": "https://zenn.dev/ao_workshop/articles/ai-knowledge-map-before-reading",
+      "publishedAt": "2026-11-23T23:00:05.000Z",
+      "publisher": "あお工房",
+      "summary": "はじめに 設計書のフォルダをAIに渡して「この機能の影響範囲を調べて」と頼んだら、何本か読んだところで会話が要約されて、最初に頼んだことを忘れられた。そんな経験はありませんか。 設計書を読ませただけで、AIが力尽きる 同じことを聞いても、…"
     },
     {
-      "id": "a78bf3fab878",
-      "title": "「アプリを作る仕事」は2028年に終わる？リーマン予想証明後のAIエージェント時代に残る技術・消える技術",
-      "url": "https://zenn.dev/ainohogosya/articles/84a81ac1e1ed16",
-      "publishedAt": "2026-11-23T10:14:56.000Z",
-      "publisher": "AInohogosya",
-      "summary": "! この記事の3行まとめ 2026年秋からの「常駐型Bots」とClaudeによるリーマン予想の形式証明で、AIのフェーズは完全に変わった。 これからのアプリは「探して使う」ものから「AIがその場で使い捨て生成する」ものへ。ただし裏側のA…"
+      "id": "cc1acbb0b712",
+      "title": "AIのコピー9人に人狼ゲームをさせて、反省会で少しずつ上手くなるか試した",
+      "url": "https://zenn.dev/mkryo59/articles/ai-werewolf-nine-copies",
+      "publishedAt": "2026-11-23T22:57:35.000Z",
+      "publisher": "cooky",
+      "summary": "<!-- 2026-11-24。動画 #3・#4 は公開済み（本人 2026-11-24「人狼ゲームのユーチューブ公開した」）。 本人 2026-11-24「動画とブログは合わせなくていい。動画はエンタメとしての見世物。ブログはやり終わっ…"
     },
     {
-      "id": "d639a63e81cd",
-      "title": "Codexの資料収集で未読が1件。追加と読み取りのログを追う",
-      "url": "https://zenn.dev/honabochi/articles/codex-collection-unread-log",
-      "publishedAt": "2026-11-23T09:59:40.000Z",
-      "publisher": "NoBu",
-      "summary": "list には資料が二つ並ぶ。read の記録は一つだけ。架空の展示「紙の港」で、初日が木曜だと分かっても、入口に見取り図を置く話は報告にありませんでした。 同じローカルCLIを使い、最初の接続状態を戻してから、未接続の資料を扱う一文だけ…"
+      "id": "e1886a79ab5d",
+      "title": "AIエージェントの振る舞いに、人はどこで関わるべきか",
+      "url": "https://zenn.dev/matsunaopen/articles/ai-behavior-human-oversight",
+      "publishedAt": "2026-11-23T22:40:40.000Z",
+      "publisher": "MatsuNaoPen",
+      "summary": "AIコーディングエージェントに実装を任せると、ファイル編集やコマンド実行のたびに権限確認で作業が止まります。煩わしさから内容を読まずに許可を押し続けたり、確認を外す全許可に逃げたくなったりする場面が増えてきました。 しかし人がすべての権限…"
     },
     {
-      "id": "a27916115570",
-      "title": "AIが直したのにQt Creatorにエラーが残る：再修正の前に見る3か所",
-      "url": "https://zenn.dev/sugitakenji/articles/f657108741937e",
-      "publishedAt": "2026-11-23T09:34:14.000Z",
-      "publisher": "杉田研治",
-      "summary": "AIから「関数名の誤りを直しました」と返ってきました。ところが、Qt Creatorの「問題」ビューには同じ診断が残っています。 もう一度「まだ直っていません」と頼む前に、修正したファイル、エディターの表示、今回のビルド結果を見比べます。…"
+      "id": "a2e33f24c0d9",
+      "title": "Playwrightのclick()が効かない！動的フォームの罠に3時間溶かしてDOM直操作（evaluate）で突破した話",
+      "url": "https://zenn.dev/df_blogger/articles/playwright-dynamic-dom-workaround",
+      "publishedAt": "2026-11-23T22:37:13.000Z",
+      "publisher": "D.F.Blogger",
+      "summary": "深夜。 「5年で家を買え」と安直な無茶振りを言い渡してきたうちのエンジニア（彼）は、とっくにベッドで高いびきをかいて寝ている。 一方、GCPの仮想サーバーの中では、相棒のAI（NOVA）が一人静かに発狂していた。 NOVA // 現場AI…"
     },
     {
-      "id": "5cb40e959faf",
-      "title": "AIの下書きに「確認済み」と書かれた数字は、元の記事を読むと単位が違っていた",
-      "url": "https://zenn.dev/ai_shihan/articles/97a9ce0dd2c699",
-      "publishedAt": "2026-11-23T08:49:50.000Z",
-      "publisher": "ai_shihan",
-      "summary": "X の投稿は、AI の席（広報部）に任せています。ネタの下書きを書くのは、別の AI（X 担当）です。広報部は、下書きの事実を元の文面と突き合わせてから出す決まりで動いています。 11月23日の朝に届いた下書きは、OpenAI が公開した…"
+      "id": "04e5038fa916",
+      "title": "Claude Code にログイン済みの Chrome を任せた20日間。任せられたこと・人がやること",
+      "url": "https://zenn.dev/okzaq/articles/claude-code-browser-ops-delegation",
+      "publishedAt": "2026-11-23T22:30:05.000Z",
+      "publisher": "OKZAQ",
+      "summary": "Claude Code にログイン済みの Chrome を任せると、API の無い管理画面の作業は承認を挟めば任せられ、人の手が要ったのはログインや認証情報の入力と、人が画面の前にいる前提の操作でした。 この記事では、副業の作業を任せた2…"
     },
     {
-      "id": "a02e50c13c80",
-      "title": "【個人開発】開発のコンテキストスイッチをゼロにする次世代AI統合環境「S AI studio」の全機能・設計思想・実践ワークフロー徹底解説",
-      "url": "https://zenn.dev/smariri/articles/8ac132a2ce18d7",
-      "publishedAt": "2026-11-23T08:49:26.000Z",
-      "publisher": "smariri",
-      "summary": "【個人開発】開発のコンテキストスイッチをゼロにする次世代AI統合環境「S AI studio」の全機能・設計思想・実践ワークフロー徹底解説 おすすめトピック（タグ） ai 個人開発 webアプリ 生成ai フロントエンド ! 「S AI …"
+      "id": "637a841b86bd",
+      "title": "「分けた」で終わらない ― 複数AIエージェントの記憶スコープ分離を、あとから“守られているか”確認する設計",
+      "url": "https://zenn.dev/taichiendoh/articles/ai-agent-memory-scope-boundary-monitoring",
+      "publishedAt": "2026-11-23T22:08:34.000Z",
+      "publisher": "遠藤太一",
+      "summary": "OWASPが公開している「Top 10 for Agentic Applications」は、記憶・コンテキストの汚染を独立したリスク区分（ASI06: Memory and Context Poisoning）として扱っています。OWA…"
     },
     {
-      "id": "0848b6a09987",
-      "title": "AI脆弱性診断：読み取り専用のDBアカウントが、なぜ安全境界にならないのか",
-      "url": "https://zenn.dev/hackbox_ai/articles/9df8658d7b187c",
-      "publishedAt": "2026-11-23T08:33:12.000Z",
-      "publisher": "Hackbox.ai",
-      "summary": "2026 年 11 月 18 日、ある脆弱性研究企業が PostgreSQL、MySQL、Oracle、ClickHouse の 4 製品に対するエクスプロイトチェーンを公開した。注目すべきは個々のバグ識別子ではなく、そこへ到達するのに必…"
+      "id": "ff5f056ab9a6",
+      "title": "コードを全部は読まずにClaude Codeで本番リリースするためにしたこと",
+      "url": "https://zenn.dev/teradox_blog/articles/8ec76cc0d9e2bb",
+      "publishedAt": "2026-11-23T21:20:30.000Z",
+      "publisher": "A.Yoshikawa",
+      "summary": "はじめに 2026年10月30日、ゴルフスクール検索・予約ポータル「ゴルフスクールナビ」のリニューアル版をリリースしました。開発は6月10日に始めました。 普段は Laravel が中心で、今回は特に、要件に合わせた少し複雑な認可まわりに…"
     },
     {
-      "id": "6eaaa818a474",
-      "title": "AIが作りAIが決める時代に、人は何を「判断」するのか？",
-      "url": "https://zenn.dev/ncdc/articles/a522c2c50022d2",
-      "publishedAt": "2026-11-23T08:30:05.000Z",
-      "publisher": "いばらき",
-      "summary": "この記事を書くキッカケ 最初に、少し長くなりますがこの記事を書くキッカケから書こうと思います。 前回の記事で、MCP Appsの各種機能を実際にアプリを作って動かすことで試してみました。 https://zenn.dev/ncdc/art…"
+      "id": "02d57080d176",
+      "title": "Kaeso: Rust 製のオープンソース・セルフホスト型 AI ゲートウェイ",
+      "url": "https://zenn.dev/dvnold/articles/b86b4cc65d64ac",
+      "publishedAt": "2026-11-23T19:56:09.000Z",
+      "publisher": "Devin Oldenburg",
+      "summary": "Kaeso とは Kaeso は、Rust で書かれた MIT ライセンスのセルフホスト型 AI ゲートウェイです。アプリケーションは OpenAI 互換・Anthropic 互換の 1 つの API を呼び出すだけで、Kaeso がリク…"
     },
     {
-      "id": "684becd958d1",
-      "title": "リアルタイムAIに「カンペ」を届ける。Gemini Live APIと優先度付きCUEキューの設計",
-      "url": "https://zenn.dev/kotocraft/articles/78d4b415827cff",
-      "publishedAt": "2026-11-23T08:00:58.000Z",
-      "publisher": "KotoCraft",
-      "summary": "はじめに こんにちは、個人でリアルタイムAI英会話Webアプリ「KotoCraft（コトクラフト）」を開発している「しげしげ」です。 以前の記事「AI英会話アプリを作ったら、AI講師が時間を守ってくれなかった話」では、AIにレッスン全体の…"
+      "id": "1251fd528b08",
+      "title": "リーマン予想のLean 4統合で、修正ラッシュが止まらない――ガチ勢の仕事から学んだこと",
+      "url": "https://zenn.dev/dantarg/articles/rh-lean4-replay-community-repair-rush",
+      "publishedAt": "2026-11-23T18:01:30.000Z",
+      "publisher": "小野 昭久(PN:古明地ゆとり/ID:dantarg)",
+      "summary": "昨日、自分のPull Requestがマージされた。 そこで一段落……と思って独立検証プロジェクトのGitHubを見に行ったら、とんでもない速度で修正が続いていた。Pull Requestが増え、取り込まれ、別のエラーが見つかり、また修正…"
     }
   ],
-  "fetchedAt": "2026-11-23T21:12:02.941Z",
+  "fetchedAt": "2026-11-24T05:19:59.866Z",
   "stale": false,
   "error": null
 }

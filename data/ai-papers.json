@@ -6,84 +6,84 @@
   "category": "ai",
   "items": [
     {
-      "id": "93104eb2241d",
-      "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
-      "url": "https://huggingface.co/papers/2611.26954",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently ob…",
-      "score": 17
+      "id": "6a58ef316b2a",
+      "title": "Plan4D: Generative Plannable 4D Worlds",
+      "url": "https://huggingface.co/papers/2611.26516",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical g…",
+      "score": 25
     },
     {
-      "id": "704f2c954fe6",
-      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
-      "url": "https://huggingface.co/papers/2611.27973",
+      "id": "652f1f25f681",
+      "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+      "url": "https://huggingface.co/papers/2611.28202",
       "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory …",
-      "score": 17
+      "summary": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps runni…",
+      "score": 24
     },
     {
-      "id": "43682d133795",
-      "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
-      "url": "https://huggingface.co/papers/2611.27915",
-      "publishedAt": "2026-11-20T17:52:02.000Z",
-      "summary": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about…",
+      "id": "dd26006301bc",
+      "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2611.29338",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leave…",
+      "score": 10
+    },
+    {
+      "id": "a19133a7d2a9",
+      "title": "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
+      "url": "https://huggingface.co/papers/2611.28833",
+      "publishedAt": "2026-11-21T00:00:00.000Z",
+      "summary": "Frontier language models can now read and edit the weights of a neural network much like code and thereby improve a sma…",
+      "score": 9
+    },
+    {
+      "id": "2bb0c713bcc8",
+      "title": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
+      "url": "https://huggingface.co/papers/2611.25476",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Neural networks encode learned capabilities in their weights, yet extending those capabilities with explicit task knowl…",
+      "score": 7
+    },
+    {
+      "id": "9c4579cf3208",
+      "title": "GameAnything: From Any Inspirations to Playable Game Worlds",
+      "url": "https://huggingface.co/papers/2611.29238",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "AI-driven game development holds the potential to transform diverse human inspirations into interactive experiences. Ho…",
       "score": 6
     },
     {
-      "id": "a5679825ebd0",
-      "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
-      "url": "https://huggingface.co/papers/2611.25252",
+      "id": "ee205e4aa724",
+      "title": "Seeing the Invisible: How Vision-Language Models Read, Predict and Trace Radio Fields",
+      "url": "https://huggingface.co/papers/2611.28123",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Coding agents built on large language models (LLMs) now help develop many models published as general solutions. Should…",
+      "summary": "Operating in the physical world requires reasoning beyond what cameras directly capture. In a city, radio signals are i…",
       "score": 4
     },
     {
-      "id": "3e8ec5d25606",
-      "title": "Intent Contracts: Taking Tools Away from Agents",
-      "url": "https://huggingface.co/papers/2611.24025",
+      "id": "8f942f51bd6d",
+      "title": "From Points to Trajectories: Rethinking Multimodal Alignment for Physical Events",
+      "url": "https://huggingface.co/papers/2611.24249",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "summary": "Intent contracts are an authorization interface for tool-using LLM agents in which the planning model holds no tools. F…",
+      "summary": "Advancing physical artificial intelligence (Physical AI) requires moving beyond static object recognition to ground how…",
       "score": 4
     },
     {
-      "id": "b8f819a06126",
-      "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
-      "url": "https://huggingface.co/papers/2611.27398",
-      "publishedAt": "2026-11-20T10:03:29.000Z",
-      "summary": "We introduce Transformation Tracking and Understanding (TTU), extending video object tracking to environments where obj…",
-      "score": 3
-    },
-    {
-      "id": "9fb779212ced",
-      "title": "Exploited Before It Was Fixed? Vulnerability Timelines from Open, Machine-Readable Evidence",
-      "url": "https://huggingface.co/papers/2611.22479",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "-05-X-03), Known Exploited Vulnerabilities (KEV) catalogs, and exploitation sightings. We introduce an evidence model i…",
-      "score": 3
-    },
-    {
-      "id": "1a9fecf80244",
-      "title": "Search From the Start: Search-Native Pretraining for Language Models",
-      "url": "https://huggingface.co/papers/2611.26809",
+      "id": "1a464a00abb4",
+      "title": "How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study",
+      "url": "https://huggingface.co/papers/2611.25534",
       "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Modern language models (LMs) are increasingly deployed with access to search tools at inference. Yet pretraining remain…",
-      "score": 2
+      "summary": "Agent skills are documents in which experts write down procedural knowledge, and models increasingly maintain them by r…",
+      "score": 4
     },
     {
-      "id": "b2aa55873b02",
-      "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
-      "url": "https://huggingface.co/papers/2611.19247",
-      "publishedAt": "2026-11-14T00:00:00.000Z",
-      "summary": "For more than half a century, video games have pursued better graphics, more natural interaction, and more engaging gam…",
+      "id": "49f0f96c4210",
+      "title": "SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation",
+      "url": "https://huggingface.co/papers/2611.27319",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Optical Character Recognition (OCR) pipelines and vision-language models exhibit high accuracy on standard OCR and docu…",
       "score": 2
-    },
-    {
-      "id": "fc42eef45718",
-      "title": "Motion-Aware Reward Modeling for Instruction-Guided Video Editing",
-      "url": "https://huggingface.co/papers/2611.22495",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "Reward models for instruction-guided video editing can favor temporal consistency at the expense of motion. We study th…",
-      "score": 1
     },
     {
       "id": "0366ae6d54cb",
@@ -91,18 +91,18 @@
       "url": "https://huggingface.co/papers/2611.27490",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "summary": "Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer…",
-      "score": 0
+      "score": 2
     },
     {
-      "id": "012893528901",
-      "title": "Autoregressive View Model",
-      "url": "https://huggingface.co/papers/2611.23417",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "summary": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an ex…",
-      "score": 0
+      "id": "bd6348413008",
+      "title": "Beyond Attention Maps: Understanding and Improving Medical MLLMs via Visual Values",
+      "url": "https://huggingface.co/papers/2611.29361",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "Current MLLM methods largely focus on whether models attend to the right visual regions, implicitly treating spatial at…",
+      "score": 1
     }
   ],
-  "fetchedAt": "2026-11-23T21:12:02.773Z",
+  "fetchedAt": "2026-11-24T05:19:59.797Z",
   "stale": false,
   "error": null
 }
