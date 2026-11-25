@@ -2,31 +2,49 @@
   "handle": "hardmaru",
   "tweets": [
     {
-      "id": "2124708148657426607",
-      "url": "https://x.com/SakanaAILabs/status/2124708148657426607",
-      "text": "「言語モデル開発は、想像以上に研究の競争だ」\n\nChief Scientistの秋葉拓哉（@iwiwi）が、エージェント用途に向け、一から事前学習する新言語モデル「Sakana Sawara」を解説。\n\n鍵を握るのは「計算資源×研究効率」と人材密度。Sawara自身が次のSawaraの開発を加速する「部分的なRSI」へ。",
-      "publishedAt": "2026-11-23T03:34:32.000Z",
+      "id": "2125515053869023284",
+      "url": "https://x.com/SakanaAILabs/status/2125515053869023284",
+      "text": "Forbes JAPAN「日本の起業家ランキング2027」にて、Sakana AIを1位に選出いただきました。日頃からご支援くださる皆様に感謝申し上げます。こうしたご期待に応えるべく、今後も最先端の研究成果の社会実装に向けて邁進してまいります。",
+      "publishedAt": "2026-11-25T09:00:53.000Z",
       "authorHandle": "SakanaAILabs",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2124525565000716327",
-      "url": "https://x.com/SakanaAILabs/status/2124525565000716327",
-      "text": "Sakana AI Symposium in Tokyo now on YouTube\n\nThe sessions on world models, LLMs, AI scientists, and Physical AI, from the Sakana AI team and our Chief Scientific Advisor, @SchmidhuberAI.\n\nFull Report: sakana.ai/symposium-2026/\n\nHighlights from each session in the thread below. 🧵\n\n10月26日に東京・一橋講堂で開催したSakana AIシンポジウムの全6セッションを、日本語字幕付きでYouTubeに公開しました。",
-      "publishedAt": "2026-11-22T15:29:01.000Z",
+      "id": "2125492412491448663",
+      "url": "https://x.com/nikkei/status/2125492412491448663",
+      "text": "サカナAI、日本語特化のAIモデルに小型版　要約などの日常業務で\nnikkei.com/article/DGXZQOUC2…",
+      "publishedAt": "2026-11-25T07:30:55.000Z",
+      "authorHandle": "nikkei",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2125404851719008345",
+      "url": "https://x.com/iwiwi/status/2125404851719008345",
+      "text": "Sakana Namazu SmallはNemotron 3 Nano Baseに追加の学習をした30B-A3Bのモデルです。今後オンプレミスでの提供などで利用していく予定です。\n\n技術的には、今までのSakana Namazuシリーズと異なり、baseモデルから出発しAgentic CPT, SFT, RLという一連のパイプラインを成功させたことがマイルストーンになります。事前学習直後の、agenticなことが何一つできないbaseモデルをどう育てるか。これは今後、自社で事前学習を行うSakana Sawaraシリーズでも必要になるノウハウで、まずは1つの分野でそれを確立できました。\n\n今回の取り組みではチャット画面での日常的・基礎的なタスクを想定したため、agenticな能力の中では特にweb検索を大きく伸ばしました。学習後のモデルには、900回以上ツールを呼び出した末に難問を正解する例もあり、long-horizonなタスクをこなす力も身についていると感じます。デプロイまで自社でコントロールできる分野なので、特定のハーネスを前提にend-to-endでパイプラインを設計しました。これが、コストを抑えつつ優れた性能を実現できた要因の1つだと考えています。\n\nデータ面では、合成データに加えて、外部パートナーと連携して人間のエキスパートに作成してもらった高品質・高難易度の問題が、RLで重要な役割を果たしました。こうしたデータ構築のアプローチの有効性を確認できたことも大きな収穫です。\n\n本モデルはGENIAC第4期の成果を活用しています。今後はSakana Sawaraシリーズの事後学習に向けて、このノウハウをさらに深めつつ、他のドメインにも広げていきます。",
+      "publishedAt": "2026-11-25T01:42:59.000Z",
+      "authorHandle": "iwiwi",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2125387934203560416",
+      "url": "https://x.com/SakanaAILabs/status/2125387934203560416",
+      "text": "「Sakana Namazu Small」（30Bモデル）を発表\n\nsakana.ai/namazu-small/\n\nNVIDIA Nemotron 3 Nanoをベースに継続事前学習・事後学習を行い、25ベンチマーク平均で約4倍規模の120Bモデルを上回りました。\n\n長文読解やWeb検索での調査に強く、オンプレミス提供の詳細は12月前半にお知らせします。",
+      "publishedAt": "2026-11-25T00:35:45.000Z",
       "authorHandle": "SakanaAILabs",
       "likeCount": 0,
       "repost": true
     },
     {
-      "id": "2124382474545611136",
-      "url": "https://x.com/JapanGov/status/2124382474545611136",
-      "text": "From ancient handwriting to AI-generated art! 📖✨\nA Thai researcher in Japan is using AI to make centuries-old kuzushiji texts readable—and developing a model that aims to generate ukiyo-e-style images that more faithfully reflect Japanese culture! 🎨\n🎥 Watch her story 👇",
-      "publishedAt": "2026-11-22T06:00:25.000Z",
-      "authorHandle": "JapanGov",
+      "id": "2124848940164263944",
+      "url": "https://x.com/hardmaru/status/2124848940164263944",
+      "text": "This is when they start taking over the world",
+      "publishedAt": "2026-11-23T12:53:59.000Z",
+      "authorHandle": "hardmaru",
       "likeCount": 0,
-      "repost": true
+      "repost": false
     },
     {
       "id": "2123785938405134634",
@@ -56,15 +74,6 @@
       "repost": true
     },
     {
-      "id": "2123633957032087634",
-      "url": "https://x.com/iwiwi/status/2123633957032087634",
-      "text": "我々Sawara/Namazuモデルチームとも関わりがある予定です。モデルチーム側でサイバーセキュリティの取り組みをやりたい方はこちらへ → sakana.ai/careers/member-of-…",
-      "publishedAt": "2026-11-20T04:26:05.000Z",
-      "authorHandle": "iwiwi",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
       "id": "2123615218345599169",
       "url": "https://x.com/hardmaru/status/2123615218345599169",
       "text": "Excited to announce the Sakana AI Security Research Group, an independent, public-interest R&D team in Tokyo co-led by Akihiro Umegai and me.\n\nCybersecurity has become a critical national priority for Japan as AI changes the speed and economics of both offense and defense. Rather than endlessly chasing patches downstream, we are approaching security as an upstream quality engineering problem, something Japan has long been strong at. We are also researching collective multi-agent defense and how to secure AI agents themselves.\n\nWe will be publishing our research, reproducible benchmarks, and practical playbooks openly, while working closely with partners across government, industry, and academia.\n\nFull English post here: sakana.ai/security-research-…\n\nWe're hiring researchers in Tokyo to help shape the group's agenda across systems reliability and AI agent security: sakana.ai/careers/member-of-…",
@@ -74,25 +83,16 @@
       "repost": false
     },
     {
-      "id": "2123608249710915966",
-      "url": "https://x.com/SakanaAILabs/status/2123608249710915966",
-      "text": "Sakana AI、AIセキュリティ専門の研究開発チーム「Security Research Group」始動 🐙\n\nブログ：sakana.ai/security-research-…\nCareers：sakana.ai/careers/member-of-…\n\nAIを活用した集合的なサイバー防御と、AIシステム自体の安全性とセキュリティの確保を研究する研究開発チーム「Security Research Group」を 立ち上げました。\n\nAIによってソフトウェアの欠陥が見つかりインシデントが増加している中、セキュリティを品質の問題として捉え、設計や開発の段階から欠陥を作り込まないことを目的とした本質的なセキュリティの向上等の調査・研究開発に取り組みます。品質の作り込みは、日本が長く強みとしてきた分野でもあります。\n\n本グループは事業活動とは切り離して運営し、研究成果や再現可能なベンチマーク、実践的なガイドラインを公開しながら、政府、産業界、学術界と連携していきます。\n\n⎯⎯⎯\n\nIntroducing the Sakana AI Security Research Group 🐡\n\nBlog: sakana.ai/security-research-…\n\nThe Security Research Group is a R&D team studying collective, AI-driven cyber defense and the security and safety of AI itself.\n\nAs the use of AI leads to the discovery of more software flaws and an increase in security incidents, we are engaging in research and development aimed at fundamentally enhancing security, defining it as a quality issue and focusing on preventing the introduction of defects from the stages of design and development. Building quality into products is an area that has long been a key strength of Japan.\n\nThe group operates independently of our commercial business. We will share research, reproducible benchmarks, and practical guidelines openly, and work with government, industry, and academia.\n\nJoin us: sakana.ai/careers/member-of-… 🐟",
-      "publishedAt": "2026-11-20T02:43:56.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2123590504864522541",
-      "url": "https://x.com/nikkei/status/2123590504864522541",
-      "text": "サカナAI、米セールスフォースと連携　公共分野でAIモデル実装\nnikkei.com/article/DGXZQOUC2…",
-      "publishedAt": "2026-11-20T01:33:25.000Z",
-      "authorHandle": "nikkei",
+      "id": "2120170682109796511",
+      "url": "https://x.com/kenneth0stanley/status/2120170682109796511",
+      "text": "Research News! Announcing the 1st release of fundamental AI research from the Open-Endedness Team @LilaSciences: a vision-focused blog + 4 preprints. The blog details a broad research agenda for achieving open-endedness while each paper unveils its own novel research direction.\n\nThe ideas covered in the papers include:\n\n• a novel approach to training for creativity designed to sidestep a newly-identified problem called the “creative paradox,” which means that directly reinforcing creative outputs can sometimes limit reaching full creative potential;\n\n• an investigation of the advantages of seeing the world through fresh eyes by training an LLM that is intentionally naïve in a certain area (in effect presenting less data as a potential advantage);\n\n• a new kind of training regularization technique for SGD called unified factored organizers (UFOs), which is designed to achieve unified factored representation (UFR) as seen in Picbreeder CPPNs;\n\n• and finally a unique study of catastrophic forgetting that shows that networks with UFR (like those from Picbreeder) are intrinsically resistant to catastrophic forgetting. The inset video on this post is a visualization from that catastrophic forgetting work.\n\nThe blog post also includes an interactive “wheel of science” demo.\n\nThe implications of these ideas are broad and diverse, but the fun part is that each one opens up its own new research playground - there is a lot of room for further research here!\n\nMoreover, we hope this release also highlights one other important point about AI today: while it may seem that the road ahead is already paved and all that’s left is to drive mindlessly forward, there actually remains a lot of room for new directions and insights in the pursuit of open-endedness and creativity.\n\nThis research was possible because @LilaSciences appreciates the critical role of open-ended innovation in the pursuit of scientific superintelligence. The advances you see here are part of this much larger company-wide ambition, which includes AI Science Factories and many other unprecedented components. When this engine is fueled by open-endedness, the result will be much more than a step change.\n\nMore advances in open-endedness are coming!\n\nBlog link below 👇",
+      "publishedAt": "2026-11-10T15:04:16.000Z",
+      "authorHandle": "kenneth0stanley",
       "likeCount": 0,
       "repost": true
     }
   ],
-  "fetchedAt": "2026-11-23T09:01:18.641Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 429 Too Many Requests / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-11-25T19:17:30.613Z",
+  "stale": false,
+  "error": null
 }
