@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "4ea3d5220c27",
-      "title": "Beam Model Technical Report",
-      "url": "https://huggingface.co/papers/2611.26358",
+      "id": "cba02eba5352",
+      "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+      "url": "https://huggingface.co/papers/2611.32884",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness.…",
+      "score": 34
+    },
+    {
+      "id": "554bca176333",
+      "title": "LingSante MedGuard Technical Report",
+      "url": "https://huggingface.co/papers/2611.25509",
       "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Beam is a sparse Mixture-of-Experts (MoE) model with 501.3B total parameters and 23.4B active parameters, specifically …",
-      "score": 14
+      "summary": "As medical AI is increasingly used for patient consultation and clinical decision support, identifying harmful, non-com…",
+      "score": 28
     },
     {
-      "id": "8ce98d450be5",
-      "title": "Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals",
-      "url": "https://huggingface.co/papers/2611.31094",
+      "id": "e126f66aac96",
+      "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+      "url": "https://huggingface.co/papers/2611.33010",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "Can a simple mirror expose the limitations of today's robotic manipulation policies? Inspired by the mirror self-recogn…",
+      "score": 24
+    },
+    {
+      "id": "743c7ee1b3f9",
+      "title": "Reinforcing Diffusion Models by Instantaneous Trajectory Distribution Matching",
+      "url": "https://huggingface.co/papers/2611.30986",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "Forward diffusion reinforcement learning (RL)---enabling deterministic ODE sampling without trajectory backpropagation-…",
+      "score": 13
+    },
+    {
+      "id": "b79e482141f0",
+      "title": "VenusOCR2.0: Towards Efficient and Effective Document Parsing",
+      "url": "https://huggingface.co/papers/2611.32617",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "We present VenusOCR2.0, a compact 1B-parameter vision-language recognizer designed for both high-accuracy and high-thro…",
+      "score": 7
+    },
+    {
+      "id": "eed3b65cc5c3",
+      "title": "SpecEngineeringBench: Evaluating Coding Agents as Autonomous Specification Engineers",
+      "url": "https://huggingface.co/papers/2611.32973",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "Autonomous specification engineering requires coding agents to translate functional requirements into executable tests …",
+      "score": 4
+    },
+    {
+      "id": "d6019910aefd",
+      "title": "Foresight Forcing: Learning Spatial Foresight for Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2611.30963",
       "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Looped Transformers iterate a shared block of layers to increase computation without adding parameters, offering strong…",
-      "score": 6
-    },
-    {
-      "id": "c57815b21629",
-      "title": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
-      "url": "https://huggingface.co/papers/2611.30900",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Multimodal large language models (MLLMs) have become strong policies for vision-and-language navigation (VLN). However,…",
-      "score": 3
-    },
-    {
-      "id": "4b90bb54161e",
-      "title": "Measuring and Teaching Language Model Agents to Act on Delayed Consequences",
-      "url": "https://huggingface.co/papers/2611.28158",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Language model agents are increasingly asked to run ongoing multi-day operations rather than finish isolated single-tur…",
-      "score": 3
-    },
-    {
-      "id": "2da223c0fbea",
-      "title": "KernelShift: Benchmarking Kernel Optimization Across Evolving Hardware",
-      "url": "https://huggingface.co/papers/2611.29590",
-      "publishedAt": "2026-11-22T00:00:00.000Z",
-      "summary": "Efficient AI computation depends on hardware that evolves over time, shifting the strategies needed to implement perfor…",
-      "score": 3
-    },
-    {
-      "id": "bd3d8a30eb2e",
-      "title": "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
-      "url": "https://huggingface.co/papers/2611.28167",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Answering questions over days or weeks of video requires searching for scattered clues across long timelines. Existing …",
+      "summary": "Robotic manipulation policies can improve action prediction by anticipating how objects move and how their spatial rela…",
       "score": 2
     },
     {
-      "id": "ee1aaab40b89",
-      "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
-      "url": "https://huggingface.co/papers/2611.31225",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Dataset distillation (DD) aims to compress a large dataset into a small synthetic one that remains effective for traini…",
+      "id": "257a3366b270",
+      "title": "GRAPE-Bench: When Vision Degrades, Does Video Reasoning Hold?",
+      "url": "https://huggingface.co/papers/2611.33020",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "Despite strong performance on standard benchmarks, video reasoning models remain vulnerable to visual degradation, rais…",
       "score": 2
     },
     {
-      "id": "9c5600e6a45a",
-      "title": "Let Vision-Language Models Generate Images through Their Representations",
-      "url": "https://huggingface.co/papers/2611.31237",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectiv…",
+      "id": "67f6d20d6b54",
+      "title": "Factorized Context Attention: From Emulated to Native Grid Probing",
+      "url": "https://huggingface.co/papers/2611.32423",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "Models read a book, an hour of video, or an image in one forward pass. As the context grows, this pass slows down, lose…",
+      "score": 2
+    },
+    {
+      "id": "028a6b7096cb",
+      "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+      "url": "https://huggingface.co/papers/2611.33148",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a s…",
       "score": 1
     },
     {
-      "id": "a281ae3f6a8f",
-      "title": "PixelOne: From Options to Pixels in a Single Forward for GUI Grounding",
-      "url": "https://huggingface.co/papers/2611.30235",
+      "id": "3953a6dc8a1b",
+      "title": "Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study",
+      "url": "https://huggingface.co/papers/2611.31442",
       "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "GUI grounding requires precise clicks at low latency. Recent models such as GUI-Decisions and GUI-Swift predict coordin…",
+      "summary": "Dense-embedding retrievers can fail adversarially: when a query is answered by a document A and reversed by a near-copy…",
       "score": 1
     },
     {
-      "id": "fa8ac3f74606",
-      "title": "Frontier models need only one text to unmask its human or AI author",
-      "url": "https://huggingface.co/papers/2611.26216",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Given a single text and a simple zero-shot prompt (no web access, tools, candidate lists, or writing samples), frontier…",
+      "id": "88546bfe130a",
+      "title": "ReFocus: Progress-Guided Adaptive Practice for Long-Horizon Robotic Manipulation Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2611.32639",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "Online reinforcement learning (RL) enables vision-language-action policies to improve through environmental interaction…",
       "score": 1
-    },
-    {
-      "id": "2bcf3e99a2aa",
-      "title": "HEP-Ex-Bench: Evaluating Agentic Performance in High Energy Physics Experiment Data Analyses with Sealed Worlds",
-      "url": "https://huggingface.co/papers/2611.28194",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Agentic systems are increasingly being explored for automating experimental high-energy physics measurements, but the c…",
-      "score": 1
-    },
-    {
-      "id": "d59cdfaa3a1c",
-      "title": "CCFinance: Reconstructing Financial News Samples from Web Archives",
-      "url": "https://huggingface.co/papers/2611.30737",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Proprietary news archives assign stories to firms, so reproducing a financial study often requires access to both the a…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-25T00:42:54.227Z",
+  "fetchedAt": "2026-11-25T09:12:54.884Z",
   "stale": false,
   "error": null
 }

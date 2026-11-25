@@ -2,6 +2,42 @@
   "handle": "iwiwi",
   "tweets": [
     {
+      "id": "2125404851719008345",
+      "url": "https://x.com/iwiwi/status/2125404851719008345",
+      "text": "Sakana Namazu SmallはNemotron 3 Nano Baseに追加の学習をした30B-A3Bのモデルです。今後オンプレミスでの提供などで利用していく予定です。\n\n技術的には、今までのSakana Namazuシリーズと異なり、baseモデルから出発しAgentic CPT, SFT, RLという一連のパイプラインを成功させたことがマイルストーンになります。事前学習直後の、agenticなことが何一つできないbaseモデルをどう育てるか。これは今後、自社で事前学習を行うSakana Sawaraシリーズでも必要になるノウハウで、まずは1つの分野でそれを確立できました。\n\n今回の取り組みではチャット画面での日常的・基礎的なタスクを想定したため、agenticな能力の中では特にweb検索を大きく伸ばしました。学習後のモデルには、900回以上ツールを呼び出した末に難問を正解する例もあり、long-horizonなタスクをこなす力も身についていると感じます。デプロイまで自社でコントロールできる分野なので、特定のハーネスを前提にend-to-endでパイプラインを設計しました。これが、コストを抑えつつ優れた性能を実現できた要因の1つだと考えています。\n\nデータ面では、合成データに加えて、外部パートナーと連携して人間のエキスパートに作成してもらった高品質・高難易度の問題が、RLで重要な役割を果たしました。こうしたデータ構築のアプローチの有効性を確認できたことも大きな収穫です。\n\n本モデルはGENIAC第4期の成果を活用しています。今後はSakana Sawaraシリーズの事後学習に向けて、このノウハウをさらに深めつつ、他のドメインにも広げていきます。",
+      "publishedAt": "2026-11-25T01:42:59.000Z",
+      "authorHandle": "iwiwi",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2125402880341664025",
+      "url": "https://x.com/corochann/status/2125402880341664025",
+      "text": "Nemotron 3 Nano 30B A3BをベースにMid-training, Post-trainingをおこなったSakana Namazu Smallがリリースされました！\n\n今回はBase modelからの学習ということで、事後学習済みのモデルではないので、Agentic LLMとして動かせるようにするためにMid-trainingまわりにも力を入れています。\n今回Web searchまわりを担当していましたが、競争力のあるモデルが作れるようになってきているかなとおもいます！\n\nこれまでのSakana Namazuの取り組みで事後学習にもかなり知見が溜まってきました 🐡🐠🐟",
+      "publishedAt": "2026-11-25T01:35:09.000Z",
+      "authorHandle": "corochann",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2125395717070143864",
+      "url": "https://x.com/Misakingkk/status/2125395717070143864",
+      "text": "Built on Nemotron 3 Nano 🎉\n@nvidia 💚 @SakanaAILabs",
+      "publishedAt": "2026-11-25T01:06:41.000Z",
+      "authorHandle": "Misakingkk",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2125387934203560416",
+      "url": "https://x.com/SakanaAILabs/status/2125387934203560416",
+      "text": "「Sakana Namazu Small」（30Bモデル）を発表\n\nsakana.ai/namazu-small/\n\nNVIDIA Nemotron 3 Nanoをベースに継続事前学習・事後学習を行い、25ベンチマーク平均で約4倍規模の120Bモデルを上回りました。\n\n長文読解やWeb検索での調査に強く、オンプレミス提供の詳細は12月前半にお知らせします。",
+      "publishedAt": "2026-11-25T00:35:45.000Z",
+      "authorHandle": "SakanaAILabs",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2125114198363357648",
       "url": "https://x.com/RobertTLange/status/2125114198363357648",
       "text": "Talk recordings of @SakanaAILabs's AI  Symposium are available 🗼\n\n📼 YT: youtube.com/@SakanaAIOfficia…\n📝 Blog: sakana.ai/symposium-2026/#En…\n\nLots of cool material, including talks by @hardmaru, @SchmidhuberAI, @iwiwi, @risi1979 & @Stefania_druga!",
@@ -54,45 +90,9 @@
       "authorHandle": "iwiwi",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2123574545697411468",
-      "url": "https://x.com/iwiwi/status/2123574545697411468",
-      "text": "11/28(土)、typeエンジニア転職フェアONLINEでセミナー配信があります！\n\nAIの性能はなぜ上がり続けるのか、特に強化学習による能力向上の威力と歪さ、その中でエンジニアはどうキャリアを考えるか、という話です。よければ是非！\n\ntype.jp/s/fair/online/",
-      "publishedAt": "2026-11-20T00:30:00.000Z",
-      "authorHandle": "iwiwi",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2123236615502049311",
-      "url": "https://x.com/iwiwi/status/2123236615502049311",
-      "text": "先日のKimi K3解説イベントが記事になりました！個々の技術要素から開発チームの考え方まで、当日色々話した内容をまとめて頂いてます。参加できなかった方もよければ是非。 levtech.jp/media/detail_975/",
-      "publishedAt": "2026-11-19T02:07:11.000Z",
-      "authorHandle": "iwiwi",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2123228641668829610",
-      "url": "https://x.com/levtech_lab/status/2123228641668829610",
-      "text": "「Kimi K3」は、何がすごいのか？\n\nSakana AIの秋葉拓哉さん @iwiwi と岩瀬義昌さん@iwashi86 が登壇したレバテックLABのイベントの内容をレポートにまとめました👇\n\n中国AIは、どのように賢くなったのか。MoE、リニアアテンション、強化学習……Kimi K3の中身を紐解く  levtech.jp/media/detail_975/",
-      "publishedAt": "2026-11-19T01:35:30.000Z",
-      "authorHandle": "levtech_lab",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2123039814069199159",
-      "url": "https://x.com/HigurashiAI/status/2123039814069199159",
-      "text": "Haru-4B just hit #1 on Hugging Face’s trending models list across all categories! 🚀\n\nThank you all for the incredible support!\n\nModel page→huggingface.co/higurashi-ai/…",
-      "publishedAt": "2026-11-18T13:05:10.000Z",
-      "authorHandle": "HigurashiAI",
-      "likeCount": 0,
-      "repost": true
     }
   ],
-  "fetchedAt": "2026-11-25T00:43:06.520Z",
+  "fetchedAt": "2026-11-25T09:13:06.882Z",
   "stale": false,
   "error": null
 }
