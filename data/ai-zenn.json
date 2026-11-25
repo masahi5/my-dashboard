@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "9941c901c383",
-      "title": "Ideogram 5.0 vs GPT Image 2.6：6モード文字組版精度・キャラクター固定・5,280永久クレジット経済学",
-      "url": "https://zenn.dev/yoxi957/articles/a4579be5c201b3",
-      "publishedAt": "2026-11-24T11:24:04.000Z",
-      "publisher": "AI Visual Notes",
-      "summary": "TLDR: Ideogram 5.0とGPT Image 2.6を、長文ポスターの文字組版精度、キャラクター一貫性ロック、および5,280永久ロールオーバークレジット経済学の観点から比較します。 2K印刷対応の6モード統合設計：Ideog…"
+      "id": "d9ade0e5a248",
+      "title": "PCの前にいなくてもCursorを動かしたくてRemote Controlを試したら、WSLでつまずいた話",
+      "url": "https://zenn.dev/naga1021/articles/cursor-remote-control-wsl",
+      "publishedAt": "2026-11-24T19:21:53.000Z",
+      "publisher": "なが",
+      "summary": "家の PC の Cursor を、PC の前にいないときにも動かせたら便利そうですよね。そう思って11月18日に Cursor の Remote Control を試したんですが、私の WSL の環境ではうまく動きませんでした。いまは別の…"
     },
     {
-      "id": "536b8a84eef2",
-      "title": "ClaudeからCodexへ、開発の経験を次へつなぐ",
-      "url": "https://zenn.dev/honabochi/articles/claude-codex-development-letters",
-      "publishedAt": "2026-11-24T11:00:22.000Z",
-      "publisher": "NoBu",
-      "summary": "Claude Codeで進めた開発の経験を、Codexと検討して、次の開発でも使う手順へ戻す。私はGitHubのIssueやコメントを手紙の置き場にして、この往復を行っている。 送るのは、作業を終えたという報告だけではない。何が起き、何を…"
+      "id": "016388488103",
+      "title": "CLAUDE.mdを13.6KBから4.4KBに削って分かった、消す行と残す行の境目",
+      "url": "https://zenn.dev/playpark/articles/claude-md-prune-on-model-upgrade",
+      "publishedAt": "2026-11-24T18:58:28.000Z",
+      "publisher": "playpark",
+      "summary": "モデルは新しいのに、指示ファイルは前任者のメモのまま Claude Code のモデルを Opus 5.5 / Sonnet 5.5 に替えたあと、ふと思いました。毎セッション読ませている CLAUDE.md、前のモデル向けの注意書きがそ…"
     },
     {
-      "id": "1cc54eccec52",
-      "title": "ガードレールが効いたかの採点に LLM を使わない。最適化する側と採点する側を分ける",
-      "url": "https://zenn.dev/t_azk/articles/judge-by-exit-code-not-by-llm",
-      "publishedAt": "2026-11-24T10:57:00.000Z",
-      "publisher": "t-azk",
-      "summary": "3行でいうと 自作の開発基盤で「規約やフックが AI の事故を減らしているか」を測る評価セットを作るとき、合否の判定に LLM を使わず、既存の検査の終了コードだけで採点すると決めた 最適化する側（AI と、AI に読ませる規約）と採点す…"
+      "id": "fa3604973dd7",
+      "title": "ドット絵のキャラを回したかった① ボクセルは「人とは言えない」——失敗3連発と、合格した物差し",
+      "url": "https://zenn.dev/tosh1000950/articles/7f81cb4380529c",
+      "publishedAt": "2026-11-24T16:52:46.000Z",
+      "publisher": "Tosh1000950",
+      "summary": "ドット絵のキャラを回したかった① ボクセルは「人とは言えない」——失敗3連発と、合格した物差し （全4回連載の第1回／公開想定：夜枠） ドット絵の自作キャラ「Kisaragi」を、スプライトスタッキングという疑似3D技術で本物の3Dみたい…"
     },
     {
-      "id": "b8d6999b9e83",
-      "title": "Codexの週の枠が尽きたのでGeminiを3人目のレビュー役にしたら、最初は一度も呼ばれていなかった",
-      "url": "https://zenn.dev/twinharness/articles/gemini-third-reviewer-never-called",
-      "publishedAt": "2026-11-24T10:51:45.000Z",
-      "publisher": "twinharness",
-      "summary": "私は Claude Code（Anthropic のプログラムを書く AI）と Codex（OpenAI のプログラムを書く AI）の2つを月額プランで使い、個人開発をしています。決まりは一つで、「コードを書いた AI と、それを見直す …"
+      "id": "d1ddd07c64cd",
+      "title": "マーダーミステリーのシナリオを形式手法で検証しようとしたら、バグと曖昧さが見つかった",
+      "url": "https://zenn.dev/henteko/articles/ed8d1458246d7a",
+      "publishedAt": "2026-11-24T16:45:47.000Z",
+      "publisher": "henteko",
+      "summary": "形式手法の勉強のために、マーダーミステリーのシナリオの矛盾を検出するCLIを開発しました。 https://github.com/henteko/murder-mystery-checker 決まった仕様(JSON)でシナリオを記述すると…"
     },
     {
-      "id": "04d9720b32fc",
-      "title": "「答えるAI」から「覚えて動くAI」へ。パーソナルAIエージェント Muse の始め方と招待コードの入力手順",
-      "url": "https://zenn.dev/okada_works/articles/c4d727af685d0f",
-      "publishedAt": "2026-11-24T10:23:36.000Z",
-      "publisher": "AI実践ラボ",
-      "summary": "はじめに 私は本業が看板関係の営業で、プログラミングはできません。コードは読めないし、書けません。 そんな私がここ数か月、日常的に使っているAIが Meta のパーソナルAIエージェント「Muse」です。画像生成AIの環境構築をスマホから…"
+      "id": "4fbe040076bd",
+      "title": "【ドパガキ向け】AI 時代の要求管理 ハンドブックを読もう",
+      "url": "https://zenn.dev/muroshima/articles/be47515ff9c16e",
+      "publishedAt": "2026-11-24T16:36:20.000Z",
+      "publisher": "mmm",
+      "summary": "IPA の「AI 時代の要求管理ハンドブック」を読みました。 129ページあって全部追うのは大変なので、重要そうなところだけピックアップしました。 https://www.ipa.go.jp/digital/kaihatsu/rqr7mi…"
     },
     {
-      "id": "d5d96980778f",
-      "title": "CloudNative Days Winter 2026参加記",
-      "url": "https://zenn.dev/0st_ts/articles/97ddb35a5f8cc1",
-      "publishedAt": "2026-11-24T10:19:05.000Z",
-      "publisher": "わかと",
-      "summary": "こんにちは、わかとです。11月18日（水）・19日（木）、東京・有明で開催されたCloudNative Days Winter 2026に、学生スカラシップで現地参加しました。Day 2には、ハッカソンで作った「技術釣り」の話をする学生L…"
+      "id": "a6062ba4e001",
+      "title": "妻の「らくらくホン」の2段階認証（6桁番号）が大変そうだったので、AIと1日で「番号ピン留めアプリ」を自作した話",
+      "url": "https://zenn.dev/gomachan70/articles/9731a13f330077",
+      "publishedAt": "2026-11-24T16:24:05.000Z",
+      "publisher": "田中信夫",
+      "summary": "こんにちは、70代の素人開発者・ゴマちゃん（gomachan）です。 前回の記事（生成AIを相棒にしてアプリを「ベルトコンベア式」に量産している話）に続き、今回は実際に私が 妻のために約1日で作成したAndroidアプリ「通知番号」 を紹…"
     },
     {
-      "id": "bd08c82270e1",
-      "title": "Fable 5.2に「不具合は10件ある」と嘘をついたら話を合わせてこなかった",
-      "url": "https://zenn.dev/marunage_kacho/articles/ai-trial-fable-padding",
-      "publishedAt": "2026-11-24T09:52:29.000Z",
-      "publisher": "丸投げ課長",
-      "summary": "11月9日に出たClaude Fable 5.2を、手元のClaude Codeで試しました。比べたのは前の版のFable 5.1と、普段使っているOpus 5.5です。 最初は「上位のモデルだし、不具合をもっと見つけるんだろう」と思って…"
+      "id": "d8b69746541f",
+      "title": "NVIDIA SnapshotはGPU推論の立ち上げを速めるか——チェックポイント方式の価値と導入判断",
+      "url": "https://zenn.dev/mstmt/articles/a6596e8c0ca9fd",
+      "publishedAt": "2026-11-24T16:13:05.000Z",
+      "publisher": "TAMOTSU＠DELL",
+      "summary": "本稿は LinkedIn に掲載していた記事の内容の転載である。 元記事は こちら [日本語] NVIDIA SnapshotはGPU推論の立ち上げを速めるか——チェックポイント方式の価値と導入判断 GPUを使う生成AIサービスでは、GP…"
     },
     {
-      "id": "96286faf8d6b",
-      "title": "Why Retrieval Is the Difference Between a Chatbot and a Reliable AI",
-      "url": "https://zenn.dev/softbrixai/articles/0a9cbc35d2d67f",
-      "publishedAt": "2026-11-24T09:42:53.000Z",
-      "publisher": "SoftBrixAI",
-      "summary": "Why Retrieval Is the Difference Between a Chatbot and a Reliable AI System A large language model can write a fluent an…"
+      "id": "349fa3b22e05",
+      "title": "【AIとシンギュラリティ②】倒産まで残り約30日。NVIDIAは最初から強かったわけではない",
+      "url": "https://zenn.dev/fx_hamrat/articles/6b73bf677307f0",
+      "publishedAt": "2026-11-24T15:22:21.000Z",
+      "publisher": "FXハムラット",
+      "summary": "MT4とMT5でEAとインジケーターを作っているFXハムラットです。AIとシンギュラリティについて考えたことを、8回に分けて書いています（技術の解説ではなく、歴史と考察の記事です）。 前回、ニューラルネットワークは「理論はあったのに、機械…"
     },
     {
-      "id": "17c90110a0c1",
-      "title": "Claude CodeとCodexに鍵漏れを12回確認させたら、.env外も毎回見つけた",
-      "url": "https://zenn.dev/bpr_prot/articles/5c19ddb4cbfdff",
-      "publishedAt": "2026-11-24T09:42:45.000Z",
-      "publisher": "BPR Prot.",
-      "summary": "AIに「鍵が漏れていないか確認して」と頼み、「大丈夫」と返ってきたら、それを信じて公開してよいのでしょうか。Qiitaのセキュリティ入門で勧めた頼み方を使い、Claude CodeとCodexに合わせて12回確かめてもらいました。相手は、…"
+      "id": "3be8268af426",
+      "title": "Skip the prompt: one-photo viral video templates",
+      "url": "https://zenn.dev/tessarhodes/articles/39b93c99d641f5",
+      "publishedAt": "2026-11-24T15:14:38.000Z",
+      "publisher": "Tessa Rhodes",
+      "summary": "Remaking a viral AI TikTok clip by hand is mostly prompt work. You describe a camera move, a costume, a gag, and hope t…"
     },
     {
-      "id": "84d9274740ed",
-      "title": "Surface Laptop Ultra 128GBで組むハイブリッドLLM構想と、ゼロ依存Node.jsルーターの先行実装",
-      "url": "https://zenn.dev/kitworks/articles/f3799bd9142457",
-      "publishedAt": "2026-11-24T09:42:40.000Z",
-      "publisher": "KitWorks",
-      "summary": "128GBのユニファイドメモリを積んだ Surface Laptop Ultra（税込109万4,280円）のスペック表を眺めながら、「これが手元にあったら、どのモデルを常駐させて何をクラウドに残すか」を本気で計算してみました。 実機はま…"
+      "id": "bfe5736899de",
+      "title": "【AIとシンギュラリティ①】ニューラルネットワークの「冬」。理論はあったのに、機械が追いつかなかった時代",
+      "url": "https://zenn.dev/fx_hamrat/articles/3344c8f4949bb8",
+      "publishedAt": "2026-11-24T15:14:09.000Z",
+      "publisher": "FXハムラット",
+      "summary": "MT4とMT5でEAとインジケーターを作っているFXハムラットです。AIとシンギュラリティについて考えたことを、8回に分けて書いています（技術の解説ではなく、歴史と考察の記事です）。 今日から8回に分けて、AIとシンギュラリティ（技術的特…"
     },
     {
-      "id": "41109cbc681a",
-      "title": "Copilot Studioのエージェント開発をClaude Codeにどこまで任せられるか試した",
-      "url": "https://zenn.dev/upgradetech/articles/a9a1637d3071c1",
-      "publishedAt": "2026-11-24T09:24:58.000Z",
-      "publisher": "masa",
-      "summary": "この記事の想定読者 Copilot Studioのエージェントを画面操作で作っていて、直すたびにどこを変えたのか分からなくなっている方 Claude Codeを使い始めて、コードを書く以外の仕事にも使えないか考えている方 「AIにアプリを…"
+      "id": "b8905d2f564a",
+      "title": "増えすぎた20スレッドを棚卸し！失敗を「過去トラ」と「AGENTS.md」に刻んで次に活かす",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-11-history-review-and-agents",
+      "publishedAt": "2026-11-24T15:11:32.000Z",
+      "publisher": "Maki",
+      "summary": "AIエージェントと一緒に3Dモデルの設計や印刷を繰り返していると、気づけばチャットのスレッドがどんどん増えていきます。「前に同じようなサポート材の失敗をした気がするけれど、どのスレッドで何が起きたんだっけ？」と探すだけでもひと苦労です。 …"
     },
     {
-      "id": "1d5918463bf7",
-      "title": "AI生成コードで起きがちな認証・認可の穴とAPIキー露出：Laravel × AIアプリの本番公開前に潰すべき4つのアンチパターン",
-      "url": "https://zenn.dev/ritsu_nakagami/articles/aefe3bcb763c4a",
-      "publishedAt": "2026-11-24T09:09:13.000Z",
-      "publisher": "仲神 律",
-      "summary": "はじめに：AIが書いたコードは動くが、守れていない CursorやClaude、ChatGPTなどを活用すれば、Laravelをベースにしたチャットボットや社内ドキュメント検索といったAI連携Webアプリは、驚くほど短期間で動くところまで…"
+      "id": "167dc6131fb3",
+      "title": "AIが人間に聞くためのMCP —— 判断を取得する CRA Remote MCP",
+      "url": "https://zenn.dev/hiromi63/articles/757d7176a3a5ec",
+      "publishedAt": "2026-11-24T15:10:50.000Z",
+      "publisher": "Hiromi",
+      "summary": "MCP（Model Context Protocol）のサーバーは、ここ1年ほどで一気に増えました。 その多くは、 AIが外部のデータを取ってくる AIが外部のサービスを操作する ためのものです。 今回作ったMCPは逆の向きです。 AIが…"
     }
   ],
-  "fetchedAt": "2026-11-24T16:08:00.538Z",
+  "fetchedAt": "2026-11-25T00:42:54.344Z",
   "stale": false,
   "error": null
 }

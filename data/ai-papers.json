@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "88797fe1e44b",
-      "title": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
-      "url": "https://huggingface.co/papers/2611.12164",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "summary": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is…",
-      "score": 47
-    },
-    {
-      "id": "293153b03347",
-      "title": "SynthDCB: World Distillation for Scalable Device Control Benchmarking",
-      "url": "https://huggingface.co/papers/2611.18639",
+      "id": "4ea3d5220c27",
+      "title": "Beam Model Technical Report",
+      "url": "https://huggingface.co/papers/2611.26358",
       "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Scaling device-control evaluation requires scaling both interactive worlds and the tasks agents must solve. We introduc…",
-      "score": 24
+      "summary": "Beam is a sparse Mixture-of-Experts (MoE) model with 501.3B total parameters and 23.4B active parameters, specifically …",
+      "score": 14
     },
     {
-      "id": "a7de7f103c8a",
-      "title": "Open Vision Banana: An Open Framework for Unified Visual Perception through Generation in RGB Space",
-      "url": "https://huggingface.co/papers/2611.28489",
-      "publishedAt": "2026-11-21T00:00:00.000Z",
-      "summary": "Vision Banana showed that a closed image generator, instruction-tuned to paint perception outputs as RGB images, become…",
-      "score": 16
-    },
-    {
-      "id": "64ca1dcdd303",
-      "title": "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
-      "url": "https://huggingface.co/papers/2611.30495",
+      "id": "8ce98d450be5",
+      "title": "Unlocking the Power of Loops in Pretrained LLMs with Loop Residuals",
+      "url": "https://huggingface.co/papers/2611.31094",
       "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Human demonstrations provide a rich source of bimanual dexterous skills, yet transferring them to robot hands remains c…",
-      "score": 11
-    },
-    {
-      "id": "db85d11a47da",
-      "title": "Can Latent Reasoning Drive LLM Outputs Without a Trace?",
-      "url": "https://huggingface.co/papers/2611.31015",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "LLMs typically solve complex tasks with chain-of-thought (CoT) reasoning, which is also the main tool for monitoring th…",
+      "summary": "Looped Transformers iterate a shared block of layers to increase computation without adding parameters, offering strong…",
       "score": 6
     },
     {
-      "id": "89bd46a1f2a7",
-      "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
-      "url": "https://huggingface.co/papers/2611.31198",
+      "id": "c57815b21629",
+      "title": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
+      "url": "https://huggingface.co/papers/2611.30900",
       "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond…",
-      "score": 4
+      "summary": "Multimodal large language models (MLLMs) have become strong policies for vision-and-language navigation (VLN). However,…",
+      "score": 3
     },
     {
-      "id": "c14ff603ffa3",
-      "title": "Innata-0: A Native Embodied World System with Model-Agent Co-Design",
-      "url": "https://huggingface.co/papers/2611.30254",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "The physical world is open-ended, dynamic, and partially observable. While foundation models have advanced embodied int…",
-      "score": 1
-    },
-    {
-      "id": "868d66471924",
-      "title": "WorldLatent: A Unified 4D Latent Space for World Perception and Generation",
-      "url": "https://huggingface.co/papers/2611.31209",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Generative Pre-Training (GPT) represents a profound milestone in natural language processing, serving as the foundation…",
-      "score": 1
-    },
-    {
-      "id": "c58da221ba35",
-      "title": "Single-Transformer Latent Diffusion",
-      "url": "https://huggingface.co/papers/2611.29064",
-      "publishedAt": "2026-11-21T00:00:00.000Z",
-      "summary": "Latent generative models typically rely on three separate networks: an encoder that tokenizes pixels, a generator that …",
-      "score": 1
-    },
-    {
-      "id": "dc46ca545603",
-      "title": "LLMs Memorize Their Own Hallucinations During Post-Training",
-      "url": "https://huggingface.co/papers/2611.26863",
+      "id": "4b90bb54161e",
+      "title": "Measuring and Teaching Language Model Agents to Act on Delayed Consequences",
+      "url": "https://huggingface.co/papers/2611.28158",
       "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Reasoning domains have shaped the post-training recipes of frontier models even though they are trained and deployed in…",
+      "summary": "Language model agents are increasingly asked to run ongoing multi-day operations rather than finish isolated single-tur…",
+      "score": 3
+    },
+    {
+      "id": "2da223c0fbea",
+      "title": "KernelShift: Benchmarking Kernel Optimization Across Evolving Hardware",
+      "url": "https://huggingface.co/papers/2611.29590",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "Efficient AI computation depends on hardware that evolves over time, shifting the strategies needed to implement perfor…",
+      "score": 3
+    },
+    {
+      "id": "bd3d8a30eb2e",
+      "title": "VideoJSON: A Minimal Harness Beats Purpose-Built Memory for Ultra-Long Video Understanding",
+      "url": "https://huggingface.co/papers/2611.28167",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Answering questions over days or weeks of video requires searching for scattered clues across long timelines. Existing …",
+      "score": 2
+    },
+    {
+      "id": "ee1aaab40b89",
+      "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
+      "url": "https://huggingface.co/papers/2611.31225",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "Dataset distillation (DD) aims to compress a large dataset into a small synthetic one that remains effective for traini…",
+      "score": 2
+    },
+    {
+      "id": "9c5600e6a45a",
+      "title": "Let Vision-Language Models Generate Images through Their Representations",
+      "url": "https://huggingface.co/papers/2611.31237",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectiv…",
       "score": 1
     },
     {
-      "id": "4ed69982c990",
-      "title": "Lyris: Layout-Guided Long Video Generation with Persistent 3D Memory",
-      "url": "https://huggingface.co/papers/2611.31239",
+      "id": "a281ae3f6a8f",
+      "title": "PixelOne: From Options to Pixels in a Single Forward for GUI Grounding",
+      "url": "https://huggingface.co/papers/2611.30235",
       "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Exploring a scene from as little as a single photo requires generating a long, camera-controlled walkthrough that exten…",
-      "score": 0
+      "summary": "GUI grounding requires precise clicks at low latency. Recent models such as GUI-Decisions and GUI-Swift predict coordin…",
+      "score": 1
     },
     {
-      "id": "74465b140431",
-      "title": "ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification",
-      "url": "https://huggingface.co/papers/2611.29723",
-      "publishedAt": "2026-11-22T00:00:00.000Z",
-      "summary": "Animal re-identification (Re-ID) must distinguish individuals across species and capture conditions. We introduce ApexI…",
+      "id": "fa8ac3f74606",
+      "title": "Frontier models need only one text to unmask its human or AI author",
+      "url": "https://huggingface.co/papers/2611.26216",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "Given a single text and a simple zero-shot prompt (no web access, tools, candidate lists, or writing samples), frontier…",
+      "score": 1
+    },
+    {
+      "id": "2bcf3e99a2aa",
+      "title": "HEP-Ex-Bench: Evaluating Agentic Performance in High Energy Physics Experiment Data Analyses with Sealed Worlds",
+      "url": "https://huggingface.co/papers/2611.28194",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Agentic systems are increasingly being explored for automating experimental high-energy physics measurements, but the c…",
+      "score": 1
+    },
+    {
+      "id": "d59cdfaa3a1c",
+      "title": "CCFinance: Reconstructing Financial News Samples from Web Archives",
+      "url": "https://huggingface.co/papers/2611.30737",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "Proprietary news archives assign stories to firms, so reproducing a financial study often requires access to both the a…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-24T16:08:00.434Z",
+  "fetchedAt": "2026-11-25T00:42:54.227Z",
   "stale": false,
   "error": null
 }
