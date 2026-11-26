@@ -11,15 +11,7 @@
       "url": "https://huggingface.co/papers/2611.31358",
       "publishedAt": "2026-11-23T00:00:00.000Z",
       "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce…",
-      "score": 78
-    },
-    {
-      "id": "e0936c23c6fc",
-      "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
-      "url": "https://huggingface.co/papers/2611.32649",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inferen…",
-      "score": 19
+      "score": 81
     },
     {
       "id": "8d2c2424b5b9",
@@ -30,11 +22,11 @@
       "score": 8
     },
     {
-      "id": "fee8c1aba5c0",
-      "title": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
-      "url": "https://huggingface.co/papers/2611.31752",
+      "id": "2eb8a6ee1ddd",
+      "title": "Distill to Loop: Turning Pretrained Diffusion Transformers into Looped Models with Adjustable Depth",
+      "url": "https://huggingface.co/papers/2611.31977",
       "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Split-training privacy evaluations fail through distinct mechanisms. Evaluators can overlook an exposed gradient channe…",
+      "summary": "Looped transformers reuse one block of shared weights along the depth of the network. Recent looped diffusion transform…",
       "score": 4
     },
     {
@@ -46,19 +38,19 @@
       "score": 3
     },
     {
-      "id": "2eb8a6ee1ddd",
-      "title": "Distill to Loop: Turning Pretrained Diffusion Transformers into Looped Models with Adjustable Depth",
-      "url": "https://huggingface.co/papers/2611.31977",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Looped transformers reuse one block of shared weights along the depth of the network. Recent looped diffusion transform…",
-      "score": 3
+      "id": "3cb58d901592",
+      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+      "url": "https://huggingface.co/papers/2611.27962",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transforme…",
+      "score": 2
     },
     {
-      "id": "04850dc5b7fc",
-      "title": "Measuring Layer-wise Intrinsic Dimensionality of FFNs in LLMs via PCA",
-      "url": "https://huggingface.co/papers/2611.32782",
+      "id": "d70f400f437f",
+      "title": "Steerable by Design: Conditional Pretraining for Robust Control of Language Models",
+      "url": "https://huggingface.co/papers/2611.32199",
       "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Modern large language models (LLMs) keep the feed-forward network (FFN) intermediate width identical across every layer…",
+      "summary": "Our goal is to build language models that are steerable by design. Today's language models are pretrained with next-tok…",
       "score": 2
     },
     {
@@ -67,31 +59,39 @@
       "url": "https://huggingface.co/papers/2611.30017",
       "publishedAt": "2026-11-23T00:00:00.000Z",
       "summary": "We present OWE-Bench (OpenWorldEngineer-Bench), a benchmark of 26 long-horizon engineering tasks written by domain expe…",
-      "score": 1
+      "score": 2
     },
     {
-      "id": "a50a5bbf72ef",
-      "title": "FATCAT: Fault Injection Attacks Targeting Chip-level Alignment",
-      "url": "https://huggingface.co/papers/2611.31129",
+      "id": "8fd107635508",
+      "title": "Seeing Is Locating: Spatial Awareness and Geographic Bias in Decision Language Models",
+      "url": "https://huggingface.co/papers/2611.30564",
       "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Model alignment is the primary safety and security mechanism for enforcing refusal of malicious prompts in modern found…",
+      "summary": "Decision models, which output probability distributions over candidate labels instead of generating text, are increasin…",
       "score": 1
     },
     {
-      "id": "18d57c55213e",
-      "title": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
-      "url": "https://huggingface.co/papers/2611.32918",
+      "id": "eaf839f8fc16",
+      "title": "Fractal Neural Synthesis: Constant-Storage Procedural Weight Derivation via Complex Quadratic Boundary Dynamics",
+      "url": "https://huggingface.co/papers/2611.32393",
       "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Fine-tuning an instruction-tuned language model on new facts often erodes its general abilities. We find that standard …",
+      "summary": "Conventional neural networks store synaptic parameters as explicit tensors whose persistent Flash footprint scales line…",
       "score": 1
     },
     {
-      "id": "321281feb2e8",
-      "title": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
-      "url": "https://huggingface.co/papers/2611.31258",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "summary": "Context compaction enables large language model agents to tackle long-horizon tasks within limited context budgets by r…",
+      "id": "b0c873921363",
+      "title": "Point Dynamics as Proxy for Robotic World Models",
+      "url": "https://huggingface.co/papers/2611.25946",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Robotic world models predict future video frames from the current observation and a sequence of robot actions. While re…",
       "score": 1
+    },
+    {
+      "id": "4e5bb10e5443",
+      "title": "LookAnything: A Foundation Model for Holistic Gaze Following",
+      "url": "https://huggingface.co/papers/2611.32351",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "Human gaze provides a rich window into attention and intent, making its understanding essential for applications rangin…",
+      "score": 0
     },
     {
       "id": "cfe38a17cb86",
@@ -102,7 +102,7 @@
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-25T19:16:58.837Z",
+  "fetchedAt": "2026-11-26T02:21:53.498Z",
   "stale": false,
   "error": null
 }
