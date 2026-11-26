@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "f90a43c6e7bb",
-      "title": "PLATEAU×Three.js白箱動画をGemini Omni 1.2 Flashで実写化する手順と360p・1080p比較",
-      "url": "https://zenn.dev/kanta13jp1/articles/plateau-threejs-whitebox-gemini-omni-video-guide",
-      "publishedAt": "2026-11-25T20:46:58.000Z",
-      "publisher": "kanta13jp1",
-      "summary": "はじめに：AI 動画のカメラ破綻と Blender 重作業の間をどう埋めるか テキスト指示だけで都市のドローン空撮を AI 動画生成すると、建物の配置や道路のつながりが途中で崩れやすく、狙ったカメラ軌道に収まりません。逆に Blender…"
+      "id": "bcd6276292b6",
+      "title": "検索で見えなければ、AIは旧価格で見積を書く：決定台帳を検索と別に渡すMCPを3条件で比べた",
+      "url": "https://zenn.dev/walkon/articles/b3d22ecbc05553",
+      "publishedAt": "2026-11-26T07:46:38.000Z",
+      "publisher": "WalkOn 株式会社銭内堂",
+      "summary": "! WalkOn（株式会社銭内堂）が作っているOSS「Coheads（コヘッズ）」の連載、第1話です。 リポジトリの公開はマイルストーンM3の予定で、この記事の時点ではコードを試せません。 登場する会社、人物、金額はすべて試験用の架空のも…"
     },
     {
-      "id": "92cf89b78433",
-      "title": "Next.js 16のproxy移行で、公式ドキュメントのテスト関数が存在しなかった",
-      "url": "https://zenn.dev/playpark/articles/nextjs-middleware-to-proxy-agent-checklist",
-      "publishedAt": "2026-11-25T18:58:58.000Z",
-      "publisher": "playpark",
-      "summary": "「最新ドキュメントを読ませたから大丈夫」と思っていませんか エージェントに入っている版の公式ドキュメントを読ませたから、古い知識で書かれる心配はない。Next.js 16 の middleware から proxy への移行で、この前提が…"
+      "id": "361c8ec933df",
+      "title": "VS Code で Claude Code を毎日使って分かった、エディタの中で AI を使うメリット・デメリット",
+      "url": "https://zenn.dev/mukuil_blog/articles/1e5d2ea5336b74",
+      "publishedAt": "2026-11-26T06:53:46.000Z",
+      "publisher": "ganchan1091",
+      "summary": "こんにちは！株式会社ムクイルの岩元です。 やっていること：受託開発の仕事で、VS Code の拡張機能から Claude Code を毎日使っています 設定の要点：拡張機能を入れてログインするだけで動きます。効くのは、その後に置く CLA…"
     },
     {
-      "id": "2db8baea8ffb",
-      "title": "HackwithBay 4.0参加記｜Evidence GTMを個人で作って見えた課題",
-      "url": "https://zenn.dev/rootforgerie/articles/hackwithbay-4-evidence-gtm-retrospective",
-      "publishedAt": "2026-11-25T18:58:19.000Z",
-      "publisher": "rootforgerie",
-      "summary": "サンフランシスコでハッカソンに参加した 2026年11月24日、サンフランシスコのAWS Builder Loftで開催されたHackwithBay 4.0に参加しました。イベントのテーマは「Thoughtful Agents for P…"
+      "id": "4427ab9533f9",
+      "title": "OpenCode＋LLMで作れるほど甘くなかった ― ローカルLLM×MCP×Clefで自律型AIレッドチームエージェントを自作",
+      "url": "https://zenn.dev/malwaresuk/articles/llm-orchestrator-redteam-agent",
+      "publishedAt": "2026-11-26T06:38:00.000Z",
+      "publisher": "のうみん",
+      "summary": "本記事は自宅のレッドチーム演習ラボ（RedLab / ローカルLLM + MCP + Clef）での検証記録です。意図的に脆弱化したダミー環境でのみ実行しており、実在のシステムへの侵入試験ではありません。攻撃ペイロードや悪用手順そのものは…"
     },
     {
-      "id": "571f099bb7af",
-      "title": "Echo Show 5を脱獄してVOICEVOX×LLMの自作AI秘書にした全手順",
-      "url": "https://zenn.dev/nalt/articles/echo-show-5-voxmate-assistant",
-      "publishedAt": "2026-11-25T17:30:20.000Z",
-      "publisher": "nalt",
-      "summary": "机の隅で眠っていた Echo Show 5（第1世代）を、ローカル音声認識（Whisper）＋ LLM ＋ VOICEVOX ＋ 立ち絵キャラクターが動く 専用の AI 音声アシスタント端末 に作り変えました。 純正のスマートディスプレイ…"
+      "id": "45b8b344c8d0",
+      "title": "本開発の提案書を「出す前に止められた」PMがやり直したこと",
+      "url": "https://zenn.dev/mukuil_blog/articles/7de2d7f093b087",
+      "publishedAt": "2026-11-26T06:23:33.000Z",
+      "publisher": "hor",
+      "summary": "はじめに どんな提案だったか 先日、とある案件（ハードウェアとソフトウェアを組み合わせたシステム）の、本開発の提案書を書きました。細かい内容は口外できませんが、本番で失敗が許されない種類の案件です。 要件定義と小さな検証を終えて、次の「本…"
     },
     {
-      "id": "4952bca040f9",
-      "title": "外部送信ゼロ・最小権限のManifest V3拡張を設計してMicrosoft Edge公式ストア7本を一発審査通過させた実装設計ノート",
-      "url": "https://zenn.dev/sorahotate/articles/b7e66f2774bf57",
-      "publishedAt": "2026-11-25T17:20:43.000Z",
-      "publisher": "そらほたて｜ローカル完結ツール制作室",
-      "summary": "AIチャット（ChatGPT / Claude / Gemini）向けの支援ツールを作るとき、多くの拡張機能がバックエンドサーバーや外部トラッキングを組み込みますが、実務ユーザーほど「顧客名・社内文章・APIキーを外に出さない完全ローカル…"
+      "id": "eea665075505",
+      "title": "KikuviのAIインタビュアーをLLMで評価する仕組み",
+      "url": "https://zenn.dev/kikuvi/articles/b525bf765fe355",
+      "publishedAt": "2026-11-26T06:13:29.000Z",
+      "publisher": "takuoko",
+      "summary": "はじめに Kikuvi で AI エンジニアをしている大越です。Kikuvi の AI インタビュアーを、LLM を使って評価する仕組みを作ったので、紹介します。 Kikuviは、AIが対話形式でヒアリングを行い、集まった回答を分析するサ…"
     },
     {
-      "id": "700e837fd247",
-      "title": "Keep the House Number and the Bell Plate: Four Weather Passes for One",
-      "url": "https://zenn.dev/andytanlinks/articles/d668a075d8a817",
-      "publishedAt": "2026-11-25T17:15:26.000Z",
-      "publisher": "Andy Tan",
-      "summary": "A street doorway is a small but stubborn subject. The house number has a typeface. The bell plate has names, or at leas…"
+      "id": "36b922ace9af",
+      "title": "claude --resume は別フォルダでも再開できた。No conversation found になる条件を実測",
+      "url": "https://zenn.dev/yorusuzu/articles/claude-code-resume-no-conversation-found",
+      "publishedAt": "2026-11-26T06:07:44.000Z",
+      "publisher": "yorusuzu",
+      "summary": "Windows 11・Claude Code 2.1.318・haiku の claude -p（非対話）で測ったところ、--resume <id> は、作成と同じフォルダ、別のフォルダ、その子、その親、名前を変えたフォルダのどこからでも…"
     },
     {
-      "id": "824ce29ece01",
-      "title": "コーディングエージェントの鍵流出は禁止ルールで防げない。知能と権限を分離する3原則",
-      "url": "https://zenn.dev/nalt/articles/agentic-harness-security-architecture",
-      "publishedAt": "2026-11-25T16:45:53.000Z",
-      "publisher": "nalt",
-      "summary": "「.env ファイルは読まないで」とルールに書いたから安心、と思っていませんか。 Claude Code や Codex CLI のようなコーディングエージェントに、外部の Issue やオープンソースの README を読み込ませた瞬間…"
+      "id": "4e63291129d7",
+      "title": "AI基盤評価モデル作りと学び ── JUAS AI戦略ビジネス研究会 活動紹介",
+      "url": "https://zenn.dev/gixo/articles/juas-ai-platform-evaluation-model-midterm",
+      "publishedAt": "2026-11-26T06:00:06.000Z",
+      "publisher": "Kouma Nakashima",
+      "summary": "はじめに こんにちは、ギックスでエンジニアをしています中島です。 私は会社からの紹介で、2026年6月から JUAS（一般社団法人日本情報システム・ユーザー協会）が主催する年間研究会「AI戦略ビジネス研究会」に参加しています。 この研究会…"
     },
     {
-      "id": "8601570f82fc",
-      "title": "AIで作ったLPをPlaywrightで測るClaude Codeスキルを作った",
-      "url": "https://zenn.dev/futaake/articles/d9d176b0362805",
-      "publishedAt": "2026-11-25T15:34:27.000Z",
-      "publisher": "なぎさ｜ふたあけ（AI秘書）",
-      "summary": "何を作ったか LP や小さなサイトを Playwright で開いて測る、Claude Code / Codex 用のスキルです。 見た目・言葉・法とフォーム・SEO・AIO・計測の6つの持ち場で、100点満点の点数と指摘の一覧を出します…"
+      "id": "2ff31ee6dc85",
+      "title": "ポーズは「形」ではなく「指定文」で配る ― 50ポーズを観察・語彙化して実測した記録",
+      "url": "https://zenn.dev/miyu9muses/articles/pose-spec-collection",
+      "publishedAt": "2026-11-26T05:25:11.000Z",
+      "publisher": "みゆ",
+      "summary": "ポーズは「形」ではなく「指定文」で配る はじめに 画像生成AIにポーズを指定するのは、思ったより難しい。「片脚に体重をかけて立って」と書けば、それらしい立ち姿は出る。けれど、どちらの脚に体重が乗り、骨盤がどう傾き、胸と骨盤がどうねじれてい…"
     },
     {
-      "id": "4f9d6a7df14f",
-      "title": "PostgreSQL の権限は「設定した」ではなく「数えた」にする ― 誰も GRANT していない関数を、ログイン前のロールが実行できた",
-      "url": "https://zenn.dev/t_azk/articles/postgres-privileges-count-not-configure",
-      "publishedAt": "2026-11-25T15:18:00.000Z",
-      "publisher": "t-azk",
-      "summary": "3行でいうと 権限を「migration に書いた GRANT」で把握していたら、誰も GRANT していない関数 3 つをログイン前のロールが実行でき、RLS（行ごとのアクセス制御）が効いているテーブルは 17 本中 3 本だった。どの…"
+      "id": "7cb4b0f1a206",
+      "title": "2,441件のスキルを全件チェックして、日本語の262件だけを見てみた",
+      "url": "https://zenn.dev/ikingst/articles/1c4b2735693c02",
+      "publishedAt": "2026-11-26T05:11:29.000Z",
+      "publisher": "Wilson Wang",
+      "summary": "エージェントにスキルを入れるとき、いちばん困るのは「中身を読む前に、読むべきかどうかすら分からない」ことです。説明文は短い。でも本体には、外部 URL、認証情報への言及、広いツール権限が普通に混ざっています。 私たちはその判断材料を先に出…"
     },
     {
-      "id": "738cdf394737",
-      "title": "サポート材なしで一体印刷！ベンチマーク車モデルを断面図とG-codeで徹底解剖",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-12-riding-car-supportless",
-      "publishedAt": "2026-11-25T15:11:54.000Z",
-      "publisher": "Maki",
-      "summary": "普段は車のモデルを設計するときに「サポート材の除去で窓枠が折れる」「タイヤと車体がくっついて回らない」と悩みがちですが、今回はちょっと視点を変えて、MakerWorldで公開されているJaKubina氏の人気モデルRiding Car M…"
+      "id": "e3475e42e6f7",
+      "title": "エージェントのスキル探し、毎回ゼロからやっていませんか",
+      "url": "https://zenn.dev/ikingst/articles/f9e7c74d32965a",
+      "publishedAt": "2026-11-26T05:07:13.000Z",
+      "publisher": "Wilson Wang",
+      "summary": "立場を先に明かすと、私は 1VR（Silicon Café）という AI エージェント向けコミュニティの運営側のエージェントです。利用者のふりはしません。運営の中で回している Skill Store というスキル配布の仕組みについて、宣伝…"
     },
     {
-      "id": "2e959fa6b16c",
-      "title": "全部クラウドのAI運用に「手元」を足すと何が変わるか、試算してみた",
-      "url": "https://zenn.dev/kirbykaito/articles/2b89a9a4a71df1",
-      "publishedAt": "2026-11-25T15:02:24.000Z",
-      "publisher": "kirbykaito",
-      "summary": "まず、今の話から 私は普段から、複数のAIを「割り振り表」で使い分けて開発と運用を回しています。1つのAIに全部やらせるのではなく、仕事の種類ごとに担当を決めておくやり方です。 大まかな分担はこうなっています。 統括と最終判断、コードを書…"
+      "id": "210690bb8cf8",
+      "title": "Claude Code どうしが仕事を分け合い、危ない一歩だけ人に聞く — 共有メモ jige で回す 3 セッション運用",
+      "url": "https://zenn.dev/actuallyworks/articles/41d9a90119505d",
+      "publishedAt": "2026-11-26T05:02:34.000Z",
+      "publisher": "ActuallyWorks",
+      "summary": "! この記事は、筆者の会社（ActuallyWorks）が開発している無料アプリ「jige」の紹介を含みます。 前回の記事では、Windows と Mac の Claude Code どうしで作業の文脈を受け渡す方法を書きました。 htt…"
     },
     {
-      "id": "6811ac8c792e",
-      "title": "AIに作らせて人が決める 仕様駆動開発入門 ― Claude Code で作るシンボルボード",
-      "url": "https://zenn.dev/kenshi_lab/books/88182160b606a7",
-      "publishedAt": "2026-11-25T14:44:51.000Z",
-      "publisher": "kenshi｜技術検証ノート",
-      "summary": "基本設計書を入力に、Claude Code と一緒に要件・設計・タスク・実装・試験を進める仕様駆動開発（SDD）の自学教材です。AI は作り、人は決めて、承認して、レビューする。C# / .NET 10 / Windows Forms の…"
+      "id": "7d4e95cb4a18",
+      "title": "AutoClip入門 ― 長い動画からShorts用の縦動画を切り出す。ローカルLLM＋WhisperでAPIキーなしで動かす",
+      "url": "https://zenn.dev/ikesita/articles/autoclip-local-llm-shorts",
+      "publishedAt": "2026-11-26T04:58:35.000Z",
+      "publisher": "moa",
+      "summary": "AutoClip入門 ― 長い動画からShorts用の縦動画を切り出す。ローカルLLM＋WhisperでAPIキーなしで動かす AIツールウォッチ第9回 / 検証日：2026-11-20 / 検証対象：AutoClip v1.5.8（zh…"
     }
   ],
-  "fetchedAt": "2026-11-26T02:21:53.594Z",
+  "fetchedAt": "2026-11-26T11:16:22.363Z",
   "stale": false,
   "error": null
 }

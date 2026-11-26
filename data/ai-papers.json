@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "6730aa640d2b",
-      "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
-      "url": "https://huggingface.co/papers/2611.31358",
+      "id": "9c5600e6a45a",
+      "title": "Let Vision-Language Models Generate Images through Their Representations",
+      "url": "https://huggingface.co/papers/2611.31237",
       "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce…",
-      "score": 81
+      "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectiv…",
+      "score": 22
     },
     {
-      "id": "8d2c2424b5b9",
-      "title": "Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines",
-      "url": "https://huggingface.co/papers/2510.22622",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Audio-visual deepfakes can spread misinformation and enable impersonation, undermining trust in digital media. However,…",
-      "score": 8
+      "id": "cb390f85b73a",
+      "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+      "url": "https://huggingface.co/papers/2611.33579",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train …",
+      "score": 17
     },
     {
-      "id": "2eb8a6ee1ddd",
-      "title": "Distill to Loop: Turning Pretrained Diffusion Transformers into Looped Models with Adjustable Depth",
-      "url": "https://huggingface.co/papers/2611.31977",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Looped transformers reuse one block of shared weights along the depth of the network. Recent looped diffusion transform…",
-      "score": 4
-    },
-    {
-      "id": "b3c842e0f13b",
-      "title": "SpatialArena: Where Do Geometric Foundation Models Stand?",
-      "url": "https://huggingface.co/papers/2611.32816",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "3D perception is shifting from task-specific pipelines to geometric foundation models: monocular depth networks, feed-f…",
+      "id": "fb95d87bfe30",
+      "title": "Letting Models Manage Their Own Context: Where We Stand",
+      "url": "https://huggingface.co/papers/2611.34147",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction th…",
       "score": 3
     },
     {
-      "id": "3cb58d901592",
-      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
-      "url": "https://huggingface.co/papers/2611.27962",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transforme…",
+      "id": "96b6ec1c8369",
+      "title": "DemoFoundry: Toward Scalable Photorealistic Robot Data with Coding Agents and Generative Rendering",
+      "url": "https://huggingface.co/papers/2611.34671",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "Scaling robot learning requires demonstrations that combine realistic visual observations with reliable action supervis…",
       "score": 2
     },
     {
-      "id": "d70f400f437f",
-      "title": "Steerable by Design: Conditional Pretraining for Robust Control of Language Models",
-      "url": "https://huggingface.co/papers/2611.32199",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Our goal is to build language models that are steerable by design. Today's language models are pretrained with next-tok…",
-      "score": 2
-    },
-    {
-      "id": "bdf621c454ff",
-      "title": "OWE-Bench: A long-horizon benchmark for measuring real-world engineering",
-      "url": "https://huggingface.co/papers/2611.30017",
+      "id": "dcbcb987a740",
+      "title": "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
+      "url": "https://huggingface.co/papers/2611.30895",
       "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "We present OWE-Bench (OpenWorldEngineer-Bench), a benchmark of 26 long-horizon engineering tasks written by domain expe…",
+      "summary": "Proactive assistants that guide people through physical tasks must decide, every few seconds, whether a step is complet…",
       "score": 2
     },
     {
-      "id": "8fd107635508",
-      "title": "Seeing Is Locating: Spatial Awareness and Geographic Bias in Decision Language Models",
-      "url": "https://huggingface.co/papers/2611.30564",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Decision models, which output probability distributions over candidate labels instead of generating text, are increasin…",
+      "id": "de79410cda3e",
+      "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
+      "url": "https://huggingface.co/papers/2611.21056",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own execu…",
       "score": 1
     },
     {
-      "id": "eaf839f8fc16",
-      "title": "Fractal Neural Synthesis: Constant-Storage Procedural Weight Derivation via Complex Quadratic Boundary Dynamics",
-      "url": "https://huggingface.co/papers/2611.32393",
+      "id": "ccf5e82d5753",
+      "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
+      "url": "https://huggingface.co/papers/2611.34777",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "Group-based reinforcement learning with verifiable rewards often yields all-fail groups on long-horizon agent tasks: ev…",
+      "score": 1
+    },
+    {
+      "id": "67cc60382712",
+      "title": "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
+      "url": "https://huggingface.co/papers/2611.34756",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "Fully online on-policy distillation (OPD) is costly for long-horizon agents because each update depends on fresh enviro…",
+      "score": 1
+    },
+    {
+      "id": "545e46d219f6",
+      "title": "Simulator-as-Proxy World Model for Robot Manipulation",
+      "url": "https://huggingface.co/papers/2611.32786",
       "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Conventional neural networks store synaptic parameters as explicit tensors whose persistent Flash footprint scales line…",
-      "score": 1
-    },
-    {
-      "id": "b0c873921363",
-      "title": "Point Dynamics as Proxy for Robotic World Models",
-      "url": "https://huggingface.co/papers/2611.25946",
-      "publishedAt": "2026-11-19T00:00:00.000Z",
-      "summary": "Robotic world models predict future video frames from the current observation and a sequence of robot actions. While re…",
-      "score": 1
-    },
-    {
-      "id": "4e5bb10e5443",
-      "title": "LookAnything: A Foundation Model for Holistic Gaze Following",
-      "url": "https://huggingface.co/papers/2611.32351",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Human gaze provides a rich window into attention and intent, making its understanding essential for applications rangin…",
+      "summary": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assump…",
       "score": 0
     },
     {
-      "id": "cfe38a17cb86",
-      "title": "Degradation of Language Models under Controlled Load: Synchronization, Rule Execution and Misfires on the Background",
-      "url": "https://huggingface.co/papers/2611.27404",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "As the load grows, a language model makes more and more errors, but different processes stand behind this decline in qu…",
+      "id": "c9a43561e609",
+      "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+      "url": "https://huggingface.co/papers/2611.33307",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers …",
+      "score": 0
+    },
+    {
+      "id": "e6f88360d57d",
+      "title": "A Mesh for Every Moment",
+      "url": "https://huggingface.co/papers/2611.34939",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured…",
+      "score": 0
+    },
+    {
+      "id": "b350a6efc7ce",
+      "title": "SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator",
+      "url": "https://huggingface.co/papers/2611.34750",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "LLM agents have made remarkable progress in robot manipulation, yet they suffer from expensive inference, dense step-by…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-26T02:21:53.498Z",
+  "fetchedAt": "2026-11-26T11:16:22.229Z",
   "stale": false,
   "error": null
 }
