@@ -6,44 +6,36 @@
   "category": "ai",
   "items": [
     {
-      "id": "9c5600e6a45a",
-      "title": "Let Vision-Language Models Generate Images through Their Representations",
-      "url": "https://huggingface.co/papers/2611.31237",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectiv…",
-      "score": 22
-    },
-    {
-      "id": "cb390f85b73a",
-      "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
-      "url": "https://huggingface.co/papers/2611.33579",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train …",
-      "score": 17
-    },
-    {
       "id": "fb95d87bfe30",
       "title": "Letting Models Manage Their Own Context: Where We Stand",
       "url": "https://huggingface.co/papers/2611.34147",
       "publishedAt": "2026-11-25T00:00:00.000Z",
       "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction th…",
-      "score": 3
+      "score": 6
     },
     {
-      "id": "96b6ec1c8369",
-      "title": "DemoFoundry: Toward Scalable Photorealistic Robot Data with Coding Agents and Generative Rendering",
-      "url": "https://huggingface.co/papers/2611.34671",
+      "id": "c941afc1e0b0",
+      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+      "url": "https://huggingface.co/papers/2611.28244",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, part…",
+      "score": 5
+    },
+    {
+      "id": "10a0b8b5cd44",
+      "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+      "url": "https://huggingface.co/papers/2611.34363",
       "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "Scaling robot learning requires demonstrations that combine realistic visual observations with reliable action supervis…",
-      "score": 2
+      "summary": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. …",
+      "score": 4
     },
     {
-      "id": "dcbcb987a740",
-      "title": "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
-      "url": "https://huggingface.co/papers/2611.30895",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Proactive assistants that guide people through physical tasks must decide, every few seconds, whether a step is complet…",
-      "score": 2
+      "id": "318eb5629840",
+      "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+      "url": "https://huggingface.co/papers/2611.28732",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In …",
+      "score": 3
     },
     {
       "id": "de79410cda3e",
@@ -51,58 +43,66 @@
       "url": "https://huggingface.co/papers/2611.21056",
       "publishedAt": "2026-11-16T00:00:00.000Z",
       "summary": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own execu…",
-      "score": 1
+      "score": 3
     },
     {
-      "id": "ccf5e82d5753",
-      "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
-      "url": "https://huggingface.co/papers/2611.34777",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "Group-based reinforcement learning with verifiable rewards often yields all-fail groups on long-horizon agent tasks: ev…",
-      "score": 1
-    },
-    {
-      "id": "67cc60382712",
-      "title": "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
-      "url": "https://huggingface.co/papers/2611.34756",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "Fully online on-policy distillation (OPD) is costly for long-horizon agents because each update depends on fresh enviro…",
-      "score": 1
-    },
-    {
-      "id": "545e46d219f6",
-      "title": "Simulator-as-Proxy World Model for Robot Manipulation",
-      "url": "https://huggingface.co/papers/2611.32786",
+      "id": "95ba42dd4b6c",
+      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+      "url": "https://huggingface.co/papers/2611.33093",
       "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assump…",
-      "score": 0
+      "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the curre…",
+      "score": 2
     },
     {
-      "id": "c9a43561e609",
-      "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
-      "url": "https://huggingface.co/papers/2611.33307",
+      "id": "1f67b40a5e64",
+      "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
+      "url": "https://huggingface.co/papers/2611.34079",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental an…",
+      "score": 2
+    },
+    {
+      "id": "5c3f98757031",
+      "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
+      "url": "https://huggingface.co/papers/2611.21155",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "summary": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studi…",
+      "score": 2
+    },
+    {
+      "id": "04f0424b2c29",
+      "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
+      "url": "https://huggingface.co/papers/2611.30334",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in ta…",
+      "score": 2
+    },
+    {
+      "id": "c7c6f510c6f3",
+      "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
+      "url": "https://huggingface.co/papers/2611.32938",
       "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers …",
+      "summary": "Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by visi…",
+      "score": 2
+    },
+    {
+      "id": "4a6b163c296e",
+      "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
+      "url": "https://huggingface.co/papers/2611.29259",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive ca…",
       "score": 0
     },
     {
-      "id": "e6f88360d57d",
-      "title": "A Mesh for Every Moment",
-      "url": "https://huggingface.co/papers/2611.34939",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured…",
-      "score": 0
-    },
-    {
-      "id": "b350a6efc7ce",
-      "title": "SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot Manipulator",
-      "url": "https://huggingface.co/papers/2611.34750",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "LLM agents have made remarkable progress in robot manipulation, yet they suffer from expensive inference, dense step-by…",
+      "id": "f336e86f5982",
+      "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
+      "url": "https://huggingface.co/papers/2611.32335",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "Panoramic cameras capture nearly the entire spherical field of view in a single frame. However, the mismatch between th…",
       "score": 0
     }
   ],
-  "fetchedAt": "2026-11-26T11:16:22.229Z",
+  "fetchedAt": "2026-11-26T20:22:10.363Z",
   "stale": false,
   "error": null
 }
