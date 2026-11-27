@@ -6,20 +6,20 @@
   "category": "ai",
   "items": [
     {
-      "id": "fb95d87bfe30",
-      "title": "Letting Models Manage Their Own Context: Where We Stand",
-      "url": "https://huggingface.co/papers/2611.34147",
+      "id": "95e2f727ac93",
+      "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+      "url": "https://huggingface.co/papers/2611.34051",
       "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction th…",
-      "score": 6
+      "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent…",
+      "score": 25
     },
     {
-      "id": "c941afc1e0b0",
-      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
-      "url": "https://huggingface.co/papers/2611.28244",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "summary": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, part…",
-      "score": 5
+      "id": "daf65aef886d",
+      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+      "url": "https://huggingface.co/papers/2611.34457",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural pro…",
+      "score": 18
     },
     {
       "id": "10a0b8b5cd44",
@@ -30,6 +30,14 @@
       "score": 4
     },
     {
+      "id": "69e5df82dfb3",
+      "title": "Evaluating Memanto on DolphinBench for AI Agents",
+      "url": "https://huggingface.co/papers/2611.28231",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that n…",
+      "score": 3
+    },
+    {
       "id": "318eb5629840",
       "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
       "url": "https://huggingface.co/papers/2611.28732",
@@ -38,52 +46,52 @@
       "score": 3
     },
     {
-      "id": "de79410cda3e",
-      "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
-      "url": "https://huggingface.co/papers/2611.21056",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own execu…",
-      "score": 3
-    },
-    {
       "id": "95ba42dd4b6c",
       "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
       "url": "https://huggingface.co/papers/2611.33093",
       "publishedAt": "2026-11-24T00:00:00.000Z",
       "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the curre…",
-      "score": 2
+      "score": 3
     },
     {
-      "id": "1f67b40a5e64",
-      "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
-      "url": "https://huggingface.co/papers/2611.34079",
+      "id": "ae99112cf9b4",
+      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+      "url": "https://huggingface.co/papers/2611.34693",
       "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental an…",
+      "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughp…",
       "score": 2
     },
     {
-      "id": "5c3f98757031",
-      "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
-      "url": "https://huggingface.co/papers/2611.21155",
+      "id": "0215a6a0805e",
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "url": "https://huggingface.co/papers/2611.34813",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prom…",
+      "score": 1
+    },
+    {
+      "id": "54ad9b5887f9",
+      "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
+      "url": "https://huggingface.co/papers/2611.20844",
       "publishedAt": "2026-11-16T00:00:00.000Z",
-      "summary": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studi…",
-      "score": 2
+      "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there.…",
+      "score": 1
     },
     {
-      "id": "04f0424b2c29",
-      "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
-      "url": "https://huggingface.co/papers/2611.30334",
+      "id": "5fa3b4ebbaa2",
+      "title": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
+      "url": "https://huggingface.co/papers/2611.29829",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "Agentic pipelines that combine graph detectors, deterministic rules, retrieval-augmented generation and an LLM judge ar…",
+      "score": 0
+    },
+    {
+      "id": "32de49b24a4f",
+      "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
+      "url": "https://huggingface.co/papers/2611.29969",
       "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in ta…",
-      "score": 2
-    },
-    {
-      "id": "c7c6f510c6f3",
-      "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
-      "url": "https://huggingface.co/papers/2611.32938",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by visi…",
-      "score": 2
+      "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial re…",
+      "score": 0
     },
     {
       "id": "4a6b163c296e",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-11-22T00:00:00.000Z",
       "summary": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive ca…",
       "score": 0
-    },
-    {
-      "id": "f336e86f5982",
-      "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
-      "url": "https://huggingface.co/papers/2611.32335",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Panoramic cameras capture nearly the entire spherical field of view in a single frame. However, the mismatch between th…",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-26T20:22:10.363Z",
+  "fetchedAt": "2026-11-27T03:02:31.590Z",
   "stale": false,
   "error": null
 }
