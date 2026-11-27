@@ -6,28 +6,12 @@
   "category": "ai",
   "items": [
     {
-      "id": "4323416555cf",
-      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
-      "url": "https://huggingface.co/papers/2611.34232",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. Howe…",
-      "score": 96
-    },
-    {
       "id": "a11b5e5e398e",
       "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
       "url": "https://huggingface.co/papers/2611.31619",
       "publishedAt": "2026-11-23T00:00:00.000Z",
       "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evide…",
-      "score": 37
-    },
-    {
-      "id": "a88782961385",
-      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-      "url": "https://huggingface.co/papers/2611.34852",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended que…",
-      "score": 23
+      "score": 57
     },
     {
       "id": "00de86da9e72",
@@ -38,6 +22,14 @@
       "score": 7
     },
     {
+      "id": "61d3adfc07ae",
+      "title": "Revisiting LLMs as Context Engineers",
+      "url": "https://huggingface.co/papers/2611.30494",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method t…",
+      "score": 4
+    },
+    {
       "id": "326a2b2ce037",
       "title": "When an AI agent makes a mistake in a database, what decides the damage?",
       "url": "https://huggingface.co/papers/2611.30483",
@@ -46,19 +38,35 @@
       "score": 4
     },
     {
-      "id": "626da0b07772",
-      "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
-      "url": "https://huggingface.co/papers/2611.32993",
-      "publishedAt": "2026-11-24T00:00:00.000Z",
-      "summary": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and ca…",
-      "score": 3
+      "id": "9801e73d2f04",
+      "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+      "url": "https://huggingface.co/papers/2611.30025",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their abil…",
+      "score": 2
     },
     {
-      "id": "7d47b18b5beb",
-      "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
-      "url": "https://huggingface.co/papers/2611.34719",
+      "id": "330b8b1adf04",
+      "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+      "url": "https://huggingface.co/papers/2611.30723",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve b…",
+      "score": 2
+    },
+    {
+      "id": "731baf8ef454",
+      "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+      "url": "https://huggingface.co/papers/2611.28849",
+      "publishedAt": "2026-11-21T00:00:00.000Z",
+      "summary": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need un…",
+      "score": 2
+    },
+    {
+      "id": "06e6339278df",
+      "title": "Generation as Reverse Encoding",
+      "url": "https://huggingface.co/papers/2611.34782",
       "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. …",
+      "summary": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail. Yet…",
       "score": 2
     },
     {
@@ -70,20 +78,20 @@
       "score": 1
     },
     {
-      "id": "731baf8ef454",
-      "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
-      "url": "https://huggingface.co/papers/2611.28849",
-      "publishedAt": "2026-11-21T00:00:00.000Z",
-      "summary": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need un…",
+      "id": "b9a351552f37",
+      "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+      "url": "https://huggingface.co/papers/2611.31491",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "summary": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, …",
       "score": 1
     },
     {
-      "id": "06e6339278df",
-      "title": "Generation as Reverse Encoding",
-      "url": "https://huggingface.co/papers/2611.34782",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "summary": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail. Yet…",
-      "score": 1
+      "id": "d4e665f7b897",
+      "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+      "url": "https://huggingface.co/papers/2611.27112",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents…",
+      "score": 0
     },
     {
       "id": "3a9382612791",
@@ -92,17 +100,9 @@
       "publishedAt": "2026-11-23T00:00:00.000Z",
       "summary": "A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented. Every scheme in i…",
       "score": 0
-    },
-    {
-      "id": "b9a351552f37",
-      "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
-      "url": "https://huggingface.co/papers/2611.31491",
-      "publishedAt": "2026-11-23T00:00:00.000Z",
-      "summary": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, …",
-      "score": 0
     }
   ],
-  "fetchedAt": "2026-11-27T12:15:10.139Z",
+  "fetchedAt": "2026-11-27T21:23:03.679Z",
   "stale": false,
   "error": null
 }
