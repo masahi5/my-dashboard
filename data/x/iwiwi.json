@@ -2,6 +2,24 @@
   "handle": "iwiwi",
   "tweets": [
     {
+      "id": "2125503776346042858",
+      "url": "https://x.com/aiwatch_jp/status/2125503776346042858",
+      "text": "Sakana AI、300億パラメータのLLM「Sakana Namazu Small」を発表 ai.watch.impress.co.jp/docs/… #SakanaAI",
+      "publishedAt": "2026-11-25T08:16:04.000Z",
+      "authorHandle": "aiwatch_jp",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
+      "id": "2125492412491448663",
+      "url": "https://x.com/nikkei/status/2125492412491448663",
+      "text": "サカナAI、日本語特化のAIモデルに小型版　要約などの日常業務で\nnikkei.com/article/DGXZQOUC2…",
+      "publishedAt": "2026-11-25T07:30:55.000Z",
+      "authorHandle": "nikkei",
+      "likeCount": 0,
+      "repost": true
+    },
+    {
       "id": "2125404851719008345",
       "url": "https://x.com/iwiwi/status/2125404851719008345",
       "text": "Sakana Namazu SmallはNemotron 3 Nano Baseに追加の学習をした30B-A3Bのモデルです。今後オンプレミスでの提供などで利用していく予定です。\n\n技術的には、今までのSakana Namazuシリーズと異なり、baseモデルから出発しAgentic CPT, SFT, RLという一連のパイプラインを成功させたことがマイルストーンになります。事前学習直後の、agenticなことが何一つできないbaseモデルをどう育てるか。これは今後、自社で事前学習を行うSakana Sawaraシリーズでも必要になるノウハウで、まずは1つの分野でそれを確立できました。\n\n今回の取り組みではチャット画面での日常的・基礎的なタスクを想定したため、agenticな能力の中では特にweb検索を大きく伸ばしました。学習後のモデルには、900回以上ツールを呼び出した末に難問を正解する例もあり、long-horizonなタスクをこなす力も身についていると感じます。デプロイまで自社でコントロールできる分野なので、特定のハーネスを前提にend-to-endでパイプラインを設計しました。これが、コストを抑えつつ優れた性能を実現できた要因の1つだと考えています。\n\nデータ面では、合成データに加えて、外部パートナーと連携して人間のエキスパートに作成してもらった高品質・高難易度の問題が、RLで重要な役割を果たしました。こうしたデータ構築のアプローチの有効性を確認できたことも大きな収穫です。\n\n本モデルはGENIAC第4期の成果を活用しています。今後はSakana Sawaraシリーズの事後学習に向けて、このノウハウをさらに深めつつ、他のドメインにも広げていきます。",
@@ -72,27 +90,9 @@
       "authorHandle": "iwiwi",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2124525828205871422",
-      "url": "https://x.com/SakanaAILabs/status/2124525828205871422",
-      "text": "Our Chief Scientist Takuya Akiba (@iwiwi) introduced Sakana Sawara, a new LLM series we are building from scratch at the RSI Lab, and explained why LLM development is a research race, not just a GPU race.\n\nyoutu.be/8FyCRDz30KE 🐟\n\nチーフサイエンティストの秋葉拓哉は、RSI Labで ゼロから開発する新しい言語モデルシリーズ「Sakana Sawara」（仮称）を発表しました。",
-      "publishedAt": "2026-11-22T15:30:03.000Z",
-      "authorHandle": "SakanaAILabs",
-      "likeCount": 0,
-      "repost": true
-    },
-    {
-      "id": "2123633957032087634",
-      "url": "https://x.com/iwiwi/status/2123633957032087634",
-      "text": "我々Sawara/Namazuモデルチームとも関わりがある予定です。モデルチーム側でサイバーセキュリティの取り組みをやりたい方はこちらへ → sakana.ai/careers/member-of-…",
-      "publishedAt": "2026-11-20T04:26:05.000Z",
-      "authorHandle": "iwiwi",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-11-25T09:13:06.882Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 403 Forbidden / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-11-27T12:15:22.648Z",
+  "stale": false,
+  "error": null
 }
