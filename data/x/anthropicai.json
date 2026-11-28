@@ -2,6 +2,33 @@
   "handle": "AnthropicAI",
   "tweets": [
     {
+      "id": "2125627317263466739",
+      "url": "https://x.com/AnthropicAI/status/2125627317263466739",
+      "text": "We recently migrated our Messages API from Python to Rust.\n\nOn our engineering blog, we share how we used the existing service to verify the new one, with teams of Claude agents tracking down and fixing differences between the two versions.\n\nanthropic.com/research/migra…",
+      "publishedAt": "2026-11-25T16:26:59.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2125365268381929637",
+      "url": "https://x.com/AnthropicAI/status/2125365268381929637",
+      "text": "New Anthropic Fellows research: Returning to the neuron basis for interpretability\n\nUnderstanding what’s happening inside an AI model helps to make it safer. One obvious place to look is its neurons, or the simple units it’s built from. Early interpretability work did just that, but over the past couple years, researchers largely moved on from that idea, for three reasons: a single neuron often fires on several unrelated inputs, the way a concept is represented can change between two layers of neurons within a single model, and facts seem to be spread across many neurons.\n\nWe re-examined these problems by looking at what each neuron contributed to the model’s outputs, not just what caused that neuron to fire. All three problems turned out to be smaller than assumed. Neurons rarely add two unrelated concepts at once, their outputs mean roughly the same thing across most layers, and facts, though widely distributed across neurons, are still readable.\n\nIn a second post, we put these findings to use. With no extra training, neurons in open-weight models helped us to detect harmful text, steer behavior, and find hidden behaviors in finetuned models.\n\nPart 1: alignment.anthropic.com/2026…\nPart 2: alignment.anthropic.com/2026…",
+      "publishedAt": "2026-11-24T23:05:42.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
+      "id": "2125341904644763678",
+      "url": "https://x.com/AnthropicAI/status/2125341904644763678",
+      "text": "New Anthropic research: When an AI agent can escape its sandbox, will it choose to?\n\nOur new evaluation, Siren, gives Claude routine tasks in intentionally weakened sandboxes, with something useful to the task left outside of the sandbox. Across 1,700+ scenarios built to tempt them, recent Claude models accessed, tried to access, or looked outside the sandbox 21-32% of the time, but they rarely misused what they found. However, when the system prompt described both the sandbox and its rules, that rate dropped to about 2% or less.\n\nWe also used Siren to calibrate Claude Code’s auto mode, which checks commands before they run, so Claude can work without asking permission at every step.\n\nRead our blog for more detail: safeguards.anthropic.com/202…",
+      "publishedAt": "2026-11-24T21:32:51.000Z",
+      "authorHandle": "AnthropicAI",
+      "likeCount": 0,
+      "repost": false
+    },
+    {
       "id": "2123822989154369958",
       "url": "https://x.com/AnthropicAI/status/2123822989154369958",
       "text": "Anthropic’s co-founders on the story so far. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah",
@@ -63,36 +90,9 @@
       "authorHandle": "AnthropicAI",
       "likeCount": 0,
       "repost": false
-    },
-    {
-      "id": "2120117722230968385",
-      "url": "https://x.com/AnthropicAI/status/2120117722230968385",
-      "text": "Anthropic has launched the roadshow for its proposed initial public offering: anthropic.com/news/roadshow-…\n\nLegal disclaimer: A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. This post does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction.",
-      "publishedAt": "2026-11-10T11:33:49.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2119867707546071125",
-      "url": "https://x.com/AnthropicAI/status/2119867707546071125",
-      "text": "Claude Fable 5.2 and Claude Mythos 5.2 are available now:",
-      "publishedAt": "2026-11-09T19:00:21.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
-    },
-    {
-      "id": "2118814753154064501",
-      "url": "https://x.com/AnthropicAI/status/2118814753154064501",
-      "text": "Memory is what allows Claude to learn from experience. In a new Engineering Blog post, we share how “dreaming” helps Claude organize what it’s learned, correct its mistakes, and find what it needs more easily the next time. anthropic.com/research/compo…",
-      "publishedAt": "2026-11-06T21:16:17.000Z",
-      "authorHandle": "AnthropicAI",
-      "likeCount": 0,
-      "repost": false
     }
   ],
-  "fetchedAt": "2026-11-23T09:01:16.465Z",
-  "stale": true,
-  "error": "Nitter から取得できませんでした（https://nitter.jaydenha.uk: HTTP 429 Too Many Requests / https://twiiit.com: HTTP 403 Forbidden / https://nitter.tiekoetter.com: HTTP 403 Forbidden）"
+  "fetchedAt": "2026-11-28T03:26:13.236Z",
+  "stale": false,
+  "error": null
 }

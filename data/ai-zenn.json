@@ -6,103 +6,103 @@
   "category": "ai",
   "items": [
     {
-      "id": "38b9cf8d2ecd",
-      "title": "インスタのDMにAI、日本も対象。シャドーAI黙認7割も",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261126",
-      "publishedAt": "2026-11-27T11:27:58.000Z",
-      "publisher": "菅原友和",
-      "summary": "2026年11月26日（木）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は5本お話しします。いちばん大きいのは、Instagramの中にAIの相談相手が入ってきて、日本も提供国に入ったって話なんです…"
+      "id": "bfa9ad5773fa",
+      "title": "AIエージェントの原型は3本の論文にあった：ReAct、SWE-bench、SWE-agentを読み解く",
+      "url": "https://zenn.dev/kentaro36/articles/ai-agent-foundation-papers",
+      "publishedAt": "2026-11-27T23:07:24.000Z",
+      "publisher": "SeaOtter 🦦(Kentaro Mori)",
+      "summary": "Claude Code や Codex のようなコーディングエージェントを使っていると、不思議な既視感があります。 ファイルを探し、関係ありそうな箇所を読み、編集し、テストを回して、失敗したらログを見て直す。まるで人間の開発者の手順をなぞ…"
     },
     {
-      "id": "eea82ccc1d92",
-      "title": "Why AI images look blurry after sharing, and how to send them properly",
-      "url": "https://zenn.dev/ggeminiwmremove/articles/428ea3d43fced1",
-      "publishedAt": "2026-11-27T11:06:41.000Z",
-      "publisher": "GGemini Watermark Remover",
-      "summary": "Many people generate an image, drop it into a chat app or an email, and are surprised when the recipient sees a blurry,…"
+      "id": "1553ad681e1a",
+      "title": "Claude Code を複数ターミナル＋git worktree で並べて、ほぼ1人で4つの SaaSを作っている話",
+      "url": "https://zenn.dev/newsletterready/articles/4585354b62b688",
+      "publishedAt": "2026-11-27T23:05:14.000Z",
+      "publisher": "乾 和志",
+      "summary": "株式会社カーズリンクスの乾です。昔は OS の研究をしていて、『分散OS Machがわかる本』という本を書いたこともあります。 いま、Claude Code を使って、ほぼ1人で4つの Web サービスを作って運営しています。この記事では…"
     },
     {
-      "id": "ed3e282ee182",
-      "title": "「2026年内にこの動画を見れて良かった」Claude基盤責任者が語るAI時代の開発現場",
-      "url": "https://zenn.dev/dragon1208/articles/af30cadf665c6a",
-      "publishedAt": "2026-11-27T10:48:52.000Z",
-      "publisher": "Nao8",
-      "summary": "「ソフトウェアエンジニアが手でコードを書かなくなったとき、エンジニアリング組織やシステム設計はどう変わるのか？」 Claude Platform責任者のKatelyn Lesse氏が語った動画の内容が面白かったので、2026年のAnthr…"
+      "id": "71dca33fbdf2",
+      "title": "ChatGPTのカスタム指示で商品仕様とFAQを固定し出力ブレを防ぐ設定手順｜4ステップ",
+      "url": "https://zenn.dev/andyailab/articles/5b19e68f723333",
+      "publishedAt": "2026-11-27T22:30:52.000Z",
+      "publisher": "アンディ",
+      "summary": "前置きは後にして、先にこの記事で手に入る実物を見てください。 この表をどう使うのか、どこでつまずきやすいのかを、ここから順に説明します。 昨日と今日で、AIが答える商品の値段が違っていた。 毎回プロンプトに前提条件を打ち直している。 そん…"
     },
     {
-      "id": "dbd14edbf033",
-      "title": "商品は51点、スキは270、それでも売上は0円です",
-      "url": "https://zenn.dev/walnut1681974/articles/9ce37b910c3229",
-      "publishedAt": "2026-11-27T10:19:28.000Z",
-      "publisher": "walnut",
-      "summary": "前回（AIだけで会社を回して13日目、売上0円の実録）から6日たちました。あのあと数字は動きました。商品は11点から51点に増え、スキは0から270になりました。 でも、売上はまだ 0円 です。今回も、動いた数字と動かなかった数字を全部出…"
+      "id": "7bc76a7faf70",
+      "title": "出自を確認する前に、まず内容を検査する ― 複数AIエージェントの記憶に、書き込み前の入力チェックを足す設計",
+      "url": "https://zenn.dev/taichiendoh/articles/ai-agent-memory-input-moderation-gate",
+      "publishedAt": "2026-11-27T22:07:50.000Z",
+      "publisher": "遠藤太一",
+      "summary": "OWASP GenAI Security Projectは、記憶・コンテキストの汚染を独立したリスク区分（ASI06: Memory and Context Poisoning）として扱い、一度汚染された内容が記憶やフック、設定といった\"…"
     },
     {
-      "id": "bf46dad2eb86",
-      "title": "PC なし、スマホだけで AI DJ ── Claude アプリと分割画面で並べ、クリップボードで曲を受け渡す",
-      "url": "https://zenn.dev/meas_nobu/articles/25f405ea939057",
-      "publishedAt": "2026-11-27T10:13:59.000Z",
-      "publisher": "仕事はバックエンド中心なシニア―",
-      "summary": "前回の記事では、PC のローカル LLM（LM Studio）から MCP でスマホの作曲アプリ「PanNyx」を操作し、AI が曲を作り続けて流す AI DJ を作りました。 ただ、この方法には PC と LM Studio の準備が要…"
+      "id": "401febb1a655",
+      "title": "AIが「直りました」と言った。その修正、採っていい？",
+      "url": "https://zenn.dev/veripsa/articles/api-contract-repair-review",
+      "publishedAt": "2026-11-27T22:00:05.000Z",
+      "publisher": "RollNuts",
+      "summary": "AIにエラーを渡し、修正を頼む。しばらくすると、差分と一緒に「直りました。テストも通っています」と返ってくる。 実行すると、確かに動く。でも、変更されたコードを全部説明できるほど詳しくはない。このまま採ってよいのか、もう一度AIに聞くべき…"
     },
     {
-      "id": "a18dd176c9bb",
-      "title": "【ローカルLLM】撮った動画をその場でAIが編集してくれる時代に",
-      "url": "https://zenn.dev/yukurash/articles/c5ee6ecb076e7e",
-      "publishedAt": "2026-11-27T09:58:58.000Z",
-      "publisher": "yukurash",
-      "summary": "旅先で撮った動画を、その日の夜には1本のショート動画にして公開したい。 AIが動画を編集できる時代になって、これは夢物語ではなくなりました。ただし、素材をクラウドに上げればの話です。 この記事は Zennfes Autumn 2026「私…"
+      "id": "c9152822a2b5",
+      "title": "Learning Watch 2026-11-28: 学ぶ人の判断を残す設計",
+      "url": "https://zenn.dev/laiken/articles/20261128-learning-watch",
+      "publishedAt": "2026-11-27T21:15:11.000Z",
+      "publisher": "らいけん",
+      "summary": "この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 学習を助ける道具を評価するとき、私は「答えが早く出るか」を先に見てしまう。でも、学ぶ人の側に何が残るかは別の問いだよね。AI が加わった授業で、どこを観測すればそ…"
     },
     {
-      "id": "94fbb95821fe",
-      "title": "ソフトウェアファクトリーを作ったら、必要なのは「機械的にジャッジできる仕組み」だとわかった",
-      "url": "https://zenn.dev/henteko/articles/f1fd8ca5a30172",
-      "publishedAt": "2026-11-27T09:37:10.000Z",
-      "publisher": "henteko",
-      "summary": "プレイ人数/プレイ時間/舞台設定を入力として渡すと、マーダーミステリーのシナリオ一式/あらすじ/PVまでを自動で作る「マーダーミステリーファクトリー」を作りました。 今回作ってみてわかったことは、ファクトリーの肝は「AIにどう作らせるか」…"
+      "id": "d6ecfa652ee6",
+      "title": "Claude Code デスクトップの SSH 接続で自宅 Mac mini を外から使う——環境を同期しない2台運用",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-11-23-225800",
+      "publishedAt": "2026-11-27T21:01:18.000Z",
+      "publisher": "saitoko",
+      "summary": "この記事の実施記録（2026年11月）: Claude デスクトップアプリ（Code タブ）の SSH 接続を使い、外出先の MacBook Air から自宅の Mac mini 上の Claude Code を操作した。MacBook …"
     },
     {
-      "id": "5ac3d60ce2f3",
-      "title": "AIエージェント読書会：『吾輩は猫である』をローカルLLMとClaudeに読ませたらペルソナ無しで座談会が始まった【Muse交換ノート】",
-      "url": "https://zenn.dev/mii_mii/articles/dokushokai-soseki",
-      "publishedAt": "2026-11-27T09:36:24.000Z",
-      "publisher": "みー",
-      "summary": "要約（3行） AIエージェントの私が司会をして、ローカルLLM 3機と Claude Haiku に『吾輩は猫である』第1章を読ませる「LLM読書会」を全自動で開きました。 性格などのペルソナ設定は一切せず、役割の一行と課題だけを渡したの…"
+      "id": "594170430df7",
+      "title": "AI に1万円渡して稼がせる実験・最初の10日は0円だった",
+      "url": "https://zenn.dev/soremo/articles/d8fc2d86587595",
+      "publishedAt": "2026-11-27T20:34:30.000Z",
+      "publisher": "SOREMOパートナーズ",
+      "summary": "書き手: SOREMOパートナーズ（AI が書いています） 2026年11月17日、社長がプリペイドカードに1万円を入れました。この1万円を予算にして、AI に売上を作らせる実験です。作る・出す・返事・見直しは AI が決めます。社長がす…"
     },
     {
-      "id": "126b916af66d",
-      "title": "Kくんと学ぶAIの「Skill」と「ハーネス」〜慣れない社会人生活を応援するAIを作ろう！〜",
-      "url": "https://zenn.dev/intage_tech/articles/art030-magy-skill-harness",
-      "publishedAt": "2026-11-27T09:25:34.000Z",
-      "publisher": "Magy",
-      "summary": "最近、AIエージェントの話題で「Skill」や「ハーネス」という言葉をよく耳にするようになりました。どちらも「AIをうまく働かせるためのもの」として語られるため、「結局どう違うの？」「自分がやりたいことには、どちらを使えばいいの？」と迷っ…"
+      "id": "d822e3588f7f",
+      "title": "AIと考えるスモールスタートのシステム設計 - EC2の1台から作り直さずに育て、状態遷移はTLA+で形式検証する",
+      "url": "https://zenn.dev/okamyuji/articles/ai-small-start-system-design",
+      "publishedAt": "2026-11-27T19:13:31.000Z",
+      "publisher": "okamyuji",
+      "summary": "小さなライブハウスやイベントの主催者向けに先着順のチケットと整理券を売るWebサービスを思いついたとしましょう。販売開始の直後の数分だけに購入が集中し、それ以外の時間ではほとんど誰も来ません。このシステムの売上が読めないうちは毎月の運用費…"
     },
     {
-      "id": "f2199fb0c2f7",
-      "title": "Mark Cuban 回の予測と、#43・#44 の判定（#47 投稿前予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr47-cuban-prediction",
-      "publishedAt": "2026-11-27T09:00:15.000Z",
-      "publisher": "管理人K",
-      "summary": "海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。投稿する前に予測を保存し、あとで実測と突き合わせる運用です。 今回は #47 Mark Cuban（The Diary Of A CEO「Ma…"
+      "id": "aa7f9650dad7",
+      "title": "サブスクの枠、余らせていませんか？ AIに「残量を見て自分で仕事量を決めて」と頼んでみた",
+      "url": "https://zenn.dev/hachihou_system/articles/55f41c9f0b40b5",
+      "publishedAt": "2026-11-27T17:30:20.000Z",
+      "publisher": "キョウスケ",
+      "summary": "本記事は運用の記録です。プランの上限や設定画面の内容は変わることがあります。各サービスの規約の範囲内でお使いください。 AIのサブスクは定額です。つまり、使わなかった分は戻ってきません。私も週の終わりに、かなり余っていることに気づきました…"
     },
     {
-      "id": "01def4586890",
-      "title": "AI動画の出力を変えるのは、プロンプトの言い回しより入力の設計だった",
-      "url": "https://zenn.dev/marcus_hayden/articles/0b99cd6267afd1",
-      "publishedAt": "2026-11-27T08:42:41.000Z",
-      "publisher": "Marcus Hayden",
-      "summary": "短いAI動画を作っていると、プロンプトの言葉を書き換えるより先に「入力の形」と「尺」を疑ったほうが早い、という場面が増えました。 テキストから動画：参考素材がないときの既定 画像から動画：質感・比率・光の向きを保ちたいとき 始点と終点のフ…"
+      "id": "d88969feb345",
+      "title": "古い PHP / Laravel の脆弱性対応は、Rector と AI でだいたい簡単に終わる",
+      "url": "https://zenn.dev/miraizuk/articles/ae8db2bc3ff561",
+      "publishedAt": "2026-11-27T16:15:44.000Z",
+      "publisher": "Kenichi Yoshida",
+      "summary": "「脆弱性対応をしてほしい」と頼まれたとき、古い PHP や Laravel のシステムでまずやるべきことは、個別のパッチ当てではありません。サポートが切れたバージョンには、もうセキュリティ修正が出ないからです。脆弱性対応の本体はサポートさ…"
     },
     {
-      "id": "3a5666efd79d",
-      "title": "AIモデル、結局どれが一番強いの？ 全部比べた結果",
-      "url": "https://zenn.dev/myura_jp/articles/3d641dfbca3784",
-      "publishedAt": "2026-11-27T08:30:31.000Z",
-      "publisher": "ミュラ",
-      "summary": "この記事は、noteに投稿した記事の転載です： Gemini 4 Neonが最新の第三者ランキングで首位に立った。一方で、開発者が毎日触る仕事ではClaudeが今も強い。2026年11月の数字が本当は何を言っているのか、そしてモデルを選ん…"
+      "id": "bb146792d55d",
+      "title": "AI動画の「カットごとに顔が変わる・尺が合わない・文字が潰れる」を解決する『音声先行クロック＋IDロック』演出術",
+      "url": "https://zenn.dev/coco666/articles/68a496ecd207c8",
+      "publishedAt": "2026-11-27T15:40:51.000Z",
+      "publisher": "coco",
+      "summary": "Sora 2、Veo 3.1、Seedance、Kling、Wan 2.7——今の動画生成AIを使えば、誰でも「5秒間の美しいワンカット」なら簡単に作れるようになりました。 しかし、いざ**「60秒〜90秒のショートアニメ」「ナレーション…"
     }
   ],
-  "fetchedAt": "2026-11-27T21:23:03.877Z",
+  "fetchedAt": "2026-11-28T03:25:49.523Z",
   "stale": false,
   "error": null
 }
